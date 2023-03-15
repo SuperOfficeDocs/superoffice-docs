@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 30,
-    "Name": "Ryan, Klocko and Kirlin",
-    "Tooltip": "qui",
-    "Rank": 403,
-    "Key": "rerum",
+    "LegalBaseId": 870,
+    "Name": "Tillman-Moore",
+    "Tooltip": "alias",
+    "Rank": 350,
+    "Key": "vero",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 829
       }
     }
   }

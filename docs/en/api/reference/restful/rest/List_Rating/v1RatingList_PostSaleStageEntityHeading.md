@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 878,
-  "Name": "Huels Inc and Sons",
-  "Tooltip": "facilis",
+  "HeadingId": 442,
+  "Name": "Funk-Smitham",
+  "Tooltip": "ea",
   "Deleted": true,
-  "Rank": 469,
-  "UdListDefinitionId": 930
+  "Rank": 170,
+  "UdListDefinitionId": 662
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 489,
-  "Name": "Grimes, Conn and Schimmel",
-  "Tooltip": "sed",
+  "HeadingId": 596,
+  "Name": "Runolfsson Group",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 1002,
-  "UdListDefinitionId": 22,
+  "Rank": 263,
+  "UdListDefinitionId": 447,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 983
     }
   }
 }

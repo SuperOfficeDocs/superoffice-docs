@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "King Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "UdListDefinitionId": 24,
-    "Rank": 527
+    "Id": 654,
+    "Name": "Little, Koepp and Braun",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "UdListDefinitionId": 897,
+    "Rank": 992
   },
   {
-    "Id": 304,
-    "Name": "King Inc and Sons",
-    "Tooltip": "laboriosam",
-    "Deleted": true,
-    "UdListDefinitionId": 24,
-    "Rank": 527
+    "Id": 654,
+    "Name": "Little, Koepp and Braun",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "UdListDefinitionId": 897,
+    "Rank": 992
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Swaniawski-Toy",
+    "Id": 385,
+    "Name": "Johnson, Torphy and Rowe",
     "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 839,
-    "Rank": 974,
+    "Deleted": false,
+    "UdListDefinitionId": 189,
+    "Rank": 884,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldLength": 337
       }
     }
   }

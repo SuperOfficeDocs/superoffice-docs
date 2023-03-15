@@ -85,7 +85,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Beer-Vandervort",
-  "SaleDate": "2011-01-15T11:22:45.1787253+01:00",
-  "SaleId": 596,
-  "Probability": 14,
-  "Title": "dolores",
-  "Amount": 8521.346,
-  "Currency": "in",
-  "ProjectName": "Wolf, Reilly and Koch",
-  "AssociateFullName": "Mr. Aaron Tremblay",
-  "Description": "Re-engineered mission-critical standardization",
+  "ContactName": "Kohler-Bode",
+  "SaleDate": "2005-10-27T12:15:27.3416333+02:00",
+  "SaleId": 892,
+  "Probability": 658,
+  "Title": "rerum",
+  "Amount": 7994.834,
+  "Currency": "minima",
+  "ProjectName": "Torphy LLC",
+  "AssociateFullName": "Randal Crona",
+  "Description": "Devolved motivating superstructure",
   "Status": "Lost",
-  "WeightedAmount": 4973.6579999999994,
-  "ProjectId": 262,
-  "EarningPercent": 22790.448,
-  "Earning": 4165.086,
-  "ContactId": 690,
-  "AssociateId": 4,
-  "PersonId": 639,
-  "SaleTypeId": 102,
-  "SaleTypeName": "Cremin, King and Ondricka",
-  "PersonFullName": "Miss Julius Freeda Price",
+  "WeightedAmount": 15156.024,
+  "ProjectId": 684,
+  "EarningPercent": 23605.288,
+  "Earning": 9931.6459999999988,
+  "ContactId": 944,
+  "AssociateId": 18,
+  "PersonId": 550,
+  "SaleTypeId": 547,
+  "SaleTypeName": "White-Kuhic",
+  "PersonFullName": "Dr. Danielle McCullough MD",
   "Completed": "Completed",
-  "ActiveErpLinks": 149,
-  "NextDueDate": "2015-02-28T11:22:45.1787253+01:00",
-  "Number": "570433",
+  "ActiveErpLinks": 798,
+  "NextDueDate": "2007-04-25T12:15:27.3416333+02:00",
+  "Number": "1127279",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 679
     }
   }
 }

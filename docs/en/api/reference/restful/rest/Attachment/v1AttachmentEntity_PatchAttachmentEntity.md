@@ -112,18 +112,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "amet",
+    "path": "nulla",
     "value": {}
   },
   {
     "op": "add",
-    "path": "amet",
+    "path": "nulla",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 968,
-  "Name": "Terry, Mosciski and Schimmel",
-  "ContentType": "esse",
-  "AttSize": 433,
+  "AttachmentId": 74,
+  "Name": "Wunsch Inc and Sons",
+  "ContentType": "nihil",
+  "AttSize": 480,
   "InlineImage": false,
-  "ContentId": "saepe",
+  "ContentId": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   },
   "_Links": {

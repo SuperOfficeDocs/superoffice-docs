@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "ea",
-  "SearchString": "recusandae"
+  "Type": "iusto",
+  "SearchString": "pariatur"
 }
 ```
 
@@ -96,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergstrom, Kutch and Kovacek",
-    "DisplayName": "O'Connell Group",
+    "Name": "Senger-Wilderman",
+    "DisplayName": "Boyer, Schneider and Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 617
       }
     }
   },
   {
-    "Name": "Bergstrom, Kutch and Kovacek",
-    "DisplayName": "O'Connell Group",
+    "Name": "Senger-Wilderman",
+    "DisplayName": "Boyer, Schneider and Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 617
       }
     }
   }

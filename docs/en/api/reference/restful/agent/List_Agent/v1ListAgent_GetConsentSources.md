@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 433,
-    "Name": "Swift-Wolf",
-    "Tooltip": "sit",
-    "Rank": 777,
-    "Key": "iure",
-    "MailTemplateId": 79,
+    "ConsentSourceId": 930,
+    "Name": "Johnston-King",
+    "Tooltip": "id",
+    "Rank": 539,
+    "Key": "laudantium",
+    "MailTemplateId": 563,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 946
       }
     }
   }

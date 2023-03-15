@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 277,
-    "Name": "Dickinson-Parisian",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "Rank": 438,
-    "UdListDefinitionId": 300,
+    "HeadingId": 81,
+    "Name": "Koelpin Inc and Sons",
+    "Tooltip": "doloremque",
+    "Deleted": true,
+    "Rank": 613,
+    "UdListDefinitionId": 926,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldLength": 764
       }
     }
   }

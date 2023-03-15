@@ -53,7 +53,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -90,27 +90,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 328,
+  "EjMessageId": 751,
   "Ticket": null,
-  "CreatedAt": "2018-11-22T11:22:45.3193196+01:00",
+  "CreatedAt": "2001-12-21T12:15:27.5406277+01:00",
   "CreatedBy": null,
-  "Author": "vitae",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "soluta",
-  "TimeSpent": 949,
-  "Body": "eum",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "leanna@parisian.uk",
-  "DebugInfo": "cum",
-  "MailSorter": "voluptate",
+  "MessageId": "molestiae",
+  "TimeSpent": 928,
+  "Body": "ipsam",
+  "HtmlBody": "maiores",
+  "EmailHeader": "lawrence@lesch.biz",
+  "DebugInfo": "et",
+  "MailSorter": "sint",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "possimus",
+  "SearchTitle": "eius",
   "MessageHeaders": [
     {
-      "Id": 1001,
-      "Name": "Fadel-Kassulke",
+      "Id": 382,
+      "Name": "Murazik, Deckow and Kassulke",
       "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
@@ -118,48 +118,48 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldType": "System.String",
+          "FieldLength": 489
         }
       }
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 133,
-  "SentimentConfidence": 81,
+  "Language": "minus",
+  "Sentiment": 429,
+  "SentimentConfidence": 853,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 5,
-      "Name": "Koepp LLC",
-      "ContentType": "sequi",
-      "AttSize": 117,
-      "InlineImage": true,
-      "ContentId": "quidem",
+      "AttachmentId": 730,
+      "Name": "Hoeger-Gibson",
+      "ContentType": "necessitatibus",
+      "AttSize": 693,
+      "InlineImage": false,
+      "ContentId": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "non"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sit"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "officiis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldLength": 42
     }
   }
 }

@@ -78,23 +78,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 545,
-  "Name": "Torp-Ebert",
-  "CreatedDate": "1996-07-21T11:22:38.3678241+02:00",
-  "UpdatedDate": "2016-02-14T11:22:38.3678241+01:00",
+  "ForeignAppId": 946,
+  "Name": "Wolff-Stoltenberg",
+  "CreatedDate": "2014-01-19T12:15:19.140749+01:00",
+  "UpdatedDate": "2009-06-19T12:15:19.140749+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 519,
-      "Name": "Raynor, Lind and Wisoky",
-      "CreatedDate": "2006-11-18T11:22:38.3678241+01:00",
-      "UpdatedDate": "2000-03-21T11:22:38.3678241+01:00",
-      "AssociateFullName": "Nikki Walton Langworth PhD",
-      "CreatedBy": "eaque",
-      "UpdatedBy": "dolore",
-      "DeviceIdentifier": "dicta",
-      "ForeignAppId": 810
+      "ForeignDeviceId": 735,
+      "Name": "Wisozk-Collins",
+      "CreatedDate": "1996-08-31T12:15:19.1417512+02:00",
+      "UpdatedDate": "2008-09-20T12:15:19.1417512+02:00",
+      "AssociateFullName": "Miss Margaret Zoey Kautzer MD",
+      "CreatedBy": "dolor",
+      "UpdatedBy": "odio",
+      "DeviceIdentifier": "iste",
+      "ForeignAppId": 624
     }
   ]
 }
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 393,
-  "Name": "Terry LLC",
-  "CreatedDate": "2010-05-05T11:22:38.3678241+02:00",
-  "UpdatedDate": "1998-01-21T11:22:38.3678241+01:00",
+  "ForeignAppId": 154,
+  "Name": "Moore Inc and Sons",
+  "CreatedDate": "1996-10-02T12:15:19.142749+02:00",
+  "UpdatedDate": "2014-06-06T12:15:19.142749+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 459,
-      "Name": "Schamberger, Hoppe and Deckow",
-      "CreatedDate": "2022-08-14T11:22:38.3678241+02:00",
-      "UpdatedDate": "2002-08-16T11:22:38.3678241+02:00",
-      "AssociateFullName": "Joshuah Hauck",
-      "CreatedBy": "itaque",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 119,
+      "ForeignDeviceId": 301,
+      "Name": "Stiedemann, Klein and Klein",
+      "CreatedDate": "2004-05-11T12:15:19.1437493+02:00",
+      "UpdatedDate": "2006-09-19T12:15:19.1437493+02:00",
+      "AssociateFullName": "Mrs. Clovis Heidenreich",
+      "CreatedBy": "sunt",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 570,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldLength": 506
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 384
     }
   }
 }

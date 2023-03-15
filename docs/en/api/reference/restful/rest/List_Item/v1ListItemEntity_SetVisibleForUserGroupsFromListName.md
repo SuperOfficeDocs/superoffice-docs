@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Murazik, Mitchell and Monahan",
-    "ToolTip": "Repudiandae minus delectus asperiores nobis sint assumenda.",
+    "Id": 578,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Laborum esse et quas.",
     "Deleted": false,
-    "Rank": 784,
-    "Type": "tenetur",
-    "ColorBlock": 950,
-    "IconHint": "sapiente",
+    "Rank": 133,
+    "Type": "debitis",
+    "ColorBlock": 131,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2000-01-15T11:22:45.5536344+01:00",
+    "LastChanged": "2016-09-04T12:15:27.8386228+02:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Murray-Corkery",
-        "ToolTip": "Voluptatibus placeat occaecati incidunt.",
+        "Id": 23,
+        "Name": "Goodwin, Waters and Nicolas",
+        "ToolTip": "Est consequatur id expedita illo ducimus.",
         "Deleted": false,
-        "Rank": 25,
-        "Type": "beatae",
-        "ColorBlock": 80,
-        "IconHint": "sunt",
+        "Rank": 429,
+        "Type": "dolore",
+        "ColorBlock": 229,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2010-04-25T11:22:45.5536344+02:00",
+        "LastChanged": "2021-04-18T12:15:27.8386228+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "rerum",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Candice Sawayn"
+        "FullName": "Ladarius Beer"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "rem",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Jay Rolfson PhD"
+    "FullName": "Ellen Jewel Jast IV"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Kuhn, Dibbert and Brown",
-    "ToolTip": "At dolor quasi reprehenderit excepturi.",
+    "Id": 708,
+    "Name": "Kihn, Koch and Kohler",
+    "ToolTip": "Odit beatae voluptas et et assumenda iste eos.",
     "Deleted": true,
-    "Rank": 725,
-    "Type": "libero",
-    "ColorBlock": 999,
-    "IconHint": "illo",
+    "Rank": 167,
+    "Type": "consequatur",
+    "ColorBlock": 593,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2000-12-02T11:22:45.5536344+01:00",
+    "LastChanged": "2015-02-10T12:15:27.8396227+01:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "DuBuque-Lockman",
-        "ToolTip": "Sint facere.",
-        "Deleted": true,
-        "Rank": 719,
-        "Type": "blanditiis",
-        "ColorBlock": 498,
-        "IconHint": "veritatis",
+        "Id": 622,
+        "Name": "Lakin-Harris",
+        "ToolTip": "Error architecto.",
+        "Deleted": false,
+        "Rank": 294,
+        "Type": "omnis",
+        "ColorBlock": 230,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2009-05-05T11:22:45.5536344+02:00",
+        "LastChanged": "2015-12-09T12:15:27.8406237+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "ea",
+        "ExtraInfo": "libero",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Prof. Columbus Mohr",
+        "FullName": "Ms. Blaise Strosin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldLength": 128
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "ea",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Leatha Paucek",
+    "FullName": "Lavada Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 442
       }
     }
   }

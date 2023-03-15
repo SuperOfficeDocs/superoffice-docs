@@ -122,16 +122,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    596,
-    337
+    300,
+    354
   ],
-  "StartTime": "2009-05-27T11:22:36.9619023+02:00",
-  "EndTime": "1998-03-25T11:22:36.9619023+01:00"
+  "StartTime": "1998-11-17T12:15:17.6777713+01:00",
+  "EndTime": "2009-11-08T12:15:17.6777713+01:00"
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 262,
-    "StartDate": "1996-01-29T11:22:36.9619023+01:00",
-    "EndDate": "2005-12-18T11:22:36.9619023+01:00",
+    "AppointmentId": 500,
+    "StartDate": "2011-01-21T12:15:17.6787698+01:00",
+    "EndDate": "2005-08-16T12:15:17.6787698+02:00",
     "Type": "BookingForChecklist",
-    "Task": "impedit",
-    "AssociateFullName": "Dr. Alice Bernadette Harris III",
-    "ContactName": "Flatley Inc and Sons",
-    "Description": "Ergonomic dynamic artificial intelligence",
-    "PersonFullName": "Dr. Kaelyn Jordy Veum V",
-    "PersonId": 529,
-    "ContactId": 140,
-    "ProjectId": 894,
-    "ProjectName": "Erdman-Nolan",
+    "Task": "aut",
+    "AssociateFullName": "Dr. Janae Amos Kovacek",
+    "ContactName": "Harris Group",
+    "Description": "Organic high-level contingency",
+    "PersonFullName": "Margot Thiel",
+    "PersonId": 499,
+    "ContactId": 589,
+    "ProjectId": 489,
+    "ProjectName": "Cole-Carroll",
     "IsPublished": false,
-    "AssociateId": 523,
-    "ColorIndex": 522,
+    "AssociateId": 921,
+    "ColorIndex": 706,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 853,
-    "PriorityName": "Hodkiewicz-Turner",
+    "PriorityId": 276,
+    "PriorityName": "Pouros, Schowalter and Stokes",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2009-10-19T11:22:36.9619023+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-04-21T12:15:17.6797765+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-07-25T11:22:36.9619023+02:00",
-    "RecurringEndDate": "1997-05-18T11:22:36.9619023+02:00",
-    "MotherId": 182,
-    "AssignedBy": 443,
-    "AssignedByFullName": "Ms. Janie Volkman DVM",
+    "RecurringStartDate": "2010-03-14T12:15:17.6797765+01:00",
+    "RecurringEndDate": "2003-03-13T12:15:17.6797765+01:00",
+    "MotherId": 958,
+    "AssignedBy": 137,
+    "AssignedByFullName": "Ms. Ramona Aileen Wisoky Sr.",
     "RejectReason": "",
-    "Location": "iste",
-    "AlarmLeadTime": "qui",
-    "SaleId": 116,
-    "SaleName": "Koelpin LLC",
-    "AssociateName": "Boehm, Anderson and Prohaska",
-    "CreatedDate": "2021-07-28T11:22:36.9619023+02:00",
-    "CreatedBy": "totam",
-    "CreatedByFullName": "Delfina Kuhn",
-    "CreatedByAssociateId": 38,
+    "Location": "magni",
+    "AlarmLeadTime": "repellendus",
+    "SaleId": 799,
+    "SaleName": "Bogisich, Miller and Beier",
+    "AssociateName": "Wintheiser, Littel and Hodkiewicz",
+    "CreatedDate": "1997-01-13T12:15:17.6797765+01:00",
+    "CreatedBy": "quam",
+    "CreatedByFullName": "Brisa Dooley",
+    "CreatedByAssociateId": 598,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldLength": 844
       }
     }
   }

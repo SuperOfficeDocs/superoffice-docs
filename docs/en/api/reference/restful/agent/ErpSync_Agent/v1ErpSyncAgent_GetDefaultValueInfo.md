@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 763
+  "ErpFieldId": 264
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 110,
-  "DefaultValue": "sed",
+  "ErpFieldId": 970,
+  "DefaultValue": "ut",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "delectus",
+  "FirstSyncDefaultValue": "velit",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "nesciunt",
+  "ErpFieldKey": "rerum",
   "FieldType": "Checkbox",
-  "ListName": "Bins Inc and Sons",
+  "ListName": "Cummings LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 802
     }
   }
 }

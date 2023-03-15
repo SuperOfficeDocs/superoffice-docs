@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "Metz-Witting",
-    "ToolTip": "Quo ipsa aut sequi repellendus laborum et.",
+    "Id": 747,
+    "Name": "Bergstrom-Glover",
+    "ToolTip": "Id consectetur nemo sequi enim voluptatem et et.",
     "Deleted": true,
-    "Rank": 1000,
-    "Type": "pariatur",
-    "ColorBlock": 844,
-    "IconHint": "voluptatem",
+    "Rank": 707,
+    "Type": "molestiae",
+    "ColorBlock": 29,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2022-11-10T11:22:45.8191493+01:00",
+    "LastChanged": "2008-08-16T12:15:27.9276217+02:00",
     "ChildItems": [
       {
-        "Id": 318,
-        "Name": "Roob, Kemmer and Wintheiser",
-        "ToolTip": "Nihil praesentium pariatur.",
-        "Deleted": true,
-        "Rank": 985,
-        "Type": "quia",
-        "ColorBlock": 695,
-        "IconHint": "voluptas",
+        "Id": 187,
+        "Name": "Balistreri-Hane",
+        "ToolTip": "Ratione ullam id et.",
+        "Deleted": false,
+        "Rank": 472,
+        "Type": "libero",
+        "ColorBlock": 666,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "1996-12-17T11:22:45.8191493+01:00",
+        "LastChanged": "1996-06-05T12:15:27.9276217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "quia",
+        "ExtraInfo": "et",
+        "StyleHint": "repellendus",
         "Hidden": true,
-        "FullName": "Miss Jeremy Gerlach",
+        "FullName": "Madelynn O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldType": "System.String",
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "numquam",
+    "ExtraInfo": "dolores",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Jon Okuneva II",
+    "FullName": "Brandt McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 236
       }
     }
   }

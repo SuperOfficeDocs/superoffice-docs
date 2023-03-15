@@ -84,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Douglas-Jones",
-  "ProviderName": "Mueller Group",
-  "Context": "sunt",
-  "OwnerKeys": "voluptas"
+  "GuiName": "Sauer-Wisozk",
+  "ProviderName": "Kertzmann, McCullough and Daugherty",
+  "Context": "qui",
+  "OwnerKeys": "et"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Windler, Wilkinson and Schultz",
-      "DisplayTooltip": "quaerat",
-      "DisplayType": "omnis",
+      "DisplayName": "Tillman LLC",
+      "DisplayTooltip": "eligendi",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Rice-McDermott",
-      "CanRestrictBy": true,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Reilly Inc and Sons",
+      "Name": "Larkin-Murray",
+      "CanRestrictBy": false,
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Emmerich Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "vero",
-      "Width": "consequuntur",
-      "IconHint": "saepe",
-      "HeadingIconHint": "ipsum"
+      "ExtraInfo": "eum",
+      "Width": "dolor",
+      "IconHint": "quia",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 510,
-      "Name": "Leffler Group",
-      "ToolTip": "Ullam optio.",
-      "Deleted": true,
-      "Rank": 669,
-      "Type": "dolorem",
-      "ColorBlock": 466,
-      "IconHint": "qui",
-      "Selected": false,
-      "LastChanged": "2014-03-28T11:22:37.3992475+01:00",
+      "Id": 654,
+      "Name": "Marquardt, Franecki and Prosacco",
+      "ToolTip": "Consequatur ut consectetur provident et.",
+      "Deleted": false,
+      "Rank": 364,
+      "Type": "aperiam",
+      "ColorBlock": 912,
+      "IconHint": "cupiditate",
+      "Selected": true,
+      "LastChanged": "2012-08-07T12:15:18.1507677+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Dr. Jerel Heidenreich",
+      "ExtraInfo": "tenetur",
+      "StyleHint": "sunt",
+      "Hidden": true,
+      "FullName": "Connor Lesch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 29
+          "FieldLength": 6
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Ledner Inc and Sons",
+      "Name": "Homenick-Kemmer",
       "Direction": "ASC"
     },
     {
-      "Name": "Ledner Inc and Sons",
+      "Name": "Homenick-Kemmer",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ea",
+  "OwnerKeys": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 258
+  "ProductId": 361
 }
 ```
 
@@ -120,73 +120,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 144,
-  "ERPProductKey": "commodi",
-  "ERPPriceListKey": "rem",
-  "Name": "Deckow Group",
-  "Description": "Operative disintermediate info-mediaries",
-  "Code": "aspernatur",
-  "PriceUnit": "dolorem",
-  "QuantityUnit": "accusantium",
+  "ProductId": 838,
+  "ERPProductKey": "temporibus",
+  "ERPPriceListKey": "in",
+  "Name": "Klein Group",
+  "Description": "Quality-focused leading edge task-force",
+  "Code": "voluptatum",
+  "PriceUnit": "voluptate",
+  "QuantityUnit": "officia",
   "IsSubscription": false,
-  "SubscriptionUnit": "ipsam",
-  "DefaultSubscriptionQuantity": 319.668,
-  "ItemNumber": "460626",
+  "SubscriptionUnit": "dolorum",
+  "DefaultSubscriptionQuantity": 22107.236,
+  "ItemNumber": "473615",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repellendus",
-  "ProductTypeKey": "labore",
-  "VAT": 5565.9839999999995,
-  "VATInfo": "sed",
-  "UnitCost": 24391.922,
-  "UnitMinimumPrice": 28271.814,
-  "UnitListPrice": 28118.248,
-  "InAssortment": false,
-  "Supplier": "possimus",
-  "SupplierCode": "dolore",
-  "Rights": "provident",
-  "Rule": "quis",
+  "ProductFamilyKey": "esse",
+  "ProductTypeKey": "iste",
+  "VAT": 11457.904,
+  "VATInfo": "eaque",
+  "UnitCost": 6023.548,
+  "UnitMinimumPrice": 15137.22,
+  "UnitListPrice": 22292.142,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "nobis",
+  "Rights": "quia",
+  "Rule": "vero",
   "ExtraInfo": [
     {
-      "Name": "Stokes-Wolf",
-      "Value": "eum",
+      "Name": "Ward-Treutel",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 118
         }
       }
     },
     {
-      "Name": "Stokes-Wolf",
-      "Value": "eum",
+      "Name": "Ward-Treutel",
+      "Value": "non",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 118
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
-  "ExtraField1": "vero",
-  "ExtraField2": "eius",
-  "ExtraField3": "quam",
-  "ExtraField4": "quasi",
-  "ExtraField5": "iste",
-  "InStock": 28716.842,
+  "RawExtraInfo": "hic",
+  "ExtraField1": "velit",
+  "ExtraField2": "qui",
+  "ExtraField3": "nobis",
+  "ExtraField4": "nam",
+  "ExtraField5": "incidunt",
+  "InStock": 12658.225999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 543
     }
   }
 }

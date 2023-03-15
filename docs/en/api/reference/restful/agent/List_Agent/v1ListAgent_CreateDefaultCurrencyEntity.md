@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 806,
-  "Name": "Weissnat-Predovic",
-  "Tooltip": "nemo",
-  "Rank": 714,
-  "Rate": 30619.18,
-  "Units": 16259.192,
+  "CurrencyId": 646,
+  "Name": "Schulist-Hand",
+  "Tooltip": "vitae",
+  "Rank": 677,
+  "Rate": 22868.798,
+  "Units": 19480.944,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 7
+      "FieldType": "System.Int32",
+      "FieldLength": 88
     }
   }
 }

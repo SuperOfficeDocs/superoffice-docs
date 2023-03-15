@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 723,
-  "Name": "Johnston Inc and Sons",
-  "Tooltip": "ea",
+  "HeadingId": 519,
+  "Name": "Gusikowski Group",
+  "Tooltip": "minus",
   "Deleted": true,
-  "Rank": 123,
-  "UdListDefinitionId": 384
+  "Rank": 871,
+  "UdListDefinitionId": 985
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 173,
-  "Name": "Gibson LLC",
-  "Tooltip": "corrupti",
+  "HeadingId": 719,
+  "Name": "Stanton, Corkery and Moen",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 244,
-  "UdListDefinitionId": 766,
+  "Rank": 253,
+  "UdListDefinitionId": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 586
     }
   }
 }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
+  "Id": 725,
   "IncludeAttachments": true
 }
 ```
@@ -118,146 +118,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 995,
-      "ContactName": "Waelchi-Terry",
-      "PersonId": 913,
-      "PersonName": "Kozey Group",
-      "AssociateId": 858,
-      "Address": "sed",
-      "EmailId": 104,
+      "ContactId": 617,
+      "ContactName": "Stroman Inc and Sons",
+      "PersonId": 505,
+      "PersonName": "Ward-Gleason",
+      "AssociateId": 499,
+      "Address": "a",
+      "EmailId": 30,
       "DuplicatePersonIds": [
-        337,
-        808
+        572,
+        898
       ],
-      "Name": "Runolfsson, McKenzie and Hickle",
+      "Name": "Simonis, Hettinger and Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 817,
-      "ContactName": "Schroeder, Flatley and Kirlin",
-      "PersonId": 888,
-      "PersonName": "Beier, Braun and Mills",
-      "AssociateId": 562,
-      "Address": "totam",
-      "EmailId": 902,
+      "ContactId": 587,
+      "ContactName": "Cremin Group",
+      "PersonId": 155,
+      "PersonName": "Thiel-Pollich",
+      "AssociateId": 917,
+      "Address": "iste",
+      "EmailId": 103,
       "DuplicatePersonIds": [
-        265,
-        54
+        460,
+        705
       ],
-      "Name": "Dicki-Glover",
+      "Name": "Nikolaus Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 988
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 342,
-      "ContactName": "Osinski LLC",
-      "PersonId": 719,
-      "PersonName": "Fisher Inc and Sons",
-      "AssociateId": 198,
-      "Address": "incidunt",
-      "EmailId": 722,
+      "ContactId": 232,
+      "ContactName": "Schultz Group",
+      "PersonId": 463,
+      "PersonName": "Witting-Ward",
+      "AssociateId": 778,
+      "Address": "reiciendis",
+      "EmailId": 911,
       "DuplicatePersonIds": [
-        522,
-        872
+        374,
+        612
       ],
-      "Name": "Grady-Stehr",
+      "Name": "Nikolaus LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldType": "System.Int32",
+          "FieldLength": 372
         }
       }
     }
   ],
-  "Subject": "autem",
-  "HTMLBody": "et",
+  "Subject": "omnis",
+  "HTMLBody": "sint",
   "From": null,
-  "Sent": "2021-05-11T11:22:38.289718+02:00",
-  "Size": 808,
+  "Sent": "2001-01-05T12:15:19.0567502+01:00",
+  "Size": 581,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "atque",
-  "PlainBody": "dolore",
+  "MessageID": "assumenda",
+  "PlainBody": "voluptatem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 65,
+  "ServerId": 348,
   "Attachments": [
     {
-      "Description": "Innovative user-facing local area network",
-      "Filename": "assumenda",
-      "Size": 968,
-      "Type": "est",
-      "Encoding": "iste",
-      "Id": "atque",
-      "Disposition": "dolorem",
+      "Description": "Multi-tiered encompassing service-desk",
+      "Filename": "consequuntur",
+      "Size": 777,
+      "Type": "doloribus",
+      "Encoding": "ullam",
+      "Id": "enim",
+      "Disposition": "expedita",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 630
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Will LLC",
+      "Name": "Grimes, Toy and Heathcote",
       "Values": [
-        "velit",
-        "quibusdam"
+        "corrupti",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 60
         }
       }
     },
     {
-      "Name": "Will LLC",
+      "Name": "Grimes, Toy and Heathcote",
       "Values": [
-        "velit",
-        "quibusdam"
+        "corrupti",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 60
         }
       }
     }
   ],
-  "FolderName": "Hartmann Inc and Sons",
-  "EmailItemId": 440,
-  "AccountId": 914,
-  "ReceivedAt": "2014-10-19T11:22:38.289718+02:00",
+  "FolderName": "Roberts, O'Kon and Buckridge",
+  "EmailItemId": 951,
+  "AccountId": 750,
+  "ReceivedAt": "2014-02-10T12:15:19.0587502+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-05-19T11:22:38.289718+02:00",
+  "RepliedAt": "1998-04-06T12:15:19.0587502+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 463
     }
   }
 }

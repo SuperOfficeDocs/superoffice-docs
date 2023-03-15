@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 910,
-  "Channel": "unde",
-  "Regarding": "sint",
-  "ContactName": "Kihn-Bergnaum",
-  "PersonFirstname": "Catalina",
-  "PersonLastname": "Bartoletti",
-  "EmailAddress": "ottilie.price@schmidtbogan.biz",
-  "PhoneNumber": "1002724"
+  "AssociateIdForNewContact": 605,
+  "Channel": "accusantium",
+  "Regarding": "minus",
+  "ContactName": "Gerhold-Huel",
+  "PersonFirstname": "Bridie",
+  "PersonLastname": "Hansen",
+  "EmailAddress": "judson@braun.info",
+  "PhoneNumber": "763222"
 }
 ```
 
@@ -107,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 550,
-      "Name": "Greenholt-Hermann",
-      "OrgNr": "1049187",
+      "ContactId": 44,
+      "Name": "Kilback, Gerhold and Metz",
+      "OrgNr": "914067",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "inventore",
-      "DirectPhone": "(978)269-2545",
-      "AssociateId": 504,
-      "CountryId": 472,
-      "EmailAddress": "titus@koss.info",
-      "Kananame": "architecto",
-      "EmailAddressName": "vicenta@eberthauck.com",
+      "City": "sit",
+      "DirectPhone": "(297)559-1182 x581",
+      "AssociateId": 979,
+      "CountryId": 929,
+      "EmailAddress": "jewell@framirobel.uk",
+      "Kananame": "qui",
+      "EmailAddressName": "cecilia.braun@kihn.biz",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Uriah Bernier",
+      "AssociateFullName": "Darian Bogan Jr.",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "est",
-      "FullName": "Mrs. Estell Kertzmann II",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 872,
-      "Number1": "310916",
-      "Number2": "1039037",
+      "FormattedAddress": "sunt",
+      "FullName": "Miss Estel Rempel Jr.",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 677,
+      "Number1": "697760",
+      "Number2": "606116",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldType": "System.String",
+          "FieldLength": 520
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

@@ -87,15 +87,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 154,
-  "Name": "White-Christiansen",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 485,
+  "Id": 924,
+  "Name": "Schinner-White",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 339,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "asperiores",
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Schumm Group",
-  "Tooltip": "cupiditate",
-  "Deleted": false,
-  "Rank": 68,
+  "Id": 471,
+  "Name": "Erdman-West",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 406,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quos",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

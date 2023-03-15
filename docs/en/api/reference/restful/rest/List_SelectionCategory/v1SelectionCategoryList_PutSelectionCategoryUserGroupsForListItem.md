@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Wyman Group",
-    "ToolTip": "Illo quo autem et reprehenderit.",
+    "Id": 23,
+    "Name": "Oberbrunner-Adams",
+    "ToolTip": "Eaque esse error soluta ipsa id.",
     "Deleted": false,
-    "Rank": 914,
-    "Type": "consectetur",
-    "ColorBlock": 386,
-    "IconHint": "suscipit",
+    "Rank": 534,
+    "Type": "ut",
+    "ColorBlock": 721,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2002-10-31T11:22:46.1941157+01:00",
+    "LastChanged": "2018-06-12T12:15:28.4986141+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Ondricka LLC",
-        "ToolTip": "Quod voluptate inventore.",
+        "Id": 169,
+        "Name": "Schuster Group",
+        "ToolTip": "Ut ipsam molestiae deserunt veniam.",
         "Deleted": false,
-        "Rank": 9,
-        "Type": "unde",
-        "ColorBlock": 793,
-        "IconHint": "voluptates",
+        "Rank": 484,
+        "Type": "necessitatibus",
+        "ColorBlock": 658,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2011-09-17T11:22:46.1941157+02:00",
+        "LastChanged": "2003-09-07T12:15:28.4996134+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mr. Leora Reinger"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "veritatis",
+        "Hidden": true,
+        "FullName": "Miss Gene Nora Yundt IV"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "cumque",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Dr. Connie Elmore Cartwright"
+    "FullName": "Sebastian Gutkowski"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Sauer LLC",
-    "ToolTip": "Temporibus in et itaque laborum et veniam ut.",
-    "Deleted": true,
-    "Rank": 940,
-    "Type": "aliquam",
-    "ColorBlock": 833,
-    "IconHint": "perferendis",
+    "Id": 18,
+    "Name": "Fritsch, Connelly and Hermiston",
+    "ToolTip": "Omnis tenetur voluptatem natus.",
+    "Deleted": false,
+    "Rank": 509,
+    "Type": "recusandae",
+    "ColorBlock": 902,
+    "IconHint": "deserunt",
     "Selected": false,
-    "LastChanged": "1995-09-15T11:22:46.1941157+02:00",
+    "LastChanged": "2014-03-02T12:15:28.5016139+01:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Powlowski, Gutmann and Bernhard",
-        "ToolTip": "Nostrum qui voluptates adipisci sunt velit.",
-        "Deleted": true,
-        "Rank": 207,
-        "Type": "dicta",
-        "ColorBlock": 812,
-        "IconHint": "voluptate",
-        "Selected": true,
-        "LastChanged": "1996-09-09T11:22:46.1941157+02:00",
+        "Id": 7,
+        "Name": "Stehr-Medhurst",
+        "ToolTip": "Beatae labore a at et.",
+        "Deleted": false,
+        "Rank": 36,
+        "Type": "voluptas",
+        "ColorBlock": 400,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2016-10-09T12:15:28.5016139+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "dignissimos",
-        "Hidden": false,
-        "FullName": "Talia Gleichner",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "eveniet",
+        "Hidden": true,
+        "FullName": "Osborne Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldType": "System.String",
+            "FieldLength": 459
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "quo",
-    "Hidden": true,
-    "FullName": "Miss Theron Elnora Huels DDS",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "beatae",
+    "Hidden": false,
+    "FullName": "Dr. Glenna Russel MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 582
       }
     }
   }

@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 160,
-  "Name": "Abernathy Group",
-  "Tooltip": "molestiae",
-  "Rank": 802,
-  "Key": "fuga",
-  "Deleted": true,
+  "LegalBaseId": 784,
+  "Name": "Kirlin Inc and Sons",
+  "Tooltip": "ut",
+  "Rank": 958,
+  "Key": "molestiae",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 647
     }
   }
 }

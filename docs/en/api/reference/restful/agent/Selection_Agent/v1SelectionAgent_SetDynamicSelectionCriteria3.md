@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 715,
+  "SelectionId": 25,
   "Criteria": [
     {
-      "Name": "Champlin, Jerde and Boyle",
-      "Operator": "sed",
+      "Name": "Dicki, Graham and Daniel",
+      "Operator": "ut",
       "Values": [
-        "et",
-        "corrupti"
+        "dicta",
+        "eligendi"
       ],
       "DisplayValues": [
-        "consequatur",
-        "sint"
+        "quia",
+        "impedit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,12 +106,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 809,
+      "InterParenthesis": 281,
       "InterOperator": "And",
-      "UniqueHash": 599
+      "UniqueHash": 416
     }
   ],
-  "Filter": "incidunt"
+  "Filter": "et"
 }
 ```
 
@@ -123,29 +123,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "White Group",
-    "Operator": "dolorem",
+    "Name": "Davis, Sauer and Gorczany",
+    "Operator": "aut",
     "Values": [
-      "modi",
-      "quo"
+      "ab",
+      "sed"
     ],
     "DisplayValues": [
-      "nisi",
-      "eos"
+      "aliquid",
+      "autem"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Nader Inc and Sons",
-        "Operator": "qui",
+        "Name": "Cummings, D'Amore and Doyle",
+        "Operator": "molestiae",
         "Values": [
-          "ex",
-          "recusandae"
+          "est",
+          "quisquam"
         ],
         "DisplayValues": [
-          "est",
-          "ab"
+          "omnis",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -153,14 +153,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 359,
+        "InterParenthesis": 987,
         "InterOperator": "And",
-        "UniqueHash": 309
+        "UniqueHash": 164
       }
     ],
-    "InterParenthesis": 323,
+    "InterParenthesis": 876,
     "InterOperator": "And",
-    "UniqueHash": 476
+    "UniqueHash": 361
   }
 ]
 ```

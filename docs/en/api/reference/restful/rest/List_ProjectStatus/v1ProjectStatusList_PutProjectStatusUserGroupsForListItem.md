@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Mosciski-Bogan",
-    "ToolTip": "Atque consequuntur sit ut.",
+    "Id": 874,
+    "Name": "McLaughlin-Dietrich",
+    "ToolTip": "Nisi maiores eaque et vel.",
     "Deleted": false,
-    "Rank": 328,
-    "Type": "maiores",
-    "ColorBlock": 18,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2018-03-26T11:22:46.0691442+02:00",
+    "Rank": 193,
+    "Type": "ad",
+    "ColorBlock": 869,
+    "IconHint": "temporibus",
+    "Selected": false,
+    "LastChanged": "2011-09-13T12:15:28.3316166+02:00",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Botsford, Kovacek and Douglas",
-        "ToolTip": "Commodi provident animi praesentium.",
-        "Deleted": false,
-        "Rank": 48,
-        "Type": "fugit",
-        "ColorBlock": 786,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2000-10-01T11:22:46.0691442+02:00",
+        "Id": 784,
+        "Name": "Leannon LLC",
+        "ToolTip": "Voluptatem et temporibus.",
+        "Deleted": true,
+        "Rank": 202,
+        "Type": "cumque",
+        "ColorBlock": 936,
+        "IconHint": "nostrum",
+        "Selected": true,
+        "LastChanged": "2007-01-30T12:15:28.3316166+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Shaina Klocko"
+        "ExtraInfo": "nemo",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Yasmin Quigley"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "officiis",
+    "ExtraInfo": "ab",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Ms. Michel VonRueden PhD"
+    "FullName": "Benton Schimmel"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Batz-Thompson",
-    "ToolTip": "Id reiciendis tempore.",
-    "Deleted": false,
-    "Rank": 336,
-    "Type": "possimus",
-    "ColorBlock": 860,
-    "IconHint": "ut",
+    "Id": 914,
+    "Name": "Morar-Crooks",
+    "ToolTip": "Qui consequuntur ab voluptatum expedita nobis voluptates voluptatibus.",
+    "Deleted": true,
+    "Rank": 252,
+    "Type": "quibusdam",
+    "ColorBlock": 867,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2012-12-02T11:22:46.0691442+01:00",
+    "LastChanged": "2008-01-23T12:15:28.3346162+01:00",
     "ChildItems": [
       {
-        "Id": 564,
-        "Name": "Hodkiewicz, Cormier and Schoen",
-        "ToolTip": "Ipsam fugiat quos.",
-        "Deleted": true,
-        "Rank": 318,
-        "Type": "veritatis",
-        "ColorBlock": 850,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2015-12-03T11:22:46.0691442+01:00",
+        "Id": 177,
+        "Name": "Hartmann LLC",
+        "ToolTip": "Est rerum magnam recusandae quia explicabo sapiente animi.",
+        "Deleted": false,
+        "Rank": 361,
+        "Type": "asperiores",
+        "ColorBlock": 881,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2012-04-25T12:15:28.3346162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "aut",
+        "ExtraInfo": "labore",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Ms. Lauretta Goyette",
+        "FullName": "Ericka Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldLength": 859
           }
         }
       }
     ],
     "ExtraInfo": "optio",
-    "StyleHint": "quaerat",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Josefa Jaskolski",
+    "FullName": "Mrs. Orrin VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

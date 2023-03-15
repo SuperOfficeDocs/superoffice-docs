@@ -25,7 +25,7 @@ Gets a HierarchyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=223
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=12
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 647,
+  "HierarchyId": 410,
   "Domain": "Dashboards",
-  "Name": "Macejkovic LLC",
-  "Fullname": "quia",
-  "ParentId": 234,
+  "Name": "Simonis, Stanton and Ratke",
+  "Fullname": "fugit",
+  "ParentId": 3,
   "Children": [
     {
-      "HierarchyId": 808,
+      "HierarchyId": 871,
       "Domain": "Dashboards",
-      "Name": "Bechtelar, Kub and Gutkowski",
-      "Fullname": "quod",
-      "ParentId": 78,
+      "Name": "Treutel Inc and Sons",
+      "Fullname": "debitis",
+      "ParentId": 607,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-05-21T11:22:38.5084132+02:00",
-      "RegisteredAssociateId": 691,
-      "Updated": "1996-02-02T11:22:38.5084132+01:00",
-      "UpdatedAssociateId": 203,
+      "Registered": "2004-11-11T12:15:19.3107472+01:00",
+      "RegisteredAssociateId": 130,
+      "Updated": "2018-05-20T12:15:19.3107472+02:00",
+      "UpdatedAssociateId": 456,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 949
+          "FieldLength": 574
         }
       }
     }
   ],
-  "Registered": "2006-06-20T11:22:38.5084132+02:00",
-  "RegisteredAssociateId": 878,
-  "Updated": "2002-06-24T11:22:38.5084132+02:00",
-  "UpdatedAssociateId": 786,
+  "Registered": "2019-02-15T12:15:19.3107472+01:00",
+  "RegisteredAssociateId": 619,
+  "Updated": "2018-11-24T12:15:19.3107472+01:00",
+  "UpdatedAssociateId": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 534
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   }
 }

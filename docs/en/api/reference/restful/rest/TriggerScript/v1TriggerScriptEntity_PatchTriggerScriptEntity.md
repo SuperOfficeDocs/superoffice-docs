@@ -119,18 +119,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -143,27 +143,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 146,
-  "Name": "Dach LLC",
+  "ScreenChooserId": 407,
+  "Name": "Lindgren Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "culpa",
-  "Source": "sint",
-  "Registered": "2011-06-05T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 303,
-  "Updated": "2005-02-05T11:22:45.3661887+01:00",
-  "UpdatedAssociateId": 724,
+  "Enabled": true,
+  "UniqueIdentifier": "hic",
+  "Source": "sed",
+  "Registered": "1996-06-20T12:15:27.5916274+02:00",
+  "RegisteredAssociateId": 987,
+  "Updated": "2012-08-12T12:15:27.5916274+02:00",
+  "UpdatedAssociateId": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 587
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

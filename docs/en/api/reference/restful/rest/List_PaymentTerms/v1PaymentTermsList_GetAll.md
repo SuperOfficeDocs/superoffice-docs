@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 214,
-    "Name": "Green-Stracke",
-    "Tooltip": "voluptas",
+    "Id": 589,
+    "Name": "Greenholt-Pollich",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 480,
-    "Rank": 280,
+    "UdListDefinitionId": 350,
+    "Rank": 664,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldType": "System.String",
+        "FieldLength": 726
       }
     }
   }

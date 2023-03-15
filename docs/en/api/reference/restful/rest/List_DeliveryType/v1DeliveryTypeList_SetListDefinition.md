@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Pollich-Mohr",
-  "Tooltip": "eius",
+  "Id": 241,
+  "Name": "Wintheiser Inc and Sons",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 545,
-  "IsCustomList": true,
+  "Rank": 699,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vero",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 569,
-  "Name": "Nader, Smith and Goldner",
+  "Id": 545,
+  "Name": "Krajcik LLC",
   "Tooltip": "quas",
-  "Deleted": true,
-  "Rank": 910,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Deleted": false,
+  "Rank": 768,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "porro",
+  "ListType": "tempore",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldType": "System.String",
+      "FieldLength": 866
     }
   }
 }

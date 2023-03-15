@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 101,
-  "DestinationContactName": "Hartmann-Lynch",
+  "SourceContactId": 378,
+  "DestinationContactName": "Monahan LLC",
   "DestinationContactDepartment": "",
-  "CopyPersons": false
+  "CopyPersons": true
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-467
+991
 ```

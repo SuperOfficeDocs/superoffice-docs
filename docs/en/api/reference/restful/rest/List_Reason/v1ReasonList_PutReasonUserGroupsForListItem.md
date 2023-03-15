@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Lind Inc and Sons",
-    "ToolTip": "Officia voluptatem repellendus natus quis odit.",
-    "Deleted": false,
-    "Rank": 517,
-    "Type": "porro",
-    "ColorBlock": 839,
-    "IconHint": "reprehenderit",
+    "Id": 647,
+    "Name": "Barrows Inc and Sons",
+    "ToolTip": "Dicta doloremque soluta.",
+    "Deleted": true,
+    "Rank": 767,
+    "Type": "omnis",
+    "ColorBlock": 542,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2014-03-21T11:22:46.1316279+01:00",
+    "LastChanged": "1997-04-12T12:15:28.4196143+02:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Ryan LLC",
-        "ToolTip": "Incidunt et.",
+        "Id": 737,
+        "Name": "Tillman Inc and Sons",
+        "ToolTip": "Non molestias magni earum qui.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "suscipit",
-        "ColorBlock": 397,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "1996-08-16T11:22:46.1316279+02:00",
+        "Rank": 289,
+        "Type": "vel",
+        "ColorBlock": 716,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2022-04-30T12:15:28.4196143+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "sed",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Ms. Jakob Dicki I"
+        "FullName": "Llewellyn Gaylord"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "dolor",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Samson Hartmann"
+    "FullName": "Theodore Altenwerth"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Nienow Group",
-    "ToolTip": "Voluptatem vel eius.",
+    "Id": 717,
+    "Name": "Haley, Stehr and Marvin",
+    "ToolTip": "Iure pariatur aut voluptate sed quaerat.",
     "Deleted": false,
-    "Rank": 9,
-    "Type": "qui",
-    "ColorBlock": 830,
-    "IconHint": "enim",
+    "Rank": 335,
+    "Type": "quia",
+    "ColorBlock": 868,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2011-02-20T11:22:46.1316279+01:00",
+    "LastChanged": "1999-09-22T12:15:28.4216147+02:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Greenfelder-Witting",
-        "ToolTip": "Nulla ducimus harum consectetur.",
-        "Deleted": false,
-        "Rank": 90,
-        "Type": "sit",
-        "ColorBlock": 529,
-        "IconHint": "quia",
+        "Id": 106,
+        "Name": "Spencer, Cremin and Muller",
+        "ToolTip": "Harum est sed facilis.",
+        "Deleted": true,
+        "Rank": 320,
+        "Type": "cumque",
+        "ColorBlock": 194,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1997-10-01T11:22:46.1316279+02:00",
+        "LastChanged": "2005-08-09T12:15:28.4216147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Jessie Boyle",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Kelley Silas Gibson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 777
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Mr. Krystal Wehner V",
+    "ExtraInfo": "fugit",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Mr. Raina Rogahn MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 556
+        "FieldType": "System.String",
+        "FieldLength": 809
       }
     }
   }

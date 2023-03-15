@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Klocko-Casper"
+  "LayoutName": "Schuppe, Shields and Jast"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 634,
-    "Name": "Mosciski Group",
-    "Value": "temporibus",
-    "CreatedDate": "2022-12-10T11:22:37.4304911+01:00",
-    "UpdatedDate": "1997-08-01T11:22:37.4304911+02:00",
-    "CreatedBy": "quod",
-    "UpdatedBy": "a",
+    "AudienceLayoutId": 786,
+    "Name": "Botsford-Schoen",
+    "Value": "ab",
+    "CreatedDate": "2013-11-15T12:15:18.1917625+01:00",
+    "UpdatedDate": "1998-01-15T12:15:18.1917625+01:00",
+    "CreatedBy": "omnis",
+    "UpdatedBy": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   }

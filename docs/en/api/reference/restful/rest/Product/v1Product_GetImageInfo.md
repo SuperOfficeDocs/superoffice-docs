@@ -72,7 +72,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 11 Jun 2006 11:22:45 G6T
+Last-Modified: Sun, 21 May 2006 12:15:27 G5T
 
 {
-  "BlobId": 341,
-  "BlobSize": 890,
-  "Description": "Front-line grid-enabled superstructure",
-  "ExtraInfo": "inventore",
+  "BlobId": 623,
+  "BlobSize": 888,
+  "Description": "Inverse explicit ability",
+  "ExtraInfo": "voluptatum",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "laudantium",
-  "OriginalSize": 555,
-  "CreatedDate": "2003-12-27T11:22:45.4442386+01:00",
-  "UpdatedDate": "2006-06-11T11:22:45.4442386+02:00",
+  "IsZipped": false,
+  "MimeType": "qui",
+  "OriginalSize": 930,
+  "CreatedDate": "2003-03-05T12:15:27.6756254+01:00",
+  "UpdatedDate": "2006-05-21T12:15:27.6756254+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nam",
+  "ConceptualType": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

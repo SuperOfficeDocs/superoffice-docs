@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 285,
-    "ColumnId": 519,
-    "FieldDefault": "ut",
-    "FieldHeight": 542,
-    "FieldLabel": "laboriosam",
-    "FieldLeft": 195,
-    "FieldTop": 316,
+    "UDefFieldId": 247,
+    "ColumnId": 842,
+    "FieldDefault": "aperiam",
+    "FieldHeight": 829,
+    "FieldLabel": "natus",
+    "FieldLeft": 187,
+    "FieldTop": 676,
     "FieldType": "Checkbox",
-    "FieldWidth": 182,
-    "FormatMask": "sed",
+    "FieldWidth": 434,
+    "FormatMask": "fugit",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 720,
-    "LabelLeft": 600,
-    "LabelTop": 185,
-    "LabelWidth": 749,
-    "LastVersionId": 944,
-    "ListTableId": 144,
-    "IsMandatory": true,
+    "LabelHeight": 80,
+    "LabelLeft": 40,
+    "LabelTop": 661,
+    "LabelWidth": 323,
+    "LastVersionId": 793,
+    "ListTableId": 291,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 937,
-    "ProgId": "occaecati",
+    "Page1LineNo": 466,
+    "ProgId": "voluptate",
     "IsReadOnly": false,
-    "ShortLabel": "atque",
-    "TabOrder": 103,
-    "TextLength": 819,
-    "Tooltip": "quo",
-    "UdefIdentity": 728,
-    "UDListDefinitionId": 519,
+    "ShortLabel": "id",
+    "TabOrder": 565,
+    "TextLength": 149,
+    "Tooltip": "nobis",
+    "UdefIdentity": 213,
+    "UDListDefinitionId": 379,
     "Justification": "Center",
-    "Version": 168,
-    "TemplateVariableName": "Will Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Skiles LLC",
+    "Version": 610,
+    "TemplateVariableName": "Kunze-Stark",
+    "HasBeenPublished": false,
+    "MdoListName": "Steuber-Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldLength": 934
       }
     }
   }

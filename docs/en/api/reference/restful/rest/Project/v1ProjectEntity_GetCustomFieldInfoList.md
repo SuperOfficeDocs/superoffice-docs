@@ -66,7 +66,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Quigley, Goldner and Bogisich",
-    "DisplayName": "Dooley Inc and Sons",
-    "Description": "Phased motivating contingency",
-    "ShortLabel": "aut",
+    "FieldName": "Koch, Nitzsche and Buckridge",
+    "DisplayName": "Dibbert, Gottlieb and Tillman",
+    "Description": "Ergonomic bandwidth-monitored customer loyalty",
+    "ShortLabel": "in",
     "HideLabel": true,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 515,
-    "TemplateVariableName": "Lang-Barton"
+    "Rank": 649,
+    "TemplateVariableName": "Walker-Runolfsson"
   }
 ]
 ```

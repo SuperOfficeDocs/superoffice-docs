@@ -90,9 +90,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laboriosam",
-  "ProviderName": "Armstrong Group",
-  "StorageKey": "quibusdam"
+  "StorageType": "et",
+  "ProviderName": "Wolff-Willms",
+  "StorageKey": "consequatur"
 }
 ```
 
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Price, Schoen and Hauck",
-    "DisplayTooltip": "quos",
-    "DisplayType": "temporibus",
-    "CanOrderBy": true,
-    "Name": "Harvey-Steuber",
+    "DisplayName": "Koepp-Kassulke",
+    "DisplayTooltip": "dolorem",
+    "DisplayType": "enim",
+    "CanOrderBy": false,
+    "Name": "Donnelly-Cole",
     "CanRestrictBy": false,
-    "RestrictionType": "et",
-    "RestrictionListName": "Rice-Wisozk",
-    "IsVisible": true,
-    "ExtraInfo": "quia",
-    "Width": "est",
-    "IconHint": "earum",
-    "HeadingIconHint": "nemo"
+    "RestrictionType": "officia",
+    "RestrictionListName": "Hessel-Leffler",
+    "IsVisible": false,
+    "ExtraInfo": "aliquid",
+    "Width": "fugiat",
+    "IconHint": "itaque",
+    "HeadingIconHint": "sint"
   }
 ]
 ```

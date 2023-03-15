@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 23
+  "SaleId": 724
 }
 ```
 
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 594,
-  "SaleId": 805,
-  "QuoteConnectionId": 529,
-  "ERPQuoteKey": "autem",
+  "QuoteId": 231,
+  "SaleId": 857,
+  "QuoteConnectionId": 38,
+  "ERPQuoteKey": "provident",
   "ERPOrderKey": "deleniti",
-  "ActiveQuoteVersionId": 849,
-  "AcceptedQuoteAlternativeId": 629,
-  "UseValuesFromQuote": 424,
-  "DocumentId": 278,
-  "PoNumber": "698827",
-  "OrderComment": "sunt",
-  "PreferredEmailCulture": "piper@bartell.info",
+  "ActiveQuoteVersionId": 293,
+  "AcceptedQuoteAlternativeId": 288,
+  "UseValuesFromQuote": 430,
+  "DocumentId": 455,
+  "PoNumber": "794427",
+  "OrderComment": "magnam",
+  "PreferredEmailCulture": "andrew@hilpertgusikowski.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 592
     }
   }
 }

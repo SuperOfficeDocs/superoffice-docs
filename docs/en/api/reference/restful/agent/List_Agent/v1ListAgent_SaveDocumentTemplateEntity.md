@@ -110,34 +110,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 710,
-  "Name": "Pagac-Carter",
-  "Tooltip": "voluptates",
-  "SaveInDb": 975,
-  "Filename": "minima",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 967,
+  "Name": "Oberbrunner-Champlin",
+  "Tooltip": "dolor",
+  "SaveInDb": 290,
+  "Filename": "omnis",
+  "DefaultOref": "temporibus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 168,
-  "IntentId": 519,
-  "IsDefaultPublished": true,
-  "Rank": 758,
-  "LoadTemplateFromPlugin": 63,
-  "MimeType": "est",
+  "AutoeventId": 371,
+  "IntentId": 526,
+  "IsDefaultPublished": false,
+  "Rank": 604,
+  "LoadTemplateFromPlugin": 974,
+  "MimeType": "dolores",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 617,
+  "DocumentTypeKey": 373,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "thea@leschhilpert.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "griffin_maggio@greenmcglynn.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "hipolito@denesik.name",
+  "SenderEmailAddress": "dorthy_walker@pouros.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 429,
-  "Name": "Okuneva, Lueilwitz and Goyette",
-  "Tooltip": "numquam",
-  "SaveInDb": 569,
-  "Filename": "rerum",
-  "DefaultOref": "quo",
+  "DocumentTemplateId": 615,
+  "Name": "Grady, Walsh and Goodwin",
+  "Tooltip": "dolorem",
+  "SaveInDb": 420,
+  "Filename": "provident",
+  "DefaultOref": "distinctio",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 780,
-  "IntentId": 424,
+  "AutoeventId": 684,
+  "IntentId": 763,
   "IsDefaultPublished": true,
-  "Rank": 362,
-  "LoadTemplateFromPlugin": 150,
-  "MimeType": "illum",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 102,
+  "Rank": 380,
+  "LoadTemplateFromPlugin": 378,
+  "MimeType": "voluptatem",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 980,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "llewellyn@klein.biz",
+  "EmailSubject": "watson@stokes.com",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "verla_kirlin@waelchi.ca",
+  "SenderEmailAddress": "assunta_nolan@baumbach.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 824
     }
   }
 }

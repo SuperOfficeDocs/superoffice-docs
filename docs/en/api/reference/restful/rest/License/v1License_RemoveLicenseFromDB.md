@@ -68,13 +68,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": false,
-  "Reason": "strategize wireless ROI",
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldType": "System.String",
+      "FieldLength": 455
     }
   }
 }

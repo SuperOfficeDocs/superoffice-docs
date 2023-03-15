@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/EMail/HasMXRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailDomain": "nulla"
+  "MailDomain": "aut"
 }
 ```
 

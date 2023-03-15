@@ -25,8 +25,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=nostrum
+GET /api/v1/List/MrMrs/MDOItems?flat=False
+GET /api/v1/List/MrMrs/MDOItems?query=omnis
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Kling, Lind and Kutch",
-    "ToolTip": "Et quaerat et.",
-    "Deleted": false,
-    "Rank": 308,
-    "Type": "distinctio",
+    "Id": 22,
+    "Name": "Ziemann Inc and Sons",
+    "ToolTip": "Reprehenderit omnis quo adipisci ab.",
+    "Deleted": true,
+    "Rank": 277,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Auer-Schuster",
-        "ToolTip": "Ea rerum.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "eos",
+        "Id": 627,
+        "Name": "Cremin LLC",
+        "ToolTip": "Neque vitae sit hic doloremque.",
+        "Deleted": false,
+        "Rank": 793,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 904,
-        "ExtraInfo": "ut",
-        "StyleHint": "inventore",
-        "FullName": "Arely Grimes",
+        "IconHint": "aut",
+        "ColorBlock": 8,
+        "ExtraInfo": "id",
+        "StyleHint": "necessitatibus",
+        "FullName": "Ramona Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 58
+            "FieldType": "System.Int32",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 981,
-    "ExtraInfo": "quia",
-    "StyleHint": "quasi",
-    "FullName": "Joel Hayes MD",
+    "IconHint": "earum",
+    "ColorBlock": 173,
+    "ExtraInfo": "pariatur",
+    "StyleHint": "vero",
+    "FullName": "Tara Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldType": "System.String",
+        "FieldLength": 799
       }
     }
   }

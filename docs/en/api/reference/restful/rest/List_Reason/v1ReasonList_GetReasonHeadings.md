@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 722,
-    "Name": "Kulas, Morar and Bechtelar",
-    "Tooltip": "minima",
+    "HeadingId": 518,
+    "Name": "Jast-Murazik",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 371,
-    "UdListDefinitionId": 713,
+    "Rank": 769,
+    "UdListDefinitionId": 599,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 569
       }
     }
   }

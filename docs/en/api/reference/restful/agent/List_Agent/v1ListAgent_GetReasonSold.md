@@ -25,7 +25,7 @@ Gets a ReasonSold object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=913
+POST /api/v1/Agents/List/GetReasonSold?reasonSoldId=82
 POST /api/v1/Agents/List/GetReasonSold?$select=name,department,category/id
 ```
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 909,
-  "Value": "minima",
-  "Tooltip": "provident",
+  "Id": 540,
+  "Value": "similique",
+  "Tooltip": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 711
     }
   }
 }

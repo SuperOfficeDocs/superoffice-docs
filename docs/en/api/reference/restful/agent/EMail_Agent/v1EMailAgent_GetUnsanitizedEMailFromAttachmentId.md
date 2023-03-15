@@ -104,16 +104,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 685,
+  "EmailId": 844,
   "AttachmentIds": [
-    "vel",
-    "iste"
+    "repudiandae",
+    "est"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -126,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 361,
-      "ContactName": "Kohler-Emard",
-      "PersonId": 972,
-      "PersonName": "Jacobs-Ferry",
-      "AssociateId": 785,
-      "Address": "et",
-      "EmailId": 413,
+      "ContactId": 35,
+      "ContactName": "Bins Group",
+      "PersonId": 511,
+      "PersonName": "Aufderhar LLC",
+      "AssociateId": 575,
+      "Address": "aspernatur",
+      "EmailId": 202,
       "DuplicatePersonIds": [
-        610,
-        992
+        62,
+        804
       ],
-      "Name": "Ruecker, Toy and Parker",
+      "Name": "Jakubowski Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 414
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 670,
-      "ContactName": "Gusikowski Inc and Sons",
-      "PersonId": 743,
-      "PersonName": "Predovic, Labadie and Hudson",
-      "AssociateId": 758,
-      "Address": "ut",
-      "EmailId": 488,
+      "ContactId": 965,
+      "ContactName": "Bruen-Heathcote",
+      "PersonId": 995,
+      "PersonName": "Koss Inc and Sons",
+      "AssociateId": 814,
+      "Address": "suscipit",
+      "EmailId": 105,
       "DuplicatePersonIds": [
-        318,
-        769
+        822,
+        931
       ],
-      "Name": "Homenick LLC",
+      "Name": "Lowe Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 785
+          "FieldType": "System.String",
+          "FieldLength": 976
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 470,
-      "ContactName": "Bode, Kreiger and Emard",
-      "PersonId": 175,
-      "PersonName": "O'Hara, Rosenbaum and Wilkinson",
-      "AssociateId": 343,
-      "Address": "aut",
-      "EmailId": 625,
+      "ContactId": 665,
+      "ContactName": "Heller-Feeney",
+      "PersonId": 187,
+      "PersonName": "Reinger-Klein",
+      "AssociateId": 482,
+      "Address": "aspernatur",
+      "EmailId": 136,
       "DuplicatePersonIds": [
-        405,
-        964
+        986,
+        442
       ],
-      "Name": "Nicolas-Goyette",
+      "Name": "Emmerich-Dickinson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 432
         }
       }
     }
   ],
-  "Subject": "suscipit",
-  "HTMLBody": "tempora",
+  "Subject": "ea",
+  "HTMLBody": "nesciunt",
   "From": null,
-  "Sent": "2020-06-25T11:22:38.2740943+02:00",
-  "Size": 251,
+  "Sent": "2001-11-24T12:15:19.0297505+01:00",
+  "Size": 70,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolor",
-  "PlainBody": "delectus",
+  "MessageID": "rerum",
+  "PlainBody": "illo",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 570,
+  "ServerId": 168,
   "Attachments": [
     {
-      "Description": "Public-key neutral frame",
-      "Filename": "corporis",
-      "Size": 757,
-      "Type": "consequatur",
-      "Encoding": "sed",
-      "Id": "dignissimos",
-      "Disposition": "eum",
+      "Description": "Diverse 3rd generation circuit",
+      "Filename": "consequatur",
+      "Size": 449,
+      "Type": "totam",
+      "Encoding": "doloribus",
+      "Id": "corrupti",
+      "Disposition": "ex",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 740
+          "FieldLength": 176
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Raynor-Windler",
+      "Name": "Ernser-D'Amore",
       "Values": [
-        "et",
-        "iusto"
+        "dicta",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Raynor-Windler",
+      "Name": "Ernser-D'Amore",
       "Values": [
-        "et",
-        "iusto"
+        "dicta",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 330
+          "FieldLength": 855
         }
       }
     }
   ],
-  "FolderName": "Herman Inc and Sons",
-  "EmailItemId": 908,
-  "AccountId": 731,
-  "ReceivedAt": "2010-08-13T11:22:38.2740943+02:00",
+  "FolderName": "Ward Group",
+  "EmailItemId": 102,
+  "AccountId": 214,
+  "ReceivedAt": "2018-11-12T12:15:19.0297505+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-04-30T11:22:38.2740943+02:00",
+  "RepliedAt": "2002-09-21T12:15:19.0297505+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldType": "System.String",
+      "FieldLength": 602
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 951,
-    "Name": "Glover, Schuster and O'Kon",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 274,
-    "UdListDefinitionId": 503,
+    "HeadingId": 804,
+    "Name": "Cartwright, Lockman and Thompson",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 734,
+    "UdListDefinitionId": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 590
       }
     }
   }

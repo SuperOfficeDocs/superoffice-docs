@@ -25,7 +25,7 @@ Gets a ListEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetListEntity?listEntityId=450
+POST /api/v1/Agents/List/GetListEntity?listEntityId=4
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 172,
-  "Name": "Smith Inc and Sons",
-  "Tooltip": "magnam",
+  "Id": 673,
+  "Name": "Dickinson Group",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 63,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 483,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "ListType": "cumque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 46
+      "FieldType": "System.Int32",
+      "FieldLength": 912
     }
   }
 }

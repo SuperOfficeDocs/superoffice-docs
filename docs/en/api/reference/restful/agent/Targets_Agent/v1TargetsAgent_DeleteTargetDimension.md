@@ -24,7 +24,7 @@ Deletes the TargetDimension
 | TargetDimensionId | int32 | **Required** The id of the TargetDimension to be deleted. |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetDimension?TargetDimensionId=843
+POST /api/v1/Agents/Targets/DeleteTargetDimension?TargetDimensionId=939
 ```
 
 
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Targets/DeleteTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ipsa"
+  "TriggerScriptUniqueId": "tempore"
 }
 ```
 
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "provident",
+  "ErrorMessage": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 302,
-  "Name": "Sanford, Thiel and McKenzie",
-  "Tooltip": "eius",
+  "HeadingId": 645,
+  "Name": "Metz-Klocko",
+  "Tooltip": "quis",
   "Deleted": true,
-  "Rank": 322,
-  "UdListDefinitionId": 27
+  "Rank": 412,
+  "UdListDefinitionId": 403
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 69,
-  "Name": "Ziemann-Lubowitz",
-  "Tooltip": "et",
+  "HeadingId": 330,
+  "Name": "Kunze Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 584,
-  "UdListDefinitionId": 805,
+  "Rank": 545,
+  "UdListDefinitionId": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldType": "System.String",
+      "FieldLength": 352
     }
   }
 }

@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Wintheiser-Howell",
-  "Id": 105
+  "ListName": "Kerluke-O'Conner",
+  "Id": 404
 }
 ```
 
@@ -100,50 +100,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Bruen Group",
-  "ToolTip": "Debitis repellendus et tempore ut aliquam sed.",
+  "Id": 752,
+  "Name": "Hermiston, Weber and Trantow",
+  "ToolTip": "Tenetur et rerum ut vel earum voluptatem soluta.",
   "Deleted": true,
-  "Rank": 890,
-  "Type": "natus",
+  "Rank": 990,
+  "Type": "quae",
   "ChildItems": [
     {
-      "Id": 966,
-      "Name": "Ortiz LLC",
-      "ToolTip": "Id alias magni et ea occaecati tempora asperiores.",
+      "Id": 930,
+      "Name": "Vandervort, Leffler and Little",
+      "ToolTip": "Aut saepe.",
       "Deleted": false,
-      "Rank": 732,
-      "Type": "quod",
+      "Rank": 632,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 30,
-      "ExtraInfo": "ullam",
-      "StyleHint": "explicabo",
-      "FullName": "Ms. Icie Sanford",
+      "IconHint": "reiciendis",
+      "ColorBlock": 748,
+      "ExtraInfo": "laborum",
+      "StyleHint": "et",
+      "FullName": "Benedict Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 531
+          "FieldLength": 601
         }
       }
     }
   ],
-  "IconHint": "voluptatem",
-  "ColorBlock": 197,
-  "ExtraInfo": "animi",
-  "StyleHint": "fugit",
-  "FullName": "Anabel Lakin",
+  "IconHint": "officia",
+  "ColorBlock": 5,
+  "ExtraInfo": "doloribus",
+  "StyleHint": "ratione",
+  "FullName": "Claude Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

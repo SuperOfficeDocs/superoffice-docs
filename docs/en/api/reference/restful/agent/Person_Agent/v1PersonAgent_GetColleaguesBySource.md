@@ -114,12 +114,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 337
+  "Count": 139
 }
 ```
 
@@ -131,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 926,
-    "Mrmrs": "corporis",
-    "Firstname": "Clifford",
-    "Lastname": "Koss",
-    "MiddleName": "Zboncak-Luettgen",
-    "Title": "quia",
-    "Description": "Persistent even-keeled installation",
-    "Email": "mae@zulaufhessel.ca",
-    "FullName": "Dr. Anne Zieme",
-    "DirectPhone": "1-590-857-1214 x7869",
-    "FormalName": "Kris Group",
-    "CountryId": 818,
-    "ContactId": 346,
-    "ContactName": "Gerhold-Flatley",
-    "Retired": 723,
-    "Rank": 209,
-    "ActiveInterests": 834,
+    "Position": "dolor",
+    "PersonId": 561,
+    "Mrmrs": "sunt",
+    "Firstname": "Maxwell",
+    "Lastname": "Kshlerin",
+    "MiddleName": "Kuhlman, Rau and Mayer",
+    "Title": "accusantium",
+    "Description": "Proactive next generation internet solution",
+    "Email": "virginie.bergnaum@lowe.co.uk",
+    "FullName": "Miss Karine Frederik Kessler I",
+    "DirectPhone": "(134)772-4930",
+    "FormalName": "Stark Inc and Sons",
+    "CountryId": 380,
+    "ContactId": 125,
+    "ContactName": "Konopelski Group",
+    "Retired": 42,
+    "Rank": 820,
+    "ActiveInterests": 840,
     "ContactDepartment": "",
-    "ContactCountryId": 676,
-    "ContactOrgNr": "1183361",
-    "FaxPhone": "1-372-173-6688",
-    "MobilePhone": "933.767.9536",
-    "ContactPhone": "624.344.9472",
-    "AssociateName": "Hoeger-Trantow",
-    "AssociateId": 752,
+    "ContactCountryId": 396,
+    "ContactOrgNr": "1402869",
+    "FaxPhone": "(094)726-6211 x69560",
+    "MobilePhone": "(966)186-4123",
+    "ContactPhone": "(213)441-7473 x907",
+    "AssociateName": "Hickle LLC",
+    "AssociateId": 871,
     "UsePersonAddress": false,
-    "ContactFax": "sed",
-    "Kanafname": "voluptatum",
-    "Kanalname": "debitis",
-    "Post1": "iusto",
-    "Post2": "perspiciatis",
-    "Post3": "enim",
-    "EmailName": "dallas.howe@blickstanton.ca",
-    "ContactFullName": "Mrs. Luz Kaleigh Kuhic",
-    "ActiveErpLinks": 958,
-    "TicketPriorityId": 881,
-    "SupportLanguageId": 594,
-    "SupportAssociateId": 383,
+    "ContactFax": "dolores",
+    "Kanafname": "cum",
+    "Kanalname": "earum",
+    "Post1": "inventore",
+    "Post2": "voluptatibus",
+    "Post3": "quos",
+    "EmailName": "gennaro@graham.ca",
+    "ContactFullName": "Dave Harber",
+    "ActiveErpLinks": 242,
+    "TicketPriorityId": 202,
+    "SupportLanguageId": 394,
+    "SupportAssociateId": 724,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 874
       }
     }
   }

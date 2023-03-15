@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 124,
-    "Name": "Mann, Skiles and Herman",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 680,
-    "UdListDefinitionId": 891
+    "HeadingId": 593,
+    "Name": "Dare-Harvey",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "Rank": 267,
+    "UdListDefinitionId": 696
   },
   {
-    "HeadingId": 124,
-    "Name": "Mann, Skiles and Herman",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 680,
-    "UdListDefinitionId": 891
+    "HeadingId": 593,
+    "Name": "Dare-Harvey",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "Rank": 267,
+    "UdListDefinitionId": 696
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 981,
-    "Name": "Rath-Turcotte",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 623,
-    "UdListDefinitionId": 426,
+    "HeadingId": 134,
+    "Name": "Jacobs-Doyle",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 587,
+    "UdListDefinitionId": 518,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 627
+        "FieldType": "System.Int32",
+        "FieldLength": 372
       }
     }
   }

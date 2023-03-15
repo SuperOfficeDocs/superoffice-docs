@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 504,
-    "Name": "Kuhn, Johnston and Tillman",
-    "Tooltip": "id",
+    "HeadingId": 3,
+    "Name": "Veum-Hills",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 54,
-    "UdListDefinitionId": 337
+    "Rank": 761,
+    "UdListDefinitionId": 116
   },
   {
-    "HeadingId": 504,
-    "Name": "Kuhn, Johnston and Tillman",
-    "Tooltip": "id",
+    "HeadingId": 3,
+    "Name": "Veum-Hills",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 54,
-    "UdListDefinitionId": 337
+    "Rank": 761,
+    "UdListDefinitionId": 116
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 56,
-    "Name": "Watsica Group",
-    "Tooltip": "consequatur",
+    "HeadingId": 331,
+    "Name": "Bayer Group",
+    "Tooltip": "vitae",
     "Deleted": false,
-    "Rank": 403,
-    "UdListDefinitionId": 965,
+    "Rank": 577,
+    "UdListDefinitionId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   }

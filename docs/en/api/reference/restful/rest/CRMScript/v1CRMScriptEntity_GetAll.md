@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=ipsam
-GET /api/v1/CRMScript?$top=391
-GET /api/v1/CRMScript?$skip=523
+GET /api/v1/CRMScript?$entities=est
+GET /api/v1/CRMScript?$top=618
+GET /api/v1/CRMScript?$skip=553
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=expedita
+GET /api/v1/CRMScript?$context=molestiae
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=False
+GET /api/v1/CRMScript?$jsonSafe=True
 GET /api/v1/CRMScript?$output=Display
 ```
 
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "maxime",
+  "odata.nextLink": "dolorem",
   "value": [
     {
-      "PrimaryKey": 386,
-      "EntityName": "person",
-      "personId": 386,
-      "fullName": "Prof. Brooks O'Reilly II"
+      "PrimaryKey": 3620,
+      "EntityName": "sale",
+      "saleId": 3620,
+      "contactId": 1963,
+      "name": "McClure, Corwin and Sauer"
     },
     {
-      "PrimaryKey": 6955,
-      "EntityName": "person",
-      "personId": 6955,
-      "fullName": "Marian Johns"
+      "PrimaryKey": 9268,
+      "EntityName": "sale",
+      "saleId": 9268,
+      "contactId": 3021,
+      "name": "Boehm, Runolfsson and Macejkovic"
     }
   ]
 }

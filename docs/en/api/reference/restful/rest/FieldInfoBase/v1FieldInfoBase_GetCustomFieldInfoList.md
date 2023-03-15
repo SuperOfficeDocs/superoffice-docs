@@ -28,7 +28,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 | includeStandard | bool |  Include standard fields in result. Default false. |
 
 ```http
-GET /api/v1/Schema/{tableName}?includeStandard=True
+GET /api/v1/Schema/{tableName}?includeStandard=False
 ```
 
 
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Goodwin Inc and Sons",
-    "DisplayName": "Turner-Gusikowski",
-    "Description": "Open-architected eco-centric model",
-    "ShortLabel": "quibusdam",
+    "FieldName": "Kris, Hammes and Gislason",
+    "DisplayName": "Ernser-Hand",
+    "Description": "Multi-lateral system-worthy alliance",
+    "ShortLabel": "beatae",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 291,
-    "TemplateVariableName": "Williamson-Berge"
+    "Rank": 904,
+    "TemplateVariableName": "Wehner Inc and Sons"
   }
 ]
 ```

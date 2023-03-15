@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Morar Inc and Sons"
+  "TaskName": "Dicki-Hyatt"
 }
 ```
 
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Parisian-O'Reilly",
-    "AssociateId": 71,
-    "DetailsTable": 492,
-    "DetailsRecord": 125,
+    "Id": 981,
+    "Name": "Littel LLC",
+    "AssociateId": 334,
+    "DetailsTable": 554,
+    "DetailsRecord": 666,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "inventore",
-      "ParameterObject2": "dignissimos"
+      "ParameterObject1": "et",
+      "ParameterObject2": "repellat"
     },
-    "LastStarted": "2007-09-09T11:22:37.4461725+02:00",
-    "Created": "2002-03-07T11:22:37.4461725+01:00",
-    "StartCount": 168,
-    "DatabaseSerialNumber": "1282018",
-    "Context": "nihil",
-    "Result": "incidunt",
+    "LastStarted": "2022-06-10T12:15:18.2107625+02:00",
+    "Created": "2003-10-19T12:15:18.2107625+02:00",
+    "StartCount": 260,
+    "DatabaseSerialNumber": "567931",
+    "Context": "sapiente",
+    "Result": "odit",
     "State": "All",
-    "Description": "Optimized local instruction set",
-    "Response": "maxime",
-    "Request": "illum",
-    "ProgressDescription": "Operative motivating local area network",
-    "ProgressPercent": 167,
-    "FileName": "Fadel Inc and Sons",
+    "Description": "Cross-platform demand-driven strategy",
+    "Response": "corporis",
+    "Request": "delectus",
+    "ProgressDescription": "Down-sized asynchronous hierarchy",
+    "ProgressPercent": 424,
+    "FileName": "Sauer-Smitham",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldType": "System.String",
+        "FieldLength": 448
       }
     }
   }

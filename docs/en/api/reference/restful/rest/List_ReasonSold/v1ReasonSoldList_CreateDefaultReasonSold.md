@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 418,
-  "Name": "Lockman, Boyer and Yundt",
-  "Tooltip": "mollitia",
+  "Id": 126,
+  "Name": "Keebler LLC",
+  "Tooltip": "amet",
   "Deleted": false,
-  "UdListDefinitionId": 868,
-  "Rank": 465,
+  "UdListDefinitionId": 780,
+  "Rank": 450,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

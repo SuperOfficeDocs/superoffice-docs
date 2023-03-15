@@ -70,7 +70,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 199,
-  "Name": "Orn-Rempel",
-  "Tooltip": "molestiae",
+  "RoleId": 395,
+  "Name": "Mitchell, Hamill and Leuschke",
+  "Tooltip": "quo",
   "RoleType": "Anonymous",
-  "Deleted": 252,
-  "Rank": 913,
-  "Created": "1998-04-27T11:22:45.0693694+02:00",
-  "UseCategories": 596,
+  "Deleted": 501,
+  "Rank": 68,
+  "Created": "2012-03-01T12:15:27.203632+01:00",
+  "UseCategories": 300,
   "CreatedBy": null,
-  "Updated": "2006-10-25T11:22:45.0693694+02:00",
+  "Updated": "2011-11-26T12:15:27.203632+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldType": "System.String",
+      "FieldLength": 63
     }
   }
 }

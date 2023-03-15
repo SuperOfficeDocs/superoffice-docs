@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatum",
-  "ProviderName": "Ankunding LLC",
-  "StorageKey": "tempore",
-  "Context": "architecto"
+  "StorageType": "doloremque",
+  "ProviderName": "Hermiston-Koepp",
+  "StorageKey": "dolores",
+  "Context": "laborum"
 }
 ```
 
@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Waelchi-Leannon",
-  "Description": "Synergistic full-range customer loyalty",
-  "Rank": 341,
+  "Name": "Tromp-Gerlach",
+  "Description": "Streamlined 6th generation neural-net",
+  "Rank": 291,
   "Restrictions": [
     {
-      "Name": "Franecki-Terry",
-      "Operator": "labore",
+      "Name": "Weber LLC",
+      "Operator": "ut",
       "Values": [
-        "reiciendis",
-        "et"
+        "mollitia",
+        "tempore"
       ],
       "DisplayValues": [
-        "qui",
-        "sunt"
+        "quidem",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -115,9 +115,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 504,
+      "InterParenthesis": 253,
       "InterOperator": "And",
-      "UniqueHash": 272
+      "UniqueHash": 173
     }
   ]
 }

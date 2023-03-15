@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 371,
-  "ParentId": 658,
-  "Name": "Johns LLC",
-  "Fullname": "id",
-  "CategoryMaster": 787,
+  "TicketCategoryId": 569,
+  "ParentId": 771,
+  "Name": "McDermott-Rogahn",
+  "Fullname": "rem",
+  "CategoryMaster": 35,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McDermott-Douglas",
+  "ExternalName": "Gislason, Harris and Marquardt",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 735,
-  "ReplyTemplate": 182,
-  "NotificationEmail": "chelsea_shields@spencernienow.name",
+  "AssignmentLag": 648,
+  "ReplyTemplate": 670,
+  "NotificationEmail": "terry_feeney@parisian.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 623,
+  "EffectiveReplyTemplateId": 407,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "est",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "officia"
+    "CustomFields1": "enim",
+    "CustomFields2": "ratione"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 960
+      "FieldLength": 988
     }
   }
 }

@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "enim",
-    "InputValues2": "enim"
+    "InputValues1": "quia",
+    "InputValues2": "rem"
   },
   "BlockExecution": false,
-  "NavigateTo": "reprehenderit",
-  "Message": "minima",
-  "ShowDialog": "quas",
+  "NavigateTo": "voluptas",
+  "Message": "et",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "molestiae",
-    "OutputValues2": "sed"
+    "OutputValues1": "ut",
+    "OutputValues2": "ut"
   },
   "StateValues": {
-    "StateValues1": "delectus",
-    "StateValues2": "a"
+    "StateValues1": "omnis",
+    "StateValues2": "iusto"
   },
-  "Exception": "sit"
+  "Exception": "omnis"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ipsam",
-    "InputValues2": "quos"
+    "InputValues1": "explicabo",
+    "InputValues2": "autem"
   },
-  "BlockExecution": false,
-  "NavigateTo": "nemo",
-  "Message": "ex",
-  "ShowDialog": "autem",
+  "BlockExecution": true,
+  "NavigateTo": "sapiente",
+  "Message": "sequi",
+  "ShowDialog": "quia",
   "OutputValues": {
-    "OutputValues1": "natus",
-    "OutputValues2": "adipisci"
+    "OutputValues1": "et",
+    "OutputValues2": "enim"
   },
   "StateValues": {
-    "StateValues1": "ipsam",
-    "StateValues2": "praesentium"
+    "StateValues1": "aut",
+    "StateValues2": "qui"
   },
-  "Exception": "eum",
+  "Exception": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 805
     }
   }
 }

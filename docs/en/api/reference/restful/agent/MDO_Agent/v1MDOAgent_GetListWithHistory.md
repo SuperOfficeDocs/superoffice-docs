@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reynolds, Pagac and Moen",
-  "ForceFlatList": false,
-  "AdditionalInfo": "distinctio",
+  "Name": "Turcotte-Ruecker",
+  "ForceFlatList": true,
+  "AdditionalInfo": "qui",
   "HistoryItems": [
-    843,
-    151
+    159,
+    115
   ],
   "OnlyHistory": false
 }
@@ -110,50 +110,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Dicki-Rosenbaum",
-    "ToolTip": "Error inventore eius.",
+    "Id": 1000,
+    "Name": "Baumbach Inc and Sons",
+    "ToolTip": "Totam aut rem provident quidem consequuntur.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "voluptatem",
+    "Rank": 124,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Wiza LLC",
-        "ToolTip": "Et alias sit.",
-        "Deleted": true,
-        "Rank": 137,
-        "Type": "deleniti",
+        "Id": 784,
+        "Name": "Swift-Cummings",
+        "ToolTip": "Qui aut possimus cupiditate similique et.",
+        "Deleted": false,
+        "Rank": 663,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 247,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "unde",
-        "FullName": "Miss D'angelo Braun",
+        "IconHint": "animi",
+        "ColorBlock": 807,
+        "ExtraInfo": "impedit",
+        "StyleHint": "ipsam",
+        "FullName": "Julia Norwood Osinski DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 385
+            "FieldLength": 815
           }
         }
       }
     ],
-    "IconHint": "voluptate",
-    "ColorBlock": 615,
-    "ExtraInfo": "maiores",
-    "StyleHint": "eveniet",
-    "FullName": "Mr. Waldo Hosea Jacobs III",
+    "IconHint": "repellat",
+    "ColorBlock": 642,
+    "ExtraInfo": "natus",
+    "StyleHint": "quia",
+    "FullName": "Edyth Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 564
       }
     }
   }

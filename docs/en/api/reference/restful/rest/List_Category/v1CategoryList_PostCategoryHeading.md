@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 513,
-  "Name": "Upton-Kihn",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "Rank": 488,
-  "UdListDefinitionId": 237
+  "HeadingId": 707,
+  "Name": "Batz Group",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 256,
+  "UdListDefinitionId": 818
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 536,
-  "Name": "Hermiston Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 141,
-  "UdListDefinitionId": 785,
+  "HeadingId": 397,
+  "Name": "Willms-Gislason",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 692,
+  "UdListDefinitionId": 532,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 704
     }
   }
 }

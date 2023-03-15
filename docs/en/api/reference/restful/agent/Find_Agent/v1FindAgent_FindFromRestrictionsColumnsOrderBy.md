@@ -81,21 +81,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Kohler-Walker",
-      "Operator": "praesentium",
+      "Name": "Brakus LLC",
+      "Operator": "quos",
       "Values": [
-        "molestias",
-        "unde"
+        "quia",
+        "est"
       ],
       "DisplayValues": [
-        "praesentium",
-        "saepe"
+        "laboriosam",
+        "perspiciatis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -103,28 +103,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 85,
+      "InterParenthesis": 950,
       "InterOperator": "And",
-      "UniqueHash": 396
+      "UniqueHash": 915
     }
   ],
-  "ProviderName": "Bahringer-Gerlach",
+  "ProviderName": "Reichert, Nader and Fritsch",
   "DesiredColumns": [
-    "qui",
-    "aperiam"
+    "autem",
+    "quia"
   ],
   "OrderBy": [
     {
-      "Name": "Gusikowski, Dibbert and Kuhn",
+      "Name": "Monahan Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Gusikowski, Dibbert and Kuhn",
+      "Name": "Monahan Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 60,
-  "PageNumber": 638
+  "PageSize": 397,
+  "PageNumber": 731
 }
 ```
 
@@ -137,51 +137,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hirthe-Tromp",
-      "DisplayTooltip": "repellendus",
-      "DisplayType": "qui",
-      "CanOrderBy": false,
-      "Name": "Roob, Stroman and Adams",
+      "DisplayName": "Leuschke Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "minima",
+      "CanOrderBy": true,
+      "Name": "Brakus, Stracke and Grimes",
       "CanRestrictBy": true,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Friesen Group",
+      "RestrictionType": "dicta",
+      "RestrictionListName": "Rippin-Kuhlman",
       "IsVisible": false,
-      "ExtraInfo": "laborum",
-      "Width": "sit",
-      "IconHint": "et",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "quod",
+      "Width": "consequuntur",
+      "IconHint": "sed",
+      "HeadingIconHint": "in"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Wisoky-Kris",
-      "PrimaryKey": 570,
+      "EntityName": "Bayer Group",
+      "PrimaryKey": 990,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aliquid",
-          "TooltipHint": "ut",
-          "LinkHint": "officiis"
+          "DisplayValue": "ipsa",
+          "TooltipHint": "quos",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "veniam",
-      "StyleHint": "quidem",
+      "LinkHint": "saepe",
+      "StyleHint": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldType": "System.Int32",
+          "FieldLength": 905
         }
       }
     }
   ],
-  "RowCount": 876,
+  "RowCount": 964,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 219
     }
   }
 }

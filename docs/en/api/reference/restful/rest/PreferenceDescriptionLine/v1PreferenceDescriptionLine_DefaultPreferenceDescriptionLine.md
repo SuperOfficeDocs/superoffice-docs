@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 624,
-  "PrefDescId": 415,
-  "PrefValue": "accusantium",
-  "PrefShowValue": "odio",
-  "Description": "Multi-lateral logistical projection",
+  "PrefDescLineId": 907,
+  "PrefDescId": 922,
+  "PrefValue": "a",
+  "PrefShowValue": "in",
+  "Description": "Expanded zero defect neural-net",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   }
 }

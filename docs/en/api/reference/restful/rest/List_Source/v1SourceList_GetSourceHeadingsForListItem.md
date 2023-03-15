@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Turcotte, Nienow and Cruickshank",
-    "ToolTip": "Nostrum non facilis voluptate aut eius dolor omnis.",
+    "Id": 38,
+    "Name": "McClure, Greenfelder and Weber",
+    "ToolTip": "Et modi rem.",
     "Deleted": false,
-    "Rank": 233,
-    "Type": "mollitia",
-    "ColorBlock": 251,
-    "IconHint": "vel",
+    "Rank": 121,
+    "Type": "perferendis",
+    "ColorBlock": 99,
+    "IconHint": "nesciunt",
     "Selected": false,
-    "LastChanged": "2011-07-06T11:22:46.2097354+02:00",
+    "LastChanged": "2006-03-24T12:15:28.5196129+01:00",
     "ChildItems": [
       {
-        "Id": 474,
-        "Name": "Ernser-Wisoky",
-        "ToolTip": "Voluptatibus fugit.",
+        "Id": 604,
+        "Name": "Cormier LLC",
+        "ToolTip": "Fuga odit omnis in.",
         "Deleted": false,
-        "Rank": 774,
-        "Type": "quas",
-        "ColorBlock": 816,
-        "IconHint": "veniam",
+        "Rank": 650,
+        "Type": "incidunt",
+        "ColorBlock": 767,
+        "IconHint": "deserunt",
         "Selected": true,
-        "LastChanged": "2015-07-09T11:22:46.2097354+02:00",
+        "LastChanged": "2001-11-29T12:15:28.5196129+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quo",
+        "ExtraInfo": "architecto",
+        "StyleHint": "iste",
         "Hidden": true,
-        "FullName": "Charlene Mills",
+        "FullName": "Romaine Hellen Stehr II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 248
+            "FieldType": "System.Int32",
+            "FieldLength": 546
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "vitae",
+    "ExtraInfo": "quidem",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Prof. Milo Shawn Watsica",
+    "FullName": "Isadore Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 209
       }
     }
   }

@@ -26,7 +26,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=False
+GET /api/v1/List/SaleType/Items?includeDeleted=True
 ```
 
 
@@ -87,7 +87,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 194,
-    "Name": "Brekke LLC",
-    "Tooltip": "rerum",
-    "Rank": 24,
+    "SaleTypeId": 9,
+    "Name": "Schuppe, Emmerich and Rutherford",
+    "Tooltip": "est",
+    "Rank": 375,
     "DurationUnit": "Century",
-    "SaleDuration": 919,
-    "SaleTypeCatId": 12,
-    "Deleted": false,
+    "SaleDuration": 809,
+    "SaleTypeCatId": 545,
+    "Deleted": true,
     "HasGuide": false,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 72,
-    "QuoteLinesTemplate": 626,
-    "ConfirmationLinesTemplate": 284,
+    "DefaultQuoteValidity": 493,
+    "QuoteLinesTemplate": 884,
+    "ConfirmationLinesTemplate": 775,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 21,
-    "MinEarningPercent": 184,
-    "GroupQuoteLinesBy": 63,
-    "SortGroupLinesBy": 460,
+    "MaxDiscountPercent": 902,
+    "MinEarningPercent": 347,
+    "GroupQuoteLinesBy": 899,
+    "SortGroupLinesBy": 151,
     "Stages": [
       {
-        "Id": 98,
-        "Name": "Pagac-Sporer",
-        "ToolTip": "Harum et deserunt at enim asperiores deleniti.",
+        "Id": 321,
+        "Name": "Schmidt, Prohaska and Emmerich",
+        "ToolTip": "Aut odio beatae.",
         "Deleted": false,
-        "Rank": 747,
-        "Type": "et",
-        "ColorBlock": 815,
-        "IconHint": "temporibus",
+        "Rank": 654,
+        "Type": "non",
+        "ColorBlock": 396,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2006-07-01T11:22:46.1628721+02:00",
+        "LastChanged": "2023-01-12T12:15:28.4676171+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ex",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Ansel Walker",
+        "FullName": "Dr. Cindy Harris PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 102
+            "FieldType": "System.Int32",
+            "FieldLength": 320
           }
         }
       }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

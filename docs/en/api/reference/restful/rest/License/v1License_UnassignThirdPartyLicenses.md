@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 434,
-    "Tooltip": "sed",
-    "CanAssign": false,
-    "Free": 867,
-    "InUse": 427,
+    "Total": 901,
+    "Tooltip": "modi",
+    "CanAssign": true,
+    "Free": 488,
+    "InUse": 883,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 143,
-    "Name": "Koch, White and Lubowitz",
-    "Description": "Synchronised regional algorithm",
-    "PrerequisiteModuleName": "Wintheiser Group",
-    "SortOrder": 295,
-    "ExtraFlags": 93,
+    "ModuleLicenseId": 65,
+    "Name": "Hermann Inc and Sons",
+    "Description": "Synchronised zero defect neural-net",
+    "PrerequisiteModuleName": "O'Hara, Robel and Klein",
+    "SortOrder": 98,
+    "ExtraFlags": 215,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldLength": 562
       }
     }
   }

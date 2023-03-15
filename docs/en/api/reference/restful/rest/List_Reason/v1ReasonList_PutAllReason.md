@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Hermiston Inc and Sons",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "UdListDefinitionId": 20,
-    "Rank": 489
+    "Id": 572,
+    "Name": "Crooks Inc and Sons",
+    "Tooltip": "error",
+    "Deleted": false,
+    "UdListDefinitionId": 18,
+    "Rank": 922
   },
   {
-    "Id": 809,
-    "Name": "Hermiston Inc and Sons",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "UdListDefinitionId": 20,
-    "Rank": 489
+    "Id": 572,
+    "Name": "Crooks Inc and Sons",
+    "Tooltip": "error",
+    "Deleted": false,
+    "UdListDefinitionId": 18,
+    "Rank": 922
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Leuschke Group",
-    "Tooltip": "porro",
+    "Id": 958,
+    "Name": "Graham Group",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "UdListDefinitionId": 138,
-    "Rank": 76,
+    "UdListDefinitionId": 380,
+    "Rank": 220,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldType": "System.String",
+        "FieldLength": 516
       }
     }
   }

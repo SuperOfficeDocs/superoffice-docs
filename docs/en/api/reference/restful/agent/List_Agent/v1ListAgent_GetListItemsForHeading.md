@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 14,
-  "HeadingId": 682
+  "UdListDefinitionId": 637,
+  "HeadingId": 819
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 941,
-    "Name": "Lubowitz Group",
-    "ToolTip": "Earum ipsam soluta aspernatur aut sed esse sed.",
+    "Id": 961,
+    "Name": "Mayer-McDermott",
+    "ToolTip": "Enim earum.",
     "Deleted": false,
-    "Rank": 78,
-    "Type": "architecto",
-    "ColorBlock": 104,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2020-10-08T11:22:38.4771746+02:00",
+    "Rank": 317,
+    "Type": "id",
+    "ColorBlock": 527,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2003-01-29T12:15:19.2687499+01:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Mosciski Group",
-        "ToolTip": "Odio natus laboriosam.",
-        "Deleted": true,
-        "Rank": 309,
-        "Type": "aperiam",
-        "ColorBlock": 708,
-        "IconHint": "et",
+        "Id": 442,
+        "Name": "Abbott-Miller",
+        "ToolTip": "Vel non consequatur neque quas ratione quo.",
+        "Deleted": false,
+        "Rank": 245,
+        "Type": "maiores",
+        "ColorBlock": 836,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2006-02-15T11:22:38.4771746+01:00",
+        "LastChanged": "2009-03-21T12:15:19.2687499+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Mrs. Emmet Blaise Herman",
+        "ExtraInfo": "commodi",
+        "StyleHint": "asperiores",
+        "Hidden": true,
+        "FullName": "Howard Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldLength": 599
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Lou Ziemann DDS",
+    "ExtraInfo": "nihil",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Bethel Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 801
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

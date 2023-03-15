@@ -125,7 +125,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 387,
+  "QuoteAlternativeId": 242,
   "Product": null
 }
 ```
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 64,
-  "ERPQuoteLineKey": "sapiente",
-  "QuoteAlternativeId": 547,
-  "ERPProductKey": "optio",
+  "QuoteLineId": 274,
+  "ERPQuoteLineKey": "odit",
+  "QuoteAlternativeId": 566,
+  "ERPProductKey": "inventore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 24739.796,
-  "DeliveredQuantity": 25495.09,
-  "Rank": 898,
-  "Name": "Armstrong, Kuhlman and Price",
-  "Description": "Distributed value-added parallelism",
-  "Code": "quis",
-  "QuantityUnit": "officia",
-  "PriceUnit": "aliquam",
-  "ItemNumber": "1567736",
+  "Quantity": 3798.408,
+  "DeliveredQuantity": 18553.28,
+  "Rank": 529,
+  "Name": "Hartmann Group",
+  "Description": "Cloned leading edge protocol",
+  "Code": "est",
+  "QuantityUnit": "labore",
+  "PriceUnit": "dicta",
+  "ItemNumber": "951977",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "at",
-  "ProductTypeKey": "explicabo",
-  "Supplier": "dolorem",
-  "SupplierCode": "voluptas",
-  "Thumbnail": "consequuntur",
-  "VATInfo": "minus",
-  "VAT": 814.83999999999992,
-  "UnitCost": 17779.182,
-  "UnitMinimumPrice": 30080.131999999998,
-  "UnitListPrice": 29490.94,
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "quam",
+  "Supplier": "nobis",
+  "SupplierCode": "odit",
+  "Thumbnail": "est",
+  "VATInfo": "consequatur",
+  "VAT": 26407.084,
+  "UnitCost": 13466.797999999999,
+  "UnitMinimumPrice": 13520.076,
+  "UnitListPrice": 24677.115999999998,
   "ExtraInfo": [
     {
-      "Name": "Wintheiser, Conn and Bartoletti",
-      "Value": "temporibus",
+      "Name": "Collins, Borer and Kub",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldLength": 269
         }
       }
     },
     {
-      "Name": "Wintheiser, Conn and Bartoletti",
-      "Value": "temporibus",
+      "Name": "Collins, Borer and Kub",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldLength": 269
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
-  "IsSubscription": false,
-  "SubscriptionUnit": "facilis",
-  "SubscriptionQuantity": 30352.789999999997,
-  "SubscriptionStart": "2000-02-14T11:22:38.9458129+01:00",
-  "ERPDiscountPercent": 19763.004,
-  "ERPDiscountAmount": 17117.908,
-  "DiscountPercent": 1378.96,
-  "DiscountAmount": 8044.978,
+  "RawExtraInfo": "odit",
+  "IsSubscription": true,
+  "SubscriptionUnit": "cupiditate",
+  "SubscriptionQuantity": 15930.122,
+  "SubscriptionStart": "1999-05-28T12:15:19.9657371+02:00",
+  "ERPDiscountPercent": 22336.018,
+  "ERPDiscountAmount": 12852.534,
+  "DiscountPercent": 25993.396,
+  "DiscountAmount": 29732.257999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 4556.836,
-  "EarningAmount": 8389.7179999999989,
-  "SubTotal": 30735.138,
-  "TotalPrice": 4268.508,
-  "Rights": "et",
-  "Rule": "magni",
-  "ExtraField1": "ea",
-  "ExtraField2": "molestiae",
+  "EarningPercent": 6568.864,
+  "EarningAmount": 5744.6219999999994,
+  "SubTotal": 20386.67,
+  "TotalPrice": 1049.8899999999999,
+  "Rights": "ut",
+  "Rule": "ratione",
+  "ExtraField1": "modi",
+  "ExtraField2": "optio",
   "ExtraField3": "et",
-  "ExtraField4": "molestiae",
-  "ExtraField5": "omnis",
+  "ExtraField4": "veritatis",
+  "ExtraField5": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 583
     }
   }
 }

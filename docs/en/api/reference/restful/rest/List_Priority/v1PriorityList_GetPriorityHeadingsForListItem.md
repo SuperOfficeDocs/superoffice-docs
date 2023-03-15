@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Kovacek-Jenkins",
-    "ToolTip": "Et corrupti ducimus veritatis nesciunt sed expedita.",
-    "Deleted": true,
-    "Rank": 112,
-    "Type": "id",
-    "ColorBlock": 19,
-    "IconHint": "odit",
-    "Selected": true,
-    "LastChanged": "2000-03-05T11:22:46.0066565+01:00",
+    "Id": 742,
+    "Name": "Kiehn-Anderson",
+    "ToolTip": "Non quae.",
+    "Deleted": false,
+    "Rank": 210,
+    "Type": "qui",
+    "ColorBlock": 718,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2020-08-11T12:15:28.2696219+02:00",
     "ChildItems": [
       {
-        "Id": 1002,
-        "Name": "Crooks Inc and Sons",
-        "ToolTip": "Incidunt similique.",
-        "Deleted": false,
-        "Rank": 765,
-        "Type": "exercitationem",
-        "ColorBlock": 103,
-        "IconHint": "voluptas",
+        "Id": 845,
+        "Name": "Gorczany LLC",
+        "ToolTip": "Unde consequatur est est.",
+        "Deleted": true,
+        "Rank": 657,
+        "Type": "fugiat",
+        "ColorBlock": 10,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2020-10-06T11:22:46.0066565+02:00",
+        "LastChanged": "1998-10-31T12:15:28.2696219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Iliana Sarina Dickinson DDS",
+        "FullName": "Mr. Vito Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 426
+            "FieldType": "System.Int32",
+            "FieldLength": 519
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "vel",
+    "ExtraInfo": "maiores",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Mr. Diana Kendrick Cassin DDS",
+    "FullName": "Lauriane Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 489
+        "FieldLength": 517
       }
     }
   }

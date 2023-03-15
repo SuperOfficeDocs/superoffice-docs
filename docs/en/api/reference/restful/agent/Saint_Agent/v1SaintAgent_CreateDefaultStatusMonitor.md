@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 403,
-  "Rank": 207,
-  "DefaultTask": 643,
-  "DefaultTaskText": "explicabo",
-  "IsVisual": true,
-  "LastGenerated": "2008-12-24T11:22:38.9770545+01:00",
-  "Description": "Decentralized interactive focus group",
-  "Name": "Lind, Lehner and Beatty",
-  "StatusMonitorId": 223,
-  "PictureId": 719,
+  "OwnerTable": 827,
+  "Rank": 108,
+  "DefaultTask": 999,
+  "DefaultTaskText": "sunt",
+  "IsVisual": false,
+  "LastGenerated": "2008-10-21T12:15:20.0107383+02:00",
+  "Description": "Streamlined 5th generation benchmark",
+  "Name": "Stark Inc and Sons",
+  "StatusMonitorId": 587,
+  "PictureId": 34,
   "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 265,
-  "NumNeedUpdate": 31,
-  "GenerationStart": "2005-08-14T11:22:38.9770545+02:00",
+  "Deleted": false,
+  "NumMatches": 212,
+  "NumNeedUpdate": 227,
+  "GenerationStart": "1998-04-03T12:15:20.0107383+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 515
     }
   }
 }

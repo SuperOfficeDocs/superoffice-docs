@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    875,
-    713
+    669,
+    816
   ]
 }
 ```
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 600,
-    "Name": "Harber-Denesik",
-    "Description": "Cross-group explicit hardware",
+    "ProjectId": 114,
+    "Name": "Bosco, Moore and Wiegand",
+    "Description": "Automated modular firmware",
     "URL": "http://www.example.com/",
-    "Type": "repudiandae",
-    "AssociateId": 312,
-    "AssociateFullName": "Nina Ledner",
-    "TypeId": 968,
-    "Updated": "2007-01-28T11:22:38.8520826+01:00",
-    "StatusId": 68,
-    "Status": "a",
-    "TextId": 663,
-    "PublishTo": "2003-01-13T11:22:38.8520826+01:00",
-    "PublishFrom": "1998-05-06T11:22:38.8520826+02:00",
-    "IsPublished": false,
+    "Type": "recusandae",
+    "AssociateId": 286,
+    "AssociateFullName": "Kayden Boehm",
+    "TypeId": 534,
+    "Updated": "2020-07-17T12:15:19.8637393+02:00",
+    "StatusId": 176,
+    "Status": "non",
+    "TextId": 696,
+    "PublishTo": "2010-06-27T12:15:19.8637393+02:00",
+    "PublishFrom": "1998-01-01T12:15:19.8637393+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1318605",
-    "ActiveErpLinks": 992,
+    "ProjectNumber": "1487492",
+    "ActiveErpLinks": 568,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 650
+        "FieldLength": 123
       }
     }
   }

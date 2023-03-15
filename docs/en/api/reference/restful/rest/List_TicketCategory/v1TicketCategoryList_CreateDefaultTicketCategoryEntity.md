@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,36 +81,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 513,
-  "ParentId": 518,
-  "Name": "Friesen-Purdy",
-  "Fullname": "minima",
-  "CategoryMaster": 886,
+  "TicketCategoryId": 136,
+  "ParentId": 851,
+  "Name": "McKenzie-Heathcote",
+  "Fullname": "consectetur",
+  "CategoryMaster": 720,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kuphal-Christiansen",
+  "ExternalName": "Ward LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 871,
-  "ReplyTemplate": 480,
-  "NotificationEmail": "lindsay@kihn.biz",
+  "AssignmentLag": 413,
+  "ReplyTemplate": 12,
+  "NotificationEmail": "francisca_waters@wintheiser.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 236,
+  "EffectiveReplyTemplateId": 181,
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "nam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "vero",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

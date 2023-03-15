@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Greenholt LLC",
-  "Tooltip": "quia",
+  "Id": 885,
+  "Name": "Greenholt-Mayer",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 509,
+  "Rank": 217,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldLength": 469
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 421,
-  "TopicId": 145,
+  "ChatSessionId": 76,
+  "TopicId": 759,
   "User": null,
   "Person": null,
-  "CustomerAlias": "id",
-  "CustomerHost": "illum",
-  "CustomerName": "King Inc and Sons",
-  "CustomerEmail": "cheyenne.durgan@bednar.ca",
-  "CustomerPhone": "579.069.4094",
+  "CustomerAlias": "sit",
+  "CustomerHost": "sequi",
+  "CustomerName": "Schultz-Kuhlman",
+  "CustomerEmail": "luisa.cole@sipes.info",
+  "CustomerPhone": "057.446.3358",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Luettgen, Balistreri and Robel",
+  "CustomerCompanyName": "Ledner Group",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "minus",
-  "WhenRequested": "2017-10-26T11:22:44.2883094+02:00",
-  "WhenStarted": "2006-06-21T11:22:44.2883094+02:00",
-  "WhenEnded": "2022-08-08T11:22:44.2883094+02:00",
-  "WhenIdle": "2020-07-25T11:22:44.2883094+02:00",
-  "WhenFetched": "1998-07-12T11:22:44.2883094+02:00",
-  "SessionKey": "reiciendis",
-  "InitialQueuePos": 410,
-  "AlertLevel": 748,
-  "Rank": 830,
+  "FirstMessage": "quia",
+  "LastMessage": "assumenda",
+  "WhenRequested": "2018-01-26T12:15:26.3636465+01:00",
+  "WhenStarted": "2023-02-24T12:15:26.3636465+01:00",
+  "WhenEnded": "2005-06-19T12:15:26.3636465+02:00",
+  "WhenIdle": "2020-06-17T12:15:26.3636465+02:00",
+  "WhenFetched": "2006-09-07T12:15:26.3636465+02:00",
+  "SessionKey": "nihil",
+  "InitialQueuePos": 263,
+  "AlertLevel": 454,
+  "Rank": 282,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 884,
+  "ChatbotIsActive": true,
+  "Rating": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 484
     }
   }
 }

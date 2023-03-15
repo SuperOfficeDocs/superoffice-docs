@@ -104,32 +104,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 896,
-  "Name": "Macejkovic, Tremblay and Langworth",
-  "Tooltip": "autem",
+  "ExtAppId": 83,
+  "Name": "Lueilwitz, Hegmann and Becker",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 875,
-  "Filename": "at",
-  "Parameters": "rerum",
-  "Workdir": "temporibus",
+  "Rank": 966,
+  "Filename": "quaerat",
+  "Parameters": "ullam",
+  "Workdir": "odio",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 15,
-  "WaitToFinish": true,
+  "Icon": 801,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "suscipit"
+  "Path": "iusto"
 }
 ```
 
@@ -140,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 185,
-  "Name": "Gutmann-McLaughlin",
-  "Tooltip": "aut",
+  "ExtAppId": 229,
+  "Name": "Howell-Boehm",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 438,
-  "Filename": "neque",
-  "Parameters": "reprehenderit",
-  "Workdir": "sequi",
+  "Rank": 596,
+  "Filename": "molestias",
+  "Parameters": "ea",
+  "Workdir": "sed",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 524,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 605,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "perspiciatis",
+  "Path": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 563
     }
   }
 }

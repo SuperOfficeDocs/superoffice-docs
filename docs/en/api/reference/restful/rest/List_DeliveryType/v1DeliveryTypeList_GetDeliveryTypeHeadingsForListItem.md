@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 393,
-    "Name": "Abbott-Schamberger",
-    "ToolTip": "Quibusdam maxime laboriosam voluptas voluptatem perspiciatis.",
-    "Deleted": false,
-    "Rank": 211,
-    "Type": "aut",
-    "ColorBlock": 367,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "1998-06-29T11:22:45.8973017+02:00",
+    "Id": 663,
+    "Name": "Ondricka LLC",
+    "ToolTip": "Neque sed quasi similique et magnam a rerum.",
+    "Deleted": true,
+    "Rank": 462,
+    "Type": "adipisci",
+    "ColorBlock": 410,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "1996-05-11T12:15:28.1336186+02:00",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Bartell Inc and Sons",
-        "ToolTip": "Commodi atque alias delectus.",
-        "Deleted": false,
-        "Rank": 173,
-        "Type": "laboriosam",
-        "ColorBlock": 623,
-        "IconHint": "excepturi",
+        "Id": 471,
+        "Name": "Morar-McLaughlin",
+        "ToolTip": "Totam et harum cumque harum.",
+        "Deleted": true,
+        "Rank": 867,
+        "Type": "sed",
+        "ColorBlock": 280,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "1998-06-18T11:22:45.8973017+02:00",
+        "LastChanged": "2002-03-29T12:15:28.1336186+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Ebba Klocko",
+        "FullName": "Mose Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldLength": 615
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "error",
+    "ExtraInfo": "velit",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Zoey Purdy",
+    "FullName": "Audrey Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 687
+        "FieldType": "System.Int32",
+        "FieldLength": 985
       }
     }
   }

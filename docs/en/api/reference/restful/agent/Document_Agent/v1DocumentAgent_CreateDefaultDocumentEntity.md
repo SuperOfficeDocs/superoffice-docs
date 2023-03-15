@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 31,
+  "DocumentId": 597,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "iusto",
-  "Header": "maiores",
-  "Name": "Bahringer, Hagenes and Abshire",
-  "OurRef": "optio",
-  "YourRef": "quisquam",
-  "CreatedDate": "2010-08-08T11:22:37.8679408+02:00",
-  "UpdatedDate": "2013-06-12T11:22:37.8679408+02:00",
-  "Description": "Triple-buffered asynchronous flexibility",
+  "Attention": "earum",
+  "Header": "quis",
+  "Name": "Donnelly-Lesch",
+  "OurRef": "ad",
+  "YourRef": "et",
+  "CreatedDate": "2016-08-03T12:15:18.7477554+02:00",
+  "UpdatedDate": "2017-09-04T12:15:18.7477554+02:00",
+  "Description": "Expanded zero tolerance matrix",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-05-29T11:22:37.8679408+02:00",
-  "ExternalRef": "sed",
+  "Date": "2014-11-05T12:15:18.7507552+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 349,
+  "ActiveLinks": 680,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schinner, Senger and Boyer",
-      "Id": 965,
-      "Description": "Grass-roots multi-tasking installation",
-      "ExtraInfo": "laudantium",
-      "LinkId": 885,
+      "EntityName": "Beahan-Rippin",
+      "Id": 689,
+      "Description": "Cloned explicit forecast",
+      "ExtraInfo": "est",
+      "LinkId": 371,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 235
+          "FieldType": "System.String",
+          "FieldLength": 445
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 839,
-  "Snum": 298,
+  "SuggestedDocumentId": 647,
+  "Snum": 532,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Mohammed Gottlieb"
+    "SuperOffice:1": "Elvera Izaiah Crona IV",
+    "SuperOffice:2": "Liana Boyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "quo"
+    "CustomFields1": "et",
+    "CustomFields2": "eum"
   },
-  "PublishEventDate": "2021-03-15T11:22:37.8679408+01:00",
-  "PublishTo": "2012-06-02T11:22:37.8679408+02:00",
-  "PublishFrom": "2012-08-30T11:22:37.8679408+02:00",
+  "PublishEventDate": "2019-04-13T12:15:18.7527546+02:00",
+  "PublishTo": "2020-07-11T12:15:18.7527546+02:00",
+  "PublishFrom": "2015-01-14T12:15:18.7527546+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 952,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldType": "System.Int32",
+          "FieldLength": 884
         }
       }
     },
     {
-      "VisibleId": 952,
+      "VisibleId": 475,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 607
+          "FieldType": "System.Int32",
+          "FieldLength": 884
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   }
 }

@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 984,
-  "Name": "Gleason, Hilpert and Schneider",
-  "Tooltip": "veniam",
+  "Id": 643,
+  "Name": "Vandervort, Ernser and Lind",
+  "Tooltip": "magnam",
   "Deleted": true,
-  "Rank": 755,
+  "Rank": 127,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "facilis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "optio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldLength": 822
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

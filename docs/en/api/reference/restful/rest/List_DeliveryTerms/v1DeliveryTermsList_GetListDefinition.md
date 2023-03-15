@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 385,
-  "Name": "McKenzie LLC",
-  "Tooltip": "ipsam",
+  "Id": 496,
+  "Name": "Bruen Group",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 470,
+  "Rank": 614,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sequi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "itaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 147
     }
   },
   "_Links": {

@@ -162,14 +162,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "repudiandae",
-  "ProviderName": "Olson-Skiles",
-  "PageSize": 133,
-  "PageNumber": 718
+  "Restrictions": "aut",
+  "ProviderName": "Batz-McDermott",
+  "PageSize": 472,
+  "PageNumber": 731
 }
 ```
 
@@ -182,51 +182,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kautzer Inc and Sons",
-      "DisplayTooltip": "amet",
-      "DisplayType": "accusamus",
+      "DisplayName": "Cummings, Bernier and Breitenberg",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "enim",
       "CanOrderBy": true,
-      "Name": "Ernser, Lehner and Cummings",
+      "Name": "Lang-Hermann",
       "CanRestrictBy": false,
-      "RestrictionType": "eveniet",
-      "RestrictionListName": "Mohr-Lang",
-      "IsVisible": true,
-      "ExtraInfo": "fugiat",
-      "Width": "enim",
-      "IconHint": "maxime",
-      "HeadingIconHint": "est"
+      "RestrictionType": "laudantium",
+      "RestrictionListName": "Breitenberg-Hand",
+      "IsVisible": false,
+      "ExtraInfo": "sequi",
+      "Width": "aspernatur",
+      "IconHint": "possimus",
+      "HeadingIconHint": "iste"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hackett LLC",
-      "PrimaryKey": 65,
+      "EntityName": "Kling, Herman and Breitenberg",
+      "PrimaryKey": 876,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "ipsam",
-          "LinkHint": "beatae"
+          "DisplayValue": "hic",
+          "TooltipHint": "ipsa",
+          "LinkHint": "quos"
         }
       },
-      "LinkHint": "beatae",
-      "StyleHint": "nesciunt",
+      "LinkHint": "unde",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 374
+          "FieldType": "System.Int32",
+          "FieldLength": 835
         }
       }
     }
   ],
-  "RowCount": 410,
+  "RowCount": 260,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   }
 }

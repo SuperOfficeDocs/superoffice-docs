@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Carter, Johnston and Marquardt",
-    "ToolTip": "Rerum quisquam libero quisquam consequatur dolores neque sed.",
-    "Deleted": false,
-    "Rank": 696,
-    "Type": "unde",
-    "ColorBlock": 659,
-    "IconHint": "fugit",
+    "Id": 285,
+    "Name": "McCullough, Mueller and Stiedemann",
+    "ToolTip": "Ullam maxime ab exercitationem quo libero iure.",
+    "Deleted": true,
+    "Rank": 65,
+    "Type": "laborum",
+    "ColorBlock": 208,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2011-09-04T11:22:45.9754127+02:00",
+    "LastChanged": "1996-12-19T12:15:28.2316174+01:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Aufderhar Inc and Sons",
-        "ToolTip": "Eaque sed in.",
-        "Deleted": true,
-        "Rank": 736,
-        "Type": "et",
-        "ColorBlock": 504,
-        "IconHint": "esse",
-        "Selected": true,
-        "LastChanged": "2019-01-18T11:22:45.9754127+01:00",
+        "Id": 287,
+        "Name": "Lubowitz-Robel",
+        "ToolTip": "Consequatur sed sint est illo accusantium.",
+        "Deleted": false,
+        "Rank": 23,
+        "Type": "qui",
+        "ColorBlock": 229,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "2005-04-01T12:15:28.2316174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "debitis",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Prof. Winona Axel Mann"
+        "FullName": "Dr. Triston Myrtice Larson MD"
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "rem",
+    "ExtraInfo": "facere",
+    "StyleHint": "earum",
     "Hidden": true,
-    "FullName": "Mr. Elenora Bashirian DVM"
+    "FullName": "Mckenzie Borer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "O'Connell LLC",
-    "ToolTip": "Officia aut quo dolor sit facere.",
+    "Id": 832,
+    "Name": "Schowalter, Nitzsche and Kshlerin",
+    "ToolTip": "Soluta natus atque perspiciatis voluptatem officiis aut voluptatem.",
     "Deleted": false,
-    "Rank": 730,
-    "Type": "ut",
-    "ColorBlock": 72,
-    "IconHint": "eius",
-    "Selected": true,
-    "LastChanged": "2022-03-21T11:22:45.9754127+01:00",
+    "Rank": 826,
+    "Type": "id",
+    "ColorBlock": 693,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2013-03-06T12:15:28.2326265+01:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "O'Keefe Group",
-        "ToolTip": "Nam doloribus et quibusdam vel fuga non quasi.",
+        "Id": 945,
+        "Name": "Renner Group",
+        "ToolTip": "Quod enim minima et magnam.",
         "Deleted": false,
-        "Rank": 410,
-        "Type": "quisquam",
-        "ColorBlock": 973,
-        "IconHint": "ipsam",
+        "Rank": 641,
+        "Type": "vel",
+        "ColorBlock": 579,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "1995-12-24T11:22:45.9754127+01:00",
+        "LastChanged": "2020-05-24T12:15:28.2326265+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
+        "ExtraInfo": "omnis",
         "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Ms. Junior Kulas MD",
+        "Hidden": true,
+        "FullName": "Mrs. Nash Abshire I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldLength": 709
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "placeat",
+    "ExtraInfo": "sed",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mr. Candido Bergnaum II",
+    "FullName": "Emmitt Swift III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 635
       }
     }
   }

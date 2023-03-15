@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 701,
-      "Id": 874,
-      "HistoryName": "Lueilwitz, Howell and Dicki",
-      "HistoryId": 998,
-      "AssociateId": 143,
-      "Name": "Romaguera LLC",
-      "ItemInfo": "animi"
+      "Rank": 915,
+      "Id": 364,
+      "HistoryName": "King LLC",
+      "HistoryId": 359,
+      "AssociateId": 547,
+      "Name": "Morissette Group",
+      "ItemInfo": "ea"
     }
   ]
 }
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 237,
-    "Id": 729,
-    "HistoryName": "Ruecker Inc and Sons",
-    "HistoryId": 590,
-    "AssociateId": 905,
-    "Name": "Bradtke, Jacobson and Kuvalis",
-    "ItemInfo": "aut",
+    "Rank": 743,
+    "Id": 468,
+    "HistoryName": "Runte-Kuvalis",
+    "HistoryId": 463,
+    "AssociateId": 700,
+    "Name": "Kris, Kshlerin and Beatty",
+    "ItemInfo": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldType": "System.Int32",
+        "FieldLength": 311
       }
     }
   }

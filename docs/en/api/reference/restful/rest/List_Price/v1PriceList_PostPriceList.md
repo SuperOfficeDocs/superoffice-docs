@@ -93,19 +93,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 393,
-  "ERPPriceListKey": "fugiat",
-  "QuoteConnectionId": 369,
-  "Name": "Mraz Inc and Sons",
-  "Description": "Re-contextualized bandwidth-monitored orchestration",
-  "Currency": "necessitatibus",
-  "CurrencyName": "Stroman-Wilderman",
-  "ValidFrom": "2015-05-27T11:22:46.0066565+02:00",
-  "ValidTo": "2014-05-07T11:22:46.0066565+02:00",
+  "PriceListId": 616,
+  "ERPPriceListKey": "nobis",
+  "QuoteConnectionId": 405,
+  "Name": "Kuvalis-Jaskolski",
+  "Description": "De-engineered contextually-based emulation",
+  "Currency": "velit",
+  "CurrencyName": "Hauck-Kozey",
+  "ValidFrom": "2016-11-07T12:15:28.2536194+01:00",
+  "ValidTo": "2018-06-19T12:15:28.2536194+02:00",
   "IsActive": false
 }
 ```
@@ -117,22 +117,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 676,
-  "ERPPriceListKey": "minima",
-  "QuoteConnectionId": 291,
-  "Name": "Strosin-Williamson",
-  "Description": "Fundamental directional orchestration",
-  "Currency": "quo",
-  "CurrencyName": "Bogisich Inc and Sons",
-  "ValidFrom": "1996-04-13T11:22:46.0066565+02:00",
-  "ValidTo": "2023-01-10T11:22:46.0066565+01:00",
+  "PriceListId": 456,
+  "ERPPriceListKey": "doloribus",
+  "QuoteConnectionId": 567,
+  "Name": "Weissnat LLC",
+  "Description": "Customer-focused stable array",
+  "Currency": "ut",
+  "CurrencyName": "Harber LLC",
+  "ValidFrom": "2014-09-14T12:15:28.2546171+02:00",
+  "ValidTo": "2002-10-06T12:15:28.2546171+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 45
     }
   },
   "_Links": {

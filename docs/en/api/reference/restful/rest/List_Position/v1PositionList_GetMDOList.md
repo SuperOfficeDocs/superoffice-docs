@@ -26,7 +26,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=praesentium
+GET /api/v1/List/Position/MDOItems?query=ex
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Carroll, McGlynn and McDermott",
-    "ToolTip": "Ipsum et rem reiciendis corrupti odit sed.",
-    "Deleted": true,
-    "Rank": 164,
-    "Type": "nostrum",
+    "Id": 1001,
+    "Name": "McGlynn-Hagenes",
+    "ToolTip": "Et distinctio.",
+    "Deleted": false,
+    "Rank": 201,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Sporer Inc and Sons",
-        "ToolTip": "Ducimus minus aliquam aperiam distinctio soluta.",
-        "Deleted": false,
-        "Rank": 474,
-        "Type": "quibusdam",
+        "Id": 163,
+        "Name": "Fisher, Brakus and Erdman",
+        "ToolTip": "Ut voluptas nostrum quia laborum corrupti.",
+        "Deleted": true,
+        "Rank": 25,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 211,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "adipisci",
-        "FullName": "Juvenal Emard Jr.",
+        "IconHint": "alias",
+        "ColorBlock": 805,
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
+        "FullName": "Lawson Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldLength": 880
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 296,
-    "ExtraInfo": "fugiat",
+    "IconHint": "dolor",
+    "ColorBlock": 208,
+    "ExtraInfo": "delectus",
     "StyleHint": "officia",
-    "FullName": "Ms. Reece Elbert Senger",
+    "FullName": "Dr. Clay Shanna Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldLength": 292
       }
     }
   }

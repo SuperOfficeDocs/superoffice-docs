@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 846,
-  "Name": "Strosin Inc and Sons"
+  "AssociateId": 228,
+  "Name": "Krajcik-Price"
 }
 ```

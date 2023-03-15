@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schinner-Kilback",
-    "DisplayName": "Tillman Inc and Sons",
-    "Description": "Progressive disintermediate challenge",
-    "ShortLabel": "modi",
+    "FieldName": "Ziemann-Volkman",
+    "DisplayName": "Flatley, Fisher and Bode",
+    "Description": "Distributed disintermediate system engine",
+    "ShortLabel": "id",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 749,
-    "TemplateVariableName": "Fisher-Steuber"
+    "Rank": 519,
+    "TemplateVariableName": "Hackett, Auer and Anderson"
   }
 ]
 ```

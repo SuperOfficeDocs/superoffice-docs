@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 935,
-    "ColumnId": 461,
-    "FieldDefault": "id",
-    "FieldHeight": 843,
-    "FieldLabel": "enim",
-    "FieldLeft": 8,
-    "FieldTop": 440,
+    "UDefFieldId": 281,
+    "ColumnId": 488,
+    "FieldDefault": "voluptas",
+    "FieldHeight": 445,
+    "FieldLabel": "eos",
+    "FieldLeft": 502,
+    "FieldTop": 871,
     "FieldType": "Checkbox",
-    "FieldWidth": 975,
-    "FormatMask": "voluptas",
+    "FieldWidth": 729,
+    "FormatMask": "expedita",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 499,
-    "LabelLeft": 497,
-    "LabelTop": 646,
-    "LabelWidth": 814,
-    "LastVersionId": 564,
-    "ListTableId": 373,
+    "IsIndexed": true,
+    "LabelHeight": 449,
+    "LabelLeft": 928,
+    "LabelTop": 713,
+    "LabelWidth": 217,
+    "LastVersionId": 914,
+    "ListTableId": 470,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 826,
-    "ProgId": "nihil",
+    "Page1LineNo": 136,
+    "ProgId": "ex",
     "IsReadOnly": false,
-    "ShortLabel": "voluptatibus",
-    "TabOrder": 910,
-    "TextLength": 574,
-    "Tooltip": "maiores",
-    "UdefIdentity": 282,
-    "UDListDefinitionId": 119,
+    "ShortLabel": "vitae",
+    "TabOrder": 244,
+    "TextLength": 637,
+    "Tooltip": "distinctio",
+    "UdefIdentity": 1000,
+    "UDListDefinitionId": 31,
     "Justification": "Center",
-    "Version": 912,
-    "TemplateVariableName": "Jenkins, Bayer and Ward",
-    "HasBeenPublished": false,
-    "MdoListName": "Grant-Prohaska",
+    "Version": 529,
+    "TemplateVariableName": "Smith LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Schowalter, Metz and Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 869
+        "FieldType": "System.Int32",
+        "FieldLength": 540
       }
     }
   }

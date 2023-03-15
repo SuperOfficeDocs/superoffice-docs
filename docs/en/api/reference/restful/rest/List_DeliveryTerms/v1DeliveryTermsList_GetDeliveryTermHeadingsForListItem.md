@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Hane Group",
-    "ToolTip": "Et quisquam sed laboriosam.",
+    "Id": 152,
+    "Name": "Cartwright-Emmerich",
+    "ToolTip": "Laudantium dolore possimus officia.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "libero",
-    "ColorBlock": 843,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2009-10-23T11:22:45.8816758+02:00",
+    "Rank": 46,
+    "Type": "ex",
+    "ColorBlock": 198,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2020-11-14T12:15:28.116619+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Rosenbaum, Schiller and Kihn",
-        "ToolTip": "Voluptates amet itaque.",
+        "Id": 675,
+        "Name": "Auer-Jerde",
+        "ToolTip": "Commodi ea.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "rerum",
-        "ColorBlock": 202,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "1997-11-13T11:22:45.8816758+01:00",
+        "Rank": 782,
+        "Type": "atque",
+        "ColorBlock": 526,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2005-08-07T12:15:28.1176187+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "earum",
+        "ExtraInfo": "nulla",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Wanda Littel",
+        "FullName": "Scot Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldType": "System.String",
+            "FieldLength": 720
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "similique",
-    "Hidden": false,
-    "FullName": "Sylvester Abbott",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "eveniet",
+    "Hidden": true,
+    "FullName": "Ofelia Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 132
       }
     }
   }

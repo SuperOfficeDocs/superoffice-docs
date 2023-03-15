@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "iure"
+  "QuoteListType": "placeat"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "omnis",
-    "DisplayValue": "est",
-    "DisplayDescription": "Cloned transitional throughput",
+    "ERPQuoteListItemKey": "deleniti",
+    "DisplayValue": "sed",
+    "DisplayDescription": "Managed real-time initiative",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldType": "System.String",
+        "FieldLength": 621
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "omnis",
-    "DisplayValue": "est",
-    "DisplayDescription": "Cloned transitional throughput",
+    "ERPQuoteListItemKey": "deleniti",
+    "DisplayValue": "sed",
+    "DisplayDescription": "Managed real-time initiative",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldType": "System.String",
+        "FieldLength": 621
       }
     }
   }

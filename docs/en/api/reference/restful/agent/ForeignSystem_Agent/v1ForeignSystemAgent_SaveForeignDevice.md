@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Rutherford, Bogan and Wilderman"
+  "ApplicationName": "Robel, Doyle and McKenzie"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 666,
-  "Name": "Hyatt-Predovic",
-  "CreatedDate": "2021-05-09T11:22:38.3834434+02:00",
-  "UpdatedDate": "2001-08-29T11:22:38.3834434+02:00",
-  "AssociateFullName": "Edythe Gutmann",
-  "CreatedBy": "culpa",
-  "UpdatedBy": "impedit",
-  "DeviceIdentifier": "tempore",
-  "ForeignAppId": 594,
+  "ForeignDeviceId": 842,
+  "Name": "Hane-McGlynn",
+  "CreatedDate": "2006-07-14T12:15:19.1677488+02:00",
+  "UpdatedDate": "2009-04-29T12:15:19.1677488+02:00",
+  "AssociateFullName": "Miss Dylan Kadin Gutmann V",
+  "CreatedBy": "ullam",
+  "UpdatedBy": "similique",
+  "DeviceIdentifier": "enim",
+  "ForeignAppId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 732
     }
   }
 }

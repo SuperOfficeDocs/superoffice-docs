@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,9 +95,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "alias",
-    "Type": "in",
-    "Description": "Multi-tiered systematic analyzer",
+    "DisplayType": "velit",
+    "Type": "quaerat",
+    "Description": "Focused radical paradigm",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 589
       }
     }
   }

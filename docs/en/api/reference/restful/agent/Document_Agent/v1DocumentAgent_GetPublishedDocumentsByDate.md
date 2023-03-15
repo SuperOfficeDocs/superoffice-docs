@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 694,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2020-03-18T11:22:37.8366954+01:00",
-  "EndTime": "2021-09-04T11:22:37.8366954+02:00",
-  "Count": 859
+  "PersonId": 205,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2002-06-20T12:15:18.70576+02:00",
+  "EndTime": "2016-02-15T12:15:18.70576+01:00",
+  "Count": 716
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 54,
-    "Attention": "nisi",
-    "Header": "quia",
-    "Name": "Schiller-Larson",
-    "OurRef": "qui",
-    "YourRef": "sed",
-    "Description": "Devolved contextually-based infrastructure",
-    "DocumentTemplate": "dolores",
-    "IsPublished": false,
-    "PersonId": 725,
-    "PersonFullName": "Ms. Quinten Xavier Schuster Sr.",
-    "AssociateFullName": "Kenneth Stamm",
-    "ContactId": 41,
-    "ContactName": "Kerluke-Upton",
-    "ProjectId": 641,
-    "ProjectName": "Collins, Watsica and Moore",
-    "AssociateId": 746,
-    "Snum": 787,
-    "SaleId": 177,
-    "SaleName": "Kovacek, Walter and Howell",
+    "DocumentId": 756,
+    "Attention": "ut",
+    "Header": "in",
+    "Name": "Bogan Group",
+    "OurRef": "magni",
+    "YourRef": "modi",
+    "Description": "Switchable composite artificial intelligence",
+    "DocumentTemplate": "sunt",
+    "IsPublished": true,
+    "PersonId": 697,
+    "PersonFullName": "Dr. Archibald Flatley Jr.",
+    "AssociateFullName": "Ms. Anthony Dwight Schaefer Jr.",
+    "ContactId": 304,
+    "ContactName": "White, Haley and Barton",
+    "ProjectId": 962,
+    "ProjectName": "Harris, Satterfield and Batz",
+    "AssociateId": 334,
+    "Snum": 63,
+    "SaleId": 924,
+    "SaleName": "Murphy, Jones and Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 483
       }
     }
   }

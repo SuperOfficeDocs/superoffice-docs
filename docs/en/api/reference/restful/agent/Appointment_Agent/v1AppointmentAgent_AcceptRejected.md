@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 114,
+  "AppointmentId": 287,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -147,63 +147,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-07-28T11:22:37.1024946+02:00",
-  "AppointmentId": 361,
-  "Description": "Profound interactive access",
-  "StartDate": "1995-09-17T11:22:37.1024946+02:00",
-  "EndDate": "2020-07-26T11:22:37.1024946+02:00",
+  "CreatedDate": "2013-09-20T12:15:17.8687672+02:00",
+  "AppointmentId": 960,
+  "Description": "Open-architected explicit challenge",
+  "StartDate": "2001-03-10T12:15:17.8687672+01:00",
+  "EndDate": "2008-03-23T12:15:17.8687672+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 50,
+  "MotherId": 698,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-05-13T11:22:37.1024946+02:00",
+  "UpdatedDate": "1998-01-25T12:15:17.8717682+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 644,
+  "ActiveLinks": 977,
   "Links": [
     {
-      "EntityName": "Krajcik, McCullough and Kozey",
-      "Id": 33,
-      "Description": "Adaptive analyzing architecture",
-      "ExtraInfo": "nesciunt",
-      "LinkId": 287,
+      "EntityName": "Nikolaus LLC",
+      "Id": 830,
+      "Description": "Up-sized multi-tasking standardization",
+      "ExtraInfo": "rerum",
+      "LinkId": 293,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 954
+          "FieldType": "System.Int32",
+          "FieldLength": 48
         }
       }
     }
   ],
-  "AlarmLeadTime": "non",
+  "AlarmLeadTime": "quod",
   "HasAlarm": false,
-  "ColorIndex": 226,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "adipisci",
+  "ColorIndex": 764,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "nam",
   "LeadTime": "laudantium",
-  "Location": "et",
-  "RejectCounter": 434,
+  "Location": "voluptatem",
+  "RejectCounter": 789,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 778,
-      "PersonId": 227,
-      "ContactId": 941,
-      "EmailId": 108,
+      "AssociateId": 448,
+      "PersonId": 199,
+      "ContactId": 977,
+      "EmailId": 2,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 778,
-      "PersonId": 227,
-      "ContactId": 941,
-      "EmailId": 108,
+      "AssociateId": 448,
+      "PersonId": 199,
+      "ContactId": 977,
+      "EmailId": 2,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -211,58 +211,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-08-25T11:22:37.1024946+02:00",
+  "ActiveDate": "2004-08-08T12:15:17.8727675+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 476,
+  "PreferredTZLocation": 559,
   "Sale": null,
-  "SuggestedAppointmentId": 994,
+  "SuggestedAppointmentId": 987,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "enim",
+  "CentralserviceVideomeetId": "pariatur",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Annetta Braun",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1290875018",
+    "SuperOffice:2": "Mrs. Lorna Isom Kautzer"
   },
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "aut"
+    "CustomFields1": "nulla",
+    "CustomFields2": "provident"
   },
-  "PublishEventDate": "2013-04-08T11:22:37.1181151+02:00",
-  "PublishTo": "2004-02-13T11:22:37.1181151+01:00",
-  "PublishFrom": "2003-04-10T11:22:37.1181151+02:00",
+  "PublishEventDate": "2017-03-04T12:15:17.8747681+01:00",
+  "PublishTo": "1999-12-11T12:15:17.8747681+01:00",
+  "PublishFrom": "2013-01-16T12:15:17.8747681+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 194,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldType": "System.Int32",
+          "FieldLength": 25
         }
       }
     },
     {
-      "VisibleId": 194,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldType": "System.Int32",
+          "FieldLength": 25
         }
       }
     }
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

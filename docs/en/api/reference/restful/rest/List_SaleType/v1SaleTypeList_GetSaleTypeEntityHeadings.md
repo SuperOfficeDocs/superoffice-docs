@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 665,
-    "Name": "Carter-Dickinson",
-    "Tooltip": "praesentium",
+    "HeadingId": 679,
+    "Name": "Baumbach, Will and Donnelly",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 949,
-    "UdListDefinitionId": 628,
+    "Rank": 717,
+    "UdListDefinitionId": 382,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 803
       }
     }
   }

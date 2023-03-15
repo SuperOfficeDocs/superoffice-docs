@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 866,
-  "Name": "Adams-Durgan",
-  "Config": "velit",
-  "Rank": 519,
-  "Client": "error",
-  "Style": "voluptas",
+  "DashboardThemeId": 877,
+  "Name": "Veum LLC",
+  "Config": "voluptas",
+  "Rank": 650,
+  "Client": "aliquam",
+  "Style": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 322,
-  "Name": "Hilll Inc and Sons",
-  "Tooltip": "suscipit",
-  "Deleted": false,
-  "UdListDefinitionId": 434,
-  "Rank": 290,
+  "Id": 554,
+  "Name": "Wiegand-Bahringer",
+  "Tooltip": "id",
+  "Deleted": true,
+  "UdListDefinitionId": 415,
+  "Rank": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

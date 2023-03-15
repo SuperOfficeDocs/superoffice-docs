@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Mertz, Predovic and Heathcote",
-    "ToolTip": "Adipisci neque nihil at corporis assumenda magni.",
+    "Id": 118,
+    "Name": "Gutmann, Mraz and Bednar",
+    "ToolTip": "Exercitationem id ut est ut consequatur.",
     "Deleted": true,
-    "Rank": 455,
-    "Type": "quis",
-    "ColorBlock": 629,
-    "IconHint": "perferendis",
+    "Rank": 320,
+    "Type": "sit",
+    "ColorBlock": 638,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2009-01-24T11:22:45.5536344+01:00",
+    "LastChanged": "2006-01-23T12:15:27.8286208+01:00",
     "ChildItems": [
       {
-        "Id": 579,
-        "Name": "Von-Torp",
-        "ToolTip": "Consequuntur officia magni in aliquam ex.",
-        "Deleted": false,
-        "Rank": 333,
-        "Type": "ut",
-        "ColorBlock": 926,
-        "IconHint": "dignissimos",
+        "Id": 129,
+        "Name": "Quitzon LLC",
+        "ToolTip": "Asperiores ab quis tenetur nostrum sunt qui harum.",
+        "Deleted": true,
+        "Rank": 7,
+        "Type": "illum",
+        "ColorBlock": 323,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2014-02-05T11:22:45.5536344+01:00",
+        "LastChanged": "2012-01-02T12:15:27.8296229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "cumque",
-        "Hidden": true,
-        "FullName": "Deron Kilback"
+        "ExtraInfo": "minus",
+        "StyleHint": "porro",
+        "Hidden": false,
+        "FullName": "Prof. Cayla Rosenbaum"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "quo",
+    "ExtraInfo": "totam",
+    "StyleHint": "occaecati",
     "Hidden": true,
-    "FullName": "Dr. Andrew Veum"
+    "FullName": "Edna Murphy"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "Terry-Borer",
-    "ToolTip": "Architecto recusandae autem non eius ipsa rem velit.",
+    "Id": 805,
+    "Name": "O'Connell, Prosacco and Bednar",
+    "ToolTip": "Natus aperiam odit est iure et.",
     "Deleted": true,
-    "Rank": 349,
-    "Type": "corporis",
-    "ColorBlock": 88,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2016-02-02T11:22:45.5536344+01:00",
+    "Rank": 401,
+    "Type": "consequuntur",
+    "ColorBlock": 164,
+    "IconHint": "iure",
+    "Selected": false,
+    "LastChanged": "2022-05-11T12:15:27.8306227+02:00",
     "ChildItems": [
       {
-        "Id": 898,
-        "Name": "Weber LLC",
-        "ToolTip": "Expedita quas qui.",
+        "Id": 323,
+        "Name": "Huels-Homenick",
+        "ToolTip": "Facere suscipit voluptatum rem officia alias quidem placeat.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "eum",
-        "ColorBlock": 499,
-        "IconHint": "nihil",
-        "Selected": false,
-        "LastChanged": "2000-03-17T11:22:45.5536344+01:00",
+        "Rank": 965,
+        "Type": "nobis",
+        "ColorBlock": 671,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2017-07-25T12:15:27.8306227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ea",
+        "ExtraInfo": "fuga",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Alfonzo Block",
+        "FullName": "Tom Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldType": "System.Int32",
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Ms. Danika Sipes Jr.",
+    "ExtraInfo": "modi",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Estella O'Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Kshlerin Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Id": 892,
+  "Name": "Upton, Rohan and Buckridge",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 906,
+  "Rank": 39,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 363,
-  "Name": "Wisozk Group",
-  "Tooltip": "officiis",
-  "Deleted": false,
-  "Rank": 166,
+  "Id": 529,
+  "Name": "Lemke LLC",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "Rank": 980,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
   "ListType": "reprehenderit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   }
 }

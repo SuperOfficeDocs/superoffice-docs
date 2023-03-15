@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Halvorson-Breitenberg",
-  "Tooltip": "voluptas",
+  "Id": 542,
+  "Name": "Wisoky LLC",
+  "Tooltip": "aperiam",
   "Deleted": true,
-  "UdListDefinitionId": 434,
-  "Rank": 542,
+  "UdListDefinitionId": 810,
+  "Rank": 236,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 465
     }
   }
 }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leannon, Casper and Stehr",
-  "Columns": "voluptas",
-  "SortOrder": "perspiciatis",
-  "Restriction": "est",
-  "Entities": "fugiat",
-  "Page": 35,
-  "PageSize": 152,
-  "Context": "quo"
+  "ProviderName": "Lynch-Mueller",
+  "Columns": "unde",
+  "SortOrder": "voluptatibus",
+  "Restriction": "molestiae",
+  "Entities": "ut",
+  "Page": 133,
+  "PageSize": 738,
+  "Context": "sequi"
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hand, West and Stracke",
-    "PrimaryKey": 623,
+    "EntityName": "Renner Group",
+    "PrimaryKey": 957,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "laudantium",
-        "LinkHint": "et"
+        "DisplayValue": "voluptates",
+        "TooltipHint": "ad",
+        "LinkHint": "a"
       }
     },
-    "LinkHint": "et",
-    "StyleHint": "aut",
+    "LinkHint": "aut",
+    "StyleHint": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 860
       }
     }
   }

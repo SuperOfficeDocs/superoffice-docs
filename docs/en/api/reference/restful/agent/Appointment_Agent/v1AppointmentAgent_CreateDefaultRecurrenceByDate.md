@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2015-11-29T11:22:37.1181151+01:00"
+  "StartDate": "2006-01-11T12:15:17.8757672+01:00"
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 899,
-  "StartDate": "2016-11-11T11:22:37.1181151+01:00",
-  "EndDate": "2000-04-07T11:22:37.1181151+02:00",
-  "RecurrenceCounter": 733,
+  "RecurrenceId": 332,
+  "StartDate": "2018-09-03T12:15:17.8757672+02:00",
+  "EndDate": "2013-08-25T12:15:17.8757672+02:00",
+  "RecurrenceCounter": 522,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-09-26T11:22:37.1181151+02:00",
-      "IsConflict": true,
-      "Description": "Configurable contextually-based access",
-      "DescriptionStyleHint": "User-friendly explicit middleware",
-      "Tooltip": "nobis"
+      "Date": "2000-07-26T12:15:17.8757672+02:00",
+      "IsConflict": false,
+      "Description": "Automated actuating encryption",
+      "DescriptionStyleHint": "Compatible 3rd generation support",
+      "Tooltip": "dolor"
     },
     {
-      "Date": "2010-09-26T11:22:37.1181151+02:00",
-      "IsConflict": true,
-      "Description": "Configurable contextually-based access",
-      "DescriptionStyleHint": "User-friendly explicit middleware",
-      "Tooltip": "nobis"
+      "Date": "2000-07-26T12:15:17.8757672+02:00",
+      "IsConflict": false,
+      "Description": "Automated actuating encryption",
+      "DescriptionStyleHint": "Compatible 3rd generation support",
+      "Tooltip": "dolor"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

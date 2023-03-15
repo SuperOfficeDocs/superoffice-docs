@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 38,
-  "Count": 995
+  "AmountLimit": 362,
+  "Count": 526
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Grant-Labadie",
-    "SaleDate": "2014-08-12T11:22:39.2425669+02:00",
-    "SaleId": 197,
-    "Probability": 235,
-    "Title": "accusantium",
-    "Amount": 1313.146,
-    "Currency": "quidem",
-    "ProjectName": "Cummerata, Ernser and Nicolas",
-    "AssociateFullName": "Isom Oberbrunner V",
-    "Description": "Multi-tiered object-oriented complexity",
+    "ContactName": "Dooley LLC",
+    "SaleDate": "2007-01-10T12:15:20.0927352+01:00",
+    "SaleId": 303,
+    "Probability": 737,
+    "Title": "distinctio",
+    "Amount": 2071.574,
+    "Currency": "error",
+    "ProjectName": "Runte-Hudson",
+    "AssociateFullName": "Adah Maggio",
+    "Description": "Expanded executive circuit",
     "Status": "Lost",
-    "WeightedAmount": 23473.66,
-    "ProjectId": 614,
-    "EarningPercent": 26698.546,
-    "Earning": 702.016,
-    "ContactId": 473,
-    "AssociateId": 468,
-    "PersonId": 343,
-    "SaleTypeId": 898,
-    "SaleTypeName": "Hilpert LLC",
-    "PersonFullName": "Alyce Rempel",
+    "WeightedAmount": 29168.138,
+    "ProjectId": 148,
+    "EarningPercent": 24733.528,
+    "Earning": 24188.212,
+    "ContactId": 264,
+    "AssociateId": 864,
+    "PersonId": 473,
+    "SaleTypeId": 726,
+    "SaleTypeName": "Hills-Hackett",
+    "PersonFullName": "Mrs. Carrie Alexandra Powlowski",
     "Completed": "Completed",
-    "ActiveErpLinks": 991,
-    "NextDueDate": "2012-08-27T11:22:39.2425669+02:00",
-    "Number": "961542",
+    "ActiveErpLinks": 420,
+    "NextDueDate": "2013-08-02T12:15:20.0927352+02:00",
+    "Number": "1024122",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 516
       }
     }
   }

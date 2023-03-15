@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "perspiciatis",
+  "SmtpUri": "laboriosam",
   "From": "est",
   "UseStoredPassword": false
 }
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "ErrorMessage": "illo",
+  "Success": true,
+  "ErrorMessage": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 554
     }
   }
 }

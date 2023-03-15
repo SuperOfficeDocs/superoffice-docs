@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Hackett LLC",
-    "ToolTip": "Occaecati voluptatem voluptate consectetur sed.",
-    "Deleted": true,
-    "Rank": 861,
-    "Type": "est",
-    "ColorBlock": 301,
-    "IconHint": "earum",
+    "Id": 64,
+    "Name": "Braun LLC",
+    "ToolTip": "Dignissimos et excepturi possimus asperiores qui.",
+    "Deleted": false,
+    "Rank": 65,
+    "Type": "ea",
+    "ColorBlock": 925,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2004-06-06T11:22:39.617529+02:00",
+    "LastChanged": "2011-10-07T12:15:20.5637287+02:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Rippin Group",
-        "ToolTip": "Sint cupiditate corporis rerum sunt omnis.",
+        "Id": 465,
+        "Name": "Little-Powlowski",
+        "ToolTip": "Quod recusandae dolores est ut accusantium.",
         "Deleted": false,
-        "Rank": 471,
-        "Type": "optio",
-        "ColorBlock": 748,
-        "IconHint": "quo",
+        "Rank": 162,
+        "Type": "expedita",
+        "ColorBlock": 906,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2001-01-17T11:22:39.617529+01:00",
+        "LastChanged": "2022-09-18T12:15:20.5637287+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Neil Wilderman",
+        "ExtraInfo": "magnam",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Solon Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 145
+            "FieldType": "System.Int32",
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "ut",
+    "ExtraInfo": "et",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Elizabeth Homenick",
+    "FullName": "Jacky Anika Legros Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldType": "System.String",
+        "FieldLength": 150
       }
     }
   }

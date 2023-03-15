@@ -125,16 +125,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 795,
-  "StartTime": "2022-11-18T11:22:36.946279+01:00",
-  "EndTime": "2003-09-11T11:22:36.946279+02:00",
-  "Status": 232,
-  "Type": 799,
-  "AssociateId": 487
+  "Id": 783,
+  "StartTime": "1996-01-29T12:15:17.6737701+01:00",
+  "EndTime": "2009-08-21T12:15:17.6737701+02:00",
+  "Status": 236,
+  "Type": 242,
+  "AssociateId": 769
 }
 ```
 
@@ -145,61 +145,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 850,
-  "StartDate": "2001-07-19T11:22:36.9619023+02:00",
-  "EndDate": "2004-08-24T11:22:36.9619023+02:00",
+  "AppointmentId": 595,
+  "StartDate": "1999-03-30T12:15:17.6757706+02:00",
+  "EndDate": "1996-08-29T12:15:17.6757706+02:00",
   "Type": "BookingForChecklist",
-  "Task": "inventore",
-  "AssociateFullName": "Merritt Schultz",
-  "ContactName": "Romaguera Group",
-  "Description": "Open-architected optimizing application",
-  "PersonFullName": "Dr. Jayden Jay Schaefer",
-  "PersonId": 333,
-  "ContactId": 1002,
-  "ProjectId": 888,
-  "ProjectName": "Koelpin LLC",
-  "IsPublished": true,
-  "AssociateId": 145,
-  "ColorIndex": 732,
-  "IsFree": true,
+  "Task": "est",
+  "AssociateFullName": "Braeden Addison Schaefer III",
+  "ContactName": "Senger-Beier",
+  "Description": "Decentralized discrete help-desk",
+  "PersonFullName": "Miss Muriel Kenyon Dach",
+  "PersonId": 243,
+  "ContactId": 13,
+  "ProjectId": 344,
+  "ProjectName": "Bins Group",
+  "IsPublished": false,
+  "AssociateId": 577,
+  "ColorIndex": 933,
+  "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 3,
-  "PriorityName": "Armstrong-Jakubowski",
+  "PriorityId": 374,
+  "PriorityName": "Ebert, Bayer and Dickinson",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsBookingMain": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2013-06-11T11:22:36.9619023+02:00",
+  "ActiveDate": "2021-01-01T12:15:17.6767707+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2001-06-25T11:22:36.9619023+02:00",
-  "RecurringEndDate": "2002-03-09T11:22:36.9619023+01:00",
-  "MotherId": 679,
-  "AssignedBy": 345,
-  "AssignedByFullName": "Kailee Helene Gerlach I",
+  "RecurringStartDate": "1998-07-30T12:15:17.6767707+02:00",
+  "RecurringEndDate": "2021-03-03T12:15:17.6767707+01:00",
+  "MotherId": 977,
+  "AssignedBy": 14,
+  "AssignedByFullName": "Santina Mraz",
   "RejectReason": "",
-  "Location": "saepe",
-  "AlarmLeadTime": "doloremque",
-  "SaleId": 839,
-  "SaleName": "Kemmer Group",
-  "AssociateName": "Ratke-Buckridge",
-  "CreatedDate": "2021-12-29T11:22:36.9619023+01:00",
-  "CreatedBy": "dolores",
-  "CreatedByFullName": "Sigrid Labadie",
-  "CreatedByAssociateId": 446,
+  "Location": "et",
+  "AlarmLeadTime": "eligendi",
+  "SaleId": 225,
+  "SaleName": "Considine Group",
+  "AssociateName": "Brown, Kreiger and Nicolas",
+  "CreatedDate": "2015-08-16T12:15:17.6767707+02:00",
+  "CreatedBy": "rerum",
+  "CreatedByFullName": "Carley Heathcote",
+  "CreatedByAssociateId": 834,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 221
     }
   }
 }

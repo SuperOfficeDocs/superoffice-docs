@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fully-configurable 3rd generation infrastructure",
-  "Filename": "velit",
-  "Size": 488,
-  "Type": "perferendis",
-  "Encoding": "commodi",
-  "Id": "quas",
-  "Disposition": "consequatur",
+  "Description": "Versatile transitional standardization",
+  "Filename": "alias",
+  "Size": 231,
+  "Type": "et",
+  "Encoding": "necessitatibus",
+  "Id": "est",
+  "Disposition": "asperiores",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldLength": 905
     }
   }
 }

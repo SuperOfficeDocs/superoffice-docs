@@ -115,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 216,
-  "Name": "Huel Group",
+  "SelectionId": 857,
+  "Name": "Lehner Inc and Sons",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-source even-keeled ability",
-  "Postit": "veniam",
+  "Description": "Fully-configurable reciprocal leverage",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 330,
-  "IncludePerson": 824,
-  "MemberCount": 948,
-  "Name": "Stark, Jenkins and Price",
-  "PostitTextId": 82,
-  "CreatedDate": "2009-03-08T11:22:39.3207231+01:00",
-  "SelectionId": 373,
-  "SoundEx": "voluptas",
-  "Source": 732,
-  "TextId": 270,
-  "UpdatedDate": "2006-11-15T11:22:39.3207231+01:00",
-  "UpdatedCount": 729,
-  "Visibility": 206,
+  "GroupIdx": 617,
+  "IncludePerson": 605,
+  "MemberCount": 704,
+  "Name": "Towne, Aufderhar and Hudson",
+  "PostitTextId": 556,
+  "CreatedDate": "2018-06-11T12:15:20.1847336+02:00",
+  "SelectionId": 562,
+  "SoundEx": "rerum",
+  "Source": 782,
+  "TextId": 944,
+  "UpdatedDate": "1995-11-30T12:15:20.1847336+01:00",
+  "UpdatedCount": 674,
+  "Visibility": 455,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 949,
-  "TargetTableName": "Nicolas, Hahn and Barton",
-  "Completed": true,
-  "LeftSelectionId": 837,
-  "RightSelectionId": 889,
+  "TargetTableNumber": 960,
+  "TargetTableName": "O'Reilly, Zieme and Stanton",
+  "Completed": false,
+  "LeftSelectionId": 984,
+  "RightSelectionId": 714,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stoltenberg LLC",
-  "ShadowProviderName": "Stroman-Tillman",
-  "ChartKey": "eius",
-  "LastLoaded": "1996-09-26T11:22:39.3207231+02:00",
-  "LastLoadedBy": 75,
+  "MainProviderName": "McKenzie-Bashirian",
+  "ShadowProviderName": "Runolfsson LLC",
+  "ChartKey": "repellendus",
+  "LastLoaded": "2003-08-16T12:15:20.1847336+02:00",
+  "LastLoadedBy": 343,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-01-10T11:22:39.3207231+01:00",
-  "LastMembershipChangeBy": 559,
+  "LastMembershipChange": "2008-07-06T12:15:20.1857336+02:00",
+  "LastMembershipChangeBy": 728,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "vel",
-  "MailingsProviderName": "Nicolas, Graham and Nicolas",
-  "DashboardTileDefinitionId": 680,
+  "MainHeading": "tenetur",
+  "MemberTabHeading": "animi",
+  "MailingsProviderName": "Murphy, Carter and Kutch",
+  "DashboardTileDefinitionId": 131,
   "VisibleFor": [
     {
-      "VisibleId": 941,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 870
         }
       }
     },
     {
-      "VisibleId": 941,
+      "VisibleId": 884,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldLength": 870
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

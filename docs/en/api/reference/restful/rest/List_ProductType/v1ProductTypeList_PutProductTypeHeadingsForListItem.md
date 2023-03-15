@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Tromp Inc and Sons",
-    "ToolTip": "Quia dicta voluptatem fuga excepturi ad.",
-    "Deleted": true,
-    "Rank": 843,
-    "Type": "impedit",
-    "ColorBlock": 966,
-    "IconHint": "aspernatur",
-    "Selected": false,
-    "LastChanged": "2017-12-19T11:22:46.0535201+01:00",
+    "Id": 478,
+    "Name": "Lowe, Greenholt and Schoen",
+    "ToolTip": "Assumenda maxime quas vitae velit debitis aliquid quisquam.",
+    "Deleted": false,
+    "Rank": 527,
+    "Type": "excepturi",
+    "ColorBlock": 8,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2021-06-29T12:15:28.3206174+02:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Herman Inc and Sons",
-        "ToolTip": "Illum quam quas animi dicta facere aut.",
-        "Deleted": false,
-        "Rank": 530,
-        "Type": "natus",
-        "ColorBlock": 454,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2018-11-08T11:22:46.0535201+01:00",
+        "Id": 842,
+        "Name": "Quigley, Koepp and Jones",
+        "ToolTip": "Quasi debitis.",
+        "Deleted": true,
+        "Rank": 480,
+        "Type": "est",
+        "ColorBlock": 767,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "2002-12-25T12:15:28.3206174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Dr. Cindy Martina Strosin V"
+        "ExtraInfo": "autem",
+        "StyleHint": "veritatis",
+        "Hidden": true,
+        "FullName": "Millie Ally Reynolds DDS"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ad",
+    "ExtraInfo": "debitis",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Deja Fahey I"
+    "FullName": "Shanny Jordyn Monahan V"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Murazik LLC",
-    "ToolTip": "Rerum et et quaerat animi quas minima.",
-    "Deleted": false,
-    "Rank": 440,
-    "Type": "in",
-    "ColorBlock": 192,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2012-02-27T11:22:46.0535201+01:00",
+    "Id": 743,
+    "Name": "Bayer LLC",
+    "ToolTip": "Omnis consequatur dolore alias dolorem.",
+    "Deleted": true,
+    "Rank": 968,
+    "Type": "repellendus",
+    "ColorBlock": 113,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2016-08-04T12:15:28.3216157+02:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Berge, Reynolds and Lubowitz",
-        "ToolTip": "Aliquam quis maiores nobis sed non.",
+        "Id": 836,
+        "Name": "Yost-Franecki",
+        "ToolTip": "Nesciunt necessitatibus neque ipsa odio aut dolor.",
         "Deleted": true,
-        "Rank": 652,
-        "Type": "itaque",
-        "ColorBlock": 13,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2001-08-26T11:22:46.0535201+02:00",
+        "Rank": 407,
+        "Type": "voluptas",
+        "ColorBlock": 502,
+        "IconHint": "nesciunt",
+        "Selected": true,
+        "LastChanged": "2005-01-25T12:15:28.3216157+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "modi",
+        "ExtraInfo": "est",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Miss Zora Barton",
+        "FullName": "Sabina Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "tempore",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Jennifer Ondricka",
+    "FullName": "Jannie Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldLength": 483
       }
     }
   }

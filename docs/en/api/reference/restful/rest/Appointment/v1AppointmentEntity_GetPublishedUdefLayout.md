@@ -87,7 +87,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 565,
-    "ColumnId": 991,
-    "FieldDefault": "aut",
-    "FieldHeight": 821,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 326,
-    "FieldTop": 160,
+    "UDefFieldId": 220,
+    "ColumnId": 106,
+    "FieldDefault": "reprehenderit",
+    "FieldHeight": 711,
+    "FieldLabel": "non",
+    "FieldLeft": 568,
+    "FieldTop": 193,
     "FieldType": "Checkbox",
-    "FieldWidth": 73,
-    "FormatMask": "aut",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 371,
-    "LabelLeft": 282,
-    "LabelTop": 183,
-    "LabelWidth": 636,
-    "LastVersionId": 867,
-    "ListTableId": 131,
-    "IsMandatory": false,
+    "FieldWidth": 253,
+    "FormatMask": "molestias",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 625,
+    "LabelLeft": 992,
+    "LabelTop": 801,
+    "LabelWidth": 847,
+    "LastVersionId": 300,
+    "ListTableId": 357,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 594,
-    "ProgId": "odit",
-    "IsReadOnly": false,
-    "ShortLabel": "incidunt",
-    "TabOrder": 907,
-    "TextLength": 784,
-    "Tooltip": "est",
-    "UdefIdentity": 541,
-    "UDListDefinitionId": 675,
+    "Page1LineNo": 471,
+    "ProgId": "suscipit",
+    "IsReadOnly": true,
+    "ShortLabel": "excepturi",
+    "TabOrder": 178,
+    "TextLength": 488,
+    "Tooltip": "possimus",
+    "UdefIdentity": 480,
+    "UDListDefinitionId": 28,
     "Justification": "Center",
-    "Version": 965,
-    "TemplateVariableName": "Mayert Group",
+    "Version": 670,
+    "TemplateVariableName": "Barrows Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Reichel, Pfeffer and Mante",
+    "MdoListName": "Kub, Ruecker and Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 476
       }
     }
   }

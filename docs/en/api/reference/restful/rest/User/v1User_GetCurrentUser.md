@@ -80,7 +80,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 996,
-  "Name": "Grady-Schneider",
-  "Rank": 953,
-  "Tooltip": "adipisci",
+  "AssociateId": 550,
+  "Name": "Ullrich Inc and Sons",
+  "Rank": 146,
+  "Tooltip": "numquam",
   "LicenseOwners": [
     {
-      "Name": "Bergnaum LLC",
-      "Description": "Upgradable even-keeled ability",
+      "Name": "Raynor, Schneider and Ankunding",
+      "Description": "Organic mobile secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 544
+          "FieldLength": 358
         }
       }
     },
     {
-      "Name": "Bergnaum LLC",
-      "Description": "Upgradable even-keeled ability",
+      "Name": "Raynor, Schneider and Ankunding",
+      "Description": "Organic mobile secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 544
+          "FieldLength": 358
         }
       }
     }
@@ -140,110 +140,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ut",
-      "Tooltip": "doloremque",
-      "Id": 676,
-      "Rank": 915,
+      "Value": "blanditiis",
+      "Tooltip": "occaecati",
+      "Id": 122,
+      "Rank": 473,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 548
+          "FieldType": "System.String",
+          "FieldLength": 198
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2004-06-19T11:22:45.5379661+02:00",
-  "Lastlogout": "2017-12-27T11:22:45.5379661+01:00",
-  "EjUserId": 480,
-  "RequestSignature": "eos",
+  "Lastlogin": "2016-10-20T12:15:27.7996233+02:00",
+  "Lastlogout": "2001-08-01T12:15:27.7996233+02:00",
+  "EjUserId": 165,
+  "RequestSignature": "tempore",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "doloremque",
-      "DisplayValue": "numquam",
+      "Value": "mollitia",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 308
+          "FieldLength": 124
         }
       }
     },
     {
       "Type": null,
-      "Value": "doloremque",
-      "DisplayValue": "numquam",
+      "Value": "mollitia",
+      "DisplayValue": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 308
+          "FieldLength": 124
         }
       }
     }
   ],
-  "UserName": "Harber Inc and Sons",
+  "UserName": "Luettgen, Mosciski and Ondricka",
   "TicketCategories": [
     {
-      "Id": 758,
-      "Name": "Heller-Rempel",
-      "ToolTip": "Omnis nihil sed debitis quis quis illo.",
-      "Deleted": false,
-      "Rank": 253,
-      "Type": "aut",
+      "Id": 231,
+      "Name": "Kunze, Shields and Gerlach",
+      "ToolTip": "Exercitationem mollitia vero sit quasi.",
+      "Deleted": true,
+      "Rank": 352,
+      "Type": "ipsa",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "hic",
-      "ColorBlock": 975,
-      "ExtraInfo": "hic",
-      "StyleHint": "sit",
-      "FullName": "Joe Koch II",
+      "IconHint": "dicta",
+      "ColorBlock": 916,
+      "ExtraInfo": "ipsa",
+      "StyleHint": "qui",
+      "FullName": "Harrison Bailey I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldLength": 967
         }
       }
     }
   ],
-  "NickName": "Bernhard Group",
-  "WaitingForApproval": false,
+  "NickName": "Flatley, Ankunding and Jacobson",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "nobis",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "ut"
+    "CustomFields1": "ab",
+    "CustomFields2": "dicta"
   },
   "PostSaveCommands": [
     {
-      "Name": "Osinski Inc and Sons",
-      "DisplayName": "Cole, Kilback and Dare",
-      "Description": "Exclusive national concept",
-      "ToolTip": "Quod ab facilis eveniet minus provident.",
+      "Name": "Fadel Group",
+      "DisplayName": "Mraz Group",
+      "Description": "Exclusive holistic data-warehouse",
+      "ToolTip": "Ipsam porro quos et.",
       "Actions": "Implicit",
-      "ActionData": "molestias",
+      "ActionData": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 828
+          "FieldType": "System.Int32",
+          "FieldLength": 463
         }
       }
     }
@@ -253,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 780
     }
   }
 }

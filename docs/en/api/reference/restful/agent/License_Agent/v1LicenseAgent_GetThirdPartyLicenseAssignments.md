@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 125,
-  "ModuleOwner": "quia"
+  "AssociateId": 463,
+  "ModuleOwner": "reiciendis"
 }
 ```
 
@@ -103,26 +103,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 455,
-    "Tooltip": "fuga",
+    "Unrestricted": true,
+    "Total": 296,
+    "Tooltip": "reprehenderit",
     "CanAssign": true,
-    "Free": 277,
-    "InUse": 556,
-    "IsHidden": false,
+    "Free": 31,
+    "InUse": 331,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 412,
-    "Name": "Jerde LLC",
-    "Description": "Organic reciprocal Graphical User Interface",
-    "PrerequisiteModuleName": "Lubowitz LLC",
-    "SortOrder": 522,
-    "ExtraFlags": 100,
+    "ModuleLicenseId": 594,
+    "Name": "Boehm LLC",
+    "Description": "Enterprise-wide regional firmware",
+    "PrerequisiteModuleName": "Harber-Jerde",
+    "SortOrder": 799,
+    "ExtraFlags": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 665
+        "FieldType": "System.Int32",
+        "FieldLength": 280
       }
     }
   }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Nov 2011 11:22:45 G11T
+Last-Modified: Mon, 17 Jan 2005 12:15:27 G1T
 
 {
-  "BlobId": 851,
-  "BlobSize": 409,
-  "Description": "Organic dedicated moderator",
-  "ExtraInfo": "occaecati",
-  "IsEncrypted": true,
+  "BlobId": 208,
+  "BlobSize": 675,
+  "Description": "De-engineered responsive implementation",
+  "ExtraInfo": "omnis",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "occaecati",
-  "OriginalSize": 968,
-  "CreatedDate": "2002-10-27T11:22:45.0537619+01:00",
-  "UpdatedDate": "2011-11-21T11:22:45.0537619+01:00",
+  "MimeType": "ullam",
+  "OriginalSize": 72,
+  "CreatedDate": "1998-06-11T12:15:27.1946325+02:00",
+  "UpdatedDate": "2005-01-17T12:15:27.1946325+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "numquam",
+  "ConceptualType": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 865
     }
   }
 }

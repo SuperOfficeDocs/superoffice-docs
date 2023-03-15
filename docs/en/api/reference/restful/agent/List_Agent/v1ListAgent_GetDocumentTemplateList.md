@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 945,
-    "Name": "Boyle LLC",
-    "Tooltip": "ea",
-    "SaveInDb": 803,
-    "Filename": "qui",
-    "DefaultOref": "earum",
+    "DocumentTemplateId": 68,
+    "Name": "Lueilwitz-Feest",
+    "Tooltip": "ipsam",
+    "SaveInDb": 857,
+    "Filename": "non",
+    "DefaultOref": "quibusdam",
     "RecordType": "Appointment",
-    "Deleted": 216,
+    "Deleted": 428,
     "Direction": "Incoming",
-    "AutoeventId": 216,
+    "AutoeventId": 819,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldLength": 726
       }
     }
   }

@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    426,
-    283
+    832,
+    486
   ],
   "State": "All"
 }
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Blanda, Lebsack and Christiansen",
-    "AssociateId": 946,
-    "DetailsTable": 232,
-    "DetailsRecord": 319,
+    "Id": 480,
+    "Name": "Kerluke Group",
+    "AssociateId": 35,
+    "DetailsTable": 437,
+    "DetailsRecord": 919,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "minima",
-      "ParameterObject2": "quidem"
+      "ParameterObject1": "quo",
+      "ParameterObject2": "animi"
     },
-    "LastStarted": "2014-06-10T11:22:37.4461725+02:00",
-    "Created": "2004-03-29T11:22:37.4461725+02:00",
-    "StartCount": 167,
-    "DatabaseSerialNumber": "1085033",
-    "Context": "voluptatibus",
-    "Result": "aut",
+    "LastStarted": "2014-02-17T12:15:18.2097626+01:00",
+    "Created": "2013-12-23T12:15:18.2097626+01:00",
+    "StartCount": 911,
+    "DatabaseSerialNumber": "854601",
+    "Context": "reprehenderit",
+    "Result": "maiores",
     "State": "All",
-    "Description": "Reactive client-driven software",
-    "Response": "ullam",
-    "Request": "magni",
-    "ProgressDescription": "Front-line 5th generation product",
-    "ProgressPercent": 86,
-    "FileName": "Huel, Okuneva and Hills",
+    "Description": "Stand-alone non-volatile attitude",
+    "Response": "ut",
+    "Request": "repudiandae",
+    "ProgressDescription": "Re-contextualized explicit groupware",
+    "ProgressPercent": 754,
+    "FileName": "Tremblay-Huels",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 391
       }
     }
   }

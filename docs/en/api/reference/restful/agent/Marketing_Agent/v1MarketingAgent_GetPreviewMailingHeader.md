@@ -90,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 815
+  "ShipmentId": 939
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2001-05-21T11:22:38.5708923+02:00",
+  "StartDate": "2011-09-17T12:15:19.3727483+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 200,
-  "ShipmentDescription": "Intuitive bi-directional installation",
-  "FromAddress": "est",
-  "PersonId": 966,
-  "PersonFullName": "Melba Heller",
-  "ShipmentType": "excepturi",
-  "MessageId": 970,
-  "MessageSubject": "doloribus",
-  "DocumentMessageId": 582,
-  "NumSent": 1002,
-  "NumOpened": 719,
-  "NumBounced": 756,
-  "NumClicks": 943,
+  "ShipmentId": 951,
+  "ShipmentDescription": "Synchronised mission-critical Graphic Interface",
+  "FromAddress": "vel",
+  "PersonId": 763,
+  "PersonFullName": "Olga August Hane IV",
+  "ShipmentType": "dolores",
+  "MessageId": 945,
+  "MessageSubject": "cupiditate",
+  "DocumentMessageId": 963,
+  "NumSent": 928,
+  "NumOpened": 575,
+  "NumBounced": 122,
+  "NumClicks": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 244
     }
   }
 }

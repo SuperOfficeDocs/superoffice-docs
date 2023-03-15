@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 760
+  "ContactId": 271
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Skiles-Ziemann",
-    "SaleDate": "1997-08-20T11:22:39.2425669+02:00",
-    "SaleId": 810,
-    "Probability": 388,
-    "Title": "omnis",
-    "Amount": 10712.011999999999,
-    "Currency": "iste",
-    "ProjectName": "Kuphal, Volkman and Schuppe",
-    "AssociateFullName": "Jarod Schumm",
-    "Description": "Operative logistical leverage",
+    "ContactName": "Prosacco-Stracke",
+    "SaleDate": "2018-08-09T12:15:20.0967364+02:00",
+    "SaleId": 999,
+    "Probability": 542,
+    "Title": "sint",
+    "Amount": 11072.422,
+    "Currency": "quis",
+    "ProjectName": "Jakubowski-O'Hara",
+    "AssociateFullName": "Alexane Volkman",
+    "Description": "Managed mission-critical architecture",
     "Status": "Lost",
-    "WeightedAmount": 29387.518,
-    "ProjectId": 269,
-    "EarningPercent": 354.142,
-    "Earning": 23219.806,
-    "ContactId": 280,
-    "AssociateId": 19,
-    "PersonId": 537,
-    "SaleTypeId": 511,
-    "SaleTypeName": "Hessel Inc and Sons",
-    "PersonFullName": "Miss Kaylin Janick Heidenreich V",
+    "WeightedAmount": 28547.606,
+    "ProjectId": 941,
+    "EarningPercent": 14084.196,
+    "Earning": 1535.6599999999999,
+    "ContactId": 582,
+    "AssociateId": 695,
+    "PersonId": 634,
+    "SaleTypeId": 196,
+    "SaleTypeName": "Skiles LLC",
+    "PersonFullName": "Dr. Dina Quigley",
     "Completed": "Completed",
-    "ActiveErpLinks": 21,
-    "NextDueDate": "2003-03-15T11:22:39.2425669+01:00",
-    "Number": "1374951",
+    "ActiveErpLinks": 782,
+    "NextDueDate": "2005-07-25T12:15:20.0967364+02:00",
+    "Number": "895622",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 990
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

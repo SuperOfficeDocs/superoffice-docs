@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Breitenberg, Rodriguez and VonRueden",
-    "ToolTip": "Ut quia sequi voluptas dolorem.",
-    "Deleted": true,
-    "Rank": 665,
-    "Type": "magnam",
-    "ColorBlock": 234,
-    "IconHint": "reprehenderit",
-    "Selected": false,
-    "LastChanged": "2002-05-24T11:22:46.0847653+02:00",
+    "Id": 532,
+    "Name": "Blanda-Schamberger",
+    "ToolTip": "Tenetur inventore hic maiores.",
+    "Deleted": false,
+    "Rank": 641,
+    "Type": "possimus",
+    "ColorBlock": 782,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "2012-01-12T12:15:28.3486154+01:00",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Kemmer, Cormier and Pacocha",
-        "ToolTip": "Architecto temporibus nobis cumque.",
+        "Id": 456,
+        "Name": "Schmitt, Armstrong and Franecki",
+        "ToolTip": "Et architecto perspiciatis.",
         "Deleted": false,
-        "Rank": 21,
-        "Type": "laudantium",
-        "ColorBlock": 295,
-        "IconHint": "sint",
+        "Rank": 799,
+        "Type": "aut",
+        "ColorBlock": 147,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2014-02-01T11:22:46.0847653+01:00",
+        "LastChanged": "2000-06-10T12:15:28.3486154+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cum",
+        "ExtraInfo": "iste",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Alison Schmeler"
+        "FullName": "Jordan Gislason"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "officia",
+    "StyleHint": "repellendus",
     "Hidden": true,
-    "FullName": "June Hand"
+    "FullName": "Miss Art Trenton Schowalter"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 995,
-    "Name": "Mayer Group",
-    "ToolTip": "Cum mollitia minus et esse.",
+    "Id": 803,
+    "Name": "McCullough Inc and Sons",
+    "ToolTip": "Quia enim ut corporis nulla.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "assumenda",
-    "ColorBlock": 850,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2004-11-30T11:22:46.0847653+01:00",
+    "Rank": 622,
+    "Type": "distinctio",
+    "ColorBlock": 824,
+    "IconHint": "voluptatibus",
+    "Selected": true,
+    "LastChanged": "2012-08-18T12:15:28.3516157+02:00",
     "ChildItems": [
       {
-        "Id": 430,
-        "Name": "Quitzon-Block",
-        "ToolTip": "Molestias odit ut repudiandae voluptatum omnis eligendi.",
+        "Id": 819,
+        "Name": "Zieme-West",
+        "ToolTip": "In est.",
         "Deleted": false,
-        "Rank": 159,
-        "Type": "saepe",
-        "ColorBlock": 46,
-        "IconHint": "rem",
+        "Rank": 461,
+        "Type": "est",
+        "ColorBlock": 193,
+        "IconHint": "aspernatur",
         "Selected": true,
-        "LastChanged": "2022-06-22T11:22:46.0847653+02:00",
+        "LastChanged": "2011-08-18T12:15:28.3516157+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "blanditiis",
-        "Hidden": true,
-        "FullName": "Mrs. Guiseppe Melba Haag PhD",
+        "ExtraInfo": "et",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Mireille Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 937
+            "FieldLength": 648
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "doloremque",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Corene Upton",
+    "FullName": "Mia Grant",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldLength": 3
       }
     }
   }

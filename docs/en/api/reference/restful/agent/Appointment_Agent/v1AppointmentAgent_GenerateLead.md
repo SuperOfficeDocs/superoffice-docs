@@ -91,18 +91,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 310,
-  "LeadDescription": "Robust composite encryption",
-  "Relation": "aut",
-  "RelationId": 586,
-  "LeadContact": "id",
-  "LeadPersonFirstname": "Alessia",
-  "LeadPersonLastname": "Raynor",
-  "LeadPersonEmail": "kylie@mcclure.co.uk",
-  "LeadPhoneNumber": "392014",
-  "CreatorsContact": "nam",
-  "CreatorsFirstname": "Erica",
-  "CreatorsLastname": "Pfeffer"
+  "AssociateIdForNewContact": 765,
+  "LeadDescription": "Horizontal user-facing hierarchy",
+  "Relation": "repellendus",
+  "RelationId": 360,
+  "LeadContact": "sint",
+  "LeadPersonFirstname": "Elvie",
+  "LeadPersonLastname": "Reinger",
+  "LeadPersonEmail": "keeley.sipes@jenkins.uk",
+  "LeadPhoneNumber": "990283",
+  "CreatorsContact": "ea",
+  "CreatorsFirstname": "Ruthie",
+  "CreatorsLastname": "Marks"
 }
 ```
 
@@ -115,36 +115,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 802,
-      "Name": "Grimes, Simonis and Mayer",
-      "OrgNr": "436201",
-      "Department": "",
+      "ContactId": 102,
+      "Name": "Zieme-Wolf",
+      "OrgNr": "813783",
+      "Department": "extend bleeding-edge e-markets",
       "URL": "http://www.example.com/",
-      "City": "pariatur",
-      "DirectPhone": "1-722-895-7953 x80719",
-      "AssociateId": 434,
-      "CountryId": 373,
-      "EmailAddress": "hoyt_walsh@bartell.biz",
-      "Kananame": "quisquam",
-      "EmailAddressName": "cindy_pacocha@langosh.info",
+      "City": "qui",
+      "DirectPhone": "(733)734-8722",
+      "AssociateId": 134,
+      "CountryId": 44,
+      "EmailAddress": "jacquelyn@kreigerhirthe.uk",
+      "Kananame": "quia",
+      "EmailAddressName": "isadore_ebert@wiegandkuvalis.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Gracie Zboncak PhD",
+      "AssociateFullName": "Toby Hilpert DVM",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "omnis",
-      "FullName": "Ray Haley",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 615,
-      "Number1": "1424118",
-      "Number2": "894822",
+      "FormattedAddress": "dicta",
+      "FullName": "Ulices Wiegand",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 377,
+      "Number1": "1446570",
+      "Number2": "1542497",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldLength": 822
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 720
     }
   }
 }

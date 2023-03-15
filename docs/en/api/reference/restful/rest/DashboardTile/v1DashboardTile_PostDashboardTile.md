@@ -101,46 +101,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 860,
-  "Caption": "id",
-  "Description": "Self-enabling value-added concept",
-  "ChartName": "Hauck, Murazik and Swift",
-  "ChartId": "aut",
+  "DashboardTileId": 795,
+  "Caption": "ab",
+  "Description": "Profound neutral model",
+  "ChartName": "Runolfsdottir-Bahringer",
+  "ChartId": "eum",
   "IsDefault": true,
-  "AssociateId": 185,
-  "GroupId": 82,
-  "SelectionId": 420,
-  "Config": "est",
+  "AssociateId": 168,
+  "GroupId": 929,
+  "SelectionId": 979,
+  "Config": "velit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Frami, Ankunding and Hand",
-      "Description": "Open-source local extranet",
+      "Name": "Olson, Smitham and Casper",
+      "Description": "Front-line local emulation",
       "Type": "Boolean",
-      "ListName": "Bahringer, Kuvalis and Miller",
+      "ListName": "Hilpert-McLaughlin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "vitae",
-      "DefaultDataOption": false
+      "Value": "eveniet",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 265,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "aspernatur"
     },
     {
-      "VisibleId": 265,
+      "VisibleId": 256,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "aspernatur"
     }
   ]
 }
@@ -153,64 +153,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 408,
-  "Caption": "qui",
-  "Description": "Diverse cohesive budgetary management",
-  "ChartName": "Goyette-Wisozk",
-  "ChartId": "nemo",
+  "DashboardTileId": 382,
+  "Caption": "natus",
+  "Description": "Function-based 3rd generation customer loyalty",
+  "ChartName": "Botsford-Goodwin",
+  "ChartId": "nam",
   "IsDefault": false,
-  "AssociateId": 378,
-  "GroupId": 354,
-  "SelectionId": 435,
-  "Config": "enim",
+  "AssociateId": 139,
+  "GroupId": 863,
+  "SelectionId": 800,
+  "Config": "omnis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hoeger Group",
-      "Description": "Persevering human-resource circuit",
+      "Name": "Wiegand-Boyle",
+      "Description": "Down-sized directional challenge",
       "Type": "Boolean",
-      "ListName": "Hegmann, Koelpin and Rau",
+      "ListName": "Kunze LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "molestias",
-      "DefaultDataOption": false,
+      "Value": "velit",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 196
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 873,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 669
         }
       }
     },
     {
-      "VisibleId": 873,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 669
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   },
   "_Links": {

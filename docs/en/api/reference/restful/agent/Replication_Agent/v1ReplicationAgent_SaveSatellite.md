@@ -78,21 +78,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 22,
-  "Created": "2004-01-14T11:22:38.9614314+01:00",
+  "SatelliteId": 253,
+  "Created": "2006-09-16T12:15:19.9877369+02:00",
   "CreatedBy": null,
-  "Updated": "2008-12-14T11:22:38.9614314+01:00",
+  "Updated": "2003-01-17T12:15:19.9877369+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Auer, Hessel and Hilll",
-      "Description": "Programmable mission-critical circuit",
+      "Name": "Connelly-Macejkovic",
+      "Description": "Quality-focused local algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Auer, Hessel and Hilll",
-      "Description": "Programmable mission-critical circuit",
+      "Name": "Connelly-Macejkovic",
+      "Description": "Quality-focused local algorithm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,17 +125,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 765,
-  "Created": "2022-09-30T11:22:38.9614314+02:00",
+  "SatelliteId": 587,
+  "Created": "2019-08-29T12:15:19.9917367+02:00",
   "CreatedBy": null,
-  "Updated": "2010-01-09T11:22:38.9614314+01:00",
+  "Updated": "2020-03-26T12:15:19.9937367+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "King, Langosh and Armstrong",
-      "Description": "Future-proofed cohesive methodology",
+      "Name": "Wiza-Heidenreich",
+      "Description": "Robust mission-critical frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -148,14 +148,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 589
+          "FieldType": "System.Int32",
+          "FieldLength": 613
         }
       }
     },
     {
-      "Name": "King, Langosh and Armstrong",
-      "Description": "Future-proofed cohesive methodology",
+      "Name": "Wiza-Heidenreich",
+      "Description": "Robust mission-critical frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 589
+          "FieldType": "System.Int32",
+          "FieldLength": 613
         }
       }
     }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldLength": 691
     }
   }
 }

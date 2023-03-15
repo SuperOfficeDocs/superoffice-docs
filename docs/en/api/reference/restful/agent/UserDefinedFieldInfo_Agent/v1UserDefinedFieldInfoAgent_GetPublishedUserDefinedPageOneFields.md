@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 45
+  "UserGroupId": 63
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 941,
-    "ColumnId": 922,
-    "FieldDefault": "assumenda",
-    "FieldHeight": 345,
-    "FieldLabel": "quae",
-    "FieldLeft": 744,
-    "FieldTop": 202,
+    "UDefFieldId": 113,
+    "ColumnId": 841,
+    "FieldDefault": "ratione",
+    "FieldHeight": 456,
+    "FieldLabel": "alias",
+    "FieldLeft": 873,
+    "FieldTop": 160,
     "FieldType": "Checkbox",
-    "FieldWidth": 428,
-    "FormatMask": "rerum",
+    "FieldWidth": 147,
+    "FormatMask": "veniam",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 675,
-    "LabelLeft": 882,
-    "LabelTop": 758,
-    "LabelWidth": 463,
-    "LastVersionId": 675,
-    "ListTableId": 241,
-    "IsMandatory": false,
+    "LabelHeight": 409,
+    "LabelLeft": 364,
+    "LabelTop": 427,
+    "LabelWidth": 933,
+    "LastVersionId": 609,
+    "ListTableId": 802,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 509,
-    "ProgId": "rerum",
-    "IsReadOnly": false,
-    "ShortLabel": "eos",
-    "TabOrder": 73,
-    "TextLength": 736,
-    "Tooltip": "qui",
-    "UdefIdentity": 293,
-    "UDListDefinitionId": 440,
+    "Page1LineNo": 665,
+    "ProgId": "praesentium",
+    "IsReadOnly": true,
+    "ShortLabel": "magni",
+    "TabOrder": 184,
+    "TextLength": 457,
+    "Tooltip": "vel",
+    "UdefIdentity": 18,
+    "UDListDefinitionId": 454,
     "Justification": "Center",
-    "Version": 735,
-    "TemplateVariableName": "Larson Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Hodkiewicz LLC",
+    "Version": 697,
+    "TemplateVariableName": "Strosin LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Dickinson LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   }

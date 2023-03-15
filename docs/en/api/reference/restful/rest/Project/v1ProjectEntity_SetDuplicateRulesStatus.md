@@ -56,21 +56,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kreiger-Volkman",
-    "DisplayName": "Graham, Pagac and Rau",
-    "DisplayTooltip": "possimus",
-    "IsActive": false
+    "Name": "Heller Inc and Sons",
+    "DisplayName": "Hackett Group",
+    "DisplayTooltip": "id",
+    "IsActive": true
   },
   {
-    "Name": "Kreiger-Volkman",
-    "DisplayName": "Graham, Pagac and Rau",
-    "DisplayTooltip": "possimus",
-    "IsActive": false
+    "Name": "Heller Inc and Sons",
+    "DisplayName": "Hackett Group",
+    "DisplayTooltip": "id",
+    "IsActive": true
   }
 ]
 ```

@@ -77,8 +77,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Steuber-Maggio",
-    "Conn-Russel"
+    "Hansen, Brown and Konopelski",
+    "Nitzsche, Toy and Gutmann"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  937,
-  603
+  710,
+  159
 ]
 ```

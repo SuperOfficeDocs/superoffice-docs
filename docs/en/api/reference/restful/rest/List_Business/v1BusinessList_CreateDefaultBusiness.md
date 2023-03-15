@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Langworth-Kessler",
-  "Tooltip": "laboriosam",
+  "Id": 858,
+  "Name": "McKenzie, Quitzon and Cummerata",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 37,
-  "Rank": 433,
+  "UdListDefinitionId": 70,
+  "Rank": 802,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldType": "System.String",
+      "FieldLength": 343
     }
   }
 }

@@ -97,12 +97,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 256,
-  "OnlyOpenSales": true
+  "PersonId": 1001,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Robel, Jast and Braun",
-    "SaleDate": "2015-01-03T11:22:39.2425669+01:00",
-    "SaleId": 273,
-    "Probability": 959,
-    "Title": "enim",
-    "Amount": 15356.6,
-    "Currency": "fugit",
-    "ProjectName": "Leannon LLC",
-    "AssociateFullName": "Dr. Rosie Mills",
-    "Description": "Grass-roots fresh-thinking attitude",
+    "ContactName": "Hettinger, Barton and Leffler",
+    "SaleDate": "1997-09-13T12:15:20.0997347+02:00",
+    "SaleId": 631,
+    "Probability": 204,
+    "Title": "vel",
+    "Amount": 23432.917999999998,
+    "Currency": "optio",
+    "ProjectName": "Williamson LLC",
+    "AssociateFullName": "Eloy Kreiger",
+    "Description": "Stand-alone 24/7 monitoring",
     "Status": "Lost",
-    "WeightedAmount": 11677.284,
-    "ProjectId": 356,
-    "EarningPercent": 18111.386,
-    "Earning": 3199.814,
-    "ContactId": 847,
-    "AssociateId": 1000,
-    "PersonId": 706,
-    "SaleTypeId": 138,
-    "SaleTypeName": "Schowalter, Frami and Cole",
-    "PersonFullName": "Jillian Monahan",
+    "WeightedAmount": 11479.841999999999,
+    "ProjectId": 460,
+    "EarningPercent": 601.728,
+    "Earning": 3582.162,
+    "ContactId": 914,
+    "AssociateId": 506,
+    "PersonId": 984,
+    "SaleTypeId": 81,
+    "SaleTypeName": "Okuneva-Kris",
+    "PersonFullName": "Ada Kemmer",
     "Completed": "Completed",
-    "ActiveErpLinks": 507,
-    "NextDueDate": "2002-01-21T11:22:39.2425669+01:00",
-    "Number": "1254389",
+    "ActiveErpLinks": 907,
+    "NextDueDate": "2020-07-14T12:15:20.0997347+02:00",
+    "Number": "1374109",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 716
+        "FieldType": "System.Int32",
+        "FieldLength": 778
       }
     }
   }

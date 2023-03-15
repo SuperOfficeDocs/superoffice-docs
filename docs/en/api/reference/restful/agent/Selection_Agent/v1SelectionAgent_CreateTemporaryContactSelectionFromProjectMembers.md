@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 365
+  "ProjectId": 187
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated homogeneous capacity",
-  "Postit": "ut",
+  "Description": "Distributed uniform focus group",
+  "Postit": "reiciendis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 900,
-  "IncludePerson": 93,
-  "MemberCount": 549,
-  "Name": "Swaniawski-Blanda",
-  "PostitTextId": 95,
-  "CreatedDate": "2021-01-23T11:22:39.2894808+01:00",
-  "SelectionId": 797,
-  "SoundEx": "fuga",
-  "Source": 106,
-  "TextId": 274,
-  "UpdatedDate": "2016-08-16T11:22:39.2894808+02:00",
-  "UpdatedCount": 958,
-  "Visibility": 2,
+  "GroupIdx": 309,
+  "IncludePerson": 70,
+  "MemberCount": 466,
+  "Name": "Lubowitz, Jerde and Yundt",
+  "PostitTextId": 347,
+  "CreatedDate": "2004-09-28T12:15:20.1567341+02:00",
+  "SelectionId": 990,
+  "SoundEx": "qui",
+  "Source": 179,
+  "TextId": 439,
+  "UpdatedDate": "2004-02-15T12:15:20.1567341+01:00",
+  "UpdatedCount": 650,
+  "Visibility": 484,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 491,
-  "TargetTableName": "Paucek Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 708,
+  "TargetTableName": "Bode Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 401,
-  "RightSelectionId": 622,
+  "LeftSelectionId": 257,
+  "RightSelectionId": 223,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Barton LLC",
-  "ShadowProviderName": "Miller, Corwin and Wehner",
-  "ChartKey": "enim",
-  "LastLoaded": "2006-09-05T11:22:39.2894808+02:00",
-  "LastLoadedBy": 79,
+  "MainProviderName": "Kiehn, Hamill and Schaefer",
+  "ShadowProviderName": "Murray-Runte",
+  "ChartKey": "omnis",
+  "LastLoaded": "2019-09-26T12:15:20.1567341+02:00",
+  "LastLoadedBy": 348,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-02-24T11:22:39.2894808+01:00",
-  "LastMembershipChangeBy": 390,
+  "LastMembershipChange": "2014-08-22T12:15:20.1577381+02:00",
+  "LastMembershipChangeBy": 332,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Tremblay Group",
-  "DashboardTileDefinitionId": 113,
+  "MainHeading": "et",
+  "MemberTabHeading": "architecto",
+  "MailingsProviderName": "Kihn-Swift",
+  "DashboardTileDefinitionId": 645,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 321
         }
       }
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 321
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 490
     }
   }
 }

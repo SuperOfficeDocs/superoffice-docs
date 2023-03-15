@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 176
+  "DocumentId": 926
 }
 ```
 
@@ -119,18 +119,66 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 323,
-      "ContactName": "Maggio, Hilll and Bogisich",
-      "PersonId": 577,
-      "PersonName": "Rempel, Bartoletti and Kassulke",
-      "AssociateId": 338,
-      "Address": "vel",
-      "EmailId": 315,
+      "ContactId": 528,
+      "ContactName": "King, Batz and Stracke",
+      "PersonId": 150,
+      "PersonName": "Ziemann LLC",
+      "AssociateId": 995,
+      "Address": "omnis",
+      "EmailId": 430,
       "DuplicatePersonIds": [
-        123,
-        517
+        353,
+        745
       ],
-      "Name": "Collier-Walter",
+      "Name": "Borer LLC",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 917
+        }
+      }
+    }
+  ],
+  "Cc": [
+    {
+      "ContactId": 640,
+      "ContactName": "Willms-Breitenberg",
+      "PersonId": 888,
+      "PersonName": "Wyman LLC",
+      "AssociateId": 758,
+      "Address": "a",
+      "EmailId": 853,
+      "DuplicatePersonIds": [
+        55,
+        222
+      ],
+      "Name": "Volkman-Koelpin",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 999
+        }
+      }
+    }
+  ],
+  "Bcc": [
+    {
+      "ContactId": 323,
+      "ContactName": "Larson, Barrows and Johnson",
+      "PersonId": 781,
+      "PersonName": "Marks-Tromp",
+      "AssociateId": 117,
+      "Address": "quo",
+      "EmailId": 35,
+      "DuplicatePersonIds": [
+        535,
+        492
+      ],
+      "Name": "Hammes Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -141,133 +189,85 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Cc": [
-    {
-      "ContactId": 147,
-      "ContactName": "Kub-Feeney",
-      "PersonId": 528,
-      "PersonName": "Wolff, Zboncak and Watsica",
-      "AssociateId": 402,
-      "Address": "officiis",
-      "EmailId": 950,
-      "DuplicatePersonIds": [
-        930,
-        95
-      ],
-      "Name": "Hagenes, Parisian and McDermott",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 127
-        }
-      }
-    }
-  ],
-  "Bcc": [
-    {
-      "ContactId": 772,
-      "ContactName": "Torphy-Senger",
-      "PersonId": 289,
-      "PersonName": "Kassulke Group",
-      "AssociateId": 906,
-      "Address": "tempore",
-      "EmailId": 66,
-      "DuplicatePersonIds": [
-        521,
-        833
-      ],
-      "Name": "Anderson, Schneider and Borer",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
-        }
-      }
-    }
-  ],
-  "Subject": "eius",
-  "HTMLBody": "non",
+  "Subject": "voluptatem",
+  "HTMLBody": "quibusdam",
   "From": null,
-  "Sent": "2006-08-03T11:22:38.2116073+02:00",
-  "Size": 771,
+  "Sent": "2019-11-13T12:15:18.9437542+01:00",
+  "Size": 381,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sed",
-  "PlainBody": "molestias",
-  "IsSent": false,
+  "MessageID": "nesciunt",
+  "PlainBody": "reiciendis",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 894,
+  "ServerId": 701,
   "Attachments": [
     {
-      "Description": "Exclusive systemic pricing structure",
-      "Filename": "qui",
-      "Size": 28,
-      "Type": "qui",
-      "Encoding": "voluptatem",
-      "Id": "omnis",
-      "Disposition": "eius",
+      "Description": "Versatile needs-based toolset",
+      "Filename": "cum",
+      "Size": 311,
+      "Type": "non",
+      "Encoding": "quibusdam",
+      "Id": "quia",
+      "Disposition": "omnis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldType": "System.String",
+          "FieldLength": 350
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hauck-Pacocha",
+      "Name": "Koch, Larkin and Erdman",
       "Values": [
-        "soluta",
-        "rerum"
+        "ad",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldType": "System.Int32",
+          "FieldLength": 690
         }
       }
     },
     {
-      "Name": "Hauck-Pacocha",
+      "Name": "Koch, Larkin and Erdman",
       "Values": [
-        "soluta",
-        "rerum"
+        "ad",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldType": "System.Int32",
+          "FieldLength": 690
         }
       }
     }
   ],
-  "FolderName": "DuBuque-Thiel",
-  "EmailItemId": 418,
-  "AccountId": 224,
-  "ReceivedAt": "2007-12-16T11:22:38.2116073+01:00",
+  "FolderName": "Cummerata, Oberbrunner and Oberbrunner",
+  "EmailItemId": 746,
+  "AccountId": 808,
+  "ReceivedAt": "2010-01-27T12:15:18.9447579+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-10-23T11:22:38.2116073+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "1998-07-08T12:15:18.9447579+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,16 +103,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 263,
-  "Name": "Leffler Group",
-  "Tooltip": "debitis",
+  "RoleId": 431,
+  "Name": "Cremin Group",
+  "Tooltip": "ducimus",
   "RoleType": "Anonymous",
-  "Deleted": 105,
-  "Rank": 70,
-  "Created": "2002-08-30T11:22:39.6331547+02:00",
-  "UseCategories": 269,
+  "Deleted": 545,
+  "Rank": 664,
+  "Created": "2022-10-29T12:15:20.5717281+02:00",
+  "UseCategories": 500,
   "CreatedBy": null,
-  "Updated": "2000-05-11T11:22:39.6331547+02:00",
+  "Updated": "2022-12-29T12:15:20.5717281+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 728
     }
   }
 }

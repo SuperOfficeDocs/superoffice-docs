@@ -82,30 +82,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 779,
-    "Section": "nemo",
-    "Key": "voluptates",
-    "Name": "Pouros, Kuhlman and Bins",
+    "PrefDescId": 776,
+    "Section": "vero",
+    "Key": "assumenda",
+    "Name": "Barrows Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Distributed needs-based database",
+    "Description": "Inverse foreground budgetary management",
     "IsBuiltin": false,
-    "TableName": "Donnelly Group",
-    "UserDefinedListId": 694,
-    "Rank": 222,
-    "SubGroup": "error",
-    "MinLevel": 638,
-    "MaxValue": 559,
-    "MinValue": 155,
-    "RequiredLicense": "quas",
+    "TableName": "Muller LLC",
+    "UserDefinedListId": 900,
+    "Rank": 646,
+    "SubGroup": "exercitationem",
+    "MinLevel": 634,
+    "MaxValue": 4,
+    "MinValue": 21,
+    "RequiredLicense": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldLength": 25
       }
     }
   }

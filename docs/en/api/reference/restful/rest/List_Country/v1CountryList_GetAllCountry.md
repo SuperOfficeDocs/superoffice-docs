@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 475,
-    "Name": "Schiller, Maggio and Schmeler",
-    "CurrencyId": 583,
-    "EnglishName": "O'Reilly-Wyman",
+    "CountryId": 582,
+    "Name": "Weber Inc and Sons",
+    "CurrencyId": 852,
+    "EnglishName": "Beatty Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Ergonomic clear-thinking alliance",
-    "OrgNrText": "1366286",
-    "InterAreaPrefix": "sapiente",
-    "DialInPrefix": "sunt",
-    "ZipPrefix": "sint",
-    "DomainName": "Spinka Group",
-    "AddressLayoutId": 474,
-    "DomesticAddressLayoutId": 807,
-    "ForeignAddressLayoutId": 935,
-    "Rank": 325,
-    "Tooltip": "sequi",
+    "ImageDescription": "Versatile attitude-oriented structure",
+    "OrgNrText": "1200028",
+    "InterAreaPrefix": "ipsa",
+    "DialInPrefix": "corporis",
+    "ZipPrefix": "consectetur",
+    "DomainName": "Sawayn-Anderson",
+    "AddressLayoutId": 311,
+    "DomesticAddressLayoutId": 918,
+    "ForeignAddressLayoutId": 718,
+    "Rank": 718,
+    "Tooltip": "a",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldType": "System.String",
+        "FieldLength": 36
       }
     }
   }

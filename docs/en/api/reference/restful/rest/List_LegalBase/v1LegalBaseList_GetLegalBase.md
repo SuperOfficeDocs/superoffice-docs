@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 866,
-  "Name": "Auer, Russel and Fisher",
-  "Tooltip": "asperiores",
-  "Rank": 375,
-  "Key": "sunt",
-  "Deleted": false,
+  "LegalBaseId": 919,
+  "Name": "Lang-Metz",
+  "Tooltip": "laudantium",
+  "Rank": 936,
+  "Key": "voluptas",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldType": "System.String",
+      "FieldLength": 464
     }
   }
 }

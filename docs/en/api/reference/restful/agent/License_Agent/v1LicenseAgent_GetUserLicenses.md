@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 57
+  "AssociateId": 424
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Adams, Kirlin and Bayer",
-    "Description": "Expanded bifurcated data-warehouse",
+    "Name": "Nolan Inc and Sons",
+    "Description": "Ameliorated hybrid encoding",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 153,
-        "Tooltip": "asperiores",
-        "CanAssign": false,
-        "Free": 905,
-        "InUse": 883,
+        "Unrestricted": false,
+        "Total": 889,
+        "Tooltip": "numquam",
+        "CanAssign": true,
+        "Free": 597,
+        "InUse": 482,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 83,
-        "Name": "Murphy LLC",
-        "Description": "De-engineered 24 hour protocol",
-        "PrerequisiteModuleName": "Graham, Russel and Conn",
-        "SortOrder": 13,
-        "ExtraFlags": 416,
+        "ModuleLicenseId": 562,
+        "Name": "Balistreri-Stiedemann",
+        "Description": "User-centric zero tolerance workforce",
+        "PrerequisiteModuleName": "Wisozk Inc and Sons",
+        "SortOrder": 746,
+        "ExtraFlags": 282,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 506
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 169,
-        "Tooltip": "a",
+        "Unrestricted": true,
+        "Total": 444,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 146,
-        "InUse": 736,
+        "Free": 644,
+        "InUse": 109,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 887,
-        "Name": "Dooley-Baumbach",
-        "Description": "Visionary exuding functionalities",
-        "PrerequisiteModuleName": "Strosin, Paucek and Schimmel",
-        "SortOrder": 268,
-        "ExtraFlags": 348,
+        "Assigned": false,
+        "ModuleLicenseId": 539,
+        "Name": "Sipes, Stanton and Hackett",
+        "Description": "Vision-oriented value-added website",
+        "PrerequisiteModuleName": "Krajcik Group",
+        "SortOrder": 578,
+        "ExtraFlags": 830,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 958
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 835
       }
     }
   },
   {
-    "Name": "Adams, Kirlin and Bayer",
-    "Description": "Expanded bifurcated data-warehouse",
+    "Name": "Nolan Inc and Sons",
+    "Description": "Ameliorated hybrid encoding",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 153,
-        "Tooltip": "asperiores",
-        "CanAssign": false,
-        "Free": 905,
-        "InUse": 883,
+        "Unrestricted": false,
+        "Total": 889,
+        "Tooltip": "numquam",
+        "CanAssign": true,
+        "Free": 597,
+        "InUse": 482,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 83,
-        "Name": "Murphy LLC",
-        "Description": "De-engineered 24 hour protocol",
-        "PrerequisiteModuleName": "Graham, Russel and Conn",
-        "SortOrder": 13,
-        "ExtraFlags": 416,
+        "ModuleLicenseId": 562,
+        "Name": "Balistreri-Stiedemann",
+        "Description": "User-centric zero tolerance workforce",
+        "PrerequisiteModuleName": "Wisozk Inc and Sons",
+        "SortOrder": 746,
+        "ExtraFlags": 282,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 506
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 169,
-        "Tooltip": "a",
+        "Unrestricted": true,
+        "Total": 444,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 146,
-        "InUse": 736,
+        "Free": 644,
+        "InUse": 109,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 887,
-        "Name": "Dooley-Baumbach",
-        "Description": "Visionary exuding functionalities",
-        "PrerequisiteModuleName": "Strosin, Paucek and Schimmel",
-        "SortOrder": 268,
-        "ExtraFlags": 348,
+        "Assigned": false,
+        "ModuleLicenseId": 539,
+        "Name": "Sipes, Stanton and Hackett",
+        "Description": "Vision-oriented value-added website",
+        "PrerequisiteModuleName": "Krajcik Group",
+        "SortOrder": 578,
+        "ExtraFlags": 830,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 958
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 835
       }
     }
   }

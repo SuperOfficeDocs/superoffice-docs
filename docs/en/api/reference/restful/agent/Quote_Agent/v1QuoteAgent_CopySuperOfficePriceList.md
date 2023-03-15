@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 812,
-  "NewName": "Blick-Sawayn",
-  "ValidFrom": "2019-09-15T11:22:38.8989499+02:00",
-  "ValidTo": "2019-08-02T11:22:38.8989499+02:00",
-  "NewCurrencyId": 480,
+  "OriginalPriceListId": 500,
+  "NewName": "Gleichner, Spencer and Cassin",
+  "ValidFrom": "2000-10-19T12:15:19.9187377+02:00",
+  "ValidTo": "2002-02-26T12:15:19.9187377+01:00",
+  "NewCurrencyId": 293,
   "ConvertCurrency": false
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 637,
-  "ERPPriceListKey": "illum",
-  "QuoteConnectionId": 475,
-  "Name": "Legros, Bartoletti and Hand",
-  "Description": "Proactive hybrid archive",
-  "Currency": "itaque",
-  "CurrencyName": "Senger, Hessel and Marks",
-  "ValidFrom": "1998-09-04T11:22:38.8989499+02:00",
-  "ValidTo": "2019-08-19T11:22:38.8989499+02:00",
+  "PriceListId": 117,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 695,
+  "Name": "Little, Langosh and Hilpert",
+  "Description": "Stand-alone homogeneous conglomeration",
+  "Currency": "est",
+  "CurrencyName": "Green-Hayes",
+  "ValidFrom": "2002-05-26T12:15:19.9187377+02:00",
+  "ValidTo": "2004-03-01T12:15:19.9187377+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

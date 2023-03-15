@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 466,
-    "Name": "Wintheiser Group",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 429,
-    "UdListDefinitionId": 89
+    "HeadingId": 51,
+    "Name": "Fisher Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 868,
+    "UdListDefinitionId": 452
   },
   {
-    "HeadingId": 466,
-    "Name": "Wintheiser Group",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "Rank": 429,
-    "UdListDefinitionId": 89
+    "HeadingId": 51,
+    "Name": "Fisher Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 868,
+    "UdListDefinitionId": 452
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 879,
-    "Name": "West, Funk and Champlin",
-    "Tooltip": "amet",
+    "HeadingId": 524,
+    "Name": "Mills LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 338,
-    "UdListDefinitionId": 38,
+    "Rank": 206,
+    "UdListDefinitionId": 567,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 332
       }
     }
   }

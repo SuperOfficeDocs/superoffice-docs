@@ -122,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quam",
+    "path": "doloremque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quam",
+    "path": "doloremque",
     "value": {}
   }
 ]
@@ -140,46 +140,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 515,
+  "HierarchyId": 3,
   "Domain": "Dashboards",
-  "Name": "Kunze, Russel and Schumm",
-  "Fullname": "quas",
-  "ParentId": 662,
+  "Name": "Weimann-Powlowski",
+  "Fullname": "et",
+  "ParentId": 813,
   "Children": [
     {
-      "HierarchyId": 429,
+      "HierarchyId": 709,
       "Domain": "Dashboards",
-      "Name": "Lockman-Feil",
-      "Fullname": "facilis",
-      "ParentId": 148,
+      "Name": "Larson Group",
+      "Fullname": "amet",
+      "ParentId": 395,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-09-22T11:22:44.8818691+02:00",
-      "RegisteredAssociateId": 404,
-      "Updated": "2007-06-12T11:22:44.8818691+02:00",
-      "UpdatedAssociateId": 372,
+      "Registered": "2002-10-01T12:15:26.9846352+02:00",
+      "RegisteredAssociateId": 91,
+      "Updated": "2009-05-23T12:15:26.9846352+02:00",
+      "UpdatedAssociateId": 725,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 233
         }
       }
     }
   ],
-  "Registered": "2004-06-06T11:22:44.8818691+02:00",
-  "RegisteredAssociateId": 74,
-  "Updated": "2021-06-02T11:22:44.8818691+02:00",
-  "UpdatedAssociateId": 60,
+  "Registered": "2007-10-18T12:15:26.9846352+02:00",
+  "RegisteredAssociateId": 270,
+  "Updated": "2014-07-15T12:15:26.9846352+02:00",
+  "UpdatedAssociateId": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 967
+      "FieldType": "System.String",
+      "FieldLength": 535
     }
   },
   "_Links": {

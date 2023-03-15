@@ -25,7 +25,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=324
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=282
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,60 +103,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 629,
-  "Name": "Swift Group",
+  "TicketPriorityId": 530,
+  "Name": "McGlynn LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 292,
+  "SortOrder": 927,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 178,
-  "MonStart": "2010-01-04T11:22:38.4146877+01:00",
-  "MonStop": "1998-08-04T11:22:38.4146877+02:00",
-  "TueStart": "2017-06-19T11:22:38.4146877+02:00",
-  "TueStop": "2008-08-20T11:22:38.4146877+02:00",
-  "WedStart": "2000-11-24T11:22:38.4146877+01:00",
-  "WedStop": "2012-10-06T11:22:38.4146877+02:00",
-  "ThuStart": "2001-01-27T11:22:38.4146877+01:00",
-  "ThuStop": "2002-11-16T11:22:38.4146877+01:00",
-  "FriStart": "2012-01-16T11:22:38.4146877+01:00",
-  "FriStop": "1996-02-05T11:22:38.4146877+01:00",
-  "SatStart": "2006-12-23T11:22:38.4146877+01:00",
-  "SatStop": "2016-02-08T11:22:38.4146877+01:00",
-  "SunStart": "2011-12-17T11:22:38.4146877+01:00",
-  "SunStop": "2018-12-06T11:22:38.4146877+01:00",
+  "Deadline": 262,
+  "MonStart": "2009-12-20T12:15:19.2027546+01:00",
+  "MonStop": "2000-02-17T12:15:19.2027546+01:00",
+  "TueStart": "2003-10-10T12:15:19.2027546+02:00",
+  "TueStop": "2022-06-23T12:15:19.2027546+02:00",
+  "WedStart": "2017-04-08T12:15:19.2027546+02:00",
+  "WedStop": "2000-08-21T12:15:19.2027546+02:00",
+  "ThuStart": "2010-08-01T12:15:19.2027546+02:00",
+  "ThuStop": "2008-01-10T12:15:19.2027546+01:00",
+  "FriStart": "2015-08-04T12:15:19.2027546+02:00",
+  "FriStop": "2020-06-02T12:15:19.2027546+02:00",
+  "SatStart": "2022-01-17T12:15:19.2027546+01:00",
+  "SatStop": "2017-01-06T12:15:19.2027546+01:00",
+  "SunStart": "2015-08-30T12:15:19.2027546+02:00",
+  "SunStop": "2020-12-19T12:15:19.2027546+01:00",
   "NonDates": [
-    "ut",
-    "et"
+    "eligendi",
+    "sed"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 550,
-      "AlertLevel": 575,
-      "AlertTimeout": 109,
-      "Action": 309,
-      "DelegateTo": 15,
-      "ScriptId": 880,
-      "EmailTo": "jayden@kuvalis.uk",
-      "SmsTo": "autem",
-      "ReplyTemplateIdCustomer": 931,
-      "ReplyTemplateIdUser": 822,
-      "ReplyTemplateIdCatmast": 983,
-      "ReplyTemplateIdEmail": 164,
-      "RtiCustomerSms": 355,
-      "ReplyTemplateIdUserSms": 815,
-      "ReplyTemplateIdCatmastSms": 329,
-      "ReplyTemplateIdSms": 493,
+      "TicketAlertId": 15,
+      "AlertLevel": 247,
+      "AlertTimeout": 173,
+      "Action": 515,
+      "DelegateTo": 606,
+      "ScriptId": 668,
+      "EmailTo": "neal@gorczany.ca",
+      "SmsTo": "quis",
+      "ReplyTemplateIdCustomer": 817,
+      "ReplyTemplateIdUser": 654,
+      "ReplyTemplateIdCatmast": 606,
+      "ReplyTemplateIdEmail": 118,
+      "RtiCustomerSms": 428,
+      "ReplyTemplateIdUserSms": 437,
+      "ReplyTemplateIdCatmastSms": 628,
+      "ReplyTemplateIdSms": 131,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 425
         }
       }
     }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

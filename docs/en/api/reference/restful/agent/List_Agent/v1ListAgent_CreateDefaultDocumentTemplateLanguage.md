@@ -68,8 +68,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 610,
-  "LanguageCode": "sint"
+  "DocumentTemplateId": 96,
+  "LanguageCode": "perferendis"
 }
 ```
 

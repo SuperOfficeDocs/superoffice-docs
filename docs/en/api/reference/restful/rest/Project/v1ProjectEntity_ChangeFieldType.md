@@ -29,7 +29,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -113,46 +113,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 360,
-  "ColumnId": 648,
-  "FieldDefault": "et",
-  "FieldHeight": 111,
-  "FieldLabel": "sint",
-  "FieldLeft": 349,
-  "FieldTop": 640,
+  "UDefFieldId": 175,
+  "ColumnId": 695,
+  "FieldDefault": "sit",
+  "FieldHeight": 916,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 899,
+  "FieldTop": 192,
   "FieldType": "Checkbox",
-  "FieldWidth": 106,
-  "FormatMask": "veniam",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 744,
-  "LabelLeft": 495,
-  "LabelTop": 779,
-  "LabelWidth": 959,
-  "LastVersionId": 728,
-  "ListTableId": 533,
-  "IsMandatory": true,
+  "FieldWidth": 668,
+  "FormatMask": "labore",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 501,
+  "LabelLeft": 431,
+  "LabelTop": 431,
+  "LabelWidth": 756,
+  "LastVersionId": 685,
+  "ListTableId": 863,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 547,
-  "ProgId": "dolorum",
-  "IsReadOnly": false,
-  "ShortLabel": "sunt",
-  "TabOrder": 965,
-  "TextLength": 890,
+  "Page1LineNo": 773,
+  "ProgId": "molestiae",
+  "IsReadOnly": true,
+  "ShortLabel": "eveniet",
+  "TabOrder": 886,
+  "TextLength": 242,
   "Tooltip": "est",
-  "UdefIdentity": 831,
-  "UDListDefinitionId": 482,
+  "UdefIdentity": 112,
+  "UDListDefinitionId": 352,
   "Justification": "Center",
-  "Version": 396,
-  "TemplateVariableName": "Aufderhar, Grimes and Keeling",
-  "HasBeenPublished": true,
-  "MdoListName": "Grimes-Johns",
+  "Version": 481,
+  "TemplateVariableName": "Heller-O'Hara",
+  "HasBeenPublished": false,
+  "MdoListName": "Lockman, Willms and Larkin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldLength": 572
     }
   }
 }

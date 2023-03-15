@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 486,
-    "Name": "Lynch LLC",
-    "Tooltip": "fugiat",
+    "HeadingId": 543,
+    "Name": "Boyer-Kemmer",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 178,
-    "UdListDefinitionId": 307,
+    "Rank": 130,
+    "UdListDefinitionId": 730,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 785
       }
     }
   }

@@ -119,18 +119,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "ratione",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "ratione",
     "value": {}
   }
 ]
@@ -143,37 +143,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 306,
-  "UniqueId": "saepe",
-  "Name": "Kunze, Runolfsson and Bartoletti",
-  "Description": "Stand-alone mobile Graphical User Interface",
-  "AssociateId": 53,
-  "Columns": 96,
+  "DashboardId": 930,
+  "UniqueId": "esse",
+  "Name": "Bartell LLC",
+  "Description": "Multi-channelled 6th generation time-frame",
+  "AssociateId": 845,
+  "Columns": 207,
   "Theme": null,
-  "VisibleForAll": 696,
+  "VisibleForAll": 127,
   "VisibleForAssociates": [
-    999,
-    867
+    629,
+    629
   ],
   "VisibleForGroups": [
-    299,
-    997
+    994,
+    172
   ],
-  "PinForAll": 529,
+  "PinForAll": 319,
   "PinForAssociates": [
-    490,
-    438
+    749,
+    218
   ],
   "PinForGroups": [
-    815,
-    382
+    562,
+    953
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   },
   "_Links": {

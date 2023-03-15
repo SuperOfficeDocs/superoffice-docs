@@ -30,9 +30,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=sint
-GET /api/v1/MDOList/{listname}?query=est
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=et
+GET /api/v1/MDOList/{listname}?query=ut
 ```
 
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Dare-Friesen",
-    "ToolTip": "Omnis culpa beatae hic dicta.",
+    "Id": 642,
+    "Name": "Gutmann-Hermann",
+    "ToolTip": "Dolore doloremque numquam aspernatur ea.",
     "Deleted": true,
-    "Rank": 290,
-    "Type": "excepturi",
+    "Rank": 172,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Kub, Parisian and Purdy",
-        "ToolTip": "Voluptates sed qui in numquam quidem sed voluptatem.",
-        "Deleted": true,
-        "Rank": 786,
-        "Type": "voluptatem",
+        "Id": 532,
+        "Name": "McKenzie-Nader",
+        "ToolTip": "Adipisci totam sint eaque.",
+        "Deleted": false,
+        "Rank": 176,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 585,
-        "ExtraInfo": "amet",
-        "StyleHint": "non",
-        "FullName": "Jaylin Kris",
+        "IconHint": "illum",
+        "ColorBlock": 89,
+        "ExtraInfo": "saepe",
+        "StyleHint": "veritatis",
+        "FullName": "Araceli Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 183
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 699,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "et",
-    "FullName": "Kiel Lindgren",
+    "IconHint": "veniam",
+    "ColorBlock": 257,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "natus",
+    "FullName": "Mrs. Orville Rodrigo Jacobi DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 477
       }
     }
   }

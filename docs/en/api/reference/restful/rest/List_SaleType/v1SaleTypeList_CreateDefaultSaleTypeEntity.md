@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 80,
-  "Name": "Schneider Group",
-  "Tooltip": "placeat",
-  "Rank": 852,
+  "SaleTypeId": 147,
+  "Name": "Stracke, Cremin and Heidenreich",
+  "Tooltip": "corrupti",
+  "Rank": 250,
   "DurationUnit": "Century",
-  "SaleDuration": 804,
-  "SaleTypeCatId": 552,
+  "SaleDuration": 717,
+  "SaleTypeCatId": 690,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 496,
-  "QuoteLinesTemplate": 758,
-  "ConfirmationLinesTemplate": 169,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 425,
-  "MinEarningPercent": 108,
-  "GroupQuoteLinesBy": 484,
-  "SortGroupLinesBy": 859,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 623,
+  "QuoteLinesTemplate": 744,
+  "ConfirmationLinesTemplate": 182,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 899,
+  "MinEarningPercent": 143,
+  "GroupQuoteLinesBy": 17,
+  "SortGroupLinesBy": 640,
   "Stages": [
     {
-      "Id": 824,
-      "Name": "Daniel-Hilpert",
-      "ToolTip": "Vel et saepe eos illum incidunt ipsum repellat.",
-      "Deleted": true,
-      "Rank": 945,
-      "Type": "similique",
-      "ColorBlock": 619,
-      "IconHint": "illum",
+      "Id": 14,
+      "Name": "King-Swift",
+      "ToolTip": "Inventore ex sed quisquam.",
+      "Deleted": false,
+      "Rank": 386,
+      "Type": "voluptatem",
+      "ColorBlock": 506,
+      "IconHint": "assumenda",
       "Selected": true,
-      "LastChanged": "2011-09-30T11:22:46.1784934+02:00",
+      "LastChanged": "2008-11-14T12:15:28.4706143+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "vero",
+      "ExtraInfo": "ea",
+      "StyleHint": "consequuntur",
       "Hidden": false,
-      "FullName": "Mr. Myles Mercedes Heidenreich",
+      "FullName": "Helene Jakubowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 336
+          "FieldLength": 225
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldType": "System.Int32",
+      "FieldLength": 723
     }
   }
 }

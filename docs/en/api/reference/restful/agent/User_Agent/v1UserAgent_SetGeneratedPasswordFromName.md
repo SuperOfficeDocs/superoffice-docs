@@ -73,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Hudson LLC"
+  "AssociateName": "Kuhic LLC"
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Koss Group"
+"Schmeler, Emmerich and Luettgen"
 ```

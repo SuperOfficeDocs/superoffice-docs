@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 310,
-  "ERPProductKey": "optio"
+  "QuoteConnectionId": 662,
+  "ERPProductKey": "laudantium"
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 335,
-  "ERPProductKey": "quos",
-  "ERPPriceListKey": "iusto",
-  "Name": "Toy-Labadie",
-  "Description": "De-engineered foreground architecture",
-  "Code": "eius",
-  "PriceUnit": "neque",
-  "QuantityUnit": "voluptatem",
+  "ProductId": 320,
+  "ERPProductKey": "iure",
+  "ERPPriceListKey": "voluptatibus",
+  "Name": "Swaniawski, Gleason and Effertz",
+  "Description": "Right-sized local methodology",
+  "Code": "alias",
+  "PriceUnit": "in",
+  "QuantityUnit": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "cumque",
-  "DefaultSubscriptionQuantity": 391.75,
-  "ItemNumber": "667311",
+  "SubscriptionUnit": "soluta",
+  "DefaultSubscriptionQuantity": 19562.428,
+  "ItemNumber": "537872",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "odit",
-  "ProductTypeKey": "ipsum",
-  "VAT": 19333.646,
-  "VATInfo": "incidunt",
-  "UnitCost": 16691.684,
-  "UnitMinimumPrice": 24683.384,
-  "UnitListPrice": 4575.6399999999994,
+  "ProductFamilyKey": "exercitationem",
+  "ProductTypeKey": "quia",
+  "VAT": 4870.236,
+  "VATInfo": "eveniet",
+  "UnitCost": 9000.848,
+  "UnitMinimumPrice": 5403.016,
+  "UnitListPrice": 28300.02,
   "InAssortment": true,
-  "Supplier": "alias",
-  "SupplierCode": "aut",
-  "Rights": "deserunt",
-  "Rule": "voluptatibus",
+  "Supplier": "et",
+  "SupplierCode": "maxime",
+  "Rights": "rerum",
+  "Rule": "officia",
   "ExtraInfo": [
     {
-      "Name": "Marks Inc and Sons",
-      "Value": "sed",
+      "Name": "Lind Group",
+      "Value": "vitae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 413
+          "FieldType": "System.Int32",
+          "FieldLength": 64
         }
       }
     },
     {
-      "Name": "Marks Inc and Sons",
-      "Value": "sed",
+      "Name": "Lind Group",
+      "Value": "vitae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 413
+          "FieldType": "System.Int32",
+          "FieldLength": 64
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
-  "ExtraField1": "quod",
-  "ExtraField2": "debitis",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "non",
-  "ExtraField5": "sint",
-  "InStock": 26717.35,
+  "RawExtraInfo": "magnam",
+  "ExtraField1": "quidem",
+  "ExtraField2": "corporis",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "quas",
+  "ExtraField5": "optio",
+  "InStock": 14037.186,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 966
+      "FieldType": "System.Int32",
+      "FieldLength": 25
     }
   }
 }

@@ -67,14 +67,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mosciski-Lemke",
+  "Name": "Beer, Zboncak and O'Kon",
   "TileType": "Area",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

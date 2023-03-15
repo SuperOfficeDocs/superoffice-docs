@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=608
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=18
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 945,
-  "ColumnId": 366,
-  "FieldDefault": "dicta",
-  "FieldHeight": 554,
-  "FieldLabel": "illum",
-  "FieldLeft": 536,
-  "FieldTop": 131,
+  "UDefFieldId": 377,
+  "ColumnId": 953,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 558,
+  "FieldLabel": "sequi",
+  "FieldLeft": 315,
+  "FieldTop": 143,
   "FieldType": "Checkbox",
-  "FieldWidth": 253,
-  "FormatMask": "enim",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 22,
-  "LabelLeft": 260,
-  "LabelTop": 255,
-  "LabelWidth": 902,
-  "LastVersionId": 924,
-  "ListTableId": 253,
+  "FieldWidth": 952,
+  "FormatMask": "dolorum",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 417,
+  "LabelLeft": 995,
+  "LabelTop": 879,
+  "LabelWidth": 656,
+  "LastVersionId": 707,
+  "ListTableId": 434,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 599,
-  "ProgId": "qui",
+  "Page1LineNo": 345,
+  "ProgId": "officiis",
   "IsReadOnly": true,
-  "ShortLabel": "quia",
-  "TabOrder": 272,
-  "TextLength": 388,
-  "Tooltip": "nobis",
-  "UdefIdentity": 938,
-  "UDListDefinitionId": 267,
+  "ShortLabel": "voluptates",
+  "TabOrder": 648,
+  "TextLength": 785,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 768,
+  "UDListDefinitionId": 130,
   "Justification": "Center",
-  "Version": 847,
-  "TemplateVariableName": "Bosco, Stanton and Powlowski",
+  "Version": 97,
+  "TemplateVariableName": "Stiedemann, Anderson and Kub",
   "HasBeenPublished": false,
-  "MdoListName": "Hickle-Rice",
+  "MdoListName": "Muller-Schulist",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

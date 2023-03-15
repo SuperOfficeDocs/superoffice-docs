@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 951,
+  "TargetAssignmentInfoId": 44,
   "Values": [
-    149,
-    302
+    63,
+    299
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 553,
-  "DimensionListItemDisplayName": "Hettinger-Halvorson",
+  "DimensionListItem": 203,
+  "DimensionListItemDisplayName": "Hermann, Beahan and Corwin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 775
     }
   }
 }

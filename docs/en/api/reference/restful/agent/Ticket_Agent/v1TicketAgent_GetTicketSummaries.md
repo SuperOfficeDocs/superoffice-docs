@@ -79,8 +79,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    651,
-    630
+    894,
+    334
   ]
 }
 ```
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 314,
-    "TicketStatus": 655,
-    "Title": "omnis",
-    "Registered": "2013-05-20T11:22:39.5706677+02:00",
-    "IconHint": "sunt"
+    "TicketId": 356,
+    "TicketStatus": 950,
+    "Title": "natus",
+    "Registered": "2011-05-31T12:15:20.4997293+02:00",
+    "IconHint": "aspernatur"
   },
   {
-    "TicketId": 314,
-    "TicketStatus": 655,
-    "Title": "omnis",
-    "Registered": "2013-05-20T11:22:39.5706677+02:00",
-    "IconHint": "sunt"
+    "TicketId": 356,
+    "TicketStatus": 950,
+    "Title": "natus",
+    "Registered": "2011-05-31T12:15:20.4997293+02:00",
+    "IconHint": "aspernatur"
   }
 ]
 ```

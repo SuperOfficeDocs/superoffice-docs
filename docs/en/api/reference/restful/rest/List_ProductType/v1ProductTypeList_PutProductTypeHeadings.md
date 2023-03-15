@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Johnston, Morar and Gislason",
-    "Tooltip": "esse",
+    "HeadingId": 104,
+    "Name": "Corwin-Gerlach",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 878
+    "Rank": 275,
+    "UdListDefinitionId": 954
   },
   {
-    "HeadingId": 112,
-    "Name": "Johnston, Morar and Gislason",
-    "Tooltip": "esse",
+    "HeadingId": 104,
+    "Name": "Corwin-Gerlach",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 878
+    "Rank": 275,
+    "UdListDefinitionId": 954
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 179,
-    "Name": "Heaney Inc and Sons",
-    "Tooltip": "nulla",
-    "Deleted": true,
-    "Rank": 987,
-    "UdListDefinitionId": 686,
+    "HeadingId": 246,
+    "Name": "Rohan, Herman and Cassin",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 945,
+    "UdListDefinitionId": 735,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 526
+        "FieldLength": 516
       }
     }
   }

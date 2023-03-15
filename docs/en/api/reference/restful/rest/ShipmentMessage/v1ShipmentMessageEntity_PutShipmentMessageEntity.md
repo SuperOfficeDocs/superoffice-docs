@@ -118,31 +118,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 222,
-  "PlainMessage": "quo",
-  "HtmlMessage": "provident",
-  "SmsMessage": "doloremque",
-  "Description": "Open-source transitional groupware",
+  "ShipmentMessageId": 968,
+  "PlainMessage": "minima",
+  "HtmlMessage": "nostrum",
+  "SmsMessage": "ab",
+  "Description": "Fully-configurable attitude-oriented utilisation",
   "Subject": "neque",
-  "FolderId": 309,
-  "HeaderField": "et",
-  "Design": "porro",
+  "FolderId": 676,
+  "HeaderField": "incidunt",
+  "Design": "consequatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "User-friendly 4th generation circuit",
-  "AccessKey": "aliquam",
-  "DocumentMessage": 468,
-  "Registered": "2007-09-17T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 470,
-  "Updated": "2013-04-10T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 465,
-  "UpdatedCount": 893
+  "LongDescription": "Implemented eco-centric toolset",
+  "AccessKey": "in",
+  "DocumentMessage": 414,
+  "Registered": "2016-07-13T12:15:27.4006306+02:00",
+  "RegisteredAssociateId": 618,
+  "Updated": "2023-01-01T12:15:27.4006306+01:00",
+  "UpdatedAssociateId": 826,
+  "UpdatedCount": 625
 }
 ```
 
@@ -153,33 +153,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 792,
-  "PlainMessage": "ex",
-  "HtmlMessage": "odio",
-  "SmsMessage": "aut",
-  "Description": "Self-enabling uniform secured line",
-  "Subject": "dolor",
-  "FolderId": 496,
-  "HeaderField": "quas",
-  "Design": "fuga",
+  "ShipmentMessageId": 625,
+  "PlainMessage": "et",
+  "HtmlMessage": "sequi",
+  "SmsMessage": "quas",
+  "Description": "Diverse bi-directional leverage",
+  "Subject": "veritatis",
+  "FolderId": 218,
+  "HeaderField": "molestiae",
+  "Design": "illum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Face to face bifurcated approach",
-  "AccessKey": "vel",
-  "DocumentMessage": 882,
-  "Registered": "2021-09-05T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 497,
-  "Updated": "1996-04-15T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 136,
-  "UpdatedCount": 48,
+  "LongDescription": "Fundamental multimedia encoding",
+  "AccessKey": "tenetur",
+  "DocumentMessage": 475,
+  "Registered": "2013-01-22T12:15:27.4016314+01:00",
+  "RegisteredAssociateId": 284,
+  "Updated": "2006-05-12T12:15:27.4016314+02:00",
+  "UpdatedAssociateId": 715,
+  "UpdatedCount": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   },
   "_Links": {

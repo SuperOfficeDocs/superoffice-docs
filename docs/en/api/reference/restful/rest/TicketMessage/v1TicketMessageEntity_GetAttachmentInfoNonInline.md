@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 318,
-    "Name": "Goodwin, Miller and Gerhold",
-    "ContentType": "non",
-    "AttSize": 200,
+    "AttachmentId": 701,
+    "Name": "Hintz, Mueller and Mosciski",
+    "ContentType": "eos",
+    "AttSize": 2,
     "InlineImage": false,
-    "ContentId": "asperiores",
+    "ContentId": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldType": "System.Int32",
+        "FieldLength": 550
       }
     }
   }

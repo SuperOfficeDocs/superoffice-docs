@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 657,
-  "CurrencyId": 166
+  "QuoteConnectionId": 607,
+  "CurrencyId": 830
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 695,
-    "ERPPriceListKey": "non",
-    "QuoteConnectionId": 193,
-    "Name": "Skiles LLC",
-    "Description": "Organized incremental flexibility",
-    "Currency": "quis",
-    "CurrencyName": "Abernathy-Bruen",
-    "ValidFrom": "2020-02-28T11:22:38.9301893+01:00",
-    "ValidTo": "1997-02-01T11:22:38.9301893+01:00",
+    "PriceListId": 382,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 585,
+    "Name": "Stracke, Cartwright and Barrows",
+    "Description": "Monitored non-volatile framework",
+    "Currency": "dignissimos",
+    "CurrencyName": "Yundt, Fisher and Oberbrunner",
+    "ValidFrom": "2000-09-06T12:15:19.949737+02:00",
+    "ValidTo": "2008-05-18T12:15:19.949737+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 934
       }
     }
   }

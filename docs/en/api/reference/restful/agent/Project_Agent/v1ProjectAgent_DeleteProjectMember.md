@@ -24,7 +24,7 @@ Deletes the ProjectMember
 | ProjectMemberId | int32 | **Required** The id of the ProjectMember to be deleted. |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectMember?ProjectMemberId=938
+POST /api/v1/Agents/Project/DeleteProjectMember?ProjectMemberId=233
 ```
 
 

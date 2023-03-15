@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Ticket/ProcessTicketWhenRead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 88
+  "TicketEntityId": 697
 }
 ```
 
@@ -142,21 +142,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 403,
-  "Title": "voluptas",
-  "CreatedAt": "2011-11-23T11:22:39.4769429+01:00",
-  "LastChanged": "1998-09-06T11:22:39.4769429+02:00",
-  "ReadByOwner": "2002-06-13T11:22:39.4769429+02:00",
-  "ReadByCustomer": "2016-04-04T11:22:39.4769429+02:00",
-  "FirstReadByOwner": "2007-02-24T11:22:39.4769429+01:00",
-  "FirstReadByUser": "2007-12-22T11:22:39.4769429+01:00",
-  "Activate": "2008-05-13T11:22:39.4769429+02:00",
-  "ClosedAt": "2016-02-07T11:22:39.4769429+01:00",
-  "RepliedAt": "1997-01-10T11:22:39.4769429+01:00",
-  "AlertTimeout": "2020-08-18T11:22:39.4769429+02:00",
-  "Deadline": "2018-12-08T11:22:39.4769429+01:00",
+  "TicketId": 210,
+  "Title": "id",
+  "CreatedAt": "2015-10-19T12:15:20.3977336+02:00",
+  "LastChanged": "2012-10-14T12:15:20.3977336+02:00",
+  "ReadByOwner": "2008-05-03T12:15:20.3977336+02:00",
+  "ReadByCustomer": "2014-05-15T12:15:20.3977336+02:00",
+  "FirstReadByOwner": "2016-07-08T12:15:20.3977336+02:00",
+  "FirstReadByUser": "2008-12-27T12:15:20.3977336+01:00",
+  "Activate": "2010-07-18T12:15:20.3977336+02:00",
+  "ClosedAt": "2012-12-02T12:15:20.3977336+01:00",
+  "RepliedAt": "2022-05-28T12:15:20.3977336+02:00",
+  "AlertTimeout": "2009-04-05T12:15:20.3977336+02:00",
+  "Deadline": "2012-02-23T12:15:20.3977336+01:00",
   "CreatedBy": null,
-  "Author": "nobis",
+  "Author": "sed",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,157 +167,157 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "soluta",
-      "PersonId": 952,
-      "Mrmrs": "beatae",
-      "Firstname": "Chris",
-      "Lastname": "Rippin",
-      "MiddleName": "Thiel Inc and Sons",
-      "Title": "aut",
-      "Description": "Proactive 24 hour hierarchy",
-      "Email": "rosario@pfeffer.info",
-      "FullName": "Alexanne Fadel",
-      "DirectPhone": "587-799-7131 x13479",
-      "FormalName": "Sauer LLC",
-      "CountryId": 868,
-      "ContactId": 160,
-      "ContactName": "Von LLC",
-      "Retired": 859,
-      "Rank": 590,
-      "ActiveInterests": 689,
+      "Position": "ut",
+      "PersonId": 133,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Breana",
+      "Lastname": "Kutch",
+      "MiddleName": "Kris-Wunsch",
+      "Title": "et",
+      "Description": "Multi-channelled solution-oriented circuit",
+      "Email": "jett@manndare.com",
+      "FullName": "Mrs. Allison Trey Hoeger DDS",
+      "DirectPhone": "718.673.4551 x0207",
+      "FormalName": "Baumbach, Lynch and Anderson",
+      "CountryId": 391,
+      "ContactId": 95,
+      "ContactName": "Parker Group",
+      "Retired": 979,
+      "Rank": 729,
+      "ActiveInterests": 283,
       "ContactDepartment": "",
-      "ContactCountryId": 45,
-      "ContactOrgNr": "883190",
-      "FaxPhone": "758.732.0959 x77482",
-      "MobilePhone": "378-165-2007 x69442",
-      "ContactPhone": "1-722-175-7113",
-      "AssociateName": "Steuber Inc and Sons",
-      "AssociateId": 980,
+      "ContactCountryId": 226,
+      "ContactOrgNr": "1176227",
+      "FaxPhone": "(746)924-7685 x953",
+      "MobilePhone": "(344)548-0026",
+      "ContactPhone": "(256)968-8530",
+      "AssociateName": "McKenzie-Nitzsche",
+      "AssociateId": 102,
       "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "eius",
-      "Kanalname": "in",
-      "Post1": "aut",
-      "Post2": "ea",
-      "Post3": "recusandae",
-      "EmailName": "jacklyn_ledner@faytremblay.ca",
-      "ContactFullName": "Rene Quigley",
-      "ActiveErpLinks": 901,
-      "TicketPriorityId": 321,
-      "SupportLanguageId": 977,
-      "SupportAssociateId": 404,
+      "ContactFax": "ea",
+      "Kanafname": "qui",
+      "Kanalname": "quo",
+      "Post1": "est",
+      "Post2": "et",
+      "Post3": "assumenda",
+      "EmailName": "trenton@bradtke.biz",
+      "ContactFullName": "Adelbert Gerhold",
+      "ActiveErpLinks": 452,
+      "TicketPriorityId": 987,
+      "SupportLanguageId": 620,
+      "SupportAssociateId": 412,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 343
         }
       }
     }
   ],
-  "AlertLevel": 718,
-  "ConnectId": 979,
+  "AlertLevel": 237,
+  "ConnectId": 220,
   "ReadStatus": "Green",
-  "TimeToReply": 281,
-  "RealTimeToReply": 6,
-  "TimeToClose": 243,
-  "RealTimeToClose": 562,
-  "TimeSpentInternally": 413,
-  "TimeSpentExternally": 401,
-  "TimeSpentQueue": 900,
-  "RealTimeSpentInternally": 553,
-  "RealTimeSpentExternally": 967,
-  "RealTimeSpentQueue": 450,
+  "TimeToReply": 666,
+  "RealTimeToReply": 840,
+  "TimeToClose": 923,
+  "RealTimeToClose": 711,
+  "TimeSpentInternally": 113,
+  "TimeSpentExternally": 327,
+  "TimeSpentQueue": 974,
+  "RealTimeSpentInternally": 5,
+  "RealTimeSpentExternally": 8,
+  "RealTimeSpentQueue": 678,
   "HasAttachment": false,
-  "NumReplies": 222,
-  "NumMessages": 219,
-  "FromAddress": "occaecati",
+  "NumReplies": 307,
+  "NumMessages": 164,
+  "FromAddress": "suscipit",
   "Messages": [
     {
-      "TicketMessageId": 130,
-      "CreatedAt": "2021-06-02T11:22:39.4926974+02:00",
+      "TicketMessageId": 175,
+      "CreatedAt": "2001-01-25T12:15:20.4017338+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "excepturi",
-      "PersonId": 213,
-      "PersonFullName": "Tom Gaylord",
-      "ContactId": 67,
-      "ContactName": "D'Amore, Predovic and Herman",
+      "Author": "temporibus",
+      "PersonId": 225,
+      "PersonFullName": "Ms. Tiffany Tremblay",
+      "ContactId": 121,
+      "ContactName": "Keeling-Skiles",
       "ContactDepartment": "",
-      "NumAttachments": 447,
-      "EmailHeader": "vicente@spencermarvin.name",
+      "NumAttachments": 947,
+      "EmailHeader": "zoila.heller@dickens.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "recusandae",
-      "Sentiment": 911,
-      "SentimentConfidence": 60,
-      "CreatedBy": 300,
-      "ChangedAt": "2022-03-11T11:22:39.4926974+01:00",
+      "Language": "aut",
+      "Sentiment": 918,
+      "SentimentConfidence": 829,
+      "CreatedBy": 856,
+      "ChangedAt": "2006-05-15T12:15:20.402731+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldType": "System.String",
+          "FieldLength": 271
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 812,
-      "Name": "Wilkinson, Mohr and Fadel",
-      "ToolTip": "Ex et provident.",
+      "Id": 68,
+      "Name": "Hane Group",
+      "ToolTip": "Cupiditate dolor est alias qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 379
+          "FieldType": "System.Int32",
+          "FieldLength": 519
         }
       }
     },
     {
-      "Id": 812,
-      "Name": "Wilkinson, Mohr and Fadel",
-      "ToolTip": "Ex et provident.",
+      "Id": 68,
+      "Name": "Hane Group",
+      "ToolTip": "Cupiditate dolor est alias qui.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 379
+          "FieldType": "System.Int32",
+          "FieldLength": 519
         }
       }
     }
   ],
-  "Language": "quam",
-  "Sentiment": 189,
-  "SentimentConfidence": 209,
-  "SuggestedCategoryId": 697,
+  "Language": "ducimus",
+  "Sentiment": 904,
+  "SentimentConfidence": 480,
+  "SuggestedCategoryId": 105,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 64,
-  "IconHint": "sint",
+  "OrigHumanCategoryId": 401,
+  "IconHint": "sed",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "ut"
+    "CustomFields1": "ut",
+    "CustomFields2": "accusamus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 684
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=225
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=576
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 17,
-  "SourcePersonId": 656,
-  "DestinationContactId": 785,
-  "DestinationPersonId": 11,
-  "RelationId": 482,
-  "Comment": "vero",
-  "RelationDefinitionId": 333,
-  "Reversed": 869,
-  "UpdatedDate": "2001-06-08T11:22:38.9614314+02:00",
-  "CreatedDate": "2015-07-24T11:22:38.9614314+02:00",
+  "SourceContactId": 758,
+  "SourcePersonId": 242,
+  "DestinationContactId": 674,
+  "DestinationPersonId": 985,
+  "RelationId": 544,
+  "Comment": "quia",
+  "RelationDefinitionId": 484,
+  "Reversed": 102,
+  "UpdatedDate": "2013-06-26T12:15:19.9777367+02:00",
+  "CreatedDate": "2000-06-08T12:15:19.9777367+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Ondricka Group",
-  "SourcePersonName": "McDermott Inc and Sons",
-  "DestinationContactName": "Hayes Inc and Sons",
-  "DestinationPersonName": "Schulist-Reichel",
-  "ActiveText": "atque",
-  "PassiveText": "quia",
+  "SourceContactName": "Hegmann, Hermann and Ziemann",
+  "SourcePersonName": "Hodkiewicz, Okuneva and Schneider",
+  "DestinationContactName": "Gutkowski, O'Connell and Barrows",
+  "DestinationPersonName": "Kovacek Group",
+  "ActiveText": "molestiae",
+  "PassiveText": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldLength": 955
     }
   }
 }

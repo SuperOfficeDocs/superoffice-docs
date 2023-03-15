@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 941,
-    "Name": "Torp, Price and Feil",
-    "CurrencyId": 613,
-    "EnglishName": "Mertz, Torphy and Fay",
+    "CountryId": 876,
+    "Name": "Metz-Haley",
+    "CurrencyId": 903,
+    "EnglishName": "Nicolas Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Versatile solution-oriented concept",
-    "OrgNrText": "964403",
-    "InterAreaPrefix": "aliquid",
-    "DialInPrefix": "nihil",
-    "ZipPrefix": "esse",
-    "DomainName": "Koepp-Steuber",
-    "AddressLayoutId": 121,
-    "DomesticAddressLayoutId": 468,
-    "ForeignAddressLayoutId": 982,
-    "Rank": 562,
-    "Tooltip": "ipsa",
+    "ImageDescription": "Fully-configurable high-level parallelism",
+    "OrgNrText": "1239749",
+    "InterAreaPrefix": "incidunt",
+    "DialInPrefix": "occaecati",
+    "ZipPrefix": "ipsam",
+    "DomainName": "Mertz Inc and Sons",
+    "AddressLayoutId": 581,
+    "DomesticAddressLayoutId": 856,
+    "ForeignAddressLayoutId": 159,
+    "Rank": 730,
+    "Tooltip": "accusamus",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldType": "System.String",
+        "FieldLength": 569
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 524,
-    "Section": "excepturi",
-    "Key": "sapiente",
-    "Name": "Jacobs Inc and Sons",
+    "PrefDescId": 492,
+    "Section": "quia",
+    "Key": "et",
+    "Name": "Swaniawski Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Diverse mission-critical support",
-    "IsBuiltin": true,
-    "TableName": "Bayer-Koss",
-    "UserDefinedListId": 62,
-    "Rank": 457,
-    "SubGroup": "iure",
-    "MinLevel": 299,
-    "MaxValue": 140,
-    "MinValue": 446,
-    "RequiredLicense": "eos",
+    "Description": "Synchronised optimizing system engine",
+    "IsBuiltin": false,
+    "TableName": "Wiegand, Gutkowski and Hoeger",
+    "UserDefinedListId": 114,
+    "Rank": 183,
+    "SubGroup": "distinctio",
+    "MinLevel": 799,
+    "MaxValue": 833,
+    "MinValue": 735,
+    "RequiredLicense": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

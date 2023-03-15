@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Simonis-Douglas",
-    "ToolTip": "Tenetur tempora.",
+    "Id": 317,
+    "Name": "Von-Cartwright",
+    "ToolTip": "Nisi labore soluta fuga quia.",
     "Deleted": false,
-    "Rank": 494,
-    "Type": "id",
-    "ColorBlock": 711,
-    "IconHint": "et",
+    "Rank": 54,
+    "Type": "quo",
+    "ColorBlock": 653,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2019-03-06T11:22:45.8660551+01:00",
+    "LastChanged": "2001-10-22T12:15:28.0966191+02:00",
     "ChildItems": [
       {
-        "Id": 722,
-        "Name": "Morissette, Wolff and Kohler",
-        "ToolTip": "Commodi cum aut ducimus sit.",
-        "Deleted": true,
-        "Rank": 300,
-        "Type": "rerum",
-        "ColorBlock": 571,
-        "IconHint": "atque",
+        "Id": 263,
+        "Name": "Jacobs LLC",
+        "ToolTip": "Deserunt voluptatum sint occaecati quis voluptatem.",
+        "Deleted": false,
+        "Rank": 342,
+        "Type": "non",
+        "ColorBlock": 98,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2000-04-12T11:22:45.8660551+02:00",
+        "LastChanged": "2017-02-08T12:15:28.0966191+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "quo",
+        "ExtraInfo": "et",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Miss Chadrick Francesco Dooley MD"
+        "FullName": "Rene Wisoky"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Alvina Bogan"
+    "ExtraInfo": "quam",
+    "StyleHint": "officiis",
+    "Hidden": false,
+    "FullName": "Prof. Tomasa Aniyah Hessel"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Fisher LLC",
-    "ToolTip": "Necessitatibus nisi aut fugiat quo quia necessitatibus.",
+    "Id": 878,
+    "Name": "Stracke, Lowe and Hamill",
+    "ToolTip": "Neque perferendis unde accusamus.",
     "Deleted": false,
-    "Rank": 602,
-    "Type": "necessitatibus",
-    "ColorBlock": 751,
-    "IconHint": "consequatur",
+    "Rank": 865,
+    "Type": "assumenda",
+    "ColorBlock": 830,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2012-04-15T11:22:45.8660551+02:00",
+    "LastChanged": "1999-07-24T12:15:28.0986217+02:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Kozey, Brekke and Bergnaum",
-        "ToolTip": "Cupiditate ex magni est a est et.",
-        "Deleted": false,
-        "Rank": 683,
-        "Type": "nihil",
-        "ColorBlock": 313,
-        "IconHint": "eius",
+        "Id": 853,
+        "Name": "Kunde LLC",
+        "ToolTip": "Eum suscipit aut eum nulla.",
+        "Deleted": true,
+        "Rank": 552,
+        "Type": "aliquid",
+        "ColorBlock": 138,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2009-05-22T11:22:45.8660551+02:00",
+        "LastChanged": "2022-12-07T12:15:28.0986217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "maiores",
-        "Hidden": true,
-        "FullName": "Mrs. Ervin Tre Lowe I",
+        "ExtraInfo": "nihil",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Braden Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 539
+            "FieldType": "System.String",
+            "FieldLength": 994
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "voluptatibus",
-    "Hidden": true,
-    "FullName": "Lourdes Charles Powlowski PhD",
+    "ExtraInfo": "dolore",
+    "StyleHint": "consectetur",
+    "Hidden": false,
+    "FullName": "Vern Fernando Renner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldLength": 160
       }
     }
   }

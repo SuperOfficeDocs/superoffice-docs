@@ -25,7 +25,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=494
+POST /api/v1/Agents/Project/GetProject?projectId=525
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 401,
-  "Name": "Weber-Bechtelar",
-  "Description": "Future-proofed attitude-oriented secured line",
+  "ProjectId": 451,
+  "Name": "Boyle, King and Greenfelder",
+  "Description": "Optimized non-volatile process improvement",
   "URL": "http://www.example.com/",
-  "Type": "sequi",
-  "AssociateId": 939,
-  "AssociateFullName": "Mr. Reece Witting",
-  "TypeId": 263,
-  "Updated": "2009-02-01T11:22:38.8208433+01:00",
-  "StatusId": 244,
-  "Status": "veniam",
-  "TextId": 526,
-  "PublishTo": "2008-12-05T11:22:38.8208433+01:00",
-  "PublishFrom": "2020-05-09T11:22:38.8208433+02:00",
+  "Type": "nam",
+  "AssociateId": 166,
+  "AssociateFullName": "Myrtice Altenwerth DVM",
+  "TypeId": 543,
+  "Updated": "2003-06-09T12:15:19.8277622+02:00",
+  "StatusId": 351,
+  "Status": "unde",
+  "TextId": 19,
+  "PublishTo": "2008-02-27T12:15:19.8277622+01:00",
+  "PublishFrom": "2010-01-04T12:15:19.8277622+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1888844",
-  "ActiveErpLinks": 207,
+  "ProjectNumber": "810573",
+  "ActiveErpLinks": 541,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 871
     }
   }
 }

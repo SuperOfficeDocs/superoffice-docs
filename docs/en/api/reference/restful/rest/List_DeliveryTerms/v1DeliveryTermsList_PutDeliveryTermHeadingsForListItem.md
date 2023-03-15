@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Rath, Ratke and Kuhic",
-    "ToolTip": "Consequatur iure praesentium veniam recusandae laudantium.",
-    "Deleted": true,
-    "Rank": 247,
-    "Type": "aut",
-    "ColorBlock": 803,
-    "IconHint": "quisquam",
-    "Selected": false,
-    "LastChanged": "2005-01-18T11:22:45.8816758+01:00",
+    "Id": 572,
+    "Name": "Cartwright Group",
+    "ToolTip": "Sit qui aperiam.",
+    "Deleted": false,
+    "Rank": 124,
+    "Type": "deleniti",
+    "ColorBlock": 854,
+    "IconHint": "aliquam",
+    "Selected": true,
+    "LastChanged": "2010-02-16T12:15:28.1176187+01:00",
     "ChildItems": [
       {
-        "Id": 463,
-        "Name": "Raynor LLC",
-        "ToolTip": "Reiciendis porro voluptas fuga.",
-        "Deleted": false,
-        "Rank": 491,
-        "Type": "nemo",
-        "ColorBlock": 401,
-        "IconHint": "dolor",
-        "Selected": true,
-        "LastChanged": "2019-02-03T11:22:45.8816758+01:00",
+        "Id": 221,
+        "Name": "Walsh Inc and Sons",
+        "ToolTip": "Necessitatibus quam magni et non porro.",
+        "Deleted": true,
+        "Rank": 702,
+        "Type": "consequatur",
+        "ColorBlock": 639,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "1996-12-02T12:15:28.1176187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
+        "ExtraInfo": "blanditiis",
         "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Chauncey Feest"
+        "FullName": "Mrs. Oscar Hintz PhD"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "voluptate",
-    "Hidden": true,
-    "FullName": "Miss Jordane Tomas Reynolds"
+    "ExtraInfo": "nemo",
+    "StyleHint": "ad",
+    "Hidden": false,
+    "FullName": "Vallie Royal Hills PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Haag, Rodriguez and King",
-    "ToolTip": "Molestiae veritatis laborum.",
+    "Id": 329,
+    "Name": "Muller, Weissnat and Purdy",
+    "ToolTip": "Beatae velit officiis natus placeat dolores.",
     "Deleted": true,
-    "Rank": 610,
-    "Type": "voluptas",
-    "ColorBlock": 44,
-    "IconHint": "sint",
+    "Rank": 448,
+    "Type": "temporibus",
+    "ColorBlock": 725,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2007-01-18T11:22:45.8973017+01:00",
+    "LastChanged": "2010-05-02T12:15:28.1196189+02:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Weissnat Inc and Sons",
-        "ToolTip": "Ut et laudantium velit sapiente.",
-        "Deleted": true,
-        "Rank": 112,
-        "Type": "est",
-        "ColorBlock": 967,
-        "IconHint": "in",
+        "Id": 363,
+        "Name": "Kuhn-Orn",
+        "ToolTip": "Et perferendis et cupiditate delectus soluta qui.",
+        "Deleted": false,
+        "Rank": 245,
+        "Type": "ut",
+        "ColorBlock": 641,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2019-02-21T11:22:45.8973017+01:00",
+        "LastChanged": "2011-09-27T12:15:28.1196189+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "et",
+        "ExtraInfo": "beatae",
+        "StyleHint": "sunt",
         "Hidden": true,
-        "FullName": "Elyse Predovic",
+        "FullName": "Mr. Emely Jacinthe O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldType": "System.String",
+            "FieldLength": 574
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "animi",
+    "ExtraInfo": "ex",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Earnestine Nikolaus",
+    "FullName": "Dr. Alvina Kadin Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldLength": 669
       }
     }
   }

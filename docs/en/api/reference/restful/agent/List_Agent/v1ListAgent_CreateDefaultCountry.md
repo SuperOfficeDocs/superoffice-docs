@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 691,
-  "Name": "Murazik-Harber",
-  "CurrencyId": 561,
-  "EnglishName": "Lang, Corwin and Kerluke",
+  "CountryId": 206,
+  "Name": "Ziemann-Miller",
+  "CurrencyId": 562,
+  "EnglishName": "Stamm LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Networked zero administration data-warehouse",
-  "OrgNrText": "1675081",
-  "InterAreaPrefix": "labore",
-  "DialInPrefix": "sunt",
-  "ZipPrefix": "at",
-  "DomainName": "Walker-Bauch",
-  "AddressLayoutId": 666,
-  "DomesticAddressLayoutId": 384,
-  "ForeignAddressLayoutId": 474,
-  "Rank": 899,
-  "Tooltip": "totam",
+  "ImageDescription": "Public-key context-sensitive Graphical User Interface",
+  "OrgNrText": "1530087",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "enim",
+  "DomainName": "Rutherford-Windler",
+  "AddressLayoutId": 54,
+  "DomesticAddressLayoutId": 504,
+  "ForeignAddressLayoutId": 170,
+  "Rank": 121,
+  "Tooltip": "culpa",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 405
+      "FieldLength": 139
     }
   }
 }

@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 733,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 604,
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Will, Johnston and Connelly",
-    "Tooltip": "similique",
+    "Id": 864,
+    "Name": "Kub LLC",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "UdListDefinitionId": 462,
-    "Rank": 985,
+    "UdListDefinitionId": 94,
+    "Rank": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldType": "System.String",
+        "FieldLength": 817
       }
     }
   }

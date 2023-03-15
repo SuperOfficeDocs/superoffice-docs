@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "UdListDefinitionId": 878,
+  "Id": 810,
+  "UdListDefinitionId": 64,
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 481,
-  "Name": "Heller-Brekke",
-  "Tooltip": "corporis",
+  "Id": 665,
+  "Name": "Smitham, Cormier and Olson",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 529,
-  "Rank": 702,
+  "UdListDefinitionId": 316,
+  "Rank": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

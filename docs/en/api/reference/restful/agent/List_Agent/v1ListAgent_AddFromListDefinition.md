@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 244,
+  "UdListDefinitionId": 552,
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 487,
-  "Name": "Bernhard Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 680,
+  "Name": "Wilkinson-Veum",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 135,
-  "Rank": 127,
+  "UdListDefinitionId": 478,
+  "Rank": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldLength": 158
     }
   }
 }

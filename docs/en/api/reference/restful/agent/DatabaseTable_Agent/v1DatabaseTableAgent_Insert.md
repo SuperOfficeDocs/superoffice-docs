@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schultz-Abshire",
+  "TableName": "Runolfsdottir, Wehner and Terry",
   "Columns": [
-    "aut",
+    "cumque",
     "qui"
   ],
   "Data": [
@@ -108,41 +108,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "corporis",
-  "Inserts": 593,
-  "Updates": 779,
-  "Deletes": 551,
+  "Success": false,
+  "Message": "qui",
+  "Inserts": 390,
+  "Updates": 714,
+  "Deletes": 528,
   "RowStatus": [
     {
-      "PrimaryKey": 201,
+      "PrimaryKey": 691,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eaque",
-        "nam"
+        "sed",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     },
     {
-      "PrimaryKey": 201,
+      "PrimaryKey": 691,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eaque",
-        "nam"
+        "sed",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 877
         }
       }
     }
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldLength": 198
     }
   }
 }

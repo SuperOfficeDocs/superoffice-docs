@@ -81,24 +81,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cumque",
-  "ProviderName": "Rodriguez LLC",
-  "StorageKey": "ad",
+  "StorageType": "ducimus",
+  "ProviderName": "Collins-Kilback",
+  "StorageKey": "quae",
   "Restrictions": [
     {
-      "Name": "Daniel Inc and Sons",
-      "Operator": "magni",
+      "Name": "Fisher-Harris",
+      "Operator": "laboriosam",
       "Values": [
-        "vel",
-        "possimus"
+        "ducimus",
+        "saepe"
       ],
       "DisplayValues": [
-        "reprehenderit",
-        "quos"
+        "omnis",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 625,
+      "InterParenthesis": 711,
       "InterOperator": "And",
-      "UniqueHash": 220
+      "UniqueHash": 717
     }
   ],
   "StaticColumns": [
-    "nihil",
-    "et"
+    "odit",
+    "corrupti"
   ]
 }
 ```
@@ -127,81 +127,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Sauer Group",
-      "Operator": "enim",
+      "Name": "Shields, Pfeffer and Sawayn",
+      "Operator": "dolorem",
       "Values": [
-        "molestiae",
-        "velit"
+        "cupiditate",
+        "quo"
       ],
       "DisplayValues": [
-        "culpa",
-        "eveniet"
+        "id",
+        "rerum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 806,
+      "InterParenthesis": 223,
       "InterOperator": "And",
-      "UniqueHash": 628
+      "UniqueHash": 597
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Prohaska Inc and Sons",
-      "DisplayTooltip": "excepturi",
-      "DisplayType": "sit",
+      "DisplayName": "Brekke, Jacobs and Tromp",
+      "DisplayTooltip": "qui",
+      "DisplayType": "debitis",
       "CanOrderBy": false,
-      "Name": "Lebsack, Orn and Heathcote",
+      "Name": "Roberts, Kutch and Stoltenberg",
       "CanRestrictBy": false,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Deckow Group",
-      "IsVisible": true,
-      "ExtraInfo": "mollitia",
-      "Width": "autem",
-      "IconHint": "ut",
-      "HeadingIconHint": "velit"
+      "RestrictionType": "qui",
+      "RestrictionListName": "Boyer Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "libero",
+      "Width": "odio",
+      "IconHint": "sit",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ernser LLC",
-      "PrimaryKey": 818,
+      "EntityName": "Roberts-King",
+      "PrimaryKey": 819,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "sapiente",
-          "LinkHint": "consequatur"
+          "DisplayValue": "tempore",
+          "TooltipHint": "sunt",
+          "LinkHint": "dolorum"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "nostrum",
+      "LinkHint": "magnam",
+      "StyleHint": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldType": "System.String",
+          "FieldLength": 790
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stoltenberg Group",
-      "Description": "Self-enabling uniform infrastructure",
-      "Rank": 583,
+      "Name": "Jacobs, Grant and Gaylord",
+      "Description": "Customer-focused clear-thinking array",
+      "Rank": 103,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stoltenberg Group",
-      "Description": "Self-enabling uniform infrastructure",
-      "Rank": 583,
+      "Name": "Jacobs, Grant and Gaylord",
+      "Description": "Customer-focused clear-thinking array",
+      "Rank": 103,
       "Restrictions": [
         {},
         {}
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 908
     }
   }
 }

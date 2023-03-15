@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 590
+  "PersonId": 877
 }
 ```
 
@@ -98,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 519,
-  "Name": "Christiansen, Streich and Stoltenberg",
-  "PersonId": 830,
-  "Rank": 418,
-  "Tooltip": "fugiat",
+  "AssociateId": 806,
+  "Name": "Medhurst Inc and Sons",
+  "PersonId": 176,
+  "Rank": 3,
+  "Tooltip": "est",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 913,
-  "FullName": "Alta Harber",
-  "FormalName": "Kutch, McKenzie and Jakubowski",
+  "GroupIdx": 88,
+  "FullName": "Nella Bartoletti",
+  "FormalName": "Ondricka-Bechtelar",
   "Deleted": false,
-  "EjUserId": 494,
-  "UserName": "Pfeffer-Kiehn",
+  "EjUserId": 512,
+  "UserName": "Moen LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 681
     }
   }
 }

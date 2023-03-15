@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stracke, Greenfelder and Jacobi",
-    "Description": "Distributed high-level task-force",
-    "Rank": 409,
+    "Name": "Murphy LLC",
+    "Description": "Balanced dedicated structure",
+    "Rank": 199,
     "Restrictions": [
       {
-        "Name": "Braun-Hoeger",
-        "Operator": "harum",
+        "Name": "Willms Group",
+        "Operator": "facere",
         "Values": [
-          "accusantium",
-          "autem"
+          "quaerat",
+          "odit"
         ],
         "DisplayValues": [
-          "cupiditate",
-          "aliquid"
+          "amet",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -98,27 +98,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 888,
+        "InterParenthesis": 223,
         "InterOperator": "And",
-        "UniqueHash": 844
+        "UniqueHash": 180
       }
     ]
   },
   {
-    "Name": "Stracke, Greenfelder and Jacobi",
-    "Description": "Distributed high-level task-force",
-    "Rank": 409,
+    "Name": "Murphy LLC",
+    "Description": "Balanced dedicated structure",
+    "Rank": 199,
     "Restrictions": [
       {
-        "Name": "Braun-Hoeger",
-        "Operator": "harum",
+        "Name": "Willms Group",
+        "Operator": "facere",
         "Values": [
-          "accusantium",
-          "autem"
+          "quaerat",
+          "odit"
         ],
         "DisplayValues": [
-          "cupiditate",
-          "aliquid"
+          "amet",
+          "quia"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -126,9 +126,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 888,
+        "InterParenthesis": 223,
         "InterOperator": "And",
-        "UniqueHash": 844
+        "UniqueHash": 180
       }
     ]
   }
@@ -143,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lowe, Thiel and Kling",
-    "Description": "Open-source tangible monitoring",
-    "Rank": 201,
+    "Name": "Donnelly Inc and Sons",
+    "Description": "Organized coherent analyzer",
+    "Rank": 11,
     "Restrictions": [
       {
-        "Name": "Larson, Gutmann and Haley",
-        "Operator": "aut",
+        "Name": "Torphy-Ledner",
+        "Operator": "et",
         "Values": [
-          "sed",
-          "itaque"
+          "dolore",
+          "at"
         ],
         "DisplayValues": [
-          "ut",
-          "et"
+          "qui",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 540,
+        "InterParenthesis": 335,
         "InterOperator": "And",
-        "UniqueHash": 943
+        "UniqueHash": 977
       }
     ]
   },
   {
-    "Name": "Lowe, Thiel and Kling",
-    "Description": "Open-source tangible monitoring",
-    "Rank": 201,
+    "Name": "Donnelly Inc and Sons",
+    "Description": "Organized coherent analyzer",
+    "Rank": 11,
     "Restrictions": [
       {
-        "Name": "Larson, Gutmann and Haley",
-        "Operator": "aut",
+        "Name": "Torphy-Ledner",
+        "Operator": "et",
         "Values": [
-          "sed",
-          "itaque"
+          "dolore",
+          "at"
         ],
         "DisplayValues": [
-          "ut",
-          "et"
+          "qui",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -192,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 540,
+        "InterParenthesis": 335,
         "InterOperator": "And",
-        "UniqueHash": 943
+        "UniqueHash": 977
       }
     ]
   }

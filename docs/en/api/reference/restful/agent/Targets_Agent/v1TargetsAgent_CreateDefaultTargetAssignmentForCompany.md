@@ -82,24 +82,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 807,
+  "TargetAssignmentInfoId": 491,
   "Values": [
-    410,
-    884
+    241,
+    793
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 412,
-  "DimensionListItemDisplayName": "Hegmann, Crist and Kiehn",
+  "DimensionListItem": 47,
+  "DimensionListItemDisplayName": "Bayer-Witting",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 997
     }
   }
 }

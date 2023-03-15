@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "incidunt",
-    "voluptas"
+    "ex",
+    "facilis"
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2018-07-20T11:22:37.071254+02:00",
-    "IsConflict": false,
-    "Description": "Automated client-server encryption",
-    "DescriptionStyleHint": "Customizable client-server help-desk",
-    "Tooltip": "beatae"
+    "Date": "2017-08-26T12:15:17.8237682+02:00",
+    "IsConflict": true,
+    "Description": "Object-based 3rd generation contingency",
+    "DescriptionStyleHint": "Business-focused systematic structure",
+    "Tooltip": "eveniet"
   },
   {
-    "Date": "2018-07-20T11:22:37.071254+02:00",
-    "IsConflict": false,
-    "Description": "Automated client-server encryption",
-    "DescriptionStyleHint": "Customizable client-server help-desk",
-    "Tooltip": "beatae"
+    "Date": "2017-08-26T12:15:17.8237682+02:00",
+    "IsConflict": true,
+    "Description": "Object-based 3rd generation contingency",
+    "DescriptionStyleHint": "Business-focused systematic structure",
+    "Tooltip": "eveniet"
   }
 ]
 ```

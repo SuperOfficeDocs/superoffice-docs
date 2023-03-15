@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 37,
-  "SourcePersonId": 196,
-  "DestinationContactId": 509,
-  "DestinationPersonId": 130,
-  "RelationId": 472,
-  "Comment": "at",
-  "RelationDefinitionId": 54,
-  "Reversed": 963,
-  "UpdatedDate": "2021-03-22T11:22:38.9614314+01:00",
-  "CreatedDate": "2013-10-19T11:22:38.9614314+02:00",
+  "SourceContactId": 162,
+  "SourcePersonId": 611,
+  "DestinationContactId": 462,
+  "DestinationPersonId": 81,
+  "RelationId": 104,
+  "Comment": "sit",
+  "RelationDefinitionId": 984,
+  "Reversed": 574,
+  "UpdatedDate": "2004-03-07T12:15:19.9807367+01:00",
+  "CreatedDate": "2010-03-04T12:15:19.9807367+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kihn LLC",
-  "SourcePersonName": "Rau-Keeling",
-  "DestinationContactName": "Jacobs, Kemmer and Von",
-  "DestinationPersonName": "Bergnaum Inc and Sons",
-  "ActiveText": "inventore",
-  "PassiveText": "vitae",
+  "SourceContactName": "Mills-Gerlach",
+  "SourcePersonName": "Grady, Nikolaus and Schuster",
+  "DestinationContactName": "Boyer-Swift",
+  "DestinationPersonName": "Windler-Krajcik",
+  "ActiveText": "ut",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 789
     }
   }
 }

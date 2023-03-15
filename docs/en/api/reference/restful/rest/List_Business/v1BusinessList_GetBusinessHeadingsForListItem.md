@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Fisher, Weissnat and Tremblay",
-    "ToolTip": "Dolorum et dignissimos asperiores corrupti aut.",
-    "Deleted": true,
-    "Rank": 39,
-    "Type": "modi",
-    "ColorBlock": 828,
-    "IconHint": "quibusdam",
+    "Id": 7,
+    "Name": "Roberts, Denesik and Armstrong",
+    "ToolTip": "Aut consequuntur nesciunt molestiae veritatis et perferendis.",
+    "Deleted": false,
+    "Rank": 774,
+    "Type": "eum",
+    "ColorBlock": 997,
+    "IconHint": "delectus",
     "Selected": true,
-    "LastChanged": "2016-10-20T11:22:45.5848828+02:00",
+    "LastChanged": "2006-04-11T12:15:27.8776226+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Tremblay, Sipes and Orn",
-        "ToolTip": "Ratione et cumque.",
-        "Deleted": false,
-        "Rank": 864,
-        "Type": "qui",
-        "ColorBlock": 310,
-        "IconHint": "at",
+        "Id": 300,
+        "Name": "Medhurst, Roob and Johnson",
+        "ToolTip": "Et deserunt unde sunt amet et qui ut.",
+        "Deleted": true,
+        "Rank": 885,
+        "Type": "quidem",
+        "ColorBlock": 787,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2004-02-08T11:22:45.5848828+01:00",
+        "LastChanged": "2002-12-25T12:15:27.8776226+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Miss Thaddeus Sporer IV",
+        "ExtraInfo": "ut",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Elwin Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 960
+            "FieldLength": 264
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "quia",
+    "ExtraInfo": "esse",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Glenda Jennyfer Grant MD",
+    "FullName": "Ms. Rafaela Josefa Graham MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldLength": 82
       }
     }
   }

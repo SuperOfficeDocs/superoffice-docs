@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=inventore
-GET /api/v1/Role?$top=56
-GET /api/v1/Role?$skip=925
+GET /api/v1/Role?$entities=nesciunt
+GET /api/v1/Role?$top=733
+GET /api/v1/Role?$skip=9
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=distinctio
+GET /api/v1/Role?$context=reiciendis
 GET /api/v1/Role?$format=JSON
-GET /api/v1/Role?$jsonSafe=False
+GET /api/v1/Role?$jsonSafe=True
 GET /api/v1/Role?$output=Display
 ```
 
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "iusto",
+  "odata.nextLink": "maxime",
   "value": [
     {
-      "PrimaryKey": 406,
-      "EntityName": "person",
-      "personId": 406,
-      "fullName": "Cristian Hermann"
+      "PrimaryKey": 38,
+      "EntityName": "sale",
+      "saleId": 38,
+      "contactId": 8326,
+      "name": "Gislason-Koss"
     },
     {
-      "PrimaryKey": 2167,
-      "EntityName": "person",
-      "personId": 2167,
-      "fullName": "Darien West"
+      "PrimaryKey": 3229,
+      "EntityName": "sale",
+      "saleId": 3229,
+      "contactId": 6956,
+      "name": "Brekke, Kerluke and Schiller"
     }
   ]
 }

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 908,
-    "Name": "Bradtke LLC",
-    "Tooltip": "laudantium",
-    "Rank": 874,
+    "SaleTypeId": 801,
+    "Name": "Williamson-Reynolds",
+    "Tooltip": "eum",
+    "Rank": 257,
     "DurationUnit": "Century",
-    "SaleDuration": 184,
-    "SaleTypeCatId": 220,
+    "SaleDuration": 586,
+    "SaleTypeCatId": 564,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": true,
+    "HasGuide": true,
+    "HasStakeholders": false,
     "IsAutoAdvance": true,
     "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 468,
-    "QuoteLinesTemplate": 732,
-    "ConfirmationLinesTemplate": 290,
+    "DefaultQuoteValidity": 543,
+    "QuoteLinesTemplate": 234,
+    "ConfirmationLinesTemplate": 829,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 679,
-    "MinEarningPercent": 943,
-    "GroupQuoteLinesBy": 318,
-    "SortGroupLinesBy": 977,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 846,
+    "MinEarningPercent": 572,
+    "GroupQuoteLinesBy": 999,
+    "SortGroupLinesBy": 136,
     "Stages": [
       {
-        "Id": 896,
-        "Name": "Aufderhar-Kuvalis",
-        "ToolTip": "Ea similique.",
-        "Deleted": true,
-        "Rank": 711,
-        "Type": "officiis",
-        "ColorBlock": 270,
-        "IconHint": "similique",
+        "Id": 684,
+        "Name": "Ankunding Inc and Sons",
+        "ToolTip": "Consequatur eum qui reprehenderit consequatur voluptatem maxime.",
+        "Deleted": false,
+        "Rank": 674,
+        "Type": "quibusdam",
+        "ColorBlock": 716,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2001-03-11T11:22:38.445931+01:00",
+        "LastChanged": "2000-08-30T12:15:19.2337544+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "est",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Dr. Suzanne Estel Kertzmann",
+        "FullName": "Prof. Jazlyn Romaguera DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldType": "System.String",
+            "FieldLength": 775
           }
         }
       }
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 439
+        "FieldType": "System.Int32",
+        "FieldLength": 760
       }
     }
   }

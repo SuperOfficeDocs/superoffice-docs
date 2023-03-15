@@ -85,7 +85,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 132,
-  "UniqueIdentifier": "aut",
-  "Name": "Hyatt Inc and Sons",
-  "Description": "Re-engineered client-server infrastructure",
-  "IncludeId": "eius",
-  "HierarchyId": 924,
-  "Source": "blanditiis",
-  "Registered": "2007-05-18T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 149,
-  "Updated": "1998-03-30T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 603,
+  "EjscriptId": 780,
+  "UniqueIdentifier": "hic",
+  "Name": "Boyer, Rosenbaum and Keeling",
+  "Description": "Digitized logistical algorithm",
+  "IncludeId": "quaerat",
+  "HierarchyId": 338,
+  "Source": "reiciendis",
+  "Registered": "2020-04-15T12:15:26.8116402+02:00",
+  "RegisteredAssociateId": 871,
+  "Updated": "2001-05-18T12:15:26.8116402+02:00",
+  "UpdatedAssociateId": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldType": "System.String",
+      "FieldLength": 458
     }
   },
   "_Links": {

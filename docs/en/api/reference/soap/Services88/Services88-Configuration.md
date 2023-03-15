@@ -904,6 +904,18 @@ title: Services88.ConfigurationAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetSpfDomain">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetSpfDomainResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetDiaryViewEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1790,6 +1802,23 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetSpfDomainRequest">
+    <wsdl:part name="parameters" element="tns:GetSpfDomain" />
+  </wsdl:message>
+  <wsdl:message name="GetSpfDomainRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetSpfDomainResponse">
+    <wsdl:part name="parameters" element="tns:GetSpfDomainResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSpfDomainResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetDiaryViewEntityRequest">
     <wsdl:part name="parameters" element="tns:GetDiaryViewEntity" />
   </wsdl:message>
@@ -2129,6 +2158,10 @@ title: Services88.ConfigurationAgent WSDL
     <wsdl:operation name="GetCustomerUrl">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetCustomerUrl" name="GetCustomerUrlRequest" message="tns:GetCustomerUrlRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetCustomerUrlResponse" name="GetCustomerUrlResponse" message="tns:GetCustomerUrlResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpfDomain">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSpfDomain" name="GetSpfDomainRequest" message="tns:GetSpfDomainRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSpfDomainResponse" name="GetSpfDomainResponse" message="tns:GetSpfDomainResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetDiaryViewEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetDiaryViewEntity" name="GetDiaryViewEntityRequest" message="tns:GetDiaryViewEntityRequest" />
@@ -2782,6 +2815,22 @@ title: Services88.ConfigurationAgent WSDL
         <soap:header message="tns:GetCustomerUrlResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetCustomerUrlResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetCustomerUrlResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpfDomain">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Configuration/GetSpfDomain" style="document" />
+      <wsdl:input name="GetSpfDomainRequest">
+        <soap:header message="tns:GetSpfDomainRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetSpfDomainRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetSpfDomainRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetSpfDomainResponse">
+        <soap:header message="tns:GetSpfDomainResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetSpfDomainResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetSpfDomainResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetSpfDomainResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

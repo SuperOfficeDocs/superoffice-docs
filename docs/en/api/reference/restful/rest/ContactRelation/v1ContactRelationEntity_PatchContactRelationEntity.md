@@ -124,18 +124,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "laborum",
+    "path": "earum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "laborum",
+    "path": "earum",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 160,
-  "SourcePersonId": 134,
-  "DestinationContactId": 168,
-  "DestinationPersonId": 494,
-  "RelationId": 774,
-  "Comment": "illum",
-  "RelationDefinitionId": 497,
-  "Reversed": 473,
-  "UpdatedDate": "2015-08-02T11:22:44.5694964+02:00",
-  "CreatedDate": "2009-01-31T11:22:44.5694964+01:00",
+  "SourceContactId": 357,
+  "SourcePersonId": 695,
+  "DestinationContactId": 123,
+  "DestinationPersonId": 217,
+  "RelationId": 662,
+  "Comment": "voluptas",
+  "RelationDefinitionId": 182,
+  "Reversed": 888,
+  "UpdatedDate": "2018-03-30T12:15:26.8066377+02:00",
+  "CreatedDate": "2007-04-01T12:15:26.8066377+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Funk, Luettgen and Nicolas",
-  "SourcePersonName": "Powlowski, Wyman and Johnson",
-  "DestinationContactName": "Olson-Klein",
-  "DestinationPersonName": "Torp Group",
-  "ActiveText": "aperiam",
-  "PassiveText": "recusandae",
+  "SourceContactName": "Boyer, Morissette and Stiedemann",
+  "SourcePersonName": "Cummings, Littel and Jerde",
+  "DestinationContactName": "Farrell LLC",
+  "DestinationPersonName": "Ruecker, Vandervort and Renner",
+  "ActiveText": "quos",
+  "PassiveText": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   },
   "_Links": {

@@ -83,19 +83,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 374,
-  "PersonName": "Jenkins-Hamill",
+  "ContactId": 365,
+  "PersonName": "Davis, Fisher and Berge",
   "PhoneNumbers": [
-    "676723",
-    "1043773"
+    "1784991",
+    "747398"
   ],
   "Emails": [
-    "amaya@blicksipes.co.uk",
-    "randall.ruecker@considine.co.uk"
+    "alvena@lockman.us",
+    "ansley@carroll.us"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 361
     }
   }
 }

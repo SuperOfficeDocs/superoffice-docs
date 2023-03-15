@@ -91,11 +91,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 599,
-  "ModuleOwner": "voluptatem",
+  "AssociateId": 663,
+  "ModuleOwner": "incidunt",
   "ModuleLicenseNames": [
-    "Harber, Kiehn and Pacocha",
-    "Schuster Group"
+    "Kassulke Group",
+    "McGlynn Inc and Sons"
   ]
 }
 ```
@@ -108,26 +108,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 14,
-    "Tooltip": "sapiente",
+    "Unrestricted": true,
+    "Total": 989,
+    "Tooltip": "adipisci",
     "CanAssign": false,
-    "Free": 691,
-    "InUse": 791,
-    "IsHidden": false,
+    "Free": 109,
+    "InUse": 989,
+    "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 705,
-    "Name": "Gleichner, Mayert and Johnston",
-    "Description": "Networked secondary standardization",
-    "PrerequisiteModuleName": "Schmidt, Daniel and Bergnaum",
-    "SortOrder": 718,
-    "ExtraFlags": 743,
+    "ModuleLicenseId": 564,
+    "Name": "Moore, Fadel and Lakin",
+    "Description": "Re-engineered tangible local area network",
+    "PrerequisiteModuleName": "Koepp, Paucek and Hills",
+    "SortOrder": 795,
+    "ExtraFlags": 483,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 855
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,28 +113,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 882,
+  "EjMessageId": 319,
   "Ticket": null,
-  "CreatedAt": "1999-01-13T11:22:39.5394229+01:00",
+  "CreatedAt": "1996-06-09T12:15:20.4727299+02:00",
   "CreatedBy": null,
-  "Author": "minus",
+  "Author": "dignissimos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 882,
-  "Body": "repudiandae",
-  "HtmlBody": "a",
-  "EmailHeader": "charity@parkerbauch.com",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "voluptates",
+  "MessageId": "necessitatibus",
+  "TimeSpent": 751,
+  "Body": "similique",
+  "HtmlBody": "sequi",
+  "EmailHeader": "cassie_doyle@gleason.ca",
+  "DebugInfo": "iure",
+  "MailSorter": "eligendi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptas",
+  "SearchTitle": "eligendi",
   "MessageHeaders": [
     {
-      "Id": 776,
-      "Name": "Parisian Group",
-      "Value": "doloribus",
+      "Id": 17,
+      "Name": "Breitenberg Group",
+      "Value": "sed",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -142,47 +142,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 343
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ut",
-  "Sentiment": 67,
-  "SentimentConfidence": 389,
+  "Important": false,
+  "Language": "quaerat",
+  "Sentiment": 457,
+  "SentimentConfidence": 715,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 871,
-      "Name": "Pollich-Leffler",
-      "ContentType": "similique",
-      "AttSize": 641,
+      "AttachmentId": 615,
+      "Name": "Schmidt-Bruen",
+      "ContentType": "aut",
+      "AttSize": 195,
       "InlineImage": true,
-      "ContentId": "tenetur",
+      "ContentId": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 734
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "ex"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "eos"
+    "CustomFields1": "odio",
+    "CustomFields2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 216
     }
   }
 }

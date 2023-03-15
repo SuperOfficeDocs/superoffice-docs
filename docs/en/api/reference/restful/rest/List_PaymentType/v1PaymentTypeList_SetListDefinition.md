@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 874,
-  "Name": "Reichert Group",
-  "Tooltip": "maiores",
+  "Id": 434,
+  "Name": "Schamberger, Hills and Rolfson",
+  "Tooltip": "alias",
   "Deleted": true,
-  "Rank": 249,
-  "IsCustomList": true,
+  "Rank": 245,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "ListType": "est",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "Okuneva LLC",
-  "Tooltip": "beatae",
-  "Deleted": true,
-  "Rank": 309,
+  "Id": 882,
+  "Name": "Parisian, Hammes and Franecki",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 368,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "porro",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sequi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 203
     }
   }
 }

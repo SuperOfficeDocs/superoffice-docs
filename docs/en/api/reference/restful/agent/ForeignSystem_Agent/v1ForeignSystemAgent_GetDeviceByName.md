@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schneider LLC",
-  "DeviceName": "Parker, Dicki and Shanahan"
+  "ApplicationName": "Anderson, Stiedemann and Kuphal",
+  "DeviceName": "Dibbert LLC"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 245,
-  "Name": "Wuckert Group",
-  "CreatedDate": "2017-10-31T11:22:38.3678241+01:00",
-  "UpdatedDate": "2003-09-14T11:22:38.3678241+02:00",
-  "AssociateFullName": "Ida Ratke",
-  "CreatedBy": "fugit",
-  "UpdatedBy": "dolor",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 298,
+  "ForeignDeviceId": 850,
+  "Name": "Roberts-Little",
+  "CreatedDate": "1998-05-20T12:15:19.1517506+02:00",
+  "UpdatedDate": "2014-07-21T12:15:19.1517506+02:00",
+  "AssociateFullName": "Roberto Hamill",
+  "CreatedBy": "eaque",
+  "UpdatedBy": "dolorem",
+  "DeviceIdentifier": "ipsum",
+  "ForeignAppId": 676,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

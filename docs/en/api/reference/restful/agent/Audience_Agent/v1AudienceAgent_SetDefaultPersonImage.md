@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Toy LLC",
+  "LayoutName": "Stiedemann, Kunde and Cole",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

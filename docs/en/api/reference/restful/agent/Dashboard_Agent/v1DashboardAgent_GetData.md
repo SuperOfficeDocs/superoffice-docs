@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 436,
-  "Restrictions": "corrupti"
+  "DashboardTileId": 83,
+  "Restrictions": "dignissimos"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Mohr-Cruickshank",
-        "DisplayTooltip": "ut",
-        "DisplayType": "quae",
+        "DisplayName": "Auer, Hermann and Willms",
+        "DisplayTooltip": "ad",
+        "DisplayType": "animi",
         "CanOrderBy": false,
-        "Name": "Williamson Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "recusandae",
-        "RestrictionListName": "Moore, Mosciski and Schultz",
-        "IsVisible": false,
-        "ExtraInfo": "voluptas",
-        "Width": "et",
-        "IconHint": "error",
-        "HeadingIconHint": "sit"
+        "Name": "Herman Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "molestias",
+        "RestrictionListName": "Adams-Bahringer",
+        "IsVisible": true,
+        "ExtraInfo": "odio",
+        "Width": "eaque",
+        "IconHint": "sapiente",
+        "HeadingIconHint": "ea"
       }
     ],
     "Result": null
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Mohr-Cruickshank",
-        "DisplayTooltip": "ut",
-        "DisplayType": "quae",
+        "DisplayName": "Auer, Hermann and Willms",
+        "DisplayTooltip": "ad",
+        "DisplayType": "animi",
         "CanOrderBy": false,
-        "Name": "Williamson Inc and Sons",
-        "CanRestrictBy": false,
-        "RestrictionType": "recusandae",
-        "RestrictionListName": "Moore, Mosciski and Schultz",
-        "IsVisible": false,
-        "ExtraInfo": "voluptas",
-        "Width": "et",
-        "IconHint": "error",
-        "HeadingIconHint": "sit"
+        "Name": "Herman Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "molestias",
+        "RestrictionListName": "Adams-Bahringer",
+        "IsVisible": true,
+        "ExtraInfo": "odio",
+        "Width": "eaque",
+        "IconHint": "sapiente",
+        "HeadingIconHint": "ea"
       }
     ],
     "Result": null

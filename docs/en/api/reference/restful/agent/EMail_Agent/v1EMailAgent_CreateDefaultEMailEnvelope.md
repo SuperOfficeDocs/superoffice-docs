@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,45 +78,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 273,
-  "MessageId": "ut",
-  "Subject": "sed",
+  "ServerId": 749,
+  "MessageId": "velit",
+  "Subject": "pariatur",
   "From": null,
   "To": [
     {
-      "ContactId": 451,
-      "ContactName": "Schneider LLC",
-      "PersonId": 251,
-      "PersonName": "Medhurst-Sipes",
-      "AssociateId": 52,
-      "Address": "deserunt",
-      "EmailId": 304,
+      "ContactId": 758,
+      "ContactName": "Gislason Inc and Sons",
+      "PersonId": 200,
+      "PersonName": "Jaskolski-Kautzer",
+      "AssociateId": 856,
+      "Address": "ut",
+      "EmailId": 884,
       "DuplicatePersonIds": [
-        660,
-        811
+        572,
+        146
       ],
-      "Name": "Rogahn LLC",
+      "Name": "Mosciski LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 895
+          "FieldType": "System.Int32",
+          "FieldLength": 545
         }
       }
     }
   ],
-  "Sent": "2019-10-19T11:22:38.2272328+02:00",
+  "Sent": "2012-12-03T12:15:18.9757512+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 405,
+  "Size": 619,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 577
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

@@ -68,14 +68,14 @@ OK
 POST /api/v1/Agents/Selection/AddSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 675,
+  "SelectionId": 727,
   "Ids": [
-    115,
-    726
+    449,
+    538
   ]
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-563
+917
 ```

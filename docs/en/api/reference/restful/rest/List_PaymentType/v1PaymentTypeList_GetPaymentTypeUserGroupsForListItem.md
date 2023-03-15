@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Grady, Metz and Conn",
-    "ToolTip": "Nihil aut facere molestias.",
-    "Deleted": false,
-    "Rank": 209,
-    "Type": "a",
-    "ColorBlock": 974,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2016-01-13T11:22:45.9754127+01:00",
+    "Id": 178,
+    "Name": "Kohler, Ryan and Moore",
+    "ToolTip": "Delectus sequi.",
+    "Deleted": true,
+    "Rank": 732,
+    "Type": "neque",
+    "ColorBlock": 787,
+    "IconHint": "consectetur",
+    "Selected": false,
+    "LastChanged": "2000-04-18T12:15:28.2266195+02:00",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Franecki, Fahey and Maggio",
-        "ToolTip": "Non nisi.",
-        "Deleted": false,
-        "Rank": 862,
-        "Type": "laborum",
-        "ColorBlock": 361,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2011-09-02T11:22:45.9754127+02:00",
+        "Id": 465,
+        "Name": "Ritchie Group",
+        "ToolTip": "Delectus nostrum tempore.",
+        "Deleted": true,
+        "Rank": 737,
+        "Type": "quas",
+        "ColorBlock": 849,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2001-08-08T12:15:28.2266195+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Karelle Batz",
+        "ExtraInfo": "ratione",
+        "StyleHint": "saepe",
+        "Hidden": true,
+        "FullName": "Rhea Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 717
+            "FieldLength": 640
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "facere",
+    "ExtraInfo": "molestias",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Dr. Elisa Ralph Braun",
+    "FullName": "Karina Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 594
       }
     }
   }

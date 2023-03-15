@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Balistreri Inc and Sons",
-    "ToolTip": "Possimus voluptatum.",
-    "Deleted": true,
-    "Rank": 653,
-    "Type": "tempora",
-    "ColorBlock": 453,
-    "IconHint": "vero",
+    "Id": 386,
+    "Name": "Goyette, Mohr and Hand",
+    "ToolTip": "Perspiciatis quos non officiis dicta perspiciatis.",
+    "Deleted": false,
+    "Rank": 445,
+    "Type": "corrupti",
+    "ColorBlock": 480,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2013-03-07T11:22:45.8347706+01:00",
+    "LastChanged": "2019-10-24T12:15:27.9436212+02:00",
     "ChildItems": [
       {
-        "Id": 858,
-        "Name": "Steuber-Collins",
-        "ToolTip": "Consequatur aut molestiae.",
-        "Deleted": false,
-        "Rank": 799,
-        "Type": "est",
-        "ColorBlock": 877,
-        "IconHint": "quas",
+        "Id": 773,
+        "Name": "O'Hara-Bashirian",
+        "ToolTip": "Nam illum amet facilis saepe voluptatem assumenda.",
+        "Deleted": true,
+        "Rank": 492,
+        "Type": "consectetur",
+        "ColorBlock": 682,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2012-09-11T11:22:45.8347706+02:00",
+        "LastChanged": "2008-06-05T12:15:27.9436212+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "quos",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Edgar Ruecker"
+        "FullName": "Annamarie Conn"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Rubie Cronin"
+    "ExtraInfo": "asperiores",
+    "StyleHint": "incidunt",
+    "Hidden": true,
+    "FullName": "Izaiah Padberg"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Dickinson-Nolan",
-    "ToolTip": "Corrupti enim qui numquam ut praesentium architecto.",
+    "Id": 548,
+    "Name": "Gibson-Greenfelder",
+    "ToolTip": "Quibusdam et voluptatem.",
     "Deleted": true,
-    "Rank": 81,
-    "Type": "consequuntur",
-    "ColorBlock": 378,
-    "IconHint": "facere",
+    "Rank": 199,
+    "Type": "expedita",
+    "ColorBlock": 903,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2007-07-10T11:22:45.8347706+02:00",
+    "LastChanged": "1998-07-14T12:15:27.9456221+02:00",
     "ChildItems": [
       {
-        "Id": 428,
-        "Name": "Lakin-Ferry",
-        "ToolTip": "Magnam soluta.",
+        "Id": 915,
+        "Name": "Graham Inc and Sons",
+        "ToolTip": "Velit eligendi sit reiciendis non.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "possimus",
-        "ColorBlock": 773,
-        "IconHint": "enim",
+        "Rank": 558,
+        "Type": "ea",
+        "ColorBlock": 209,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2004-11-12T11:22:45.8347706+01:00",
+        "LastChanged": "2017-08-19T12:15:27.9456221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "autem",
+        "ExtraInfo": "officiis",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mr. Gerardo Eduardo Rempel",
+        "FullName": "Sid Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 289
+            "FieldLength": 98
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ea",
+    "ExtraInfo": "aut",
+    "StyleHint": "quod",
     "Hidden": true,
-    "FullName": "Ron Moen",
+    "FullName": "Bill Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 32
       }
     }
   }

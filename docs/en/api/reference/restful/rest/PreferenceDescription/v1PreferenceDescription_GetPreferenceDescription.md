@@ -99,35 +99,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 901,
-  "Section": "alias",
-  "Key": "sed",
-  "Name": "Prosacco-Stehr",
+  "PrefDescId": 348,
+  "Section": "aut",
+  "Key": "rem",
+  "Name": "Kuhn-Wunsch",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organized responsive service-desk",
+  "Description": "Quality-focused impactful superstructure",
   "IsBuiltin": false,
-  "TableName": "West Inc and Sons",
-  "UserDefinedListId": 681,
-  "Rank": 747,
-  "SubGroup": "tempora",
-  "MinLevel": 658,
-  "MaxValue": 465,
-  "MinValue": 473,
-  "RequiredLicense": "ipsa",
+  "TableName": "Farrell-McLaughlin",
+  "UserDefinedListId": 902,
+  "Rank": 645,
+  "SubGroup": "harum",
+  "MinLevel": 711,
+  "MaxValue": 786,
+  "MinValue": 53,
+  "RequiredLicense": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldLength": 157
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

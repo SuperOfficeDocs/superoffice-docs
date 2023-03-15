@@ -1,0 +1,15 @@
+digraph workflow_instance  {
+node [shape = box style="rounded, filled" fontname = "Helvetica" fontsize = "12" ]
+edge [fontname = "Helvetica" fontsize = "9"]
+
+workflow_instance[fillcolor = "cadetblue1"]
+workflow[fillcolor = "azure1"]
+person[fillcolor = "azure1"]
+contact[fillcolor = "azure1"]
+associate[fillcolor = "azure1"]
+workflow_instance -> workflow [headlabel = "workflow_id"]
+workflow_instance -> person [headlabel = "person_id"]
+workflow_instance -> contact [headlabel = "contact_id"]
+workflow_instance -> associate [headlabel = "registered_associate_id"]
+workflow_instance -> associate [label = "updated_associate_id"]
+}

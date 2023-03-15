@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hilll Inc and Sons",
+  "UdListDefinitionName": "Wolff-Wisozk",
   "Item": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 337,
-  "Name": "Baumbach-Bins",
-  "Tooltip": "sunt",
+  "Id": 298,
+  "Name": "Wehner Inc and Sons",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 659,
-  "Rank": 276,
+  "UdListDefinitionId": 121,
+  "Rank": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   }
 }

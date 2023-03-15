@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 4,
-    "Name": "Ziemann, Baumbach and Skiles",
-    "Tooltip": "consequatur",
+    "HeadingId": 409,
+    "Name": "Upton-Williamson",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 668
+    "Rank": 147,
+    "UdListDefinitionId": 828
   },
   {
-    "HeadingId": 4,
-    "Name": "Ziemann, Baumbach and Skiles",
-    "Tooltip": "consequatur",
+    "HeadingId": 409,
+    "Name": "Upton-Williamson",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 668
+    "Rank": 147,
+    "UdListDefinitionId": 828
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 855,
-    "Name": "Towne-White",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 273,
-    "UdListDefinitionId": 21,
+    "HeadingId": 609,
+    "Name": "Herzog-Nader",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 434,
+    "UdListDefinitionId": 657,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 418
+        "FieldType": "System.Int32",
+        "FieldLength": 243
       }
     }
   }

@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 63
+  "ProjectId": 734
 }
 ```
 
@@ -136,53 +136,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 301,
-    "StartDate": "2007-11-29T11:22:36.946279+01:00",
-    "EndDate": "2005-09-13T11:22:36.946279+02:00",
+    "AppointmentId": 124,
+    "StartDate": "2014-01-22T12:15:17.6647705+01:00",
+    "EndDate": "2008-05-08T12:15:17.6647705+02:00",
     "Type": "BookingForChecklist",
-    "Task": "cum",
-    "AssociateFullName": "Miss Gilda Kohler Jr.",
-    "ContactName": "Murazik-Douglas",
-    "Description": "Horizontal 24 hour alliance",
-    "PersonFullName": "Neil Klein III",
-    "PersonId": 9,
-    "ContactId": 324,
-    "ProjectId": 120,
-    "ProjectName": "Monahan-Pfannerstill",
-    "IsPublished": false,
-    "AssociateId": 848,
-    "ColorIndex": 581,
-    "IsFree": false,
+    "Task": "eos",
+    "AssociateFullName": "Ottilie Waelchi",
+    "ContactName": "Weissnat, Marquardt and Jaskolski",
+    "Description": "Distributed local extranet",
+    "PersonFullName": "Miss Issac Dayna Johnston Jr.",
+    "PersonId": 238,
+    "ContactId": 357,
+    "ProjectId": 420,
+    "ProjectName": "Bruen-Kling",
+    "IsPublished": true,
+    "AssociateId": 146,
+    "ColorIndex": 675,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 804,
-    "PriorityName": "Farrell Inc and Sons",
+    "PriorityId": 971,
+    "PriorityName": "Nicolas Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "1997-09-09T11:22:36.946279+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2014-06-03T12:15:17.6647705+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-08-17T11:22:36.946279+02:00",
-    "RecurringEndDate": "2014-01-09T11:22:36.946279+01:00",
-    "MotherId": 157,
-    "AssignedBy": 288,
-    "AssignedByFullName": "Prof. Raleigh Ivah Jenkins",
+    "RecurringStartDate": "2018-02-20T12:15:17.6647705+01:00",
+    "RecurringEndDate": "2001-05-26T12:15:17.6647705+02:00",
+    "MotherId": 584,
+    "AssignedBy": 550,
+    "AssignedByFullName": "Dr. Keeley Nienow",
     "RejectReason": "",
-    "Location": "iusto",
-    "AlarmLeadTime": "eligendi",
-    "SaleId": 181,
-    "SaleName": "Yundt Group",
-    "AssociateName": "Stehr LLC",
-    "CreatedDate": "2001-09-05T11:22:36.946279+02:00",
-    "CreatedBy": "dolore",
-    "CreatedByFullName": "Rey Robel",
-    "CreatedByAssociateId": 791,
+    "Location": "et",
+    "AlarmLeadTime": "qui",
+    "SaleId": 849,
+    "SaleName": "Nikolaus, Mayer and Gorczany",
+    "AssociateName": "Kohler-Collier",
+    "CreatedDate": "2020-01-12T12:15:17.6657739+01:00",
+    "CreatedBy": "provident",
+    "CreatedByFullName": "Cierra Grimes",
+    "CreatedByAssociateId": 273,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 193
       }
     }
   }

@@ -98,10 +98,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kassulke Inc and Sons",
+  "Name": "Bednar, Lemke and Sipes",
   "AssociateIds": [
-    808,
-    954
+    402,
+    944
   ]
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 855,
-    "Name": "Champlin LLC",
-    "AssociateId": 146,
-    "DetailsTable": 558,
-    "DetailsRecord": 53,
+    "Id": 253,
+    "Name": "Koss-Stamm",
+    "AssociateId": 834,
+    "DetailsTable": 408,
+    "DetailsRecord": 315,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "doloremque",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "consequatur",
+      "ParameterObject2": "quo"
     },
-    "LastStarted": "2018-02-12T11:22:37.4461725+01:00",
-    "Created": "1999-11-11T11:22:37.4461725+01:00",
-    "StartCount": 592,
-    "DatabaseSerialNumber": "1267446",
-    "Context": "temporibus",
-    "Result": "nemo",
+    "LastStarted": "2018-03-24T12:15:18.2087633+01:00",
+    "Created": "1998-02-03T12:15:18.2087633+01:00",
+    "StartCount": 820,
+    "DatabaseSerialNumber": "1247790",
+    "Context": "sed",
+    "Result": "quia",
     "State": "All",
-    "Description": "Advanced web-enabled strategy",
-    "Response": "iste",
-    "Request": "qui",
-    "ProgressDescription": "Open-architected non-volatile hub",
-    "ProgressPercent": 510,
-    "FileName": "Kemmer LLC",
+    "Description": "Implemented human-resource emulation",
+    "Response": "dicta",
+    "Request": "eos",
+    "ProgressDescription": "Customizable hybrid migration",
+    "ProgressPercent": 764,
+    "FileName": "Runte-Ullrich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldType": "System.Int32",
+        "FieldLength": 365
       }
     }
   }

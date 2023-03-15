@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Connell, Gislason and Kohler",
-  "DeviceName": "Stroman-Becker",
-  "DeviceIdentifier": "excepturi"
+  "ApplicationName": "Pfeffer, Bartell and Pfeffer",
+  "DeviceName": "Veum, Nicolas and Reichel",
+  "DeviceIdentifier": "deserunt"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 551,
-  "Name": "Heathcote, Sawayn and Bechtelar",
-  "CreatedDate": "2005-06-20T11:22:38.3834434+02:00",
-  "UpdatedDate": "2017-03-26T11:22:38.3834434+02:00",
-  "AssociateFullName": "Lexus Richmond Spencer III",
-  "CreatedBy": "eum",
-  "UpdatedBy": "voluptates",
-  "DeviceIdentifier": "mollitia",
-  "ForeignAppId": 117,
+  "ForeignDeviceId": 977,
+  "Name": "Monahan LLC",
+  "CreatedDate": "2014-07-25T12:15:19.1537547+02:00",
+  "UpdatedDate": "2011-04-17T12:15:19.1537547+02:00",
+  "AssociateFullName": "Mrs. Laisha Ike Wiegand DVM",
+  "CreatedBy": "non",
+  "UpdatedBy": "possimus",
+  "DeviceIdentifier": "animi",
+  "ForeignAppId": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 180
     }
   }
 }

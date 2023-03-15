@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Raynor, Ziemann and Schmeler",
-    "ToolTip": "Vitae quis dicta reprehenderit dolorem porro.",
-    "Deleted": false,
-    "Rank": 844,
-    "Type": "doloremque",
-    "ColorBlock": 242,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2013-01-29T11:22:46.0847653+01:00",
+    "Id": 950,
+    "Name": "Satterfield LLC",
+    "ToolTip": "Error omnis.",
+    "Deleted": true,
+    "Rank": 497,
+    "Type": "minus",
+    "ColorBlock": 361,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "1996-12-31T12:15:28.3476152+01:00",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Grady, Stehr and Turner",
-        "ToolTip": "Omnis non et ex.",
+        "Id": 9,
+        "Name": "Boyer LLC",
+        "ToolTip": "Mollitia earum et.",
         "Deleted": true,
-        "Rank": 53,
-        "Type": "vitae",
-        "ColorBlock": 837,
-        "IconHint": "ut",
+        "Rank": 705,
+        "Type": "molestias",
+        "ColorBlock": 412,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2005-02-08T11:22:46.0847653+01:00",
+        "LastChanged": "2016-07-26T12:15:28.3476152+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Nicholas Hermann",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Miss Oswald Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldLength": 499
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Miss Emerson Jaiden Pollich",
+    "FullName": "Ms. Buck Stokes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 735
       }
     }
   }

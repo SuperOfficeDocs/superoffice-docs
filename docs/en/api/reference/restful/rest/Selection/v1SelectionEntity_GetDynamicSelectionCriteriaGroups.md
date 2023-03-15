@@ -72,20 +72,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Erdman-Fahey",
-    "Description": "Ergonomic dynamic implementation",
-    "Rank": 765,
+    "Name": "Leannon Group",
+    "Description": "Reduced mobile utilisation",
+    "Rank": 303,
     "Restrictions": [
       {
-        "Name": "Hodkiewicz Inc and Sons",
-        "Operator": "at",
+        "Name": "Kiehn-Williamson",
+        "Operator": "corporis",
         "Values": [
-          "et",
-          "consequatur"
+          "cum",
+          "ea"
         ],
         "DisplayValues": [
-          "nihil",
-          "soluta"
+          "quaerat",
+          "vero"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -93,27 +93,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 398,
+        "InterParenthesis": 720,
         "InterOperator": "And",
-        "UniqueHash": 313
+        "UniqueHash": 464
       }
     ]
   },
   {
-    "Name": "Erdman-Fahey",
-    "Description": "Ergonomic dynamic implementation",
-    "Rank": 765,
+    "Name": "Leannon Group",
+    "Description": "Reduced mobile utilisation",
+    "Rank": 303,
     "Restrictions": [
       {
-        "Name": "Hodkiewicz Inc and Sons",
-        "Operator": "at",
+        "Name": "Kiehn-Williamson",
+        "Operator": "corporis",
         "Values": [
-          "et",
-          "consequatur"
+          "cum",
+          "ea"
         ],
         "DisplayValues": [
-          "nihil",
-          "soluta"
+          "quaerat",
+          "vero"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -121,9 +121,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 398,
+        "InterParenthesis": 720,
         "InterOperator": "And",
-        "UniqueHash": 313
+        "UniqueHash": 464
       }
     ]
   }

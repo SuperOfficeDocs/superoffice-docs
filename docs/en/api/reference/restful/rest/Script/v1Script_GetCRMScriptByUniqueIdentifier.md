@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "impedit",
-  "Name": "Schmitt-Rice",
-  "Description": "Integrated modular definition",
-  "IncludeId": "et",
-  "Source": "veniam",
-  "Registered": "2018-02-17T11:22:45.4754809+01:00",
-  "RegisteredBy": "cumque",
-  "Updated": "2000-10-03T11:22:45.4754809+02:00",
-  "UpdatedBy": "sunt",
-  "Path": "eius",
+  "UniqueIdentifier": "omnis",
+  "Name": "Buckridge Group",
+  "Description": "Function-based 3rd generation emulation",
+  "IncludeId": "consequuntur",
+  "Source": "provident",
+  "Registered": "2001-10-02T12:15:27.719625+02:00",
+  "RegisteredBy": "doloremque",
+  "Updated": "2020-08-18T12:15:27.719625+02:00",
+  "UpdatedBy": "laudantium",
+  "Path": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 33
     }
   }
 }

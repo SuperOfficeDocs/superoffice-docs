@@ -142,60 +142,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based executive installation",
-  "Postit": "nesciunt",
+  "Description": "Optional grid-enabled frame",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 665,
-  "IncludePerson": 530,
-  "MemberCount": 56,
-  "Name": "Marks, Kreiger and Gottlieb",
-  "PostitTextId": 323,
-  "CreatedDate": "2021-09-11T11:22:39.2582416+02:00",
-  "SelectionId": 578,
-  "SoundEx": "qui",
-  "Source": 953,
-  "TextId": 807,
-  "UpdatedDate": "2015-11-17T11:22:39.2582416+01:00",
-  "UpdatedCount": 303,
-  "Visibility": 859,
+  "GroupIdx": 131,
+  "IncludePerson": 220,
+  "MemberCount": 655,
+  "Name": "Johnston-Pollich",
+  "PostitTextId": 515,
+  "CreatedDate": "2004-09-09T12:15:20.1237355+02:00",
+  "SelectionId": 826,
+  "SoundEx": "doloremque",
+  "Source": 611,
+  "TextId": 552,
+  "UpdatedDate": "2016-06-21T12:15:20.1237355+02:00",
+  "UpdatedCount": 786,
+  "Visibility": 448,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 423,
-  "TargetTableName": "Stroman, Schroeder and Barton",
+  "CompanyUnique": false,
+  "TargetTableNumber": 86,
+  "TargetTableName": "Rowe-Pagac",
   "Completed": false,
-  "LeftSelectionId": 657,
-  "RightSelectionId": 787,
+  "LeftSelectionId": 69,
+  "RightSelectionId": 368,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hansen-Dach",
-  "ShadowProviderName": "Turner, Berge and Zieme",
-  "ChartKey": "perferendis",
-  "LastLoaded": "2010-01-13T11:22:39.2582416+01:00",
-  "LastLoadedBy": 372,
+  "MainProviderName": "Morar, Jast and Hilpert",
+  "ShadowProviderName": "Satterfield, Mertz and Harvey",
+  "ChartKey": "expedita",
+  "LastLoaded": "1995-11-13T12:15:20.1247378+01:00",
+  "LastLoadedBy": 825,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-16T11:22:39.2582416+02:00",
-  "LastMembershipChangeBy": 549,
+  "LastMembershipChange": "2011-01-13T12:15:20.1247378+01:00",
+  "LastMembershipChangeBy": 367,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "a",
-  "MailingsProviderName": "Cremin-O'Hara",
-  "DashboardTileDefinitionId": 167,
+  "MainHeading": "a",
+  "MemberTabHeading": "debitis",
+  "MailingsProviderName": "Hirthe-Grant",
+  "DashboardTileDefinitionId": 505,
   "VisibleFor": [
     {
-      "VisibleId": 219,
+      "VisibleId": 950,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "natus"
     },
     {
-      "VisibleId": 219,
+      "VisibleId": 950,
       "Visibility": "All",
-      "DisplayValue": "est"
+      "DisplayValue": "natus"
     }
   ]
 }
@@ -208,70 +208,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended cohesive groupware",
-  "Postit": "sapiente",
+  "Description": "Profound dedicated ability",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 682,
-  "IncludePerson": 144,
-  "MemberCount": 267,
-  "Name": "Braun-Kovacek",
-  "PostitTextId": 141,
-  "CreatedDate": "2004-01-11T11:22:39.2738622+01:00",
-  "SelectionId": 802,
-  "SoundEx": "dolorem",
-  "Source": 902,
-  "TextId": 288,
-  "UpdatedDate": "2003-09-23T11:22:39.2738622+02:00",
-  "UpdatedCount": 807,
-  "Visibility": 270,
+  "GroupIdx": 721,
+  "IncludePerson": 896,
+  "MemberCount": 271,
+  "Name": "Fritsch-Mohr",
+  "PostitTextId": 728,
+  "CreatedDate": "1996-03-20T12:15:20.1287349+01:00",
+  "SelectionId": 63,
+  "SoundEx": "est",
+  "Source": 451,
+  "TextId": 79,
+  "UpdatedDate": "2006-11-11T12:15:20.1287349+01:00",
+  "UpdatedCount": 11,
+  "Visibility": 562,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 806,
-  "TargetTableName": "Kerluke, Dickens and Borer",
+  "CompanyUnique": true,
+  "TargetTableNumber": 970,
+  "TargetTableName": "Rosenbaum LLC",
   "Completed": false,
-  "LeftSelectionId": 256,
-  "RightSelectionId": 98,
+  "LeftSelectionId": 427,
+  "RightSelectionId": 381,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Smitham, Wilderman and Treutel",
-  "ShadowProviderName": "Paucek-Cormier",
-  "ChartKey": "molestiae",
-  "LastLoaded": "2019-10-29T11:22:39.2738622+01:00",
-  "LastLoadedBy": 445,
+  "MainProviderName": "Bartoletti, Balistreri and Kiehn",
+  "ShadowProviderName": "Hackett Inc and Sons",
+  "ChartKey": "sit",
+  "LastLoaded": "2016-01-06T12:15:20.1297424+01:00",
+  "LastLoadedBy": 289,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-04-26T11:22:39.2738622+02:00",
-  "LastMembershipChangeBy": 405,
+  "LastMembershipChange": "2022-02-17T12:15:20.1297424+01:00",
+  "LastMembershipChangeBy": 810,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "assumenda",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Walker LLC",
-  "DashboardTileDefinitionId": 639,
+  "MainHeading": "atque",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Turner-Bogisich",
+  "DashboardTileDefinitionId": 31,
   "VisibleFor": [
     {
-      "VisibleId": 128,
+      "VisibleId": 181,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 825
         }
       }
     },
     {
-      "VisibleId": 128,
+      "VisibleId": 181,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 825
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 686
     }
   }
 }

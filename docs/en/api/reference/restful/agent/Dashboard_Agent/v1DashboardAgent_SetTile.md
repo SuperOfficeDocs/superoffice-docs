@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 890,
-  "TileId": 193,
-  "Position": 756
+  "DashboardId": 43,
+  "TileId": 627,
+  "Position": 950
 }
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 917,
-  "AssociateId": 144,
-  "Caption": "corporis",
+  "DashboardId": 998,
+  "AssociateId": 860,
+  "Caption": "hic",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 753,
-      "Caption": "consequuntur",
-      "Description": "Multi-layered attitude-oriented open architecture",
-      "ChartName": "Will-Kessler",
-      "ChartId": "voluptatum",
+      "DashboardTileId": 702,
+      "Caption": "et",
+      "Description": "Mandatory actuating implementation",
+      "ChartName": "McDermott LLC",
+      "ChartId": "qui",
       "IsDefault": true,
-      "AssociateId": 358,
-      "GroupId": 992,
-      "SelectionId": 126,
-      "Config": "est",
+      "AssociateId": 515,
+      "GroupId": 939,
+      "SelectionId": 156,
+      "Config": "hic",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 132
         }
       }
     }
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldType": "System.String",
+      "FieldLength": 201
     }
   }
 }

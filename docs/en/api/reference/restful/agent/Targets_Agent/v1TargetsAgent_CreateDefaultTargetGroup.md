@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,30 +71,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 491,
-  "Year": 873,
+  "TargetGroupId": 651,
+  "Year": 269,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 494,
+      "TargetAssignmentInfoId": 481,
       "Values": [
-        619,
-        755
+        934,
+        331
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 434,
-      "DimensionListItemDisplayName": "Fadel LLC",
+      "DimensionListItem": 41,
+      "DimensionListItemDisplayName": "Williamson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 563
+          "FieldLength": 299
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 477
     }
   }
 }

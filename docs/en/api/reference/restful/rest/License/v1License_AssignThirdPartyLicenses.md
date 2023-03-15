@@ -77,7 +77,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 201,
-    "Tooltip": "ea",
-    "CanAssign": true,
-    "Free": 711,
-    "InUse": 614,
-    "IsHidden": false,
+    "Total": 400,
+    "Tooltip": "modi",
+    "CanAssign": false,
+    "Free": 349,
+    "InUse": 671,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 32,
-    "Name": "Dibbert-Sipes",
-    "Description": "Enhanced assymetric encryption",
-    "PrerequisiteModuleName": "Fahey Inc and Sons",
-    "SortOrder": 103,
-    "ExtraFlags": 90,
+    "ModuleLicenseId": 875,
+    "Name": "Waters-Schmidt",
+    "Description": "Multi-layered hybrid benchmark",
+    "PrerequisiteModuleName": "Dickinson-Treutel",
+    "SortOrder": 173,
+    "ExtraFlags": 194,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 77
       }
     }
   }

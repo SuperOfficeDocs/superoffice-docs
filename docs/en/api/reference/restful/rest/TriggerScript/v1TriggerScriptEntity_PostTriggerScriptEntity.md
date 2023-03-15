@@ -96,20 +96,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 431,
-  "Name": "Abernathy-Medhurst",
+  "ScreenChooserId": 912,
+  "Name": "Jacobson Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "totam",
-  "Source": "assumenda",
-  "Registered": "2015-12-13T11:22:45.3661887+01:00",
-  "RegisteredAssociateId": 676,
-  "Updated": "2008-07-18T11:22:45.3661887+02:00",
-  "UpdatedAssociateId": 52
+  "Enabled": false,
+  "UniqueIdentifier": "facere",
+  "Source": "et",
+  "Registered": "2017-09-16T12:15:27.5866312+02:00",
+  "RegisteredAssociateId": 515,
+  "Updated": "2007-03-03T12:15:27.5866312+01:00",
+  "UpdatedAssociateId": 761
 }
 ```
 
@@ -120,22 +120,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 536,
-  "Name": "Koss-Labadie",
+  "ScreenChooserId": 40,
+  "Name": "McKenzie-Reichel",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "velit",
-  "Source": "perspiciatis",
-  "Registered": "2020-04-21T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 754,
-  "Updated": "2012-12-27T11:22:45.3661887+01:00",
-  "UpdatedAssociateId": 889,
+  "UniqueIdentifier": "nisi",
+  "Source": "aperiam",
+  "Registered": "2002-11-12T12:15:27.5876273+01:00",
+  "RegisteredAssociateId": 99,
+  "Updated": "2007-11-18T12:15:27.5876273+01:00",
+  "UpdatedAssociateId": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 980
     }
   },
   "_Links": {

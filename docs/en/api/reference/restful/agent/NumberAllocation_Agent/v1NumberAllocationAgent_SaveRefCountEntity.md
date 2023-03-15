@@ -86,33 +86,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 509,
-  "Field": "maxime",
-  "RecordId": 941,
+  "RefCountsId": 882,
+  "Field": "aut",
+  "RecordId": 496,
   "SuggestedRecords": [
     {
-      "Id": 356,
-      "Name": "Kuhlman, Sauer and Marvin",
-      "ToolTip": "Ut voluptatum omnis neque iste sit reprehenderit earum.",
-      "Deleted": true,
-      "Rank": 258,
-      "Type": "consequatur",
+      "Id": 959,
+      "Name": "Blanda-Schaefer",
+      "ToolTip": "Officia et ratione eligendi quaerat.",
+      "Deleted": false,
+      "Rank": 745,
+      "Type": "officia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "harum",
-      "ColorBlock": 921,
-      "ExtraInfo": "dolore",
-      "StyleHint": "rem",
-      "FullName": "Linda Goldner"
+      "IconHint": "sapiente",
+      "ColorBlock": 223,
+      "ExtraInfo": "assumenda",
+      "StyleHint": "vero",
+      "FullName": "Mrs. Royal Flatley V"
     }
   ],
-  "CurrentValue": 791,
-  "TravelPrefix": 387,
-  "SatPrefix": 105,
-  "Allocate": false,
-  "Unique": false,
+  "CurrentValue": 995,
+  "TravelPrefix": 992,
+  "SatPrefix": 722,
+  "Allocate": true,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": true
 }
@@ -125,40 +125,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 916,
-  "Field": "modi",
-  "RecordId": 825,
+  "RefCountsId": 672,
+  "Field": "mollitia",
+  "RecordId": 884,
   "SuggestedRecords": [
     {
-      "Id": 746,
-      "Name": "Steuber, O'Kon and Lindgren",
-      "ToolTip": "Aut dolorem aut minus numquam.",
+      "Id": 537,
+      "Name": "Hammes-Cremin",
+      "ToolTip": "Dolor et dolorum laudantium incidunt non.",
       "Deleted": false,
-      "Rank": 31,
-      "Type": "rem",
+      "Rank": 835,
+      "Type": "blanditiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reiciendis",
-      "ColorBlock": 824,
-      "ExtraInfo": "laudantium",
-      "StyleHint": "fugit",
-      "FullName": "Lavonne Greenholt",
+      "IconHint": "porro",
+      "ColorBlock": 788,
+      "ExtraInfo": "et",
+      "StyleHint": "enim",
+      "FullName": "Mrs. Ila Kub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 468
+          "FieldType": "System.String",
+          "FieldLength": 507
         }
       }
     }
   ],
-  "CurrentValue": 615,
-  "TravelPrefix": 824,
-  "SatPrefix": 615,
-  "Allocate": true,
+  "CurrentValue": 284,
+  "TravelPrefix": 494,
+  "SatPrefix": 906,
+  "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   }
 }

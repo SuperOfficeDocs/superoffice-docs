@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 14
+  "QuoteVersionId": 332
 }
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 346,
+    "DocumentId": 167,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 539
       }
     }
   },
   {
-    "DocumentId": 346,
+    "DocumentId": 167,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 539
       }
     }
   }

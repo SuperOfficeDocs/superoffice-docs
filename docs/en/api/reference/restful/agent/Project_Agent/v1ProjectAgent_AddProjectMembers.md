@@ -64,34 +64,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 259,
+  "ProjectEntityId": 65,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 314,
-      "ContactId": 161,
-      "ProjectId": 945,
-      "ContactName": "Hudson Group",
+      "ProjectmemberId": 788,
+      "ContactId": 875,
+      "ProjectId": 349,
+      "ContactName": "Hoppe Group",
       "ContactDepartment": "",
-      "ProjectName": "Gutkowski LLC",
-      "EmailId": 735,
-      "EmailAddress": "briana.hartmann@kub.name",
-      "CountryId": 440,
-      "Firstname": "Kelsi",
-      "MiddleName": "Murphy-King",
-      "Lastname": "Roob",
-      "PersonId": 866,
-      "Mrmrs": "possimus",
-      "ProjectMemberTypeName": "Brown, Rolfson and Roberts",
-      "Phone": "1-190-047-0197",
-      "PhoneId": 159,
-      "ProjectMemberTypeId": 363,
-      "EmailAddressName": "coralie@king.info",
-      "Comment": "sit",
-      "FullName": "Mr. Sabryna Haley III"
+      "ProjectName": "Bashirian LLC",
+      "EmailId": 922,
+      "EmailAddress": "kyla@kuphal.info",
+      "CountryId": 481,
+      "Firstname": "Pinkie",
+      "MiddleName": "Waters-Harber",
+      "Lastname": "Leannon",
+      "PersonId": 619,
+      "Mrmrs": "fugiat",
+      "ProjectMemberTypeName": "Bailey-Borer",
+      "Phone": "414-148-8407 x25888",
+      "PhoneId": 277,
+      "ProjectMemberTypeId": 496,
+      "EmailAddressName": "ardith@runte.us",
+      "Comment": "officia",
+      "FullName": "Donna Schmitt"
     }
   ]
 }

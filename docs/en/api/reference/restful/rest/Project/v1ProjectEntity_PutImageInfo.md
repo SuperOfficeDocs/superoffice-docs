@@ -30,7 +30,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=844
+PUT /api/v1/Project/{id}/ImageInfo?projectId=138
 ```
 
 
@@ -103,23 +103,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 897,
-  "BlobSize": 522,
-  "Description": "Team-oriented dynamic toolset",
-  "ExtraInfo": "molestias",
-  "IsEncrypted": false,
+  "BlobId": 131,
+  "BlobSize": 205,
+  "Description": "Operative exuding artificial intelligence",
+  "ExtraInfo": "temporibus",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quod",
-  "OriginalSize": 440,
-  "CreatedDate": "1998-08-31T11:22:45.0537619+02:00",
-  "UpdatedDate": "2014-09-13T11:22:45.0537619+02:00",
+  "MimeType": "officia",
+  "OriginalSize": 737,
+  "CreatedDate": "2012-02-02T12:15:27.1956294+01:00",
+  "UpdatedDate": "2020-10-16T12:15:27.1956294+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laborum"
+  "ConceptualType": "accusantium"
 }
 ```
 
@@ -130,25 +130,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 356,
-  "BlobSize": 353,
-  "Description": "Horizontal tangible artificial intelligence",
-  "ExtraInfo": "qui",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "perferendis",
-  "OriginalSize": 405,
-  "CreatedDate": "2000-04-14T11:22:45.0693694+02:00",
-  "UpdatedDate": "1997-11-17T11:22:45.0693694+01:00",
+  "BlobId": 534,
+  "BlobSize": 232,
+  "Description": "Enterprise-wide neutral internet solution",
+  "ExtraInfo": "ut",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 147,
+  "CreatedDate": "2012-03-12T12:15:27.197632+01:00",
+  "UpdatedDate": "1998-12-22T12:15:27.197632+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "molestiae",
+  "ConceptualType": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 661
     }
   }
 }

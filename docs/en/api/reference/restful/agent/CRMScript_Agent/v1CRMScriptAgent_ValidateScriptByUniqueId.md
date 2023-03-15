@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CRMScript/ValidateScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "dolores"
+  "CRMScriptUniqueId": "numquam"
 }
 ```
 
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "mollitia",
+  "ErrorMessage": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 124
     }
   }
 }

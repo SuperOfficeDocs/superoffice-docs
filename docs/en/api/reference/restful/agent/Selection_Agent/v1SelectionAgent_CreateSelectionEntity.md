@@ -116,7 +116,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Brakus Group"
+  "TargetTableName": "Schiller, Kris and Reilly"
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned fault-tolerant moratorium",
-  "Postit": "eaque",
+  "Description": "User-centric grid-enabled intranet",
+  "Postit": "accusantium",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 104,
-  "IncludePerson": 301,
-  "MemberCount": 198,
-  "Name": "Sawayn-Haley",
-  "PostitTextId": 849,
-  "CreatedDate": "2016-08-09T11:22:39.2738622+02:00",
-  "SelectionId": 418,
-  "SoundEx": "omnis",
-  "Source": 128,
-  "TextId": 259,
-  "UpdatedDate": "2017-11-24T11:22:39.2738622+01:00",
-  "UpdatedCount": 914,
-  "Visibility": 280,
+  "GroupIdx": 818,
+  "IncludePerson": 706,
+  "MemberCount": 405,
+  "Name": "Rice-Crona",
+  "PostitTextId": 216,
+  "CreatedDate": "2009-02-07T12:15:20.1417348+01:00",
+  "SelectionId": 786,
+  "SoundEx": "nihil",
+  "Source": 688,
+  "TextId": 477,
+  "UpdatedDate": "2011-10-22T12:15:20.1417348+02:00",
+  "UpdatedCount": 224,
+  "Visibility": 705,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 133,
-  "TargetTableName": "Jakubowski Inc and Sons",
+  "TargetTableNumber": 930,
+  "TargetTableName": "Murazik Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 916,
-  "RightSelectionId": 328,
+  "LeftSelectionId": 392,
+  "RightSelectionId": 525,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Auer-Koch",
-  "ShadowProviderName": "Pacocha, Lakin and Treutel",
-  "ChartKey": "dolor",
-  "LastLoaded": "2022-12-04T11:22:39.2738622+01:00",
-  "LastLoadedBy": 345,
+  "MainProviderName": "Ebert Inc and Sons",
+  "ShadowProviderName": "Lueilwitz, Mueller and Cummings",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2023-02-05T12:15:20.1417348+01:00",
+  "LastLoadedBy": 592,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-10-12T11:22:39.2738622+02:00",
-  "LastMembershipChangeBy": 203,
+  "LastMembershipChange": "1999-05-22T12:15:20.1417348+02:00",
+  "LastMembershipChangeBy": 362,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "adipisci",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Cassin, Torphy and Abshire",
-  "DashboardTileDefinitionId": 589,
+  "MainHeading": "quia",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Goyette, Dietrich and Beer",
+  "DashboardTileDefinitionId": 235,
   "VisibleFor": [
     {
-      "VisibleId": 992,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     },
     {
-      "VisibleId": 992,
+      "VisibleId": 510,
       "Visibility": "All",
-      "DisplayValue": "cupiditate",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 590
     }
   }
 }

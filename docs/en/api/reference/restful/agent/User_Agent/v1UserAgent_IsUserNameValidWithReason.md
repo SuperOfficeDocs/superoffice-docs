@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 225,
+  "AssociateId": 781,
   "Type": "AnonymousAssociate",
-  "PersonId": 316,
-  "UserName": "Little-Kreiger"
+  "PersonId": 804,
+  "UserName": "Hoppe, Larkin and Rolfson"
 }
 ```
 
@@ -96,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "revolutionize granular web-readiness",
   "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldLength": 481
     }
   }
 }

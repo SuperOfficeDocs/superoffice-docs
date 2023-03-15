@@ -88,8 +88,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 364,
-  "ConnectorName": "Reynolds Inc and Sons"
+  "ConnectionId": 804,
+  "ConnectorName": "Carter, Gerhold and Olson"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "in",
-    "Rank": 62,
-    "DisplayName": "Corkery Inc and Sons",
-    "DisplayDescription": "Robust upward-trending leverage",
+    "FieldKey": "placeat",
+    "Rank": 532,
+    "DisplayName": "Heller-Shanahan",
+    "DisplayDescription": "Synergistic bifurcated support",
     "FieldType": "Checkbox",
-    "ListName": "Robel-Boyle",
-    "DefaultValue": "deleniti",
-    "MaxLength": 811,
+    "ListName": "Robel, Streich and Doyle",
+    "DefaultValue": "voluptas",
+    "MaxLength": 496,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldType": "System.Int32",
+        "FieldLength": 833
       }
     }
   }

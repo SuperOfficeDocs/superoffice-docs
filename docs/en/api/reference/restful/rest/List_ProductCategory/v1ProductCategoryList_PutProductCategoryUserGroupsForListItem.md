@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Becker-Beier",
-    "ToolTip": "Deleniti reiciendis voluptatem.",
+    "Id": 681,
+    "Name": "Jast, Langworth and Kris",
+    "ToolTip": "Molestiae quaerat minima impedit.",
     "Deleted": false,
-    "Rank": 678,
-    "Type": "quos",
-    "ColorBlock": 95,
-    "IconHint": "voluptatem",
+    "Rank": 404,
+    "Type": "autem",
+    "ColorBlock": 379,
+    "IconHint": "odit",
     "Selected": false,
-    "LastChanged": "2014-01-18T11:22:46.0222797+01:00",
+    "LastChanged": "1996-02-16T12:15:28.2826163+01:00",
     "ChildItems": [
       {
-        "Id": 314,
-        "Name": "McDermott LLC",
-        "ToolTip": "Explicabo ut sapiente.",
-        "Deleted": true,
-        "Rank": 86,
-        "Type": "ipsa",
-        "ColorBlock": 15,
-        "IconHint": "voluptatem",
+        "Id": 270,
+        "Name": "Carroll-Greenholt",
+        "ToolTip": "Deserunt voluptates eius non voluptate.",
+        "Deleted": false,
+        "Rank": 107,
+        "Type": "pariatur",
+        "ColorBlock": 128,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "1999-04-16T11:22:46.0222797+02:00",
+        "LastChanged": "2020-05-21T12:15:28.2826163+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "dolor",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Freddie Crist"
+        "FullName": "Marcel Reynold Thiel I"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Veda Wuckert"
+    "ExtraInfo": "ipsa",
+    "StyleHint": "doloribus",
+    "Hidden": false,
+    "FullName": "Leonie Beatty DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Hermiston, Runolfsdottir and Reilly",
-    "ToolTip": "Voluptatem ea architecto magnam neque recusandae quasi.",
-    "Deleted": false,
-    "Rank": 410,
-    "Type": "et",
-    "ColorBlock": 922,
-    "IconHint": "corporis",
+    "Id": 743,
+    "Name": "Crona Group",
+    "ToolTip": "Fugiat maiores adipisci sint tempora.",
+    "Deleted": true,
+    "Rank": 539,
+    "Type": "modi",
+    "ColorBlock": 431,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2008-11-27T11:22:46.0222797+01:00",
+    "LastChanged": "2009-08-10T12:15:28.2836162+02:00",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Osinski-Nienow",
-        "ToolTip": "Harum doloribus quaerat qui et dolores amet.",
+        "Id": 346,
+        "Name": "Mertz-Feest",
+        "ToolTip": "Et aut officia facilis labore.",
         "Deleted": false,
-        "Rank": 416,
-        "Type": "vel",
-        "ColorBlock": 874,
-        "IconHint": "tempore",
+        "Rank": 207,
+        "Type": "ipsam",
+        "ColorBlock": 898,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2021-09-29T11:22:46.0222797+02:00",
+        "LastChanged": "2019-10-30T12:15:28.2836162+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "nisi",
-        "Hidden": true,
-        "FullName": "Mrs. Wilfrid Addison Prosacco",
+        "ExtraInfo": "repellat",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Prof. Jody Sabryna Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 27
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "quia",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Melvina Schultz",
+    "FullName": "Ms. Zaria Mose Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 337
+        "FieldLength": 635
       }
     }
   }

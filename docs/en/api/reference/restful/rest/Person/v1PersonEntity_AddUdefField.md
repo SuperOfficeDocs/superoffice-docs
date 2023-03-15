@@ -97,7 +97,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 342,
-  "ColumnId": 428,
-  "FieldDefault": "architecto",
-  "FieldHeight": 412,
-  "FieldLabel": "eos",
-  "FieldLeft": 219,
-  "FieldTop": 578,
+  "UDefFieldId": 136,
+  "ColumnId": 151,
+  "FieldDefault": "modi",
+  "FieldHeight": 344,
+  "FieldLabel": "excepturi",
+  "FieldLeft": 602,
+  "FieldTop": 259,
   "FieldType": "Checkbox",
-  "FieldWidth": 931,
-  "FormatMask": "dolore",
+  "FieldWidth": 902,
+  "FormatMask": "velit",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 818,
-  "LabelLeft": 445,
-  "LabelTop": 951,
-  "LabelWidth": 487,
-  "LastVersionId": 461,
-  "ListTableId": 302,
-  "IsMandatory": true,
+  "LabelHeight": 269,
+  "LabelLeft": 586,
+  "LabelTop": 199,
+  "LabelWidth": 848,
+  "LastVersionId": 415,
+  "ListTableId": 930,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 143,
-  "ProgId": "alias",
+  "Page1LineNo": 467,
+  "ProgId": "sunt",
   "IsReadOnly": false,
-  "ShortLabel": "animi",
-  "TabOrder": 189,
-  "TextLength": 245,
-  "Tooltip": "possimus",
-  "UdefIdentity": 741,
-  "UDListDefinitionId": 385,
+  "ShortLabel": "sit",
+  "TabOrder": 87,
+  "TextLength": 197,
+  "Tooltip": "dolor",
+  "UdefIdentity": 234,
+  "UDListDefinitionId": 462,
   "Justification": "Center",
-  "Version": 913,
-  "TemplateVariableName": "Auer LLC",
+  "Version": 990,
+  "TemplateVariableName": "Bogisich, Ziemann and Hartmann",
   "HasBeenPublished": false,
-  "MdoListName": "Strosin-Klocko",
+  "MdoListName": "Schmitt, Wilderman and Will",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

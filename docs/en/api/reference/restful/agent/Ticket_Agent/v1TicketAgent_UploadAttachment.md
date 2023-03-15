@@ -9,7 +9,7 @@ uid: v1TicketAgent_UploadAttachment
 POST /api/v1/Agents/Ticket/UploadAttachment
 ```
 
-Upload an attachment and return the attachment id
+Upload the content for an attachment
 
 
 
@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Ticket/UploadAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 113,
+  "AttachmentId": 59,
   "Content": "GIF89....File contents as raw bytes..."
 }
 ```

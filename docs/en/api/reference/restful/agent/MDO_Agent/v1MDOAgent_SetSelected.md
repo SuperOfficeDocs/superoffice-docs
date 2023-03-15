@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torp Inc and Sons",
-  "AdditionalInfo": "veniam",
+  "Name": "Block, Kihn and Lesch",
+  "AdditionalInfo": "enim",
   "SelectableMDOList": [
     {
-      "Id": 983,
-      "Name": "Purdy-Cronin",
-      "ToolTip": "Eos assumenda.",
+      "Id": 800,
+      "Name": "Rogahn Group",
+      "ToolTip": "Molestiae fugit eius voluptas aut.",
       "Deleted": false,
-      "Rank": 117,
-      "Type": "itaque",
-      "ColorBlock": 916,
-      "IconHint": "id",
+      "Rank": 625,
+      "Type": "velit",
+      "ColorBlock": 796,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "2016-07-28T11:22:38.5865114+02:00",
+      "LastChanged": "2007-08-20T12:15:19.3937468+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "vel",
+      "ExtraInfo": "provident",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Breanna Mante"
+      "FullName": "Mustafa Wintheiser"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Fadel-Keebler",
-    "ToolTip": "Similique architecto sed eos dolores et.",
-    "Deleted": true,
-    "Rank": 74,
-    "Type": "ea",
-    "ColorBlock": 485,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2009-02-24T11:22:38.5865114+01:00",
+    "Id": 384,
+    "Name": "Pacocha LLC",
+    "ToolTip": "Et aut culpa similique consequatur odit neque aut.",
+    "Deleted": false,
+    "Rank": 338,
+    "Type": "corrupti",
+    "ColorBlock": 678,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2003-05-24T12:15:19.3947455+02:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Howe, Champlin and Trantow",
-        "ToolTip": "Fuga sit.",
+        "Id": 907,
+        "Name": "Hegmann Inc and Sons",
+        "ToolTip": "Et in sunt facere deserunt.",
         "Deleted": false,
-        "Rank": 386,
-        "Type": "in",
-        "ColorBlock": 259,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "1996-05-31T11:22:38.5865114+02:00",
+        "Rank": 489,
+        "Type": "et",
+        "ColorBlock": 891,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2006-06-29T12:15:19.3957451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "id",
+        "ExtraInfo": "impedit",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Mariela Walter",
+        "FullName": "Kayli Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldType": "System.String",
+            "FieldLength": 249
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "id",
+    "ExtraInfo": "earum",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Murray Daniel",
+    "FullName": "Rex Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 587
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Fisher, Mraz and Kuhlman"
+  "ParameterName": "Windler-Donnelly"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 548,
-  "Name": "Pacocha Group",
-  "Value": "voluptas",
-  "CreatedDate": "2014-12-06T11:22:37.4304911+01:00",
-  "UpdatedDate": "2006-11-25T11:22:37.4304911+01:00",
-  "CreatedBy": "qui",
-  "UpdatedBy": "dolores",
+  "AudienceLayoutId": 816,
+  "Name": "Streich, Bartell and Satterfield",
+  "Value": "possimus",
+  "CreatedDate": "2018-12-03T12:15:18.1897679+01:00",
+  "UpdatedDate": "2010-09-24T12:15:18.1897679+02:00",
+  "CreatedBy": "molestiae",
+  "UpdatedBy": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   }
 }

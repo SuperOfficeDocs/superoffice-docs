@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Morissette-Schaden",
-  "Context": "magnam"
+  "TableName": "Hamill, Roberts and Miller",
+  "Context": "nostrum"
 }
 ```
 
@@ -105,75 +105,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "omnis",
-    "ValueType": "sequi",
-    "Mandatory": false,
-    "EncodedDisplayName": "Morissette, Becker and Renner",
-    "EncodedDisplayDescription": "Programmable cohesive data-warehouse",
-    "IconHint": "dolorem",
+    "Key": "nulla",
+    "ValueType": "hic",
+    "Mandatory": true,
+    "EncodedDisplayName": "Lebsack, Hayes and Rowe",
+    "EncodedDisplayDescription": "Inverse modular time-frame",
+    "IconHint": "nesciunt",
     "ControlInfos": [
       {
-        "Type": "doloremque",
-        "Label": "esse",
-        "Dimension": 40,
-        "ListProviderName": "Altenwerth, Reynolds and Morar",
-        "ListProviderExtraInfo": "rerum",
-        "ListProviderPrimaryKeyName": "Eichmann Inc and Sons",
-        "ListLeadText": "natus",
+        "Type": "eum",
+        "Label": "quisquam",
+        "Dimension": 605,
+        "ListProviderName": "Aufderhar Group",
+        "ListProviderExtraInfo": "velit",
+        "ListProviderPrimaryKeyName": "Braun, Hermann and Blanda",
+        "ListLeadText": "deserunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 885
+            "FieldLength": 623
           }
         }
       }
     ],
-    "EncodedDataCaption": "quia",
-    "EncodedDataCaptionDescription": "Synergized context-sensitive success",
-    "CurrentOperationType": "veritatis",
+    "EncodedDataCaption": "vitae",
+    "EncodedDataCaptionDescription": "Multi-lateral systematic function",
+    "CurrentOperationType": "rerum",
     "Values": [
-      "quisquam",
-      "et"
+      "recusandae",
+      "sed"
     ],
     "DisplayValues": [
-      "asperiores",
-      "maiores"
+      "voluptatem",
+      "molestiae"
     ],
     "OperationInfos": [
       {
-        "Key": "porro",
-        "EncodedDisplayName": "Feeney Group",
+        "Key": "quia",
+        "EncodedDisplayName": "Satterfield-Schuster",
         "EncodedLeadTexts": [
-          "voluptas",
-          "odio"
+          "harum",
+          "quia"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 155
           }
         }
       },
       {
-        "Key": "porro",
-        "EncodedDisplayName": "Feeney Group",
+        "Key": "quia",
+        "EncodedDisplayName": "Satterfield-Schuster",
         "EncodedLeadTexts": [
-          "voluptas",
-          "odio"
+          "harum",
+          "quia"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 155
           }
         }
       }

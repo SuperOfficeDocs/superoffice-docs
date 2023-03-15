@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 888,
+    "CustConfigId": 6,
     "Type": "Options",
-    "Config": "est",
-    "CustLangId": 137,
-    "Registered": "2002-09-30T11:22:37.7898385+02:00",
-    "RegisteredAssociateId": 326,
-    "Updated": "2009-09-18T11:22:37.7898385+02:00",
-    "UpdatedAssociateId": 418,
+    "Config": "velit",
+    "CustLangId": 970,
+    "Registered": "2016-09-19T12:15:18.6417562+02:00",
+    "RegisteredAssociateId": 760,
+    "Updated": "2008-11-22T12:15:18.6417562+01:00",
+    "UpdatedAssociateId": 182,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 446
       }
     }
   }

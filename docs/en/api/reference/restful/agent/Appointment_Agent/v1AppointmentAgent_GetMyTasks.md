@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 882
+  "Count": 645
 }
 ```
 
@@ -138,53 +138,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 453,
-    "StartDate": "1998-08-16T11:22:37.2118346+02:00",
-    "EndDate": "2013-03-26T11:22:37.2118346+01:00",
+    "AppointmentId": 328,
+    "StartDate": "2021-03-27T12:15:17.9977337+01:00",
+    "EndDate": "2022-05-27T12:15:17.9977337+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsa",
-    "AssociateFullName": "Nyah Klocko",
-    "ContactName": "Gusikowski, Kuhn and Luettgen",
-    "Description": "Visionary value-added open system",
-    "PersonFullName": "Dr. Fausto Fritsch",
-    "PersonId": 631,
-    "ContactId": 751,
-    "ProjectId": 730,
-    "ProjectName": "Morissette-Konopelski",
-    "IsPublished": true,
-    "AssociateId": 856,
-    "ColorIndex": 891,
-    "IsFree": false,
-    "HasAlarm": true,
+    "Task": "dolores",
+    "AssociateFullName": "Ms. Veda Alvera Armstrong",
+    "ContactName": "Swaniawski-Swift",
+    "Description": "Object-based bottom-line local area network",
+    "PersonFullName": "Kyleigh Becker",
+    "PersonId": 513,
+    "ContactId": 502,
+    "ProjectId": 580,
+    "ProjectName": "Rodriguez, Shields and Swift",
+    "IsPublished": false,
+    "AssociateId": 208,
+    "ColorIndex": 179,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 991,
-    "PriorityName": "O'Connell, Prohaska and Pollich",
+    "PriorityId": 165,
+    "PriorityName": "Adams-Windler",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-12-08T11:22:37.2118346+01:00",
+    "ActiveDate": "2010-04-21T12:15:17.9997661+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-04-11T11:22:37.2118346+02:00",
-    "RecurringEndDate": "2002-08-24T11:22:37.2118346+02:00",
-    "MotherId": 214,
-    "AssignedBy": 570,
-    "AssignedByFullName": "Lonnie Fay",
+    "RecurringStartDate": "2014-07-30T12:15:17.9997661+02:00",
+    "RecurringEndDate": "1995-12-21T12:15:17.9997661+01:00",
+    "MotherId": 465,
+    "AssignedBy": 802,
+    "AssignedByFullName": "Miss Braulio Quinton Bernhard",
     "RejectReason": "",
-    "Location": "eveniet",
-    "AlarmLeadTime": "qui",
-    "SaleId": 931,
-    "SaleName": "Swaniawski-Koch",
-    "AssociateName": "Haag-Morar",
-    "CreatedDate": "1999-12-27T11:22:37.2118346+01:00",
-    "CreatedBy": "quis",
-    "CreatedByFullName": "Miss Bernhard Hamill II",
-    "CreatedByAssociateId": 914,
+    "Location": "id",
+    "AlarmLeadTime": "soluta",
+    "SaleId": 328,
+    "SaleName": "Welch Group",
+    "AssociateName": "Christiansen, Zemlak and Muller",
+    "CreatedDate": "2019-08-17T12:15:17.9997661+02:00",
+    "CreatedBy": "eveniet",
+    "CreatedByFullName": "Rafael Emmerich",
+    "CreatedByAssociateId": 478,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldLength": 399
       }
     }
   }

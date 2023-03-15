@@ -90,16 +90,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 92,
-  "Name": "Botsford Inc and Sons",
-  "Tooltip": "delectus",
+  "RoleId": 911,
+  "Name": "Hudson-Collins",
+  "Tooltip": "doloribus",
   "RoleType": "Anonymous",
-  "Deleted": 227,
-  "Rank": 746,
-  "Created": "2006-11-08T11:22:39.5862974+01:00",
-  "UseCategories": 772,
+  "Deleted": 798,
+  "Rank": 137,
+  "Created": "2020-03-07T12:15:20.5297314+01:00",
+  "UseCategories": 952,
   "CreatedBy": null,
-  "Updated": "2011-05-18T11:22:39.5862974+02:00",
+  "Updated": "2022-09-20T12:15:20.5307288+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -112,16 +112,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 471,
-  "Name": "Ziemann-Nikolaus",
-  "Tooltip": "consequatur",
+  "RoleId": 217,
+  "Name": "Rodriguez-Smitham",
+  "Tooltip": "eius",
   "RoleType": "Anonymous",
-  "Deleted": 36,
-  "Rank": 945,
-  "Created": "2013-08-01T11:22:39.5862974+02:00",
-  "UseCategories": 916,
+  "Deleted": 812,
+  "Rank": 240,
+  "Created": "1997-04-25T12:15:20.5327291+02:00",
+  "UseCategories": 203,
   "CreatedBy": null,
-  "Updated": "2000-10-09T11:22:39.5862974+02:00",
+  "Updated": "2018-10-19T12:15:20.5327291+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 135
     }
   }
 }

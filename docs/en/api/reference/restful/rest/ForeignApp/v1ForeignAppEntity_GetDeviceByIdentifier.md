@@ -76,24 +76,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 01 Mar 2000 11:22:44 G3T
+Last-Modified: Sun, 23 Nov 2014 12:15:26 G11T
 
 {
-  "ForeignDeviceId": 613,
-  "Name": "Dare-Ratke",
-  "CreatedDate": "2003-11-29T11:22:44.8662479+01:00",
-  "UpdatedDate": "2000-03-01T11:22:44.8662479+01:00",
-  "AssociateFullName": "Jovan Schroeder DDS",
-  "CreatedBy": "repellat",
-  "UpdatedBy": "debitis",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 278,
+  "ForeignDeviceId": 64,
+  "Name": "Keebler LLC",
+  "CreatedDate": "2015-11-07T12:15:26.9726437+01:00",
+  "UpdatedDate": "2014-11-23T12:15:26.9726437+01:00",
+  "AssociateFullName": "Prof. Rebekah Crist DDS",
+  "CreatedBy": "culpa",
+  "UpdatedBy": "non",
+  "DeviceIdentifier": "minima",
+  "ForeignAppId": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 150
     }
   }
 }

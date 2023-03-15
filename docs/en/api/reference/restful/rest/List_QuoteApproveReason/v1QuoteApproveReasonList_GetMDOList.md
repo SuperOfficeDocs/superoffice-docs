@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=doloribus
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=dolorem
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 260,
-    "Name": "Legros Inc and Sons",
-    "ToolTip": "Magnam et.",
+    "Id": 365,
+    "Name": "Kuhn-Runte",
+    "ToolTip": "Earum harum minus dolore.",
     "Deleted": false,
-    "Rank": 48,
-    "Type": "in",
+    "Rank": 980,
+    "Type": "assumenda",
     "ChildItems": [
       {
-        "Id": 385,
-        "Name": "Turcotte LLC",
-        "ToolTip": "Eaque est distinctio dolores.",
-        "Deleted": false,
-        "Rank": 892,
-        "Type": "et",
+        "Id": 294,
+        "Name": "Farrell-Rutherford",
+        "ToolTip": "Ut rerum nesciunt labore modi enim vel.",
+        "Deleted": true,
+        "Rank": 229,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 66,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "neque",
-        "FullName": "Madisyn Bruen",
+        "IconHint": "consequuntur",
+        "ColorBlock": 561,
+        "ExtraInfo": "rerum",
+        "StyleHint": "unde",
+        "FullName": "Ollie Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 436
+            "FieldLength": 241
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 844,
-    "ExtraInfo": "ab",
-    "StyleHint": "occaecati",
-    "FullName": "Maureen Mraz",
+    "IconHint": "ex",
+    "ColorBlock": 493,
+    "ExtraInfo": "vero",
+    "StyleHint": "eius",
+    "FullName": "Eino Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldLength": 49
       }
     }
   }

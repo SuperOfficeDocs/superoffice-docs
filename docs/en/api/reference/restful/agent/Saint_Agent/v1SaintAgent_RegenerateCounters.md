@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Altenwerth-Zemlak",
-  "AssociateId": 923,
-  "DetailsTable": 564,
-  "DetailsRecord": 450,
+  "Id": 583,
+  "Name": "Veum, Hessel and Harris",
+  "AssociateId": 77,
+  "DetailsTable": 271,
+  "DetailsRecord": 566,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "magni",
-    "ParameterObject2": "in"
+    "ParameterObject1": "quibusdam",
+    "ParameterObject2": "consequatur"
   },
-  "LastStarted": "2010-07-31T11:22:38.9926773+02:00",
-  "Created": "2009-07-10T11:22:38.9926773+02:00",
-  "StartCount": 735,
-  "DatabaseSerialNumber": "1259747",
-  "Context": "et",
-  "Result": "ipsa",
+  "LastStarted": "2007-04-07T12:15:20.0157365+02:00",
+  "Created": "2012-07-08T12:15:20.0157365+02:00",
+  "StartCount": 749,
+  "DatabaseSerialNumber": "1074086",
+  "Context": "numquam",
+  "Result": "eos",
   "State": "All",
-  "Description": "Open-architected executive internet solution",
-  "Response": "vel",
-  "Request": "laudantium",
-  "ProgressDescription": "Persevering real-time capability",
-  "ProgressPercent": 826,
-  "FileName": "Rogahn Inc and Sons",
+  "Description": "Pre-emptive human-resource utilisation",
+  "Response": "et",
+  "Request": "ratione",
+  "ProgressDescription": "De-engineered optimizing strategy",
+  "ProgressPercent": 478,
+  "FileName": "Spencer, Windler and Nolan",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   }
 }

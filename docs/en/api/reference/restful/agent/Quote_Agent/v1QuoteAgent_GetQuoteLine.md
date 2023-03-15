@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 751
+  "QuoteLineId": 543
 }
 ```
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 772,
-  "ERPQuoteLineKey": "natus",
-  "QuoteAlternativeId": 875,
-  "ERPProductKey": "nihil",
+  "QuoteLineId": 417,
+  "ERPQuoteLineKey": "soluta",
+  "QuoteAlternativeId": 756,
+  "ERPProductKey": "quas",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 22947.148,
-  "DeliveredQuantity": 12921.482,
-  "Rank": 102,
-  "Name": "Dietrich-Herman",
-  "Description": "User-centric secondary utilisation",
-  "Code": "praesentium",
-  "QuantityUnit": "ut",
-  "PriceUnit": "atque",
-  "ItemNumber": "1994262",
+  "Quantity": 11501.779999999999,
+  "DeliveredQuantity": 2278.418,
+  "Rank": 505,
+  "Name": "Fadel, Bashirian and Kuvalis",
+  "Description": "Monitored real-time task-force",
+  "Code": "qui",
+  "QuantityUnit": "earum",
+  "PriceUnit": "similique",
+  "ItemNumber": "1061069",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "libero",
-  "ProductTypeKey": "voluptate",
-  "Supplier": "eos",
-  "SupplierCode": "ut",
-  "Thumbnail": "ratione",
-  "VATInfo": "dolores",
-  "VAT": 27641.879999999997,
-  "UnitCost": 28980.097999999998,
-  "UnitMinimumPrice": 26338.136,
-  "UnitListPrice": 3845.4179999999997,
+  "ProductFamilyKey": "voluptatibus",
+  "ProductTypeKey": "nihil",
+  "Supplier": "molestiae",
+  "SupplierCode": "commodi",
+  "Thumbnail": "tempora",
+  "VATInfo": "quae",
+  "VAT": 13849.145999999999,
+  "UnitCost": 10116.552,
+  "UnitMinimumPrice": 15149.756,
+  "UnitListPrice": 16519.314,
   "ExtraInfo": [
     {
-      "Name": "Rowe-Streich",
-      "Value": "autem",
+      "Name": "Rohan LLC",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldType": "System.Int32",
+          "FieldLength": 212
         }
       }
     },
     {
-      "Name": "Rowe-Streich",
-      "Value": "autem",
+      "Name": "Rohan LLC",
+      "Value": "sunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldType": "System.Int32",
+          "FieldLength": 212
         }
       }
     }
   ],
-  "RawExtraInfo": "nihil",
+  "RawExtraInfo": "eos",
   "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "SubscriptionQuantity": 1021.684,
-  "SubscriptionStart": "2005-02-25T11:22:38.9458129+01:00",
-  "ERPDiscountPercent": 1595.206,
-  "ERPDiscountAmount": 31130.021999999997,
-  "DiscountPercent": 29628.836,
-  "DiscountAmount": 28400.307999999997,
+  "SubscriptionUnit": "odit",
+  "SubscriptionQuantity": 19477.809999999998,
+  "SubscriptionStart": "2013-02-23T12:15:19.971737+01:00",
+  "ERPDiscountPercent": 5487.634,
+  "ERPDiscountAmount": 15384.805999999999,
+  "DiscountPercent": 23147.724,
+  "DiscountAmount": 29682.113999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20073.27,
-  "EarningAmount": 10505.168,
-  "SubTotal": 9298.578,
-  "TotalPrice": 2964.764,
-  "Rights": "iusto",
-  "Rule": "officia",
-  "ExtraField1": "qui",
-  "ExtraField2": "non",
-  "ExtraField3": "omnis",
-  "ExtraField4": "eaque",
-  "ExtraField5": "maiores",
+  "EarningPercent": 322.80199999999996,
+  "EarningAmount": 29688.381999999998,
+  "SubTotal": 4252.838,
+  "TotalPrice": 24348.046,
+  "Rights": "nulla",
+  "Rule": "non",
+  "ExtraField1": "provident",
+  "ExtraField2": "corrupti",
+  "ExtraField3": "voluptates",
+  "ExtraField4": "consequuntur",
+  "ExtraField5": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 651,
-  "Name": "Sauer Inc and Sons",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 99,
+  "Id": 972,
+  "Name": "Shanahan-Sawayn",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "Rank": 981,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 708
     }
   },
   "_Links": {

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Wisoky, Muller and Raynor",
-    "Tooltip": "deleniti",
-    "Deleted": true,
-    "Rank": 854,
-    "UdListDefinitionId": 928,
+    "HeadingId": 234,
+    "Name": "Brakus Group",
+    "Tooltip": "ad",
+    "Deleted": false,
+    "Rank": 16,
+    "UdListDefinitionId": 444,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 495
       }
     }
   }

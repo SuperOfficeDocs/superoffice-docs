@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 507,
-    "Name": "Tromp-Douglas",
-    "Tooltip": "eum",
+    "HeadingId": 390,
+    "Name": "Bosco-Schaefer",
+    "Tooltip": "hic",
     "Deleted": false,
-    "Rank": 335,
-    "UdListDefinitionId": 718,
+    "Rank": 63,
+    "UdListDefinitionId": 381,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 62
       }
     }
   }

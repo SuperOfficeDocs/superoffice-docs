@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeInvitations": true,
+  "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 116
+  "DefaultAlarmLeadTimeInMinutes": 787
 }
 ```
 
@@ -95,47 +95,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 95,
-      "StartTime": "2022-10-23T11:22:36.9619023+02:00",
-      "EndDate": "1997-07-20T11:22:36.9619023+02:00",
-      "AlarmTime": "2014-07-18T11:22:36.9619023+02:00",
-      "PersonId": 530,
-      "PersonFullName": "Ole Hermann",
-      "ContactName": "Ward-VonRueden",
-      "ProjectId": 109,
-      "ProjectName": "Pollich Inc and Sons",
-      "AppointmentText": "deleniti",
-      "SaleId": 159,
-      "SaleName": "Brakus LLC",
-      "Location": "nihil",
+      "AppointmentId": 290,
+      "StartTime": "2008-11-17T12:15:17.69077+01:00",
+      "EndDate": "2012-10-15T12:15:17.69077+02:00",
+      "AlarmTime": "2017-10-25T12:15:17.69077+02:00",
+      "PersonId": 376,
+      "PersonFullName": "Thaddeus Stiedemann",
+      "ContactName": "Zemlak, Rath and Pouros",
+      "ProjectId": 662,
+      "ProjectName": "Upton Group",
+      "AppointmentText": "ut",
+      "SaleId": 813,
+      "SaleName": "Ebert Inc and Sons",
+      "Location": "laboriosam",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 961,
+      "ContactId": 445,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Ortiz-Kirlin",
-      "TaskName": "D'Amore, Schumm and Sipes",
+      "FormalName": "Dickinson, Schulist and Pagac",
+      "TaskName": "Schaden-Stehr",
       "ContactDepartment": "",
-      "ContactFullName": "Elena Adalberto O'Conner PhD",
+      "ContactFullName": "Percy Greenholt",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 169
         }
       }
     }
   ],
-  "PollingInterval": 297,
-  "SilentAfter": 389,
+  "PollingInterval": 471,
+  "SilentAfter": 218,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 929
     }
   }
 }

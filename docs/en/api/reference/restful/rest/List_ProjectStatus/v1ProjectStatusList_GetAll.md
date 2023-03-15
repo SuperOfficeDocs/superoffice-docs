@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Cassin LLC",
-    "Tooltip": "ab",
+    "Id": 194,
+    "Name": "Sipes-Kozey",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "UdListDefinitionId": 806,
-    "Rank": 449,
+    "UdListDefinitionId": 581,
+    "Rank": 782,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

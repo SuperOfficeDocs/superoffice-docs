@@ -69,11 +69,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wolff, Ankunding and Carroll",
-  "Id": 340,
+  "TableName": "Leuschke-Maggio",
+  "Id": 502,
   "Values": {
-    "Values1": "aspernatur",
-    "Values2": "molestias"
+    "Values1": "nulla",
+    "Values2": "tenetur"
   }
 }
 ```

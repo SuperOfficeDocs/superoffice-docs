@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 628,
-    "Name": "Nikolaus, Ryan and Volkman",
-    "Description": "Digitized analyzing projection",
+    "ProjectId": 350,
+    "Name": "Kassulke-Hintz",
+    "Description": "Realigned 6th generation capacity",
     "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 256,
-    "AssociateFullName": "Prof. Zachary Lebsack Sr.",
-    "TypeId": 892,
-    "Updated": "2013-11-30T11:22:38.8520826+01:00",
-    "StatusId": 74,
-    "Status": "rerum",
-    "TextId": 808,
-    "PublishTo": "2015-12-13T11:22:38.8520826+01:00",
-    "PublishFrom": "2018-04-06T11:22:38.8520826+02:00",
+    "Type": "quia",
+    "AssociateId": 74,
+    "AssociateFullName": "Eugene Morissette",
+    "TypeId": 948,
+    "Updated": "2015-06-07T12:15:19.864739+02:00",
+    "StatusId": 171,
+    "Status": "incidunt",
+    "TextId": 579,
+    "PublishTo": "1998-02-12T12:15:19.864739+01:00",
+    "PublishFrom": "2012-12-30T12:15:19.864739+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1331898",
-    "ActiveErpLinks": 936,
+    "ProjectNumber": "1638293",
+    "ActiveErpLinks": 241,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 220
+        "FieldType": "System.Int32",
+        "FieldLength": 769
       }
     }
   }

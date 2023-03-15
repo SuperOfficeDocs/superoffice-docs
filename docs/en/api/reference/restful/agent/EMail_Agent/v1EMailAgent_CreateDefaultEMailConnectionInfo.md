@@ -73,17 +73,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Wintheiser-Runte",
-  "UserName": "Paucek-Graham",
-  "Password": "odit",
-  "Folder": "quia",
-  "UseSSL": false,
+  "ServerName": "Carter-Considine",
+  "UserName": "Upton, Emmerich and Berge",
+  "Password": "ratione",
+  "Folder": "voluptate",
+  "UseSSL": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldType": "System.String",
+      "FieldLength": 747
     }
   }
 }

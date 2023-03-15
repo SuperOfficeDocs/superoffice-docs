@@ -70,13 +70,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stiedemann, Jast and Collins",
-  "UsergroupId": 21,
+  "UdListDefinitionName": "Shanahan LLC",
+  "UsergroupId": 595,
   "ListItemsID": [
-    255,
-    665
+    135,
+    386
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

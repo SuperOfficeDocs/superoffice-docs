@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 902,
-  "Name": "Denesik-Powlowski",
-  "Description": "Extended client-server parallelism",
+  "ReportLabelLayoutId": 306,
+  "Name": "Kulas-Borer",
+  "Description": "Persevering radical utilisation",
   "Orientation": "Landscape",
-  "PaperWidth": 464,
-  "PaperHeight": 811,
-  "LeftMargin": 810,
-  "RightMargin": 130,
-  "TopMargin": 567,
-  "BottomMargin": 130,
-  "CountColumns": 832,
-  "CountRows": 904,
+  "PaperWidth": 416,
+  "PaperHeight": 702,
+  "LeftMargin": 428,
+  "RightMargin": 129,
+  "TopMargin": 428,
+  "BottomMargin": 245,
+  "CountColumns": 249,
+  "CountRows": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 10
     }
   }
 }

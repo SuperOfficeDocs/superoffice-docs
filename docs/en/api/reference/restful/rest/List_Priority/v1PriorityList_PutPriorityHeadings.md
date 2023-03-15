@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Cronin LLC",
-    "Tooltip": "asperiores",
-    "Deleted": true,
-    "Rank": 217,
-    "UdListDefinitionId": 58
+    "HeadingId": 1000,
+    "Name": "Watsica LLC",
+    "Tooltip": "repellat",
+    "Deleted": false,
+    "Rank": 704,
+    "UdListDefinitionId": 165
   },
   {
-    "HeadingId": 577,
-    "Name": "Cronin LLC",
-    "Tooltip": "asperiores",
-    "Deleted": true,
-    "Rank": 217,
-    "UdListDefinitionId": 58
+    "HeadingId": 1000,
+    "Name": "Watsica LLC",
+    "Tooltip": "repellat",
+    "Deleted": false,
+    "Rank": 704,
+    "UdListDefinitionId": 165
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 8,
-    "Name": "Sipes Group",
-    "Tooltip": "officia",
+    "HeadingId": 966,
+    "Name": "Collins Group",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "Rank": 103,
-    "UdListDefinitionId": 990,
+    "Rank": 291,
+    "UdListDefinitionId": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 383
       }
     }
   }

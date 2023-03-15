@@ -116,18 +116,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "delectus",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "delectus",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -140,22 +140,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 737,
-  "ERPPriceListKey": "ad",
-  "QuoteConnectionId": 679,
-  "Name": "Kozey Group",
-  "Description": "Multi-tiered maximized migration",
-  "Currency": "porro",
-  "CurrencyName": "Nikolaus Inc and Sons",
-  "ValidFrom": "2019-09-12T11:22:46.0066565+02:00",
-  "ValidTo": "2001-05-30T11:22:46.0066565+02:00",
+  "PriceListId": 959,
+  "ERPPriceListKey": "veniam",
+  "QuoteConnectionId": 16,
+  "Name": "Ryan LLC",
+  "Description": "Organic systematic hub",
+  "Currency": "hic",
+  "CurrencyName": "Hirthe-Mann",
+  "ValidFrom": "2021-08-12T12:15:28.2566168+02:00",
+  "ValidTo": "1996-05-14T12:15:28.2566168+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   },
   "_Links": {

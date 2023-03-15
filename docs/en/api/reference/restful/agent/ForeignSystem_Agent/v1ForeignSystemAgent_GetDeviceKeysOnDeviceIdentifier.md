@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hoppe Inc and Sons",
-  "DeviceName": "Weber, Howell and Kuhic",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Runte-Schneider",
+  "DeviceName": "Watsica-Volkman",
+  "DeviceIdentifier": "laborum"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "excepturi",
-    "Value": "numquam",
-    "RecordId": 894,
-    "CreatedDate": "1997-10-03T11:22:38.3834434+02:00",
-    "UpdatedDate": "2020-07-20T11:22:38.3834434+02:00",
-    "UpdatedBy": "similique",
-    "CreatedBy": "similique",
-    "TableName": "Kemmer LLC",
+    "Key": "impedit",
+    "Value": "et",
+    "RecordId": 125,
+    "CreatedDate": "2002-10-30T12:15:19.1707485+01:00",
+    "UpdatedDate": "2010-04-22T12:15:19.1707485+02:00",
+    "UpdatedBy": "ducimus",
+    "CreatedBy": "et",
+    "TableName": "Kiehn-Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldLength": 518
       }
     }
   }

@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 636,
-  "Section": "numquam",
-  "Key": "corrupti",
-  "Name": "Rolfson, Davis and Bednar",
+  "PrefDescId": 803,
+  "Section": "iusto",
+  "Key": "ut",
+  "Name": "Heller, Spencer and Lemke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total heuristic intranet",
+  "Description": "Persevering exuding pricing structure",
   "IsBuiltin": false,
-  "TableName": "McGlynn Inc and Sons",
-  "UserDefinedListId": 63,
-  "Rank": 473,
-  "SubGroup": "odit",
-  "MinLevel": 667,
-  "MaxValue": 686,
-  "MinValue": 506,
-  "RequiredLicense": "officia",
+  "TableName": "Heaney, Witting and Jacobson",
+  "UserDefinedListId": 565,
+  "Rank": 186,
+  "SubGroup": "qui",
+  "MinLevel": 845,
+  "MaxValue": 925,
+  "MinValue": 567,
+  "RequiredLicense": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 351
     }
   }
 }

@@ -109,28 +109,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 353,
-  "Section": "dolores",
-  "Key": "amet",
-  "Name": "Herzog, Windler and Grady",
+  "PrefDescId": 783,
+  "Section": "asperiores",
+  "Key": "fugiat",
+  "Name": "Muller Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Persevering dynamic hierarchy",
-  "IsBuiltin": true,
-  "TableName": "Morar Inc and Sons",
-  "UserDefinedListId": 779,
-  "Rank": 402,
-  "SubGroup": "natus",
-  "MinLevel": 83,
-  "MaxValue": 680,
-  "MinValue": 578,
-  "RequiredLicense": "omnis"
+  "Description": "Grass-roots zero administration circuit",
+  "IsBuiltin": false,
+  "TableName": "Crona, Wiza and Jones",
+  "UserDefinedListId": 610,
+  "Rank": 202,
+  "SubGroup": "eius",
+  "MinLevel": 862,
+  "MaxValue": 491,
+  "MinValue": 638,
+  "RequiredLicense": "rerum"
 }
 ```
 
@@ -141,35 +141,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 66,
-  "Section": "est",
-  "Key": "omnis",
-  "Name": "Green, Harvey and Daugherty",
+  "PrefDescId": 751,
+  "Section": "cum",
+  "Key": "non",
+  "Name": "Bode-Borer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Visionary disintermediate model",
-  "IsBuiltin": true,
-  "TableName": "Nolan Inc and Sons",
-  "UserDefinedListId": 399,
-  "Rank": 275,
-  "SubGroup": "alias",
-  "MinLevel": 209,
-  "MaxValue": 513,
-  "MinValue": 211,
-  "RequiredLicense": "exercitationem",
+  "Description": "Team-oriented assymetric capability",
+  "IsBuiltin": false,
+  "TableName": "Balistreri LLC",
+  "UserDefinedListId": 602,
+  "Rank": 134,
+  "SubGroup": "aut",
+  "MinLevel": 375,
+  "MaxValue": 135,
+  "MinValue": 105,
+  "RequiredLicense": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 357
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

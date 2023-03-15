@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 310
+  "AssociateId": 779
 }
 ```
 
@@ -102,54 +102,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 430,
-    "ERPName": "Bosco Inc and Sons",
-    "DisplayName": "Beahan Inc and Sons",
-    "DisplayDescription": "Synergistic disintermediate intranet",
-    "Rank": 912,
-    "ConnectorName": "Hills-Jenkins",
-    "ErpConnectionId": 239,
-    "ExtraData": "ipsam",
+    "QuoteConnectionId": 698,
+    "ERPName": "Pollich Group",
+    "DisplayName": "Huel LLC",
+    "DisplayDescription": "Expanded 24 hour firmware",
+    "Rank": 893,
+    "ConnectorName": "Borer, Parisian and Paucek",
+    "ErpConnectionId": 151,
+    "ExtraData": "odit",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 211,
-        "ERPPriceListKey": "impedit",
-        "QuoteConnectionId": 91,
-        "Name": "Skiles Inc and Sons",
-        "Description": "Multi-channelled needs-based strategy",
-        "Currency": "vel",
-        "CurrencyName": "Bogan Inc and Sons",
-        "ValidFrom": "2002-11-09T11:22:38.9301893+01:00",
-        "ValidTo": "2006-01-07T11:22:38.9301893+01:00",
-        "IsActive": true,
+        "PriceListId": 348,
+        "ERPPriceListKey": "perferendis",
+        "QuoteConnectionId": 843,
+        "Name": "Yost-O'Keefe",
+        "Description": "Seamless fresh-thinking workforce",
+        "Currency": "repudiandae",
+        "CurrencyName": "Roberts-Crooks",
+        "ValidFrom": "1999-01-11T12:15:19.9467449+01:00",
+        "ValidTo": "2019-02-26T12:15:19.9467449+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 140
+            "FieldLength": 87
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      735,
-      30
+      689,
+      557
     ],
     "AssociateAccessIds": [
-      445,
-      133
+      277,
+      853
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 802
       }
     }
   }

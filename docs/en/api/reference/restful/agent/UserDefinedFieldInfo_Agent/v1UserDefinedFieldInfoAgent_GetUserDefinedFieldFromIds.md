@@ -105,13 +105,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    106,
-    719
+    460,
+    211
   ]
 }
 ```
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 215,
-    "ColumnId": 53,
-    "FieldDefault": "aut",
-    "FieldHeight": 935,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 722,
-    "FieldTop": 341,
+    "UDefFieldId": 180,
+    "ColumnId": 603,
+    "FieldDefault": "non",
+    "FieldHeight": 780,
+    "FieldLabel": "quibusdam",
+    "FieldLeft": 915,
+    "FieldTop": 483,
     "FieldType": "Checkbox",
-    "FieldWidth": 342,
-    "FormatMask": "expedita",
+    "FieldWidth": 624,
+    "FormatMask": "soluta",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 776,
-    "LabelLeft": 51,
-    "LabelTop": 763,
-    "LabelWidth": 434,
-    "LastVersionId": 504,
-    "ListTableId": 722,
-    "IsMandatory": false,
+    "LabelHeight": 30,
+    "LabelLeft": 735,
+    "LabelTop": 378,
+    "LabelWidth": 162,
+    "LastVersionId": 277,
+    "ListTableId": 359,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 860,
-    "ProgId": "sit",
+    "Page1LineNo": 440,
+    "ProgId": "et",
     "IsReadOnly": true,
-    "ShortLabel": "aperiam",
-    "TabOrder": 162,
-    "TextLength": 339,
-    "Tooltip": "sint",
-    "UdefIdentity": 770,
-    "UDListDefinitionId": 819,
+    "ShortLabel": "commodi",
+    "TabOrder": 258,
+    "TextLength": 334,
+    "Tooltip": "soluta",
+    "UdefIdentity": 458,
+    "UDListDefinitionId": 176,
     "Justification": "Center",
-    "Version": 66,
-    "TemplateVariableName": "Parisian-Haley",
+    "Version": 610,
+    "TemplateVariableName": "Klocko LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Hodkiewicz, Nicolas and Johns",
+    "MdoListName": "Schuster Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 182
       }
     }
   }

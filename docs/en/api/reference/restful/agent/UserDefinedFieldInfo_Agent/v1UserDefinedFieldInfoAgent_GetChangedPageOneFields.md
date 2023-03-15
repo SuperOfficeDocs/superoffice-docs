@@ -73,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 692
+  "UserGroupId": 781
 }
 ```
 
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  true,
-  true
+  false,
+  false
 ]
 ```

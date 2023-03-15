@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Franecki-Hegmann",
-    "Jacobi-Kuhn"
+    "Mraz, Krajcik and Cole",
+    "Schuppe LLC"
   ]
 }
 ```
@@ -97,19 +97,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 707,
-    "Id": 313,
-    "HistoryName": "Spinka Inc and Sons",
-    "HistoryId": 530,
-    "AssociateId": 229,
-    "Name": "Kunze-Wolff",
-    "ItemInfo": "expedita",
+    "Rank": 369,
+    "Id": 695,
+    "HistoryName": "Altenwerth, Littel and Schaden",
+    "HistoryId": 856,
+    "AssociateId": 47,
+    "Name": "Nikolaus, Will and Gorczany",
+    "ItemInfo": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldLength": 509
       }
     }
   }

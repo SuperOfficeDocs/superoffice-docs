@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 318,
-  "Name": "Flatley-Douglas",
-  "Tooltip": "rerum",
-  "Deleted": true,
-  "UdListDefinitionId": 914,
-  "Rank": 683
+  "Id": 664,
+  "Name": "Little-Barrows",
+  "Tooltip": "in",
+  "Deleted": false,
+  "UdListDefinitionId": 837,
+  "Rank": 514
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Schaden Group",
-  "Tooltip": "magni",
-  "Deleted": false,
-  "UdListDefinitionId": 126,
-  "Rank": 486,
+  "Id": 848,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "aliquid",
+  "Deleted": true,
+  "UdListDefinitionId": 249,
+  "Rank": 194,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 212,
+  "AssociateId": 11,
   "Type": "AnonymousAssociate",
-  "PersonId": 573,
-  "UserName": "Morar, Beer and Gusikowski"
+  "PersonId": 397,
+  "UserName": "Hartmann-Bashirian"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Dickens Inc and Sons"
+"D'Amore LLC"
 ```

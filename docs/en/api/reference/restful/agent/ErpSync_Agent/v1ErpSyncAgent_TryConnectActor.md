@@ -78,27 +78,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 713,
-  "CrmRecordId": 67,
+  "ErpConnectionId": 8,
+  "CrmRecordId": 387,
   "CrmActorType": "Contact",
-  "ErpKey": "et",
+  "ErpKey": "est",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Wisoky-Schroeder",
-      "CrmFieldKey": "fugiat",
-      "Value": "iste",
-      "DisplayValue": "optio",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Haag, Ziemann and Berge",
+      "CrmFieldKey": "est",
+      "Value": "velit",
+      "DisplayValue": "eum",
+      "SyncToCrm": false,
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Wisoky-Schroeder",
-      "CrmFieldKey": "fugiat",
-      "Value": "iste",
-      "DisplayValue": "optio",
-      "SyncToCrm": true,
-      "SyncToErp": false
+      "DisplayName": "Haag, Ziemann and Berge",
+      "CrmFieldKey": "est",
+      "Value": "velit",
+      "DisplayValue": "eum",
+      "SyncToCrm": false,
+      "SyncToErp": true
     }
   ]
 }

@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Value": "omnis",
-    "Tooltip": "molestiae",
+    "Id": 781,
+    "Value": "rerum",
+    "Tooltip": "dolore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   },
   {
-    "Id": 866,
-    "Value": "omnis",
-    "Tooltip": "molestiae",
+    "Id": 781,
+    "Value": "rerum",
+    "Tooltip": "dolore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

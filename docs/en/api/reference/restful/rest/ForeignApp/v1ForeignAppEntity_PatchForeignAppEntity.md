@@ -113,18 +113,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "consequuntur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "consequuntur",
     "value": {}
   }
 ]
@@ -137,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 573,
-  "Name": "Greenfelder Inc and Sons",
-  "CreatedDate": "2015-06-19T11:22:44.8662479+02:00",
-  "UpdatedDate": "2001-11-03T11:22:44.8662479+01:00",
+  "ForeignAppId": 521,
+  "Name": "Pacocha-Dickinson",
+  "CreatedDate": "2022-09-08T12:15:26.958636+02:00",
+  "UpdatedDate": "2003-01-07T12:15:26.958636+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 494,
-      "Name": "Thompson Inc and Sons",
-      "CreatedDate": "2007-03-17T11:22:44.8662479+01:00",
-      "UpdatedDate": "1999-05-25T11:22:44.8662479+02:00",
-      "AssociateFullName": "Angel Harvey MD",
-      "CreatedBy": "quae",
-      "UpdatedBy": "veniam",
-      "DeviceIdentifier": "facere",
-      "ForeignAppId": 858,
+      "ForeignDeviceId": 852,
+      "Name": "Lang-Walter",
+      "CreatedDate": "2007-07-29T12:15:26.9686354+02:00",
+      "UpdatedDate": "2006-02-28T12:15:26.9686354+01:00",
+      "AssociateFullName": "Helen Stroman",
+      "CreatedBy": "id",
+      "UpdatedBy": "odio",
+      "DeviceIdentifier": "fuga",
+      "ForeignAppId": 154,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 231
+          "FieldType": "System.String",
+          "FieldLength": 571
         }
       }
     }
@@ -169,12 +169,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 19
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

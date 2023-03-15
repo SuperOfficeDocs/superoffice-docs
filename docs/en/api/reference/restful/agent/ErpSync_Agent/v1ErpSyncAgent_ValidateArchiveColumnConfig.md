@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "ut",
-  "ErpConnectionId": 794
+  "ListOwner": "porro",
+  "ErpConnectionId": 6
 }
 ```
 

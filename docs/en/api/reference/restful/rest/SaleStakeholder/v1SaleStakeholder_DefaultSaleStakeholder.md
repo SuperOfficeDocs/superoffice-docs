@@ -74,7 +74,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Koch Inc and Sons",
-  "Comment": "voluptatem",
-  "StakeholderRoleId": 553,
-  "CountryId": 127,
-  "PersonId": 67,
-  "EmailDescription": "meggie@frami.com",
-  "EmailId": 836,
-  "EmailAddress": "laurence@hirthe.name",
-  "PhoneId": 876,
-  "ContactName": "Gleason-Grimes",
-  "ContactId": 569,
-  "SaleId": 491,
-  "Mrmrs": "culpa",
-  "Firstname": "Kale",
-  "MiddleName": "Watsica, Schneider and Schuppe",
-  "Lastname": "Parisian",
-  "SaleStakeholderId": 59,
-  "Rank": 996,
-  "Phone": "821-246-3395 x02919",
+  "StakeholderRoleName": "Franecki, Konopelski and Jakubowski",
+  "Comment": "non",
+  "StakeholderRoleId": 360,
+  "CountryId": 929,
+  "PersonId": 767,
+  "EmailDescription": "ricardo@tromp.us",
+  "EmailId": 744,
+  "EmailAddress": "caitlyn@pfannerstill.uk",
+  "PhoneId": 421,
+  "ContactName": "Champlin, Skiles and Conroy",
+  "ContactId": 767,
+  "SaleId": 454,
+  "Mrmrs": "neque",
+  "Firstname": "Adell",
+  "MiddleName": "Russel Inc and Sons",
+  "Lastname": "McGlynn",
+  "SaleStakeholderId": 608,
+  "Rank": 928,
+  "Phone": "(487)196-5976 x1149",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 192
     }
   }
 }

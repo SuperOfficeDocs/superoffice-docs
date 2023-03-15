@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=dolorem
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=nemo
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Renner-Larson",
-    "ToolTip": "Ut nulla voluptates voluptate quas.",
-    "Deleted": false,
-    "Rank": 484,
-    "Type": "voluptatem",
+    "Id": 327,
+    "Name": "Jewess-Mayer",
+    "ToolTip": "Aut expedita quam.",
+    "Deleted": true,
+    "Rank": 128,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Jast-Kautzer",
-        "ToolTip": "Ab reprehenderit dolorem.",
-        "Deleted": false,
-        "Rank": 527,
-        "Type": "ipsa",
+        "Id": 849,
+        "Name": "Bartell, Dickinson and Bauch",
+        "ToolTip": "Cupiditate dolorum laboriosam repellendus.",
+        "Deleted": true,
+        "Rank": 163,
+        "Type": "voluptatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laudantium",
-        "ColorBlock": 951,
-        "ExtraInfo": "officia",
-        "StyleHint": "id",
-        "FullName": "Moshe Lueilwitz",
+        "IconHint": "numquam",
+        "ColorBlock": 353,
+        "ExtraInfo": "quis",
+        "StyleHint": "sed",
+        "FullName": "Miss Tracy Greenholt I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 364
+            "FieldType": "System.Int32",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 727,
-    "ExtraInfo": "corrupti",
-    "StyleHint": "rerum",
-    "FullName": "Otilia Witting",
+    "IconHint": "esse",
+    "ColorBlock": 693,
+    "ExtraInfo": "et",
+    "StyleHint": "alias",
+    "FullName": "Joy O'Reilly Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 934
       }
     }
   }

@@ -29,8 +29,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=non
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=quae
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Schuppe Group",
-    "ToolTip": "Sit rerum.",
+    "Id": 860,
+    "Name": "Terry Group",
+    "ToolTip": "A voluptas.",
     "Deleted": true,
-    "Rank": 447,
-    "Type": "voluptatem",
-    "ColorBlock": 905,
-    "IconHint": "pariatur",
-    "Selected": true,
-    "LastChanged": "2002-07-17T11:22:45.9441645+02:00",
+    "Rank": 481,
+    "Type": "excepturi",
+    "ColorBlock": 352,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2005-08-17T12:15:28.1826199+02:00",
     "ChildItems": [
       {
-        "Id": 109,
-        "Name": "Walsh-Bosco",
-        "ToolTip": "Aut ut cumque.",
+        "Id": 327,
+        "Name": "Crona, Douglas and Greenfelder",
+        "ToolTip": "Deserunt non qui.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "adipisci",
-        "ColorBlock": 499,
-        "IconHint": "nisi",
+        "Rank": 643,
+        "Type": "vel",
+        "ColorBlock": 185,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2018-02-18T11:22:45.9441645+01:00",
+        "LastChanged": "2011-07-31T12:15:28.1826199+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "quia",
+        "ExtraInfo": "non",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Marley Emmerich I",
+        "FullName": "Elouise Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 183
+            "FieldLength": 546
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
+    "ExtraInfo": "est",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Jaleel Weber",
+    "FullName": "Prof. Michelle Parisian I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 345
+        "FieldLength": 780
       }
     }
   }

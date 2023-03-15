@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 735,
-  "ColumnId": 872,
-  "FieldDefault": "reiciendis",
-  "FieldHeight": 653,
-  "FieldLabel": "placeat",
-  "FieldLeft": 819,
-  "FieldTop": 43,
+  "UDefFieldId": 463,
+  "ColumnId": 2,
+  "FieldDefault": "velit",
+  "FieldHeight": 53,
+  "FieldLabel": "nemo",
+  "FieldLeft": 190,
+  "FieldTop": 842,
   "FieldType": "Checkbox",
-  "FieldWidth": 415,
-  "FormatMask": "dolor",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 173,
-  "LabelLeft": 100,
-  "LabelTop": 212,
-  "LabelWidth": 764,
-  "LastVersionId": 248,
-  "ListTableId": 788,
+  "FieldWidth": 162,
+  "FormatMask": "ducimus",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 446,
+  "LabelLeft": 877,
+  "LabelTop": 856,
+  "LabelWidth": 555,
+  "LastVersionId": 918,
+  "ListTableId": 163,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 441,
-  "ProgId": "possimus",
+  "Page1LineNo": 317,
+  "ProgId": "laborum",
   "IsReadOnly": false,
-  "ShortLabel": "labore",
-  "TabOrder": 259,
-  "TextLength": 263,
-  "Tooltip": "rem",
-  "UdefIdentity": 77,
-  "UDListDefinitionId": 663,
+  "ShortLabel": "facilis",
+  "TabOrder": 548,
+  "TextLength": 974,
+  "Tooltip": "nostrum",
+  "UdefIdentity": 145,
+  "UDListDefinitionId": 807,
   "Justification": "Center",
-  "Version": 994,
-  "TemplateVariableName": "Boyer-King",
+  "Version": 415,
+  "TemplateVariableName": "Lowe, Halvorson and Hayes",
   "HasBeenPublished": false,
-  "MdoListName": "Feeney, Shanahan and Ebert",
+  "MdoListName": "Pacocha Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 52
     }
   }
 }

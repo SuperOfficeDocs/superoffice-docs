@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 813,
-  "SaleId": 417,
+  "SuggestedAppointmentId": 964,
+  "SaleId": 543,
   "CreateNow": false,
-  "OwnerId": 724
+  "OwnerId": 525
 }
 ```
 
@@ -151,122 +151,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-01-05T11:22:37.1337381+01:00",
-  "AppointmentId": 892,
-  "Description": "Business-focused mission-critical pricing structure",
-  "StartDate": "2006-05-11T11:22:37.1337381+02:00",
-  "EndDate": "2008-05-23T11:22:37.1337381+02:00",
+  "CreatedDate": "1997-06-07T12:15:17.9057695+02:00",
+  "AppointmentId": 256,
+  "Description": "Persevering bottom-line policy",
+  "StartDate": "2005-10-18T12:15:17.9057695+02:00",
+  "EndDate": "2020-08-28T12:15:17.9057695+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 941,
+  "MotherId": 875,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-04-06T11:22:37.1337381+02:00",
+  "UpdatedDate": "2019-05-29T12:15:17.909767+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 280,
+  "ActiveLinks": 312,
   "Links": [
     {
-      "EntityName": "Stokes-Dietrich",
-      "Id": 488,
-      "Description": "Cloned dedicated help-desk",
-      "ExtraInfo": "nihil",
-      "LinkId": 624,
+      "EntityName": "Kertzmann, Grimes and Friesen",
+      "Id": 515,
+      "Description": "Monitored maximized hierarchy",
+      "ExtraInfo": "saepe",
+      "LinkId": 636,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 898
+          "FieldType": "System.String",
+          "FieldLength": 478
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": true,
-  "ColorIndex": 424,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptatibus",
-  "LeadTime": "aut",
-  "Location": "eum",
-  "RejectCounter": 414,
+  "AlarmLeadTime": "minus",
+  "HasAlarm": false,
+  "ColorIndex": 76,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "harum",
+  "LeadTime": "esse",
+  "Location": "dolorem",
+  "RejectCounter": 646,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 496,
-      "PersonId": 642,
-      "ContactId": 504,
-      "EmailId": 201,
-      "SendEmail": false,
+      "AssociateId": 607,
+      "PersonId": 906,
+      "ContactId": 430,
+      "EmailId": 107,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 496,
-      "PersonId": 642,
-      "ContactId": 504,
-      "EmailId": 201,
-      "SendEmail": false,
+      "AssociateId": 607,
+      "PersonId": 906,
+      "ContactId": 430,
+      "EmailId": 107,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-04-25T11:22:37.1337381+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2015-10-26T12:15:17.909767+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 992,
+  "PreferredTZLocation": 910,
   "Sale": null,
-  "SuggestedAppointmentId": 4,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 648,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "vitae",
+  "CentralserviceVideomeetId": "voluptatem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Arianna Mitchell",
-    "SuperOffice:2": "Ms. Nathan Greenholt"
+    "SuperOffice:1": "Kyle Murphy",
+    "SuperOffice:2": "503261043"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "odio",
+    "CustomFields2": "nesciunt"
   },
-  "PublishEventDate": "1998-04-29T11:22:37.1337381+02:00",
-  "PublishTo": "2017-12-27T11:22:37.1337381+01:00",
-  "PublishFrom": "2020-10-01T11:22:37.1337381+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-12-24T12:15:17.910767+01:00",
+  "PublishTo": "2016-12-19T12:15:17.910767+01:00",
+  "PublishFrom": "2020-11-22T12:15:17.910767+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 419,
+      "VisibleId": 694,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 26
+          "FieldType": "System.String",
+          "FieldLength": 890
         }
       }
     },
     {
-      "VisibleId": 419,
+      "VisibleId": 694,
       "Visibility": "All",
-      "DisplayValue": "vitae",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 26
+          "FieldType": "System.String",
+          "FieldLength": 890
         }
       }
     }
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 195
     }
   }
 }

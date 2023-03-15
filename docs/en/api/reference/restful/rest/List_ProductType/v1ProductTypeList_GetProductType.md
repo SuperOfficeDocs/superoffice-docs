@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Champlin LLC",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "UdListDefinitionId": 939,
-  "Rank": 406,
+  "Id": 271,
+  "Name": "Smith LLC",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "UdListDefinitionId": 797,
+  "Rank": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 245
+      "FieldType": "System.Int32",
+      "FieldLength": 423
     }
   }
 }

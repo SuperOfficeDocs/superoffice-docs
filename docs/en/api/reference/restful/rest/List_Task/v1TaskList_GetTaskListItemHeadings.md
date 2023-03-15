@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 342,
-    "Name": "Conroy, Kilback and Gulgowski",
-    "Tooltip": "blanditiis",
+    "HeadingId": 803,
+    "Name": "Schaefer, Brown and Yost",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 110,
-    "UdListDefinitionId": 826,
+    "Rank": 608,
+    "UdListDefinitionId": 127,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 536
       }
     }
   }

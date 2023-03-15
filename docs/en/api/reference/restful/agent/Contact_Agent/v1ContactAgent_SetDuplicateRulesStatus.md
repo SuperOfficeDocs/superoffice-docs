@@ -69,16 +69,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Marquardt, Rogahn and Paucek",
-      "DisplayName": "Schaden, Waelchi and Quitzon",
-      "DisplayTooltip": "assumenda",
-      "IsActive": false
+      "Name": "Rath-Lowe",
+      "DisplayName": "Oberbrunner-Osinski",
+      "DisplayTooltip": "quam",
+      "IsActive": true
     },
     {
-      "Name": "Marquardt, Rogahn and Paucek",
-      "DisplayName": "Schaden, Waelchi and Quitzon",
-      "DisplayTooltip": "assumenda",
-      "IsActive": false
+      "Name": "Rath-Lowe",
+      "DisplayName": "Oberbrunner-Osinski",
+      "DisplayTooltip": "quam",
+      "IsActive": true
     }
   ]
 }

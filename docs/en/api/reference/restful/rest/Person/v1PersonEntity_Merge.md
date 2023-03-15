@@ -33,9 +33,9 @@ The destination person will remain. You must specify the date after which activi
 | replaceEmptyFieldsOnDestination | bool |  If true, empty fields on destination will be replaced by values from source. |
 
 ```http
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=12/01/1997 11:22:46
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=True
-POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyFieldsOnDestination=True
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?moveAfterDate=08/12/2015 12:15:28
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?deleteSource=False
+POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}?replaceEmptyFieldsOnDestination=False
 ```
 
 
@@ -66,7 +66,7 @@ No Content
 POST /api/v1/Person/{sourcePersonId}/MergeTo/{destinationPersonId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

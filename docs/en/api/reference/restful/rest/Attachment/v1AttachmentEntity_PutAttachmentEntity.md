@@ -88,16 +88,16 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 83,
-  "Name": "Kulas, Sporer and Lynch",
-  "ContentType": "ipsa",
-  "AttSize": 174,
-  "InlineImage": false,
-  "ContentId": "soluta"
+  "AttachmentId": 704,
+  "Name": "Anderson, Pouros and Weissnat",
+  "ContentType": "cum",
+  "AttSize": 819,
+  "InlineImage": true,
+  "ContentId": "aut"
 }
 ```
 
@@ -108,18 +108,18 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 346,
-  "Name": "Torphy-Harvey",
-  "ContentType": "saepe",
-  "AttSize": 532,
+  "AttachmentId": 432,
+  "Name": "O'Conner-Wisozk",
+  "ContentType": "odio",
+  "AttSize": 49,
   "InlineImage": false,
-  "ContentId": "assumenda",
+  "ContentId": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   },
   "_Links": {

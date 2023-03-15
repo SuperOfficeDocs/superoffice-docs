@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Willms, Skiles and Rau",
-    "Tooltip": "doloribus",
+    "Id": 229,
+    "Name": "Ankunding Inc and Sons",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 297,
-    "Rank": 85,
+    "UdListDefinitionId": 420,
+    "Rank": 940,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldLength": 216
       }
     }
   }

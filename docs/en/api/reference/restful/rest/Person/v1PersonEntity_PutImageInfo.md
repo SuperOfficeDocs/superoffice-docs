@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 695,
-  "BlobSize": 150,
-  "Description": "Mandatory bottom-line synergy",
-  "ExtraInfo": "numquam",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "minima",
-  "OriginalSize": 874,
-  "CreatedDate": "2007-02-14T11:22:45.0068982+01:00",
-  "UpdatedDate": "2008-12-15T11:22:45.0068982+01:00",
+  "BlobId": 117,
+  "BlobSize": 644,
+  "Description": "Expanded full-range firmware",
+  "ExtraInfo": "molestiae",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "repudiandae",
+  "OriginalSize": 706,
+  "CreatedDate": "2013-04-29T12:15:27.1206331+02:00",
+  "UpdatedDate": "2000-06-20T12:15:27.1206331+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsum"
+  "ConceptualType": "illo"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 172,
-  "BlobSize": 734,
-  "Description": "Customer-focused 24 hour groupware",
-  "ExtraInfo": "in",
+  "BlobId": 520,
+  "BlobSize": 925,
+  "Description": "Streamlined exuding initiative",
+  "ExtraInfo": "voluptatum",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "possimus",
-  "OriginalSize": 462,
-  "CreatedDate": "2007-03-11T11:22:45.0068982+01:00",
-  "UpdatedDate": "2021-11-11T11:22:45.0068982+01:00",
+  "IsZipped": true,
+  "MimeType": "impedit",
+  "OriginalSize": 701,
+  "CreatedDate": "2021-10-23T12:15:27.1236329+02:00",
+  "UpdatedDate": "2022-10-19T12:15:27.1236329+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "magnam",
+  "ConceptualType": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldLength": 795
     }
   }
 }

@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 946,
-  "ColumnId": 636,
-  "FieldDefault": "hic",
-  "FieldHeight": 753,
-  "FieldLabel": "sit",
-  "FieldLeft": 715,
-  "FieldTop": 979,
+  "UDefFieldId": 745,
+  "ColumnId": 893,
+  "FieldDefault": "at",
+  "FieldHeight": 137,
+  "FieldLabel": "vitae",
+  "FieldLeft": 111,
+  "FieldTop": 451,
   "FieldType": "Checkbox",
-  "FieldWidth": 831,
-  "FormatMask": "ex",
-  "HideLabel": true,
+  "FieldWidth": 391,
+  "FormatMask": "omnis",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 859,
-  "LabelLeft": 590,
-  "LabelTop": 240,
-  "LabelWidth": 812,
-  "LastVersionId": 439,
-  "ListTableId": 592,
-  "IsMandatory": false,
+  "LabelHeight": 134,
+  "LabelLeft": 13,
+  "LabelTop": 656,
+  "LabelWidth": 206,
+  "LastVersionId": 726,
+  "ListTableId": 898,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 467,
-  "ProgId": "esse",
+  "Page1LineNo": 951,
+  "ProgId": "quaerat",
   "IsReadOnly": false,
-  "ShortLabel": "ea",
-  "TabOrder": 459,
-  "TextLength": 856,
-  "Tooltip": "laborum",
-  "UdefIdentity": 482,
-  "UDListDefinitionId": 125,
+  "ShortLabel": "necessitatibus",
+  "TabOrder": 50,
+  "TextLength": 249,
+  "Tooltip": "quae",
+  "UdefIdentity": 398,
+  "UDListDefinitionId": 915,
   "Justification": "Center",
-  "Version": 124,
-  "TemplateVariableName": "Bogan Inc and Sons",
+  "Version": 544,
+  "TemplateVariableName": "Willms, Wiegand and Boehm",
   "HasBeenPublished": false,
-  "MdoListName": "Windler-Brakus",
+  "MdoListName": "Hermiston-Stokes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 156
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=34
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=232
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -82,29 +82,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 552,
-  "Name": "Lind-Mraz",
-  "CreatedDate": "2013-08-22T11:22:38.3678241+02:00",
-  "UpdatedDate": "2012-03-31T11:22:38.3678241+02:00",
+  "ForeignAppId": 300,
+  "Name": "Williamson-Swaniawski",
+  "CreatedDate": "2007-08-23T12:15:19.1467492+02:00",
+  "UpdatedDate": "2003-07-10T12:15:19.1467492+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 463,
-      "Name": "Crist, Bauch and Zemlak",
-      "CreatedDate": "2012-04-12T11:22:38.3678241+02:00",
-      "UpdatedDate": "2007-11-09T11:22:38.3678241+01:00",
-      "AssociateFullName": "Lilla Ward",
-      "CreatedBy": "voluptatum",
-      "UpdatedBy": "modi",
-      "DeviceIdentifier": "explicabo",
-      "ForeignAppId": 315,
+      "ForeignDeviceId": 462,
+      "Name": "Lesch Group",
+      "CreatedDate": "2001-05-01T12:15:19.1467492+02:00",
+      "UpdatedDate": "2018-12-17T12:15:19.1467492+01:00",
+      "AssociateFullName": "Heaven Emilie Jacobs DDS",
+      "CreatedBy": "omnis",
+      "UpdatedBy": "possimus",
+      "DeviceIdentifier": "ratione",
+      "ForeignAppId": 781,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldType": "System.Int32",
+          "FieldLength": 326
         }
       }
     }
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 274
+      "FieldLength": 710
     }
   }
 }

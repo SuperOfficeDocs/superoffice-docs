@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 274,
-  "TargetDimensionId": 619
+  "Year": 281,
+  "TargetDimensionId": 805
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 170,
+    "TargetAssignmentInfoId": 689,
     "Values": [
-      351,
-      497
+      801,
+      629
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 87,
-    "DimensionListItemDisplayName": "Tillman-Rowe",
+    "DimensionListItem": 167,
+    "DimensionListItemDisplayName": "Franecki, Dicki and Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 896
       }
     }
   }

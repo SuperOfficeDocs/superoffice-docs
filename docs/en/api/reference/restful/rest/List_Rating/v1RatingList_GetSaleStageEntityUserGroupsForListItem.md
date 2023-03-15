@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Stokes, Auer and Wilderman",
-    "ToolTip": "Enim dolorem voluptatem voluptatibus exercitationem molestiae.",
+    "Id": 485,
+    "Name": "Rutherford, Murazik and Powlowski",
+    "ToolTip": "Numquam sit incidunt incidunt.",
     "Deleted": false,
-    "Rank": 547,
-    "Type": "magnam",
-    "ColorBlock": 647,
-    "IconHint": "praesentium",
+    "Rank": 257,
+    "Type": "enim",
+    "ColorBlock": 573,
+    "IconHint": "hic",
     "Selected": false,
-    "LastChanged": "2009-11-14T11:22:46.1160093+01:00",
+    "LastChanged": "2016-01-20T12:15:28.3996146+01:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Aufderhar, Bauch and Marvin",
-        "ToolTip": "Omnis cupiditate consequatur voluptatem voluptatem sint necessitatibus.",
+        "Id": 210,
+        "Name": "Cassin-Goldner",
+        "ToolTip": "Illum laboriosam aliquid officiis facilis rerum.",
         "Deleted": true,
-        "Rank": 701,
-        "Type": "officiis",
-        "ColorBlock": 69,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2020-01-20T11:22:46.1160093+01:00",
+        "Rank": 892,
+        "Type": "quod",
+        "ColorBlock": 825,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2011-12-26T12:15:28.3996146+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Mr. Haley Madisen Fahey",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Mr. Melody Jed Hamill Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 586
+            "FieldType": "System.Int32",
+            "FieldLength": 524
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Prof. Rowland Anthony Kihn",
+    "ExtraInfo": "nulla",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Eugene Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 500
       }
     }
   }

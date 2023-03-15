@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 999,
-    "Name": "Considine, Metz and Flatley",
-    "Description": "Monitored exuding matrix",
-    "DeltaJson": "rem",
+    "ConfigurableScreenDeltaId": 223,
+    "Name": "Doyle-Emmerich",
+    "Description": "Up-sized bifurcated architecture",
+    "DeltaJson": "quas",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "sed",
-    "UpdatedDate": "2011-09-17T11:22:37.6179991+02:00",
-    "CreatedDate": "2007-11-19T11:22:37.6179991+01:00",
+    "RecipeId": "possimus",
+    "UpdatedDate": "2009-09-13T12:15:18.4237632+02:00",
+    "CreatedDate": "2000-03-29T12:15:18.4237632+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      578,
-      923
+      618,
+      233
     ],
-    "AppliesToKey": "inventore",
+    "AppliesToKey": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 840
       }
     }
   }

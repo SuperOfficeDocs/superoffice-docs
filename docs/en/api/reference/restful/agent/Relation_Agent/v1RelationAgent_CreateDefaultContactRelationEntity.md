@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 406,
-  "SourcePersonId": 602,
-  "DestinationContactId": 619,
-  "DestinationPersonId": 823,
-  "RelationId": 453,
-  "Comment": "minima",
-  "RelationDefinitionId": 838,
-  "Reversed": 250,
-  "UpdatedDate": "2002-03-30T11:22:38.9458129+01:00",
-  "CreatedDate": "2007-11-25T11:22:38.9458129+01:00",
+  "SourceContactId": 350,
+  "SourcePersonId": 577,
+  "DestinationContactId": 648,
+  "DestinationPersonId": 257,
+  "RelationId": 971,
+  "Comment": "eaque",
+  "RelationDefinitionId": 987,
+  "Reversed": 374,
+  "UpdatedDate": "2006-03-23T12:15:19.9757371+01:00",
+  "CreatedDate": "1999-04-13T12:15:19.9757371+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Leuschke, Ankunding and Schmidt",
-  "SourcePersonName": "Smitham-McKenzie",
-  "DestinationContactName": "Lubowitz LLC",
-  "DestinationPersonName": "Eichmann Group",
-  "ActiveText": "molestiae",
-  "PassiveText": "esse",
+  "SourceContactName": "Watsica LLC",
+  "SourcePersonName": "Bogisich, Wisoky and Harber",
+  "DestinationContactName": "Erdman, Willms and Hintz",
+  "DestinationPersonName": "Mitchell-Baumbach",
+  "ActiveText": "minus",
+  "PassiveText": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldType": "System.String",
+      "FieldLength": 905
     }
   }
 }

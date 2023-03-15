@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Windler LLC",
-    "Tooltip": "possimus",
-    "Deleted": false,
-    "Rank": 709,
-    "UdListDefinitionId": 173,
+    "HeadingId": 862,
+    "Name": "Douglas Inc and Sons",
+    "Tooltip": "corporis",
+    "Deleted": true,
+    "Rank": 697,
+    "UdListDefinitionId": 638,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 983
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

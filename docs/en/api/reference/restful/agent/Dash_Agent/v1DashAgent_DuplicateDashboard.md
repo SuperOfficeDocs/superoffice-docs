@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 58,
-  "Name": "Dicki, Simonis and Klein"
+  "DashboardId": 329,
+  "Name": "Herman Inc and Sons"
 }
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 516,
-  "UniqueId": "est",
-  "Name": "Carroll Inc and Sons",
-  "Description": "Open-architected systematic productivity",
-  "AssociateId": 730,
-  "Columns": 345,
+  "DashboardId": 996,
+  "UniqueId": "quo",
+  "Name": "Kovacek-Dibbert",
+  "Description": "Virtual optimal architecture",
+  "AssociateId": 104,
+  "Columns": 506,
   "Theme": null,
-  "VisibleForAll": 810,
+  "VisibleForAll": 587,
   "VisibleForAssociates": [
-    980,
-    411
+    806,
+    19
   ],
   "VisibleForGroups": [
-    164,
-    610
+    175,
+    959
   ],
-  "PinForAll": 14,
+  "PinForAll": 722,
   "PinForAssociates": [
-    610,
-    807
+    370,
+    239
   ],
   "PinForGroups": [
-    333,
-    202
+    210,
+    316
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 59
+      "FieldType": "System.Int32",
+      "FieldLength": 821
     }
   }
 }

@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 647,
-      "PrefDescId": 728,
-      "PrefValue": "porro",
-      "PrefShowValue": "minima",
-      "Description": "Programmable even-keeled success",
+      "PrefDescLineId": 850,
+      "PrefDescId": 930,
+      "PrefValue": "molestiae",
+      "PrefShowValue": "non",
+      "Description": "Centralized intangible benchmark",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 647,
-      "PrefDescId": 728,
-      "PrefValue": "porro",
-      "PrefShowValue": "minima",
-      "Description": "Programmable even-keeled success",
+      "PrefDescLineId": 850,
+      "PrefDescId": 930,
+      "PrefValue": "molestiae",
+      "PrefShowValue": "non",
+      "Description": "Centralized intangible benchmark",
       "IsBuiltin": false
     }
   ]
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 948,
-    "PrefDescId": 778,
-    "PrefValue": "beatae",
-    "PrefShowValue": "consectetur",
-    "Description": "Multi-channelled coherent moderator",
-    "IsBuiltin": true,
+    "PrefDescLineId": 1001,
+    "PrefDescId": 956,
+    "PrefValue": "quia",
+    "PrefShowValue": "cupiditate",
+    "Description": "Implemented scalable installation",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldLength": 634
       }
     }
   }

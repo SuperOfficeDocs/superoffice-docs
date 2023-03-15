@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 130,
-  "Name": "Schaden-Schinner",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "Rank": 394,
+  "Id": 953,
+  "Name": "Toy Group",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 72,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "ListType": "quam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldType": "System.String",
+      "FieldLength": 919
     }
   },
   "_Links": {

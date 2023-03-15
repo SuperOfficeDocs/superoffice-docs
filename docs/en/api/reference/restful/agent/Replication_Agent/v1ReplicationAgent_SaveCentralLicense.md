@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "McDermott Group",
-      "Description": "Cloned object-oriented circuit",
+      "Name": "Weber-Ratke",
+      "Description": "Fully-configurable modular productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "McDermott Group",
-      "Description": "Cloned object-oriented circuit",
+      "Name": "Weber-Ratke",
+      "Description": "Fully-configurable modular productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,30 +118,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfeffer-Fadel",
-    "Description": "Implemented systematic neural-net",
+    "Name": "Wisoky, Morissette and Ernser",
+    "Description": "Organic composite approach",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 40,
-        "Tooltip": "voluptate",
-        "CanAssign": true,
-        "Free": 491,
-        "InUse": 465,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 153,
-        "Name": "Hintz, Volkman and Ritchie",
-        "Description": "Multi-lateral background extranet",
-        "PrerequisiteModuleName": "Conroy Group",
-        "SortOrder": 913,
-        "ExtraFlags": 65,
+        "Total": 182,
+        "Tooltip": "ratione",
+        "CanAssign": false,
+        "Free": 420,
+        "InUse": 252,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 183,
+        "Name": "Jewess Group",
+        "Description": "Assimilated actuating system engine",
+        "PrerequisiteModuleName": "Luettgen Inc and Sons",
+        "SortOrder": 717,
+        "ExtraFlags": 733,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 753
           }
         }
       }
@@ -149,25 +149,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 221,
-        "Tooltip": "tenetur",
+        "Total": 602,
+        "Tooltip": "blanditiis",
         "CanAssign": false,
-        "Free": 546,
-        "InUse": 700,
+        "Free": 141,
+        "InUse": 297,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 187,
-        "Name": "Zemlak Inc and Sons",
-        "Description": "Multi-channelled interactive infrastructure",
-        "PrerequisiteModuleName": "Nikolaus-O'Reilly",
-        "SortOrder": 313,
-        "ExtraFlags": 699,
+        "Assigned": true,
+        "ModuleLicenseId": 783,
+        "Name": "Upton-Doyle",
+        "Description": "Right-sized client-server interface",
+        "PrerequisiteModuleName": "Streich-White",
+        "SortOrder": 518,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 305
           }
         }
       }
@@ -176,36 +176,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 779
       }
     }
   },
   {
-    "Name": "Pfeffer-Fadel",
-    "Description": "Implemented systematic neural-net",
+    "Name": "Wisoky, Morissette and Ernser",
+    "Description": "Organic composite approach",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 40,
-        "Tooltip": "voluptate",
-        "CanAssign": true,
-        "Free": 491,
-        "InUse": 465,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 153,
-        "Name": "Hintz, Volkman and Ritchie",
-        "Description": "Multi-lateral background extranet",
-        "PrerequisiteModuleName": "Conroy Group",
-        "SortOrder": 913,
-        "ExtraFlags": 65,
+        "Total": 182,
+        "Tooltip": "ratione",
+        "CanAssign": false,
+        "Free": 420,
+        "InUse": 252,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 183,
+        "Name": "Jewess Group",
+        "Description": "Assimilated actuating system engine",
+        "PrerequisiteModuleName": "Luettgen Inc and Sons",
+        "SortOrder": 717,
+        "ExtraFlags": 733,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 753
           }
         }
       }
@@ -213,25 +213,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 221,
-        "Tooltip": "tenetur",
+        "Total": 602,
+        "Tooltip": "blanditiis",
         "CanAssign": false,
-        "Free": 546,
-        "InUse": 700,
+        "Free": 141,
+        "InUse": 297,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 187,
-        "Name": "Zemlak Inc and Sons",
-        "Description": "Multi-channelled interactive infrastructure",
-        "PrerequisiteModuleName": "Nikolaus-O'Reilly",
-        "SortOrder": 313,
-        "ExtraFlags": 699,
+        "Assigned": true,
+        "ModuleLicenseId": 783,
+        "Name": "Upton-Doyle",
+        "Description": "Right-sized client-server interface",
+        "PrerequisiteModuleName": "Streich-White",
+        "SortOrder": 518,
+        "ExtraFlags": 570,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 305
           }
         }
       }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldType": "System.Int32",
+        "FieldLength": 779
       }
     }
   }

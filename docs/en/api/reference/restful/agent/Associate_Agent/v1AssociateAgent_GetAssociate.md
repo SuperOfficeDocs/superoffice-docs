@@ -25,7 +25,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=126
+POST /api/v1/Agents/Associate/GetAssociate?associateId=420
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 368,
-  "Name": "Rogahn Inc and Sons",
-  "PersonId": 383,
-  "Rank": 995,
-  "Tooltip": "eos",
+  "AssociateId": 813,
+  "Name": "Armstrong-Hilpert",
+  "PersonId": 840,
+  "Rank": 856,
+  "Tooltip": "ab",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 110,
-  "FullName": "Kaylah Pink Kutch I",
-  "FormalName": "Wiegand-Schaden",
+  "GroupIdx": 671,
+  "FullName": "Ms. Simeon Pollich",
+  "FormalName": "Emmerich Inc and Sons",
   "Deleted": false,
-  "EjUserId": 812,
-  "UserName": "Collins-Schumm",
+  "EjUserId": 513,
+  "UserName": "Feil Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 546
     }
   }
 }

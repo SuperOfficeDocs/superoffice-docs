@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 227,
-  "Name": "Stiedemann-Morar",
-  "Tooltip": "aperiam",
+  "Id": 366,
+  "Name": "Hegmann-Runolfsdottir",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 899,
+  "Rank": 201,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 284
+      "FieldLength": 821
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

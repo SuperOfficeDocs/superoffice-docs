@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 629,
-    "Name": "Lehner LLC",
-    "Tooltip": "nulla",
+    "Id": 560,
+    "Name": "Doyle-Gislason",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 685,
-    "Rank": 615,
+    "UdListDefinitionId": 949,
+    "Rank": 431,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldType": "System.Int32",
+        "FieldLength": 282
       }
     }
   }

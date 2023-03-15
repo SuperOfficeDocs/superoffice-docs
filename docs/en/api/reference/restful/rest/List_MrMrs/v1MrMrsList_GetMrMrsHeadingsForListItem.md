@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Hagenes, Metz and Collier",
-    "ToolTip": "Qui sed illo non illum dolorem.",
-    "Deleted": true,
-    "Rank": 697,
-    "Type": "animi",
-    "ColorBlock": 229,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2018-04-16T11:22:45.9441645+02:00",
+    "Id": 862,
+    "Name": "Willms, Wiegand and Streich",
+    "ToolTip": "Deserunt doloribus tempora ullam et.",
+    "Deleted": false,
+    "Rank": 281,
+    "Type": "sapiente",
+    "ColorBlock": 571,
+    "IconHint": "saepe",
+    "Selected": false,
+    "LastChanged": "2018-10-24T12:15:28.195618+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Ritchie, Wintheiser and Steuber",
-        "ToolTip": "Odio voluptate dolores.",
-        "Deleted": true,
-        "Rank": 581,
-        "Type": "aliquid",
-        "ColorBlock": 707,
-        "IconHint": "soluta",
-        "Selected": false,
-        "LastChanged": "2006-08-23T11:22:45.9597902+02:00",
+        "Id": 549,
+        "Name": "Emmerich, Kuphal and Haley",
+        "ToolTip": "Voluptatem non id.",
+        "Deleted": false,
+        "Rank": 474,
+        "Type": "quae",
+        "ColorBlock": 304,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2010-06-02T12:15:28.195618+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Kristopher Jenkins",
+        "ExtraInfo": "tempore",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Melissa Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 520
+            "FieldType": "System.String",
+            "FieldLength": 275
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "error",
-    "Hidden": true,
-    "FullName": "Ms. Kiera Williamson",
+    "ExtraInfo": "aut",
+    "StyleHint": "laudantium",
+    "Hidden": false,
+    "FullName": "Dr. Rubye Myrna Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldLength": 307
       }
     }
   }

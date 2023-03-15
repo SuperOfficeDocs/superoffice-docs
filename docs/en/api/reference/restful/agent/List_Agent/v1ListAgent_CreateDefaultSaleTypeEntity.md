@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 874,
-  "Name": "Rath, Ward and Powlowski",
-  "Tooltip": "autem",
-  "Rank": 474,
+  "SaleTypeId": 962,
+  "Name": "Terry, Gaylord and Botsford",
+  "Tooltip": "corporis",
+  "Rank": 907,
   "DurationUnit": "Century",
-  "SaleDuration": 300,
-  "SaleTypeCatId": 778,
-  "Deleted": false,
+  "SaleDuration": 627,
+  "SaleTypeCatId": 266,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 789,
-  "QuoteLinesTemplate": 352,
-  "ConfirmationLinesTemplate": 392,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 420,
+  "QuoteLinesTemplate": 697,
+  "ConfirmationLinesTemplate": 3,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 51,
-  "MinEarningPercent": 475,
-  "GroupQuoteLinesBy": 308,
-  "SortGroupLinesBy": 544,
+  "MaxDiscountPercent": 1002,
+  "MinEarningPercent": 417,
+  "GroupQuoteLinesBy": 133,
+  "SortGroupLinesBy": 507,
   "Stages": [
     {
-      "Id": 135,
-      "Name": "Brekke, Dicki and Mann",
-      "ToolTip": "Rem sit.",
+      "Id": 978,
+      "Name": "Ledner, Langworth and Lakin",
+      "ToolTip": "Et dolores nostrum temporibus enim accusamus.",
       "Deleted": true,
-      "Rank": 620,
-      "Type": "sed",
-      "ColorBlock": 431,
-      "IconHint": "enim",
-      "Selected": true,
-      "LastChanged": "2018-06-26T11:22:38.5396587+02:00",
+      "Rank": 757,
+      "Type": "sunt",
+      "ColorBlock": 25,
+      "IconHint": "magni",
+      "Selected": false,
+      "LastChanged": "2004-01-16T12:15:19.3377462+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quis",
-      "StyleHint": "veniam",
+      "ExtraInfo": "earum",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Prof. Joanny Reynolds II",
+      "FullName": "Mrs. Irma Gino Watsica IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldType": "System.String",
+          "FieldLength": 630
         }
       }
     }
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 271
     }
   }
 }

@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    911,
-    480
+    926,
+    271
   ]
 }
 ```
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 815,
-    "Attention": "vero",
-    "Header": "et",
-    "Name": "McDermott-Murazik",
-    "OurRef": "ducimus",
-    "YourRef": "consequatur",
-    "Description": "Virtual regional software",
-    "DocumentTemplate": "quia",
-    "IsPublished": false,
-    "PersonId": 121,
-    "PersonFullName": "Jaren Kian Swift PhD",
-    "AssociateFullName": "Cydney Cruickshank",
-    "ContactId": 392,
-    "ContactName": "Lynch, Koelpin and Moen",
-    "ProjectId": 935,
-    "ProjectName": "Hackett-Hoeger",
-    "AssociateId": 563,
-    "Snum": 559,
-    "SaleId": 241,
-    "SaleName": "Legros-O'Connell",
+    "DocumentId": 499,
+    "Attention": "rerum",
+    "Header": "ex",
+    "Name": "Kihn, Bauch and Stamm",
+    "OurRef": "inventore",
+    "YourRef": "incidunt",
+    "Description": "Organic actuating challenge",
+    "DocumentTemplate": "sunt",
+    "IsPublished": true,
+    "PersonId": 661,
+    "PersonFullName": "Mrs. Dustin Schaden",
+    "AssociateFullName": "Miss Hilbert Vance Mosciski DDS",
+    "ContactId": 34,
+    "ContactName": "Hegmann-Hettinger",
+    "ProjectId": 818,
+    "ProjectName": "Kuvalis LLC",
+    "AssociateId": 450,
+    "Snum": 753,
+    "SaleId": 197,
+    "SaleName": "Emmerich Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   }

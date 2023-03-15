@@ -56,21 +56,21 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abernathy-Pfannerstill",
-    "DisplayName": "Stanton-Homenick",
-    "DisplayTooltip": "modi",
-    "IsActive": false
+    "Name": "Mitchell Inc and Sons",
+    "DisplayName": "Johnston, Shields and Von",
+    "DisplayTooltip": "et",
+    "IsActive": true
   },
   {
-    "Name": "Abernathy-Pfannerstill",
-    "DisplayName": "Stanton-Homenick",
-    "DisplayTooltip": "modi",
-    "IsActive": false
+    "Name": "Mitchell Inc and Sons",
+    "DisplayName": "Johnston, Shields and Von",
+    "DisplayTooltip": "et",
+    "IsActive": true
   }
 ]
 ```

@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Dach, Kerluke and Lowe",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 299,
-  "IsCustomList": true,
+  "Id": 860,
+  "Name": "Weimann Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 374,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "ListType": "aperiam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 910,
-  "Name": "Funk LLC",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "Rank": 907,
+  "Id": 889,
+  "Name": "Schmidt Group",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 56,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dicta",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "inventore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

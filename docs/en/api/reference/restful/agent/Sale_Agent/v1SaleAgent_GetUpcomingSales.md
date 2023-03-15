@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 876,
-  "Count": 655
+  "WeightedAmountLimit": 403,
+  "Count": 921
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ratke, Herzog and Kulas",
-    "SaleDate": "2005-11-30T11:22:39.2425669+01:00",
-    "SaleId": 430,
-    "Probability": 328,
-    "Title": "labore",
-    "Amount": 15789.091999999999,
-    "Currency": "consequatur",
-    "ProjectName": "Vandervort-Greenfelder",
-    "AssociateFullName": "Emma Naomi Goldner MD",
-    "Description": "Ameliorated 24/7 software",
+    "ContactName": "Padberg Group",
+    "SaleDate": "2012-01-21T12:15:20.093735+01:00",
+    "SaleId": 955,
+    "Probability": 870,
+    "Title": "numquam",
+    "Amount": 22263.935999999998,
+    "Currency": "perspiciatis",
+    "ProjectName": "Welch, Collins and Turcotte",
+    "AssociateFullName": "Ford Borer",
+    "Description": "Versatile local portal",
     "Status": "Lost",
-    "WeightedAmount": 22398.698,
-    "ProjectId": 555,
-    "EarningPercent": 871.252,
-    "Earning": 31042.27,
-    "ContactId": 683,
-    "AssociateId": 218,
-    "PersonId": 554,
-    "SaleTypeId": 186,
-    "SaleTypeName": "Lemke-Leannon",
-    "PersonFullName": "Alvah Monahan",
+    "WeightedAmount": 19894.631999999998,
+    "ProjectId": 56,
+    "EarningPercent": 26012.2,
+    "Earning": 1695.494,
+    "ContactId": 713,
+    "AssociateId": 313,
+    "PersonId": 929,
+    "SaleTypeId": 349,
+    "SaleTypeName": "Macejkovic-Raynor",
+    "PersonFullName": "Casper Wiegand",
     "Completed": "Completed",
-    "ActiveErpLinks": 908,
-    "NextDueDate": "2016-03-07T11:22:39.2425669+01:00",
-    "Number": "1401333",
+    "ActiveErpLinks": 292,
+    "NextDueDate": "1996-01-29T12:15:20.093735+01:00",
+    "Number": "912665",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldLength": 570
       }
     }
   }

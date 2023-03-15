@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Stehr-Walsh",
-    "ToolTip": "Tenetur voluptas quia nostrum ea maiores asperiores perspiciatis.",
-    "Deleted": true,
-    "Rank": 158,
-    "Type": "sint",
-    "ColorBlock": 116,
-    "IconHint": "distinctio",
+    "Id": 579,
+    "Name": "Daniel, Davis and Douglas",
+    "ToolTip": "Aut perspiciatis.",
+    "Deleted": false,
+    "Rank": 81,
+    "Type": "quo",
+    "ColorBlock": 612,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2010-04-02T11:22:45.8816758+02:00",
+    "LastChanged": "2018-02-16T12:15:28.1016187+01:00",
     "ChildItems": [
       {
-        "Id": 975,
-        "Name": "Aufderhar LLC",
-        "ToolTip": "Quis dolores beatae consequatur est delectus.",
+        "Id": 345,
+        "Name": "McCullough Group",
+        "ToolTip": "Illo non repellat nam.",
         "Deleted": false,
-        "Rank": 397,
-        "Type": "rerum",
-        "ColorBlock": 123,
-        "IconHint": "minus",
+        "Rank": 649,
+        "Type": "earum",
+        "ColorBlock": 540,
+        "IconHint": "enim",
         "Selected": true,
-        "LastChanged": "2016-09-10T11:22:45.8816758+02:00",
+        "LastChanged": "2003-01-11T12:15:28.1016187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "sit",
+        "ExtraInfo": "nemo",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Geraldine Hudson"
+        "FullName": "Laverna Jones"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "eveniet",
-    "Hidden": false,
-    "FullName": "Zola Zemlak"
+    "ExtraInfo": "corporis",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Miss Angelica Monahan"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Bogisich, Wilderman and Doyle",
-    "ToolTip": "Voluptate ipsum officia nisi qui sit assumenda.",
+    "Id": 434,
+    "Name": "Parker Inc and Sons",
+    "ToolTip": "Ut ad quisquam possimus.",
     "Deleted": false,
-    "Rank": 384,
-    "Type": "et",
-    "ColorBlock": 269,
-    "IconHint": "ipsa",
+    "Rank": 269,
+    "Type": "rem",
+    "ColorBlock": 445,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2019-04-24T11:22:45.8816758+02:00",
+    "LastChanged": "2006-02-07T12:15:28.1026198+01:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Lowe Inc and Sons",
-        "ToolTip": "Vel facere libero in ipsa.",
+        "Id": 574,
+        "Name": "Williamson Group",
+        "ToolTip": "Libero alias similique quis labore.",
         "Deleted": false,
-        "Rank": 51,
-        "Type": "nulla",
-        "ColorBlock": 649,
-        "IconHint": "quasi",
+        "Rank": 24,
+        "Type": "molestias",
+        "ColorBlock": 826,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2005-09-07T11:22:45.8816758+02:00",
+        "LastChanged": "2016-09-05T12:15:28.1026198+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "quia",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Perry Cummerata",
+        "FullName": "Ryder Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 211
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "nihil",
+    "ExtraInfo": "sint",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Tyreek Windler",
+    "FullName": "Don O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 152
       }
     }
   }

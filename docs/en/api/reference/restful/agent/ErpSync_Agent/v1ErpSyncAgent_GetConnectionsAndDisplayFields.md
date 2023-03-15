@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 831
+  "EntityId": 340
 }
 ```
 
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 293,
-    "ConnectionName": "Kub-Schaefer",
-    "Connected": true,
+    "ErpConnectionId": 5,
+    "ConnectionName": "Crooks, Towne and Lehner",
+    "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "accusantium",
-        "Rank": 464,
-        "DisplayName": "Kirlin-Brekke",
-        "DisplayDescription": "Managed modular instruction set",
+        "FieldKey": "sint",
+        "Rank": 135,
+        "DisplayName": "Powlowski, Daugherty and Kiehn",
+        "DisplayDescription": "Digitized stable application",
         "FieldType": "Checkbox",
-        "ListName": "Balistreri Inc and Sons",
-        "DefaultValue": "quis",
-        "MaxLength": 337,
+        "ListName": "O'Connell Group",
+        "DefaultValue": "aut",
+        "MaxLength": 535,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 686
+            "FieldLength": 735
           }
         }
       }
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "dignissimos",
-      "magni"
+      "ad",
+      "dolor"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 80
       }
     }
   }

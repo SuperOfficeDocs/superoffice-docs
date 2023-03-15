@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 42,
-  "Name": "Corkery Group",
-  "Tooltip": "reprehenderit",
-  "Rank": 272,
+  "SaleTypeId": 484,
+  "Name": "Yost LLC",
+  "Tooltip": "laboriosam",
+  "Rank": 328,
   "DurationUnit": "Century",
-  "SaleDuration": 214,
-  "SaleTypeCatId": 730,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 242,
+  "SaleTypeCatId": 210,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 272,
-  "QuoteLinesTemplate": 226,
-  "ConfirmationLinesTemplate": 158,
+  "DefaultQuoteValidity": 120,
+  "QuoteLinesTemplate": 700,
+  "ConfirmationLinesTemplate": 762,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 960,
-  "MinEarningPercent": 775,
-  "GroupQuoteLinesBy": 13,
-  "SortGroupLinesBy": 654,
+  "MaxDiscountPercent": 187,
+  "MinEarningPercent": 327,
+  "GroupQuoteLinesBy": 245,
+  "SortGroupLinesBy": 409,
   "Stages": [
     {
-      "Id": 563,
-      "Name": "Kovacek, West and Price",
-      "ToolTip": "Voluptatibus nemo distinctio placeat harum ut sint vitae.",
+      "Id": 877,
+      "Name": "Morar, Cassin and Lakin",
+      "ToolTip": "Nam minima illo aliquam consectetur aut.",
       "Deleted": false,
-      "Rank": 552,
-      "Type": "ad",
-      "ColorBlock": 969,
-      "IconHint": "fuga",
+      "Rank": 273,
+      "Type": "occaecati",
+      "ColorBlock": 300,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2009-01-29T11:22:46.1784934+01:00",
+      "LastChanged": "2009-01-15T12:15:28.4726141+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "mollitia",
-      "StyleHint": "laboriosam",
-      "Hidden": true,
-      "FullName": "Miss Breana Monahan",
+      "ExtraInfo": "vel",
+      "StyleHint": "quisquam",
+      "Hidden": false,
+      "FullName": "Saige Pollich II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 488
         }
       }
     }
@@ -148,7 +148,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 879
+      "FieldLength": 390
     }
   }
 }

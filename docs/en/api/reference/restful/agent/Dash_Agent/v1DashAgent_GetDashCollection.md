@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,111 +78,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 800,
-      "UniqueId": "dolores",
-      "Name": "Herzog-Gorczany",
-      "Description": "Polarised maximized function",
-      "AssociateId": 344,
-      "Columns": 505,
+      "DashboardId": 638,
+      "UniqueId": "rerum",
+      "Name": "Rosenbaum LLC",
+      "Description": "Reverse-engineered responsive functionalities",
+      "AssociateId": 934,
+      "Columns": 284,
       "Theme": null,
-      "VisibleForAll": 818,
+      "VisibleForAll": 24,
       "VisibleForAssociates": [
-        373,
-        442
+        108,
+        680
       ],
       "VisibleForGroups": [
-        197,
-        25
+        266,
+        137
       ],
-      "PinForAll": 105,
+      "PinForAll": 234,
       "PinForAssociates": [
-        829,
-        53
+        894,
+        502
       ],
       "PinForGroups": [
-        971,
-        743
+        79,
+        87
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 703
+          "FieldLength": 539
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 589,
-      "UniqueId": "omnis",
-      "Name": "Shanahan LLC",
-      "Description": "Universal empowering middleware",
-      "AssociateId": 617,
-      "Columns": 648,
+      "DashboardId": 219,
+      "UniqueId": "vero",
+      "Name": "Wunsch-McLaughlin",
+      "Description": "Extended real-time info-mediaries",
+      "AssociateId": 768,
+      "Columns": 192,
       "Theme": null,
-      "VisibleForAll": 912,
+      "VisibleForAll": 14,
       "VisibleForAssociates": [
-        732,
-        975
+        68,
+        108
       ],
       "VisibleForGroups": [
-        161,
-        349
+        942,
+        244
       ],
-      "PinForAll": 643,
+      "PinForAll": 312,
       "PinForAssociates": [
-        252,
-        993
+        57,
+        634
       ],
       "PinForGroups": [
-        145,
-        955
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 664,
-      "UniqueId": "enim",
-      "Name": "Tillman, Dickens and Wuckert",
-      "Description": "Reduced even-keeled task-force",
-      "AssociateId": 586,
-      "Columns": 630,
-      "Theme": null,
-      "VisibleForAll": 196,
-      "VisibleForAssociates": [
-        677,
-        205
-      ],
-      "VisibleForGroups": [
-        853,
-        659
-      ],
-      "PinForAll": 444,
-      "PinForAssociates": [
-        959,
-        652
-      ],
-      "PinForGroups": [
-        613,
-        758
+        770,
+        557
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldLength": 345
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 273,
+      "UniqueId": "est",
+      "Name": "Yost-Paucek",
+      "Description": "Face to face zero defect Graphical User Interface",
+      "AssociateId": 849,
+      "Columns": 929,
+      "Theme": null,
+      "VisibleForAll": 260,
+      "VisibleForAssociates": [
+        715,
+        650
+      ],
+      "VisibleForGroups": [
+        237,
+        147
+      ],
+      "PinForAll": 290,
+      "PinForAssociates": [
+        105,
+        199
+      ],
+      "PinForGroups": [
+        596,
+        317
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 533
         }
       }
     }
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

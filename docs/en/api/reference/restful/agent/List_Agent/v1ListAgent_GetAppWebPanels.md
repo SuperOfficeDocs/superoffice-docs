@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 248,
-    "Name": "Brakus-Gulgowski",
-    "Tooltip": "ea",
+    "WebPanelId": 22,
+    "Name": "Schmitt, Sawayn and Kessler",
+    "Tooltip": "vero",
     "Deleted": true,
-    "Rank": 155,
+    "Rank": 893,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Ortiz, Durgan and Kuhn",
+    "ShowInStatusBar": false,
+    "WindowName": "Mertz-Maggio",
     "Url": "http://www.example.com/",
-    "ProgId": "labore",
-    "Icon": 385,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "in",
+    "Icon": 543,
+    "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldType": "System.String",
+        "FieldLength": 350
       }
     }
   }

@@ -91,27 +91,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 649,
-  "Name": "Torphy-Gutkowski",
-  "CreatedDate": "2018-06-13T11:22:44.8662479+02:00",
-  "UpdatedDate": "2017-08-28T11:22:44.8662479+02:00",
+  "ForeignAppId": 641,
+  "Name": "Wisoky, Gislason and Spencer",
+  "CreatedDate": "2000-09-05T12:15:26.9536393+02:00",
+  "UpdatedDate": "1997-08-11T12:15:26.9536393+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 195,
-      "Name": "Kuvalis Group",
-      "CreatedDate": "2016-02-15T11:22:44.8662479+01:00",
-      "UpdatedDate": "1999-11-01T11:22:44.8662479+01:00",
-      "AssociateFullName": "Mr. Percy Teresa Mann",
-      "CreatedBy": "laudantium",
-      "UpdatedBy": "incidunt",
-      "DeviceIdentifier": "possimus",
-      "ForeignAppId": 429
+      "ForeignDeviceId": 586,
+      "Name": "Jones-White",
+      "CreatedDate": "2022-09-22T12:15:26.9546357+02:00",
+      "UpdatedDate": "1996-07-01T12:15:26.9546357+02:00",
+      "AssociateFullName": "Ms. Gavin Lebsack DVM",
+      "CreatedBy": "eius",
+      "UpdatedBy": "molestiae",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 123
     }
   ]
 }
@@ -124,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 301,
-  "Name": "Upton, Walter and Jacobson",
-  "CreatedDate": "2010-09-21T11:22:44.8662479+02:00",
-  "UpdatedDate": "2001-04-01T11:22:44.8662479+02:00",
+  "ForeignAppId": 772,
+  "Name": "Tremblay-Ullrich",
+  "CreatedDate": "1997-03-18T12:15:26.956636+01:00",
+  "UpdatedDate": "2009-11-20T12:15:26.956636+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 514,
-      "Name": "Nikolaus Inc and Sons",
-      "CreatedDate": "2007-01-31T11:22:44.8662479+01:00",
-      "UpdatedDate": "2016-12-27T11:22:44.8662479+01:00",
-      "AssociateFullName": "Dane Herzog",
-      "CreatedBy": "veritatis",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "deserunt",
-      "ForeignAppId": 592,
+      "ForeignDeviceId": 878,
+      "Name": "Bergnaum-Stamm",
+      "CreatedDate": "1999-02-16T12:15:26.956636+01:00",
+      "UpdatedDate": "2017-12-03T12:15:26.956636+01:00",
+      "AssociateFullName": "Aniya Grady",
+      "CreatedBy": "enim",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 251,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 401
+          "FieldType": "System.Int32",
+          "FieldLength": 626
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 319
     }
   },
   "_Links": {

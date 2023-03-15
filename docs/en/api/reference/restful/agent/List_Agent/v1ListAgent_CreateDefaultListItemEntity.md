@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Larkin LLC",
-  "Tooltip": "rerum",
+  "Id": 765,
+  "Name": "Goyette, Volkman and Streich",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 777,
-  "Rank": 451,
+  "UdListDefinitionId": 882,
+  "Rank": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

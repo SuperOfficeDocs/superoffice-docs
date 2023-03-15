@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 03.01.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -38,6 +38,8 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IArchiveAgent'>
 * [GetAvailableEntities](getavailableentities.md)
 * [GetGroupAssociateIds](getgroupassociateids.md)
 * [GetProviderNames](getprovidernames.md)
+* [GetRelatedData](getrelateddata.md)
+* [GetRelatedData2](getrelateddata2.md)
 * [SetActivityFilter](setactivityfilter.md)
 * [SetChosenColumns](setchosencolumns.md)
 * [SetChosenColumnsV2](setchosencolumnsv2.md)

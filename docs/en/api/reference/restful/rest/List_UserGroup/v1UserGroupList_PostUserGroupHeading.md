@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 453,
-  "Name": "Gleason, Orn and Barrows",
-  "Tooltip": "impedit",
+  "HeadingId": 933,
+  "Name": "Will Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 780,
-  "UdListDefinitionId": 688
+  "Rank": 283,
+  "UdListDefinitionId": 216
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 163,
-  "Name": "O'Keefe-Smitham",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 97,
-  "UdListDefinitionId": 378,
+  "HeadingId": 858,
+  "Name": "Grady-Stark",
+  "Tooltip": "incidunt",
+  "Deleted": false,
+  "Rank": 903,
+  "UdListDefinitionId": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 621
     }
   }
 }

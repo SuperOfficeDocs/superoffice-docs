@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 715,
-  "Name": "Spencer-Witting",
+  "TicketPriorityId": 982,
+  "Name": "Thiel Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 459,
+  "SortOrder": 77,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 764,
-  "MonStart": "1997-12-14T11:22:38.5396587+01:00",
-  "MonStop": "2013-05-03T11:22:38.5396587+02:00",
-  "TueStart": "2015-04-29T11:22:38.5396587+02:00",
-  "TueStop": "2002-10-29T11:22:38.5396587+01:00",
-  "WedStart": "1998-05-10T11:22:38.5396587+02:00",
-  "WedStop": "1998-08-01T11:22:38.5396587+02:00",
-  "ThuStart": "2002-09-02T11:22:38.5396587+02:00",
-  "ThuStop": "2011-10-07T11:22:38.5396587+02:00",
-  "FriStart": "1996-10-16T11:22:38.5396587+02:00",
-  "FriStop": "2022-10-16T11:22:38.5396587+02:00",
-  "SatStart": "2013-12-22T11:22:38.5396587+01:00",
-  "SatStop": "2014-04-09T11:22:38.5396587+02:00",
-  "SunStart": "2012-02-26T11:22:38.5396587+01:00",
-  "SunStop": "2019-04-14T11:22:38.5396587+02:00",
+  "Deadline": 738,
+  "MonStart": "2013-02-27T12:15:19.3447461+01:00",
+  "MonStop": "2008-04-23T12:15:19.3447461+02:00",
+  "TueStart": "2006-01-14T12:15:19.3447461+01:00",
+  "TueStop": "2007-09-30T12:15:19.3447461+02:00",
+  "WedStart": "2002-02-12T12:15:19.3447461+01:00",
+  "WedStop": "2022-07-08T12:15:19.3447461+02:00",
+  "ThuStart": "1995-12-03T12:15:19.3447461+01:00",
+  "ThuStop": "2009-01-10T12:15:19.3447461+01:00",
+  "FriStart": "2000-07-15T12:15:19.3447461+02:00",
+  "FriStop": "2019-08-06T12:15:19.3447461+02:00",
+  "SatStart": "2021-01-14T12:15:19.3447461+01:00",
+  "SatStop": "2006-08-01T12:15:19.3447461+02:00",
+  "SunStart": "2017-10-21T12:15:19.3447461+02:00",
+  "SunStop": "2007-07-21T12:15:19.3447461+02:00",
   "NonDates": [
-    "magnam",
-    "tempora"
+    "fuga",
+    "blanditiis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 494,
-      "AlertLevel": 133,
-      "AlertTimeout": 250,
-      "Action": 121,
-      "DelegateTo": 413,
-      "ScriptId": 504,
-      "EmailTo": "zoila@morar.biz",
-      "SmsTo": "minus",
-      "ReplyTemplateIdCustomer": 282,
-      "ReplyTemplateIdUser": 112,
-      "ReplyTemplateIdCatmast": 214,
-      "ReplyTemplateIdEmail": 795,
-      "RtiCustomerSms": 944,
-      "ReplyTemplateIdUserSms": 8,
-      "ReplyTemplateIdCatmastSms": 283,
-      "ReplyTemplateIdSms": 26,
+      "TicketAlertId": 750,
+      "AlertLevel": 560,
+      "AlertTimeout": 645,
+      "Action": 60,
+      "DelegateTo": 387,
+      "ScriptId": 533,
+      "EmailTo": "wilford.sporer@toy.biz",
+      "SmsTo": "qui",
+      "ReplyTemplateIdCustomer": 132,
+      "ReplyTemplateIdUser": 90,
+      "ReplyTemplateIdCatmast": 831,
+      "ReplyTemplateIdEmail": 354,
+      "RtiCustomerSms": 204,
+      "ReplyTemplateIdUserSms": 911,
+      "ReplyTemplateIdCatmastSms": 773,
+      "ReplyTemplateIdSms": 392,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 392
     }
   }
 }

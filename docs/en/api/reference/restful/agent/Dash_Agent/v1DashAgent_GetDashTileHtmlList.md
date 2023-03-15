@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 428
+  "DashboardTileDefinitionId": 499
 }
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "modi",
-    "Html": "ratione",
+    "LanguageCode": "reiciendis",
+    "Html": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 960
       }
     }
   },
   {
-    "LanguageCode": "modi",
-    "Html": "ratione",
+    "LanguageCode": "reiciendis",
+    "Html": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 960
       }
     }
   }

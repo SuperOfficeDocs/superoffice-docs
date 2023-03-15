@@ -60,7 +60,7 @@ OK
 GET /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,5 +69,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"quod"
 ```

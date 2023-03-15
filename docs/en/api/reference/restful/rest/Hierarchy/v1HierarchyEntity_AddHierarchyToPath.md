@@ -18,7 +18,7 @@ Add a hierarchy item to a path
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
+| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards, EmailFlows | Type of items to get **Required** |
 | path | string | Hierarchy path to parent item **Required** |
 
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,46 +83,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 254,
+  "HierarchyId": 488,
   "Domain": "Dashboards",
-  "Name": "Cassin-Sanford",
-  "Fullname": "enim",
-  "ParentId": 498,
+  "Name": "Collins Inc and Sons",
+  "Fullname": "nisi",
+  "ParentId": 678,
   "Children": [
     {
-      "HierarchyId": 688,
+      "HierarchyId": 983,
       "Domain": "Dashboards",
-      "Name": "Klein Inc and Sons",
-      "Fullname": "architecto",
-      "ParentId": 607,
+      "Name": "Bradtke-Will",
+      "Fullname": "ex",
+      "ParentId": 193,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-05-28T11:22:44.8818691+02:00",
-      "RegisteredAssociateId": 161,
-      "Updated": "2000-01-31T11:22:44.8818691+01:00",
-      "UpdatedAssociateId": 547,
+      "Registered": "1996-07-15T12:15:26.9876377+02:00",
+      "RegisteredAssociateId": 414,
+      "Updated": "1997-05-16T12:15:26.9876377+02:00",
+      "UpdatedAssociateId": 635,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldType": "System.String",
+          "FieldLength": 985
         }
       }
     }
   ],
-  "Registered": "2016-05-17T11:22:44.8818691+02:00",
-  "RegisteredAssociateId": 529,
-  "Updated": "2006-11-18T11:22:44.8818691+01:00",
-  "UpdatedAssociateId": 158,
+  "Registered": "2007-06-23T12:15:26.9876377+02:00",
+  "RegisteredAssociateId": 757,
+  "Updated": "2018-07-12T12:15:26.9876377+02:00",
+  "UpdatedAssociateId": 954,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

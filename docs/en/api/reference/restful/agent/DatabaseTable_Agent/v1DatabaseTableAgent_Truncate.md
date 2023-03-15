@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Prohaska LLC"
+  "TableName": "Mraz-Spencer"
 }
 ```
 
@@ -95,40 +95,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "impedit",
-  "Inserts": 6,
-  "Updates": 28,
-  "Deletes": 608,
+  "Message": "officiis",
+  "Inserts": 576,
+  "Updates": 128,
+  "Deletes": 546,
   "RowStatus": [
     {
-      "PrimaryKey": 385,
+      "PrimaryKey": 87,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "culpa"
+        "dolor",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldType": "System.Int32",
+          "FieldLength": 675
         }
       }
     },
     {
-      "PrimaryKey": 385,
+      "PrimaryKey": 87,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nihil",
-        "culpa"
+        "dolor",
+        "quasi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldType": "System.Int32",
+          "FieldLength": 675
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 317
     }
   }
 }

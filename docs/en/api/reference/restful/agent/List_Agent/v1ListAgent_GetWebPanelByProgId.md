@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "non"
+  "ProgId": "atque"
 }
 ```
 
@@ -107,11 +107,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 355,
-  "Name": "Morar, Stokes and Kshlerin",
-  "Tooltip": "laborum",
+  "WebPanelId": 231,
+  "Name": "Nitzsche LLC",
+  "Tooltip": "temporibus",
   "Deleted": true,
-  "Rank": 446,
+  "Rank": 268,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -119,21 +119,21 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Reichel, Cartwright and Volkman",
+  "WindowName": "Brekke LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "cum",
-  "Icon": 975,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "eos",
+  "Icon": 190,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 312
     }
   }
 }

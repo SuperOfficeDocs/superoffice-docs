@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Chat/IsWithinOpeningHours
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 634
+  "ChatTopicId": 871
 }
 ```
 

@@ -88,21 +88,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 940,
-  "Name": "Bradtke, Murray and Ebert",
-  "Tooltip": "voluptatibus",
-  "Rank": 325,
-  "Deleted": false,
-  "DaysFuture": 671,
-  "Duration": "dicta",
-  "AutoSuggest": false,
-  "IsMilestone": true,
-  "AssignToMember": true,
-  "Text": "eaque",
+  "SuggestedAppointmentId": 742,
+  "Name": "Jaskolski, Williamson and Runolfsdottir",
+  "Tooltip": "magnam",
+  "Rank": 918,
+  "Deleted": true,
+  "DaysFuture": 340,
+  "Duration": "doloremque",
+  "AutoSuggest": true,
+  "IsMilestone": false,
+  "AssignToMember": false,
+  "Text": "sed",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 685,
-  "Name": "Rau-Kuhlman",
-  "Tooltip": "est",
-  "Rank": 952,
-  "Deleted": true,
-  "DaysFuture": 793,
-  "Duration": "et",
+  "SuggestedAppointmentId": 726,
+  "Name": "Kunde Group",
+  "Tooltip": "expedita",
+  "Rank": 370,
+  "Deleted": false,
+  "DaysFuture": 109,
+  "Duration": "magni",
   "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "enim",
+  "Text": "magni",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 217
     }
   }
 }

@@ -92,7 +92,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 584,
-  "ColumnId": 57,
-  "FieldDefault": "corporis",
-  "FieldHeight": 574,
-  "FieldLabel": "optio",
-  "FieldLeft": 501,
-  "FieldTop": 253,
+  "UDefFieldId": 890,
+  "ColumnId": 825,
+  "FieldDefault": "totam",
+  "FieldHeight": 135,
+  "FieldLabel": "eligendi",
+  "FieldLeft": 55,
+  "FieldTop": 882,
   "FieldType": "Checkbox",
-  "FieldWidth": 783,
-  "FormatMask": "voluptatum",
-  "HideLabel": true,
+  "FieldWidth": 864,
+  "FormatMask": "est",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 243,
-  "LabelLeft": 494,
-  "LabelTop": 857,
-  "LabelWidth": 332,
-  "LastVersionId": 691,
-  "ListTableId": 636,
-  "IsMandatory": false,
+  "LabelHeight": 758,
+  "LabelLeft": 167,
+  "LabelTop": 425,
+  "LabelWidth": 88,
+  "LastVersionId": 53,
+  "ListTableId": 435,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 503,
-  "ProgId": "impedit",
+  "Page1LineNo": 523,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "in",
-  "TabOrder": 259,
-  "TextLength": 747,
-  "Tooltip": "cum",
-  "UdefIdentity": 929,
-  "UDListDefinitionId": 371,
+  "ShortLabel": "et",
+  "TabOrder": 641,
+  "TextLength": 480,
+  "Tooltip": "possimus",
+  "UdefIdentity": 911,
+  "UDListDefinitionId": 836,
   "Justification": "Center",
-  "Version": 311,
-  "TemplateVariableName": "Lynch Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Bashirian, Crona and Corkery",
+  "Version": 145,
+  "TemplateVariableName": "Bogisich, Roberts and McClure",
+  "HasBeenPublished": false,
+  "MdoListName": "Huel, Sanford and Skiles",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 411
     }
   }
 }

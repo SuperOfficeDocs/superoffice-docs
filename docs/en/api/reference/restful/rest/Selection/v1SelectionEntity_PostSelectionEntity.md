@@ -155,60 +155,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Stand-alone non-volatile knowledge user",
-  "Postit": "possimus",
+  "Description": "Persistent regional extranet",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 972,
-  "IncludePerson": 619,
-  "MemberCount": 362,
-  "Name": "Beer-Pollich",
-  "PostitTextId": 60,
-  "CreatedDate": "2014-06-15T11:22:45.1943375+02:00",
-  "SelectionId": 533,
-  "SoundEx": "necessitatibus",
-  "Source": 70,
-  "TextId": 425,
-  "UpdatedDate": "2004-06-20T11:22:45.1943375+02:00",
-  "UpdatedCount": 566,
-  "Visibility": 63,
+  "GroupIdx": 708,
+  "IncludePerson": 538,
+  "MemberCount": 259,
+  "Name": "Kuvalis LLC",
+  "PostitTextId": 913,
+  "CreatedDate": "2022-08-23T12:15:27.3586305+02:00",
+  "SelectionId": 942,
+  "SoundEx": "ducimus",
+  "Source": 222,
+  "TextId": 727,
+  "UpdatedDate": "2015-11-15T12:15:27.3586305+01:00",
+  "UpdatedCount": 912,
+  "Visibility": 851,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 387,
-  "TargetTableName": "Rodriguez, Bergnaum and Rutherford",
-  "Completed": true,
-  "LeftSelectionId": 751,
-  "RightSelectionId": 245,
+  "TargetTableNumber": 351,
+  "TargetTableName": "Bosco, Lockman and Jewess",
+  "Completed": false,
+  "LeftSelectionId": 401,
+  "RightSelectionId": 914,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Conroy Group",
-  "ShadowProviderName": "Marvin Inc and Sons",
-  "ChartKey": "consectetur",
-  "LastLoaded": "2021-07-02T11:22:45.1943375+02:00",
-  "LastLoadedBy": 225,
+  "MainProviderName": "Lueilwitz, Gaylord and Ankunding",
+  "ShadowProviderName": "Hilll Group",
+  "ChartKey": "qui",
+  "LastLoaded": "2007-11-25T12:15:27.3596298+01:00",
+  "LastLoadedBy": 535,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1997-02-05T11:22:45.1943375+01:00",
-  "LastMembershipChangeBy": 251,
+  "LastMembershipChange": "2018-02-17T12:15:27.3596298+01:00",
+  "LastMembershipChangeBy": 580,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "commodi",
-  "MemberTabHeading": "cum",
-  "MailingsProviderName": "Zulauf LLC",
-  "DashboardTileDefinitionId": 64,
+  "MainHeading": "eos",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Macejkovic, Durgan and Lehner",
+  "DashboardTileDefinitionId": 392,
   "VisibleFor": [
     {
-      "VisibleId": 846,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "maiores"
     },
     {
-      "VisibleId": 846,
+      "VisibleId": 40,
       "Visibility": "All",
-      "DisplayValue": "eos"
+      "DisplayValue": "maiores"
     }
   ]
 }
@@ -221,70 +221,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Intuitive contextually-based focus group",
-  "Postit": "dolores",
+  "Description": "Decentralized bandwidth-monitored groupware",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 807,
-  "IncludePerson": 31,
-  "MemberCount": 981,
-  "Name": "Waters-Stehr",
-  "PostitTextId": 637,
-  "CreatedDate": "2016-11-27T11:22:45.1943375+01:00",
-  "SelectionId": 974,
-  "SoundEx": "dolor",
-  "Source": 892,
-  "TextId": 749,
-  "UpdatedDate": "2003-10-15T11:22:45.1943375+02:00",
-  "UpdatedCount": 290,
-  "Visibility": 854,
+  "GroupIdx": 24,
+  "IncludePerson": 459,
+  "MemberCount": 452,
+  "Name": "Becker, Witting and Eichmann",
+  "PostitTextId": 513,
+  "CreatedDate": "2006-04-09T12:15:27.3646272+02:00",
+  "SelectionId": 74,
+  "SoundEx": "et",
+  "Source": 641,
+  "TextId": 549,
+  "UpdatedDate": "1999-05-16T12:15:27.3646272+02:00",
+  "UpdatedCount": 407,
+  "Visibility": 248,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 641,
-  "TargetTableName": "Quitzon, Mills and Bode",
+  "CompanyUnique": false,
+  "TargetTableNumber": 680,
+  "TargetTableName": "Bechtelar Group",
   "Completed": true,
-  "LeftSelectionId": 730,
-  "RightSelectionId": 74,
+  "LeftSelectionId": 778,
+  "RightSelectionId": 800,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Price Group",
-  "ShadowProviderName": "Hayes, Ledner and Lebsack",
-  "ChartKey": "vel",
-  "LastLoaded": "2011-11-17T11:22:45.1943375+01:00",
-  "LastLoadedBy": 543,
+  "MainProviderName": "Effertz, Dach and Balistreri",
+  "ShadowProviderName": "Lehner, Fisher and Kshlerin",
+  "ChartKey": "assumenda",
+  "LastLoaded": "2018-04-01T12:15:27.3646272+02:00",
+  "LastLoadedBy": 730,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-03-02T11:22:45.1943375+01:00",
-  "LastMembershipChangeBy": 158,
+  "LastMembershipChange": "2010-12-01T12:15:27.3646272+01:00",
+  "LastMembershipChangeBy": 530,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "atque",
-  "MemberTabHeading": "consequuntur",
-  "MailingsProviderName": "Brown, Wuckert and Kshlerin",
-  "DashboardTileDefinitionId": 236,
+  "MainHeading": "illum",
+  "MemberTabHeading": "atque",
+  "MailingsProviderName": "Morar, Aufderhar and Swift",
+  "DashboardTileDefinitionId": 689,
   "VisibleFor": [
     {
-      "VisibleId": 679,
+      "VisibleId": 44,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 152
         }
       }
     },
     {
-      "VisibleId": 679,
+      "VisibleId": 44,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 152
         }
       }
     }
@@ -294,7 +294,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 938
     }
   },
   "_Links": {

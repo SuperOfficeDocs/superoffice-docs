@@ -26,7 +26,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -93,7 +93,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,60 +104,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 429,
-    "Name": "Schmitt, Marks and Bradtke",
+    "TicketPriorityId": 166,
+    "Name": "Goldner LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 902,
+    "SortOrder": 443,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 7,
-    "MonStart": "2019-07-09T11:22:46.2409792+02:00",
-    "MonStop": "2018-02-15T11:22:46.2409792+01:00",
-    "TueStart": "2013-12-04T11:22:46.2409792+01:00",
-    "TueStop": "2011-01-13T11:22:46.2409792+01:00",
-    "WedStart": "2001-09-04T11:22:46.2409792+02:00",
-    "WedStop": "2007-09-25T11:22:46.2409792+02:00",
-    "ThuStart": "1996-10-31T11:22:46.2409792+01:00",
-    "ThuStop": "2005-05-15T11:22:46.2409792+02:00",
-    "FriStart": "2018-03-24T11:22:46.2409792+01:00",
-    "FriStop": "2004-08-05T11:22:46.2409792+02:00",
-    "SatStart": "2007-11-19T11:22:46.2409792+01:00",
-    "SatStop": "2014-09-10T11:22:46.2409792+02:00",
-    "SunStart": "2008-10-19T11:22:46.2409792+02:00",
-    "SunStop": "2012-09-23T11:22:46.2409792+02:00",
+    "Deadline": 922,
+    "MonStart": "1999-08-13T12:15:28.5556193+02:00",
+    "MonStop": "1996-09-20T12:15:28.5556193+02:00",
+    "TueStart": "2005-02-07T12:15:28.5556193+01:00",
+    "TueStop": "2005-05-08T12:15:28.5556193+02:00",
+    "WedStart": "2020-03-26T12:15:28.5556193+01:00",
+    "WedStop": "2014-09-30T12:15:28.5556193+02:00",
+    "ThuStart": "1997-03-02T12:15:28.5556193+01:00",
+    "ThuStop": "2017-02-28T12:15:28.5556193+01:00",
+    "FriStart": "2011-02-08T12:15:28.5556193+01:00",
+    "FriStop": "2013-05-03T12:15:28.5556193+02:00",
+    "SatStart": "2021-11-14T12:15:28.5556193+01:00",
+    "SatStop": "2011-04-18T12:15:28.5556193+02:00",
+    "SunStart": "2007-09-19T12:15:28.5556193+02:00",
+    "SunStop": "2010-10-05T12:15:28.5556193+02:00",
     "NonDates": [
-      "omnis",
-      "recusandae"
+      "vel",
+      "similique"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 1002,
-        "AlertLevel": 27,
-        "AlertTimeout": 439,
-        "Action": 344,
-        "DelegateTo": 427,
-        "ScriptId": 77,
-        "EmailTo": "ernesto.yundt@feil.co.uk",
-        "SmsTo": "eum",
-        "ReplyTemplateIdCustomer": 502,
-        "ReplyTemplateIdUser": 521,
-        "ReplyTemplateIdCatmast": 691,
-        "ReplyTemplateIdEmail": 497,
-        "RtiCustomerSms": 32,
-        "ReplyTemplateIdUserSms": 584,
-        "ReplyTemplateIdCatmastSms": 432,
-        "ReplyTemplateIdSms": 870,
+        "TicketAlertId": 413,
+        "AlertLevel": 590,
+        "AlertTimeout": 709,
+        "Action": 705,
+        "DelegateTo": 714,
+        "ScriptId": 208,
+        "EmailTo": "hillary@mosciski.name",
+        "SmsTo": "et",
+        "ReplyTemplateIdCustomer": 157,
+        "ReplyTemplateIdUser": 90,
+        "ReplyTemplateIdCatmast": 462,
+        "ReplyTemplateIdEmail": 492,
+        "RtiCustomerSms": 256,
+        "ReplyTemplateIdUserSms": 709,
+        "ReplyTemplateIdCatmastSms": 577,
+        "ReplyTemplateIdSms": 388,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 30
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 571
       }
     }
   }

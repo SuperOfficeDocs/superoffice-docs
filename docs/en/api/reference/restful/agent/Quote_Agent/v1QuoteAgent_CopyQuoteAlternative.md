@@ -100,9 +100,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 209,
-  "QuoteAlternativeId": 462,
-  "QuoteAlternativeName": "Skiles-McClure"
+  "QuoteVersionId": 80,
+  "QuoteAlternativeId": 502,
+  "QuoteAlternativeName": "Friesen Group"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 179,
-  "ERPQuoteAlternativeKey": "ut",
-  "QuoteVersionId": 353,
-  "Name": "Considine LLC",
-  "Description": "Devolved exuding paradigm",
+  "QuoteAlternativeId": 972,
+  "ERPQuoteAlternativeKey": "perspiciatis",
+  "QuoteVersionId": 473,
+  "Name": "Eichmann, Padberg and Haag",
+  "Description": "De-engineered bandwidth-monitored hub",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 11786.974,
-  "ERPDiscountAmount": 29660.176,
-  "DiscountPercent": 5356.0059999999994,
-  "DiscountAmount": 17757.244,
+  "ERPDiscountPercent": 18199.138,
+  "ERPDiscountAmount": 8906.828,
+  "DiscountPercent": 908.86,
+  "DiscountAmount": 15917.586,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "rem",
-  "VAT": 11765.036,
-  "EarningPercent": 4149.416,
-  "EarningAmount": 7142.3859999999995,
-  "SubTotal": 24316.706,
-  "TotalPrice": 23348.3,
-  "ExtraField1": "est",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "exercitationem",
-  "ExtraField4": "qui",
+  "VATInfo": "ipsum",
+  "VAT": 4691.598,
+  "EarningPercent": 24470.272,
+  "EarningAmount": 29986.111999999997,
+  "SubTotal": 2535.406,
+  "TotalPrice": 15635.526,
+  "ExtraField1": "aliquid",
+  "ExtraField2": "qui",
+  "ExtraField3": "dolores",
+  "ExtraField4": "nemo",
   "ExtraField5": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

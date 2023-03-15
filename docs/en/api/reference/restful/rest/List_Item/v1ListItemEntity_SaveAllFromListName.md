@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 554,
-    "Name": "Howe Group",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "UdListDefinitionId": 451,
-    "Rank": 64
+    "Id": 402,
+    "Name": "Haag, Erdman and Walter",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "UdListDefinitionId": 392,
+    "Rank": 1000
   },
   {
-    "Id": 554,
-    "Name": "Howe Group",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "UdListDefinitionId": 451,
-    "Rank": 64
+    "Id": 402,
+    "Name": "Haag, Erdman and Walter",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "UdListDefinitionId": 392,
+    "Rank": 1000
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Breitenberg Inc and Sons",
-    "Tooltip": "veritatis",
-    "Deleted": false,
-    "UdListDefinitionId": 356,
-    "Rank": 362,
+    "Id": 129,
+    "Name": "Casper, Hickle and Mraz",
+    "Tooltip": "quisquam",
+    "Deleted": true,
+    "UdListDefinitionId": 514,
+    "Rank": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 267
       }
     }
   }

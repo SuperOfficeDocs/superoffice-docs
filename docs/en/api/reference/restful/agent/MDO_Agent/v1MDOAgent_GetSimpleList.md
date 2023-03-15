@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bogisich-Rath"
+  "Name": "Vandervort Group"
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Williamson-Larson",
-    "ToolTip": "Distinctio eligendi.",
+    "Id": 459,
+    "Name": "Abbott, Bruen and Douglas",
+    "ToolTip": "Natus error.",
     "Deleted": false,
-    "Rank": 826,
-    "Type": "assumenda",
+    "Rank": 485,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Farrell-Dooley",
-        "ToolTip": "Ex porro voluptas natus accusantium aut.",
-        "Deleted": true,
-        "Rank": 851,
-        "Type": "repellat",
+        "Id": 413,
+        "Name": "Schulist, Schroeder and Fritsch",
+        "ToolTip": "Veritatis a nemo reiciendis cumque enim.",
+        "Deleted": false,
+        "Rank": 215,
+        "Type": "reiciendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 961,
-        "ExtraInfo": "sequi",
-        "StyleHint": "suscipit",
-        "FullName": "Mrs. Katelyn Ramiro Armstrong",
+        "IconHint": "ut",
+        "ColorBlock": 579,
+        "ExtraInfo": "est",
+        "StyleHint": "cumque",
+        "FullName": "Xander Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 889
+            "FieldLength": 636
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 146,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "reprehenderit",
-    "FullName": "Jaiden Spencer",
+    "IconHint": "omnis",
+    "ColorBlock": 87,
+    "ExtraInfo": "eos",
+    "StyleHint": "excepturi",
+    "FullName": "Jermey Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 593
       }
     }
   }

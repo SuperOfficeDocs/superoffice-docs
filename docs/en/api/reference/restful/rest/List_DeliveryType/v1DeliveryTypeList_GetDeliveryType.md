@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Name": "McLaughlin-Hills",
-  "Tooltip": "sequi",
+  "Id": 474,
+  "Name": "Bechtelar-Kertzmann",
+  "Tooltip": "eius",
   "Deleted": false,
-  "UdListDefinitionId": 681,
-  "Rank": 236,
+  "UdListDefinitionId": 436,
+  "Rank": 670,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 687
+      "FieldLength": 538
     }
   }
 }

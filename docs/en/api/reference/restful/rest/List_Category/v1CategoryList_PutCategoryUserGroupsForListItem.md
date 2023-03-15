@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Hermiston LLC",
-    "ToolTip": "Cumque quia.",
+    "Id": 357,
+    "Name": "Schneider Group",
+    "ToolTip": "Autem aliquid.",
     "Deleted": false,
-    "Rank": 758,
-    "Type": "cumque",
-    "ColorBlock": 174,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2006-01-08T11:22:45.7879071+01:00",
+    "Rank": 807,
+    "Type": "recusandae",
+    "ColorBlock": 653,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2003-05-12T12:15:27.8916223+02:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Morissette-Mayer",
-        "ToolTip": "Et quia eligendi esse tenetur.",
+        "Id": 746,
+        "Name": "Bartell-Fritsch",
+        "ToolTip": "Pariatur non tempora voluptatem mollitia sapiente voluptas voluptas.",
         "Deleted": false,
-        "Rank": 321,
-        "Type": "laboriosam",
-        "ColorBlock": 555,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2003-03-26T11:22:45.7879071+01:00",
+        "Rank": 897,
+        "Type": "facere",
+        "ColorBlock": 444,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2009-09-02T12:15:27.8916223+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Palma Thompson"
+        "ExtraInfo": "sit",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Jarred Hirthe"
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Hans Langosh IV"
+    "FullName": "Brycen Hauck"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Beer Group",
-    "ToolTip": "Dolorum ut sunt.",
-    "Deleted": true,
-    "Rank": 978,
-    "Type": "sed",
-    "ColorBlock": 893,
-    "IconHint": "et",
+    "Id": 415,
+    "Name": "Bradtke-Doyle",
+    "ToolTip": "Corrupti qui quia architecto.",
+    "Deleted": false,
+    "Rank": 941,
+    "Type": "dolorum",
+    "ColorBlock": 269,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2004-05-16T11:22:45.7879071+02:00",
+    "LastChanged": "2009-08-05T12:15:27.8926253+02:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "McGlynn, Jacobson and Bartoletti",
-        "ToolTip": "Voluptate eligendi sapiente laboriosam quibusdam officia non porro.",
-        "Deleted": false,
-        "Rank": 723,
-        "Type": "quasi",
-        "ColorBlock": 842,
-        "IconHint": "deleniti",
+        "Id": 391,
+        "Name": "Boehm, Kihn and O'Reilly",
+        "ToolTip": "Mollitia et.",
+        "Deleted": true,
+        "Rank": 846,
+        "Type": "magni",
+        "ColorBlock": 996,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2018-04-11T11:22:45.7879071+02:00",
+        "LastChanged": "2020-10-13T12:15:27.8926253+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "velit",
-        "Hidden": false,
-        "FullName": "Ollie Ondricka",
+        "ExtraInfo": "quia",
+        "StyleHint": "quaerat",
+        "Hidden": true,
+        "FullName": "Corine Monahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 908
+            "FieldType": "System.String",
+            "FieldLength": 253
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "id",
+    "StyleHint": "aspernatur",
     "Hidden": false,
-    "FullName": "Rasheed Keeling",
+    "FullName": "Marquise Rolfson DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldLength": 24
       }
     }
   }

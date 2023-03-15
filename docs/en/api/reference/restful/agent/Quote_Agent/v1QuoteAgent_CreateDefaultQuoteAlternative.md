@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 992,
-  "ERPQuoteAlternativeKey": "saepe",
-  "QuoteVersionId": 587,
-  "Name": "Gerhold, Hackett and Conn",
-  "Description": "Networked multi-tasking conglomeration",
+  "QuoteAlternativeId": 302,
+  "ERPQuoteAlternativeKey": "minus",
+  "QuoteVersionId": 284,
+  "Name": "Hartmann Inc and Sons",
+  "Description": "Advanced cohesive help-desk",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 23304.424,
-  "ERPDiscountAmount": 20816.028,
-  "DiscountPercent": 20950.79,
-  "DiscountAmount": 23906.152,
+  "ERPDiscountPercent": 12517.196,
+  "ERPDiscountAmount": 523.37799999999993,
+  "DiscountPercent": 2272.15,
+  "DiscountAmount": 1523.124,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 5142.894,
-  "EarningPercent": 14848.892,
-  "EarningAmount": 5920.126,
-  "SubTotal": 17750.976,
-  "TotalPrice": 21339.406,
-  "ExtraField1": "in",
-  "ExtraField2": "non",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "repudiandae",
-  "ExtraField5": "eum",
+  "VATInfo": "aliquid",
+  "VAT": 43.876,
+  "EarningPercent": 10370.405999999999,
+  "EarningAmount": 29215.147999999997,
+  "SubTotal": 27692.023999999998,
+  "TotalPrice": 9872.1,
+  "ExtraField1": "dolore",
+  "ExtraField2": "quo",
+  "ExtraField3": "eius",
+  "ExtraField4": "et",
+  "ExtraField5": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldLength": 556
     }
   }
 }

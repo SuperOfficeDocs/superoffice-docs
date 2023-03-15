@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 768
+  "TargetDimensionId": 821
 }
 ```
 
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 496,
+    "TargetAssignmentInfoId": 28,
     "Values": [
-      691,
-      972
+      618,
+      663
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 344,
-    "DimensionListItemDisplayName": "DuBuque-Gaylord",
+    "DimensionListItem": 52,
+    "DimensionListItemDisplayName": "Keebler, Howell and Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 147
+        "FieldLength": 288
       }
     }
   }

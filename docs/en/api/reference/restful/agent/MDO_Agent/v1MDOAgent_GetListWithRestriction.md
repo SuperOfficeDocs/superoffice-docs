@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Homenick-Wyman",
-  "AdditionalInfo": "inventore",
-  "SearchValue": "et"
+  "Name": "Herman, Medhurst and Rempel",
+  "AdditionalInfo": "voluptatem",
+  "SearchValue": "perferendis"
 }
 ```
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 28,
-    "Name": "Crist-Schmitt",
-    "ToolTip": "Vero ex cumque.",
+    "Id": 386,
+    "Name": "Walter, Balistreri and Romaguera",
+    "ToolTip": "Dignissimos voluptates qui doloremque omnis ab.",
     "Deleted": false,
-    "Rank": 861,
-    "Type": "odio",
+    "Rank": 324,
+    "Type": "exercitationem",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Russel Inc and Sons",
-        "ToolTip": "Qui molestiae earum sint.",
-        "Deleted": true,
-        "Rank": 686,
-        "Type": "reprehenderit",
+        "Id": 400,
+        "Name": "Schamberger, Skiles and Pollich",
+        "ToolTip": "Maiores mollitia quia autem sunt.",
+        "Deleted": false,
+        "Rank": 647,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 370,
-        "ExtraInfo": "dolores",
-        "StyleHint": "quisquam",
-        "FullName": "Mrs. Leonie Jewel Schiller",
+        "IconHint": "dicta",
+        "ColorBlock": 485,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "est",
+        "FullName": "Mr. Alexanne Sabina Howell II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 355
+            "FieldType": "System.String",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 588,
-    "ExtraInfo": "sed",
-    "StyleHint": "animi",
-    "FullName": "Delpha McCullough",
+    "IconHint": "magnam",
+    "ColorBlock": 865,
+    "ExtraInfo": "error",
+    "StyleHint": "expedita",
+    "FullName": "Arianna Kiel Schinner Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 623
+        "FieldType": "System.Int32",
+        "FieldLength": 512
       }
     }
   }

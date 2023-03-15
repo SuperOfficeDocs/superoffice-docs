@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 647,
+  "Id": 797,
   "Entity": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 815,
-  "Name": "Howe LLC",
-  "Tooltip": "ipsum",
+  "HeadingId": 868,
+  "Name": "Koss, Johnston and Lesch",
+  "Tooltip": "maxime",
   "Deleted": true,
-  "Rank": 630,
-  "UdListDefinitionId": 257,
+  "Rank": 884,
+  "UdListDefinitionId": 136,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 656
+      "FieldType": "System.Int32",
+      "FieldLength": 955
     }
   }
 }

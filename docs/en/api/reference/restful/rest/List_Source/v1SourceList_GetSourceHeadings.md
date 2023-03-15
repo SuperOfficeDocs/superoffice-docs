@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 368,
-    "Name": "Effertz, O'Hara and Hirthe",
-    "Tooltip": "itaque",
+    "HeadingId": 239,
+    "Name": "Pfannerstill-Hayes",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 853,
-    "UdListDefinitionId": 367,
+    "Rank": 762,
+    "UdListDefinitionId": 298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldType": "System.String",
+        "FieldLength": 434
       }
     }
   }

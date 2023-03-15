@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Strosin, Daniel and Gibson",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 255,
+  "Id": 114,
+  "Name": "Swift-Stokes",
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
+  "Rank": 183,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "eligendi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 13,
-  "Name": "Pacocha-Fisher",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "Rank": 587,
-  "IsCustomList": false,
+  "Id": 232,
+  "Name": "Ernser-Wilkinson",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 867,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "recusandae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   }
 }

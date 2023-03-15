@@ -25,8 +25,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=rerum
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=corporis
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Abernathy-Bosco",
-    "ToolTip": "Esse incidunt doloribus illo sapiente debitis.",
+    "Id": 948,
+    "Name": "Cremin, Cremin and Anderson",
+    "ToolTip": "Ratione voluptates praesentium reiciendis perferendis quos perferendis qui.",
     "Deleted": false,
-    "Rank": 999,
-    "Type": "perspiciatis",
+    "Rank": 68,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Hauck-Cummings",
-        "ToolTip": "Explicabo itaque est.",
+        "Id": 6,
+        "Name": "Hansen-Swift",
+        "ToolTip": "At ut repellendus quis dolorum.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "voluptate",
+        "Rank": 540,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 80,
-        "ExtraInfo": "neque",
-        "StyleHint": "sint",
-        "FullName": "Wilburn Bogan",
+        "IconHint": "adipisci",
+        "ColorBlock": 383,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "dignissimos",
+        "FullName": "Aaron Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 635
+            "FieldType": "System.Int32",
+            "FieldLength": 202
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 578,
-    "ExtraInfo": "minima",
-    "StyleHint": "enim",
-    "FullName": "Ms. Jaycee Sofia Greenholt",
+    "IconHint": "ut",
+    "ColorBlock": 243,
+    "ExtraInfo": "aut",
+    "StyleHint": "rerum",
+    "FullName": "Hal Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 815
       }
     }
   }

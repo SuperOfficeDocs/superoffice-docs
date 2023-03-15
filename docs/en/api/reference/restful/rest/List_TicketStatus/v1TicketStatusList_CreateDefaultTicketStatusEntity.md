@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 699,
-  "Name": "Fay-Fadel",
+  "TicketStatusId": 707,
+  "Name": "Crist-Keeling",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 583
+      "FieldType": "System.Int32",
+      "FieldLength": 924
     }
   }
 }

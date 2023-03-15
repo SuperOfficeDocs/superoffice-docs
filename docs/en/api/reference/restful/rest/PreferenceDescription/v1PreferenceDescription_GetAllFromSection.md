@@ -75,7 +75,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 595,
-    "Section": "unde",
-    "Key": "corporis",
-    "Name": "Stamm, Streich and Cormier",
+    "PrefDescId": 565,
+    "Section": "quisquam",
+    "Key": "quam",
+    "Name": "Reynolds, Hagenes and Schamberger",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Decentralized directional groupware",
+    "Description": "Horizontal radical framework",
     "IsBuiltin": false,
-    "TableName": "Lindgren, Lubowitz and Pfannerstill",
-    "UserDefinedListId": 589,
-    "Rank": 497,
-    "SubGroup": "et",
-    "MinLevel": 225,
-    "MaxValue": 233,
-    "MinValue": 249,
-    "RequiredLicense": "voluptatem",
+    "TableName": "Aufderhar-Senger",
+    "UserDefinedListId": 416,
+    "Rank": 842,
+    "SubGroup": "velit",
+    "MinLevel": 63,
+    "MaxValue": 619,
+    "MinValue": 629,
+    "RequiredLicense": "blanditiis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

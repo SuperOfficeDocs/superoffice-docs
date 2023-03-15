@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 243,
-  "AttachmentId": "soluta"
+  "DocId": 388,
+  "AttachmentId": "qui"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Robust secondary framework",
-  "Filename": "unde",
-  "Size": 52,
-  "Type": "nobis",
-  "Encoding": "quos",
-  "Id": "quis",
-  "Disposition": "cupiditate",
+  "Description": "Optimized dedicated benchmark",
+  "Filename": "eius",
+  "Size": 627,
+  "Type": "corporis",
+  "Encoding": "ab",
+  "Id": "quo",
+  "Disposition": "qui",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldType": "System.String",
+      "FieldLength": 840
     }
   }
 }

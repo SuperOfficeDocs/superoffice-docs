@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 53
+  "MailItemId": 473
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 219,
-  "StartDate": "2016-07-10T11:22:38.2116073+02:00",
-  "EndDate": "1997-02-12T11:22:38.2116073+01:00",
-  "RecurrenceCounter": 741,
+  "RecurrenceId": 671,
+  "StartDate": "2018-06-06T12:15:18.9517514+02:00",
+  "EndDate": "2005-05-16T12:15:18.9517514+02:00",
+  "RecurrenceCounter": 525,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2017-07-11T11:22:38.2116073+02:00",
+      "Date": "2004-02-04T12:15:18.9517514+01:00",
       "IsConflict": false,
-      "Description": "Profit-focused intangible secured line",
-      "DescriptionStyleHint": "Re-contextualized assymetric open system",
-      "Tooltip": "sint"
+      "Description": "Intuitive secondary installation",
+      "DescriptionStyleHint": "Extended 24 hour portal",
+      "Tooltip": "minima"
     },
     {
-      "Date": "2017-07-11T11:22:38.2116073+02:00",
+      "Date": "2004-02-04T12:15:18.9517514+01:00",
       "IsConflict": false,
-      "Description": "Profit-focused intangible secured line",
-      "DescriptionStyleHint": "Re-contextualized assymetric open system",
-      "Tooltip": "sint"
+      "Description": "Intuitive secondary installation",
+      "DescriptionStyleHint": "Extended 24 hour portal",
+      "Tooltip": "minima"
     }
   ],
   "IsRecurrence": false

@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,157 +117,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 844,
-  "Name": "Kemmer-Bednar",
+  "ContactId": 609,
+  "Name": "Kling, Sauer and Olson",
   "Department": "",
-  "OrgNr": "1128951",
-  "Number1": "1140428",
-  "Number2": "1125565",
-  "UpdatedDate": "2022-04-13T11:22:37.6961082+02:00",
-  "CreatedDate": "1998-03-02T11:22:37.6961082+01:00",
+  "OrgNr": "1802772",
+  "Number1": "1290950",
+  "Number2": "1493630",
+  "UpdatedDate": "2004-08-13T12:15:18.529758+02:00",
+  "CreatedDate": "2001-11-15T12:15:18.529758+01:00",
   "Emails": [
     {
-      "Value": "fugit",
-      "StrippedValue": "error",
-      "Description": "Cross-platform analyzing synergy",
+      "Value": "aspernatur",
+      "StrippedValue": "ut",
+      "Description": "Cross-group global functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 85
         }
       }
     },
     {
-      "Value": "fugit",
-      "StrippedValue": "error",
-      "Description": "Cross-platform analyzing synergy",
+      "Value": "aspernatur",
+      "StrippedValue": "ut",
+      "Description": "Cross-group global functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 487
+          "FieldLength": 85
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 899,
-      "Name": "Conn LLC",
-      "ToolTip": "Impedit totam.",
-      "Deleted": true,
-      "Rank": 994,
-      "Type": "sequi",
-      "ColorBlock": 346,
-      "IconHint": "esse",
+      "Id": 158,
+      "Name": "Steuber, Schimmel and Baumbach",
+      "ToolTip": "Voluptatibus sapiente et harum.",
+      "Deleted": false,
+      "Rank": 468,
+      "Type": "natus",
+      "ColorBlock": 926,
+      "IconHint": "repudiandae",
       "Selected": false,
-      "LastChanged": "2010-01-31T11:22:37.6961082+01:00",
+      "LastChanged": "2018-06-15T12:15:18.529758+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "illo",
-      "StyleHint": "exercitationem",
-      "Hidden": true,
-      "FullName": "Mrs. Lucienne Orie Reynolds Sr.",
+      "ExtraInfo": "quisquam",
+      "StyleHint": "dolorem",
+      "Hidden": false,
+      "FullName": "Prof. Magnolia Mosciski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldType": "System.String",
+          "FieldLength": 202
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "rerum",
-      "StrippedValue": "non",
-      "Description": "Digitized disintermediate software",
+      "Value": "quaerat",
+      "StrippedValue": "eius",
+      "Description": "Right-sized motivating local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 609
         }
       }
     },
     {
-      "Value": "rerum",
-      "StrippedValue": "non",
-      "Description": "Digitized disintermediate software",
+      "Value": "quaerat",
+      "StrippedValue": "eius",
+      "Description": "Right-sized motivating local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 609
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "commodi",
-      "StrippedValue": "quasi",
-      "Description": "Persevering reciprocal throughput",
+      "Value": "totam",
+      "StrippedValue": "qui",
+      "Description": "Synchronised assymetric core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 969
         }
       }
     },
     {
-      "Value": "commodi",
-      "StrippedValue": "quasi",
-      "Description": "Persevering reciprocal throughput",
+      "Value": "totam",
+      "StrippedValue": "qui",
+      "Description": "Synchronised assymetric core",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 969
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "labore",
-      "StrippedValue": "dignissimos",
-      "Description": "Compatible client-server utilisation",
+      "Value": "illum",
+      "StrippedValue": "ab",
+      "Description": "Operative object-oriented standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 134
         }
       }
     },
     {
-      "Value": "labore",
-      "StrippedValue": "dignissimos",
-      "Description": "Compatible client-server utilisation",
+      "Value": "illum",
+      "StrippedValue": "ab",
+      "Description": "Operative object-oriented standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 134
         }
       }
     }
   ],
-  "Description": "Cross-group needs-based internet solution",
+  "Description": "Ameliorated heuristic internet solution",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -276,100 +276,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "eos",
-      "PersonId": 251,
-      "Mrmrs": "et",
-      "Firstname": "Harry",
-      "Lastname": "Kerluke",
-      "MiddleName": "Jakubowski-Bernhard",
-      "Title": "perspiciatis",
-      "Description": "Re-contextualized needs-based alliance",
-      "Email": "hassan.wolf@strackeschuster.name",
-      "FullName": "Prof. Dock Littel",
-      "DirectPhone": "(872)454-8272 x033",
-      "FormalName": "Sawayn Inc and Sons",
-      "CountryId": 741,
-      "ContactId": 400,
-      "ContactName": "Friesen-Schroeder",
-      "Retired": 168,
-      "Rank": 409,
-      "ActiveInterests": 719,
-      "ContactDepartment": "",
-      "ContactCountryId": 649,
-      "ContactOrgNr": "340757",
-      "FaxPhone": "1-312-257-7099",
-      "MobilePhone": "432.198.7104",
-      "ContactPhone": "(302)837-5168 x1008",
-      "AssociateName": "Murazik, O'Kon and Koelpin",
-      "AssociateId": 145,
-      "UsePersonAddress": false,
-      "ContactFax": "repudiandae",
-      "Kanafname": "iusto",
-      "Kanalname": "voluptatem",
-      "Post1": "expedita",
-      "Post2": "molestiae",
-      "Post3": "blanditiis",
-      "EmailName": "hassie.huel@waelchi.name",
-      "ContactFullName": "Tyrel Cole",
-      "ActiveErpLinks": 516,
-      "TicketPriorityId": 129,
-      "SupportLanguageId": 490,
-      "SupportAssociateId": 615,
+      "Position": "ad",
+      "PersonId": 359,
+      "Mrmrs": "in",
+      "Firstname": "Nicola",
+      "Lastname": "Denesik",
+      "MiddleName": "Gusikowski, Mayer and Rau",
+      "Title": "sunt",
+      "Description": "Integrated assymetric neural-net",
+      "Email": "laurence.anderson@mayerbashirian.ca",
+      "FullName": "Mr. Carroll Amara Champlin",
+      "DirectPhone": "287-681-5705 x66835",
+      "FormalName": "Cartwright, Schamberger and Harvey",
+      "CountryId": 423,
+      "ContactId": 906,
+      "ContactName": "Schmidt-Towne",
+      "Retired": 760,
+      "Rank": 410,
+      "ActiveInterests": 853,
+      "ContactDepartment": "reinvent enterprise infomediaries",
+      "ContactCountryId": 693,
+      "ContactOrgNr": "904041",
+      "FaxPhone": "1-665-254-3500",
+      "MobilePhone": "(165)436-8024 x54943",
+      "ContactPhone": "(806)218-9372",
+      "AssociateName": "Veum Inc and Sons",
+      "AssociateId": 439,
+      "UsePersonAddress": true,
+      "ContactFax": "harum",
+      "Kanafname": "maxime",
+      "Kanalname": "cum",
+      "Post1": "sapiente",
+      "Post2": "ducimus",
+      "Post3": "numquam",
+      "EmailName": "serenity@emardcorkery.biz",
+      "ContactFullName": "Miss Savannah Gleichner",
+      "ActiveErpLinks": 174,
+      "TicketPriorityId": 873,
+      "SupportLanguageId": 126,
+      "SupportAssociateId": 151,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 140
+          "FieldType": "System.Int32",
+          "FieldLength": 499
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "repudiandae",
+  "NoMailing": true,
+  "Kananame": "voluptatum",
   "Xstop": false,
-  "ActiveInterests": 453,
-  "GroupId": 361,
-  "ActiveStatusMonitorId": 795,
+  "ActiveInterests": 614,
+  "GroupId": 495,
+  "ActiveStatusMonitorId": 587,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 291,
-  "DbiAgentId": 65,
-  "DbiLastSyncronized": "2016-05-28T11:22:37.6961082+02:00",
-  "DbiKey": "et",
-  "DbiLastModified": "2005-07-26T11:22:37.6961082+02:00",
+  "Deleted": 506,
+  "DbiAgentId": 665,
+  "DbiLastSyncronized": "2009-11-04T12:15:18.5337594+01:00",
+  "DbiKey": "sunt",
+  "DbiLastModified": "2011-03-09T12:15:18.5337594+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 53,
-  "ActiveErpLinks": 142,
+  "Source": 242,
+  "ActiveErpLinks": 710,
   "BounceEmails": [
-    "tina_mills@sawayn.uk",
-    "keon_ortiz@trantowfisher.ca"
+    "hollis.price@lesch.co.uk",
+    "ettie_kreiger@lindgren.uk"
   ],
   "Domains": [
-    "omnis",
-    "earum"
+    "aspernatur",
+    "quasi"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1445329401",
-    "SuperOffice:2": "Mr. Tiffany Abbott V"
+    "SuperOffice:1": "Dr. Toy Annabell Jacobi",
+    "SuperOffice:2": "1159785436"
   },
   "ExtraFields": {
-    "ExtraFields1": "ex",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "atque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 12
+      "FieldLength": 302
     }
   }
 }

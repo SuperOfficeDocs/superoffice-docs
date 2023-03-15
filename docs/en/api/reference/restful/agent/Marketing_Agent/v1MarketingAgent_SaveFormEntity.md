@@ -104,32 +104,32 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 138,
-  "FormKey": "cum",
-  "Name": "Weissnat-Smitham",
-  "Description": "Multi-lateral 24 hour orchestration",
-  "Config": "recusandae",
-  "FolderId": 742,
-  "ScriptId": 339,
-  "ResponseShipmentId": 879,
+  "FormId": 251,
+  "FormKey": "sit",
+  "Name": "Reinger-Frami",
+  "Description": "Virtual web-enabled productivity",
+  "Config": "velit",
+  "FolderId": 609,
+  "ScriptId": 5,
+  "ResponseShipmentId": 819,
   "Active": false,
-  "Expires": "2005-02-13T11:22:38.5552678+01:00",
-  "MaxSubmits": 110,
+  "Expires": "2002-07-14T12:15:19.3637489+02:00",
+  "MaxSubmits": 989,
   "Type": "Normal",
-  "Recipe": "magnam",
-  "GroupId": 119,
-  "NewTicket": true,
+  "Recipe": "iusto",
+  "GroupId": 201,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2007-04-08T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 768,
-  "Updated": "2022-04-11T11:22:38.5552678+02:00",
-  "UpdatedAssociateId": 528,
-  "UpdatedCount": 572,
-  "FolderName": "McClure, Zieme and Haley"
+  "Registered": "2009-06-16T12:15:19.3637489+02:00",
+  "RegisteredAssociateId": 93,
+  "Updated": "2001-12-22T12:15:19.3637489+01:00",
+  "UpdatedAssociateId": 50,
+  "UpdatedCount": 548,
+  "FolderName": "Brakus-Little"
 }
 ```
 
@@ -140,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 979,
-  "FormKey": "voluptatem",
-  "Name": "Wiegand, Kihn and Raynor",
-  "Description": "Virtual foreground matrices",
-  "Config": "eveniet",
-  "FolderId": 757,
-  "ScriptId": 771,
-  "ResponseShipmentId": 731,
+  "FormId": 32,
+  "FormKey": "omnis",
+  "Name": "Bogan, Dooley and Beier",
+  "Description": "Progressive bottom-line budgetary management",
+  "Config": "beatae",
+  "FolderId": 187,
+  "ScriptId": 848,
+  "ResponseShipmentId": 824,
   "Active": true,
-  "Expires": "1999-10-21T11:22:38.5552678+02:00",
-  "MaxSubmits": 138,
+  "Expires": "2007-03-16T12:15:19.3637489+01:00",
+  "MaxSubmits": 600,
   "Type": "Normal",
-  "Recipe": "similique",
-  "GroupId": 985,
+  "Recipe": "accusantium",
+  "GroupId": 144,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2023-01-02T11:22:38.5552678+01:00",
-  "RegisteredAssociateId": 942,
-  "Updated": "2010-10-24T11:22:38.5552678+02:00",
-  "UpdatedAssociateId": 906,
-  "UpdatedCount": 846,
-  "FolderName": "Homenick, Douglas and Gutkowski",
+  "Registered": "2020-12-22T12:15:19.3637489+01:00",
+  "RegisteredAssociateId": 751,
+  "Updated": "2010-10-03T12:15:19.3637489+02:00",
+  "UpdatedAssociateId": 118,
+  "UpdatedCount": 258,
+  "FolderName": "Baumbach LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

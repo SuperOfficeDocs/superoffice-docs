@@ -82,11 +82,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hamill, Casper and Kertzmann",
-    "Kilback Group"
+    "Kautzer, Lebsack and Johnston",
+    "Streich-Nader"
   ],
-  "Culture": "libero",
-  "ActiveOnly": true
+  "Culture": "id",
+  "ActiveOnly": false
 }
 ```
 
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Bergstrom LLC",
-    "ResourceValue": "nam",
-    "Culture": "aliquid",
+    "ResourceName": "Fadel-Weissnat",
+    "ResourceValue": "veniam",
+    "Culture": "laborum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldLength": 255
       }
     }
   },
   {
-    "ResourceName": "Bergstrom LLC",
-    "ResourceValue": "nam",
-    "Culture": "aliquid",
+    "ResourceName": "Fadel-Weissnat",
+    "ResourceValue": "veniam",
+    "Culture": "laborum",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldLength": 255
       }
     }
   }

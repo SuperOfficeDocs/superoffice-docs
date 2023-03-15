@@ -87,7 +87,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 837,
-    "ColumnId": 203,
-    "FieldDefault": "consequatur",
-    "FieldHeight": 174,
-    "FieldLabel": "optio",
-    "FieldLeft": 401,
-    "FieldTop": 805,
+    "UDefFieldId": 848,
+    "ColumnId": 260,
+    "FieldDefault": "neque",
+    "FieldHeight": 12,
+    "FieldLabel": "nemo",
+    "FieldLeft": 874,
+    "FieldTop": 578,
     "FieldType": "Checkbox",
-    "FieldWidth": 358,
-    "FormatMask": "ipsam",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 850,
-    "LabelLeft": 460,
-    "LabelTop": 174,
-    "LabelWidth": 407,
-    "LastVersionId": 22,
-    "ListTableId": 408,
-    "IsMandatory": false,
+    "FieldWidth": 718,
+    "FormatMask": "tenetur",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 553,
+    "LabelLeft": 541,
+    "LabelTop": 283,
+    "LabelWidth": 129,
+    "LastVersionId": 423,
+    "ListTableId": 235,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 392,
-    "ProgId": "sapiente",
-    "IsReadOnly": false,
-    "ShortLabel": "quidem",
-    "TabOrder": 801,
-    "TextLength": 608,
-    "Tooltip": "dolores",
-    "UdefIdentity": 760,
-    "UDListDefinitionId": 120,
+    "Page1LineNo": 131,
+    "ProgId": "debitis",
+    "IsReadOnly": true,
+    "ShortLabel": "incidunt",
+    "TabOrder": 277,
+    "TextLength": 537,
+    "Tooltip": "non",
+    "UdefIdentity": 19,
+    "UDListDefinitionId": 130,
     "Justification": "Center",
-    "Version": 559,
-    "TemplateVariableName": "Kirlin, Purdy and Ryan",
-    "HasBeenPublished": false,
-    "MdoListName": "Veum Group",
+    "Version": 539,
+    "TemplateVariableName": "Wolff-Barrows",
+    "HasBeenPublished": true,
+    "MdoListName": "Hegmann-Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 787
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

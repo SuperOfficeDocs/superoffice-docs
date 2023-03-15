@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Dibbert, Gusikowski and Auer",
-  "ResourceValues": "sit",
-  "Culture": "odit",
-  "IsActive": false
+  "ResourceName": "Morissette-Spinka",
+  "ResourceValues": "iure",
+  "Culture": "quod",
+  "IsActive": true
 }
 ```
 

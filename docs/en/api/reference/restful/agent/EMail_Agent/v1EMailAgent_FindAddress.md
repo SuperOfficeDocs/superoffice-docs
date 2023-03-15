@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "est"
+  "Address": "aperiam"
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 373,
-    "ContactName": "Paucek-Kreiger",
-    "PersonId": 128,
-    "PersonName": "Baumbach-Wunsch",
-    "AssociateId": 40,
-    "Address": "sunt",
-    "EmailId": 363,
+    "ContactId": 857,
+    "ContactName": "Hammes-Lindgren",
+    "PersonId": 616,
+    "PersonName": "Fisher, Wilkinson and Nader",
+    "AssociateId": 811,
+    "Address": "deserunt",
+    "EmailId": 45,
     "DuplicatePersonIds": [
-      335,
-      918
+      4,
+      349
     ],
-    "Name": "Lockman-Borer",
+    "Name": "Nicolas-Hartmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 4
+        "FieldType": "System.Int32",
+        "FieldLength": 454
       }
     }
   }

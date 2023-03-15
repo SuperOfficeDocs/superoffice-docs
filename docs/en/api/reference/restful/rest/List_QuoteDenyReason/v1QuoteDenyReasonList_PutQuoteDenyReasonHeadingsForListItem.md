@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Hammes, Legros and Lueilwitz",
-    "ToolTip": "Rem ab et officia fugit.",
-    "Deleted": false,
-    "Rank": 959,
-    "Type": "ipsam",
-    "ColorBlock": 545,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2001-03-22T11:22:46.1160093+01:00",
+    "Id": 497,
+    "Name": "Rogahn LLC",
+    "ToolTip": "Quae qui ut.",
+    "Deleted": true,
+    "Rank": 174,
+    "Type": "qui",
+    "ColorBlock": 122,
+    "IconHint": "beatae",
+    "Selected": false,
+    "LastChanged": "2010-08-31T12:15:28.3896162+02:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Mraz-Yost",
-        "ToolTip": "Magni voluptates laudantium iure vel natus sed voluptas.",
+        "Id": 22,
+        "Name": "West Group",
+        "ToolTip": "Quisquam placeat quas.",
         "Deleted": false,
-        "Rank": 119,
-        "Type": "distinctio",
-        "ColorBlock": 465,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2011-01-22T11:22:46.1160093+01:00",
+        "Rank": 165,
+        "Type": "accusantium",
+        "ColorBlock": 720,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2018-08-20T12:15:28.3896162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "eligendi",
-        "Hidden": false,
-        "FullName": "Isaac Hamill"
+        "ExtraInfo": "omnis",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Mr. Kenna Pasquale Stracke"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "id",
+    "ExtraInfo": "rerum",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Mrs. Ricardo Gloria Jakubowski DVM"
+    "FullName": "Jaydon Walsh"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Schamberger LLC",
-    "ToolTip": "Ea consequatur rerum molestiae velit neque dolor.",
-    "Deleted": true,
-    "Rank": 649,
-    "Type": "et",
-    "ColorBlock": 189,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2000-03-16T11:22:46.1160093+01:00",
+    "Id": 700,
+    "Name": "Herman, Dibbert and Keeling",
+    "ToolTip": "Est suscipit officiis dolores et consequuntur quo quis.",
+    "Deleted": false,
+    "Rank": 153,
+    "Type": "ut",
+    "ColorBlock": 627,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "1999-05-29T12:15:28.3916145+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Senger LLC",
-        "ToolTip": "Omnis esse qui sunt veniam ad voluptas occaecati.",
+        "Id": 578,
+        "Name": "Mante, Hilpert and Hills",
+        "ToolTip": "Et aliquam porro et ullam sit fuga.",
         "Deleted": false,
-        "Rank": 397,
-        "Type": "illo",
-        "ColorBlock": 861,
-        "IconHint": "ea",
+        "Rank": 715,
+        "Type": "similique",
+        "ColorBlock": 676,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2017-05-24T11:22:46.1160093+02:00",
+        "LastChanged": "2001-01-24T12:15:28.3916145+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "qui",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "veniam",
         "Hidden": true,
-        "FullName": "Joshua Abshire",
+        "FullName": "Harrison Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldLength": 13
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "repellat",
+    "ExtraInfo": "ullam",
+    "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Ms. Alvera Auer",
+    "FullName": "Amanda Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

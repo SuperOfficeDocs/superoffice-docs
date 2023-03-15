@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 434,
-  "PrefDescId": 360,
-  "PrefValue": "rem",
-  "PrefShowValue": "aliquid",
-  "Description": "Automated grid-enabled complexity",
-  "IsBuiltin": true
+  "PrefDescLineId": 139,
+  "PrefDescId": 714,
+  "PrefValue": "fuga",
+  "PrefShowValue": "ut",
+  "Description": "Progressive disintermediate customer loyalty",
+  "IsBuiltin": false
 }
 ```
 
@@ -105,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 383,
-  "PrefDescId": 882,
-  "PrefValue": "corporis",
-  "PrefShowValue": "quo",
-  "Description": "Function-based coherent software",
+  "PrefDescLineId": 284,
+  "PrefDescId": 788,
+  "PrefValue": "blanditiis",
+  "PrefShowValue": "aut",
+  "Description": "Future-proofed human-resource throughput",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   },
   "_Links": {

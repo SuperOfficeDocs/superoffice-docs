@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "a"
+  "TriggerScriptUniqueId": "in"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 466,
-  "Name": "Zemlak-Welch",
+  "ScreenChooserId": 934,
+  "Name": "Fritsch Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "facilis",
-  "Source": "quia",
-  "Registered": "1999-06-08T11:22:37.7742144+02:00",
-  "RegisteredAssociateId": 176,
-  "Updated": "2017-05-03T11:22:37.7742144+02:00",
-  "UpdatedAssociateId": 165,
+  "UniqueIdentifier": "ad",
+  "Source": "quam",
+  "Registered": "2017-05-23T12:15:18.6337567+02:00",
+  "RegisteredAssociateId": 159,
+  "Updated": "2015-08-11T12:15:18.6337567+02:00",
+  "UpdatedAssociateId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 188
     }
   }
 }

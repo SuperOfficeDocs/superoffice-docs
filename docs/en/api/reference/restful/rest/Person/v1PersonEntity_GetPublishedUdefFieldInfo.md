@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 534,
-  "ColumnId": 958,
-  "FieldDefault": "nam",
-  "FieldHeight": 224,
-  "FieldLabel": "officiis",
-  "FieldLeft": 130,
-  "FieldTop": 76,
+  "UDefFieldId": 335,
+  "ColumnId": 845,
+  "FieldDefault": "ut",
+  "FieldHeight": 736,
+  "FieldLabel": "quibusdam",
+  "FieldLeft": 584,
+  "FieldTop": 95,
   "FieldType": "Checkbox",
-  "FieldWidth": 705,
-  "FormatMask": "et",
+  "FieldWidth": 216,
+  "FormatMask": "voluptatibus",
   "HideLabel": false,
   "IsIndexed": false,
   "LabelHeight": 875,
-  "LabelLeft": 422,
-  "LabelTop": 52,
-  "LabelWidth": 44,
-  "LastVersionId": 483,
-  "ListTableId": 100,
-  "IsMandatory": true,
+  "LabelLeft": 78,
+  "LabelTop": 388,
+  "LabelWidth": 526,
+  "LastVersionId": 962,
+  "ListTableId": 939,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 515,
-  "ProgId": "repellat",
+  "Page1LineNo": 120,
+  "ProgId": "assumenda",
   "IsReadOnly": true,
-  "ShortLabel": "sit",
-  "TabOrder": 527,
-  "TextLength": 589,
-  "Tooltip": "modi",
-  "UdefIdentity": 292,
-  "UDListDefinitionId": 65,
+  "ShortLabel": "consequatur",
+  "TabOrder": 81,
+  "TextLength": 236,
+  "Tooltip": "itaque",
+  "UdefIdentity": 331,
+  "UDListDefinitionId": 368,
   "Justification": "Center",
-  "Version": 136,
-  "TemplateVariableName": "Heller Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "McLaughlin, Pollich and Sauer",
+  "Version": 369,
+  "TemplateVariableName": "Lemke-Koss",
+  "HasBeenPublished": true,
+  "MdoListName": "Nolan LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldLength": 404
     }
   }
 }

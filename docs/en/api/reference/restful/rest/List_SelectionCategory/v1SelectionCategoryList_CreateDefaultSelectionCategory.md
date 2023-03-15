@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Hyatt, Frami and Brown",
-  "Tooltip": "nisi",
-  "Deleted": true,
-  "UdListDefinitionId": 310,
-  "Rank": 248,
+  "Id": 416,
+  "Name": "Schultz-Jast",
+  "Tooltip": "vero",
+  "Deleted": false,
+  "UdListDefinitionId": 567,
+  "Rank": 178,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldLength": 942
     }
   }
 }

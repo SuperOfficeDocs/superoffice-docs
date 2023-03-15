@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 666,
-  "Select": "odio"
+  "SelectionId": 923,
+  "Select": "dicta"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Oberbrunner-Cartwright",
-    "PrimaryKey": 216,
+    "EntityName": "Halvorson-Wunsch",
+    "PrimaryKey": 247,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "vel",
-        "TooltipHint": "error",
-        "LinkHint": "sit"
+        "DisplayValue": "fuga",
+        "TooltipHint": "dignissimos",
+        "LinkHint": "reprehenderit"
       }
     },
-    "LinkHint": "dolor",
-    "StyleHint": "rerum",
+    "LinkHint": "ipsam",
+    "StyleHint": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 941
+        "FieldLength": 87
       }
     }
   }

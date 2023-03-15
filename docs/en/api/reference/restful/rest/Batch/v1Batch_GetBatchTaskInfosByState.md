@@ -79,7 +79,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Marvin-Watsica",
-    "AssociateId": 41,
-    "DetailsTable": 13,
-    "DetailsRecord": 358,
-    "IsSystemTask": true,
+    "Id": 983,
+    "Name": "Stoltenberg LLC",
+    "AssociateId": 724,
+    "DetailsTable": 33,
+    "DetailsRecord": 630,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "enim"
+      "ParameterObject1": "libero",
+      "ParameterObject2": "quos"
     },
-    "LastStarted": "1999-04-04T11:22:45.3817553+02:00",
-    "Created": "2001-05-29T11:22:45.3817553+02:00",
-    "StartCount": 337,
-    "DatabaseSerialNumber": "479997",
-    "Context": "aut",
-    "Result": "culpa",
+    "LastStarted": "2000-06-20T12:15:27.5996259+02:00",
+    "Created": "1997-04-15T12:15:27.5996259+02:00",
+    "StartCount": 756,
+    "DatabaseSerialNumber": "1428113",
+    "Context": "adipisci",
+    "Result": "sint",
     "State": "All",
-    "Description": "Future-proofed well-modulated portal",
-    "Response": "nulla",
-    "Request": "repellendus",
-    "ProgressDescription": "Configurable 24/7 encoding",
-    "ProgressPercent": 205,
-    "FileName": "Bartell, Bogisich and Kub",
+    "Description": "Reduced needs-based superstructure",
+    "Response": "itaque",
+    "Request": "tenetur",
+    "ProgressDescription": "Synergized exuding migration",
+    "ProgressPercent": 357,
+    "FileName": "Green LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 902
       }
     }
   }

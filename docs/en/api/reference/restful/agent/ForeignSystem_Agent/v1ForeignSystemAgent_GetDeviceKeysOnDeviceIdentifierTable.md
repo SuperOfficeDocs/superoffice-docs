@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Grady, Hegmann and Veum",
-  "DeviceName": "Franecki Group",
-  "DeviceIdentifier": "temporibus",
-  "TableName": "Watsica, Friesen and Emmerich"
+  "ApplicationName": "Fahey, Senger and Franecki",
+  "DeviceName": "Deckow, Macejkovic and Wolff",
+  "DeviceIdentifier": "dolorem",
+  "TableName": "Ledner-Cormier"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "consequuntur",
-    "Value": "quia",
-    "RecordId": 734,
-    "CreatedDate": "2004-08-19T11:22:38.3834434+02:00",
-    "UpdatedDate": "2013-10-24T11:22:38.3834434+02:00",
-    "UpdatedBy": "quasi",
-    "CreatedBy": "error",
-    "TableName": "Heidenreich, Wilderman and Weber",
+    "Key": "quae",
+    "Value": "ut",
+    "RecordId": 173,
+    "CreatedDate": "2001-01-05T12:15:19.1717511+01:00",
+    "UpdatedDate": "2014-05-19T12:15:19.1717511+02:00",
+    "UpdatedBy": "consectetur",
+    "CreatedBy": "deserunt",
+    "TableName": "Windler-Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 300
       }
     }
   }

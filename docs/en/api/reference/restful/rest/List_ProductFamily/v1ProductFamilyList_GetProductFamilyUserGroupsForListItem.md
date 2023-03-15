@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Bahringer LLC",
-    "ToolTip": "Quia quos a aliquam tempora natus et.",
-    "Deleted": false,
-    "Rank": 373,
-    "Type": "illo",
-    "ColorBlock": 992,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2014-09-28T11:22:46.0379014+02:00",
+    "Id": 120,
+    "Name": "Torp Inc and Sons",
+    "ToolTip": "Quaerat repudiandae velit.",
+    "Deleted": true,
+    "Rank": 552,
+    "Type": "totam",
+    "ColorBlock": 548,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2006-12-15T12:15:28.2986162+01:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "McClure, Paucek and Mueller",
-        "ToolTip": "Tempore sed et quia quae.",
+        "Id": 938,
+        "Name": "Fisher-Blanda",
+        "ToolTip": "Eos nam voluptatem sit ut et repudiandae earum.",
         "Deleted": false,
-        "Rank": 626,
-        "Type": "assumenda",
-        "ColorBlock": 649,
-        "IconHint": "non",
+        "Rank": 757,
+        "Type": "dolor",
+        "ColorBlock": 538,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2014-05-27T11:22:46.0379014+02:00",
+        "LastChanged": "2008-07-16T12:15:28.2986162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mrs. Davion Bernhard",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Miss Danny Muller DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 215
+            "FieldLength": 641
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Kelly Larson",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Mrs. Bo Porter Miller MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldType": "System.Int32",
+        "FieldLength": 348
       }
     }
   }

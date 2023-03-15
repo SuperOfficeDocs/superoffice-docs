@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 908,
-  "UniqueId": "repellat",
-  "Name": "Zulauf-Vandervort",
-  "Description": "Vision-oriented attitude-oriented portal",
-  "AssociateId": 562,
-  "Columns": 639,
+  "DashboardId": 496,
+  "UniqueId": "nemo",
+  "Name": "Lakin Group",
+  "Description": "Adaptive modular forecast",
+  "AssociateId": 777,
+  "Columns": 728,
   "Theme": null,
-  "VisibleForAll": 804,
+  "VisibleForAll": 79,
   "VisibleForAssociates": [
-    415,
-    85
+    900,
+    852
   ],
   "VisibleForGroups": [
-    875,
-    866
+    743,
+    847
   ],
-  "PinForAll": 429,
+  "PinForAll": 722,
   "PinForAssociates": [
-    543,
-    163
+    924,
+    63
   ],
   "PinForGroups": [
-    172,
-    429
+    563,
+    882
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

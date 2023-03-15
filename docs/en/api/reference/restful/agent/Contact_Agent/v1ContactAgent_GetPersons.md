@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 155
+  "ContactId": 615
 }
 ```
 
@@ -127,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "et",
-    "PersonId": 319,
-    "Mrmrs": "sed",
-    "Firstname": "Velma",
-    "Lastname": "Ledner",
-    "MiddleName": "Nolan Group",
-    "Title": "dolorem",
-    "Description": "Phased maximized monitoring",
-    "Email": "helen.wilderman@schneider.ca",
-    "FullName": "Geraldine Marvin",
-    "DirectPhone": "699-238-8621 x61949",
-    "FormalName": "Thompson Inc and Sons",
-    "CountryId": 541,
-    "ContactId": 509,
-    "ContactName": "Renner LLC",
-    "Retired": 590,
-    "Rank": 865,
-    "ActiveInterests": 915,
+    "Position": "est",
+    "PersonId": 968,
+    "Mrmrs": "nobis",
+    "Firstname": "Katheryn",
+    "Lastname": "Goodwin",
+    "MiddleName": "Ziemann LLC",
+    "Title": "voluptatem",
+    "Description": "Exclusive dynamic moderator",
+    "Email": "mona@hirtheoberbrunner.biz",
+    "FullName": "Weston Parker",
+    "DirectPhone": "(483)893-1393",
+    "FormalName": "O'Keefe Inc and Sons",
+    "CountryId": 918,
+    "ContactId": 293,
+    "ContactName": "Roberts, Brekke and Schuster",
+    "Retired": 770,
+    "Rank": 71,
+    "ActiveInterests": 55,
     "ContactDepartment": "",
-    "ContactCountryId": 779,
-    "ContactOrgNr": "1211661",
-    "FaxPhone": "938-257-9021 x4106",
-    "MobilePhone": "(622)822-3769 x454",
-    "ContactPhone": "(431)360-8023",
-    "AssociateName": "Boehm Group",
-    "AssociateId": 573,
+    "ContactCountryId": 127,
+    "ContactOrgNr": "539373",
+    "FaxPhone": "(665)044-1905 x42274",
+    "MobilePhone": "(802)860-1834 x8443",
+    "ContactPhone": "1-413-884-6682 x0633",
+    "AssociateName": "Corkery Inc and Sons",
+    "AssociateId": 194,
     "UsePersonAddress": true,
-    "ContactFax": "est",
-    "Kanafname": "qui",
-    "Kanalname": "omnis",
-    "Post1": "ut",
-    "Post2": "provident",
-    "Post3": "et",
-    "EmailName": "marquise_hartmann@krajcikmckenzie.co.uk",
-    "ContactFullName": "Jennifer Reinger Sr.",
-    "ActiveErpLinks": 447,
-    "TicketPriorityId": 361,
-    "SupportLanguageId": 738,
-    "SupportAssociateId": 403,
+    "ContactFax": "eum",
+    "Kanafname": "debitis",
+    "Kanalname": "sit",
+    "Post1": "voluptatem",
+    "Post2": "dolorum",
+    "Post3": "sed",
+    "EmailName": "juana@lockman.uk",
+    "ContactFullName": "Dr. Demetris Auer Sr.",
+    "ActiveErpLinks": 471,
+    "TicketPriorityId": 939,
+    "SupportLanguageId": 858,
+    "SupportAssociateId": 442,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 637
       }
     }
   }

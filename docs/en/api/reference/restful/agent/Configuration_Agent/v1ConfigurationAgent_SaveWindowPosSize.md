@@ -97,23 +97,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "unde",
-  "PersonId": 451,
-  "AssociateId": 220,
-  "ExtraId": 818,
-  "ExtraInfo": "quas",
-  "Height": 919,
-  "LeftX": 117,
+  "OwnerWindow": "odio",
+  "PersonId": 642,
+  "AssociateId": 295,
+  "ExtraId": 52,
+  "ExtraInfo": "non",
+  "Height": 730,
+  "LeftX": 479,
   "State": "Maximized",
-  "UpperY": 205,
-  "Width": 949,
-  "WindowPosSizeId": 140,
+  "UpperY": 679,
+  "Width": 295,
+  "WindowPosSizeId": 255,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 767
     }
   }
 }

@@ -66,34 +66,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Davis-Simonis",
-  "StorageKey": "aut",
+  "StorageType": "illum",
+  "ProviderName": "Kessler-Mayer",
+  "StorageKey": "maiores",
   "Restrictions": [
     {
-      "Name": "Hoppe-Bashirian",
-      "Operator": "eum",
+      "Name": "Huels Group",
+      "Operator": "deleniti",
       "Values": [
-        "sit",
-        "qui"
+        "beatae",
+        "et"
       ],
       "DisplayValues": [
-        "sit",
-        "modi"
+        "voluptatem",
+        "eos"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 553,
+      "InterParenthesis": 608,
       "InterOperator": "And",
-      "UniqueHash": 565
+      "UniqueHash": 111
     }
   ]
 }

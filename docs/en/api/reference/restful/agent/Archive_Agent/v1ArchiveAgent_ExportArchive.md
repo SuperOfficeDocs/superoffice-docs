@@ -82,41 +82,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Parker-Streich",
-  "Context": "ex",
+  "ProviderName": "Torphy, Powlowski and Fritsch",
+  "Context": "ut",
   "DesiredEntities": [
-    "recusandae",
-    "aspernatur"
+    "totam",
+    "sint"
   ],
   "Columns": [
-    "inventore",
-    "eveniet"
+    "voluptas",
+    "debitis"
   ],
   "SortOrder": [
     {
-      "Name": "Pouros, Rolfson and Leffler",
+      "Name": "Okuneva-Pfannerstill",
       "Direction": "ASC"
     },
     {
-      "Name": "Pouros, Rolfson and Leffler",
+      "Name": "Okuneva-Pfannerstill",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Gutmann, Metz and Parisian",
-      "Operator": "et",
+      "Name": "Nolan, Thompson and Sipes",
+      "Operator": "qui",
       "Values": [
-        "odit",
-        "incidunt"
+        "quasi",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "est",
-        "saepe"
+        "nisi",
+        "esse"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -124,17 +124,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 337,
+      "InterParenthesis": 649,
       "InterOperator": "And",
-      "UniqueHash": 176
+      "UniqueHash": 773
     }
   ],
-  "ExportType": "aut",
+  "ExportType": "neque",
   "SelectedRowIds": [
-    "velit",
-    "quia"
+    "earum",
+    "quos"
   ],
-  "EstimatedRowCount": 220
+  "EstimatedRowCount": 664
 }
 ```
 
@@ -145,15 +145,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 492,
-  "FileName": "Shields, Kirlin and McKenzie",
-  "Message": "in",
+  "BatchTaskId": 57,
+  "FileName": "Satterfield-Strosin",
+  "Message": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 667
     }
   }
 }

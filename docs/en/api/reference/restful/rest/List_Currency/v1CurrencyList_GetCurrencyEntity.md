@@ -77,19 +77,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 741,
-  "Name": "Kassulke Group",
-  "Tooltip": "sequi",
-  "Rank": 354,
-  "Rate": 1789.514,
-  "Units": 19133.07,
-  "Deleted": true,
+  "CurrencyId": 848,
+  "Name": "King-Deckow",
+  "Tooltip": "placeat",
+  "Rank": 974,
+  "Rate": 15325.26,
+  "Units": 27779.775999999998,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 465
     }
   }
 }

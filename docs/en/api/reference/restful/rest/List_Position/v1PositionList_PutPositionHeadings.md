@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 480,
-    "Name": "Kuhlman Group",
-    "Tooltip": "debitis",
+    "HeadingId": 406,
+    "Name": "Mitchell-Greenfelder",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 96,
-    "UdListDefinitionId": 416
+    "Rank": 328,
+    "UdListDefinitionId": 518
   },
   {
-    "HeadingId": 480,
-    "Name": "Kuhlman Group",
-    "Tooltip": "debitis",
+    "HeadingId": 406,
+    "Name": "Mitchell-Greenfelder",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 96,
-    "UdListDefinitionId": 416
+    "Rank": 328,
+    "UdListDefinitionId": 518
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 465,
-    "Name": "Erdman LLC",
-    "Tooltip": "delectus",
+    "HeadingId": 194,
+    "Name": "Kilback-Terry",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "Rank": 102,
-    "UdListDefinitionId": 457,
+    "Rank": 184,
+    "UdListDefinitionId": 164,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldType": "System.String",
+        "FieldLength": 86
       }
     }
   }

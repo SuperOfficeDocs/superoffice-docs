@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 533,
-  "Name": "Wuckert, Greenholt and Reichel",
-  "Tooltip": "expedita",
+  "Id": 134,
+  "Name": "Rempel, Torphy and Prohaska",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 130,
-  "IsCustomList": false,
+  "Rank": 30,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ducimus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   },
   "_Links": {

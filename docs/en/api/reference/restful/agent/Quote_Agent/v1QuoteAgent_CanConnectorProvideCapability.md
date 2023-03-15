@@ -68,12 +68,12 @@ OK
 POST /api/v1/Agents/Quote/CanConnectorProvideCapability
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 645,
-  "CapabilityName": "Bins Group"
+  "QuoteConnectionId": 202,
+  "CapabilityName": "Gulgowski-Sipes"
 }
 ```
 

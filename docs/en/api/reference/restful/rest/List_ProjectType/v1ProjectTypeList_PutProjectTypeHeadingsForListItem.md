@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 967,
-    "Name": "Shields-Kreiger",
-    "ToolTip": "Quia qui delectus a voluptas voluptatem ipsam et.",
+    "Id": 952,
+    "Name": "Heathcote LLC",
+    "ToolTip": "Et consequatur vitae ea sed sunt eligendi.",
     "Deleted": true,
-    "Rank": 429,
-    "Type": "numquam",
-    "ColorBlock": 122,
-    "IconHint": "error",
-    "Selected": true,
-    "LastChanged": "2009-04-18T11:22:46.0847653+02:00",
+    "Rank": 893,
+    "Type": "doloribus",
+    "ColorBlock": 447,
+    "IconHint": "possimus",
+    "Selected": false,
+    "LastChanged": "1999-11-05T12:15:28.3536156+01:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Turcotte, Sawayn and Adams",
-        "ToolTip": "Delectus id blanditiis voluptatem quod illum aperiam ratione.",
+        "Id": 300,
+        "Name": "Klocko-Doyle",
+        "ToolTip": "Earum similique est dolorem accusamus accusamus et.",
         "Deleted": false,
-        "Rank": 830,
-        "Type": "qui",
-        "ColorBlock": 774,
-        "IconHint": "repellat",
+        "Rank": 889,
+        "Type": "et",
+        "ColorBlock": 819,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2003-03-01T11:22:46.0847653+01:00",
+        "LastChanged": "2022-04-03T12:15:28.3536156+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Hugh Weber"
+        "ExtraInfo": "expedita",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Ms. Courtney Wendy Mante"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Zola Eichmann"
+    "ExtraInfo": "vel",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Kendra Zita Trantow III"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Fadel-Legros",
-    "ToolTip": "Qui aut veritatis ullam.",
-    "Deleted": false,
-    "Rank": 985,
-    "Type": "totam",
-    "ColorBlock": 471,
-    "IconHint": "maxime",
+    "Id": 891,
+    "Name": "Schmitt, Rosenbaum and Miller",
+    "ToolTip": "Ut ut vel.",
+    "Deleted": true,
+    "Rank": 291,
+    "Type": "dolores",
+    "ColorBlock": 762,
+    "IconHint": "minus",
     "Selected": false,
-    "LastChanged": "1998-04-27T11:22:46.0847653+02:00",
+    "LastChanged": "2022-10-07T12:15:28.3566156+02:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Weber Group",
-        "ToolTip": "Qui voluptatibus.",
+        "Id": 591,
+        "Name": "Daniel LLC",
+        "ToolTip": "Et quis quas nisi.",
         "Deleted": false,
-        "Rank": 516,
-        "Type": "unde",
-        "ColorBlock": 536,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "1999-12-22T11:22:46.0847653+01:00",
+        "Rank": 705,
+        "Type": "accusantium",
+        "ColorBlock": 73,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2013-03-15T12:15:28.3566156+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "dolor",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Haylee Bayer",
+        "FullName": "Mia Bahringer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Prof. Michael Brandy Jakubowski IV",
+    "ExtraInfo": "ea",
+    "StyleHint": "fuga",
+    "Hidden": true,
+    "FullName": "Miss Jamir Elenor Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldLength": 930
       }
     }
   }

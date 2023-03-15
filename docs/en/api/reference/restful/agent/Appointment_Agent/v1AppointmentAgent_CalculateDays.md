@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 67,
-  "StartDate": "2016-03-09T11:22:37.071254+01:00",
-  "EndDate": "2006-09-29T11:22:37.071254+02:00",
-  "RecurrenceCounter": 368,
+  "RecurrenceId": 987,
+  "StartDate": "2004-10-31T12:15:17.8227684+01:00",
+  "EndDate": "2004-12-22T12:15:17.8227684+01:00",
+  "RecurrenceCounter": 923,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-07-26T11:22:37.071254+02:00",
+      "Date": "2021-08-27T12:15:17.8227684+02:00",
       "IsConflict": true,
-      "Description": "Multi-lateral scalable superstructure",
-      "DescriptionStyleHint": "Enhanced needs-based Graphical User Interface",
-      "Tooltip": "aut"
+      "Description": "Phased system-worthy ability",
+      "DescriptionStyleHint": "Synergized dynamic website",
+      "Tooltip": "sit"
     },
     {
-      "Date": "2020-07-26T11:22:37.071254+02:00",
+      "Date": "2021-08-27T12:15:17.8227684+02:00",
       "IsConflict": true,
-      "Description": "Multi-lateral scalable superstructure",
-      "DescriptionStyleHint": "Enhanced needs-based Graphical User Interface",
-      "Tooltip": "aut"
+      "Description": "Phased system-worthy ability",
+      "DescriptionStyleHint": "Synergized dynamic website",
+      "Tooltip": "sit"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

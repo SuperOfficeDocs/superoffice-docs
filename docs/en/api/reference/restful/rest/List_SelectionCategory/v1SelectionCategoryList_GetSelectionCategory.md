@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Kilback-Marvin",
-  "Tooltip": "id",
-  "Deleted": false,
-  "UdListDefinitionId": 623,
-  "Rank": 173,
+  "Id": 677,
+  "Name": "Bergstrom, Schinner and Legros",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "UdListDefinitionId": 229,
+  "Rank": 692,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   }
 }

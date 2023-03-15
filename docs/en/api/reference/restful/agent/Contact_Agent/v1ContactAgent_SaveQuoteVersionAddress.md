@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 428,
+  "QuoteVersionId": 548,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 351
+  "CountryId": 950
 }
 ```
 
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 25780.284,
-  "Wgs84Longitude": 5450.026,
+  "Wgs84Latitude": 19223.956,
+  "Wgs84Longitude": 4769.9479999999994,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bechtelar, Bogisich and Reinger",
-        "Value": "temporibus",
-        "Tooltip": "enim",
-        "Label": "enim",
-        "ValueLength": 979,
-        "AddressType": "dolores",
+        "Name": "Feeney-Franecki",
+        "Value": "architecto",
+        "Tooltip": "necessitatibus",
+        "Label": "optio",
+        "ValueLength": 793,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 35
+            "FieldLength": 917
           }
         }
       }
     ],
     [
       {
-        "Name": "Heller Group",
-        "Value": "beatae",
-        "Tooltip": "ad",
-        "Label": "corrupti",
-        "ValueLength": 823,
-        "AddressType": "voluptatum",
+        "Name": "Huel-Daugherty",
+        "Value": "placeat",
+        "Tooltip": "voluptas",
+        "Label": "quo",
+        "ValueLength": 234,
+        "AddressType": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldType": "System.String",
+            "FieldLength": 688
           }
         }
       }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "mollitia",
+  "Formatted": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 565
     }
   }
 }

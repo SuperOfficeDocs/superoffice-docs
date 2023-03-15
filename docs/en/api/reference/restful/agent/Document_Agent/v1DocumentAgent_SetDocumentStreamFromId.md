@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 776,
+  "DocumentId": 941,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 131,
+  "DocumentId": 217,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "saepe",
-  "Name": "Hirthe Group",
-  "OurRef": "excepturi",
-  "YourRef": "facilis",
-  "CreatedDate": "2001-06-23T11:22:38.1490728+02:00",
-  "UpdatedDate": "1999-07-12T11:22:38.1490728+02:00",
-  "Description": "Future-proofed radical instruction set",
+  "Attention": "perferendis",
+  "Header": "repellendus",
+  "Name": "Beatty LLC",
+  "OurRef": "enim",
+  "YourRef": "rerum",
+  "CreatedDate": "1997-10-27T12:15:18.8827534+01:00",
+  "UpdatedDate": "2011-12-21T12:15:18.8827534+01:00",
+  "Description": "Synergized value-added benchmark",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-04-24T11:22:38.1646944+02:00",
-  "ExternalRef": "sint",
+  "Date": "2001-03-12T12:15:18.8857526+01:00",
+  "ExternalRef": "consequatur",
   "Completed": "Completed",
-  "ActiveLinks": 719,
+  "ActiveLinks": 56,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Muller Inc and Sons",
-      "Id": 581,
-      "Description": "Triple-buffered reciprocal success",
+      "EntityName": "Fisher Group",
+      "Id": 397,
+      "Description": "Implemented systematic software",
       "ExtraInfo": "et",
-      "LinkId": 651,
+      "LinkId": 156,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 79
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 411,
-  "Snum": 812,
+  "SuggestedDocumentId": 636,
+  "Snum": 597,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Garrison Walter",
-    "SuperOffice:2": "Jeffery Jones"
+    "SuperOffice:1": "953162316",
+    "SuperOffice:2": "Lester O'Hara"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "ex",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "hic"
+    "CustomFields1": "ut",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2012-12-11T11:22:38.1646944+01:00",
-  "PublishTo": "2019-06-22T11:22:38.1646944+02:00",
-  "PublishFrom": "1998-09-06T11:22:38.1646944+02:00",
+  "PublishEventDate": "2014-06-07T12:15:18.8867529+02:00",
+  "PublishTo": "2000-07-23T12:15:18.8867529+02:00",
+  "PublishFrom": "2021-09-06T12:15:18.8867529+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 530,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 622
         }
       }
     },
     {
-      "VisibleId": 530,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "suscipit",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 622
         }
       }
     }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 116
     }
   }
 }

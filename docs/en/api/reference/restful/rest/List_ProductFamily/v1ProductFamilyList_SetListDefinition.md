@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 970,
-  "Name": "Orn Group",
-  "Tooltip": "dolorum",
+  "Id": 937,
+  "Name": "Considine LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 526,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 851,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
-  "InUseByUserDefinedFields": false
+  "ListType": "ex",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 417,
-  "Name": "Weimann, Walker and McCullough",
-  "Tooltip": "provident",
+  "Id": 779,
+  "Name": "Metz Group",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 260,
+  "Rank": 72,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "autem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldType": "System.String",
+      "FieldLength": 223
     }
   }
 }

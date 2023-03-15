@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Monahan-Rath"
+  "OwnerName": "Quitzon, Morar and O'Keefe"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 971,
-      "NumberOfLicensesFree": 357,
-      "NumberOfLicensesAdded": 184,
-      "NumberOfLicensesNewTotal": 727,
-      "NumberOfLicensesNewFree": 897,
-      "NumberOfLicensesTotal": 5
+      "NumberOfLicensesInUse": 262,
+      "NumberOfLicensesFree": 736,
+      "NumberOfLicensesAdded": 426,
+      "NumberOfLicensesNewTotal": 223,
+      "NumberOfLicensesNewFree": 536,
+      "NumberOfLicensesTotal": 882
     }
   ],
-  "AccumulatedNextCheckDate": "2013-06-01T11:22:38.3990648+02:00"
+  "AccumulatedNextCheckDate": "2012-08-12T12:15:19.1807567+02:00"
 }
 ```

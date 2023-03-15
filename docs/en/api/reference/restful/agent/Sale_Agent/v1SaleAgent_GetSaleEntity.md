@@ -25,7 +25,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=479
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=322
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "molestiae",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1997-12-27T11:22:39.2269448+01:00",
-  "Amount": 4365.662,
-  "SaleId": 122,
-  "Earning": 14068.526,
-  "EarningPercent": 22530.326,
-  "Heading": "eos",
-  "Number": "829565",
-  "Probability": 622,
-  "CreatedDate": "2009-07-31T11:22:39.2269448+02:00",
-  "UpdatedDate": "2001-03-24T11:22:39.2269448+01:00",
+  "Saledate": "2005-07-09T12:15:20.0807356+02:00",
+  "Amount": 21026.005999999998,
+  "SaleId": 254,
+  "Earning": 27178.048,
+  "EarningPercent": 4049.1279999999997,
+  "Heading": "ut",
+  "Number": "484515",
+  "Probability": 983,
+  "CreatedDate": "2018-11-06T12:15:20.0807356+01:00",
+  "UpdatedDate": "2000-03-12T12:15:20.0807356+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 674,
+  "ActiveLinks": 825,
   "Links": [
     {
-      "EntityName": "Heidenreich-Pouros",
-      "Id": 341,
-      "Description": "Networked discrete analyzer",
-      "ExtraInfo": "unde",
-      "LinkId": 130,
+      "EntityName": "Powlowski Group",
+      "Id": 999,
+      "Description": "Synergized global info-mediaries",
+      "ExtraInfo": "at",
+      "LinkId": 173,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 486
         }
       }
     }
   ],
-  "NextDueDate": "1997-04-18T11:22:39.2269448+02:00",
-  "Postit": "commodi",
+  "NextDueDate": "2016-03-22T12:15:20.0807356+01:00",
+  "Postit": "praesentium",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-12-28T11:22:39.2269448+01:00",
+  "ReopenDate": "2011-11-06T12:15:20.0807356+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koch Inc and Sons",
-      "Comment": "illum",
-      "StakeholderRoleId": 807,
-      "CountryId": 190,
-      "PersonId": 755,
-      "EmailDescription": "melissa_goldner@tremblay.com",
-      "EmailId": 979,
-      "EmailAddress": "kaleigh_parisian@schimmellynch.uk",
-      "PhoneId": 911,
-      "ContactName": "Roob-DuBuque",
-      "ContactId": 240,
-      "SaleId": 656,
-      "Mrmrs": "quo",
-      "Firstname": "Lyric",
-      "MiddleName": "Schinner, Balistreri and Bernhard",
-      "Lastname": "Osinski",
-      "SaleStakeholderId": 999,
-      "Rank": 314,
-      "Phone": "119.853.4747 x25357",
+      "StakeholderRoleName": "D'Amore, Rutherford and Botsford",
+      "Comment": "molestias",
+      "StakeholderRoleId": 401,
+      "CountryId": 890,
+      "PersonId": 868,
+      "EmailDescription": "maribel@renner.name",
+      "EmailId": 584,
+      "EmailAddress": "leon.orn@spencer.biz",
+      "PhoneId": 318,
+      "ContactName": "Okuneva-Veum",
+      "ContactId": 655,
+      "SaleId": 628,
+      "Mrmrs": "qui",
+      "Firstname": "Reva",
+      "MiddleName": "Runolfsdottir Inc and Sons",
+      "Lastname": "Gorczany",
+      "SaleStakeholderId": 68,
+      "Rank": 721,
+      "Phone": "752.621.4899",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 517
         }
       }
     }
   ],
-  "ActiveErpLinks": 410,
+  "ActiveErpLinks": 759,
   "UserDefinedFields": {
-    "SuperOffice:1": "678217013",
-    "SuperOffice:2": "Layla McCullough"
+    "SuperOffice:1": "562330082",
+    "SuperOffice:2": "Dagmar Prosacco"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "commodi"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "quidem"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "asperiores"
   },
-  "PublishEventDate": "2019-05-05T11:22:39.2269448+02:00",
-  "PublishTo": "2003-11-16T11:22:39.2269448+01:00",
-  "PublishFrom": "2011-07-17T11:22:39.2269448+02:00",
+  "PublishEventDate": "2020-03-04T12:15:20.0827358+01:00",
+  "PublishTo": "1997-09-09T12:15:20.0827358+02:00",
+  "PublishFrom": "2013-08-01T12:15:20.0827358+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 963,
+      "VisibleId": 588,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 982
         }
       }
     },
     {
-      "VisibleId": 963,
+      "VisibleId": 588,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "aspernatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldLength": 982
         }
       }
     }
@@ -250,7 +250,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 184
     }
   }
 }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 852
+  "ShipmentAddrId": 104
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "1999-03-03T11:22:38.5708923+01:00",
+  "SendingTime": "2014-09-14T12:15:19.3717456+02:00",
   "Status": "Blocked",
-  "ShipmentId": 903,
-  "ShipmentDescription": "Monitored systematic data-warehouse",
-  "FromAddress": "temporibus",
-  "ContactId": 74,
-  "ContactName": "Kuhn, Ziemann and Terry",
-  "PersonId": 977,
-  "PersonFullName": "Telly Kuphal",
-  "ShipmentType": "tempore",
-  "MessageId": 507,
-  "MessageSubject": "quia",
-  "DocumentMessageId": 627,
-  "Opened": "2006-02-28T11:22:38.5708923+01:00",
-  "LinkClicks": 412,
+  "ShipmentId": 573,
+  "ShipmentDescription": "Customizable tangible Graphical User Interface",
+  "FromAddress": "qui",
+  "ContactId": 422,
+  "ContactName": "Padberg, Buckridge and Cummings",
+  "PersonId": 748,
+  "PersonFullName": "Anabel Fay",
+  "ShipmentType": "ratione",
+  "MessageId": 615,
+  "MessageSubject": "suscipit",
+  "DocumentMessageId": 912,
+  "Opened": "2001-09-21T12:15:19.3717456+02:00",
+  "LinkClicks": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

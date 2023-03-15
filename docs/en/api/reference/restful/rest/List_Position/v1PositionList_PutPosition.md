@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Balistreri, Berge and Botsford",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "UdListDefinitionId": 917,
-  "Rank": 581
+  "Id": 362,
+  "Name": "Brakus Group",
+  "Tooltip": "dolorem",
+  "Deleted": false,
+  "UdListDefinitionId": 411,
+  "Rank": 470
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Halvorson-Bradtke",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 784,
+  "Id": 266,
+  "Name": "Wisozk-Goldner",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 593,
+  "Rank": 657,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 266
     }
   }
 }

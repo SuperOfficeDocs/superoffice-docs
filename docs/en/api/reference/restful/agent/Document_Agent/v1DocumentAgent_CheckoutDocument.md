@@ -80,9 +80,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 39,
+  "DocumentId": 994,
   "AllowedReturnTypes": [
-    "eveniet",
+    "ad",
     "rem"
   ]
 }
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quibusdam",
-  "VersionId": "sed",
-  "Success": false,
+  "ExternalReference": "adipisci",
+  "VersionId": "omnis",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "nam",
-  "AdditionalInfo": "saepe"
+  "Value": "fugit",
+  "AdditionalInfo": "sapiente"
 }
 ```

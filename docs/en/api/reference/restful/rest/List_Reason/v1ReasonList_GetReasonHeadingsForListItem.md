@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "White Group",
-    "ToolTip": "Vel nostrum expedita culpa.",
+    "Id": 632,
+    "Name": "Spinka Group",
+    "ToolTip": "Nostrum sapiente iusto porro eos at.",
     "Deleted": true,
-    "Rank": 91,
-    "Type": "id",
-    "ColorBlock": 926,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2011-08-04T11:22:46.1316279+02:00",
+    "Rank": 411,
+    "Type": "nihil",
+    "ColorBlock": 160,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2002-12-12T12:15:28.4226214+01:00",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Donnelly-Crooks",
-        "ToolTip": "Voluptates mollitia totam sit.",
+        "Id": 161,
+        "Name": "Doyle, Considine and Ondricka",
+        "ToolTip": "Perferendis laboriosam quia qui reprehenderit ex provident.",
         "Deleted": true,
-        "Rank": 903,
-        "Type": "ad",
-        "ColorBlock": 442,
-        "IconHint": "accusamus",
+        "Rank": 454,
+        "Type": "amet",
+        "ColorBlock": 67,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2010-01-22T11:22:46.1316279+01:00",
+        "LastChanged": "2010-06-11T12:15:28.4236229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Kyla Reinger",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Willis Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 585
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "molestias",
-    "Hidden": false,
-    "FullName": "Gus Upton",
+    "ExtraInfo": "amet",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Miss Carmelo Naomi Grimes I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 260
+        "FieldType": "System.Int32",
+        "FieldLength": 355
       }
     }
   }

@@ -56,20 +56,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Tillman, Graham and Kovacek",
-    "DisplayName": "Rutherford, Breitenberg and Reinger",
-    "DisplayTooltip": "dolorum",
+    "Name": "Baumbach-Jacobi",
+    "DisplayName": "Bayer, Dach and Gleichner",
+    "DisplayTooltip": "eaque",
     "IsActive": false
   },
   {
-    "Name": "Tillman, Graham and Kovacek",
-    "DisplayName": "Rutherford, Breitenberg and Reinger",
-    "DisplayTooltip": "dolorum",
+    "Name": "Baumbach-Jacobi",
+    "DisplayName": "Bayer, Dach and Gleichner",
+    "DisplayTooltip": "eaque",
     "IsActive": false
   }
 ]

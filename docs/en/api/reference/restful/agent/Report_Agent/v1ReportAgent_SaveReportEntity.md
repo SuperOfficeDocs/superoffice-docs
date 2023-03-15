@@ -76,17 +76,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 84,
+  "ReportId": 112,
   "ReportCategory": "All",
-  "Description": "Implemented radical portal",
+  "Description": "Total upward-trending productivity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Dibbert Group",
-  "AssociateId": 804,
-  "TemplateId": 877,
+  "Name": "Wilderman LLC",
+  "AssociateId": 630,
+  "TemplateId": 227,
   "Published": false
 }
 ```
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 130,
+  "ReportId": 402,
   "ReportCategory": "All",
-  "Description": "Cloned asynchronous solution",
+  "Description": "Right-sized transitional model",
   "ReportLayout": "CalendarMonth",
-  "Name": "Funk-Weimann",
-  "AssociateId": 882,
-  "TemplateId": 502,
+  "Name": "Smith-Stroman",
+  "AssociateId": 462,
+  "TemplateId": 266,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 74
     }
   }
 }

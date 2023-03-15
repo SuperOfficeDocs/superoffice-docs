@@ -113,7 +113,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -121,73 +121,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 01 Apr 1999 11:22:45 G4T
+Last-Modified: Mon, 21 Dec 2020 12:15:27 G12T
 
 {
-  "Description": "Focused analyzing challenge",
-  "Postit": "ipsam",
+  "Description": "Visionary 24/7 portal",
+  "Postit": "velit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 57,
-  "IncludePerson": 923,
-  "MemberCount": 679,
-  "Name": "Walsh Group",
-  "PostitTextId": 989,
-  "CreatedDate": "2019-07-09T11:22:45.1943375+02:00",
-  "SelectionId": 193,
-  "SoundEx": "iure",
-  "Source": 31,
-  "TextId": 586,
-  "UpdatedDate": "1999-04-01T11:22:45.1943375+02:00",
-  "UpdatedCount": 369,
-  "Visibility": 117,
+  "GroupIdx": 245,
+  "IncludePerson": 166,
+  "MemberCount": 132,
+  "Name": "Kuhic Inc and Sons",
+  "PostitTextId": 324,
+  "CreatedDate": "1996-04-18T12:15:27.3706304+02:00",
+  "SelectionId": 6,
+  "SoundEx": "hic",
+  "Source": 171,
+  "TextId": 184,
+  "UpdatedDate": "2020-12-21T12:15:27.3706304+01:00",
+  "UpdatedCount": 793,
+  "Visibility": 992,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 401,
-  "TargetTableName": "Schuppe LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 271,
+  "TargetTableName": "Kirlin Group",
   "Completed": false,
-  "LeftSelectionId": 259,
-  "RightSelectionId": 581,
+  "LeftSelectionId": 290,
+  "RightSelectionId": 511,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jacobson Group",
-  "ShadowProviderName": "Mayer LLC",
-  "ChartKey": "autem",
-  "LastLoaded": "2018-10-03T11:22:45.1943375+02:00",
-  "LastLoadedBy": 627,
+  "MainProviderName": "Koelpin, Kub and Quitzon",
+  "ShadowProviderName": "Schimmel, Heaney and Kling",
+  "ChartKey": "iste",
+  "LastLoaded": "2016-11-23T12:15:27.3716271+01:00",
+  "LastLoadedBy": 935,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-01-28T11:22:45.1943375+01:00",
-  "LastMembershipChangeBy": 105,
+  "LastMembershipChange": "2022-01-10T12:15:27.3716271+01:00",
+  "LastMembershipChangeBy": 686,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "culpa",
-  "MemberTabHeading": "veritatis",
-  "MailingsProviderName": "Harvey, Swaniawski and Block",
-  "DashboardTileDefinitionId": 158,
+  "MainHeading": "enim",
+  "MemberTabHeading": "eveniet",
+  "MailingsProviderName": "Simonis-Kunde",
+  "DashboardTileDefinitionId": 894,
   "VisibleFor": [
     {
-      "VisibleId": 95,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 989
         }
       }
     },
     {
-      "VisibleId": 95,
+      "VisibleId": 540,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 989
         }
       }
     }
@@ -197,7 +197,7 @@ Last-Modified: Thu, 01 Apr 1999 11:22:45 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 632
     }
   },
   "_Links": {

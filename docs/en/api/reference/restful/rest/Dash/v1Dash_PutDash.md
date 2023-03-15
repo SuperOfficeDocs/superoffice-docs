@@ -102,34 +102,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 972,
-  "UniqueId": "nihil",
-  "Name": "Jacobson Group",
-  "Description": "Centralized bandwidth-monitored implementation",
-  "AssociateId": 85,
-  "Columns": 175,
+  "DashboardId": 516,
+  "UniqueId": "velit",
+  "Name": "Tillman LLC",
+  "Description": "Balanced empowering open architecture",
+  "AssociateId": 728,
+  "Columns": 893,
   "Theme": null,
-  "VisibleForAll": 65,
+  "VisibleForAll": 305,
   "VisibleForAssociates": [
-    814,
-    139
+    464,
+    665
   ],
   "VisibleForGroups": [
-    106,
-    994
+    452,
+    444
   ],
-  "PinForAll": 673,
+  "PinForAll": 989,
   "PinForAssociates": [
-    949,
-    899
+    46,
+    723
   ],
   "PinForGroups": [
-    36,
-    790
+    173,
+    32
   ]
 }
 ```
@@ -141,37 +141,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 464,
-  "UniqueId": "in",
-  "Name": "Corkery LLC",
-  "Description": "Distributed empowering superstructure",
-  "AssociateId": 391,
-  "Columns": 650,
+  "DashboardId": 463,
+  "UniqueId": "aliquam",
+  "Name": "Rutherford-Schumm",
+  "Description": "Operative object-oriented archive",
+  "AssociateId": 103,
+  "Columns": 421,
   "Theme": null,
-  "VisibleForAll": 94,
+  "VisibleForAll": 341,
   "VisibleForAssociates": [
-    246,
-    853
+    675,
+    62
   ],
   "VisibleForGroups": [
-    662,
-    310
+    927,
+    179
   ],
-  "PinForAll": 327,
+  "PinForAll": 156,
   "PinForAssociates": [
-    585,
-    120
+    876,
+    725
   ],
   "PinForGroups": [
-    919,
-    837
+    398,
+    318
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldType": "System.String",
+      "FieldLength": 27
     }
   },
   "_Links": {

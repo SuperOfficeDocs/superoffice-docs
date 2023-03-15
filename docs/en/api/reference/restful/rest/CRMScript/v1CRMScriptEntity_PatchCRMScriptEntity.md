@@ -120,18 +120,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "fuga",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "fuga",
     "value": {}
   }
 ]
@@ -144,23 +144,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 399,
-  "UniqueIdentifier": "est",
-  "Name": "Hagenes, Blick and Hintz",
-  "Description": "Proactive homogeneous middleware",
-  "IncludeId": "esse",
-  "HierarchyId": 843,
-  "Source": "quam",
-  "Registered": "1997-05-05T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 919,
-  "Updated": "2016-03-21T11:22:44.5694964+01:00",
-  "UpdatedAssociateId": 947,
+  "EjscriptId": 470,
+  "UniqueIdentifier": "alias",
+  "Name": "Runolfsson-Franecki",
+  "Description": "Secured modular projection",
+  "IncludeId": "et",
+  "HierarchyId": 385,
+  "Source": "unde",
+  "Registered": "2009-01-03T12:15:26.8126382+01:00",
+  "RegisteredAssociateId": 796,
+  "Updated": "2021-06-24T12:15:26.8126382+02:00",
+  "UpdatedAssociateId": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 856
     }
   },
   "_Links": {

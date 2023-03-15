@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "Name": "Hammes LLC",
-  "Tooltip": "facere",
-  "Deleted": true,
-  "Rank": 474,
+  "Id": 396,
+  "Name": "Gerlach, Schiller and Lang",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 177,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 932
     }
   }
 }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Grady Group"
+  "HistoryName": "Kuvalis LLC"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 944,
-  "Id": 290,
-  "HistoryName": "Terry-Weimann",
-  "HistoryId": 767,
-  "AssociateId": 234,
-  "Name": "Goyette-Bechtelar",
-  "ItemInfo": "ipsa",
+  "Rank": 651,
+  "Id": 106,
+  "HistoryName": "McCullough LLC",
+  "HistoryId": 571,
+  "AssociateId": 930,
+  "Name": "Mayert-Brakus",
+  "ItemInfo": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

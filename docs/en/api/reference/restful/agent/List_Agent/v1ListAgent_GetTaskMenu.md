@@ -25,7 +25,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=963
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=244
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 176,
-  "Name": "Wiza-Von",
-  "Tooltip": "natus",
-  "TableName": "Schneider-Walsh",
-  "Area": "ut",
+  "TaskMenuId": 796,
+  "Name": "Mitchell Group",
+  "Tooltip": "assumenda",
+  "TableName": "Strosin-Considine",
+  "Area": "et",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 898,
+  "CrmScriptId": 653,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 19,
+  "Rank": 626,
   "Encoding": "ANSI",
-  "ProgId": "minima",
-  "Deleted": true,
+  "ProgId": "mollitia",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 207
     }
   }
 }

@@ -24,7 +24,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=False
+GET /api/v1/List/Business/Items?includeDeleted=True
 ```
 
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 724,
-    "Name": "Deckow Group",
-    "Tooltip": "nesciunt",
+    "Id": 356,
+    "Name": "Morissette Inc and Sons",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "UdListDefinitionId": 857,
-    "Rank": 47,
+    "UdListDefinitionId": 451,
+    "Rank": 312,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 304
       }
     }
   }

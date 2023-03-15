@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 365,
-  "PrefDescId": 406,
-  "PrefValue": "molestiae",
-  "PrefShowValue": "labore",
-  "Description": "Digitized 6th generation open system",
-  "IsBuiltin": false,
+  "PrefDescLineId": 304,
+  "PrefDescId": 445,
+  "PrefValue": "velit",
+  "PrefShowValue": "iusto",
+  "Description": "Configurable optimizing alliance",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

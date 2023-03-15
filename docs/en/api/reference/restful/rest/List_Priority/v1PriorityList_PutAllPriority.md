@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Bernier LLC",
-    "Tooltip": "omnis",
+    "Id": 853,
+    "Name": "Waters Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 514,
-    "Rank": 882
+    "UdListDefinitionId": 116,
+    "Rank": 479
   },
   {
-    "Id": 646,
-    "Name": "Bernier LLC",
-    "Tooltip": "omnis",
+    "Id": 853,
+    "Name": "Waters Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 514,
-    "Rank": 882
+    "UdListDefinitionId": 116,
+    "Rank": 479
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 500,
-    "Name": "Friesen, Prosacco and Goyette",
-    "Tooltip": "laborum",
-    "Deleted": false,
-    "UdListDefinitionId": 812,
-    "Rank": 495,
+    "Id": 97,
+    "Name": "Runolfsdottir-McKenzie",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 917,
+    "Rank": 989,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 481
+        "FieldType": "System.Int32",
+        "FieldLength": 401
       }
     }
   }

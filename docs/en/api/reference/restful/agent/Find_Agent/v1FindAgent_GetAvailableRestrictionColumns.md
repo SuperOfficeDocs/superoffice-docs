@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quidem",
-  "ProviderName": "Wintheiser Inc and Sons"
+  "StorageType": "in",
+  "ProviderName": "Stanton LLC"
 }
 ```
 
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "exercitationem",
-  "ipsam"
+  "quaerat",
+  "quas"
 ]
 ```

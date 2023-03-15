@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ea",
-  "ProviderName": "Powlowski, O'Conner and Kiehn",
-  "StorageKey": "ut",
-  "Restrictions": "provident"
+  "StorageType": "unde",
+  "ProviderName": "Schimmel-Huel",
+  "StorageKey": "omnis",
+  "Restrictions": "minus"
 }
 ```
 

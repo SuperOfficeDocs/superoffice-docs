@@ -64,32 +64,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 333,
+  "SaleId": 165,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Ortiz, Rogahn and Greenholt",
-      "Comment": "aut",
-      "StakeholderRoleId": 889,
-      "CountryId": 464,
-      "PersonId": 172,
-      "EmailDescription": "margie_prohaska@walkertromp.biz",
-      "EmailId": 455,
-      "EmailAddress": "shaylee.pagac@zemlak.ca",
-      "PhoneId": 212,
-      "ContactName": "Kassulke LLC",
-      "ContactId": 701,
-      "SaleId": 443,
-      "Mrmrs": "facere",
-      "Firstname": "Kenneth",
-      "MiddleName": "Feil-Yost",
-      "Lastname": "Daniel",
-      "SaleStakeholderId": 758,
-      "Rank": 816,
-      "Phone": "747.958.9354 x207"
+      "StakeholderRoleName": "McKenzie Inc and Sons",
+      "Comment": "amet",
+      "StakeholderRoleId": 559,
+      "CountryId": 216,
+      "PersonId": 633,
+      "EmailDescription": "pietro@powlowskimetz.uk",
+      "EmailId": 409,
+      "EmailAddress": "hassan@wilderman.com",
+      "PhoneId": 513,
+      "ContactName": "Streich LLC",
+      "ContactId": 389,
+      "SaleId": 636,
+      "Mrmrs": "ut",
+      "Firstname": "Jadon",
+      "MiddleName": "Wiegand Inc and Sons",
+      "Lastname": "Hodkiewicz",
+      "SaleStakeholderId": 901,
+      "Rank": 910,
+      "Phone": "483.965.6275 x89190"
     }
   ]
 }

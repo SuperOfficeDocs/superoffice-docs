@@ -103,33 +103,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 242,
-  "ParentId": 520,
-  "Name": "Anderson Group",
-  "Fullname": "iusto",
-  "CategoryMaster": 726,
+  "TicketCategoryId": 907,
+  "ParentId": 810,
+  "Name": "Yundt Inc and Sons",
+  "Fullname": "rem",
+  "CategoryMaster": 369,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "King-Kautzer",
+  "ExternalName": "Bergstrom-Bode",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 174,
-  "ReplyTemplate": 812,
-  "NotificationEmail": "beulah.hermiston@kris.us",
+  "AssignmentLag": 321,
+  "ReplyTemplate": 174,
+  "NotificationEmail": "arjun@borer.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 17,
+  "EffectiveReplyTemplateId": 373,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "perspiciatis"
   },
   "CustomFields": {
-    "CustomFields1": "rem",
-    "CustomFields2": "repellat"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -141,36 +141,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 906,
-  "ParentId": 170,
-  "Name": "Schneider Group",
-  "Fullname": "exercitationem",
-  "CategoryMaster": 798,
+  "TicketCategoryId": 445,
+  "ParentId": 113,
+  "Name": "Zulauf-Sauer",
+  "Fullname": "modi",
+  "CategoryMaster": 862,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wintheiser, Windler and Kuhn",
+  "ExternalName": "Feest LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 397,
-  "ReplyTemplate": 764,
-  "NotificationEmail": "george@romaguera.info",
+  "AssignmentLag": 462,
+  "ReplyTemplate": 132,
+  "NotificationEmail": "bertrand@kreigercole.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 816,
+  "EffectiveReplyTemplateId": 355,
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
+    "ExtraFields1": "distinctio",
     "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "sed"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "impedit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldLength": 793
     }
   }
 }

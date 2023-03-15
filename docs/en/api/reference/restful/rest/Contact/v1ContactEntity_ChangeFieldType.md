@@ -29,7 +29,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -103,7 +103,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 158,
-  "ColumnId": 790,
-  "FieldDefault": "itaque",
-  "FieldHeight": 738,
-  "FieldLabel": "dicta",
-  "FieldLeft": 746,
-  "FieldTop": 618,
+  "UDefFieldId": 312,
+  "ColumnId": 376,
+  "FieldDefault": "eius",
+  "FieldHeight": 926,
+  "FieldLabel": "architecto",
+  "FieldLeft": 240,
+  "FieldTop": 990,
   "FieldType": "Checkbox",
-  "FieldWidth": 475,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 904,
+  "FormatMask": "vitae",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 418,
-  "LabelLeft": 583,
-  "LabelTop": 348,
-  "LabelWidth": 109,
-  "LastVersionId": 309,
-  "ListTableId": 192,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 630,
+  "LabelLeft": 301,
+  "LabelTop": 924,
+  "LabelWidth": 123,
+  "LastVersionId": 114,
+  "ListTableId": 652,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 253,
-  "ProgId": "voluptas",
-  "IsReadOnly": true,
-  "ShortLabel": "sapiente",
-  "TabOrder": 377,
-  "TextLength": 175,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 529,
-  "UDListDefinitionId": 803,
+  "Page1LineNo": 758,
+  "ProgId": "corporis",
+  "IsReadOnly": false,
+  "ShortLabel": "quis",
+  "TabOrder": 487,
+  "TextLength": 906,
+  "Tooltip": "quia",
+  "UdefIdentity": 776,
+  "UDListDefinitionId": 426,
   "Justification": "Center",
-  "Version": 760,
-  "TemplateVariableName": "Windler, Hudson and Ritchie",
+  "Version": 793,
+  "TemplateVariableName": "Moore-Crooks",
   "HasBeenPublished": false,
-  "MdoListName": "Shanahan, Cassin and Padberg",
+  "MdoListName": "Conn, Veum and Schmidt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldType": "System.String",
+      "FieldLength": 550
     }
   }
 }

@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 491,
-  "Name": "Adams-Fisher",
-  "Tooltip": "quia",
+  "Id": 221,
+  "Name": "Reynolds, Towne and Thiel",
+  "Tooltip": "iusto",
   "Deleted": true,
-  "UdListDefinitionId": 455,
-  "Rank": 273,
+  "UdListDefinitionId": 661,
+  "Rank": 602,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   }
 }

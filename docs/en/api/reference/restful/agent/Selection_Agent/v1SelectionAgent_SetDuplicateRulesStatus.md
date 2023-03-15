@@ -63,21 +63,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Douglas Group",
-      "DisplayName": "Gorczany-Kovacek",
-      "DisplayTooltip": "nostrum",
+      "Name": "O'Reilly, Rogahn and Wolf",
+      "DisplayName": "Wilkinson Group",
+      "DisplayTooltip": "vero",
       "IsActive": false
     },
     {
-      "Name": "Douglas Group",
-      "DisplayName": "Gorczany-Kovacek",
-      "DisplayTooltip": "nostrum",
+      "Name": "O'Reilly, Rogahn and Wolf",
+      "DisplayName": "Wilkinson Group",
+      "DisplayTooltip": "vero",
       "IsActive": false
     }
   ]

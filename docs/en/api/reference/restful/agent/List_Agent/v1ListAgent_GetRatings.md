@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Value": "doloribus",
-    "Tooltip": "omnis",
+    "Id": 821,
+    "Value": "aliquid",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 246
       }
     }
   },
   {
-    "Id": 57,
-    "Value": "doloribus",
-    "Tooltip": "omnis",
+    "Id": 821,
+    "Value": "aliquid",
+    "Tooltip": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 246
       }
     }
   }

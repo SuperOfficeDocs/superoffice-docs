@@ -25,8 +25,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=quo
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=rerum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Schiller-Durgan",
-    "ToolTip": "Voluptatem temporibus et minus beatae quaerat deleniti.",
+    "Id": 871,
+    "Name": "Kutch-Graham",
+    "ToolTip": "Aspernatur sed sit quaerat numquam et.",
     "Deleted": false,
-    "Rank": 238,
-    "Type": "totam",
+    "Rank": 50,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Rempel-Williamson",
-        "ToolTip": "Cupiditate reiciendis.",
-        "Deleted": false,
-        "Rank": 950,
-        "Type": "et",
+        "Id": 342,
+        "Name": "Hermann-Schaefer",
+        "ToolTip": "Reiciendis id recusandae voluptas quia assumenda maiores.",
+        "Deleted": true,
+        "Rank": 826,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "natus",
-        "ColorBlock": 449,
-        "ExtraInfo": "sunt",
-        "StyleHint": "harum",
-        "FullName": "Janessa Becker",
+        "IconHint": "provident",
+        "ColorBlock": 756,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sed",
+        "FullName": "Denis Fahey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 135
+            "FieldType": "System.Int32",
+            "FieldLength": 170
           }
         }
       }
     ],
-    "IconHint": "voluptatum",
-    "ColorBlock": 332,
-    "ExtraInfo": "vitae",
-    "StyleHint": "totam",
-    "FullName": "Rodolfo Cronin",
+    "IconHint": "aliquam",
+    "ColorBlock": 278,
+    "ExtraInfo": "saepe",
+    "StyleHint": "libero",
+    "FullName": "Laurine Caroline Brekke V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 132
       }
     }
   }

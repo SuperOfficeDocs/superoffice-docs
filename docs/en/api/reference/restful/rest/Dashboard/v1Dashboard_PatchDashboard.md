@@ -111,18 +111,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cum",
+    "path": "consequatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cum",
+    "path": "consequatur",
     "value": {}
   }
 ]
@@ -135,22 +135,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 518,
-  "AssociateId": 564,
-  "Caption": "voluptatibus",
+  "DashboardId": 357,
+  "AssociateId": 314,
+  "Caption": "quo",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 763,
-      "Caption": "ut",
-      "Description": "Multi-tiered local standardization",
-      "ChartName": "Gorczany-Denesik",
-      "ChartId": "hic",
+      "DashboardTileId": 580,
+      "Caption": "repellendus",
+      "Description": "Upgradable well-modulated product",
+      "ChartName": "Jacobi Group",
+      "ChartId": "aliquam",
       "IsDefault": false,
-      "AssociateId": 571,
-      "GroupId": 719,
-      "SelectionId": 666,
-      "Config": "doloribus",
+      "AssociateId": 613,
+      "GroupId": 36,
+      "SelectionId": 664,
+      "Config": "molestiae",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 831
+          "FieldType": "System.Int32",
+          "FieldLength": 37
         }
       }
     }
@@ -175,8 +175,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 526
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   },
   "_Links": {

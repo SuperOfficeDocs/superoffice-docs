@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 3,
-    "Name": "Romaguera Group",
-    "ToolTip": "Et quo voluptatem temporibus.",
+    "Id": 612,
+    "Name": "Pacocha-Price",
+    "ToolTip": "Maiores aspernatur temporibus nulla sapiente.",
     "Deleted": true,
-    "Rank": 608,
-    "Type": "nostrum",
-    "ColorBlock": 299,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2006-08-22T11:22:45.9285426+02:00",
+    "Rank": 840,
+    "Type": "quaerat",
+    "ColorBlock": 242,
+    "IconHint": "repudiandae",
+    "Selected": false,
+    "LastChanged": "2019-11-07T12:15:28.1746182+01:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Kautzer-Kassulke",
-        "ToolTip": "Odit error odit quis eveniet consequatur.",
+        "Id": 448,
+        "Name": "Brekke Group",
+        "ToolTip": "Quo enim.",
         "Deleted": false,
-        "Rank": 815,
-        "Type": "consequuntur",
-        "ColorBlock": 299,
-        "IconHint": "laborum",
+        "Rank": 241,
+        "Type": "autem",
+        "ColorBlock": 941,
+        "IconHint": "nobis",
         "Selected": true,
-        "LastChanged": "2009-04-20T11:22:45.9285426+02:00",
+        "LastChanged": "2014-01-21T12:15:28.1746182+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Mr. Harrison Ernser"
+        "ExtraInfo": "maiores",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Dr. Alexander Thomas Hintz"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "velit",
+    "ExtraInfo": "qui",
+    "StyleHint": "ex",
     "Hidden": false,
-    "FullName": "Dr. Dan Abernathy"
+    "FullName": "Mr. Ova Deanna Rippin MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Cormier LLC",
-    "ToolTip": "Vel nobis iste nostrum labore illum dolores.",
-    "Deleted": true,
-    "Rank": 265,
-    "Type": "illum",
-    "ColorBlock": 523,
-    "IconHint": "ut",
+    "Id": 598,
+    "Name": "Johnson Inc and Sons",
+    "ToolTip": "Quasi deserunt dolor est voluptas impedit.",
+    "Deleted": false,
+    "Rank": 768,
+    "Type": "alias",
+    "ColorBlock": 738,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2009-05-22T11:22:45.9441645+02:00",
+    "LastChanged": "2015-11-05T12:15:28.1766177+01:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Bosco LLC",
-        "ToolTip": "Debitis sint.",
-        "Deleted": false,
-        "Rank": 888,
-        "Type": "perferendis",
-        "ColorBlock": 860,
-        "IconHint": "repellendus",
+        "Id": 716,
+        "Name": "Pollich, Robel and Thompson",
+        "ToolTip": "Dolorem atque libero impedit nostrum alias alias minus.",
+        "Deleted": true,
+        "Rank": 402,
+        "Type": "et",
+        "ColorBlock": 151,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2013-02-22T11:22:45.9441645+01:00",
+        "LastChanged": "2022-08-10T12:15:28.1766177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "aut",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Miss Rosendo Daniel PhD",
+        "FullName": "Dorcas Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldType": "System.Int32",
+            "FieldLength": 540
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "necessitatibus",
-    "Hidden": false,
-    "FullName": "Jazmyn Mitchell",
+    "ExtraInfo": "ex",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Mr. Carli Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldType": "System.Int32",
+        "FieldLength": 465
       }
     }
   }

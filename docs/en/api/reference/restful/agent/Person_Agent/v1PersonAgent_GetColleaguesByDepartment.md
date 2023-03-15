@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 602
+  "DepartmentId": 121
 }
 ```
 
@@ -129,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "sed",
-    "PersonId": 752,
-    "Mrmrs": "vel",
-    "Firstname": "Prince",
-    "Lastname": "Corkery",
-    "MiddleName": "Beatty, Heaney and Donnelly",
-    "Title": "ut",
-    "Description": "Self-enabling intangible budgetary management",
-    "Email": "max@goyette.ca",
-    "FullName": "Amiya Hahn",
-    "DirectPhone": "233-203-1846",
-    "FormalName": "Boyle-Schulist",
-    "CountryId": 799,
-    "ContactId": 142,
-    "ContactName": "Bernhard, Buckridge and Mante",
-    "Retired": 425,
-    "Rank": 755,
-    "ActiveInterests": 632,
+    "Position": "nobis",
+    "PersonId": 93,
+    "Mrmrs": "laborum",
+    "Firstname": "Branson",
+    "Lastname": "Kuhn",
+    "MiddleName": "Nitzsche-Kovacek",
+    "Title": "esse",
+    "Description": "Exclusive foreground installation",
+    "Email": "golden_medhurst@sauer.com",
+    "FullName": "Kennith McGlynn Jr.",
+    "DirectPhone": "1-297-794-5496",
+    "FormalName": "Bruen-Hackett",
+    "CountryId": 242,
+    "ContactId": 288,
+    "ContactName": "Stehr, Hartmann and Cronin",
+    "Retired": 571,
+    "Rank": 425,
+    "ActiveInterests": 970,
     "ContactDepartment": "",
-    "ContactCountryId": 862,
-    "ContactOrgNr": "918411",
-    "FaxPhone": "378.949.3807 x832",
-    "MobilePhone": "1-535-513-3697 x81748",
-    "ContactPhone": "1-364-715-6825",
-    "AssociateName": "Davis-Carter",
-    "AssociateId": 562,
+    "ContactCountryId": 673,
+    "ContactOrgNr": "1157969",
+    "FaxPhone": "885.671.7187 x1593",
+    "MobilePhone": "(713)705-0208",
+    "ContactPhone": "1-731-522-9777 x62772",
+    "AssociateName": "Aufderhar-Labadie",
+    "AssociateId": 257,
     "UsePersonAddress": false,
-    "ContactFax": "et",
-    "Kanafname": "mollitia",
-    "Kanalname": "nulla",
-    "Post1": "consequatur",
-    "Post2": "eius",
+    "ContactFax": "similique",
+    "Kanafname": "aut",
+    "Kanalname": "suscipit",
+    "Post1": "pariatur",
+    "Post2": "quo",
     "Post3": "ullam",
-    "EmailName": "lafayette@douglasjohnston.uk",
-    "ContactFullName": "Laurine Heathcote",
-    "ActiveErpLinks": 64,
-    "TicketPriorityId": 56,
-    "SupportLanguageId": 536,
-    "SupportAssociateId": 587,
+    "EmailName": "lea@abernathyschmitt.name",
+    "ContactFullName": "Mr. Moshe Pouros DVM",
+    "ActiveErpLinks": 368,
+    "TicketPriorityId": 290,
+    "SupportLanguageId": 999,
+    "SupportAssociateId": 26,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 360
       }
     }
   }

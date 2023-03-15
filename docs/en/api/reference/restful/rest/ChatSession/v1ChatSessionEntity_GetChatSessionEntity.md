@@ -102,7 +102,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -112,29 +112,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 579,
-  "TopicId": 555,
+  "ChatSessionId": 228,
+  "TopicId": 269,
   "User": null,
   "Person": null,
-  "CustomerAlias": "occaecati",
-  "CustomerHost": "repellat",
-  "CustomerName": "Balistreri-O'Conner",
-  "CustomerEmail": "lucile@feest.uk",
-  "CustomerPhone": "(887)252-8167",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Little, Quigley and Gerlach",
+  "CustomerAlias": "est",
+  "CustomerHost": "optio",
+  "CustomerName": "Zemlak, Simonis and Mayer",
+  "CustomerEmail": "ward@oreillyullrich.biz",
+  "CustomerPhone": "820.944.3578",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Schmitt-Corwin",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "maiores",
-  "WhenRequested": "2007-07-10T11:22:44.3195524+02:00",
-  "WhenStarted": "2022-10-13T11:22:44.3195524+02:00",
-  "WhenEnded": "1996-11-15T11:22:44.3195524+01:00",
-  "WhenIdle": "2018-07-03T11:22:44.3195524+02:00",
-  "WhenFetched": "2020-05-29T11:22:44.3195524+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 690,
-  "AlertLevel": 628,
-  "Rank": 682,
+  "FirstMessage": "in",
+  "LastMessage": "qui",
+  "WhenRequested": "2004-07-07T12:15:26.3936438+02:00",
+  "WhenStarted": "2003-03-25T12:15:26.3936438+01:00",
+  "WhenEnded": "2013-11-10T12:15:26.3936438+01:00",
+  "WhenIdle": "1997-12-30T12:15:26.3936438+01:00",
+  "WhenFetched": "1996-06-17T12:15:26.3936438+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 209,
+  "AlertLevel": 126,
+  "Rank": 10,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -142,18 +142,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 87,
+  "Rating": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 260
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

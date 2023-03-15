@@ -64,7 +64,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "eos",
-    "DocumentId": 180,
-    "VersionId": "dignissimos",
-    "CheckedInDate": "2002-04-10T11:22:44.6632227+02:00",
-    "CheckedInByName": "Schamberger Inc and Sons",
-    "CheckedInByAssociateId": 957,
-    "Description": "Programmable human-resource secured line",
-    "DisplayText": "quod",
+    "ExternalReference": "cupiditate",
+    "DocumentId": 157,
+    "VersionId": "et",
+    "CheckedInDate": "2023-01-29T12:15:26.921637+01:00",
+    "CheckedInByName": "Mitchell-Corwin",
+    "CheckedInByAssociateId": 291,
+    "Description": "Reverse-engineered object-oriented utilisation",
+    "DisplayText": "voluptatem",
     "ExtraFields": [
-      "excepturi",
-      "sit"
+      "corrupti",
+      "aperiam"
     ]
   }
 ]

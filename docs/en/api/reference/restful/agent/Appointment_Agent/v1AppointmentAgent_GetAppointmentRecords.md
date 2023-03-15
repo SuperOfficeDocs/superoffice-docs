@@ -123,12 +123,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 842,
-  "RecurrenceRuleId": 145
+  "MotherId": 297,
+  "RecurrenceRuleId": 547
 }
 ```
 
@@ -140,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 983,
-    "StartDate": "2021-10-28T11:22:36.9619023+02:00",
-    "EndDate": "2009-06-12T11:22:36.9619023+02:00",
+    "AppointmentId": 717,
+    "StartDate": "1998-04-23T12:15:17.6817776+02:00",
+    "EndDate": "2006-04-05T12:15:17.6817776+02:00",
     "Type": "BookingForChecklist",
-    "Task": "suscipit",
-    "AssociateFullName": "Ms. Uriah Breitenberg DDS",
-    "ContactName": "Johnson-Krajcik",
-    "Description": "Digitized client-server challenge",
-    "PersonFullName": "Queenie Considine",
-    "PersonId": 268,
-    "ContactId": 66,
-    "ProjectId": 136,
-    "ProjectName": "Quitzon-D'Amore",
-    "IsPublished": true,
-    "AssociateId": 952,
-    "ColorIndex": 228,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "dolorem",
+    "AssociateFullName": "Dante Wuckert I",
+    "ContactName": "Buckridge Group",
+    "Description": "Polarised real-time function",
+    "PersonFullName": "Miss Evangeline McDermott Sr.",
+    "PersonId": 113,
+    "ContactId": 151,
+    "ProjectId": 202,
+    "ProjectName": "Olson Group",
+    "IsPublished": false,
+    "AssociateId": 214,
+    "ColorIndex": 393,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 22,
-    "PriorityName": "Wolf, Becker and Kemmer",
+    "PriorityId": 889,
+    "PriorityName": "Windler, Homenick and Mosciski",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2011-12-16T11:22:36.9619023+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "1998-09-19T12:15:17.6817776+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-03-27T11:22:36.9619023+01:00",
-    "RecurringEndDate": "2007-05-13T11:22:36.9619023+02:00",
-    "MotherId": 119,
-    "AssignedBy": 664,
-    "AssignedByFullName": "Martina Durgan",
+    "RecurringStartDate": "2003-09-06T12:15:17.6817776+02:00",
+    "RecurringEndDate": "2004-07-13T12:15:17.6817776+02:00",
+    "MotherId": 110,
+    "AssignedBy": 275,
+    "AssignedByFullName": "Ernest Koepp",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "ea",
-    "SaleId": 486,
-    "SaleName": "Stoltenberg, Kertzmann and Harvey",
-    "AssociateName": "Beer-Wisoky",
-    "CreatedDate": "2022-07-02T11:22:36.9619023+02:00",
-    "CreatedBy": "consequatur",
-    "CreatedByFullName": "Alisha Keebler",
-    "CreatedByAssociateId": 152,
+    "Location": "voluptatum",
+    "AlarmLeadTime": "laboriosam",
+    "SaleId": 731,
+    "SaleName": "Walsh-Hoppe",
+    "AssociateName": "Parker Group",
+    "CreatedDate": "2010-07-05T12:15:17.6827699+02:00",
+    "CreatedBy": "molestias",
+    "CreatedByFullName": "Rubie Maurice Gislason PhD",
+    "CreatedByAssociateId": 756,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 960
+        "FieldLength": 563
       }
     }
   }

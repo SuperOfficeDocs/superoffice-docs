@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut"
+  "Key": "aliquid"
 }
 ```
 
@@ -91,15 +91,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "nisi",
-  "AccessToken": "qui",
-  "RefreshToken": "magni",
+  "Provider": "ut",
+  "AccessToken": "excepturi",
+  "RefreshToken": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldLength": 206
     }
   }
 }

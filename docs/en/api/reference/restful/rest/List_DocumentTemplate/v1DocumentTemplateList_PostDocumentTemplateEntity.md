@@ -112,34 +112,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 713,
-  "Name": "Mayer Inc and Sons",
-  "Tooltip": "asperiores",
-  "SaveInDb": 703,
-  "Filename": "quia",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 416,
+  "Name": "Heidenreich, Lubowitz and Ebert",
+  "Tooltip": "iste",
+  "SaveInDb": 909,
+  "Filename": "qui",
+  "DefaultOref": "quos",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 725,
-  "IntentId": 151,
+  "AutoeventId": 391,
+  "IntentId": 1000,
   "IsDefaultPublished": false,
-  "Rank": 170,
-  "LoadTemplateFromPlugin": 229,
-  "MimeType": "aut",
+  "Rank": 829,
+  "LoadTemplateFromPlugin": 305,
+  "MimeType": "molestiae",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 36,
+  "DocumentTypeKey": 674,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "monroe@mayertaufderhar.biz",
+  "EmailSubject": "katharina.jacobi@mayert.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alexys.senger@windlerbeahan.ca",
+  "SenderEmailAddress": "marilyne.ritchie@toy.ca",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 469,
-  "Name": "Bradtke-Cassin",
-  "Tooltip": "dolor",
-  "SaveInDb": 382,
-  "Filename": "velit",
-  "DefaultOref": "illo",
+  "DocumentTemplateId": 851,
+  "Name": "Dicki, VonRueden and Marquardt",
+  "Tooltip": "quam",
+  "SaveInDb": 347,
+  "Filename": "recusandae",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 569,
-  "IntentId": 727,
+  "AutoeventId": 692,
+  "IntentId": 361,
   "IsDefaultPublished": true,
-  "Rank": 865,
-  "LoadTemplateFromPlugin": 365,
-  "MimeType": "quae",
+  "Rank": 576,
+  "LoadTemplateFromPlugin": 526,
+  "MimeType": "quia",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 231,
+  "DocumentTypeKey": 496,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mozelle@halvorson.co.uk",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "haven_hilpert@hyatt.name",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dylan@ward.ca",
+  "SenderEmailAddress": "sydnee.windler@brekke.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldLength": 98
     }
   }
 }

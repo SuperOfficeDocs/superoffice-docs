@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Ryan, Robel and Heidenreich",
-    "Tooltip": "et",
+    "Id": 761,
+    "Name": "Windler, Schulist and Crooks",
+    "Tooltip": "fugit",
     "Deleted": true,
-    "UdListDefinitionId": 966,
-    "Rank": 396
+    "UdListDefinitionId": 584,
+    "Rank": 520
   },
   {
-    "Id": 452,
-    "Name": "Ryan, Robel and Heidenreich",
-    "Tooltip": "et",
+    "Id": 761,
+    "Name": "Windler, Schulist and Crooks",
+    "Tooltip": "fugit",
     "Deleted": true,
-    "UdListDefinitionId": 966,
-    "Rank": 396
+    "UdListDefinitionId": 584,
+    "Rank": 520
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 312,
-    "Name": "Beahan Group",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "UdListDefinitionId": 963,
-    "Rank": 715,
+    "Id": 538,
+    "Name": "Douglas, Stark and Pouros",
+    "Tooltip": "architecto",
+    "Deleted": false,
+    "UdListDefinitionId": 664,
+    "Rank": 165,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldLength": 773
       }
     }
   }

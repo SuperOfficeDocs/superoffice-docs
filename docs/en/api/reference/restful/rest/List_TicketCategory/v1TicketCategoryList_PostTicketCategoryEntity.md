@@ -98,33 +98,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 357,
-  "ParentId": 89,
-  "Name": "Kihn Inc and Sons",
-  "Fullname": "et",
-  "CategoryMaster": 977,
+  "TicketCategoryId": 611,
+  "ParentId": 935,
+  "Name": "Carter Inc and Sons",
+  "Fullname": "dolores",
+  "CategoryMaster": 119,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Collins, Ziemann and Marks",
+  "ExternalName": "Wolf, Kuvalis and Bergnaum",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 744,
-  "ReplyTemplate": 894,
-  "NotificationEmail": "jon@morar.co.uk",
+  "AssignmentLag": 20,
+  "ReplyTemplate": 90,
+  "NotificationEmail": "afton_wisoky@littlemitchell.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 524,
+  "EffectiveReplyTemplateId": 600,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "aut"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "rem"
   }
 }
 ```
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 654,
-  "ParentId": 74,
-  "Name": "O'Conner-Schultz",
-  "Fullname": "omnis",
-  "CategoryMaster": 59,
+  "TicketCategoryId": 730,
+  "ParentId": 655,
+  "Name": "Gerlach, Ward and Spinka",
+  "Fullname": "quibusdam",
+  "CategoryMaster": 234,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Crist, Connelly and White",
+  "ExternalName": "Price Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 460,
-  "ReplyTemplate": 240,
-  "NotificationEmail": "leilani_leffler@prosaccomorissette.co.uk",
+  "AssignmentLag": 939,
+  "ReplyTemplate": 970,
+  "NotificationEmail": "jevon_nitzsche@murazik.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 618,
+  "EffectiveReplyTemplateId": 248,
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "sequi"
+    "CustomFields1": "id",
+    "CustomFields2": "corporis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 346
+      "FieldLength": 928
     }
   }
 }

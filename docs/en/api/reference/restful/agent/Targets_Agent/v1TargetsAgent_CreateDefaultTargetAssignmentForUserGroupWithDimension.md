@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 978,
-  "TargetDimensionId": 725
+  "UserGroupId": 694,
+  "TargetDimensionId": 802
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 992,
+    "TargetAssignmentInfoId": 60,
     "Values": [
-      508,
-      413
+      917,
+      894
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 308,
-    "DimensionListItemDisplayName": "Kub-Pouros",
+    "DimensionListItem": 382,
+    "DimensionListItemDisplayName": "Spinka, Kunde and Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

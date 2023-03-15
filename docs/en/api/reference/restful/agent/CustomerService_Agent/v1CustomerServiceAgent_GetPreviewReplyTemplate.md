@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 341
+  "ReplyTemplateId": 273
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feeney-Davis",
-  "Description": "Intuitive zero defect success",
-  "OwnedByFullName": "Charity Altenwerth",
-  "Updated": "2008-11-22T11:22:37.7898385+01:00",
-  "Body": "consectetur",
+  "Name": "Haley, Cummerata and Franecki",
+  "Description": "Total mission-critical hub",
+  "OwnedByFullName": "Kris Schulist",
+  "Updated": "1996-08-12T12:15:18.6487562+02:00",
+  "Body": "placeat",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

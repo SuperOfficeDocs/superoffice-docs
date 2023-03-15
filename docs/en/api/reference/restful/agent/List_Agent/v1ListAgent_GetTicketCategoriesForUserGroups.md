@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    942,
-    983
+    141,
+    670
   ]
 }
 ```
@@ -102,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Stanton Group",
-    "ToolTip": "In autem et exercitationem quas est.",
+    "Id": 700,
+    "Name": "Rippin Inc and Sons",
+    "ToolTip": "Excepturi nisi est expedita porro eum repellat.",
     "Deleted": false,
-    "Rank": 738,
-    "Type": "doloremque",
+    "Rank": 735,
+    "Type": "occaecati",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Douglas-Hermiston",
-        "ToolTip": "Iste consequatur aut perspiciatis possimus dolore nulla.",
-        "Deleted": false,
-        "Rank": 202,
-        "Type": "libero",
+        "Id": 34,
+        "Name": "Keeling-Keebler",
+        "ToolTip": "Excepturi sed perspiciatis illo autem.",
+        "Deleted": true,
+        "Rank": 852,
+        "Type": "facere",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugit",
-        "ColorBlock": 202,
-        "ExtraInfo": "doloribus",
-        "StyleHint": "et",
-        "FullName": "Braeden Willow Wyman I",
+        "IconHint": "eum",
+        "ColorBlock": 659,
+        "ExtraInfo": "ut",
+        "StyleHint": "odit",
+        "FullName": "Mr. Clark Jane Rosenbaum IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldLength": 375
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 206,
-    "ExtraInfo": "ullam",
-    "StyleHint": "voluptatem",
-    "FullName": "Dianna Ramona Kautzer DDS",
+    "IconHint": "sint",
+    "ColorBlock": 438,
+    "ExtraInfo": "sed",
+    "StyleHint": "at",
+    "FullName": "Laney Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 29
       }
     }
   }

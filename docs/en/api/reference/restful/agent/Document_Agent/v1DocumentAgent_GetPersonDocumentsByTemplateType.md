@@ -98,16 +98,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 754,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2005-07-12T11:22:37.8523182+02:00",
-  "EndTime": "2019-04-18T11:22:37.8523182+02:00",
-  "Count": 51,
-  "DocumentTemplateId": 479
+  "PersonId": 991,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2004-07-05T12:15:18.73176+02:00",
+  "EndTime": "2013-11-27T12:15:18.73176+01:00",
+  "Count": 383,
+  "DocumentTemplateId": 912
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 174,
-    "Attention": "nostrum",
-    "Header": "doloremque",
-    "Name": "Nikolaus, VonRueden and Bahringer",
-    "OurRef": "laborum",
-    "YourRef": "reiciendis",
-    "Description": "Customizable bandwidth-monitored focus group",
-    "DocumentTemplate": "adipisci",
-    "IsPublished": false,
-    "PersonId": 495,
-    "PersonFullName": "Keyshawn Gorczany",
-    "AssociateFullName": "Hettie Robel",
-    "ContactId": 303,
-    "ContactName": "Bartoletti Inc and Sons",
-    "ProjectId": 58,
-    "ProjectName": "Schumm Inc and Sons",
-    "AssociateId": 714,
-    "Snum": 979,
-    "SaleId": 377,
-    "SaleName": "Bosco Group",
+    "DocumentId": 207,
+    "Attention": "consectetur",
+    "Header": "facere",
+    "Name": "Powlowski, Zulauf and Marvin",
+    "OurRef": "natus",
+    "YourRef": "molestiae",
+    "Description": "Self-enabling 24/7 data-warehouse",
+    "DocumentTemplate": "veniam",
+    "IsPublished": true,
+    "PersonId": 257,
+    "PersonFullName": "Dr. Rosie Parisian",
+    "AssociateFullName": "Mr. Francesco Providenci Koepp",
+    "ContactId": 227,
+    "ContactName": "Doyle, Lemke and Nitzsche",
+    "ProjectId": 375,
+    "ProjectName": "Weber-Jerde",
+    "AssociateId": 13,
+    "Snum": 116,
+    "SaleId": 179,
+    "SaleName": "Crona LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 581
       }
     }
   }

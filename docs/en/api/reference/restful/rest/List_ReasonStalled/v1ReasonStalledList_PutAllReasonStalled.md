@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Toy-Borer",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "UdListDefinitionId": 14,
-    "Rank": 71
+    "Id": 472,
+    "Name": "Borer-Hansen",
+    "Tooltip": "praesentium",
+    "Deleted": false,
+    "UdListDefinitionId": 382,
+    "Rank": 120
   },
   {
-    "Id": 748,
-    "Name": "Toy-Borer",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "UdListDefinitionId": 14,
-    "Rank": 71
+    "Id": 472,
+    "Name": "Borer-Hansen",
+    "Tooltip": "praesentium",
+    "Deleted": false,
+    "UdListDefinitionId": 382,
+    "Rank": 120
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Cronin LLC",
-    "Tooltip": "voluptatum",
+    "Id": 148,
+    "Name": "Brown Inc and Sons",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 854,
-    "Rank": 478,
+    "UdListDefinitionId": 38,
+    "Rank": 29,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldLength": 942
       }
     }
   }

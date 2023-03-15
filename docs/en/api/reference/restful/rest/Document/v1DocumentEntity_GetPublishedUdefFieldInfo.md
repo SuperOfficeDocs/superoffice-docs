@@ -92,7 +92,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 283,
-  "ColumnId": 139,
-  "FieldDefault": "hic",
-  "FieldHeight": 125,
-  "FieldLabel": "nihil",
-  "FieldLeft": 929,
-  "FieldTop": 83,
+  "UDefFieldId": 33,
+  "ColumnId": 450,
+  "FieldDefault": "ducimus",
+  "FieldHeight": 736,
+  "FieldLabel": "alias",
+  "FieldLeft": 952,
+  "FieldTop": 73,
   "FieldType": "Checkbox",
-  "FieldWidth": 564,
-  "FormatMask": "occaecati",
+  "FieldWidth": 398,
+  "FormatMask": "doloremque",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 54,
-  "LabelLeft": 84,
-  "LabelTop": 146,
-  "LabelWidth": 613,
-  "LastVersionId": 509,
-  "ListTableId": 281,
-  "IsMandatory": false,
+  "LabelHeight": 890,
+  "LabelLeft": 842,
+  "LabelTop": 117,
+  "LabelWidth": 393,
+  "LastVersionId": 786,
+  "ListTableId": 837,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 709,
-  "ProgId": "quis",
+  "Page1LineNo": 916,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "corrupti",
-  "TabOrder": 379,
-  "TextLength": 431,
-  "Tooltip": "labore",
-  "UdefIdentity": 174,
-  "UDListDefinitionId": 516,
+  "ShortLabel": "at",
+  "TabOrder": 28,
+  "TextLength": 259,
+  "Tooltip": "rem",
+  "UdefIdentity": 269,
+  "UDListDefinitionId": 615,
   "Justification": "Center",
-  "Version": 197,
-  "TemplateVariableName": "Bins-Paucek",
-  "HasBeenPublished": true,
-  "MdoListName": "Tromp, Kuhn and Labadie",
+  "Version": 505,
+  "TemplateVariableName": "O'Keefe Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Abshire, Prohaska and Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 305
     }
   }
 }

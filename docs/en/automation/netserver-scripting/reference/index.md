@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 03.01.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -69,4 +69,5 @@ The following endpoint interfaces define all web service methods that serve even
 * [UserDefinedFieldInfoAgent](userdefinedfieldinfoagent/index.md)
 * [ViewStateAgent](viewstateagent/index.md)
 * [WebhookAgent](webhookagent/index.md)
+* [WorkflowAgent](workflowagent/index.md)
 

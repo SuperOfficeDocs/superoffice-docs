@@ -79,7 +79,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "quis"
+  "FileContent": "ab"
 }
 ```
 
@@ -91,21 +91,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 339,
-      "NumberOfLicensesFree": 916,
-      "NumberOfLicensesAdded": 675,
-      "NumberOfLicensesNewTotal": 458,
-      "NumberOfLicensesNewFree": 42,
-      "NumberOfLicensesTotal": 887
+      "NumberOfLicensesInUse": 120,
+      "NumberOfLicensesFree": 465,
+      "NumberOfLicensesAdded": 882,
+      "NumberOfLicensesNewTotal": 33,
+      "NumberOfLicensesNewFree": 522,
+      "NumberOfLicensesTotal": 252
     }
   ],
-  "AccumulatedNextCheckDate": "2020-11-09T11:22:38.3990648+01:00"
+  "AccumulatedNextCheckDate": "2005-07-06T12:15:19.1867486+02:00"
 }
 ```

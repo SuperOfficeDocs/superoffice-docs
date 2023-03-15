@@ -83,26 +83,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 407,
-  "AssociateId": 180,
-  "Caption": "eum",
+  "DashboardId": 820,
+  "AssociateId": 904,
+  "Caption": "rerum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 280,
-      "Caption": "qui",
-      "Description": "Customizable contextually-based website",
-      "ChartName": "Kihn, Schinner and Heller",
-      "ChartId": "ut",
+      "DashboardTileId": 407,
+      "Caption": "ut",
+      "Description": "Cross-platform real-time intranet",
+      "ChartName": "Rempel Inc and Sons",
+      "ChartId": "quaerat",
       "IsDefault": false,
-      "AssociateId": 834,
-      "GroupId": 334,
-      "SelectionId": 568,
-      "Config": "accusantium",
+      "AssociateId": 302,
+      "GroupId": 275,
+      "SelectionId": 421,
+      "Config": "quidem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -125,22 +125,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 760,
-  "AssociateId": 470,
-  "Caption": "similique",
+  "DashboardId": 284,
+  "AssociateId": 129,
+  "Caption": "est",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 905,
-      "Caption": "quaerat",
-      "Description": "Pre-emptive scalable installation",
-      "ChartName": "Hermann-Jaskolski",
-      "ChartId": "delectus",
-      "IsDefault": false,
-      "AssociateId": 634,
-      "GroupId": 445,
-      "SelectionId": 979,
-      "Config": "qui",
+      "DashboardTileId": 26,
+      "Caption": "est",
+      "Description": "Persevering attitude-oriented emulation",
+      "ChartName": "Kihn, Schamberger and Hilll",
+      "ChartId": "non",
+      "IsDefault": true,
+      "AssociateId": 868,
+      "GroupId": 748,
+      "SelectionId": 321,
+      "Config": "similique",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldType": "System.String",
+          "FieldLength": 125
         }
       }
     }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldLength": 491
     }
   },
   "_Links": {

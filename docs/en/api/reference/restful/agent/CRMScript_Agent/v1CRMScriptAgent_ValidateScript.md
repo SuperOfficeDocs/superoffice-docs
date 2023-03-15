@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 977
+  "CRMScriptId": 481
 }
 ```
 
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "perspiciatis",
+  "ErrorMessage": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

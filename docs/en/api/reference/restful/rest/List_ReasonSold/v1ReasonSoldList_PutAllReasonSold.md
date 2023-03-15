@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Reichel-Lemke",
-    "Tooltip": "tempore",
+    "Id": 812,
+    "Name": "Pouros Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 27,
-    "Rank": 126
+    "UdListDefinitionId": 329,
+    "Rank": 364
   },
   {
-    "Id": 157,
-    "Name": "Reichel-Lemke",
-    "Tooltip": "tempore",
+    "Id": 812,
+    "Name": "Pouros Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 27,
-    "Rank": 126
+    "UdListDefinitionId": 329,
+    "Rank": 364
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "Casper, Renner and Cummings",
-    "Tooltip": "dolorem",
-    "Deleted": true,
-    "UdListDefinitionId": 53,
-    "Rank": 330,
+    "Id": 986,
+    "Name": "Fisher, Franecki and Kilback",
+    "Tooltip": "doloribus",
+    "Deleted": false,
+    "UdListDefinitionId": 166,
+    "Rank": 572,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 451
       }
     }
   }

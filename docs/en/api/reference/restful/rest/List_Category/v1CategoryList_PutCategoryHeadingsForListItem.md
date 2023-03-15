@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Nolan, Balistreri and Kunze",
-    "ToolTip": "Velit qui unde placeat modi.",
-    "Deleted": true,
-    "Rank": 169,
-    "Type": "unde",
-    "ColorBlock": 27,
-    "IconHint": "adipisci",
+    "Id": 549,
+    "Name": "Nolan-Dach",
+    "ToolTip": "Voluptas nesciunt in cupiditate dolorem minima.",
+    "Deleted": false,
+    "Rank": 857,
+    "Type": "rerum",
+    "ColorBlock": 406,
+    "IconHint": "aspernatur",
     "Selected": true,
-    "LastChanged": "2000-10-27T11:22:45.7879071+02:00",
+    "LastChanged": "2021-09-12T12:15:27.8946226+02:00",
     "ChildItems": [
       {
-        "Id": 436,
-        "Name": "Huel, Towne and Kuhic",
-        "ToolTip": "Eum amet.",
-        "Deleted": false,
-        "Rank": 276,
-        "Type": "explicabo",
-        "ColorBlock": 339,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2003-05-27T11:22:45.7879071+02:00",
+        "Id": 245,
+        "Name": "Hansen, Nader and Beer",
+        "ToolTip": "A ex autem maxime.",
+        "Deleted": true,
+        "Rank": 428,
+        "Type": "amet",
+        "ColorBlock": 249,
+        "IconHint": "dignissimos",
+        "Selected": false,
+        "LastChanged": "2015-12-13T12:15:27.8956223+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Miss Dora Stark"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Virgil Schumm"
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Prof. Jimmy Tromp"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "corrupti",
+    "Hidden": true,
+    "FullName": "Freeda Gulgowski"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Kunze, Vandervort and Ward",
-    "ToolTip": "Sed sed temporibus.",
+    "Id": 35,
+    "Name": "Anderson-Muller",
+    "ToolTip": "Accusantium est sed rem ut et.",
     "Deleted": true,
-    "Rank": 493,
-    "Type": "nulla",
-    "ColorBlock": 984,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "1998-06-25T11:22:45.7879071+02:00",
+    "Rank": 740,
+    "Type": "beatae",
+    "ColorBlock": 242,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "2004-03-03T12:15:27.8976228+01:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Howe-Gislason",
-        "ToolTip": "Sint harum tempore fugit.",
+        "Id": 375,
+        "Name": "Medhurst, Greenfelder and Rosenbaum",
+        "ToolTip": "Earum voluptas alias occaecati aut itaque repudiandae et.",
         "Deleted": false,
-        "Rank": 258,
-        "Type": "optio",
-        "ColorBlock": 668,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2003-05-03T11:22:45.7879071+02:00",
+        "Rank": 413,
+        "Type": "soluta",
+        "ColorBlock": 960,
+        "IconHint": "ullam",
+        "Selected": true,
+        "LastChanged": "2008-03-26T12:15:27.8976228+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Mrs. Tiara Griffin Wintheiser",
+        "ExtraInfo": "non",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Aron Keeling III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 471
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Arnold Greenfelder DDS",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Myrtice Abe Denesik III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldType": "System.Int32",
+        "FieldLength": 913
       }
     }
   }

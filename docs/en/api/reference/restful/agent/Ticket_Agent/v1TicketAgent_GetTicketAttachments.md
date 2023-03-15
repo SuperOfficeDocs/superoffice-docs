@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 58
+  "TicketEntityId": 384
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 550,
-    "Name": "Legros, Hane and Mohr",
-    "ContentType": "ea",
-    "AttSize": 871,
-    "InlineImage": true,
-    "ContentId": "minima",
+    "AttachmentId": 960,
+    "Name": "Wintheiser, Grant and Goldner",
+    "ContentType": "omnis",
+    "AttSize": 139,
+    "InlineImage": false,
+    "ContentId": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 333
+        "FieldLength": 23
       }
     }
   }

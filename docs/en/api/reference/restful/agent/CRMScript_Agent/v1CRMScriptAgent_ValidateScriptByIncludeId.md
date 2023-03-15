@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "ratione"
+  "CRMScriptIncludeId": "provident"
 }
 ```
 
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": true,
-  "ErrorMessage": "dolorem",
+  "ErrorMessage": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 697
     }
   }
 }

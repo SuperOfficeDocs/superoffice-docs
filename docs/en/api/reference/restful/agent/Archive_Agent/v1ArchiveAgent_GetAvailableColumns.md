@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Larson-Rath",
-  "Context": "nemo"
+  "ProviderName": "Lehner Inc and Sons",
+  "Context": "explicabo"
 }
 ```
 
@@ -102,19 +102,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Konopelski-Wilderman",
-    "DisplayTooltip": "pariatur",
-    "DisplayType": "aspernatur",
-    "CanOrderBy": true,
-    "Name": "Sanford-Mraz",
+    "DisplayName": "Mayer, Rohan and Barton",
+    "DisplayTooltip": "est",
+    "DisplayType": "libero",
+    "CanOrderBy": false,
+    "Name": "Yundt, Hirthe and Grimes",
     "CanRestrictBy": false,
-    "RestrictionType": "rerum",
-    "RestrictionListName": "Leffler Inc and Sons",
+    "RestrictionType": "labore",
+    "RestrictionListName": "Hodkiewicz-Wuckert",
     "IsVisible": true,
-    "ExtraInfo": "quaerat",
-    "Width": "mollitia",
-    "IconHint": "qui",
-    "HeadingIconHint": "facere"
+    "ExtraInfo": "officia",
+    "Width": "rem",
+    "IconHint": "omnis",
+    "HeadingIconHint": "voluptas"
   }
 ]
 ```

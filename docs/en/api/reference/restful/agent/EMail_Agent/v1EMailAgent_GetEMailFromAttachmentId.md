@@ -101,14 +101,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 974,
+  "EmailId": 774,
   "AttachmentIds": [
-    "corrupti",
-    "aut"
+    "fugiat",
+    "expedita"
   ],
   "IncludeAttachments": true
 }
@@ -123,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 831,
-      "ContactName": "Wuckert Group",
-      "PersonId": 808,
-      "PersonName": "Kuhic-Gibson",
+      "ContactId": 85,
+      "ContactName": "Gerlach Group",
+      "PersonId": 636,
+      "PersonName": "Bogisich LLC",
       "AssociateId": 964,
-      "Address": "rem",
-      "EmailId": 726,
+      "Address": "est",
+      "EmailId": 843,
       "DuplicatePersonIds": [
-        498,
-        42
+        568,
+        418
       ],
-      "Name": "Franecki LLC",
+      "Name": "Ryan LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 345
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 507,
-      "ContactName": "Nienow Inc and Sons",
-      "PersonId": 792,
-      "PersonName": "West Inc and Sons",
-      "AssociateId": 59,
-      "Address": "voluptas",
-      "EmailId": 160,
+      "ContactId": 277,
+      "ContactName": "Rice-Quigley",
+      "PersonId": 620,
+      "PersonName": "Lang Group",
+      "AssociateId": 340,
+      "Address": "sapiente",
+      "EmailId": 32,
       "DuplicatePersonIds": [
-        341,
-        147
+        645,
+        266
       ],
-      "Name": "Harber Inc and Sons",
+      "Name": "Strosin, Crona and Kub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 116
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 332,
-      "ContactName": "Hartmann, Fisher and Paucek",
-      "PersonId": 75,
-      "PersonName": "Ferry Inc and Sons",
-      "AssociateId": 308,
-      "Address": "delectus",
-      "EmailId": 14,
+      "ContactId": 944,
+      "ContactName": "Rosenbaum-Boyer",
+      "PersonId": 451,
+      "PersonName": "Wyman, Skiles and Schuppe",
+      "AssociateId": 429,
+      "Address": "distinctio",
+      "EmailId": 231,
       "DuplicatePersonIds": [
-        862,
-        841
+        399,
+        347
       ],
-      "Name": "Kiehn LLC",
+      "Name": "Schultz, Wisoky and Greenholt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 275
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "nihil",
+  "Subject": "assumenda",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2015-08-16T11:22:38.2740943+02:00",
-  "Size": 350,
+  "Sent": "2019-10-14T12:15:19.0257503+02:00",
+  "Size": 826,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "veniam",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "voluptatibus",
+  "PlainBody": "vel",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 731,
+  "ServerId": 578,
   "Attachments": [
     {
-      "Description": "Synchronised fault-tolerant leverage",
-      "Filename": "nostrum",
-      "Size": 17,
-      "Type": "neque",
-      "Encoding": "et",
-      "Id": "porro",
-      "Disposition": "qui",
+      "Description": "Future-proofed holistic parallelism",
+      "Filename": "fugit",
+      "Size": 246,
+      "Type": "eos",
+      "Encoding": "delectus",
+      "Id": "adipisci",
+      "Disposition": "sed",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldType": "System.String",
+          "FieldLength": 527
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Upton Group",
+      "Name": "Wunsch Group",
       "Values": [
-        "voluptatum",
-        "error"
+        "aliquid",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 637
         }
       }
     },
     {
-      "Name": "Upton Group",
+      "Name": "Wunsch Group",
       "Values": [
-        "voluptatum",
-        "error"
+        "aliquid",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 637
         }
       }
     }
   ],
-  "FolderName": "Bauch LLC",
-  "EmailItemId": 825,
-  "AccountId": 657,
-  "ReceivedAt": "2001-08-02T11:22:38.2740943+02:00",
+  "FolderName": "Quigley Inc and Sons",
+  "EmailItemId": 762,
+  "AccountId": 406,
+  "ReceivedAt": "2019-10-06T12:15:19.0267506+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-05-12T11:22:38.2740943+02:00",
+  "RepliedAt": "2006-12-01T12:15:19.0267506+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,8 +270,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   }
 }

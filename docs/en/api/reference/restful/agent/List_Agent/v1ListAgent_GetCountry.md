@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=790
+POST /api/v1/Agents/List/GetCountry?countryId=819
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 931,
-  "Name": "Hagenes Inc and Sons",
-  "CurrencyId": 991,
-  "EnglishName": "Roob-Powlowski",
+  "CountryId": 10,
+  "Name": "Deckow-Bashirian",
+  "CurrencyId": 276,
+  "EnglishName": "Hills, Wilkinson and Batz",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Re-engineered 4th generation knowledge user",
-  "OrgNrText": "1208902",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "magni",
-  "ZipPrefix": "et",
-  "DomainName": "Rau, Ryan and Lang",
-  "AddressLayoutId": 611,
-  "DomesticAddressLayoutId": 928,
-  "ForeignAddressLayoutId": 699,
-  "Rank": 237,
-  "Tooltip": "dolores",
-  "Deleted": false,
+  "ImageDescription": "Pre-emptive upward-trending service-desk",
+  "OrgNrText": "1411006",
+  "InterAreaPrefix": "in",
+  "DialInPrefix": "deleniti",
+  "ZipPrefix": "voluptatem",
+  "DomainName": "Nikolaus LLC",
+  "AddressLayoutId": 260,
+  "DomesticAddressLayoutId": 358,
+  "ForeignAddressLayoutId": 260,
+  "Rank": 799,
+  "Tooltip": "ea",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 322
     }
   }
 }

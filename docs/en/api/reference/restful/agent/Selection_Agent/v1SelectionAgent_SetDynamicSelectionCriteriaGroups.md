@@ -80,21 +80,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 944,
+  "SelectionId": 579,
   "Criteria": [
     {
-      "Name": "Kreiger-Weimann",
-      "Description": "Versatile dedicated firmware",
-      "Rank": 424,
+      "Name": "Monahan-Cummings",
+      "Description": "Managed 5th generation emulation",
+      "Rank": 961,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kreiger-Weimann",
-      "Description": "Versatile dedicated firmware",
-      "Rank": 424,
+      "Name": "Monahan-Cummings",
+      "Description": "Managed 5th generation emulation",
+      "Rank": 961,
       "Restrictions": [
         {},
         {}
@@ -112,58 +112,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum LLC",
-    "Description": "Polarised explicit internet solution",
-    "Rank": 109,
+    "Name": "Legros-Roob",
+    "Description": "Networked 24/7 Graphic Interface",
+    "Rank": 44,
     "Restrictions": [
       {
-        "Name": "Ryan Inc and Sons",
-        "Operator": "itaque",
+        "Name": "Littel, Mueller and Johnston",
+        "Operator": "consequuntur",
         "Values": [
-          "inventore",
-          "voluptate"
+          "ut",
+          "distinctio"
         ],
         "DisplayValues": [
-          "facere",
-          "aut"
+          "minima",
+          "tempore"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 866,
+        "InterParenthesis": 704,
         "InterOperator": "And",
-        "UniqueHash": 842
+        "UniqueHash": 331
       }
     ]
   },
   {
-    "Name": "Rosenbaum LLC",
-    "Description": "Polarised explicit internet solution",
-    "Rank": 109,
+    "Name": "Legros-Roob",
+    "Description": "Networked 24/7 Graphic Interface",
+    "Rank": 44,
     "Restrictions": [
       {
-        "Name": "Ryan Inc and Sons",
-        "Operator": "itaque",
+        "Name": "Littel, Mueller and Johnston",
+        "Operator": "consequuntur",
         "Values": [
-          "inventore",
-          "voluptate"
+          "ut",
+          "distinctio"
         ],
         "DisplayValues": [
-          "facere",
-          "aut"
+          "minima",
+          "tempore"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 866,
+        "InterParenthesis": 704,
         "InterOperator": "And",
-        "UniqueHash": 842
+        "UniqueHash": 331
       }
     ]
   }

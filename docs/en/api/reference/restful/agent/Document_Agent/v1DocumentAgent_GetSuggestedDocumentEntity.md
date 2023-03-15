@@ -25,7 +25,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=436
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=471
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,14 +86,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 411,
-  "Name": "Blick LLC",
-  "Tooltip": "qui",
-  "Rank": 611,
-  "DoctmplId": 280,
-  "Header": "tempore",
-  "OurRef": "eligendi",
-  "Deleted": true,
+  "SuggestedDocumentId": 74,
+  "Name": "Tillman, Keeling and Hirthe",
+  "Tooltip": "ut",
+  "Rank": 49,
+  "DoctmplId": 544,
+  "Header": "nemo",
+  "OurRef": "et",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 34
     }
   }
 }

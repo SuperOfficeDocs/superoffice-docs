@@ -25,8 +25,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=soluta
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=iure
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Hills-Kulas",
-    "ToolTip": "Aut beatae adipisci nulla provident quibusdam.",
-    "Deleted": false,
-    "Rank": 948,
-    "Type": "earum",
+    "Id": 273,
+    "Name": "Kiehn-Watsica",
+    "ToolTip": "Dicta neque iste quaerat et et.",
+    "Deleted": true,
+    "Rank": 364,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Brekke-Lang",
-        "ToolTip": "Id quisquam eum.",
+        "Id": 746,
+        "Name": "McCullough, Stroman and Walker",
+        "ToolTip": "Minima itaque velit ut aut ullam ut.",
         "Deleted": false,
-        "Rank": 431,
-        "Type": "et",
+        "Rank": 772,
+        "Type": "quasi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestiae",
-        "ColorBlock": 1000,
-        "ExtraInfo": "autem",
-        "StyleHint": "aut",
-        "FullName": "Keaton Glover",
+        "IconHint": "veniam",
+        "ColorBlock": 733,
+        "ExtraInfo": "dolore",
+        "StyleHint": "distinctio",
+        "FullName": "Miss Adolph Hyatt II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldLength": 157
           }
         }
       }
     ],
-    "IconHint": "recusandae",
-    "ColorBlock": 749,
-    "ExtraInfo": "et",
-    "StyleHint": "sequi",
-    "FullName": "Danika Friesen",
+    "IconHint": "omnis",
+    "ColorBlock": 128,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "vero",
+    "FullName": "Miss Jazmyne Ransom Braun V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 386
       }
     }
   }

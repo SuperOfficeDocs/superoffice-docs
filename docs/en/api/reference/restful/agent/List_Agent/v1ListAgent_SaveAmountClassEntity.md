@@ -76,18 +76,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 404,
-  "Name": "Rowe-Koss",
-  "Tooltip": "et",
-  "Rank": 443,
-  "AmountFrom": 20599.782,
-  "AmountTo": 28550.739999999998,
-  "Deleted": false,
-  "CurrencyId": 282
+  "AmountClassId": 625,
+  "Name": "Feeney LLC",
+  "Tooltip": "quia",
+  "Rank": 756,
+  "AmountFrom": 24934.104,
+  "AmountTo": 26990.007999999998,
+  "Deleted": true,
+  "CurrencyId": 100
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 976,
-  "Name": "Bednar, Kiehn and Collier",
-  "Tooltip": "maiores",
-  "Rank": 377,
-  "AmountFrom": 5039.472,
-  "AmountTo": 37.608,
+  "AmountClassId": 984,
+  "Name": "Stamm Inc and Sons",
+  "Tooltip": "autem",
+  "Rank": 834,
+  "AmountFrom": 26040.406,
+  "AmountTo": 5603.592,
   "Deleted": false,
-  "CurrencyId": 693,
+  "CurrencyId": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

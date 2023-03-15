@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jacobson-Carroll",
-    "DisplayName": "Conroy-Brown",
-    "DisplayTooltip": "aut",
-    "IsActive": false,
+    "Name": "Daniel-Kozey",
+    "DisplayName": "Oberbrunner, Jakubowski and Walter",
+    "DisplayTooltip": "quas",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 715
       }
     }
   },
   {
-    "Name": "Jacobson-Carroll",
-    "DisplayName": "Conroy-Brown",
-    "DisplayTooltip": "aut",
-    "IsActive": false,
+    "Name": "Daniel-Kozey",
+    "DisplayName": "Oberbrunner, Jakubowski and Walter",
+    "DisplayTooltip": "quas",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 715
       }
     }
   }

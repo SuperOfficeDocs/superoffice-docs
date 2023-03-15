@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Braun, Krajcik and Kiehn",
-    "ToolTip": "Nihil laboriosam natus eos exercitationem dolor aliquid.",
+    "Id": 161,
+    "Name": "Lehner-Zboncak",
+    "ToolTip": "Temporibus soluta.",
     "Deleted": true,
-    "Rank": 191,
+    "Rank": 452,
     "Type": "quia",
-    "ColorBlock": 292,
-    "IconHint": "animi",
+    "ColorBlock": 314,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2012-01-25T11:22:45.9285426+01:00",
+    "LastChanged": "2004-01-02T12:15:28.1696187+01:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "DuBuque Group",
-        "ToolTip": "Et consequatur alias dicta culpa.",
+        "Id": 462,
+        "Name": "Frami Group",
+        "ToolTip": "Vero odio quia doloribus.",
         "Deleted": false,
-        "Rank": 584,
-        "Type": "sapiente",
-        "ColorBlock": 612,
-        "IconHint": "vero",
-        "Selected": true,
-        "LastChanged": "2018-06-28T11:22:45.9285426+02:00",
+        "Rank": 109,
+        "Type": "qui",
+        "ColorBlock": 290,
+        "IconHint": "a",
+        "Selected": false,
+        "LastChanged": "1995-12-22T12:15:28.1696187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "corporis",
+        "ExtraInfo": "officia",
+        "StyleHint": "delectus",
         "Hidden": true,
-        "FullName": "Marlen Emmerich",
+        "FullName": "Jaida Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 641
+            "FieldLength": 943
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "non",
+    "StyleHint": "dolore",
     "Hidden": true,
-    "FullName": "Ms. Marcelino Adam Runte",
+    "FullName": "Mrs. Alysa Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldType": "System.String",
+        "FieldLength": 176
       }
     }
   }

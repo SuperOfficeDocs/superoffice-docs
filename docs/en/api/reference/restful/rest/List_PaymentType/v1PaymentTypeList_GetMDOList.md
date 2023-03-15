@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=aut
+GET /api/v1/List/PaymentType/MDOItems?query=error
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Reynolds Inc and Sons",
-    "ToolTip": "Et quis nihil provident itaque unde perspiciatis ex.",
+    "Id": 593,
+    "Name": "Oberbrunner Inc and Sons",
+    "ToolTip": "Deleniti et praesentium accusamus quas.",
     "Deleted": true,
-    "Rank": 382,
-    "Type": "iste",
+    "Rank": 38,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 864,
-        "Name": "Harber LLC",
-        "ToolTip": "Consequuntur tenetur libero non voluptas cupiditate reprehenderit.",
-        "Deleted": false,
-        "Rank": 812,
-        "Type": "a",
+        "Id": 961,
+        "Name": "Cormier LLC",
+        "ToolTip": "Natus et suscipit vero.",
+        "Deleted": true,
+        "Rank": 407,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 508,
-        "ExtraInfo": "quia",
-        "StyleHint": "quasi",
-        "FullName": "Emmet Quitzon",
+        "IconHint": "molestias",
+        "ColorBlock": 120,
+        "ExtraInfo": "alias",
+        "StyleHint": "ad",
+        "FullName": "Mr. Hester Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldLength": 27
           }
         }
       }
     ],
-    "IconHint": "rem",
-    "ColorBlock": 310,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "deserunt",
-    "FullName": "Dr. Esteban Flavie Pouros II",
+    "IconHint": "dolores",
+    "ColorBlock": 64,
+    "ExtraInfo": "non",
+    "StyleHint": "quo",
+    "FullName": "Wilmer Harber V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

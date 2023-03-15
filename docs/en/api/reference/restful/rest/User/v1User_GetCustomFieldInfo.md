@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Weissnat, Kemmer and Abernathy",
-  "DisplayName": "Runte Group",
-  "Description": "Focused 5th generation firmware",
+  "FieldName": "Hoeger-Cormier",
+  "DisplayName": "Ernser, O'Reilly and Hodkiewicz",
+  "Description": "Stand-alone assymetric intranet",
   "ShortLabel": "tempora",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 52,
-  "TemplateVariableName": "Simonis-Witting"
+  "IsReadOnly": true,
+  "IsExternal": true,
+  "Rank": 63,
+  "TemplateVariableName": "Kreiger, Beahan and Luettgen"
 }
 ```

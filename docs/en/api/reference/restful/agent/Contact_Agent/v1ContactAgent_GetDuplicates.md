@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rempel, Lakin and Maggio"
+  "Name": "Rogahn, Borer and Oberbrunner"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Schowalter-Altenwerth",
-    "SoPrimaryKey": 654,
-    "EntryName": "Weissnat Group",
-    "EntryIdentifier": "quo",
-    "RuleDisplayName": "Blanda Group",
+    "RuleName": "Lueilwitz, Klocko and Steuber",
+    "SoPrimaryKey": 703,
+    "EntryName": "Macejkovic, Miller and Marquardt",
+    "EntryIdentifier": "repudiandae",
+    "RuleDisplayName": "Dare-Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

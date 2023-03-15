@@ -89,20 +89,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 208,
-  "Name": "Witting-McCullough",
+  "ScreenChooserId": 509,
+  "Name": "Hilll-Feeney",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "harum",
-  "Registered": "2021-11-04T11:22:45.3661887+01:00",
-  "RegisteredAssociateId": 548,
-  "Updated": "1999-10-04T11:22:45.3661887+02:00",
-  "UpdatedAssociateId": 219
+  "Enabled": true,
+  "UniqueIdentifier": "delectus",
+  "Source": "assumenda",
+  "Registered": "2018-03-26T12:15:27.5926269+02:00",
+  "RegisteredAssociateId": 772,
+  "Updated": "2002-12-07T12:15:27.5926269+01:00",
+  "UpdatedAssociateId": 310
 }
 ```
 
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 952,
-  "Name": "Harber LLC",
+  "ScreenChooserId": 847,
+  "Name": "Borer Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "commodi",
-  "Source": "pariatur",
-  "Registered": "1996-09-15T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 832,
-  "Updated": "1999-12-03T11:22:45.3661887+01:00",
-  "UpdatedAssociateId": 761,
+  "UniqueIdentifier": "omnis",
+  "Source": "et",
+  "Registered": "2017-11-02T12:15:27.5936297+01:00",
+  "RegisteredAssociateId": 898,
+  "Updated": "2015-06-01T12:15:27.5936297+02:00",
+  "UpdatedAssociateId": 575,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 464
+      "FieldType": "System.String",
+      "FieldLength": 671
     }
   }
 }

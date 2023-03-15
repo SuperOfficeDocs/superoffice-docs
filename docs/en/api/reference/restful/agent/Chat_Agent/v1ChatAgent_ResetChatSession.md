@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 452
+  "ChatSessionId": 983
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 408,
-  "TopicId": 565,
+  "ChatSessionId": 76,
+  "TopicId": 923,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "fuga",
-  "CustomerName": "Heller-Denesik",
-  "CustomerEmail": "cathy_crooks@lueilwitz.info",
-  "CustomerPhone": "(713)997-0486 x79751",
+  "CustomerAlias": "et",
+  "CustomerHost": "et",
+  "CustomerName": "Mills, Kutch and Goodwin",
+  "CustomerEmail": "dillon@hettingeraufderhar.name",
+  "CustomerPhone": "994.946.8412 x54195",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Reichert, Kling and Romaguera",
+  "CustomerCompanyName": "McLaughlin, Emmerich and Feil",
   "Status": "Closed",
-  "FirstMessage": "odio",
-  "LastMessage": "fugit",
-  "WhenRequested": "2014-07-20T11:22:37.5711376+02:00",
-  "WhenStarted": "2021-01-20T11:22:37.5711376+01:00",
-  "WhenEnded": "2003-08-14T11:22:37.5711376+02:00",
-  "WhenIdle": "2010-06-11T11:22:37.5711376+02:00",
-  "WhenFetched": "1998-05-30T11:22:37.5711376+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 702,
-  "AlertLevel": 550,
-  "Rank": 246,
+  "FirstMessage": "voluptatum",
+  "LastMessage": "placeat",
+  "WhenRequested": "2015-04-06T12:15:18.3747614+02:00",
+  "WhenStarted": "2011-09-05T12:15:18.3747614+02:00",
+  "WhenEnded": "2016-09-20T12:15:18.3747614+02:00",
+  "WhenIdle": "2008-02-11T12:15:18.3747614+01:00",
+  "WhenFetched": "2015-03-12T12:15:18.3747614+01:00",
+  "SessionKey": "dignissimos",
+  "InitialQueuePos": 845,
+  "AlertLevel": 714,
+  "Rank": 496,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 326,
+  "Rating": 328,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldType": "System.Int32",
+      "FieldLength": 472
     }
   }
 }

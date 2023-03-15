@@ -25,8 +25,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=magnam
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=cum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Ruecker-Bartell",
-    "ToolTip": "Suscipit et.",
-    "Deleted": true,
-    "Rank": 700,
-    "Type": "iste",
+    "Id": 832,
+    "Name": "Christiansen, Kutch and Larson",
+    "ToolTip": "Ipsam officiis praesentium consectetur provident labore iste vel.",
+    "Deleted": false,
+    "Rank": 888,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 93,
-        "Name": "Heathcote LLC",
-        "ToolTip": "Praesentium culpa perspiciatis rerum.",
+        "Id": 138,
+        "Name": "Grimes-Littel",
+        "ToolTip": "Soluta aut culpa voluptatem velit minima saepe.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "alias",
+        "Rank": 519,
+        "Type": "iusto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 942,
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "distinctio",
-        "FullName": "Jackie Ondricka",
+        "IconHint": "aliquam",
+        "ColorBlock": 586,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "eum",
+        "FullName": "Mrs. Lue Wilkinson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 63
+            "FieldType": "System.Int32",
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "IconHint": "maxime",
-    "ColorBlock": 270,
-    "ExtraInfo": "impedit",
-    "StyleHint": "beatae",
-    "FullName": "Vaughn Kshlerin II",
+    "IconHint": "nostrum",
+    "ColorBlock": 547,
+    "ExtraInfo": "facere",
+    "StyleHint": "totam",
+    "FullName": "Prof. Alene Missouri Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 77
+        "FieldType": "System.Int32",
+        "FieldLength": 293
       }
     }
   }

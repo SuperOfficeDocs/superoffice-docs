@@ -111,7 +111,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,62 +119,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-12-24T11:22:44.2726872+01:00",
-  "AppointmentId": 993,
-  "Description": "Devolved human-resource hub",
-  "StartDate": "2009-04-05T11:22:44.2726872+02:00",
-  "EndDate": "2010-03-23T11:22:44.2726872+01:00",
+  "CreatedDate": "2010-07-07T12:15:26.3346446+02:00",
+  "AppointmentId": 417,
+  "Description": "Focused mobile intranet",
+  "StartDate": "2019-09-02T12:15:26.3346446+02:00",
+  "EndDate": "2021-09-12T12:15:26.3346446+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 601,
+  "MotherId": 572,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-11-11T11:22:44.2726872+01:00",
+  "UpdatedDate": "2008-03-26T12:15:26.338645+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 257,
+  "ActiveLinks": 668,
   "Links": [
     {
-      "EntityName": "Runte, Fisher and Tremblay",
-      "Id": 42,
-      "Description": "Configurable human-resource definition",
-      "ExtraInfo": "iure",
-      "LinkId": 476
+      "EntityName": "Johnson Group",
+      "Id": 911,
+      "Description": "Self-enabling user-facing portal",
+      "ExtraInfo": "est",
+      "LinkId": 691
     },
     {
-      "EntityName": "Runte, Fisher and Tremblay",
-      "Id": 42,
-      "Description": "Configurable human-resource definition",
-      "ExtraInfo": "iure",
-      "LinkId": 476
+      "EntityName": "Johnson Group",
+      "Id": 911,
+      "Description": "Self-enabling user-facing portal",
+      "ExtraInfo": "est",
+      "LinkId": 691
     }
   ],
-  "AlarmLeadTime": "temporibus",
-  "HasAlarm": true,
-  "ColorIndex": 803,
-  "IsFree": true,
+  "AlarmLeadTime": "ut",
+  "HasAlarm": false,
+  "ColorIndex": 380,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "nesciunt",
-  "LeadTime": "aspernatur",
-  "Location": "in",
-  "RejectCounter": 781,
+  "LagTime": "quasi",
+  "LeadTime": "amet",
+  "Location": "qui",
+  "RejectCounter": 833,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 272,
-      "PersonId": 735,
-      "ContactId": 663,
-      "EmailId": 289,
+      "AssociateId": 580,
+      "PersonId": 87,
+      "ContactId": 668,
+      "EmailId": 312,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 272,
-      "PersonId": 735,
-      "ContactId": 663,
-      "EmailId": 289,
+      "AssociateId": 580,
+      "PersonId": 87,
+      "ContactId": 668,
+      "EmailId": 312,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -182,44 +182,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-10-03T11:22:44.2726872+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-11-12T12:15:26.338645+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 509,
+  "PreferredTZLocation": 248,
   "Sale": null,
-  "SuggestedAppointmentId": 45,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 940,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "perferendis",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kayli Franecki",
-    "SuperOffice:2": "1333346915"
+    "SuperOffice:1": "1881637046",
+    "SuperOffice:2": "638049761"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "ea"
+    "CustomFields1": "et",
+    "CustomFields2": "hic"
   },
-  "PublishEventDate": "2015-08-31T11:22:44.2726872+02:00",
-  "PublishTo": "2007-10-14T11:22:44.2726872+02:00",
-  "PublishFrom": "2016-01-16T11:22:44.2726872+01:00",
+  "PublishEventDate": "2022-01-05T12:15:26.3406475+01:00",
+  "PublishTo": "2013-12-30T12:15:26.3406475+01:00",
+  "PublishFrom": "2019-09-28T12:15:26.3406475+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 783,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "voluptatem"
+      "DisplayValue": "vel"
     },
     {
-      "VisibleId": 783,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "voluptatem"
+      "DisplayValue": "vel"
     }
   ]
 }
@@ -232,7 +232,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "earum",
-  "2": "omnis"
+  "1": "cumque",
+  "2": "laboriosam"
 }
 ```

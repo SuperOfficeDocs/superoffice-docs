@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 855,
-    "Name": "Torphy-Hickle",
-    "Value": "deleniti",
-    "CreatedDate": "2022-10-13T11:22:37.4304911+02:00",
-    "UpdatedDate": "2000-10-16T11:22:37.4304911+02:00",
-    "CreatedBy": "et",
-    "UpdatedBy": "voluptatibus",
+    "AudienceLayoutId": 636,
+    "Name": "Homenick, Hilll and Bailey",
+    "Value": "assumenda",
+    "CreatedDate": "2013-03-19T12:15:18.1917625+01:00",
+    "UpdatedDate": "2002-06-30T12:15:18.1917625+02:00",
+    "CreatedBy": "quaerat",
+    "UpdatedBy": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 851
+        "FieldLength": 104
       }
     }
   }

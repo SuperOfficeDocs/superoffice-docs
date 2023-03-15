@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Ortiz-Bartell",
-  "Tooltip": "commodi",
-  "Deleted": false,
-  "Rank": 42,
+  "Id": 233,
+  "Name": "Lynch-Eichmann",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 334,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldLength": 514
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

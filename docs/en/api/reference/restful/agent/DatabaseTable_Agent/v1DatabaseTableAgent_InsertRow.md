@@ -72,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Corkery-Heathcote",
+  "TableName": "Trantow Group",
   "Values": {
-    "Values1": "voluptatem",
-    "Values2": "iure"
+    "Values1": "non",
+    "Values2": "libero"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-289
+715
 ```

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Name": "Denesik-Lubowitz",
-    "ToolTip": "Harum qui minima natus qui aliquam aut quam.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "laudantium",
-    "ColorBlock": 32,
-    "IconHint": "neque",
-    "Selected": true,
-    "LastChanged": "2016-08-16T11:22:45.8191493+02:00",
+    "Id": 588,
+    "Name": "Dooley Inc and Sons",
+    "ToolTip": "Placeat voluptate harum qui perferendis cumque unde.",
+    "Deleted": false,
+    "Rank": 311,
+    "Type": "consequatur",
+    "ColorBlock": 759,
+    "IconHint": "iure",
+    "Selected": false,
+    "LastChanged": "2021-09-20T12:15:27.9316215+02:00",
     "ChildItems": [
       {
-        "Id": 370,
-        "Name": "Dare, Hamill and Rutherford",
-        "ToolTip": "Est sint.",
-        "Deleted": true,
-        "Rank": 381,
-        "Type": "consectetur",
-        "ColorBlock": 931,
-        "IconHint": "sint",
+        "Id": 890,
+        "Name": "Ziemann-Kovacek",
+        "ToolTip": "Voluptatem aut aliquam repellat consequuntur.",
+        "Deleted": false,
+        "Rank": 831,
+        "Type": "perspiciatis",
+        "ColorBlock": 956,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2017-07-28T11:22:45.8191493+02:00",
+        "LastChanged": "1996-03-22T12:15:27.9316215+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Prof. Gina Murazik DDS",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Lia Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldLength": 449
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "sint",
+    "ExtraInfo": "aut",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Princess Keeling",
+    "FullName": "Miss Zachery Stanton III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 606
+        "FieldLength": 455
       }
     }
   }

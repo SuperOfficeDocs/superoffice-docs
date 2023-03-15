@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Carter, Stehr and Monahan",
-  "Tooltip": "soluta",
+  "Id": 584,
+  "Name": "Stoltenberg Inc and Sons",
+  "Tooltip": "cum",
   "Deleted": false,
-  "Rank": 501,
+  "Rank": 489,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
+  "ListType": "rem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 585
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

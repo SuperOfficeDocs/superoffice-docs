@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cremin, Rau and Hackett",
-    "DisplayName": "Yost, Considine and Hessel",
-    "Description": "Down-sized system-worthy ability",
-    "ShortLabel": "asperiores",
+    "FieldName": "Senger Inc and Sons",
+    "DisplayName": "Stamm-Spencer",
+    "Description": "Balanced non-volatile software",
+    "ShortLabel": "sed",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 927,
-    "TemplateVariableName": "West LLC"
+    "Rank": 215,
+    "TemplateVariableName": "Reichel-Kozey"
   }
 ]
 ```

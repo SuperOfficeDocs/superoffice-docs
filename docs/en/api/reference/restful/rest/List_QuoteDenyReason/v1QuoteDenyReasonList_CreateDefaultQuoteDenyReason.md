@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Adams, Heaney and Bernier",
-  "Tooltip": "est",
+  "Id": 646,
+  "Name": "Considine, Hettinger and Hansen",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 621,
-  "Rank": 359,
+  "UdListDefinitionId": 877,
+  "Rank": 781,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 174
     }
   }
 }

@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 484,
-  "ModuleOwner": "tempore",
+  "AssociateId": 300,
+  "ModuleOwner": "explicabo",
   "ModuleLicenseNames": [
-    "Barton-Pagac",
-    "Johns LLC"
+    "Bailey Inc and Sons",
+    "Hane Inc and Sons"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 265,
-    "Tooltip": "enim",
+    "Total": 54,
+    "Tooltip": "quaerat",
     "CanAssign": false,
-    "Free": 540,
-    "InUse": 622,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 680,
-    "Name": "Feest LLC",
-    "Description": "Multi-channelled neutral time-frame",
-    "PrerequisiteModuleName": "Schuster Inc and Sons",
-    "SortOrder": 858,
-    "ExtraFlags": 667,
+    "Free": 16,
+    "InUse": 959,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 883,
+    "Name": "Windler, Gulgowski and Tillman",
+    "Description": "Vision-oriented optimizing process improvement",
+    "PrerequisiteModuleName": "Klein LLC",
+    "SortOrder": 678,
+    "ExtraFlags": 691,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldLength": 860
       }
     }
   }

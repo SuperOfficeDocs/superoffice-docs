@@ -112,48 +112,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 902,
-  "Name": "Turcotte LLC",
-  "Description": "Extended analyzing challenge",
-  "WelcomeMessage": "dignissimos",
+  "ChatTopicId": 366,
+  "Name": "Monahan Inc and Sons",
+  "Description": "Managed optimizing internet solution",
+  "WelcomeMessage": "veritatis",
   "Language": null,
-  "LastAccept": "1998-08-05T11:22:44.4132819+02:00",
-  "SecondsPrAccept": 4,
-  "AlertRecipient": "alias",
+  "LastAccept": "2017-11-17T12:15:26.5226414+01:00",
+  "SecondsPrAccept": 366,
+  "AlertRecipient": "dolor",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "fuga",
+  "BadgeHeader": "quam",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ducimus",
-  "WarnNewChatMinutes": 789,
-  "WarnManagerNewChatMinutes": 495,
+  "CustomQueueText": "tempore",
+  "WarnNewChatMinutes": 447,
+  "WarnManagerNewChatMinutes": 958,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 441,
-  "WarnManagerChatMessageMinutes": 209,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 279,
-  "OfflineFormQueueLength": 493,
+  "WarnChatMessageMinutes": 72,
+  "WarnManagerChatMessageMinutes": 843,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 458,
+  "OfflineFormQueueLength": 17,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "doloremque",
+  "WidgetRatingText": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 809
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "nisi",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nisi",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -171,70 +171,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly secondary synergy",
-  "Postit": "ut",
+  "Description": "Proactive high-level architecture",
+  "Postit": "iure",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 319,
-  "IncludePerson": 844,
-  "MemberCount": 38,
-  "Name": "Beatty LLC",
-  "PostitTextId": 393,
-  "CreatedDate": "2002-12-28T11:22:45.2099615+01:00",
-  "SelectionId": 488,
-  "SoundEx": "quod",
-  "Source": 914,
-  "TextId": 311,
-  "UpdatedDate": "2007-03-05T11:22:45.2099615+01:00",
-  "UpdatedCount": 51,
-  "Visibility": 970,
+  "GroupIdx": 383,
+  "IncludePerson": 567,
+  "MemberCount": 654,
+  "Name": "Prohaska LLC",
+  "PostitTextId": 448,
+  "CreatedDate": "2019-10-24T12:15:27.3846295+02:00",
+  "SelectionId": 398,
+  "SoundEx": "aliquam",
+  "Source": 629,
+  "TextId": 90,
+  "UpdatedDate": "2008-10-22T12:15:27.3846295+02:00",
+  "UpdatedCount": 80,
+  "Visibility": 37,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 244,
-  "TargetTableName": "Wunsch LLC",
-  "Completed": true,
-  "LeftSelectionId": 309,
-  "RightSelectionId": 814,
+  "TargetTableNumber": 931,
+  "TargetTableName": "Kertzmann Group",
+  "Completed": false,
+  "LeftSelectionId": 635,
+  "RightSelectionId": 405,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Herzog, Krajcik and Harris",
-  "ShadowProviderName": "Brekke, Collier and Zboncak",
-  "ChartKey": "sint",
-  "LastLoaded": "2020-12-14T11:22:45.2099615+01:00",
-  "LastLoadedBy": 900,
+  "MainProviderName": "Ondricka-Wolf",
+  "ShadowProviderName": "Ernser Inc and Sons",
+  "ChartKey": "amet",
+  "LastLoaded": "1996-11-23T12:15:27.3846295+01:00",
+  "LastLoadedBy": 521,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-06-06T11:22:45.2099615+02:00",
-  "LastMembershipChangeBy": 662,
+  "LastMembershipChange": "2020-03-21T12:15:27.3856318+01:00",
+  "LastMembershipChangeBy": 947,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "velit",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Kessler, Haag and Mertz",
-  "DashboardTileDefinitionId": 114,
+  "MainHeading": "distinctio",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Kuhn-Bednar",
+  "DashboardTileDefinitionId": 263,
   "VisibleFor": [
     {
-      "VisibleId": 828,
+      "VisibleId": 265,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 99
         }
       }
     },
     {
-      "VisibleId": 828,
+      "VisibleId": 265,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "natus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 99
         }
       }
     }
@@ -243,13 +243,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 334
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

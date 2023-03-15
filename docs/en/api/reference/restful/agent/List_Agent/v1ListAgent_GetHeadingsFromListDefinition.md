@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 308
+  "Id": 435
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 240,
-    "Name": "Thompson-Strosin",
-    "Tooltip": "perferendis",
+    "HeadingId": 356,
+    "Name": "Schmeler, Shanahan and Ledner",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 229,
-    "UdListDefinitionId": 458,
+    "Rank": 809,
+    "UdListDefinitionId": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 908,
-    "Name": "Rolfson-Swaniawski",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 751,
-    "UdListDefinitionId": 701,
+    "HeadingId": 314,
+    "Name": "Mills Group",
+    "Tooltip": "fugiat",
+    "Deleted": true,
+    "Rank": 451,
+    "UdListDefinitionId": 515,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 837
       }
     }
   }

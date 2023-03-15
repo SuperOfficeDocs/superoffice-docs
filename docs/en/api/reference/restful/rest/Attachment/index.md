@@ -19,6 +19,8 @@ title: Attachment
 
 * [PATCH Attachment/{id}](v1AttachmentEntity_PatchAttachmentEntity.md)
 
+* [POST Attachment/CopyFromCRMDocument/{id}](v1AttachmentEntity_CopyFromCRMDocument.md)
+
 * [GET Attachment/{id}/Content](v1AttachmentEntity_GetAttachmentStream.md)
 
 * [POST Attachment/{id}/Content](v1AttachmentEntity_UploadAttachment.md)

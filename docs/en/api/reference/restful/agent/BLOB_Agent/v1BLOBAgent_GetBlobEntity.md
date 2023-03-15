@@ -25,7 +25,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=408
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=206
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 288,
-  "BlobSize": 489,
-  "Description": "Profound web-enabled strategy",
-  "ExtraInfo": "animi",
+  "BlobId": 228,
+  "BlobSize": 5,
+  "Description": "Pre-emptive dedicated migration",
+  "ExtraInfo": "laudantium",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 313,
-  "CreatedDate": "2009-08-31T11:22:37.4617868+02:00",
-  "UpdatedDate": "2018-11-21T11:22:37.4617868+01:00",
+  "IsZipped": false,
+  "MimeType": "tenetur",
+  "OriginalSize": 1002,
+  "CreatedDate": "2019-06-03T12:15:18.220763+02:00",
+  "UpdatedDate": "2013-12-29T12:15:18.220763+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "maiores",
+  "ConceptualType": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldLength": 210
     }
   }
 }

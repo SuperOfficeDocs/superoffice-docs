@@ -25,8 +25,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=incidunt
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=nobis
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Crona-O'Connell",
-    "ToolTip": "Hic voluptatem ducimus accusantium.",
+    "Id": 794,
+    "Name": "Grimes Group",
+    "ToolTip": "Vero nisi asperiores nihil sed cupiditate nisi fuga.",
     "Deleted": true,
-    "Rank": 77,
-    "Type": "iure",
+    "Rank": 941,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Spinka, Leuschke and Nikolaus",
-        "ToolTip": "Non doloribus.",
-        "Deleted": false,
-        "Rank": 891,
-        "Type": "ratione",
+        "Id": 196,
+        "Name": "Glover LLC",
+        "ToolTip": "Ab deserunt rerum est non quibusdam optio.",
+        "Deleted": true,
+        "Rank": 47,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 831,
-        "ExtraInfo": "illum",
-        "StyleHint": "cumque",
-        "FullName": "Mr. Antwon Merle Zemlak IV",
+        "IconHint": "delectus",
+        "ColorBlock": 225,
+        "ExtraInfo": "vel",
+        "StyleHint": "culpa",
+        "FullName": "Christy Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 260
+            "FieldLength": 720
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 314,
-    "ExtraInfo": "et",
-    "StyleHint": "eum",
-    "FullName": "Raven Daugherty",
+    "IconHint": "ad",
+    "ColorBlock": 535,
+    "ExtraInfo": "maiores",
+    "StyleHint": "et",
+    "FullName": "Mazie Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

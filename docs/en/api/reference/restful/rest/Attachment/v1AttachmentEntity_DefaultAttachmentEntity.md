@@ -61,7 +61,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 133,
-  "Name": "Nicolas, Reynolds and Will",
-  "ContentType": "ratione",
-  "AttSize": 801,
-  "InlineImage": true,
-  "ContentId": "saepe",
+  "AttachmentId": 424,
+  "Name": "Turner-Padberg",
+  "ContentType": "minus",
+  "AttSize": 155,
+  "InlineImage": false,
+  "ContentId": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 980
+      "FieldType": "System.Int32",
+      "FieldLength": 698
     }
   }
 }

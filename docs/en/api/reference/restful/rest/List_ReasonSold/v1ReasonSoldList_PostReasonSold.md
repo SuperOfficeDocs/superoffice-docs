@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 153,
-  "Name": "Blick-Shields",
-  "Tooltip": "culpa",
+  "Id": 42,
+  "Name": "Leannon Group",
+  "Tooltip": "natus",
   "Deleted": false,
-  "UdListDefinitionId": 982,
-  "Rank": 68
+  "UdListDefinitionId": 529,
+  "Rank": 113
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Dooley, Murazik and Hills",
-  "Tooltip": "delectus",
-  "Deleted": false,
-  "UdListDefinitionId": 101,
-  "Rank": 423,
+  "Id": 514,
+  "Name": "Flatley LLC",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "UdListDefinitionId": 748,
+  "Rank": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 747
     }
   }
 }

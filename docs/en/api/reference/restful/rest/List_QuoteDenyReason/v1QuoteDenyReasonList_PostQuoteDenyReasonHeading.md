@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 882,
-  "Name": "Boehm, Schoen and Moore",
-  "Tooltip": "tempora",
+  "HeadingId": 464,
+  "Name": "Kertzmann LLC",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 675,
-  "UdListDefinitionId": 664
+  "Rank": 971,
+  "UdListDefinitionId": 677
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 863,
-  "Name": "Lockman, Hettinger and Cole",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 505,
-  "UdListDefinitionId": 181,
+  "HeadingId": 8,
+  "Name": "Rolfson, Cassin and Wyman",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 4,
+  "UdListDefinitionId": 37,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 714
+      "FieldType": "System.Int32",
+      "FieldLength": 660
     }
   }
 }

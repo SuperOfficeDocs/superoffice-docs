@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 314,
-    "ParentId": 800,
-    "Name": "Bauch-Greenfelder",
-    "Fullname": "dolorem",
-    "CategoryMaster": 534,
+    "TicketCategoryId": 483,
+    "ParentId": 402,
+    "Name": "Heidenreich, Vandervort and Waelchi",
+    "Fullname": "et",
+    "CategoryMaster": 262,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Reichel-Luettgen",
+    "ExternalName": "Labadie, Feeney and Hackett",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 630,
-    "ReplyTemplate": 907,
-    "NotificationEmail": "marcus.hand@farrellwunsch.name",
+    "AssignmentLag": 332,
+    "ReplyTemplate": 66,
+    "NotificationEmail": "zion_rutherford@rice.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 967,
+    "EffectiveReplyTemplateId": 417,
     "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "omnis"
+      "ExtraFields1": "nemo",
+      "ExtraFields2": "doloribus"
     },
     "CustomFields": {
-      "CustomFields1": "nemo",
-      "CustomFields2": "et"
+      "CustomFields1": "laudantium",
+      "CustomFields2": "illum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

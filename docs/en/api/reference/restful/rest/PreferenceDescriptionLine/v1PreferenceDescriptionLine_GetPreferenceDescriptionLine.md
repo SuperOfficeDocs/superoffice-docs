@@ -77,7 +77,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 568,
-  "PrefDescId": 358,
-  "PrefValue": "voluptatum",
-  "PrefShowValue": "maxime",
-  "Description": "Multi-lateral actuating protocol",
+  "PrefDescLineId": 57,
+  "PrefDescId": 404,
+  "PrefValue": "occaecati",
+  "PrefShowValue": "earum",
+  "Description": "Object-based human-resource Graphical User Interface",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 807
     }
   },
   "_Links": {

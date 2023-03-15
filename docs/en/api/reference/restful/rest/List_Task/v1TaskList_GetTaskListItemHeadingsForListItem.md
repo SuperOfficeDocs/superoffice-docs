@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Prosacco, Conroy and Romaguera",
-    "ToolTip": "Minima maiores et illum.",
+    "Id": 407,
+    "Name": "Wolf, Schuster and Huels",
+    "ToolTip": "Est officia omnis.",
     "Deleted": false,
-    "Rank": 28,
-    "Type": "error",
-    "ColorBlock": 281,
-    "IconHint": "fugit",
-    "Selected": true,
-    "LastChanged": "2003-01-11T11:22:46.2253576+01:00",
+    "Rank": 357,
+    "Type": "recusandae",
+    "ColorBlock": 836,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2000-10-20T12:15:28.5366137+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Tremblay Inc and Sons",
-        "ToolTip": "Sit sed sunt.",
+        "Id": 872,
+        "Name": "Luettgen, Schmitt and Metz",
+        "ToolTip": "Eum nihil perferendis.",
         "Deleted": false,
-        "Rank": 465,
-        "Type": "voluptate",
-        "ColorBlock": 904,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2022-03-16T11:22:46.2253576+01:00",
+        "Rank": 705,
+        "Type": "placeat",
+        "ColorBlock": 773,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2022-02-01T12:15:28.5366137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Elza Moore",
+        "ExtraInfo": "officiis",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Mr. Joan Corwin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 954
+            "FieldLength": 502
           }
         }
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Dr. Katharina Davion Gulgowski",
+    "ExtraInfo": "dolor",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Pete Reinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 147
+        "FieldLength": 596
       }
     }
   }

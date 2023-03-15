@@ -25,8 +25,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=tenetur
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=aut
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Bednar, Berge and Considine",
-    "ToolTip": "Repudiandae quasi aut ratione non magnam nulla.",
+    "Id": 540,
+    "Name": "Weimann-Adams",
+    "ToolTip": "Magnam quibusdam perferendis at nostrum doloribus velit.",
     "Deleted": true,
-    "Rank": 257,
-    "Type": "sed",
+    "Rank": 300,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 446,
-        "Name": "Romaguera Group",
-        "ToolTip": "Eligendi delectus sit assumenda.",
-        "Deleted": true,
-        "Rank": 106,
-        "Type": "id",
+        "Id": 483,
+        "Name": "Dicki LLC",
+        "ToolTip": "Maiores nesciunt fuga.",
+        "Deleted": false,
+        "Rank": 612,
+        "Type": "tempore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 158,
-        "ExtraInfo": "ea",
-        "StyleHint": "sed",
-        "FullName": "Orval Kiehn",
+        "IconHint": "hic",
+        "ColorBlock": 867,
+        "ExtraInfo": "et",
+        "StyleHint": "atque",
+        "FullName": "Dessie Rodriguez",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 230
+            "FieldType": "System.Int32",
+            "FieldLength": 163
           }
         }
       }
     ],
-    "IconHint": "assumenda",
-    "ColorBlock": 677,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "iusto",
-    "FullName": "Estrella Monique Wisozk II",
+    "IconHint": "delectus",
+    "ColorBlock": 770,
+    "ExtraInfo": "molestias",
+    "StyleHint": "ut",
+    "FullName": "Toy Upton IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 525
+        "FieldType": "System.Int32",
+        "FieldLength": 398
       }
     }
   }

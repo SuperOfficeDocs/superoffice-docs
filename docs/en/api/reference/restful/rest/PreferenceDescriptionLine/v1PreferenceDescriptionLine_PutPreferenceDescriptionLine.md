@@ -88,16 +88,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 878,
-  "PrefDescId": 223,
-  "PrefValue": "enim",
-  "PrefShowValue": "dolor",
-  "Description": "Total optimal collaboration",
-  "IsBuiltin": true
+  "PrefDescLineId": 80,
+  "PrefDescId": 717,
+  "PrefValue": "porro",
+  "PrefShowValue": "asperiores",
+  "Description": "Managed methodical policy",
+  "IsBuiltin": false
 }
 ```
 
@@ -108,18 +108,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 886,
-  "PrefDescId": 863,
-  "PrefValue": "sed",
-  "PrefShowValue": "eos",
-  "Description": "Customizable 3rd generation time-frame",
-  "IsBuiltin": true,
+  "PrefDescLineId": 317,
+  "PrefDescId": 779,
+  "PrefValue": "sunt",
+  "PrefShowValue": "magnam",
+  "Description": "Profit-focused didactic attitude",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   },
   "_Links": {

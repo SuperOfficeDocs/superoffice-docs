@@ -98,7 +98,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 336
+  "QuoteVersionId": 413
 }
 ```
 
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 164,
-    "ERPQuoteAlternativeKey": "quos",
-    "QuoteVersionId": 598,
-    "Name": "Schmitt LLC",
-    "Description": "Compatible even-keeled moderator",
+    "QuoteAlternativeId": 261,
+    "ERPQuoteAlternativeKey": "occaecati",
+    "QuoteVersionId": 583,
+    "Name": "Towne, Skiles and Hagenes",
+    "Description": "Open-source holistic knowledge base",
     "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 6941.8099999999995,
-    "ERPDiscountAmount": 6615.874,
-    "DiscountPercent": 5440.624,
-    "DiscountAmount": 2748.518,
+    "Reason": "morph back-end partnerships",
+    "ERPDiscountPercent": 22693.293999999998,
+    "ERPDiscountAmount": 13585.89,
+    "DiscountPercent": 15713.876,
+    "DiscountAmount": 15469.423999999999,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "voluptatem",
-    "VAT": 15337.796,
-    "EarningPercent": 9674.658,
-    "EarningAmount": 29694.649999999998,
-    "SubTotal": 27898.868,
-    "TotalPrice": 21775.032,
-    "ExtraField1": "perspiciatis",
-    "ExtraField2": "et",
-    "ExtraField3": "et",
-    "ExtraField4": "eaque",
-    "ExtraField5": "et",
+    "VATInfo": "eos",
+    "VAT": 9025.92,
+    "EarningPercent": 22126.04,
+    "EarningAmount": 20449.35,
+    "SubTotal": 3337.71,
+    "TotalPrice": 11464.172,
+    "ExtraField1": "vero",
+    "ExtraField2": "velit",
+    "ExtraField3": "cumque",
+    "ExtraField4": "eos",
+    "ExtraField5": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 311
       }
     }
   }

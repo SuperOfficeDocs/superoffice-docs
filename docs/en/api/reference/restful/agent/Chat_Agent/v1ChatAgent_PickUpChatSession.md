@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 89
+  "ChatSessionId": 716
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 477,
-  "TopicId": 694,
+  "ChatSessionId": 767,
+  "TopicId": 519,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "quo",
-  "CustomerName": "Schmidt Inc and Sons",
-  "CustomerEmail": "zion@hammes.us",
-  "CustomerPhone": "(159)854-6628",
+  "CustomerAlias": "quibusdam",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Zemlak Inc and Sons",
+  "CustomerEmail": "baron@lind.ca",
+  "CustomerPhone": "579-741-5341 x40883",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Conroy, Stiedemann and Marks",
+  "CustomerCompanyName": "Bartoletti-Herman",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "aut",
-  "WhenRequested": "1996-03-06T11:22:37.555502+01:00",
-  "WhenStarted": "2008-09-18T11:22:37.555502+02:00",
-  "WhenEnded": "2016-10-11T11:22:37.555502+02:00",
-  "WhenIdle": "2003-08-10T11:22:37.555502+02:00",
-  "WhenFetched": "2002-10-12T11:22:37.555502+02:00",
-  "SessionKey": "atque",
-  "InitialQueuePos": 221,
-  "AlertLevel": 968,
-  "Rank": 536,
+  "FirstMessage": "eos",
+  "LastMessage": "illo",
+  "WhenRequested": "1996-09-01T12:15:18.3507285+02:00",
+  "WhenStarted": "2005-09-08T12:15:18.3507285+02:00",
+  "WhenEnded": "1998-02-09T12:15:18.3507285+01:00",
+  "WhenIdle": "2015-08-16T12:15:18.3507285+02:00",
+  "WhenFetched": "1998-09-07T12:15:18.3507285+02:00",
+  "SessionKey": "voluptatem",
+  "InitialQueuePos": 699,
+  "AlertLevel": 297,
+  "Rank": 817,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 553,
+  "ChatbotIsActive": true,
+  "Rating": 757,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldLength": 385
     }
   }
 }

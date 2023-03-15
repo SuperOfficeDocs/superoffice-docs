@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Ruecker-Schoen",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 868,
-  "Rank": 96
+  "Id": 561,
+  "Name": "Mraz Inc and Sons",
+  "Tooltip": "inventore",
+  "Deleted": false,
+  "UdListDefinitionId": 570,
+  "Rank": 171
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Kreiger, Schmidt and Feest",
-  "Tooltip": "architecto",
+  "Id": 537,
+  "Name": "Kshlerin, D'Amore and Hodkiewicz",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "UdListDefinitionId": 857,
-  "Rank": 454,
+  "UdListDefinitionId": 593,
+  "Rank": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 459
     }
   }
 }

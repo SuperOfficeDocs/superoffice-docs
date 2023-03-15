@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 831,
-  "Name": "Huels Inc and Sons",
-  "Tooltip": "sit",
+  "HeadingId": 797,
+  "Name": "Kiehn, Brekke and Carter",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 244,
-  "UdListDefinitionId": 388
+  "Rank": 401,
+  "UdListDefinitionId": 154
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 163,
-  "Name": "Ratke LLC",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "Rank": 391,
-  "UdListDefinitionId": 558,
+  "HeadingId": 502,
+  "Name": "Collins LLC",
+  "Tooltip": "error",
+  "Deleted": true,
+  "Rank": 507,
+  "UdListDefinitionId": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldLength": 248
     }
   }
 }

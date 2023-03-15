@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Wisoky Group",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "UdListDefinitionId": 290,
-    "Rank": 996,
+    "Id": 835,
+    "Name": "Daugherty LLC",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "UdListDefinitionId": 485,
+    "Rank": 298,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldType": "System.String",
+        "FieldLength": 283
       }
     }
   }

@@ -111,9 +111,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 411,
-  "UserInput": "aut",
-  "PriceListKey": "quis"
+  "QuoteAlternativeId": 102,
+  "UserInput": "rem",
+  "PriceListKey": "reiciendis"
 }
 ```
 
@@ -125,73 +125,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 907,
-    "ERPProductKey": "nulla",
-    "ERPPriceListKey": "numquam",
-    "Name": "Rowe-Leffler",
-    "Description": "Persistent demand-driven extranet",
-    "Code": "quis",
-    "PriceUnit": "eos",
-    "QuantityUnit": "earum",
+    "ProductId": 323,
+    "ERPProductKey": "nihil",
+    "ERPPriceListKey": "sed",
+    "Name": "Lebsack, Will and Brekke",
+    "Description": "Proactive 5th generation adapter",
+    "Code": "ducimus",
+    "PriceUnit": "quidem",
+    "QuantityUnit": "alias",
     "IsSubscription": false,
-    "SubscriptionUnit": "molestias",
-    "DefaultSubscriptionQuantity": 28557.007999999998,
-    "ItemNumber": "1291662",
+    "SubscriptionUnit": "voluptatibus",
+    "DefaultSubscriptionQuantity": 16798.239999999998,
+    "ItemNumber": "742678",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "omnis",
-    "ProductTypeKey": "sed",
-    "VAT": 9072.93,
-    "VATInfo": "quisquam",
-    "UnitCost": 20283.248,
-    "UnitMinimumPrice": 17356.092,
-    "UnitListPrice": 25833.561999999998,
-    "InAssortment": true,
-    "Supplier": "quo",
-    "SupplierCode": "voluptas",
-    "Rights": "iste",
-    "Rule": "illo",
+    "ProductFamilyKey": "aut",
+    "ProductTypeKey": "aperiam",
+    "VAT": 4516.094,
+    "VATInfo": "sed",
+    "UnitCost": 29826.278,
+    "UnitMinimumPrice": 3068.1859999999997,
+    "UnitListPrice": 26049.808,
+    "InAssortment": false,
+    "Supplier": "qui",
+    "SupplierCode": "quibusdam",
+    "Rights": "voluptatem",
+    "Rule": "sit",
     "ExtraInfo": [
       {
-        "Name": "Metz-Cummings",
-        "Value": "qui",
+        "Name": "Kuphal Inc and Sons",
+        "Value": "harum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldLength": 783
           }
         }
       },
       {
-        "Name": "Metz-Cummings",
-        "Value": "qui",
+        "Name": "Kuphal Inc and Sons",
+        "Value": "harum",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldLength": 783
           }
         }
       }
     ],
-    "RawExtraInfo": "temporibus",
-    "ExtraField1": "corporis",
-    "ExtraField2": "aut",
-    "ExtraField3": "pariatur",
-    "ExtraField4": "eveniet",
-    "ExtraField5": "est",
-    "InStock": 2695.24,
+    "RawExtraInfo": "libero",
+    "ExtraField1": "sed",
+    "ExtraField2": "voluptatem",
+    "ExtraField3": "quasi",
+    "ExtraField4": "qui",
+    "ExtraField5": "quibusdam",
+    "InStock": 5299.594,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 862
       }
     }
   }

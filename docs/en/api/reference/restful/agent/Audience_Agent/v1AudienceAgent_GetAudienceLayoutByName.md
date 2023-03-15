@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Koss Inc and Sons"
+  "LayoutName": "Cole-Kertzmann"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 309,
-  "InstanceLayout": "voluptatem",
-  "InstanceName": "Williamson-Roob",
-  "CreatedDate": "2001-04-17T11:22:37.4304911+02:00",
-  "UpdatedDate": "1997-12-11T11:22:37.4304911+01:00",
+  "AudienceLayoutId": 295,
+  "InstanceLayout": "ipsa",
+  "InstanceName": "Toy Inc and Sons",
+  "CreatedDate": "2005-07-16T12:15:18.1957625+02:00",
+  "UpdatedDate": "1996-12-14T12:15:18.1957625+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

@@ -88,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 215
+  "ContactId": 307
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 712,
-  "BlobSize": 689,
-  "Description": "Robust user-facing neural-net",
-  "ExtraInfo": "ex",
+  "BlobId": 528,
+  "BlobSize": 130,
+  "Description": "Visionary transitional software",
+  "ExtraInfo": "quaerat",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "nesciunt",
-  "OriginalSize": 252,
-  "CreatedDate": "1996-11-10T11:22:37.4617868+01:00",
-  "UpdatedDate": "1997-08-24T11:22:37.4617868+02:00",
+  "IsZipped": false,
+  "MimeType": "quia",
+  "OriginalSize": 456,
+  "CreatedDate": "2001-09-07T12:15:18.233762+02:00",
+  "UpdatedDate": "2006-08-03T12:15:18.233762+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldType": "System.String",
+      "FieldLength": 947
     }
   }
 }

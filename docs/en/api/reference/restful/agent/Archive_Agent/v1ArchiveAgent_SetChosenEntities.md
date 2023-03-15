@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kozey Group",
-  "ProviderName": "Bashirian-Nienow",
+  "GuiName": "Olson Group",
+  "ProviderName": "Toy, McClure and Funk",
   "Entities": [
-    "eaque",
-    "labore"
+    "ut",
+    "deleniti"
   ]
 }
 ```

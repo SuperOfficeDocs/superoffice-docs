@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 21,
-  "BlobSize": 69,
-  "Description": "Enterprise-wide static hub",
-  "ExtraInfo": "sequi",
+  "BlobId": 513,
+  "BlobSize": 777,
+  "Description": "Synergistic zero defect local area network",
+  "ExtraInfo": "totam",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 684,
-  "CreatedDate": "2011-11-20T11:22:45.4442386+01:00",
-  "UpdatedDate": "2004-03-03T11:22:45.4442386+01:00",
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 68,
+  "CreatedDate": "2006-01-20T12:15:27.6766255+01:00",
+  "UpdatedDate": "2021-09-07T12:15:27.6766255+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sequi"
+  "ConceptualType": "sint"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 595,
-  "BlobSize": 471,
-  "Description": "Future-proofed human-resource parallelism",
-  "ExtraInfo": "voluptatibus",
-  "IsEncrypted": true,
+  "BlobId": 174,
+  "BlobSize": 375,
+  "Description": "Assimilated dedicated model",
+  "ExtraInfo": "rerum",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 446,
-  "CreatedDate": "2007-09-03T11:22:45.4442386+02:00",
-  "UpdatedDate": "2018-10-17T11:22:45.4442386+02:00",
+  "MimeType": "debitis",
+  "OriginalSize": 56,
+  "CreatedDate": "2015-04-08T12:15:27.6786254+02:00",
+  "UpdatedDate": "2021-03-14T12:15:27.6786254+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusamus",
+  "ConceptualType": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 125
     }
   }
 }

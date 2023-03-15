@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Cummings-Bernhard"
+  "FieldName": "Kiehn Inc and Sons"
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 809,
-  "FieldName": "Shanahan-Kessler",
-  "Label": "recusandae",
-  "Tooltip": "totam",
-  "Editable": false,
+  "QuoteLineConfigurationId": 915,
+  "FieldName": "Hauck, Conroy and Lynch",
+  "Label": "quas",
+  "Tooltip": "sequi",
+  "Editable": true,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 199,
-  "RestrictEdit": false,
+  "Mandatory": false,
+  "Rank": 875,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 31
+      "FieldType": "System.Int32",
+      "FieldLength": 541
     }
   }
 }

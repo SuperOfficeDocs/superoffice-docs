@@ -86,34 +86,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 219,
-  "UniqueId": "similique",
-  "Name": "Ledner Group",
-  "Description": "Face to face 24 hour customer loyalty",
-  "AssociateId": 894,
-  "Columns": 393,
+  "DashboardId": 937,
+  "UniqueId": "debitis",
+  "Name": "Oberbrunner, Beer and Kemmer",
+  "Description": "Diverse tertiary workforce",
+  "AssociateId": 288,
+  "Columns": 228,
   "Theme": null,
-  "VisibleForAll": 195,
+  "VisibleForAll": 448,
   "VisibleForAssociates": [
-    72,
-    26
+    296,
+    472
   ],
   "VisibleForGroups": [
-    896,
-    998
+    75,
+    55
   ],
-  "PinForAll": 523,
+  "PinForAll": 924,
   "PinForAssociates": [
-    687,
-    811
+    393,
+    386
   ],
   "PinForGroups": [
-    345,
-    731
+    967,
+    943
   ]
 }
 ```
@@ -125,37 +125,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 439,
-  "UniqueId": "sunt",
-  "Name": "Weber, Abernathy and Dietrich",
-  "Description": "Assimilated uniform database",
-  "AssociateId": 205,
-  "Columns": 285,
+  "DashboardId": 606,
+  "UniqueId": "eos",
+  "Name": "Hirthe Group",
+  "Description": "Automated mission-critical Graphic Interface",
+  "AssociateId": 32,
+  "Columns": 234,
   "Theme": null,
-  "VisibleForAll": 690,
+  "VisibleForAll": 19,
   "VisibleForAssociates": [
-    464,
-    985
+    840,
+    830
   ],
   "VisibleForGroups": [
-    981,
-    668
+    418,
+    775
   ],
-  "PinForAll": 340,
+  "PinForAll": 156,
   "PinForAssociates": [
-    618,
-    304
+    453,
+    906
   ],
   "PinForGroups": [
-    594,
-    801
+    412,
+    256
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldType": "System.Int32",
+      "FieldLength": 596
     }
   }
 }

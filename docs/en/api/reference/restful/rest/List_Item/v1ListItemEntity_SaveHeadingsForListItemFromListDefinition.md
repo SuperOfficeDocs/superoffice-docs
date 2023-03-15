@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Cruickshank, Conn and Jacobi",
-    "ToolTip": "Exercitationem veritatis praesentium accusantium natus accusantium aliquid.",
-    "Deleted": false,
-    "Rank": 975,
-    "Type": "neque",
-    "ColorBlock": 824,
-    "IconHint": "porro",
+    "Id": 742,
+    "Name": "Padberg Inc and Sons",
+    "ToolTip": "Placeat numquam modi veritatis eum distinctio ut.",
+    "Deleted": true,
+    "Rank": 554,
+    "Type": "dolor",
+    "ColorBlock": 659,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2002-12-10T11:22:45.5692589+01:00",
+    "LastChanged": "1996-10-29T12:15:27.8426265+01:00",
     "ChildItems": [
       {
-        "Id": 70,
-        "Name": "Grady, Watsica and Hintz",
-        "ToolTip": "In aut.",
-        "Deleted": false,
-        "Rank": 78,
+        "Id": 293,
+        "Name": "Fadel Inc and Sons",
+        "ToolTip": "Unde quis fugiat et.",
+        "Deleted": true,
+        "Rank": 901,
         "Type": "non",
-        "ColorBlock": 93,
-        "IconHint": "ipsa",
+        "ColorBlock": 558,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "1999-03-05T11:22:45.5692589+01:00",
+        "LastChanged": "2002-12-21T12:15:27.8426265+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sed",
+        "ExtraInfo": "possimus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Afton Mayert"
+        "FullName": "Arnold Cora Oberbrunner I"
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Prof. Ashly Dicki"
+    "ExtraInfo": "sequi",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Mrs. Leon Mills"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 565,
-    "Name": "Hessel LLC",
-    "ToolTip": "Inventore error dicta temporibus velit incidunt.",
+    "Id": 200,
+    "Name": "Gleichner, Wilderman and Koepp",
+    "ToolTip": "Et quis quam placeat.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "unde",
-    "ColorBlock": 125,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2003-11-25T11:22:45.5692589+01:00",
+    "Rank": 508,
+    "Type": "aperiam",
+    "ColorBlock": 267,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "1999-11-23T12:15:27.8446232+01:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Bogisich-Pfeffer",
-        "ToolTip": "Eligendi quos quia.",
-        "Deleted": true,
-        "Rank": 216,
-        "Type": "incidunt",
-        "ColorBlock": 193,
-        "IconHint": "odit",
+        "Id": 524,
+        "Name": "Ankunding-Crooks",
+        "ToolTip": "Et eaque cumque.",
+        "Deleted": false,
+        "Rank": 634,
+        "Type": "aut",
+        "ColorBlock": 625,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1996-04-18T11:22:45.5692589+02:00",
+        "LastChanged": "2002-10-12T12:15:27.8446232+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "aut",
+        "ExtraInfo": "magnam",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Allan Kris",
+        "FullName": "Casper Schulist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 669
+            "FieldLength": 492
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Amparo Gregoria Lockman DDS",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Elissa Anabelle Johnson IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldLength": 268
       }
     }
   }

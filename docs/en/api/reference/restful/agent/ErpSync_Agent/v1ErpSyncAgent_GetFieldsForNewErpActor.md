@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 877,
+  "ErpConnectionId": 628,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "animi",
-    "Rank": 77,
-    "DisplayName": "Schroeder, Greenfelder and Kiehn",
-    "DisplayDescription": "Automated composite standardization",
+    "FieldKey": "vel",
+    "Rank": 736,
+    "DisplayName": "Kemmer-Becker",
+    "DisplayDescription": "User-centric impactful circuit",
     "FieldType": "Checkbox",
-    "ListName": "Okuneva, Bashirian and Fadel",
-    "DefaultValue": "veniam",
-    "MaxLength": 908,
+    "ListName": "Predovic, Emard and Hartmann",
+    "DefaultValue": "amet",
+    "MaxLength": 255,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 246
       }
     }
   }

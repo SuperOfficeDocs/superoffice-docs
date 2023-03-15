@@ -78,21 +78,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 788,
+  "TargetDimensionId": 546,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quas",
-  "DimensionListName": "Kunde, Lind and Nicolas",
-  "DimensionListId": 968,
-  "DimensionListLabel": "nesciunt",
+  "DimensionListField": "non",
+  "DimensionListName": "Kling, Spinka and Smitham",
+  "DimensionListId": 131,
+  "DimensionListLabel": "quia",
   "SelectedDimensions": [
-    71,
-    50
+    306,
+    553
   ]
 }
 ```
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 803,
+  "TargetDimensionId": 221,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "blanditiis",
-  "DimensionListName": "Mertz, Schuster and Cronin",
-  "DimensionListId": 165,
-  "DimensionListLabel": "quisquam",
+  "DimensionListField": "aspernatur",
+  "DimensionListName": "Carroll, Rath and Durgan",
+  "DimensionListId": 656,
+  "DimensionListLabel": "molestiae",
   "SelectedDimensions": [
-    646,
-    573
+    16,
+    849
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 669
     }
   }
 }

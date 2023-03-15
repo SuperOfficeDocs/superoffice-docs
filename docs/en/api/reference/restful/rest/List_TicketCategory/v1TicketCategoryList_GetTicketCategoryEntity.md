@@ -88,36 +88,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 907,
-  "ParentId": 35,
-  "Name": "Gutkowski LLC",
-  "Fullname": "aliquam",
-  "CategoryMaster": 424,
+  "TicketCategoryId": 408,
+  "ParentId": 370,
+  "Name": "Runolfsdottir-Cormier",
+  "Fullname": "mollitia",
+  "CategoryMaster": 895,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Nitzsche LLC",
+  "ExternalName": "Sporer-Braun",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 104,
-  "ReplyTemplate": 782,
-  "NotificationEmail": "jeffery_frami@boyleromaguera.biz",
+  "AssignmentLag": 921,
+  "ReplyTemplate": 583,
+  "NotificationEmail": "mireya@bartoletti.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 934,
+  "EffectiveReplyTemplateId": 775,
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "sed"
+    "CustomFields1": "numquam",
+    "CustomFields2": "enim"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 472
     }
   }
 }

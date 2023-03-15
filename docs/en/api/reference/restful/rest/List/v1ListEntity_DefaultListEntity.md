@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Flatley, Hilll and Jerde",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 857,
-  "IsCustomList": false,
+  "Id": 716,
+  "Name": "Gerlach, Toy and Gulgowski",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 122,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "molestias",
+  "UseGroupsAndHeadings": true,
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 847
     }
   }
 }

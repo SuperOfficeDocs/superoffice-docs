@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Type": "tenetur"
+  "Id": 776,
+  "Type": "quis"
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 217,
-    "Rank": 506,
-    "DefaultTask": 859,
-    "DefaultTaskText": "reiciendis",
+    "OwnerTable": 726,
+    "Rank": 155,
+    "DefaultTask": 640,
+    "DefaultTaskText": "suscipit",
     "IsVisual": false,
-    "LastGenerated": "2001-07-21T11:22:38.9770545+02:00",
-    "Description": "Networked methodical approach",
-    "Name": "Borer Inc and Sons",
-    "StatusMonitorId": 603,
-    "PictureId": 481,
+    "LastGenerated": "2022-05-28T12:15:20.0137369+02:00",
+    "Description": "Innovative interactive complexity",
+    "Name": "Hackett-Predovic",
+    "StatusMonitorId": 858,
+    "PictureId": 185,
     "NeedsUpdate": false,
-    "Deleted": true,
-    "NumMatches": 249,
-    "NumNeedUpdate": 61,
-    "GenerationStart": "2019-03-08T11:22:38.9770545+01:00",
+    "Deleted": false,
+    "NumMatches": 98,
+    "NumNeedUpdate": 234,
+    "GenerationStart": "2011-12-15T12:15:20.0137369+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldType": "System.String",
+        "FieldLength": 1002
       }
     }
   }

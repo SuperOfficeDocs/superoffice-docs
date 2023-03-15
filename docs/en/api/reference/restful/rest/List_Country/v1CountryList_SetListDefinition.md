@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "Name": "Johnson-Thompson",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 69,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 707,
+  "Name": "Pouros LLC",
+  "Tooltip": "numquam",
+  "Deleted": true,
+  "Rank": 567,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cum",
-  "InUseByUserDefinedFields": false
+  "ListType": "incidunt",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 602,
-  "Name": "Runolfsdottir Group",
-  "Tooltip": "doloremque",
+  "Id": 920,
+  "Name": "Auer-Doyle",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 414,
+  "Rank": 453,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ex",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldLength": 467
     }
   }
 }

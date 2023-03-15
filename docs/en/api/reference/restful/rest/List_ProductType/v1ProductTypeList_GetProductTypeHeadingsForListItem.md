@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 800,
-    "Name": "Koepp-Hoeger",
-    "ToolTip": "Sunt modi corrupti est ut possimus.",
-    "Deleted": true,
-    "Rank": 316,
-    "Type": "fuga",
-    "ColorBlock": 75,
-    "IconHint": "nulla",
-    "Selected": false,
-    "LastChanged": "1999-01-27T11:22:46.0535201+01:00",
+    "Id": 773,
+    "Name": "Will, Kutch and Schuppe",
+    "ToolTip": "Vitae est fugit aliquam laudantium.",
+    "Deleted": false,
+    "Rank": 633,
+    "Type": "dignissimos",
+    "ColorBlock": 883,
+    "IconHint": "ullam",
+    "Selected": true,
+    "LastChanged": "2009-11-09T12:15:28.3196184+01:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "Dooley, Deckow and Ferry",
-        "ToolTip": "Non voluptatem.",
-        "Deleted": true,
-        "Rank": 470,
-        "Type": "ex",
-        "ColorBlock": 133,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2022-05-22T11:22:46.0535201+02:00",
+        "Id": 578,
+        "Name": "VonRueden-Skiles",
+        "ToolTip": "Totam sed saepe tempore accusantium placeat ipsa doloribus.",
+        "Deleted": false,
+        "Rank": 99,
+        "Type": "et",
+        "ColorBlock": 434,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2007-04-27T12:15:28.3196184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "fuga",
+        "ExtraInfo": "placeat",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Kathlyn Zackary Veum DDS",
+        "FullName": "Miss Edwina Esperanza Simonis Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 458
+            "FieldType": "System.Int32",
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "aut",
+    "StyleHint": "fugiat",
     "Hidden": true,
-    "FullName": "Mr. Brayan Kautzer",
+    "FullName": "Jude Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 736
       }
     }
   }

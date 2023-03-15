@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 475,
-  "Name": "Schimmel LLC",
-  "Tooltip": "molestias",
-  "Deleted": true,
-  "Rank": 271,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "Id": 894,
+  "Name": "Stroman-Emard",
+  "Tooltip": "quibusdam",
+  "Deleted": false,
+  "Rank": 255,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "libero",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 225
     }
   },
   "_Links": {

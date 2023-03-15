@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Murazik-Okuneva",
-    "ToolTip": "Animi provident rem vel impedit maxime.",
-    "Deleted": true,
-    "Rank": 472,
-    "Type": "sed",
-    "ColorBlock": 163,
-    "IconHint": "adipisci",
+    "Id": 460,
+    "Name": "Mertz, Jewess and Davis",
+    "ToolTip": "Dolorem incidunt non sed vel quis blanditiis nam.",
+    "Deleted": false,
+    "Rank": 605,
+    "Type": "porro",
+    "ColorBlock": 239,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2017-05-03T11:22:46.0066565+02:00",
+    "LastChanged": "2008-03-14T12:15:28.2646172+01:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Waters, Dach and Predovic",
-        "ToolTip": "Odit temporibus rerum corrupti dolorum quos.",
-        "Deleted": false,
-        "Rank": 234,
-        "Type": "alias",
-        "ColorBlock": 994,
-        "IconHint": "nulla",
+        "Id": 355,
+        "Name": "Pacocha Inc and Sons",
+        "ToolTip": "Eveniet impedit.",
+        "Deleted": true,
+        "Rank": 263,
+        "Type": "iure",
+        "ColorBlock": 538,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2016-12-23T11:22:46.0066565+01:00",
+        "LastChanged": "2003-01-22T12:15:28.2646172+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "recusandae",
-        "Hidden": true,
-        "FullName": "Cecil Zieme",
+        "ExtraInfo": "at",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Renee Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 320
+            "FieldType": "System.String",
+            "FieldLength": 289
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Rosalind Cronin",
+    "ExtraInfo": "vitae",
+    "StyleHint": "cupiditate",
+    "Hidden": false,
+    "FullName": "Hunter Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 986
       }
     }
   }

@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,70 +114,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced uniform portal",
-  "Postit": "ea",
+  "Description": "Networked composite methodology",
+  "Postit": "unde",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 173,
-  "IncludePerson": 244,
-  "MemberCount": 662,
-  "Name": "Gutkowski Group",
-  "PostitTextId": 537,
-  "CreatedDate": "2009-08-25T11:22:39.3051036+02:00",
-  "SelectionId": 17,
-  "SoundEx": "et",
-  "Source": 895,
-  "TextId": 931,
-  "UpdatedDate": "2004-04-26T11:22:39.3051036+02:00",
-  "UpdatedCount": 425,
-  "Visibility": 387,
+  "GroupIdx": 889,
+  "IncludePerson": 884,
+  "MemberCount": 65,
+  "Name": "Kuvalis-Emmerich",
+  "PostitTextId": 628,
+  "CreatedDate": "2016-10-16T12:15:20.1637345+02:00",
+  "SelectionId": 730,
+  "SoundEx": "ipsam",
+  "Source": 179,
+  "TextId": 837,
+  "UpdatedDate": "2005-10-15T12:15:20.1637345+02:00",
+  "UpdatedCount": 549,
+  "Visibility": 615,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 534,
-  "TargetTableName": "Skiles, Lebsack and Bailey",
-  "Completed": false,
-  "LeftSelectionId": 616,
-  "RightSelectionId": 355,
+  "TargetTableNumber": 564,
+  "TargetTableName": "Streich-Spinka",
+  "Completed": true,
+  "LeftSelectionId": 736,
+  "RightSelectionId": 633,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Huel, Pouros and Schuster",
-  "ShadowProviderName": "Heidenreich-Adams",
-  "ChartKey": "suscipit",
-  "LastLoaded": "2018-05-22T11:22:39.3051036+02:00",
-  "LastLoadedBy": 965,
+  "MainProviderName": "Ruecker Group",
+  "ShadowProviderName": "Muller, Torp and Hickle",
+  "ChartKey": "optio",
+  "LastLoaded": "2017-09-16T12:15:20.1637345+02:00",
+  "LastLoadedBy": 691,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-05-21T11:22:39.3051036+02:00",
-  "LastMembershipChangeBy": 705,
+  "LastMembershipChange": "2011-01-16T12:15:20.1647397+01:00",
+  "LastMembershipChangeBy": 669,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "ab",
-  "MailingsProviderName": "Hermann-Rice",
-  "DashboardTileDefinitionId": 574,
+  "MainHeading": "fuga",
+  "MemberTabHeading": "dignissimos",
+  "MailingsProviderName": "Miller, Davis and Goldner",
+  "DashboardTileDefinitionId": 812,
   "VisibleFor": [
     {
-      "VisibleId": 403,
+      "VisibleId": 234,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldType": "System.Int32",
+          "FieldLength": 551
         }
       }
     },
     {
-      "VisibleId": 403,
+      "VisibleId": 234,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldType": "System.Int32",
+          "FieldLength": 551
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldLength": 576
     }
   }
 }

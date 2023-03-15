@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 818,
-    "Name": "Renner-Mann",
-    "ToolTip": "Tempora eveniet sequi necessitatibus.",
+    "Id": 98,
+    "Name": "Hane-O'Kon",
+    "ToolTip": "Eveniet ut ut explicabo sunt non.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "eum",
-    "ColorBlock": 332,
-    "IconHint": "aut",
+    "Rank": 403,
+    "Type": "saepe",
+    "ColorBlock": 181,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "1996-07-01T11:22:46.0535201+02:00",
+    "LastChanged": "2008-05-02T12:15:28.3156158+02:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Simonis-Greenfelder",
-        "ToolTip": "Doloremque facilis.",
+        "Id": 246,
+        "Name": "Moore, Rempel and Gulgowski",
+        "ToolTip": "Molestias delectus.",
         "Deleted": false,
-        "Rank": 607,
-        "Type": "debitis",
-        "ColorBlock": 718,
-        "IconHint": "ut",
+        "Rank": 406,
+        "Type": "quibusdam",
+        "ColorBlock": 233,
+        "IconHint": "culpa",
         "Selected": true,
-        "LastChanged": "2014-06-30T11:22:46.0535201+02:00",
+        "LastChanged": "1997-01-24T12:15:28.3156158+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Malachi Schroeder MD"
+        "ExtraInfo": "officia",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Iliana Leannon"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "nihil",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Max Addie Von I"
+    "FullName": "Emma Towne"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Renner, Lemke and Kshlerin",
-    "ToolTip": "Nisi non aut est recusandae repudiandae.",
+    "Id": 363,
+    "Name": "Prohaska-Nitzsche",
+    "ToolTip": "Eum qui et voluptas dicta expedita est blanditiis.",
     "Deleted": false,
-    "Rank": 850,
-    "Type": "est",
-    "ColorBlock": 86,
-    "IconHint": "voluptate",
+    "Rank": 462,
+    "Type": "harum",
+    "ColorBlock": 738,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2005-10-15T11:22:46.0535201+02:00",
+    "LastChanged": "2021-06-07T12:15:28.3166167+02:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Morar, Swaniawski and Gibson",
-        "ToolTip": "Dolores magnam repudiandae ut earum tempore blanditiis.",
-        "Deleted": false,
-        "Rank": 519,
-        "Type": "molestiae",
-        "ColorBlock": 187,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2018-06-24T11:22:46.0535201+02:00",
+        "Id": 299,
+        "Name": "Bailey, Jaskolski and Block",
+        "ToolTip": "Blanditiis provident aspernatur.",
+        "Deleted": true,
+        "Rank": 543,
+        "Type": "nostrum",
+        "ColorBlock": 787,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2020-11-29T12:15:28.3166167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Efren Bernhard",
+        "ExtraInfo": "qui",
+        "StyleHint": "iure",
+        "Hidden": false,
+        "FullName": "Kale Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldType": "System.Int32",
+            "FieldLength": 774
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Jeanne Turcotte",
+    "ExtraInfo": "minima",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Daron Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldType": "System.String",
+        "FieldLength": 637
       }
     }
   }

@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person?$select=name,department,category/id
 GET /api/v1/Person?$filter=name begins 'S'
 GET /api/v1/Person?$orderBy=name asc
-GET /api/v1/Person?$entities=earum
-GET /api/v1/Person?$top=513
-GET /api/v1/Person?$skip=795
+GET /api/v1/Person?$entities=et
+GET /api/v1/Person?$top=67
+GET /api/v1/Person?$skip=956
 GET /api/v1/Person?$mode=Full
 GET /api/v1/Person?$options=GrandTotal=true
-GET /api/v1/Person?$context=doloremque
+GET /api/v1/Person?$context=ut
 GET /api/v1/Person?$format=JSON
 GET /api/v1/Person?$jsonSafe=False
 GET /api/v1/Person?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Person
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "provident",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 674,
-      "EntityName": "person",
-      "personId": 674,
-      "fullName": "Dexter Schmeler"
+      "PrimaryKey": 805,
+      "EntityName": "sale",
+      "saleId": 805,
+      "contactId": 3061,
+      "name": "West Group"
     },
     {
-      "PrimaryKey": 9345,
-      "EntityName": "person",
-      "personId": 9345,
-      "fullName": "Vincent Littel"
+      "PrimaryKey": 6677,
+      "EntityName": "sale",
+      "saleId": 6677,
+      "contactId": 4369,
+      "name": "Rohan, Johnson and Kuvalis"
     }
   ]
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Rutherford-Cruickshank",
-    "ToolTip": "Distinctio harum autem.",
+    "Id": 349,
+    "Name": "Effertz, West and Padberg",
+    "ToolTip": "Tenetur vitae.",
     "Deleted": true,
-    "Rank": 132,
-    "Type": "dicta",
-    "ColorBlock": 482,
-    "IconHint": "et",
+    "Rank": 947,
+    "Type": "fugit",
+    "ColorBlock": 629,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2007-11-16T11:22:45.5848828+01:00",
+    "LastChanged": "2007-04-23T12:15:27.872622+02:00",
     "ChildItems": [
       {
-        "Id": 866,
-        "Name": "Beatty, Adams and Heathcote",
-        "ToolTip": "Repellat earum voluptas quae.",
-        "Deleted": false,
-        "Rank": 670,
-        "Type": "cum",
-        "ColorBlock": 282,
-        "IconHint": "architecto",
+        "Id": 99,
+        "Name": "Boehm-Brakus",
+        "ToolTip": "Iusto dolorem earum.",
+        "Deleted": true,
+        "Rank": 40,
+        "Type": "provident",
+        "ColorBlock": 681,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2018-05-04T11:22:45.5848828+02:00",
+        "LastChanged": "2019-10-10T12:15:27.872622+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "aut",
+        "ExtraInfo": "iusto",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Mr. Antwan Marilou Reilly MD",
+        "FullName": "Ollie Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldLength": 279
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Davin Luettgen",
+    "ExtraInfo": "possimus",
+    "StyleHint": "nostrum",
+    "Hidden": false,
+    "FullName": "Frida Mayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldLength": 272
       }
     }
   }

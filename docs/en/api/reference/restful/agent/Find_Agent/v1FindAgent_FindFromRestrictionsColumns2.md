@@ -163,15 +163,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "est",
-  "ProviderName": "Tremblay, Farrell and Collier",
-  "DesiredColumns": "assumenda",
-  "PageSize": 669,
-  "PageNumber": 68
+  "Restrictions": "maiores",
+  "ProviderName": "Lockman, Smitham and Schumm",
+  "DesiredColumns": "tempora",
+  "PageSize": 527,
+  "PageNumber": 377
 }
 ```
 
@@ -184,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Armstrong Inc and Sons",
-      "DisplayTooltip": "officiis",
-      "DisplayType": "eos",
-      "CanOrderBy": false,
-      "Name": "Auer Group",
+      "DisplayName": "Ortiz, Bernier and Nitzsche",
+      "DisplayTooltip": "provident",
+      "DisplayType": "laudantium",
+      "CanOrderBy": true,
+      "Name": "Rosenbaum-Feest",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Smitham LLC",
+      "RestrictionType": "similique",
+      "RestrictionListName": "Nitzsche-Upton",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "sequi",
-      "IconHint": "error",
-      "HeadingIconHint": "architecto"
+      "ExtraInfo": "labore",
+      "Width": "in",
+      "IconHint": "et",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Beer Group",
-      "PrimaryKey": 598,
+      "EntityName": "Hartmann, Vandervort and Wilkinson",
+      "PrimaryKey": 630,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quidem",
-          "TooltipHint": "nisi",
-          "LinkHint": "illo"
+          "DisplayValue": "enim",
+          "TooltipHint": "et",
+          "LinkHint": "voluptatibus"
         }
       },
-      "LinkHint": "beatae",
-      "StyleHint": "possimus",
+      "LinkHint": "maiores",
+      "StyleHint": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 328
         }
       }
     }
   ],
-  "RowCount": 317,
+  "RowCount": 454,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 294
+      "FieldType": "System.Int32",
+      "FieldLength": 825
     }
   }
 }

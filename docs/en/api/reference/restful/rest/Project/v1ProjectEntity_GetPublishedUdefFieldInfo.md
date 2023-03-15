@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 205,
-  "ColumnId": 497,
-  "FieldDefault": "non",
-  "FieldHeight": 665,
-  "FieldLabel": "ipsum",
-  "FieldLeft": 49,
-  "FieldTop": 727,
+  "UDefFieldId": 420,
+  "ColumnId": 38,
+  "FieldDefault": "aut",
+  "FieldHeight": 5,
+  "FieldLabel": "optio",
+  "FieldLeft": 181,
+  "FieldTop": 158,
   "FieldType": "Checkbox",
-  "FieldWidth": 887,
-  "FormatMask": "debitis",
+  "FieldWidth": 116,
+  "FormatMask": "sequi",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 23,
-  "LabelLeft": 936,
-  "LabelTop": 986,
-  "LabelWidth": 628,
-  "LastVersionId": 37,
-  "ListTableId": 535,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 43,
+  "LabelLeft": 804,
+  "LabelTop": 670,
+  "LabelWidth": 12,
+  "LastVersionId": 671,
+  "ListTableId": 554,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 78,
-  "ProgId": "et",
+  "Page1LineNo": 675,
+  "ProgId": "incidunt",
   "IsReadOnly": false,
-  "ShortLabel": "ut",
-  "TabOrder": 847,
-  "TextLength": 473,
-  "Tooltip": "porro",
-  "UdefIdentity": 619,
-  "UDListDefinitionId": 472,
+  "ShortLabel": "eius",
+  "TabOrder": 796,
+  "TextLength": 238,
+  "Tooltip": "qui",
+  "UdefIdentity": 252,
+  "UDListDefinitionId": 322,
   "Justification": "Center",
-  "Version": 574,
-  "TemplateVariableName": "Brown Group",
+  "Version": 179,
+  "TemplateVariableName": "Leannon LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Gulgowski Inc and Sons",
+  "MdoListName": "Green, Botsford and O'Hara",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldType": "System.String",
+      "FieldLength": 882
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 176,
-  "Name": "Lehner Inc and Sons",
-  "Tooltip": "facilis",
+  "Id": 831,
+  "Name": "Romaguera, Rowe and Batz",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 253,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
+  "Rank": 817,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 588,
-  "Name": "Daugherty LLC",
-  "Tooltip": "aut",
+  "Id": 389,
+  "Name": "Borer Group",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 279,
+  "Rank": 871,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "enim",
-  "InUseByUserDefinedFields": false,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 654
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Ondricka-Baumbach",
-    "ToolTip": "Quia facilis quia repellendus quos totam perspiciatis.",
+    "Id": 552,
+    "Name": "Bauch Inc and Sons",
+    "ToolTip": "Unde voluptates est et similique.",
     "Deleted": false,
-    "Rank": 320,
-    "Type": "ex",
-    "ColorBlock": 792,
-    "IconHint": "quo",
+    "Rank": 740,
+    "Type": "ducimus",
+    "ColorBlock": 765,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2018-12-17T11:22:46.1941157+01:00",
+    "LastChanged": "2022-03-06T12:15:28.5026155+01:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Padberg Group",
-        "ToolTip": "Beatae temporibus reprehenderit sint.",
-        "Deleted": true,
-        "Rank": 854,
-        "Type": "illo",
-        "ColorBlock": 103,
-        "IconHint": "hic",
+        "Id": 600,
+        "Name": "Tillman, Quitzon and Runolfsson",
+        "ToolTip": "Itaque amet voluptas ea recusandae praesentium.",
+        "Deleted": false,
+        "Rank": 363,
+        "Type": "molestiae",
+        "ColorBlock": 322,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2019-10-11T11:22:46.1941157+02:00",
+        "LastChanged": "2007-02-18T12:15:28.5026155+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "optio",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Mrs. Noble Gottlieb III",
+        "FullName": "Breanne D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 912
+            "FieldType": "System.Int32",
+            "FieldLength": 648
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "fuga",
-    "Hidden": true,
-    "FullName": "Carlee Baumbach",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Hermann Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 897
+        "FieldType": "System.Int32",
+        "FieldLength": 879
       }
     }
   }

@@ -78,10 +78,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lynch, Bahringer and Reynolds",
+  "ProviderName": "Turcotte-Bednar",
   "DesiredColumns": [
-    "beatae",
-    "nesciunt"
+    "ex",
+    "neque"
   ]
 }
 ```
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Daugherty LLC",
+    "Name": "Spencer Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Daugherty LLC",
+    "Name": "Spencer Group",
     "Direction": "ASC"
   }
 ]

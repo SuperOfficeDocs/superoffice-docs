@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Kuvalis Group",
+  "TemplateName": "Schulist Inc and Sons",
   "AllowPersonal": false,
-  "UiCulture": "veritatis"
+  "UiCulture": "molestiae"
 }
 ```
 

@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Fritsch LLC",
+  "Id": 672,
+  "Name": "Rempel LLC",
   "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 342,
-  "Rank": 884
+  "UdListDefinitionId": 263,
+  "Rank": 663
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 673,
-  "Name": "Haley LLC",
-  "Tooltip": "suscipit",
+  "Id": 250,
+  "Name": "Schmitt Inc and Sons",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "UdListDefinitionId": 783,
-  "Rank": 354,
+  "UdListDefinitionId": 384,
+  "Rank": 519,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 747
     }
   }
 }

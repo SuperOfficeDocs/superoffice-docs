@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 15,
+  "DocumentTemplateId": 342,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "incidunt",
-  "PluginId": 750
+  "LanguageCode": "sed",
+  "PluginId": 362
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Marvin-Donnelly",
-  "Description": "Reactive 24/7 emulation",
-  "ExternalReference": "eius",
-  "MimeType": "rerum",
-  "PluginId": 985
+  "Name": "Parker-Dibbert",
+  "Description": "Profit-focused multi-state Graphical User Interface",
+  "ExternalReference": "quia",
+  "MimeType": "tempore",
+  "PluginId": 810
 }
 ```

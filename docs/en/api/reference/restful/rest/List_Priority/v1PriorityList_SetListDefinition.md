@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Kassulke Inc and Sons",
-  "Tooltip": "ea",
+  "Id": 199,
+  "Name": "Heidenreich Inc and Sons",
+  "Tooltip": "tempore",
   "Deleted": false,
-  "Rank": 767,
+  "Rank": 443,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Funk-Franecki",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 973,
+  "Id": 944,
+  "Name": "Treutel, Lesch and Reynolds",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "Rank": 521,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 707
     }
   }
 }

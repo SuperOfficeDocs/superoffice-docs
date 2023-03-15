@@ -23,6 +23,8 @@ title: Ticket_Agent
 
 * [POST Agents/Ticket/GetAttachmentEntity](v1TicketAgent_GetAttachmentEntity.md)
 
+* [POST Agents/Ticket/CopyFromCRMDocument](v1TicketAgent_CopyFromCRMDocument.md)
+
 * [POST Agents/Ticket/UploadAttachment](v1TicketAgent_UploadAttachment.md)
 
 * [POST Agents/Ticket/GetAttachmentStream](v1TicketAgent_GetAttachmentStream.md)
@@ -49,6 +51,8 @@ title: Ticket_Agent
 
 * [POST Agents/Ticket/SaveTicketEntityWithNotify](v1TicketAgent_SaveTicketEntityWithNotify.md)
 
+* [POST Agents/Ticket/GetNextInQueue](v1TicketAgent_GetNextInQueue.md)
+
 * [POST Agents/Ticket/ProcessTicketWhenRead](v1TicketAgent_ProcessTicketWhenRead.md)
 
 * [POST Agents/Ticket/SplitTicket](v1TicketAgent_SplitTicket.md)
@@ -72,6 +76,8 @@ title: Ticket_Agent
 * [POST Agents/Ticket/BatchForward](v1TicketAgent_BatchForward.md)
 
 * [POST Agents/Ticket/BatchReply](v1TicketAgent_BatchReply.md)
+
+* [POST Agents/Ticket/ClearNotify](v1TicketAgent_ClearNotify.md)
 
 * [POST Agents/Ticket/GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
 

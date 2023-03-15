@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 819
+  "PrefDescId": 244
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 147,
-    "PrefDescId": 330,
-    "PrefValue": "quo",
-    "PrefShowValue": "totam",
-    "Description": "Persevering demand-driven firmware",
-    "IsBuiltin": true,
+    "PrefDescLineId": 756,
+    "PrefDescId": 884,
+    "PrefValue": "eum",
+    "PrefShowValue": "enim",
+    "Description": "Ameliorated value-added solution",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 161
       }
     }
   }

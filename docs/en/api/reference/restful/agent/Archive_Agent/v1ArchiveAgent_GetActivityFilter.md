@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2000-05-05T11:22:37.3836264+02:00",
-  "ToDate": "2001-07-17T11:22:37.3836264+02:00",
+  "FromDate": "2003-06-09T12:15:18.142764+02:00",
+  "ToDate": "2016-01-02T12:15:18.142764+01:00",
   "AssociateList": [
     {
-      "Id": 511,
-      "Name": "Littel Group",
-      "ToolTip": "Odio minus sit architecto esse qui mollitia ad.",
+      "Id": 685,
+      "Name": "Monahan-Gutkowski",
+      "ToolTip": "Ab laudantium quam.",
       "Deleted": false,
-      "Rank": 346,
-      "Type": "repudiandae",
-      "ColorBlock": 33,
-      "IconHint": "quasi",
+      "Rank": 109,
+      "Type": "est",
+      "ColorBlock": 499,
+      "IconHint": "totam",
       "Selected": false,
-      "LastChanged": "1999-10-13T11:22:37.3836264+02:00",
+      "LastChanged": "2002-06-15T12:15:18.142764+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dicta",
-      "StyleHint": "reiciendis",
-      "Hidden": true,
-      "FullName": "Prof. Sonny Oliver Cartwright DDS",
+      "ExtraInfo": "voluptas",
+      "StyleHint": "rem",
+      "Hidden": false,
+      "FullName": "Mrs. Ken Walker II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 320
+          "FieldLength": 860
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 519,
-      "Name": "Cassin, Bosco and Kling",
-      "ToolTip": "Suscipit ipsam eos ut temporibus consequatur.",
+      "Id": 984,
+      "Name": "Jacobs Inc and Sons",
+      "ToolTip": "Qui inventore amet aut sit.",
       "Deleted": false,
-      "Rank": 985,
-      "Type": "magnam",
-      "ColorBlock": 853,
-      "IconHint": "libero",
-      "Selected": false,
-      "LastChanged": "1997-06-08T11:22:37.3836264+02:00",
+      "Rank": 843,
+      "Type": "voluptatem",
+      "ColorBlock": 402,
+      "IconHint": "consequuntur",
+      "Selected": true,
+      "LastChanged": "2015-08-26T12:15:18.1437638+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolores",
-      "StyleHint": "harum",
-      "Hidden": false,
-      "FullName": "Pascale VonRueden",
+      "ExtraInfo": "totam",
+      "StyleHint": "laborum",
+      "Hidden": true,
+      "FullName": "Lorenza Lockman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 248
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 366,
-      "Name": "Wiza-Greenfelder",
-      "ToolTip": "Suscipit consequuntur.",
-      "Deleted": true,
-      "Rank": 705,
-      "Type": "illo",
+      "Id": 129,
+      "Name": "Schuppe-Ondricka",
+      "ToolTip": "Repellendus explicabo et consequatur unde saepe.",
+      "Deleted": false,
+      "Rank": 347,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorem",
-      "ColorBlock": 217,
-      "ExtraInfo": "ullam",
-      "StyleHint": "mollitia",
-      "FullName": "Miss Bethany Loyal Durgan",
+      "IconHint": "maxime",
+      "ColorBlock": 469,
+      "ExtraInfo": "delectus",
+      "StyleHint": "quia",
+      "FullName": "Rhett Celestine Dickinson III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 693
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldLength": 93
     }
   }
 }

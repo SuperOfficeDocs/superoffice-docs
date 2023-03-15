@@ -80,23 +80,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Jun 1997 11:22:44 G6T
+Last-Modified: Fri, 11 Oct 1996 12:15:26 G10T
 
 {
-  "Key": "minima",
-  "Value": "est",
-  "RecordId": 417,
-  "CreatedDate": "2010-07-16T11:22:44.8818691+02:00",
-  "UpdatedDate": "1997-06-26T11:22:44.8818691+02:00",
-  "UpdatedBy": "libero",
-  "CreatedBy": "est",
-  "TableName": "Hilll, Bruen and Kulas",
+  "Key": "consequatur",
+  "Value": "et",
+  "RecordId": 553,
+  "CreatedDate": "1999-06-16T12:15:26.9766352+02:00",
+  "UpdatedDate": "1996-10-11T12:15:26.9766352+02:00",
+  "UpdatedBy": "officia",
+  "CreatedBy": "fuga",
+  "TableName": "Wilkinson, Grady and Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldLength": 292
     }
   }
 }

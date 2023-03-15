@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 761,
-    "ResourceId": 420,
-    "Text": "voluptatum",
+    "LanguageId": 638,
+    "ResourceId": 598,
+    "Text": "beatae",
     "Type": "Column",
-    "LocalizedTextId": 766,
+    "LocalizedTextId": 309,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 953
       }
     }
   }

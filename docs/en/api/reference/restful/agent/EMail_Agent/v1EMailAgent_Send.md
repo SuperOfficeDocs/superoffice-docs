@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,18 +117,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "tempore",
-      "HTMLBody": "natus",
+      "Subject": "enim",
+      "HTMLBody": "recusandae",
       "From": null,
-      "Sent": "2020-07-04T11:22:38.1803656+02:00",
-      "Size": 874,
+      "Sent": "2011-09-16T12:15:18.9127528+02:00",
+      "Size": 196,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "esse",
-      "PlainBody": "exercitationem",
+      "MessageID": "rerum",
+      "PlainBody": "dolor",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 397,
+      "ServerId": 183,
       "Attachments": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Stamm Group",
-      "EmailItemId": 44,
-      "AccountId": 902,
-      "ReceivedAt": "2020-10-14T11:22:38.1803656+02:00",
+      "FolderName": "Mraz LLC",
+      "EmailItemId": 450,
+      "AccountId": 425,
+      "ReceivedAt": "1997-06-03T12:15:18.9127528+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2008-02-01T11:22:38.1803656+01:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2015-06-10T12:15:18.9127528+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -161,146 +161,146 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 580,
-        "ContactName": "Kilback-Swift",
-        "PersonId": 765,
-        "PersonName": "Padberg Group",
-        "AssociateId": 948,
-        "Address": "officia",
-        "EmailId": 468,
+        "ContactId": 304,
+        "ContactName": "Torphy-Lehner",
+        "PersonId": 27,
+        "PersonName": "Wilkinson, Eichmann and Hessel",
+        "AssociateId": 193,
+        "Address": "saepe",
+        "EmailId": 863,
         "DuplicatePersonIds": [
-          243,
-          1002
+          591,
+          215
         ],
-        "Name": "Bergstrom Inc and Sons",
+        "Name": "Kunze-Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 417
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 314,
-        "ContactName": "Bednar Group",
-        "PersonId": 779,
-        "PersonName": "Wilderman-Fahey",
-        "AssociateId": 484,
-        "Address": "qui",
-        "EmailId": 163,
+        "ContactId": 388,
+        "ContactName": "Weimann-Spinka",
+        "PersonId": 40,
+        "PersonName": "Robel LLC",
+        "AssociateId": 191,
+        "Address": "eligendi",
+        "EmailId": 406,
         "DuplicatePersonIds": [
-          138,
-          584
+          711,
+          98
         ],
-        "Name": "Daugherty, McClure and Moen",
+        "Name": "Quitzon-Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 337
+            "FieldType": "System.Int32",
+            "FieldLength": 786
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 725,
-        "ContactName": "Wolff Group",
-        "PersonId": 994,
-        "PersonName": "Lemke-Johns",
-        "AssociateId": 476,
-        "Address": "dolorem",
-        "EmailId": 892,
+        "ContactId": 41,
+        "ContactName": "Little, Erdman and Christiansen",
+        "PersonId": 921,
+        "PersonName": "Abshire Inc and Sons",
+        "AssociateId": 417,
+        "Address": "doloremque",
+        "EmailId": 265,
         "DuplicatePersonIds": [
-          952,
-          552
+          692,
+          248
         ],
-        "Name": "Kuphal LLC",
+        "Name": "Strosin-Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 560
+            "FieldType": "System.String",
+            "FieldLength": 589
           }
         }
       }
     ],
-    "Subject": "numquam",
-    "HTMLBody": "expedita",
+    "Subject": "voluptatem",
+    "HTMLBody": "quia",
     "From": null,
-    "Sent": "2015-01-13T11:22:38.1803656+01:00",
-    "Size": 985,
+    "Sent": "1999-01-05T12:15:18.9157548+01:00",
+    "Size": 699,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "possimus",
-    "PlainBody": "a",
+    "MessageID": "voluptatum",
+    "PlainBody": "blanditiis",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 766,
+    "ServerId": 982,
     "Attachments": [
       {
-        "Description": "Proactive 5th generation contingency",
-        "Filename": "distinctio",
-        "Size": 942,
-        "Type": "est",
-        "Encoding": "neque",
-        "Id": "voluptatem",
-        "Disposition": "voluptatem",
+        "Description": "Operative stable model",
+        "Filename": "tempora",
+        "Size": 298,
+        "Type": "accusantium",
+        "Encoding": "quam",
+        "Id": "exercitationem",
+        "Disposition": "nam",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldLength": 845
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "DuBuque, Shields and Tromp",
+        "Name": "Bernier-Parker",
         "Values": [
-          "porro",
-          "repellendus"
+          "deleniti",
+          "quo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 607
+            "FieldType": "System.String",
+            "FieldLength": 932
           }
         }
       },
       {
-        "Name": "DuBuque, Shields and Tromp",
+        "Name": "Bernier-Parker",
         "Values": [
-          "porro",
-          "repellendus"
+          "deleniti",
+          "quo"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 607
+            "FieldType": "System.String",
+            "FieldLength": 932
           }
         }
       }
     ],
-    "FolderName": "Jewess Group",
-    "EmailItemId": 606,
-    "AccountId": 307,
-    "ReceivedAt": "2014-06-13T11:22:38.1803656+02:00",
+    "FolderName": "Hamill, Hermann and Roberts",
+    "EmailItemId": 490,
+    "AccountId": 721,
+    "ReceivedAt": "2017-10-26T12:15:18.9157548+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2012-07-27T11:22:38.1803656+02:00",
+    "RepliedAt": "1999-03-13T12:15:18.9157548+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -309,7 +309,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 129
       }
     }
   }

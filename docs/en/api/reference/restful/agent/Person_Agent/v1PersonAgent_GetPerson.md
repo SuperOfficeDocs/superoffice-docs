@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=29
+POST /api/v1/Agents/Person/GetPerson?personId=893
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,52 +115,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "sint",
-  "PersonId": 514,
-  "Mrmrs": "a",
-  "Firstname": "Alysson",
-  "Lastname": "Kilback",
-  "MiddleName": "Heathcote-Morissette",
-  "Title": "nihil",
-  "Description": "Profit-focused cohesive infrastructure",
-  "Email": "omari.metz@auergerhold.name",
-  "FullName": "Prof. Aubrey Adah Daniel V",
-  "DirectPhone": "294.722.6541 x32965",
-  "FormalName": "McKenzie-Mueller",
-  "CountryId": 312,
-  "ContactId": 716,
-  "ContactName": "Aufderhar Inc and Sons",
-  "Retired": 655,
-  "Rank": 757,
-  "ActiveInterests": 263,
-  "ContactDepartment": "implement seamless e-services",
-  "ContactCountryId": 811,
-  "ContactOrgNr": "844347",
-  "FaxPhone": "1-764-139-7019 x610",
-  "MobilePhone": "449-171-8791 x73610",
-  "ContactPhone": "(894)926-4301 x36451",
-  "AssociateName": "Heller, Langworth and Leffler",
-  "AssociateId": 902,
+  "Position": "exercitationem",
+  "PersonId": 753,
+  "Mrmrs": "velit",
+  "Firstname": "Rory",
+  "Lastname": "Adams",
+  "MiddleName": "Boyle, Kertzmann and Bashirian",
+  "Title": "dolores",
+  "Description": "Inverse optimal protocol",
+  "Email": "matteo.johnston@christiansen.co.uk",
+  "FullName": "Effie Bailey",
+  "DirectPhone": "451.041.4465 x9096",
+  "FormalName": "Orn, Heaney and Hirthe",
+  "CountryId": 609,
+  "ContactId": 808,
+  "ContactName": "Daugherty-Weber",
+  "Retired": 209,
+  "Rank": 283,
+  "ActiveInterests": 27,
+  "ContactDepartment": "redefine out-of-the-box systems",
+  "ContactCountryId": 182,
+  "ContactOrgNr": "734074",
+  "FaxPhone": "1-629-247-9094",
+  "MobilePhone": "153-543-9327 x5141",
+  "ContactPhone": "(770)312-6719",
+  "AssociateName": "Balistreri Group",
+  "AssociateId": 427,
   "UsePersonAddress": false,
-  "ContactFax": "atque",
-  "Kanafname": "eaque",
-  "Kanalname": "in",
-  "Post1": "hic",
-  "Post2": "itaque",
-  "Post3": "similique",
-  "EmailName": "camren@torpgraham.com",
-  "ContactFullName": "Clementina Haley",
-  "ActiveErpLinks": 902,
-  "TicketPriorityId": 1000,
-  "SupportLanguageId": 228,
-  "SupportAssociateId": 303,
+  "ContactFax": "et",
+  "Kanafname": "voluptatem",
+  "Kanalname": "excepturi",
+  "Post1": "porro",
+  "Post2": "qui",
+  "Post3": "sapiente",
+  "EmailName": "brendan@harber.co.uk",
+  "ContactFullName": "Lottie Domenica Spinka DVM",
+  "ActiveErpLinks": 102,
+  "TicketPriorityId": 665,
+  "SupportLanguageId": 575,
+  "SupportAssociateId": 968,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 735
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 283,
-    "FieldName": "Rolfson-Heathcote",
-    "Label": "et",
-    "Tooltip": "rem",
+    "QuoteLineConfigurationId": 778,
+    "FieldName": "Nader, Schmeler and Heaney",
+    "Label": "voluptas",
+    "Tooltip": "vitae",
     "Editable": true,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 146,
+    "Rank": 623,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldLength": 473
       }
     }
   }

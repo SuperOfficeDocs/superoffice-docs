@@ -32,7 +32,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -129,7 +129,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -137,70 +137,70 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 16 Dec 2001 11:22:44 G12T
+Last-Modified: Tue, 29 Jul 2008 12:15:26 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-11-05T11:22:44.2258414+01:00",
-  "AppointmentId": 388,
-  "Description": "Total intermediate info-mediaries",
-  "StartDate": "2009-03-20T11:22:44.2258414+01:00",
-  "EndDate": "2012-12-04T11:22:44.2258414+01:00",
+  "CreatedDate": "2012-08-04T12:15:26.2826459+02:00",
+  "AppointmentId": 914,
+  "Description": "Polarised directional info-mediaries",
+  "StartDate": "1999-04-04T12:15:26.2826459+02:00",
+  "EndDate": "2008-08-30T12:15:26.2826459+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 879,
+  "MotherId": 162,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-12-16T11:22:44.2258414+01:00",
+  "UpdatedDate": "2008-07-29T12:15:26.2856515+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 101,
+  "ActiveLinks": 844,
   "Links": [
     {
-      "EntityName": "Mann-Marvin",
-      "Id": 990,
-      "Description": "Persistent encompassing definition",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 825,
+      "EntityName": "Trantow LLC",
+      "Id": 597,
+      "Description": "Realigned cohesive alliance",
+      "ExtraInfo": "atque",
+      "LinkId": 164,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 356
+          "FieldLength": 955
         }
       }
     }
   ],
-  "AlarmLeadTime": "corporis",
+  "AlarmLeadTime": "soluta",
   "HasAlarm": true,
-  "ColorIndex": 735,
+  "ColorIndex": 622,
   "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "accusantium",
-  "LeadTime": "eligendi",
-  "Location": "vitae",
-  "RejectCounter": 173,
+  "IsAlldayEvent": false,
+  "LagTime": "sapiente",
+  "LeadTime": "asperiores",
+  "Location": "temporibus",
+  "RejectCounter": 221,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 485,
-      "PersonId": 223,
-      "ContactId": 546,
-      "EmailId": 938,
+      "AssociateId": 40,
+      "PersonId": 273,
+      "ContactId": 719,
+      "EmailId": 306,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 485,
-      "PersonId": 223,
-      "ContactId": 546,
-      "EmailId": 938,
+      "AssociateId": 40,
+      "PersonId": 273,
+      "ContactId": 719,
+      "EmailId": 306,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
@@ -208,58 +208,58 @@ Last-Modified: Sun, 16 Dec 2001 11:22:44 G12T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-07-10T11:22:44.2258414+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1998-04-11T12:15:26.2856515+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 400,
+  "PreferredTZLocation": 176,
   "Sale": null,
-  "SuggestedAppointmentId": 457,
+  "SuggestedAppointmentId": 579,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "suscipit",
+  "CentralserviceVideomeetId": "doloremque",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Jared Ritchie",
-    "SuperOffice:2": "Courtney Boehm"
+    "SuperOffice:1": "Aiden Connelly II",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "autem"
+    "CustomFields1": "non",
+    "CustomFields2": "laborum"
   },
-  "PublishEventDate": "2011-10-28T11:22:44.2258414+02:00",
-  "PublishTo": "1997-05-13T11:22:44.2258414+02:00",
-  "PublishFrom": "2012-07-03T11:22:44.2258414+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-06-11T12:15:26.2876454+02:00",
+  "PublishTo": "1999-12-15T12:15:26.2876454+01:00",
+  "PublishFrom": "2019-11-19T12:15:26.2876454+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 227,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldLength": 440
         }
       }
     },
     {
-      "VisibleId": 227,
+      "VisibleId": 890,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldLength": 440
         }
       }
     }
@@ -268,13 +268,13 @@ Last-Modified: Sun, 16 Dec 2001 11:22:44 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

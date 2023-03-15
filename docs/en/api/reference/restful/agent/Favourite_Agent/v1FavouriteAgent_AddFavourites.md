@@ -66,17 +66,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harber, Daugherty and Bayer",
+  "TableName": "Schamberger-Bauch",
   "RecordIds": [
-    766,
-    576
+    485,
+    665
   ],
-  "AssociateId": 832,
-  "ExtraInfo": "officiis"
+  "AssociateId": 574,
+  "ExtraInfo": "fuga"
 }
 ```
 

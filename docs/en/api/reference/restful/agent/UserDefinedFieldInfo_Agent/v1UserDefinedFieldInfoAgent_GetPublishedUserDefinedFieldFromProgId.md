@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "libero",
+  "ProgId": "dolores",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 765,
-  "ColumnId": 713,
-  "FieldDefault": "ad",
-  "FieldHeight": 950,
-  "FieldLabel": "voluptatum",
-  "FieldLeft": 100,
-  "FieldTop": 51,
+  "UDefFieldId": 359,
+  "ColumnId": 376,
+  "FieldDefault": "maiores",
+  "FieldHeight": 765,
+  "FieldLabel": "autem",
+  "FieldLeft": 351,
+  "FieldTop": 818,
   "FieldType": "Checkbox",
-  "FieldWidth": 779,
-  "FormatMask": "voluptate",
-  "HideLabel": false,
+  "FieldWidth": 789,
+  "FormatMask": "nihil",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 957,
-  "LabelLeft": 561,
-  "LabelTop": 218,
-  "LabelWidth": 755,
-  "LastVersionId": 71,
-  "ListTableId": 959,
+  "LabelHeight": 956,
+  "LabelLeft": 307,
+  "LabelTop": 932,
+  "LabelWidth": 905,
+  "LastVersionId": 96,
+  "ListTableId": 482,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 505,
-  "ProgId": "unde",
+  "Page1LineNo": 853,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 985,
-  "TextLength": 799,
-  "Tooltip": "quas",
-  "UdefIdentity": 163,
-  "UDListDefinitionId": 996,
+  "ShortLabel": "ab",
+  "TabOrder": 590,
+  "TextLength": 991,
+  "Tooltip": "quae",
+  "UdefIdentity": 890,
+  "UDListDefinitionId": 626,
   "Justification": "Center",
-  "Version": 232,
-  "TemplateVariableName": "Gislason Inc and Sons",
+  "Version": 20,
+  "TemplateVariableName": "Berge, Schuster and Metz",
   "HasBeenPublished": false,
-  "MdoListName": "Homenick LLC",
+  "MdoListName": "Beahan, Runolfsson and Auer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 264
     }
   }
 }

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 415,
-  "Name": "Monahan-Keeling",
-  "AssociateId": 465,
-  "DetailsTable": 840,
-  "DetailsRecord": 341,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 410,
+  "Name": "Von-Konopelski",
+  "AssociateId": 696,
+  "DetailsTable": 192,
+  "DetailsRecord": 303,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "minima",
-    "ParameterObject2": "placeat"
+    "ParameterObject1": "temporibus",
+    "ParameterObject2": "repellat"
   },
-  "LastStarted": "2001-09-15T11:22:38.3990648+02:00",
-  "Created": "2020-08-19T11:22:38.3990648+02:00",
-  "StartCount": 970,
-  "DatabaseSerialNumber": "1654104",
-  "Context": "aliquid",
-  "Result": "iusto",
+  "LastStarted": "2004-10-25T12:15:19.1757492+02:00",
+  "Created": "2002-06-05T12:15:19.1757492+02:00",
+  "StartCount": 778,
+  "DatabaseSerialNumber": "673593",
+  "Context": "libero",
+  "Result": "tenetur",
   "State": "All",
-  "Description": "Focused intangible alliance",
-  "Response": "sunt",
-  "Request": "quia",
-  "ProgressDescription": "Operative systematic open system",
-  "ProgressPercent": 509,
-  "FileName": "Bogan-Kuhic",
+  "Description": "Innovative system-worthy service-desk",
+  "Response": "velit",
+  "Request": "quo",
+  "ProgressDescription": "Vision-oriented modular hierarchy",
+  "ProgressPercent": 949,
+  "FileName": "Smith Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldLength": 999
     }
   }
 }

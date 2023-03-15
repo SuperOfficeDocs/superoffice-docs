@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Beatty LLC",
-  "DeviceName": "Rau, Morar and Dickens",
-  "DeviceIdentifier": "rerum",
-  "KeyName": "Welch, Friesen and Nicolas",
-  "TableName": "O'Reilly, Sauer and Hahn",
-  "RecordId": 398
+  "ApplicationName": "Mitchell-Ritchie",
+  "DeviceName": "Hagenes Group",
+  "DeviceIdentifier": "qui",
+  "KeyName": "Crooks Group",
+  "TableName": "Koss Inc and Sons",
+  "RecordId": 486
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "reiciendis",
-  "Value": "quia",
-  "RecordId": 476,
-  "CreatedDate": "2004-10-31T11:22:38.3834434+01:00",
-  "UpdatedDate": "2021-02-26T11:22:38.3834434+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "labore",
-  "TableName": "Treutel, Parker and Gerhold",
+  "Key": "nostrum",
+  "Value": "omnis",
+  "RecordId": 667,
+  "CreatedDate": "2005-07-15T12:15:19.1577486+02:00",
+  "UpdatedDate": "2014-01-23T12:15:19.1577486+01:00",
+  "UpdatedBy": "fugiat",
+  "CreatedBy": "natus",
+  "TableName": "Oberbrunner-Schneider",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 520
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=628
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=739
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 722,
-  "CreatedAt": "2008-05-05T11:22:39.523803+02:00",
+  "TicketMessageId": 578,
+  "CreatedAt": "2016-03-30T12:15:20.4547316+02:00",
   "Slevel": "External",
-  "Important": true,
+  "Important": false,
   "Author": "vel",
-  "PersonId": 801,
-  "PersonFullName": "Gene Orie Witting III",
-  "ContactId": 397,
-  "ContactName": "Batz-Funk",
+  "PersonId": 179,
+  "PersonFullName": "Dessie Heidenreich",
+  "ContactId": 326,
+  "ContactName": "Bauch, Champlin and White",
   "ContactDepartment": "",
-  "NumAttachments": 747,
-  "EmailHeader": "kris@hilll.name",
+  "NumAttachments": 918,
+  "EmailHeader": "vincent.blanda@green.biz",
   "MessageHeaders": [
     {
-      "Id": 69,
-      "Name": "Lynch LLC",
-      "Value": "molestiae",
+      "Id": 699,
+      "Name": "Bergstrom, Osinski and Bartoletti",
+      "Value": "aspernatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -117,22 +117,22 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 491
         }
       }
     }
   ],
-  "Language": "nemo",
-  "Sentiment": 955,
-  "SentimentConfidence": 243,
-  "CreatedBy": 511,
-  "ChangedAt": "1998-07-24T11:22:39.523803+02:00",
+  "Language": "id",
+  "Sentiment": 692,
+  "SentimentConfidence": 569,
+  "CreatedBy": 283,
+  "ChangedAt": "2001-04-03T12:15:20.4547316+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 973
     }
   }
 }

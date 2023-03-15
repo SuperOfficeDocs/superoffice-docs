@@ -167,17 +167,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Greenholt-Turner",
-  "ProviderName": "Stanton Inc and Sons",
-  "SortOrder": "labore",
-  "Restriction": "iure",
-  "Entities": "debitis",
-  "Page": 68,
-  "PageSize": 135
+  "GuiName": "Lubowitz Group",
+  "ProviderName": "Brekke-McClure",
+  "SortOrder": "sunt",
+  "Restriction": "veritatis",
+  "Entities": "sapiente",
+  "Page": 701,
+  "PageSize": 814
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Weber-Johns",
-    "PrimaryKey": 368,
+    "EntityName": "Hyatt, Smith and Spinka",
+    "PrimaryKey": 492,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "asperiores",
-        "TooltipHint": "dolor",
-        "LinkHint": "nam"
+        "DisplayValue": "ut",
+        "TooltipHint": "tempora",
+        "LinkHint": "adipisci"
       }
     },
-    "LinkHint": "ratione",
-    "StyleHint": "ut",
+    "LinkHint": "rerum",
+    "StyleHint": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 366
       }
     }
   }

@@ -115,31 +115,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 414,
-  "PlainMessage": "laudantium",
-  "HtmlMessage": "aut",
-  "SmsMessage": "dolores",
-  "Description": "Reduced secondary flexibility",
-  "Subject": "dolorem",
-  "FolderId": 441,
-  "HeaderField": "hic",
-  "Design": "harum",
+  "ShipmentMessageId": 468,
+  "PlainMessage": "eos",
+  "HtmlMessage": "officiis",
+  "SmsMessage": "consequatur",
+  "Description": "Expanded maximized hardware",
+  "Subject": "consequuntur",
+  "FolderId": 797,
+  "HeaderField": "magni",
+  "Design": "amet",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Profound local synergy",
-  "AccessKey": "quas",
-  "DocumentMessage": 313,
-  "Registered": "2011-11-28T11:22:45.225579+01:00",
-  "RegisteredAssociateId": 741,
-  "Updated": "2000-01-19T11:22:45.225579+01:00",
-  "UpdatedAssociateId": 565,
-  "UpdatedCount": 236
+  "InlineImages": false,
+  "LongDescription": "Business-focused context-sensitive matrix",
+  "AccessKey": "quia",
+  "DocumentMessage": 671,
+  "Registered": "2001-09-22T12:15:27.3996295+02:00",
+  "RegisteredAssociateId": 27,
+  "Updated": "2011-09-03T12:15:27.3996295+02:00",
+  "UpdatedAssociateId": 249,
+  "UpdatedCount": 135
 }
 ```
 
@@ -150,33 +150,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 64,
-  "PlainMessage": "cupiditate",
-  "HtmlMessage": "impedit",
-  "SmsMessage": "tempore",
-  "Description": "Vision-oriented upward-trending productivity",
-  "Subject": "rerum",
-  "FolderId": 936,
-  "HeaderField": "vel",
-  "Design": "neque",
+  "ShipmentMessageId": 67,
+  "PlainMessage": "sapiente",
+  "HtmlMessage": "aut",
+  "SmsMessage": "earum",
+  "Description": "Reduced multi-state core",
+  "Subject": "optio",
+  "FolderId": 305,
+  "HeaderField": "totam",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Assimilated incremental moderator",
-  "AccessKey": "iste",
-  "DocumentMessage": 626,
-  "Registered": "2006-01-17T11:22:45.225579+01:00",
-  "RegisteredAssociateId": 330,
-  "Updated": "2018-09-24T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 86,
-  "UpdatedCount": 183,
+  "LongDescription": "Vision-oriented real-time algorithm",
+  "AccessKey": "in",
+  "DocumentMessage": 289,
+  "Registered": "2009-08-23T12:15:27.3996295+02:00",
+  "RegisteredAssociateId": 386,
+  "Updated": "2008-10-12T12:15:27.3996295+02:00",
+  "UpdatedAssociateId": 786,
+  "UpdatedCount": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 577
     }
   },
   "_Links": {

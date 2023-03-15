@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 112,
+  "SystemEventId": 906,
   "Scope": "Database",
-  "Eta": "2006-12-15T11:22:37.6023765+01:00",
-  "Eventkey": "voluptatem",
-  "Eventmess": "eum",
-  "ExtraInfo": 494,
-  "Owner": 69,
-  "UpdatedCount": 345,
-  "Registered": "2007-07-22T11:22:37.6023765+02:00",
+  "Eta": "2002-06-04T12:15:18.4187643+02:00",
+  "Eventkey": "eligendi",
+  "Eventmess": "cum",
+  "ExtraInfo": 883,
+  "Owner": 467,
+  "UpdatedCount": 4,
+  "Registered": "2001-11-14T12:15:18.4187643+01:00",
   "ActivatedBy": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 905,
+  "SystemEventId": 592,
   "Scope": "Database",
-  "Eta": "2002-12-25T11:22:37.6023765+01:00",
-  "Eventkey": "quod",
-  "Eventmess": "nostrum",
-  "ExtraInfo": 147,
-  "Owner": 64,
-  "UpdatedCount": 433,
-  "Registered": "2018-10-10T11:22:37.6023765+02:00",
+  "Eta": "1996-02-29T12:15:18.4197621+01:00",
+  "Eventkey": "rem",
+  "Eventmess": "earum",
+  "ExtraInfo": 836,
+  "Owner": 551,
+  "UpdatedCount": 49,
+  "Registered": "1996-01-12T12:15:18.4197621+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldType": "System.Int32",
+      "FieldLength": 886
     }
   }
 }

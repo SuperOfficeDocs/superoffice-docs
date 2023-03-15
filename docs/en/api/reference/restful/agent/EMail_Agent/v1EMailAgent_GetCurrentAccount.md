@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 103,
-  "EMailAddress": "perferendis",
-  "AssociateId": 166,
+  "EMailAccountId": 711,
+  "EMailAddress": "iusto",
+  "AssociateId": 178,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 261,
-  "ErrorCount": 328,
+  "AccountStatus": 317,
+  "ErrorCount": 569,
   "ErrorReason": "",
-  "InboxFolder": "aliquid",
-  "SentFolder": "est",
+  "InboxFolder": "iusto",
+  "SentFolder": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 561
     }
   }
 }

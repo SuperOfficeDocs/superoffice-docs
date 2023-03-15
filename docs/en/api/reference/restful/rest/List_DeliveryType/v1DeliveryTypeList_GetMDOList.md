@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=et
+GET /api/v1/List/DeliveryType/MDOItems?query=exercitationem
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Leannon, Simonis and Hickle",
-    "ToolTip": "Sint omnis.",
+    "Id": 296,
+    "Name": "Hyatt Group",
+    "ToolTip": "Dolores amet dolor consequatur ducimus aperiam non quas.",
     "Deleted": true,
-    "Rank": 796,
-    "Type": "hic",
+    "Rank": 453,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 379,
-        "Name": "Nienow Inc and Sons",
-        "ToolTip": "Cupiditate voluptatem voluptatem dolore rerum occaecati.",
-        "Deleted": false,
-        "Rank": 142,
-        "Type": "et",
+        "Id": 758,
+        "Name": "Jerde-Bins",
+        "ToolTip": "Quo eaque rem.",
+        "Deleted": true,
+        "Rank": 43,
+        "Type": "ullam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 472,
-        "ExtraInfo": "quis",
-        "StyleHint": "cum",
-        "FullName": "Prof. Ignatius Marion Kihn",
+        "IconHint": "sed",
+        "ColorBlock": 222,
+        "ExtraInfo": "sit",
+        "StyleHint": "mollitia",
+        "FullName": "Dr. Luther Desiree Kunze V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldType": "System.String",
+            "FieldLength": 90
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 362,
-    "ExtraInfo": "harum",
-    "StyleHint": "sed",
-    "FullName": "Vanessa Cummings",
+    "IconHint": "harum",
+    "ColorBlock": 840,
+    "ExtraInfo": "et",
+    "StyleHint": "rerum",
+    "FullName": "Mrs. Raul Konopelski II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 591
       }
     }
   }

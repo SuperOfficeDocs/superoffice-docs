@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Pfannerstill-Funk",
-  "ListItemId": 60
+  "UdListDefinitionName": "Wisozk-Vandervort",
+  "ListItemId": 728
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Schumm, Nicolas and Stanton",
-    "ToolTip": "Dolores recusandae possimus asperiores sit ea repellat ut.",
-    "Deleted": true,
-    "Rank": 840,
-    "Type": "ducimus",
-    "ColorBlock": 72,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2014-02-27T11:22:38.4615502+01:00",
+    "Id": 523,
+    "Name": "Herzog, Rohan and Reynolds",
+    "ToolTip": "Earum nisi.",
+    "Deleted": false,
+    "Rank": 869,
+    "Type": "molestiae",
+    "ColorBlock": 659,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2017-04-09T12:15:19.2467479+02:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Bailey-Koss",
-        "ToolTip": "Harum est impedit esse culpa.",
-        "Deleted": true,
-        "Rank": 880,
-        "Type": "delectus",
-        "ColorBlock": 941,
-        "IconHint": "omnis",
+        "Id": 635,
+        "Name": "Dare-Jacobson",
+        "ToolTip": "Aut nisi voluptatum.",
+        "Deleted": false,
+        "Rank": 401,
+        "Type": "voluptatibus",
+        "ColorBlock": 558,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2000-06-14T11:22:38.4615502+02:00",
+        "LastChanged": "1997-05-17T12:15:19.2467479+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Erin Pfannerstill Sr.",
+        "ExtraInfo": "qui",
+        "StyleHint": "laboriosam",
+        "Hidden": true,
+        "FullName": "Prof. Marian Eugenia Walsh IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldType": "System.String",
+            "FieldLength": 551
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "aut",
+    "ExtraInfo": "minus",
+    "StyleHint": "nemo",
     "Hidden": true,
-    "FullName": "Dr. Sonny Adeline Lindgren II",
+    "FullName": "Miss Hulda Kylie Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

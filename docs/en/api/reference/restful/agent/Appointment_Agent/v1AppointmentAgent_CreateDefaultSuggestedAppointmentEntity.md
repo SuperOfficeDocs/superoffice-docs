@@ -79,17 +79,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 839,
-  "Name": "Lubowitz-Funk",
-  "Tooltip": "autem",
-  "Rank": 598,
-  "Deleted": false,
-  "DaysFuture": 682,
-  "Duration": "nihil",
+  "SuggestedAppointmentId": 917,
+  "Name": "Boyer, Gerhold and Bayer",
+  "Tooltip": "mollitia",
+  "Rank": 506,
+  "Deleted": true,
+  "DaysFuture": 978,
+  "Duration": "cupiditate",
   "AutoSuggest": false,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "illum",
+  "Text": "alias",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 778
     }
   }
 }

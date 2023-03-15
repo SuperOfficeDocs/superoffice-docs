@@ -79,7 +79,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "laborum"
+  "Text": "ut"
 }
 ```
 
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 976,
-  "Confidence": 156,
+  "Score": 883,
+  "Confidence": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldLength": 411
     }
   }
 }

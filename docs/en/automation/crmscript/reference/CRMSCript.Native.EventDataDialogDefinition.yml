@@ -10,6 +10,12 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.#ctor
   - CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addCheckbox(String,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addDate(String,String)
+  - CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date)
+  - CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String)
+  - CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime)
+  - CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime,String,Bool)
   - CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float)
   - CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
@@ -25,6 +31,13 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
+  - CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time)
+  - CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String)
+  - CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer)
+  - CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool,Bool,Bool,Bool,Bool,Bool)
   - CRMScript.Native.EventDataDialogDefinition.getBlockExecutionOnCancel()
   - CRMScript.Native.EventDataDialogDefinition.getHeight()
   - CRMScript.Native.EventDataDialogDefinition.getIcon()
@@ -42,6 +55,7 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.setTitle(String)
   - CRMScript.Native.EventDataDialogDefinition.setType(String)
   - CRMScript.Native.EventDataDialogDefinition.setWidth(Integer)
+  - CRMScript.Native.EventDataDialogDefinition.toJSONString()
   name: EventDataDialogDefinition
   nameWithType: EventDataDialogDefinition
   fullName: CRMScript.Native.EventDataDialogDefinition
@@ -119,6 +133,186 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>EventDataDialogDefinition def;\ndef.addCheckbox(&quot;checkme&quot;, &quot;My checkbox&quot;,true);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addDate(String,String)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addDate(String,String)
+  id: 'addDate(String,String)'
+  so.intellisense: EventDataDialogDefinition.addDate
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addDate(String,String)
+  nameWithType: EventDataDialogDefinition.addDate(String,String)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addDate(String,String)
+  type: Method
+  summary: "\nAdds a Date field with given label.\n"
+  remarks: 
+  syntax: 
+    content: Void addDate(String id, String label)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addDate(&quot;date&quot;, &quot;My date&quot;);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date)
+  id: 'addDate(String,String,Date)'
+  so.intellisense: EventDataDialogDefinition.addDate
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addDate(String,String,Date)
+  nameWithType: EventDataDialogDefinition.addDate(String,String,Date)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date)
+  type: Method
+  summary: "\nAdds a Date field with given label and a default value.\n"
+  remarks: 
+  syntax: 
+    content: Void addDate(String id, String label, Date default)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.Date
+      description: "Default value for field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nDate date;\ndef.addDate(&quot;date&quot;, &quot;My date&quot;,date);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date,String,Bool)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date,String,Bool)
+  id: 'addDate(String,String,Date,String,Bool)'
+  so.intellisense: EventDataDialogDefinition.addDate
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addDate(String,String,Date,String,Bool)
+  nameWithType: EventDataDialogDefinition.addDate(String,String,Date,String,Bool)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addDate(String,String,Date,String,Bool)
+  type: Method
+  summary: "\nAdds a Date field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
+  remarks: 
+  syntax: 
+    content: Void addDate(String id, String label, Date default, String placeholder, Bool mandatory)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.Date
+      description: "Default value for field."
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text."
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nDate date;\ndef.addDate(&quot;date&quot;, &quot;My date&quot;,date, &quot;Input date&quot;, true);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String)
+  id: 'addDateTime(String,String)'
+  so.intellisense: EventDataDialogDefinition.addDateTime
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addDateTime(String,String)
+  nameWithType: EventDataDialogDefinition.addDateTime(String,String)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String)
+  type: Method
+  summary: "\nAdds a DateTime field with given label.\n"
+  remarks: 
+  syntax: 
+    content: Void addDateTime(String id, String label)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addDateTime(&quot;datetime&quot;, &quot;My datetime&quot;);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime)
+  id: 'addDateTime(String,String,DateTime)'
+  so.intellisense: EventDataDialogDefinition.addDateTime
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addDateTime(String,String,DateTime)
+  nameWithType: EventDataDialogDefinition.addDateTime(String,String,DateTime)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime)
+  type: Method
+  summary: "\nAdds a DateTime field with given label and a default value.\n"
+  remarks: 
+  syntax: 
+    content: Void addDateTime(String id, String label, DateTime default)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.DateTime
+      description: "Default value for field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nDateTime now;\ndef.addDateTime(&quot;datetime&quot;, &quot;My datetime&quot;,now);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime,String,Bool)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime,String,Bool)
+  id: 'addDateTime(String,String,DateTime,String,Bool)'
+  so.intellisense: EventDataDialogDefinition.addDateTime
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addDateTime(String,String,DateTime,String,Bool)
+  nameWithType: EventDataDialogDefinition.addDateTime(String,String,DateTime,String,Bool)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime,String,Bool)
+  type: Method
+  summary: "\nAdds a DateTime field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
+  remarks: 
+  syntax: 
+    content: Void addDateTime(String id, String label, DateTime default, String placeholder, Bool mandatory)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.DateTime
+      description: "Default value for field."
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text."
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nDateTime now;\ndef.addDateTime(&quot;datetime&quot;, &quot;My datetime&quot;,now, &quot;Input datetime&quot;, true);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   id: 'addFloat(String,String)'
@@ -596,6 +790,236 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;, &quot;Type something&quot;, false);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
+  id: 'addTime(String,String)'
+  so.intellisense: EventDataDialogDefinition.addTime
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addTime(String,String)
+  nameWithType: EventDataDialogDefinition.addTime(String,String)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
+  type: Method
+  summary: "\nAdds a Time field with given label.\n"
+  remarks: 
+  syntax: 
+    content: Void addTime(String id, String label)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addTime(&quot;time&quot;, &quot;My time&quot;);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time)
+  id: 'addTime(String,String,Time)'
+  so.intellisense: EventDataDialogDefinition.addTime
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addTime(String,String,Time)
+  nameWithType: EventDataDialogDefinition.addTime(String,String,Time)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time)
+  type: Method
+  summary: "\nAdds a Time field with given label and a default value.\n"
+  remarks: 
+  syntax: 
+    content: Void addTime(String id, String label, Time default)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.Time
+      description: "Default value for field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nTime now;\ndef.addTime(&quot;time&quot;, &quot;My time&quot;,now);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time,String,Bool)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time,String,Bool)
+  id: 'addTime(String,String,Time,String,Bool)'
+  so.intellisense: EventDataDialogDefinition.addTime
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addTime(String,String,Time,String,Bool)
+  nameWithType: EventDataDialogDefinition.addTime(String,String,Time,String,Bool)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time,String,Bool)
+  type: Method
+  summary: "\nAdds a Time field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
+  remarks: 
+  syntax: 
+    content: Void addTime(String id, String label, Time default, String placeholder, Bool mandatory)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.Time
+      description: "Default value for field."
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text."
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nTime now;\ndef.addTime(&quot;time&quot;, &quot;My time&quot;,now, &quot;Input time&quot;, true);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String)
+  id: 'addTimeSpan(String,String)'
+  so.intellisense: EventDataDialogDefinition.addTimeSpan
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addTimeSpan(String,String)
+  nameWithType: EventDataDialogDefinition.addTimeSpan(String,String)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String)
+  type: Method
+  summary: "\nAdds a TimeSpan field with given label.\n"
+  remarks: 
+  syntax: 
+    content: Void addTimeSpan(String id, String label)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addTimeSpan(&quot;timespane&quot;, &quot;My timespan&quot;);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer)
+  id: 'addTimeSpan(String,String,Integer)'
+  so.intellisense: EventDataDialogDefinition.addTimeSpan
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addTimeSpan(String,String,Integer)
+  nameWithType: EventDataDialogDefinition.addTimeSpan(String,String,Integer)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer)
+  type: Method
+  summary: "\nAdds a TimeSpan field with given label and a default value.\n"
+  remarks: 
+  syntax: 
+    content: Void addTimeSpan(String id, String label, Integer default)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.Integer
+      description: "Default value for field."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nInteger default = 100;\ndef.addTimeSpan(&quot;timespan&quot;, &quot;My timespan&quot;, default);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool)
+  id: 'addTimeSpan(String,String,Integer,String,Bool)'
+  so.intellisense: EventDataDialogDefinition.addTimeSpan
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addTimeSpan(String,String,Integer,String,Bool)
+  nameWithType: EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool)
+  type: Method
+  summary: "\nAdds a TimeSpane field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
+  remarks: 
+  syntax: 
+    content: Void addTimeSpan(String id, String label, Integer default, String placeholder, Bool mandatory)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.Integer
+      description: "Default value for field."
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text."
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nInteger default = 100;\ndef.addTimeSpan(&quot;timespan&quot;, &quot;My timespan&quot;,default, &quot;Input timespan&quot;, true);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool,Bool,Bool,Bool,Bool,Bool)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool,Bool,Bool,Bool,Bool,Bool)
+  id: 'addTimeSpan(String,String,Integer,String,Bool,Bool,Bool,Bool,Bool,Bool)'
+  so.intellisense: EventDataDialogDefinition.addTimeSpan
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: addTimeSpan(String,String,Integer,String,Bool,Bool,Bool,Bool,Bool,Bool)
+  nameWithType: EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool,Bool,Bool,Bool,Bool,Bool)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool,Bool,Bool,Bool,Bool,Bool)
+  type: Method
+  summary: "\nAdds a TimeSpan field with given label, default value, placeholder text and which units to display. Possible to set field as mandatory.\n"
+  remarks: 
+  syntax: 
+    content: Void addTimeSpan(String id, String label, Integer default, String placeholder, Bool mandatory, Bool allowBlank, Bool days, Bool hours, Bool minutes, Bool seconds)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: default
+      type: CRMScript.Global.Integer
+      description: "Default value for field."
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text."
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
+    - id: allowBlank
+      type: CRMScript.Global.Bool
+      description: "Allowing field to be empty instead of 0."
+    - id: days
+      type: CRMScript.Global.Bool
+      description: "Field displays days."
+    - id: hours
+      type: CRMScript.Global.Bool
+      description: "Field displays hours."
+    - id: minutes
+      type: CRMScript.Global.Bool
+      description: "Field displays minutes."
+    - id: seconds
+      type: CRMScript.Global.Bool
+      description: "Field displays seconds."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nInteger default = 100;\ndef.addTimeSpan(&quot;timespan&quot;, &quot;My timespan&quot;,default, &quot;Input timespan&quot;, true,true,false,true,true,false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.removeField(String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.removeField(String)
   id: 'removeField(String)'
@@ -969,6 +1393,27 @@ items:
       description:
   example: 
   - "\n<pre><code>EventDataDialogDefinition def;\ndef.setWidth(200);\n</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.toJSONString()
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.toJSONString()
+  id: 'toJSONString()'
+  so.intellisense: EventDataDialogDefinition.toJSONString
+  so.version: 10.2.3
+  langs:
+  - crmscript
+  name: toJSONString()
+  nameWithType: EventDataDialogDefinition.toJSONString()
+  fullName: CRMScript.Native.EventDataDialogDefinition.toJSONString()
+  type: Method
+  summary: "\nReturns EventDataDialogDefinition as a JSON string.\n"
+  remarks: 
+  syntax: 
+    content: String toJSONString()
+    parameters:
+    return:
+      type: CRMScript.Global.String
+      description: "Returns object as a JSON string."
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addCheckbox(&quot;checkbox_1&quot;, &quot;Checkbox 1&quot;);\ndef.addCheckbox(&quot;checkbox_2&quot;, &quot;Checkbox 2&quot;, true);\ndef.addText(&quot;text_1&quot;, &quot;Text 1&quot;, &quot;Default&quot;, &quot;Placeholder&quot;, true);\ndef.addList(&quot;list_1&quot;, &quot;List 1&quot;, &quot;personList&quot;, 42);\nprint(def.toJSONString());\n</code></pre>\n"
 references:
 - uid: CRMScript.Native.EventDataDialogDefinition
   commentId: T:CRMScript.Native.EventDataDialogDefinition
@@ -1012,3 +1457,21 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Date
+  commentId: T:CRMScript.Global.Date
+  isExternal: true
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.Global.Date
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.Global.Time
+  commentId: T:CRMScript.Global.Time
+  isExternal: true
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.Global.Time

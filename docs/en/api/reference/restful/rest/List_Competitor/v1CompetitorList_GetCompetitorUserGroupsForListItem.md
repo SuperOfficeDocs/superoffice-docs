@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Corkery, Schuppe and Gottlieb",
-    "ToolTip": "Fugiat perspiciatis sunt quidem nihil et delectus.",
+    "Id": 541,
+    "Name": "Feil LLC",
+    "ToolTip": "Velit eum aliquam similique quas eos.",
     "Deleted": true,
-    "Rank": 292,
-    "Type": "odit",
-    "ColorBlock": 195,
-    "IconHint": "unde",
+    "Rank": 613,
+    "Type": "minus",
+    "ColorBlock": 52,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2013-08-10T11:22:45.803528+02:00",
+    "LastChanged": "2017-02-01T12:15:27.9066255+01:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Davis, Wisozk and Lowe",
-        "ToolTip": "Unde expedita eum est earum vitae.",
+        "Id": 731,
+        "Name": "Sanford, Hackett and Larkin",
+        "ToolTip": "Corrupti sint atque voluptatem nam et earum et.",
         "Deleted": false,
-        "Rank": 331,
-        "Type": "hic",
-        "ColorBlock": 886,
-        "IconHint": "animi",
+        "Rank": 399,
+        "Type": "nostrum",
+        "ColorBlock": 37,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2010-07-05T11:22:45.803528+02:00",
+        "LastChanged": "2009-10-12T12:15:27.9076217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "architecto",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Zakary Strosin",
+        "FullName": "Malika Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldType": "System.String",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Prof. Naomi Elwin Harvey V",
+    "ExtraInfo": "animi",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Christa Javonte Lemke DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

@@ -91,33 +91,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 471,
-  "Name": "Powlowski-Swaniawski",
-  "Tooltip": "nihil",
+  "WebPanelId": 827,
+  "Name": "Collins, Boehm and Ledner",
+  "Tooltip": "saepe",
   "Deleted": true,
-  "Rank": 54,
+  "Rank": 349,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Bode, Waters and Kunze",
+  "ShowInStatusBar": false,
+  "WindowName": "Goodwin-Upton",
   "Url": "http://www.example.com/",
-  "ProgId": "perferendis",
-  "Icon": 324,
+  "ProgId": "in",
+  "Icon": 712,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldType": "System.String",
+      "FieldLength": 412
     }
   }
 }

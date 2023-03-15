@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "repellendus",
+  "ProgId": "iure",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 726,
-  "ColumnId": 195,
-  "FieldDefault": "ipsam",
-  "FieldHeight": 784,
-  "FieldLabel": "culpa",
-  "FieldLeft": 543,
-  "FieldTop": 173,
+  "UDefFieldId": 784,
+  "ColumnId": 441,
+  "FieldDefault": "est",
+  "FieldHeight": 745,
+  "FieldLabel": "illo",
+  "FieldLeft": 868,
+  "FieldTop": 974,
   "FieldType": "Checkbox",
-  "FieldWidth": 956,
-  "FormatMask": "quia",
+  "FieldWidth": 509,
+  "FormatMask": "consequatur",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 973,
-  "LabelLeft": 160,
-  "LabelTop": 487,
-  "LabelWidth": 332,
-  "LastVersionId": 910,
-  "ListTableId": 794,
+  "IsIndexed": false,
+  "LabelHeight": 864,
+  "LabelLeft": 104,
+  "LabelTop": 980,
+  "LabelWidth": 839,
+  "LastVersionId": 542,
+  "ListTableId": 69,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 811,
-  "ProgId": "cum",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptate",
-  "TabOrder": 720,
-  "TextLength": 961,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 587,
-  "UDListDefinitionId": 489,
+  "Page1LineNo": 312,
+  "ProgId": "sunt",
+  "IsReadOnly": false,
+  "ShortLabel": "vel",
+  "TabOrder": 607,
+  "TextLength": 688,
+  "Tooltip": "ad",
+  "UdefIdentity": 261,
+  "UDListDefinitionId": 311,
   "Justification": "Center",
-  "Version": 589,
-  "TemplateVariableName": "Tillman-Stroman",
+  "Version": 982,
+  "TemplateVariableName": "Murazik Group",
   "HasBeenPublished": false,
-  "MdoListName": "Howe, Moore and Russel",
+  "MdoListName": "Williamson-Spencer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 735
     }
   }
 }

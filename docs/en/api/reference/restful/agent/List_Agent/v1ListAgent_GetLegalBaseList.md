@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 471,
-    "Name": "Brekke Group",
-    "Tooltip": "voluptate",
-    "Rank": 476,
-    "Key": "aut",
-    "Deleted": false,
+    "LegalBaseId": 603,
+    "Name": "Gutmann, Dickens and Pouros",
+    "Tooltip": "officia",
+    "Rank": 758,
+    "Key": "qui",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 673
+        "FieldType": "System.String",
+        "FieldLength": 867
       }
     }
   }

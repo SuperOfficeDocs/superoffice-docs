@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Waters-Denesik",
-  "Tooltip": "ipsa",
+  "Id": 943,
+  "Name": "Towne, Langosh and Wehner",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 296,
-  "IsCustomList": false,
+  "Rank": 929,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "ListType": "dolorum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,16 +107,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446,
-  "Name": "Mitchell, Schaden and Bailey",
-  "Tooltip": "ad",
-  "Deleted": true,
-  "Rank": 535,
+  "Id": 95,
+  "Name": "Corwin, Bailey and Klein",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "Rank": 728,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "provident",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {

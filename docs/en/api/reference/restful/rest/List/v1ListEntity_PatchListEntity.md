@@ -116,18 +116,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nobis",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nobis",
+    "path": "non",
     "value": {}
   }
 ]
@@ -140,27 +140,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 390,
-  "Name": "Medhurst Group",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 25,
+  "Id": 980,
+  "Name": "Predovic-Berge",
+  "Tooltip": "veritatis",
+  "Deleted": false,
+  "Rank": 42,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 48
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

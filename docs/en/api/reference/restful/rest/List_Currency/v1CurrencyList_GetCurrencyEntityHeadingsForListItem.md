@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 538,
-    "Name": "Grimes, Toy and Kirlin",
-    "ToolTip": "Nam qui ab.",
-    "Deleted": false,
-    "Rank": 43,
-    "Type": "sed",
-    "ColorBlock": 601,
-    "IconHint": "velit",
+    "Id": 851,
+    "Name": "Walsh-Reichert",
+    "ToolTip": "Voluptate officiis molestiae voluptatem autem qui sit.",
+    "Deleted": true,
+    "Rank": 572,
+    "Type": "in",
+    "ColorBlock": 857,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2011-11-03T11:22:45.8816758+01:00",
+    "LastChanged": "2004-03-09T12:15:28.0996189+01:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Hickle-Harvey",
-        "ToolTip": "Dolores facere sint enim fugit rerum enim.",
-        "Deleted": false,
-        "Rank": 943,
-        "Type": "corrupti",
-        "ColorBlock": 938,
-        "IconHint": "praesentium",
+        "Id": 908,
+        "Name": "Dickinson-Murray",
+        "ToolTip": "Dolorem blanditiis et.",
+        "Deleted": true,
+        "Rank": 11,
+        "Type": "labore",
+        "ColorBlock": 694,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2013-02-03T11:22:45.8816758+01:00",
+        "LastChanged": "2015-12-15T12:15:28.1006188+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Bryon Bernhard III",
+        "ExtraInfo": "dolor",
+        "StyleHint": "natus",
+        "Hidden": true,
+        "FullName": "Rusty Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 414
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "officia",
+    "ExtraInfo": "animi",
+    "StyleHint": "mollitia",
     "Hidden": false,
-    "FullName": "Lowell Rempel",
+    "FullName": "Noemie Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 828
       }
     }
   }

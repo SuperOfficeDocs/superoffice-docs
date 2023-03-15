@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 309,
+  "CustConfigId": 612,
   "Type": "Options",
-  "Config": "tenetur",
-  "CustLangId": 915,
-  "Registered": "2005-02-18T11:22:37.7898385+01:00",
-  "RegisteredAssociateId": 392,
-  "Updated": "2018-10-23T11:22:37.7898385+02:00",
-  "UpdatedAssociateId": 748,
+  "Config": "in",
+  "CustLangId": 118,
+  "Registered": "2001-11-08T12:15:18.6367566+01:00",
+  "RegisteredAssociateId": 855,
+  "Updated": "2015-12-02T12:15:18.6367566+01:00",
+  "UpdatedAssociateId": 155,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 735
     }
   }
 }

@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 426,
-  "AttachmentId": "sunt",
-  "AttachmentType": "sed",
-  "AttachmentFilename": "et"
+  "MailItemId": 447,
+  "AttachmentId": "dolorem",
+  "AttachmentType": "reprehenderit",
+  "AttachmentFilename": "voluptatem"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-source eco-centric open system",
-  "Filename": "animi",
-  "Size": 36,
-  "Type": "voluptatem",
-  "Encoding": "totam",
-  "Id": "id",
-  "Disposition": "qui",
+  "Description": "Integrated intangible installation",
+  "Filename": "vel",
+  "Size": 356,
+  "Type": "quaerat",
+  "Encoding": "beatae",
+  "Id": "officia",
+  "Disposition": "culpa",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 352
+      "FieldLength": 836
     }
   }
 }

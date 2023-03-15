@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Cormier LLC",
-    "ToolTip": "Sed minus.",
+    "Id": 601,
+    "Name": "Lebsack, Spencer and Heathcote",
+    "ToolTip": "Explicabo facilis autem autem velit omnis omnis et.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "sunt",
-    "ColorBlock": 859,
-    "IconHint": "esse",
+    "Rank": 792,
+    "Type": "voluptas",
+    "ColorBlock": 138,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2001-11-24T11:22:46.0222797+01:00",
+    "LastChanged": "2002-04-30T12:15:28.2876167+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Gaylord, Jacobi and Kohler",
-        "ToolTip": "Dolorum molestiae non culpa libero facilis.",
-        "Deleted": false,
-        "Rank": 980,
-        "Type": "magnam",
-        "ColorBlock": 274,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2007-07-09T11:22:46.0222797+02:00",
+        "Id": 244,
+        "Name": "Hansen, Treutel and Daniel",
+        "ToolTip": "Aut saepe illum nam repellat mollitia.",
+        "Deleted": true,
+        "Rank": 67,
+        "Type": "voluptatibus",
+        "ColorBlock": 710,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "1997-02-17T12:15:28.2876167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Miss Merle Carmella Ward"
+        "ExtraInfo": "placeat",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Dr. Elouise Queenie Botsford PhD"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Ms. Unique Macey Marquardt I"
+    "ExtraInfo": "explicabo",
+    "StyleHint": "incidunt",
+    "Hidden": false,
+    "FullName": "Dorothea Greenholt"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Schowalter Inc and Sons",
-    "ToolTip": "Porro fuga corporis.",
-    "Deleted": false,
-    "Rank": 593,
-    "Type": "ab",
-    "ColorBlock": 155,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2021-03-13T11:22:46.0222797+01:00",
+    "Id": 131,
+    "Name": "Bednar, Howell and Homenick",
+    "ToolTip": "Unde quisquam explicabo dolores qui eos.",
+    "Deleted": true,
+    "Rank": 892,
+    "Type": "et",
+    "ColorBlock": 287,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2020-04-28T12:15:28.288617+02:00",
     "ChildItems": [
       {
-        "Id": 804,
-        "Name": "Braun, Mraz and Blick",
-        "ToolTip": "Dolore qui voluptatem nihil veniam hic officia.",
-        "Deleted": false,
-        "Rank": 284,
-        "Type": "quia",
-        "ColorBlock": 192,
-        "IconHint": "tempora",
+        "Id": 523,
+        "Name": "Brown, McLaughlin and Beier",
+        "ToolTip": "At quia est necessitatibus voluptas quia unde natus.",
+        "Deleted": true,
+        "Rank": 520,
+        "Type": "voluptas",
+        "ColorBlock": 92,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "1998-08-22T11:22:46.0222797+02:00",
+        "LastChanged": "2005-01-03T12:15:28.288617+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Dr. Lenna Rico Dicki DVM",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Marquise McKenzie Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "maxime",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Prof. Deborah Lesch Jr.",
+    "FullName": "Columbus Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldLength": 798
       }
     }
   }

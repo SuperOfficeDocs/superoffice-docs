@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 486,
-  "StartTime": "2018-02-03T11:22:37.2274146+01:00",
-  "EndTime": "2016-05-02T11:22:37.2274146+02:00",
-  "Count": 183,
+  "ProjectId": 441,
+  "StartTime": "2010-09-16T12:15:18.1367704+02:00",
+  "EndTime": "2017-06-05T12:15:18.1367704+02:00",
+  "Count": 999,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 854,
-    "StartDate": "2009-01-01T11:22:37.2274146+01:00",
-    "EndDate": "2012-04-27T11:22:37.2274146+02:00",
+    "AppointmentId": 764,
+    "StartDate": "2013-02-24T12:15:18.1387637+01:00",
+    "EndDate": "1996-01-03T12:15:18.1387637+01:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Ford Hettie Mitchell DVM",
-    "ContactName": "Gusikowski Inc and Sons",
-    "Description": "Compatible well-modulated ability",
-    "PersonFullName": "Saul Cormier",
-    "PersonId": 866,
-    "ContactId": 47,
-    "ProjectId": 969,
-    "ProjectName": "Jakubowski LLC",
+    "Task": "tempora",
+    "AssociateFullName": "Mr. Zelda Corwin",
+    "ContactName": "Koch, Balistreri and Hane",
+    "Description": "Pre-emptive modular Graphic Interface",
+    "PersonFullName": "Ms. Claudine Ward DVM",
+    "PersonId": 554,
+    "ContactId": 279,
+    "ProjectId": 49,
+    "ProjectName": "Hills Group",
     "IsPublished": true,
-    "AssociateId": 997,
-    "ColorIndex": 534,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "AssociateId": 599,
+    "ColorIndex": 620,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 892,
-    "PriorityName": "Leannon-Jacobs",
+    "PriorityId": 157,
+    "PriorityName": "Turcotte LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2000-07-29T11:22:37.2274146+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2018-12-21T12:15:18.1387637+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-02-05T11:22:37.2274146+01:00",
-    "RecurringEndDate": "2014-05-03T11:22:37.2274146+02:00",
-    "MotherId": 562,
-    "AssignedBy": 464,
-    "AssignedByFullName": "Drake Goodwin",
+    "RecurringStartDate": "2010-04-01T12:15:18.1387637+02:00",
+    "RecurringEndDate": "2009-09-29T12:15:18.1387637+02:00",
+    "MotherId": 661,
+    "AssignedBy": 793,
+    "AssignedByFullName": "Kelsie Lemke PhD",
     "RejectReason": "",
-    "Location": "totam",
-    "AlarmLeadTime": "et",
-    "SaleId": 840,
-    "SaleName": "Quigley, Anderson and Bayer",
-    "AssociateName": "Harber, Effertz and Considine",
-    "CreatedDate": "2021-05-09T11:22:37.2274146+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Rosemary Cara Hessel V",
-    "CreatedByAssociateId": 194,
+    "Location": "quod",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 193,
+    "SaleName": "Beer-Hyatt",
+    "AssociateName": "Runolfsson, Auer and Kunde",
+    "CreatedDate": "1999-09-02T12:15:18.1387637+02:00",
+    "CreatedBy": "at",
+    "CreatedByFullName": "Juwan Sawayn Sr.",
+    "CreatedByAssociateId": 80,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 812
+        "FieldType": "System.String",
+        "FieldLength": 844
       }
     }
   }

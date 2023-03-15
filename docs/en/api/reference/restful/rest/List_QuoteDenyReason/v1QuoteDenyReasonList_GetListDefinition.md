@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 396,
-  "Name": "Mann Inc and Sons",
-  "Tooltip": "amet",
+  "Id": 618,
+  "Name": "Kreiger LLC",
+  "Tooltip": "corporis",
   "Deleted": true,
-  "Rank": 224,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "exercitationem",
-  "InUseByUserDefinedFields": true,
+  "Rank": 203,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "possimus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   },
   "_Links": {

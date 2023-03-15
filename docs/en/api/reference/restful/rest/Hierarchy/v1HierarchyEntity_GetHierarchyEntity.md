@@ -81,7 +81,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,46 +91,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 665,
+  "HierarchyId": 72,
   "Domain": "Dashboards",
-  "Name": "Jacobs-Jewess",
-  "Fullname": "sint",
-  "ParentId": 557,
+  "Name": "Schumm, Erdman and Emard",
+  "Fullname": "et",
+  "ParentId": 758,
   "Children": [
     {
-      "HierarchyId": 238,
+      "HierarchyId": 658,
       "Domain": "Dashboards",
-      "Name": "Howe, Robel and Schamberger",
-      "Fullname": "assumenda",
-      "ParentId": 182,
+      "Name": "Dickinson, Aufderhar and Hickle",
+      "Fullname": "placeat",
+      "ParentId": 306,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-04-23T11:22:44.8818691+02:00",
-      "RegisteredAssociateId": 829,
-      "Updated": "1999-11-01T11:22:44.8818691+01:00",
-      "UpdatedAssociateId": 445,
+      "Registered": "2008-10-21T12:15:26.9826351+02:00",
+      "RegisteredAssociateId": 397,
+      "Updated": "1999-11-07T12:15:26.9826351+01:00",
+      "UpdatedAssociateId": 282,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldLength": 466
         }
       }
     }
   ],
-  "Registered": "2022-07-20T11:22:44.8818691+02:00",
-  "RegisteredAssociateId": 837,
-  "Updated": "2022-08-18T11:22:44.8818691+02:00",
-  "UpdatedAssociateId": 911,
+  "Registered": "2013-05-31T12:15:26.9826351+02:00",
+  "RegisteredAssociateId": 942,
+  "Updated": "2007-04-07T12:15:26.9826351+02:00",
+  "UpdatedAssociateId": 275,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 658
     }
   },
   "_Links": {

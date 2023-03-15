@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,29 +106,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 354,
-  "TopicId": 836,
+  "ChatSessionId": 527,
+  "TopicId": 99,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "rem",
-  "CustomerName": "Heaney LLC",
-  "CustomerEmail": "shyanne@prohaska.biz",
-  "CustomerPhone": "152.156.9807",
+  "CustomerAlias": "impedit",
+  "CustomerHost": "molestiae",
+  "CustomerName": "Rutherford LLC",
+  "CustomerEmail": "domenick_morar@moenhartmann.biz",
+  "CustomerPhone": "1-856-562-1533 x75767",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kilback-Schultz",
+  "CustomerCompanyName": "Eichmann, Pfannerstill and Schumm",
   "Status": "Closed",
-  "FirstMessage": "sapiente",
-  "LastMessage": "harum",
-  "WhenRequested": "2009-02-27T11:22:37.5711376+01:00",
-  "WhenStarted": "2011-03-09T11:22:37.5711376+01:00",
-  "WhenEnded": "2006-10-07T11:22:37.5711376+02:00",
-  "WhenIdle": "2017-09-01T11:22:37.5711376+02:00",
-  "WhenFetched": "2015-09-20T11:22:37.5711376+02:00",
-  "SessionKey": "eaque",
-  "InitialQueuePos": 776,
-  "AlertLevel": 555,
-  "Rank": 745,
+  "FirstMessage": "voluptatum",
+  "LastMessage": "iure",
+  "WhenRequested": "2006-12-02T12:15:18.3627624+01:00",
+  "WhenStarted": "2017-04-07T12:15:18.3627624+02:00",
+  "WhenEnded": "2005-12-29T12:15:18.3627624+01:00",
+  "WhenIdle": "2002-02-09T12:15:18.3627624+01:00",
+  "WhenFetched": "2001-08-14T12:15:18.3627624+02:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 728,
+  "AlertLevel": 990,
+  "Rank": 210,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 542,
+  "Rating": 310,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 695
     }
   }
 }

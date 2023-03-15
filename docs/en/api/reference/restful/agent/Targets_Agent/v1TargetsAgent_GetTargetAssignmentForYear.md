@@ -87,10 +87,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 826,
+  "TargetYear": 254,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 908
+  "Id": 757
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 25,
+  "TargetAssignmentInfoId": 124,
   "Values": [
-    505,
-    405
+    38,
+    341
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 27,
-  "DimensionListItemDisplayName": "Goodwin, Rogahn and Schultz",
+  "DimensionListItem": 976,
+  "DimensionListItemDisplayName": "Kihn Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldLength": 372
     }
   }
 }

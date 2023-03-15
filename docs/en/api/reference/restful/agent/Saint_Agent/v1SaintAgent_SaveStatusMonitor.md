@@ -90,25 +90,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 740,
-  "Rank": 440,
-  "DefaultTask": 397,
-  "DefaultTaskText": "occaecati",
+  "OwnerTable": 493,
+  "Rank": 213,
+  "DefaultTask": 769,
+  "DefaultTaskText": "qui",
   "IsVisual": true,
-  "LastGenerated": "1998-01-24T11:22:38.9770545+01:00",
-  "Description": "Horizontal 5th generation approach",
-  "Name": "Bashirian-Wisoky",
-  "StatusMonitorId": 62,
-  "PictureId": 915,
+  "LastGenerated": "2004-10-21T12:15:20.0107383+02:00",
+  "Description": "Stand-alone executive internet solution",
+  "Name": "Weissnat, Johns and Rolfson",
+  "StatusMonitorId": 966,
+  "PictureId": 220,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 955,
-  "NumNeedUpdate": 199,
-  "GenerationStart": "1998-06-24T11:22:38.9770545+02:00"
+  "Deleted": false,
+  "NumMatches": 284,
+  "NumNeedUpdate": 935,
+  "GenerationStart": "2015-05-07T12:15:20.0107383+02:00"
 }
 ```
 
@@ -119,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 601,
-  "Rank": 525,
-  "DefaultTask": 817,
-  "DefaultTaskText": "ipsum",
+  "OwnerTable": 587,
+  "Rank": 891,
+  "DefaultTask": 154,
+  "DefaultTaskText": "similique",
   "IsVisual": false,
-  "LastGenerated": "1997-04-11T11:22:38.9770545+02:00",
-  "Description": "Total optimizing leverage",
-  "Name": "Robel, Ernser and Reichel",
-  "StatusMonitorId": 252,
-  "PictureId": 978,
+  "LastGenerated": "2001-10-11T12:15:20.0127391+02:00",
+  "Description": "Pre-emptive cohesive matrix",
+  "Name": "Hand, Gulgowski and Leffler",
+  "StatusMonitorId": 984,
+  "PictureId": 523,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 701,
-  "NumNeedUpdate": 758,
-  "GenerationStart": "2019-05-31T11:22:38.9770545+02:00",
+  "NumMatches": 511,
+  "NumNeedUpdate": 823,
+  "GenerationStart": "2021-09-02T12:15:20.0127391+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 364
     }
   }
 }

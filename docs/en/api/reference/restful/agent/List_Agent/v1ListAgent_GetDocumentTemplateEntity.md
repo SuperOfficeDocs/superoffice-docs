@@ -25,7 +25,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=182
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=281
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 568,
-  "Name": "McCullough, Cartwright and Schneider",
-  "Tooltip": "enim",
-  "SaveInDb": 407,
-  "Filename": "sapiente",
-  "DefaultOref": "nisi",
+  "DocumentTemplateId": 944,
+  "Name": "Waters, Bradtke and Gaylord",
+  "Tooltip": "eveniet",
+  "SaveInDb": 80,
+  "Filename": "eligendi",
+  "DefaultOref": "ea",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 275,
-  "IntentId": 698,
+  "AutoeventId": 332,
+  "IntentId": 473,
   "IsDefaultPublished": false,
-  "Rank": 832,
-  "LoadTemplateFromPlugin": 791,
-  "MimeType": "architecto",
+  "Rank": 743,
+  "LoadTemplateFromPlugin": 475,
+  "MimeType": "sit",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 191,
+  "DocumentTypeKey": 64,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "palma_quigley@howellwyman.us",
+  "EmailSubject": "duncan@lindgrenpfannerstill.us",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "alia@walsh.us",
+  "SenderEmailAddress": "danny@simonis.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

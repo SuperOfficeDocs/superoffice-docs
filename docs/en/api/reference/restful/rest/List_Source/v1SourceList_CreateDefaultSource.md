@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 367,
-  "Name": "Bauch Inc and Sons",
-  "Tooltip": "doloremque",
+  "Id": 715,
+  "Name": "Auer LLC",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 441,
-  "Rank": 367,
+  "UdListDefinitionId": 426,
+  "Rank": 836,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 577
     }
   }
 }

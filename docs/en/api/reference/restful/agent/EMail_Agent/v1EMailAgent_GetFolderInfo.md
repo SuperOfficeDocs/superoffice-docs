@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "sed",
-    "fugit"
+    "blanditiis",
+    "repellat"
   ]
 }
 ```
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bauch-Oberbrunner",
-    "Delimiter": "voluptatem",
-    "Flags": "minima",
-    "TotalItems": 105,
-    "UnreadItems": 209,
-    "Subscribed": false,
-    "EmailFolderId": 679,
+    "Name": "Moore Group",
+    "Delimiter": "quisquam",
+    "Flags": "consequatur",
+    "TotalItems": 393,
+    "UnreadItems": 898,
+    "Subscribed": true,
+    "EmailFolderId": 597,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

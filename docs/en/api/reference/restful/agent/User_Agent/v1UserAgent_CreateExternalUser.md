@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/CreateExternalUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 551,
-  "UserName": "Carroll Inc and Sons",
-  "Password": "veritatis",
-  "RoleId": 310,
+  "PersonId": 668,
+  "UserName": "Witting, Collier and Walker",
+  "Password": "neque",
+  "RoleId": 439,
   "IsActive": true
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-392
+878
 ```

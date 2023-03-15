@@ -74,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ondricka, Shanahan and Kovacek",
-  "RecordId": 692,
-  "AssociateId": 542,
-  "ExtraInfo": "nam"
+  "TableName": "Berge-Herman",
+  "RecordId": 90,
+  "AssociateId": 652,
+  "ExtraInfo": "vel"
 }
 ```
 

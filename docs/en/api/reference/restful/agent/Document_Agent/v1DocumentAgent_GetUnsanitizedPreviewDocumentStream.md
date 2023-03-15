@@ -81,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 963
+  "DocumentId": 923
 }
 ```
 
@@ -92,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hessel-Hand",
-  "Type": "similique",
-  "Size": 272,
+  "Name": "Stiedemann, Lueilwitz and Walsh",
+  "Type": "voluptatum",
+  "Size": 754,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 401
     }
   }
 }

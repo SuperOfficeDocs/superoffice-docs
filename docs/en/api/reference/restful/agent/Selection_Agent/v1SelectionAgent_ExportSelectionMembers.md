@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 130,
-  "TemplateName": "Donnelly Inc and Sons",
+  "SelectionId": 859,
+  "TemplateName": "Wyman Group",
   "UseContacts": false
 }
 ```

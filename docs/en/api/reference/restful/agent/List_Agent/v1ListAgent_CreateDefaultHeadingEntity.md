@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 1002,
-  "Name": "Hoppe-Littel",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 811,
-  "UdListDefinitionId": 530,
+  "HeadingId": 315,
+  "Name": "Lebsack LLC",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 756,
+  "UdListDefinitionId": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 104
     }
   }
 }

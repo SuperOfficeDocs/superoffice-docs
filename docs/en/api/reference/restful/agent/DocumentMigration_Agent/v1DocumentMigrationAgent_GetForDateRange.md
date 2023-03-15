@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 918,
-  "MinDate": "2022-09-17T11:22:38.1646944+02:00",
-  "MaxDate": "2000-03-08T11:22:38.1803656+01:00",
+  "DocumentPluginId": 360,
+  "MinDate": "2004-12-16T12:15:18.9027204+01:00",
+  "MaxDate": "2021-01-09T12:15:18.9027204+01:00",
   "IncludeEmails": true
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 807,
-  "NumDocumentsAlreadyMigrated": 668,
+  "NumDocumentsOmitted": 628,
+  "NumDocumentsAlreadyMigrated": 894,
   "Documents": [
     {
-      "DocumentId": 331,
-      "ContactId": 174,
-      "PersonId": 314,
-      "SaleId": 182,
-      "ProjectId": 717,
-      "DocTmplId": 781,
-      "AssociateId": 906,
-      "UserGroupId": 404,
-      "VisibleForId": 22
+      "DocumentId": 476,
+      "ContactId": 374,
+      "PersonId": 178,
+      "SaleId": 454,
+      "ProjectId": 366,
+      "DocTmplId": 98,
+      "AssociateId": 295,
+      "UserGroupId": 713,
+      "VisibleForId": 302
     }
   ],
   "Associates": [
     {
-      "AssociateId": 759,
-      "EmailAddress": "camilla_dooley@lynch.info"
+      "AssociateId": 714,
+      "EmailAddress": "sister@schaden.uk"
     },
     {
-      "AssociateId": 759,
-      "EmailAddress": "camilla_dooley@lynch.info"
+      "AssociateId": 714,
+      "EmailAddress": "sister@schaden.uk"
     }
   ]
 }

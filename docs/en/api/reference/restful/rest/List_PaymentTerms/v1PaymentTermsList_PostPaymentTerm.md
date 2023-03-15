@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 479,
-  "Name": "Jaskolski, Sanford and Rolfson",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "UdListDefinitionId": 464,
-  "Rank": 165
+  "Id": 871,
+  "Name": "Gleichner LLC",
+  "Tooltip": "consectetur",
+  "Deleted": false,
+  "UdListDefinitionId": 867,
+  "Rank": 444
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "Homenick LLC",
-  "Tooltip": "enim",
+  "Id": 244,
+  "Name": "Reinger-Harvey",
+  "Tooltip": "quo",
   "Deleted": false,
-  "UdListDefinitionId": 631,
-  "Rank": 543,
+  "UdListDefinitionId": 956,
+  "Rank": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldType": "System.String",
+      "FieldLength": 492
     }
   }
 }

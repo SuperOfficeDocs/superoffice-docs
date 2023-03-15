@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 228
+  "SelectedListId": 791
 }
 ```
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 985,
-  "ColumnId": 908,
-  "FieldDefault": "accusantium",
-  "FieldHeight": 183,
-  "FieldLabel": "omnis",
-  "FieldLeft": 384,
-  "FieldTop": 60,
+  "UDefFieldId": 643,
+  "ColumnId": 820,
+  "FieldDefault": "asperiores",
+  "FieldHeight": 685,
+  "FieldLabel": "sint",
+  "FieldLeft": 346,
+  "FieldTop": 151,
   "FieldType": "Checkbox",
-  "FieldWidth": 520,
-  "FormatMask": "beatae",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 77,
-  "LabelLeft": 705,
-  "LabelTop": 127,
-  "LabelWidth": 569,
-  "LastVersionId": 654,
-  "ListTableId": 782,
+  "FieldWidth": 38,
+  "FormatMask": "eveniet",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 940,
+  "LabelLeft": 266,
+  "LabelTop": 825,
+  "LabelWidth": 318,
+  "LastVersionId": 479,
+  "ListTableId": 303,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 176,
+  "Page1LineNo": 816,
   "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "fuga",
-  "TabOrder": 565,
-  "TextLength": 815,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 168,
-  "UDListDefinitionId": 228,
+  "IsReadOnly": false,
+  "ShortLabel": "ipsa",
+  "TabOrder": 945,
+  "TextLength": 525,
+  "Tooltip": "excepturi",
+  "UdefIdentity": 31,
+  "UDListDefinitionId": 223,
   "Justification": "Center",
-  "Version": 354,
-  "TemplateVariableName": "Doyle LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Donnelly, Rau and Friesen",
+  "Version": 344,
+  "TemplateVariableName": "Krajcik-Pouros",
+  "HasBeenPublished": false,
+  "MdoListName": "Towne, Quigley and Smith",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldLength": 457
     }
   }
 }

@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Hickle-Conroy",
-  "Tooltip": "tempora",
+  "Id": 769,
+  "Name": "Haag, Stoltenberg and Schulist",
+  "Tooltip": "fugiat",
   "Deleted": false,
-  "Rank": 139,
-  "IsCustomList": false,
+  "Rank": 385,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldLength": 842
     }
   },
   "_Links": {

@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "cumque",
-  "OptionalSecretKey": "officia"
+  "Token": "vitae",
+  "OptionalSecretKey": "pariatur"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

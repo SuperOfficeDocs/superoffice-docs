@@ -93,7 +93,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "soluta"
+  "Section": "est"
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 841,
-    "Section": "laborum",
-    "Key": "minus",
-    "Name": "O'Conner, Lesch and Tillman",
+    "PrefDescId": 646,
+    "Section": "ea",
+    "Key": "dicta",
+    "Name": "Pfannerstill Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Optional intangible collaboration",
-    "IsBuiltin": true,
-    "TableName": "Anderson Group",
-    "UserDefinedListId": 468,
-    "Rank": 686,
-    "SubGroup": "ut",
-    "MinLevel": 765,
-    "MaxValue": 186,
-    "MinValue": 339,
-    "RequiredLicense": "quas",
+    "Description": "Pre-emptive scalable service-desk",
+    "IsBuiltin": false,
+    "TableName": "Erdman-Botsford",
+    "UserDefinedListId": 158,
+    "Rank": 502,
+    "SubGroup": "omnis",
+    "MinLevel": 219,
+    "MaxValue": 470,
+    "MinValue": 406,
+    "RequiredLicense": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldType": "System.String",
+        "FieldLength": 940
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bartell, Brakus and Brown",
-    "Description": "Progressive system-worthy pricing structure",
+    "Name": "Price, Ryan and Mann",
+    "Description": "Total hybrid policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 405,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 487,
-        "InUse": 876,
-        "IsHidden": true,
+        "Total": 189,
+        "Tooltip": "debitis",
+        "CanAssign": false,
+        "Free": 718,
+        "InUse": 575,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 110,
-        "Name": "Weber-McGlynn",
-        "Description": "Upgradable multi-tasking utilisation",
-        "PrerequisiteModuleName": "Koepp LLC",
-        "SortOrder": 976,
-        "ExtraFlags": 768,
+        "ModuleLicenseId": 131,
+        "Name": "Bergnaum-Block",
+        "Description": "Monitored multi-state firmware",
+        "PrerequisiteModuleName": "Stoltenberg-Sporer",
+        "SortOrder": 209,
+        "ExtraFlags": 375,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 140
+            "FieldLength": 828
           }
         }
       }
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 362,
-        "Tooltip": "voluptates",
-        "CanAssign": false,
-        "Free": 481,
-        "InUse": 561,
+        "Total": 339,
+        "Tooltip": "facilis",
+        "CanAssign": true,
+        "Free": 649,
+        "InUse": 870,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 364,
-        "Name": "Aufderhar Inc and Sons",
-        "Description": "Reverse-engineered motivating model",
-        "PrerequisiteModuleName": "Raynor Inc and Sons",
-        "SortOrder": 205,
-        "ExtraFlags": 825,
+        "ModuleLicenseId": 123,
+        "Name": "Kunze LLC",
+        "Description": "Devolved non-volatile system engine",
+        "PrerequisiteModuleName": "Satterfield-Larkin",
+        "SortOrder": 980,
+        "ExtraFlags": 17,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldType": "System.String",
+            "FieldLength": 849
           }
         }
       }
@@ -139,35 +139,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 813
       }
     }
   },
   {
-    "Name": "Bartell, Brakus and Brown",
-    "Description": "Progressive system-worthy pricing structure",
+    "Name": "Price, Ryan and Mann",
+    "Description": "Total hybrid policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 405,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 487,
-        "InUse": 876,
-        "IsHidden": true,
+        "Total": 189,
+        "Tooltip": "debitis",
+        "CanAssign": false,
+        "Free": 718,
+        "InUse": 575,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 110,
-        "Name": "Weber-McGlynn",
-        "Description": "Upgradable multi-tasking utilisation",
-        "PrerequisiteModuleName": "Koepp LLC",
-        "SortOrder": 976,
-        "ExtraFlags": 768,
+        "ModuleLicenseId": 131,
+        "Name": "Bergnaum-Block",
+        "Description": "Monitored multi-state firmware",
+        "PrerequisiteModuleName": "Stoltenberg-Sporer",
+        "SortOrder": 209,
+        "ExtraFlags": 375,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 140
+            "FieldLength": 828
           }
         }
       }
@@ -175,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 362,
-        "Tooltip": "voluptates",
-        "CanAssign": false,
-        "Free": 481,
-        "InUse": 561,
+        "Total": 339,
+        "Tooltip": "facilis",
+        "CanAssign": true,
+        "Free": 649,
+        "InUse": 870,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 364,
-        "Name": "Aufderhar Inc and Sons",
-        "Description": "Reverse-engineered motivating model",
-        "PrerequisiteModuleName": "Raynor Inc and Sons",
-        "SortOrder": 205,
-        "ExtraFlags": 825,
+        "ModuleLicenseId": 123,
+        "Name": "Kunze LLC",
+        "Description": "Devolved non-volatile system engine",
+        "PrerequisiteModuleName": "Satterfield-Larkin",
+        "SortOrder": 980,
+        "ExtraFlags": 17,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
+            "FieldType": "System.String",
+            "FieldLength": 849
           }
         }
       }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldLength": 813
       }
     }
   }

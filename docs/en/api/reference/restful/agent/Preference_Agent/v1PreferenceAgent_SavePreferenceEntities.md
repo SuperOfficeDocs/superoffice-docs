@@ -64,23 +64,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "cumque",
+      "RawValue": "nihil",
       "Specification": null,
-      "DisplayValue": "et",
-      "DisplayTooltip": "tenetur",
+      "DisplayValue": "suscipit",
+      "DisplayTooltip": "sint",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 486,
-      "PrefDescId": 605,
-      "TableName": "Bogan, Prohaska and Langosh",
-      "UserPreferenceId": 274
+      "TargetId": 121,
+      "PrefDescId": 673,
+      "TableName": "Bins Inc and Sons",
+      "UserPreferenceId": 138
     }
   ],
   "RemoveLowerLevels": false

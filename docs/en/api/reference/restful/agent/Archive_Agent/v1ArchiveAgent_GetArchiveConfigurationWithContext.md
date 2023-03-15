@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Aufderhar-Mayert",
-  "ProviderName": "Upton, Walter and Haley",
-  "Context": "officia"
+  "GuiName": "McGlynn-Gulgowski",
+  "ProviderName": "Cassin, Brekke and Crona",
+  "Context": "eum"
 }
 ```
 
@@ -98,68 +98,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Krajcik Inc and Sons",
-      "DisplayTooltip": "ea",
-      "DisplayType": "et",
+      "DisplayName": "Mante-Homenick",
+      "DisplayTooltip": "velit",
+      "DisplayType": "quos",
       "CanOrderBy": true,
-      "Name": "Mueller Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "non",
-      "RestrictionListName": "Zemlak LLC",
+      "Name": "Bailey, Padberg and Renner",
+      "CanRestrictBy": true,
+      "RestrictionType": "corporis",
+      "RestrictionListName": "Anderson LLC",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "consequatur",
-      "IconHint": "magnam",
+      "ExtraInfo": "ut",
+      "Width": "saepe",
+      "IconHint": "et",
       "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 813,
-      "Name": "Ondricka, Nader and Durgan",
-      "ToolTip": "Et sunt.",
+      "Id": 671,
+      "Name": "Ebert LLC",
+      "ToolTip": "Soluta quis.",
       "Deleted": false,
-      "Rank": 144,
-      "Type": "occaecati",
-      "ColorBlock": 708,
-      "IconHint": "reprehenderit",
+      "Rank": 466,
+      "Type": "similique",
+      "ColorBlock": 70,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2009-08-18T11:22:37.3992475+02:00",
+      "LastChanged": "2019-09-12T12:15:18.1477635+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "debitis",
-      "Hidden": true,
-      "FullName": "Ms. Hollis Bartell MD",
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "reiciendis",
+      "Hidden": false,
+      "FullName": "Mrs. Claudie Flatley I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 733
+          "FieldType": "System.Int32",
+          "FieldLength": 438
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Johnston-Boehm",
+      "Name": "Green, Pfeffer and Cole",
       "Direction": "ASC"
     },
     {
-      "Name": "Johnston-Boehm",
+      "Name": "Green, Pfeffer and Cole",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aut",
+  "OwnerKeys": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 830
     }
   }
 }

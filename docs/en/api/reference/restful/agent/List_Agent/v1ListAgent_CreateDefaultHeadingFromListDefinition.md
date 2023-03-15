@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 431
+  "UdListDefinitionId": 131
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 772,
-  "Name": "Paucek-Bergstrom",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 679,
-  "UdListDefinitionId": 575,
+  "HeadingId": 641,
+  "Name": "Turner, Padberg and Klocko",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 527,
+  "UdListDefinitionId": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 56
     }
   }
 }

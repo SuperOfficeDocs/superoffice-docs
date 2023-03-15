@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Blanda, Hettinger and Bruen",
-    "ToolTip": "Nobis ut nam qui sit.",
-    "Deleted": true,
-    "Rank": 286,
-    "Type": "doloremque",
-    "ColorBlock": 32,
-    "IconHint": "quisquam",
+    "Id": 9,
+    "Name": "Bernier, Doyle and Murray",
+    "ToolTip": "Qui quod magni.",
+    "Deleted": false,
+    "Rank": 964,
+    "Type": "ex",
+    "ColorBlock": 128,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2020-03-16T11:22:45.8504363+01:00",
+    "LastChanged": "2012-10-31T12:15:28.0566206+01:00",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Kunde-Heaney",
-        "ToolTip": "Placeat aut voluptatem quisquam doloribus.",
-        "Deleted": true,
-        "Rank": 406,
-        "Type": "laboriosam",
-        "ColorBlock": 471,
-        "IconHint": "ad",
-        "Selected": false,
-        "LastChanged": "2014-07-17T11:22:45.8504363+02:00",
+        "Id": 363,
+        "Name": "Emard, Von and Balistreri",
+        "ToolTip": "Sint voluptatem.",
+        "Deleted": false,
+        "Rank": 176,
+        "Type": "ducimus",
+        "ColorBlock": 381,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2017-04-30T12:15:28.0566206+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "vel",
-        "StyleHint": "ab",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Dr. Ima Rosa Luettgen Sr.",
+        "FullName": "Miss Shanny Ella Kessler III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 95
+            "FieldType": "System.Int32",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "perspiciatis",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "nesciunt",
     "Hidden": true,
-    "FullName": "Kaitlyn Wintheiser",
+    "FullName": "Aaliyah Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 594
+        "FieldLength": 99
       }
     }
   }

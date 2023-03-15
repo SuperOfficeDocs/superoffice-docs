@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Denesik-Waters",
+  "ConnectorName": "Schaefer-Grady",
   "ConnectionData": {
-    "ConnectionData1": "voluptatum",
-    "ConnectionData2": "repudiandae"
+    "ConnectionData1": "qui",
+    "ConnectionData2": "ut"
   }
 }
 ```
@@ -100,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "eveniet",
-  "TechExplanation": "tenetur",
-  "ErrorCode": "saepe",
+  "UserExplanation": "ut",
+  "TechExplanation": "aut",
+  "ErrorCode": "est",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 706
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "O'Reilly LLC",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "Rank": 699,
+  "Id": 849,
+  "Name": "Wolff, Howe and Rosenbaum",
+  "Tooltip": "nobis",
+  "Deleted": true,
+  "Rank": 305,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "alias",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 499,
-  "Name": "Moen Inc and Sons",
-  "Tooltip": "impedit",
+  "Id": 807,
+  "Name": "Hane Group",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 863,
-  "IsCustomList": true,
+  "Rank": 472,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 823
     }
   }
 }

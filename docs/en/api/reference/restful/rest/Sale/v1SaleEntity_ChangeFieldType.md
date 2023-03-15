@@ -103,7 +103,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 9,
-  "ColumnId": 54,
-  "FieldDefault": "aspernatur",
-  "FieldHeight": 836,
-  "FieldLabel": "nesciunt",
-  "FieldLeft": 590,
-  "FieldTop": 454,
+  "UDefFieldId": 559,
+  "ColumnId": 678,
+  "FieldDefault": "ullam",
+  "FieldHeight": 213,
+  "FieldLabel": "ea",
+  "FieldLeft": 550,
+  "FieldTop": 558,
   "FieldType": "Checkbox",
-  "FieldWidth": 1001,
-  "FormatMask": "deleniti",
-  "HideLabel": true,
+  "FieldWidth": 592,
+  "FormatMask": "quia",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 477,
-  "LabelLeft": 29,
-  "LabelTop": 210,
-  "LabelWidth": 146,
-  "LastVersionId": 778,
-  "ListTableId": 327,
-  "IsMandatory": true,
+  "LabelHeight": 980,
+  "LabelLeft": 523,
+  "LabelTop": 58,
+  "LabelWidth": 973,
+  "LastVersionId": 166,
+  "ListTableId": 862,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 281,
-  "ProgId": "consequatur",
-  "IsReadOnly": true,
-  "ShortLabel": "quo",
-  "TabOrder": 15,
-  "TextLength": 680,
-  "Tooltip": "aperiam",
-  "UdefIdentity": 884,
-  "UDListDefinitionId": 807,
+  "Page1LineNo": 226,
+  "ProgId": "doloremque",
+  "IsReadOnly": false,
+  "ShortLabel": "rem",
+  "TabOrder": 715,
+  "TextLength": 390,
+  "Tooltip": "alias",
+  "UdefIdentity": 700,
+  "UDListDefinitionId": 401,
   "Justification": "Center",
-  "Version": 679,
-  "TemplateVariableName": "Ankunding-Volkman",
+  "Version": 653,
+  "TemplateVariableName": "Hilpert-Brekke",
   "HasBeenPublished": false,
-  "MdoListName": "Barrows Inc and Sons",
+  "MdoListName": "Legros-Abernathy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 477
     }
   }
 }

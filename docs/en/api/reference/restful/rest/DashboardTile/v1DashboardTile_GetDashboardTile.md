@@ -85,7 +85,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 575,
-  "Caption": "expedita",
-  "Description": "Quality-focused demand-driven challenge",
-  "ChartName": "Kris LLC",
-  "ChartId": "dicta",
-  "IsDefault": false,
-  "AssociateId": 767,
-  "GroupId": 766,
-  "SelectionId": 176,
-  "Config": "fuga",
+  "DashboardTileId": 20,
+  "Caption": "eos",
+  "Description": "Synchronised even-keeled solution",
+  "ChartName": "Rath-Hayes",
+  "ChartId": "voluptatem",
+  "IsDefault": true,
+  "AssociateId": 737,
+  "GroupId": 902,
+  "SelectionId": 989,
+  "Config": "nihil",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bins, Beahan and Feil",
-      "Description": "Exclusive full-range encoding",
+      "Name": "Walsh Group",
+      "Description": "Triple-buffered hybrid hierarchy",
       "Type": "Boolean",
-      "ListName": "Bergnaum-Schiller",
+      "ListName": "Breitenberg Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "officia",
+      "Value": "dolorum",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 895
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 875,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 472
+          "FieldLength": 896
         }
       }
     },
     {
-      "VisibleId": 875,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 472
+          "FieldLength": 896
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   },
   "_Links": {

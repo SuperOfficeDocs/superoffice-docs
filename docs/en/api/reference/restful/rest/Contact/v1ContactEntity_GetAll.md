@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=quis
-GET /api/v1/Contact?$top=706
-GET /api/v1/Contact?$skip=159
+GET /api/v1/Contact?$entities=repudiandae
+GET /api/v1/Contact?$top=447
+GET /api/v1/Contact?$skip=201
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=quos
+GET /api/v1/Contact?$context=et
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=False
+GET /api/v1/Contact?$jsonSafe=True
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Contact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quaerat",
+  "odata.nextLink": "vel",
   "value": [
     {
-      "PrimaryKey": 5754,
-      "EntityName": "person",
-      "personId": 5754,
-      "fullName": "Rosalia Hegmann"
+      "PrimaryKey": 3366,
+      "EntityName": "sale",
+      "saleId": 3366,
+      "contactId": 950,
+      "name": "Jerde LLC"
     },
     {
-      "PrimaryKey": 9008,
-      "EntityName": "person",
-      "personId": 9008,
-      "fullName": "Tommie Nienow"
+      "PrimaryKey": 6092,
+      "EntityName": "sale",
+      "saleId": 6092,
+      "contactId": 1306,
+      "name": "Windler, Watsica and Wuckert"
     }
   ]
 }

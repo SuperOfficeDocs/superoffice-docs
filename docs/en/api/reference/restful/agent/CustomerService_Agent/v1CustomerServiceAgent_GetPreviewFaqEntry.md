@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 884
+  "KbEntryId": 109
 }
 ```
 
@@ -91,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "totam",
-  "RegisteredByFullName": "Nathanial Zulauf",
-  "Updated": "2019-03-18T11:22:37.7898385+01:00",
-  "Question": "eligendi",
-  "Answer": "tempora",
+  "Title": "consequatur",
+  "RegisteredByFullName": "Mr. Jake Elias Zboncak PhD",
+  "Updated": "1999-07-28T12:15:18.6457559+02:00",
+  "Question": "explicabo",
+  "Answer": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

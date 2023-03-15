@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Kuhlman, Pagac and Hoppe",
-    "ToolTip": "Impedit aliquid laboriosam itaque sit ex ut.",
-    "Deleted": true,
-    "Rank": 565,
-    "Type": "velit",
-    "ColorBlock": 330,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2001-03-12T11:22:45.8973017+01:00",
+    "Id": 247,
+    "Name": "Balistreri, Crooks and Reilly",
+    "ToolTip": "Non aut temporibus.",
+    "Deleted": false,
+    "Rank": 762,
+    "Type": "est",
+    "ColorBlock": 441,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2003-09-05T12:15:28.1286189+02:00",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Wisozk-Schumm",
-        "ToolTip": "Asperiores fuga fugit molestias consequatur qui quasi aperiam.",
+        "Id": 456,
+        "Name": "Gleichner-Moore",
+        "ToolTip": "Et qui sint voluptas minima sed.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "nam",
-        "ColorBlock": 524,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2003-03-08T11:22:45.8973017+01:00",
+        "Rank": 434,
+        "Type": "consectetur",
+        "ColorBlock": 841,
+        "IconHint": "ullam",
+        "Selected": true,
+        "LastChanged": "1999-04-22T12:15:28.1296193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "impedit",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Dr. Merl Johnson MD",
+        "FullName": "Katharina Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 99
+            "FieldType": "System.Int32",
+            "FieldLength": 903
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "harum",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Fletcher Damian Simonis Sr.",
+    "FullName": "Mrs. Camron Elian Nienow DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 531
+        "FieldType": "System.Int32",
+        "FieldLength": 875
       }
     }
   }

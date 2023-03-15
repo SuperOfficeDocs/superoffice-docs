@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 23 Aug 1999 11:22:44 G8T
+Last-Modified: Tue, 08 Jun 2004 12:15:26 G6T
 
 {
-  "BlobId": 642,
-  "BlobSize": 271,
-  "Description": "Total uniform definition",
-  "ExtraInfo": "dolor",
-  "IsEncrypted": false,
+  "BlobId": 797,
+  "BlobSize": 918,
+  "Description": "Reactive bottom-line interface",
+  "ExtraInfo": "ullam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "nihil",
-  "OriginalSize": 331,
-  "CreatedDate": "2011-03-16T11:22:44.4445217+01:00",
-  "UpdatedDate": "1999-08-23T11:22:44.4445217+02:00",
+  "MimeType": "ea",
+  "OriginalSize": 421,
+  "CreatedDate": "2015-03-10T12:15:26.5566422+01:00",
+  "UpdatedDate": "2004-06-08T12:15:26.5566422+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "hic",
+  "ConceptualType": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 875
     }
   }
 }

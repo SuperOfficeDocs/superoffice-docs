@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 619,
-    "Name": "Kertzmann-Schmidt",
-    "Tooltip": "maiores",
+    "HeadingId": 129,
+    "Name": "Pacocha Group",
+    "Tooltip": "reprehenderit",
     "Deleted": false,
-    "Rank": 610,
-    "UdListDefinitionId": 591,
+    "Rank": 852,
+    "UdListDefinitionId": 684,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 643
+        "FieldType": "System.Int32",
+        "FieldLength": 978
       }
     }
   }

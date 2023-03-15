@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 775,
-    "Name": "Flatley-Kuvalis",
-    "ToolTip": "Deserunt ex quod saepe nobis non perferendis.",
+    "Id": 849,
+    "Name": "O'Connell Group",
+    "ToolTip": "Doloremque optio ut unde.",
     "Deleted": false,
-    "Rank": 96,
-    "Type": "a",
-    "ColorBlock": 525,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2022-02-21T11:22:46.1472512+01:00",
+    "Rank": 724,
+    "Type": "officiis",
+    "ColorBlock": 404,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "2016-07-24T12:15:28.4366175+02:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Doyle-Johns",
-        "ToolTip": "Autem iste provident dignissimos fugiat ullam provident doloremque.",
+        "Id": 179,
+        "Name": "Franecki-Wilkinson",
+        "ToolTip": "Earum modi ut voluptas est.",
         "Deleted": false,
-        "Rank": 345,
-        "Type": "et",
-        "ColorBlock": 298,
-        "IconHint": "qui",
+        "Rank": 238,
+        "Type": "sapiente",
+        "ColorBlock": 943,
+        "IconHint": "numquam",
         "Selected": true,
-        "LastChanged": "2022-01-15T11:22:46.1472512+01:00",
+        "LastChanged": "2013-01-13T12:15:28.4366175+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "et",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Dr. Finn Pierre Kling"
+        "FullName": "Camylle Goldner"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "expedita",
+    "ExtraInfo": "libero",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Karen Kiehn"
+    "FullName": "Tracy Crona"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Bins-Price",
-    "ToolTip": "Officia accusantium velit sequi omnis et sed unde.",
-    "Deleted": true,
-    "Rank": 980,
-    "Type": "dicta",
-    "ColorBlock": 966,
-    "IconHint": "incidunt",
+    "Id": 275,
+    "Name": "Murray-Hermann",
+    "ToolTip": "Excepturi sint sapiente magni adipisci est laudantium vel.",
+    "Deleted": false,
+    "Rank": 892,
+    "Type": "sequi",
+    "ColorBlock": 669,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2019-08-01T11:22:46.1472512+02:00",
+    "LastChanged": "1999-01-20T12:15:28.4376144+01:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Haley LLC",
-        "ToolTip": "Quasi et atque fuga laborum qui harum totam.",
+        "Id": 898,
+        "Name": "Lehner-Hahn",
+        "ToolTip": "Quidem aut maiores est enim cumque.",
         "Deleted": false,
-        "Rank": 124,
-        "Type": "officiis",
-        "ColorBlock": 446,
-        "IconHint": "veritatis",
-        "Selected": true,
-        "LastChanged": "2006-01-09T11:22:46.1472512+01:00",
+        "Rank": 509,
+        "Type": "nisi",
+        "ColorBlock": 950,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "1999-06-19T12:15:28.4376144+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "sapiente",
-        "Hidden": false,
-        "FullName": "Stewart Von",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Rylee Ethel Predovic MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Dr. Camilla Stamm",
+    "ExtraInfo": "nobis",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Ms. Anastacio Samara Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldType": "System.String",
+        "FieldLength": 535
       }
     }
   }

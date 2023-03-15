@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Christiansen Group",
-    "ToolTip": "Et quibusdam explicabo non quidem expedita cupiditate soluta.",
-    "Deleted": true,
-    "Rank": 187,
-    "Type": "molestiae",
-    "ColorBlock": 862,
-    "IconHint": "sed",
+    "Id": 362,
+    "Name": "Hickle-Conroy",
+    "ToolTip": "Quis sunt nam quia quisquam iste dignissimos.",
+    "Deleted": false,
+    "Rank": 501,
+    "Type": "et",
+    "ColorBlock": 352,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2015-03-07T11:22:46.1003835+01:00",
+    "LastChanged": "2008-08-17T12:15:28.3716151+02:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Swaniawski LLC",
-        "ToolTip": "Voluptas id.",
+        "Id": 142,
+        "Name": "Collins, Kshlerin and Halvorson",
+        "ToolTip": "Quia et.",
         "Deleted": false,
-        "Rank": 380,
-        "Type": "autem",
-        "ColorBlock": 316,
-        "IconHint": "cum",
+        "Rank": 783,
+        "Type": "dignissimos",
+        "ColorBlock": 817,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2019-02-10T11:22:46.1003835+01:00",
+        "LastChanged": "2001-10-30T12:15:28.3716151+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "et",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Ms. Dixie Bayer DVM"
+        "FullName": "Kira Beahan IV"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "officiis",
+    "ExtraInfo": "facere",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Prof. Luna Jena Gerlach MD"
+    "FullName": "Miss Lucy Misty Ferry PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Trantow-Dach",
-    "ToolTip": "Nobis velit dolorem aut.",
-    "Deleted": false,
-    "Rank": 920,
-    "Type": "laborum",
-    "ColorBlock": 642,
-    "IconHint": "sed",
+    "Id": 519,
+    "Name": "Romaguera, Wilderman and Hackett",
+    "ToolTip": "Non praesentium.",
+    "Deleted": true,
+    "Rank": 904,
+    "Type": "aspernatur",
+    "ColorBlock": 830,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2015-04-15T11:22:46.1003835+02:00",
+    "LastChanged": "2011-03-22T12:15:28.3736175+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Buckridge-Mraz",
-        "ToolTip": "Adipisci ea voluptatem.",
+        "Id": 242,
+        "Name": "Brekke-Koss",
+        "ToolTip": "Ipsum ratione ab aut est rerum totam dignissimos.",
         "Deleted": false,
-        "Rank": 577,
-        "Type": "vitae",
-        "ColorBlock": 97,
-        "IconHint": "doloremque",
+        "Rank": 162,
+        "Type": "reprehenderit",
+        "ColorBlock": 647,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "1999-09-30T11:22:46.1003835+02:00",
+        "LastChanged": "2010-10-25T12:15:28.3736175+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Mrs. Mariana Walker",
+        "ExtraInfo": "similique",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Dustin Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 23
+            "FieldType": "System.Int32",
+            "FieldLength": 805
           }
         }
       }
     ],
     "ExtraInfo": "in",
-    "StyleHint": "rerum",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ms. Araceli Wilhelm Kuhlman",
+    "FullName": "Katlynn Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 58
+        "FieldType": "System.Int32",
+        "FieldLength": 615
       }
     }
   }

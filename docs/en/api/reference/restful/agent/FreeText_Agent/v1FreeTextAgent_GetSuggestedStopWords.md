@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 351
+  "CountWords": 276
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Lynch-Stark",
-    "ToolTip": "Explicabo rem repellendus nisi culpa.",
-    "Deleted": false,
-    "Rank": 581,
-    "Type": "aliquid",
+    "Id": 997,
+    "Name": "Homenick, Dicki and Breitenberg",
+    "ToolTip": "Incidunt eius quia laborum veritatis assumenda fugit.",
+    "Deleted": true,
+    "Rank": 891,
+    "Type": "incidunt",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Medhurst Inc and Sons",
-        "ToolTip": "Quibusdam accusamus cupiditate porro modi.",
+        "Id": 631,
+        "Name": "Rodriguez-Langworth",
+        "ToolTip": "Eius cumque quaerat corporis sed.",
         "Deleted": false,
-        "Rank": 138,
-        "Type": "ab",
+        "Rank": 11,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 230,
-        "ExtraInfo": "quisquam",
-        "StyleHint": "voluptatem",
-        "FullName": "Lucious Maritza Reichert Sr.",
+        "IconHint": "cum",
+        "ColorBlock": 565,
+        "ExtraInfo": "atque",
+        "StyleHint": "animi",
+        "FullName": "Linnie Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 6
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 441,
-    "ExtraInfo": "officiis",
-    "StyleHint": "totam",
-    "FullName": "Moises Koelpin",
+    "IconHint": "consequatur",
+    "ColorBlock": 899,
+    "ExtraInfo": "placeat",
+    "StyleHint": "aut",
+    "FullName": "Florine Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldLength": 291
       }
     }
   }

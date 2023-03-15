@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 395,
-      "UniqueId": "inventore",
-      "Name": "Trantow, Bailey and Kuvalis",
-      "Description": "Front-line bi-directional complexity",
-      "AssociateId": 769,
-      "Columns": 155,
+      "DashboardId": 950,
+      "UniqueId": "esse",
+      "Name": "Kerluke-Cormier",
+      "Description": "Automated even-keeled info-mediaries",
+      "AssociateId": 707,
+      "Columns": 823,
       "Theme": null,
-      "VisibleForAll": 916,
+      "VisibleForAll": 628,
       "VisibleForAssociates": [
-        202,
-        721
+        134,
+        859
       ],
       "VisibleForGroups": [
-        51,
-        919
+        148,
+        52
       ],
-      "PinForAll": 681,
+      "PinForAll": 557,
       "PinForAssociates": [
-        314,
-        508
+        325,
+        707
       ],
       "PinForGroups": [
-        338,
-        770
+        924,
+        789
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 285
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 176,
-      "UniqueId": "est",
-      "Name": "Mayer-Torp",
-      "Description": "Future-proofed solution-oriented Graphic Interface",
-      "AssociateId": 205,
-      "Columns": 741,
+      "DashboardId": 678,
+      "UniqueId": "vel",
+      "Name": "Walsh-Stroman",
+      "Description": "Advanced demand-driven Graphical User Interface",
+      "AssociateId": 329,
+      "Columns": 895,
       "Theme": null,
-      "VisibleForAll": 862,
+      "VisibleForAll": 592,
       "VisibleForAssociates": [
-        597,
-        485
+        164,
+        610
       ],
       "VisibleForGroups": [
-        777,
-        757
+        889,
+        904
       ],
-      "PinForAll": 834,
+      "PinForAll": 677,
       "PinForAssociates": [
-        268,
-        361
+        604,
+        58
       ],
       "PinForGroups": [
-        948,
-        684
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 654
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 247,
-      "UniqueId": "id",
-      "Name": "Harris Group",
-      "Description": "Phased eco-centric matrix",
-      "AssociateId": 811,
-      "Columns": 335,
-      "Theme": null,
-      "VisibleForAll": 993,
-      "VisibleForAssociates": [
-        411,
-        732
-      ],
-      "VisibleForGroups": [
-        641,
-        885
-      ],
-      "PinForAll": 719,
-      "PinForAssociates": [
-        574,
-        841
-      ],
-      "PinForGroups": [
-        312,
-        568
+        602,
+        534
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 239
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 655,
+      "UniqueId": "et",
+      "Name": "Kulas-Crist",
+      "Description": "Persistent executive solution",
+      "AssociateId": 450,
+      "Columns": 215,
+      "Theme": null,
+      "VisibleForAll": 221,
+      "VisibleForAssociates": [
+        913,
+        627
+      ],
+      "VisibleForGroups": [
+        586,
+        34
+      ],
+      "PinForAll": 33,
+      "PinForAssociates": [
+        878,
+        786
+      ],
+      "PinForGroups": [
+        12,
+        532
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 585
         }
       }
     }
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 622
     }
   }
 }

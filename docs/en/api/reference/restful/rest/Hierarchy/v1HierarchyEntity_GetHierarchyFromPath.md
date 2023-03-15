@@ -18,7 +18,7 @@ Get a hierarchy item from a path
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
+| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards, EmailFlows | Type of items to get **Required** |
 | path | string | Hierarchy path to item **Required** |
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 476,
+  "HierarchyId": 956,
   "Domain": "Dashboards",
-  "Name": "Flatley-Ortiz",
-  "Fullname": "itaque",
-  "ParentId": 150,
+  "Name": "Langworth Inc and Sons",
+  "Fullname": "nemo",
+  "ParentId": 145,
   "Children": [
     {
-      "HierarchyId": 269,
+      "HierarchyId": 67,
       "Domain": "Dashboards",
-      "Name": "Gleichner, Howe and Schmeler",
-      "Fullname": "et",
-      "ParentId": 347,
+      "Name": "Kertzmann-Schuster",
+      "Fullname": "consequatur",
+      "ParentId": 325,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2003-06-22T11:22:44.8818691+02:00",
-      "RegisteredAssociateId": 357,
-      "Updated": "2018-05-25T11:22:44.8818691+02:00",
-      "UpdatedAssociateId": 252,
+      "Registered": "2002-02-11T12:15:26.9856396+01:00",
+      "RegisteredAssociateId": 419,
+      "Updated": "1997-08-18T12:15:26.9856396+02:00",
+      "UpdatedAssociateId": 224,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     }
   ],
-  "Registered": "2007-08-26T11:22:44.8818691+02:00",
-  "RegisteredAssociateId": 20,
-  "Updated": "2020-10-09T11:22:44.8818691+02:00",
-  "UpdatedAssociateId": 401,
+  "Registered": "2006-11-12T12:15:26.9856396+01:00",
+  "RegisteredAssociateId": 939,
+  "Updated": "2006-06-10T12:15:26.9856396+02:00",
+  "UpdatedAssociateId": 978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 398
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 886
+  "TicketMessageEntityId": 496
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 397,
-    "Name": "McClure LLC",
-    "ContentType": "dicta",
-    "AttSize": 31,
+    "AttachmentId": 21,
+    "Name": "Orn-Harvey",
+    "ContentType": "voluptatem",
+    "AttSize": 892,
     "InlineImage": false,
-    "ContentId": "quae",
+    "ContentId": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

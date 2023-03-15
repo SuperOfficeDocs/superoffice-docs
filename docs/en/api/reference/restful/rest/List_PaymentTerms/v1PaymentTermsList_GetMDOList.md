@@ -25,8 +25,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=voluptatem
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=vel
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Renner Inc and Sons",
-    "ToolTip": "Sunt sequi quisquam sint quo.",
-    "Deleted": false,
-    "Rank": 850,
-    "Type": "et",
+    "Id": 652,
+    "Name": "Kerluke LLC",
+    "ToolTip": "Aliquam animi voluptas deserunt dolor.",
+    "Deleted": true,
+    "Rank": 129,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Ebert Group",
-        "ToolTip": "Pariatur eum molestiae.",
-        "Deleted": false,
-        "Rank": 796,
-        "Type": "voluptate",
+        "Id": 980,
+        "Name": "Langworth-Turcotte",
+        "ToolTip": "Est officia autem impedit et omnis.",
+        "Deleted": true,
+        "Rank": 711,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "nulla",
-        "ColorBlock": 396,
-        "ExtraInfo": "et",
-        "StyleHint": "similique",
-        "FullName": "Miss Tomas Lockman",
+        "ColorBlock": 618,
+        "ExtraInfo": "ut",
+        "StyleHint": "praesentium",
+        "FullName": "Miss Randi Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 763
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 747,
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
-    "FullName": "Ahmad Oberbrunner",
+    "IconHint": "repellendus",
+    "ColorBlock": 745,
+    "ExtraInfo": "ut",
+    "StyleHint": "rerum",
+    "FullName": "Miss River Shanon Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldType": "System.String",
+        "FieldLength": 26
       }
     }
   }

@@ -105,34 +105,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Fritsch-Mosciski",
-      "Operator": "in",
+      "Name": "Walker-Rolfson",
+      "Operator": "tenetur",
       "Values": [
-        "repellendus",
-        "ullam"
+        "aperiam",
+        "at"
       ],
       "DisplayValues": [
-        "eum",
-        "sit"
+        "mollitia",
+        "at"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 50,
+      "InterParenthesis": 52,
       "InterOperator": "And",
-      "UniqueHash": 918
+      "UniqueHash": 745
     }
   ],
-  "ProviderName": "Schroeder Group",
+  "ProviderName": "Kris, McKenzie and Zboncak",
   "DesiredColumns": [
-    "et",
-    "ipsum"
+    "aspernatur",
+    "iusto"
   ],
-  "PageSize": 738,
-  "PageNumber": 770
+  "PageSize": 894,
+  "PageNumber": 84
 }
 ```
 
@@ -145,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kautzer, Quigley and Bahringer",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "neque",
-      "CanOrderBy": false,
-      "Name": "Hartmann, O'Reilly and McClure",
+      "DisplayName": "Davis-Rutherford",
+      "DisplayTooltip": "at",
+      "DisplayType": "occaecati",
+      "CanOrderBy": true,
+      "Name": "Jerde, Cartwright and Jenkins",
       "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Buckridge Inc and Sons",
+      "RestrictionType": "sint",
+      "RestrictionListName": "Ruecker LLC",
       "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "laboriosam",
-      "IconHint": "ratione",
-      "HeadingIconHint": "voluptatum"
+      "ExtraInfo": "qui",
+      "Width": "consequatur",
+      "IconHint": "nulla",
+      "HeadingIconHint": "explicabo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rogahn LLC",
-      "PrimaryKey": 708,
+      "EntityName": "Roberts LLC",
+      "PrimaryKey": 342,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "magnam",
-          "LinkHint": "voluptas"
+          "DisplayValue": "et",
+          "TooltipHint": "eum",
+          "LinkHint": "nemo"
         }
       },
-      "LinkHint": "neque",
+      "LinkHint": "quo",
       "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 45
         }
       }
     }
   ],
-  "RowCount": 814,
+  "RowCount": 708,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

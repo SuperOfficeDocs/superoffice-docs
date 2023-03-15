@@ -84,10 +84,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 120,
+  "ErpConnectionId": 18,
   "InternalKeyIds": [
-    886,
-    140
+    117,
+    869
   ]
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "consequatur",
-  "TechExplanation": "sint",
-  "ErrorCode": "assumenda",
+  "IsOk": false,
+  "UserExplanation": "ea",
+  "TechExplanation": "aut",
+  "ErrorCode": "eum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

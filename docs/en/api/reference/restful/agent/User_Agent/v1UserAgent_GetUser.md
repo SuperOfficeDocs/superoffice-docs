@@ -27,7 +27,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=340
+POST /api/v1/Agents/User/GetUser?userId=4
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 891,
-  "Name": "Ledner Inc and Sons",
-  "Rank": 294,
-  "Tooltip": "illo",
+  "AssociateId": 556,
+  "Name": "Okuneva, Kuhn and Bode",
+  "Rank": 649,
+  "Tooltip": "doloribus",
   "LicenseOwners": [
     {
-      "Name": "Ryan LLC",
-      "Description": "Compatible full-range forecast",
+      "Name": "Jerde Group",
+      "Description": "Upgradable fresh-thinking benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,13 +123,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 588
         }
       }
     },
     {
-      "Name": "Ryan LLC",
-      "Description": "Compatible full-range forecast",
+      "Name": "Jerde Group",
+      "Description": "Upgradable fresh-thinking benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldLength": 588
         }
       }
     }
@@ -152,110 +152,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "porro",
-      "Tooltip": "expedita",
-      "Id": 24,
-      "Rank": 870,
-      "Deleted": true,
+      "Value": "sapiente",
+      "Tooltip": "fuga",
+      "Id": 622,
+      "Rank": 25,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldLength": 450
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1996-09-17T11:22:39.6331547+02:00",
-  "Lastlogout": "2002-07-25T11:22:39.6331547+02:00",
-  "EjUserId": 984,
-  "RequestSignature": "voluptatem",
+  "Lastlogin": "2005-03-13T12:15:20.5827282+01:00",
+  "Lastlogout": "2010-08-26T12:15:20.5827282+02:00",
+  "EjUserId": 232,
+  "RequestSignature": "quia",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "magni",
+      "Value": "debitis",
+      "DisplayValue": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 745
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolores",
-      "DisplayValue": "magni",
+      "Value": "debitis",
+      "DisplayValue": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 745
         }
       }
     }
   ],
-  "UserName": "Lind-Champlin",
+  "UserName": "Willms-Ratke",
   "TicketCategories": [
     {
-      "Id": 308,
-      "Name": "Schumm, Lockman and Schowalter",
-      "ToolTip": "Velit culpa odit dolores.",
+      "Id": 814,
+      "Name": "McClure Group",
+      "ToolTip": "Eos aut.",
       "Deleted": false,
-      "Rank": 790,
-      "Type": "sed",
+      "Rank": 331,
+      "Type": "nostrum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "totam",
-      "ColorBlock": 754,
-      "ExtraInfo": "ut",
-      "StyleHint": "eaque",
-      "FullName": "Bonnie Mosciski DDS",
+      "IconHint": "praesentium",
+      "ColorBlock": 742,
+      "ExtraInfo": "rerum",
+      "StyleHint": "vel",
+      "FullName": "Mrs. Russel Coralie Jerde MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldLength": 420
         }
       }
     }
   ],
-  "NickName": "Grimes Group",
-  "WaitingForApproval": true,
+  "NickName": "Ledner, Crona and Wilkinson",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "debitis"
+    "CustomFields1": "iure",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hegmann LLC",
-      "DisplayName": "Daniel-Christiansen",
-      "Description": "Distributed didactic conglomeration",
-      "ToolTip": "Totam est adipisci officia adipisci vel quae.",
+      "Name": "Stroman-Hills",
+      "DisplayName": "Keebler-Dietrich",
+      "Description": "Sharable intangible approach",
+      "ToolTip": "Fugiat enim labore assumenda voluptas.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldType": "System.Int32",
+          "FieldLength": 722
         }
       }
     }
@@ -265,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 959
     }
   }
 }

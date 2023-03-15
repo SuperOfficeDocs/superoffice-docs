@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 53,
-  "Name": "Jerde-Hartmann",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 870,
-  "UdListDefinitionId": 932
+  "HeadingId": 946,
+  "Name": "Kihn Group",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 589,
+  "UdListDefinitionId": 926
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 706,
-  "Name": "Nikolaus-Marvin",
-  "Tooltip": "esse",
+  "HeadingId": 912,
+  "Name": "Davis-Thiel",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 263,
-  "UdListDefinitionId": 552,
+  "Rank": 228,
+  "UdListDefinitionId": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 648
+      "FieldType": "System.Int32",
+      "FieldLength": 461
     }
   }
 }

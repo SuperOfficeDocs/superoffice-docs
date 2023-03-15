@@ -81,7 +81,7 @@ ListEntity found.
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Ondricka-Herman",
-  "Tooltip": "dolorum",
+  "Id": 784,
+  "Name": "Schamberger, Hackett and Shanahan",
+  "Tooltip": "quidem",
   "Deleted": true,
-  "Rank": 812,
+  "Rank": 642,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "totam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 551
     }
   },
   "_Links": {

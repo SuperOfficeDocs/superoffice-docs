@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 783,
-  "CountryId": 368
+  "ContactId": 930,
+  "CountryId": 8
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 17729.038,
-  "Wgs84Longitude": 17719.636,
+  "Wgs84Latitude": 17161.784,
+  "Wgs84Longitude": 5308.996,
   "LocalizedAddress": [
     [
       {
-        "Name": "Beier LLC",
-        "Value": "eius",
-        "Tooltip": "recusandae",
-        "Label": "ratione",
-        "ValueLength": 514,
-        "AddressType": "minus",
+        "Name": "Rau, Lynch and Durgan",
+        "Value": "odit",
+        "Tooltip": "consequuntur",
+        "Label": "est",
+        "ValueLength": 367,
+        "AddressType": "labore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 206
+            "FieldLength": 984
           }
         }
       }
     ],
     [
       {
-        "Name": "Hartmann, Hand and Stracke",
-        "Value": "at",
-        "Tooltip": "id",
-        "Label": "nobis",
-        "ValueLength": 858,
-        "AddressType": "quia",
+        "Name": "Pacocha-McClure",
+        "Value": "assumenda",
+        "Tooltip": "repellat",
+        "Label": "ipsa",
+        "ValueLength": 70,
+        "AddressType": "asperiores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 415
+            "FieldType": "System.String",
+            "FieldLength": 940
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "inventore",
+  "Formatted": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 524
     }
   }
 }

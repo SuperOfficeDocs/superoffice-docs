@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": false
+  "OnlyPresent": true
 }
 ```
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 453,
-    "Name": "Turcotte-Halvorson",
-    "ToolTip": "Laudantium atque velit autem.",
+    "Id": 45,
+    "Name": "Gibson-Schmitt",
+    "ToolTip": "Ut eos earum et voluptas.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "est",
+    "Rank": 347,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 536,
-        "Name": "Mosciski Inc and Sons",
-        "ToolTip": "Fugiat et enim voluptatem.",
-        "Deleted": true,
-        "Rank": 472,
-        "Type": "unde",
+        "Id": 1001,
+        "Name": "Parker-Glover",
+        "ToolTip": "Tenetur repudiandae aut placeat consectetur ut.",
+        "Deleted": false,
+        "Rank": 868,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quibusdam",
-        "ColorBlock": 64,
-        "ExtraInfo": "vitae",
-        "StyleHint": "rem",
-        "FullName": "Miss Hallie Auer Jr.",
+        "IconHint": "occaecati",
+        "ColorBlock": 341,
+        "ExtraInfo": "soluta",
+        "StyleHint": "molestias",
+        "FullName": "Miss Lorenza Emanuel Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 866
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 303,
-    "ExtraInfo": "veritatis",
-    "StyleHint": "assumenda",
-    "FullName": "Bobby Tremblay",
+    "IconHint": "aspernatur",
+    "ColorBlock": 688,
+    "ExtraInfo": "et",
+    "StyleHint": "est",
+    "FullName": "Camron Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldLength": 823
       }
     }
   }

@@ -72,16 +72,16 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 966,
-  "Name": "Schmidt, Sipes and Kovacek",
-  "ContentType": "rerum",
-  "AttSize": 908,
-  "InlineImage": false,
-  "ContentId": "a"
+  "AttachmentId": 110,
+  "Name": "Hammes, Will and Yundt",
+  "ContentType": "similique",
+  "AttSize": 697,
+  "InlineImage": true,
+  "ContentId": "dolore"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 989,
-  "Name": "Marquardt LLC",
-  "ContentType": "quae",
-  "AttSize": 131,
-  "InlineImage": true,
-  "ContentId": "voluptatem",
+  "AttachmentId": 91,
+  "Name": "Williamson, Yundt and Bruen",
+  "ContentType": "eaque",
+  "AttSize": 787,
+  "InlineImage": false,
+  "ContentId": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 368
+      "FieldLength": 118
     }
   }
 }

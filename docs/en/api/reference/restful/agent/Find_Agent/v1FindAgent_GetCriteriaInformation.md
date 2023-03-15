@@ -80,16 +80,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "iste",
-  "ProviderName": "Daugherty LLC",
-  "StorageKey": "recusandae",
+  "StorageType": "tempore",
+  "ProviderName": "Stanton-Prohaska",
+  "StorageKey": "laborum",
   "StaticColumns": [
-    "cupiditate",
-    "maiores"
+    "in",
+    "delectus"
   ]
 }
 ```
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hilll-Kohler",
-      "Operator": "eos",
+      "Name": "O'Connell, Effertz and Prosacco",
+      "Operator": "qui",
       "Values": [
-        "sint",
-        "consequuntur"
+        "sapiente",
+        "aut"
       ],
       "DisplayValues": [
-        "voluptate",
-        "dicta"
+        "voluptas",
+        "repellendus"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 369,
+      "InterParenthesis": 789,
       "InterOperator": "And",
-      "UniqueHash": 937
+      "UniqueHash": 145
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Denesik-O'Kon",
+      "DisplayName": "Reynolds Group",
       "DisplayTooltip": "omnis",
-      "DisplayType": "ab",
+      "DisplayType": "eveniet",
       "CanOrderBy": false,
-      "Name": "Brakus, Oberbrunner and Crona",
+      "Name": "Barrows-Connelly",
       "CanRestrictBy": false,
-      "RestrictionType": "quia",
-      "RestrictionListName": "Thompson Group",
+      "RestrictionType": "sunt",
+      "RestrictionListName": "Hessel-Schoen",
       "IsVisible": false,
-      "ExtraInfo": "sapiente",
-      "Width": "doloribus",
-      "IconHint": "omnis",
-      "HeadingIconHint": "voluptatibus"
+      "ExtraInfo": "amet",
+      "Width": "vel",
+      "IconHint": "perspiciatis",
+      "HeadingIconHint": "tempora"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Conroy LLC",
-      "PrimaryKey": 684,
+      "EntityName": "Cremin Inc and Sons",
+      "PrimaryKey": 127,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ab",
-          "TooltipHint": "occaecati",
+          "DisplayValue": "consequatur",
+          "TooltipHint": "reiciendis",
           "LinkHint": "asperiores"
         }
       },
-      "LinkHint": "accusamus",
-      "StyleHint": "amet",
+      "LinkHint": "repudiandae",
+      "StyleHint": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldType": "System.String",
+          "FieldLength": 222
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stehr, Walker and Williamson",
-      "Description": "Programmable logistical toolset",
-      "Rank": 29,
+      "Name": "Gorczany Inc and Sons",
+      "Description": "Synchronised foreground circuit",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stehr, Walker and Williamson",
-      "Description": "Programmable logistical toolset",
-      "Rank": 29,
+      "Name": "Gorczany Inc and Sons",
+      "Description": "Synchronised foreground circuit",
+      "Rank": 816,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldType": "System.String",
+      "FieldLength": 490
     }
   }
 }

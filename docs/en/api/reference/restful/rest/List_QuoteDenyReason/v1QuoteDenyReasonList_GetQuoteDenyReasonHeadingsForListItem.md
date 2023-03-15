@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Mayert, Tremblay and Mueller",
-    "ToolTip": "Molestiae aut.",
+    "Id": 340,
+    "Name": "Huels-Green",
+    "ToolTip": "Fugit hic quidem iste sed quia ratione odit.",
     "Deleted": false,
-    "Rank": 458,
-    "Type": "ipsam",
-    "ColorBlock": 425,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2015-04-08T11:22:46.1160093+02:00",
+    "Rank": 633,
+    "Type": "sint",
+    "ColorBlock": 852,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2015-02-07T12:15:28.3886174+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Weber-Kertzmann",
-        "ToolTip": "Aut accusantium amet earum saepe harum.",
-        "Deleted": true,
-        "Rank": 247,
-        "Type": "sed",
-        "ColorBlock": 156,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "2004-01-01T11:22:46.1160093+01:00",
+        "Id": 562,
+        "Name": "Lebsack-Greenholt",
+        "ToolTip": "Quia aliquam.",
+        "Deleted": false,
+        "Rank": 948,
+        "Type": "consequatur",
+        "ColorBlock": 606,
+        "IconHint": "incidunt",
+        "Selected": false,
+        "LastChanged": "2003-06-18T12:15:28.3886174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Creola Grant",
+        "FullName": "Ms. Robin Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldLength": 493
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "autem",
+    "StyleHint": "a",
     "Hidden": true,
-    "FullName": "Reina Kemmer",
+    "FullName": "Willard Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 211
       }
     }
   }

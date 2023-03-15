@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "ratione",
-  "PersonId": 833,
-  "Mrmrs": "quaerat",
-  "Firstname": "Cyrus",
-  "Lastname": "Botsford",
-  "MiddleName": "Hansen Inc and Sons",
-  "Title": "enim",
-  "Description": "Function-based incremental algorithm",
-  "Email": "russ@fadel.us",
-  "FullName": "Yoshiko Becker",
-  "DirectPhone": "490-387-0274 x918",
-  "FormalName": "Ortiz-Miller",
-  "CountryId": 840,
-  "ContactId": 58,
-  "ContactName": "Hagenes LLC",
-  "Retired": 182,
-  "Rank": 481,
-  "ActiveInterests": 406,
+  "Position": "vel",
+  "PersonId": 297,
+  "Mrmrs": "praesentium",
+  "Firstname": "Watson",
+  "Lastname": "Harris",
+  "MiddleName": "Morissette, Schaden and Terry",
+  "Title": "numquam",
+  "Description": "Open-architected uniform orchestration",
+  "Email": "albina.kassulke@morissette.info",
+  "FullName": "Adonis Amani Koch MD",
+  "DirectPhone": "223-771-3432 x25882",
+  "FormalName": "Schinner LLC",
+  "CountryId": 873,
+  "ContactId": 817,
+  "ContactName": "Stiedemann Group",
+  "Retired": 761,
+  "Rank": 685,
+  "ActiveInterests": 205,
   "ContactDepartment": "",
-  "ContactCountryId": 125,
-  "ContactOrgNr": "714353",
-  "FaxPhone": "060-035-5257",
-  "MobilePhone": "901-509-0531",
-  "ContactPhone": "1-635-776-2310 x042",
-  "AssociateName": "Sawayn Group",
-  "AssociateId": 614,
+  "ContactCountryId": 441,
+  "ContactOrgNr": "1675595",
+  "FaxPhone": "597-301-0902 x3397",
+  "MobilePhone": "(898)603-5665",
+  "ContactPhone": "(164)194-9375",
+  "AssociateName": "Moore Group",
+  "AssociateId": 860,
   "UsePersonAddress": false,
   "ContactFax": "ullam",
-  "Kanafname": "suscipit",
-  "Kanalname": "blanditiis",
-  "Post1": "rem",
-  "Post2": "error",
-  "Post3": "fugit",
-  "EmailName": "melyssa@schmitt.ca",
-  "ContactFullName": "Kyra Armstrong",
-  "ActiveErpLinks": 741,
-  "TicketPriorityId": 742,
-  "SupportLanguageId": 776,
-  "SupportAssociateId": 139,
+  "Kanafname": "eum",
+  "Kanalname": "repellendus",
+  "Post1": "officia",
+  "Post2": "sint",
+  "Post3": "sunt",
+  "EmailName": "alva@bahringer.us",
+  "ContactFullName": "Joe Sawayn III",
+  "ActiveErpLinks": 550,
+  "TicketPriorityId": 999,
+  "SupportLanguageId": 594,
+  "SupportAssociateId": 138,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 655
     }
   }
 }

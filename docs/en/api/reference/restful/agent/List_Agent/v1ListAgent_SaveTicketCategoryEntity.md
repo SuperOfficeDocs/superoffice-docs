@@ -96,33 +96,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 215,
-  "ParentId": 418,
-  "Name": "Romaguera Group",
-  "Fullname": "enim",
-  "CategoryMaster": 424,
+  "TicketCategoryId": 927,
+  "ParentId": 594,
+  "Name": "Wolff Inc and Sons",
+  "Fullname": "nostrum",
+  "CategoryMaster": 441,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Howe, Kemmer and Hahn",
+  "ExternalName": "Heller Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 89,
-  "ReplyTemplate": 22,
-  "NotificationEmail": "berniece@bahringer.com",
+  "AssignmentLag": 394,
+  "ReplyTemplate": 563,
+  "NotificationEmail": "ransom@leffler.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 151,
+  "EffectiveReplyTemplateId": 114,
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "expedita"
+    "CustomFields1": "qui",
+    "CustomFields2": "accusamus"
   }
 }
 ```
@@ -134,36 +134,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 185,
-  "ParentId": 441,
-  "Name": "Casper, White and Romaguera",
-  "Fullname": "eum",
-  "CategoryMaster": 683,
+  "TicketCategoryId": 123,
+  "ParentId": 560,
+  "Name": "Fay-Greenholt",
+  "Fullname": "pariatur",
+  "CategoryMaster": 420,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cole-Legros",
+  "ExternalName": "Bogisich LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 697,
-  "ReplyTemplate": 823,
-  "NotificationEmail": "lauryn@greenfelder.com",
+  "AssignmentLag": 315,
+  "ReplyTemplate": 183,
+  "NotificationEmail": "rickey@macejkovickoch.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 214,
+  "EffectiveReplyTemplateId": 512,
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "quod"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 674
     }
   }
 }

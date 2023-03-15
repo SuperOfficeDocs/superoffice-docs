@@ -76,17 +76,17 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 458,
-  "Name": "Schumm Group",
+  "TicketStatusId": 93,
+  "Name": "Mayert, Jenkins and Rosenbaum",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": false
+  "UsedInQueue": true
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 249,
-  "Name": "Kassulke, Kozey and Von",
+  "TicketStatusId": 609,
+  "Name": "Feeney-Abernathy",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": true,
+  "IsDefault": false,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldLength": 137
     }
   }
 }

@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "non",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-11-18T11:22:38.9926773+01:00",
-  "Amount": 14275.369999999999,
-  "SaleId": 451,
-  "Earning": 17838.728,
-  "EarningPercent": 2052.77,
-  "Heading": "nulla",
-  "Number": "820119",
-  "Probability": 13,
-  "CreatedDate": "2007-10-15T11:22:38.9926773+02:00",
-  "UpdatedDate": "1997-09-07T11:22:38.9926773+02:00",
+  "Saledate": "2004-07-23T12:15:20.0307421+02:00",
+  "Amount": 21235.984,
+  "SaleId": 398,
+  "Earning": 26544.98,
+  "EarningPercent": 5387.346,
+  "Heading": "maiores",
+  "Number": "1054169",
+  "Probability": 213,
+  "CreatedDate": "1999-01-15T12:15:20.0307421+01:00",
+  "UpdatedDate": "2021-09-17T12:15:20.0307421+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 999,
+  "ActiveLinks": 530,
   "Links": [
     {
-      "EntityName": "Bernhard Group",
-      "Id": 182,
-      "Description": "Re-engineered assymetric budgetary management",
-      "ExtraInfo": "officiis",
-      "LinkId": 816,
+      "EntityName": "Rau, Johnson and Marquardt",
+      "Id": 673,
+      "Description": "Optimized mobile capacity",
+      "ExtraInfo": "maiores",
+      "LinkId": 379,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 523
         }
       }
     }
   ],
-  "NextDueDate": "2022-12-01T11:22:38.9926773+01:00",
-  "Postit": "animi",
+  "NextDueDate": "2019-04-02T12:15:20.0307421+02:00",
+  "Postit": "id",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-03-28T11:22:38.9926773+02:00",
+  "ReopenDate": "2009-12-03T12:15:20.0317362+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Jewess Group",
-      "Comment": "et",
-      "StakeholderRoleId": 273,
-      "CountryId": 430,
-      "PersonId": 183,
-      "EmailDescription": "jamarcus@conroyherman.us",
-      "EmailId": 446,
-      "EmailAddress": "junius@markskemmer.name",
-      "PhoneId": 358,
-      "ContactName": "Daniel, Rippin and Reichert",
-      "ContactId": 52,
-      "SaleId": 84,
-      "Mrmrs": "ratione",
-      "Firstname": "Payton",
-      "MiddleName": "Gusikowski Group",
-      "Lastname": "Hudson",
-      "SaleStakeholderId": 539,
-      "Rank": 150,
-      "Phone": "813-771-6982",
+      "StakeholderRoleName": "Schamberger-Senger",
+      "Comment": "debitis",
+      "StakeholderRoleId": 66,
+      "CountryId": 958,
+      "PersonId": 453,
+      "EmailDescription": "johnnie.schmitt@schowalter.name",
+      "EmailId": 225,
+      "EmailAddress": "olen.schmitt@mclaughlin.us",
+      "PhoneId": 353,
+      "ContactName": "Weimann, Ledner and Walsh",
+      "ContactId": 631,
+      "SaleId": 24,
+      "Mrmrs": "harum",
+      "Firstname": "Albina",
+      "MiddleName": "Yundt-Kunze",
+      "Lastname": "Satterfield",
+      "SaleStakeholderId": 997,
+      "Rank": 968,
+      "Phone": "009.690.1435 x6881",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldLength": 38
         }
       }
     }
   ],
-  "ActiveErpLinks": 537,
+  "ActiveErpLinks": 313,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Miles Katrina McLaughlin",
-    "SuperOffice:2": "Mr. Sim Brown DDS"
+    "SuperOffice:1": "2041269139",
+    "SuperOffice:2": "1585577453"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "iste"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "ad"
+    "CustomFields1": "est",
+    "CustomFields2": "quas"
   },
-  "PublishEventDate": "2020-05-07T11:22:38.9926773+02:00",
-  "PublishTo": "2007-08-03T11:22:38.9926773+02:00",
-  "PublishFrom": "2021-04-15T11:22:38.9926773+02:00",
+  "PublishEventDate": "1996-01-31T12:15:20.0327359+01:00",
+  "PublishTo": "2013-05-20T12:15:20.0327359+02:00",
+  "PublishFrom": "2014-10-15T12:15:20.0327359+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 298,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     },
     {
-      "VisibleId": 298,
+      "VisibleId": 514,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 905
+          "FieldType": "System.Int32",
+          "FieldLength": 684
         }
       }
     }
@@ -239,8 +239,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

@@ -74,27 +74,27 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 7,
-  "CrmRecordId": 861,
+  "ErpConnectionId": 805,
+  "CrmRecordId": 834,
   "CrmActorType": "Contact",
-  "ErpKey": "et",
+  "ErpKey": "saepe",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Osinski, Hudson and Adams",
-      "CrmFieldKey": "aperiam",
-      "Value": "consequatur",
-      "DisplayValue": "soluta",
+      "DisplayName": "Hand Group",
+      "CrmFieldKey": "aut",
+      "Value": "iusto",
+      "DisplayValue": "occaecati",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Osinski, Hudson and Adams",
-      "CrmFieldKey": "aperiam",
-      "Value": "consequatur",
-      "DisplayValue": "soluta",
+      "DisplayName": "Hand Group",
+      "CrmFieldKey": "aut",
+      "Value": "iusto",
+      "DisplayValue": "occaecati",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

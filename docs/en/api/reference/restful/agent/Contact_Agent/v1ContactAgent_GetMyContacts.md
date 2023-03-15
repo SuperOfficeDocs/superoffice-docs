@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 908,
-    "Name": "Metz Inc and Sons",
-    "OrgNr": "1421642",
+    "ContactId": 323,
+    "Name": "Kassulke Group",
+    "OrgNr": "1220827",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "earum",
-    "DirectPhone": "(748)127-4297 x722",
-    "AssociateId": 846,
-    "CountryId": 652,
-    "EmailAddress": "gabriella.king@kiehn.uk",
-    "Kananame": "dolor",
-    "EmailAddressName": "moises.ortiz@hoppe.us",
+    "City": "ut",
+    "DirectPhone": "1-914-669-6208 x98731",
+    "AssociateId": 55,
+    "CountryId": 290,
+    "EmailAddress": "alize@kirlin.co.uk",
+    "Kananame": "aut",
+    "EmailAddressName": "darrel@mcculloughgutmann.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Prof. Jude Collier II",
+    "AssociateFullName": "Mckayla Gaylord Sr.",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "nemo",
-    "FullName": "Ms. Maud Sydnie Hoeger V",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 228,
-    "Number1": "925632",
-    "Number2": "1440558",
+    "FormattedAddress": "rerum",
+    "FullName": "Maybell Dickens",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 122,
+    "Number1": "1080517",
+    "Number2": "1131202",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldType": "System.String",
+        "FieldLength": 488
       }
     }
   }

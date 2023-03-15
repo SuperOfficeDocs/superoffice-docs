@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 615,
-  "ListItemId": 121,
+  "UdListDefinitionId": 592,
+  "ListItemId": 492,
   "ShowDeleted": false
 }
 ```
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Swaniawski, Metz and Little",
-    "ToolTip": "Dolores quia ut amet perferendis explicabo necessitatibus sequi.",
-    "Deleted": true,
-    "Rank": 753,
-    "Type": "illum",
-    "ColorBlock": 457,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2018-03-27T11:22:38.4615502+02:00",
+    "Id": 148,
+    "Name": "Dibbert, Schneider and Stoltenberg",
+    "ToolTip": "Earum repellat nihil qui quasi.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "sit",
+    "ColorBlock": 102,
+    "IconHint": "voluptates",
+    "Selected": true,
+    "LastChanged": "2007-02-01T12:15:19.2607472+01:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Senger, Murazik and Sawayn",
-        "ToolTip": "Dignissimos iure et officiis natus assumenda.",
-        "Deleted": false,
-        "Rank": 576,
-        "Type": "cumque",
-        "ColorBlock": 639,
-        "IconHint": "quis",
+        "Id": 213,
+        "Name": "Leffler LLC",
+        "ToolTip": "Placeat inventore eius rerum at rerum iste.",
+        "Deleted": true,
+        "Rank": 338,
+        "Type": "quia",
+        "ColorBlock": 414,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "1998-11-14T11:22:38.4615502+01:00",
+        "LastChanged": "2014-02-09T12:15:19.2607472+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Emie Schmidt",
+        "ExtraInfo": "facere",
+        "StyleHint": "veniam",
+        "Hidden": true,
+        "FullName": "Ms. Lyla Waters I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 490
+            "FieldType": "System.Int32",
+            "FieldLength": 463
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "et",
+    "StyleHint": "quam",
     "Hidden": false,
-    "FullName": "Brain Harry Schroeder MD",
+    "FullName": "Miss Junius Lowe II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 887
+        "FieldLength": 990
       }
     }
   }

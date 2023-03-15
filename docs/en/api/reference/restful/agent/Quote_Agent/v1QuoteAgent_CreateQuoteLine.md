@@ -125,8 +125,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 130,
-  "ERPProductKey": "enim"
+  "QuoteAlternativeId": 939,
+  "ERPProductKey": "dolorum"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 151,
-  "ERPQuoteLineKey": "recusandae",
-  "QuoteAlternativeId": 708,
-  "ERPProductKey": "eos",
+  "QuoteLineId": 174,
+  "ERPQuoteLineKey": "totam",
+  "QuoteAlternativeId": 731,
+  "ERPProductKey": "non",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 12097.24,
-  "DeliveredQuantity": 9085.466,
-  "Rank": 648,
-  "Name": "Zieme-Hessel",
-  "Description": "Synergized heuristic instruction set",
-  "Code": "magni",
-  "QuantityUnit": "asperiores",
-  "PriceUnit": "expedita",
-  "ItemNumber": "1077357",
+  "Quantity": 23332.63,
+  "DeliveredQuantity": 27870.662,
+  "Rank": 681,
+  "Name": "Schaden LLC",
+  "Description": "Intuitive bifurcated utilisation",
+  "Code": "consequatur",
+  "QuantityUnit": "sint",
+  "PriceUnit": "sint",
+  "ItemNumber": "1894102",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "itaque",
-  "ProductTypeKey": "et",
-  "Supplier": "accusamus",
-  "SupplierCode": "quidem",
-  "Thumbnail": "nemo",
-  "VATInfo": "dolor",
-  "VAT": 25733.273999999998,
-  "UnitCost": 22721.5,
-  "UnitMinimumPrice": 19885.23,
-  "UnitListPrice": 529.646,
+  "ProductFamilyKey": "reprehenderit",
+  "ProductTypeKey": "quaerat",
+  "Supplier": "velit",
+  "SupplierCode": "recusandae",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "quo",
+  "VAT": 17957.82,
+  "UnitCost": 14779.944,
+  "UnitMinimumPrice": 18174.066,
+  "UnitListPrice": 24899.629999999997,
   "ExtraInfo": [
     {
-      "Name": "Rohan Group",
-      "Value": "qui",
+      "Name": "Kreiger, Senger and McLaughlin",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     },
     {
-      "Name": "Rohan Group",
-      "Value": "qui",
+      "Name": "Kreiger, Senger and McLaughlin",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     }
   ],
-  "RawExtraInfo": "quis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "SubscriptionQuantity": 9771.812,
-  "SubscriptionStart": "2001-12-01T11:22:38.9458129+01:00",
-  "ERPDiscountPercent": 27949.012,
-  "ERPDiscountAmount": 25664.326,
-  "DiscountPercent": 19255.296,
-  "DiscountAmount": 17240.134,
+  "RawExtraInfo": "optio",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ad",
+  "SubscriptionQuantity": 16152.635999999999,
+  "SubscriptionStart": "2000-04-30T12:15:19.9627392+02:00",
+  "ERPDiscountPercent": 18368.374,
+  "ERPDiscountAmount": 17359.226,
+  "DiscountPercent": 29190.075999999997,
+  "DiscountAmount": 12730.307999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 8894.292,
-  "EarningAmount": 13137.728,
-  "SubTotal": 17268.34,
-  "TotalPrice": 17337.288,
-  "Rights": "minima",
-  "Rule": "dolorem",
-  "ExtraField1": "et",
-  "ExtraField2": "ut",
-  "ExtraField3": "qui",
-  "ExtraField4": "accusamus",
-  "ExtraField5": "ea",
+  "EarningPercent": 19255.296,
+  "EarningAmount": 5804.168,
+  "SubTotal": 2115.45,
+  "TotalPrice": 3046.248,
+  "Rights": "aliquam",
+  "Rule": "quo",
+  "ExtraField1": "eaque",
+  "ExtraField2": "maiores",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 791
     }
   }
 }

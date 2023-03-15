@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 150
+  "ContactId": 123
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 363,
-    "Name": "Legros, Crist and Hintz",
-    "Description": "Universal system-worthy model",
+    "ProjectId": 491,
+    "Name": "Corkery-Kub",
+    "Description": "Object-based client-driven application",
     "URL": "http://www.example.com/",
-    "Type": "quas",
-    "AssociateId": 514,
-    "AssociateFullName": "Miss Dedric Dino Strosin III",
-    "TypeId": 519,
-    "Updated": "2004-06-14T11:22:38.8520826+02:00",
-    "StatusId": 425,
-    "Status": "suscipit",
-    "TextId": 309,
-    "PublishTo": "2007-02-12T11:22:38.8520826+01:00",
-    "PublishFrom": "2017-03-29T11:22:38.8520826+02:00",
+    "Type": "enim",
+    "AssociateId": 135,
+    "AssociateFullName": "Mrs. Furman Mia Collier",
+    "TypeId": 573,
+    "Updated": "2021-01-29T12:15:19.8617384+01:00",
+    "StatusId": 737,
+    "Status": "dolorem",
+    "TextId": 826,
+    "PublishTo": "2015-07-15T12:15:19.8627386+02:00",
+    "PublishFrom": "1996-02-23T12:15:19.8627386+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1163905",
-    "ActiveErpLinks": 199,
+    "ProjectNumber": "1564679",
+    "ActiveErpLinks": 307,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 627
       }
     }
   }

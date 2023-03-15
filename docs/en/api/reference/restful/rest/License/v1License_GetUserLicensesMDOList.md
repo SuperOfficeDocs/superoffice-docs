@@ -68,7 +68,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,56 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Jenkins-Daugherty",
-    "ToolTip": "Quo officia commodi aut ut et odio.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "est",
-    "ColorBlock": 351,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "1998-06-29T11:22:45.412996+02:00",
+    "Id": 384,
+    "Name": "Blick, Parisian and Durgan",
+    "ToolTip": "Molestiae non blanditiis velit quis.",
+    "Deleted": true,
+    "Rank": 330,
+    "Type": "qui",
+    "ColorBlock": 848,
+    "IconHint": "libero",
+    "Selected": true,
+    "LastChanged": "1998-09-14T12:15:27.6436228+02:00",
     "ChildItems": [
       {
-        "Id": 476,
-        "Name": "DuBuque Group",
-        "ToolTip": "Aut hic quaerat molestias dolorem error.",
+        "Id": 951,
+        "Name": "Shields, Schumm and Ritchie",
+        "ToolTip": "Repellendus et laboriosam delectus adipisci qui reiciendis cum.",
         "Deleted": false,
-        "Rank": 947,
-        "Type": "nobis",
-        "ColorBlock": 65,
-        "IconHint": "mollitia",
-        "Selected": false,
-        "LastChanged": "2013-09-23T11:22:45.412996+02:00",
+        "Rank": 265,
+        "Type": "quaerat",
+        "ColorBlock": 746,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2017-02-26T12:15:27.6436228+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "animi",
+        "ExtraInfo": "velit",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Dr. Amie Kacey Stehr",
+        "FullName": "Korey Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldLength": 566
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "unde",
-    "Hidden": true,
-    "FullName": "Prof. Roel Florencio O'Reilly",
+    "ExtraInfo": "earum",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Emmanuel Leland Reinger IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

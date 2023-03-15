@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Littel, Zieme and Macejkovic",
-    "ToolTip": "Nisi sunt similique omnis quis perferendis quod voluptates.",
-    "Deleted": false,
-    "Rank": 182,
-    "Type": "est",
-    "ColorBlock": 769,
-    "IconHint": "sit",
+    "Id": 611,
+    "Name": "Abernathy, Wiza and Kuhic",
+    "ToolTip": "Doloremque ducimus aspernatur aut eius.",
+    "Deleted": true,
+    "Rank": 538,
+    "Type": "ducimus",
+    "ColorBlock": 770,
+    "IconHint": "fuga",
     "Selected": false,
-    "LastChanged": "1997-03-08T11:22:46.1003835+01:00",
+    "LastChanged": "2020-04-22T12:15:28.370615+02:00",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Schaefer Inc and Sons",
-        "ToolTip": "Dolorum ad.",
+        "Id": 880,
+        "Name": "Crona Inc and Sons",
+        "ToolTip": "In inventore.",
         "Deleted": true,
-        "Rank": 559,
-        "Type": "non",
-        "ColorBlock": 366,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2010-11-15T11:22:46.1003835+01:00",
+        "Rank": 236,
+        "Type": "eos",
+        "ColorBlock": 345,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2014-12-14T12:15:28.370615+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Andy Klein",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Wilber Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 248
+            "FieldLength": 440
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Delmer Jacobs",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Novella Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldType": "System.String",
+        "FieldLength": 605
       }
     }
   }

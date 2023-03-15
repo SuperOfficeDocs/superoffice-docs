@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 373
+  "ProjectId": 340
 }
 ```
 
@@ -116,94 +116,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "ea",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "eligendi",
-  "SignOnText": "qui",
-  "EventDate": "2004-10-29T11:22:38.8520826+02:00",
+  "SignOffConfirmationText": "quisquam",
+  "SignOffText": "sed",
+  "SignOnConfirmationText": "in",
+  "SignOnText": "nesciunt",
+  "EventDate": "1999-10-09T12:15:19.8527387+02:00",
   "Enabled": false,
-  "CreatedDate": "2012-11-04T11:22:38.8520826+01:00",
-  "SignOff": true,
+  "CreatedDate": "2014-07-10T12:15:19.8527387+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 940,
+  "SignOffTaskId": 453,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 227,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 307,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2011-12-10T11:22:38.8520826+01:00",
+  "UpdatedDate": "2014-10-19T12:15:19.8527387+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 266,
-  "Id": 888,
-  "PublishFrom": "2002-01-29T11:22:38.8520826+01:00",
+  "ProjectId": 1000,
+  "Id": 414,
+  "PublishFrom": "2022-05-22T12:15:19.8537388+02:00",
   "PublishType": "External",
-  "PublishTo": "2005-06-13T11:22:38.8520826+02:00",
+  "PublishTo": "2002-02-14T12:15:19.8537388+01:00",
   "VisibleForCategories": [
     {
-      "Id": 201,
-      "Name": "Pollich Inc and Sons",
-      "ToolTip": "Impedit vel praesentium et et.",
+      "Id": 394,
+      "Name": "Mohr, Dietrich and Parisian",
+      "ToolTip": "Sed necessitatibus ipsam.",
       "Deleted": true,
-      "Rank": 254,
-      "Type": "repellat",
+      "Rank": 708,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quidem",
-      "ColorBlock": 801,
-      "ExtraInfo": "corrupti",
-      "StyleHint": "iste",
-      "FullName": "Erwin Hane",
+      "IconHint": "sunt",
+      "ColorBlock": 148,
+      "ExtraInfo": "et",
+      "StyleHint": "vero",
+      "FullName": "King Gutkowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldLength": 475
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 619,
-      "Name": "Smitham Inc and Sons",
-      "ToolTip": "Autem minima incidunt voluptatem optio voluptas maxime doloribus.",
+      "Id": 646,
+      "Name": "Tromp-Towne",
+      "ToolTip": "Dolor nobis ullam dolor id.",
       "Deleted": false,
-      "Rank": 591,
-      "Type": "eligendi",
+      "Rank": 864,
+      "Type": "beatae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eaque",
-      "ColorBlock": 65,
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "doloremque",
-      "FullName": "Damon Roob",
+      "IconHint": "rem",
+      "ColorBlock": 731,
+      "ExtraInfo": "illum",
+      "StyleHint": "a",
+      "FullName": "Jade Robel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 607,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 736
+      "FieldType": "System.Int32",
+      "FieldLength": 751
     }
   }
 }

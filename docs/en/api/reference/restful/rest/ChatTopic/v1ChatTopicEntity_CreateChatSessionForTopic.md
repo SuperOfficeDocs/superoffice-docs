@@ -88,7 +88,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 213,
-  "TopicId": 641,
+  "ChatSessionId": 196,
+  "TopicId": 604,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "velit",
-  "CustomerName": "Hayes Group",
-  "CustomerEmail": "hardy_tromp@kassulke.biz",
-  "CustomerPhone": "535-961-4183",
+  "CustomerAlias": "cum",
+  "CustomerHost": "molestias",
+  "CustomerName": "West, Mueller and Raynor",
+  "CustomerEmail": "edwina.dibbert@mclaughlin.info",
+  "CustomerPhone": "1-797-696-2400 x606",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Olson-Auer",
+  "CustomerCompanyName": "Emard, Kub and Waelchi",
   "Status": "Closed",
-  "FirstMessage": "ratione",
-  "LastMessage": "aut",
-  "WhenRequested": "2009-04-04T11:22:44.4445217+02:00",
-  "WhenStarted": "2007-07-13T11:22:44.4445217+02:00",
-  "WhenEnded": "2016-04-16T11:22:44.4445217+02:00",
-  "WhenIdle": "2006-09-26T11:22:44.4445217+02:00",
-  "WhenFetched": "2013-06-04T11:22:44.4445217+02:00",
-  "SessionKey": "quis",
-  "InitialQueuePos": 336,
-  "AlertLevel": 584,
-  "Rank": 595,
+  "FirstMessage": "excepturi",
+  "LastMessage": "quasi",
+  "WhenRequested": "2021-10-17T12:15:26.552643+02:00",
+  "WhenStarted": "2009-10-26T12:15:26.552643+01:00",
+  "WhenEnded": "2017-04-22T12:15:26.552643+02:00",
+  "WhenIdle": "2005-11-04T12:15:26.552643+01:00",
+  "WhenFetched": "2006-10-09T12:15:26.552643+02:00",
+  "SessionKey": "recusandae",
+  "InitialQueuePos": 931,
+  "AlertLevel": 729,
+  "Rank": 150,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -128,13 +128,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 543,
+  "Rating": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 281
     }
   }
 }

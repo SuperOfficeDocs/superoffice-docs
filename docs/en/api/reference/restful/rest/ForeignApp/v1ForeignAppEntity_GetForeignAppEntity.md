@@ -79,7 +79,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,32 +87,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 Sep 1998 11:22:44 G9T
+Last-Modified: Wed, 26 Jan 2005 12:15:26 G1T
 
 {
-  "ForeignAppId": 103,
-  "Name": "Bruen-Zemlak",
-  "CreatedDate": "1998-06-07T11:22:44.8662479+02:00",
-  "UpdatedDate": "1998-09-26T11:22:44.8662479+02:00",
+  "ForeignAppId": 144,
+  "Name": "Kozey, Rohan and Morar",
+  "CreatedDate": "2011-06-29T12:15:26.9526354+02:00",
+  "UpdatedDate": "2005-01-26T12:15:26.9526354+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 604,
-      "Name": "Bosco, Kuphal and Boehm",
-      "CreatedDate": "2001-11-13T11:22:44.8662479+01:00",
-      "UpdatedDate": "2014-06-11T11:22:44.8662479+02:00",
-      "AssociateFullName": "Dorothea Effertz",
-      "CreatedBy": "qui",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "commodi",
-      "ForeignAppId": 533,
+      "ForeignDeviceId": 159,
+      "Name": "Bergnaum LLC",
+      "CreatedDate": "1996-01-21T12:15:26.9526354+01:00",
+      "UpdatedDate": "1996-06-19T12:15:26.9526354+02:00",
+      "AssociateFullName": "Kasandra Lindgren",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "doloribus",
+      "ForeignAppId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 854
         }
       }
     }
@@ -121,8 +121,8 @@ Last-Modified: Sat, 26 Sep 1998 11:22:44 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 67
     }
   },
   "_Links": {

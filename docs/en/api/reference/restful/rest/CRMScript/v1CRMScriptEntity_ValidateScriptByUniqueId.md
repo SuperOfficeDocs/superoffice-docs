@@ -75,13 +75,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "quae",
+  "ErrorMessage": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 537
     }
   }
 }

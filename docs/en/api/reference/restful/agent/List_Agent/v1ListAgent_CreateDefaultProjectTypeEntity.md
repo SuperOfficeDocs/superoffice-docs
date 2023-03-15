@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 292,
-  "Name": "Runolfsson, Corwin and O'Connell",
-  "Tooltip": "recusandae",
-  "Rank": 665,
+  "ProjTypeId": 240,
+  "Name": "Schaden-Hamill",
+  "Tooltip": "aliquam",
+  "Rank": 771,
   "DurationUnit": "Century",
-  "ProjectDuration": 637,
-  "Deleted": false,
+  "ProjectDuration": 857,
+  "Deleted": true,
   "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 825,
-      "Name": "Dickens Inc and Sons",
-      "ToolTip": "Dolores officia tempore eum dolor iure.",
+      "Id": 634,
+      "Name": "Doyle, Murphy and Bradtke",
+      "ToolTip": "Recusandae eaque.",
       "Deleted": false,
-      "Rank": 820,
-      "Type": "accusantium",
-      "ColorBlock": 852,
-      "IconHint": "voluptatem",
+      "Rank": 780,
+      "Type": "natus",
+      "ColorBlock": 279,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2017-04-12T11:22:38.5240368+02:00",
+      "LastChanged": "1996-07-15T12:15:19.3307464+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "perspiciatis",
+      "ExtraInfo": "non",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Cody Rogahn MD",
+      "FullName": "Marquis Rau",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 384
+          "FieldLength": 535
         }
       }
     }
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldType": "System.Int32",
+      "FieldLength": 477
     }
   }
 }

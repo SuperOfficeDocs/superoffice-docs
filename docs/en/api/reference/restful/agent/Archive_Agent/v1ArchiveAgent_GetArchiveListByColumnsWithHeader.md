@@ -101,36 +101,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kerluke Group",
+  "ProviderName": "Wiegand, Johns and Kerluke",
   "Columns": [
-    "eos",
-    "quidem"
+    "nobis",
+    "rerum"
   ],
   "SortOrder": [
     {
-      "Name": "Kreiger-Hermann",
+      "Name": "Blick-Goyette",
       "Direction": "ASC"
     },
     {
-      "Name": "Kreiger-Hermann",
+      "Name": "Blick-Goyette",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Daniel-Eichmann",
-      "Operator": "iste",
+      "Name": "Ernser-Mante",
+      "Operator": "voluptatum",
       "Values": [
-        "natus",
-        "corrupti"
+        "sit",
+        "natus"
       ],
       "DisplayValues": [
-        "assumenda",
-        "saepe"
+        "dolorum",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,18 +138,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 576,
+      "InterParenthesis": 567,
       "InterOperator": "And",
-      "UniqueHash": 790
+      "UniqueHash": 636
     }
   ],
   "Entities": [
-    "dignissimos",
-    "aperiam"
+    "consequuntur",
+    "nostrum"
   ],
-  "Page": 750,
-  "PageSize": 483,
-  "Options": "odit"
+  "Page": 495,
+  "PageSize": 634,
+  "Options": "nemo"
 }
 ```
 
@@ -160,26 +160,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 651,
+  "RowCount": 387,
   "Rows": [
     {
-      "EntityName": "Graham, Torp and Wisozk",
-      "PrimaryKey": 435,
+      "EntityName": "Jewess, Paucek and Bernhard",
+      "PrimaryKey": 459,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "praesentium",
-          "TooltipHint": "adipisci",
-          "LinkHint": "recusandae"
+          "DisplayValue": "natus",
+          "TooltipHint": "et",
+          "LinkHint": "neque"
         }
       },
-      "LinkHint": "harum",
-      "StyleHint": "labore",
+      "LinkHint": "commodi",
+      "StyleHint": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 657
+          "FieldLength": 306
         }
       }
     }
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldType": "System.Int32",
+      "FieldLength": 223
     }
   }
 }

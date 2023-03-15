@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 465,
+  "TargetYear": 275,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 209,
-  "DimensionId": 328
+  "Id": 194,
+  "DimensionId": 989
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 274,
+  "TargetAssignmentInfoId": 794,
   "Values": [
-    895,
-    431
+    380,
+    48
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 702,
-  "DimensionListItemDisplayName": "Hermiston-DuBuque",
+  "DimensionListItem": 78,
+  "DimensionListItemDisplayName": "Price-Kihn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

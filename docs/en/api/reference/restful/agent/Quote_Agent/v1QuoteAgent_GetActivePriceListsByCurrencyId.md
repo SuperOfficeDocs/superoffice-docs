@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 378,
-  "CurrencyId": 608
+  "QuoteConnectionId": 599,
+  "CurrencyId": 384
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 592,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 86,
-    "Name": "Metz, Harvey and Leannon",
-    "Description": "User-centric systemic matrix",
-    "Currency": "et",
-    "CurrencyName": "Hane, Reichel and Jacobson",
-    "ValidFrom": "2011-07-15T11:22:38.9301893+02:00",
-    "ValidTo": "1999-03-14T11:22:38.9301893+01:00",
-    "IsActive": false,
+    "PriceListId": 750,
+    "ERPPriceListKey": "molestiae",
+    "QuoteConnectionId": 388,
+    "Name": "Watsica Group",
+    "Description": "Organic well-modulated hub",
+    "Currency": "voluptatem",
+    "CurrencyName": "Nitzsche-Walter",
+    "ValidFrom": "1999-07-16T12:15:19.9477056+02:00",
+    "ValidTo": "2019-12-17T12:15:19.9477056+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 950
       }
     }
   }

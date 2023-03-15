@@ -90,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -104,74 +104,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "aut",
-    "ValueType": "vero",
-    "Mandatory": false,
-    "EncodedDisplayName": "Abshire-Stokes",
-    "EncodedDisplayDescription": "Business-focused actuating collaboration",
-    "IconHint": "reiciendis",
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "error",
+    "ValueType": "similique",
+    "Mandatory": true,
+    "EncodedDisplayName": "Schuster Group",
+    "EncodedDisplayDescription": "Configurable grid-enabled standardization",
+    "IconHint": "quia",
     "ControlInfos": [
       {
-        "Type": "voluptatem",
-        "Label": "atque",
-        "Dimension": 192,
-        "ListProviderName": "Koepp, Turner and Emmerich",
-        "ListProviderExtraInfo": "est",
-        "ListProviderPrimaryKeyName": "Hills-O'Keefe",
-        "ListLeadText": "nihil",
+        "Type": "vitae",
+        "Label": "ut",
+        "Dimension": 783,
+        "ListProviderName": "Wilderman, Labadie and Breitenberg",
+        "ListProviderExtraInfo": "facilis",
+        "ListProviderPrimaryKeyName": "Dach Group",
+        "ListLeadText": "consectetur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 106
+            "FieldLength": 949
           }
         }
       }
     ],
-    "EncodedDataCaption": "consequuntur",
-    "EncodedDataCaptionDescription": "Assimilated upward-trending workforce",
-    "CurrentOperationType": "in",
+    "EncodedDataCaption": "eaque",
+    "EncodedDataCaptionDescription": "Distributed high-level archive",
+    "CurrentOperationType": "sint",
     "Values": [
-      "consequuntur",
-      "ipsa"
+      "temporibus",
+      "a"
     ],
     "DisplayValues": [
-      "aut",
-      "quia"
+      "cupiditate",
+      "molestiae"
     ],
     "OperationInfos": [
       {
-        "Key": "id",
-        "EncodedDisplayName": "Crona, Wunsch and Marquardt",
+        "Key": "aut",
+        "EncodedDisplayName": "Gorczany-Welch",
         "EncodedLeadTexts": [
-          "eos",
-          "nemo"
+          "aliquam",
+          "accusamus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 456
+            "FieldLength": 234
           }
         }
       },
       {
-        "Key": "id",
-        "EncodedDisplayName": "Crona, Wunsch and Marquardt",
+        "Key": "aut",
+        "EncodedDisplayName": "Gorczany-Welch",
         "EncodedLeadTexts": [
-          "eos",
-          "nemo"
+          "aliquam",
+          "accusamus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 456
+            "FieldLength": 234
           }
         }
       }

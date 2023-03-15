@@ -103,33 +103,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Larson-Ward",
-  "ProviderName": "Hyatt, O'Connell and Romaguera",
+  "GuiName": "O'Reilly, Stamm and Mann",
+  "ProviderName": "Lebsack LLC",
   "SortOrder": [
     {
-      "Name": "Reinger, Stracke and Bartoletti",
+      "Name": "Skiles Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Reinger, Stracke and Bartoletti",
+      "Name": "Skiles Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bartoletti Inc and Sons",
-      "Operator": "sint",
+      "Name": "Price-Nader",
+      "Operator": "sit",
       "Values": [
-        "quia",
-        "vel"
+        "est",
+        "quasi"
       ],
       "DisplayValues": [
-        "optio",
-        "aut"
+        "soluta",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -137,17 +137,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 381,
+      "InterParenthesis": 887,
       "InterOperator": "And",
-      "UniqueHash": 130
+      "UniqueHash": 76
     }
   ],
   "Entities": [
-    "corporis",
-    "ut"
+    "eos",
+    "et"
   ],
-  "Page": 525,
-  "PageSize": 97
+  "Page": 619,
+  "PageSize": 713
 }
 ```
 
@@ -159,23 +159,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Macejkovic Group",
-    "PrimaryKey": 161,
+    "EntityName": "Hamill-Hamill",
+    "PrimaryKey": 805,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "tempore",
-        "TooltipHint": "voluptatibus",
-        "LinkHint": "voluptates"
+        "DisplayValue": "numquam",
+        "TooltipHint": "reiciendis",
+        "LinkHint": "earum"
       }
     },
-    "LinkHint": "alias",
-    "StyleHint": "fugit",
+    "LinkHint": "sequi",
+    "StyleHint": "corrupti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 674
+        "FieldType": "System.Int32",
+        "FieldLength": 122
       }
     }
   }

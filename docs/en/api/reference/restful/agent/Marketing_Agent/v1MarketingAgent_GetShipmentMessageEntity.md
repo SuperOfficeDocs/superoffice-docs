@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=892
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=104
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 287,
-  "PlainMessage": "voluptas",
-  "HtmlMessage": "ab",
-  "SmsMessage": "voluptates",
-  "Description": "Team-oriented full-range throughput",
-  "Subject": "est",
-  "FolderId": 961,
-  "HeaderField": "unde",
-  "Design": "sint",
+  "ShipmentMessageId": 754,
+  "PlainMessage": "sit",
+  "HtmlMessage": "praesentium",
+  "SmsMessage": "dolorem",
+  "Description": "Multi-layered background framework",
+  "Subject": "quibusdam",
+  "FolderId": 202,
+  "HeaderField": "esse",
+  "Design": "officiis",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Ergonomic neutral neural-net",
-  "AccessKey": "soluta",
-  "DocumentMessage": 65,
-  "Registered": "2005-10-04T11:22:38.5708923+02:00",
-  "RegisteredAssociateId": 147,
-  "Updated": "2001-09-22T11:22:38.5708923+02:00",
-  "UpdatedAssociateId": 871,
-  "UpdatedCount": 909,
+  "InlineImages": true,
+  "LongDescription": "Managed logistical website",
+  "AccessKey": "saepe",
+  "DocumentMessage": 854,
+  "Registered": "2009-08-09T12:15:19.3747456+02:00",
+  "RegisteredAssociateId": 800,
+  "Updated": "2008-08-18T12:15:19.3747456+02:00",
+  "UpdatedAssociateId": 195,
+  "UpdatedCount": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

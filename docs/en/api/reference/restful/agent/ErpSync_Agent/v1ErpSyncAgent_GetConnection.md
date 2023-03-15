@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 626
+  "ErpConnectionId": 774
 }
 ```
 
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 898,
-  "ErpConnectorId": 301,
-  "DisplayName": "D'Amore Group",
-  "DisplayDescription": "Open-architected asynchronous knowledge base",
-  "Active": true,
-  "ConnectionId": "expedita",
-  "MostRecentTimestamp": "quis",
+  "ErpConnectionId": 931,
+  "ErpConnectorId": 684,
+  "DisplayName": "Watsica, Dickens and Gottlieb",
+  "DisplayDescription": "Synergistic reciprocal architecture",
+  "Active": false,
+  "ConnectionId": "vero",
+  "MostRecentTimestamp": "impedit",
   "ConfigFields": {
-    "ConfigFields1": "ad",
-    "ConfigFields2": "fugiat"
+    "ConfigFields1": "sit",
+    "ConfigFields2": "at"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    21,
-    564
+    361,
+    489
   ],
   "AssociateAccessIds": [
-    229,
-    406
+    425,
+    421
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 778
     }
   }
 }

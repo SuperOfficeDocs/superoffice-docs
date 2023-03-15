@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Windler-Larson",
-    "ToolTip": "At optio est in molestiae.",
-    "Deleted": false,
-    "Rank": 141,
-    "Type": "saepe",
-    "ColorBlock": 381,
-    "IconHint": "facere",
+    "Id": 302,
+    "Name": "Huel, Turcotte and Murazik",
+    "ToolTip": "Non repellat deleniti eius aut hic.",
+    "Deleted": true,
+    "Rank": 350,
+    "Type": "quas",
+    "ColorBlock": 753,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "1995-09-25T11:22:46.1941157+02:00",
+    "LastChanged": "2015-07-21T12:15:28.5036132+02:00",
     "ChildItems": [
       {
-        "Id": 508,
-        "Name": "Conn, Wisozk and Marquardt",
-        "ToolTip": "Qui quibusdam non culpa ad.",
+        "Id": 61,
+        "Name": "Rice-Schowalter",
+        "ToolTip": "Quibusdam distinctio ad eius earum mollitia.",
         "Deleted": false,
-        "Rank": 995,
-        "Type": "dignissimos",
-        "ColorBlock": 178,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "2016-10-09T11:22:46.1941157+02:00",
+        "Rank": 318,
+        "Type": "iure",
+        "ColorBlock": 619,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2001-01-21T12:15:28.5036132+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "commodi",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ramon Rau"
+        "FullName": "Kallie Little"
       }
     ],
     "ExtraInfo": "ad",
-    "StyleHint": "iure",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Lafayette Harris"
+    "FullName": "Agustina Hudson Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Rutherford Group",
-    "ToolTip": "Dolorum est error dolorem eaque.",
-    "Deleted": false,
-    "Rank": 79,
-    "Type": "consequuntur",
-    "ColorBlock": 410,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "1999-05-21T11:22:46.1941157+02:00",
+    "Id": 618,
+    "Name": "Halvorson, Olson and Mertz",
+    "ToolTip": "Dolores perspiciatis.",
+    "Deleted": true,
+    "Rank": 698,
+    "Type": "ducimus",
+    "ColorBlock": 583,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2011-08-15T12:15:28.5056134+02:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Bernier Inc and Sons",
-        "ToolTip": "Tempore aut sunt rerum.",
+        "Id": 900,
+        "Name": "Luettgen-Bernhard",
+        "ToolTip": "Placeat eius.",
         "Deleted": false,
-        "Rank": 302,
-        "Type": "delectus",
-        "ColorBlock": 794,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2015-04-23T11:22:46.1941157+02:00",
+        "Rank": 57,
+        "Type": "ex",
+        "ColorBlock": 402,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2019-11-21T12:15:28.5056134+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "in",
+        "ExtraInfo": "odit",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Zena Donnelly",
+        "FullName": "Dr. Dean Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 237
+            "FieldType": "System.String",
+            "FieldLength": 893
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Randy Ryan",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Raoul Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 918
+        "FieldLength": 37
       }
     }
   }

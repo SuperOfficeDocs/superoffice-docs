@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Walter, Purdy and Weissnat",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 304,
+  "Id": 284,
+  "Name": "Ortiz-Senger",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 508,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eos",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 337
     }
   },
   "_Links": {

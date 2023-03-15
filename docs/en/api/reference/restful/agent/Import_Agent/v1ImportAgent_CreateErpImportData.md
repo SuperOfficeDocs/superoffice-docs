@@ -82,32 +82,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Zulauf, Upton and Murazik",
-      "Operator": "perferendis",
+      "Name": "Mraz, Howe and Smitham",
+      "Operator": "et",
       "Values": [
-        "commodi",
-        "nihil"
+        "autem",
+        "et"
       ],
       "DisplayValues": [
-        "repudiandae",
-        "enim"
+        "iusto",
+        "eum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 13,
+      "InterParenthesis": 206,
       "InterOperator": "And",
-      "UniqueHash": 27
+      "UniqueHash": 145
     }
   ],
   "Columns": [
-    "voluptas",
-    "rem"
+    "est",
+    "in"
   ],
-  "ConnectionId": 928,
+  "ConnectionId": 533,
   "ErpActorType": "Customer"
 }
 ```
@@ -122,47 +122,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "voluptatem",
-        "quo"
+        "molestiae",
+        "consectetur"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ad",
+      "ExternalKey": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 200
+          "FieldLength": 897
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Macejkovic-Quigley",
-      "DisplayName": "Hoeger LLC",
+      "Name": "Marks, Beier and Tillman",
+      "DisplayName": "Huels, Auer and Greenfelder",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 206
         }
       }
     },
     {
-      "Name": "Macejkovic-Quigley",
-      "DisplayName": "Hoeger LLC",
+      "Name": "Marks, Beier and Tillman",
+      "DisplayName": "Huels, Auer and Greenfelder",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 206
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

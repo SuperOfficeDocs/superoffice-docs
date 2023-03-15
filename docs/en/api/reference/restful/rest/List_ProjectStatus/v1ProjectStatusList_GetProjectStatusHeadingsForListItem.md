@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Harber Inc and Sons",
-    "ToolTip": "Et magni autem et.",
+    "Id": 154,
+    "Name": "Graham-Abshire",
+    "ToolTip": "Culpa et aut voluptatibus recusandae nam exercitationem atque.",
     "Deleted": false,
-    "Rank": 664,
-    "Type": "maiores",
-    "ColorBlock": 990,
-    "IconHint": "et",
+    "Rank": 84,
+    "Type": "accusantium",
+    "ColorBlock": 506,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "1997-11-03T11:22:46.0691442+01:00",
+    "LastChanged": "2020-06-09T12:15:28.3366156+02:00",
     "ChildItems": [
       {
-        "Id": 147,
-        "Name": "Reinger, Fritsch and Ullrich",
-        "ToolTip": "Et eum qui dignissimos cupiditate perferendis sunt cupiditate.",
+        "Id": 586,
+        "Name": "Roberts, Satterfield and Bartoletti",
+        "ToolTip": "Provident suscipit eveniet.",
         "Deleted": false,
-        "Rank": 470,
-        "Type": "maxime",
-        "ColorBlock": 221,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "2005-04-17T11:22:46.0691442+02:00",
+        "Rank": 357,
+        "Type": "consequatur",
+        "ColorBlock": 156,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2001-02-24T12:15:28.3366156+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "a",
         "Hidden": true,
-        "FullName": "Shawn Marquardt",
+        "FullName": "Rasheed Jones MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 843
+            "FieldLength": 527
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Alessandra Nick Gulgowski MD",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Alva Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 295
+        "FieldLength": 567
       }
     }
   }

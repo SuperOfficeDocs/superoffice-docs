@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Cole LLC",
-    "ToolTip": "Exercitationem et asperiores autem.",
+    "Id": 819,
+    "Name": "Kuhlman-Stark",
+    "ToolTip": "Iste iste soluta aut in blanditiis libero.",
     "Deleted": false,
-    "Rank": 428,
-    "Type": "officia",
-    "ColorBlock": 610,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2009-01-18T11:22:46.1472512+01:00",
+    "Rank": 681,
+    "Type": "cupiditate",
+    "ColorBlock": 398,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2013-07-26T12:15:28.4416141+02:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "Daugherty LLC",
-        "ToolTip": "Cumque facere.",
+        "Id": 662,
+        "Name": "Casper-Schamberger",
+        "ToolTip": "In aliquam ex quam velit voluptas illo atque.",
         "Deleted": false,
-        "Rank": 352,
-        "Type": "et",
-        "ColorBlock": 42,
-        "IconHint": "harum",
+        "Rank": 206,
+        "Type": "maxime",
+        "ColorBlock": 753,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "1998-06-24T11:22:46.1472512+02:00",
+        "LastChanged": "2008-04-08T12:15:28.4416141+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "Ms. Malcolm Jeremie Orn V"
+        "ExtraInfo": "fuga",
+        "StyleHint": "nisi",
+        "Hidden": true,
+        "FullName": "Ubaldo Kling"
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "aut",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "assumenda",
     "Hidden": true,
-    "FullName": "Joaquin Corkery"
+    "FullName": "Mrs. Kariane Hills"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "Raynor, Nolan and Schmitt",
-    "ToolTip": "Quaerat quod ab incidunt qui.",
+    "Id": 802,
+    "Name": "Torp Inc and Sons",
+    "ToolTip": "Aliquid id suscipit accusantium exercitationem cum ipsa earum.",
     "Deleted": true,
-    "Rank": 746,
-    "Type": "ut",
-    "ColorBlock": 494,
-    "IconHint": "dolores",
+    "Rank": 900,
+    "Type": "voluptatem",
+    "ColorBlock": 278,
+    "IconHint": "magni",
     "Selected": true,
-    "LastChanged": "2010-11-20T11:22:46.1472512+01:00",
+    "LastChanged": "2002-08-22T12:15:28.443619+02:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Harvey-Hessel",
-        "ToolTip": "Non sed non quo tempora enim voluptas.",
+        "Id": 367,
+        "Name": "Legros, Haley and Collins",
+        "ToolTip": "Architecto harum molestias voluptatibus ut ut.",
         "Deleted": true,
-        "Rank": 758,
-        "Type": "eos",
-        "ColorBlock": 175,
-        "IconHint": "aliquam",
-        "Selected": false,
-        "LastChanged": "2011-10-30T11:22:46.1472512+01:00",
+        "Rank": 227,
+        "Type": "doloribus",
+        "ColorBlock": 641,
+        "IconHint": "voluptatibus",
+        "Selected": true,
+        "LastChanged": "2010-10-29T12:15:28.443619+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "non",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Mrs. Zelma Roob III",
+        "FullName": "Prof. Ladarius Nayeli Toy MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 763
+            "FieldLength": 9
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "aut",
+    "ExtraInfo": "at",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Angie Nolan",
+    "FullName": "Mrs. Jaeden Solon Beier III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 945
       }
     }
   }

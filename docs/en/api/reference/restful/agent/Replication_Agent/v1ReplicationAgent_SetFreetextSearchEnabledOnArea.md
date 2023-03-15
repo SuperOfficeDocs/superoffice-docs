@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 563,
-  "FreetextEnabled": false
+  "AreaId": 722,
+  "FreetextEnabled": true
 }
 ```
 

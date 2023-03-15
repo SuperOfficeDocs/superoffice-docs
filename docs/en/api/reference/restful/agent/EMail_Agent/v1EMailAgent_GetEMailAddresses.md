@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    680,
-    766
+    743,
+    110
   ]
 }
 ```
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 98,
-    "ContactName": "Dibbert Inc and Sons",
-    "PersonId": 48,
-    "PersonName": "Nicolas Group",
-    "AssociateId": 485,
-    "Address": "doloribus",
-    "EmailId": 697,
+    "ContactId": 802,
+    "ContactName": "Auer Group",
+    "PersonId": 184,
+    "PersonName": "Kuhlman-Ullrich",
+    "AssociateId": 100,
+    "Address": "provident",
+    "EmailId": 108,
     "DuplicatePersonIds": [
-      880,
-      554
+      471,
+      542
     ],
-    "Name": "Lehner-Boyle",
+    "Name": "Heidenreich-Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 817
       }
     }
   }

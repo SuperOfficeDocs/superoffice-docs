@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 749,
-  "Name": "Kihn-Prohaska",
-  "Tooltip": "nemo",
-  "Deleted": true,
-  "UdListDefinitionId": 46,
-  "Rank": 650,
+  "Id": 645,
+  "Name": "Langosh Inc and Sons",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "UdListDefinitionId": 512,
+  "Rank": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 337
     }
   }
 }

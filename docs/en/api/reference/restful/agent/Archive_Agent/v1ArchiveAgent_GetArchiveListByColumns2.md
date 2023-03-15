@@ -165,17 +165,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gutmann-Stracke",
-  "Columns": "repellat",
-  "SortOrder": "ratione",
-  "Restrictions": "et",
-  "Entities": "qui",
-  "Page": 307,
-  "PageSize": 978
+  "ProviderName": "Johns, Cronin and Weber",
+  "Columns": "cupiditate",
+  "SortOrder": "omnis",
+  "Restrictions": "excepturi",
+  "Entities": "numquam",
+  "Page": 194,
+  "PageSize": 459
 }
 ```
 
@@ -187,23 +187,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Beer-Muller",
-    "PrimaryKey": 148,
+    "EntityName": "Moore, Kshlerin and Von",
+    "PrimaryKey": 251,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quisquam",
-        "TooltipHint": "esse",
-        "LinkHint": "reprehenderit"
+        "DisplayValue": "porro",
+        "TooltipHint": "rerum",
+        "LinkHint": "id"
       }
     },
-    "LinkHint": "ducimus",
-    "StyleHint": "nesciunt",
+    "LinkHint": "ex",
+    "StyleHint": "molestias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   }

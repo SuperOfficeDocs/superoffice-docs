@@ -100,89 +100,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 932,
-  "Name": "Gorczany-Feest",
+  "ContactId": 215,
+  "Name": "Morar, Mante and Mayer",
   "Department": "",
-  "OrgNr": "973546",
-  "Number1": "1395415",
-  "Number2": "597791",
-  "UpdatedDate": "2021-12-20T11:22:44.5382515+01:00",
-  "CreatedDate": "2004-06-29T11:22:44.5382515+02:00",
+  "OrgNr": "756046",
+  "Number1": "1540601",
+  "Number2": "1286793",
+  "UpdatedDate": "2023-02-01T12:15:26.7706452+01:00",
+  "CreatedDate": "2022-11-23T12:15:26.7706452+01:00",
   "Emails": [
     {
-      "Value": "amet",
-      "StrippedValue": "inventore",
-      "Description": "Right-sized grid-enabled policy"
+      "Value": "ab",
+      "StrippedValue": "est",
+      "Description": "Re-engineered multi-tasking algorithm"
     },
     {
-      "Value": "amet",
-      "StrippedValue": "inventore",
-      "Description": "Right-sized grid-enabled policy"
+      "Value": "ab",
+      "StrippedValue": "est",
+      "Description": "Re-engineered multi-tasking algorithm"
     }
   ],
   "Interests": [
     {
-      "Id": 883,
-      "Name": "Kreiger Group",
-      "ToolTip": "Quia adipisci animi autem consequatur quis autem.",
-      "Deleted": true,
-      "Rank": 195,
-      "Type": "ut",
-      "ColorBlock": 503,
-      "IconHint": "occaecati",
+      "Id": 121,
+      "Name": "Sawayn-Bartell",
+      "ToolTip": "Voluptas consequuntur praesentium nihil.",
+      "Deleted": false,
+      "Rank": 590,
+      "Type": "sit",
+      "ColorBlock": 819,
+      "IconHint": "alias",
       "Selected": false,
-      "LastChanged": "2009-10-13T11:22:44.5382515+02:00",
+      "LastChanged": "1998-11-19T12:15:26.7706452+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "eum",
-      "Hidden": true,
-      "FullName": "Talia Fahey"
+      "ExtraInfo": "eos",
+      "StyleHint": "nesciunt",
+      "Hidden": false,
+      "FullName": "Karen Wisoky"
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "quia",
-      "Description": "Compatible contextually-based matrix"
+      "Value": "sed",
+      "StrippedValue": "corrupti",
+      "Description": "Assimilated object-oriented definition"
     },
     {
-      "Value": "qui",
-      "StrippedValue": "quia",
-      "Description": "Compatible contextually-based matrix"
+      "Value": "sed",
+      "StrippedValue": "corrupti",
+      "Description": "Assimilated object-oriented definition"
     }
   ],
   "Phones": [
     {
-      "Value": "velit",
-      "StrippedValue": "doloribus",
-      "Description": "Self-enabling upward-trending software"
+      "Value": "repellat",
+      "StrippedValue": "sunt",
+      "Description": "Total homogeneous approach"
     },
     {
-      "Value": "velit",
-      "StrippedValue": "doloribus",
-      "Description": "Self-enabling upward-trending software"
+      "Value": "repellat",
+      "StrippedValue": "sunt",
+      "Description": "Total homogeneous approach"
     }
   ],
   "Faxes": [
     {
-      "Value": "expedita",
-      "StrippedValue": "quaerat",
-      "Description": "Horizontal fault-tolerant matrix"
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Integrated national intranet"
     },
     {
-      "Value": "expedita",
-      "StrippedValue": "quaerat",
-      "Description": "Horizontal fault-tolerant matrix"
+      "Value": "et",
+      "StrippedValue": "aut",
+      "Description": "Integrated national intranet"
     }
   ],
-  "Description": "Business-focused 24/7 interface",
+  "Description": "Enhanced systematic concept",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -191,85 +191,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "laudantium",
-      "PersonId": 44,
-      "Mrmrs": "id",
-      "Firstname": "Orrin",
-      "Lastname": "King",
-      "MiddleName": "Tillman-Moen",
-      "Title": "iure",
-      "Description": "Team-oriented homogeneous pricing structure",
-      "Email": "monte@gerlachcole.com",
-      "FullName": "Miss Steve Dare DDS",
-      "DirectPhone": "403-310-1849 x55792",
-      "FormalName": "Schmidt-Gislason",
-      "CountryId": 405,
-      "ContactId": 457,
-      "ContactName": "Waelchi-Hettinger",
-      "Retired": 10,
-      "Rank": 726,
-      "ActiveInterests": 374,
+      "Position": "aut",
+      "PersonId": 678,
+      "Mrmrs": "dolor",
+      "Firstname": "Delmer",
+      "Lastname": "Feil",
+      "MiddleName": "Jacobs LLC",
+      "Title": "alias",
+      "Description": "Proactive analyzing hub",
+      "Email": "selena@waters.info",
+      "FullName": "Mrs. Marcellus August Aufderhar PhD",
+      "DirectPhone": "635.673.9829 x9980",
+      "FormalName": "O'Reilly Group",
+      "CountryId": 788,
+      "ContactId": 113,
+      "ContactName": "Gottlieb Inc and Sons",
+      "Retired": 734,
+      "Rank": 612,
+      "ActiveInterests": 210,
       "ContactDepartment": "",
-      "ContactCountryId": 700,
-      "ContactOrgNr": "817832",
-      "FaxPhone": "1-392-929-4245 x0067",
-      "MobilePhone": "442-000-7542 x35118",
-      "ContactPhone": "237-488-6439 x6927",
-      "AssociateName": "Rutherford LLC",
-      "AssociateId": 210,
-      "UsePersonAddress": false,
-      "ContactFax": "iure",
-      "Kanafname": "voluptatibus",
-      "Kanalname": "fugiat",
-      "Post1": "dolores",
-      "Post2": "voluptas",
-      "Post3": "eum",
-      "EmailName": "frederic@hodkiewiczchristiansen.ca",
-      "ContactFullName": "Kiera Ebert IV",
-      "ActiveErpLinks": 503,
-      "TicketPriorityId": 372,
-      "SupportLanguageId": 698,
-      "SupportAssociateId": 886,
+      "ContactCountryId": 172,
+      "ContactOrgNr": "810272",
+      "FaxPhone": "029-387-0530",
+      "MobilePhone": "(871)375-7868",
+      "ContactPhone": "(819)173-3633",
+      "AssociateName": "Larkin-Hodkiewicz",
+      "AssociateId": 104,
+      "UsePersonAddress": true,
+      "ContactFax": "velit",
+      "Kanafname": "aliquam",
+      "Kanalname": "et",
+      "Post1": "optio",
+      "Post2": "omnis",
+      "Post3": "voluptatem",
+      "EmailName": "helena@spinka.info",
+      "ContactFullName": "Dr. Litzy Greta Waelchi",
+      "ActiveErpLinks": 858,
+      "TicketPriorityId": 600,
+      "SupportLanguageId": 783,
+      "SupportAssociateId": 387,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": false,
-  "Kananame": "corrupti",
+  "NoMailing": true,
+  "Kananame": "quaerat",
   "Xstop": true,
-  "ActiveInterests": 18,
-  "GroupId": 956,
-  "ActiveStatusMonitorId": 726,
+  "ActiveInterests": 545,
+  "GroupId": 848,
+  "ActiveStatusMonitorId": 921,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 42,
-  "DbiAgentId": 73,
-  "DbiLastSyncronized": "2019-03-25T11:22:44.5382515+01:00",
-  "DbiKey": "esse",
-  "DbiLastModified": "1999-11-25T11:22:44.5382515+01:00",
+  "Deleted": 455,
+  "DbiAgentId": 310,
+  "DbiLastSyncronized": "2004-07-10T12:15:26.7766379+02:00",
+  "DbiKey": "quia",
+  "DbiLastModified": "2003-02-24T12:15:26.7766379+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 252,
-  "ActiveErpLinks": 900,
+  "Source": 712,
+  "ActiveErpLinks": 632,
   "BounceEmails": [
-    "alan_schaden@hettinger.name",
-    "gracie@jacobs.co.uk"
+    "marcos_bins@schadendach.info",
+    "glenda.schiller@beer.ca"
   ],
   "Domains": [
-    "velit",
-    "sunt"
+    "magnam",
+    "rem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Kory Ralph Ortiz PhD",
-    "SuperOffice:2": "Johan Stamm"
+    "SuperOffice:1": "Prof. Thurman Leon Emard",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "natus"
+    "CustomFields1": "facere",
+    "CustomFields2": "voluptatum"
   }
 }
 ```
@@ -281,7 +281,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ducimus",
-  "2": "sit"
+  "1": "velit",
+  "2": "consectetur"
 }
 ```

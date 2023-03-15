@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "incidunt",
-  "SignOffText": "quia",
-  "SignOnConfirmationText": "quis",
-  "SignOnText": "aut",
-  "EventDate": "2020-03-11T11:22:38.8208433+01:00",
+  "SignOffConfirmationText": "vitae",
+  "SignOffText": "assumenda",
+  "SignOnConfirmationText": "ratione",
+  "SignOnText": "officiis",
+  "EventDate": "1997-01-03T12:15:19.8107405+01:00",
   "Enabled": false,
-  "CreatedDate": "1996-06-11T11:22:38.8208433+02:00",
-  "SignOff": false,
+  "CreatedDate": "2008-05-25T12:15:19.8107405+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 674,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOffTaskId": 723,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 609,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2003-10-24T11:22:38.8208433+02:00",
+  "SignOnTaskId": 594,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2014-11-02T12:15:19.8107405+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 303,
-  "Id": 680,
-  "PublishFrom": "2004-10-18T11:22:38.8208433+02:00",
+  "ProjectId": 932,
+  "Id": 698,
+  "PublishFrom": "2001-12-06T12:15:19.8117421+01:00",
   "PublishType": "External",
-  "PublishTo": "1998-07-28T11:22:38.8208433+02:00",
+  "PublishTo": "2016-01-29T12:15:19.8117421+01:00",
   "VisibleForCategories": [
     {
-      "Id": 823,
-      "Name": "Harris, Tremblay and Mann",
-      "ToolTip": "Et fuga.",
-      "Deleted": true,
-      "Rank": 939,
-      "Type": "ipsam",
+      "Id": 752,
+      "Name": "Volkman, Hirthe and Schmitt",
+      "ToolTip": "Ea commodi vel ratione.",
+      "Deleted": false,
+      "Rank": 142,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 359,
-      "ExtraInfo": "eum",
-      "StyleHint": "distinctio",
-      "FullName": "Flavie Madonna Gerhold Sr.",
+      "IconHint": "esse",
+      "ColorBlock": 477,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "ad",
+      "FullName": "Darien Schulist DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 493
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 50,
-      "Name": "Moen Inc and Sons",
-      "ToolTip": "Voluptatem ratione non voluptates sint aut eum occaecati.",
-      "Deleted": false,
-      "Rank": 576,
-      "Type": "id",
+      "Id": 910,
+      "Name": "Howe-Ondricka",
+      "ToolTip": "Est reprehenderit.",
+      "Deleted": true,
+      "Rank": 705,
+      "Type": "sed",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "accusamus",
-      "ColorBlock": 455,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "sed",
-      "FullName": "Dr. Christy Murazik",
+      "IconHint": "repellat",
+      "ColorBlock": 727,
+      "ExtraInfo": "labore",
+      "StyleHint": "molestias",
+      "FullName": "Prof. Zetta Delaney Abbott",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 755
+          "FieldType": "System.String",
+          "FieldLength": 162
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 111,
+  "ProjectEventId": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 437
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

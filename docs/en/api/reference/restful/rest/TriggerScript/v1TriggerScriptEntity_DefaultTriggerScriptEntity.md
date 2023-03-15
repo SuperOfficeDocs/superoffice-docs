@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 746,
-  "Name": "Farrell, Raynor and Krajcik",
+  "ScreenChooserId": 367,
+  "Name": "Beer-Wintheiser",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "excepturi",
-  "Source": "aspernatur",
-  "Registered": "2000-10-17T11:22:45.3661887+02:00",
-  "RegisteredAssociateId": 880,
-  "Updated": "2014-08-22T11:22:45.3661887+02:00",
-  "UpdatedAssociateId": 26,
+  "UniqueIdentifier": "officiis",
+  "Source": "quod",
+  "Registered": "2000-01-22T12:15:27.5856268+01:00",
+  "RegisteredAssociateId": 662,
+  "Updated": "2010-03-29T12:15:27.5856268+02:00",
+  "UpdatedAssociateId": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldLength": 307
     }
   }
 }

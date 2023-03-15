@@ -18,7 +18,7 @@ Get all items in a domain
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get (scripts, extra tables, etc) **Required** |
+| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards, EmailFlows | Type of items to get (scripts, extra tables, etc) **Required** |
 
 
 ## Query String Parameters
@@ -28,7 +28,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=False
+GET /api/v1/Hierarchy/{domain}?children=True
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 612,
+    "HierarchyId": 888,
     "Domain": "Dashboards",
-    "Name": "Beier, Crist and Bartoletti",
-    "Fullname": "ducimus",
-    "ParentId": 867,
+    "Name": "Wunsch, Kerluke and Pagac",
+    "Fullname": "culpa",
+    "ParentId": 830,
     "Children": [
       {
-        "HierarchyId": 252,
+        "HierarchyId": 79,
         "Domain": "Dashboards",
-        "Name": "Nitzsche-Trantow",
-        "Fullname": "voluptatibus",
-        "ParentId": 516,
+        "Name": "Lind-Gerhold",
+        "Fullname": "quod",
+        "ParentId": 310,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2003-12-09T11:22:44.8818691+01:00",
-        "RegisteredAssociateId": 428,
-        "Updated": "2013-06-27T11:22:44.8818691+02:00",
-        "UpdatedAssociateId": 322,
+        "Registered": "1997-05-03T12:15:26.9856396+02:00",
+        "RegisteredAssociateId": 272,
+        "Updated": "2006-09-21T12:15:26.9856396+02:00",
+        "UpdatedAssociateId": 58,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldLength": 518
           }
         }
       }
     ],
-    "Registered": "2001-09-22T11:22:44.8818691+02:00",
-    "RegisteredAssociateId": 194,
-    "Updated": "2016-09-18T11:22:44.8818691+02:00",
-    "UpdatedAssociateId": 593,
+    "Registered": "2022-08-17T12:15:26.9856396+02:00",
+    "RegisteredAssociateId": 931,
+    "Updated": "2015-04-12T12:15:26.9856396+02:00",
+    "UpdatedAssociateId": 198,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 779
+        "FieldType": "System.Int32",
+        "FieldLength": 659
       }
     }
   }

@@ -103,55 +103,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ratke, Johns and Keebler",
+  "ProviderName": "Goyette LLC",
   "Columns": [
-    "non",
-    "labore"
+    "quis",
+    "repellat"
   ],
   "SortOrder": [
     {
-      "Name": "Nicolas, Hayes and Mann",
+      "Name": "Ondricka, Leffler and Wyman",
       "Direction": "ASC"
     },
     {
-      "Name": "Nicolas, Hayes and Mann",
+      "Name": "Ondricka, Leffler and Wyman",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Brown, Becker and Willms",
-      "Operator": "qui",
+      "Name": "Walter-Altenwerth",
+      "Operator": "excepturi",
       "Values": [
-        "magni",
-        "et"
+        "similique",
+        "ea"
       ],
       "DisplayValues": [
-        "vero",
-        "aut"
+        "quia",
+        "ab"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 250,
+      "InterParenthesis": 801,
       "InterOperator": "And",
-      "UniqueHash": 430
+      "UniqueHash": 888
     }
   ],
   "Entities": [
-    "eius",
-    "aut"
+    "pariatur",
+    "dicta"
   ],
-  "Page": 775,
-  "PageSize": 462,
-  "Context": "omnis"
+  "Page": 567,
+  "PageSize": 885,
+  "Context": "sapiente"
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Pagac Group",
-    "PrimaryKey": 364,
+    "EntityName": "Koelpin, Bahringer and Turner",
+    "PrimaryKey": 40,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quia",
-        "TooltipHint": "odit",
-        "LinkHint": "doloribus"
+        "DisplayValue": "possimus",
+        "TooltipHint": "qui",
+        "LinkHint": "soluta"
       }
     },
-    "LinkHint": "quaerat",
-    "StyleHint": "qui",
+    "LinkHint": "consequuntur",
+    "StyleHint": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 126
       }
     }
   }

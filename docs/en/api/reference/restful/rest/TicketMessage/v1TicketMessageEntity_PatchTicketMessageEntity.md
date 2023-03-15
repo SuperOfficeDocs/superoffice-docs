@@ -103,7 +103,7 @@ TicketMessageEntity  updated.
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -131,18 +131,18 @@ TicketMessageEntity  updated.
 PATCH /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "id",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quaerat",
+    "path": "id",
     "value": {}
   }
 ]
@@ -155,28 +155,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 560,
+  "EjMessageId": 228,
   "Ticket": null,
-  "CreatedAt": "1997-04-06T11:22:45.3505592+02:00",
+  "CreatedAt": "2011-07-30T12:15:27.5796238+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "aut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "labore",
-  "TimeSpent": 762,
-  "Body": "voluptatum",
-  "HtmlBody": "sit",
-  "EmailHeader": "llewellyn@frami.uk",
-  "DebugInfo": "ut",
-  "MailSorter": "iusto",
+  "MessageId": "sint",
+  "TimeSpent": 951,
+  "Body": "et",
+  "HtmlBody": "neque",
+  "EmailHeader": "shakira_herman@cassinhomenick.name",
+  "DebugInfo": "fugit",
+  "MailSorter": "dignissimos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "corporis",
+  "SearchTitle": "assumenda",
   "MessageHeaders": [
     {
-      "Id": 802,
-      "Name": "Runte-Jewess",
-      "Value": "delectus",
+      "Id": 923,
+      "Name": "Schoen-Huels",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -184,47 +184,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 326
         }
       }
     }
   ],
   "Important": false,
-  "Language": "porro",
-  "Sentiment": 743,
-  "SentimentConfidence": 419,
+  "Language": "est",
+  "Sentiment": 643,
+  "SentimentConfidence": 166,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 101,
-      "Name": "Homenick, Rutherford and Bartell",
-      "ContentType": "perspiciatis",
-      "AttSize": 366,
+      "AttachmentId": 879,
+      "Name": "Jaskolski Inc and Sons",
+      "ContentType": "esse",
+      "AttSize": 533,
       "InlineImage": false,
-      "ContentId": "nostrum",
+      "ContentId": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "error",
+    "CustomFields2": "necessitatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 628
     }
   },
   "_Links": {

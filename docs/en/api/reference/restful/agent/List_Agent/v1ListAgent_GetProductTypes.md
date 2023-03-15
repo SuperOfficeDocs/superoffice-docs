@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/GetProductTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Value": "dolore",
-    "Tooltip": "nesciunt",
+    "Id": 790,
+    "Value": "voluptas",
+    "Tooltip": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 710
       }
     }
   },
   {
-    "Id": 43,
-    "Value": "dolore",
-    "Tooltip": "nesciunt",
+    "Id": 790,
+    "Value": "voluptas",
+    "Tooltip": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 710
       }
     }
   }

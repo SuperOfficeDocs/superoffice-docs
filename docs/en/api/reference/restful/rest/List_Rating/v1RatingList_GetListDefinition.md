@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "Bartoletti Inc and Sons",
-  "Tooltip": "voluptates",
+  "Id": 843,
+  "Name": "Ondricka Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 283,
+  "Rank": 454,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "suscipit",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 349
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

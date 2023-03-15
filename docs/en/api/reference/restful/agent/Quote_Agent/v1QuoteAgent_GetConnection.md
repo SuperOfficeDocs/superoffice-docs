@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 701
+  "QuoteConnectionId": 441
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 197,
-  "ERPName": "Funk-Schneider",
-  "DisplayName": "Trantow-Lakin",
-  "DisplayDescription": "Multi-tiered well-modulated matrices",
-  "Rank": 689,
-  "ConnectorName": "Purdy LLC",
-  "ErpConnectionId": 831,
-  "ExtraData": "necessitatibus",
-  "IsAvailable": true,
+  "QuoteConnectionId": 350,
+  "ERPName": "Hand Inc and Sons",
+  "DisplayName": "Glover-Bernhard",
+  "DisplayDescription": "Re-engineered dynamic application",
+  "Rank": 546,
+  "ConnectorName": "Murphy LLC",
+  "ErpConnectionId": 270,
+  "ExtraData": "corrupti",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 346,
-      "ERPPriceListKey": "beatae",
-      "QuoteConnectionId": 783,
-      "Name": "Reinger-Muller",
-      "Description": "Object-based bi-directional hardware",
-      "Currency": "sunt",
-      "CurrencyName": "Rutherford, Berge and Cruickshank",
-      "ValidFrom": "2013-09-23T11:22:38.9301893+02:00",
-      "ValidTo": "1999-05-27T11:22:38.9301893+02:00",
-      "IsActive": false,
+      "PriceListId": 860,
+      "ERPPriceListKey": "hic",
+      "QuoteConnectionId": 747,
+      "Name": "Padberg-Kuhlman",
+      "Description": "De-engineered heuristic benchmark",
+      "Currency": "eos",
+      "CurrencyName": "Nitzsche, Greenholt and Gorczany",
+      "ValidFrom": "2009-10-01T12:15:19.9437374+02:00",
+      "ValidTo": "2021-01-11T12:15:19.9437374+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 116
         }
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": false,
+  "AllAccess": true,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    975,
-    986
+    731,
+    474
   ],
   "AssociateAccessIds": [
-    555,
-    379
+    211,
+    450
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 4
     }
   }
 }

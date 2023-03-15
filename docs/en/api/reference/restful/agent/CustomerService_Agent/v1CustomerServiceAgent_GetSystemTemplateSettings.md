@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 379,
-  "CustomerCustomerReplyTemplateId": 488,
-  "CustomerPasswordTemplateId": 987,
-  "CustomerConfirmEmailTemplateId": 226,
-  "CustomerChatLogTemplateId": 500,
-  "NewLinkTemplateId": 782,
-  "HotlistNewMessageTemplateId": 509,
-  "HotlistTicketActivatedTemplateId": 664,
-  "UserTicketAlarmTemplateId": 698,
-  "HotlistTicketTakenOverTemplateId": 226,
-  "UserActiveTicketsTemplateId": 1000,
-  "UserNewMessageTemplateId": 126,
-  "UserTicketActivatedTemplateId": 616,
-  "UserNewTicketTemplateId": 540,
-  "PublishKbQuestionTemplateId": 328,
-  "PublishKbAnswerTemplateId": 514,
-  "UserTicketTakenOverTemplateId": 374,
-  "PrintTicketTemplateId": 687,
-  "WeekStatTemplateId": 797,
-  "TicketAlarmHotlistTemplateId": 47,
-  "EmailAddresses": "ronaldo@kiehn.ca",
+  "CustomerNewCustomerTemplateId": 392,
+  "CustomerCustomerReplyTemplateId": 389,
+  "CustomerPasswordTemplateId": 514,
+  "CustomerConfirmEmailTemplateId": 765,
+  "CustomerChatLogTemplateId": 224,
+  "NewLinkTemplateId": 219,
+  "HotlistNewMessageTemplateId": 354,
+  "HotlistTicketActivatedTemplateId": 371,
+  "UserTicketAlarmTemplateId": 758,
+  "HotlistTicketTakenOverTemplateId": 915,
+  "UserActiveTicketsTemplateId": 192,
+  "UserNewMessageTemplateId": 184,
+  "UserTicketActivatedTemplateId": 556,
+  "UserNewTicketTemplateId": 777,
+  "PublishKbQuestionTemplateId": 668,
+  "PublishKbAnswerTemplateId": 524,
+  "UserTicketTakenOverTemplateId": 314,
+  "PrintTicketTemplateId": 823,
+  "WeekStatTemplateId": 434,
+  "TicketAlarmHotlistTemplateId": 367,
+  "EmailAddresses": "cali.braun@rice.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   }
 }

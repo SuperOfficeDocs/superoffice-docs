@@ -103,7 +103,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 235,
-  "ColumnId": 796,
-  "FieldDefault": "modi",
-  "FieldHeight": 38,
-  "FieldLabel": "pariatur",
-  "FieldLeft": 201,
-  "FieldTop": 107,
+  "UDefFieldId": 179,
+  "ColumnId": 130,
+  "FieldDefault": "quidem",
+  "FieldHeight": 410,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 770,
+  "FieldTop": 660,
   "FieldType": "Checkbox",
-  "FieldWidth": 491,
-  "FormatMask": "recusandae",
-  "HideLabel": true,
+  "FieldWidth": 485,
+  "FormatMask": "labore",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 870,
-  "LabelLeft": 825,
-  "LabelTop": 657,
-  "LabelWidth": 693,
-  "LastVersionId": 394,
-  "ListTableId": 499,
-  "IsMandatory": false,
+  "LabelHeight": 451,
+  "LabelLeft": 616,
+  "LabelTop": 622,
+  "LabelWidth": 263,
+  "LastVersionId": 862,
+  "ListTableId": 780,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 448,
-  "ProgId": "enim",
-  "IsReadOnly": true,
-  "ShortLabel": "illo",
-  "TabOrder": 174,
-  "TextLength": 59,
-  "Tooltip": "quis",
-  "UdefIdentity": 854,
-  "UDListDefinitionId": 695,
+  "Page1LineNo": 11,
+  "ProgId": "laboriosam",
+  "IsReadOnly": false,
+  "ShortLabel": "magni",
+  "TabOrder": 462,
+  "TextLength": 15,
+  "Tooltip": "similique",
+  "UdefIdentity": 825,
+  "UDListDefinitionId": 481,
   "Justification": "Center",
-  "Version": 351,
-  "TemplateVariableName": "Little-Kuphal",
+  "Version": 52,
+  "TemplateVariableName": "Morar Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Leuschke-O'Keefe",
+  "MdoListName": "Tillman LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   }
 }

@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 650,
-  "Name": "Hyatt, Towne and Lockman",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 911,
-  "UdListDefinitionId": 972
+  "HeadingId": 692,
+  "Name": "Ebert-Ondricka",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 813,
+  "UdListDefinitionId": 421
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 672,
-  "Name": "Mueller, Abernathy and Lemke",
-  "Tooltip": "libero",
+  "HeadingId": 591,
+  "Name": "Jakubowski Inc and Sons",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 192,
-  "UdListDefinitionId": 618,
+  "Rank": 683,
+  "UdListDefinitionId": 952,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 872
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   }
 }

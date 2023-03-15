@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,15 +87,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 905,
-    "Name": "Waelchi Inc and Sons",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 313,
+    "WebPanelId": 263,
+    "Name": "Anderson, Larson and Anderson",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 376,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": false,
+    "OnCentral": true,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
@@ -103,17 +103,17 @@ Content-Type: application/json; charset=utf-8
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Crist-Collier",
+    "WindowName": "Gerlach-Schowalter",
     "Url": "http://www.example.com/",
-    "ProgId": "quae",
-    "Icon": 906,
+    "ProgId": "enim",
+    "Icon": 235,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 249
       }
     }
   }

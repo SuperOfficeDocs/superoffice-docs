@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 127,
-  "Name": "Spencer Group",
+  "WebhookId": 629,
+  "Name": "Herzog LLC",
   "Events": [
-    "architecto",
-    "a"
+    "cum",
+    "velit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "molestiae",
+  "Secret": "rerum",
   "State": "Active",
-  "Type": "iure",
+  "Type": "quis",
   "Headers": {
-    "Headers1": "voluptatem",
-    "Headers2": "molestias"
+    "Headers1": "aut",
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1996-05-18T11:22:39.6956364+02:00",
+  "Registered": "2022-04-02T12:15:20.6637278+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-08-28T11:22:39.6956364+02:00",
+  "Updated": "1998-06-19T12:15:20.6637278+02:00",
   "UpdatedAssociate": null
 }
 ```

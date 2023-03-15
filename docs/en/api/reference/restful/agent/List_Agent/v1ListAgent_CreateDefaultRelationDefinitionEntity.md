@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 860,
-  "Name": "Stark-Brown",
-  "Tooltip": "voluptas",
-  "PassiveText": "sequi",
+  "ReldefId": 575,
+  "Name": "Corkery-Klocko",
+  "Tooltip": "eveniet",
+  "PassiveText": "veritatis",
   "Deleted": false,
-  "Rank": 556,
+  "Rank": 428,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 907
     }
   }
 }

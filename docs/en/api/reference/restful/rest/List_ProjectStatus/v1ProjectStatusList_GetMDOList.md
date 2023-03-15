@@ -25,8 +25,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=amet
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=soluta
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Name": "Rowe, Christiansen and Erdman",
-    "ToolTip": "Qui sint modi molestiae ut.",
-    "Deleted": true,
-    "Rank": 35,
-    "Type": "excepturi",
+    "Id": 229,
+    "Name": "Stokes-Prohaska",
+    "ToolTip": "Dolore officiis accusantium tempora sunt dolorum asperiores.",
+    "Deleted": false,
+    "Rank": 425,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Grimes-Leuschke",
-        "ToolTip": "Eum dicta voluptatem possimus dicta.",
-        "Deleted": true,
-        "Rank": 5,
-        "Type": "ea",
+        "Id": 976,
+        "Name": "Fritsch Group",
+        "ToolTip": "Repellendus dolores impedit architecto eum.",
+        "Deleted": false,
+        "Rank": 95,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "accusamus",
-        "ColorBlock": 211,
-        "ExtraInfo": "maiores",
-        "StyleHint": "quo",
-        "FullName": "Aracely Koss",
+        "IconHint": "rerum",
+        "ColorBlock": 415,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "nam",
+        "FullName": "Murray Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 939
+            "FieldLength": 39
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 446,
-    "ExtraInfo": "fugit",
-    "StyleHint": "nemo",
-    "FullName": "Maria Gislason DVM",
+    "IconHint": "consequatur",
+    "ColorBlock": 675,
+    "ExtraInfo": "dicta",
+    "StyleHint": "exercitationem",
+    "FullName": "Norene Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

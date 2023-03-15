@@ -144,51 +144,51 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 343,
-  "ERPProductKey": "labore",
-  "ERPPriceListKey": "odio",
-  "Name": "Veum Group",
-  "Description": "Visionary multimedia synergy",
-  "Code": "exercitationem",
-  "PriceUnit": "aliquid",
-  "QuantityUnit": "quia",
-  "IsSubscription": true,
-  "SubscriptionUnit": "molestias",
-  "DefaultSubscriptionQuantity": 19446.47,
-  "ItemNumber": "1397935",
+  "ProductId": 366,
+  "ERPProductKey": "blanditiis",
+  "ERPPriceListKey": "labore",
+  "Name": "Walker Inc and Sons",
+  "Description": "Upgradable eco-centric projection",
+  "Code": "perferendis",
+  "PriceUnit": "rerum",
+  "QuantityUnit": "eligendi",
+  "IsSubscription": false,
+  "SubscriptionUnit": "facilis",
+  "DefaultSubscriptionQuantity": 8173.472,
+  "ItemNumber": "1165740",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "possimus",
-  "VAT": 14811.284,
-  "VATInfo": "aliquam",
-  "UnitCost": 2804.93,
-  "UnitMinimumPrice": 17534.73,
-  "UnitListPrice": 19377.522,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "rerum",
+  "VAT": 20418.01,
+  "VATInfo": "in",
+  "UnitCost": 3870.49,
+  "UnitMinimumPrice": 19405.728,
+  "UnitListPrice": 28384.638,
   "InAssortment": false,
-  "Supplier": "ut",
-  "SupplierCode": "amet",
-  "Rights": "in",
-  "Rule": "id",
+  "Supplier": "voluptatem",
+  "SupplierCode": "voluptas",
+  "Rights": "sapiente",
+  "Rule": "autem",
   "ExtraInfo": [
     {
-      "Name": "Thompson LLC",
-      "Value": "voluptatibus",
+      "Name": "Roberts-Fisher",
+      "Value": "rerum",
       "Type": "Image"
     },
     {
-      "Name": "Thompson LLC",
-      "Value": "voluptatibus",
+      "Name": "Roberts-Fisher",
+      "Value": "rerum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quis",
-  "ExtraField1": "eaque",
-  "ExtraField2": "at",
-  "ExtraField3": "ipsum",
-  "ExtraField4": "et",
-  "ExtraField5": "aut",
-  "InStock": 26942.998
+  "RawExtraInfo": "labore",
+  "ExtraField1": "id",
+  "ExtraField2": "quisquam",
+  "ExtraField3": "sequi",
+  "ExtraField4": "accusamus",
+  "ExtraField5": "et",
+  "InStock": 10765.289999999999
 }
 ```
 
@@ -199,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 814,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "quibusdam",
-  "Name": "Rohan-Braun",
-  "Description": "Customizable responsive benchmark",
-  "Code": "eligendi",
-  "PriceUnit": "voluptatem",
-  "QuantityUnit": "omnis",
+  "ProductId": 577,
+  "ERPProductKey": "vitae",
+  "ERPPriceListKey": "quia",
+  "Name": "Hauck LLC",
+  "Description": "Persevering modular application",
+  "Code": "id",
+  "PriceUnit": "est",
+  "QuantityUnit": "id",
   "IsSubscription": false,
-  "SubscriptionUnit": "atque",
-  "DefaultSubscriptionQuantity": 22041.422,
-  "ItemNumber": "1019878",
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 26993.142,
+  "ItemNumber": "1651562",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "ratione",
-  "VAT": 31164.496,
-  "VATInfo": "alias",
-  "UnitCost": 8740.726,
-  "UnitMinimumPrice": 27162.378,
-  "UnitListPrice": 3757.6659999999997,
-  "InAssortment": false,
-  "Supplier": "possimus",
-  "SupplierCode": "voluptatem",
-  "Rights": "fugiat",
-  "Rule": "autem",
+  "ProductFamilyKey": "consequuntur",
+  "ProductTypeKey": "et",
+  "VAT": 5628.664,
+  "VATInfo": "explicabo",
+  "UnitCost": 22439.44,
+  "UnitMinimumPrice": 24974.845999999998,
+  "UnitListPrice": 3754.5319999999997,
+  "InAssortment": true,
+  "Supplier": "occaecati",
+  "SupplierCode": "consequuntur",
+  "Rights": "et",
+  "Rule": "minus",
   "ExtraInfo": [
     {
-      "Name": "Jewess Group",
-      "Value": "fuga",
+      "Name": "Barton LLC",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 270
         }
       }
     },
     {
-      "Name": "Jewess Group",
-      "Value": "fuga",
+      "Name": "Barton LLC",
+      "Value": "eius",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 270
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "vel",
-  "ExtraField2": "ab",
-  "ExtraField3": "est",
-  "ExtraField4": "expedita",
-  "ExtraField5": "voluptatem",
-  "InStock": 17660.09,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "impedit",
+  "ExtraField2": "a",
+  "ExtraField3": "ut",
+  "ExtraField4": "quis",
+  "ExtraField5": "perspiciatis",
+  "InStock": 31318.061999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 557
     }
   }
 }

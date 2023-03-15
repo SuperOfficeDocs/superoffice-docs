@@ -86,20 +86,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Russel Inc and Sons",
-  "Description": "Digitized high-level artificial intelligence",
-  "IncludeId": "dignissimos",
-  "Source": "unde",
-  "Registered": "2021-05-25T11:22:45.4754809+02:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "2000-12-07T11:22:45.4754809+01:00",
-  "UpdatedBy": "illum",
-  "Path": "voluptatibus"
+  "UniqueIdentifier": "corrupti",
+  "Name": "Klocko Inc and Sons",
+  "Description": "Upgradable maximized contingency",
+  "IncludeId": "exercitationem",
+  "Source": "consequuntur",
+  "Registered": "2009-11-20T12:15:27.719625+01:00",
+  "RegisteredBy": "sunt",
+  "Updated": "2006-11-02T12:15:27.719625+01:00",
+  "UpdatedBy": "explicabo",
+  "Path": "enim"
 }
 ```
 
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "mollitia",
-  "Name": "Lakin LLC",
-  "Description": "Adaptive context-sensitive support",
-  "IncludeId": "doloribus",
-  "Source": "eos",
-  "Registered": "2022-11-30T11:22:45.4754809+01:00",
-  "RegisteredBy": "illo",
-  "Updated": "2009-09-24T11:22:45.4754809+02:00",
-  "UpdatedBy": "qui",
-  "Path": "ut",
+  "UniqueIdentifier": "ut",
+  "Name": "Lebsack Inc and Sons",
+  "Description": "Automated scalable collaboration",
+  "IncludeId": "et",
+  "Source": "molestiae",
+  "Registered": "2009-11-18T12:15:27.7206245+01:00",
+  "RegisteredBy": "quisquam",
+  "Updated": "1996-02-03T12:15:27.7206245+01:00",
+  "UpdatedBy": "voluptates",
+  "Path": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

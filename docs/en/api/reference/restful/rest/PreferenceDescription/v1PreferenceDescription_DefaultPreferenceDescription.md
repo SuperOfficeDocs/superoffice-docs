@@ -73,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 700,
-  "Section": "doloribus",
-  "Key": "voluptates",
-  "Name": "Olson-Towne",
+  "PrefDescId": 415,
+  "Section": "vitae",
+  "Key": "et",
+  "Name": "O'Hara, Lang and Zemlak",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable exuding pricing structure",
-  "IsBuiltin": true,
-  "TableName": "Rath, Beer and Kreiger",
-  "UserDefinedListId": 276,
-  "Rank": 544,
-  "SubGroup": "et",
-  "MinLevel": 919,
-  "MaxValue": 84,
-  "MinValue": 717,
-  "RequiredLicense": "aliquid",
+  "Description": "Cloned secondary focus group",
+  "IsBuiltin": false,
+  "TableName": "Goldner, Medhurst and McCullough",
+  "UserDefinedListId": 675,
+  "Rank": 889,
+  "SubGroup": "qui",
+  "MinLevel": 908,
+  "MaxValue": 294,
+  "MinValue": 279,
+  "RequiredLicense": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 651
     }
   }
 }

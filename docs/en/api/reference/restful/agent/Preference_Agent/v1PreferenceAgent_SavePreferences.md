@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "minus",
+      "RawValue": "id",
       "Specification": null,
-      "DisplayValue": "blanditiis",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "dolorem",
+      "DisplayTooltip": "sit",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 702,
-      "PrefDescId": 71,
-      "TableName": "Goyette-Quigley",
-      "UserPreferenceId": 903
+      "TargetId": 424,
+      "PrefDescId": 809,
+      "TableName": "Nicolas, Dicki and Schmeler",
+      "UserPreferenceId": 891
     }
   ]
 }

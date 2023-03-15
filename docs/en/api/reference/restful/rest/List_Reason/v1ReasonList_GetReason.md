@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 946,
-  "Name": "Carroll Group",
-  "Tooltip": "reiciendis",
-  "Deleted": true,
-  "UdListDefinitionId": 425,
-  "Rank": 889,
+  "Id": 157,
+  "Name": "Senger Inc and Sons",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "UdListDefinitionId": 754,
+  "Rank": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 618
     }
   }
 }

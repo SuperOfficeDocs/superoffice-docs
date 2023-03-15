@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fadel, Predovic and Stoltenberg",
-  "ForceFlatList": false,
-  "AdditionalInfo": "quia",
+  "Name": "O'Keefe, Fisher and Ruecker",
+  "ForceFlatList": true,
+  "AdditionalInfo": "itaque",
   "OnlyHistory": false
 }
 ```
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 80,
-    "Name": "Kris Group",
-    "ToolTip": "Qui eos nisi repellat provident quas.",
-    "Deleted": true,
-    "Rank": 503,
-    "Type": "consequatur",
+    "Id": 747,
+    "Name": "Mueller, Schimmel and Keebler",
+    "ToolTip": "Non soluta voluptatem quasi.",
+    "Deleted": false,
+    "Rank": 384,
+    "Type": "provident",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Schamberger, Ondricka and Kihn",
-        "ToolTip": "Praesentium quos ut minima harum sint est.",
+        "Id": 14,
+        "Name": "Hilpert-Ryan",
+        "ToolTip": "Ut dolores explicabo.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "repudiandae",
+        "Rank": 912,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 789,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quo",
-        "FullName": "Mr. Colten Aurelia Murray",
+        "IconHint": "eos",
+        "ColorBlock": 631,
+        "ExtraInfo": "non",
+        "StyleHint": "eos",
+        "FullName": "Buddy Weimann IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 124
+            "FieldType": "System.String",
+            "FieldLength": 719
           }
         }
       }
     ],
-    "IconHint": "fugit",
-    "ColorBlock": 756,
-    "ExtraInfo": "numquam",
-    "StyleHint": "sequi",
-    "FullName": "Mr. Sanford Bernhard V",
+    "IconHint": "at",
+    "ColorBlock": 628,
+    "ExtraInfo": "inventore",
+    "StyleHint": "temporibus",
+    "FullName": "Raphaelle Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 170
       }
     }
   }

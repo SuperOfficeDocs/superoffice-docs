@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 633,
-  "Name": "Hauck-Grimes",
-  "CreatedDate": "2022-08-08T11:22:38.3678241+02:00",
-  "UpdatedDate": "2002-04-13T11:22:38.3678241+02:00",
+  "ForeignAppId": 835,
+  "Name": "Schuppe LLC",
+  "CreatedDate": "2003-06-14T12:15:19.1387495+02:00",
+  "UpdatedDate": "2018-09-09T12:15:19.1387495+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 246,
-      "Name": "Blick-O'Keefe",
-      "CreatedDate": "2000-11-27T11:22:38.3678241+01:00",
-      "UpdatedDate": "2004-06-29T11:22:38.3678241+02:00",
-      "AssociateFullName": "Mortimer Ward",
-      "CreatedBy": "velit",
-      "UpdatedBy": "omnis",
-      "DeviceIdentifier": "sed",
-      "ForeignAppId": 511,
+      "ForeignDeviceId": 945,
+      "Name": "Bednar Group",
+      "CreatedDate": "2014-09-09T12:15:19.140749+02:00",
+      "UpdatedDate": "2000-01-23T12:15:19.140749+01:00",
+      "AssociateFullName": "Alice Welch",
+      "CreatedBy": "placeat",
+      "UpdatedBy": "nesciunt",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 191,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 742
+          "FieldLength": 324
         }
       }
     }
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 749
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

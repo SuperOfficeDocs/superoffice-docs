@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Mayer Inc and Sons",
-    "ToolTip": "Consequatur qui reprehenderit fugit suscipit veniam.",
+    "Id": 980,
+    "Name": "VonRueden-Steuber",
+    "ToolTip": "Vel laboriosam dolore nemo.",
     "Deleted": false,
-    "Rank": 982,
-    "Type": "qui",
-    "ColorBlock": 795,
-    "IconHint": "aut",
+    "Rank": 507,
+    "Type": "iusto",
+    "ColorBlock": 904,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2003-03-24T11:22:45.991037+01:00",
+    "LastChanged": "2001-03-31T12:15:28.2466194+02:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Swift-Kessler",
-        "ToolTip": "Nesciunt corrupti perspiciatis voluptas eum accusantium ipsam ad.",
+        "Id": 473,
+        "Name": "Purdy, Stamm and O'Conner",
+        "ToolTip": "Et sed quas hic non provident.",
         "Deleted": false,
-        "Rank": 916,
-        "Type": "aut",
-        "ColorBlock": 867,
-        "IconHint": "quis",
+        "Rank": 298,
+        "Type": "iusto",
+        "ColorBlock": 567,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2016-08-15T11:22:45.991037+02:00",
+        "LastChanged": "2012-01-22T12:15:28.2466194+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Kristy Welch",
+        "ExtraInfo": "dolores",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Quincy Jaskolski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 44
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "facilis",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Ms. Shanna Fermin Dare PhD",
+    "FullName": "Miss Rahul Josie Carroll III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 469
       }
     }
   }

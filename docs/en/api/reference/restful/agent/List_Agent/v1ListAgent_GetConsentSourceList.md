@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 126,
-    "Name": "Mueller, Ankunding and Cole",
-    "Tooltip": "veritatis",
-    "Rank": 518,
-    "Key": "enim",
-    "MailTemplateId": 460,
-    "Deleted": true,
+    "ConsentSourceId": 67,
+    "Name": "Larkin LLC",
+    "Tooltip": "ut",
+    "Rank": 776,
+    "Key": "omnis",
+    "MailTemplateId": 242,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 637
       }
     }
   }

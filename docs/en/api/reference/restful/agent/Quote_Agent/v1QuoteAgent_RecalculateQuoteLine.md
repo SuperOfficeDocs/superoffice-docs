@@ -123,14 +123,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "qui",
-    "modi"
+    "adipisci",
+    "et"
   ]
 }
 ```
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 128,
-  "ERPQuoteLineKey": "vitae",
-  "QuoteAlternativeId": 740,
-  "ERPProductKey": "libero",
+  "QuoteLineId": 280,
+  "ERPQuoteLineKey": "molestiae",
+  "QuoteAlternativeId": 376,
+  "ERPProductKey": "eum",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 7248.942,
-  "DeliveredQuantity": 13993.31,
-  "Rank": 494,
-  "Name": "Heidenreich LLC",
-  "Description": "Reverse-engineered discrete archive",
-  "Code": "ad",
-  "QuantityUnit": "sit",
-  "PriceUnit": "explicabo",
-  "ItemNumber": "158936",
+  "Quantity": 13416.654,
+  "DeliveredQuantity": 24677.115999999998,
+  "Rank": 157,
+  "Name": "Beatty-Fay",
+  "Description": "Enterprise-wide maximized encryption",
+  "Code": "ut",
+  "QuantityUnit": "esse",
+  "PriceUnit": "sequi",
+  "ItemNumber": "1501769",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quam",
-  "ProductTypeKey": "doloremque",
-  "Supplier": "quidem",
-  "SupplierCode": "maiores",
-  "Thumbnail": "magnam",
-  "VATInfo": "eaque",
-  "VAT": 28682.368,
-  "UnitCost": 26560.649999999998,
-  "UnitMinimumPrice": 9975.521999999999,
-  "UnitListPrice": 20881.842,
+  "ProductFamilyKey": "amet",
+  "ProductTypeKey": "nulla",
+  "Supplier": "dolorem",
+  "SupplierCode": "a",
+  "Thumbnail": "omnis",
+  "VATInfo": "rerum",
+  "VAT": 14074.794,
+  "UnitCost": 13736.322,
+  "UnitMinimumPrice": 30239.966,
+  "UnitListPrice": 12636.288,
   "ExtraInfo": [
     {
-      "Name": "Dicki Inc and Sons",
-      "Value": "atque",
+      "Name": "Okuneva LLC",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 855
         }
       }
     },
     {
-      "Name": "Dicki Inc and Sons",
-      "Value": "atque",
+      "Name": "Okuneva LLC",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 855
         }
       }
     }
   ],
-  "RawExtraInfo": "nemo",
-  "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 13943.166,
-  "SubscriptionStart": "2006-02-25T11:22:38.8677092+01:00",
-  "ERPDiscountPercent": 27397.428,
-  "ERPDiscountAmount": 8941.302,
-  "DiscountPercent": 10871.846,
-  "DiscountAmount": 19192.615999999998,
+  "RawExtraInfo": "ab",
+  "IsSubscription": true,
+  "SubscriptionUnit": "modi",
+  "SubscriptionQuantity": 18907.422,
+  "SubscriptionStart": "2000-12-28T12:15:19.8827402+01:00",
+  "ERPDiscountPercent": 5202.44,
+  "ERPDiscountAmount": 2792.394,
+  "DiscountPercent": 23075.642,
+  "DiscountAmount": 14660.851999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 29678.98,
-  "EarningAmount": 31145.692,
-  "SubTotal": 15281.384,
-  "TotalPrice": 23163.394,
-  "Rights": "at",
-  "Rule": "voluptates",
-  "ExtraField1": "minima",
-  "ExtraField2": "veritatis",
-  "ExtraField3": "magnam",
-  "ExtraField4": "voluptate",
-  "ExtraField5": "id",
+  "EarningPercent": 11125.699999999999,
+  "EarningAmount": 19161.275999999998,
+  "SubTotal": 3494.41,
+  "TotalPrice": 5221.244,
+  "Rights": "et",
+  "Rule": "quis",
+  "ExtraField1": "est",
+  "ExtraField2": "magnam",
+  "ExtraField3": "eos",
+  "ExtraField4": "eum",
+  "ExtraField5": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

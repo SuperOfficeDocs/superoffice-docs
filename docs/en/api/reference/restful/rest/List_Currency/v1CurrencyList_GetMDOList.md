@@ -25,8 +25,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=alias
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=harum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Shields, Murray and Barrows",
-    "ToolTip": "Maxime vitae sed quo at minus.",
-    "Deleted": true,
-    "Rank": 121,
-    "Type": "autem",
+    "Id": 861,
+    "Name": "Zboncak-Tromp",
+    "ToolTip": "Eligendi sed id fugit.",
+    "Deleted": false,
+    "Rank": 988,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 577,
-        "Name": "Wilderman-Beatty",
-        "ToolTip": "Tempore praesentium at quos blanditiis quaerat.",
+        "Id": 678,
+        "Name": "Buckridge, Bednar and Mertz",
+        "ToolTip": "Aut expedita qui officia qui qui.",
         "Deleted": true,
-        "Rank": 371,
-        "Type": "omnis",
+        "Rank": 704,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 179,
-        "ExtraInfo": "laborum",
-        "StyleHint": "dolor",
-        "FullName": "Wendell Parisian II",
+        "IconHint": "ut",
+        "ColorBlock": 549,
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolorem",
+        "FullName": "Freeda Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldLength": 351
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 825,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "repudiandae",
-    "FullName": "Prof. Marquise Efren Schuster II",
+    "IconHint": "at",
+    "ColorBlock": 360,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "aspernatur",
+    "FullName": "Bette Earnest Labadie PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 25
       }
     }
   }

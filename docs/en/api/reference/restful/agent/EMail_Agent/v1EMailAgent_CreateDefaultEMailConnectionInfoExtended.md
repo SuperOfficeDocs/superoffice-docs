@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 577,
-  "ServerName": "Mayer Group",
-  "Protocol": "suscipit",
-  "UserName": "Block-Deckow",
-  "Password": "eos",
+  "Port": 238,
+  "ServerName": "Cartwright Inc and Sons",
+  "Protocol": "officia",
+  "UserName": "Effertz LLC",
+  "Password": "cum",
   "UseSSL": false,
-  "Folder": "dicta",
+  "Folder": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Block, Kuhic and Raynor",
+  "Name": "Jast LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "unde",
+  "AdditionalInfo": "ab",
   "OnlyHistory": false
 }
 ```
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Hoppe Inc and Sons",
-    "ToolTip": "Similique illo et quasi aut.",
-    "Deleted": true,
-    "Rank": 623,
-    "Type": "et",
-    "ColorBlock": 957,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2004-06-14T11:22:38.5865114+02:00",
+    "Id": 394,
+    "Name": "Lemke, Wolf and Armstrong",
+    "ToolTip": "In accusamus deserunt dolor eaque.",
+    "Deleted": false,
+    "Rank": 807,
+    "Type": "commodi",
+    "ColorBlock": 359,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2008-02-29T12:15:19.392746+01:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Dach-Hagenes",
-        "ToolTip": "Illum minima architecto sunt dolorum recusandae.",
+        "Id": 526,
+        "Name": "Daugherty, Pfannerstill and Ledner",
+        "ToolTip": "Dolorem perspiciatis.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "voluptates",
-        "ColorBlock": 444,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2005-09-08T11:22:38.5865114+02:00",
+        "Rank": 869,
+        "Type": "aspernatur",
+        "ColorBlock": 642,
+        "IconHint": "sequi",
+        "Selected": false,
+        "LastChanged": "2002-01-06T12:15:19.392746+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "alias",
-        "Hidden": false,
-        "FullName": "Miss Asha Wyatt Streich IV",
+        "ExtraInfo": "dolor",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Betsy Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 15
+            "FieldLength": 449
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "quidem",
-    "Hidden": true,
-    "FullName": "Domingo Mante",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Kyra Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 368
       }
     }
   }

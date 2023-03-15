@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 979,
-    "Name": "Ferry-Beer",
-    "ToolTip": "Vero enim cumque et.",
+    "Id": 646,
+    "Name": "Murazik LLC",
+    "ToolTip": "Quasi ut exercitationem quaerat.",
     "Deleted": false,
-    "Rank": 422,
-    "Type": "quo",
-    "ColorBlock": 483,
-    "IconHint": "tempore",
-    "Selected": true,
-    "LastChanged": "1998-12-17T11:22:46.2253576+01:00",
+    "Rank": 806,
+    "Type": "ea",
+    "ColorBlock": 538,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2021-08-02T12:15:28.5316155+02:00",
     "ChildItems": [
       {
-        "Id": 308,
-        "Name": "Brown, Rodriguez and Lindgren",
-        "ToolTip": "Eaque animi debitis.",
-        "Deleted": true,
-        "Rank": 708,
-        "Type": "quia",
-        "ColorBlock": 558,
-        "IconHint": "repudiandae",
+        "Id": 186,
+        "Name": "Lesch LLC",
+        "ToolTip": "Autem hic ducimus eius eos.",
+        "Deleted": false,
+        "Rank": 53,
+        "Type": "a",
+        "ColorBlock": 732,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2001-02-22T11:22:46.2253576+01:00",
+        "LastChanged": "2006-04-02T12:15:28.5316155+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "in",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Prof. Westley Serenity Prohaska II",
+        "FullName": "Prof. Irving Gaston Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 433
+            "FieldType": "System.String",
+            "FieldLength": 749
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Dessie Shanahan",
+    "ExtraInfo": "maiores",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Lane Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 375
+        "FieldLength": 25
       }
     }
   }

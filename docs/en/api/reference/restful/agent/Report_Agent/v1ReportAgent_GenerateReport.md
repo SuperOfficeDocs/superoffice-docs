@@ -72,26 +72,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 519,
-  "LabelLayoutId": 979,
-  "Filename": "voluptatem",
-  "Language": "perspiciatis",
-  "FileType": "velit",
+  "ReportId": 788,
+  "LabelLayoutId": 116,
+  "Filename": "et",
+  "Language": "iusto",
+  "FileType": "quibusdam",
   "Restrictions": [
     {
-      "Name": "Schumm-Morar",
-      "Operator": "eaque",
+      "Name": "Nolan Group",
+      "Operator": "aut",
       "Values": [
         "est",
-        "est"
+        "saepe"
       ],
       "DisplayValues": [
-        "fugit",
-        "soluta"
+        "quis",
+        "non"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -99,9 +99,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 610,
+      "InterParenthesis": 71,
       "InterOperator": "And",
-      "UniqueHash": 678
+      "UniqueHash": 528
     }
   ]
 }
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"autem"
+"porro"
 ```

@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    945,
-    572
+    530,
+    392
   ]
 }
 ```
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 93,
-    "Name": "Toy Inc and Sons",
-    "TargetTable": "ut",
-    "Registered": "1996-05-25T11:22:39.3363444+02:00",
-    "ProviderName": "Runte-Brakus"
+    "SelectionId": 730,
+    "Name": "O'Kon-Davis",
+    "TargetTable": "ipsam",
+    "Registered": "2020-05-09T12:15:20.2017382+02:00",
+    "ProviderName": "Goldner, Mosciski and Bergstrom"
   },
   {
-    "SelectionId": 93,
-    "Name": "Toy Inc and Sons",
-    "TargetTable": "ut",
-    "Registered": "1996-05-25T11:22:39.3363444+02:00",
-    "ProviderName": "Runte-Brakus"
+    "SelectionId": 730,
+    "Name": "O'Kon-Davis",
+    "TargetTable": "ipsam",
+    "Registered": "2020-05-09T12:15:20.2017382+02:00",
+    "ProviderName": "Goldner, Mosciski and Bergstrom"
   }
 ]
 ```

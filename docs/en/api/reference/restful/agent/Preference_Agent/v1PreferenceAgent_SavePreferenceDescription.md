@@ -96,28 +96,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 277,
-  "Section": "voluptas",
-  "Key": "voluptas",
-  "Name": "Walker, Bergstrom and Hessel",
+  "PrefDescId": 775,
+  "Section": "officiis",
+  "Key": "ipsam",
+  "Name": "Cruickshank Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized heuristic flexibility",
-  "IsBuiltin": true,
-  "TableName": "Feest-Franecki",
-  "UserDefinedListId": 257,
-  "Rank": 335,
-  "SubGroup": "quis",
-  "MinLevel": 852,
-  "MaxValue": 450,
-  "MinValue": 867,
-  "RequiredLicense": "quia"
+  "Description": "Synergistic 24/7 matrices",
+  "IsBuiltin": false,
+  "TableName": "Gerlach, Simonis and Langworth",
+  "UserDefinedListId": 104,
+  "Rank": 38,
+  "SubGroup": "odit",
+  "MinLevel": 752,
+  "MaxValue": 205,
+  "MinValue": 956,
+  "RequiredLicense": "repudiandae"
 }
 ```
 
@@ -128,30 +128,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 382,
-  "Section": "pariatur",
-  "Key": "aut",
-  "Name": "Braun Inc and Sons",
+  "PrefDescId": 380,
+  "Section": "unde",
+  "Key": "dolorem",
+  "Name": "Wilkinson LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Horizontal multimedia archive",
+  "Description": "Streamlined next generation process improvement",
   "IsBuiltin": false,
-  "TableName": "Pagac LLC",
-  "UserDefinedListId": 670,
-  "Rank": 224,
-  "SubGroup": "ut",
-  "MinLevel": 562,
-  "MaxValue": 768,
-  "MinValue": 547,
-  "RequiredLicense": "exercitationem",
+  "TableName": "Zemlak, O'Keefe and Howell",
+  "UserDefinedListId": 630,
+  "Rank": 324,
+  "SubGroup": "exercitationem",
+  "MinLevel": 342,
+  "MaxValue": 316,
+  "MinValue": 468,
+  "RequiredLicense": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 177
     }
   }
 }

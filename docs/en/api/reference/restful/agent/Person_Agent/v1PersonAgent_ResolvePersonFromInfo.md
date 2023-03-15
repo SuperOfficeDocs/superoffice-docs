@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 869,
-  "PersonName": "Maggio LLC",
+  "ContactId": 823,
+  "PersonName": "Gerlach, Nikolaus and Bogisich",
   "PhoneNumbers": [
-    "725293",
-    "642385"
+    "296783",
+    "798769"
   ],
   "Emails": [
-    "jennifer@lebsackhagenes.com",
-    "christopher@carter.us"
+    "herta.wolf@greenholt.info",
+    "kallie_hirthe@kutch.info"
   ]
 }
 ```
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

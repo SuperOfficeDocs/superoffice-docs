@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 491
+  "DepartmentId": 575
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "668-424-9801 x763",
-    "PersonCellPhone": "1-950-021-4994",
-    "PersonPrivatePhone": "518.074.4691 x0098",
-    "PersonFaxNumber": "1243217",
-    "PersonPagerNumber": "1036526",
-    "PersonEmail": "herbert_kreiger@donnelly.us",
-    "Id": 981,
-    "Name": "Bernhard Group",
-    "Tooltip": "nisi",
-    "UniqueId": "consectetur",
+    "PersonDirectPhone": "513-861-8327",
+    "PersonCellPhone": "1-209-244-2159 x712",
+    "PersonPrivatePhone": "(911)226-8989",
+    "PersonFaxNumber": "806888",
+    "PersonPagerNumber": "1128254",
+    "PersonEmail": "lionel@koelpinwaters.us",
+    "Id": 349,
+    "Name": "Ankunding-Renner",
+    "Tooltip": "cupiditate",
+    "UniqueId": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldLength": 150
       }
     }
   }

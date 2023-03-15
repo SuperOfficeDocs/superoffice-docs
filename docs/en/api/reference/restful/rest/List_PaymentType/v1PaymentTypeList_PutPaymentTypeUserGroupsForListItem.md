@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Eichmann-Towne",
-    "ToolTip": "Ab inventore aliquid vitae fugit est.",
+    "Id": 184,
+    "Name": "Quitzon-Swift",
+    "ToolTip": "Iusto omnis ullam in qui ratione.",
     "Deleted": true,
-    "Rank": 108,
-    "Type": "excepturi",
-    "ColorBlock": 443,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2003-06-30T11:22:45.9754127+02:00",
+    "Rank": 155,
+    "Type": "culpa",
+    "ColorBlock": 288,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2006-03-10T12:15:28.227618+01:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Schroeder Inc and Sons",
-        "ToolTip": "Voluptate voluptatum quaerat tempore.",
+        "Id": 947,
+        "Name": "Jakubowski Inc and Sons",
+        "ToolTip": "Quia necessitatibus mollitia.",
         "Deleted": true,
-        "Rank": 192,
-        "Type": "quo",
-        "ColorBlock": 826,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2005-01-22T11:22:45.9754127+01:00",
+        "Rank": 195,
+        "Type": "libero",
+        "ColorBlock": 414,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2023-01-14T12:15:28.227618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "unde",
-        "Hidden": false,
-        "FullName": "Mr. Darrick Marta Trantow III"
+        "ExtraInfo": "provident",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mrs. Wendy Morar III"
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Nyasia Mosciski"
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Prof. Leann Louisa Lubowitz DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Haley, Murazik and Koss",
-    "ToolTip": "Consequatur harum sit.",
+    "Id": 548,
+    "Name": "Miller, Lubowitz and Douglas",
+    "ToolTip": "Odit ut exercitationem debitis aut quo laborum.",
     "Deleted": true,
-    "Rank": 506,
-    "Type": "commodi",
-    "ColorBlock": 231,
-    "IconHint": "nihil",
+    "Rank": 424,
+    "Type": "soluta",
+    "ColorBlock": 457,
+    "IconHint": "porro",
     "Selected": false,
-    "LastChanged": "2014-10-10T11:22:45.9754127+02:00",
+    "LastChanged": "2014-04-24T12:15:28.2286168+02:00",
     "ChildItems": [
       {
-        "Id": 868,
-        "Name": "Bergnaum-Towne",
-        "ToolTip": "Consequatur nulla reiciendis modi cumque quia.",
-        "Deleted": false,
-        "Rank": 185,
-        "Type": "harum",
-        "ColorBlock": 343,
-        "IconHint": "laudantium",
+        "Id": 222,
+        "Name": "Reilly-Emard",
+        "ToolTip": "Voluptate magnam.",
+        "Deleted": true,
+        "Rank": 86,
+        "Type": "est",
+        "ColorBlock": 616,
+        "IconHint": "repellendus",
         "Selected": true,
-        "LastChanged": "2017-02-27T11:22:45.9754127+01:00",
+        "LastChanged": "2015-08-15T12:15:28.2296174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "in",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Gina Halvorson",
+        "FullName": "Ms. Aleen Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "sit",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Jeremy Ritchie I",
+    "FullName": "Rodrigo Hand PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 457
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

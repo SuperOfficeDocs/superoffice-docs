@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 253,
-    "Name": "Robel-Bergnaum",
-    "Description": "Adaptive dedicated focus group",
-    "DeltaJson": "consectetur",
+    "ConfigurableScreenDeltaId": 22,
+    "Name": "Gleason Inc and Sons",
+    "Description": "Open-source maximized hub",
+    "DeltaJson": "dignissimos",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "enim",
-    "UpdatedDate": "2005-01-28T11:22:37.6179991+01:00",
-    "CreatedDate": "2011-08-26T11:22:37.6179991+02:00",
+    "RecipeId": "eos",
+    "UpdatedDate": "2011-02-03T12:15:18.4257597+01:00",
+    "CreatedDate": "2017-04-22T12:15:18.4257597+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      923,
-      663
+      110,
+      289
     ],
-    "AppliesToKey": "nam",
+    "AppliesToKey": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldLength": 832
       }
     }
   }

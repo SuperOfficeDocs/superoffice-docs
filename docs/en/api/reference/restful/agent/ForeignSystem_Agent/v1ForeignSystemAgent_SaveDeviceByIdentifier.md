@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stokes, Prohaska and Mohr",
-  "DeviceName": "Bartell Inc and Sons",
-  "DeviceIdentifier": "in",
+  "ApplicationName": "Wolff, Harber and Bauch",
+  "DeviceName": "Johns Inc and Sons",
+  "DeviceIdentifier": "quis",
   "ForeignDevice": null
 }
 ```
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 368,
-  "Name": "McClure-Nolan",
-  "CreatedDate": "2011-01-18T11:22:38.3834434+01:00",
-  "UpdatedDate": "2002-08-03T11:22:38.3834434+02:00",
-  "AssociateFullName": "Concepcion Ritchie II",
-  "CreatedBy": "ea",
-  "UpdatedBy": "libero",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 70,
+  "ForeignDeviceId": 221,
+  "Name": "Lubowitz LLC",
+  "CreatedDate": "2002-04-24T12:15:19.155749+02:00",
+  "UpdatedDate": "2022-12-28T12:15:19.155749+01:00",
+  "AssociateFullName": "Yasmeen Feeney",
+  "CreatedBy": "esse",
+  "UpdatedBy": "omnis",
+  "DeviceIdentifier": "sed",
+  "ForeignAppId": 929,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

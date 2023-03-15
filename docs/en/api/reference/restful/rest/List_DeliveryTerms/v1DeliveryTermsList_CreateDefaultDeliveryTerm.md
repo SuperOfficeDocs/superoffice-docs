@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 177,
-  "Name": "Schuppe Group",
-  "Tooltip": "aspernatur",
+  "Id": 589,
+  "Name": "Rogahn LLC",
+  "Tooltip": "illo",
   "Deleted": false,
-  "UdListDefinitionId": 781,
-  "Rank": 20,
+  "UdListDefinitionId": 600,
+  "Rank": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 763
     }
   }
 }

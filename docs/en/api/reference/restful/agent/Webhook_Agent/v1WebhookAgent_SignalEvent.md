@@ -70,12 +70,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Davis Group",
-  "PrimaryKey": 850,
+  "EventName": "Murazik, Heaney and Maggio",
+  "PrimaryKey": 952,
   "Data": {
     "fieldName": {}
   }

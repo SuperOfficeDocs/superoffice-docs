@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 516,
-    "Name": "Fadel, Windler and Davis",
-    "Tooltip": "sed",
-    "Rank": 925,
-    "Key": "itaque",
-    "MailTemplateId": 17,
-    "Deleted": false,
+    "ConsentSourceId": 940,
+    "Name": "Corwin, Prohaska and Fahey",
+    "Tooltip": "excepturi",
+    "Rank": 46,
+    "Key": "pariatur",
+    "MailTemplateId": 920,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldType": "System.String",
+        "FieldLength": 54
       }
     }
   }

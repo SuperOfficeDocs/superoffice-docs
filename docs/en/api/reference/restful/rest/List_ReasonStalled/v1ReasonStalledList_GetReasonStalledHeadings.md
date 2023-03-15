@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 526,
-    "Name": "Graham-Kshlerin",
-    "Tooltip": "nam",
-    "Deleted": false,
-    "Rank": 683,
-    "UdListDefinitionId": 482,
+    "HeadingId": 168,
+    "Name": "Hermann Group",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "Rank": 883,
+    "UdListDefinitionId": 179,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldType": "System.String",
+        "FieldLength": 77
       }
     }
   }

@@ -26,7 +26,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=dolor
+GET /api/v1/List/SelectionCategory/MDOItems?query=voluptate
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Kling, Nienow and Legros",
-    "ToolTip": "Non ea accusamus.",
+    "Id": 372,
+    "Name": "Harris Inc and Sons",
+    "ToolTip": "Architecto quam consequatur sit iste in cumque molestias.",
     "Deleted": false,
-    "Rank": 456,
-    "Type": "est",
+    "Rank": 348,
+    "Type": "pariatur",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Dach, Block and Bahringer",
-        "ToolTip": "Cum modi nihil.",
+        "Id": 994,
+        "Name": "Tillman-Beier",
+        "ToolTip": "Unde quia culpa voluptas sint aperiam.",
         "Deleted": false,
-        "Rank": 426,
-        "Type": "aut",
+        "Rank": 44,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 213,
-        "ExtraInfo": "libero",
-        "StyleHint": "minus",
-        "FullName": "Jeramie Quitzon",
+        "IconHint": "ut",
+        "ColorBlock": 289,
+        "ExtraInfo": "officia",
+        "StyleHint": "alias",
+        "FullName": "Mrs. Lexus Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 859
+            "FieldType": "System.Int32",
+            "FieldLength": 294
           }
         }
       }
     ],
-    "IconHint": "asperiores",
-    "ColorBlock": 107,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "a",
-    "FullName": "Dr. Shayna Hanna Champlin",
+    "IconHint": "velit",
+    "ColorBlock": 715,
+    "ExtraInfo": "dicta",
+    "StyleHint": "ipsam",
+    "FullName": "Ms. Thalia Donnelly DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

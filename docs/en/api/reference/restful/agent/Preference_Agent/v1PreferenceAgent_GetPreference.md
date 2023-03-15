@@ -86,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981
+  "Id": 705
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "modi",
   "Specification": null,
-  "DisplayValue": "aliquam",
-  "DisplayTooltip": "blanditiis",
+  "DisplayValue": "necessitatibus",
+  "DisplayTooltip": "enim",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 497,
-  "PrefDescId": 162,
-  "TableName": "Morissette LLC",
-  "UserPreferenceId": 106,
+  "TargetId": 57,
+  "PrefDescId": 225,
+  "TableName": "Boehm Group",
+  "UserPreferenceId": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 721
     }
   }
 }

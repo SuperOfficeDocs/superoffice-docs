@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 114,
-  "GroupId": 990
+  "UdListDefinitionId": 11,
+  "GroupId": 101
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 714,
-    "Name": "Schneider-Lindgren",
-    "ToolTip": "Velit nostrum molestias similique expedita.",
+    "Id": 172,
+    "Name": "Reichert, McDermott and Bergnaum",
+    "ToolTip": "Ad est.",
     "Deleted": false,
-    "Rank": 12,
-    "Type": "consequuntur",
-    "ColorBlock": 296,
-    "IconHint": "qui",
+    "Rank": 440,
+    "Type": "nihil",
+    "ColorBlock": 223,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2009-10-05T11:22:38.4615502+02:00",
+    "LastChanged": "2019-10-22T12:15:19.254748+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Dach, Orn and Jewess",
-        "ToolTip": "Ut cumque.",
-        "Deleted": true,
-        "Rank": 510,
-        "Type": "quia",
-        "ColorBlock": 695,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2016-07-01T11:22:38.4615502+02:00",
+        "Id": 711,
+        "Name": "Hessel, Moore and Schmidt",
+        "ToolTip": "Ut ea est culpa et fugit illo voluptates.",
+        "Deleted": false,
+        "Rank": 657,
+        "Type": "et",
+        "ColorBlock": 655,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "2009-05-29T12:15:19.254748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "est",
+        "ExtraInfo": "est",
+        "StyleHint": "sint",
         "Hidden": true,
-        "FullName": "Dr. Prudence Koepp",
+        "FullName": "Taryn Kunde MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 885
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Elza Christiansen",
+    "ExtraInfo": "autem",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Deondre Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 295
       }
     }
   }

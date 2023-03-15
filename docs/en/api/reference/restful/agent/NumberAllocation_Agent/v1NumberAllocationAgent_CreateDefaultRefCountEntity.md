@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 243,
-  "Field": "ratione",
-  "RecordId": 219,
+  "RefCountsId": 670,
+  "Field": "porro",
+  "RecordId": 326,
   "SuggestedRecords": [
     {
-      "Id": 870,
-      "Name": "Dooley LLC",
-      "ToolTip": "Autem et in culpa illum.",
+      "Id": 766,
+      "Name": "Stamm Group",
+      "ToolTip": "Omnis unde rem neque rerum qui inventore.",
       "Deleted": false,
-      "Rank": 92,
-      "Type": "mollitia",
+      "Rank": 245,
+      "Type": "modi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "atque",
-      "ColorBlock": 87,
-      "ExtraInfo": "sunt",
-      "StyleHint": "consequatur",
-      "FullName": "Melvin Cynthia McGlynn Sr.",
+      "IconHint": "velit",
+      "ColorBlock": 718,
+      "ExtraInfo": "at",
+      "StyleHint": "molestiae",
+      "FullName": "Tia Stiedemann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 66
+          "FieldType": "System.Int32",
+          "FieldLength": 569
         }
       }
     }
   ],
-  "CurrentValue": 784,
-  "TravelPrefix": 534,
-  "SatPrefix": 225,
-  "Allocate": false,
+  "CurrentValue": 199,
+  "TravelPrefix": 252,
+  "SatPrefix": 221,
+  "Allocate": true,
   "Unique": false,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

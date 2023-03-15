@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sanford, Reynolds and Bradtke",
-  "DeviceName": "Pollich LLC",
-  "KeyName": "Ullrich Inc and Sons",
-  "TableName": "Walter LLC",
-  "RecordId": 660
+  "ApplicationName": "Langosh-Kling",
+  "DeviceName": "Gislason-Wilderman",
+  "KeyName": "McCullough Inc and Sons",
+  "TableName": "Cole-Veum",
+  "RecordId": 877
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "possimus",
-  "Value": "voluptatem",
-  "RecordId": 518,
-  "CreatedDate": "2003-05-07T11:22:38.3834434+02:00",
-  "UpdatedDate": "2015-06-28T11:22:38.3834434+02:00",
-  "UpdatedBy": "laudantium",
-  "CreatedBy": "officiis",
-  "TableName": "Gulgowski, McCullough and Bode",
+  "Key": "perspiciatis",
+  "Value": "quia",
+  "RecordId": 914,
+  "CreatedDate": "2008-08-16T12:15:19.1567493+02:00",
+  "UpdatedDate": "2021-12-13T12:15:19.1567493+01:00",
+  "UpdatedBy": "eaque",
+  "CreatedBy": "aut",
+  "TableName": "Bradtke, Mueller and Howe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 995
     }
   }
 }

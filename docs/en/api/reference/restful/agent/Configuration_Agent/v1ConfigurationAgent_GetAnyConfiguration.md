@@ -76,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "vel",
-  "Instance": "sed",
-  "Item": "doloremque",
-  "Type": "molestiae"
+  "Application": "officiis",
+  "Instance": "modi",
+  "Item": "et",
+  "Type": "consequatur"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"minima"
 ```

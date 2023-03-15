@@ -77,7 +77,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 237,
-  "Name": "Schowalter Group",
-  "Config": "rerum",
-  "Rank": 944,
-  "Client": "suscipit",
-  "Style": "itaque",
+  "DashboardThemeId": 325,
+  "Name": "Raynor LLC",
+  "Config": "magni",
+  "Rank": 615,
+  "Client": "consequatur",
+  "Style": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 114
+      "FieldLength": 819
     }
   },
   "_Links": {

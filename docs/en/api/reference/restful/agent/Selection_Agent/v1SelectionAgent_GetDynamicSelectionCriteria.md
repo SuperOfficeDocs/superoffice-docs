@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 743
+  "SelectionId": 52
 }
 ```
 
@@ -95,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walker Group",
-    "Operator": "qui",
+    "Name": "Schaefer, Abbott and Johnson",
+    "Operator": "magnam",
     "Values": [
-      "animi",
-      "sunt"
+      "adipisci",
+      "consequuntur"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "corrupti"
+      "rerum",
+      "deleniti"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Orn LLC",
-        "Operator": "minus",
+        "Name": "Hand Group",
+        "Operator": "odit",
         "Values": [
-          "earum",
-          "impedit"
+          "magni",
+          "aut"
         ],
         "DisplayValues": [
-          "quia",
-          "sapiente"
+          "aspernatur",
+          "quibusdam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -125,14 +125,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 681,
+        "InterParenthesis": 800,
         "InterOperator": "And",
-        "UniqueHash": 200
+        "UniqueHash": 2
       }
     ],
-    "InterParenthesis": 1002,
+    "InterParenthesis": 811,
     "InterOperator": "And",
-    "UniqueHash": 845
+    "UniqueHash": 609
   }
 ]
 ```

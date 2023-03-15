@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 43,
-  "ListItemId": 817
+  "UdListDefinitionId": 740,
+  "ListItemId": 131
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Sipes LLC",
-    "ToolTip": "Dolores sit.",
-    "Deleted": true,
-    "Rank": 962,
-    "Type": "recusandae",
-    "ColorBlock": 435,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "2000-05-12T11:22:38.4615502+02:00",
+    "Id": 172,
+    "Name": "Barton Inc and Sons",
+    "ToolTip": "Sunt ut laboriosam ex deserunt repellendus explicabo quidem.",
+    "Deleted": false,
+    "Rank": 490,
+    "Type": "fugiat",
+    "ColorBlock": 460,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2012-07-21T12:15:19.2457471+02:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Treutel-McLaughlin",
-        "ToolTip": "Fugiat est nemo odit aperiam.",
+        "Id": 107,
+        "Name": "Senger-Kling",
+        "ToolTip": "Eum dolor harum ipsam dolore aspernatur.",
         "Deleted": false,
-        "Rank": 366,
-        "Type": "neque",
-        "ColorBlock": 624,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2000-12-11T11:22:38.4615502+01:00",
+        "Rank": 239,
+        "Type": "quod",
+        "ColorBlock": 834,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2016-03-16T12:15:19.2457471+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "ullam",
-        "Hidden": true,
-        "FullName": "Mrs. Donny Anderson MD",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Nakia Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 7
+            "FieldLength": 369
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Ursula Smitham",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Miguel Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   }

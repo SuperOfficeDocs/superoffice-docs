@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 324,
-  "Name": "Cormier-Gulgowski",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "Rank": 878,
-  "IsCustomList": false,
+  "Id": 655,
+  "Name": "Hoeger-Tremblay",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 811,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "totam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "similique",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 157,
-  "Name": "Cruickshank Group",
-  "Tooltip": "quaerat",
-  "Deleted": true,
-  "Rank": 794,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "Id": 429,
+  "Name": "Predovic, Osinski and Brekke",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 69,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 225
     }
   }
 }

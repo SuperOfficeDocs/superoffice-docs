@@ -108,27 +108,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 478,
-  "Name": "Haley Group",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 504,
+  "WebPanelId": 317,
+  "Name": "Corwin, Muller and Mohr",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 623,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Towne LLC",
+  "WindowName": "Reilly, Langworth and Schultz",
   "Url": "http://www.example.com/",
-  "ProgId": "perspiciatis",
-  "Icon": 86,
-  "AlwaysReloadOnShow": false
+  "ProgId": "et",
+  "Icon": 259,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -139,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 59,
-  "Name": "Hahn, Leffler and Hagenes",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "Rank": 544,
+  "WebPanelId": 880,
+  "Name": "Thompson Inc and Sons",
+  "Tooltip": "suscipit",
+  "Deleted": true,
+  "Rank": 469,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Jacobson LLC",
+  "WindowName": "Turcotte-Torphy",
   "Url": "http://www.example.com/",
-  "ProgId": "delectus",
-  "Icon": 350,
+  "ProgId": "libero",
+  "Icon": 856,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldLength": 418
     }
   }
 }

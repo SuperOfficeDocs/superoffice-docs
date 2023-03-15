@@ -81,15 +81,15 @@ OK
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 382,
-  "Name": "Cummings Group",
+  "TicketStatusId": 612,
+  "Name": "Schamberger, Harris and Kohler",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": true
 }
@@ -102,19 +102,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 210,
-  "Name": "Rolfson Group",
+  "TicketStatusId": 755,
+  "Name": "Brekke-Goldner",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false,
+  "IsDefault": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

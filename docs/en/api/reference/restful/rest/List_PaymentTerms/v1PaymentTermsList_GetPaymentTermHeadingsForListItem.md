@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Rolfson LLC",
-    "ToolTip": "Sed laboriosam sed officia sed quis sunt.",
-    "Deleted": true,
-    "Rank": 509,
-    "Type": "libero",
-    "ColorBlock": 515,
-    "IconHint": "voluptatum",
+    "Id": 619,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Voluptates non sit consequatur veniam nobis quibusdam.",
+    "Deleted": false,
+    "Rank": 232,
+    "Type": "qui",
+    "ColorBlock": 317,
+    "IconHint": "dolorum",
     "Selected": true,
-    "LastChanged": "2018-07-22T11:22:45.9597902+02:00",
+    "LastChanged": "1999-05-04T12:15:28.2126203+02:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "Anderson, Lueilwitz and Schneider",
-        "ToolTip": "Excepturi nulla sed commodi atque et.",
+        "Id": 607,
+        "Name": "Kunze, Jacobi and Rice",
+        "ToolTip": "Dolores consectetur unde commodi velit ut.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "mollitia",
-        "ColorBlock": 866,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2022-06-14T11:22:45.9597902+02:00",
+        "Rank": 366,
+        "Type": "illum",
+        "ColorBlock": 349,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2015-11-24T12:15:28.2126203+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "quia",
+        "ExtraInfo": "nobis",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Rickey Schneider",
+        "FullName": "Judy Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 547
+            "FieldType": "System.Int32",
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Dr. Elisha Bartell",
+    "ExtraInfo": "sint",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Erika Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 633
       }
     }
   }

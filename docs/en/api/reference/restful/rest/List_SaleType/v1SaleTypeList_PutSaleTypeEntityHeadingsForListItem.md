@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Koss Group",
-    "ToolTip": "Illo rerum.",
+    "Id": 490,
+    "Name": "Kub Group",
+    "ToolTip": "Qui blanditiis quo quos dolore et eveniet.",
     "Deleted": true,
-    "Rank": 970,
-    "Type": "voluptas",
-    "ColorBlock": 924,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2007-03-10T11:22:46.1784934+01:00",
+    "Rank": 264,
+    "Type": "molestiae",
+    "ColorBlock": 50,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2013-02-20T12:15:28.4876135+01:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Morissette-Larson",
-        "ToolTip": "Ea eaque optio ratione reprehenderit aut corporis sunt.",
-        "Deleted": true,
-        "Rank": 719,
-        "Type": "dicta",
-        "ColorBlock": 347,
-        "IconHint": "dolorem",
+        "Id": 195,
+        "Name": "Oberbrunner, Runte and Rempel",
+        "ToolTip": "Eos ut voluptas tempora consequatur laborum aperiam veritatis.",
+        "Deleted": false,
+        "Rank": 114,
+        "Type": "consectetur",
+        "ColorBlock": 100,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2013-02-20T11:22:46.1784934+01:00",
+        "LastChanged": "2016-09-15T12:15:28.4876135+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "sit",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Jadyn Ratke"
+        "FullName": "Dr. Shad Augustine Zboncak"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "iste",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Alexzander Bode"
+    "FullName": "Miss Charlotte Mertz MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Adams-Schiller",
-    "ToolTip": "Eum tempore consequatur ipsa aut tenetur et.",
+    "Id": 821,
+    "Name": "Schaefer Group",
+    "ToolTip": "Qui amet necessitatibus aut labore sunt sed at.",
     "Deleted": false,
-    "Rank": 543,
-    "Type": "vitae",
-    "ColorBlock": 372,
-    "IconHint": "voluptatibus",
+    "Rank": 521,
+    "Type": "minima",
+    "ColorBlock": 596,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2013-08-01T11:22:46.1784934+02:00",
+    "LastChanged": "1999-12-28T12:15:28.4896146+01:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "White, Morar and Kihn",
-        "ToolTip": "Dolores iusto voluptatem mollitia.",
-        "Deleted": true,
-        "Rank": 303,
-        "Type": "qui",
-        "ColorBlock": 931,
-        "IconHint": "quas",
+        "Id": 910,
+        "Name": "Emard Inc and Sons",
+        "ToolTip": "Blanditiis natus doloribus consectetur.",
+        "Deleted": false,
+        "Rank": 993,
+        "Type": "minus",
+        "ColorBlock": 379,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "2013-07-11T11:22:46.1784934+02:00",
+        "LastChanged": "2003-07-13T12:15:28.4896146+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "possimus",
+        "StyleHint": "temporibus",
         "Hidden": true,
-        "FullName": "Carolyne Effertz",
+        "FullName": "Ryleigh Anibal Treutel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 746
+            "FieldLength": 456
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "sed",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "veritatis",
     "Hidden": false,
-    "FullName": "Shea Bode",
+    "FullName": "Prof. Margot Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 458
       }
     }
   }

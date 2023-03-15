@@ -25,6 +25,7 @@ Download [WSDL file for Services88/Marketing](../Services88-Marketing.md) if you
 * [DeleteShipmentMessageEntity](DeleteShipmentMessageEntity.md)
 * [GetFormEntity](GetFormEntity.md)
 * [GetFormSubmissionEntity](GetFormSubmissionEntity.md)
+* [GetFormSubmissionsCount](GetFormSubmissionsCount.md)
 * [GetPreviewMailing](GetPreviewMailing.md)
 * [GetPreviewMailingHeader](GetPreviewMailingHeader.md)
 * [GetShipmentMessageBlockEntity](GetShipmentMessageBlockEntity.md)

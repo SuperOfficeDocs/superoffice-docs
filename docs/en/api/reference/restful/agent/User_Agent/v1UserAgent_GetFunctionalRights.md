@@ -95,7 +95,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 105
+  "RoleId": 786
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Abbott, Hane and Spinka",
-    "ToolTip": "Fugiat omnis aut est odit tempore.",
-    "Deleted": false,
-    "Rank": 181,
-    "Type": "aperiam",
-    "ColorBlock": 378,
-    "IconHint": "doloribus",
+    "Id": 753,
+    "Name": "Ruecker LLC",
+    "ToolTip": "Dicta cumque tempora.",
+    "Deleted": true,
+    "Rank": 561,
+    "Type": "voluptates",
+    "ColorBlock": 490,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "1998-02-26T11:22:39.617529+01:00",
+    "LastChanged": "1998-09-15T12:15:20.5677287+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Mitchell-Paucek",
-        "ToolTip": "Dolores quidem.",
-        "Deleted": true,
-        "Rank": 921,
-        "Type": "velit",
-        "ColorBlock": 150,
-        "IconHint": "enim",
+        "Id": 253,
+        "Name": "Kihn, Kulas and Stiedemann",
+        "ToolTip": "Voluptas quam qui laboriosam voluptatem est sed est.",
+        "Deleted": false,
+        "Rank": 968,
+        "Type": "quos",
+        "ColorBlock": 642,
+        "IconHint": "laboriosam",
         "Selected": true,
-        "LastChanged": "1996-06-03T11:22:39.617529+02:00",
+        "LastChanged": "2007-03-18T12:15:20.5677287+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "at",
+        "ExtraInfo": "quis",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Miss Lafayette Stephany Bednar",
+        "FullName": "Raphael Jevon Konopelski PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 116
+            "FieldLength": 705
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "et",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Mafalda Gottlieb",
+    "FullName": "Ms. Ben Oda Champlin PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 347
+        "FieldType": "System.Int32",
+        "FieldLength": 56
       }
     }
   }

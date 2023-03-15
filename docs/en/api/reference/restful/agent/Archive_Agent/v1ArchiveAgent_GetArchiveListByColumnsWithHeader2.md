@@ -165,18 +165,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jacobson LLC",
-  "Columns": "eos",
-  "SortOrder": "eum",
-  "Restriction": "inventore",
-  "Entities": "magni",
-  "Page": 910,
-  "PageSize": 430,
-  "Options": "omnis"
+  "ProviderName": "Blick, Simonis and Fahey",
+  "Columns": "assumenda",
+  "SortOrder": "cumque",
+  "Restriction": "at",
+  "Entities": "corrupti",
+  "Page": 328,
+  "PageSize": 546,
+  "Options": "maiores"
 }
 ```
 
@@ -187,26 +187,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 755,
+  "RowCount": 818,
   "Rows": [
     {
-      "EntityName": "Becker, Boyle and Mosciski",
-      "PrimaryKey": 765,
+      "EntityName": "Jacobs, Labadie and Sauer",
+      "PrimaryKey": 879,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "debitis",
-          "TooltipHint": "distinctio",
-          "LinkHint": "consequatur"
+          "DisplayValue": "cumque",
+          "TooltipHint": "aliquam",
+          "LinkHint": "nesciunt"
         }
       },
-      "LinkHint": "accusamus",
-      "StyleHint": "odit",
+      "LinkHint": "cupiditate",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 688
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 982
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

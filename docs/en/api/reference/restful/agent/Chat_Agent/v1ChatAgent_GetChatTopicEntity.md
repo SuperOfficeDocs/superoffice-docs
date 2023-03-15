@@ -25,7 +25,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=759
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=316
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 344,
-  "Name": "Parisian, Ratke and Schulist",
-  "Description": "Reverse-engineered zero defect conglomeration",
-  "WelcomeMessage": "dolor",
+  "ChatTopicId": 926,
+  "Name": "Price Inc and Sons",
+  "Description": "Exclusive multimedia info-mediaries",
+  "WelcomeMessage": "vero",
   "Language": null,
-  "LastAccept": "2013-09-27T11:22:37.5711376+02:00",
-  "SecondsPrAccept": 156,
-  "AlertRecipient": "fugiat",
+  "LastAccept": "2018-04-04T12:15:18.38076+02:00",
+  "SecondsPrAccept": 495,
+  "AlertRecipient": "dolores",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "voluptatem",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ut",
-  "WarnNewChatMinutes": 257,
-  "WarnManagerNewChatMinutes": 732,
+  "CollectConsent": true,
+  "BadgeHeader": "dolor",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "natus",
+  "WarnNewChatMinutes": 865,
+  "WarnManagerNewChatMinutes": 923,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 91,
-  "WarnManagerChatMessageMinutes": 439,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 88,
-  "OfflineFormQueueLength": 409,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "et",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 304,
+  "WarnManagerChatMessageMinutes": 556,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 581,
+  "OfflineFormQueueLength": 264,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

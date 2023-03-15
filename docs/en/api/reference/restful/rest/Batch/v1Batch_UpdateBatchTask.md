@@ -110,34 +110,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 993,
-  "Name": "Hamill LLC",
-  "AssociateId": 365,
-  "DetailsTable": 294,
-  "DetailsRecord": 550,
-  "IsSystemTask": true,
+  "Id": 415,
+  "Name": "Pfannerstill, Cormier and Hilll",
+  "AssociateId": 114,
+  "DetailsTable": 736,
+  "DetailsRecord": 536,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nostrum",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "asperiores",
+    "ParameterObject2": "corporis"
   },
-  "LastStarted": "2017-01-09T11:22:45.3817553+01:00",
-  "Created": "2016-04-22T11:22:45.3817553+02:00",
-  "StartCount": 728,
-  "DatabaseSerialNumber": "1217713",
-  "Context": "et",
-  "Result": "explicabo",
+  "LastStarted": "1998-01-05T12:15:27.5996259+01:00",
+  "Created": "1996-10-02T12:15:27.5996259+02:00",
+  "StartCount": 583,
+  "DatabaseSerialNumber": "224003",
+  "Context": "tempora",
+  "Result": "et",
   "State": "All",
-  "Description": "De-engineered web-enabled standardization",
-  "Response": "velit",
-  "Request": "molestiae",
-  "ProgressDescription": "Configurable coherent strategy",
-  "ProgressPercent": 434,
-  "FileName": "Berge, Batz and Torphy",
+  "Description": "Realigned eco-centric firmware",
+  "Response": "dolorum",
+  "Request": "veniam",
+  "ProgressDescription": "Fully-configurable object-oriented moderator",
+  "ProgressPercent": 582,
+  "FileName": "Grimes-Denesik",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 299,
-  "Name": "Nikolaus, Smith and O'Reilly",
-  "AssociateId": 809,
-  "DetailsTable": 710,
-  "DetailsRecord": 129,
+  "Id": 436,
+  "Name": "Schuppe, Donnelly and West",
+  "AssociateId": 700,
+  "DetailsTable": 78,
+  "DetailsRecord": 275,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "perferendis",
-    "ParameterObject2": "et"
+    "ParameterObject1": "aliquid",
+    "ParameterObject2": "temporibus"
   },
-  "LastStarted": "2017-08-19T11:22:45.3817553+02:00",
-  "Created": "2020-12-28T11:22:45.3817553+01:00",
-  "StartCount": 170,
-  "DatabaseSerialNumber": "613732",
-  "Context": "doloremque",
-  "Result": "ad",
+  "LastStarted": "2003-03-28T12:15:27.6006262+01:00",
+  "Created": "2020-03-07T12:15:27.6006262+01:00",
+  "StartCount": 889,
+  "DatabaseSerialNumber": "469534",
+  "Context": "quis",
+  "Result": "illo",
   "State": "All",
-  "Description": "Cloned foreground instruction set",
-  "Response": "aut",
-  "Request": "cum",
-  "ProgressDescription": "Programmable dynamic interface",
-  "ProgressPercent": 720,
-  "FileName": "Wolf Group",
+  "Description": "Configurable bi-directional knowledge base",
+  "Response": "quibusdam",
+  "Request": "dolorem",
+  "ProgressDescription": "Exclusive foreground projection",
+  "ProgressPercent": 104,
+  "FileName": "Ziemann, Mueller and Heidenreich",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 1000
     }
   }
 }

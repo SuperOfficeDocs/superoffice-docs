@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "dolorem",
+  "FieldLabel": "repellendus",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 394,
-  "ColumnId": 423,
-  "FieldDefault": "tenetur",
-  "FieldHeight": 996,
-  "FieldLabel": "incidunt",
-  "FieldLeft": 603,
-  "FieldTop": 477,
+  "UDefFieldId": 849,
+  "ColumnId": 699,
+  "FieldDefault": "non",
+  "FieldHeight": 771,
+  "FieldLabel": "eos",
+  "FieldLeft": 916,
+  "FieldTop": 362,
   "FieldType": "Checkbox",
-  "FieldWidth": 671,
-  "FormatMask": "non",
+  "FieldWidth": 512,
+  "FormatMask": "velit",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 142,
-  "LabelLeft": 886,
-  "LabelTop": 896,
-  "LabelWidth": 122,
-  "LastVersionId": 951,
-  "ListTableId": 308,
+  "LabelHeight": 999,
+  "LabelLeft": 870,
+  "LabelTop": 788,
+  "LabelWidth": 539,
+  "LastVersionId": 522,
+  "ListTableId": 858,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 895,
-  "ProgId": "est",
+  "Page1LineNo": 482,
+  "ProgId": "adipisci",
   "IsReadOnly": false,
-  "ShortLabel": "molestiae",
-  "TabOrder": 238,
-  "TextLength": 293,
-  "Tooltip": "omnis",
-  "UdefIdentity": 297,
-  "UDListDefinitionId": 301,
+  "ShortLabel": "tempora",
+  "TabOrder": 227,
+  "TextLength": 590,
+  "Tooltip": "quo",
+  "UdefIdentity": 771,
+  "UDListDefinitionId": 365,
   "Justification": "Center",
-  "Version": 815,
-  "TemplateVariableName": "Ebert LLC",
+  "Version": 923,
+  "TemplateVariableName": "Runte, Howell and Homenick",
   "HasBeenPublished": false,
-  "MdoListName": "Rau LLC",
+  "MdoListName": "Hilpert-Olson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

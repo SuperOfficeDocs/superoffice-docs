@@ -77,7 +77,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "AccessToken",
   "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Progressive tertiary matrices"
+  "Description": "Visionary system-worthy secured line"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-928
+340
 ```

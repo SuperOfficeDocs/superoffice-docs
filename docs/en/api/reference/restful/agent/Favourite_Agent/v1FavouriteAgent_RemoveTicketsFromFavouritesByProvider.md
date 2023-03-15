@@ -69,31 +69,31 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schultz, Connelly and Purdy",
+  "ProviderName": "Torphy LLC",
   "Restrictions": [
     {
-      "Name": "Conroy-Torphy",
-      "Operator": "sapiente",
+      "Name": "Marvin-Connelly",
+      "Operator": "natus",
       "Values": [
-        "veniam",
-        "voluptatem"
+        "neque",
+        "qui"
       ],
       "DisplayValues": [
-        "laboriosam",
-        "hic"
+        "sed",
+        "unde"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 828,
+      "InterParenthesis": 778,
       "InterOperator": "And",
-      "UniqueHash": 55
+      "UniqueHash": 808
     }
   ],
-  "AssociateId": 999
+  "AssociateId": 741
 }
 ```
 

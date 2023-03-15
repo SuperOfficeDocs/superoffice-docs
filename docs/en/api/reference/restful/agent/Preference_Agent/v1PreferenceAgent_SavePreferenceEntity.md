@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nihil",
+  "RawValue": "quas",
   "Specification": null,
-  "DisplayValue": "aut",
-  "DisplayTooltip": "ex",
+  "DisplayValue": "assumenda",
+  "DisplayTooltip": "ipsam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 446,
-  "PrefDescId": 380,
-  "TableName": "Lesch LLC",
-  "UserPreferenceId": 965,
+  "TargetId": 750,
+  "PrefDescId": 554,
+  "TableName": "Willms-Streich",
+  "UserPreferenceId": 101,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 186
     }
   }
 }

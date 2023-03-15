@@ -66,7 +66,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 269,
-  "Name": "Wehner, Lesch and Wehner",
-  "CreatedDate": "2018-10-28T11:22:44.6788474+01:00",
-  "UpdatedDate": "2006-11-07T11:22:44.6788474+01:00",
+  "ForeignAppId": 856,
+  "Name": "Nader-Glover",
+  "CreatedDate": "2012-09-27T12:15:26.9416423+02:00",
+  "UpdatedDate": "2021-06-02T12:15:26.9416423+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 541,
-      "Name": "Rutherford-Kuvalis",
-      "CreatedDate": "2011-07-16T11:22:44.8506265+02:00",
-      "UpdatedDate": "2005-06-02T11:22:44.8506265+02:00",
-      "AssociateFullName": "Moises Stiedemann",
-      "CreatedBy": "animi",
-      "UpdatedBy": "quo",
-      "DeviceIdentifier": "accusamus",
-      "ForeignAppId": 640,
+      "ForeignDeviceId": 80,
+      "Name": "Haley LLC",
+      "CreatedDate": "2008-08-25T12:15:26.9426362+02:00",
+      "UpdatedDate": "2001-02-01T12:15:26.9426362+01:00",
+      "AssociateFullName": "Reba Rodriguez DDS",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "ratione",
+      "DeviceIdentifier": "ipsum",
+      "ForeignAppId": 234,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 623
+          "FieldLength": 358
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 853
     }
   }
 }

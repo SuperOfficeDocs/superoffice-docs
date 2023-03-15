@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Aufderhar-Grimes",
-    "ToolTip": "Numquam sit.",
-    "Deleted": false,
-    "Rank": 819,
-    "Type": "possimus",
-    "ColorBlock": 222,
-    "IconHint": "cum",
-    "Selected": false,
-    "LastChanged": "1997-04-06T11:22:45.5692589+02:00",
+    "Id": 262,
+    "Name": "Reilly, Ernser and Ondricka",
+    "ToolTip": "Quam illum eligendi ea.",
+    "Deleted": true,
+    "Rank": 135,
+    "Type": "sed",
+    "ColorBlock": 625,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2009-10-11T12:15:27.8466241+02:00",
     "ChildItems": [
       {
-        "Id": 772,
-        "Name": "White Group",
-        "ToolTip": "Ex distinctio sed consequuntur.",
-        "Deleted": true,
-        "Rank": 110,
-        "Type": "odit",
-        "ColorBlock": 613,
-        "IconHint": "molestias",
-        "Selected": true,
-        "LastChanged": "2021-07-04T11:22:45.5692589+02:00",
+        "Id": 141,
+        "Name": "Leannon, Klocko and McGlynn",
+        "ToolTip": "Ut sequi aut.",
+        "Deleted": false,
+        "Rank": 757,
+        "Type": "consequatur",
+        "ColorBlock": 632,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "1999-07-25T12:15:27.8466241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "tempora",
-        "Hidden": false,
-        "FullName": "Mr. Sedrick Greenholt III",
+        "ExtraInfo": "eum",
+        "StyleHint": "natus",
+        "Hidden": true,
+        "FullName": "Abbey Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldType": "System.String",
+            "FieldLength": 868
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Vincent Lebsack",
+    "ExtraInfo": "similique",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Prof. Lou Theo Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldType": "System.String",
+        "FieldLength": 12
       }
     }
   }

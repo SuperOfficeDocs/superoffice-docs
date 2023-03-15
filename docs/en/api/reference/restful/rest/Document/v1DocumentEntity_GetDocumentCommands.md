@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ullrich LLC",
-    "DisplayName": "Schroeder LLC",
-    "DisplayTooltip": "aut",
-    "IconHint": "exercitationem",
+    "Name": "Bechtelar-Bernier",
+    "DisplayName": "Reinger-Dooley",
+    "DisplayTooltip": "in",
+    "IconHint": "consequuntur",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Ullrich LLC",
-    "DisplayName": "Schroeder LLC",
-    "DisplayTooltip": "aut",
-    "IconHint": "exercitationem",
+    "Name": "Bechtelar-Bernier",
+    "DisplayName": "Reinger-Dooley",
+    "DisplayTooltip": "in",
+    "IconHint": "consequuntur",
     "ReturnType": "CustomGui"
   }
 ]

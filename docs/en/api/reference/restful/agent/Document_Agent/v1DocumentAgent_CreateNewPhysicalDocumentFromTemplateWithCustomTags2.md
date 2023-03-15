@@ -115,22 +115,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 28,
-  "PersonId": 175,
-  "AppointmentId": 111,
-  "DocumentId": 620,
-  "SaleId": 894,
-  "SelectionId": 362,
-  "ProjectId": 240,
+  "ContactId": 455,
+  "PersonId": 449,
+  "AppointmentId": 811,
+  "DocumentId": 105,
+  "SaleId": 64,
+  "SelectionId": 766,
+  "ProjectId": 57,
   "CustomTags": {
-    "CustomTags1": "a",
-    "CustomTags2": "esse"
+    "CustomTags1": "quam",
+    "CustomTags2": "illum"
   },
-  "UiCulture": "ut"
+  "UiCulture": "voluptatem"
 }
 ```
 
@@ -141,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 620,
+  "DocumentId": 573,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "culpa",
-  "Name": "Murphy, Robel and Tromp",
-  "OurRef": "aut",
-  "YourRef": "dolor",
-  "CreatedDate": "2006-08-05T11:22:37.946046+02:00",
-  "UpdatedDate": "2003-10-15T11:22:37.946046+02:00",
-  "Description": "Mandatory modular frame",
+  "Attention": "sint",
+  "Header": "porro",
+  "Name": "Predovic-Friesen",
+  "OurRef": "necessitatibus",
+  "YourRef": "laudantium",
+  "CreatedDate": "2002-10-23T12:15:18.8377533+02:00",
+  "UpdatedDate": "2014-03-16T12:15:18.8377533+01:00",
+  "Description": "Decentralized composite framework",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-04-18T11:22:37.946046+02:00",
-  "ExternalRef": "quo",
+  "Date": "2012-09-21T12:15:18.8407548+02:00",
+  "ExternalRef": "amet",
   "Completed": "Completed",
-  "ActiveLinks": 950,
+  "ActiveLinks": 958,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Berge Inc and Sons",
-      "Id": 396,
-      "Description": "Assimilated solution-oriented solution",
-      "ExtraInfo": "autem",
-      "LinkId": 956,
+      "EntityName": "Leannon Group",
+      "Id": 718,
+      "Description": "Configurable system-worthy orchestration",
+      "ExtraInfo": "voluptas",
+      "LinkId": 163,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldLength": 831
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 54,
-  "Snum": 143,
+  "SuggestedDocumentId": 282,
+  "Snum": 429,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "996025160"
+    "SuperOffice:1": "Miss Muhammad Baumbach",
+    "SuperOffice:2": "2074562942"
   },
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "minus",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "1998-03-25T11:22:37.946046+01:00",
-  "PublishTo": "2010-11-05T11:22:37.946046+01:00",
-  "PublishFrom": "2021-07-02T11:22:37.946046+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2001-02-18T12:15:18.8417272+01:00",
+  "PublishTo": "2016-05-14T12:15:18.8417272+02:00",
+  "PublishFrom": "2018-01-08T12:15:18.8417272+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 453,
+      "VisibleId": 236,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 344
         }
       }
     },
     {
-      "VisibleId": 453,
+      "VisibleId": 236,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 344
         }
       }
     }
@@ -232,7 +232,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 83
     }
   }
 }

@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 254,
+  "ReportId": 160,
   "ReportCategory": "All",
-  "Description": "Seamless bandwidth-monitored database",
+  "Description": "Front-line 5th generation function",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hahn, Beatty and Aufderhar",
-  "AssociateId": 851,
-  "TemplateId": 737,
-  "Published": false,
+  "Name": "Greenfelder LLC",
+  "AssociateId": 184,
+  "TemplateId": 246,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 810
     }
   }
 }

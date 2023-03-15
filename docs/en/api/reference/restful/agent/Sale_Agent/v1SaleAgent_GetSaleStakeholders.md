@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 466
+  "SaleId": 460
 }
 ```
 
@@ -106,31 +106,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Welch, McLaughlin and Murphy",
-    "Comment": "illum",
-    "StakeholderRoleId": 831,
-    "CountryId": 78,
-    "PersonId": 257,
-    "EmailDescription": "lyla@cronin.biz",
-    "EmailId": 248,
-    "EmailAddress": "elvera@strosin.uk",
-    "PhoneId": 284,
-    "ContactName": "Larkin-Schowalter",
-    "ContactId": 473,
-    "SaleId": 656,
-    "Mrmrs": "ipsa",
-    "Firstname": "Pedro",
-    "MiddleName": "Gibson Inc and Sons",
-    "Lastname": "Littel",
-    "SaleStakeholderId": 183,
-    "Rank": 684,
-    "Phone": "216-905-4131 x46102",
+    "StakeholderRoleName": "Ryan, Jerde and Nolan",
+    "Comment": "non",
+    "StakeholderRoleId": 696,
+    "CountryId": 848,
+    "PersonId": 729,
+    "EmailDescription": "augusta.lubowitz@smith.name",
+    "EmailId": 95,
+    "EmailAddress": "hermina@kozey.co.uk",
+    "PhoneId": 225,
+    "ContactName": "Murray-Skiles",
+    "ContactId": 470,
+    "SaleId": 455,
+    "Mrmrs": "unde",
+    "Firstname": "Luisa",
+    "MiddleName": "Marquardt-Little",
+    "Lastname": "Hoeger",
+    "SaleStakeholderId": 834,
+    "Rank": 799,
+    "Phone": "980.329.0656",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 552
       }
     }
   }

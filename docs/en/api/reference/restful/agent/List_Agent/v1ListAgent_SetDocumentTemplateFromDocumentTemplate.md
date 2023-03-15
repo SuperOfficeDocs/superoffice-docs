@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 123,
+  "SourceDocumentTemplateId": 254,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 36,
-  "Name": "Heidenreich, Cruickshank and Sporer",
-  "Tooltip": "dolor",
-  "SaveInDb": 668,
-  "Filename": "ea",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 863,
+  "Name": "Koelpin, Wilderman and Koelpin",
+  "Tooltip": "reiciendis",
+  "SaveInDb": 118,
+  "Filename": "et",
+  "DefaultOref": "vero",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 409,
-  "IntentId": 699,
-  "IsDefaultPublished": true,
-  "Rank": 503,
-  "LoadTemplateFromPlugin": 82,
-  "MimeType": "qui",
+  "AutoeventId": 249,
+  "IntentId": 497,
+  "IsDefaultPublished": false,
+  "Rank": 30,
+  "LoadTemplateFromPlugin": 614,
+  "MimeType": "tenetur",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 599,
+  "DocumentTypeKey": 735,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sarai@turner.ca",
+  "EmailSubject": "toni@okon.ca",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "bennie_lang@batzborer.info",
+  "SenderEmailAddress": "brendan_robel@willschmeler.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 941
     }
   }
 }

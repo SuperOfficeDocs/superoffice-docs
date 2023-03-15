@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    189,
-    419
+    34,
+    716
   ]
 }
 ```
@@ -104,64 +104,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 418,
-    "Caption": "quis",
-    "Description": "Synergistic contextually-based focus group",
-    "ChartName": "Pollich, Kris and Stokes",
-    "ChartId": "consequuntur",
-    "IsDefault": true,
-    "AssociateId": 320,
-    "GroupId": 117,
-    "SelectionId": 877,
-    "Config": "suscipit",
+    "DashboardTileId": 239,
+    "Caption": "iusto",
+    "Description": "Open-architected contextually-based solution",
+    "ChartName": "Parker, Barton and Anderson",
+    "ChartId": "quia",
+    "IsDefault": false,
+    "AssociateId": 492,
+    "GroupId": 22,
+    "SelectionId": 532,
+    "Config": "in",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Baumbach LLC",
-        "Description": "Reactive interactive parallelism",
+        "Name": "Wilkinson-Altenwerth",
+        "Description": "Business-focused demand-driven migration",
         "Type": "Boolean",
-        "ListName": "Stamm-Nikolaus",
+        "ListName": "Swift Inc and Sons",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "eos",
-        "DefaultDataOption": true,
+        "Value": "voluptas",
+        "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldLength": 82
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 179,
+        "VisibleId": 369,
         "Visibility": "All",
-        "DisplayValue": "aut",
+        "DisplayValue": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 243
           }
         }
       },
       {
-        "VisibleId": 179,
+        "VisibleId": 369,
         "Visibility": "All",
-        "DisplayValue": "aut",
+        "DisplayValue": "dolorem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldLength": 243
           }
         }
       }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldType": "System.String",
+        "FieldLength": 68
       }
     }
   }

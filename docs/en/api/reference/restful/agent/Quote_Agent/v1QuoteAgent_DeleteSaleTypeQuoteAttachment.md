@@ -63,11 +63,11 @@ No Content
 POST /api/v1/Agents/Quote/DeleteSaleTypeQuoteAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeQuoteAttachmentId": 412
+  "SaleTypeQuoteAttachmentId": 175
 }
 ```
 

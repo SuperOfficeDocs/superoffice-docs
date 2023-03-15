@@ -105,9 +105,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2009-09-16T11:22:39.2425669+02:00",
-  "ToDate": "2003-03-02T11:22:39.2425669+01:00",
-  "AmountLimit": 895,
+  "FromDate": "2011-02-23T12:15:20.0947351+01:00",
+  "ToDate": "1998-05-06T12:15:20.0947351+02:00",
+  "AmountLimit": 674,
   "Status": "Lost"
 }
 ```
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bernhard LLC",
-    "SaleDate": "2017-10-28T11:22:39.2425669+02:00",
-    "SaleId": 871,
-    "Probability": 818,
-    "Title": "dolores",
-    "Amount": 21220.314,
-    "Currency": "et",
-    "ProjectName": "Torphy-Rippin",
-    "AssociateFullName": "Miss Jeromy Leffler DVM",
-    "Description": "Cloned dedicated process improvement",
+    "ContactName": "Cummings, Hilpert and Reichel",
+    "SaleDate": "1999-03-31T12:15:20.0947351+02:00",
+    "SaleId": 516,
+    "Probability": 100,
+    "Title": "magni",
+    "Amount": 27058.956,
+    "Currency": "ab",
+    "ProjectName": "Brakus LLC",
+    "AssociateFullName": "Reginald Marks DVM",
+    "Description": "Distributed optimal moratorium",
     "Status": "Lost",
-    "WeightedAmount": 12539.134,
-    "ProjectId": 783,
-    "EarningPercent": 12517.196,
-    "Earning": 24717.858,
-    "ContactId": 100,
-    "AssociateId": 642,
-    "PersonId": 502,
-    "SaleTypeId": 136,
-    "SaleTypeName": "Gutmann Group",
-    "PersonFullName": "Kennedi Alex Rempel Sr.",
+    "WeightedAmount": 2115.45,
+    "ProjectId": 60,
+    "EarningPercent": 18838.474,
+    "Earning": 16215.315999999999,
+    "ContactId": 728,
+    "AssociateId": 675,
+    "PersonId": 172,
+    "SaleTypeId": 451,
+    "SaleTypeName": "Satterfield-Toy",
+    "PersonFullName": "Gussie Kautzer",
     "Completed": "Completed",
-    "ActiveErpLinks": 87,
-    "NextDueDate": "1996-09-06T11:22:39.2425669+02:00",
-    "Number": "1500666",
+    "ActiveErpLinks": 956,
+    "NextDueDate": "2010-06-19T12:15:20.0957352+02:00",
+    "Number": "569593",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldLength": 640
       }
     }
   }

@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Jast-McKenzie",
-  "AssociateId": 734,
-  "DetailsTable": 606,
-  "DetailsRecord": 832,
+  "Id": 945,
+  "Name": "Wiza LLC",
+  "AssociateId": 645,
+  "DetailsTable": 609,
+  "DetailsRecord": 561,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "cumque",
-    "ParameterObject2": "voluptatem"
+    "ParameterObject1": "sapiente",
+    "ParameterObject2": "et"
   },
-  "LastStarted": "1999-03-05T11:22:37.4461725+01:00",
-  "Created": "2016-06-27T11:22:37.4461725+02:00",
-  "StartCount": 185,
-  "DatabaseSerialNumber": "1004424",
-  "Context": "et",
-  "Result": "autem",
+  "LastStarted": "1995-11-30T12:15:18.2057627+01:00",
+  "Created": "2018-07-29T12:15:18.2057627+02:00",
+  "StartCount": 918,
+  "DatabaseSerialNumber": "887898",
+  "Context": "non",
+  "Result": "dolorem",
   "State": "All",
-  "Description": "Face to face 24 hour toolset",
-  "Response": "sapiente",
-  "Request": "laboriosam",
-  "ProgressDescription": "Innovative exuding concept",
-  "ProgressPercent": 66,
-  "FileName": "Carter Group",
+  "Description": "Streamlined bandwidth-monitored framework",
+  "Response": "eligendi",
+  "Request": "sed",
+  "ProgressDescription": "Phased motivating software",
+  "ProgressPercent": 736,
+  "FileName": "Wuckert, Barrows and Schmeler",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 580
+      "FieldLength": 372
     }
   }
 }

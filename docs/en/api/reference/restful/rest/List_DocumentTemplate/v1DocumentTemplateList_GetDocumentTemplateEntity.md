@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 580,
-  "Name": "Casper-Morar",
-  "Tooltip": "reprehenderit",
-  "SaveInDb": 687,
-  "Filename": "consectetur",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 302,
+  "Name": "Lockman-Towne",
+  "Tooltip": "officia",
+  "SaveInDb": 32,
+  "Filename": "doloribus",
+  "DefaultOref": "qui",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 127,
-  "IntentId": 437,
-  "IsDefaultPublished": false,
-  "Rank": 522,
-  "LoadTemplateFromPlugin": 529,
-  "MimeType": "tenetur",
+  "AutoeventId": 490,
+  "IntentId": 685,
+  "IsDefaultPublished": true,
+  "Rank": 972,
+  "LoadTemplateFromPlugin": 759,
+  "MimeType": "tempora",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 386,
+  "DocumentTypeKey": 711,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cloyd.streich@haley.info",
+  "EmailSubject": "jackeline_schoen@vonrueden.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "katarina@king.co.uk",
+  "SenderEmailAddress": "pierce_haag@pollichmitchell.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 860
     }
   }
 }

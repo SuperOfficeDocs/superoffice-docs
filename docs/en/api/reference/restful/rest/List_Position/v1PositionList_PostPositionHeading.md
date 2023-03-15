@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 176,
-  "Name": "Gaylord Group",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 653,
-  "UdListDefinitionId": 646
+  "HeadingId": 118,
+  "Name": "Bode Inc and Sons",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 689,
+  "UdListDefinitionId": 857
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 698,
-  "Name": "Corkery Group",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "Rank": 507,
-  "UdListDefinitionId": 311,
+  "HeadingId": 94,
+  "Name": "Hansen, Krajcik and Gibson",
+  "Tooltip": "nesciunt",
+  "Deleted": true,
+  "Rank": 953,
+  "UdListDefinitionId": 848,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

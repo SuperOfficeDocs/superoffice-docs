@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 759,
-  "ERPQuoteLineKey": "vero",
-  "QuoteAlternativeId": 655,
-  "ERPProductKey": "aut",
+  "QuoteLineId": 153,
+  "ERPQuoteLineKey": "nam",
+  "QuoteAlternativeId": 81,
+  "ERPProductKey": "dolor",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29923.432,
-  "DeliveredQuantity": 1943.08,
-  "Rank": 382,
-  "Name": "Bode LLC",
-  "Description": "Cross-group 24/7 neural-net",
-  "Code": "eum",
-  "QuantityUnit": "suscipit",
-  "PriceUnit": "quos",
-  "ItemNumber": "619486",
+  "Quantity": 25444.946,
+  "DeliveredQuantity": 22912.674,
+  "Rank": 107,
+  "Name": "Muller, Feeney and Bernier",
+  "Description": "Multi-layered user-facing function",
+  "Code": "modi",
+  "QuantityUnit": "possimus",
+  "PriceUnit": "dolor",
+  "ItemNumber": "1458516",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "officiis",
-  "ProductTypeKey": "atque",
-  "Supplier": "repudiandae",
-  "SupplierCode": "dolorem",
-  "Thumbnail": "non",
-  "VATInfo": "ut",
-  "VAT": 5283.924,
-  "UnitCost": 12097.24,
-  "UnitMinimumPrice": 4387.5999999999995,
-  "UnitListPrice": 9085.466,
+  "ProductFamilyKey": "aspernatur",
+  "ProductTypeKey": "amet",
+  "Supplier": "veniam",
+  "SupplierCode": "molestiae",
+  "Thumbnail": "facere",
+  "VATInfo": "qui",
+  "VAT": 3510.08,
+  "UnitCost": 20972.728,
+  "UnitMinimumPrice": 9461.546,
+  "UnitListPrice": 2538.54,
   "ExtraInfo": [
     {
-      "Name": "Bartoletti-Cruickshank",
-      "Value": "animi",
+      "Name": "Wiza Group",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 745
         }
       }
     },
     {
-      "Name": "Bartoletti-Cruickshank",
-      "Value": "animi",
+      "Name": "Wiza Group",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 745
         }
       }
     }
   ],
-  "RawExtraInfo": "doloremque",
+  "RawExtraInfo": "excepturi",
   "IsSubscription": false,
-  "SubscriptionUnit": "quisquam",
-  "SubscriptionQuantity": 6474.844,
-  "SubscriptionStart": "2017-02-11T11:22:38.9458129+01:00",
-  "ERPDiscountPercent": 13332.036,
-  "ERPDiscountAmount": 2917.754,
-  "DiscountPercent": 10135.356,
-  "DiscountAmount": 3287.566,
+  "SubscriptionUnit": "explicabo",
+  "SubscriptionQuantity": 20035.662,
+  "SubscriptionStart": "2003-01-20T12:15:19.9677375+01:00",
+  "ERPDiscountPercent": 21201.51,
+  "ERPDiscountAmount": 4625.784,
+  "DiscountPercent": 12344.826,
+  "DiscountAmount": 16694.818,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 4538.032,
-  "EarningAmount": 2817.466,
-  "SubTotal": 14949.18,
-  "TotalPrice": 9414.536,
-  "Rights": "quas",
-  "Rule": "atque",
-  "ExtraField1": "veritatis",
-  "ExtraField2": "ad",
-  "ExtraField3": "aut",
-  "ExtraField4": "rem",
-  "ExtraField5": "debitis",
+  "EarningPercent": 15049.467999999999,
+  "EarningAmount": 13698.714,
+  "SubTotal": 20449.35,
+  "TotalPrice": 28124.516,
+  "Rights": "molestiae",
+  "Rule": "suscipit",
+  "ExtraField1": "consequuntur",
+  "ExtraField2": "praesentium",
+  "ExtraField3": "esse",
+  "ExtraField4": "similique",
+  "ExtraField5": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 171
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

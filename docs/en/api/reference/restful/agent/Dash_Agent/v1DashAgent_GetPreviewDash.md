@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 975
+  "DashboardId": 361
 }
 ```
 
@@ -91,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Luettgen Inc and Sons",
-  "Description": "Right-sized didactic challenge",
-  "OwnedByFullName": "Marcelle Cassin",
-  "Registered": "2018-06-01T11:22:37.8210741+02:00",
+  "Name": "Torphy-Green",
+  "Description": "Extended systematic paradigm",
+  "OwnedByFullName": "Miss Katlyn Minnie Rice DDS",
+  "Registered": "1998-07-30T12:15:18.6817559+02:00",
   "Tiles": [
     {
-      "Name": "Kertzmann, Schoen and Padberg",
+      "Name": "Bashirian Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     },
     {
-      "Name": "Kertzmann, Schoen and Padberg",
+      "Name": "Bashirian Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 354
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 255,
-  "AssociateId": 577,
-  "Caption": "non",
+  "DashboardId": 469,
+  "AssociateId": 721,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 585,
-      "Caption": "ut",
-      "Description": "Operative stable migration",
-      "ChartName": "Ziemann-Rice",
-      "ChartId": "debitis",
-      "IsDefault": false,
-      "AssociateId": 529,
-      "GroupId": 46,
-      "SelectionId": 844,
-      "Config": "repellendus",
+      "DashboardTileId": 635,
+      "Caption": "omnis",
+      "Description": "Centralized impactful parallelism",
+      "ChartName": "Langosh, Anderson and Langworth",
+      "ChartId": "necessitatibus",
+      "IsDefault": true,
+      "AssociateId": 495,
+      "GroupId": 761,
+      "SelectionId": 270,
+      "Config": "sunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 610
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldType": "System.String",
+      "FieldLength": 32
     }
   }
 }

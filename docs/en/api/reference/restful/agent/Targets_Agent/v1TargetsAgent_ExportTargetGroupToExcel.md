@@ -78,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 62
+  "TargetGroupId": 854
 }
 ```
 
@@ -89,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 443,
-  "FileName": "Sipes, Walker and Auer",
-  "Message": "corrupti",
+  "BatchTaskId": 70,
+  "FileName": "Pouros, Grant and Ziemann",
+  "Message": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldLength": 799
     }
   }
 }

@@ -92,7 +92,7 @@ ProjectMember found.
 GET /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,38 +102,38 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 453,
-  "ContactId": 857,
-  "ProjectId": 485,
-  "ContactName": "Parker Group",
+  "ProjectmemberId": 700,
+  "ContactId": 607,
+  "ProjectId": 647,
+  "ContactName": "Hessel Group",
   "ContactDepartment": "",
-  "ProjectName": "Schinner-Schoen",
-  "EmailId": 710,
-  "EmailAddress": "raphael.toy@crooksbruen.name",
-  "CountryId": 304,
-  "Firstname": "Johnathan",
-  "MiddleName": "Franecki, Deckow and Kozey",
-  "Lastname": "Padberg",
-  "PersonId": 111,
-  "Mrmrs": "numquam",
-  "ProjectMemberTypeName": "Kuphal-Cronin",
-  "Phone": "592.864.9515 x104",
-  "PhoneId": 371,
-  "ProjectMemberTypeId": 579,
-  "EmailAddressName": "dee@kunze.biz",
-  "Comment": "ipsum",
-  "FullName": "Prof. Kevin Wilbert Johnston IV",
+  "ProjectName": "Brown-Schmeler",
+  "EmailId": 345,
+  "EmailAddress": "sonny@gibson.co.uk",
+  "CountryId": 179,
+  "Firstname": "Luna",
+  "MiddleName": "Osinski-Yost",
+  "Lastname": "Greenholt",
+  "PersonId": 753,
+  "Mrmrs": "error",
+  "ProjectMemberTypeName": "White-Frami",
+  "Phone": "1-506-639-5991 x14041",
+  "PhoneId": 328,
+  "ProjectMemberTypeId": 377,
+  "EmailAddressName": "vicenta.mccullough@douglas.info",
+  "Comment": "laboriosam",
+  "FullName": "Agnes Kulas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

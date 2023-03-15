@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 525
+  "QuoteId": 210
 }
 ```
 
@@ -126,75 +126,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 664,
-    "ERPQuoteVersionKey": "ducimus",
-    "QuoteId": 239,
-    "Description": "Networked motivating firmware",
-    "Number": "1443028",
+    "QuoteVersionId": 336,
+    "ERPQuoteVersionKey": "quae",
+    "QuoteId": 701,
+    "Description": "Innovative systematic strategy",
+    "Number": "335388",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "",
-    "LikelyQuoteAlternativeId": 583,
-    "SentDate": "2022-01-18T11:22:38.8833285+01:00",
-    "FollowupId": 877,
-    "ExpirationDate": "2013-11-11T11:22:38.8833285+01:00",
-    "DeliveryCountryId": 220,
-    "HasOwnDeliveryAddress": true,
-    "InvoiceCountryId": 563,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "velit",
-    "ERPPaymentTypeKey": "aut",
-    "ERPDeliveryTermsKey": "molestias",
-    "ERPDeliveryTypeKey": "id",
-    "Rank": 938,
-    "ApprovedBy": 514,
-    "ApprovedText": "nemo",
-    "ApprovedRegisteredBy": 839,
-    "ApprovedRegisteredDate": "2000-05-10T11:22:38.8833285+02:00",
-    "ExtraField1": "assumenda",
-    "ExtraField2": "in",
-    "ExtraField3": "inventore",
-    "ExtraField4": "numquam",
-    "ExtraField5": "ut",
-    "LastRecalculated": "2009-01-10T11:22:38.8833285+01:00",
-    "Updated": "2020-09-03T11:22:38.8833285+02:00",
-    "UpdatedAssociateId": 585,
-    "Registered": "2022-11-03T11:22:38.8833285+01:00",
-    "RegisteredAssociateId": 210,
-    "RequestAssociateId": 302,
-    "RequestComment": "magni",
+    "Reason": "empower scalable e-markets",
+    "LikelyQuoteAlternativeId": 950,
+    "SentDate": "2009-11-21T12:15:19.894738+01:00",
+    "FollowupId": 738,
+    "ExpirationDate": "2015-05-21T12:15:19.894738+02:00",
+    "DeliveryCountryId": 690,
+    "HasOwnDeliveryAddress": false,
+    "InvoiceCountryId": 506,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "consequatur",
+    "ERPPaymentTypeKey": "cumque",
+    "ERPDeliveryTermsKey": "architecto",
+    "ERPDeliveryTypeKey": "sit",
+    "Rank": 977,
+    "ApprovedBy": 354,
+    "ApprovedText": "illum",
+    "ApprovedRegisteredBy": 610,
+    "ApprovedRegisteredDate": "2004-01-22T12:15:19.894738+01:00",
+    "ExtraField1": "cupiditate",
+    "ExtraField2": "facere",
+    "ExtraField3": "aliquam",
+    "ExtraField4": "aliquam",
+    "ExtraField5": "in",
+    "LastRecalculated": "2016-08-25T12:15:19.894738+02:00",
+    "Updated": "2013-05-24T12:15:19.894738+02:00",
+    "UpdatedAssociateId": 64,
+    "Registered": "2021-12-19T12:15:19.894738+01:00",
+    "RegisteredAssociateId": 102,
+    "RequestAssociateId": 367,
+    "RequestComment": "ipsum",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 782,
-        "ERPQuoteAlternativeKey": "quos",
-        "QuoteVersionId": 618,
-        "Name": "Greenfelder-Towne",
-        "Description": "Right-sized client-driven installation",
+        "QuoteAlternativeId": 420,
+        "ERPQuoteAlternativeKey": "at",
+        "QuoteVersionId": 49,
+        "Name": "Hills Inc and Sons",
+        "Description": "Business-focused 5th generation hardware",
         "Status": "Error",
-        "Reason": "disintermediate viral partnerships",
-        "ERPDiscountPercent": 23404.712,
-        "ERPDiscountAmount": 9649.586,
-        "DiscountPercent": 24742.93,
-        "DiscountAmount": 8367.7799999999988,
+        "Reason": "",
+        "ERPDiscountPercent": 25401.07,
+        "ERPDiscountAmount": 9499.154,
+        "DiscountPercent": 23426.649999999998,
+        "DiscountAmount": 4585.0419999999995,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "enim",
-        "VAT": 15068.271999999999,
-        "EarningPercent": 12557.938,
-        "EarningAmount": 18217.942,
-        "SubTotal": 14312.978,
-        "TotalPrice": 8612.232,
-        "ExtraField1": "repellat",
-        "ExtraField2": "est",
-        "ExtraField3": "facilis",
-        "ExtraField4": "quia",
-        "ExtraField5": "ut",
+        "VATInfo": "adipisci",
+        "VAT": 10881.248,
+        "EarningPercent": 18067.51,
+        "EarningAmount": 30710.066,
+        "SubTotal": 13269.356,
+        "TotalPrice": 21809.505999999998,
+        "ExtraField1": "eveniet",
+        "ExtraField2": "amet",
+        "ExtraField3": "unde",
+        "ExtraField4": "ut",
+        "ExtraField5": "asperiores",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldType": "System.String",
+            "FieldLength": 477
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 357
       }
     }
   }

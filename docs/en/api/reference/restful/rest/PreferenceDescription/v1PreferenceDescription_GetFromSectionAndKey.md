@@ -86,30 +86,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 452,
-  "Section": "et",
-  "Key": "doloremque",
-  "Name": "Von-Kemmer",
+  "PrefDescId": 197,
+  "Section": "omnis",
+  "Key": "rem",
+  "Name": "Schulist, Volkman and Bosco",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total modular flexibility",
-  "IsBuiltin": false,
-  "TableName": "Keeling LLC",
-  "UserDefinedListId": 719,
-  "Rank": 171,
-  "SubGroup": "qui",
-  "MinLevel": 423,
-  "MaxValue": 595,
-  "MinValue": 432,
-  "RequiredLicense": "qui",
+  "Description": "Seamless zero administration product",
+  "IsBuiltin": true,
+  "TableName": "Pacocha, Howe and Koch",
+  "UserDefinedListId": 741,
+  "Rank": 765,
+  "SubGroup": "reiciendis",
+  "MinLevel": 727,
+  "MaxValue": 830,
+  "MinValue": 31,
+  "RequiredLicense": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 749
     }
   }
 }

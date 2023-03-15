@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Smith Group"
+  "OwnerName": "Windler, Schmidt and O'Hara"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 374,
-      "NumberOfLicensesFree": 258,
-      "NumberOfLicensesAdded": 352,
-      "NumberOfLicensesNewTotal": 871,
-      "NumberOfLicensesNewFree": 325,
-      "NumberOfLicensesTotal": 720
+      "NumberOfLicensesInUse": 918,
+      "NumberOfLicensesFree": 893,
+      "NumberOfLicensesAdded": 211,
+      "NumberOfLicensesNewTotal": 867,
+      "NumberOfLicensesNewFree": 403,
+      "NumberOfLicensesTotal": 492
     }
   ],
-  "AccumulatedNextCheckDate": "2006-12-05T11:22:38.3990648+01:00"
+  "AccumulatedNextCheckDate": "1996-09-26T12:15:19.1827562+02:00"
 }
 ```

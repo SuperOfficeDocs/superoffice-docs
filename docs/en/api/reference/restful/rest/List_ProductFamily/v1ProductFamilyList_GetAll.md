@@ -24,7 +24,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 951,
-    "Name": "Howe Group",
-    "Tooltip": "vel",
-    "Deleted": true,
-    "UdListDefinitionId": 380,
-    "Rank": 977,
+    "Id": 751,
+    "Name": "Connelly Group",
+    "Tooltip": "incidunt",
+    "Deleted": false,
+    "UdListDefinitionId": 498,
+    "Rank": 707,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldLength": 378
       }
     }
   }

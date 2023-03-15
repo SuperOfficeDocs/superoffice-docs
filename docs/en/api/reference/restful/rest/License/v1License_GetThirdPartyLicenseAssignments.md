@@ -83,26 +83,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 301,
-    "Tooltip": "perspiciatis",
+    "Unrestricted": false,
+    "Total": 187,
+    "Tooltip": "corrupti",
     "CanAssign": true,
-    "Free": 438,
-    "InUse": 936,
-    "IsHidden": false,
+    "Free": 183,
+    "InUse": 251,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 710,
-    "Name": "Kertzmann-Parisian",
-    "Description": "Front-line web-enabled benchmark",
-    "PrerequisiteModuleName": "Tremblay-Jewess",
-    "SortOrder": 129,
-    "ExtraFlags": 833,
+    "ModuleLicenseId": 330,
+    "Name": "Mraz, Walsh and McClure",
+    "Description": "Enterprise-wide disintermediate architecture",
+    "PrerequisiteModuleName": "Schulist-Erdman",
+    "SortOrder": 84,
+    "ExtraFlags": 972,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

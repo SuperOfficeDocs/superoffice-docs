@@ -172,8 +172,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Brakus-Greenholt",
-  "Restrictions": "numquam"
+  "ProviderName": "Kassulke Group",
+  "Restrictions": "et"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McGlynn-Kiehn",
-    "DisplayTooltip": "non",
-    "DisplayType": "voluptas",
-    "CanOrderBy": true,
-    "Name": "Wuckert, Quitzon and Klein",
-    "CanRestrictBy": true,
-    "RestrictionType": "voluptatem",
-    "RestrictionListName": "O'Connell, Fritsch and Schiller",
+    "DisplayName": "Smith Group",
+    "DisplayTooltip": "vero",
+    "DisplayType": "voluptate",
+    "CanOrderBy": false,
+    "Name": "Murphy Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "voluptatibus",
+    "RestrictionListName": "Herzog, Fritsch and Dooley",
     "IsVisible": false,
-    "ExtraInfo": "voluptate",
-    "Width": "ut",
-    "IconHint": "sit",
-    "HeadingIconHint": "veniam"
+    "ExtraInfo": "animi",
+    "Width": "fugiat",
+    "IconHint": "quod",
+    "HeadingIconHint": "et"
   }
 ]
 ```

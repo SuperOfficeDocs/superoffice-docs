@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 627,
-  "Value": "temporibus",
-  "Tooltip": "est",
-  "Probability": 86,
+  "SaleStageId": 17,
+  "Value": "reiciendis",
+  "Tooltip": "in",
+  "Probability": 950,
   "Deleted": false,
-  "Rank": 726,
+  "Rank": 816,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldType": "System.String",
+      "FieldLength": 423
     }
   }
 }

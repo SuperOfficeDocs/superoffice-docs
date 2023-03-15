@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "et"
+  "ChartId": "est"
 }
 ```
 
@@ -100,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 726,
-  "Caption": "illum",
-  "Description": "Sharable system-worthy orchestration",
-  "ChartName": "Boyer-Powlowski",
-  "ChartId": "voluptatum",
+  "DashboardTileId": 546,
+  "Caption": "impedit",
+  "Description": "Universal contextually-based matrix",
+  "ChartName": "Hagenes, Hintz and Thiel",
+  "ChartId": "et",
   "IsDefault": true,
-  "AssociateId": 807,
-  "GroupId": 129,
-  "SelectionId": 249,
-  "Config": "quibusdam",
+  "AssociateId": 944,
+  "GroupId": 87,
+  "SelectionId": 896,
+  "Config": "possimus",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Macejkovic, Zulauf and Kuhlman",
-      "Description": "Fundamental disintermediate circuit",
+      "Name": "Kuhic-Robel",
+      "Description": "Multi-tiered stable capacity",
       "Type": "Boolean",
-      "ListName": "Klein-Breitenberg",
+      "ListName": "Tillman, Howell and Nienow",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dignissimos",
+      "Value": "consequatur",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldType": "System.String",
+          "FieldLength": 633
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 536,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 908
+          "FieldType": "System.Int32",
+          "FieldLength": 667
         }
       }
     },
     {
-      "VisibleId": 536,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 908
+          "FieldType": "System.Int32",
+          "FieldLength": 667
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 439
     }
   }
 }

@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 826,
-  "Year": 248,
-  "TargetDimensionId": 783
+  "UserGroupId": 10,
+  "Year": 779,
+  "TargetDimensionId": 926
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 267,
+    "TargetAssignmentInfoId": 139,
     "Values": [
-      163,
-      143
+      256,
+      979
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 981,
-    "DimensionListItemDisplayName": "McGlynn, Schuster and Kreiger",
+    "DimensionListItem": 6,
+    "DimensionListItemDisplayName": "Eichmann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 349
+        "FieldLength": 893
       }
     }
   }

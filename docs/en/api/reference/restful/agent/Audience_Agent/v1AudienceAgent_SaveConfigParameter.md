@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Cummings-Koelpin",
+  "LayoutName": "Eichmann Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 250,
-  "Name": "Hamill Inc and Sons",
-  "Value": "expedita",
-  "CreatedDate": "1998-07-24T11:22:37.4304911+02:00",
-  "UpdatedDate": "2014-11-21T11:22:37.4304911+01:00",
-  "CreatedBy": "a",
-  "UpdatedBy": "eveniet",
+  "AudienceLayoutId": 292,
+  "Name": "Murphy, Schiller and Jenkins",
+  "Value": "natus",
+  "CreatedDate": "2022-07-14T12:15:18.1883045+02:00",
+  "UpdatedDate": "2014-03-03T12:15:18.1883045+01:00",
+  "CreatedBy": "facere",
+  "UpdatedBy": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 918
     }
   }
 }

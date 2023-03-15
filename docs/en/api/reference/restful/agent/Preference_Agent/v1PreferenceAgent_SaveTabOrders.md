@@ -63,22 +63,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 601,
-      "TabName": "Boehm-VonRueden",
-      "Order": "pariatur",
-      "AssociateId": 81
+      "TabOrderId": 747,
+      "TabName": "McLaughlin, Kiehn and Kohler",
+      "Order": "aliquam",
+      "AssociateId": 917
     },
     {
-      "TabOrderId": 601,
-      "TabName": "Boehm-VonRueden",
-      "Order": "pariatur",
-      "AssociateId": 81
+      "TabOrderId": 747,
+      "TabName": "McLaughlin, Kiehn and Kohler",
+      "Order": "aliquam",
+      "AssociateId": 917
     }
   ]
 }

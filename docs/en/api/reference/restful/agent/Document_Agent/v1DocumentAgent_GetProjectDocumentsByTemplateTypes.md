@@ -101,13 +101,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 215,
-  "StartTime": "2022-08-30T11:22:37.8523182+02:00",
-  "EndTime": "2006-04-14T11:22:37.8523182+02:00",
-  "Count": 37,
+  "ProjectId": 94,
+  "StartTime": "2022-10-06T12:15:18.7237578+02:00",
+  "EndTime": "1997-02-13T12:15:18.7237578+01:00",
+  "Count": 926,
   "DocumentTemplateIds": [
-    269,
-    902
+    339,
+    367
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 393,
-    "Attention": "assumenda",
-    "Header": "dolores",
-    "Name": "Lowe, Wiegand and Barrows",
-    "OurRef": "molestiae",
-    "YourRef": "alias",
-    "Description": "Exclusive system-worthy capacity",
-    "DocumentTemplate": "non",
+    "DocumentId": 49,
+    "Attention": "magni",
+    "Header": "culpa",
+    "Name": "Ruecker, Emmerich and Hilpert",
+    "OurRef": "ut",
+    "YourRef": "qui",
+    "Description": "Streamlined encompassing neural-net",
+    "DocumentTemplate": "asperiores",
     "IsPublished": true,
-    "PersonId": 326,
-    "PersonFullName": "Lamont Bogan",
-    "AssociateFullName": "Mikel Mayer",
-    "ContactId": 558,
-    "ContactName": "Beatty-Haley",
-    "ProjectId": 45,
-    "ProjectName": "Johnson Group",
-    "AssociateId": 583,
-    "Snum": 730,
-    "SaleId": 666,
-    "SaleName": "McCullough, Goodwin and Shields",
+    "PersonId": 588,
+    "PersonFullName": "Dr. Misael Murray IV",
+    "AssociateFullName": "Emmitt Spinka",
+    "ContactId": 764,
+    "ContactName": "Funk Inc and Sons",
+    "ProjectId": 989,
+    "ProjectName": "Weber, Ullrich and Durgan",
+    "AssociateId": 260,
+    "Snum": 844,
+    "SaleId": 862,
+    "SaleName": "Tremblay-Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 656
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

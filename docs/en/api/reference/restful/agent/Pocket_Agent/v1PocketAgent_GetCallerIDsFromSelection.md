@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 296,
-  "LastHash": "qui"
+  "SelectionId": 377,
+  "LastHash": "perspiciatis"
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "ea",
+  "CallerIDHash": "laboriosam",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 648,
-      "PersonId": 436,
-      "PersonName": "Zemlak-Kris",
-      "Mrmrs": "nesciunt",
-      "ContactId": 397,
-      "ContactName": "Ruecker Inc and Sons"
+      "DialInPrefix": 910,
+      "PersonId": 182,
+      "PersonName": "Tillman, Auer and Lang",
+      "Mrmrs": "porro",
+      "ContactId": 159,
+      "ContactName": "Aufderhar Group"
     }
   ]
 }

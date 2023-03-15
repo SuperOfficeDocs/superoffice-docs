@@ -99,34 +99,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 919,
-  "UniqueId": "aperiam",
-  "Name": "Hahn-Medhurst",
-  "Description": "User-centric disintermediate benchmark",
-  "AssociateId": 201,
-  "Columns": 779,
+  "DashboardId": 76,
+  "UniqueId": "quasi",
+  "Name": "Carroll-Shields",
+  "Description": "Team-oriented human-resource standardization",
+  "AssociateId": 864,
+  "Columns": 553,
   "Theme": null,
-  "VisibleForAll": 342,
+  "VisibleForAll": 300,
   "VisibleForAssociates": [
-    974,
-    107
+    350,
+    218
   ],
   "VisibleForGroups": [
-    64,
-    201
+    493,
+    985
   ],
-  "PinForAll": 232,
+  "PinForAll": 264,
   "PinForAssociates": [
-    222,
-    759
+    287,
+    41
   ],
   "PinForGroups": [
-    738,
-    980
+    97,
+    973
   ]
 }
 ```
@@ -138,37 +138,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 198,
-  "UniqueId": "cum",
-  "Name": "Heidenreich, Hansen and Bergnaum",
-  "Description": "Mandatory directional budgetary management",
-  "AssociateId": 28,
-  "Columns": 584,
+  "DashboardId": 879,
+  "UniqueId": "et",
+  "Name": "Tromp Inc and Sons",
+  "Description": "Phased hybrid capability",
+  "AssociateId": 863,
+  "Columns": 794,
   "Theme": null,
-  "VisibleForAll": 832,
+  "VisibleForAll": 724,
   "VisibleForAssociates": [
-    732,
-    254
+    924,
+    2
   ],
   "VisibleForGroups": [
-    525,
-    112
+    770,
+    421
   ],
-  "PinForAll": 857,
+  "PinForAll": 598,
   "PinForAssociates": [
-    451,
-    739
+    28,
+    494
   ],
   "PinForGroups": [
-    725,
-    605
+    90,
+    122
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 510
     }
   },
   "_Links": {

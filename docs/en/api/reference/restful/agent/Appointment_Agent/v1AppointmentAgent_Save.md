@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -153,63 +153,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-03-09T11:22:37.071254+01:00",
-  "AppointmentId": 379,
-  "Description": "Stand-alone context-sensitive frame",
-  "StartDate": "2007-11-03T11:22:37.071254+01:00",
-  "EndDate": "2000-10-31T11:22:37.071254+01:00",
+  "CreatedDate": "2000-12-11T12:15:17.8147715+01:00",
+  "AppointmentId": 505,
+  "Description": "Vision-oriented national focus group",
+  "StartDate": "2006-11-02T12:15:17.8147715+01:00",
+  "EndDate": "2022-11-06T12:15:17.8147715+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 928,
+  "MotherId": 625,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-06-17T11:22:37.071254+02:00",
+  "UpdatedDate": "1998-11-02T12:15:17.818768+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 148,
+  "ActiveLinks": 738,
   "Links": [
     {
-      "EntityName": "Krajcik Inc and Sons",
-      "Id": 938,
-      "Description": "Public-key client-server extranet",
-      "ExtraInfo": "molestias",
-      "LinkId": 507,
+      "EntityName": "Stehr LLC",
+      "Id": 929,
+      "Description": "Vision-oriented contextually-based methodology",
+      "ExtraInfo": "et",
+      "LinkId": 320,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 52
         }
       }
     }
   ],
-  "AlarmLeadTime": "non",
+  "AlarmLeadTime": "aut",
   "HasAlarm": false,
-  "ColorIndex": 506,
-  "IsFree": false,
+  "ColorIndex": 744,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "velit",
-  "Location": "et",
-  "RejectCounter": 563,
+  "LagTime": "qui",
+  "LeadTime": "eligendi",
+  "Location": "sequi",
+  "RejectCounter": 171,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 918,
-      "PersonId": 451,
-      "ContactId": 780,
-      "EmailId": 490,
+      "AssociateId": 963,
+      "PersonId": 368,
+      "ContactId": 443,
+      "EmailId": 368,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 918,
-      "PersonId": 451,
-      "ContactId": 780,
-      "EmailId": 490,
+      "AssociateId": 963,
+      "PersonId": 368,
+      "ContactId": 443,
+      "EmailId": 368,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -217,58 +217,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-05-10T11:22:37.071254+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1999-06-29T12:15:17.818768+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 671,
+  "PreferredTZLocation": 581,
   "Sale": null,
-  "SuggestedAppointmentId": 472,
+  "SuggestedAppointmentId": 849,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quibusdam",
+  "CentralserviceVideomeetId": "voluptas",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Mya Heidenreich"
+    "SuperOffice:1": "Tyrel Sporer II",
+    "SuperOffice:2": "Chester Reynolds"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "id"
+    "CustomFields1": "quis",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2006-12-29T11:22:37.071254+01:00",
-  "PublishTo": "2018-10-20T11:22:37.071254+02:00",
-  "PublishFrom": "2015-05-10T11:22:37.071254+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1998-02-25T12:15:17.8217687+01:00",
+  "PublishTo": "2015-12-21T12:15:17.8217687+01:00",
+  "PublishFrom": "2020-07-26T12:15:17.8217687+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 239,
+      "VisibleId": 640,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 621
+          "FieldLength": 132
         }
       }
     },
     {
-      "VisibleId": 239,
+      "VisibleId": 640,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 621
+          "FieldLength": 132
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 667
     }
   }
 }

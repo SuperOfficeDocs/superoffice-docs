@@ -66,7 +66,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 655,
-  "Name": "Schoen-Lind",
-  "CreatedDate": "2013-02-07T11:22:44.6788474+01:00",
-  "UpdatedDate": "1997-10-20T11:22:44.6788474+02:00",
+  "ForeignAppId": 427,
+  "Name": "Stracke Inc and Sons",
+  "CreatedDate": "2011-01-19T12:15:26.9396383+01:00",
+  "UpdatedDate": "2004-12-06T12:15:26.9396383+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 471,
-      "Name": "Legros-Kirlin",
-      "CreatedDate": "2002-06-10T11:22:44.6788474+02:00",
-      "UpdatedDate": "1999-10-26T11:22:44.6788474+02:00",
-      "AssociateFullName": "Robin Johnson",
-      "CreatedBy": "atque",
-      "UpdatedBy": "magnam",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 415,
+      "ForeignDeviceId": 254,
+      "Name": "Renner Inc and Sons",
+      "CreatedDate": "2009-12-11T12:15:26.9406364+01:00",
+      "UpdatedDate": "2013-12-21T12:15:26.9406364+01:00",
+      "AssociateFullName": "Vilma Tomasa Veum IV",
+      "CreatedBy": "corporis",
+      "UpdatedBy": "eos",
+      "DeviceIdentifier": "velit",
+      "ForeignAppId": 91,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 636
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 702
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Strosin LLC",
-  "ParameterName": "Hane, Kihn and Schuster"
+  "LayoutName": "Douglas-Koss",
+  "ParameterName": "Dickinson Group"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 42,
-  "Name": "Purdy LLC",
-  "Value": "aut",
-  "CreatedDate": "1999-12-13T11:22:37.4304911+01:00",
-  "UpdatedDate": "2004-03-16T11:22:37.4304911+01:00",
-  "CreatedBy": "perferendis",
-  "UpdatedBy": "ea",
+  "AudienceLayoutId": 156,
+  "Name": "Rice-Cartwright",
+  "Value": "sint",
+  "CreatedDate": "2015-06-14T12:15:18.1887634+02:00",
+  "UpdatedDate": "2015-08-21T12:15:18.1887634+02:00",
+  "CreatedBy": "explicabo",
+  "UpdatedBy": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

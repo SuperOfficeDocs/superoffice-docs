@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 345,
-  "Name": "Fadel, Cronin and Gutkowski",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 787,
-  "UdListDefinitionId": 892
+  "HeadingId": 231,
+  "Name": "Yundt-Schmitt",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 797,
+  "UdListDefinitionId": 644
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 727,
-  "Name": "Schimmel-Klocko",
-  "Tooltip": "quia",
+  "HeadingId": 144,
+  "Name": "Maggio LLC",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 548,
-  "UdListDefinitionId": 876,
+  "Rank": 407,
+  "UdListDefinitionId": 68,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 273
     }
   }
 }

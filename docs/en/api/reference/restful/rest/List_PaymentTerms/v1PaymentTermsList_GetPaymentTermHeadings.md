@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 147,
-    "Name": "Murazik, Luettgen and Labadie",
-    "Tooltip": "saepe",
-    "Deleted": true,
-    "Rank": 822,
-    "UdListDefinitionId": 397,
+    "HeadingId": 514,
+    "Name": "Fisher, Schumm and Bins",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "Rank": 367,
+    "UdListDefinitionId": 860,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 510
+        "FieldLength": 311
       }
     }
   }

@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2020-01-31T11:22:37.664863+01:00",
+  "ActivityStartTime": "2009-04-11T12:15:18.483761+02:00",
   "ContactCategories": [
-    921,
-    274
+    989,
+    105
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -110,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 497,
+    "ContactId": 831,
     "Department": "",
-    "OrgNr": "978359",
-    "Name": "Romaguera-Halvorson",
+    "OrgNr": "979727",
+    "Name": "Bayer Inc and Sons",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Derrick Bahringer",
+    "AssociateFullName": "Brando Koepp",
     "Action": "ActivityCompleted",
-    "ActionTime": "2015-01-18T11:22:37.664863+01:00",
+    "ActionTime": "2002-05-09T12:15:18.4857711+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Towne Group",
-    "ActionId": 847,
-    "PersonId": 880,
-    "ActivityPersonId": 908,
-    "AssociateId": 16,
+    "ActivityPersonName": "Connelly, Cartwright and Ferry",
+    "ActionId": 263,
+    "PersonId": 986,
+    "ActivityPersonId": 203,
+    "AssociateId": 893,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldLength": 417
       }
     }
   }

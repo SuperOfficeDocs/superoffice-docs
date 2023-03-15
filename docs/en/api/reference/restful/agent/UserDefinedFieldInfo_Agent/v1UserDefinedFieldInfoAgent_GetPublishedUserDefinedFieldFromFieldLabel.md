@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 982,
-  "ColumnId": 511,
-  "FieldDefault": "repudiandae",
-  "FieldHeight": 954,
-  "FieldLabel": "rem",
-  "FieldLeft": 691,
-  "FieldTop": 474,
+  "UDefFieldId": 965,
+  "ColumnId": 431,
+  "FieldDefault": "cum",
+  "FieldHeight": 207,
+  "FieldLabel": "dolorum",
+  "FieldLeft": 948,
+  "FieldTop": 226,
   "FieldType": "Checkbox",
-  "FieldWidth": 659,
-  "FormatMask": "omnis",
+  "FieldWidth": 240,
+  "FormatMask": "ipsa",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 193,
-  "LabelLeft": 456,
-  "LabelTop": 667,
-  "LabelWidth": 281,
-  "LastVersionId": 153,
-  "ListTableId": 629,
-  "IsMandatory": true,
+  "IsIndexed": false,
+  "LabelHeight": 108,
+  "LabelLeft": 42,
+  "LabelTop": 115,
+  "LabelWidth": 192,
+  "LastVersionId": 17,
+  "ListTableId": 157,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 402,
-  "ProgId": "nostrum",
+  "Page1LineNo": 646,
+  "ProgId": "quam",
   "IsReadOnly": false,
-  "ShortLabel": "molestias",
-  "TabOrder": 377,
-  "TextLength": 88,
-  "Tooltip": "qui",
-  "UdefIdentity": 96,
-  "UDListDefinitionId": 658,
+  "ShortLabel": "est",
+  "TabOrder": 252,
+  "TextLength": 538,
+  "Tooltip": "quibusdam",
+  "UdefIdentity": 564,
+  "UDListDefinitionId": 817,
   "Justification": "Center",
-  "Version": 903,
-  "TemplateVariableName": "Weimann LLC",
+  "Version": 271,
+  "TemplateVariableName": "Hodkiewicz, Schneider and Runolfsdottir",
   "HasBeenPublished": false,
-  "MdoListName": "Pfannerstill Inc and Sons",
+  "MdoListName": "Rodriguez-Lubowitz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 188
     }
   }
 }

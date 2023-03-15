@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jenkins Group"
+  "Name": "Nolan-Metz"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Turner Inc and Sons",
-    "SoPrimaryKey": 2,
-    "EntryName": "Emard Group",
-    "EntryIdentifier": "veritatis",
-    "RuleDisplayName": "Hyatt-Johns",
+    "RuleName": "Gutkowski, Hickle and Eichmann",
+    "SoPrimaryKey": 663,
+    "EntryName": "Kuphal, Stroman and Pouros",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Satterfield-Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 621
       }
     }
   }

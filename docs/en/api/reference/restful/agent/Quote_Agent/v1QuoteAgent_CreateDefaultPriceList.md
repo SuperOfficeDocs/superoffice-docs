@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 34,
-  "ERPPriceListKey": "doloribus",
-  "QuoteConnectionId": 775,
-  "Name": "Stokes-Sipes",
-  "Description": "Organic non-volatile website",
-  "Currency": "fugiat",
-  "CurrencyName": "Volkman-Hessel",
-  "ValidFrom": "2008-07-10T11:22:38.8989499+02:00",
-  "ValidTo": "2009-07-08T11:22:38.8989499+02:00",
+  "PriceListId": 253,
+  "ERPPriceListKey": "accusantium",
+  "QuoteConnectionId": 485,
+  "Name": "Steuber Inc and Sons",
+  "Description": "Progressive exuding approach",
+  "Currency": "sint",
+  "CurrencyName": "Rutherford-Toy",
+  "ValidFrom": "2022-06-23T12:15:19.9087379+02:00",
+  "ValidTo": "2004-03-17T12:15:19.9087379+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 9
     }
   }
 }

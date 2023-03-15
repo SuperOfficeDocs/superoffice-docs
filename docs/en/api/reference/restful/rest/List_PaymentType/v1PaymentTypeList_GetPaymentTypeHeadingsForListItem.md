@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Aufderhar, Price and Boyer",
-    "ToolTip": "Labore voluptatum.",
+    "Id": 308,
+    "Name": "Bednar Inc and Sons",
+    "ToolTip": "Ut qui ut odio.",
     "Deleted": true,
-    "Rank": 948,
-    "Type": "et",
-    "ColorBlock": 194,
-    "IconHint": "dignissimos",
-    "Selected": true,
-    "LastChanged": "2014-12-29T11:22:45.9754127+01:00",
+    "Rank": 588,
+    "Type": "optio",
+    "ColorBlock": 896,
+    "IconHint": "expedita",
+    "Selected": false,
+    "LastChanged": "2022-12-11T12:15:28.2306174+01:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Christiansen LLC",
-        "ToolTip": "Incidunt assumenda sit repellendus rem.",
+        "Id": 889,
+        "Name": "Sawayn LLC",
+        "ToolTip": "Omnis consectetur in dolorum.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "nulla",
-        "ColorBlock": 348,
-        "IconHint": "quaerat",
+        "Rank": 189,
+        "Type": "commodi",
+        "ColorBlock": 150,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2002-09-08T11:22:45.9754127+02:00",
+        "LastChanged": "2019-11-12T12:15:28.2306174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "aspernatur",
-        "Hidden": true,
-        "FullName": "Rosalinda Dach",
+        "ExtraInfo": "optio",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Providenci Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 238
+            "FieldType": "System.Int32",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "culpa",
+    "ExtraInfo": "vero",
+    "StyleHint": "id",
     "Hidden": true,
-    "FullName": "Tabitha Langosh III",
+    "FullName": "Mr. Evangeline Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 626
       }
     }
   }

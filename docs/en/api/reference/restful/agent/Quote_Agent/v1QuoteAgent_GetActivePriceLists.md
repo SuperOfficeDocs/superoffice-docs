@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 691,
-  "Currency": "ipsam"
+  "QuoteConnectionId": 328,
+  "Currency": "quo"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 932,
-    "ERPPriceListKey": "expedita",
-    "QuoteConnectionId": 516,
-    "Name": "Mills, Cummerata and Emmerich",
-    "Description": "User-centric even-keeled flexibility",
-    "Currency": "veritatis",
-    "CurrencyName": "West-Collins",
-    "ValidFrom": "2018-05-28T11:22:38.9301893+02:00",
-    "ValidTo": "2018-06-10T11:22:38.9301893+02:00",
-    "IsActive": false,
+    "PriceListId": 661,
+    "ERPPriceListKey": "enim",
+    "QuoteConnectionId": 404,
+    "Name": "Johnston-Rogahn",
+    "Description": "Optimized foreground projection",
+    "Currency": "ipsa",
+    "CurrencyName": "Gislason Inc and Sons",
+    "ValidFrom": "2020-02-08T12:15:19.9467449+01:00",
+    "ValidTo": "1996-01-10T12:15:19.9467449+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldLength": 313
       }
     }
   }

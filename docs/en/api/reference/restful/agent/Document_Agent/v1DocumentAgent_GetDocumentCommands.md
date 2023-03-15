@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 164,
+  "DocumentId": 507,
   "AllowedReturnTypes": [
-    "officiis",
-    "at"
+    "iure",
+    "est"
   ]
 }
 ```
@@ -97,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Greenfelder Group",
-    "DisplayName": "Medhurst, Sipes and Schultz",
-    "DisplayTooltip": "inventore",
-    "IconHint": "harum",
+    "Name": "Green Inc and Sons",
+    "DisplayName": "Mante LLC",
+    "DisplayTooltip": "pariatur",
+    "IconHint": "consequatur",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Greenfelder Group",
-    "DisplayName": "Medhurst, Sipes and Schultz",
-    "DisplayTooltip": "inventore",
-    "IconHint": "harum",
+    "Name": "Green Inc and Sons",
+    "DisplayName": "Mante LLC",
+    "DisplayTooltip": "pariatur",
+    "IconHint": "consequatur",
     "ReturnType": "CustomGui"
   }
 ]

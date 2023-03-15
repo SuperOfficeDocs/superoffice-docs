@@ -86,26 +86,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 762,
-  "Name": "Williamson, Rice and Mraz",
-  "Description": "Visionary motivating complexity",
-  "DeltaJson": "nihil",
+  "ConfigurableScreenDeltaId": 650,
+  "Name": "Heathcote, Gorczany and Christiansen",
+  "Description": "Streamlined even-keeled emulation",
+  "DeltaJson": "magnam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "et",
-  "UpdatedDate": "2011-11-26T11:22:37.6023765+01:00",
-  "CreatedDate": "2013-11-10T11:22:37.6023765+01:00",
+  "RecipeId": "deleniti",
+  "UpdatedDate": "1996-01-29T12:15:18.4117594+01:00",
+  "CreatedDate": "2022-12-11T12:15:18.4117594+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    809,
-    268
+    331,
+    405
   ],
-  "AppliesToKey": "quibusdam"
+  "AppliesToKey": "recusandae"
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 349,
-  "Name": "Rath-Gibson",
-  "Description": "Monitored context-sensitive Graphical User Interface",
-  "DeltaJson": "vel",
+  "ConfigurableScreenDeltaId": 31,
+  "Name": "Bahringer, Glover and Schoen",
+  "Description": "User-friendly zero administration approach",
+  "DeltaJson": "consequatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "et",
-  "UpdatedDate": "2002-08-01T11:22:37.6023765+02:00",
-  "CreatedDate": "2009-01-30T11:22:37.6023765+01:00",
+  "RecipeId": "sit",
+  "UpdatedDate": "2014-02-19T12:15:18.4127596+01:00",
+  "CreatedDate": "1999-08-27T12:15:18.4127596+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    43,
-    1000
+    676,
+    163
   ],
-  "AppliesToKey": "dolores",
+  "AppliesToKey": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

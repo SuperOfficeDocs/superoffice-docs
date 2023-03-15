@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 858,
-  "Name": "Zulauf, Kreiger and Pfannerstill",
-  "Tooltip": "et",
-  "Rank": 130,
-  "DoctmplId": 153,
-  "Header": "aut",
-  "OurRef": "odit",
-  "Deleted": true,
+  "SuggestedDocumentId": 165,
+  "Name": "Kassulke LLC",
+  "Tooltip": "libero",
+  "Rank": 345,
+  "DoctmplId": 842,
+  "Header": "reprehenderit",
+  "OurRef": "cupiditate",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 557,
-  "Name": "Romaguera-Thompson",
-  "Tooltip": "voluptate",
-  "Rank": 686,
-  "DoctmplId": 307,
-  "Header": "quae",
-  "OurRef": "est",
+  "SuggestedDocumentId": 589,
+  "Name": "Will-Schuppe",
+  "Tooltip": "nihil",
+  "Rank": 623,
+  "DoctmplId": 564,
+  "Header": "ut",
+  "OurRef": "earum",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 575
+      "FieldLength": 342
     }
   }
 }

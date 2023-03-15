@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -119,21 +119,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 266,
-  "Title": "dolores",
-  "CreatedAt": "2018-06-27T11:22:39.3832086+02:00",
-  "LastChanged": "1998-10-17T11:22:39.3832086+02:00",
-  "ReadByOwner": "2019-11-29T11:22:39.3832086+01:00",
-  "ReadByCustomer": "2004-03-01T11:22:39.3832086+01:00",
-  "FirstReadByOwner": "2018-06-02T11:22:39.3832086+02:00",
-  "FirstReadByUser": "2017-10-22T11:22:39.3832086+02:00",
-  "Activate": "2012-07-09T11:22:39.3832086+02:00",
-  "ClosedAt": "2020-10-07T11:22:39.3832086+02:00",
-  "RepliedAt": "1996-01-23T11:22:39.3832086+01:00",
-  "AlertTimeout": "2006-08-07T11:22:39.3832086+02:00",
-  "Deadline": "2010-04-18T11:22:39.3832086+02:00",
+  "TicketId": 460,
+  "Title": "qui",
+  "CreatedAt": "2010-08-23T12:15:20.2627328+02:00",
+  "LastChanged": "2020-01-15T12:15:20.2627328+01:00",
+  "ReadByOwner": "2020-02-27T12:15:20.2627328+01:00",
+  "ReadByCustomer": "2015-04-18T12:15:20.2627328+02:00",
+  "FirstReadByOwner": "2001-01-30T12:15:20.2627328+01:00",
+  "FirstReadByUser": "2001-08-15T12:15:20.2627328+02:00",
+  "Activate": "2018-11-26T12:15:20.2627328+01:00",
+  "ClosedAt": "2002-05-27T12:15:20.2627328+02:00",
+  "RepliedAt": "2014-02-19T12:15:20.2627328+01:00",
+  "AlertTimeout": "2021-01-22T12:15:20.2627328+01:00",
+  "Deadline": "2000-06-18T12:15:20.2627328+02:00",
   "CreatedBy": null,
-  "Author": "facere",
+  "Author": "consectetur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -144,157 +144,157 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "libero",
-      "PersonId": 124,
-      "Mrmrs": "consequatur",
-      "Firstname": "Alexandra",
-      "Lastname": "Hudson",
-      "MiddleName": "Harris LLC",
-      "Title": "delectus",
-      "Description": "User-friendly 5th generation capability",
-      "Email": "lorenzo@greenholt.ca",
-      "FullName": "Elliott Kuhn",
-      "DirectPhone": "001.545.1045",
-      "FormalName": "Langworth Inc and Sons",
-      "CountryId": 326,
-      "ContactId": 963,
-      "ContactName": "Parker Group",
-      "Retired": 803,
-      "Rank": 682,
-      "ActiveInterests": 477,
-      "ContactDepartment": "",
-      "ContactCountryId": 132,
-      "ContactOrgNr": "1341931",
-      "FaxPhone": "1-503-733-3646",
-      "MobilePhone": "990.270.5893 x0223",
-      "ContactPhone": "(976)825-5088",
-      "AssociateName": "Oberbrunner LLC",
-      "AssociateId": 615,
-      "UsePersonAddress": true,
-      "ContactFax": "iure",
-      "Kanafname": "eos",
-      "Kanalname": "qui",
-      "Post1": "ea",
-      "Post2": "qui",
-      "Post3": "sint",
-      "EmailName": "hal@corwin.info",
-      "ContactFullName": "Arnulfo Lubowitz",
-      "ActiveErpLinks": 412,
-      "TicketPriorityId": 45,
-      "SupportLanguageId": 719,
-      "SupportAssociateId": 510,
+      "Position": "doloremque",
+      "PersonId": 293,
+      "Mrmrs": "non",
+      "Firstname": "Christopher",
+      "Lastname": "Murray",
+      "MiddleName": "Hahn Group",
+      "Title": "possimus",
+      "Description": "Quality-focused 24/7 artificial intelligence",
+      "Email": "mireille.kunde@watsica.ca",
+      "FullName": "Mrs. Tianna Selena Adams DVM",
+      "DirectPhone": "348.686.7510",
+      "FormalName": "Considine, Kuvalis and Schoen",
+      "CountryId": 144,
+      "ContactId": 538,
+      "ContactName": "Mann Inc and Sons",
+      "Retired": 72,
+      "Rank": 199,
+      "ActiveInterests": 286,
+      "ContactDepartment": "streamline B2C e-business",
+      "ContactCountryId": 28,
+      "ContactOrgNr": "1374972",
+      "FaxPhone": "1-356-545-4898 x4548",
+      "MobilePhone": "1-598-430-1424",
+      "ContactPhone": "1-574-655-1538 x29703",
+      "AssociateName": "Quitzon Group",
+      "AssociateId": 989,
+      "UsePersonAddress": false,
+      "ContactFax": "dolorum",
+      "Kanafname": "dolores",
+      "Kanalname": "nobis",
+      "Post1": "dolorem",
+      "Post2": "ut",
+      "Post3": "nesciunt",
+      "EmailName": "zetta.hintz@cartwright.info",
+      "ContactFullName": "Chanel Watsica",
+      "ActiveErpLinks": 275,
+      "TicketPriorityId": 739,
+      "SupportLanguageId": 997,
+      "SupportAssociateId": 15,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 538
+          "FieldLength": 999
         }
       }
     }
   ],
-  "AlertLevel": 399,
-  "ConnectId": 506,
+  "AlertLevel": 392,
+  "ConnectId": 475,
   "ReadStatus": "Green",
-  "TimeToReply": 187,
-  "RealTimeToReply": 836,
-  "TimeToClose": 32,
-  "RealTimeToClose": 766,
-  "TimeSpentInternally": 641,
-  "TimeSpentExternally": 43,
-  "TimeSpentQueue": 861,
-  "RealTimeSpentInternally": 831,
-  "RealTimeSpentExternally": 686,
-  "RealTimeSpentQueue": 810,
+  "TimeToReply": 357,
+  "RealTimeToReply": 82,
+  "TimeToClose": 800,
+  "RealTimeToClose": 608,
+  "TimeSpentInternally": 830,
+  "TimeSpentExternally": 111,
+  "TimeSpentQueue": 922,
+  "RealTimeSpentInternally": 372,
+  "RealTimeSpentExternally": 882,
+  "RealTimeSpentQueue": 71,
   "HasAttachment": false,
-  "NumReplies": 542,
-  "NumMessages": 972,
-  "FromAddress": "temporibus",
+  "NumReplies": 800,
+  "NumMessages": 775,
+  "FromAddress": "sit",
   "Messages": [
     {
-      "TicketMessageId": 544,
-      "CreatedAt": "2019-11-22T11:22:39.3832086+01:00",
+      "TicketMessageId": 83,
+      "CreatedAt": "2022-10-03T12:15:20.2667339+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "facere",
-      "PersonId": 244,
-      "PersonFullName": "Niko Laurel Hayes Sr.",
-      "ContactId": 987,
-      "ContactName": "Crona-Pagac",
+      "Author": "cum",
+      "PersonId": 918,
+      "PersonFullName": "Rickey Dibbert",
+      "ContactId": 819,
+      "ContactName": "Kreiger LLC",
       "ContactDepartment": "",
-      "NumAttachments": 878,
-      "EmailHeader": "triston.stokes@pacochacronin.name",
+      "NumAttachments": 295,
+      "EmailHeader": "mason.terry@waelchiconnelly.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "consequatur",
-      "Sentiment": 664,
-      "SentimentConfidence": 834,
-      "CreatedBy": 714,
-      "ChangedAt": "2002-08-17T11:22:39.3832086+02:00",
+      "Language": "delectus",
+      "Sentiment": 635,
+      "SentimentConfidence": 439,
+      "CreatedBy": 579,
+      "ChangedAt": "2008-07-21T12:15:20.2677326+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 929
+          "FieldLength": 241
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 102,
-      "Name": "Crooks LLC",
-      "ToolTip": "Vitae omnis exercitationem iusto omnis repellendus provident.",
+      "Id": 921,
+      "Name": "Bernhard Group",
+      "ToolTip": "Quidem quasi perferendis quas rerum accusamus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 872
         }
       }
     },
     {
-      "Id": 102,
-      "Name": "Crooks LLC",
-      "ToolTip": "Vitae omnis exercitationem iusto omnis repellendus provident.",
+      "Id": 921,
+      "Name": "Bernhard Group",
+      "ToolTip": "Quidem quasi perferendis quas rerum accusamus.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 872
         }
       }
     }
   ],
-  "Language": "quidem",
-  "Sentiment": 984,
-  "SentimentConfidence": 611,
-  "SuggestedCategoryId": 582,
+  "Language": "ducimus",
+  "Sentiment": 386,
+  "SentimentConfidence": 545,
+  "SuggestedCategoryId": 95,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 788,
+  "OrigHumanCategoryId": 706,
   "IconHint": "sit",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "et"
+    "ExtraFields1": "error",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "qui"
+    "CustomFields1": "qui",
+    "CustomFields2": "praesentium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldType": "System.String",
+      "FieldLength": 549
     }
   }
 }

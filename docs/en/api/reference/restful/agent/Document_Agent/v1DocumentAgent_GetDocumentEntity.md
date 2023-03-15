@@ -25,7 +25,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=769
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=484
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 677,
+  "DocumentId": 320,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dignissimos",
-  "Header": "quas",
-  "Name": "Jacobs Inc and Sons",
-  "OurRef": "qui",
-  "YourRef": "dolorem",
-  "CreatedDate": "2012-09-28T11:22:37.8991839+02:00",
-  "UpdatedDate": "2009-12-13T11:22:37.8991839+01:00",
-  "Description": "Secured grid-enabled projection",
+  "Attention": "est",
+  "Header": "nisi",
+  "Name": "Carroll, Hudson and Stroman",
+  "OurRef": "corporis",
+  "YourRef": "doloribus",
+  "CreatedDate": "2019-10-11T12:15:18.7847541+02:00",
+  "UpdatedDate": "2022-10-21T12:15:18.7847541+02:00",
+  "Description": "Function-based upward-trending algorithm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1996-06-03T11:22:37.8991839+02:00",
-  "ExternalRef": "ut",
+  "Date": "2013-11-19T12:15:18.788754+01:00",
+  "ExternalRef": "sit",
   "Completed": "Completed",
-  "ActiveLinks": 104,
+  "ActiveLinks": 460,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pouros, Towne and Mann",
-      "Id": 940,
-      "Description": "Ameliorated composite solution",
-      "ExtraInfo": "tempore",
-      "LinkId": 800,
+      "EntityName": "Kutch, Kirlin and Haley",
+      "Id": 807,
+      "Description": "Polarised dedicated concept",
+      "ExtraInfo": "nostrum",
+      "LinkId": 988,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 1000,
-  "Snum": 443,
+  "SuggestedDocumentId": 579,
+  "Snum": 809,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Haley Smith",
-    "SuperOffice:2": "1820840019"
+    "SuperOffice:1": "337221395",
+    "SuperOffice:2": "Bruce Upton"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "et"
+    "CustomFields1": "harum",
+    "CustomFields2": "porro"
   },
-  "PublishEventDate": "1996-12-07T11:22:37.8991839+01:00",
-  "PublishTo": "2021-01-25T11:22:37.8991839+01:00",
-  "PublishFrom": "1997-05-04T11:22:37.8991839+02:00",
+  "PublishEventDate": "2012-11-27T12:15:18.7897221+01:00",
+  "PublishTo": "2005-10-09T12:15:18.7897221+02:00",
+  "PublishFrom": "2021-06-06T12:15:18.7897221+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 983,
+      "VisibleId": 154,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     },
     {
-      "VisibleId": 983,
+      "VisibleId": 154,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 883
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 361
     }
   }
 }

@@ -100,21 +100,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 543,
-  "UniqueIdentifier": "aliquid",
-  "Name": "Pouros, Wunsch and Frami",
-  "Description": "De-engineered cohesive throughput",
-  "IncludeId": "quaerat",
-  "HierarchyId": 2,
-  "Source": "sapiente",
-  "Registered": "2020-08-04T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 424,
-  "Updated": "2004-04-26T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 2
+  "EjscriptId": 883,
+  "UniqueIdentifier": "aut",
+  "Name": "Towne-Hickle",
+  "Description": "Multi-tiered coherent approach",
+  "IncludeId": "minus",
+  "HierarchyId": 496,
+  "Source": "asperiores",
+  "Registered": "1996-07-03T12:15:26.8116402+02:00",
+  "RegisteredAssociateId": 818,
+  "Updated": "2003-07-04T12:15:26.8116402+02:00",
+  "UpdatedAssociateId": 357
 }
 ```
 
@@ -125,23 +125,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 74,
-  "UniqueIdentifier": "sunt",
-  "Name": "D'Amore, Buckridge and Cummerata",
-  "Description": "Ameliorated reciprocal installation",
-  "IncludeId": "itaque",
-  "HierarchyId": 921,
-  "Source": "sapiente",
-  "Registered": "2011-08-11T11:22:44.5694964+02:00",
-  "RegisteredAssociateId": 518,
-  "Updated": "1996-04-28T11:22:44.5694964+02:00",
-  "UpdatedAssociateId": 642,
+  "EjscriptId": 743,
+  "UniqueIdentifier": "unde",
+  "Name": "Abshire Group",
+  "Description": "Up-sized heuristic archive",
+  "IncludeId": "modi",
+  "HierarchyId": 102,
+  "Source": "molestiae",
+  "Registered": "2015-01-21T12:15:26.8116402+01:00",
+  "RegisteredAssociateId": 380,
+  "Updated": "2013-12-03T12:15:26.8116402+01:00",
+  "UpdatedAssociateId": 662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   },
   "_Links": {

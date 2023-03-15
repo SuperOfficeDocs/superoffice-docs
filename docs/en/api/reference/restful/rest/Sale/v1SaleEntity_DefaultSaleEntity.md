@@ -99,7 +99,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,7 +107,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
+Last-Modified: Sat, 21 Apr 2001 12:15:27 G4T
 
 {
   "Appointment": null,
@@ -116,7 +116,7 @@ Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "repellendus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-08-17T11:22:45.1006098+02:00",
-  "Amount": 28992.634,
-  "SaleId": 56,
-  "Earning": 26529.309999999998,
-  "EarningPercent": 31220.908,
-  "Heading": "tempora",
-  "Number": "1531315",
-  "Probability": 779,
-  "CreatedDate": "2005-04-14T11:22:45.1006098+02:00",
-  "UpdatedDate": "2007-10-04T11:22:45.1006098+02:00",
+  "Saledate": "2009-06-02T12:15:27.245635+02:00",
+  "Amount": 15199.9,
+  "SaleId": 416,
+  "Earning": 4682.196,
+  "EarningPercent": 31252.248,
+  "Heading": "ullam",
+  "Number": "1030796",
+  "Probability": 469,
+  "CreatedDate": "1995-11-06T12:15:27.245635+01:00",
+  "UpdatedDate": "2001-04-21T12:15:27.245635+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 366,
+  "ActiveLinks": 1001,
   "Links": [
     {
-      "EntityName": "Altenwerth, Jast and Goodwin",
-      "Id": 827,
-      "Description": "Quality-focused analyzing installation",
-      "ExtraInfo": "ab",
-      "LinkId": 386,
+      "EntityName": "Steuber, Anderson and Kautzer",
+      "Id": 352,
+      "Description": "Synchronised foreground knowledge base",
+      "ExtraInfo": "tenetur",
+      "LinkId": 846,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 210
         }
       }
     }
   ],
-  "NextDueDate": "2015-06-07T11:22:45.1006098+02:00",
-  "Postit": "cum",
+  "NextDueDate": "2014-04-11T12:15:27.245635+02:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-05-21T11:22:45.1006098+02:00",
+  "ReopenDate": "2010-10-17T12:15:27.245635+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Prosacco-Kautzer",
-      "Comment": "dolor",
-      "StakeholderRoleId": 823,
-      "CountryId": 246,
-      "PersonId": 340,
-      "EmailDescription": "randy.halvorson@oconner.uk",
-      "EmailId": 764,
-      "EmailAddress": "dorthy_blanda@lynch.uk",
-      "PhoneId": 12,
-      "ContactName": "Schneider Inc and Sons",
-      "ContactId": 354,
-      "SaleId": 308,
-      "Mrmrs": "nisi",
-      "Firstname": "Oceane",
-      "MiddleName": "Friesen-Mann",
-      "Lastname": "Rippin",
-      "SaleStakeholderId": 421,
-      "Rank": 612,
-      "Phone": "(391)921-7403 x5790",
+      "StakeholderRoleName": "Mohr-D'Amore",
+      "Comment": "velit",
+      "StakeholderRoleId": 571,
+      "CountryId": 429,
+      "PersonId": 479,
+      "EmailDescription": "dolly@kessler.com",
+      "EmailId": 537,
+      "EmailAddress": "virgil_miller@lehnerhamill.uk",
+      "PhoneId": 759,
+      "ContactName": "Anderson-Kohler",
+      "ContactId": 326,
+      "SaleId": 16,
+      "Mrmrs": "soluta",
+      "Firstname": "Leora",
+      "MiddleName": "Reichert-Dietrich",
+      "Lastname": "Lynch",
+      "SaleStakeholderId": 436,
+      "Rank": 107,
+      "Phone": "491-148-1244 x246",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 554
+          "FieldType": "System.String",
+          "FieldLength": 174
         }
       }
     }
   ],
-  "ActiveErpLinks": 603,
+  "ActiveErpLinks": 252,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1180335316"
+    "SuperOffice:1": "Ms. Germaine Fadel III",
+    "SuperOffice:2": "305405746"
   },
   "ExtraFields": {
-    "ExtraFields1": "labore",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "ipsam"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "1999-12-21T11:22:45.1006098+01:00",
-  "PublishTo": "2002-09-13T11:22:45.1006098+02:00",
-  "PublishFrom": "2018-09-04T11:22:45.1006098+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-12-01T12:15:27.2476323+01:00",
+  "PublishTo": "1999-12-10T12:15:27.2476323+01:00",
+  "PublishFrom": "2010-01-31T12:15:27.2476323+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 473,
+      "VisibleId": 552,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldLength": 354
         }
       }
     },
     {
-      "VisibleId": 473,
+      "VisibleId": 552,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldLength": 354
         }
       }
     }
@@ -241,7 +241,7 @@ Last-Modified: Thu, 04 Oct 2007 11:22:45 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 604
     }
   }
 }

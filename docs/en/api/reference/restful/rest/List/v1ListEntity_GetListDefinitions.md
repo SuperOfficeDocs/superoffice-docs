@@ -73,7 +73,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Rau-Luettgen",
-    "Tooltip": "ducimus",
-    "Deleted": false,
-    "Rank": 71,
-    "IsCustomList": false,
-    "IsMDOList": true,
+    "Id": 549,
+    "Name": "Powlowski Inc and Sons",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "Rank": 947,
+    "IsCustomList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "nemo",
+    "ListType": "ullam",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

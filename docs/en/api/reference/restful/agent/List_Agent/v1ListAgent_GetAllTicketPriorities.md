@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -115,60 +115,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 210,
-    "Name": "White, Kub and Schoen",
+    "TicketPriorityId": 265,
+    "Name": "Kovacek Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 537,
+    "SortOrder": 797,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 914,
-    "MonStart": "2018-09-12T11:22:38.4146877+02:00",
-    "MonStop": "1997-01-26T11:22:38.4146877+01:00",
-    "TueStart": "2005-01-08T11:22:38.4146877+01:00",
-    "TueStop": "2003-07-12T11:22:38.4146877+02:00",
-    "WedStart": "2021-12-16T11:22:38.4146877+01:00",
-    "WedStop": "2022-05-03T11:22:38.4146877+02:00",
-    "ThuStart": "2011-09-25T11:22:38.4146877+02:00",
-    "ThuStop": "2002-06-23T11:22:38.4146877+02:00",
-    "FriStart": "2002-02-20T11:22:38.4146877+01:00",
-    "FriStop": "2020-03-21T11:22:38.4146877+01:00",
-    "SatStart": "2010-07-01T11:22:38.4146877+02:00",
-    "SatStop": "2009-12-12T11:22:38.4146877+01:00",
-    "SunStart": "2010-09-05T11:22:38.4146877+02:00",
-    "SunStop": "2010-12-29T11:22:38.4146877+01:00",
+    "Deadline": 392,
+    "MonStart": "2003-09-18T12:15:19.2047482+02:00",
+    "MonStop": "2012-01-31T12:15:19.2047482+01:00",
+    "TueStart": "2002-03-03T12:15:19.2047482+01:00",
+    "TueStop": "2015-06-22T12:15:19.2047482+02:00",
+    "WedStart": "2010-03-24T12:15:19.2047482+01:00",
+    "WedStop": "2014-07-27T12:15:19.2047482+02:00",
+    "ThuStart": "2016-12-15T12:15:19.2047482+01:00",
+    "ThuStop": "2000-05-06T12:15:19.2047482+02:00",
+    "FriStart": "1999-02-17T12:15:19.2047482+01:00",
+    "FriStop": "2005-08-31T12:15:19.2047482+02:00",
+    "SatStart": "2015-08-01T12:15:19.2047482+02:00",
+    "SatStop": "2001-12-24T12:15:19.2047482+01:00",
+    "SunStart": "1996-09-30T12:15:19.2047482+02:00",
+    "SunStop": "2002-08-21T12:15:19.2047482+02:00",
     "NonDates": [
-      "dolorem",
-      "tempora"
+      "sed",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 928,
-        "AlertLevel": 462,
-        "AlertTimeout": 169,
-        "Action": 227,
-        "DelegateTo": 728,
-        "ScriptId": 431,
-        "EmailTo": "jaquan@christiansen.info",
-        "SmsTo": "amet",
-        "ReplyTemplateIdCustomer": 686,
-        "ReplyTemplateIdUser": 815,
-        "ReplyTemplateIdCatmast": 886,
-        "ReplyTemplateIdEmail": 372,
-        "RtiCustomerSms": 813,
-        "ReplyTemplateIdUserSms": 510,
-        "ReplyTemplateIdCatmastSms": 149,
-        "ReplyTemplateIdSms": 573,
+        "TicketAlertId": 500,
+        "AlertLevel": 976,
+        "AlertTimeout": 898,
+        "Action": 546,
+        "DelegateTo": 652,
+        "ScriptId": 144,
+        "EmailTo": "jaden@spinka.name",
+        "SmsTo": "sit",
+        "ReplyTemplateIdCustomer": 316,
+        "ReplyTemplateIdUser": 706,
+        "ReplyTemplateIdCatmast": 820,
+        "ReplyTemplateIdEmail": 314,
+        "RtiCustomerSms": 311,
+        "ReplyTemplateIdUserSms": 842,
+        "ReplyTemplateIdCatmastSms": 776,
+        "ReplyTemplateIdSms": 411,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 352
           }
         }
       }
@@ -177,8 +177,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 356
+        "FieldType": "System.String",
+        "FieldLength": 606
       }
     }
   }

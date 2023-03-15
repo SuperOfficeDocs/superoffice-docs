@@ -115,47 +115,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 263,
-  "Name": "Balistreri Inc and Sons",
-  "Tooltip": "modi",
-  "Rank": 767,
+  "SaleTypeId": 484,
+  "Name": "Heller, Ullrich and Feest",
+  "Tooltip": "praesentium",
+  "Rank": 786,
   "DurationUnit": "Century",
-  "SaleDuration": 164,
-  "SaleTypeCatId": 527,
+  "SaleDuration": 877,
+  "SaleTypeCatId": 517,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 83,
-  "QuoteLinesTemplate": 525,
-  "ConfirmationLinesTemplate": 797,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 400,
-  "MinEarningPercent": 210,
-  "GroupQuoteLinesBy": 351,
-  "SortGroupLinesBy": 692,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 732,
+  "QuoteLinesTemplate": 631,
+  "ConfirmationLinesTemplate": 40,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 932,
+  "MinEarningPercent": 281,
+  "GroupQuoteLinesBy": 367,
+  "SortGroupLinesBy": 501,
   "Stages": [
     {
-      "Id": 856,
-      "Name": "Swaniawski, Morissette and Abernathy",
-      "ToolTip": "Quaerat sunt amet ullam veritatis ut nihil.",
+      "Id": 543,
+      "Name": "Runolfsdottir-Koelpin",
+      "ToolTip": "Mollitia repellendus quasi dolores quibusdam velit expedita.",
       "Deleted": false,
-      "Rank": 797,
-      "Type": "velit",
-      "ColorBlock": 762,
-      "IconHint": "recusandae",
-      "Selected": true,
-      "LastChanged": "2003-07-04T11:22:46.1784934+02:00",
+      "Rank": 215,
+      "Type": "autem",
+      "ColorBlock": 754,
+      "IconHint": "dolores",
+      "Selected": false,
+      "LastChanged": "2005-05-07T12:15:28.4726141+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "repudiandae",
+      "ExtraInfo": "necessitatibus",
+      "StyleHint": "libero",
       "Hidden": false,
-      "FullName": "Dr. Name Coby Carroll V"
+      "FullName": "Abdullah Gislason"
     }
   ]
 }
@@ -168,53 +168,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 436,
-  "Name": "Kovacek-Mayer",
-  "Tooltip": "earum",
-  "Rank": 82,
+  "SaleTypeId": 656,
+  "Name": "Auer-Koss",
+  "Tooltip": "laudantium",
+  "Rank": 151,
   "DurationUnit": "Century",
-  "SaleDuration": 782,
-  "SaleTypeCatId": 717,
-  "Deleted": true,
+  "SaleDuration": 135,
+  "SaleTypeCatId": 93,
+  "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 625,
-  "QuoteLinesTemplate": 896,
-  "ConfirmationLinesTemplate": 179,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 106,
+  "QuoteLinesTemplate": 149,
+  "ConfirmationLinesTemplate": 39,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 492,
-  "MinEarningPercent": 726,
-  "GroupQuoteLinesBy": 85,
-  "SortGroupLinesBy": 248,
+  "MaxDiscountPercent": 258,
+  "MinEarningPercent": 403,
+  "GroupQuoteLinesBy": 160,
+  "SortGroupLinesBy": 110,
   "Stages": [
     {
-      "Id": 567,
-      "Name": "Wilkinson, Schoen and Sawayn",
-      "ToolTip": "Quia unde.",
-      "Deleted": false,
-      "Rank": 96,
-      "Type": "error",
-      "ColorBlock": 317,
-      "IconHint": "nesciunt",
-      "Selected": true,
-      "LastChanged": "2019-04-07T11:22:46.1784934+02:00",
+      "Id": 892,
+      "Name": "Goyette-Rolfson",
+      "ToolTip": "Minima ut laborum omnis aut perferendis.",
+      "Deleted": true,
+      "Rank": 30,
+      "Type": "qui",
+      "ColorBlock": 314,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "1996-04-18T12:15:28.4796139+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "ea",
+      "ExtraInfo": "nulla",
+      "StyleHint": "saepe",
       "Hidden": true,
-      "FullName": "Meaghan Torphy",
+      "FullName": "Dax Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 434
         }
       }
     }
@@ -223,8 +223,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldType": "System.String",
+      "FieldLength": 610
     }
   }
 }

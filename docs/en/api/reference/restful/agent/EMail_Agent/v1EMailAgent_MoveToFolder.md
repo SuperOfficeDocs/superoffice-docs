@@ -67,16 +67,16 @@ No Content
 POST /api/v1/Agents/EMail/MoveToFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    933,
-    118
+    312,
+    234
   ],
-  "TargetFolder": "tempora"
+  "TargetFolder": "magnam"
 }
 ```
 

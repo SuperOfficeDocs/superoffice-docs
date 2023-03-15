@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 219,
-  "LanguageId": 364
+  "ReplyTemplateId": 587,
+  "LanguageId": 184
 }
 ```
 
@@ -95,34 +95,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 759,
-  "PlainParsed": "numquam",
-  "HtmlParsed": "consequatur",
+  "ReplyTemplateId": 958,
+  "PlainParsed": "ea",
+  "HtmlParsed": "exercitationem",
   "Attachments": [
     {
-      "AttachmentId": 663,
-      "Name": "Balistreri-Ward",
-      "ContentType": "recusandae",
-      "AttSize": 473,
-      "InlineImage": false,
-      "ContentId": "ut",
+      "AttachmentId": 996,
+      "Name": "Russel-Koelpin",
+      "ContentType": "consequatur",
+      "AttSize": 396,
+      "InlineImage": true,
+      "ContentId": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 994
         }
       }
     }
   ],
-  "Subject": "velit",
+  "Subject": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

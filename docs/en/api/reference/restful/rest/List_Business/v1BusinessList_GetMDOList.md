@@ -26,7 +26,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=eos
+GET /api/v1/List/Business/MDOItems?query=sit
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Pagac, Braun and Heaney",
-    "ToolTip": "Sed dolor et debitis et maiores.",
+    "Id": 882,
+    "Name": "Bogisich, Littel and Klocko",
+    "ToolTip": "Corporis sunt.",
     "Deleted": false,
-    "Rank": 608,
-    "Type": "perferendis",
+    "Rank": 530,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Simonis-Goldner",
-        "ToolTip": "Harum et nulla ad.",
+        "Id": 703,
+        "Name": "Bauch LLC",
+        "ToolTip": "Repellat voluptatum deleniti.",
         "Deleted": true,
-        "Rank": 521,
-        "Type": "temporibus",
+        "Rank": 35,
+        "Type": "impedit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 957,
-        "ExtraInfo": "qui",
-        "StyleHint": "quae",
-        "FullName": "Jamal Schaden",
+        "IconHint": "labore",
+        "ColorBlock": 725,
+        "ExtraInfo": "deleniti",
+        "StyleHint": "quo",
+        "FullName": "Anibal Keeling II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldLength": 973
           }
         }
       }
     ],
-    "IconHint": "repudiandae",
-    "ColorBlock": 289,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "odio",
-    "FullName": "Dr. Mohammed Turcotte",
+    "IconHint": "impedit",
+    "ColorBlock": 158,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "iusto",
+    "FullName": "Fabian Jazmyn McClure MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldLength": 794
       }
     }
   }

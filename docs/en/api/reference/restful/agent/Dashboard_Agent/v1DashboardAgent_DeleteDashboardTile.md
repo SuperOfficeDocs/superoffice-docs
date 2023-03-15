@@ -24,7 +24,7 @@ Deletes the DashboardTile
 | DashboardTileId | int32 | **Required** The id of the DashboardTile to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=898
+POST /api/v1/Agents/Dashboard/DeleteDashboardTile?DashboardTileId=153
 ```
 
 
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Dashboard/DeleteDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

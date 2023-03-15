@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 57,
-    "Name": "Stracke-McLaughlin",
-    "Tooltip": "autem",
+    "HeadingId": 398,
+    "Name": "Purdy Inc and Sons",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 634,
-    "UdListDefinitionId": 186,
+    "Rank": 481,
+    "UdListDefinitionId": 664,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 480
+        "FieldLength": 491
       }
     }
   }

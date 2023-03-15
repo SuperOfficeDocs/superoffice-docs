@@ -102,38 +102,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 186,
-  "PlainMessage": "illum",
-  "HtmlMessage": "commodi",
-  "SmsMessage": "et",
-  "Description": "Synchronised transitional frame",
-  "Subject": "et",
-  "FolderId": 526,
-  "HeaderField": "ut",
-  "Design": "dolorum",
+  "ShipmentMessageId": 691,
+  "PlainMessage": "et",
+  "HtmlMessage": "est",
+  "SmsMessage": "rerum",
+  "Description": "Enterprise-wide static contingency",
+  "Subject": "hic",
+  "FolderId": 688,
+  "HeaderField": "nemo",
+  "Design": "ad",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Fully-configurable systematic parallelism",
-  "AccessKey": "ipsa",
-  "DocumentMessage": 899,
-  "Registered": "2011-05-28T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 282,
-  "Updated": "2015-07-02T11:22:45.225579+02:00",
-  "UpdatedAssociateId": 391,
-  "UpdatedCount": 564,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Diverse national groupware",
+  "AccessKey": "nisi",
+  "DocumentMessage": 965,
+  "Registered": "2023-02-20T12:15:27.4006306+01:00",
+  "RegisteredAssociateId": 889,
+  "Updated": "2017-05-11T12:15:27.4006306+02:00",
+  "UpdatedAssociateId": 802,
+  "UpdatedCount": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 694
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

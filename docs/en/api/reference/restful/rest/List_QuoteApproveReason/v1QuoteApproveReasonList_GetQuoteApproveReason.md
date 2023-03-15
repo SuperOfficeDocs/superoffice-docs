@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 378,
-  "Name": "Zboncak-Bergstrom",
-  "Tooltip": "est",
-  "Deleted": true,
-  "UdListDefinitionId": 656,
-  "Rank": 127,
+  "Id": 362,
+  "Name": "Herzog-Bogan",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "UdListDefinitionId": 694,
+  "Rank": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 745
+      "FieldLength": 678
     }
   }
 }

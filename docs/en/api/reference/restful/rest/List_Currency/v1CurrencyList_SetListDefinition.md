@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 318,
-  "Name": "Simonis, Nader and Miller",
-  "Tooltip": "quas",
-  "Deleted": true,
-  "Rank": 627,
-  "IsCustomList": true,
+  "Id": 214,
+  "Name": "Ortiz LLC",
+  "Tooltip": "optio",
+  "Deleted": false,
+  "Rank": 739,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "tempora",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Kunde-Pouros",
-  "Tooltip": "provident",
+  "Id": 777,
+  "Name": "Carroll Group",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 628,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 406,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 433
+      "FieldLength": 318
     }
   }
 }

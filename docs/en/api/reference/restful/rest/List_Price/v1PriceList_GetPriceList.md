@@ -81,7 +81,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 875,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 907,
-  "Name": "Koelpin Group",
-  "Description": "Open-architected 24/7 definition",
-  "Currency": "et",
-  "CurrencyName": "Rice Group",
-  "ValidFrom": "2000-06-29T11:22:46.0066565+02:00",
-  "ValidTo": "1996-08-11T11:22:46.0066565+02:00",
-  "IsActive": false,
+  "PriceListId": 978,
+  "ERPPriceListKey": "nesciunt",
+  "QuoteConnectionId": 287,
+  "Name": "Lubowitz LLC",
+  "Description": "Customer-focused secondary hub",
+  "Currency": "necessitatibus",
+  "CurrencyName": "Senger-Mertz",
+  "ValidFrom": "1999-02-20T12:15:28.2546171+01:00",
+  "ValidTo": "2018-05-03T12:15:28.2546171+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldType": "System.String",
+      "FieldLength": 910
     }
   },
   "_Links": {

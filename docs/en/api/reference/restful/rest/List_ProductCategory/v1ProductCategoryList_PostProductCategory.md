@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Willms-Pollich",
-  "Tooltip": "voluptate",
+  "Id": 228,
+  "Name": "Hilpert, Tremblay and Huel",
+  "Tooltip": "alias",
   "Deleted": false,
-  "UdListDefinitionId": 750,
-  "Rank": 547
+  "UdListDefinitionId": 959,
+  "Rank": 398
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 929,
-  "Name": "Mitchell Group",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "UdListDefinitionId": 842,
-  "Rank": 660,
+  "Id": 300,
+  "Name": "O'Conner Inc and Sons",
+  "Tooltip": "dolor",
+  "Deleted": false,
+  "UdListDefinitionId": 921,
+  "Rank": 412,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldLength": 512
     }
   }
 }

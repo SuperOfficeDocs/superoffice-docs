@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Pollich LLC",
-    "ToolTip": "Aut architecto est sequi doloremque ut.",
+    "Id": 318,
+    "Name": "Schinner-Hilll",
+    "ToolTip": "Debitis vitae adipisci.",
     "Deleted": false,
-    "Rank": 207,
-    "Type": "exercitationem",
-    "ColorBlock": 825,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2007-01-08T11:22:46.1160093+01:00",
+    "Rank": 217,
+    "Type": "dolores",
+    "ColorBlock": 436,
+    "IconHint": "cum",
+    "Selected": false,
+    "LastChanged": "2016-02-10T12:15:28.4046168+01:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Gleason, Bailey and Hodkiewicz",
-        "ToolTip": "Voluptatum dolorem suscipit debitis.",
+        "Id": 159,
+        "Name": "Murphy-Reynolds",
+        "ToolTip": "Totam in repudiandae earum voluptas.",
         "Deleted": true,
-        "Rank": 767,
-        "Type": "nihil",
-        "ColorBlock": 225,
-        "IconHint": "laborum",
+        "Rank": 215,
+        "Type": "nam",
+        "ColorBlock": 424,
+        "IconHint": "excepturi",
         "Selected": true,
-        "LastChanged": "1996-12-23T11:22:46.1160093+01:00",
+        "LastChanged": "2011-01-22T12:15:28.4046168+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "minima",
+        "ExtraInfo": "ut",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Darron Hahn",
+        "FullName": "Israel Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldLength": 864
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "aut",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "ab",
     "Hidden": false,
-    "FullName": "Blaze Aileen Casper V",
+    "FullName": "Warren Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 946
       }
     }
   }

@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 221,
-    "ERPName": "Denesik, Bechtelar and Homenick",
-    "DisplayName": "McGlynn, Schroeder and Larson",
-    "DisplayDescription": "Quality-focused directional toolset",
-    "Rank": 639,
-    "ConnectorName": "McGlynn-Vandervort",
-    "ErpConnectionId": 131,
-    "ExtraData": "voluptatibus",
+    "QuoteConnectionId": 92,
+    "ERPName": "Roberts LLC",
+    "DisplayName": "Stehr-Schimmel",
+    "DisplayDescription": "Function-based analyzing strategy",
+    "Rank": 352,
+    "ConnectorName": "Emmerich Inc and Sons",
+    "ErpConnectionId": 785,
+    "ExtraData": "consequatur",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 161,
-        "ERPPriceListKey": "non",
-        "QuoteConnectionId": 761,
-        "Name": "Vandervort-Huel",
-        "Description": "Programmable multimedia flexibility",
-        "Currency": "ut",
-        "CurrencyName": "Stroman, Upton and Hilpert",
-        "ValidFrom": "2010-02-01T11:22:38.9145676+01:00",
-        "ValidTo": "2020-04-09T11:22:38.9145676+02:00",
-        "IsActive": true,
+        "PriceListId": 553,
+        "ERPPriceListKey": "harum",
+        "QuoteConnectionId": 317,
+        "Name": "Murphy-Pacocha",
+        "Description": "Re-contextualized stable architecture",
+        "Currency": "aperiam",
+        "CurrencyName": "Boyer, Hyatt and Kris",
+        "ValidFrom": "2018-10-17T12:15:19.9397396+02:00",
+        "ValidTo": "2021-07-30T12:15:19.9397396+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 93
+            "FieldType": "System.Int32",
+            "FieldLength": 134
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      138,
-      782
+      734,
+      282
     ],
     "AssociateAccessIds": [
-      755,
-      879
+      753,
+      274
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 819
+        "FieldLength": 587
       }
     }
   }

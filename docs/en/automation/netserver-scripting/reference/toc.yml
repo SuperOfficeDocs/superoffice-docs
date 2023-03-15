@@ -37,6 +37,8 @@ items:
     href: appointmentagent/canassigntoprojectmember.md
   - name: CleanUpBookingDeleted
     href: appointmentagent/cleanupbookingdeleted.md
+  - name: CleanUpBookingDeletedWithUpdateMode
+    href: appointmentagent/cleanupbookingdeletedwithupdatemode.md
   - name: CleanUpRecurringBookingDeleted
     href: appointmentagent/cleanuprecurringbookingdeleted.md
   - name: CreateAndAccept
@@ -199,6 +201,8 @@ items:
     href: appointmentagent/setactivitystatus.md
   - name: SetSeen
     href: appointmentagent/setseen.md
+  - name: SetSeenMany
+    href: appointmentagent/setseenmany.md
   - name: ToggleActivities
     href: appointmentagent/toggleactivities.md
   - name: ToggleActivity
@@ -264,6 +268,10 @@ items:
     href: archiveagent/getgroupassociateids.md
   - name: GetProviderNames
     href: archiveagent/getprovidernames.md
+  - name: GetRelatedData
+    href: archiveagent/getrelateddata.md
+  - name: GetRelatedData2
+    href: archiveagent/getrelateddata2.md
   - name: SetActivityFilter
     href: archiveagent/setactivityfilter.md
   - name: SetChosenColumns
@@ -1257,6 +1265,8 @@ items:
     href: emailagent/hasmxrecord.md
   - name: HasNewMail
     href: emailagent/hasnewmail.md
+  - name: HasSPFRecord
+    href: emailagent/hasspfrecord.md
   - name: LatestItemIdByFolder
     href: emailagent/latestitemidbyfolder.md
   - name: MarkAsRead
@@ -1689,6 +1699,8 @@ items:
     href: listagent/createdefaultsalestageentity.md
   - name: CreateDefaultSaleTypeEntity
     href: listagent/createdefaultsaletypeentity.md
+  - name: CreateDefaultTaskMenu
+    href: listagent/createdefaulttaskmenu.md
   - name: CreateDefaultTicketCategoryEntity
     href: listagent/createdefaultticketcategoryentity.md
   - name: CreateDefaultTicketPriorityEntity
@@ -1705,6 +1717,8 @@ items:
     href: listagent/deleteallheadingsfromlistdefinition.md
   - name: DeleteAllHeadingsFromName
     href: listagent/deleteallheadingsfromname.md
+  - name: DeleteAppTaskMenus
+    href: listagent/deleteapptaskmenus.md
   - name: DeleteAppWebPanels
     href: listagent/deleteappwebpanels.md
   - name: DeleteDocumentTemplateLanguage
@@ -1725,6 +1739,8 @@ items:
     href: listagent/deleteprojectstatus.md
   - name: DeleteResourceEntity
     href: listagent/deleteresourceentity.md
+  - name: DeleteTaskMenu
+    href: listagent/deletetaskmenu.md
   - name: DeleteTicketCategoryEntity
     href: listagent/deleteticketcategoryentity.md
   - name: DeleteTicketPriorityEntity
@@ -1771,6 +1787,8 @@ items:
     href: listagent/getallticketpriorities.md
   - name: GetAmountClassEntity
     href: listagent/getamountclassentity.md
+  - name: GetAppTaskMenus
+    href: listagent/getapptaskmenus.md
   - name: GetAppWebPanels
     href: listagent/getappwebpanels.md
   - name: GetBaseCurrency
@@ -2057,6 +2075,10 @@ items:
     href: listagent/gettask.md
   - name: GetTaskList
     href: listagent/gettasklist.md
+  - name: GetTaskMenu
+    href: listagent/gettaskmenu.md
+  - name: GetTaskMenuByProgId
+    href: listagent/gettaskmenubyprogid.md
   - name: GetTasks
     href: listagent/gettasks.md
   - name: GetTicketCategories
@@ -2161,6 +2183,8 @@ items:
     href: listagent/savesalestageentity.md
   - name: SaveSaleTypeEntity
     href: listagent/savesaletypeentity.md
+  - name: SaveTaskMenu
+    href: listagent/savetaskmenu.md
   - name: SaveTicketCategoryEntity
     href: listagent/saveticketcategoryentity.md
   - name: SaveTicketPriorityEntity
@@ -2240,6 +2264,8 @@ items:
     href: marketingagent/getformentity.md
   - name: GetFormSubmissionEntity
     href: marketingagent/getformsubmissionentity.md
+  - name: GetFormSubmissionsCount
+    href: marketingagent/getformsubmissionscount.md
   - name: GetPreviewMailing
     href: marketingagent/getpreviewmailing.md
   - name: GetPreviewMailingHeader
@@ -2344,6 +2370,8 @@ items:
     href: personagent/createdefaultfromcredential.md
   - name: CreateDefaultPersonEntity
     href: personagent/createdefaultpersonentity.md
+  - name: CreateDefaultPersonImage
+    href: personagent/createdefaultpersonimage.md
   - name: CreateTemporaryKey
     href: personagent/createtemporarykey.md
   - name: DeleteConsentPerson
@@ -2382,6 +2410,8 @@ items:
     href: personagent/getpersonentity.md
   - name: GetPersonImage
     href: personagent/getpersonimage.md
+  - name: GetPersonImages
+    href: personagent/getpersonimages.md
   - name: GetPersonList
     href: personagent/getpersonlist.md
   - name: GetPersonsFromContact
@@ -3237,6 +3267,10 @@ items:
     href: ticketagent/batchreply.md
   - name: CalculateMessageRecipients
     href: ticketagent/calculatemessagerecipients.md
+  - name: ClearNotify
+    href: ticketagent/clearnotify.md
+  - name: CopyFromCRMDocument
+    href: ticketagent/copyfromcrmdocument.md
   - name: CreateDefaultAttachmentEntity
     href: ticketagent/createdefaultattachmententity.md
   - name: CreateDefaultTicketEntity
@@ -3261,6 +3295,8 @@ items:
     href: ticketagent/getdefaultmessagecontent.md
   - name: GetForRmUi
     href: ticketagent/getforrmui.md
+  - name: GetNextInQueue
+    href: ticketagent/getnextinqueue.md
   - name: GetPreviewAttachmentStream
     href: ticketagent/getpreviewattachmentstream.md
   - name: GetTicket
@@ -3275,6 +3311,8 @@ items:
     href: ticketagent/getticketmessageentity.md
   - name: GetTicketMessageWithEmbeddedData
     href: ticketagent/getticketmessagewithembeddeddata.md
+  - name: GetTicketMessageWithOptions
+    href: ticketagent/getticketmessagewithoptions.md
   - name: GetTickets
     href: ticketagent/gettickets.md
   - name: GetTicketSummaries
@@ -3325,12 +3363,16 @@ items:
     href: ticketagent/splitticket.md
   - name: SplitTicketMessage
     href: ticketagent/splitticketmessage.md
+  - name: UndeleteByIds
+    href: ticketagent/undeletebyids.md
   - name: UpdateTicketsReadStatus
     href: ticketagent/updateticketsreadstatus.md
   - name: UpdateTicketsReadStatusByProvider
     href: ticketagent/updateticketsreadstatusbyprovider.md
   - name: UploadAttachment
     href: ticketagent/uploadattachment.md
+  - name: ValidateAttachments
+    href: ticketagent/validateattachments.md
 - name: TimeZoneAgent
   href: timezoneagent/index.md
   items:
@@ -3483,6 +3525,8 @@ items:
     href: useragent/getuserinfo.md
   - name: GetUserInfoList
     href: useragent/getuserinfolist.md
+  - name: GetUserPresenceStatus
+    href: useragent/getuserpresencestatus.md
   - name: GetValidUserName
     href: useragent/getvalidusername.md
   - name: GetValidUserNameForNewUser
@@ -3545,6 +3589,8 @@ items:
     href: useragent/setpassword.md
   - name: SetPasswordFromName
     href: useragent/setpasswordfromname.md
+  - name: SetUserPresenceStatus
+    href: useragent/setuserpresencestatus.md
   - name: ValidateUser
     href: useragent/validateuser.md
 - name: UserDefinedFieldInfoAgent
@@ -3552,6 +3598,8 @@ items:
   items:
   - name: ChangeFieldType
     href: userdefinedfieldinfoagent/changefieldtype.md
+  - name: ClearCaches
+    href: userdefinedfieldinfoagent/clearcaches.md
   - name: CreateDefaultUserDefinedFieldInfo
     href: userdefinedfieldinfoagent/createdefaultuserdefinedfieldinfo.md
   - name: CreateUserDefinedFieldInfo
@@ -3664,4 +3712,27 @@ items:
     href: webhookagent/signalevent.md
   - name: TestWebhook
     href: webhookagent/testwebhook.md
+- name: WorkflowAgent
+  href: workflowagent/index.md
+  items:
+  - name: AddAfterWorkflowStep
+    href: workflowagent/addafterworkflowstep.md
+  - name: CreateDefaultEmailFlow
+    href: workflowagent/createdefaultemailflow.md
+  - name: CreateDefaultWorkflowStep
+    href: workflowagent/createdefaultworkflowstep.md
+  - name: DeleteEmailFlow
+    href: workflowagent/deleteemailflow.md
+  - name: DeleteWorkflowStep
+    href: workflowagent/deleteworkflowstep.md
+  - name: GetEmailFlow
+    href: workflowagent/getemailflow.md
+  - name: GetWorkflowStep
+    href: workflowagent/getworkflowstep.md
+  - name: SaveEmailFlow
+    href: workflowagent/saveemailflow.md
+  - name: SaveWorkflowStep
+    href: workflowagent/saveworkflowstep.md
+  - name: TryAddPersonsToEmailFlow
+    href: workflowagent/tryaddpersonstoemailflow.md
 

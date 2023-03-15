@@ -72,8 +72,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 544,
-  "LanguageCode": "soluta"
+  "DocumentTemplateId": 923,
+  "LanguageCode": "magni"
 }
 ```
 

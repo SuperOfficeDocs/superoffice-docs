@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 774,
-  "Name": "Metz-Bogisich",
-  "Rank": 126,
-  "Tooltip": "sit",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "est",
+  "ResourceId": 684,
+  "Name": "Hermiston-Cassin",
+  "Rank": 167,
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

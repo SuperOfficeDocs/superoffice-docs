@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Nienow-Kertzmann",
-    "ToolTip": "Veniam eos corporis culpa sint facilis perferendis odit.",
-    "Deleted": false,
-    "Rank": 450,
-    "Type": "laborum",
-    "ColorBlock": 222,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2013-03-10T11:22:46.0066565+01:00",
+    "Id": 321,
+    "Name": "Swaniawski-Marquardt",
+    "ToolTip": "Magni est.",
+    "Deleted": true,
+    "Rank": 621,
+    "Type": "laudantium",
+    "ColorBlock": 740,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2004-02-07T12:15:28.2696219+01:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Gorczany Inc and Sons",
-        "ToolTip": "Ut inventore dolores iure neque qui est commodi.",
+        "Id": 196,
+        "Name": "Zieme LLC",
+        "ToolTip": "Laboriosam enim amet praesentium voluptatem.",
         "Deleted": true,
-        "Rank": 631,
-        "Type": "ipsam",
-        "ColorBlock": 853,
-        "IconHint": "voluptatem",
+        "Rank": 292,
+        "Type": "ut",
+        "ColorBlock": 183,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2008-04-08T11:22:46.0066565+02:00",
+        "LastChanged": "1998-03-16T12:15:28.2696219+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "eaque",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Ms. Cooper Humberto Mohr"
+        "FullName": "Mr. Colleen Roma McGlynn"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Christelle Ryan"
+    "ExtraInfo": "nihil",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Miss Finn Nader IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Abbott Inc and Sons",
-    "ToolTip": "Est dolorem et rerum et et beatae ipsa.",
+    "Id": 216,
+    "Name": "Kuphal LLC",
+    "ToolTip": "Facere molestias aliquid officiis est quisquam.",
     "Deleted": false,
-    "Rank": 771,
-    "Type": "et",
-    "ColorBlock": 696,
-    "IconHint": "ea",
+    "Rank": 602,
+    "Type": "sunt",
+    "ColorBlock": 523,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2022-01-16T11:22:46.0222797+01:00",
+    "LastChanged": "2003-12-01T12:15:28.2726164+01:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Bosco, Hintz and Goyette",
-        "ToolTip": "Vel voluptatum similique provident quis quas aspernatur sapiente.",
+        "Id": 738,
+        "Name": "Ondricka, Baumbach and Yundt",
+        "ToolTip": "Iure suscipit sint est ipsum dolores.",
         "Deleted": false,
-        "Rank": 869,
-        "Type": "vel",
-        "ColorBlock": 959,
-        "IconHint": "doloremque",
+        "Rank": 190,
+        "Type": "enim",
+        "ColorBlock": 756,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2010-12-11T11:22:46.0222797+01:00",
+        "LastChanged": "2016-06-21T12:15:28.2726164+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "in",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Hyman Miller",
+        "FullName": "Prof. Cory Madisen Moore II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 312
+            "FieldType": "System.Int32",
+            "FieldLength": 340
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Ms. Alena Streich",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "eveniet",
+    "Hidden": true,
+    "FullName": "Mabel Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 300
       }
     }
   }

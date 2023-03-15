@@ -81,18 +81,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Schiller, Bergstrom and Skiles",
-  "StorageKey": "repellat",
+  "StorageType": "non",
+  "ProviderName": "Murray, Wilkinson and McKenzie",
+  "StorageKey": "consequatur",
   "StaticColumns": [
-    "eos",
-    "dolore"
+    "reiciendis",
+    "sit"
   ],
-  "Context": "necessitatibus"
+  "Context": "saepe"
 }
 ```
 
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Brown-Willms",
-      "Operator": "aspernatur",
+      "Name": "Kertzmann, Krajcik and Corkery",
+      "Operator": "modi",
       "Values": [
-        "cum",
-        "labore"
+        "quia",
+        "sed"
       ],
       "DisplayValues": [
-        "id",
-        "est"
+        "omnis",
+        "id"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 246,
+      "InterParenthesis": 414,
       "InterOperator": "And",
-      "UniqueHash": 748
+      "UniqueHash": 733
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Jewess Inc and Sons",
-      "DisplayTooltip": "autem",
-      "DisplayType": "optio",
-      "CanOrderBy": true,
-      "Name": "Bartell Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Schmitt-Schroeder",
-      "IsVisible": false,
-      "ExtraInfo": "laudantium",
-      "Width": "et",
-      "IconHint": "quaerat",
-      "HeadingIconHint": "sunt"
+      "DisplayName": "Spinka Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "nemo",
+      "CanOrderBy": false,
+      "Name": "West-VonRueden",
+      "CanRestrictBy": true,
+      "RestrictionType": "nesciunt",
+      "RestrictionListName": "Hansen, Marvin and Reynolds",
+      "IsVisible": true,
+      "ExtraInfo": "est",
+      "Width": "fuga",
+      "IconHint": "voluptas",
+      "HeadingIconHint": "soluta"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pollich Group",
-      "PrimaryKey": 140,
+      "EntityName": "Pfeffer Group",
+      "PrimaryKey": 320,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusantium",
-          "TooltipHint": "eum",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "aut",
+          "TooltipHint": "sed",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "asperiores",
+      "LinkHint": "quia",
+      "StyleHint": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 421
+          "FieldLength": 414
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Harber Inc and Sons",
-      "Description": "Secured actuating orchestration",
-      "Rank": 625,
+      "Name": "Johns-Zboncak",
+      "Description": "Intuitive tangible archive",
+      "Rank": 398,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Harber Inc and Sons",
-      "Description": "Secured actuating orchestration",
-      "Rank": 625,
+      "Name": "Johns-Zboncak",
+      "Description": "Intuitive tangible archive",
+      "Rank": 398,
       "Restrictions": [
         {},
         {}
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   }
 }

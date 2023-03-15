@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nobis"
+  "UniqueIdentifier": "repellendus"
 }
 ```
 
@@ -99,21 +99,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UniqueIdentifier": "ut",
-  "Name": "Langosh, Goodwin and Haley",
-  "Description": "Cloned static moderator",
-  "IncludeId": "nobis",
-  "Source": "voluptas",
-  "Registered": "1996-01-17T11:22:37.7742144+01:00",
-  "RegisteredBy": "hic",
-  "Updated": "2014-10-30T11:22:37.7742144+01:00",
-  "UpdatedBy": "velit",
-  "Path": "amet",
+  "Name": "Brekke Inc and Sons",
+  "Description": "Enterprise-wide scalable internet solution",
+  "IncludeId": "id",
+  "Source": "saepe",
+  "Registered": "2020-03-09T12:15:18.6247569+01:00",
+  "RegisteredBy": "consequatur",
+  "Updated": "2017-01-06T12:15:18.6247569+01:00",
+  "UpdatedBy": "iste",
+  "Path": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 711
     }
   }
 }

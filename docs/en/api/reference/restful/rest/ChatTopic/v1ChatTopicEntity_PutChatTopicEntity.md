@@ -138,41 +138,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 617,
-  "Name": "Rice Inc and Sons",
-  "Description": "Synergized human-resource data-warehouse",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 29,
+  "Name": "Larson Group",
+  "Description": "Robust incremental core",
+  "WelcomeMessage": "porro",
   "Language": null,
-  "LastAccept": "2004-04-20T11:22:44.4132819+02:00",
-  "SecondsPrAccept": 637,
-  "AlertRecipient": "voluptas",
+  "LastAccept": "2003-05-20T12:15:26.5236416+02:00",
+  "SecondsPrAccept": 239,
+  "AlertRecipient": "non",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "excepturi",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "omnis",
-  "WarnNewChatMinutes": 840,
-  "WarnManagerNewChatMinutes": 460,
+  "CollectConsent": true,
+  "BadgeHeader": "ut",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "expedita",
+  "WarnNewChatMinutes": 801,
+  "WarnManagerNewChatMinutes": 704,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 467,
-  "WarnManagerChatMessageMinutes": 745,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 560,
-  "OfflineFormQueueLength": 829,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "neque"
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 106,
+  "WarnManagerChatMessageMinutes": 425,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 208,
+  "OfflineFormQueueLength": 422,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "porro"
 }
 ```
 
@@ -183,21 +183,21 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 399,
-  "Name": "Homenick, Sanford and Blick",
-  "Description": "Down-sized actuating leverage",
-  "WelcomeMessage": "animi",
+  "ChatTopicId": 990,
+  "Name": "Howe, Nikolaus and Hudson",
+  "Description": "Down-sized contextually-based project",
+  "WelcomeMessage": "hic",
   "Language": null,
-  "LastAccept": "2011-08-22T11:22:44.4289042+02:00",
-  "SecondsPrAccept": 112,
-  "AlertRecipient": "recusandae",
+  "LastAccept": "2011-06-07T12:15:26.5276423+02:00",
+  "SecondsPrAccept": 647,
+  "AlertRecipient": "libero",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "dolores",
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 192,
-  "WarnManagerNewChatMinutes": 656,
+  "CustomQueueText": "sequi",
+  "WarnNewChatMinutes": 900,
+  "WarnManagerNewChatMinutes": 772,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -206,20 +206,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 700,
-  "WarnManagerChatMessageMinutes": 540,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 990,
+  "WarnManagerChatMessageMinutes": 915,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 175,
-  "OfflineFormQueueLength": 705,
+  "OfflineFormTimeLimit": 172,
+  "OfflineFormQueueLength": 734,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "non",
+  "WidgetRatingText": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldLength": 683
     }
   },
   "_Links": {

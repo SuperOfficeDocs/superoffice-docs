@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Value": "tempore",
-    "Tooltip": "voluptate",
+    "Id": 481,
+    "Value": "maxime",
+    "Tooltip": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   },
   {
-    "Id": 16,
-    "Value": "tempore",
-    "Tooltip": "voluptate",
+    "Id": 481,
+    "Value": "maxime",
+    "Tooltip": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

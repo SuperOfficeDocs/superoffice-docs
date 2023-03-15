@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Brown LLC",
-  "ProviderName": "Ondricka LLC"
+  "GuiName": "Hermiston, Walsh and Connelly",
+  "ProviderName": "Christiansen-Schuster"
 }
 ```
 
@@ -96,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Brown-Bernhard",
-      "DisplayTooltip": "consectetur",
-      "DisplayType": "repudiandae",
+      "DisplayName": "Buckridge-Watsica",
+      "DisplayTooltip": "eveniet",
+      "DisplayType": "voluptatum",
       "CanOrderBy": false,
-      "Name": "Hammes-Gleichner",
+      "Name": "Gutmann-Schultz",
       "CanRestrictBy": false,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Johns Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "earum",
-      "Width": "expedita",
-      "IconHint": "animi",
-      "HeadingIconHint": "quod"
+      "RestrictionType": "impedit",
+      "RestrictionListName": "Ryan LLC",
+      "IsVisible": false,
+      "ExtraInfo": "omnis",
+      "Width": "corrupti",
+      "IconHint": "et",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 979,
-      "Name": "Steuber Inc and Sons",
-      "ToolTip": "Officia vel dolorem mollitia at neque.",
+      "Id": 219,
+      "Name": "McGlynn LLC",
+      "ToolTip": "Autem consequatur est.",
       "Deleted": false,
-      "Rank": 32,
-      "Type": "ut",
-      "ColorBlock": 82,
-      "IconHint": "nisi",
-      "Selected": false,
-      "LastChanged": "2001-12-23T11:22:37.3836264+01:00",
+      "Rank": 792,
+      "Type": "eum",
+      "ColorBlock": 497,
+      "IconHint": "aspernatur",
+      "Selected": true,
+      "LastChanged": "2009-05-04T12:15:18.1457635+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "laudantium",
       "Hidden": true,
-      "FullName": "Stacy Armstrong",
+      "FullName": "Sierra Boyer PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 904
+          "FieldType": "System.Int32",
+          "FieldLength": 389
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Torp-Little",
+      "Name": "Ward, Casper and Christiansen",
       "Direction": "ASC"
     },
     {
-      "Name": "Torp-Little",
+      "Name": "Ward, Casper and Christiansen",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "in",
+  "OwnerKeys": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 285
+      "FieldLength": 74
     }
   }
 }

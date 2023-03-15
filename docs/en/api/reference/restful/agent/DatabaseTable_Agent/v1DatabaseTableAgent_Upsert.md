@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schroeder LLC",
+  "TableName": "Lang-Stokes",
   "Columns": [
-    "quisquam",
-    "enim"
+    "earum",
+    "veniam"
   ],
   "Keys": [
-    "neque",
-    "animi"
+    "dolorem",
+    "culpa"
   ],
   "Data": [
     [
@@ -118,40 +118,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "aliquam",
-  "Inserts": 683,
-  "Updates": 500,
-  "Deletes": 641,
+  "Message": "sed",
+  "Inserts": 819,
+  "Updates": 523,
+  "Deletes": 903,
   "RowStatus": [
     {
-      "PrimaryKey": 611,
+      "PrimaryKey": 707,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "fuga",
-        "ea"
+        "quod",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 850
         }
       }
     },
     {
-      "PrimaryKey": 611,
+      "PrimaryKey": 707,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "fuga",
-        "ea"
+        "quod",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 850
         }
       }
     }
@@ -160,8 +160,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

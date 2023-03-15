@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 340,
-  "SaleId": 37,
-  "QuoteConnectionId": 729,
-  "ERPQuoteKey": "consequatur",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 489,
-  "AcceptedQuoteAlternativeId": 2,
-  "UseValuesFromQuote": 799,
-  "DocumentId": 477,
-  "PoNumber": "437736",
-  "OrderComment": "id",
-  "PreferredEmailCulture": "otilia@collier.ca",
+  "QuoteId": 534,
+  "SaleId": 865,
+  "QuoteConnectionId": 803,
+  "ERPQuoteKey": "necessitatibus",
+  "ERPOrderKey": "et",
+  "ActiveQuoteVersionId": 972,
+  "AcceptedQuoteAlternativeId": 181,
+  "UseValuesFromQuote": 247,
+  "DocumentId": 762,
+  "PoNumber": "847382",
+  "OrderComment": "qui",
+  "PreferredEmailCulture": "demetris@waelchi.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 974,
-      "ERPQuoteVersionKey": "est",
-      "QuoteId": 24,
-      "Description": "Adaptive system-worthy projection",
-      "Number": "966697",
+      "QuoteVersionId": 175,
+      "ERPQuoteVersionKey": "in",
+      "QuoteId": 295,
+      "Description": "Robust object-oriented info-mediaries",
+      "Number": "1121411",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 316,
-      "SentDate": "2013-09-21T11:22:38.9301893+02:00",
-      "FollowupId": 446,
-      "ExpirationDate": "2003-02-19T11:22:38.9301893+01:00",
-      "DeliveryCountryId": 936,
+      "LikelyQuoteAlternativeId": 239,
+      "SentDate": "2002-11-12T12:15:19.9587378+01:00",
+      "FollowupId": 527,
+      "ExpirationDate": "2014-09-04T12:15:19.9587378+02:00",
+      "DeliveryCountryId": 880,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 669,
+      "InvoiceCountryId": 61,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "consectetur",
-      "ERPPaymentTypeKey": "beatae",
-      "ERPDeliveryTermsKey": "asperiores",
-      "ERPDeliveryTypeKey": "quod",
-      "Rank": 321,
-      "ApprovedBy": 196,
-      "ApprovedText": "et",
-      "ApprovedRegisteredBy": 209,
-      "ApprovedRegisteredDate": "1997-10-13T11:22:38.9301893+02:00",
-      "ExtraField1": "iste",
-      "ExtraField2": "enim",
-      "ExtraField3": "veniam",
-      "ExtraField4": "ratione",
-      "ExtraField5": "eum",
-      "LastRecalculated": "2004-02-18T11:22:38.9301893+01:00",
-      "Updated": "1998-04-10T11:22:38.9301893+02:00",
-      "UpdatedAssociateId": 941,
-      "Registered": "2005-12-11T11:22:38.9301893+01:00",
-      "RegisteredAssociateId": 478,
-      "RequestAssociateId": 395,
-      "RequestComment": "ut",
+      "ERPPaymentTermsKey": "maxime",
+      "ERPPaymentTypeKey": "in",
+      "ERPDeliveryTermsKey": "esse",
+      "ERPDeliveryTypeKey": "error",
+      "Rank": 468,
+      "ApprovedBy": 379,
+      "ApprovedText": "quia",
+      "ApprovedRegisteredBy": 42,
+      "ApprovedRegisteredDate": "2021-09-16T12:15:19.9587378+02:00",
+      "ExtraField1": "ut",
+      "ExtraField2": "vero",
+      "ExtraField3": "aliquid",
+      "ExtraField4": "tempora",
+      "ExtraField5": "deleniti",
+      "LastRecalculated": "2021-07-08T12:15:19.9587378+02:00",
+      "Updated": "2020-09-12T12:15:19.9587378+02:00",
+      "UpdatedAssociateId": 749,
+      "Registered": "2008-06-03T12:15:19.9587378+02:00",
+      "RegisteredAssociateId": 205,
+      "RequestAssociateId": 627,
+      "RequestComment": "accusamus",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 415
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 854
     }
   }
 }

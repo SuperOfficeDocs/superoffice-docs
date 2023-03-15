@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 242,
-  "Name": "Heaney-Borer",
-  "Description": "Function-based global alliance",
-  "DefaultHeight": 226,
-  "DefaultWidth": 4,
+  "DashboardTileDefinitionId": 83,
+  "Name": "Schamberger Group",
+  "Description": "Fundamental 4th generation encoding",
+  "DefaultHeight": 413,
+  "DefaultWidth": 502,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Hara Group",
-  "SelectionId": 902,
+  "EntityName": "Krajcik LLC",
+  "SelectionId": 376,
   "CurrencyMode": "Base",
-  "CurrencyCode": "quod",
+  "CurrencyCode": "omnis",
   "Measure": "Average",
-  "MeasureField": "earum",
-  "SortBy": "sint",
-  "LayoutConfig": "vero",
-  "SecondarySelectionId": 372,
-  "MeasureByField": "consequatur",
+  "MeasureField": "et",
+  "SortBy": "qui",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 170,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Parisian LLC",
+  "ProviderName": "Veum Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 148
+  "PersonId": 628
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 538,
+    "ConsentPersonId": 331,
     "Comment": "nesciunt",
-    "Registered": "2013-09-03T11:22:38.7271093+02:00",
-    "RegisteredAssociateId": 880,
-    "Updated": "1998-11-27T11:22:38.7271093+01:00",
-    "UpdatedAssociateId": 754,
-    "LegalBaseId": 863,
-    "LegalBaseKey": "velit",
-    "LegalBaseName": "Haag LLC",
-    "ConsentPurposeId": 192,
-    "ConsentPurposeKey": "deleniti",
-    "ConsentPurposeName": "Parisian, Lowe and Rosenbaum",
-    "ConsentSourceId": 225,
-    "ConsentSourceKey": "mollitia",
-    "ConsentSourceName": "Cruickshank-Nicolas",
+    "Registered": "2018-01-31T12:15:19.696741+01:00",
+    "RegisteredAssociateId": 591,
+    "Updated": "1999-12-06T12:15:19.696741+01:00",
+    "UpdatedAssociateId": 305,
+    "LegalBaseId": 341,
+    "LegalBaseKey": "assumenda",
+    "LegalBaseName": "Smith-Hills",
+    "ConsentPurposeId": 682,
+    "ConsentPurposeKey": "porro",
+    "ConsentPurposeName": "Ernser Group",
+    "ConsentSourceId": 70,
+    "ConsentSourceKey": "exercitationem",
+    "ConsentSourceName": "Schoen Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldLength": 380
       }
     }
   }

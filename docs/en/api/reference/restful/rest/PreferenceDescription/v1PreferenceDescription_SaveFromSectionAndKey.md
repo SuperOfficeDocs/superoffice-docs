@@ -101,28 +101,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 338,
-  "Section": "mollitia",
-  "Key": "minus",
-  "Name": "Parisian-Williamson",
+  "PrefDescId": 796,
+  "Section": "illo",
+  "Key": "in",
+  "Name": "Hegmann, Koch and Rogahn",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Sharable dynamic circuit",
+  "Description": "Profit-focused context-sensitive internet solution",
   "IsBuiltin": false,
-  "TableName": "Huels-Abernathy",
-  "UserDefinedListId": 341,
-  "Rank": 84,
-  "SubGroup": "ex",
-  "MinLevel": 705,
-  "MaxValue": 832,
-  "MinValue": 917,
-  "RequiredLicense": "quidem"
+  "TableName": "Turner, Cassin and Jast",
+  "UserDefinedListId": 398,
+  "Rank": 153,
+  "SubGroup": "vel",
+  "MinLevel": 667,
+  "MaxValue": 480,
+  "MinValue": 323,
+  "RequiredLicense": "et"
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 295,
-  "Section": "sit",
-  "Key": "et",
-  "Name": "Kunde Group",
+  "PrefDescId": 990,
+  "Section": "et",
+  "Key": "quia",
+  "Name": "Walker LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive transitional product",
-  "IsBuiltin": true,
-  "TableName": "Koch Group",
-  "UserDefinedListId": 868,
-  "Rank": 583,
-  "SubGroup": "aut",
-  "MinLevel": 208,
-  "MaxValue": 161,
-  "MinValue": 521,
-  "RequiredLicense": "earum",
+  "Description": "Implemented global capability",
+  "IsBuiltin": false,
+  "TableName": "Dare Inc and Sons",
+  "UserDefinedListId": 49,
+  "Rank": 617,
+  "SubGroup": "recusandae",
+  "MinLevel": 52,
+  "MaxValue": 457,
+  "MinValue": 352,
+  "RequiredLicense": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

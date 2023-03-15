@@ -25,7 +25,7 @@ Gets a LanguageInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=889
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=14
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 757,
-  "LCID": 132,
-  "EnglishName": "Feeney Inc and Sons",
-  "NativeName": "Herman-Cummerata",
-  "ThreeLetterISOLanguageName": "Sauer, Gutkowski and Jones",
-  "TwoLetterISOLanguageName": "Schimmel-Jenkins",
+  "LanguageInfoId": 565,
+  "LCID": 561,
+  "EnglishName": "Fritsch-Crona",
+  "NativeName": "Kutch LLC",
+  "ThreeLetterISOLanguageName": "Morar-Kuhic",
+  "TwoLetterISOLanguageName": "Wisoky-Wiza",
   "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 719,
-  "Name": "Zemlak Group",
-  "AssociateId": 310,
-  "DetailsTable": 139,
-  "DetailsRecord": 841,
+  "Id": 285,
+  "Name": "Tillman Inc and Sons",
+  "AssociateId": 155,
+  "DetailsTable": 514,
+  "DetailsRecord": 200,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "dicta",
-    "ParameterObject2": "consequatur"
+    "ParameterObject1": "autem",
+    "ParameterObject2": "rem"
   },
-  "LastStarted": "2004-02-15T11:22:45.3817553+01:00",
-  "Created": "2008-03-29T11:22:45.3817553+01:00",
-  "StartCount": 317,
-  "DatabaseSerialNumber": "1295643",
-  "Context": "molestiae",
-  "Result": "assumenda",
+  "LastStarted": "1996-05-10T12:15:27.5986265+02:00",
+  "Created": "2002-03-30T12:15:27.5986265+01:00",
+  "StartCount": 91,
+  "DatabaseSerialNumber": "1084640",
+  "Context": "culpa",
+  "Result": "itaque",
   "State": "All",
-  "Description": "Programmable real-time database",
-  "Response": "ea",
-  "Request": "omnis",
-  "ProgressDescription": "Team-oriented discrete neural-net",
-  "ProgressPercent": 308,
-  "FileName": "Blanda-Bashirian",
+  "Description": "Synchronised heuristic time-frame",
+  "Response": "ipsa",
+  "Request": "rem",
+  "ProgressDescription": "Object-based bottom-line support",
+  "ProgressPercent": 811,
+  "FileName": "Bernhard, Marquardt and Gibson",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

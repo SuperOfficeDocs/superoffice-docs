@@ -133,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "culpa",
+    "path": "minima",
     "value": {}
   },
   {
     "op": "add",
-    "path": "culpa",
+    "path": "minima",
     "value": {}
   }
 ]
@@ -151,38 +151,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 476,
-  "PlainMessage": "id",
-  "HtmlMessage": "cumque",
-  "SmsMessage": "ipsum",
-  "Description": "Digitized 24/7 emulation",
-  "Subject": "aliquam",
-  "FolderId": 480,
-  "HeaderField": "officia",
-  "Design": "sunt",
+  "ShipmentMessageId": 284,
+  "PlainMessage": "velit",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "culpa",
+  "Description": "Cross-group mobile hub",
+  "Subject": "neque",
+  "FolderId": 758,
+  "HeaderField": "unde",
+  "Design": "quae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Multi-lateral static focus group",
-  "AccessKey": "velit",
-  "DocumentMessage": 876,
-  "Registered": "2000-06-24T11:22:45.225579+02:00",
-  "RegisteredAssociateId": 715,
-  "Updated": "2003-12-26T11:22:45.225579+01:00",
-  "UpdatedAssociateId": 808,
-  "UpdatedCount": 129,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Optional real-time parallelism",
+  "AccessKey": "excepturi",
+  "DocumentMessage": 14,
+  "Registered": "1999-04-11T12:15:27.4016314+02:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "2003-11-06T12:15:27.4016314+01:00",
+  "UpdatedAssociateId": 853,
+  "UpdatedCount": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 948
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

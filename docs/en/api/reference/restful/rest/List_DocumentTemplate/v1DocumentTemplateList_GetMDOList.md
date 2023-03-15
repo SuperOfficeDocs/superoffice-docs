@@ -26,7 +26,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
+GET /api/v1/List/DocumentTemplate/MDOItems?query=ullam
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Turcotte, Ratke and Schamberger",
-    "ToolTip": "Mollitia molestias et qui mollitia non.",
+    "Id": 636,
+    "Name": "Zulauf Inc and Sons",
+    "ToolTip": "Et suscipit voluptatem veniam.",
     "Deleted": false,
-    "Rank": 996,
-    "Type": "quidem",
+    "Rank": 955,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Lockman-Jaskolski",
-        "ToolTip": "Ut ut incidunt recusandae consequatur explicabo.",
-        "Deleted": false,
-        "Rank": 560,
-        "Type": "fuga",
+        "Id": 152,
+        "Name": "Christiansen LLC",
+        "ToolTip": "In saepe asperiores sed voluptas similique provident.",
+        "Deleted": true,
+        "Rank": 1002,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 264,
-        "ExtraInfo": "facilis",
-        "StyleHint": "sequi",
-        "FullName": "Dr. Helena Davonte Pfannerstill V",
+        "IconHint": "sunt",
+        "ColorBlock": 88,
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "perspiciatis",
+        "FullName": "Litzy Heidenreich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 124
+            "FieldLength": 977
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 291,
-    "ExtraInfo": "natus",
-    "StyleHint": "odio",
-    "FullName": "Jarod McKenzie",
+    "IconHint": "vitae",
+    "ColorBlock": 632,
+    "ExtraInfo": "aut",
+    "StyleHint": "atque",
+    "FullName": "Mrs. Alicia Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldType": "System.Int32",
+        "FieldLength": 499
       }
     }
   }

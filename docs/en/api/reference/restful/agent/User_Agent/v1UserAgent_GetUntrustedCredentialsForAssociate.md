@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 394,
-  "Type": "ex"
+  "AssociateId": 646,
+  "Type": "aut"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2007-06-12T11:22:39.6487731+02:00",
-    "ValidTo": "2001-05-01T11:22:39.6487731+02:00",
-    "Comment": "ea",
-    "SecretValue": "sit",
-    "PublicValue": "autem",
+    "ValidFrom": "2015-03-10T12:15:20.6007357+01:00",
+    "ValidTo": "2015-04-29T12:15:20.6007357+02:00",
+    "Comment": "sit",
+    "SecretValue": "ut",
+    "PublicValue": "nesciunt",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 307
       }
     }
   }

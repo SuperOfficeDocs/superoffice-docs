@@ -80,24 +80,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 66,
-  "Name": "Ledner Group",
-  "Tooltip": "asperiores",
+  "RoleId": 482,
+  "Name": "Olson-Mertz",
+  "Tooltip": "assumenda",
   "RoleType": "Anonymous",
-  "Deleted": 31,
-  "Rank": 946,
-  "Created": "2010-05-05T11:22:39.5862974+02:00",
-  "UseCategories": 779,
+  "Deleted": 964,
+  "Rank": 175,
+  "Created": "2014-02-14T12:15:20.5287292+01:00",
+  "UseCategories": 69,
   "CreatedBy": null,
-  "Updated": "2001-05-12T11:22:39.5862974+02:00",
+  "Updated": "2020-05-12T12:15:20.5297314+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldType": "System.Int32",
+      "FieldLength": 679
     }
   }
 }

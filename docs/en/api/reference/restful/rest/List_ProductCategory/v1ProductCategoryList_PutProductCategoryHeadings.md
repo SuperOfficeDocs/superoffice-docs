@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 332,
-    "Name": "Smitham-Buckridge",
-    "Tooltip": "modi",
+    "HeadingId": 967,
+    "Name": "Larkin, Grimes and O'Keefe",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 14,
-    "UdListDefinitionId": 38
+    "Rank": 624,
+    "UdListDefinitionId": 982
   },
   {
-    "HeadingId": 332,
-    "Name": "Smitham-Buckridge",
-    "Tooltip": "modi",
+    "HeadingId": 967,
+    "Name": "Larkin, Grimes and O'Keefe",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 14,
-    "UdListDefinitionId": 38
+    "Rank": 624,
+    "UdListDefinitionId": 982
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 691,
-    "Name": "Leuschke, Pollich and Turner",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 523,
+    "HeadingId": 94,
+    "Name": "Hermiston LLC",
+    "Tooltip": "inventore",
+    "Deleted": true,
+    "Rank": 498,
+    "UdListDefinitionId": 740,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 334
       }
     }
   }

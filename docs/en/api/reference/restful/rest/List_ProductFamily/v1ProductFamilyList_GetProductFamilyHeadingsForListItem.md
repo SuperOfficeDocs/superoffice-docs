@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Pollich LLC",
-    "ToolTip": "Dolor quia sed nam et rerum.",
-    "Deleted": false,
-    "Rank": 33,
-    "Type": "exercitationem",
-    "ColorBlock": 64,
-    "IconHint": "nobis",
-    "Selected": false,
-    "LastChanged": "1997-08-11T11:22:46.0379014+02:00",
+    "Id": 201,
+    "Name": "McLaughlin LLC",
+    "ToolTip": "Ratione similique beatae asperiores aliquam hic.",
+    "Deleted": true,
+    "Rank": 305,
+    "Type": "quia",
+    "ColorBlock": 453,
+    "IconHint": "dolorum",
+    "Selected": true,
+    "LastChanged": "2003-01-23T12:15:28.3026234+01:00",
     "ChildItems": [
       {
-        "Id": 788,
-        "Name": "Schinner, Schroeder and Carter",
-        "ToolTip": "Inventore dicta sed fugiat iste vero.",
-        "Deleted": true,
-        "Rank": 519,
-        "Type": "voluptatum",
-        "ColorBlock": 306,
-        "IconHint": "sapiente",
-        "Selected": false,
-        "LastChanged": "2011-02-27T11:22:46.0379014+01:00",
+        "Id": 130,
+        "Name": "Bednar, Stoltenberg and Walter",
+        "ToolTip": "Maiores officiis aut aperiam culpa.",
+        "Deleted": false,
+        "Rank": 423,
+        "Type": "neque",
+        "ColorBlock": 286,
+        "IconHint": "fugit",
+        "Selected": true,
+        "LastChanged": "2001-12-20T12:15:28.3036187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Mr. Reuben Toy",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Bonita Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 840
+            "FieldLength": 719
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "est",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "fugit",
     "Hidden": true,
-    "FullName": "Katelin Mueller II",
+    "FullName": "Molly Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 947
       }
     }
   }

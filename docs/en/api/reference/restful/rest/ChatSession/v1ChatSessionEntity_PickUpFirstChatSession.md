@@ -86,7 +86,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 470,
-  "TopicId": 51,
+  "ChatSessionId": 6,
+  "TopicId": 848,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "aperiam",
-  "CustomerName": "Conroy-Pfeffer",
-  "CustomerEmail": "gavin@abbott.biz",
-  "CustomerPhone": "(275)986-6204 x21529",
+  "CustomerAlias": "et",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Sawayn, Osinski and Trantow",
+  "CustomerEmail": "jakayla_johnson@morissette.info",
+  "CustomerPhone": "827-904-5109 x1138",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Satterfield Group",
+  "CustomerCompanyName": "Stamm, Rau and Hahn",
   "Status": "Closed",
-  "FirstMessage": "ut",
-  "LastMessage": "enim",
-  "WhenRequested": "2008-12-30T11:22:44.3976587+01:00",
-  "WhenStarted": "2007-05-07T11:22:44.3976587+02:00",
-  "WhenEnded": "2021-10-12T11:22:44.3976587+02:00",
-  "WhenIdle": "1997-07-17T11:22:44.3976587+02:00",
-  "WhenFetched": "1999-08-13T11:22:44.3976587+02:00",
-  "SessionKey": "illo",
-  "InitialQueuePos": 239,
-  "AlertLevel": 696,
-  "Rank": 172,
+  "FirstMessage": "illo",
+  "LastMessage": "praesentium",
+  "WhenRequested": "2018-07-31T12:15:26.4976424+02:00",
+  "WhenStarted": "2007-03-23T12:15:26.4976424+01:00",
+  "WhenEnded": "2000-08-25T12:15:26.4976424+02:00",
+  "WhenIdle": "2020-01-17T12:15:26.4976424+01:00",
+  "WhenFetched": "2009-04-15T12:15:26.4976424+02:00",
+  "SessionKey": "porro",
+  "InitialQueuePos": 121,
+  "AlertLevel": 285,
+  "Rank": 455,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 267,
+  "ChatbotIsActive": true,
+  "Rating": 285,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 980
     }
   }
 }

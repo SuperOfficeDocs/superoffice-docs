@@ -92,12 +92,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 264,
-  "Name": "Lind, Goodwin and Schuppe",
-  "Config": "vel",
-  "Rank": 421,
-  "Client": "est",
-  "Style": "quidem"
+  "DashboardThemeId": 767,
+  "Name": "Reilly, Rodriguez and Gleason",
+  "Config": "eveniet",
+  "Rank": 403,
+  "Client": "quos",
+  "Style": "et"
 }
 ```
 
@@ -108,18 +108,18 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 488,
-  "Name": "Hudson Group",
-  "Config": "quos",
-  "Rank": 262,
-  "Client": "est",
-  "Style": "asperiores",
+  "DashboardThemeId": 889,
+  "Name": "Zieme-Keebler",
+  "Config": "quas",
+  "Rank": 770,
+  "Client": "at",
+  "Style": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 750
     }
   },
   "_Links": {

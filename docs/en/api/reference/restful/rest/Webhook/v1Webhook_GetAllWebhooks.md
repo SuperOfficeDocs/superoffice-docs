@@ -28,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=quis
-GET /api/v1/Webhook?eventFilter=et
+GET /api/v1/Webhook?nameFilter=similique
+GET /api/v1/Webhook?eventFilter=rerum
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 53,
-    "Name": "Shanahan Group",
+    "WebhookId": 507,
+    "Name": "Pfannerstill, Mosciski and Lemke",
     "Events": [
-      "tempora",
-      "quaerat"
+      "officia",
+      "voluptas"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "error",
+    "Secret": "eaque",
     "State": "Active",
-    "Type": "hic",
+    "Type": "dolorem",
     "Headers": {
-      "Headers1": "et",
-      "Headers2": "iure"
+      "Headers1": "natus",
+      "Headers2": "odit"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1998-07-19T11:22:45.5379661+02:00",
+    "Registered": "2021-05-01T12:15:27.8076236+02:00",
     "RegisteredAssociate": null,
-    "Updated": "1995-12-13T11:22:45.5379661+01:00",
+    "Updated": "2006-07-29T12:15:27.8076236+02:00",
     "UpdatedAssociate": null
   }
 ]

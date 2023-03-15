@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 307,
-  "UniqueId": "quidem",
-  "Name": "McClure-Crist",
-  "Description": "Programmable context-sensitive model",
-  "AssociateId": 18,
-  "Columns": 520,
+  "DashboardId": 483,
+  "UniqueId": "qui",
+  "Name": "Torphy-Kassulke",
+  "Description": "Persistent heuristic complexity",
+  "AssociateId": 193,
+  "Columns": 112,
   "Theme": null,
-  "VisibleForAll": 348,
+  "VisibleForAll": 140,
   "VisibleForAssociates": [
-    151,
-    900
+    338,
+    327
   ],
   "VisibleForGroups": [
-    580,
-    214
+    432,
+    972
   ],
-  "PinForAll": 966,
+  "PinForAll": 997,
   "PinForAssociates": [
-    37,
-    65
+    164,
+    151
   ],
   "PinForGroups": [
-    690,
-    290
+    712,
+    575
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

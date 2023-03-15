@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 437,
-  "Name": "Stark LLC",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "UdListDefinitionId": 182,
-  "Rank": 597,
+  "Id": 154,
+  "Name": "Larson-Wunsch",
+  "Tooltip": "at",
+  "Deleted": false,
+  "UdListDefinitionId": 568,
+  "Rank": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldLength": 366
     }
   }
 }

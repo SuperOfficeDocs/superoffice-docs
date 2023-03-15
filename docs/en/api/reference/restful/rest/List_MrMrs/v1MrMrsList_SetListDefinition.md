@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "Name": "Eichmann LLC",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 422,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "Id": 380,
+  "Name": "Toy-Gulgowski",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 221,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Gleichner, Gleichner and Renner",
-  "Tooltip": "eaque",
+  "Id": 170,
+  "Name": "Fritsch, Lang and Becker",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 545,
+  "Rank": 951,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "earum",
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

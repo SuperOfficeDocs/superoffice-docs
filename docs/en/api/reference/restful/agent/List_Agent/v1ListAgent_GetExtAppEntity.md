@@ -25,7 +25,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=496
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=291
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 427,
-  "Name": "Purdy Group",
-  "Tooltip": "autem",
+  "ExtAppId": 808,
+  "Name": "Tillman, Fritsch and Okuneva",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 238,
-  "Filename": "beatae",
+  "Rank": 526,
+  "Filename": "qui",
   "Parameters": "et",
-  "Workdir": "et",
+  "Workdir": "minima",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 747,
-  "WaitToFinish": true,
+  "ShowInStatusBar": true,
+  "Icon": 77,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ipsum",
+  "Path": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldType": "System.String",
+      "FieldLength": 923
     }
   }
 }

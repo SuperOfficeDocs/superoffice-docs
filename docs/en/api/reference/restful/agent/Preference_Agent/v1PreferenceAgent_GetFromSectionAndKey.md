@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "occaecati",
-  "Key": "laudantium"
+  "Section": "quibusdam",
+  "Key": "eos"
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 133,
-  "Section": "sunt",
-  "Key": "facilis",
-  "Name": "O'Hara-Nader",
+  "PrefDescId": 225,
+  "Section": "illum",
+  "Key": "adipisci",
+  "Name": "Jacobs LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Managed uniform concept",
-  "IsBuiltin": true,
-  "TableName": "Cassin-Kemmer",
-  "UserDefinedListId": 756,
-  "Rank": 197,
-  "SubGroup": "dolorem",
-  "MinLevel": 2,
-  "MaxValue": 107,
-  "MinValue": 520,
-  "RequiredLicense": "autem",
+  "Description": "Stand-alone exuding help-desk",
+  "IsBuiltin": false,
+  "TableName": "Watsica-Paucek",
+  "UserDefinedListId": 81,
+  "Rank": 38,
+  "SubGroup": "vitae",
+  "MinLevel": 675,
+  "MaxValue": 232,
+  "MinValue": 543,
+  "RequiredLicense": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldLength": 987
     }
   }
 }

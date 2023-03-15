@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Terry-Wolff",
-    "ToolTip": "Velit et maxime est ullam sed voluptas.",
+    "Id": 177,
+    "Name": "Bradtke, Tillman and Marvin",
+    "ToolTip": "Optio officiis omnis quasi expedita quis non.",
     "Deleted": false,
-    "Rank": 53,
-    "Type": "suscipit",
-    "ColorBlock": 826,
-    "IconHint": "perspiciatis",
+    "Rank": 516,
+    "Type": "sunt",
+    "ColorBlock": 117,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "1997-11-06T11:22:45.9129207+01:00",
+    "LastChanged": "1996-06-24T12:15:28.1516187+02:00",
     "ChildItems": [
       {
-        "Id": 514,
-        "Name": "Brown-Nienow",
-        "ToolTip": "Dignissimos doloribus et nihil aspernatur vero necessitatibus non.",
-        "Deleted": false,
-        "Rank": 115,
-        "Type": "nihil",
-        "ColorBlock": 847,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2016-03-28T11:22:45.9129207+02:00",
+        "Id": 865,
+        "Name": "O'Keefe, Mills and Little",
+        "ToolTip": "Porro sed esse et earum delectus dolor consequatur.",
+        "Deleted": true,
+        "Rank": 744,
+        "Type": "esse",
+        "ColorBlock": 592,
+        "IconHint": "repudiandae",
+        "Selected": false,
+        "LastChanged": "2018-10-21T12:15:28.1526193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "magni",
+        "ExtraInfo": "porro",
+        "StyleHint": "blanditiis",
         "Hidden": true,
-        "FullName": "Ms. Alda Cronin DVM"
+        "FullName": "Billie Aileen Smith I"
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "ut",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Bridgette Wuckert IV"
+    "FullName": "Sadye Dare"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Pagac-Kulas",
-    "ToolTip": "Et alias ut corrupti aliquam quia sunt officia.",
-    "Deleted": false,
-    "Rank": 380,
-    "Type": "et",
-    "ColorBlock": 669,
-    "IconHint": "praesentium",
+    "Id": 206,
+    "Name": "Barton, Mosciski and O'Hara",
+    "ToolTip": "Tempore illum aut.",
+    "Deleted": true,
+    "Rank": 994,
+    "Type": "voluptatum",
+    "ColorBlock": 303,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2004-06-17T11:22:45.9129207+02:00",
+    "LastChanged": "2003-07-24T12:15:28.1546184+02:00",
     "ChildItems": [
       {
-        "Id": 830,
-        "Name": "Koch-Romaguera",
-        "ToolTip": "Ea eaque doloribus nesciunt.",
-        "Deleted": true,
-        "Rank": 788,
-        "Type": "est",
-        "ColorBlock": 115,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2009-10-16T11:22:45.9129207+02:00",
+        "Id": 95,
+        "Name": "Hoeger Inc and Sons",
+        "ToolTip": "Quaerat nesciunt iusto sapiente optio tempora qui sit.",
+        "Deleted": false,
+        "Rank": 130,
+        "Type": "recusandae",
+        "ColorBlock": 806,
+        "IconHint": "iste",
+        "Selected": false,
+        "LastChanged": "2015-07-11T12:15:28.1546184+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "enim",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Winona Harris",
+        "FullName": "Arielle Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 808
+            "FieldType": "System.Int32",
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "quia",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Amiya Gutmann",
+    "FullName": "Xavier Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 844
       }
     }
   }

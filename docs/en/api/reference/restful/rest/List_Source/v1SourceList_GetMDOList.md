@@ -26,7 +26,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=aspernatur
+GET /api/v1/List/Source/MDOItems?query=consectetur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 102,
-    "Name": "Ondricka-Stoltenberg",
-    "ToolTip": "Ea fugiat voluptas ea assumenda.",
+    "Id": 419,
+    "Name": "Kerluke-Walter",
+    "ToolTip": "Quis incidunt voluptatem ut.",
     "Deleted": false,
-    "Rank": 534,
-    "Type": "nihil",
+    "Rank": 216,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Hartmann-Pollich",
-        "ToolTip": "Voluptas ab.",
+        "Id": 119,
+        "Name": "West Group",
+        "ToolTip": "Laudantium accusamus officiis qui molestias expedita aut.",
         "Deleted": false,
-        "Rank": 959,
-        "Type": "dolorem",
+        "Rank": 380,
+        "Type": "dolor",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 439,
-        "ExtraInfo": "eos",
-        "StyleHint": "ratione",
-        "FullName": "Miss Armando Kassulke",
+        "IconHint": "aut",
+        "ColorBlock": 339,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "deserunt",
+        "FullName": "Dr. Ruby Schiller Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 64
+            "FieldType": "System.String",
+            "FieldLength": 612
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 118,
-    "ExtraInfo": "qui",
-    "StyleHint": "doloribus",
-    "FullName": "Kellen Batz",
+    "IconHint": "tempore",
+    "ColorBlock": 593,
+    "ExtraInfo": "beatae",
+    "StyleHint": "soluta",
+    "FullName": "Alvera Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 789
+        "FieldLength": 908
       }
     }
   }

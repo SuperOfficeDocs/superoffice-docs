@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    378,
-    742
+    995,
+    229
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 537,
-    "MessageId": "dignissimos",
-    "Subject": "molestiae",
+    "ServerId": 277,
+    "MessageId": "omnis",
+    "Subject": "aut",
     "From": null,
     "To": [
       {
-        "ContactId": 576,
-        "ContactName": "Glover, Morar and Hauck",
-        "PersonId": 136,
-        "PersonName": "Gibson Group",
-        "AssociateId": 635,
-        "Address": "culpa",
-        "EmailId": 129,
+        "ContactId": 571,
+        "ContactName": "Abbott-Stiedemann",
+        "PersonId": 707,
+        "PersonName": "Hodkiewicz, Satterfield and Murazik",
+        "AssociateId": 581,
+        "Address": "totam",
+        "EmailId": 869,
         "DuplicatePersonIds": [
-          52,
-          184
+          228,
+          741
         ],
-        "Name": "Kovacek, Goodwin and Mertz",
+        "Name": "Ebert-West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 629
           }
         }
       }
     ],
-    "Sent": "2007-07-02T11:22:38.2740943+02:00",
+    "Sent": "2022-05-24T12:15:19.0387507+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 203,
+    "Size": 939,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 293
+        "FieldLength": 949
       }
     }
   }

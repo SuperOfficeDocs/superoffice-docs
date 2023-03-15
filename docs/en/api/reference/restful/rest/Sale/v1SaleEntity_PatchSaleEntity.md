@@ -150,18 +150,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "inventore",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "inventore",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "qui",
+  "SaleText": "quos",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -189,113 +189,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2008-06-08T11:22:45.1631025+02:00",
-  "Amount": 4722.938,
-  "SaleId": 619,
-  "Earning": 18756.989999999998,
-  "EarningPercent": 26313.064,
-  "Heading": "nulla",
-  "Number": "405562",
-  "Probability": 100,
-  "CreatedDate": "2021-12-30T11:22:45.1631025+01:00",
-  "UpdatedDate": "2004-10-03T11:22:45.1631025+02:00",
+  "Saledate": "2007-04-14T12:15:27.3266303+02:00",
+  "Amount": 1886.668,
+  "SaleId": 157,
+  "Earning": 24053.45,
+  "EarningPercent": 5493.902,
+  "Heading": "voluptatum",
+  "Number": "789242",
+  "Probability": 776,
+  "CreatedDate": "2010-07-25T12:15:27.3266303+02:00",
+  "UpdatedDate": "2003-10-11T12:15:27.3266303+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 160,
+  "ActiveLinks": 544,
   "Links": [
     {
-      "EntityName": "Collier, Considine and Haley",
-      "Id": 700,
-      "Description": "Realigned bandwidth-monitored portal",
-      "ExtraInfo": "eos",
-      "LinkId": 309,
+      "EntityName": "Ondricka, Schroeder and Leannon",
+      "Id": 102,
+      "Description": "Open-source context-sensitive encoding",
+      "ExtraInfo": "delectus",
+      "LinkId": 759,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldLength": 416
         }
       }
     }
   ],
-  "NextDueDate": "2022-05-23T11:22:45.1631025+02:00",
-  "Postit": "architecto",
+  "NextDueDate": "2005-10-16T12:15:27.3276305+02:00",
+  "Postit": "perspiciatis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2008-08-24T11:22:45.1631025+02:00",
+  "ReopenDate": "2009-09-11T12:15:27.3276305+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gutmann Inc and Sons",
-      "Comment": "inventore",
-      "StakeholderRoleId": 752,
-      "CountryId": 122,
-      "PersonId": 569,
-      "EmailDescription": "maddison@toy.name",
-      "EmailId": 968,
-      "EmailAddress": "johathan@hamill.com",
-      "PhoneId": 729,
-      "ContactName": "Schneider Group",
-      "ContactId": 956,
-      "SaleId": 274,
-      "Mrmrs": "nesciunt",
-      "Firstname": "Emilio",
-      "MiddleName": "Schaefer Group",
-      "Lastname": "Wisoky",
-      "SaleStakeholderId": 52,
-      "Rank": 54,
-      "Phone": "638-778-7290 x03081",
+      "StakeholderRoleName": "Fay LLC",
+      "Comment": "et",
+      "StakeholderRoleId": 155,
+      "CountryId": 833,
+      "PersonId": 253,
+      "EmailDescription": "alec@lefflerswaniawski.us",
+      "EmailId": 903,
+      "EmailAddress": "scot@farrellzieme.us",
+      "PhoneId": 733,
+      "ContactName": "Kling, Rath and Raynor",
+      "ContactId": 679,
+      "SaleId": 75,
+      "Mrmrs": "rerum",
+      "Firstname": "Helen",
+      "MiddleName": "Waters LLC",
+      "Lastname": "Littel",
+      "SaleStakeholderId": 386,
+      "Rank": 437,
+      "Phone": "(592)621-0678",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 143
         }
       }
     }
   ],
-  "ActiveErpLinks": 429,
+  "ActiveErpLinks": 393,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Lois Jacquelyn Torphy DVM",
-    "SuperOffice:2": "Bernardo Little"
+    "SuperOffice:1": "1449058481",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "at"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "assumenda"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "ut"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2000-11-13T11:22:45.1631025+01:00",
-  "PublishTo": "2015-10-23T11:22:45.1631025+02:00",
-  "PublishFrom": "2007-06-10T11:22:45.1631025+02:00",
+  "PublishEventDate": "2010-09-10T12:15:27.3276305+02:00",
+  "PublishTo": "1997-10-26T12:15:27.3276305+01:00",
+  "PublishFrom": "2002-08-11T12:15:27.3276305+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 20,
+      "VisibleId": 183,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 994
         }
       }
     },
     {
-      "VisibleId": 20,
+      "VisibleId": 183,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 994
         }
       }
     }
@@ -305,7 +305,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 485
     }
   },
   "_Links": {

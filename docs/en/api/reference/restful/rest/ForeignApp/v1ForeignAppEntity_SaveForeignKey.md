@@ -82,18 +82,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rem",
-  "Value": "quia",
-  "RecordId": 231,
-  "CreatedDate": "2017-08-30T11:22:44.8818691+02:00",
-  "UpdatedDate": "1996-07-10T11:22:44.8818691+02:00",
-  "UpdatedBy": "labore",
-  "CreatedBy": "dolorum",
-  "TableName": "Cole-Will"
+  "Key": "consequuntur",
+  "Value": "atque",
+  "RecordId": 975,
+  "CreatedDate": "1998-05-10T12:15:26.9776352+02:00",
+  "UpdatedDate": "2020-02-17T12:15:26.9776352+01:00",
+  "UpdatedBy": "quam",
+  "CreatedBy": "expedita",
+  "TableName": "Turner Group"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aliquam",
-  "Value": "ut",
-  "RecordId": 928,
-  "CreatedDate": "2014-07-07T11:22:44.8818691+02:00",
-  "UpdatedDate": "2004-01-08T11:22:44.8818691+01:00",
-  "UpdatedBy": "vel",
-  "CreatedBy": "quisquam",
-  "TableName": "Murray, Hauck and Bogisich",
+  "Key": "mollitia",
+  "Value": "qui",
+  "RecordId": 737,
+  "CreatedDate": "2013-12-12T12:15:26.9786352+01:00",
+  "UpdatedDate": "1997-12-17T12:15:26.9786352+01:00",
+  "UpdatedBy": "nam",
+  "CreatedBy": "enim",
+  "TableName": "Strosin LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 525
     }
   }
 }

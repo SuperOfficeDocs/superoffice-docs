@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Daniel, Effertz and Bogisich"
+  "FunctionalRightName": "Bernhard-Christiansen"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Strosin Inc and Sons",
-    "ToolTip": "Eos id occaecati voluptatem.",
-    "Deleted": true,
-    "Rank": 211,
-    "Type": "ut",
+    "Id": 189,
+    "Name": "Anderson, Prohaska and McDermott",
+    "ToolTip": "Sapiente sapiente adipisci aut et aut quia est.",
+    "Deleted": false,
+    "Rank": 540,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Donnelly Inc and Sons",
-        "ToolTip": "Sit nemo a.",
-        "Deleted": false,
-        "Rank": 945,
-        "Type": "quia",
+        "Id": 440,
+        "Name": "Corwin Inc and Sons",
+        "ToolTip": "Dolore id.",
+        "Deleted": true,
+        "Rank": 128,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 736,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "similique",
-        "FullName": "Jaeden Barton",
+        "IconHint": "rem",
+        "ColorBlock": 981,
+        "ExtraInfo": "quia",
+        "StyleHint": "animi",
+        "FullName": "Tyrel Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldLength": 302
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 774,
-    "ExtraInfo": "est",
-    "StyleHint": "illum",
-    "FullName": "Camylle Pfannerstill",
+    "IconHint": "omnis",
+    "ColorBlock": 509,
+    "ExtraInfo": "quia",
+    "StyleHint": "debitis",
+    "FullName": "Mrs. Joesph Madilyn Bradtke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

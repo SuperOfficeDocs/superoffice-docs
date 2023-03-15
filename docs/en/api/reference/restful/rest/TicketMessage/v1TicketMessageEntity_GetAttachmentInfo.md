@@ -63,7 +63,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 829,
-    "Name": "Nikolaus, Brekke and Senger",
-    "ContentType": "asperiores",
-    "AttSize": 6,
-    "InlineImage": false,
-    "ContentId": "culpa",
+    "AttachmentId": 835,
+    "Name": "Gleason Group",
+    "ContentType": "distinctio",
+    "AttSize": 689,
+    "InlineImage": true,
+    "ContentId": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldLength": 509
       }
     }
   }

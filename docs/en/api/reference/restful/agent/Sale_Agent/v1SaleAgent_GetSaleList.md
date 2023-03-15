@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Koepp-Hermann",
-    "SaleDate": "2020-05-29T11:22:39.2425669+02:00",
-    "SaleId": 711,
-    "Probability": 157,
-    "Title": "sunt",
-    "Amount": 8674.912,
-    "Currency": "et",
-    "ProjectName": "Shields LLC",
-    "AssociateFullName": "Ms. Franco Laura Weber",
-    "Description": "Assimilated global migration",
+    "ContactName": "Kemmer LLC",
+    "SaleDate": "2011-03-12T12:15:20.0887369+01:00",
+    "SaleId": 111,
+    "Probability": 488,
+    "Title": "accusamus",
+    "Amount": 12630.02,
+    "Currency": "saepe",
+    "ProjectName": "Daugherty Inc and Sons",
+    "AssociateFullName": "Bulah Ratke",
+    "Description": "Centralized asynchronous synergy",
     "Status": "Lost",
-    "WeightedAmount": 15688.804,
-    "ProjectId": 951,
-    "EarningPercent": 28444.183999999997,
-    "Earning": 7618.754,
-    "ContactId": 794,
-    "AssociateId": 875,
-    "PersonId": 184,
-    "SaleTypeId": 666,
-    "SaleTypeName": "Skiles, Cummerata and Veum",
-    "PersonFullName": "Esperanza Jones",
+    "WeightedAmount": 5371.6759999999995,
+    "ProjectId": 638,
+    "EarningPercent": 27547.86,
+    "Earning": 416.822,
+    "ContactId": 598,
+    "AssociateId": 529,
+    "PersonId": 817,
+    "SaleTypeId": 106,
+    "SaleTypeName": "Dibbert-Padberg",
+    "PersonFullName": "Ms. Gus Jocelyn Bartoletti DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 132,
-    "NextDueDate": "2013-11-29T11:22:39.2425669+01:00",
-    "Number": "1199085",
+    "ActiveErpLinks": 383,
+    "NextDueDate": "2001-11-29T12:15:20.0887369+01:00",
+    "Number": "787331",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 26
       }
     }
   }

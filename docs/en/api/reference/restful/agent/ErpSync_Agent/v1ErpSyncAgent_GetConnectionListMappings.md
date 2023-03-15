@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 47
+  "ErpConnectionId": 57
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Pacocha-Prosacco",
+      "ErpListName": "Jakubowski Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "McCullough Inc and Sons",
-      "ErpFieldId": 854,
+      "ErpActorTypeName": "Jacobs, Hackett and Jakubowski",
+      "ErpFieldId": 215,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 551
+          "FieldType": "System.Int32",
+          "FieldLength": 566
         }
       }
     }
   ],
-  "ErpConnectionId": 622,
-  "ErpConnectionName": "Jacobi, Runolfsdottir and Hickle",
+  "ErpConnectionId": 874,
+  "ErpConnectionName": "Bogan Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

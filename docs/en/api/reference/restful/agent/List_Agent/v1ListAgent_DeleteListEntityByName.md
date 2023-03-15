@@ -67,7 +67,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lang, Harber and Rippin"
+  "Name": "Romaguera-Bayer"
 }
 ```
 

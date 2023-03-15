@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 436,
-    "Name": "Ward-Mante",
-    "Description": "Integrated 6th generation database",
+    "ProjectId": 192,
+    "Name": "Brekke-Gaylord",
+    "Description": "Grass-roots global contingency",
     "URL": "http://www.example.com/",
-    "Type": "qui",
-    "AssociateId": 699,
-    "AssociateFullName": "Prof. Kim Ortiz",
-    "TypeId": 512,
-    "Updated": "1997-07-25T11:22:38.8520826+02:00",
-    "StatusId": 62,
-    "Status": "laborum",
-    "TextId": 654,
-    "PublishTo": "2008-10-08T11:22:38.8520826+02:00",
-    "PublishFrom": "2014-04-16T11:22:38.8520826+02:00",
-    "IsPublished": true,
+    "Type": "aspernatur",
+    "AssociateId": 389,
+    "AssociateFullName": "Hyman Swift",
+    "TypeId": 523,
+    "Updated": "2021-06-01T12:15:19.8587394+02:00",
+    "StatusId": 782,
+    "Status": "repudiandae",
+    "TextId": 506,
+    "PublishTo": "1997-10-01T12:15:19.8587394+02:00",
+    "PublishFrom": "2012-02-09T12:15:19.8587394+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1016237",
-    "ActiveErpLinks": 322,
+    "ProjectNumber": "254521",
+    "ActiveErpLinks": 397,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 583
       }
     }
   }

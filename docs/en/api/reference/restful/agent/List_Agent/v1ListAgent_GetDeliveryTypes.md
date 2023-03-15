@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Value": "molestiae",
-    "Tooltip": "in",
+    "Id": 20,
+    "Value": "ratione",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 942
       }
     }
   },
   {
-    "Id": 21,
-    "Value": "molestiae",
-    "Tooltip": "in",
+    "Id": 20,
+    "Value": "ratione",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 942
       }
     }
   }

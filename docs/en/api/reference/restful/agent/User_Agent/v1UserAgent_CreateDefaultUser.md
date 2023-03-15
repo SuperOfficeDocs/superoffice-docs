@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 413,
-  "Name": "Carter, Hauck and Stehr",
-  "Rank": 265,
-  "Tooltip": "nostrum",
+  "AssociateId": 459,
+  "Name": "Reichert, Spinka and Hegmann",
+  "Rank": 45,
+  "Tooltip": "ex",
   "LicenseOwners": [
     {
-      "Name": "Jacobson-Kub",
-      "Description": "Cloned mission-critical moratorium",
+      "Name": "Conroy-Hessel",
+      "Description": "Mandatory logistical orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,13 +114,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 795
+          "FieldLength": 690
         }
       }
     },
     {
-      "Name": "Jacobson-Kub",
-      "Description": "Cloned mission-critical moratorium",
+      "Name": "Conroy-Hessel",
+      "Description": "Mandatory logistical orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 795
+          "FieldLength": 690
         }
       }
     }
@@ -143,110 +143,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "natus",
-      "Tooltip": "ut",
-      "Id": 8,
-      "Rank": 17,
-      "Deleted": true,
+      "Value": "aliquam",
+      "Tooltip": "explicabo",
+      "Id": 152,
+      "Rank": 975,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 493
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2004-06-01T11:22:39.6019187+02:00",
-  "Lastlogout": "2003-03-05T11:22:39.6019187+01:00",
-  "EjUserId": 513,
-  "RequestSignature": "officia",
+  "Lastlogin": "2014-06-27T12:15:20.5417359+02:00",
+  "Lastlogout": "2008-07-09T12:15:20.5417359+02:00",
+  "EjUserId": 321,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nemo",
-      "DisplayValue": "dicta",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 684
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "nemo",
-      "DisplayValue": "dicta",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 684
-        }
-      }
-    }
-  ],
-  "UserName": "Stanton, Gorczany and Rippin",
-  "TicketCategories": [
-    {
-      "Id": 265,
-      "Name": "Cartwright-D'Amore",
-      "ToolTip": "Sed cum ut id repudiandae nihil consequuntur molestiae.",
-      "Deleted": true,
-      "Rank": 430,
-      "Type": "minus",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "amet",
-      "ColorBlock": 931,
-      "ExtraInfo": "ratione",
-      "StyleHint": "ducimus",
-      "FullName": "Mrs. Darrick Ashley Quitzon",
+      "Value": "numquam",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 608
+          "FieldLength": 787
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "numquam",
+      "DisplayValue": "saepe",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 787
         }
       }
     }
   ],
-  "NickName": "Cartwright LLC",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "dolorem"
-  },
-  "CustomFields": {
-    "CustomFields1": "dolore",
-    "CustomFields2": "sed"
-  },
-  "PostSaveCommands": [
+  "UserName": "Gutmann, Satterfield and Powlowski",
+  "TicketCategories": [
     {
-      "Name": "Kiehn-Pagac",
-      "DisplayName": "Rogahn, Hoppe and Lebsack",
-      "Description": "Stand-alone next generation utilisation",
-      "ToolTip": "Sint eos molestiae impedit vel perferendis sunt.",
-      "Actions": "Implicit",
-      "ActionData": "perferendis",
+      "Id": 885,
+      "Name": "Stokes, Rice and Crona",
+      "ToolTip": "Incidunt hic eos.",
+      "Deleted": false,
+      "Rank": 687,
+      "Type": "cupiditate",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "aut",
+      "ColorBlock": 847,
+      "ExtraInfo": "ut",
+      "StyleHint": "accusantium",
+      "FullName": "Stephanie Grimes IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 622
+        }
+      }
+    }
+  ],
+  "NickName": "Bauch-Leuschke",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "numquam"
+  },
+  "CustomFields": {
+    "CustomFields1": "placeat",
+    "CustomFields2": "beatae"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Rosenbaum Group",
+      "DisplayName": "Kuhlman-Runolfsdottir",
+      "Description": "Fundamental reciprocal capacity",
+      "ToolTip": "Voluptatem voluptate recusandae qui vero aspernatur delectus.",
+      "Actions": "Implicit",
+      "ActionData": "corporis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 360
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 309
     }
   }
 }

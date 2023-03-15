@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Fadel LLC",
-  "DeviceName": "Schmeler-Reilly",
-  "DeviceIdentifier": "architecto"
+  "ApplicationName": "Watsica, Dibbert and Stark",
+  "DeviceName": "Greenholt, Berge and Becker",
+  "DeviceIdentifier": "labore"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestias",
-  "Value": "sed",
-  "RecordId": 601,
-  "CreatedDate": "2006-03-31T11:22:38.3834434+02:00",
-  "UpdatedDate": "2014-08-22T11:22:38.3834434+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "distinctio",
-  "TableName": "Jakubowski-Considine",
+  "Key": "eos",
+  "Value": "dolor",
+  "RecordId": 334,
+  "CreatedDate": "2018-09-05T12:15:19.1597485+02:00",
+  "UpdatedDate": "2008-11-04T12:15:19.1597485+01:00",
+  "UpdatedBy": "vel",
+  "CreatedBy": "eligendi",
+  "TableName": "Crooks Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 646
     }
   }
 }

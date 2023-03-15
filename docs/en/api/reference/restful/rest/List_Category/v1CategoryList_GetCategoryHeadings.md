@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 85,
-    "Name": "Hodkiewicz, Durgan and Jacobson",
-    "Tooltip": "eos",
-    "Deleted": false,
-    "Rank": 773,
-    "UdListDefinitionId": 748,
+    "HeadingId": 161,
+    "Name": "Bosco, Simonis and Rowe",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 47,
+    "UdListDefinitionId": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 444
+        "FieldLength": 187
       }
     }
   }

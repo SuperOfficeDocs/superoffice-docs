@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,33 +84,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 746,
-  "Name": "Nader Group",
-  "Tooltip": "eos",
+  "WebPanelId": 798,
+  "Name": "Crona-Runolfsdottir",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 973,
+  "Rank": 447,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Stehr, Weber and Rowe",
+  "WindowName": "Grimes, Bednar and Treutel",
   "Url": "http://www.example.com/",
-  "ProgId": "molestiae",
-  "Icon": 198,
+  "ProgId": "qui",
+  "Icon": 831,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 31
     }
   }
 }

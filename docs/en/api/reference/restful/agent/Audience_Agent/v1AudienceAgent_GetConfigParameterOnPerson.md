@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Harber LLC",
-  "PersonId": 566
+  "ParameterName": "Gorczany Group",
+  "PersonId": 435
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 684,
-  "Name": "Rau, Kuhn and Nicolas",
-  "Value": "blanditiis",
-  "CreatedDate": "1998-04-03T11:22:37.4304911+02:00",
-  "UpdatedDate": "2018-11-18T11:22:37.4304911+01:00",
-  "CreatedBy": "et",
-  "UpdatedBy": "in",
+  "AudienceLayoutId": 905,
+  "Name": "Kirlin LLC",
+  "Value": "voluptas",
+  "CreatedDate": "2022-03-16T12:15:18.1907665+01:00",
+  "UpdatedDate": "2000-08-31T12:15:18.1907665+02:00",
+  "CreatedBy": "ducimus",
+  "UpdatedBy": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldLength": 182
     }
   }
 }

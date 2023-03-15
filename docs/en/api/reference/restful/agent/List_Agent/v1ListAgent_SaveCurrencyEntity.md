@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 51,
-  "Name": "Kris, Kub and Sauer",
-  "Tooltip": "repellat",
-  "Rank": 599,
-  "Rate": 12015.756,
-  "Units": 8468.068,
+  "CurrencyId": 52,
+  "Name": "Daniel, Borer and Thompson",
+  "Tooltip": "doloribus",
+  "Rank": 189,
+  "Rate": 15726.412,
+  "Units": 451.296,
   "Deleted": false
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 866,
-  "Name": "Keebler LLC",
-  "Tooltip": "maiores",
-  "Rank": 654,
-  "Rate": 18239.88,
-  "Units": 27005.678,
-  "Deleted": false,
+  "CurrencyId": 800,
+  "Name": "Lind Inc and Sons",
+  "Tooltip": "quis",
+  "Rank": 132,
+  "Rate": 5926.394,
+  "Units": 9439.608,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 170
+      "FieldType": "System.Int32",
+      "FieldLength": 450
     }
   }
 }

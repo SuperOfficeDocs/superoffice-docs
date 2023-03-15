@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 600,
-  "Name": "VonRueden, Hodkiewicz and Bernier",
-  "Tooltip": "aperiam",
-  "Rank": 591,
-  "Rate": 30349.656,
-  "Units": 6349.4839999999995,
+  "CurrencyId": 990,
+  "Name": "Torphy, Carroll and Reichert",
+  "Tooltip": "aut",
+  "Rank": 53,
+  "Rate": 23373.372,
+  "Units": 19114.266,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 106
+      "FieldLength": 624
     }
   }
 }

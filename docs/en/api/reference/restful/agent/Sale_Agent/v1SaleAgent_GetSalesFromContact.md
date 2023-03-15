@@ -101,8 +101,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 987,
-  "OnlyOpenSales": false
+  "ContactId": 591,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hegmann, Zulauf and Kulas",
-    "SaleDate": "1995-12-10T11:22:39.2425669+01:00",
-    "SaleId": 344,
-    "Probability": 889,
-    "Title": "qui",
-    "Amount": 29196.343999999997,
-    "Currency": "soluta",
-    "ProjectName": "Welch, Weber and Schumm",
-    "AssociateFullName": "Prof. Felicia Keeling",
-    "Description": "Public-key responsive system engine",
+    "ContactName": "Zboncak, Price and Buckridge",
+    "SaleDate": "2007-12-01T12:15:20.0977392+01:00",
+    "SaleId": 414,
+    "Probability": 810,
+    "Title": "est",
+    "Amount": 25300.782,
+    "Currency": "voluptatem",
+    "ProjectName": "Marvin LLC",
+    "AssociateFullName": "Ms. Araceli Bettye Greenfelder IV",
+    "Description": "Cross-platform national neural-net",
     "Status": "Lost",
-    "WeightedAmount": 23931.224,
-    "ProjectId": 943,
-    "EarningPercent": 26679.742,
-    "Earning": 3930.036,
-    "ContactId": 682,
-    "AssociateId": 97,
-    "PersonId": 918,
-    "SaleTypeId": 64,
-    "SaleTypeName": "Romaguera Group",
-    "PersonFullName": "Prof. Madelyn Dovie Hodkiewicz",
+    "WeightedAmount": 29942.236,
+    "ProjectId": 645,
+    "EarningPercent": 15240.642,
+    "Earning": 20831.698,
+    "ContactId": 770,
+    "AssociateId": 387,
+    "PersonId": 353,
+    "SaleTypeId": 109,
+    "SaleTypeName": "Bernier Group",
+    "PersonFullName": "Eldon Torphy",
     "Completed": "Completed",
-    "ActiveErpLinks": 753,
-    "NextDueDate": "2014-01-05T11:22:39.2425669+01:00",
-    "Number": "930959",
+    "ActiveErpLinks": 574,
+    "NextDueDate": "1999-05-15T12:15:20.098735+02:00",
+    "Number": "833021",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldLength": 267
       }
     }
   }

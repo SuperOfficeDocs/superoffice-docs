@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "molestiae"
+  "MimeMessage": "quam"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 605,
-      "ContactName": "Langworth, Bradtke and Prohaska",
-      "PersonId": 135,
-      "PersonName": "Yost Group",
-      "AssociateId": 213,
-      "Address": "doloremque",
-      "EmailId": 665,
+      "ContactId": 482,
+      "ContactName": "Gulgowski-Terry",
+      "PersonId": 55,
+      "PersonName": "Abbott-Bernier",
+      "AssociateId": 790,
+      "Address": "autem",
+      "EmailId": 408,
       "DuplicatePersonIds": [
-        834,
-        44
+        136,
+        109
       ],
-      "Name": "Dickens, Wuckert and Donnelly",
+      "Name": "Renner-Stoltenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldLength": 745
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 411,
-      "ContactName": "Denesik LLC",
-      "PersonId": 434,
-      "PersonName": "Windler-Schultz",
-      "AssociateId": 614,
-      "Address": "laudantium",
-      "EmailId": 926,
+      "ContactId": 335,
+      "ContactName": "Lakin-Bergnaum",
+      "PersonId": 447,
+      "PersonName": "Botsford-Yost",
+      "AssociateId": 288,
+      "Address": "ab",
+      "EmailId": 259,
       "DuplicatePersonIds": [
-        1001,
-        349
+        60,
+        927
       ],
-      "Name": "Kunze, Bruen and Crooks",
+      "Name": "Bednar Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 446
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 295,
-      "ContactName": "Jenkins Group",
-      "PersonId": 73,
-      "PersonName": "Lockman-Yost",
-      "AssociateId": 144,
-      "Address": "minima",
-      "EmailId": 937,
+      "ContactId": 122,
+      "ContactName": "Armstrong Group",
+      "PersonId": 355,
+      "PersonName": "Larkin-Ruecker",
+      "AssociateId": 37,
+      "Address": "illo",
+      "EmailId": 285,
       "DuplicatePersonIds": [
-        691,
-        669
+        414,
+        327
       ],
-      "Name": "Waters, Parisian and Effertz",
+      "Name": "Boehm Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldLength": 214
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "qui",
+  "Subject": "velit",
+  "HTMLBody": "dolorum",
   "From": null,
-  "Sent": "2017-04-19T11:22:38.289718+02:00",
-  "Size": 863,
+  "Sent": "2008-03-31T12:15:19.0467501+02:00",
+  "Size": 497,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestiae",
-  "PlainBody": "provident",
-  "IsSent": false,
+  "MessageID": "libero",
+  "PlainBody": "similique",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 725,
+  "ServerId": 859,
   "Attachments": [
     {
-      "Description": "Configurable analyzing archive",
-      "Filename": "quia",
-      "Size": 842,
-      "Type": "qui",
-      "Encoding": "placeat",
-      "Id": "numquam",
-      "Disposition": "nesciunt",
+      "Description": "Multi-layered encompassing capability",
+      "Filename": "qui",
+      "Size": 656,
+      "Type": "dolores",
+      "Encoding": "quae",
+      "Id": "culpa",
+      "Disposition": "in",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 664
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Green-Conroy",
+      "Name": "Becker-Schowalter",
       "Values": [
-        "consequatur",
-        "omnis"
+        "magnam",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 374
         }
       }
     },
     {
-      "Name": "Green-Conroy",
+      "Name": "Becker-Schowalter",
       "Values": [
-        "consequatur",
-        "omnis"
+        "magnam",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldLength": 374
         }
       }
     }
   ],
-  "FolderName": "Walter-Hand",
-  "EmailItemId": 317,
-  "AccountId": 584,
-  "ReceivedAt": "1999-04-22T11:22:38.289718+02:00",
+  "FolderName": "Bruen Group",
+  "EmailItemId": 464,
+  "AccountId": 723,
+  "ReceivedAt": "1999-08-16T12:15:19.0467501+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-06-17T11:22:38.289718+02:00",
+  "RepliedAt": "2016-12-23T12:15:19.0467501+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

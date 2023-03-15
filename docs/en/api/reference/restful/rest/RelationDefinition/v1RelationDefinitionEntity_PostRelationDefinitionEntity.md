@@ -89,16 +89,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 482,
-  "Name": "Kuphal Inc and Sons",
-  "Tooltip": "cupiditate",
-  "PassiveText": "quidem",
+  "ReldefId": 763,
+  "Name": "Goyette LLC",
+  "Tooltip": "pariatur",
+  "PassiveText": "laboriosam",
   "Deleted": false,
-  "Rank": 117,
+  "Rank": 665,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -111,12 +111,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 868,
-  "Name": "Rodriguez LLC",
-  "Tooltip": "eaque",
-  "PassiveText": "occaecati",
-  "Deleted": true,
-  "Rank": 707,
+  "ReldefId": 94,
+  "Name": "Kertzmann-Goyette",
+  "Tooltip": "earum",
+  "PassiveText": "quia",
+  "Deleted": false,
+  "Rank": 278,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 658
     }
   },
   "_Links": {

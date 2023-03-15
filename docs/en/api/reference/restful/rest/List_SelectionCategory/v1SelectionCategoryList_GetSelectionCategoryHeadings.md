@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 63,
-    "Name": "Hermann, Stokes and Sporer",
-    "Tooltip": "dolores",
-    "Deleted": true,
-    "Rank": 483,
-    "UdListDefinitionId": 288,
+    "HeadingId": 867,
+    "Name": "Shanahan-Steuber",
+    "Tooltip": "tenetur",
+    "Deleted": false,
+    "Rank": 141,
+    "UdListDefinitionId": 353,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldType": "System.Int32",
+        "FieldLength": 523
       }
     }
   }

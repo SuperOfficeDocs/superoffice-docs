@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 26,
+    "TargetDimensionId": 36,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "suscipit",
-    "DimensionListName": "O'Reilly-Pfannerstill",
-    "DimensionListId": 249,
-    "DimensionListLabel": "quisquam",
+    "DimensionListField": "corporis",
+    "DimensionListName": "Hamill-Mante",
+    "DimensionListId": 87,
+    "DimensionListLabel": "fuga",
     "SelectedDimensions": [
-      465,
-      861
+      642,
+      564
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 265
       }
     }
   }

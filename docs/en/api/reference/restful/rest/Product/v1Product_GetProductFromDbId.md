@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 812,
-  "ERPProductKey": "vitae",
-  "ERPPriceListKey": "dolorum",
-  "Name": "Hyatt Group",
-  "Description": "Phased human-resource support",
-  "Code": "reprehenderit",
-  "PriceUnit": "perspiciatis",
-  "QuantityUnit": "sit",
+  "ProductId": 387,
+  "ERPProductKey": "iure",
+  "ERPPriceListKey": "nisi",
+  "Name": "Beahan, Koepp and Willms",
+  "Description": "User-centric zero defect standardization",
+  "Code": "ipsum",
+  "PriceUnit": "quis",
+  "QuantityUnit": "est",
   "IsSubscription": false,
-  "SubscriptionUnit": "sunt",
-  "DefaultSubscriptionQuantity": 13961.97,
-  "ItemNumber": "885335",
+  "SubscriptionUnit": "quasi",
+  "DefaultSubscriptionQuantity": 4371.93,
+  "ItemNumber": "1219494",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "voluptas",
-  "VAT": 22119.772,
-  "VATInfo": "et",
-  "UnitCost": 27372.356,
-  "UnitMinimumPrice": 15575.98,
-  "UnitListPrice": 16572.592,
+  "ProductFamilyKey": "nesciunt",
+  "ProductTypeKey": "tempora",
+  "VAT": 14861.428,
+  "VATInfo": "alias",
+  "UnitCost": 20530.834,
+  "UnitMinimumPrice": 25676.861999999997,
+  "UnitListPrice": 25369.73,
   "InAssortment": false,
-  "Supplier": "ea",
-  "SupplierCode": "mollitia",
-  "Rights": "aut",
-  "Rule": "qui",
+  "Supplier": "eum",
+  "SupplierCode": "consequatur",
+  "Rights": "sint",
+  "Rule": "voluptate",
   "ExtraInfo": [
     {
-      "Name": "Nader, Maggio and Cassin",
-      "Value": "et",
+      "Name": "O'Reilly, Christiansen and Rosenbaum",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 941
         }
       }
     },
     {
-      "Name": "Nader, Maggio and Cassin",
-      "Value": "et",
+      "Name": "O'Reilly, Christiansen and Rosenbaum",
+      "Value": "architecto",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 941
         }
       }
     }
   ],
-  "RawExtraInfo": "assumenda",
-  "ExtraField1": "voluptatum",
-  "ExtraField2": "non",
-  "ExtraField3": "esse",
-  "ExtraField4": "sint",
-  "ExtraField5": "sit",
-  "InStock": 26466.629999999997,
+  "RawExtraInfo": "rem",
+  "ExtraField1": "nemo",
+  "ExtraField2": "eos",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "et",
+  "ExtraField5": "dolore",
+  "InStock": 26435.29,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 240
     }
   }
 }

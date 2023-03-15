@@ -53,7 +53,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -90,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 40,
+  "EjMessageId": 243,
   "Ticket": null,
-  "CreatedAt": "2005-06-26T11:22:39.4144523+02:00",
+  "CreatedAt": "2017-07-28T12:15:20.295732+02:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "corrupti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 587,
-  "Body": "in",
-  "HtmlBody": "illo",
-  "EmailHeader": "leanne_koelpin@kochcrist.biz",
-  "DebugInfo": "quo",
-  "MailSorter": "similique",
+  "MessageId": "ipsum",
+  "TimeSpent": 980,
+  "Body": "aut",
+  "HtmlBody": "magnam",
+  "EmailHeader": "daniela@ratke.com",
+  "DebugInfo": "rerum",
+  "MailSorter": "nisi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "labore",
   "MessageHeaders": [
     {
-      "Id": 339,
-      "Name": "Boyer, Kunde and Dietrich",
-      "Value": "aut",
+      "Id": 505,
+      "Name": "Daugherty-Kuphal",
+      "Value": "quisquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,47 +119,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 607
         }
       }
     }
   ],
   "Important": false,
-  "Language": "asperiores",
-  "Sentiment": 407,
-  "SentimentConfidence": 295,
+  "Language": "quos",
+  "Sentiment": 393,
+  "SentimentConfidence": 908,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 419,
-      "Name": "DuBuque, Hauck and Schulist",
-      "ContentType": "impedit",
-      "AttSize": 640,
-      "InlineImage": false,
-      "ContentId": "consequatur",
+      "AttachmentId": 539,
+      "Name": "Miller-Yost",
+      "ContentType": "sequi",
+      "AttSize": 964,
+      "InlineImage": true,
+      "ContentId": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 82
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "non",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "est"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 768
     }
   }
 }

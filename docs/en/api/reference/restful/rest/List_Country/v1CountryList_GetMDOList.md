@@ -25,8 +25,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=hic
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=architecto
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Roberts-Kuphal",
-    "ToolTip": "Ad ea corrupti harum dolore sunt.",
-    "Deleted": true,
-    "Rank": 367,
-    "Type": "repellendus",
+    "Id": 510,
+    "Name": "Schuster, Nienow and Hermann",
+    "ToolTip": "In perspiciatis culpa qui totam occaecati.",
+    "Deleted": false,
+    "Rank": 773,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Homenick, Wunsch and Monahan",
-        "ToolTip": "Qui ut.",
-        "Deleted": false,
-        "Rank": 717,
-        "Type": "sit",
+        "Id": 658,
+        "Name": "Ryan, Schumm and Pfannerstill",
+        "ToolTip": "Accusamus ducimus ut asperiores.",
+        "Deleted": true,
+        "Rank": 455,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolor",
-        "ColorBlock": 119,
-        "ExtraInfo": "id",
-        "StyleHint": "autem",
-        "FullName": "Heaven Gorczany",
+        "IconHint": "cumque",
+        "ColorBlock": 910,
+        "ExtraInfo": "et",
+        "StyleHint": "ex",
+        "FullName": "Daphnee Walter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldType": "System.String",
+            "FieldLength": 75
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 666,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ullam",
-    "FullName": "Ms. Neil Kuhlman III",
+    "IconHint": "et",
+    "ColorBlock": 546,
+    "ExtraInfo": "soluta",
+    "StyleHint": "magni",
+    "FullName": "Prof. Electa Angela Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldType": "System.String",
+        "FieldLength": 572
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Reichert LLC",
+    "HeadingId": 955,
+    "Name": "Batz-Durgan",
     "Tooltip": "non",
     "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 275,
+    "Rank": 841,
+    "UdListDefinitionId": 105,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldLength": 847
       }
     }
   }

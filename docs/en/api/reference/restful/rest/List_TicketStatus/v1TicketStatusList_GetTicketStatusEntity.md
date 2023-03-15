@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,8 +77,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 153,
-  "Name": "Feest Inc and Sons",
+  "TicketStatusId": 334,
+  "Name": "Torp, Sipes and Grimes",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldLength": 882
     }
   }
 }

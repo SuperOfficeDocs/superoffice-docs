@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 584,
-  "Name": "Hodkiewicz-Okuneva",
-  "Tooltip": "dignissimos",
-  "VisibleColumns": 551,
-  "Rank": 615,
-  "AssocId": 415,
+  "DiaryViewId": 569,
+  "Name": "Satterfield, Quitzon and Buckridge",
+  "Tooltip": "tenetur",
+  "VisibleColumns": 241,
+  "Rank": 270,
+  "AssocId": 709,
   "AssociateList": [
     {
-      "Id": 109,
-      "Name": "Nienow-Berge",
-      "ToolTip": "Voluptates omnis quo rerum labore qui iste molestias.",
-      "Deleted": true,
-      "Rank": 516,
-      "Type": "dolores",
-      "ColorBlock": 141,
-      "IconHint": "at",
+      "Id": 229,
+      "Name": "Farrell, Hammes and Yost",
+      "ToolTip": "Vel inventore molestias expedita delectus quia dicta.",
+      "Deleted": false,
+      "Rank": 525,
+      "Type": "minima",
+      "ColorBlock": 364,
+      "IconHint": "fuga",
       "Selected": false,
-      "LastChanged": "2009-03-29T11:22:37.6023765+02:00",
+      "LastChanged": "2016-12-13T12:15:18.4147595+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsam",
-      "StyleHint": "inventore",
-      "Hidden": false,
-      "FullName": "Luisa Gusikowski",
+      "ExtraInfo": "neque",
+      "StyleHint": "voluptate",
+      "Hidden": true,
+      "FullName": "Ms. Timmy Sasha Bergstrom",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     }
   ],
-  "TzLocationId": 785,
+  "TzLocationId": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

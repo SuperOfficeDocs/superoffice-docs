@@ -66,7 +66,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mueller-Casper",
-    "DisplayName": "Will-Beer",
-    "Description": "Seamless needs-based emulation",
-    "ShortLabel": "aut",
+    "FieldName": "Barrows LLC",
+    "DisplayName": "Weissnat-Berge",
+    "Description": "Cloned dynamic ability",
+    "ShortLabel": "qui",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "Rank": 270,
-    "TemplateVariableName": "Zemlak, Fahey and Dietrich"
+    "IsExternal": true,
+    "Rank": 596,
+    "TemplateVariableName": "Terry-Stark"
   }
 ]
 ```

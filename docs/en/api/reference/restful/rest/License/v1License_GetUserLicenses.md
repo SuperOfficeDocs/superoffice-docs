@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Osinski LLC",
-    "Description": "Seamless multi-state circuit",
+    "Name": "Padberg, Cassin and Barton",
+    "Description": "Synergistic static workforce",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 916,
-        "Tooltip": "provident",
+        "Unrestricted": false,
+        "Total": 162,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 82,
-        "InUse": 731,
+        "Free": 344,
+        "InUse": 709,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 8,
-        "Name": "Pollich, Willms and Nicolas",
-        "Description": "Enhanced neutral ability",
-        "PrerequisiteModuleName": "Bosco-Wisoky",
-        "SortOrder": 792,
-        "ExtraFlags": 847,
+        "Assigned": false,
+        "ModuleLicenseId": 301,
+        "Name": "Wisozk Group",
+        "Description": "Decentralized multi-tasking project",
+        "PrerequisiteModuleName": "Bode-Skiles",
+        "SortOrder": 551,
+        "ExtraFlags": 642,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 379
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 165,
-        "Tooltip": "neque",
-        "CanAssign": true,
-        "Free": 884,
-        "InUse": 413,
+        "Total": 989,
+        "Tooltip": "repellendus",
+        "CanAssign": false,
+        "Free": 501,
+        "InUse": 445,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 234,
-        "Name": "Rosenbaum, O'Conner and Wehner",
-        "Description": "Multi-lateral next generation capacity",
-        "PrerequisiteModuleName": "Funk-Monahan",
-        "SortOrder": 283,
-        "ExtraFlags": 377,
+        "Assigned": false,
+        "ModuleLicenseId": 545,
+        "Name": "Hilll, Crooks and Brakus",
+        "Description": "Front-line coherent database",
+        "PrerequisiteModuleName": "Hintz LLC",
+        "SortOrder": 83,
+        "ExtraFlags": 417,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 780
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 374
       }
     }
   },
   {
-    "Name": "Osinski LLC",
-    "Description": "Seamless multi-state circuit",
+    "Name": "Padberg, Cassin and Barton",
+    "Description": "Synergistic static workforce",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 916,
-        "Tooltip": "provident",
+        "Unrestricted": false,
+        "Total": 162,
+        "Tooltip": "error",
         "CanAssign": false,
-        "Free": 82,
-        "InUse": 731,
+        "Free": 344,
+        "InUse": 709,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 8,
-        "Name": "Pollich, Willms and Nicolas",
-        "Description": "Enhanced neutral ability",
-        "PrerequisiteModuleName": "Bosco-Wisoky",
-        "SortOrder": 792,
-        "ExtraFlags": 847,
+        "Assigned": false,
+        "ModuleLicenseId": 301,
+        "Name": "Wisozk Group",
+        "Description": "Decentralized multi-tasking project",
+        "PrerequisiteModuleName": "Bode-Skiles",
+        "SortOrder": 551,
+        "ExtraFlags": 642,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 379
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 165,
-        "Tooltip": "neque",
-        "CanAssign": true,
-        "Free": 884,
-        "InUse": 413,
+        "Total": 989,
+        "Tooltip": "repellendus",
+        "CanAssign": false,
+        "Free": 501,
+        "InUse": 445,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 234,
-        "Name": "Rosenbaum, O'Conner and Wehner",
-        "Description": "Multi-lateral next generation capacity",
-        "PrerequisiteModuleName": "Funk-Monahan",
-        "SortOrder": 283,
-        "ExtraFlags": 377,
+        "Assigned": false,
+        "ModuleLicenseId": 545,
+        "Name": "Hilll, Crooks and Brakus",
+        "Description": "Front-line coherent database",
+        "PrerequisiteModuleName": "Hintz LLC",
+        "SortOrder": 83,
+        "ExtraFlags": 417,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 780
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 374
       }
     }
   }

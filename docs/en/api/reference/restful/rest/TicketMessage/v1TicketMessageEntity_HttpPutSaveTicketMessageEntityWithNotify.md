@@ -28,7 +28,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -59,7 +59,7 @@ The ticket message to save
 | Author | String | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | String | The securitylevel of the message. |
 | Type | String | The type of the message (plaintext/html). |
-| MessageId | String | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | String | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | Integer | The time spent (minutes) for this message. |
 | Body | String | The textbody for the message. |
 | HtmlBody | String | The html body for the message (if any). |
@@ -98,7 +98,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -125,72 +125,72 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 295,
+  "EjMessageId": 840,
   "Ticket": null,
-  "CreatedAt": "2002-12-03T11:22:45.3505592+01:00",
+  "CreatedAt": "2015-08-03T12:15:27.5626274+02:00",
   "CreatedBy": null,
-  "Author": "maxime",
+  "Author": "similique",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatibus",
-  "TimeSpent": 461,
-  "Body": "ipsum",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "orie@cormier.info",
-  "DebugInfo": "odit",
-  "MailSorter": "consequatur",
+  "MessageId": "vitae",
+  "TimeSpent": 109,
+  "Body": "et",
+  "HtmlBody": "voluptas",
+  "EmailHeader": "duane@wunsch.biz",
+  "DebugInfo": "quae",
+  "MailSorter": "nam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "incidunt",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 11,
-      "Name": "VonRueden-Schaden",
-      "Value": "ducimus",
+      "Id": 991,
+      "Name": "Sporer, Sipes and Larkin",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 11,
-      "Name": "VonRueden-Schaden",
-      "Value": "ducimus",
+      "Id": 991,
+      "Name": "Sporer, Sipes and Larkin",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "officiis",
-  "Sentiment": 591,
-  "SentimentConfidence": 960,
+  "Language": "vero",
+  "Sentiment": 234,
+  "SentimentConfidence": 711,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 25,
-      "Name": "Sauer, McKenzie and Reinger",
-      "ContentType": "molestias",
-      "AttSize": 922,
-      "InlineImage": false,
-      "ContentId": "aut"
+      "AttachmentId": 676,
+      "Name": "Kautzer, Cremin and Cummerata",
+      "ContentType": "optio",
+      "AttSize": 826,
+      "InlineImage": true,
+      "ContentId": "eius"
     },
     {
-      "AttachmentId": 25,
-      "Name": "Sauer, McKenzie and Reinger",
-      "ContentType": "molestias",
-      "AttSize": 922,
-      "InlineImage": false,
-      "ContentId": "aut"
+      "AttachmentId": 676,
+      "Name": "Kautzer, Cremin and Cummerata",
+      "ContentType": "optio",
+      "AttSize": 826,
+      "InlineImage": true,
+      "ContentId": "eius"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "dignissimos"
+    "CustomFields1": "beatae",
+    "CustomFields2": "dicta"
   }
 }
 ```
@@ -202,28 +202,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 59,
+  "EjMessageId": 609,
   "Ticket": null,
-  "CreatedAt": "2014-01-20T11:22:45.3505592+01:00",
+  "CreatedAt": "2010-05-08T12:15:27.5706311+02:00",
   "CreatedBy": null,
-  "Author": "reiciendis",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ullam",
-  "TimeSpent": 828,
-  "Body": "dicta",
-  "HtmlBody": "ipsam",
-  "EmailHeader": "craig@oconner.name",
-  "DebugInfo": "quisquam",
-  "MailSorter": "at",
+  "MessageId": "sit",
+  "TimeSpent": 206,
+  "Body": "doloribus",
+  "HtmlBody": "quidem",
+  "EmailHeader": "consuelo@towne.ca",
+  "DebugInfo": "rerum",
+  "MailSorter": "similique",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eligendi",
+  "SearchTitle": "libero",
   "MessageHeaders": [
     {
-      "Id": 666,
-      "Name": "Schoen-Spinka",
-      "Value": "autem",
+      "Id": 715,
+      "Name": "McGlynn Inc and Sons",
+      "Value": "beatae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -231,47 +231,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 326
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 523,
-  "SentimentConfidence": 230,
+  "Language": "voluptas",
+  "Sentiment": 958,
+  "SentimentConfidence": 95,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 478,
-      "Name": "Bauch Group",
-      "ContentType": "exercitationem",
-      "AttSize": 487,
-      "InlineImage": false,
-      "ContentId": "ut",
+      "AttachmentId": 391,
+      "Name": "Jones-Becker",
+      "ContentType": "dolore",
+      "AttSize": 221,
+      "InlineImage": true,
+      "ContentId": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldType": "System.String",
+          "FieldLength": 995
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "molestias"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "qui"
+    "CustomFields1": "quia",
+    "CustomFields2": "molestias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 81
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Herzog, Mosciski and Kemmer",
-  "Tooltip": "voluptate",
+  "Id": 994,
+  "Name": "Lowe, Renner and Roob",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 296,
+  "Rank": 91,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "hic",
-  "InUseByUserDefinedFields": true,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldLength": 126
     }
   },
   "_Links": {

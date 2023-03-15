@@ -118,7 +118,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
+Last-Modified: Sat, 10 Jul 1999 12:15:27 G7T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sed",
+  "SaleText": "tempora",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-10-07T11:22:45.1318555+02:00",
-  "Amount": 141.03,
-  "SaleId": 917,
-  "Earning": 12636.288,
-  "EarningPercent": 23363.969999999998,
-  "Heading": "non",
-  "Number": "931168",
-  "Probability": 49,
-  "CreatedDate": "2019-01-10T11:22:45.1318555+01:00",
-  "UpdatedDate": "2001-02-21T11:22:45.1318555+01:00",
+  "Saledate": "2018-12-28T12:15:27.2866341+01:00",
+  "Amount": 16607.066,
+  "SaleId": 687,
+  "Earning": 15995.936,
+  "EarningPercent": 30026.854,
+  "Heading": "sit",
+  "Number": "839752",
+  "Probability": 793,
+  "CreatedDate": "2002-06-25T12:15:27.2866341+02:00",
+  "UpdatedDate": "1999-07-10T12:15:27.2866341+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 207,
+  "ActiveLinks": 659,
   "Links": [
     {
-      "EntityName": "Ward-Upton",
-      "Id": 572,
-      "Description": "Proactive zero defect portal",
-      "ExtraInfo": "ipsa",
-      "LinkId": 447,
+      "EntityName": "Pacocha-Harvey",
+      "Id": 300,
+      "Description": "Quality-focused intermediate emulation",
+      "ExtraInfo": "rerum",
+      "LinkId": 705,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 57
         }
       }
     }
   ],
-  "NextDueDate": "2000-09-02T11:22:45.1318555+02:00",
-  "Postit": "quisquam",
+  "NextDueDate": "2008-05-28T12:15:27.2876308+02:00",
+  "Postit": "minus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-05-19T11:22:45.1318555+02:00",
+  "ReopenDate": "2003-07-19T12:15:27.2876308+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Konopelski-Franecki",
-      "Comment": "voluptas",
-      "StakeholderRoleId": 468,
-      "CountryId": 979,
-      "PersonId": 738,
-      "EmailDescription": "deshawn_pacocha@larkin.biz",
-      "EmailId": 488,
-      "EmailAddress": "shayne@hauck.name",
-      "PhoneId": 530,
-      "ContactName": "Kihn-Harvey",
-      "ContactId": 713,
-      "SaleId": 889,
-      "Mrmrs": "ut",
-      "Firstname": "Silas",
-      "MiddleName": "Muller-Maggio",
-      "Lastname": "Murazik",
-      "SaleStakeholderId": 635,
-      "Rank": 479,
-      "Phone": "174.196.5901 x489",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 790
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 805,
-  "UserDefinedFields": {
-    "SuperOffice:1": "579285552",
-    "SuperOffice:2": "Athena Langworth"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "veniam"
-  },
-  "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "iste"
-  },
-  "PublishEventDate": "2007-01-08T11:22:45.1318555+01:00",
-  "PublishTo": "2015-07-24T11:22:45.1318555+02:00",
-  "PublishFrom": "2021-09-26T11:22:45.1318555+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 287,
-      "Visibility": "All",
-      "DisplayValue": "dolor",
+      "StakeholderRoleName": "Romaguera LLC",
+      "Comment": "qui",
+      "StakeholderRoleId": 993,
+      "CountryId": 940,
+      "PersonId": 118,
+      "EmailDescription": "nelle@hilpert.biz",
+      "EmailId": 46,
+      "EmailAddress": "davon@hessel.us",
+      "PhoneId": 989,
+      "ContactName": "Ziemann-Orn",
+      "ContactId": 84,
+      "SaleId": 739,
+      "Mrmrs": "omnis",
+      "Firstname": "Skyla",
+      "MiddleName": "Littel, Johnson and Hauck",
+      "Lastname": "Terry",
+      "SaleStakeholderId": 419,
+      "Rank": 206,
+      "Phone": "1-086-829-5155 x278",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 671
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 483,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Bernadette Hegmann DDS",
+    "SuperOffice:2": "Estevan Huel PhD"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "iure",
+    "ExtraFields2": "qui"
+  },
+  "CustomFields": {
+    "CustomFields1": "repellat",
+    "CustomFields2": "aut"
+  },
+  "PublishEventDate": "2002-10-03T12:15:27.2886308+02:00",
+  "PublishTo": "2014-11-11T12:15:27.2886308+01:00",
+  "PublishFrom": "1997-07-15T12:15:27.2886308+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 360,
+      "Visibility": "All",
+      "DisplayValue": "est",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 879
         }
       }
     },
     {
-      "VisibleId": 287,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 879
         }
       }
     }
@@ -259,13 +259,13 @@ Last-Modified: Wed, 21 Feb 2001 11:22:45 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldType": "System.Int32",
+      "FieldLength": 576
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

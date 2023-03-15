@@ -102,20 +102,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 929,
-  "Name": "Mraz-Bruen",
-  "Tooltip": "repellat",
+  "RoleId": 201,
+  "Name": "Hayes-Macejkovic",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 565,
-  "Rank": 626,
-  "Created": "2007-04-08T11:22:45.0693694+02:00",
-  "UseCategories": 205,
+  "Deleted": 326,
+  "Rank": 334,
+  "Created": "2002-02-18T12:15:27.2116324+01:00",
+  "UseCategories": 951,
   "CreatedBy": null,
-  "Updated": "2012-09-20T11:22:45.0693694+02:00",
+  "Updated": "1997-02-15T12:15:27.2116324+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,16 +128,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 577,
-  "Name": "Robel, Friesen and Gleason",
-  "Tooltip": "reprehenderit",
+  "RoleId": 515,
+  "Name": "Flatley, Bednar and Ryan",
+  "Tooltip": "sequi",
   "RoleType": "Anonymous",
-  "Deleted": 267,
-  "Rank": 515,
-  "Created": "2010-01-30T11:22:45.0693694+01:00",
-  "UseCategories": 194,
+  "Deleted": 591,
+  "Rank": 637,
+  "Created": "2006-02-15T12:15:27.2146323+01:00",
+  "UseCategories": 374,
   "CreatedBy": null,
-  "Updated": "2017-07-20T11:22:45.0849869+02:00",
+  "Updated": "2013-08-15T12:15:27.2146323+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -145,12 +145,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldLength": 841
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

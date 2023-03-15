@@ -25,7 +25,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?flat=False
 GET /api/v1/List/Reason/MDOItems?query=voluptatem
 ```
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Mohr, Beier and Mertz",
-    "ToolTip": "Et neque.",
-    "Deleted": false,
-    "Rank": 379,
-    "Type": "nihil",
+    "Id": 899,
+    "Name": "Medhurst LLC",
+    "ToolTip": "Quibusdam voluptate quia architecto.",
+    "Deleted": true,
+    "Rank": 711,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Koss Inc and Sons",
-        "ToolTip": "Et enim vel qui vero.",
+        "Id": 766,
+        "Name": "Emard Inc and Sons",
+        "ToolTip": "Nemo voluptatem voluptas enim voluptate.",
         "Deleted": false,
-        "Rank": 935,
-        "Type": "quia",
+        "Rank": 526,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 544,
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "harum",
-        "FullName": "Darryl Denesik",
+        "IconHint": "sit",
+        "ColorBlock": 179,
+        "ExtraInfo": "deleniti",
+        "StyleHint": "qui",
+        "FullName": "Coty Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 718
+            "FieldLength": 954
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 614,
-    "ExtraInfo": "vel",
-    "StyleHint": "quod",
-    "FullName": "Prof. Ricky Gracie Shields V",
+    "IconHint": "enim",
+    "ColorBlock": 533,
+    "ExtraInfo": "excepturi",
+    "StyleHint": "fuga",
+    "FullName": "Roman Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 208
       }
     }
   }

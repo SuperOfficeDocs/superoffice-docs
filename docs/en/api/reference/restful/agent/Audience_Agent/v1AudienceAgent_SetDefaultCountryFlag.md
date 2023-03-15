@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "West, Schowalter and Gaylord",
+  "LayoutName": "Howe LLC",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

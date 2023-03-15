@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 374,
-  "ColumnId": 825,
-  "FieldDefault": "possimus",
-  "FieldHeight": 799,
-  "FieldLabel": "omnis",
-  "FieldLeft": 580,
-  "FieldTop": 852,
+  "UDefFieldId": 269,
+  "ColumnId": 200,
+  "FieldDefault": "fuga",
+  "FieldHeight": 814,
+  "FieldLabel": "debitis",
+  "FieldLeft": 182,
+  "FieldTop": 424,
   "FieldType": "Checkbox",
-  "FieldWidth": 522,
-  "FormatMask": "ut",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 489,
-  "LabelLeft": 1002,
-  "LabelTop": 282,
-  "LabelWidth": 379,
-  "LastVersionId": 677,
-  "ListTableId": 672,
+  "FieldWidth": 276,
+  "FormatMask": "velit",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 752,
+  "LabelLeft": 696,
+  "LabelTop": 295,
+  "LabelWidth": 133,
+  "LastVersionId": 14,
+  "ListTableId": 663,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 414,
-  "ProgId": "dolore",
+  "Page1LineNo": 685,
+  "ProgId": "dolores",
   "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 33,
-  "TextLength": 703,
-  "Tooltip": "explicabo",
-  "UdefIdentity": 237,
-  "UDListDefinitionId": 338,
+  "ShortLabel": "facere",
+  "TabOrder": 779,
+  "TextLength": 144,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 800,
+  "UDListDefinitionId": 643,
   "Justification": "Center",
-  "Version": 122,
-  "TemplateVariableName": "Dare-Weber",
-  "HasBeenPublished": false,
-  "MdoListName": "Kuvalis, Schinner and Cummings",
+  "Version": 166,
+  "TemplateVariableName": "Labadie Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Maggio, Pouros and Torp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   }
 }

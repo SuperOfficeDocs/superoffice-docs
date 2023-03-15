@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Kerluke, Yundt and Zulauf",
-    "ToolTip": "Autem facere necessitatibus.",
-    "Deleted": false,
-    "Rank": 204,
-    "Type": "provident",
-    "ColorBlock": 636,
-    "IconHint": "et",
+    "Id": 585,
+    "Name": "Gutmann-Schneider",
+    "ToolTip": "Voluptas qui sit.",
+    "Deleted": true,
+    "Rank": 761,
+    "Type": "ullam",
+    "ColorBlock": 401,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2018-02-03T11:22:46.2253576+01:00",
+    "LastChanged": "2018-10-19T12:15:28.5326197+02:00",
     "ChildItems": [
       {
-        "Id": 60,
-        "Name": "Reinger Group",
-        "ToolTip": "Velit nihil quidem doloremque voluptatem porro vero.",
+        "Id": 947,
+        "Name": "DuBuque, Runolfsson and Mraz",
+        "ToolTip": "Vel quia et voluptate fuga qui.",
         "Deleted": false,
-        "Rank": 228,
-        "Type": "tempora",
-        "ColorBlock": 120,
-        "IconHint": "consectetur",
+        "Rank": 627,
+        "Type": "officia",
+        "ColorBlock": 533,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2013-04-17T11:22:46.2253576+02:00",
+        "LastChanged": "2012-09-26T12:15:28.5336129+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "quia",
+        "ExtraInfo": "sit",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Daisy Roberts"
+        "FullName": "Ansley Irving Weber IV"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "optio",
-    "Hidden": true,
-    "FullName": "Kurtis Kshlerin Jr."
+    "ExtraInfo": "sequi",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Eulah Kshlerin"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Pouros LLC",
-    "ToolTip": "In aliquid ea aut quod quibusdam consectetur.",
+    "Id": 93,
+    "Name": "Walter LLC",
+    "ToolTip": "Ut vitae dolores.",
     "Deleted": true,
-    "Rank": 603,
-    "Type": "voluptas",
-    "ColorBlock": 379,
-    "IconHint": "ipsam",
+    "Rank": 663,
+    "Type": "sed",
+    "ColorBlock": 667,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2017-03-09T11:22:46.2253576+01:00",
+    "LastChanged": "2023-02-22T12:15:28.5346124+01:00",
     "ChildItems": [
       {
-        "Id": 13,
-        "Name": "Vandervort, Torp and Stark",
-        "ToolTip": "Voluptates molestias id qui enim.",
-        "Deleted": true,
-        "Rank": 528,
-        "Type": "porro",
-        "ColorBlock": 326,
-        "IconHint": "consequatur",
+        "Id": 767,
+        "Name": "Bechtelar, Kerluke and Strosin",
+        "ToolTip": "Velit ratione autem est sint facere ut doloremque.",
+        "Deleted": false,
+        "Rank": 840,
+        "Type": "sunt",
+        "ColorBlock": 546,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2004-02-25T11:22:46.2253576+01:00",
+        "LastChanged": "2007-07-23T12:15:28.5346124+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Luis Kunze",
+        "ExtraInfo": "velit",
+        "StyleHint": "ad",
+        "Hidden": true,
+        "FullName": "Alexander Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldType": "System.String",
+            "FieldLength": 247
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Prof. Richmond Heloise Brekke DDS",
+    "FullName": "Ms. Miguel Imelda Balistreri PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldLength": 639
       }
     }
   }

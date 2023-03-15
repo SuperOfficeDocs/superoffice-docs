@@ -100,30 +100,30 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 229,
-  "Name": "Steuber Inc and Sons",
+  "WebhookId": 929,
+  "Name": "Wiza-Williamson",
   "Events": [
-    "cumque",
-    "doloremque"
+    "culpa",
+    "sit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ea",
+  "Secret": "praesentium",
   "State": "Active",
-  "Type": "iste",
+  "Type": "veritatis",
   "Headers": {
-    "Headers1": "vel",
-    "Headers2": "numquam"
+    "Headers1": "ad",
+    "Headers2": "autem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-05-29T11:22:45.5379661+02:00",
+  "Registered": "2006-11-28T12:15:27.8086236+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-03-24T11:22:45.5379661+01:00",
+  "Updated": "2010-10-19T12:15:27.8086236+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -135,26 +135,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 705,
-  "Name": "Quitzon Inc and Sons",
+  "WebhookId": 989,
+  "Name": "Hauck-Hudson",
   "Events": [
-    "quo",
-    "sapiente"
+    "perferendis",
+    "officiis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "libero",
+  "Secret": "fuga",
   "State": "Active",
-  "Type": "enim",
+  "Type": "ab",
   "Headers": {
-    "Headers1": "rerum",
-    "Headers2": "similique"
+    "Headers1": "mollitia",
+    "Headers2": "error"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-06-28T11:22:45.5379661+02:00",
+  "Registered": "2016-12-24T12:15:27.8106232+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-01-01T11:22:45.5379661+01:00",
+  "Updated": "2020-02-15T12:15:27.811623+01:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

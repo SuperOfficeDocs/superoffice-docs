@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 38,
-  "NickName": "Gutkowski-Larkin"
+  "AssociateId": 844,
+  "NickName": "Stroman LLC"
 }
 ```
 

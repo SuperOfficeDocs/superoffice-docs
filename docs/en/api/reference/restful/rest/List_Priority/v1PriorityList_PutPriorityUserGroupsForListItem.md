@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 192,
-    "Name": "Beier Group",
-    "ToolTip": "Consequuntur vitae rerum consequatur aut tempora aspernatur.",
-    "Deleted": true,
-    "Rank": 969,
-    "Type": "ratione",
-    "ColorBlock": 926,
-    "IconHint": "doloremque",
+    "Id": 740,
+    "Name": "Wiza, Hodkiewicz and Casper",
+    "ToolTip": "Voluptates nulla et.",
+    "Deleted": false,
+    "Rank": 451,
+    "Type": "explicabo",
+    "ColorBlock": 246,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "1996-11-30T11:22:46.0066565+01:00",
+    "LastChanged": "2006-03-03T12:15:28.2656167+01:00",
     "ChildItems": [
       {
-        "Id": 45,
-        "Name": "Lemke, Bechtelar and Orn",
-        "ToolTip": "Deleniti sed accusamus doloremque qui mollitia accusamus.",
+        "Id": 162,
+        "Name": "Walter, Wyman and Nitzsche",
+        "ToolTip": "Nesciunt pariatur et sed.",
         "Deleted": false,
-        "Rank": 588,
-        "Type": "assumenda",
-        "ColorBlock": 207,
-        "IconHint": "in",
+        "Rank": 472,
+        "Type": "non",
+        "ColorBlock": 520,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2008-10-16T11:22:46.0066565+02:00",
+        "LastChanged": "2008-02-07T12:15:28.2666167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "et",
+        "ExtraInfo": "delectus",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Alivia Hamill"
+        "FullName": "Randi Emmerich"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "fugit",
+    "ExtraInfo": "dolores",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Prof. Shanna Valerie Turner"
+    "FullName": "Jayda Muller"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 873,
-    "Name": "Stracke, Ferry and Senger",
-    "ToolTip": "Eius porro ex.",
-    "Deleted": true,
-    "Rank": 940,
-    "Type": "est",
-    "ColorBlock": 165,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "1999-08-19T11:22:46.0066565+02:00",
+    "Id": 571,
+    "Name": "Jones, Langworth and Quitzon",
+    "ToolTip": "Id ut.",
+    "Deleted": false,
+    "Rank": 608,
+    "Type": "veniam",
+    "ColorBlock": 219,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2011-10-02T12:15:28.2676167+02:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Boyle-VonRueden",
-        "ToolTip": "Nihil porro repellat sed.",
-        "Deleted": false,
-        "Rank": 193,
-        "Type": "facilis",
-        "ColorBlock": 614,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2009-04-29T11:22:46.0066565+02:00",
+        "Id": 878,
+        "Name": "Leannon Inc and Sons",
+        "ToolTip": "Odio nesciunt.",
+        "Deleted": true,
+        "Rank": 363,
+        "Type": "et",
+        "ColorBlock": 38,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2006-04-24T12:15:28.2676167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Katheryn Hagenes",
+        "ExtraInfo": "natus",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Twila Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 636
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Mr. Heath Bartell",
+    "ExtraInfo": "eum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Ethan Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

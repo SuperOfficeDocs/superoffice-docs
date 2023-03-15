@@ -100,15 +100,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 595,
-  "Name": "Weimann-Powlowski",
-  "Tooltip": "aut",
+  "Id": 970,
+  "Name": "Kertzmann Inc and Sons",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 377,
+  "Rank": 660,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -120,22 +120,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Frami, Hansen and Welch",
-  "Tooltip": "qui",
+  "Id": 227,
+  "Name": "Grant, O'Hara and Runte",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 507,
+  "Rank": 309,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "fugiat",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 880
     }
   },
   "_Links": {

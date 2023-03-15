@@ -65,7 +65,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 349,
-  "ERPPriceListKey": "commodi",
-  "QuoteConnectionId": 878,
-  "Name": "Steuber, Quitzon and Mills",
-  "Description": "Exclusive explicit time-frame",
-  "Currency": "cupiditate",
-  "CurrencyName": "Macejkovic-Yundt",
-  "ValidFrom": "2003-12-29T11:22:45.991037+01:00",
-  "ValidTo": "1998-05-12T11:22:45.991037+02:00",
+  "PriceListId": 523,
+  "ERPPriceListKey": "tenetur",
+  "QuoteConnectionId": 260,
+  "Name": "Parisian-O'Connell",
+  "Description": "Horizontal didactic concept",
+  "Currency": "quas",
+  "CurrencyName": "Stamm-Feest",
+  "ValidFrom": "1997-08-16T12:15:28.2526228+02:00",
+  "ValidTo": "2001-10-09T12:15:28.2526228+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 79
     }
   }
 }

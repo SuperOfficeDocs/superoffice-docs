@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 980,
+  "RecordId": 141,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Larkin, Hand and Bernier",
-    "CrmFieldKey": "non",
-    "Value": "consequatur",
-    "DisplayValue": "est",
-    "SyncToCrm": true,
+    "DisplayName": "McLaughlin, Herman and Cummerata",
+    "CrmFieldKey": "pariatur",
+    "Value": "eaque",
+    "DisplayValue": "voluptas",
+    "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 807
+        "FieldType": "System.String",
+        "FieldLength": 484
       }
     }
   }

@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 264,
-  "BlobSize": 399,
-  "Description": "Profit-focused modular paradigm",
-  "ExtraInfo": "est",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "omnis",
-  "OriginalSize": 529,
-  "CreatedDate": "2005-09-11T11:22:44.4445217+02:00",
-  "UpdatedDate": "2002-05-14T11:22:44.4445217+02:00",
+  "BlobId": 3,
+  "BlobSize": 135,
+  "Description": "Multi-tiered solution-oriented portal",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "voluptates",
+  "OriginalSize": 262,
+  "CreatedDate": "2007-04-26T12:15:26.5576424+02:00",
+  "UpdatedDate": "2004-11-11T12:15:26.5576424+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint"
+  "ConceptualType": "veritatis"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 230,
-  "BlobSize": 799,
-  "Description": "Re-contextualized 24 hour customer loyalty",
-  "ExtraInfo": "qui",
+  "BlobId": 302,
+  "BlobSize": 83,
+  "Description": "Assimilated discrete hub",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "libero",
-  "OriginalSize": 307,
-  "CreatedDate": "2003-10-05T11:22:44.4445217+02:00",
-  "UpdatedDate": "1997-03-16T11:22:44.4445217+01:00",
+  "MimeType": "et",
+  "OriginalSize": 648,
+  "CreatedDate": "2015-05-31T12:15:26.5596422+02:00",
+  "UpdatedDate": "1999-09-12T12:15:26.5596422+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "enim",
+  "ConceptualType": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 480
     }
   }
 }

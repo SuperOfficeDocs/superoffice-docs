@@ -25,7 +25,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=645
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=989
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Advanced leading edge matrices",
-  "Postit": "inventore",
+  "Description": "Synchronised reciprocal software",
+  "Postit": "totam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 519,
-  "IncludePerson": 73,
-  "MemberCount": 45,
-  "Name": "Wuckert, Strosin and Kautzer",
-  "PostitTextId": 168,
-  "CreatedDate": "2005-06-01T11:22:39.2738622+02:00",
-  "SelectionId": 536,
-  "SoundEx": "beatae",
-  "Source": 427,
-  "TextId": 893,
-  "UpdatedDate": "2016-09-13T11:22:39.2738622+02:00",
-  "UpdatedCount": 317,
-  "Visibility": 211,
+  "GroupIdx": 61,
+  "IncludePerson": 847,
+  "MemberCount": 428,
+  "Name": "Fahey-Wolff",
+  "PostitTextId": 311,
+  "CreatedDate": "2019-03-15T12:15:20.1347418+01:00",
+  "SelectionId": 877,
+  "SoundEx": "quibusdam",
+  "Source": 330,
+  "TextId": 327,
+  "UpdatedDate": "2004-12-29T12:15:20.1347418+01:00",
+  "UpdatedCount": 808,
+  "Visibility": 398,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 647,
-  "TargetTableName": "Moore-Weimann",
+  "TargetTableNumber": 963,
+  "TargetTableName": "Waelchi, Davis and Kiehn",
   "Completed": false,
-  "LeftSelectionId": 909,
-  "RightSelectionId": 785,
+  "LeftSelectionId": 764,
+  "RightSelectionId": 204,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Harris Inc and Sons",
-  "ShadowProviderName": "Crona, Heathcote and Boyer",
-  "ChartKey": "rerum",
-  "LastLoaded": "2010-07-28T11:22:39.2738622+02:00",
-  "LastLoadedBy": 287,
+  "MainProviderName": "Jones-Hamill",
+  "ShadowProviderName": "Welch, Batz and Ullrich",
+  "ChartKey": "blanditiis",
+  "LastLoaded": "1999-03-02T12:15:20.1347418+01:00",
+  "LastLoadedBy": 286,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1996-08-29T11:22:39.2738622+02:00",
-  "LastMembershipChangeBy": 936,
+  "LastMembershipChange": "1999-06-14T12:15:20.1357348+02:00",
+  "LastMembershipChangeBy": 291,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "officia",
-  "MemberTabHeading": "occaecati",
-  "MailingsProviderName": "Johnson-Nicolas",
-  "DashboardTileDefinitionId": 121,
+  "MainHeading": "sit",
+  "MemberTabHeading": "impedit",
+  "MailingsProviderName": "Tillman, Hudson and Lind",
+  "DashboardTileDefinitionId": 141,
   "VisibleFor": [
     {
-      "VisibleId": 816,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 550
         }
       }
     },
     {
-      "VisibleId": 816,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 550
         }
       }
     }
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 696
     }
   }
 }

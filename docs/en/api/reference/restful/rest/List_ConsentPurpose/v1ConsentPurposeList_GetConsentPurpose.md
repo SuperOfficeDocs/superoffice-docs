@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 915,
-  "Name": "Feil Group",
-  "ConsentText": "dolore",
-  "FormText": "molestiae",
-  "Key": "reiciendis",
-  "Tooltip": "pariatur",
-  "Active": 237,
-  "UpdatedDate": "1997-03-13T11:22:45.8191493+01:00",
+  "ConsentPurposeId": 491,
+  "Name": "Bode-Boehm",
+  "ConsentText": "sunt",
+  "FormText": "id",
+  "Key": "nobis",
+  "Tooltip": "doloremque",
+  "Active": 3,
+  "UpdatedDate": "1997-06-22T12:15:27.9226217+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 913,
-  "PrivacyStatementDesc": "veritatis",
+  "Deleted": false,
+  "Rank": 773,
+  "PrivacyStatementDesc": "dolorum",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 377
     }
   }
 }

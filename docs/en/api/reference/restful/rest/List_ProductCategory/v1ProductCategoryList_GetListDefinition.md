@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "O'Connell Group",
-  "Tooltip": "sequi",
-  "Deleted": true,
-  "Rank": 300,
-  "IsCustomList": true,
+  "Id": 338,
+  "Name": "Lueilwitz, Stoltenberg and Oberbrunner",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 760,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "corporis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 69
+      "FieldLength": 577
     }
   },
   "_Links": {

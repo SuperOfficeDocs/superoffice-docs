@@ -5,7 +5,7 @@ description: Lists all tables in the database by table ID.
 so.generated: true
 keywords:
   - "database"
-so.date: 01.23.2023
+so.date: 03.01.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -509,28 +509,35 @@ so.envir:
 |488| [email\_attachment](email-attachment.md) |Attachment info related to an email_item|
 |489| [invitation](invitation.md) |Invitations to events|
 |490| [s\_messageblock](s-messageblock.md) |Contains a block of a mailing message, that can be reused in a mailing|
-|491| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
-|492| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
-|493| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
-|494| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
-|495| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
-|496| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
-|497| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
-|498| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
-|499| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
-|500| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
-|501| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
-|502| [target\_revision](target-revision.md) |One batch of changes made to targets|
-|503| [target\_change](target-change.md) |A single field change.|
-|504| [target\_dimension](target-dimension.md) |Defining target dimension|
-|505| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
-|506| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
-|507| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
-|508| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
-|509| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
-|510| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
-|511| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
-|512| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
-|513| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
-|514| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
+|491| [MailingDomains](mailingdomains.md) |List of allowed domains used in a Mailing|
+|492| [TypicalSearch](typicalsearch.md) |Owner of a set of predefined selection criteria|
+|493| [OnlineApp](onlineapp.md) |Echo and track information about Online Apps and their usage|
+|494| [PushNotificationService](pushnotificationservice.md) |Used for storing handles to user devices that should receive push notifications|
+|495| [ShipmentType](shipmenttype.md) |Shipment type list table. Classification of a mailing, allowing recipients to subscribe to lists|
+|496| [ShipmentTypeReservation](shipmenttypereservation.md) |ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type|
+|497| [TemporaryKey](temporarykey.md) |Temporary keys for lightweight authentications such as changing ones subscriptions|
+|498| [target\_group](target-group.md) |Info about a set of (sales, project, selection...) targets|
+|499| [target\_period](target-period.md) |A set of periods linked with target amounts for users/usergroups and the target groups/years.|
+|500| [target\_assignment\_info](target-assignment-info.md) |Linking associate, company or user group target and other information with target values|
+|501| [target\_assignment\_value](target-assignment-value.md) |A set of values linked to assignment info and a period in a target group.|
+|502| [target\_revision\_history](target-revision-history.md) |Revision history info in case the original target group or assignment info was deleted|
+|503| [target\_revision](target-revision.md) |One batch of changes made to targets|
+|504| [target\_change](target-change.md) |A single field change.|
+|505| [target\_dimension](target-dimension.md) |Defining target dimension|
+|506| [Webhook](webhook.md) |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.|
+|507| [Webhook\_usage](webhook-usage.md) |Webhook usage statistics - tracks call+error statistics. Same primary key as the webhook.|
+|508| [workflow](workflow.md) |SuperOffice specific info about a workflow|
+|509| [email\_flow](email-flow.md) |A set of properties related to the email workflow.|
+|510| [workflow\_instance](workflow-instance.md) |A set of properties related to the workflow instance of one participant going through the flow|
+|511| [workflow\_goal](workflow-goal.md) |A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.|
+|512| [workflow\_step](workflow-step.md) |A set of steps related to a workflow.|
+|513| [workflow\_trigger](workflow-trigger.md) |A set of triggers related to a workflow.|
+|514| [AssociateHistory](associatehistory.md) |Historical information about associates that have been deleted. Most references are NOT declared as foreign keys; this is a historical table that should not be updated when further changes occur in the database|
+|515| [CacheInvalidation](cacheinvalidation.md) |Names and generation numbers for distributed invalidation of caches|
+|516| [QuoteApprReason](quoteapprreason.md) |Predefined reasons for quote approval|
+|517| [QuoteApprReasonGroupLink](quoteapprreasongrouplink.md) |User group link table for QuoteApprReason, for MDO item hiding|
+|518| [QuoteApprReasonHeadingLink](quoteapprreasonheadinglink.md) |Heading link table for QuoteApprReason, for MDO headers|
+|519| [QuoteDenyReason](quotedenyreason.md) |Predefined reasons for quote denial|
+|520| [QuoteDenyReasonGroupLink](quotedenyreasongrouplink.md) |User group link table for QuoteDenyReason, for MDO item hiding|
+|521| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
 

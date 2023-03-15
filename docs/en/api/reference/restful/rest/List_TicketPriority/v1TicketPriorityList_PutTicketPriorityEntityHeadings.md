@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Marvin-Torp",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 893,
-    "UdListDefinitionId": 318
+    "HeadingId": 50,
+    "Name": "Huels LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 595,
+    "UdListDefinitionId": 232
   },
   {
-    "HeadingId": 499,
-    "Name": "Marvin-Torp",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 893,
-    "UdListDefinitionId": 318
+    "HeadingId": 50,
+    "Name": "Huels LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 595,
+    "UdListDefinitionId": 232
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 606,
-    "Name": "Cassin Group",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 388,
-    "UdListDefinitionId": 124,
+    "HeadingId": 553,
+    "Name": "Kessler, Schneider and Runte",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 864,
+    "UdListDefinitionId": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 679
       }
     }
   }

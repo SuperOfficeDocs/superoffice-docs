@@ -126,17 +126,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 805,
-  "StartTime": "1997-04-03T11:22:36.9306587+02:00",
-  "EndTime": "2014-04-18T11:22:36.9306587+02:00",
-  "Count": 128,
+  "ContactId": 135,
+  "StartTime": "2008-03-15T12:15:17.6507705+01:00",
+  "EndTime": "2001-11-11T12:15:17.6507705+01:00",
+  "Count": 766,
   "TaskIds": [
-    847,
-    331
+    350,
+    988
   ]
 }
 ```
@@ -149,53 +149,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 480,
-    "StartDate": "2008-05-09T11:22:36.9306587+02:00",
-    "EndDate": "2004-09-20T11:22:36.9306587+02:00",
+    "AppointmentId": 294,
+    "StartDate": "2009-08-09T12:15:17.6517705+02:00",
+    "EndDate": "2022-01-12T12:15:17.6517705+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Ms. Edward Sporer",
-    "ContactName": "Veum, Pfannerstill and Ebert",
-    "Description": "User-friendly bi-directional encryption",
-    "PersonFullName": "Brandyn Reinhold Jerde DDS",
-    "PersonId": 71,
-    "ContactId": 857,
-    "ProjectId": 567,
-    "ProjectName": "Fahey-Predovic",
-    "IsPublished": true,
-    "AssociateId": 498,
-    "ColorIndex": 883,
+    "Task": "omnis",
+    "AssociateFullName": "Zachery Windler",
+    "ContactName": "O'Conner, Kohler and Braun",
+    "Description": "Reactive 5th generation hardware",
+    "PersonFullName": "Jarred Simonis",
+    "PersonId": 204,
+    "ContactId": 428,
+    "ProjectId": 549,
+    "ProjectName": "Streich-Batz",
+    "IsPublished": false,
+    "AssociateId": 114,
+    "ColorIndex": 982,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 615,
-    "PriorityName": "Olson-Bogan",
+    "PriorityId": 502,
+    "PriorityName": "Thompson Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2004-03-23T11:22:36.9306587+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2002-08-26T12:15:17.6517705+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-02-09T11:22:36.9306587+01:00",
-    "RecurringEndDate": "2007-10-28T11:22:36.9306587+01:00",
-    "MotherId": 135,
-    "AssignedBy": 333,
-    "AssignedByFullName": "Ms. Kenneth Myah King DVM",
+    "RecurringStartDate": "2013-11-24T12:15:17.6517705+01:00",
+    "RecurringEndDate": "2012-09-22T12:15:17.6517705+02:00",
+    "MotherId": 84,
+    "AssignedBy": 478,
+    "AssignedByFullName": "Alayna Armstrong",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "qui",
-    "SaleId": 545,
-    "SaleName": "Bailey, Schulist and Kuphal",
-    "AssociateName": "Legros, Hermiston and Heidenreich",
-    "CreatedDate": "2006-10-20T11:22:36.9306587+02:00",
-    "CreatedBy": "odit",
-    "CreatedByFullName": "Noemi Agustina Kovacek IV",
-    "CreatedByAssociateId": 802,
+    "Location": "voluptas",
+    "AlarmLeadTime": "nulla",
+    "SaleId": 672,
+    "SaleName": "Kirlin, Spinka and Crona",
+    "AssociateName": "Schaden LLC",
+    "CreatedDate": "2016-09-21T12:15:17.6527713+02:00",
+    "CreatedBy": "rem",
+    "CreatedByFullName": "Letha Koelpin",
+    "CreatedByAssociateId": 788,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 241
+        "FieldLength": 424
       }
     }
   }

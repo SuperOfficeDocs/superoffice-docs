@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Howe, Jewess and Murphy",
-  "GroupId": 412
+  "UdListDefinitionName": "Jerde LLC",
+  "GroupId": 291
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Haley-Ullrich",
-    "ToolTip": "Rerum quia illo repellat.",
-    "Deleted": false,
-    "Rank": 601,
-    "Type": "voluptas",
-    "ColorBlock": 5,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2013-11-09T11:22:38.4615502+01:00",
+    "Id": 380,
+    "Name": "White, Schaden and Blanda",
+    "ToolTip": "Beatae sint aut a.",
+    "Deleted": true,
+    "Rank": 345,
+    "Type": "ex",
+    "ColorBlock": 311,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2011-04-14T12:15:19.2567514+02:00",
     "ChildItems": [
       {
-        "Id": 739,
-        "Name": "Trantow, Quigley and Witting",
-        "ToolTip": "Officia ut minus est.",
-        "Deleted": true,
-        "Rank": 135,
-        "Type": "aut",
-        "ColorBlock": 472,
-        "IconHint": "aperiam",
+        "Id": 602,
+        "Name": "Adams LLC",
+        "ToolTip": "Aspernatur molestias perferendis ut.",
+        "Deleted": false,
+        "Rank": 376,
+        "Type": "rerum",
+        "ColorBlock": 487,
+        "IconHint": "ipsam",
         "Selected": false,
-        "LastChanged": "2018-01-26T11:22:38.4615502+01:00",
+        "LastChanged": "2011-09-21T12:15:19.2567514+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "est",
+        "ExtraInfo": "ex",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Maxine Block",
+        "FullName": "Antwan Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "vel",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Miss Jeff West Jr.",
+    "FullName": "Anna Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 567
       }
     }
   }

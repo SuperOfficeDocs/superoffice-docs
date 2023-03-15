@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Hahn Group",
-    "ToolTip": "Consequuntur est in at recusandae.",
+    "Id": 477,
+    "Name": "Nikolaus Group",
+    "ToolTip": "Dicta eos.",
     "Deleted": false,
-    "Rank": 636,
-    "Type": "modi",
-    "ColorBlock": 215,
-    "IconHint": "ut",
+    "Rank": 842,
+    "Type": "voluptatem",
+    "ColorBlock": 126,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2014-11-02T11:22:45.9285426+01:00",
+    "LastChanged": "2000-08-19T12:15:28.1736187+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Bradtke, O'Connell and Sanford",
-        "ToolTip": "Earum debitis voluptatem.",
+        "Id": 209,
+        "Name": "Feest, Lang and Wisozk",
+        "ToolTip": "Deserunt suscipit nam et sapiente.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "qui",
-        "ColorBlock": 723,
-        "IconHint": "beatae",
-        "Selected": true,
-        "LastChanged": "1998-03-07T11:22:45.9285426+01:00",
+        "Rank": 21,
+        "Type": "dolores",
+        "ColorBlock": 314,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2021-09-02T12:15:28.1746182+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "a",
+        "ExtraInfo": "id",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Jairo Stokes",
+        "FullName": "Jairo Jaylan Hodkiewicz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 442
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "sunt",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Prof. Ashlee Bartoletti",
+    "FullName": "Brionna Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 767
+        "FieldType": "System.Int32",
+        "FieldLength": 929
       }
     }
   }

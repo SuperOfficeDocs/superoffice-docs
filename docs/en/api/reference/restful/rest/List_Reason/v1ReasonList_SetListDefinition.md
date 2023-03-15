@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 641,
-  "Name": "Willms LLC",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "Rank": 203,
+  "Id": 617,
+  "Name": "Greenfelder-Weissnat",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "Rank": 282,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Waelchi, Abbott and Kerluke",
-  "Tooltip": "natus",
+  "Id": 450,
+  "Name": "Prosacco, Leuschke and Connelly",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 692,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "minus",
-  "InUseByUserDefinedFields": false,
+  "Rank": 904,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 877
     }
   }
 }

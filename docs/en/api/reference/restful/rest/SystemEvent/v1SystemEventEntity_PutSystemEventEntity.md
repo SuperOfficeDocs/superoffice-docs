@@ -96,19 +96,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 1001,
+  "SystemEventId": 988,
   "Scope": "Database",
-  "Eta": "2010-05-10T11:22:45.225579+02:00",
-  "Eventkey": "sed",
-  "Eventmess": "quis",
-  "ExtraInfo": 704,
-  "Owner": 259,
-  "UpdatedCount": 988,
-  "Registered": "2019-11-10T11:22:45.225579+01:00",
+  "Eta": "2001-02-17T12:15:27.4076303+01:00",
+  "Eventkey": "suscipit",
+  "Eventmess": "sit",
+  "ExtraInfo": 242,
+  "Owner": 575,
+  "UpdatedCount": 448,
+  "Registered": "2006-10-05T12:15:27.4076303+02:00",
   "ActivatedBy": null
 }
 ```
@@ -120,22 +120,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 209,
+  "SystemEventId": 429,
   "Scope": "Database",
-  "Eta": "2004-04-03T11:22:45.225579+02:00",
-  "Eventkey": "et",
-  "Eventmess": "nisi",
-  "ExtraInfo": 181,
-  "Owner": 564,
-  "UpdatedCount": 859,
-  "Registered": "2011-04-29T11:22:45.225579+02:00",
+  "Eta": "2016-05-31T12:15:27.4086292+02:00",
+  "Eventkey": "repellendus",
+  "Eventmess": "impedit",
+  "ExtraInfo": 903,
+  "Owner": 290,
+  "UpdatedCount": 204,
+  "Registered": "2002-02-18T12:15:27.4086292+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 603
     }
   },
   "_Links": {

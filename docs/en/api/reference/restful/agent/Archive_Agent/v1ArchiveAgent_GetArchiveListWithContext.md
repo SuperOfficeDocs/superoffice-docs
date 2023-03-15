@@ -104,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hagenes-Balistreri",
-  "ProviderName": "Hahn Inc and Sons",
+  "GuiName": "Koelpin LLC",
+  "ProviderName": "Fay, Schmidt and Ullrich",
   "SortOrder": [
     {
-      "Name": "Skiles Group",
+      "Name": "Davis Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Skiles Group",
+      "Name": "Davis Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Turcotte LLC",
-      "Operator": "vitae",
+      "Name": "Koch, Reinger and Hermann",
+      "Operator": "consequuntur",
       "Values": [
-        "veritatis",
-        "doloribus"
+        "nemo",
+        "rerum"
       ],
       "DisplayValues": [
-        "est",
-        "maiores"
+        "ipsam",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,18 +138,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 117,
+      "InterParenthesis": 635,
       "InterOperator": "And",
-      "UniqueHash": 368
+      "UniqueHash": 35
     }
   ],
   "Entities": [
-    "odit",
-    "sequi"
+    "similique",
+    "veritatis"
   ],
-  "Page": 662,
-  "PageSize": 756,
-  "Context": "eaque"
+  "Page": 130,
+  "PageSize": 848,
+  "Context": "sunt"
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jenkins Inc and Sons",
-    "PrimaryKey": 212,
+    "EntityName": "Jones, Schumm and Terry",
+    "PrimaryKey": 337,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "veniam",
-        "TooltipHint": "ut",
-        "LinkHint": "doloremque"
+        "DisplayValue": "in",
+        "TooltipHint": "cum",
+        "LinkHint": "delectus"
       }
     },
-    "LinkHint": "eum",
-    "StyleHint": "labore",
+    "LinkHint": "assumenda",
+    "StyleHint": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldType": "System.Int32",
+        "FieldLength": 820
       }
     }
   }

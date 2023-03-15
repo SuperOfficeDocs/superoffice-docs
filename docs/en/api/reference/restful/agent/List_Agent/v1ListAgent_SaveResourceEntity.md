@@ -78,13 +78,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 837,
-  "Name": "Heaney LLC",
-  "Rank": 378,
-  "Tooltip": "magni",
+  "ResourceId": 165,
+  "Name": "Boehm-Sanford",
+  "Rank": 250,
+  "Tooltip": "a",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "sit"
+  "LocationAddress": "distinctio"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 437,
-  "Name": "Ankunding Group",
-  "Rank": 499,
-  "Tooltip": "incidunt",
+  "ResourceId": 936,
+  "Name": "Cassin, Purdy and Ritchie",
+  "Rank": 965,
+  "Tooltip": "tempore",
   "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "porro",
+  "IsLocation": false,
+  "LocationAddress": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

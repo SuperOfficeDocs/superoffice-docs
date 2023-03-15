@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 172
+  "SelectionId": 378
 }
 ```
 
@@ -91,58 +91,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fay, Deckow and Murphy",
-    "Description": "Extended dedicated matrices",
-    "Rank": 406,
+    "Name": "Bailey LLC",
+    "Description": "Multi-lateral global architecture",
+    "Rank": 357,
     "Restrictions": [
       {
-        "Name": "Prohaska, Wunsch and Klocko",
-        "Operator": "iure",
+        "Name": "Kertzmann, Rath and Blanda",
+        "Operator": "ex",
         "Values": [
-          "ipsum",
-          "fugiat"
+          "sit",
+          "omnis"
         ],
         "DisplayValues": [
-          "qui",
-          "voluptas"
+          "quae",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 956,
+        "InterParenthesis": 568,
         "InterOperator": "And",
-        "UniqueHash": 774
+        "UniqueHash": 139
       }
     ]
   },
   {
-    "Name": "Fay, Deckow and Murphy",
-    "Description": "Extended dedicated matrices",
-    "Rank": 406,
+    "Name": "Bailey LLC",
+    "Description": "Multi-lateral global architecture",
+    "Rank": 357,
     "Restrictions": [
       {
-        "Name": "Prohaska, Wunsch and Klocko",
-        "Operator": "iure",
+        "Name": "Kertzmann, Rath and Blanda",
+        "Operator": "ex",
         "Values": [
-          "ipsum",
-          "fugiat"
+          "sit",
+          "omnis"
         ],
         "DisplayValues": [
-          "qui",
-          "voluptas"
+          "quae",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 956,
+        "InterParenthesis": 568,
         "InterOperator": "And",
-        "UniqueHash": 774
+        "UniqueHash": 139
       }
     ]
   }

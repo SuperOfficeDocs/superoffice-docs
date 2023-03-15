@@ -63,29 +63,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 522,
-      "DisplayName": "Koch, Treutel and Breitenberg",
-      "OngoingChats": 872,
+      "UserId": 973,
+      "DisplayName": "McLaughlin, Conn and O'Reilly",
+      "OngoingChats": 996,
       "Present": false,
       "ChatTopics": [
-        739,
-        876
+        748,
+        681
       ]
     },
     {
-      "UserId": 522,
-      "DisplayName": "Koch, Treutel and Breitenberg",
-      "OngoingChats": 872,
+      "UserId": 973,
+      "DisplayName": "McLaughlin, Conn and O'Reilly",
+      "OngoingChats": 996,
       "Present": false,
       "ChatTopics": [
-        739,
-        876
+        748,
+        681
       ]
     }
   ]

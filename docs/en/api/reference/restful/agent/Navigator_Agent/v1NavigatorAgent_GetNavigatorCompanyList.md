@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Value": "iste",
-    "Tooltip": "sed",
+    "Id": 709,
+    "Value": "omnis",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 559
       }
     }
   },
   {
-    "Id": 17,
-    "Value": "iste",
-    "Tooltip": "sed",
+    "Id": 709,
+    "Value": "omnis",
+    "Tooltip": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldLength": 559
       }
     }
   }

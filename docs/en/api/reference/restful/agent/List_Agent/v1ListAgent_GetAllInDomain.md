@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 37,
+    "HierarchyId": 353,
     "Domain": "Dashboards",
-    "Name": "Eichmann LLC",
-    "Fullname": "voluptas",
-    "ParentId": 862,
+    "Name": "Windler-Paucek",
+    "Fullname": "quis",
+    "ParentId": 928,
     "Children": [
       {
-        "HierarchyId": 40,
+        "HierarchyId": 709,
         "Domain": "Dashboards",
-        "Name": "Schaden, Kautzer and Borer",
-        "Fullname": "esse",
-        "ParentId": 202,
+        "Name": "Hansen-Torphy",
+        "Fullname": "omnis",
+        "ParentId": 64,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2005-06-20T11:22:38.5084132+02:00",
-        "RegisteredAssociateId": 647,
-        "Updated": "2017-01-30T11:22:38.5084132+01:00",
-        "UpdatedAssociateId": 20,
+        "Registered": "2003-02-01T12:15:19.3117468+01:00",
+        "RegisteredAssociateId": 432,
+        "Updated": "2019-01-05T12:15:19.3117468+01:00",
+        "UpdatedAssociateId": 246,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 590
+            "FieldLength": 45
           }
         }
       }
     ],
-    "Registered": "2015-08-27T11:22:38.5084132+02:00",
-    "RegisteredAssociateId": 340,
-    "Updated": "2021-10-23T11:22:38.5084132+02:00",
-    "UpdatedAssociateId": 484,
+    "Registered": "2014-02-24T12:15:19.3117468+01:00",
+    "RegisteredAssociateId": 443,
+    "Updated": "2004-10-12T12:15:19.3117468+02:00",
+    "UpdatedAssociateId": 217,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldType": "System.String",
+        "FieldLength": 367
       }
     }
   }

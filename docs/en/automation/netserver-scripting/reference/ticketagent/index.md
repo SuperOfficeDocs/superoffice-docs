@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 11.29.2022
+so.date: 03.01.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -20,6 +20,8 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [BatchForward](batchforward.md)
 * [BatchReply](batchreply.md)
 * [CalculateMessageRecipients](calculatemessagerecipients.md)
+* [ClearNotify](clearnotify.md)
+* [CopyFromCRMDocument](copyfromcrmdocument.md)
 * [CreateDefaultAttachmentEntity](createdefaultattachmententity.md)
 * [CreateDefaultTicketEntity](createdefaultticketentity.md)
 * [CreateDefaultTicketMessageEntity](createdefaultticketmessageentity.md)
@@ -32,6 +34,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [GetAttachmentStream](getattachmentstream.md)
 * [GetDefaultMessageContent](getdefaultmessagecontent.md)
 * [GetForRmUi](getforrmui.md)
+* [GetNextInQueue](getnextinqueue.md)
 * [GetPreviewAttachmentStream](getpreviewattachmentstream.md)
 * [GetTicket](getticket.md)
 * [GetTicketAttachments](getticketattachments.md)
@@ -39,6 +42,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [GetTicketMessage](getticketmessage.md)
 * [GetTicketMessageEntity](getticketmessageentity.md)
 * [GetTicketMessageWithEmbeddedData](getticketmessagewithembeddeddata.md)
+* [GetTicketMessageWithOptions](getticketmessagewithoptions.md)
 * [GetTickets](gettickets.md)
 * [GetTicketSummaries](getticketsummaries.md)
 * [Html2Text](html2text.md)
@@ -64,7 +68,9 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.ITicketAgent'>T
 * [SetTicketReadByOwner](setticketreadbyowner.md)
 * [SplitTicket](splitticket.md)
 * [SplitTicketMessage](splitticketmessage.md)
+* [UndeleteByIds](undeletebyids.md)
 * [UpdateTicketsReadStatus](updateticketsreadstatus.md)
 * [UpdateTicketsReadStatusByProvider](updateticketsreadstatusbyprovider.md)
 * [UploadAttachment](uploadattachment.md)
+* [ValidateAttachments](validateattachments.md)
 

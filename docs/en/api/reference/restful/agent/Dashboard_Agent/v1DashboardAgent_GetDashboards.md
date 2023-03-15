@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 635
+  "AssociateId": 337
 }
 ```
 
@@ -92,22 +92,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 878,
-    "AssociateId": 646,
-    "Caption": "porro",
+    "DashboardId": 911,
+    "AssociateId": 206,
+    "Caption": "ut",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 67,
-        "Caption": "et",
-        "Description": "Polarised 24 hour moderator",
-        "ChartName": "Kunze, Gleason and Rowe",
-        "ChartId": "aut",
-        "IsDefault": true,
-        "AssociateId": 206,
-        "GroupId": 983,
-        "SelectionId": 887,
-        "Config": "quia",
+        "DashboardTileId": 851,
+        "Caption": "amet",
+        "Description": "Down-sized fault-tolerant matrix",
+        "ChartName": "Turner LLC",
+        "ChartId": "corrupti",
+        "IsDefault": false,
+        "AssociateId": 820,
+        "GroupId": 96,
+        "SelectionId": 808,
+        "Config": "sit",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 439
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 474
+        "FieldType": "System.String",
+        "FieldLength": 506
       }
     }
   }

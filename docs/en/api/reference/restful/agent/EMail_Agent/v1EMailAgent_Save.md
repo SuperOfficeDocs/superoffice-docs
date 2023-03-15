@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 514,
-      "ContactName": "Kautzer-Jerde",
-      "PersonId": 414,
-      "PersonName": "Raynor Group",
-      "AssociateId": 776,
-      "Address": "quia",
-      "EmailId": 370,
+      "ContactId": 370,
+      "ContactName": "Satterfield-Tremblay",
+      "PersonId": 849,
+      "PersonName": "Rempel, O'Hara and Botsford",
+      "AssociateId": 179,
+      "Address": "et",
+      "EmailId": 903,
       "DuplicatePersonIds": [
-        57,
-        328
+        702,
+        183
       ],
-      "Name": "Bauch-Kuvalis",
+      "Name": "Quigley, Olson and Macejkovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 852
+          "FieldType": "System.Int32",
+          "FieldLength": 470
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 390,
-      "ContactName": "Bashirian, Johnson and Walsh",
-      "PersonId": 703,
-      "PersonName": "Barton, Wilkinson and Turner",
-      "AssociateId": 708,
-      "Address": "velit",
-      "EmailId": 824,
+      "ContactId": 319,
+      "ContactName": "Koepp, Prohaska and Hilll",
+      "PersonId": 995,
+      "PersonName": "Zemlak, Koelpin and Russel",
+      "AssociateId": 174,
+      "Address": "inventore",
+      "EmailId": 29,
       "DuplicatePersonIds": [
-        930,
-        904
+        868,
+        306
       ],
-      "Name": "Bartell, Thompson and Schulist",
+      "Name": "Sauer-Labadie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 977
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 239,
-      "ContactName": "Parker Group",
-      "PersonId": 959,
-      "PersonName": "Kirlin, Jast and Grimes",
-      "AssociateId": 276,
-      "Address": "delectus",
-      "EmailId": 50,
+      "ContactId": 634,
+      "ContactName": "Blanda-Kemmer",
+      "PersonId": 71,
+      "PersonName": "Donnelly-Gulgowski",
+      "AssociateId": 473,
+      "Address": "laborum",
+      "EmailId": 256,
       "DuplicatePersonIds": [
-        563,
-        605
+        517,
+        347
       ],
-      "Name": "Kihn-Trantow",
+      "Name": "Auer-Wilkinson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 849
+          "FieldLength": 859
         }
       }
     }
   ],
-  "Subject": "dolorem",
-  "HTMLBody": "optio",
+  "Subject": "exercitationem",
+  "HTMLBody": "maxime",
   "From": null,
-  "Sent": "2003-10-07T11:22:38.1803656+02:00",
-  "Size": 436,
+  "Sent": "2011-12-07T12:15:18.907753+01:00",
+  "Size": 204,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "odit",
-  "PlainBody": "non",
-  "IsSent": false,
+  "MessageID": "accusantium",
+  "PlainBody": "dolor",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 707,
+  "ServerId": 469,
   "Attachments": [
     {
-      "Description": "Balanced dynamic neural-net",
-      "Filename": "repudiandae",
-      "Size": 688,
-      "Type": "praesentium",
-      "Encoding": "cupiditate",
-      "Id": "aliquam",
-      "Disposition": "voluptas",
+      "Description": "Streamlined bifurcated projection",
+      "Filename": "unde",
+      "Size": 39,
+      "Type": "veritatis",
+      "Encoding": "in",
+      "Id": "et",
+      "Disposition": "ad",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Shields Group",
+      "Name": "Kreiger-Hoppe",
       "Values": [
-        "ullam",
-        "aut"
+        "aut",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 911
         }
       }
     },
     {
-      "Name": "Shields Group",
+      "Name": "Kreiger-Hoppe",
       "Values": [
-        "ullam",
-        "aut"
+        "aut",
+        "dolorem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 911
         }
       }
     }
   ],
-  "FolderName": "Lowe-Rippin",
-  "EmailItemId": 125,
-  "AccountId": 787,
-  "ReceivedAt": "2013-12-10T11:22:38.1803656+01:00",
+  "FolderName": "Effertz-Botsford",
+  "EmailItemId": 778,
+  "AccountId": 303,
+  "ReceivedAt": "2003-11-22T12:15:18.907753+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-04-09T11:22:38.1803656+02:00",
+  "RepliedAt": "2003-09-07T12:15:18.907753+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

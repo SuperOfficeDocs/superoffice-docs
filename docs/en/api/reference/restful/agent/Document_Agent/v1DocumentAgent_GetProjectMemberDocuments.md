@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 293,
-  "StartTime": "1995-09-13T11:22:37.8523182+02:00",
-  "EndTime": "2022-12-27T11:22:37.8523182+01:00",
-  "Count": 69
+  "PersonId": 718,
+  "StartTime": "2019-08-12T12:15:18.7217552+02:00",
+  "EndTime": "2009-04-29T12:15:18.7217552+02:00",
+  "Count": 292
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 958,
-    "Attention": "nihil",
-    "Header": "quas",
-    "Name": "Muller-Wisoky",
-    "OurRef": "commodi",
-    "YourRef": "facilis",
-    "Description": "Networked solution-oriented encoding",
-    "DocumentTemplate": "quo",
+    "DocumentId": 795,
+    "Attention": "neque",
+    "Header": "eum",
+    "Name": "Boyle-Williamson",
+    "OurRef": "in",
+    "YourRef": "doloribus",
+    "Description": "Team-oriented systematic matrix",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 849,
-    "PersonFullName": "Mrs. Lyla Tanner Cassin DDS",
-    "AssociateFullName": "Lempi Lueilwitz",
-    "ContactId": 236,
-    "ContactName": "Hyatt, Fisher and Ebert",
-    "ProjectId": 906,
-    "ProjectName": "Lubowitz-Labadie",
-    "AssociateId": 659,
-    "Snum": 883,
-    "SaleId": 413,
-    "SaleName": "Murazik-Watsica",
+    "PersonId": 196,
+    "PersonFullName": "Leif Mante",
+    "AssociateFullName": "Miss Arlene Kane Bins PhD",
+    "ContactId": 326,
+    "ContactName": "Jerde-Spencer",
+    "ProjectId": 491,
+    "ProjectName": "Morissette, Muller and Wisoky",
+    "AssociateId": 735,
+    "Snum": 210,
+    "SaleId": 939,
+    "SaleName": "Heller-Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 271
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

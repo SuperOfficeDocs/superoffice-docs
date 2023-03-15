@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Quigley, Reichert and Cartwright",
-  "DeviceName": "Herman-Zieme",
-  "DeviceIdentifier": "commodi"
+  "ApplicationName": "Windler Inc and Sons",
+  "DeviceName": "Heidenreich-Lakin",
+  "DeviceIdentifier": "sit"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eligendi",
-  "Value": "atque",
-  "RecordId": 466,
-  "CreatedDate": "1996-02-11T11:22:38.3834434+01:00",
-  "UpdatedDate": "2022-08-11T11:22:38.3834434+02:00",
-  "UpdatedBy": "dolor",
-  "CreatedBy": "hic",
-  "TableName": "Halvorson, Willms and Beer",
+  "Key": "quod",
+  "Value": "repudiandae",
+  "RecordId": 851,
+  "CreatedDate": "1997-01-01T12:15:19.1587494+01:00",
+  "UpdatedDate": "2006-03-30T12:15:19.1587494+02:00",
+  "UpdatedBy": "numquam",
+  "CreatedBy": "eum",
+  "TableName": "Rowe-Ernser",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 244
+      "FieldType": "System.Int32",
+      "FieldLength": 16
     }
   }
 }

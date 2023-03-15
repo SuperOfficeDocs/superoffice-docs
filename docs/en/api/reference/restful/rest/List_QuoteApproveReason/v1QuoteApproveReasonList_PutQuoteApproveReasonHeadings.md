@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 976,
-    "Name": "Kuphal Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 314,
-    "UdListDefinitionId": 790
+    "HeadingId": 473,
+    "Name": "Bosco, Hettinger and Bergstrom",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "Rank": 710,
+    "UdListDefinitionId": 947
   },
   {
-    "HeadingId": 976,
-    "Name": "Kuphal Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 314,
-    "UdListDefinitionId": 790
+    "HeadingId": 473,
+    "Name": "Bosco, Hettinger and Bergstrom",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "Rank": 710,
+    "UdListDefinitionId": 947
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 844,
-    "Name": "Langworth Group",
-    "Tooltip": "amet",
+    "HeadingId": 104,
+    "Name": "O'Conner-Jacobi",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 782,
-    "UdListDefinitionId": 127,
+    "Rank": 879,
+    "UdListDefinitionId": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 909
       }
     }
   }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 718,
-  "TopicId": 531,
+  "ChatSessionId": 598,
+  "TopicId": 193,
   "User": null,
   "Person": null,
-  "CustomerAlias": "veniam",
-  "CustomerHost": "consectetur",
-  "CustomerName": "VonRueden LLC",
-  "CustomerEmail": "addison@hackett.biz",
-  "CustomerPhone": "612-585-7321 x570",
+  "CustomerAlias": "quibusdam",
+  "CustomerHost": "sed",
+  "CustomerName": "Price Inc and Sons",
+  "CustomerEmail": "beulah_farrell@hessel.info",
+  "CustomerPhone": "474.189.8439 x470",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schaden, Collier and Hintz",
+  "CustomerCompanyName": "Boyer-Leffler",
   "Status": "Closed",
-  "FirstMessage": "harum",
-  "LastMessage": "et",
-  "WhenRequested": "2010-10-17T11:22:44.4132819+02:00",
-  "WhenStarted": "2005-05-14T11:22:44.4132819+02:00",
-  "WhenEnded": "1998-05-30T11:22:44.4132819+02:00",
-  "WhenIdle": "2020-10-29T11:22:44.4132819+01:00",
-  "WhenFetched": "2001-03-07T11:22:44.4132819+01:00",
-  "SessionKey": "id",
-  "InitialQueuePos": 508,
-  "AlertLevel": 698,
-  "Rank": 197,
+  "FirstMessage": "enim",
+  "LastMessage": "tempore",
+  "WhenRequested": "2019-01-11T12:15:26.508642+01:00",
+  "WhenStarted": "2015-07-31T12:15:26.508642+02:00",
+  "WhenEnded": "2003-08-31T12:15:26.508642+02:00",
+  "WhenIdle": "1996-09-20T12:15:26.508642+02:00",
+  "WhenFetched": "2007-09-05T12:15:26.508642+02:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 691,
+  "AlertLevel": 938,
+  "Rank": 223,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 373,
+  "ChatbotIsActive": false,
+  "Rating": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldType": "System.String",
+      "FieldLength": 686
     }
   }
 }

@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "McCullough-Wyman",
-    "AssociateId": 646,
-    "DetailsTable": 756,
-    "DetailsRecord": 164,
-    "IsSystemTask": false,
+    "Id": 774,
+    "Name": "Marvin Inc and Sons",
+    "AssociateId": 569,
+    "DetailsTable": 415,
+    "DetailsRecord": 897,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "cupiditate",
-      "ParameterObject2": "quas"
+      "ParameterObject1": "quis",
+      "ParameterObject2": "modi"
     },
-    "LastStarted": "2006-05-13T11:22:37.4461725+02:00",
-    "Created": "2005-05-26T11:22:37.4461725+02:00",
-    "StartCount": 894,
-    "DatabaseSerialNumber": "1323860",
-    "Context": "qui",
-    "Result": "minima",
+    "LastStarted": "2022-07-06T12:15:18.2047623+02:00",
+    "Created": "2005-12-24T12:15:18.2047623+01:00",
+    "StartCount": 452,
+    "DatabaseSerialNumber": "894620",
+    "Context": "nihil",
+    "Result": "quis",
     "State": "All",
-    "Description": "Seamless high-level pricing structure",
-    "Response": "consectetur",
-    "Request": "molestias",
-    "ProgressDescription": "Compatible 24/7 utilisation",
-    "ProgressPercent": 726,
-    "FileName": "Fadel, Keeling and Adams",
+    "Description": "Reduced national hierarchy",
+    "Response": "voluptatem",
+    "Request": "ducimus",
+    "ProgressDescription": "Cross-platform interactive capability",
+    "ProgressPercent": 95,
+    "FileName": "Ondricka-Bartoletti",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 232
+        "FieldType": "System.Int32",
+        "FieldLength": 318
       }
     }
   }

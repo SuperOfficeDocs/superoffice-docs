@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 173,
-  "Name": "Toy-Walsh"
+  "SelectionId": 39,
+  "Name": "Schroeder Group"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile zero tolerance open system",
-  "Postit": "sit",
+  "Description": "Proactive mission-critical firmware",
+  "Postit": "dicta",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 417,
-  "IncludePerson": 539,
-  "MemberCount": 782,
-  "Name": "Sawayn, Torp and Towne",
-  "PostitTextId": 265,
-  "CreatedDate": "2011-12-31T11:22:39.3207231+01:00",
-  "SelectionId": 926,
-  "SoundEx": "ut",
-  "Source": 551,
-  "TextId": 73,
-  "UpdatedDate": "2020-10-17T11:22:39.3207231+02:00",
-  "UpdatedCount": 408,
-  "Visibility": 381,
+  "GroupIdx": 171,
+  "IncludePerson": 980,
+  "MemberCount": 374,
+  "Name": "Gutkowski Inc and Sons",
+  "PostitTextId": 807,
+  "CreatedDate": "2011-07-29T12:15:20.1897338+02:00",
+  "SelectionId": 264,
+  "SoundEx": "et",
+  "Source": 134,
+  "TextId": 318,
+  "UpdatedDate": "1995-11-20T12:15:20.1897338+01:00",
+  "UpdatedCount": 84,
+  "Visibility": 279,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 119,
-  "TargetTableName": "Schroeder, Lindgren and Ritchie",
-  "Completed": true,
-  "LeftSelectionId": 806,
-  "RightSelectionId": 222,
+  "TargetTableNumber": 663,
+  "TargetTableName": "Fadel, Sipes and Blick",
+  "Completed": false,
+  "LeftSelectionId": 825,
+  "RightSelectionId": 527,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wintheiser, Moen and Schowalter",
-  "ShadowProviderName": "Reichert, Bartell and Heller",
-  "ChartKey": "aliquam",
-  "LastLoaded": "2013-02-01T11:22:39.3207231+01:00",
-  "LastLoadedBy": 485,
+  "MainProviderName": "Daniel-O'Keefe",
+  "ShadowProviderName": "Greenholt, Becker and Nicolas",
+  "ChartKey": "id",
+  "LastLoaded": "1995-10-16T12:15:20.1897338+02:00",
+  "LastLoadedBy": 284,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-04-30T11:22:39.3207231+02:00",
-  "LastMembershipChangeBy": 593,
+  "LastMembershipChange": "2009-01-15T12:15:20.1907337+01:00",
+  "LastMembershipChangeBy": 644,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odio",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Collier Inc and Sons",
-  "DashboardTileDefinitionId": 430,
+  "MainHeading": "exercitationem",
+  "MemberTabHeading": "corporis",
+  "MailingsProviderName": "Murray LLC",
+  "DashboardTileDefinitionId": 843,
   "VisibleFor": [
     {
-      "VisibleId": 309,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     },
     {
-      "VisibleId": 309,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldType": "System.String",
+          "FieldLength": 488
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

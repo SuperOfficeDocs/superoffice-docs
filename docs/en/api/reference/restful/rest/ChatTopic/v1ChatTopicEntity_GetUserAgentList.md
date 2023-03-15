@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Brown, Armstrong and Lubowitz",
-    "ToolTip": "Eum ducimus rerum impedit.",
-    "Deleted": true,
-    "Rank": 103,
-    "Type": "eum",
+    "Id": 789,
+    "Name": "Bins-Bartell",
+    "ToolTip": "Accusamus dolores et quae qui sequi consequatur.",
+    "Deleted": false,
+    "Rank": 53,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Rippin-Murphy",
-        "ToolTip": "Voluptate hic a vitae accusantium aliquam laudantium.",
+        "Id": 844,
+        "Name": "Robel-Borer",
+        "ToolTip": "Explicabo adipisci voluptas ut est nam.",
         "Deleted": false,
-        "Rank": 325,
-        "Type": "accusantium",
+        "Rank": 475,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 989,
-        "ExtraInfo": "fuga",
-        "StyleHint": "neque",
-        "FullName": "Kali Stamm DVM",
+        "IconHint": "culpa",
+        "ColorBlock": 185,
+        "ExtraInfo": "alias",
+        "StyleHint": "dignissimos",
+        "FullName": "Elwin Murray III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 130
+            "FieldLength": 860
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 958,
-    "ExtraInfo": "occaecati",
-    "StyleHint": "id",
-    "FullName": "Ms. Garth Hackett DVM",
+    "IconHint": "incidunt",
+    "ColorBlock": 388,
+    "ExtraInfo": "libero",
+    "StyleHint": "voluptates",
+    "FullName": "Zion Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldType": "System.String",
+        "FieldLength": 887
       }
     }
   }

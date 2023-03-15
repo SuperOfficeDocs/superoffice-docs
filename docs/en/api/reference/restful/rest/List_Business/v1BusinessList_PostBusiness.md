@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 371,
-  "Name": "Rau LLC",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "UdListDefinitionId": 780,
-  "Rank": 305
+  "Id": 473,
+  "Name": "Lowe-Carroll",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 295,
+  "Rank": 512
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 931,
-  "Name": "Mitchell-Oberbrunner",
-  "Tooltip": "quis",
+  "Id": 666,
+  "Name": "Raynor Inc and Sons",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 570,
-  "Rank": 174,
+  "UdListDefinitionId": 550,
+  "Rank": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 930
     }
   }
 }

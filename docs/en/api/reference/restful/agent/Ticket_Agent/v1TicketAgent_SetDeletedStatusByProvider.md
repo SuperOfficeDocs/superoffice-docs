@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stoltenberg LLC",
+  "ProviderName": "Wiegand-Schumm",
   "Restrictions": [
     {
-      "Name": "Walsh Inc and Sons",
-      "Operator": "ipsa",
+      "Name": "Orn, Hayes and Dietrich",
+      "Operator": "ut",
       "Values": [
-        "consectetur",
-        "laudantium"
+        "vel",
+        "consectetur"
       ],
       "DisplayValues": [
-        "quibusdam",
-        "dolorem"
+        "quia",
+        "molestiae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 242,
+      "InterParenthesis": 408,
       "InterOperator": "And",
-      "UniqueHash": 692
+      "UniqueHash": 466
     }
   ]
 }
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  739,
-  311
+  763,
+  650
 ]
 ```

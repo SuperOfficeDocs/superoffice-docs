@@ -80,15 +80,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vero",
-  "ProviderName": "Douglas Group",
-  "StorageKey": "laboriosam",
-  "PageSize": 565,
-  "PageNumber": 354
+  "StorageType": "debitis",
+  "ProviderName": "Koss-Leffler",
+  "StorageKey": "consequatur",
+  "PageSize": 470,
+  "PageNumber": 43
 }
 ```
 
@@ -101,51 +101,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Romaguera, Zboncak and Herman",
-      "DisplayTooltip": "rem",
-      "DisplayType": "enim",
+      "DisplayName": "Corwin Group",
+      "DisplayTooltip": "architecto",
+      "DisplayType": "similique",
       "CanOrderBy": false,
-      "Name": "Cummerata LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "laborum",
-      "RestrictionListName": "Gaylord, Barton and Medhurst",
+      "Name": "Homenick-Leannon",
+      "CanRestrictBy": false,
+      "RestrictionType": "ab",
+      "RestrictionListName": "Klein Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "voluptatibus",
-      "Width": "quaerat",
-      "IconHint": "nihil",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "fuga",
+      "Width": "quo",
+      "IconHint": "qui",
+      "HeadingIconHint": "eaque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Paucek-Beatty",
-      "PrimaryKey": 743,
+      "EntityName": "Altenwerth Inc and Sons",
+      "PrimaryKey": 72,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "soluta",
-          "TooltipHint": "nulla",
-          "LinkHint": "eaque"
+          "DisplayValue": "totam",
+          "TooltipHint": "voluptate",
+          "LinkHint": "quam"
         }
       },
-      "LinkHint": "quam",
-      "StyleHint": "repellendus",
+      "LinkHint": "amet",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 226
+          "FieldType": "System.Int32",
+          "FieldLength": 388
         }
       }
     }
   ],
-  "RowCount": 330,
+  "RowCount": 245,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

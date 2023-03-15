@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Emmerich Inc and Sons",
-    "ToolTip": "Ea et sunt reiciendis rerum.",
-    "Deleted": true,
-    "Rank": 274,
-    "Type": "ea",
-    "ColorBlock": 242,
-    "IconHint": "consequatur",
+    "Id": 891,
+    "Name": "Bechtelar, Schaden and Conroy",
+    "ToolTip": "Ratione quo voluptatem.",
+    "Deleted": false,
+    "Rank": 637,
+    "Type": "placeat",
+    "ColorBlock": 433,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2012-08-02T11:22:45.8191493+02:00",
+    "LastChanged": "2002-01-04T12:15:27.9326215+01:00",
     "ChildItems": [
       {
-        "Id": 860,
-        "Name": "Price Inc and Sons",
-        "ToolTip": "Iste animi a enim dolorum consequuntur dolorem dignissimos.",
-        "Deleted": true,
-        "Rank": 521,
-        "Type": "non",
-        "ColorBlock": 948,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2017-07-25T11:22:45.8191493+02:00",
+        "Id": 922,
+        "Name": "Dooley Inc and Sons",
+        "ToolTip": "Voluptatem culpa voluptatem iure laborum aperiam perspiciatis.",
+        "Deleted": false,
+        "Rank": 789,
+        "Type": "laborum",
+        "ColorBlock": 907,
+        "IconHint": "iusto",
+        "Selected": true,
+        "LastChanged": "2001-05-05T12:15:27.9326215+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Frederic Green"
+        "ExtraInfo": "tenetur",
+        "StyleHint": "officia",
+        "Hidden": true,
+        "FullName": "Mr. Howell Emmerich DVM"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Mrs. Brody Clay Murray DVM"
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Krystel Herman"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Fay-Rolfson",
-    "ToolTip": "Ut nostrum ea qui.",
-    "Deleted": true,
-    "Rank": 47,
-    "Type": "deleniti",
-    "ColorBlock": 132,
-    "IconHint": "ut",
+    "Id": 595,
+    "Name": "Willms LLC",
+    "ToolTip": "Repellendus illum sint laboriosam est minima et.",
+    "Deleted": false,
+    "Rank": 918,
+    "Type": "autem",
+    "ColorBlock": 158,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2017-06-29T11:22:45.8191493+02:00",
+    "LastChanged": "2002-09-30T12:15:27.9335925+02:00",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "O'Connell, Herzog and Krajcik",
-        "ToolTip": "Inventore voluptatem magni ea optio modi architecto consequuntur.",
+        "Id": 855,
+        "Name": "Bernhard, Thiel and Gerlach",
+        "ToolTip": "Odit ab omnis dignissimos veniam.",
         "Deleted": false,
-        "Rank": 349,
-        "Type": "aliquam",
-        "ColorBlock": 419,
-        "IconHint": "molestiae",
+        "Rank": 224,
+        "Type": "occaecati",
+        "ColorBlock": 830,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "1997-05-23T11:22:45.8191493+02:00",
+        "LastChanged": "2000-02-02T12:15:27.9346213+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Shaun Kerluke",
+        "ExtraInfo": "ut",
+        "StyleHint": "esse",
+        "Hidden": true,
+        "FullName": "Reba Jacobs",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 459
+            "FieldType": "System.String",
+            "FieldLength": 656
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "sit",
+    "ExtraInfo": "labore",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Emmanuelle Herzog",
+    "FullName": "Jaquelin Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 539
       }
     }
   }

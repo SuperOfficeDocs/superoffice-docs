@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 87,
-    "Name": "Rice LLC",
-    "Tooltip": "voluptas",
+    "WebPanelId": 427,
+    "Name": "Kulas LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 167,
+    "Rank": 338,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Rutherford Group",
+    "ShowInStatusBar": false,
+    "WindowName": "Jakubowski Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "ut",
-    "Icon": 962,
+    "ProgId": "sint",
+    "Icon": 847,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 30
       }
     }
   }

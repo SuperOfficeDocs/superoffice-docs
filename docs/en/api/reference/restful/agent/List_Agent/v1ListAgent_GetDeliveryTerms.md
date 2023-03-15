@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/GetDeliveryTerms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Value": "omnis",
-    "Tooltip": "cupiditate",
+    "Id": 773,
+    "Value": "numquam",
+    "Tooltip": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 428
       }
     }
   },
   {
-    "Id": 776,
-    "Value": "omnis",
-    "Tooltip": "cupiditate",
+    "Id": 773,
+    "Value": "numquam",
+    "Tooltip": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 428
       }
     }
   }

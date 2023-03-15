@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Schiller-Little",
-  "Tooltip": "laudantium",
+  "Id": 936,
+  "Name": "Senger-McClure",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 175,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": false
+  "Rank": 631,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "earum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 234,
-  "Name": "Mayer-Hermiston",
-  "Tooltip": "unde",
+  "Id": 553,
+  "Name": "Smith Inc and Sons",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "Rank": 502,
-  "IsCustomList": true,
+  "Rank": 858,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolore",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 991
+      "FieldLength": 616
     }
   }
 }

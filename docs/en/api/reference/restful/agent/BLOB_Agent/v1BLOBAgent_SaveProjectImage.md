@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/BLOB/SaveProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Visionary 4th generation access",
+  "Description": "Universal fresh-thinking flexibility",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

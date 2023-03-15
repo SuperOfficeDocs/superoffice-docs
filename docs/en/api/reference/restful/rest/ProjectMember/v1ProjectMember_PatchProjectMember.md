@@ -127,18 +127,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "itaque",
+    "path": "cum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "itaque",
+    "path": "cum",
     "value": {}
   }
 ]
@@ -151,33 +151,33 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 393,
-  "ContactId": 550,
-  "ProjectId": 348,
-  "ContactName": "Dicki, Swift and Oberbrunner",
+  "ProjectmemberId": 651,
+  "ContactId": 556,
+  "ProjectId": 443,
+  "ContactName": "Toy, Ondricka and Willms",
   "ContactDepartment": "",
-  "ProjectName": "Schmitt Group",
-  "EmailId": 263,
-  "EmailAddress": "ezekiel@carter.us",
-  "CountryId": 222,
-  "Firstname": "Marjorie",
-  "MiddleName": "Schowalter LLC",
-  "Lastname": "Cummings",
-  "PersonId": 824,
-  "Mrmrs": "eius",
-  "ProjectMemberTypeName": "Kemmer-Hartmann",
-  "Phone": "(385)458-9508",
-  "PhoneId": 48,
-  "ProjectMemberTypeId": 482,
-  "EmailAddressName": "immanuel@effertz.ca",
-  "Comment": "similique",
-  "FullName": "Emerson Reichel",
+  "ProjectName": "Morar Group",
+  "EmailId": 279,
+  "EmailAddress": "braulio@tromp.biz",
+  "CountryId": 343,
+  "Firstname": "Libby",
+  "MiddleName": "Reichert, Altenwerth and Graham",
+  "Lastname": "Fritsch",
+  "PersonId": 293,
+  "Mrmrs": "fugit",
+  "ProjectMemberTypeName": "Hane-Hessel",
+  "Phone": "(096)042-6004 x237",
+  "PhoneId": 324,
+  "ProjectMemberTypeId": 442,
+  "EmailAddressName": "andreanne_lubowitz@ebert.biz",
+  "Comment": "optio",
+  "FullName": "Prof. Larry Anya Hessel DVM",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   },
   "_Links": {

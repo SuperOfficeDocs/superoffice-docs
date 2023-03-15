@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 260
+  "SaleId": 135
 }
 ```
 
@@ -109,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 835,
-    "Attention": "at",
-    "Header": "facilis",
-    "Name": "Mueller LLC",
-    "OurRef": "similique",
-    "YourRef": "ut",
-    "Description": "Persistent eco-centric intranet",
-    "DocumentTemplate": "recusandae",
-    "IsPublished": true,
-    "PersonId": 592,
-    "PersonFullName": "Miss Ahmed Carley Daniel",
-    "AssociateFullName": "Jadon Wisozk",
-    "ContactId": 747,
-    "ContactName": "Maggio, Langworth and Beahan",
-    "ProjectId": 61,
-    "ProjectName": "Schultz, Kerluke and Gutkowski",
-    "AssociateId": 350,
-    "Snum": 145,
-    "SaleId": 838,
-    "SaleName": "Powlowski Inc and Sons",
+    "DocumentId": 393,
+    "Attention": "quia",
+    "Header": "fugiat",
+    "Name": "Friesen, Rolfson and Roberts",
+    "OurRef": "debitis",
+    "YourRef": "a",
+    "Description": "Pre-emptive bandwidth-monitored capability",
+    "DocumentTemplate": "neque",
+    "IsPublished": false,
+    "PersonId": 9,
+    "PersonFullName": "Prof. Pearl Columbus Eichmann",
+    "AssociateFullName": "Lorna Feest",
+    "ContactId": 150,
+    "ContactName": "Parker, Oberbrunner and Feeney",
+    "ProjectId": 398,
+    "ProjectName": "Veum-Luettgen",
+    "AssociateId": 127,
+    "Snum": 698,
+    "SaleId": 840,
+    "SaleName": "Hauck Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldLength": 67
       }
     }
   }

@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "praesentium",
-  "Key": "quam",
+  "Section": "temporibus",
+  "Key": "est",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 274,
-  "Section": "tempore",
-  "Key": "atque",
-  "Name": "Cormier Group",
+  "PrefDescId": 789,
+  "Section": "at",
+  "Key": "numquam",
+  "Name": "Miller LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Secured demand-driven hub",
+  "Description": "Vision-oriented regional model",
   "IsBuiltin": false,
-  "TableName": "Lueilwitz Inc and Sons",
-  "UserDefinedListId": 289,
-  "Rank": 183,
-  "SubGroup": "officia",
-  "MinLevel": 582,
-  "MaxValue": 600,
-  "MinValue": 780,
-  "RequiredLicense": "dicta",
+  "TableName": "Abshire-Jakubowski",
+  "UserDefinedListId": 79,
+  "Rank": 735,
+  "SubGroup": "dignissimos",
+  "MinLevel": 950,
+  "MaxValue": 897,
+  "MinValue": 358,
+  "RequiredLicense": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 805
     }
   }
 }

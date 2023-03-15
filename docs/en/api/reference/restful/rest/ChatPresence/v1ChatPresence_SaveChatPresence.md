@@ -57,28 +57,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 896,
-    "DisplayName": "Auer-Willms",
-    "OngoingChats": 283,
+    "UserId": 252,
+    "DisplayName": "Dach Inc and Sons",
+    "OngoingChats": 959,
     "Present": false,
     "ChatTopics": [
-      563,
-      85
+      303,
+      454
     ]
   },
   {
-    "UserId": 896,
-    "DisplayName": "Auer-Willms",
-    "OngoingChats": 283,
+    "UserId": 252,
+    "DisplayName": "Dach Inc and Sons",
+    "OngoingChats": 959,
     "Present": false,
     "ChatTopics": [
-      563,
-      85
+      303,
+      454
     ]
   }
 ]

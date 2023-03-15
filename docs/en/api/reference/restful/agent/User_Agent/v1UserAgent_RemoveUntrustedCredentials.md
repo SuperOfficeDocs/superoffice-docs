@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "sint",
-  "PublicValue": "laudantium"
+  "Type": "in",
+  "PublicValue": "repellendus"
 }
 ```
 

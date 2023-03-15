@@ -84,21 +84,21 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 521,
-  "UniqueIdentifier": "magni",
-  "Name": "Barton, Stracke and Schneider",
-  "Description": "Centralized clear-thinking task-force",
-  "IncludeId": "aliquid",
-  "HierarchyId": 395,
-  "Source": "soluta",
-  "Registered": "2010-10-05T11:22:37.7742144+02:00",
-  "RegisteredAssociateId": 827,
-  "Updated": "1995-11-22T11:22:37.7742144+01:00",
-  "UpdatedAssociateId": 775
+  "EjscriptId": 508,
+  "UniqueIdentifier": "quia",
+  "Name": "Nicolas, Rosenbaum and Greenholt",
+  "Description": "Programmable regional interface",
+  "IncludeId": "eligendi",
+  "HierarchyId": 554,
+  "Source": "at",
+  "Registered": "2009-01-16T12:15:18.6207627+01:00",
+  "RegisteredAssociateId": 314,
+  "Updated": "2009-05-31T12:15:18.6207627+02:00",
+  "UpdatedAssociateId": 953
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 83,
-  "UniqueIdentifier": "rerum",
-  "Name": "Effertz, McGlynn and Ullrich",
-  "Description": "Up-sized global infrastructure",
-  "IncludeId": "nihil",
-  "HierarchyId": 422,
-  "Source": "aut",
-  "Registered": "1997-05-29T11:22:37.7742144+02:00",
-  "RegisteredAssociateId": 3,
-  "Updated": "1997-11-29T11:22:37.7742144+01:00",
-  "UpdatedAssociateId": 4,
+  "EjscriptId": 754,
+  "UniqueIdentifier": "minus",
+  "Name": "Yundt, Nader and Cormier",
+  "Description": "Distributed value-added capacity",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 363,
+  "Source": "iure",
+  "Registered": "2011-01-11T12:15:18.6207627+01:00",
+  "RegisteredAssociateId": 626,
+  "Updated": "2013-08-04T12:15:18.6207627+02:00",
+  "UpdatedAssociateId": 208,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 916
     }
   }
 }

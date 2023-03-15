@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 952,
-  "After": 563
+  "ChatSessionId": 524,
+  "After": 961
 }
 ```
 
@@ -96,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 573,
-    "ChatSessionId": 725,
+    "ChatMessageId": 802,
+    "ChatSessionId": 171,
     "Type": "Invalid",
-    "Message": "quae",
-    "Author": "distinctio",
-    "ReadByCustomer": 4,
+    "Message": "autem",
+    "Author": "nobis",
+    "ReadByCustomer": 970,
     "SpecialType": "Block",
-    "SpecialParam": "quis",
-    "WhenPosted": "1997-08-07T11:22:37.5711376+02:00"
+    "SpecialParam": "voluptatum",
+    "WhenPosted": "2010-02-11T12:15:18.3787597+01:00"
   }
 ]
 ```

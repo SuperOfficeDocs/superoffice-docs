@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Wolff LLC",
-  "Tooltip": "harum",
-  "Deleted": true,
-  "Rank": 107,
+  "Id": 150,
+  "Name": "Schultz Group",
+  "Tooltip": "voluptas",
+  "Deleted": false,
+  "Rank": 574,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "UseGroupsAndHeadings": false,
+  "ListType": "provident",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   },
   "_Links": {

@@ -94,49 +94,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weissnat-O'Reilly",
-    "Operator": "ipsam",
+    "Name": "Gulgowski Inc and Sons",
+    "Operator": "soluta",
     "Values": [
-      "praesentium",
-      "sit"
+      "quo",
+      "et"
     ],
     "DisplayValues": [
-      "in",
-      "repellendus"
+      "omnis",
+      "nobis"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Mann-Upton",
-        "Operator": "voluptates",
+        "Name": "Schinner, Zulauf and Monahan",
+        "Operator": "rerum",
         "Values": [
-          "aut",
-          "qui"
+          "et",
+          "debitis"
         ],
         "DisplayValues": [
-          "earum",
-          "voluptas"
+          "omnis",
+          "enim"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 45,
+        "InterParenthesis": 365,
         "InterOperator": "And",
-        "UniqueHash": 440
+        "UniqueHash": 493
       }
     ],
-    "InterParenthesis": 840,
+    "InterParenthesis": 989,
     "InterOperator": "And",
-    "UniqueHash": 196
+    "UniqueHash": 246
   }
 ]
 ```
@@ -149,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mosciski, O'Reilly and Satterfield",
-    "Operator": "debitis",
+    "Name": "Ebert Inc and Sons",
+    "Operator": "alias",
     "Values": [
-      "delectus",
-      "eveniet"
+      "reprehenderit",
+      "quasi"
     ],
     "DisplayValues": [
-      "et",
-      "id"
+      "dicta",
+      "adipisci"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Harber, Wuckert and Bernhard",
-        "Operator": "asperiores",
+        "Name": "Bruen Inc and Sons",
+        "Operator": "molestiae",
         "Values": [
-          "et",
-          "deserunt"
+          "velit",
+          "accusantium"
         ],
         "DisplayValues": [
-          "qui",
-          "quod"
+          "omnis",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 295,
+        "InterParenthesis": 751,
         "InterOperator": "And",
-        "UniqueHash": 351
+        "UniqueHash": 568
       }
     ],
-    "InterParenthesis": 916,
+    "InterParenthesis": 63,
     "InterOperator": "And",
-    "UniqueHash": 186
+    "UniqueHash": 227
   }
 ]
 ```

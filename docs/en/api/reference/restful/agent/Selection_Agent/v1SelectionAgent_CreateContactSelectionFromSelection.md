@@ -115,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 131,
-  "Name": "Mills, Bartell and Collier",
+  "SelectionId": 766,
+  "Name": "Carroll, Turner and Leuschke",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked intangible success",
-  "Postit": "aut",
+  "Description": "Expanded clear-thinking open system",
+  "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 674,
-  "IncludePerson": 348,
-  "MemberCount": 227,
-  "Name": "Paucek-Grant",
-  "PostitTextId": 348,
-  "CreatedDate": "1996-06-14T11:22:39.2894808+02:00",
-  "SelectionId": 777,
-  "SoundEx": "officiis",
-  "Source": 129,
-  "TextId": 500,
-  "UpdatedDate": "2004-03-23T11:22:39.2894808+01:00",
-  "UpdatedCount": 473,
-  "Visibility": 228,
+  "GroupIdx": 542,
+  "IncludePerson": 962,
+  "MemberCount": 700,
+  "Name": "Schroeder-Flatley",
+  "PostitTextId": 592,
+  "CreatedDate": "2000-08-09T12:15:20.1467394+02:00",
+  "SelectionId": 714,
+  "SoundEx": "et",
+  "Source": 979,
+  "TextId": 385,
+  "UpdatedDate": "2008-08-16T12:15:20.1467394+02:00",
+  "UpdatedCount": 272,
+  "Visibility": 582,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 905,
-  "TargetTableName": "Goldner-Schinner",
+  "CompanyUnique": false,
+  "TargetTableNumber": 904,
+  "TargetTableName": "Marvin-Jewess",
   "Completed": false,
-  "LeftSelectionId": 560,
-  "RightSelectionId": 900,
+  "LeftSelectionId": 114,
+  "RightSelectionId": 716,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Block-Kling",
-  "ShadowProviderName": "Schaden, Becker and Hermann",
-  "ChartKey": "ratione",
-  "LastLoaded": "2005-02-06T11:22:39.2894808+01:00",
-  "LastLoadedBy": 993,
+  "MainProviderName": "Johnson Inc and Sons",
+  "ShadowProviderName": "Runolfsson, Bins and Ullrich",
+  "ChartKey": "porro",
+  "LastLoaded": "2006-04-28T12:15:20.1467394+02:00",
+  "LastLoadedBy": 326,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-12-07T11:22:39.2894808+01:00",
-  "LastMembershipChangeBy": 453,
+  "LastMembershipChange": "2020-09-23T12:15:20.1477371+02:00",
+  "LastMembershipChangeBy": 684,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Stamm-Anderson",
-  "DashboardTileDefinitionId": 92,
+  "MainHeading": "deserunt",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Bednar, Pacocha and Schulist",
+  "DashboardTileDefinitionId": 245,
   "VisibleFor": [
     {
-      "VisibleId": 466,
+      "VisibleId": 711,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldLength": 926
         }
       }
     },
     {
-      "VisibleId": 466,
+      "VisibleId": 711,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldLength": 926
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

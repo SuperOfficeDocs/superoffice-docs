@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetCompetitorList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Value": "sint",
-    "Tooltip": "placeat",
+    "Id": 619,
+    "Value": "cum",
+    "Tooltip": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   },
   {
-    "Id": 745,
-    "Value": "sint",
-    "Tooltip": "placeat",
+    "Id": 619,
+    "Value": "cum",
+    "Tooltip": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

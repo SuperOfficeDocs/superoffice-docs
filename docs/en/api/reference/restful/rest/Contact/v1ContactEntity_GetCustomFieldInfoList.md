@@ -66,7 +66,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Beer Group",
-    "DisplayName": "Reichert-McGlynn",
-    "Description": "Up-sized hybrid hardware",
-    "ShortLabel": "labore",
+    "FieldName": "Ritchie, Cassin and Cassin",
+    "DisplayName": "Ward, Kling and Baumbach",
+    "Description": "Ameliorated mobile alliance",
+    "ShortLabel": "aut",
     "HideLabel": true,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "Rank": 338,
-    "TemplateVariableName": "O'Connell, O'Connell and Quigley"
+    "IsExternal": false,
+    "Rank": 366,
+    "TemplateVariableName": "Tromp, Morar and Stroman"
   }
 ]
 ```

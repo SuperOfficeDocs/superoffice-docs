@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 58,
-  "CurrentAppointmentId": 276,
+  "SaleId": 866,
+  "CurrentAppointmentId": 887,
   "SkipCompleteCheck": true
 }
 ```
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 544,
-  "Deleted": 103,
-  "DaysFuture": 764,
-  "Tooltip": "quas",
-  "Text": "non",
-  "TaskId": 120,
-  "SuggestedAppointmentId": 105,
-  "SaleTypeStageLinkId": 782,
-  "RegisteredAssociateId": 107,
-  "Rank": 744,
-  "ProjectTypeStatusLinkId": 628,
-  "Name": "Langosh, Casper and Mills",
-  "Duration": 17,
+  "AutoSuggest": 967,
+  "Deleted": 842,
+  "DaysFuture": 178,
+  "Tooltip": "inventore",
+  "Text": "qui",
+  "TaskId": 874,
+  "SuggestedAppointmentId": 159,
+  "SaleTypeStageLinkId": 599,
+  "RegisteredAssociateId": 700,
+  "Rank": 943,
+  "ProjectTypeStatusLinkId": 924,
+  "Name": "Rodriguez-Jakubowski",
+  "Duration": 990,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

@@ -78,13 +78,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 439,
+  "MailInFilterId": 780,
   "ServerType": "Facebook",
-  "Address": "error",
-  "Username": "blanditiis",
-  "Password": "laboriosam",
-  "Server": "consectetur",
-  "Port": 871
+  "Address": "fugit",
+  "Username": "repellat",
+  "Password": "nulla",
+  "Server": "perferendis",
+  "Port": 791
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 116,
+  "MailInFilterId": 297,
   "ServerType": "Facebook",
-  "Address": "tempora",
-  "Username": "ad",
-  "Password": "et",
-  "Server": "tenetur",
-  "Port": 290,
+  "Address": "iste",
+  "Username": "odit",
+  "Password": "atque",
+  "Server": "non",
+  "Port": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldLength": 123
     }
   }
 }

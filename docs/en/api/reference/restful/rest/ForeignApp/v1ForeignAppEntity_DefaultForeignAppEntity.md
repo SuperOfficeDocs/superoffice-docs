@@ -70,32 +70,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 07 Jan 2003 11:22:44 G1T
+Last-Modified: Thu, 22 Dec 2005 12:15:26 G12T
 
 {
-  "ForeignAppId": 875,
-  "Name": "Baumbach Inc and Sons",
-  "CreatedDate": "2002-01-13T11:22:44.8506265+01:00",
-  "UpdatedDate": "2003-01-07T11:22:44.8506265+01:00",
+  "ForeignAppId": 268,
+  "Name": "Berge, Ward and Shanahan",
+  "CreatedDate": "1998-02-18T12:15:26.9446371+01:00",
+  "UpdatedDate": "2005-12-22T12:15:26.9446371+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 454,
-      "Name": "Willms, Haag and Gaylord",
-      "CreatedDate": "2013-10-30T11:22:44.8506265+01:00",
-      "UpdatedDate": "2015-05-30T11:22:44.8506265+02:00",
-      "AssociateFullName": "Mrs. Brook Hermann Hoeger Jr.",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "odit",
-      "ForeignAppId": 75,
+      "ForeignDeviceId": 778,
+      "Name": "Parisian, Schuster and Ziemann",
+      "CreatedDate": "2001-08-23T12:15:26.9456362+02:00",
+      "UpdatedDate": "1998-09-18T12:15:26.9456362+02:00",
+      "AssociateFullName": "Ms. Blaise Immanuel Casper DDS",
+      "CreatedBy": "a",
+      "UpdatedBy": "possimus",
+      "DeviceIdentifier": "deleniti",
+      "ForeignAppId": 254,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 838
+          "FieldLength": 524
         }
       }
     }
@@ -105,7 +105,7 @@ Last-Modified: Tue, 07 Jan 2003 11:22:44 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 628
     }
   }
 }

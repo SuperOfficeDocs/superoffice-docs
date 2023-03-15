@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "recusandae",
-    "PersonId": 980,
-    "Mrmrs": "aut",
-    "Firstname": "Mallie",
-    "Lastname": "Borer",
-    "MiddleName": "Wunsch, Schulist and Renner",
-    "Title": "deserunt",
-    "Description": "Switchable leading edge secured line",
-    "Email": "abraham@harris.ca",
-    "FullName": "Dale Hackett",
-    "DirectPhone": "492-560-7206",
-    "FormalName": "McKenzie-Hoeger",
-    "CountryId": 574,
-    "ContactId": 952,
-    "ContactName": "Smitham-O'Hara",
-    "Retired": 464,
-    "Rank": 747,
-    "ActiveInterests": 79,
+    "Position": "voluptatem",
+    "PersonId": 784,
+    "Mrmrs": "adipisci",
+    "Firstname": "Ryley",
+    "Lastname": "Jacobson",
+    "MiddleName": "King-Kihn",
+    "Title": "quia",
+    "Description": "Business-focused composite benchmark",
+    "Email": "imelda@mertz.uk",
+    "FullName": "Jerel Boyer",
+    "DirectPhone": "336.580.1887",
+    "FormalName": "Hoppe LLC",
+    "CountryId": 607,
+    "ContactId": 815,
+    "ContactName": "Ernser, Harber and McLaughlin",
+    "Retired": 20,
+    "Rank": 442,
+    "ActiveInterests": 78,
     "ContactDepartment": "",
-    "ContactCountryId": 14,
-    "ContactOrgNr": "722154",
-    "FaxPhone": "632-929-1104",
-    "MobilePhone": "479.970.7658 x186",
-    "ContactPhone": "(971)178-0869 x7266",
-    "AssociateName": "Johns-Dach",
-    "AssociateId": 726,
+    "ContactCountryId": 948,
+    "ContactOrgNr": "1483632",
+    "FaxPhone": "(579)622-4027",
+    "MobilePhone": "857-677-9295 x80017",
+    "ContactPhone": "1-178-412-5501 x4970",
+    "AssociateName": "Ferry-Crooks",
+    "AssociateId": 808,
     "UsePersonAddress": false,
-    "ContactFax": "est",
-    "Kanafname": "officiis",
-    "Kanalname": "fuga",
-    "Post1": "explicabo",
-    "Post2": "id",
-    "Post3": "quam",
-    "EmailName": "giuseppe@sauer.info",
-    "ContactFullName": "Shayna Purdy II",
-    "ActiveErpLinks": 832,
-    "TicketPriorityId": 530,
-    "SupportLanguageId": 449,
-    "SupportAssociateId": 420,
+    "ContactFax": "aut",
+    "Kanafname": "et",
+    "Kanalname": "laudantium",
+    "Post1": "quaerat",
+    "Post2": "aut",
+    "Post3": "explicabo",
+    "EmailName": "kaycee.champlin@gulgowskianderson.biz",
+    "ContactFullName": "Mr. Glennie Schneider Sr.",
+    "ActiveErpLinks": 451,
+    "TicketPriorityId": 742,
+    "SupportLanguageId": 175,
+    "SupportAssociateId": 14,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldType": "System.Int32",
+        "FieldLength": 236
       }
     }
   }

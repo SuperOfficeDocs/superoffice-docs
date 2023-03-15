@@ -25,7 +25,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=38
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=615
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 95,
-  "Name": "Shields-D'Amore",
-  "Description": "Persistent neutral migration",
-  "DefaultHeight": 568,
-  "DefaultWidth": 647,
+  "DashboardTileDefinitionId": 249,
+  "Name": "Connelly, Schmeler and Will",
+  "Description": "Polarised real-time emulation",
+  "DefaultHeight": 403,
+  "DefaultWidth": 65,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bergstrom-Graham",
-  "SelectionId": 578,
+  "EntityName": "O'Connell, Jacobson and Casper",
+  "SelectionId": 226,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laborum",
+  "CurrencyCode": "molestiae",
   "Measure": "Average",
-  "MeasureField": "qui",
-  "SortBy": "et",
-  "LayoutConfig": "quo",
-  "SecondarySelectionId": 824,
-  "MeasureByField": "sed",
+  "MeasureField": "quis",
+  "SortBy": "quidem",
+  "LayoutConfig": "tenetur",
+  "SecondarySelectionId": 2,
+  "MeasureByField": "dolorem",
   "Usage": "Dashboard",
-  "ProviderName": "Lebsack, Von and Lowe",
+  "ProviderName": "Greenfelder LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 493
     }
   }
 }

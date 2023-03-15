@@ -116,147 +116,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 373,
-      "ContactName": "Mills Inc and Sons",
-      "PersonId": 536,
-      "PersonName": "D'Amore, McClure and White",
-      "AssociateId": 308,
-      "Address": "dolorem",
-      "EmailId": 198,
+      "ContactId": 214,
+      "ContactName": "O'Hara-Hickle",
+      "PersonId": 357,
+      "PersonName": "Powlowski LLC",
+      "AssociateId": 108,
+      "Address": "aut",
+      "EmailId": 668,
       "DuplicatePersonIds": [
-        496,
-        230
+        965,
+        127
       ],
-      "Name": "Crooks, Altenwerth and Will",
+      "Name": "Hoppe Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 946
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 751,
-      "ContactName": "Kohler Inc and Sons",
-      "PersonId": 333,
-      "PersonName": "Labadie, Rice and Stanton",
-      "AssociateId": 85,
-      "Address": "similique",
-      "EmailId": 390,
+      "ContactId": 431,
+      "ContactName": "Collins, Marvin and Purdy",
+      "PersonId": 225,
+      "PersonName": "Kreiger, Huels and Smitham",
+      "AssociateId": 63,
+      "Address": "nemo",
+      "EmailId": 51,
       "DuplicatePersonIds": [
-        730,
-        953
+        931,
+        4
       ],
-      "Name": "Schultz, Farrell and Runolfsson",
+      "Name": "Volkman Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 771
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 932,
-      "ContactName": "Hansen-Fadel",
-      "PersonId": 934,
-      "PersonName": "Homenick Group",
-      "AssociateId": 349,
-      "Address": "quae",
-      "EmailId": 229,
+      "ContactId": 827,
+      "ContactName": "Willms-Herman",
+      "PersonId": 255,
+      "PersonName": "Carroll, Stamm and Mitchell",
+      "AssociateId": 192,
+      "Address": "autem",
+      "EmailId": 576,
       "DuplicatePersonIds": [
-        224,
-        2
+        704,
+        589
       ],
-      "Name": "Osinski-Hirthe",
+      "Name": "Stehr Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 139
+          "FieldType": "System.String",
+          "FieldLength": 16
         }
       }
     }
   ],
-  "Subject": "magnam",
-  "HTMLBody": "autem",
+  "Subject": "aliquam",
+  "HTMLBody": "dolores",
   "From": null,
-  "Sent": "2000-04-23T11:22:38.1803656+02:00",
-  "Size": 424,
+  "Sent": "1999-05-14T12:15:18.9117529+02:00",
+  "Size": 259,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "fuga",
-  "PlainBody": "occaecati",
-  "IsSent": true,
+  "MessageID": "qui",
+  "PlainBody": "sunt",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 459,
+  "ServerId": 492,
   "Attachments": [
     {
-      "Description": "Function-based discrete collaboration",
-      "Filename": "omnis",
-      "Size": 967,
-      "Type": "nemo",
-      "Encoding": "dolores",
-      "Id": "architecto",
-      "Disposition": "maxime",
+      "Description": "Profit-focused solution-oriented success",
+      "Filename": "non",
+      "Size": 803,
+      "Type": "id",
+      "Encoding": "ut",
+      "Id": "incidunt",
+      "Disposition": "sed",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 249
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Adams LLC",
+      "Name": "Volkman, Gorczany and Wiza",
       "Values": [
-        "nulla",
-        "quisquam"
+        "reiciendis",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 290
         }
       }
     },
     {
-      "Name": "Adams LLC",
+      "Name": "Volkman, Gorczany and Wiza",
       "Values": [
-        "nulla",
-        "quisquam"
+        "reiciendis",
+        "quas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 290
         }
       }
     }
   ],
-  "FolderName": "Hermiston Inc and Sons",
-  "EmailItemId": 448,
-  "AccountId": 788,
-  "ReceivedAt": "2017-05-25T11:22:38.1803656+02:00",
+  "FolderName": "Thiel, Oberbrunner and Corwin",
+  "EmailItemId": 849,
+  "AccountId": 728,
+  "ReceivedAt": "2009-11-18T12:15:18.9117529+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-04-18T11:22:38.1803656+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-09-29T12:15:18.9117529+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldLength": 807
     }
   }
 }

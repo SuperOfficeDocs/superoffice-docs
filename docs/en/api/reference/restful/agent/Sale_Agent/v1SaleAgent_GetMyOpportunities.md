@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 109
+  "Count": 5
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Greenholt-Koelpin",
-    "SaleDate": "2000-12-23T11:22:39.2425669+01:00",
-    "SaleId": 675,
-    "Probability": 144,
-    "Title": "ducimus",
-    "Amount": 12144.25,
-    "Currency": "magni",
-    "ProjectName": "Kuhn-Herzog",
-    "AssociateFullName": "Edd Lehner",
-    "Description": "Front-line discrete emulation",
+    "ContactName": "Hahn-Larkin",
+    "SaleDate": "2019-11-28T12:15:20.090737+01:00",
+    "SaleId": 354,
+    "Probability": 711,
+    "Title": "facere",
+    "Amount": 20345.928,
+    "Currency": "et",
+    "ProjectName": "Monahan Inc and Sons",
+    "AssociateFullName": "Dr. Hugh Williamson",
+    "Description": "Balanced human-resource instruction set",
     "Status": "Lost",
-    "WeightedAmount": 20518.298,
-    "ProjectId": 102,
-    "EarningPercent": 30794.683999999997,
-    "Earning": 15137.22,
-    "ContactId": 83,
-    "AssociateId": 343,
-    "PersonId": 589,
-    "SaleTypeId": 914,
-    "SaleTypeName": "Medhurst LLC",
-    "PersonFullName": "Miss Brennon Leone Torp",
+    "WeightedAmount": 15438.083999999999,
+    "ProjectId": 254,
+    "EarningPercent": 22079.03,
+    "Earning": 18945.03,
+    "ContactId": 601,
+    "AssociateId": 17,
+    "PersonId": 300,
+    "SaleTypeId": 227,
+    "SaleTypeName": "Abbott, Mann and Cremin",
+    "PersonFullName": "Zelda Schowalter",
     "Completed": "Completed",
-    "ActiveErpLinks": 110,
-    "NextDueDate": "2022-02-20T11:22:39.2425669+01:00",
-    "Number": "359714",
+    "ActiveErpLinks": 596,
+    "NextDueDate": "1996-04-10T12:15:20.0917353+02:00",
+    "Number": "1190160",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldLength": 74
       }
     }
   }

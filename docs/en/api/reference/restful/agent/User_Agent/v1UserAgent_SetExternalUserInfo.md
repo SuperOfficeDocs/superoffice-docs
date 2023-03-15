@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 637,
-  "UserName": "Bradtke, Powlowski and Kozey",
-  "Password": "et",
+  "AssociateId": 717,
+  "UserName": "Skiles, Roob and Bernhard",
+  "Password": "eveniet",
   "IsActive": true,
-  "RoleId": 355,
+  "RoleId": 38,
   "ExternalUserInfoModification": "Active"
 }
 ```

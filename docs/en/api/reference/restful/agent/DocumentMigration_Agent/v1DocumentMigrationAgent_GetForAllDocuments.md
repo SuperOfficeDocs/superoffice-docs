@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 193,
+  "DocumentPluginId": 644,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 612,
-  "NumDocumentsAlreadyMigrated": 862,
+  "NumDocumentsOmitted": 851,
+  "NumDocumentsAlreadyMigrated": 988,
   "Documents": [
     {
-      "DocumentId": 983,
-      "ContactId": 194,
-      "PersonId": 33,
-      "SaleId": 267,
-      "ProjectId": 522,
-      "DocTmplId": 540,
-      "AssociateId": 749,
-      "UserGroupId": 618,
-      "VisibleForId": 157
+      "DocumentId": 404,
+      "ContactId": 470,
+      "PersonId": 883,
+      "SaleId": 375,
+      "ProjectId": 434,
+      "DocTmplId": 977,
+      "AssociateId": 306,
+      "UserGroupId": 326,
+      "VisibleForId": 532
     }
   ],
   "Associates": [
     {
-      "AssociateId": 22,
-      "EmailAddress": "osvaldo@thiel.info"
+      "AssociateId": 308,
+      "EmailAddress": "reginald@strosin.us"
     },
     {
-      "AssociateId": 22,
-      "EmailAddress": "osvaldo@thiel.info"
+      "AssociateId": 308,
+      "EmailAddress": "reginald@strosin.us"
     }
   ]
 }

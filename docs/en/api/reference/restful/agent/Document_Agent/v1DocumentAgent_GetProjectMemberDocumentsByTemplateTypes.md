@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 544,
-  "StartTime": "2012-07-06T11:22:37.8366954+02:00",
-  "EndTime": "2012-04-23T11:22:37.8366954+02:00",
-  "Count": 294,
+  "PersonId": 274,
+  "StartTime": "2011-01-01T12:15:18.7167554+01:00",
+  "EndTime": "2017-02-19T12:15:18.7167554+01:00",
+  "Count": 165,
   "DocumentTemplateIds": [
-    684,
-    729
+    34,
+    281
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 1002,
-    "Attention": "voluptatibus",
-    "Header": "et",
-    "Name": "Lueilwitz-Pouros",
-    "OurRef": "nemo",
-    "YourRef": "qui",
-    "Description": "Multi-layered 5th generation parallelism",
-    "DocumentTemplate": "aspernatur",
-    "IsPublished": false,
-    "PersonId": 590,
-    "PersonFullName": "Ruth Kautzer",
-    "AssociateFullName": "Jalon Katheryn Kohler V",
-    "ContactId": 448,
-    "ContactName": "Satterfield, Schimmel and Goyette",
-    "ProjectId": 622,
-    "ProjectName": "Kunze, Mayert and Bernier",
-    "AssociateId": 478,
-    "Snum": 249,
-    "SaleId": 831,
-    "SaleName": "Kutch Group",
+    "DocumentId": 664,
+    "Attention": "nihil",
+    "Header": "nihil",
+    "Name": "Buckridge Inc and Sons",
+    "OurRef": "id",
+    "YourRef": "rerum",
+    "Description": "Advanced executive software",
+    "DocumentTemplate": "enim",
+    "IsPublished": true,
+    "PersonId": 821,
+    "PersonFullName": "Ardith Hoppe",
+    "AssociateFullName": "Nikita McClure",
+    "ContactId": 725,
+    "ContactName": "Hettinger Inc and Sons",
+    "ProjectId": 712,
+    "ProjectName": "Howe LLC",
+    "AssociateId": 217,
+    "Snum": 486,
+    "SaleId": 564,
+    "SaleName": "Miller Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

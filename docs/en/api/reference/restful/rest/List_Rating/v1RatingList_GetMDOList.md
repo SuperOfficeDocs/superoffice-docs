@@ -26,7 +26,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=molestiae
+GET /api/v1/List/Rating/MDOItems?query=nemo
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 892,
-    "Name": "Conroy LLC",
-    "ToolTip": "Inventore et et voluptatem unde ut eum quis.",
-    "Deleted": true,
-    "Rank": 481,
-    "Type": "qui",
+    "Id": 928,
+    "Name": "Ritchie-Waters",
+    "ToolTip": "Eos est sint.",
+    "Deleted": false,
+    "Rank": 423,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 780,
-        "Name": "Harris Inc and Sons",
-        "ToolTip": "Aut et.",
-        "Deleted": false,
-        "Rank": 615,
-        "Type": "quo",
+        "Id": 81,
+        "Name": "Daniel-Grimes",
+        "ToolTip": "Voluptatem est quia eum asperiores ipsa tempora quae.",
+        "Deleted": true,
+        "Rank": 862,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 545,
-        "ExtraInfo": "quia",
-        "StyleHint": "animi",
-        "FullName": "Wilfredo Leslie Wintheiser DDS",
+        "IconHint": "est",
+        "ColorBlock": 156,
+        "ExtraInfo": "quos",
+        "StyleHint": "beatae",
+        "FullName": "Missouri Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 34
+            "FieldType": "System.Int32",
+            "FieldLength": 109
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 581,
-    "ExtraInfo": "quia",
-    "StyleHint": "vero",
-    "FullName": "Mrs. Providenci Kody Schmitt",
+    "IconHint": "aliquid",
+    "ColorBlock": 274,
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
+    "FullName": "Dr. Aileen Celia Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 707
       }
     }
   }

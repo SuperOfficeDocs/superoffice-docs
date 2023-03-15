@@ -137,18 +137,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "labore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dignissimos",
+    "path": "labore",
     "value": {}
   }
 ]
@@ -161,43 +161,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 712,
-  "Name": "Stanton Inc and Sons",
-  "Description": "Cross-platform local leverage",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 445,
+  "Name": "Sipes Inc and Sons",
+  "Description": "Enhanced high-level moderator",
+  "WelcomeMessage": "animi",
   "Language": null,
-  "LastAccept": "2005-12-07T11:22:44.4289042+01:00",
-  "SecondsPrAccept": 729,
-  "AlertRecipient": "laborum",
+  "LastAccept": "2018-05-09T12:15:26.5306417+02:00",
+  "SecondsPrAccept": 652,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "possimus",
+  "BadgeHeader": "ipsa",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "aperiam",
-  "WarnNewChatMinutes": 609,
-  "WarnManagerNewChatMinutes": 296,
+  "CustomQueueText": "autem",
+  "WarnNewChatMinutes": 128,
+  "WarnManagerNewChatMinutes": 929,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 730,
-  "WarnManagerChatMessageMinutes": 491,
+  "WarnChatMessageMinutes": 30,
+  "WarnManagerChatMessageMinutes": 380,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 354,
-  "OfflineFormQueueLength": 640,
+  "OfflineFormTimeLimit": 709,
+  "OfflineFormQueueLength": 44,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "architecto",
+  "WidgetRatingText": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldType": "System.String",
+      "FieldLength": 120
     }
   },
   "_Links": {

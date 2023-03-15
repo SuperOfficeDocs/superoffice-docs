@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Hahn LLC",
-    "ToolTip": "Nostrum adipisci impedit repudiandae et et.",
-    "Deleted": false,
-    "Rank": 259,
-    "Type": "quia",
-    "ColorBlock": 425,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2006-11-05T11:22:46.1784934+01:00",
+    "Id": 719,
+    "Name": "Hettinger, Sporer and Hahn",
+    "ToolTip": "Molestiae consequatur sint consequatur repellendus.",
+    "Deleted": true,
+    "Rank": 354,
+    "Type": "corporis",
+    "ColorBlock": 203,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2001-01-09T12:15:28.4836194+01:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Kohler, Armstrong and Macejkovic",
-        "ToolTip": "Natus magni nobis voluptas ut.",
+        "Id": 666,
+        "Name": "Jewess-Skiles",
+        "ToolTip": "Dicta nisi commodi.",
         "Deleted": false,
-        "Rank": 543,
-        "Type": "soluta",
-        "ColorBlock": 203,
-        "IconHint": "nihil",
+        "Rank": 250,
+        "Type": "natus",
+        "ColorBlock": 187,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "2019-11-05T11:22:46.1784934+01:00",
+        "LastChanged": "2011-09-09T12:15:28.4836194+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "dolores",
+        "ExtraInfo": "corporis",
+        "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Miss Kennedy Collier"
+        "FullName": "Mrs. Leone Kiel Bruen"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "repellat",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Easter Anderson"
+    "FullName": "Amya Will"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Kutch LLC",
-    "ToolTip": "Aspernatur corporis saepe eos temporibus.",
+    "Id": 772,
+    "Name": "Greenfelder, Brakus and Shields",
+    "ToolTip": "Doloribus quam adipisci.",
     "Deleted": false,
-    "Rank": 80,
-    "Type": "illum",
-    "ColorBlock": 892,
-    "IconHint": "aperiam",
+    "Rank": 602,
+    "Type": "consequatur",
+    "ColorBlock": 47,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "1997-04-18T11:22:46.1784934+02:00",
+    "LastChanged": "2009-11-17T12:15:28.4856134+01:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Kohler Group",
-        "ToolTip": "Omnis voluptatem id.",
-        "Deleted": true,
-        "Rank": 198,
-        "Type": "est",
+        "Id": 247,
+        "Name": "Ryan, Adams and Schoen",
+        "ToolTip": "Accusamus omnis id et earum et nam.",
+        "Deleted": false,
+        "Rank": 531,
+        "Type": "iusto",
         "ColorBlock": 694,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2018-06-13T11:22:46.1784934+02:00",
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "1997-10-28T12:15:28.4856134+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "numquam",
-        "Hidden": true,
-        "FullName": "Anjali Gene Nolan V",
+        "ExtraInfo": "eos",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Mckenzie West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 697
+            "FieldType": "System.Int32",
+            "FieldLength": 802
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "iusto",
-    "Hidden": true,
-    "FullName": "Carmella Kshlerin",
+    "ExtraInfo": "est",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Mr. Zane Herman MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 8
+        "FieldType": "System.Int32",
+        "FieldLength": 243
       }
     }
   }

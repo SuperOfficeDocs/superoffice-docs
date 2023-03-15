@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 662,
+  "TargetYear": 911,
   "EntityType": "None"
 }
 ```
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 825,
-  "Year": 79,
+  "TargetGroupId": 606,
+  "Year": 68,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 196,
+      "TargetAssignmentInfoId": 896,
       "Values": [
-        684,
-        736
+        737,
+        549
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 872,
-      "DimensionListItemDisplayName": "Feil, Walter and Herzog",
+      "DimensionListItem": 541,
+      "DimensionListItemDisplayName": "Thompson, Johns and Cremin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 268
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

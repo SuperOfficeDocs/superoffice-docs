@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Goldner Inc and Sons",
-    "Comment": "et",
-    "StakeholderRoleId": 38,
-    "CountryId": 900,
-    "PersonId": 596,
-    "EmailDescription": "chelsey_bechtelar@ruecker.co.uk",
-    "EmailId": 623,
-    "EmailAddress": "linnea_weissnat@friesenprohaska.co.uk",
-    "PhoneId": 987,
-    "ContactName": "Berge-Quitzon",
-    "ContactId": 846,
-    "SaleId": 795,
-    "Mrmrs": "est",
-    "Firstname": "Amanda",
-    "MiddleName": "Blanda, Homenick and Champlin",
-    "Lastname": "Koepp",
-    "SaleStakeholderId": 460,
-    "Rank": 690,
-    "Phone": "1-389-008-9329",
+    "StakeholderRoleName": "Cronin Group",
+    "Comment": "beatae",
+    "StakeholderRoleId": 478,
+    "CountryId": 634,
+    "PersonId": 670,
+    "EmailDescription": "osvaldo.beahan@mooreokeefe.com",
+    "EmailId": 172,
+    "EmailAddress": "ardith_farrell@hyattbosco.us",
+    "PhoneId": 712,
+    "ContactName": "Dach LLC",
+    "ContactId": 591,
+    "SaleId": 440,
+    "Mrmrs": "aliquid",
+    "Firstname": "Kyler",
+    "MiddleName": "Orn Inc and Sons",
+    "Lastname": "Purdy",
+    "SaleStakeholderId": 525,
+    "Rank": 379,
+    "Phone": "359.812.0170 x1058",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

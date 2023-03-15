@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 134,
-  "EMailAddress": "laboriosam",
-  "AssociateId": 847,
+  "EMailAccountId": 827,
+  "EMailAddress": "fuga",
+  "AssociateId": 517,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 594,
-  "ErrorCount": 939,
+  "AccountStatus": 554,
+  "ErrorCount": 990,
   "ErrorReason": "",
-  "InboxFolder": "quis",
-  "SentFolder": "provident"
+  "InboxFolder": "qui",
+  "SentFolder": "placeat"
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 550,
-  "EMailAddress": "quo",
-  "AssociateId": 195,
+  "EMailAccountId": 711,
+  "EMailAddress": "mollitia",
+  "AssociateId": 574,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 221,
-  "ErrorCount": 720,
-  "ErrorReason": "",
-  "InboxFolder": "quis",
-  "SentFolder": "non",
+  "AccountStatus": 272,
+  "ErrorCount": 1001,
+  "ErrorReason": "aggregate strategic users",
+  "InboxFolder": "saepe",
+  "SentFolder": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 644
     }
   }
 }

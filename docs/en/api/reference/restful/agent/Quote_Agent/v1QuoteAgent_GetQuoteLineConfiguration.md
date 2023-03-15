@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 734
+  "QuoteLineConfigurationId": 126
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 954,
-  "FieldName": "Waelchi Inc and Sons",
-  "Label": "eos",
-  "Tooltip": "neque",
+  "QuoteLineConfigurationId": 209,
+  "FieldName": "Schowalter Group",
+  "Label": "sequi",
+  "Tooltip": "saepe",
   "Editable": true,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 117,
-  "RestrictEdit": true,
+  "Mandatory": true,
+  "Rank": 441,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   }
 }

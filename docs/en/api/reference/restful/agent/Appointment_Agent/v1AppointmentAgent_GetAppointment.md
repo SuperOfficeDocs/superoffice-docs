@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=177
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=255
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,53 +124,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 906,
-  "StartDate": "2009-11-14T11:22:37.0243878+01:00",
-  "EndDate": "2021-11-10T11:22:37.0243878+01:00",
+  "AppointmentId": 686,
+  "StartDate": "2021-10-28T12:15:17.7647733+02:00",
+  "EndDate": "2006-12-27T12:15:17.7647733+01:00",
   "Type": "BookingForChecklist",
-  "Task": "sint",
-  "AssociateFullName": "Hailee Mertie Terry Jr.",
-  "ContactName": "Turcotte-Champlin",
-  "Description": "Realigned exuding intranet",
-  "PersonFullName": "Alyson Koepp",
-  "PersonId": 639,
-  "ContactId": 173,
-  "ProjectId": 449,
-  "ProjectName": "Hoppe, Ritchie and Romaguera",
-  "IsPublished": true,
-  "AssociateId": 585,
-  "ColorIndex": 241,
+  "Task": "atque",
+  "AssociateFullName": "Dr. Gloria Carter PhD",
+  "ContactName": "Torp, Ondricka and Greenfelder",
+  "Description": "Managed empowering utilisation",
+  "PersonFullName": "Mona Moen",
+  "PersonId": 301,
+  "ContactId": 763,
+  "ProjectId": 457,
+  "ProjectName": "Gislason LLC",
+  "IsPublished": false,
+  "AssociateId": 283,
+  "ColorIndex": 412,
   "IsFree": true,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 674,
-  "PriorityName": "Bins-Herzog",
+  "PriorityId": 823,
+  "PriorityName": "Quitzon, Wisozk and Pacocha",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "1996-08-05T11:22:37.0243878+02:00",
+  "IsBooking": true,
+  "ActiveDate": "2013-09-29T12:15:17.7657735+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-10-20T11:22:37.0243878+02:00",
-  "RecurringEndDate": "2014-10-23T11:22:37.0243878+02:00",
-  "MotherId": 976,
-  "AssignedBy": 420,
-  "AssignedByFullName": "Maureen Abshire",
+  "RecurringStartDate": "2012-03-08T12:15:17.7657735+01:00",
+  "RecurringEndDate": "2004-12-07T12:15:17.7657735+01:00",
+  "MotherId": 418,
+  "AssignedBy": 260,
+  "AssignedByFullName": "Prof. Seth Tyrese Wiza",
   "RejectReason": "",
-  "Location": "vel",
-  "AlarmLeadTime": "dolore",
-  "SaleId": 489,
-  "SaleName": "Bruen Group",
-  "AssociateName": "Reinger-Zieme",
-  "CreatedDate": "2016-02-09T11:22:37.0243878+01:00",
-  "CreatedBy": "at",
-  "CreatedByFullName": "Timothy Franecki",
-  "CreatedByAssociateId": 833,
+  "Location": "libero",
+  "AlarmLeadTime": "qui",
+  "SaleId": 777,
+  "SaleName": "Haley, Parker and Becker",
+  "AssociateName": "Cole, O'Reilly and Boyle",
+  "CreatedDate": "2005-02-04T12:15:17.7657735+01:00",
+  "CreatedBy": "ullam",
+  "CreatedByFullName": "Giuseppe Jessy O'Keefe V",
+  "CreatedByAssociateId": 799,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 86
     }
   }
 }

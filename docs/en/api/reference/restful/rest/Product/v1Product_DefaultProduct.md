@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 30,
-  "ERPProductKey": "eligendi",
-  "ERPPriceListKey": "non",
-  "Name": "Bogisich, Gusikowski and Hauck",
-  "Description": "Multi-tiered discrete approach",
-  "Code": "et",
-  "PriceUnit": "ad",
-  "QuantityUnit": "asperiores",
+  "ProductId": 144,
+  "ERPProductKey": "quo",
+  "ERPPriceListKey": "qui",
+  "Name": "Emmerich, Crooks and VonRueden",
+  "Description": "Open-architected clear-thinking solution",
+  "Code": "nostrum",
+  "PriceUnit": "at",
+  "QuantityUnit": "vero",
   "IsSubscription": false,
-  "SubscriptionUnit": "repudiandae",
-  "DefaultSubscriptionQuantity": 7997.968,
-  "ItemNumber": "973519",
+  "SubscriptionUnit": "rerum",
+  "DefaultSubscriptionQuantity": 14156.278,
+  "ItemNumber": "716530",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consectetur",
-  "ProductTypeKey": "eaque",
-  "VAT": 25780.284,
-  "VATInfo": "nemo",
-  "UnitCost": 12639.422,
-  "UnitMinimumPrice": 10492.632,
-  "UnitListPrice": 13200.408,
+  "ProductFamilyKey": "corrupti",
+  "ProductTypeKey": "tenetur",
+  "VAT": 28773.254,
+  "VATInfo": "deserunt",
+  "UnitCost": 9988.0579999999991,
+  "UnitMinimumPrice": 28986.365999999998,
+  "UnitListPrice": 17105.372,
   "InAssortment": false,
-  "Supplier": "eos",
-  "SupplierCode": "nihil",
-  "Rights": "placeat",
-  "Rule": "voluptatibus",
+  "Supplier": "quae",
+  "SupplierCode": "sed",
+  "Rights": "autem",
+  "Rule": "rem",
   "ExtraInfo": [
     {
-      "Name": "Jewess LLC",
-      "Value": "commodi",
+      "Name": "Hahn-Leuschke",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 289
         }
       }
     },
     {
-      "Name": "Jewess LLC",
-      "Value": "commodi",
+      "Name": "Hahn-Leuschke",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 289
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
-  "ExtraField1": "esse",
-  "ExtraField2": "voluptatum",
-  "ExtraField3": "quasi",
-  "ExtraField4": "quam",
-  "ExtraField5": "earum",
-  "InStock": 30418.604,
+  "RawExtraInfo": "repellendus",
+  "ExtraField1": "voluptates",
+  "ExtraField2": "nobis",
+  "ExtraField3": "ipsam",
+  "ExtraField4": "quae",
+  "ExtraField5": "non",
+  "InStock": 1447.908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 33
     }
   }
 }

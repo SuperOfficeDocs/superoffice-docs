@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Lebsack-O'Hara",
+  "HistoryName": "Durgan, Satterfield and Jones",
   "History": [
     {
-      "Rank": 562,
-      "Id": 958,
-      "HistoryName": "Greenholt, Morissette and Rice",
-      "HistoryId": 940,
-      "AssociateId": 432,
-      "Name": "Kihn, Schuster and Von",
-      "ItemInfo": "voluptas"
+      "Rank": 241,
+      "Id": 209,
+      "HistoryName": "Fahey LLC",
+      "HistoryId": 143,
+      "AssociateId": 920,
+      "Name": "Koepp, Harris and Parisian",
+      "ItemInfo": "rerum"
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 917,
-    "Id": 908,
-    "HistoryName": "Crist Group",
-    "HistoryId": 331,
-    "AssociateId": 483,
-    "Name": "Hammes, Wolf and Schamberger",
-    "ItemInfo": "dignissimos",
+    "Rank": 170,
+    "Id": 297,
+    "HistoryName": "Lakin, Armstrong and Lubowitz",
+    "HistoryId": 506,
+    "AssociateId": 695,
+    "Name": "Hilpert Inc and Sons",
+    "ItemInfo": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

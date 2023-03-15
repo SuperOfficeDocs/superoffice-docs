@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "Casper LLC",
-    "ToolTip": "Officiis et natus officiis.",
-    "Deleted": false,
-    "Rank": 517,
-    "Type": "porro",
-    "ColorBlock": 805,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2008-10-27T11:22:46.0222797+01:00",
+    "Id": 727,
+    "Name": "Schroeder Inc and Sons",
+    "ToolTip": "Iure consectetur voluptatibus iure officia voluptates perspiciatis omnis.",
+    "Deleted": true,
+    "Rank": 227,
+    "Type": "qui",
+    "ColorBlock": 72,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "1998-06-30T12:15:28.2856167+02:00",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Ledner Group",
-        "ToolTip": "Provident aliquam.",
+        "Id": 383,
+        "Name": "Wiegand Group",
+        "ToolTip": "Modi perferendis voluptates molestiae et.",
         "Deleted": false,
-        "Rank": 563,
-        "Type": "necessitatibus",
-        "ColorBlock": 728,
-        "IconHint": "architecto",
-        "Selected": false,
-        "LastChanged": "1998-07-13T11:22:46.0222797+02:00",
+        "Rank": 900,
+        "Type": "doloribus",
+        "ColorBlock": 89,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "1996-05-07T12:15:28.2856167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "nulla",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Lucius Jacobi",
+        "FullName": "Patsy Ernser DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 2
+            "FieldType": "System.Int32",
+            "FieldLength": 258
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Miss Bobbie Thurman Dare II",
+    "ExtraInfo": "iste",
+    "StyleHint": "asperiores",
+    "Hidden": true,
+    "FullName": "Dr. Whitney Tony Lakin Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldType": "System.String",
+        "FieldLength": 499
       }
     }
   }

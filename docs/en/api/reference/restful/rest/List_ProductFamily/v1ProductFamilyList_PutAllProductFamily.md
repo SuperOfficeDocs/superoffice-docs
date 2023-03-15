@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Dickinson, Bechtelar and Aufderhar",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 229,
-    "Rank": 130
+    "Id": 131,
+    "Name": "McDermott, Raynor and Mante",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 660,
+    "Rank": 682
   },
   {
-    "Id": 515,
-    "Name": "Dickinson, Bechtelar and Aufderhar",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 229,
-    "Rank": 130
+    "Id": 131,
+    "Name": "McDermott, Raynor and Mante",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 660,
+    "Rank": 682
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Hyatt LLC",
-    "Tooltip": "eaque",
+    "Id": 739,
+    "Name": "Rippin-Ruecker",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "UdListDefinitionId": 354,
-    "Rank": 248,
+    "UdListDefinitionId": 862,
+    "Rank": 26,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

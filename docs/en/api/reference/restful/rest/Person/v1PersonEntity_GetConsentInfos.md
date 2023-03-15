@@ -74,7 +74,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 36,
-    "Comment": "quod",
-    "Registered": "2022-03-01T11:22:44.9756457+01:00",
-    "RegisteredAssociateId": 265,
-    "Updated": "2011-07-25T11:22:44.9756457+02:00",
-    "UpdatedAssociateId": 845,
-    "LegalBaseId": 938,
-    "LegalBaseKey": "vel",
-    "LegalBaseName": "Wolff-Dare",
-    "ConsentPurposeId": 942,
-    "ConsentPurposeKey": "eveniet",
-    "ConsentPurposeName": "Jaskolski, Hills and Cormier",
-    "ConsentSourceId": 615,
-    "ConsentSourceKey": "et",
-    "ConsentSourceName": "Bernhard-O'Reilly",
+    "ConsentPersonId": 30,
+    "Comment": "ut",
+    "Registered": "2004-02-03T12:15:27.0926342+01:00",
+    "RegisteredAssociateId": 213,
+    "Updated": "2006-09-24T12:15:27.0926342+02:00",
+    "UpdatedAssociateId": 657,
+    "LegalBaseId": 292,
+    "LegalBaseKey": "voluptas",
+    "LegalBaseName": "Schamberger, Bailey and Hamill",
+    "ConsentPurposeId": 283,
+    "ConsentPurposeKey": "est",
+    "ConsentPurposeName": "Turner Inc and Sons",
+    "ConsentSourceId": 750,
+    "ConsentSourceKey": "sed",
+    "ConsentSourceName": "Reinger, Ledner and Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 10
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Paucek-Reilly"
+  "ApplicationName": "Sawayn, Goldner and Harber"
 }
 ```
 
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 841,
-    "Name": "Ritchie-Rutherford",
-    "CreatedDate": "2014-10-18T11:22:38.3678241+02:00",
-    "UpdatedDate": "2010-06-07T11:22:38.3678241+02:00",
-    "AssociateFullName": "Dorthy Ellis Strosin II",
-    "CreatedBy": "minima",
-    "UpdatedBy": "dolores",
-    "DeviceIdentifier": "nisi",
-    "ForeignAppId": 623,
+    "ForeignDeviceId": 28,
+    "Name": "Schmeler-Kuhn",
+    "CreatedDate": "2000-12-01T12:15:19.1517506+01:00",
+    "UpdatedDate": "2013-07-22T12:15:19.1517506+02:00",
+    "AssociateFullName": "Claudine Fahey",
+    "CreatedBy": "sed",
+    "UpdatedBy": "voluptatem",
+    "DeviceIdentifier": "tenetur",
+    "ForeignAppId": 441,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 982
       }
     }
   }

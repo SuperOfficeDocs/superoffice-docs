@@ -98,7 +98,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,88 +108,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 903,
+  "DocumentId": 136,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "veritatis",
-  "Name": "Morar, Hirthe and Kassulke",
-  "OurRef": "quasi",
-  "YourRef": "laudantium",
-  "CreatedDate": "2005-07-23T11:22:44.6476015+02:00",
-  "UpdatedDate": "2021-07-14T11:22:44.6476015+02:00",
-  "Description": "User-centric system-worthy leverage",
+  "Attention": "eaque",
+  "Header": "perspiciatis",
+  "Name": "Wiegand LLC",
+  "OurRef": "libero",
+  "YourRef": "omnis",
+  "CreatedDate": "2020-12-03T12:15:26.9016364+01:00",
+  "UpdatedDate": "2012-11-27T12:15:26.9016364+01:00",
+  "Description": "Mandatory interactive workforce",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-03-28T11:22:44.6476015+01:00",
-  "ExternalRef": "fugiat",
+  "Date": "2001-04-11T12:15:26.905644+02:00",
+  "ExternalRef": "rem",
   "Completed": "Completed",
-  "ActiveLinks": 658,
+  "ActiveLinks": 522,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bartell-D'Amore",
-      "Id": 441,
-      "Description": "Reactive client-driven support",
-      "ExtraInfo": "cumque",
-      "LinkId": 10,
+      "EntityName": "Jones-Will",
+      "Id": 672,
+      "Description": "Enterprise-wide hybrid moratorium",
+      "ExtraInfo": "ut",
+      "LinkId": 497,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 37
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 527,
-  "Snum": 900,
+  "SuggestedDocumentId": 154,
+  "Snum": 869,
   "UserDefinedFields": {
-    "SuperOffice:1": "Arlene Stiedemann",
-    "SuperOffice:2": "Zetta Johnson"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dovie Bernier"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "deleniti"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "ab"
   },
-  "PublishEventDate": "2012-04-06T11:22:44.6476015+02:00",
-  "PublishTo": "2021-01-15T11:22:44.6476015+01:00",
-  "PublishFrom": "2009-05-11T11:22:44.6476015+02:00",
+  "PublishEventDate": "2018-05-31T12:15:26.9066365+02:00",
+  "PublishTo": "2001-04-15T12:15:26.9066365+02:00",
+  "PublishFrom": "2000-03-24T12:15:26.9066365+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 590,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldType": "System.String",
+          "FieldLength": 654
         }
       }
     },
     {
-      "VisibleId": 590,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 494
+          "FieldType": "System.String",
+          "FieldLength": 654
         }
       }
     }
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 283
     }
   }
 }

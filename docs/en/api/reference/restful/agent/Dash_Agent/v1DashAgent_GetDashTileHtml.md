@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 607,
-  "LanguageCode": "consequuntur"
+  "DashboardTileDefinitionId": 233,
+  "LanguageCode": "deserunt"
 }
 ```
 
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "aliquam",
-  "Html": "voluptatem",
+  "LanguageCode": "doloribus",
+  "Html": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

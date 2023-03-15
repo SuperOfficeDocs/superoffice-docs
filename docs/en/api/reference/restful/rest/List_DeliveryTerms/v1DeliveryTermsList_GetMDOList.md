@@ -25,8 +25,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=eos
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=cum
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 60,
-    "Name": "Trantow LLC",
-    "ToolTip": "Et nam illo et voluptas sequi veritatis quidem.",
+    "Id": 675,
+    "Name": "Fadel Inc and Sons",
+    "ToolTip": "Molestiae vel tempora neque culpa ea.",
     "Deleted": false,
-    "Rank": 577,
-    "Type": "praesentium",
+    "Rank": 255,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Hansen, Weber and Hagenes",
-        "ToolTip": "Quidem quo quasi voluptatem.",
+        "Id": 6,
+        "Name": "Carroll Inc and Sons",
+        "ToolTip": "Perspiciatis non.",
         "Deleted": false,
-        "Rank": 281,
-        "Type": "omnis",
+        "Rank": 799,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 98,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptatibus",
-        "FullName": "Sophie Wiza",
+        "IconHint": "molestias",
+        "ColorBlock": 916,
+        "ExtraInfo": "maxime",
+        "StyleHint": "omnis",
+        "FullName": "Adriel Ari Gottlieb Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldLength": 148
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 969,
-    "ExtraInfo": "quis",
-    "StyleHint": "nostrum",
-    "FullName": "Clyde Kuphal",
+    "IconHint": "enim",
+    "ColorBlock": 758,
+    "ExtraInfo": "commodi",
+    "StyleHint": "quos",
+    "FullName": "Francis Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 450
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -97,22 +97,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Franecki Inc and Sons",
-    "Tooltip": "ex",
-    "Deleted": true,
-    "Rank": 678,
-    "IsCustomList": true,
+    "Id": 75,
+    "Name": "Rowe, Rau and Kassulke",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 10,
+    "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "qui",
+    "ListType": "consequatur",
     "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 409
       }
     }
   }

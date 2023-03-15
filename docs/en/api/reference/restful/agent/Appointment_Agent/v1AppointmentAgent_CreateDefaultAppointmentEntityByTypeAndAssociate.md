@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 878
+  "AssociateId": 567
 }
 ```
 
@@ -147,122 +147,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-12-09T11:22:37.1181151+01:00",
-  "AppointmentId": 733,
-  "Description": "Team-oriented empowering portal",
-  "StartDate": "2018-05-16T11:22:37.1181151+02:00",
-  "EndDate": "2013-03-14T11:22:37.1181151+01:00",
+  "CreatedDate": "1997-06-07T12:15:17.8877672+02:00",
+  "AppointmentId": 282,
+  "Description": "Phased mobile secured line",
+  "StartDate": "2011-11-10T12:15:17.8877672+01:00",
+  "EndDate": "2000-11-07T12:15:17.8877672+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 412,
+  "MotherId": 324,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-12-09T11:22:37.1181151+01:00",
+  "UpdatedDate": "2001-08-30T12:15:17.8907672+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 394,
+  "ActiveLinks": 176,
   "Links": [
     {
-      "EntityName": "Runolfsdottir-Wiegand",
-      "Id": 323,
-      "Description": "Up-sized intangible Graphic Interface",
-      "ExtraInfo": "vero",
-      "LinkId": 343,
+      "EntityName": "Douglas-Wolff",
+      "Id": 382,
+      "Description": "User-centric demand-driven instruction set",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 532,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 605
+          "FieldType": "System.Int32",
+          "FieldLength": 924
         }
       }
     }
   ],
-  "AlarmLeadTime": "qui",
+  "AlarmLeadTime": "praesentium",
   "HasAlarm": false,
-  "ColorIndex": 758,
+  "ColorIndex": 422,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "neque",
-  "LeadTime": "vero",
-  "Location": "quisquam",
-  "RejectCounter": 392,
+  "LagTime": "rerum",
+  "LeadTime": "magni",
+  "Location": "et",
+  "RejectCounter": 754,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 459,
-      "PersonId": 312,
-      "ContactId": 642,
-      "EmailId": 573,
-      "SendEmail": false,
+      "AssociateId": 657,
+      "PersonId": 831,
+      "ContactId": 879,
+      "EmailId": 980,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 459,
-      "PersonId": 312,
-      "ContactId": 642,
-      "EmailId": 573,
-      "SendEmail": false,
+      "AssociateId": 657,
+      "PersonId": 831,
+      "ContactId": 879,
+      "EmailId": 980,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-06-09T11:22:37.1181151+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1998-07-27T12:15:17.8907672+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 111,
+  "PreferredTZLocation": 701,
   "Sale": null,
-  "SuggestedAppointmentId": 164,
+  "SuggestedAppointmentId": 113,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolore",
+  "CentralserviceVideomeetId": "dolorum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Sigurd Langworth",
-    "SuperOffice:2": "556998103"
+    "SuperOffice:1": "Ms. Robin Quigley",
+    "SuperOffice:2": "Ignatius Kohler"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "vitae"
+    "CustomFields1": "ea",
+    "CustomFields2": "esse"
   },
-  "PublishEventDate": "2019-08-25T11:22:37.1181151+02:00",
-  "PublishTo": "2020-07-24T11:22:37.1181151+02:00",
-  "PublishFrom": "2022-02-03T11:22:37.1181151+01:00",
+  "PublishEventDate": "2015-03-26T12:15:17.8927667+01:00",
+  "PublishTo": "2021-03-14T12:15:17.8927667+01:00",
+  "PublishFrom": "2014-10-20T12:15:17.8927667+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 242,
+      "VisibleId": 614,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 933
         }
       }
     },
     {
-      "VisibleId": 242,
+      "VisibleId": 614,
       "Visibility": "All",
-      "DisplayValue": "itaque",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 933
         }
       }
     }
@@ -271,8 +271,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 710
+      "FieldType": "System.Int32",
+      "FieldLength": 369
     }
   }
 }

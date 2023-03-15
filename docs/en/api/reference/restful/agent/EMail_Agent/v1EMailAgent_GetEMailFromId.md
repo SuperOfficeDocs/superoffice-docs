@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 191,
+  "MessageServerId": 989,
   "LookupAddresses": false,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,155 +124,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 859,
-      "ContactName": "Kiehn, Stroman and Bode",
-      "PersonId": 588,
-      "PersonName": "Medhurst, Oberbrunner and King",
-      "AssociateId": 978,
-      "Address": "et",
-      "EmailId": 586,
+      "ContactId": 607,
+      "ContactName": "Ortiz-Kiehn",
+      "PersonId": 120,
+      "PersonName": "Fadel-Trantow",
+      "AssociateId": 514,
+      "Address": "eaque",
+      "EmailId": 872,
       "DuplicatePersonIds": [
-        938,
-        4
+        681,
+        444
       ],
-      "Name": "White, Schaden and Stoltenberg",
+      "Name": "Pouros-Von",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 745
+          "FieldLength": 52
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 54,
-      "ContactName": "Streich, Baumbach and Rempel",
-      "PersonId": 175,
-      "PersonName": "Monahan LLC",
-      "AssociateId": 275,
-      "Address": "iure",
-      "EmailId": 756,
+      "ContactId": 551,
+      "ContactName": "Medhurst Group",
+      "PersonId": 693,
+      "PersonName": "Krajcik LLC",
+      "AssociateId": 198,
+      "Address": "vitae",
+      "EmailId": 755,
       "DuplicatePersonIds": [
-        555,
-        736
+        33,
+        504
       ],
-      "Name": "Waelchi, Cole and Ankunding",
+      "Name": "Lesch Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldType": "System.String",
+          "FieldLength": 458
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 166,
-      "ContactName": "Olson-Orn",
-      "PersonId": 421,
-      "PersonName": "D'Amore, Buckridge and Paucek",
-      "AssociateId": 915,
-      "Address": "soluta",
-      "EmailId": 7,
+      "ContactId": 573,
+      "ContactName": "Wolf-Luettgen",
+      "PersonId": 839,
+      "PersonName": "Stroman-Paucek",
+      "AssociateId": 657,
+      "Address": "maiores",
+      "EmailId": 74,
       "DuplicatePersonIds": [
-        292,
-        964
+        917,
+        909
       ],
-      "Name": "Block, Lehner and Prohaska",
+      "Name": "Bergnaum, Lemke and Balistreri",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldLength": 912
         }
       }
     }
   ],
-  "Subject": "in",
-  "HTMLBody": "ut",
+  "Subject": "ea",
+  "HTMLBody": "molestiae",
   "From": null,
-  "Sent": "2007-04-21T11:22:38.242853+02:00",
-  "Size": 675,
+  "Sent": "2011-04-16T12:15:19.0037505+02:00",
+  "Size": 268,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "pariatur",
-  "PlainBody": "occaecati",
+  "MessageID": "qui",
+  "PlainBody": "eum",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 12,
+  "ServerId": 244,
   "Attachments": [
     {
-      "Description": "Exclusive motivating matrices",
-      "Filename": "incidunt",
-      "Size": 796,
-      "Type": "ut",
-      "Encoding": "alias",
-      "Id": "culpa",
-      "Disposition": "officia",
+      "Description": "Business-focused web-enabled structure",
+      "Filename": "sed",
+      "Size": 179,
+      "Type": "cumque",
+      "Encoding": "inventore",
+      "Id": "sit",
+      "Disposition": "voluptatem",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 184
+          "FieldLength": 884
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gleason LLC",
+      "Name": "Lakin Inc and Sons",
       "Values": [
-        "velit",
-        "veniam"
+        "soluta",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Gleason LLC",
+      "Name": "Lakin Inc and Sons",
       "Values": [
-        "velit",
-        "veniam"
+        "soluta",
+        "enim"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldLength": 539
         }
       }
     }
   ],
-  "FolderName": "Borer Inc and Sons",
-  "EmailItemId": 110,
-  "AccountId": 290,
-  "ReceivedAt": "2020-05-31T11:22:38.2584721+02:00",
+  "FolderName": "Jacobs, Glover and Herman",
+  "EmailItemId": 485,
+  "AccountId": 959,
+  "ReceivedAt": "2018-06-03T12:15:19.0047511+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-03-26T11:22:38.2584721+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-09-07T12:15:19.0047511+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 280
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

@@ -86,23 +86,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 936,
-  "BlobSize": 492,
-  "Description": "Programmable background throughput",
-  "ExtraInfo": "aut",
+  "BlobId": 369,
+  "BlobSize": 350,
+  "Description": "Profound interactive open architecture",
+  "ExtraInfo": "maxime",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "voluptate",
-  "OriginalSize": 192,
-  "CreatedDate": "2011-03-01T11:22:37.4461725+01:00",
-  "UpdatedDate": "2001-11-02T11:22:37.4461725+01:00",
+  "IsZipped": false,
+  "MimeType": "ad",
+  "OriginalSize": 643,
+  "CreatedDate": "1998-12-04T12:15:18.215763+01:00",
+  "UpdatedDate": "2021-11-05T12:15:18.215763+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perferendis"
+  "ConceptualType": "occaecati"
 }
 ```
 
@@ -113,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 330,
-  "BlobSize": 707,
-  "Description": "Organic encompassing focus group",
-  "ExtraInfo": "quae",
+  "BlobId": 186,
+  "BlobSize": 163,
+  "Description": "User-centric directional architecture",
+  "ExtraInfo": "exercitationem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "eos",
-  "OriginalSize": 166,
-  "CreatedDate": "2015-08-11T11:22:37.4461725+02:00",
-  "UpdatedDate": "2000-08-04T11:22:37.4461725+02:00",
+  "MimeType": "eligendi",
+  "OriginalSize": 926,
+  "CreatedDate": "2013-08-17T12:15:18.2187647+02:00",
+  "UpdatedDate": "2014-11-22T12:15:18.2187647+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt",
+  "ConceptualType": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 271
     }
   }
 }

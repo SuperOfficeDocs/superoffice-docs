@@ -124,7 +124,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 880
+  "QuoteAlternativeId": 221
 }
 ```
 
@@ -136,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 77,
-    "ERPQuoteLineKey": "eligendi",
-    "QuoteAlternativeId": 888,
-    "ERPProductKey": "perspiciatis",
+    "QuoteLineId": 348,
+    "ERPQuoteLineKey": "eos",
+    "QuoteAlternativeId": 126,
+    "ERPProductKey": "qui",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 20928.852,
-    "DeliveredQuantity": 14037.186,
-    "Rank": 585,
-    "Name": "Moore-Spinka",
-    "Description": "Inverse even-keeled adapter",
-    "Code": "tempora",
-    "QuantityUnit": "maxime",
-    "PriceUnit": "cumque",
-    "ItemNumber": "820462",
+    "Quantity": 5638.066,
+    "DeliveredQuantity": 6133.2379999999994,
+    "Rank": 741,
+    "Name": "Deckow Group",
+    "Description": "Digitized solution-oriented approach",
+    "Code": "molestias",
+    "QuantityUnit": "itaque",
+    "PriceUnit": "fugiat",
+    "ItemNumber": "62891",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ipsum",
-    "ProductTypeKey": "est",
-    "Supplier": "eos",
-    "SupplierCode": "amet",
-    "Thumbnail": "ullam",
-    "VATInfo": "consequatur",
-    "VAT": 10323.395999999999,
-    "UnitCost": 19590.634,
-    "UnitMinimumPrice": 13049.975999999999,
-    "UnitListPrice": 25645.522,
+    "ProductFamilyKey": "tempore",
+    "ProductTypeKey": "consectetur",
+    "Supplier": "aut",
+    "SupplierCode": "incidunt",
+    "Thumbnail": "similique",
+    "VATInfo": "earum",
+    "VAT": 11943.673999999999,
+    "UnitCost": 12767.916,
+    "UnitMinimumPrice": 11266.73,
+    "UnitListPrice": 14720.398,
     "ExtraInfo": [
       {
-        "Name": "Jenkins, Williamson and Fritsch",
-        "Value": "nihil",
+        "Name": "Littel-Fay",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 119
+            "FieldLength": 766
           }
         }
       },
       {
-        "Name": "Jenkins, Williamson and Fritsch",
-        "Value": "nihil",
+        "Name": "Littel-Fay",
+        "Value": "ut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 119
+            "FieldLength": 766
           }
         }
       }
     ],
-    "RawExtraInfo": "amet",
-    "IsSubscription": false,
-    "SubscriptionUnit": "voluptatem",
-    "SubscriptionQuantity": 8856.684,
-    "SubscriptionStart": "2007-07-17T11:22:38.9458129+02:00",
-    "ERPDiscountPercent": 27773.507999999998,
-    "ERPDiscountAmount": 20314.588,
-    "DiscountPercent": 8850.416,
-    "DiscountAmount": 3983.314,
+    "RawExtraInfo": "quis",
+    "IsSubscription": true,
+    "SubscriptionUnit": "quasi",
+    "SubscriptionQuantity": 21254.788,
+    "SubscriptionStart": "2012-10-23T12:15:19.9737366+02:00",
+    "ERPDiscountPercent": 27751.57,
+    "ERPDiscountAmount": 5531.51,
+    "DiscountPercent": 10163.562,
+    "DiscountAmount": 9414.536,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 9270.372,
-    "EarningAmount": 19819.416,
-    "SubTotal": 27707.694,
-    "TotalPrice": 2789.2599999999998,
-    "Rights": "debitis",
-    "Rule": "veniam",
-    "ExtraField1": "qui",
-    "ExtraField2": "necessitatibus",
-    "ExtraField3": "eligendi",
-    "ExtraField4": "totam",
-    "ExtraField5": "mollitia",
+    "EarningPercent": 23680.504,
+    "EarningAmount": 18221.076,
+    "SubTotal": 7903.9479999999994,
+    "TotalPrice": 12761.648,
+    "Rights": "tenetur",
+    "Rule": "voluptatibus",
+    "ExtraField1": "aut",
+    "ExtraField2": "cumque",
+    "ExtraField3": "rem",
+    "ExtraField4": "iure",
+    "ExtraField5": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldType": "System.Int32",
+        "FieldLength": 140
       }
     }
   }

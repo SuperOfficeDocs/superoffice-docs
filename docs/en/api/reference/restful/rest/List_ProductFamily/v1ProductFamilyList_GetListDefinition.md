@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Rohan, Doyle and Witting",
-  "Tooltip": "commodi",
-  "Deleted": true,
-  "Rank": 919,
-  "IsCustomList": false,
+  "Id": 816,
+  "Name": "Stark, Rodriguez and Stiedemann",
+  "Tooltip": "atque",
+  "Deleted": false,
+  "Rank": 103,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 416
     }
   },
   "_Links": {

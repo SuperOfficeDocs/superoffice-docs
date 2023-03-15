@@ -86,30 +86,30 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 897,
-  "Name": "Kessler, Considine and Kshlerin",
+  "WebhookId": 264,
+  "Name": "Senger Inc and Sons",
   "Events": [
-    "iure",
-    "ut"
+    "ullam",
+    "rerum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nesciunt",
+  "Secret": "necessitatibus",
   "State": "Active",
-  "Type": "et",
+  "Type": "quibusdam",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "minus"
+    "Headers1": "expedita",
+    "Headers2": "soluta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-04-23T11:22:39.6956364+02:00",
+  "Registered": "2016-11-13T12:15:20.6647269+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-09-20T11:22:39.6956364+02:00",
+  "Updated": "2000-06-04T12:15:20.6647269+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -121,26 +121,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 952,
-  "Name": "Osinski, Lueilwitz and Wunsch",
+  "WebhookId": 575,
+  "Name": "Blick, Skiles and Abshire",
   "Events": [
-    "non",
-    "necessitatibus"
+    "unde",
+    "perspiciatis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "doloribus",
+  "Secret": "sunt",
   "State": "Active",
-  "Type": "magnam",
+  "Type": "ullam",
   "Headers": {
-    "Headers1": "nemo",
-    "Headers2": "cupiditate"
+    "Headers1": "molestiae",
+    "Headers2": "vero"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-04-03T11:22:39.7112593+02:00",
+  "Registered": "2009-07-11T12:15:20.6657266+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-04-22T11:22:39.7112593+02:00",
+  "Updated": "1997-02-09T12:15:20.6667269+01:00",
   "UpdatedAssociate": null
 }
 ```

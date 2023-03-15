@@ -90,7 +90,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,38 +98,38 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 23 Oct 2016 11:22:44 G10T
+Last-Modified: Fri, 11 Jun 2021 12:15:26 G6T
 
 {
-  "SourceContactId": 625,
-  "SourcePersonId": 524,
-  "DestinationContactId": 320,
-  "DestinationPersonId": 570,
-  "RelationId": 655,
-  "Comment": "qui",
-  "RelationDefinitionId": 409,
-  "Reversed": 468,
-  "UpdatedDate": "2016-10-23T11:22:44.5694964+02:00",
-  "CreatedDate": "1998-05-19T11:22:44.5694964+02:00",
+  "SourceContactId": 753,
+  "SourcePersonId": 514,
+  "DestinationContactId": 368,
+  "DestinationPersonId": 995,
+  "RelationId": 448,
+  "Comment": "voluptas",
+  "RelationDefinitionId": 205,
+  "Reversed": 623,
+  "UpdatedDate": "2021-06-11T12:15:26.8006387+02:00",
+  "CreatedDate": "2015-12-27T12:15:26.8006387+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bogisich LLC",
-  "SourcePersonName": "Feil, Champlin and Friesen",
-  "DestinationContactName": "Farrell, Beer and Moore",
-  "DestinationPersonName": "Stracke Group",
-  "ActiveText": "sed",
-  "PassiveText": "corrupti",
+  "SourceContactName": "Cummerata Group",
+  "SourcePersonName": "Bergstrom-Ledner",
+  "DestinationContactName": "Little LLC",
+  "DestinationPersonName": "Eichmann-Dietrich",
+  "ActiveText": "officiis",
+  "PassiveText": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 516
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

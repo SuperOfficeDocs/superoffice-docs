@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Aufderhar-Spinka",
-  "DeviceName": "Wunsch-Abbott"
+  "ApplicationName": "Hahn Inc and Sons",
+  "DeviceName": "Mills, Yost and Erdman"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sed",
-    "Value": "incidunt",
-    "RecordId": 133,
-    "CreatedDate": "1997-09-07T11:22:38.3834434+02:00",
-    "UpdatedDate": "2013-08-18T11:22:38.3834434+02:00",
-    "UpdatedBy": "officiis",
-    "CreatedBy": "et",
-    "TableName": "Stokes-Cremin",
+    "Key": "at",
+    "Value": "quis",
+    "RecordId": 220,
+    "CreatedDate": "2022-07-19T12:15:19.1697487+02:00",
+    "UpdatedDate": "2003-02-19T12:15:19.1697487+01:00",
+    "UpdatedBy": "error",
+    "CreatedBy": "eos",
+    "TableName": "Tromp LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldLength": 876
       }
     }
   }

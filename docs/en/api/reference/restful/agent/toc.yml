@@ -37,6 +37,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_CanAssignToProjectMember.md
   - name: CleanUpBookingDeleted
     href: Appointment_Agent/v1AppointmentAgent_CleanUpBookingDeleted.md
+  - name: CleanUpBookingDeletedWithUpdateMode
+    href: Appointment_Agent/v1AppointmentAgent_CleanUpBookingDeletedWithUpdateMode.md
   - name: CleanUpRecurringBookingDeleted
     href: Appointment_Agent/v1AppointmentAgent_CleanUpRecurringBookingDeleted.md
   - name: CreateAndAccept
@@ -199,6 +201,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_SetActivityStatus.md
   - name: SetSeen
     href: Appointment_Agent/v1AppointmentAgent_SetSeen.md
+  - name: SetSeenMany
+    href: Appointment_Agent/v1AppointmentAgent_SetSeenMany.md
   - name: ToggleActivities
     href: Appointment_Agent/v1AppointmentAgent_ToggleActivities.md
   - name: ToggleActivity
@@ -615,6 +619,8 @@ items:
     href: Configuration_Agent/v1ConfigurationAgent_GetScreenConfigurationDelta.md
   - name: GetScreenConfigurationDeltas
     href: Configuration_Agent/v1ConfigurationAgent_GetScreenConfigurationDeltas.md
+  - name: GetSpfDomain
+    href: Configuration_Agent/v1ConfigurationAgent_GetSpfDomain.md
   - name: GetSystemEventEntity
     href: Configuration_Agent/v1ConfigurationAgent_GetSystemEventEntity.md
   - name: GetWindowPosSize
@@ -2347,6 +2353,8 @@ items:
     href: Marketing_Agent/v1MarketingAgent_GetFormEntity.md
   - name: GetFormSubmissionEntity
     href: Marketing_Agent/v1MarketingAgent_GetFormSubmissionEntity.md
+  - name: GetFormSubmissionsCount
+    href: Marketing_Agent/v1MarketingAgent_GetFormSubmissionsCount.md
   - name: GetPreviewMailing
     href: Marketing_Agent/v1MarketingAgent_GetPreviewMailing.md
   - name: GetPreviewMailingHeader
@@ -3347,6 +3355,10 @@ items:
     href: Ticket_Agent/v1TicketAgent_BatchReply.md
   - name: CalculateMessageRecipients
     href: Ticket_Agent/v1TicketAgent_CalculateMessageRecipients.md
+  - name: ClearNotify
+    href: Ticket_Agent/v1TicketAgent_ClearNotify.md
+  - name: CopyFromCRMDocument
+    href: Ticket_Agent/v1TicketAgent_CopyFromCRMDocument.md
   - name: CreateDefaultAttachmentEntity
     href: Ticket_Agent/v1TicketAgent_CreateDefaultAttachmentEntity.md
   - name: CreateDefaultTicketEntity
@@ -3371,6 +3383,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetDefaultMessageContent.md
   - name: GetForRmUi
     href: Ticket_Agent/v1TicketAgent_GetForRmUi.md
+  - name: GetNextInQueue
+    href: Ticket_Agent/v1TicketAgent_GetNextInQueue.md
   - name: GetPreviewAttachmentStream
     href: Ticket_Agent/v1TicketAgent_GetPreviewAttachmentStream.md
   - name: GetTicket
@@ -3791,3 +3805,26 @@ items:
     href: Webhook_Agent/v1WebhookAgent_SignalEvent.md
   - name: TestWebhook
     href: Webhook_Agent/v1WebhookAgent_TestWebhook.md
+- name: Workflow
+  href: Workflow_Agent/index.md
+  items:
+  - name: AddAfterWorkflowStep
+    href: Workflow_Agent/v1WorkflowAgent_AddAfterWorkflowStep.md
+  - name: CreateDefaultEmailFlow
+    href: Workflow_Agent/v1WorkflowAgent_CreateDefaultEmailFlow.md
+  - name: CreateDefaultWorkflowStep
+    href: Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStep.md
+  - name: DeleteEmailFlow
+    href: Workflow_Agent/v1WorkflowAgent_DeleteEmailFlow.md
+  - name: DeleteWorkflowStep
+    href: Workflow_Agent/v1WorkflowAgent_DeleteWorkflowStep.md
+  - name: GetEmailFlow
+    href: Workflow_Agent/v1WorkflowAgent_GetEmailFlow.md
+  - name: GetWorkflowStep
+    href: Workflow_Agent/v1WorkflowAgent_GetWorkflowStep.md
+  - name: SaveEmailFlow
+    href: Workflow_Agent/v1WorkflowAgent_SaveEmailFlow.md
+  - name: SaveWorkflowStep
+    href: Workflow_Agent/v1WorkflowAgent_SaveWorkflowStep.md
+  - name: TryAddPersonsToEmailFlow
+    href: Workflow_Agent/v1WorkflowAgent_TryAddPersonsToEmailFlow.md

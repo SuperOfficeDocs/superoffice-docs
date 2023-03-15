@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 75,
+      "CustConfigId": 125,
       "Type": "Options",
-      "Config": "consequuntur",
-      "CustLangId": 577,
-      "Registered": "1999-06-23T11:22:37.7898385+02:00",
-      "RegisteredAssociateId": 440,
-      "Updated": "2020-10-20T11:22:37.7898385+02:00",
-      "UpdatedAssociateId": 443
+      "Config": "natus",
+      "CustLangId": 878,
+      "Registered": "2005-02-11T12:15:18.6417562+01:00",
+      "RegisteredAssociateId": 796,
+      "Updated": "2003-11-09T12:15:18.6417562+01:00",
+      "UpdatedAssociateId": 231
     }
   ]
 }

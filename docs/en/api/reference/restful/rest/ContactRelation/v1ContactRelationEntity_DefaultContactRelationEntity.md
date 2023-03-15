@@ -73,7 +73,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,33 +81,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 28 Nov 2009 11:22:44 G11T
+Last-Modified: Sat, 17 Mar 2001 12:15:26 G3T
 
 {
-  "SourceContactId": 650,
-  "SourcePersonId": 861,
-  "DestinationContactId": 272,
-  "DestinationPersonId": 675,
-  "RelationId": 441,
-  "Comment": "ipsam",
-  "RelationDefinitionId": 470,
-  "Reversed": 439,
-  "UpdatedDate": "2009-11-28T11:22:44.5538748+01:00",
-  "CreatedDate": "2018-12-25T11:22:44.5538748+01:00",
+  "SourceContactId": 659,
+  "SourcePersonId": 776,
+  "DestinationContactId": 535,
+  "DestinationPersonId": 44,
+  "RelationId": 963,
+  "Comment": "animi",
+  "RelationDefinitionId": 712,
+  "Reversed": 245,
+  "UpdatedDate": "2001-03-17T12:15:26.7936377+01:00",
+  "CreatedDate": "2003-06-15T12:15:26.7936377+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Sanford, Macejkovic and Erdman",
-  "SourcePersonName": "Ernser Group",
-  "DestinationContactName": "Witting-Fay",
-  "DestinationPersonName": "Kuhn Group",
-  "ActiveText": "iusto",
-  "PassiveText": "quam",
+  "SourceContactName": "Stanton Inc and Sons",
+  "SourcePersonName": "Parisian-Herzog",
+  "DestinationContactName": "Hills-Zboncak",
+  "DestinationPersonName": "Rosenbaum Inc and Sons",
+  "ActiveText": "consequatur",
+  "PassiveText": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

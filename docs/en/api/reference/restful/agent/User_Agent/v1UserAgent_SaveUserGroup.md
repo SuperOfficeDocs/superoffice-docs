@@ -96,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "asperiores",
-  "Tooltip": "molestiae",
-  "Id": 103,
-  "Rank": 427,
+  "Value": "qui",
+  "Tooltip": "enim",
+  "Id": 262,
+  "Rank": 865,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 824
     }
   }
 }

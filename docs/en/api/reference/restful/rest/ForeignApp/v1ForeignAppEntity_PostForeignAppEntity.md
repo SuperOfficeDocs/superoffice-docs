@@ -87,27 +87,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 129,
-  "Name": "Rath-Jacobs",
-  "CreatedDate": "1999-02-03T11:22:44.8506265+01:00",
-  "UpdatedDate": "2021-02-14T11:22:44.8506265+01:00",
+  "ForeignAppId": 181,
+  "Name": "Donnelly Group",
+  "CreatedDate": "2018-08-23T12:15:26.9466372+02:00",
+  "UpdatedDate": "2009-05-14T12:15:26.9466372+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 246,
-      "Name": "Schinner, Simonis and Schuppe",
-      "CreatedDate": "2011-06-09T11:22:44.8506265+02:00",
-      "UpdatedDate": "2015-09-28T11:22:44.8506265+02:00",
-      "AssociateFullName": "Glenna D'Amore I",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "repellendus",
-      "ForeignAppId": 73
+      "ForeignDeviceId": 32,
+      "Name": "Bailey-Hills",
+      "CreatedDate": "2022-08-16T12:15:26.9476357+02:00",
+      "UpdatedDate": "2017-07-22T12:15:26.9476357+02:00",
+      "AssociateFullName": "Mr. Nigel Keeling Sr.",
+      "CreatedBy": "deleniti",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "sapiente",
+      "ForeignAppId": 210
     }
   ]
 }
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 525,
-  "Name": "Crist-Effertz",
-  "CreatedDate": "2013-11-22T11:22:44.8662479+01:00",
-  "UpdatedDate": "1997-05-11T11:22:44.8662479+02:00",
+  "ForeignAppId": 48,
+  "Name": "Schmitt-Franecki",
+  "CreatedDate": "2015-08-04T12:15:26.950636+02:00",
+  "UpdatedDate": "2012-12-16T12:15:26.950636+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 537,
-      "Name": "Nicolas, McLaughlin and Johns",
-      "CreatedDate": "2007-05-14T11:22:44.8662479+02:00",
-      "UpdatedDate": "2001-02-14T11:22:44.8662479+01:00",
-      "AssociateFullName": "Junior Howe",
-      "CreatedBy": "rem",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "animi",
-      "ForeignAppId": 584,
+      "ForeignDeviceId": 563,
+      "Name": "Kuhn LLC",
+      "CreatedDate": "2007-05-15T12:15:26.950636+02:00",
+      "UpdatedDate": "2001-10-19T12:15:26.950636+02:00",
+      "AssociateFullName": "Andrew Kuhlman",
+      "CreatedBy": "dolores",
+      "UpdatedBy": "dolorem",
+      "DeviceIdentifier": "quas",
+      "ForeignAppId": 183,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 957
         }
       }
     }
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 909
     }
   },
   "_Links": {

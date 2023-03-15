@@ -111,29 +111,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 804,
-  "Name": "Kunze-Swift",
-  "Description": "Extended tangible migration",
-  "DefaultHeight": 298,
-  "DefaultWidth": 893,
+  "DashboardTileDefinitionId": 998,
+  "Name": "Leffler, Gibson and Kub",
+  "Description": "Multi-tiered 24/7 encoding",
+  "DefaultHeight": 910,
+  "DefaultWidth": 806,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Champlin Group",
-  "SelectionId": 989,
+  "EntityName": "Gerlach Group",
+  "SelectionId": 633,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "adipisci",
-  "SortBy": "saepe",
-  "LayoutConfig": "id",
-  "SecondarySelectionId": 599,
-  "MeasureByField": "qui",
+  "MeasureField": "possimus",
+  "SortBy": "et",
+  "LayoutConfig": "quas",
+  "SecondarySelectionId": 13,
+  "MeasureByField": "impedit",
   "Usage": "Dashboard",
-  "ProviderName": "Goyette Group"
+  "ProviderName": "Nienow-Monahan"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 649,
-  "Name": "Spencer Group",
-  "Description": "Managed executive toolset",
-  "DefaultHeight": 391,
-  "DefaultWidth": 436,
+  "DashboardTileDefinitionId": 421,
+  "Name": "Conroy-Boyer",
+  "Description": "Operative system-worthy array",
+  "DefaultHeight": 887,
+  "DefaultWidth": 904,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Blick, Mueller and Rowe",
-  "SelectionId": 507,
+  "EntityName": "Muller LLC",
+  "SelectionId": 580,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptatem",
+  "CurrencyCode": "ex",
   "Measure": "Average",
-  "MeasureField": "autem",
-  "SortBy": "non",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 530,
-  "MeasureByField": "omnis",
+  "MeasureField": "repellendus",
+  "SortBy": "dolor",
+  "LayoutConfig": "optio",
+  "SecondarySelectionId": 233,
+  "MeasureByField": "rerum",
   "Usage": "Dashboard",
-  "ProviderName": "McClure Inc and Sons",
+  "ProviderName": "Hayes, Raynor and Tromp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldType": "System.Int32",
+      "FieldLength": 244
     }
   },
   "_Links": {

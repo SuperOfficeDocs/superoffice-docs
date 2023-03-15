@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 405
+  "ChatSessionId": 506
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 564,
-  "TopicId": 865,
+  "ChatSessionId": 65,
+  "TopicId": 908,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatem",
-  "CustomerHost": "sunt",
-  "CustomerName": "Glover, Stanton and Bailey",
-  "CustomerEmail": "lincoln.renner@kirlin.ca",
-  "CustomerPhone": "1-336-880-9275",
+  "CustomerAlias": "suscipit",
+  "CustomerHost": "labore",
+  "CustomerName": "Abernathy-Lesch",
+  "CustomerEmail": "celine.kohler@bayer.info",
+  "CustomerPhone": "347.935.6860",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Blanda Group",
+  "CustomerCompanyName": "Howell Group",
   "Status": "Closed",
-  "FirstMessage": "quaerat",
-  "LastMessage": "non",
-  "WhenRequested": "2014-03-14T11:22:37.5398862+01:00",
-  "WhenStarted": "2019-11-15T11:22:37.5398862+01:00",
-  "WhenEnded": "2005-05-04T11:22:37.5398862+02:00",
-  "WhenIdle": "2000-05-09T11:22:37.5398862+02:00",
-  "WhenFetched": "2014-11-24T11:22:37.5398862+01:00",
-  "SessionKey": "sapiente",
-  "InitialQueuePos": 18,
-  "AlertLevel": 326,
-  "Rank": 449,
+  "FirstMessage": "facere",
+  "LastMessage": "odio",
+  "WhenRequested": "1998-07-03T12:15:18.338761+02:00",
+  "WhenStarted": "2017-11-17T12:15:18.338761+01:00",
+  "WhenEnded": "1999-01-27T12:15:18.338761+01:00",
+  "WhenIdle": "2004-09-04T12:15:18.338761+02:00",
+  "WhenFetched": "2007-09-11T12:15:18.338761+02:00",
+  "SessionKey": "architecto",
+  "InitialQueuePos": 959,
+  "AlertLevel": 998,
+  "Rank": 580,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 826,
+  "ChatbotIsActive": false,
+  "Rating": 538,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 734
     }
   }
 }

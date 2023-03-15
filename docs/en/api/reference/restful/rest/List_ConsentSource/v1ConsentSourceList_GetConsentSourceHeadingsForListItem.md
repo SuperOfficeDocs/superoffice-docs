@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Kuhic, Dibbert and Marvin",
-    "ToolTip": "Enim nulla molestias nihil.",
-    "Deleted": false,
-    "Rank": 317,
-    "Type": "laboriosam",
-    "ColorBlock": 178,
-    "IconHint": "eius",
+    "Id": 785,
+    "Name": "Kihn, Green and Bartoletti",
+    "ToolTip": "Rerum vel est consequatur adipisci.",
+    "Deleted": true,
+    "Rank": 389,
+    "Type": "ut",
+    "ColorBlock": 419,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2000-06-21T11:22:45.8347706+02:00",
+    "LastChanged": "2000-02-26T12:15:27.9476223+01:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Flatley Group",
-        "ToolTip": "Sed ut soluta nobis tenetur distinctio.",
+        "Id": 786,
+        "Name": "Dickinson-Gaylord",
+        "ToolTip": "Dolores consequatur impedit omnis molestiae nesciunt a.",
         "Deleted": false,
-        "Rank": 572,
-        "Type": "esse",
-        "ColorBlock": 244,
-        "IconHint": "asperiores",
+        "Rank": 658,
+        "Type": "quis",
+        "ColorBlock": 479,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2013-06-20T11:22:45.8347706+02:00",
+        "LastChanged": "2002-01-24T12:15:27.9476223+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "earum",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "ratione",
         "Hidden": true,
-        "FullName": "Dorothy Keeling",
+        "FullName": "Ms. Jarod Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 682
+            "FieldType": "System.Int32",
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "aut",
+    "ExtraInfo": "ut",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Mark Ariel Bahringer III",
+    "FullName": "Ms. Abagail Rene Wehner II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

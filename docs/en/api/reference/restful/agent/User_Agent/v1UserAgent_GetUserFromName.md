@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "McLaughlin, Buckridge and Dare"
+  "UserName": "Grimes, Schumm and Graham"
 }
 ```
 
@@ -113,14 +113,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 366,
-  "Name": "Mante, Mraz and Kunze",
-  "Rank": 11,
-  "Tooltip": "dolores",
+  "AssociateId": 754,
+  "Name": "Wunsch, Dooley and Glover",
+  "Rank": 622,
+  "Tooltip": "qui",
   "LicenseOwners": [
     {
-      "Name": "Jacobi Group",
-      "Description": "User-centric high-level orchestration",
+      "Name": "McGlynn, Altenwerth and Johnson",
+      "Description": "Programmable contextually-based knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,14 +133,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 819
         }
       }
     },
     {
-      "Name": "Jacobi Group",
-      "Description": "User-centric high-level orchestration",
+      "Name": "McGlynn, Altenwerth and Johnson",
+      "Description": "Programmable contextually-based knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 819
         }
       }
     }
@@ -163,110 +163,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "accusamus",
-      "Tooltip": "enim",
-      "Id": 927,
-      "Rank": 380,
+      "Value": "culpa",
+      "Tooltip": "aut",
+      "Id": 926,
+      "Rank": 584,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldLength": 407
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2001-10-27T11:22:39.6487731+02:00",
-  "Lastlogout": "2016-12-13T11:22:39.6487731+01:00",
-  "EjUserId": 288,
-  "RequestSignature": "voluptate",
+  "Deleted": false,
+  "Lastlogin": "2017-11-22T12:15:20.5907284+01:00",
+  "Lastlogout": "2002-09-19T12:15:20.5907284+02:00",
+  "EjUserId": 531,
+  "RequestSignature": "id",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "a",
-      "DisplayValue": "aliquid",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 684
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "a",
-      "DisplayValue": "aliquid",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 684
-        }
-      }
-    }
-  ],
-  "UserName": "Kris-Abbott",
-  "TicketCategories": [
-    {
-      "Id": 661,
-      "Name": "Goyette LLC",
-      "ToolTip": "Sit sunt ut.",
-      "Deleted": false,
-      "Rank": 453,
-      "Type": "et",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "id",
-      "ColorBlock": 713,
-      "ExtraInfo": "qui",
-      "StyleHint": "vitae",
-      "FullName": "Mr. Will Gerhold",
+      "Value": "accusamus",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 590
+          "FieldLength": 212
         }
       }
-    }
-  ],
-  "NickName": "Davis-Funk",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "at"
-  },
-  "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "aperiam"
-  },
-  "PostSaveCommands": [
+    },
     {
-      "Name": "Mosciski LLC",
-      "DisplayName": "Langosh-Cruickshank",
-      "Description": "Switchable explicit moderator",
-      "ToolTip": "Nulla doloribus possimus exercitationem accusantium repellat labore.",
-      "Actions": "Implicit",
-      "ActionData": "quidem",
+      "Type": null,
+      "Value": "accusamus",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 276
+          "FieldType": "System.Int32",
+          "FieldLength": 212
+        }
+      }
+    }
+  ],
+  "UserName": "Pollich Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 315,
+      "Name": "Mraz, Grady and Gutkowski",
+      "ToolTip": "Repellendus sit iusto.",
+      "Deleted": true,
+      "Rank": 616,
+      "Type": "possimus",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "et",
+      "ColorBlock": 402,
+      "ExtraInfo": "ipsam",
+      "StyleHint": "blanditiis",
+      "FullName": "Sheila Beahan",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 281
+        }
+      }
+    }
+  ],
+  "NickName": "Goyette-Emard",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "qui",
+    "ExtraFields2": "cupiditate"
+  },
+  "CustomFields": {
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "corrupti"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Deckow-Purdy",
+      "DisplayName": "Breitenberg, Durgan and Emmerich",
+      "Description": "Decentralized scalable projection",
+      "ToolTip": "Et aut odit exercitationem impedit numquam dolorum.",
+      "Actions": "Implicit",
+      "ActionData": "illum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 664
         }
       }
     }
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   }
 }

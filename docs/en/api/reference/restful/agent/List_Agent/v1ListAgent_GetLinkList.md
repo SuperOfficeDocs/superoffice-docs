@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kub-Friesen",
-    "Id": 101,
-    "Description": "Fundamental radical knowledge user",
-    "ExtraInfo": "dolores",
-    "LinkId": 401,
+    "EntityName": "Parker LLC",
+    "Id": 515,
+    "Description": "Polarised cohesive moderator",
+    "ExtraInfo": "laudantium",
+    "LinkId": 720,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 569
       }
     }
   }

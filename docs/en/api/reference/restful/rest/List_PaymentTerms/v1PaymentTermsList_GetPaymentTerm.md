@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "Swaniawski, Kulas and Donnelly",
-  "Tooltip": "vel",
+  "Id": 558,
+  "Name": "Corkery, Barrows and Harvey",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 190,
-  "Rank": 723,
+  "UdListDefinitionId": 39,
+  "Rank": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

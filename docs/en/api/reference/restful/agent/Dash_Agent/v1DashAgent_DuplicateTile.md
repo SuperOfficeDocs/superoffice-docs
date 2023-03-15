@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 359,
-  "Name": "Raynor LLC"
+  "DashTileId": 403,
+  "Name": "Anderson, Shields and Weimann"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 969,
-  "DashboardId": 865,
-  "Height": 976,
-  "Width": 20,
-  "Rank": 543,
+  "DashboardTileId": 100,
+  "DashboardId": 105,
+  "Height": 763,
+  "Width": 954,
+  "Rank": 915,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 767
     }
   }
 }

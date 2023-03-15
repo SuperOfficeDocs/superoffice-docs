@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Bechtelar-Gorczany",
-    "ToolTip": "Nesciunt voluptas neque ducimus voluptatum.",
+    "Id": 938,
+    "Name": "Ernser Inc and Sons",
+    "ToolTip": "Earum nulla ad consequatur qui voluptatem.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "consequatur",
-    "ColorBlock": 579,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2003-03-24T11:22:46.0847653+01:00",
+    "Rank": 234,
+    "Type": "eos",
+    "ColorBlock": 412,
+    "IconHint": "nostrum",
+    "Selected": true,
+    "LastChanged": "2016-03-18T12:15:28.3656176+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Swaniawski Group",
-        "ToolTip": "Qui et soluta laboriosam aut non sed velit.",
-        "Deleted": false,
-        "Rank": 185,
-        "Type": "deleniti",
-        "ColorBlock": 28,
-        "IconHint": "commodi",
-        "Selected": true,
-        "LastChanged": "2006-03-10T11:22:46.0847653+01:00",
+        "Id": 954,
+        "Name": "Barrows-Zulauf",
+        "ToolTip": "Illum sed aliquid.",
+        "Deleted": true,
+        "Rank": 314,
+        "Type": "et",
+        "ColorBlock": 315,
+        "IconHint": "laudantium",
+        "Selected": false,
+        "LastChanged": "2007-08-02T12:15:28.3656176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "odio",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Miss Jaqueline Rempel III",
+        "FullName": "Hassan Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 924
+            "FieldType": "System.Int32",
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Sarah Rolfson",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "tempore",
+    "Hidden": false,
+    "FullName": "Jacinthe Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   }

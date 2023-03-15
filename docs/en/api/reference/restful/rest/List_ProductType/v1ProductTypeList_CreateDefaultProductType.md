@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Barton Inc and Sons",
-  "Tooltip": "nam",
+  "Id": 284,
+  "Name": "Gottlieb, Schoen and Bruen",
+  "Tooltip": "natus",
   "Deleted": false,
-  "UdListDefinitionId": 151,
-  "Rank": 518,
+  "UdListDefinitionId": 917,
+  "Rank": 70,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

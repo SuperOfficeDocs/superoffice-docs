@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "suscipit",
+  "Valid": true,
+  "ErrorMessage": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldLength": 31
     }
   }
 }

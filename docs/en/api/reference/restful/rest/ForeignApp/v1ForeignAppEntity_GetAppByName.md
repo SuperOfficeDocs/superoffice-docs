@@ -64,7 +64,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,32 +72,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 15 Oct 2013 11:22:44 G10T
+Last-Modified: Sun, 03 Aug 2003 12:15:26 G8T
 
 {
-  "ForeignAppId": 684,
-  "Name": "Wunsch-Macejkovic",
-  "CreatedDate": "2010-11-07T11:22:44.8662479+01:00",
-  "UpdatedDate": "2013-10-15T11:22:44.8662479+02:00",
+  "ForeignAppId": 850,
+  "Name": "Kulas, Rempel and Rath",
+  "CreatedDate": "2017-09-07T12:15:26.9696358+02:00",
+  "UpdatedDate": "2003-08-03T12:15:26.9696358+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 657,
-      "Name": "Schumm LLC",
-      "CreatedDate": "2003-12-16T11:22:44.8662479+01:00",
-      "UpdatedDate": "2001-06-03T11:22:44.8662479+02:00",
-      "AssociateFullName": "Mr. Myriam Alta Renner",
-      "CreatedBy": "sed",
-      "UpdatedBy": "nesciunt",
-      "DeviceIdentifier": "enim",
-      "ForeignAppId": 148,
+      "ForeignDeviceId": 82,
+      "Name": "Yost LLC",
+      "CreatedDate": "1996-03-07T12:15:26.9706352+01:00",
+      "UpdatedDate": "2021-06-14T12:15:26.9706352+02:00",
+      "AssociateFullName": "Mr. Cory Grant",
+      "CreatedBy": "laudantium",
+      "UpdatedBy": "commodi",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 361,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 969
         }
       }
     }
@@ -106,8 +106,8 @@ Last-Modified: Tue, 15 Oct 2013 11:22:44 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

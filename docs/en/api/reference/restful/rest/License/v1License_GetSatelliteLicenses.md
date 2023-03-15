@@ -61,7 +61,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gislason, Bechtelar and Lebsack",
-    "Description": "Phased incremental utilisation",
+    "Name": "Sporer, Spinka and Hammes",
+    "Description": "Public-key uniform monitoring",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 771,
-        "Tooltip": "exercitationem",
+        "Total": 326,
+        "Tooltip": "voluptates",
         "CanAssign": false,
-        "Free": 743,
-        "InUse": 511,
+        "Free": 10,
+        "InUse": 958,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 419,
-        "Name": "Senger Group",
-        "Description": "Balanced impactful structure",
-        "PrerequisiteModuleName": "Goodwin, Littel and Weissnat",
-        "SortOrder": 852,
-        "ExtraFlags": 771,
+        "ModuleLicenseId": 155,
+        "Name": "Johns Group",
+        "Description": "Fundamental zero defect help-desk",
+        "PrerequisiteModuleName": "Reichel Group",
+        "SortOrder": 796,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 799
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 761,
-        "Tooltip": "et",
+        "Total": 540,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 225,
-        "InUse": 88,
+        "Free": 685,
+        "InUse": 515,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 548,
-        "Name": "Nikolaus Inc and Sons",
-        "Description": "Public-key value-added structure",
-        "PrerequisiteModuleName": "Johnson Group",
-        "SortOrder": 95,
-        "ExtraFlags": 77,
+        "ModuleLicenseId": 76,
+        "Name": "Stark Group",
+        "Description": "Universal value-added middleware",
+        "PrerequisiteModuleName": "Pacocha LLC",
+        "SortOrder": 835,
+        "ExtraFlags": 852,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 394
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 152
       }
     }
   },
   {
-    "Name": "Gislason, Bechtelar and Lebsack",
-    "Description": "Phased incremental utilisation",
+    "Name": "Sporer, Spinka and Hammes",
+    "Description": "Public-key uniform monitoring",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 771,
-        "Tooltip": "exercitationem",
+        "Total": 326,
+        "Tooltip": "voluptates",
         "CanAssign": false,
-        "Free": 743,
-        "InUse": 511,
+        "Free": 10,
+        "InUse": 958,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 419,
-        "Name": "Senger Group",
-        "Description": "Balanced impactful structure",
-        "PrerequisiteModuleName": "Goodwin, Littel and Weissnat",
-        "SortOrder": 852,
-        "ExtraFlags": 771,
+        "ModuleLicenseId": 155,
+        "Name": "Johns Group",
+        "Description": "Fundamental zero defect help-desk",
+        "PrerequisiteModuleName": "Reichel Group",
+        "SortOrder": 796,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldLength": 799
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 761,
-        "Tooltip": "et",
+        "Total": 540,
+        "Tooltip": "voluptas",
         "CanAssign": false,
-        "Free": 225,
-        "InUse": 88,
+        "Free": 685,
+        "InUse": 515,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 548,
-        "Name": "Nikolaus Inc and Sons",
-        "Description": "Public-key value-added structure",
-        "PrerequisiteModuleName": "Johnson Group",
-        "SortOrder": 95,
-        "ExtraFlags": 77,
+        "ModuleLicenseId": 76,
+        "Name": "Stark Group",
+        "Description": "Universal value-added middleware",
+        "PrerequisiteModuleName": "Pacocha LLC",
+        "SortOrder": 835,
+        "ExtraFlags": 852,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 394
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 152
       }
     }
   }

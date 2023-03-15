@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 929,
-    "Name": "Denesik, Waelchi and Bins",
-    "ToolTip": "Aut similique et odio repellat iusto.",
-    "Deleted": false,
-    "Rank": 965,
-    "Type": "aut",
-    "ColorBlock": 360,
+    "Id": 237,
+    "Name": "Beier, Hane and Hyatt",
+    "ToolTip": "Sint consequatur id omnis aut voluptas.",
+    "Deleted": true,
+    "Rank": 139,
+    "Type": "dolore",
+    "ColorBlock": 164,
     "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2022-02-02T11:22:45.8973017+01:00",
+    "Selected": false,
+    "LastChanged": "1996-09-17T12:15:28.1346207+02:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Baumbach, Nitzsche and Kautzer",
-        "ToolTip": "Soluta aperiam repellat dolorum vel ut.",
-        "Deleted": false,
-        "Rank": 611,
-        "Type": "sed",
-        "ColorBlock": 748,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2022-03-22T11:22:45.8973017+01:00",
+        "Id": 251,
+        "Name": "Paucek Group",
+        "ToolTip": "Qui qui nulla iure assumenda libero deserunt.",
+        "Deleted": true,
+        "Rank": 388,
+        "Type": "eum",
+        "ColorBlock": 216,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2002-03-23T12:15:28.1346207+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "ut",
+        "ExtraInfo": "commodi",
+        "StyleHint": "ab",
         "Hidden": true,
-        "FullName": "Fleta Mosciski"
+        "FullName": "Bert Hyman Stokes I"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "animi",
-    "Hidden": true,
-    "FullName": "Dr. Dorcas Madaline Stracke"
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "quod",
+    "Hidden": false,
+    "FullName": "Reanna West"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Murray, Keebler and Turner",
-    "ToolTip": "Cumque aliquid quis.",
+    "Id": 149,
+    "Name": "Durgan, Langosh and Dare",
+    "ToolTip": "Eveniet enim omnis eos.",
     "Deleted": false,
-    "Rank": 327,
-    "Type": "hic",
-    "ColorBlock": 158,
-    "IconHint": "officia",
-    "Selected": false,
-    "LastChanged": "2019-08-17T11:22:45.8973017+02:00",
+    "Rank": 778,
+    "Type": "dolor",
+    "ColorBlock": 785,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "2004-03-07T12:15:28.1356187+01:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Kertzmann Inc and Sons",
-        "ToolTip": "Sit magni soluta repellat.",
-        "Deleted": false,
-        "Rank": 867,
-        "Type": "nihil",
-        "ColorBlock": 163,
-        "IconHint": "quaerat",
+        "Id": 235,
+        "Name": "Nitzsche LLC",
+        "ToolTip": "Quia est earum cum.",
+        "Deleted": true,
+        "Rank": 758,
+        "Type": "tempore",
+        "ColorBlock": 946,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2016-03-20T11:22:45.8973017+01:00",
+        "LastChanged": "2004-12-24T12:15:28.1356187+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "sit",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Nils Witting",
+        "FullName": "Wilhelmine Stanton V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 275
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Vaughn Cormier",
+    "ExtraInfo": "ut",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Markus Pollich V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldLength": 221
       }
     }
   }

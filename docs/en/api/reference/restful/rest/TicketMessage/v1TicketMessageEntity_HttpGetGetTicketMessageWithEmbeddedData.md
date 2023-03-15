@@ -68,7 +68,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -105,28 +105,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 636,
+  "EjMessageId": 811,
   "Ticket": null,
-  "CreatedAt": "2011-06-15T11:22:45.3349401+02:00",
+  "CreatedAt": "2005-07-05T12:15:27.5596276+02:00",
   "CreatedBy": null,
-  "Author": "porro",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vel",
-  "TimeSpent": 231,
-  "Body": "laudantium",
-  "HtmlBody": "omnis",
-  "EmailHeader": "griffin@bruen.us",
-  "DebugInfo": "pariatur",
-  "MailSorter": "quo",
+  "MessageId": "voluptatibus",
+  "TimeSpent": 355,
+  "Body": "vitae",
+  "HtmlBody": "rerum",
+  "EmailHeader": "linwood.toy@kemmer.ca",
+  "DebugInfo": "eos",
+  "MailSorter": "eos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reprehenderit",
+  "SearchTitle": "magnam",
   "MessageHeaders": [
     {
-      "Id": 69,
-      "Name": "O'Conner, Wisozk and Kirlin",
-      "Value": "optio",
+      "Id": 262,
+      "Name": "Volkman, Brakus and Fisher",
+      "Value": "autem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -134,47 +134,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldLength": 692
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "eos",
-  "Sentiment": 755,
-  "SentimentConfidence": 55,
+  "Important": true,
+  "Language": "ab",
+  "Sentiment": 278,
+  "SentimentConfidence": 899,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 177,
-      "Name": "Hammes, Cummerata and Schowalter",
-      "ContentType": "expedita",
-      "AttSize": 984,
-      "InlineImage": true,
-      "ContentId": "delectus",
+      "AttachmentId": 398,
+      "Name": "Stoltenberg, Stamm and Hudson",
+      "ContentType": "aut",
+      "AttSize": 5,
+      "InlineImage": false,
+      "ContentId": "laboriosam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 110
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "fuga"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "alias"
+    "CustomFields1": "quia",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 250
     }
   }
 }

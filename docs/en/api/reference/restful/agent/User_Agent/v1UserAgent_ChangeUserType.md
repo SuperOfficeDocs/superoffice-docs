@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 389,
-  "Name": "Gleason LLC",
-  "Rank": 397,
-  "Tooltip": "eius",
+  "AssociateId": 665,
+  "Name": "Balistreri, Bogisich and Corwin",
+  "Rank": 91,
+  "Tooltip": "impedit",
   "LicenseOwners": [
     {
-      "Name": "Fay, Labadie and Grimes",
-      "Description": "Multi-layered multi-tasking data-warehouse",
+      "Name": "McGlynn-Lockman",
+      "Description": "Grass-roots modular moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,14 +135,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     },
     {
-      "Name": "Fay, Labadie and Grimes",
-      "Description": "Multi-layered multi-tasking data-warehouse",
+      "Name": "McGlynn-Lockman",
+      "Description": "Grass-roots modular moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldType": "System.String",
+          "FieldLength": 223
         }
       }
     }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sed",
-      "Tooltip": "voluptas",
-      "Id": 59,
-      "Rank": 93,
-      "Deleted": false,
+      "Value": "non",
+      "Tooltip": "laboriosam",
+      "Id": 381,
+      "Rank": 856,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 74
+          "FieldLength": 719
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2011-04-14T11:22:39.5706677+02:00",
-  "Lastlogout": "1995-09-19T11:22:39.5706677+02:00",
-  "EjUserId": 569,
-  "RequestSignature": "fugit",
+  "Deleted": false,
+  "Lastlogin": "1998-11-22T12:15:20.5107291+01:00",
+  "Lastlogout": "1998-01-28T12:15:20.5107291+01:00",
+  "EjUserId": 40,
+  "RequestSignature": "voluptatem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "quia",
+      "Value": "dolorum",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 710
         }
       }
     },
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "quia",
+      "Value": "dolorum",
+      "DisplayValue": "blanditiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 710
         }
       }
     }
   ],
-  "UserName": "Tromp Group",
+  "UserName": "Schmeler, Johns and Simonis",
   "TicketCategories": [
     {
-      "Id": 100,
-      "Name": "Ritchie Group",
-      "ToolTip": "Soluta impedit.",
-      "Deleted": false,
-      "Rank": 970,
-      "Type": "in",
+      "Id": 245,
+      "Name": "D'Amore-Rippin",
+      "ToolTip": "Ut ipsa adipisci delectus deserunt impedit consequuntur architecto.",
+      "Deleted": true,
+      "Rank": 738,
+      "Type": "provident",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sequi",
-      "ColorBlock": 482,
-      "ExtraInfo": "architecto",
-      "StyleHint": "iure",
-      "FullName": "Alysson Torp Sr.",
+      "IconHint": "iure",
+      "ColorBlock": 876,
+      "ExtraInfo": "aliquid",
+      "StyleHint": "ut",
+      "FullName": "Morgan Kovacek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldLength": 667
         }
       }
     }
   ],
-  "NickName": "Schinner Group",
-  "WaitingForApproval": false,
+  "NickName": "Greenfelder-Dibbert",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "consectetur"
+    "CustomFields1": "corporis",
+    "CustomFields2": "vel"
   },
   "PostSaveCommands": [
     {
-      "Name": "Schmidt, Feest and Ritchie",
-      "DisplayName": "Nitzsche LLC",
-      "Description": "Right-sized secondary time-frame",
-      "ToolTip": "Minus deserunt.",
+      "Name": "Lind, Mante and Greenfelder",
+      "DisplayName": "Lind LLC",
+      "Description": "Optimized user-facing attitude",
+      "ToolTip": "Modi dolores accusantium molestiae occaecati vel totam.",
       "Actions": "Implicit",
-      "ActionData": "nihil",
+      "ActionData": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 681
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 323
     }
   }
 }

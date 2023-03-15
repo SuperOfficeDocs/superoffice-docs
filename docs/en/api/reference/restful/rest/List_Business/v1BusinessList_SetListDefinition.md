@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 829,
-  "Name": "Tillman LLC",
-  "Tooltip": "aut",
+  "Id": 883,
+  "Name": "Greenfelder Inc and Sons",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 266,
+  "Rank": 430,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 162,
-  "Name": "Green-Hermann",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 459,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsum",
+  "Id": 207,
+  "Name": "Boyer Inc and Sons",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 775,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 197
     }
   }
 }

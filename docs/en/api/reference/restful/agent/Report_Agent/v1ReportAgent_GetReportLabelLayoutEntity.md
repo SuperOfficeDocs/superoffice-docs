@@ -25,7 +25,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=226
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=345
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 77,
-  "Name": "Barton Group",
-  "Description": "Reduced real-time moratorium",
+  "ReportLabelLayoutId": 623,
+  "Name": "Johns LLC",
+  "Description": "Phased uniform model",
   "Orientation": "Landscape",
-  "PaperWidth": 3,
-  "PaperHeight": 571,
-  "LeftMargin": 316,
-  "RightMargin": 434,
-  "TopMargin": 949,
-  "BottomMargin": 238,
-  "CountColumns": 574,
-  "CountRows": 963,
+  "PaperWidth": 189,
+  "PaperHeight": 511,
+  "LeftMargin": 206,
+  "RightMargin": 972,
+  "TopMargin": 416,
+  "BottomMargin": 972,
+  "CountColumns": 511,
+  "CountRows": 77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 181
     }
   }
 }

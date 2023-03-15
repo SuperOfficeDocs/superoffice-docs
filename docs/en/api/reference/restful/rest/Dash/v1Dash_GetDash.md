@@ -84,7 +84,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,37 +94,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 708,
-  "UniqueId": "sequi",
-  "Name": "Friesen Inc and Sons",
-  "Description": "Digitized neutral system engine",
-  "AssociateId": 276,
-  "Columns": 261,
+  "DashboardId": 526,
+  "UniqueId": "velit",
+  "Name": "Franecki, Yundt and Ortiz",
+  "Description": "Re-engineered mobile portal",
+  "AssociateId": 247,
+  "Columns": 524,
   "Theme": null,
-  "VisibleForAll": 626,
+  "VisibleForAll": 490,
   "VisibleForAssociates": [
-    60,
-    393
+    305,
+    937
   ],
   "VisibleForGroups": [
-    49,
-    745
+    601,
+    374
   ],
-  "PinForAll": 627,
+  "PinForAll": 293,
   "PinForAssociates": [
-    445,
-    557
+    917,
+    352
   ],
   "PinForGroups": [
-    630,
-    967
+    370,
+    662
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 229
     }
   },
   "_Links": {

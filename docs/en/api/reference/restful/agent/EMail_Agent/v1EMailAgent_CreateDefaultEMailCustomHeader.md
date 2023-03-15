@@ -70,17 +70,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zemlak Inc and Sons",
+  "Name": "Sanford Inc and Sons",
   "Values": [
-    "nobis",
-    "doloremque"
+    "deleniti",
+    "sequi"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

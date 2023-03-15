@@ -87,7 +87,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 700,
-    "ColumnId": 333,
-    "FieldDefault": "inventore",
-    "FieldHeight": 866,
-    "FieldLabel": "non",
-    "FieldLeft": 805,
-    "FieldTop": 382,
+    "UDefFieldId": 564,
+    "ColumnId": 368,
+    "FieldDefault": "debitis",
+    "FieldHeight": 565,
+    "FieldLabel": "laboriosam",
+    "FieldLeft": 763,
+    "FieldTop": 484,
     "FieldType": "Checkbox",
-    "FieldWidth": 483,
-    "FormatMask": "hic",
+    "FieldWidth": 61,
+    "FormatMask": "soluta",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 527,
-    "LabelLeft": 732,
-    "LabelTop": 52,
-    "LabelWidth": 340,
-    "LastVersionId": 921,
-    "ListTableId": 912,
-    "IsMandatory": false,
+    "LabelHeight": 618,
+    "LabelLeft": 220,
+    "LabelTop": 824,
+    "LabelWidth": 857,
+    "LastVersionId": 138,
+    "ListTableId": 568,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 748,
-    "ProgId": "eligendi",
+    "Page1LineNo": 770,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "fugiat",
-    "TabOrder": 234,
-    "TextLength": 626,
-    "Tooltip": "cum",
-    "UdefIdentity": 74,
-    "UDListDefinitionId": 669,
+    "ShortLabel": "nostrum",
+    "TabOrder": 610,
+    "TextLength": 875,
+    "Tooltip": "praesentium",
+    "UdefIdentity": 216,
+    "UDListDefinitionId": 976,
     "Justification": "Center",
-    "Version": 806,
-    "TemplateVariableName": "Hayes LLC",
+    "Version": 671,
+    "TemplateVariableName": "Reilly Group",
     "HasBeenPublished": false,
-    "MdoListName": "Ward, Gislason and Medhurst",
+    "MdoListName": "Torp, Zemlak and Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 596
       }
     }
   }

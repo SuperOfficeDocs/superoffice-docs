@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Reichel-Bins",
-      "EntityOrParentId": 550,
+      "EntityName": "West Group",
+      "EntityOrParentId": 888,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "Reichel-Bins",
-      "EntityOrParentId": 550,
+      "EntityName": "West Group",
+      "EntityOrParentId": 888,
       "RequestForNewRecord": false
     }
   ]
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 913,
-    "Id": 396,
-    "HistoryName": "Schoen-Marquardt",
-    "HistoryId": 173,
-    "AssociateId": 656,
-    "Name": "Turcotte LLC",
-    "ItemInfo": "ut",
+    "Rank": 475,
+    "Id": 289,
+    "HistoryName": "Schneider-Douglas",
+    "HistoryId": 359,
+    "AssociateId": 633,
+    "Name": "Cruickshank Group",
+    "ItemInfo": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldLength": 276
       }
     }
   }

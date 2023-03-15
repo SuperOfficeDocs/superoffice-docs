@@ -70,36 +70,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "consectetur",
-      "ValueType": "non",
+      "Key": "quam",
+      "ValueType": "dicta",
       "Mandatory": false,
-      "EncodedDisplayName": "Schaden, Herzog and Stiedemann",
-      "EncodedDisplayDescription": "Persevering national algorithm",
-      "IconHint": "optio",
+      "EncodedDisplayName": "Buckridge Group",
+      "EncodedDisplayDescription": "Multi-lateral encompassing throughput",
+      "IconHint": "unde",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "eos",
-      "EncodedDataCaptionDescription": "Synergized tertiary open system",
-      "CurrentOperationType": "nobis",
+      "EncodedDataCaption": "explicabo",
+      "EncodedDataCaptionDescription": "Cross-group 4th generation knowledge user",
+      "CurrentOperationType": "qui",
       "Values": [
-        "qui",
-        "ad"
+        "molestiae",
+        "aliquam"
       ],
       "DisplayValues": [
-        "iste",
-        "itaque"
+        "dolores",
+        "dolores"
       ],
       "OperationInfos": [
         {},
@@ -107,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Stanton-Strosin",
-  "Context": "doloribus",
-  "Ids": "modi"
+  "TableName": "Wolf-Abshire",
+  "Context": "quo",
+  "Ids": "tempore"
 }
 ```
 
@@ -119,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-26
+121
 ```

@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 627
+  "UserGroupId": 832
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 749,
-    "ColumnId": 1001,
-    "FieldDefault": "ipsa",
-    "FieldHeight": 348,
-    "FieldLabel": "iure",
-    "FieldLeft": 465,
-    "FieldTop": 605,
+    "UDefFieldId": 673,
+    "ColumnId": 449,
+    "FieldDefault": "libero",
+    "FieldHeight": 277,
+    "FieldLabel": "expedita",
+    "FieldLeft": 407,
+    "FieldTop": 821,
     "FieldType": "Checkbox",
-    "FieldWidth": 580,
-    "FormatMask": "et",
+    "FieldWidth": 845,
+    "FormatMask": "dignissimos",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 329,
-    "LabelLeft": 190,
-    "LabelTop": 571,
-    "LabelWidth": 855,
-    "LastVersionId": 83,
-    "ListTableId": 464,
+    "IsIndexed": false,
+    "LabelHeight": 678,
+    "LabelLeft": 766,
+    "LabelTop": 478,
+    "LabelWidth": 814,
+    "LastVersionId": 938,
+    "ListTableId": 319,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 970,
-    "ProgId": "autem",
+    "Page1LineNo": 795,
+    "ProgId": "quia",
     "IsReadOnly": false,
-    "ShortLabel": "blanditiis",
-    "TabOrder": 103,
-    "TextLength": 659,
-    "Tooltip": "explicabo",
-    "UdefIdentity": 83,
-    "UDListDefinitionId": 183,
+    "ShortLabel": "a",
+    "TabOrder": 978,
+    "TextLength": 502,
+    "Tooltip": "vitae",
+    "UdefIdentity": 517,
+    "UDListDefinitionId": 525,
     "Justification": "Center",
-    "Version": 798,
-    "TemplateVariableName": "Lehner, Thiel and Kovacek",
+    "Version": 936,
+    "TemplateVariableName": "Kling-Wuckert",
     "HasBeenPublished": false,
-    "MdoListName": "McClure-Moen",
+    "MdoListName": "Botsford-Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldType": "System.Int32",
+        "FieldLength": 85
       }
     }
   }

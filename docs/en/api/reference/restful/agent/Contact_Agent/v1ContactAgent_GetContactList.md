@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,36 +103,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 806,
-    "Name": "Zemlak, Strosin and Jewess",
-    "OrgNr": "1591198",
+    "ContactId": 2,
+    "Name": "Reilly-Hoppe",
+    "OrgNr": "1203011",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "dolores",
-    "DirectPhone": "922.152.0151",
-    "AssociateId": 569,
-    "CountryId": 641,
-    "EmailAddress": "samson_ernser@millslemke.name",
-    "Kananame": "et",
-    "EmailAddressName": "lindsay@goyette.ca",
+    "City": "sed",
+    "DirectPhone": "1-645-858-1449",
+    "AssociateId": 926,
+    "CountryId": 496,
+    "EmailAddress": "mario.bauch@dare.name",
+    "Kananame": "qui",
+    "EmailAddressName": "josie@bogan.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Clay Fritsch III",
+    "AssociateFullName": "Prof. Monserrate Lillie Walsh",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "est",
-    "FullName": "Eryn Mertie Rohan DDS",
+    "FormattedAddress": "natus",
+    "FullName": "Judd Hauck",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 27,
-    "Number1": "1076294",
-    "Number2": "246853",
+    "ActiveErpLinks": 965,
+    "Number1": "338691",
+    "Number2": "526896",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 737
       }
     }
   }

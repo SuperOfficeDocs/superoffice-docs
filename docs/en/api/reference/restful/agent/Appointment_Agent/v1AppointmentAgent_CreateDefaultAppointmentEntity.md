@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -124,63 +124,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-08-13T11:22:36.9931619+02:00",
-  "AppointmentId": 166,
-  "Description": "Visionary incremental array",
-  "StartDate": "2001-08-21T11:22:36.9931619+02:00",
-  "EndDate": "2012-09-28T11:22:36.9931619+02:00",
+  "CreatedDate": "2017-06-16T12:15:17.7287695+02:00",
+  "AppointmentId": 611,
+  "Description": "Assimilated bi-directional success",
+  "StartDate": "2011-08-09T12:15:17.7287695+02:00",
+  "EndDate": "2001-02-22T12:15:17.7287695+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 947,
+  "MotherId": 173,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-06-12T11:22:36.9931619+02:00",
+  "UpdatedDate": "2012-05-07T12:15:17.7317696+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 40,
+  "ActiveLinks": 937,
   "Links": [
     {
-      "EntityName": "Pagac, Harris and Parker",
-      "Id": 415,
-      "Description": "Function-based non-volatile task-force",
-      "ExtraInfo": "qui",
-      "LinkId": 45,
+      "EntityName": "Zulauf, McGlynn and Upton",
+      "Id": 137,
+      "Description": "Intuitive scalable hub",
+      "ExtraInfo": "consectetur",
+      "LinkId": 863,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 488
         }
       }
     }
   ],
-  "AlarmLeadTime": "tempore",
-  "HasAlarm": false,
-  "ColorIndex": 130,
+  "AlarmLeadTime": "expedita",
+  "HasAlarm": true,
+  "ColorIndex": 558,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "eaque",
-  "Location": "eius",
-  "RejectCounter": 934,
+  "LagTime": "quam",
+  "LeadTime": "voluptatibus",
+  "Location": "voluptatem",
+  "RejectCounter": 586,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 263,
-      "PersonId": 834,
-      "ContactId": 13,
-      "EmailId": 977,
+      "AssociateId": 884,
+      "PersonId": 308,
+      "ContactId": 989,
+      "EmailId": 335,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 263,
-      "PersonId": 834,
-      "ContactId": 13,
-      "EmailId": 977,
+      "AssociateId": 884,
+      "PersonId": 308,
+      "ContactId": 989,
+      "EmailId": 335,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -188,58 +188,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-09-13T11:22:36.9931619+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2020-12-29T12:15:17.7317696+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 511,
+  "PreferredTZLocation": 954,
   "Sale": null,
-  "SuggestedAppointmentId": 319,
+  "SuggestedAppointmentId": 279,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ullam",
+  "CentralserviceVideomeetId": "eos",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Griffin Collier",
-    "SuperOffice:2": "1980274894"
+    "SuperOffice:1": "Mrs. Cassandre Dustin Rempel IV",
+    "SuperOffice:2": "1991700826"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "velit"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2012-11-13T11:22:36.9931619+01:00",
-  "PublishTo": "2004-08-09T11:22:36.9931619+02:00",
-  "PublishFrom": "2002-06-02T11:22:36.9931619+02:00",
+  "PublishEventDate": "2005-01-22T12:15:17.7337695+01:00",
+  "PublishTo": "2016-02-28T12:15:17.7337695+01:00",
+  "PublishFrom": "2017-08-29T12:15:17.7337695+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 977,
+      "VisibleId": 570,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldType": "System.Int32",
+          "FieldLength": 919
         }
       }
     },
     {
-      "VisibleId": 977,
+      "VisibleId": 570,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldType": "System.Int32",
+          "FieldLength": 919
         }
       }
     }
@@ -248,8 +248,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

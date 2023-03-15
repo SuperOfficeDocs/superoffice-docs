@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 794,
-    "Name": "Franecki LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 572,
-    "UdListDefinitionId": 800
+    "HeadingId": 287,
+    "Name": "Lemke LLC",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 100
   },
   {
-    "HeadingId": 794,
-    "Name": "Franecki LLC",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 572,
-    "UdListDefinitionId": 800
+    "HeadingId": 287,
+    "Name": "Lemke LLC",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 100
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 683,
-    "Name": "Mraz LLC",
-    "Tooltip": "ea",
+    "HeadingId": 7,
+    "Name": "Konopelski, Treutel and Quigley",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 927,
-    "UdListDefinitionId": 275,
+    "Rank": 652,
+    "UdListDefinitionId": 305,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 826
+        "FieldType": "System.Int32",
+        "FieldLength": 49
       }
     }
   }

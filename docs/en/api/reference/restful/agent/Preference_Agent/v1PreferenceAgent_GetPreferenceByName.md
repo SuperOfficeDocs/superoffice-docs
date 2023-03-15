@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "earum",
-  "PrefKey": "dignissimos",
+  "PrefSection": "cum",
+  "PrefKey": "exercitationem",
   "PrefLevel": "Database"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "repellendus",
   "Specification": null,
-  "DisplayValue": "tenetur",
-  "DisplayTooltip": "doloribus",
+  "DisplayValue": "at",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 70,
-  "PrefDescId": 913,
-  "TableName": "Ruecker-Conn",
-  "UserPreferenceId": 815,
+  "TargetId": 920,
+  "PrefDescId": 427,
+  "TableName": "Williamson-Schaden",
+  "UserPreferenceId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

@@ -74,22 +74,22 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 930,
-  "AssociateId": 855,
-  "Caption": "ducimus",
+  "DashboardId": 978,
+  "AssociateId": 787,
+  "Caption": "ipsum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 229,
-      "Caption": "qui",
-      "Description": "Profound mission-critical task-force",
-      "ChartName": "Marquardt, Conn and Smitham",
-      "ChartId": "hic",
-      "IsDefault": false,
-      "AssociateId": 393,
-      "GroupId": 494,
-      "SelectionId": 124,
-      "Config": "perspiciatis",
+      "DashboardTileId": 264,
+      "Caption": "doloribus",
+      "Description": "Programmable real-time instruction set",
+      "ChartName": "Corwin, Hegmann and Ondricka",
+      "ChartId": "ipsum",
+      "IsDefault": true,
+      "AssociateId": 167,
+      "GroupId": 426,
+      "SelectionId": 384,
+      "Config": "ullam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,22 +112,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 430,
-  "AssociateId": 674,
-  "Caption": "commodi",
+  "DashboardId": 949,
+  "AssociateId": 893,
+  "Caption": "cum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 959,
-      "Caption": "laudantium",
-      "Description": "Self-enabling mission-critical intranet",
-      "ChartName": "Mills Group",
-      "ChartId": "sunt",
+      "DashboardTileId": 327,
+      "Caption": "pariatur",
+      "Description": "Networked responsive strategy",
+      "ChartName": "Stroman-Schmidt",
+      "ChartId": "non",
       "IsDefault": false,
-      "AssociateId": 501,
-      "GroupId": 317,
-      "SelectionId": 118,
-      "Config": "reprehenderit",
+      "AssociateId": 651,
+      "GroupId": 800,
+      "SelectionId": 149,
+      "Config": "aliquid",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldType": "System.Int32",
+          "FieldLength": 658
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 639
     }
   }
 }

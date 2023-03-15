@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 95,
-    "ERPName": "Cassin LLC",
-    "DisplayName": "Dach, Wilkinson and Schroeder",
-    "DisplayDescription": "Implemented explicit archive",
-    "Rank": 786,
-    "ConnectorName": "Batz Group",
-    "ErpConnectionId": 739,
-    "ExtraData": "quibusdam",
+    "QuoteConnectionId": 251,
+    "ERPName": "Haag Inc and Sons",
+    "DisplayName": "Johns-Beatty",
+    "DisplayDescription": "Networked empowering methodology",
+    "Rank": 424,
+    "ConnectorName": "Tillman-Bernier",
+    "ErpConnectionId": 839,
+    "ExtraData": "voluptas",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 965,
-        "ERPPriceListKey": "ullam",
-        "QuoteConnectionId": 888,
-        "Name": "Greenholt Group",
-        "Description": "Expanded directional instruction set",
-        "Currency": "itaque",
-        "CurrencyName": "Koss, Glover and Strosin",
-        "ValidFrom": "2012-07-28T11:22:38.9145676+02:00",
-        "ValidTo": "2014-11-25T11:22:38.9145676+01:00",
+        "PriceListId": 684,
+        "ERPPriceListKey": "dolores",
+        "QuoteConnectionId": 47,
+        "Name": "Renner LLC",
+        "Description": "User-friendly bifurcated projection",
+        "Currency": "architecto",
+        "CurrencyName": "Champlin-Skiles",
+        "ValidFrom": "1996-07-01T12:15:19.9387374+02:00",
+        "ValidTo": "2019-07-30T12:15:19.9387374+02:00",
         "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 971
+            "FieldLength": 242
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      738,
-      378
+      804,
+      929
     ],
     "AssociateAccessIds": [
-      523,
-      270
+      525,
+      785
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldType": "System.String",
+        "FieldLength": 906
       }
     }
   }

@@ -127,15 +127,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 394,
+  "PersonId": 950,
   "IncludeProjectAppointments": true,
-  "StartTime": "2012-05-31T11:22:37.2118346+02:00",
-  "EndTime": "2014-11-10T11:22:37.2118346+01:00",
-  "Count": 554,
+  "StartTime": "2008-09-17T12:15:18.1267643+02:00",
+  "EndTime": "2015-06-10T12:15:18.1267643+02:00",
+  "Count": 248,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -148,53 +148,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 830,
-    "StartDate": "2002-05-15T11:22:37.2118346+02:00",
-    "EndDate": "1999-06-24T11:22:37.2118346+02:00",
+    "AppointmentId": 763,
+    "StartDate": "2005-04-20T12:15:18.1277639+02:00",
+    "EndDate": "2008-03-19T12:15:18.1277639+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Kenyatta Bradtke",
-    "ContactName": "Gutkowski, Hills and Bergnaum",
-    "Description": "Reactive 5th generation architecture",
-    "PersonFullName": "Ms. Hardy Jenifer Crooks",
-    "PersonId": 44,
-    "ContactId": 485,
-    "ProjectId": 761,
-    "ProjectName": "Kilback-Wiegand",
+    "Task": "dignissimos",
+    "AssociateFullName": "Eve Misael Durgan Jr.",
+    "ContactName": "Olson-Greenfelder",
+    "Description": "Right-sized radical migration",
+    "PersonFullName": "Dashawn Jammie Mayer II",
+    "PersonId": 685,
+    "ContactId": 307,
+    "ProjectId": 937,
+    "ProjectName": "Zemlak LLC",
     "IsPublished": false,
-    "AssociateId": 850,
-    "ColorIndex": 680,
+    "AssociateId": 416,
+    "ColorIndex": 878,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 75,
-    "PriorityName": "Hudson-Russel",
+    "PriorityId": 528,
+    "PriorityName": "Cormier, Kovacek and Dibbert",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-04-23T11:22:37.2118346+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2018-10-04T12:15:18.1287636+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-01-10T11:22:37.2118346+01:00",
-    "RecurringEndDate": "2012-11-19T11:22:37.2118346+01:00",
-    "MotherId": 838,
-    "AssignedBy": 327,
-    "AssignedByFullName": "Brett Hackett",
+    "RecurringStartDate": "2014-12-05T12:15:18.1287636+01:00",
+    "RecurringEndDate": "1996-03-23T12:15:18.1287636+01:00",
+    "MotherId": 1002,
+    "AssignedBy": 479,
+    "AssignedByFullName": "Dr. Ewell Lee Brakus",
     "RejectReason": "",
-    "Location": "maiores",
-    "AlarmLeadTime": "molestias",
-    "SaleId": 21,
-    "SaleName": "Greenholt, Jacobi and Hudson",
-    "AssociateName": "Gorczany, Hermiston and Oberbrunner",
-    "CreatedDate": "2002-02-05T11:22:37.2118346+01:00",
-    "CreatedBy": "vero",
-    "CreatedByFullName": "Beryl Angeline Ziemann Sr.",
-    "CreatedByAssociateId": 340,
+    "Location": "sapiente",
+    "AlarmLeadTime": "est",
+    "SaleId": 983,
+    "SaleName": "Kuvalis Inc and Sons",
+    "AssociateName": "Block-Okuneva",
+    "CreatedDate": "2018-05-19T12:15:18.1287636+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Americo Hane",
+    "CreatedByAssociateId": 583,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 776
       }
     }
   }

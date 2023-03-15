@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Crona Group",
-    "Tooltip": "rerum",
+    "Id": 814,
+    "Name": "Nienow-Bechtelar",
+    "Tooltip": "enim",
     "Deleted": false,
     "UdListDefinitionId": 690,
-    "Rank": 395
+    "Rank": 497
   },
   {
-    "Id": 243,
-    "Name": "Crona Group",
-    "Tooltip": "rerum",
+    "Id": 814,
+    "Name": "Nienow-Bechtelar",
+    "Tooltip": "enim",
     "Deleted": false,
     "UdListDefinitionId": 690,
-    "Rank": 395
+    "Rank": 497
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Schumm-Swift",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 18,
-    "Rank": 185,
+    "Id": 90,
+    "Name": "Smith-Williamson",
+    "Tooltip": "dolorem",
+    "Deleted": true,
+    "UdListDefinitionId": 253,
+    "Rank": 931,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 365
       }
     }
   }

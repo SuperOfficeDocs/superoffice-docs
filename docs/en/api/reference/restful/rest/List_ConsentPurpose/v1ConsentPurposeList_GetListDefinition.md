@@ -74,22 +74,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Reilly, Aufderhar and Lehner",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 136,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 60,
+  "Name": "Rempel-Johns",
+  "Tooltip": "quibusdam",
+  "Deleted": true,
+  "Rank": 864,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
+  "ListType": "eos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 495
     }
   },
   "_Links": {

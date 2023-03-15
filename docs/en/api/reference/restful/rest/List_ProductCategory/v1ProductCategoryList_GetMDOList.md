@@ -25,8 +25,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=deleniti
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=natus
 ```
 
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Zboncak, Rolfson and Hammes",
-    "ToolTip": "Aut nam molestiae nihil et provident.",
+    "Id": 420,
+    "Name": "Sauer, Rau and Hermann",
+    "ToolTip": "Adipisci quisquam et quis veritatis.",
     "Deleted": true,
-    "Rank": 141,
-    "Type": "molestias",
+    "Rank": 49,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 861,
-        "Name": "Franecki, McCullough and Ernser",
-        "ToolTip": "Inventore harum nemo et consequuntur officiis necessitatibus.",
+        "Id": 133,
+        "Name": "Heathcote Inc and Sons",
+        "ToolTip": "Porro esse.",
         "Deleted": false,
-        "Rank": 738,
-        "Type": "molestias",
+        "Rank": 149,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 737,
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "quis",
-        "FullName": "Mr. Darrell Josue Dooley PhD",
+        "IconHint": "et",
+        "ColorBlock": 209,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "blanditiis",
+        "FullName": "Aubree McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldType": "System.String",
+            "FieldLength": 131
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 718,
-    "ExtraInfo": "sapiente",
-    "StyleHint": "cum",
-    "FullName": "Cody Boyer",
+    "IconHint": "voluptatibus",
+    "ColorBlock": 551,
+    "ExtraInfo": "quam",
+    "StyleHint": "sed",
+    "FullName": "Dexter Emard DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldType": "System.String",
+        "FieldLength": 401
       }
     }
   }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "Name": "Rutherford-Fisher",
-  "Tooltip": "animi",
+  "Id": 309,
+  "Name": "Medhurst-Turcotte",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 185,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 878,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "vero",
+  "ListType": "minima",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Stracke Group",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 387,
-  "IsCustomList": false,
+  "Id": 685,
+  "Name": "Bernhard-Flatley",
+  "Tooltip": "repudiandae",
+  "Deleted": true,
+  "Rank": 24,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 104
+      "FieldType": "System.Int32",
+      "FieldLength": 981
     }
   }
 }

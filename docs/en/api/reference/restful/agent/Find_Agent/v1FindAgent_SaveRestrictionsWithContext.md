@@ -67,37 +67,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laboriosam",
-  "ProviderName": "Davis, Hand and Davis",
-  "StorageKey": "enim",
+  "StorageType": "dolorem",
+  "ProviderName": "Murazik-Nolan",
+  "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "O'Kon-Reinger",
-      "Operator": "repellendus",
+      "Name": "Purdy Inc and Sons",
+      "Operator": "itaque",
       "Values": [
-        "praesentium",
-        "ut"
+        "nam",
+        "sunt"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "necessitatibus"
+        "alias",
+        "quidem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 807,
+      "InterParenthesis": 608,
       "InterOperator": "And",
-      "UniqueHash": 801
+      "UniqueHash": 977
     }
   ],
-  "Context": "ut"
+  "Context": "iure"
 }
 ```
 

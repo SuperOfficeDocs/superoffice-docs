@@ -143,55 +143,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 973,
-  "ERPProductKey": "culpa",
-  "ERPPriceListKey": "culpa",
-  "Name": "Ward-Botsford",
-  "Description": "Re-engineered modular access",
-  "Code": "exercitationem",
-  "PriceUnit": "et",
-  "QuantityUnit": "sunt",
+  "ProductId": 25,
+  "ERPProductKey": "quia",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Cruickshank Inc and Sons",
+  "Description": "Front-line asynchronous benchmark",
+  "Code": "autem",
+  "PriceUnit": "adipisci",
+  "QuantityUnit": "possimus",
   "IsSubscription": false,
-  "SubscriptionUnit": "facere",
-  "DefaultSubscriptionQuantity": 24310.438,
-  "ItemNumber": "69806",
+  "SubscriptionUnit": "maiores",
+  "DefaultSubscriptionQuantity": 10950.196,
+  "ItemNumber": "892553",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "adipisci",
-  "ProductTypeKey": "expedita",
-  "VAT": 6728.6979999999994,
-  "VATInfo": "quia",
-  "UnitCost": 22608.676,
-  "UnitMinimumPrice": 20822.296,
-  "UnitListPrice": 17299.68,
-  "InAssortment": true,
-  "Supplier": "vero",
-  "SupplierCode": "hic",
-  "Rights": "autem",
-  "Rule": "delectus",
+  "ProductFamilyKey": "enim",
+  "ProductTypeKey": "repellat",
+  "VAT": 27682.622,
+  "VATInfo": "ut",
+  "UnitCost": 1118.838,
+  "UnitMinimumPrice": 18706.845999999998,
+  "UnitListPrice": 25911.912,
+  "InAssortment": false,
+  "Supplier": "autem",
+  "SupplierCode": "sit",
+  "Rights": "temporibus",
+  "Rule": "eaque",
   "ExtraInfo": [
     {
-      "Name": "Purdy-Dooley",
-      "Value": "non",
+      "Name": "Nicolas, O'Connell and Hudson",
+      "Value": "excepturi",
       "Type": "Image"
     },
     {
-      "Name": "Purdy-Dooley",
-      "Value": "non",
+      "Name": "Nicolas, O'Connell and Hudson",
+      "Value": "excepturi",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "reprehenderit",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "nemo",
-  "ExtraField3": "quae",
-  "ExtraField4": "quis",
-  "ExtraField5": "ad",
-  "InStock": 626.8
+  "RawExtraInfo": "quasi",
+  "ExtraField1": "excepturi",
+  "ExtraField2": "quo",
+  "ExtraField3": "provident",
+  "ExtraField4": "quas",
+  "ExtraField5": "quia",
+  "InStock": 7969.762
 }
 ```
 
@@ -202,73 +202,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 797,
-  "ERPProductKey": "ab",
-  "ERPPriceListKey": "eius",
-  "Name": "Nikolaus, Reichert and Jaskolski",
-  "Description": "Progressive hybrid product",
-  "Code": "aliquid",
-  "PriceUnit": "sunt",
-  "QuantityUnit": "ut",
+  "ProductId": 991,
+  "ERPProductKey": "beatae",
+  "ERPPriceListKey": "quia",
+  "Name": "Mohr Group",
+  "Description": "Enterprise-wide multi-state algorithm",
+  "Code": "officia",
+  "PriceUnit": "dolores",
+  "QuantityUnit": "quo",
   "IsSubscription": false,
-  "SubscriptionUnit": "quaerat",
-  "DefaultSubscriptionQuantity": 10896.918,
-  "ItemNumber": "1249118",
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 3275.0299999999997,
+  "ItemNumber": "1931841",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dignissimos",
-  "ProductTypeKey": "eius",
-  "VAT": 25529.564,
-  "VATInfo": "distinctio",
-  "UnitCost": 21235.984,
-  "UnitMinimumPrice": 1363.29,
-  "UnitListPrice": 28497.462,
+  "ProductFamilyKey": "a",
+  "ProductTypeKey": "ut",
+  "VAT": 25708.201999999997,
+  "VATInfo": "maxime",
+  "UnitCost": 1576.402,
+  "UnitMinimumPrice": 18550.146,
+  "UnitListPrice": 31318.061999999998,
   "InAssortment": true,
-  "Supplier": "aperiam",
-  "SupplierCode": "saepe",
-  "Rights": "laboriosam",
-  "Rule": "illum",
+  "Supplier": "et",
+  "SupplierCode": "libero",
+  "Rights": "quia",
+  "Rule": "esse",
   "ExtraInfo": [
     {
-      "Name": "Stoltenberg-Schaefer",
-      "Value": "deserunt",
+      "Name": "Schuster Inc and Sons",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 653
         }
       }
     },
     {
-      "Name": "Stoltenberg-Schaefer",
-      "Value": "deserunt",
+      "Name": "Schuster Inc and Sons",
+      "Value": "autem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 653
         }
       }
     }
   ],
-  "RawExtraInfo": "minus",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "fugiat",
-  "ExtraField4": "harum",
-  "ExtraField5": "at",
-  "InStock": 275.792,
+  "RawExtraInfo": "quae",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "hic",
+  "ExtraField3": "deleniti",
+  "ExtraField4": "et",
+  "ExtraField5": "laboriosam",
+  "InStock": 21467.899999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 445
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

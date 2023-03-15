@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 393,
-    "Name": "Lind Inc and Sons",
-    "Tooltip": "omnis",
-    "SaveInDb": 334,
-    "Filename": "non",
-    "DefaultOref": "sit",
+    "DocumentTemplateId": 872,
+    "Name": "Rowe Group",
+    "Tooltip": "consequatur",
+    "SaveInDb": 496,
+    "Filename": "eveniet",
+    "DefaultOref": "eligendi",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 313,
-    "IntentId": 825,
-    "IsDefaultPublished": true,
-    "Rank": 523,
-    "LoadTemplateFromPlugin": 71,
-    "MimeType": "et",
+    "AutoeventId": 977,
+    "IntentId": 66,
+    "IsDefaultPublished": false,
+    "Rank": 189,
+    "LoadTemplateFromPlugin": 928,
+    "MimeType": "dolor",
     "IsInUseInGuides": true,
-    "DocumentTypeKey": 175,
+    "DocumentTypeKey": 92,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "reynold@okuneva.co.uk",
-    "IncludeSignature": true,
-    "ShowCurrents": false,
+    "EmailSubject": "santa@oconnellweissnat.uk",
+    "IncludeSignature": false,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "freddy@torphycruickshank.name",
+    "SenderEmailAddress": "doyle.koelpin@starkpadberg.us",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 834
       }
     }
   }

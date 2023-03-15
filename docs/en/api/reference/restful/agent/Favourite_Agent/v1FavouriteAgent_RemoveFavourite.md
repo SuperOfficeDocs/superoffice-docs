@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Miller-Gulgowski",
-  "RecordId": 907,
-  "AssociateId": 86
+  "TableName": "Pagac-Wiza",
+  "RecordId": 126,
+  "AssociateId": 728
 }
 ```
 

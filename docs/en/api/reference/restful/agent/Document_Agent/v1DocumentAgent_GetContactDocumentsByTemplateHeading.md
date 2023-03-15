@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 655,
-  "StartTime": "2012-02-05T11:22:37.8366954+01:00",
-  "EndTime": "2019-05-14T11:22:37.8366954+02:00",
-  "Count": 791,
-  "TemplateHeadingId": 623
+  "ContactId": 792,
+  "StartTime": "1998-11-13T12:15:18.7107558+01:00",
+  "EndTime": "2011-02-11T12:15:18.7107558+01:00",
+  "Count": 81,
+  "TemplateHeadingId": 222
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 393,
-    "Attention": "sint",
-    "Header": "hic",
-    "Name": "Hills, Keebler and McDermott",
-    "OurRef": "natus",
-    "YourRef": "et",
-    "Description": "Distributed incremental emulation",
-    "DocumentTemplate": "facere",
-    "IsPublished": false,
-    "PersonId": 417,
-    "PersonFullName": "Darby Green",
-    "AssociateFullName": "Rowena Pacocha",
-    "ContactId": 182,
-    "ContactName": "Baumbach Group",
-    "ProjectId": 748,
-    "ProjectName": "Kuhic Group",
-    "AssociateId": 158,
-    "Snum": 612,
-    "SaleId": 897,
-    "SaleName": "Mills, Simonis and Rolfson",
+    "DocumentId": 402,
+    "Attention": "quibusdam",
+    "Header": "unde",
+    "Name": "Stark Group",
+    "OurRef": "itaque",
+    "YourRef": "pariatur",
+    "Description": "Down-sized interactive system engine",
+    "DocumentTemplate": "et",
+    "IsPublished": true,
+    "PersonId": 364,
+    "PersonFullName": "Ardella Greenfelder",
+    "AssociateFullName": "Winifred Upton",
+    "ContactId": 247,
+    "ContactName": "Christiansen-Heathcote",
+    "ProjectId": 763,
+    "ProjectName": "Kautzer LLC",
+    "AssociateId": 841,
+    "Snum": 974,
+    "SaleId": 223,
+    "SaleName": "Lind, Schaefer and Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldType": "System.String",
+        "FieldLength": 689
       }
     }
   }

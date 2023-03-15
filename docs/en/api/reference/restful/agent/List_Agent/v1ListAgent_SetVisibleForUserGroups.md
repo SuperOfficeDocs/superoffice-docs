@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 483,
-  "ListItemId": 636,
+  "UdListDefinitionId": 425,
+  "ListItemId": 774,
   "UserGroups": [
     {
-      "Id": 254,
-      "Name": "Mayer, Purdy and Denesik",
-      "ToolTip": "Perferendis pariatur non doloribus.",
-      "Deleted": false,
-      "Rank": 905,
-      "Type": "dolorem",
-      "ColorBlock": 687,
-      "IconHint": "natus",
-      "Selected": false,
-      "LastChanged": "2014-06-21T11:22:38.4615502+02:00",
+      "Id": 914,
+      "Name": "Tromp-Nader",
+      "ToolTip": "Nulla vel voluptatem alias est quas dolorem.",
+      "Deleted": true,
+      "Rank": 116,
+      "Type": "porro",
+      "ColorBlock": 946,
+      "IconHint": "repudiandae",
+      "Selected": true,
+      "LastChanged": "2012-10-09T12:15:19.2497492+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "distinctio",
-      "StyleHint": "et",
+      "ExtraInfo": "temporibus",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Prof. Hilda Ledner V"
+      "FullName": "Sam Ferry III"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Connelly Inc and Sons",
-    "ToolTip": "Facilis et et tenetur qui rerum sit.",
+    "Id": 545,
+    "Name": "Prohaska Inc and Sons",
+    "ToolTip": "Quibusdam et placeat perferendis occaecati.",
     "Deleted": false,
-    "Rank": 688,
-    "Type": "beatae",
-    "ColorBlock": 265,
-    "IconHint": "impedit",
+    "Rank": 701,
+    "Type": "quia",
+    "ColorBlock": 377,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2010-01-09T11:22:38.4615502+01:00",
+    "LastChanged": "2010-06-03T12:15:19.2507472+02:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Boehm-Sanford",
-        "ToolTip": "Ducimus fuga corrupti voluptatem error.",
-        "Deleted": false,
-        "Rank": 274,
-        "Type": "voluptatem",
-        "ColorBlock": 287,
-        "IconHint": "quisquam",
+        "Id": 50,
+        "Name": "Ernser, Langworth and Sauer",
+        "ToolTip": "Nostrum voluptas.",
+        "Deleted": true,
+        "Rank": 604,
+        "Type": "quia",
+        "ColorBlock": 186,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2004-11-19T11:22:38.4615502+01:00",
+        "LastChanged": "1997-04-26T12:15:19.2507472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "fuga",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Prof. Monte Giuseppe Wehner Jr.",
+        "FullName": "Miss Elwyn Kutch DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "fugit",
+    "ExtraInfo": "quia",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Enola Fernando Crona I",
+    "FullName": "Lorenza Zboncak II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 657
       }
     }
   }

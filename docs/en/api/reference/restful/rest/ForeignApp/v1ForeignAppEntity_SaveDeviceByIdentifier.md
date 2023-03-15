@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 990,
-  "Name": "Cartwright-Yost",
-  "CreatedDate": "2000-08-29T11:22:44.8662479+02:00",
-  "UpdatedDate": "1996-12-08T11:22:44.8662479+01:00",
-  "AssociateFullName": "Caleigh Emard",
-  "CreatedBy": "aut",
-  "UpdatedBy": "repellendus",
-  "DeviceIdentifier": "accusamus",
-  "ForeignAppId": 460
+  "ForeignDeviceId": 710,
+  "Name": "Nikolaus, Swaniawski and Jacobs",
+  "CreatedDate": "1996-02-02T12:15:26.9726437+01:00",
+  "UpdatedDate": "1999-03-12T12:15:26.9726437+01:00",
+  "AssociateFullName": "Dr. Shemar Evangeline Shields DDS",
+  "CreatedBy": "qui",
+  "UpdatedBy": "possimus",
+  "DeviceIdentifier": "officiis",
+  "ForeignAppId": 813
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 16,
-  "Name": "Strosin Group",
-  "CreatedDate": "1999-11-10T11:22:44.8818691+01:00",
-  "UpdatedDate": "2015-09-16T11:22:44.8818691+02:00",
-  "AssociateFullName": "Bradley Schaefer",
-  "CreatedBy": "necessitatibus",
-  "UpdatedBy": "nemo",
-  "DeviceIdentifier": "nesciunt",
-  "ForeignAppId": 38,
+  "ForeignDeviceId": 115,
+  "Name": "Rath, Wilderman and Crona",
+  "CreatedDate": "2022-02-10T12:15:26.9736378+01:00",
+  "UpdatedDate": "2020-06-09T12:15:26.9736378+02:00",
+  "AssociateFullName": "Georgette Braun",
+  "CreatedBy": "illo",
+  "UpdatedBy": "architecto",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 985,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 81
     }
   }
 }

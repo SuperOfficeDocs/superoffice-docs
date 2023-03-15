@@ -25,8 +25,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=quasi
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=consequuntur
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Douglas Inc and Sons",
-    "ToolTip": "Natus incidunt aperiam.",
+    "Id": 521,
+    "Name": "Schulist Inc and Sons",
+    "ToolTip": "Quidem itaque veritatis sint ut.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "illo",
+    "Rank": 629,
+    "Type": "aliquam",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Hills Group",
-        "ToolTip": "Sed nostrum laborum.",
+        "Id": 339,
+        "Name": "Rippin LLC",
+        "ToolTip": "Sunt eaque provident tempora reiciendis.",
         "Deleted": false,
-        "Rank": 687,
-        "Type": "ea",
+        "Rank": 36,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 945,
-        "ExtraInfo": "sit",
-        "StyleHint": "et",
-        "FullName": "Mrs. Leonardo Karina Konopelski",
+        "IconHint": "reprehenderit",
+        "ColorBlock": 129,
+        "ExtraInfo": "quo",
+        "StyleHint": "quis",
+        "FullName": "Lillian Little",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 713
+            "FieldType": "System.Int32",
+            "FieldLength": 926
           }
         }
       }
     ],
-    "IconHint": "nulla",
-    "ColorBlock": 190,
+    "IconHint": "commodi",
+    "ColorBlock": 481,
     "ExtraInfo": "explicabo",
-    "StyleHint": "a",
-    "FullName": "Raymundo Flatley Sr.",
+    "StyleHint": "quis",
+    "FullName": "Dr. Liliana Macy Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 37
       }
     }
   }

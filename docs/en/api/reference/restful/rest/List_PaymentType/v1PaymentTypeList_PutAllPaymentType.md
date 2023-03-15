@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Dare Inc and Sons",
-    "Tooltip": "unde",
+    "Id": 739,
+    "Name": "Doyle-Pacocha",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 690
+    "UdListDefinitionId": 187,
+    "Rank": 396
   },
   {
-    "Id": 326,
-    "Name": "Dare Inc and Sons",
-    "Tooltip": "unde",
+    "Id": 739,
+    "Name": "Doyle-Pacocha",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 690
+    "UdListDefinitionId": 187,
+    "Rank": 396
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Leuschke, Graham and Hirthe",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "UdListDefinitionId": 401,
-    "Rank": 834,
+    "Id": 844,
+    "Name": "Schaden LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 627,
+    "Rank": 375,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 369
       }
     }
   }

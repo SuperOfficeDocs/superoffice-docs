@@ -84,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 136,
-  "Name": "Cormier Group",
-  "Tooltip": "quod",
+  "RoleId": 4,
+  "Name": "Klocko LLC",
+  "Tooltip": "animi",
   "RoleType": "Anonymous",
-  "Deleted": 741,
-  "Rank": 245,
-  "Created": "2005-01-06T11:22:45.0849869+01:00",
-  "UseCategories": 547,
+  "Deleted": 513,
+  "Rank": 538,
+  "Created": "2008-08-21T12:15:27.2276316+02:00",
+  "UseCategories": 729,
   "CreatedBy": null,
-  "Updated": "2017-06-23T11:22:45.0849869+02:00",
+  "Updated": "2006-09-20T12:15:27.2276316+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

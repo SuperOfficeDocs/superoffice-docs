@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 12
+  "ChatSessionId": 189
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 736,
-  "TopicId": 951,
+  "ChatSessionId": 555,
+  "TopicId": 790,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "deserunt",
-  "CustomerName": "Kuvalis-Herzog",
-  "CustomerEmail": "adella@gutkowskijenkins.name",
-  "CustomerPhone": "(403)248-8133 x2870",
+  "CustomerAlias": "saepe",
+  "CustomerHost": "libero",
+  "CustomerName": "Upton, Tillman and Beier",
+  "CustomerEmail": "leatha@farrellsauer.name",
+  "CustomerPhone": "915.222.4337",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hyatt LLC",
+  "CustomerCompanyName": "Robel, Rice and Kris",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "labore",
-  "WhenRequested": "1998-08-15T11:22:37.5398862+02:00",
-  "WhenStarted": "1996-02-13T11:22:37.5398862+01:00",
-  "WhenEnded": "2019-12-08T11:22:37.5398862+01:00",
-  "WhenIdle": "2017-10-22T11:22:37.5398862+02:00",
-  "WhenFetched": "1995-11-15T11:22:37.5398862+01:00",
-  "SessionKey": "deserunt",
-  "InitialQueuePos": 886,
-  "AlertLevel": 50,
-  "Rank": 697,
+  "FirstMessage": "repellat",
+  "LastMessage": "sit",
+  "WhenRequested": "2017-11-07T12:15:18.3257619+01:00",
+  "WhenStarted": "2017-09-08T12:15:18.3257619+02:00",
+  "WhenEnded": "2015-10-03T12:15:18.3257619+02:00",
+  "WhenIdle": "2007-07-28T12:15:18.3257619+02:00",
+  "WhenFetched": "2020-08-20T12:15:18.3257619+02:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 404,
+  "AlertLevel": 360,
+  "Rank": 185,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 844,
+  "Rating": 155,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldLength": 543
     }
   }
 }

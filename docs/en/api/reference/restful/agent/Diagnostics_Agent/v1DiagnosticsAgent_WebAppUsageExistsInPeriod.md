@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 732,
-  "ViewState": "omnis",
-  "FromDate": "2021-06-11T11:22:37.8366954+02:00"
+  "AssociateId": 477,
+  "ViewState": "mollitia",
+  "FromDate": "2019-09-29T12:15:18.7047555+02:00"
 }
 ```
 

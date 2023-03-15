@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,33 +109,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 741,
-  "CustomerCustomerReplyTemplateId": 975,
-  "CustomerPasswordTemplateId": 637,
-  "CustomerConfirmEmailTemplateId": 36,
-  "CustomerChatLogTemplateId": 33,
-  "NewLinkTemplateId": 31,
-  "HotlistNewMessageTemplateId": 515,
-  "HotlistTicketActivatedTemplateId": 914,
-  "UserTicketAlarmTemplateId": 794,
-  "HotlistTicketTakenOverTemplateId": 194,
-  "UserActiveTicketsTemplateId": 637,
-  "UserNewMessageTemplateId": 598,
-  "UserTicketActivatedTemplateId": 139,
-  "UserNewTicketTemplateId": 313,
-  "PublishKbQuestionTemplateId": 676,
-  "PublishKbAnswerTemplateId": 819,
-  "UserTicketTakenOverTemplateId": 44,
-  "PrintTicketTemplateId": 362,
-  "WeekStatTemplateId": 831,
-  "TicketAlarmHotlistTemplateId": 461,
-  "EmailAddresses": "kailee.homenick@botsfordfriesen.biz",
+  "CustomerNewCustomerTemplateId": 989,
+  "CustomerCustomerReplyTemplateId": 14,
+  "CustomerPasswordTemplateId": 937,
+  "CustomerConfirmEmailTemplateId": 371,
+  "CustomerChatLogTemplateId": 596,
+  "NewLinkTemplateId": 30,
+  "HotlistNewMessageTemplateId": 912,
+  "HotlistTicketActivatedTemplateId": 57,
+  "UserTicketAlarmTemplateId": 518,
+  "HotlistTicketTakenOverTemplateId": 381,
+  "UserActiveTicketsTemplateId": 118,
+  "UserNewMessageTemplateId": 420,
+  "UserTicketActivatedTemplateId": 843,
+  "UserNewTicketTemplateId": 931,
+  "PublishKbQuestionTemplateId": 128,
+  "PublishKbAnswerTemplateId": 111,
+  "UserTicketTakenOverTemplateId": 297,
+  "PrintTicketTemplateId": 65,
+  "WeekStatTemplateId": 958,
+  "TicketAlarmHotlistTemplateId": 379,
+  "EmailAddresses": "elvie@quitzonkessler.uk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 906
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 494,
-    "Name": "Runte Inc and Sons",
-    "ToolTip": "Quis dignissimos repellendus dignissimos velit quia.",
+    "Id": 98,
+    "Name": "Zulauf, Keeling and Smitham",
+    "ToolTip": "At sed fuga est ut est.",
     "Deleted": true,
-    "Rank": 415,
-    "Type": "modi",
-    "ColorBlock": 689,
-    "IconHint": "velit",
+    "Rank": 563,
+    "Type": "qui",
+    "ColorBlock": 15,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "2010-09-21T11:22:46.0535201+02:00",
+    "LastChanged": "2015-01-31T12:15:28.3146234+01:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Bradtke-Gulgowski",
-        "ToolTip": "Nobis et suscipit debitis aspernatur placeat omnis.",
+        "Id": 593,
+        "Name": "McCullough, Predovic and Jacobson",
+        "ToolTip": "Atque eius est enim aliquam velit est sed.",
         "Deleted": true,
-        "Rank": 278,
-        "Type": "adipisci",
-        "ColorBlock": 303,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2021-01-20T11:22:46.0535201+01:00",
+        "Rank": 797,
+        "Type": "vero",
+        "ColorBlock": 988,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2016-10-14T12:15:28.3146234+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Miss Mathias Jamel Schaefer",
+        "ExtraInfo": "ad",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Aubree Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 39
+            "FieldType": "System.String",
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Jo Reichert",
+    "ExtraInfo": "in",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Mary Wisozk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldType": "System.String",
+        "FieldLength": 966
       }
     }
   }

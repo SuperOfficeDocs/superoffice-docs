@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 926,
-  "Created": "2000-01-21T11:22:38.9614314+01:00",
+  "SatelliteId": 349,
+  "Created": "2006-09-27T12:15:19.9847438+02:00",
   "CreatedBy": null,
-  "Updated": "2019-08-14T11:22:38.9614314+02:00",
+  "Updated": "1999-09-01T12:15:19.9857405+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Von Inc and Sons",
-      "Description": "Total coherent framework",
+      "Name": "Larson, Nienow and Sanford",
+      "Description": "Streamlined eco-centric orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldType": "System.String",
+          "FieldLength": 225
         }
       }
     },
     {
-      "Name": "Von Inc and Sons",
-      "Description": "Total coherent framework",
+      "Name": "Larson, Nienow and Sanford",
+      "Description": "Streamlined eco-centric orchestration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldType": "System.String",
+          "FieldLength": 225
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 497
     }
   }
 }

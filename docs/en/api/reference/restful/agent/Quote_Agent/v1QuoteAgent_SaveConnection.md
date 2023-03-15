@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 397,
-  "ERPName": "Hayes LLC",
-  "DisplayName": "Satterfield, Weimann and Jaskolski",
-  "DisplayDescription": "Phased regional conglomeration",
-  "Rank": 626,
-  "ConnectorName": "Lueilwitz Group",
-  "ErpConnectionId": 328,
-  "ExtraData": "velit",
+  "QuoteConnectionId": 256,
+  "ERPName": "Nitzsche Inc and Sons",
+  "DisplayName": "Lockman Group",
+  "DisplayDescription": "Re-engineered client-driven interface",
+  "Rank": 130,
+  "ConnectorName": "Waters-Dibbert",
+  "ErpConnectionId": 862,
+  "ExtraData": "dolorem",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 182,
-      "ERPPriceListKey": "aut",
-      "QuoteConnectionId": 28,
-      "Name": "Fay LLC",
-      "Description": "Vision-oriented impactful internet solution",
-      "Currency": "earum",
-      "CurrencyName": "Kling, Runte and Gutkowski",
-      "ValidFrom": "2000-12-16T11:22:38.9301893+01:00",
-      "ValidTo": "2017-04-29T11:22:38.9301893+02:00",
+      "PriceListId": 842,
+      "ERPPriceListKey": "atque",
+      "QuoteConnectionId": 248,
+      "Name": "Sawayn, Hessel and Hane",
+      "Description": "Persevering next generation framework",
+      "Currency": "aperiam",
+      "CurrencyName": "Jerde-Nicolas",
+      "ValidFrom": "2012-12-11T12:15:19.945739+01:00",
+      "ValidTo": "2021-10-23T12:15:19.945739+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 603
+          "FieldLength": 389
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    866,
-    204
+    265,
+    335
   ],
   "AssociateAccessIds": [
-    548,
-    802
+    804,
+    564
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldType": "System.String",
+      "FieldLength": 283
     }
   }
 }

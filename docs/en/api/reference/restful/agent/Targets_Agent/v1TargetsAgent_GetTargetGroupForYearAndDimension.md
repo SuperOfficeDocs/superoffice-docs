@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 2,
-  "DimensionId": 685
+  "TargetYear": 754,
+  "DimensionId": 734
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 295,
-  "Year": 254,
+  "TargetGroupId": 463,
+  "Year": 773,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 532,
+      "TargetAssignmentInfoId": 151,
       "Values": [
-        737,
-        677
+        728,
+        931
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 875,
-      "DimensionListItemDisplayName": "Beer, Botsford and Stokes",
+      "DimensionListItem": 606,
+      "DimensionListItemDisplayName": "Lind Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldType": "System.Int32",
+          "FieldLength": 414
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 773
     }
   }
 }

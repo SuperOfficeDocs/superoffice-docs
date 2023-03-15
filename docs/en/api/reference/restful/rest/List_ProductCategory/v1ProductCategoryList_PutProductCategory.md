@@ -77,16 +77,16 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 286,
-  "Name": "Konopelski LLC",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 86,
-  "Rank": 299
+  "Id": 981,
+  "Name": "Wehner Group",
+  "Tooltip": "provident",
+  "Deleted": true,
+  "UdListDefinitionId": 538,
+  "Rank": 556
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 407,
-  "Name": "Vandervort, Stehr and Hills",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "UdListDefinitionId": 752,
-  "Rank": 595,
+  "Id": 123,
+  "Name": "Harris-Koepp",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "UdListDefinitionId": 528,
+  "Rank": 229,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldLength": 645
     }
   }
 }

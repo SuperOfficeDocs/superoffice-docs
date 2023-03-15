@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "nemo"
+  "FromAddress": "officiis"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 271,
-  "EMailAddress": "provident",
-  "AssociateId": 829,
+  "EMailAccountId": 998,
+  "EMailAddress": "dolores",
+  "AssociateId": 67,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 967,
-  "ErrorCount": 101,
+  "AccountStatus": 277,
+  "ErrorCount": 488,
   "ErrorReason": "",
-  "InboxFolder": "aspernatur",
-  "SentFolder": "iure",
+  "InboxFolder": "vel",
+  "SentFolder": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 484
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 604,
-    "Name": "Corkery Group",
-    "Tooltip": "sunt",
+    "HeadingId": 510,
+    "Name": "Rohan, Quigley and Bartoletti",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 929,
-    "UdListDefinitionId": 411,
+    "Rank": 377,
+    "UdListDefinitionId": 211,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 652
       }
     }
   }

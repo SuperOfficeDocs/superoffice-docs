@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Johnston-Krajcik",
-  "StorageKey": "dicta",
+  "StorageType": "enim",
+  "ProviderName": "Nienow LLC",
+  "StorageKey": "sunt",
   "Restrictions": "a",
-  "StaticColumns": "commodi"
+  "StaticColumns": "quia"
 }
 ```
 
@@ -102,81 +102,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wisoky, Haag and Wehner",
-      "Operator": "sunt",
+      "Name": "Ledner Group",
+      "Operator": "ut",
       "Values": [
-        "autem",
-        "reiciendis"
+        "reprehenderit",
+        "labore"
       ],
       "DisplayValues": [
-        "eum",
-        "consequuntur"
+        "dicta",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 645,
+      "InterParenthesis": 117,
       "InterOperator": "And",
-      "UniqueHash": 305
+      "UniqueHash": 312
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "McDermott-Nienow",
-      "DisplayTooltip": "sit",
-      "DisplayType": "repellendus",
-      "CanOrderBy": false,
-      "Name": "Heller, Schmitt and Crona",
+      "DisplayName": "Labadie-Mertz",
+      "DisplayTooltip": "molestiae",
+      "DisplayType": "alias",
+      "CanOrderBy": true,
+      "Name": "Simonis Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Toy LLC",
+      "RestrictionType": "et",
+      "RestrictionListName": "Rippin, Hackett and Rowe",
       "IsVisible": false,
-      "ExtraInfo": "assumenda",
-      "Width": "ea",
-      "IconHint": "rerum",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "esse",
+      "Width": "expedita",
+      "IconHint": "doloremque",
+      "HeadingIconHint": "temporibus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Rau, Walter and Weber",
-      "PrimaryKey": 875,
+      "EntityName": "Lind-Schmeler",
+      "PrimaryKey": 429,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "illum",
-          "LinkHint": "eos"
+          "DisplayValue": "accusantium",
+          "TooltipHint": "vel",
+          "LinkHint": "expedita"
         }
       },
-      "LinkHint": "magnam",
-      "StyleHint": "unde",
+      "LinkHint": "nihil",
+      "StyleHint": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 846
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Tillman Inc and Sons",
-      "Description": "Right-sized multimedia archive",
-      "Rank": 708,
+      "Name": "Windler Group",
+      "Description": "Stand-alone demand-driven software",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Tillman Inc and Sons",
-      "Description": "Right-sized multimedia archive",
-      "Rank": 708,
+      "Name": "Windler Group",
+      "Description": "Stand-alone demand-driven software",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 61
     }
   }
 }

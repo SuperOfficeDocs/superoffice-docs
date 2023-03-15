@@ -26,7 +26,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=ducimus
+GET /api/v1/List/Task/MDOItems?query=non
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Johnston-Ondricka",
-    "ToolTip": "Accusamus autem enim aut perferendis.",
+    "Id": 201,
+    "Name": "Batz Group",
+    "ToolTip": "Voluptate aut totam accusantium qui dolor.",
     "Deleted": false,
-    "Rank": 7,
-    "Type": "est",
+    "Rank": 540,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Jaskolski Group",
-        "ToolTip": "Asperiores voluptatem.",
+        "Id": 645,
+        "Name": "Nikolaus-Spencer",
+        "ToolTip": "Voluptatem fugit et dolore voluptates voluptatibus et voluptatem.",
         "Deleted": false,
-        "Rank": 757,
-        "Type": "facilis",
+        "Rank": 515,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 226,
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "FullName": "Fabiola Durgan",
+        "IconHint": "facilis",
+        "ColorBlock": 240,
+        "ExtraInfo": "quo",
+        "StyleHint": "non",
+        "FullName": "Sigrid Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 278
+            "FieldLength": 69
           }
         }
       }
     ],
-    "IconHint": "eaque",
-    "ColorBlock": 705,
-    "ExtraInfo": "qui",
-    "StyleHint": "eaque",
-    "FullName": "Emmy Kunde",
+    "IconHint": "sit",
+    "ColorBlock": 623,
+    "ExtraInfo": "est",
+    "StyleHint": "error",
+    "FullName": "Dr. Natalia Ferry II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 530
       }
     }
   }

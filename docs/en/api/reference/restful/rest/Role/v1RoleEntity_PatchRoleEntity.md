@@ -121,18 +121,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "similique",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "similique",
     "value": {}
   }
 ]
@@ -145,24 +145,24 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 385,
-  "Name": "Lowe-Kshlerin",
-  "Tooltip": "voluptatum",
+  "RoleId": 790,
+  "Name": "Grant-Powlowski",
+  "Tooltip": "distinctio",
   "RoleType": "Anonymous",
-  "Deleted": 943,
-  "Rank": 190,
-  "Created": "2021-10-19T11:22:45.0849869+02:00",
-  "UseCategories": 783,
+  "Deleted": 832,
+  "Rank": 883,
+  "Created": "2022-10-20T12:15:27.2166322+02:00",
+  "UseCategories": 947,
   "CreatedBy": null,
-  "Updated": "1998-04-23T11:22:45.0849869+02:00",
+  "Updated": "2022-03-04T12:15:27.2166322+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 376
     }
   },
   "_Links": {

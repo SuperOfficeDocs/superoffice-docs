@@ -114,29 +114,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Shields-Lowe",
-  "Comment": "cumque",
-  "StakeholderRoleId": 411,
-  "CountryId": 637,
-  "PersonId": 878,
-  "EmailDescription": "shania_botsford@goldner.biz",
-  "EmailId": 63,
-  "EmailAddress": "myles@bernhardthompson.us",
-  "PhoneId": 191,
-  "ContactName": "McClure Inc and Sons",
-  "ContactId": 664,
-  "SaleId": 567,
-  "Mrmrs": "suscipit",
-  "Firstname": "Fannie",
-  "MiddleName": "Harris, Rath and Tromp",
-  "Lastname": "Sipes",
-  "SaleStakeholderId": 419,
-  "Rank": 357,
-  "Phone": "039.972.5366 x069"
+  "StakeholderRoleName": "Jones-Ernser",
+  "Comment": "qui",
+  "StakeholderRoleId": 687,
+  "CountryId": 380,
+  "PersonId": 449,
+  "EmailDescription": "presley_upton@reilly.us",
+  "EmailId": 848,
+  "EmailAddress": "gay@gleason.co.uk",
+  "PhoneId": 562,
+  "ContactName": "Cummerata LLC",
+  "ContactId": 821,
+  "SaleId": 203,
+  "Mrmrs": "ut",
+  "Firstname": "Jerrold",
+  "MiddleName": "Sporer, Wiegand and Bauch",
+  "Lastname": "Jewess",
+  "SaleStakeholderId": 398,
+  "Rank": 964,
+  "Phone": "075-491-0480 x92084"
 }
 ```
 
@@ -147,31 +147,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Thompson-Windler",
-  "Comment": "ducimus",
-  "StakeholderRoleId": 753,
-  "CountryId": 874,
-  "PersonId": 26,
-  "EmailDescription": "bert@hyatt.com",
-  "EmailId": 873,
-  "EmailAddress": "sydni@kunde.name",
-  "PhoneId": 141,
-  "ContactName": "Stoltenberg, Kerluke and Keeling",
-  "ContactId": 934,
-  "SaleId": 683,
-  "Mrmrs": "aut",
-  "Firstname": "Justice",
-  "MiddleName": "Blanda-Rempel",
-  "Lastname": "Abshire",
-  "SaleStakeholderId": 276,
-  "Rank": 374,
-  "Phone": "1-255-658-5519",
+  "StakeholderRoleName": "Rowe Inc and Sons",
+  "Comment": "numquam",
+  "StakeholderRoleId": 298,
+  "CountryId": 504,
+  "PersonId": 889,
+  "EmailDescription": "orval@kerluke.ca",
+  "EmailId": 134,
+  "EmailAddress": "heber.dickens@bradtkesimonis.co.uk",
+  "PhoneId": 332,
+  "ContactName": "Kihn Inc and Sons",
+  "ContactId": 178,
+  "SaleId": 820,
+  "Mrmrs": "facere",
+  "Firstname": "Grayson",
+  "MiddleName": "Cole, Schimmel and Rowe",
+  "Lastname": "Cole",
+  "SaleStakeholderId": 729,
+  "Rank": 12,
+  "Phone": "142.582.8516 x88141",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   },
   "_Links": {

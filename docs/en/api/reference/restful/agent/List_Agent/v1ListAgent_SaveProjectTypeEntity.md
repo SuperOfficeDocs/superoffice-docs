@@ -84,35 +84,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 261,
-  "Name": "Beatty, Kozey and Douglas",
-  "Tooltip": "blanditiis",
-  "Rank": 777,
+  "ProjTypeId": 103,
+  "Name": "Ankunding, Jewess and Wisoky",
+  "Tooltip": "velit",
+  "Rank": 637,
   "DurationUnit": "Century",
-  "ProjectDuration": 471,
-  "Deleted": false,
-  "HasGuide": false,
+  "ProjectDuration": 802,
+  "Deleted": true,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 528,
-      "Name": "Jerde-Emard",
-      "ToolTip": "Enim quas.",
+      "Id": 241,
+      "Name": "Pollich, Gutkowski and Predovic",
+      "ToolTip": "Rerum adipisci doloremque error qui sed.",
       "Deleted": true,
-      "Rank": 217,
-      "Type": "voluptas",
-      "ColorBlock": 101,
-      "IconHint": "deleniti",
+      "Rank": 184,
+      "Type": "dolorem",
+      "ColorBlock": 898,
+      "IconHint": "voluptatem",
       "Selected": false,
-      "LastChanged": "2006-08-23T11:22:38.5396587+02:00",
+      "LastChanged": "2019-03-12T12:15:19.3317471+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "asperiores",
+      "ExtraInfo": "officiis",
+      "StyleHint": "voluptatibus",
       "Hidden": false,
-      "FullName": "Addie Hermann"
+      "FullName": "Yadira Kshlerin"
     }
   ]
 }
@@ -125,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 48,
-  "Name": "Carter-Nienow",
-  "Tooltip": "voluptas",
-  "Rank": 764,
+  "ProjTypeId": 229,
+  "Name": "Zulauf, Wuckert and Kozey",
+  "Tooltip": "aut",
+  "Rank": 28,
   "DurationUnit": "Century",
-  "ProjectDuration": 927,
+  "ProjectDuration": 429,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 805,
-      "Name": "Schmitt-Kshlerin",
-      "ToolTip": "Culpa non.",
-      "Deleted": false,
-      "Rank": 200,
-      "Type": "ea",
-      "ColorBlock": 838,
-      "IconHint": "modi",
-      "Selected": true,
-      "LastChanged": "2019-02-23T11:22:38.5396587+01:00",
+      "Id": 188,
+      "Name": "Kovacek, D'Amore and Strosin",
+      "ToolTip": "Consequatur et.",
+      "Deleted": true,
+      "Rank": 566,
+      "Type": "temporibus",
+      "ColorBlock": 683,
+      "IconHint": "eaque",
+      "Selected": false,
+      "LastChanged": "2006-02-10T12:15:19.332747+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "quibusdam",
-      "Hidden": true,
-      "FullName": "Matilde Yost",
+      "ExtraInfo": "quidem",
+      "StyleHint": "molestiae",
+      "Hidden": false,
+      "FullName": "Sebastian Jenkins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 878
         }
       }
     }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldType": "System.String",
+      "FieldLength": 378
     }
   }
 }

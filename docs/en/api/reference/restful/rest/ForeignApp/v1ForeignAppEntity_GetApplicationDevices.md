@@ -74,25 +74,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 10 Feb 2016 11:22:44 G2T
+Last-Modified: Sat, 16 Sep 2006 12:15:26 G9T
 
 [
   {
-    "ForeignDeviceId": 764,
-    "Name": "McCullough Group",
-    "CreatedDate": "2006-05-13T11:22:44.8662479+02:00",
-    "UpdatedDate": "2016-02-10T11:22:44.8662479+01:00",
-    "AssociateFullName": "Dr. Elaina Reichel PhD",
-    "CreatedBy": "distinctio",
-    "UpdatedBy": "quo",
-    "DeviceIdentifier": "eos",
-    "ForeignAppId": 935,
+    "ForeignDeviceId": 605,
+    "Name": "Bosco Inc and Sons",
+    "CreatedDate": "1996-03-02T12:15:26.9716351+01:00",
+    "UpdatedDate": "2006-09-16T12:15:26.9716351+02:00",
+    "AssociateFullName": "Dr. Sallie Ferry DVM",
+    "CreatedBy": "reprehenderit",
+    "UpdatedBy": "nemo",
+    "DeviceIdentifier": "ut",
+    "ForeignAppId": 541,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   }

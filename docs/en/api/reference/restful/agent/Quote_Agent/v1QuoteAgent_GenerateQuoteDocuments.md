@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 413,
-  "EmailBodyTemplateId": 351,
+  "QuoteVersionId": 607,
+  "EmailBodyTemplateId": 319,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 531,
+  "QuotedProductsTemplateId": 583,
   "IncludeAttachments": true,
-  "RawMailSubject": "dolorem"
+  "RawMailSubject": "dolorum"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 855,
-  "QuotedProductsId": 157,
+  "QuoteDocumentId": 793,
+  "QuotedProductsId": 981,
   "QuoteAttachmentIds": [
-    432,
-    490
+    604,
+    673
   ],
-  "MailBody": "et",
-  "MailSubject": "exercitationem",
-  "ToEmail": "meaghan_terry@ratke.name",
-  "ToFullName": "Dr. Sadie Nathaniel Dach I",
-  "ErrorMessage": "expedita",
+  "MailBody": "culpa",
+  "MailSubject": "et",
+  "ToEmail": "elliott@cole.name",
+  "ToFullName": "Wilfredo Russel",
+  "ErrorMessage": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 522
     }
   }
 }

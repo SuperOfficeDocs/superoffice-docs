@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Schmidt Inc and Sons",
-    "ToolTip": "Ad rerum vero est omnis facere.",
+    "Id": 841,
+    "Name": "Grady LLC",
+    "ToolTip": "Doloremque in illo architecto.",
     "Deleted": false,
-    "Rank": 814,
-    "Type": "quia",
-    "ColorBlock": 421,
+    "Rank": 226,
+    "Type": "ipsam",
+    "ColorBlock": 885,
     "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2018-12-03T11:22:45.5692589+01:00",
+    "Selected": true,
+    "LastChanged": "2016-06-06T12:15:27.8416268+02:00",
     "ChildItems": [
       {
-        "Id": 348,
-        "Name": "Rohan-White",
-        "ToolTip": "Sit nulla itaque quibusdam.",
+        "Id": 879,
+        "Name": "Harris, Walsh and Schimmel",
+        "ToolTip": "Dolorum dolores amet.",
         "Deleted": false,
-        "Rank": 871,
-        "Type": "et",
-        "ColorBlock": 375,
-        "IconHint": "recusandae",
-        "Selected": false,
-        "LastChanged": "2012-01-19T11:22:45.5692589+01:00",
+        "Rank": 391,
+        "Type": "totam",
+        "ColorBlock": 272,
+        "IconHint": "totam",
+        "Selected": true,
+        "LastChanged": "1996-06-24T12:15:27.8416268+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "possimus",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Aglae Glover",
+        "FullName": "Claudine Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "perferendis",
-    "Hidden": false,
-    "FullName": "Mr. Ottis Addie Lowe",
+    "ExtraInfo": "quod",
+    "StyleHint": "sequi",
+    "Hidden": true,
+    "FullName": "Kyra Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 559
+        "FieldType": "System.String",
+        "FieldLength": 844
       }
     }
   }

@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 988,
-  "Name": "Pfeffer, Abbott and Pfannerstill",
-  "Tooltip": "nobis",
+  "WebPanelId": 91,
+  "Name": "Paucek Inc and Sons",
+  "Tooltip": "sequi",
   "Deleted": true,
-  "Rank": 708,
+  "Rank": 955,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Jaskolski-Raynor",
+  "WindowName": "Powlowski, Sporer and Durgan",
   "Url": "http://www.example.com/",
-  "ProgId": "qui",
-  "Icon": 804,
+  "ProgId": "non",
+  "Icon": 714,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 147
     }
   }
 }

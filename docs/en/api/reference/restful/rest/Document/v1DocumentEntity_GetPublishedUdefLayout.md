@@ -87,7 +87,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 995,
-    "ColumnId": 286,
-    "FieldDefault": "sit",
-    "FieldHeight": 217,
-    "FieldLabel": "quibusdam",
-    "FieldLeft": 168,
-    "FieldTop": 835,
+    "UDefFieldId": 665,
+    "ColumnId": 774,
+    "FieldDefault": "molestiae",
+    "FieldHeight": 779,
+    "FieldLabel": "nostrum",
+    "FieldLeft": 582,
+    "FieldTop": 395,
     "FieldType": "Checkbox",
-    "FieldWidth": 216,
-    "FormatMask": "id",
+    "FieldWidth": 226,
+    "FormatMask": "et",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 244,
-    "LabelLeft": 726,
-    "LabelTop": 35,
-    "LabelWidth": 465,
-    "LastVersionId": 356,
-    "ListTableId": 312,
+    "IsIndexed": false,
+    "LabelHeight": 989,
+    "LabelLeft": 555,
+    "LabelTop": 407,
+    "LabelWidth": 917,
+    "LastVersionId": 62,
+    "ListTableId": 119,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 585,
-    "ProgId": "ut",
-    "IsReadOnly": false,
-    "ShortLabel": "dignissimos",
-    "TabOrder": 197,
-    "TextLength": 490,
-    "Tooltip": "architecto",
-    "UdefIdentity": 762,
-    "UDListDefinitionId": 906,
+    "Page1LineNo": 916,
+    "ProgId": "officia",
+    "IsReadOnly": true,
+    "ShortLabel": "earum",
+    "TabOrder": 30,
+    "TextLength": 518,
+    "Tooltip": "maiores",
+    "UdefIdentity": 922,
+    "UDListDefinitionId": 118,
     "Justification": "Center",
-    "Version": 761,
-    "TemplateVariableName": "Wyman, Kuphal and Howell",
-    "HasBeenPublished": true,
-    "MdoListName": "Wisoky-Moen",
+    "Version": 179,
+    "TemplateVariableName": "Mayert-Schultz",
+    "HasBeenPublished": false,
+    "MdoListName": "Wehner Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 701
+        "FieldType": "System.Int32",
+        "FieldLength": 372
       }
     }
   }

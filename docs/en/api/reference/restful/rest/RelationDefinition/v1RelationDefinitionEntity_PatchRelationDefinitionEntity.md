@@ -114,18 +114,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "blanditiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "blanditiis",
     "value": {}
   }
 ]
@@ -138,20 +138,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 550,
-  "Name": "Lowe-Casper",
-  "Tooltip": "ipsa",
-  "PassiveText": "ut",
+  "ReldefId": 570,
+  "Name": "Ward-Beer",
+  "Tooltip": "rerum",
+  "PassiveText": "tempora",
   "Deleted": false,
-  "Rank": 281,
+  "Rank": 950,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   },
   "_Links": {

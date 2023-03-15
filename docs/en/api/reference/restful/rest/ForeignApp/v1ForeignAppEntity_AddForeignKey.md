@@ -82,18 +82,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sint",
-  "Value": "officiis",
-  "RecordId": 51,
-  "CreatedDate": "2014-11-17T11:22:44.8818691+01:00",
-  "UpdatedDate": "2016-12-01T11:22:44.8818691+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "sunt",
-  "TableName": "Kemmer LLC"
+  "Key": "quidem",
+  "Value": "minima",
+  "RecordId": 636,
+  "CreatedDate": "2004-08-06T12:15:26.9786352+02:00",
+  "UpdatedDate": "2004-10-16T12:15:26.9786352+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "asperiores",
+  "TableName": "Thompson-Hahn"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "optio",
-  "Value": "atque",
-  "RecordId": 673,
-  "CreatedDate": "1998-10-09T11:22:44.8818691+02:00",
-  "UpdatedDate": "2005-03-19T11:22:44.8818691+01:00",
-  "UpdatedBy": "sed",
-  "CreatedBy": "est",
-  "TableName": "Lowe-Grimes",
+  "Key": "ea",
+  "Value": "et",
+  "RecordId": 458,
+  "CreatedDate": "2016-07-14T12:15:26.9786352+02:00",
+  "UpdatedDate": "2013-07-13T12:15:26.9786352+02:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "aliquid",
+  "TableName": "Nicolas Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 51
     }
   }
 }

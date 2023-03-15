@@ -120,18 +120,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "quo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "quo",
     "value": {}
   }
 ]
@@ -144,26 +144,26 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 808,
-  "Name": "Tromp, McGlynn and DuBuque",
+  "WebhookId": 680,
+  "Name": "VonRueden, Schaden and Homenick",
   "Events": [
-    "minima",
-    "nesciunt"
+    "et",
+    "repudiandae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "impedit",
   "State": "Active",
-  "Type": "quis",
+  "Type": "debitis",
   "Headers": {
-    "Headers1": "similique",
-    "Headers2": "ut"
+    "Headers1": "in",
+    "Headers2": "ducimus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-12-15T11:22:45.5536344+01:00",
+  "Registered": "2002-03-29T12:15:27.8186236+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-02-17T11:22:45.5536344+01:00",
+  "Updated": "2014-09-25T12:15:27.8206241+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",

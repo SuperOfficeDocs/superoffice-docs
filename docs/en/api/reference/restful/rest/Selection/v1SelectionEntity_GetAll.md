@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=quaerat
-GET /api/v1/Selection?$top=200
-GET /api/v1/Selection?$skip=793
+GET /api/v1/Selection?$entities=in
+GET /api/v1/Selection?$top=787
+GET /api/v1/Selection?$skip=742
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=omnis
+GET /api/v1/Selection?$context=tempora
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=False
 GET /api/v1/Selection?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "facere",
   "value": [
     {
-      "PrimaryKey": 7386,
-      "EntityName": "person",
-      "personId": 7386,
-      "fullName": "Ms. Lelah Zboncak II"
+      "PrimaryKey": 5618,
+      "EntityName": "sale",
+      "saleId": 5618,
+      "contactId": 372,
+      "name": "Goldner LLC"
     },
     {
-      "PrimaryKey": 9013,
-      "EntityName": "person",
-      "personId": 9013,
-      "fullName": "Lavina Koepp"
+      "PrimaryKey": 1491,
+      "EntityName": "sale",
+      "saleId": 1491,
+      "contactId": 2310,
+      "name": "Hansen, Bauch and Hermann"
     }
   ]
 }

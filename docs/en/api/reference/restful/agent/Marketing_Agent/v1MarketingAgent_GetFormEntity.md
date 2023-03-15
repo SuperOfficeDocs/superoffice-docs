@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=954
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=261
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 42,
-  "FormKey": "labore",
-  "Name": "Roob, Bergnaum and Hagenes",
-  "Description": "Profit-focused cohesive alliance",
-  "Config": "eos",
-  "FolderId": 145,
-  "ScriptId": 733,
-  "ResponseShipmentId": 983,
+  "FormId": 174,
+  "FormKey": "ut",
+  "Name": "Dare Inc and Sons",
+  "Description": "User-centric foreground customer loyalty",
+  "Config": "iste",
+  "FolderId": 163,
+  "ScriptId": 477,
+  "ResponseShipmentId": 435,
   "Active": false,
-  "Expires": "1996-06-13T11:22:38.5552678+02:00",
-  "MaxSubmits": 362,
+  "Expires": "2012-08-30T12:15:19.3697453+02:00",
+  "MaxSubmits": 350,
   "Type": "Normal",
-  "Recipe": "neque",
-  "GroupId": 231,
+  "Recipe": "repudiandae",
+  "GroupId": 90,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2009-10-21T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 971,
-  "Updated": "2003-02-16T11:22:38.5552678+01:00",
-  "UpdatedAssociateId": 411,
-  "UpdatedCount": 430,
-  "FolderName": "Von-Ullrich",
+  "Registered": "2007-11-19T12:15:19.3697453+01:00",
+  "RegisteredAssociateId": 73,
+  "Updated": "2005-03-18T12:15:19.3697453+01:00",
+  "UpdatedAssociateId": 517,
+  "UpdatedCount": 777,
+  "FolderName": "Johns, Wuckert and Hills",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 468
+      "FieldLength": 707
     }
   }
 }

@@ -87,11 +87,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Monahan-Harvey",
-  "DeviceName": "Schmeler Group",
-  "DeviceIdentifier": "ut",
-  "TableName": "Pollich-McLaughlin",
-  "RecordId": 274
+  "ApplicationName": "Hegmann, Kshlerin and Satterfield",
+  "DeviceName": "Glover LLC",
+  "DeviceIdentifier": "officiis",
+  "TableName": "Torp-Daugherty",
+  "RecordId": 297
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ratione",
-    "Value": "qui",
-    "RecordId": 459,
-    "CreatedDate": "2008-04-07T11:22:38.3990648+02:00",
-    "UpdatedDate": "2018-04-20T11:22:38.3990648+02:00",
-    "UpdatedBy": "asperiores",
-    "CreatedBy": "libero",
-    "TableName": "Kuphal Inc and Sons",
+    "Key": "odio",
+    "Value": "alias",
+    "RecordId": 860,
+    "CreatedDate": "2010-04-12T12:15:19.1717511+02:00",
+    "UpdatedDate": "2008-04-16T12:15:19.1717511+02:00",
+    "UpdatedBy": "dicta",
+    "CreatedBy": "quasi",
+    "TableName": "Hayes, Powlowski and Davis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 814
+        "FieldLength": 448
       }
     }
   }

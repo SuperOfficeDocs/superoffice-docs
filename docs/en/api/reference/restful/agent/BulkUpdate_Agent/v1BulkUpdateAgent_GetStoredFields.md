@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact",
-  "Context": "ut"
+  "Tablename": "project",
+  "Context": "dolorum"
 }
 ```
 
@@ -106,74 +106,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "tempora",
-    "ValueType": "totam",
-    "Mandatory": false,
-    "EncodedDisplayName": "Wiza-Hartmann",
-    "EncodedDisplayDescription": "Innovative actuating help-desk",
-    "IconHint": "iusto",
+    "Key": "architecto",
+    "ValueType": "saepe",
+    "Mandatory": true,
+    "EncodedDisplayName": "Stehr Group",
+    "EncodedDisplayDescription": "Monitored didactic encoding",
+    "IconHint": "unde",
     "ControlInfos": [
       {
-        "Type": "aliquam",
-        "Label": "eveniet",
-        "Dimension": 241,
-        "ListProviderName": "Wuckert-Reichert",
-        "ListProviderExtraInfo": "odio",
-        "ListProviderPrimaryKeyName": "Kiehn LLC",
-        "ListLeadText": "ad",
+        "Type": "et",
+        "Label": "non",
+        "Dimension": 889,
+        "ListProviderName": "Kerluke-King",
+        "ListProviderExtraInfo": "et",
+        "ListProviderPrimaryKeyName": "Ondricka-Reilly",
+        "ListLeadText": "accusantium",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 801
+            "FieldLength": 829
           }
         }
       }
     ],
-    "EncodedDataCaption": "molestiae",
-    "EncodedDataCaptionDescription": "Customizable stable methodology",
-    "CurrentOperationType": "laudantium",
+    "EncodedDataCaption": "asperiores",
+    "EncodedDataCaptionDescription": "Inverse mission-critical process improvement",
+    "CurrentOperationType": "expedita",
     "Values": [
-      "soluta",
-      "aliquid"
+      "quia",
+      "animi"
     ],
     "DisplayValues": [
-      "cum",
-      "quia"
+      "ea",
+      "dolorem"
     ],
     "OperationInfos": [
       {
-        "Key": "est",
-        "EncodedDisplayName": "Hermiston, Reinger and Ratke",
+        "Key": "sunt",
+        "EncodedDisplayName": "Boyle-Daugherty",
         "EncodedLeadTexts": [
-          "laudantium",
-          "quis"
+          "atque",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 936
+            "FieldLength": 423
           }
         }
       },
       {
-        "Key": "est",
-        "EncodedDisplayName": "Hermiston, Reinger and Ratke",
+        "Key": "sunt",
+        "EncodedDisplayName": "Boyle-Daugherty",
         "EncodedLeadTexts": [
-          "laudantium",
-          "quis"
+          "atque",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 936
+            "FieldLength": 423
           }
         }
       }

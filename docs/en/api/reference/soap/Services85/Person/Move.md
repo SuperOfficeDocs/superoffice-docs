@@ -41,7 +41,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Person:Move>
     <Person:PersonId xsi:type="xsd:int">0</Person:PersonId>
     <Person:DestinationContactId xsi:type="xsd:int">0</Person:DestinationContactId>
-    <Person:MoveAfterDate xsi:type="xsd:dateTime">2023-01-23T10:15:07Z</Person:MoveAfterDate>
+    <Person:MoveAfterDate xsi:type="xsd:dateTime">2023-03-01T11:08:01Z</Person:MoveAfterDate>
    </Person:Move>
 
  </SOAP-ENV:Body>

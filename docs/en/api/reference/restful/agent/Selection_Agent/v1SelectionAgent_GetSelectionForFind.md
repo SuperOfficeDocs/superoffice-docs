@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Sauer Group",
-  "TypicalSearchId": 203
+  "EntityName": "Bechtelar, Cormier and Luettgen",
+  "TypicalSearchId": 967
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schaden-Gaylord",
-  "SelectionId": 556,
-  "CanSaveAsSelection": false,
-  "MainHeading": "ipsam",
-  "FilterScreenHeading": "nemo",
-  "SelectionEntityHeading": "facere",
+  "ProviderName": "O'Kon LLC",
+  "SelectionId": 256,
+  "CanSaveAsSelection": true,
+  "MainHeading": "omnis",
+  "FilterScreenHeading": "dignissimos",
+  "SelectionEntityHeading": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 83
     }
   }
 }

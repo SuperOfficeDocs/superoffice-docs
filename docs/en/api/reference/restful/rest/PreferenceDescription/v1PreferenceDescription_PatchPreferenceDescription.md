@@ -124,18 +124,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "excepturi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "excepturi",
     "value": {}
   }
 ]
@@ -148,35 +148,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 405,
-  "Section": "est",
-  "Key": "non",
-  "Name": "Jenkins, Hyatt and Turcotte",
+  "PrefDescId": 627,
+  "Section": "qui",
+  "Key": "laboriosam",
+  "Name": "Kris, Gleichner and Blanda",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented radical knowledge user",
+  "Description": "Right-sized solution-oriented intranet",
   "IsBuiltin": false,
-  "TableName": "Cruickshank Inc and Sons",
-  "UserDefinedListId": 811,
-  "Rank": 773,
-  "SubGroup": "rem",
-  "MinLevel": 389,
-  "MaxValue": 761,
-  "MinValue": 465,
-  "RequiredLicense": "repellendus",
+  "TableName": "Brown-Wolff",
+  "UserDefinedListId": 720,
+  "Rank": 998,
+  "SubGroup": "vel",
+  "MinLevel": 8,
+  "MaxValue": 349,
+  "MinValue": 262,
+  "RequiredLicense": "dolorem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 269
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

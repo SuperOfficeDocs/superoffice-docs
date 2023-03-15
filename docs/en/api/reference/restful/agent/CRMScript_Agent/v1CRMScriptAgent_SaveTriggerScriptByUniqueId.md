@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "alias",
+  "TriggerScriptUniqueId": "fugiat",
   "Entity": null
 }
 ```
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 955,
-  "Name": "Brekke, Smitham and Upton",
+  "ScreenChooserId": 443,
+  "Name": "Bruen-Gleichner",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eum",
-  "Source": "est",
-  "Registered": "2010-12-23T11:22:37.7742144+01:00",
-  "RegisteredAssociateId": 751,
-  "Updated": "2020-07-13T11:22:37.7742144+02:00",
-  "UpdatedAssociateId": 426,
+  "UniqueIdentifier": "expedita",
+  "Source": "corporis",
+  "Registered": "2003-08-03T12:15:18.6357565+02:00",
+  "RegisteredAssociateId": 365,
+  "Updated": "2014-08-18T12:15:18.6357565+02:00",
+  "UpdatedAssociateId": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 848
     }
   }
 }

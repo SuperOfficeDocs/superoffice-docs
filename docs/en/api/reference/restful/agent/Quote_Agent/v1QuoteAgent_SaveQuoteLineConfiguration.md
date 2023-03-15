@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 332,
-  "FieldName": "Bogan, Torphy and Ryan",
-  "Label": "corrupti",
-  "Tooltip": "labore",
-  "Editable": false,
+  "QuoteLineConfigurationId": 226,
+  "FieldName": "Howell-Cassin",
+  "Label": "vero",
+  "Tooltip": "mollitia",
+  "Editable": true,
   "InUse": false,
   "Mandatory": true,
-  "Rank": 785,
-  "RestrictEdit": false,
+  "Rank": 274,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 60
+      "FieldType": "System.Int32",
+      "FieldLength": 12
     }
   }
 }

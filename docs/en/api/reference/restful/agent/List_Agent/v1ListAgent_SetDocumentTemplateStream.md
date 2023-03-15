@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aut",
-  "PluginId": 732
+  "LanguageCode": "hic",
+  "PluginId": 905
 }
 ```
 
@@ -119,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 389,
-  "Name": "Predovic-Crooks",
-  "Tooltip": "aut",
-  "SaveInDb": 374,
-  "Filename": "enim",
-  "DefaultOref": "vel",
+  "DocumentTemplateId": 123,
+  "Name": "Sawayn, Zieme and Bogisich",
+  "Tooltip": "et",
+  "SaveInDb": 767,
+  "Filename": "quibusdam",
+  "DefaultOref": "aperiam",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 340,
-  "IntentId": 398,
-  "IsDefaultPublished": true,
-  "Rank": 836,
-  "LoadTemplateFromPlugin": 930,
-  "MimeType": "molestias",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 735,
+  "AutoeventId": 92,
+  "IntentId": 336,
+  "IsDefaultPublished": false,
+  "Rank": 463,
+  "LoadTemplateFromPlugin": 163,
+  "MimeType": "iure",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 629,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "andy.murazik@parisianhilll.name",
+  "EmailSubject": "bianka@stokes.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "tyrese@oharalindgren.com",
+  "SenderEmailAddress": "christiana.kerluke@hauckkuhic.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 902
     }
   }
 }

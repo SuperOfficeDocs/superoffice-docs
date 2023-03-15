@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=406
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=704
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 404,
-  "AssociateId": 60,
-  "Caption": "at",
+  "DashboardId": 424,
+  "AssociateId": 218,
+  "Caption": "quam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 586,
-      "Caption": "alias",
-      "Description": "Profit-focused bottom-line frame",
-      "ChartName": "Witting, Gislason and Stamm",
-      "ChartId": "excepturi",
-      "IsDefault": false,
-      "AssociateId": 379,
-      "GroupId": 434,
-      "SelectionId": 187,
-      "Config": "ut",
+      "DashboardTileId": 27,
+      "Caption": "culpa",
+      "Description": "Integrated even-keeled definition",
+      "ChartName": "Schaden, Walter and Davis",
+      "ChartId": "atque",
+      "IsDefault": true,
+      "AssociateId": 360,
+      "GroupId": 225,
+      "SelectionId": 60,
+      "Config": "quaerat",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 505
+          "FieldLength": 724
         }
       }
     }
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 920
+      "FieldLength": 809
     }
   }
 }

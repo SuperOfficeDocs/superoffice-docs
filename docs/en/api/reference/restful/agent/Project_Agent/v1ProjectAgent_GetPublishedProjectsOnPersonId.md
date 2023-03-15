@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 539
+  "PersonId": 331
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 767,
-    "Name": "Cartwright, Lubowitz and Will",
-    "Description": "Ergonomic holistic alliance",
+    "ProjectId": 165,
+    "Name": "Jewess LLC",
+    "Description": "Organized bottom-line methodology",
     "URL": "http://www.example.com/",
-    "Type": "enim",
-    "AssociateId": 684,
-    "AssociateFullName": "Casey Schuppe",
-    "TypeId": 915,
-    "Updated": "1999-06-04T11:22:38.8520826+02:00",
-    "StatusId": 519,
-    "Status": "eligendi",
-    "TextId": 1002,
-    "PublishTo": "2015-01-18T11:22:38.8520826+01:00",
-    "PublishFrom": "2012-03-26T11:22:38.8520826+02:00",
+    "Type": "corrupti",
+    "AssociateId": 560,
+    "AssociateFullName": "Giovanny Runolfsdottir",
+    "TypeId": 621,
+    "Updated": "2004-04-06T12:15:19.8657392+02:00",
+    "StatusId": 467,
+    "Status": "eius",
+    "TextId": 367,
+    "PublishTo": "2018-06-15T12:15:19.8657392+02:00",
+    "PublishFrom": "2013-08-27T12:15:19.8657392+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "548983",
-    "ActiveErpLinks": 962,
+    "ProjectNumber": "444632",
+    "ActiveErpLinks": 621,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 41
       }
     }
   }

@@ -84,16 +84,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Simonis-Jerde",
-  "DeviceName": "Farrell, Wiza and Miller",
-  "DeviceIdentifier": "qui",
-  "KeyName": "Cummerata, Purdy and Smitham",
-  "KeyValue": "facere",
-  "TableName": "Erdman-Renner"
+  "ApplicationName": "Jerde-Langworth",
+  "DeviceName": "Hane, Mitchell and Gusikowski",
+  "DeviceIdentifier": "aut",
+  "KeyName": "Predovic-Leffler",
+  "KeyValue": "explicabo",
+  "TableName": "Johnston, Rodriguez and Nitzsche"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "non",
-  "RecordId": 261,
-  "CreatedDate": "2006-10-08T11:22:38.3834434+02:00",
-  "UpdatedDate": "2019-11-11T11:22:38.3834434+01:00",
-  "UpdatedBy": "animi",
-  "CreatedBy": "perferendis",
-  "TableName": "Hills-Windler",
+  "Key": "labore",
+  "Value": "adipisci",
+  "RecordId": 334,
+  "CreatedDate": "2015-06-12T12:15:19.1657483+02:00",
+  "UpdatedDate": "2022-09-15T12:15:19.1657483+02:00",
+  "UpdatedBy": "impedit",
+  "CreatedBy": "neque",
+  "TableName": "Lehner-McGlynn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 490
     }
   }
 }

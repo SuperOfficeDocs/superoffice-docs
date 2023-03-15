@@ -102,15 +102,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 652,
-  "CredentialType": "ipsum",
-  "CredentialValue": "quo",
-  "CredentialDisplayValue": "accusamus"
+  "ContactId": 340,
+  "CredentialType": "ex",
+  "CredentialValue": "iure",
+  "CredentialDisplayValue": "reprehenderit"
 }
 ```
 
@@ -121,14 +121,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 270,
-  "Name": "Hahn, Ortiz and Parker",
-  "Rank": 664,
-  "Tooltip": "voluptas",
+  "AssociateId": 619,
+  "Name": "Denesik LLC",
+  "Rank": 596,
+  "Tooltip": "iure",
   "LicenseOwners": [
     {
-      "Name": "Zieme-Fahey",
-      "Description": "Cross-group secondary complexity",
+      "Name": "Muller Inc and Sons",
+      "Description": "Organic 5th generation model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 340
+          "FieldLength": 792
         }
       }
     },
     {
-      "Name": "Zieme-Fahey",
-      "Description": "Cross-group secondary complexity",
+      "Name": "Muller Inc and Sons",
+      "Description": "Organic 5th generation model",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 340
+          "FieldLength": 792
         }
       }
     }
@@ -171,110 +171,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "corporis",
-      "Tooltip": "est",
-      "Id": 873,
-      "Rank": 265,
+      "Value": "consequatur",
+      "Tooltip": "qui",
+      "Id": 620,
+      "Rank": 825,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldLength": 98
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "1999-09-20T11:22:39.5862974+02:00",
-  "Lastlogout": "2007-01-12T11:22:39.5862974+01:00",
-  "EjUserId": 293,
-  "RequestSignature": "maxime",
+  "Lastlogin": "2009-09-25T12:15:20.5177371+02:00",
+  "Lastlogout": "2010-02-11T12:15:20.5177371+01:00",
+  "EjUserId": 348,
+  "RequestSignature": "nihil",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "omnis",
-      "DisplayValue": "non",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 727
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "omnis",
-      "DisplayValue": "non",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 727
-        }
-      }
-    }
-  ],
-  "UserName": "Tillman-Bayer",
-  "TicketCategories": [
-    {
-      "Id": 123,
-      "Name": "Hills, Hansen and Price",
-      "ToolTip": "Omnis ut.",
-      "Deleted": false,
-      "Rank": 41,
-      "Type": "sequi",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "neque",
-      "ColorBlock": 743,
-      "ExtraInfo": "illum",
-      "StyleHint": "et",
-      "FullName": "Mrs. Dagmar Cartwright II",
+      "Value": "facilis",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 8
+          "FieldLength": 493
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "facilis",
+      "DisplayValue": "in",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 493
         }
       }
     }
   ],
-  "NickName": "Brown-Thompson",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "aspernatur"
-  },
-  "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "labore"
-  },
-  "PostSaveCommands": [
+  "UserName": "Ledner Group",
+  "TicketCategories": [
     {
-      "Name": "Mraz Inc and Sons",
-      "DisplayName": "Huels Group",
-      "Description": "Right-sized transitional instruction set",
-      "ToolTip": "Ad voluptatem expedita tenetur.",
-      "Actions": "Implicit",
-      "ActionData": "aspernatur",
+      "Id": 704,
+      "Name": "Green, Wisoky and Marvin",
+      "ToolTip": "Incidunt dolores iste alias quia.",
+      "Deleted": false,
+      "Rank": 19,
+      "Type": "commodi",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "est",
+      "ColorBlock": 952,
+      "ExtraInfo": "pariatur",
+      "StyleHint": "ut",
+      "FullName": "Mr. Haven Dasia Hodkiewicz III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldLength": 407
+        }
+      }
+    }
+  ],
+  "NickName": "Kautzer-Simonis",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "culpa",
+    "ExtraFields2": "labore"
+  },
+  "CustomFields": {
+    "CustomFields1": "architecto",
+    "CustomFields2": "recusandae"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Gutkowski, Reichel and Bauch",
+      "DisplayName": "Wisoky, Bechtelar and Kilback",
+      "Description": "Business-focused human-resource info-mediaries",
+      "ToolTip": "Id totam perferendis.",
+      "Actions": "Implicit",
+      "ActionData": "aut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 868
         }
       }
     }
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 559
     }
   }
 }

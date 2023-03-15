@@ -70,7 +70,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 554,
+  "TicketMessageEntityId": 699,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -113,76 +113,76 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 138,
+  "EjMessageId": 253,
   "Ticket": null,
-  "CreatedAt": "2001-04-13T11:22:39.5550468+02:00",
+  "CreatedAt": "2021-03-05T12:15:20.4957289+01:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "corrupti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quo",
-  "TimeSpent": 925,
-  "Body": "beatae",
-  "HtmlBody": "vel",
-  "EmailHeader": "golda@thompson.co.uk",
-  "DebugInfo": "distinctio",
-  "MailSorter": "voluptates",
+  "MessageId": "sed",
+  "TimeSpent": 36,
+  "Body": "fugit",
+  "HtmlBody": "quisquam",
+  "EmailHeader": "antonio.hane@leuschke.ca",
+  "DebugInfo": "quasi",
+  "MailSorter": "ad",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "earum",
+  "SearchTitle": "nesciunt",
   "MessageHeaders": [
     {
-      "Id": 713,
-      "Name": "Moore Inc and Sons",
-      "Value": "aut",
+      "Id": 545,
+      "Name": "Hirthe, Feeney and McClure",
+      "Value": "eum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 953
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "id",
-  "Sentiment": 291,
-  "SentimentConfidence": 478,
+  "Important": false,
+  "Language": "minus",
+  "Sentiment": 148,
+  "SentimentConfidence": 498,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 884,
-      "Name": "Brekke, Jewess and Windler",
-      "ContentType": "vero",
-      "AttSize": 126,
-      "InlineImage": true,
-      "ContentId": "quas",
+      "AttachmentId": 90,
+      "Name": "Brown, Kertzmann and Hills",
+      "ContentType": "vel",
+      "AttSize": 688,
+      "InlineImage": false,
+      "ContentId": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldLength": 764
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "vel"
+    "CustomFields1": "tempora",
+    "CustomFields2": "animi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldType": "System.String",
+      "FieldLength": 403
     }
   }
 }

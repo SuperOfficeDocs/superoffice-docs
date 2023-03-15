@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 929
+  "PersonId": 926
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 413,
-    "Name": "Gorczany, Predovic and Larkin",
-    "Value": "similique",
-    "CreatedDate": "2006-03-26T11:22:37.4304911+02:00",
-    "UpdatedDate": "1996-08-28T11:22:37.4304911+02:00",
-    "CreatedBy": "porro",
-    "UpdatedBy": "a",
+    "AudienceLayoutId": 279,
+    "Name": "Nienow-Lockman",
+    "Value": "ut",
+    "CreatedDate": "2008-09-19T12:15:18.1927635+02:00",
+    "UpdatedDate": "2008-11-02T12:15:18.1927635+01:00",
+    "CreatedBy": "qui",
+    "UpdatedBy": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldType": "System.Int32",
+        "FieldLength": 604
       }
     }
   }

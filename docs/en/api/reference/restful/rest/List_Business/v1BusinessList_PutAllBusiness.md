@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Fahey, Gaylord and Streich",
-    "Tooltip": "quidem",
+    "Id": 155,
+    "Name": "West, Crona and Smitham",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 607,
-    "Rank": 335
+    "UdListDefinitionId": 759,
+    "Rank": 106
   },
   {
-    "Id": 266,
-    "Name": "Fahey, Gaylord and Streich",
-    "Tooltip": "quidem",
+    "Id": 155,
+    "Name": "West, Crona and Smitham",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 607,
-    "Rank": 335
+    "UdListDefinitionId": 759,
+    "Rank": 106
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Runolfsdottir, Spinka and Johns",
-    "Tooltip": "delectus",
+    "Id": 371,
+    "Name": "Schinner-Beier",
+    "Tooltip": "quos",
     "Deleted": false,
-    "UdListDefinitionId": 981,
-    "Rank": 301,
+    "UdListDefinitionId": 438,
+    "Rank": 753,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldType": "System.String",
+        "FieldLength": 603
       }
     }
   }

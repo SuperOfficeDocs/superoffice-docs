@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=309
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=606
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 291,
-  "Name": "Bednar Group",
-  "CreatedDate": "1998-04-02T11:22:38.3834434+02:00",
-  "UpdatedDate": "1999-08-15T11:22:38.3834434+02:00",
-  "AssociateFullName": "Pablo Giovanni Wehner IV",
-  "CreatedBy": "harum",
-  "UpdatedBy": "minima",
-  "DeviceIdentifier": "iure",
-  "ForeignAppId": 77,
+  "ForeignDeviceId": 294,
+  "Name": "Rath, Hudson and Bergnaum",
+  "CreatedDate": "2002-02-27T12:15:19.1667492+01:00",
+  "UpdatedDate": "2016-02-08T12:15:19.1667492+01:00",
+  "AssociateFullName": "Reid Gutmann I",
+  "CreatedBy": "aliquid",
+  "UpdatedBy": "eaque",
+  "DeviceIdentifier": "sint",
+  "ForeignAppId": 453,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 666
     }
   }
 }

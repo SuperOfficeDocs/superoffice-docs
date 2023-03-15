@@ -74,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 934,
-  "CredentialType": "omnis"
+  "UserId": 388,
+  "CredentialType": "doloribus"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

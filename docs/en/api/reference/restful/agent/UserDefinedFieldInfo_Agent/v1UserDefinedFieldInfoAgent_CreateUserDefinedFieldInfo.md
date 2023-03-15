@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 792,
-  "ColumnId": 247,
-  "FieldDefault": "rerum",
-  "FieldHeight": 404,
-  "FieldLabel": "omnis",
-  "FieldLeft": 917,
-  "FieldTop": 293,
+  "UDefFieldId": 64,
+  "ColumnId": 841,
+  "FieldDefault": "reiciendis",
+  "FieldHeight": 41,
+  "FieldLabel": "amet",
+  "FieldLeft": 933,
+  "FieldTop": 236,
   "FieldType": "Checkbox",
-  "FieldWidth": 19,
-  "FormatMask": "ipsum",
-  "HideLabel": false,
+  "FieldWidth": 141,
+  "FormatMask": "qui",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 706,
-  "LabelLeft": 577,
-  "LabelTop": 992,
-  "LabelWidth": 3,
-  "LastVersionId": 94,
-  "ListTableId": 124,
+  "LabelHeight": 470,
+  "LabelLeft": 704,
+  "LabelTop": 430,
+  "LabelWidth": 924,
+  "LastVersionId": 773,
+  "ListTableId": 797,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 979,
+  "Page1LineNo": 856,
   "ProgId": "dolores",
   "IsReadOnly": false,
   "ShortLabel": "voluptatem",
-  "TabOrder": 468,
-  "TextLength": 665,
-  "Tooltip": "tenetur",
-  "UdefIdentity": 929,
-  "UDListDefinitionId": 526,
+  "TabOrder": 660,
+  "TextLength": 667,
+  "Tooltip": "labore",
+  "UdefIdentity": 498,
+  "UDListDefinitionId": 810,
   "Justification": "Center",
-  "Version": 149,
-  "TemplateVariableName": "Robel, Kling and Breitenberg",
+  "Version": 25,
+  "TemplateVariableName": "Schuppe-Veum",
   "HasBeenPublished": false,
-  "MdoListName": "Johnson Inc and Sons",
+  "MdoListName": "Macejkovic-Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   }
 }

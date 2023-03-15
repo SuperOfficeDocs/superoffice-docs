@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "facilis",
+  "Valid": false,
+  "ErrorMessage": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 305
     }
   }
 }

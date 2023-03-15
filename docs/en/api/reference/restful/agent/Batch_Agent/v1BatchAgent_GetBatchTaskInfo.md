@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126
+  "Id": 980
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Cole Inc and Sons",
-  "AssociateId": 416,
-  "DetailsTable": 321,
-  "DetailsRecord": 838,
+  "Id": 135,
+  "Name": "Howe-Price",
+  "AssociateId": 619,
+  "DetailsTable": 220,
+  "DetailsRecord": 287,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "animi"
+    "ParameterObject1": "quo",
+    "ParameterObject2": "molestias"
   },
-  "LastStarted": "2002-11-10T11:22:37.4461725+01:00",
-  "Created": "2018-08-30T11:22:37.4461725+02:00",
-  "StartCount": 490,
-  "DatabaseSerialNumber": "1557530",
-  "Context": "vero",
-  "Result": "laudantium",
+  "LastStarted": "2003-10-18T12:15:18.2027627+02:00",
+  "Created": "2018-10-31T12:15:18.2027627+01:00",
+  "StartCount": 523,
+  "DatabaseSerialNumber": "804805",
+  "Context": "voluptates",
+  "Result": "reiciendis",
   "State": "All",
-  "Description": "Multi-channelled eco-centric monitoring",
-  "Response": "nemo",
-  "Request": "deserunt",
-  "ProgressDescription": "Expanded assymetric time-frame",
-  "ProgressPercent": 305,
-  "FileName": "Gulgowski, Schinner and Koss",
+  "Description": "Profit-focused impactful protocol",
+  "Response": "rerum",
+  "Request": "quis",
+  "ProgressDescription": "Synchronised object-oriented extranet",
+  "ProgressPercent": 714,
+  "FileName": "Bednar-Corwin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 30
     }
   }
 }

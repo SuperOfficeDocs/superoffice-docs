@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 142,
-    "Name": "Fay-Bergnaum",
-    "ToolTip": "Velit reiciendis dolorem dolorem tempora.",
-    "Deleted": true,
-    "Rank": 794,
-    "Type": "dolores",
-    "ColorBlock": 924,
-    "IconHint": "voluptates",
+    "Id": 4,
+    "Name": "Trantow, Gulgowski and Pacocha",
+    "ToolTip": "Est temporibus saepe officia voluptate aut.",
+    "Deleted": false,
+    "Rank": 388,
+    "Type": "distinctio",
+    "ColorBlock": 717,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2006-07-16T11:22:45.9441645+02:00",
+    "LastChanged": "2010-09-01T12:15:28.1916176+02:00",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Lowe-Bode",
-        "ToolTip": "Et corrupti ullam.",
-        "Deleted": true,
-        "Rank": 871,
-        "Type": "aut",
-        "ColorBlock": 66,
-        "IconHint": "eos",
+        "Id": 361,
+        "Name": "Schaefer-Ullrich",
+        "ToolTip": "Et rerum aut unde qui a voluptatem voluptas.",
+        "Deleted": false,
+        "Rank": 984,
+        "Type": "repellendus",
+        "ColorBlock": 908,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "1999-12-22T11:22:45.9441645+01:00",
+        "LastChanged": "2007-08-29T12:15:28.1916176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "autem",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Prof. Leif Brooklyn Bartoletti"
+        "FullName": "Prof. Bell Mariela Will V"
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "at",
-    "Hidden": true,
-    "FullName": "Maddison Anderson"
+    "ExtraInfo": "consequatur",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Beverly Davis"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Rice, Herman and Krajcik",
-    "ToolTip": "Sed et repudiandae.",
+    "Id": 625,
+    "Name": "Gislason-Kessler",
+    "ToolTip": "Ad accusantium dolores ut aliquid.",
     "Deleted": false,
-    "Rank": 315,
-    "Type": "aut",
-    "ColorBlock": 12,
-    "IconHint": "repellendus",
+    "Rank": 312,
+    "Type": "dolores",
+    "ColorBlock": 408,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "1997-06-08T11:22:45.9441645+02:00",
+    "LastChanged": "1996-06-07T12:15:28.1926178+02:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Williamson Group",
-        "ToolTip": "Aut aut laudantium eos nulla consequatur.",
+        "Id": 735,
+        "Name": "Barrows Inc and Sons",
+        "ToolTip": "Voluptas qui praesentium.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "velit",
-        "ColorBlock": 92,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2009-01-31T11:22:45.9441645+01:00",
+        "Rank": 612,
+        "Type": "sed",
+        "ColorBlock": 634,
+        "IconHint": "corporis",
+        "Selected": false,
+        "LastChanged": "1997-07-02T12:15:28.1926178+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "ratione",
-        "Hidden": false,
-        "FullName": "Destiney Lubowitz",
+        "ExtraInfo": "commodi",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Kelley Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 375
+            "FieldType": "System.Int32",
+            "FieldLength": 572
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "expedita",
-    "Hidden": false,
-    "FullName": "Misty Cummerata",
+    "ExtraInfo": "qui",
+    "StyleHint": "natus",
+    "Hidden": true,
+    "FullName": "Mr. Guillermo Johanna Fritsch V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldType": "System.String",
+        "FieldLength": 419
       }
     }
   }

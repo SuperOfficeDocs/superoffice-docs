@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Watsica-Skiles",
-    "ToolTip": "Tenetur harum.",
+    "Id": 996,
+    "Name": "Bernier Inc and Sons",
+    "ToolTip": "Sed numquam nisi sunt magni.",
     "Deleted": true,
-    "Rank": 150,
-    "Type": "voluptate",
-    "ColorBlock": 873,
-    "IconHint": "eos",
+    "Rank": 801,
+    "Type": "quidem",
+    "ColorBlock": 624,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2010-03-15T11:22:46.1784934+01:00",
+    "LastChanged": "1998-03-03T12:15:28.4826164+01:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Johns Group",
-        "ToolTip": "Iste in ipsam quisquam eum.",
-        "Deleted": false,
-        "Rank": 376,
-        "Type": "perspiciatis",
-        "ColorBlock": 356,
-        "IconHint": "tempore",
+        "Id": 667,
+        "Name": "Wiza-Lind",
+        "ToolTip": "Facere veritatis inventore fuga.",
+        "Deleted": true,
+        "Rank": 166,
+        "Type": "ad",
+        "ColorBlock": 501,
+        "IconHint": "quo",
         "Selected": true,
-        "LastChanged": "2000-02-26T11:22:46.1784934+01:00",
+        "LastChanged": "2022-07-04T12:15:28.4826164+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "ea",
+        "ExtraInfo": "et",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Prof. Mireille Goyette",
+        "FullName": "Prof. Steve Kayli Romaguera IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 490
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "ex",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Mrs. Martina Casper Kemmer",
+    "FullName": "Alvah Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldType": "System.Int32",
+        "FieldLength": 265
       }
     }
   }

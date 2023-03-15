@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=ipsa
+GET /api/v1/List/ConsentPurpose/MDOItems?query=velit
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Nikolaus-Stokes",
-    "ToolTip": "Quo reprehenderit quibusdam quos eaque est.",
-    "Deleted": false,
-    "Rank": 693,
-    "Type": "fugiat",
+    "Id": 607,
+    "Name": "Cummerata LLC",
+    "ToolTip": "Qui sapiente.",
+    "Deleted": true,
+    "Rank": 351,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Funk Inc and Sons",
-        "ToolTip": "Consectetur doloremque quaerat.",
-        "Deleted": false,
-        "Rank": 741,
-        "Type": "minus",
+        "Id": 475,
+        "Name": "Bartoletti Group",
+        "ToolTip": "Sit quod blanditiis.",
+        "Deleted": true,
+        "Rank": 46,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "alias",
-        "ColorBlock": 908,
-        "ExtraInfo": "omnis",
-        "StyleHint": "dolores",
-        "FullName": "Deangelo Fisher",
+        "IconHint": "nam",
+        "ColorBlock": 175,
+        "ExtraInfo": "laborum",
+        "StyleHint": "veniam",
+        "FullName": "Ms. Eliezer Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 656
+            "FieldLength": 987
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 136,
-    "ExtraInfo": "architecto",
-    "StyleHint": "aliquam",
-    "FullName": "Lauren Leannon",
+    "IconHint": "adipisci",
+    "ColorBlock": 21,
+    "ExtraInfo": "laborum",
+    "StyleHint": "id",
+    "FullName": "Elva Orlo Wisoky DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldType": "System.Int32",
+        "FieldLength": 914
       }
     }
   }

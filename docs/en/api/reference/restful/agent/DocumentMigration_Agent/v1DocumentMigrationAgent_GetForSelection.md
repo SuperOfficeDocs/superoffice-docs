@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 778,
-  "SelectionId": 798,
+  "DocumentPluginId": 129,
+  "SelectionId": 401,
   "IncludeEmails": false
 }
 ```
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 906,
-  "NumDocumentsAlreadyMigrated": 347,
+  "NumDocumentsOmitted": 442,
+  "NumDocumentsAlreadyMigrated": 363,
   "Documents": [
     {
-      "DocumentId": 485,
-      "ContactId": 258,
-      "PersonId": 301,
-      "SaleId": 752,
-      "ProjectId": 127,
-      "DocTmplId": 974,
-      "AssociateId": 819,
-      "UserGroupId": 221,
-      "VisibleForId": 31
+      "DocumentId": 944,
+      "ContactId": 680,
+      "PersonId": 603,
+      "SaleId": 628,
+      "ProjectId": 740,
+      "DocTmplId": 563,
+      "AssociateId": 358,
+      "UserGroupId": 9,
+      "VisibleForId": 749
     }
   ],
   "Associates": [
     {
-      "AssociateId": 504,
-      "EmailAddress": "kyler.wiegand@carterdibbert.info"
+      "AssociateId": 889,
+      "EmailAddress": "jace.kreiger@langworth.co.uk"
     },
     {
-      "AssociateId": 504,
-      "EmailAddress": "kyler.wiegand@carterdibbert.info"
+      "AssociateId": 889,
+      "EmailAddress": "jace.kreiger@langworth.co.uk"
     }
   ]
 }

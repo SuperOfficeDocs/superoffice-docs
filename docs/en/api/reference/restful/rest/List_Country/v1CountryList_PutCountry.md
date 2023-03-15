@@ -103,27 +103,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 897,
-  "Name": "Schaefer-Schiller",
-  "CurrencyId": 238,
-  "EnglishName": "Franecki, Fahey and Boehm",
+  "CountryId": 916,
+  "Name": "Windler-Mertz",
+  "CurrencyId": 858,
+  "EnglishName": "Waters LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Business-focused 5th generation contingency",
-  "OrgNrText": "1233970",
-  "InterAreaPrefix": "sunt",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "consequatur",
-  "DomainName": "Bartoletti, Kutch and Rath",
-  "AddressLayoutId": 142,
-  "DomesticAddressLayoutId": 401,
-  "ForeignAddressLayoutId": 499,
-  "Rank": 875,
-  "Tooltip": "et",
+  "ImageDescription": "Centralized user-facing database",
+  "OrgNrText": "710208",
+  "InterAreaPrefix": "rerum",
+  "DialInPrefix": "repellat",
+  "ZipPrefix": "sit",
+  "DomainName": "Kessler, Watsica and Volkman",
+  "AddressLayoutId": 347,
+  "DomesticAddressLayoutId": 848,
+  "ForeignAddressLayoutId": 30,
+  "Rank": 363,
+  "Tooltip": "reprehenderit",
   "Deleted": false
 }
 ```
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 816,
-  "Name": "Altenwerth Inc and Sons",
-  "CurrencyId": 208,
-  "EnglishName": "Raynor, Kreiger and Dietrich",
+  "CountryId": 91,
+  "Name": "Boyer Group",
+  "CurrencyId": 285,
+  "EnglishName": "Treutel Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Robust empowering matrices",
-  "OrgNrText": "1442021",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "dolor",
-  "ZipPrefix": "necessitatibus",
-  "DomainName": "Okuneva, Kub and Waelchi",
-  "AddressLayoutId": 210,
-  "DomesticAddressLayoutId": 606,
-  "ForeignAddressLayoutId": 299,
-  "Rank": 417,
-  "Tooltip": "vitae",
+  "ImageDescription": "Ameliorated logistical circuit",
+  "OrgNrText": "1436625",
+  "InterAreaPrefix": "porro",
+  "DialInPrefix": "deserunt",
+  "ZipPrefix": "fuga",
+  "DomainName": "Bradtke LLC",
+  "AddressLayoutId": 514,
+  "DomesticAddressLayoutId": 747,
+  "ForeignAddressLayoutId": 854,
+  "Rank": 485,
+  "Tooltip": "id",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldLength": 210
     }
   }
 }

@@ -100,20 +100,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 854,
-  "Name": "Brakus, Kertzmann and O'Keefe",
-  "Tooltip": "et",
+  "RoleId": 440,
+  "Name": "Nitzsche-Ullrich",
+  "Tooltip": "autem",
   "RoleType": "Anonymous",
-  "Deleted": 550,
-  "Rank": 216,
-  "Created": "2019-03-28T11:22:45.0693694+01:00",
-  "UseCategories": 201,
+  "Deleted": 236,
+  "Rank": 585,
+  "Created": "1997-11-21T12:15:27.2056318+01:00",
+  "UseCategories": 5,
   "CreatedBy": null,
-  "Updated": "2007-06-21T11:22:45.0693694+02:00",
+  "Updated": "2006-07-14T12:15:27.2056318+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -126,24 +126,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 143,
-  "Name": "Nolan, Pacocha and Vandervort",
-  "Tooltip": "ratione",
+  "RoleId": 454,
+  "Name": "Wisozk-Nienow",
+  "Tooltip": "eos",
   "RoleType": "Anonymous",
-  "Deleted": 868,
-  "Rank": 593,
-  "Created": "2020-06-27T11:22:45.0693694+02:00",
-  "UseCategories": 577,
+  "Deleted": 823,
+  "Rank": 267,
+  "Created": "2021-03-21T12:15:27.2066318+01:00",
+  "UseCategories": 192,
   "CreatedBy": null,
-  "Updated": "1995-10-04T11:22:45.0693694+02:00",
+  "Updated": "1997-04-29T12:15:27.2076334+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   },
   "_Links": {

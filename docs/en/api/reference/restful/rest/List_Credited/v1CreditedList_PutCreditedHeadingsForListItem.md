@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Schultz-D'Amore",
-    "ToolTip": "Et inventore consequatur qui consequatur a.",
+    "Id": 812,
+    "Name": "McClure, Klocko and Kozey",
+    "ToolTip": "Ad ipsum ullam.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "doloremque",
-    "ColorBlock": 465,
-    "IconHint": "nesciunt",
+    "Rank": 979,
+    "Type": "qui",
+    "ColorBlock": 571,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2016-03-18T11:22:45.8660551+01:00",
+    "LastChanged": "2018-03-10T12:15:28.0826219+01:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Runte, Hudson and Mertz",
-        "ToolTip": "Et ut.",
+        "Id": 453,
+        "Name": "Boehm LLC",
+        "ToolTip": "Laboriosam ea beatae et.",
         "Deleted": false,
-        "Rank": 729,
-        "Type": "odit",
-        "ColorBlock": 368,
-        "IconHint": "ex",
+        "Rank": 56,
+        "Type": "autem",
+        "ColorBlock": 518,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2000-06-30T11:22:45.8660551+02:00",
+        "LastChanged": "2016-02-13T12:15:28.0836202+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Ms. Camila Landen Berge"
+        "FullName": "Erick Moen"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Ciara Beahan"
+    "ExtraInfo": "doloribus",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Erling Batz"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 793,
-    "Name": "Bins Inc and Sons",
-    "ToolTip": "Iste necessitatibus unde omnis aut.",
+    "Id": 195,
+    "Name": "Hettinger, Hamill and Gottlieb",
+    "ToolTip": "Debitis voluptate voluptas.",
     "Deleted": false,
-    "Rank": 614,
-    "Type": "eum",
-    "ColorBlock": 291,
-    "IconHint": "molestias",
+    "Rank": 422,
+    "Type": "facere",
+    "ColorBlock": 480,
+    "IconHint": "enim",
     "Selected": true,
-    "LastChanged": "1996-04-01T11:22:45.8660551+02:00",
+    "LastChanged": "2022-12-13T12:15:28.0846221+01:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Trantow-Mraz",
-        "ToolTip": "Et in nemo ut aliquam expedita.",
-        "Deleted": false,
-        "Rank": 722,
-        "Type": "et",
-        "ColorBlock": 837,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2014-03-15T11:22:45.8660551+01:00",
+        "Id": 272,
+        "Name": "O'Conner-Fritsch",
+        "ToolTip": "Nulla asperiores culpa animi tenetur eum quia.",
+        "Deleted": true,
+        "Rank": 717,
+        "Type": "consequatur",
+        "ColorBlock": 437,
+        "IconHint": "animi",
+        "Selected": false,
+        "LastChanged": "1999-05-28T12:15:28.0846221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Albin Denesik III",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "debitis",
+        "Hidden": true,
+        "FullName": "Kendall Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 742
+            "FieldType": "System.Int32",
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Mara Abernathy",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Mrs. Oren Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 628
       }
     }
   }

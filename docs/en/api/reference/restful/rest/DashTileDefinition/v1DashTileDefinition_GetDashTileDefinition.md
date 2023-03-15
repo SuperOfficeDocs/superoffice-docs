@@ -90,7 +90,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,31 +100,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 424,
-  "Name": "Gutmann-Grant",
-  "Description": "Seamless discrete ability",
-  "DefaultHeight": 839,
-  "DefaultWidth": 809,
+  "DashboardTileDefinitionId": 218,
+  "Name": "Gutkowski, Medhurst and Kertzmann",
+  "Description": "Open-source dynamic frame",
+  "DefaultHeight": 776,
+  "DefaultWidth": 651,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ortiz-Bednar",
-  "SelectionId": 928,
+  "EntityName": "Fisher Inc and Sons",
+  "SelectionId": 202,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "veritatis",
   "Measure": "Average",
-  "MeasureField": "consectetur",
-  "SortBy": "sint",
-  "LayoutConfig": "vero",
-  "SecondarySelectionId": 30,
-  "MeasureByField": "corrupti",
+  "MeasureField": "et",
+  "SortBy": "occaecati",
+  "LayoutConfig": "officia",
+  "SecondarySelectionId": 921,
+  "MeasureByField": "vero",
   "Usage": "Dashboard",
-  "ProviderName": "Johnston-Hirthe",
+  "ProviderName": "Thiel-Harber",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldLength": 711
     }
   },
   "_Links": {

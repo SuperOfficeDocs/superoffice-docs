@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Frami, Schmidt and Konopelski",
-    "ToolTip": "Quidem veritatis ut delectus exercitationem molestias.",
+    "Id": 274,
+    "Name": "Beatty, Lueilwitz and Corkery",
+    "ToolTip": "Ut et autem ea magni consequatur.",
     "Deleted": true,
-    "Rank": 872,
-    "Type": "exercitationem",
-    "ColorBlock": 434,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2020-08-11T11:22:45.8504363+02:00",
+    "Rank": 983,
+    "Type": "et",
+    "ColorBlock": 901,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2010-05-08T12:15:28.0076205+02:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Bauch-Hamill",
-        "ToolTip": "Voluptas perspiciatis nam sint voluptatem ratione et.",
+        "Id": 269,
+        "Name": "Padberg, Lakin and Stanton",
+        "ToolTip": "Ipsam explicabo itaque voluptatem ut.",
         "Deleted": false,
-        "Rank": 477,
-        "Type": "porro",
-        "ColorBlock": 223,
-        "IconHint": "dolores",
+        "Rank": 582,
+        "Type": "vitae",
+        "ColorBlock": 682,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2006-09-06T11:22:45.8504363+02:00",
+        "LastChanged": "2010-02-07T12:15:28.0076205+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "provident",
-        "StyleHint": "quaerat",
-        "Hidden": false,
-        "FullName": "Prof. Broderick Jacobs",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Mr. Noelia Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldLength": 415
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Charlene Oberbrunner",
+    "ExtraInfo": "provident",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Ms. Stephany Fleta Barton DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 890
       }
     }
   }

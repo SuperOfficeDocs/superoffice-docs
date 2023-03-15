@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Wuckert-Reichert",
-    "ToolTip": "Mollitia ut alias reprehenderit impedit provident.",
+    "Id": 747,
+    "Name": "Stoltenberg-Leuschke",
+    "ToolTip": "Ipsam molestias.",
     "Deleted": true,
-    "Rank": 718,
-    "Type": "aut",
-    "ColorBlock": 739,
-    "IconHint": "ex",
+    "Rank": 928,
+    "Type": "iste",
+    "ColorBlock": 833,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2004-09-25T11:22:45.5848828+02:00",
+    "LastChanged": "2014-10-27T12:15:27.872622+01:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Parker, Keeling and Barton",
-        "ToolTip": "Vel repellendus corrupti earum eum dolor et.",
+        "Id": 715,
+        "Name": "Kuphal-Cruickshank",
+        "ToolTip": "Quis iusto similique aliquid voluptas sint.",
         "Deleted": false,
-        "Rank": 371,
-        "Type": "facilis",
-        "ColorBlock": 403,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2014-01-25T11:22:45.5848828+01:00",
+        "Rank": 255,
+        "Type": "omnis",
+        "ColorBlock": 506,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2016-03-28T12:15:27.8736229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "adipisci",
-        "Hidden": true,
-        "FullName": "Wayne Hoeger"
+        "ExtraInfo": "et",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Rodolfo Mraz"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "odit",
+    "ExtraInfo": "ea",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mr. Jillian Rowan Davis"
+    "FullName": "Mr. Tomasa Ward Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 531,
-    "Name": "Casper, Gutkowski and Renner",
-    "ToolTip": "Explicabo soluta est.",
-    "Deleted": false,
-    "Rank": 248,
-    "Type": "sequi",
-    "ColorBlock": 497,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "1995-12-02T11:22:45.5848828+01:00",
+    "Id": 602,
+    "Name": "Jacobson-Rowe",
+    "ToolTip": "Suscipit qui dignissimos sunt culpa ratione.",
+    "Deleted": true,
+    "Rank": 443,
+    "Type": "alias",
+    "ColorBlock": 744,
+    "IconHint": "consequuntur",
+    "Selected": false,
+    "LastChanged": "2014-07-19T12:15:27.8756227+02:00",
     "ChildItems": [
       {
-        "Id": 553,
-        "Name": "Bergstrom, Hyatt and Kshlerin",
-        "ToolTip": "Magnam temporibus illum debitis adipisci labore sapiente fugit.",
-        "Deleted": false,
-        "Rank": 506,
-        "Type": "tempora",
-        "ColorBlock": 112,
-        "IconHint": "voluptate",
+        "Id": 248,
+        "Name": "Larson LLC",
+        "ToolTip": "Laboriosam amet dignissimos suscipit est officia error.",
+        "Deleted": true,
+        "Rank": 187,
+        "Type": "voluptatem",
+        "ColorBlock": 120,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2007-10-21T11:22:45.5848828+02:00",
+        "LastChanged": "2005-08-13T12:15:27.8756227+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "ad",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Maxwell Marquardt V",
+        "FullName": "Dr. Missouri Tyree Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 867
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Giovanna Wisoky IV",
+    "ExtraInfo": "non",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Kole Mosciski I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 872
       }
     }
   }

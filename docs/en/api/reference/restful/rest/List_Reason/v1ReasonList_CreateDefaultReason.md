@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 797,
-  "Name": "Bosco, Stokes and Boyer",
-  "Tooltip": "modi",
+  "Id": 467,
+  "Name": "Hayes-Strosin",
+  "Tooltip": "velit",
   "Deleted": false,
-  "UdListDefinitionId": 276,
-  "Rank": 446,
+  "UdListDefinitionId": 624,
+  "Rank": 422,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 632
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

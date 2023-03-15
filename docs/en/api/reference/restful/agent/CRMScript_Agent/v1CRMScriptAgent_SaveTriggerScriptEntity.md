@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 661,
-  "Name": "Bruen-Steuber",
+  "ScreenChooserId": 122,
+  "Name": "Ortiz-Upton",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "consequuntur",
-  "Source": "corporis",
-  "Registered": "1999-04-20T11:22:37.7742144+02:00",
-  "RegisteredAssociateId": 876,
-  "Updated": "1997-01-03T11:22:37.7742144+01:00",
-  "UpdatedAssociateId": 776
+  "Enabled": true,
+  "UniqueIdentifier": "tempora",
+  "Source": "eligendi",
+  "Registered": "1999-07-07T12:15:18.6227564+02:00",
+  "RegisteredAssociateId": 973,
+  "Updated": "2016-05-28T12:15:18.6227564+02:00",
+  "UpdatedAssociateId": 415
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 964,
-  "Name": "Considine Inc and Sons",
+  "ScreenChooserId": 250,
+  "Name": "Wisozk-Williamson",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dicta",
-  "Source": "id",
-  "Registered": "2021-02-28T11:22:37.7742144+01:00",
-  "RegisteredAssociateId": 140,
-  "Updated": "2017-12-03T11:22:37.7742144+01:00",
-  "UpdatedAssociateId": 122,
+  "Enabled": false,
+  "UniqueIdentifier": "saepe",
+  "Source": "aliquam",
+  "Registered": "2015-02-20T12:15:18.6237597+01:00",
+  "RegisteredAssociateId": 837,
+  "Updated": "1998-11-07T12:15:18.6237597+01:00",
+  "UpdatedAssociateId": 856,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

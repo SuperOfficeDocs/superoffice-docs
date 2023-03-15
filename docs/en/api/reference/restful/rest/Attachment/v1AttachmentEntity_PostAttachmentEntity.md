@@ -85,16 +85,16 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 842,
-  "Name": "Hackett, Heidenreich and Boehm",
-  "ContentType": "eius",
-  "AttSize": 24,
+  "AttachmentId": 383,
+  "Name": "Buckridge, Schroeder and Glover",
+  "ContentType": "cumque",
+  "AttSize": 807,
   "InlineImage": false,
-  "ContentId": "odit"
+  "ContentId": "consequuntur"
 }
 ```
 
@@ -105,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 677,
-  "Name": "Runte, Tromp and Stiedemann",
-  "ContentType": "sit",
-  "AttSize": 239,
-  "InlineImage": false,
-  "ContentId": "autem",
+  "AttachmentId": 26,
+  "Name": "Christiansen, Williamson and Schuppe",
+  "ContentType": "quod",
+  "AttSize": 384,
+  "InlineImage": true,
+  "ContentId": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldType": "System.String",
+      "FieldLength": 928
     }
   },
   "_Links": {

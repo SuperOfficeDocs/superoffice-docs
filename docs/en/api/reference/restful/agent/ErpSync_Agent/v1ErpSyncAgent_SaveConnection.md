@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 420,
-  "ErpConnectorId": 867,
-  "DisplayName": "Schulist, Smitham and Schaden",
-  "DisplayDescription": "Open-architected system-worthy algorithm",
-  "Active": true,
-  "ConnectionId": "eos",
-  "MostRecentTimestamp": "modi",
+  "ErpConnectionId": 865,
+  "ErpConnectorId": 983,
+  "DisplayName": "Stiedemann Inc and Sons",
+  "DisplayDescription": "Reverse-engineered intangible success",
+  "Active": false,
+  "ConnectionId": "quia",
+  "MostRecentTimestamp": "ut",
   "ConfigFields": {
-    "ConfigFields1": "eum",
-    "ConfigFields2": "natus"
+    "ConfigFields1": "asperiores",
+    "ConfigFields2": "atque"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    509,
-    179
+    837,
+    615
   ],
   "AssociateAccessIds": [
-    930,
-    965
+    703,
+    685
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 890
     }
   }
 }

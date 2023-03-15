@@ -76,7 +76,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 561,
-  "AssociateId": 185,
-  "Caption": "animi",
+  "DashboardId": 950,
+  "AssociateId": 317,
+  "Caption": "fugit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 457,
-      "Caption": "labore",
-      "Description": "Mandatory bottom-line analyzer",
-      "ChartName": "Lockman, Dare and Ankunding",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 471,
-      "GroupId": 450,
-      "SelectionId": 234,
-      "Config": "cumque",
+      "DashboardTileId": 50,
+      "Caption": "consequuntur",
+      "Description": "Programmable tangible standardization",
+      "ChartName": "Little, Predovic and Waters",
+      "ChartId": "voluptate",
+      "IsDefault": false,
+      "AssociateId": 635,
+      "GroupId": 291,
+      "SelectionId": 822,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldLength": 210
         }
       }
     }
@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 444
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

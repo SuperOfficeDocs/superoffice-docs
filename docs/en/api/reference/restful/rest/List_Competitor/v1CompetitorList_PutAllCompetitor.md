@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Deckow-Stamm",
-    "Tooltip": "quia",
+    "Id": 378,
+    "Name": "Kirlin, Crooks and Hackett",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 223,
-    "Rank": 600
+    "UdListDefinitionId": 782,
+    "Rank": 1002
   },
   {
-    "Id": 577,
-    "Name": "Deckow-Stamm",
-    "Tooltip": "quia",
+    "Id": 378,
+    "Name": "Kirlin, Crooks and Hackett",
+    "Tooltip": "amet",
     "Deleted": false,
-    "UdListDefinitionId": 223,
-    "Rank": 600
+    "UdListDefinitionId": 782,
+    "Rank": 1002
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 592,
-    "Name": "Stroman-Green",
-    "Tooltip": "repudiandae",
-    "Deleted": true,
-    "UdListDefinitionId": 324,
-    "Rank": 549,
+    "Id": 842,
+    "Name": "Hilpert Inc and Sons",
+    "Tooltip": "numquam",
+    "Deleted": false,
+    "UdListDefinitionId": 936,
+    "Rank": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 49
+        "FieldLength": 647
       }
     }
   }

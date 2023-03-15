@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 332,
-  "Name": "Swaniawski-Dare",
-  "Tooltip": "laudantium",
-  "PassiveText": "laudantium",
+  "ReldefId": 407,
+  "Name": "Roberts LLC",
+  "Tooltip": "ut",
+  "PassiveText": "at",
   "Deleted": true,
-  "Rank": 89,
+  "Rank": 768,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 748
     }
   }
 }

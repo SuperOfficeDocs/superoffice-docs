@@ -109,28 +109,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 899,
-  "SourcePersonId": 353,
-  "DestinationContactId": 951,
-  "DestinationPersonId": 951,
-  "RelationId": 418,
-  "Comment": "tempora",
-  "RelationDefinitionId": 259,
-  "Reversed": 36,
-  "UpdatedDate": "2016-08-09T11:22:44.5694964+02:00",
-  "CreatedDate": "1998-01-01T11:22:44.5694964+01:00",
+  "SourceContactId": 99,
+  "SourcePersonId": 830,
+  "DestinationContactId": 522,
+  "DestinationPersonId": 355,
+  "RelationId": 810,
+  "Comment": "accusamus",
+  "RelationDefinitionId": 841,
+  "Reversed": 916,
+  "UpdatedDate": "2008-02-06T12:15:26.7966407+01:00",
+  "CreatedDate": "2003-07-22T12:15:26.7966407+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Becker, Rempel and Simonis",
-  "SourcePersonName": "Labadie LLC",
-  "DestinationContactName": "Stiedemann-Corkery",
-  "DestinationPersonName": "Collins-Roob",
-  "ActiveText": "blanditiis",
-  "PassiveText": "magni"
+  "SourceContactName": "Stanton Inc and Sons",
+  "SourcePersonName": "Ziemann-Runolfsdottir",
+  "DestinationContactName": "Beatty-Botsford",
+  "DestinationPersonName": "Marvin Inc and Sons",
+  "ActiveText": "est",
+  "PassiveText": "quas"
 }
 ```
 
@@ -141,35 +141,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 801,
-  "SourcePersonId": 42,
-  "DestinationContactId": 926,
-  "DestinationPersonId": 101,
-  "RelationId": 628,
-  "Comment": "corrupti",
-  "RelationDefinitionId": 375,
-  "Reversed": 528,
-  "UpdatedDate": "2010-12-08T11:22:44.5694964+01:00",
-  "CreatedDate": "2013-02-26T11:22:44.5694964+01:00",
+  "SourceContactId": 50,
+  "SourcePersonId": 59,
+  "DestinationContactId": 939,
+  "DestinationPersonId": 993,
+  "RelationId": 308,
+  "Comment": "iusto",
+  "RelationDefinitionId": 306,
+  "Reversed": 40,
+  "UpdatedDate": "2015-04-29T12:15:26.7986393+02:00",
+  "CreatedDate": "2008-12-11T12:15:26.7986393+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jaskolski Inc and Sons",
-  "SourcePersonName": "Hessel, Kemmer and Yundt",
-  "DestinationContactName": "O'Conner Inc and Sons",
-  "DestinationPersonName": "Wintheiser, Lowe and Schoen",
-  "ActiveText": "optio",
-  "PassiveText": "accusamus",
+  "SourceContactName": "Nitzsche LLC",
+  "SourcePersonName": "Sipes, Prosacco and Lesch",
+  "DestinationContactName": "Ferry-Kessler",
+  "DestinationPersonName": "Luettgen Group",
+  "ActiveText": "et",
+  "PassiveText": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 266
+      "FieldLength": 326
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

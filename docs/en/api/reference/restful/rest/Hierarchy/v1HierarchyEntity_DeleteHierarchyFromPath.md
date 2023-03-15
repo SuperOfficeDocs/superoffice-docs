@@ -18,7 +18,7 @@ Remove a hierarchy item and its children from a path
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards | Type of items to get **Required** |
+| domain | Enum: Unknown, ExtraTables, ScreenDefinitions, Scripts, Selections, ExternalDocuments, UserGroups, ExternalDocumentRelatedToSpmMessage, Dashboards, EmailFlows | Type of items to get **Required** |
 | path | string | Hierarchy path to item to delete **Required** |
 
 

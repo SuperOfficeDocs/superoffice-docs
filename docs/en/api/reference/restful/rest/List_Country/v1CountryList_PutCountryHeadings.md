@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 795,
-    "Name": "Lynch, Fritsch and Cummings",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 363,
-    "UdListDefinitionId": 276
+    "HeadingId": 733,
+    "Name": "Mosciski-Terry",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "Rank": 105,
+    "UdListDefinitionId": 832
   },
   {
-    "HeadingId": 795,
-    "Name": "Lynch, Fritsch and Cummings",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 363,
-    "UdListDefinitionId": 276
+    "HeadingId": 733,
+    "Name": "Mosciski-Terry",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "Rank": 105,
+    "UdListDefinitionId": 832
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 446,
-    "Name": "Carter, Harris and Keebler",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 604,
-    "UdListDefinitionId": 102,
+    "HeadingId": 275,
+    "Name": "Kassulke Group",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 962,
+    "UdListDefinitionId": 930,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 575
+        "FieldLength": 256
       }
     }
   }

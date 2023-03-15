@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Audience/SetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Morar Group",
+  "LayoutName": "Abernathy-Reinger",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

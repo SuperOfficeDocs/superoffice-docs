@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Leannon, Bailey and Anderson",
+  "TaskName": "Medhurst-Wolf",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Kiehn Inc and Sons",
-    "AssociateId": 854,
-    "DetailsTable": 297,
-    "DetailsRecord": 142,
+    "Id": 285,
+    "Name": "O'Keefe Inc and Sons",
+    "AssociateId": 982,
+    "DetailsTable": 854,
+    "DetailsRecord": 92,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quam",
-      "ParameterObject2": "saepe"
+      "ParameterObject1": "ad",
+      "ParameterObject2": "perferendis"
     },
-    "LastStarted": "2015-11-05T11:22:37.4461725+01:00",
-    "Created": "2018-02-06T11:22:37.4461725+01:00",
-    "StartCount": 468,
-    "DatabaseSerialNumber": "274224",
-    "Context": "rerum",
-    "Result": "ut",
+    "LastStarted": "2019-06-11T12:15:18.2137626+02:00",
+    "Created": "2005-10-29T12:15:18.2137626+02:00",
+    "StartCount": 874,
+    "DatabaseSerialNumber": "1305736",
+    "Context": "nulla",
+    "Result": "minima",
     "State": "All",
-    "Description": "Synergized assymetric software",
-    "Response": "animi",
-    "Request": "magnam",
-    "ProgressDescription": "Programmable motivating budgetary management",
-    "ProgressPercent": 976,
-    "FileName": "Luettgen-Kris",
+    "Description": "Intuitive client-driven array",
+    "Response": "nostrum",
+    "Request": "excepturi",
+    "ProgressDescription": "Enterprise-wide mission-critical analyzer",
+    "ProgressPercent": 221,
+    "FileName": "Treutel, Haley and Muller",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 464
       }
     }
   }

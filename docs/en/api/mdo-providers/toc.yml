@@ -743,5 +743,7 @@ items:
   href: reference/weekday.md
 - name: Weeknumber
   href: reference/weeknumber.md
+- name: WorkflowStepType
+  href: reference/workflowsteptype.md
 - name: Y_equipment
   href: reference/y_equipment.md

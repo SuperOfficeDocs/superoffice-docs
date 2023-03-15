@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 694,
-    "Name": "Ryan Inc and Sons",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "Rank": 725,
-    "UdListDefinitionId": 343,
+    "HeadingId": 385,
+    "Name": "Muller, Bruen and Friesen",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "Rank": 716,
+    "UdListDefinitionId": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 387
+        "FieldLength": 189
       }
     }
   }

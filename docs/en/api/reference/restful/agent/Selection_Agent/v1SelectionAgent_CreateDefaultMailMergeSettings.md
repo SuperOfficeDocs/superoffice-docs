@@ -86,25 +86,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 493,
-  "DocumentId": 548,
+  "SelectionId": 973,
+  "DocumentId": 859,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "quae",
+  "CustomAttention": "assumenda",
   "AlwaysUseCustomAttention": false,
-  "SaveDocument": true,
-  "CustomMailBody": "molestiae",
+  "SaveDocument": false,
+  "CustomMailBody": "et",
   "TaskEntity": null,
-  "AddCompanyInterest": 433,
-  "AddPersonInterest": 790,
-  "RemoveCompanyInterest": 74,
-  "RemovePersonInterest": 664,
-  "IncludeNoMailingsRecipient": false,
+  "AddCompanyInterest": 890,
+  "AddPersonInterest": 370,
+  "RemoveCompanyInterest": 966,
+  "RemovePersonInterest": 939,
+  "IncludeNoMailingsRecipient": true,
   "TestOnly": false,
-  "ProjectId": 309,
+  "ProjectId": 211,
   "IncludeRetiredRecipients": false,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "modi",
-  "ExtraInfo": "voluptas",
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "aut",
+  "ExtraInfo": "neque",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 892
     }
   }
 }

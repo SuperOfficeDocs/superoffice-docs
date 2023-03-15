@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Beer, Buckridge and Jacobs",
-    "ToolTip": "Libero harum maiores iusto vero qui et.",
+    "Id": 23,
+    "Name": "Oberbrunner, Schultz and Deckow",
+    "ToolTip": "Quo recusandae est sed.",
     "Deleted": true,
-    "Rank": 672,
-    "Type": "maxime",
-    "ColorBlock": 551,
-    "IconHint": "fugit",
+    "Rank": 945,
+    "Type": "et",
+    "ColorBlock": 392,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2016-08-11T11:22:46.0222797+02:00",
+    "LastChanged": "2018-01-05T12:15:28.2806124+01:00",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Waelchi-Halvorson",
-        "ToolTip": "Debitis sed et laborum.",
-        "Deleted": false,
-        "Rank": 610,
-        "Type": "autem",
-        "ColorBlock": 836,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2009-02-03T11:22:46.0222797+01:00",
+        "Id": 934,
+        "Name": "Mosciski LLC",
+        "ToolTip": "Non illum repudiandae.",
+        "Deleted": true,
+        "Rank": 403,
+        "Type": "non",
+        "ColorBlock": 864,
+        "IconHint": "quidem",
+        "Selected": true,
+        "LastChanged": "2013-10-04T12:15:28.2806124+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "nihil",
+        "ExtraInfo": "qui",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Kelli Vaughn Auer I",
+        "FullName": "Dr. Tatum Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 679
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Danika Stan Murray III",
+    "ExtraInfo": "in",
+    "StyleHint": "nulla",
+    "Hidden": true,
+    "FullName": "Enrico Ayana Cole Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 407
       }
     }
   }

@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Graham-Kassulke",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 629,
-  "IsCustomList": false,
+  "Id": 13,
+  "Name": "Langosh Group",
+  "Tooltip": "maxime",
+  "Deleted": true,
+  "Rank": 776,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quo",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97,
-  "Name": "Thompson Group",
-  "Tooltip": "quis",
+  "Id": 912,
+  "Name": "DuBuque, Langworth and Greenfelder",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 168,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 445,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "consectetur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nemo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

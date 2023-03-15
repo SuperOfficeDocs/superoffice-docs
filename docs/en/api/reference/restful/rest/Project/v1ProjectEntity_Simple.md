@@ -88,30 +88,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 303,
-  "Name": "Reynolds, Deckow and Ortiz",
-  "Description": "Versatile fault-tolerant approach",
+  "ProjectId": 561,
+  "Name": "Brown-Lowe",
+  "Description": "Centralized systemic synergy",
   "URL": "http://www.example.com/",
-  "Type": "tempore",
-  "AssociateId": 501,
-  "AssociateFullName": "Mrs. Gilberto Timothy Schumm",
-  "TypeId": 447,
-  "Updated": "2012-11-26T11:22:45.0537619+01:00",
-  "StatusId": 728,
-  "Status": "aut",
-  "TextId": 266,
-  "PublishTo": "2003-05-11T11:22:45.0537619+02:00",
-  "PublishFrom": "1998-02-16T11:22:45.0537619+01:00",
+  "Type": "repellat",
+  "AssociateId": 137,
+  "AssociateFullName": "Mr. Jamison Kevin Funk DVM",
+  "TypeId": 977,
+  "Updated": "2012-02-28T12:15:27.1836324+01:00",
+  "StatusId": 734,
+  "Status": "dolores",
+  "TextId": 184,
+  "PublishTo": "2021-06-03T12:15:27.1836324+02:00",
+  "PublishFrom": "2011-01-04T12:15:27.1836324+01:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "708779",
-  "ActiveErpLinks": 717,
+  "ProjectNumber": "764420",
+  "ActiveErpLinks": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldLength": 643
     }
   }
 }

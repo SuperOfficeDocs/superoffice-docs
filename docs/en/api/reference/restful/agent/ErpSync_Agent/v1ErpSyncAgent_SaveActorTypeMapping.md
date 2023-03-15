@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 272,
-  "IsActive": false,
+  "ErpConnectionId": 471,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 610,
-      "CrmFieldKey": "totam",
-      "CrmDisplayName": "Metz, Ryan and Emmerich",
-      "CrmDisplayTooltip": "enim",
-      "ErpFieldKey": "quos",
+      "ErpFieldId": 416,
+      "CrmFieldKey": "temporibus",
+      "CrmDisplayName": "Sipes LLC",
+      "CrmDisplayTooltip": "maiores",
+      "ErpFieldKey": "fuga",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Zieme-Hessel",
-      "ErpDisplayTooltip": "odio",
+      "ErpDisplayName": "Wiza, Daniel and Grimes",
+      "ErpDisplayTooltip": "quibusdam",
       "SyncToCrm": false,
-      "SyncToErp": false,
-      "ShowInGui": true,
-      "ShowInSearch": false,
+      "SyncToErp": true,
+      "ShowInGui": false,
+      "ShowInSearch": true,
       "AlreadyMapped": true,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "nisi",
+      "ListReference": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldLength": 256
     }
   }
 }

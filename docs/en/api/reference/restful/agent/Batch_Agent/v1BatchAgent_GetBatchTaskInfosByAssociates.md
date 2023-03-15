@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    111,
-    927
+    694,
+    97
   ]
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Bahringer Inc and Sons",
-    "AssociateId": 728,
-    "DetailsTable": 738,
-    "DetailsRecord": 245,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 170,
+    "Name": "Raynor-Lebsack",
+    "AssociateId": 909,
+    "DetailsTable": 663,
+    "DetailsRecord": 152,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "error",
-      "ParameterObject2": "officia"
+      "ParameterObject1": "est",
+      "ParameterObject2": "nostrum"
     },
-    "LastStarted": "2018-05-02T11:22:37.4461725+02:00",
-    "Created": "2013-12-06T11:22:37.4461725+01:00",
-    "StartCount": 108,
-    "DatabaseSerialNumber": "513064",
-    "Context": "dolore",
-    "Result": "explicabo",
+    "LastStarted": "2012-11-09T12:15:18.203765+01:00",
+    "Created": "2019-12-08T12:15:18.203765+01:00",
+    "StartCount": 505,
+    "DatabaseSerialNumber": "1375390",
+    "Context": "sunt",
+    "Result": "consequuntur",
     "State": "All",
-    "Description": "Operative radical matrix",
-    "Response": "et",
-    "Request": "expedita",
-    "ProgressDescription": "Profound secondary model",
-    "ProgressPercent": 767,
-    "FileName": "O'Hara-Smitham",
+    "Description": "Enterprise-wide cohesive forecast",
+    "Response": "laboriosam",
+    "Request": "magnam",
+    "ProgressDescription": "Team-oriented motivating implementation",
+    "ProgressPercent": 895,
+    "FileName": "Ebert LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 861
       }
     }
   }

@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 447,
-  "Name": "Spencer-Braun",
-  "Tooltip": "excepturi",
+  "Id": 222,
+  "Name": "DuBuque Group",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 436,
+  "Rank": 670,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

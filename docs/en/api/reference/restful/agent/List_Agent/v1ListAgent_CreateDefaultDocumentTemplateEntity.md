@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 897,
-  "Name": "Beatty, Bogan and Auer",
-  "Tooltip": "minus",
-  "SaveInDb": 136,
-  "Filename": "itaque",
-  "DefaultOref": "similique",
+  "DocumentTemplateId": 152,
+  "Name": "Schmeler, Cole and Hartmann",
+  "Tooltip": "rerum",
+  "SaveInDb": 882,
+  "Filename": "labore",
+  "DefaultOref": "vitae",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 603,
-  "IntentId": 257,
-  "IsDefaultPublished": false,
-  "Rank": 984,
-  "LoadTemplateFromPlugin": 463,
-  "MimeType": "veritatis",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 734,
+  "AutoeventId": 619,
+  "IntentId": 401,
+  "IsDefaultPublished": true,
+  "Rank": 673,
+  "LoadTemplateFromPlugin": 195,
+  "MimeType": "dolor",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 852,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "edgar_ritchie@aufderharshields.uk",
+  "EmailSubject": "jordyn@sengerkuhlman.ca",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "noelia.hermiston@glovermetz.info",
+  "SenderEmailAddress": "jerry.krajcik@gerlachschmeler.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 936
     }
   }
 }

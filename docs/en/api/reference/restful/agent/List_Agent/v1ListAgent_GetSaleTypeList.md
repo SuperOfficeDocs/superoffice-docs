@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Value": "placeat",
-    "Tooltip": "dolorem",
+    "Id": 286,
+    "Value": "quaerat",
+    "Tooltip": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 735
       }
     }
   },
   {
-    "Id": 954,
-    "Value": "placeat",
-    "Tooltip": "dolorem",
+    "Id": 286,
+    "Value": "quaerat",
+    "Tooltip": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 735
       }
     }
   }

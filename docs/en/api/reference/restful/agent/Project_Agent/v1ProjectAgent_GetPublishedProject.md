@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 543
+  "ProjectId": 33
 }
 ```
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 727,
-  "Name": "Corwin Inc and Sons",
-  "Description": "Switchable systematic product",
+  "ProjectId": 262,
+  "Name": "Feil LLC",
+  "Description": "Exclusive analyzing contingency",
   "URL": "http://www.example.com/",
-  "Type": "et",
-  "AssociateId": 958,
-  "AssociateFullName": "Brody Hermiston",
-  "TypeId": 587,
-  "Updated": "1996-03-02T11:22:38.8520826+01:00",
-  "StatusId": 923,
-  "Status": "qui",
-  "TextId": 451,
-  "PublishTo": "2006-07-09T11:22:38.8520826+02:00",
-  "PublishFrom": "2012-06-14T11:22:38.8520826+02:00",
-  "IsPublished": false,
+  "Type": "ex",
+  "AssociateId": 279,
+  "AssociateFullName": "Harmony Cummings",
+  "TypeId": 66,
+  "Updated": "2016-10-09T12:15:19.8627386+02:00",
+  "StatusId": 922,
+  "Status": "rerum",
+  "TextId": 612,
+  "PublishTo": "2022-08-23T12:15:19.8627386+02:00",
+  "PublishFrom": "2020-08-25T12:15:19.8627386+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "491637",
-  "ActiveErpLinks": 348,
+  "ProjectNumber": "1095769",
+  "ActiveErpLinks": 632,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 557
     }
   }
 }

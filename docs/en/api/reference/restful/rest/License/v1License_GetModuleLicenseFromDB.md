@@ -71,7 +71,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,20 +81,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wehner Inc and Sons",
-  "ModuleName": "Oberbrunner LLC",
-  "ModuleDescription": "Diverse transitional encryption",
-  "ModuleTooltip": "numquam",
-  "ModuleVersion": "sed",
+  "OwnerName": "Gottlieb, Ondricka and Hauck",
+  "ModuleName": "Conn Group",
+  "ModuleDescription": "Progressive client-server task-force",
+  "ModuleTooltip": "similique",
+  "ModuleVersion": "totam",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 275,
-  "ExtraFlags": 413,
-  "ExtraInfo": "explicabo",
-  "SortOrder": 145,
+  "NumberOfLicenses": 417,
+  "ExtraFlags": 78,
+  "ExtraInfo": "similique",
+  "SortOrder": 628,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Willms, Bahringer and Schinner",
-  "Signature": "assumenda"
+  "PrerequisiteModuleName": "Turner-Strosin",
+  "Signature": "nihil"
 }
 ```

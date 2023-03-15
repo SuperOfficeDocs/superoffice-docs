@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 143
+  "QuoteVersionId": 527
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 339,
-  "ERPQuoteVersionKey": "veniam",
-  "QuoteId": 748,
-  "Description": "Customizable transitional focus group",
-  "Number": "1587454",
+  "QuoteVersionId": 344,
+  "ERPQuoteVersionKey": "expedita",
+  "QuoteId": 414,
+  "Description": "Digitized zero administration pricing structure",
+  "Number": "1318436",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 852,
-  "SentDate": "2005-08-14T11:22:38.8833285+02:00",
-  "FollowupId": 41,
-  "ExpirationDate": "2015-03-15T11:22:38.8833285+01:00",
-  "DeliveryCountryId": 767,
+  "LikelyQuoteAlternativeId": 266,
+  "SentDate": "2020-10-29T12:15:19.8907064+01:00",
+  "FollowupId": 799,
+  "ExpirationDate": "2008-06-13T12:15:19.8907064+02:00",
+  "DeliveryCountryId": 942,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 544,
+  "InvoiceCountryId": 229,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "doloremque",
-  "ERPPaymentTypeKey": "sit",
-  "ERPDeliveryTermsKey": "cumque",
-  "ERPDeliveryTypeKey": "animi",
-  "Rank": 496,
-  "ApprovedBy": 390,
-  "ApprovedText": "et",
-  "ApprovedRegisteredBy": 33,
-  "ApprovedRegisteredDate": "2015-04-27T11:22:38.8833285+02:00",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "unde",
-  "ExtraField3": "soluta",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "minima",
-  "LastRecalculated": "1996-03-10T11:22:38.8833285+01:00",
-  "Updated": "2018-07-15T11:22:38.8833285+02:00",
-  "UpdatedAssociateId": 385,
-  "Registered": "2007-02-27T11:22:38.8833285+01:00",
-  "RegisteredAssociateId": 236,
-  "RequestAssociateId": 563,
-  "RequestComment": "quos",
+  "ERPPaymentTermsKey": "natus",
+  "ERPPaymentTypeKey": "ipsa",
+  "ERPDeliveryTermsKey": "odit",
+  "ERPDeliveryTypeKey": "est",
+  "Rank": 625,
+  "ApprovedBy": 973,
+  "ApprovedText": "sit",
+  "ApprovedRegisteredBy": 173,
+  "ApprovedRegisteredDate": "1999-08-19T12:15:19.8907064+02:00",
+  "ExtraField1": "id",
+  "ExtraField2": "quae",
+  "ExtraField3": "eum",
+  "ExtraField4": "enim",
+  "ExtraField5": "rem",
+  "LastRecalculated": "2022-10-26T12:15:19.8917403+02:00",
+  "Updated": "2003-12-01T12:15:19.8917403+01:00",
+  "UpdatedAssociateId": 367,
+  "Registered": "2005-12-27T12:15:19.8917403+01:00",
+  "RegisteredAssociateId": 55,
+  "RequestAssociateId": 613,
+  "RequestComment": "illo",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 911,
-      "ERPQuoteAlternativeKey": "ut",
-      "QuoteVersionId": 633,
-      "Name": "Conn-Kutch",
-      "Description": "Horizontal multi-tasking info-mediaries",
+      "QuoteAlternativeId": 71,
+      "ERPQuoteAlternativeKey": "rem",
+      "QuoteVersionId": 545,
+      "Name": "Vandervort Inc and Sons",
+      "Description": "Enterprise-wide high-level firmware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 31148.825999999997,
-      "ERPDiscountAmount": 10780.96,
-      "DiscountPercent": 24589.363999999998,
-      "DiscountAmount": 6982.552,
+      "ERPDiscountPercent": 10229.376,
+      "ERPDiscountAmount": 26294.26,
+      "DiscountPercent": 3086.99,
+      "DiscountAmount": 5713.282,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "voluptatum",
-      "VAT": 3453.6679999999997,
-      "EarningPercent": 18474.93,
-      "EarningAmount": 29506.61,
-      "SubTotal": 30070.73,
-      "TotalPrice": 19910.302,
-      "ExtraField1": "hic",
-      "ExtraField2": "accusamus",
-      "ExtraField3": "quam",
-      "ExtraField4": "non",
-      "ExtraField5": "vel",
+      "VATInfo": "vero",
+      "VAT": 27638.746,
+      "EarningPercent": 27776.642,
+      "EarningAmount": 18048.706,
+      "SubTotal": 451.296,
+      "TotalPrice": 19079.791999999998,
+      "ExtraField1": "nihil",
+      "ExtraField2": "dolorem",
+      "ExtraField3": "consequatur",
+      "ExtraField4": "modi",
+      "ExtraField5": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 958
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 583
     }
   }
 }

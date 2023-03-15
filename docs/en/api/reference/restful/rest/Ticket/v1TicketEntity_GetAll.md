@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=vel
-GET /api/v1/Ticket?$top=122
-GET /api/v1/Ticket?$skip=776
+GET /api/v1/Ticket?$entities=iusto
+GET /api/v1/Ticket?$top=63
+GET /api/v1/Ticket?$skip=406
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=culpa
+GET /api/v1/Ticket?$context=qui
 GET /api/v1/Ticket?$format=JSON
 GET /api/v1/Ticket?$jsonSafe=False
 GET /api/v1/Ticket?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,19 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eum",
+  "odata.nextLink": "quasi",
   "value": [
     {
-      "PrimaryKey": 2738,
-      "EntityName": "person",
-      "personId": 2738,
-      "fullName": "Jayden Darren Carroll V"
+      "PrimaryKey": 633,
+      "EntityName": "sale",
+      "saleId": 633,
+      "contactId": 6222,
+      "name": "Bechtelar, Schamberger and Klocko"
     },
     {
-      "PrimaryKey": 254,
-      "EntityName": "person",
-      "personId": 254,
-      "fullName": "Noah Nicolas"
+      "PrimaryKey": 5153,
+      "EntityName": "sale",
+      "saleId": 5153,
+      "contactId": 9711,
+      "name": "Hodkiewicz Group"
     }
   ]
 }

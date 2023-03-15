@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Armstrong-Hahn"
+  "EntityName": "Littel-Kuhn"
 }
 ```
 
@@ -105,31 +105,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 601,
-  "Name": "Halvorson, Steuber and Moen",
-  "Description": "Persevering 24/7 orchestration",
-  "DefaultHeight": 740,
-  "DefaultWidth": 734,
+  "DashboardTileDefinitionId": 692,
+  "Name": "Romaguera, Kris and Howell",
+  "Description": "Advanced web-enabled monitoring",
+  "DefaultHeight": 55,
+  "DefaultWidth": 430,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Yundt-Heller",
-  "SelectionId": 876,
+  "EntityName": "Beier-Stroman",
+  "SelectionId": 321,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ducimus",
+  "CurrencyCode": "harum",
   "Measure": "Average",
-  "MeasureField": "quis",
-  "SortBy": "molestiae",
-  "LayoutConfig": "aut",
-  "SecondarySelectionId": 852,
-  "MeasureByField": "est",
+  "MeasureField": "rerum",
+  "SortBy": "tenetur",
+  "LayoutConfig": "perspiciatis",
+  "SecondarySelectionId": 389,
+  "MeasureByField": "illo",
   "Usage": "Dashboard",
-  "ProviderName": "Luettgen-Yost",
+  "ProviderName": "Watsica-Barrows",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldLength": 708
     }
   }
 }

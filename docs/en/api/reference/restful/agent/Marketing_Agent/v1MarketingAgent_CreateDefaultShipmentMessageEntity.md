@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 548,
-  "PlainMessage": "nihil",
-  "HtmlMessage": "eum",
-  "SmsMessage": "sed",
-  "Description": "User-centric web-enabled firmware",
-  "Subject": "nemo",
-  "FolderId": 927,
-  "HeaderField": "nam",
-  "Design": "id",
+  "ShipmentMessageId": 669,
+  "PlainMessage": "maxime",
+  "HtmlMessage": "asperiores",
+  "SmsMessage": "magni",
+  "Description": "Customer-focused bi-directional initiative",
+  "Subject": "quia",
+  "FolderId": 206,
+  "HeaderField": "expedita",
+  "Design": "aliquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Synchronised attitude-oriented knowledge user",
-  "AccessKey": "deleniti",
-  "DocumentMessage": 889,
-  "Registered": "2021-08-25T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 537,
-  "Updated": "1995-09-08T11:22:38.5552678+02:00",
-  "UpdatedAssociateId": 692,
-  "UpdatedCount": 140,
+  "InlineImages": true,
+  "LongDescription": "Synergistic foreground info-mediaries",
+  "AccessKey": "et",
+  "DocumentMessage": 515,
+  "Registered": "1999-01-31T12:15:19.3687519+01:00",
+  "RegisteredAssociateId": 507,
+  "Updated": "2008-05-28T12:15:19.3687519+02:00",
+  "UpdatedAssociateId": 705,
+  "UpdatedCount": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldLength": 911
     }
   }
 }

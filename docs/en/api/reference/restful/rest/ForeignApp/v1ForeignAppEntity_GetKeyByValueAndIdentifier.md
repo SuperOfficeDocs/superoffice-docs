@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=vel
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 Dec 2011 11:22:44 G12T
+Last-Modified: Mon, 13 Dec 2004 12:15:26 G12T
 
 {
-  "Key": "sequi",
-  "Value": "est",
-  "RecordId": 201,
-  "CreatedDate": "2005-10-26T11:22:44.8818691+02:00",
-  "UpdatedDate": "2011-12-06T11:22:44.8818691+01:00",
-  "UpdatedBy": "voluptate",
-  "CreatedBy": "et",
-  "TableName": "Langworth-Sipes",
+  "Key": "inventore",
+  "Value": "maiores",
+  "RecordId": 658,
+  "CreatedDate": "2009-07-15T12:15:26.9806378+02:00",
+  "UpdatedDate": "2004-12-13T12:15:26.9806378+01:00",
+  "UpdatedBy": "officia",
+  "CreatedBy": "sapiente",
+  "TableName": "Schmeler, Towne and Gislason",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 286
     }
   }
 }

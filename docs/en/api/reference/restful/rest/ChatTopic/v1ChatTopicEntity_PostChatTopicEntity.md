@@ -135,41 +135,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 721,
-  "Name": "Lemke-Fahey",
-  "Description": "Business-focused optimal infrastructure",
-  "WelcomeMessage": "voluptatum",
+  "ChatTopicId": 782,
+  "Name": "Lakin, Bernhard and Daugherty",
+  "Description": "Expanded local toolset",
+  "WelcomeMessage": "totam",
   "Language": null,
-  "LastAccept": "2010-04-29T11:22:44.4132819+02:00",
-  "SecondsPrAccept": 885,
-  "AlertRecipient": "molestiae",
+  "LastAccept": "2017-10-29T12:15:26.5166422+01:00",
+  "SecondsPrAccept": 452,
+  "AlertRecipient": "consequatur",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "incidunt",
+  "CollectConsent": false,
+  "BadgeHeader": "minus",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ad",
-  "WarnNewChatMinutes": 666,
-  "WarnManagerNewChatMinutes": 872,
-  "TicketEnabled": false,
+  "CustomQueueText": "deserunt",
+  "WarnNewChatMinutes": 66,
+  "WarnManagerNewChatMinutes": 261,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 969,
-  "WarnManagerChatMessageMinutes": 223,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 666,
-  "OfflineFormQueueLength": 712,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "rerum"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 552,
+  "WarnManagerChatMessageMinutes": 640,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 68,
+  "OfflineFormQueueLength": 735,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "debitis"
 }
 ```
 
@@ -180,48 +180,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 702,
-  "Name": "Rippin, Cummerata and Jaskolski",
-  "Description": "Stand-alone context-sensitive adapter",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 129,
+  "Name": "White, Jacobi and Purdy",
+  "Description": "Digitized motivating moratorium",
+  "WelcomeMessage": "eos",
   "Language": null,
-  "LastAccept": "2009-12-19T11:22:44.4132819+01:00",
-  "SecondsPrAccept": 595,
-  "AlertRecipient": "et",
+  "LastAccept": "2014-10-21T12:15:26.5196418+02:00",
+  "SecondsPrAccept": 746,
+  "AlertRecipient": "ipsum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "veniam",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "ea",
-  "WarnNewChatMinutes": 548,
-  "WarnManagerNewChatMinutes": 771,
-  "TicketEnabled": false,
+  "BadgeHeader": "veritatis",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "est",
+  "WarnNewChatMinutes": 447,
+  "WarnManagerNewChatMinutes": 527,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 346,
-  "WarnManagerChatMessageMinutes": 598,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 726,
+  "WarnManagerChatMessageMinutes": 58,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 770,
-  "OfflineFormQueueLength": 418,
+  "OfflineFormTimeLimit": 500,
+  "OfflineFormQueueLength": 120,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "sed",
+  "WidgetRatingText": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldLength": 644
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

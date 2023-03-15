@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 666,
-  "ERPProductKey": "quos",
-  "ERPPriceListKey": "iste",
-  "Name": "Balistreri LLC",
-  "Description": "Self-enabling interactive customer loyalty",
-  "Code": "omnis",
-  "PriceUnit": "expedita",
-  "QuantityUnit": "in",
+  "ProductId": 275,
+  "ERPProductKey": "tempora",
+  "ERPPriceListKey": "consectetur",
+  "Name": "Johnson-Feeney",
+  "Description": "Public-key zero defect superstructure",
+  "Code": "sunt",
+  "PriceUnit": "ex",
+  "QuantityUnit": "perspiciatis",
   "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "DefaultSubscriptionQuantity": 949.602,
-  "ItemNumber": "927048",
+  "SubscriptionUnit": "quo",
+  "DefaultSubscriptionQuantity": 17707.1,
+  "ItemNumber": "1669520",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "officia",
-  "ProductTypeKey": "error",
-  "VAT": 10511.436,
-  "VATInfo": "alias",
-  "UnitCost": 20126.548,
-  "UnitMinimumPrice": 19715.994,
-  "UnitListPrice": 23696.174,
-  "InAssortment": false,
-  "Supplier": "eos",
-  "SupplierCode": "qui",
-  "Rights": "placeat",
-  "Rule": "quos",
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "temporibus",
+  "VAT": 27842.456,
+  "VATInfo": "atque",
+  "UnitCost": 7847.536,
+  "UnitMinimumPrice": 16171.439999999999,
+  "UnitListPrice": 24426.396,
+  "InAssortment": true,
+  "Supplier": "numquam",
+  "SupplierCode": "autem",
+  "Rights": "consequuntur",
+  "Rule": "fugiat",
   "ExtraInfo": [
     {
-      "Name": "Wiegand, Jacobson and Fadel",
+      "Name": "Gorczany LLC",
       "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     },
     {
-      "Name": "Wiegand, Jacobson and Fadel",
+      "Name": "Gorczany LLC",
       "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
   ],
-  "RawExtraInfo": "accusantium",
-  "ExtraField1": "hic",
-  "ExtraField2": "ipsam",
-  "ExtraField3": "enim",
-  "ExtraField4": "provident",
-  "ExtraField5": "odio",
-  "InStock": 6114.434,
+  "RawExtraInfo": "quia",
+  "ExtraField1": "temporibus",
+  "ExtraField2": "aliquam",
+  "ExtraField3": "autem",
+  "ExtraField4": "qui",
+  "ExtraField5": "nemo",
+  "InStock": 8364.6459999999988,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldLength": 394
     }
   }
 }

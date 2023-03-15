@@ -87,16 +87,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "omnis",
+  "Id": 948,
+  "Name": "Keebler Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 475,
+  "Rank": 492,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Padberg, Erdman and Hegmann",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 272,
+  "Id": 164,
+  "Name": "Herzog Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 971,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "tenetur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

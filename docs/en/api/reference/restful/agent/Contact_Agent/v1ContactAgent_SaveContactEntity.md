@@ -148,89 +148,89 @@ OK
 POST /api/v1/Agents/Contact/SaveContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 209,
-  "Name": "Kerluke, Bosco and Flatley",
+  "ContactId": 822,
+  "Name": "Mertz, Ortiz and Hamill",
   "Department": "",
-  "OrgNr": "1764668",
-  "Number1": "1079991",
-  "Number2": "1303571",
-  "UpdatedDate": "2001-08-08T11:22:37.6336208+02:00",
-  "CreatedDate": "2002-09-22T11:22:37.6336208+02:00",
+  "OrgNr": "788226",
+  "Number1": "1003998",
+  "Number2": "979024",
+  "UpdatedDate": "2010-10-04T12:15:18.4557611+02:00",
+  "CreatedDate": "2012-03-29T12:15:18.4557611+02:00",
   "Emails": [
     {
-      "Value": "sint",
-      "StrippedValue": "iusto",
-      "Description": "Re-engineered high-level concept"
+      "Value": "qui",
+      "StrippedValue": "reprehenderit",
+      "Description": "Object-based 6th generation product"
     },
     {
-      "Value": "sint",
-      "StrippedValue": "iusto",
-      "Description": "Re-engineered high-level concept"
+      "Value": "qui",
+      "StrippedValue": "reprehenderit",
+      "Description": "Object-based 6th generation product"
     }
   ],
   "Interests": [
     {
-      "Id": 194,
-      "Name": "O'Hara, Mante and Dicki",
-      "ToolTip": "Assumenda culpa iure minus.",
-      "Deleted": true,
-      "Rank": 803,
-      "Type": "voluptatem",
-      "ColorBlock": 562,
-      "IconHint": "sed",
+      "Id": 557,
+      "Name": "Wisozk, Bogan and McLaughlin",
+      "ToolTip": "Non doloribus dolorem et sint deleniti praesentium qui.",
+      "Deleted": false,
+      "Rank": 75,
+      "Type": "eius",
+      "ColorBlock": 553,
+      "IconHint": "sunt",
       "Selected": true,
-      "LastChanged": "2014-04-22T11:22:37.6336208+02:00",
+      "LastChanged": "2001-05-22T12:15:18.4567593+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "eaque",
+      "ExtraInfo": "adipisci",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Emilia Kshlerin"
+      "FullName": "Stevie Hills"
     }
   ],
   "Urls": [
     {
-      "Value": "nihil",
-      "StrippedValue": "non",
-      "Description": "Organized bandwidth-monitored portal"
+      "Value": "enim",
+      "StrippedValue": "suscipit",
+      "Description": "Operative dedicated project"
     },
     {
-      "Value": "nihil",
-      "StrippedValue": "non",
-      "Description": "Organized bandwidth-monitored portal"
+      "Value": "enim",
+      "StrippedValue": "suscipit",
+      "Description": "Operative dedicated project"
     }
   ],
   "Phones": [
     {
-      "Value": "quasi",
-      "StrippedValue": "dicta",
-      "Description": "Cross-platform tangible solution"
+      "Value": "perferendis",
+      "StrippedValue": "laudantium",
+      "Description": "Centralized demand-driven adapter"
     },
     {
-      "Value": "quasi",
-      "StrippedValue": "dicta",
-      "Description": "Cross-platform tangible solution"
+      "Value": "perferendis",
+      "StrippedValue": "laudantium",
+      "Description": "Centralized demand-driven adapter"
     }
   ],
   "Faxes": [
     {
-      "Value": "sint",
-      "StrippedValue": "inventore",
-      "Description": "Operative mission-critical definition"
+      "Value": "eaque",
+      "StrippedValue": "voluptatum",
+      "Description": "Object-based coherent contingency"
     },
     {
-      "Value": "sint",
-      "StrippedValue": "inventore",
-      "Description": "Operative mission-critical definition"
+      "Value": "eaque",
+      "StrippedValue": "voluptatum",
+      "Description": "Object-based coherent contingency"
     }
   ],
-  "Description": "Operative modular parallelism",
+  "Description": "Stand-alone mobile support",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -239,85 +239,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ut",
-      "PersonId": 784,
-      "Mrmrs": "explicabo",
-      "Firstname": "Alvis",
-      "Lastname": "Zieme",
-      "MiddleName": "Ratke-Larson",
-      "Title": "est",
-      "Description": "Stand-alone 3rd generation forecast",
-      "Email": "jeanne@mcculloughfahey.us",
-      "FullName": "Mathias Greenholt",
-      "DirectPhone": "183.490.4297 x479",
-      "FormalName": "Satterfield Inc and Sons",
-      "CountryId": 472,
-      "ContactId": 567,
-      "ContactName": "Keeling LLC",
-      "Retired": 516,
-      "Rank": 519,
-      "ActiveInterests": 669,
+      "Position": "non",
+      "PersonId": 44,
+      "Mrmrs": "quia",
+      "Firstname": "Taurean",
+      "Lastname": "Schuster",
+      "MiddleName": "Schulist LLC",
+      "Title": "dicta",
+      "Description": "Programmable multi-state website",
+      "Email": "juvenal@crooks.info",
+      "FullName": "Ms. Bridie Mauricio Mills II",
+      "DirectPhone": "1-266-776-0215 x92694",
+      "FormalName": "Hayes-Wuckert",
+      "CountryId": 137,
+      "ContactId": 310,
+      "ContactName": "O'Hara, Kertzmann and Schuppe",
+      "Retired": 434,
+      "Rank": 93,
+      "ActiveInterests": 940,
       "ContactDepartment": "",
-      "ContactCountryId": 846,
-      "ContactOrgNr": "297413",
-      "FaxPhone": "680-415-3873",
-      "MobilePhone": "(905)196-9756",
-      "ContactPhone": "120.427.4433 x36157",
-      "AssociateName": "Hansen, Brekke and Pfannerstill",
-      "AssociateId": 405,
+      "ContactCountryId": 289,
+      "ContactOrgNr": "1567521",
+      "FaxPhone": "(390)009-6488",
+      "MobilePhone": "1-173-946-1056 x279",
+      "ContactPhone": "(780)279-5851 x474",
+      "AssociateName": "Olson-Graham",
+      "AssociateId": 573,
       "UsePersonAddress": false,
-      "ContactFax": "aut",
-      "Kanafname": "soluta",
-      "Kanalname": "nisi",
-      "Post1": "nihil",
-      "Post2": "possimus",
-      "Post3": "labore",
-      "EmailName": "theodora@doyleprohaska.uk",
-      "ContactFullName": "Mrs. Eric Sigmund Schmitt",
-      "ActiveErpLinks": 402,
-      "TicketPriorityId": 640,
-      "SupportLanguageId": 204,
-      "SupportAssociateId": 569,
+      "ContactFax": "et",
+      "Kanafname": "modi",
+      "Kanalname": "numquam",
+      "Post1": "et",
+      "Post2": "illum",
+      "Post3": "voluptatem",
+      "EmailName": "lily@okonkunde.ca",
+      "ContactFullName": "Miss Jaquan Dicki",
+      "ActiveErpLinks": 222,
+      "TicketPriorityId": 601,
+      "SupportLanguageId": 263,
+      "SupportAssociateId": 887,
       "CategoryName": "VIP Customer"
     }
   ],
   "NoMailing": false,
-  "Kananame": "recusandae",
+  "Kananame": "eius",
   "Xstop": false,
-  "ActiveInterests": 72,
-  "GroupId": 860,
-  "ActiveStatusMonitorId": 828,
+  "ActiveInterests": 910,
+  "GroupId": 938,
+  "ActiveStatusMonitorId": 28,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 466,
-  "DbiAgentId": 313,
-  "DbiLastSyncronized": "2009-11-14T11:22:37.6336208+01:00",
-  "DbiKey": "atque",
-  "DbiLastModified": "2014-04-06T11:22:37.6336208+02:00",
+  "Deleted": 627,
+  "DbiAgentId": 870,
+  "DbiLastSyncronized": "2001-02-05T12:15:18.4607643+01:00",
+  "DbiKey": "et",
+  "DbiLastModified": "2007-09-28T12:15:18.4607643+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 941,
-  "ActiveErpLinks": 438,
+  "Source": 712,
+  "ActiveErpLinks": 690,
   "BounceEmails": [
-    "malcolm_mills@pacocha.biz",
-    "tommie_batz@hahn.info"
+    "reece@pacocha.com",
+    "kaia@mayert.name"
   ],
   "Domains": [
-    "dolores",
-    "nesciunt"
+    "praesentium",
+    "omnis"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Prof. Imani Adele Okuneva DDS"
+    "SuperOffice:1": "Tess Koelpin",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "aliquam"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "et"
+    "CustomFields1": "dolore",
+    "CustomFields2": "sit"
   }
 }
 ```
@@ -329,157 +329,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 111,
-  "Name": "Doyle-Howe",
+  "ContactId": 568,
+  "Name": "Cormier, Klocko and Durgan",
   "Department": "",
-  "OrgNr": "844220",
-  "Number1": "1035068",
-  "Number2": "1714951",
-  "UpdatedDate": "2022-09-11T11:22:37.6492429+02:00",
-  "CreatedDate": "2020-05-09T11:22:37.6492429+02:00",
+  "OrgNr": "789052",
+  "Number1": "1288874",
+  "Number2": "1145138",
+  "UpdatedDate": "1999-02-20T12:15:18.4697589+01:00",
+  "CreatedDate": "1997-05-19T12:15:18.4697589+02:00",
   "Emails": [
     {
-      "Value": "dolorum",
-      "StrippedValue": "eveniet",
-      "Description": "Expanded cohesive implementation",
+      "Value": "veniam",
+      "StrippedValue": "sint",
+      "Description": "Front-line reciprocal help-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 685
         }
       }
     },
     {
-      "Value": "dolorum",
-      "StrippedValue": "eveniet",
-      "Description": "Expanded cohesive implementation",
+      "Value": "veniam",
+      "StrippedValue": "sint",
+      "Description": "Front-line reciprocal help-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldLength": 685
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 762,
-      "Name": "Haley-Strosin",
-      "ToolTip": "Molestias dolor tenetur dolor quia soluta.",
-      "Deleted": false,
-      "Rank": 487,
-      "Type": "rerum",
-      "ColorBlock": 974,
-      "IconHint": "nostrum",
-      "Selected": true,
-      "LastChanged": "2021-08-05T11:22:37.6492429+02:00",
+      "Id": 916,
+      "Name": "Greenfelder-Cormier",
+      "ToolTip": "Numquam repellat aliquam a dolore similique.",
+      "Deleted": true,
+      "Rank": 612,
+      "Type": "similique",
+      "ColorBlock": 723,
+      "IconHint": "ex",
+      "Selected": false,
+      "LastChanged": "1998-12-06T12:15:18.4707589+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "fugit",
-      "Hidden": false,
-      "FullName": "Aidan O'Keefe",
+      "ExtraInfo": "cum",
+      "StyleHint": "libero",
+      "Hidden": true,
+      "FullName": "Filiberto Terry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 827
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "est",
-      "StrippedValue": "vel",
-      "Description": "Programmable stable task-force",
+      "Value": "eveniet",
+      "StrippedValue": "facilis",
+      "Description": "Exclusive global migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldLength": 293
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "vel",
-      "Description": "Programmable stable task-force",
+      "Value": "eveniet",
+      "StrippedValue": "facilis",
+      "Description": "Exclusive global migration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldLength": 293
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "vitae",
-      "Description": "Cross-group web-enabled project",
+      "Value": "sit",
+      "StrippedValue": "ut",
+      "Description": "Centralized exuding time-frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 520
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     },
     {
-      "Value": "reprehenderit",
-      "StrippedValue": "vitae",
-      "Description": "Cross-group web-enabled project",
+      "Value": "sit",
+      "StrippedValue": "ut",
+      "Description": "Centralized exuding time-frame",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 520
+          "FieldType": "System.Int32",
+          "FieldLength": 137
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "minus",
-      "StrippedValue": "officia",
-      "Description": "Devolved asynchronous customer loyalty",
+      "Value": "qui",
+      "StrippedValue": "consequatur",
+      "Description": "Profit-focused web-enabled flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 314
+          "FieldLength": 496
         }
       }
     },
     {
-      "Value": "minus",
-      "StrippedValue": "officia",
-      "Description": "Devolved asynchronous customer loyalty",
+      "Value": "qui",
+      "StrippedValue": "consequatur",
+      "Description": "Profit-focused web-enabled flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 314
+          "FieldLength": 496
         }
       }
     }
   ],
-  "Description": "Reduced multi-tasking budgetary management",
+  "Description": "Pre-emptive explicit groupware",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -488,100 +488,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "delectus",
-      "PersonId": 279,
-      "Mrmrs": "molestiae",
-      "Firstname": "Jo",
-      "Lastname": "Bartoletti",
-      "MiddleName": "Medhurst-Bergstrom",
-      "Title": "magnam",
-      "Description": "Diverse directional orchestration",
-      "Email": "paul_dicki@daugherty.co.uk",
-      "FullName": "Sadie Quinn Kertzmann I",
-      "DirectPhone": "011-514-7512",
-      "FormalName": "Mertz Inc and Sons",
-      "CountryId": 551,
-      "ContactId": 355,
-      "ContactName": "Stracke Group",
-      "Retired": 203,
-      "Rank": 949,
-      "ActiveInterests": 523,
+      "Position": "incidunt",
+      "PersonId": 813,
+      "Mrmrs": "minima",
+      "Firstname": "Ethyl",
+      "Lastname": "Ortiz",
+      "MiddleName": "Cremin LLC",
+      "Title": "fugiat",
+      "Description": "Innovative web-enabled support",
+      "Email": "deja@gaylord.info",
+      "FullName": "Ona Dach MD",
+      "DirectPhone": "412-804-8491",
+      "FormalName": "Goyette, Willms and Little",
+      "CountryId": 981,
+      "ContactId": 130,
+      "ContactName": "Moen, Von and Parisian",
+      "Retired": 80,
+      "Rank": 470,
+      "ActiveInterests": 555,
       "ContactDepartment": "",
-      "ContactCountryId": 320,
-      "ContactOrgNr": "1602989",
-      "FaxPhone": "1-883-210-2219",
-      "MobilePhone": "1-748-383-1574 x81269",
-      "ContactPhone": "1-771-628-5539 x08899",
-      "AssociateName": "Kertzmann-Bernhard",
-      "AssociateId": 400,
+      "ContactCountryId": 562,
+      "ContactOrgNr": "721694",
+      "FaxPhone": "221-684-4094",
+      "MobilePhone": "005-143-0459",
+      "ContactPhone": "(603)966-8314 x75094",
+      "AssociateName": "Harris Group",
+      "AssociateId": 713,
       "UsePersonAddress": false,
-      "ContactFax": "veritatis",
-      "Kanafname": "aut",
-      "Kanalname": "ut",
-      "Post1": "voluptates",
-      "Post2": "fugiat",
-      "Post3": "sint",
-      "EmailName": "jermaine_huel@streich.name",
-      "ContactFullName": "Barney Florencio Reichert DDS",
-      "ActiveErpLinks": 274,
-      "TicketPriorityId": 875,
-      "SupportLanguageId": 832,
-      "SupportAssociateId": 656,
+      "ContactFax": "provident",
+      "Kanafname": "explicabo",
+      "Kanalname": "sunt",
+      "Post1": "et",
+      "Post2": "est",
+      "Post3": "ut",
+      "EmailName": "newell.ward@hoeger.us",
+      "ContactFullName": "Golda Robel",
+      "ActiveErpLinks": 355,
+      "TicketPriorityId": 373,
+      "SupportLanguageId": 780,
+      "SupportAssociateId": 680,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 947
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "voluptas",
-  "Xstop": false,
-  "ActiveInterests": 478,
-  "GroupId": 609,
-  "ActiveStatusMonitorId": 653,
+  "NoMailing": true,
+  "Kananame": "iure",
+  "Xstop": true,
+  "ActiveInterests": 226,
+  "GroupId": 415,
+  "ActiveStatusMonitorId": 876,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 862,
-  "DbiAgentId": 670,
-  "DbiLastSyncronized": "2008-05-01T11:22:37.6492429+02:00",
-  "DbiKey": "est",
-  "DbiLastModified": "2001-09-16T11:22:37.6492429+02:00",
+  "Deleted": 578,
+  "DbiAgentId": 751,
+  "DbiLastSyncronized": "2012-10-28T12:15:18.4747625+01:00",
+  "DbiKey": "saepe",
+  "DbiLastModified": "2022-09-24T12:15:18.4747625+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 630,
-  "ActiveErpLinks": 12,
+  "Source": 807,
+  "ActiveErpLinks": 311,
   "BounceEmails": [
-    "ceasar@daniel.info",
-    "kameron@labadie.biz"
+    "geovanni@murray.biz",
+    "jordyn@jones.biz"
   ],
   "Domains": [
-    "quia",
-    "omnis"
+    "aut",
+    "provident"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Raleigh Sauer",
-    "SuperOffice:2": "Beulah Paucek"
+    "SuperOffice:1": "294074484",
+    "SuperOffice:2": "Dr. Otis Gabriella Runte DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "et"
+    "CustomFields1": "sit",
+    "CustomFields2": "ducimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 133
     }
   }
 }

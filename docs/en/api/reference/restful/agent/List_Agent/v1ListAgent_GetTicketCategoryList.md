@@ -97,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 506,
-    "ParentId": 962,
-    "Name": "Rath, Luettgen and Weissnat",
-    "Fullname": "hic",
-    "CategoryMaster": 120,
+    "TicketCategoryId": 265,
+    "ParentId": 558,
+    "Name": "Senger LLC",
+    "Fullname": "amet",
+    "CategoryMaster": 921,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Barrows, Fay and Sporer",
+    "ExternalName": "Vandervort Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 998,
-    "ReplyTemplate": 64,
-    "NotificationEmail": "milton@gleichner.uk",
+    "AssignmentLag": 406,
+    "ReplyTemplate": 893,
+    "NotificationEmail": "magnolia_abshire@padbergebert.co.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 91,
+    "EffectiveReplyTemplateId": 392,
     "ExtraFields": {
-      "ExtraFields1": "quis",
-      "ExtraFields2": "voluptas"
+      "ExtraFields1": "architecto",
+      "ExtraFields2": "eligendi"
     },
     "CustomFields": {
-      "CustomFields1": "atque",
-      "CustomFields2": "recusandae"
+      "CustomFields1": "reiciendis",
+      "CustomFields2": "nostrum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 763
       }
     }
   }

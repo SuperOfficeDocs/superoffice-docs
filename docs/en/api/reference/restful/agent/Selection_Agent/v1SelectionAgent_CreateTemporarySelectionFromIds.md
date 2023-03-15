@@ -113,15 +113,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    821,
-    375
+    636,
+    262
   ],
-  "TargetTableNumber": 271
+  "TargetTableNumber": 401
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable zero administration solution",
-  "Postit": "eligendi",
+  "Description": "Extended demand-driven policy",
+  "Postit": "omnis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 996,
-  "IncludePerson": 424,
-  "MemberCount": 918,
-  "Name": "Boyle, Legros and Hyatt",
-  "PostitTextId": 429,
-  "CreatedDate": "1997-08-16T11:22:39.3207231+02:00",
-  "SelectionId": 889,
-  "SoundEx": "laboriosam",
-  "Source": 470,
-  "TextId": 566,
-  "UpdatedDate": "2008-02-10T11:22:39.3207231+01:00",
-  "UpdatedCount": 348,
-  "Visibility": 969,
+  "GroupIdx": 462,
+  "IncludePerson": 62,
+  "MemberCount": 943,
+  "Name": "Russel, Lebsack and Monahan",
+  "PostitTextId": 406,
+  "CreatedDate": "2005-10-25T12:15:20.1787342+02:00",
+  "SelectionId": 11,
+  "SoundEx": "nam",
+  "Source": 55,
+  "TextId": 180,
+  "UpdatedDate": "2016-06-28T12:15:20.1787342+02:00",
+  "UpdatedCount": 75,
+  "Visibility": 406,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 714,
-  "TargetTableName": "Mayert LLC",
+  "TargetTableNumber": 85,
+  "TargetTableName": "Goldner LLC",
   "Completed": false,
-  "LeftSelectionId": 316,
-  "RightSelectionId": 94,
+  "LeftSelectionId": 344,
+  "RightSelectionId": 727,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Larson, Sanford and Abernathy",
-  "ShadowProviderName": "Senger Inc and Sons",
-  "ChartKey": "sed",
-  "LastLoaded": "2004-05-07T11:22:39.3207231+02:00",
-  "LastLoadedBy": 632,
+  "MainProviderName": "Hand Inc and Sons",
+  "ShadowProviderName": "Abbott, Fahey and Heller",
+  "ChartKey": "ut",
+  "LastLoaded": "2020-04-09T12:15:20.1797337+02:00",
+  "LastLoadedBy": 368,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-11-05T11:22:39.3207231+01:00",
-  "LastMembershipChangeBy": 973,
+  "LastMembershipChange": "2008-08-19T12:15:20.1797337+02:00",
+  "LastMembershipChangeBy": 292,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptate",
-  "MemberTabHeading": "maiores",
-  "MailingsProviderName": "Fadel, Terry and Johnston",
-  "DashboardTileDefinitionId": 740,
+  "MainHeading": "quidem",
+  "MemberTabHeading": "repudiandae",
+  "MailingsProviderName": "Streich Inc and Sons",
+  "DashboardTileDefinitionId": 441,
   "VisibleFor": [
     {
-      "VisibleId": 902,
+      "VisibleId": 278,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldType": "System.String",
+          "FieldLength": 27
         }
       }
     },
     {
-      "VisibleId": 902,
+      "VisibleId": 278,
       "Visibility": "All",
-      "DisplayValue": "nesciunt",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldType": "System.String",
+          "FieldLength": 27
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldLength": 905
     }
   }
 }

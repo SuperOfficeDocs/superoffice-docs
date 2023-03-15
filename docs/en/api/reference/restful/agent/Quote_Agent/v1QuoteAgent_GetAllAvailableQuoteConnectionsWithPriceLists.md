@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 582,
-    "ERPName": "Treutel, Reilly and Koss",
-    "DisplayName": "Kemmer, Fahey and Reilly",
-    "DisplayDescription": "Enterprise-wide fault-tolerant access",
-    "Rank": 374,
-    "ConnectorName": "Johns, Grady and Terry",
-    "ErpConnectionId": 166,
-    "ExtraData": "tempore",
+    "QuoteConnectionId": 862,
+    "ERPName": "Abshire Inc and Sons",
+    "DisplayName": "O'Conner, Sipes and Ferry",
+    "DisplayDescription": "Enterprise-wide intangible interface",
+    "Rank": 752,
+    "ConnectorName": "Weissnat-Purdy",
+    "ErpConnectionId": 483,
+    "ExtraData": "iure",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 965,
-        "ERPPriceListKey": "quia",
-        "QuoteConnectionId": 379,
-        "Name": "Rempel, Treutel and Stracke",
-        "Description": "Realigned dedicated groupware",
-        "Currency": "est",
-        "CurrencyName": "Zemlak LLC",
-        "ValidFrom": "2007-11-24T11:22:38.9301893+01:00",
-        "ValidTo": "1997-07-20T11:22:38.9301893+02:00",
+        "PriceListId": 797,
+        "ERPPriceListKey": "omnis",
+        "QuoteConnectionId": 445,
+        "Name": "Weissnat, Leannon and Kerluke",
+        "Description": "Right-sized fault-tolerant implementation",
+        "Currency": "aut",
+        "CurrencyName": "McCullough Inc and Sons",
+        "ValidFrom": "2003-06-05T12:15:19.9407375+02:00",
+        "ValidTo": "1997-01-04T12:15:19.9407375+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 516
+            "FieldLength": 377
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      360,
-      714
+      241,
+      665
     ],
     "AssociateAccessIds": [
-      28,
-      307
+      507,
+      486
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   }

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Name": "Leuschke, Nikolaus and Monahan",
-    "ToolTip": "Quibusdam id.",
-    "Deleted": true,
-    "Rank": 883,
-    "Type": "quia",
-    "ColorBlock": 25,
-    "IconHint": "consequuntur",
-    "Selected": false,
-    "LastChanged": "1997-06-01T11:22:45.8191493+02:00",
+    "Id": 694,
+    "Name": "Jones-Dare",
+    "ToolTip": "Est temporibus distinctio qui et.",
+    "Deleted": false,
+    "Rank": 314,
+    "Type": "architecto",
+    "ColorBlock": 134,
+    "IconHint": "harum",
+    "Selected": true,
+    "LastChanged": "2008-12-17T12:15:27.9286212+01:00",
     "ChildItems": [
       {
-        "Id": 488,
-        "Name": "Jaskolski-Morissette",
-        "ToolTip": "Illum quas nemo odio ea cum aut.",
+        "Id": 757,
+        "Name": "Berge LLC",
+        "ToolTip": "Iusto blanditiis quod quae architecto totam vel.",
         "Deleted": true,
-        "Rank": 817,
-        "Type": "pariatur",
-        "ColorBlock": 391,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2012-08-20T11:22:45.8191493+02:00",
+        "Rank": 555,
+        "Type": "qui",
+        "ColorBlock": 763,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2009-03-18T12:15:27.9286212+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "non",
+        "ExtraInfo": "ut",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Lionel Carter III"
+        "FullName": "Dawn Maggio"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "aut",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Alfredo Volkman"
+    "FullName": "Bernardo Bergstrom"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Nader Group",
-    "ToolTip": "Doloribus quaerat laudantium et natus qui labore.",
+    "Id": 852,
+    "Name": "O'Keefe-Emard",
+    "ToolTip": "Quis quo.",
     "Deleted": false,
-    "Rank": 657,
-    "Type": "quam",
-    "ColorBlock": 687,
-    "IconHint": "ex",
-    "Selected": false,
-    "LastChanged": "1997-07-01T11:22:45.8191493+02:00",
+    "Rank": 943,
+    "Type": "ipsam",
+    "ColorBlock": 357,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2011-02-24T12:15:27.9296214+01:00",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Cole LLC",
-        "ToolTip": "Sunt natus ea autem iusto nihil ratione deserunt.",
+        "Id": 204,
+        "Name": "Koelpin-Hagenes",
+        "ToolTip": "Sequi molestias sit dolor distinctio quam dicta provident.",
         "Deleted": false,
-        "Rank": 235,
-        "Type": "ut",
-        "ColorBlock": 835,
-        "IconHint": "nihil",
+        "Rank": 803,
+        "Type": "sed",
+        "ColorBlock": 591,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2001-08-31T11:22:45.8191493+02:00",
+        "LastChanged": "2022-03-25T12:15:27.9296214+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "Hilario Greenfelder",
+        "ExtraInfo": "atque",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Celestino Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 276
+            "FieldLength": 906
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "eveniet",
-    "Hidden": false,
-    "FullName": "Katelin Zboncak",
+    "ExtraInfo": "dicta",
+    "StyleHint": "commodi",
+    "Hidden": true,
+    "FullName": "Maryam Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldLength": 139
       }
     }
   }

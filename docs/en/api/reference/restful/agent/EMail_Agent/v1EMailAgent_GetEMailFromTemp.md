@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Reinger Group"
+  "FileName": "Macejkovic-Nolan"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 464,
-      "ContactName": "Ruecker-Medhurst",
-      "PersonId": 365,
-      "PersonName": "Gerhold-Kirlin",
-      "AssociateId": 934,
-      "Address": "neque",
-      "EmailId": 39,
+      "ContactId": 212,
+      "ContactName": "Cruickshank-Nikolaus",
+      "PersonId": 984,
+      "PersonName": "Barrows-Rau",
+      "AssociateId": 958,
+      "Address": "maiores",
+      "EmailId": 848,
       "DuplicatePersonIds": [
-        457,
-        992
+        197,
+        182
       ],
-      "Name": "Trantow, Jast and Nader",
+      "Name": "Fritsch LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 221
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 307,
-      "ContactName": "Stark Group",
-      "PersonId": 254,
-      "PersonName": "Parker-Prosacco",
-      "AssociateId": 322,
-      "Address": "iste",
-      "EmailId": 665,
+      "ContactId": 679,
+      "ContactName": "Collins, Bernier and Langosh",
+      "PersonId": 548,
+      "PersonName": "Monahan-Grant",
+      "AssociateId": 882,
+      "Address": "eum",
+      "EmailId": 474,
       "DuplicatePersonIds": [
-        486,
-        27
+        4,
+        274
       ],
-      "Name": "Champlin, Spinka and Adams",
+      "Name": "Gorczany, Davis and Botsford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 931
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 761,
-      "ContactName": "Bechtelar Inc and Sons",
-      "PersonId": 993,
-      "PersonName": "Armstrong Inc and Sons",
-      "AssociateId": 602,
-      "Address": "sed",
-      "EmailId": 685,
+      "ContactId": 345,
+      "ContactName": "Kerluke-Rolfson",
+      "PersonId": 708,
+      "PersonName": "Cummings, Stehr and Bayer",
+      "AssociateId": 855,
+      "Address": "molestiae",
+      "EmailId": 897,
       "DuplicatePersonIds": [
-        489,
-        236
+        784,
+        9
       ],
-      "Name": "Tillman, Green and Bernier",
+      "Name": "Mills Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldLength": 784
         }
       }
     }
   ],
-  "Subject": "fuga",
-  "HTMLBody": "odio",
+  "Subject": "aperiam",
+  "HTMLBody": "cum",
   "From": null,
-  "Sent": "2014-09-05T11:22:38.289718+02:00",
-  "Size": 437,
+  "Sent": "2007-11-08T12:15:19.0517503+01:00",
+  "Size": 598,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eos",
-  "PlainBody": "vero",
+  "MessageID": "officiis",
+  "PlainBody": "quo",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 356,
+  "ServerId": 899,
   "Attachments": [
     {
-      "Description": "Focused solution-oriented portal",
-      "Filename": "nisi",
-      "Size": 234,
-      "Type": "et",
-      "Encoding": "corrupti",
-      "Id": "quia",
-      "Disposition": "nostrum",
+      "Description": "Optional bifurcated open system",
+      "Filename": "et",
+      "Size": 908,
+      "Type": "eveniet",
+      "Encoding": "est",
+      "Id": "in",
+      "Disposition": "voluptatum",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldLength": 789
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schowalter, Boehm and Waters",
+      "Name": "Reinger, Hartmann and Green",
       "Values": [
-        "sint",
-        "eos"
+        "consequuntur",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 196
+          "FieldType": "System.Int32",
+          "FieldLength": 252
         }
       }
     },
     {
-      "Name": "Schowalter, Boehm and Waters",
+      "Name": "Reinger, Hartmann and Green",
       "Values": [
-        "sint",
-        "eos"
+        "consequuntur",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 196
+          "FieldType": "System.Int32",
+          "FieldLength": 252
         }
       }
     }
   ],
-  "FolderName": "Pollich-Toy",
-  "EmailItemId": 546,
-  "AccountId": 680,
-  "ReceivedAt": "2010-03-14T11:22:38.289718+01:00",
+  "FolderName": "D'Amore-Swaniawski",
+  "EmailItemId": 869,
+  "AccountId": 624,
+  "ReceivedAt": "2006-11-14T12:15:19.0527527+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-12-06T11:22:38.289718+01:00",
+  "RepliedAt": "1996-10-03T12:15:19.0527527+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 137
     }
   }
 }

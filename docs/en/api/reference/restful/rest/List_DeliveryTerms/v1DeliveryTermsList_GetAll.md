@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Moore, Mayer and Wiegand",
-    "Tooltip": "deleniti",
+    "Id": 517,
+    "Name": "Bergnaum LLC",
+    "Tooltip": "totam",
     "Deleted": false,
-    "UdListDefinitionId": 217,
-    "Rank": 907,
+    "UdListDefinitionId": 179,
+    "Rank": 475,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 998
       }
     }
   }

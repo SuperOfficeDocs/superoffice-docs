@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 302,
-  "StartTime": "2011-06-26T11:22:37.8366954+02:00",
-  "EndTime": "2009-07-14T11:22:37.8366954+02:00",
-  "Count": 659,
-  "DocumentTemplateId": 416
+  "ContactId": 894,
+  "StartTime": "2002-05-24T12:15:18.7087552+02:00",
+  "EndTime": "2003-10-23T12:15:18.7087552+02:00",
+  "Count": 53,
+  "DocumentTemplateId": 345
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 625,
-    "Attention": "sit",
-    "Header": "eos",
-    "Name": "Wyman, Gutkowski and Shields",
-    "OurRef": "hic",
-    "YourRef": "ea",
-    "Description": "Managed 6th generation methodology",
-    "DocumentTemplate": "est",
+    "DocumentId": 875,
+    "Attention": "laudantium",
+    "Header": "porro",
+    "Name": "Crist, Mueller and Gutkowski",
+    "OurRef": "dolores",
+    "YourRef": "incidunt",
+    "Description": "Digitized well-modulated encoding",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 303,
-    "PersonFullName": "Lambert Oberbrunner",
-    "AssociateFullName": "Miss Miller Mackenzie Kuvalis IV",
-    "ContactId": 358,
-    "ContactName": "Yost, Reynolds and Mraz",
-    "ProjectId": 181,
-    "ProjectName": "Mann-Runolfsdottir",
-    "AssociateId": 405,
-    "Snum": 84,
-    "SaleId": 925,
-    "SaleName": "Waters, Torp and Sanford",
+    "PersonId": 40,
+    "PersonFullName": "Kayden Cruz Crona DDS",
+    "AssociateFullName": "Clemens O'Kon",
+    "ContactId": 38,
+    "ContactName": "Vandervort LLC",
+    "ProjectId": 529,
+    "ProjectName": "Barrows-Nolan",
+    "AssociateId": 576,
+    "Snum": 393,
+    "SaleId": 848,
+    "SaleName": "Rutherford, White and Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 667
+        "FieldType": "System.Int32",
+        "FieldLength": 292
       }
     }
   }

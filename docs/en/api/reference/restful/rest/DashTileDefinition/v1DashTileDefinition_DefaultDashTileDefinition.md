@@ -74,7 +74,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 711,
-  "Name": "Jast, Runte and Jewess",
-  "Description": "Open-architected homogeneous core",
-  "DefaultHeight": 979,
-  "DefaultWidth": 713,
+  "DashboardTileDefinitionId": 330,
+  "Name": "Walsh, Pfannerstill and Dach",
+  "Description": "Synergized upward-trending methodology",
+  "DefaultHeight": 822,
+  "DefaultWidth": 536,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ernser, Hayes and Cartwright",
-  "SelectionId": 799,
+  "EntityName": "Daniel LLC",
+  "SelectionId": 645,
   "CurrencyMode": "Base",
-  "CurrencyCode": "minus",
+  "CurrencyCode": "aut",
   "Measure": "Average",
-  "MeasureField": "repellendus",
-  "SortBy": "et",
-  "LayoutConfig": "quam",
-  "SecondarySelectionId": 878,
-  "MeasureByField": "sed",
+  "MeasureField": "ut",
+  "SortBy": "nisi",
+  "LayoutConfig": "distinctio",
+  "SecondarySelectionId": 1000,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Stracke-Carter",
+  "ProviderName": "Bednar, Spinka and Koepp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldType": "System.String",
+      "FieldLength": 845
     }
   }
 }

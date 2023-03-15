@@ -84,7 +84,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 377,
-  "Name": "Schowalter-Padberg",
-  "OrgNr": "1278618",
+  "ContactId": 782,
+  "Name": "Doyle-Hoeger",
+  "OrgNr": "1729759",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "nesciunt",
-  "DirectPhone": "1-316-615-3206",
-  "AssociateId": 911,
-  "CountryId": 381,
-  "EmailAddress": "briana@jewess.co.uk",
-  "Kananame": "porro",
-  "EmailAddressName": "annabel@kovacek.us",
+  "City": "ut",
+  "DirectPhone": "1-403-490-8118 x7904",
+  "AssociateId": 857,
+  "CountryId": 549,
+  "EmailAddress": "deanna_heller@hammes.ca",
+  "Kananame": "dolores",
+  "EmailAddressName": "maria.quitzon@johnson.info",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Prof. Claire Cronin DVM",
+  "AssociateFullName": "Mrs. Khalil Daniel",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "et",
-  "FullName": "Dr. Santina Brakus",
+  "FormattedAddress": "voluptatem",
+  "FullName": "Elody Haley",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 617,
-  "Number1": "1473342",
-  "Number2": "1351523",
+  "ActiveErpLinks": 205,
+  "Number1": "1284176",
+  "Number2": "827998",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 849
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

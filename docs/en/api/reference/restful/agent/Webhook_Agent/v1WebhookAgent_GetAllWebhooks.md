@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Heaney, Simonis and O'Reilly",
-  "EventFilter": "sed",
+  "NameFilter": "Baumbach-Reilly",
+  "EventFilter": "reprehenderit",
   "StatusFilter": "Active"
 }
 ```
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 16,
-    "Name": "Mante Group",
+    "WebhookId": 413,
+    "Name": "Ruecker-Casper",
     "Events": [
-      "possimus",
-      "repellendus"
+      "maxime",
+      "modi"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "voluptatem",
+    "Secret": "in",
     "State": "Active",
-    "Type": "perferendis",
+    "Type": "earum",
     "Headers": {
-      "Headers1": "blanditiis",
-      "Headers2": "aspernatur"
+      "Headers1": "corrupti",
+      "Headers2": "quis"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2022-09-27T11:22:39.7112593+02:00",
+    "Registered": "2006-05-12T12:15:20.6707268+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2010-11-17T11:22:39.7112593+01:00",
+    "Updated": "2007-06-11T12:15:20.6707268+02:00",
     "UpdatedAssociate": null
   }
 ]

@@ -72,7 +72,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
+  "Id": 779,
   "EmbedImages": "Inline"
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 884,
+  "EjMessageId": 483,
   "Ticket": null,
-  "CreatedAt": "2016-12-19T11:22:39.5550468+01:00",
+  "CreatedAt": "1996-07-27T12:15:20.4887302+02:00",
   "CreatedBy": null,
-  "Author": "deleniti",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 632,
-  "Body": "labore",
-  "HtmlBody": "dolorem",
-  "EmailHeader": "woodrow.yost@wisoky.ca",
-  "DebugInfo": "et",
-  "MailSorter": "ut",
+  "MessageId": "quae",
+  "TimeSpent": 448,
+  "Body": "tenetur",
+  "HtmlBody": "non",
+  "EmailHeader": "ernie.spinka@stroman.us",
+  "DebugInfo": "illo",
+  "MailSorter": "culpa",
   "MessageCategory": "Bounce",
   "Person": null,
   "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 31,
-      "Name": "Schaden LLC",
-      "Value": "vel",
+      "Id": 873,
+      "Name": "Marvin, Shanahan and Schiller",
+      "Value": "deleniti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,47 +144,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldLength": 344
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quibusdam",
-  "Sentiment": 94,
-  "SentimentConfidence": 435,
+  "Language": "qui",
+  "Sentiment": 78,
+  "SentimentConfidence": 598,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 357,
-      "Name": "Volkman Group",
-      "ContentType": "aspernatur",
-      "AttSize": 836,
+      "AttachmentId": 250,
+      "Name": "Padberg LLC",
+      "ContentType": "et",
+      "AttSize": 146,
       "InlineImage": false,
-      "ContentId": "pariatur",
+      "ContentId": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldType": "System.String",
+          "FieldLength": 110
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "laboriosam",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "sit"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "odit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 165
     }
   }
 }

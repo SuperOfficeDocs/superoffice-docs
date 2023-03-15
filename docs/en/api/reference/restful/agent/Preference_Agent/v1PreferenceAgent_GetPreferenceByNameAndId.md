@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "deserunt",
-  "PrefKey": "aut",
+  "PrefSection": "aliquid",
+  "PrefKey": "sit",
   "PrefLevel": "Database",
-  "OwnerId": 20
+  "OwnerId": 527
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "commodi",
+  "RawValue": "ipsum",
   "Specification": null,
-  "DisplayValue": "eum",
-  "DisplayTooltip": "nostrum",
+  "DisplayValue": "doloremque",
+  "DisplayTooltip": "sit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 278,
-  "PrefDescId": 198,
-  "TableName": "Gottlieb Group",
-  "UserPreferenceId": 680,
+  "TargetId": 412,
+  "PrefDescId": 192,
+  "TableName": "Veum LLC",
+  "UserPreferenceId": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldType": "System.String",
+      "FieldLength": 564
     }
   }
 }

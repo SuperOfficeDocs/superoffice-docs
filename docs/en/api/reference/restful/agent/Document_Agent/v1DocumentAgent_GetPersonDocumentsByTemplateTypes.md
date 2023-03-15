@@ -98,18 +98,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 49,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2017-12-28T11:22:37.8523182+01:00",
-  "EndTime": "2016-05-21T11:22:37.8523182+02:00",
-  "Count": 211,
+  "PersonId": 746,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2009-09-18T12:15:18.7297547+02:00",
+  "EndTime": "2013-09-17T12:15:18.7297547+02:00",
+  "Count": 894,
   "DocumentTemplateIds": [
-    358,
-    72
+    851,
+    833
   ]
 }
 ```
@@ -122,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 120,
-    "Attention": "vel",
-    "Header": "suscipit",
-    "Name": "Koepp Group",
-    "OurRef": "dolor",
-    "YourRef": "quia",
-    "Description": "Multi-lateral dedicated time-frame",
-    "DocumentTemplate": "architecto",
+    "DocumentId": 577,
+    "Attention": "molestiae",
+    "Header": "illo",
+    "Name": "Schulist Inc and Sons",
+    "OurRef": "autem",
+    "YourRef": "et",
+    "Description": "Upgradable full-range contingency",
+    "DocumentTemplate": "molestias",
     "IsPublished": true,
-    "PersonId": 197,
-    "PersonFullName": "Cole Gottlieb",
-    "AssociateFullName": "Prof. Darrell Tom Waelchi Jr.",
-    "ContactId": 99,
-    "ContactName": "Prosacco-Lemke",
-    "ProjectId": 416,
-    "ProjectName": "Jaskolski, Ward and Schneider",
-    "AssociateId": 331,
-    "Snum": 958,
-    "SaleId": 705,
-    "SaleName": "Romaguera Group",
+    "PersonId": 940,
+    "PersonFullName": "Jermey Cronin",
+    "AssociateFullName": "Enid Reichel",
+    "ContactId": 105,
+    "ContactName": "Wilkinson LLC",
+    "ProjectId": 709,
+    "ProjectName": "Schmeler-Huels",
+    "AssociateId": 808,
+    "Snum": 307,
+    "SaleId": 102,
+    "SaleName": "Considine-Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldType": "System.Int32",
+        "FieldLength": 80
       }
     }
   }

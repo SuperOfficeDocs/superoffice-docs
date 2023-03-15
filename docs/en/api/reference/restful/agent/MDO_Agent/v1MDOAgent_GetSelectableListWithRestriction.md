@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Parker Group",
-  "AdditionalInfo": "laborum",
-  "SearchValue": "omnis"
+  "Name": "Brown, Lemke and Kub",
+  "AdditionalInfo": "illum",
+  "SearchValue": "ut"
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 488,
-    "Name": "Mante-Sporer",
-    "ToolTip": "Quo quas.",
-    "Deleted": true,
-    "Rank": 609,
-    "Type": "mollitia",
-    "ColorBlock": 555,
-    "IconHint": "architecto",
+    "Id": 394,
+    "Name": "Howe-Spinka",
+    "ToolTip": "Molestias voluptatum totam voluptas quibusdam.",
+    "Deleted": false,
+    "Rank": 313,
+    "Type": "numquam",
+    "ColorBlock": 936,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2003-01-01T11:22:38.5865114+01:00",
+    "LastChanged": "1999-07-11T12:15:19.3887504+02:00",
     "ChildItems": [
       {
-        "Id": 228,
-        "Name": "Hodkiewicz Group",
-        "ToolTip": "Libero ipsam distinctio maiores voluptatem deserunt in.",
-        "Deleted": false,
-        "Rank": 38,
-        "Type": "accusantium",
-        "ColorBlock": 697,
-        "IconHint": "beatae",
+        "Id": 185,
+        "Name": "Hilpert, Mante and Rath",
+        "ToolTip": "Sit laborum alias ipsum autem.",
+        "Deleted": true,
+        "Rank": 441,
+        "Type": "itaque",
+        "ColorBlock": 794,
+        "IconHint": "numquam",
         "Selected": true,
-        "LastChanged": "2007-05-29T11:22:38.5865114+02:00",
+        "LastChanged": "2005-10-15T12:15:19.3887504+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "similique",
+        "ExtraInfo": "quo",
+        "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Brooks Von",
+        "FullName": "Maxine Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 253
+            "FieldLength": 861
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "nulla",
     "Hidden": false,
-    "FullName": "Olga Okuneva",
+    "FullName": "Ms. Mallie Stanley Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldType": "System.String",
+        "FieldLength": 992
       }
     }
   }

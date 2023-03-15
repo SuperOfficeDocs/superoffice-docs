@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Brakus, Tillman and O'Hara",
-  "StorageKey": "aut",
+  "StorageType": "inventore",
+  "ProviderName": "Kuphal-Kling",
+  "StorageKey": "voluptatem",
   "DesiredColumnNames": [
-    "Thiel-Kozey",
-    "Kling-Purdy"
+    "O'Conner, Jacobi and Stiedemann",
+    "Senger LLC"
   ],
   "StaticColumns": [
-    "eos",
-    "sequi"
+    "ea",
+    "ut"
   ]
 }
 ```
@@ -108,15 +108,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Harris-Weimann",
-      "Operator": "vel",
+      "Name": "Hirthe Inc and Sons",
+      "Operator": "molestiae",
       "Values": [
-        "occaecati",
-        "ut"
+        "et",
+        "deleniti"
       ],
       "DisplayValues": [
-        "consequatur",
-        "nihil"
+        "reiciendis",
+        "enim"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -124,65 +124,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 125,
+      "InterParenthesis": 183,
       "InterOperator": "And",
-      "UniqueHash": 500
+      "UniqueHash": 753
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Blick-Collier",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "est",
+      "DisplayName": "Quitzon, Littel and Beer",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "aliquid",
       "CanOrderBy": false,
-      "Name": "Zboncak LLC",
+      "Name": "Gulgowski Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "dicta",
-      "RestrictionListName": "Abshire, Purdy and Skiles",
+      "RestrictionType": "ad",
+      "RestrictionListName": "Schmeler-Hane",
       "IsVisible": false,
-      "ExtraInfo": "porro",
-      "Width": "esse",
-      "IconHint": "cum",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "rerum",
+      "Width": "aut",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "dolores"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "King-Olson",
-      "PrimaryKey": 103,
+      "EntityName": "Reilly Inc and Sons",
+      "PrimaryKey": 355,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempore",
-          "TooltipHint": "nesciunt",
-          "LinkHint": "laborum"
+          "DisplayValue": "dolores",
+          "TooltipHint": "et",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "minus",
-      "StyleHint": "sapiente",
+      "LinkHint": "sit",
+      "StyleHint": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 168
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Conroy-Rowe",
-      "Description": "Down-sized user-facing installation",
-      "Rank": 250,
+      "Name": "Luettgen-Dach",
+      "Description": "Profit-focused local algorithm",
+      "Rank": 465,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Conroy-Rowe",
-      "Description": "Down-sized user-facing installation",
-      "Rank": 250,
+      "Name": "Luettgen-Dach",
+      "Description": "Profit-focused local algorithm",
+      "Rank": 465,
       "Restrictions": [
         {},
         {}
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldLength": 858
     }
   }
 }

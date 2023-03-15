@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 819,
-    "Name": "Hills, Weissnat and Wolff",
-    "Tooltip": "recusandae",
+    "HeadingId": 40,
+    "Name": "Keeling-Bergnaum",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 817,
-    "UdListDefinitionId": 219,
+    "Rank": 848,
+    "UdListDefinitionId": 306,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 721
       }
     }
   }

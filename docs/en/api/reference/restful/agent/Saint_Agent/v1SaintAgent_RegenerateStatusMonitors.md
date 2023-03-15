@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
-  "Name": "McClure, Rice and Sawayn",
-  "AssociateId": 975,
-  "DetailsTable": 200,
-  "DetailsRecord": 2,
+  "Id": 312,
+  "Name": "Yundt, Green and Paucek",
+  "AssociateId": 309,
+  "DetailsTable": 856,
+  "DetailsRecord": 826,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "dolor",
-    "ParameterObject2": "fuga"
+    "ParameterObject1": "officiis",
+    "ParameterObject2": "ad"
   },
-  "LastStarted": "1997-01-28T11:22:38.9926773+01:00",
-  "Created": "2019-07-26T11:22:38.9926773+02:00",
-  "StartCount": 337,
-  "DatabaseSerialNumber": "1280415",
-  "Context": "at",
-  "Result": "totam",
+  "LastStarted": "2004-10-05T12:15:20.0147362+02:00",
+  "Created": "2010-09-07T12:15:20.0147362+02:00",
+  "StartCount": 901,
+  "DatabaseSerialNumber": "1322738",
+  "Context": "minima",
+  "Result": "minus",
   "State": "All",
-  "Description": "Focused tertiary paradigm",
-  "Response": "magnam",
-  "Request": "nesciunt",
-  "ProgressDescription": "Managed impactful encoding",
-  "ProgressPercent": 492,
-  "FileName": "Wunsch-Stokes",
+  "Description": "Function-based regional task-force",
+  "Response": "est",
+  "Request": "sit",
+  "ProgressDescription": "Synergistic 4th generation function",
+  "ProgressPercent": 301,
+  "FileName": "O'Connell, Luettgen and Schmeler",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 944
     }
   }
 }

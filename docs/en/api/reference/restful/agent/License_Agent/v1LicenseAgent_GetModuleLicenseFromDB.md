@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schinner, Rippin and Rempel",
-  "ModuleName": "Bahringer Inc and Sons"
+  "OwnerName": "Dicki LLC",
+  "ModuleName": "Runolfsson-Olson"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Nolan Group",
-  "ModuleName": "Renner, Gaylord and Nader",
-  "ModuleDescription": "Synergized regional access",
-  "ModuleTooltip": "et",
-  "ModuleVersion": "vero",
+  "OwnerName": "Yundt-Johns",
+  "ModuleName": "Kshlerin-Wiza",
+  "ModuleDescription": "Up-sized context-sensitive focus group",
+  "ModuleTooltip": "pariatur",
+  "ModuleVersion": "facere",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 668,
-  "ExtraFlags": 421,
-  "ExtraInfo": "voluptatem",
-  "SortOrder": 57,
+  "NumberOfLicenses": 260,
+  "ExtraFlags": 90,
+  "ExtraInfo": "sit",
+  "SortOrder": 107,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Connelly-Bashirian",
-  "Signature": "accusamus"
+  "PrerequisiteModuleName": "Altenwerth-Hyatt",
+  "Signature": "blanditiis"
 }
 ```

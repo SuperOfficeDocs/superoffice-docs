@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Mante Inc and Sons",
-    "ToolTip": "Dolore est sequi voluptate sunt pariatur repellat quaerat.",
-    "Deleted": true,
-    "Rank": 792,
-    "Type": "dicta",
-    "ColorBlock": 634,
-    "IconHint": "eaque",
-    "Selected": false,
-    "LastChanged": "1998-03-03T11:22:45.5536344+01:00",
+    "Id": 341,
+    "Name": "Kub-Bartoletti",
+    "ToolTip": "Incidunt unde quis at atque iure minus.",
+    "Deleted": false,
+    "Rank": 46,
+    "Type": "numquam",
+    "ColorBlock": 407,
+    "IconHint": "blanditiis",
+    "Selected": true,
+    "LastChanged": "2013-09-02T12:15:27.827623+02:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Berge Inc and Sons",
-        "ToolTip": "Non quas occaecati debitis provident perferendis aut.",
+        "Id": 940,
+        "Name": "Bergnaum, Hilpert and Konopelski",
+        "ToolTip": "Molestias tempore veniam temporibus et at veritatis quae.",
         "Deleted": false,
-        "Rank": 516,
-        "Type": "nemo",
-        "ColorBlock": 998,
-        "IconHint": "veritatis",
-        "Selected": false,
-        "LastChanged": "2008-03-30T11:22:45.5536344+02:00",
+        "Rank": 751,
+        "Type": "accusantium",
+        "ColorBlock": 40,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2000-01-13T12:15:27.8286208+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Rafaela Moore",
+        "ExtraInfo": "qui",
+        "StyleHint": "quam",
+        "Hidden": false,
+        "FullName": "Sylvan Lera Wilderman II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 231
+            "FieldLength": 951
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Miss Mae Kevon Hoeger",
+    "ExtraInfo": "velit",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Lexi Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldType": "System.String",
+        "FieldLength": 504
       }
     }
   }

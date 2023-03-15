@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "McKenzie-Sawayn",
-    "ToolTip": "Blanditiis voluptates.",
-    "Deleted": true,
-    "Rank": 507,
-    "Type": "enim",
-    "ColorBlock": 901,
-    "IconHint": "ratione",
+    "Id": 259,
+    "Name": "Ullrich Inc and Sons",
+    "ToolTip": "Aut esse quis eum voluptatibus dolor et.",
+    "Deleted": false,
+    "Rank": 144,
+    "Type": "minus",
+    "ColorBlock": 848,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2021-02-09T11:22:46.0847653+01:00",
+    "LastChanged": "2015-04-26T12:15:28.3526165+02:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Nader, Gleason and Keeling",
-        "ToolTip": "Voluptatibus dolorem ut.",
+        "Id": 82,
+        "Name": "Kling LLC",
+        "ToolTip": "Incidunt aut eaque ex.",
         "Deleted": true,
-        "Rank": 697,
-        "Type": "et",
-        "ColorBlock": 414,
-        "IconHint": "ut",
+        "Rank": 476,
+        "Type": "eius",
+        "ColorBlock": 332,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2018-04-07T11:22:46.0847653+02:00",
+        "LastChanged": "2020-03-23T12:15:28.3526165+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "voluptas",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Ms. Jordane Alessia Beier",
+        "FullName": "Jacklyn Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 762
+            "FieldLength": 965
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "aut",
+    "ExtraInfo": "atque",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Brody D'Amore",
+    "FullName": "Prof. Ned Anjali Koepp PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldLength": 722
       }
     }
   }

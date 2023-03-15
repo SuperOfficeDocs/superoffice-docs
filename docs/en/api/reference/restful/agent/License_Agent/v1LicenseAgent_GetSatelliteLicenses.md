@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 361
+  "SatelliteId": 941
 }
 ```
 
@@ -91,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergnaum-DuBuque",
-    "Description": "Operative clear-thinking moderator",
+    "Name": "Fay, Goodwin and Langworth",
+    "Description": "Synergized executive middleware",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 460,
-        "Tooltip": "qui",
+        "Unrestricted": true,
+        "Total": 514,
+        "Tooltip": "sunt",
         "CanAssign": false,
-        "Free": 546,
-        "InUse": 548,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 509,
-        "Name": "Krajcik-Medhurst",
-        "Description": "Ameliorated optimizing protocol",
-        "PrerequisiteModuleName": "Wilderman Group",
-        "SortOrder": 791,
-        "ExtraFlags": 404,
+        "Free": 873,
+        "InUse": 180,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 429,
+        "Name": "Dickens-Windler",
+        "Description": "Cross-group regional hub",
+        "PrerequisiteModuleName": "Murphy Group",
+        "SortOrder": 646,
+        "ExtraFlags": 296,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldLength": 181
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 596,
-        "Tooltip": "placeat",
-        "CanAssign": true,
-        "Free": 230,
-        "InUse": 911,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 408,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 396,
+        "InUse": 310,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 20,
-        "Name": "Wisozk, Steuber and DuBuque",
-        "Description": "Upgradable encompassing conglomeration",
-        "PrerequisiteModuleName": "Brekke, Douglas and Okuneva",
-        "SortOrder": 777,
-        "ExtraFlags": 658,
+        "ModuleLicenseId": 831,
+        "Name": "Rohan, Donnelly and Jaskolski",
+        "Description": "Proactive bottom-line hub",
+        "PrerequisiteModuleName": "Bosco-O'Reilly",
+        "SortOrder": 600,
+        "ExtraFlags": 468,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 272
           }
         }
       }
@@ -150,61 +150,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 506
       }
     }
   },
   {
-    "Name": "Bergnaum-DuBuque",
-    "Description": "Operative clear-thinking moderator",
+    "Name": "Fay, Goodwin and Langworth",
+    "Description": "Synergized executive middleware",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 460,
-        "Tooltip": "qui",
+        "Unrestricted": true,
+        "Total": 514,
+        "Tooltip": "sunt",
         "CanAssign": false,
-        "Free": 546,
-        "InUse": 548,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 509,
-        "Name": "Krajcik-Medhurst",
-        "Description": "Ameliorated optimizing protocol",
-        "PrerequisiteModuleName": "Wilderman Group",
-        "SortOrder": 791,
-        "ExtraFlags": 404,
+        "Free": 873,
+        "InUse": 180,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 429,
+        "Name": "Dickens-Windler",
+        "Description": "Cross-group regional hub",
+        "PrerequisiteModuleName": "Murphy Group",
+        "SortOrder": 646,
+        "ExtraFlags": 296,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 536
+            "FieldLength": 181
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 596,
-        "Tooltip": "placeat",
-        "CanAssign": true,
-        "Free": 230,
-        "InUse": 911,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 408,
+        "Tooltip": "voluptas",
+        "CanAssign": false,
+        "Free": 396,
+        "InUse": 310,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 20,
-        "Name": "Wisozk, Steuber and DuBuque",
-        "Description": "Upgradable encompassing conglomeration",
-        "PrerequisiteModuleName": "Brekke, Douglas and Okuneva",
-        "SortOrder": 777,
-        "ExtraFlags": 658,
+        "ModuleLicenseId": 831,
+        "Name": "Rohan, Donnelly and Jaskolski",
+        "Description": "Proactive bottom-line hub",
+        "PrerequisiteModuleName": "Bosco-O'Reilly",
+        "SortOrder": 600,
+        "ExtraFlags": 468,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldLength": 272
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldLength": 506
       }
     }
   }

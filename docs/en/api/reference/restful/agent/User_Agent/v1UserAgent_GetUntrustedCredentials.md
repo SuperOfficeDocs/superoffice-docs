@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "voluptatem"
+  "Type": "inventore"
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2011-01-28T11:22:39.6487731+01:00",
-    "ValidTo": "2018-12-31T11:22:39.6487731+01:00",
-    "Comment": "iste",
-    "SecretValue": "odit",
-    "PublicValue": "qui",
+    "ValidFrom": "2000-04-19T12:15:20.6007357+02:00",
+    "ValidTo": "2013-12-30T12:15:20.6007357+01:00",
+    "Comment": "aliquam",
+    "SecretValue": "autem",
+    "PublicValue": "dolorem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   }

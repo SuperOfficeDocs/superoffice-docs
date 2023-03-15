@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=527
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=308
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 684,
-  "Name": "Klocko-Nienow",
-  "Tooltip": "nihil",
-  "Rank": 794,
+  "SaleTypeId": 301,
+  "Name": "VonRueden, Jerde and Ebert",
+  "Tooltip": "nulla",
+  "Rank": 949,
   "DurationUnit": "Century",
-  "SaleDuration": 937,
-  "SaleTypeCatId": 525,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 235,
+  "SaleTypeCatId": 777,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 126,
-  "QuoteLinesTemplate": 724,
-  "ConfirmationLinesTemplate": 69,
+  "DefaultQuoteValidity": 263,
+  "QuoteLinesTemplate": 347,
+  "ConfirmationLinesTemplate": 1002,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 222,
-  "MinEarningPercent": 374,
-  "GroupQuoteLinesBy": 41,
-  "SortGroupLinesBy": 557,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 572,
+  "MinEarningPercent": 912,
+  "GroupQuoteLinesBy": 53,
+  "SortGroupLinesBy": 319,
   "Stages": [
     {
-      "Id": 255,
-      "Name": "Corwin, Greenholt and Sawayn",
-      "ToolTip": "Adipisci ea autem est eius nobis.",
+      "Id": 997,
+      "Name": "Green, Gerhold and Simonis",
+      "ToolTip": "Deleniti cumque ab at non praesentium aspernatur.",
       "Deleted": false,
-      "Rank": 251,
-      "Type": "quas",
-      "ColorBlock": 277,
-      "IconHint": "magni",
+      "Rank": 238,
+      "Type": "modi",
+      "ColorBlock": 427,
+      "IconHint": "corrupti",
       "Selected": false,
-      "LastChanged": "2009-10-20T11:22:38.445931+02:00",
+      "LastChanged": "1999-02-04T12:15:19.2317478+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "excepturi",
-      "Hidden": true,
-      "FullName": "Dr. Meagan Jast",
+      "ExtraInfo": "delectus",
+      "StyleHint": "numquam",
+      "Hidden": false,
+      "FullName": "Mrs. Kayden Roy Stroman DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 941
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldType": "System.String",
+      "FieldLength": 13
     }
   }
 }

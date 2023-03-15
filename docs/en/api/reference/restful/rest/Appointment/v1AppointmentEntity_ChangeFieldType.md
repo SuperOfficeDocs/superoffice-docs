@@ -29,7 +29,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -103,7 +103,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 455,
-  "ColumnId": 406,
-  "FieldDefault": "doloribus",
-  "FieldHeight": 974,
-  "FieldLabel": "omnis",
-  "FieldLeft": 447,
-  "FieldTop": 768,
+  "UDefFieldId": 920,
+  "ColumnId": 185,
+  "FieldDefault": "natus",
+  "FieldHeight": 225,
+  "FieldLabel": "natus",
+  "FieldLeft": 888,
+  "FieldTop": 712,
   "FieldType": "Checkbox",
-  "FieldWidth": 169,
-  "FormatMask": "sit",
-  "HideLabel": true,
+  "FieldWidth": 91,
+  "FormatMask": "repellendus",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 938,
-  "LabelLeft": 169,
-  "LabelTop": 372,
-  "LabelWidth": 444,
-  "LastVersionId": 324,
-  "ListTableId": 460,
+  "LabelHeight": 195,
+  "LabelLeft": 938,
+  "LabelTop": 235,
+  "LabelWidth": 745,
+  "LastVersionId": 493,
+  "ListTableId": 453,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 923,
-  "ProgId": "nam",
-  "IsReadOnly": true,
-  "ShortLabel": "tenetur",
-  "TabOrder": 236,
-  "TextLength": 343,
-  "Tooltip": "officia",
-  "UdefIdentity": 390,
-  "UDListDefinitionId": 641,
+  "Page1LineNo": 967,
+  "ProgId": "reprehenderit",
+  "IsReadOnly": false,
+  "ShortLabel": "natus",
+  "TabOrder": 554,
+  "TextLength": 200,
+  "Tooltip": "provident",
+  "UdefIdentity": 662,
+  "UDListDefinitionId": 221,
   "Justification": "Center",
-  "Version": 80,
-  "TemplateVariableName": "Barton, McDermott and Cole",
-  "HasBeenPublished": true,
-  "MdoListName": "Schowalter, Rodriguez and Thiel",
+  "Version": 462,
+  "TemplateVariableName": "Ziemann Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Larkin, Price and Lynch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "aut",
+  "SaleText": "dolores",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -119,90 +119,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-12-03T11:22:45.1787253+01:00",
-  "Amount": 3159.072,
-  "SaleId": 746,
-  "Earning": 2444.52,
-  "EarningPercent": 2153.058,
-  "Heading": "similique",
-  "Number": "761457",
-  "Probability": 633,
-  "CreatedDate": "2007-01-03T11:22:45.1787253+01:00",
-  "UpdatedDate": "2012-09-30T11:22:45.1787253+02:00",
+  "Saledate": "2022-07-03T12:15:27.3396005+02:00",
+  "Amount": 4951.72,
+  "SaleId": 950,
+  "Earning": 24896.496,
+  "EarningPercent": 30625.448,
+  "Heading": "totam",
+  "Number": "979148",
+  "Probability": 222,
+  "CreatedDate": "2013-01-17T12:15:27.3396005+01:00",
+  "UpdatedDate": "1999-09-01T12:15:27.3396005+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 537,
+  "ActiveLinks": 183,
   "Links": [
     {
-      "EntityName": "Bernier-Fritsch",
-      "Id": 615,
-      "Description": "Multi-lateral coherent knowledge user",
-      "ExtraInfo": "nihil",
-      "LinkId": 507
+      "EntityName": "White, Boyle and Howell",
+      "Id": 30,
+      "Description": "Vision-oriented explicit projection",
+      "ExtraInfo": "totam",
+      "LinkId": 451
     },
     {
-      "EntityName": "Bernier-Fritsch",
-      "Id": 615,
-      "Description": "Multi-lateral coherent knowledge user",
-      "ExtraInfo": "nihil",
-      "LinkId": 507
+      "EntityName": "White, Boyle and Howell",
+      "Id": 30,
+      "Description": "Vision-oriented explicit projection",
+      "ExtraInfo": "totam",
+      "LinkId": 451
     }
   ],
-  "NextDueDate": "2022-02-08T11:22:45.1787253+01:00",
-  "Postit": "voluptatem",
+  "NextDueDate": "2012-08-06T12:15:27.3396005+02:00",
+  "Postit": "itaque",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-10-24T11:22:45.1787253+02:00",
+  "ReopenDate": "2022-07-08T12:15:27.3396005+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hand Inc and Sons",
-      "Comment": "sed",
-      "StakeholderRoleId": 513,
-      "CountryId": 354,
-      "PersonId": 723,
-      "EmailDescription": "andres.gulgowski@hackett.com",
-      "EmailId": 831,
-      "EmailAddress": "micheal.cartwright@rolfson.info",
-      "PhoneId": 844,
-      "ContactName": "Turner Inc and Sons",
-      "ContactId": 1002,
-      "SaleId": 143,
-      "Mrmrs": "eveniet",
-      "Firstname": "Neal",
-      "MiddleName": "Blanda-Stehr",
-      "Lastname": "Lowe",
-      "SaleStakeholderId": 542,
-      "Rank": 932,
-      "Phone": "266-667-0681 x08246"
+      "StakeholderRoleName": "O'Kon LLC",
+      "Comment": "aut",
+      "StakeholderRoleId": 451,
+      "CountryId": 400,
+      "PersonId": 741,
+      "EmailDescription": "tavares@hegmann.uk",
+      "EmailId": 689,
+      "EmailAddress": "gene_strosin@bergstrom.co.uk",
+      "PhoneId": 746,
+      "ContactName": "Greenholt, Mills and Pfannerstill",
+      "ContactId": 256,
+      "SaleId": 796,
+      "Mrmrs": "voluptate",
+      "Firstname": "Marge",
+      "MiddleName": "Runolfsdottir Inc and Sons",
+      "Lastname": "Windler",
+      "SaleStakeholderId": 942,
+      "Rank": 956,
+      "Phone": "360.812.9938"
     }
   ],
-  "ActiveErpLinks": 899,
+  "ActiveErpLinks": 332,
   "UserDefinedFields": {
-    "SuperOffice:1": "1264345208",
+    "SuperOffice:1": "1035856946",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "modi"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "quis"
   },
-  "PublishEventDate": "2007-06-13T11:22:45.1787253+02:00",
-  "PublishTo": "2013-03-29T11:22:45.1787253+01:00",
-  "PublishFrom": "2000-04-19T11:22:45.1787253+02:00",
+  "PublishEventDate": "2014-07-25T12:15:27.3406322+02:00",
+  "PublishTo": "2017-03-02T12:15:27.3406322+01:00",
+  "PublishFrom": "2010-10-17T12:15:27.3406322+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 967,
+      "VisibleId": 41,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "ipsam"
     },
     {
-      "VisibleId": 967,
+      "VisibleId": 41,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "ipsam"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quo",
-  "2": "cupiditate"
+  "1": "sed",
+  "2": "dolorem"
 }
 ```

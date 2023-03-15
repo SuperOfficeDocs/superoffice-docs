@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 919,
-    "Name": "Zulauf Inc and Sons",
-    "OrgNr": "1397781",
+    "ContactId": 775,
+    "Name": "Robel-Graham",
+    "OrgNr": "1933260",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "aut",
-    "DirectPhone": "(391)615-1161 x56005",
-    "AssociateId": 530,
-    "CountryId": 386,
-    "EmailAddress": "martina@wiegandbode.com",
-    "Kananame": "voluptas",
-    "EmailAddressName": "lon_mcclure@green.name",
+    "City": "sunt",
+    "DirectPhone": "(545)818-3569 x74809",
+    "AssociateId": 633,
+    "CountryId": 22,
+    "EmailAddress": "tamara_franecki@kozeyernser.uk",
+    "Kananame": "voluptatibus",
+    "EmailAddressName": "giovanny@kuhic.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Mazie Marquardt IV",
+    "AssociateFullName": "Keeley Mills",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolorem",
-    "FullName": "Mackenzie Heathcote",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 651,
-    "Number1": "1094240",
-    "Number2": "1540097",
+    "FormattedAddress": "id",
+    "FullName": "Mohammad Metz",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 569,
+    "Number1": "645952",
+    "Number2": "840540",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 321
+        "FieldType": "System.Int32",
+        "FieldLength": 767
       }
     }
   }

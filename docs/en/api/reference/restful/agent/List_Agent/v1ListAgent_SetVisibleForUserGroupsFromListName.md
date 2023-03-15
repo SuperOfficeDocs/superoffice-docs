@@ -92,28 +92,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lockman-Green",
-  "ListItemId": 830,
+  "UdListDefinitionName": "Simonis, Walter and Prohaska",
+  "ListItemId": 955,
   "UserGroups": [
     {
-      "Id": 498,
-      "Name": "Haley, Mitchell and Volkman",
-      "ToolTip": "Aperiam voluptatibus laudantium sed sit.",
+      "Id": 691,
+      "Name": "Carter-McCullough",
+      "ToolTip": "Quis omnis non ea.",
       "Deleted": true,
-      "Rank": 945,
-      "Type": "aperiam",
-      "ColorBlock": 352,
-      "IconHint": "sit",
+      "Rank": 867,
+      "Type": "nisi",
+      "ColorBlock": 760,
+      "IconHint": "facere",
       "Selected": false,
-      "LastChanged": "2007-02-15T11:22:38.4615502+01:00",
+      "LastChanged": "2001-02-22T12:15:19.2507472+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "occaecati",
+      "ExtraInfo": "atque",
+      "StyleHint": "modi",
       "Hidden": false,
-      "FullName": "Ezekiel Emard"
+      "FullName": "Jane Conn"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Kovacek-Stark",
-    "ToolTip": "Aspernatur maxime recusandae deserunt animi.",
+    "Id": 768,
+    "Name": "Lakin, Collier and Bergnaum",
+    "ToolTip": "Architecto non deserunt est voluptatem eligendi est officia.",
     "Deleted": false,
-    "Rank": 811,
-    "Type": "quia",
-    "ColorBlock": 860,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-10-19T11:22:38.4615502+02:00",
+    "Rank": 555,
+    "Type": "vero",
+    "ColorBlock": 482,
+    "IconHint": "tempore",
+    "Selected": false,
+    "LastChanged": "2008-09-20T12:15:19.252755+02:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Hand, Zieme and Fisher",
-        "ToolTip": "Sit velit et velit.",
-        "Deleted": false,
-        "Rank": 28,
-        "Type": "et",
-        "ColorBlock": 372,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "1999-08-04T11:22:38.4615502+02:00",
+        "Id": 51,
+        "Name": "Spencer, Stokes and Considine",
+        "ToolTip": "Molestias sit ullam.",
+        "Deleted": true,
+        "Rank": 524,
+        "Type": "dicta",
+        "ColorBlock": 678,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2007-10-25T12:15:19.252755+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "quis",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Mrs. Ray Trever Jenkins II",
+        "FullName": "Miss Olen Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 817
+            "FieldType": "System.String",
+            "FieldLength": 154
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "vel",
+    "ExtraInfo": "vitae",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Yoshiko Greenholt",
+    "FullName": "Xzavier Bradly Lehner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 834
+        "FieldLength": 371
       }
     }
   }

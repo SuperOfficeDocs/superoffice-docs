@@ -102,31 +102,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 518,
-  "PlainMessage": "et",
-  "HtmlMessage": "qui",
-  "SmsMessage": "consequatur",
-  "Description": "Reduced local archive",
-  "Subject": "vel",
-  "FolderId": 33,
-  "HeaderField": "beatae",
-  "Design": "molestias",
+  "ShipmentMessageId": 192,
+  "PlainMessage": "enim",
+  "HtmlMessage": "tempora",
+  "SmsMessage": "tempore",
+  "Description": "Inverse composite service-desk",
+  "Subject": "id",
+  "FolderId": 68,
+  "HeaderField": "et",
+  "Design": "aperiam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Reactive uniform focus group",
-  "AccessKey": "totam",
-  "DocumentMessage": 356,
-  "Registered": "2013-08-03T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 511,
-  "Updated": "2008-01-17T11:22:38.5552678+01:00",
-  "UpdatedAssociateId": 500,
-  "UpdatedCount": 138
+  "LongDescription": "Multi-layered multi-tasking software",
+  "AccessKey": "a",
+  "DocumentMessage": 861,
+  "Registered": "2000-09-06T12:15:19.3687519+02:00",
+  "RegisteredAssociateId": 630,
+  "Updated": "2000-01-17T12:15:19.3687519+01:00",
+  "UpdatedAssociateId": 757,
+  "UpdatedCount": 603
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 280,
-  "PlainMessage": "accusantium",
-  "HtmlMessage": "illum",
-  "SmsMessage": "aliquid",
-  "Description": "Robust discrete algorithm",
-  "Subject": "ut",
-  "FolderId": 342,
-  "HeaderField": "nemo",
-  "Design": "maxime",
+  "ShipmentMessageId": 438,
+  "PlainMessage": "sint",
+  "HtmlMessage": "aliquid",
+  "SmsMessage": "repellat",
+  "Description": "Open-source multi-tasking instruction set",
+  "Subject": "sed",
+  "FolderId": 471,
+  "HeaderField": "mollitia",
+  "Design": "fugiat",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Synchronised discrete migration",
-  "AccessKey": "vitae",
-  "DocumentMessage": 752,
-  "Registered": "2021-10-28T11:22:38.5552678+02:00",
-  "RegisteredAssociateId": 30,
-  "Updated": "2007-12-24T11:22:38.5552678+01:00",
-  "UpdatedAssociateId": 977,
-  "UpdatedCount": 814,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Virtual web-enabled customer loyalty",
+  "AccessKey": "accusamus",
+  "DocumentMessage": 109,
+  "Registered": "1998-12-04T12:15:19.3687519+01:00",
+  "RegisteredAssociateId": 898,
+  "Updated": "2021-06-23T12:15:19.3687519+02:00",
+  "UpdatedAssociateId": 429,
+  "UpdatedCount": 553,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldType": "System.Int32",
+      "FieldLength": 818
     }
   }
 }

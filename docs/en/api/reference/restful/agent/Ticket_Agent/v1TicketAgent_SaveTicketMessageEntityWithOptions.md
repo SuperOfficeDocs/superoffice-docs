@@ -71,7 +71,7 @@ OK
 | Author | string | A string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. |
 | Slevel | string | The securitylevel of the message. |
 | Type | string | The type of the message (plaintext/html). |
-| MessageId | string | The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
+| MessageId | string | The Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. |
 | TimeSpent | int32 | The time spent (minutes) for this message. |
 | Body | string | The textbody for the message. |
 | HtmlBody | string | The html body for the message (if any). |
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    850,
-    185
+    624,
+    796
   ]
 }
 ```
@@ -118,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 270,
+  "EjMessageId": 571,
   "Ticket": null,
-  "CreatedAt": "2022-06-27T11:22:39.5550468+02:00",
+  "CreatedAt": "2007-12-16T12:15:20.4807399+01:00",
   "CreatedBy": null,
-  "Author": "suscipit",
+  "Author": "natus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "omnis",
-  "TimeSpent": 142,
-  "Body": "dignissimos",
-  "HtmlBody": "laborum",
-  "EmailHeader": "orpha@harvey.com",
-  "DebugInfo": "consequatur",
-  "MailSorter": "odio",
+  "MessageId": "adipisci",
+  "TimeSpent": 62,
+  "Body": "sit",
+  "HtmlBody": "sit",
+  "EmailHeader": "reynold.veum@schadenjacobi.com",
+  "DebugInfo": "nihil",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "explicabo",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 444,
-      "Name": "Rempel Inc and Sons",
-      "Value": "quia",
+      "Id": 577,
+      "Name": "Huel-Metz",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -147,47 +147,47 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 963
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "amet",
-  "Sentiment": 85,
-  "SentimentConfidence": 444,
+  "Important": false,
+  "Language": "sapiente",
+  "Sentiment": 917,
+  "SentimentConfidence": 163,
   "AttachmentsInfo": [
     {
-      "AttachmentId": 557,
-      "Name": "Jacobs, Schaden and Conroy",
-      "ContentType": "repudiandae",
-      "AttSize": 900,
+      "AttachmentId": 950,
+      "Name": "Pollich-Runolfsdottir",
+      "ContentType": "animi",
+      "AttSize": 365,
       "InlineImage": true,
-      "ContentId": "quis",
+      "ContentId": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 14
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eveniet",
-    "ExtraFields2": "id"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
     "CustomFields1": "est",
-    "CustomFields2": "doloribus"
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

@@ -80,20 +80,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 534,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 226,
-  "Name": "Jacobi-Corwin",
-  "Description": "Secured mobile website",
-  "Currency": "ex",
-  "CurrencyName": "Quitzon Group",
-  "ValidFrom": "2005-04-16T11:22:38.8989499+02:00",
-  "ValidTo": "2003-11-12T11:22:38.8989499+01:00",
-  "IsActive": true
+  "PriceListId": 39,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 74,
+  "Name": "Huel-Harber",
+  "Description": "Customizable 5th generation intranet",
+  "Currency": "odio",
+  "CurrencyName": "Emmerich LLC",
+  "ValidFrom": "2011-12-18T12:15:19.9087379+01:00",
+  "ValidTo": "2022-11-04T12:15:19.9087379+01:00",
+  "IsActive": false
 }
 ```
 
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 584,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 415,
-  "Name": "Predovic Inc and Sons",
-  "Description": "Digitized system-worthy orchestration",
-  "Currency": "autem",
-  "CurrencyName": "Hoeger-Little",
-  "ValidFrom": "2018-08-20T11:22:38.8989499+02:00",
-  "ValidTo": "2018-11-08T11:22:38.8989499+01:00",
-  "IsActive": false,
+  "PriceListId": 440,
+  "ERPPriceListKey": "magnam",
+  "QuoteConnectionId": 54,
+  "Name": "Feil Inc and Sons",
+  "Description": "Distributed actuating methodology",
+  "Currency": "aut",
+  "CurrencyName": "O'Keefe, Walsh and Waelchi",
+  "ValidFrom": "2009-08-23T12:15:19.9097451+02:00",
+  "ValidTo": "2008-01-16T12:15:19.9097451+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 569
     }
   }
 }

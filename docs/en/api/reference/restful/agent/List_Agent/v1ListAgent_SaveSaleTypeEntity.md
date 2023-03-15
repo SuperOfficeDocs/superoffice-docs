@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 760,
-  "Name": "Kling-Balistreri",
-  "Tooltip": "sed",
-  "Rank": 727,
+  "SaleTypeId": 358,
+  "Name": "Ondricka, Sporer and Bahringer",
+  "Tooltip": "praesentium",
+  "Rank": 682,
   "DurationUnit": "Century",
-  "SaleDuration": 785,
-  "SaleTypeCatId": 914,
-  "Deleted": true,
+  "SaleDuration": 437,
+  "SaleTypeCatId": 400,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 917,
-  "QuoteLinesTemplate": 179,
-  "ConfirmationLinesTemplate": 333,
-  "MaxDiscountPercentSet": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 55,
+  "QuoteLinesTemplate": 833,
+  "ConfirmationLinesTemplate": 294,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 145,
-  "MinEarningPercent": 845,
-  "GroupQuoteLinesBy": 334,
-  "SortGroupLinesBy": 862,
+  "MaxDiscountPercent": 983,
+  "MinEarningPercent": 53,
+  "GroupQuoteLinesBy": 674,
+  "SortGroupLinesBy": 992,
   "Stages": [
     {
-      "Id": 736,
-      "Name": "Cummings-Herman",
-      "ToolTip": "Libero eius.",
+      "Id": 932,
+      "Name": "Aufderhar, Hammes and McDermott",
+      "ToolTip": "Molestiae odio possimus animi blanditiis incidunt quia.",
       "Deleted": false,
-      "Rank": 925,
-      "Type": "porro",
-      "ColorBlock": 865,
-      "IconHint": "esse",
+      "Rank": 730,
+      "Type": "dolor",
+      "ColorBlock": 583,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "2011-11-19T11:22:38.5396587+01:00",
+      "LastChanged": "1997-06-06T12:15:19.3387502+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nihil",
-      "StyleHint": "rerum",
+      "ExtraInfo": "tenetur",
+      "StyleHint": "natus",
       "Hidden": false,
-      "FullName": "Jamarcus Cummings"
+      "FullName": "Ms. Lavinia Bergnaum DDS"
     }
   ]
 }
@@ -161,53 +161,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 205,
-  "Name": "Bosco, Wisozk and Kub",
-  "Tooltip": "sapiente",
-  "Rank": 799,
+  "SaleTypeId": 11,
+  "Name": "Weimann Inc and Sons",
+  "Tooltip": "cum",
+  "Rank": 829,
   "DurationUnit": "Century",
-  "SaleDuration": 981,
-  "SaleTypeCatId": 566,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "SaleDuration": 521,
+  "SaleTypeCatId": 847,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 91,
-  "QuoteLinesTemplate": 416,
-  "ConfirmationLinesTemplate": 879,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 61,
+  "QuoteLinesTemplate": 142,
+  "ConfirmationLinesTemplate": 887,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 874,
-  "MinEarningPercent": 466,
-  "GroupQuoteLinesBy": 785,
-  "SortGroupLinesBy": 763,
+  "MaxDiscountPercent": 483,
+  "MinEarningPercent": 254,
+  "GroupQuoteLinesBy": 565,
+  "SortGroupLinesBy": 145,
   "Stages": [
     {
-      "Id": 554,
-      "Name": "Pfannerstill, Waters and Schoen",
-      "ToolTip": "Asperiores quasi qui molestiae.",
+      "Id": 369,
+      "Name": "Mohr-Hammes",
+      "ToolTip": "Dolore nemo aut magni similique voluptas maxime.",
       "Deleted": false,
-      "Rank": 567,
-      "Type": "omnis",
-      "ColorBlock": 255,
+      "Rank": 885,
+      "Type": "qui",
+      "ColorBlock": 118,
       "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2005-03-30T11:22:38.5396587+02:00",
+      "LastChanged": "2015-10-20T12:15:19.3397458+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "est",
+      "ExtraInfo": "tempore",
+      "StyleHint": "cupiditate",
       "Hidden": false,
-      "FullName": "Krystal Hegmann",
+      "FullName": "Mariah Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldType": "System.String",
+          "FieldLength": 204
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 263
     }
   }
 }

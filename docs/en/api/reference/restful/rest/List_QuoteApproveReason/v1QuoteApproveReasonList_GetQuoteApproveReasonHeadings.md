@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Gulgowski, Murray and Orn",
-    "Tooltip": "eius",
+    "HeadingId": 618,
+    "Name": "Kozey LLC",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 303,
-    "UdListDefinitionId": 227,
+    "Rank": 643,
+    "UdListDefinitionId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 387
+        "FieldType": "System.Int32",
+        "FieldLength": 597
       }
     }
   }

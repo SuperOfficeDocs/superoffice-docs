@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Thompson Group",
-    "ToolTip": "Et inventore consequatur sunt rerum voluptatem similique nostrum.",
-    "Deleted": true,
-    "Rank": 237,
-    "Type": "ipsum",
-    "ColorBlock": 175,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "2010-05-17T11:22:45.7722854+02:00",
+    "Id": 695,
+    "Name": "Jacobi-Smitham",
+    "ToolTip": "Et eaque.",
+    "Deleted": false,
+    "Rank": 236,
+    "Type": "non",
+    "ColorBlock": 790,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2015-07-03T12:15:27.8786252+02:00",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Harris Group",
-        "ToolTip": "Et expedita asperiores harum.",
+        "Id": 7,
+        "Name": "O'Conner LLC",
+        "ToolTip": "Architecto cum qui cum vel laborum at consequatur.",
         "Deleted": false,
-        "Rank": 533,
-        "Type": "in",
-        "ColorBlock": 77,
-        "IconHint": "cupiditate",
+        "Rank": 854,
+        "Type": "non",
+        "ColorBlock": 451,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2018-07-30T11:22:45.7722854+02:00",
+        "LastChanged": "2011-12-01T12:15:27.8786252+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Miss Dessie Howell"
+        "ExtraInfo": "quo",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Dr. Kitty Davis"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Dan Osinski I"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Mrs. Lucie Stehr"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Lynch LLC",
-    "ToolTip": "Tenetur hic vitae quis.",
-    "Deleted": true,
-    "Rank": 313,
-    "Type": "corrupti",
-    "ColorBlock": 441,
-    "IconHint": "et",
+    "Id": 666,
+    "Name": "Muller Group",
+    "ToolTip": "Aspernatur debitis sunt fugit quo.",
+    "Deleted": false,
+    "Rank": 791,
+    "Type": "quo",
+    "ColorBlock": 641,
+    "IconHint": "temporibus",
     "Selected": true,
-    "LastChanged": "2011-01-24T11:22:45.7722854+01:00",
+    "LastChanged": "2014-06-26T12:15:27.880623+02:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Ullrich-Stamm",
-        "ToolTip": "Recusandae et aut ut sed qui recusandae.",
+        "Id": 690,
+        "Name": "Weissnat, Turner and Kuvalis",
+        "ToolTip": "Quisquam dolorem nobis.",
         "Deleted": false,
-        "Rank": 256,
-        "Type": "sit",
-        "ColorBlock": 534,
-        "IconHint": "architecto",
+        "Rank": 868,
+        "Type": "cum",
+        "ColorBlock": 622,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2019-04-23T11:22:45.7722854+02:00",
+        "LastChanged": "2015-12-25T12:15:27.880623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Shemar Murazik",
+        "ExtraInfo": "sit",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Ayla Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 859
+            "FieldLength": 385
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Astrid O'Keefe",
+    "ExtraInfo": "tempora",
+    "StyleHint": "iste",
+    "Hidden": true,
+    "FullName": "Savannah Zackery Wiza MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 25
       }
     }
   }

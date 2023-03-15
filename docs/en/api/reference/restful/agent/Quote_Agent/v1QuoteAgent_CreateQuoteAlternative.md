@@ -96,13 +96,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 566,
-  "QuoteAlternativeName": "Zulauf-Powlowski",
-  "QuoteAlternativeDescription": "Virtual needs-based intranet"
+  "QuoteVersionId": 13,
+  "QuoteAlternativeName": "Mante-Barton",
+  "QuoteAlternativeDescription": "Decentralized attitude-oriented structure"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 767,
-  "ERPQuoteAlternativeKey": "non",
-  "QuoteVersionId": 655,
-  "Name": "Hane, Schmidt and Schultz",
-  "Description": "Advanced secondary help-desk",
+  "QuoteAlternativeId": 754,
+  "ERPQuoteAlternativeKey": "odit",
+  "QuoteVersionId": 871,
+  "Name": "Leffler-Bahringer",
+  "Description": "Integrated bottom-line hierarchy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17409.37,
-  "ERPDiscountAmount": 30415.469999999998,
-  "DiscountPercent": 10245.046,
-  "DiscountAmount": 24225.82,
+  "ERPDiscountPercent": 19223.956,
+  "ERPDiscountAmount": 13419.788,
+  "DiscountPercent": 25933.85,
+  "DiscountAmount": 22881.334,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "nulla",
-  "VAT": 13802.136,
-  "EarningPercent": 19581.232,
-  "EarningAmount": 9038.456,
-  "SubTotal": 26432.156,
-  "TotalPrice": 13131.46,
-  "ExtraField1": "qui",
-  "ExtraField2": "autem",
-  "ExtraField3": "doloribus",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "deserunt",
+  "VATInfo": "quod",
+  "VAT": 14999.323999999999,
+  "EarningPercent": 13961.97,
+  "EarningAmount": 20690.667999999998,
+  "SubTotal": 30252.502,
+  "TotalPrice": 7562.342,
+  "ExtraField1": "sint",
+  "ExtraField2": "magnam",
+  "ExtraField3": "numquam",
+  "ExtraField4": "eligendi",
+  "ExtraField5": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 900
     }
   }
 }

@@ -81,30 +81,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 718,
-  "Year": 216,
+  "TargetGroupId": 228,
+  "Year": 896,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 377,
+      "TargetAssignmentInfoId": 103,
       "Values": [
-        535,
-        865
+        794,
+        466
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 234,
-      "DimensionListItemDisplayName": "Schinner Group",
+      "DimensionListItem": 717,
+      "DimensionListItemDisplayName": "Beier-Feeney",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 374
         }
       }
     }
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldType": "System.String",
+      "FieldLength": 113
     }
   }
 }

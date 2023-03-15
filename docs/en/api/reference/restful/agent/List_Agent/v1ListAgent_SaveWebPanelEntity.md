@@ -106,26 +106,26 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 194,
-  "Name": "Ratke-Leannon",
-  "Tooltip": "impedit",
+  "WebPanelId": 735,
+  "Name": "Stehr-Mante",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 595,
+  "Rank": 289,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Wilderman, Dickinson and Crist",
+  "ShowInStatusBar": true,
+  "WindowName": "Christiansen LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "consequatur",
-  "Icon": 290,
+  "ProgId": "facere",
+  "Icon": 960,
   "AlwaysReloadOnShow": false
 }
 ```
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 293,
-  "Name": "Hessel Group",
-  "Tooltip": "eos",
+  "WebPanelId": 476,
+  "Name": "Bauch, Berge and Bahringer",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 373,
+  "Rank": 547,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Lynch-Harber",
+  "ShowInStatusBar": true,
+  "WindowName": "Pacocha Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 432,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "voluptatem",
+  "Icon": 904,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 570
     }
   }
 }

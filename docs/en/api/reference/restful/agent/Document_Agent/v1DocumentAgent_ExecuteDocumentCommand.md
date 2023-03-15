@@ -83,16 +83,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 774,
-  "VersionId": "vero",
+  "DocumentId": 971,
+  "VersionId": "incidunt",
   "AllowedReturnTypes": [
-    "earum",
-    "nulla"
+    "animi",
+    "eveniet"
   ],
-  "Command": "magni",
+  "Command": "sequi",
   "AdditionalData": [
-    "cupiditate",
-    "ut"
+    "natus",
+    "qui"
   ]
 }
 ```
@@ -104,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quasi",
-  "VersionId": "quasi",
-  "Success": false,
+  "ExternalReference": "saepe",
+  "VersionId": "fugit",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "quas",
-  "AdditionalInfo": "reiciendis"
+  "Value": "odit",
+  "AdditionalInfo": "voluptas"
 }
 ```

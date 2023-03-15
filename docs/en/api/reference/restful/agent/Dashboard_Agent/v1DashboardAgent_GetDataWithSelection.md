@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 214,
-  "SelectionId": 45,
-  "Restrictions": "incidunt"
+  "DashboardTileId": 709,
+  "SelectionId": 847,
+  "Restrictions": "ea"
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Fritsch, Yost and Grimes",
-        "DisplayTooltip": "consequatur",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Rohan, Schowalter and Hyatt",
+        "DisplayName": "Wolff LLC",
+        "DisplayTooltip": "eos",
+        "DisplayType": "voluptas",
+        "CanOrderBy": false,
+        "Name": "Franecki Inc and Sons",
         "CanRestrictBy": true,
-        "RestrictionType": "consequatur",
-        "RestrictionListName": "Koepp, Adams and Corwin",
+        "RestrictionType": "quia",
+        "RestrictionListName": "Hirthe, Sipes and Ferry",
         "IsVisible": false,
-        "ExtraInfo": "quo",
-        "Width": "recusandae",
-        "IconHint": "enim",
-        "HeadingIconHint": "quo"
+        "ExtraInfo": "amet",
+        "Width": "magnam",
+        "IconHint": "consectetur",
+        "HeadingIconHint": "nam"
       }
     ],
     "Result": null
@@ -113,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Fritsch, Yost and Grimes",
-        "DisplayTooltip": "consequatur",
-        "DisplayType": "aut",
-        "CanOrderBy": true,
-        "Name": "Rohan, Schowalter and Hyatt",
+        "DisplayName": "Wolff LLC",
+        "DisplayTooltip": "eos",
+        "DisplayType": "voluptas",
+        "CanOrderBy": false,
+        "Name": "Franecki Inc and Sons",
         "CanRestrictBy": true,
-        "RestrictionType": "consequatur",
-        "RestrictionListName": "Koepp, Adams and Corwin",
+        "RestrictionType": "quia",
+        "RestrictionListName": "Hirthe, Sipes and Ferry",
         "IsVisible": false,
-        "ExtraInfo": "quo",
-        "Width": "recusandae",
-        "IconHint": "enim",
-        "HeadingIconHint": "quo"
+        "ExtraInfo": "amet",
+        "Width": "magnam",
+        "IconHint": "consectetur",
+        "HeadingIconHint": "nam"
       }
     ],
     "Result": null

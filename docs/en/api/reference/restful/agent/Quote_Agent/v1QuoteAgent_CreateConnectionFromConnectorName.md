@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Bailey, Murazik and Spencer"
+  "ConnectorName": "Legros, McClure and Crooks"
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 414,
-  "ERPName": "Upton-Skiles",
-  "DisplayName": "Schinner, Williamson and Hane",
-  "DisplayDescription": "Triple-buffered 24 hour solution",
-  "Rank": 471,
-  "ConnectorName": "Glover Inc and Sons",
-  "ErpConnectionId": 139,
-  "ExtraData": "est",
-  "IsAvailable": true,
+  "QuoteConnectionId": 669,
+  "ERPName": "Nitzsche, Stokes and Hessel",
+  "DisplayName": "Bode Group",
+  "DisplayDescription": "Quality-focused next generation intranet",
+  "Rank": 368,
+  "ConnectorName": "Nienow, Corkery and Mosciski",
+  "ErpConnectionId": 643,
+  "ExtraData": "hic",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 933,
-      "ERPPriceListKey": "mollitia",
-      "QuoteConnectionId": 730,
-      "Name": "Sanford-Halvorson",
-      "Description": "Virtual attitude-oriented contingency",
-      "Currency": "tempore",
-      "CurrencyName": "Rolfson LLC",
-      "ValidFrom": "2014-11-26T11:22:38.9301893+01:00",
-      "ValidTo": "1995-11-10T11:22:38.9301893+01:00",
-      "IsActive": true,
+      "PriceListId": 917,
+      "ERPPriceListKey": "expedita",
+      "QuoteConnectionId": 581,
+      "Name": "Strosin Inc and Sons",
+      "Description": "Total client-driven open system",
+      "Currency": "et",
+      "CurrencyName": "Mohr, Bernhard and Pfeffer",
+      "ValidFrom": "1999-05-26T12:15:19.9417403+02:00",
+      "ValidTo": "2018-11-06T12:15:19.9417403+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 691
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    139,
-    667
+    75,
+    708
   ],
   "AssociateAccessIds": [
-    62,
-    880
+    870,
+    513
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

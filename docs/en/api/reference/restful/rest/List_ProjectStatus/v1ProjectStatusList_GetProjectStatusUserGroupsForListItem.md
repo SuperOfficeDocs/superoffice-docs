@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Dicki-Kuhn",
-    "ToolTip": "Doloribus qui voluptate commodi.",
-    "Deleted": false,
-    "Rank": 803,
-    "Type": "nostrum",
-    "ColorBlock": 291,
-    "IconHint": "temporibus",
+    "Id": 742,
+    "Name": "Bradtke-Altenwerth",
+    "ToolTip": "Autem veniam nesciunt quibusdam pariatur est non.",
+    "Deleted": true,
+    "Rank": 715,
+    "Type": "necessitatibus",
+    "ColorBlock": 524,
+    "IconHint": "quo",
     "Selected": true,
-    "LastChanged": "2016-12-30T11:22:46.0691442+01:00",
+    "LastChanged": "1997-08-09T12:15:28.3316166+02:00",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Zboncak Group",
-        "ToolTip": "Illum tempore sit.",
+        "Id": 551,
+        "Name": "Bogan-Langosh",
+        "ToolTip": "Id neque veritatis rem.",
         "Deleted": false,
-        "Rank": 523,
-        "Type": "neque",
-        "ColorBlock": 598,
-        "IconHint": "adipisci",
-        "Selected": true,
-        "LastChanged": "2001-04-16T11:22:46.0691442+02:00",
+        "Rank": 815,
+        "Type": "sint",
+        "ColorBlock": 664,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2006-05-20T12:15:28.3316166+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "pariatur",
+        "ExtraInfo": "amet",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Jessica Goldner",
+        "FullName": "Miss Kavon Bosco I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 1000
+            "FieldType": "System.Int32",
+            "FieldLength": 756
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "commodi",
+    "ExtraInfo": "nisi",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Silas Denesik",
+    "FullName": "Eudora Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 590
       }
     }
   }

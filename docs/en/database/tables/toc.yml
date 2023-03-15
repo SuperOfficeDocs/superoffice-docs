@@ -241,6 +241,8 @@ items:
   href: email-attachment.md
 - name: email_folder
   href: email-folder.md
+- name: Email_Flow
+  href: email-flow.md
 - name: email_item
   href: email-item.md
 - name: ErpConfiguration
@@ -415,6 +417,8 @@ items:
   href: mail-in-filter.md
 - name: mail_in_uidl
   href: mail-in-uidl.md
+- name: MailingDomains
+  href: mailingdomains.md
 - name: MergeMoveLog
   href: mergemovelog.md
 - name: Message
@@ -1021,8 +1025,16 @@ items:
   href: webhook-usage.md
 - name: WinPosSize
   href: winpossize.md
-- name: word_relations
-  href: word-relations.md
+- name: workflow
+  href: workflow.md
+- name: workflow_goal
+  href: workflow-goal.md
+- name: workflow_instance
+  href: workflow-instance.md
+- name: workflow_step
+  href: workflow-step.md
+- name: workflow_trigger
+  href: workflow-trigger.md
 - name: wsdl_description
   href: wsdl-description.md
 - name: ziptocity
@@ -1239,6 +1251,8 @@ items:
     href: enums/ticketcategorydelegatemethod.md
   - name: TicketCategoryFlags
     href: enums/ticketcategoryflags.md
+  - name: TicketLogAction
+    href: enums/ticketlogaction.md
   - name: TicketMessageCategory
     href: enums/ticketmessagecategory.md
   - name: TicketMessageType
@@ -1279,3 +1293,13 @@ items:
     href: enums/widgetrequiredfields.md
   - name: WidgetTheme
     href: enums/widgettheme.md
+  - name: WorkflowDefinitionStatus
+    href: enums/workflowdefinitionstatus.md
+  - name: WorkflowGoalType
+    href: enums/workflowgoaltype.md
+  - name: WorkflowInstanceStatus
+    href: enums/workflowinstancestatus.md
+  - name: WorkflowStepType
+    href: enums/workflowsteptype.md
+  - name: WorkflowTriggerType
+    href: enums/workflowtriggertype.md

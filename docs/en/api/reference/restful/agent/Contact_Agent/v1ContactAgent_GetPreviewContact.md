@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 289
+  "ContactId": 834
 }
 ```
 
@@ -96,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 533,
-  "Name": "Legros Inc and Sons",
+  "ContactId": 34,
+  "Name": "Bashirian Group",
   "Department": "",
-  "CountryId": 234,
-  "Number2": "795759",
-  "DirectPhone": "1-649-194-7990",
+  "CountryId": 950,
+  "Number2": "1651869",
+  "DirectPhone": "458.348.0205 x69642",
   "URL": "http://www.example.com/",
-  "EmailAddress": "liliana@hessel.ca",
+  "EmailAddress": "ena.oconner@konopelski.name",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Miss Leon Christiansen I",
+  "AssociateFullName": "Vance Collins",
   "Address": null
 }
 ```

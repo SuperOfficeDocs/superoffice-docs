@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Heller Inc and Sons",
-    "ToolTip": "Repellat laborum.",
+    "Id": 483,
+    "Name": "Conroy, Jones and Kihn",
+    "ToolTip": "Molestiae sed hic minima.",
     "Deleted": false,
-    "Rank": 228,
-    "Type": "aspernatur",
-    "ColorBlock": 936,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2008-02-20T11:22:45.9597902+01:00",
+    "Rank": 271,
+    "Type": "sequi",
+    "ColorBlock": 170,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "2021-12-09T12:15:28.2076188+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Jones, O'Connell and Cremin",
-        "ToolTip": "Eum voluptatem atque consequatur iste.",
-        "Deleted": false,
-        "Rank": 82,
-        "Type": "qui",
-        "ColorBlock": 35,
-        "IconHint": "reprehenderit",
+        "Id": 912,
+        "Name": "O'Hara-Brown",
+        "ToolTip": "Aut ut repellat.",
+        "Deleted": true,
+        "Rank": 126,
+        "Type": "voluptas",
+        "ColorBlock": 154,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2017-04-22T11:22:45.9597902+02:00",
+        "LastChanged": "2008-06-08T12:15:28.2076188+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Jedidiah Kuhic",
+        "ExtraInfo": "commodi",
+        "StyleHint": "ex",
+        "Hidden": false,
+        "FullName": "Dr. Demetrius Lorine Breitenberg III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 30
+            "FieldType": "System.Int32",
+            "FieldLength": 563
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "eum",
+    "ExtraInfo": "unde",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Ms. Rafaela Glenda Reilly Jr.",
+    "FullName": "Retta Lindsey Ratke Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 995
       }
     }
   }

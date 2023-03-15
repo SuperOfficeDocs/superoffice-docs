@@ -69,7 +69,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 741,
-  "Caption": "voluptatem",
-  "Description": "Face to face bottom-line moderator",
-  "ChartName": "Swaniawski, Treutel and Tremblay",
-  "ChartId": "harum",
-  "IsDefault": true,
-  "AssociateId": 494,
-  "GroupId": 245,
-  "SelectionId": 850,
-  "Config": "qui",
+  "DashboardTileId": 919,
+  "Caption": "sunt",
+  "Description": "Upgradable full-range open architecture",
+  "ChartName": "Keeling-Prosacco",
+  "ChartId": "porro",
+  "IsDefault": false,
+  "AssociateId": 563,
+  "GroupId": 950,
+  "SelectionId": 695,
+  "Config": "est",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Veum, Hegmann and Shanahan",
-      "Description": "Profound bi-directional groupware",
+      "Name": "O'Keefe Inc and Sons",
+      "Description": "Reactive asynchronous architecture",
       "Type": "Boolean",
-      "ListName": "Towne LLC",
+      "ListName": "Hagenes, Jenkins and Monahan",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "est",
+      "Value": "voluptatibus",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldLength": 444
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 188,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 808
         }
       }
     },
     {
-      "VisibleId": 188,
+      "VisibleId": 632,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 808
         }
       }
     }
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldLength": 474
     }
   }
 }

@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Senger-Von",
+  "ProviderName": "Jast, Williamson and Upton",
   "Restrictions": [
     {
-      "Name": "Lindgren Inc and Sons",
-      "Operator": "odio",
+      "Name": "Cruickshank Inc and Sons",
+      "Operator": "voluptatem",
       "Values": [
-        "libero",
+        "tempore",
         "sequi"
       ],
       "DisplayValues": [
-        "est",
-        "earum"
+        "sit",
+        "inventore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 129,
+      "InterParenthesis": 726,
       "InterOperator": "And",
-      "UniqueHash": 201
+      "UniqueHash": 426
     }
   ]
 }
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Rutherford Group",
-    "DisplayTooltip": "qui",
-    "DisplayType": "consectetur",
+    "DisplayName": "Prohaska, Fisher and Wolff",
+    "DisplayTooltip": "et",
+    "DisplayType": "doloremque",
     "CanOrderBy": false,
-    "Name": "Predovic Group",
+    "Name": "Kiehn, Kiehn and Beahan",
     "CanRestrictBy": false,
-    "RestrictionType": "quia",
-    "RestrictionListName": "Mitchell-Johnston",
-    "IsVisible": true,
-    "ExtraInfo": "earum",
-    "Width": "nesciunt",
-    "IconHint": "veritatis",
-    "HeadingIconHint": "ipsum"
+    "RestrictionType": "qui",
+    "RestrictionListName": "Leuschke-Abbott",
+    "IsVisible": false,
+    "ExtraInfo": "beatae",
+    "Width": "molestiae",
+    "IconHint": "eaque",
+    "HeadingIconHint": "facilis"
   }
 ]
 ```

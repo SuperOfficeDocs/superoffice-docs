@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 334,
-  "Name": "Kilback, Shanahan and Wisozk",
-  "Description": "Object-based heuristic parallelism",
-  "WelcomeMessage": "laudantium",
+  "ChatTopicId": 411,
+  "Name": "Hand Group",
+  "Description": "Ameliorated 3rd generation standardization",
+  "WelcomeMessage": "quidem",
   "Language": null,
-  "LastAccept": "2021-01-26T11:22:44.4132819+01:00",
-  "SecondsPrAccept": 739,
-  "AlertRecipient": "et",
+  "LastAccept": "2020-01-04T12:15:26.5146429+01:00",
+  "SecondsPrAccept": 463,
+  "AlertRecipient": "eum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "porro",
+  "BadgeHeader": "consequuntur",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "exercitationem",
-  "WarnNewChatMinutes": 913,
-  "WarnManagerNewChatMinutes": 14,
+  "CustomQueueText": "hic",
+  "WarnNewChatMinutes": 37,
+  "WarnManagerNewChatMinutes": 62,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 33,
-  "WarnManagerChatMessageMinutes": 860,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 344,
-  "OfflineFormQueueLength": 629,
+  "WarnChatMessageMinutes": 658,
+  "WarnManagerChatMessageMinutes": 704,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 715,
+  "OfflineFormQueueLength": 280,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "velit",
+  "WidgetRatingText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 408
     }
   }
 }

@@ -68,12 +68,12 @@ OK
 POST /api/v1/Agents/Selection/AddContactSelectionMembersFromSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 102,
-  "StorageKey": "provident"
+  "SelectionId": 80,
+  "StorageKey": "delectus"
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-620
+974
 ```

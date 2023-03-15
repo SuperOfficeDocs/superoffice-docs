@@ -106,51 +106,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 766,
-  "Name": "Mills-Leuschke",
-  "Tooltip": "ipsa",
-  "Rank": 892,
+  "SaleTypeId": 833,
+  "Name": "Koelpin-Moen",
+  "Tooltip": "aut",
+  "Rank": 392,
   "DurationUnit": "Century",
-  "SaleDuration": 389,
-  "SaleTypeCatId": 275,
+  "SaleDuration": 703,
+  "SaleTypeCatId": 366,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 302,
-  "QuoteLinesTemplate": 682,
-  "ConfirmationLinesTemplate": 983,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 383,
-  "MinEarningPercent": 596,
-  "GroupQuoteLinesBy": 560,
-  "SortGroupLinesBy": 334,
+  "DefaultQuoteValidity": 614,
+  "QuoteLinesTemplate": 732,
+  "ConfirmationLinesTemplate": 404,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 876,
+  "MinEarningPercent": 87,
+  "GroupQuoteLinesBy": 290,
+  "SortGroupLinesBy": 836,
   "Stages": [
     {
-      "Id": 41,
-      "Name": "Jast Inc and Sons",
-      "ToolTip": "Quo et id quia in sequi temporibus.",
+      "Id": 341,
+      "Name": "Maggio Inc and Sons",
+      "ToolTip": "Natus corrupti qui iste.",
       "Deleted": false,
-      "Rank": 940,
-      "Type": "nisi",
-      "ColorBlock": 5,
-      "IconHint": "eos",
-      "Selected": false,
-      "LastChanged": "2015-05-20T11:22:46.1628721+02:00",
+      "Rank": 396,
+      "Type": "incidunt",
+      "ColorBlock": 310,
+      "IconHint": "maxime",
+      "Selected": true,
+      "LastChanged": "2005-08-09T12:15:28.4676171+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veniam",
-      "StyleHint": "nam",
-      "Hidden": true,
-      "FullName": "Deanna Torphy PhD"
+      "ExtraInfo": "eius",
+      "StyleHint": "neque",
+      "Hidden": false,
+      "FullName": "Raymond Hettinger"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 655,
-  "Name": "Wilkinson Group",
-  "Tooltip": "sapiente",
-  "Rank": 712,
+  "SaleTypeId": 405,
+  "Name": "Maggio, Heathcote and Renner",
+  "Tooltip": "sint",
+  "Rank": 125,
   "DurationUnit": "Century",
-  "SaleDuration": 560,
-  "SaleTypeCatId": 268,
-  "Deleted": false,
+  "SaleDuration": 594,
+  "SaleTypeCatId": 862,
+  "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 895,
-  "QuoteLinesTemplate": 610,
-  "ConfirmationLinesTemplate": 524,
+  "DefaultQuoteValidity": 826,
+  "QuoteLinesTemplate": 905,
+  "ConfirmationLinesTemplate": 709,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 802,
-  "MinEarningPercent": 584,
-  "GroupQuoteLinesBy": 267,
-  "SortGroupLinesBy": 5,
+  "MaxDiscountPercent": 934,
+  "MinEarningPercent": 216,
+  "GroupQuoteLinesBy": 589,
+  "SortGroupLinesBy": 739,
   "Stages": [
     {
-      "Id": 629,
-      "Name": "Rolfson LLC",
-      "ToolTip": "Provident similique dolor totam nulla fugit qui.",
-      "Deleted": true,
-      "Rank": 915,
-      "Type": "ducimus",
-      "ColorBlock": 654,
-      "IconHint": "magnam",
-      "Selected": true,
-      "LastChanged": "2021-05-11T11:22:46.1784934+02:00",
+      "Id": 187,
+      "Name": "Walker, Lebsack and Schulist",
+      "ToolTip": "Possimus maxime.",
+      "Deleted": false,
+      "Rank": 306,
+      "Type": "corporis",
+      "ColorBlock": 587,
+      "IconHint": "est",
+      "Selected": false,
+      "LastChanged": "2007-08-05T12:15:28.4696196+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fugit",
-      "StyleHint": "delectus",
-      "Hidden": true,
-      "FullName": "Carleton Zulauf",
+      "ExtraInfo": "vitae",
+      "StyleHint": "aut",
+      "Hidden": false,
+      "FullName": "Dr. Mortimer Juvenal Hagenes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldLength": 403
     }
   }
 }

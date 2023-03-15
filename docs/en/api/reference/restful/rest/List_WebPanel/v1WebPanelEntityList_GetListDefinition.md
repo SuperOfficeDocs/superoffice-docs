@@ -74,27 +74,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Kunde-D'Amore",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 532,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 190,
+  "Name": "Schultz, Quitzon and Upton",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 328,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": true,
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 274
+      "FieldType": "System.Int32",
+      "FieldLength": 911
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

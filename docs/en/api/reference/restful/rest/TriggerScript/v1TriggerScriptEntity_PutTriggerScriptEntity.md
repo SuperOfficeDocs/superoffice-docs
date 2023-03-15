@@ -98,20 +98,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 671,
-  "Name": "Abshire LLC",
+  "ScreenChooserId": 268,
+  "Name": "Sporer-Bahringer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "consequatur",
-  "Source": "voluptatem",
-  "Registered": "1998-03-07T11:22:45.3661887+01:00",
-  "RegisteredAssociateId": 405,
-  "Updated": "2005-10-26T11:22:45.3661887+02:00",
-  "UpdatedAssociateId": 797
+  "Enabled": false,
+  "UniqueIdentifier": "ea",
+  "Source": "aut",
+  "Registered": "2005-01-07T12:15:27.589626+01:00",
+  "RegisteredAssociateId": 266,
+  "Updated": "2016-03-03T12:15:27.589626+01:00",
+  "UpdatedAssociateId": 526
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 555,
-  "Name": "Price, Mohr and Howe",
+  "ScreenChooserId": 297,
+  "Name": "Klein-Veum",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "accusantium",
-  "Source": "accusantium",
-  "Registered": "2010-01-07T11:22:45.3661887+01:00",
-  "RegisteredAssociateId": 95,
-  "Updated": "2004-01-10T11:22:45.3661887+01:00",
-  "UpdatedAssociateId": 859,
+  "Enabled": true,
+  "UniqueIdentifier": "delectus",
+  "Source": "dolorem",
+  "Registered": "2015-07-21T12:15:27.589626+02:00",
+  "RegisteredAssociateId": 18,
+  "Updated": "2010-06-21T12:15:27.589626+02:00",
+  "UpdatedAssociateId": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 929
     }
   },
   "_Links": {

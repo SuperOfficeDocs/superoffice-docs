@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 482,
-  "Filter": "hic"
+  "SelectionId": 613,
+  "Filter": "ipsa"
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Denesik, Johns and McGlynn",
-    "Operator": "non",
+    "Name": "Mayert-Runolfsdottir",
+    "Operator": "consectetur",
     "Values": [
-      "sed",
-      "accusantium"
+      "dolores",
+      "quia"
     ],
     "DisplayValues": [
-      "aut",
-      "minima"
+      "rerum",
+      "ut"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Casper-Doyle",
-        "Operator": "eligendi",
+        "Name": "Paucek-Hickle",
+        "Operator": "accusantium",
         "Values": [
-          "et",
-          "corrupti"
+          "dolore",
+          "repellat"
         ],
         "DisplayValues": [
-          "ut",
-          "ut"
+          "ad",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 320,
+        "InterParenthesis": 206,
         "InterOperator": "And",
-        "UniqueHash": 122
+        "UniqueHash": 371
       }
     ],
-    "InterParenthesis": 54,
+    "InterParenthesis": 146,
     "InterOperator": "And",
-    "UniqueHash": 384
+    "UniqueHash": 493
   }
 ]
 ```

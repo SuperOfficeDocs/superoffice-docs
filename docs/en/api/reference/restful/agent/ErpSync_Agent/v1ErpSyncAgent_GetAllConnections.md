@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -104,33 +104,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 870,
-    "ErpConnectorId": 478,
-    "DisplayName": "Brakus LLC",
-    "DisplayDescription": "Operative analyzing moderator",
+    "ErpConnectionId": 609,
+    "ErpConnectorId": 675,
+    "DisplayName": "Abernathy LLC",
+    "DisplayDescription": "Horizontal non-volatile orchestration",
     "Active": false,
-    "ConnectionId": "unde",
-    "MostRecentTimestamp": "doloribus",
+    "ConnectionId": "saepe",
+    "MostRecentTimestamp": "quod",
     "ConfigFields": {
-      "ConfigFields1": "nihil",
-      "ConfigFields2": "id"
+      "ConfigFields1": "ut",
+      "ConfigFields2": "iste"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      708,
-      175
+      751,
+      85
     ],
     "AssociateAccessIds": [
-      928,
-      730
+      194,
+      986
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 489
       }
     }
   }

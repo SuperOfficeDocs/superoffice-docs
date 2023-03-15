@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 192
+  "UserGroupId": 96
 }
 ```
 
@@ -96,24 +96,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 882,
+    "TargetAssignmentInfoId": 378,
     "Values": [
-      908,
-      394
+      937,
+      468
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 996,
-    "DimensionListItemDisplayName": "Kerluke, Simonis and Tremblay",
+    "DimensionListItem": 115,
+    "DimensionListItemDisplayName": "Weimann-Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 188
       }
     }
   }

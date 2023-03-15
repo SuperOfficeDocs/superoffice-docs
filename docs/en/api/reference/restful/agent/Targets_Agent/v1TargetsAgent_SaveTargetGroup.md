@@ -76,24 +76,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 179,
-  "Year": 717,
+  "TargetGroupId": 397,
+  "Year": 16,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 53,
+      "TargetAssignmentInfoId": 717,
       "Values": [
-        968,
-        345
+        485,
+        661
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 387,
-      "DimensionListItemDisplayName": "Roob-Simonis"
+      "DimensionListItem": 322,
+      "DimensionListItemDisplayName": "Daugherty-White"
     }
   ],
   "TargetDimension": null
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 440,
-  "Year": 713,
+  "TargetGroupId": 314,
+  "Year": 475,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 885,
+      "TargetAssignmentInfoId": 60,
       "Values": [
-        296,
-        680
+        849,
+        231
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 80,
-      "DimensionListItemDisplayName": "Swift, Schimmel and Bergstrom",
+      "DimensionListItem": 247,
+      "DimensionListItemDisplayName": "Mertz, Stiedemann and Tremblay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldLength": 675
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

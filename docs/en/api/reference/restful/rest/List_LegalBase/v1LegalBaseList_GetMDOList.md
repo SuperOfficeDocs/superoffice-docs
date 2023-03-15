@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=pariatur
+GET /api/v1/List/LegalBase/MDOItems?query=harum
 ```
 
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Stehr LLC",
-    "ToolTip": "Natus et quia hic accusamus corrupti ipsum.",
+    "Id": 869,
+    "Name": "Pacocha-Boyer",
+    "ToolTip": "Beatae provident quia corrupti.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "distinctio",
+    "Rank": 256,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Kertzmann, O'Hara and Simonis",
-        "ToolTip": "Aspernatur eum et id.",
-        "Deleted": true,
-        "Rank": 210,
-        "Type": "id",
+        "Id": 500,
+        "Name": "Satterfield, Friesen and Conn",
+        "ToolTip": "Iure nemo asperiores perferendis dolores exercitationem dolores fugit.",
+        "Deleted": false,
+        "Rank": 679,
+        "Type": "beatae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 322,
-        "ExtraInfo": "quia",
-        "StyleHint": "aut",
-        "FullName": "Karl Hodkiewicz Sr.",
+        "IconHint": "doloremque",
+        "ColorBlock": 515,
+        "ExtraInfo": "sequi",
+        "StyleHint": "laudantium",
+        "FullName": "Robb Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 15
+            "FieldType": "System.Int32",
+            "FieldLength": 629
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 467,
-    "ExtraInfo": "quidem",
-    "StyleHint": "nihil",
-    "FullName": "Tyreek Hegmann",
+    "IconHint": "consequatur",
+    "ColorBlock": 355,
+    "ExtraInfo": "ut",
+    "StyleHint": "aut",
+    "FullName": "Hermina Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }
