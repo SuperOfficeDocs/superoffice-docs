@@ -1,17 +1,16 @@
 ---
 uid: help-en-user-delete
-title: Deleting users
-description: How to delete an associate, anonymous, or system user.
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: user
+title: Delete associate
+description: How to delete an associate
+author: Bergfrid Dias
+so.date: 03.15.2023
+keywords: user, associate
 so.topic: howto
+so.user: admin
 language: en
 ---
 
-# Delete a user
-
-## Delete associate
+# Delete associate
 
 1. [!include[Click Users](includes/goto-users.md)]
 
@@ -33,13 +32,11 @@ language: en
 
 6. Click **OK**.
 
-## <a id="other" />Delete anonymous or system user
+## Related
 
-1. [!include[Click Users](includes/goto-users.md)]
-2. [!include[Select Other users](includes/select-other-users.md)]
-3. Select the user you want to delete.
-4. Click the **Delete** button. The user is removed from the list.
+* [Delete anonymous or system user (onsite)][5]
 
 <!-- Referenced links -->
+[5]: other-users.md
 
 <!-- Referenced images -->

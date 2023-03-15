@@ -194,9 +194,7 @@ items:
       topicHref: ../request/learn/invoice/index.md
 
     - name: System settings
-      items:
-      - name: Users screen
-        href: ../admin/user-management/learn/screen/users-screen-service.md  
+      items:  
       - name: System design
         items:
         - name: Web panels

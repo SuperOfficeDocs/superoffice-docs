@@ -2,12 +2,13 @@
 uid: help-en-edit-rights-for-anonymous-users
 title: Edit rights for anonymous users
 description: Edit rights for anonymous users
-author: SuperOffice RnD
-so.date: 12.30.2022
-keywords: Settings and maintenance, role, anonymous
+author: Bergfrid Dias
+so.date: 03.15.2023
+keywords: user management, role, anonymous
 so.topic: howto
 language: en
 so.envir: onsite
+so.user: admin
 ---
 
 # Edit rights for anonymous users (Onsite)

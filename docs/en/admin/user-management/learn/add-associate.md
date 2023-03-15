@@ -6,6 +6,7 @@ author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: user, associate
 so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -27,7 +28,7 @@ Follow the guided steps or watch the video below to see how you can add a new us
 
 ## Add a new SuperOffice CRM user
 
-1. Open the **Users** screen.
+1. Open the Users screen.
 2. Select the **Associates** tab.
 3. Click the **Add** button below the list.
 4. Enter the name and email address of the new user in the top-part of the card.
@@ -75,16 +76,21 @@ In the **Details** tab, you have the following options:
 
 In the **Licences** tab, you can select licenses in addition to those defined by the selected user plan.
 
-**Confidential activities**: activates the **Visible for** list for follow-ups, documents and sales, to make records visible only to the user, the user's primary group or everyone. See [Visibility][2].
+**Confidential activities**: activates the **Visible for** list for follow-ups, documents and sales, to make [records visible only to][2] the user, the user's primary group or everyone.
 
 ## Can log in
 
 In the lower part of the user card, you can activate or deactivate the login rights of the selected user by clicking the **Can log in** button. By default this option is activated when you select a user plan for the user.
+
+## Related
+
+* [Add anonymous or system user (onsite)][5]
 
 <!-- Referenced links -->
 [1]: import-users.md
 [2]: visibility.md
 [3]: role/index.md
 [4]: change-user-plan.md
+[5]: other-users.md
 
 <!-- Referenced images -->

@@ -21,10 +21,7 @@ Now that you have [configured the chat widget][1], this step will show you how t
 
 ## Steps
 
-1. Go to the **Chat** screen.
-    * In SuperOffice Settings and maintenance: Click the **Chat** button in the Navigator ![icon][img2].
-    * In Service: Select ![icon][img1] **System settings > Chat**.
-
+1. Go to **Settings and maintenance** and select ![icon][img2] **Chat** in the Navigator.
 1. Select a chat channel in the list.
 1. Click **View**. The JavaScript for the selected chat channel is displayed.
 1. Select and copy the script.
@@ -43,13 +40,13 @@ The chat widget is now available and live. Visitors to your website may start ch
 
 ## Related
 
-* Connect chat to your Customer Centre
+* [Connect chat to your Customer Centre][3]
 * [Artificial Intelligence Services][2]
 
 <!-- Referenced links -->
 [1]: channel-create.md
 [2]: ../../../ai/learn/index.md
+[3]: ../../../service/customer-center/learn/enable-chat.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
 [img2]: ../../../../../common/icons/nav-admin-chat-active.png

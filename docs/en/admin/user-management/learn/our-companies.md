@@ -1,18 +1,29 @@
 ---
-uid: help-en-our-companies-add
-title: Adding companies in the Our companies tab
-description: Adding companies in the Our companies tab
-author: SuperOffice RnD
-so.date: 06.29.2022
+uid: help-en-our-companies-manage
+title: Manage "Our companies"
+description: How to add and remove companies in the Our companies tab
+author: Bergfrid
+so.date: 03.15.2023
 keywords: user, our companies
 so.topic: howto
+so.user: admin
 language: en
 so.client: web
 ---
 
-# Add company in the Our companies tab
+# Manage "Our companies"
 
-To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice CRM. Do this in SuperOffice CRM. To add a company in the **Our companies** tab, search for it first.
+## Pre-requisites
+
+To add a company in the **Our companies** tab, it must first be registered as a company in SuperOffice.
+
+To delete companies in the **Our companies** tab, the following two criteria must be satisfied:
+
+* The company must not have any associates registered. The number of associates is displayed in the **Associates** column in the company list. To delete a company, you must first [delete the registered associates][2].
+
+* The company cannot be an active satellite. Check if the company is listed in the **Active satellite** column in the company list.
+
+## Add company in the Our companies tab
 
 1. Open the Users screen.
 
@@ -26,9 +37,24 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
 6. When you have selected the company you require and clicked **OK**, it is displayed in the list.
 
+## Delete company in the Our companies tab
+
+1. Check that the above criteria are met.
+
+1. Open the Users screen.
+
+1. Select the **Our companies** tab.
+
+1. Select the required company in the list.
+
+1. Click the **Delete** button below the company list. The company is removed from the list.
+
+> [!NOTE]
+> You cannot delete the company if it is registered as a database owner. If you select a database owner, the **Delete** button is disabled.
+
 ## How do I search for a company?
 
-1. In the list box to the right of the field you want to search on, choose if you want to search for a company that **Starts with**, **Contains** or **Equals** the search criteria you enter.
+1. In the list box to the right of the field you want to search on, choose if you want to search for a company that **Starts with**, **Contains**, or **Equals** the search criteria you enter.
 
 2. You can specify several different search criteria, for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
 
@@ -57,12 +83,8 @@ To add a company in the **Our companies** tab, it must first be registered as a 
 
     * **No hits**: A message is displayed stating that no record matches the search criteria. Click **OK**, and search again using different criteria.
 
-## What would you like to do now?
-
-* [Delete company in the Our companies tab][2]
-
 <!-- Referenced links -->
 [1]: ../../options/learn/using-search-criteria.md
-[2]: delete-our-companies.md
+[2]: delete-user.md
 
 <!-- Referenced images -->

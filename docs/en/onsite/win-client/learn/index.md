@@ -21,7 +21,7 @@ The majority of the administration features are available in [Settings and maint
 
 Windows Client settings can be opened from the **Start** menu in Windows or directly from Windows Explorer.
 
-You must belong to the **User level 0** role or another role that gives you login rights for Windows Client settings. User IDs, passwords and user levels are all defined in the **Users** screen in Settings and maintenance
+You must belong to the **User level 0** role or another role that gives you login rights for Windows Client settings. User IDs, passwords and user levels are all defined in the Users screen in Settings and maintenance
 
 The Windows Client login is required even if you are already logged in to SuperOffice CRM on the same PC.
 

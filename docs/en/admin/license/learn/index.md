@@ -66,7 +66,7 @@ Finally, there are user licenses for SuperOffice CRM for Windows, which are purc
 | Sale Quote Access | Access to the Quote module, in addition to Standard CRM. |
 
 > [!NOTE]
-> You assign user licenses (CAL / Client Access Licence) to users from the **Associates** tab in the **Users** screen.
+> You assign user licenses (CAL / Client Access Licence) to users from the **Associates** tab in the Users screen.
 
 ## Related topics
 

@@ -4,16 +4,17 @@ title: User groups
 description: User groups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: user, group
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # User group filtering
 
-SuperOffice CRM users belong to different user groups depending on what type of rights they have. This is defined in the [**Users** screen][2].
+SuperOffice CRM users belong to different user groups depending on what type of rights they have. This is defined in the [Users screen][2].
 
-When you specify an item in a list in the **Lists** screen, you can also specify which user groups the item is visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
+When you specify an item in a list in the Lists screen, you can also specify which user groups the item is visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
 
 ## Specify user groups for an item
 

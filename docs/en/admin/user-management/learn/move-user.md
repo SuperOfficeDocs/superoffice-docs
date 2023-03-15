@@ -4,8 +4,9 @@ title: Move user
 description: Move user from one company to another
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+keywords: user
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -32,6 +33,6 @@ You can move a user from one company to another, if your organization consists o
 1. Click **Move**. The user is moved to the specified company.
 
 <!-- Referenced links -->
-[2]: screen/our-companies-tab.md
+[2]: screen/index.md
 
 <!-- Referenced images -->

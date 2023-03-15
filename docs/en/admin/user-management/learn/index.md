@@ -6,6 +6,7 @@ author: SuperOffice RnD
 so.date: 02.21.2023
 keywords: user
 so.topic: concept
+so.user: admin
 language: en
 ---
 
@@ -29,12 +30,12 @@ As an administrator you're in charge of adding and managing your users. In this 
 
 **Associates** are SuperOffice users in your company (or a related company such as a subsidiary).
 
-In the **Associates** tab in the **Users** screen, you can add users of the type **Associate**, and assign them roles, groups and licenses, edit existing users and delete users.
+In the **Associates** tab in the Users screen, you can add users of the type **Associate**, and assign them roles, groups and licenses, edit existing users and delete users.
 
-For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the **Users** screen. And for a company to be displayed in the **Company** list box in the **Users** screen, the company must appear on the company list in the **Our companies** tab.
+For a person to be registered as a SuperOffice CRM user, this person must be registered with a company displayed in the **Company** list box in the Users screen. And for a company to be displayed in the **Company** list box in the Users screen, the company must appear on the company list in the **Our companies** tab.
 
 > [!NOTE]
-> In the **Users** screen you specify which licenses you want different users to have. To add new system licenses or increase/reduce the number of licenses for one or more modules, contact SuperOffice to [update the license information][6].
+> In the Users screen you specify which licenses you want different users to have. To add new system licenses or increase/reduce the number of licenses for one or more modules, contact SuperOffice to [update the license information][6].
 
 ## Related content
 
@@ -42,9 +43,7 @@ For a person to be registered as a SuperOffice CRM user, this person must be reg
 * [Manage your roles][1]
 * [Add a new user][2]
 * [Change user plans for active users][3]
-* Complete the setup of Service users
-* Set notifications
-* Install WebTools for your users
+* [Install WebTools for your users][7]
 
 <!-- Referenced links -->
 [1]: role/index.md
@@ -53,5 +52,6 @@ For a person to be registered as a SuperOffice CRM user, this person must be reg
 [4]: role/edit-rights-for-anonymous-users.md
 [5]: screen/index.md
 [6]: ../../license/learn/activate.md
+[7]: ../../../webtools/learn/install.md
 
 <!-- Referenced images -->

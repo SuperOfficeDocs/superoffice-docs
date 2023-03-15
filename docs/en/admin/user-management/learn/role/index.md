@@ -2,8 +2,8 @@
 uid: help-en-role
 title: Role
 description: Role
-author: SuperOffice RnD
-so.date: 02.21.2023
+author: Bergfrid Dias
+so.date: 03.15.2023
 keywords: role, data object, user level
 so.topic: concept
 so.topic: admin
@@ -58,15 +58,6 @@ In the Roles section, you can determine what type of access your users have to t
 ![The Roles section lets you determine what type of access your users have to the different parts of SuperOffice CRM -screenshot][img1]
 
 You can, for example, decide whether a person can delete, update, create, or read information on the Data rights tab. On the Functional rights tab you can allow different functional rights on the different roles, like Allow bulk update, or List administrator, by moving them to the right column for "This role can".
-
-## Roles in Service
-
-[!include[Restricted access](../../../../learn/includes/note-insufficient-rights.md)]
-
-Roles are used as a tool for administrating users. You can link different properties to a role, such as profiles, workflow access and functional rights. When you assign a user to a role, the user automatically acquires these properties. The **Roles** screen displays a list of all available roles.
-
-> [!NOTE]
-> If your company uses SuperOffice CRM, the roles are managed from SuperOffice Settings and maintenance.
 
 ## What would you like to do now?
 

@@ -6,6 +6,7 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: user, import, associate, Active Directory, bulk
 so.topic: howto
+so.user: admin
 language: en
 so.envir: onsite
 so.client: web
@@ -18,7 +19,7 @@ If your organization uses Active Directory or another authentication type, you c
 > [!NOTE]
 > The import function is not available if you are using SuperID authentication.
 
-1. Open the **Users** screen and select the **Associates** tab.
+1. Open the Users screen and select the **Associates** tab.
 1. Click **Import** at the bottom of the list.
 1. In the **Select authentication type** dialog, click **OK**.
 1. In the **Import users from ActiveDirectory** dialog, select the user group the users belong to in the **User group** list. Users in the group in question are displayed in the **Potential users** list.

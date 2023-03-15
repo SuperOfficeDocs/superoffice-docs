@@ -102,7 +102,7 @@ By default, the document is marked as completed (![icon][img4]), but you can rem
 Here, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
 
 > [!NOTE]
-> User group membership is defined in the **Users** screen in SuperOffice Settings and maintenance.
+> User group membership is defined in the Users screen in SuperOffice Settings and maintenance.
 
 ### Task
 

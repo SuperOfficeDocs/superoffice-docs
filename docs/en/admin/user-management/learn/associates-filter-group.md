@@ -1,11 +1,12 @@
 ---
 uid: help-en-users-associates-filter-group
-title: users associates filter group
-description: users associates filter group
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+title: Filter and group users
+description: Filter and group users
+author: Bergfrid
+so.date: 03.15.2023
+keywords: user, associate
+so.topic: howto
+so.user: admin
 language: en
 ---
 

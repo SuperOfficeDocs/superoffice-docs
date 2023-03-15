@@ -43,10 +43,10 @@ landingContent:
           url: ../admin/user-management/learn/add-associate.md
         - text: Update user information
           url: ../admin/user-management/learn/update-user.md
-        - text: Create user groups
-          url: ../admin/user-management/learn/create-user-group.md
-        - text: Add company in the Our companies tab
-          url: ../admin/user-management/learn/add-our-companies.md
+        - text: Manage user groups
+          url: ../admin/user-management/learn/user-groups.md
+        - text: Manage "Our companies"
+          url: ../admin/user-management/learn/our-companies.md
 
   # Card
   - title: Import
