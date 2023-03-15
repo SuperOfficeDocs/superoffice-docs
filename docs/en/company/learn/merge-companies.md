@@ -15,6 +15,8 @@ language: en
 
 You can merge duplicate database records of companies. Contacts and activities will be moved to the target company and the source company will be deleted.
 
+If two companies in your customer database decide to merge or one of the companies has bought the other company, you can merge these companies into one company. Contacts (and related requests), invoices, and registered domains are kept for both companies.
+
 ## Steps
 
 [!include[Go to company](../../learn/includes/goto-company.md)]

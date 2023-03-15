@@ -195,10 +195,6 @@ items:
         href: ../search-options/learn/in-service/search-kb.md
       - name: Search in the Navigator
         href: ../search-options/learn/in-service/in-navigator.md
-    - name: Person
-      href: customers/person/toc.yml
-    - name: Company
-      href: customers/company/toc.yml
     - name: Documents
       href: ../document/learn/in-service/toc.yml
       topicHref: ../document/learn/in-service/index.md

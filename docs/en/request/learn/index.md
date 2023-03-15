@@ -58,8 +58,8 @@ There are three types of messages:
 
 <!-- Referenced links -->
 [1]: ../../dashboard/learn/show-requests.md
-[2]: ../../learn/customers/person/index.md
-[3]: ../../learn/customers/company/index.md
+[2]: ../../contact/learn/index.md
+[3]: ../../company/learn/index.md
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
