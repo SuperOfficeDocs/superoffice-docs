@@ -5,12 +5,12 @@ The first step in creating an e-mail mailing, is called **Setup**. Here you can 
 
 1. Enter the subject of the e-mail in the **E-mail subject** field.
 
-1. In the **From** list, select **Always use** and enter the sender's e-mail address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an e-mail address to be used if no sales contact or support contact is available. If your admin has activated the global e-mail validation preference, select the domain you want to send from in the drop-down list. If not, enter the address and domain you want to send from.
+1. In the **From** list, select **Always use** and enter the sender's e-mail address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an e-mail address to be used if no sales contact or support contact is available. If your admin has activated the [global e-mail validation preference][1], select the domain you want to send from in the drop-down list.
 
     > [!NOTE]
-    > SuperOffice will conduct an SPF look-up to verify that the domain you are sending from has a valid SPF record. You will not be able to send the mailing from a domain that does not have a valid SPF record. (ONLINE ONLY)
-
-    [What is SPF?][20]
+    > SuperOffice will conduct an SPF lookup to verify that the domain you are sending from has a valid SPF record. You will not be able to send the mailing from a domain that does not have a valid SPF record. (ONLINE ONLY)
+    >
+    > [What is Sender Policy Framework (SPF)?][20]
 
 1. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender.
 
@@ -38,14 +38,15 @@ The first step in creating an e-mail mailing, is called **Setup**. Here you can 
 
 ## E-mail Domain Validation (ONLINE ONLY)
 
-If your admin has activated the global preference **Only use approved e-mail domains**, the **From address** field will be split, and you need to select the domain you want to send from in the drop-down list of approved domains.
+If your admin has activated the [global preference][1] **Only use approved e-mail domains**, the **From address** field will be split, and you need to select the domain you want to send from in the drop-down list of approved domains.
 Attempting to send from a domain that does not have a valid SPF record will prompt a warning, and you will not be able to send from that domain. This applies to all e-mail domains even if the validation preference is not activated.
 
 > [!NOTE]
-> If the **Our contact address** has an e-mail domain that has not been validated, the mailing will automatically be sent from the address specified in the **Otherwise use** field.
+> If the **Our contact address** has an e-mail domain that has not been validated, the mailing will automatically be sent from the address specified in the **Otherwise use** drop-down list options.
 
 <!-- Referenced links -->
+[1]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [19]: ../../../../learn/create-folder.md
-[20]: https://docs.superoffice.com/en/email/mailgun/spf/index.html)
+[20]: https://docs.superoffice.com/en/email/mailgun/spf/index.html
 
 <!-- Referenced images -->

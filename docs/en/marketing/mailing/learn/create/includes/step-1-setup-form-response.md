@@ -5,12 +5,12 @@ The first step in creating a form response, is called **Setup**. Here you can se
 
 1. Enter the subject of the e-mail in the **E-mail subject** field.
 
-1. In the **From** list, select **Always use** and enter the sender's e-mail address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an e-mail address to be used if no sales contact or support contact is available. If your admin has activated the global e-mail validation preference, select the domain you want to send from in the drop-down list. If not, enter the address and domain you want to send from.
+1. In the **From** list, select **Always use** and enter the sender's e-mail address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an e-mail address to be used if no sales contact or support contact is available. If your admin has activated the [global e-mail validation preference][1], select the domain you want to send from in the drop-down list. If not, enter the address and domain you want to send from.
 
     > [!NOTE]
-    > SuperOffice will conduct an SPF look-up to verify that the domain you are sending from has a valid SPF record. You will not be able to send the mailing from a domain that does not have a valid SPF record. (ONLINE ONLY)
-
-    [What is SPF?][20]
+    > SuperOffice will conduct a Sender Policy Framework (SPF) look-up to verify that the domain you are sending from has a valid SPF record. You will not be able to send the mailing from a domain that does not have a valid SPF record. (ONLINE ONLY)
+    >
+    > [What is Sender Policy Framework (SPF)?][20]
 
 1. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender.
 
@@ -35,6 +35,7 @@ The first step in creating a form response, is called **Setup**. Here you can se
 1. Click **Next** to go to the next step.
 
 <!-- Referenced links -->
+[1]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
 [19]:  ../../../../learn/create-folder.md
 [20]: https://docs.superoffice.com/en/email/mailgun/spf/index.html)
 
