@@ -3,8 +3,8 @@ uid: help-en-reply-template-copy
 title: Copy reply templates
 description: Copy reply templates
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: request
+so.date: 03.16.2023
+keywords: request, reply
 so.topic: howto
 language: en
 ---
@@ -13,7 +13,7 @@ language: en
 
 To create a new reply template based on an existing reply template, you can copy it.
 
-1. Select **Knowledge Base > Reply templates**.
+1. Select **Knowledge Base** > **Reply templates**.
 2. Go to the folder where the reply template is located.
 3. Click the reply template. This takes you to the **View reply templates** screen.
 4. Click the **Copy** button. A copy of the reply template is opened in edit mode.
@@ -27,7 +27,7 @@ To create a new reply template based on an existing reply template, you can copy
 * [Delete reply templates][6]
 
 <!-- Referenced links -->
-[3]: ../../../request/learn/howto/reply.md
+[3]: ../../learn/howto/reply.md
 [5]: edit.md
 [6]: delete.md
 

@@ -13,11 +13,6 @@ items:
       href: install/manual-steps.md
   - name: Upgrade
     href: upgrade/index.md
-  - name: Reply templates
-    href: reply-templates/index.md
-    items:
-    - name: System templates
-      href: reply-templates/system-templates.md
   - name: Report parameters
     href: reports/parameters.md
   - name: Automated tasks

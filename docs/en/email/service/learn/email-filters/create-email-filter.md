@@ -63,8 +63,8 @@ language: en
 
 <!-- Referenced links -->
 [1]: ../../../../automation/crmscript/learn/index.md
-[2]: ../../../../service/reply-templates/learn/index.md
-[3]: ../../../../service/reply-templates/learn/create.md#faq
+[2]: ../../../../request/reply-templates/learn/index.md
+[3]: ../../../../request/reply-templates/learn/create.md#faq
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/delete-circle-red.png

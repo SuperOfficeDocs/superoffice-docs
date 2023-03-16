@@ -19,7 +19,9 @@ A reply template can for instance be a specific layout to implement on replies, 
 
 ## View a reply template
 
-1. Select **Knowledge Base > Reply templates**. This takes you to the **Reply templates** screen. Here you will find the reply templates defined in the system, which are available to you. The reply templates are in a [folder structure][10] that you can create yourself.
+In the **Reply templates** screen, you will find the reply templates available to you. The reply templates are in a [folder structure][10] that you can create yourself.
+
+1. Select **Knowledge Base** > **Reply templates**.
 2. Go to the required folder.
 3. Click the reply template you are interested in. The **View reply templates** screen appears, containing information about access level, language and owner. In the tabs below, you can see the reply template text itself and any attachments.
 
@@ -42,6 +44,6 @@ A reply template can for instance be a specific layout to implement on replies, 
 [8]: delete.md
 [9]: find.md
 [10]: manage-folders.md
-[11]: ../../../request/learn/howto/reply.md
+[11]: ../../learn/howto/reply.md
 
 <!-- Referenced images -->

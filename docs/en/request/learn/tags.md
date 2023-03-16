@@ -43,12 +43,11 @@ If you have the necessary functional right, you can also create new tags. In a t
 
 ## Searching for tags
 
-Tags can be used to search for requests in the [free-text search][2] and in the regular [search function][3] using criteria.
+Tags can be used to search for requests in the [free-text search][2] and in the regular search function using criteria.
 
 <!-- Referenced links -->
 [1]: howto/create.md
 [2]: ../../search-options/learn/freetext-search.md
-[3]: find.md#category
 [4]: ../../admin/lists/learn/adding-items.md
 
 <!-- Referenced images -->

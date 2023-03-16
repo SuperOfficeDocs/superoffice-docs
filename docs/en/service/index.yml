@@ -60,16 +60,16 @@ conceptualContent:
       links:
       - text: Intro
         itemType: concept
-        url: reply-templates/index.md
+        url: ../request/reply-templates/index.md
       - text: Standard fields
         itemType: reference
-        url: reply-templates/learn/template-variables.md
+        url: ../request/reply-templates/learn/template-variables.md
       - text: System templates
         itemType: concept
-        url: reply-templates/system-templates.md
+        url: ../request/reply-templates/system-templates.md
       - text: Create new template
         itemType: how-to-guide
-        url: reply-templates/learn/create.md
+        url: ../request/reply-templates/learn/create.md
       - text: Using CRMScript
         itemType: how-to-guide
         url: ../automation/crmscript/parser-and-templates/reply-template.md

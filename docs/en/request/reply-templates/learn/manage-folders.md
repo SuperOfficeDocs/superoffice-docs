@@ -3,15 +3,15 @@ uid: help-en-reply-template-folder
 title: Administrate folders of reply templates
 description: Administrate folders of reply templates
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: request
-so.topic: help
+so.date: 03.16.2023
+keywords: request, reply, folder
+so.topic: howto
 language: en
 ---
 
 # Administrate folders of reply templates
 
-Under **Knowledge Base > Reply templates**, you can put the reply templates in a folder structure you create yourself, to give them a logical structure and make it easy for others to find information. You can create subfolders in all folders, and you can place the appropriate reply templates in each of these folders. Find out more below about how to work with the folder structure.
+Under **Knowledge Base > Reply templates**, you can put the reply templates in a folder structure you create yourself, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the appropriate reply templates in each of these folders. Find out more below about how to work with the folder structure.
 
 ## Create folders
 

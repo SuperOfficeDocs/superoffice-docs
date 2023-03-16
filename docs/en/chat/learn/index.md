@@ -30,7 +30,7 @@ Your agents can access chat via the Navigator in both SuperOffice CRM and SuperO
 
 <!-- Referenced links -->
 [1]: ../../faq/learn/index.md
-[3]: ../../service/reply-templates/learn/index.md
+[3]: ../../request/reply-templates/learn/index.md
 [4]: respond.md
 [5]: statistics.md
 [6]: as-customer.md

@@ -92,7 +92,7 @@ Save time by letting the system categorise requests for you. If this function is
 [6]: fav.md
 [7]: close.md
 [9]: edit-message.md
-[11]: ../../../service/reply-templates/learn/index.md
+[11]: ../../reply-templates/learn/index.md
 [12]: assign.md
 [13]: ../find.md
 [14]: create.md

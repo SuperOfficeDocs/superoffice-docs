@@ -130,7 +130,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [6]: ../../../ui/blogic/learn/screen-properties.md
-[7]: ../../../service/reply-templates/learn/new-language.md
+[7]: ../../reply-templates/learn/new-language.md
 [8]: index.md
 
 <!-- Referenced images -->

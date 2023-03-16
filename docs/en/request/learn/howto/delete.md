@@ -30,7 +30,7 @@ In general, it is not recommended to delete a request. However, you may have to 
 <!-- Referenced links -->
 [1]: ../index.md
 [2]: create.md
-[3]:
+[3]: ../../../learn/basics/deleting-elements.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

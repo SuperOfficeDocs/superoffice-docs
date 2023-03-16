@@ -307,5 +307,5 @@ This template is displayed when entering the Customer Care Center.
 No other than the standard parser variables are available.
 
 <!-- Referenced links -->
-[1]: ../reply-templates/index.md
+[1]: ../../request/reply-templates/index.md
 [2]: templates.md

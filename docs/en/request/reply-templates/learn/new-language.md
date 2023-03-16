@@ -3,7 +3,7 @@ uid: help-en-reply-template-language
 title: Create new language version of reply template
 description: Create new language version of reply template
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.16.2023
 keywords: request
 so.topic: howto
 language: en
@@ -15,7 +15,7 @@ It may be appropriate to have the same reply template in several languages, for 
 
 ## Add languages to reply template
 
-1. Select **Knowledge Base > Reply templates**.
+1. Select **Knowledge Base** > **Reply templates**.
 
 2. Go to the folder where the reply template is located.
 

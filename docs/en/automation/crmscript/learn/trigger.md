@@ -26,11 +26,8 @@ This is an example of a very simple trigger. You can for instance add conditions
 
 We will now create a series of actions based on the example above.
 
-1. Go to the **Triggers** tab:
-
-    * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and select **Triggers** tab.
-    * In SuperOffice Service: Select ![icon][img2] **System settings** > **System design** > **CRMScript**. Select the **Triggers** tab.
-
+1. Select **Settings and maintenance** > **CRMScript**.
+1. Select the **Triggers** tab.
 1. Click the **New trigger (macro)** button. The **Choose trigger** screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select **Request closed**, so that the macro is run when a request is closed in SuperOffice Service.
 1. Type "request" in the search field and select the trigger called **Request closed**.
 1. Enter a description of the trigger in the **Description** field.
@@ -58,4 +55,3 @@ You have now created a macro that sends an email with "Request closed" to the cu
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/gearblack.png
-[img2]: ../../../../media/icons/settings-small.png

@@ -79,7 +79,7 @@ You can add a message to several requests in a single operation. For example, if
 [2]: create.md#message
 [3]: close.md
 [4]: flag-message.md
-[5]: ../../../service/reply-templates/learn/new-language.md
+[5]: ../../reply-templates/learn/new-language.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

@@ -2,10 +2,10 @@
 uid: help-en-reply-template-edit
 title: Edit reply templates
 description: Edit reply templates
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: request
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.16.2023
+keywords: request, reply, template
+so.topic: howto
 language: en
 ---
 
@@ -31,7 +31,7 @@ Editing a reply template can mean one of two things:
 * [Copy reply templates][4]
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/reply.md
+[1]: ../../learn/howto/reply.md
 [2]: create.md
 [3]: new-language.md
 [4]: copy.md

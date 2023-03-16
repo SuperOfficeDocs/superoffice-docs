@@ -4,7 +4,7 @@ title: Macro/script folder properties
 description: Macro/script folder properties
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, folder
 so.topic: howto
 language: en
 ---

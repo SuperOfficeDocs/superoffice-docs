@@ -13,12 +13,13 @@ language: en
 
 To go to the **Macros and scripts** tab:
 
-* In SuperOffice Service: Select ![icon][img7] **System settings** > **System design** > **CRMScript** and go to the **Macros and scripts** tab.
-* In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
+1. Select **Settings and maintenance** > **CRMScript**.
+1. Go to the **Macros and scripts** tab.
 
 ## Options
 
 This screen has following options:
+
 | Option | Description |
 |---|---|
  New script | Used to [create a new script][2]. |
@@ -52,4 +53,3 @@ When you click a script or macro in the **Macros and scripts** tab, the **Script
 [img4]: ../../../../../media/icons/btn-script-trace.png
 [img5]: ../../../../../media/icons/run-script.png
 [img6]: ../../../../../../common/icons/bug.png
-[img7]: ../../../../../media/icons/settings-small.png

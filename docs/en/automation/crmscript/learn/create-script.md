@@ -13,10 +13,7 @@ language: en
 
 In the **Edit script** screen, you can edit or create a [CRMScript][1].
 
-1. Go to the **Macros and scripts** tab:
-
-    * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator.
-    * In SuperOffice Service: Select ![icon][img1] **System settings** > **System design** > **CRMScript**.
+1. Select **Settings and maintenance** > **CRMScript**.
 
 1. Do one of the following:
     * To create a new script: Click **New script**.
@@ -43,4 +40,3 @@ In the **Edit script** screen, you can edit or create a [CRMScript][1].
 [1]: ../index.yml
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png

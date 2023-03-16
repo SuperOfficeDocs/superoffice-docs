@@ -38,13 +38,11 @@ The categories are arranged in a tree structure.
 * [Create categories][1]
 * [Delete categories][2]
 * [How to set up Get next request in queue][5]
-* [Search for requests in categories][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
 [3]: ../../../admin/lists/learn/index.md
 [5]: ../next-in-queue.md
-[6]: ../find.md#category
 
 <!-- Referenced images -->

@@ -5,7 +5,7 @@ description: Package properties
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service
-so.topic: help
+so.topic: reference
 language: en
 ---
 

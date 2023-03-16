@@ -73,13 +73,8 @@ language: en
 
 1. Click **Save**. The category is created.
 
-## What would you like to do now?
-
-* [Search for requests in categories][6]
-
 <!-- Referenced links -->
 [1]: ../../../admin/preferences/learn/index.md
 [3]: ../next-in-queue.md
-[6]: ../find.md#category
 
 <!-- Referenced images -->

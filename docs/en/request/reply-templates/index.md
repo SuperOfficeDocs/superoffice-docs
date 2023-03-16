@@ -1,9 +1,10 @@
 ---
 title: Reply templates
-uid: reply_templates
+uid: reply-templates
 description: Reply templates in SuperOffice Service
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 03.16.2023
+keywords: reply template
 so.topic: concept
 ---
 

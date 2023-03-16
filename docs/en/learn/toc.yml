@@ -17,6 +17,9 @@ items:
     href: ../diary/learn/toc.yml
   - name: Document
     href: ../document/learn/toc.yml
+#  - name: Documents
+#    href: ../document/learn/in-service/toc.yml
+#    topicHref: ../document/learn/in-service/index.md
   - name: Email
     href: ../email/learn/toc.yml
   - name: Sale
@@ -42,7 +45,7 @@ items:
     - name: FAQ
       href: ../faq/learn/toc.yml
     - name: Reply templates
-      href: ../service/reply-templates/learn/toc.yml
+      href: ../request/reply-templates/learn/toc.yml
     - name: Email addresses
       href: ../email/service/learn/kb-aliases/toc.yml
     - name: External documents
@@ -94,6 +97,8 @@ items:
       items:
       - name: Screen designer
         href: ../ui/screen-designer/learn/toc.yml
+      - name: Elements
+        href: ../ui/screen-designer/learn/elements.md
 
     - name: Options
       href: ../admin/options/learn/toc.yml
@@ -138,12 +143,17 @@ items:
         href: ../email/service/learn/toc.yml
       - name: System templates
         href: ../request/learn/screen/system-templates.md
+      - name: Invoice
+        href: ../request/learn/invoice/toc.yml
+        topicHref: ../request/learn/invoice/index.md
 
     - name: Customer center
       href: ../service/customer-center/learn/toc.yml
 
     - name: System design
       href: ../ui/blogic/learn/toc.yml
+    - name: Web panels
+      href: ../ui/web-panels/learn/index.md
 
     - name: SAINT (Sales intelligence)
       href: ../sale/saint/learn/admin/toc.yml
@@ -180,25 +190,5 @@ items:
   - name: Windows client settings
     href: ../onsite/win-client/learn/toc.yml
 
-  - name: Service client
-    items:
-    - name: Personal settings in Service
-      href: ../service/settings/learn/personal-settings/toc.yml
-
-    - name: Documents
-      href: ../document/learn/in-service/toc.yml
-      topicHref: ../document/learn/in-service/index.md
-
-    - name: Invoice
-      href: ../request/learn/invoice/toc.yml
-      topicHref: ../request/learn/invoice/index.md
-
-    - name: System settings
-      items:  
-      - name: System design
-        items:
-        - name: Web panels
-          href: ../ui/web-panels/learn/index.md
-        - name: Elements
-          href: ../ui/screen-designer/learn/elements.md
-  
+  - name: Personal settings in Service
+    href: ../service/settings/learn/personal-settings/toc.yml

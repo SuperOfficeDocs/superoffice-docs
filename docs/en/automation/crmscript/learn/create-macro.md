@@ -18,10 +18,7 @@ Many companies often receive requests relating to invoicing. Such requests shoul
 
 We will now create a macro based on the example above.
 
-1. Go to the **Macros and scripts** tab:
-
-    * In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator.
-    * In SuperOffice Service: Select ![icon][img2] **System settings** > **System design** > **CRMScript**.
+1. Select **Settings and maintenance** > **CRMScript**.
 
 2. Do one of the following:
     * To create a new macro: Click **New macro**.
@@ -29,7 +26,7 @@ We will now create a macro based on the example above.
 
 3. In the **Information** tab, enter "Send request to Accounts Dept." in the **Name** field and enter a description in the field below.
 
-4. Select the **New menu** option to make the macro available from the **Actions** button (![icon][img1]) in the Company screen, Contact screen or Request screen, or **Message** tab.
+4. Select the **New menu** option to make the macro available from the ![icon][img1] **Actions** button in the Company screen, Contact screen, or Request screen, or **Message** tab.
 
 5. Go to the **Actions** tab and select **Change a request** under **Choose action type**.
 
@@ -53,4 +50,3 @@ We will now create a macro based on the example above.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/settings-small.png

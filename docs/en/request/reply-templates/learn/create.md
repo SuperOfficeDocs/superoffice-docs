@@ -3,8 +3,8 @@ uid: help-en-reply-template-create
 title: Create reply templates
 description: Learn how to create a reply template in this how-to guide.
 author: Bergfrid Dias
-so.date: 03.14.2023
-keywords: request
+so.date: 03.16.2023
+keywords: request, reply, template
 so.topic: howto
 language: en
 ---
@@ -99,7 +99,7 @@ SuperOffice Service comes with a set of reply templates. Among these reply templ
 
 Based on the customer's request, the system searches for corresponding words (including key words) in FAQ entries in SuperOffice Service. Based on the degree of correlation between these, suggested FAQs that could help the customer are included in the reply template that is automatically sent to the customer to confirm receipt of the request.
 
-You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in ![icon][img2] **System settings > System > Settings**.
+You can select the degree of correlation between the request from the customer and the FAQ entries in the field **Minimum score for FAQ search result (in percent)** in ![icon][img2] **System settings** > **System** > **Settings**.
 
 ## What would you like to do now?
 
@@ -108,9 +108,9 @@ You can select the degree of correlation between the request from the customer a
 * [Copy reply templates][7]
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/category/index.md
+[1]: ../../learn/category/index.md
 [2]: manage-folders.md
-[4]: ../../../request/learn/howto/reply.md
+[4]: ../../learn/howto/reply.md
 [5]: new-language.md
 [6]: edit.md
 [7]: copy.md

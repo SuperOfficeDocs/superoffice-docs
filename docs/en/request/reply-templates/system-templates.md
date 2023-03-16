@@ -1,9 +1,10 @@
 ---
 title: System templates
-uid: system_templates
+uid: system-templates
 description: System reply templates
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 03.16.2023
+keywords: reply template
 so.topic: reference
 ---
 

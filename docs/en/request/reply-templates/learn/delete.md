@@ -2,10 +2,10 @@
 uid: help-en-reply-template-delete
 title: Delete reply templates
 description: Delete reply templates
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: request
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.16.2023
+keywords: request, reply
+so.topic: howto
 language: en
 ---
 
