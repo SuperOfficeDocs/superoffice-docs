@@ -34,7 +34,7 @@ The request IDs that were overwritten will no longer be available in favourites 
 ## What would you like to do now?
 
 * [Reply to customer][3]
-* [Ask another request handler for help.][4]
+* [Ask another request handler for help][4]
 * [Forward messages to external parties][5]
 
 <!-- Referenced links -->

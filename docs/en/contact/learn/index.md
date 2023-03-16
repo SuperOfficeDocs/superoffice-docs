@@ -17,11 +17,11 @@ A Contact card stores valuable information on all your communication and interac
 
 The bottom of the Contact screen contains [default section tabs][1]:
 
-* **Activities**
-* **Sales**
-* **Requests**
-* **Projects**
-* **Relations**
+* Activities
+* Sales
+* Requests
+* Projects
+* Relations
 
 Everything you want to find out about a contact is available from a single screen.
 

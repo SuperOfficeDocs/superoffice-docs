@@ -3,8 +3,9 @@ uid: help-en-request-split
 title: Split requests
 description: Split requests
 author: HanneGunnarsson
+so.date: 03.16.2023
 keywords: request
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -15,7 +16,7 @@ If a single request contains several questions, for example, if the customer fir
 > [!TIP]
 > You can also [split a message][1].
 
-**Steps:**
+## Steps
 
 1. [Open the request][2].
 
@@ -49,7 +50,7 @@ If a single request contains several questions, for example, if the customer fir
 ## What would you like to do now?
 
 * [Reply to customer][4]
-* [Ask another request handler for help.][5]
+* [Ask another request handler for help][5]
 * [Forward messages to external parties][6]
 * [Split message][1]
 

@@ -23,7 +23,7 @@ Macros have multiple functions in SuperOffice. They can be linked to specific [t
 
 For example, you can use macros:
 
-* As a task/function in a menu point (such as in ![icon][img1] **Actions** in the Request screen)
+* As a task/function in a menu point (such as in ![icon][img1] **Task** in the Request screen)
 * When a request is escalated via the warning levels for priority
 * As a planned task
 * When they are activated by an email filter
@@ -49,4 +49,4 @@ A script is a small program written to perform specific tasks, and requires prog
 [4]: create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../../../common/icons/task.png

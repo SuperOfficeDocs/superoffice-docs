@@ -32,7 +32,7 @@ The toolbar contains the following options:
 
 * **Category**: The [category][2] that the request belongs to appears here. You can change the category here.
 
-* **Priority**: Choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
+* **Priority**: Choose between **Low**, **Medium**, and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 
 * **Access level**: Select one of the following options:
   * **External**: Select this option if the contact is to have access to the request via the SuperOffice Customer Centre.
@@ -40,7 +40,7 @@ The toolbar contains the following options:
 
 * **Tags**: In the **Tags** list box, [select relevant tags][4] for this request.
 
-* **Task** ( ![icon][img1] ): Click this button to access the following options:
+* **Task** ![icon][img1]: Click this button to access the following options:
 
   * **Edit**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to [ask a colleague for advice][1].
 
@@ -62,7 +62,7 @@ You can change how many messages are displayed, in ![icon][img3] **Personal sett
 
 <details><summary>How?</summary>
 
-1. Select ![icon][img3] **Personal settings > Settings**.
+1. Select ![icon][img3] **Personal settings** > **Settings**.
 2. Select the **Interface** tab.
 3. Specify the number of messages in the **No. of expanded messages** field.
 4. Click **OK**.

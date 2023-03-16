@@ -38,7 +38,7 @@ See also [Menu properties][1].
 
 ## What would you like to do now?
 
-* [Add function to menu button (Actions)][2]
+* [Add function to menu button (Task)][2]
 * [Add an extra browser tab (web panel)][3]
 * [Add navigator group and extra menu][4]
 

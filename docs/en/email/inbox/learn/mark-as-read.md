@@ -3,7 +3,7 @@ uid: help-en-email-inbox-mark-as-read
 title: Mark emails as read or unread
 description: Mark emails as read or unread
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 03.16.2023
 keywords: email
 so.topic: howto
 language: en
@@ -17,7 +17,7 @@ An email message is automatically set to read (not bold) when you select it in t
 
 1. Go to the inbox.
 2. Select a message in the inbox.
-3. Click the **Actions** button ![icon][img1]), and select **Mark as read/unread**.
+3. Click the ![icon][img1] **Actions** button, and select **Mark as read/unread**.
 
 ## Mark multiple email messages as read/unread
 

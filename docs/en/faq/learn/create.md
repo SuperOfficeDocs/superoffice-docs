@@ -32,7 +32,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 1. [Open a request][1].
 
-2. Click the ![icon][img1] **Actions** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
+2. Click the ![icon][img1] **Task** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
 3. Edit the request name in the **Name** field if necessary.
 
@@ -118,6 +118,6 @@ Because the option to create FAQ entries this way is only available to administr
 [4]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
+[img1]: ../../../../common/icons/task.png
 [img2]: ../../../media/icons/service/spell-check.png
 [img3]: media/create-publish-faq.png

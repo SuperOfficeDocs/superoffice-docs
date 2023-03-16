@@ -3,8 +3,8 @@ uid: help-en-request-message-split
 title: Split message
 description: Split message
 author: HanneGunnarsson
-so.date: 06.29.2022
-keywords: request
+so.date: 03.16.2023
+keywords: request, message
 so.topic: howto
 language: en
 ---
