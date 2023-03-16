@@ -11,7 +11,7 @@ language: en
 
 # Edit FAQ entries
 
-1. Select **Knowledge Base** > **FAQ**.
+1. Select **Knowledge base** > **FAQ**.
 2. Go to the folder where the FAQ entry is located.
 3. Click the FAQ entry you want.
 4. In the **FAQ entry** screen, click **Edit entry**.

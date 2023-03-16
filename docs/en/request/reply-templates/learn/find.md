@@ -13,7 +13,7 @@ language: en
 
 If there are lots of reply templates in a folder, it may be difficult to find the one you want. In that case, doing a search may be a good idea.
 
-1. Select **Knowledge Base** > **Reply templates**.
+1. Select **Knowledge base** > **Reply templates**.
 2. Click the **Search** button. This takes you to the **Criteria** screen.
 3. Enter the text you want to search for and optionally other criteria.
 4. Click **Search**.

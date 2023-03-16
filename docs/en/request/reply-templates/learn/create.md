@@ -20,18 +20,18 @@ Reply templates can also include an attachment, which will then be added to the 
 
 ## Steps
 
-1. Select **Knowledge Base** > **Reply templates**.
+1. Select **Knowledge base** > **Reply templates**.
 
 2. Go to the folder you want to put the reply template in. If it does not yet exist, you can [create a new folder][2].
 
     ![How to find reply templates in SuperOffice -screenshot][img3]
 
-3. Click the **New reply template** button. This takes you to the **Properties** tab in the **Reply template properties** screen.
+3. Click the **New reply template** button.
 
-4. At the top of this screen you enter the following:
+4. At the top of the **Properties** tab in the **Reply template properties** screen, enter the following:
 
-    * **Name**: Enter a descriptive name for the reply template.
-    * **Description**: Add a short description of the contents of the reply template.
+    * **Name**: A descriptive name for the reply template.
+    * **Description**: A short description of the contents of the reply template.
     * **Folder**: By default, the name of the selected folder. You can select a different folder here.
     * **Access**: Here you determine who is to have access to read and edit the reply template.
 

@@ -15,7 +15,7 @@ It may be appropriate to have the same reply template in several languages, for 
 
 ## Add languages to reply template
 
-1. Select **Knowledge Base** > **Reply templates**.
+1. Select **Knowledge base** > **Reply templates**.
 
 2. Go to the folder where the reply template is located.
 
@@ -25,7 +25,7 @@ It may be appropriate to have the same reply template in several languages, for 
 
 5. Click the **New language body** button at the bottom of the screen. A new tab is added, named **(Unspecified language)**.
 
-6. **Language**: In this list, select the language for the current language body of the reply template. The list box contains the languages registered under ![icon][img1] **System settings** > **Customer languages**.
+6. **Language**: In this list, select the language for the current language body of the reply template. The list box contains registered [customer languages][2].
 
 7. Enter the texts in the relevant language in the other tabs and make the necessary changes in this language version of the reply template. Find out more about this in [Create reply templates][1].
 
@@ -36,6 +36,6 @@ It may be appropriate to have the same reply template in several languages, for 
 
 <!-- Referenced links -->
 [1]: create.md
+[2]: ../../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png

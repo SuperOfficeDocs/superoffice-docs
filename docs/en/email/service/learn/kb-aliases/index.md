@@ -2,20 +2,20 @@
 uid: help-en-mailbox
 title: Work with email addresses
 description: Work with email addresses
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.16.2023
 keywords: request
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Work with email addresses
 
-Under **Knowledge Base** > **Email addresses** you can create a list of email addresses that you often use, but which are not registered for users or contacts in SuperOffice Service. For example, suppliers, partners, or product specialists. These addresses are accessible in most places where you send emails, such as in the **New request** and **Add message** screens.
+You can create a list of email addresses that you often use, but which are not registered for users or contacts in SuperOffice Service. For example, suppliers, partners, or product specialists. These addresses are accessible in most places where you send emails, such as in the **New request** and **Add message** screens.
 
 ## List email addresses
 
-If you want details of the registered email addresses, select **Knowledge Base** > **Email addresses**. This takes you to the **Email addresses** screen, which contains email addresses in a folder structure that you can create yourself.
+If you want details of the registered email addresses, select **Knowledge base** > **Email addresses**. This takes you to the **Email addresses** screen, which contains email addresses in a folder structure that you can create yourself.
 
 * To **create** a new email address, see [Create email addresses][2].
 * To **edit** an existing email address, click the name in the list.

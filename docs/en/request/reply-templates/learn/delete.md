@@ -11,7 +11,7 @@ language: en
 
 # Delete reply template
 
-1. Select **Knowledge Base** > **Reply templates**.
+1. Select **Knowledge base** > **Reply templates**.
 2. Go to the folder where the reply template is located.
 3. Click the reply template. This takes you to the **View reply templates** screen.
 4. Click the **Edit reply template** button. This takes you to the **Reply template properties** screen.

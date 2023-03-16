@@ -3,7 +3,7 @@ uid: help-en-reply-template
 title: Work with reply templates
 description: Work with reply templates
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.16.2023
 keywords: request
 so.topic: concept
 language: en
@@ -19,9 +19,9 @@ A reply template can for instance be a specific layout to implement on replies, 
 
 ## View a reply template
 
-In the **Reply templates** screen, you will find the reply templates available to you. The reply templates are in a [folder structure][10] that you can create yourself.
+In the Reply templates screen, you will find the reply templates available to you. The reply templates are in a [folder structure][10] that you can create yourself.
 
-1. Select **Knowledge Base** > **Reply templates**.
+1. Select **Knowledge base** > **Reply templates**.
 2. Go to the required folder.
 3. Click the reply template you are interested in. The **View reply templates** screen appears, containing information about access level, language and owner. In the tabs below, you can see the reply template text itself and any attachments.
 

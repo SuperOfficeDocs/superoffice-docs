@@ -13,8 +13,8 @@ language: en
 
 By creating FAQ entries, your organization can build up a comprehensive collection of questions and answers that both customers and staff can use to find useful information. There are two ways to create FAQ entries:
 
-* A user can create an FAQ entry, based on communication with a customer in **Requests**.
-* An administrator can create an FAQ entry directly in **Knowledge Base** > **FAQ**.
+* A user can create an FAQ entry, based on communication with a customer in the Requests screen.
+* An administrator can create an FAQ entry directly in **Knowledge base** > **FAQ**.
 
 Watch this video and find out how to create and publish FAQs in the Customer Centre or follow the step-by-step guide below (video length - 3:01):
 
@@ -23,7 +23,7 @@ Watch this video and find out how to create and publish FAQs in the Customer Cen
 
 ## Requirements
 
-* You need a license for Knowledge base, which is a feature you get with the license for Service premium or the Customer Engagement platform.
+* You need a license for Service premium or the Customer Engagement platform to use the knowledge base.
 * If you do not see this feature, you need to add *Knowledge base* as functional right to create FAQ.
 
 ## Create FAQ entries from a request
@@ -95,7 +95,7 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 ## Create new FAQ
 
-1. Select **Knowledge Base** > **FAQ**.
+1. Select **Knowledge base** > **FAQ**.
 
 1. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
 

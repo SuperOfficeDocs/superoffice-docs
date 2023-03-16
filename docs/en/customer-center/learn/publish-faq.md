@@ -15,12 +15,9 @@ FAQs (frequently asked questions) published in the Customer centre is a very con
 
 Including FAQs as a self-help tool is likely to reduce the number of requests you receive. When answers to typical and recurrent questions are out of the way, your support agents can concentrate on more urgent and complicated matters.
 
-You can [create FAQs][1] in the Knowledge Base that your service agents can choose from when answering customer questions in requests and chats.
+You can [create FAQs][1] that your service agents can choose from when answering customer questions in requests and chats. Requires the Service premium license.
 
 ![Edit the FAQ entry and select Properties to publish the FAQ in SuperOffice Service -screenshot][img1]
-
-> [!NOTE]
-> Knowledge base is a feature you get with the Service premium license.
 
 Your customers can even access these FAQs through the Customer centre (web portal) without contacting you. This makes it convenient for your customers to find answers to commonly asked questions round-the-clock. While you will get fewer requests to handle.
 

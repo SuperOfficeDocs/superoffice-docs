@@ -17,9 +17,6 @@ items:
     href: ../diary/learn/toc.yml
   - name: Document
     href: ../document/learn/toc.yml
-#  - name: Documents
-#    href: ../document/learn/in-service/toc.yml
-#    topicHref: ../document/learn/in-service/index.md
   - name: Email
     href: ../email/learn/toc.yml
   - name: Sale
@@ -39,8 +36,7 @@ items:
   - name: Forms
     href: ../marketing/forms/learn/toc.yml
 
-  - name: Knowledge Base
-    href: ../request/learn/screen/knowledge-base.md
+  - name: Knowledge base
     items:
     - name: FAQ
       href: ../faq/learn/toc.yml

@@ -2,8 +2,8 @@
 uid: help-en-ui-navigator
 title: Navigator
 description: Navigator
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.16.2023
 keywords: navigator, menu, user interface
 so.topic: reference
 language: en
@@ -33,19 +33,6 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | ![icon][img13] | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
 | ![icon][img14] | Opens **Service** (legacy) | |
 | ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in SuperOffice Settings and maintenance. | |
-
-## The navigator in Service
-
-| Button | Description | Read more |
-|:-:|---|---|
-| ![icon][img3] | **Dashboard**: The dashboard provides you with an overview that can be tailored to your needs. | |
-| ![icon][img33] | **Requests**: Where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. | [Requests][34] |
-| ![icon][img34] | **Customers**: Here you can search for and create companies and contacts. | [Customers][31] |
-| ![icon][img35] | **Selections**: You use selections to save a set of records, such as a set of requests or contacts that you want to work with later on and elsewhere in the system. | |
-| ![icon][img36] | **Knowledge Base**: The knowledge base gives request handlers access to saved data in a single location, which makes it easier to acquire and organize information for the customer. Among other things, it contains FAQs and reply templates. [Knowledge Base][35] |
-| ![icon][img37] | **Statistics**: Here you can run standard reports and create new reports. | |
-| ![icon][img31] | **Marketing**: From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Mailing][11] |
-| ![icon][img39] | **Chat**: Opens the **Chat** screen, where you can respond to inquiries sent via the chat function on you company's web page. | [Chat][9] |
 
 ## The Navigator in Settings and maintenance
 
@@ -109,9 +96,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [10]: ../../../reports/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
-[31]: ../../../request/learn/index.md#customers
 [34]: ../../../request/learn/index.md
-[35]: ../../../request/learn/screen/knowledge-base.md
 
 [20]: ../../../ai/learn/index.md
 [21]: ../../../admin/lists/learn/index.md
@@ -155,14 +140,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img25]: ../../../../../common/icons/nav-search-h32.png
 [img26]: ../../../../../common/icons/nav-list-h32.png
 
-[img31]: ../../../../../common/icons/nav-marketing-h32.png
 [img32]: ../media/navigator-preview-service.png
-[img33]: ../../../../../common/icons/nav-cs-h32.png
-[img34]: ../../../../../common/icons/nav-company-h32.png
-[img35]: ../../../../../common/icons/nav-selection-h32.png
-[img36]: ../../../../media/icons/nav-kb.png
-[img37]: ../../../../../common/icons/nav-reports-h32.png
-[img39]: ../../../../../common/icons/nav-chat-h32.png
 
 [img41]: ../../../../../common/icons/nav-admin-chat-active-h32.png
 [img42]: ../../../../../common/icons/nav-admin-licenses-active-h32.png

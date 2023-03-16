@@ -2,8 +2,8 @@
 uid: help-en-faq-folder
 title: Administrate folders of FAQ entries
 description: Administrate folders of FAQ entries
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.16.2023
 keywords: FAQ, folder
 so.topic: howto
 language: en
@@ -11,11 +11,11 @@ language: en
 
 # Administrate folders of FAQ entries
 
-Under **Knowledge Base** > **FAQ** you can create a folder structure for FAQs, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place FAQ entries in any of these folders as appropriate. Find out more below about how to work with the folder structure.
+You can create a folder structure for FAQs, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place FAQ entries in any of these folders as appropriate. Find out more below about how to work with the folder structure.
 
 ## Create folders
 
-1. Select **Knowledge Base** > **FAQ**.
+1. Select **Knowledge base** > **FAQ**.
 
 2. Click the **New folder** button. This takes you to the **FAQ folder properties** screen.
 

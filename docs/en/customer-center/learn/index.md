@@ -15,7 +15,7 @@ The Customer Engagement Platform contains a Customer centre feature where your c
 
 The Customer centre allows you to publish FAQs, add a chat widget, and offer web forms. On your Customer centre portal customers can find their own answers using the FAQs and chatbot, or they can send in, check and respond to requests.
 
-Customer centre plays a big role in creating an all-around positive customer experience. Customer centre is a place where your customers can not only log in to view their request history, but also ask questions and search the FAQ Knowledge Base 24/7.
+Customer centre plays a big role in creating an all-around positive customer experience. Customer centre is a place where your customers can not only log in to view their request history, but also ask questions and search the FAQs 24/7.
 
 The Customer centre feature in the Customer Engagement Platform is a standalone portal that can be integrated into your existing website. The Customer centre may include online forms and you can also offer customers a chat service that allows them to ask questions directly in the centre.
 

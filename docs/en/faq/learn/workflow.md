@@ -15,7 +15,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 
 ## Create new stage
 
-1. Select **Knowledge Base** > **FAQ**.
+1. Select **Knowledge base** > **FAQ**.
 2. Click the **Workflow** button. This takes you to the **View workflow** screen.
 3. Click the **New stage** button. This takes you to the **New stage** screen.
 4. Enter a descriptive name for the stage in the **Name** field.
@@ -34,7 +34,7 @@ In a new installation, the workflow contains two default stages: **Unpublished**
 
 You can both change the name of a stage and alter which users are to have access to it.
 
-1. Select **Knowledge Base** > **FAQ** and click the **Workflow** button.
+1. Select **Knowledge base** > **FAQ** and click the **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
 3. Edit the name as required.
 4. Change which users are to have access to the stage:
@@ -47,7 +47,7 @@ You can both change the name of a stage and alter which users are to have access
 > [!NOTE]
 > You cannot delete the default **Unpublished** and **Published** stages.
 
-1. Select **Knowledge Base** > **FAQ** and click the ![icon][img2] **Workflow** button.
+1. Select **Knowledge base** > **FAQ** and click the ![icon][img2] **Workflow** button.
 2. Click the name of the stage. This takes you to the **Edit stage** screen.
 3. Click **Delete**. If the stage is not associated with any FAQ entries, it is deleted immediately.
 4. If it is linked to FAQ entries, select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.

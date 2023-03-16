@@ -11,7 +11,7 @@ language: en
 
 # Administrate folders of reply templates
 
-Under **Knowledge Base > Reply templates**, you can put the reply templates in a folder structure you create yourself, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the appropriate reply templates in each of these folders. Find out more below about how to work with the folder structure.
+You can organize reply templates in a folder structure you create yourself, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the appropriate reply templates in each of these folders. Find out more below about how to work with the folder structure.
 
 ## Create folders
 

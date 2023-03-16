@@ -1,36 +1,121 @@
 ---
 uid: help-en-document-external
 title: Work with external documents
-description: Work with external Service documents
-author: HanneGunnarsson
-so.date: 06.29.2022
+description: Work with external documents
+author: Bergfrid Dias
+so.date: 03.16.2023
 keywords: request, document
-so.topic: concept
+so.topic: howto
 language: en
 ---
 
-# Work with external documents
+# Work with external documents (knowledge base)
 
-Under **Knowledge Base** > **External documents**, you can add documents (including images and other files) to make them available to anyone using SuperOffice CRM, including unregistered customers. Documents you upload here are available when you write the content of messages to send to a customer.
+You can add documents (including images and other files) to make them available to anyone using SuperOffice CRM, including unregistered customers. Documents you upload to the knowledge bae are available when you write the content of messages to send to a customer.
 
 This applies, for example, when you use the **Message** tab when [answering requests][1]. Here you can enter text in the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
 
-Apart from this practical use, external documents are otherwise dealt with in the same way as other documents. You can follow the procedures in the topics listed below when working with external documents, but remember to select **Knowledge Base** > **External documents** first, so that you are working from the correct location.
+## View document
 
-* [View documents][2]
-* [Create documents][3]
-* [Edit documents][4]
-* [Delete documents][5]
-* [Search for documents][6]
-* [Administrate folders of documents][7]
+1. Select **Knowledge base** > **External documents**.
+
+2. Go to the required folder.
+
+3. Do one of the following:
+    * Click the document name to go to the **Document properties** screen. Here you can also view and edit the contents of certain document types, such as html, txt and the native ejr format.
+    * Click ![icon][img1] **Download** to download documents that cannot be viewed in the browser, such as PDF and Microsoft Office files. An icon in the document list indicates the document type.
+
+## Add document
+
+> [!NOTE]
+> You must create the physical document itself before you can add it to SuperOffice. For example, to create a price list, you could use Microsoft Word or Excel to write the contents.
+
+1. Select **Knowledge base** > **External documents**.
+
+2. Go to the folder you want to put the document in. If it does not yet exist, you can create a new folder as described below.
+
+3. Click the **New document** button. This takes you to the **Document properties** screen.
+
+4. Enter a descriptive name for the document in the **Name** field.
+
+5. The **In folder** field automatically shows the name of the folder you chose. If you change your mind, you can click the ![icon][img2] list button and select a different folder in the list that appears.
+
+6. In the **Access** field, select who is to have access to read and edit the document.
+
+7. To use the document in a web-based customer centre, you can add a unique ID string in the **ID string** field.
+
+8. In the **Description** field, enter a brief description of what the document contains.
+
+9. Click the **Choose file** button next to **File**, and select the new document in the dialog that appears.
+
+10. Click **Save**. If the document type can be edited in the browser, the **Contents** field is populated with the document contents.
+
+11. Click **OK**. The document is added to the specified folder.
+
+## Edit document content
+
+Certain document types, such as html, txt and the native ejr format, can be edited directly in the **Document properties** screen. For other types, such as PDF, you need the application the document was originally created in.
+
+1. Select **Knowledge base** > **External documents**.
+2. Go to the folder where the document is located.
+3. Click ![icon][img1] **Download** to download a document.
+4. Edit and save the document using the application the document was originally created in.
+5. Click the document name to go to the **Document properties** screen.
+6. Click the **Choose file** button next to **File**, and in the dialog that appears select the document you edited.
+7. Click **OK** to upload the document.
+
+## Edit document properties
+
+By editing the document's properties, you can, for example, change who is to have access to the document.
+
+1. Select **Knowledge base** > **External documents**.
+2. Go to the folder where the document is located.
+3. Click the document name to go to the **Document properties** screen.
+4. Make the required changes (see above).
+5. Click **OK**. The changes are saved.
+
+> [!TIP]
+> To move the document to a different folder, select the new folder in the **In folder** field.
+
+## Delete document
+
+1. Select **Knowledge base** > **External documents**.
+2. Go to the folder where the document is located.
+3. Click the document name to go to the **Document properties** screen.
+4. Click the **Delete** button at the bottom of the screen.
+5. Click **OK** to confirm. The document is removed from SuperOffice Service.
+
+## Create folders
+
+You can create a folder structure for documents, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place the documents in any of these folders.
+
+1. Select **Knowledge base** > **External documents**.
+
+2. Go to the folder you want to create a sub-folder under. You can create it directly under the **Documents** folder or under any of its sub-folders.
+
+3. Click the **New folder** button at the top of the screen. This takes you to the **Document folder properties** screen.
+
+4. Enter a descriptive name for the folder in the **Name** field.
+
+5. The **In folder** field automatically shows the name of the parent folder you chose. If you change your mind, you can click the ![icon][img2] list button and select a different folder in the list that appears.
+
+6. In the **Access** list box, you select who is to have access to read and edit the folder.
+
+7. Click **OK**. The new folder is created. You are now ready to add documents to the new folder.
+
+### Delete folders
+
+When you delete a folder, all the documents in it are also deleted from SuperOffice.
+
+1. Select **Knowledge base** > **External documents**.
+2. Go to the required folder.
+3. Click **Edit folder**. This takes you to the **Document folder properties** screen.
+4. Click **Delete**.
+5. Click **OK** to confirm. The folder and its contents are removed from SuperOffice.
 
 <!-- Referenced links -->
 [1]: howto/reply.md
-[2]: ../../document/learn/in-service/view.md
-[3]: ../../document/learn/in-service/create.md
-[4]: ../../document/learn/in-service/edit.md
-[5]: ../../document/learn/in-service/delete.md
-[6]: ../../document/learn/in-service/find.md
-[7]: ../../document/learn/in-service/manage-folders.md
 
 <!-- Referenced images -->
+[img1]: ../../../../common/icons/archive-icon.png
+[img2]: ../../../../common/icons/dropdown-arrow.png
