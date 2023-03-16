@@ -13,13 +13,6 @@ items:
       href: install/manual-steps.md
   - name: Upgrade
     href: upgrade/index.md
-  - name: Attachments
-    href: attachments/index.md
-    items:
-    - name: Update location
-      href: attachments/update-location.md
-    - name: Split location
-      href: attachments/split-location.md
   - name: Reply templates
     href: reply-templates/index.md
     items:
@@ -51,6 +44,10 @@ items:
       href: customer-center/faq/configure.md
     - name: Set up Facebook integration
       href: config/set-up-facebook-integration.md
+    - name: Update attachment location
+      href: config/update-attachment-location.md
+    - name: Split attachment location
+      href: config/split-attachment-location.md
   - name: SMS
     href: sms/index.md
     items:

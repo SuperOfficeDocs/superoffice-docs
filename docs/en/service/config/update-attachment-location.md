@@ -1,14 +1,16 @@
 ---
+uid: attachment-update-loc
 title: Update location
-uid: uppdate_attachment_location
 description: Update location when moving Service
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 03.16.2023
+keywords: attachment, request
 so.topic: howto
+so.user: admin
 so.envir: onsite
 ---
 
-# Update location when moving Requests
+# Update attachment location when moving Requests
 
 If moving Requests and the attachment location has changed, you need to update the last row in `attachment_location` to point to the new path, for example:
 
@@ -35,4 +37,4 @@ WHERE attachment_location_id = (select max(attachment_location_id) from crm8.ATT
 See also [how to split location][1].
 
 <!-- Referenced links-->
-[1]: split-location.md
+[1]: split-attachment-location.md

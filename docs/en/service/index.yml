@@ -158,12 +158,10 @@ additionalContent:
       # Card
       - title: Attachments
         links:
-          - text: Overview
-            url: attachments/index.md
           - text: Update location
-            url: attachments/update-location.md
+            url: config/update-attachment-location.md
           - text: Split location
-            url: attachments/split-location.md
+            url: config/split-attachment-location.md
       # Card
       - title: Integrations
         links:

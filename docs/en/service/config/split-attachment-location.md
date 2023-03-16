@@ -1,15 +1,21 @@
 ---
-title: Split location
-uid: split_attachment_location
+uid: attachment-split-loc
+title: Split attachment location
 description: Splitting SuperOffice Service attachments to multiple locations
-author: {github-id}
-keywords:
+author: Bergfrid Dias
+so.date: 03.16.2023
+keywords: attachment, request
 so.topic: howto
+so.user: admin
 so.envir: onsite
 # so.client:
 ---
 
 # Splitting attachment location
+
+In 8.5 R09 (Onsite) we introduced a new table to support the possibility for splitting attachments in Service over multiple locations.
+
+Before introducing this table, the location of attachment was specified in `config.attachment_path`. In versions after 8.5 R09, this is no longer used, but replaced with `attachment_location` table. This table can contain 1 or more rows. The last row is considered by the application as "current" path. We also introduced a new field on the attachment table pointing to which row in `attachment_location` particular attachment is connected to.
 
 This is a more complex procedure and we do not offer any GUI for this but must be performed in SQL by adding a new row into `attachment_location`. Since this row is added, all new attachments will be stored in the new location.
 
@@ -43,4 +49,4 @@ commit transaction
 See also [how to update a location][1].
 
 <!-- Referenced links-->
-[1]: update-location.md
+[1]: update-attachment-location.md
