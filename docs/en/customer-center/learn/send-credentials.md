@@ -3,9 +3,9 @@ uid: help-en-customer-center-send-credentials
 title: Send passwords to contacts
 description: Send passwords to contacts
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Service
-so.topic: help
+so.date: 03.16.2023
+keywords: Customer Center
+so.topic: howto
 language: en
 ---
 
@@ -15,9 +15,9 @@ A contact who is going to have access to a customer centre needs a user name and
 
 1. Open the Contact screen.
 
-2. Click the ![icon][img1] **Actions** button and select **Send password**. The **Send password to contact** screen appears.
+2. Click ![icon][img1] **Actions** and select **Send password**.
 
-3. Verify that the contents of the **To** (recipient address), **From** (sender address) and **Subject** fields are correct. Optionally, adjust the data that was inserted automatically.
+3. In the **Send password to contact** screen, verify that the contents of the **To** (recipient address), **From** (sender address) and **Subject** fields are correct. Optionally, adjust the data that was inserted automatically.
 
 4. Click **Preview HTML** or **Preview plain text** to view the message that will be sent out.
 
@@ -29,4 +29,4 @@ A contact who is going to have access to a customer centre needs a user name and
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
+[img1]: ../../../media/icons/btn-menu.png

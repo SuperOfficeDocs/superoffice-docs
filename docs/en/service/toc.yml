@@ -35,8 +35,6 @@ items:
   - name: Configuration
     href: config/index.md
     items:
-    - name: FAQ
-      href: customer-center/faq/configure.md
     - name: Set up Facebook integration
       href: config/set-up-facebook-integration.md
     - name: Update attachment location
@@ -61,36 +59,8 @@ items:
     - name: TxtLocal
       href: sms/txtlocal.md
   - name: Customer center
-    href: customer-center/index.yml
-    items:
-    - name: Overview
-      href: customer-center/overview.md
-    - name: Configuration
-      href: customer-center/config.md
-    - name: Templates
-      href: customer-center/templates.md
-    - name: Inline CRMSCript
-      href: customer-center/inline-crmscript.md
-    - name: Access script
-      href: customer-center/access-script.md
-    - name: Create web forms with special templates
-      href: customer-center/create-webform-with-template.md
-    - name: Update extra table
-      href: customer-center/update-extra-table.md
-    - name: Tutorials
-      items:
-      - name: Custom form - book appointment
-        href: customer-center/tutorials/custom-form-book-apt.md
-      - name: Custom form - edit customer
-        href: customer-center/tutorials/custom-form-edit-customer.md
-      - name: Custom form - form with signature
-        href: customer-center/tutorials/custom-form-signature.md
-      - name: Call script in Service with AJAX
-        href: customer-center/tutorials/call-script-in-cs-with-ajax.md
-      - name: Display KAM picture
-        href: customer-center/tutorials/display-kam-picture.md
-      - name: Embed chat widget on external site
-        href: customer-center/tutorials/embed-chat-widget.md
+    href: ../customer-center/toc.yml
+    topicHref: ../customer-center/index.yml
   - name: Integrate with Service
     href: integrate/index.md
   - name: API options

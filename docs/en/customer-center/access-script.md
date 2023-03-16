@@ -1,20 +1,21 @@
 ---
 title: Accessing the script
-uid: access_crmscript
+uid: access-crmscript
 description: Accessing the script from the Customer Centre
 author: {github-id}
-so.date: 09.15.2011
-keywords:
+so.date: 03.16.2023
+keywords: Customer Center, CEP
 so.topic: howto
+so.user: admin
 ---
 
 # Accessing the script from the Customer Centre
 
-When you create a script (under **System design > Scripts**), 2 fields allow you to access the script from the Customer Centre: **Include name** and **Key**. They will allow you to identify and authenticate access to the script. The idea is that by knowing these two values, you are allowed to execute the script in the Customer Centre with this URL:
+When you create a script, 2 fields allow you to access the script from the Customer Centre: **Include name** and **Key**. They will allow you to identify and authenticate access to the script. The idea is that by knowing these two values, you are allowed to execute the script in the Customer Centre with this URL:
 
-![x -screenshot][img3]
+![Customer Center -screenshot][img3]
 
-![x -screenshot][img4]
+![Customer Center -screenshot][img4]
 
 As you can see, there are some important parameters to customer.exe:
 

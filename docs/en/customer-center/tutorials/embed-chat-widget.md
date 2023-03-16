@@ -3,7 +3,7 @@ title: Embed chat widget
 uid: embed_chat_widget_on_external_site
 description: Embed chat widget on external site
 author: Michel Krohn-Dale
-keywords:
+keywords: Customer Center, chat
 so.topic: tutorial
 ---
 
@@ -16,7 +16,8 @@ Well great news, but what if you want to embed SuperOffice chat on an external w
 For each chat channel that you configure in your system, we generate a unique script tag that allows you to embed a chat widget on any other site.
 
 ```javascript
-<script src='https://online.superoffice.com/CustXXXXX/CS/javascript/chat.js' data-topicId='1' data-title='Standard chatchannel' data-theme='classic' data-color='#0080FF' data-font='verdana' data-delay='1'></script>
+<script src='https://online.superoffice.com/CustXXXXX/CS/javascript/chat.js'
+data-topicId='1' data-title='Standard chatchannel' data-theme='classic' data-color='#0080FF' data-font='verdana' data-delay='1'></script>
 ```
 
 ## Scenario
@@ -45,7 +46,8 @@ All 4 fields support this syntax.
 This would now give you, for example, a newly expanded script tag using information from the cookie.
 
 ```javascript
- <script src='https://online.superoffice.com/CustXXXXX/CS/javascript/chat.js' data-topicId='1' data-title='Standard chatchannel' data-theme='classic' data-color='#0080FF' data-font='verdana' data-delay='1' data-customerName='cookie:custName' data-customerEmail='cookie:custEmail' data-customerPhone='cookie:custPhone'></script>
+ <script src='https://online.superoffice.com/CustXXXXX/CS/javascript/chat.js' data-topicId='1' data-title='Standard chatchannel' data-theme='classic' data-color='#0080FF'
+data-font='verdana' data-delay='1' data-customerName='cookie:custName' data-customerEmail='cookie:custEmail' data-customerPhone='cookie:custPhone'></script>
 ```
 
 The pre-chat form would automatically populate based on present cookie values:

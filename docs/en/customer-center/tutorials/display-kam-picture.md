@@ -4,7 +4,7 @@ uid: display_kam_picture
 description: Get person image and display in the customer center
 author: {github-id}
 so.date: 06.24.2016
-keywords:
+keywords: Customer Center
 so.topic: tutorial
 ---
 

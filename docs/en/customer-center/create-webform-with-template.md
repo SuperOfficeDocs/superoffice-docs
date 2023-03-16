@@ -1,10 +1,12 @@
 ---
 title: Create web form with template
-uid: create_webform_with_special_template
+uid: create-webform-with-special-template
 description: How to create web forms using special templates in Service
 author: {github-id}
-keywords:
+so.date: 03.16.2023
+keywords: Customer Center, CEP, web form
 so.topic: howto
+so.user: admin
 so.envir: onsite
 ---
 
@@ -41,7 +43,8 @@ Email <input type="text" name="customer.email" size="45" value="">
 <br>
 Message <input type="text" name="message" size="45" value="">
 
-<input type="hidden" name="message.alterbody" value="This is a example web form created at %%whenposted%% by %%customer.firstname%% %%customer.lastname%% with email address %%customer.email%% Message from this person: %%message%%">
+<input type="hidden" name="message.alterbody" 
+       value="This is a example web form created at %%whenposted%% by %%customer.firstname%% %%customer.lastname%% with email address %%customer.email%% Message from this person: %%message%%">
 
 <input type="hidden" name="oktemplate" value="special/ok.html">
 

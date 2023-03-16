@@ -4,7 +4,7 @@ uid: custom_form_book_appointment
 description: Custom form in Customer Centre to book an appointment
 author: {github-id}
 so.date: 09.15.2011
-keywords:
+keywords: Customer Center, form
 so.topic: tutorial
 ---
 

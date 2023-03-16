@@ -1,10 +1,10 @@
 ---
-uid: help-en-customer-centre-faq
-title: Publish FAQs to the Customer centre
-description: In this how-to guide, you will learn how to publish FAQs in the Customer centre.
+uid: help-en-customer-center-faq
+title: Publish FAQs to the Customer Center
+description: In this how-to guide, you will learn how to publish FAQs in the Customer Center.
 author: Bergfrid Dias
-so.date: 02.22.2023
-keywords: faq, customer center
+so.date: 03.16.2023
+keywords: FAQ, Customer Center
 so.topic: howto
 language: en
 ---
@@ -26,13 +26,13 @@ Your customers can even access these FAQs through the Customer centre (web porta
 
 ## Related topics
 
-* [Publish a FAQ][3]
 * [Configure customer center][2]
+* [Publish a FAQ][3]
 
 <!-- Referenced links -->
-[1]: ../../../faq/learn/create.md
+[1]: ../../faq/learn/create.md
+[3]: ../../faq/learn/publish.md
 [2]: config.md
-[3]: ../../../faq/learn/publish.md
 
 <!-- Referenced images -->
 [img1]: media/set-up-a-faq.png

@@ -34,7 +34,7 @@ highlightedContent:
     # Card
     - title: "Customer center"
       itemType: overview
-      url: customer-center/index.yml
+      url: ../customer-center/index.yml
     # Card
     - title: "CRMScript Overview"
       itemType: overview
@@ -85,13 +85,13 @@ conceptualContent:
       links:
       - text: What is the customer center?
         itemType: concept
-        url: customer-center/overview.md
+        url: ../customer-center/overview.md
       - text: Config
         itemType: reference
-        url: customer-center/config.md
+        url: ../customer-center/config.md
       - text: Templates
         itemType: reference
-        url: customer-center/templates.md
+        url: ../customer-center/templates.md
     # Card
     - title: Automated tasks
       summary: ""

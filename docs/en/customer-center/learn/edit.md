@@ -2,18 +2,18 @@
 uid: help-en-customer-center-edit
 title: Customer centre source files
 description: Customer centre source files
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Service
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.16.2023
+keywords: Customer Center, CEP
+so.topic: howto
 language: en
 ---
 
 # Customer centre source files
 
-In the **Customer centre source files** screen, you can edit the default pages in your customer centre.
+You can update the default pages in your customer centre by editing the source files.
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 1. Select ![icon][img1] **System settings** > **Customer centre source files**.
 
@@ -33,4 +33,4 @@ If you later want to revert a page to the original contents, open the page and c
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
+[img1]: ../../../media/icons/settings-small.png

@@ -1,9 +1,11 @@
 ---
 title: Configuration
-uid: customer_senter_config
+uid: customer-senter-config
 description: Customer center configuration
 author: {github-id}
-keywords:
+so.date: 03.16.2023
+keywords: Customer Center, CEP, parser variable
+so.user: admin
 so.topic: reference
 ---
 
@@ -307,5 +309,5 @@ This template is displayed when entering the Customer Care Center.
 No other than the standard parser variables are available.
 
 <!-- Referenced links -->
-[1]: ../../request/reply-templates/index.md
+[1]: ../request/reply-templates/index.md
 [2]: templates.md

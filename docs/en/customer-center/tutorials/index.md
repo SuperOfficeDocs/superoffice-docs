@@ -5,4 +5,4 @@ so.date: 05.29.2021
 ---
 
 <!-- markdownlint-disable-file MD041 -->
-[!include[placeholder](../../../includes/default-index.md)]
+[!include[placeholder](../../includes/default-index.md)]

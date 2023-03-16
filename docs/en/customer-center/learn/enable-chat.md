@@ -1,5 +1,5 @@
 ---
-uid: help-en-customer-centre-chat
+uid: help-en-customer-center-chat
 title: Enable chat in customer centre
 description: Learn how to connect a chat channel to your Customer centre in this how-to guide.
 author: Bergfrid Dias
@@ -35,13 +35,13 @@ To connect the chat widget to your Customer centre you need to log into the Sett
 
 ## Related topics
 
-* [Customer languages][1]
 * [Configure customer center][2]
+* [Customer languages][1]
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/custlang/index.md
+[1]: ../../admin/options/learn/custlang/index.md
+[3]: ../../chat/learn/admin/channel-create.md
 [2]: config.md
-[3]: ../../../chat/learn/admin/channel-create.md
 
 <!-- Referenced images -->
 [img1]: media/connecting-widget.png

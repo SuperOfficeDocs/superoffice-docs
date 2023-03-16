@@ -4,7 +4,7 @@ uid: call_script_in_cs_with_ajax
 description: Using Ajax to call scripts in Customer Service
 author: Simen Mostuen Iversen
 so.date: 03.31.2014
-keywords: customer center
+keywords: Customer Center
 so.topic: tutorial
 ---
 

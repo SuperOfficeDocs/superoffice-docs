@@ -1,0 +1,31 @@
+items:
+  - name: Overview
+    href: overview.md
+  - name: Configuration
+    href: config.md
+  - name: FAQ entries
+    href: configure-faq.md
+  - name: Templates
+    href: templates.md
+  - name: Inline CRMSCript
+    href: inline-crmscript.md
+  - name: Access script
+    href: access-script.md
+  - name: Create web forms with special templates
+    href: create-webform-with-template.md
+  - name: Update extra table
+    href: update-extra-table.md
+  - name: Tutorials
+    items:
+    - name: Custom form - book appointment
+      href: tutorials/custom-form-book-apt.md
+    - name: Custom form - edit customer
+      href: tutorials/custom-form-edit-customer.md
+    - name: Custom form - form with signature
+      href: tutorials/custom-form-signature.md
+    - name: Call script in Service with AJAX
+      href: tutorials/call-script-in-cs-with-ajax.md
+    - name: Display KAM picture
+      href: tutorials/display-kam-picture.md
+    - name: Embed chat widget on external site
+      href: tutorials/embed-chat-widget.md

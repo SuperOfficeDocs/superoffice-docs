@@ -1,10 +1,11 @@
 ---
 title: Configure FAQ entries
-uid: config_faq
+uid: faq-config
 description: Configure FAQ entries
 author: {github-id}
-keywords:
+keywords: FAQ, CEP, Customer Center, registry, comment
 so.topic: howto
+so.user: admin
 ---
 
 # Configure FAQ entries
@@ -19,7 +20,7 @@ To enable comments:
 1. Run the following query first: `select * from crm7.registry where reg_id in (198, 199)`
 If nothing is returned by this query, first go to your Customer center and FAQs and the registry keys will be populated.
 
-    ![x -screenshot][img1]
+    ![Configure FAQ entries -screenshot][img1]
 
 1. Now you can change comment field access. Below are possible options:
     * 0 = none

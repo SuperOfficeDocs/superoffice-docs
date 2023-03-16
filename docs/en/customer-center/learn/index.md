@@ -3,8 +3,8 @@ uid: help-en-customer-centre
 title: Customer centre
 description: Customer centre
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
+so.date: 03.16.2023
+keywords: Customer Center
 so.topic: concept
 language: en
 ---
@@ -24,9 +24,10 @@ The Customer centre feature in the Customer Engagement Platform is a standalone 
 
 ## The Customer Center screen
 
-In the **Customer centre** screen, you define settings for the customer centre and manage customer languages. Select one of the following tabs:
+In the Customer Centre screen, you define settings for the customer centre and manage customer languages. Select one of the following tabs:
 
 * [Customer centre configuration][2]. In this tab, you can edit the styling and layout of your customer centre. You can see your changes in the preview on the right side of the screen.
+
 * [Customer centre source files][3]. In this tab, you can edit the default pages in your customer centre.
 
 ## Related topics
@@ -34,7 +35,7 @@ In the **Customer centre** screen, you define settings for the customer centre a
 * [Customer languages][1]
 
 <!-- Referenced links -->
-[1]: ../../../admin/options/learn/custlang/index.md
+[1]: ../../admin/options/learn/custlang/index.md
 [2]: config.md
 [3]: edit.md
 

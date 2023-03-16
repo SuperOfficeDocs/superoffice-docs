@@ -88,8 +88,8 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Customer centre configuration
-          url: ../service/customer-center/learn/config.md
+          url: ../customer-center/learn/config.md
         - text: Customer centre source files
-          url: ../service/customer-center/learn/edit.md
+          url: ../customer-center/learn/edit.md
         - text: Send passwords to contacts
-          url: ../service/customer-center/learn/send-credentials.md
+          url: ../customer-center/learn/send-credentials.md

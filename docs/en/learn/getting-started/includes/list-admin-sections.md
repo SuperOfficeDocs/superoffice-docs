@@ -24,7 +24,7 @@
 <!-- Referenced links -->
 [16]: ../../../chat/learn/index.md
 [21]: ../../../automation/crmscript/learn/index.md
-[23]: ../../../service/customer-center/learn/index.md
+[23]: ../../../customer-center/learn/index.md
 [24]: ../../../ui/blogic/learn/index.md
 [25]: ../../../admin/license/learn/index.md
 [26]: ../../../admin/user-management/learn/index.md

@@ -46,7 +46,7 @@ The chat widget is now available and live. Visitors to your website may start ch
 <!-- Referenced links -->
 [1]: channel-create.md
 [2]: ../../../ai/learn/index.md
-[3]: ../../../service/customer-center/learn/enable-chat.md
+[3]: ../../../customer-center/learn/enable-chat.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../common/icons/nav-admin-chat-active.png

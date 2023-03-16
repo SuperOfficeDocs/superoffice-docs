@@ -1,10 +1,12 @@
 ---
 title: Template
-uid: customer_center_template
+uid: customer-center-template
 description: Customer center templates
 author: {github-id}
-keywords:
+so.date: 03.16.2023
+keywords: Customer Center, CEP
 so.topic: howto
+so.user: admin
 so.envir: onsite
 ---
 
@@ -59,7 +61,7 @@ The other variables should be self-explaining if you study the templates. Be awa
 
 You can also create your own custom templates, which for example can make a request in Requests based on information from the web page. The following described how to make such templates.
 
-## How can I create drop-downs on the customer pages where you can choose the category from a hierarchical view?
+## How can I create category drop-downs on the customer pages?
 
 Customer Center is default shipped with templates that lists the categories in a single drop-down. If you want these to show the categories in a hierarchy, you have to make some small changes to the templates.
 

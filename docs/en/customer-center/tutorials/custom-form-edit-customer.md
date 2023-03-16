@@ -4,7 +4,7 @@ title: Custom form - edit customer
 description: Custom form in Customer Centre to edit a customer
 author: kronicz
 so.date: 09.15.2011
-keywords: CRMScript
+keywords: CRMScript, Customer Center, form
 so.topic: tutorial
 ---
 

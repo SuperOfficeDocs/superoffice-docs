@@ -3,15 +3,15 @@ uid: help-en-customer-center-config
 title: Customer centre configuration
 description: Learn how to configure your Customer centre in this how-to guide.
 author: SuperOffice RnD
-so.date: 02.27.2023
+so.date: 03.16.2023
 keywords: Service, Customer centre, CEP
 so.topic: howto
 language: en
 ---
 
-# Customer centre configuration
+# Configure Customer Centre
 
-[!include[Requirement](../../../learn/includes/req-cep.md)]
+[!include[Requirement](../../learn/includes/req-cep.md)]
 
 You can edit the styling and layout of your customer centre and preview the changes.
 
@@ -24,13 +24,11 @@ If your customer centre is multi-lingual, you can set options (such as welcome t
 
 ## Steps
 
-You can configure your Customer Centre either in Settings and maintenance or in SuperOffice Service.
+1. Select ![icon][img1] **Settings and maintenance** > **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to a preview of the Customer Centre page.
 
-1. Select ![icon][img1] **Settings and maintenance** > **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to the Customer Centre page where you can preview your Customer Centre.
+2. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors, and fonts. The preview is updated automatically.
 
-2. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors and fonts. The preview is updated automatically.
-
-    ![You check the preview on your Customer centre to see what it will look like -screenshot][img3]
+    ![Preview your customer center pages -screenshot][img3]
 
 3. Go to the **Options** tab.
 
@@ -66,6 +64,6 @@ You can configure your Customer Centre either in Settings and maintenance or in 
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
+[img1]: ../../../media/icons/settings-small.png
 [img2]: media/customer-centre-chat-with-agents.jpg
 [img3]: media/config-cust-centre.png

@@ -148,7 +148,7 @@ items:
         topicHref: ../request/learn/invoice/index.md
 
     - name: Customer center
-      href: ../service/customer-center/learn/toc.yml
+      href: ../customer-center/learn/toc.yml
 
     - name: System design
       href: ../ui/blogic/learn/toc.yml
