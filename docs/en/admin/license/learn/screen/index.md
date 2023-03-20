@@ -5,7 +5,7 @@ description: The Licences screen in Settings and maintenance
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: license, metered service, database owner, status tab
-so.topic: help
+so.topic: reference
 language: en
 ---
 
@@ -13,10 +13,10 @@ language: en
 
 ## The SuperOffice tab
 
-In the **SuperOffice** tab in the **Licences** screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
+In the **SuperOffice** tab in the Licences screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
 
 > [!NOTE]
-> If a third-party module or similar is installed, several tabs are displayed here.
+> If a third-party add-on is installed, several tabs are displayed here.
 
 ### Owner information
 
@@ -28,7 +28,7 @@ The list at the bottom shows which licenses are in use and how many are availabl
 
 ## The Status tab
 
-Updated information about the system is displayed in the **Status** tab in the **Licences** screen. The **Status** screen is divided into the following main sections:
+Updated information about the system is displayed in the **Status** tab in the Licences screen. The **Status** screen is divided into the following main sections:
 
 ### Database
 

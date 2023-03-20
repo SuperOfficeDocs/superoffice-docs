@@ -27,7 +27,7 @@ The following types of events are started from the various screens in Settings a
 
 * **ROURebuild**: counters or status monitors are being regenerated. Status images, the **Statistics** tab and counters are unavailable while the event is underway. (Status monitors require a [separate license][2].)
 
-You can start the following types of event from the **Licences** screen **Status** tab:
+You can start the following types of event from the Licences screen **Status** tab:
 
 * **No Login**: Select this event to prevent login during server or database upgrades, scheduled maintenance, and so on.
 * **No Freetext**: Select this event to limit the size of the outgoing Travel database.

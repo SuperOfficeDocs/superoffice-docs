@@ -43,7 +43,7 @@ Watch this video or follow the steps below.
 
 ## <a id="more-tab" />The More tab (Company screen)
 
-1. Go to the **More** tab. This tab contains user-defined fields for companies. If, for example, your organization needs to have fields for the number of employees in the company or for its turnover, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
+1. Go to the **More** tab. This tab contains user-defined fields for companies. If, for example, your organization needs to have fields for the number of employees in the company or for its turnover, you can specify in Settings and maintenance that these fields are to be inserted here.
 
 2. Enter the information.
 
@@ -56,7 +56,7 @@ Watch this video or follow the steps below.
 
 1. Go to the **Interests** tab.
 
-2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests are displayed.
+2. In edit mode, specify interests by checking the relevant boxes. Settings and maintenance defines which interests are displayed.
 
     > [!NOTE]
     > When the tab is in view mode, only the selected interests are displayed. When you are in edit mode, there may well be further interests options available.

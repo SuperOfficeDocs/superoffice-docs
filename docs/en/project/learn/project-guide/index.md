@@ -21,7 +21,7 @@ Each status of the project guide comes with specific activities like follow-ups 
 
 You can build your own process depending on the different types of projects your company engages in. The best way to define your own project guides is to first discuss and agree on the best practices for all your projects.
 
-The project guide is defined in SuperOffice Settings and maintenance.
+The project guide is defined in Settings and maintenance.
 
 You can preview documents and activities in the **Preview** view in the side panel.
 

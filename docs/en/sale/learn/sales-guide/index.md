@@ -29,7 +29,7 @@ The best way to define your own workflow is, first and foremost, to discuss and 
 
 For example, you can have a sales type with guide for prospects, for existing customer and one for long-term sales processes that contain many stages and activities.
 
-The sales guide is defined in SuperOffice Settings and maintenance.
+The sales guide is defined in Settings and maintenance.
 
 ![sales guide -screenshot][img1]
 

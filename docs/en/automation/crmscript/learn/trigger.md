@@ -26,8 +26,9 @@ This is an example of a very simple trigger. You can for instance add conditions
 
 We will now create a series of actions based on the example above.
 
-1. Select **Settings and maintenance** > **CRMScript**.
-1. Select the **Triggers** tab.
+[!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Click **CRMScript** and select the **Triggers** tab.
 1. Click the **New trigger (macro)** button. The **Choose trigger** screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select **Request closed**, so that the macro is run when a request is closed in SuperOffice Service.
 1. Type "request" in the search field and select the trigger called **Request closed**.
 1. Enter a description of the trigger in the **Description** field.

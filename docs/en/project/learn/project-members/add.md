@@ -35,9 +35,9 @@ To link the project to a company, you must specify at least one project member.
     > [!NOTE]
     > If the required name is not in the list, you must first [create the contact][2].
 
-7. Click the arrow button to the right of the list ( ![icon][img2] ). The contact(s) will then be displayed on the right of the dialog.
+7. Click the ![icon][img2] arrow button to the right of the list. The contact(s) will then be displayed on the right of the dialog.
 
-8. In the **Function** field, specify the function each person has in the project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
+8. In the **Function** field, specify the function each person has in the project. Click the arrow to display a list of predefined alternatives to choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 9. In the large text box under **Comment**, enter a more detailed description of the person's function within the project, if required.
 
@@ -66,7 +66,7 @@ You can add project members and stakeholders from the contact lists in different
 
 4. In the **Sale** or **Project** field, specify which sale/project to add the contacts to. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
 
-5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
+5. In the **Sales role** or **Function** field, specify the sales role/function each person has in the sale/project. Click the arrow to display a list of predefined alternatives to choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 6. Click **Save**.
 

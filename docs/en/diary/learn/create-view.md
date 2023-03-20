@@ -23,7 +23,7 @@ You can add a selection of users and resources in your organization to a view.
     > To edit an existing view, click **Edit**, and to copy an existing view, click **Copy**.
 
     <details><summary>Why is the Edit button greyed out?</summary>
-    You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
+    You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
     To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
     </details>
@@ -38,7 +38,7 @@ You can add a selection of users and resources in your organization to a view.
 
     * If you selected **Project**, the history list of projects is displayed.
 
-    * If you selected **Resource**, a list of resource groups in your organization is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organization.
+    * If you selected **Resource**, a list of resource groups in your organization is displayed. This list is defined in Settings and maintenance. Select **All** to see all the resources in your organization.
 
 1. Select the users/resources you require and click the right arrow ( ![icon][img2] ) to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 

@@ -18,28 +18,28 @@ Many companies often receive requests relating to invoicing. Such requests shoul
 
 We will now create a macro based on the example above.
 
-1. Select **Settings and maintenance** > **CRMScript**.
+[!include[Go to](../../../learn/includes/goto-sm.md)]
 
-2. Do one of the following:
+1. Select **CRMScript** and do one of the following:
     * To create a new macro: Click **New macro**.
     * To edit an existing macro: Click the macro name.
 
-3. In the **Information** tab, enter "Send request to Accounts Dept." in the **Name** field and enter a description in the field below.
+1. In the **Information** tab, enter "Send request to Accounts Dept." in the **Name** field and enter a description in the field below.
 
-4. Select the **New menu** option to make the macro available from the ![icon][img1] **Task** button in the Company screen, Contact screen, or Request screen, or the **Message** tab.
+1. Select the **New menu** option to make the macro available from the ![icon][img1] **Task** button in the Company screen, Contact screen, or Request screen, or the **Message** tab.
 
-5. Go to the **Actions** tab and select **Choose action type** > **Change a request**.
+1. Go to the **Actions** tab and select **Choose action type** > **Change a request**.
 
-6. Check **Category** and select a category in the list (for instance *Accounting*).
+1. Check **Category** and select a category in the list (for instance *Accounting*).
 
-7. Check **Owner** and select a user.
+1. Check **Owner** and select a user.
 
     > [!TIP]
     > Alternatively, you can select **Automatically assigned** to allow the system to distribute the request according to current distribution rules.
 
-8. Check **Internal message** and write a brief standard message to the accounts department about why they received this request.
+1. Check **Internal message** and write a brief standard message to the accounts department about why they received this request.
 
-9. Click **OK** when you are done.
+1. Click **OK** when you are done.
 
 ## Related content
 

@@ -11,7 +11,7 @@ language: en
 
 # Use search criteria
 
-You can add or edit search criteria in, for example, the **Find** dialog, the **Add/edit search criteria** dialog, and the criteria list in the **SAINT** screen.
+You can add or edit search criteria in, for example, the Find screen, the **Add/edit search criteria** dialog, and the criteria list in the SAINT screen.
 
 ## Add search criteria
 
@@ -134,7 +134,7 @@ In the list box, select the field you want to search for information in. The fie
 
 ## Change search criteria
 
-To change a search criterion in the **Find** dialog, click it and select a different one from the list that appears.
+To change a search criterion in the Find screen, click it and select a different one from the list that appears.
 
 <!-- Referenced links -->
 [1]: ../../lists/learn/sale-amount-class.md

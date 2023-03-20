@@ -45,7 +45,7 @@ You can create a follow-up to appear, for example, on the activities list of all
     * **My activities list**: All follow-ups will end up in your own activities list.
 
     * **Company owner's (our contact's) activities list**: The follow-ups will be distributed to the activities lists of the people defined as *our contact* for each company.
-        The user must have been assigned rights for this in SuperOffice Settings and maintenance.
+        The user must have been assigned rights for this in Settings and maintenance.
 
     * **Other associate**: Choose the desired option from the list of current contacts.
         The contacts available depend on your **user level**.

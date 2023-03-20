@@ -36,7 +36,9 @@ The following factors determine which requests a request handler can get from th
 
 First, we will create a new request status: **In queue**. New requests should automatically be assigned this request status.
 
-1. Select **Settings and maintenance** > **Requests** > **Request status**.
+[!include[Go to](../../learn/includes/goto-sm.md)]
+
+1. Select **Requests** > **Request status**.
 
 1. Click the **Add** button.
 
@@ -64,11 +66,13 @@ The new request status is shown in the list, and there is a check mark in the co
 Now you must ensure that you are a member of the category or categories you are going to manage. We must also specify that requests belonging to these categories should not be assigned according to the assignment method.
 
 > [!NOTE]
-> Membership in categories can also be defined at group level. In ![icon][img2] **Settings and maintenance** > **Users** > **User groups** you can state categories for the various user groups.
+> Membership in categories can also be defined at group level. In Settings and maintenance (**Users** > **User groups**) you can state categories for the various user groups.
 
 **Steps:**
 
-1. Select ![icon][img2] **Settings and maintenance** > **Requests** > **Categories**.
+[!include[Go to](../../learn/includes/goto-sm.md)]
+
+1. Select **Requests** > **Categories**.
 
 1. Click the required category name. This takes you to the **Category properties** screen.
 
@@ -97,4 +101,3 @@ Create a new request, set **Owner** to **Unassigned**, select the category you a
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../media/icons/settings-small.png

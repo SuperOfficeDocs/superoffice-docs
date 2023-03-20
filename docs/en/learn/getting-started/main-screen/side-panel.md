@@ -20,7 +20,7 @@ Use the side panel to view and use information from other parts of your CRM solu
 > [!TIP]
 > You can minimize the side-panel by clicking the ![icon][img4] minimize icon on the upper right corner, to get more room for the main cards and archives.
 
-The side panel is useful for showing information complementary to the screen you are in. For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the Diary screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the Project screen. You can also add custom views to the side panel, from SuperOffice Settings and Maintenance.
+The side panel is useful for showing information complementary to the screen you are in. For example, you can display the monthly calendar at the same time as you are viewing the daily calendar in the Diary screen, to give you a better overview, or you can show the members of a selection linked to a project you are looking at in the Project screen. You can also add custom views to the side panel, from Settings and Maintenance.
 
 By default, the side panel shows a preview of the selected record. After you have selected a view in a tab in a screen, SuperOffice CRM remembers this the next time the same tab is displayed.
 
@@ -129,7 +129,7 @@ Shows a list of members of the current selection in the Selection screen.
 
 ## User-defined views
 
-In SuperOffice Settings and maintenance, you can also define your own views for the side panel.
+In Settings and maintenance, you can also define your own views for the side panel.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/using-history-list.md

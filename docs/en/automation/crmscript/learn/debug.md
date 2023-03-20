@@ -18,8 +18,9 @@ The **Debug sessions** tab contains a list of all active debug sessions in the s
 
 ## Go to the Debug sessions tab
 
-1. Select **Settings and maintenance** > **CRMScript**.
-1. Go to the **Debug sessions** tab.
+[!include[Go to](../../learn/includes/goto-sm.md)]
+
+1. Click **CRMScript** and select the **Debug sessions** tab.
 
 ## Start debug session
 
@@ -33,8 +34,9 @@ The debug tool makes it easy to find and fix bugs inside your scripts and macros
 
 You can debug a script or macro by opening it in the **Macros and scripts** tab and click ![icon][img4] **Debug script**.
 
-1. Select **Settings and maintenance** > **CRMScript**.
-1. Go to the **Macros and scripts** tab.
+[!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Click **CRMScript** and select the **Macros and scripts** tab.
 
 You can also click ![icon][img3] **Trace script** to start [tracing a script][2].
 

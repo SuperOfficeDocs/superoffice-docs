@@ -86,7 +86,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
         If the field you are searching in is a status field, select the required status.
 
-        The statuses are created and maintained in SuperOffice Settings and maintenance.
+        The statuses are created and maintained in Settings and maintenance.
 
         * Status fields are only relevant if you have purchased a licence for and have enabled status monitors.
 
@@ -103,7 +103,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
         Counter fields can be found under **Counters (SAINT)** in the list of criteria.
 
-        The counters are created and maintained in SuperOffice Settings and maintenance.
+        The counters are created and maintained in Settings and maintenance.
 
         * Counter fields are only relevant if you have purchased a licence for and have enabled status monitors.
 

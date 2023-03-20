@@ -1,7 +1,7 @@
 ---
 uid: help-en-project-status-add
 title: Add a project status
-description: How to add a project status in SuperOffice Settings and maintenance
+description: How to add a project status in SuperOffice.
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project

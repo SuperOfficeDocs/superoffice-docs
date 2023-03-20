@@ -20,10 +20,9 @@
   * In the **Category** field, select the category the contact belongs to, from a predefined list of categories. Click the arrow to show the category list.
   * In the **Business** field, select from a list of different predefined types of business. Click the arrow and choose the business that best matches the contact you are creating.
 
-* Fill in the **Number** field as required. **Number** is assigned automatically if set up in SuperOffice Settings and maintenance.
+* Fill in the **Number** field as required. **Number** is assigned automatically if set up in Settings and maintenance.
 
-> [!NOTE]
-> Three of the user-defined fields from the **More** tab may also be displayed here, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+* [!include[3 udef](../../../learn/includes/more-udef.md)]
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/preferences.md

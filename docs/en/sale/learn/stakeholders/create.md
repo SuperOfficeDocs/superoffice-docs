@@ -21,7 +21,7 @@ language: en
 2. Select the **Stakeholders** section tab.
 
     > [!NOTE]
-    > If this section tab is not displayed, it must be specified in SuperOffice Settings and maintenance that this sales type has stakeholders.
+    > If this section tab is not displayed, it must be specified in Settings and maintenance that this sales type has stakeholders.
 
 3. Click the **Add** button below the section tab. The **Add stakeholders** dialog opens.
 
@@ -41,7 +41,7 @@ language: en
     > [!NOTE]
     > If the required name is not in the list, you must first [create the contact][3].
 
-8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. These are defined in SuperOffice Settings and maintenance.
+8. In the **Sales role** field, specify the role each of the companies and/or contacts has in the sale. Select the company and/or contact and click the arrow. This brings up a list of predefined alternatives to choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)]
     A company/contact can be added as a stakeholder multiple times if different roles are specified in each case.
 
 9. In the large text box under **Comments**, enter a more detailed description of the company's or contact's function within the sale, if required.

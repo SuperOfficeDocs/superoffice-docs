@@ -73,7 +73,7 @@ There are many ways you can add contacts to SuperOffice CRM:
 
 ## <a id="more-tab" />The More tab (Contact screen)
 
-The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
+The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in Settings and maintenance that these fields are to be inserted here.
 
 Other examples: Year employed, ERP IDs, user type, CXM info.
 
@@ -81,7 +81,7 @@ Other examples: Year employed, ERP IDs, user type, CXM info.
 
 In the **Interests** tab you have the following options:
 
-* **Interests:** Here you select what interests a contact has. Interests are used to create selections for mailings and similar. The available interests are defined in SuperOffice Settings and maintenance.
+* **Interests:** Here you select what interests a contact has. Interests are used to create selections for mailings and similar. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
     > [!TIP]
     > Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.

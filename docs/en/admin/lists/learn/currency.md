@@ -4,8 +4,9 @@ title: Currency
 description: Currency
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: currency, sale
+so.topic: reference
+so.user: admin
 language: en
 ---
 

@@ -44,7 +44,7 @@ In the **Event** tab, you can specify settings for publishing events.
 
 ![The More tab (Project) -screenshot][img4]
 
-The **More** tab displays user-defined fields for the project. If your organization needs more fields than the default fields in the **Project** tab, you can specify in SuperOffice Settings and maintenance that these fields will be inserted here.
+The **More** tab displays user-defined fields for the project. If your organization needs more fields than the default fields in the **Project** tab, you can specify in Settings and maintenance that these fields will be inserted here.
 
 Click **Edit** to edit the project information in the **More** tab.
 

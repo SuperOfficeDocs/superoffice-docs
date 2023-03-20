@@ -25,15 +25,11 @@ In the **Customer languages** screen is a list of the installed customer languag
 
 For example:
 
-* You can have multiple language versions of SuperOffice Customer Centre, the FAQ module and the reply templates.
+* You can have [multiple language versions][2] of SuperOffice Customer Centre, FAQs, and reply templates.
 * You can specify a language for a contact, so that person will automatically receive reply templates in that language.
 * [Requests to user support can be categorized][3] in several groups that can refer to defined departments and languages.
 
 On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were placed in the folder **\\templates** on the server. You must set up these customer languages yourself.
-
-## What would you like to find out more about?
-
-* [How SuperOffice Service selects the customer language for new contacts][2]
 
 <!-- Referenced links -->
 [1]: edit-custlang.md

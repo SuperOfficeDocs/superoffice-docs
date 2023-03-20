@@ -133,14 +133,17 @@ Product
 If contacts in the import source are not listed with a company, you have three options in the **If no company name** list box:
 
 * **Create company using contact name**: A company will be created using the contact name, with himself as the only contact.
+
 * **Skip - do not create company or contact**: The contact will not be imported.
+
 * **Import contacts without company**: The contact will be imported with no link to a company. This option is possible only if the global preference **Mandatory company on contact** is set to **No**.
 
 ## Privacy options for imported contacts
 
 When you import contacts, you must also set the legal basis and consent source for the purpose **Sales and service**:
 
-* **Legal basis**: Select a [legal basis][1] from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen.
+* **Legal basis**: Select a [legal basis][1] from the list, or select **Use default** to use the default value defined in the Privacy screen.
+
 * **Consent source**: This value is by default set to **Import**, but you can select another value in the list.
 
 ## Manage list values that do not exist in SuperOffice

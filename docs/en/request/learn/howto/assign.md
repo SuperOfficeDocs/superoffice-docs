@@ -28,11 +28,13 @@ For a request to be your responsibility, your name must appear in the request's 
 
 A request handler with category administration rights can specify the assignment method for categories:
 
-1. Go to **Settings and maintenance** > **Requests** > **Categories**.
-2. Select the required category.
-3. Select the **Assignment method** tab.
-4. Select the appropriate options.
-5. Click **OK**.
+[!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Select **Requests** > **Categories**.
+1. Select the required category.
+1. Select the **Assignment method** tab.
+1. Select the appropriate options.
+1. Click **OK**.
 
 ## Example
 

@@ -23,7 +23,7 @@ Regular use of the diary helps you to automatically connect and share appointmen
 
 ## Work with follow-ups
 
-In SuperOffice CRM, follow-up is a collective term for the [appointment][1], [task][2], and [phone call][3] activities. These all function in largely the same way.
+Follow-up is a collective term for the [appointment][1], [task][2], and [phone call][3] activities. These all function in largely the same way.
 
 > [!NOTE]
 > It is important to understand the distinction between activities and follow-ups (appointments, tasks and phone calls).
@@ -32,7 +32,7 @@ When you create follow-ups from the Diary screen, by default they are defined as
 Follow-ups are closely linked to the Diary screen, and some functions apply especially to the Diary.
 
 > [!TIP]
-> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the Diary screen in SuperOffice CRM with the same background color.
+> In Settings and maintenance, you can define that all follow-ups of a specific type should be displayed in the Diary screen with the same background color.
 
 ## What would you like to do now?
 

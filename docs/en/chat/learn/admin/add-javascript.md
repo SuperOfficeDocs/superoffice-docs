@@ -21,9 +21,10 @@ Now that you have [configured the chat widget][1], this step will show you how t
 
 ## Steps
 
-1. Go to **Settings and maintenance** and select ![icon][img2] **Chat** in the Navigator.
-1. Select a chat channel in the list.
-1. Click **View**. The JavaScript for the selected chat channel is displayed.
+[!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Select ![icon][img2] **Chat** in the Navigator.
+1. Select a chat channel in the list and click **View**. The JavaScript for the selected chat channel is displayed.
 1. Select and copy the script.
 1. Log in to the editor page of your website.
 1. Go to the section where you can edit or add HTML code.

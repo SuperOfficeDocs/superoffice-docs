@@ -11,7 +11,7 @@ language: en
 
 # Change a preference
 
-You can specify settings for different parts of SuperOffice CRM, for example, the number of items to display in the history list and the default currency for sales. All preference settings are defined in SuperOffice Settings and maintenance, but users can modify some individually in SuperOffice CRM.
+You can specify settings for different parts of SuperOffice CRM, for example, the number of items to display in the history list and the default currency for sales. All preference settings are defined in Settings and maintenance, but users can modify some individually in SuperOffice CRM.
 
 ![Go to your personal setting and choose the setting you want to change -screenshot][img13]
 

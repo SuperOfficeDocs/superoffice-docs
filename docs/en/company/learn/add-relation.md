@@ -32,7 +32,7 @@ language: en
 
 1. In the **Contact** list box under **Passive part**, specify a contact for the passive party, if required. Use the same procedure as under **Active part**.
 
-1. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. The available alternatives are defined in SuperOffice Settings and maintenance.
+1. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
     > [!NOTE]
     > The alternatives displayed in this list box also depend on if it is a relation between two companies, between a company and a contact, or between two contacts.

@@ -15,7 +15,7 @@
 
 8. The **Owner** field automatically displays the user currently logged in. You can select a different user if required.
 
-9. Enter the sale type in the **Sale type** field. Click the arrow to display a list of available sale types. These are defined in SuperOffice Settings and maintenance.
+9. Enter the sale type in the **Sale type** field. Click the arrow to display a list of available sale types. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
     > [!NOTE]
     > Some sale types are linked to a [sales guide][1]. If you switch sale type, the associated sales guide also disappears. Any follow-ups and documents created in connection with the sales guide will remain on the **Activities** section tab in the diary. If you later switch back to the original sale type, the link between the follow-ups/documents and the sales guide is restored.
@@ -24,12 +24,12 @@
 
     * If the sale type for the sale does not have any stages linked to it, the sale has the status **Open**. If you click the arrow, you can set the sale to **Sold** and **Lost**. The fields below then change so you can enter the date, competitor and reason for the [sold/lost sale][2].
 
-    * If the sale type for the sale does have stages linked to it, you can click the arrow to select a sale stage. A sale type with different sale stages can be linked to a [sales guide][1] and is predefined in SuperOffice Settings and maintenance.
+    * If the sale type for the sale does have stages linked to it, you can click the arrow to select a sale stage. A sale type with different sale stages can be linked to a [sales guide][1] and is predefined in Settings and maintenance.
 
     > [!NOTE]
     > When you change a stage, for example from **First meeting** to **Quotation**, the first stage in the **Sales guide** section tab is marked as completed, with a tick.
 
-11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. It is linked to the stage and is specified in the SuperOffice Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
+11. To the right of the **Stage** field is a percentage that indicates the probability of the sale being successful at this stage. It is linked to the stage and is specified in the Settings and maintenance. You can however change this manually in SuperOffice CRM if you wish.
 
 12. You can check the **Stalled** box to indicate that the sale has [stalled][2]. For example, if the customer decides to wait until next year before purchasing.
 

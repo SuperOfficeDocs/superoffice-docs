@@ -28,7 +28,7 @@ The main section contains the following essential information about the document
 
 ### Document template
 
-Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher][6].
+Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)] Here you can also use [FastSearcher][6].
 
 > [!NOTE]
 > When you [create a document][5], the template opens in the program it was created in. For example, DOCX files will open in Word.
@@ -66,7 +66,7 @@ Today's date is displayed automatically in this field. If you click the arrow ne
 
 ### Our ref
 
-Enter your own reference. The default entry for each template is defined in SuperOffice Settings and maintenance, but you can also edit the content of this field.
+Enter your own reference. The default entry for each template is defined in Settings and maintenance, but you can also edit the content of this field.
 
 ### Your ref
 
@@ -99,10 +99,10 @@ By default, the document is marked as completed (![icon][img4]), but you can rem
 
 ### User-defined fields
 
-Here, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+[!include[3 udef](../../../learn/includes/more-udef.md)]
 
 > [!NOTE]
-> User group membership is defined in the Users screen in SuperOffice Settings and maintenance.
+> User group membership is defined in the Users screen in Settings and maintenance.
 
 ### Task
 
@@ -113,7 +113,7 @@ When you click this button, the following options are displayed:
 * **Copy shortcut**: Copies a [shortcut to the active entry][9].
 * **Revert to saved version**: Select this option to [cancel a check-out][4]. For example, if you checked out the document by mistake and are unable to check it in again.
 
-Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
+Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ## Details tab
 
@@ -135,7 +135,7 @@ This tab contains information about activities (documents and follow-ups) and sa
 
 ## More tab
 
-This tab displays any [user-defined fields][3] configured in SuperOffice Settings and maintenance.
+This tab displays any [user-defined fields][3] configured in Settings and maintenance.
 
 ## The www tab
 

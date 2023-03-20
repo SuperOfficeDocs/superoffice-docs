@@ -51,7 +51,7 @@ There are many standard reports to choose from – like Actual Sales, Projected 
 
 ### Steps
 
-1. Open the Reports module and select the Sale tab at the top.
+1. Open Reports and select the **Sale** tab at the top.
 
 1. You can now choose the reports you wish to use. Take your pick from the report list.
 

@@ -1,7 +1,7 @@
 ---
 uid: help-en-sale-guide-admin
 title: Sales guide tab 
-description: The Sales guide tab in the Workflow screen in SuperOffice Settings and maintenance.
+description: The Sales guide tab in the Workflow screen in SuperOffice.
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, guide

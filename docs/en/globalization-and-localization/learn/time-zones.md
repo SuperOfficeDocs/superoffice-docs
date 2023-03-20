@@ -14,7 +14,7 @@ language: en
 SuperOffice CRM supports follow-ups in different time zones. Time zones are enabled if there is a list box for selecting a time zone at the lower left of the diary (flag and country).
 
 > [!NOTE]
-> Use of time zones must be enabled per country in SuperOffice Settings and maintenance (under **Options** > **Time zones**). In addition, you can go to **Preferences** to show the time zone selector and set the default time zone. More help on how to set up time zones can also be found there.
+> Use of time zones must be enabled per country in Settings and maintenance (under **Options** > **Time zones**). In addition, you can go to **Preferences** to show the time zone selector and set the default time zone. More help on how to set up time zones can also be found there.
 
 ## How do time zones work in SuperOffice CRM?
 

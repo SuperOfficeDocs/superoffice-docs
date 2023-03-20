@@ -24,23 +24,25 @@ If your customer centre is multi-lingual, you can set options (such as welcome t
 
 ## Steps
 
-1. Select ![icon][img1] **Settings and maintenance** > **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to a preview of the Customer Centre page.
+[!include[Go to](../../learn/includes/goto-sm.md)]
 
-2. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors, and fonts. The preview is updated automatically.
+1. Select **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to a preview of the Customer Centre page.
+
+1. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors, and fonts. The preview is updated automatically.
 
     ![Preview your customer center pages -screenshot][img3]
 
-3. Go to the **Options** tab.
+1. Go to the **Options** tab.
 
-4. Select the language version you want to edit.
+1. Select the language version you want to edit.
 
-5. Edit the options. See details about each option below.
+1. Edit the options. See details about each option below.
 
-6. Click **Save**.
+1. Click **Save**.
 
-7. Repeat steps 4-6 to set the options for another language.
+1. Repeat steps 4-6 to set the options for another language.
 
-8. Click **Save** when you are done.
+1. Click **Save** when you are done.
 
 ## Options
 
@@ -64,6 +66,5 @@ If your customer centre is multi-lingual, you can set options (such as welcome t
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/settings-small.png
 [img2]: media/customer-centre-chat-with-agents.jpg
 [img3]: media/config-cust-centre.png

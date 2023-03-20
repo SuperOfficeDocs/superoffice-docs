@@ -23,7 +23,7 @@ If a project guide is defined for a project type that you specify for a project,
 
 2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] or [The dialog for follow-ups][2].
 
-    You can delegate the follow-up to your colleagues by setting them as the owner of the follow-up. If defined in SuperOffice Settings and maintenance for a specific follow-up, the **Assign task to project member** dialog appears, where you can select a colleague as the owner of the follow-up.
+    You can delegate the follow-up to your colleagues by setting them as the owner of the follow-up. If defined in Settings and maintenance for a specific follow-up, the **Assign task to project member** dialog appears, where you can select a colleague as the owner of the follow-up.
 
 3. When you complete the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Project guide** section tab. By default, documents are marked as completed.
 
@@ -43,7 +43,7 @@ You can move the project to the next status in two ways:
 
 * To move the project to the next status automatically:
 
-    It can be defined in SuperOffice Settings and maintenance that the project guide should propose moving the project on to the next status when the last follow-up in a status is marked as complete. The **Project guide - move the project to the next status** dialog then opens.
+    It can be defined in Settings and maintenance that the project guide should propose moving the project on to the next status when the last follow-up in a status is marked as complete. The **Project guide - move the project to the next status** dialog then opens.
 
     Click **Yes** to move the project to the next status, or click **No** to continue working on the project within the same status.
 
@@ -55,7 +55,7 @@ You can move the project to the next status in two ways:
 
     1. Click **Edit** on the main **Project** card.
     2. Click the arrow next to the **Status** field.
-    3. Select the required status from the list that appears. The available options are defined in SuperOffice Settings and maintenance.
+    3. Select the required status from the list that appears. [!include[SM](../../../learn/includes/are-defined-sm.md)]
     4. Click **Save**.
 
 ## Example
@@ -101,7 +101,7 @@ You record a new project and select the **Conference** project type, which is li
     3. Click **Yes** to move the project to the next status.
 
     > [!NOTE]
-    > The **Project guide - move the project to the next status** dialog opens because that is what is defined for the project type in SuperOffice Settings and maintenance.
+    > The **Project guide - move the project to the next status** dialog opens because that is what is defined for the project type in Settings and maintenance.
 
 ### The In progress status
 
@@ -122,7 +122,7 @@ You record a new project and select the **Conference** project type, which is li
     4. The follow-up is displayed in your colleague's diary, and after they have sett up the list, they will mark the follow-up as **Completed**.
 
         > [!NOTE]
-        > The **Assign task to project member** dialog opens because that is what is defined in SuperOffice Settings and maintenance.
+        > The **Assign task to project member** dialog opens because that is what is defined in Settings and maintenance.
 
 3. You now want to produce an invitation letter.
 

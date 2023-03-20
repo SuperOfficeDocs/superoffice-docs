@@ -4,8 +4,8 @@ title: Email setup for video meetings
 description: Email setup for video meetings
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: video meeting
+so.topic: howto
 language: en
 ---
 

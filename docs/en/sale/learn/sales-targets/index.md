@@ -47,7 +47,7 @@ The following functions are available only with the Sales Targets Unlimited lice
 * Adding additional target types (dimensions)
 * Creating targets for multiple groups/teams
 **Access**
-Access to the **Targets** feature is set by your administrator in SuperOffice Settings and maintenance.
+Access to the **Targets** feature is set by your administrator in Settings and maintenance.
 **Data rights**
 To access this feature, you need data rights for **Target**.
 **Functional rights**

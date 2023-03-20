@@ -23,7 +23,7 @@ The buttons for the different statuses are displayed at the top of the section t
 
 Each status in the project guide contains different follow-ups and/or documents, which are shown in the lower half of the section tab. They are listed in two columns, **Follow-ups** and **Documents**. If you click the button for a status, the lower half of the section tab shows which activities belong to the status.
 
-The ![icon][img7] icon is displayed in front of follow-ups defined as milestones. The definition is done in SuperOffice Settings and maintenance. The main card shows the date for the next milestone follow-up in the **Next milestone** field.
+The ![icon][img7] icon is displayed in front of follow-ups defined as milestones. The definition is done in Settings and maintenance. The main card shows the date for the next milestone follow-up in the **Next milestone** field.
 
 Click **Create** next to the follow-ups and documents to create them. You can also click the title of the follow-up or document to create it.
 

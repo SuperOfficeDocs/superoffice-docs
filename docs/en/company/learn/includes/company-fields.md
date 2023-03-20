@@ -21,7 +21,7 @@
 
 10. The **Code** field automatically suggests a code for the company that you are creating (after you click **Save**). The code is based on the company name. However, you can enter a different code.
 
-11. In the **Number** field, SuperOffice CRM automatically enters the next available company number. The default setting is 10001 for the first company number and the value increases by 1 for each new company. You can change this default setting in SuperOffice Settings and maintenance.
+11. In the **Number** field, SuperOffice CRM automatically enters the next available company number. The default setting is 10001 for the first company number and the value increases by 1 for each new company. You can change this default setting in Settings and maintenance.
 
 12. In the **VAT No.** field, type in the company's VAT number or similar number.
 
@@ -29,7 +29,7 @@
 
 14. In the **Main contact** field, select the contact who should be the main contact for this client. You must add contacts to the company first.
 
-15. At the lower right of this tab, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+15. [!include[3 udef](../../../learn/includes/more-udef.md)]
 
 16. The lower left corner of the company card contains two checkboxes: **Stop** and **No Mailings**.
 

@@ -56,12 +56,12 @@ You can move the project to the next status in two ways:
 
 1. Click **Edit** on the **Sale** tab.
 2. Click the arrow next to the **Stage** field.
-3. Select the required stage from the list that appears. Apart from the statuses **Sold** and **Lost**, the options in the list are defined in SuperOffice Settings and maintenance.
+3. Select the required stage from the list that appears. Apart from the statuses **Sold** and **Lost**, the options in the list are defined in Settings and maintenance.
 4. Click **Save**.
 
 ## Why does the Sales guide dialog open when I mark a follow-up as completed?
 
-In SuperOffice Settings and maintenance, it is possible to specify that a follow-up in a sales guide should be suggested automatically when the preceding follow-up is marked as completed. In that case, the **Sales guide** dialog opens when you mark the previous follow-up as completed.
+In Settings and maintenance, it is possible to specify that a follow-up in a sales guide should be suggested automatically when the preceding follow-up is marked as completed. In that case, the **Sales guide** dialog opens when you mark the previous follow-up as completed.
 
 In the **Sales guide** dialog you have three options:
 
@@ -159,7 +159,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
         * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
     > [!NOTE]
-    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up in SuperOffice Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
+    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up in Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
 
 3. You want to create the **Contract meeting** appointment from the **Sales guide** dialog.
 

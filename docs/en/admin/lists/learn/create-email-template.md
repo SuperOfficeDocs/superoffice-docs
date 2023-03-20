@@ -19,7 +19,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 3. Move the file to the *\so\_arc\template* folder.
 
-4. Open SuperOffice Settings and maintenance.
+4. Open Settings and maintenance.
 
 5. Open the **Lists** screen.
 

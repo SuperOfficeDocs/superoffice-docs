@@ -54,7 +54,7 @@ It will quickly make you a list that match your search words. Use it to check yo
 
 ### FastSearch tips
 
-You can use %% to see all records in a certain module, like all companies, all selections, all projects.
+You can use %% to see all records of a certain type, such as all companies, all selections, all projects.
 
 If, for example, you want to see all the document templates available in SuperOffice CRM, go to the **+New** menu and click **Document**. In the top field in the document screen, which indicates types of document templates, type %%. You will then see a drop-down list that includes the full list of document templates available.
 

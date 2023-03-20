@@ -1,7 +1,7 @@
 ---
 uid: help-en-project-status-admin
 title: Project - Status
-description: Project - Status in SuperOffice Settings and maintenance
+description: Project - Status in SuperOffice Settings and maintenance.
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: project

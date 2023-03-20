@@ -3,7 +3,7 @@ uid: help-en-settings-soap-configure
 title: Configure SOAP interface
 description: Configure SOAP interface
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.23.2023
 keywords: Service, SOAP
 so.topic: howto
 so.user: admin
@@ -15,9 +15,9 @@ language: en
 
 ## Add an IP address range
 
-1. Go to **Settings and maintenance** > **Requests**.
+[!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Select the **SOAP** tab.
+1. Click **Requests** and select the **SOAP** tab.
 
 1. In the **Port** list, select the required access type.
 

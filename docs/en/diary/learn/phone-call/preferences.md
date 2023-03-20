@@ -32,7 +32,7 @@ To use the telephone functions in SuperOffice you may need to install TAPI softw
 
 ## Preferences
 
-If IP phone, Skype or FaceTime is installed, you can make phone calls from SuperOffice CRM. The **Phone-link format** preference must be set correctly, either in **Preferences** > **Default values** or in SuperOffice Settings and maintenance. In SuperOffice Settings and maintenance the phone preferences can be set for individual users, user groups or system-wide.
+If IP phone, Skype or FaceTime is installed, you can make phone calls from SuperOffice CRM. The **Phone-link format** preference must be set correctly, either in **Preferences** > **Default values** or in Settings and maintenance. In Settings and maintenance the phone preferences can be set for individual users, user groups or system-wide.
 
 ### Available parameters
 

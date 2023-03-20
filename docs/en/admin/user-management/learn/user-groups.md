@@ -14,16 +14,15 @@ language: en
 
 ## Create user group
 
-1. Go to **Settings and maintenance**.
+[!include[Go to](../../../learn/includes/goto-sm.md)]
+
 1. Select ![icon][img2] **Lists** in the Navigator.
 1. Choose **General - User group** from the list.
 1. Enter information in the dialog and click **OK**.
 
 ## Delete user group
 
-1. Go to **Settings and maintenance**.
-1. Select ![icon][img2] **Lists** in the Navigator.
-1. Choose **General - User group** from the list.
+1. Go to the **General - User group** list as described above.
 1. Click the name of the user group in question.
 1. Click the **Delete** button at the bottom of the screen.
 

@@ -31,7 +31,7 @@ To delete companies in the **Our companies** tab, the following two criteria mus
 
 3. Click the **Add** button below the company list.
 
-4. The **Find** dialog opens. If there are already search criteria entered in this dialog, but they are not ones you want to use, click the **Deactivate all** button to remove them or remove the checks from the checkboxes for the relevant criteria.
+4. The Find screen opens. If there are already search criteria entered, but they are not ones you want to use, click the **Deactivate all** button to remove them or remove the checks from the checkboxes for the relevant criteria.
 
 5. Search for a company. See details below.
 
@@ -79,7 +79,7 @@ To delete companies in the **Our companies** tab, the following two criteria mus
 
     * **One hit**: the company that matches the search criteria is displayed in the list.
 
-    * **Two or more hits**: The **Find** dialog is displayed with a list of matches. Here you can select the required company in the list and click **OK** to go to that company.
+    * **Two or more hits**: The Find screen shows a list of matches. Here you can select the required company in the list and click **OK** to go to that company.
 
     * **No hits**: A message is displayed stating that no record matches the search criteria. Click **OK**, and search again using different criteria.
 

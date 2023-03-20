@@ -57,7 +57,7 @@ Enter the name of the sale (if any) that the follow-up is linked to. If you cann
 
 ### Time zone selector
 
-If [time zones][10] have been activated in SuperOffice Settings and maintenance, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
+If your SuperOffice has [time zones][10] turned on, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
 
 ### Start / End/Due / Duration
 
@@ -90,7 +90,7 @@ Check here when the [follow-up is completed][11].
 
 ![icon][img1]
 
-Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
+Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ### Registered/Last modified
 
@@ -113,7 +113,7 @@ In this field, you indicate if the follow-up repeats. Click the word **Never** t
 
 ### Priority
 
-Specify here the priority of the follow-up. Click the arrow to display a list with the default options of high, medium and low priority. These are defined in SuperOffice Settings and maintenance.
+Specify here the priority of the follow-up. Click the arrow to display a list with the default options of high, medium and low priority. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 ### Alarm
 
@@ -137,7 +137,7 @@ Click the **Visible for** field to display a list that allows you to choose if t
 > [!NOTE]
 > If you set visibility to owner only, the entry will appear in italics on the **Activities** section tab.
 
-This option is only available if **Confidential activities** is enabled for the current user in SuperOffice Settings and maintenance.
+This option is only available if **Confidential activities** is enabled for the current user in Settings and maintenance.
 
 ### Publish (requires separate license)
 
@@ -155,7 +155,7 @@ This tab contains information about URLs, activities (documents and follow-ups),
 
 ## The More tab
 
-This tab displays any [custom fields][14] configured in SuperOffice Settings and maintenance.
+This tab displays any [custom fields][14] configured in Settings and maintenance.
 
 <!-- Referenced links -->
 [1]: ../appointment.md

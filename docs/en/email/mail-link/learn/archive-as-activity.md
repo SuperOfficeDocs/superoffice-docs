@@ -42,7 +42,7 @@ If you receive an email requesting you to take action, you can convert the email
 12. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the activity should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
-    > The **Visible for** field is only available if this right is assigned to you in SuperOffice Settings and maintenance.
+    > The **Visible for** field is only available if this right is assigned to you in Settings and maintenance.
 
 13. Check the **Completed** box if you would like to indicate that the activity has already been completed.
 

@@ -12,7 +12,7 @@ language: en
 # Free-text search
 
 > [!NOTE]
-> If the free-text search fields is not visible in the upper right corner, this option has not been activated in SuperOffice Settings and maintenance.
+> If the free-text search fields is not visible in the upper right corner, this option has not been activated in Settings and maintenance.
 
 The text field at the upper right in SuperOffice CRM is used for free-text searches.
 
@@ -21,7 +21,7 @@ This lets you search in SuperOffice CRM for any text that users have entered in 
 ![Free-text search -screenshot][img1]
 
 > [!NOTE]
-> Certain words are ignored in a free-text search. These are defined in SuperOffice Settings and maintenance.
+> Certain words are ignored in a free-text search. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
 ## Free-text searched from the text field
 
@@ -37,7 +37,7 @@ You can preview records in the [side panel][1]. Click the list at the top of the
 
 ## Why am I getting no hits for a search word that I know is in the database?
 
-If you get no hits for a search word that is in the SuperOffice database, this may be because you need to build the free-text search index in SuperOffice Settings and maintenance.
+If you get no hits for a search word that is in the SuperOffice database, this may be because you need to build the free-text search index in Settings and maintenance.
 
 [!include[Examples of searches](includes/freetext-search-examples.md)]
 

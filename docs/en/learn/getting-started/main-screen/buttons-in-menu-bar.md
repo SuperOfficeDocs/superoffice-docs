@@ -62,7 +62,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 |---|---|
 | Other applications | Used to access [other applications or links][1] added to SuperOffice CRM. In most cases these applications are also available from the **Tools** button in the Navigator. |
 | Download | Opens a view of available downloads from SuperOffice, such as SuperOffice WebTools or the CrossTable viewer for reports. |
-| SuperOffice App Store | Opens SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online. |
+| SuperOffice App Store | Opens SuperOffice App Store, where you can explore standard apps and integrations that can expand SuperOffice CRM Online. |
 | Copy shortcut | [Create shortcuts to entries][15] |
 | Duplicate settings | Used to edit the [duplicate settings][8] for companies, projects and selections. |
 | Filter | Used to edit the [filter settings][2]. |
@@ -70,7 +70,7 @@ The items at the top of the screen vary slightly between SuperOffice CRM, Servic
 | Show confirmation dialog when sending invitations | Used to activate/deactivate the confirmation dialog when sending emails to meeting participants from the **Appointment** dialog. |
 | Targets | Used to add [sales targets][17]. |
 | Edit system signature | Used to edit the default email signature. |
-| Settings and maintenance | Opens SuperOffice Settings and maintenance. This option is only available if you have administrator's rights. |
+| Settings and maintenance | Opens Settings and maintenance. This option is only available if you have administrator's rights. |
 
 **Settings and maintenance:**
 

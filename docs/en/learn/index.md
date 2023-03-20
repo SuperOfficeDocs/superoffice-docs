@@ -29,10 +29,6 @@ Whether you are a marketer, a sales rep or a support agent – SuperOffice CRM i
 
 A system to manage and follow up all contacts, sales and projects. The core of the system are the Company card and Contact card. All information and communication concerning a company and contact are stored in these cards.
 
-## SuperOffice Requests
-
-A system for handling customer requests/tickets. All communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel.
-
 ## SuperOffice Sales
 
 Sales is a game of persistence, planning, and time. Built on 30+ years of experience in optimizing sales processes, SuperOffice CRM is designed to help you do more with your most valuable asset – time. SuperOffice Sales gives you the right tools to focus on managing your pipeline, improving forecasts, working smarter, developing profitable customer relationships, and simply – closing more deals.
@@ -43,13 +39,17 @@ We believe that every engagement with a customer presents an opportunity – if 
 
 SuperOffice Marketing is concerned with outbound communication and forms. You can send bulk mailings by email or SMS to all or parts of your customer base, for example to inform customers about upgrades or product news. Use forms for product/newsletter registration, consent management and data updates.
 
+## SuperOffice Requests
+
+A system for handling customer requests/tickets. All communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel.
+
 ## Settings and maintenance
 
-Settings and maintenance is the administration module for SuperOffice CRM. The navigator buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the system.
+Settings and maintenance is the administration hub for SuperOffice CRM. The navigator buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the system.
 
 ## Adjust SuperOffice CRM to the way you work
 
-You can use SuperOffice CRM right out of the box. You do not have to make any changes or customize it, to use it.
+You can use SuperOffice right out of the box. You do not have to make any changes or customize it, to use it.
 
 However, when you have developed your own routines, your unique way of working, we understand that you may want to implement these processes in your CRM solution.
 

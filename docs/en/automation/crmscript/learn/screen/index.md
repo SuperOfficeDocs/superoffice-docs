@@ -13,8 +13,9 @@ language: en
 
 To go to the **Macros and scripts** tab:
 
-1. Select **Settings and maintenance** > **CRMScript**.
-1. Go to the **Macros and scripts** tab.
+[!include[Go to](../../../../learn/includes/goto-sm.md)]
+
+1. Click **CRMScript** and select the **Macros and scripts** tab.
 
 ## Options
 

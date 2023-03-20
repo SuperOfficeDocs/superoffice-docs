@@ -3,9 +3,9 @@ uid: help-en-tables-screen
 title: Tables screen
 description: Tables screen in System Design
 author: HanneGunnarsson
-so.date: 06.29.2022
+so.date: 03.20.2023
 keywords: table, field, system design
-so.topic: concept
+so.topic: reference
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](../../../learn/includes/req-expander-services.md)]
 
-In the Tables screen in **System design** there is a list of the tables in the system. Here you can extend the SuperOffice Requests module by creating new tables and fields for different screens in the system.
+In the Tables screen in **System design**, there is a list of the database tables in SuperOffice. Here you can create new tables and fields for different screens.
 
 > [!TIP]
 > Extra fields can for instance be used as search criteria and columns in sales.
@@ -25,10 +25,9 @@ This screen displays both standard tables (predefined in the system and form the
 
 ## Where to find the screen
 
-There are two ways of accessing the Tables screen:
+[!include[Go to](../../../learn/includes/goto-sm.md)]
 
-* In SuperOffice Settings and maintenance, click **System design** in the navigator and select the **Tables** tab.
-* In SuperOffice Service, select **System settings** > **System design** > **Tables**.
+1. Click **System design** in the navigator and select the **Tables** tab.
 
 ## Table folder properties
 

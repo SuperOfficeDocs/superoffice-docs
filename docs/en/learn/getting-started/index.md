@@ -21,17 +21,17 @@ SuperOffice CRM is a web-based system to manage and follow up on all contacts, s
 
 The Company card consists of different sub tabs (section tabs) that provides good overview and control of all your contacts, relations, activities and meetings, sales, projects and requests.
 
-If you also deal with customers that are not (yet) associated with a company, the Contact card provides similar features to the Company card.
+If you deal with customers that are not (yet) associated with a company, the Contact card provides similar features to the Company card.
 
-The system also has other modules and functions. For example, there is a Selection and Report module, where you can make selections and print reports to get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
+The system also has other features. For example, you can use Selections and Reports to can get an overview of contacts (based on categories, business or other criteria), sales, projects and activities. This is very helpful when you need to keep colleagues up to date on a weekly basis.
 
-The Diary module helps you with your scheduling, and you can stay in touch with your customers using the Chat feature. The Sale and Project modules provides additional tools for effectively managing your business.
+The Diary helps you with your scheduling, and you can stay in touch with your customers using the Chat feature. Sale and Project provide additional tools for effectively managing your business.
 
-Within the Marketing module you can send a mailing to a specific group of contacts to inform them about upcoming events, company news, campaigns and other product information. Here you can also create forms to be used on your website or customer centre for easier feedback, content management and sign-up.
+With Marketing, you can send a mailing to a specific group of contacts to inform them about upcoming events, company news, campaigns and other product information. Here you can also create forms to be used on your website or customer centre for easier feedback, content management and sign-up.
 
-With the **Requests** module, you handle all communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel. In this way, the organization ensures that all requests are followed up, and that no enquiries sit unanswered in the users' own inboxes.
+With Requests, you handle all communication concerning a specific request is stored in a single location, regardless of it is by email, web form, phone or another channel. In this way, the organization ensures that all requests are followed up, and that no enquiries sit unanswered in the users' own inboxes.
 
-Requests can be categorized, prioritized and routed. Most importantly, all communication with a customer can be tracked, so that users can always maintain an overview of each customer relationship. The system also has other modules and functions associated with the Requests module.
+Requests can be categorized, prioritized and routed. Most importantly, all communication with a customer can be tracked, so that users can always maintain an overview of each customer relationship.
 
 For example, there is an internal knowledge base consisting of reply templates and FAQs. This data can be used for look-up, or users can make them available to customers. It is also possible to link SuperOffice Service to an external customer portal where the customer can follow-up their requests. Using a customer portal, customers can also have access to FAQs, so that they can find answers to their queries without having to contact a request handler.
 
@@ -61,7 +61,7 @@ Settings and maintenance is the administration client for SuperOffice CRM.
 
 The navigator buttons in Settings and maintenance activate their associated functions with a single click, making it easy to navigate quickly between the different parts of the system.
 
-Selecting **App Store** opens the SuperOffice App Store, where you can explore standard apps, modules and integrations that can expand your SuperOffice CRM.
+Selecting **App Store** opens the SuperOffice App Store, where you can explore standard and integrations that can expand your SuperOffice CRM.
 
 Certain features such as import and scripting are only available from the [Windows-based administration client (onsite)][1]. To access SOLoader, advanced import, replication, Travel and scripting, see [Windows Client settings][20].
 

@@ -32,32 +32,32 @@ You move between the main sections of SuperOffice using the left-side Navigator.
 | ![icon][img12] | Opens the **Reports** screen. In this report generator you will find a set of standard reports, which you can use to print reports based on data from SuperOffice CRM. | [Reports][10] |
 | ![icon][img13] | Opens the **Marketing** screen. From here you can create and send mailings (emails, SMS and documents) and create and publish forms. | [Marketing][11] |
 | ![icon][img14] | Opens **Service** (legacy) | |
-| ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in SuperOffice Settings and maintenance. | |
+| ![icon][img15] | Opens a menu that gives you access to external applications and websites. The items available to you are defined in Settings and maintenance. | |
 
 ## The Navigator in Settings and maintenance
 
 | Button | Function | Read more |
 |:-:|---|---|
-| ![icon][img42] | **Licences**: On the **SuperOffice** tab you can download new licence information for your version of SuperOffice CRM and associated modules. On the **Status** tab you can view database information and system notifications. | [Licenses][45] |
+| ![icon][img42] | **Licences**: On the **SuperOffice** tab you can download new licence information for your version of SuperOffice CRM and associated features. On the **Status** tab you can view database information and system notifications. | [Licenses][45] |
 | ![icon][img43] | **Users**: opens the Users screen, where you can define IDs, passwords, user groups, roles and various access options. On the **Our companies** tab you can add companies in addition to your main company. | [Status][46] |
-| ![icon][img44] | **Roles**: opens the **Roles** screen, where you can define roles for accessing data and functions in SuperOffice CRM. The users' access levels are determined by the role they belong to. | [Roles][47] |
-| ![icon][img45] | **Privacy**: opens the **Privacy** screen, where you can define settings for privacy and consent in SuperOffice CRM. | [Privacy][48] |
+| ![icon][img44] | **Roles**: opens the Roles screen, where you can define roles for accessing data and functions in SuperOffice CRM. The users' access levels are determined by the role they belong to. | [Roles][47] |
+| ![icon][img45] | **Privacy**: opens the Privacy screen, where you can define settings for privacy and consent in SuperOffice CRM. | [Privacy][48] |
 | ![icon][img46] | **SAINT**: opens the screen for status monitors (Sales Intelligence), where you can create statuses for companies and projects. | [SAINT][49] |
 | ![icon][img47] | **AI services**: opens the screen for AI services, where you can configure settings for text analysis, sentiment analysis and categorization of requests. | [AI services][20] |
-| ![icon][img48] | **Lists**: opens the **Lists** screen, containing descriptions and definitions of the lists in SuperOffice CRM. | [Lists][21] |
-| ![icon][img49] | **Quote/Sync**: opens the **Quote/Sync** screen, where you can administrate connections and settings for ERP systems that are linked to SuperOffice CRM. Here you can also work on the price lists and products in the SuperOffice database. | [Quote/Sync][22] |
-| ![icon][img50] | **Workflow**: opens the **Workflow** screen, where you can define sales guides and project guides for SuperOffice CRM. | |
+| ![icon][img48] | **Lists**: opens the Lists screen, containing descriptions and definitions of the lists in SuperOffice CRM. | [Lists][21] |
+| ![icon][img49] | **Quote/Sync**: opens the Quote/Sync screen, where you can administrate connections and settings for ERP systems that are linked to SuperOffice CRM. Here you can also work on the price lists and products in the SuperOffice database. | [Quote/Sync][22] |
+| ![icon][img50] | **Workflow**: opens the Workflow screen, where you can define sales guides and project guides for SuperOffice CRM. | |
 | ![icon][img51] | **Screen designer**: opens the Screen designer screen, where you can create custom screen layouts for specific user groups. | [Screen designer][24] |
-| ![icon][img52] | **Preferences**: opens the **Preferences** screen, where you can specify settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
-| ![icon][img41] | **Chat**: opens the **Chat** screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
-| ![icon][img53] | **Options**: opens the **Options** screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, labels and reports. | [Options][26] |
-| ![icon][img54] | **Import**: opens the **Import** screen, where you can import data into the SuperOffice database. | [Import][27] |
-| ![icon][img55] | **Fields**: opens the **Fields** screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
+| ![icon][img52] | **Preferences**: opens the Preferences screen, where you can specify settings for different aspects of SuperOffice CRM, for example, the number of elements to display in the history list, the default type for new activities, and so on. Here you can also configure [Video meetings][42] and the [Document library][43]. | [Preferences][25] |
+| ![icon][img41] | **Chat**: opens the Chat screen, where you can create chat channels and set up the chat feature. | [Chat][2] |
+| ![icon][img53] | **Options**: opens the Options screen, where you can define system-wide settings. For example, settings for free-text search, time zones, number allocation, labels and reports. | [Options][26] |
+| ![icon][img54] | **Import**: opens the Import screen, where you can import data into the SuperOffice database. | [Import][27] |
+| ![icon][img55] | **Fields**: opens the Fields screen, where you define user-defined fields for SuperOffice CRM. | [Fields][28] |
 | ![icon][img56] | **CRMScript**: opens the screen with various functions for scripting and automation, such as macros, event handlers and scheduled tasks. | [CRMScript][41] |
 | ![icon][img57] | **Requests**: here you can find various settings for requests in SuperOffice Service. | [Requests][34]
 | ![icon][img58] | **Customer centre**: here you can configure the customer centre. You can edit the content and layout of the customer centre and edit the default content. | |
 | ![icon][img59] | **System design**: here you can find various advanced settings for SuperOffice Service. | |
-| ![icon][img60] | **App Store**: Opens the [SuperOffice App Store][44], where you can explore standard apps, modules and integrations that can expand SuperOffice CRM Online. | |
+| ![icon][img60] | **App Store**: Opens the [SuperOffice App Store][44], where you can explore standard app and integrations that can expand SuperOffice CRM Online. | |
 
 ## Navigator options
 

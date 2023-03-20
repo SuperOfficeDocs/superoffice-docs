@@ -11,7 +11,7 @@ language: en
 
 # User-defined fields
 
-Several sections of SuperOffice CRM, for example, the Company screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. These fields are defined in SuperOffice Settings and maintenance.
+Several sections of SuperOffice CRM, for example, the Company screen, contain a separate tab called **More**. Here you can enter your own fields to customize the program to your organization's requirements. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 All companies and organizations have their own requirements for the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customize the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
 

@@ -62,8 +62,10 @@ In the **FAQ** tab, you have the following options:
 
 | Option | Description |
 |---|---|
-| Reply template for formatting FAQ questions | The reply template to use when publishing FAQ questions. This allows you to define your own formatting for suggested questions from the FAQ module. |
-| Reply template for formatting FAQ answers | The reply template to use when publishing FAQ answers. This allows you to define your own formatting for suggested answers from the FAQ module. |
+| Reply template for formatting FAQ questions | The reply template to use when publishing FAQ questions. |
+| Reply template for formatting FAQ answers | The reply template to use when publishing FAQ answers. |
+
+These let you to define your own formatting for suggested questions and answers from the FAQs.
 
 ## Weekly stats
 
@@ -72,7 +74,7 @@ In the **Weekly stats** tab, you have the following options:
 | Option | Description |
 |---|---|
 | Reply template for weekly statistics | The reply template to use for weekly statistics.
-| E-mail addresses for weekly statistics | Here you can add one or more (comma-separated) e-mail addresses to send weekly statistics for SuperOffice to. |
+| E-mail addresses for weekly statistics | Here you can add one or more (comma-separated) email addresses to send weekly statistics for SuperOffice to. |
 
 ## How to change template
 

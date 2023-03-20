@@ -28,8 +28,10 @@ The products in the quote are displayed on this tab.
 If the quote contains several alternatives, the favorite alternative is indicated with ![icon][img1] next to the tab name. If the alternative contains [warnings or messages][9] for one or more products, an icon is shown next to the tab name. A message is also displayed to explain the cause of the error.
 
 * **Discount**: Here you can enter a total discount (discount percent or discount amount) for the whole of the alternative. The total discount is applied in addition to any discounts applied to the different products.
+
     > [!NOTE]
-    > Total discount must be enabled as an option in SuperOffice Settings and maintenance.
+    > Total discount must be enabled as an option in Settings and maintenance.
+
 * **Earnings/Total**: This shows the earnings and the total for the whole of the alternative.
 * **Add**: Used to search for and [add products][6].
 * Double-click a product to edit it.
@@ -46,7 +48,7 @@ Here you choose the desired options for payment and delivery. You can also choos
 
 ## Attachments tab
 
-Here you can select one or more attachments to append to the quote. The attachments displayed here are predefined in SuperOffice Settings and maintenance.
+Here you can select one or more attachments to append to the quote. The attachments displayed here are predefined in Settings and maintenance.
 
 The bottom section of the dialog
 
