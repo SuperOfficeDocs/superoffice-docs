@@ -24,9 +24,9 @@ Watch this video to learn how to set up and configure your chat widget (video le
 1. SuperOffice CRM: Click the **Chat** button in the Navigator ![icon][img2].
     SuperOffice Service: Select ![icon][img1] **System settings > Chat**.
 
-2. Click **Add** at the bottom of the list of chat channels. The **Add chat channel** dialog displays.
+2. Click **Add** at the bottom of the list of chat channels.
 
-3. Enter the name of the chat channel. This should be a unique name used to identify the topic and language (for example *Tech Support Norway*). The name is used internally only.
+3. In the dialog, enter the name of the chat channel. This should be a unique name used to identify the topic and language (for example *Tech Support Norway*). The name is used internally only.
 
 4. Complete the fields in the tabs as described below.
 

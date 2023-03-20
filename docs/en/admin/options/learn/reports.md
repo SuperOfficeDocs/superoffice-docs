@@ -4,8 +4,9 @@ title: reports
 description: reports
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: reports
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -19,7 +20,7 @@ The report list shows the format of the reports (appearance), whether a report i
 
 1. Go to the **Reports** tab in the **Options** screen.
 2. Double-click the standard report you want to edit.
-3. In the **Edit report** dialog, edit the name and description. You cannot edit the report type.
+3. In the dialog, edit the name and description. You cannot edit the report type.
 4. Check the **Published** checkbox to make the report available to users.
 5. Click **Save**.
 

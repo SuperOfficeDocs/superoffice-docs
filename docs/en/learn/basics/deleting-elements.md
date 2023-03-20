@@ -59,7 +59,7 @@ You also have an option to restore other users' deleted companies and contacts, 
 
 1. Choose ![icon][img1] **Personal settings** > **Recycle bin**.
 
-2. In the **Recycle bin** dialog, select the **Company** or **Contact** tab. Companies and contacts deleted by you are displayed.
+2. In the dialog, select the **Company** or **Contact** tab. Companies and contacts deleted by you are displayed.
 
 3. Optional: Select **View deleted companies/contacts for all users**. This option requires functional rights.
 

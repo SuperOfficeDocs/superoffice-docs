@@ -60,7 +60,7 @@ By default, a document is opened in edit mode.
 If you or someone else checked out a document, and you want to edit the document, you can cancel the check out:
 
 1. Right-click the document and select **Document**.
-2. In the **Document** dialog, click ![icon][img1] and select **Revert to saved version**.
+2. In the Document screen, click ![icon][img1] and select **Revert to saved version**.
 
 > [!NOTE]
 > You need special privileges to access this option. You also need write access to the document.

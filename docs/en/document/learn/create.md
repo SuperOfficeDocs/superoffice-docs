@@ -27,7 +27,7 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 1. Click **New** > **Document** on the top bar.
 
-2. In the **Document** dialog, [complete the fields with the required information][2].
+2. [Complete the fields with the required information][2].
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created in SharePoint and opened in a new tab with the online text-editing application (Office Online).
 
@@ -47,7 +47,7 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 1. Click **New** > **Document** on the top bar.
 
-2. In the **Document** dialog, [complete the fields with the required information][2].
+2. [Complete the fields with the required information][2].
 
 3. Click the **Create** button to create a new document based on the selected document template. The document is created on the server.
 
@@ -61,13 +61,12 @@ If you have not installed SuperOffice WebTools, you must manually download docum
 
 6. Close the text-editing program.
 
-7. Go to the **Document** dialog.
+7. Go to the Document screen.
 
     > [!NOTE]
-    > If ![icon][img1] **Completed** is checked in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
+    > If ![icon][img1] **Completed** is checked in the Document screen, the upload options are disabled. In that case, remove the **Completed** check mark.
 
-8. Click the link to upload the document.
-    or drag and drop the document from Windows Explorer to the **Document** dialog.
+8. Click the link to upload the document or drag and drop the document from Windows Explorer to the **Document** dialog.
 
     ![Create a new document -screenshot][img2]
 
@@ -79,9 +78,9 @@ With SuperOffice CRM, you can log in from any PC using a browser, but your docum
 
 1. Click **New** > **Document** on the top bar.
 
-2. In the **Document** dialog, [complete the fields with the required information][2].
+2. [Complete the fields with the required information][2].
 
-3. Click the **Create** button to create a new document based on the selected document template. The **Document** dialog is closed automatically, and the document opens in your default text-editing application.
+3. Click the **Create** button to create a new document based on the selected document template. The **Document** dialog closes automatically, and the document opens in your default text-editing application.
 
 4. Type in the content of your document.
 

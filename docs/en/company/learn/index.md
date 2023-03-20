@@ -11,7 +11,7 @@ language: en
 
 # Companies
 
-All information related to a company – be it your customer, partner or supplier – is stored on the Company card/screen in SuperOffice CRM. This card provides you with an instant snapshot of the company in one screen.
+All information related to a company – be it your customer, partner or supplier – is stored on the Company card/screen. This card provides you with an instant snapshot of the company in one screen.
 
 ![Company screen -screenshot][img3]
 

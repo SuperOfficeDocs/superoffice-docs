@@ -18,7 +18,7 @@ The **Debug sessions** tab contains a list of all active debug sessions in the s
 
 ## Go to the Debug sessions tab
 
-[!include[Go to](../../learn/includes/goto-sm.md)]
+[!include[Go to](../../../learn/includes/goto-sm.md)]
 
 1. Click **CRMScript** and select the **Debug sessions** tab.
 

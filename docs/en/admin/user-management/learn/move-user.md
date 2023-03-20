@@ -24,7 +24,7 @@ You can move a user from one company to another, if your organization consists o
 
 1. Click **Task** and select **Move user**.
 
-1. In the **Move user** dialog, select **Move to** and choose the company you want to move the contact to.
+1. In the dialog, select **Move to** and choose the company you want to move the contact to.
 
 [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
 

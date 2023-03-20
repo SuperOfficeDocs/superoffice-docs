@@ -13,7 +13,7 @@ language: en
 
 Editing documents involves two things:
 
-* Editing of the document properties in the **Document** dialog.
+* Editing of the document properties in the Document screen.
 * Editing of the document file itself in the application the document was created in.
 
 You can open a document in [edit mode or in read mode][1]. When you open the document in edit mode, only you can edit the document. Other users can open the document in read mode.
@@ -29,13 +29,13 @@ Follow the instructions below, depending on how documents are managed in your Su
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
-## Edit document properties in the Document dialog
+## Edit document properties in the Document screen
 
-To change document properties, such the project the document is linked to, use the **Document** dialog:
+To change document properties, such the project the document is linked to, use the Document screen:
 
 1. [Select the required document][2].
 2. Right-click and select **Document**. If you double-click on the document, it opens directly in the application it was created in.
-3. [Make the required changes][3] in the **Document** dialog.
+3. [Make the required changes][3].
 4. Click the **Save** button.
 
 ## Edit document content using SharePoint Documents
@@ -66,8 +66,7 @@ To change document properties, such the project the document is linked to, use t
     > [!NOTE]
     > If **Completed** is checked in the **Document** dialog, the upload options are disabled. In that case, remove the **Completed** check mark.
 
-7. Click the link to upload the document.
-    or drag and drop the document from Windows Explorer to the **Document** dialog.
+7. Click the link to upload the document or drag and drop the document from Windows Explorer to the **Document** dialog.
 
     ![Create a new document -screenshot][img1]
 

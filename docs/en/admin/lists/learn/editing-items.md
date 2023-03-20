@@ -42,14 +42,12 @@ Watch this video to learn how you can edit list items is SuperOffice CRM (video 
 
     [How to update a specialized list][2].
 
-4. In the **Edit list item** dialog, type a new name for the item in the **Name** field.
+4. In the dialog, enter a new name and a description.
 
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-5. Edit the description of the item, as required, in the **Description** field.
-
-6. [!include[Save or cancel](includes/save-or-cancel.md)]
+5. [!include[Save or cancel](includes/save-or-cancel.md)]
 
 ## Related content
 

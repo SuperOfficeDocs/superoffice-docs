@@ -21,7 +21,7 @@ If you receive an email requesting you to take action, you can convert the email
 
 2. Click the **Archive email** button on the toolbar, and select **Create activity** from the dropdown. The **Create activity** dialog appears.
 
-3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the **Create activity** dialog: "This sender's email address is not recognized. Click here to update SuperOffice with this email address". [How to handle unlisted senders][1]
+3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog: "This sender's email address is not recognized. Click here to update SuperOffice with this email address". [How to handle unlisted senders][1]
 
 4. In the **Company** field, you may search for a company by starting to type the company name and then select from the matches that appear.
 
@@ -31,7 +31,7 @@ If you receive an email requesting you to take action, you can convert the email
 
 7. If you would like to link the activity to a certain sale, you may select the sale in the **Sale** field.
 
-8. In the **Description** field,the subject and message body is automatically inserted. However, you may enter any text that you would like to be shown in **Task** dialog of SuperOffice CRM.
+8. In the **Description** field, the subject and message body is automatically inserted. However, you may enter any text that you would like to be shown in **Task** dialog of SuperOffice CRM.
 
 9. In the **Do by** field, today's date is automatically inserted. However, you may click the calendar icon and select another date the activity should be completed by.
 

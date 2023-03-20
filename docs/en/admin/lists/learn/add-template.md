@@ -20,9 +20,9 @@ If you create new templates or change a standard template and saved it with a di
 
 Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
 
-To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available in SuperOffice CRM to personalize and automate the input of customer information to your documents.
+To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available to personalize and automate the input of customer information to your documents.
 
-Watch this video or follow the guided steps below to learn how you can add a document template in SuperOffice CRM (video length - 2:30):
+Watch this video or follow the guided steps below to learn how you can add a document template (video length - 2:30):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://youtu.be/FnhcmjP-TgE]
@@ -70,14 +70,14 @@ Enter the following information in the **Details** tab:
 
 3. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][4]).
+4. In the **Intention** field, click ![icon][img1] and select one of the predefined options from the list. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][4]).
 
     > [!TIP]
     >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
-5. <!-- onsite-->Check the **Publish** option if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
+5. <!-- onsite-->Check the **Publish** option if you want it to be possible to specify, in the Document screen, that the document template in question should be made available to external users.
 
-6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab in SuperOffice CRM. If not, the document is not displayed in SuperOffice CRM after you created it and you cannot access it from the program.
+6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
 
 7. Check the **Quote document type** option if the document should be available as a quote template or order confirmation template. You select the quote document type in the list below.
 
@@ -102,7 +102,7 @@ Here you can add translated versions of the document template.
 
 ## Related
 
-* [How do I upload and use document templates in SuperOffice CRM?][3] - FAQ
+* [How do I upload and use document templates?][3] - FAQ
 
 <!-- Referenced links -->
 [2]: ../../../document/learn/template-variables.md

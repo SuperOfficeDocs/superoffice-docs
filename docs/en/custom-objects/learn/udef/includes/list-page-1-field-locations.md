@@ -3,4 +3,4 @@
 * The **Contact** tab on the contact card
 * The **Project** tab in the Project screen
 * The **Sale** tab in the Sale screen
-* The **Details** tab in the **Document** dialog
+* The **Details** tab in the Document screen

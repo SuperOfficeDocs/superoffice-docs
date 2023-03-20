@@ -42,7 +42,7 @@ If the total number of new licenses is less than the number of licenses in use, 
     > [!NOTE]
     > If you have the wrong number of licenses or licenses for the wrong module, contact SuperOffice. DO NOT activate the licenses if the number is incorrect.
 
-1. Click the **Activate** button in the **Activate new licence** dialog.
+1. Click the **Activate** button in the dialog.
 
     **Is the Activate button disabled? Is the license name shown in red?**
     This may be because the total number of new licenses is less than the number of licenses in use. You must reduce the number of user licenses in use.

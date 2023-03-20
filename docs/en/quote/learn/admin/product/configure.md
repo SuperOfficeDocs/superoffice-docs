@@ -22,7 +22,7 @@ The Configure product screen is located in the Settings tab. Here you can change
 
 You open the **Configure product** dialog by going to the **Quote/Sync** screen > **Settings** tab > **Configure product** button.
 
-Here you can customize the content of the **Product** dialog in SuperOffice CRM, which is where users add and edit products in the quote.
+Here you can customize the content of the Product screen, which is where users add and edit products in the quote.
 
 ## Select language
 
@@ -34,7 +34,7 @@ The view shows all product fields with their associated properties. At the botto
 
 ### Show field
 
-* Check each field you want to display in the **Product** dialog in SuperOffice CRM.
+* Check each field you want to display in the Product dialog.
 * Remove the checks for fields you do not want to display.
 * Greyed out/non-editable checkboxes are fields that cannot be removed.
 

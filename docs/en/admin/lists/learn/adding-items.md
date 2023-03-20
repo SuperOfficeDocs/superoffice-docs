@@ -22,7 +22,7 @@ language: en
     Some list types are more specialized than those referred to in this procedure. [Specialized lists][1].
     </details>
 
-4. In the **Edit list item** dialog, enter the required name of the item in the **Name** field.
+4. In the dialog, enter the required name of the item in the **Name** field.
 
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]

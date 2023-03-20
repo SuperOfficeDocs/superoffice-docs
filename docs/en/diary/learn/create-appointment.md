@@ -20,7 +20,7 @@ There are many ways to create an appointment. In all cases, you specify the [app
 Do one of the following:
 
 * Choose **New** > **Appointment** on the [top bar][3].
-* Click the **Task** button (![icon][img1])) in the contact card, and select **Request a meeting**.
+* Click the ![icon][img1] **Task** button in the contact card, and select **Request a meeting**.
 * Click the **Add** button in the **Activities** section tab.
 
 ## Create appointment from the Diary screen

@@ -17,7 +17,7 @@ If you cannot solve the issue via the chat, you can create a request to be handl
 
     ![Click on the Action button and Create request, and all information in the chat will be saved in the request -screenshot][img2]
 
-2. In the **Create request** dialog, fill in the relevant fields.
+2. In the dialog, fill in the relevant fields.
 3. The chat log is added to the request, but you can add more information here if necessary.
 4. Click **Save**.
 5. A short message containing the request ID is added to the text field in the chat. Click **Send** to send this to the customer.

@@ -42,7 +42,7 @@ The messages you send out can be customized for each customer using [template va
 SuperOffice Marketing also deals with what happens after the mailing. You can get instant feedback on the success of the mailing: you can see how many and which customers received and opened the mailing, you can see data on click frequency and see which mailings led to sales.
 
 > [!NOTE]
-> You can also initiate a mail merge from the selection screen in SuperOffice CRM.
+> You can also initiate a mail merge from the Selection screen.
 
 ## GDPR features in Marketing
 

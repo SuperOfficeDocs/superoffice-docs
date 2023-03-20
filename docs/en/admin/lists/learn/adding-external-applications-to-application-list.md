@@ -4,8 +4,9 @@ title: Adding external applications to the Application list
 description: Adding external applications to the Application list
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: list
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -25,10 +26,10 @@ language: en
 
 1. Under **Add as**, select what the application will be added as:
 
-    * **Button**: the application icon is displayed in the Navigator in SuperOffice CRM. Users can then open the application directly by clicking the icon in the Navigator.
-    * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon][img2] ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]) in SuperOffice CRM.
+    * **Button**: the application icon is displayed in the Navigator. Users can then open the application directly by clicking the icon in the Navigator.
+    * **Menu item**: the user can access the application by clicking the **Tools** button ( ![icon][img2] ) in the Navigator and/or by selecting **Other applications** on the main menu (![icon][img1]).
     * **Event**: the application is run when SuperOffice CRM opens or closes or on a local update (Travel). See step 8. You could, for example, run a synchronization program for a PDA when SuperOffice CRM closes.
-    * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the Selection screen or the **Task** buttons in various locations in SuperOffice CRM.
+    * **Task**: select an option in this list box to make the application accessible from the **Task** tab in the Selection screen or the **Task** buttons.
 
         <details><summary>Find out more about the different options.</summary>
 
@@ -46,7 +47,7 @@ language: en
 
         * **Dialog for follow-ups**: the application is displayed as an option under the **Task** button in the dialog for follow-ups.
 
-        * **Document dialog**: the application is displayed as an option under the **Task** button in the selected dialog. The same option is available for the **Contact**, **Quote** and **Product** dialogs.
+        * **Document screen**: the application is displayed as an option under the **Task** button in the selected dialog. The same option is available for the Contact, Quote, and Product screens.
 
         </details>
 

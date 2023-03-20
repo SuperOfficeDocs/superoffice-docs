@@ -4,8 +4,9 @@ title: Adding headings
 description: Adding headings
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: list, heading
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -13,7 +14,7 @@ language: en
 
 Before linking a heading to an item, you must add the headings you require.
 
-1. Open the **Lists** screen.
+1. Open the Lists screen.
 
 2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
 
@@ -23,13 +24,11 @@ Before linking a heading to an item, you must add the headings you require.
 
 5. Click the **Add** button below the **Headings** list to add a new heading.
 
-6. In the **Edit heading** dialog, enter the required name for the heading in the **Name** field.
+6. In the dialog, enter the required name for the heading and a description (if required).
 
     [!include[Mandatory](../includes/note-mandatory-field.md)]
 
-7. Type in a description of the heading, if required, in the **Description** field.
-
-8. [!include[Save or cancel](../includes/save-or-cancel.md)]
+7. [!include[Save or cancel](../includes/save-or-cancel.md)]
 
 The item is added to the **Headings** list. Repeat this procedure to add more headings.
 

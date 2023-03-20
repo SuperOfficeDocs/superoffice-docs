@@ -29,7 +29,7 @@ The columns of the **Sales** section tab contain the following information:
 * The name of the company the sale is linked to
 * Any contact the sale is linked to
 
-Double-click a sale in the list to open the Sale screen in SuperOffice CRM which contains information about that [sale][2].
+Double-click a sale in the list to open the Sale which contains information about that [sale][2].
 
 ## Related topics
 

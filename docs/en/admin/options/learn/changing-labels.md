@@ -37,7 +37,7 @@ You can change labels in all available languages in SuperOffice. For example, yo
 
 1. Double-click the label you want to change.
 
-1. Edit the text for the language in question in the **Edit field label** dialog.
+1. Edit the text for the language in question in the dialog.
 
     > [!NOTE]
     > It is possible to edit the label for all available languages in this dialog. Not limited to the selected target language.
