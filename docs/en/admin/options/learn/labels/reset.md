@@ -1,11 +1,12 @@
 ---
-uid: help-en-resetting-labels
+uid: help-en-label-reset
 title: Resetting labels
 description: Resetting labels
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.24.2023
+keywords: label
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -13,7 +14,7 @@ language: en
 
 If you change any labels and want to return to the default settings for one or more:
 
-[!include[Go to Options](includes/open-options.md)]
+[!include[Go to Options](../includes/open-options.md)]
 
 1. Select the **Labels** tab.
 

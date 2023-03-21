@@ -1,11 +1,12 @@
 ---
 uid: help-en-timezones
-title: timezones
-description: timezones
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+title: Time zones
+description: Time zones
+author: Bergfrid Dias
+so.date: 03.24.2023
+keywords: time zone
+so.topic: concept
+so.user: admin
 language: en
 ---
 
@@ -21,11 +22,10 @@ In addition, you can go to **Preferences** to show the time zone selector and se
 
 ## What would you like to do now?
 
-* [Enable use of time zones][1]
-* [Edit time zones][2]
+* [Select which time zones to show][2]
 
 <!-- Referenced links -->
-[1]: activating-time-zones.md
-[2]: edit-time-zones.md
+[1]: enable.md
+[2]: select.md
 
 <!-- Referenced images -->

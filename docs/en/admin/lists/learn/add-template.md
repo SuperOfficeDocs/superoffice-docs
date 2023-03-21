@@ -3,7 +3,7 @@ uid: help-en-add-template
 title: Add a template
 description: In this how-to guide, you will learn how to add a new document template to SuperOffice CRM.
 author: SuperOffice RnD
-so.date: 02.23.2023
+so.date: 03.24.2023
 keywords: document, template
 so.topic: howto
 so.user: admin
@@ -12,15 +12,9 @@ language: en
 
 # Add a document template
 
-Before you can use templates you created, you must link them to SuperOffice CRM. After you link the templates, it is very easy to write letters, faxes and other documents you have created templates for using the **Document** function in SuperOffice CRM. More information about the **Document** function is available in the user help.
-
-[Do you want to replace existing template][1]
-
-If you create new templates or change a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM.
-
-Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
-
 To make sure everyone in your company uses the same documents, you can create and add your own document templates for different file types. Use the template variables available to personalize and automate the input of customer information to your documents.
+
+If you create new templates or change a standard template and saved it with a different file name, you must link the templates to SuperOffice CRM, so that the program can find them when you write documents using SuperOffice CRM. After you link the templates, it is very easy to write letters, faxes and other documents you have created templates for using the [Document function in SuperOffice CRM][5].
 
 Watch this video or follow the guided steps below to learn how you can add a document template (video length - 2:30):
 
@@ -31,6 +25,8 @@ Watch this video or follow the guided steps below to learn how you can add a doc
 
 > [!TIP]
 > To add new templates, you can easily copy an existing document template file and edit this to fit your needs.
+
+Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
 
 [!include[Edit list item](includes/edit-list-item.md)] when the items are document templates:
 
@@ -103,9 +99,11 @@ Here you can add translated versions of the document template.
 ## Related
 
 * [How do I upload and use document templates?][3] - FAQ
+* [Replace existing template][1]
 
 <!-- Referenced links -->
 [2]: ../../../document/learn/template-variables.md
+[5]: ../../../document/learn/index.md
 [1]: replace-existing-template.md
 [4]: ../../../sale/saint/learn/index.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-upload-and-use-document-templates-in-superoffice-crm/

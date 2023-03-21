@@ -11,7 +11,7 @@ language: en
 
 # Work with external documents (knowledge base)
 
-You can add documents (including images and other files) to make them available to anyone using SuperOffice CRM, including unregistered customers. Documents you upload to the knowledge bae are available when you write the content of messages to send to a customer.
+You can add documents (including images and other files) to make them available to anyone using SuperOffice CRM, including unregistered customers. Documents you upload to the knowledge base are available when you write the content of messages to send to a customer.
 
 This applies, for example, when you use the **Message** tab when [answering requests][1]. Here you can enter text in the same way as in a word processor. You can also insert images by clicking the **Image** button on the toolbar, but in that case the image must have already been uploaded to **External documents**. When the message is sent, links will be generated to files under **External documents**. The same applies when, for example, you create reply templates and SuperOffice Marketing messages.
 

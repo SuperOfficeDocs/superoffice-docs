@@ -82,7 +82,7 @@ Before you start using the sales targets feature, you must set up a few things i
 
 6. If applicable, change the currency for the company or group. The default currency is the base currency set for you company. You cannot set currency for individual users.
 
-7. Adjust the numbers manually using the **TAB** key go the next field. You can also [copy and paste numbers from Excel](#import) or click the menu button ![icon][img2] at the end of a row and select **Adjust numbers**. The following options are available in the dialog:
+7. Adjust the numbers manually using the **TAB** key go the next field. You can also [copy and paste numbers from Excel](#import) or click the menu button ![icon][img2] at the end of a row and select **Adjust numbers**. Options:
 
     * **Set initial amount**: Enter the amount for the whole year. The amount is split equally among the months or quarters on the current row.
     * **Copy from**: Copy the values from another group or user.

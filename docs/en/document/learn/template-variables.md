@@ -15,10 +15,7 @@ Template variables are used to insert data from SuperOffice into emails, quotes,
 
 ## Examples
 
-Here we show you some examples of how to use template variables.
-
-> [!NOTE]
-> Most of the examples below are available in the default templates in SuperOffice.
+Here we show you some examples of how to use template variables. Many of the examples use the default templates in SuperOffice.
 
 ### How to personalize an email using template variables
 

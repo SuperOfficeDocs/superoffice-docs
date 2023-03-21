@@ -40,7 +40,7 @@ The default priorities included with the system are **High**, **Medium** and **L
 
     * Optionally enter days to exclude in the **Holidays (day/month)** field. Select **Include year** to include the year in these dates.
 
-1. In the **Escalation events** tab, specify how the escalation chain operates in response to different events in the request. The following options are available:
+1. In the **Escalation events** tab, specify how the escalation chain operates in response to different events in the request. Options:
 
     * Request read by owner
     * Changed user (manually)

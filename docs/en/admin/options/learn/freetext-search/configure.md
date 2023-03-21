@@ -1,11 +1,12 @@
 ---
-uid: help-en-specifying-search-criteria
+uid: help-en-freetext-search-configure
 title: Specifying search criteria
 description: Specifying search criteria
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.24.2023
+keywords: free-text, search
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -15,7 +16,7 @@ You can specify search criteria for both individual words (for example *Peter*) 
 
 [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
-1. Check that [freetext search is enabled][1] for SuperOffice CRM.
+1. Check that [freetext search is enabled][1].
 
 1. Choose one of the following for **Single-word search operator**:
 

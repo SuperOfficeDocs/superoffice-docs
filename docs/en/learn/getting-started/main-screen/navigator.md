@@ -75,13 +75,7 @@ When you click a navigator button, one or more of the buttons below are displaye
 
 If you hold the mouse pointer over a record in any the lists, a tooltip is displayed containing additional data about the record.
 
-**Sales:**
-
 ![Example -screenshot][img2]
-
-**Service:**
-
-![Example Service -screenshot][img32]
 
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md
@@ -139,8 +133,6 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 [img24]: ../../../../../common/icons/nav-fav-h32.png
 [img25]: ../../../../../common/icons/nav-search-h32.png
 [img26]: ../../../../../common/icons/nav-list-h32.png
-
-[img32]: ../media/navigator-preview-service.png
 
 [img41]: ../../../../../common/icons/nav-admin-chat-active-h32.png
 [img42]: ../../../../../common/icons/nav-admin-licenses-active-h32.png

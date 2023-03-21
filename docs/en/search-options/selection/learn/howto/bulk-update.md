@@ -13,7 +13,7 @@ language: en
 
 By using Bulk update you are able to update personal data of all the companies and contacts, and all other entities that are currently stored in your SuperOffice CRM database. You can change specific values across multiple records of the same type (contacts, companies, projects, sales, appointments, phone calls, tasks, and documents). You can update specific values or clear specific values.
 
-The Bulk update feature is available in the Selection, Company, Sale, and Project screens.
+Bulk update is available in the Selection, Company, Sale, and Project screens.
 
 > [!NOTE]
 > You need specific rights to be able to use Bulk update. These rights are assigned in the Settings and maintenance.

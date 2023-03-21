@@ -24,7 +24,7 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 
 1. Click the required table to open it and view existing entries. If you cannot see the table entry you are looking for, click **Show criteria** and search.
 
-1. Double-click the required table entry in the list. The following options are available:
+1. Double-click the required table entry in the list. Options:
     * **Search**: Used to search for a table entry.
     * **Edit**: Used to [edit the entry](#edit-entries).
     * **New entry**: Used to [create a new entry](#create-entries).

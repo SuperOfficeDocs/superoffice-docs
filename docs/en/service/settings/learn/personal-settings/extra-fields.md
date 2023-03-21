@@ -11,7 +11,7 @@ language: en
 
 # Extra fields
 
-In the **Extra fields** tab in the **Edit users** screen, you can edit any [extra fields][1] that are available. This tab is only visible if extra fields have been set for users.
+In the **Extra fields** tab in the **Edit users** screen, you can edit any [extra fields][1]. This tab is visible only if extra fields have been set for users.
 
 <!-- Referenced links -->
 [1]: ../../../../custom-objects/learn/extra-field/index.md

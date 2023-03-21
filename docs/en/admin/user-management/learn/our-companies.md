@@ -84,7 +84,7 @@ To delete companies in the **Our companies** tab, the following two criteria mus
     * **No hits**: A message is displayed stating that no record matches the search criteria. Click **OK**, and search again using different criteria.
 
 <!-- Referenced links -->
-[1]: ../../options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/using-search-criteria.md
 [2]: delete-user.md
 
 <!-- Referenced images -->

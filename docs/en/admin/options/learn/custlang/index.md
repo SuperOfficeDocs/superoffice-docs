@@ -32,7 +32,7 @@ For example:
 On installation, 6 customer language folders (DE, DK, EN, NL, NO and SE) were placed in the folder **\\templates** on the server. You must set up these customer languages yourself.
 
 <!-- Referenced links -->
-[1]: edit-custlang.md
+[1]: update.md
 [2]: select-language.md
 [3]: external-categories.md
 

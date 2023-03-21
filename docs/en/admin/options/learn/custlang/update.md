@@ -47,7 +47,7 @@ language: en
 ## What would you like to find out more about?
 
 * [Work with external categories][1]
-* [How SuperOffice Service selects the customer language for new contacts][2]
+* [How SuperOffice selects the customer language for new contacts][2]
 
 <!-- Referenced links -->
 [1]: external-categories.md

@@ -16,7 +16,7 @@ Sometimes an agent is not able to continue chatting with the customer and solve 
 You can transfer chats to other agents and receive transferred chats from other agents.
 
 > [!NOTE]
-> A manager can also take over the chat or transfer the chat to another agent. This allows someone with administrator rights to make sure the customer gets an agent that is available and can help the customer correctly.
+> A manager can also take over the chat or transfer the chat to another agent. This allows someone with administrator rights to make sure the customer gets an agent who is available and can help the customer correctly.
 
 ## How to transfer
 

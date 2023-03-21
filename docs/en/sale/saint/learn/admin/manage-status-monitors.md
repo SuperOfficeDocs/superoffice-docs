@@ -47,7 +47,7 @@ You must then regenerate these statuses by clicking one of these buttons:
 | ![icon][img2] | Regenerate all counters | Select to regenerate all counters |
 
 <!-- Referenced links -->
-[1]: ../../../../admin/options/learn/using-search-criteria.md
+[1]: ../../../../search-options/learn/using-search-criteria.md
 [2]: select-status-criteria.md
 
 <!-- Referenced images -->

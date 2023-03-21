@@ -55,7 +55,7 @@ Above each list is a link to the selection containing the new/updated actors.
 > If you want to delete imported actors from SuperOffice, use the selection.
 
 <!-- Referenced links -->
-[1]: ../../options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/using-search-criteria.md
 [2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->

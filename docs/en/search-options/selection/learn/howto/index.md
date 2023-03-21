@@ -17,7 +17,7 @@ Depending on the archive you see, either Company/Contact or the other different 
 
 ![You can perform many different tasks when working with selections -screenshot][img1]
 
-One of the objects of defining selections is to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the **Find** screen.
+One of the objects of defining selections is to perform different tasks for the members or some of the members of the selection. In addition, these tasks are available from the list of results in the Find screen.
 
 The **Task** button contains tasks such as sending emails, mass-editing and exporting. Which tasks are displayed depends on what type of records the selection consists of (what is selected in the **Selection of** field) and which tab is active.
 

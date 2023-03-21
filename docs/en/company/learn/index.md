@@ -29,8 +29,6 @@ The bottom of the screen contains the following [default section tabs][8]:
 * Sales
 * Requests
 
-Everything you want to find out about a company is available from a single screen.
-
 ## What would you like to do?
 
 * [Create a new company][2]

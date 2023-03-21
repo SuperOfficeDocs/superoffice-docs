@@ -88,13 +88,13 @@ conceptualContent:
           url: ../admin/options/learn/freetext-search/enable.md
         - text: Specify search criteria
           itemType: how-to-guide
-          url: ../admin/options/learn/freetext-search/specifying-search-criteria.md
+          url: ../admin/options/learn/freetext-search/configure.md
         - text: Stopwords
           itemType: how-to-guide
           url: ../admin/options/learn/freetext-search/stopwords.md
         - text: Regenerate the free-text index
           itemType: how-to-guide
-          url: ../admin/options/learn/freetext-search/regenerating-freetext-index.md
+          url: ../admin/options/learn/freetext-search/regenerate-index.md
 
     # Card
     - title: UI options

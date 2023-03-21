@@ -14,7 +14,7 @@ language: en
 
 [!include[Requirement](../includes/note-saint-req.md)]
 
-You can specify the period (duration in days) for the following [counters][1]:
+You can specify the period (duration in days) for the following counters:
 
 * Number of completed/non-completed activities in period
 * Number of completed/non-completed sales in period
@@ -40,7 +40,6 @@ You can specify up to three different periods, so that you can choose between sh
 > If you have set a period to 30 days, for example, the period will always be 30 days from the last time the counters were regenerated. You should therefore [regenerate the counters frequently][2] (preferably each night), so that the counters are as up-to-date as possible.
 
 <!-- Referenced links -->
-[1]: ../../../../admin/options/learn/using-search-criteria.md
 [2]: manage-status-monitors.md
 
 <!-- Referenced images -->

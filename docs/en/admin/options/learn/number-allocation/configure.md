@@ -1,17 +1,18 @@
 ---
-uid: help-en-specifying-number-allocation
+uid: help-en-number-allocation-configure
 title: Specifying number allocation
 description: Specifying number allocation
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.24.2023
+keywords: number, counter
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Specify number allocation for field
 
-1. [!include[Go to Options](includes/open-options.md)]
+1. [!include[Go to Options](../includes/open-options.md)]
 
 2. Select the **Number allocation** tab.
 

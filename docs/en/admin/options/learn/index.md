@@ -4,8 +4,8 @@ title: Options
 description: Options
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: settings, options
+so.topic: reference
 language: en
 ---
 
@@ -29,9 +29,9 @@ In the **Options** screen, you define settings that are valid for the whole syst
 
 <!-- Referenced links -->
 [1]: freetext-search/index.md
-[2]: timezones.md
-[3]: number-allocation.md
-[4]: labels.md
+[2]: time-zones/index.md
+[3]: number-allocation/index.md
+[4]: labels/index.md
 [5]: reports.md
 [6]: custlang/index.md
 [7]: ../../../sale/saint/learn/index.md

@@ -2,8 +2,8 @@
 uid: help-en-settings-freetext-search
 title: Freetext search
 description: Freetext search
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.24.2023
 keywords: free-text, search
 so.topic: concept
 language: en
@@ -22,8 +22,8 @@ Using the freetext search function in SuperOffice CRM, users can search for text
 
 <!-- Referenced links -->
 [1]: enable.md
-[2]: specifying-search-criteria.md
-[3]: adding-stopwords.md
-[4]: regenerating-freetext-index.md
+[2]: configure.md
+[3]: stopwords.md
+[4]: regenerate-index.md
 
 <!-- Referenced images -->

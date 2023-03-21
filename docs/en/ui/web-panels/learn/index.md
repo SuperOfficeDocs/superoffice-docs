@@ -2,16 +2,16 @@
 uid: help-en-ui-web-panels
 title: Web panels
 description: Web panels
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Service
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.24.2023
+keywords: web panel
+so.topic: concept
 language: en
 ---
 
 # Web panels
 
-You can add extra browser tabs in SuperOffice Service. You can add browser tabs to the following screens:
+You can add extra browser tabs to the following screens so that the information is where the users need it:
 
 * Request
 * Company
@@ -19,11 +19,13 @@ You can add extra browser tabs in SuperOffice Service. You can add browser tabs 
 * Extra table entry
 * Dashboard: The browser tabs are available in the drop-down list you use to select the content of each or the four tiles on the dashboard.
 
-In this way, SuperOffice Service can be adapted so that the information is where the users need it.
+## What can I add as content
 
-You can add the same type of content as for [extra menus][1].
+* URLs: Links to web pages or to specific records in SuperOffice Service.
+* Screens: Shortcuts to specific screens.
+* Scripts/macros: Buttons or menu options that trigger a script or macro.
+* Selections: Shortcut to a selection.
 
 <!-- Referenced links -->
-[1]: ../../blogic/learn/extra-menus/index.md
 
 <!-- Referenced images -->

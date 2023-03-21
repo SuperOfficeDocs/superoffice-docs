@@ -73,7 +73,7 @@ You can easily switch between these screens in the Navigator.
 
 ## Differences between onsite and online installations
 
-SuperOffice is available as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
+SuperOffice is offered as an online application (cloud-based) and as an onsite application (installed on the customer's premises). There are minor differences between the two. Specific functional differences are indicated by the icons in the procedures themselves or in topic titles.
 
 ## Requirements for phone, fax, and email
 

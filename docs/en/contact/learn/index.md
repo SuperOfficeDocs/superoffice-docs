@@ -11,7 +11,7 @@ language: en
 
 # Contacts
 
-A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation.
+A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation. Everything you want to find out about a contact is available from a single screen.
 
 [!include[Intro](includes/contacts-screen-intro.md)]
 
@@ -22,8 +22,6 @@ The bottom of the Contact screen contains [default section tabs][1]:
 * Requests
 * Projects
 * Relations
-
-Everything you want to find out about a contact is available from a single screen.
 
 ## What would you like to do?
 

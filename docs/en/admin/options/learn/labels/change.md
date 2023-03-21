@@ -2,8 +2,8 @@
 uid: help-en-label-change
 title: Changing labels
 description: Changing labels
-author: SuperOffice RnD
-so.date: 03.07.2023
+author: Bergfrid Dias
+so.date: 03.21.2023
 keywords: label
 so.user: admin
 so.topic: howto
@@ -12,14 +12,14 @@ language: en
 
 # Change labels
 
-SuperOffice contains several fields whose names can be changed to customize the program to your organization's own requirements. [!include[SM](../../../learn/includes/are-defined-sm.md)]
+SuperOffice contains several fields whose names can be changed to customize the program to your organization's own requirements.
 
 You can change labels in all available languages in SuperOffice. For example, you may decide that all *Company* fields should be called *Organization* instead.
 
 > [!NOTE]
 > These changes apply only to SuperOffice CRM and not, for example, to reports or labels in Reporter Studio.
 
-[!include[Go to Options](includes/open-options.md)]
+[!include[Go to Options](../includes/open-options.md)]
 
 1. Select the **Labels** tab.
 
@@ -49,6 +49,6 @@ You can change labels in all available languages in SuperOffice. For example, yo
 * [Reset labels][1]
 
 <!-- Referenced links -->
-[1]: resetting-labels.md
+[1]: reset.md
 
 <!-- Referenced images -->
