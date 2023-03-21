@@ -33,7 +33,7 @@ To start using the integration, you need to take 2 set-up steps:
 * [Install Gmail Link][1]
 * [Google Workspace Integration][2] - App Store
 * [Order Google Workspace integration app][3]
-* [Google Workspace document integration][4] - technical docs
+* [Google Workspace document integration][4] - technical overview
 
 <!-- Referenced links -->
 [1]: ../../../../email/gmail-link/learn/install.md

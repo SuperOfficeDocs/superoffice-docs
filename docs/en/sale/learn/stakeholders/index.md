@@ -45,7 +45,7 @@ You must also set the **Enable Stakeholders** preference in the **Sale** prefere
 [4]: ../../../project/learn/project-members/send-email-to.md
 [5]: ../../../admin/lists/learn/sale-type.md
 [6]: ../../../admin/lists/learn/items.md
-[7]: ../../../admin/preferences/learn/preferences-tab/adding-preference-settings.md
+[7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
 [img1]: media/chap7-stakeholders.bmp

@@ -103,7 +103,7 @@ If you hold the mouse pointer over a record in any the lists, a tooltip is displ
 
 [41]: ../../../automation/crmscript/learn/index.md
 [42]: ../../../admin/preferences/learn/video-meetings/index.md
-[43]: ../../../admin/preferences/learn/document-library.md
+[43]: ../../../admin/preferences/learn/document-library/index.md
 [44]: https://online.superoffice.com/appstore
 [45]: ../../../admin/license/learn/index.md
 [46]: ../../../admin/user-management/learn/index.md

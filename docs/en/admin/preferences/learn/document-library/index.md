@@ -24,16 +24,13 @@ SuperOffice's SharePoint document library integration lets you create, archive a
 
 This integration allows you to store all documents and emails in SharePoint Online, where they can be accessed by everyone in the company, including even those who do not use SuperOffice CRM. The access to your SuperOffice document site in SharePoint can be controlled through domain groups (AAD = Azure active directory authentication).
 
-![On Preferences in Settings and maintenance you find the Document library where you can set up the SharePoint integration -screenshot][img1]
-
 ## Related topics
 
 * [Configure SharePoint document library][1]
-* [Microsoft 365 SharePoint and Google Workspace integration in SuperOffice CRM][2] - Technical documents
+* [Microsoft SharePoint and Google Workspace integration in SuperOffice CRM][2]
 
 <!-- Referenced links -->
-[1]: configure-sharepoint-document-library.md
-[2]: ../../../document/cloud/overview.md
+[1]: change-to-sharepoint.md
+[2]: ../../../../document/cloud/overview.md
 
 <!-- Referenced images -->
-[img1]: media/admin-preferences-documentlibrary.png

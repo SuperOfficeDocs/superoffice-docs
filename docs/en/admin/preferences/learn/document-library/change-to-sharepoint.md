@@ -1,11 +1,12 @@
 ---
-uid: help-en-configure-sharepoint-document-library
+uid: help-en-document-library-change-to-sharepoint
 title: Configure SharePoint document library
 description: Configure SharePoint document library
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+so.date: 03.21.2023
+keywords: document, SharePoint
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -20,9 +21,9 @@ When you are finished and have confirmed that you will use SharePoint, the state
 
 It is possible to change some of the settings in the Wizard later
 
-Steps:**
+**Steps:**
 
-1. [!include[Open preferences](includes/open-preferences.md)]
+1. [!include[Open preferences](../includes/open-preferences.md)]
 2. Select the **Document library** tab.
 3. Click **Change**. The page is updated with information about the connected SharePoint site. The change is not yet complete.
 4. Click **Complete the change** to confirm that you want to use SharePoint as the default document library. The change is now complete.
@@ -111,9 +112,9 @@ Click **Confirm** when you are done.
 
 ## Related topics
 
-* [SharePoint documents][1] - Technical documents
+* [SharePoint documents][1] - technical overview
 
 <!-- Referenced links -->
-[1]: ../../../document/cloud/sharepoint-documents/index.md
+[1]: ../../../../document/cloud/sharepoint-documents/index.md
 
 <!-- Referenced images -->
