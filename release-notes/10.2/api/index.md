@@ -42,7 +42,7 @@ so.topic: reference
 | Agent Name       | Method Name                 | Version | REST Agent      | SOAP Agent      |
 |------------------|-----------------------------|+-------+|-----------------|-----------------|
 |IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode   |10.2.3   | [REST Link][44]  | [SOAP Link][45] |
-|IAppointmentAgent | SetSeenMany                 |10.2.2   | [REST Link][64]  | [SOAP Link][65] |
+|IAppointmentAgent | SetSeenMany                 |10.2.2   | [REST Link][60]  | [SOAP Link][61] |
 |IArchiveAgent     | GetRelatedData              |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
 |IArchiveAgent     | GetRelatedData2             |10.2.1   | [REST Link][9]  | [SOAP Link][27] |
 |IEMailAgent       | HasSPFRecord                |10.2.1   | [REST Link][10] | [SOAP Link][28] |
@@ -203,5 +203,3 @@ services.AddLogging(a =>
 [61]: ../../../docs/en/api/reference/soap/Services88/Appointment/SetSeenMany.md
 [62]: ../../../docs/en/api/reference/restful/agent/Marketing_Agent/v1MarketingAgent_GetFormSubmissionsCount.md
 [63]: ../../../docs/en/api/reference/soap/Services88/Marketing/GetFormSubmissionsCount.md
-[64]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_SetSeenMany.md
-[65]: ../../../docs/en/api/reference/soap/Services88/Appointment/SetSeenMany.md
