@@ -33,7 +33,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: 565-en-folders-and-user-guide
+          ref: combine-hc-and-requests
       - name: Clone BuildDocs
         env:
           TOKEN: ${{ secrets.GH_PAT }}
