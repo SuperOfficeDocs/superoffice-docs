@@ -73,7 +73,7 @@ The Google Analytics feature in SuperOffice Marketing identifies your mailings i
 
 * [Include links you want to track][3]
 * [Add subscription links][4]
-* [Simple Google Analytics email tracking][6] -blog
+* [Simple Google Analytics email tracking][6] - blog
 * [Define link actions][7]
 
 <!-- Referenced links -->

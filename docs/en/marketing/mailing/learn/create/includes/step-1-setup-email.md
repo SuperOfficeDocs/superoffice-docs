@@ -44,7 +44,7 @@ The first step in creating an email mailing, is called **Setup**. Here you can s
 
 ## Related topics
 
-* [Maximize your email marketing success with these deliverability tips][1] - Community
+* [Maximize your email marketing success with these deliverability tips][1] - blog
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/email-deliverability-tips/

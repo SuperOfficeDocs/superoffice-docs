@@ -73,7 +73,7 @@ To obtain a Bearer access token, you'll need a registered application that can g
 [2]: ../../search/odata/index.md
 [3]: ../../web-services/webapi/index.md
 [4]: https://www.base64encode.org/
-[5]: https://community.superoffice.com/register-as-developer
+[5]: ../../../apps/getting-started/developer-registration-form.md
 
 <!-- Referenced images -->
 [img1]: media/odata-1.png

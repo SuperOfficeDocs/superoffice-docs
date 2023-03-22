@@ -8,12 +8,12 @@ so.topic: concept
 
 # Sales template variables
 
-You will always find a list of template variables when you click for help in the maintenance client or at our [help center][1].
+You will always find a list of template variables when you click **Help** in SuperOffice.
 
-However, when we release new service releases there may be new template variables added that will not be available in the user guide yet. This page is where it is first updated.
+However, when we push new releases there may be new template variables added that will not be available in the user guide yet. [This page is where it is first updated.][1]
 
 If you encounter a problem with templates check [Document templates troubleshooting][2].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com
+[1]: variables/for-sales.md
 [2]: troubleshooting.md

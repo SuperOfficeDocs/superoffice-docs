@@ -135,7 +135,7 @@ In SuperOffice Service you can also log in as the same user in several browsers 
 
 ## Related content
 
-Have trouble logging in? [Check our FAQs][1] for different log-in issues for help.
+Have trouble logging in? [Check our FAQs][1] for different log-in issues.
 
 * [What to do when I cannot login to SuperOffice CRM Online?][3] - FAQ
 * [What to do when a newly created user cannot log in to SuperOffice CRM?][4] - FAQ

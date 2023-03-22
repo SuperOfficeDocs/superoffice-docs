@@ -362,7 +362,7 @@ selectionEntity = await selectionAgent.SaveSelectionEntityAsync(selectionEntity)
 > The default value is 0 (All). Other options: 1 (Associate); 2 (Group). See the default preferences in Settings and maintenance for **Visibility for selections**.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/product-releases/whats-new/product/9-2-find-selection/
+[1]: ../../../../../release-notes/9.2/standard-crm/9.2-R01-update.md
 [2]: ../../archive-providers/reference/appointmentdynamicselectionv2.md
 [3]: ../../archive-providers/reference/contactpersondynamicselectionv2.md
 [4]: typical-search.md

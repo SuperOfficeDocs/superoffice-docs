@@ -46,7 +46,7 @@ There are effectively no limits to what you can search for in SuperOffice CRM. A
 > [!TIP]
 > If, for example, you want to search for all companies, you can use the percent sign (%) when [entering search criteria][3] for **Company**.
 
-## Broaden your search using the OR function
+## <a id="or" />Broaden your search using the OR function
 
 The Find feature allows you to perform a search by combining search criteria with the value operator "OR" between them. This way you can search for two sets of independent data and save it in one selection.
 

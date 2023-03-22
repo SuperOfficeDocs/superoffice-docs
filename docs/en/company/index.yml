@@ -46,15 +46,12 @@ conceptualContent:
     - title: Learn the essentials
       summary: ""
       links:
-      - text: Why adding companies and contacts to CRM is important
-        itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/company-contact/
       - text: How to add a company
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/company-contact/add-company/
+        url: learn/create.md
       - text: How to search for companies
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/get-started/search-find/
+        url: ../search-options/learn/find-screen.md
 
     # Card
     - title: Videos

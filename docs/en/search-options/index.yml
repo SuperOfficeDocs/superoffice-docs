@@ -48,19 +48,19 @@ conceptualContent:
       links:
       - text: How to search for information
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/selections/
+        url: learn/index.md
       - text: How to use a typical search
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/selections/typical-search/
+        url: learn/index.md#typical
       - text: How to create a search and save it as a selection
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/selections/save-search-as-selection/
+        url: selection/learn/create/index.md
       - text: How to create a dynamic selection
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/selections/dynamic-static-selections/
+        url: selection/learn/create/create-dynamic.yml
       - text: How to broaden a search using the "OR" function
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/selections/or-search-function/
+        url: learn/find-screen.md#or
 
     # Card
     - title: Videos

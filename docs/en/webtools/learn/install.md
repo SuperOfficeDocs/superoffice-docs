@@ -83,7 +83,7 @@ Set the preferences to fit your needs:
 * [How do I download and install WebTools for SuperOffice?][1] - FAQ
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-download-and-install-web-tools-for-superoffice-crm/
+[1]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-download-and-install-web-tools-for-superoffice-crm/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/main-menu-small.png

@@ -38,7 +38,7 @@ To start using the integration, you need to take 2 set-up steps:
 <!-- Referenced links -->
 [1]: ../../../../email/gmail-link/learn/install.md
 [2]: https://online.superoffice.com/appstore/superoffice-as/g-suite-integration
-[3]: https://community.superoffice.com/no/technical/forms/online-services/google-workspace-integration/
+[3]: ../set-up.md
 [4]: ../index.md
 
 <!-- Referenced images -->

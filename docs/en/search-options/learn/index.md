@@ -85,7 +85,7 @@ Use **%** as a wild card when searching. The percent character (%) matches any s
 
 [!include[Use wildcard in search](includes/tip-search-wildcard.md)]
 
-## Use typical searches as a starting point
+## <a id="typical" />Use typical searches as a starting point
 
 A typical search is a pre-defined search that we have set up for you, so you can see what other users typically search for. Each data set in the Find screen contains a list of typical searches that are ready to be used.
 
@@ -106,7 +106,7 @@ Watch this video to learn how to do a typical search and modify it by adding new
 
 [Read more][6]
 
-## Create a search and save it as a selection
+## <a id="search-to-selection" />Create a search and save it as a selection
 
 A selection is a list of data that shares one or more search criteria. It can be later used to perform a number of actions. In this guide we will explain how you can create a search and save it as a selection.
 

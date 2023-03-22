@@ -36,10 +36,10 @@ conceptualContent:
       links:
       - text: How to create a user-defined field
         itemType: learn
-        url: https://community.superoffice.com/en/learning/admin-guide/create-fields/
-      - text: How to create an extra field (Service)
+        url: learn/udef/add.md
+      - text: How to create an extra field
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/settings-maintenance/marketing/how-to-set-up-an-extra-field-for-a-contact/
+        url: learn/extra-field/create.md
 
     # Card
     - title: Videos

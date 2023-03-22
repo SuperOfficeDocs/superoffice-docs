@@ -70,7 +70,7 @@ In our Mobile CRM app you have access to all requests and can reply or reassign 
 * [How do I start using Caller ID for Mobile CRM][5] - FAQ
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/mobile-crm/quick-guide-for-mobile-crm-2020.pdf
+[1]: ../../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
 [3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-fingerprint-authentication-to-enter-my-mobile-crm-app/
 [4]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-configure-notifications-on-the-mobile-crm-app/
 [5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-caller-id-for-mobile-crm/

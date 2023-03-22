@@ -24,7 +24,7 @@ First, you must set up an application on Facebook in cooperation with the user o
 
 1. Open a browser and log in to Facebook.
 2. Go to <https://developers.facebook.com>.
-3. See [Facebook integration on SuperOffice Community][2] for instructions.
+3. Follow the instructions for [Facebook integration with Customer Service][2].
 4. When you have created the application in Facebook, go to the next step.
 
 ## Step 2: Set up a Facebook account in SuperOffice Service
@@ -48,10 +48,6 @@ First, you must set up an application on Facebook in cooperation with the user o
 1. In the **Email fields** field, enter a comma-separated list of email fields (headers) to be displayed in the request message, for example, To and Cc.
 
 1. Click **OK**. The Facebook account is created.
-
-## Related topics
-
-* [Facebook integration on SuperOffice Community][2]
 
 <!-- Referenced links -->
 [1]: https://developers.facebook.com
