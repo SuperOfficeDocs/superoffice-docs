@@ -4,6 +4,8 @@ items:
 - name: Freetext search
   href: freetext-search/index.md
   items:
+  - name: Overview
+    href: freetext-search/index.md
   - name: Enable freetext search
     href: freetext-search/enable.md
   - name: Specify search criteria
@@ -15,6 +17,8 @@ items:
 - name: Timezones
   href: time-zones/index.md
   items:
+  - name: Overview
+    href: time-zones/index.md
   - name: Enable use of time zones
     href: time-zones/enable.md
   - name: Select which time zones to show
@@ -22,6 +26,8 @@ items:
 - name: Number allocation
   href: number-allocation/index.md
   items:
+  - name: Overview
+    href: number-allocation/index.md
   - name: Specify number allocation
     href: number-allocation/configure.md
   - name: Default values for new document templates
@@ -29,6 +35,8 @@ items:
 - name: Labels
   href: labels/index.md
   items:
+  - name: Overview
+    href: labels/index.md
   - name: Change labels
     href: labels/change.md
   - name: Reset labels
@@ -39,6 +47,8 @@ items:
 - name: Customer languages
   href: custlang/index.md
   items:
+  - name: Overview
+    href: custlang/index.md
   - name: Create and edit customer languages
     href: custlang/update.md
   - name: Work with external categories

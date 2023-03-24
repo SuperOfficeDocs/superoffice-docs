@@ -10,9 +10,17 @@ so.version: 10
 so.lang: en
 so.envir:
 so.client:
+so.user: admin
+so.user.tooltip: Settings and maintenance
 ---
 
 # Custom objects
+
+## User defined fields
+
+All companies and organizations have their own requirements for the information they need to register concerning their customers, sales, projects, contracts, and so on. You can enter your own fields for SuperOffice CRM in the **Fields** screen. This way, you can customize the type of information that can be registered concerning companies, contacts, projects, sales, documents and follow-ups.
+
+## Custom fields and tables
 
 A good example of a custom field you can use on the customer's Contact card is a field called "Satisfied customer", where the value of the field is Yes or No.
 
@@ -22,14 +30,14 @@ Of course, you can add a wide range of tables and fields to SuperOffice Service 
 
 ![In the Tables screen, you can either choose to (a) create an extra field or (b) create a new table -screenshot][img1]
 
-## Custom fields
+### Custom fields
 
 All companies and organizations have their own requirements for the information they need to register. This could be for customers, sales, projects, and so on. As an administrator, you can add your own fields in Settings and maintenance.
 
 * [User-defined fields][1]
 * [Extra fields][2]
 
-### The benefits of adding fields
+#### The benefits of adding fields
 
 Using the Find function, you can search for the information you register in these fields and make selections.
 
@@ -39,13 +47,13 @@ You can reuse the information from these fields in documents and emails using te
 
 So, if you want to send an email to your customers that says that their maintenance agreement will expire soon, you can use the template variable for expiry date to show the correct expiry date of their agreement in the message.
 
-### Positioning
+#### Positioning
 
 Any custom screen layouts (created in the Screen Designer) using screen designer may override the settings on fields.
 
 If you do not have license to Configurable Screens, use the rank of the different fields.
 
-## Extra tables
+### Extra tables
 
 * [Introduction to extra tables][3]
 * [Define a table][4]

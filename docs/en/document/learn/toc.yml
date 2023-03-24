@@ -4,6 +4,7 @@ items:
 - name: Document screen
   href: screen/index.md
 - name: Work with document
+  topicHref: create.md
   items:
   - name: Create new document
     href: create.md

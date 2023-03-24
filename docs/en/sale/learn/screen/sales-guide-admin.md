@@ -11,7 +11,7 @@ so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Sales guide (Settings and maintenance)
+# Sales guide
 
 In the **Sales guide** tab in the **Workflow** screen in Settings and maintenance, you can design sales guides to guide sales staff through the sales process. A sales guide consists of stages containing follow-ups and documents to guide the sales person through the sale. Each sales guide is linked to a sale type, and the sales guide is enabled in the Sale when the user creates a new sale or changes the sale type of an existing sale, and selects a sale type that has a sales guide linked to it.
 

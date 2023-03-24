@@ -2,6 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Work with dashboard
+  topicHref: create.md
   items:
   - name: Create a new dashboard
     href: create.md
@@ -14,6 +15,8 @@ items:
 - name: Work with tiles
   href: working-with-tiles.md
   items:
+  - name: Overview
+    href: working-with-tiles.md
   - name: Add tile / edit layout in dashboard
     href: add-tile.md
   - name: Edit a tile

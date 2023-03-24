@@ -3,7 +3,9 @@ items:
   href: index.md
 - name: Section tabs on contact
   href: screen/toc.yml
+  topicHref: screen/index.md
 - name: Work with contact
+  topicHref: create.md
   items:
   - name: Create new contact
     href: create.md
@@ -25,3 +27,4 @@ items:
     href: print.md
 - name: Privacy settings and GDPR
   href: ../../security/privacy/learn/toc.yml
+  topicHref: ../../security/privacy/learn/index.md

@@ -8,6 +8,8 @@ items:
 - name: Import
   href: import/index.md
   items:
+  - name: Overview
+    href: import/index.md
   - name: Import routines
     href: import/import-routines.md
   - name: ANSI files
@@ -15,6 +17,8 @@ items:
   - name: Import files
     href: import/importing-files.md
     items:
+    - name: Overview
+      href: import/importing-files.md
     - name: Field mapping
       href: import/field-mapping.md
       items:
@@ -42,9 +46,12 @@ items:
         href: import/editing-import-descriptions.md
   - name: Export
     href: export.md
-- name: Update the database
+- name: Work with Windows client settings
   href: update-database.md
-- name: Parameter use in .ini-files
-  href: parameter-examples.md
-- name: Create/copy shortcut
-  href: creating-shortcuts-to-entries-in-crm.md
+  items:
+  - name: Update the database
+    href: update-database.md
+  - name: Parameter use in .ini-files
+    href: parameter-examples.md
+  - name: Create/copy shortcut
+    href: creating-shortcuts-to-entries-in-crm.md
