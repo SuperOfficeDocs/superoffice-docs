@@ -16,11 +16,15 @@ so.date:
 
 [!include[ALT](./includes/rights.md)]
 
-The rights are mutually exclusive; a field can only have one of these rights.
+The rights are mutually exclusive; a field can only have one of these rights: R, W, or M.
 
 ## Field
 
-The fields will mostly be from the `Quoteline` table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on.
+The fields will mostly be from the `Quoteline` table, but some added fields that are conceptually part of the quoteline, like Image will also be possible to set rights on.
+
+You do not need to include the table name.
+
+`UnitListPrice` and `QuoteLine.UnitListPrice` are equivalent.
 
 ## Reason
 
@@ -32,4 +36,6 @@ The reason will only work when the right is R (read-only).
 
 ## Example
 
-"QuoteLine.Image=N&QuoteLine.UnitCost=R,This product has a fixed cost.&QuoteLine.Description=W&QuoteLine.VAT=M"
+"QuoteLine.Image=N&UnitCost=R,This product has a fixed cost.&Description=W&QuoteLine.VAT=M"
+
+
