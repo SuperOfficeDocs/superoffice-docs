@@ -3,7 +3,7 @@ uid: help-en-users-screen
 title: Users screen
 description: Users screen
 author: Bergfrid Dias
-so.date: 03.15.2023
+so.date: 03.27.2023
 keywords: user, associate, our companies
 so.topic: reference
 so.user: admin
@@ -43,6 +43,12 @@ By default, the list in the **Associates** tab consists of the following columns
 On the rightmost side of the window, there is detailed information about the user selected in the list of associates.
 
 The full name, email address and owning company is displayed at the top. At the bottom of this section, you can activate/deactivate the user in SuperOffice using the **Can log in** button. Click the **Task** button to access functions such as **Move user** and for sending welcome emails and emails for resetting passwords.
+
+There are different tabs in the User overview:
+
+* **Details** - main overview of user information like **User ID**, **Role**, **User plan**, **Primary group** and **Service categories**.
+* **Licences** - extra license information like **Condfidential activities** that will give the user the option to set **visible for** on appointments, documents and selections.
+* **More** - the tab shows if there are any extra fields on person.
 
 ## Other users (Onsite)
 
