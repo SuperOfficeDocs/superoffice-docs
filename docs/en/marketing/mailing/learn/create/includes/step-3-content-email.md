@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-In the **Content** step you can edit the layout and content of the email, and add links and images.
+In the **Content** step you can edit the layout and content of the e-mail, and add links and images.
 
 The mailing editor gives you the flexibility and freedom to design your mailings exactly how you want them.
 

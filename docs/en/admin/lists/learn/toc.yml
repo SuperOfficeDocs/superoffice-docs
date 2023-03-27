@@ -89,6 +89,8 @@ items:
       href: currency.md
     - name: Add currency
       href: adding-items-to-currency-list.md
+    - name: Mailing domain
+      href: add-items-to-mailing-domain.md
     - name: Relation
       href: relation.md
     - name: Add relation

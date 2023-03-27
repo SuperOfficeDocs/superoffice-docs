@@ -3,26 +3,17 @@ The first step in creating an email mailing, is called **Setup**. Here you can s
 
 1. Enter a name in the **Name of mailing** field.
 
-1. Enter the subject of the email in the **Email subject** field.
+1. Enter the subject of the email in the **E-mail subject** field.
 
-1. The **From** section includes several fields:
-   * Set a rule for the From addresses for your mailings. **Always use** means that your emails will be sent from the email address you specify. **Use our contact where specified, otherwise use** means that your mailings will be sent from your registered email address. If the Our contact address has an email domain that has not been validated, the mailing will automatically be sent from the address specified in the **Otherwise use** field.
-   * Specify the email address you want to send from and select the domain. The available From domains will show in the dropdown list **Choose mail domain**.
-   * You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an email address to be used if no sales contact or support contact is available.
+1. In the **From** list, select **Always use** and enter the sender's email address in the field below to use the same sender for all mailings. You can also choose a sales contact or support contact as the sender, if one is defined for this recipient. Enter an email address to be used if no sales contact or support contact is available. If your admin has activated the [global email validation preference][2], select the domain you want to send from in the drop-down list.
 
-    > [!NOTE]
-    > If the global email validation preference has not been activated, you will be able to set any email address and domain as the From address. The system will notify you that the domain cannot be found during the SPF lookup. This means that your email address will likely end up in the receiver’s SPAM folder.
+    [!include[Note](spf-look-up.md)]
 
-1. Add the name in the **From name** and the correct email address in the **From address** field.
-
-   > [!NOTE]
-   > You will get a warning when adding a domain that is not an approved domain with a valid SPF record - [Sender Policy Framework][2]. (ONLINE only.)
-
-1. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender. If you select any of the other option you fill out the fields for **Reply name** and **Reply address**.
+1. In the **Reply to** list, you have the same options as above. In addition, you can select **Use "From" as reply address**. Any replies will then be sent to the sender.
 
 1. Select a folder to place the mailing in from the **Folder** list.
 
-    [How do I create a mailing folder?][19]
+    [How do I create a mailing folder?][4]
 
 1. In the **Selection** and **Project** fields, you can associate the mailing with a selection and/or a project. If you add a selection, any contacts in the selection are added as recipients in the mailing.
 
@@ -42,13 +33,21 @@ The first step in creating an email mailing, is called **Setup**. Here you can s
 
 1. Click **Next** to go to the next step.
 
+## E-mail Domain Validation (ONLINE ONLY)
+
+If your admin has activated the [global preference][2] **Only use approved e-mail domains**, the **From address** field will be split, and you need to select the domain you want to send from in the drop-down list of approved domains.
+Attempting to send from a domain that does not have a valid SPF record will prompt a warning, and you will not be able to send from that domain. This applies to all email domains even if the validation preference is not activated.
+
+> [!NOTE]
+> If the **Our contact address** has an email domain that has not been validated, the mailing will automatically be sent from the address specified in the **Otherwise use** drop-down list options.
+
 ## Related topics
 
 * [Maximize your email marketing success with these deliverability tips][1] - blog
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/email-deliverability-tips/
-[2]: ../../../../../../../release-notes/10.2/marketing/10.2.2-update.md
-[19]: ../../../../learn/create-folder.md
+[2]: ../../../../../admin/lists/learn/add-items-to-mailing-domain.md
+[4]: ../../../../learn/create-folder.md
 
 <!-- Referenced images -->
