@@ -6,7 +6,7 @@ author: SuperOffice AS – Research and Development
 so.date: 03.07.2023
 keywords: mobile
 so.version: 10.2
-so.topic: custom tasks, new button, sharepoint, filter
+so.topic: custom tasks, new button, SharePoint, filter
 ---
 
 # New and improved SuperOffice Mobile CRM
@@ -19,5 +19,5 @@ so.topic: custom tasks, new button, sharepoint, filter
 <!-- Referenced links-->
 [1]: 10.2.1-update.md
 [2]: 10.2.2-update.md
-[3]: 10.2.3-update.md
+[3]: 10.2.8-update.md
 [10]: 10.2.10-update.md
