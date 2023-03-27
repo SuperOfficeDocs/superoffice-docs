@@ -82,6 +82,13 @@ In the **Licences** tab, you can select licenses in addition to those defined by
 
 In the lower part of the user card, you can activate or deactivate the login rights of the selected user by clicking the **Can log in** button. By default this option is activated when you select a user plan for the user.
 
+## Edit user / associate
+
+1. [!include[Click Users](includes/goto-users.md)]
+2. Select the **Associates** tab.
+3. Select the required user in the list of users.
+4. Make your changes and click **Save**.
+
 ## Related
 
 * [Add anonymous or system user (onsite)][5]
