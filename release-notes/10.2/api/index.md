@@ -201,5 +201,3 @@ services.AddLogging(a =>
 [59]: ../../../docs/en/api/mdo-providers/reference/workflowsteptype.md
 [60]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_SetSeenMany.md
 [61]: ../../../docs/en/api/reference/soap/Services88/Appointment/SetSeenMany.md
-[62]: ../../../docs/en/api/reference/restful/agent/Marketing_Agent/v1MarketingAgent_GetFormSubmissionsCount.md
-[63]: ../../../docs/en/api/reference/soap/Services88/Marketing/GetFormSubmissionsCount.md
