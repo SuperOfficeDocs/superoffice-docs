@@ -234,7 +234,3 @@ items:
   - name: Windows client settings
     href: ../onsite/win-client/learn/toc.yml
     topicHref: ../onsite/win-client/learn/index.md
-
-  - name: Personal settings in Service
-    href: ../service/settings/learn/personal-settings/toc.yml
-    topicHref: ../service/settings/learn/personal-settings/user-info.md

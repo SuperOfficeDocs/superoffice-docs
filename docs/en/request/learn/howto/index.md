@@ -25,7 +25,6 @@ A customer service system is all about providing your customers the answers they
 * [Add requests to the favorites list][6]
 * [Close requests][7]
 * [Edit message][9]
-* [Set up notifications][16]
 
 Different companies have different routines for request handling and can use SuperOffice Requests in different ways. Below we have set up two real-life scenarios showing some of the available options. These scenarios will show you how you can reply efficiently when a customer has submitted a request by email and when a customer calls in with a problem or a question.
 
@@ -97,7 +96,6 @@ Save time by letting the system categorise requests for you. If this function is
 [13]: ../find.md
 [14]: create.md
 [15]: ../../../learn/getting-started/edit-email-signature.md
-[16]: ../../../service/settings/learn/personal-settings/notification.md
 [17]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 
 <!-- Referenced images -->

@@ -27,12 +27,11 @@ landingContent:
           url: ../admin/preferences/learn/index.md
         - text: Options
           url: ../admin/options/learn/index.md
-      - linkListType: how-to-guide
+      - linkListType: reference
         links:
         - text: System settings in Service
           url: ../service/settings/learn/index.md
-        - text: Personal settings in Service
-          url: ../service/settings/learn/personal-settings/index.md
+
 
   # Card
   - title: Custom objects
