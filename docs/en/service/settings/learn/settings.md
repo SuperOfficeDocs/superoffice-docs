@@ -1,15 +1,15 @@
 ---
 uid: help-en-service-settings-system-settings
-title: Settings
-description: Settings
+title: SuperOffice Service system settings
+description: Global preferences for SuperOffice Service system settings
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.27.2023
 keywords: Service, settings
 so.topic: help
 language: en
 ---
 
-# Settings
+# SuperOffice Service system settings
 
 The **Settings** tab in the **System** screen contains the following options:
 
@@ -17,17 +17,17 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, support@company.com.
 
-* **Internal URL**: The base address for access to the SuperOffice Service system.
+* **<!-- onsite--> Internal URL**: The base address for access to the SuperOffice Service system. (ONSITE only)
 
-* **External URL**: The base address for external access to the SuperOffice Service system.
+* **<!-- onsite--> External URL**: The base address for external access to the SuperOffice Service system. (ONSITE only)
 
-* **Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*.
+* **<!-- onsite--> Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*. (ONSITE only)
 
 * **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in emails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received emails will not be correctly linked to existing requests.
 
 * **New status when accepting a request**: Select which status to use when a request is accepted by a user.
 
-* **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from ![icon][img1] **Personal settings** > **Settings** > **Notification**.
+* **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from ![icon][img1] **Personal settings** > **Preferences** > **Notification via e-mail & SMS**.
 
 * **Number of days before notification**: Specifies how many days must pass before email notification about old requests is sent to the users. You can also specify the time of day that the notification should be sent.
 
@@ -49,11 +49,11 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Enable editing of messages**: If checked, the user will be allowed to edit messages.
 
-* **<!-- onsite--> Use user authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS).
+* **<!-- onsite--> Use user authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS). (ONSITE only)
 
-* **<!-- onsite--> Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS).
+* **<!-- onsite--> Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS). (ONSITE only)
 
-* **<!-- onsite--> Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online.
+* **<!-- onsite--> Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online. (ONSITE only)
 
 * **Track all links**: Check here to track all links in mailings.
 

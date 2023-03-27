@@ -4,7 +4,7 @@ items:
 - name: Work with preferences
   href: update-preferences.md
 
-- name: System settings for Requests
+- name: Global preferences for Service
   href: ../../../service/settings/learn/toc.yml
 
 - name: Video meetings

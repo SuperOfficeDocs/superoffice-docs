@@ -9,13 +9,12 @@ so.topic: reference
 language: en
 ---
 
-# System settings
+# Different settings for Service
 
-In this section, you can configure the system to tailor it to your organisation's needs. Which options are displayed and what you can do depend on the rights assigned in your user profile. Rights are assigned under **Users**.
+In this section, you can configure the settings for Service to tailor it to your organisation's needs. Which options are displayed and what you can do depend on the rights assigned in your user profile. Rights are assigned under **Users**.
 
 ## What would you like to find out more about?
 
-* [Profile][1]
 * [Roles][2]
 * [Users][3]
 * [Categories][4]
@@ -23,15 +22,13 @@ In this section, you can configure the system to tailor it to your organisation'
 * [Request status][6]
 * [Email][7]
 * [System templates][8]
-* [System][9]
+* [Global preferences for Service][9]
 * [Customer languages][10]
 * [Customer centre configuration and source files][11]
 * [Chat][13]
-* [SOAP][14]
+* [SOAP][14] (ONSITE only)
 * [System design][15]
-
-> [!NOTE]
-> The [Invoice types][16] function is only available if you have the required feature toggle.
+* [Profile][1] - changes here will not show anywhere in SuperOffice CRM module (only in the Service module)
 
 <!-- Referenced links -->
 [1]: ../../../ui/blogic/learn/profiles/index.md
@@ -48,6 +45,5 @@ In this section, you can configure the system to tailor it to your organisation'
 [13]: ../../../chat/learn/admin/index.md
 [14]: ../../../admin/learn/screen/soap-config.md
 [15]: ../../../ui/blogic/learn/index.md
-[16]: ../../../request/learn/invoice/index.md
 
 <!-- Referenced images -->

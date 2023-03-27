@@ -146,8 +146,10 @@ items:
       topicHref: ../automation/crmscript/learn/index.md
 
     - name: Requests
-      topicHref: ../request/learn/category/index.md
+      topicHref: ../service/settings/learn/index.md
       items:
+      - name: Overview
+        href: ../service/settings/learn/index.md
       - name: Categories
         href: ../request/learn/category/index.md
         items:

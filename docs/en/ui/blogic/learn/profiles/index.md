@@ -15,6 +15,9 @@ language: en
 
 Profiles in the system are used for configuring the appearance and behavior of screen elements.
 
+> [!NOTE]
+> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
 For example:
 
 * Move or add columns in the list of requests in the Contact screen

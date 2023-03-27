@@ -1,15 +1,15 @@
 ---
 uid: help-en-service-settings-system
-title: System settings
-description: System settings
+title: Global preferences for Service
+description: Global preferences for Service
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.27.2023
 keywords: Service, settings
 so.topic: help
 language: en
 ---
 
-# System
+# Global preferences for Service
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
@@ -17,8 +17,8 @@ The **System** screen is used to configure some of the key characteristics of Su
 
 ## What would you like to find out more about?
 
-* [Settings][1]
-* [SMTP][2] <!-- onsite-->
+* [Global preferences for Service][1]
+* [SMTP][2] (ONSITE only) <!-- onsite-->
 * [Password][3]
 * [SMS][4]
 
