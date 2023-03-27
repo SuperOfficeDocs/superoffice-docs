@@ -47,7 +47,7 @@ SuperOffice uses two authorization servers, `superid` and `central-superid`.
 
 * Delegated access to resources through access tokens.
 
-* Multiple grant types to support various use cases (e.g., implicit, hybrid and authorization code). SuperOffice **does not support** `client credentials`, and `resource owner password` credentials.
+* Multiple grant types to support various use cases (for example, implicit, hybrid and authorization code). SuperOffice **does not support** `client credentials`, and `resource owner password` credentials.
 
 * Token-based communication between components for security.
 
