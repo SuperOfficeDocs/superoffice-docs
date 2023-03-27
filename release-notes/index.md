@@ -13,7 +13,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## The latest release
 
-[Version 10.2.3][6]
+[**Version 10.2.4**][6] - 03.28.2023
 
 ## Overview of the different versions
 
@@ -49,7 +49,6 @@ Here you will find all the small and big changes that has been released for Supe
 [4]: 10.0/index.md
 [5]: 10.1/index.md
 [6]: 10.2/index.md
-[7]: 10.2/10.2.3-update.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png
