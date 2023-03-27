@@ -68,6 +68,7 @@ items:
     - name: Document types
       href: templates/document-types.md
     - name: Variables
+      topicHref: templates/variables/index.md
       items:
       - name: For appointments
         href: templates/variables/for-appointments.md
