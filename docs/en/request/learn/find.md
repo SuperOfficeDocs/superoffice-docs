@@ -28,14 +28,6 @@ The simplest way to search for requests is to use the search bar available as me
 
 * **Last requests**: Shows the requests most recently recorded in the system. If specified in user preferences, this list will only contain requests from the categories you are a member of.
 
-    <details><summary>How?</summary>
-    To specify that only requests from categories you are a member of are displayed:
-
-    1. Select ![icon][img2] **Personal settings** > **Preferences**.
-    1. Set **Show only own categories** to Yes.
-    1. Click **Save**.
-    </details>
-
 * **Own open requests**: Shows requests that belong to you and which have the **Open** status. This list contains the requests that you are responsible for, and is therefore the screen you will be working in most often.
 
 * **Unassigned requests**: Lists requests that no-one is assigned responsibility for. To [take responsibility for one of the requests][6], it is important you do so by clicking **Accept request**. Otherwise there is a risk of others answering the request at the same time.
@@ -43,6 +35,12 @@ The simplest way to search for requests is to use the search bar available as me
 * **My favourites**: Shows the requests you have saved as favourites.
 
 * **Get next in queue**: If the [queue system is set up][5] for your company, you can click this option to get the next unassigned request in the queue for the category you belong to.
+
+### Show only own categories
+
+1. Select ![icon][img2] **Personal settings** > **Preferences**.
+1. Set **Show only own categories** to Yes.
+1. Click **Save**.
 
 ### Customise search criteria
 

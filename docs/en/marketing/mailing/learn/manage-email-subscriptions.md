@@ -49,7 +49,7 @@ If the E-Marketing privacy feature is turned OFF, this means that SuperOffice CR
 To learn more, watch the video on how you can set up the privacy settings for GDPR in SuperOffice CRM.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
+> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
 ![In Settings and maintenance you can switch on the e-marketing privacy feature. -screenshot][img3]
 

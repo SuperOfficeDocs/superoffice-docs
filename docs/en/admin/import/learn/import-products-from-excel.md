@@ -28,7 +28,7 @@ Before you start your import, [prepare the Excel file][1]. Checklist:
 Watch this video or follow the steps to learn how to import your products into SuperOffice CRM using our import template (video length - 4:22):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/xOTB6j2zzNo]
+> [!Video https://www.youtube.com/embed/xOTB6j2zzNo]
 
 1. [!include[Open Import](includes/open-import.md)]
 

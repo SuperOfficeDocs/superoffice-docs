@@ -18,7 +18,7 @@ You can either create your own form from scratch, use a template from the form t
 Watch this video to learn how you can create a web form (video length - 7:49) or follow the steps below.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/18m6Dx1t9wI]
+> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
 ## Create new
 
@@ -132,7 +132,7 @@ Using the double opt-in feature will guarantee that people submit the right emai
 Watch this video to learn how to use the double opt-in feature on your web form (video length - 3:45) or follow the steps below.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/o7mkk3n7zuw]
+> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
 
 **Steps:**
 
@@ -161,7 +161,7 @@ The effect will be uplifting – a "Thank you" page will both elevate their cust
 Watch this video to learn how to add a "Thank you" page to your web form (video length - 1:48) or follow the steps below.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/xaVXR-Ltfuo]
+> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
 
 Choose one of the following options:
 

@@ -28,7 +28,7 @@ To access email, you must first specify details about your email account.
 Watch this video to see how quickly and easily you can set up your SuperOffice Inbox or follow the steps below (video length -1:34):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/QoAanZgQs5A]
+> [!Video https://www.youtube.com/embed/QoAanZgQs5A]
 
 ### Steps
 

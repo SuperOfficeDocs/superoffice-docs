@@ -55,7 +55,7 @@ Let's take a look at some practical examples of how you can use the OR function.
 Watch this video to learn how to create a search using the OR function (video length - 4:08):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/Z-fSLJSdp2k]
+> [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
 
 ## Work with search results
 

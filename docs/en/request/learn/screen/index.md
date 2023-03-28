@@ -58,16 +58,12 @@ The toolbar contains the following options:
 
 The **Messages** tab displays the messages related to the request.
 
-You can change how many messages are displayed, in ![icon][img3] **Personal settings**.
-
-<details><summary>How?</summary>
+You can change how many messages are displayed, in ![icon][img3] **Personal settings**:
 
 1. Select ![icon][img3] **Personal settings** > **Settings**.
 2. Select the **Interface** tab.
 3. Specify the number of messages in the **No. of expanded messages** field.
 4. Click **OK**.
-
-</details>
 
 ### Options
 

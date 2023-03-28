@@ -28,33 +28,28 @@ You want to monitor companies that you have very few activities with, to avoid u
 3. Click **Add** below the **Status monitors** list.
 
 4. In the dialog, complete these fields:
+
     * **Name**: Enter a descriptive name for the status you want to add.
 
         Optional: Click ![icon][img2] to [add translations][8] of the status name.
 
     * **Description**: Enter an explanatory description of the status and what measures are required or recommended. In this field you can also use [template variables][9] to tailor the text to the relevant company, contact or project.
 
-    <details><summary>Click here for an example.</summary>
-
-    [!include[Example](includes/example-status-description.md)]
-    </details>
-
     The name and description are displayed in SuperOffice CRM when the user holds the mouse pointer over the status image or opens the status image for the company. You can subsequently [edit the description][2].
 
 5. Click **Save**. The status is displayed in the status list.
 
-    <details><summary>What does the status list contain?</summary>
-
-    ![icon][img3] – the **Visualize** icon indicates if to [display a status image][3] for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualize** in the **Image** tab for the status in question.
-
-    ![icon][img4] – a red cross indicates that the status must be regenerated. The [status must be regenerated][4] each time you add, edited or deleted a criterion or if, for example, when you change an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
-
-    **Name** – the name of the statuses. Deleted statuses are displayed in red if checked **Show deleted** is checked.
-
-    **Priority** – the priority of the statuses. The priority determines which status to display if a company, contact or project fulfils the criteria for several statuses.
-    </details>
-
 6. If there are several statuses in the list, specify the priority you want the new status to have. Click the status and use the ![icon][img5] / ![icon][img6] arrow buttons to the right of the status list to move it up or down the list.
+
+### What does the status list contain?
+
+![icon][img3] – the **Visualize** icon indicates if to [display a status image][3] for company, contact or project cards that fulfil the status criteria. The icon is displayed only if you checked **Visualize** in the **Image** tab for the status in question.
+
+![icon][img4] – a red cross indicates that the status must be regenerated. The [status must be regenerated][4] each time you add, edited or deleted a criterion or if, for example, when you change an intention for a task. Statuses with red crosses are not updated and do not return current data when using SuperOffice CRM.
+
+**Name** – the name of the statuses. Deleted statuses are displayed in red if checked **Show deleted** is checked.
+
+**Priority** – the priority of the statuses. The priority determines which status to display if a company, contact or project fulfils the criteria for several statuses.
 
 ## Why do I need to specify a status's priority?
 

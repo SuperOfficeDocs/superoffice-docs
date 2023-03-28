@@ -25,7 +25,7 @@ For example, if your Support team rarely uses the company address when they comm
 Watch this video and find out how add a new layout or follow the step-by-step guide below (the video will start at 5:37):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/EcL4TEXXvmU?t=337]
+> [!Video https://www.youtube.com/embed/EcL4TEXXvmU?t=337]
 
 ### Steps
 

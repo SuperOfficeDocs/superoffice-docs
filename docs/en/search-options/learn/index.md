@@ -127,7 +127,7 @@ There are three ways to save you search results as selection:
 Watch this video or follow the steps below to learn how you can create a search and save it as a dynamic selection (video length - 1:26):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/b1YsCcHwz-o]
+> [!Video https://www.youtube.com/embed/b1YsCcHwz-o]
 
 ## Related content
 

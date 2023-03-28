@@ -17,10 +17,7 @@ language: en
 
 3. Click the **Add** button below the **Items** list.
 
-    <details><summary>Do you want to add an item to a specialized list?</summary>
-
-    Some list types are more specialized than those referred to in this procedure. [Specialized lists][1].
-    </details>
+    Some list types are more specialized than those referred to in this procedure. [How to add an item to a specialized list][1].
 
 4. In the dialog, enter the required name of the item in the **Name** field.
 

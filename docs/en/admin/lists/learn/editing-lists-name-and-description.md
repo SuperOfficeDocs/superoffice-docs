@@ -32,7 +32,7 @@ After a contact is registered in SuperOffice CRM, this person can subscribe to t
 Watch this video to learn how to add and edit subscription types (video length - 2:00):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/tBtLjFKnBj4]
+> [!Video https://www.youtube.com/embed/tBtLjFKnBj4]
 
 <!-- Referenced links -->
 

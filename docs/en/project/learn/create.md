@@ -20,17 +20,15 @@ Watch this video or follow the steps below to learn how to create a project (vid
 
 1. Click **New** on the top bar and select **Project**.
 
-2. In the empty project card, fill in the required information in the fields in the **Project** tab.
-
-    <details><summary>What goes in the various fields?</summary>
-
-    [!include[Steps to populate company fields](includes/project-fields.md)]
-
-    </details>
+2. In the empty project card, fill in the required information in the fields in the **Project** tab. See details below.
 
 3. Optionally, go to one of the tabs to enter further information.
 
 4. Click **Save**. You are now ready to [add project members][5].
+
+### What goes in the various fields?
+
+[!include[Steps to populate company fields](includes/project-fields.md)]
 
 ## What would you like to do now?
 

@@ -17,11 +17,11 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Default From address**: The system's default email sender address. This address will normally be overridden by the addresses entered into mailboxes. This must be an email address that is imported into SuperOffice Service. For example, support@company.com.
 
-* **<!-- onsite--> Internal URL**: The base address for access to the SuperOffice Service system. (ONSITE only)
+* **Internal URL**: The base address for access to the SuperOffice Service system. (ONSITE only)
 
-* **<!-- onsite--> External URL**: The base address for external access to the SuperOffice Service system. (ONSITE only)
+* **External URL**: The base address for external access to the SuperOffice Service system. (ONSITE only)
 
-* **<!-- onsite--> Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*. (ONSITE only)
+* **Cgi-Bin path**: The path to the folder where SuperOffice Service's Cgi-Bin application files reside. This path must have a leading folder separator sign (slash), but not a trailing one. For example, */bin* or */Scripts*. (ONSITE only)
 
 * **Email tag**: The email tag which, in conjunction with the request number, creates a unique key for the subject in emails that are sent out from SuperOffice Service. You must not change this value unless you know what you are doing! If this value is changed, received emails will not be correctly linked to existing requests.
 
@@ -49,11 +49,11 @@ The **Settings** tab in the **System** screen contains the following options:
 
 * **Enable editing of messages**: If checked, the user will be allowed to edit messages.
 
-* **<!-- onsite--> Use user authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS). (ONSITE only)
+* **Use user authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the web server (Microsoft IIS). (ONSITE only)
 
-* **<!-- onsite--> Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS). (ONSITE only)
+* **Use customer authentication from web server**: If checked, SuperOffice Service allows user authentication deriving from the customer centre web server (Microsoft IIS). (ONSITE only)
 
-* **<!-- onsite--> Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online. (ONSITE only)
+* **Online on the Internet**: Check here if SuperOffice Service is available on the Internet. This will control parts of the functionality available in SuperOffice Service, because some functionality actually requires the solution to be online. (ONSITE only)
 
 * **Track all links**: Check here to track all links in mailings.
 

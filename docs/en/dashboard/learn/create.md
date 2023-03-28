@@ -18,7 +18,7 @@ In the Dashboard screen you can have multiple dashboard tabs to display any numb
 Watch this video or follow the steps below to learn how to add new dashboard tabs to SuperOffice CRM (video length – 4:29):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/W68M1IOke0Y]
+> [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
 1. Open the **Dashboard** screen.
 

@@ -19,7 +19,7 @@ language: en
 2. Select one of the following tabs:
 
     * **Associates**: Here you can add roles for employees in your company.
-    * **External**:  <!-- onsite-->Here you can add roles for external users.
+    * **External**:  Here you can add roles for external users (onsite only).
 
     > [!NOTE]
     > There is only a single role for anonymous users and you cannot create a new one. See [Edit rights for anonymous users][5].

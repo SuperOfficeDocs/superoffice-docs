@@ -24,13 +24,13 @@ so.envir: onsite
 
     * <details><summary>Do you want to remove just a single rule?</summary>
 
-    1. Select the required row under **Handling of duplicates**.
-    2. Click the **Reset** button. The selected row will then have nothing in the **Key** column, and the **Action** column will be changed to **Skip record**.
-
+        1. Select the required row under **Handling of duplicates**.
+        2. Click the **Reset** button. The selected row will then have nothing in the **Key** column, and the **Action** column will be changed to **Skip record**.
     </details>
+
     * <details><summary>Do you want to remove all rules?</summary>
 
-    Click the **Reset all** button below **Handling of duplicates**. All rows will then have nothing in the **Key** column and the **Action** column for each row will be changed to **Skip record**.
+        Click the **Reset all** button below **Handling of duplicates**. All rows will then have nothing in the **Key** column and the **Action** column for each row will be changed to **Skip record**.
     </details>
 
 > [!NOTE]

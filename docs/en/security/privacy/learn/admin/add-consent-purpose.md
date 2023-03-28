@@ -14,7 +14,7 @@ language: en
 Watch this video and find out how to add and edit purposes for processing personal data, activate default settings for the Legal Basis, and activate the E-marketing privacy settings in mailings (video length - 4:59):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
+> [!Video https://www.youtube.com/embed/1e0ZIUwX3IY?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
 ## Steps
 
@@ -38,15 +38,12 @@ Watch this video and find out how to add and edit purposes for processing person
 
     * **Approval text**: Enter the text that the customers must click to give their consent. Examples: "I accept these terms" or "Yes, sign me up ...".
 
-    * **External description in Customer Centre**: Enter the description text for this purpose to be displayed in Customer Centre.
-
-        <details><summary>What should this text contain?</summary>
+    * **External description in Customer Centre**: Enter the description text for this purpose to be displayed in Customer Centre. The text should contain:
 
         * Why you need to store/process the customer's data
         * Which data you are storing/processing
         * Confirmation the data will not be shared with other parties and is stored securely
         * Information about how they can change or withdraw consent at any time
-    </details>
 
 4. Click ![icon][img1] next to a field to add new or edit existing [translations][1] of the field texts.
 

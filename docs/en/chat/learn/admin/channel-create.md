@@ -17,7 +17,7 @@ You can create chat channels for specific uses, such as technical support, produ
 Watch this video to learn how to set up and configure your chat widget (video length - 4:37):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/94uhmeP1Xig]
+> [!Video https://www.youtube.com/embed/94uhmeP1Xig]
 
 ## Steps
 

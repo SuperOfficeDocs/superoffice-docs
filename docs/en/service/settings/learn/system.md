@@ -18,7 +18,7 @@ The **System** screen is used to configure some of the key characteristics of Su
 ## What would you like to find out more about?
 
 * [Global preferences for Service][1]
-* [SMTP][2] (ONSITE only) <!-- onsite-->
+* [SMTP][2] (ONSITE only)
 * [Password][3]
 * [SMS][4]
 

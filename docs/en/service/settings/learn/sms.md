@@ -21,7 +21,7 @@ The **SMS** tab in the **System** screen contains options for configuring SMS so
 
 To test the settings, enter a mobile phone number and some text, and then click **Send test**.
 
-## Fields available for Original Intelecom (ONSITE only) <!-- onsite-->
+## Fields available for Original Intelecom (ONSITE only)
 
 * **SMS endpoint**: This field should contain code that allows SuperOffice Service to recognize an incoming SMS.
 * **Use web service**: If checked, SMSes are sent via a web service instead of by email. This is the preferred method because it offers more functionality. It requires that any firewall allows outgoing traffic to SMS gateways.
@@ -31,7 +31,7 @@ To test the settings, enter a mobile phone number and some text, and then click 
 * **Password**: Here you enter the password provided to you by Intelecom.
 * **SMS priority**: Here you enter 1, 2 or 3. The number specifies how quickly the SMSes are sent out.
 
-## Fields available for Original PsWinCom (ONSITE only) <!-- onsite-->
+## Fields available for Original PsWinCom (ONSITE only)
 
 * **SMS endpoint**: This field should contain code that allows SuperOffice Service to recognize an incoming SMS.
 * **User name**: Here you enter the user name provided to you by PsWinCom.

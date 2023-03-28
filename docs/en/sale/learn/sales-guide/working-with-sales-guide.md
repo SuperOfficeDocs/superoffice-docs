@@ -18,7 +18,7 @@ If you haven't already done so, learn how to set up a Sales guide here. You can 
 Watch this video to learn how easy it is to use the Sales guide (video length - 1:24):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/IyETjAtn3po]
+> [!Video https://www.youtube.com/embed/IyETjAtn3po]
 
 ## Behavior when a sale has a guide
 

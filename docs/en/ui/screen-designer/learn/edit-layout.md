@@ -3,7 +3,7 @@ uid: help-en-screen-designer-edit-layout
 title: Edit main cards layout
 description: In this how-to guide, you will learn how to edit a layout.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.23.2023
 keywords: screen designer, layout, field
 so.topic: howto
 language: en
@@ -18,7 +18,7 @@ Personalize the layout for the main cards and archives to match your organizatio
 Watch this video and find out how to use the screen designer to configure your screens in SuperOffice CRM or follow the step-by-step guide below (video length - 6:41):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/EcL4TEXXvmU]
+> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
 
 ## Steps
 
@@ -50,24 +50,19 @@ Watch this video and find out how to use the screen designer to configure your s
 
     * Edit field formatting (such as font format) and other settings by clicking the field. The **Settings** section opens in the left part of the window. See [Settings](#settings).
 
-    ![Remove, add and move the different fields in the layout -screenshot][img3]
-
 3. [Change the number of columns in a tab](#columns) from the **Columns** section.
 
 4. Save the changes as described above.
 
+![Remove, add and move the different fields in the layout -screenshot][img3]
+
 ## Add new content to a layout
 
-1. Select the tab you want to edit, or click ![icon][img5] **Add** to add a new tab. See [Tabs](#tabs).
+1. Select the tab you want to edit, or click ![icon][img5] **Add** to [add a new tab](#tabs).
 
 2. Edit the layout by selecting one of the following sections:
 
     * **Fields**: Drag [fields](#fields) from the list to the layout. Fields can be placed in the columns and in the header and footer.
-
-    Boxes with stapled lines in the layout, indicate where you can place a field.
-    <details><summary>What does this look like?</summary>
-    ![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
-    </details>
 
     * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout.
 
@@ -80,6 +75,10 @@ Watch this video and find out how to use the screen designer to configure your s
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.
     * **Cancel**: Click this button to discard all changes.
+
+Boxes with stapled lines in the layout, indicate where you can place a field:
+
+![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
 
 Below you can find more detailed descriptions of the various sections and functions.
 

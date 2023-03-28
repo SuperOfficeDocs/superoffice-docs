@@ -21,7 +21,7 @@ Bulk update is available in the Selection, Company, Sale, and Project screens.
 Watch the video or follow the steps below to learn how to bulk update from the Company screen and Selection (video length - 4:49):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/VdHvComOxek?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
+> [!Video https://www.youtube.com/embed/VdHvComOxek?list=PL9fefjwA0X290ZZ8bMUHWh_d6s3Y2P0Jr]
 
 ## Steps
 

@@ -17,16 +17,10 @@ You can add a selection of users and resources in your organization to a view.
 
 1. Click the **View** tab in the Diary screen.
 
-1. Click the **Task** button (![icon][img1]) at the lower right and choose **New group view**.
+1. Click the ![icon][img1] **Task** button at the lower right and choose **New group view**.
 
-    > [!TIP]
-    > To edit an existing view, click **Edit**, and to copy an existing view, click **Copy**.
-
-    <details><summary>Why is the Edit button greyed out?</summary>
-    You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
-
-    To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
-    </details>
+    > [!NOTE]
+    > To edit an existing view, click **Edit**. [You can change only group views created by you.](#troubleshoot) To copy an existing view, click **Copy**.
 
 1. In the **New group view** dialog, enter the appropriate information in the **Name** and **Description** fields.
 
@@ -52,6 +46,12 @@ You will then be returned to the **View** tab, where you can create appointments
 
 > [!TIP]
 > To delete the active group view, click the **Task** button at the lower right and select **Delete group view**.
+
+## <a id="troubleshoot" />Why is the Edit button greyed out?
+
+You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
+
+To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
 
 ## What would you like to do now?
 

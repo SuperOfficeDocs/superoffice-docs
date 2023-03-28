@@ -17,7 +17,7 @@ language: en
 Watch the video to learn how to change privacy lists (video length - 3:57):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/h1q6QX62ASk]
+> [!Video https://www.youtube.com/embed/h1q6QX62ASk]
 
 ## Steps
 

@@ -24,7 +24,7 @@ Administrators are responsible for providing new users with a user plan, a usern
 Follow the guided steps or watch the video below to see how you can add a new user in SuperOffice CRM (video length - 1:46):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/oLlfTrCAqCU]
+> [!Video https://www.youtube.com/embed/oLlfTrCAqCU]
 
 ## Add a new SuperOffice CRM user
 

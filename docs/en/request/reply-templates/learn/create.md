@@ -63,9 +63,7 @@ Reply templates can also include an attachment, which will then be added to the 
     * **SMS text**: In this field you enter the reply template body text itself.
     * **Number of chars**: Here you can keep track of how many characters you have entered.
 
-10. In the **Attachments** tab, you can add attachments to include in the reply template.
-
-    <details><summary>How?</summary>
+10. In the **Attachments** tab, you can add attachments to include in the reply template:
 
     1. Click **Choose files**.
     2. In the dialog, browse to the document you require.
@@ -74,8 +72,6 @@ Reply templates can also include an attachment, which will then be added to the 
 
     > [!TIP]
     > You can delete an attachment by clicking **Delete** to the right of the row.
-
-    </details>
 
 11. Click **OK** to save the reply template. The **(Unspecified language)** tab changes to the selected language. Click **Back** to go back to the folder structure for reply templates. It is now available for use in [responding to customer enquiries][4].
 

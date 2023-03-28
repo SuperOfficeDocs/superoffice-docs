@@ -56,7 +56,7 @@ Have a look at the following lists, to see whether you want to change them or no
 Watch this video to see how you can edit your sales lists to make them fit the way you work. The example used in this video is of the Company - Category list which has similar setup as Sale - Stage (video length - 2:05):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/2fIAT0-EjX0]
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Related topics
 

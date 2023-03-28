@@ -30,39 +30,32 @@ When synchronizing data between SuperOffice and ERP systems, must specify which 
 
     * **Show in Search**: Check here if this field should be displayed in search results.
     * **ERP Field**: Shows the name of the field in the ERP system.
-    * **Direction**: Here you select the direction(s) for the synchronization.
-
-        <details><summary>What does the icons mean?</summary>
-
-        | Icon | Explanation |
-        |---|---|
-        | ![icon][img1] | No synchronization (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction. |
-        | ![icon][img2] | Sync both ways. |
-        | ![icon][img3] | Sync from SuperOffice to the ERP system. |
-        | ![icon][img4] | Sync from the ERP system to SuperOffice. |
-        | ![icon][img5] | No synchronization (SuperOffice field is NOT selected), or the field cannot be synchronized (for example, customer name). This can also be due to read-only fields. Mouse-over the icon to view details. |
-
-        > [!NOTE]
-        > The arrows are disabled until you select a SuperOffice field.
-        </details>
+    * **Direction**: Here you select the direction(s) for the synchronization. See table of icons below.
 
     * **SuperOffice Field**: here you choose which SuperOffice field you want to synchronize. Some fields (such as customer and contact IDs) cannot be synchronized and the list will then be empty.
-    * **Show In ERP Tab**: check here if you want this field to be displayed in the **ERP** tab in SuperOffice CRM.
+    * **Show In ERP Tab**: check here if you want this field to be displayed in the **ERP** tab in SuperOffice CRM (Company, Contact, and Project screen).
+
         > [!NOTE]
         > If you have chosen to synchronize this field with a SuperOffice field, there is no point in displaying the field in the **ERP** tab.
-
-        <details><summary>Where is the ERP tab displayed?</summary>
-
-        * The Company screen
-        * The Project screen
-        * The Contact screen
-        </details>
 
 1. Repeat steps 4 to 6 to configure field allocations for other actors.
 
 1. Click **Done** to finish. Below the **ERP connections** list, all the fields that are synchronized for the different actors are shown.
 
 1. Check **Active** for the ERP connection you edited.
+
+## What does the icons mean?
+
+| Icon | Explanation |
+|---|---|
+| ![icon][img1] | No synchronization (SuperOffice field is selected). If the field is mandatory, you MUST choose a direction. |
+| ![icon][img2] | Sync both ways. |
+| ![icon][img3] | Sync from SuperOffice to the ERP system. |
+| ![icon][img4] | Sync from the ERP system to SuperOffice. |
+| ![icon][img5] | No synchronization (SuperOffice field is NOT selected), or the field cannot be synchronized (for example, customer name). This can also be due to read-only fields. Mouse-over the icon to view details. |
+
+> [!NOTE]
+> The arrows are disabled until you select a SuperOffice field.
 
 ## Troubleshooting
 

@@ -29,7 +29,7 @@ The SuperOffice video meetings allow you to schedule and create video meetings d
 You can easily set up a video meeting when creating a follow up. Watch this video to learn how to create a video meeting or follow the steps below (video length - 1:09):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/WuTqnDPx17Q]
+> [!Video https://www.youtube.com/embed/WuTqnDPx17Q]
 
 ### Steps
 
@@ -67,7 +67,7 @@ You can join a video meeting in SuperOffice in several ways:
 Watch this video or follow the steps below (video length - 1:11):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/uee_XO1kwTc]
+> [!Video https://www.youtube.com/embed/uee_XO1kwTc]
 
 ### Steps
 

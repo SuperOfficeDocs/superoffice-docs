@@ -17,7 +17,7 @@ To make the chat feature available to your customers, you must add a JavaScript 
 Now that you have [configured the chat widget][1], this step will show you how to add it to your website. Watch this video to learn how to add the chat widget to your website (video length - 2:04):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/Q-i8nxHqAPc]
+> [!Video https://www.youtube.com/embed/Q-i8nxHqAPc]
 
 ## Steps
 

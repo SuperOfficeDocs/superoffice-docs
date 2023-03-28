@@ -14,7 +14,7 @@ language: en
 Watch this video to learn how to set up your Gmail link and connect your Gmail account to SuperOffice (video length - 2:53) or follow the steps below:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/kiQyO9KwiEs]
+> [!Video https://www.youtube.com/embed/kiQyO9KwiEs]
 
 ## Steps
 

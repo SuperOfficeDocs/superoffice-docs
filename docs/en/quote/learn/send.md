@@ -16,10 +16,8 @@ After adding products to the quote and created a quote document, you can send th
 1. Open the quote in question.
 2. Click **Send**. The **Publish/send a quote** dialog appears.
 
-    <details><summary>Is an error message displayed?</summary>
-
-    You cannot send a quote if it [needs to be approved][1] or [contains errors or warnings][2].
-    </details>
+    > [!NOTE]
+    > Is an error message displayed? You cannot send a quote if it [needs to be approved][1] or [contains errors or warnings][2].
 
 3. If required, edit the validity of the quote in the **Valid to** field. The number of days until the quote expires is shown on the right of the field.
 

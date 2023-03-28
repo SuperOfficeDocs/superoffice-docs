@@ -16,7 +16,7 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 Watch this video or follow the steps below to learn how to create your own dashboard tile (video length – 7:20):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/zoAuq0IK_6k]
+> [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
 
 ## Steps
 

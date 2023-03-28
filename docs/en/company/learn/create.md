@@ -33,13 +33,11 @@ Watch this video or follow the steps below.
     > [!NOTE]
     > Default field values and list values (such as business and category) are specified in the [Preferences dialog][3].
 
-    <details><summary>What goes in the various fields?</summary>
-
-    [!include[Steps to populate company fields](includes/company-fields.md)]
-
-    </details>
-
 1. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
+
+### What goes in the various fields
+
+[!include[Steps to populate company fields](includes/company-fields.md)]
 
 ## <a id="more-tab" />The More tab (Company screen)
 

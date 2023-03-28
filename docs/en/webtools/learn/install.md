@@ -27,7 +27,7 @@ language: en
 Watch this video or follow the guide below to learn how to install WebTools for Outlook using Windows OS (video length - 3:00):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/PGh6An9o8mA]
+> [!Video https://www.youtube.com/embed/PGh6An9o8mA]
 
 ### Steps
 

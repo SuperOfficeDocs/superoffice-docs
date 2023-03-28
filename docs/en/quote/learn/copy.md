@@ -25,14 +25,13 @@ You can copy a quote from another sale. The sale you copy the quote from must ha
 
 4. Click **OK**. The quote is copied to the sale, and displayed in the **Quote** section tab with the status **Draft**.
 
-    <details><summary>Is the OK button disabled?</summary>
-
-    If the **OK** button is disabled, you have selected a sale that uses an ERP connection that you do not have access to. This means that the quote you are trying to copy gets products from a product list that you do not have permission to use.
-
-    Hold the mouse pointer over the disabled **OK** button to display the name of the connection that you do not have access to.
-    </details>
-
 5. [Edit the quote][1].
+
+## Is the OK button disabled?
+
+If the **OK** button is disabled, you have selected a sale that uses an ERP connection that you do not have access to. This means that the quote you are trying to copy gets products from a product list that you do not have permission to use.
+
+Hold the mouse pointer over the disabled **OK** button to display the name of the connection that you do not have access to.
 
 <!-- Referenced links -->
 [1]:create.md

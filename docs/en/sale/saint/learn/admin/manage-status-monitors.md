@@ -24,10 +24,9 @@ At the bottom of the **Status monitors** tab, indicators (text which shows the d
 
 You should regenerate statuses and/or counters if the indicators show that the last generation was a long time ago, or that the statuses and/or counters have never been generated. The same applies if statuses are amended. Statuses and counters that are not updated, will still be enabled and useable in SuperOffice CRM, but the dates returned will not necessarily be correct. The sections below described how to regenerate statuses and counters.
 
-<details><summary>How to tell if it is updated?</summary>
+### How to tell if it is updated
 
 If an item is not updated, it is shown as ![icon][img1] (statuses) and ![icon][img3] / ![icon][img4] / ![icon][img5] (counters) in SuperOffice CRM.
-</details>
 
 ## Regenerate statuses
 

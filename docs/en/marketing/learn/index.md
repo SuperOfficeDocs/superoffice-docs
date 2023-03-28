@@ -23,7 +23,7 @@ Using SuperOffice Marketing you can create the following:
 Watch this product tour video and get an introduction to the SuperOffice Marketing features (video length - 2:31):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/tFHXsDQIpvA]
+> [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
 
 ## About mailings
 

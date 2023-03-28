@@ -19,7 +19,7 @@ If you create new templates or change a standard template and saved it with a di
 Watch this video or follow the guided steps below to learn how you can add a document template (video length - 2:30):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/FnhcmjP-TgE]
+> [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
 
 ## Steps
 
@@ -34,22 +34,18 @@ Templates are displayed as items in the **Document - Template** list and you lin
 2. If you wish, you can choose where to store the document template, in the **Store template in** list.
 3. You now have two options:
 
-    * <details><summary>Upload a new document template</summary>
+    * Upload a new document template:
 
-    1. Click **Copy an existing document template file**.
-    2. Click the **Copy template** list.
-    3. Select the required template from the list.
+        1. Click **Copy an existing document template file**.
+        2. Click the **Copy template** list.
+        3. Select the required template from the list.
 
-    </details>
+    * Copy an existing template in SuperOffice:
 
-    * <details><summary>Copy an existing template in SuperOffice</summary>
-
-    1. Select **Upload a new document template from disk**.
-    2. Click the **Upload** button.
-    3. Click **Upload file** in the **Upload file** dialog.
-    4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
-
-    </details>
+        1. Select **Upload a new document template from disk**.
+        2. Click the **Upload** button.
+        3. Click **Upload file** in the **Upload file** dialog.
+        4. Select the required file and click **Open**. The name of the file is displayed in the **Edit list item** dialog.
 
 4. Click **Save** in the **Edit list item** dialog. The dialog is updated.
 5. Optional: Edit the template name, if required, and click **Edit** to edit the template file itself.
@@ -71,9 +67,9 @@ Enter the following information in the **Details** tab:
     > [!TIP]
     >You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
-5. <!-- onsite-->Check the **Publish** option if you want it to be possible to specify, in the Document screen, that the document template in question should be made available to external users.
+5. Onsite: Check the **Publish** option if you want it to be possible to specify, in the Document screen, that the document template in question should be made available to external users.
 
-6. <!-- onsite-->Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
+6. Onsite: Check the **Save to database** option to specify that documents that you create using this template are saved in the document database. If you checked this option, the document is displayed on the **Activities** section tab. If not, the document is not displayed in SuperOffice after you created it and you cannot access it from the program.
 
 7. Check the **Quote document type** option if the document should be available as a quote template or order confirmation template. You select the quote document type in the list below.
 

@@ -20,7 +20,7 @@ By using integrated forms available in your CRM solution, you can collect a pers
 This video will show you how to create a basic web form and add it to your web page (video length - 7:49):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/18m6Dx1t9wI]
+> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
 
 ## Send automatic email confirmations
 

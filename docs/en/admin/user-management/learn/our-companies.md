@@ -56,22 +56,7 @@ To delete companies in the **Our companies** tab, the following two criteria mus
 
 1. In the list box to the right of the field you want to search on, choose if you want to search for a company that **Starts with**, **Contains**, or **Equals** the search criteria you enter.
 
-2. You can specify several different search criteria, for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
-
-    <details><summary>Click to find out more about the various search criteria</summary>
-
-    The fields below correspond to the fields on the company card.
-
-    * Name: Enter the whole or start of the company name.
-    * Number: Enter the whole or start of the company name.
-    * Code: Enter the whole or start of the code.
-    * VAT No.: Enter the whole or start of the VAT no.
-    * First Name: Enter the whole or part of the first name of a contact at the company.
-    * Last Name: Enter the whole or part of the last name of a contact at the company.
-    * Telephone: Enter the whole or part of a phone number for the company.
-    * Email: Enter the whole or part of an email address for the company.
-    * Match also: Here you can specify further [search criteria][1].
-    </details>
+2. You can specify several [different search criteria](#criteria), for example name, code, telephone number or email address. If you specify several search criteria, a search is performed for companies that fulfil all the criteria simultaneously.
 
 3. When you have specified the required criteria, click the **Find** button.
 
@@ -82,6 +67,20 @@ To delete companies in the **Our companies** tab, the following two criteria mus
     * **Two or more hits**: The Find screen shows a list of matches. Here you can select the required company in the list and click **OK** to go to that company.
 
     * **No hits**: A message is displayed stating that no record matches the search criteria. Click **OK**, and search again using different criteria.
+
+### <a id="criteria" />The search criteria
+
+The fields below correspond to the fields on the company card.
+
+* Name: Enter the whole or start of the company name.
+* Number: Enter the whole or start of the company name.
+* Code: Enter the whole or start of the code.
+* VAT No.: Enter the whole or start of the VAT no.
+* First Name: Enter the whole or part of the first name of a contact at the company.
+* Last Name: Enter the whole or part of the last name of a contact at the company.
+* Telephone: Enter the whole or part of a phone number for the company.
+* Email: Enter the whole or part of an email address for the company.
+* Match also: Here you can specify further [search criteria][1].
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/using-search-criteria.md

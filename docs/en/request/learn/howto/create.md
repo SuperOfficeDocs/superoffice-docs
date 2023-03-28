@@ -16,7 +16,7 @@ A request can arrive in the system via an email from the customer, or you can re
 In this video, you can see how you can add and edit any of the lists available as tags. The example used in this video is of the Company - Category list which has similar setup as Tag (video length - 3:00):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/2fIAT0-EjX0]
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Workflow
 

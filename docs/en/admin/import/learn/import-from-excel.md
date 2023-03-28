@@ -40,7 +40,7 @@ Before you start your import, [prepare the Excel file][1]. Checklist:
 Watch this video or follow the steps below to learn how to import your contacts in to SuperOffice CRM using our import template (video length - 4:02):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/dVkCfpOkNl8]
+> [!Video https://www.youtube.com/embed/dVkCfpOkNl8]
 
 ### Steps
 

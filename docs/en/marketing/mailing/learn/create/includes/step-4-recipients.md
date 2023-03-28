@@ -70,7 +70,7 @@ When you import a list of names and email addresses, SuperOffice Marketing will 
     > [!NOTE]
     > You can also specify just the email address. The name will then not be available as a template variable.
 
-* <!-- onsite--> (requires the Marketing SMS licence) Each recipient (row) can also contain a mobile phone number (after the email address) if you are creating SMS mailings. (For example: "John Smith, john@company.com, 99999999".)
+* Onsite: Each recipient (row) can also contain a mobile phone number (after the email address) if you are creating SMS mailings. For example: "John Smith, john@company.com, 99999999". Requires the Marketing SMS licence.
 
 > [!NOTE]
 > If you only have the mobile phone number and want to send an SMS, you can enter the following: " , , 99887766".

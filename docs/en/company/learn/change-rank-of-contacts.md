@@ -15,14 +15,11 @@ When you create a new contact, they appear at the bottom of the **Contacts** sec
 
 1. Make sure the list is sorted by ranking.
 
-    <details><summary>How?</summary>
-
     The rightmost column contains numerical values that show the ranking of the various contacts. If these are in ascending order, so that the contact at the top of the list is numbered 1 and the number increases down the list, they are sorted correctly.
 
     If you cannot see the number column, you must first [add the Rank column][1].
 
     If the numbers are in a different order, you can click the column heading directly above to sort the list.
-    </details>
 
 2. Select the required contact.
 3. Right-click and choose **Shift Up/Shift Down** until the contact is in the desired position.

@@ -18,7 +18,7 @@ Managing your sales opportunities efficiently leads to closing more deals. Super
 Watch this video and see how easy pursuing sales opportunities can be with SuperOffice CRM (video length - 2:16):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/VTgBzMk_qvk]
+> [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
 
 ## Where can I view sales?
 

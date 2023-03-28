@@ -16,11 +16,9 @@ language: en
 
 Among the user-defined fields that are displayed in the **More** tabs in SuperOffice CRM, you can choose *three* that will function as page 1 fields (so called because they are displayed on the "first page" in their respective screens).
 
-<details><summary>Where can I display Page 1 fields?</summary>
+## Where can I display Page 1 fields?
 
 [!include[List](includes/list-page-1-field-locations.md)]
-
-</details>
 
 ## To display a user-defined field on the first page
 

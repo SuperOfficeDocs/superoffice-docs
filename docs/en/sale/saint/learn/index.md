@@ -42,10 +42,7 @@ With this overview, Bridgecom can decide how they wish to follow up on their cus
 
 With SuperOffice SAINT you can analyze your database to get an overview of customers, sales, requests, and documents. This can be done in the form of charts and reports. Then, the people responsible for the situation that you analyzed with SAINT can take action to improve the existing situation.
 
-<details><summary>See examples of statuses.</summary>
-
-[!include[Examples](../../../learn/includes/status-examples.md)]
-</details>
+[!include[Examples](includes/status-examples.md)]
 
 ## Analysis
 

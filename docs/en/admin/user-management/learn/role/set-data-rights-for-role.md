@@ -20,7 +20,7 @@ You can set rights for [data objects][2] based on who owns the object. All users
 
 1. [!include[Open Roles](includes/open-roles.md)]
 
-2. Choose the **Associates** tab or the **External** tab (<!-- onsite-->).
+2. Choose the **Associates** tab or the **External** tab (onsite).
 
     [How to edit the role for anonymous users.][1]
 

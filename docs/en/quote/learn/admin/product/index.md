@@ -31,10 +31,9 @@ In the **Price list** list, select the required price list. The products in the 
 
 You can export an open price list by clicking ![icon][img1] **Export** at the bottom of the **SuperOffice products** tab. If you only want to export some products, you can select them in the price list. If you do not select any products, all the products in the price list are exported.
 
-<details><summary>Export not visible?</summary>
+### Export not visible?
 
 Either you do not have [access rights][4] to the export function, or this [preference][5] is not enabled.
-</details>
 
 > [!TIP]
 > Before you export the price list, it may be useful to select which columns you want and their order.

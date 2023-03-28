@@ -81,27 +81,6 @@ The changes are saved automatically. The project guide will now be displayed in 
 
 ## <a id="add-fo-status" />Add a follow-up for a status
 
-<details><summary>Click here for an example of a follow-up</summary>
-
-**Project type**: Conference
-**Status**: Planned
-**Name** of follow-up: Planning meeting
-**Purpose of this follow-up**: Hold a meeting to plan the conference and set out a conference programme.
-**Follow-up type**: Meeting (Internal)
-**Duration**: 1 hour
-**Default text**:
-
-Planning meeting:
-
-\- What should the conference cover?
-\- Participants?
-\- Speakers?
-\- Where?
-
-</details>
-
-**Steps:**
-
 1. Select the required project type and status as described above.
 
 2. Click **Add** under **Suggested follow-ups in status**.
@@ -132,20 +111,24 @@ Planning meeting:
 
 12. Repeat this procedure to add more follow-ups in this or other statuses.
 
-## <a id="add-doc-status" />Add a document for a status
-
-<details><summary>Click here for an example of a document</summary>
+### Example of a follow-up
 
 **Project type**: Conference
 **Status**: Planned
-**Name** of document: Conference programme
-**Purpose of this project status**: Set out a programme for the conference.
-**Template**: Note
-**Default subject**: Conference programme
+**Name** of follow-up: Planning meeting
+**Purpose of this follow-up**: Hold a meeting to plan the conference and set out a conference programme.
+**Follow-up type**: Meeting (Internal)
+**Duration**: 1 hour
+**Default text**:
 
-</details>
+Planning meeting:
 
-**Steps:**
+\- What should the conference cover?
+\- Participants?
+\- Speakers?
+\- Where?
+
+## <a id="add-doc-status" />Add a document for a status
 
 1. Select the required project type and status as described above.
 2. Click **Add** under **Suggested documents in status**.
@@ -156,6 +139,15 @@ Planning meeting:
 7. Enter any reference in the **Our ref.** field. For example, a [template variable][1] for a project number, project title or another field relating to the project.
 8. Click **Save**.
 9. Repeat this procedure to add more documents in this or other statuses.
+
+### Example of a document
+
+**Project type**: Conference
+**Status**: Planned
+**Name** of document: Conference programme
+**Purpose of this project status**: Set out a programme for the conference.
+**Template**: Note
+**Default subject**: Conference programme
 
 ## Related
 

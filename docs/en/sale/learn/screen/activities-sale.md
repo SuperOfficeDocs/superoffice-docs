@@ -21,16 +21,15 @@ The following columns are displayed on the **Activities** section tab:
 
 * The second column contains icons that indicate the type of activity, one category for each of the different types. For example, a telephone icon indicates a phone call. These icons reflect the text in the **Type** column.
 
-    <details><summary>See a list of the different icons</summary>
-
-    [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
-    </details>
-
 * The date of the activity.
 * The type of activity.
 * Any description of the activity.
 * Any company and contact the activity is linked to.
 * ID specifies which user owns the activity.
+
+### Icons
+
+[!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
 ## Show all follow-ups and documents
 

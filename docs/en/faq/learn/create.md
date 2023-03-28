@@ -19,7 +19,7 @@ By creating FAQ entries, your organization can build up a comprehensive collecti
 Watch this video and find out how to create and publish FAQs in the Customer Centre or follow the step-by-step guide below (video length - 3:01):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/TLOukelJp54]
+> [!Video https://www.youtube.com/embed/TLOukelJp54]
 
 ## Requirements
 
@@ -60,27 +60,19 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 9. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry is expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
 
-10. In the **Attachment** field, you can add one or more documents as attachments to the request.
-
-    <details><summary>How?</summary>
-    To add an attachment to the FAQ entry:
+10. In the **Attachment** field, you can add one or more documents as attachments to the request:
 
     1. Click **Choose file** next to **Attachment**.
     2. In the dialog, browse to the document you require.
     3. Click ![icon][img1] to add the attachment.
     4. Repeat this procedure to add more attachments.
-    </details>
 
-11. In the **Link** field, you can add one or more addresses of relevant websites.
-
-    <details><summary>How?</summary>
-    To add links to an FAQ entry:
+11. In the **Link** field, you can add one or more addresses of relevant websites:
 
     1. In the field to the left, enter the name to be displayed for the link.
     2. In the field on the right, enter the actual web address after `http://`
     3. Click ![icon][img1] **Add** to add the link.
     4. Repeat this procedure to add more links.
-    </details>
 
 12. Go to the **Question** tab.
 

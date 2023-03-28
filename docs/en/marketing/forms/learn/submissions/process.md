@@ -27,7 +27,7 @@ Form submissions with status **Submitted** must be processed manually. This mean
 Watch this video (or follow the step-by-step guide below) to learn how you can manually process a submitted web form (video length - 4:30) or follow the steps below.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/XtdkUwIXkww]
+> [!Video https://www.youtube.com/embed/XtdkUwIXkww]
 
 ## Steps
 

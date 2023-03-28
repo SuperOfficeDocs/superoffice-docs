@@ -18,7 +18,7 @@ As an administrator you're in charge of adding and managing your users. In this 
 
 * **Associates**: SuperOffice CRM users (in your company)
 
-* **Other users**: <!-- onsite--> Anonymous users and system users
+* **Other users**: Anonymous users and system users (onsite only)
 
 * **Anonymous users**: Users with limited rights defined by the [role for anonymous users][4]. Anonymous users can be used, for instance, to provide access to web pages. In this way, salespersons can make relevant information from SuperOffice CRM available on a website that does not require a login, to give customers easy access to it.
 

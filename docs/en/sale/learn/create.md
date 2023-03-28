@@ -16,7 +16,7 @@ In the Sale screen you can enter information about sales on several levels, repr
 Learn how to register and update a sale in this video or follow the guided steps below (video length - 2:10):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/7Am9pqMyHSA]
+> [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
 
 ## Steps
 
@@ -26,17 +26,15 @@ Learn how to register and update a sale in this video or follow the guided steps
 
     ![New sale -screenshot][img2]
 
-3. Enter the required information in the other fields.
-
-    <details><summary>What goes in the various fields?</summary>
-
-    [!include[Steps to populate company fields](includes/sale-fields.md)]
-
-    </details>
+3. Enter the required information in the other fields. See details below.
 
 4. Optionally, go to the **Details**, **Links**, or **Note** tab to [enter further information about the sale][1].
 
 5. After entering the required information in all the tabs, click **Save**. You have now created a sale card for the new sale.
+
+### What goes in the various fields?
+
+[!include[Steps to populate company fields](includes/sale-fields.md)]
 
 ## Edit sale
 

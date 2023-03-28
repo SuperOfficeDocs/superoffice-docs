@@ -51,13 +51,6 @@ In the field at the lower left you can enter a description of the product.
 
 ## Add product information
 
-<details><summary>How do I change the name and order of these fields and define if they should be editable and/or mandatory?</summary>
-
-In the [Configure product dialog][3] you define the order and name of the field that are shown here and if they are editable or mandatory.
-
-You can override the editable and mandatory settings by checking **Override default security** at the bottom of the **Add/Edit product** dialog. The changes will only apply for this one product.
-</details>
-
 In the list on the right you can add product information. This can include:
 
 * Text field: Here you enter text and numbers, such as a product name, product code and VAT information.
@@ -68,12 +61,17 @@ In the list on the right you can add product information. This can include:
 
 * Lists with ![icon][img1] search options : Here you can choose from list of recent records, enter text to start a search, or click the search button ![icon][img1] to initiate an advanced search.
 
-<details><summary>Are all these fields displayed in SuperOffice CRM?</details>
+### How to change name and order, and make fields editable and/or mandatory
+
+In the [Configure product dialog][3] you define the order and name of the field that are shown here and if they are editable or mandatory.
+
+You can override the editable and mandatory settings by checking **Override default security** at the bottom of the **Add/Edit product** dialog. The changes will only apply for this one product.
+
+### Are all these fields displayed in SuperOffice CRM?
 
 [!include[Why set all fields when creating product](../includes/quote-config-product.md)]
 
 To find out which fields are displayed, go to the **Settings** tab and click **Configure product** (see [Configure products][3]).
-</details>
 
 <!-- Referenced links -->
 [1]: add-price-list.md

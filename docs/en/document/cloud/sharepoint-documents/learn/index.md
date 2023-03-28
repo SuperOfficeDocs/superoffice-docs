@@ -35,7 +35,7 @@ To set up SharePoint as your document library in SuperOffice, you need:
 ## Get started
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/8mIo3Yac2QI]
+> [!Video https://www.youtube.com/embed/8mIo3Yac2QI]
 
 ## Related
 

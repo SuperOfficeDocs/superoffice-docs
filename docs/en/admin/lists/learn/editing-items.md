@@ -28,7 +28,7 @@ You can change the name or description of an item previously set up in Settings 
 Watch this video to learn how you can edit list items is SuperOffice CRM (video length - 2:05):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://youtu.be/2fIAT0-EjX0]
+> [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
 ## Steps
 

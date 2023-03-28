@@ -13,10 +13,9 @@ language: en
 
 Each Quote Connector must have an ERP connection with configuration data for linking the Quote Connector with SuperOffice.
 
-<details><summary>How do I set up an ERP connection for SuperOffice CRM for Web (Online)?</summary>
+How do I set up an ERP connection for SuperOffice CRM for Web (Online)?
 
 [!include[How to set up ERP](includes/set-up-erp.md)]
-</details>
 
 ## To add an ERP connection
 
