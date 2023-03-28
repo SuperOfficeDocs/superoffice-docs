@@ -14,7 +14,7 @@ language: en
 Watch this video or follow the steps below to learn how to create a project (video length - 2:49):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video www.youtube.com/watch?v=zLJwNll223w]
+> [!Video https://www.youtube.com/embed/zLJwNll223w]
 
 ## Steps
 

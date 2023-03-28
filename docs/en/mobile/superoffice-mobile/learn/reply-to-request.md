@@ -33,8 +33,8 @@ Mobile CRM gives you access to the most essential features of SuperOffice on a s
 
 Watch this video to learn how to handle customer service requests in Mobile CRM (video length – 1:31):
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4]
+<!--
+> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4] -->
 
 <!-- Referenced links -->
 

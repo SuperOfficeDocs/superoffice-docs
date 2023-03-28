@@ -17,3 +17,5 @@ items:
     href: archive-emails-as-requests.md
   - name: Archive outgoing email
     href: email-archive-outgoing.md
+- name: Install
+  href: install.md

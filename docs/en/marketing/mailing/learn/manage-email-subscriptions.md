@@ -72,7 +72,6 @@ With SuperOffice CRM, you will respect your contacts' communication preferences 
 
 * [GDPR and privacy][2]
 * [Send privacy email][3]
-* GDPR privacy settings in Settings and maintenance
 * [SuperOffice privacy statement][4]
 
 <!-- Referenced links -->

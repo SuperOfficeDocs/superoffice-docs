@@ -16,7 +16,7 @@ Create dashboards for your marketing tasks, such as form submissions and mailing
 When the dashboard is created, you want to add and edit tiles.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/watch?v=lz9rEZI_2SY]
+> [!Video https://www.youtube.com/embed/lz9rEZI_2SY]
 
 Study the examples below to get ideas for tiles you can add to your mailing or form submission dashboard.
 

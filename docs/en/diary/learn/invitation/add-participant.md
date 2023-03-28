@@ -15,8 +15,8 @@ When you create a follow-up that concerns other people, you can add them as part
 
 Invite a contact to an appointment from the participants tab by clicking the **Add** button.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4]
+<!--
+> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
 
 ## Steps
 

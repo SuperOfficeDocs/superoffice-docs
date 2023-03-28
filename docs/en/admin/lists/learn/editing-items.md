@@ -44,8 +44,7 @@ Watch this video to learn how you can edit list items is SuperOffice CRM (video 
 
 4. In the dialog, enter a new name and a description.
 
-    > [!NOTE]
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
+    [!include[Mandatory](includes/note-mandatory-field.md)]
 
 5. [!include[Save or cancel](includes/save-or-cancel.md)]
 

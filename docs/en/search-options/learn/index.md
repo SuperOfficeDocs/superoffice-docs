@@ -102,7 +102,7 @@ Typical searches are there to help you get started and create your own search�
 Watch this video to learn how to do a typical search and modify it by adding new search criteria or follow the step-by-step guide below (video length – 3:01):
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/embed/gx-vXm-b_7g]
+> [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
 
 [Read more][6]
 
