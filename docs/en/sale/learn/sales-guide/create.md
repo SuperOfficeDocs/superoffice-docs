@@ -67,26 +67,6 @@ The changes are saved automatically. The sales guide will now be displayed in Su
 
 ## <a id="add-fo-stage" />Add a follow-up for a stage
 
-<details><summary>Click here for an example of a follow-up</summary>
-
-**Sale type**: Sale to new customer
-**Stage**: First meeting
-**Name** of follow-up: First meeting
-**Purpose of this follow-up**: Examine the potential customer's requirements and assess if the product can meet their needs
-**Follow-up type**: Customer meeting
-**Duration**: 1 hour
-**Default text**:
-
-Agenda for first meeting:
-
-\- Information about the customer's business and organization
-\- Needs, wants, problems
-\- Company presentation
-\- Other
-</details>
-
-**Steps:**
-
 1. Select the required sale type and stage as described above.
 
 2. Click **Add** under **Suggested follow-ups in stage**.
@@ -115,19 +95,24 @@ Agenda for first meeting:
 
 11. Repeat this procedure to add more follow-ups in this or other stages.
 
-## <a id="add-doc-stage" />Add a document for a stage
-
-<details><summary>Click here for an example of a document</summary>
+### Example of a follow-up
 
 **Sale type**: Sale to new customer
 **Stage**: First meeting
-**Name** of document: Meeting confirmation
-**Purpose of this sales step**: Send an email with meeting confirmation and date/time to all participants for the first meeting.
-**Template**: Email
-**Default subject**: Meeting confirmation (first meeting)
-</details>
+**Name** of follow-up: First meeting
+**Purpose of this follow-up**: Examine the potential customer's requirements and assess if the product can meet their needs
+**Follow-up type**: Customer meeting
+**Duration**: 1 hour
+**Default text**:
 
-**Steps:**
+Agenda for first meeting:
+
+\- Information about the customer's business and organization
+\- Needs, wants, problems
+\- Company presentation
+\- Other
+
+## <a id="add-doc-stage" />Add a document for a stage
 
 1. Select the required sale type and stage as described above.
 
@@ -146,6 +131,15 @@ Agenda for first meeting:
 8. Click **Save**.
 
 9. Repeat this procedure to add more documents in this or other stages.
+
+### Example of a document
+
+**Sale type**: Sale to new customer
+**Stage**: First meeting
+**Name** of document: Meeting confirmation
+**Purpose of this sales step**: Send an email with meeting confirmation and date/time to all participants for the first meeting.
+**Template**: Email
+**Default subject**: Meeting confirmation (first meeting)
 
 <!-- Referenced links -->
 [1]: ../../../document/templates/variables/for-sales.md

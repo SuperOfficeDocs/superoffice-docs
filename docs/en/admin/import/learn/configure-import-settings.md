@@ -75,37 +75,8 @@ Under **Company**, and **Contact**, and **Product** in the **Import settings** d
 
     > [!NOTE]
     > To avoid the risk of overwriting data, you should choose the option that is unique for each company, contact, and product.
-
-    <details><summary>Click to find out more about the various options</summary>
-
-Company
-
-* **Name**: The company name must be identical.
-* **Name + Department**: Both the company name and the department must be identical.
-* **Number**: The company number must be identical.
-* **Code**: The company's code must be identical.
-* **VAT number**: The company's VAT number must be identical.
-* **ID**: The company's ID must be identical.
-
-Contact
-
-* **Name**: The contact's full name (first name+last name) must be identical.
-* **Email address**: The contact's email address must be identical.
-* **Mobile phone**: The contact's mobile phone number must be identical.
-* **Number**: The contact number must be identical.
-* **None - do not import contact**: Select this option if you do not want to import contacts.
-* **ID**: The contact ID must be identical.
-
-Product
-
-* **Name**: The product name must be identical.
-* **Code**: The product code must be identical.
-* **Name + Code**: Both the product name and the product code must be identical.
-
-> [!NOTE]
-> The data selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
-
-</details>
+    >
+    > The data selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
 
 1. Click the **Action** list box and choose how duplicate hits are to be managed:
 
@@ -125,6 +96,32 @@ Product
     * **Skip - do not import**:
       * If companies and contacts already exist in SuperOffice, they will not be imported.
       * If products already exist in the selected price list, they will not be imported.
+
+### Duplicate match options
+
+**Company:**
+
+* **Name**: The company name must be identical.
+* **Name + Department**: Both the company name and the department must be identical.
+* **Number**: The company number must be identical.
+* **Code**: The company's code must be identical.
+* **VAT number**: The company's VAT number must be identical.
+* **ID**: The company's ID must be identical.
+
+**Contact:**
+
+* **Name**: The contact's full name (first name+last name) must be identical.
+* **Email address**: The contact's email address must be identical.
+* **Mobile phone**: The contact's mobile phone number must be identical.
+* **Number**: The contact number must be identical.
+* **None - do not import contact**: Select this option if you do not want to import contacts.
+* **ID**: The contact ID must be identical.
+
+**Product:**
+
+* **Name**: The product name must be identical.
+* **Code**: The product code must be identical.
+* **Name + Code**: Both the product name and the product code must be identical.
 
 ## Manage contacts that do not belong to a company
 

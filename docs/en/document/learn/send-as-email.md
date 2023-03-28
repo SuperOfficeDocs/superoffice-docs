@@ -27,17 +27,15 @@ language: en
         > [!NOTE]
         > You can send only one document at a time in this fashion. To send several documents at the same time, select the documents in the **Activities** section tab.
 
-    <details><summary>Is a dialog entitled Select email address displayed?</summary>
-
-    If the dialog is displayed:
+    If the **Select email address** dialog is shown:
 
     1. Choose the company to send the document to in the company field. By default the company that is active in the Company screen is shown. Here you can also use [FastSearcher][1] or [The History list][2]. After you have chosen a company, their email address is displayed next to the company field.
 
     2. To send it to a specific person in the company, choose from the available alternatives in the list box for contacts. After you have chosen a contact, their email address is displayed next to the list box for contacts.
 
     3. Under **Selected email address** there is now displayed the email address or correctly-formatted fax number for the selected company (or contact if you specified one). To send to a different email address or fax number, enter that here.
+
     4. Click **Next** to send the document.
-    </details>
 
 2. An empty message opens in the **New email** dialog:
 
