@@ -34,16 +34,14 @@ Step 1 is different for combined selections because you start with two existing 
 
 ## What do you want to do?
 
-* [Create a static selection][1]
-* [Create a dynamic selection][2]
-* [Create a combined selection][3]
-* [Perform tasks using selections][5]
+* [Create a selection][1]
+* [Combine selections][3]
 * [Update a selection][6]
+* [Perform tasks using selections][5]
 
 <!-- Referenced links -->
-[1]: create-static.yml
-[2]: create-dynamic.yml
-[3]: create-combined.yml
+[1]: tutorial.yml
+[3]: combine.md
 
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md

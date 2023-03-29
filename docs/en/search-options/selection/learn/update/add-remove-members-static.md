@@ -11,7 +11,7 @@ language: en
 
 # Add and remove members in static selections
 
-When you have [created a static selection][1], you can always add additional members to that selection. This can be done from any list containing the relevant records, such as search results and section tabs.
+When you have created a static selection, you can always add additional members to that selection. This can be done from any list containing the relevant records, such as search results and section tabs.
 
 > [!TIP]
 > You can also [copy members from another selection][3].
@@ -106,7 +106,6 @@ Use this option to add the selected records to an existing static selection.
 * [Perform tasks using selections][4]
 
 <!-- Referenced links -->
-[1]: ../create/create-dynamic.yml
 [2]: ../../../learn/find-screen.md
 [5]: ../../../learn/using-search-criteria.md
 [3]: copy-members-to.md
