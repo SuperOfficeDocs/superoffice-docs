@@ -8,4 +8,5 @@ items:
 - name: Request log
   href: screen/ticket-log.md
 - name: Work with requests
+  topicHref: find.md
   href: howto/toc.yml

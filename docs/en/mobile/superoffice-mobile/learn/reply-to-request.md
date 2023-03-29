@@ -31,11 +31,12 @@ Mobile CRM gives you access to the most essential features of SuperOffice on a s
 
 * The Task menu lets you take pictures and add them as attachments to a message, change request status, assign request to other users with Set owner, and reply to and add comments to a request.
 
-Watch this video to learn how to handle customer service requests in Mobile CRM (video length – 1:31):
+Watch the video [request handling][1] to learn how to handle customer service requests in Mobile CRM (video length – 1:31).
 
 <!--
 > [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4] -->
 
 <!-- Referenced links -->
+[1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
 
 <!-- Referenced images -->
