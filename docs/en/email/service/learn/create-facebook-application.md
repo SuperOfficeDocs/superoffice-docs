@@ -29,7 +29,7 @@ First, you must set up an application on Facebook in cooperation with the user o
 
 ## Step 2: Set up a Facebook account in SuperOffice Service
 
-[!include[Go to email](includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Click the **New Facebook application** button. The **Properties for Facebook application** screen appears.
 

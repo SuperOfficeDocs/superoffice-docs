@@ -11,7 +11,7 @@ language: en
 
 # Create email filter
 
-[!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](../includes/goto-email.md)]
 
 1. Select the **Email filters** tab.
 

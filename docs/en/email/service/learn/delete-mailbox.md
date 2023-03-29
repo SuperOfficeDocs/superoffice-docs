@@ -11,7 +11,7 @@ language: en
 
 # Delete mailbox
 
-[!include[Go to email](includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Click the required mailbox. The properties screen appears.
 

@@ -11,7 +11,7 @@ language: en
 
 # Delete email filter (address)
 
-[!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](../includes/goto-email.md)]
 
 1. Select the **Email filters** tab.
 
