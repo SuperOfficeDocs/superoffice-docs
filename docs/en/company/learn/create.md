@@ -13,6 +13,8 @@ language: en
 
 In the Company screen you can enter information about companies on several levels, represented by the three **Company**, **More** and **Interests** tabs. To insert a comment on a company, use the **Note** tab.
 
+Check out the video to [create a company][1].
+
 <!-- Watch this video or follow the steps below.
 > [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
 
@@ -89,6 +91,7 @@ If you try to enter a company that is similar to one that is already in SuperOff
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
 <!-- Referenced links -->
+[1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 
