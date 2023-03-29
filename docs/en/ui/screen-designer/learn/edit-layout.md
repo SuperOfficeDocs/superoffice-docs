@@ -2,8 +2,8 @@
 uid: help-en-screen-designer-edit-layout
 title: Edit main cards layout
 description: In this how-to guide, you will learn how to edit a layout.
-author: SuperOffice RnD
-so.date: 03.23.2023
+author: Bergfrid Dias
+so.date: 03.29.2023
 keywords: screen designer, layout, field
 so.topic: howto
 language: en
@@ -22,21 +22,23 @@ Watch this video and find out how to use the screen designer to configure your s
 
 ## Steps
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
+<!-- List starts in the include. Next line MUST be 3. -->
+3. Click **Main cards**.
 
-1. Click **Main cards**.
+4. Select a layout in the list on the left side.
 
-1. Select a layout in the list on the left side.
+5. Click **Edit layout** below the preview.
 
-1. Click **Edit layout** below the preview.
+6. In the **Edit card layout** window, edit the layout as described below.
 
-1. In the **Edit card layout** window, edit the layout as described below.
-
-1. After finishing, click one of the following buttons:
+7. After finishing, click one of the following buttons:
 
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.
-    * **Cancel**: Click this button to discard all changes. See also [Undo changes](#undo-changes).
+    * **Cancel**: Click this button to [discard all changes](#undo-changes).
+<!-- markdownlint-restore -->
 
 ## Edit existing fields in the layout
 

@@ -2,8 +2,8 @@
 uid: help-en-selection-bulk-update
 title: Selection task bulk update
 description: Bulk update allows you to change details for a large group of contacts, activities, sales, projects, and more.
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.29.2023
 keywords: selection, bulk update
 so.topic: howto
 language: en
@@ -25,7 +25,7 @@ Watch the video or follow the steps below to learn how to bulk update from the C
 
 ## Steps
 
-[!include[Start](../includes/steps-start-task.md)]
+1. [!include[Start](../includes/steps-start-task.md)]
 
 1. To update specific records, select them in the list.
 

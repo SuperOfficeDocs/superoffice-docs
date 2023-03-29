@@ -2,8 +2,8 @@
 uid: help-en-screen-designer-add-layout
 title: Add new screen layout
 description: How to add a new layout for a user group.
-author: SuperOffice RnD
-so.date: 02.20.2023
+author: Bergfrid Dias
+so.date: 03.29.2023
 keywords: screen designer, layout, main card, archive
 so.topic: howto
 so.user: admin
@@ -29,39 +29,41 @@ Watch this video and find out how add a new layout or follow the step-by-step gu
 
 ### Steps
 
+<!-- markdownlint-disable-file MD029 -->
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
+<!-- List starts in the include. Next line MUST be 3. -->
+3. Select **Main cards** or **Archives** (also known as section tabs).
 
-1. Select **Main cards** or **Archives** (also known as section tabs).
-
-1. If relevant, click the text next to **Assign layouts to**.
+4. If relevant, click the text next to **Assign layouts to**.
 
     By default, the layouts can be assigned to user groups.
     If, however, you are adding main card layouts for the Sale or Project screens, you can assign the layouts to sale types or project types.
 
-1. Click **Add** under **Layouts**.
+5. Click **Add** under **Layouts**.
 
     ![Click Add to create a new layout -screenshot][img1]
 
-1. In the the **Add new layout** dialog, select a layout in the **Create new based on** list.
+6. In the the **Add new layout** dialog, select a layout in the **Create new based on** list.
 
     The new layout will be based on the selected layout.
 
-1. Enter a name for the new layout in the **Name** field.
+7. Enter a name for the new layout in the **Name** field.
 
     ![Set correct name and the user groups to use this layout -screenshot][img2]
 
-1. Click the **Assign to** field and select the user group(s) that will use this new layout.
+8. Click the **Assign to** field and select the user group(s) that will use this new layout.
 
     The list will display only user groups that are using the default layout. A user group can only be assigned to one layout. Sale types or project types will be available here, if you selected these options in step 3.
 
-1. Enter a description of the layout in the **Description** field.
+9. Enter a description of the layout in the **Description** field.
 
-1. Click **OK** when you are done. The new layout is added to the **Layouts** list. It has the status **Draft**, meaning it is not yet visible to any users. The preview is displayed on the right side of the screen.
+10. Click **OK** when you are done. The new layout is added to the **Layouts** list. It has the status **Draft**, meaning it is not yet visible to any users. The preview is displayed on the right side of the screen.
 
     > [!TIP]
     > If you later want to edit the layout settings, double-click the layout in the list to open the **Edit layout settings** dialog. You cannot edit the settings for the default layout.
 
-1. With the new layout selected in the **Layouts** list, click the **Edit layout** button to customize the screen layout. See [Edit layout - Main cards][1] or [Edit layout - Archives (section tabs)][2].
+11. With the new layout selected in the **Layouts** list, click the **Edit layout** button to customize the screen layout. See [Edit layout - Main cards][1] or [Edit layout - Archives (section tabs)][2].
+<!-- markdownlint-restore -->
 
 > [!NOTE]
 > To delete a layout, select the layout in the **Layouts** list and click **Delete**. User groups that were assigned to the deleted layout, will go back to the default layout.

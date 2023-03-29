@@ -6,6 +6,7 @@ author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: screen designer, section tab, archive
 so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -25,21 +26,23 @@ You can add a new section tab on any main cards you like. Depending on the main 
 
 ![Select the type of content you want to show in the section tab -screenshot][img5]
 
+<!-- markdownlint-disable MD029 -->
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
+<!-- List starts in the include. Next line MUST be 3. -->
+3. Click **Archives**.
 
-1. Click **Archives**.
+4. Select a layout in the list on the left side.
 
-1. Select a layout in the list on the left side.
+5. Click **Edit layout** below the preview. A new window opens.
 
-1. Click **Edit layout** below the preview. A new window opens.
+6. See the sections below for more information on how to edit the layout.
 
-1. See the sections below for more information on how to edit the layout.
+7. When you have finished editing the layout, click one of the following buttons:
 
-1. When you have finished editing the layout, click one of the following buttons:
-
-      * **Save draft**: Click this button if the layout is not finished yet.
-      * **Save + Publish**: Click this button to publish the layout to the selected user groups.
-      * **Cancel**: Click this button to discard all changes. See also [Undo changes](#undo-changes).
+    * **Save draft**: Click this button if the layout is not finished yet.
+    * **Save + Publish**: Click this button to publish the layout to the selected user groups.
+    * **Cancel**: Click this button to [discard all changes](#undo-changes).
+<!-- markdownlint-restore -->
 
 ## Add archive tab
 
