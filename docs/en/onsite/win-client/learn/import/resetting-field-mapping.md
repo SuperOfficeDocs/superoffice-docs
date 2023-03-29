@@ -12,12 +12,13 @@ so.envir: onsite
 ---
 
 # Reset field mapping
+<!-- markdownlint-disable-file MD029 -->
 
 1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Import description](includes/step-import-description.md)]
-
-1. Click the **Clear all** button below **Field mapping**. All of the contents of the **Field in SuperOffice CRM** column is cleared.
+<!-- Include covers steps 2-3. Next line MUST be 4. -->
+4. Click the **Clear all** button below **Field mapping**. All of the contents of the **Field in SuperOffice CRM** column is cleared.
 
 <!-- Referenced links -->
 

@@ -20,7 +20,7 @@ Advanced import settings include date format settings and delimiter characters. 
 
 1. [!include[How to open import](includes/open-import.md)]
 
-[!include[Select file](includes/step-select-file.md)]
+1. [!include[Select file](includes/step-select-file.md)]
 
 1. Click the **Advanced** button.
 

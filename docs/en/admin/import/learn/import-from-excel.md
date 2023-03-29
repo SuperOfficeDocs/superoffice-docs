@@ -70,7 +70,7 @@ As the Excel spreadsheet may contain anything from just a few to a large number 
 
 1. [!include[Configure import settings](includes/configure-import-settings.md)]
 
-[!include[Enter concent comment](includes/step-concent-comment.md)]
+1. [!include[Enter concent comment](includes/step-concent-comment.md)]
 
 [!include[Preview import](includes/step-preview-import.md)]
 

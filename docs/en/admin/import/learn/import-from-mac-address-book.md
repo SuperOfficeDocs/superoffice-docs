@@ -35,12 +35,6 @@ The icon in Import appears if user have WebTools for Mac installed and opening S
 
 [!include[Adjust for Gmail/Outlook](includes/adjust-email-only.md)]
 
-1. [!include[Configure import settings](includes/configure-import-settings.md)]
-
-[!include[Enter concent comment](includes/step-concent-comment.md)]
-
-[!include[Preview import](includes/step-preview-import.md)]
-
 ### Troubleshooting
 
 [!include[Contacts without icons](includes/troubleshoot-import.md)]

@@ -20,18 +20,19 @@ After you have backed up the database file, found the right data file and placed
 
 **Steps:**
 
+<!-- markdownlint-disable-file MD029 -->
 1. [!include[How to open import](includes/open-import.md)]
 
 [!include[Import description](includes/step-import-description.md)]
+<!-- Include covers steps 2-3. Next line MUST be 4. -->
+4. After you choose an import description and the import file is found, the other fields are filled in automatically. Optionally, [edit any of the details in the import description][3].
 
-1. After you choose an import description and the import file is found, the other fields are filled in automatically. Optionally, [edit any of the details in the import description][3].
-
-1. It may be useful to check that the contents of the fields correctly match the fields you selected. The **Field in file** column under **Field mapping** shows the contents of the first record in the data file you are importing, while the **Field in SuperOffice CRM** column shows the fields in the SuperOffice database the data will be imported to. Click the **Next** button a few times to check the contents of some of the following records as well.
+5. It may be useful to check that the contents of the fields correctly match the fields you selected. The **Field in file** column under **Field mapping** shows the contents of the first record in the data file you are importing, while the **Field in SuperOffice CRM** column shows the fields in the SuperOffice database the data will be imported to. Click the **Next** button a few times to check the contents of some of the following records as well.
 
     > [!NOTE]
     > If the fields do not display as required, you must either amend the [field mapping][4] or make the necessary changes in the import file.
 
-1. Click **Start** to start the import. A progress indicator is displayed at the bottom of the screen.
+6. Click **Start** to start the import. A progress indicator is displayed at the bottom of the screen.
 
 > [!NOTE]
 > The time required to import the data from the import file into the SuperOffice database depends on the size of the database and the data connection (slow or fast connection to the database server). However, you can cancel the import at any time by clicking the **Stop** button on the right of the progress indicator.
