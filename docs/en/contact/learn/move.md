@@ -26,7 +26,9 @@ You can move a contact - including their activities and memberships - from one c
     * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher][1], [The History list][2] or [Find][3] ![icon][img3].
     * Select **Disconnect from &lt;company&gt;**.
 
-[!include[Select action](../../learn/includes/select-action-on-activity.md)]
+1. Select one of the following under **Action on all existing activities and sales**:
+
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
 <!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../learn/includes/note-preview-results.md)]

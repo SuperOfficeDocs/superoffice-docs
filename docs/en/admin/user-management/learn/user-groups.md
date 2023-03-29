@@ -14,8 +14,7 @@ language: en
 
 ## Create user group
 
-[!include[Go to](../../../learn/includes/goto-sm.md)]
-
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 1. Select ![icon][img2] **Lists** in the Navigator.
 1. Choose **General - User group** from the list.
 1. Enter information in the dialog and click **OK**.

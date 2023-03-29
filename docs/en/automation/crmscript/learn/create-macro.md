@@ -18,7 +18,9 @@ Many companies often receive requests relating to invoicing. Such requests shoul
 
 We will now create a macro based on the example above.
 
-[!include[Go to](../../../learn/includes/goto-sm.md)]
+## Steps
+
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
 1. Select **CRMScript** and do one of the following:
     * To create a new macro: Click **New macro**.

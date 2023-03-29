@@ -13,7 +13,7 @@ language: en
 
 SuperOffice can import SMS messages. For this to work, you must set up an SMS mailbox:
 
-[!include[Go to email](includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Click **New SMS mailbox**.
 
@@ -24,7 +24,7 @@ SuperOffice can import SMS messages. For this to work, you must set up an SMS ma
 
 1. In the **Priority** list box, select which priority to assign to requests received via SMS.
 
-[!include[Set customer language](includes/step-set-language.md)]
+1. [!include[Set customer language](includes/step-set-language.md)]
 
 1. Click **OK**. The SMS mailbox is created.
 

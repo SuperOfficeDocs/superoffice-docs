@@ -11,7 +11,7 @@ language: en
 
 # Delete activity in the Company screen
 
-[!include[Go to company](../includes/goto-company.md)]
+1. [!include[Go to company](../includes/goto-company.md)]
 
 1. Select the **Activities** section tab.
 

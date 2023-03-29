@@ -32,12 +32,13 @@ Project membership and activities will be moved to the target contact, and the s
     * **Mark as former employee**: If you select this option, the source contact is marked as a former employee after the merge.
         For example, if a person has changed jobs, but you still want them registered under the old company.
 
-[!include[Select action](../../learn/includes/select-action-on-activity.md)]
+4. Select one of the following under **Action on all existing activities and sales**:
 
-<!-- markdownlint-disable-next-line MD046 -->
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
+
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
 
-1. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
+5. Click **Merge**. The contacts are merged, and project memberships and memberships of static selections are moved.
 
 > [!NOTE]
 > You cannot merge contacts (SuperOffice users) in your own company, but you can merge a contact from another company with one in your own company.

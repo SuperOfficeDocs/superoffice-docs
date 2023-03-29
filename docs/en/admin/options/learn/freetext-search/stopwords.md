@@ -21,7 +21,7 @@ The words defined as stopwords for freetext searches are listed in the **Stopwor
 
 ## Add stopword
 
-[!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
 1. Check that [freetext search is enabled][2].
 
@@ -37,7 +37,7 @@ The words defined as stopwords for freetext searches are listed in the **Stopwor
 
 Instead of entering stopwords manually, you can let the system suggest stopwords for you.
 
-[!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
 1. Check that [freetext search is enabled][2].
 
@@ -55,7 +55,7 @@ Instead of entering stopwords manually, you can let the system suggest stopwords
 
 The object of deleting stopwords is to include them in freetext searches after having excluded them. To delete a stopword from the list:
 
-[!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
 1. Check that [freetext search is enabled][2].
 

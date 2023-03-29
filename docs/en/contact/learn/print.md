@@ -23,7 +23,7 @@ You can print information about a contact from both the Contact screen and the C
 
 ## To print from the Company screen
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Select the **Contacts** section tab.
 

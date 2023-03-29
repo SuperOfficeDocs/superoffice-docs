@@ -17,7 +17,7 @@ The TAB order is displayed in the **Name** list on the left of the screen. This 
 
 **Steps:**
 
-[!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](includes/goto-fields.md)]
 
 1. Select the required field below the list.
 

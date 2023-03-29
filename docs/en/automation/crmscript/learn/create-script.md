@@ -11,7 +11,7 @@ language: en
 
 # Create or edit a script
 
-[!include[Go to](../../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
 1. Select **CRMScript** and do one of the following:
     * To create a new macro: Click **New macro**.
