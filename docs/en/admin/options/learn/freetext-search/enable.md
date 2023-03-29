@@ -12,7 +12,7 @@ language: en
 
 # Enable freetext search
 
-[!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
 1. Check **Enable freetext search**.
 

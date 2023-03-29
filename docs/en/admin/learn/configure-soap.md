@@ -15,7 +15,7 @@ language: en
 
 ## Add an IP address range
 
-[!include[Go to](../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
 1. Click **Requests** and select the **SOAP** tab.
 

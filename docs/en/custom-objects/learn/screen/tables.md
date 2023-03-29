@@ -25,7 +25,7 @@ This screen displays both standard tables (predefined in the system and form the
 
 ## Where to find the screen
 
-[!include[Go to](../../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
 1. Click **System design** in the navigator and select the **Tables** tab.
 

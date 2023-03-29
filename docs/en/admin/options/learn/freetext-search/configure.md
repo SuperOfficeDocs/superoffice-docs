@@ -14,7 +14,7 @@ language: en
 
 You can specify search criteria for both individual words (for example *Peter*) and phrases consisting of several words (for example *Oliver Peter Nielsen*).
 
-[!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
 1. Check that [freetext search is enabled][1].
 

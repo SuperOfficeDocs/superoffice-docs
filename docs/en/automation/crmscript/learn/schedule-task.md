@@ -21,7 +21,7 @@ Click a task in the list to edit its properties, such as when it was last execut
 
 ## Create a new scheduled task
 
-[!include[Go to](../../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
 1. Click **CRMScript** and select the **Scheduled tasks** tab.
 

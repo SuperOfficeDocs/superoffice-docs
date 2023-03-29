@@ -36,7 +36,7 @@ The following factors determine which requests a request handler can get from th
 
 First, we will create a new request status: **In queue**. New requests should automatically be assigned this request status.
 
-[!include[Go to](../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
 1. Select **Requests** > **Request status**.
 
@@ -70,7 +70,7 @@ Now you must ensure that you are a member of the category or categories you are 
 
 **Steps:**
 
-[!include[Go to](../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
 1. Select **Requests** > **Categories**.
 

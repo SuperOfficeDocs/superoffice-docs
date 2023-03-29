@@ -24,7 +24,7 @@ If your customer centre is multi-lingual, you can set options (such as welcome t
 
 ## Steps
 
-[!include[Go to](../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
 1. Select **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to a preview of the Customer Centre page.
 

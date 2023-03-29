@@ -22,7 +22,7 @@ Among the user-defined fields that are displayed in the **More** tabs in SuperOf
 
 ## To display a user-defined field on the first page
 
-[!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](includes/goto-fields.md)]
 
 1. Check **Allow different page 1 fields for different user groups** at the bottom of the tab to specify different page 1 fields for different user groups. If not checked, the fields you specify are used for all user groups.
 

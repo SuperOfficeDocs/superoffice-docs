@@ -33,7 +33,7 @@ There are three ways you can delete a contact from SuperOffice CRM:
 
 ## To delete a contact from the Company screen
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
 1. Select the **Contacts** section tab.
 
