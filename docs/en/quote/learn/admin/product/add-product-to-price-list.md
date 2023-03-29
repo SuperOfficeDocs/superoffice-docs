@@ -22,7 +22,7 @@ After your products and the product information are added, your salespeople can 
 
 In the **Add/Edit product** dialog, you enter all the information about a product, including an image.
 
-[!include[Go to products](../includes/goto-products.md)]
+1. [!include[Go to products](../includes/goto-products.md)]
 
 1. In the **Price list** list, select the price list you want to add products to.
 

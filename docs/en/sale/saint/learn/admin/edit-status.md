@@ -19,11 +19,11 @@ The **Description** tab shows the description you entered when you [created the 
 ## Steps
 
 <!-- markdownlint-disable-file MD029 -->
-[!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
-3. In the status list, select the status for which you want to edit the description.
+1. In the status list, select the status for which you want to edit the description.
 
-4. Edit the text in the **Description** tab.
+1. Edit the text in the **Description** tab.
 
 <!-- Referenced links -->
 [1]: create-status.md

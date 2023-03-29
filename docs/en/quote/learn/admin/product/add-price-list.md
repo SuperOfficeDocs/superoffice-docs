@@ -20,7 +20,7 @@ Customizing price lists helps your salespeople use the correct price details wit
 
 ## Steps
 
-[!include[Go to products](../includes/goto-products.md)]
+1. [!include[Go to products](../includes/goto-products.md)]
 
 1. Click the **Add** button at the top of the tab. The **Add/Edit price list** dialog appears.
 

@@ -21,7 +21,9 @@ How do I set up an ERP connection for SuperOffice CRM for Web (Online)?
 
 1. Go to the **ERP connections** tab in the Quote/Sync screen.
 
-[!include[Define new ERP connection](includes/step-define-new-erp-connection.md)]
+1. Click **Add** at the bottom of the **ERP connections** list. The **Define new ERP connection** dialog appears.
+
+1. Enter the name of the ERP connection in the **Name** field.
 
 1. Selected the required **Quote Connector** in the list. This list is identical to **Available Quote Connectors**.
 

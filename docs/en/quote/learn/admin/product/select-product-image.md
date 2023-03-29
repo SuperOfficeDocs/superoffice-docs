@@ -20,7 +20,7 @@ After you have added your products, either manually or by import, you can add im
 
 ## Steps
 
-[!include[Go to products](../includes/goto-products.md)]
+1. [!include[Go to products](../includes/goto-products.md)]
 
 1. Select the required **Price list**.
 

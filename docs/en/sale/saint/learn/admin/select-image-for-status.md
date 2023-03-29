@@ -32,7 +32,7 @@ The images are used as watermarks for the company card, contact card or project 
 
 ## To select an image for the status
 
-[!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
 1. Select the required status in the status list on the left of the screen.
 

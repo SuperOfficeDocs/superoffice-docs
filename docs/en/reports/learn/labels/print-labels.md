@@ -26,7 +26,7 @@ The print options for labels are slightly different from those for other report 
 
 1. Click **OK**. A PDF is generated in your browser.
 
-[!include[Open PDF](../includes/step-open-pdf.md)]
+1. [!include[Open PDF](../includes/step-open-pdf.md)]
 
 1. Click the print button in the PDF viewer.
 

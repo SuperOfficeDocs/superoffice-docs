@@ -22,12 +22,11 @@ You want to monitor companies that you have very few activities with, to avoid u
 
 ## Steps
 
-<!-- markdownlint-disable-file MD029 -->
-[!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
-3. Click **Add** below the **Status monitors** list.
+1. Click **Add** below the **Status monitors** list.
 
-4. In the dialog, complete these fields:
+1. In the dialog, complete these fields:
 
     * **Name**: Enter a descriptive name for the status you want to add.
 
@@ -37,9 +36,9 @@ You want to monitor companies that you have very few activities with, to avoid u
 
     The name and description are displayed in SuperOffice CRM when the user holds the mouse pointer over the status image or opens the status image for the company. You can subsequently [edit the description][2].
 
-5. Click **Save**. The status is displayed in the status list.
+1. Click **Save**. The status is displayed in the status list.
 
-6. If there are several statuses in the list, specify the priority you want the new status to have. Click the status and use the ![icon][img5] / ![icon][img6] arrow buttons to the right of the status list to move it up or down the list.
+1. If there are several statuses in the list, specify the priority you want the new status to have. Click the status and use the ![icon][img5] / ![icon][img6] arrow buttons to the right of the status list to move it up or down the list.
 
 ### What does the status list contain?
 

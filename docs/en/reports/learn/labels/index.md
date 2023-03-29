@@ -27,7 +27,7 @@ language: en
 
 1. Click **OK**. A PDF is generated in your browser.
 
-[!include[Open PDF](../includes/step-open-pdf.md)]
+1. [!include[Open PDF](../includes/step-open-pdf.md)]
 
 1. You can save the PDF file from the PDF viewer, so you can open it later.
 

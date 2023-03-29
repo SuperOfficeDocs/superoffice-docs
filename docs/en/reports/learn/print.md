@@ -15,11 +15,11 @@ language: en
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
-1. [Select the required ][3].
+1. [Select the required report][3].
 
 1. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
 
-[!include[Open PDF](includes/step-open-pdf.md)]
+1. [!include[Open PDF](includes/step-open-pdf.md)]
 
 1. Click the print button in the PDF viewer.
 

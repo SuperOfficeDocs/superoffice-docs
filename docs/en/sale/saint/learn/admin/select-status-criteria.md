@@ -20,7 +20,7 @@ Spend some time to set up the correct status criteria, as you need to make sure 
 
 ## Steps
 
-[!include[Open SAINT](includes/open-saint-select-tab.md)]
+1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
 1. Select the required status in the status list on the left of the screen.
 

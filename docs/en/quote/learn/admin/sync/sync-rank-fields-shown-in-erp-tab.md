@@ -2,8 +2,8 @@
 uid: help-en-sync-rank-fields-shown-in-erp-tab
 title: Rank fields shown in the ERP tab
 description: Rank fields shown in the ERP tab
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.29.2023
 keywords: quote, sync, connector, ERP
 so.topic: howto
 so.user: admin
@@ -14,7 +14,7 @@ language: en
 
 You can set the order of the ERP fields displayed in the ERP tab in SuperOffice CRM. (You determine which fields should be shown in the ERP tab in the [Allocations dialog][1].)
 
-[!include[Go to sync](../includes/goto-sync.md)]
+1. [!include[Go to sync](../includes/goto-sync.md)]
 
 1. Select the ERP connection, and click the **Rank Fields** button at the bottom. The **Rank fields shown in the ERP tab** dialog displays the tabs for the available actors in the ERP system.0
 

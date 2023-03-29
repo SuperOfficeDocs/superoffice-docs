@@ -23,7 +23,7 @@ How this works varies slightly from report type to report type. To display cross
 
 1. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
 
-[!include[Open PDF](includes/step-open-pdf.md)]
+1. [!include[Open PDF](includes/step-open-pdf.md)]
 
 You can save the PDF file from the PDF viewer, so you can open it later.
 

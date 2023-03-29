@@ -2,8 +2,8 @@
 uid: help-en-sync-configure-field-allocation
 title: Configure field mapping
 description: Configure field mapping
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.29.2023
 keywords: quote, sync, connector, ERP, mapping
 so.topic: howto
 so.user: admin
@@ -17,7 +17,7 @@ When synchronizing data between SuperOffice and ERP systems, must specify which 
 > [!NOTE]
 > When editing an ERP connection, you must first deactivate it.
 
-[!include[Go to sync](../includes/goto-sync.md)]
+1. [!include[Go to sync](../includes/goto-sync.md)]
 
 1. Select the ERP connection, and click the **Mappings** button at the bottom. The **Mappings** dialog displays the tabs for the available actors in the ERP system.
 

@@ -2,8 +2,8 @@
 uid: help-en-sync-configure-default-values
 title: sync configure default values
 description: sync configure default values
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.29.2023
 keywords: quote, sync, connector, ERP
 so.topic: howto
 so.user: admin
@@ -14,7 +14,7 @@ language: en
 
 By defining default values for fields that typically only have one relevant value, you save users a lot of time. You save them having to check a box that should always be checked or to enter a number into a field that should always contain "30". This is particularly useful when having to enter large quantities of data.
 
-[!include[Go to sync](../includes/goto-sync.md)]
+1. [!include[Go to sync](../includes/goto-sync.md)]
 
 1. Select the ERP connection, and click the **Defaults** button at the bottom.
 
