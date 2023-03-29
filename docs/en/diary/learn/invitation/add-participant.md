@@ -13,7 +13,7 @@ language: en
 
 When you create a follow-up that concerns other people, you can add them as participants to the follow-up. You can also book your organization's conference rooms and equipment. People who are available as participants are defined in Settings and maintenance.
 
-Invite a contact to an appointment from the participants tab by clicking the **Add** button.
+Invite a contact to an appointment from the participants tab by clicking the **Add** button. Watch the video for [Add participants to an appointment][5].
 
 <!--
 > [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4] -->
@@ -74,6 +74,7 @@ To manually accept or decline an invitation on behalf of someone, select the nam
 [2]: ../screen/dialog-for-followups.md
 [3]: ../appointment.md
 [4]: ../video-meetings.md
+[5]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/diary--appointments/add-contact-to-appointment.mp4
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/pref-email.png
