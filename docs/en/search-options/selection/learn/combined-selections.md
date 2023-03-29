@@ -49,6 +49,6 @@ You can select which entries you want to include in the combined selection. Thes
 * [Create a combined selection][1]
 
 <!-- Referenced links -->
-[1]: create/create-combined.yml
+[1]: create/combine.md
 
 <!-- Referenced images -->

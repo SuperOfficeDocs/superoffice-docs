@@ -55,9 +55,9 @@ conceptualContent:
       - text: How to create a search and save it as a selection
         itemType: learn
         url: selection/learn/create/index.md
-      - text: How to create a dynamic selection
+      - text: How to create a selection
         itemType: learn
-        url: selection/learn/create/create-dynamic.yml
+        url: selection/learn/create/tutorial.yml
       - text: How to broaden a search using the "OR" function
         itemType: learn
         url: learn/find-screen.md#or

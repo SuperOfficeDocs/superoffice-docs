@@ -34,6 +34,6 @@ items:
 - title: Finish
   durationInMinutes: 3
   content: |
-    [!include[Add to Favorites](includes/add-to-fav.md)]
+    1. [!include[Add to Favorites](includes/add-to-fav.md)]
 
     1. When you have finished defining the core data for the selection, click **Save**.

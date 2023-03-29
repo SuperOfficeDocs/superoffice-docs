@@ -40,7 +40,7 @@ To create a copy of a dynamic selection, you can use the **Copy the selection** 
 * [Copy selections][3]
 
 <!-- Referenced links -->
-[2]: ../create/create-static.yml
+[2]: ../create/tutorial.yml
 [3]: ../create/copy.md
 
 <!-- Referenced images -->
