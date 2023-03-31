@@ -17,8 +17,6 @@ items:
     href: admin/10.2.2-update.md
   - name: 10.2.3 update
     href: admin/10.2.3-update.md
-  - name: 10.2.4 update
-    href: admin/10.2.4-update.md
 #- name: Requests / Service
 #  href: service/index.md
 - name: Marketing
@@ -46,6 +44,8 @@ items:
 - name: API
   href: api/index.md
   items:
+  - name: 10.2.4 update
+    href: api/10.2.4-update.md
   - name: 10.2.3 update
     href: api/10.2.3-update.md
     items:
