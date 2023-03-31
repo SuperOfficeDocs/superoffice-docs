@@ -87,7 +87,7 @@
       },
       {
         "src":"release-notes",
-        "dest":"en/release-notes",
+        "dest":"release-notes",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
         "exclude": ["**/includes/**"]
       }
@@ -152,7 +152,7 @@
       },
       {
         "src":"release-notes",
-        "dest":"en/release-notes",
+        "dest":"release-notes",
         "files": ["**/*.{png,svg,jpg,gif,bmp,zip}"]
       },
       {
