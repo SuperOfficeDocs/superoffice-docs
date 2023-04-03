@@ -5,9 +5,5 @@ items:
     href: edit-legal-base.md
   - name: Send privacy confirmation email
     href: send-privacy-confirmation-email.md
-  - name: Edit privacy confirmation email
-    href: edit-privacy-confirmation-email.md
   - name: Generate personal data report
     href: generate-personal-data-report.md
-  - name: Implementation guide
-    href: implementation-guide.md

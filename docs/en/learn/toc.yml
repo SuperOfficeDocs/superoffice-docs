@@ -56,6 +56,8 @@ items:
   - name: Knowledge base
     topicHref: ../request/learn/screen/knowledge-base.md
     items:
+    - name: Overview
+      href: ../request/learn/screen/knowledge-base.md
     - name: FAQ
       href: ../faq/learn/toc.yml
     - name: Reply templates
@@ -86,7 +88,7 @@ items:
       topicHref: ../admin/preferences/learn/index.md
     - name: Privacy
       href: ../security/privacy/learn/admin/toc.yml
-      topicHref: ../security/privacy/learn/admin/add-consent-purpose.md
+      topicHref: ../security/privacy/learn/admin/implementation-guide.md
     - name: Quote/Sync
       href: ../quote/learn/admin/toc.yml
       topicHref: ../quote/learn/admin/index.md
@@ -155,9 +157,9 @@ items:
         items:
         - name: Overview
           href: ../request/learn/category/index.md
-        - name: Create category
+        - name: Create request category
           href: ../request/learn/category/create.md
-        - name: Delete category
+        - name: Delete request category
           href: ../request/learn/category/delete.md
       - name: Priorities
         href: ../request/learn/priority/index.md

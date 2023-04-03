@@ -2,9 +2,11 @@
 uid: help-en-request-message-flag
 title: Keep track of messages
 description: Keep track of messages
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 keywords: request, message, flag
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
@@ -24,10 +26,19 @@ To make it easier to find and sort multiple messages in a request, you can flag 
 
 1. [Open the request][1].
 1. Click the **Messages** tab.
-1. In the lower right corner, click the filter list and select a filter. The messages are filtered.
+1. In the upper right corner, click the filter list and select a filter. The messages are filtered.
+
+## Related topics
+
+* [Create request][2]
+* [Reply to customer][3]
+* [Edit message][4]
 
 <!-- Referenced links -->
 [1]: ../index.md#open
+[2]: create.md
+[3]: reply.md
+[4]: edit-message.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/flag-off.png

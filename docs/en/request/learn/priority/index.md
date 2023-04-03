@@ -2,14 +2,16 @@
 uid: help-en-request-priority
 title: Request priorities
 description: Request priorities
-author: HanneGunnarsson
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request, priority
 so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Priorities
+# Request priorities
 
 All requests registered in SuperOffice are assigned a priority that reflects the importance of the enquiry.
 

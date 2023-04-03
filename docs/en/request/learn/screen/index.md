@@ -6,6 +6,8 @@ author: HanneGunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: reference
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
@@ -13,7 +15,8 @@ language: en
 
 The Request screen has the following sections:
 
-* At the top of the screen, the request header contains basic information about the request.
+* At the top of the screen, the **request header** contains basic information about the request, like id, title, contact and deadline.
+* The **request properties** sidebar contains fields for Owner, Status, Category, Priority, Access level and Tags, all fields are editable with **Save** and **Cancel** buttons.
 * Below the header is a row of buttons for performing tasks associated with requests, such as Reply, Reply all, Forward, and Add comment.
 * The **Messages** tab displays the messages related to the request.
 * The **Details** tab contains an overview of the data registered for the request.
@@ -60,12 +63,12 @@ The **Messages** tab displays the messages related to the request.
 
 You can change how many messages are displayed, in ![icon][img3] **Personal settings**:
 
-1. Select ![icon][img3] **Personal settings** > **Settings**.
-2. Select the **Interface** tab.
-3. Specify the number of messages in the **No. of expanded messages** field.
-4. Click **OK**.
+1. Select ![icon][img3] **Personal settings** > **Preferences**.
+1. Select the groups for **Request xx** tab.
+1. Specify the number of messages in the **No. of expanded messages** field.
+1. Click **OK**.
 
-### Options
+### Message tasks
 
 Click ![icon][img1] on a message to access additional options for the message:
 
@@ -76,11 +79,25 @@ Click ![icon][img1] on a message to access additional options for the message:
 * **Split message**: Click here to [split the message][11] and create a new request. Useful if a message contains two issues that should be handled by different departments, for instance a technical question and an invoice question.
 * **Print message**: Click here to print the message.
 
-At the bottom of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.
+At the top of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.
 
 ## Details tab
 
-The **Details** tab contains an overview of the request.
+The **Details** tab contains an overview of all the fields for the request.
+
+## Related topics
+
+* [Create request][12]
+* [Find][10]
+* [Accept][5]
+* [Transfer][1]
+* [Forward][9]
+* [Assign][13]
+* [Reply][14]
+* [Split request][6]
+* [Edit message][8]
+* [Faviourites][15]
+* [Close request][16]
 
 <!-- Referenced links -->
 [1]: ../howto/transfer.md
@@ -92,7 +109,13 @@ The **Details** tab contains an overview of the request.
 [7]: ../howto/merge.md
 [8]: ../howto/edit-message.md
 [9]: ../howto/forward.md
+[10]: ../find.md
 [11]: ../howto/split-message.md
+[12]: ../howto/create.md
+[13]: ../howto/assign.md
+[14]: ../howto/reply.md
+[15]: ../howto/fav.md
+[16]: ../howto/close.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

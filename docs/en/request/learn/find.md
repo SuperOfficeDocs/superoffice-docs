@@ -6,6 +6,8 @@ author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: request, search, find
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
@@ -18,7 +20,8 @@ Do one of the following:
 * Use lists, which are actually predefined searches.
 * Use the search screen for requests.
 * Use the [free-text search][3] in the upper right corner.
-* Use dashboards.
+* Use [dashboards][9].
+* Use [selections][10] for requests.
 
 ## <a id="list" />Use lists
 
@@ -91,6 +94,8 @@ If the preview section is not visible, click **Show preview** at the bottom of t
 [6]: howto/accept.md
 [7]: howto/forward.md
 [8]: howto/reply.md
+[9]: ../../dashboard/learn/index.md
+[10]: ../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png

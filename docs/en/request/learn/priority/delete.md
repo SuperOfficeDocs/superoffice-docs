@@ -2,14 +2,16 @@
 uid: help-en-request-priority-delete
 title: Delete priority
 description: Delete priority
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 07.03.2023
 keywords: request, priority
 so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Delete priority
+# Delete request priority
 
 You cannot delete priorities, but you can set the status of a priority to **Deleted**, to make it unavailable to users and customers.
 
@@ -18,7 +20,7 @@ You cannot delete priorities, but you can set the status of a priority to **Dele
 
 ## How to delete a priority
 
-1. Go to the **Priorities** screen: Click the **Requests** button in the navigator. Then select the **Priorities** tab.
+1. Click the **Requests** button in the navigator and select the **Priorities** tab.
 
 1. Click the required priority.
 

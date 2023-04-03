@@ -3,18 +3,19 @@ uid: help-en-request-category-delete
 title: Delete category
 description: Delete category
 author: HanneGunnarsson
-so.date: 06.29.2022
+so.date: 03.29.2023
 keywords: request, category
 so.topic: howto
 so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Delete category
 
-1. In Settings and maintenance, go to the **Categories** screen by clicking the **Requests** button in the navigator and selecting the **Categories** tab.
+1. In Settings and maintenance, click the **Requests** button in the navigator and select the **Categories** tab.
 
-1. Click the category name.
+1. Click the category name you want to delete.
 
     > [!TIP]
     > If the category is a subcategory, first click the arrow to the left of the parent category to display the associated subcategories.

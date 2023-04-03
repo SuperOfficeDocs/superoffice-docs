@@ -5,8 +5,6 @@ items:
   href: howto/index.md
 - name: Request screen
   href: screen/index.md
-- name: Request log
-  href: screen/ticket-log.md
 - name: Work with requests
   topicHref: find.md
   href: howto/toc.yml

@@ -2,7 +2,7 @@
 uid: help-en-system-templates
 title: System templates
 description: System templates
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 06.29.2022
 keywords: Settings and maintenance
 so.topic: reference
@@ -11,7 +11,7 @@ so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# System templates
+# System templates settings
 
 In the **System templates** tab, you can specify which reply templates the system should use.
 
@@ -80,8 +80,15 @@ In the **Weekly stats** tab, you have the following options:
 
 To select another template, click the ![icon][img1] list button next to the relevant field and select a template from the list that appears.
 
+## Related topics
+
+* [Reply templates overview][2]
+* [FAQ overview][3]
+
 <!-- Referenced links -->
 [1]: ../../../email/service/learn/kb-aliases/index.md
+[2]: ../../reply-templates/learn/index.md
+[3]: ../../../faq/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/dropdown-arrow.png

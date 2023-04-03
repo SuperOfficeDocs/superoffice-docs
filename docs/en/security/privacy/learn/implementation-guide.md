@@ -5,7 +5,9 @@ description: Before you start configuring your SuperOffice CRM database to becom
 author: Bergfrid Dias
 so.date: 02.21.2023
 keywords: GDPR, consent
-so.topic: howto
+so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

@@ -2,8 +2,8 @@
 uid: help-en-request-escalation
 title: Escalation levels
 description: Escalation levels
-author: HanneGunnarsson
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request, priority, escalate
 so.topic: howto
 language: en
@@ -11,13 +11,13 @@ language: en
 
 # Escalation levels
 
-For each priority you can define one or more escalation levels, so that the system forwards the enquiry further through the organization if it has not been read or handled within a specified time.
+For each request **priority** you can define one or more escalation levels, so that the system forwards the enquiry further through the organization if it has not been read or handled within a specified time.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
 ## How to define new levels
 
-1. Go to the **Priorities** screen: Click the **Requests** button in the navigator. Then select the **Priorities** tab.
+1. Click the **Requests** button in the navigator and select the **Priorities** tab.
 
 1. Select a priority for which you want to create escalation levels.
 

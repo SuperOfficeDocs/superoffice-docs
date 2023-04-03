@@ -2,10 +2,12 @@
 uid: help-en-request-status-create
 title: Create request status
 description: Create request status
-author: HanneGunnarsson
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request, status
 so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

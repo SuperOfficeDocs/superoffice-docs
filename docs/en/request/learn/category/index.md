@@ -2,14 +2,16 @@
 uid: help-en-request-category
 title: Categories
 description: Categories
-author: HanneGunnarsson
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request, category
 so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Categories
+# Request categories
 
 All requests belong to a category, and each category has its own rules that define how requests are processed in the system.
 
@@ -25,7 +27,7 @@ Users can be added as members in the categories individually or via the user gro
 > [!TIP]
 > Looking for a more flexible way of organising your request? Try [using tags in requests][1].
 
-## Where can I find the categories?
+## Where can I find the request categories?
 
 * **In Settings and maintenance**, select **Requests** in the navigator and then the **Categories** tab.
 
@@ -38,11 +40,13 @@ The categories are arranged in a tree structure.
 * [Create categories][1]
 * [Delete categories][2]
 * [How to set up Get next request in queue][5]
+* [Priorities][4]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
 [3]: ../../../admin/lists/learn/index.md
+[4]: ../priority/index.md
 [5]: ../next-in-queue.md
 
 <!-- Referenced images -->

@@ -6,6 +6,8 @@ author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: request, delegate
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
@@ -15,7 +17,7 @@ As a request handler, you are not always able to answer the request on your own.
 
 1. [Open the request][1].
 
-1. Select the person you want to help in the **Owner** list box from the properties panel. This means that you are transferring responsibility for the request to that person.
+1. Select the person you want help from in the **Owner** list box from the properties panel. This means that you are transferring responsibility for the request to that person.
 
     ![Assign a request to another Service users -screenshot][img1]
 
@@ -28,7 +30,7 @@ As a request handler, you are not always able to answer the request on your own.
 
 1. Enter the question you want to ask the other person.
 
-1. Set **Access level for message** to **Internal**.
+1. Set **Access level for message** to **Internal**, so the message is not visible in the Customer Centre.
 
 1. Click **Save**. The request is transferred to the other person.
 

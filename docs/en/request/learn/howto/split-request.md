@@ -2,10 +2,12 @@
 uid: help-en-request-split
 title: Split requests
 description: Split requests
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 03.16.2023
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
@@ -53,6 +55,7 @@ If a single request contains several questions, for example, if the customer fir
 * [Ask another request handler for help][5]
 * [Forward messages to external parties][6]
 * [Split message][1]
+* [Merge requests][7]
 
 <!-- Referenced links -->
 [1]: split-message.md
@@ -61,6 +64,7 @@ If a single request contains several questions, for example, if the customer fir
 [4]: reply.md
 [5]: transfer.md
 [6]: forward.md
+[7]: merge.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

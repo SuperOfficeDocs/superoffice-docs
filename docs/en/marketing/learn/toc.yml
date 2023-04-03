@@ -4,6 +4,7 @@ items:
 - name: Marketing screen
   href: screen/index.md
 - name: Work with marketing
+  topicHref: add-fav.md
   items:
   - name: Add favorites
     href: add-fav.md
@@ -13,11 +14,16 @@ items:
     href: work-with-messages-and-templates.md
   - name: Add images
     href: add-images.md
+
 - name: Work with mailings
   href: ../mailing/learn/toc.yml
+  topicHref: ../mailing/learn/index.md
+
 - name: Drag and drop editor
   href: editor.md
   items:
+  - name: Overview
+    href: editor.md
   - name: Add content
     href: add-content.md
   - name: Edit paragraph
@@ -33,3 +39,4 @@ items:
 
 - name: Work with tracked links
   href: ../tracked-links/learn/toc.yml
+  topicHref: ../tracked-links/learn/index.md

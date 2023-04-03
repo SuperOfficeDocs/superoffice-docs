@@ -6,23 +6,25 @@ description: Add requests to the favorites list
 so.date: 06.29.2022
 keywords: request, fav
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
-# Add requests to the favourites list
+# Add requests to your favourites list
 
 In SuperOffice there is a favourites list where you can add requests you want to remind yourself to follow up.
 
 > [!TIP]
-> You can also add contacts, companies, selections and mailings to your [favourites][1]. These favourites can be accessed by clicking the relevant icon in the Navigator and clicking ![icon][img3].
+> You can also add contacts, companies, selections and mailings to your [favourites][1]. These favourites can be accessed by clicking the relevant item in the Navigator and clicking favourites ![icon][img3].
 
 ## Add one request
 
 1. [Open the request][3].
-1. Click the favourites icon ![icon][img1] in the request header. The star turns yellow ![icon][img2], and the request is instantly added to favourites. You do not have to click **Save**.
+1. Click the favourites icon ![icon][img1] in the request header. The star turns yellow ![icon][img2], and the request is instantly added to your favourites. You do not have to click **Save**.
 
 > [!TIP]
-> Before [transferring responsibility][2] for the request to someone else, it is a good idea to add it to your favourites list, to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
+> Before [transferring responsibility][2] for the request to someone else, it is a good idea to add it to your favourites list, to remind yourself to follow up the request. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.
 
 ## Add multiple requests
 
@@ -41,6 +43,11 @@ Do the following:
 
 1. Open the request.
 1. Click the favourites icon ![icon][img2] in the request header. The icon changes to ![icon][img1].
+
+## Relevant topics
+
+* [Faviourites in SuperOffice CRM][1]
+* [Ask another request handler for help - transfer][2]
 
 <!-- Referenced links -->
 [1]: ../../../learn/basics/fav.md

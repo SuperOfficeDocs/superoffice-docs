@@ -2,10 +2,12 @@
 uid: help-en-request-close
 title: Close a request
 description: How to close a request in SuperOffice
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 06.29.2022
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 

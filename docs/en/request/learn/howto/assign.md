@@ -2,10 +2,12 @@
 uid: help-en-request-assign
 title: Assignment methods
 description: Assignment methods for requests
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 02.14.2023
 keywords: request
 so.topic: concept
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 

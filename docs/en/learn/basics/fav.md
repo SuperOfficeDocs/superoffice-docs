@@ -1,15 +1,17 @@
 ---
-uid: help-en-favorites
-title: Favorites
-description: Favorites
+uid: help-en-favourites
+title: Favourites
+description: Favourites
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: fav
+keywords: faviourites
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM
 language: en
 ---
 
-# Favorites
+# Favourites in SuperOffice CRM
 
 The Favorites function provides easy access to your favorite records, such as companies, contacts, sales, selections, projects, documents, requests, and mailings.
 
@@ -26,7 +28,7 @@ To add reports as favorites, see [Favorite reports][1].
 You can access your favorites from the following places in the application:
 
 * Directly from the Navigator:
-    1. Click the word **Company**, **Contact**, **Sale**, **Project**, or **Selection** in the Navigator.
+    1. Click the word **Company**, **Contact**, **Sale**, **Project**, **Requests** or **Selection** in the Navigator.
     2. Click ![icon][img1].
     3. Select the item you want to view.
 * In the side panel.

@@ -2,7 +2,7 @@
 uid: help-en-request-priority-create
 title: Create priority
 description: Create priority
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 07.03.2023
 keywords: request, priority
 so.topic: howto
@@ -11,7 +11,7 @@ so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Create priority
+# Create request priority
 
 The default priorities included with the system are **High**, **Medium** and **Low**. But you can both add new priorities and edit the settings of existing priorities.
 
@@ -19,11 +19,11 @@ The default priorities included with the system are **High**, **Medium** and **L
 
 **Steps:**
 
-1. In Settings and maintenance, go to the **Priorities** screen by clicking the **Requests** button in the navigator and selecting the **Priorities** tab.
+1. In Settings and maintenance, go to the **Requests** button in the navigator and select the **Priorities** tab.
 
 1. Click the **Add** button.
 
-1. Enter a descriptive name for the priority by replacing the text *Priority name* above the tabs.
+1. Enter a descriptive name in the **Priority name** field.
 
 1. In the **Properties** tab, enter the following information:
 

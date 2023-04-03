@@ -7,6 +7,7 @@ so.date: 03.23.2023
 keywords: GDPR, consent, email, template
 so.topic: howto
 so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

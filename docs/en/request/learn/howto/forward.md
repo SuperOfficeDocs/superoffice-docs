@@ -1,19 +1,21 @@
 ---
 uid: help-en-request-forward
-title: Forward to external parties
+title: Forward request to external contact
 description: Learn how to forward a request in this how-to guide.
 author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
-# Forward to external parties
+# Forward request to external contact
 
 As a request handler, you are not always able to answer a request, even with the help of your colleagues. Sometimes, you may need to ask for help from others, for example, by getting advice from a sub-supplier, a partner, or a business specialist.
 
-You can forward a complex or problematic request to an external contact in an email. After the person on the other end responds, their email will automatically be saved in the request in SuperOffice. Of course, the customer will not receive any of this email communication. When you have the solution for your customer, you can answer the customer by replying inside the request.
+You can forward a complex or problematic request to an external contact in an email. After the person on the other end responds, their email will automatically be saved in the request in SuperOffice. Of course, the customer will not receive any of this email communication. When you have the solution for your customer, you can answer the customer by replying in the request.
 
 ## Forward a message
 
@@ -21,7 +23,7 @@ You can forward a complex or problematic request to an external contact in an em
 
 1. Click the **Messages** tab.
 
-1. Click ![icon][img1] on the message you want to forward, and select **Forward**. A new message opens in edit mode.
+1. Click on the ![icon][img4] **Forward** button or click on ![icon][img1] **Task menu** on the message you want to forward, and select **Forward**. A new message opens in edit mode.
 
     ![Forward a request to an external contact -screenshot][img3]
 
@@ -35,7 +37,7 @@ You can forward a complex or problematic request to an external contact in an em
 
 ## Forward multiple requests
 
-In the request lists, you can forward multiple requests at a time.
+In a request list, you can forward multiple requests at a time.
 
 1. Select the requests you want to forward in the request list.
 
@@ -59,3 +61,4 @@ In the request lists, you can forward multiple requests at a time.
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/service/msg-attachment.png
 [img3]: media/forward-a-request.png
+[img4]: ../../../../../common/icons/forward-icon.png

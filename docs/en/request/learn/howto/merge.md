@@ -2,9 +2,11 @@
 uid: help-en-request-merge
 title: Merge requests
 description: Merge requests
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
@@ -13,7 +15,7 @@ language: en
 You can merge two or more requests. For example, if multiple contacts in the same company have reported the same technical issue (via phone, web forms and email), you can merge these requests into one request to process. Contacts and messages from all merged requests will be kept.
 
 > [!NOTE]
-> You can also search for and select requests to merge from the search results screen. Then click the ![icon][img1] **Task** button in the lower left corner and select **Merge requests**.
+> You can also search for and select requests to merge from the search results screen or lists. Then click the ![icon][img1] **Task** button in the lower left corner and select **Merge requests**.
 
 ## Steps
 
@@ -36,9 +38,11 @@ The request IDs that were overwritten will no longer be available in favourites 
 * [Reply to customer][3]
 * [Ask another request handler for help][4]
 * [Forward messages to external parties][5]
+* [Edit message][2]
 
 <!-- Referenced links -->
 [1]: ../index.md#open
+[2]: edit-message.md
 [3]: reply.md
 [4]: transfer.md
 [5]: forward.md

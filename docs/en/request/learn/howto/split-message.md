@@ -6,6 +6,8 @@ author: HanneGunnarsson
 so.date: 03.16.2023
 keywords: request, message
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM Service
 language: en
 ---
 
@@ -15,7 +17,7 @@ If a message contains two issues that should be handled separately, you can spli
 
 1. [Open the request][1].
 
-1. In the **Messages** tab, click the ![icon][img1] menu button next to the message you want to split.
+1. In the **Messages** tab, click the ![icon][img1] **Task** button next to the message you want to split.
 
 1. In the **Split message** screen in the **Title** field, enter a descriptive name for the new request.
 
@@ -46,10 +48,12 @@ If a message contains two issues that should be handled separately, you can spli
 ## Related content
 
 * [Split a requests][2]
+* [Merge requests][3]
 
 <!-- Referenced links -->
 [1]: ../index.md#open
 [2]: split-request.md
+[3]: merge.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

@@ -1,22 +1,23 @@
 ---
 uid: help-en-request-category-create
-title: Create category
-description: Create category
-author: HanneGunnarsson
-so.date: 06.29.2022
+title: Create request category
+description: Create request category
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request, category
 so.topic: howto
 so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Create category
+# Create request category
 
-1. In Settings and maintenance, go to the **Categories** screen by clicking the **Requests** button in the navigator and selecting the **Categories** tab.
+1. In Settings and maintenance, click the **Requests** button in the navigator and select the **Categories** tab.
 
 1. Click the **Add** button.
 
-1. Enter a descriptive name for the category in the filed **Category name** above the tabs.
+1. Enter a descriptive name for the category in the field **Category name** above the tabs.
 
 1. In the **Properties** tab, enter the following information:
 
