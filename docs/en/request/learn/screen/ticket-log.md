@@ -7,7 +7,7 @@ so.date: 06.29.2022
 keywords: request
 so.topic: concept
 so.user: user
-so.user.tooltip: SuperOffice CRM Service
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 

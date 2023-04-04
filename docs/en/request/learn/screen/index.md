@@ -2,12 +2,12 @@
 uid: help-en-request-screen
 title: Request screen
 description: Request screen
-author: HanneGunnarsson
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request
 so.topic: reference
 so.user: user
-so.user.tooltip: SuperOffice CRM Service
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
@@ -22,9 +22,11 @@ The Request screen has the following sections:
 * The **Details** tab contains an overview of the data registered for the request.
 * The **Change log** tab contains the history of this request. The request log shows everything that has happened to this request since it was first registered.
 
-## Task buttons for requests
+## Properties and tasks for requests
 
-The toolbar contains the following options:
+### Request properties sidebar
+
+The request properties sidebar contains the following options:
 
 * **Status**: Shows the status of the request. You can change the status here.
   * **Open**: The request is in progress.
@@ -43,19 +45,16 @@ The toolbar contains the following options:
 
 * **Tags**: In the **Tags** list box, [select relevant tags][4] for this request.
 
-* **Task** ![icon][img1]: Click this button to access the following options:
+### Task options
 
-  * **Edit**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to [ask a colleague for advice][1].
+![icon][img1] **Task** button: Click this button to access the following options:
 
-  * **Accept**: Click here to [take over the request][5]. You will then be the request's new owner.
-
-  * **Split**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can [split the request][6] into two using this button.
-
-  * **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company report the same technical issue (via phone, web forms and email), you can [merge these requests][7] into one request that will be processed.
-
-  * **Print**: Click here to print the request.
-
-  * **Delete**: Click here to delete the request.
+* **Edit**: Click here to edit the properties for this request. For example, you can assign the request to another request handler if you need to [ask a colleague for advice][1].
+* **Accept**: Click here to [take over the request][5]. You will then be the request's new owner.
+* **Split**: If a single request contains several questions, for example, if the customer first asks a technical question and then uses the opportunity to raise an invoicing query, you can [split the request][6] into two using this button.
+* **Merge**: Click here to merge this request with one or more other requests. For example, if multiple contacts in the same company report the same technical issue (via phone, web forms and email), you can [merge these requests][7] into one request that will be processed.
+* **Print**: Click here to print the request.
+* **Delete**: Click here to delete the request.
 
 ## Messages tab
 
@@ -70,7 +69,7 @@ You can change how many messages are displayed, in ![icon][img3] **Personal sett
 
 ### Message tasks
 
-Click ![icon][img1] on a message to access additional options for the message:
+Click the ![icon][img1] **Task** button on a message to access additional options for the message:
 
 * **Change**: Click here to [edit][8] or delete the message.
 * **Forward**: Click here to [forward the message][9].

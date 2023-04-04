@@ -6,7 +6,7 @@ author: HanneGunnarsson
 keywords: request
 so.topic: howto
 so.user: user
-so.user.tooltip: SuperOffice CRM Service
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
@@ -16,7 +16,7 @@ It is possible to edit the properties of a message in a request, but only admini
 
 1. [Open the request][1].
 1. Click the **Messages** tab.
-1. Click ![icon][img1] and select **Change**.
+1. Click the ![icon][img1] **Task** button and select **Change**.
 1. Here you have the following options:
     * **Author**: Shows the name of the person who created the request.
     * **Time spent**: Shows the amount of time spent on this message.

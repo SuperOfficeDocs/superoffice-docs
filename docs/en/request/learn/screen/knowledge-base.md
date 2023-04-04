@@ -7,7 +7,7 @@ so.date: 03.24.2023
 keywords: request, knowledge base
 so.topic: help
 so.user: user
-so.user.tooltip: SuperOffice CRM Service
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 

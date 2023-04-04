@@ -7,7 +7,7 @@ so.date: 03.16.2023
 keywords: request, message
 so.topic: howto
 so.user: user
-so.user.tooltip: SuperOffice CRM Service
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 

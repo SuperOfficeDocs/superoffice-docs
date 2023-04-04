@@ -181,6 +181,8 @@ items:
           href: ../request/learn/status/create.md
         - name: Delete request status
           href: ../request/learn/status/delete.md
+        - name: Get next request in queue
+          href: ../request/learn/next-in-queue.md
       - name: Email
         href: ../email/service/learn/toc.yml
         topicHref: ../email/service/learn/index.md

@@ -6,6 +6,8 @@ author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: dashboard, request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 

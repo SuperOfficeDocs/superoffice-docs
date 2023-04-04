@@ -7,8 +7,6 @@ items:
     href: edit-message.md
   - name: Automatic assignment
     href: assign.md
-  - name: Get next request in queue
-    href: ../next-in-queue.md
   - name: Take responsibility for request
     href: accept.md
   - name: Ask another request handler for help
