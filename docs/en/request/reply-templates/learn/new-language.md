@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 03.16.2023
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
@@ -15,7 +17,7 @@ It may be appropriate to have the same reply template in several languages, for 
 
 ## Add languages to reply template
 
-1. Select **Knowledge base** > **Reply templates**.
+1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
 
 2. Go to the folder where the reply template is located.
 
@@ -39,3 +41,4 @@ It may be appropriate to have the same reply template in several languages, for 
 [2]: ../../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/main-menu.png

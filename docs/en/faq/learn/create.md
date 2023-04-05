@@ -6,6 +6,8 @@ author: Bergfrid Dias
 so.date: 03.14.2023
 keywords: FAQ
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
@@ -32,24 +34,24 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
 1. [Open a request][1].
 
-2. Click the ![icon][img1] **Task** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
+1. Click the ![icon][img1] **Task** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
 
-3. Edit the request name in the **Name** field if necessary.
+1. Edit the request name in the **Name** field if necessary.
 
-4. In the **Position** field, select a number for the entry's position in the sort order of the folder it belongs in. 1 means the top of the list.
+1. In the **Position** field, select a number for the entry's position in the sort order of the folder it belongs in. 1 means the top of the list.
 
-5. In the **Folder** field, select which folder you want to place the entry in (if you have a [folder structure for FAQ entries][2]).
+1. In the **Folder** field, select which folder you want to place the entry in (if you have a [folder structure for FAQ entries][2]).
 
-6. In the **Access** field, select who is to have access to the FAQ entry in question:
+1. In the **Access** field, select who is to have access to the FAQ entry in question:
 
     * **Private**: Only you. This can be relevant if you are creating new FAQ entries or updating outdated FAQ entries.
     * **Accessible to internal users**: Only internal users (and not customers using SuperOffice Customer Centre).
     * **Accessible to registered customers**: Registered customers who have login access to SuperOffice Customer Centre.
     * **Accessible to everyone**: Everyone (no login required to read the FAQ).
 
-7. In the **Keywords** field, you can enter keywords (use a space or comma as a separator) for the entry. Make sure you only enter keywords that are relevant to the entry. Keywords make the entry easier to find when searching. In addition, keywords are used to automatically suggest FAQ entries that match a request from a customer.
+1. In the **Keywords** field, you can enter keywords (use a space or comma as a separator) for the entry. Make sure you only enter keywords that are relevant to the entry. Keywords make the entry easier to find when searching. In addition, keywords are used to automatically suggest FAQ entries that match a request from a customer.
 
-8. As an FAQ administrator, you can choose from the following options in the **Workflow** field:
+1. As an FAQ administrator, you can choose from the following options in the **Workflow** field:
 
     * **Unpublished**: Choose this option if you do not want to publish the FAQ entry at the moment.
     * **Published**: Choose this option to [publish the FAQ entry immediately][3].
@@ -58,36 +60,36 @@ If you reply to an enquiry and think the same question may arise again, it is a 
     > [!NOTE]
     > The list also contains any custom workflow stages created in the system.
 
-9. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry is expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
+1. If you select a date in the **Valid to** field, the entry's status is changed to **Expired** on this date. After that it will not be available to anyone except the FAQ administrators. They will be warned that the entry is expired. This may be relevant in connection with marketing campaigns. If you enter no date here, the FAQ entry will remain available permanently.
 
-10. In the **Attachment** field, you can add one or more documents as attachments to the request:
+1. In the **Attachment** field, you can add one or more documents as attachments to the request:
 
     1. Click **Choose file** next to **Attachment**.
     2. In the dialog, browse to the document you require.
     3. Click ![icon][img1] to add the attachment.
     4. Repeat this procedure to add more attachments.
 
-11. In the **Link** field, you can add one or more addresses of relevant websites:
+1. In the **Link** field, you can add one or more addresses of relevant websites:
 
     1. In the field to the left, enter the name to be displayed for the link.
     2. In the field on the right, enter the actual web address after `http://`
     3. Click ![icon][img1] **Add** to add the link.
     4. Repeat this procedure to add more links.
 
-12. Go to the **Question** tab.
+1. Go to the **Question** tab.
 
-13. Enter the question that you want the FAQ entry to contain. By default, the first message in the request is pasted into the **Question** tab.
+1. Enter the question that you want the FAQ entry to contain. By default, the first message in the request is pasted into the **Question** tab.
 
     > [!TIP]
     > Click ![icon][img2] and select a language to spell check the message in that language.
 
-14. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
+1. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
 
-15. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it.
+1. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it.
 
 ## Create new FAQ
 
-1. Select **Knowledge base** > **FAQ**.
+1. Go to ![icon][img4] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
 
 1. Go to the folder you want to put the FAQ entry in. If it does not yet exist, you can [create a new folder][2].
 
@@ -102,14 +104,17 @@ Because the option to create FAQ entries this way is only available to administr
 ## What would you like to do now?
 
 * [Edit FAQ entries][4]
+* [Add FAQ in a message][5]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md#open
 [2]: manage-folders.md
 [3]: publish.md
 [4]: edit.md
+[5]: add-to-request.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/task.png
 [img2]: ../../../media/icons/service/spell-check.png
 [img3]: media/create-publish-faq.png
+[img4]: ../../../../media/icons/main-menu.png

@@ -6,13 +6,20 @@ author: Bergfrid Dias
 so.date: 03.16.2023
 keywords: request, reply
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
 # Delete reply template
 
-1. Select **Knowledge base** > **Reply templates**.
-2. Go to the folder where the reply template is located.
-3. Click the reply template. This takes you to the **View reply templates** screen.
-4. Click the **Edit reply template** button. This takes you to the **Reply template properties** screen.
-5. Click the **Delete** button at the bottom of the screen. The reply template is deleted immediately.
+1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to the folder where the reply template is located.
+1. Click the reply template. This takes you to the **View reply templates** screen.
+1. Click the **Edit reply template** button. This takes you to the **Reply template properties** screen.
+1. Click the **Delete** button at the bottom of the screen. The reply template is deleted immediately.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../media/icons/main-menu.png

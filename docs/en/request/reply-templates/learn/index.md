@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 03.16.2023
 keywords: request
 so.topic: concept
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
@@ -21,9 +23,9 @@ A reply template can for instance be a specific layout to implement on replies, 
 
 In the Reply templates screen, you will find the reply templates available to you. The reply templates are in a [folder structure][10] that you can create yourself.
 
-1. Select **Knowledge base** > **Reply templates**.
-2. Go to the required folder.
-3. Click the reply template you are interested in. The **View reply templates** screen appears, containing information about access level, language and owner. In the tabs below, you can see the reply template text itself and any attachments.
+1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **Reply templates**.
+1. Go to the required folder.
+1. Click the reply template you are interested in. The **View reply templates** screen appears, containing information about access level, language and owner. In the tabs below, you can see the reply template text itself and any attachments.
 
 ## What would you like to do now?
 
@@ -47,3 +49,4 @@ In the Reply templates screen, you will find the reply templates available to yo
 [11]: ../../learn/howto/reply.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/icons/main-menu.png

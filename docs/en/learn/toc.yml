@@ -58,12 +58,15 @@ items:
     items:
     - name: Overview
       href: ../request/learn/screen/knowledge-base.md
-    - name: FAQ
-      href: ../faq/learn/toc.yml
     - name: Reply templates
       href: ../request/reply-templates/learn/toc.yml
+      topicHref: ../request/reply-templates/learn/index.md
+    - name: FAQ
+      href: ../faq/learn/toc.yml
+      topicHref: ../faq/learn/index.md
     - name: Email addresses
       href: ../email/service/learn/kb-aliases/toc.yml
+      topicHref: ../email/service/learn/kb-aliases/index.md
     - name: External documents
       href: ../request/learn/external-document.md
 
@@ -191,14 +194,18 @@ items:
 
     - name: Customer center
       href: ../customer-center/learn/toc.yml
+      topicHref: ../customer-center/learn/index.md
 
     - name: System design
       href: ../ui/blogic/learn/toc.yml
+      topicHref: ../ui/blogic/learn/index.md
 
     - name: SAINT (Sales intelligence)
       href: ../sale/saint/learn/admin/toc.yml
+      topicHref: ../sale/saint/learn/admin/index.md
 
     - name: Onsite
+      topicHref: ../automation/crmscript/learn/screen/data-exchange.md
       items:
       - name: Data Exchange
         href: ../automation/crmscript/learn/screen/data-exchange.md

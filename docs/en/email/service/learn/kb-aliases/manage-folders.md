@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 03.16.2023
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 

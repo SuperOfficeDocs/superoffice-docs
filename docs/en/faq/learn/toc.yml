@@ -15,8 +15,6 @@ items:
     href: search-for.md
   - name: Administrate folders of FAQ entries
     href: manage-folders.md
-  - name: Add FAQ entries to messages
-    href: add-to-request.md
   - name: Publish FAQ entries
     href: publish.md
   - name: Workflow stages
