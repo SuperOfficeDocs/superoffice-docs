@@ -3,7 +3,7 @@ uid: help-en-system-templates
 title: System templates
 description: System templates
 author: Hanne Gunnarsson
-so.date: 06.29.2022
+so.date: 03.29.2023
 keywords: Settings and maintenance
 so.topic: reference
 so.user: admin

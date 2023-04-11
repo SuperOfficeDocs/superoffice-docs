@@ -65,4 +65,4 @@ As an example, the following steps show how to add a field in the **Find request
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/settings-small.png
+[img2]: ../../../../../media/icons/main-menu-small.png

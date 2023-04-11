@@ -6,6 +6,7 @@ items:
 - name: View chat statistics
   href: statistics.md
 - name: Work with chat
+  topicHref: respond.md
   items:
   - name: Respond to a chat
     href: respond.md

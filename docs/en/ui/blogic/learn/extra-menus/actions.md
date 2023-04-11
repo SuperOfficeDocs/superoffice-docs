@@ -31,4 +31,4 @@ To add a macro to the **Task** button in the Company screen, Contact screen, Req
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-add.png
 [img2]: ../../../../../../common/icons/task.png
-[img3]: ../../../../../media/icons/settings-small.png
+[img3]: ../../../../../media/icons/main-menu-small.png

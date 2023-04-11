@@ -55,6 +55,6 @@ You can create extra tables in SuperOffice to register different types of data. 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../media/icons/settings-small.png
+[img2]: ../../../../media/icons/main-menu-small.png
 [img3]: ../../../../../common/icons/nav-cs.png
 [img4]: ../../../../media/icons/service/new-table.png

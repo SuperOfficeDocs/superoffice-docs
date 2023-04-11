@@ -73,7 +73,11 @@ If you receive a message in a language you cannot read, you can click the **Tran
 
 ### Sentiment analysis
 
-(is the contact happy or angry?)
+Is the contact happy or angry?
+
+* Negative ![icon][img2]
+* Neutral ![icon][img3]
+* Positive ![icon][img4]
 
 If this function is active, incoming email requests are analysed to determine the "mood" of the contact. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
 
@@ -83,7 +87,7 @@ Save time by letting the system categorise requests for you. If this function is
 
 ## Related topics
 
-* [Why batch management should be your favorite feature][17] -blog
+* [Why bulk update should be your favorite feature][17] -blog
 * [Edit e-mail signature][15]
 * [Create request][14]
 * [Find][13]
@@ -115,3 +119,6 @@ Save time by letting the system categorise requests for you. If this function is
 
 <!-- Referenced images -->
 [img1]: media/service-dashboard.png
+[img2]: ../../../../../common/icons/sentiment-negative.png
+[img3]: ../../../../../common/icons/sentiment-neutral.png
+[img4]: ../../../../../common/icons/sentiment-positive.png

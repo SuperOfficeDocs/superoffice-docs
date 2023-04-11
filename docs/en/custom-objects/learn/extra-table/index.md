@@ -55,4 +55,4 @@ The **Tables** screen displays the tables that are configured in the system. Usi
 [1]: ../../../ui/blogic/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
+[img1]: ../../../../media/icons/main-menu-small.png

@@ -59,6 +59,6 @@ In a request list, you can forward multiple requests at a time.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/service/msg-attachment.png
+[img2]: ../../../../../common/icons/attachments-theme.png
 [img3]: media/forward-a-request.png
 [img4]: ../../../../../common/icons/forward-icon.png

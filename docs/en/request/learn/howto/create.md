@@ -137,8 +137,8 @@ This tab contains any extra fields defined for requests. These will vary from co
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/service/msg-toolbar.png
-[img2]: ../../../../media/icons/service/msg-attachment.png
-[img3]: ../../../../../common/icons/dropdown-arrow.png
+[img2]: ../../../../../common/icons/attachments-theme.png
+[img3]: ../../../../../common/icons/copy-paste-icon.png
 [img4]: ../../../../../common/icons/stop.png
 [img5]: ../../../../../common/icons/play.png
 [img6]: ../../../../../common/icons/timespan.png

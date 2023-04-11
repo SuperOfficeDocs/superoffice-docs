@@ -58,9 +58,9 @@ You can add a message to several requests in a single operation. For example, if
 
 1. Click the ![icon][img1] **Task** button in the lower left corner of the request list.
 
-1. Select **Reply to contacts**.
+1. Select **Reply to customers**.
 
-    * **Send copy to contact (only external requests)**: If enabled, then the message will also be sent by email to the contacts linked to the selected external requests.
+    * **Send copy to customers (only external requests)**: If enabled, then the message will also be sent by email to the contacts linked to the selected external requests.
     * **Close request**: Check this box to close all selected requests in one operation.
     * **Access level**: The access level for the message you are adding. If you select **External**, the message is visible on the selected requests in SuperOffice Customer Centre.
     * Write your message in the text area in the middle of the screen.
@@ -71,7 +71,7 @@ You can add a message to several requests in a single operation. For example, if
 ### Use selection to reply to contacts on multiple requests
 
 1. Click the ![icon][img1] **Task** button in the lower left corner of the request selection.
-1. Select **Reply to contacts** in the **Manage** section.
+1. Select **Reply to customers** in the **Manage** section.
 1. Click **Reply** when you are finished.
 
 ## What would you like to do now?
@@ -95,8 +95,8 @@ You can add a message to several requests in a single operation. For example, if
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/service/msg-attachment.png
-[img3]: ../../../../../common/icons/dropdown-arrow.png
+[img2]: ../../../../../common/icons/attachments-theme.png
+[img3]: ../../../../../common/icons/copy-paste-icon.png
 [img4]: media/reply-to-a-customer.png
 [img5]: ../../../../../common/icons/reply-icon.png
 [img6]: ../../../../../common/icons/reply-all-icon.png

@@ -26,13 +26,11 @@ If a single request contains several questions, for example, if the customer fir
 
     This opens up a dialog, where you specify information about the new request.
 
-1. In the **Title** field, enter a descriptive name for the request.
-
-1. In the **Category** field, select a category for the request.
-
 1. In the tab **Properites of the new request**, you have the different fields to fil in.
 
 1. In the **Title** field, enter a descriptive name for the request.
+
+1. In the **Category** field, select a category for the request.
 
 1. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 

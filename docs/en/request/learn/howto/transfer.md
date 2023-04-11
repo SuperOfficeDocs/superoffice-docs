@@ -17,7 +17,7 @@ As a request handler, you are not always able to answer the request on your own.
 
 1. [Open the request][1].
 
-1. Select the person you want help from in the **Owner** list box from the properties panel. This means that you are transferring responsibility for the request to that person.
+1. Select the person you want help from in the **Owner** list box from the Request properties sidebar. This means that you are transferring responsibility for the request to that person.
 
     ![Assign a request to another Service users -screenshot][img1]
 
@@ -32,7 +32,7 @@ As a request handler, you are not always able to answer the request on your own.
 
 1. Set **Access level for message** to **Internal**, so the message is not visible in the Customer Centre.
 
-1. Click **Save**. The request is transferred to the other person.
+1. Click **Save** and the new owner will see your internal comment.
 
 > [!TIP]
 > Before transferring responsibility for the request to someone else, it is a good idea to [add it to your favorites list][2], to remind yourself to follow it up. It will no longer be displayed under **Own open requests** when someone else is defined in the **Owner** field.

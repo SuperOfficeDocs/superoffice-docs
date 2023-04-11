@@ -50,4 +50,4 @@ See also [Menu properties][1].
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
-[img2]: ../../../../../media/icons/settings-small.png
+[img2]: ../../../../../media/icons/main-menu-small.png

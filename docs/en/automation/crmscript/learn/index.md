@@ -45,4 +45,4 @@ Triggers are scripts that are executed for specific events in the system, such a
 [7]: ../reference/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
+[img1]: ../../../../media/icons/main-menu-small.png
