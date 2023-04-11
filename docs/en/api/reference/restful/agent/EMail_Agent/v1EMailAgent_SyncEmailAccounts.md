@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -65,20 +65,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 696,
-      "AssociateName": "Reilly, Upton and Nitzsche",
-      "AssociateId": 689
+      "AccountId": 871,
+      "AssociateName": "Shields Inc and Sons",
+      "AssociateId": 255
     },
     {
-      "AccountId": 696,
-      "AssociateName": "Reilly, Upton and Nitzsche",
-      "AssociateId": 689
+      "AccountId": 871,
+      "AssociateName": "Shields Inc and Sons",
+      "AssociateId": 255
     }
   ]
 }

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Quitzon-Swift",
-    "ToolTip": "Iusto omnis ullam in qui ratione.",
+    "Id": 622,
+    "Name": "Schultz-Davis",
+    "ToolTip": "Repellat exercitationem et.",
     "Deleted": true,
-    "Rank": 155,
-    "Type": "culpa",
-    "ColorBlock": 288,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "2006-03-10T12:15:28.227618+01:00",
+    "Rank": 654,
+    "Type": "cum",
+    "ColorBlock": 624,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "1997-07-06T15:29:31.3414771+02:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Jakubowski Inc and Sons",
-        "ToolTip": "Quia necessitatibus mollitia.",
-        "Deleted": true,
-        "Rank": 195,
-        "Type": "libero",
-        "ColorBlock": 414,
-        "IconHint": "consequatur",
+        "Id": 884,
+        "Name": "Hauck, Schamberger and Stroman",
+        "ToolTip": "Voluptates fugit hic minima voluptates sit rerum.",
+        "Deleted": false,
+        "Rank": 964,
+        "Type": "sed",
+        "ColorBlock": 563,
+        "IconHint": "aliquam",
         "Selected": false,
-        "LastChanged": "2023-01-14T12:15:28.227618+01:00",
+        "LastChanged": "2023-02-10T15:29:31.3419798+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Mrs. Wendy Morar III"
+        "ExtraInfo": "in",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Irving Boyer"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
+    "ExtraInfo": "et",
+    "StyleHint": "occaecati",
     "Hidden": true,
-    "FullName": "Prof. Leann Louisa Lubowitz DVM"
+    "FullName": "Dusty Durgan"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Miller, Lubowitz and Douglas",
-    "ToolTip": "Odit ut exercitationem debitis aut quo laborum.",
+    "Id": 640,
+    "Name": "Swift Inc and Sons",
+    "ToolTip": "Corporis fugit.",
     "Deleted": true,
-    "Rank": 424,
-    "Type": "soluta",
-    "ColorBlock": 457,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2014-04-24T12:15:28.2286168+02:00",
+    "Rank": 887,
+    "Type": "culpa",
+    "ColorBlock": 867,
+    "IconHint": "sapiente",
+    "Selected": true,
+    "LastChanged": "2011-04-28T15:29:31.3429839+02:00",
     "ChildItems": [
       {
-        "Id": 222,
-        "Name": "Reilly-Emard",
-        "ToolTip": "Voluptate magnam.",
+        "Id": 714,
+        "Name": "Fay, Quitzon and Schmitt",
+        "ToolTip": "Ratione aut sit qui rerum nobis qui a.",
         "Deleted": true,
-        "Rank": 86,
-        "Type": "est",
-        "ColorBlock": 616,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2015-08-15T12:15:28.2296174+02:00",
+        "Rank": 735,
+        "Type": "earum",
+        "ColorBlock": 688,
+        "IconHint": "sint",
+        "Selected": false,
+        "LastChanged": "2022-06-13T15:29:31.3429839+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Ms. Aleen Jacobson",
+        "ExtraInfo": "ex",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Jedidiah Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldLength": 3
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "quis",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Rodrigo Hand PhD",
+    "FullName": "Prof. Maxwell Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldLength": 382
       }
     }
   }

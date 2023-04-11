@@ -76,8 +76,8 @@ RoleEntity found.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -86,7 +86,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,24 +96,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 229,
-  "Name": "Ratke, Stamm and Bosco",
-  "Tooltip": "sed",
+  "RoleId": 560,
+  "Name": "Stark, Trantow and Barrows",
+  "Tooltip": "atque",
   "RoleType": "Anonymous",
-  "Deleted": 249,
-  "Rank": 518,
-  "Created": "2012-01-08T12:15:27.2106318+01:00",
-  "UseCategories": 63,
+  "Deleted": 105,
+  "Rank": 776,
+  "Created": "2007-08-12T15:29:30.020159+02:00",
+  "UseCategories": 27,
   "CreatedBy": null,
-  "Updated": "1999-03-20T12:15:27.2106318+01:00",
+  "Updated": "2010-05-22T15:29:30.0206599+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   },
   "_Links": {

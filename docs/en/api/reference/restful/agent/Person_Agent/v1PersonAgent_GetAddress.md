@@ -68,8 +68,8 @@ OK
 | Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 402
+  "PersonId": 133
 }
 ```
 
@@ -92,41 +92,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 30744.539999999997,
-  "Wgs84Longitude": 13789.6,
+  "Wgs84Latitude": 17870.068,
+  "Wgs84Longitude": 26350.672,
   "LocalizedAddress": [
     [
       {
-        "Name": "Quitzon-Schmidt",
-        "Value": "blanditiis",
-        "Tooltip": "rerum",
-        "Label": "voluptate",
-        "ValueLength": 373,
-        "AddressType": "esse",
+        "Name": "Rodriguez, Rowe and Lemke",
+        "Value": "enim",
+        "Tooltip": "a",
+        "Label": "consectetur",
+        "ValueLength": 93,
+        "AddressType": "officia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 897
+            "FieldType": "System.String",
+            "FieldLength": 258
           }
         }
       }
     ],
     [
       {
-        "Name": "Nader, Aufderhar and Von",
-        "Value": "reiciendis",
-        "Tooltip": "repudiandae",
-        "Label": "quo",
-        "ValueLength": 937,
-        "AddressType": "laborum",
+        "Name": "Reichel Inc and Sons",
+        "Value": "dolorem",
+        "Tooltip": "architecto",
+        "Label": "corporis",
+        "ValueLength": 307,
+        "AddressType": "laboriosam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldType": "System.String",
+            "FieldLength": 407
           }
         }
       }
@@ -134,13 +134,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "a",
+  "Formatted": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 542
     }
   }
 }

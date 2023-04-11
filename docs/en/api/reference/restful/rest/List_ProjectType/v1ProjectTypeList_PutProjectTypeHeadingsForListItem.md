@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 952,
-    "Name": "Heathcote LLC",
-    "ToolTip": "Et consequatur vitae ea sed sunt eligendi.",
-    "Deleted": true,
-    "Rank": 893,
-    "Type": "doloribus",
-    "ColorBlock": 447,
-    "IconHint": "possimus",
+    "Id": 427,
+    "Name": "Brown Group",
+    "ToolTip": "Recusandae omnis saepe.",
+    "Deleted": false,
+    "Rank": 772,
+    "Type": "nihil",
+    "ColorBlock": 323,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "1999-11-05T12:15:28.3536156+01:00",
+    "LastChanged": "2003-08-05T15:29:31.4689764+02:00",
     "ChildItems": [
       {
-        "Id": 300,
-        "Name": "Klocko-Doyle",
-        "ToolTip": "Earum similique est dolorem accusamus accusamus et.",
+        "Id": 183,
+        "Name": "Brakus, Gusikowski and Bogisich",
+        "ToolTip": "Enim repudiandae quibusdam fuga adipisci enim.",
         "Deleted": false,
-        "Rank": 889,
-        "Type": "et",
-        "ColorBlock": 819,
-        "IconHint": "hic",
+        "Rank": 675,
+        "Type": "quod",
+        "ColorBlock": 558,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2022-04-03T12:15:28.3536156+02:00",
+        "LastChanged": "2018-11-14T15:29:31.4689764+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "qui",
+        "ExtraInfo": "impedit",
+        "StyleHint": "placeat",
         "Hidden": true,
-        "FullName": "Ms. Courtney Wendy Mante"
+        "FullName": "Kira Sawayn Sr."
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "quia",
+    "ExtraInfo": "iusto",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Kendra Zita Trantow III"
+    "FullName": "Miss Carmel Wilderman"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Schmitt, Rosenbaum and Miller",
-    "ToolTip": "Ut ut vel.",
-    "Deleted": true,
-    "Rank": 291,
-    "Type": "dolores",
-    "ColorBlock": 762,
-    "IconHint": "minus",
-    "Selected": false,
-    "LastChanged": "2022-10-07T12:15:28.3566156+02:00",
+    "Id": 230,
+    "Name": "Sipes, Bayer and Lakin",
+    "ToolTip": "Dolores hic harum qui distinctio iure sunt eius.",
+    "Deleted": false,
+    "Rank": 164,
+    "Type": "odit",
+    "ColorBlock": 500,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2019-02-19T15:29:31.4704752+01:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Daniel LLC",
-        "ToolTip": "Et quis quas nisi.",
+        "Id": 866,
+        "Name": "Mayert Group",
+        "ToolTip": "Quisquam cupiditate officia et libero sint necessitatibus temporibus.",
         "Deleted": false,
-        "Rank": 705,
-        "Type": "accusantium",
-        "ColorBlock": 73,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2013-03-15T12:15:28.3566156+01:00",
+        "Rank": 295,
+        "Type": "fugiat",
+        "ColorBlock": 103,
+        "IconHint": "odio",
+        "Selected": true,
+        "LastChanged": "2015-05-13T15:29:31.4704752+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "modi",
+        "ExtraInfo": "enim",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Mia Bahringer Sr.",
+        "FullName": "Darrin Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 902
+            "FieldLength": 90
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "fuga",
-    "Hidden": true,
-    "FullName": "Miss Jamir Elenor Luettgen",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "nam",
+    "Hidden": false,
+    "FullName": "Okey Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldType": "System.Int32",
+        "FieldLength": 726
       }
     }
   }

@@ -70,36 +70,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
-      "IsActive": false,
-      "Key": "quam",
+      "IsActive": true,
+      "Key": "autem",
       "ValueType": "dicta",
       "Mandatory": false,
-      "EncodedDisplayName": "Buckridge Group",
-      "EncodedDisplayDescription": "Multi-lateral encompassing throughput",
-      "IconHint": "unde",
+      "EncodedDisplayName": "Mann Inc and Sons",
+      "EncodedDisplayDescription": "Triple-buffered secondary model",
+      "IconHint": "est",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "explicabo",
-      "EncodedDataCaptionDescription": "Cross-group 4th generation knowledge user",
-      "CurrentOperationType": "qui",
+      "EncodedDataCaption": "enim",
+      "EncodedDataCaptionDescription": "Up-sized logistical local area network",
+      "CurrentOperationType": "libero",
       "Values": [
-        "molestiae",
-        "aliquam"
+        "dicta",
+        "aut"
       ],
       "DisplayValues": [
-        "dolores",
-        "dolores"
+        "non",
+        "distinctio"
       ],
       "OperationInfos": [
         {},
@@ -107,9 +107,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Wolf-Abshire",
-  "Context": "quo",
-  "Ids": "tempore"
+  "TableName": "Bruen-Quitzon",
+  "Context": "distinctio",
+  "Ids": "delectus"
 }
 ```
 
@@ -119,5 +119,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-121
+556
 ```

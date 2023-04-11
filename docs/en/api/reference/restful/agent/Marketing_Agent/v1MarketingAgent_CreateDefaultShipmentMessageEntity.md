@@ -67,8 +67,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 669,
-  "PlainMessage": "maxime",
-  "HtmlMessage": "asperiores",
-  "SmsMessage": "magni",
-  "Description": "Customer-focused bi-directional initiative",
-  "Subject": "quia",
-  "FolderId": 206,
-  "HeaderField": "expedita",
-  "Design": "aliquam",
+  "ShipmentMessageId": 201,
+  "PlainMessage": "excepturi",
+  "HtmlMessage": "dolor",
+  "SmsMessage": "dolorem",
+  "Description": "Distributed 6th generation moratorium",
+  "Subject": "ut",
+  "FolderId": 392,
+  "HeaderField": "ipsam",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Synergistic foreground info-mediaries",
+  "InlineImages": false,
+  "LongDescription": "Managed 4th generation monitoring",
   "AccessKey": "et",
-  "DocumentMessage": 515,
-  "Registered": "1999-01-31T12:15:19.3687519+01:00",
-  "RegisteredAssociateId": 507,
-  "Updated": "2008-05-28T12:15:19.3687519+02:00",
-  "UpdatedAssociateId": 705,
-  "UpdatedCount": 144,
+  "DocumentMessage": 501,
+  "Registered": "2021-02-07T15:29:22.12827+01:00",
+  "RegisteredAssociateId": 513,
+  "Updated": "2012-03-09T15:29:22.12827+01:00",
+  "UpdatedAssociateId": 748,
+  "UpdatedCount": 827,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldLength": 693
     }
   }
 }

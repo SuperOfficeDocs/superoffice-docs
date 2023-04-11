@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -69,31 +69,31 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Torphy LLC",
+  "ProviderName": "Schulist-Spinka",
   "Restrictions": [
     {
-      "Name": "Marvin-Connelly",
-      "Operator": "natus",
+      "Name": "Wolff-Leffler",
+      "Operator": "qui",
       "Values": [
-        "neque",
-        "qui"
+        "facilis",
+        "dolores"
       ],
       "DisplayValues": [
-        "sed",
-        "unde"
+        "et",
+        "expedita"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 778,
+      "InterParenthesis": 711,
       "InterOperator": "And",
-      "UniqueHash": 808
+      "UniqueHash": 895
     }
   ],
-  "AssociateId": 741
+  "AssociateId": 549
 }
 ```
 

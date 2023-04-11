@@ -92,8 +92,8 @@ RoleEntity updated.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -102,20 +102,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 201,
-  "Name": "Hayes-Macejkovic",
-  "Tooltip": "est",
+  "RoleId": 376,
+  "Name": "Feest, Kuhlman and Hoeger",
+  "Tooltip": "quis",
   "RoleType": "Anonymous",
-  "Deleted": 326,
-  "Rank": 334,
-  "Created": "2002-02-18T12:15:27.2116324+01:00",
-  "UseCategories": 951,
+  "Deleted": 944,
+  "Rank": 773,
+  "Created": "1997-04-16T15:29:30.021159+02:00",
+  "UseCategories": 394,
   "CreatedBy": null,
-  "Updated": "1997-02-15T12:15:27.2116324+01:00",
+  "Updated": "1999-03-05T15:29:30.0216599+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,29 +128,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 515,
-  "Name": "Flatley, Bednar and Ryan",
-  "Tooltip": "sequi",
+  "RoleId": 294,
+  "Name": "Halvorson LLC",
+  "Tooltip": "inventore",
   "RoleType": "Anonymous",
-  "Deleted": 591,
-  "Rank": 637,
-  "Created": "2006-02-15T12:15:27.2146323+01:00",
-  "UseCategories": 374,
+  "Deleted": 169,
+  "Rank": 301,
+  "Created": "1996-07-30T15:29:30.0246599+02:00",
+  "UseCategories": 389,
   "CreatedBy": null,
-  "Updated": "2013-08-15T12:15:27.2146323+02:00",
+  "Updated": "2003-10-05T15:29:30.0246599+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

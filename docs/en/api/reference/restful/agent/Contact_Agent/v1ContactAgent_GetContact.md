@@ -25,7 +25,7 @@ Gets a Contact object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContact?contactId=50
+POST /api/v1/Agents/Contact/GetContact?contactId=60
 POST /api/v1/Agents/Contact/GetContact?$select=name,department,category/id
 ```
 
@@ -80,8 +80,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | Number1 | string | Alphanumeric user field |
 | Number2 | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,36 +99,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 279,
-  "Name": "Jacobi Group",
-  "OrgNr": "921361",
+  "ContactId": 342,
+  "Name": "Streich-Wuckert",
+  "OrgNr": "1353457",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "atque",
-  "DirectPhone": "1-741-074-5987",
-  "AssociateId": 303,
-  "CountryId": 316,
-  "EmailAddress": "alverta@thiel.uk",
-  "Kananame": "sed",
-  "EmailAddressName": "willie.kovacek@hauckferry.uk",
+  "City": "blanditiis",
+  "DirectPhone": "(256)507-6840",
+  "AssociateId": 542,
+  "CountryId": 197,
+  "EmailAddress": "letitia.funk@raynor.com",
+  "Kananame": "nulla",
+  "EmailAddressName": "ila.cassin@wolff.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Junius Haley",
+  "AssociateFullName": "Sonya Gislason PhD",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "reiciendis",
-  "FullName": "Lisandro Mante",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 474,
-  "Number1": "1589767",
-  "Number2": "1525633",
+  "FormattedAddress": "ullam",
+  "FullName": "Chet Dach I",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 492,
+  "Number1": "1543405",
+  "Number2": "1810196",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 2
     }
   }
 }

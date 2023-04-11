@@ -54,8 +54,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 908,
-  "AssociateId": 357,
-  "Block": "dolorem",
-  "Registered": "1998-11-29T12:15:19.3677454+01:00",
-  "RegisteredAssociateId": 848,
-  "Updated": "2004-10-12T12:15:19.3677454+02:00",
-  "UpdatedAssociateId": 328,
-  "UpdatedCount": 755,
+  "ShipmentMessageBlockId": 684,
+  "AssociateId": 331,
+  "Block": "enim",
+  "Registered": "2018-04-06T15:29:22.12727+02:00",
+  "RegisteredAssociateId": 263,
+  "Updated": "2011-12-20T15:29:22.12727+01:00",
+  "UpdatedAssociateId": 737,
+  "UpdatedCount": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 382
     }
   }
 }

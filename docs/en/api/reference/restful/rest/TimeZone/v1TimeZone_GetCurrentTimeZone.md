@@ -42,17 +42,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TZLocationID | int32 |  |
-| Name | string |  |
-| TZLocationCode | string |  |
-| TZLocationCities | string |  |
-| IsoNumber | int32 |  |
-| TimeZoneSTDRules | object |  |
-| TimeZoneDSTRules | object |  |
+| TZLocationID | int32 | Timezone location ID - primary key. |
+| Name | string | Name associated with the location: Country name + region name, Norway, United States - Alaska |
+| TZLocationCode | string | Code associated with location: UTC, AR-NQ, AU-QLD, PF2A Not the an ISO country code. Unique. |
+| TZLocationCities | string | Cities associated with location: Oslo, London, Rio de Janeiro |
+| IsoNumber | int32 | Country ISO code associated with location: 578 |
+| TimeZoneSTDRules | object | Dictionary of standard rules |
+| TimeZoneDSTRules | object | Dictionary of Daylight saving time rules |
 
 ## Sample request
 
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 138,
-  "Name": "Daniel, Kautzer and O'Reilly",
-  "TZLocationCode": "sed",
-  "TZLocationCities": "voluptas",
-  "IsoNumber": 47,
+  "TZLocationID": 227,
+  "Name": "Donnelly-Wilderman",
+  "TZLocationCode": "rerum",
+  "TZLocationCities": "eligendi",
+  "IsoNumber": 498,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 670,
-      "StartMonth": 92,
-      "EndDay": 268,
-      "EndMonth": 3,
-      "TZOffset": 422,
-      "StartRulePattern": "nemo",
-      "EndRulePattern": "quidem"
+      "StartDay": 109,
+      "StartMonth": 914,
+      "EndDay": 421,
+      "EndMonth": 155,
+      "TZOffset": 745,
+      "StartRulePattern": "voluptate",
+      "EndRulePattern": "eaque"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 142,
-      "StartMonth": 858,
-      "EndDay": 316,
-      "EndMonth": 580,
-      "TZOffset": 169,
-      "StartRulePattern": "sit",
-      "EndRulePattern": "illum"
+      "StartDay": 596,
+      "StartMonth": 231,
+      "EndDay": 533,
+      "EndMonth": 597,
+      "TZOffset": 931,
+      "StartRulePattern": "alias",
+      "EndRulePattern": "impedit"
     }
   }
 }

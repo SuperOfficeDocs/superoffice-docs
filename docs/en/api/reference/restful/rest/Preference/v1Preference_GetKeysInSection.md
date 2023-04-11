@@ -62,8 +62,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,50 +82,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Wisoky Group",
-    "ToolTip": "Accusantium exercitationem.",
+    "Id": 159,
+    "Name": "D'Amore-Goyette",
+    "ToolTip": "Libero error consequuntur ratione nisi mollitia doloribus.",
     "Deleted": false,
-    "Rank": 362,
-    "Type": "quasi",
+    "Rank": 825,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Haag, Berge and Kuhlman",
-        "ToolTip": "Similique perspiciatis ut et nam temporibus illum.",
+        "Id": 143,
+        "Name": "Braun Inc and Sons",
+        "ToolTip": "Sed voluptas sint dolores enim et.",
         "Deleted": false,
-        "Rank": 786,
-        "Type": "dolor",
+        "Rank": 174,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 373,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "culpa",
-        "FullName": "Mr. Neva Vance Bradtke",
+        "IconHint": "commodi",
+        "ColorBlock": 362,
+        "ExtraInfo": "explicabo",
+        "StyleHint": "sed",
+        "FullName": "Prof. Connor Funk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldLength": 442
           }
         }
       }
     ],
-    "IconHint": "autem",
-    "ColorBlock": 692,
-    "ExtraInfo": "et",
-    "StyleHint": "dicta",
-    "FullName": "Ezequiel Howe Sr.",
+    "IconHint": "et",
+    "ColorBlock": 404,
+    "ExtraInfo": "quam",
+    "StyleHint": "quae",
+    "FullName": "Gage Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldType": "System.String",
+        "FieldLength": 506
       }
     }
   }

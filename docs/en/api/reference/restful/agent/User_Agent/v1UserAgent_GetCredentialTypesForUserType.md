@@ -70,8 +70,8 @@ OK
 | ValueControl | string | Type of control used to display the value. |
 | CanCreatePerson | bool |  |
 | IsUserNameSupported | bool |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,9 +95,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "velit",
-    "Type": "quaerat",
-    "Description": "Focused radical paradigm",
+    "DisplayType": "quaerat",
+    "Type": "vero",
+    "Description": "Optional clear-thinking moratorium",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 887
       }
     }
   }

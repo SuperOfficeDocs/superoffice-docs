@@ -25,7 +25,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=593
+POST /api/v1/Agents/Document/GetDocument?documentId=408
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -76,8 +76,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 685,
+  "DocumentId": 250,
   "Attention": "ut",
-  "Header": "dolores",
-  "Name": "Zemlak-Thiel",
-  "OurRef": "est",
-  "YourRef": "sunt",
-  "Description": "Persevering explicit hierarchy",
-  "DocumentTemplate": "voluptas",
-  "IsPublished": true,
-  "PersonId": 316,
-  "PersonFullName": "Miss Lauryn Kimberly Hansen",
-  "AssociateFullName": "Narciso Dibbert Jr.",
-  "ContactId": 284,
-  "ContactName": "Schmeler-Swift",
-  "ProjectId": 453,
-  "ProjectName": "Hegmann Inc and Sons",
-  "AssociateId": 997,
-  "Snum": 830,
-  "SaleId": 946,
-  "SaleName": "Conroy, Beier and Wolf",
+  "Header": "repudiandae",
+  "Name": "Harvey, Cormier and Rau",
+  "OurRef": "iste",
+  "YourRef": "et",
+  "Description": "Fully-configurable 5th generation hierarchy",
+  "DocumentTemplate": "et",
+  "IsPublished": false,
+  "PersonId": 125,
+  "PersonFullName": "Alfreda Abernathy",
+  "AssociateFullName": "Mitchel Hackett",
+  "ContactId": 234,
+  "ContactName": "Fritsch-Watsica",
+  "ProjectId": 489,
+  "ProjectName": "Raynor-Kreiger",
+  "AssociateId": 916,
+  "Snum": 935,
+  "SaleId": 196,
+  "SaleName": "Wisoky-Price",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldType": "System.String",
+      "FieldLength": 15
     }
   }
 }

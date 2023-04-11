@@ -76,7 +76,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -101,8 +101,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -124,63 +124,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-06-16T12:15:17.7287695+02:00",
-  "AppointmentId": 611,
-  "Description": "Assimilated bi-directional success",
-  "StartDate": "2011-08-09T12:15:17.7287695+02:00",
-  "EndDate": "2001-02-22T12:15:17.7287695+01:00",
+  "CreatedDate": "1997-04-03T15:29:20.4732937+02:00",
+  "AppointmentId": 523,
+  "Description": "Assimilated multi-state solution",
+  "StartDate": "2000-12-26T15:29:20.4732937+01:00",
+  "EndDate": "2003-08-25T15:29:20.4732937+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 173,
+  "MotherId": 255,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-05-07T12:15:17.7317696+02:00",
+  "UpdatedDate": "2000-10-28T15:29:20.4757941+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 937,
+  "ActiveLinks": 882,
   "Links": [
     {
-      "EntityName": "Zulauf, McGlynn and Upton",
-      "Id": 137,
-      "Description": "Intuitive scalable hub",
-      "ExtraInfo": "consectetur",
-      "LinkId": 863,
+      "EntityName": "Glover, Stoltenberg and Goldner",
+      "Id": 619,
+      "Description": "Ergonomic exuding migration",
+      "ExtraInfo": "et",
+      "LinkId": 356,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 635
         }
       }
     }
   ],
-  "AlarmLeadTime": "expedita",
-  "HasAlarm": true,
-  "ColorIndex": 558,
+  "AlarmLeadTime": "non",
+  "HasAlarm": false,
+  "ColorIndex": 496,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "quam",
-  "LeadTime": "voluptatibus",
-  "Location": "voluptatem",
-  "RejectCounter": 586,
+  "IsAlldayEvent": true,
+  "LagTime": "voluptatem",
+  "LeadTime": "et",
+  "Location": "alias",
+  "RejectCounter": 914,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 884,
-      "PersonId": 308,
-      "ContactId": 989,
-      "EmailId": 335,
+      "AssociateId": 600,
+      "PersonId": 473,
+      "ContactId": 395,
+      "EmailId": 327,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 884,
-      "PersonId": 308,
-      "ContactId": 989,
-      "EmailId": 335,
+      "AssociateId": 600,
+      "PersonId": 473,
+      "ContactId": 395,
+      "EmailId": 327,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -188,58 +188,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-12-29T12:15:17.7317696+01:00",
+  "ActiveDate": "1997-06-02T15:29:20.4767942+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 954,
+  "PreferredTZLocation": 976,
   "Sale": null,
-  "SuggestedAppointmentId": 279,
+  "SuggestedAppointmentId": 305,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eos",
+  "CentralserviceVideomeetId": "harum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Cassandre Dustin Rempel IV",
-    "SuperOffice:2": "1991700826"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "371935272"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "inventore"
+    "CustomFields1": "quo",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2005-01-22T12:15:17.7337695+01:00",
-  "PublishTo": "2016-02-28T12:15:17.7337695+01:00",
-  "PublishFrom": "2017-08-29T12:15:17.7337695+02:00",
+  "PublishEventDate": "2016-06-15T15:29:20.4782932+02:00",
+  "PublishTo": "2009-03-09T15:29:20.4782932+01:00",
+  "PublishFrom": "2006-05-20T15:29:20.4782932+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 570,
+      "VisibleId": 100,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 357
         }
       }
     },
     {
-      "VisibleId": 570,
+      "VisibleId": 100,
       "Visibility": "All",
-      "DisplayValue": "perferendis",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 357
         }
       }
     }
@@ -249,7 +249,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 183
     }
   }
 }

@@ -101,8 +101,8 @@ Dashboard  updated.
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -117,12 +117,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "laudantium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "laudantium",
     "value": {}
   }
 ]
@@ -135,22 +135,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 357,
-  "AssociateId": 314,
-  "Caption": "quo",
+  "DashboardId": 491,
+  "AssociateId": 163,
+  "Caption": "sapiente",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 580,
-      "Caption": "repellendus",
-      "Description": "Upgradable well-modulated product",
-      "ChartName": "Jacobi Group",
-      "ChartId": "aliquam",
+      "DashboardTileId": 745,
+      "Caption": "laudantium",
+      "Description": "Open-architected responsive secured line",
+      "ChartName": "Spinka-Heidenreich",
+      "ChartId": "repellendus",
       "IsDefault": false,
-      "AssociateId": 613,
-      "GroupId": 36,
-      "SelectionId": 664,
-      "Config": "molestiae",
+      "AssociateId": 901,
+      "GroupId": 719,
+      "SelectionId": 891,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldLength": 907
         }
       }
     }
@@ -176,12 +176,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldLength": 187
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

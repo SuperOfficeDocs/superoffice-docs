@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Ullrich Inc and Sons",
-    "ToolTip": "Aut esse quis eum voluptatibus dolor et.",
+    "Id": 274,
+    "Name": "Jast LLC",
+    "ToolTip": "Et placeat.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "minus",
-    "ColorBlock": 848,
-    "IconHint": "aut",
+    "Rank": 173,
+    "Type": "beatae",
+    "ColorBlock": 392,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2015-04-26T12:15:28.3526165+02:00",
+    "LastChanged": "2019-05-14T15:29:31.4679765+02:00",
     "ChildItems": [
       {
-        "Id": 82,
-        "Name": "Kling LLC",
-        "ToolTip": "Incidunt aut eaque ex.",
-        "Deleted": true,
-        "Rank": 476,
-        "Type": "eius",
-        "ColorBlock": 332,
-        "IconHint": "eligendi",
+        "Id": 871,
+        "Name": "Reilly LLC",
+        "ToolTip": "Et praesentium possimus ipsum.",
+        "Deleted": false,
+        "Rank": 587,
+        "Type": "qui",
+        "ColorBlock": 685,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "2020-03-23T12:15:28.3526165+01:00",
+        "LastChanged": "2014-08-22T15:29:31.4679765+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eos",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Jacklyn Cummerata",
+        "FullName": "Dr. Cory Spencer Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 965
+            "FieldType": "System.String",
+            "FieldLength": 148
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Prof. Ned Anjali Koepp PhD",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Dexter Strosin II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 722
+        "FieldLength": 191
       }
     }
   }

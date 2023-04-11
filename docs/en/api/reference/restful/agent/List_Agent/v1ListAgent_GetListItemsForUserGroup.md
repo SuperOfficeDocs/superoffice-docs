@@ -78,8 +78,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 11,
-  "GroupId": 101
+  "UdListDefinitionId": 528,
+  "GroupId": 432
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Reichert, McDermott and Bergnaum",
-    "ToolTip": "Ad est.",
+    "Id": 489,
+    "Name": "Bayer, Kessler and Walter",
+    "ToolTip": "Eum quas omnis qui eum distinctio.",
     "Deleted": false,
-    "Rank": 440,
-    "Type": "nihil",
-    "ColorBlock": 223,
-    "IconHint": "modi",
+    "Rank": 73,
+    "Type": "ea",
+    "ColorBlock": 567,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2019-10-22T12:15:19.254748+02:00",
+    "LastChanged": "2015-06-20T15:29:22.0152726+02:00",
     "ChildItems": [
       {
-        "Id": 711,
-        "Name": "Hessel, Moore and Schmidt",
-        "ToolTip": "Ut ea est culpa et fugit illo voluptates.",
-        "Deleted": false,
-        "Rank": 657,
-        "Type": "et",
-        "ColorBlock": 655,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2009-05-29T12:15:19.254748+02:00",
+        "Id": 991,
+        "Name": "Kertzmann, Fadel and Kovacek",
+        "ToolTip": "Aliquam ut nobis hic a eos ea.",
+        "Deleted": true,
+        "Rank": 309,
+        "Type": "ut",
+        "ColorBlock": 120,
+        "IconHint": "praesentium",
+        "Selected": false,
+        "LastChanged": "2009-04-26T15:29:22.0152726+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Taryn Kunde MD",
+        "ExtraInfo": "maiores",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Aliyah Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 885
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Deondre Feil",
+    "ExtraInfo": "optio",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Mr. Boris Emard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldType": "System.String",
+        "FieldLength": 954
       }
     }
   }

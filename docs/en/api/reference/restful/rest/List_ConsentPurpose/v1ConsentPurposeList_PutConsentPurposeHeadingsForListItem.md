@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Bechtelar, Schaden and Conroy",
-    "ToolTip": "Ratione quo voluptatem.",
+    "Id": 389,
+    "Name": "Auer Inc and Sons",
+    "ToolTip": "Error laudantium nesciunt quod magni nulla.",
     "Deleted": false,
-    "Rank": 637,
-    "Type": "placeat",
-    "ColorBlock": 433,
-    "IconHint": "nostrum",
+    "Rank": 378,
+    "Type": "sunt",
+    "ColorBlock": 159,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2002-01-04T12:15:27.9326215+01:00",
+    "LastChanged": "2017-08-14T15:29:31.1439782+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Dooley Inc and Sons",
-        "ToolTip": "Voluptatem culpa voluptatem iure laborum aperiam perspiciatis.",
-        "Deleted": false,
-        "Rank": 789,
-        "Type": "laborum",
-        "ColorBlock": 907,
-        "IconHint": "iusto",
+        "Id": 272,
+        "Name": "Waelchi-Koss",
+        "ToolTip": "Iusto et nostrum.",
+        "Deleted": true,
+        "Rank": 461,
+        "Type": "cupiditate",
+        "ColorBlock": 371,
+        "IconHint": "deserunt",
         "Selected": true,
-        "LastChanged": "2001-05-05T12:15:27.9326215+02:00",
+        "LastChanged": "2017-06-25T15:29:31.1439782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Mr. Howell Emmerich DVM"
+        "ExtraInfo": "in",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Brendan Stiedemann"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
+    "ExtraInfo": "nam",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Krystel Herman"
+    "FullName": "Novella Skiles"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Willms LLC",
-    "ToolTip": "Repellendus illum sint laboriosam est minima et.",
+    "Id": 231,
+    "Name": "Kris Group",
+    "ToolTip": "Laudantium nobis autem dolore dolorum quae.",
     "Deleted": false,
-    "Rank": 918,
-    "Type": "autem",
-    "ColorBlock": 158,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2002-09-30T12:15:27.9335925+02:00",
+    "Rank": 729,
+    "Type": "aspernatur",
+    "ColorBlock": 39,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2010-03-07T15:29:31.1459815+01:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Bernhard, Thiel and Gerlach",
-        "ToolTip": "Odit ab omnis dignissimos veniam.",
-        "Deleted": false,
-        "Rank": 224,
-        "Type": "occaecati",
-        "ColorBlock": 830,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2000-02-02T12:15:27.9346213+01:00",
+        "Id": 517,
+        "Name": "Rogahn, Heidenreich and Marquardt",
+        "ToolTip": "Vero inventore.",
+        "Deleted": true,
+        "Rank": 907,
+        "Type": "nostrum",
+        "ColorBlock": 528,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2022-12-05T15:29:31.1459815+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "esse",
-        "Hidden": true,
-        "FullName": "Reba Jacobs",
+        "ExtraInfo": "esse",
+        "StyleHint": "beatae",
+        "Hidden": false,
+        "FullName": "Ms. Cathrine Vidal Pollich Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 656
+            "FieldType": "System.Int32",
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Jaquelin Upton",
+    "ExtraInfo": "ab",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Dr. Fay Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 182
       }
     }
   }

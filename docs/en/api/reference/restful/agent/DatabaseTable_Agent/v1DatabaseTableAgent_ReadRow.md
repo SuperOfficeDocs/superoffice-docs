@@ -64,8 +64,8 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Values | object | Values for the row, where the first string is the column name (e.g. x_number), and the second string is the value formatted as a DB-value, e.g. [I:42] |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bogan, Orn and Murazik",
-  "Id": 534
+  "TableName": "Schaefer-Langosh",
+  "Id": 370
 }
 ```
 
@@ -90,15 +90,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "quia",
-    "Values2": "quidem"
+    "Values1": "magnam",
+    "Values2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   }
 }

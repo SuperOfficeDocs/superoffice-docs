@@ -42,7 +42,7 @@ Product deleted.
 |----------------|-------------|
 | 204 | Product deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

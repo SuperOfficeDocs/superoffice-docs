@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 894,
-  "StartTime": "2002-05-24T12:15:18.7087552+02:00",
-  "EndTime": "2003-10-23T12:15:18.7087552+02:00",
-  "Count": 53,
-  "DocumentTemplateId": 345
+  "ContactId": 815,
+  "StartTime": "1997-12-23T15:29:21.4687793+01:00",
+  "EndTime": "2001-09-11T15:29:21.4687793+02:00",
+  "Count": 103,
+  "DocumentTemplateId": 723
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 875,
-    "Attention": "laudantium",
-    "Header": "porro",
-    "Name": "Crist, Mueller and Gutkowski",
-    "OurRef": "dolores",
-    "YourRef": "incidunt",
-    "Description": "Digitized well-modulated encoding",
-    "DocumentTemplate": "qui",
-    "IsPublished": false,
-    "PersonId": 40,
-    "PersonFullName": "Kayden Cruz Crona DDS",
-    "AssociateFullName": "Clemens O'Kon",
-    "ContactId": 38,
-    "ContactName": "Vandervort LLC",
-    "ProjectId": 529,
-    "ProjectName": "Barrows-Nolan",
-    "AssociateId": 576,
-    "Snum": 393,
-    "SaleId": 848,
-    "SaleName": "Rutherford, White and Larson",
+    "DocumentId": 471,
+    "Attention": "voluptates",
+    "Header": "dolore",
+    "Name": "Rowe-Legros",
+    "OurRef": "praesentium",
+    "YourRef": "qui",
+    "Description": "Monitored zero defect middleware",
+    "DocumentTemplate": "aut",
+    "IsPublished": true,
+    "PersonId": 401,
+    "PersonFullName": "Ms. Lina Crona",
+    "AssociateFullName": "Danyka Stroman",
+    "ContactId": 813,
+    "ContactName": "Volkman LLC",
+    "ProjectId": 579,
+    "ProjectName": "Kemmer Group",
+    "AssociateId": 704,
+    "Snum": 250,
+    "SaleId": 54,
+    "SaleName": "Gislason LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldLength": 648
       }
     }
   }

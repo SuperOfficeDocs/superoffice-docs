@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=sunt
-GET /api/v1/Pricelist?$top=919
-GET /api/v1/Pricelist?$skip=144
+GET /api/v1/Pricelist?$entities=facere
+GET /api/v1/Pricelist?$top=614
+GET /api/v1/Pricelist?$skip=767
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=itaque
+GET /api/v1/Pricelist?$context=at
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=False
+GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "deserunt",
+  "odata.nextLink": "earum",
   "value": [
     {
-      "PrimaryKey": 751,
+      "PrimaryKey": 4725,
       "EntityName": "sale",
-      "saleId": 751,
-      "contactId": 5053,
-      "name": "Kuhlman-Hayes"
+      "saleId": 4725,
+      "contactId": 3242,
+      "name": "Hayes Group"
     },
     {
-      "PrimaryKey": 4586,
+      "PrimaryKey": 9813,
       "EntityName": "sale",
-      "saleId": 4586,
-      "contactId": 778,
-      "name": "Hodkiewicz-Roob"
+      "saleId": 9813,
+      "contactId": 723,
+      "name": "Zieme-Abbott"
     }
   ]
 }

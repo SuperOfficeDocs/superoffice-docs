@@ -72,8 +72,8 @@ OK
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "inventore",
-  "ProviderName": "Kuphal-Kling",
-  "StorageKey": "voluptatem",
+  "StorageType": "odit",
+  "ProviderName": "Hayes-Breitenberg",
+  "StorageKey": "odio",
   "DesiredColumnNames": [
-    "O'Conner, Jacobi and Stiedemann",
-    "Senger LLC"
+    "Ankunding Group",
+    "Kunze LLC"
   ],
   "StaticColumns": [
-    "ea",
-    "ut"
+    "suscipit",
+    "cumque"
   ]
 }
 ```
@@ -108,15 +108,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hirthe Inc and Sons",
-      "Operator": "molestiae",
+      "Name": "Daugherty-Daugherty",
+      "Operator": "accusamus",
       "Values": [
-        "et",
-        "deleniti"
+        "aut",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "enim"
+        "autem",
+        "natus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -124,65 +124,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 183,
+      "InterParenthesis": 499,
       "InterOperator": "And",
-      "UniqueHash": 753
+      "UniqueHash": 273
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Quitzon, Littel and Beer",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "aliquid",
+      "DisplayName": "Berge, Breitenberg and Hoeger",
+      "DisplayTooltip": "officia",
+      "DisplayType": "rerum",
       "CanOrderBy": false,
-      "Name": "Gulgowski Inc and Sons",
+      "Name": "Hilll Group",
       "CanRestrictBy": false,
-      "RestrictionType": "ad",
-      "RestrictionListName": "Schmeler-Hane",
+      "RestrictionType": "officiis",
+      "RestrictionListName": "Nikolaus, Olson and Kuhic",
       "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "aut",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "dolores"
+      "ExtraInfo": "non",
+      "Width": "libero",
+      "IconHint": "reiciendis",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Reilly Inc and Sons",
-      "PrimaryKey": 355,
+      "EntityName": "Champlin, Heathcote and Lowe",
+      "PrimaryKey": 875,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolores",
-          "TooltipHint": "et",
-          "LinkHint": "dolores"
+          "DisplayValue": "qui",
+          "TooltipHint": "autem",
+          "LinkHint": "in"
         }
       },
-      "LinkHint": "sit",
-      "StyleHint": "sequi",
+      "LinkHint": "autem",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 238
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Luettgen-Dach",
-      "Description": "Profit-focused local algorithm",
-      "Rank": 465,
+      "Name": "Hessel Inc and Sons",
+      "Description": "Cross-group content-based architecture",
+      "Rank": 227,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Luettgen-Dach",
-      "Description": "Profit-focused local algorithm",
-      "Rank": 465,
+      "Name": "Hessel Inc and Sons",
+      "Description": "Cross-group content-based architecture",
+      "Rank": 227,
       "Restrictions": [
         {},
         {}
@@ -193,8 +193,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 858
+      "FieldType": "System.Int32",
+      "FieldLength": 517
     }
   }
 }

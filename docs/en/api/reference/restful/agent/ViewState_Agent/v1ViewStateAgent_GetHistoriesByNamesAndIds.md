@@ -71,8 +71,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,13 +86,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "West Group",
-      "EntityOrParentId": 888,
+      "EntityName": "Lynch, Goodwin and Schiller",
+      "EntityOrParentId": 109,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "West Group",
-      "EntityOrParentId": 888,
+      "EntityName": "Lynch, Goodwin and Schiller",
+      "EntityOrParentId": 109,
       "RequestForNewRecord": false
     }
   ]
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 475,
-    "Id": 289,
-    "HistoryName": "Schneider-Douglas",
-    "HistoryId": 359,
-    "AssociateId": 633,
-    "Name": "Cruickshank Group",
-    "ItemInfo": "iusto",
+    "Rank": 968,
+    "Id": 653,
+    "HistoryName": "Hodkiewicz, Jacobson and Baumbach",
+    "HistoryId": 207,
+    "AssociateId": 377,
+    "Name": "Kessler-Skiles",
+    "ItemInfo": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 276
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

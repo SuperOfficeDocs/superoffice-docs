@@ -1,0 +1,126 @@
+---
+title: Services88.WorkflowAgent.CreateDefaultWorkflowTrigger SOAP
+generated: 1
+uid: Services88-Workflow-CreateDefaultWorkflowTrigger
+---
+
+# Services88 Workflow CreateDefaultWorkflowTrigger
+
+SOAP request and response examples **Remote/Services88/Workflow.svc**
+Implemented by the <see cref="M:SuperOffice.Services88.IWorkflowAgent.CreateDefaultWorkflowTrigger">SuperOffice.Services88.IWorkflowAgent.CreateDefaultWorkflowTrigger</see> method.
+
+## CreateDefaultWorkflowTrigger
+
+
+
+
+
+[WSDL file for Services88/Workflow](../Services88-Workflow.md)
+
+Obtain a ticket from the [Services88/SoPrincipal.svc](../SoPrincipal/index.md)
+
+Application tokens must be specified if calling an Online installation. ApplicationTokens are not checked for on-site installations.
+
+## CreateDefaultWorkflowTrigger Request
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:Workflow="http://www.superoffice.net/ws/crm/NetServer/Services88">
+  <Workflow:ApplicationToken>1234567-1234-9876</Workflow:ApplicationToken>
+  <Workflow:Credentials>
+    <Workflow:Ticket>7T:1234abcxyzExample==</Workflow:Ticket>
+  </Workflow:Credentials>
+ <SOAP-ENV:Body>
+   <Workflow:CreateDefaultWorkflowTrigger>
+   </Workflow:CreateDefaultWorkflowTrigger>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+```
+
+
+## CreateDefaultWorkflowTrigger Response
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:NetServerServices882="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+ xmlns:NetServerServices881="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:Workflow="http://www.superoffice.net/ws/crm/NetServer/Services88">
+ <SOAP-ENV:Body>
+  <Workflow:CreateDefaultWorkflowTriggerResponse>
+   <Workflow:Response xsi:type="Workflow:WorkflowTrigger">
+    <Workflow:WorkflowTriggerId xsi:type="xsd:int">0</Workflow:WorkflowTriggerId>
+    <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
+    <Workflow:TriggerType xsi:type="Workflow:WorkflowTriggerType">None</Workflow:TriggerType>
+    <Workflow:RestrictionGroups xsi:type="Workflow:ArrayOfArchiveRestrictionGroup">
+     <Workflow:ArchiveRestrictionGroup xsi:type="Workflow:ArchiveRestrictionGroup">
+      <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+      <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
+      <Workflow:Rank xsi:type="xsd:short">0</Workflow:Rank>
+      <Workflow:Restrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+       <Workflow:ArchiveRestrictionInfo xsi:type="Workflow:ArchiveRestrictionInfo">
+        <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+        <Workflow:Operator xsi:type="xsd:string"></Workflow:Operator>
+        <Workflow:Values xsi:type="NetServerServices882:ArrayOfstring">
+         <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
+        </Workflow:Values>
+        <Workflow:DisplayValues xsi:type="NetServerServices882:ArrayOfstring">
+         <NetServerServices882:string xsi:type="xsd:string"></NetServerServices882:string>
+        </Workflow:DisplayValues>
+        <Workflow:ColumnInfo xsi:type="Workflow:ArchiveColumnInfo">
+         <Workflow:DisplayName xsi:type="xsd:string"></Workflow:DisplayName>
+         <Workflow:DisplayTooltip xsi:type="xsd:string"></Workflow:DisplayTooltip>
+         <Workflow:DisplayType xsi:type="xsd:string"></Workflow:DisplayType>
+         <Workflow:CanOrderBy xsi:type="xsd:boolean">false</Workflow:CanOrderBy>
+         <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+         <Workflow:CanRestrictBy xsi:type="xsd:boolean">false</Workflow:CanRestrictBy>
+         <Workflow:RestrictionType xsi:type="xsd:string"></Workflow:RestrictionType>
+         <Workflow:RestrictionListName xsi:type="xsd:string"></Workflow:RestrictionListName>
+         <Workflow:IsVisible xsi:type="xsd:boolean">false</Workflow:IsVisible>
+         <Workflow:Width xsi:type="xsd:string"></Workflow:Width>
+         <Workflow:IconHint xsi:type="xsd:string"></Workflow:IconHint>
+         <Workflow:HeadingIconHint xsi:type="xsd:string"></Workflow:HeadingIconHint>
+         <Workflow:ExtraInfo xsi:type="xsd:string"></Workflow:ExtraInfo>
+        </Workflow:ColumnInfo>
+        <Workflow:IsActive xsi:type="xsd:boolean">false</Workflow:IsActive>
+        <Workflow:SubRestrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+         <Workflow:ArchiveRestrictionInfo xsi:type="Workflow:ArchiveRestrictionInfo">
+          <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+          <Workflow:Operator xsi:type="xsd:string"></Workflow:Operator>
+          <Workflow:Values xsi:nil="true"></Workflow:Values>
+          <Workflow:DisplayValues xsi:nil="true"></Workflow:DisplayValues>
+          <Workflow:ColumnInfo xsi:nil="true"></Workflow:ColumnInfo>
+          <Workflow:IsActive xsi:nil="true"></Workflow:IsActive>
+          <Workflow:SubRestrictions xsi:nil="true"></Workflow:SubRestrictions>
+          <Workflow:InterParenthesis xsi:nil="true"></Workflow:InterParenthesis>
+          <Workflow:InterOperator xsi:nil="true"></Workflow:InterOperator>
+          <Workflow:UniqueHash xsi:nil="true"></Workflow:UniqueHash>
+         </Workflow:ArchiveRestrictionInfo>
+        </Workflow:SubRestrictions>
+        <Workflow:InterParenthesis xsi:type="xsd:int">0</Workflow:InterParenthesis>
+        <Workflow:InterOperator xsi:type="Workflow:InterRestrictionOperator">None</Workflow:InterOperator>
+        <Workflow:UniqueHash xsi:type="xsd:int">0</Workflow:UniqueHash>
+       </Workflow:ArchiveRestrictionInfo>
+      </Workflow:Restrictions>
+     </Workflow:ArchiveRestrictionGroup>
+    </Workflow:RestrictionGroups>
+   </Workflow:Response>
+  </Workflow:CreateDefaultWorkflowTriggerResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+```
+

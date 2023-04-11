@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 663,
-    "Name": "Ondricka LLC",
-    "ToolTip": "Neque sed quasi similique et magnam a rerum.",
+    "Id": 676,
+    "Name": "Runte-Ledner",
+    "ToolTip": "Illum velit.",
     "Deleted": true,
-    "Rank": 462,
-    "Type": "adipisci",
-    "ColorBlock": 410,
-    "IconHint": "dolor",
+    "Rank": 458,
+    "Type": "molestiae",
+    "ColorBlock": 716,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "1996-05-11T12:15:28.1336186+02:00",
+    "LastChanged": "2019-05-08T15:29:31.244985+02:00",
     "ChildItems": [
       {
-        "Id": 471,
-        "Name": "Morar-McLaughlin",
-        "ToolTip": "Totam et harum cumque harum.",
+        "Id": 687,
+        "Name": "Bartoletti Group",
+        "ToolTip": "Reiciendis ea dolores.",
         "Deleted": true,
-        "Rank": 867,
-        "Type": "sed",
-        "ColorBlock": 280,
-        "IconHint": "explicabo",
+        "Rank": 299,
+        "Type": "debitis",
+        "ColorBlock": 767,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2002-03-29T12:15:28.1336186+01:00",
+        "LastChanged": "2014-07-03T15:29:31.244985+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Mose Hessel",
+        "ExtraInfo": "harum",
+        "StyleHint": "dignissimos",
+        "Hidden": true,
+        "FullName": "Isaac Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 615
+            "FieldType": "System.String",
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "cumque",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Audrey Hyatt",
+    "FullName": "Mrs. Nico Aliza Kuhn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 985
+        "FieldLength": 44
       }
     }
   }

@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,18 +117,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "enim",
-      "HTMLBody": "recusandae",
+      "Subject": "ea",
+      "HTMLBody": "sit",
       "From": null,
-      "Sent": "2011-09-16T12:15:18.9127528+02:00",
-      "Size": 196,
+      "Sent": "2010-06-02T15:29:21.6823128+02:00",
+      "Size": 928,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "rerum",
-      "PlainBody": "dolor",
+      "MessageID": "aut",
+      "PlainBody": "tempora",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 183,
+      "ServerId": 96,
       "Attachments": [
         {},
         {}
@@ -137,12 +137,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Mraz LLC",
-      "EmailItemId": 450,
-      "AccountId": 425,
-      "ReceivedAt": "1997-06-03T12:15:18.9127528+02:00",
+      "FolderName": "Bayer Inc and Sons",
+      "EmailItemId": 149,
+      "AccountId": 565,
+      "ReceivedAt": "2020-01-31T15:29:21.6823128+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2015-06-10T12:15:18.9127528+02:00",
+      "RepliedAt": "2011-12-21T15:29:21.6823128+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -161,146 +161,146 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 304,
-        "ContactName": "Torphy-Lehner",
-        "PersonId": 27,
-        "PersonName": "Wilkinson, Eichmann and Hessel",
-        "AssociateId": 193,
-        "Address": "saepe",
-        "EmailId": 863,
+        "ContactId": 620,
+        "ContactName": "Hansen, Stokes and Erdman",
+        "PersonId": 262,
+        "PersonName": "Fisher-Turner",
+        "AssociateId": 784,
+        "Address": "cum",
+        "EmailId": 28,
         "DuplicatePersonIds": [
-          591,
-          215
+          529,
+          708
         ],
-        "Name": "Kunze-Thiel",
+        "Name": "Yundt-Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 417
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 388,
-        "ContactName": "Weimann-Spinka",
-        "PersonId": 40,
-        "PersonName": "Robel LLC",
-        "AssociateId": 191,
-        "Address": "eligendi",
-        "EmailId": 406,
+        "ContactId": 104,
+        "ContactName": "Schamberger, Franecki and Flatley",
+        "PersonId": 449,
+        "PersonName": "Purdy-Klocko",
+        "AssociateId": 58,
+        "Address": "minus",
+        "EmailId": 799,
         "DuplicatePersonIds": [
-          711,
-          98
+          780,
+          40
         ],
-        "Name": "Quitzon-Strosin",
+        "Name": "Corkery-Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 786
+            "FieldLength": 688
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 41,
-        "ContactName": "Little, Erdman and Christiansen",
-        "PersonId": 921,
-        "PersonName": "Abshire Inc and Sons",
-        "AssociateId": 417,
-        "Address": "doloremque",
-        "EmailId": 265,
+        "ContactId": 179,
+        "ContactName": "Osinski LLC",
+        "PersonId": 889,
+        "PersonName": "Considine-Brekke",
+        "AssociateId": 351,
+        "Address": "quis",
+        "EmailId": 989,
         "DuplicatePersonIds": [
-          692,
-          248
+          16,
+          821
         ],
-        "Name": "Strosin-Barton",
+        "Name": "Grady-Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 589
+            "FieldType": "System.Int32",
+            "FieldLength": 468
           }
         }
       }
     ],
-    "Subject": "voluptatem",
-    "HTMLBody": "quia",
+    "Subject": "aut",
+    "HTMLBody": "sunt",
     "From": null,
-    "Sent": "1999-01-05T12:15:18.9157548+01:00",
-    "Size": 699,
+    "Sent": "2002-10-27T15:29:21.6843128+01:00",
+    "Size": 593,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "voluptatum",
-    "PlainBody": "blanditiis",
+    "MessageID": "voluptatem",
+    "PlainBody": "incidunt",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 982,
+    "ServerId": 667,
     "Attachments": [
       {
-        "Description": "Operative stable model",
-        "Filename": "tempora",
-        "Size": 298,
-        "Type": "accusantium",
-        "Encoding": "quam",
-        "Id": "exercitationem",
-        "Disposition": "nam",
+        "Description": "Optional radical matrices",
+        "Filename": "pariatur",
+        "Size": 355,
+        "Type": "optio",
+        "Encoding": "esse",
+        "Id": "consequatur",
+        "Disposition": "corporis",
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 845
+            "FieldLength": 862
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Bernier-Parker",
+        "Name": "Crooks LLC",
         "Values": [
-          "deleniti",
-          "quo"
+          "eos",
+          "laborum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 932
+            "FieldType": "System.Int32",
+            "FieldLength": 525
           }
         }
       },
       {
-        "Name": "Bernier-Parker",
+        "Name": "Crooks LLC",
         "Values": [
-          "deleniti",
-          "quo"
+          "eos",
+          "laborum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 932
+            "FieldType": "System.Int32",
+            "FieldLength": 525
           }
         }
       }
     ],
-    "FolderName": "Hamill, Hermann and Roberts",
-    "EmailItemId": 490,
-    "AccountId": 721,
-    "ReceivedAt": "2017-10-26T12:15:18.9157548+02:00",
+    "FolderName": "Nitzsche Inc and Sons",
+    "EmailItemId": 82,
+    "AccountId": 277,
+    "ReceivedAt": "2019-01-11T15:29:21.6853147+01:00",
     "InReplyTo": null,
-    "RepliedAt": "1999-03-13T12:15:18.9157548+01:00",
+    "RepliedAt": "2015-01-24T15:29:21.6853147+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -309,7 +309,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 468
       }
     }
   }

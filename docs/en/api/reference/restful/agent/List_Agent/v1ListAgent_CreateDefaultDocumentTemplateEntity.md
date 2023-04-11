@@ -71,8 +71,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 152,
-  "Name": "Schmeler, Cole and Hartmann",
-  "Tooltip": "rerum",
-  "SaveInDb": 882,
-  "Filename": "labore",
-  "DefaultOref": "vitae",
+  "DocumentTemplateId": 24,
+  "Name": "Boyer, Thiel and Quitzon",
+  "Tooltip": "sapiente",
+  "SaveInDb": 939,
+  "Filename": "eveniet",
+  "DefaultOref": "voluptate",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 619,
-  "IntentId": 401,
-  "IsDefaultPublished": true,
-  "Rank": 673,
-  "LoadTemplateFromPlugin": 195,
-  "MimeType": "dolor",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 852,
+  "AutoeventId": 121,
+  "IntentId": 405,
+  "IsDefaultPublished": false,
+  "Rank": 500,
+  "LoadTemplateFromPlugin": 828,
+  "MimeType": "laborum",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 148,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jordyn@sengerkuhlman.ca",
+  "EmailSubject": "geovany@gaylord.co.uk",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jerry.krajcik@gerlachschmeler.com",
+  "SenderEmailAddress": "ethan@kulasoreilly.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 575
     }
   }
 }

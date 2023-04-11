@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Hammes-Walsh",
-    "ToolTip": "Facere earum sunt et odio.",
-    "Deleted": false,
-    "Rank": 913,
-    "Type": "natus",
-    "ColorBlock": 148,
-    "IconHint": "harum",
+    "Id": 463,
+    "Name": "Dach Group",
+    "ToolTip": "Quibusdam et recusandae ex quos recusandae ab.",
+    "Deleted": true,
+    "Rank": 502,
+    "Type": "fugit",
+    "ColorBlock": 743,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2022-02-21T12:15:28.1906177+01:00",
+    "LastChanged": "2016-07-17T15:29:31.303478+02:00",
     "ChildItems": [
       {
-        "Id": 297,
-        "Name": "Hammes-Purdy",
-        "ToolTip": "Odio repellendus rerum voluptatem in quasi.",
-        "Deleted": false,
-        "Rank": 248,
-        "Type": "qui",
-        "ColorBlock": 632,
+        "Id": 879,
+        "Name": "Witting Group",
+        "ToolTip": "Enim omnis quia nobis amet et distinctio.",
+        "Deleted": true,
+        "Rank": 994,
+        "Type": "ut",
+        "ColorBlock": 280,
         "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2013-10-07T12:15:28.1906177+02:00",
+        "Selected": true,
+        "LastChanged": "2015-03-29T15:29:31.303478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "veniam",
+        "ExtraInfo": "nihil",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Audreanne Emard",
+        "FullName": "Domenic Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 822
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "asperiores",
-    "Hidden": false,
-    "FullName": "Prof. Betsy Macejkovic",
+    "ExtraInfo": "quis",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Alisha Morissette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldLength": 449
       }
     }
   }

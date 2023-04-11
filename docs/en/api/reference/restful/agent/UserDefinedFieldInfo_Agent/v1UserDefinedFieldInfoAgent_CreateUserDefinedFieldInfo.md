@@ -97,8 +97,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 64,
-  "ColumnId": 841,
-  "FieldDefault": "reiciendis",
-  "FieldHeight": 41,
-  "FieldLabel": "amet",
-  "FieldLeft": 933,
-  "FieldTop": 236,
+  "UDefFieldId": 467,
+  "ColumnId": 125,
+  "FieldDefault": "ducimus",
+  "FieldHeight": 698,
+  "FieldLabel": "ut",
+  "FieldLeft": 134,
+  "FieldTop": 880,
   "FieldType": "Checkbox",
-  "FieldWidth": 141,
-  "FormatMask": "qui",
+  "FieldWidth": 74,
+  "FormatMask": "voluptas",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 470,
-  "LabelLeft": 704,
-  "LabelTop": 430,
-  "LabelWidth": 924,
-  "LastVersionId": 773,
-  "ListTableId": 797,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 665,
+  "LabelLeft": 655,
+  "LabelTop": 574,
+  "LabelWidth": 670,
+  "LastVersionId": 613,
+  "ListTableId": 600,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "dolores",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 660,
-  "TextLength": 667,
-  "Tooltip": "labore",
-  "UdefIdentity": 498,
-  "UDListDefinitionId": 810,
+  "Page1LineNo": 53,
+  "ProgId": "quidem",
+  "IsReadOnly": true,
+  "ShortLabel": "consectetur",
+  "TabOrder": 585,
+  "TextLength": 324,
+  "Tooltip": "est",
+  "UdefIdentity": 742,
+  "UDListDefinitionId": 446,
   "Justification": "Center",
-  "Version": 25,
-  "TemplateVariableName": "Schuppe-Veum",
+  "Version": 566,
+  "TemplateVariableName": "Kuvalis, Swift and Kautzer",
   "HasBeenPublished": false,
-  "MdoListName": "Macejkovic-Kerluke",
+  "MdoListName": "McDermott-Price",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldType": "System.Int32",
+      "FieldLength": 65
     }
   }
 }

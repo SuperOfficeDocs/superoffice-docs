@@ -25,7 +25,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=308
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=435
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -78,8 +78,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,53 +97,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 301,
-  "Name": "VonRueden, Jerde and Ebert",
-  "Tooltip": "nulla",
-  "Rank": 949,
+  "SaleTypeId": 303,
+  "Name": "Christiansen, Howe and Ankunding",
+  "Tooltip": "voluptatum",
+  "Rank": 904,
   "DurationUnit": "Century",
-  "SaleDuration": 235,
-  "SaleTypeCatId": 777,
-  "Deleted": true,
+  "SaleDuration": 775,
+  "SaleTypeCatId": 359,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 263,
-  "QuoteLinesTemplate": 347,
-  "ConfirmationLinesTemplate": 1002,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 572,
-  "MinEarningPercent": 912,
-  "GroupQuoteLinesBy": 53,
-  "SortGroupLinesBy": 319,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 747,
+  "QuoteLinesTemplate": 871,
+  "ConfirmationLinesTemplate": 775,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 367,
+  "MinEarningPercent": 327,
+  "GroupQuoteLinesBy": 32,
+  "SortGroupLinesBy": 808,
   "Stages": [
     {
-      "Id": 997,
-      "Name": "Green, Gerhold and Simonis",
-      "ToolTip": "Deleniti cumque ab at non praesentium aspernatur.",
+      "Id": 725,
+      "Name": "Tremblay, Cormier and Hamill",
+      "ToolTip": "Itaque est beatae rerum quis voluptatum.",
       "Deleted": false,
-      "Rank": 238,
-      "Type": "modi",
-      "ColorBlock": 427,
-      "IconHint": "corrupti",
+      "Rank": 169,
+      "Type": "voluptatem",
+      "ColorBlock": 8,
+      "IconHint": "non",
       "Selected": false,
-      "LastChanged": "1999-02-04T12:15:19.2317478+01:00",
+      "LastChanged": "2022-03-24T15:29:21.9947722+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "numquam",
+      "ExtraInfo": "totam",
+      "StyleHint": "occaecati",
       "Hidden": false,
-      "FullName": "Mrs. Kayden Roy Stroman DVM",
+      "FullName": "Lamar Paucek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 303
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 13
+      "FieldType": "System.Int32",
+      "FieldLength": 140
     }
   }
 }

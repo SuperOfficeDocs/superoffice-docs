@@ -61,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,31 +70,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 805,
-  "CrmRecordId": 834,
+  "ErpConnectionId": 787,
+  "CrmRecordId": 210,
   "CrmActorType": "Contact",
-  "ErpKey": "saepe",
+  "ErpKey": "repudiandae",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hand Group",
-      "CrmFieldKey": "aut",
-      "Value": "iusto",
-      "DisplayValue": "occaecati",
+      "DisplayName": "Kertzmann Inc and Sons",
+      "CrmFieldKey": "consequatur",
+      "Value": "rerum",
+      "DisplayValue": "voluptas",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Hand Group",
-      "CrmFieldKey": "aut",
-      "Value": "iusto",
-      "DisplayValue": "occaecati",
+      "DisplayName": "Kertzmann Inc and Sons",
+      "CrmFieldKey": "consequatur",
+      "Value": "rerum",
+      "DisplayValue": "voluptas",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }

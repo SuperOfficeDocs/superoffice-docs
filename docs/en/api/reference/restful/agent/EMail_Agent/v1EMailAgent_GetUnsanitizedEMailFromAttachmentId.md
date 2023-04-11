@@ -95,8 +95,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,14 +104,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 844,
+  "EmailId": 154,
   "AttachmentIds": [
-    "repudiandae",
-    "est"
+    "aut",
+    "in"
   ],
   "IncludeAttachments": false
 }
@@ -126,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 35,
-      "ContactName": "Bins Group",
-      "PersonId": 511,
-      "PersonName": "Aufderhar LLC",
-      "AssociateId": 575,
-      "Address": "aspernatur",
-      "EmailId": 202,
+      "ContactId": 957,
+      "ContactName": "Moore LLC",
+      "PersonId": 250,
+      "PersonName": "Schimmel Inc and Sons",
+      "AssociateId": 942,
+      "Address": "beatae",
+      "EmailId": 757,
       "DuplicatePersonIds": [
-        62,
-        804
+        737,
+        666
       ],
-      "Name": "Jakubowski Group",
+      "Name": "Buckridge-Considine",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 209
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 965,
-      "ContactName": "Bruen-Heathcote",
-      "PersonId": 995,
-      "PersonName": "Koss Inc and Sons",
-      "AssociateId": 814,
-      "Address": "suscipit",
-      "EmailId": 105,
+      "ContactId": 64,
+      "ContactName": "White, Breitenberg and Champlin",
+      "PersonId": 497,
+      "PersonName": "Huel Inc and Sons",
+      "AssociateId": 960,
+      "Address": "dignissimos",
+      "EmailId": 800,
       "DuplicatePersonIds": [
-        822,
-        931
+        859,
+        621
       ],
-      "Name": "Lowe Group",
+      "Name": "Yundt Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 976
+          "FieldLength": 617
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 665,
-      "ContactName": "Heller-Feeney",
-      "PersonId": 187,
-      "PersonName": "Reinger-Klein",
-      "AssociateId": 482,
-      "Address": "aspernatur",
-      "EmailId": 136,
+      "ContactId": 29,
+      "ContactName": "Reichel, Bogan and Leannon",
+      "PersonId": 828,
+      "PersonName": "Hessel-Collier",
+      "AssociateId": 969,
+      "Address": "facilis",
+      "EmailId": 242,
       "DuplicatePersonIds": [
-        986,
-        442
+        332,
+        815
       ],
-      "Name": "Emmerich-Dickinson",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 432
-        }
-      }
-    }
-  ],
-  "Subject": "ea",
-  "HTMLBody": "nesciunt",
-  "From": null,
-  "Sent": "2001-11-24T12:15:19.0297505+01:00",
-  "Size": 70,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "illo",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 168,
-  "Attachments": [
-    {
-      "Description": "Diverse 3rd generation circuit",
-      "Filename": "consequatur",
-      "Size": 449,
-      "Type": "totam",
-      "Encoding": "doloribus",
-      "Id": "corrupti",
-      "Disposition": "ex",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Will-Schowalter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 176
+          "FieldLength": 471
+        }
+      }
+    }
+  ],
+  "Subject": "delectus",
+  "HTMLBody": "illo",
+  "From": null,
+  "Sent": "2020-03-05T15:29:21.7937751+01:00",
+  "Size": 260,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "fuga",
+  "PlainBody": "facere",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 232,
+  "Attachments": [
+    {
+      "Description": "Function-based hybrid migration",
+      "Filename": "qui",
+      "Size": 356,
+      "Type": "quos",
+      "Encoding": "numquam",
+      "Id": "aut",
+      "Disposition": "nobis",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 903
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ernser-D'Amore",
+      "Name": "Ortiz LLC",
       "Values": [
-        "dicta",
-        "libero"
+        "consequatur",
+        "mollitia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 140
         }
       }
     },
     {
-      "Name": "Ernser-D'Amore",
+      "Name": "Ortiz LLC",
       "Values": [
-        "dicta",
-        "libero"
+        "consequatur",
+        "mollitia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldLength": 140
         }
       }
     }
   ],
-  "FolderName": "Ward Group",
-  "EmailItemId": 102,
-  "AccountId": 214,
-  "ReceivedAt": "2018-11-12T12:15:19.0297505+01:00",
+  "FolderName": "Botsford-Reilly",
+  "EmailItemId": 231,
+  "AccountId": 669,
+  "ReceivedAt": "2017-01-14T15:29:21.7942749+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2002-09-21T12:15:19.0297505+02:00",
+  "RepliedAt": "2014-12-04T15:29:21.7942749+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

@@ -42,7 +42,7 @@ DashboardTile deleted.
 |----------------|-------------|
 | 204 | DashboardTile deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -51,7 +51,7 @@ DashboardTile deleted.
 DELETE /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

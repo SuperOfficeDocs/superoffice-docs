@@ -69,8 +69,8 @@ OK
 | Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 930,
-  "CountryId": 8
+  "ContactId": 771,
+  "CountryId": 673
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 17161.784,
-  "Wgs84Longitude": 5308.996,
+  "Wgs84Latitude": 25344.658,
+  "Wgs84Longitude": 3403.524,
   "LocalizedAddress": [
     [
       {
-        "Name": "Rau, Lynch and Durgan",
-        "Value": "odit",
-        "Tooltip": "consequuntur",
+        "Name": "Spinka, Harvey and Waters",
+        "Value": "est",
+        "Tooltip": "ea",
         "Label": "est",
-        "ValueLength": 367,
-        "AddressType": "labore",
+        "ValueLength": 632,
+        "AddressType": "beatae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 984
+            "FieldType": "System.Int32",
+            "FieldLength": 186
           }
         }
       }
     ],
     [
       {
-        "Name": "Pacocha-McClure",
-        "Value": "assumenda",
-        "Tooltip": "repellat",
-        "Label": "ipsa",
-        "ValueLength": 70,
-        "AddressType": "asperiores",
+        "Name": "Witting-Daugherty",
+        "Value": "cum",
+        "Tooltip": "est",
+        "Label": "non",
+        "ValueLength": 787,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 940
+            "FieldLength": 847
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quam",
+  "Formatted": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 155
     }
   }
 }

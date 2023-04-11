@@ -119,8 +119,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -133,40 +133,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 556,
-    "ColumnId": 62,
-    "FieldDefault": "quis",
-    "FieldHeight": 561,
-    "FieldLabel": "qui",
-    "FieldLeft": 165,
-    "FieldTop": 1002,
+    "UDefFieldId": 101,
+    "ColumnId": 544,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 464,
+    "FieldLabel": "numquam",
+    "FieldLeft": 847,
+    "FieldTop": 114,
     "FieldType": "Checkbox",
-    "FieldWidth": 913,
-    "FormatMask": "veniam",
-    "HideLabel": false,
+    "FieldWidth": 907,
+    "FormatMask": "quis",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 273,
-    "LabelLeft": 274,
-    "LabelTop": 288,
-    "LabelWidth": 324,
-    "LastVersionId": 831,
-    "ListTableId": 108,
+    "LabelHeight": 704,
+    "LabelLeft": 718,
+    "LabelTop": 498,
+    "LabelWidth": 449,
+    "LastVersionId": 677,
+    "ListTableId": 991,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 81,
-    "ProgId": "rerum",
+    "Page1LineNo": 176,
+    "ProgId": "at",
     "IsReadOnly": true,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 341,
-    "TextLength": 986,
-    "Tooltip": "sit",
-    "UdefIdentity": 993,
-    "UDListDefinitionId": 194,
+    "ShortLabel": "ipsum",
+    "TabOrder": 877,
+    "TextLength": 575,
+    "Tooltip": "non",
+    "UdefIdentity": 274,
+    "UDListDefinitionId": 461,
     "Justification": "Center",
-    "Version": 981,
-    "TemplateVariableName": "Rath, Kovacek and Satterfield",
+    "Version": 859,
+    "TemplateVariableName": "Hackett-Crist",
     "HasBeenPublished": false,
-    "MdoListName": "Wiza, Rau and Kunde"
+    "MdoListName": "Cronin, Moore and Watsica"
   }
 ]
 ```
@@ -179,46 +179,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 277,
-    "ColumnId": 208,
-    "FieldDefault": "rem",
-    "FieldHeight": 806,
-    "FieldLabel": "repellat",
-    "FieldLeft": 328,
-    "FieldTop": 620,
+    "UDefFieldId": 815,
+    "ColumnId": 362,
+    "FieldDefault": "doloremque",
+    "FieldHeight": 356,
+    "FieldLabel": "facere",
+    "FieldLeft": 211,
+    "FieldTop": 493,
     "FieldType": "Checkbox",
-    "FieldWidth": 904,
-    "FormatMask": "accusantium",
-    "HideLabel": true,
+    "FieldWidth": 375,
+    "FormatMask": "nemo",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 29,
-    "LabelLeft": 714,
-    "LabelTop": 270,
-    "LabelWidth": 358,
-    "LastVersionId": 541,
-    "ListTableId": 66,
-    "IsMandatory": false,
+    "LabelHeight": 121,
+    "LabelLeft": 935,
+    "LabelTop": 383,
+    "LabelWidth": 502,
+    "LastVersionId": 869,
+    "ListTableId": 206,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 523,
-    "ProgId": "enim",
+    "Page1LineNo": 536,
+    "ProgId": "cupiditate",
     "IsReadOnly": false,
-    "ShortLabel": "cum",
-    "TabOrder": 852,
-    "TextLength": 32,
-    "Tooltip": "ex",
-    "UdefIdentity": 625,
-    "UDListDefinitionId": 667,
+    "ShortLabel": "dolorum",
+    "TabOrder": 949,
+    "TextLength": 49,
+    "Tooltip": "ipsum",
+    "UdefIdentity": 642,
+    "UDListDefinitionId": 987,
     "Justification": "Center",
-    "Version": 415,
-    "TemplateVariableName": "Ratke, Ziemann and Quigley",
+    "Version": 481,
+    "TemplateVariableName": "Herman Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "McGlynn LLC",
+    "MdoListName": "Wolf-Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 837
+        "FieldLength": 406
       }
     }
   }

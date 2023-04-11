@@ -80,8 +80,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 876,
-    "Name": "Metz-Haley",
-    "CurrencyId": 903,
-    "EnglishName": "Nicolas Group",
+    "CountryId": 237,
+    "Name": "Ullrich, Grady and Gerlach",
+    "CurrencyId": 538,
+    "EnglishName": "Beier-Jakubowski",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Fully-configurable high-level parallelism",
-    "OrgNrText": "1239749",
-    "InterAreaPrefix": "incidunt",
-    "DialInPrefix": "occaecati",
-    "ZipPrefix": "ipsam",
-    "DomainName": "Mertz Inc and Sons",
-    "AddressLayoutId": 581,
-    "DomesticAddressLayoutId": 856,
-    "ForeignAddressLayoutId": 159,
-    "Rank": 730,
-    "Tooltip": "accusamus",
+    "ImageDescription": "Open-source disintermediate adapter",
+    "OrgNrText": "983917",
+    "InterAreaPrefix": "deserunt",
+    "DialInPrefix": "praesentium",
+    "ZipPrefix": "corporis",
+    "DomainName": "Reilly Group",
+    "AddressLayoutId": 20,
+    "DomesticAddressLayoutId": 662,
+    "ForeignAddressLayoutId": 378,
+    "Rank": 437,
+    "Tooltip": "hic",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 569
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

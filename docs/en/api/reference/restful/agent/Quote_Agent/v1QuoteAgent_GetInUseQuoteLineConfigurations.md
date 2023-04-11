@@ -63,8 +63,8 @@ OK
 | Mandatory | bool | Is this a mandatory field? |
 | Rank | int32 | Rank of the field |
 | RestrictEdit | bool | If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,21 +83,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 67,
-    "FieldName": "Beier, Koelpin and Huels",
-    "Label": "ea",
-    "Tooltip": "provident",
+    "QuoteLineConfigurationId": 323,
+    "FieldName": "Bernhard-Bruen",
+    "Label": "et",
+    "Tooltip": "reiciendis",
     "Editable": true,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 736,
+    "Rank": 374,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 184
       }
     }
   }

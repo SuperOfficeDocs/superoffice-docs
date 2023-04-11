@@ -71,8 +71,8 @@ OK
 | HasGuide | bool | Does this project type have a guide attached |
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,35 +84,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 103,
-  "Name": "Ankunding, Jewess and Wisoky",
-  "Tooltip": "velit",
-  "Rank": 637,
+  "ProjTypeId": 934,
+  "Name": "Spinka, Fritsch and O'Keefe",
+  "Tooltip": "commodi",
+  "Rank": 44,
   "DurationUnit": "Century",
-  "ProjectDuration": 802,
-  "Deleted": true,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 346,
+  "Deleted": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 241,
-      "Name": "Pollich, Gutkowski and Predovic",
-      "ToolTip": "Rerum adipisci doloremque error qui sed.",
-      "Deleted": true,
-      "Rank": 184,
-      "Type": "dolorem",
-      "ColorBlock": 898,
-      "IconHint": "voluptatem",
+      "Id": 328,
+      "Name": "Schroeder Inc and Sons",
+      "ToolTip": "Ex possimus eius voluptates.",
+      "Deleted": false,
+      "Rank": 880,
+      "Type": "similique",
+      "ColorBlock": 437,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2019-03-12T12:15:19.3317471+01:00",
+      "LastChanged": "2002-03-06T15:29:22.0922712+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "voluptatibus",
+      "ExtraInfo": "neque",
+      "StyleHint": "consequuntur",
       "Hidden": false,
-      "FullName": "Yadira Kshlerin"
+      "FullName": "Levi Runte"
     }
   ]
 }
@@ -125,41 +125,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 229,
-  "Name": "Zulauf, Wuckert and Kozey",
-  "Tooltip": "aut",
-  "Rank": 28,
+  "ProjTypeId": 781,
+  "Name": "Schmidt, O'Reilly and Veum",
+  "Tooltip": "quo",
+  "Rank": 878,
   "DurationUnit": "Century",
-  "ProjectDuration": 429,
+  "ProjectDuration": 849,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 188,
-      "Name": "Kovacek, D'Amore and Strosin",
-      "ToolTip": "Consequatur et.",
+      "Id": 777,
+      "Name": "Zemlak Inc and Sons",
+      "ToolTip": "Minima dolores in commodi.",
       "Deleted": true,
-      "Rank": 566,
-      "Type": "temporibus",
-      "ColorBlock": 683,
-      "IconHint": "eaque",
+      "Rank": 177,
+      "Type": "totam",
+      "ColorBlock": 738,
+      "IconHint": "voluptatibus",
       "Selected": false,
-      "LastChanged": "2006-02-10T12:15:19.332747+01:00",
+      "LastChanged": "2013-11-12T15:29:22.0932707+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quidem",
-      "StyleHint": "molestiae",
+      "ExtraInfo": "quisquam",
+      "StyleHint": "laborum",
       "Hidden": false,
-      "FullName": "Sebastian Jenkins",
+      "FullName": "Chanelle Jewess",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 859
         }
       }
     }
@@ -169,7 +169,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldLength": 659
     }
   }
 }

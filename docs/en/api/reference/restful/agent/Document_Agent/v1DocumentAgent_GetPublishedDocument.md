@@ -82,8 +82,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 564
+  "DocumentId": 604
 }
 ```
 
@@ -106,32 +106,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 893,
-  "Attention": "iure",
-  "Header": "excepturi",
-  "Name": "Rosenbaum, Mertz and Denesik",
-  "OurRef": "quia",
-  "YourRef": "quis",
-  "Description": "Customizable 4th generation superstructure",
-  "DocumentTemplate": "temporibus",
+  "DocumentId": 847,
+  "Attention": "molestias",
+  "Header": "consequatur",
+  "Name": "Gleason LLC",
+  "OurRef": "architecto",
+  "YourRef": "aut",
+  "Description": "Secured optimal time-frame",
+  "DocumentTemplate": "natus",
   "IsPublished": false,
-  "PersonId": 779,
-  "PersonFullName": "Emmie Quitzon",
-  "AssociateFullName": "Kallie Windler",
-  "ContactId": 618,
-  "ContactName": "Huel LLC",
-  "ProjectId": 450,
-  "ProjectName": "Renner, Wisozk and Lehner",
-  "AssociateId": 603,
-  "Snum": 632,
-  "SaleId": 124,
-  "SaleName": "Heidenreich Inc and Sons",
+  "PersonId": 451,
+  "PersonFullName": "Mr. Jaren Metz",
+  "AssociateFullName": "Ms. Rylan Hadley Green PhD",
+  "ContactId": 589,
+  "ContactName": "Friesen Inc and Sons",
+  "ProjectId": 335,
+  "ProjectName": "Rodriguez-Walter",
+  "AssociateId": 923,
+  "Snum": 436,
+  "SaleId": 611,
+  "SaleName": "Blanda Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 739
     }
   }
 }

@@ -153,8 +153,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -166,10 +166,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "aut",
-  "ProviderName": "Batz-McDermott",
-  "PageSize": 472,
-  "PageNumber": 731
+  "Restrictions": "dolore",
+  "ProviderName": "Konopelski Group",
+  "PageSize": 448,
+  "PageNumber": 388
 }
 ```
 
@@ -182,51 +182,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Cummings, Bernier and Breitenberg",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "enim",
-      "CanOrderBy": true,
-      "Name": "Lang-Hermann",
+      "DisplayName": "Zieme, Moen and Nolan",
+      "DisplayTooltip": "ea",
+      "DisplayType": "dolor",
+      "CanOrderBy": false,
+      "Name": "Heidenreich-Gislason",
       "CanRestrictBy": false,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Breitenberg-Hand",
+      "RestrictionType": "a",
+      "RestrictionListName": "Wolf-Osinski",
       "IsVisible": false,
-      "ExtraInfo": "sequi",
-      "Width": "aspernatur",
-      "IconHint": "possimus",
-      "HeadingIconHint": "iste"
+      "ExtraInfo": "quaerat",
+      "Width": "officiis",
+      "IconHint": "vero",
+      "HeadingIconHint": "cumque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kling, Herman and Breitenberg",
-      "PrimaryKey": 876,
+      "EntityName": "Eichmann LLC",
+      "PrimaryKey": 217,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "hic",
-          "TooltipHint": "ipsa",
-          "LinkHint": "quos"
+          "DisplayValue": "qui",
+          "TooltipHint": "distinctio",
+          "LinkHint": "repellat"
         }
       },
-      "LinkHint": "unde",
-      "StyleHint": "ut",
+      "LinkHint": "voluptatum",
+      "StyleHint": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldLength": 780
         }
       }
     }
   ],
-  "RowCount": 260,
+  "RowCount": 908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 951
     }
   }
 }

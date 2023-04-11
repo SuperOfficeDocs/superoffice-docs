@@ -86,8 +86,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -96,20 +96,20 @@ OK
 POST /api/v1/TriggerScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 912,
-  "Name": "Jacobson Inc and Sons",
+  "ScreenChooserId": 795,
+  "Name": "Beahan Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "facere",
-  "Source": "et",
-  "Registered": "2017-09-16T12:15:27.5866312+02:00",
-  "RegisteredAssociateId": 515,
-  "Updated": "2007-03-03T12:15:27.5866312+01:00",
-  "UpdatedAssociateId": 761
+  "UniqueIdentifier": "quia",
+  "Source": "sequi",
+  "Registered": "2005-05-12T15:29:30.7949857+02:00",
+  "RegisteredAssociateId": 672,
+  "Updated": "2013-09-25T15:29:30.7949857+02:00",
+  "UpdatedAssociateId": 177
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 40,
-  "Name": "McKenzie-Reichel",
+  "ScreenChooserId": 509,
+  "Name": "Crist, Kub and Schmitt",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "nisi",
-  "Source": "aperiam",
-  "Registered": "2002-11-12T12:15:27.5876273+01:00",
-  "RegisteredAssociateId": 99,
-  "Updated": "2007-11-18T12:15:27.5876273+01:00",
-  "UpdatedAssociateId": 793,
+  "UniqueIdentifier": "perspiciatis",
+  "Source": "nesciunt",
+  "Registered": "1998-06-04T15:29:30.7959917+02:00",
+  "RegisteredAssociateId": 407,
+  "Updated": "1998-11-25T15:29:30.7959917+01:00",
+  "UpdatedAssociateId": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 248
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

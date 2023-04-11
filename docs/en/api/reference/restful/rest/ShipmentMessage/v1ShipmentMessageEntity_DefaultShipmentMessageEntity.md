@@ -67,8 +67,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,7 +76,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 324,
-  "PlainMessage": "et",
-  "HtmlMessage": "labore",
-  "SmsMessage": "error",
-  "Description": "Phased hybrid focus group",
-  "Subject": "id",
-  "FolderId": 633,
-  "HeaderField": "ad",
-  "Design": "harum",
+  "ShipmentMessageId": 918,
+  "PlainMessage": "unde",
+  "HtmlMessage": "non",
+  "SmsMessage": "possimus",
+  "Description": "Re-contextualized didactic system engine",
+  "Subject": "autem",
+  "FolderId": 651,
+  "HeaderField": "fuga",
+  "Design": "quaerat",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Persevering dedicated instruction set",
-  "AccessKey": "qui",
-  "DocumentMessage": 122,
-  "Registered": "2011-02-19T12:15:27.3986294+01:00",
-  "RegisteredAssociateId": 193,
-  "Updated": "2001-04-28T12:15:27.3986294+02:00",
-  "UpdatedAssociateId": 758,
-  "UpdatedCount": 130,
+  "LongDescription": "Business-focused client-server portal",
+  "AccessKey": "veritatis",
+  "DocumentMessage": 95,
+  "Registered": "2006-10-03T15:29:30.6229875+02:00",
+  "RegisteredAssociateId": 980,
+  "Updated": "1997-05-21T15:29:30.6229875+02:00",
+  "UpdatedAssociateId": 361,
+  "UpdatedCount": 203,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 949
     }
   }
 }

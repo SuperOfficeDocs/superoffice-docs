@@ -101,8 +101,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -110,34 +110,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 967,
-  "Name": "Oberbrunner-Champlin",
-  "Tooltip": "dolor",
-  "SaveInDb": 290,
-  "Filename": "omnis",
-  "DefaultOref": "temporibus",
+  "DocumentTemplateId": 718,
+  "Name": "Ledner-Gerlach",
+  "Tooltip": "quasi",
+  "SaveInDb": 364,
+  "Filename": "nam",
+  "DefaultOref": "molestiae",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 371,
-  "IntentId": 526,
+  "AutoeventId": 384,
+  "IntentId": 903,
   "IsDefaultPublished": false,
-  "Rank": 604,
-  "LoadTemplateFromPlugin": 974,
-  "MimeType": "dolores",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 373,
+  "Rank": 449,
+  "LoadTemplateFromPlugin": 59,
+  "MimeType": "ipsa",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 675,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "griffin_maggio@greenmcglynn.biz",
+  "EmailSubject": "maggie.baumbach@abernathyernser.ca",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dorthy_walker@pouros.uk",
+  "SenderEmailAddress": "augustus@sipes.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 615,
-  "Name": "Grady, Walsh and Goodwin",
-  "Tooltip": "dolorem",
-  "SaveInDb": 420,
-  "Filename": "provident",
-  "DefaultOref": "distinctio",
+  "DocumentTemplateId": 933,
+  "Name": "Weissnat Inc and Sons",
+  "Tooltip": "fuga",
+  "SaveInDb": 736,
+  "Filename": "mollitia",
+  "DefaultOref": "expedita",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 684,
-  "IntentId": 763,
-  "IsDefaultPublished": true,
-  "Rank": 380,
-  "LoadTemplateFromPlugin": 378,
-  "MimeType": "voluptatem",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 980,
+  "AutoeventId": 769,
+  "IntentId": 366,
+  "IsDefaultPublished": false,
+  "Rank": 969,
+  "LoadTemplateFromPlugin": 712,
+  "MimeType": "dolores",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 599,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "watson@stokes.com",
-  "IncludeSignature": false,
+  "EmailSubject": "willow@sporer.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "assunta_nolan@baumbach.ca",
+  "SenderEmailAddress": "eryn@breitenberg.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 653
     }
   }
 }

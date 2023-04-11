@@ -66,8 +66,8 @@ OK
 |----------------|------|--------------|
 | DocumentId | int32 | Link to document |
 | Included | bool | Will this attachment be included in the next 'Send Quote' operation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/CreateOrUpdateQuoteVersionAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 332
+  "QuoteVersionId": 85
 }
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 167,
+    "DocumentId": 807,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 316
       }
     }
   },
   {
-    "DocumentId": 167,
+    "DocumentId": 807,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 316
       }
     }
   }

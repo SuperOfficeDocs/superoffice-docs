@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,26 +64,26 @@ No Content
 POST /api/v1/Agents/Dash/SaveDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 435,
+  "DashboardId": 376,
   "DashTiles": [
     {
-      "DashboardTileId": 47,
-      "DashboardId": 903,
-      "Height": 280,
-      "Width": 818,
-      "Rank": 820,
+      "DashboardTileId": 579,
+      "DashboardId": 529,
+      "Height": 357,
+      "Width": 277,
+      "Rank": 939,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 47,
-      "DashboardId": 903,
-      "Height": 280,
-      "Width": 818,
-      "Rank": 820,
+      "DashboardTileId": 579,
+      "DashboardId": 529,
+      "Height": 357,
+      "Width": 277,
+      "Rank": 939,
       "DashTileDefinition": null
     }
   ]

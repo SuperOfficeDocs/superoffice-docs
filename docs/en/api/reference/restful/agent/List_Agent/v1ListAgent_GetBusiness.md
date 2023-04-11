@@ -25,7 +25,7 @@ Gets a Business object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetBusiness?businessId=242
+POST /api/v1/Agents/List/GetBusiness?businessId=204
 POST /api/v1/Agents/List/GetBusiness?$select=name,department,category/id
 ```
 
@@ -59,8 +59,8 @@ OK
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetBusiness
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Value": "quaerat",
-  "Tooltip": "praesentium",
+  "Id": 29,
+  "Value": "sint",
+  "Tooltip": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 659
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 139,
+  "DocumentId": 127,
   "AllowedReturnTypes": [
-    "asperiores",
-    "similique"
+    "eius",
+    "omnis"
   ],
-  "VersionDescription": "Persevering actuating Graphic Interface",
+  "VersionDescription": "Centralized executive task-force",
   "VersionExtraFields": [
-    "suscipit",
-    "quis"
+    "quas",
+    "veniam"
   ]
 }
 ```
@@ -102,11 +102,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "beatae",
-  "VersionId": "et",
+  "ExternalReference": "voluptatibus",
+  "VersionId": "sunt",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "beatae",
-  "AdditionalInfo": "nulla"
+  "Value": "ad",
+  "AdditionalInfo": "qui"
 }
 ```

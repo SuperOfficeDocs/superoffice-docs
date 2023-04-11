@@ -25,7 +25,7 @@ Gets a ResourceEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=920
+POST /api/v1/Agents/List/GetResourceEntity?resourceEntityId=689
 POST /api/v1/Agents/List/GetResourceEntity?$select=name,department,category/id
 ```
 
@@ -63,8 +63,8 @@ OK
 | Deleted | bool | If true, the resource is deleted. |
 | IsLocation | bool | If true the resource is a location |
 | LocationAddress | string | Address of location, if this is a resource that is a location |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 216,
-  "Name": "Nienow Group",
-  "Rank": 797,
-  "Tooltip": "quis",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "accusamus",
+  "ResourceId": 836,
+  "Name": "Hermiston, Torphy and Berge",
+  "Rank": 594,
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "IsLocation": false,
+  "LocationAddress": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 507
+      "FieldLength": 264
     }
   }
 }

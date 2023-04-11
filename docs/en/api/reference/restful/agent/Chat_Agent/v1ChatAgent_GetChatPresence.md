@@ -59,8 +59,8 @@ OK
 | OngoingChats | int32 | The number of ongoing chats this users has now |
 | Present | bool | Indicates if the user has the chat presence turned on or off |
 | ChatTopics | array | An array of ids with chat topics that this user is a member of |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 182,
-    "DisplayName": "Langworth, Olson and Goyette",
-    "OngoingChats": 266,
-    "Present": false,
+    "UserId": 170,
+    "DisplayName": "Davis Inc and Sons",
+    "OngoingChats": 472,
+    "Present": true,
     "ChatTopics": [
-      852,
-      709
+      386,
+      663
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 578
+        "FieldType": "System.Int32",
+        "FieldLength": 980
       }
     }
   }

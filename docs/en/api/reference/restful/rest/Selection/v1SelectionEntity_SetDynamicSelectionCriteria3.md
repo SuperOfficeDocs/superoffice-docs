@@ -54,15 +54,15 @@ Criteria defining the selection result. Pass NULL if using the filter string ins
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | String |  |
-| Operator | String |  |
-| Values | Array |  |
-| DisplayValues | Array |  |
-| ColumnInfo | RecurrenceInfo |  |
-| IsActive | Boolean |  |
-| SubRestrictions | Array |  |
-| InterParenthesis | Integer |  |
-| InterOperator | String |  |
+| Name | String | The programmatic column name, including any required prefixes |
+| Operator | String | The operator, such as =, etc |
+| Values | Array | Value(s) to test against |
+| DisplayValues | Array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | Boolean | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | Array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | Integer | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | String | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | Integer |  |
 
 ## Response:array
@@ -77,15 +77,15 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo | RecurrenceInfo |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
+| Name | string | The programmatic column name, including any required prefixes |
+| Operator | string | The operator, such as =, etc |
+| Values | array | Value(s) to test against |
+| DisplayValues | array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | bool | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | int32 | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | string | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | int32 |  |
 
 ## Sample request
@@ -94,34 +94,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gulgowski Inc and Sons",
-    "Operator": "soluta",
+    "Name": "Metz-Kreiger",
+    "Operator": "fugiat",
     "Values": [
-      "quo",
-      "et"
+      "praesentium",
+      "explicabo"
     ],
     "DisplayValues": [
-      "omnis",
-      "nobis"
+      "fugit",
+      "atque"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Schinner, Zulauf and Monahan",
-        "Operator": "rerum",
+        "Name": "Fisher, Tromp and Gislason",
+        "Operator": "ipsum",
         "Values": [
-          "et",
-          "debitis"
+          "consequatur",
+          "quia"
         ],
         "DisplayValues": [
-          "omnis",
-          "enim"
+          "corporis",
+          "velit"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 365,
+        "InterParenthesis": 288,
         "InterOperator": "And",
-        "UniqueHash": 493
+        "UniqueHash": 683
       }
     ],
-    "InterParenthesis": 989,
+    "InterParenthesis": 750,
     "InterOperator": "And",
-    "UniqueHash": 246
+    "UniqueHash": 849
   }
 ]
 ```
@@ -149,29 +149,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert Inc and Sons",
-    "Operator": "alias",
+    "Name": "Jones Inc and Sons",
+    "Operator": "aut",
     "Values": [
-      "reprehenderit",
-      "quasi"
+      "ut",
+      "quod"
     ],
     "DisplayValues": [
-      "dicta",
-      "adipisci"
+      "consequatur",
+      "deleniti"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Bruen Inc and Sons",
-        "Operator": "molestiae",
+        "Name": "Fadel, Gutkowski and Smith",
+        "Operator": "accusantium",
         "Values": [
-          "velit",
-          "accusantium"
+          "hic",
+          "optio"
         ],
         "DisplayValues": [
-          "omnis",
-          "est"
+          "ipsam",
+          "quae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -179,14 +179,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 751,
+        "InterParenthesis": 263,
         "InterOperator": "And",
-        "UniqueHash": 568
+        "UniqueHash": 380
       }
     ],
-    "InterParenthesis": 63,
+    "InterParenthesis": 28,
     "InterOperator": "And",
-    "UniqueHash": 227
+    "UniqueHash": 389
   }
 ]
 ```

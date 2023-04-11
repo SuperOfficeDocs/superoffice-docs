@@ -75,8 +75,8 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,33 +95,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 22,
-    "Name": "Schmitt, Sawayn and Kessler",
-    "Tooltip": "vero",
-    "Deleted": true,
-    "Rank": 893,
+    "WebPanelId": 223,
+    "Name": "Zulauf-Kris",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "Rank": 549,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
+    "OnSatellite": true,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Mertz-Maggio",
+    "WindowName": "Nader LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "in",
-    "Icon": 543,
+    "ProgId": "est",
+    "Icon": 841,
     "AlwaysReloadOnShow": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldType": "System.Int32",
+        "FieldLength": 787
       }
     }
   }

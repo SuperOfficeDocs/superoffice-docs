@@ -119,8 +119,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -128,45 +128,45 @@ OK
 PUT /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 472,
-    "ColumnId": 320,
-    "FieldDefault": "voluptas",
-    "FieldHeight": 230,
-    "FieldLabel": "veritatis",
-    "FieldLeft": 478,
-    "FieldTop": 307,
+    "UDefFieldId": 992,
+    "ColumnId": 524,
+    "FieldDefault": "est",
+    "FieldHeight": 134,
+    "FieldLabel": "sed",
+    "FieldLeft": 992,
+    "FieldTop": 410,
     "FieldType": "Checkbox",
-    "FieldWidth": 817,
-    "FormatMask": "repudiandae",
+    "FieldWidth": 528,
+    "FormatMask": "omnis",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 681,
-    "LabelLeft": 108,
-    "LabelTop": 407,
-    "LabelWidth": 325,
-    "LastVersionId": 293,
-    "ListTableId": 353,
+    "IsIndexed": false,
+    "LabelHeight": 744,
+    "LabelLeft": 379,
+    "LabelTop": 632,
+    "LabelWidth": 77,
+    "LastVersionId": 267,
+    "ListTableId": 92,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 962,
-    "ProgId": "in",
+    "Page1LineNo": 332,
+    "ProgId": "qui",
     "IsReadOnly": true,
-    "ShortLabel": "qui",
-    "TabOrder": 175,
-    "TextLength": 804,
-    "Tooltip": "rem",
-    "UdefIdentity": 39,
-    "UDListDefinitionId": 338,
+    "ShortLabel": "rerum",
+    "TabOrder": 827,
+    "TextLength": 724,
+    "Tooltip": "earum",
+    "UdefIdentity": 165,
+    "UDListDefinitionId": 850,
     "Justification": "Center",
-    "Version": 459,
-    "TemplateVariableName": "Rosenbaum, Mueller and Becker",
-    "HasBeenPublished": true,
-    "MdoListName": "Durgan-Will"
+    "Version": 26,
+    "TemplateVariableName": "Gleason Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Balistreri, Stiedemann and Gaylord"
   }
 ]
 ```
@@ -179,46 +179,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 821,
-    "ColumnId": 876,
-    "FieldDefault": "ducimus",
-    "FieldHeight": 568,
-    "FieldLabel": "animi",
-    "FieldLeft": 789,
-    "FieldTop": 647,
+    "UDefFieldId": 690,
+    "ColumnId": 446,
+    "FieldDefault": "perspiciatis",
+    "FieldHeight": 542,
+    "FieldLabel": "aut",
+    "FieldLeft": 387,
+    "FieldTop": 811,
     "FieldType": "Checkbox",
-    "FieldWidth": 415,
-    "FormatMask": "doloremque",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 598,
-    "LabelLeft": 146,
-    "LabelTop": 116,
-    "LabelWidth": 791,
-    "LastVersionId": 751,
-    "ListTableId": 675,
+    "FieldWidth": 2,
+    "FormatMask": "est",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 30,
+    "LabelLeft": 225,
+    "LabelTop": 488,
+    "LabelWidth": 937,
+    "LastVersionId": 539,
+    "ListTableId": 80,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 758,
-    "ProgId": "vero",
+    "Page1LineNo": 210,
+    "ProgId": "nesciunt",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 460,
-    "TextLength": 107,
-    "Tooltip": "laudantium",
-    "UdefIdentity": 644,
-    "UDListDefinitionId": 843,
+    "ShortLabel": "autem",
+    "TabOrder": 72,
+    "TextLength": 423,
+    "Tooltip": "quis",
+    "UdefIdentity": 919,
+    "UDListDefinitionId": 862,
     "Justification": "Center",
-    "Version": 87,
-    "TemplateVariableName": "Luettgen, Haley and Gaylord",
-    "HasBeenPublished": false,
-    "MdoListName": "Grant-Heathcote",
+    "Version": 734,
+    "TemplateVariableName": "Koelpin, Kessler and Schmitt",
+    "HasBeenPublished": true,
+    "MdoListName": "Yundt-Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 70
       }
     }
   }

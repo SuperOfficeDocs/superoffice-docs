@@ -76,8 +76,8 @@ OK
 | Encoding | string | Encoding for url |
 | ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
 | Deleted | bool | True if deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "natus"
+  "ProgId": "omnis"
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 743,
-  "Name": "Von-Jakubowski",
-  "Tooltip": "dignissimos",
-  "TableName": "Kris, Hermann and Dietrich",
-  "Area": "maiores",
+  "TaskMenuId": 822,
+  "Name": "O'Reilly, Thompson and Kilback",
+  "Tooltip": "consequatur",
+  "TableName": "Steuber-Rempel",
+  "Area": "quis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 279,
+  "CrmScriptId": 520,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 26,
+  "Rank": 533,
   "Encoding": "ANSI",
-  "ProgId": "recusandae",
+  "ProgId": "nulla",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 648
     }
   }
 }

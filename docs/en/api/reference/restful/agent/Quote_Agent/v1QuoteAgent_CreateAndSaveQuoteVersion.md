@@ -101,8 +101,8 @@ OK
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 527
+  "QuoteVersionId": 510
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 344,
-  "ERPQuoteVersionKey": "expedita",
-  "QuoteId": 414,
-  "Description": "Digitized zero administration pricing structure",
-  "Number": "1318436",
+  "QuoteVersionId": 408,
+  "ERPQuoteVersionKey": "qui",
+  "QuoteId": 843,
+  "Description": "Pre-emptive interactive framework",
+  "Number": "1514260",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 266,
-  "SentDate": "2020-10-29T12:15:19.8907064+01:00",
-  "FollowupId": 799,
-  "ExpirationDate": "2008-06-13T12:15:19.8907064+02:00",
-  "DeliveryCountryId": 942,
+  "LikelyQuoteAlternativeId": 962,
+  "SentDate": "1999-09-10T15:29:22.5172647+02:00",
+  "FollowupId": 939,
+  "ExpirationDate": "1997-10-21T15:29:22.5172647+02:00",
+  "DeliveryCountryId": 379,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 229,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "natus",
-  "ERPPaymentTypeKey": "ipsa",
-  "ERPDeliveryTermsKey": "odit",
-  "ERPDeliveryTypeKey": "est",
-  "Rank": 625,
-  "ApprovedBy": 973,
-  "ApprovedText": "sit",
-  "ApprovedRegisteredBy": 173,
-  "ApprovedRegisteredDate": "1999-08-19T12:15:19.8907064+02:00",
-  "ExtraField1": "id",
-  "ExtraField2": "quae",
-  "ExtraField3": "eum",
-  "ExtraField4": "enim",
-  "ExtraField5": "rem",
-  "LastRecalculated": "2022-10-26T12:15:19.8917403+02:00",
-  "Updated": "2003-12-01T12:15:19.8917403+01:00",
-  "UpdatedAssociateId": 367,
-  "Registered": "2005-12-27T12:15:19.8917403+01:00",
-  "RegisteredAssociateId": 55,
-  "RequestAssociateId": 613,
-  "RequestComment": "illo",
+  "InvoiceCountryId": 559,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "ex",
+  "ERPPaymentTypeKey": "nemo",
+  "ERPDeliveryTermsKey": "culpa",
+  "ERPDeliveryTypeKey": "voluptas",
+  "Rank": 734,
+  "ApprovedBy": 125,
+  "ApprovedText": "quos",
+  "ApprovedRegisteredBy": 687,
+  "ApprovedRegisteredDate": "2004-07-11T15:29:22.5172647+02:00",
+  "ExtraField1": "illo",
+  "ExtraField2": "labore",
+  "ExtraField3": "dolorem",
+  "ExtraField4": "ipsa",
+  "ExtraField5": "repudiandae",
+  "LastRecalculated": "2018-09-22T15:29:22.5172647+02:00",
+  "Updated": "2016-08-11T15:29:22.5172647+02:00",
+  "UpdatedAssociateId": 715,
+  "Registered": "2006-04-13T15:29:22.5172647+02:00",
+  "RegisteredAssociateId": 68,
+  "RequestAssociateId": 280,
+  "RequestComment": "iste",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 71,
-      "ERPQuoteAlternativeKey": "rem",
-      "QuoteVersionId": 545,
-      "Name": "Vandervort Inc and Sons",
-      "Description": "Enterprise-wide high-level firmware",
+      "QuoteAlternativeId": 77,
+      "ERPQuoteAlternativeKey": "hic",
+      "QuoteVersionId": 158,
+      "Name": "Swift, Murphy and Ritchie",
+      "Description": "Progressive next generation analyzer",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 10229.376,
-      "ERPDiscountAmount": 26294.26,
-      "DiscountPercent": 3086.99,
-      "DiscountAmount": 5713.282,
+      "ERPDiscountPercent": 19631.376,
+      "ERPDiscountAmount": 8634.17,
+      "DiscountPercent": 14516.688,
+      "DiscountAmount": 8195.41,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "vero",
-      "VAT": 27638.746,
-      "EarningPercent": 27776.642,
-      "EarningAmount": 18048.706,
-      "SubTotal": 451.296,
-      "TotalPrice": 19079.791999999998,
-      "ExtraField1": "nihil",
-      "ExtraField2": "dolorem",
-      "ExtraField3": "consequatur",
-      "ExtraField4": "modi",
-      "ExtraField5": "minus",
+      "VATInfo": "aut",
+      "VAT": 13015.502,
+      "EarningPercent": 21768.764,
+      "EarningAmount": 12583.01,
+      "SubTotal": 13115.789999999999,
+      "TotalPrice": 30130.275999999998,
+      "ExtraField1": "dolorum",
+      "ExtraField2": "in",
+      "ExtraField3": "distinctio",
+      "ExtraField4": "occaecati",
+      "ExtraField5": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 351
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 495
     }
   }
 }

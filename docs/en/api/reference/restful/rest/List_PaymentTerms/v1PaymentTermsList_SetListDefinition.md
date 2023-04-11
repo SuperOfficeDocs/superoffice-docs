@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 176,
-  "Name": "Bartoletti-Block",
-  "Tooltip": "ut",
+  "Id": 904,
+  "Name": "Lockman-Hilpert",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 502,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 362,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "deserunt",
+  "ListType": "quod",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 957,
-  "Name": "Fritsch-Wintheiser",
-  "Tooltip": "veritatis",
+  "Id": 385,
+  "Name": "Bins, Emard and Haag",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 694,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 190,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 237
     }
   }
 }

@@ -56,8 +56,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -65,7 +65,7 @@ OK
 GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 854,
-    "AssociateId": 870,
-    "Block": "quo",
-    "Registered": "2015-01-09T12:15:27.3966292+01:00",
-    "RegisteredAssociateId": 738,
-    "Updated": "2018-01-05T12:15:27.3966292+01:00",
-    "UpdatedAssociateId": 272,
-    "UpdatedCount": 397,
+    "ShipmentMessageBlockId": 546,
+    "AssociateId": 953,
+    "Block": "reprehenderit",
+    "Registered": "2003-11-14T15:29:30.6224879+01:00",
+    "RegisteredAssociateId": 882,
+    "Updated": "2000-11-15T15:29:30.6224879+01:00",
+    "UpdatedAssociateId": 961,
+    "UpdatedCount": 197,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 424
       }
     }
   }

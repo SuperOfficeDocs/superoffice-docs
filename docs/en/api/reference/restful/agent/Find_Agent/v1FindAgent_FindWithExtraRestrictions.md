@@ -74,8 +74,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,24 +83,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cumque",
-  "ProviderName": "Macejkovic LLC",
-  "StorageKey": "voluptatem",
+  "StorageType": "qui",
+  "ProviderName": "Conn-Leffler",
+  "StorageKey": "cupiditate",
   "ExtraRestrictions": [
     {
-      "Name": "Weissnat-Sipes",
-      "Operator": "delectus",
+      "Name": "Altenwerth-Rutherford",
+      "Operator": "iusto",
       "Values": [
-        "quibusdam",
-        "corrupti"
+        "deleniti",
+        "sunt"
       ],
       "DisplayValues": [
-        "animi",
-        "fugit"
+        "molestiae",
+        "dolorem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,27 +108,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 445,
+      "InterParenthesis": 63,
       "InterOperator": "And",
-      "UniqueHash": 711
+      "UniqueHash": 225
     }
   ],
   "OrderBy": [
     {
-      "Name": "Walsh, Keeling and Turner",
+      "Name": "Vandervort, Jerde and Koelpin",
       "Direction": "ASC"
     },
     {
-      "Name": "Walsh, Keeling and Turner",
+      "Name": "Vandervort, Jerde and Koelpin",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "in",
-    "consequuntur"
+    "eligendi",
+    "nobis"
   ],
-  "PageSize": 716,
-  "PageNumber": 775
+  "PageSize": 278,
+  "PageNumber": 392
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Daugherty-Hahn",
-      "DisplayTooltip": "qui",
+      "DisplayName": "Bailey Inc and Sons",
+      "DisplayTooltip": "consectetur",
       "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Grimes LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Frami, Tremblay and Wyman",
+      "Name": "Torphy LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Wilkinson Group",
       "IsVisible": false,
-      "ExtraInfo": "nulla",
-      "Width": "fugiat",
-      "IconHint": "saepe",
-      "HeadingIconHint": "magni"
+      "ExtraInfo": "sit",
+      "Width": "quia",
+      "IconHint": "quis",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schaden, Hirthe and Stiedemann",
-      "PrimaryKey": 766,
+      "EntityName": "Jacobson-Christiansen",
+      "PrimaryKey": 815,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quis",
-          "TooltipHint": "aspernatur",
-          "LinkHint": "doloremque"
+          "DisplayValue": "quaerat",
+          "TooltipHint": "adipisci",
+          "LinkHint": "sequi"
         }
       },
-      "LinkHint": "velit",
-      "StyleHint": "nihil",
+      "LinkHint": "eos",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 398
         }
       }
     }
   ],
-  "RowCount": 432,
+  "RowCount": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 371
     }
   }
 }

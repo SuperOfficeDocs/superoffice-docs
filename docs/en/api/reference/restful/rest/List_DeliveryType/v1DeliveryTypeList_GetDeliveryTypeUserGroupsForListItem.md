@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Balistreri, Crooks and Reilly",
-    "ToolTip": "Non aut temporibus.",
-    "Deleted": false,
-    "Rank": 762,
-    "Type": "est",
-    "ColorBlock": 441,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2003-09-05T12:15:28.1286189+02:00",
+    "Id": 528,
+    "Name": "Bruen, Ebert and Bednar",
+    "ToolTip": "Eveniet voluptas explicabo.",
+    "Deleted": true,
+    "Rank": 27,
+    "Type": "asperiores",
+    "ColorBlock": 947,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2013-10-03T15:29:31.2399791+02:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Gleichner-Moore",
-        "ToolTip": "Et qui sint voluptas minima sed.",
-        "Deleted": false,
-        "Rank": 434,
-        "Type": "consectetur",
-        "ColorBlock": 841,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "1999-04-22T12:15:28.1296193+02:00",
+        "Id": 114,
+        "Name": "Lueilwitz-Feest",
+        "ToolTip": "Sit minima enim sed.",
+        "Deleted": true,
+        "Rank": 68,
+        "Type": "et",
+        "ColorBlock": 79,
+        "IconHint": "cupiditate",
+        "Selected": false,
+        "LastChanged": "2021-09-10T15:29:31.2399791+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "quis",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Katharina Nienow",
+        "FullName": "Thelma Nitzsche III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldLength": 765
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Mrs. Camron Elian Nienow DDS",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "veniam",
+    "Hidden": true,
+    "FullName": "Millie Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 204
       }
     }
   }

@@ -75,8 +75,8 @@ OK
 | MaxLength | int32 | Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.) |
 | Access | string | Access restrictions on the field |
 | ShowInSearch | bool | True if this field is displayed in search result |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 628,
+  "ErpConnectionId": 737,
   "ErpActorType": "Customer"
 }
 ```
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "vel",
-    "Rank": 736,
-    "DisplayName": "Kemmer-Becker",
-    "DisplayDescription": "User-centric impactful circuit",
+    "FieldKey": "a",
+    "Rank": 72,
+    "DisplayName": "Wilderman-Lynch",
+    "DisplayDescription": "Enterprise-wide 3rd generation algorithm",
     "FieldType": "Checkbox",
-    "ListName": "Predovic, Emard and Hartmann",
-    "DefaultValue": "amet",
-    "MaxLength": 255,
+    "ListName": "McKenzie-Zulauf",
+    "DefaultValue": "aut",
+    "MaxLength": 733,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 114
       }
     }
   }

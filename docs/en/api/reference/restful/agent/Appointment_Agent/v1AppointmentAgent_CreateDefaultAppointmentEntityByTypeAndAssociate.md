@@ -93,7 +93,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -118,8 +118,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -127,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 567
+  "AssociateId": 710
 }
 ```
 
@@ -147,63 +147,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1997-06-07T12:15:17.8877672+02:00",
-  "AppointmentId": 282,
-  "Description": "Phased mobile secured line",
-  "StartDate": "2011-11-10T12:15:17.8877672+01:00",
-  "EndDate": "2000-11-07T12:15:17.8877672+01:00",
+  "CreatedDate": "2017-09-01T15:29:20.6287947+02:00",
+  "AppointmentId": 139,
+  "Description": "Switchable grid-enabled Graphical User Interface",
+  "StartDate": "2014-08-09T15:29:20.6287947+02:00",
+  "EndDate": "2008-01-14T15:29:20.6287947+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 324,
+  "MotherId": 547,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-08-30T12:15:17.8907672+02:00",
+  "UpdatedDate": "2013-05-13T15:29:20.6323302+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 176,
+  "ActiveLinks": 608,
   "Links": [
     {
-      "EntityName": "Douglas-Wolff",
-      "Id": 382,
-      "Description": "User-centric demand-driven instruction set",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 532,
+      "EntityName": "Cole Inc and Sons",
+      "Id": 925,
+      "Description": "Diverse clear-thinking hardware",
+      "ExtraInfo": "odit",
+      "LinkId": 483,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 832
         }
       }
     }
   ],
-  "AlarmLeadTime": "praesentium",
-  "HasAlarm": false,
-  "ColorIndex": 422,
+  "AlarmLeadTime": "dolore",
+  "HasAlarm": true,
+  "ColorIndex": 779,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "rerum",
-  "LeadTime": "magni",
-  "Location": "et",
-  "RejectCounter": 754,
+  "LagTime": "velit",
+  "LeadTime": "aut",
+  "Location": "odio",
+  "RejectCounter": 857,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 657,
-      "PersonId": 831,
-      "ContactId": 879,
-      "EmailId": 980,
+      "AssociateId": 863,
+      "PersonId": 260,
+      "ContactId": 530,
+      "EmailId": 326,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 657,
-      "PersonId": 831,
-      "ContactId": 879,
-      "EmailId": 980,
+      "AssociateId": 863,
+      "PersonId": 260,
+      "ContactId": 530,
+      "EmailId": 326,
       "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
@@ -211,58 +211,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-07-27T12:15:17.8907672+02:00",
+  "ActiveDate": "2001-12-11T15:29:20.6323302+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 701,
+  "PreferredTZLocation": 37,
   "Sale": null,
-  "SuggestedAppointmentId": 113,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 496,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolorum",
+  "CentralserviceVideomeetId": "deleniti",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Robin Quigley",
-    "SuperOffice:2": "Ignatius Kohler"
+    "SuperOffice:1": "Dylan Haley",
+    "SuperOffice:2": "Ivah Keebler"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "error"
+    "ExtraFields1": "a",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "esse"
+    "CustomFields1": "delectus",
+    "CustomFields2": "iste"
   },
-  "PublishEventDate": "2015-03-26T12:15:17.8927667+01:00",
-  "PublishTo": "2021-03-14T12:15:17.8927667+01:00",
-  "PublishFrom": "2014-10-20T12:15:17.8927667+02:00",
+  "PublishEventDate": "2019-05-16T15:29:20.6343259+02:00",
+  "PublishTo": "2001-10-21T15:29:20.6343259+02:00",
+  "PublishFrom": "2022-03-05T15:29:20.6343259+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 614,
+      "VisibleId": 386,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     },
     {
-      "VisibleId": 614,
+      "VisibleId": 386,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 933
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     }
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldLength": 808
     }
   }
 }

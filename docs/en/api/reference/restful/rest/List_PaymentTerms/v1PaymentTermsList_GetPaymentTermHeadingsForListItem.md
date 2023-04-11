@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Robel Inc and Sons",
-    "ToolTip": "Voluptates non sit consequatur veniam nobis quibusdam.",
+    "Id": 339,
+    "Name": "Stokes-Larkin",
+    "ToolTip": "Et itaque vel ut sit ad aspernatur omnis.",
     "Deleted": false,
-    "Rank": 232,
-    "Type": "qui",
-    "ColorBlock": 317,
-    "IconHint": "dolorum",
+    "Rank": 669,
+    "Type": "modi",
+    "ColorBlock": 135,
+    "IconHint": "itaque",
     "Selected": true,
-    "LastChanged": "1999-05-04T12:15:28.2126203+02:00",
+    "LastChanged": "2008-08-14T15:29:31.3289778+02:00",
     "ChildItems": [
       {
-        "Id": 607,
-        "Name": "Kunze, Jacobi and Rice",
-        "ToolTip": "Dolores consectetur unde commodi velit ut.",
+        "Id": 619,
+        "Name": "Bruen Group",
+        "ToolTip": "Cum aut ullam sint atque.",
         "Deleted": false,
-        "Rank": 366,
-        "Type": "illum",
-        "ColorBlock": 349,
-        "IconHint": "dolores",
+        "Rank": 347,
+        "Type": "odit",
+        "ColorBlock": 629,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2015-11-24T12:15:28.2126203+01:00",
+        "LastChanged": "2010-04-28T15:29:31.3289778+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Judy Price",
+        "ExtraInfo": "vel",
+        "StyleHint": "vero",
+        "Hidden": false,
+        "FullName": "Mrs. Meta Rachel Casper DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 185
+            "FieldLength": 357
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "nemo",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "deleniti",
     "Hidden": true,
-    "FullName": "Erika Boehm",
+    "FullName": "Prof. Gerard Curt Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 633
+        "FieldLength": 699
       }
     }
   }

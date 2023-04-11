@@ -25,7 +25,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?flat=False
 GET /api/v1/List/Competitor/MDOItems?query=dolorem
 ```
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Towne Inc and Sons",
-    "ToolTip": "Ab velit.",
+    "Id": 859,
+    "Name": "Borer, Kulas and Mraz",
+    "ToolTip": "Voluptatum aliquid hic non omnis.",
     "Deleted": false,
-    "Rank": 372,
-    "Type": "nihil",
+    "Rank": 712,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 145,
-        "Name": "Kessler Inc and Sons",
-        "ToolTip": "Numquam dolorum quia fugiat modi quam qui.",
+        "Id": 809,
+        "Name": "Rau, D'Amore and Conroy",
+        "ToolTip": "Totam iure quo ut ea et est et.",
         "Deleted": true,
-        "Rank": 209,
-        "Type": "sint",
+        "Rank": 967,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "explicabo",
-        "ColorBlock": 665,
-        "ExtraInfo": "sint",
-        "StyleHint": "quos",
-        "FullName": "Reyna Jacobi",
+        "IconHint": "fugiat",
+        "ColorBlock": 640,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "minima",
+        "FullName": "Ms. Raquel Howell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 761
+            "FieldType": "System.String",
+            "FieldLength": 529
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 636,
-    "ExtraInfo": "facere",
-    "StyleHint": "nisi",
-    "FullName": "Dejuan Stokes",
+    "IconHint": "odio",
+    "ColorBlock": 44,
+    "ExtraInfo": "aut",
+    "StyleHint": "nulla",
+    "FullName": "Dr. Annie Anika Klein MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldLength": 555
       }
     }
   }

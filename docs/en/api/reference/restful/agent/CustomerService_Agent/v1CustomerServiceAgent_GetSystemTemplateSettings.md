@@ -75,8 +75,8 @@ OK
 | WeekStatTemplateId | int32 | Template for weekly statistics |
 | TicketAlarmHotlistTemplateId | int32 | Template for notification of an escalated request in the favourites list |
 | EmailAddresses | string | One or more e-mail addresses (comma-separated) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 392,
-  "CustomerCustomerReplyTemplateId": 389,
-  "CustomerPasswordTemplateId": 514,
-  "CustomerConfirmEmailTemplateId": 765,
-  "CustomerChatLogTemplateId": 224,
-  "NewLinkTemplateId": 219,
-  "HotlistNewMessageTemplateId": 354,
-  "HotlistTicketActivatedTemplateId": 371,
-  "UserTicketAlarmTemplateId": 758,
-  "HotlistTicketTakenOverTemplateId": 915,
-  "UserActiveTicketsTemplateId": 192,
-  "UserNewMessageTemplateId": 184,
-  "UserTicketActivatedTemplateId": 556,
-  "UserNewTicketTemplateId": 777,
-  "PublishKbQuestionTemplateId": 668,
-  "PublishKbAnswerTemplateId": 524,
-  "UserTicketTakenOverTemplateId": 314,
-  "PrintTicketTemplateId": 823,
-  "WeekStatTemplateId": 434,
-  "TicketAlarmHotlistTemplateId": 367,
-  "EmailAddresses": "cali.braun@rice.uk",
+  "CustomerNewCustomerTemplateId": 868,
+  "CustomerCustomerReplyTemplateId": 28,
+  "CustomerPasswordTemplateId": 857,
+  "CustomerConfirmEmailTemplateId": 408,
+  "CustomerChatLogTemplateId": 90,
+  "NewLinkTemplateId": 177,
+  "HotlistNewMessageTemplateId": 36,
+  "HotlistTicketActivatedTemplateId": 835,
+  "UserTicketAlarmTemplateId": 353,
+  "HotlistTicketTakenOverTemplateId": 983,
+  "UserActiveTicketsTemplateId": 11,
+  "UserNewMessageTemplateId": 292,
+  "UserTicketActivatedTemplateId": 532,
+  "UserNewTicketTemplateId": 131,
+  "PublishKbQuestionTemplateId": 806,
+  "PublishKbAnswerTemplateId": 816,
+  "UserTicketTakenOverTemplateId": 508,
+  "PrintTicketTemplateId": 640,
+  "WeekStatTemplateId": 809,
+  "TicketAlarmHotlistTemplateId": 591,
+  "EmailAddresses": "adrien_grant@wiegand.com",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 154
     }
   }
 }

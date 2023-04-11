@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=nesciunt
-GET /api/v1/Role?$top=733
-GET /api/v1/Role?$skip=9
+GET /api/v1/Role?$entities=est
+GET /api/v1/Role?$top=599
+GET /api/v1/Role?$skip=517
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=reiciendis
+GET /api/v1/Role?$context=officia
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=True
 GET /api/v1/Role?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "maxime",
+  "odata.nextLink": "aspernatur",
   "value": [
     {
-      "PrimaryKey": 38,
+      "PrimaryKey": 8625,
       "EntityName": "sale",
-      "saleId": 38,
-      "contactId": 8326,
-      "name": "Gislason-Koss"
+      "saleId": 8625,
+      "contactId": 3816,
+      "name": "Gleichner-Trantow"
     },
     {
-      "PrimaryKey": 3229,
+      "PrimaryKey": 3663,
       "EntityName": "sale",
-      "saleId": 3229,
-      "contactId": 6956,
-      "name": "Brekke, Kerluke and Schiller"
+      "saleId": 3663,
+      "contactId": 7419,
+      "name": "Jast, Labadie and Abernathy"
     }
   ]
 }

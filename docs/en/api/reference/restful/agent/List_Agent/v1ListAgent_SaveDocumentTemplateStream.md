@@ -61,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 342,
+  "DocumentTemplateId": 95,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "sed",
-  "PluginId": 362
+  "LanguageCode": "iure",
+  "PluginId": 908
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Parker-Dibbert",
-  "Description": "Profit-focused multi-state Graphical User Interface",
-  "ExternalReference": "quia",
-  "MimeType": "tempore",
-  "PluginId": 810
+  "Name": "Larson, Dooley and Wunsch",
+  "Description": "Enhanced system-worthy archive",
+  "ExternalReference": "nihil",
+  "MimeType": "et",
+  "PluginId": 641
 }
 ```

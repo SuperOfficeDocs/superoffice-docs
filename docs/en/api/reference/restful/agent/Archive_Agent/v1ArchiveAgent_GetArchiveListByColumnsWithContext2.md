@@ -157,8 +157,8 @@ OK
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lynch-Mueller",
-  "Columns": "unde",
-  "SortOrder": "voluptatibus",
-  "Restriction": "molestiae",
-  "Entities": "ut",
-  "Page": 133,
-  "PageSize": 738,
-  "Context": "sequi"
+  "ProviderName": "Auer Group",
+  "Columns": "dicta",
+  "SortOrder": "adipisci",
+  "Restriction": "necessitatibus",
+  "Entities": "corrupti",
+  "Page": 726,
+  "PageSize": 536,
+  "Context": "voluptates"
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Renner Group",
-    "PrimaryKey": 957,
+    "EntityName": "Kulas, Hickle and Raynor",
+    "PrimaryKey": 904,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptates",
-        "TooltipHint": "ad",
-        "LinkHint": "a"
+        "DisplayValue": "est",
+        "TooltipHint": "saepe",
+        "LinkHint": "aut"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "enim",
+    "LinkHint": "tempora",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldLength": 697
       }
     }
   }

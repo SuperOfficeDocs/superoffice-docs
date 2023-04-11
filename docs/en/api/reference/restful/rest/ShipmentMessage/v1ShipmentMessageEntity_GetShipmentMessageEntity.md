@@ -82,8 +82,8 @@ ShipmentMessageEntity found.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -102,33 +102,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 691,
-  "PlainMessage": "et",
-  "HtmlMessage": "est",
-  "SmsMessage": "rerum",
-  "Description": "Enterprise-wide static contingency",
-  "Subject": "hic",
-  "FolderId": 688,
-  "HeaderField": "nemo",
-  "Design": "ad",
+  "ShipmentMessageId": 157,
+  "PlainMessage": "esse",
+  "HtmlMessage": "consequuntur",
+  "SmsMessage": "non",
+  "Description": "Synergized non-volatile moratorium",
+  "Subject": "cumque",
+  "FolderId": 474,
+  "HeaderField": "maxime",
+  "Design": "voluptate",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Diverse national groupware",
-  "AccessKey": "nisi",
-  "DocumentMessage": 965,
-  "Registered": "2023-02-20T12:15:27.4006306+01:00",
-  "RegisteredAssociateId": 889,
-  "Updated": "2017-05-11T12:15:27.4006306+02:00",
-  "UpdatedAssociateId": 802,
-  "UpdatedCount": 464,
+  "LongDescription": "Horizontal transitional groupware",
+  "AccessKey": "possimus",
+  "DocumentMessage": 844,
+  "Registered": "2014-04-16T15:29:30.6244873+02:00",
+  "RegisteredAssociateId": 511,
+  "Updated": "1997-06-04T15:29:30.6244873+02:00",
+  "UpdatedAssociateId": 773,
+  "UpdatedCount": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 694
+      "FieldLength": 689
     }
   },
   "_Links": {

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "contact_new"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,6 +30,13 @@ Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ContactListProvider">ContactListProvider</see> class.
 The name of the MDO list is 'contact_new'.
+
+## Additional Attributes
+
+| Description | Name | Example Value |
+|-----|-----|------|
+|Comma separated list of one or more contact ids.| contact_id|1234,5678,9012|
+
 
 
 

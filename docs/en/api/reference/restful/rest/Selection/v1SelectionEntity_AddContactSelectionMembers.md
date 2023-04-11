@@ -49,7 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -58,17 +58,17 @@ No Content
 POST /api/v1/Selection/{selectionId}/Members/AddPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 139,
-    "ContactId": 569
+    "PersonId": 751,
+    "ContactId": 797
   },
   {
-    "PersonId": 139,
-    "ContactId": 569
+    "PersonId": 751,
+    "ContactId": 797
   }
 ]
 ```

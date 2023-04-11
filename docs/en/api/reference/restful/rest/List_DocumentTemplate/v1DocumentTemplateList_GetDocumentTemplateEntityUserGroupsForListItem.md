@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Connelly LLC",
-    "ToolTip": "Et sint natus est soluta pariatur ea ipsum.",
+    "Id": 391,
+    "Name": "Hudson Inc and Sons",
+    "ToolTip": "Minima facere neque non.",
     "Deleted": true,
-    "Rank": 532,
-    "Type": "pariatur",
-    "ColorBlock": 198,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "1998-12-08T12:15:28.1516187+01:00",
+    "Rank": 901,
+    "Type": "blanditiis",
+    "ColorBlock": 543,
+    "IconHint": "placeat",
+    "Selected": false,
+    "LastChanged": "2005-03-18T15:29:31.2634868+01:00",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Hyatt-Renner",
-        "ToolTip": "Nihil omnis ab earum accusantium.",
-        "Deleted": false,
-        "Rank": 13,
-        "Type": "animi",
-        "ColorBlock": 877,
-        "IconHint": "voluptate",
-        "Selected": true,
-        "LastChanged": "2005-09-10T12:15:28.1516187+02:00",
+        "Id": 865,
+        "Name": "Steuber, Howell and Johnson",
+        "ToolTip": "Odio vitae ullam neque modi sunt ab sint.",
+        "Deleted": true,
+        "Rank": 840,
+        "Type": "quo",
+        "ColorBlock": 886,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2005-12-28T15:29:31.2634868+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "nobis",
+        "ExtraInfo": "saepe",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Elias Considine Jr.",
+        "FullName": "Jett Abbott Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldType": "System.String",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Antwan Leann Carroll III",
+    "ExtraInfo": "sint",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Miss Herminia Ashlynn Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 86
       }
     }
   }

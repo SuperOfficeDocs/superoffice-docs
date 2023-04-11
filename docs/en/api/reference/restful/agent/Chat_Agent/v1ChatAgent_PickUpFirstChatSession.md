@@ -87,8 +87,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 527,
-  "TopicId": 99,
+  "ChatSessionId": 271,
+  "TopicId": 765,
   "User": null,
   "Person": null,
-  "CustomerAlias": "impedit",
-  "CustomerHost": "molestiae",
-  "CustomerName": "Rutherford LLC",
-  "CustomerEmail": "domenick_morar@moenhartmann.biz",
-  "CustomerPhone": "1-856-562-1533 x75767",
+  "CustomerAlias": "aspernatur",
+  "CustomerHost": "non",
+  "CustomerName": "Klein-Hegmann",
+  "CustomerEmail": "jedediah_kunde@murphy.info",
+  "CustomerPhone": "(387)903-0806 x94222",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Eichmann, Pfannerstill and Schumm",
+  "CustomerCompanyName": "Baumbach-Bogisich",
   "Status": "Closed",
-  "FirstMessage": "voluptatum",
-  "LastMessage": "iure",
-  "WhenRequested": "2006-12-02T12:15:18.3627624+01:00",
-  "WhenStarted": "2017-04-07T12:15:18.3627624+02:00",
-  "WhenEnded": "2005-12-29T12:15:18.3627624+01:00",
-  "WhenIdle": "2002-02-09T12:15:18.3627624+01:00",
-  "WhenFetched": "2001-08-14T12:15:18.3627624+02:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 728,
-  "AlertLevel": 990,
-  "Rank": 210,
+  "FirstMessage": "fugit",
+  "LastMessage": "qui",
+  "WhenRequested": "2017-11-25T15:29:20.9802863+01:00",
+  "WhenStarted": "2007-06-09T15:29:20.9802863+02:00",
+  "WhenEnded": "2001-11-03T15:29:20.9802863+01:00",
+  "WhenIdle": "1998-02-22T15:29:20.9802863+01:00",
+  "WhenFetched": "2005-05-29T15:29:20.9802863+02:00",
+  "SessionKey": "suscipit",
+  "InitialQueuePos": 114,
+  "AlertLevel": 520,
+  "Rank": 108,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 310,
+  "ChatbotIsActive": false,
+  "Rating": 225,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 556
     }
   }
 }

@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Abshire, Fisher and Schinner"
+  "TaskName": "Bosco LLC"
 }
 ```
 
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Trantow-Bogan",
-    "AssociateId": 318,
-    "DetailsTable": 131,
-    "DetailsRecord": 455,
+    "Id": 352,
+    "Name": "Waelchi, Upton and Effertz",
+    "AssociateId": 564,
+    "DetailsTable": 67,
+    "DetailsRecord": 196,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "consequatur",
-      "ParameterObject2": "inventore"
+      "ParameterObject1": "enim",
+      "ParameterObject2": "vitae"
     },
-    "LastStarted": "2009-02-02T12:15:18.2127622+01:00",
-    "Created": "2007-09-04T12:15:18.2127622+02:00",
-    "StartCount": 671,
-    "DatabaseSerialNumber": "1857456",
-    "Context": "quo",
-    "Result": "dolorum",
+    "LastStarted": "2002-06-22T15:29:20.8302893+02:00",
+    "Created": "2001-01-01T15:29:20.8302893+01:00",
+    "StartCount": 726,
+    "DatabaseSerialNumber": "731497",
+    "Context": "eos",
+    "Result": "placeat",
     "State": "All",
-    "Description": "Centralized optimal firmware",
-    "Response": "nihil",
-    "Request": "reiciendis",
-    "ProgressDescription": "Total zero defect software",
-    "ProgressPercent": 18,
-    "FileName": "Mertz-Nader",
+    "Description": "Implemented impactful Graphical User Interface",
+    "Response": "odit",
+    "Request": "quo",
+    "ProgressDescription": "Streamlined optimal matrix",
+    "ProgressPercent": 149,
+    "FileName": "Ward LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldType": "System.String",
+        "FieldLength": 373
       }
     }
   }

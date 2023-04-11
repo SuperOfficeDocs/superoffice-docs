@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 967,
-    "Name": "Larkin, Grimes and O'Keefe",
-    "Tooltip": "iure",
+    "HeadingId": 384,
+    "Name": "Schneider-Lesch",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 624,
-    "UdListDefinitionId": 982
+    "Rank": 174,
+    "UdListDefinitionId": 551
   },
   {
-    "HeadingId": 967,
-    "Name": "Larkin, Grimes and O'Keefe",
-    "Tooltip": "iure",
+    "HeadingId": 384,
+    "Name": "Schneider-Lesch",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 624,
-    "UdListDefinitionId": 982
+    "Rank": 174,
+    "UdListDefinitionId": 551
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 94,
-    "Name": "Hermiston LLC",
-    "Tooltip": "inventore",
+    "HeadingId": 671,
+    "Name": "Ebert-Eichmann",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 498,
-    "UdListDefinitionId": 740,
+    "Rank": 446,
+    "UdListDefinitionId": 999,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 334
+        "FieldLength": 897
       }
     }
   }

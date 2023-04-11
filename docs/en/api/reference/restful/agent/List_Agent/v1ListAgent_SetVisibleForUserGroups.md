@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 425,
-  "ListItemId": 774,
+  "UdListDefinitionId": 831,
+  "ListItemId": 62,
   "UserGroups": [
     {
-      "Id": 914,
-      "Name": "Tromp-Nader",
-      "ToolTip": "Nulla vel voluptatem alias est quas dolorem.",
+      "Id": 436,
+      "Name": "Nikolaus-Rempel",
+      "ToolTip": "Harum reprehenderit velit blanditiis in quasi commodi excepturi.",
       "Deleted": true,
-      "Rank": 116,
-      "Type": "porro",
-      "ColorBlock": 946,
-      "IconHint": "repudiandae",
+      "Rank": 185,
+      "Type": "et",
+      "ColorBlock": 557,
+      "IconHint": "voluptas",
       "Selected": true,
-      "LastChanged": "2012-10-09T12:15:19.2497492+02:00",
+      "LastChanged": "2013-03-23T15:29:22.0097725+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "temporibus",
-      "StyleHint": "ut",
+      "ExtraInfo": "suscipit",
+      "StyleHint": "labore",
       "Hidden": false,
-      "FullName": "Sam Ferry III"
+      "FullName": "Mitchell Conn"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Prohaska Inc and Sons",
-    "ToolTip": "Quibusdam et placeat perferendis occaecati.",
-    "Deleted": false,
-    "Rank": 701,
-    "Type": "quia",
-    "ColorBlock": 377,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2010-06-03T12:15:19.2507472+02:00",
+    "Id": 712,
+    "Name": "Osinski, Kirlin and Bergstrom",
+    "ToolTip": "Voluptatibus laboriosam qui odit natus sunt.",
+    "Deleted": true,
+    "Rank": 548,
+    "Type": "qui",
+    "ColorBlock": 556,
+    "IconHint": "aperiam",
+    "Selected": false,
+    "LastChanged": "2021-02-16T15:29:22.0112727+01:00",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Ernser, Langworth and Sauer",
-        "ToolTip": "Nostrum voluptas.",
+        "Id": 665,
+        "Name": "Rogahn Inc and Sons",
+        "ToolTip": "Laudantium eos ipsa possimus optio enim porro.",
         "Deleted": true,
-        "Rank": 604,
-        "Type": "quia",
-        "ColorBlock": 186,
-        "IconHint": "dicta",
+        "Rank": 98,
+        "Type": "error",
+        "ColorBlock": 549,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1997-04-26T12:15:19.2507472+02:00",
+        "LastChanged": "2015-08-15T15:29:22.0112727+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Miss Elwyn Kutch DVM",
+        "ExtraInfo": "sint",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Ima Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldType": "System.String",
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
+    "ExtraInfo": "qui",
     "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Lorenza Zboncak II",
+    "FullName": "Carlo Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 985
       }
     }
   }

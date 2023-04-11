@@ -92,8 +92,8 @@ ChatTopicEntity found.
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -112,48 +112,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 366,
-  "Name": "Monahan Inc and Sons",
-  "Description": "Managed optimizing internet solution",
-  "WelcomeMessage": "veritatis",
+  "ChatTopicId": 815,
+  "Name": "Bosco, Labadie and Batz",
+  "Description": "Function-based 24/7 firmware",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2017-11-17T12:15:26.5226414+01:00",
-  "SecondsPrAccept": 366,
-  "AlertRecipient": "dolor",
+  "LastAccept": "2021-09-01T15:29:29.4292035+02:00",
+  "SecondsPrAccept": 861,
+  "AlertRecipient": "ad",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quam",
+  "BadgeHeader": "sunt",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "tempore",
-  "WarnNewChatMinutes": 447,
-  "WarnManagerNewChatMinutes": 958,
-  "TicketEnabled": false,
+  "CustomQueueText": "quo",
+  "WarnNewChatMinutes": 819,
+  "WarnManagerNewChatMinutes": 389,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 72,
-  "WarnManagerChatMessageMinutes": 843,
+  "WarnChatMessageMinutes": 595,
+  "WarnManagerChatMessageMinutes": 250,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 458,
-  "OfflineFormQueueLength": 17,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "laboriosam",
+  "OfflineFormTimeLimit": 102,
+  "OfflineFormQueueLength": 442,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 681
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

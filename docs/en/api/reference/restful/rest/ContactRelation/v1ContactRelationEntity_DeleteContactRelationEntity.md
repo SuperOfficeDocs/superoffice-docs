@@ -43,7 +43,7 @@ ContactRelationEntity deleted.
 | 204 | ContactRelationEntity deleted. |
 | 412 | Delete aborted because ContactRelationEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -52,7 +52,7 @@ ContactRelationEntity deleted.
 DELETE /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

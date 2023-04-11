@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Borer-Hansen",
-    "Tooltip": "praesentium",
+    "Id": 653,
+    "Name": "Jenkins-Kreiger",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 382,
-    "Rank": 120
+    "UdListDefinitionId": 37,
+    "Rank": 714
   },
   {
-    "Id": 472,
-    "Name": "Borer-Hansen",
-    "Tooltip": "praesentium",
+    "Id": 653,
+    "Name": "Jenkins-Kreiger",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 382,
-    "Rank": 120
+    "UdListDefinitionId": 37,
+    "Rank": 714
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Brown Inc and Sons",
-    "Tooltip": "a",
-    "Deleted": false,
-    "UdListDefinitionId": 38,
-    "Rank": 29,
+    "Id": 899,
+    "Name": "Thompson, Collins and Littel",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "UdListDefinitionId": 396,
+    "Rank": 582,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 942
+        "FieldLength": 925
       }
     }
   }

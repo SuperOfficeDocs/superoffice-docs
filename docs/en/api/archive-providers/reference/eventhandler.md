@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "EventHandler"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -46,7 +46,7 @@ Lists all triggers in screenchooser table with screenType &gt;= 100.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EventHandler?$select=uniqueIdentifier,path,screenType
+GET /api/v1/archive/EventHandler?$select=path,screenType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

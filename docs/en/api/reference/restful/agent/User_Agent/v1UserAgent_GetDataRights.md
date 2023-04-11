@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 53,
-  "TableName": "Zieme-Wilkinson"
+  "RoleId": 852,
+  "TableName": "Ankunding, Hermiston and Purdy"
 }
 ```
 
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "animi"
+  "1": "est",
+  "2": "nemo"
 }
 ```

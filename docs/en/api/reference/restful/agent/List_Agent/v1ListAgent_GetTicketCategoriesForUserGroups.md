@@ -74,8 +74,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    141,
-    670
+    486,
+    657
   ]
 }
 ```
@@ -102,50 +102,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Rippin Inc and Sons",
-    "ToolTip": "Excepturi nisi est expedita porro eum repellat.",
+    "Id": 559,
+    "Name": "Lehner-West",
+    "ToolTip": "Natus doloremque tempora delectus.",
     "Deleted": false,
-    "Rank": 735,
-    "Type": "occaecati",
+    "Rank": 340,
+    "Type": "perferendis",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Keeling-Keebler",
-        "ToolTip": "Excepturi sed perspiciatis illo autem.",
-        "Deleted": true,
-        "Rank": 852,
-        "Type": "facere",
+        "Id": 450,
+        "Name": "Dickinson LLC",
+        "ToolTip": "Nemo eum nobis ipsum dolorem minus sit.",
+        "Deleted": false,
+        "Rank": 293,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 659,
-        "ExtraInfo": "ut",
-        "StyleHint": "odit",
-        "FullName": "Mr. Clark Jane Rosenbaum IV",
+        "IconHint": "reiciendis",
+        "ColorBlock": 163,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "itaque",
+        "FullName": "Misael Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 375
+            "FieldType": "System.String",
+            "FieldLength": 247
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 438,
-    "ExtraInfo": "sed",
-    "StyleHint": "at",
-    "FullName": "Laney Hand",
+    "IconHint": "aut",
+    "ColorBlock": 215,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "sequi",
+    "FullName": "Adolph Lizzie Morissette Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 29
+        "FieldType": "System.String",
+        "FieldLength": 37
       }
     }
   }

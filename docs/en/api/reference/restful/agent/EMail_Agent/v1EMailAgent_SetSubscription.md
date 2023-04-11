@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Donnelly-Volkman",
-      "Delimiter": "officiis",
-      "Flags": "ea",
-      "TotalItems": 86,
-      "UnreadItems": 229,
-      "Subscribed": false,
-      "EmailFolderId": 371
+      "Name": "Skiles, Hills and Hills",
+      "Delimiter": "repellendus",
+      "Flags": "laboriosam",
+      "TotalItems": 582,
+      "UnreadItems": 761,
+      "Subscribed": true,
+      "EmailFolderId": 974
     }
   ]
 }

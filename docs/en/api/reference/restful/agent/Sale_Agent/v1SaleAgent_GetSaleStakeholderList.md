@@ -78,8 +78,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,31 +98,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Cronin Group",
-    "Comment": "beatae",
-    "StakeholderRoleId": 478,
-    "CountryId": 634,
-    "PersonId": 670,
-    "EmailDescription": "osvaldo.beahan@mooreokeefe.com",
-    "EmailId": 172,
-    "EmailAddress": "ardith_farrell@hyattbosco.us",
-    "PhoneId": 712,
-    "ContactName": "Dach LLC",
-    "ContactId": 591,
-    "SaleId": 440,
-    "Mrmrs": "aliquid",
-    "Firstname": "Kyler",
-    "MiddleName": "Orn Inc and Sons",
-    "Lastname": "Purdy",
-    "SaleStakeholderId": 525,
-    "Rank": 379,
-    "Phone": "359.812.0170 x1058",
+    "StakeholderRoleName": "West-Weber",
+    "Comment": "ullam",
+    "StakeholderRoleId": 211,
+    "CountryId": 331,
+    "PersonId": 42,
+    "EmailDescription": "westley_farrell@marvin.uk",
+    "EmailId": 628,
+    "EmailAddress": "eugenia@moen.us",
+    "PhoneId": 97,
+    "ContactName": "Shanahan LLC",
+    "ContactId": 640,
+    "SaleId": 87,
+    "Mrmrs": "sit",
+    "Firstname": "Ernest",
+    "MiddleName": "Bashirian Inc and Sons",
+    "Lastname": "Schuster",
+    "SaleStakeholderId": 810,
+    "Rank": 251,
+    "Phone": "953.175.4036 x69744",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 669
       }
     }
   }

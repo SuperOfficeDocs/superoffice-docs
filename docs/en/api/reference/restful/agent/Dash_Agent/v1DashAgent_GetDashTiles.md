@@ -68,8 +68,8 @@ OK
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
 | DashTileDefinition | DashTileDefinition | The tile definition entity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dash/GetDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 699
+  "DashboardId": 336
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 546,
-    "DashboardId": 791,
-    "Height": 67,
-    "Width": 980,
-    "Rank": 344,
+    "DashboardTileId": 550,
+    "DashboardId": 162,
+    "Height": 945,
+    "Width": 803,
+    "Rank": 297,
     "DashTileDefinition": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 858
       }
     }
   }

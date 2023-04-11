@@ -48,7 +48,7 @@ ConfigurableScreenDelta
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConfigurableScreenDelta | TableRight |  |
+| ConfigurableScreenDelta | TimeZoneData |  |
 
 ## Response:array
 
@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 223,
-    "Name": "Doyle-Emmerich",
-    "Description": "Up-sized bifurcated architecture",
-    "DeltaJson": "quas",
+    "ConfigurableScreenDeltaId": 660,
+    "Name": "Schoen-Murray",
+    "Description": "Extended encompassing database",
+    "DeltaJson": "error",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "possimus",
-    "UpdatedDate": "2009-09-13T12:15:18.4237632+02:00",
-    "CreatedDate": "2000-03-29T12:15:18.4237632+02:00",
+    "RecipeId": "voluptas",
+    "UpdatedDate": "2013-08-07T15:29:21.0377856+02:00",
+    "CreatedDate": "2005-02-28T15:29:21.0377856+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      618,
-      233
+      612,
+      888
     ],
-    "AppliesToKey": "maxime",
+    "AppliesToKey": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldType": "System.String",
+        "FieldLength": 803
       }
     }
   }

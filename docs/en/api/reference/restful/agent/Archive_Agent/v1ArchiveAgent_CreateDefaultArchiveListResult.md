@@ -48,8 +48,8 @@ OK
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -67,26 +67,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 150,
+  "RowCount": 779,
   "Rows": [
     {
-      "EntityName": "Howe Inc and Sons",
-      "PrimaryKey": 753,
+      "EntityName": "Kessler-Spinka",
+      "PrimaryKey": 41,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nihil",
-          "TooltipHint": "eveniet",
-          "LinkHint": "similique"
+          "DisplayValue": "quia",
+          "TooltipHint": "aperiam",
+          "LinkHint": "dicta"
         }
       },
-      "LinkHint": "itaque",
-      "StyleHint": "molestiae",
+      "LinkHint": "quo",
+      "StyleHint": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 186
         }
       }
     }
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   }
 }

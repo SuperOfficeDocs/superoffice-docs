@@ -87,8 +87,8 @@ OK
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,9 +100,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 13,
-  "QuoteAlternativeName": "Mante-Barton",
-  "QuoteAlternativeDescription": "Decentralized attitude-oriented structure"
+  "QuoteVersionId": 674,
+  "QuoteAlternativeName": "Schultz LLC",
+  "QuoteAlternativeDescription": "Realigned needs-based encryption"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 754,
-  "ERPQuoteAlternativeKey": "odit",
-  "QuoteVersionId": 871,
-  "Name": "Leffler-Bahringer",
-  "Description": "Integrated bottom-line hierarchy",
+  "QuoteAlternativeId": 197,
+  "ERPQuoteAlternativeKey": "libero",
+  "QuoteVersionId": 279,
+  "Name": "Leffler, Moen and Roob",
+  "Description": "Sharable interactive implementation",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 19223.956,
-  "ERPDiscountAmount": 13419.788,
-  "DiscountPercent": 25933.85,
-  "DiscountAmount": 22881.334,
+  "Reason": "streamline synergistic mindshare",
+  "ERPDiscountPercent": 10699.475999999999,
+  "ERPDiscountAmount": 21718.62,
+  "DiscountPercent": 7756.65,
+  "DiscountAmount": 15387.939999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quod",
-  "VAT": 14999.323999999999,
-  "EarningPercent": 13961.97,
-  "EarningAmount": 20690.667999999998,
-  "SubTotal": 30252.502,
-  "TotalPrice": 7562.342,
-  "ExtraField1": "sint",
-  "ExtraField2": "magnam",
-  "ExtraField3": "numquam",
-  "ExtraField4": "eligendi",
-  "ExtraField5": "quidem",
+  "VATInfo": "maxime",
+  "VAT": 15510.166,
+  "EarningPercent": 2422.582,
+  "EarningAmount": 10821.702,
+  "SubTotal": 1914.874,
+  "TotalPrice": 30308.914,
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "officia",
+  "ExtraField3": "quia",
+  "ExtraField4": "ut",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   }
 }

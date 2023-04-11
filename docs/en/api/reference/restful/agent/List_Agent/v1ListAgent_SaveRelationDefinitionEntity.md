@@ -67,8 +67,8 @@ OK
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,16 +76,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 365,
-  "Name": "Schmidt, Schroeder and Braun",
-  "Tooltip": "dolorum",
-  "PassiveText": "non",
+  "ReldefId": 516,
+  "Name": "Bins Inc and Sons",
+  "Tooltip": "repellendus",
+  "PassiveText": "velit",
   "Deleted": false,
-  "Rank": 969,
+  "Rank": 784,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -98,12 +98,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 437,
-  "Name": "Wiza-Conroy",
-  "Tooltip": "maiores",
-  "PassiveText": "natus",
+  "ReldefId": 953,
+  "Name": "Carter Group",
+  "Tooltip": "voluptatem",
+  "PassiveText": "ut",
   "Deleted": false,
-  "Rank": 768,
+  "Rank": 711,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldLength": 590
     }
   }
 }

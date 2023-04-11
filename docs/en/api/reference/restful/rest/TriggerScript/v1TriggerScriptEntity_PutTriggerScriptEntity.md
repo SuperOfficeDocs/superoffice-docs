@@ -88,8 +88,8 @@ TriggerScriptEntity updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -102,16 +102,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 268,
-  "Name": "Sporer-Bahringer",
+  "ScreenChooserId": 935,
+  "Name": "Grady, D'Amore and Raynor",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ea",
-  "Source": "aut",
-  "Registered": "2005-01-07T12:15:27.589626+01:00",
-  "RegisteredAssociateId": 266,
-  "Updated": "2016-03-03T12:15:27.589626+01:00",
-  "UpdatedAssociateId": 526
+  "UniqueIdentifier": "aut",
+  "Source": "voluptas",
+  "Registered": "2002-06-15T15:29:30.7984848+02:00",
+  "RegisteredAssociateId": 919,
+  "Updated": "2013-12-03T15:29:30.7984848+01:00",
+  "UpdatedAssociateId": 531
 }
 ```
 
@@ -122,27 +122,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 297,
-  "Name": "Klein-Veum",
+  "ScreenChooserId": 551,
+  "Name": "Carroll, Shanahan and Schinner",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "delectus",
-  "Source": "dolorem",
-  "Registered": "2015-07-21T12:15:27.589626+02:00",
-  "RegisteredAssociateId": 18,
-  "Updated": "2010-06-21T12:15:27.589626+02:00",
-  "UpdatedAssociateId": 226,
+  "Enabled": false,
+  "UniqueIdentifier": "expedita",
+  "Source": "ut",
+  "Registered": "2019-02-24T15:29:30.7994863+01:00",
+  "RegisteredAssociateId": 771,
+  "Updated": "2014-06-13T15:29:30.7994863+02:00",
+  "UpdatedAssociateId": 97,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 131
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

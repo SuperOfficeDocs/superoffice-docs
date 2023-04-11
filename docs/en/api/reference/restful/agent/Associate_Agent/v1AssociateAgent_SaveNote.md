@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,14 +64,14 @@ No Content
 POST /api/v1/Agents/Associate/SaveNote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 490,
+  "AssociateId": 822,
   "Note": [
-    "odit",
-    "ab"
+    "aut",
+    "occaecati"
   ]
 }
 ```

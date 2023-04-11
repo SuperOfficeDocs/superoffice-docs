@@ -133,8 +133,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -142,60 +142,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional grid-enabled frame",
-  "Postit": "molestiae",
+  "Description": "Inverse zero administration utilisation",
+  "Postit": "libero",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 131,
-  "IncludePerson": 220,
-  "MemberCount": 655,
-  "Name": "Johnston-Pollich",
-  "PostitTextId": 515,
-  "CreatedDate": "2004-09-09T12:15:20.1237355+02:00",
-  "SelectionId": 826,
-  "SoundEx": "doloremque",
-  "Source": 611,
-  "TextId": 552,
-  "UpdatedDate": "2016-06-21T12:15:20.1237355+02:00",
-  "UpdatedCount": 786,
-  "Visibility": 448,
+  "GroupIdx": 634,
+  "IncludePerson": 739,
+  "MemberCount": 383,
+  "Name": "Jenkins-Lebsack",
+  "PostitTextId": 483,
+  "CreatedDate": "2013-03-02T15:29:22.7637971+01:00",
+  "SelectionId": 145,
+  "SoundEx": "itaque",
+  "Source": 571,
+  "TextId": 476,
+  "UpdatedDate": "2016-05-23T15:29:22.7637971+02:00",
+  "UpdatedCount": 672,
+  "Visibility": 352,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 86,
-  "TargetTableName": "Rowe-Pagac",
+  "TargetTableNumber": 597,
+  "TargetTableName": "Quitzon, Jerde and Stamm",
   "Completed": false,
-  "LeftSelectionId": 69,
-  "RightSelectionId": 368,
+  "LeftSelectionId": 832,
+  "RightSelectionId": 749,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Morar, Jast and Hilpert",
-  "ShadowProviderName": "Satterfield, Mertz and Harvey",
-  "ChartKey": "expedita",
-  "LastLoaded": "1995-11-13T12:15:20.1247378+01:00",
-  "LastLoadedBy": 825,
+  "MainProviderName": "Kihn, Fisher and Tremblay",
+  "ShadowProviderName": "Simonis LLC",
+  "ChartKey": "accusantium",
+  "LastLoaded": "2019-09-11T15:29:22.7637971+02:00",
+  "LastLoadedBy": 795,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-01-13T12:15:20.1247378+01:00",
-  "LastMembershipChangeBy": 367,
+  "LastMembershipChange": "2001-08-18T15:29:22.7643002+02:00",
+  "LastMembershipChangeBy": 247,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "a",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Hirthe-Grant",
-  "DashboardTileDefinitionId": 505,
+  "MainHeading": "doloremque",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Durgan-Langosh",
+  "DashboardTileDefinitionId": 458,
   "VisibleFor": [
     {
-      "VisibleId": 950,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "natus"
+      "DisplayValue": "consequatur"
     },
     {
-      "VisibleId": 950,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "natus"
+      "DisplayValue": "consequatur"
     }
   ]
 }
@@ -208,70 +208,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound dedicated ability",
-  "Postit": "eum",
+  "Description": "Seamless system-worthy info-mediaries",
+  "Postit": "necessitatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 721,
-  "IncludePerson": 896,
-  "MemberCount": 271,
-  "Name": "Fritsch-Mohr",
-  "PostitTextId": 728,
-  "CreatedDate": "1996-03-20T12:15:20.1287349+01:00",
-  "SelectionId": 63,
-  "SoundEx": "est",
-  "Source": 451,
-  "TextId": 79,
-  "UpdatedDate": "2006-11-11T12:15:20.1287349+01:00",
-  "UpdatedCount": 11,
-  "Visibility": 562,
+  "GroupIdx": 552,
+  "IncludePerson": 11,
+  "MemberCount": 178,
+  "Name": "Paucek, Weber and Waelchi",
+  "PostitTextId": 45,
+  "CreatedDate": "2002-03-26T15:29:22.7687977+01:00",
+  "SelectionId": 446,
+  "SoundEx": "provident",
+  "Source": 27,
+  "TextId": 365,
+  "UpdatedDate": "1999-11-07T15:29:22.7687977+01:00",
+  "UpdatedCount": 908,
+  "Visibility": 211,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 970,
-  "TargetTableName": "Rosenbaum LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 129,
+  "TargetTableName": "Kemmer-Bernier",
   "Completed": false,
-  "LeftSelectionId": 427,
-  "RightSelectionId": 381,
+  "LeftSelectionId": 280,
+  "RightSelectionId": 537,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bartoletti, Balistreri and Kiehn",
-  "ShadowProviderName": "Hackett Inc and Sons",
-  "ChartKey": "sit",
-  "LastLoaded": "2016-01-06T12:15:20.1297424+01:00",
-  "LastLoadedBy": 289,
+  "MainProviderName": "Yost Inc and Sons",
+  "ShadowProviderName": "Jewess-Mraz",
+  "ChartKey": "ea",
+  "LastLoaded": "2009-12-30T15:29:22.7687977+01:00",
+  "LastLoadedBy": 192,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-02-17T12:15:20.1297424+01:00",
-  "LastMembershipChangeBy": 810,
+  "LastMembershipChange": "2002-05-16T15:29:22.7692971+02:00",
+  "LastMembershipChangeBy": 770,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "atque",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Turner-Bogisich",
-  "DashboardTileDefinitionId": 31,
+  "MainHeading": "qui",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Lind LLC",
+  "DashboardTileDefinitionId": 61,
   "VisibleFor": [
     {
-      "VisibleId": 181,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 608
         }
       }
     },
     {
-      "VisibleId": 181,
+      "VisibleId": 279,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "architecto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 608
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 804
     }
   }
 }

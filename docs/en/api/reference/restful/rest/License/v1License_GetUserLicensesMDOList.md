@@ -59,8 +59,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,56 +79,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Blick, Parisian and Durgan",
-    "ToolTip": "Molestiae non blanditiis velit quis.",
-    "Deleted": true,
-    "Rank": 330,
-    "Type": "qui",
-    "ColorBlock": 848,
-    "IconHint": "libero",
+    "Id": 852,
+    "Name": "Donnelly, Nitzsche and Abshire",
+    "ToolTip": "Nam pariatur debitis repudiandae quo recusandae doloribus quia.",
+    "Deleted": false,
+    "Rank": 96,
+    "Type": "nulla",
+    "ColorBlock": 477,
+    "IconHint": "eligendi",
     "Selected": true,
-    "LastChanged": "1998-09-14T12:15:27.6436228+02:00",
+    "LastChanged": "2001-08-27T15:29:30.8554841+02:00",
     "ChildItems": [
       {
-        "Id": 951,
-        "Name": "Shields, Schumm and Ritchie",
-        "ToolTip": "Repellendus et laboriosam delectus adipisci qui reiciendis cum.",
+        "Id": 183,
+        "Name": "Dietrich LLC",
+        "ToolTip": "Voluptatem molestiae ipsam exercitationem.",
         "Deleted": false,
-        "Rank": 265,
-        "Type": "quaerat",
-        "ColorBlock": 746,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2017-02-26T12:15:27.6436228+01:00",
+        "Rank": 470,
+        "Type": "nihil",
+        "ColorBlock": 889,
+        "IconHint": "id",
+        "Selected": false,
+        "LastChanged": "2007-10-14T15:29:30.8554841+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Korey Bogisich",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Annamae Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 566
+            "FieldLength": 162
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Emmanuel Leland Reinger IV",
+    "ExtraInfo": "vel",
+    "StyleHint": "molestias",
+    "Hidden": true,
+    "FullName": "Dakota Clovis Pouros PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldLength": 545
       }
     }
   }

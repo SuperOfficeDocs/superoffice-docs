@@ -62,8 +62,8 @@ OK
 | ValueControl | string | Type of control used to display the value. |
 | CanCreatePerson | bool |  |
 | IsUserNameSupported | bool |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "DisplayType": "consequatur",
-    "Type": "vel",
-    "Description": "Re-engineered impactful moderator",
+    "Type": "quaerat",
+    "Description": "Robust demand-driven leverage",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 417
       }
     }
   }

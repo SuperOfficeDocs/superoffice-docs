@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 631,
-    "Name": "Okuneva LLC",
-    "Tooltip": "dolores",
+    "HeadingId": 435,
+    "Name": "Mann Inc and Sons",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 894,
-    "UdListDefinitionId": 303
+    "Rank": 988,
+    "UdListDefinitionId": 510
   },
   {
-    "HeadingId": 631,
-    "Name": "Okuneva LLC",
-    "Tooltip": "dolores",
+    "HeadingId": 435,
+    "Name": "Mann Inc and Sons",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 894,
-    "UdListDefinitionId": 303
+    "Rank": 988,
+    "UdListDefinitionId": 510
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 696,
-    "Name": "Walsh Inc and Sons",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "Rank": 816,
-    "UdListDefinitionId": 209,
+    "HeadingId": 499,
+    "Name": "Ledner-Wunsch",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 501,
+    "UdListDefinitionId": 574,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 318
       }
     }
   }

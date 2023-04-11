@@ -60,8 +60,8 @@ OK
 | ToolTip | string | Tooltip to be used in the GUI |
 | Actions | string | The actions to call when invoked |
 | ActionData | string | The data to be used when the command is invoked |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Swaniawski, Haley and Collier",
-    "DisplayName": "O'Connell Inc and Sons",
-    "Description": "Versatile logistical frame",
-    "ToolTip": "Ut quia omnis sit saepe.",
+    "Name": "Hagenes, Rau and Deckow",
+    "DisplayName": "Schinner-Ernser",
+    "Description": "Managed discrete focus group",
+    "ToolTip": "Facilis consectetur.",
     "Actions": "Implicit",
-    "ActionData": "eius",
+    "ActionData": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 434
       }
     }
   }

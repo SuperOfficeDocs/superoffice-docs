@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "O'Connell Group",
-    "ToolTip": "Doloremque optio ut unde.",
+    "Id": 635,
+    "Name": "Renner Group",
+    "ToolTip": "Molestiae sint ad velit voluptatibus necessitatibus voluptate nam.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "officiis",
-    "ColorBlock": 404,
-    "IconHint": "expedita",
+    "Rank": 561,
+    "Type": "sapiente",
+    "ColorBlock": 170,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2016-07-24T12:15:28.4366175+02:00",
+    "LastChanged": "2002-11-25T15:29:31.5474745+01:00",
     "ChildItems": [
       {
-        "Id": 179,
-        "Name": "Franecki-Wilkinson",
-        "ToolTip": "Earum modi ut voluptas est.",
-        "Deleted": false,
-        "Rank": 238,
-        "Type": "sapiente",
-        "ColorBlock": 943,
-        "IconHint": "numquam",
-        "Selected": true,
-        "LastChanged": "2013-01-13T12:15:28.4366175+01:00",
+        "Id": 333,
+        "Name": "Grant, Williamson and Farrell",
+        "ToolTip": "Id ut.",
+        "Deleted": true,
+        "Rank": 37,
+        "Type": "autem",
+        "ColorBlock": 118,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2012-04-02T15:29:31.5479748+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "iste",
+        "ExtraInfo": "magni",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Camylle Goldner"
+        "FullName": "Dax Mertz"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "vero",
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Tracy Crona"
+    "FullName": "Oliver Gorczany"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Murray-Hermann",
-    "ToolTip": "Excepturi sint sapiente magni adipisci est laudantium vel.",
-    "Deleted": false,
-    "Rank": 892,
-    "Type": "sequi",
-    "ColorBlock": 669,
-    "IconHint": "omnis",
+    "Id": 683,
+    "Name": "Abernathy LLC",
+    "ToolTip": "Explicabo nihil placeat sunt atque.",
+    "Deleted": true,
+    "Rank": 808,
+    "Type": "at",
+    "ColorBlock": 117,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "1999-01-20T12:15:28.4376144+01:00",
+    "LastChanged": "2004-03-14T15:29:31.5499753+01:00",
     "ChildItems": [
       {
-        "Id": 898,
-        "Name": "Lehner-Hahn",
-        "ToolTip": "Quidem aut maiores est enim cumque.",
-        "Deleted": false,
-        "Rank": 509,
-        "Type": "nisi",
-        "ColorBlock": 950,
-        "IconHint": "sit",
+        "Id": 230,
+        "Name": "Nader-Wiegand",
+        "ToolTip": "Qui sequi aut voluptates eum.",
+        "Deleted": true,
+        "Rank": 254,
+        "Type": "dolorum",
+        "ColorBlock": 20,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "1999-06-19T12:15:28.4376144+02:00",
+        "LastChanged": "2009-03-01T15:29:31.5499753+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Rylee Ethel Predovic MD",
+        "ExtraInfo": "et",
+        "StyleHint": "delectus",
+        "Hidden": false,
+        "FullName": "Mrs. Brad Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldLength": 354
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "libero",
+    "ExtraInfo": "sit",
+    "StyleHint": "quos",
     "Hidden": false,
-    "FullName": "Ms. Anastacio Samara Howe",
+    "FullName": "Rudolph Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 535
+        "FieldType": "System.Int32",
+        "FieldLength": 841
       }
     }
   }

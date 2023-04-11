@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Strosin Group",
-    "ToolTip": "Est odio maiores ut ut placeat.",
+    "Id": 586,
+    "Name": "Tremblay Inc and Sons",
+    "ToolTip": "Velit eos in at necessitatibus eligendi quaerat.",
     "Deleted": false,
-    "Rank": 535,
-    "Type": "dolorum",
-    "ColorBlock": 623,
-    "IconHint": "voluptatum",
-    "Selected": true,
-    "LastChanged": "2005-03-05T12:15:28.3036187+01:00",
+    "Rank": 767,
+    "Type": "cupiditate",
+    "ColorBlock": 831,
+    "IconHint": "accusantium",
+    "Selected": false,
+    "LastChanged": "1997-04-06T15:29:31.4194766+02:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Gulgowski, Feil and Blick",
-        "ToolTip": "Voluptas quis non similique sed.",
-        "Deleted": true,
-        "Rank": 225,
-        "Type": "nihil",
-        "ColorBlock": 57,
-        "IconHint": "aspernatur",
+        "Id": 156,
+        "Name": "Zboncak, DuBuque and Yundt",
+        "ToolTip": "Eum rerum.",
+        "Deleted": false,
+        "Rank": 273,
+        "Type": "maxime",
+        "ColorBlock": 675,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "1996-08-31T12:15:28.3036187+02:00",
+        "LastChanged": "1996-06-21T15:29:31.4194766+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "placeat",
+        "ExtraInfo": "libero",
+        "StyleHint": "neque",
         "Hidden": true,
-        "FullName": "Mr. Maurice Colleen Leuschke V"
+        "FullName": "Wilhelmine Witting"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Tianna Lemke"
+    "ExtraInfo": "maxime",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Dr. Scotty Lola Little"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 418,
-    "Name": "Goodwin-Wisoky",
-    "ToolTip": "Animi dignissimos qui suscipit fugiat magni laborum voluptas.",
+    "Id": 98,
+    "Name": "King-Purdy",
+    "ToolTip": "Dolore labore corrupti ducimus corrupti hic.",
     "Deleted": false,
-    "Rank": 970,
-    "Type": "alias",
-    "ColorBlock": 795,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "2020-10-16T12:15:28.3056169+02:00",
+    "Rank": 327,
+    "Type": "quia",
+    "ColorBlock": 892,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "1998-09-03T15:29:31.4209773+02:00",
     "ChildItems": [
       {
-        "Id": 201,
-        "Name": "Schiller-Marks",
-        "ToolTip": "Sed sequi facilis repellendus.",
-        "Deleted": true,
-        "Rank": 200,
-        "Type": "dolor",
-        "ColorBlock": 298,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2009-06-15T12:15:28.3056169+02:00",
+        "Id": 166,
+        "Name": "Rath Inc and Sons",
+        "ToolTip": "Enim velit ut nam et voluptatem.",
+        "Deleted": false,
+        "Rank": 411,
+        "Type": "occaecati",
+        "ColorBlock": 651,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2005-11-21T15:29:31.4209773+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Dr. Moises Andy Fritsch I",
+        "ExtraInfo": "est",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Mr. Terrill Shane Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 792
+            "FieldLength": 32
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "odio",
-    "Hidden": false,
-    "FullName": "Domingo Stanton",
+    "ExtraInfo": "minima",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Prince Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 838
       }
     }
   }

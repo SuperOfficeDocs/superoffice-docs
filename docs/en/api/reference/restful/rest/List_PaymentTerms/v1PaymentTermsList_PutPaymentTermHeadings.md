@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 28,
-    "Name": "McLaughlin LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 667,
-    "UdListDefinitionId": 690
+    "HeadingId": 403,
+    "Name": "Herzog-Balistreri",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "Rank": 770,
+    "UdListDefinitionId": 739
   },
   {
-    "HeadingId": 28,
-    "Name": "McLaughlin LLC",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 667,
-    "UdListDefinitionId": 690
+    "HeadingId": 403,
+    "Name": "Herzog-Balistreri",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "Rank": 770,
+    "UdListDefinitionId": 739
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 862,
-    "Name": "Kohler, Tromp and Heller",
-    "Tooltip": "quidem",
+    "HeadingId": 831,
+    "Name": "Weimann, Schneider and Gorczany",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 30,
-    "UdListDefinitionId": 944,
+    "Rank": 222,
+    "UdListDefinitionId": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 186
+        "FieldType": "System.Int32",
+        "FieldLength": 958
       }
     }
   }

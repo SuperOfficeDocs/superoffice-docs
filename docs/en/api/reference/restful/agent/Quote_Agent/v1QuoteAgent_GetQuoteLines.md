@@ -111,8 +111,8 @@ OK
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 221
+  "QuoteAlternativeId": 392
 }
 ```
 
@@ -136,88 +136,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 348,
-    "ERPQuoteLineKey": "eos",
-    "QuoteAlternativeId": 126,
-    "ERPProductKey": "qui",
+    "QuoteLineId": 697,
+    "ERPQuoteLineKey": "ea",
+    "QuoteAlternativeId": 3,
+    "ERPProductKey": "eaque",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 5638.066,
-    "DeliveredQuantity": 6133.2379999999994,
-    "Rank": 741,
-    "Name": "Deckow Group",
-    "Description": "Digitized solution-oriented approach",
-    "Code": "molestias",
-    "QuantityUnit": "itaque",
-    "PriceUnit": "fugiat",
-    "ItemNumber": "62891",
+    "Quantity": 7496.5279999999993,
+    "DeliveredQuantity": 19258.43,
+    "Rank": 445,
+    "Name": "Waters-Prosacco",
+    "Description": "Multi-tiered global portal",
+    "Code": "soluta",
+    "QuantityUnit": "nobis",
+    "PriceUnit": "voluptas",
+    "ItemNumber": "748845",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "tempore",
-    "ProductTypeKey": "consectetur",
-    "Supplier": "aut",
-    "SupplierCode": "incidunt",
-    "Thumbnail": "similique",
-    "VATInfo": "earum",
-    "VAT": 11943.673999999999,
-    "UnitCost": 12767.916,
-    "UnitMinimumPrice": 11266.73,
-    "UnitListPrice": 14720.398,
+    "ProductFamilyKey": "quam",
+    "ProductTypeKey": "reprehenderit",
+    "Supplier": "nemo",
+    "SupplierCode": "quos",
+    "Thumbnail": "dolorem",
+    "VATInfo": "velit",
+    "VAT": 22633.748,
+    "UnitCost": 30753.942,
+    "UnitMinimumPrice": 31327.464,
+    "UnitListPrice": 14046.588,
     "ExtraInfo": [
       {
-        "Name": "Littel-Fay",
-        "Value": "ut",
+        "Name": "McKenzie-Hamill",
+        "Value": "soluta",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 766
+            "FieldLength": 250
           }
         }
       },
       {
-        "Name": "Littel-Fay",
-        "Value": "ut",
+        "Name": "McKenzie-Hamill",
+        "Value": "soluta",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 766
+            "FieldLength": 250
           }
         }
       }
     ],
-    "RawExtraInfo": "quis",
+    "RawExtraInfo": "est",
     "IsSubscription": true,
-    "SubscriptionUnit": "quasi",
-    "SubscriptionQuantity": 21254.788,
-    "SubscriptionStart": "2012-10-23T12:15:19.9737366+02:00",
-    "ERPDiscountPercent": 27751.57,
-    "ERPDiscountAmount": 5531.51,
-    "DiscountPercent": 10163.562,
-    "DiscountAmount": 9414.536,
+    "SubscriptionUnit": "deleniti",
+    "SubscriptionQuantity": 23821.534,
+    "SubscriptionStart": "2016-04-28T15:29:22.5997634+02:00",
+    "ERPDiscountPercent": 23671.102,
+    "ERPDiscountAmount": 9398.866,
+    "DiscountPercent": 27905.136,
+    "DiscountAmount": 23157.126,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 23680.504,
-    "EarningAmount": 18221.076,
-    "SubTotal": 7903.9479999999994,
-    "TotalPrice": 12761.648,
-    "Rights": "tenetur",
-    "Rule": "voluptatibus",
-    "ExtraField1": "aut",
-    "ExtraField2": "cumque",
-    "ExtraField3": "rem",
-    "ExtraField4": "iure",
-    "ExtraField5": "id",
+    "EarningPercent": 27902.002,
+    "EarningAmount": 745.89199999999994,
+    "SubTotal": 14372.524,
+    "TotalPrice": 26278.59,
+    "Rights": "omnis",
+    "Rule": "laudantium",
+    "ExtraField1": "nulla",
+    "ExtraField2": "quam",
+    "ExtraField3": "omnis",
+    "ExtraField4": "inventore",
+    "ExtraField5": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 577
       }
     }
   }

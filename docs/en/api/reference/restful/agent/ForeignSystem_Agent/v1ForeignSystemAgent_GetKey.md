@@ -76,8 +76,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Langosh-Kling",
-  "DeviceName": "Gislason-Wilderman",
-  "KeyName": "McCullough Inc and Sons",
-  "TableName": "Cole-Veum",
-  "RecordId": 877
+  "ApplicationName": "Turcotte, Medhurst and Kiehn",
+  "DeviceName": "Wiegand, Kertzmann and Aufderhar",
+  "KeyName": "Ondricka-Murazik",
+  "TableName": "Nienow Group",
+  "RecordId": 809
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "perspiciatis",
-  "Value": "quia",
-  "RecordId": 914,
-  "CreatedDate": "2008-08-16T12:15:19.1567493+02:00",
-  "UpdatedDate": "2021-12-13T12:15:19.1567493+01:00",
-  "UpdatedBy": "eaque",
-  "CreatedBy": "aut",
-  "TableName": "Bradtke, Mueller and Howe",
+  "Key": "autem",
+  "Value": "veritatis",
+  "RecordId": 694,
+  "CreatedDate": "2019-10-18T15:29:21.9208084+02:00",
+  "UpdatedDate": "2005-04-12T15:29:21.9208084+02:00",
+  "UpdatedBy": "corrupti",
+  "CreatedBy": "doloremque",
+  "TableName": "Conn, Moore and Vandervort",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 532
     }
   }
 }

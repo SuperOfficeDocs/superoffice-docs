@@ -89,8 +89,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,27 +98,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 231,
-  "Name": "Williamson Group",
-  "CurrencyId": 370,
-  "EnglishName": "Predovic-Macejkovic",
+  "CountryId": 504,
+  "Name": "Kovacek-Powlowski",
+  "CurrencyId": 249,
+  "EnglishName": "Mohr, Kris and Douglas",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Expanded mission-critical complexity",
-  "OrgNrText": "1212689",
-  "InterAreaPrefix": "praesentium",
-  "DialInPrefix": "et",
-  "ZipPrefix": "occaecati",
-  "DomainName": "Kuphal Group",
-  "AddressLayoutId": 783,
-  "DomesticAddressLayoutId": 974,
-  "ForeignAddressLayoutId": 35,
-  "Rank": 626,
-  "Tooltip": "sit",
+  "ImageDescription": "Managed system-worthy process improvement",
+  "OrgNrText": "1472474",
+  "InterAreaPrefix": "non",
+  "DialInPrefix": "quasi",
+  "ZipPrefix": "repellendus",
+  "DomainName": "Sauer-Wisoky",
+  "AddressLayoutId": 283,
+  "DomesticAddressLayoutId": 542,
+  "ForeignAddressLayoutId": 964,
+  "Rank": 913,
+  "Tooltip": "beatae",
   "Deleted": false
 }
 ```
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 635,
-  "Name": "Waelchi Inc and Sons",
-  "CurrencyId": 969,
-  "EnglishName": "Ratke, Crooks and Carroll",
+  "CountryId": 58,
+  "Name": "Macejkovic-Gleichner",
+  "CurrencyId": 630,
+  "EnglishName": "Hartmann-Stokes",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Digitized value-added contingency",
-  "OrgNrText": "666580",
-  "InterAreaPrefix": "molestiae",
-  "DialInPrefix": "et",
-  "ZipPrefix": "et",
-  "DomainName": "Powlowski, Goldner and Schultz",
-  "AddressLayoutId": 39,
-  "DomesticAddressLayoutId": 815,
-  "ForeignAddressLayoutId": 737,
-  "Rank": 392,
-  "Tooltip": "suscipit",
-  "Deleted": false,
+  "ImageDescription": "User-friendly system-worthy matrix",
+  "OrgNrText": "1252525",
+  "InterAreaPrefix": "rerum",
+  "DialInPrefix": "non",
+  "ZipPrefix": "sunt",
+  "DomainName": "Parisian-Brakus",
+  "AddressLayoutId": 976,
+  "DomesticAddressLayoutId": 165,
+  "ForeignAddressLayoutId": 125,
+  "Rank": 591,
+  "Tooltip": "dignissimos",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

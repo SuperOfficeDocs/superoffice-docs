@@ -57,8 +57,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,25 +74,25 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 16 Sep 2006 12:15:26 G9T
+Last-Modified: Tue, 23 Apr 2013 15:29:29 G4T
 
 [
   {
-    "ForeignDeviceId": 605,
-    "Name": "Bosco Inc and Sons",
-    "CreatedDate": "1996-03-02T12:15:26.9716351+01:00",
-    "UpdatedDate": "2006-09-16T12:15:26.9716351+02:00",
-    "AssociateFullName": "Dr. Sallie Ferry DVM",
-    "CreatedBy": "reprehenderit",
-    "UpdatedBy": "nemo",
-    "DeviceIdentifier": "ut",
-    "ForeignAppId": 541,
+    "ForeignDeviceId": 469,
+    "Name": "Gislason Inc and Sons",
+    "CreatedDate": "1997-04-22T15:29:29.7706984+02:00",
+    "UpdatedDate": "2013-04-23T15:29:29.7706984+02:00",
+    "AssociateFullName": "Abigale Nader",
+    "CreatedBy": "saepe",
+    "UpdatedBy": "nihil",
+    "DeviceIdentifier": "corporis",
+    "ForeignAppId": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 628
+        "FieldLength": 851
       }
     }
   }

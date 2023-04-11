@@ -69,8 +69,8 @@ OK
 | Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 1002,
-  "CountryId": 421
+  "PersonId": 561,
+  "CountryId": 553
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 3789.006,
-  "Wgs84Longitude": 21781.3,
+  "Wgs84Latitude": 9022.786,
+  "Wgs84Longitude": 19048.452,
   "LocalizedAddress": [
     [
       {
-        "Name": "Schmitt-Corwin",
-        "Value": "eos",
-        "Tooltip": "adipisci",
-        "Label": "voluptatum",
-        "ValueLength": 505,
-        "AddressType": "minus",
+        "Name": "Ruecker-Cassin",
+        "Value": "maiores",
+        "Tooltip": "similique",
+        "Label": "necessitatibus",
+        "ValueLength": 676,
+        "AddressType": "voluptatum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldLength": 375
           }
         }
       }
     ],
     [
       {
-        "Name": "Cremin LLC",
-        "Value": "ut",
-        "Tooltip": "sit",
-        "Label": "sit",
-        "ValueLength": 37,
-        "AddressType": "omnis",
+        "Name": "Moen-Hammes",
+        "Value": "alias",
+        "Tooltip": "eum",
+        "Label": "optio",
+        "ValueLength": 238,
+        "AddressType": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 653
+            "FieldLength": 154
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "eos",
+  "Formatted": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 344
     }
   }
 }

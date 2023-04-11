@@ -64,7 +64,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "cupiditate",
-    "DocumentId": 157,
-    "VersionId": "et",
-    "CheckedInDate": "2023-01-29T12:15:26.921637+01:00",
-    "CheckedInByName": "Mitchell-Corwin",
-    "CheckedInByAssociateId": 291,
-    "Description": "Reverse-engineered object-oriented utilisation",
-    "DisplayText": "voluptatem",
+    "ExternalReference": "non",
+    "DocumentId": 619,
+    "VersionId": "officia",
+    "CheckedInDate": "2011-07-20T15:29:29.7297002+02:00",
+    "CheckedInByName": "Herman LLC",
+    "CheckedInByAssociateId": 944,
+    "Description": "User-centric intermediate system engine",
+    "DisplayText": "quod",
     "ExtraFields": [
-      "corrupti",
-      "aperiam"
+      "qui",
+      "quia"
     ]
   }
 ]

@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,16 +87,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 214,
-  "Name": "Ortiz LLC",
-  "Tooltip": "optio",
+  "Id": 919,
+  "Name": "Kuhn, Keebler and Veum",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 739,
+  "Rank": 554,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tempora",
-  "InUseByUserDefinedFields": false
+  "ListType": "cumque",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 777,
-  "Name": "Carroll Group",
-  "Tooltip": "dolor",
+  "Id": 1002,
+  "Name": "Wiza Inc and Sons",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 406,
-  "IsCustomList": false,
+  "Rank": 898,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "rerum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 490
     }
   }
 }

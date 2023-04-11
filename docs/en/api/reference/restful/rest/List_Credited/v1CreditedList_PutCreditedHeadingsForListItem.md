@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "McClure, Klocko and Kozey",
-    "ToolTip": "Ad ipsum ullam.",
+    "Id": 189,
+    "Name": "Crooks LLC",
+    "ToolTip": "Neque deserunt temporibus illo neque illum ut maiores.",
     "Deleted": false,
-    "Rank": 979,
-    "Type": "qui",
-    "ColorBlock": 571,
-    "IconHint": "voluptas",
+    "Rank": 285,
+    "Type": "minus",
+    "ColorBlock": 883,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2018-03-10T12:15:28.0826219+01:00",
+    "LastChanged": "2013-05-09T15:29:31.1954856+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Boehm LLC",
-        "ToolTip": "Laboriosam ea beatae et.",
+        "Id": 51,
+        "Name": "Prohaska, Glover and Corkery",
+        "ToolTip": "Ut tempore.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "autem",
-        "ColorBlock": 518,
-        "IconHint": "minima",
+        "Rank": 636,
+        "Type": "cupiditate",
+        "ColorBlock": 77,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2016-02-13T12:15:28.0836202+01:00",
+        "LastChanged": "2010-09-30T15:29:31.1954856+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Erick Moen"
+        "ExtraInfo": "iusto",
+        "StyleHint": "nesciunt",
+        "Hidden": true,
+        "FullName": "Waino Jast"
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "illo",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Erling Batz"
+    "FullName": "Twila Goodwin"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "Hettinger, Hamill and Gottlieb",
-    "ToolTip": "Debitis voluptate voluptas.",
+    "Id": 143,
+    "Name": "Gutkowski LLC",
+    "ToolTip": "Ex a pariatur veritatis atque voluptas ducimus eligendi.",
     "Deleted": false,
-    "Rank": 422,
-    "Type": "facere",
-    "ColorBlock": 480,
-    "IconHint": "enim",
+    "Rank": 567,
+    "Type": "voluptatem",
+    "ColorBlock": 126,
+    "IconHint": "quisquam",
     "Selected": true,
-    "LastChanged": "2022-12-13T12:15:28.0846221+01:00",
+    "LastChanged": "2011-07-17T15:29:31.1969795+02:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "O'Conner-Fritsch",
-        "ToolTip": "Nulla asperiores culpa animi tenetur eum quia.",
+        "Id": 884,
+        "Name": "Kilback Group",
+        "ToolTip": "Nisi rem velit odio minus ducimus qui.",
         "Deleted": true,
-        "Rank": 717,
-        "Type": "consequatur",
-        "ColorBlock": 437,
-        "IconHint": "animi",
+        "Rank": 867,
+        "Type": "libero",
+        "ColorBlock": 867,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-05-28T12:15:28.0846221+02:00",
+        "LastChanged": "2000-02-14T15:29:31.1974793+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "debitis",
-        "Hidden": true,
-        "FullName": "Kendall Hagenes",
+        "ExtraInfo": "nihil",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Lafayette Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "ea",
+    "ExtraInfo": "sunt",
+    "StyleHint": "laudantium",
     "Hidden": true,
-    "FullName": "Mrs. Oren Tillman",
+    "FullName": "Weston Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 784
       }
     }
   }

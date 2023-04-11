@@ -76,8 +76,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    34,
-    716
+    441,
+    111
   ]
 }
 ```
@@ -104,64 +104,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 239,
-    "Caption": "iusto",
-    "Description": "Open-architected contextually-based solution",
-    "ChartName": "Parker, Barton and Anderson",
-    "ChartId": "quia",
-    "IsDefault": false,
-    "AssociateId": 492,
-    "GroupId": 22,
-    "SelectionId": 532,
-    "Config": "in",
+    "DashboardTileId": 985,
+    "Caption": "reprehenderit",
+    "Description": "Cross-group 24 hour encoding",
+    "ChartName": "Heller Inc and Sons",
+    "ChartId": "voluptas",
+    "IsDefault": true,
+    "AssociateId": 89,
+    "GroupId": 787,
+    "SelectionId": 195,
+    "Config": "et",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Wilkinson-Altenwerth",
-        "Description": "Business-focused demand-driven migration",
+        "Name": "Hermiston-Carter",
+        "Description": "Quality-focused explicit capacity",
         "Type": "Boolean",
-        "ListName": "Swift Inc and Sons",
+        "ListName": "Feeney LLC",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "voluptas",
+        "Value": "repellat",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 82
+            "FieldLength": 325
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 369,
+        "VisibleId": 27,
         "Visibility": "All",
-        "DisplayValue": "dolorem",
+        "DisplayValue": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldLength": 874
           }
         }
       },
       {
-        "VisibleId": 369,
+        "VisibleId": 27,
         "Visibility": "All",
-        "DisplayValue": "dolorem",
+        "DisplayValue": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldLength": 874
           }
         }
       }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 68
+        "FieldLength": 296
       }
     }
   }

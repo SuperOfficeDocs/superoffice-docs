@@ -80,8 +80,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 778,
-    "ColumnId": 949,
-    "FieldDefault": "vero",
-    "FieldHeight": 386,
-    "FieldLabel": "quo",
-    "FieldLeft": 843,
-    "FieldTop": 419,
+    "UDefFieldId": 602,
+    "ColumnId": 484,
+    "FieldDefault": "aliquid",
+    "FieldHeight": 689,
+    "FieldLabel": "ipsa",
+    "FieldLeft": 154,
+    "FieldTop": 869,
     "FieldType": "Checkbox",
-    "FieldWidth": 73,
-    "FormatMask": "aut",
+    "FieldWidth": 253,
+    "FormatMask": "recusandae",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 205,
-    "LabelLeft": 878,
-    "LabelTop": 994,
-    "LabelWidth": 945,
-    "LastVersionId": 911,
-    "ListTableId": 989,
+    "IsIndexed": true,
+    "LabelHeight": 766,
+    "LabelLeft": 362,
+    "LabelTop": 686,
+    "LabelWidth": 167,
+    "LastVersionId": 708,
+    "ListTableId": 411,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 830,
-    "ProgId": "qui",
+    "Page1LineNo": 579,
+    "ProgId": "non",
     "IsReadOnly": true,
-    "ShortLabel": "in",
-    "TabOrder": 359,
-    "TextLength": 913,
-    "Tooltip": "asperiores",
-    "UdefIdentity": 102,
+    "ShortLabel": "nesciunt",
+    "TabOrder": 500,
+    "TextLength": 514,
+    "Tooltip": "odit",
+    "UdefIdentity": 994,
     "UDListDefinitionId": 672,
     "Justification": "Center",
-    "Version": 222,
-    "TemplateVariableName": "Leuschke-Bauch",
-    "HasBeenPublished": false,
-    "MdoListName": "Brekke-Lowe",
+    "Version": 935,
+    "TemplateVariableName": "Koch LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Emard Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 294
       }
     }
   }

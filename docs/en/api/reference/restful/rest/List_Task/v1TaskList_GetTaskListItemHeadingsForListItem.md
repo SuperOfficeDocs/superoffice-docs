@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Wolf, Schuster and Huels",
-    "ToolTip": "Est officia omnis.",
+    "Id": 461,
+    "Name": "Casper-Gislason",
+    "ToolTip": "Explicabo suscipit vel perferendis quis velit.",
     "Deleted": false,
-    "Rank": 357,
-    "Type": "recusandae",
-    "ColorBlock": 836,
-    "IconHint": "aspernatur",
+    "Rank": 432,
+    "Type": "dolores",
+    "ColorBlock": 253,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-10-20T12:15:28.5366137+02:00",
+    "LastChanged": "2010-05-17T15:29:31.6469807+02:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Luettgen, Schmitt and Metz",
-        "ToolTip": "Eum nihil perferendis.",
+        "Id": 572,
+        "Name": "Mertz-Cassin",
+        "ToolTip": "Et rem ut minima.",
         "Deleted": false,
-        "Rank": 705,
-        "Type": "placeat",
-        "ColorBlock": 773,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2022-02-01T12:15:28.5366137+01:00",
+        "Rank": 544,
+        "Type": "molestiae",
+        "ColorBlock": 552,
+        "IconHint": "numquam",
+        "Selected": true,
+        "LastChanged": "1997-04-16T15:29:31.6469807+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
+        "ExtraInfo": "debitis",
         "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Mr. Joan Corwin V",
+        "Hidden": false,
+        "FullName": "Ryleigh Lind Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 502
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "et",
+    "ExtraInfo": "beatae",
+    "StyleHint": "laboriosam",
     "Hidden": true,
-    "FullName": "Pete Reinger",
+    "FullName": "Pablo Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 195
       }
     }
   }

@@ -1483,13 +1483,27 @@ title: Services88.EMailAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="ResolveEMailRecipients">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ResolveEMailRecipientsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q144:ArrayOfEMailAddress" xmlns:q144="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetEMailFromId">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q144:EMailConnectionInfo" xmlns:q144="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q145:EMailConnectionInfo" xmlns:q145="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="MessageServerId" type="xs:int" />
             <xs:element minOccurs="0" name="LookupAddresses" type="xs:boolean" />
-            <xs:element minOccurs="0" name="Flags" type="q145:EMailFlags" xmlns:q145="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Flags" type="q146:EMailFlags" xmlns:q146="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="IncludeAttachments" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1497,51 +1511,51 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailFromIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q146:EMailEntity" xmlns:q146="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q147:EMailEntity" xmlns:q147="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SendEMails">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="OutgoingConnectionInfo" nillable="true" type="q147:EMailConnectionInfo" xmlns:q147="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="Emails" nillable="true" type="q148:ArrayOfEMailEntity" xmlns:q148="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="SentItemsConnectionInfo" nillable="true" type="q149:EMailConnectionInfo" xmlns:q149="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="OutgoingConnectionInfo" nillable="true" type="q148:EMailConnectionInfo" xmlns:q148="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Emails" nillable="true" type="q149:ArrayOfEMailEntity" xmlns:q149="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="SentItemsConnectionInfo" nillable="true" type="q150:EMailConnectionInfo" xmlns:q150="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfEMailEntity">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="EMailEntity" nillable="true" type="q150:EMailEntity" xmlns:q150="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="EMailEntity" nillable="true" type="q151:EMailEntity" xmlns:q151="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfEMailEntity" nillable="true" type="q151:ArrayOfEMailEntity" xmlns:q151="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfEMailEntity" nillable="true" type="q152:ArrayOfEMailEntity" xmlns:q152="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SendEMailsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q152:ArrayOfEMailEntity" xmlns:q152="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q153:ArrayOfEMailEntity" xmlns:q153="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveEMail">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q153:EMailConnectionInfo" xmlns:q153="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q154:EMailEntity" xmlns:q154="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q154:EMailConnectionInfo" xmlns:q154="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q155:EMailEntity" xmlns:q155="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveEMailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q155:EMailEntity" xmlns:q155="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q156:EMailEntity" xmlns:q156="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="AuthenticateIncoming">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q156:EMailConnectionInfo" xmlns:q156="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q157:EMailConnectionInfo" xmlns:q157="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1555,7 +1569,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="AuthenticateOutgoing">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q157:EMailConnectionInfo" xmlns:q157="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q158:EMailConnectionInfo" xmlns:q158="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1569,7 +1583,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetFolderList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q158:EMailConnectionInfo" xmlns:q158="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q159:EMailConnectionInfo" xmlns:q159="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="IncludeItemCount" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1577,14 +1591,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetFolderListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q159:ArrayOfstring" xmlns:q159="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q160:ArrayOfstring" xmlns:q160="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetAttachment">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q160:EMailConnectionInfo" xmlns:q160="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q161:EMailConnectionInfo" xmlns:q161="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="MessageServerId" type="xs:int" />
             <xs:element minOccurs="0" name="AttachmentId" nillable="true" type="xs:string" />
           </xs:sequence>
@@ -1593,15 +1607,15 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetAttachmentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q161:EMailAttachment" xmlns:q161="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q162:EMailAttachment" xmlns:q162="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="MarkAsRead">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q162:EMailConnectionInfo" xmlns:q162="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q163:ArrayOfint" xmlns:q163="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q163:EMailConnectionInfo" xmlns:q163="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q164:ArrayOfint" xmlns:q164="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Read" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1614,7 +1628,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetFolderEMailCount">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q164:EMailConnectionInfo" xmlns:q164="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q165:EMailConnectionInfo" xmlns:q165="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="OnlyUnread" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1629,8 +1643,8 @@ title: Services88.EMailAgent WSDL
       <xs:element name="Delete">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q165:EMailConnectionInfo" xmlns:q165="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q166:ArrayOfint" xmlns:q166="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q166:EMailConnectionInfo" xmlns:q166="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q167:ArrayOfint" xmlns:q167="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="MoveToFolder" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -1643,8 +1657,8 @@ title: Services88.EMailAgent WSDL
       <xs:element name="MoveToFolder">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q167:EMailConnectionInfo" xmlns:q167="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q168:ArrayOfint" xmlns:q168="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q168:EMailConnectionInfo" xmlns:q168="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q169:ArrayOfint" xmlns:q169="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="TargetFolder" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -1657,7 +1671,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="EmptyFolder">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q169:EMailConnectionInfo" xmlns:q169="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q170:EMailConnectionInfo" xmlns:q170="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="MoveToFolder" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -1670,7 +1684,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailAsStream">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q170:EMailConnectionInfo" xmlns:q170="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q171:EMailConnectionInfo" xmlns:q171="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="MessageServerId" type="xs:int" />
             <xs:element minOccurs="0" name="StripAttachments" type="xs:boolean" />
           </xs:sequence>
@@ -1693,7 +1707,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="FindAddressResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q171:ArrayOfEMailAddress" xmlns:q171="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q172:ArrayOfEMailAddress" xmlns:q172="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1707,7 +1721,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailFromDocumentIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q172:EMailEntity" xmlns:q172="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q173:EMailEntity" xmlns:q173="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1721,7 +1735,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedEMailFromDocumentIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q173:EMailEntity" xmlns:q173="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q174:EMailEntity" xmlns:q174="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1729,7 +1743,7 @@ title: Services88.EMailAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailId" type="xs:int" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q174:ArrayOfstring" xmlns:q174="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q175:ArrayOfstring" xmlns:q175="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="IncludeAttachments" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1737,7 +1751,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailFromAttachmentIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q175:EMailEntity" xmlns:q175="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q176:EMailEntity" xmlns:q176="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1745,7 +1759,7 @@ title: Services88.EMailAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="EmailId" type="xs:int" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q176:ArrayOfstring" xmlns:q176="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q177:ArrayOfstring" xmlns:q177="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="IncludeAttachments" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1753,7 +1767,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedEMailFromAttachmentIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q177:EMailEntity" xmlns:q177="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q178:EMailEntity" xmlns:q178="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1761,7 +1775,7 @@ title: Services88.EMailAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="DocId" type="xs:int" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q178:ArrayOfstring" xmlns:q178="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q179:ArrayOfstring" xmlns:q179="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="IncludeAttachments" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1769,7 +1783,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailFromDocumentAttachmentIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q179:EMailEntity" xmlns:q179="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q180:EMailEntity" xmlns:q180="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1777,7 +1791,7 @@ title: Services88.EMailAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="DocId" type="xs:int" />
-            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q180:ArrayOfstring" xmlns:q180="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q181:ArrayOfstring" xmlns:q181="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="IncludeAttachments" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -1785,45 +1799,45 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedEMailFromDocumentAttachmentIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q181:EMailEntity" xmlns:q181="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q182:EMailEntity" xmlns:q182="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetEMailEnvelopes">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q182:EMailConnectionInfo" xmlns:q182="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q183:ArrayOfint" xmlns:q183="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q183:EMailConnectionInfo" xmlns:q183="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageServerIds" nillable="true" type="q184:ArrayOfint" xmlns:q184="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetEMailEnvelopesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q184:ArrayOfEMailEnvelope" xmlns:q184="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q185:ArrayOfEMailEnvelope" xmlns:q185="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfEMailEnvelope">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="EMailEnvelope" nillable="true" type="q185:EMailEnvelope" xmlns:q185="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="EMailEnvelope" nillable="true" type="q186:EMailEnvelope" xmlns:q186="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfEMailEnvelope" nillable="true" type="q186:ArrayOfEMailEnvelope" xmlns:q186="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfEMailEnvelope" nillable="true" type="q187:ArrayOfEMailEnvelope" xmlns:q187="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SetSubscription">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q187:EMailConnectionInfo" xmlns:q187="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="Folders" nillable="true" type="q188:ArrayOfEMailFolder" xmlns:q188="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q188:EMailConnectionInfo" xmlns:q188="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Folders" nillable="true" type="q189:ArrayOfEMailFolder" xmlns:q189="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfEMailFolder">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="EMailFolder" nillable="true" type="q189:EMailFolder" xmlns:q189="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="EMailFolder" nillable="true" type="q190:EMailFolder" xmlns:q190="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfEMailFolder" nillable="true" type="q190:ArrayOfEMailFolder" xmlns:q190="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfEMailFolder" nillable="true" type="q191:ArrayOfEMailFolder" xmlns:q191="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SetSubscriptionResponse">
         <xs:complexType>
           <xs:sequence />
@@ -1832,7 +1846,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="CreateFolder">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q191:EMailConnectionInfo" xmlns:q191="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q192:EMailConnectionInfo" xmlns:q192="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1844,7 +1858,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="DeleteFolder">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q192:EMailConnectionInfo" xmlns:q192="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q193:EMailConnectionInfo" xmlns:q193="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1856,17 +1870,17 @@ title: Services88.EMailAgent WSDL
       <xs:element name="CreateEMailFromDocumentEntity">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="DocumentEntity" nillable="true" type="q193:DocumentEntity" xmlns:q193="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="DocumentEntity" nillable="true" type="q194:DocumentEntity" xmlns:q194="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="DocumentEntity">
         <xs:complexContent mixed="false">
-          <xs:extension base="q194:Carrier" xmlns:q194="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q195:Carrier" xmlns:q195="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="DocumentId" type="xs:int" />
-              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="q194:Associate" />
-              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="q194:Associate" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="q195:Associate" />
+              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="q195:Associate" />
               <xs:element minOccurs="0" name="Attention" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -1875,37 +1889,37 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="DocumentTemplate" nillable="true" type="q194:DocumentTemplate" />
-              <xs:element minOccurs="0" name="Person" nillable="true" type="q194:Person" />
-              <xs:element minOccurs="0" name="Associate" nillable="true" type="q194:Associate" />
-              <xs:element minOccurs="0" name="Contact" nillable="true" type="q194:Contact" />
-              <xs:element minOccurs="0" name="Project" nillable="true" type="q194:Project" />
+              <xs:element minOccurs="0" name="DocumentTemplate" nillable="true" type="q195:DocumentTemplate" />
+              <xs:element minOccurs="0" name="Person" nillable="true" type="q195:Person" />
+              <xs:element minOccurs="0" name="Associate" nillable="true" type="q195:Associate" />
+              <xs:element minOccurs="0" name="Contact" nillable="true" type="q195:Contact" />
+              <xs:element minOccurs="0" name="Project" nillable="true" type="q195:Project" />
               <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
               <xs:element minOccurs="0" name="ExternalRef" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Completed" type="q194:ActivityStatus" />
+              <xs:element minOccurs="0" name="Completed" type="q195:ActivityStatus" />
               <xs:element minOccurs="0" name="ActiveLinks" type="xs:int" />
-              <xs:element minOccurs="0" name="Type" type="q194:AppointmentType" />
-              <xs:element minOccurs="0" name="Links" nillable="true" type="q194:ArrayOfLink" />
-              <xs:element minOccurs="0" name="LockSemantics" type="q194:DocumentLockSemantics" />
-              <xs:element minOccurs="0" name="Sale" nillable="true" type="q194:Sale" />
+              <xs:element minOccurs="0" name="Type" type="q195:AppointmentType" />
+              <xs:element minOccurs="0" name="Links" nillable="true" type="q195:ArrayOfLink" />
+              <xs:element minOccurs="0" name="LockSemantics" type="q195:DocumentLockSemantics" />
+              <xs:element minOccurs="0" name="Sale" nillable="true" type="q195:Sale" />
               <xs:element minOccurs="0" name="SuggestedDocumentId" type="xs:int" />
               <xs:element minOccurs="0" name="Snum" type="xs:int" />
-              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q194:StringDictionary" />
-              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q194:StringDictionary" />
-              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q194:StringDictionary" />
+              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q195:StringDictionary" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q195:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q195:StringDictionary" />
               <xs:element minOccurs="0" name="PublishEventDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="PublishTo" type="xs:dateTime" />
               <xs:element minOccurs="0" name="PublishFrom" type="xs:dateTime" />
               <xs:element minOccurs="0" name="IsPublished" type="xs:boolean" />
-              <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="q194:ArrayOfVisibleFor" />
+              <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="q195:ArrayOfVisibleFor" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="DocumentEntity" nillable="true" type="q195:DocumentEntity" xmlns:q195="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DocumentEntity" nillable="true" type="q196:DocumentEntity" xmlns:q196="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="DocumentTemplate">
         <xs:complexContent mixed="false">
-          <xs:extension base="q196:Carrier" xmlns:q196="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q197:Carrier" xmlns:q197="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="DocumentTemplateId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -1913,16 +1927,16 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="SaveInDb" type="xs:short" />
               <xs:element minOccurs="0" name="Filename" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="DefaultOref" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="RecordType" type="q196:DocTmplType" />
+              <xs:element minOccurs="0" name="RecordType" type="q197:DocTmplType" />
               <xs:element minOccurs="0" name="Deleted" type="xs:short" />
-              <xs:element minOccurs="0" name="Direction" type="q196:DocTmplDirection" />
+              <xs:element minOccurs="0" name="Direction" type="q197:DocTmplDirection" />
               <xs:element minOccurs="0" name="AutoeventId" type="xs:int" />
-              <xs:element minOccurs="0" name="QuoteDocType" type="q196:DocTmplQuoteType" />
+              <xs:element minOccurs="0" name="QuoteDocType" type="q197:DocTmplQuoteType" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="DocumentTemplate" nillable="true" type="q197:DocumentTemplate" xmlns:q197="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DocumentTemplate" nillable="true" type="q198:DocumentTemplate" xmlns:q198="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="DocTmplType">
         <xs:annotation>
           <xs:appinfo>
@@ -1942,7 +1956,7 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="SavedReport" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="DocTmplType" nillable="true" type="q198:DocTmplType" xmlns:q198="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DocTmplType" nillable="true" type="q199:DocTmplType" xmlns:q199="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="DocTmplDirection">
         <xs:annotation>
           <xs:appinfo>
@@ -1956,7 +1970,7 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="SaintAll" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="DocTmplDirection" nillable="true" type="q199:DocTmplDirection" xmlns:q199="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DocTmplDirection" nillable="true" type="q200:DocTmplDirection" xmlns:q200="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="DocTmplQuoteType">
         <xs:annotation>
           <xs:appinfo>
@@ -1972,10 +1986,10 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="ConfirmationLines" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="DocTmplQuoteType" nillable="true" type="q200:DocTmplQuoteType" xmlns:q200="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DocTmplQuoteType" nillable="true" type="q201:DocTmplQuoteType" xmlns:q201="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Project">
         <xs:complexContent mixed="false">
-          <xs:extension base="q201:Carrier" xmlns:q201="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q202:Carrier" xmlns:q202="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -1999,16 +2013,16 @@ title: Services88.EMailAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Project" nillable="true" type="q202:Project" xmlns:q202="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Project" nillable="true" type="q203:Project" xmlns:q203="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfLink">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q203:Link" xmlns:q203="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q204:Link" xmlns:q204="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfLink" nillable="true" type="q204:ArrayOfLink" xmlns:q204="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfLink" nillable="true" type="q205:ArrayOfLink" xmlns:q205="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Link">
         <xs:complexContent mixed="false">
-          <xs:extension base="q205:Carrier" xmlns:q205="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q206:Carrier" xmlns:q206="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Id" type="xs:int" />
@@ -2019,7 +2033,7 @@ title: Services88.EMailAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Link" nillable="true" type="q206:Link" xmlns:q206="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Link" nillable="true" type="q207:Link" xmlns:q207="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="DocumentLockSemantics">
         <xs:restriction base="xs:string">
           <xs:enumeration value="None" />
@@ -2027,10 +2041,10 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="Versioning" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="DocumentLockSemantics" nillable="true" type="q207:DocumentLockSemantics" xmlns:q207="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="DocumentLockSemantics" nillable="true" type="q208:DocumentLockSemantics" xmlns:q208="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Sale">
         <xs:complexContent mixed="false">
-          <xs:extension base="q208:Carrier" xmlns:q208="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q209:Carrier" xmlns:q209="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SaleDate" type="xs:dateTime" />
@@ -2042,7 +2056,7 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Status" type="q208:SaleStatus" />
+              <xs:element minOccurs="0" name="Status" type="q209:SaleStatus" />
               <xs:element minOccurs="0" name="WeightedAmount" type="xs:double" />
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
@@ -2053,7 +2067,7 @@ title: Services88.EMailAgent WSDL
               <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
               <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Completed" type="q208:ActivityStatus" />
+              <xs:element minOccurs="0" name="Completed" type="q209:ActivityStatus" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="NextDueDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
@@ -2061,7 +2075,7 @@ title: Services88.EMailAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Sale" nillable="true" type="q209:Sale" xmlns:q209="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Sale" nillable="true" type="q210:Sale" xmlns:q210="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="SaleStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -2083,25 +2097,25 @@ title: Services88.EMailAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="SaleStatus" nillable="true" type="q210:SaleStatus" xmlns:q210="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleStatus" nillable="true" type="q211:SaleStatus" xmlns:q211="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfVisibleFor">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="q211:VisibleFor" xmlns:q211="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="q212:VisibleFor" xmlns:q212="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfVisibleFor" nillable="true" type="q212:ArrayOfVisibleFor" xmlns:q212="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfVisibleFor" nillable="true" type="q213:ArrayOfVisibleFor" xmlns:q213="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="VisibleFor">
         <xs:complexContent mixed="false">
-          <xs:extension base="q213:Carrier" xmlns:q213="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q214:Carrier" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="VisibleId" type="xs:int" />
-              <xs:element minOccurs="0" name="Visibility" type="q213:Visibility" />
+              <xs:element minOccurs="0" name="Visibility" type="q214:Visibility" />
               <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="VisibleFor" nillable="true" type="q214:VisibleFor" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="VisibleFor" nillable="true" type="q215:VisibleFor" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="Visibility">
         <xs:restriction base="xs:string">
           <xs:enumeration value="All" />
@@ -2109,11 +2123,11 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="Group" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="Visibility" nillable="true" type="q215:Visibility" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Visibility" nillable="true" type="q216:Visibility" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="CreateEMailFromDocumentEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q216:EMailEntity" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q217:EMailEntity" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2127,29 +2141,29 @@ title: Services88.EMailAgent WSDL
       <xs:element name="CreateEMailFromMimeMessageResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q217:EMailEntity" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q218:EMailEntity" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetFolderInfo">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q218:EMailConnectionInfo" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="Folders" nillable="true" type="q219:ArrayOfstring" xmlns:q219="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q219:EMailConnectionInfo" xmlns:q219="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Folders" nillable="true" type="q220:ArrayOfstring" xmlns:q220="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetFolderInfoResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q220:ArrayOfEMailFolder" xmlns:q220="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q221:ArrayOfEMailFolder" xmlns:q221="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetFolderHasNewEMail">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q221:EMailConnectionInfo" xmlns:q221="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q222:EMailConnectionInfo" xmlns:q222="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2163,22 +2177,22 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailAddresses">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="EmailIds" nillable="true" type="q222:ArrayOfint" xmlns:q222="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="EmailIds" nillable="true" type="q223:ArrayOfint" xmlns:q223="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetEMailAddressesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q223:ArrayOfEMailAddress" xmlns:q223="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q224:ArrayOfEMailAddress" xmlns:q224="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="RefreshFolder">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q224:EMailConnectionInfo" xmlns:q224="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="Folders" nillable="true" type="q225:ArrayOfstring" xmlns:q225="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfo" nillable="true" type="q225:EMailConnectionInfo" xmlns:q225="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Folders" nillable="true" type="q226:ArrayOfstring" xmlns:q226="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2199,14 +2213,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailFromTempResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q226:EMailEntity" xmlns:q226="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q227:EMailEntity" xmlns:q227="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="Authenticate">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q227:EMailConnectionInfoExtended" xmlns:q227="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q228:EMailConnectionInfoExtended" xmlns:q228="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2220,51 +2234,51 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEmailMessageIds">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q228:EMailConnectionInfoExtended" xmlns:q228="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q229:EMailConnectionInfoExtended" xmlns:q229="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetEmailMessageIdsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q229:ArrayOfstring" xmlns:q229="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q230:ArrayOfstring" xmlns:q230="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetExtendedEmailMessageIds">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q230:EMailConnectionInfoExtended" xmlns:q230="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q231:EMailConnectionInfoExtended" xmlns:q231="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetExtendedEmailMessageIdsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q231:ArrayOfstring" xmlns:q231="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q232:ArrayOfstring" xmlns:q232="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetEmailsAsString">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q232:EMailConnectionInfoExtended" xmlns:q232="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q233:ArrayOfstring" xmlns:q233="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q233:EMailConnectionInfoExtended" xmlns:q233="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q234:ArrayOfstring" xmlns:q234="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetEmailsAsStringResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q234:ArrayOfstring" xmlns:q234="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q235:ArrayOfstring" xmlns:q235="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="DeleteExtended">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q235:EMailConnectionInfoExtended" xmlns:q235="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q236:ArrayOfstring" xmlns:q236="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q236:EMailConnectionInfoExtended" xmlns:q236="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="MessageIds" nillable="true" type="q237:ArrayOfstring" xmlns:q237="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2276,10 +2290,10 @@ title: Services88.EMailAgent WSDL
       <xs:element name="RelayMessage">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q237:EMailConnectionInfoExtended" xmlns:q237="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ConnectionInfoExtended" nillable="true" type="q238:EMailConnectionInfoExtended" xmlns:q238="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="Rfc822" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Recipients" nillable="true" type="q238:ArrayOfstring" xmlns:q238="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Recipients" nillable="true" type="q239:ArrayOfstring" xmlns:q239="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2299,7 +2313,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q239:EMailEntity" xmlns:q239="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q240:EMailEntity" xmlns:q240="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2314,14 +2328,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedEMailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q240:EMailEntity" xmlns:q240="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q241:EMailEntity" xmlns:q241="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="MarkEmailsAsRead">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q241:ArrayOfint" xmlns:q241="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q242:ArrayOfint" xmlns:q242="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="Read" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -2334,7 +2348,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="DeleteEmails">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q242:ArrayOfint" xmlns:q242="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q243:ArrayOfint" xmlns:q243="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             <xs:element minOccurs="0" name="MoveToFolder" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
@@ -2347,7 +2361,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="MoveEmailsToTrash">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Ids" nillable="true" type="q243:ArrayOfint" xmlns:q243="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Ids" nillable="true" type="q244:ArrayOfint" xmlns:q244="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2359,56 +2373,56 @@ title: Services88.EMailAgent WSDL
       <xs:element name="Save">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q244:EMailEntity" xmlns:q244="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q245:EMailEntity" xmlns:q245="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q245:EMailEntity" xmlns:q245="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q246:EMailEntity" xmlns:q246="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveToMailServer">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q246:EMailEntity" xmlns:q246="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q247:EMailEntity" xmlns:q247="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveToMailServerResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q247:EMailEntity" xmlns:q247="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q248:EMailEntity" xmlns:q248="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="Send">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Emails" nillable="true" type="q248:ArrayOfEMailEntity" xmlns:q248="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Emails" nillable="true" type="q249:ArrayOfEMailEntity" xmlns:q249="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SendResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q249:ArrayOfEMailEntity" xmlns:q249="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q250:ArrayOfEMailEntity" xmlns:q250="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="CreateForwardEmail">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q250:EMailEntity" xmlns:q250="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q251:EMailEntity" xmlns:q251="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="CreateForwardEmailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q251:EMailEntity" xmlns:q251="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q252:EMailEntity" xmlns:q252="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2423,19 +2437,19 @@ title: Services88.EMailAgent WSDL
       <xs:element name="FindContactOrPersonByEmailNameResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q252:ArrayOfContactOrPersonFromEmail" xmlns:q252="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q253:ArrayOfContactOrPersonFromEmail" xmlns:q253="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfContactOrPersonFromEmail">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ContactOrPersonFromEmail" nillable="true" type="q253:ContactOrPersonFromEmail" xmlns:q253="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ContactOrPersonFromEmail" nillable="true" type="q254:ContactOrPersonFromEmail" xmlns:q254="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfContactOrPersonFromEmail" nillable="true" type="q254:ArrayOfContactOrPersonFromEmail" xmlns:q254="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfContactOrPersonFromEmail" nillable="true" type="q255:ArrayOfContactOrPersonFromEmail" xmlns:q255="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ContactOrPersonFromEmail">
         <xs:complexContent mixed="false">
-          <xs:extension base="q255:Carrier" xmlns:q255="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q256:Carrier" xmlns:q256="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
@@ -2449,7 +2463,7 @@ title: Services88.EMailAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ContactOrPersonFromEmail" nillable="true" type="q256:ContactOrPersonFromEmail" xmlns:q256="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ContactOrPersonFromEmail" nillable="true" type="q257:ContactOrPersonFromEmail" xmlns:q257="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="FindContactOrPersonByEmailNameWithLimit">
         <xs:complexType>
           <xs:sequence>
@@ -2463,14 +2477,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="FindContactOrPersonByEmailNameWithLimitResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q257:ArrayOfContactOrPersonFromEmail" xmlns:q257="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q258:ArrayOfContactOrPersonFromEmail" xmlns:q258="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="RefreshFolderForAssociate">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Folders" nillable="true" type="q258:ArrayOfstring" xmlns:q258="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Folders" nillable="true" type="q259:ArrayOfstring" xmlns:q259="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2484,14 +2498,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetNewMail">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Folders" nillable="true" type="q259:ArrayOfint" xmlns:q259="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="Folders" nillable="true" type="q260:ArrayOfint" xmlns:q260="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="GetNewMailResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q260:ArrayOfEMailEnvelope" xmlns:q260="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q261:ArrayOfEMailEnvelope" xmlns:q261="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2503,7 +2517,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="CacheFolderListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q261:ArrayOfEMailFolder" xmlns:q261="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q262:ArrayOfEMailFolder" xmlns:q262="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2511,7 +2525,7 @@ title: Services88.EMailAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="FolderId" type="xs:int" />
-            <xs:element minOccurs="0" name="EmailItemIds" nillable="true" type="q262:ArrayOfint" xmlns:q262="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="EmailItemIds" nillable="true" type="q263:ArrayOfint" xmlns:q263="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2530,7 +2544,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetMailFromMessageIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q263:EMailEntity" xmlns:q263="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q264:EMailEntity" xmlns:q264="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2544,14 +2558,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetMailFromInReplyToResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q264:EMailEntity" xmlns:q264="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q265:EMailEntity" xmlns:q265="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SendAndSaveEmailToTmpDocument">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q265:EMailEntity" xmlns:q265="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q266:EMailEntity" xmlns:q266="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="StripAttachments" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
@@ -2566,7 +2580,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="SaveEmailToTmpDocument">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q266:EMailEntity" xmlns:q266="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q267:EMailEntity" xmlns:q267="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="FolderId" type="xs:int" />
             <xs:element minOccurs="0" name="StripAttachments" type="xs:boolean" />
           </xs:sequence>
@@ -2582,14 +2596,14 @@ title: Services88.EMailAgent WSDL
       <xs:element name="SaveDraft">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Entity" nillable="true" type="q267:EMailEntity" xmlns:q267="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Entity" nillable="true" type="q268:EMailEntity" xmlns:q268="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveDraftResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q268:EMailEntity" xmlns:q268="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q269:EMailEntity" xmlns:q269="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2615,7 +2629,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailFromDocumentIdWithoutAttachmentStreamResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q269:EMailEntity" xmlns:q269="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q270:EMailEntity" xmlns:q270="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2629,7 +2643,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStreamResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q270:EMailEntity" xmlns:q270="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q271:EMailEntity" xmlns:q271="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2644,7 +2658,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetAttachmentFromIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q271:EMailAttachment" xmlns:q271="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q272:EMailAttachment" xmlns:q272="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2661,7 +2675,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetPreviewAttachmentFromIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q272:EMailAttachment" xmlns:q272="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q273:EMailAttachment" xmlns:q273="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2678,7 +2692,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedPreviewAttachmentFromIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q273:EMailAttachment" xmlns:q273="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q274:EMailAttachment" xmlns:q274="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2693,7 +2707,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetPreviewAttachmentFromDocIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q274:EMailAttachment" xmlns:q274="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q275:EMailAttachment" xmlns:q275="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2708,7 +2722,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetUnsanitizedPreviewAttachmentFromDocIdResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q275:EMailAttachment" xmlns:q275="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q276:EMailAttachment" xmlns:q276="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2769,7 +2783,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="CreateInlineHtmlHeader">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Email" nillable="true" type="q276:EMailEntity" xmlns:q276="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Email" nillable="true" type="q277:EMailEntity" xmlns:q277="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2790,7 +2804,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEmailAppointmentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q277:EMailAppointment" xmlns:q277="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q278:EMailAppointment" xmlns:q278="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2804,7 +2818,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEmailAppointmentRecurrenceResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q278:RecurrenceInfo" xmlns:q278="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q279:RecurrenceInfo" xmlns:q279="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2813,18 +2827,18 @@ title: Services88.EMailAgent WSDL
           <xs:element minOccurs="0" name="RecurrenceId" type="xs:int" />
           <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
           <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
-          <xs:element minOccurs="0" name="RecurrenceEndType" type="q279:RecurrenceEndType" xmlns:q279="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Pattern" type="q280:RecurrencePattern" xmlns:q280="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="DayPattern" nillable="true" type="q281:RecurrenceDayPattern" xmlns:q281="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="WeekPattern" nillable="true" type="q282:RecurrenceWeekPattern" xmlns:q282="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="MonthPattern" nillable="true" type="q283:RecurrenceMonthPattern" xmlns:q283="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="YearPattern" nillable="true" type="q284:RecurrenceYearPattern" xmlns:q284="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Dates" nillable="true" type="q285:ArrayOfRecurrenceDate" xmlns:q285="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="RecurrenceEndType" type="q280:RecurrenceEndType" xmlns:q280="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q281:RecurrencePattern" xmlns:q281="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="DayPattern" nillable="true" type="q282:RecurrenceDayPattern" xmlns:q282="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="WeekPattern" nillable="true" type="q283:RecurrenceWeekPattern" xmlns:q283="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="MonthPattern" nillable="true" type="q284:RecurrenceMonthPattern" xmlns:q284="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="YearPattern" nillable="true" type="q285:RecurrenceYearPattern" xmlns:q285="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Dates" nillable="true" type="q286:ArrayOfRecurrenceDate" xmlns:q286="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="RecurrenceCounter" type="xs:int" />
           <xs:element minOccurs="0" name="IsRecurrence" type="xs:boolean" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceInfo" nillable="true" type="q286:RecurrenceInfo" xmlns:q286="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceInfo" nillable="true" type="q287:RecurrenceInfo" xmlns:q287="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceEndType">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2832,14 +2846,14 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="Counter" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceEndType" nillable="true" type="q287:RecurrenceEndType" xmlns:q287="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceEndType" nillable="true" type="q288:RecurrenceEndType" xmlns:q288="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceDayPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
-          <xs:element minOccurs="0" name="Pattern" type="q288:RecurrenceDailyPattern" xmlns:q288="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q289:RecurrenceDailyPattern" xmlns:q289="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceDayPattern" nillable="true" type="q289:RecurrenceDayPattern" xmlns:q289="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceDayPattern" nillable="true" type="q290:RecurrenceDayPattern" xmlns:q290="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceDailyPattern">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2848,15 +2862,20 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="EveryCyclicDay" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceDailyPattern" nillable="true" type="q290:RecurrenceDailyPattern" xmlns:q290="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceDailyPattern" nillable="true" type="q291:RecurrenceDailyPattern" xmlns:q291="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceWeekPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
-          <xs:element minOccurs="0" name="Weekdays" type="q291:Weekday" xmlns:q291="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Weekdays" type="q292:Weekday" xmlns:q292="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceWeekPattern" nillable="true" type="q292:RecurrenceWeekPattern" xmlns:q292="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceWeekPattern" nillable="true" type="q293:RecurrenceWeekPattern" xmlns:q293="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="Weekday">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
         <xs:list>
           <xs:simpleType>
             <xs:restriction base="xs:string">
@@ -2871,17 +2890,17 @@ title: Services88.EMailAgent WSDL
           </xs:simpleType>
         </xs:list>
       </xs:simpleType>
-      <xs:element name="Weekday" nillable="true" type="q293:Weekday" xmlns:q293="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Weekday" nillable="true" type="q294:Weekday" xmlns:q294="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceMonthPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
           <xs:element minOccurs="0" name="Day" type="xs:int" />
-          <xs:element minOccurs="0" name="Weekday" type="q294:Weekday" xmlns:q294="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="WeekOfMonth" type="q295:WeekOfMonth" xmlns:q295="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Pattern" type="q296:RecurrenceMonthlyPattern" xmlns:q296="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Weekday" type="q295:Weekday" xmlns:q295="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="WeekOfMonth" type="q296:WeekOfMonth" xmlns:q296="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q297:RecurrenceMonthlyPattern" xmlns:q297="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceMonthPattern" nillable="true" type="q297:RecurrenceMonthPattern" xmlns:q297="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceMonthPattern" nillable="true" type="q298:RecurrenceMonthPattern" xmlns:q298="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="WeekOfMonth">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2892,7 +2911,7 @@ title: Services88.EMailAgent WSDL
           <xs:enumeration value="Last" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="WeekOfMonth" nillable="true" type="q298:WeekOfMonth" xmlns:q298="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="WeekOfMonth" nillable="true" type="q299:WeekOfMonth" xmlns:q299="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceMonthlyPattern">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2912,17 +2931,17 @@ title: Services88.EMailAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceMonthlyPattern" nillable="true" type="q299:RecurrenceMonthlyPattern" xmlns:q299="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceMonthlyPattern" nillable="true" type="q300:RecurrenceMonthlyPattern" xmlns:q300="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceYearPattern">
         <xs:sequence>
           <xs:element minOccurs="0" name="Cycle" type="xs:int" />
           <xs:element minOccurs="0" name="Day" type="xs:int" />
-          <xs:element minOccurs="0" name="Weekday" type="q300:Weekday" xmlns:q300="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="WeekOfMonth" type="q301:WeekOfMonth" xmlns:q301="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Pattern" type="q302:RecurrenceYearlyPattern" xmlns:q302="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Weekday" type="q301:Weekday" xmlns:q301="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="WeekOfMonth" type="q302:WeekOfMonth" xmlns:q302="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Pattern" type="q303:RecurrenceYearlyPattern" xmlns:q303="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceYearPattern" nillable="true" type="q303:RecurrenceYearPattern" xmlns:q303="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceYearPattern" nillable="true" type="q304:RecurrenceYearPattern" xmlns:q304="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="RecurrenceYearlyPattern">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -2942,13 +2961,13 @@ title: Services88.EMailAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="RecurrenceYearlyPattern" nillable="true" type="q304:RecurrenceYearlyPattern" xmlns:q304="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceYearlyPattern" nillable="true" type="q305:RecurrenceYearlyPattern" xmlns:q305="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfRecurrenceDate">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="RecurrenceDate" nillable="true" type="q305:RecurrenceDate" xmlns:q305="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="RecurrenceDate" nillable="true" type="q306:RecurrenceDate" xmlns:q306="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfRecurrenceDate" nillable="true" type="q306:ArrayOfRecurrenceDate" xmlns:q306="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfRecurrenceDate" nillable="true" type="q307:ArrayOfRecurrenceDate" xmlns:q307="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="RecurrenceDate">
         <xs:sequence>
           <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
@@ -2958,7 +2977,7 @@ title: Services88.EMailAgent WSDL
           <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="RecurrenceDate" nillable="true" type="q307:RecurrenceDate" xmlns:q307="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="RecurrenceDate" nillable="true" type="q308:RecurrenceDate" xmlns:q308="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetParticipantInfoFromEmailAddress">
         <xs:complexType>
           <xs:sequence>
@@ -2970,7 +2989,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetParticipantInfoFromEmailAddressResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q308:Person" xmlns:q308="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q309:Person" xmlns:q309="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2998,7 +3017,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetEMailSOInfoResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q309:EMailSOInfo" xmlns:q309="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q310:EMailSOInfo" xmlns:q310="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3010,19 +3029,19 @@ title: Services88.EMailAgent WSDL
       <xs:element name="GetReadySyncEmailAccountsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q310:ArrayOfSyncUserAccount" xmlns:q310="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q311:ArrayOfSyncUserAccount" xmlns:q311="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfSyncUserAccount">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SyncUserAccount" nillable="true" type="q311:SyncUserAccount" xmlns:q311="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SyncUserAccount" nillable="true" type="q312:SyncUserAccount" xmlns:q312="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfSyncUserAccount" nillable="true" type="q312:ArrayOfSyncUserAccount" xmlns:q312="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfSyncUserAccount" nillable="true" type="q313:ArrayOfSyncUserAccount" xmlns:q313="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SyncUserAccount">
         <xs:complexContent mixed="false">
-          <xs:extension base="q313:Carrier" xmlns:q313="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q314:Carrier" xmlns:q314="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="AccountId" type="xs:int" />
               <xs:element minOccurs="0" name="AssociateName" nillable="true" type="xs:string" />
@@ -3031,11 +3050,11 @@ title: Services88.EMailAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SyncUserAccount" nillable="true" type="q314:SyncUserAccount" xmlns:q314="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SyncUserAccount" nillable="true" type="q315:SyncUserAccount" xmlns:q315="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SyncEmailAccount">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SyncUserAccount" nillable="true" type="q315:SyncUserAccount" xmlns:q315="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="SyncUserAccount" nillable="true" type="q316:SyncUserAccount" xmlns:q316="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3047,7 +3066,7 @@ title: Services88.EMailAgent WSDL
       <xs:element name="SyncEmailAccounts">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="SyncUserAccounts" nillable="true" type="q316:ArrayOfSyncUserAccount" xmlns:q316="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="SyncUserAccounts" nillable="true" type="q317:ArrayOfSyncUserAccount" xmlns:q317="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -3465,6 +3484,23 @@ title: Services88.EMailAgent WSDL
     <wsdl:part name="parameters" element="tns:HasSPFRecordResponse" />
   </wsdl:message>
   <wsdl:message name="HasSPFRecordResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ResolveEMailRecipientsRequest">
+    <wsdl:part name="parameters" element="tns:ResolveEMailRecipients" />
+  </wsdl:message>
+  <wsdl:message name="ResolveEMailRecipientsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="ResolveEMailRecipientsResponse">
+    <wsdl:part name="parameters" element="tns:ResolveEMailRecipientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResolveEMailRecipientsResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -4881,6 +4917,10 @@ title: Services88.EMailAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasSPFRecord" name="HasSPFRecordRequest" message="tns:HasSPFRecordRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/HasSPFRecordResponse" name="HasSPFRecordResponse" message="tns:HasSPFRecordResponse" />
     </wsdl:operation>
+    <wsdl:operation name="ResolveEMailRecipients">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/ResolveEMailRecipients" name="ResolveEMailRecipientsRequest" message="tns:ResolveEMailRecipientsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/ResolveEMailRecipientsResponse" name="ResolveEMailRecipientsResponse" message="tns:ResolveEMailRecipientsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetEMailFromId">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromId" name="GetEMailFromIdRequest" message="tns:GetEMailFromIdRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/GetEMailFromIdResponse" name="GetEMailFromIdResponse" message="tns:GetEMailFromIdResponse" />
@@ -5529,6 +5569,22 @@ title: Services88.EMailAgent WSDL
         <soap:header message="tns:HasSPFRecordResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:HasSPFRecordResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:HasSPFRecordResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResolveEMailRecipients">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/EMail/ResolveEMailRecipients" style="document" />
+      <wsdl:input name="ResolveEMailRecipientsRequest">
+        <soap:header message="tns:ResolveEMailRecipientsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:ResolveEMailRecipientsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:ResolveEMailRecipientsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ResolveEMailRecipientsResponse">
+        <soap:header message="tns:ResolveEMailRecipientsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:ResolveEMailRecipientsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:ResolveEMailRecipientsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:ResolveEMailRecipientsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

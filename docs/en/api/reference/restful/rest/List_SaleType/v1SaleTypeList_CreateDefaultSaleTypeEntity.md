@@ -66,8 +66,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,53 +85,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 147,
-  "Name": "Stracke, Cremin and Heidenreich",
-  "Tooltip": "corrupti",
-  "Rank": 250,
+  "SaleTypeId": 450,
+  "Name": "McDermott-Ullrich",
+  "Tooltip": "incidunt",
+  "Rank": 803,
   "DurationUnit": "Century",
-  "SaleDuration": 717,
-  "SaleTypeCatId": 690,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "SaleDuration": 140,
+  "SaleTypeCatId": 828,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 623,
-  "QuoteLinesTemplate": 744,
-  "ConfirmationLinesTemplate": 182,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 869,
+  "QuoteLinesTemplate": 172,
+  "ConfirmationLinesTemplate": 317,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 899,
-  "MinEarningPercent": 143,
-  "GroupQuoteLinesBy": 17,
-  "SortGroupLinesBy": 640,
+  "MaxDiscountPercent": 489,
+  "MinEarningPercent": 831,
+  "GroupQuoteLinesBy": 652,
+  "SortGroupLinesBy": 850,
   "Stages": [
     {
-      "Id": 14,
-      "Name": "King-Swift",
-      "ToolTip": "Inventore ex sed quisquam.",
+      "Id": 221,
+      "Name": "Kozey-Bosco",
+      "ToolTip": "Non explicabo quod deserunt itaque.",
       "Deleted": false,
-      "Rank": 386,
-      "Type": "voluptatem",
-      "ColorBlock": 506,
-      "IconHint": "assumenda",
-      "Selected": true,
-      "LastChanged": "2008-11-14T12:15:28.4706143+01:00",
+      "Rank": 346,
+      "Type": "ducimus",
+      "ColorBlock": 1001,
+      "IconHint": "ea",
+      "Selected": false,
+      "LastChanged": "2014-07-29T15:29:31.5859738+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ea",
-      "StyleHint": "consequuntur",
-      "Hidden": false,
-      "FullName": "Helene Jakubowski",
+      "ExtraInfo": "ut",
+      "StyleHint": "ut",
+      "Hidden": true,
+      "FullName": "Beth Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 180
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 464
     }
   }
 }

@@ -45,14 +45,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New | RecurrenceInfo |  |
-| Current | RecurrenceInfo |  |
+| New | TimeZoneData |  |
+| Current | TimeZoneData |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -62,7 +62,7 @@ OK
 POST /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,14 +80,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 202,
-      "NumberOfLicensesFree": 982,
-      "NumberOfLicensesAdded": 922,
-      "NumberOfLicensesNewTotal": 644,
-      "NumberOfLicensesNewFree": 57,
-      "NumberOfLicensesTotal": 229
+      "NumberOfLicensesInUse": 938,
+      "NumberOfLicensesFree": 947,
+      "NumberOfLicensesAdded": 304,
+      "NumberOfLicensesNewTotal": 339,
+      "NumberOfLicensesNewFree": 394,
+      "NumberOfLicensesTotal": 356
     }
   ],
-  "AccumulatedNextCheckDate": "2018-09-20T12:15:27.6386264+02:00"
+  "AccumulatedNextCheckDate": "2021-04-08T15:29:30.8499846+02:00"
 }
 ```

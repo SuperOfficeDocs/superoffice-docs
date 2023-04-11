@@ -89,8 +89,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,21 +98,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Crist Group",
-      "Operator": "in",
+      "Name": "Harber, Ruecker and Wehner",
+      "Operator": "et",
       "Values": [
-        "adipisci",
-        "quis"
+        "non",
+        "autem"
       ],
       "DisplayValues": [
-        "ut",
-        "earum"
+        "quisquam",
+        "iste"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,14 +120,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 633,
+      "InterParenthesis": 364,
       "InterOperator": "And",
-      "UniqueHash": 767
+      "UniqueHash": 395
     }
   ],
-  "ProviderName": "Ernser, Ortiz and Hilpert",
-  "PageSize": 655,
-  "PageNumber": 62
+  "ProviderName": "Wuckert Group",
+  "PageSize": 673,
+  "PageNumber": 953
 }
 ```
 
@@ -140,51 +140,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Haley, Schmeler and Lind",
-      "DisplayTooltip": "quae",
-      "DisplayType": "eum",
+      "DisplayName": "Morissette, Swaniawski and Nikolaus",
+      "DisplayTooltip": "necessitatibus",
+      "DisplayType": "quos",
       "CanOrderBy": false,
-      "Name": "Conroy, Hills and Buckridge",
+      "Name": "Bayer, Lubowitz and Smitham",
       "CanRestrictBy": false,
-      "RestrictionType": "rerum",
-      "RestrictionListName": "Upton, Mitchell and Cummings",
+      "RestrictionType": "odio",
+      "RestrictionListName": "Hamill-Hoppe",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "ratione",
-      "IconHint": "ut",
-      "HeadingIconHint": "culpa"
+      "ExtraInfo": "aperiam",
+      "Width": "a",
+      "IconHint": "ipsa",
+      "HeadingIconHint": "vitae"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rutherford Inc and Sons",
-      "PrimaryKey": 374,
+      "EntityName": "Heller-Bashirian",
+      "PrimaryKey": 70,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "natus",
-          "TooltipHint": "qui",
-          "LinkHint": "praesentium"
+          "DisplayValue": "et",
+          "TooltipHint": "rerum",
+          "LinkHint": "omnis"
         }
       },
-      "LinkHint": "consequuntur",
-      "StyleHint": "soluta",
+      "LinkHint": "omnis",
+      "StyleHint": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 965
+          "FieldLength": 654
         }
       }
     }
   ],
-  "RowCount": 503,
+  "RowCount": 263,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldLength": 702
     }
   }
 }

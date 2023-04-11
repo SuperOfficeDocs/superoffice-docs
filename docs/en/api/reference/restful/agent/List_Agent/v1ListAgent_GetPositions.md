@@ -57,8 +57,8 @@ OK
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/GetPositions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Value": "harum",
-    "Tooltip": "non",
+    "Id": 396,
+    "Value": "architecto",
+    "Tooltip": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 464
       }
     }
   },
   {
-    "Id": 118,
-    "Value": "harum",
-    "Tooltip": "non",
+    "Id": 396,
+    "Value": "architecto",
+    "Tooltip": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldType": "System.String",
+        "FieldLength": 464
       }
     }
   }

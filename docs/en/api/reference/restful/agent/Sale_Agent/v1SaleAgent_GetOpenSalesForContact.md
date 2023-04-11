@@ -87,8 +87,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 271
+  "ContactId": 879
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Prosacco-Stracke",
-    "SaleDate": "2018-08-09T12:15:20.0967364+02:00",
-    "SaleId": 999,
-    "Probability": 542,
-    "Title": "sint",
-    "Amount": 11072.422,
-    "Currency": "quis",
-    "ProjectName": "Jakubowski-O'Hara",
-    "AssociateFullName": "Alexane Volkman",
-    "Description": "Managed mission-critical architecture",
+    "ContactName": "Jakubowski Group",
+    "SaleDate": "2012-07-02T15:29:22.733799+02:00",
+    "SaleId": 525,
+    "Probability": 481,
+    "Title": "incidunt",
+    "Amount": 498.306,
+    "Currency": "maiores",
+    "ProjectName": "Yost Group",
+    "AssociateFullName": "Melany Will",
+    "Description": "Secured radical interface",
     "Status": "Lost",
-    "WeightedAmount": 28547.606,
-    "ProjectId": 941,
-    "EarningPercent": 14084.196,
-    "Earning": 1535.6599999999999,
-    "ContactId": 582,
-    "AssociateId": 695,
-    "PersonId": 634,
-    "SaleTypeId": 196,
-    "SaleTypeName": "Skiles LLC",
-    "PersonFullName": "Dr. Dina Quigley",
+    "WeightedAmount": 30703.798,
+    "ProjectId": 651,
+    "EarningPercent": 3306.37,
+    "Earning": 1284.94,
+    "ContactId": 154,
+    "AssociateId": 965,
+    "PersonId": 296,
+    "SaleTypeId": 57,
+    "SaleTypeName": "Skiles, Sanford and Schimmel",
+    "PersonFullName": "Dr. Natalie Gibson",
     "Completed": "Completed",
-    "ActiveErpLinks": 782,
-    "NextDueDate": "2005-07-25T12:15:20.0967364+02:00",
-    "Number": "895622",
+    "ActiveErpLinks": 216,
+    "NextDueDate": "2009-10-27T15:29:22.7342982+01:00",
+    "Number": "431001",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldLength": 1002
       }
     }
   }

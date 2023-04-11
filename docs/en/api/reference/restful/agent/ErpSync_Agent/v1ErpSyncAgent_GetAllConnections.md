@@ -79,8 +79,8 @@ OK
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -104,33 +104,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 609,
-    "ErpConnectorId": 675,
-    "DisplayName": "Abernathy LLC",
-    "DisplayDescription": "Horizontal non-volatile orchestration",
+    "ErpConnectionId": 61,
+    "ErpConnectorId": 720,
+    "DisplayName": "Effertz Inc and Sons",
+    "DisplayDescription": "Advanced local portal",
     "Active": false,
-    "ConnectionId": "saepe",
-    "MostRecentTimestamp": "quod",
+    "ConnectionId": "nam",
+    "MostRecentTimestamp": "sint",
     "ConfigFields": {
-      "ConfigFields1": "ut",
-      "ConfigFields2": "iste"
+      "ConfigFields1": "iste",
+      "ConfigFields2": "alias"
     },
     "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      751,
-      85
+      485,
+      336
     ],
     "AssociateAccessIds": [
-      194,
-      986
+      102,
+      8
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 291
       }
     }
   }

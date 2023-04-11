@@ -72,8 +72,8 @@ OK
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,16 +81,16 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 953,
-  "Name": "Durgan-Boyle",
-  "Tooltip": "velit",
-  "Rank": 832,
-  "Key": "sint",
-  "MailTemplateId": 315,
+  "ConsentSourceId": 786,
+  "Name": "Mraz, Bailey and Quitzon",
+  "Tooltip": "officia",
+  "Rank": 655,
+  "Key": "possimus",
+  "MailTemplateId": 605,
   "Deleted": false
 }
 ```
@@ -102,19 +102,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 131,
-  "Name": "Harris LLC",
-  "Tooltip": "non",
-  "Rank": 190,
-  "Key": "cum",
-  "MailTemplateId": 313,
-  "Deleted": false,
+  "ConsentSourceId": 275,
+  "Name": "Cremin, Keeling and Denesik",
+  "Tooltip": "et",
+  "Rank": 290,
+  "Key": "libero",
+  "MailTemplateId": 772,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 929
     }
   }
 }

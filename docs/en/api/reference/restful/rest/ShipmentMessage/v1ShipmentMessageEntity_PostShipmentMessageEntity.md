@@ -105,8 +105,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -115,31 +115,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 468,
-  "PlainMessage": "eos",
-  "HtmlMessage": "officiis",
-  "SmsMessage": "consequatur",
-  "Description": "Expanded maximized hardware",
-  "Subject": "consequuntur",
-  "FolderId": 797,
-  "HeaderField": "magni",
-  "Design": "amet",
+  "ShipmentMessageId": 528,
+  "PlainMessage": "rerum",
+  "HtmlMessage": "unde",
+  "SmsMessage": "voluptas",
+  "Description": "Future-proofed discrete definition",
+  "Subject": "corporis",
+  "FolderId": 774,
+  "HeaderField": "ut",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Business-focused context-sensitive matrix",
-  "AccessKey": "quia",
-  "DocumentMessage": 671,
-  "Registered": "2001-09-22T12:15:27.3996295+02:00",
-  "RegisteredAssociateId": 27,
-  "Updated": "2011-09-03T12:15:27.3996295+02:00",
-  "UpdatedAssociateId": 249,
-  "UpdatedCount": 135
+  "LongDescription": "Team-oriented exuding framework",
+  "AccessKey": "necessitatibus",
+  "DocumentMessage": 875,
+  "Registered": "2010-07-26T15:29:30.6234941+02:00",
+  "RegisteredAssociateId": 473,
+  "Updated": "2010-12-14T15:29:30.6234941+01:00",
+  "UpdatedAssociateId": 27,
+  "UpdatedCount": 136
 }
 ```
 
@@ -150,33 +150,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 67,
-  "PlainMessage": "sapiente",
-  "HtmlMessage": "aut",
-  "SmsMessage": "earum",
-  "Description": "Reduced multi-state core",
-  "Subject": "optio",
-  "FolderId": 305,
-  "HeaderField": "totam",
-  "Design": "et",
+  "ShipmentMessageId": 119,
+  "PlainMessage": "occaecati",
+  "HtmlMessage": "a",
+  "SmsMessage": "exercitationem",
+  "Description": "Organized value-added approach",
+  "Subject": "minima",
+  "FolderId": 413,
+  "HeaderField": "cupiditate",
+  "Design": "aliquam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Vision-oriented real-time algorithm",
-  "AccessKey": "in",
-  "DocumentMessage": 289,
-  "Registered": "2009-08-23T12:15:27.3996295+02:00",
-  "RegisteredAssociateId": 386,
-  "Updated": "2008-10-12T12:15:27.3996295+02:00",
-  "UpdatedAssociateId": 786,
-  "UpdatedCount": 88,
+  "LongDescription": "Proactive directional benchmark",
+  "AccessKey": "et",
+  "DocumentMessage": 871,
+  "Registered": "2021-01-12T15:29:30.6239884+01:00",
+  "RegisteredAssociateId": 369,
+  "Updated": "2015-06-22T15:29:30.6239884+02:00",
+  "UpdatedAssociateId": 409,
+  "UpdatedCount": 704,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   },
   "_Links": {

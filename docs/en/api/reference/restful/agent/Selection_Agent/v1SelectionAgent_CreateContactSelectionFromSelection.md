@@ -106,8 +106,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -119,10 +119,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 766,
-  "Name": "Carroll, Turner and Leuschke",
+  "SelectionId": 943,
+  "Name": "Greenfelder-Wilderman",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Expanded clear-thinking open system",
-  "Postit": "est",
+  "Description": "Face to face even-keeled matrix",
+  "Postit": "modi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 542,
-  "IncludePerson": 962,
-  "MemberCount": 700,
-  "Name": "Schroeder-Flatley",
-  "PostitTextId": 592,
-  "CreatedDate": "2000-08-09T12:15:20.1467394+02:00",
-  "SelectionId": 714,
-  "SoundEx": "et",
-  "Source": 979,
-  "TextId": 385,
-  "UpdatedDate": "2008-08-16T12:15:20.1467394+02:00",
-  "UpdatedCount": 272,
-  "Visibility": 582,
+  "GroupIdx": 373,
+  "IncludePerson": 233,
+  "MemberCount": 627,
+  "Name": "Marquardt, Barton and Bosco",
+  "PostitTextId": 426,
+  "CreatedDate": "2008-06-16T15:29:22.7867974+02:00",
+  "SelectionId": 815,
+  "SoundEx": "quibusdam",
+  "Source": 921,
+  "TextId": 648,
+  "UpdatedDate": "1996-09-13T15:29:22.7867974+02:00",
+  "UpdatedCount": 322,
+  "Visibility": 130,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 904,
-  "TargetTableName": "Marvin-Jewess",
-  "Completed": false,
-  "LeftSelectionId": 114,
-  "RightSelectionId": 716,
+  "TargetTableNumber": 61,
+  "TargetTableName": "Nitzsche, Koelpin and Volkman",
+  "Completed": true,
+  "LeftSelectionId": 584,
+  "RightSelectionId": 782,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Johnson Inc and Sons",
-  "ShadowProviderName": "Runolfsson, Bins and Ullrich",
-  "ChartKey": "porro",
-  "LastLoaded": "2006-04-28T12:15:20.1467394+02:00",
-  "LastLoadedBy": 326,
+  "MainProviderName": "Konopelski-Heaney",
+  "ShadowProviderName": "Bartell Inc and Sons",
+  "ChartKey": "optio",
+  "LastLoaded": "2020-03-22T15:29:22.7872971+01:00",
+  "LastLoadedBy": 968,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-09-23T12:15:20.1477371+02:00",
-  "LastMembershipChangeBy": 684,
+  "LastMembershipChange": "2011-09-29T15:29:22.7872971+02:00",
+  "LastMembershipChangeBy": 855,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deserunt",
-  "MemberTabHeading": "consequatur",
-  "MailingsProviderName": "Bednar, Pacocha and Schulist",
-  "DashboardTileDefinitionId": 245,
+  "MainHeading": "delectus",
+  "MemberTabHeading": "hic",
+  "MailingsProviderName": "VonRueden Group",
+  "DashboardTileDefinitionId": 348,
   "VisibleFor": [
     {
-      "VisibleId": 711,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 164
         }
       }
     },
     {
-      "VisibleId": 711,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 164
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 617
+      "FieldType": "System.Int32",
+      "FieldLength": 427
     }
   }
 }

@@ -116,8 +116,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -125,14 +125,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 834,
-  "StartTime": "2004-04-04T12:15:17.592769+02:00",
-  "EndTime": "2014-01-21T12:15:17.592769+01:00",
-  "Count": 977
+  "ContactId": 51,
+  "StartTime": "1996-07-07T15:29:20.2038333+02:00",
+  "EndTime": "2005-07-18T15:29:20.2038333+02:00",
+  "Count": 293
 }
 ```
 
@@ -144,53 +144,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 351,
-    "StartDate": "2010-01-16T12:15:17.6097715+01:00",
-    "EndDate": "2000-01-02T12:15:17.6097715+01:00",
+    "AppointmentId": 569,
+    "StartDate": "2007-08-16T15:29:20.223825+02:00",
+    "EndDate": "2012-09-05T15:29:20.223825+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ab",
-    "AssociateFullName": "Mr. Adrianna Cristal Toy",
-    "ContactName": "Torphy LLC",
-    "Description": "Enterprise-wide grid-enabled project",
-    "PersonFullName": "Kelly Kirlin Sr.",
-    "PersonId": 385,
-    "ContactId": 904,
-    "ProjectId": 963,
-    "ProjectName": "Lehner, Cummerata and Torphy",
-    "IsPublished": true,
-    "AssociateId": 337,
-    "ColorIndex": 356,
+    "Task": "sunt",
+    "AssociateFullName": "Miss Barrett Grimes",
+    "ContactName": "Hagenes-Cassin",
+    "Description": "De-engineered bi-directional protocol",
+    "PersonFullName": "Noe Bednar Jr.",
+    "PersonId": 549,
+    "ContactId": 930,
+    "ProjectId": 174,
+    "ProjectName": "Wiza Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 531,
+    "ColorIndex": 770,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 924,
-    "PriorityName": "Anderson Inc and Sons",
+    "PriorityId": 838,
+    "PriorityName": "Friesen Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "1999-02-15T12:15:17.6107712+01:00",
+    "ActiveDate": "2009-01-28T15:29:20.2243247+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-01-31T12:15:17.6107712+01:00",
-    "RecurringEndDate": "2021-05-16T12:15:17.6107712+02:00",
-    "MotherId": 569,
-    "AssignedBy": 570,
-    "AssignedByFullName": "Jamison Sim Batz I",
+    "RecurringStartDate": "2022-07-08T15:29:20.2243247+02:00",
+    "RecurringEndDate": "2022-10-29T15:29:20.2243247+02:00",
+    "MotherId": 161,
+    "AssignedBy": 963,
+    "AssignedByFullName": "Dr. Myles Pfannerstill",
     "RejectReason": "",
-    "Location": "similique",
-    "AlarmLeadTime": "autem",
-    "SaleId": 600,
-    "SaleName": "Erdman-Mitchell",
-    "AssociateName": "Turner, Ortiz and Mayert",
-    "CreatedDate": "2007-02-14T12:15:17.6107712+01:00",
-    "CreatedBy": "quo",
-    "CreatedByFullName": "Delmer Hessel",
-    "CreatedByAssociateId": 628,
+    "Location": "perferendis",
+    "AlarmLeadTime": "ab",
+    "SaleId": 306,
+    "SaleName": "Funk-Crist",
+    "AssociateName": "Stark, Labadie and Thompson",
+    "CreatedDate": "2005-02-10T15:29:20.2248249+01:00",
+    "CreatedBy": "consectetur",
+    "CreatedByFullName": "Dr. Stephany Efrain Auer",
+    "CreatedByAssociateId": 975,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldLength": 806
       }
     }
   }

@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "McClure, Greenfelder and Weber",
-    "ToolTip": "Et modi rem.",
-    "Deleted": false,
-    "Rank": 121,
-    "Type": "perferendis",
-    "ColorBlock": 99,
-    "IconHint": "nesciunt",
+    "Id": 583,
+    "Name": "Ryan Inc and Sons",
+    "ToolTip": "Facilis beatae sed dolorem omnis.",
+    "Deleted": true,
+    "Rank": 580,
+    "Type": "itaque",
+    "ColorBlock": 538,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2006-03-24T12:15:28.5196129+01:00",
+    "LastChanged": "2008-09-15T15:29:31.6299732+02:00",
     "ChildItems": [
       {
-        "Id": 604,
-        "Name": "Cormier LLC",
-        "ToolTip": "Fuga odit omnis in.",
+        "Id": 354,
+        "Name": "Mertz-Stoltenberg",
+        "ToolTip": "Dicta quae omnis eum veritatis beatae optio aut.",
         "Deleted": false,
-        "Rank": 650,
-        "Type": "incidunt",
-        "ColorBlock": 767,
-        "IconHint": "deserunt",
+        "Rank": 987,
+        "Type": "ut",
+        "ColorBlock": 714,
+        "IconHint": "corrupti",
         "Selected": true,
-        "LastChanged": "2001-11-29T12:15:28.5196129+01:00",
+        "LastChanged": "2021-06-07T15:29:31.6299732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "iste",
-        "Hidden": true,
-        "FullName": "Romaine Hellen Stehr II",
+        "ExtraInfo": "eos",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Dr. Annabel O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldType": "System.String",
+            "FieldLength": 562
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "officiis",
+    "ExtraInfo": "quam",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Isadore Batz",
+    "FullName": "Modesto Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldType": "System.String",
+        "FieldLength": 786
       }
     }
   }

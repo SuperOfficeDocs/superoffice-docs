@@ -26,7 +26,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -78,8 +78,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 9,
-    "Name": "Schuppe, Emmerich and Rutherford",
-    "Tooltip": "est",
-    "Rank": 375,
+    "SaleTypeId": 112,
+    "Name": "Muller-Mante",
+    "Tooltip": "laborum",
+    "Rank": 46,
     "DurationUnit": "Century",
-    "SaleDuration": 809,
-    "SaleTypeCatId": 545,
-    "Deleted": true,
-    "HasGuide": false,
-    "HasStakeholders": true,
-    "IsAutoAdvance": false,
+    "SaleDuration": 503,
+    "SaleTypeCatId": 22,
+    "Deleted": false,
+    "HasGuide": true,
+    "HasStakeholders": false,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 493,
-    "QuoteLinesTemplate": 884,
-    "ConfirmationLinesTemplate": 775,
+    "DefaultQuoteValidity": 398,
+    "QuoteLinesTemplate": 853,
+    "ConfirmationLinesTemplate": 506,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 902,
-    "MinEarningPercent": 347,
-    "GroupQuoteLinesBy": 899,
-    "SortGroupLinesBy": 151,
+    "MaxDiscountPercent": 663,
+    "MinEarningPercent": 664,
+    "GroupQuoteLinesBy": 480,
+    "SortGroupLinesBy": 534,
     "Stages": [
       {
-        "Id": 321,
-        "Name": "Schmidt, Prohaska and Emmerich",
-        "ToolTip": "Aut odio beatae.",
-        "Deleted": false,
-        "Rank": 654,
-        "Type": "non",
-        "ColorBlock": 396,
-        "IconHint": "ipsam",
+        "Id": 783,
+        "Name": "Fahey Group",
+        "ToolTip": "Asperiores blanditiis quos laboriosam qui atque.",
+        "Deleted": true,
+        "Rank": 897,
+        "Type": "ex",
+        "ColorBlock": 801,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2023-01-12T12:15:28.4676171+01:00",
+        "LastChanged": "2007-09-05T15:29:31.581972+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "rerum",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Dr. Cindy Harris PhD",
+        "FullName": "Mrs. Wilma Bashirian V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 320
+            "FieldLength": 598
           }
         }
       }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 894
       }
     }
   }

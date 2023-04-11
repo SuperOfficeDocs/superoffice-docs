@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,8 +59,8 @@ OK
 | CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 135,
-  "Name": "Adams Group",
-  "Description": "De-engineered executive infrastructure",
-  "DeltaJson": "velit",
+  "ConfigurableScreenDeltaId": 790,
+  "Name": "Hodkiewicz, Bradtke and Nolan",
+  "Description": "Realigned 24/7 process improvement",
+  "DeltaJson": "qui",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quaerat",
-  "UpdatedDate": "1996-11-07T12:15:18.4047594+01:00",
-  "CreatedDate": "2001-03-15T12:15:18.4047594+01:00",
+  "RecipeId": "aut",
+  "UpdatedDate": "2011-07-05T15:29:21.0237854+02:00",
+  "CreatedDate": "1997-07-25T15:29:21.0237854+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    505,
-    287
+    549,
+    843
   ],
-  "AppliesToKey": "eligendi",
+  "AppliesToKey": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 284
+      "FieldLength": 910
     }
   }
 }

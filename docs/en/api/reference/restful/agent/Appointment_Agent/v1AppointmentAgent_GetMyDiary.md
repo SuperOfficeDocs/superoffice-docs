@@ -115,8 +115,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -124,13 +124,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2015-05-16T12:15:17.9947657+02:00",
-  "EndTime": "2009-06-08T12:15:17.9947657+02:00",
-  "Count": 877
+  "StartTime": "2013-11-18T15:29:20.7397903+01:00",
+  "EndTime": "2003-08-12T15:29:20.7397903+02:00",
+  "Count": 722
 }
 ```
 
@@ -142,61 +142,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 91,
-    "StartDate": "2010-04-25T12:15:17.9957654+02:00",
-    "EndDate": "1996-05-18T12:15:17.9957654+02:00",
+    "AppointmentId": 753,
+    "StartDate": "2022-11-21T15:29:20.7412898+01:00",
+    "EndDate": "2015-06-07T15:29:20.7412898+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Prof. Sharon Kuvalis",
-    "ContactName": "Swift LLC",
-    "Description": "Robust next generation hub",
-    "PersonFullName": "Melany Braun II",
-    "PersonId": 894,
-    "ContactId": 994,
-    "ProjectId": 298,
-    "ProjectName": "Herman, Leannon and Wilkinson",
+    "Task": "et",
+    "AssociateFullName": "Leann Stiedemann",
+    "ContactName": "O'Hara-Friesen",
+    "Description": "Virtual multimedia strategy",
+    "PersonFullName": "Miss Trever Mosciski",
+    "PersonId": 481,
+    "ContactId": 512,
+    "ProjectId": 358,
+    "ProjectName": "Halvorson, Grady and Johnson",
     "IsPublished": false,
-    "AssociateId": 745,
-    "ColorIndex": 674,
+    "AssociateId": 725,
+    "ColorIndex": 273,
     "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 874,
-    "PriorityName": "Konopelski Group",
+    "PriorityId": 487,
+    "PriorityName": "Becker-Von",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2019-09-03T12:15:17.9957654+02:00",
+    "IsBooking": true,
+    "ActiveDate": "1998-02-17T15:29:20.7412898+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-08-26T12:15:17.9967659+02:00",
-    "RecurringEndDate": "2012-07-25T12:15:17.9967659+02:00",
-    "MotherId": 60,
-    "AssignedBy": 402,
-    "AssignedByFullName": "Jesse Stroman",
+    "RecurringStartDate": "2000-04-13T15:29:20.7417904+02:00",
+    "RecurringEndDate": "1997-05-21T15:29:20.7417904+02:00",
+    "MotherId": 609,
+    "AssignedBy": 551,
+    "AssignedByFullName": "Jack Ahmad Hirthe Jr.",
     "RejectReason": "",
-    "Location": "debitis",
-    "AlarmLeadTime": "aperiam",
-    "SaleId": 850,
-    "SaleName": "Spinka LLC",
-    "AssociateName": "Franecki-Leffler",
-    "CreatedDate": "2020-12-16T12:15:17.9967659+01:00",
-    "CreatedBy": "cumque",
-    "CreatedByFullName": "Miss Jamaal Rogahn Jr.",
-    "CreatedByAssociateId": 623,
+    "Location": "doloribus",
+    "AlarmLeadTime": "accusantium",
+    "SaleId": 115,
+    "SaleName": "Tillman LLC",
+    "AssociateName": "Bartell, Stehr and Feeney",
+    "CreatedDate": "2023-02-02T15:29:20.7417904+01:00",
+    "CreatedBy": "excepturi",
+    "CreatedByFullName": "Prof. Dee Lueilwitz",
+    "CreatedByAssociateId": 469,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

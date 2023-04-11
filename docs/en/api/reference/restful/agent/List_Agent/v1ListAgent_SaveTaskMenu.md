@@ -79,8 +79,8 @@ OK
 | Encoding | string | Encoding for url |
 | ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
 | Deleted | bool | True if deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,19 +92,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 776,
-  "Name": "Daugherty, Hoeger and Jacobson",
-  "Tooltip": "impedit",
-  "TableName": "Buckridge, Kilback and Kautzer",
-  "Area": "sint",
+  "TaskMenuId": 856,
+  "Name": "Sanford, Baumbach and Bogisich",
+  "Tooltip": "necessitatibus",
+  "TableName": "Kuphal-Wunsch",
+  "Area": "at",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 647,
+  "CrmScriptId": 302,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 634,
+  "Rank": 455,
   "Encoding": "ANSI",
-  "ProgId": "recusandae",
+  "ProgId": "vero",
   "Deleted": false
 }
 ```
@@ -116,26 +116,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 191,
-  "Name": "Williamson-Leannon",
-  "Tooltip": "totam",
-  "TableName": "Gutkowski, Maggio and Carter",
-  "Area": "et",
+  "TaskMenuId": 592,
+  "Name": "Cronin-Botsford",
+  "Tooltip": "aut",
+  "TableName": "Williamson LLC",
+  "Area": "aut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 468,
+  "CrmScriptId": 108,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 984,
+  "Rank": 930,
   "Encoding": "ANSI",
-  "ProgId": "eum",
-  "Deleted": true,
+  "ProgId": "dolores",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 443
     }
   }
 }

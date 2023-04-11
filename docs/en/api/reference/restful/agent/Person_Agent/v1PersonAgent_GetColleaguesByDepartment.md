@@ -104,8 +104,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -117,7 +117,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 121
+  "DepartmentId": 100
 }
 ```
 
@@ -129,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nobis",
-    "PersonId": 93,
-    "Mrmrs": "laborum",
-    "Firstname": "Branson",
-    "Lastname": "Kuhn",
-    "MiddleName": "Nitzsche-Kovacek",
-    "Title": "esse",
-    "Description": "Exclusive foreground installation",
-    "Email": "golden_medhurst@sauer.com",
-    "FullName": "Kennith McGlynn Jr.",
-    "DirectPhone": "1-297-794-5496",
-    "FormalName": "Bruen-Hackett",
-    "CountryId": 242,
-    "ContactId": 288,
-    "ContactName": "Stehr, Hartmann and Cronin",
-    "Retired": 571,
-    "Rank": 425,
-    "ActiveInterests": 970,
+    "Position": "deserunt",
+    "PersonId": 103,
+    "Mrmrs": "consequatur",
+    "Firstname": "Gregoria",
+    "Lastname": "Maggio",
+    "MiddleName": "Mayer Group",
+    "Title": "velit",
+    "Description": "Universal disintermediate flexibility",
+    "Email": "mariana_bernhard@romaguerarippin.us",
+    "FullName": "Dale Wehner",
+    "DirectPhone": "(290)362-4144 x97235",
+    "FormalName": "Cummerata Group",
+    "CountryId": 310,
+    "ContactId": 691,
+    "ContactName": "Grady, Reichel and Nolan",
+    "Retired": 728,
+    "Rank": 348,
+    "ActiveInterests": 103,
     "ContactDepartment": "",
-    "ContactCountryId": 673,
-    "ContactOrgNr": "1157969",
-    "FaxPhone": "885.671.7187 x1593",
-    "MobilePhone": "(713)705-0208",
-    "ContactPhone": "1-731-522-9777 x62772",
-    "AssociateName": "Aufderhar-Labadie",
-    "AssociateId": 257,
+    "ContactCountryId": 515,
+    "ContactOrgNr": "731249",
+    "FaxPhone": "367.764.6038",
+    "MobilePhone": "(436)789-1087 x7009",
+    "ContactPhone": "1-816-466-3710 x4466",
+    "AssociateName": "Haley, Hand and Murray",
+    "AssociateId": 751,
     "UsePersonAddress": false,
-    "ContactFax": "similique",
-    "Kanafname": "aut",
-    "Kanalname": "suscipit",
-    "Post1": "pariatur",
-    "Post2": "quo",
-    "Post3": "ullam",
-    "EmailName": "lea@abernathyschmitt.name",
-    "ContactFullName": "Mr. Moshe Pouros DVM",
-    "ActiveErpLinks": 368,
-    "TicketPriorityId": 290,
-    "SupportLanguageId": 999,
-    "SupportAssociateId": 26,
+    "ContactFax": "unde",
+    "Kanafname": "amet",
+    "Kanalname": "consequatur",
+    "Post1": "debitis",
+    "Post2": "eum",
+    "Post3": "expedita",
+    "EmailName": "braeden_moen@kutchhauck.biz",
+    "ContactFullName": "Glennie Weimann",
+    "ActiveErpLinks": 659,
+    "TicketPriorityId": 42,
+    "SupportLanguageId": 495,
+    "SupportAssociateId": 761,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 181
       }
     }
   }

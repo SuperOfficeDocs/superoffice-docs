@@ -77,8 +77,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,23 +86,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 369,
-  "BlobSize": 350,
-  "Description": "Profound interactive open architecture",
-  "ExtraInfo": "maxime",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "ad",
-  "OriginalSize": 643,
-  "CreatedDate": "1998-12-04T12:15:18.215763+01:00",
-  "UpdatedDate": "2021-11-05T12:15:18.215763+01:00",
+  "BlobId": 511,
+  "BlobSize": 909,
+  "Description": "Grass-roots 24/7 ability",
+  "ExtraInfo": "corrupti",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "laboriosam",
+  "OriginalSize": 607,
+  "CreatedDate": "2001-05-19T15:29:20.8342894+02:00",
+  "UpdatedDate": "2014-07-30T15:29:20.8342894+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "occaecati"
+  "ConceptualType": "vel"
 }
 ```
 
@@ -113,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 186,
-  "BlobSize": 163,
-  "Description": "User-centric directional architecture",
-  "ExtraInfo": "exercitationem",
-  "IsEncrypted": false,
+  "BlobId": 40,
+  "BlobSize": 716,
+  "Description": "Balanced executive core",
+  "ExtraInfo": "perferendis",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "eligendi",
-  "OriginalSize": 926,
-  "CreatedDate": "2013-08-17T12:15:18.2187647+02:00",
-  "UpdatedDate": "2014-11-22T12:15:18.2187647+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 426,
+  "CreatedDate": "2014-02-28T15:29:20.8357883+01:00",
+  "UpdatedDate": "1998-06-12T15:29:20.8357883+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "natus",
+  "ConceptualType": "illo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 317
     }
   }
 }

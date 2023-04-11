@@ -57,8 +57,8 @@ OK
 | Pinned | array | Dashboards pinned to the associate |
 | Favourites | array | The assocates favourite dashboards |
 | Other | array | Other dashboards |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,111 +78,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 638,
-      "UniqueId": "rerum",
-      "Name": "Rosenbaum LLC",
-      "Description": "Reverse-engineered responsive functionalities",
-      "AssociateId": 934,
-      "Columns": 284,
+      "DashboardId": 18,
+      "UniqueId": "nesciunt",
+      "Name": "Kozey Group",
+      "Description": "Virtual upward-trending definition",
+      "AssociateId": 619,
+      "Columns": 182,
       "Theme": null,
-      "VisibleForAll": 24,
+      "VisibleForAll": 586,
       "VisibleForAssociates": [
-        108,
-        680
+        720,
+        471
       ],
       "VisibleForGroups": [
-        266,
-        137
+        377,
+        465
       ],
-      "PinForAll": 234,
+      "PinForAll": 666,
       "PinForAssociates": [
-        894,
-        502
+        82,
+        471
       ],
       "PinForGroups": [
-        79,
-        87
+        539,
+        454
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 595
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 219,
-      "UniqueId": "vero",
-      "Name": "Wunsch-McLaughlin",
-      "Description": "Extended real-time info-mediaries",
-      "AssociateId": 768,
-      "Columns": 192,
+      "DashboardId": 496,
+      "UniqueId": "sit",
+      "Name": "Hilll, Mayer and Wehner",
+      "Description": "Networked well-modulated attitude",
+      "AssociateId": 843,
+      "Columns": 509,
       "Theme": null,
-      "VisibleForAll": 14,
+      "VisibleForAll": 19,
       "VisibleForAssociates": [
-        68,
-        108
+        136,
+        18
       ],
       "VisibleForGroups": [
-        942,
-        244
+        878,
+        511
       ],
-      "PinForAll": 312,
+      "PinForAll": 541,
       "PinForAssociates": [
-        57,
-        634
+        148,
+        755
       ],
       "PinForGroups": [
-        770,
-        557
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 345
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 273,
-      "UniqueId": "est",
-      "Name": "Yost-Paucek",
-      "Description": "Face to face zero defect Graphical User Interface",
-      "AssociateId": 849,
-      "Columns": 929,
-      "Theme": null,
-      "VisibleForAll": 260,
-      "VisibleForAssociates": [
-        715,
-        650
-      ],
-      "VisibleForGroups": [
-        237,
-        147
-      ],
-      "PinForAll": 290,
-      "PinForAssociates": [
-        105,
-        199
-      ],
-      "PinForGroups": [
-        596,
-        317
+        994,
+        503
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 533
+          "FieldLength": 531
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 887,
+      "UniqueId": "repudiandae",
+      "Name": "Jaskolski-Skiles",
+      "Description": "Secured even-keeled neural-net",
+      "AssociateId": 208,
+      "Columns": 157,
+      "Theme": null,
+      "VisibleForAll": 787,
+      "VisibleForAssociates": [
+        794,
+        191
+      ],
+      "VisibleForGroups": [
+        971,
+        130
+      ],
+      "PinForAll": 995,
+      "PinForAssociates": [
+        839,
+        686
+      ],
+      "PinForGroups": [
+        682,
+        487
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 48
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldLength": 845
     }
   }
 }

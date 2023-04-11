@@ -43,7 +43,7 @@ DocumentEntity deleted.
 | 204 | DocumentEntity deleted. |
 | 412 | Delete aborted because DocumentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -52,7 +52,7 @@ DocumentEntity deleted.
 DELETE /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

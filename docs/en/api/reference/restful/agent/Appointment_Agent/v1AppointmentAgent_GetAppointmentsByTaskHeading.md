@@ -113,8 +113,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 617
+  "TaskHeadingId": 416
 }
 ```
 
@@ -138,53 +138,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 720,
-    "StartDate": "2004-01-31T12:15:17.6677406+01:00",
-    "EndDate": "2005-01-20T12:15:17.6677406+01:00",
+    "AppointmentId": 511,
+    "StartDate": "2019-01-07T15:29:20.4138339+01:00",
+    "EndDate": "2007-03-18T15:29:20.4138339+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nulla",
-    "AssociateFullName": "Bessie Smith",
-    "ContactName": "Conroy, Dicki and Ziemann",
-    "Description": "Open-source reciprocal matrices",
-    "PersonFullName": "Prof. Chelsie Gottlieb DVM",
-    "PersonId": 303,
-    "ContactId": 283,
-    "ProjectId": 94,
-    "ProjectName": "Bruen, Denesik and Yost",
+    "Task": "nobis",
+    "AssociateFullName": "Dr. Meda Derrick Wisozk",
+    "ContactName": "Bechtelar-Keebler",
+    "Description": "Monitored executive groupware",
+    "PersonFullName": "Mr. Jayson Gottlieb",
+    "PersonId": 445,
+    "ContactId": 750,
+    "ProjectId": 238,
+    "ProjectName": "Hackett, Jaskolski and Greenholt",
     "IsPublished": false,
-    "AssociateId": 925,
-    "ColorIndex": 968,
-    "IsFree": true,
+    "AssociateId": 511,
+    "ColorIndex": 491,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 977,
-    "PriorityName": "Willms Inc and Sons",
+    "PriorityId": 546,
+    "PriorityName": "Mosciski, Casper and Pacocha",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2014-08-03T12:15:17.6677406+02:00",
+    "ActiveDate": "2018-01-19T15:29:20.4143316+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-12-27T12:15:17.6677406+01:00",
-    "RecurringEndDate": "1997-04-03T12:15:17.6677406+02:00",
-    "MotherId": 540,
-    "AssignedBy": 671,
-    "AssignedByFullName": "Ignacio Cartwright",
+    "RecurringStartDate": "2007-03-29T15:29:20.4143316+02:00",
+    "RecurringEndDate": "2017-09-03T15:29:20.4143316+02:00",
+    "MotherId": 121,
+    "AssignedBy": 513,
+    "AssignedByFullName": "Prof. Kaylah Sarina Sipes I",
     "RejectReason": "",
-    "Location": "placeat",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 235,
-    "SaleName": "Stanton-Reilly",
-    "AssociateName": "Bayer-Lueilwitz",
-    "CreatedDate": "2013-11-24T12:15:17.66877+01:00",
-    "CreatedBy": "placeat",
-    "CreatedByFullName": "Mr. Cathy Kory Simonis Sr.",
-    "CreatedByAssociateId": 615,
+    "Location": "eum",
+    "AlarmLeadTime": "distinctio",
+    "SaleId": 734,
+    "SaleName": "Koepp LLC",
+    "AssociateName": "Cummings LLC",
+    "CreatedDate": "2019-09-12T15:29:20.4148303+02:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Dr. Lambert Goldner",
+    "CreatedByAssociateId": 561,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 476
       }
     }
   }

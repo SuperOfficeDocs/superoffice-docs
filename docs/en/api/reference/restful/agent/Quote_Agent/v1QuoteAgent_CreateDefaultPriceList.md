@@ -56,8 +56,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 253,
-  "ERPPriceListKey": "accusantium",
-  "QuoteConnectionId": 485,
-  "Name": "Steuber Inc and Sons",
-  "Description": "Progressive exuding approach",
-  "Currency": "sint",
-  "CurrencyName": "Rutherford-Toy",
-  "ValidFrom": "2022-06-23T12:15:19.9087379+02:00",
-  "ValidTo": "2004-03-17T12:15:19.9087379+01:00",
+  "PriceListId": 7,
+  "ERPPriceListKey": "eum",
+  "QuoteConnectionId": 540,
+  "Name": "Barton, Littel and Cassin",
+  "Description": "Open-architected leading edge complexity",
+  "Currency": "natus",
+  "CurrencyName": "Murazik-Luettgen",
+  "ValidFrom": "2007-10-25T15:29:22.5357654+02:00",
+  "ValidTo": "2006-10-22T15:29:22.5357654+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 29
     }
   }
 }

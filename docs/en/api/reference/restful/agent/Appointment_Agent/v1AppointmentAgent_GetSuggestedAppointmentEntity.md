@@ -25,7 +25,7 @@ Gets a SuggestedAppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=447
+POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?suggestedAppointmentEntityId=31
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -70,8 +70,8 @@ OK
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
 | Type | Task | Type of the suggested appointment |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,17 +89,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 987,
-  "Name": "Borer-Emmerich",
-  "Tooltip": "unde",
-  "Rank": 321,
+  "SuggestedAppointmentId": 547,
+  "Name": "Upton, Ledner and Ratke",
+  "Tooltip": "voluptas",
+  "Rank": 601,
   "Deleted": false,
-  "DaysFuture": 388,
-  "Duration": "aspernatur",
-  "AutoSuggest": false,
-  "IsMilestone": false,
+  "DaysFuture": 532,
+  "Duration": "recusandae",
+  "AutoSuggest": true,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "nulla",
+  "Text": "et",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

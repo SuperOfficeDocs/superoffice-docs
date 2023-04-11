@@ -80,8 +80,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    669,
-    816
+    782,
+    248
   ]
 }
 ```
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 114,
-    "Name": "Bosco, Moore and Wiegand",
-    "Description": "Automated modular firmware",
+    "ProjectId": 906,
+    "Name": "Schowalter, Hauck and Willms",
+    "Description": "Business-focused value-added throughput",
     "URL": "http://www.example.com/",
-    "Type": "recusandae",
-    "AssociateId": 286,
-    "AssociateFullName": "Kayden Boehm",
-    "TypeId": 534,
-    "Updated": "2020-07-17T12:15:19.8637393+02:00",
-    "StatusId": 176,
-    "Status": "non",
-    "TextId": 696,
-    "PublishTo": "2010-06-27T12:15:19.8637393+02:00",
-    "PublishFrom": "1998-01-01T12:15:19.8637393+01:00",
-    "IsPublished": true,
+    "Type": "hic",
+    "AssociateId": 10,
+    "AssociateFullName": "Alva Nitzsche",
+    "TypeId": 397,
+    "Updated": "2010-01-12T15:29:22.4892661+01:00",
+    "StatusId": 589,
+    "Status": "sit",
+    "TextId": 214,
+    "PublishTo": "2014-04-09T15:29:22.4892661+02:00",
+    "PublishFrom": "2018-03-31T15:29:22.4892661+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1487492",
-    "ActiveErpLinks": 568,
+    "ProjectNumber": "325974",
+    "ActiveErpLinks": 597,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 123
+        "FieldLength": 200
       }
     }
   }

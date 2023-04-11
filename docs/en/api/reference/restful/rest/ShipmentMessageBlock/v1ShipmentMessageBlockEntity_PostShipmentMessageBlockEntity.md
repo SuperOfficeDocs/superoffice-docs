@@ -79,8 +79,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -93,14 +93,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 241,
-  "AssociateId": 19,
-  "Block": "veniam",
-  "Registered": "2010-02-23T12:15:27.3956298+01:00",
-  "RegisteredAssociateId": 101,
-  "Updated": "1997-09-20T12:15:27.3956298+02:00",
-  "UpdatedAssociateId": 850,
-  "UpdatedCount": 252
+  "ShipmentMessageBlockId": 184,
+  "AssociateId": 955,
+  "Block": "autem",
+  "Registered": "2012-09-14T15:29:30.6204875+02:00",
+  "RegisteredAssociateId": 644,
+  "Updated": "2012-01-15T15:29:30.6204875+01:00",
+  "UpdatedAssociateId": 846,
+  "UpdatedCount": 758
 }
 ```
 
@@ -111,20 +111,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 925,
-  "AssociateId": 82,
-  "Block": "aut",
-  "Registered": "2005-06-10T12:15:27.3956298+02:00",
-  "RegisteredAssociateId": 230,
-  "Updated": "1997-09-28T12:15:27.3956298+02:00",
-  "UpdatedAssociateId": 63,
-  "UpdatedCount": 960,
+  "ShipmentMessageBlockId": 299,
+  "AssociateId": 546,
+  "Block": "laborum",
+  "Registered": "2013-01-22T15:29:30.6209875+01:00",
+  "RegisteredAssociateId": 625,
+  "Updated": "2003-05-03T15:29:30.6209875+02:00",
+  "UpdatedAssociateId": 934,
+  "UpdatedCount": 235,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 541
     }
   },
   "_Links": {

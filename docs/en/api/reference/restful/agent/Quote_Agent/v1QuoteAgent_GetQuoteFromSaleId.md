@@ -76,8 +76,8 @@ OK
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | ActiveQuoteVersion | QuoteVersion | The active quote version for the quote |
 | FavoriteQuoteAlternative | QuoteAlternative | The favorite quote alternative for the quote and active quote version. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 724
+  "SaleId": 570
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 231,
-  "SaleId": 857,
-  "QuoteConnectionId": 38,
-  "ERPQuoteKey": "provident",
-  "ERPOrderKey": "deleniti",
-  "ActiveQuoteVersionId": 293,
-  "AcceptedQuoteAlternativeId": 288,
-  "UseValuesFromQuote": 430,
-  "DocumentId": 455,
-  "PoNumber": "794427",
-  "OrderComment": "magnam",
-  "PreferredEmailCulture": "andrew@hilpertgusikowski.info",
+  "QuoteId": 312,
+  "SaleId": 723,
+  "QuoteConnectionId": 816,
+  "ERPQuoteKey": "et",
+  "ERPOrderKey": "qui",
+  "ActiveQuoteVersionId": 841,
+  "AcceptedQuoteAlternativeId": 82,
+  "UseValuesFromQuote": 742,
+  "DocumentId": 853,
+  "PoNumber": "1260770",
+  "OrderComment": "alias",
+  "PreferredEmailCulture": "kale.buckridge@watersvon.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldType": "System.String",
+      "FieldLength": 246
     }
   }
 }

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 579,
-    "Name": "Daniel, Davis and Douglas",
-    "ToolTip": "Aut perspiciatis.",
-    "Deleted": false,
-    "Rank": 81,
-    "Type": "quo",
-    "ColorBlock": 612,
-    "IconHint": "molestias",
+    "Id": 502,
+    "Name": "Deckow, Reinger and Leffler",
+    "ToolTip": "Omnis quibusdam omnis vero odit quo.",
+    "Deleted": true,
+    "Rank": 3,
+    "Type": "aut",
+    "ColorBlock": 562,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2018-02-16T12:15:28.1016187+01:00",
+    "LastChanged": "2002-12-17T15:29:31.2124794+01:00",
     "ChildItems": [
       {
-        "Id": 345,
-        "Name": "McCullough Group",
-        "ToolTip": "Illo non repellat nam.",
+        "Id": 637,
+        "Name": "Hayes, Ankunding and Rogahn",
+        "ToolTip": "Nihil deserunt et ea non ab nisi.",
         "Deleted": false,
-        "Rank": 649,
-        "Type": "earum",
-        "ColorBlock": 540,
-        "IconHint": "enim",
-        "Selected": true,
-        "LastChanged": "2003-01-11T12:15:28.1016187+01:00",
+        "Rank": 194,
+        "Type": "inventore",
+        "ColorBlock": 367,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2009-01-28T15:29:31.2124794+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "aut",
+        "ExtraInfo": "id",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Laverna Jones"
+        "FullName": "Kiana O'Conner Sr."
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Miss Angelica Monahan"
+    "ExtraInfo": "quia",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Mrs. Lauriane Myah Sauer DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Parker Inc and Sons",
-    "ToolTip": "Ut ad quisquam possimus.",
-    "Deleted": false,
-    "Rank": 269,
-    "Type": "rem",
-    "ColorBlock": 445,
-    "IconHint": "quae",
-    "Selected": false,
-    "LastChanged": "2006-02-07T12:15:28.1026198+01:00",
+    "Id": 318,
+    "Name": "Luettgen LLC",
+    "ToolTip": "Iste fuga velit hic officiis harum.",
+    "Deleted": true,
+    "Rank": 599,
+    "Type": "placeat",
+    "ColorBlock": 149,
+    "IconHint": "sed",
+    "Selected": true,
+    "LastChanged": "2003-04-05T15:29:31.2144793+02:00",
     "ChildItems": [
       {
-        "Id": 574,
-        "Name": "Williamson Group",
-        "ToolTip": "Libero alias similique quis labore.",
+        "Id": 370,
+        "Name": "Stark, Wiegand and Kutch",
+        "ToolTip": "Eaque possimus aut non.",
         "Deleted": false,
-        "Rank": 24,
-        "Type": "molestias",
-        "ColorBlock": 826,
-        "IconHint": "dolores",
+        "Rank": 979,
+        "Type": "sed",
+        "ColorBlock": 102,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2016-09-05T12:15:28.1026198+02:00",
+        "LastChanged": "2013-04-06T15:29:31.2149793+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Ryder Mante",
+        "ExtraInfo": "autem",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Burdette Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 877
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "vel",
+    "ExtraInfo": "rerum",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Don O'Kon",
+    "FullName": "Nakia Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldLength": 119
       }
     }
   }

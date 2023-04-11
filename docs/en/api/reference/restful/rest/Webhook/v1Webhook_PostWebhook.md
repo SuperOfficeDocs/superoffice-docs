@@ -100,30 +100,30 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 929,
-  "Name": "Wiza-Williamson",
+  "WebhookId": 996,
+  "Name": "Buckridge, Zulauf and Collier",
   "Events": [
-    "culpa",
-    "sit"
+    "magni",
+    "eos"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "praesentium",
+  "Secret": "est",
   "State": "Active",
-  "Type": "veritatis",
+  "Type": "voluptate",
   "Headers": {
-    "Headers1": "ad",
-    "Headers2": "autem"
+    "Headers1": "maiores",
+    "Headers2": "labore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2006-11-28T12:15:27.8086236+01:00",
+  "Registered": "2017-12-13T15:29:31.0149846+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2010-10-19T12:15:27.8086236+02:00",
+  "Updated": "2001-04-14T15:29:31.0154833+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -135,26 +135,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 989,
-  "Name": "Hauck-Hudson",
+  "WebhookId": 75,
+  "Name": "Waelchi, Lakin and Howe",
   "Events": [
-    "perferendis",
-    "officiis"
+    "nihil",
+    "mollitia"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "fuga",
+  "Secret": "voluptas",
   "State": "Active",
-  "Type": "ab",
+  "Type": "neque",
   "Headers": {
-    "Headers1": "mollitia",
-    "Headers2": "error"
+    "Headers1": "pariatur",
+    "Headers2": "minus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-12-24T12:15:27.8106232+01:00",
+  "Registered": "2001-03-28T15:29:31.0169838+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-02-15T12:15:27.811623+01:00",
+  "Updated": "2003-11-09T15:29:31.0169838+01:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

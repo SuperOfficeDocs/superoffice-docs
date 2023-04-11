@@ -28,8 +28,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=similique
-GET /api/v1/Webhook?eventFilter=rerum
+GET /api/v1/Webhook?nameFilter=provident
+GET /api/v1/Webhook?eventFilter=est
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -91,26 +91,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 507,
-    "Name": "Pfannerstill, Mosciski and Lemke",
+    "WebhookId": 723,
+    "Name": "Bashirian-Leannon",
     "Events": [
-      "officia",
-      "voluptas"
+      "rerum",
+      "et"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "eaque",
+    "Secret": "ratione",
     "State": "Active",
-    "Type": "dolorem",
+    "Type": "sunt",
     "Headers": {
-      "Headers1": "natus",
-      "Headers2": "odit"
+      "Headers1": "excepturi",
+      "Headers2": "fugit"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2021-05-01T12:15:27.8076236+02:00",
+    "Registered": "2012-02-23T15:29:31.0139825+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2006-07-29T12:15:27.8076236+02:00",
+    "Updated": "2002-02-24T15:29:31.0144848+01:00",
     "UpdatedAssociate": null
   }
 ]

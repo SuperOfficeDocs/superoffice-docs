@@ -25,7 +25,7 @@ Gets a AmountClassEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=717
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=346
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -64,8 +64,8 @@ OK
 | AmountTo | double | Upper limit of this amount class |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 | CurrencyId | int32 | Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 500,
-  "Name": "Runolfsson, Hamill and Schaden",
-  "Tooltip": "adipisci",
-  "Rank": 545,
-  "AmountFrom": 7578.012,
-  "AmountTo": 12266.475999999999,
+  "AmountClassId": 310,
+  "Name": "Ruecker, Heidenreich and Carroll",
+  "Tooltip": "quae",
+  "Rank": 868,
+  "AmountFrom": 8568.356,
+  "AmountTo": 29882.69,
   "Deleted": false,
-  "CurrencyId": 372,
+  "CurrencyId": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 959
     }
   }
 }

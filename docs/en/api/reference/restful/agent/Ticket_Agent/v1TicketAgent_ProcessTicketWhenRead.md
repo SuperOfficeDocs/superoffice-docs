@@ -118,8 +118,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -131,7 +131,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 697
+  "TicketEntityId": 828
 }
 ```
 
@@ -142,21 +142,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 210,
-  "Title": "id",
-  "CreatedAt": "2015-10-19T12:15:20.3977336+02:00",
-  "LastChanged": "2012-10-14T12:15:20.3977336+02:00",
-  "ReadByOwner": "2008-05-03T12:15:20.3977336+02:00",
-  "ReadByCustomer": "2014-05-15T12:15:20.3977336+02:00",
-  "FirstReadByOwner": "2016-07-08T12:15:20.3977336+02:00",
-  "FirstReadByUser": "2008-12-27T12:15:20.3977336+01:00",
-  "Activate": "2010-07-18T12:15:20.3977336+02:00",
-  "ClosedAt": "2012-12-02T12:15:20.3977336+01:00",
-  "RepliedAt": "2022-05-28T12:15:20.3977336+02:00",
-  "AlertTimeout": "2009-04-05T12:15:20.3977336+02:00",
-  "Deadline": "2012-02-23T12:15:20.3977336+01:00",
+  "TicketId": 355,
+  "Title": "dolor",
+  "CreatedAt": "2018-03-13T15:29:23.1702895+01:00",
+  "LastChanged": "1998-04-23T15:29:23.1702895+02:00",
+  "ReadByOwner": "2020-10-09T15:29:23.1702895+02:00",
+  "ReadByCustomer": "2005-04-22T15:29:23.1702895+02:00",
+  "FirstReadByOwner": "2009-09-03T15:29:23.1702895+02:00",
+  "FirstReadByUser": "2005-04-26T15:29:23.1702895+02:00",
+  "Activate": "2021-01-01T15:29:23.1702895+01:00",
+  "ClosedAt": "2007-03-13T15:29:23.1702895+01:00",
+  "RepliedAt": "2007-01-26T15:29:23.1702895+01:00",
+  "AlertTimeout": "2016-06-05T15:29:23.1702895+02:00",
+  "Deadline": "1997-11-15T15:29:23.1702895+01:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "atque",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,157 +167,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ut",
-      "PersonId": 133,
-      "Mrmrs": "voluptatem",
-      "Firstname": "Breana",
-      "Lastname": "Kutch",
-      "MiddleName": "Kris-Wunsch",
+      "Position": "incidunt",
+      "PersonId": 698,
+      "Mrmrs": "nemo",
+      "Firstname": "Greg",
+      "Lastname": "Rosenbaum",
+      "MiddleName": "Keebler, Windler and Frami",
       "Title": "et",
-      "Description": "Multi-channelled solution-oriented circuit",
-      "Email": "jett@manndare.com",
-      "FullName": "Mrs. Allison Trey Hoeger DDS",
-      "DirectPhone": "718.673.4551 x0207",
-      "FormalName": "Baumbach, Lynch and Anderson",
-      "CountryId": 391,
-      "ContactId": 95,
-      "ContactName": "Parker Group",
-      "Retired": 979,
-      "Rank": 729,
-      "ActiveInterests": 283,
+      "Description": "Profit-focused context-sensitive customer loyalty",
+      "Email": "derek_parker@hilpert.us",
+      "FullName": "Lindsey Little",
+      "DirectPhone": "1-316-788-0741",
+      "FormalName": "Gerlach Group",
+      "CountryId": 426,
+      "ContactId": 143,
+      "ContactName": "Grady Inc and Sons",
+      "Retired": 294,
+      "Rank": 181,
+      "ActiveInterests": 631,
       "ContactDepartment": "",
-      "ContactCountryId": 226,
-      "ContactOrgNr": "1176227",
-      "FaxPhone": "(746)924-7685 x953",
-      "MobilePhone": "(344)548-0026",
-      "ContactPhone": "(256)968-8530",
-      "AssociateName": "McKenzie-Nitzsche",
-      "AssociateId": 102,
+      "ContactCountryId": 767,
+      "ContactOrgNr": "1128681",
+      "FaxPhone": "670.519.3766",
+      "MobilePhone": "546-394-0367",
+      "ContactPhone": "170-483-5334 x58940",
+      "AssociateName": "Kuphal-Casper",
+      "AssociateId": 10,
       "UsePersonAddress": false,
-      "ContactFax": "ea",
+      "ContactFax": "quas",
       "Kanafname": "qui",
-      "Kanalname": "quo",
-      "Post1": "est",
-      "Post2": "et",
-      "Post3": "assumenda",
-      "EmailName": "trenton@bradtke.biz",
-      "ContactFullName": "Adelbert Gerhold",
-      "ActiveErpLinks": 452,
-      "TicketPriorityId": 987,
-      "SupportLanguageId": 620,
-      "SupportAssociateId": 412,
+      "Kanalname": "harum",
+      "Post1": "aut",
+      "Post2": "eum",
+      "Post3": "est",
+      "EmailName": "arno_hettinger@mclaughlin.ca",
+      "ContactFullName": "Adella Schumm",
+      "ActiveErpLinks": 751,
+      "TicketPriorityId": 119,
+      "SupportLanguageId": 588,
+      "SupportAssociateId": 661,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldLength": 779
         }
       }
     }
   ],
-  "AlertLevel": 237,
-  "ConnectId": 220,
+  "AlertLevel": 925,
+  "ConnectId": 534,
   "ReadStatus": "Green",
-  "TimeToReply": 666,
-  "RealTimeToReply": 840,
-  "TimeToClose": 923,
-  "RealTimeToClose": 711,
-  "TimeSpentInternally": 113,
-  "TimeSpentExternally": 327,
-  "TimeSpentQueue": 974,
-  "RealTimeSpentInternally": 5,
-  "RealTimeSpentExternally": 8,
-  "RealTimeSpentQueue": 678,
-  "HasAttachment": false,
-  "NumReplies": 307,
-  "NumMessages": 164,
-  "FromAddress": "suscipit",
+  "TimeToReply": 803,
+  "RealTimeToReply": 951,
+  "TimeToClose": 427,
+  "RealTimeToClose": 108,
+  "TimeSpentInternally": 437,
+  "TimeSpentExternally": 553,
+  "TimeSpentQueue": 909,
+  "RealTimeSpentInternally": 368,
+  "RealTimeSpentExternally": 410,
+  "RealTimeSpentQueue": 702,
+  "HasAttachment": true,
+  "NumReplies": 511,
+  "NumMessages": 528,
+  "FromAddress": "consequatur",
   "Messages": [
     {
-      "TicketMessageId": 175,
-      "CreatedAt": "2001-01-25T12:15:20.4017338+01:00",
+      "TicketMessageId": 484,
+      "CreatedAt": "2012-05-18T15:29:23.1747902+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "temporibus",
-      "PersonId": 225,
-      "PersonFullName": "Ms. Tiffany Tremblay",
-      "ContactId": 121,
-      "ContactName": "Keeling-Skiles",
-      "ContactDepartment": "",
-      "NumAttachments": 947,
-      "EmailHeader": "zoila.heller@dickens.info",
+      "Author": "aliquam",
+      "PersonId": 146,
+      "PersonFullName": "Henri Fritsch",
+      "ContactId": 950,
+      "ContactName": "Schneider-Legros",
+      "ContactDepartment": "embrace global paradigms",
+      "NumAttachments": 334,
+      "EmailHeader": "arvilla_greenholt@stoltenberg.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "aut",
-      "Sentiment": 918,
-      "SentimentConfidence": 829,
-      "CreatedBy": 856,
-      "ChangedAt": "2006-05-15T12:15:20.402731+02:00",
+      "Language": "doloribus",
+      "Sentiment": 258,
+      "SentimentConfidence": 503,
+      "CreatedBy": 770,
+      "ChangedAt": "1999-09-05T15:29:23.1747902+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldLength": 943
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 68,
-      "Name": "Hane Group",
-      "ToolTip": "Cupiditate dolor est alias qui.",
+      "Id": 818,
+      "Name": "Schuster-Reilly",
+      "ToolTip": "Quis tempora ratione libero sit dolore.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldType": "System.String",
+          "FieldLength": 834
         }
       }
     },
     {
-      "Id": 68,
-      "Name": "Hane Group",
-      "ToolTip": "Cupiditate dolor est alias qui.",
+      "Id": 818,
+      "Name": "Schuster-Reilly",
+      "ToolTip": "Quis tempora ratione libero sit dolore.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldType": "System.String",
+          "FieldLength": 834
         }
       }
     }
   ],
-  "Language": "ducimus",
-  "Sentiment": 904,
-  "SentimentConfidence": 480,
-  "SuggestedCategoryId": 105,
+  "Language": "quo",
+  "Sentiment": 945,
+  "SentimentConfidence": 783,
+  "SuggestedCategoryId": 457,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 401,
-  "IconHint": "sed",
+  "OrigHumanCategoryId": 391,
+  "IconHint": "maiores",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "est"
+    "ExtraFields1": "quisquam",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "assumenda"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

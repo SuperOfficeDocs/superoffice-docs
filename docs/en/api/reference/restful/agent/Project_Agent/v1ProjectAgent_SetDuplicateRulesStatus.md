@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -63,21 +63,21 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Schultz Inc and Sons",
-      "DisplayName": "Hettinger Inc and Sons",
-      "DisplayTooltip": "dolorem",
+      "Name": "Feil-Stokes",
+      "DisplayName": "Orn Group",
+      "DisplayTooltip": "inventore",
       "IsActive": false
     },
     {
-      "Name": "Schultz Inc and Sons",
-      "DisplayName": "Hettinger Inc and Sons",
-      "DisplayTooltip": "dolorem",
+      "Name": "Feil-Stokes",
+      "DisplayName": "Orn Group",
+      "DisplayTooltip": "inventore",
       "IsActive": false
     }
   ]

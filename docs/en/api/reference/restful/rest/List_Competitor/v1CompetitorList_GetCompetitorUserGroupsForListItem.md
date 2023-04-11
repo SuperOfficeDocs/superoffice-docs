@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Feil LLC",
-    "ToolTip": "Velit eum aliquam similique quas eos.",
-    "Deleted": true,
-    "Rank": 613,
-    "Type": "minus",
-    "ColorBlock": 52,
-    "IconHint": "sit",
+    "Id": 322,
+    "Name": "Schaden-Kshlerin",
+    "ToolTip": "Repellendus id repellendus quibusdam totam omnis.",
+    "Deleted": false,
+    "Rank": 56,
+    "Type": "et",
+    "ColorBlock": 370,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2017-02-01T12:15:27.9066255+01:00",
+    "LastChanged": "1998-08-01T15:29:31.1164861+02:00",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Sanford, Hackett and Larkin",
-        "ToolTip": "Corrupti sint atque voluptatem nam et earum et.",
+        "Id": 67,
+        "Name": "Lubowitz, Kuhlman and O'Hara",
+        "ToolTip": "At eligendi voluptas deserunt aut.",
         "Deleted": false,
-        "Rank": 399,
-        "Type": "nostrum",
-        "ColorBlock": 37,
-        "IconHint": "et",
+        "Rank": 959,
+        "Type": "dicta",
+        "ColorBlock": 660,
+        "IconHint": "quaerat",
         "Selected": true,
-        "LastChanged": "2009-10-12T12:15:27.9076217+02:00",
+        "LastChanged": "2003-04-11T15:29:31.1164861+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Malika Cronin",
+        "FullName": "Henderson Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 2
+            "FieldLength": 264
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Christa Javonte Lemke DDS",
+    "ExtraInfo": "sequi",
+    "StyleHint": "impedit",
+    "Hidden": true,
+    "FullName": "Prof. Mathias Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldLength": 440
       }
     }
   }

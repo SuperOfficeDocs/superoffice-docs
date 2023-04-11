@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmentStaticSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -685,7 +685,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentStaticSelectionV2?$select=recordTypeText,contact/restrictionAddress/addressId,person/personAddress/zip,project/projectId,sale/associate/isActive
+GET /api/v1/archive/AppointmentStaticSelectionV2?$select=updatedDate,contact/restrictionAddress/formattedAddress,contact/contactUdef/SuperOffice:12,person/personHasInterests,project/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

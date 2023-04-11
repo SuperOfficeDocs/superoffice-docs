@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 733,
-    "Name": "Mosciski-Terry",
-    "Tooltip": "optio",
+    "HeadingId": 973,
+    "Name": "Casper Inc and Sons",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 105,
-    "UdListDefinitionId": 832
+    "Rank": 384,
+    "UdListDefinitionId": 571
   },
   {
-    "HeadingId": 733,
-    "Name": "Mosciski-Terry",
-    "Tooltip": "optio",
+    "HeadingId": 973,
+    "Name": "Casper Inc and Sons",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 105,
-    "UdListDefinitionId": 832
+    "Rank": 384,
+    "UdListDefinitionId": 571
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 275,
-    "Name": "Kassulke Group",
-    "Tooltip": "velit",
+    "HeadingId": 325,
+    "Name": "Muller, Mraz and Quigley",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 962,
-    "UdListDefinitionId": 930,
+    "Rank": 981,
+    "UdListDefinitionId": 602,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldLength": 352
       }
     }
   }

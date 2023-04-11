@@ -72,8 +72,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quae",
-  "ProviderName": "Medhurst-Greenholt",
-  "StorageKey": "aut",
-  "PageSize": 714,
-  "PageNumber": 454,
-  "OrderBy": "repellat"
+  "StorageType": "aut",
+  "ProviderName": "Jacobs-Roob",
+  "StorageKey": "perspiciatis",
+  "PageSize": 417,
+  "PageNumber": 200,
+  "OrderBy": "nulla"
 }
 ```
 
@@ -103,51 +103,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Skiles-Upton",
-      "DisplayTooltip": "illum",
-      "DisplayType": "in",
-      "CanOrderBy": true,
-      "Name": "Funk LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "facere",
-      "RestrictionListName": "Herman Group",
-      "IsVisible": false,
-      "ExtraInfo": "aperiam",
-      "Width": "numquam",
-      "IconHint": "quas",
-      "HeadingIconHint": "et"
+      "DisplayName": "Kohler LLC",
+      "DisplayTooltip": "soluta",
+      "DisplayType": "porro",
+      "CanOrderBy": false,
+      "Name": "Kozey-Von",
+      "CanRestrictBy": true,
+      "RestrictionType": "a",
+      "RestrictionListName": "Ondricka Group",
+      "IsVisible": true,
+      "ExtraInfo": "quas",
+      "Width": "qui",
+      "IconHint": "assumenda",
+      "HeadingIconHint": "sit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Prosacco, Ondricka and Metz",
-      "PrimaryKey": 896,
+      "EntityName": "Oberbrunner Inc and Sons",
+      "PrimaryKey": 83,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "enim",
-          "LinkHint": "ad"
+          "DisplayValue": "fugiat",
+          "TooltipHint": "vel",
+          "LinkHint": "at"
         }
       },
-      "LinkHint": "hic",
-      "StyleHint": "assumenda",
+      "LinkHint": "impedit",
+      "StyleHint": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldLength": 847
         }
       }
     }
   ],
-  "RowCount": 102,
+  "RowCount": 773,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 336
+      "FieldType": "System.Int32",
+      "FieldLength": 835
     }
   }
 }

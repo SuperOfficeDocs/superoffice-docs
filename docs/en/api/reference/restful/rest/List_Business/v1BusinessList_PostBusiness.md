@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Name": "Lowe-Carroll",
-  "Tooltip": "rerum",
+  "Id": 714,
+  "Name": "Kub, Luettgen and Kilback",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 295,
-  "Rank": 512
+  "UdListDefinitionId": 223,
+  "Rank": 723
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 666,
-  "Name": "Raynor Inc and Sons",
-  "Tooltip": "velit",
+  "Id": 645,
+  "Name": "Crooks, Ratke and Frami",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "UdListDefinitionId": 550,
-  "Rank": 393,
+  "UdListDefinitionId": 855,
+  "Rank": 747,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 612
     }
   }
 }

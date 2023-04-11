@@ -102,8 +102,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 282
+  "ContactId": 935
 }
 ```
 
@@ -127,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "magnam",
-    "PersonId": 301,
-    "Mrmrs": "sed",
-    "Firstname": "Dallas",
-    "Lastname": "Jerde",
-    "MiddleName": "Dietrich-Krajcik",
-    "Title": "dolor",
-    "Description": "Synergized system-worthy projection",
-    "Email": "frieda_kemmer@quitzonkulas.name",
-    "FullName": "Waylon Mueller",
-    "DirectPhone": "(602)892-7921",
-    "FormalName": "Goodwin-Schmitt",
-    "CountryId": 503,
-    "ContactId": 994,
-    "ContactName": "Kunze LLC",
-    "Retired": 977,
-    "Rank": 773,
-    "ActiveInterests": 681,
+    "Position": "ut",
+    "PersonId": 632,
+    "Mrmrs": "eum",
+    "Firstname": "Macy",
+    "Lastname": "Ruecker",
+    "MiddleName": "DuBuque-Fadel",
+    "Title": "et",
+    "Description": "Reverse-engineered coherent framework",
+    "Email": "jerry@little.us",
+    "FullName": "Gerald Daugherty DDS",
+    "DirectPhone": "(591)850-7665 x824",
+    "FormalName": "Klein LLC",
+    "CountryId": 541,
+    "ContactId": 700,
+    "ContactName": "Herzog LLC",
+    "Retired": 422,
+    "Rank": 865,
+    "ActiveInterests": 228,
     "ContactDepartment": "",
-    "ContactCountryId": 949,
-    "ContactOrgNr": "1247554",
-    "FaxPhone": "470-695-7883 x009",
-    "MobilePhone": "747.894.3947",
-    "ContactPhone": "886-714-8939 x426",
-    "AssociateName": "Tromp, Schowalter and Stokes",
-    "AssociateId": 418,
+    "ContactCountryId": 997,
+    "ContactOrgNr": "1050267",
+    "FaxPhone": "(312)922-4217 x5922",
+    "MobilePhone": "(537)219-5717",
+    "ContactPhone": "1-440-888-4454",
+    "AssociateName": "King-Bartell",
+    "AssociateId": 270,
     "UsePersonAddress": false,
-    "ContactFax": "voluptate",
-    "Kanafname": "aut",
-    "Kanalname": "consectetur",
-    "Post1": "corrupti",
-    "Post2": "cumque",
-    "Post3": "eum",
-    "EmailName": "enos@hahn.biz",
-    "ContactFullName": "Miss Meaghan Lindgren DDS",
-    "ActiveErpLinks": 499,
-    "TicketPriorityId": 651,
-    "SupportLanguageId": 840,
-    "SupportAssociateId": 690,
+    "ContactFax": "maiores",
+    "Kanafname": "qui",
+    "Kanalname": "adipisci",
+    "Post1": "sint",
+    "Post2": "vero",
+    "Post3": "voluptatum",
+    "EmailName": "shaun@barrowsmueller.info",
+    "ContactFullName": "Prof. Lucienne Haskell Turner MD",
+    "ActiveErpLinks": 963,
+    "TicketPriorityId": 289,
+    "SupportLanguageId": 398,
+    "SupportAssociateId": 934,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 380
       }
     }
   }

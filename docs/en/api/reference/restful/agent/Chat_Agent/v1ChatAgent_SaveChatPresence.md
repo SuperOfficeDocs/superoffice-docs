@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -63,29 +63,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 973,
-      "DisplayName": "McLaughlin, Conn and O'Reilly",
-      "OngoingChats": 996,
+      "UserId": 59,
+      "DisplayName": "Zulauf-O'Kon",
+      "OngoingChats": 977,
       "Present": false,
       "ChatTopics": [
-        748,
-        681
+        822,
+        880
       ]
     },
     {
-      "UserId": 973,
-      "DisplayName": "McLaughlin, Conn and O'Reilly",
-      "OngoingChats": 996,
+      "UserId": 59,
+      "DisplayName": "Zulauf-O'Kon",
+      "OngoingChats": 977,
       "Present": false,
       "ChatTopics": [
-        748,
-        681
+        822,
+        880
       ]
     }
   ]

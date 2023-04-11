@@ -74,8 +74,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 276
+  "CountWords": 164
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Homenick, Dicki and Breitenberg",
-    "ToolTip": "Incidunt eius quia laborum veritatis assumenda fugit.",
-    "Deleted": true,
-    "Rank": 891,
-    "Type": "incidunt",
+    "Id": 936,
+    "Name": "Goodwin-Lubowitz",
+    "ToolTip": "Nesciunt molestias hic accusamus fugit earum.",
+    "Deleted": false,
+    "Rank": 652,
+    "Type": "natus",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Rodriguez-Langworth",
-        "ToolTip": "Eius cumque quaerat corporis sed.",
-        "Deleted": false,
-        "Rank": 11,
-        "Type": "ut",
+        "Id": 163,
+        "Name": "Runolfsson Inc and Sons",
+        "ToolTip": "Ut provident ad fuga dignissimos alias nemo ut.",
+        "Deleted": true,
+        "Rank": 714,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cum",
-        "ColorBlock": 565,
-        "ExtraInfo": "atque",
-        "StyleHint": "animi",
-        "FullName": "Linnie Rutherford",
+        "IconHint": "culpa",
+        "ColorBlock": 621,
+        "ExtraInfo": "ea",
+        "StyleHint": "enim",
+        "FullName": "Nakia Schiller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldLength": 800
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 899,
-    "ExtraInfo": "placeat",
-    "StyleHint": "aut",
-    "FullName": "Florine Kshlerin",
+    "IconHint": "quis",
+    "ColorBlock": 567,
+    "ExtraInfo": "mollitia",
+    "StyleHint": "quia",
+    "FullName": "Mr. Vickie Diamond Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 291
+        "FieldLength": 329
       }
     }
   }

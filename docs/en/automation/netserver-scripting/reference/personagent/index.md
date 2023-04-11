@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -28,6 +28,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [CreateDefaultFromCredential](createdefaultfromcredential.md)
 * [CreateDefaultPersonEntity](createdefaultpersonentity.md)
 * [CreateDefaultPersonImage](createdefaultpersonimage.md)
+* [CreateOrUpdateUserCandidate](createorupdateusercandidate.md)
 * [CreateTemporaryKey](createtemporarykey.md)
 * [DeleteConsentPerson](deleteconsentperson.md)
 * [DeleteExpired](deleteexpired.md)
@@ -41,6 +42,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [GetColleaguesBySource](getcolleaguesbysource.md)
 * [GetConsentInfos](getconsentinfos.md)
 * [GetConsentPerson](getconsentperson.md)
+* [GetCustomerCentrePasswordReplyTemplate](getcustomercentrepasswordreplytemplate.md)
 * [GetMyOwner](getmyowner.md)
 * [GetMyPerson](getmyperson.md)
 * [GetOwnerOnPersonId](getowneronpersonid.md)
@@ -54,6 +56,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [GetPersonSummary](getpersonsummary.md)
 * [GetPhones](getphones.md)
 * [GetSalesRep](getsalesrep.md)
+* [GetUserCandidateByPerson](getusercandidatebyperson.md)
 * [HasConsent](hasconsent.md)
 * [IsNumberValid](isnumbervalid.md)
 * [Merge](merge.md)
@@ -64,6 +67,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IPersonAgent'>P
 * [SaveConsentPerson](saveconsentperson.md)
 * [SavePersonEntity](savepersonentity.md)
 * [SendConsentConfirmationEmail](sendconsentconfirmationemail.md)
+* [SendEmail](sendemail.md)
 * [SetConsent](setconsent.md)
 * [SetPersonImage](setpersonimage.md)
 * [SetPersonRank](setpersonrank.md)

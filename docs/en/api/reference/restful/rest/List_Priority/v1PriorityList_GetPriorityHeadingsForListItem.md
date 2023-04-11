@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Kiehn-Anderson",
-    "ToolTip": "Non quae.",
+    "Id": 479,
+    "Name": "Auer-Kulas",
+    "ToolTip": "Porro et saepe sunt dolore assumenda officia facilis.",
     "Deleted": false,
-    "Rank": 210,
-    "Type": "qui",
-    "ColorBlock": 718,
-    "IconHint": "similique",
+    "Rank": 470,
+    "Type": "ex",
+    "ColorBlock": 975,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2020-08-11T12:15:28.2696219+02:00",
+    "LastChanged": "2016-01-10T15:29:31.3839773+01:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Gorczany LLC",
-        "ToolTip": "Unde consequatur est est.",
-        "Deleted": true,
-        "Rank": 657,
-        "Type": "fugiat",
-        "ColorBlock": 10,
-        "IconHint": "dolor",
+        "Id": 302,
+        "Name": "Moen Group",
+        "ToolTip": "Et laboriosam omnis ipsa.",
+        "Deleted": false,
+        "Rank": 347,
+        "Type": "eum",
+        "ColorBlock": 949,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "1998-10-31T12:15:28.2696219+01:00",
+        "LastChanged": "2006-12-17T15:29:31.3839773+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Mr. Vito Klocko",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Laisha Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "omnis",
+    "ExtraInfo": "sit",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Lauriane Schneider",
+    "FullName": "Mrs. Broderick Chelsea Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldLength": 5
       }
     }
   }

@@ -56,8 +56,8 @@ OK
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New | TableRight |  |
-| Current | TableRight |  |
+| New | TimeZoneData |  |
+| Current | TimeZoneData |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/License/GetLicenseForAllOwnersFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,41 +79,41 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 774,
-        "NumberOfLicensesFree": 681,
-        "NumberOfLicensesAdded": 991,
-        "NumberOfLicensesNewTotal": 269,
-        "NumberOfLicensesNewFree": 938,
-        "NumberOfLicensesTotal": 654
+        "NumberOfLicensesInUse": 106,
+        "NumberOfLicensesFree": 6,
+        "NumberOfLicensesAdded": 92,
+        "NumberOfLicensesNewTotal": 550,
+        "NumberOfLicensesNewFree": 18,
+        "NumberOfLicensesTotal": 581
       }
     ],
-    "AccumulatedNextCheckDate": "2017-12-22T12:15:19.1797485+01:00"
+    "AccumulatedNextCheckDate": "2010-02-05T15:29:21.9393122+01:00"
   },
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 774,
-        "NumberOfLicensesFree": 681,
-        "NumberOfLicensesAdded": 991,
-        "NumberOfLicensesNewTotal": 269,
-        "NumberOfLicensesNewFree": 938,
-        "NumberOfLicensesTotal": 654
+        "NumberOfLicensesInUse": 106,
+        "NumberOfLicensesFree": 6,
+        "NumberOfLicensesAdded": 92,
+        "NumberOfLicensesNewTotal": 550,
+        "NumberOfLicensesNewFree": 18,
+        "NumberOfLicensesTotal": 581
       }
     ],
-    "AccumulatedNextCheckDate": "2017-12-22T12:15:19.1797485+01:00"
+    "AccumulatedNextCheckDate": "2010-02-05T15:29:21.9393122+01:00"
   }
 ]
 ```

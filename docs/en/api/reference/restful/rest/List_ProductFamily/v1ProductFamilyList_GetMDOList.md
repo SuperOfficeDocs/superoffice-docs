@@ -26,7 +26,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=cum
+GET /api/v1/List/ProductFamily/MDOItems?query=quod
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Christiansen, Kutch and Larson",
-    "ToolTip": "Ipsam officiis praesentium consectetur provident labore iste vel.",
-    "Deleted": false,
-    "Rank": 888,
-    "Type": "voluptas",
+    "Id": 732,
+    "Name": "Koelpin, Cormier and Reichel",
+    "ToolTip": "Placeat error hic numquam fuga porro.",
+    "Deleted": true,
+    "Rank": 19,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "Grimes-Littel",
-        "ToolTip": "Soluta aut culpa voluptatem velit minima saepe.",
+        "Id": 275,
+        "Name": "Rutherford-Halvorson",
+        "ToolTip": "Sunt nisi deleniti dolor beatae.",
         "Deleted": false,
-        "Rank": 519,
-        "Type": "iusto",
+        "Rank": 311,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 586,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "eum",
-        "FullName": "Mrs. Lue Wilkinson IV",
+        "IconHint": "unde",
+        "ColorBlock": 426,
+        "ExtraInfo": "maxime",
+        "StyleHint": "laborum",
+        "FullName": "Valentina Mayert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldLength": 734
           }
         }
       }
     ],
-    "IconHint": "nostrum",
-    "ColorBlock": 547,
-    "ExtraInfo": "facere",
-    "StyleHint": "totam",
-    "FullName": "Prof. Alene Missouri Lubowitz",
+    "IconHint": "veniam",
+    "ColorBlock": 236,
+    "ExtraInfo": "et",
+    "StyleHint": "qui",
+    "FullName": "Reba Tillman V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 468
       }
     }
   }

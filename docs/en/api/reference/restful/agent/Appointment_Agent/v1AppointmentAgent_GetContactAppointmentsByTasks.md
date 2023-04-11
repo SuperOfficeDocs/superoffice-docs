@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,17 +126,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 135,
-  "StartTime": "2008-03-15T12:15:17.6507705+01:00",
-  "EndTime": "2001-11-11T12:15:17.6507705+01:00",
-  "Count": 766,
+  "ContactId": 457,
+  "StartTime": "1997-12-10T15:29:20.262334+01:00",
+  "EndTime": "2000-10-30T15:29:20.262334+01:00",
+  "Count": 424,
   "TaskIds": [
-    350,
-    988
+    651,
+    368
   ]
 }
 ```
@@ -149,53 +149,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 294,
-    "StartDate": "2009-08-09T12:15:17.6517705+02:00",
-    "EndDate": "2022-01-12T12:15:17.6517705+01:00",
+    "AppointmentId": 100,
+    "StartDate": "2013-12-12T15:29:20.2643328+01:00",
+    "EndDate": "2010-01-08T15:29:20.2643328+01:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Zachery Windler",
-    "ContactName": "O'Conner, Kohler and Braun",
-    "Description": "Reactive 5th generation hardware",
-    "PersonFullName": "Jarred Simonis",
-    "PersonId": 204,
-    "ContactId": 428,
-    "ProjectId": 549,
-    "ProjectName": "Streich-Batz",
+    "Task": "aliquid",
+    "AssociateFullName": "Ellis Goyette Sr.",
+    "ContactName": "Stoltenberg-Eichmann",
+    "Description": "Cloned object-oriented emulation",
+    "PersonFullName": "Vladimir Bode",
+    "PersonId": 278,
+    "ContactId": 906,
+    "ProjectId": 84,
+    "ProjectName": "O'Conner-Schumm",
     "IsPublished": false,
-    "AssociateId": 114,
-    "ColorIndex": 982,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "AssociateId": 327,
+    "ColorIndex": 275,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 502,
-    "PriorityName": "Thompson Inc and Sons",
+    "PriorityId": 55,
+    "PriorityName": "O'Hara-Larkin",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2002-08-26T12:15:17.6517705+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2013-09-20T15:29:20.264833+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-11-24T12:15:17.6517705+01:00",
-    "RecurringEndDate": "2012-09-22T12:15:17.6517705+02:00",
-    "MotherId": 84,
-    "AssignedBy": 478,
-    "AssignedByFullName": "Alayna Armstrong",
+    "RecurringStartDate": "2012-03-02T15:29:20.264833+01:00",
+    "RecurringEndDate": "1996-05-15T15:29:20.264833+02:00",
+    "MotherId": 926,
+    "AssignedBy": 901,
+    "AssignedByFullName": "Dallin Smitham",
     "RejectReason": "",
-    "Location": "voluptas",
-    "AlarmLeadTime": "nulla",
-    "SaleId": 672,
-    "SaleName": "Kirlin, Spinka and Crona",
-    "AssociateName": "Schaden LLC",
-    "CreatedDate": "2016-09-21T12:15:17.6527713+02:00",
-    "CreatedBy": "rem",
-    "CreatedByFullName": "Letha Koelpin",
-    "CreatedByAssociateId": 788,
+    "Location": "maxime",
+    "AlarmLeadTime": "aut",
+    "SaleId": 181,
+    "SaleName": "Predovic-Leuschke",
+    "AssociateName": "Hickle-Dietrich",
+    "CreatedDate": "2013-02-16T15:29:20.264833+01:00",
+    "CreatedBy": "vel",
+    "CreatedByFullName": "Bradly Oberbrunner",
+    "CreatedByAssociateId": 941,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 718
       }
     }
   }

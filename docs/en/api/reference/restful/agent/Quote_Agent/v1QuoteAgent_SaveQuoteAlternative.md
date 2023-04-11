@@ -97,8 +97,8 @@ OK
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -106,33 +106,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 515,
-  "ERPQuoteAlternativeKey": "eius",
-  "QuoteVersionId": 10,
-  "Name": "Waelchi, Morar and Rempel",
-  "Description": "Grass-roots needs-based analyzer",
+  "QuoteAlternativeId": 186,
+  "ERPQuoteAlternativeKey": "illo",
+  "QuoteVersionId": 708,
+  "Name": "Murphy, Kunde and Thompson",
+  "Description": "Profound logistical functionalities",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 29754.196,
-  "ERPDiscountAmount": 29625.701999999997,
-  "DiscountPercent": 18581.486,
-  "DiscountAmount": 24573.694,
+  "ERPDiscountPercent": 16669.746,
+  "ERPDiscountAmount": 4114.942,
+  "DiscountPercent": 29403.188,
+  "DiscountAmount": 16873.456,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "occaecati",
-  "VAT": 20587.246,
-  "EarningPercent": 7267.746,
-  "EarningAmount": 7753.516,
-  "SubTotal": 11200.916,
-  "TotalPrice": 19662.716,
-  "ExtraField1": "consectetur",
-  "ExtraField2": "fugit",
-  "ExtraField3": "maxime",
-  "ExtraField4": "corrupti",
-  "ExtraField5": "sapiente"
+  "VATInfo": "asperiores",
+  "VAT": 11705.49,
+  "EarningPercent": 29998.647999999997,
+  "EarningAmount": 9480.35,
+  "SubTotal": 14779.944,
+  "TotalPrice": 19490.345999999998,
+  "ExtraField1": "odio",
+  "ExtraField2": "eligendi",
+  "ExtraField3": "sequi",
+  "ExtraField4": "numquam",
+  "ExtraField5": "illum"
 }
 ```
 
@@ -143,35 +143,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 948,
-  "ERPQuoteAlternativeKey": "odit",
-  "QuoteVersionId": 83,
-  "Name": "Shields LLC",
-  "Description": "Robust 24 hour access",
+  "QuoteAlternativeId": 204,
+  "ERPQuoteAlternativeKey": "at",
+  "QuoteVersionId": 406,
+  "Name": "Koepp, Crona and Beahan",
+  "Description": "Open-architected optimizing matrices",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 3977.046,
-  "ERPDiscountAmount": 13332.036,
-  "DiscountPercent": 27883.198,
-  "DiscountAmount": 31130.021999999997,
+  "ERPDiscountPercent": 5503.304,
+  "ERPDiscountAmount": 22176.183999999997,
+  "DiscountPercent": 31057.94,
+  "DiscountAmount": 15093.344,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptate",
-  "VAT": 8070.05,
-  "EarningPercent": 404.286,
-  "EarningAmount": 2723.446,
-  "SubTotal": 18926.226,
-  "TotalPrice": 11692.954,
-  "ExtraField1": "ullam",
-  "ExtraField2": "qui",
-  "ExtraField3": "error",
-  "ExtraField4": "deserunt",
-  "ExtraField5": "assumenda",
+  "VATInfo": "maiores",
+  "VAT": 17183.721999999998,
+  "EarningPercent": 14428.936,
+  "EarningAmount": 4365.662,
+  "SubTotal": 21778.166,
+  "TotalPrice": 16920.466,
+  "ExtraField1": "consequuntur",
+  "ExtraField2": "explicabo",
+  "ExtraField3": "officiis",
+  "ExtraField4": "quis",
+  "ExtraField5": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 14
     }
   }
 }

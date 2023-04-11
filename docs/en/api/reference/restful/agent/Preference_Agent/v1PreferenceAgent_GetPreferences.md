@@ -75,8 +75,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "quasi",
-      "Key": "sed"
+      "Section": "sit",
+      "Key": "molestiae"
     },
     {
-      "Section": "quasi",
-      "Key": "sed"
+      "Section": "sit",
+      "Key": "molestiae"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "et",
+    "RawValue": "similique",
     "Specification": null,
-    "DisplayValue": "molestiae",
-    "DisplayTooltip": "dolores",
+    "DisplayValue": "id",
+    "DisplayTooltip": "quo",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 942,
-    "PrefDescId": 470,
-    "TableName": "Toy-Romaguera",
-    "UserPreferenceId": 706,
+    "TargetId": 844,
+    "PrefDescId": 244,
+    "TableName": "Bins, Marks and Carroll",
+    "UserPreferenceId": 409,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 529
       }
     }
   }

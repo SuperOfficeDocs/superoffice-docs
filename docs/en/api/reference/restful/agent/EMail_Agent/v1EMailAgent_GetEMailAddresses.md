@@ -73,8 +73,8 @@ OK
 | EmailId | int32 | Primary key |
 | DuplicatePersonIds | array | All persons with this EmailAddress stored in db is listed here |
 | Name | string | The name on the email address |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    743,
-    110
+    710,
+    341
   ]
 }
 ```
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 802,
-    "ContactName": "Auer Group",
-    "PersonId": 184,
-    "PersonName": "Kuhlman-Ullrich",
-    "AssociateId": 100,
-    "Address": "provident",
-    "EmailId": 108,
+    "ContactId": 359,
+    "ContactName": "Lockman Inc and Sons",
+    "PersonId": 97,
+    "PersonName": "Borer-Reinger",
+    "AssociateId": 144,
+    "Address": "itaque",
+    "EmailId": 29,
     "DuplicatePersonIds": [
-      471,
-      542
+      684,
+      167
     ],
-    "Name": "Heidenreich-Ritchie",
+    "Name": "Bartoletti-Labadie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldType": "System.String",
+        "FieldLength": 184
       }
     }
   }

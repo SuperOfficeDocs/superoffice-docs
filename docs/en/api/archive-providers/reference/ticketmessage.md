@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TicketMessage"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -44,6 +44,8 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |slevel|listAny|SLevel| x |
 |ticket/contactId|int|Request - Company ID: Database ID of company| x |
 |ticket/personId|int|Request - Contact ID: Database ID of the contact row| x |
+|ticket/saleId|int|Request - Sale ID: The database ID of the sale record| x |
+|ticket/projectId|int|Request - Project ID: Database ID of project record| x |
 |ticket/ticketStatusName|listAny|Request - Status: Request status| x |
 |ticket/categoryFullName|listAny|Request - Category: Request category| x |
 |ticket/priorityName|listAny|Request - Priority: Service priority| x |
@@ -81,6 +83,9 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/tags|intArray|Request - Tags: Tags connected to a request| x |
 |ticket/ownedBy|ejUser|Request - Owner: The owner of the request| x |
 |ticket/content|string|Request - Content: Search for content in messages related to requests| x |
+|ticket/messageLanguage|listAny|Request - Language: Recognized language in messages|  |
+|ticket/sentimentScore|listAny|Request - Sentiment: Sentiment score, -100 to +100|  |
+|ticket/suggestedCategory|listAny|Request - Sugg.Cat.: Suggested service category|  |
 |ticket/createdBy/firstName|string|Request - Created by - First name: Displays the contact's first name| x |
 |ticket/createdBy/lastName|string|Request - Created by - Last name: Displays the contact's last name| x |
 |ticket/createdBy/middleName|string|Request - Created by - Middle Name: Displays the contact's middle name.| x |
@@ -778,7 +783,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/person/personAddress/wgs84latitude,ticket/contact/updatedByFullName,ticket/contact/streetAddress/line1,ticket/contact/contactAssociate/contactId,ticket/contact/contactAssociate/simultaneousEjUser
+GET /api/v1/archive/TicketMessage?$select=ticket/realTimeToReply,ticket/person/correspondingAssociate/ejUserId,ticket/person/correspondingAssociate/ejDisplayName,ticket/person/legalBaseStore,ticket/contact/registeredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

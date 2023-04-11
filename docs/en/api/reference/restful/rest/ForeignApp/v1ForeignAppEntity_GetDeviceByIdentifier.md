@@ -59,8 +59,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,24 +76,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 23 Nov 2014 12:15:26 G11T
+Last-Modified: Thu, 28 Feb 2002 15:29:29 G2T
 
 {
-  "ForeignDeviceId": 64,
-  "Name": "Keebler LLC",
-  "CreatedDate": "2015-11-07T12:15:26.9726437+01:00",
-  "UpdatedDate": "2014-11-23T12:15:26.9726437+01:00",
-  "AssociateFullName": "Prof. Rebekah Crist DDS",
-  "CreatedBy": "culpa",
-  "UpdatedBy": "non",
-  "DeviceIdentifier": "minima",
-  "ForeignAppId": 847,
+  "ForeignDeviceId": 842,
+  "Name": "Towne Inc and Sons",
+  "CreatedDate": "2007-04-25T15:29:29.7717034+02:00",
+  "UpdatedDate": "2002-02-28T15:29:29.7717034+01:00",
+  "AssociateFullName": "Jany Bashirian",
+  "CreatedBy": "repudiandae",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "qui",
+  "ForeignAppId": 908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldLength": 818
     }
   }
 }

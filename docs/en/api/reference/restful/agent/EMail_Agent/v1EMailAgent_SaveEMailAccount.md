@@ -73,8 +73,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 827,
-  "EMailAddress": "fuga",
-  "AssociateId": 517,
+  "EMailAccountId": 703,
+  "EMailAddress": "ut",
+  "AssociateId": 3,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 554,
-  "ErrorCount": 990,
+  "AccountStatus": 728,
+  "ErrorCount": 114,
   "ErrorReason": "",
-  "InboxFolder": "qui",
-  "SentFolder": "placeat"
+  "InboxFolder": "autem",
+  "SentFolder": "consequuntur"
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 711,
-  "EMailAddress": "mollitia",
-  "AssociateId": 574,
+  "EMailAccountId": 513,
+  "EMailAddress": "explicabo",
+  "AssociateId": 533,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 272,
-  "ErrorCount": 1001,
-  "ErrorReason": "aggregate strategic users",
-  "InboxFolder": "saepe",
-  "SentFolder": "laudantium",
+  "AccountStatus": 945,
+  "ErrorCount": 771,
+  "ErrorReason": "",
+  "InboxFolder": "minima",
+  "SentFolder": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 644
+      "FieldLength": 403
     }
   }
 }

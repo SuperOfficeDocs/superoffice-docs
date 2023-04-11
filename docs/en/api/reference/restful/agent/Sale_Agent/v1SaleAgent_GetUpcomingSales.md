@@ -90,8 +90,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,8 +103,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 403,
-  "Count": 921
+  "WeightedAmountLimit": 303,
+  "Count": 974
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Padberg Group",
-    "SaleDate": "2012-01-21T12:15:20.093735+01:00",
-    "SaleId": 955,
-    "Probability": 870,
-    "Title": "numquam",
-    "Amount": 22263.935999999998,
-    "Currency": "perspiciatis",
-    "ProjectName": "Welch, Collins and Turcotte",
-    "AssociateFullName": "Ford Borer",
-    "Description": "Versatile local portal",
+    "ContactName": "Hoeger, Hoeger and Pouros",
+    "SaleDate": "2011-10-11T15:29:22.7302983+02:00",
+    "SaleId": 533,
+    "Probability": 720,
+    "Title": "et",
+    "Amount": 31161.361999999997,
+    "Currency": "quis",
+    "ProjectName": "Schmitt, Ward and Wintheiser",
+    "AssociateFullName": "Ms. Amparo Garnet Konopelski Jr.",
+    "Description": "Optional modular algorithm",
     "Status": "Lost",
-    "WeightedAmount": 19894.631999999998,
-    "ProjectId": 56,
-    "EarningPercent": 26012.2,
-    "Earning": 1695.494,
-    "ContactId": 713,
-    "AssociateId": 313,
-    "PersonId": 929,
-    "SaleTypeId": 349,
-    "SaleTypeName": "Macejkovic-Raynor",
-    "PersonFullName": "Casper Wiegand",
+    "WeightedAmount": 13256.82,
+    "ProjectId": 144,
+    "EarningPercent": 20173.558,
+    "Earning": 19672.118,
+    "ContactId": 472,
+    "AssociateId": 691,
+    "PersonId": 200,
+    "SaleTypeId": 868,
+    "SaleTypeName": "Deckow, Thiel and Hane",
+    "PersonFullName": "Shanon Hegmann Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 292,
-    "NextDueDate": "1996-01-29T12:15:20.093735+01:00",
-    "Number": "912665",
+    "ActiveErpLinks": 644,
+    "NextDueDate": "2009-01-13T15:29:22.7307952+01:00",
+    "Number": "1274532",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 335
       }
     }
   }

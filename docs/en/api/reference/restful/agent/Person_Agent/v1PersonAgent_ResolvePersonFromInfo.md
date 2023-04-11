@@ -69,8 +69,8 @@ OK
 |----------------|------|--------------|
 | Person | PersonEntity | The resolved PersonEntity instance. |
 | PersonCreated | bool | Indicates if the resolved person was created or not. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,19 +78,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 823,
-  "PersonName": "Gerlach, Nikolaus and Bogisich",
+  "ContactId": 651,
+  "PersonName": "Bergstrom-Flatley",
   "PhoneNumbers": [
-    "296783",
-    "798769"
+    "534057",
+    "1048541"
   ],
   "Emails": [
-    "herta.wolf@greenholt.info",
-    "kallie_hirthe@kutch.info"
+    "nat_purdy@gibson.com",
+    "lacy@kulas.ca"
   ]
 }
 ```
@@ -103,13 +103,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldLength": 623
     }
   }
 }

@@ -71,8 +71,8 @@ OK
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllInstalledQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 251,
-    "ERPName": "Haag Inc and Sons",
-    "DisplayName": "Johns-Beatty",
-    "DisplayDescription": "Networked empowering methodology",
-    "Rank": 424,
-    "ConnectorName": "Tillman-Bernier",
-    "ErpConnectionId": 839,
-    "ExtraData": "voluptas",
+    "QuoteConnectionId": 421,
+    "ERPName": "Green, Abbott and Price",
+    "DisplayName": "Hoppe, Kuhic and Cruickshank",
+    "DisplayDescription": "Universal 3rd generation archive",
+    "Rank": 570,
+    "ConnectorName": "Pollich LLC",
+    "ErpConnectionId": 359,
+    "ExtraData": "excepturi",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 684,
-        "ERPPriceListKey": "dolores",
-        "QuoteConnectionId": 47,
-        "Name": "Renner LLC",
-        "Description": "User-friendly bifurcated projection",
-        "Currency": "architecto",
-        "CurrencyName": "Champlin-Skiles",
-        "ValidFrom": "1996-07-01T12:15:19.9387374+02:00",
-        "ValidTo": "2019-07-30T12:15:19.9387374+02:00",
-        "IsActive": true,
+        "PriceListId": 419,
+        "ERPPriceListKey": "eos",
+        "QuoteConnectionId": 898,
+        "Name": "Kris LLC",
+        "Description": "Networked context-sensitive software",
+        "Currency": "esse",
+        "CurrencyName": "Gibson Group",
+        "ValidFrom": "2017-01-14T15:29:22.563265+01:00",
+        "ValidTo": "2012-05-25T15:29:22.563265+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 242
+            "FieldLength": 113
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      804,
-      929
+      969,
+      694
     ],
     "AssociateAccessIds": [
-      525,
-      785
+      622,
+      388
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldType": "System.Int32",
+        "FieldLength": 617
       }
     }
   }

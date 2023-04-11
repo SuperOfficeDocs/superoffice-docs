@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Schneider Group",
-    "ToolTip": "Autem aliquid.",
+    "Id": 338,
+    "Name": "Rice-Morissette",
+    "ToolTip": "Aut quisquam.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "recusandae",
-    "ColorBlock": 653,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2003-05-12T12:15:27.8916223+02:00",
+    "Rank": 443,
+    "Type": "voluptatem",
+    "ColorBlock": 52,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "1998-04-29T15:29:31.1009784+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Bartell-Fritsch",
-        "ToolTip": "Pariatur non tempora voluptatem mollitia sapiente voluptas voluptas.",
+        "Id": 562,
+        "Name": "Hayes LLC",
+        "ToolTip": "Tenetur assumenda saepe nobis ab quis neque.",
         "Deleted": false,
-        "Rank": 897,
-        "Type": "facere",
-        "ColorBlock": 444,
-        "IconHint": "consequatur",
+        "Rank": 763,
+        "Type": "veritatis",
+        "ColorBlock": 808,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2009-09-02T12:15:27.8916223+02:00",
+        "LastChanged": "2015-02-17T15:29:31.1009784+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "iusto",
+        "ExtraInfo": "et",
+        "StyleHint": "laborum",
         "Hidden": true,
-        "FullName": "Jarred Hirthe"
+        "FullName": "Alexandria Heidenreich"
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "esse",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Brycen Hauck"
+    "FullName": "Wendy Sharon Rath III"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 415,
-    "Name": "Bradtke-Doyle",
-    "ToolTip": "Corrupti qui quia architecto.",
+    "Id": 108,
+    "Name": "Murphy-Ferry",
+    "ToolTip": "Rerum iure.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "dolorum",
-    "ColorBlock": 269,
-    "IconHint": "sit",
+    "Rank": 918,
+    "Type": "ut",
+    "ColorBlock": 409,
+    "IconHint": "nostrum",
     "Selected": false,
-    "LastChanged": "2009-08-05T12:15:27.8926253+02:00",
+    "LastChanged": "2013-04-20T15:29:31.1029786+02:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Boehm, Kihn and O'Reilly",
-        "ToolTip": "Mollitia et.",
+        "Id": 963,
+        "Name": "Schimmel-Lockman",
+        "ToolTip": "Harum cupiditate.",
         "Deleted": true,
-        "Rank": 846,
-        "Type": "magni",
-        "ColorBlock": 996,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2020-10-13T12:15:27.8926253+02:00",
+        "Rank": 451,
+        "Type": "voluptatem",
+        "ColorBlock": 88,
+        "IconHint": "porro",
+        "Selected": true,
+        "LastChanged": "2007-04-08T15:29:31.1029786+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quaerat",
+        "ExtraInfo": "veniam",
+        "StyleHint": "quos",
         "Hidden": true,
-        "FullName": "Corine Monahan",
+        "FullName": "Mary Tina Hansen IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 253
+            "FieldLength": 27
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Marquise Rolfson DVM",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "eveniet",
+    "Hidden": true,
+    "FullName": "Ms. Cyril Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldLength": 984
       }
     }
   }

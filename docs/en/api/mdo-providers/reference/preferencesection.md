@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "preferencesection"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -59,18 +59,18 @@ foreach (var item in listProvider.RootItems) {
 |1000094|Functions||Functions|
 |1000148|E-mail||Mail|
 |1000210|Marketing||Mailing|
-|1000215|Grouped lists||MDOList|
-|1000512|Data mirroring||Mirroring|
-|1000286|Web Services||NetServices|
-|1000305|Notifications via popup||notification|
-|1000313|Notifications via e-mail||notificationEmail|
-|1000321|Notifications via SMS||notificationSms|
-|1000337|Contact||Person|
-|1000356|Mobile CRM||PocketTasks|
-|1000360|Request||request|
-|1000379|Sale||Sale|
-|1000396|SuperOffice Service system settings||serviceSettings|
-|1000422|Service outbox||serviceSMTP|
+|1000216|Grouped lists||MDOList|
+|1000513|Data mirroring||Mirroring|
+|1000287|Web Services||NetServices|
+|1000306|Notifications via popup||notification|
+|1000314|Notifications via e-mail||notificationEmail|
+|1000322|Notifications via SMS||notificationSms|
+|1000338|Contact||Person|
+|1000357|Mobile CRM||PocketTasks|
+|1000361|Request||request|
+|1000380|Sale||Sale|
+|1000397|SuperOffice Service system settings||serviceSettings|
+|1000423|Service outbox||serviceSMTP|
 
 
 ## Related MDO Lists

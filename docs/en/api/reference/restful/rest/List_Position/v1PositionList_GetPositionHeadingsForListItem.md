@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 980,
-    "Name": "VonRueden-Steuber",
-    "ToolTip": "Vel laboriosam dolore nemo.",
+    "Id": 551,
+    "Name": "Gaylord-Dooley",
+    "ToolTip": "Magni ut non quo qui aliquid et.",
     "Deleted": false,
-    "Rank": 507,
-    "Type": "iusto",
-    "ColorBlock": 904,
-    "IconHint": "laboriosam",
+    "Rank": 776,
+    "Type": "nihil",
+    "ColorBlock": 47,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2001-03-31T12:15:28.2466194+02:00",
+    "LastChanged": "2009-06-27T15:29:31.3614745+02:00",
     "ChildItems": [
       {
-        "Id": 473,
-        "Name": "Purdy, Stamm and O'Conner",
-        "ToolTip": "Et sed quas hic non provident.",
+        "Id": 713,
+        "Name": "Fritsch Group",
+        "ToolTip": "In est fugiat.",
         "Deleted": false,
-        "Rank": 298,
-        "Type": "iusto",
-        "ColorBlock": 567,
-        "IconHint": "rerum",
+        "Rank": 25,
+        "Type": "dolorem",
+        "ColorBlock": 554,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2012-01-22T12:15:28.2466194+01:00",
+        "LastChanged": "2011-05-02T15:29:31.3614745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Quincy Jaskolski",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "nulla",
+        "Hidden": true,
+        "FullName": "Martin Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 65
+            "FieldType": "System.String",
+            "FieldLength": 247
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Miss Rahul Josie Carroll III",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "a",
+    "Hidden": true,
+    "FullName": "Chris Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldType": "System.String",
+        "FieldLength": 509
       }
     }
   }

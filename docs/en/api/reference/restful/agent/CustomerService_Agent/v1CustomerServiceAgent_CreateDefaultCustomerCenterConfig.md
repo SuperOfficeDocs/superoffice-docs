@@ -54,8 +54,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 612,
+  "CustConfigId": 773,
   "Type": "Options",
-  "Config": "in",
-  "CustLangId": 118,
-  "Registered": "2001-11-08T12:15:18.6367566+01:00",
-  "RegisteredAssociateId": 855,
-  "Updated": "2015-12-02T12:15:18.6367566+01:00",
-  "UpdatedAssociateId": 155,
+  "Config": "enim",
+  "CustLangId": 857,
+  "Registered": "2016-05-11T15:29:21.2632834+02:00",
+  "RegisteredAssociateId": 943,
+  "Updated": "2018-12-16T15:29:21.2632834+01:00",
+  "UpdatedAssociateId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 599
     }
   }
 }

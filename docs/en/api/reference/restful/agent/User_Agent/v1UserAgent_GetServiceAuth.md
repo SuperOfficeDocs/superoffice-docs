@@ -27,7 +27,7 @@ Gets a ServiceAuth object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=199
+POST /api/v1/Agents/User/GetServiceAuth?serviceAuthId=241
 POST /api/v1/Agents/User/GetServiceAuth?$select=name,department,category/id
 ```
 
@@ -64,8 +64,8 @@ OK
 | AuthType | string | The type of authentication, plain-text, OAuth... |
 | Username | string | The username |
 | Password | string | The (decrypted) password or token |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 50,
-  "Server": "quia",
-  "Port": 656,
-  "AuthType": "libero",
-  "Username": "totam",
-  "Password": "blanditiis",
+  "ServiceAuthId": 922,
+  "Server": "repellat",
+  "Port": 997,
+  "AuthType": "voluptas",
+  "Username": "dolor",
+  "Password": "fugit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 309
     }
   }
 }

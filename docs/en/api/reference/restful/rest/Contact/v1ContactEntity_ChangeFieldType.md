@@ -29,7 +29,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -94,8 +94,8 @@ ContactEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 312,
-  "ColumnId": 376,
-  "FieldDefault": "eius",
-  "FieldHeight": 926,
-  "FieldLabel": "architecto",
-  "FieldLeft": 240,
-  "FieldTop": 990,
+  "UDefFieldId": 874,
+  "ColumnId": 915,
+  "FieldDefault": "ipsam",
+  "FieldHeight": 686,
+  "FieldLabel": "ut",
+  "FieldLeft": 307,
+  "FieldTop": 698,
   "FieldType": "Checkbox",
-  "FieldWidth": 904,
-  "FormatMask": "vitae",
+  "FieldWidth": 524,
+  "FormatMask": "doloremque",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 630,
-  "LabelLeft": 301,
-  "LabelTop": 924,
-  "LabelWidth": 123,
-  "LastVersionId": 114,
-  "ListTableId": 652,
+  "IsIndexed": false,
+  "LabelHeight": 893,
+  "LabelLeft": 387,
+  "LabelTop": 417,
+  "LabelWidth": 357,
+  "LastVersionId": 718,
+  "ListTableId": 230,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 758,
-  "ProgId": "corporis",
-  "IsReadOnly": false,
-  "ShortLabel": "quis",
-  "TabOrder": 487,
-  "TextLength": 906,
-  "Tooltip": "quia",
-  "UdefIdentity": 776,
-  "UDListDefinitionId": 426,
+  "Page1LineNo": 303,
+  "ProgId": "ut",
+  "IsReadOnly": true,
+  "ShortLabel": "impedit",
+  "TabOrder": 584,
+  "TextLength": 493,
+  "Tooltip": "illo",
+  "UdefIdentity": 912,
+  "UDListDefinitionId": 266,
   "Justification": "Center",
-  "Version": 793,
-  "TemplateVariableName": "Moore-Crooks",
+  "Version": 920,
+  "TemplateVariableName": "Bins-Hauck",
   "HasBeenPublished": false,
-  "MdoListName": "Conn, Veum and Schmidt",
+  "MdoListName": "Konopelski Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 956
     }
   }
 }

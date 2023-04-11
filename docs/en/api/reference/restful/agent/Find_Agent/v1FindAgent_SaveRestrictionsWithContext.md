@@ -58,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -67,24 +67,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorem",
-  "ProviderName": "Murazik-Nolan",
-  "StorageKey": "et",
+  "StorageType": "repudiandae",
+  "ProviderName": "Herman Inc and Sons",
+  "StorageKey": "accusantium",
   "Restrictions": [
     {
-      "Name": "Purdy Inc and Sons",
-      "Operator": "itaque",
+      "Name": "Walter-Cassin",
+      "Operator": "eum",
       "Values": [
-        "nam",
-        "sunt"
+        "consequuntur",
+        "debitis"
       ],
       "DisplayValues": [
-        "alias",
-        "quidem"
+        "quisquam",
+        "quo"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 608,
+      "InterParenthesis": 281,
       "InterOperator": "And",
-      "UniqueHash": 977
+      "UniqueHash": 795
     }
   ],
-  "Context": "iure"
+  "Context": "ad"
 }
 ```
 

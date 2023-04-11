@@ -96,7 +96,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -121,8 +121,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -130,13 +130,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -153,122 +153,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-12-11T12:15:17.8147715+01:00",
-  "AppointmentId": 505,
-  "Description": "Vision-oriented national focus group",
-  "StartDate": "2006-11-02T12:15:17.8147715+01:00",
-  "EndDate": "2022-11-06T12:15:17.8147715+01:00",
+  "CreatedDate": "2003-06-18T15:29:20.558293+02:00",
+  "AppointmentId": 508,
+  "Description": "Vision-oriented real-time artificial intelligence",
+  "StartDate": "2003-11-27T15:29:20.558293+01:00",
+  "EndDate": "2002-08-16T15:29:20.558293+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 625,
+  "MotherId": 604,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-11-02T12:15:17.818768+01:00",
+  "UpdatedDate": "2005-10-06T15:29:20.5622932+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 738,
+  "ActiveLinks": 49,
   "Links": [
     {
-      "EntityName": "Stehr LLC",
-      "Id": 929,
-      "Description": "Vision-oriented contextually-based methodology",
-      "ExtraInfo": "et",
-      "LinkId": 320,
+      "EntityName": "Nikolaus, Adams and Nader",
+      "Id": 272,
+      "Description": "Synergistic next generation conglomeration",
+      "ExtraInfo": "rem",
+      "LinkId": 547,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 52
+          "FieldType": "System.String",
+          "FieldLength": 912
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 744,
-  "IsFree": true,
+  "ColorIndex": 991,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "eligendi",
-  "Location": "sequi",
-  "RejectCounter": 171,
+  "LagTime": "porro",
+  "LeadTime": "temporibus",
+  "Location": "aliquam",
+  "RejectCounter": 859,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 963,
-      "PersonId": 368,
-      "ContactId": 443,
-      "EmailId": 368,
-      "SendEmail": false,
+      "AssociateId": 843,
+      "PersonId": 846,
+      "ContactId": 382,
+      "EmailId": 978,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 963,
-      "PersonId": 368,
-      "ContactId": 443,
-      "EmailId": 368,
-      "SendEmail": false,
+      "AssociateId": 843,
+      "PersonId": 846,
+      "ContactId": 382,
+      "EmailId": 978,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-06-29T12:15:17.818768+02:00",
+  "ActiveDate": "1998-08-06T15:29:20.5622932+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 581,
+  "PreferredTZLocation": 831,
   "Sale": null,
-  "SuggestedAppointmentId": 849,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 180,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptas",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Tyrel Sporer II",
-    "SuperOffice:2": "Chester Reynolds"
+    "SuperOffice:1": "Ryann Champlin III",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "enim"
+    "CustomFields1": "amet",
+    "CustomFields2": "officiis"
   },
-  "PublishEventDate": "1998-02-25T12:15:17.8217687+01:00",
-  "PublishTo": "2015-12-21T12:15:17.8217687+01:00",
-  "PublishFrom": "2020-07-26T12:15:17.8217687+02:00",
+  "PublishEventDate": "2020-02-11T15:29:20.5637928+01:00",
+  "PublishTo": "2014-07-21T15:29:20.5637928+02:00",
+  "PublishFrom": "2006-06-07T15:29:20.5637928+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 640,
+      "VisibleId": 692,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldLength": 44
         }
       }
     },
     {
-      "VisibleId": 640,
+      "VisibleId": 692,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldLength": 44
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 240
     }
   }
 }

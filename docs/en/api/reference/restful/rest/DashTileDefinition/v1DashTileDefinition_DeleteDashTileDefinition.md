@@ -42,7 +42,7 @@ DashTileDefinition deleted.
 |----------------|-------------|
 | 204 | DashTileDefinition deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

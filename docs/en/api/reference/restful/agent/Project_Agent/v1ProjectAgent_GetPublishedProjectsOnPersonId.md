@@ -80,8 +80,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 331
+  "PersonId": 309
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 165,
-    "Name": "Jewess LLC",
-    "Description": "Organized bottom-line methodology",
+    "ProjectId": 407,
+    "Name": "Kerluke, Christiansen and Smitham",
+    "Description": "Proactive tertiary benchmark",
     "URL": "http://www.example.com/",
-    "Type": "corrupti",
-    "AssociateId": 560,
-    "AssociateFullName": "Giovanny Runolfsdottir",
-    "TypeId": 621,
-    "Updated": "2004-04-06T12:15:19.8657392+02:00",
-    "StatusId": 467,
-    "Status": "eius",
-    "TextId": 367,
-    "PublishTo": "2018-06-15T12:15:19.8657392+02:00",
-    "PublishFrom": "2013-08-27T12:15:19.8657392+02:00",
+    "Type": "reprehenderit",
+    "AssociateId": 733,
+    "AssociateFullName": "Mrs. Antonetta Odessa Koss MD",
+    "TypeId": 365,
+    "Updated": "2006-08-18T15:29:22.4907653+02:00",
+    "StatusId": 930,
+    "Status": "est",
+    "TextId": 987,
+    "PublishTo": "2013-10-10T15:29:22.4907653+02:00",
+    "PublishFrom": "2002-05-31T15:29:22.4907653+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "444632",
-    "ActiveErpLinks": 621,
+    "ProjectNumber": "902761",
+    "ActiveErpLinks": 550,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldType": "System.String",
+        "FieldLength": 4
       }
     }
   }

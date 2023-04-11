@@ -44,7 +44,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,7 +69,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 228,
-  "Name": "Krajcik-Price"
+  "AssociateId": 78,
+  "Name": "Carter-Cole"
 }
 ```

@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 463,
-    "Name": "Franecki-Rolfson",
-    "ToolTip": "Sed doloremque nemo.",
-    "Deleted": false,
-    "Rank": 124,
-    "Type": "nostrum",
-    "ColorBlock": 355,
-    "IconHint": "sed",
+    "Id": 62,
+    "Name": "Upton-Collins",
+    "ToolTip": "Eveniet voluptatum error qui.",
+    "Deleted": true,
+    "Rank": 592,
+    "Type": "fugit",
+    "ColorBlock": 577,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2012-04-21T12:15:28.383618+02:00",
+    "LastChanged": "2017-01-18T15:29:31.4969758+01:00",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Reilly, DuBuque and Cartwright",
-        "ToolTip": "Nobis neque tenetur et libero quia.",
-        "Deleted": false,
-        "Rank": 760,
-        "Type": "quo",
-        "ColorBlock": 927,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "1999-08-30T12:15:28.383618+02:00",
+        "Id": 48,
+        "Name": "Stoltenberg-Marvin",
+        "ToolTip": "Tenetur porro.",
+        "Deleted": true,
+        "Rank": 219,
+        "Type": "nam",
+        "ColorBlock": 192,
+        "IconHint": "reiciendis",
+        "Selected": false,
+        "LastChanged": "2020-06-29T15:29:31.4969758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "similique",
+        "ExtraInfo": "sit",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Leon Schuster",
+        "FullName": "Emmet Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 858
+            "FieldType": "System.Int32",
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "tempora",
-    "Hidden": false,
-    "FullName": "Elias Wiegand",
+    "ExtraInfo": "sed",
+    "StyleHint": "natus",
+    "Hidden": true,
+    "FullName": "Ibrahim Maggio IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldType": "System.String",
+        "FieldLength": 125
       }
     }
   }

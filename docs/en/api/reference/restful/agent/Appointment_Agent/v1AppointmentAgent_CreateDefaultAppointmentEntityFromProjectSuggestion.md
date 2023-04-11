@@ -95,7 +95,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -120,8 +120,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 526,
-  "ProjectId": 101,
-  "CreateNow": false,
-  "OwnerId": 686
+  "SuggestedAppointmentId": 771,
+  "ProjectId": 698,
+  "CreateNow": true,
+  "OwnerId": 46
 }
 ```
 
@@ -151,122 +151,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-07-06T12:15:17.9427693+02:00",
-  "AppointmentId": 967,
-  "Description": "Persistent empowering task-force",
-  "StartDate": "2002-03-25T12:15:17.9427693+01:00",
-  "EndDate": "2017-07-18T12:15:17.9427693+02:00",
+  "CreatedDate": "2015-11-26T15:29:20.6823304+01:00",
+  "AppointmentId": 477,
+  "Description": "Robust upward-trending protocol",
+  "StartDate": "2022-11-27T15:29:20.6823304+01:00",
+  "EndDate": "2022-02-13T15:29:20.6823304+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 87,
+  "MotherId": 129,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-11-25T12:15:17.945773+01:00",
+  "UpdatedDate": "2000-02-19T15:29:20.6858265+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 724,
+  "ActiveLinks": 200,
   "Links": [
     {
-      "EntityName": "Rowe, Schaefer and Reichel",
-      "Id": 259,
-      "Description": "Compatible value-added core",
+      "EntityName": "Purdy-Boyer",
+      "Id": 898,
+      "Description": "Fully-configurable encompassing pricing structure",
       "ExtraInfo": "nulla",
-      "LinkId": 906,
+      "LinkId": 157,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "modi",
   "HasAlarm": false,
-  "ColorIndex": 801,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "similique",
-  "Location": "laboriosam",
-  "RejectCounter": 370,
+  "ColorIndex": 427,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "quam",
+  "LeadTime": "rem",
+  "Location": "atque",
+  "RejectCounter": 346,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 573,
-      "PersonId": 711,
-      "ContactId": 809,
-      "EmailId": 301,
-      "SendEmail": true,
+      "AssociateId": 940,
+      "PersonId": 807,
+      "ContactId": 868,
+      "EmailId": 547,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 573,
-      "PersonId": 711,
-      "ContactId": 809,
-      "EmailId": 301,
-      "SendEmail": true,
+      "AssociateId": 940,
+      "PersonId": 807,
+      "ContactId": 868,
+      "EmailId": 547,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-08-28T12:15:17.945773+02:00",
+  "ActiveDate": "2007-07-24T15:29:20.6858265+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 913,
+  "PreferredTZLocation": 926,
   "Sale": null,
-  "SuggestedAppointmentId": 284,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 815,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "facere",
+  "CentralserviceVideomeetId": "aliquam",
   "UserDefinedFields": {
-    "SuperOffice:1": "814453267",
-    "SuperOffice:2": "Elwyn McGlynn"
+    "SuperOffice:1": "553327688",
+    "SuperOffice:2": "Mrs. Carlotta Franz Berge"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "quod"
+    "CustomFields1": "numquam",
+    "CustomFields2": "rem"
   },
-  "PublishEventDate": "2005-06-21T12:15:17.9477664+02:00",
-  "PublishTo": "2010-06-23T12:15:17.9477664+02:00",
-  "PublishFrom": "2020-05-29T12:15:17.9477664+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-07-01T15:29:20.6878244+02:00",
+  "PublishTo": "1999-05-24T15:29:20.6878244+02:00",
+  "PublishFrom": "2002-06-22T15:29:20.6878244+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 440,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldLength": 834
         }
       }
     },
     {
-      "VisibleId": 440,
+      "VisibleId": 288,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 251
+          "FieldLength": 834
         }
       }
     }
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 51
     }
   }
 }

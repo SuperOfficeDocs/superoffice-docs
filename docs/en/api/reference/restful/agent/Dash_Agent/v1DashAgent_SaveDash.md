@@ -77,8 +77,8 @@ OK
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,34 +86,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 937,
-  "UniqueId": "debitis",
-  "Name": "Oberbrunner, Beer and Kemmer",
-  "Description": "Diverse tertiary workforce",
-  "AssociateId": 288,
-  "Columns": 228,
+  "DashboardId": 263,
+  "UniqueId": "ullam",
+  "Name": "Rosenbaum, Leannon and Jacobs",
+  "Description": "Realigned responsive instruction set",
+  "AssociateId": 776,
+  "Columns": 85,
   "Theme": null,
-  "VisibleForAll": 448,
+  "VisibleForAll": 959,
   "VisibleForAssociates": [
-    296,
-    472
+    918,
+    856
   ],
   "VisibleForGroups": [
-    75,
-    55
+    832,
+    481
   ],
-  "PinForAll": 924,
+  "PinForAll": 268,
   "PinForAssociates": [
-    393,
-    386
+    330,
+    415
   ],
   "PinForGroups": [
-    967,
-    943
+    14,
+    865
   ]
 }
 ```
@@ -125,37 +125,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 606,
-  "UniqueId": "eos",
-  "Name": "Hirthe Group",
-  "Description": "Automated mission-critical Graphic Interface",
-  "AssociateId": 32,
-  "Columns": 234,
+  "DashboardId": 846,
+  "UniqueId": "velit",
+  "Name": "Mraz LLC",
+  "Description": "Monitored scalable extranet",
+  "AssociateId": 313,
+  "Columns": 631,
   "Theme": null,
-  "VisibleForAll": 19,
+  "VisibleForAll": 400,
   "VisibleForAssociates": [
-    840,
-    830
+    737,
+    187
   ],
   "VisibleForGroups": [
-    418,
-    775
+    567,
+    995
   ],
-  "PinForAll": 156,
+  "PinForAll": 692,
   "PinForAssociates": [
-    453,
-    906
+    13,
+    695
   ],
   "PinForGroups": [
-    412,
-    256
+    59,
+    6
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 964
     }
   }
 }

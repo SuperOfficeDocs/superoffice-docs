@@ -43,7 +43,7 @@ ProjectEntity deleted.
 | 204 | ProjectEntity deleted. |
 | 412 | Delete aborted because ProjectEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -52,7 +52,7 @@ ProjectEntity deleted.
 DELETE /api/v1/Project/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

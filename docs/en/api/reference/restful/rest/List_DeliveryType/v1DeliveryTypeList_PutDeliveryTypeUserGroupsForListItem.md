@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Ferry, Gleichner and Borer",
-    "ToolTip": "Cumque amet non cum quam.",
-    "Deleted": false,
-    "Rank": 229,
-    "Type": "perferendis",
-    "ColorBlock": 613,
-    "IconHint": "voluptas",
+    "Id": 344,
+    "Name": "Frami-Hoppe",
+    "ToolTip": "Dolores porro culpa.",
+    "Deleted": true,
+    "Rank": 228,
+    "Type": "autem",
+    "ColorBlock": 154,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2020-11-26T12:15:28.1296193+01:00",
+    "LastChanged": "2017-06-20T15:29:31.2419796+02:00",
     "ChildItems": [
       {
-        "Id": 416,
-        "Name": "Osinski Group",
-        "ToolTip": "Similique et quia sit laboriosam nesciunt non temporibus.",
+        "Id": 951,
+        "Name": "Kutch-Cormier",
+        "ToolTip": "Nostrum qui dignissimos ut.",
         "Deleted": false,
-        "Rank": 42,
-        "Type": "voluptas",
-        "ColorBlock": 687,
-        "IconHint": "laudantium",
+        "Rank": 948,
+        "Type": "fuga",
+        "ColorBlock": 747,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "1999-01-04T12:15:28.1306187+01:00",
+        "LastChanged": "1999-10-01T15:29:31.2419796+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "odit",
+        "ExtraInfo": "rerum",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Dr. Theo Ondricka"
+        "FullName": "Leon Bogisich"
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "repellendus",
-    "Hidden": true,
-    "FullName": "Weldon Stanton"
+    "ExtraInfo": "velit",
+    "StyleHint": "dicta",
+    "Hidden": false,
+    "FullName": "Verla Heaney Jr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Bergstrom Inc and Sons",
-    "ToolTip": "Eveniet voluptas et maiores sed et illo quaerat.",
-    "Deleted": false,
-    "Rank": 951,
-    "Type": "neque",
-    "ColorBlock": 678,
-    "IconHint": "quod",
+    "Id": 656,
+    "Name": "Casper, Cartwright and Schneider",
+    "ToolTip": "Est qui autem omnis.",
+    "Deleted": true,
+    "Rank": 917,
+    "Type": "et",
+    "ColorBlock": 271,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2011-12-26T12:15:28.1316184+01:00",
+    "LastChanged": "2017-12-08T15:29:31.2434471+01:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Lowe-Nikolaus",
-        "ToolTip": "Enim culpa fugit quaerat et.",
-        "Deleted": true,
-        "Rank": 1000,
-        "Type": "aut",
-        "ColorBlock": 898,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "1997-03-14T12:15:28.1316184+01:00",
+        "Id": 73,
+        "Name": "Mueller, Johnston and Leuschke",
+        "ToolTip": "Delectus est a fugit hic saepe.",
+        "Deleted": false,
+        "Rank": 644,
+        "Type": "amet",
+        "ColorBlock": 120,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2015-12-17T15:29:31.2434471+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "qui",
+        "ExtraInfo": "fugit",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Carlotta Leffler",
+        "FullName": "Mrs. Samara Russel Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 516
+            "FieldType": "System.Int32",
+            "FieldLength": 50
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Charlie Carroll",
+    "ExtraInfo": "numquam",
+    "StyleHint": "incidunt",
+    "Hidden": true,
+    "FullName": "Kenneth Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 382
       }
     }
   }

@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -68,10 +68,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeStageLinkId": 139,
+  "SaleTypeStageLinkId": 291,
   "ItemsIds": [
-    619,
-    434
+    80,
+    151
   ]
 }
 ```

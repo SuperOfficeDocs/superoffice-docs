@@ -77,8 +77,8 @@ OK
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 256,
-  "ERPName": "Nitzsche Inc and Sons",
-  "DisplayName": "Lockman Group",
-  "DisplayDescription": "Re-engineered client-driven interface",
-  "Rank": 130,
-  "ConnectorName": "Waters-Dibbert",
-  "ErpConnectionId": 862,
-  "ExtraData": "dolorem",
-  "IsAvailable": true,
+  "QuoteConnectionId": 909,
+  "ERPName": "Zulauf, Hudson and Marquardt",
+  "DisplayName": "Rogahn, Schmeler and Robel",
+  "DisplayDescription": "Secured local hardware",
+  "Rank": 226,
+  "ConnectorName": "Cremin LLC",
+  "ErpConnectionId": 789,
+  "ExtraData": "rerum",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 842,
-      "ERPPriceListKey": "atque",
-      "QuoteConnectionId": 248,
-      "Name": "Sawayn, Hessel and Hane",
-      "Description": "Persevering next generation framework",
-      "Currency": "aperiam",
-      "CurrencyName": "Jerde-Nicolas",
-      "ValidFrom": "2012-12-11T12:15:19.945739+01:00",
-      "ValidTo": "2021-10-23T12:15:19.945739+02:00",
+      "PriceListId": 1001,
+      "ERPPriceListKey": "laboriosam",
+      "QuoteConnectionId": 655,
+      "Name": "Bernier, Bauch and Mitchell",
+      "Description": "Integrated client-server protocol",
+      "Currency": "rerum",
+      "CurrencyName": "Cormier LLC",
+      "ValidFrom": "2012-01-13T15:29:22.5702654+01:00",
+      "ValidTo": "2010-03-29T15:29:22.5702654+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldType": "System.String",
+          "FieldLength": 632
         }
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": true,
+  "AllAccess": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    265,
-    335
+    764,
+    153
   ],
   "AssociateAccessIds": [
-    804,
-    564
+    988,
+    539
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 248
     }
   }
 }

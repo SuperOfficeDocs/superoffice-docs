@@ -119,8 +119,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -128,45 +128,45 @@ OK
 PUT /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 937,
-    "ColumnId": 444,
-    "FieldDefault": "perferendis",
-    "FieldHeight": 953,
-    "FieldLabel": "cupiditate",
-    "FieldLeft": 229,
-    "FieldTop": 129,
+    "UDefFieldId": 197,
+    "ColumnId": 714,
+    "FieldDefault": "dicta",
+    "FieldHeight": 140,
+    "FieldLabel": "eius",
+    "FieldLeft": 654,
+    "FieldTop": 955,
     "FieldType": "Checkbox",
-    "FieldWidth": 263,
-    "FormatMask": "omnis",
+    "FieldWidth": 856,
+    "FormatMask": "quidem",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 48,
-    "LabelLeft": 364,
-    "LabelTop": 926,
-    "LabelWidth": 38,
-    "LastVersionId": 809,
-    "ListTableId": 572,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 223,
+    "LabelLeft": 234,
+    "LabelTop": 425,
+    "LabelWidth": 364,
+    "LastVersionId": 719,
+    "ListTableId": 335,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 935,
-    "ProgId": "molestiae",
+    "Page1LineNo": 722,
+    "ProgId": "quos",
     "IsReadOnly": false,
     "ShortLabel": "sed",
-    "TabOrder": 816,
-    "TextLength": 833,
-    "Tooltip": "dolore",
-    "UdefIdentity": 435,
-    "UDListDefinitionId": 633,
+    "TabOrder": 806,
+    "TextLength": 661,
+    "Tooltip": "odio",
+    "UdefIdentity": 278,
+    "UDListDefinitionId": 486,
     "Justification": "Center",
-    "Version": 560,
-    "TemplateVariableName": "Cronin-Bruen",
+    "Version": 670,
+    "TemplateVariableName": "Braun Group",
     "HasBeenPublished": false,
-    "MdoListName": "Kovacek, Mraz and Mayer"
+    "MdoListName": "Glover-Rohan"
   }
 ]
 ```
@@ -179,46 +179,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 206,
-    "ColumnId": 708,
-    "FieldDefault": "cupiditate",
-    "FieldHeight": 39,
-    "FieldLabel": "earum",
-    "FieldLeft": 885,
-    "FieldTop": 349,
+    "UDefFieldId": 40,
+    "ColumnId": 436,
+    "FieldDefault": "culpa",
+    "FieldHeight": 167,
+    "FieldLabel": "soluta",
+    "FieldLeft": 35,
+    "FieldTop": 783,
     "FieldType": "Checkbox",
-    "FieldWidth": 219,
-    "FormatMask": "quae",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 567,
-    "LabelLeft": 672,
-    "LabelTop": 429,
-    "LabelWidth": 609,
-    "LastVersionId": 19,
-    "ListTableId": 904,
+    "FieldWidth": 668,
+    "FormatMask": "molestiae",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 145,
+    "LabelLeft": 345,
+    "LabelTop": 737,
+    "LabelWidth": 296,
+    "LastVersionId": 21,
+    "ListTableId": 388,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 508,
-    "ProgId": "consequatur",
-    "IsReadOnly": false,
-    "ShortLabel": "maxime",
-    "TabOrder": 313,
-    "TextLength": 57,
-    "Tooltip": "facilis",
-    "UdefIdentity": 393,
-    "UDListDefinitionId": 12,
+    "Page1LineNo": 8,
+    "ProgId": "maxime",
+    "IsReadOnly": true,
+    "ShortLabel": "in",
+    "TabOrder": 406,
+    "TextLength": 917,
+    "Tooltip": "perferendis",
+    "UdefIdentity": 697,
+    "UDListDefinitionId": 332,
     "Justification": "Center",
-    "Version": 155,
-    "TemplateVariableName": "Lehner-Hagenes",
+    "Version": 533,
+    "TemplateVariableName": "Walter, Haley and Kunde",
     "HasBeenPublished": false,
-    "MdoListName": "Funk, Paucek and Eichmann",
+    "MdoListName": "Rempel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldType": "System.String",
+        "FieldLength": 22
       }
     }
   }

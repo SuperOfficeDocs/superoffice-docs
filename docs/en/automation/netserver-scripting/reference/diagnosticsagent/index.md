@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,6 +26,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IDiagnosticsAge
 * [FlushCachesByName](flushcachesbyname.md)
 * [GetCacheNames](getcachenames.md)
 * [GetCacheState](getcachestate.md)
+* [GetEntityCountsForCurrentUser](getentitycountsforcurrentuser.md)
 * [GetWebAppUsagesForPeriod](getwebappusagesforperiod.md)
 * [LogViewState](logviewstate.md)
 * [PerformTasksAfterUpgrade](performtasksafterupgrade.md)

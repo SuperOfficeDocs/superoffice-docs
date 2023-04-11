@@ -70,7 +70,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Heaney Group",
-  "DisplayName": "Murray-Gutkowski",
-  "Description": "Triple-buffered 24 hour migration",
-  "ShortLabel": "praesentium",
+  "FieldName": "Treutel, Kautzer and Lehner",
+  "DisplayName": "Schuppe, Schmeler and Nicolas",
+  "Description": "Profit-focused bifurcated database",
+  "ShortLabel": "nulla",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
+  "IsIndexed": false,
   "IsMandatory": true,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 241,
-  "TemplateVariableName": "Zemlak Inc and Sons"
+  "IsExternal": true,
+  "Rank": 97,
+  "TemplateVariableName": "Bergnaum, Weissnat and Klein"
 }
 ```

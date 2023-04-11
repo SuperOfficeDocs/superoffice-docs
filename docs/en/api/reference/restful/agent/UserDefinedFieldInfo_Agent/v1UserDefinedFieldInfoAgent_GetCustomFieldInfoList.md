@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lesch-Rowe",
-  "IncludeStandard": true
+  "TableName": "Bayer-Schmidt",
+  "IncludeStandard": false
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hammes, Donnelly and Metz",
-    "DisplayName": "Wisoky, Brakus and Conn",
-    "Description": "Visionary interactive customer loyalty",
-    "ShortLabel": "et",
+    "FieldName": "Prosacco LLC",
+    "DisplayName": "Bode-Kilback",
+    "Description": "Programmable 3rd generation intranet",
+    "ShortLabel": "voluptatem",
     "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "Rank": 218,
-    "TemplateVariableName": "Hoeger, Labadie and Kuhic"
+    "Rank": 267,
+    "TemplateVariableName": "Orn-Kilback"
   }
 ]
 ```

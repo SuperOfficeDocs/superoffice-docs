@@ -90,77 +90,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 167,
+  "DocumentId": 330,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "iure",
-  "Header": "tempore",
-  "Name": "Roberts-Kuhic",
-  "OurRef": "repellendus",
-  "YourRef": "non",
-  "CreatedDate": "2021-06-25T12:15:26.9236388+02:00",
-  "UpdatedDate": "2022-04-23T12:15:26.9236388+02:00",
-  "Description": "Synergized foreground neural-net",
+  "Attention": "aut",
+  "Header": "sit",
+  "Name": "Leffler, Upton and McCullough",
+  "OurRef": "voluptas",
+  "YourRef": "omnis",
+  "CreatedDate": "2002-04-19T15:29:29.7316998+02:00",
+  "UpdatedDate": "2015-10-31T15:29:29.7316998+01:00",
+  "Description": "Multi-channelled user-facing interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-07-10T12:15:26.9286367+02:00",
-  "ExternalRef": "fuga",
+  "Date": "2009-10-07T15:29:29.736699+02:00",
+  "ExternalRef": "inventore",
   "Completed": "Completed",
-  "ActiveLinks": 192,
+  "ActiveLinks": 307,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler Inc and Sons",
-      "Id": 163,
-      "Description": "Open-source didactic help-desk",
-      "ExtraInfo": "culpa",
-      "LinkId": 615
+      "EntityName": "Barrows, Crooks and Goodwin",
+      "Id": 801,
+      "Description": "User-friendly mission-critical leverage",
+      "ExtraInfo": "cumque",
+      "LinkId": 363
     },
     {
-      "EntityName": "Kohler Inc and Sons",
-      "Id": 163,
-      "Description": "Open-source didactic help-desk",
-      "ExtraInfo": "culpa",
-      "LinkId": 615
+      "EntityName": "Barrows, Crooks and Goodwin",
+      "Id": 801,
+      "Description": "User-friendly mission-critical leverage",
+      "ExtraInfo": "cumque",
+      "LinkId": 363
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 81,
-  "Snum": 448,
+  "SuggestedDocumentId": 482,
+  "Snum": 296,
   "UserDefinedFields": {
-    "SuperOffice:1": "Geoffrey Huel",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "972171199",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "est"
+    "CustomFields1": "non",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2015-11-23T12:15:26.9286367+01:00",
-  "PublishTo": "2005-09-01T12:15:26.9286367+02:00",
-  "PublishFrom": "2001-12-09T12:15:26.9286367+01:00",
+  "PublishEventDate": "2016-02-17T15:29:29.7371989+01:00",
+  "PublishTo": "2004-03-07T15:29:29.7371989+01:00",
+  "PublishFrom": "2006-02-27T15:29:29.7371989+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 638,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "dolorem"
+      "DisplayValue": "aspernatur"
     },
     {
-      "VisibleId": 638,
+      "VisibleId": 119,
       "Visibility": "All",
-      "DisplayValue": "dolorem"
+      "DisplayValue": "aspernatur"
     }
   ]
 }
@@ -173,7 +173,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "labore",
-  "2": "voluptas"
+  "1": "quia",
+  "2": "suscipit"
 }
 ```

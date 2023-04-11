@@ -28,7 +28,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -74,6 +74,7 @@ The ticket message to save
 | Language | String | The language this message is in, based on some kind of analysis |
 | Sentiment | Integer | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | Integer | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | String | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | Array | Message attachments information |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -113,11 +114,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -125,72 +127,66 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 840,
+  "EjMessageId": 707,
   "Ticket": null,
-  "CreatedAt": "2015-08-03T12:15:27.5626274+02:00",
+  "CreatedAt": "2007-08-25T15:29:30.7719568+02:00",
   "CreatedBy": null,
-  "Author": "similique",
+  "Author": "placeat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "vitae",
-  "TimeSpent": 109,
-  "Body": "et",
-  "HtmlBody": "voluptas",
-  "EmailHeader": "duane@wunsch.biz",
-  "DebugInfo": "quae",
-  "MailSorter": "nam",
+  "MessageId": "ipsum",
+  "TimeSpent": 624,
+  "Body": "dolores",
+  "HtmlBody": "nemo",
+  "EmailHeader": "cristopher_runolfsdottir@kihn.us",
+  "DebugInfo": "enim",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "itaque",
   "MessageHeaders": [
     {
-      "Id": 991,
-      "Name": "Sporer, Sipes and Larkin",
-      "Value": "nobis",
+      "Id": 817,
+      "Name": "Kshlerin, Effertz and Weissnat",
+      "Value": "possimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 991,
-      "Name": "Sporer, Sipes and Larkin",
-      "Value": "nobis",
+      "Id": 817,
+      "Name": "Kshlerin, Effertz and Weissnat",
+      "Value": "possimus",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "vero",
-  "Sentiment": 234,
-  "SentimentConfidence": 711,
+  "Language": "aut",
+  "Sentiment": 65,
+  "SentimentConfidence": 568,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 676,
-      "Name": "Kautzer, Cremin and Cummerata",
-      "ContentType": "optio",
-      "AttSize": 826,
+      "AttachmentId": 688,
+      "Name": "Waters, Will and Hilpert",
+      "ContentType": "aut",
+      "AttSize": 859,
       "InlineImage": true,
-      "ContentId": "eius"
-    },
-    {
-      "AttachmentId": 676,
-      "Name": "Kautzer, Cremin and Cummerata",
-      "ContentType": "optio",
-      "AttSize": 826,
-      "InlineImage": true,
-      "ContentId": "eius"
+      "ContentId": "qui",
+      "AuthKey": "illo"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "id",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "dicta"
+    "CustomFields1": "iusto",
+    "CustomFields2": "voluptatem"
   }
 }
 ```
@@ -202,28 +198,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 609,
+  "EjMessageId": 670,
   "Ticket": null,
-  "CreatedAt": "2010-05-08T12:15:27.5706311+02:00",
+  "CreatedAt": "2016-12-15T15:29:30.7799831+01:00",
   "CreatedBy": null,
-  "Author": "unde",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sit",
-  "TimeSpent": 206,
-  "Body": "doloribus",
-  "HtmlBody": "quidem",
-  "EmailHeader": "consuelo@towne.ca",
-  "DebugInfo": "rerum",
-  "MailSorter": "similique",
+  "MessageId": "nihil",
+  "TimeSpent": 315,
+  "Body": "et",
+  "HtmlBody": "veritatis",
+  "EmailHeader": "hellen_kunde@kreiger.name",
+  "DebugInfo": "illo",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "libero",
+  "SearchTitle": "quis",
   "MessageHeaders": [
     {
-      "Id": 715,
-      "Name": "McGlynn Inc and Sons",
-      "Value": "beatae",
+      "Id": 389,
+      "Name": "Terry Inc and Sons",
+      "Value": "dicta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -231,47 +227,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 732
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "voluptas",
-  "Sentiment": 958,
-  "SentimentConfidence": 95,
+  "Important": true,
+  "Language": "repudiandae",
+  "Sentiment": 554,
+  "SentimentConfidence": 400,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 391,
-      "Name": "Jones-Becker",
-      "ContentType": "dolore",
-      "AttSize": 221,
+      "AttachmentId": 9,
+      "Name": "Pacocha LLC",
+      "ContentType": "sint",
+      "AttSize": 268,
       "InlineImage": true,
-      "ContentId": "voluptatum",
+      "ContentId": "consequatur",
+      "AuthKey": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 995
+          "FieldType": "System.Int32",
+          "FieldLength": 397
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "molestias"
+    "CustomFields1": "sed",
+    "CustomFields2": "sunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 821
     }
   }
 }

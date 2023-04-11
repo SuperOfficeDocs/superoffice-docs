@@ -65,8 +65,8 @@ OK
 |----------------|------|--------------|
 | LanguageCode | string | Content language |
 | Html | string | HTML data |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,15 +78,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 483,
+  "DashboardTileDefinitionId": 776,
   "Languages": [
     {
-      "LanguageCode": "sed",
-      "Html": "labore"
+      "LanguageCode": "quidem",
+      "Html": "possimus"
     },
     {
-      "LanguageCode": "sed",
-      "Html": "labore"
+      "LanguageCode": "quidem",
+      "Html": "possimus"
     }
   ]
 }
@@ -100,26 +100,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "autem",
-    "Html": "eaque",
+    "LanguageCode": "corrupti",
+    "Html": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 310
       }
     }
   },
   {
-    "LanguageCode": "autem",
-    "Html": "eaque",
+    "LanguageCode": "corrupti",
+    "Html": "atque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 310
       }
     }
   }

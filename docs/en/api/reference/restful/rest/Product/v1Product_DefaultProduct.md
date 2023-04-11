@@ -80,8 +80,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 144,
-  "ERPProductKey": "quo",
-  "ERPPriceListKey": "qui",
-  "Name": "Emmerich, Crooks and VonRueden",
-  "Description": "Open-architected clear-thinking solution",
-  "Code": "nostrum",
-  "PriceUnit": "at",
-  "QuantityUnit": "vero",
+  "ProductId": 426,
+  "ERPProductKey": "natus",
+  "ERPPriceListKey": "eius",
+  "Name": "Medhurst, Adams and Feest",
+  "Description": "Visionary motivating application",
+  "Code": "ea",
+  "PriceUnit": "consequuntur",
+  "QuantityUnit": "illum",
   "IsSubscription": false,
-  "SubscriptionUnit": "rerum",
-  "DefaultSubscriptionQuantity": 14156.278,
-  "ItemNumber": "716530",
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 30484.417999999998,
+  "ItemNumber": "450586",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "corrupti",
-  "ProductTypeKey": "tenetur",
-  "VAT": 28773.254,
-  "VATInfo": "deserunt",
-  "UnitCost": 9988.0579999999991,
-  "UnitMinimumPrice": 28986.365999999998,
-  "UnitListPrice": 17105.372,
+  "ProductFamilyKey": "quidem",
+  "ProductTypeKey": "in",
+  "VAT": 8217.348,
+  "VATInfo": "repellat",
+  "UnitCost": 16368.882,
+  "UnitMinimumPrice": 11473.574,
+  "UnitListPrice": 2027.6979999999999,
   "InAssortment": false,
-  "Supplier": "quae",
-  "SupplierCode": "sed",
-  "Rights": "autem",
-  "Rule": "rem",
+  "Supplier": "itaque",
+  "SupplierCode": "modi",
+  "Rights": "asperiores",
+  "Rule": "beatae",
   "ExtraInfo": [
     {
-      "Name": "Hahn-Leuschke",
-      "Value": "aut",
+      "Name": "Wisozk LLC",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 446
         }
       }
     },
     {
-      "Name": "Hahn-Leuschke",
-      "Value": "aut",
+      "Name": "Wisozk LLC",
+      "Value": "voluptatem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 446
         }
       }
     }
   ],
-  "RawExtraInfo": "repellendus",
-  "ExtraField1": "voluptates",
-  "ExtraField2": "nobis",
-  "ExtraField3": "ipsam",
-  "ExtraField4": "quae",
-  "ExtraField5": "non",
-  "InStock": 1447.908,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "et",
+  "ExtraField2": "beatae",
+  "ExtraField3": "laboriosam",
+  "ExtraField4": "quo",
+  "ExtraField5": "qui",
+  "InStock": 3861.0879999999997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 783
     }
   }
 }

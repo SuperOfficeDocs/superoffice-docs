@@ -80,8 +80,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,20 +93,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 570,
-  "Caption": "iste",
-  "Description": "Inverse zero tolerance infrastructure",
-  "SelectionId": 417,
+  "DashboardTileId": 375,
+  "Caption": "nostrum",
+  "Description": "Operative bifurcated complexity",
+  "SelectionId": 88,
   "VisibleFor": [
     {
-      "VisibleId": 790,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "unde"
+      "DisplayValue": "rerum"
     },
     {
-      "VisibleId": 790,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "unde"
+      "DisplayValue": "rerum"
     }
   ]
 }
@@ -119,64 +119,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 341,
-  "Caption": "ea",
-  "Description": "Advanced user-facing conglomeration",
-  "ChartName": "Klocko Group",
-  "ChartId": "eum",
-  "IsDefault": true,
-  "AssociateId": 746,
-  "GroupId": 629,
-  "SelectionId": 614,
-  "Config": "inventore",
+  "DashboardTileId": 501,
+  "Caption": "aut",
+  "Description": "Streamlined explicit functionalities",
+  "ChartName": "Wiegand-Raynor",
+  "ChartId": "voluptatem",
+  "IsDefault": false,
+  "AssociateId": 215,
+  "GroupId": 883,
+  "SelectionId": 929,
+  "Config": "a",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stracke LLC",
-      "Description": "Synergized intermediate help-desk",
+      "Name": "Rohan, Heaney and Zemlak",
+      "Description": "Upgradable systematic analyzer",
       "Type": "Boolean",
-      "ListName": "Senger-Bednar",
+      "ListName": "Heaney-Schimmel",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "autem",
-      "DefaultDataOption": false,
+      "Value": "inventore",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldType": "System.Int32",
+          "FieldLength": 76
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 918,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 903
         }
       }
     },
     {
-      "VisibleId": 918,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 903
         }
       }
     }
@@ -185,8 +185,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 618
     }
   }
 }

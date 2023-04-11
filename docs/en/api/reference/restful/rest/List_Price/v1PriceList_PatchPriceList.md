@@ -106,8 +106,8 @@ PriceList  updated.
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -122,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "ipsam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "ipsam",
     "value": {}
   }
 ]
@@ -140,22 +140,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 959,
-  "ERPPriceListKey": "veniam",
-  "QuoteConnectionId": 16,
-  "Name": "Ryan LLC",
-  "Description": "Organic systematic hub",
-  "Currency": "hic",
-  "CurrencyName": "Hirthe-Mann",
-  "ValidFrom": "2021-08-12T12:15:28.2566168+02:00",
-  "ValidTo": "1996-05-14T12:15:28.2566168+02:00",
-  "IsActive": true,
+  "PriceListId": 930,
+  "ERPPriceListKey": "accusamus",
+  "QuoteConnectionId": 763,
+  "Name": "Lemke-Mosciski",
+  "Description": "Stand-alone intangible Graphical User Interface",
+  "Currency": "est",
+  "CurrencyName": "Mraz LLC",
+  "ValidFrom": "1996-10-27T15:29:31.371977+01:00",
+  "ValidTo": "2008-03-21T15:29:31.371977+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 241
     }
   },
   "_Links": {

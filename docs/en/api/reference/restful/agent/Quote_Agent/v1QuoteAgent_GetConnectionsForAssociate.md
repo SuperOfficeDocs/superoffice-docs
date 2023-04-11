@@ -77,8 +77,8 @@ OK
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 779
+  "AssociateId": 467
 }
 ```
 
@@ -102,54 +102,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 698,
-    "ERPName": "Pollich Group",
-    "DisplayName": "Huel LLC",
-    "DisplayDescription": "Expanded 24 hour firmware",
-    "Rank": 893,
-    "ConnectorName": "Borer, Parisian and Paucek",
-    "ErpConnectionId": 151,
-    "ExtraData": "odit",
+    "QuoteConnectionId": 483,
+    "ERPName": "Trantow-Walker",
+    "DisplayName": "Mann, Barton and Dicki",
+    "DisplayDescription": "Ergonomic zero tolerance monitoring",
+    "Rank": 723,
+    "ConnectorName": "Dickens LLC",
+    "ErpConnectionId": 502,
+    "ExtraData": "beatae",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 348,
-        "ERPPriceListKey": "perferendis",
-        "QuoteConnectionId": 843,
-        "Name": "Yost-O'Keefe",
-        "Description": "Seamless fresh-thinking workforce",
-        "Currency": "repudiandae",
-        "CurrencyName": "Roberts-Crooks",
-        "ValidFrom": "1999-01-11T12:15:19.9467449+01:00",
-        "ValidTo": "2019-02-26T12:15:19.9467449+01:00",
-        "IsActive": false,
+        "PriceListId": 577,
+        "ERPPriceListKey": "impedit",
+        "QuoteConnectionId": 63,
+        "Name": "Homenick LLC",
+        "Description": "Managed bottom-line time-frame",
+        "Currency": "quod",
+        "CurrencyName": "Runte LLC",
+        "ValidFrom": "2002-03-28T15:29:22.572264+01:00",
+        "ValidTo": "2019-08-10T15:29:22.572264+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 87
+            "FieldLength": 500
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      689,
-      557
+      950,
+      859
     ],
     "AssociateAccessIds": [
-      277,
-      853
+      673,
+      930
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 802
+        "FieldLength": 221
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=345
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=317
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -68,8 +68,8 @@ OK
 | BottomMargin | int32 | Bottom margin in twips |
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 623,
-  "Name": "Johns LLC",
-  "Description": "Phased uniform model",
+  "ReportLabelLayoutId": 161,
+  "Name": "Rosenbaum, Moore and West",
+  "Description": "Devolved client-server capability",
   "Orientation": "Landscape",
-  "PaperWidth": 189,
-  "PaperHeight": 511,
-  "LeftMargin": 206,
-  "RightMargin": 972,
-  "TopMargin": 416,
-  "BottomMargin": 972,
-  "CountColumns": 511,
-  "CountRows": 77,
+  "PaperWidth": 286,
+  "PaperHeight": 422,
+  "LeftMargin": 229,
+  "RightMargin": 3,
+  "TopMargin": 874,
+  "BottomMargin": 282,
+  "CountColumns": 41,
+  "CountRows": 658,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldType": "System.String",
+      "FieldLength": 937
     }
   }
 }

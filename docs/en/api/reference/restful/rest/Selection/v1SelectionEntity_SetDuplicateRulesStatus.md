@@ -47,7 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -61,16 +61,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mitchell Inc and Sons",
-    "DisplayName": "Johnston, Shields and Von",
-    "DisplayTooltip": "et",
-    "IsActive": true
+    "Name": "Stracke Inc and Sons",
+    "DisplayName": "Langworth Inc and Sons",
+    "DisplayTooltip": "pariatur",
+    "IsActive": false
   },
   {
-    "Name": "Mitchell Inc and Sons",
-    "DisplayName": "Johnston, Shields and Von",
-    "DisplayTooltip": "et",
-    "IsActive": true
+    "Name": "Stracke Inc and Sons",
+    "DisplayName": "Langworth Inc and Sons",
+    "DisplayTooltip": "pariatur",
+    "IsActive": false
   }
 ]
 ```

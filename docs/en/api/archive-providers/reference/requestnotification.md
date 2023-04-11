@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "RequestNotification"
 so.generated: true
-so.date: 02.15.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -17,12 +17,18 @@ so.envir:
 
 # "RequestNotification"
 
-This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.TicketNotificationSubProvider">SuperOffice.CRM.ArchiveLists.TicketNotificationSubProvider</see> inside NetServer's SODatabase assembly.
+This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.RequestNotificationProvider">SuperOffice.CRM.ArchiveLists.RequestNotificationProvider</see> inside NetServer's SODatabase assembly.
 
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"ticket"|Request|
+|"ticketNew"|Request|
+|"ticketNewMessage"|Request|
+|"ticketEscalated"|Request|
+|"ticketActivated"|Request|
+|"ticketTransferred"|Request|
+|"ticketCustomMessage"|Request|
+|"ticketFavouriteUpdated"|Request|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -31,16 +37,18 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |id| *None* |!!id| x |
 |associateId|associate|Associate: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
-|originatorFullName|associate|!!originatorFullName - Full name: !!originatorFullName| x |
-|receiverFullName|associate|!!receiverFullName - Full name: !!receiverFullName| x |
+|originatorFullName| *None* |!!originatorFullName|  |
 |notifyDateTime|datetime|!!notifyDateTime| x |
 |title| *None* |!!title|  |
 |updateType| *None* |!!updateType|  |
+|ticketId| *None* |!!ticketId| x |
+|category| *None* |!!category| x |
+|customUrl| *None* |!!customUrl| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/RequestNotification?$select=associateId,originatorFullName
+GET /api/v1/archive/RequestNotification?$select=getNoRows,associateId,notifyDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

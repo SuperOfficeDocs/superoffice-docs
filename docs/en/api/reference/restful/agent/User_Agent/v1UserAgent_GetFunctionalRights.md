@@ -82,8 +82,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 786
+  "RoleId": 722
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Ruecker LLC",
-    "ToolTip": "Dicta cumque tempora.",
+    "Id": 472,
+    "Name": "Vandervort Inc and Sons",
+    "ToolTip": "Sunt et quo accusamus et ratione eius.",
     "Deleted": true,
-    "Rank": 561,
-    "Type": "voluptates",
-    "ColorBlock": 490,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "1998-09-15T12:15:20.5677287+02:00",
+    "Rank": 184,
+    "Type": "esse",
+    "ColorBlock": 848,
+    "IconHint": "mollitia",
+    "Selected": true,
+    "LastChanged": "2012-01-02T15:29:23.3402532+01:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Kihn, Kulas and Stiedemann",
-        "ToolTip": "Voluptas quam qui laboriosam voluptatem est sed est.",
+        "Id": 686,
+        "Name": "Hermiston-Johns",
+        "ToolTip": "Modi quia dolore et voluptatem ad porro magni.",
         "Deleted": false,
-        "Rank": 968,
-        "Type": "quos",
-        "ColorBlock": 642,
-        "IconHint": "laboriosam",
-        "Selected": true,
-        "LastChanged": "2007-03-18T12:15:20.5677287+01:00",
+        "Rank": 726,
+        "Type": "labore",
+        "ColorBlock": 410,
+        "IconHint": "tenetur",
+        "Selected": false,
+        "LastChanged": "2020-05-16T15:29:23.3402532+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "quia",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Raphael Jevon Konopelski PhD",
+        "FullName": "Genesis Whitney Koss V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 705
+            "FieldType": "System.String",
+            "FieldLength": 236
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Ms. Ben Oda Champlin PhD",
+    "ExtraInfo": "est",
+    "StyleHint": "similique",
+    "Hidden": true,
+    "FullName": "Dr. Gretchen Kaitlyn Nienow Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldType": "System.String",
+        "FieldLength": 214
       }
     }
   }

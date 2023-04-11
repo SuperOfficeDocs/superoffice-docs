@@ -26,7 +26,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=omnis
+GET /api/v1/List/MrMrs/MDOItems?query=a
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Ziemann Inc and Sons",
-    "ToolTip": "Reprehenderit omnis quo adipisci ab.",
-    "Deleted": true,
-    "Rank": 277,
-    "Type": "consequuntur",
+    "Id": 236,
+    "Name": "Littel Group",
+    "ToolTip": "Sunt eos ut sed aliquid beatae cupiditate est.",
+    "Deleted": false,
+    "Rank": 362,
+    "Type": "rem",
     "ChildItems": [
       {
-        "Id": 627,
-        "Name": "Cremin LLC",
-        "ToolTip": "Neque vitae sit hic doloremque.",
+        "Id": 398,
+        "Name": "Will Inc and Sons",
+        "ToolTip": "Minima itaque ut eos beatae molestias sit.",
         "Deleted": false,
-        "Rank": 793,
-        "Type": "soluta",
+        "Rank": 369,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 8,
-        "ExtraInfo": "id",
-        "StyleHint": "necessitatibus",
-        "FullName": "Ramona Wuckert",
+        "IconHint": "mollitia",
+        "ColorBlock": 306,
+        "ExtraInfo": "aperiam",
+        "StyleHint": "nulla",
+        "FullName": "Will Champlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 512
           }
         }
       }
     ],
-    "IconHint": "earum",
-    "ColorBlock": 173,
-    "ExtraInfo": "pariatur",
-    "StyleHint": "vero",
-    "FullName": "Tara Bauch",
+    "IconHint": "voluptas",
+    "ColorBlock": 415,
+    "ExtraInfo": "et",
+    "StyleHint": "hic",
+    "FullName": "Ms. Johann Elsa McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldType": "System.Int32",
+        "FieldLength": 857
       }
     }
   }

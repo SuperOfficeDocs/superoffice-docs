@@ -93,7 +93,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -118,8 +118,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -127,12 +127,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentForUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "molestiae"
+  "UID": "enim"
 }
 ```
 
@@ -147,122 +147,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-10-02T12:15:17.959766+02:00",
-  "AppointmentId": 551,
-  "Description": "Diverse directional core",
-  "StartDate": "2015-01-21T12:15:17.959766+01:00",
-  "EndDate": "2013-05-20T12:15:17.959766+02:00",
+  "CreatedDate": "1996-12-21T15:29:20.7002903+01:00",
+  "AppointmentId": 118,
+  "Description": "Ergonomic mission-critical extranet",
+  "StartDate": "2017-03-18T15:29:20.7002903+01:00",
+  "EndDate": "2003-09-05T15:29:20.7002903+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 358,
+  "MotherId": 701,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-10-24T12:15:17.9627694+02:00",
+  "UpdatedDate": "1995-12-17T15:29:20.7032903+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 188,
+  "ActiveLinks": 111,
   "Links": [
     {
-      "EntityName": "Pollich LLC",
-      "Id": 766,
-      "Description": "Stand-alone bi-directional encryption",
-      "ExtraInfo": "sint",
-      "LinkId": 118,
+      "EntityName": "Pacocha-Gleason",
+      "Id": 152,
+      "Description": "Inverse 5th generation approach",
+      "ExtraInfo": "rerum",
+      "LinkId": 584,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldType": "System.Int32",
+          "FieldLength": 511
         }
       }
     }
   ],
-  "AlarmLeadTime": "tempora",
-  "HasAlarm": true,
-  "ColorIndex": 962,
+  "AlarmLeadTime": "odio",
+  "HasAlarm": false,
+  "ColorIndex": 600,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "totam",
-  "LeadTime": "voluptatem",
-  "Location": "laborum",
-  "RejectCounter": 477,
+  "IsAlldayEvent": false,
+  "LagTime": "quia",
+  "LeadTime": "ea",
+  "Location": "libero",
+  "RejectCounter": 882,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 933,
-      "PersonId": 937,
-      "ContactId": 877,
-      "EmailId": 899,
-      "SendEmail": true,
+      "AssociateId": 65,
+      "PersonId": 854,
+      "ContactId": 137,
+      "EmailId": 62,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 933,
-      "PersonId": 937,
-      "ContactId": 877,
-      "EmailId": 899,
-      "SendEmail": true,
+      "AssociateId": 65,
+      "PersonId": 854,
+      "ContactId": 137,
+      "EmailId": 62,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-07-10T12:15:17.9637662+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2006-11-15T15:29:20.703791+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 153,
+  "PreferredTZLocation": 957,
   "Sale": null,
-  "SuggestedAppointmentId": 232,
+  "SuggestedAppointmentId": 268,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "corrupti",
+  "CentralserviceVideomeetId": "placeat",
   "UserDefinedFields": {
-    "SuperOffice:1": "108367209",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Prof. Cleo Skiles",
+    "SuperOffice:2": "Ms. Garett Ludie Jenkins DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "est"
+    "CustomFields1": "reiciendis",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2016-12-10T12:15:17.9647662+01:00",
-  "PublishTo": "2022-01-09T12:15:17.9647662+01:00",
-  "PublishFrom": "2002-06-28T12:15:17.9647662+02:00",
+  "PublishEventDate": "2010-05-07T15:29:20.7057902+02:00",
+  "PublishTo": "2001-02-11T15:29:20.7057902+01:00",
+  "PublishFrom": "2002-08-29T15:29:20.7057902+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 567,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 531
         }
       }
     },
     {
-      "VisibleId": 567,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "quibusdam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 69
+          "FieldType": "System.String",
+          "FieldLength": 531
         }
       }
     }
@@ -272,7 +272,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 947
     }
   }
 }

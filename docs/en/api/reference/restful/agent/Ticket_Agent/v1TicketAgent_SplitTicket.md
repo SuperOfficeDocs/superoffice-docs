@@ -120,8 +120,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 423,
+  "SourceTicketEntityId": 251,
   "TransferMessageIds": [
-    940,
-    129
+    698,
+    58
   ],
   "NewTicketEntity": null
 }
@@ -149,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 140,
-  "Title": "voluptatem",
-  "CreatedAt": "1999-06-08T12:15:20.4167307+02:00",
-  "LastChanged": "1996-10-17T12:15:20.4167307+02:00",
-  "ReadByOwner": "2018-10-27T12:15:20.4167307+02:00",
-  "ReadByCustomer": "2004-06-29T12:15:20.4167307+02:00",
-  "FirstReadByOwner": "2010-06-25T12:15:20.4167307+02:00",
-  "FirstReadByUser": "2010-06-04T12:15:20.4167307+02:00",
-  "Activate": "2011-03-16T12:15:20.4167307+01:00",
-  "ClosedAt": "2010-08-09T12:15:20.4167307+02:00",
-  "RepliedAt": "2013-02-26T12:15:20.4167307+01:00",
-  "AlertTimeout": "2008-12-24T12:15:20.4167307+01:00",
-  "Deadline": "2015-04-03T12:15:20.4167307+02:00",
+  "TicketId": 447,
+  "Title": "ullam",
+  "CreatedAt": "2008-02-01T15:29:23.1842924+01:00",
+  "LastChanged": "2011-10-31T15:29:23.1842924+01:00",
+  "ReadByOwner": "2001-03-31T15:29:23.1842924+02:00",
+  "ReadByCustomer": "2020-02-06T15:29:23.1842924+01:00",
+  "FirstReadByOwner": "2001-06-05T15:29:23.1842924+02:00",
+  "FirstReadByUser": "2022-09-04T15:29:23.1842924+02:00",
+  "Activate": "2017-01-22T15:29:23.1842924+01:00",
+  "ClosedAt": "2013-10-08T15:29:23.1842924+02:00",
+  "RepliedAt": "2009-11-07T15:29:23.1842924+01:00",
+  "AlertTimeout": "2003-02-02T15:29:23.1842924+01:00",
+  "Deadline": "2002-07-06T15:29:23.1842924+02:00",
   "CreatedBy": null,
-  "Author": "dolores",
+  "Author": "totam",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -174,157 +174,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "labore",
-      "PersonId": 796,
-      "Mrmrs": "est",
-      "Firstname": "Manuela",
-      "Lastname": "Johnson",
-      "MiddleName": "Hackett Group",
-      "Title": "qui",
-      "Description": "Down-sized 4th generation benchmark",
-      "Email": "keara_padberg@tillman.co.uk",
-      "FullName": "Afton Bruen",
-      "DirectPhone": "446.494.0759",
-      "FormalName": "Dietrich Group",
-      "CountryId": 108,
-      "ContactId": 161,
-      "ContactName": "Borer-Marks",
-      "Retired": 807,
-      "Rank": 289,
-      "ActiveInterests": 406,
+      "Position": "eaque",
+      "PersonId": 548,
+      "Mrmrs": "dicta",
+      "Firstname": "Kale",
+      "Lastname": "Gleason",
+      "MiddleName": "Mueller-Predovic",
+      "Title": "dolorem",
+      "Description": "Public-key system-worthy software",
+      "Email": "murphy.durgan@yost.us",
+      "FullName": "Miss Carolyne Ayla Turner",
+      "DirectPhone": "656-257-0421 x82665",
+      "FormalName": "Quitzon, Langworth and Botsford",
+      "CountryId": 421,
+      "ContactId": 143,
+      "ContactName": "Schneider, Marquardt and Greenfelder",
+      "Retired": 581,
+      "Rank": 206,
+      "ActiveInterests": 663,
       "ContactDepartment": "",
-      "ContactCountryId": 293,
-      "ContactOrgNr": "1280779",
-      "FaxPhone": "1-455-718-1340 x6922",
-      "MobilePhone": "1-133-228-4530",
-      "ContactPhone": "977-441-0429",
-      "AssociateName": "Stiedemann-Wyman",
-      "AssociateId": 456,
+      "ContactCountryId": 520,
+      "ContactOrgNr": "811846",
+      "FaxPhone": "1-102-324-2839 x47821",
+      "MobilePhone": "471-218-4400 x73027",
+      "ContactPhone": "524-127-2975 x2389",
+      "AssociateName": "Hills-Kihn",
+      "AssociateId": 244,
       "UsePersonAddress": false,
-      "ContactFax": "deserunt",
-      "Kanafname": "sint",
-      "Kanalname": "aut",
-      "Post1": "aut",
-      "Post2": "deserunt",
-      "Post3": "officia",
-      "EmailName": "savannah_ernser@graham.info",
-      "ContactFullName": "Mrs. Lea Robel DVM",
-      "ActiveErpLinks": 149,
-      "TicketPriorityId": 536,
-      "SupportLanguageId": 768,
-      "SupportAssociateId": 786,
+      "ContactFax": "aliquid",
+      "Kanafname": "enim",
+      "Kanalname": "dignissimos",
+      "Post1": "assumenda",
+      "Post2": "est",
+      "Post3": "laborum",
+      "EmailName": "libby_will@nolanwiza.info",
+      "ContactFullName": "Jakayla Feeney",
+      "ActiveErpLinks": 13,
+      "TicketPriorityId": 453,
+      "SupportLanguageId": 888,
+      "SupportAssociateId": 810,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 240
+          "FieldType": "System.String",
+          "FieldLength": 783
         }
       }
     }
   ],
-  "AlertLevel": 930,
-  "ConnectId": 246,
+  "AlertLevel": 339,
+  "ConnectId": 126,
   "ReadStatus": "Green",
-  "TimeToReply": 387,
-  "RealTimeToReply": 203,
-  "TimeToClose": 388,
-  "RealTimeToClose": 403,
-  "TimeSpentInternally": 445,
-  "TimeSpentExternally": 215,
-  "TimeSpentQueue": 203,
-  "RealTimeSpentInternally": 950,
-  "RealTimeSpentExternally": 549,
-  "RealTimeSpentQueue": 413,
-  "HasAttachment": true,
-  "NumReplies": 308,
-  "NumMessages": 862,
-  "FromAddress": "inventore",
+  "TimeToReply": 859,
+  "RealTimeToReply": 340,
+  "TimeToClose": 651,
+  "RealTimeToClose": 513,
+  "TimeSpentInternally": 397,
+  "TimeSpentExternally": 918,
+  "TimeSpentQueue": 776,
+  "RealTimeSpentInternally": 818,
+  "RealTimeSpentExternally": 263,
+  "RealTimeSpentQueue": 617,
+  "HasAttachment": false,
+  "NumReplies": 442,
+  "NumMessages": 983,
+  "FromAddress": "in",
   "Messages": [
     {
-      "TicketMessageId": 212,
-      "CreatedAt": "1998-06-17T12:15:20.4207307+02:00",
+      "TicketMessageId": 417,
+      "CreatedAt": "2003-09-25T15:29:23.1892979+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "sed",
-      "PersonId": 468,
-      "PersonFullName": "Esta Keebler",
-      "ContactId": 452,
-      "ContactName": "Mayer LLC",
+      "Author": "nihil",
+      "PersonId": 392,
+      "PersonFullName": "Deshaun Zieme",
+      "ContactId": 209,
+      "ContactName": "Ryan-Rohan",
       "ContactDepartment": "",
-      "NumAttachments": 9,
-      "EmailHeader": "cayla_willms@reinger.uk",
+      "NumAttachments": 183,
+      "EmailHeader": "camryn.kuhn@mcdermottsenger.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "porro",
-      "Sentiment": 333,
-      "SentimentConfidence": 941,
-      "CreatedBy": 814,
-      "ChangedAt": "2007-09-05T12:15:20.4217313+02:00",
+      "Language": "nihil",
+      "Sentiment": 530,
+      "SentimentConfidence": 455,
+      "CreatedBy": 994,
+      "ChangedAt": "2012-04-23T15:29:23.1897914+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 266
+          "FieldLength": 930
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 410,
-      "Name": "Senger-Satterfield",
-      "ToolTip": "Quam itaque rerum quod.",
+      "Id": 607,
+      "Name": "Stark LLC",
+      "ToolTip": "Occaecati cupiditate.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldLength": 165
         }
       }
     },
     {
-      "Id": 410,
-      "Name": "Senger-Satterfield",
-      "ToolTip": "Quam itaque rerum quod.",
+      "Id": 607,
+      "Name": "Stark LLC",
+      "ToolTip": "Occaecati cupiditate.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldLength": 165
         }
       }
     }
   ],
-  "Language": "sit",
-  "Sentiment": 11,
-  "SentimentConfidence": 923,
-  "SuggestedCategoryId": 899,
+  "Language": "assumenda",
+  "Sentiment": 940,
+  "SentimentConfidence": 565,
+  "SuggestedCategoryId": 822,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 846,
-  "IconHint": "harum",
+  "OrigHumanCategoryId": 172,
+  "IconHint": "dolore",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "unde"
   },
   "CustomFields": {
-    "CustomFields1": "consequatur",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "eius",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 936
     }
   }
 }

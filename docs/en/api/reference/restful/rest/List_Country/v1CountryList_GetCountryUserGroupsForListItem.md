@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Bergnaum-Hirthe",
-    "ToolTip": "Debitis vitae animi.",
+    "Id": 496,
+    "Name": "Satterfield, Marvin and Orn",
+    "ToolTip": "Sed atque error sequi repudiandae rerum sed.",
     "Deleted": false,
-    "Rank": 235,
-    "Type": "sunt",
-    "ColorBlock": 754,
-    "IconHint": "laboriosam",
+    "Rank": 478,
+    "Type": "atque",
+    "ColorBlock": 419,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2000-07-25T12:15:27.9936205+02:00",
+    "LastChanged": "2000-11-08T15:29:31.1734802+01:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Wuckert-Goldner",
-        "ToolTip": "Iusto officiis voluptates expedita dolorem et.",
+        "Id": 610,
+        "Name": "Dickinson, Champlin and Schinner",
+        "ToolTip": "Qui facilis est.",
         "Deleted": false,
-        "Rank": 585,
-        "Type": "ratione",
-        "ColorBlock": 727,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "1997-04-06T12:15:27.9936205+02:00",
+        "Rank": 691,
+        "Type": "consectetur",
+        "ColorBlock": 118,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2002-09-13T15:29:31.1734802+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "perspiciatis",
         "Hidden": true,
-        "FullName": "Edna Crist V",
+        "FullName": "Mrs. Wilhelm Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 359
+            "FieldType": "System.String",
+            "FieldLength": 409
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "minus",
+    "ExtraInfo": "natus",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Lauren Wunsch Jr.",
+    "FullName": "Dr. Gage Vida Lemke I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 584
       }
     }
   }

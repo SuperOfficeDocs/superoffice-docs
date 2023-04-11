@@ -25,7 +25,7 @@ Gets a ReportEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=597
+POST /api/v1/Agents/Report/GetReportEntity?reportEntityId=210
 POST /api/v1/Agents/Report/GetReportEntity?$select=name,department,category/id
 ```
 
@@ -64,8 +64,8 @@ OK
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 727,
+  "ReportId": 29,
   "ReportCategory": "All",
-  "Description": "Multi-channelled empowering archive",
+  "Description": "Profit-focused high-level matrices",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kassulke-Hintz",
-  "AssociateId": 471,
-  "TemplateId": 522,
-  "Published": false,
+  "Name": "Dare Inc and Sons",
+  "AssociateId": 465,
+  "TemplateId": 570,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 787
     }
   }
 }

@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -63,13 +63,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavouritesById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FavouriteIds": [
-    210,
-    950
+    43,
+    138
   ]
 }
 ```

@@ -54,8 +54,8 @@ OK
 | Password | string | Password for the username |
 | Folder | string | Optional folder to set as current after logging in |
 | UseSSL | bool | Use a secure connection with the server |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,17 +73,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Carter-Considine",
-  "UserName": "Upton, Emmerich and Berge",
-  "Password": "ratione",
-  "Folder": "voluptate",
-  "UseSSL": true,
+  "ServerName": "Vandervort, Zboncak and Nolan",
+  "UserName": "Weimann Inc and Sons",
+  "Password": "nisi",
+  "Folder": "illum",
+  "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 10
     }
   }
 }

@@ -76,8 +76,8 @@ SaleEntity found.
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,7 +85,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Kohler-Bode",
-  "SaleDate": "2005-10-27T12:15:27.3416333+02:00",
-  "SaleId": 892,
-  "Probability": 658,
-  "Title": "rerum",
-  "Amount": 7994.834,
-  "Currency": "minima",
-  "ProjectName": "Torphy LLC",
-  "AssociateFullName": "Randal Crona",
-  "Description": "Devolved motivating superstructure",
+  "ContactName": "Zieme-Davis",
+  "SaleDate": "2008-04-11T15:29:30.5694885+02:00",
+  "SaleId": 945,
+  "Probability": 406,
+  "Title": "nostrum",
+  "Amount": 708.284,
+  "Currency": "nihil",
+  "ProjectName": "Gaylord Group",
+  "AssociateFullName": "Conrad Bogisich",
+  "Description": "Customer-focused grid-enabled focus group",
   "Status": "Lost",
-  "WeightedAmount": 15156.024,
-  "ProjectId": 684,
-  "EarningPercent": 23605.288,
-  "Earning": 9931.6459999999988,
-  "ContactId": 944,
-  "AssociateId": 18,
-  "PersonId": 550,
-  "SaleTypeId": 547,
-  "SaleTypeName": "White-Kuhic",
-  "PersonFullName": "Dr. Danielle McCullough MD",
+  "WeightedAmount": 14795.614,
+  "ProjectId": 651,
+  "EarningPercent": 18644.166,
+  "Earning": 28196.597999999998,
+  "ContactId": 834,
+  "AssociateId": 41,
+  "PersonId": 282,
+  "SaleTypeId": 803,
+  "SaleTypeName": "Maggio, Nikolaus and Lynch",
+  "PersonFullName": "Javon Wunsch",
   "Completed": "Completed",
-  "ActiveErpLinks": 798,
-  "NextDueDate": "2007-04-25T12:15:27.3416333+02:00",
-  "Number": "1127279",
+  "ActiveErpLinks": 205,
+  "NextDueDate": "1999-02-13T15:29:30.5699884+01:00",
+  "Number": "1230797",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 155
     }
   }
 }

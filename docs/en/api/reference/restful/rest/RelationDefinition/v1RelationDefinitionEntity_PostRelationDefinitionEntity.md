@@ -79,8 +79,8 @@ OK
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -89,16 +89,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 763,
-  "Name": "Goyette LLC",
-  "Tooltip": "pariatur",
-  "PassiveText": "laboriosam",
-  "Deleted": false,
-  "Rank": 665,
+  "ReldefId": 284,
+  "Name": "Gerlach Group",
+  "Tooltip": "dolorum",
+  "PassiveText": "sint",
+  "Deleted": true,
+  "Rank": 236,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -111,12 +111,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 94,
-  "Name": "Kertzmann-Goyette",
-  "Tooltip": "earum",
-  "PassiveText": "quia",
+  "ReldefId": 249,
+  "Name": "Wilderman, Bergstrom and Pouros",
+  "Tooltip": "rerum",
+  "PassiveText": "consequatur",
   "Deleted": false,
-  "Rank": 278,
+  "Rank": 978,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -124,12 +124,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 142
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

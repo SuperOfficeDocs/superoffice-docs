@@ -28,7 +28,7 @@ Get the chat transcript, formatted as plain text or html
 | html | bool |  Get transcript as HTML |
 
 ```http
-POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=False
+POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=True
 ```
 
 
@@ -63,7 +63,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Transcript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,5 +72,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quo"
+"modi"
 ```

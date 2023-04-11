@@ -27,7 +27,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=545
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=477
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -73,8 +73,8 @@ OK
 | RoleTooltip | string |  |
 | UserGroupName | string |  |
 | UserGroupTooltip | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": true,
-  "UserInfoId": 8,
-  "UserName": "Prohaska, Stracke and Cruickshank",
-  "PersonId": 801,
-  "Rank": 396,
-  "Tooltip": "perspiciatis",
-  "UserGroupId": 930,
-  "EjUserId": 414,
+  "Deleted": false,
+  "UserInfoId": 347,
+  "UserName": "Schroeder, Koelpin and Leuschke",
+  "PersonId": 552,
+  "Rank": 833,
+  "Tooltip": "omnis",
+  "UserGroupId": 1001,
+  "EjUserId": 738,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "provident",
-    "dicta"
+    "dolorum",
+    "aperiam"
   ],
-  "CanLogon": true,
-  "RoleName": "Trantow-Skiles",
-  "RoleTooltip": "ipsa",
-  "UserGroupName": "Jewess Group",
-  "UserGroupTooltip": "facilis",
+  "CanLogon": false,
+  "RoleName": "Marvin, White and Hane",
+  "RoleTooltip": "dolor",
+  "UserGroupName": "Waelchi-Ratke",
+  "UserGroupTooltip": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldLength": 302
     }
   }
 }

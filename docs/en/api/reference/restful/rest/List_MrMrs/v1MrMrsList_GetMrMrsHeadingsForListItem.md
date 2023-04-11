@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Willms, Wiegand and Streich",
-    "ToolTip": "Deserunt doloribus tempora ullam et.",
+    "Id": 522,
+    "Name": "Braun-Blanda",
+    "ToolTip": "Rerum dolorem.",
     "Deleted": false,
-    "Rank": 281,
-    "Type": "sapiente",
-    "ColorBlock": 571,
-    "IconHint": "saepe",
+    "Rank": 559,
+    "Type": "eos",
+    "ColorBlock": 909,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2018-10-24T12:15:28.195618+02:00",
+    "LastChanged": "2018-03-29T15:29:31.3079432+02:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Emmerich, Kuphal and Haley",
-        "ToolTip": "Voluptatem non id.",
+        "Id": 610,
+        "Name": "McCullough, Herzog and Herzog",
+        "ToolTip": "Doloribus ut pariatur quam accusamus repellat.",
         "Deleted": false,
-        "Rank": 474,
-        "Type": "quae",
-        "ColorBlock": 304,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2010-06-02T12:15:28.195618+02:00",
+        "Rank": 340,
+        "Type": "cupiditate",
+        "ColorBlock": 276,
+        "IconHint": "nam",
+        "Selected": false,
+        "LastChanged": "2016-08-01T15:29:31.3084779+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Melissa Moore",
+        "ExtraInfo": "saepe",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Viva Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 275
+            "FieldLength": 56
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "ut",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Dr. Rubye Myrna Waelchi",
+    "FullName": "Dr. Laila Roob",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 569
       }
     }
   }

@@ -70,8 +70,8 @@ OK
 | HtmlParsed | string | The HTML version of the reply template, and if applicable parsed with customer and ticket data |
 | Attachments | array | Meta data for the connected attachments |
 | Subject | string | The subject for this reply template |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 506,
-  "LanguageId": 588,
-  "PersonId": 483,
-  "TicketId": 558
+  "ReplyTemplateId": 448,
+  "LanguageId": 640,
+  "PersonId": 484,
+  "TicketId": 364
 }
 ```
 
@@ -97,34 +97,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 596,
-  "PlainParsed": "ex",
-  "HtmlParsed": "enim",
+  "ReplyTemplateId": 599,
+  "PlainParsed": "veritatis",
+  "HtmlParsed": "expedita",
   "Attachments": [
     {
-      "AttachmentId": 560,
-      "Name": "Walker, Ondricka and Herman",
-      "ContentType": "inventore",
-      "AttSize": 892,
+      "AttachmentId": 730,
+      "Name": "Gleason, Goldner and Klocko",
+      "ContentType": "voluptas",
+      "AttSize": 515,
       "InlineImage": false,
-      "ContentId": "beatae",
+      "ContentId": "omnis",
+      "AuthKey": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 219
         }
       }
     }
   ],
-  "Subject": "totam",
+  "Subject": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 89
     }
   }
 }

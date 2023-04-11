@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 94,
-  "StartTime": "2022-10-06T12:15:18.7237578+02:00",
-  "EndTime": "1997-02-13T12:15:18.7237578+01:00",
-  "Count": 926,
+  "ProjectId": 95,
+  "StartTime": "2002-12-25T15:29:21.484279+01:00",
+  "EndTime": "2012-03-05T15:29:21.484279+01:00",
+  "Count": 96,
   "DocumentTemplateIds": [
-    339,
-    367
+    667,
+    953
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 49,
-    "Attention": "magni",
-    "Header": "culpa",
-    "Name": "Ruecker, Emmerich and Hilpert",
-    "OurRef": "ut",
-    "YourRef": "qui",
-    "Description": "Streamlined encompassing neural-net",
-    "DocumentTemplate": "asperiores",
+    "DocumentId": 361,
+    "Attention": "ipsa",
+    "Header": "cupiditate",
+    "Name": "Greenfelder, Waelchi and Gottlieb",
+    "OurRef": "voluptatem",
+    "YourRef": "magnam",
+    "Description": "Centralized responsive matrices",
+    "DocumentTemplate": "voluptas",
     "IsPublished": true,
-    "PersonId": 588,
-    "PersonFullName": "Dr. Misael Murray IV",
-    "AssociateFullName": "Emmitt Spinka",
-    "ContactId": 764,
-    "ContactName": "Funk Inc and Sons",
-    "ProjectId": 989,
-    "ProjectName": "Weber, Ullrich and Durgan",
-    "AssociateId": 260,
-    "Snum": 844,
-    "SaleId": 862,
-    "SaleName": "Tremblay-Heidenreich",
+    "PersonId": 741,
+    "PersonFullName": "Dulce Johnson",
+    "AssociateFullName": "Mrs. Lisa Windler",
+    "ContactId": 245,
+    "ContactName": "Cassin-Kozey",
+    "ProjectId": 642,
+    "ProjectName": "Hansen Group",
+    "AssociateId": 810,
+    "Snum": 953,
+    "SaleId": 198,
+    "SaleName": "Schuster-Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

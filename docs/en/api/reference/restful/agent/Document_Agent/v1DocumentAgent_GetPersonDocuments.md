@@ -84,8 +84,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 463
+  "PersonId": 441
 }
 ```
 
@@ -109,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 373,
-    "Attention": "eligendi",
-    "Header": "nesciunt",
-    "Name": "Gleason-Pagac",
-    "OurRef": "ex",
-    "YourRef": "ipsum",
-    "Description": "Enhanced zero tolerance architecture",
-    "DocumentTemplate": "rem",
-    "IsPublished": true,
-    "PersonId": 668,
-    "PersonFullName": "Mr. Jeramy Effertz DVM",
-    "AssociateFullName": "Mr. Oren Augustine Mertz I",
-    "ContactId": 430,
-    "ContactName": "Rohan-Schmeler",
-    "ProjectId": 812,
-    "ProjectName": "Pfannerstill-Trantow",
-    "AssociateId": 472,
-    "Snum": 770,
-    "SaleId": 999,
-    "SaleName": "Pouros LLC",
+    "DocumentId": 716,
+    "Attention": "enim",
+    "Header": "similique",
+    "Name": "Sporer LLC",
+    "OurRef": "quia",
+    "YourRef": "non",
+    "Description": "Ameliorated object-oriented data-warehouse",
+    "DocumentTemplate": "at",
+    "IsPublished": false,
+    "PersonId": 726,
+    "PersonFullName": "Alexander Ankunding",
+    "AssociateFullName": "Prof. Skylar Wiza II",
+    "ContactId": 355,
+    "ContactName": "Hickle-Spencer",
+    "ProjectId": 758,
+    "ProjectName": "Kemmer-Durgan",
+    "AssociateId": 436,
+    "Snum": 51,
+    "SaleId": 181,
+    "SaleName": "Cole Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldLength": 511
       }
     }
   }

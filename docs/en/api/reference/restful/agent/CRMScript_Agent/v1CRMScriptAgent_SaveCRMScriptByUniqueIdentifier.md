@@ -75,8 +75,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "veritatis",
+  "UniqueIdentifier": "veniam",
   "Crmscript": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "velit",
-  "Name": "Ruecker-Mayert",
-  "Description": "User-centric high-level open architecture",
-  "IncludeId": "ipsa",
-  "Source": "magni",
-  "Registered": "2008-02-19T12:15:18.6257589+01:00",
-  "RegisteredBy": "voluptates",
-  "Updated": "2014-07-18T12:15:18.6257589+02:00",
-  "UpdatedBy": "saepe",
-  "Path": "sunt",
+  "UniqueIdentifier": "sed",
+  "Name": "Ruecker, Bayer and Emmerich",
+  "Description": "Up-sized neutral implementation",
+  "IncludeId": "ipsam",
+  "Source": "voluptate",
+  "Registered": "2013-06-02T15:29:21.2527832+02:00",
+  "RegisteredBy": "et",
+  "Updated": "2004-02-10T15:29:21.2527832+01:00",
+  "UpdatedBy": "iste",
+  "Path": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldType": "System.String",
+      "FieldLength": 556
     }
   }
 }

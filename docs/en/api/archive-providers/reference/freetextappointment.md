@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextAppointment"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -695,7 +695,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=contact/contactAssociate/role,person/position,person/correspondingAssociate/usergroup,project/projectEvent/hasSignOff,sale/completed
+GET /api/v1/archive/FreetextAppointment?$select=contact/contactUdef/SuperOffice:5,contact/contactUdef/SuperOffice:12,appointmentUdef/SuperOffice:4,project/saintTicketCategory,sale/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

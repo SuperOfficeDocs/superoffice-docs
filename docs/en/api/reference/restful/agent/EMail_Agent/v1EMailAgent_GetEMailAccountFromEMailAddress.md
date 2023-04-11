@@ -74,8 +74,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "officiis"
+  "FromAddress": "sint"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 998,
-  "EMailAddress": "dolores",
-  "AssociateId": 67,
+  "EMailAccountId": 946,
+  "EMailAddress": "aspernatur",
+  "AssociateId": 231,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 277,
-  "ErrorCount": 488,
+  "AccountStatus": 743,
+  "ErrorCount": 83,
   "ErrorReason": "",
-  "InboxFolder": "vel",
-  "SentFolder": "iste",
+  "InboxFolder": "veritatis",
+  "SentFolder": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 769
     }
   }
 }

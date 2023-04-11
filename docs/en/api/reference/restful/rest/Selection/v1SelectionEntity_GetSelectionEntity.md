@@ -103,8 +103,8 @@ SelectionEntity found.
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -113,7 +113,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -121,73 +121,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 Dec 2020 12:15:27 G12T
+Last-Modified: Sun, 20 Nov 2005 15:29:30 G11T
 
 {
-  "Description": "Visionary 24/7 portal",
-  "Postit": "velit",
+  "Description": "Down-sized client-driven success",
+  "Postit": "hic",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 245,
-  "IncludePerson": 166,
-  "MemberCount": 132,
-  "Name": "Kuhic Inc and Sons",
-  "PostitTextId": 324,
-  "CreatedDate": "1996-04-18T12:15:27.3706304+02:00",
-  "SelectionId": 6,
-  "SoundEx": "hic",
-  "Source": 171,
-  "TextId": 184,
-  "UpdatedDate": "2020-12-21T12:15:27.3706304+01:00",
-  "UpdatedCount": 793,
-  "Visibility": 992,
+  "GroupIdx": 503,
+  "IncludePerson": 351,
+  "MemberCount": 898,
+  "Name": "Rutherford LLC",
+  "PostitTextId": 596,
+  "CreatedDate": "2001-07-17T15:29:30.5964876+02:00",
+  "SelectionId": 162,
+  "SoundEx": "ut",
+  "Source": 630,
+  "TextId": 19,
+  "UpdatedDate": "2005-11-20T15:29:30.5964876+01:00",
+  "UpdatedCount": 298,
+  "Visibility": 248,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 271,
-  "TargetTableName": "Kirlin Group",
-  "Completed": false,
-  "LeftSelectionId": 290,
-  "RightSelectionId": 511,
+  "CompanyUnique": false,
+  "TargetTableNumber": 824,
+  "TargetTableName": "Murphy, Gaylord and Mills",
+  "Completed": true,
+  "LeftSelectionId": 469,
+  "RightSelectionId": 813,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Koelpin, Kub and Quitzon",
-  "ShadowProviderName": "Schimmel, Heaney and Kling",
-  "ChartKey": "iste",
-  "LastLoaded": "2016-11-23T12:15:27.3716271+01:00",
-  "LastLoadedBy": 935,
+  "MainProviderName": "Greenfelder, Franecki and Leannon",
+  "ShadowProviderName": "Nader Inc and Sons",
+  "ChartKey": "minima",
+  "LastLoaded": "2014-07-14T15:29:30.5964876+02:00",
+  "LastLoadedBy": 155,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-01-10T12:15:27.3716271+01:00",
-  "LastMembershipChangeBy": 686,
+  "LastMembershipChange": "1999-01-24T15:29:30.5969879+01:00",
+  "LastMembershipChangeBy": 871,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Simonis-Kunde",
-  "DashboardTileDefinitionId": 894,
+  "MainHeading": "alias",
+  "MemberTabHeading": "enim",
+  "MailingsProviderName": "Kassulke Inc and Sons",
+  "DashboardTileDefinitionId": 652,
   "VisibleFor": [
     {
-      "VisibleId": 540,
+      "VisibleId": 892,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 958
         }
       }
     },
     {
-      "VisibleId": 540,
+      "VisibleId": 892,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 958
         }
       }
     }
@@ -197,12 +197,12 @@ Last-Modified: Mon, 21 Dec 2020 12:15:27 G12T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 539
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

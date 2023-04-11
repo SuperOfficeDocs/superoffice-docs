@@ -67,8 +67,8 @@ DashTheme found.
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -77,7 +77,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 325,
-  "Name": "Raynor LLC",
-  "Config": "magni",
-  "Rank": 615,
-  "Client": "consequatur",
-  "Style": "ratione",
+  "DashboardThemeId": 886,
+  "Name": "Schimmel, Mante and Bode",
+  "Config": "est",
+  "Rank": 593,
+  "Client": "facere",
+  "Style": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 422
     }
   },
   "_Links": {

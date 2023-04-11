@@ -51,8 +51,8 @@ OK
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,19 +70,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 990,
-  "Name": "Torphy, Carroll and Reichert",
-  "Tooltip": "aut",
-  "Rank": 53,
-  "Rate": 23373.372,
-  "Units": 19114.266,
+  "CurrencyId": 946,
+  "Name": "Gaylord, Anderson and Krajcik",
+  "Tooltip": "et",
+  "Rank": 364,
+  "Rate": 20483.824,
+  "Units": 19553.025999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldType": "System.Int32",
+      "FieldLength": 554
     }
   }
 }

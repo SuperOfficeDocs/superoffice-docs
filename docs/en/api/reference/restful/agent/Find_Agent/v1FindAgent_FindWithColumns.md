@@ -73,8 +73,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,26 +82,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolorum",
-  "ProviderName": "Heidenreich-Kuhn",
-  "StorageKey": "eum",
+  "StorageType": "ut",
+  "ProviderName": "Leffler LLC",
+  "StorageKey": "quibusdam",
   "DesiredColumns": [
-    "vel",
-    "et"
+    "nobis",
+    "molestias"
   ],
-  "PageSize": 519,
-  "PageNumber": 553,
+  "PageSize": 7,
+  "PageNumber": 238,
   "OrderBy": [
     {
-      "Name": "Emmerich-Senger",
+      "Name": "Hagenes Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Emmerich-Senger",
+      "Name": "Hagenes Group",
       "Direction": "ASC"
     }
   ]
@@ -117,51 +117,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Dickinson, Macejkovic and Konopelski",
+      "DisplayName": "Zulauf, Roob and Buckridge",
       "DisplayTooltip": "qui",
-      "DisplayType": "iure",
+      "DisplayType": "ea",
       "CanOrderBy": true,
-      "Name": "Champlin-Corkery",
+      "Name": "Keebler Group",
       "CanRestrictBy": false,
-      "RestrictionType": "repellendus",
-      "RestrictionListName": "Maggio Group",
-      "IsVisible": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Murazik Group",
+      "IsVisible": true,
       "ExtraInfo": "quo",
-      "Width": "iure",
-      "IconHint": "qui",
-      "HeadingIconHint": "excepturi"
+      "Width": "ut",
+      "IconHint": "magni",
+      "HeadingIconHint": "quasi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Runolfsdottir LLC",
-      "PrimaryKey": 88,
+      "EntityName": "Schinner Inc and Sons",
+      "PrimaryKey": 470,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "natus",
-          "TooltipHint": "dolore",
-          "LinkHint": "deleniti"
+          "DisplayValue": "sed",
+          "TooltipHint": "laborum",
+          "LinkHint": "earum"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "quaerat",
+      "LinkHint": "at",
+      "StyleHint": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 107
         }
       }
     }
   ],
-  "RowCount": 293,
+  "RowCount": 656,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   }
 }

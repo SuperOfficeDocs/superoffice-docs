@@ -76,32 +76,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 788,
-  "LabelLayoutId": 116,
-  "Filename": "et",
-  "Language": "iusto",
-  "FileType": "quibusdam",
+  "ReportId": 575,
+  "LabelLayoutId": 527,
+  "Filename": "omnis",
+  "Language": "sint",
+  "FileType": "est",
   "Restrictions": [
     {
-      "Name": "Nolan Group",
-      "Operator": "aut",
+      "Name": "Vandervort, Moore and Hane",
+      "Operator": "nostrum",
       "Values": [
-        "est",
-        "saepe"
+        "minus",
+        "quasi"
       ],
       "DisplayValues": [
-        "quis",
-        "non"
+        "similique",
+        "in"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 71,
+      "InterParenthesis": 865,
       "InterOperator": "And",
-      "UniqueHash": 528
+      "UniqueHash": 434
     }
   ]
 }
@@ -113,5 +113,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"porro"
+"ut"
 ```

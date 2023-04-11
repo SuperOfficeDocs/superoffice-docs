@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "quam"
+  "MimeMessage": "id"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 482,
-      "ContactName": "Gulgowski-Terry",
-      "PersonId": 55,
-      "PersonName": "Abbott-Bernier",
-      "AssociateId": 790,
-      "Address": "autem",
-      "EmailId": 408,
+      "ContactId": 58,
+      "ContactName": "Auer-Tremblay",
+      "PersonId": 877,
+      "PersonName": "Lindgren Inc and Sons",
+      "AssociateId": 969,
+      "Address": "eos",
+      "EmailId": 261,
       "DuplicatePersonIds": [
-        136,
-        109
+        627,
+        784
       ],
-      "Name": "Renner-Stoltenberg",
+      "Name": "Wolff-Stanton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 392
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 335,
-      "ContactName": "Lakin-Bergnaum",
-      "PersonId": 447,
-      "PersonName": "Botsford-Yost",
-      "AssociateId": 288,
-      "Address": "ab",
-      "EmailId": 259,
+      "ContactId": 745,
+      "ContactName": "Casper-Kunde",
+      "PersonId": 133,
+      "PersonName": "Haley, Ullrich and Kunde",
+      "AssociateId": 704,
+      "Address": "facilis",
+      "EmailId": 41,
       "DuplicatePersonIds": [
-        60,
-        927
+        866,
+        557
       ],
-      "Name": "Bednar Group",
+      "Name": "Mosciski-Gusikowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 779
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 122,
-      "ContactName": "Armstrong Group",
-      "PersonId": 355,
-      "PersonName": "Larkin-Ruecker",
-      "AssociateId": 37,
-      "Address": "illo",
-      "EmailId": 285,
+      "ContactId": 91,
+      "ContactName": "Raynor-Prohaska",
+      "PersonId": 440,
+      "PersonName": "Emard Inc and Sons",
+      "AssociateId": 70,
+      "Address": "dolor",
+      "EmailId": 960,
       "DuplicatePersonIds": [
-        414,
-        327
+        615,
+        81
       ],
-      "Name": "Boehm Inc and Sons",
+      "Name": "Sanford Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 781
         }
       }
     }
   ],
-  "Subject": "velit",
-  "HTMLBody": "dolorum",
+  "Subject": "ut",
+  "HTMLBody": "in",
   "From": null,
-  "Sent": "2008-03-31T12:15:19.0467501+02:00",
-  "Size": 497,
+  "Sent": "1996-08-30T15:29:21.8107747+02:00",
+  "Size": 991,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "libero",
-  "PlainBody": "similique",
-  "IsSent": true,
+  "MessageID": "error",
+  "PlainBody": "eos",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 859,
+  "ServerId": 65,
   "Attachments": [
     {
-      "Description": "Multi-layered encompassing capability",
-      "Filename": "qui",
-      "Size": 656,
-      "Type": "dolores",
-      "Encoding": "quae",
-      "Id": "culpa",
-      "Disposition": "in",
+      "Description": "Secured 6th generation archive",
+      "Filename": "ut",
+      "Size": 97,
+      "Type": "fuga",
+      "Encoding": "repellat",
+      "Id": "doloribus",
+      "Disposition": "voluptas",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 664
+          "FieldType": "System.Int32",
+          "FieldLength": 508
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Becker-Schowalter",
+      "Name": "VonRueden-Schoen",
       "Values": [
-        "magnam",
-        "qui"
+        "quidem",
+        "voluptate"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     },
     {
-      "Name": "Becker-Schowalter",
+      "Name": "VonRueden-Schoen",
       "Values": [
-        "magnam",
-        "qui"
+        "quidem",
+        "voluptate"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldType": "System.String",
+          "FieldLength": 853
         }
       }
     }
   ],
-  "FolderName": "Bruen Group",
-  "EmailItemId": 464,
-  "AccountId": 723,
-  "ReceivedAt": "1999-08-16T12:15:19.0467501+02:00",
+  "FolderName": "Herman Group",
+  "EmailItemId": 834,
+  "AccountId": 797,
+  "ReceivedAt": "2021-07-04T15:29:21.8107747+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-12-23T12:15:19.0467501+01:00",
+  "RepliedAt": "2003-02-11T15:29:21.8112757+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldLength": 874
     }
   }
 }

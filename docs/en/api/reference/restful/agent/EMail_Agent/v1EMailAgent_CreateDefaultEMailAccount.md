@@ -59,8 +59,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 49,
-  "EMailAddress": "mollitia",
-  "AssociateId": 68,
+  "EMailAccountId": 169,
+  "EMailAddress": "saepe",
+  "AssociateId": 909,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 292,
-  "ErrorCount": 921,
+  "AccountStatus": 278,
+  "ErrorCount": 361,
   "ErrorReason": "",
-  "InboxFolder": "ea",
-  "SentFolder": "dignissimos",
+  "InboxFolder": "molestias",
+  "SentFolder": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 257
+      "FieldLength": 133
     }
   }
 }

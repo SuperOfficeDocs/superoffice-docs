@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 507,
+  "DocumentId": 371,
   "AllowedReturnTypes": [
-    "iure",
-    "est"
+    "qui",
+    "sit"
   ]
 }
 ```
@@ -97,17 +97,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Green Inc and Sons",
-    "DisplayName": "Mante LLC",
-    "DisplayTooltip": "pariatur",
-    "IconHint": "consequatur",
+    "Name": "Graham, Okuneva and Will",
+    "DisplayName": "Hoeger, West and Christiansen",
+    "DisplayTooltip": "earum",
+    "IconHint": "in",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Green Inc and Sons",
-    "DisplayName": "Mante LLC",
-    "DisplayTooltip": "pariatur",
-    "IconHint": "consequatur",
+    "Name": "Graham, Okuneva and Will",
+    "DisplayName": "Hoeger, West and Christiansen",
+    "DisplayTooltip": "earum",
+    "IconHint": "in",
     "ReturnType": "CustomGui"
   }
 ]

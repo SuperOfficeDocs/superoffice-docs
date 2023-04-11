@@ -27,7 +27,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=268
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=993
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -68,8 +68,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 34,
-  "Name": "McDermott-Morissette",
+  "ScreenChooserId": 387,
+  "Name": "Heathcote-Barton",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "qui",
-  "Source": "pariatur",
-  "Registered": "2002-10-17T12:15:18.6327575+02:00",
-  "RegisteredAssociateId": 142,
-  "Updated": "1996-08-14T12:15:18.6327575+02:00",
-  "UpdatedAssociateId": 229,
+  "Enabled": false,
+  "UniqueIdentifier": "consequuntur",
+  "Source": "necessitatibus",
+  "Registered": "2017-10-24T15:29:21.2597831+02:00",
+  "RegisteredAssociateId": 903,
+  "Updated": "2023-03-08T15:29:21.2597831+01:00",
+  "UpdatedAssociateId": 774,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 450
     }
   }
 }

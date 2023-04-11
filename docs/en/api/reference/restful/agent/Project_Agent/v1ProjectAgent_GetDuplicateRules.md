@@ -58,8 +58,8 @@ OK
 | DisplayName | string | Short name of rule to display to user |
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Project/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "D'Amore-Jacobs",
-    "DisplayName": "Yost, Nicolas and Reinger",
-    "DisplayTooltip": "inventore",
-    "IsActive": true,
+    "Name": "Pouros Group",
+    "DisplayName": "Becker LLC",
+    "DisplayTooltip": "voluptas",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 476
       }
     }
   },
   {
-    "Name": "D'Amore-Jacobs",
-    "DisplayName": "Yost, Nicolas and Reinger",
-    "DisplayTooltip": "inventore",
-    "IsActive": true,
+    "Name": "Pouros Group",
+    "DisplayName": "Becker LLC",
+    "DisplayTooltip": "voluptas",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 839
+        "FieldLength": 476
       }
     }
   }

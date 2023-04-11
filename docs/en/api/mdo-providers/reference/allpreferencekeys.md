@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "allpreferencekeys"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -51,7 +51,7 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |1000095|Use academic title||[SR_PD_Functions_NAME]|
-|1000495|Enable sounds|bold|[SR_PD_Visual_NAME]|
+|1000496|Enable sounds|bold|[SR_PD_Visual_NAME]|
 |1000149|Address separator|bold|[SR_PD_Mail_NAME]|
 |1000060|All-day end time|bold|[SR_PD_DiaryView_NAME]|
 |1000061|All-day start time|bold|[SR_PD_DiaryView_NAME]|
@@ -65,11 +65,11 @@ foreach (var item in listProvider.RootItems) {
 |1000156|Archive e-mail to associates||[SR_PD_Mail_NAME]|
 |1000097|Ask to edit or read||[SR_PD_Functions_NAME]|
 |1000157|Use iCalendar attachment||[SR_PD_Mail_NAME]|
-|1000364|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
-|1000397|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
+|1000365|Automatically close tab when adding a message to request||[SR_PD_request_NAME]|
+|1000398|Automatically create contact for new inbound request||[SR_PD_serviceSettings_NAME]|
 |1000098|Limit for auto-loading||[SR_PD_Functions_NAME]|
-|1000357|Autologout time||[SR_PD_PocketTasks_NAME]|
-|1000366|Automatically quote the last message||[SR_PD_request_NAME]|
+|1000358|Autologout time||[SR_PD_PocketTasks_NAME]|
+|1000367|Automatically quote the last message||[SR_PD_request_NAME]|
 |1000062|Diary autorefresh interval||[SR_PD_DiaryView_NAME]|
 
 

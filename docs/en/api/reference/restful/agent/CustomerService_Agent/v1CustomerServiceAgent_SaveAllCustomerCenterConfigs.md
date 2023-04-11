@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -63,20 +63,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 125,
+      "CustConfigId": 622,
       "Type": "Options",
-      "Config": "natus",
-      "CustLangId": 878,
-      "Registered": "2005-02-11T12:15:18.6417562+01:00",
-      "RegisteredAssociateId": 796,
-      "Updated": "2003-11-09T12:15:18.6417562+01:00",
-      "UpdatedAssociateId": 231
+      "Config": "laboriosam",
+      "CustLangId": 744,
+      "Registered": "2008-05-21T15:29:21.2682822+02:00",
+      "RegisteredAssociateId": 877,
+      "Updated": "2016-05-06T15:29:21.2682822+02:00",
+      "UpdatedAssociateId": 22
     }
   ]
 }

@@ -78,7 +78,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "IncludeItemCount": false
+  "IncludeItemCount": true
 }
 ```
 
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "eaque",
-  "sunt"
+  "animi",
+  "minima"
 ]
 ```

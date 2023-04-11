@@ -98,6 +98,7 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [RefreshFolder](RefreshFolder.md)
 * [RefreshFolderForAssociate](RefreshFolderForAssociate.md)
 * [RelayMessage](RelayMessage.md)
+* [ResolveEMailRecipients](ResolveEMailRecipients.md)
 * [Save](Save.md)
 * [SaveDraft](SaveDraft.md)
 * [SaveEMail](SaveEMail.md)

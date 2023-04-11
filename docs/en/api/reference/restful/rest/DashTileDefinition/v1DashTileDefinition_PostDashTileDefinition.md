@@ -101,8 +101,8 @@ OK
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -115,25 +115,25 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 998,
-  "Name": "Leffler, Gibson and Kub",
-  "Description": "Multi-tiered 24/7 encoding",
-  "DefaultHeight": 910,
-  "DefaultWidth": 806,
+  "DashboardTileDefinitionId": 255,
+  "Name": "Bins-Trantow",
+  "Description": "Triple-buffered full-range standardization",
+  "DefaultHeight": 632,
+  "DefaultWidth": 814,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gerlach Group",
-  "SelectionId": 633,
+  "EntityName": "Rohan, Ryan and Willms",
+  "SelectionId": 906,
   "CurrencyMode": "Base",
-  "CurrencyCode": "qui",
+  "CurrencyCode": "ut",
   "Measure": "Average",
-  "MeasureField": "possimus",
-  "SortBy": "et",
-  "LayoutConfig": "quas",
-  "SecondarySelectionId": 13,
-  "MeasureByField": "impedit",
+  "MeasureField": "provident",
+  "SortBy": "est",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 874,
+  "MeasureByField": "placeat",
   "Usage": "Dashboard",
-  "ProviderName": "Nienow-Monahan"
+  "ProviderName": "Upton, Schmitt and Walter"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 421,
-  "Name": "Conroy-Boyer",
-  "Description": "Operative system-worthy array",
-  "DefaultHeight": 887,
-  "DefaultWidth": 904,
+  "DashboardTileDefinitionId": 792,
+  "Name": "Cole Group",
+  "Description": "Reduced logistical framework",
+  "DefaultHeight": 349,
+  "DefaultWidth": 647,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Muller LLC",
-  "SelectionId": 580,
+  "EntityName": "Bode Inc and Sons",
+  "SelectionId": 691,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ex",
+  "CurrencyCode": "sequi",
   "Measure": "Average",
-  "MeasureField": "repellendus",
-  "SortBy": "dolor",
-  "LayoutConfig": "optio",
-  "SecondarySelectionId": 233,
-  "MeasureByField": "rerum",
+  "MeasureField": "distinctio",
+  "SortBy": "suscipit",
+  "LayoutConfig": "voluptatem",
+  "SecondarySelectionId": 345,
+  "MeasureByField": "voluptatem",
   "Usage": "Dashboard",
-  "ProviderName": "Hayes, Raynor and Tromp",
+  "ProviderName": "Thompson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 20
     }
   },
   "_Links": {

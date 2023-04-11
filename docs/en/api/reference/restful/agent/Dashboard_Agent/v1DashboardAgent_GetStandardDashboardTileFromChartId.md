@@ -76,8 +76,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "est"
+  "ChartId": "odio"
 }
 ```
 
@@ -100,64 +100,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 546,
-  "Caption": "impedit",
-  "Description": "Universal contextually-based matrix",
-  "ChartName": "Hagenes, Hintz and Thiel",
-  "ChartId": "et",
-  "IsDefault": true,
-  "AssociateId": 944,
-  "GroupId": 87,
-  "SelectionId": 896,
-  "Config": "possimus",
+  "DashboardTileId": 246,
+  "Caption": "velit",
+  "Description": "Polarised non-volatile installation",
+  "ChartName": "Weissnat-Green",
+  "ChartId": "id",
+  "IsDefault": false,
+  "AssociateId": 90,
+  "GroupId": 699,
+  "SelectionId": 975,
+  "Config": "sint",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kuhic-Robel",
-      "Description": "Multi-tiered stable capacity",
+      "Name": "Ortiz Inc and Sons",
+      "Description": "Self-enabling reciprocal throughput",
       "Type": "Boolean",
-      "ListName": "Tillman, Howell and Nienow",
+      "ListName": "Rice, Yost and Kunde",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "consequatur",
+      "Value": "doloremque",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 276
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 989,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 834
         }
       }
     },
     {
-      "VisibleId": 989,
+      "VisibleId": 705,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 834
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldType": "System.Int32",
+      "FieldLength": 990
     }
   }
 }

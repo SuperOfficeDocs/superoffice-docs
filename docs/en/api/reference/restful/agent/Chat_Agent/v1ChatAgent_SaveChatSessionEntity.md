@@ -113,8 +113,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -122,33 +122,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 250,
-  "TopicId": 868,
+  "ChatSessionId": 100,
+  "TopicId": 797,
   "User": null,
   "Person": null,
-  "CustomerAlias": "accusamus",
-  "CustomerHost": "tempora",
-  "CustomerName": "Champlin-Monahan",
-  "CustomerEmail": "annabel@hackett.ca",
-  "CustomerPhone": "(661)521-9182",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Welch Inc and Sons",
+  "CustomerAlias": "occaecati",
+  "CustomerHost": "quo",
+  "CustomerName": "Hilpert-Carroll",
+  "CustomerEmail": "eliseo@cormier.com",
+  "CustomerPhone": "658-896-1032 x5279",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Pagac-Pfannerstill",
   "Status": "Closed",
-  "FirstMessage": "earum",
-  "LastMessage": "ut",
-  "WhenRequested": "2019-07-31T12:15:18.2587647+02:00",
-  "WhenStarted": "2008-01-19T12:15:18.2587647+01:00",
-  "WhenEnded": "2006-04-10T12:15:18.2587647+02:00",
-  "WhenIdle": "2021-08-09T12:15:18.2587647+02:00",
-  "WhenFetched": "2015-12-25T12:15:18.2587647+01:00",
-  "SessionKey": "temporibus",
-  "InitialQueuePos": 883,
-  "AlertLevel": 306,
-  "Rank": 274,
+  "FirstMessage": "id",
+  "LastMessage": "velit",
+  "WhenRequested": "2017-11-09T15:29:20.8763216+01:00",
+  "WhenStarted": "1996-03-16T15:29:20.8763216+01:00",
+  "WhenEnded": "1999-05-27T15:29:20.8763216+02:00",
+  "WhenIdle": "2001-12-15T15:29:20.8763216+01:00",
+  "WhenFetched": "2009-03-27T15:29:20.8763216+01:00",
+  "SessionKey": "esse",
+  "InitialQueuePos": 261,
+  "AlertLevel": 86,
+  "Rank": 204,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 773
+  "Rating": 247
 }
 ```
 
@@ -167,29 +167,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 648,
-  "TopicId": 561,
+  "ChatSessionId": 587,
+  "TopicId": 950,
   "User": null,
   "Person": null,
-  "CustomerAlias": "beatae",
-  "CustomerHost": "rerum",
-  "CustomerName": "Metz-Hessel",
-  "CustomerEmail": "anastasia@marquardt.biz",
-  "CustomerPhone": "518-557-7361 x8746",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schoen-Heller",
+  "CustomerAlias": "doloribus",
+  "CustomerHost": "eum",
+  "CustomerName": "Glover-Roob",
+  "CustomerEmail": "jeanie@gusikowski.us",
+  "CustomerPhone": "235.423.5313",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "VonRueden-Hirthe",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "accusamus",
-  "WhenRequested": "2009-10-14T12:15:18.2687615+02:00",
-  "WhenStarted": "2006-12-27T12:15:18.2687615+01:00",
-  "WhenEnded": "2021-07-29T12:15:18.2687615+02:00",
-  "WhenIdle": "2018-10-08T12:15:18.2687615+02:00",
-  "WhenFetched": "2011-08-10T12:15:18.2687615+02:00",
-  "SessionKey": "tempore",
-  "InitialQueuePos": 490,
-  "AlertLevel": 811,
-  "Rank": 233,
+  "FirstMessage": "similique",
+  "LastMessage": "facere",
+  "WhenRequested": "2008-02-19T15:29:20.8873224+01:00",
+  "WhenStarted": "2018-01-21T15:29:20.8873224+01:00",
+  "WhenEnded": "2015-11-14T15:29:20.8873224+01:00",
+  "WhenIdle": "1999-07-28T15:29:20.8873224+02:00",
+  "WhenFetched": "2011-12-18T15:29:20.8873224+01:00",
+  "SessionKey": "veritatis",
+  "InitialQueuePos": 920,
+  "AlertLevel": 492,
+  "Rank": 473,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -197,13 +197,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 349,
+  "Rating": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldLength": 969
     }
   }
 }

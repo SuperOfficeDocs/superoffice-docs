@@ -52,8 +52,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 804,
-    "Name": "Cartwright, Lockman and Thompson",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 734,
-    "UdListDefinitionId": 249,
+    "HeadingId": 226,
+    "Name": "Smith-Wyman",
+    "Tooltip": "nesciunt",
+    "Deleted": false,
+    "Rank": 559,
+    "UdListDefinitionId": 492,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 842
       }
     }
   }

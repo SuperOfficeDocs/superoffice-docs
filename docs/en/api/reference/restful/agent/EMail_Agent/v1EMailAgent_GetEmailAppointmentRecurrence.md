@@ -60,22 +60,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RecurrenceId | int32 |  |
-| StartDate | date-time |  |
-| EndDate | date-time |  |
-| RecurrenceCounter | int32 |  |
-| RecurrenceEndType | string |  |
-| Pattern | string |  |
-| DayPattern | TableRight |  |
-| WeekPattern | TableRight |  |
-| MonthPattern | TableRight |  |
-| YearPattern | TableRight |  |
-| Dates | array |  |
-| IsRecurrence | bool |  |
+| RecurrenceId | int32 | The recurrence rule id |
+| StartDate | date-time | Start date of the repetition pattern |
+| EndDate | date-time | End date of the repetition pattern Only used when the end is calculated from a end date. {SuperOffice.Data.RecurrenceEndType.EndDate} |
+| RecurrenceCounter | int32 | Number of recurrences Only used when the end is calculated from a number of repetitions. {SuperOffice.Data.RecurrenceEndType.Counter} |
+| RecurrenceEndType | string | Type defining how the end of the recurrence sequence should be calculated |
+| Pattern | string | The recurrence pattern (Daily, Weekly, Monthly, Yearly, Custom) |
+| DayPattern | RecurrenceDayPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i daily. {SuperOffice.Data.RecurrencePattern.Daily} |
+| WeekPattern | RecurrenceWeekPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i weekly. {SuperOffice.Data.RecurrencePattern.Weekly} |
+| MonthPattern | RecurrenceMonthPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i monthly. {SuperOffice.Data.RecurrencePattern.Monthly} |
+| YearPattern | RecurrenceYearPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i yearly. {SuperOffice.Data.RecurrencePattern.Yearly} |
+| Dates | array | List of all dates where this recurrence occurs |
+| IsRecurrence | bool | Get a or set IsRecurrence, indicating if this is a repeating appointment or not. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 473
+  "MailItemId": 171
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 671,
-  "StartDate": "2018-06-06T12:15:18.9517514+02:00",
-  "EndDate": "2005-05-16T12:15:18.9517514+02:00",
-  "RecurrenceCounter": 525,
+  "RecurrenceId": 777,
+  "StartDate": "2001-08-19T15:29:21.7197768+02:00",
+  "EndDate": "2015-02-02T15:29:21.7197768+01:00",
+  "RecurrenceCounter": 644,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2004-02-04T12:15:18.9517514+01:00",
-      "IsConflict": false,
-      "Description": "Intuitive secondary installation",
-      "DescriptionStyleHint": "Extended 24 hour portal",
-      "Tooltip": "minima"
+      "Date": "2005-05-09T15:29:21.7197768+02:00",
+      "IsConflict": true,
+      "Description": "Distributed zero tolerance access",
+      "DescriptionStyleHint": "Self-enabling disintermediate portal",
+      "Tooltip": "et"
     },
     {
-      "Date": "2004-02-04T12:15:18.9517514+01:00",
-      "IsConflict": false,
-      "Description": "Intuitive secondary installation",
-      "DescriptionStyleHint": "Extended 24 hour portal",
-      "Tooltip": "minima"
+      "Date": "2005-05-09T15:29:21.7197768+02:00",
+      "IsConflict": true,
+      "Description": "Distributed zero tolerance access",
+      "DescriptionStyleHint": "Self-enabling disintermediate portal",
+      "Tooltip": "et"
     }
   ],
   "IsRecurrence": false

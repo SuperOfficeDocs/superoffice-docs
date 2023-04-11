@@ -80,8 +80,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 894,
-    "ColumnId": 86,
-    "FieldDefault": "molestias",
-    "FieldHeight": 734,
-    "FieldLabel": "ut",
-    "FieldLeft": 268,
-    "FieldTop": 68,
+    "UDefFieldId": 766,
+    "ColumnId": 750,
+    "FieldDefault": "cupiditate",
+    "FieldHeight": 431,
+    "FieldLabel": "iure",
+    "FieldLeft": 440,
+    "FieldTop": 189,
     "FieldType": "Checkbox",
-    "FieldWidth": 675,
-    "FormatMask": "sit",
-    "HideLabel": false,
+    "FieldWidth": 898,
+    "FormatMask": "ad",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 82,
-    "LabelLeft": 145,
-    "LabelTop": 932,
-    "LabelWidth": 612,
-    "LastVersionId": 36,
-    "ListTableId": 561,
-    "IsMandatory": true,
+    "LabelHeight": 234,
+    "LabelLeft": 893,
+    "LabelTop": 743,
+    "LabelWidth": 479,
+    "LastVersionId": 237,
+    "ListTableId": 566,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 942,
-    "ProgId": "sit",
-    "IsReadOnly": true,
-    "ShortLabel": "dolores",
-    "TabOrder": 468,
-    "TextLength": 715,
-    "Tooltip": "quia",
-    "UdefIdentity": 42,
-    "UDListDefinitionId": 758,
+    "Page1LineNo": 799,
+    "ProgId": "dolores",
+    "IsReadOnly": false,
+    "ShortLabel": "unde",
+    "TabOrder": 570,
+    "TextLength": 775,
+    "Tooltip": "quis",
+    "UdefIdentity": 919,
+    "UDListDefinitionId": 702,
     "Justification": "Center",
-    "Version": 808,
-    "TemplateVariableName": "Rolfson-Predovic",
+    "Version": 576,
+    "TemplateVariableName": "Kuhlman LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Mayer Group",
+    "MdoListName": "Carroll LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 970
       }
     }
   }

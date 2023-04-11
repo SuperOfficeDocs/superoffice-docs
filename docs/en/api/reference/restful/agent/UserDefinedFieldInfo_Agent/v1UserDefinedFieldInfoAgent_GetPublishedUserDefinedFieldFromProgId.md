@@ -99,8 +99,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "dolores",
+  "ProgId": "quas",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 359,
-  "ColumnId": 376,
-  "FieldDefault": "maiores",
-  "FieldHeight": 765,
-  "FieldLabel": "autem",
-  "FieldLeft": 351,
-  "FieldTop": 818,
+  "UDefFieldId": 333,
+  "ColumnId": 504,
+  "FieldDefault": "velit",
+  "FieldHeight": 185,
+  "FieldLabel": "ipsa",
+  "FieldLeft": 666,
+  "FieldTop": 75,
   "FieldType": "Checkbox",
-  "FieldWidth": 789,
-  "FormatMask": "nihil",
+  "FieldWidth": 295,
+  "FormatMask": "molestiae",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 956,
-  "LabelLeft": 307,
-  "LabelTop": 932,
-  "LabelWidth": 905,
-  "LastVersionId": 96,
-  "ListTableId": 482,
+  "IsIndexed": true,
+  "LabelHeight": 838,
+  "LabelLeft": 12,
+  "LabelTop": 198,
+  "LabelWidth": 800,
+  "LastVersionId": 104,
+  "ListTableId": 318,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 853,
-  "ProgId": "aut",
-  "IsReadOnly": false,
-  "ShortLabel": "ab",
-  "TabOrder": 590,
-  "TextLength": 991,
-  "Tooltip": "quae",
-  "UdefIdentity": 890,
-  "UDListDefinitionId": 626,
+  "Page1LineNo": 175,
+  "ProgId": "quia",
+  "IsReadOnly": true,
+  "ShortLabel": "adipisci",
+  "TabOrder": 908,
+  "TextLength": 11,
+  "Tooltip": "odio",
+  "UdefIdentity": 492,
+  "UDListDefinitionId": 904,
   "Justification": "Center",
-  "Version": 20,
-  "TemplateVariableName": "Berge, Schuster and Metz",
+  "Version": 458,
+  "TemplateVariableName": "Treutel, Langosh and Corkery",
   "HasBeenPublished": false,
-  "MdoListName": "Beahan, Runolfsson and Auer",
+  "MdoListName": "Metz-Fay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldType": "System.String",
+      "FieldLength": 267
     }
   }
 }

@@ -80,8 +80,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 281,
-    "ColumnId": 488,
-    "FieldDefault": "voluptas",
-    "FieldHeight": 445,
-    "FieldLabel": "eos",
-    "FieldLeft": 502,
-    "FieldTop": 871,
+    "UDefFieldId": 411,
+    "ColumnId": 210,
+    "FieldDefault": "laborum",
+    "FieldHeight": 271,
+    "FieldLabel": "veritatis",
+    "FieldLeft": 683,
+    "FieldTop": 756,
     "FieldType": "Checkbox",
-    "FieldWidth": 729,
-    "FormatMask": "expedita",
+    "FieldWidth": 83,
+    "FormatMask": "et",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 449,
-    "LabelLeft": 928,
-    "LabelTop": 713,
-    "LabelWidth": 217,
-    "LastVersionId": 914,
-    "ListTableId": 470,
-    "IsMandatory": false,
+    "LabelHeight": 509,
+    "LabelLeft": 998,
+    "LabelTop": 579,
+    "LabelWidth": 730,
+    "LastVersionId": 886,
+    "ListTableId": 664,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 136,
-    "ProgId": "ex",
-    "IsReadOnly": false,
-    "ShortLabel": "vitae",
-    "TabOrder": 244,
-    "TextLength": 637,
-    "Tooltip": "distinctio",
-    "UdefIdentity": 1000,
-    "UDListDefinitionId": 31,
+    "Page1LineNo": 641,
+    "ProgId": "odit",
+    "IsReadOnly": true,
+    "ShortLabel": "dignissimos",
+    "TabOrder": 878,
+    "TextLength": 663,
+    "Tooltip": "cumque",
+    "UdefIdentity": 75,
+    "UDListDefinitionId": 900,
     "Justification": "Center",
-    "Version": 529,
-    "TemplateVariableName": "Smith LLC",
-    "HasBeenPublished": true,
-    "MdoListName": "Schowalter, Metz and Marvin",
+    "Version": 952,
+    "TemplateVariableName": "Funk-Jast",
+    "HasBeenPublished": false,
+    "MdoListName": "Heaney LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 212
       }
     }
   }

@@ -67,8 +67,8 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,33 +87,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 263,
-    "Name": "Anderson, Larson and Anderson",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 376,
+    "WebPanelId": 751,
+    "Name": "Kshlerin Inc and Sons",
+    "Tooltip": "eaque",
+    "Deleted": true,
+    "Rank": 4,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
-    "OnSatellite": true,
-    "OnTravel": false,
+    "OnSatellite": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Gerlach-Schowalter",
+    "ShowInToolBar": true,
+    "ShowInAddressBar": true,
+    "ShowInStatusBar": true,
+    "WindowName": "Gislason LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "enim",
-    "Icon": 235,
+    "ProgId": "ducimus",
+    "Icon": 632,
     "AlwaysReloadOnShow": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 26
       }
     }
   }

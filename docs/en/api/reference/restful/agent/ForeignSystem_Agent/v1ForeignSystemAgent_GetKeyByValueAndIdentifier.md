@@ -75,8 +75,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,16 +84,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jerde-Langworth",
-  "DeviceName": "Hane, Mitchell and Gusikowski",
-  "DeviceIdentifier": "aut",
-  "KeyName": "Predovic-Leffler",
-  "KeyValue": "explicabo",
-  "TableName": "Johnston, Rodriguez and Nitzsche"
+  "ApplicationName": "Turcotte, Baumbach and Franecki",
+  "DeviceName": "Gerlach, Reichert and Reichel",
+  "DeviceIdentifier": "quaerat",
+  "KeyName": "Erdman LLC",
+  "KeyValue": "quia",
+  "TableName": "Swaniawski-Breitenberg"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "labore",
-  "Value": "adipisci",
-  "RecordId": 334,
-  "CreatedDate": "2015-06-12T12:15:19.1657483+02:00",
-  "UpdatedDate": "2022-09-15T12:15:19.1657483+02:00",
-  "UpdatedBy": "impedit",
-  "CreatedBy": "neque",
-  "TableName": "Lehner-McGlynn",
+  "Key": "consectetur",
+  "Value": "facere",
+  "RecordId": 88,
+  "CreatedDate": "2003-06-30T15:29:21.9253117+02:00",
+  "UpdatedDate": "1997-07-21T15:29:21.9253117+02:00",
+  "UpdatedBy": "recusandae",
+  "CreatedBy": "soluta",
+  "TableName": "Hilll-Turner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

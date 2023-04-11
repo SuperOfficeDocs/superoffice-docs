@@ -29,8 +29,8 @@ Send a message to recipients by sms
 | replyTemplateId | int32 |  Optional ID of reply template to merge message with. &lt;= 0 to skip. |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=ut,iste
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=646
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?sms=accusantium,saepe
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/SendSms?replyTemplateId=347
 ```
 
 
@@ -52,7 +52,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

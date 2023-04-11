@@ -75,8 +75,8 @@ OK
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -85,15 +85,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 139,
-  "PrefDescId": 714,
-  "PrefValue": "fuga",
-  "PrefShowValue": "ut",
-  "Description": "Progressive disintermediate customer loyalty",
+  "PrefDescLineId": 864,
+  "PrefDescId": 89,
+  "PrefValue": "ut",
+  "PrefShowValue": "velit",
+  "Description": "Expanded full-range contingency",
   "IsBuiltin": false
 }
 ```
@@ -105,18 +105,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 284,
-  "PrefDescId": 788,
-  "PrefValue": "blanditiis",
-  "PrefShowValue": "aut",
-  "Description": "Future-proofed human-resource throughput",
+  "PrefDescLineId": 188,
+  "PrefDescId": 57,
+  "PrefValue": "ex",
+  "PrefShowValue": "ut",
+  "Description": "Proactive client-driven ability",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldLength": 324
     }
   },
   "_Links": {

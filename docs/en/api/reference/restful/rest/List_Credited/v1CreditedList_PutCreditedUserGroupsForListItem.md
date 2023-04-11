@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Gislason-Hilll",
-    "ToolTip": "Nisi doloremque doloribus sunt in sed.",
-    "Deleted": true,
-    "Rank": 873,
-    "Type": "distinctio",
-    "ColorBlock": 355,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2018-09-03T12:15:28.0616221+02:00",
+    "Id": 675,
+    "Name": "Hettinger LLC",
+    "ToolTip": "Ex facere.",
+    "Deleted": false,
+    "Rank": 682,
+    "Type": "totam",
+    "ColorBlock": 35,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "1996-07-13T15:29:31.190482+02:00",
     "ChildItems": [
       {
-        "Id": 688,
-        "Name": "Greenfelder, Koch and Kulas",
-        "ToolTip": "Quo qui quis.",
+        "Id": 303,
+        "Name": "Kutch LLC",
+        "ToolTip": "Beatae quam velit.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "quasi",
-        "ColorBlock": 832,
-        "IconHint": "suscipit",
+        "Rank": 679,
+        "Type": "quis",
+        "ColorBlock": 443,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2011-12-20T12:15:28.0616221+01:00",
+        "LastChanged": "2013-12-21T15:29:31.190482+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Lenore Wilderman III"
+        "ExtraInfo": "eaque",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Dr. Helmer Windler DVM"
       }
     ],
-    "ExtraInfo": "cumque",
+    "ExtraInfo": "molestias",
     "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Anne Kreiger"
+    "Hidden": true,
+    "FullName": "Dr. Albert Ledner PhD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Blick-Stroman",
-    "ToolTip": "Voluptas non excepturi.",
+    "Id": 813,
+    "Name": "Hessel-Smith",
+    "ToolTip": "Nulla voluptatem molestiae nobis amet architecto est.",
     "Deleted": false,
-    "Rank": 105,
-    "Type": "vero",
-    "ColorBlock": 233,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2018-08-28T12:15:28.0646199+02:00",
+    "Rank": 576,
+    "Type": "itaque",
+    "ColorBlock": 11,
+    "IconHint": "tempora",
+    "Selected": false,
+    "LastChanged": "2003-10-08T15:29:31.1924823+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Howe, Lueilwitz and Witting",
-        "ToolTip": "Aut molestias reprehenderit maiores aut reiciendis sequi quis.",
+        "Id": 179,
+        "Name": "Langosh, Bins and Gutkowski",
+        "ToolTip": "Accusamus corrupti numquam.",
         "Deleted": false,
-        "Rank": 474,
-        "Type": "molestias",
-        "ColorBlock": 196,
-        "IconHint": "sequi",
+        "Rank": 256,
+        "Type": "qui",
+        "ColorBlock": 487,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2012-05-14T12:15:28.0676195+02:00",
+        "LastChanged": "1996-08-29T15:29:31.1929801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Willis Selmer King Jr.",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Lilly Alford Bradtke MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldType": "System.String",
+            "FieldLength": 618
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Sidney Streich",
+    "ExtraInfo": "qui",
+    "StyleHint": "quis",
+    "Hidden": true,
+    "FullName": "Travon Ferne Miller MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 226
       }
     }
   }

@@ -127,8 +127,8 @@ ChatTopicEntity  updated.
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -137,18 +137,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "labore",
+    "path": "facilis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "labore",
+    "path": "facilis",
     "value": {}
   }
 ]
@@ -161,43 +161,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 445,
-  "Name": "Sipes Inc and Sons",
-  "Description": "Enhanced high-level moderator",
-  "WelcomeMessage": "animi",
+  "ChatTopicId": 268,
+  "Name": "Stehr, Hoeger and Crooks",
+  "Description": "Optional 24/7 portal",
+  "WelcomeMessage": "beatae",
   "Language": null,
-  "LastAccept": "2018-05-09T12:15:26.5306417+02:00",
-  "SecondsPrAccept": 652,
-  "AlertRecipient": "in",
+  "LastAccept": "1996-08-31T15:29:29.4377032+02:00",
+  "SecondsPrAccept": 432,
+  "AlertRecipient": "atque",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ipsa",
+  "CollectConsent": true,
+  "BadgeHeader": "sunt",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "autem",
-  "WarnNewChatMinutes": 128,
-  "WarnManagerNewChatMinutes": 929,
+  "CustomQueueText": "iusto",
+  "WarnNewChatMinutes": 551,
+  "WarnManagerNewChatMinutes": 460,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 30,
-  "WarnManagerChatMessageMinutes": 380,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 709,
-  "OfflineFormQueueLength": 44,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 311,
+  "WarnManagerChatMessageMinutes": 986,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 311,
+  "OfflineFormQueueLength": 575,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "quis",
+  "WidgetRatingText": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   },
   "_Links": {

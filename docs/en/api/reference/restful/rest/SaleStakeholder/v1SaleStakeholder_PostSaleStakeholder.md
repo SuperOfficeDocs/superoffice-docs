@@ -101,8 +101,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -111,29 +111,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Schinner, Koss and Dach",
-  "Comment": "aut",
-  "StakeholderRoleId": 836,
-  "CountryId": 342,
-  "PersonId": 41,
-  "EmailDescription": "jo_toy@goldner.name",
-  "EmailId": 385,
-  "EmailAddress": "dina@hegmann.us",
-  "PhoneId": 875,
-  "ContactName": "Lesch-Ratke",
-  "ContactId": 861,
-  "SaleId": 468,
-  "Mrmrs": "in",
-  "Firstname": "Rodrigo",
-  "MiddleName": "Quigley LLC",
-  "Lastname": "Reilly",
-  "SaleStakeholderId": 113,
-  "Rank": 568,
-  "Phone": "1-591-505-7703 x3626"
+  "StakeholderRoleName": "Wehner, Schaefer and Legros",
+  "Comment": "qui",
+  "StakeholderRoleId": 884,
+  "CountryId": 371,
+  "PersonId": 506,
+  "EmailDescription": "linwood@klingbashirian.info",
+  "EmailId": 361,
+  "EmailAddress": "gus_klocko@bashirianlangworth.co.uk",
+  "PhoneId": 246,
+  "ContactName": "Labadie-Walker",
+  "ContactId": 459,
+  "SaleId": 994,
+  "Mrmrs": "ab",
+  "Firstname": "Raoul",
+  "MiddleName": "Larkin Inc and Sons",
+  "Lastname": "Mann",
+  "SaleStakeholderId": 679,
+  "Rank": 431,
+  "Phone": "(281)755-7199"
 }
 ```
 
@@ -144,31 +144,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kub-Collier",
-  "Comment": "natus",
-  "StakeholderRoleId": 38,
-  "CountryId": 63,
-  "PersonId": 733,
-  "EmailDescription": "lyda@brakus.biz",
-  "EmailId": 930,
-  "EmailAddress": "lupe@jacobs.biz",
-  "PhoneId": 130,
-  "ContactName": "Emard-Willms",
-  "ContactId": 554,
-  "SaleId": 208,
-  "Mrmrs": "in",
-  "Firstname": "Arlie",
-  "MiddleName": "Kiehn Inc and Sons",
-  "Lastname": "Reilly",
-  "SaleStakeholderId": 450,
-  "Rank": 955,
-  "Phone": "(844)371-0199 x5613",
+  "StakeholderRoleName": "Hickle-Prosacco",
+  "Comment": "ut",
+  "StakeholderRoleId": 915,
+  "CountryId": 699,
+  "PersonId": 703,
+  "EmailDescription": "brooks.wiegand@harris.ca",
+  "EmailId": 148,
+  "EmailAddress": "destiney.barton@feeney.com",
+  "PhoneId": 87,
+  "ContactName": "Streich, Wiegand and Hickle",
+  "ContactId": 107,
+  "SaleId": 89,
+  "Mrmrs": "saepe",
+  "Firstname": "Carolanne",
+  "MiddleName": "Stiedemann, Johns and Dicki",
+  "Lastname": "Wisozk",
+  "SaleStakeholderId": 229,
+  "Rank": 189,
+  "Phone": "271.769.3345 x10003",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 781
+      "FieldLength": 438
     }
   },
   "_Links": {

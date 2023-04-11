@@ -17,6 +17,8 @@ title: Diagnostics_Agent
 
 * [POST Agents/Diagnostics/GetCacheState](v1DiagnosticsAgent_GetCacheState.md)
 
+* [POST Agents/Diagnostics/GetEntityCountsForCurrentUser](v1DiagnosticsAgent_GetEntityCountsForCurrentUser.md)
+
 * [POST Agents/Diagnostics/LogViewState](v1DiagnosticsAgent_LogViewState.md)
 
 * [POST Agents/Diagnostics/ChangeLogSettings](v1DiagnosticsAgent_ChangeLogSettings.md)

@@ -67,8 +67,8 @@ OK
 | EntryName | string | Name of duplicate entry |
 | EntryIdentifier | string | String identifier for entry. Typically used to identify an entry in an external system. |
 | RuleDisplayName | string | Short name of rule to display to user |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rogahn, Borer and Oberbrunner"
+  "Name": "Beer, Hessel and Nolan"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Lueilwitz, Klocko and Steuber",
-    "SoPrimaryKey": 703,
-    "EntryName": "Macejkovic, Miller and Marquardt",
-    "EntryIdentifier": "repudiandae",
-    "RuleDisplayName": "Dare-Heidenreich",
+    "RuleName": "Stokes-Williamson",
+    "SoPrimaryKey": 751,
+    "EntryName": "Strosin-Crist",
+    "EntryIdentifier": "doloremque",
+    "RuleDisplayName": "Koelpin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldType": "System.Int32",
+        "FieldLength": 906
       }
     }
   }

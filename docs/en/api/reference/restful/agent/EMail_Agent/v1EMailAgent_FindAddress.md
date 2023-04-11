@@ -73,8 +73,8 @@ OK
 | EmailId | int32 | Primary key |
 | DuplicatePersonIds | array | All persons with this EmailAddress stored in db is listed here |
 | Name | string | The name on the email address |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/EMail/FindAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Address": "aperiam"
+  "Address": "ut"
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 857,
-    "ContactName": "Hammes-Lindgren",
-    "PersonId": 616,
-    "PersonName": "Fisher, Wilkinson and Nader",
-    "AssociateId": 811,
-    "Address": "deserunt",
-    "EmailId": 45,
+    "ContactId": 868,
+    "ContactName": "Lang-Feil",
+    "PersonId": 134,
+    "PersonName": "Willms LLC",
+    "AssociateId": 256,
+    "Address": "ea",
+    "EmailId": 107,
     "DuplicatePersonIds": [
-      4,
-      349
+      242,
+      337
     ],
-    "Name": "Nicolas-Hartmann",
+    "Name": "Mosciski LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 186
       }
     }
   }

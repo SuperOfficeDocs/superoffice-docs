@@ -72,8 +72,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Robel, Doyle and McKenzie"
+  "ApplicationName": "Hand, Johns and Crist"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 842,
-  "Name": "Hane-McGlynn",
-  "CreatedDate": "2006-07-14T12:15:19.1677488+02:00",
-  "UpdatedDate": "2009-04-29T12:15:19.1677488+02:00",
-  "AssociateFullName": "Miss Dylan Kadin Gutmann V",
-  "CreatedBy": "ullam",
-  "UpdatedBy": "similique",
-  "DeviceIdentifier": "enim",
-  "ForeignAppId": 248,
+  "ForeignDeviceId": 942,
+  "Name": "Murray Inc and Sons",
+  "CreatedDate": "2013-06-17T15:29:21.9273122+02:00",
+  "UpdatedDate": "2021-07-01T15:29:21.9273122+02:00",
+  "AssociateFullName": "Nelle Keebler",
+  "CreatedBy": "est",
+  "UpdatedBy": "voluptatem",
+  "DeviceIdentifier": "nihil",
+  "ForeignAppId": 216,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldType": "System.String",
+      "FieldLength": 847
     }
   }
 }

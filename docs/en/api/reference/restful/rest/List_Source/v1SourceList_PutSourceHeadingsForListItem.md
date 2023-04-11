@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Deckow-Ritchie",
-    "ToolTip": "Blanditiis ut adipisci sequi quod.",
+    "Id": 16,
+    "Name": "Bernier-Crist",
+    "ToolTip": "Ad ipsa voluptatem.",
     "Deleted": false,
-    "Rank": 308,
-    "Type": "fugiat",
-    "ColorBlock": 14,
-    "IconHint": "tempore",
+    "Rank": 431,
+    "Type": "aut",
+    "ColorBlock": 878,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2003-01-14T12:15:28.5206137+01:00",
+    "LastChanged": "1999-01-28T15:29:31.630481+01:00",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Medhurst-Rice",
-        "ToolTip": "Fuga ipsum voluptate eum magni et in et.",
+        "Id": 300,
+        "Name": "Torphy LLC",
+        "ToolTip": "Numquam est unde et deserunt.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "mollitia",
-        "ColorBlock": 478,
-        "IconHint": "necessitatibus",
+        "Rank": 991,
+        "Type": "et",
+        "ColorBlock": 616,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2013-01-29T12:15:28.521613+01:00",
+        "LastChanged": "1996-02-18T15:29:31.630481+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "William Morar I"
+        "ExtraInfo": "sapiente",
+        "StyleHint": "vitae",
+        "Hidden": true,
+        "FullName": "Guillermo Kuhn"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Torrance Green"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "laborum",
+    "Hidden": true,
+    "FullName": "Rashawn Cassidy Russel IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Padberg, Boyle and Tremblay",
-    "ToolTip": "Qui et labore.",
-    "Deleted": true,
-    "Rank": 270,
-    "Type": "optio",
-    "ColorBlock": 396,
-    "IconHint": "est",
+    "Id": 655,
+    "Name": "Bergstrom, Kshlerin and O'Hara",
+    "ToolTip": "Dolore quos numquam voluptatem doloremque quia optio.",
+    "Deleted": false,
+    "Rank": 716,
+    "Type": "quis",
+    "ColorBlock": 954,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2019-01-01T12:15:28.5226131+01:00",
+    "LastChanged": "2010-10-26T15:29:31.6329734+02:00",
     "ChildItems": [
       {
-        "Id": 606,
-        "Name": "Mosciski, Quitzon and Steuber",
-        "ToolTip": "Est doloremque consectetur dolorem non.",
+        "Id": 814,
+        "Name": "Hauck-Cronin",
+        "ToolTip": "Ut placeat quas quia non aut porro.",
         "Deleted": false,
-        "Rank": 211,
-        "Type": "ut",
-        "ColorBlock": 357,
+        "Rank": 624,
+        "Type": "aut",
+        "ColorBlock": 293,
         "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2002-06-14T12:15:28.5226131+02:00",
+        "Selected": false,
+        "LastChanged": "2010-02-10T15:29:31.6329734+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "asperiores",
+        "ExtraInfo": "nihil",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Idell Nader",
+        "FullName": "Emmanuel Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 312
+            "FieldType": "System.Int32",
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "aut",
+    "StyleHint": "eos",
     "Hidden": true,
-    "FullName": "Mrs. Jake Hudson I",
+    "FullName": "Anita DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 63
       }
     }
   }

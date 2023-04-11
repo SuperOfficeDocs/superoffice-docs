@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 522,
-  "Name": "Christiansen Inc and Sons",
-  "Tooltip": "iste",
+  "Id": 109,
+  "Name": "Stark, Doyle and Kunde",
+  "Tooltip": "praesentium",
   "Deleted": true,
-  "Rank": 506,
+  "Rank": 93,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "saepe",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 477,
-  "Name": "Rau-Turner",
-  "Tooltip": "eveniet",
+  "Id": 756,
+  "Name": "Beier-Collier",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 51,
+  "Rank": 718,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aperiam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 601
+      "FieldLength": 2
     }
   }
 }

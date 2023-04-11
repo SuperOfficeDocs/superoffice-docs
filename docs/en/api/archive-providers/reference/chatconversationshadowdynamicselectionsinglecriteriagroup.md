@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationShadowDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -461,7 +461,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=associate/assocTooltip,person/personHasInterests,person/personUrl/URLAddress,person/personAssociate/ejStatus,contact/searchPhone/formattedNumber
+GET /api/v1/archive/ChatConversationShadowDynamicSelectionSingleCriteriaGroup?$select=queueLength,updatedDate,associate/ejStatus,contact/nameDepartment,contact/restrictionAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

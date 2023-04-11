@@ -76,8 +76,8 @@ OK
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 374,
-  "CopyToSaleId": 889
+  "CopyFromSaleId": 577,
+  "CopyToSaleId": 62
 }
 ```
 
@@ -101,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 819,
-  "SaleId": 718,
-  "QuoteConnectionId": 350,
-  "ERPQuoteKey": "ducimus",
-  "ERPOrderKey": "ut",
-  "ActiveQuoteVersionId": 275,
-  "AcceptedQuoteAlternativeId": 951,
-  "UseValuesFromQuote": 254,
-  "DocumentId": 564,
-  "PoNumber": "518177",
-  "OrderComment": "voluptatem",
-  "PreferredEmailCulture": "jennyfer_osinski@sengerblanda.ca",
+  "QuoteId": 825,
+  "SaleId": 122,
+  "QuoteConnectionId": 797,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "quod",
+  "ActiveQuoteVersionId": 455,
+  "AcceptedQuoteAlternativeId": 229,
+  "UseValuesFromQuote": 301,
+  "DocumentId": 618,
+  "PoNumber": "852626",
+  "OrderComment": "voluptates",
+  "PreferredEmailCulture": "emely@braunmraz.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 12,
-      "ERPQuoteVersionKey": "sunt",
-      "QuoteId": 548,
-      "Description": "Decentralized intermediate knowledge base",
-      "Number": "476196",
+      "QuoteVersionId": 537,
+      "ERPQuoteVersionKey": "voluptatem",
+      "QuoteId": 228,
+      "Description": "Re-contextualized 3rd generation hierarchy",
+      "Number": "866717",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 181,
-      "SentDate": "2000-09-06T12:15:19.9607055+02:00",
-      "FollowupId": 672,
-      "ExpirationDate": "2004-12-14T12:15:19.9607055+01:00",
-      "DeliveryCountryId": 48,
+      "LikelyQuoteAlternativeId": 238,
+      "SentDate": "2006-08-22T15:29:22.5872645+02:00",
+      "FollowupId": 560,
+      "ExpirationDate": "2007-10-02T15:29:22.5872645+02:00",
+      "DeliveryCountryId": 627,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 839,
+      "InvoiceCountryId": 609,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "vero",
-      "ERPPaymentTypeKey": "accusamus",
-      "ERPDeliveryTermsKey": "aut",
-      "ERPDeliveryTypeKey": "quidem",
-      "Rank": 643,
-      "ApprovedBy": 410,
-      "ApprovedText": "expedita",
-      "ApprovedRegisteredBy": 123,
-      "ApprovedRegisteredDate": "2021-11-19T12:15:19.9607055+01:00",
-      "ExtraField1": "quia",
-      "ExtraField2": "corporis",
-      "ExtraField3": "blanditiis",
-      "ExtraField4": "alias",
-      "ExtraField5": "architecto",
-      "LastRecalculated": "2004-06-14T12:15:19.9607055+02:00",
-      "Updated": "1998-09-04T12:15:19.9607055+02:00",
-      "UpdatedAssociateId": 229,
-      "Registered": "2006-12-22T12:15:19.9607055+01:00",
-      "RegisteredAssociateId": 89,
-      "RequestAssociateId": 201,
-      "RequestComment": "sunt",
+      "ERPPaymentTermsKey": "reiciendis",
+      "ERPPaymentTypeKey": "omnis",
+      "ERPDeliveryTermsKey": "eos",
+      "ERPDeliveryTypeKey": "et",
+      "Rank": 257,
+      "ApprovedBy": 347,
+      "ApprovedText": "rerum",
+      "ApprovedRegisteredBy": 543,
+      "ApprovedRegisteredDate": "2014-11-24T15:29:22.5872645+01:00",
+      "ExtraField1": "voluptas",
+      "ExtraField2": "aspernatur",
+      "ExtraField3": "sint",
+      "ExtraField4": "accusamus",
+      "ExtraField5": "omnis",
+      "LastRecalculated": "2000-10-24T15:29:22.5872645+02:00",
+      "Updated": "2015-10-21T15:29:22.5872645+02:00",
+      "UpdatedAssociateId": 567,
+      "Registered": "2001-09-01T15:29:22.5872645+02:00",
+      "RegisteredAssociateId": 404,
+      "RequestAssociateId": 439,
+      "RequestComment": "natus",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 458
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldLength": 92
     }
   }
 }

@@ -89,8 +89,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,14 +102,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 746,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2009-09-18T12:15:18.7297547+02:00",
-  "EndTime": "2013-09-17T12:15:18.7297547+02:00",
-  "Count": 894,
+  "PersonId": 749,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2008-06-27T15:29:21.49228+02:00",
+  "EndTime": "2007-06-06T15:29:21.49228+02:00",
+  "Count": 231,
   "DocumentTemplateIds": [
-    851,
-    833
+    714,
+    302
   ]
 }
 ```
@@ -122,32 +122,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 577,
-    "Attention": "molestiae",
-    "Header": "illo",
-    "Name": "Schulist Inc and Sons",
-    "OurRef": "autem",
-    "YourRef": "et",
-    "Description": "Upgradable full-range contingency",
-    "DocumentTemplate": "molestias",
+    "DocumentId": 270,
+    "Attention": "asperiores",
+    "Header": "voluptas",
+    "Name": "Bradtke LLC",
+    "OurRef": "quibusdam",
+    "YourRef": "delectus",
+    "Description": "Profit-focused disintermediate middleware",
+    "DocumentTemplate": "quas",
     "IsPublished": true,
-    "PersonId": 940,
-    "PersonFullName": "Jermey Cronin",
-    "AssociateFullName": "Enid Reichel",
-    "ContactId": 105,
-    "ContactName": "Wilkinson LLC",
-    "ProjectId": 709,
-    "ProjectName": "Schmeler-Huels",
-    "AssociateId": 808,
-    "Snum": 307,
-    "SaleId": 102,
-    "SaleName": "Considine-Will",
+    "PersonId": 777,
+    "PersonFullName": "Ms. Trevor Alfredo Luettgen II",
+    "AssociateFullName": "Mrs. Hilma VonRueden Sr.",
+    "ContactId": 133,
+    "ContactName": "Marquardt-Romaguera",
+    "ProjectId": 886,
+    "ProjectName": "Graham Group",
+    "AssociateId": 26,
+    "Snum": 83,
+    "SaleId": 833,
+    "SaleName": "Price-Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 298
       }
     }
   }

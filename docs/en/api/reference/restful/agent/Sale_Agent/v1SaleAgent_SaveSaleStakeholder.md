@@ -89,8 +89,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Becker-Lind",
-  "Comment": "ut",
-  "StakeholderRoleId": 733,
-  "CountryId": 905,
-  "PersonId": 193,
-  "EmailDescription": "carleton@kihn.info",
-  "EmailId": 409,
-  "EmailAddress": "isidro@powlowski.us",
-  "PhoneId": 273,
-  "ContactName": "Dach, Windler and Hills",
-  "ContactId": 129,
-  "SaleId": 763,
-  "Mrmrs": "qui",
-  "Firstname": "Cleora",
-  "MiddleName": "Gottlieb Inc and Sons",
-  "Lastname": "Beier",
-  "SaleStakeholderId": 750,
-  "Rank": 530,
-  "Phone": "1-216-372-1120"
+  "StakeholderRoleName": "Tillman Inc and Sons",
+  "Comment": "numquam",
+  "StakeholderRoleId": 170,
+  "CountryId": 184,
+  "PersonId": 589,
+  "EmailDescription": "emery@mann.com",
+  "EmailId": 380,
+  "EmailAddress": "michele_mohr@mcdermottcorwin.us",
+  "PhoneId": 270,
+  "ContactName": "Cummings, Powlowski and Schamberger",
+  "ContactId": 282,
+  "SaleId": 680,
+  "Mrmrs": "beatae",
+  "Firstname": "Liliane",
+  "MiddleName": "Becker Inc and Sons",
+  "Lastname": "Kris",
+  "SaleStakeholderId": 622,
+  "Rank": 906,
+  "Phone": "309.051.6028"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hintz Group",
-  "Comment": "sunt",
-  "StakeholderRoleId": 6,
-  "CountryId": 824,
-  "PersonId": 82,
-  "EmailDescription": "lilian_greenholt@towne.us",
-  "EmailId": 918,
-  "EmailAddress": "hiram@wittingabbott.ca",
-  "PhoneId": 127,
-  "ContactName": "Hackett LLC",
-  "ContactId": 546,
-  "SaleId": 650,
-  "Mrmrs": "mollitia",
-  "Firstname": "Rhea",
-  "MiddleName": "Kuphal, White and Hermann",
-  "Lastname": "Franecki",
-  "SaleStakeholderId": 950,
-  "Rank": 954,
-  "Phone": "001.618.8666",
+  "StakeholderRoleName": "Koelpin LLC",
+  "Comment": "aut",
+  "StakeholderRoleId": 89,
+  "CountryId": 466,
+  "PersonId": 220,
+  "EmailDescription": "miller@lefflerpfeffer.co.uk",
+  "EmailId": 977,
+  "EmailAddress": "myah.cremin@beier.uk",
+  "PhoneId": 53,
+  "ContactName": "Hoppe-Effertz",
+  "ContactId": 527,
+  "SaleId": 846,
+  "Mrmrs": "a",
+  "Firstname": "Neva",
+  "MiddleName": "Renner, Abernathy and Schamberger",
+  "Lastname": "Schroeder",
+  "SaleStakeholderId": 524,
+  "Rank": 925,
+  "Phone": "824.505.9396 x611",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   }
 }

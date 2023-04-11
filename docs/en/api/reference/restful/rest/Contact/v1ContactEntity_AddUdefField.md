@@ -88,8 +88,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 552,
-  "ColumnId": 482,
-  "FieldDefault": "sit",
-  "FieldHeight": 80,
-  "FieldLabel": "quia",
-  "FieldLeft": 215,
-  "FieldTop": 97,
+  "UDefFieldId": 588,
+  "ColumnId": 280,
+  "FieldDefault": "magni",
+  "FieldHeight": 735,
+  "FieldLabel": "aperiam",
+  "FieldLeft": 282,
+  "FieldTop": 436,
   "FieldType": "Checkbox",
-  "FieldWidth": 712,
-  "FormatMask": "et",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 193,
-  "LabelLeft": 396,
-  "LabelTop": 563,
-  "LabelWidth": 343,
-  "LastVersionId": 146,
-  "ListTableId": 549,
-  "IsMandatory": false,
+  "FieldWidth": 119,
+  "FormatMask": "ipsa",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 371,
+  "LabelLeft": 52,
+  "LabelTop": 169,
+  "LabelWidth": 121,
+  "LastVersionId": 832,
+  "ListTableId": 474,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 129,
-  "ProgId": "quis",
+  "Page1LineNo": 636,
+  "ProgId": "sit",
   "IsReadOnly": true,
-  "ShortLabel": "officia",
-  "TabOrder": 289,
-  "TextLength": 459,
-  "Tooltip": "et",
-  "UdefIdentity": 98,
-  "UDListDefinitionId": 790,
+  "ShortLabel": "quo",
+  "TabOrder": 933,
+  "TextLength": 164,
+  "Tooltip": "qui",
+  "UdefIdentity": 823,
+  "UDListDefinitionId": 381,
   "Justification": "Center",
-  "Version": 560,
-  "TemplateVariableName": "Hayes, Weimann and Haley",
+  "Version": 233,
+  "TemplateVariableName": "Collins Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Hettinger-Rau",
+  "MdoListName": "Waelchi Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 413
     }
   }
 }

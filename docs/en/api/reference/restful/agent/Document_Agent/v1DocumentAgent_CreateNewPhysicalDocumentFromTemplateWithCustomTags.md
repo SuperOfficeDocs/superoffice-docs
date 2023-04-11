@@ -107,8 +107,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,26 +116,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 566,
-  "PersonId": 106,
-  "AppointmentId": 220,
-  "DocumentId": 554,
-  "SaleId": 41,
-  "SelectionId": 863,
-  "ProjectId": 75,
+  "ContactId": 886,
+  "PersonId": 701,
+  "AppointmentId": 684,
+  "DocumentId": 821,
+  "SaleId": 241,
+  "SelectionId": 692,
+  "ProjectId": 931,
   "CustomTags": [
-    "repellendus",
-    "dolores"
+    "dolore",
+    "odit"
   ],
   "CustomValues": [
-    "quis",
-    "libero"
+    "corporis",
+    "commodi"
   ],
-  "UiCulture": "nam"
+  "UiCulture": "voluptates"
 }
 ```
 
@@ -146,88 +146,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 871,
+  "DocumentId": 151,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "blanditiis",
-  "Header": "culpa",
-  "Name": "Stoltenberg Inc and Sons",
-  "OurRef": "quibusdam",
-  "YourRef": "consequatur",
-  "CreatedDate": "1999-07-04T12:15:18.8257539+02:00",
-  "UpdatedDate": "2009-02-25T12:15:18.8257539+01:00",
-  "Description": "Triple-buffered bottom-line core",
+  "Attention": "consequuntur",
+  "Header": "nam",
+  "Name": "Grimes Group",
+  "OurRef": "et",
+  "YourRef": "facere",
+  "CreatedDate": "2014-08-16T15:29:21.589778+02:00",
+  "UpdatedDate": "1998-10-02T15:29:21.589778+02:00",
+  "Description": "Profound high-level interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-09-04T12:15:18.8287541+02:00",
-  "ExternalRef": "sed",
+  "Date": "2018-09-02T15:29:21.5922786+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 640,
+  "ActiveLinks": 641,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hirthe, Gulgowski and Altenwerth",
-      "Id": 230,
-      "Description": "Customer-focused demand-driven paradigm",
-      "ExtraInfo": "perferendis",
-      "LinkId": 762,
+      "EntityName": "Batz Inc and Sons",
+      "Id": 414,
+      "Description": "Seamless multi-tasking ability",
+      "ExtraInfo": "laborum",
+      "LinkId": 724,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 389
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 131,
-  "Snum": 22,
+  "SuggestedDocumentId": 678,
+  "Snum": 972,
   "UserDefinedFields": {
-    "SuperOffice:1": "Junius Kertzmann",
-    "SuperOffice:2": "Ms. Hosea Fadel MD"
+    "SuperOffice:1": "801763107",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "et",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "autem"
+    "CustomFields1": "dolor",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "2003-09-08T12:15:18.8297539+02:00",
-  "PublishTo": "2001-08-22T12:15:18.8297539+02:00",
-  "PublishFrom": "2002-12-03T12:15:18.8297539+01:00",
+  "PublishEventDate": "2008-08-17T15:29:21.5932778+02:00",
+  "PublishTo": "2011-06-17T15:29:21.5932778+02:00",
+  "PublishFrom": "2021-06-02T15:29:21.5932778+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 812,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldLength": 105
         }
       }
     },
     {
-      "VisibleId": 812,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 45
+          "FieldLength": 105
         }
       }
     }
@@ -237,7 +237,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 158
     }
   }
 }

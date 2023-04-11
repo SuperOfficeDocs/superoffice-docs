@@ -25,7 +25,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=261
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=575
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -78,8 +78,8 @@ OK
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 174,
-  "FormKey": "ut",
-  "Name": "Dare Inc and Sons",
-  "Description": "User-centric foreground customer loyalty",
-  "Config": "iste",
-  "FolderId": 163,
-  "ScriptId": 477,
-  "ResponseShipmentId": 435,
-  "Active": false,
-  "Expires": "2012-08-30T12:15:19.3697453+02:00",
-  "MaxSubmits": 350,
+  "FormId": 404,
+  "FormKey": "corrupti",
+  "Name": "Kutch, Sawayn and Bernhard",
+  "Description": "Innovative bottom-line knowledge user",
+  "Config": "soluta",
+  "FolderId": 614,
+  "ScriptId": 188,
+  "ResponseShipmentId": 27,
+  "Active": true,
+  "Expires": "2006-08-02T15:29:22.13177+02:00",
+  "MaxSubmits": 638,
   "Type": "Normal",
-  "Recipe": "repudiandae",
-  "GroupId": 90,
+  "Recipe": "delectus",
+  "GroupId": 982,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2007-11-19T12:15:19.3697453+01:00",
-  "RegisteredAssociateId": 73,
-  "Updated": "2005-03-18T12:15:19.3697453+01:00",
-  "UpdatedAssociateId": 517,
-  "UpdatedCount": 777,
-  "FolderName": "Johns, Wuckert and Hills",
+  "Registered": "1998-04-24T15:29:22.13177+02:00",
+  "RegisteredAssociateId": 244,
+  "Updated": "2012-06-18T15:29:22.13177+02:00",
+  "UpdatedAssociateId": 838,
+  "UpdatedCount": 255,
+  "FolderName": "Mante Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 707
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

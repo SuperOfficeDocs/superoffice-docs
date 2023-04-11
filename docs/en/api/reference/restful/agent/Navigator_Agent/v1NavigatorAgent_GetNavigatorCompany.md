@@ -25,7 +25,7 @@ Gets a NavigatorCompany object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=77
+POST /api/v1/Agents/Navigator/GetNavigatorCompany?navigatorCompanyId=659
 POST /api/v1/Agents/Navigator/GetNavigatorCompany?$select=name,department,category/id
 ```
 
@@ -52,15 +52,15 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Id | int32 |  |
 | Value | string |  |
 | Tooltip | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Value": "hic",
-  "Tooltip": "veniam",
+  "Id": 516,
+  "Value": "sequi",
+  "Tooltip": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 688
     }
   }
 }

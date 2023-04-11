@@ -100,8 +100,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -119,21 +119,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 460,
-  "Title": "qui",
-  "CreatedAt": "2010-08-23T12:15:20.2627328+02:00",
-  "LastChanged": "2020-01-15T12:15:20.2627328+01:00",
-  "ReadByOwner": "2020-02-27T12:15:20.2627328+01:00",
-  "ReadByCustomer": "2015-04-18T12:15:20.2627328+02:00",
-  "FirstReadByOwner": "2001-01-30T12:15:20.2627328+01:00",
-  "FirstReadByUser": "2001-08-15T12:15:20.2627328+02:00",
-  "Activate": "2018-11-26T12:15:20.2627328+01:00",
-  "ClosedAt": "2002-05-27T12:15:20.2627328+02:00",
-  "RepliedAt": "2014-02-19T12:15:20.2627328+01:00",
-  "AlertTimeout": "2021-01-22T12:15:20.2627328+01:00",
-  "Deadline": "2000-06-18T12:15:20.2627328+02:00",
+  "TicketId": 958,
+  "Title": "omnis",
+  "CreatedAt": "2004-07-25T15:29:23.0387574+02:00",
+  "LastChanged": "2004-10-07T15:29:23.0387574+02:00",
+  "ReadByOwner": "2003-07-23T15:29:23.0387574+02:00",
+  "ReadByCustomer": "2016-08-04T15:29:23.0387574+02:00",
+  "FirstReadByOwner": "2021-05-02T15:29:23.0387574+02:00",
+  "FirstReadByUser": "2019-10-29T15:29:23.0387574+01:00",
+  "Activate": "1998-12-26T15:29:23.0387574+01:00",
+  "ClosedAt": "2018-01-17T15:29:23.0387574+01:00",
+  "RepliedAt": "1996-02-24T15:29:23.0387574+01:00",
+  "AlertTimeout": "2010-01-14T15:29:23.0387574+01:00",
+  "Deadline": "1999-01-29T15:29:23.0387574+01:00",
   "CreatedBy": null,
-  "Author": "consectetur",
+  "Author": "consequatur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -144,157 +144,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "doloremque",
-      "PersonId": 293,
-      "Mrmrs": "non",
-      "Firstname": "Christopher",
-      "Lastname": "Murray",
-      "MiddleName": "Hahn Group",
-      "Title": "possimus",
-      "Description": "Quality-focused 24/7 artificial intelligence",
-      "Email": "mireille.kunde@watsica.ca",
-      "FullName": "Mrs. Tianna Selena Adams DVM",
-      "DirectPhone": "348.686.7510",
-      "FormalName": "Considine, Kuvalis and Schoen",
-      "CountryId": 144,
-      "ContactId": 538,
-      "ContactName": "Mann Inc and Sons",
-      "Retired": 72,
-      "Rank": 199,
-      "ActiveInterests": 286,
-      "ContactDepartment": "streamline B2C e-business",
-      "ContactCountryId": 28,
-      "ContactOrgNr": "1374972",
-      "FaxPhone": "1-356-545-4898 x4548",
-      "MobilePhone": "1-598-430-1424",
-      "ContactPhone": "1-574-655-1538 x29703",
-      "AssociateName": "Quitzon Group",
-      "AssociateId": 989,
-      "UsePersonAddress": false,
-      "ContactFax": "dolorum",
-      "Kanafname": "dolores",
-      "Kanalname": "nobis",
-      "Post1": "dolorem",
-      "Post2": "ut",
-      "Post3": "nesciunt",
-      "EmailName": "zetta.hintz@cartwright.info",
-      "ContactFullName": "Chanel Watsica",
-      "ActiveErpLinks": 275,
-      "TicketPriorityId": 739,
-      "SupportLanguageId": 997,
-      "SupportAssociateId": 15,
+      "Position": "consequuntur",
+      "PersonId": 970,
+      "Mrmrs": "est",
+      "Firstname": "Shanna",
+      "Lastname": "Murazik",
+      "MiddleName": "Dickinson LLC",
+      "Title": "quasi",
+      "Description": "Expanded bi-directional contingency",
+      "Email": "casimer@schumm.info",
+      "FullName": "Alfonso Kunde",
+      "DirectPhone": "1-686-827-0324 x0143",
+      "FormalName": "Schultz, Welch and Lesch",
+      "CountryId": 430,
+      "ContactId": 104,
+      "ContactName": "Schowalter-Bogan",
+      "Retired": 319,
+      "Rank": 402,
+      "ActiveInterests": 59,
+      "ContactDepartment": "",
+      "ContactCountryId": 729,
+      "ContactOrgNr": "1198307",
+      "FaxPhone": "107.414.5113 x312",
+      "MobilePhone": "1-156-261-0661 x98998",
+      "ContactPhone": "(142)579-8837",
+      "AssociateName": "Block Group",
+      "AssociateId": 987,
+      "UsePersonAddress": true,
+      "ContactFax": "reprehenderit",
+      "Kanafname": "et",
+      "Kanalname": "natus",
+      "Post1": "delectus",
+      "Post2": "eos",
+      "Post3": "ut",
+      "EmailName": "peyton@powlowskimohr.com",
+      "ContactFullName": "Kameron Leannon",
+      "ActiveErpLinks": 738,
+      "TicketPriorityId": 300,
+      "SupportLanguageId": 276,
+      "SupportAssociateId": 340,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 999
+          "FieldLength": 270
         }
       }
     }
   ],
-  "AlertLevel": 392,
-  "ConnectId": 475,
+  "AlertLevel": 340,
+  "ConnectId": 31,
   "ReadStatus": "Green",
-  "TimeToReply": 357,
-  "RealTimeToReply": 82,
-  "TimeToClose": 800,
-  "RealTimeToClose": 608,
-  "TimeSpentInternally": 830,
-  "TimeSpentExternally": 111,
-  "TimeSpentQueue": 922,
-  "RealTimeSpentInternally": 372,
-  "RealTimeSpentExternally": 882,
-  "RealTimeSpentQueue": 71,
+  "TimeToReply": 968,
+  "RealTimeToReply": 678,
+  "TimeToClose": 402,
+  "RealTimeToClose": 484,
+  "TimeSpentInternally": 897,
+  "TimeSpentExternally": 738,
+  "TimeSpentQueue": 521,
+  "RealTimeSpentInternally": 204,
+  "RealTimeSpentExternally": 111,
+  "RealTimeSpentQueue": 957,
   "HasAttachment": false,
-  "NumReplies": 800,
-  "NumMessages": 775,
-  "FromAddress": "sit",
+  "NumReplies": 313,
+  "NumMessages": 270,
+  "FromAddress": "quo",
   "Messages": [
     {
-      "TicketMessageId": 83,
-      "CreatedAt": "2022-10-03T12:15:20.2667339+02:00",
+      "TicketMessageId": 896,
+      "CreatedAt": "2005-12-31T15:29:23.0437582+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "cum",
-      "PersonId": 918,
-      "PersonFullName": "Rickey Dibbert",
-      "ContactId": 819,
-      "ContactName": "Kreiger LLC",
+      "Important": true,
+      "Author": "doloremque",
+      "PersonId": 757,
+      "PersonFullName": "Clyde Krajcik",
+      "ContactId": 279,
+      "ContactName": "Erdman Group",
       "ContactDepartment": "",
-      "NumAttachments": 295,
-      "EmailHeader": "mason.terry@waelchiconnelly.uk",
+      "NumAttachments": 212,
+      "EmailHeader": "vincent_grant@dietrich.ca",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "delectus",
-      "Sentiment": 635,
-      "SentimentConfidence": 439,
-      "CreatedBy": 579,
-      "ChangedAt": "2008-07-21T12:15:20.2677326+02:00",
+      "Language": "sunt",
+      "Sentiment": 575,
+      "SentimentConfidence": 899,
+      "CreatedBy": 635,
+      "ChangedAt": "1998-04-22T15:29:23.0437582+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 488
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 921,
-      "Name": "Bernhard Group",
-      "ToolTip": "Quidem quasi perferendis quas rerum accusamus.",
+      "Id": 782,
+      "Name": "Fritsch-Jacobi",
+      "ToolTip": "Nulla ea vel et eos nesciunt officiis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldLength": 644
         }
       }
     },
     {
-      "Id": 921,
-      "Name": "Bernhard Group",
-      "ToolTip": "Quidem quasi perferendis quas rerum accusamus.",
+      "Id": 782,
+      "Name": "Fritsch-Jacobi",
+      "ToolTip": "Nulla ea vel et eos nesciunt officiis.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 872
+          "FieldLength": 644
         }
       }
     }
   ],
-  "Language": "ducimus",
-  "Sentiment": 386,
-  "SentimentConfidence": 545,
-  "SuggestedCategoryId": 95,
+  "Language": "molestiae",
+  "Sentiment": 561,
+  "SentimentConfidence": 220,
+  "SuggestedCategoryId": 627,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 706,
-  "IconHint": "sit",
+  "OrigHumanCategoryId": 750,
+  "IconHint": "ipsam",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "ratione",
+    "CustomFields2": "aliquid"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 549
+      "FieldLength": 506
     }
   }
 }

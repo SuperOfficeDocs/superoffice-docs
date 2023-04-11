@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationStaticSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -464,7 +464,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=person/restrictionAddress/line3,person/personAssociate/userName
+GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=person/personAddress/formattedAddress,contact/contactExtra/x_contact_dropdown,person/restrictionAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

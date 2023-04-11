@@ -88,8 +88,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | Number1 | string | Alphanumeric user field |
 | Number2 | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,36 +113,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 775,
-    "Name": "Robel-Graham",
-    "OrgNr": "1933260",
+    "ContactId": 948,
+    "Name": "Howe Inc and Sons",
+    "OrgNr": "1493740",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "sunt",
-    "DirectPhone": "(545)818-3569 x74809",
-    "AssociateId": 633,
-    "CountryId": 22,
-    "EmailAddress": "tamara_franecki@kozeyernser.uk",
-    "Kananame": "voluptatibus",
-    "EmailAddressName": "giovanny@kuhic.us",
+    "City": "aspernatur",
+    "DirectPhone": "124-168-2332 x190",
+    "AssociateId": 521,
+    "CountryId": 511,
+    "EmailAddress": "nicholaus@rippin.ca",
+    "Kananame": "soluta",
+    "EmailAddressName": "shaylee.heathcote@franecki.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Keeley Mills",
+    "AssociateFullName": "Caleb Witting",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "id",
-    "FullName": "Mohammad Metz",
+    "FormattedAddress": "reprehenderit",
+    "FullName": "Prof. Shanon Earlene Schimmel III",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 569,
-    "Number1": "645952",
-    "Number2": "840540",
+    "ActiveErpLinks": 878,
+    "Number1": "1303239",
+    "Number2": "1070546",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 659
       }
     }
   }

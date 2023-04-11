@@ -87,8 +87,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,29 +100,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 927,
-  "ParentId": 594,
-  "Name": "Wolff Inc and Sons",
-  "Fullname": "nostrum",
-  "CategoryMaster": 441,
+  "TicketCategoryId": 391,
+  "ParentId": 512,
+  "Name": "Gusikowski Group",
+  "Fullname": "sit",
+  "CategoryMaster": 46,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Heller Inc and Sons",
+  "ExternalName": "Purdy, Pagac and Koelpin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 394,
-  "ReplyTemplate": 563,
-  "NotificationEmail": "ransom@leffler.us",
+  "AssignmentLag": 90,
+  "ReplyTemplate": 490,
+  "NotificationEmail": "aubree.kilback@bradtkeromaguera.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 114,
+  "EffectiveReplyTemplateId": 300,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "quod"
   }
 }
 ```
@@ -134,36 +134,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 123,
-  "ParentId": 560,
-  "Name": "Fay-Greenholt",
-  "Fullname": "pariatur",
-  "CategoryMaster": 420,
+  "TicketCategoryId": 304,
+  "ParentId": 879,
+  "Name": "Lowe-Bartoletti",
+  "Fullname": "laudantium",
+  "CategoryMaster": 613,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bogisich LLC",
+  "ExternalName": "Spinka, Schiller and Ullrich",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 315,
-  "ReplyTemplate": 183,
-  "NotificationEmail": "rickey@macejkovickoch.uk",
+  "AssignmentLag": 493,
+  "ReplyTemplate": 66,
+  "NotificationEmail": "emelia_douglas@rolfson.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 512,
+  "EffectiveReplyTemplateId": 723,
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "quod"
+    "CustomFields1": "harum",
+    "CustomFields2": "vero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 582
     }
   }
 }

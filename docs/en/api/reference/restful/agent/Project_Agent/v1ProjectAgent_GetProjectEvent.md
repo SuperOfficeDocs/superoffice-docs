@@ -25,7 +25,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=189
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=297
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -78,8 +78,8 @@ OK
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Mr. Devon Howell MD",
-  "Description": "Realigned attitude-oriented core",
-  "ProjectId": 394,
-  "EventName": "Hudson-Lehner",
-  "AssociateId": 157,
-  "IsSignedOn": false,
-  "SignOffConfirmationText": "officiis",
-  "SignOffText": "nihil",
-  "SignOnConfirmationText": "modi",
-  "SignOnText": "unde",
-  "EventDate": "2015-06-23T12:15:19.8447399+02:00",
+  "AssociateFullName": "Bettie Pagac",
+  "Description": "Decentralized systemic framework",
+  "ProjectId": 87,
+  "EventName": "Schneider Inc and Sons",
+  "AssociateId": 953,
+  "IsSignedOn": true,
+  "SignOffConfirmationText": "in",
+  "SignOffText": "tenetur",
+  "SignOnConfirmationText": "culpa",
+  "SignOnText": "sed",
+  "EventDate": "2001-05-17T15:29:22.4702662+02:00",
   "Enabled": false,
   "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOnTaskEnable": false,
+  "SignOffTaskEnable": true,
+  "SignOnTaskEnable": true,
   "SignOn": true,
-  "SignOffTaskId": 929,
-  "SignOnTaskId": 511,
-  "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 57,
-  "SignOffPersonId": 813,
+  "SignOffTaskId": 462,
+  "SignOnTaskId": 306,
+  "SignOffTriggersAssign": true,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 944,
+  "SignOffPersonId": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 504
     }
   }
 }

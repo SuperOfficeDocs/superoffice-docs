@@ -52,8 +52,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 234,
-    "Name": "Brakus Group",
-    "Tooltip": "ad",
-    "Deleted": false,
-    "Rank": 16,
-    "UdListDefinitionId": 444,
+    "HeadingId": 605,
+    "Name": "Hagenes, Effertz and Schuppe",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 580,
+    "UdListDefinitionId": 469,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldLength": 823
       }
     }
   }

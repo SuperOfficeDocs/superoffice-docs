@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 803,
-  "Name": "Cruickshank-Feest",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 185,
-  "IsCustomList": true,
+  "Id": 397,
+  "Name": "Heathcote, Schaden and Senger",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 35,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Jacobi, Reichert and Kerluke",
-  "Tooltip": "eum",
+  "Id": 49,
+  "Name": "Wunsch LLC",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "Rank": 585,
-  "IsCustomList": true,
+  "Rank": 940,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "illo",
+  "UseGroupsAndHeadings": true,
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 378
     }
   }
 }

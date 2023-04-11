@@ -76,8 +76,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,32 +89,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 75,
+  "HierarchyId": 261,
   "Domain": "Dashboards",
-  "Name": "Breitenberg-Weber",
-  "Fullname": "aperiam",
-  "ParentId": 662,
+  "Name": "Aufderhar-Mante",
+  "Fullname": "qui",
+  "ParentId": 835,
   "Children": [
     {
-      "HierarchyId": 673,
+      "HierarchyId": 834,
       "Domain": "Dashboards",
-      "Name": "Tremblay, Marquardt and Mertz",
-      "Fullname": "qui",
-      "ParentId": 260,
+      "Name": "Connelly Group",
+      "Fullname": "ipsum",
+      "ParentId": 641,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-06-22T12:15:26.986642+02:00",
-      "RegisteredAssociateId": 918,
-      "Updated": "2020-09-05T12:15:26.986642+02:00",
-      "UpdatedAssociateId": 53
+      "Registered": "2015-08-24T15:29:29.787198+02:00",
+      "RegisteredAssociateId": 300,
+      "Updated": "2022-05-26T15:29:29.787198+02:00",
+      "UpdatedAssociateId": 90
     }
   ],
-  "Registered": "2015-04-06T12:15:26.986642+02:00",
-  "RegisteredAssociateId": 699,
-  "Updated": "1999-03-18T12:15:26.986642+01:00",
-  "UpdatedAssociateId": 457
+  "Registered": "1996-05-22T15:29:29.787198+02:00",
+  "RegisteredAssociateId": 307,
+  "Updated": "2006-02-12T15:29:29.787198+01:00",
+  "UpdatedAssociateId": 576
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 129,
+  "HierarchyId": 797,
   "Domain": "Dashboards",
-  "Name": "Crona-Kiehn",
-  "Fullname": "exercitationem",
-  "ParentId": 833,
+  "Name": "Kertzmann LLC",
+  "Fullname": "consequatur",
+  "ParentId": 116,
   "Children": [
     {
-      "HierarchyId": 597,
+      "HierarchyId": 641,
       "Domain": "Dashboards",
-      "Name": "Pouros-Jenkins",
-      "Fullname": "eveniet",
-      "ParentId": 999,
+      "Name": "Hills-Goldner",
+      "Fullname": "quia",
+      "ParentId": 456,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-05-05T12:15:26.986642+02:00",
-      "RegisteredAssociateId": 111,
-      "Updated": "2020-06-30T12:15:26.986642+02:00",
-      "UpdatedAssociateId": 5,
+      "Registered": "2006-08-28T15:29:29.7876985+02:00",
+      "RegisteredAssociateId": 78,
+      "Updated": "2008-12-29T15:29:29.7876985+01:00",
+      "UpdatedAssociateId": 480,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldType": "System.String",
+          "FieldLength": 6
         }
       }
     }
   ],
-  "Registered": "1998-05-30T12:15:26.986642+02:00",
-  "RegisteredAssociateId": 504,
-  "Updated": "2009-07-01T12:15:26.986642+02:00",
-  "UpdatedAssociateId": 360,
+  "Registered": "1996-12-30T15:29:29.7876985+01:00",
+  "RegisteredAssociateId": 795,
+  "Updated": "2005-03-12T15:29:29.7876985+01:00",
+  "UpdatedAssociateId": 806,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 529
     }
   }
 }

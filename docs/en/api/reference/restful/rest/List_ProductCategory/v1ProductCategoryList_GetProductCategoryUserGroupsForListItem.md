@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 23,
-    "Name": "Oberbrunner, Schultz and Deckow",
-    "ToolTip": "Quo recusandae est sed.",
-    "Deleted": true,
-    "Rank": 945,
-    "Type": "et",
-    "ColorBlock": 392,
-    "IconHint": "est",
+    "Id": 535,
+    "Name": "Kuphal Inc and Sons",
+    "ToolTip": "Aspernatur consectetur id autem adipisci voluptatem nesciunt.",
+    "Deleted": false,
+    "Rank": 629,
+    "Type": "vero",
+    "ColorBlock": 623,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2018-01-05T12:15:28.2806124+01:00",
+    "LastChanged": "2022-11-20T15:29:31.3959767+01:00",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Mosciski LLC",
-        "ToolTip": "Non illum repudiandae.",
+        "Id": 911,
+        "Name": "Jerde, Halvorson and Bahringer",
+        "ToolTip": "Non sed nobis perspiciatis assumenda aut earum.",
         "Deleted": true,
-        "Rank": 403,
-        "Type": "non",
-        "ColorBlock": 864,
-        "IconHint": "quidem",
+        "Rank": 568,
+        "Type": "similique",
+        "ColorBlock": 653,
+        "IconHint": "dolorem",
         "Selected": true,
-        "LastChanged": "2013-10-04T12:15:28.2806124+02:00",
+        "LastChanged": "2012-01-25T15:29:31.3959767+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Dr. Tatum Wilderman",
+        "FullName": "Kody Gutkowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 457
+            "FieldType": "System.String",
+            "FieldLength": 201
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "nulla",
-    "Hidden": true,
-    "FullName": "Enrico Ayana Cole Jr.",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "ex",
+    "Hidden": false,
+    "FullName": "Magdalena Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 477
       }
     }
   }

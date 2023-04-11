@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Hickle-Conroy",
-    "ToolTip": "Quis sunt nam quia quisquam iste dignissimos.",
+    "Id": 847,
+    "Name": "Crist-Watsica",
+    "ToolTip": "Autem itaque vero iusto aliquid.",
     "Deleted": false,
-    "Rank": 501,
-    "Type": "et",
-    "ColorBlock": 352,
-    "IconHint": "est",
+    "Rank": 175,
+    "Type": "dolores",
+    "ColorBlock": 565,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2008-08-17T12:15:28.3716151+02:00",
+    "LastChanged": "1997-05-27T15:29:31.4859756+02:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Collins, Kshlerin and Halvorson",
-        "ToolTip": "Quia et.",
-        "Deleted": false,
-        "Rank": 783,
-        "Type": "dignissimos",
-        "ColorBlock": 817,
-        "IconHint": "harum",
+        "Id": 673,
+        "Name": "Terry-Altenwerth",
+        "ToolTip": "Qui autem aut optio error eveniet.",
+        "Deleted": true,
+        "Rank": 413,
+        "Type": "a",
+        "ColorBlock": 443,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2001-10-30T12:15:28.3716151+01:00",
+        "LastChanged": "2002-03-30T15:29:31.4864763+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "est",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "voluptatibus",
         "Hidden": true,
-        "FullName": "Kira Beahan IV"
+        "FullName": "Mrs. Katarina Kennedi Boyer"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Miss Lucy Misty Ferry PhD"
+    "ExtraInfo": "dolor",
+    "StyleHint": "laborum",
+    "Hidden": true,
+    "FullName": "Jayme Wilderman"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Romaguera, Wilderman and Hackett",
-    "ToolTip": "Non praesentium.",
+    "Id": 729,
+    "Name": "Langworth, Gleason and Hoppe",
+    "ToolTip": "Delectus perferendis repudiandae et eos quia.",
     "Deleted": true,
-    "Rank": 904,
-    "Type": "aspernatur",
-    "ColorBlock": 830,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2011-03-22T12:15:28.3736175+01:00",
+    "Rank": 779,
+    "Type": "est",
+    "ColorBlock": 857,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2020-09-07T15:29:31.4874782+02:00",
     "ChildItems": [
       {
-        "Id": 242,
-        "Name": "Brekke-Koss",
-        "ToolTip": "Ipsum ratione ab aut est rerum totam dignissimos.",
+        "Id": 353,
+        "Name": "Kessler LLC",
+        "ToolTip": "Delectus excepturi vitae.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "reprehenderit",
-        "ColorBlock": 647,
-        "IconHint": "earum",
+        "Rank": 405,
+        "Type": "amet",
+        "ColorBlock": 830,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "2010-10-25T12:15:28.3736175+02:00",
+        "LastChanged": "1995-11-17T15:29:31.4874782+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Dustin Kertzmann",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Darryl Hugh Reilly Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 805
+            "FieldType": "System.String",
+            "FieldLength": 111
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "qui",
+    "ExtraInfo": "error",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Katlynn Gottlieb",
+    "FullName": "Mr. Opal Murphy DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

@@ -125,8 +125,8 @@ OK
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -135,100 +135,100 @@ OK
 POST /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 737,
-  "Name": "Paucek, Deckow and Nienow",
-  "ProjectNumber": "665681",
+  "ProjectId": 783,
+  "Name": "Farrell Group",
+  "ProjectNumber": "1287473",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 677,
-      "ContactId": 708,
-      "ProjectId": 277,
-      "ContactName": "Emard-West",
-      "ContactDepartment": "",
-      "ProjectName": "Smitham-Beatty",
-      "EmailId": 177,
-      "EmailAddress": "malvina@trantow.com",
-      "CountryId": 568,
-      "Firstname": "Gavin",
-      "MiddleName": "Williamson-Stamm",
-      "Lastname": "Oberbrunner",
-      "PersonId": 959,
+      "ProjectmemberId": 492,
+      "ContactId": 192,
+      "ProjectId": 547,
+      "ContactName": "Ferry, Heller and Gottlieb",
+      "ContactDepartment": "incubate one-to-one metrics",
+      "ProjectName": "Gleason Group",
+      "EmailId": 424,
+      "EmailAddress": "sister_emmerich@roobblick.info",
+      "CountryId": 44,
+      "Firstname": "Meaghan",
+      "MiddleName": "Rippin, Emmerich and Berge",
+      "Lastname": "Cassin",
+      "PersonId": 751,
       "Mrmrs": "sed",
-      "ProjectMemberTypeName": "Yundt, Wolff and Ruecker",
-      "Phone": "(006)814-0504",
-      "PhoneId": 605,
-      "ProjectMemberTypeId": 859,
-      "EmailAddressName": "justus_watsica@metz.com",
-      "Comment": "deleniti",
-      "FullName": "Zora Roob"
+      "ProjectMemberTypeName": "Gibson, Torphy and Blick",
+      "Phone": "570-463-8063 x8358",
+      "PhoneId": 949,
+      "ProjectMemberTypeId": 17,
+      "EmailAddressName": "wiley@borer.biz",
+      "Comment": "harum",
+      "FullName": "Dr. Ozella Tomas Crooks I"
     }
   ],
   "Urls": [
     {
-      "Value": "quia",
-      "StrippedValue": "velit",
-      "Description": "Inverse assymetric knowledge base"
+      "Value": "nulla",
+      "StrippedValue": "culpa",
+      "Description": "Automated hybrid secured line"
     },
     {
-      "Value": "quia",
-      "StrippedValue": "velit",
-      "Description": "Inverse assymetric knowledge base"
+      "Value": "nulla",
+      "StrippedValue": "culpa",
+      "Description": "Automated hybrid secured line"
     }
   ],
-  "CreatedDate": "2011-01-09T12:15:27.1356332+01:00",
-  "UpdatedDate": "2012-11-24T12:15:27.1356332+01:00",
-  "Description": "Down-sized 3rd generation structure",
-  "Postit": "iusto",
+  "CreatedDate": "2018-03-12T15:29:29.9431625+01:00",
+  "UpdatedDate": "2016-11-27T15:29:29.9431625+01:00",
+  "Description": "Public-key system-worthy leverage",
+  "Postit": "nesciunt",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Quality-focused background complexity",
-  "ActiveStatusMonitorId": 692,
+  "HasImage": false,
+  "ImageDescription": "Realigned multimedia data-warehouse",
+  "ActiveStatusMonitorId": 542,
   "Links": [
     {
-      "EntityName": "Leannon, Fahey and King",
-      "Id": 261,
-      "Description": "Upgradable upward-trending flexibility",
-      "ExtraInfo": "fuga",
-      "LinkId": 651
+      "EntityName": "Nader-Dickinson",
+      "Id": 155,
+      "Description": "Realigned cohesive solution",
+      "ExtraInfo": "beatae",
+      "LinkId": 128
     },
     {
-      "EntityName": "Leannon, Fahey and King",
-      "Id": 261,
-      "Description": "Upgradable upward-trending flexibility",
-      "ExtraInfo": "fuga",
-      "LinkId": 651
+      "EntityName": "Nader-Dickinson",
+      "Id": 155,
+      "Description": "Realigned cohesive solution",
+      "ExtraInfo": "beatae",
+      "LinkId": 128
     }
   ],
-  "ActiveLinks": 109,
-  "Completed": true,
-  "NextMilestoneDate": "2018-08-14T12:15:27.1366412+02:00",
-  "NmdAppointmentId": 742,
-  "EndDate": "2021-12-09T12:15:27.1366412+01:00",
-  "ActiveErpLinks": 632,
+  "ActiveLinks": 703,
+  "Completed": false,
+  "NextMilestoneDate": "2000-07-19T15:29:29.9441655+02:00",
+  "NmdAppointmentId": 248,
+  "EndDate": "2005-05-17T15:29:29.9441655+02:00",
+  "ActiveErpLinks": 290,
   "UserDefinedFields": {
-    "SuperOffice:1": "Floy Schmitt",
-    "SuperOffice:2": "640955171"
+    "SuperOffice:1": "Mrs. Juvenal Jerde IV",
+    "SuperOffice:2": "1635852434"
   },
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "non"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "quos"
+    "CustomFields1": "assumenda",
+    "CustomFields2": "mollitia"
   },
-  "PublishEventDate": "2002-11-12T12:15:27.137634+01:00",
-  "PublishTo": "2007-07-04T12:15:27.137634+02:00",
-  "PublishFrom": "1999-11-27T12:15:27.137634+01:00",
-  "IsPublished": false
+  "PublishEventDate": "2019-07-02T15:29:29.9446616+02:00",
+  "PublishTo": "2009-02-23T15:29:29.9446616+01:00",
+  "PublishFrom": "1995-12-05T15:29:29.9446616+01:00",
+  "IsPublished": true
 }
 ```
 
@@ -239,127 +239,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 9,
-  "Name": "Romaguera Group",
-  "ProjectNumber": "1385064",
+  "ProjectId": 790,
+  "Name": "Fay LLC",
+  "ProjectNumber": "1867161",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 812,
-      "ContactId": 600,
-      "ProjectId": 523,
-      "ContactName": "Runolfsdottir, Feil and Schaden",
+      "ProjectmemberId": 660,
+      "ContactId": 300,
+      "ProjectId": 991,
+      "ContactName": "Ernser Inc and Sons",
       "ContactDepartment": "",
-      "ProjectName": "Moen-Koss",
-      "EmailId": 220,
-      "EmailAddress": "allen.fahey@rodriguez.info",
-      "CountryId": 991,
-      "Firstname": "Nolan",
-      "MiddleName": "Thompson-Schroeder",
-      "Lastname": "Schamberger",
-      "PersonId": 5,
-      "Mrmrs": "doloremque",
-      "ProjectMemberTypeName": "Ziemann, Jones and McClure",
-      "Phone": "583-418-5842 x108",
-      "PhoneId": 681,
-      "ProjectMemberTypeId": 479,
-      "EmailAddressName": "casandra_fisher@murazik.com",
-      "Comment": "ut",
-      "FullName": "Moriah Gina Zboncak PhD",
+      "ProjectName": "Grady Inc and Sons",
+      "EmailId": 596,
+      "EmailAddress": "ian.beer@jones.name",
+      "CountryId": 845,
+      "Firstname": "Karina",
+      "MiddleName": "Stiedemann, Gorczany and Johnson",
+      "Lastname": "Krajcik",
+      "PersonId": 274,
+      "Mrmrs": "ut",
+      "ProjectMemberTypeName": "Greenfelder Group",
+      "Phone": "075-266-0742",
+      "PhoneId": 490,
+      "ProjectMemberTypeId": 474,
+      "EmailAddressName": "helga@turcotte.info",
+      "Comment": "molestiae",
+      "FullName": "Deanna Schmitt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 540
+          "FieldLength": 333
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "sint",
-      "StrippedValue": "atque",
-      "Description": "Networked bottom-line capacity",
+      "Value": "est",
+      "StrippedValue": "et",
+      "Description": "Multi-layered uniform definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 26
         }
       }
     },
     {
-      "Value": "sint",
-      "StrippedValue": "atque",
-      "Description": "Networked bottom-line capacity",
+      "Value": "est",
+      "StrippedValue": "et",
+      "Description": "Multi-layered uniform definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 26
         }
       }
     }
   ],
-  "CreatedDate": "2007-07-08T12:15:27.1416335+02:00",
-  "UpdatedDate": "2020-03-09T12:15:27.1416335+01:00",
-  "Description": "Multi-channelled eco-centric focus group",
-  "Postit": "quaerat",
+  "CreatedDate": "1999-11-06T15:29:29.949662+01:00",
+  "UpdatedDate": "2002-07-30T15:29:29.949662+02:00",
+  "Description": "Proactive non-volatile toolset",
+  "Postit": "nemo",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Object-based bottom-line data-warehouse",
-  "ActiveStatusMonitorId": 20,
+  "HasImage": true,
+  "ImageDescription": "Robust background array",
+  "ActiveStatusMonitorId": 283,
   "Links": [
     {
-      "EntityName": "Hoppe, Beahan and Willms",
-      "Id": 564,
-      "Description": "Customer-focused intermediate productivity",
-      "ExtraInfo": "quia",
-      "LinkId": 85,
+      "EntityName": "Sipes Group",
+      "Id": 405,
+      "Description": "Robust zero administration utilisation",
+      "ExtraInfo": "architecto",
+      "LinkId": 523,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 634
+          "FieldLength": 957
         }
       }
     }
   ],
-  "ActiveLinks": 755,
-  "Completed": true,
-  "NextMilestoneDate": "2013-10-11T12:15:27.1436328+02:00",
-  "NmdAppointmentId": 4,
-  "EndDate": "2009-09-01T12:15:27.1436328+02:00",
-  "ActiveErpLinks": 252,
+  "ActiveLinks": 334,
+  "Completed": false,
+  "NextMilestoneDate": "2002-01-10T15:29:29.9521958+01:00",
+  "NmdAppointmentId": 955,
+  "EndDate": "2000-08-17T15:29:29.9521958+02:00",
+  "ActiveErpLinks": 79,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Fae Frami",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "445583567",
+    "SuperOffice:2": "Ethyl Weimann"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "similique",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "facilis",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2019-09-30T12:15:27.1436328+02:00",
-  "PublishTo": "2009-04-28T12:15:27.1436328+02:00",
-  "PublishFrom": "2002-12-31T12:15:27.1436328+01:00",
+  "PublishEventDate": "2010-12-25T15:29:29.9521958+01:00",
+  "PublishTo": "1998-10-26T15:29:29.9521958+01:00",
+  "PublishFrom": "2007-03-30T15:29:29.9521958+02:00",
   "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   },
   "_Links": {

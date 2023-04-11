@@ -68,8 +68,8 @@ OK
 | IconHint | string | Icon hint for the associated message. |
 | DisplayMessage | string | Generated error message for the Quote Version. Will check for errors on quote lines, alternatives and the version itself. |
 | DisplayTooltip | string | Generated full tooltip for the Quote Version. Will check for errors on quote lines, alternatives and the version itself. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 304
+  "QuoteVersionId": 815
 }
 ```
 
@@ -93,15 +93,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "voluptas",
-  "DisplayMessage": "sequi",
-  "DisplayTooltip": "quisquam",
+  "IconHint": "nisi",
+  "DisplayMessage": "labore",
+  "DisplayTooltip": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 288
     }
   }
 }

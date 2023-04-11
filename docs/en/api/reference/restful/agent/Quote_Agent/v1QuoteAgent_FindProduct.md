@@ -98,8 +98,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -111,9 +111,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 102,
-  "UserInput": "rem",
-  "PriceListKey": "reiciendis"
+  "QuoteAlternativeId": 266,
+  "UserInput": "doloremque",
+  "PriceListKey": "quisquam"
 }
 ```
 
@@ -125,73 +125,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 323,
-    "ERPProductKey": "nihil",
-    "ERPPriceListKey": "sed",
-    "Name": "Lebsack, Will and Brekke",
-    "Description": "Proactive 5th generation adapter",
-    "Code": "ducimus",
-    "PriceUnit": "quidem",
-    "QuantityUnit": "alias",
+    "ProductId": 129,
+    "ERPProductKey": "debitis",
+    "ERPPriceListKey": "ut",
+    "Name": "O'Reilly Inc and Sons",
+    "Description": "Operative hybrid analyzer",
+    "Code": "et",
+    "PriceUnit": "exercitationem",
+    "QuantityUnit": "voluptatem",
     "IsSubscription": false,
-    "SubscriptionUnit": "voluptatibus",
-    "DefaultSubscriptionQuantity": 16798.239999999998,
-    "ItemNumber": "742678",
+    "SubscriptionUnit": "in",
+    "DefaultSubscriptionQuantity": 25313.318,
+    "ItemNumber": "1052208",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
     "ProductFamilyKey": "aut",
-    "ProductTypeKey": "aperiam",
-    "VAT": 4516.094,
-    "VATInfo": "sed",
-    "UnitCost": 29826.278,
-    "UnitMinimumPrice": 3068.1859999999997,
-    "UnitListPrice": 26049.808,
-    "InAssortment": false,
-    "Supplier": "qui",
-    "SupplierCode": "quibusdam",
-    "Rights": "voluptatem",
-    "Rule": "sit",
+    "ProductTypeKey": "odio",
+    "VAT": 13028.038,
+    "VATInfo": "et",
+    "UnitCost": 12172.456,
+    "UnitMinimumPrice": 2375.572,
+    "UnitListPrice": 11291.802,
+    "InAssortment": true,
+    "Supplier": "atque",
+    "SupplierCode": "sed",
+    "Rights": "quasi",
+    "Rule": "eum",
     "ExtraInfo": [
       {
-        "Name": "Kuphal Inc and Sons",
-        "Value": "harum",
+        "Name": "Kunde-Gislason",
+        "Value": "illo",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 783
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       },
       {
-        "Name": "Kuphal Inc and Sons",
-        "Value": "harum",
+        "Name": "Kunde-Gislason",
+        "Value": "illo",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 783
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "RawExtraInfo": "libero",
-    "ExtraField1": "sed",
-    "ExtraField2": "voluptatem",
-    "ExtraField3": "quasi",
-    "ExtraField4": "qui",
-    "ExtraField5": "quibusdam",
-    "InStock": 5299.594,
+    "RawExtraInfo": "rem",
+    "ExtraField1": "quam",
+    "ExtraField2": "eveniet",
+    "ExtraField3": "nam",
+    "ExtraField4": "harum",
+    "ExtraField5": "deleniti",
+    "InStock": 19625.108,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 862
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

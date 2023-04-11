@@ -29,7 +29,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -94,8 +94,8 @@ AppointmentEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 920,
-  "ColumnId": 185,
-  "FieldDefault": "natus",
-  "FieldHeight": 225,
-  "FieldLabel": "natus",
-  "FieldLeft": 888,
-  "FieldTop": 712,
+  "UDefFieldId": 405,
+  "ColumnId": 576,
+  "FieldDefault": "fugit",
+  "FieldHeight": 695,
+  "FieldLabel": "similique",
+  "FieldLeft": 943,
+  "FieldTop": 114,
   "FieldType": "Checkbox",
-  "FieldWidth": 91,
-  "FormatMask": "repellendus",
+  "FieldWidth": 884,
+  "FormatMask": "officiis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 195,
-  "LabelLeft": 938,
-  "LabelTop": 235,
-  "LabelWidth": 745,
-  "LastVersionId": 493,
-  "ListTableId": 453,
-  "IsMandatory": false,
+  "LabelHeight": 595,
+  "LabelLeft": 897,
+  "LabelTop": 669,
+  "LabelWidth": 14,
+  "LastVersionId": 928,
+  "ListTableId": 400,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 967,
-  "ProgId": "reprehenderit",
+  "Page1LineNo": 508,
+  "ProgId": "cupiditate",
   "IsReadOnly": false,
-  "ShortLabel": "natus",
-  "TabOrder": 554,
-  "TextLength": 200,
-  "Tooltip": "provident",
-  "UdefIdentity": 662,
-  "UDListDefinitionId": 221,
+  "ShortLabel": "impedit",
+  "TabOrder": 881,
+  "TextLength": 32,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 364,
+  "UDListDefinitionId": 111,
   "Justification": "Center",
-  "Version": 462,
-  "TemplateVariableName": "Ziemann Inc and Sons",
+  "Version": 869,
+  "TemplateVariableName": "Donnelly LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Larkin, Price and Lynch",
+  "MdoListName": "Block-Harvey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 641
     }
   }
 }

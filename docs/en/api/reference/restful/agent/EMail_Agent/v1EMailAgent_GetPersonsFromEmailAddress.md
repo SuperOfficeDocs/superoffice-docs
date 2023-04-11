@@ -104,8 +104,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -117,7 +117,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "lavon@gusikowski.co.uk"
+  "EmailAddress": "bryana_senger@carterwilkinson.co.uk"
 }
 ```
 
@@ -129,52 +129,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "eligendi",
-    "PersonId": 349,
-    "Mrmrs": "debitis",
-    "Firstname": "Madalyn",
-    "Lastname": "Vandervort",
-    "MiddleName": "Schinner-Kuhlman",
-    "Title": "eius",
-    "Description": "Grass-roots motivating framework",
-    "Email": "leanna.schiller@treutel.uk",
-    "FullName": "Ms. Guido Ellen Adams III",
-    "DirectPhone": "1-708-589-8143 x8048",
-    "FormalName": "Mann Group",
-    "CountryId": 615,
-    "ContactId": 999,
-    "ContactName": "Howell, Smitham and Lind",
-    "Retired": 389,
-    "Rank": 323,
-    "ActiveInterests": 892,
+    "Position": "harum",
+    "PersonId": 585,
+    "Mrmrs": "sint",
+    "Firstname": "Pablo",
+    "Lastname": "Jones",
+    "MiddleName": "Pacocha Inc and Sons",
+    "Title": "doloribus",
+    "Description": "Quality-focused impactful system engine",
+    "Email": "sterling.mann@gottlieb.biz",
+    "FullName": "Ms. Lavinia Dare V",
+    "DirectPhone": "1-157-714-3567",
+    "FormalName": "Reynolds-Botsford",
+    "CountryId": 346,
+    "ContactId": 329,
+    "ContactName": "Krajcik Group",
+    "Retired": 392,
+    "Rank": 344,
+    "ActiveInterests": 397,
     "ContactDepartment": "",
-    "ContactCountryId": 745,
-    "ContactOrgNr": "1218634",
-    "FaxPhone": "(404)773-5140",
-    "MobilePhone": "602.185.0911",
-    "ContactPhone": "003.547.6803 x18314",
-    "AssociateName": "Pouros-Fahey",
-    "AssociateId": 144,
+    "ContactCountryId": 578,
+    "ContactOrgNr": "822490",
+    "FaxPhone": "740.867.3884",
+    "MobilePhone": "798.812.1360",
+    "ContactPhone": "887-305-5541 x107",
+    "AssociateName": "Wolff Group",
+    "AssociateId": 19,
     "UsePersonAddress": false,
-    "ContactFax": "facere",
-    "Kanafname": "nemo",
-    "Kanalname": "animi",
-    "Post1": "tenetur",
-    "Post2": "est",
-    "Post3": "suscipit",
-    "EmailName": "vince_donnelly@schinner.biz",
-    "ContactFullName": "Aida Rice",
-    "ActiveErpLinks": 138,
-    "TicketPriorityId": 590,
-    "SupportLanguageId": 31,
-    "SupportAssociateId": 274,
+    "ContactFax": "doloremque",
+    "Kanafname": "quae",
+    "Kanalname": "ex",
+    "Post1": "porro",
+    "Post2": "blanditiis",
+    "Post3": "sit",
+    "EmailName": "janessa@ferry.name",
+    "ContactFullName": "Filomena White",
+    "ActiveErpLinks": 344,
+    "TicketPriorityId": 196,
+    "SupportLanguageId": 496,
+    "SupportAssociateId": 929,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldType": "System.Int32",
+        "FieldLength": 582
       }
     }
   }

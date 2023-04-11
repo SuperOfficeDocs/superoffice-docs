@@ -70,7 +70,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Ward, Brown and Satterfield",
-  "DisplayName": "Schulist Inc and Sons",
-  "Description": "Inverse uniform model",
-  "ShortLabel": "aut",
-  "HideLabel": false,
-  "HideField": false,
-  "IsIndexed": true,
+  "FieldName": "Oberbrunner-Ondricka",
+  "DisplayName": "Wiza-Stiedemann",
+  "Description": "Stand-alone non-volatile encryption",
+  "ShortLabel": "ut",
+  "HideLabel": true,
+  "HideField": true,
+  "IsIndexed": false,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "Rank": 344,
-  "TemplateVariableName": "Aufderhar Inc and Sons"
+  "Rank": 215,
+  "TemplateVariableName": "Hartmann, Block and Kiehn"
 }
 ```

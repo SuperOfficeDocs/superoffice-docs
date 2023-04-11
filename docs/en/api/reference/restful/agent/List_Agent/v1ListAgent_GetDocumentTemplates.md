@@ -65,8 +65,8 @@ OK
 | Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
 | AutoeventId | int32 | Which document plugin is responsible for the documents generated from this template |
 | QuoteDocType | string | What type of quote document is this. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,23 +85,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 774,
-    "Name": "Bins LLC",
-    "Tooltip": "quod",
-    "SaveInDb": 295,
-    "Filename": "quos",
-    "DefaultOref": "corrupti",
+    "DocumentTemplateId": 812,
+    "Name": "Bartoletti-Walker",
+    "Tooltip": "esse",
+    "SaveInDb": 563,
+    "Filename": "alias",
+    "DefaultOref": "ut",
     "RecordType": "Appointment",
-    "Deleted": 955,
+    "Deleted": 68,
     "Direction": "Incoming",
-    "AutoeventId": 725,
+    "AutoeventId": 146,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

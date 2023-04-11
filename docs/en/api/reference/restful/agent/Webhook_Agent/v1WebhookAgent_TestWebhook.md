@@ -66,8 +66,8 @@ OK
 |----------------|------|--------------|
 | Success | bool | Was call to webhook successful? (200 OK) |
 | Message | string | Headers and body of response from webhook |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "atque",
+  "Success": true,
+  "Message": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 362
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

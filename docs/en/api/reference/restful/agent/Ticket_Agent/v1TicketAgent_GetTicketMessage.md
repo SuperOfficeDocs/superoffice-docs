@@ -25,7 +25,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=739
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=364
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -74,8 +74,9 @@ OK
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
 | CreatedBy | int32 | The id of the user who posted the message. The value 1 (system user) for externally posted messages. |
 | ChangedAt | date-time | When the message was changed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| Badge | string | Badge to explicitly determine how a message was generated |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,23 +94,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 578,
-  "CreatedAt": "2016-03-30T12:15:20.4547316+02:00",
+  "TicketMessageId": 524,
+  "CreatedAt": "2001-02-10T15:29:23.2242555+01:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "vel",
-  "PersonId": 179,
-  "PersonFullName": "Dessie Heidenreich",
-  "ContactId": 326,
-  "ContactName": "Bauch, Champlin and White",
+  "Author": "sit",
+  "PersonId": 230,
+  "PersonFullName": "Ms. Evans Batz DVM",
+  "ContactId": 910,
+  "ContactName": "Hodkiewicz Group",
   "ContactDepartment": "",
-  "NumAttachments": 918,
-  "EmailHeader": "vincent.blanda@green.biz",
+  "NumAttachments": 555,
+  "EmailHeader": "giles@hammes.name",
   "MessageHeaders": [
     {
-      "Id": 699,
-      "Name": "Bergstrom, Osinski and Bartoletti",
-      "Value": "aspernatur",
+      "Id": 274,
+      "Name": "Wyman Group",
+      "Value": "dicta",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -117,22 +118,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 448
         }
       }
     }
   ],
-  "Language": "id",
-  "Sentiment": 692,
-  "SentimentConfidence": 569,
-  "CreatedBy": 283,
-  "ChangedAt": "2001-04-03T12:15:20.4547316+02:00",
+  "Language": "quaerat",
+  "Sentiment": 797,
+  "SentimentConfidence": 43,
+  "CreatedBy": 211,
+  "ChangedAt": "1996-07-13T15:29:23.2247552+02:00",
+  "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldLength": 40
     }
   }
 }

@@ -155,8 +155,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -164,16 +164,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "ut",
-  "ProviderName": "Jacobs-Kutch",
-  "DesiredColumns": "culpa",
-  "OrderBy": "quaerat",
-  "PageSize": 672,
-  "PageNumber": 96
+  "Restrictions": "eligendi",
+  "ProviderName": "Hills Inc and Sons",
+  "DesiredColumns": "nam",
+  "OrderBy": "necessitatibus",
+  "PageSize": 661,
+  "PageNumber": 716
 }
 ```
 
@@ -186,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Nader, Green and Waelchi",
-      "DisplayTooltip": "dolorem",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Becker, Runolfsson and Monahan",
-      "CanRestrictBy": false,
-      "RestrictionType": "consequatur",
-      "RestrictionListName": "Lakin LLC",
+      "DisplayName": "Lubowitz-Muller",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "qui",
+      "CanOrderBy": true,
+      "Name": "Medhurst-Baumbach",
+      "CanRestrictBy": true,
+      "RestrictionType": "et",
+      "RestrictionListName": "Beahan-Larkin",
       "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "consequuntur",
-      "IconHint": "dicta",
-      "HeadingIconHint": "quisquam"
+      "ExtraInfo": "nihil",
+      "Width": "facilis",
+      "IconHint": "dolor",
+      "HeadingIconHint": "aliquid"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Johnson Group",
-      "PrimaryKey": 552,
+      "EntityName": "Bednar Inc and Sons",
+      "PrimaryKey": 812,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dignissimos",
-          "TooltipHint": "qui",
-          "LinkHint": "ea"
+          "DisplayValue": "qui",
+          "TooltipHint": "nam",
+          "LinkHint": "velit"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "ut",
+      "LinkHint": "ab",
+      "StyleHint": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldLength": 546
         }
       }
     }
   ],
-  "RowCount": 826,
+  "RowCount": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 287
     }
   }
 }

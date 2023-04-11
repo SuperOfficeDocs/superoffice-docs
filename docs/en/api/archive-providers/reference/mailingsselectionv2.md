@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -570,7 +570,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=getNoRows,mailingAddr/person/personAssociate/userName,mailingAddr/person/correspondingAssociate/credentialType,mailingAddr/person/correspondingAssociate/userName,project/projectAssociate/portraitThumbnail
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/searchPhone/description,mailingAddr/contact/contactAssociate/contactId,mailingAddr/person/personAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -86,8 +86,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Wiza LLC",
-  "AssociateId": 645,
-  "DetailsTable": 609,
-  "DetailsRecord": 561,
-  "IsSystemTask": false,
+  "Id": 215,
+  "Name": "Tillman, Reinger and Stark",
+  "AssociateId": 571,
+  "DetailsTable": 997,
+  "DetailsRecord": 782,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sapiente",
-    "ParameterObject2": "et"
+    "ParameterObject1": "aperiam",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "1995-11-30T12:15:18.2057627+01:00",
-  "Created": "2018-07-29T12:15:18.2057627+02:00",
-  "StartCount": 918,
-  "DatabaseSerialNumber": "887898",
-  "Context": "non",
-  "Result": "dolorem",
+  "LastStarted": "2006-06-25T15:29:20.8242885+02:00",
+  "Created": "2006-10-15T15:29:20.8242885+02:00",
+  "StartCount": 24,
+  "DatabaseSerialNumber": "1649825",
+  "Context": "repellat",
+  "Result": "suscipit",
   "State": "All",
-  "Description": "Streamlined bandwidth-monitored framework",
-  "Response": "eligendi",
-  "Request": "sed",
-  "ProgressDescription": "Phased motivating software",
-  "ProgressPercent": 736,
-  "FileName": "Wuckert, Barrows and Schmeler",
+  "Description": "Multi-lateral actuating strategy",
+  "Response": "ut",
+  "Request": "labore",
+  "ProgressDescription": "Integrated 24/7 system engine",
+  "ProgressPercent": 678,
+  "FileName": "Zulauf Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

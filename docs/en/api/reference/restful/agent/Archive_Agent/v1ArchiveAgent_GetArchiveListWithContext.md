@@ -95,8 +95,8 @@ OK
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Koelpin LLC",
-  "ProviderName": "Fay, Schmidt and Ullrich",
+  "GuiName": "Gerlach-Feest",
+  "ProviderName": "Schinner, Bergstrom and Upton",
   "SortOrder": [
     {
-      "Name": "Davis Inc and Sons",
+      "Name": "Bins-Macejkovic",
       "Direction": "ASC"
     },
     {
-      "Name": "Davis Inc and Sons",
+      "Name": "Bins-Macejkovic",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Koch, Reinger and Hermann",
-      "Operator": "consequuntur",
+      "Name": "Kautzer, Harber and Dicki",
+      "Operator": "qui",
       "Values": [
-        "nemo",
-        "rerum"
+        "ullam",
+        "ea"
       ],
       "DisplayValues": [
-        "ipsam",
-        "quia"
+        "repellendus",
+        "corporis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,18 +138,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 635,
+      "InterParenthesis": 990,
       "InterOperator": "And",
-      "UniqueHash": 35
+      "UniqueHash": 334
     }
   ],
   "Entities": [
-    "similique",
-    "veritatis"
+    "et",
+    "vitae"
   ],
-  "Page": 130,
-  "PageSize": 848,
-  "Context": "sunt"
+  "Page": 225,
+  "PageSize": 87,
+  "Context": "nesciunt"
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jones, Schumm and Terry",
-    "PrimaryKey": 337,
+    "EntityName": "Corwin, Price and Hammes",
+    "PrimaryKey": 962,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "in",
-        "TooltipHint": "cum",
-        "LinkHint": "delectus"
+        "DisplayValue": "sed",
+        "TooltipHint": "vel",
+        "LinkHint": "autem"
       }
     },
-    "LinkHint": "assumenda",
-    "StyleHint": "saepe",
+    "LinkHint": "dolor",
+    "StyleHint": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldType": "System.String",
+        "FieldLength": 892
       }
     }
   }

@@ -67,8 +67,9 @@ AttachmentEntity found.
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -87,23 +88,24 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 873,
-  "Name": "Smith-Kutch",
-  "ContentType": "et",
-  "AttSize": 668,
-  "InlineImage": true,
-  "ContentId": "aut",
+  "AttachmentId": 194,
+  "Name": "Brekke LLC",
+  "ContentType": "est",
+  "AttSize": 287,
+  "InlineImage": false,
+  "ContentId": "adipisci",
+  "AuthKey": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 436
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

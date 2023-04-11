@@ -92,8 +92,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 882,
-  "Name": "Cummings-Casper",
-  "Rank": 209,
-  "Tooltip": "et",
+  "AssociateId": 711,
+  "Name": "Rodriguez-Braun",
+  "Rank": 24,
+  "Tooltip": "quos",
   "LicenseOwners": [
     {
-      "Name": "Hahn-Homenick",
-      "Description": "Multi-tiered zero administration service-desk",
+      "Name": "Crist, Kerluke and Cole",
+      "Description": "Secured intermediate parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 744
         }
       }
     },
     {
-      "Name": "Hahn-Homenick",
-      "Description": "Multi-tiered zero administration service-desk",
+      "Name": "Crist, Kerluke and Cole",
+      "Description": "Secured intermediate parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 744
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatem",
-      "Tooltip": "velit",
-      "Id": 408,
-      "Rank": 111,
+      "Value": "magnam",
+      "Tooltip": "enim",
+      "Id": 259,
+      "Rank": 228,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 384
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2023-02-05T12:15:20.6267274+01:00",
-  "Lastlogout": "2021-08-12T12:15:20.6267274+02:00",
-  "EjUserId": 549,
-  "RequestSignature": "quia",
+  "Lastlogin": "2022-06-11T15:29:23.403786+02:00",
+  "Lastlogout": "2002-12-05T15:29:23.403786+01:00",
+  "EjUserId": 264,
+  "RequestSignature": "nisi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "deleniti",
-      "DisplayValue": "ratione",
+      "Value": "veniam",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 513
+          "FieldLength": 250
         }
       }
     },
     {
       "Type": null,
-      "Value": "deleniti",
-      "DisplayValue": "ratione",
+      "Value": "veniam",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 513
+          "FieldLength": 250
         }
       }
     }
   ],
-  "UserName": "Grant, Terry and Skiles",
+  "UserName": "Padberg, Wolff and Haag",
   "TicketCategories": [
     {
-      "Id": 899,
-      "Name": "Bins-Wunsch",
-      "ToolTip": "At et veniam veniam voluptas eos.",
-      "Deleted": true,
-      "Rank": 181,
-      "Type": "et",
+      "Id": 244,
+      "Name": "Crona, Hagenes and Gutmann",
+      "ToolTip": "Qui quia.",
+      "Deleted": false,
+      "Rank": 509,
+      "Type": "illo",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "omnis",
-      "ColorBlock": 432,
-      "ExtraInfo": "aut",
-      "StyleHint": "et",
-      "FullName": "Junior Roberts",
+      "ColorBlock": 195,
+      "ExtraInfo": "sit",
+      "StyleHint": "dolorem",
+      "FullName": "Lorenz Quitzon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldLength": 808
         }
       }
     }
   ],
-  "NickName": "Hauck, Gusikowski and Walsh",
-  "WaitingForApproval": true,
+  "NickName": "Tromp Inc and Sons",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "vitae"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "recusandae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Johnson Group",
-      "DisplayName": "Labadie-Adams",
-      "Description": "Fully-configurable leading edge firmware",
-      "ToolTip": "Iste delectus rem sapiente ut possimus laborum.",
+      "Name": "Mertz, Hills and Towne",
+      "DisplayName": "Treutel-Hayes",
+      "Description": "Mandatory object-oriented extranet",
+      "ToolTip": "Excepturi adipisci dicta ducimus velit.",
       "Actions": "Implicit",
-      "ActionData": "quia",
+      "ActionData": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldType": "System.String",
+          "FieldLength": 865
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 195
     }
   }
 }

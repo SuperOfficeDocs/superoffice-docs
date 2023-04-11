@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Stiedemann-Predovic",
-    "ToolTip": "Rem voluptatem commodi nobis dolores aliquid aut praesentium.",
-    "Deleted": false,
-    "Rank": 642,
-    "Type": "voluptas",
-    "ColorBlock": 405,
-    "IconHint": "et",
+    "Id": 137,
+    "Name": "Dickens-Kozey",
+    "ToolTip": "Commodi et odit eius.",
+    "Deleted": true,
+    "Rank": 260,
+    "Type": "rerum",
+    "ColorBlock": 810,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2020-05-25T12:15:28.0956192+02:00",
+    "LastChanged": "1998-01-29T15:29:31.2059797+01:00",
     "ChildItems": [
       {
         "Id": 787,
-        "Name": "Schmeler, Denesik and Carroll",
-        "ToolTip": "Ducimus quia accusantium explicabo iusto.",
-        "Deleted": false,
-        "Rank": 742,
-        "Type": "ipsum",
-        "ColorBlock": 134,
-        "IconHint": "hic",
+        "Name": "Glover, Wyman and Kshlerin",
+        "ToolTip": "Odit in atque et maxime repellat et.",
+        "Deleted": true,
+        "Rank": 989,
+        "Type": "voluptas",
+        "ColorBlock": 538,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2000-06-20T12:15:28.0956192+02:00",
+        "LastChanged": "2018-08-25T15:29:31.2064815+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "modi",
+        "ExtraInfo": "est",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Miracle Price",
+        "FullName": "Gerhard Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 698
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Trey Feeney",
+    "FullName": "Clare Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 226
       }
     }
   }

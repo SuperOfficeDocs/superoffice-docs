@@ -87,8 +87,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,7 +100,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 5
+  "Count": 230
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hahn-Larkin",
-    "SaleDate": "2019-11-28T12:15:20.090737+01:00",
-    "SaleId": 354,
-    "Probability": 711,
-    "Title": "facere",
-    "Amount": 20345.928,
-    "Currency": "et",
-    "ProjectName": "Monahan Inc and Sons",
-    "AssociateFullName": "Dr. Hugh Williamson",
-    "Description": "Balanced human-resource instruction set",
+    "ContactName": "Rolfson, Brekke and McDermott",
+    "SaleDate": "1997-02-20T15:29:22.7262978+01:00",
+    "SaleId": 486,
+    "Probability": 652,
+    "Title": "illum",
+    "Amount": 7640.692,
+    "Currency": "amet",
+    "ProjectName": "Stanton Inc and Sons",
+    "AssociateFullName": "Frederik Gorczany IV",
+    "Description": "De-engineered 24 hour matrices",
     "Status": "Lost",
-    "WeightedAmount": 15438.083999999999,
-    "ProjectId": 254,
-    "EarningPercent": 22079.03,
-    "Earning": 18945.03,
-    "ContactId": 601,
-    "AssociateId": 17,
-    "PersonId": 300,
-    "SaleTypeId": 227,
-    "SaleTypeName": "Abbott, Mann and Cremin",
-    "PersonFullName": "Zelda Schowalter",
+    "WeightedAmount": 30500.088,
+    "ProjectId": 230,
+    "EarningPercent": 8941.302,
+    "Earning": 27895.734,
+    "ContactId": 518,
+    "AssociateId": 358,
+    "PersonId": 546,
+    "SaleTypeId": 116,
+    "SaleTypeName": "Stanton, Connelly and Goodwin",
+    "PersonFullName": "Junior Crooks",
     "Completed": "Completed",
-    "ActiveErpLinks": 596,
-    "NextDueDate": "1996-04-10T12:15:20.0917353+02:00",
-    "Number": "1190160",
+    "ActiveErpLinks": 370,
+    "NextDueDate": "2002-06-14T15:29:22.7268019+02:00",
+    "Number": "1635416",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldLength": 945
       }
     }
   }

@@ -24,7 +24,7 @@ Deletes the ChatTopicEntity
 | ChatTopicEntityId | int32 | **Required** The id of the ChatTopicEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatTopicEntity?ChatTopicEntityId=98
+POST /api/v1/Agents/Chat/DeleteChatTopicEntity?ChatTopicEntityId=242
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

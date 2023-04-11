@@ -61,8 +61,8 @@ OK
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,27 +80,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 827,
-  "Rank": 108,
-  "DefaultTask": 999,
-  "DefaultTaskText": "sunt",
-  "IsVisual": false,
-  "LastGenerated": "2008-10-21T12:15:20.0107383+02:00",
-  "Description": "Streamlined 5th generation benchmark",
-  "Name": "Stark Inc and Sons",
-  "StatusMonitorId": 587,
-  "PictureId": 34,
-  "NeedsUpdate": true,
+  "OwnerTable": 768,
+  "Rank": 112,
+  "DefaultTask": 425,
+  "DefaultTaskText": "qui",
+  "IsVisual": true,
+  "LastGenerated": "1999-02-27T15:29:22.6352634+01:00",
+  "Description": "Enhanced national complexity",
+  "Name": "Braun-Grimes",
+  "StatusMonitorId": 481,
+  "PictureId": 364,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 212,
-  "NumNeedUpdate": 227,
-  "GenerationStart": "1998-04-03T12:15:20.0107383+02:00",
+  "NumMatches": 552,
+  "NumNeedUpdate": 517,
+  "GenerationStart": "2021-07-10T15:29:22.6352634+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 354
     }
   }
 }

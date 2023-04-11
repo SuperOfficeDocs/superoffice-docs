@@ -59,8 +59,8 @@ OK
 | Success | bool | The command was successfully executed. |
 | Message | string | Message which should be displayed in GUI. |
 | Result | string | The result used in this action. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "VonRueden-Kub",
+  "CommandName": "Langosh LLC",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -85,15 +85,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "nihil",
+  "Success": false,
+  "Message": "officiis",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 850
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

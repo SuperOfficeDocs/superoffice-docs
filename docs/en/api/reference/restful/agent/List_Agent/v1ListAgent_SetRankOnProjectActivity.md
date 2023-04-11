@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -68,10 +68,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 867,
+  "ProjectTypeStatusLinkId": 446,
   "ItemsIds": [
-    627,
-    279
+    695,
+    260
   ]
 }
 ```

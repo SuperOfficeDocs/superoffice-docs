@@ -52,8 +52,8 @@ OK
 | ValueControl | string | Type of control used to display the value. |
 | CanCreatePerson | bool |  |
 | IsUserNameSupported | bool |  |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -61,7 +61,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "ullam",
-    "Type": "quia",
-    "Description": "Reverse-engineered clear-thinking artificial intelligence",
+    "DisplayType": "explicabo",
+    "Type": "porro",
+    "Description": "Streamlined client-server intranet",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldType": "System.String",
+        "FieldLength": 708
       }
     }
   }

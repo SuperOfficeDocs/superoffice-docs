@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Botsford-Upton",
-    "ToolTip": "Aliquam nesciunt aliquid explicabo.",
-    "Deleted": true,
-    "Rank": 386,
-    "Type": "et",
-    "ColorBlock": 417,
-    "IconHint": "maiores",
+    "Id": 674,
+    "Name": "Brakus Group",
+    "ToolTip": "Deleniti nostrum enim.",
+    "Deleted": false,
+    "Rank": 473,
+    "Type": "odio",
+    "ColorBlock": 772,
+    "IconHint": "fugiat",
     "Selected": true,
-    "LastChanged": "2000-10-27T12:15:28.4056145+02:00",
+    "LastChanged": "2010-05-26T15:29:31.5189789+02:00",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Homenick LLC",
-        "ToolTip": "Doloribus dolor repellendus repellendus rerum et cupiditate esse.",
-        "Deleted": false,
-        "Rank": 499,
-        "Type": "quo",
-        "ColorBlock": 970,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2022-11-03T12:15:28.4066152+01:00",
+        "Id": 957,
+        "Name": "Spinka Inc and Sons",
+        "ToolTip": "Est consequatur minus.",
+        "Deleted": true,
+        "Rank": 75,
+        "Type": "cum",
+        "ColorBlock": 393,
+        "IconHint": "unde",
+        "Selected": false,
+        "LastChanged": "1998-09-19T15:29:31.5189789+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "alias",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Morris Smith"
+        "FullName": "Karolann Jewess"
       }
     ],
-    "ExtraInfo": "et",
+    "ExtraInfo": "mollitia",
     "StyleHint": "similique",
-    "Hidden": false,
-    "FullName": "Theo Schmeler"
+    "Hidden": true,
+    "FullName": "Marlen Feil"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Wehner Inc and Sons",
-    "ToolTip": "Nemo nihil quidem non non voluptates dolorem et.",
+    "Id": 503,
+    "Name": "Schaefer, Borer and Swift",
+    "ToolTip": "Perferendis exercitationem aut maiores.",
     "Deleted": false,
-    "Rank": 306,
-    "Type": "ut",
-    "ColorBlock": 806,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "1997-02-24T12:15:28.4076147+01:00",
+    "Rank": 183,
+    "Type": "modi",
+    "ColorBlock": 159,
+    "IconHint": "veritatis",
+    "Selected": true,
+    "LastChanged": "2000-11-12T15:29:31.5214751+01:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Farrell, Kirlin and Considine",
-        "ToolTip": "Nulla odit.",
+        "Id": 790,
+        "Name": "Kassulke, Medhurst and Feil",
+        "ToolTip": "Nihil officiis ea.",
         "Deleted": false,
-        "Rank": 614,
-        "Type": "eligendi",
-        "ColorBlock": 271,
-        "IconHint": "nesciunt",
-        "Selected": false,
-        "LastChanged": "2007-02-20T12:15:28.4086144+01:00",
+        "Rank": 833,
+        "Type": "velit",
+        "ColorBlock": 176,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2003-09-19T15:29:31.5214751+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "recusandae",
-        "Hidden": false,
-        "FullName": "Abel Kling",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Ms. Delfina O'Connell Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 751
+            "FieldType": "System.Int32",
+            "FieldLength": 303
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Wilfredo Flatley",
+    "ExtraInfo": "molestias",
+    "StyleHint": "suscipit",
+    "Hidden": false,
+    "FullName": "Elwyn Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 865
       }
     }
   }

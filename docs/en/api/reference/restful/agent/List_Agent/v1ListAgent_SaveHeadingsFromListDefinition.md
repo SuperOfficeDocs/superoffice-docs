@@ -69,8 +69,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 213,
+  "Id": 460,
   "Entities": [
     {
-      "HeadingId": 212,
-      "Name": "Glover, Feil and Jast",
-      "Tooltip": "qui",
+      "HeadingId": 971,
+      "Name": "Strosin, Mosciski and Bashirian",
+      "Tooltip": "ducimus",
       "Deleted": false,
-      "Rank": 935,
-      "UdListDefinitionId": 493
+      "Rank": 418,
+      "UdListDefinitionId": 942
     },
     {
-      "HeadingId": 212,
-      "Name": "Glover, Feil and Jast",
-      "Tooltip": "qui",
+      "HeadingId": 971,
+      "Name": "Strosin, Mosciski and Bashirian",
+      "Tooltip": "ducimus",
       "Deleted": false,
-      "Rank": 935,
-      "UdListDefinitionId": 493
+      "Rank": 418,
+      "UdListDefinitionId": 942
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 96,
-    "Name": "Skiles LLC",
-    "Tooltip": "a",
+    "HeadingId": 601,
+    "Name": "Wuckert Inc and Sons",
+    "Tooltip": "tenetur",
     "Deleted": false,
-    "Rank": 732,
-    "UdListDefinitionId": 182,
+    "Rank": 189,
+    "UdListDefinitionId": 560,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 658
+        "FieldType": "System.String",
+        "FieldLength": 294
       }
     }
   }

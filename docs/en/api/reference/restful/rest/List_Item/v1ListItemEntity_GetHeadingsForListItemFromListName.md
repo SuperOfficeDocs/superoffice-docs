@@ -29,7 +29,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -74,8 +74,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Reilly, Ernser and Ondricka",
-    "ToolTip": "Quam illum eligendi ea.",
+    "Id": 173,
+    "Name": "Kuvalis-Wolff",
+    "ToolTip": "Quo ut repellat omnis aut amet ut.",
     "Deleted": true,
-    "Rank": 135,
-    "Type": "sed",
-    "ColorBlock": 625,
-    "IconHint": "alias",
+    "Rank": 403,
+    "Type": "quia",
+    "ColorBlock": 864,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2009-10-11T12:15:27.8466241+02:00",
+    "LastChanged": "2013-08-29T15:29:31.0504464+02:00",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Leannon, Klocko and McGlynn",
-        "ToolTip": "Ut sequi aut.",
+        "Id": 542,
+        "Name": "McKenzie Inc and Sons",
+        "ToolTip": "Et unde qui.",
         "Deleted": false,
-        "Rank": 757,
-        "Type": "consequatur",
-        "ColorBlock": 632,
-        "IconHint": "est",
+        "Rank": 306,
+        "Type": "sed",
+        "ColorBlock": 63,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "1999-07-25T12:15:27.8466241+02:00",
+        "LastChanged": "2020-12-20T15:29:31.0504464+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "natus",
-        "Hidden": true,
-        "FullName": "Abbey Barrows",
+        "ExtraInfo": "omnis",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Eileen Clara Kreiger PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 868
+            "FieldType": "System.Int32",
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Prof. Lou Theo Ullrich",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "temporibus",
+    "Hidden": false,
+    "FullName": "Dr. Cleve Dan Treutel V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 12
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

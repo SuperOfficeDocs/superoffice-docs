@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 692,
-    "Name": "Nikolaus Group",
-    "Tooltip": "cupiditate",
+    "HeadingId": 985,
+    "Name": "Bartoletti-Sanford",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 523,
-    "UdListDefinitionId": 59
+    "Rank": 302,
+    "UdListDefinitionId": 742
   },
   {
-    "HeadingId": 692,
-    "Name": "Nikolaus Group",
-    "Tooltip": "cupiditate",
+    "HeadingId": 985,
+    "Name": "Bartoletti-Sanford",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 523,
-    "UdListDefinitionId": 59
+    "Rank": 302,
+    "UdListDefinitionId": 742
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 578,
-    "Name": "Abshire, Johnson and Schuppe",
-    "Tooltip": "nihil",
+    "HeadingId": 395,
+    "Name": "Ernser Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 730,
-    "UdListDefinitionId": 5,
+    "Rank": 350,
+    "UdListDefinitionId": 571,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 640
       }
     }
   }

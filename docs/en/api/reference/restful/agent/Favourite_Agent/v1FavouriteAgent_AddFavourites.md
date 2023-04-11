@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,13 +70,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schamberger-Bauch",
+  "TableName": "Schoen Inc and Sons",
   "RecordIds": [
-    485,
-    665
+    29,
+    129
   ],
-  "AssociateId": 574,
-  "ExtraInfo": "fuga"
+  "AssociateId": 694,
+  "ExtraInfo": "minus"
 }
 ```
 

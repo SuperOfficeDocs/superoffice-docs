@@ -73,8 +73,8 @@ OK
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 889,
-  "AttachmentId": "ratione"
+  "MailItemId": 24,
+  "AttachmentId": "explicabo"
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Business-focused composite data-warehouse",
-  "Filename": "rerum",
-  "Size": 899,
-  "Type": "ut",
-  "Encoding": "eius",
-  "Id": "explicabo",
-  "Disposition": "voluptas",
+  "Description": "Sharable uniform benchmark",
+  "Filename": "accusantium",
+  "Size": 906,
+  "Type": "quia",
+  "Encoding": "necessitatibus",
+  "Id": "ullam",
+  "Disposition": "quia",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 403
     }
   }
 }

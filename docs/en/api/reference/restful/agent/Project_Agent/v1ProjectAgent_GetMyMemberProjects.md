@@ -72,8 +72,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 914,
-    "Name": "Pfannerstill, Bartell and Tremblay",
-    "Description": "Front-line national extranet",
+    "ProjectId": 276,
+    "Name": "Moore, Bartoletti and Streich",
+    "Description": "Object-based bandwidth-monitored intranet",
     "URL": "http://www.example.com/",
-    "Type": "esse",
-    "AssociateId": 272,
-    "AssociateFullName": "Mr. Beth Brandy Spencer",
-    "TypeId": 844,
-    "Updated": "2003-12-27T12:15:19.8597456+01:00",
-    "StatusId": 751,
-    "Status": "officia",
-    "TextId": 209,
-    "PublishTo": "2017-12-08T12:15:19.8597456+01:00",
-    "PublishFrom": "1999-01-25T12:15:19.8597456+01:00",
-    "IsPublished": true,
+    "Type": "doloribus",
+    "AssociateId": 876,
+    "AssociateFullName": "Mr. Jaime Magali Rau II",
+    "TypeId": 429,
+    "Updated": "2017-10-08T15:29:22.4847663+02:00",
+    "StatusId": 758,
+    "Status": "numquam",
+    "TextId": 556,
+    "PublishTo": "1997-06-21T15:29:22.4847663+02:00",
+    "PublishFrom": "2020-04-19T15:29:22.4847663+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "688417",
-    "ActiveErpLinks": 962,
+    "ProjectNumber": "508850",
+    "ActiveErpLinks": 532,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 836
+        "FieldLength": 690
       }
     }
   }

@@ -74,8 +74,8 @@ OK
 | Flags | string | Flag status of this mail (unread, replied, deleted ) |
 | Size | int32 | Total size of the e-mail |
 | EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    977,
-    582
+    171,
+    71
   ]
 }
 ```
@@ -102,45 +102,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 134,
-    "MessageId": "facere",
-    "Subject": "quia",
+    "ServerId": 67,
+    "MessageId": "voluptates",
+    "Subject": "eius",
     "From": null,
     "To": [
       {
-        "ContactId": 584,
-        "ContactName": "Lowe-Feil",
-        "PersonId": 651,
-        "PersonName": "Kirlin-Hegmann",
-        "AssociateId": 45,
-        "Address": "est",
-        "EmailId": 243,
+        "ContactId": 241,
+        "ContactName": "McKenzie-McLaughlin",
+        "PersonId": 245,
+        "PersonName": "Murazik LLC",
+        "AssociateId": 70,
+        "Address": "at",
+        "EmailId": 678,
         "DuplicatePersonIds": [
-          118,
-          966
+          511,
+          559
         ],
-        "Name": "Renner Inc and Sons",
+        "Name": "Cremin Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 134
           }
         }
       }
     ],
-    "Sent": "2009-02-06T12:15:18.9237522+01:00",
+    "Sent": "2007-12-30T15:29:21.6933125+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 256,
+    "Size": 673,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 192
       }
     }
   }

@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/Diagnostics/WebAppUsageExistsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 477,
-  "ViewState": "mollitia",
-  "FromDate": "2019-09-29T12:15:18.7047555+02:00"
+  "AssociateId": 212,
+  "ViewState": "repudiandae",
+  "FromDate": "2003-11-28T15:29:21.4652794+01:00"
 }
 ```
 

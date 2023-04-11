@@ -63,8 +63,8 @@ OK
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,16 +72,16 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 13,
-  "Name": "Murray Group",
-  "Config": "corporis",
-  "Rank": 605,
-  "Client": "reprehenderit",
-  "Style": "error"
+  "DashboardThemeId": 97,
+  "Name": "Hermann Group",
+  "Config": "expedita",
+  "Rank": 756,
+  "Client": "quia",
+  "Style": "est"
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 467,
-  "Name": "Steuber-Rodriguez",
-  "Config": "vel",
-  "Rank": 526,
-  "Client": "sit",
-  "Style": "quia",
+  "DashboardThemeId": 104,
+  "Name": "Morissette-Medhurst",
+  "Config": "fuga",
+  "Rank": 767,
+  "Client": "porro",
+  "Style": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 472
     }
   }
 }

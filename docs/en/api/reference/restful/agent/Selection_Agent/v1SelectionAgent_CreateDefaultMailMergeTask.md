@@ -57,8 +57,8 @@ OK
 | OwnerAssociateId | int32 | Associate identity of who should be set as owner of the task.  If value is 0, the recipient owner(our contact) will be used. |
 | SingleEntryOnEachCompany | bool | Should we only create one task on each company? If false, separate tasks will be created for all persons from the same company. |
 | SaleId | int32 | Sale identity to set on task |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,23 +76,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 298,
-  "TypeId": 151,
-  "StartDate": "2021-10-29T12:15:20.117737+02:00",
-  "Duration": 74,
-  "Description": "Face to face 24/7 neural-net",
-  "PriorityId": 684,
+  "ProjectId": 119,
+  "TypeId": 954,
+  "StartDate": "2010-06-28T15:29:22.7552975+02:00",
+  "Duration": 867,
+  "Description": "Ergonomic solution-oriented encoding",
+  "PriorityId": 697,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 814,
+  "OwnerAssociateId": 359,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 656,
+  "SaleId": 152,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 865
     }
   }
 }

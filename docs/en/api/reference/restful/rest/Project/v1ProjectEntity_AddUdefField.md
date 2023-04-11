@@ -88,8 +88,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 905,
-  "ColumnId": 407,
-  "FieldDefault": "provident",
-  "FieldHeight": 874,
-  "FieldLabel": "qui",
-  "FieldLeft": 681,
-  "FieldTop": 486,
+  "UDefFieldId": 99,
+  "ColumnId": 172,
+  "FieldDefault": "facere",
+  "FieldHeight": 8,
+  "FieldLabel": "id",
+  "FieldLeft": 470,
+  "FieldTop": 875,
   "FieldType": "Checkbox",
-  "FieldWidth": 682,
-  "FormatMask": "sed",
+  "FieldWidth": 1000,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 882,
-  "LabelLeft": 104,
-  "LabelTop": 335,
-  "LabelWidth": 495,
-  "LastVersionId": 925,
-  "ListTableId": 234,
-  "IsMandatory": false,
+  "LabelHeight": 754,
+  "LabelLeft": 7,
+  "LabelTop": 997,
+  "LabelWidth": 557,
+  "LastVersionId": 139,
+  "ListTableId": 375,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 544,
-  "ProgId": "ut",
+  "Page1LineNo": 210,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "porro",
-  "TabOrder": 756,
-  "TextLength": 705,
-  "Tooltip": "sunt",
-  "UdefIdentity": 496,
-  "UDListDefinitionId": 493,
+  "ShortLabel": "molestiae",
+  "TabOrder": 312,
+  "TextLength": 435,
+  "Tooltip": "esse",
+  "UdefIdentity": 619,
+  "UDListDefinitionId": 20,
   "Justification": "Center",
-  "Version": 552,
-  "TemplateVariableName": "Smitham-Nienow",
-  "HasBeenPublished": false,
-  "MdoListName": "Douglas-Botsford",
+  "Version": 893,
+  "TemplateVariableName": "Corwin-Haley",
+  "HasBeenPublished": true,
+  "MdoListName": "Padberg Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -130,11 +130,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 906,
+  "PersonId": 274,
   "IncludeProjectAppointments": true,
-  "StartTime": "2020-03-12T12:15:17.9917655+01:00",
-  "EndTime": "2011-10-20T12:15:17.9917655+02:00",
-  "Count": 84
+  "StartTime": "2011-11-22T15:29:20.7317898+01:00",
+  "EndTime": "2021-02-08T15:29:20.7317898+01:00",
+  "Count": 782
 }
 ```
 
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 265,
-    "StartDate": "2012-07-31T12:15:17.9927686+02:00",
-    "EndDate": "1997-08-04T12:15:17.9927686+02:00",
+    "AppointmentId": 174,
+    "StartDate": "2000-01-30T15:29:20.7387905+01:00",
+    "EndDate": "2017-02-09T15:29:20.7387905+01:00",
     "Type": "BookingForChecklist",
-    "Task": "laudantium",
-    "AssociateFullName": "Trinity Waters",
-    "ContactName": "Goyette, Von and Hilpert",
-    "Description": "Integrated stable system engine",
-    "PersonFullName": "Vance Christiansen",
-    "PersonId": 463,
-    "ContactId": 633,
-    "ProjectId": 808,
-    "ProjectName": "Kunze Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 168,
-    "ColorIndex": 867,
-    "IsFree": true,
+    "Task": "mollitia",
+    "AssociateFullName": "Lenny Weber",
+    "ContactName": "Moen-Blick",
+    "Description": "Vision-oriented bandwidth-monitored archive",
+    "PersonFullName": "Ms. Julie Chet Weber",
+    "PersonId": 866,
+    "ContactId": 327,
+    "ProjectId": 780,
+    "ProjectName": "Nicolas, Schmitt and Hartmann",
+    "IsPublished": false,
+    "AssociateId": 677,
+    "ColorIndex": 506,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 694,
-    "PriorityName": "Stehr-Veum",
+    "PriorityId": 947,
+    "PriorityName": "Pacocha-Wisozk",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2013-02-14T12:15:17.9927686+01:00",
+    "ActiveDate": "2003-07-09T15:29:20.7392898+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-04-11T12:15:17.9927686+02:00",
-    "RecurringEndDate": "1999-01-25T12:15:17.9927686+01:00",
-    "MotherId": 123,
-    "AssignedBy": 301,
-    "AssignedByFullName": "Prof. Katelynn Nitzsche",
+    "RecurringStartDate": "2007-04-16T15:29:20.7392898+02:00",
+    "RecurringEndDate": "2017-09-11T15:29:20.7392898+02:00",
+    "MotherId": 300,
+    "AssignedBy": 435,
+    "AssignedByFullName": "Jazmin Renner",
     "RejectReason": "",
-    "Location": "suscipit",
-    "AlarmLeadTime": "eos",
-    "SaleId": 788,
-    "SaleName": "Schamberger Group",
-    "AssociateName": "Ziemann, Flatley and Keeling",
-    "CreatedDate": "2006-07-19T12:15:17.9937657+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Dr. Vince Marcos Veum DDS",
-    "CreatedByAssociateId": 947,
+    "Location": "laudantium",
+    "AlarmLeadTime": "dolor",
+    "SaleId": 520,
+    "SaleName": "Brekke-Stark",
+    "AssociateName": "Blick-Lebsack",
+    "CreatedDate": "1997-11-26T15:29:20.7392898+01:00",
+    "CreatedBy": "modi",
+    "CreatedByFullName": "Elisa Hayes",
+    "CreatedByAssociateId": 256,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 389
+        "FieldLength": 59
       }
     }
   }

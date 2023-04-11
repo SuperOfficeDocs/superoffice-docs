@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "SelectionStaticSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -86,7 +86,7 @@ Static archive Provider for a Selection of selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticSelectionV2?$select=selectionAssociate/contactName,lastLoadedByFullName,selectionAssociate/fullName
+GET /api/v1/archive/SelectionStaticSelectionV2?$select=lastLoadedByFullName,selectionAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

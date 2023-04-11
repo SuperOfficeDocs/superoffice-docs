@@ -31,8 +31,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Upgradable discrete internet solution
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=expedita,et
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=De-engineered disintermediate circuit
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=et,aspernatur
 ```
 
 
@@ -58,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,7 +75,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,11 +85,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "omnis",
-  "VersionId": "ut",
+  "ExternalReference": "quod",
+  "VersionId": "quia",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "eius",
-  "AdditionalInfo": "odio"
+  "Value": "blanditiis",
+  "AdditionalInfo": "aut"
 }
 ```

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Leannon-Langosh",
-    "ToolTip": "Repudiandae dignissimos nihil.",
+    "Id": 296,
+    "Name": "Ebert Group",
+    "ToolTip": "Voluptas ullam recusandae atque.",
     "Deleted": false,
-    "Rank": 18,
-    "Type": "quia",
-    "ColorBlock": 644,
-    "IconHint": "qui",
+    "Rank": 828,
+    "Type": "dolores",
+    "ColorBlock": 45,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2000-06-08T12:15:28.1966205+02:00",
+    "LastChanged": "2016-06-22T15:29:31.3089782+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Schaden Group",
-        "ToolTip": "Est impedit.",
+        "Id": 485,
+        "Name": "Dare Group",
+        "ToolTip": "Pariatur velit molestiae eos quae aut blanditiis officia.",
         "Deleted": false,
-        "Rank": 918,
-        "Type": "assumenda",
-        "ColorBlock": 460,
-        "IconHint": "quia",
+        "Rank": 505,
+        "Type": "alias",
+        "ColorBlock": 774,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "1998-11-11T12:15:28.1966205+01:00",
+        "LastChanged": "2003-01-21T15:29:31.3139776+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "cumque",
-        "Hidden": false,
-        "FullName": "Cade Lowe"
+        "ExtraInfo": "vitae",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Ms. Harvey Hoyt Goyette"
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "quis",
-    "Hidden": false,
-    "FullName": "Dr. Carolyn Adams I"
+    "ExtraInfo": "inventore",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Ms. Celia Adell Ledner II"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 725,
-    "Name": "Wintheiser-Jacobi",
-    "ToolTip": "Saepe tempore sint fuga eius sit.",
-    "Deleted": false,
-    "Rank": 324,
-    "Type": "consequuntur",
-    "ColorBlock": 784,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "1997-04-01T12:15:28.1976177+02:00",
+    "Id": 194,
+    "Name": "Glover Inc and Sons",
+    "ToolTip": "Blanditiis nisi deserunt et quisquam quas maxime.",
+    "Deleted": true,
+    "Rank": 399,
+    "Type": "enim",
+    "ColorBlock": 460,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "2019-04-14T15:29:31.3154777+02:00",
     "ChildItems": [
       {
-        "Id": 429,
-        "Name": "Olson, Kozey and Little",
-        "ToolTip": "Aut dolores non soluta sapiente non illo quaerat.",
-        "Deleted": false,
-        "Rank": 138,
-        "Type": "natus",
-        "ColorBlock": 339,
-        "IconHint": "soluta",
+        "Id": 891,
+        "Name": "Champlin-Gerlach",
+        "ToolTip": "Aperiam accusantium sed expedita id ut vel.",
+        "Deleted": true,
+        "Rank": 335,
+        "Type": "repellat",
+        "ColorBlock": 862,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2002-01-15T12:15:28.1976177+01:00",
+        "LastChanged": "2022-06-12T15:29:31.3154777+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Seamus Torphy",
+        "ExtraInfo": "vitae",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Preston Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 66
+            "FieldLength": 680
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "beatae",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Prof. Efrain Laverne Reilly",
+    "FullName": "Keely Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 147
       }
     }
   }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Person"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -446,6 +446,8 @@ table data; this will also pull in contact udef and related fields.
 |consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |request/contactId|int|Company ID: Database ID of company| x |
 |request/personId|int|Contact ID: Database ID of the contact row| x |
+|request/saleId|int|Sale ID: The database ID of the sale record| x |
+|request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|listAny|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -483,6 +485,9 @@ table data; this will also pull in contact udef and related fields.
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
+|request/messageLanguage|listAny|Language: Recognized language in messages|  |
+|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
+|request/suggestedCategory|listAny|Sugg.Cat.: Suggested service category|  |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -746,7 +751,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personExtra/x_person_shorttext,personExtra/x_person_contact_relation,personTargetRelation/useAsMailingAddress,personContact/email/emailId,request/createdBy/isActive
+GET /api/v1/archive/Person?$select=restrictionAddress/formattedMultiLineAddress,personSourceRelation/supportAssociateFullName,correspondingAssociate/simultaneousEjUser,personContact/postAddress/line3,projectMembers/LastActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

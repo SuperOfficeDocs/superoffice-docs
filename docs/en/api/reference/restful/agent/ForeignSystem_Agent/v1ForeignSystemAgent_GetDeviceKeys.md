@@ -71,8 +71,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hahn Inc and Sons",
-  "DeviceName": "Mills, Yost and Erdman"
+  "ApplicationName": "Spinka-Nolan",
+  "DeviceName": "DuBuque-Cartwright"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "at",
-    "Value": "quis",
-    "RecordId": 220,
-    "CreatedDate": "2022-07-19T12:15:19.1697487+02:00",
-    "UpdatedDate": "2003-02-19T12:15:19.1697487+01:00",
-    "UpdatedBy": "error",
-    "CreatedBy": "eos",
-    "TableName": "Tromp LLC",
+    "Key": "alias",
+    "Value": "dolor",
+    "RecordId": 11,
+    "CreatedDate": "1996-03-11T15:29:21.9288088+01:00",
+    "UpdatedDate": "2012-09-30T15:29:21.9288088+02:00",
+    "UpdatedBy": "in",
+    "CreatedBy": "dicta",
+    "TableName": "Boehm-Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

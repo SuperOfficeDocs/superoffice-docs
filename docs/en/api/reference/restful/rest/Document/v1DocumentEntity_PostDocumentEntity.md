@@ -131,8 +131,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -141,77 +141,77 @@ OK
 POST /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 848,
+  "DocumentId": 987,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "facere",
-  "Name": "Brown Group",
-  "OurRef": "ut",
-  "YourRef": "culpa",
-  "CreatedDate": "2002-10-20T12:15:26.8316382+02:00",
-  "UpdatedDate": "2002-04-01T12:15:26.8316382+02:00",
-  "Description": "Diverse hybrid ability",
+  "Attention": "maxime",
+  "Header": "minus",
+  "Name": "Kreiger LLC",
+  "OurRef": "unde",
+  "YourRef": "excepturi",
+  "CreatedDate": "2012-03-20T15:29:29.6472001+01:00",
+  "UpdatedDate": "2021-12-07T15:29:29.6472001+01:00",
+  "Description": "Extended analyzing array",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-01-20T12:15:26.8366381+01:00",
-  "ExternalRef": "et",
+  "Date": "2022-05-03T15:29:29.6517065+02:00",
+  "ExternalRef": "repudiandae",
   "Completed": "Completed",
-  "ActiveLinks": 717,
+  "ActiveLinks": 652,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Morissette-Beatty",
-      "Id": 597,
-      "Description": "Versatile client-driven architecture",
-      "ExtraInfo": "nobis",
-      "LinkId": 191
+      "EntityName": "Rowe, Moen and Ebert",
+      "Id": 997,
+      "Description": "Future-proofed needs-based capability",
+      "ExtraInfo": "vitae",
+      "LinkId": 871
     },
     {
-      "EntityName": "Morissette-Beatty",
-      "Id": 597,
-      "Description": "Versatile client-driven architecture",
-      "ExtraInfo": "nobis",
-      "LinkId": 191
+      "EntityName": "Rowe, Moen and Ebert",
+      "Id": 997,
+      "Description": "Future-proofed needs-based capability",
+      "ExtraInfo": "vitae",
+      "LinkId": 871
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 256,
-  "Snum": 870,
+  "SuggestedDocumentId": 199,
+  "Snum": 670,
   "UserDefinedFields": {
-    "SuperOffice:1": "Karine Weissnat",
-    "SuperOffice:2": "Ms. Dahlia Ziemann Sr."
+    "SuperOffice:1": "Hillary Delpha Littel III",
+    "SuperOffice:2": "575772641"
   },
   "ExtraFields": {
-    "ExtraFields1": "eveniet",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "vel",
-    "CustomFields2": "neque"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2008-03-28T12:15:26.8376382+01:00",
-  "PublishTo": "2021-09-09T12:15:26.8376382+02:00",
-  "PublishFrom": "1998-02-17T12:15:26.8376382+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-08-10T15:29:29.6522+02:00",
+  "PublishTo": "2021-08-15T15:29:29.6522+02:00",
+  "PublishFrom": "2005-05-18T15:29:29.6522+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 996,
+      "VisibleId": 144,
       "Visibility": "All",
-      "DisplayValue": "cupiditate"
+      "DisplayValue": "sequi"
     },
     {
-      "VisibleId": 996,
+      "VisibleId": 144,
       "Visibility": "All",
-      "DisplayValue": "cupiditate"
+      "DisplayValue": "sequi"
     }
   ]
 }
@@ -224,88 +224,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 527,
+  "DocumentId": 141,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "labore",
-  "Header": "est",
-  "Name": "McClure LLC",
-  "OurRef": "voluptas",
-  "YourRef": "distinctio",
-  "CreatedDate": "2016-06-24T12:15:26.8446371+02:00",
-  "UpdatedDate": "2011-08-21T12:15:26.8446371+02:00",
-  "Description": "Vision-oriented bifurcated local area network",
+  "Attention": "ratione",
+  "Header": "voluptas",
+  "Name": "Kassulke-Turner",
+  "OurRef": "non",
+  "YourRef": "porro",
+  "CreatedDate": "2002-09-08T15:29:29.6582004+02:00",
+  "UpdatedDate": "2008-09-24T15:29:29.6582004+02:00",
+  "Description": "Assimilated analyzing artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1996-10-24T12:15:26.8476372+02:00",
-  "ExternalRef": "assumenda",
+  "Date": "2017-10-31T15:29:29.6617048+01:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 707,
+  "ActiveLinks": 254,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lueilwitz, Gaylord and Barton",
-      "Id": 475,
-      "Description": "Ergonomic well-modulated software",
-      "ExtraInfo": "dolores",
-      "LinkId": 613,
+      "EntityName": "Osinski Inc and Sons",
+      "Id": 743,
+      "Description": "Digitized intangible database",
+      "ExtraInfo": "voluptate",
+      "LinkId": 392,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 86
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 232,
-  "Snum": 822,
+  "SuggestedDocumentId": 267,
+  "Snum": 486,
   "UserDefinedFields": {
-    "SuperOffice:1": "1299635548",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1868886774",
+    "SuperOffice:2": "394367252"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "necessitatibus"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "omnis"
+    "CustomFields1": "rerum",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "2006-12-12T12:15:26.8486374+01:00",
-  "PublishTo": "2009-05-28T12:15:26.8486374+02:00",
-  "PublishFrom": "2016-03-30T12:15:26.8486374+02:00",
+  "PublishEventDate": "2011-01-15T15:29:29.6622001+01:00",
+  "PublishTo": "2003-08-24T15:29:29.6622001+02:00",
+  "PublishFrom": "2009-05-24T15:29:29.6622001+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 10,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldType": "System.Int32",
+          "FieldLength": 711
         }
       }
     },
     {
-      "VisibleId": 10,
+      "VisibleId": 756,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldType": "System.Int32",
+          "FieldLength": 711
         }
       }
     }
@@ -314,8 +314,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldType": "System.Int32",
+      "FieldLength": 539
     }
   },
   "_Links": {

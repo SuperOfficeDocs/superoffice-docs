@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Murazik LLC",
-    "ToolTip": "Quasi ut exercitationem quaerat.",
+    "Id": 474,
+    "Name": "Funk-Thiel",
+    "ToolTip": "Iusto quis voluptas nesciunt ea quae ipsum assumenda.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "ea",
-    "ColorBlock": 538,
-    "IconHint": "distinctio",
+    "Rank": 488,
+    "Type": "provident",
+    "ColorBlock": 903,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2021-08-02T12:15:28.5316155+02:00",
+    "LastChanged": "2019-05-15T15:29:31.6419738+02:00",
     "ChildItems": [
       {
-        "Id": 186,
-        "Name": "Lesch LLC",
-        "ToolTip": "Autem hic ducimus eius eos.",
-        "Deleted": false,
-        "Rank": 53,
-        "Type": "a",
-        "ColorBlock": 732,
-        "IconHint": "quo",
+        "Id": 653,
+        "Name": "DuBuque LLC",
+        "ToolTip": "Qui quidem est et est.",
+        "Deleted": true,
+        "Rank": 927,
+        "Type": "nulla",
+        "ColorBlock": 461,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2006-04-02T12:15:28.5316155+02:00",
+        "LastChanged": "2008-10-18T15:29:31.6419738+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "itaque",
+        "ExtraInfo": "labore",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Prof. Irving Gaston Schuster",
+        "FullName": "Samara Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 749
+            "FieldLength": 812
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Lane Gottlieb",
+    "FullName": "Elouise O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldType": "System.Int32",
+        "FieldLength": 654
       }
     }
   }

@@ -88,8 +88,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 1001,
+  "PersonId": 796,
   "OnlyOpenSales": false
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hettinger, Barton and Leffler",
-    "SaleDate": "1997-09-13T12:15:20.0997347+02:00",
-    "SaleId": 631,
-    "Probability": 204,
-    "Title": "vel",
-    "Amount": 23432.917999999998,
-    "Currency": "optio",
-    "ProjectName": "Williamson LLC",
-    "AssociateFullName": "Eloy Kreiger",
-    "Description": "Stand-alone 24/7 monitoring",
+    "ContactName": "Yost-Christiansen",
+    "SaleDate": "2020-03-09T15:29:22.7368004+01:00",
+    "SaleId": 295,
+    "Probability": 220,
+    "Title": "beatae",
+    "Amount": 16776.302,
+    "Currency": "totam",
+    "ProjectName": "Lemke, Spencer and Boyer",
+    "AssociateFullName": "Mrs. Dorcas Jacobson MD",
+    "Description": "Realigned intangible initiative",
     "Status": "Lost",
-    "WeightedAmount": 11479.841999999999,
-    "ProjectId": 460,
-    "EarningPercent": 601.728,
-    "Earning": 3582.162,
-    "ContactId": 914,
-    "AssociateId": 506,
-    "PersonId": 984,
-    "SaleTypeId": 81,
-    "SaleTypeName": "Okuneva-Kris",
-    "PersonFullName": "Ada Kemmer",
+    "WeightedAmount": 2015.162,
+    "ProjectId": 652,
+    "EarningPercent": 10282.654,
+    "Earning": 22502.12,
+    "ContactId": 149,
+    "AssociateId": 495,
+    "PersonId": 569,
+    "SaleTypeId": 192,
+    "SaleTypeName": "Feest Inc and Sons",
+    "PersonFullName": "Felicity Batz",
     "Completed": "Completed",
-    "ActiveErpLinks": 907,
-    "NextDueDate": "2020-07-14T12:15:20.0997347+02:00",
-    "Number": "1374109",
+    "ActiveErpLinks": 399,
+    "NextDueDate": "2003-12-19T15:29:22.7372978+01:00",
+    "Number": "779651",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldType": "System.String",
+        "FieldLength": 67
       }
     }
   }

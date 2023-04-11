@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 629,
-  "Name": "Herzog LLC",
+  "WebhookId": 844,
+  "Name": "Spinka-Thompson",
   "Events": [
-    "cum",
-    "velit"
+    "provident",
+    "placeat"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "rerum",
+  "Secret": "facilis",
   "State": "Active",
-  "Type": "quis",
+  "Type": "quia",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "non"
+    "Headers1": "veniam",
+    "Headers2": "consequuntur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-04-02T12:15:20.6637278+02:00",
+  "Registered": "2020-12-01T15:29:23.439288+01:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-06-19T12:15:20.6637278+02:00",
+  "Updated": "2012-01-09T15:29:23.4407879+01:00",
   "UpdatedAssociate": null
 }
 ```

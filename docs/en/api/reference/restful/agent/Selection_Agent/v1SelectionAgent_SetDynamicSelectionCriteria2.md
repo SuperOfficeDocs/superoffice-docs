@@ -65,15 +65,15 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo | TableRight |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
+| Name | string | The programmatic column name, including any required prefixes |
+| Operator | string | The operator, such as =, etc |
+| Values | array | Value(s) to test against |
+| DisplayValues | array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | bool | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | int32 | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | string | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | int32 |  |
 
 ## Sample request
@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 613,
-  "Filter": "ipsa"
+  "SelectionId": 852,
+  "Filter": "asperiores"
 }
 ```
 
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mayert-Runolfsdottir",
-    "Operator": "consectetur",
+    "Name": "Spinka-Bernier",
+    "Operator": "maiores",
     "Values": [
-      "dolores",
-      "quia"
+      "tenetur",
+      "temporibus"
     ],
     "DisplayValues": [
-      "rerum",
-      "ut"
+      "provident",
+      "amet"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Paucek-Hickle",
-        "Operator": "accusantium",
+        "Name": "Lubowitz, Cruickshank and Kautzer",
+        "Operator": "placeat",
         "Values": [
-          "dolore",
-          "repellat"
+          "ducimus",
+          "officia"
         ],
         "DisplayValues": [
-          "ad",
-          "similique"
+          "dolorum",
+          "beatae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -129,14 +129,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 206,
+        "InterParenthesis": 949,
         "InterOperator": "And",
-        "UniqueHash": 371
+        "UniqueHash": 261
       }
     ],
-    "InterParenthesis": 146,
+    "InterParenthesis": 714,
     "InterOperator": "And",
-    "UniqueHash": 493
+    "UniqueHash": 268
   }
 ]
 ```

@@ -60,8 +60,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 629,
-  "Caption": "voluptas",
-  "Description": "Polarised multimedia database",
-  "ChartName": "Wolf, Jones and Schultz",
-  "ChartId": "non",
+  "DashboardTileId": 454,
+  "Caption": "iste",
+  "Description": "Ergonomic bi-directional benchmark",
+  "ChartName": "Kuhlman LLC",
+  "ChartId": "beatae",
   "IsDefault": true,
-  "AssociateId": 980,
-  "GroupId": 975,
-  "SelectionId": 592,
-  "Config": "dolores",
+  "AssociateId": 555,
+  "GroupId": 512,
+  "SelectionId": 694,
+  "Config": "eius",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wiegand-Effertz",
-      "Description": "Re-engineered real-time encryption",
+      "Name": "O'Keefe-Koch",
+      "Description": "Re-engineered client-driven open system",
       "Type": "Boolean",
-      "ListName": "Hane, Turner and Weissnat",
+      "ListName": "Hagenes, Schamberger and Jenkins",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "molestiae",
+      "Value": "voluptate",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 578
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 268,
+      "VisibleId": 66,
       "Visibility": "All",
-      "DisplayValue": "laborum",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldType": "System.String",
+          "FieldLength": 193
         }
       }
     },
     {
-      "VisibleId": 268,
+      "VisibleId": 66,
       "Visibility": "All",
-      "DisplayValue": "laborum",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldType": "System.String",
+          "FieldLength": 193
         }
       }
     }
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldType": "System.String",
+      "FieldLength": 360
     }
   }
 }

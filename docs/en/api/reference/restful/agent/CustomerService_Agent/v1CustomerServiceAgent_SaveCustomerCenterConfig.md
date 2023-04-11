@@ -67,8 +67,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,18 +76,18 @@ OK
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 447,
+  "CustConfigId": 351,
   "Type": "Options",
-  "Config": "est",
-  "CustLangId": 844,
-  "Registered": "2022-01-15T12:15:18.6367566+01:00",
-  "RegisteredAssociateId": 366,
-  "Updated": "2022-02-07T12:15:18.6367566+01:00",
-  "UpdatedAssociateId": 147
+  "Config": "vel",
+  "CustLangId": 620,
+  "Registered": "2008-06-26T15:29:21.2632834+02:00",
+  "RegisteredAssociateId": 179,
+  "Updated": "2011-06-04T15:29:21.2632834+02:00",
+  "UpdatedAssociateId": 179
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 781,
+  "CustConfigId": 416,
   "Type": "Options",
-  "Config": "veritatis",
-  "CustLangId": 649,
-  "Registered": "2010-08-19T12:15:18.6367566+02:00",
-  "RegisteredAssociateId": 628,
-  "Updated": "2019-04-30T12:15:18.6367566+02:00",
-  "UpdatedAssociateId": 511,
+  "Config": "reprehenderit",
+  "CustLangId": 140,
+  "Registered": "2010-09-20T15:29:21.2632834+02:00",
+  "RegisteredAssociateId": 776,
+  "Updated": "2018-10-19T15:29:21.2632834+02:00",
+  "UpdatedAssociateId": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 2
     }
   }
 }

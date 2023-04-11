@@ -25,7 +25,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=120
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=247
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -87,8 +87,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 348,
-  "TopicId": 47,
+  "ChatSessionId": 70,
+  "TopicId": 293,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "modi",
-  "CustomerName": "White-Heller",
-  "CustomerEmail": "zita@schumm.uk",
-  "CustomerPhone": "(236)211-4272 x731",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Bahringer-Schmidt",
+  "CustomerAlias": "consequatur",
+  "CustomerHost": "autem",
+  "CustomerName": "Bruen-Veum",
+  "CustomerEmail": "dewayne_bergstrom@steuberfunk.ca",
+  "CustomerPhone": "079.460.2111",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Fahey Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "possimus",
-  "WhenRequested": "2012-06-04T12:15:18.2907664+02:00",
-  "WhenStarted": "1998-02-28T12:15:18.2907664+01:00",
-  "WhenEnded": "2021-02-25T12:15:18.2907664+01:00",
-  "WhenIdle": "2012-12-16T12:15:18.2907664+01:00",
-  "WhenFetched": "2018-11-30T12:15:18.2907664+01:00",
-  "SessionKey": "illum",
-  "InitialQueuePos": 290,
-  "AlertLevel": 981,
-  "Rank": 587,
+  "FirstMessage": "ratione",
+  "LastMessage": "eos",
+  "WhenRequested": "2008-11-03T15:29:20.9073242+01:00",
+  "WhenStarted": "2019-07-22T15:29:20.9073242+02:00",
+  "WhenEnded": "2009-04-10T15:29:20.9073242+02:00",
+  "WhenIdle": "2005-06-04T15:29:20.9073242+02:00",
+  "WhenFetched": "2015-03-23T15:29:20.9073242+01:00",
+  "SessionKey": "ullam",
+  "InitialQueuePos": 790,
+  "AlertLevel": 847,
+  "Rank": 300,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 182,
+  "ChatbotIsActive": true,
+  "Rating": 124,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   }
 }

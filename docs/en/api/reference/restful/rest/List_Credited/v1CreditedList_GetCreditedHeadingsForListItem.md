@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Rodriguez-Davis",
-    "ToolTip": "Ipsa distinctio molestiae expedita debitis.",
-    "Deleted": false,
-    "Rank": 927,
-    "Type": "consequatur",
-    "ColorBlock": 695,
-    "IconHint": "eveniet",
-    "Selected": true,
-    "LastChanged": "1996-07-22T12:15:28.0706218+02:00",
+    "Id": 320,
+    "Name": "Bergnaum-Wolff",
+    "ToolTip": "Iste sapiente est veritatis nulla inventore.",
+    "Deleted": true,
+    "Rank": 540,
+    "Type": "cumque",
+    "ColorBlock": 908,
+    "IconHint": "explicabo",
+    "Selected": false,
+    "LastChanged": "1997-11-18T15:29:31.1944791+01:00",
     "ChildItems": [
       {
-        "Id": 471,
-        "Name": "Schaden-Greenfelder",
-        "ToolTip": "Nihil dolor reiciendis tempore laborum sit aliquid nobis.",
+        "Id": 182,
+        "Name": "Jenkins Group",
+        "ToolTip": "Nobis sit et delectus non voluptatem.",
         "Deleted": true,
-        "Rank": 871,
-        "Type": "est",
-        "ColorBlock": 886,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "2018-05-23T12:15:28.0736193+02:00",
+        "Rank": 208,
+        "Type": "aliquam",
+        "ColorBlock": 421,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2015-01-31T15:29:31.1944791+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Mr. Maci Robb Wiegand V",
+        "ExtraInfo": "qui",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Ashtyn Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 752
+            "FieldLength": 920
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "adipisci",
-    "Hidden": true,
-    "FullName": "Stacey Swift",
+    "ExtraInfo": "sed",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Sigrid Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 564
       }
     }
   }

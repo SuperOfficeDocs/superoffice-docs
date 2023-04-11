@@ -30,7 +30,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=138
+PUT /api/v1/Project/{id}/ImageInfo?projectId=743
 ```
 
 
@@ -94,8 +94,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,23 +103,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 131,
-  "BlobSize": 205,
-  "Description": "Operative exuding artificial intelligence",
-  "ExtraInfo": "temporibus",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "officia",
-  "OriginalSize": 737,
-  "CreatedDate": "2012-02-02T12:15:27.1956294+01:00",
-  "UpdatedDate": "2020-10-16T12:15:27.1956294+02:00",
+  "BlobId": 183,
+  "BlobSize": 862,
+  "Description": "Operative upward-trending approach",
+  "ExtraInfo": "rerum",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 589,
+  "CreatedDate": "2002-08-28T15:29:30.0046598+02:00",
+  "UpdatedDate": "1997-10-14T15:29:30.0046598+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusantium"
+  "ConceptualType": "cupiditate"
 }
 ```
 
@@ -130,25 +130,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 534,
-  "BlobSize": 232,
-  "Description": "Enterprise-wide neutral internet solution",
-  "ExtraInfo": "ut",
+  "BlobId": 28,
+  "BlobSize": 966,
+  "Description": "Cloned non-volatile firmware",
+  "ExtraInfo": "sed",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 147,
-  "CreatedDate": "2012-03-12T12:15:27.197632+01:00",
-  "UpdatedDate": "1998-12-22T12:15:27.197632+01:00",
+  "MimeType": "qui",
+  "OriginalSize": 588,
+  "CreatedDate": "2022-12-13T15:29:30.0076591+01:00",
+  "UpdatedDate": "2006-03-16T15:29:30.0076591+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "soluta",
+  "ConceptualType": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 527
     }
   }
 }

@@ -65,8 +65,8 @@ OK
 | Deleted | bool | If true, the resource is deleted. |
 | IsLocation | bool | If true the resource is a location |
 | LocationAddress | string | Address of location, if this is a resource that is a location |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 165,
-  "Name": "Boehm-Sanford",
-  "Rank": 250,
-  "Tooltip": "a",
+  "ResourceId": 196,
+  "Name": "Bradtke LLC",
+  "Rank": 410,
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "distinctio"
+  "IsLocation": false,
+  "LocationAddress": "iste"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 936,
-  "Name": "Cassin, Purdy and Ritchie",
-  "Rank": 965,
-  "Tooltip": "tempore",
+  "ResourceId": 8,
+  "Name": "Morissette-Schneider",
+  "Rank": 996,
+  "Tooltip": "officiis",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "itaque",
+  "LocationAddress": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldLength": 150
     }
   }
 }

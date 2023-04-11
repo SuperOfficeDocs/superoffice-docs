@@ -27,8 +27,8 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Romaguera, Wolff and Shields
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=209757
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Kassulke LLC
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=783907
 ```
 
 
@@ -60,8 +60,8 @@ OK
 |----------------|------|--------------|
 | Succeeded | bool |  |
 | Reason | string |  |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,14 +79,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
+  "Succeeded": true,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 563
     }
   }
 }

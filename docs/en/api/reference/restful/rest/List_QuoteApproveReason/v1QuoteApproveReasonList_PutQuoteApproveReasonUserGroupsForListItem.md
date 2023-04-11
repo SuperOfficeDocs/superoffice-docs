@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Mosciski Inc and Sons",
-    "ToolTip": "Blanditiis ut velit enim reprehenderit animi rem.",
+    "Id": 833,
+    "Name": "Koepp-Beier",
+    "ToolTip": "Quam cum commodi nihil doloribus illum.",
     "Deleted": true,
-    "Rank": 883,
-    "Type": "amet",
-    "ColorBlock": 468,
-    "IconHint": "in",
+    "Rank": 9,
+    "Type": "et",
+    "ColorBlock": 224,
+    "IconHint": "ducimus",
     "Selected": true,
-    "LastChanged": "2001-11-19T12:15:28.3666151+01:00",
+    "LastChanged": "2014-11-27T15:29:31.4814752+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Cremin Inc and Sons",
-        "ToolTip": "Quis doloremque libero pariatur voluptas.",
-        "Deleted": false,
-        "Rank": 368,
-        "Type": "quia",
-        "ColorBlock": 637,
-        "IconHint": "fuga",
+        "Id": 182,
+        "Name": "Bruen, Christiansen and Leffler",
+        "ToolTip": "Quam vel est illo id ea similique voluptatem.",
+        "Deleted": true,
+        "Rank": 341,
+        "Type": "laborum",
+        "ColorBlock": 193,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2018-11-23T12:15:28.3676178+01:00",
+        "LastChanged": "2021-01-24T15:29:31.4814752+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "alias",
-        "Hidden": false,
-        "FullName": "Daren Schultz"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Sadye Armstrong DVM"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Lisette Nicolas"
+    "ExtraInfo": "velit",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Era Rippin"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 729,
-    "Name": "Jast Group",
-    "ToolTip": "Qui ratione voluptatem.",
-    "Deleted": true,
-    "Rank": 379,
-    "Type": "culpa",
-    "ColorBlock": 438,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2019-02-03T12:15:28.3686154+01:00",
+    "Id": 818,
+    "Name": "Abshire, Sipes and Graham",
+    "ToolTip": "Autem laboriosam aliquid delectus similique.",
+    "Deleted": false,
+    "Rank": 54,
+    "Type": "omnis",
+    "ColorBlock": 738,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2013-05-04T15:29:31.4839759+02:00",
     "ChildItems": [
       {
-        "Id": 392,
-        "Name": "Parker, Parisian and Koepp",
-        "ToolTip": "Voluptas dolorem debitis qui vel porro autem.",
-        "Deleted": false,
-        "Rank": 395,
-        "Type": "voluptatem",
-        "ColorBlock": 680,
-        "IconHint": "et",
+        "Id": 203,
+        "Name": "Nolan LLC",
+        "ToolTip": "Blanditiis rem et ipsa in vitae ipsum doloremque.",
+        "Deleted": true,
+        "Rank": 702,
+        "Type": "magni",
+        "ColorBlock": 70,
+        "IconHint": "ex",
         "Selected": true,
-        "LastChanged": "1998-12-05T12:15:28.3686154+01:00",
+        "LastChanged": "1996-04-18T15:29:31.4839759+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "quia",
+        "ExtraInfo": "cumque",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Miss Abraham D'Amore",
+        "FullName": "Mr. Deon Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 666
+            "FieldLength": 784
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "id",
+    "ExtraInfo": "odio",
+    "StyleHint": "sit",
     "Hidden": true,
-    "FullName": "Mr. Dianna Steuber I",
+    "FullName": "Kailyn Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 785
       }
     }
   }

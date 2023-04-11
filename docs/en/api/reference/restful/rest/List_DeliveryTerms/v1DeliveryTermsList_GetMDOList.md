@@ -26,7 +26,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=cum
+GET /api/v1/List/DeliveryTerm/MDOItems?query=possimus
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Fadel Inc and Sons",
-    "ToolTip": "Molestiae vel tempora neque culpa ea.",
+    "Id": 71,
+    "Name": "Fisher, Corkery and Maggio",
+    "ToolTip": "Rerum explicabo eum eos.",
     "Deleted": false,
-    "Rank": 255,
-    "Type": "dicta",
+    "Rank": 421,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Carroll Inc and Sons",
-        "ToolTip": "Perspiciatis non.",
+        "Id": 591,
+        "Name": "Lynch Group",
+        "ToolTip": "In molestias eos.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "magnam",
+        "Rank": 886,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 916,
-        "ExtraInfo": "maxime",
-        "StyleHint": "omnis",
-        "FullName": "Adriel Ari Gottlieb Jr.",
+        "IconHint": "et",
+        "ColorBlock": 297,
+        "ExtraInfo": "aliquid",
+        "StyleHint": "sit",
+        "FullName": "Price Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 148
+            "FieldType": "System.String",
+            "FieldLength": 469
           }
         }
       }
     ],
-    "IconHint": "enim",
-    "ColorBlock": 758,
-    "ExtraInfo": "commodi",
-    "StyleHint": "quos",
-    "FullName": "Francis Schneider",
+    "IconHint": "distinctio",
+    "ColorBlock": 66,
+    "ExtraInfo": "autem",
+    "StyleHint": "natus",
+    "FullName": "Dr. Aletha Audie Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldLength": 27
       }
     }
   }

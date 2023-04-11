@@ -71,8 +71,8 @@ OK
 | Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 548,
+  "QuoteVersionId": 871,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 950
+  "CountryId": 583
 }
 ```
 
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 19223.956,
-  "Wgs84Longitude": 4769.9479999999994,
+  "Wgs84Latitude": 16509.912,
+  "Wgs84Longitude": 18584.62,
   "LocalizedAddress": [
     [
       {
-        "Name": "Feeney-Franecki",
-        "Value": "architecto",
-        "Tooltip": "necessitatibus",
-        "Label": "optio",
-        "ValueLength": 793,
-        "AddressType": "aut",
+        "Name": "Dach, Champlin and Deckow",
+        "Value": "cum",
+        "Tooltip": "aut",
+        "Label": "in",
+        "ValueLength": 478,
+        "AddressType": "molestiae",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 917
+            "FieldLength": 800
           }
         }
       }
     ],
     [
       {
-        "Name": "Huel-Daugherty",
-        "Value": "placeat",
-        "Tooltip": "voluptas",
-        "Label": "quo",
-        "ValueLength": 234,
-        "AddressType": "consequatur",
+        "Name": "McCullough Inc and Sons",
+        "Value": "fuga",
+        "Tooltip": "praesentium",
+        "Label": "consequatur",
+        "ValueLength": 784,
+        "AddressType": "debitis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 688
+            "FieldType": "System.Int32",
+            "FieldLength": 631
           }
         }
       }
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "et",
+  "Formatted": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 565
+      "FieldType": "System.Int32",
+      "FieldLength": 157
     }
   }
 }

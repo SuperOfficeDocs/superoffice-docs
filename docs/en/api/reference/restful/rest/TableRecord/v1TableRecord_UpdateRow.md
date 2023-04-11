@@ -47,7 +47,7 @@ No Content
 | 204 | No Content |
 | 400 | Bad request. Entity to save is not in request body. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -56,7 +56,7 @@ No Content
 PUT /api/v1/Table/{tableName}/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

@@ -59,8 +59,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 924,
-  "BlobSize": 627,
-  "Description": "Multi-channelled optimal customer loyalty",
-  "ExtraInfo": "voluptatum",
+  "BlobId": 853,
+  "BlobSize": 2,
+  "Description": "Enterprise-wide attitude-oriented initiative",
+  "ExtraInfo": "fugit",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "delectus",
-  "OriginalSize": 517,
-  "CreatedDate": "2010-02-01T12:15:18.2147623+01:00",
-  "UpdatedDate": "2017-10-04T12:15:18.2147623+02:00",
+  "IsZipped": true,
+  "MimeType": "perspiciatis",
+  "OriginalSize": 388,
+  "CreatedDate": "2017-11-19T15:29:20.8332887+01:00",
+  "UpdatedDate": "2004-10-11T15:29:20.8332887+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum",
+  "ConceptualType": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 380
     }
   }
 }

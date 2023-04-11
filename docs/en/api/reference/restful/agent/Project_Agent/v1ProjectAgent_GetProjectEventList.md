@@ -81,8 +81,8 @@ OK
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,34 +101,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Jamarcus Sporer",
-    "Description": "Seamless dynamic circuit",
-    "ProjectId": 121,
-    "EventName": "Bosco Inc and Sons",
-    "AssociateId": 700,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "repudiandae",
-    "SignOffText": "vel",
-    "SignOnConfirmationText": "sunt",
-    "SignOnText": "aut",
-    "EventDate": "2002-01-16T12:15:19.8547387+01:00",
+    "AssociateFullName": "Ari Hegmann",
+    "Description": "Organized real-time standardization",
+    "ProjectId": 543,
+    "EventName": "Hirthe-Pouros",
+    "AssociateId": 61,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "corporis",
+    "SignOffText": "ut",
+    "SignOnConfirmationText": "dignissimos",
+    "SignOnText": "esse",
+    "EventDate": "1998-06-16T15:29:22.4807662+02:00",
     "Enabled": false,
-    "SignOff": false,
-    "SignOffTaskEnable": true,
+    "SignOff": true,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 707,
-    "SignOnTaskId": 172,
+    "SignOn": false,
+    "SignOffTaskId": 234,
+    "SignOnTaskId": 829,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 948,
-    "SignOffPersonId": 474,
+    "SignOnPersonId": 941,
+    "SignOffPersonId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldLength": 960
       }
     }
   }

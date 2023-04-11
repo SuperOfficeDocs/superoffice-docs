@@ -26,7 +26,7 @@ Get the MDO list items for "ReasonStalled" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ReasonStalled/MDOItems?flat=False
-GET /api/v1/List/ReasonStalled/MDOItems?query=autem
+GET /api/v1/List/ReasonStalled/MDOItems?query=ipsam
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ReasonStalled/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Cartwright, Douglas and Kiehn",
-    "ToolTip": "Aut aspernatur quas occaecati delectus consequatur.",
-    "Deleted": true,
-    "Rank": 199,
-    "Type": "quibusdam",
+    "Id": 687,
+    "Name": "Cormier, Kovacek and Douglas",
+    "ToolTip": "Quia aliquam.",
+    "Deleted": false,
+    "Rank": 739,
+    "Type": "culpa",
     "ChildItems": [
       {
-        "Id": 660,
-        "Name": "Connelly, Reynolds and Beahan",
-        "ToolTip": "Aut sequi est in amet soluta sit excepturi.",
+        "Id": 456,
+        "Name": "Little LLC",
+        "ToolTip": "Rerum velit eaque sint illo.",
         "Deleted": true,
-        "Rank": 668,
-        "Type": "minima",
+        "Rank": 383,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "atque",
-        "ColorBlock": 34,
-        "ExtraInfo": "nulla",
-        "StyleHint": "aut",
-        "FullName": "Marvin Bode",
+        "IconHint": "aperiam",
+        "ColorBlock": 601,
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "ea",
+        "FullName": "Leilani Denesik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 556
+            "FieldLength": 221
           }
         }
       }
     ],
-    "IconHint": "totam",
-    "ColorBlock": 611,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "eos",
-    "FullName": "Miss Josiah Herta Marquardt DVM",
+    "IconHint": "ex",
+    "ColorBlock": 912,
+    "ExtraInfo": "soluta",
+    "StyleHint": "et",
+    "FullName": "Bridget Matteo Mueller IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldType": "System.Int32",
+        "FieldLength": 315
       }
     }
   }

@@ -25,7 +25,7 @@ Gets a MailboxEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=379
+POST /api/v1/Agents/CustomerService/GetMailboxEntity?mailboxEntityId=89
 POST /api/v1/Agents/CustomerService/GetMailboxEntity?$select=name,department,category/id
 ```
 
@@ -63,8 +63,8 @@ OK
 | Password | string | The password used to log into the mail account. This is hidden when reading |
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 604,
+  "MailInFilterId": 127,
   "ServerType": "Facebook",
-  "Address": "natus",
-  "Username": "voluptatem",
-  "Password": "similique",
-  "Server": "dolorem",
-  "Port": 391,
+  "Address": "similique",
+  "Username": "culpa",
+  "Password": "nemo",
+  "Server": "est",
+  "Port": 206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 165
     }
   }
 }

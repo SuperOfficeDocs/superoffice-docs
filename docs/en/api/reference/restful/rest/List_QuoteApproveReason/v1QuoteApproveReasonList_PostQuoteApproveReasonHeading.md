@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 692,
-  "Name": "Ebert-Ondricka",
-  "Tooltip": "sit",
+  "HeadingId": 513,
+  "Name": "Howe, Roberts and Hermiston",
+  "Tooltip": "vero",
   "Deleted": true,
-  "Rank": 813,
-  "UdListDefinitionId": 421
+  "Rank": 399,
+  "UdListDefinitionId": 976
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 591,
-  "Name": "Jakubowski Inc and Sons",
-  "Tooltip": "harum",
+  "HeadingId": 798,
+  "Name": "Homenick-Walsh",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 683,
-  "UdListDefinitionId": 952,
+  "Rank": 82,
+  "UdListDefinitionId": 648,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 409
     }
   }
 }

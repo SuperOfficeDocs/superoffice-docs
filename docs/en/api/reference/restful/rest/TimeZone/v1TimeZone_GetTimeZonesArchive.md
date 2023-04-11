@@ -38,12 +38,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=blanditiis
-GET /api/v1/TimeZone?$top=554
-GET /api/v1/TimeZone?$skip=200
+GET /api/v1/TimeZone?$entities=delectus
+GET /api/v1/TimeZone?$top=321
+GET /api/v1/TimeZone?$skip=651
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=molestias
+GET /api/v1/TimeZone?$context=blanditiis
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,21 +95,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "hic",
+  "odata.nextLink": "error",
   "value": [
     {
-      "PrimaryKey": 7392,
+      "PrimaryKey": 486,
       "EntityName": "sale",
-      "saleId": 7392,
-      "contactId": 5115,
-      "name": "Conroy-Farrell"
+      "saleId": 486,
+      "contactId": 9722,
+      "name": "Jerde, Ritchie and Abernathy"
     },
     {
-      "PrimaryKey": 7957,
+      "PrimaryKey": 660,
       "EntityName": "sale",
-      "saleId": 7957,
-      "contactId": 5822,
-      "name": "Lind, Lesch and Barrows"
+      "saleId": 660,
+      "contactId": 42,
+      "name": "Nicolas, Lowe and Grady"
     }
   ]
 }

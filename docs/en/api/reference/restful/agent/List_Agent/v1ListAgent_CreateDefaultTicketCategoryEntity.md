@@ -64,8 +64,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 569,
-  "ParentId": 771,
-  "Name": "McDermott-Rogahn",
-  "Fullname": "rem",
-  "CategoryMaster": 35,
+  "TicketCategoryId": 970,
+  "ParentId": 569,
+  "Name": "Reinger-Berge",
+  "Fullname": "et",
+  "CategoryMaster": 975,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gislason, Harris and Marquardt",
+  "ExternalName": "Stracke-Langworth",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 648,
-  "ReplyTemplate": 670,
-  "NotificationEmail": "terry_feeney@parisian.com",
+  "AssignmentLag": 275,
+  "ReplyTemplate": 143,
+  "NotificationEmail": "keanu@grimesbauch.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 407,
+  "EffectiveReplyTemplateId": 523,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "placeat",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "ratione"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "reiciendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldLength": 806
     }
   }
 }

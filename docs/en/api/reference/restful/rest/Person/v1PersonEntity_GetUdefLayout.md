@@ -80,8 +80,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 263,
-    "ColumnId": 457,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 644,
-    "FieldLabel": "nulla",
-    "FieldLeft": 368,
-    "FieldTop": 129,
+    "UDefFieldId": 519,
+    "ColumnId": 405,
+    "FieldDefault": "aut",
+    "FieldHeight": 810,
+    "FieldLabel": "sint",
+    "FieldLeft": 566,
+    "FieldTop": 825,
     "FieldType": "Checkbox",
-    "FieldWidth": 69,
-    "FormatMask": "magni",
+    "FieldWidth": 645,
+    "FormatMask": "iste",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 228,
-    "LabelLeft": 740,
-    "LabelTop": 10,
-    "LabelWidth": 149,
-    "LastVersionId": 184,
-    "ListTableId": 288,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 855,
+    "LabelLeft": 67,
+    "LabelTop": 553,
+    "LabelWidth": 110,
+    "LastVersionId": 903,
+    "ListTableId": 814,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 636,
-    "ProgId": "laudantium",
-    "IsReadOnly": true,
-    "ShortLabel": "consequatur",
-    "TabOrder": 107,
-    "TextLength": 995,
-    "Tooltip": "amet",
-    "UdefIdentity": 402,
-    "UDListDefinitionId": 590,
+    "Page1LineNo": 433,
+    "ProgId": "dolorem",
+    "IsReadOnly": false,
+    "ShortLabel": "earum",
+    "TabOrder": 661,
+    "TextLength": 349,
+    "Tooltip": "eum",
+    "UdefIdentity": 763,
+    "UDListDefinitionId": 750,
     "Justification": "Center",
-    "Version": 157,
-    "TemplateVariableName": "Eichmann, Stamm and Greenfelder",
+    "Version": 546,
+    "TemplateVariableName": "Murazik, Hettinger and Gorczany",
     "HasBeenPublished": false,
-    "MdoListName": "Greenfelder, Padberg and Bergstrom",
+    "MdoListName": "Kling LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldLength": 74
       }
     }
   }

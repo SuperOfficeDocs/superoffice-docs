@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 644,
-  "IncludeEmails": false
+  "DocumentPluginId": 37,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 851,
-  "NumDocumentsAlreadyMigrated": 988,
+  "NumDocumentsOmitted": 987,
+  "NumDocumentsAlreadyMigrated": 37,
   "Documents": [
     {
-      "DocumentId": 404,
-      "ContactId": 470,
-      "PersonId": 883,
-      "SaleId": 375,
-      "ProjectId": 434,
-      "DocTmplId": 977,
-      "AssociateId": 306,
-      "UserGroupId": 326,
-      "VisibleForId": 532
+      "DocumentId": 427,
+      "ContactId": 586,
+      "PersonId": 334,
+      "SaleId": 143,
+      "ProjectId": 363,
+      "DocTmplId": 106,
+      "AssociateId": 127,
+      "UserGroupId": 373,
+      "VisibleForId": 829
     }
   ],
   "Associates": [
     {
-      "AssociateId": 308,
-      "EmailAddress": "reginald@strosin.us"
+      "AssociateId": 898,
+      "EmailAddress": "izabella@cummeratacorkery.uk"
     },
     {
-      "AssociateId": 308,
-      "EmailAddress": "reginald@strosin.us"
+      "AssociateId": 898,
+      "EmailAddress": "izabella@cummeratacorkery.uk"
     }
   ]
 }

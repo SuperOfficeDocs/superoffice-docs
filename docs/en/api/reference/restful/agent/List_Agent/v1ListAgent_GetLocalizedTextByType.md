@@ -70,8 +70,8 @@ OK
 | Type | string | The type of the text string, e.g. Field label, Udef label, etc. |
 | LocalizedTextId | int32 | Primary key |
 | IsBuiltIn | bool | 1 = this row is populated and maintained by SuperOffice |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 127,
-  "LanguageId": 67
+  "ResourceId": 922,
+  "LanguageId": 532
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 290,
-  "ResourceId": 944,
-  "Text": "voluptas",
+  "LanguageId": 936,
+  "ResourceId": 82,
+  "Text": "reiciendis",
   "Type": "Column",
-  "LocalizedTextId": 763,
-  "IsBuiltIn": false,
+  "LocalizedTextId": 682,
+  "IsBuiltIn": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldType": "System.String",
+      "FieldLength": 814
     }
   }
 }

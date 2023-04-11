@@ -48,7 +48,7 @@ NewLicense
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| NewLicense | TableRight |  |
+| NewLicense | TimeZoneData |  |
 
 ## Response:
 
@@ -64,8 +64,8 @@ OK
 |----------------|------|--------------|
 | Succeeded | bool |  |
 | Reason | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/License/ActivateLicenseInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,8 +94,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

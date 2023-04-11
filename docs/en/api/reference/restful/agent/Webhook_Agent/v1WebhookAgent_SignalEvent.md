@@ -61,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,12 +70,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Murazik, Heaney and Maggio",
-  "PrimaryKey": 952,
+  "EventName": "Little Inc and Sons",
+  "PrimaryKey": 69,
   "Data": {
     "fieldName": {}
   }

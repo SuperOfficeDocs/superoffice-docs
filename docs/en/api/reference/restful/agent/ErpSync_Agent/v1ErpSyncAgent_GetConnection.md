@@ -76,8 +76,8 @@ OK
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 774
+  "ErpConnectionId": 667
 }
 ```
 
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 931,
-  "ErpConnectorId": 684,
-  "DisplayName": "Watsica, Dickens and Gottlieb",
-  "DisplayDescription": "Synergistic reciprocal architecture",
+  "ErpConnectionId": 591,
+  "ErpConnectorId": 356,
+  "DisplayName": "Towne LLC",
+  "DisplayDescription": "Robust cohesive hardware",
   "Active": false,
-  "ConnectionId": "vero",
-  "MostRecentTimestamp": "impedit",
+  "ConnectionId": "alias",
+  "MostRecentTimestamp": "suscipit",
   "ConfigFields": {
-    "ConfigFields1": "sit",
-    "ConfigFields2": "at"
+    "ConfigFields1": "qui",
+    "ConfigFields2": "cum"
   },
   "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    361,
-    489
+    35,
+    786
   ],
   "AssociateAccessIds": [
-    425,
-    421
+    51,
+    403
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 644
     }
   }
 }

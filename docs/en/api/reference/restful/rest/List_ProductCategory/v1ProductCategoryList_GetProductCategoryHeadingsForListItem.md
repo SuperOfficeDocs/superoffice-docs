@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 727,
-    "Name": "Schroeder Inc and Sons",
-    "ToolTip": "Iure consectetur voluptatibus iure officia voluptates perspiciatis omnis.",
-    "Deleted": true,
-    "Rank": 227,
-    "Type": "qui",
-    "ColorBlock": 72,
-    "IconHint": "in",
+    "Id": 943,
+    "Name": "Williamson-Muller",
+    "ToolTip": "Voluptas magni non.",
+    "Deleted": false,
+    "Rank": 91,
+    "Type": "aut",
+    "ColorBlock": 217,
+    "IconHint": "voluptatibus",
     "Selected": true,
-    "LastChanged": "1998-06-30T12:15:28.2856167+02:00",
+    "LastChanged": "2011-10-25T15:29:31.4009772+02:00",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Wiegand Group",
-        "ToolTip": "Modi perferendis voluptates molestiae et.",
+        "Id": 881,
+        "Name": "Konopelski, Muller and Mosciski",
+        "ToolTip": "Praesentium sit et est perferendis.",
         "Deleted": false,
-        "Rank": 900,
-        "Type": "doloribus",
-        "ColorBlock": 89,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "1996-05-07T12:15:28.2856167+02:00",
+        "Rank": 555,
+        "Type": "aliquam",
+        "ColorBlock": 127,
+        "IconHint": "exercitationem",
+        "Selected": false,
+        "LastChanged": "2000-04-22T15:29:31.4009772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "unde",
-        "Hidden": false,
-        "FullName": "Patsy Ernser DDS",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "perferendis",
+        "Hidden": true,
+        "FullName": "Edgar Funk DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 258
+            "FieldLength": 668
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Dr. Whitney Tony Lakin Jr.",
+    "ExtraInfo": "aut",
+    "StyleHint": "at",
+    "Hidden": false,
+    "FullName": "Mack Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldLength": 650
       }
     }
   }

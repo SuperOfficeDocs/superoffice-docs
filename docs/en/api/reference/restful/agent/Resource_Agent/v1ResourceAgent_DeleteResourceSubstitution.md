@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/Resource/DeleteResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Conroy-Lueilwitz",
-  "Culture": "ut"
+  "ResourceName": "Bechtelar-Mayert",
+  "Culture": "enim"
 }
 ```
 

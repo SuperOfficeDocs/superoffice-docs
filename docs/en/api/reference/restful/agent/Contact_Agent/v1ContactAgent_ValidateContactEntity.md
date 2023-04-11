@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Contact/ValidateContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,7 +82,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "molestiae",
-  "2": "voluptatem"
+  "1": "voluptatibus",
+  "2": "at"
 }
 ```

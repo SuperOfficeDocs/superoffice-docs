@@ -57,8 +57,8 @@ OK
 | Period1 | int32 | Days in the first period |
 | Period2 | int32 | Days in the second period |
 | Period3 | int32 | Days in the third period |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,9 +70,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 845,
-  "Period2": 356,
-  "Period3": 636
+  "Period1": 158,
+  "Period2": 687,
+  "Period3": 456
 }
 ```
 
@@ -83,15 +83,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 647,
-  "Period2": 829,
-  "Period3": 634,
+  "Period1": 935,
+  "Period2": 537,
+  "Period3": 908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 961
     }
   }
 }

@@ -70,8 +70,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,11 +83,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 986,
-  "Name": "Funk Group",
-  "Tooltip": "maxime",
-  "Rank": 885,
-  "Key": "quibusdam",
+  "LegalBaseId": 267,
+  "Name": "Rutherford-Abshire",
+  "Tooltip": "ipsum",
+  "Rank": 776,
+  "Key": "id",
   "Deleted": false
 }
 ```
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 122,
-  "Name": "Quigley, Legros and Moen",
-  "Tooltip": "distinctio",
-  "Rank": 180,
-  "Key": "nihil",
+  "LegalBaseId": 506,
+  "Name": "Block-Batz",
+  "Tooltip": "facilis",
+  "Rank": 874,
+  "Key": "architecto",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 846
     }
   }
 }

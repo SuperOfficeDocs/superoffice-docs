@@ -56,8 +56,8 @@ OK
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 802,
+  "SystemEventId": 891,
   "Scope": "Database",
-  "Eta": "2005-03-20T12:15:18.4177625+01:00",
-  "Eventkey": "aperiam",
-  "Eventmess": "ut",
-  "ExtraInfo": 244,
-  "Owner": 224,
-  "UpdatedCount": 147,
-  "Registered": "2021-07-31T12:15:18.4177625+02:00",
+  "Eta": "2013-02-27T15:29:21.0317856+01:00",
+  "Eventkey": "consequatur",
+  "Eventmess": "eveniet",
+  "ExtraInfo": 992,
+  "Owner": 435,
+  "UpdatedCount": 241,
+  "Registered": "2000-06-12T15:29:21.0317856+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 332
     }
   }
 }

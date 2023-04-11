@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project",
-  "Context": "dolorum"
+  "Tablename": "contact",
+  "Context": "eum"
 }
 ```
 
@@ -104,76 +104,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "CanSupportMultiUse": true,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "architecto",
-    "ValueType": "saepe",
+    "Key": "suscipit",
+    "ValueType": "a",
     "Mandatory": true,
-    "EncodedDisplayName": "Stehr Group",
-    "EncodedDisplayDescription": "Monitored didactic encoding",
-    "IconHint": "unde",
+    "EncodedDisplayName": "Hahn Group",
+    "EncodedDisplayDescription": "Optional empowering moratorium",
+    "IconHint": "ex",
     "ControlInfos": [
       {
-        "Type": "et",
-        "Label": "non",
-        "Dimension": 889,
-        "ListProviderName": "Kerluke-King",
-        "ListProviderExtraInfo": "et",
-        "ListProviderPrimaryKeyName": "Ondricka-Reilly",
-        "ListLeadText": "accusantium",
+        "Type": "quis",
+        "Label": "qui",
+        "Dimension": 371,
+        "ListProviderName": "Bashirian LLC",
+        "ListProviderExtraInfo": "porro",
+        "ListProviderPrimaryKeyName": "Zieme-Kerluke",
+        "ListLeadText": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldType": "System.String",
+            "FieldLength": 408
           }
         }
       }
     ],
-    "EncodedDataCaption": "asperiores",
-    "EncodedDataCaptionDescription": "Inverse mission-critical process improvement",
-    "CurrentOperationType": "expedita",
+    "EncodedDataCaption": "rem",
+    "EncodedDataCaptionDescription": "Automated dynamic Graphic Interface",
+    "CurrentOperationType": "quae",
     "Values": [
-      "quia",
-      "animi"
+      "architecto",
+      "vel"
     ],
     "DisplayValues": [
-      "ea",
-      "dolorem"
+      "reprehenderit",
+      "sapiente"
     ],
     "OperationInfos": [
       {
-        "Key": "sunt",
-        "EncodedDisplayName": "Boyle-Daugherty",
+        "Key": "laboriosam",
+        "EncodedDisplayName": "Ullrich Inc and Sons",
         "EncodedLeadTexts": [
-          "atque",
-          "voluptas"
+          "iste",
+          "similique"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 423
+            "FieldLength": 395
           }
         }
       },
       {
-        "Key": "sunt",
-        "EncodedDisplayName": "Boyle-Daugherty",
+        "Key": "laboriosam",
+        "EncodedDisplayName": "Ullrich Inc and Sons",
         "EncodedLeadTexts": [
-          "atque",
-          "voluptas"
+          "iste",
+          "similique"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 423
+            "FieldLength": 395
           }
         }
       }

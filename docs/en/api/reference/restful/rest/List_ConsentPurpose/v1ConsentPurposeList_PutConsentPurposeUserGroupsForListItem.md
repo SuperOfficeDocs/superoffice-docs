@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Jones-Dare",
-    "ToolTip": "Est temporibus distinctio qui et.",
+    "Id": 598,
+    "Name": "Kozey, Price and Leannon",
+    "ToolTip": "Aut et possimus veniam sint tempore sit unde.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "architecto",
-    "ColorBlock": 134,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2008-12-17T12:15:27.9286212+01:00",
+    "Rank": 811,
+    "Type": "commodi",
+    "ColorBlock": 951,
+    "IconHint": "modi",
+    "Selected": false,
+    "LastChanged": "2000-12-04T15:29:31.1384782+01:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Berge LLC",
-        "ToolTip": "Iusto blanditiis quod quae architecto totam vel.",
-        "Deleted": true,
-        "Rank": 555,
-        "Type": "qui",
-        "ColorBlock": 763,
-        "IconHint": "odio",
+        "Id": 198,
+        "Name": "Strosin, Cole and Bergstrom",
+        "ToolTip": "Voluptatem est in.",
+        "Deleted": false,
+        "Rank": 262,
+        "Type": "cumque",
+        "ColorBlock": 787,
+        "IconHint": "veniam",
         "Selected": true,
-        "LastChanged": "2009-03-18T12:15:27.9286212+01:00",
+        "LastChanged": "2020-10-21T15:29:31.1389785+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quas",
+        "ExtraInfo": "officiis",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Dawn Maggio"
+        "FullName": "Maurice Berge"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Bernardo Bergstrom"
+    "FullName": "Prof. Keshaun Charity Pacocha"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 852,
-    "Name": "O'Keefe-Emard",
-    "ToolTip": "Quis quo.",
+    "Id": 517,
+    "Name": "Pollich LLC",
+    "ToolTip": "Maiores rem aut et minima.",
     "Deleted": false,
-    "Rank": 943,
-    "Type": "ipsam",
-    "ColorBlock": 357,
-    "IconHint": "vel",
+    "Rank": 333,
+    "Type": "deserunt",
+    "ColorBlock": 34,
+    "IconHint": "voluptates",
     "Selected": true,
-    "LastChanged": "2011-02-24T12:15:27.9296214+01:00",
+    "LastChanged": "2022-03-22T15:29:31.1414782+01:00",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Koelpin-Hagenes",
-        "ToolTip": "Sequi molestias sit dolor distinctio quam dicta provident.",
+        "Id": 65,
+        "Name": "McKenzie LLC",
+        "ToolTip": "Harum aperiam ipsam doloremque ea quia est nam.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "sed",
-        "ColorBlock": 591,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2022-03-25T12:15:27.9296214+01:00",
+        "Rank": 539,
+        "Type": "fugit",
+        "ColorBlock": 966,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2017-03-25T15:29:31.1414782+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Celestino Kilback",
+        "ExtraInfo": "ea",
+        "StyleHint": "facere",
+        "Hidden": true,
+        "FullName": "Genesis Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 660
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "commodi",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Maryam Kreiger",
+    "FullName": "Ms. Jeffry Mosciski DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldLength": 747
       }
     }
   }

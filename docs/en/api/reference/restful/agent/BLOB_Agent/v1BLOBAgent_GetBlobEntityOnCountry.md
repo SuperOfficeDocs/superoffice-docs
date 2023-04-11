@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 564
+  "CountryId": 481
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 786,
-  "BlobSize": 484,
-  "Description": "Optimized dynamic software",
-  "ExtraInfo": "totam",
-  "IsEncrypted": false,
+  "BlobId": 188,
+  "BlobSize": 899,
+  "Description": "Re-engineered national knowledge base",
+  "ExtraInfo": "facere",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 345,
-  "CreatedDate": "1996-10-26T12:15:18.2277644+02:00",
-  "UpdatedDate": "2022-12-26T12:15:18.2277644+01:00",
+  "MimeType": "non",
+  "OriginalSize": 665,
+  "CreatedDate": "2021-03-01T15:29:20.8457891+01:00",
+  "UpdatedDate": "2022-02-04T15:29:20.8457891+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "non",
+  "ConceptualType": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

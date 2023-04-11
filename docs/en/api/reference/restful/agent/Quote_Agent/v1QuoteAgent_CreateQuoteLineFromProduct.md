@@ -112,8 +112,8 @@ OK
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 242,
+  "QuoteAlternativeId": 819,
   "Product": null
 }
 ```
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 274,
-  "ERPQuoteLineKey": "odit",
-  "QuoteAlternativeId": 566,
-  "ERPProductKey": "inventore",
+  "QuoteLineId": 644,
+  "ERPQuoteLineKey": "fugiat",
+  "QuoteAlternativeId": 994,
+  "ERPProductKey": "sint",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 3798.408,
-  "DeliveredQuantity": 18553.28,
-  "Rank": 529,
-  "Name": "Hartmann Group",
-  "Description": "Cloned leading edge protocol",
-  "Code": "est",
-  "QuantityUnit": "labore",
-  "PriceUnit": "dicta",
-  "ItemNumber": "951977",
+  "Quantity": 21047.944,
+  "DeliveredQuantity": 2877.0119999999997,
+  "Rank": 461,
+  "Name": "Rice Inc and Sons",
+  "Description": "Profit-focused clear-thinking forecast",
+  "Code": "enim",
+  "QuantityUnit": "quia",
+  "PriceUnit": "eaque",
+  "ItemNumber": "901497",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
-  "ProductTypeKey": "quam",
-  "Supplier": "nobis",
-  "SupplierCode": "odit",
-  "Thumbnail": "est",
-  "VATInfo": "consequatur",
-  "VAT": 26407.084,
-  "UnitCost": 13466.797999999999,
-  "UnitMinimumPrice": 13520.076,
-  "UnitListPrice": 24677.115999999998,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "eos",
+  "Supplier": "ab",
+  "SupplierCode": "ea",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "et",
+  "VAT": 24695.92,
+  "UnitCost": 16494.242,
+  "UnitMinimumPrice": 30484.417999999998,
+  "UnitListPrice": 17920.212,
   "ExtraInfo": [
     {
-      "Name": "Collins, Borer and Kub",
-      "Value": "illum",
+      "Name": "Gorczany-Howe",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldLength": 575
         }
       }
     },
     {
-      "Name": "Collins, Borer and Kub",
-      "Value": "illum",
+      "Name": "Gorczany-Howe",
+      "Value": "ullam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 269
+          "FieldLength": 575
         }
       }
     }
   ],
-  "RawExtraInfo": "odit",
+  "RawExtraInfo": "deleniti",
   "IsSubscription": true,
-  "SubscriptionUnit": "cupiditate",
-  "SubscriptionQuantity": 15930.122,
-  "SubscriptionStart": "1999-05-28T12:15:19.9657371+02:00",
-  "ERPDiscountPercent": 22336.018,
-  "ERPDiscountAmount": 12852.534,
-  "DiscountPercent": 25993.396,
-  "DiscountAmount": 29732.257999999998,
+  "SubscriptionUnit": "ab",
+  "SubscriptionQuantity": 31302.392,
+  "SubscriptionStart": "2009-11-18T15:29:22.5922644+01:00",
+  "ERPDiscountPercent": 28983.232,
+  "ERPDiscountAmount": 20192.362,
+  "DiscountPercent": 6067.424,
+  "DiscountAmount": 18064.376,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 6568.864,
-  "EarningAmount": 5744.6219999999994,
-  "SubTotal": 20386.67,
-  "TotalPrice": 1049.8899999999999,
-  "Rights": "ut",
-  "Rule": "ratione",
-  "ExtraField1": "modi",
-  "ExtraField2": "optio",
-  "ExtraField3": "et",
-  "ExtraField4": "veritatis",
-  "ExtraField5": "labore",
+  "EarningPercent": 5938.9299999999994,
+  "EarningAmount": 12241.404,
+  "SubTotal": 28666.698,
+  "TotalPrice": 959.004,
+  "Rights": "odit",
+  "Rule": "aliquam",
+  "ExtraField1": "similique",
+  "ExtraField2": "placeat",
+  "ExtraField3": "provident",
+  "ExtraField4": "minus",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 645
     }
   }
 }

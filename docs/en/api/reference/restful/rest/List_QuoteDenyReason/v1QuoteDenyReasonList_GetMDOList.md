@@ -25,8 +25,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=nemo
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=magni
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Jewess-Mayer",
-    "ToolTip": "Aut expedita quam.",
+    "Id": 819,
+    "Name": "Roob LLC",
+    "ToolTip": "Modi laboriosam qui minima architecto.",
     "Deleted": true,
-    "Rank": 128,
-    "Type": "ex",
+    "Rank": 27,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Bartell, Dickinson and Bauch",
-        "ToolTip": "Cupiditate dolorum laboriosam repellendus.",
-        "Deleted": true,
-        "Rank": 163,
-        "Type": "voluptatibus",
+        "Id": 477,
+        "Name": "Haley LLC",
+        "ToolTip": "Porro molestiae laborum consequatur nam est sed aut.",
+        "Deleted": false,
+        "Rank": 183,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "numquam",
-        "ColorBlock": 353,
-        "ExtraInfo": "quis",
-        "StyleHint": "sed",
-        "FullName": "Miss Tracy Greenholt I",
+        "IconHint": "similique",
+        "ColorBlock": 596,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "fugiat",
+        "FullName": "Adeline Romaguera Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 630
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 693,
-    "ExtraInfo": "et",
-    "StyleHint": "alias",
-    "FullName": "Joy O'Reilly Jr.",
+    "IconHint": "odio",
+    "ColorBlock": 302,
+    "ExtraInfo": "non",
+    "StyleHint": "et",
+    "FullName": "Miss Murphy Malvina Hayes I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 376
       }
     }
   }

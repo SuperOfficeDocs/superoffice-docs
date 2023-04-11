@@ -71,8 +71,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,13 +86,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 915,
-      "Id": 364,
-      "HistoryName": "King LLC",
-      "HistoryId": 359,
-      "AssociateId": 547,
-      "Name": "Morissette Group",
-      "ItemInfo": "ea"
+      "Rank": 782,
+      "Id": 774,
+      "HistoryName": "Bayer-Hyatt",
+      "HistoryId": 95,
+      "AssociateId": 130,
+      "Name": "Mante, Grady and Volkman",
+      "ItemInfo": "eius"
     }
   ]
 }
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 743,
-    "Id": 468,
-    "HistoryName": "Runte-Kuvalis",
-    "HistoryId": 463,
-    "AssociateId": 700,
-    "Name": "Kris, Kshlerin and Beatty",
-    "ItemInfo": "quaerat",
+    "Rank": 434,
+    "Id": 38,
+    "HistoryName": "Ebert Inc and Sons",
+    "HistoryId": 493,
+    "AssociateId": 310,
+    "Name": "Rau, Bailey and Dickens",
+    "ItemInfo": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 749
       }
     }
   }

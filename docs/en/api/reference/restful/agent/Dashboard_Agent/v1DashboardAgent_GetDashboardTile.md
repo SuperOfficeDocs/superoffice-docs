@@ -25,7 +25,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=736
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=308
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -70,8 +70,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,64 +89,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 963,
-  "Caption": "consequatur",
-  "Description": "Stand-alone dedicated architecture",
-  "ChartName": "McKenzie-Thompson",
-  "ChartId": "aliquid",
+  "DashboardTileId": 266,
+  "Caption": "facilis",
+  "Description": "Open-architected grid-enabled forecast",
+  "ChartName": "Fritsch LLC",
+  "ChartId": "et",
   "IsDefault": true,
-  "AssociateId": 173,
-  "GroupId": 994,
-  "SelectionId": 720,
-  "Config": "omnis",
+  "AssociateId": 812,
+  "GroupId": 182,
+  "SelectionId": 147,
+  "Config": "unde",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wintheiser Group",
-      "Description": "Mandatory encompassing service-desk",
+      "Name": "Morar, Roob and Weber",
+      "Description": "Managed composite hardware",
       "Type": "Boolean",
-      "ListName": "Gerlach-Emard",
+      "ListName": "Langosh-Cronin",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "exercitationem",
+      "Value": "ut",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 721
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 646,
+      "VisibleId": 557,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 844
         }
       }
     },
     {
-      "VisibleId": 646,
+      "VisibleId": 557,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 844
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   }
 }

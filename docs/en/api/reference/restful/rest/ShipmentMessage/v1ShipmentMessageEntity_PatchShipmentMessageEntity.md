@@ -117,8 +117,8 @@ ShipmentMessageEntity  updated.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -127,18 +127,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "minima",
+    "path": "laborum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "minima",
+    "path": "laborum",
     "value": {}
   }
 ]
@@ -151,33 +151,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 284,
-  "PlainMessage": "velit",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "culpa",
-  "Description": "Cross-group mobile hub",
-  "Subject": "neque",
-  "FolderId": 758,
-  "HeaderField": "unde",
-  "Design": "quae",
+  "ShipmentMessageId": 355,
+  "PlainMessage": "distinctio",
+  "HtmlMessage": "minima",
+  "SmsMessage": "et",
+  "Description": "Expanded background knowledge user",
+  "Subject": "qui",
+  "FolderId": 29,
+  "HeaderField": "amet",
+  "Design": "rerum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Optional real-time parallelism",
-  "AccessKey": "excepturi",
-  "DocumentMessage": 14,
-  "Registered": "1999-04-11T12:15:27.4016314+02:00",
-  "RegisteredAssociateId": 462,
-  "Updated": "2003-11-06T12:15:27.4016314+01:00",
-  "UpdatedAssociateId": 853,
-  "UpdatedCount": 227,
+  "InlineImages": true,
+  "LongDescription": "Seamless 24/7 system engine",
+  "AccessKey": "aut",
+  "DocumentMessage": 595,
+  "Registered": "2003-01-05T15:29:30.6264873+01:00",
+  "RegisteredAssociateId": 901,
+  "Updated": "2023-03-08T15:29:30.6264873+01:00",
+  "UpdatedAssociateId": 530,
+  "UpdatedCount": 518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 738
     }
   },
   "_Links": {

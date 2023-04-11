@@ -95,8 +95,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,14 +104,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 404,
+  "DocId": 190,
   "AttachmentIds": [
-    "sint",
-    "odio"
+    "nihil",
+    "qui"
   ],
   "IncludeAttachments": false
 }
@@ -126,146 +126,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 498,
-      "ContactName": "Stiedemann, Oberbrunner and Bartell",
-      "PersonId": 915,
-      "PersonName": "Adams, Nolan and Dietrich",
-      "AssociateId": 719,
-      "Address": "fugiat",
-      "EmailId": 552,
+      "ContactId": 308,
+      "ContactName": "Schuppe-Hamill",
+      "PersonId": 625,
+      "PersonName": "Stehr LLC",
+      "AssociateId": 45,
+      "Address": "iste",
+      "EmailId": 124,
       "DuplicatePersonIds": [
-        551,
-        473
+        34,
+        438
       ],
-      "Name": "Kemmer, Quigley and Upton",
+      "Name": "Huel LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldType": "System.String",
+          "FieldLength": 800
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 122,
-      "ContactName": "Heaney Inc and Sons",
-      "PersonId": 363,
-      "PersonName": "Fadel Group",
-      "AssociateId": 451,
-      "Address": "in",
-      "EmailId": 987,
+      "ContactId": 329,
+      "ContactName": "Auer LLC",
+      "PersonId": 117,
+      "PersonName": "Hudson-Hauck",
+      "AssociateId": 187,
+      "Address": "impedit",
+      "EmailId": 939,
       "DuplicatePersonIds": [
-        182,
-        883
+        830,
+        769
       ],
-      "Name": "Turner-O'Kon",
+      "Name": "Lynch, Weimann and Marvin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldType": "System.String",
+          "FieldLength": 147
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 475,
-      "ContactName": "Mayert Group",
-      "PersonId": 221,
-      "PersonName": "Shanahan-Lakin",
-      "AssociateId": 71,
-      "Address": "amet",
-      "EmailId": 349,
+      "ContactId": 609,
+      "ContactName": "Kemmer, Hegmann and Stehr",
+      "PersonId": 188,
+      "PersonName": "Jewess, Schmidt and Schaden",
+      "AssociateId": 619,
+      "Address": "quisquam",
+      "EmailId": 354,
       "DuplicatePersonIds": [
-        611,
-        512
+        154,
+        715
       ],
-      "Name": "Steuber, Boyer and Brown",
+      "Name": "Bernhard-Streich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 59
+          "FieldType": "System.String",
+          "FieldLength": 298
         }
       }
     }
   ],
-  "Subject": "laboriosam",
-  "HTMLBody": "ut",
+  "Subject": "mollitia",
+  "HTMLBody": "quos",
   "From": null,
-  "Sent": "1996-04-08T12:15:19.0357504+02:00",
-  "Size": 210,
+  "Sent": "2007-12-20T15:29:21.8002748+01:00",
+  "Size": 34,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "eos",
+  "MessageID": "quia",
+  "PlainBody": "dignissimos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 104,
+  "ServerId": 884,
   "Attachments": [
     {
-      "Description": "Enhanced empowering architecture",
-      "Filename": "aut",
-      "Size": 884,
-      "Type": "pariatur",
-      "Encoding": "accusamus",
-      "Id": "illo",
-      "Disposition": "quis",
+      "Description": "Self-enabling optimizing installation",
+      "Filename": "omnis",
+      "Size": 228,
+      "Type": "at",
+      "Encoding": "omnis",
+      "Id": "doloribus",
+      "Disposition": "cumque",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 308
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kunde-Raynor",
+      "Name": "Moore, Reynolds and Lebsack",
       "Values": [
-        "odit",
-        "dolore"
+        "non",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 874
         }
       }
     },
     {
-      "Name": "Kunde-Raynor",
+      "Name": "Moore, Reynolds and Lebsack",
       "Values": [
-        "odit",
-        "dolore"
+        "non",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 874
         }
       }
     }
   ],
-  "FolderName": "Schimmel, Gerlach and Pouros",
-  "EmailItemId": 316,
-  "AccountId": 690,
-  "ReceivedAt": "2016-02-27T12:15:19.0367501+01:00",
+  "FolderName": "Schoen-Lemke",
+  "EmailItemId": 820,
+  "AccountId": 280,
+  "ReceivedAt": "2006-07-04T15:29:21.8007759+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-09-01T12:15:19.0367501+02:00",
+  "RepliedAt": "2021-06-13T15:29:21.8007759+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 237
     }
   }
 }

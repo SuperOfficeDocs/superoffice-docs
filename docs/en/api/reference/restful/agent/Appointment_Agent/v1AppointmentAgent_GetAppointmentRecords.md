@@ -114,8 +114,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -127,8 +127,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 297,
-  "RecurrenceRuleId": 547
+  "MotherId": 39,
+  "RecurrenceRuleId": 966
 }
 ```
 
@@ -140,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 717,
-    "StartDate": "1998-04-23T12:15:17.6817776+02:00",
-    "EndDate": "2006-04-05T12:15:17.6817776+02:00",
+    "AppointmentId": 999,
+    "StartDate": "2022-09-23T15:29:20.4268301+02:00",
+    "EndDate": "2021-10-31T15:29:20.4268301+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolorem",
-    "AssociateFullName": "Dante Wuckert I",
-    "ContactName": "Buckridge Group",
-    "Description": "Polarised real-time function",
-    "PersonFullName": "Miss Evangeline McDermott Sr.",
-    "PersonId": 113,
-    "ContactId": 151,
-    "ProjectId": 202,
-    "ProjectName": "Olson Group",
+    "Task": "voluptatibus",
+    "AssociateFullName": "Alize Pfeffer",
+    "ContactName": "Jakubowski, Cummings and Lakin",
+    "Description": "Realigned directional initiative",
+    "PersonFullName": "Mr. Greg Bianka Fahey",
+    "PersonId": 380,
+    "ContactId": 140,
+    "ProjectId": 504,
+    "ProjectName": "O'Reilly-Mills",
     "IsPublished": false,
-    "AssociateId": 214,
-    "ColorIndex": 393,
+    "AssociateId": 619,
+    "ColorIndex": 925,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 889,
-    "PriorityName": "Windler, Homenick and Mosciski",
+    "PriorityId": 583,
+    "PriorityName": "Runolfsson-Bartoletti",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "1998-09-19T12:15:17.6817776+02:00",
+    "ActiveDate": "2015-02-05T15:29:20.4283303+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-09-06T12:15:17.6817776+02:00",
-    "RecurringEndDate": "2004-07-13T12:15:17.6817776+02:00",
-    "MotherId": 110,
-    "AssignedBy": 275,
-    "AssignedByFullName": "Ernest Koepp",
+    "RecurringStartDate": "2003-11-01T15:29:20.4283303+01:00",
+    "RecurringEndDate": "2000-03-14T15:29:20.4283303+01:00",
+    "MotherId": 441,
+    "AssignedBy": 919,
+    "AssignedByFullName": "Dr. Nella Sabrina Wyman V",
     "RejectReason": "",
-    "Location": "voluptatum",
-    "AlarmLeadTime": "laboriosam",
-    "SaleId": 731,
-    "SaleName": "Walsh-Hoppe",
-    "AssociateName": "Parker Group",
-    "CreatedDate": "2010-07-05T12:15:17.6827699+02:00",
-    "CreatedBy": "molestias",
-    "CreatedByFullName": "Rubie Maurice Gislason PhD",
-    "CreatedByAssociateId": 756,
+    "Location": "eligendi",
+    "AlarmLeadTime": "et",
+    "SaleId": 321,
+    "SaleName": "Anderson LLC",
+    "AssociateName": "Bradtke, Lebsack and McLaughlin",
+    "CreatedDate": "2011-11-02T15:29:20.4288321+01:00",
+    "CreatedBy": "enim",
+    "CreatedByFullName": "Leta Langosh",
+    "CreatedByAssociateId": 166,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 169
       }
     }
   }

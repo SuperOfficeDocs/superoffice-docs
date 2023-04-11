@@ -32,10 +32,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=10/23/2019 12:15:30
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/09/2013 12:15:30
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=962
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=01/08/1997 15:29:33
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=09/23/2011 15:29:33
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=838
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,22 +94,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 668,
-  "ERPPriceListKey": "nihil",
-  "QuoteConnectionId": 910,
-  "Name": "Keeling, Kulas and Kirlin",
-  "Description": "Synergistic high-level help-desk",
-  "Currency": "dolorem",
-  "CurrencyName": "Schiller-Reilly",
-  "ValidFrom": "2020-05-15T12:15:28.2576169+02:00",
-  "ValidTo": "2020-10-21T12:15:28.2576169+02:00",
-  "IsActive": false,
+  "PriceListId": 351,
+  "ERPPriceListKey": "expedita",
+  "QuoteConnectionId": 566,
+  "Name": "Daniel-Padberg",
+  "Description": "Exclusive local standardization",
+  "Currency": "ipsa",
+  "CurrencyName": "Jacobi Group",
+  "ValidFrom": "2007-01-16T15:29:31.3729778+01:00",
+  "ValidTo": "1996-08-16T15:29:31.3729778+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 959
     }
   }
 }

@@ -42,7 +42,7 @@ User deleted.
 |----------------|-------------|
 | 204 | User deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -51,7 +51,7 @@ User deleted.
 DELETE /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

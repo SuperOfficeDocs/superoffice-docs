@@ -70,7 +70,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Goldner, McLaughlin and Brown",
-  "DisplayName": "Bartell-Hackett",
-  "Description": "Innovative motivating complexity",
-  "ShortLabel": "temporibus",
+  "FieldName": "Emmerich, Hane and Bergstrom",
+  "DisplayName": "Hudson, Feeney and Heathcote",
+  "Description": "Persevering static archive",
+  "ShortLabel": "tempora",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "Rank": 915,
-  "TemplateVariableName": "Olson-Yost"
+  "IsExternal": true,
+  "Rank": 673,
+  "TemplateVariableName": "Hodkiewicz-Parisian"
 }
 ```

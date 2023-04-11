@@ -86,8 +86,8 @@ SystemEventEntity updated.
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -96,19 +96,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 988,
+  "SystemEventId": 384,
   "Scope": "Database",
-  "Eta": "2001-02-17T12:15:27.4076303+01:00",
-  "Eventkey": "suscipit",
-  "Eventmess": "sit",
-  "ExtraInfo": 242,
-  "Owner": 575,
-  "UpdatedCount": 448,
-  "Registered": "2006-10-05T12:15:27.4076303+02:00",
+  "Eta": "2007-12-05T15:29:30.6309873+01:00",
+  "Eventkey": "et",
+  "Eventmess": "non",
+  "ExtraInfo": 83,
+  "Owner": 204,
+  "UpdatedCount": 467,
+  "Registered": "2021-09-04T15:29:30.6319875+02:00",
   "ActivatedBy": null
 }
 ```
@@ -120,27 +120,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 429,
+  "SystemEventId": 942,
   "Scope": "Database",
-  "Eta": "2016-05-31T12:15:27.4086292+02:00",
-  "Eventkey": "repellendus",
-  "Eventmess": "impedit",
-  "ExtraInfo": 903,
-  "Owner": 290,
-  "UpdatedCount": 204,
-  "Registered": "2002-02-18T12:15:27.4086292+01:00",
+  "Eta": "2016-01-09T15:29:30.632987+01:00",
+  "Eventkey": "eveniet",
+  "Eventmess": "voluptates",
+  "ExtraInfo": 747,
+  "Owner": 193,
+  "UpdatedCount": 310,
+  "Registered": "1996-03-31T15:29:30.632987+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 692
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

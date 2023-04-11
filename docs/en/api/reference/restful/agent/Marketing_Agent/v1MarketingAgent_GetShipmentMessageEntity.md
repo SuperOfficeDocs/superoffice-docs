@@ -25,7 +25,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=104
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=240
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -77,8 +77,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 754,
-  "PlainMessage": "sit",
-  "HtmlMessage": "praesentium",
-  "SmsMessage": "dolorem",
-  "Description": "Multi-layered background framework",
-  "Subject": "quibusdam",
-  "FolderId": 202,
-  "HeaderField": "esse",
-  "Design": "officiis",
+  "ShipmentMessageId": 587,
+  "PlainMessage": "excepturi",
+  "HtmlMessage": "quia",
+  "SmsMessage": "dolorum",
+  "Description": "Reduced well-modulated structure",
+  "Subject": "porro",
+  "FolderId": 101,
+  "HeaderField": "eos",
+  "Design": "iure",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Managed logistical website",
-  "AccessKey": "saepe",
-  "DocumentMessage": 854,
-  "Registered": "2009-08-09T12:15:19.3747456+02:00",
-  "RegisteredAssociateId": 800,
-  "Updated": "2008-08-18T12:15:19.3747456+02:00",
-  "UpdatedAssociateId": 195,
-  "UpdatedCount": 624,
+  "InlineImages": false,
+  "LongDescription": "Upgradable analyzing hierarchy",
+  "AccessKey": "deserunt",
+  "DocumentMessage": 878,
+  "Registered": "1998-08-30T15:29:22.1352708+02:00",
+  "RegisteredAssociateId": 575,
+  "Updated": "2017-08-12T15:29:22.1352708+02:00",
+  "UpdatedAssociateId": 481,
+  "UpdatedCount": 843,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldLength": 418
     }
   }
 }

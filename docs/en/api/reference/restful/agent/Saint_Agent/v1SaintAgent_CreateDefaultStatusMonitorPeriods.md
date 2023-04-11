@@ -49,8 +49,8 @@ OK
 | Period1 | int32 | Days in the first period |
 | Period2 | int32 | Days in the second period |
 | Period3 | int32 | Days in the third period |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,15 +68,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 126,
-  "Period2": 110,
-  "Period3": 224,
+  "Period1": 342,
+  "Period2": 451,
+  "Period3": 684,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 763
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

@@ -77,8 +77,8 @@ OK
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 441
+  "QuoteConnectionId": 365
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 350,
-  "ERPName": "Hand Inc and Sons",
-  "DisplayName": "Glover-Bernhard",
-  "DisplayDescription": "Re-engineered dynamic application",
-  "Rank": 546,
-  "ConnectorName": "Murphy LLC",
-  "ErpConnectionId": 270,
-  "ExtraData": "corrupti",
+  "QuoteConnectionId": 114,
+  "ERPName": "Larson, Baumbach and Cremin",
+  "DisplayName": "Lind LLC",
+  "DisplayDescription": "Secured demand-driven strategy",
+  "Rank": 256,
+  "ConnectorName": "Langosh-Koelpin",
+  "ErpConnectionId": 562,
+  "ExtraData": "esse",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 860,
-      "ERPPriceListKey": "hic",
-      "QuoteConnectionId": 747,
-      "Name": "Padberg-Kuhlman",
-      "Description": "De-engineered heuristic benchmark",
-      "Currency": "eos",
-      "CurrencyName": "Nitzsche, Greenholt and Gorczany",
-      "ValidFrom": "2009-10-01T12:15:19.9437374+02:00",
-      "ValidTo": "2021-01-11T12:15:19.9437374+01:00",
+      "PriceListId": 692,
+      "ERPPriceListKey": "omnis",
+      "QuoteConnectionId": 973,
+      "Name": "Langworth-Yundt",
+      "Description": "Multi-channelled exuding help-desk",
+      "Currency": "enim",
+      "CurrencyName": "Hermiston Group",
+      "ValidFrom": "2007-07-25T15:29:22.569265+02:00",
+      "ValidTo": "2007-10-29T15:29:22.569265+01:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 458
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": true,
   "UserGroupAccessIds": [
-    731,
-    474
+    379,
+    704
   ],
   "AssociateAccessIds": [
-    211,
-    450
+    749,
+    819
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 765
     }
   }
 }

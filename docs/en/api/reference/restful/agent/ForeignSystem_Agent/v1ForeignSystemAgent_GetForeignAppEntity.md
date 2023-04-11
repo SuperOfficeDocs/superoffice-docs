@@ -25,7 +25,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=232
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=914
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -63,8 +63,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,29 +82,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 300,
-  "Name": "Williamson-Swaniawski",
-  "CreatedDate": "2007-08-23T12:15:19.1467492+02:00",
-  "UpdatedDate": "2003-07-10T12:15:19.1467492+02:00",
+  "ForeignAppId": 446,
+  "Name": "Bashirian-Konopelski",
+  "CreatedDate": "2018-10-13T15:29:21.9113108+02:00",
+  "UpdatedDate": "1997-11-23T15:29:21.9113108+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 462,
-      "Name": "Lesch Group",
-      "CreatedDate": "2001-05-01T12:15:19.1467492+02:00",
-      "UpdatedDate": "2018-12-17T12:15:19.1467492+01:00",
-      "AssociateFullName": "Heaven Emilie Jacobs DDS",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "possimus",
-      "DeviceIdentifier": "ratione",
-      "ForeignAppId": 781,
+      "ForeignDeviceId": 322,
+      "Name": "Monahan Inc and Sons",
+      "CreatedDate": "2012-10-05T15:29:21.9118073+02:00",
+      "UpdatedDate": "2006-10-04T15:29:21.9118073+02:00",
+      "AssociateFullName": "Wilbert Frami",
+      "CreatedBy": "est",
+      "UpdatedBy": "at",
+      "DeviceIdentifier": "reiciendis",
+      "ForeignAppId": 567,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 699
         }
       }
     }
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   }
 }

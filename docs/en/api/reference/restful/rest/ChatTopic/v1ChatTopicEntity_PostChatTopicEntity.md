@@ -125,8 +125,8 @@ OK
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -135,41 +135,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 782,
-  "Name": "Lakin, Bernhard and Daugherty",
-  "Description": "Expanded local toolset",
-  "WelcomeMessage": "totam",
+  "ChatTopicId": 268,
+  "Name": "Schinner-Hayes",
+  "Description": "Quality-focused attitude-oriented monitoring",
+  "WelcomeMessage": "officia",
   "Language": null,
-  "LastAccept": "2017-10-29T12:15:26.5166422+01:00",
-  "SecondsPrAccept": 452,
-  "AlertRecipient": "consequatur",
+  "LastAccept": "2018-04-03T15:29:29.4232057+02:00",
+  "SecondsPrAccept": 602,
+  "AlertRecipient": "quidem",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "minus",
+  "CollectConsent": true,
+  "BadgeHeader": "ex",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "deserunt",
-  "WarnNewChatMinutes": 66,
-  "WarnManagerNewChatMinutes": 261,
+  "CustomQueueText": "dignissimos",
+  "WarnNewChatMinutes": 381,
+  "WarnManagerNewChatMinutes": 156,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 552,
-  "WarnManagerChatMessageMinutes": 640,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 68,
-  "OfflineFormQueueLength": 735,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "debitis"
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 670,
+  "WarnManagerChatMessageMinutes": 470,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 910,
+  "OfflineFormQueueLength": 147,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "ea"
 }
 ```
 
@@ -180,21 +180,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 129,
-  "Name": "White, Jacobi and Purdy",
-  "Description": "Digitized motivating moratorium",
-  "WelcomeMessage": "eos",
+  "ChatTopicId": 360,
+  "Name": "Walker-Tromp",
+  "Description": "Grass-roots global internet solution",
+  "WelcomeMessage": "nemo",
   "Language": null,
-  "LastAccept": "2014-10-21T12:15:26.5196418+02:00",
-  "SecondsPrAccept": 746,
-  "AlertRecipient": "ipsum",
+  "LastAccept": "2019-11-12T15:29:29.4267112+01:00",
+  "SecondsPrAccept": 397,
+  "AlertRecipient": "accusantium",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "veritatis",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "est",
-  "WarnNewChatMinutes": 447,
-  "WarnManagerNewChatMinutes": 527,
+  "BadgeHeader": "iusto",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "rerum",
+  "WarnNewChatMinutes": 177,
+  "WarnManagerNewChatMinutes": 579,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -204,19 +204,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 726,
-  "WarnManagerChatMessageMinutes": 58,
+  "WarnChatMessageMinutes": 270,
+  "WarnManagerChatMessageMinutes": 170,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 500,
-  "OfflineFormQueueLength": 120,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "enim",
+  "OfflineFormTimeLimit": 662,
+  "OfflineFormQueueLength": 989,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldLength": 879
     }
   },
   "_Links": {

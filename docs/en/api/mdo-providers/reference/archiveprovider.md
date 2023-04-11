@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "archiveprovider"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -49,9 +49,11 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|0|Appointment||Appointment|
+|0|Appointment||ConfigurableArchiveAppointment|
 |1|Document||Document|
-|2|Sale||Sale|
+|2|EmailFlowFolders||EmailFlowFolders|
+|3|EmailFlowsAndFolders||EmailFlowsAndFolders|
+|4|Sale||Sale|
 
 
 ## Related MDO Lists

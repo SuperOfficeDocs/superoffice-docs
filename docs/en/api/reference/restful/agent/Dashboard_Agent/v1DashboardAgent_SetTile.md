@@ -69,8 +69,8 @@ OK
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 43,
-  "TileId": 627,
-  "Position": 950
+  "DashboardId": 288,
+  "TileId": 877,
+  "Position": 315
 }
 ```
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 998,
-  "AssociateId": 860,
-  "Caption": "hic",
+  "DashboardId": 866,
+  "AssociateId": 969,
+  "Caption": "aliquam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 702,
-      "Caption": "et",
-      "Description": "Mandatory actuating implementation",
-      "ChartName": "McDermott LLC",
-      "ChartId": "qui",
-      "IsDefault": true,
-      "AssociateId": 515,
-      "GroupId": 939,
-      "SelectionId": 156,
-      "Config": "hic",
+      "DashboardTileId": 797,
+      "Caption": "illum",
+      "Description": "Synchronised next generation info-mediaries",
+      "ChartName": "Effertz-Weissnat",
+      "ChartId": "natus",
+      "IsDefault": false,
+      "AssociateId": 353,
+      "GroupId": 362,
+      "SelectionId": 893,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldLength": 645
         }
       }
     }
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 201
+      "FieldType": "System.Int32",
+      "FieldLength": 606
     }
   }
 }

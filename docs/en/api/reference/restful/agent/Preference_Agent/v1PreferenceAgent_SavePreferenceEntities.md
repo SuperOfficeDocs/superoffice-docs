@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,26 +64,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "nihil",
+      "RawValue": "est",
       "Specification": null,
-      "DisplayValue": "suscipit",
-      "DisplayTooltip": "sint",
+      "DisplayValue": "blanditiis",
+      "DisplayTooltip": "molestiae",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 121,
-      "PrefDescId": 673,
-      "TableName": "Bins Inc and Sons",
-      "UserPreferenceId": 138
+      "TargetId": 667,
+      "PrefDescId": 686,
+      "TableName": "Eichmann, Borer and Purdy",
+      "UserPreferenceId": 277
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

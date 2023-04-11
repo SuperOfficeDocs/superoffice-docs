@@ -101,8 +101,8 @@ OK
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 28,
-  "ERPQuoteVersionKey": "est",
-  "QuoteId": 174,
-  "Description": "Compatible object-oriented functionalities",
-  "Number": "627972",
+  "QuoteVersionId": 977,
+  "ERPQuoteVersionKey": "iusto",
+  "QuoteId": 343,
+  "Description": "Total incremental local area network",
+  "Number": "1956984",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 123,
-  "SentDate": "2002-08-28T12:15:19.89674+02:00",
-  "FollowupId": 598,
-  "ExpirationDate": "2023-01-25T12:15:19.89674+01:00",
-  "DeliveryCountryId": 657,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 922,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "distinctio",
-  "ERPPaymentTypeKey": "non",
-  "ERPDeliveryTermsKey": "quod",
-  "ERPDeliveryTypeKey": "quibusdam",
-  "Rank": 776,
-  "ApprovedBy": 620,
-  "ApprovedText": "dolor",
-  "ApprovedRegisteredBy": 758,
-  "ApprovedRegisteredDate": "2002-11-02T12:15:19.89674+01:00",
-  "ExtraField1": "eos",
-  "ExtraField2": "non",
-  "ExtraField3": "mollitia",
-  "ExtraField4": "qui",
-  "ExtraField5": "eaque",
-  "LastRecalculated": "2008-12-25T12:15:19.89674+01:00",
-  "Updated": "1996-09-30T12:15:19.89674+02:00",
-  "UpdatedAssociateId": 764,
-  "Registered": "2002-02-23T12:15:19.89674+01:00",
-  "RegisteredAssociateId": 195,
-  "RequestAssociateId": 112,
-  "RequestComment": "rem",
+  "LikelyQuoteAlternativeId": 955,
+  "SentDate": "2008-10-09T15:29:22.5227657+02:00",
+  "FollowupId": 264,
+  "ExpirationDate": "2008-12-05T15:29:22.5227657+01:00",
+  "DeliveryCountryId": 346,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 657,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "assumenda",
+  "ERPPaymentTypeKey": "qui",
+  "ERPDeliveryTermsKey": "nihil",
+  "ERPDeliveryTypeKey": "et",
+  "Rank": 614,
+  "ApprovedBy": 416,
+  "ApprovedText": "soluta",
+  "ApprovedRegisteredBy": 627,
+  "ApprovedRegisteredDate": "2018-05-27T15:29:22.5227657+02:00",
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "doloremque",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "voluptatem",
+  "LastRecalculated": "1995-12-11T15:29:22.5232655+01:00",
+  "Updated": "2021-06-11T15:29:22.5232655+02:00",
+  "UpdatedAssociateId": 816,
+  "Registered": "2009-07-13T15:29:22.5232655+02:00",
+  "RegisteredAssociateId": 585,
+  "RequestAssociateId": 750,
+  "RequestComment": "quisquam",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 159,
-      "ERPQuoteAlternativeKey": "numquam",
-      "QuoteVersionId": 331,
-      "Name": "Renner Group",
-      "Description": "Seamless solution-oriented open system",
+      "QuoteAlternativeId": 956,
+      "ERPQuoteAlternativeKey": "quas",
+      "QuoteVersionId": 156,
+      "Name": "Ernser-Cassin",
+      "Description": "Optional radical task-force",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 2156.192,
-      "ERPDiscountAmount": 12865.07,
-      "DiscountPercent": 9135.61,
-      "DiscountAmount": 31092.414,
+      "ERPDiscountPercent": 8236.152,
+      "ERPDiscountAmount": 25498.224,
+      "DiscountPercent": 7079.706,
+      "DiscountAmount": 20910.048,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "excepturi",
-      "VAT": 27021.347999999998,
-      "EarningPercent": 28278.082,
-      "EarningAmount": 7054.634,
-      "SubTotal": 8091.9879999999994,
-      "TotalPrice": 8160.936,
-      "ExtraField1": "sit",
-      "ExtraField2": "exercitationem",
-      "ExtraField3": "sequi",
-      "ExtraField4": "neque",
-      "ExtraField5": "placeat",
+      "VATInfo": "sunt",
+      "VAT": 27670.086,
+      "EarningPercent": 20866.172,
+      "EarningAmount": 31245.98,
+      "SubTotal": 11833.984,
+      "TotalPrice": 19512.284,
+      "ExtraField1": "rerum",
+      "ExtraField2": "impedit",
+      "ExtraField3": "magni",
+      "ExtraField4": "in",
+      "ExtraField5": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 455
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldType": "System.String",
+      "FieldLength": 805
     }
   }
 }

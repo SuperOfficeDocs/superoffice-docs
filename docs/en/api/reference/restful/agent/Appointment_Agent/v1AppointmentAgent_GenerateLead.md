@@ -78,8 +78,8 @@ OK
 | RequestedContacts | array | The companies that match the request |
 | RequestedPerson | Person | The person that matches the request. |
 | SalesRep | Person | The sales representative for the person that matches the request. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 765,
-  "LeadDescription": "Horizontal user-facing hierarchy",
-  "Relation": "repellendus",
-  "RelationId": 360,
-  "LeadContact": "sint",
-  "LeadPersonFirstname": "Elvie",
-  "LeadPersonLastname": "Reinger",
-  "LeadPersonEmail": "keeley.sipes@jenkins.uk",
-  "LeadPhoneNumber": "990283",
-  "CreatorsContact": "ea",
-  "CreatorsFirstname": "Ruthie",
-  "CreatorsLastname": "Marks"
+  "AssociateIdForNewContact": 175,
+  "LeadDescription": "Horizontal fault-tolerant toolset",
+  "Relation": "quis",
+  "RelationId": 111,
+  "LeadContact": "distinctio",
+  "LeadPersonFirstname": "Donald",
+  "LeadPersonLastname": "Haag",
+  "LeadPersonEmail": "hettie_wilkinson@weimann.ca",
+  "LeadPhoneNumber": "986245",
+  "CreatorsContact": "earum",
+  "CreatorsFirstname": "Forest",
+  "CreatorsLastname": "Bauch"
 }
 ```
 
@@ -115,36 +115,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 102,
-      "Name": "Zieme-Wolf",
-      "OrgNr": "813783",
-      "Department": "extend bleeding-edge e-markets",
+      "ContactId": 100,
+      "Name": "Fritsch, Balistreri and Kertzmann",
+      "OrgNr": "913817",
+      "Department": "",
       "URL": "http://www.example.com/",
-      "City": "qui",
-      "DirectPhone": "(733)734-8722",
-      "AssociateId": 134,
-      "CountryId": 44,
-      "EmailAddress": "jacquelyn@kreigerhirthe.uk",
-      "Kananame": "quia",
-      "EmailAddressName": "isadore_ebert@wiegandkuvalis.us",
+      "City": "laudantium",
+      "DirectPhone": "(588)308-8832 x958",
+      "AssociateId": 22,
+      "CountryId": 865,
+      "EmailAddress": "jennings.veum@kirlinkub.biz",
+      "Kananame": "iste",
+      "EmailAddressName": "kristin.reilly@bradtke.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Toby Hilpert DVM",
+      "AssociateFullName": "Cloyd O'Keefe",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "dicta",
-      "FullName": "Ulices Wiegand",
+      "FormattedAddress": "illum",
+      "FullName": "Kamren Hagenes",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 377,
-      "Number1": "1446570",
-      "Number2": "1542497",
+      "ActiveErpLinks": 97,
+      "Number1": "601002",
+      "Number2": "1796086",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 822
+          "FieldLength": 912
         }
       }
     }
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 935
     }
   }
 }

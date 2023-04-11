@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -66,17 +66,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 393,
-  "UsergroupId": 434,
+  "UdListDefinitionId": 762,
+  "UsergroupId": 957,
   "ListItemIds": [
-    531,
-    790
+    343,
+    44
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

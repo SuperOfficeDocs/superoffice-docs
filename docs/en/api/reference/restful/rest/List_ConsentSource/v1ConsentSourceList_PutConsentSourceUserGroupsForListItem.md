@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Goyette, Mohr and Hand",
-    "ToolTip": "Perspiciatis quos non officiis dicta perspiciatis.",
+    "Id": 697,
+    "Name": "Grant-Hane",
+    "ToolTip": "Mollitia quia.",
     "Deleted": false,
-    "Rank": 445,
-    "Type": "corrupti",
-    "ColorBlock": 480,
-    "IconHint": "sunt",
+    "Rank": 352,
+    "Type": "nemo",
+    "ColorBlock": 148,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2019-10-24T12:15:27.9436212+02:00",
+    "LastChanged": "2008-04-19T15:29:31.1549839+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "O'Hara-Bashirian",
-        "ToolTip": "Nam illum amet facilis saepe voluptatem assumenda.",
-        "Deleted": true,
-        "Rank": 492,
-        "Type": "consectetur",
-        "ColorBlock": 682,
-        "IconHint": "veritatis",
+        "Id": 493,
+        "Name": "Jacobi Group",
+        "ToolTip": "Rerum fuga eveniet ipsam aspernatur.",
+        "Deleted": false,
+        "Rank": 287,
+        "Type": "non",
+        "ColorBlock": 339,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2008-06-05T12:15:27.9436212+02:00",
+        "LastChanged": "2005-10-27T15:29:31.1559801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Annamarie Conn"
+        "ExtraInfo": "placeat",
+        "StyleHint": "doloribus",
+        "Hidden": false,
+        "FullName": "Imani Schuster"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "et",
+    "StyleHint": "labore",
     "Hidden": true,
-    "FullName": "Izaiah Padberg"
+    "FullName": "Christy Keeling"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Gibson-Greenfelder",
-    "ToolTip": "Quibusdam et voluptatem.",
-    "Deleted": true,
-    "Rank": 199,
-    "Type": "expedita",
-    "ColorBlock": 903,
-    "IconHint": "veniam",
-    "Selected": true,
-    "LastChanged": "1998-07-14T12:15:27.9456221+02:00",
+    "Id": 109,
+    "Name": "Lynch, Friesen and Stroman",
+    "ToolTip": "Ut nemo doloremque dolorem quas.",
+    "Deleted": false,
+    "Rank": 386,
+    "Type": "commodi",
+    "ColorBlock": 459,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2012-01-27T15:29:31.1574804+01:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Graham Inc and Sons",
-        "ToolTip": "Velit eligendi sit reiciendis non.",
+        "Id": 459,
+        "Name": "Mante, Witting and Hessel",
+        "ToolTip": "Quod fugit id placeat tempore voluptatem ut.",
         "Deleted": false,
-        "Rank": 558,
-        "Type": "ea",
-        "ColorBlock": 209,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2017-08-19T12:15:27.9456221+02:00",
+        "Rank": 538,
+        "Type": "velit",
+        "ColorBlock": 48,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2015-02-28T15:29:31.1574804+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Sid Glover",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Miss Pink Syble Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 98
+            "FieldLength": 541
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "quod",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "magnam",
     "Hidden": true,
-    "FullName": "Bill Hauck",
+    "FullName": "Nona Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 814
       }
     }
   }

@@ -160,8 +160,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Simonis-Willms",
-  "Context": "ut"
+  "ProviderName": "Hodkiewicz-O'Conner",
+  "Context": "suscipit"
 }
 ```
 
@@ -186,50 +186,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Krajcik, Terry and Christiansen",
-    "ToolTip": "Quam sed ut magnam veritatis et vitae est.",
-    "Deleted": false,
-    "Rank": 955,
-    "Type": "et",
+    "Id": 891,
+    "Name": "Labadie-Schmitt",
+    "ToolTip": "Vitae excepturi quo deserunt aut.",
+    "Deleted": true,
+    "Rank": 382,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Lowe Group",
-        "ToolTip": "Nihil quod.",
+        "Id": 920,
+        "Name": "Rempel-Mraz",
+        "ToolTip": "Id voluptate excepturi.",
         "Deleted": true,
-        "Rank": 724,
-        "Type": "libero",
+        "Rank": 565,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 889,
-        "ExtraInfo": "expedita",
-        "StyleHint": "corrupti",
-        "FullName": "Ms. Alden Eulalia Bartoletti I",
+        "IconHint": "iure",
+        "ColorBlock": 496,
+        "ExtraInfo": "et",
+        "StyleHint": "modi",
+        "FullName": "Ms. Ava Candace Swift",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 239
+            "FieldLength": 20
           }
         }
       }
     ],
-    "IconHint": "esse",
-    "ColorBlock": 819,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "qui",
-    "FullName": "Wiley Morissette III",
+    "IconHint": "temporibus",
+    "ColorBlock": 339,
+    "ExtraInfo": "iusto",
+    "StyleHint": "aut",
+    "FullName": "Miss Jeromy Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

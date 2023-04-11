@@ -13115,6 +13115,8 @@
       href: Services88/Diagnostics/GetCacheNames.md
     - name: GetCacheState
       href: Services88/Diagnostics/GetCacheState.md
+    - name: GetEntityCountsForCurrentUser
+      href: Services88/Diagnostics/GetEntityCountsForCurrentUser.md
     - name: GetWebAppUsagesForPeriod
       href: Services88/Diagnostics/GetWebAppUsagesForPeriod.md
     - name: LogViewState
@@ -13488,6 +13490,8 @@
       href: Services88/EMail/RefreshFolderForAssociate.md
     - name: RelayMessage
       href: Services88/EMail/RelayMessage.md
+    - name: ResolveEMailRecipients
+      href: Services88/EMail/ResolveEMailRecipients.md
     - name: Save
       href: Services88/EMail/Save.md
     - name: SaveDraft
@@ -14607,6 +14611,8 @@
       href: Services88/Person/CreateDefaultPersonEntity.md
     - name: CreateDefaultPersonImage
       href: Services88/Person/CreateDefaultPersonImage.md
+    - name: CreateOrUpdateUserCandidate
+      href: Services88/Person/CreateOrUpdateUserCandidate.md
     - name: CreateTemporaryKey
       href: Services88/Person/CreateTemporaryKey.md
     - name: DeleteConsentPerson
@@ -14633,6 +14639,8 @@
       href: Services88/Person/GetConsentInfos.md
     - name: GetConsentPerson
       href: Services88/Person/GetConsentPerson.md
+    - name: GetCustomerCentrePasswordReplyTemplate
+      href: Services88/Person/GetCustomerCentrePasswordReplyTemplate.md
     - name: GetMyOwner
       href: Services88/Person/GetMyOwner.md
     - name: GetMyPerson
@@ -14659,6 +14667,8 @@
       href: Services88/Person/GetPhones.md
     - name: GetSalesRep
       href: Services88/Person/GetSalesRep.md
+    - name: GetUserCandidateByPerson
+      href: Services88/Person/GetUserCandidateByPerson.md
     - name: HasConsent
       href: Services88/Person/HasConsent.md
     - name: IsNumberValid
@@ -14679,6 +14689,8 @@
       href: Services88/Person/SavePersonEntity.md
     - name: SendConsentConfirmationEmail
       href: Services88/Person/SendConsentConfirmationEmail.md
+    - name: SendEmail
+      href: Services88/Person/SendEmail.md
     - name: SetConsent
       href: Services88/Person/SetConsent.md
     - name: SetPersonImage
@@ -15939,10 +15951,14 @@
       href: Services88/ViewState/GetHistory.md
     - name: GetHistoryLengthPrefValue
       href: Services88/ViewState/GetHistoryLengthPrefValue.md
+    - name: GetLiveUiConfig
+      href: Services88/ViewState/GetLiveUiConfig.md
     - name: GetNextCurrent
       href: Services88/ViewState/GetNextCurrent.md
     - name: GetPreviousCurrent
       href: Services88/ViewState/GetPreviousCurrent.md
+    - name: PublishAndRetrieveUiEvents
+      href: Services88/ViewState/PublishAndRetrieveUiEvents.md
     - name: SaveCurrent
       href: Services88/ViewState/SaveCurrent.md
     - name: SaveCurrents
@@ -15977,19 +15993,41 @@
       href: Services88/Workflow/AddAfterWorkflowStep.md
     - name: CreateDefaultEmailFlow
       href: Services88/Workflow/CreateDefaultEmailFlow.md
-    - name: CreateDefaultWorkflowStep
-      href: Services88/Workflow/CreateDefaultWorkflowStep.md
+    - name: CreateDefaultWorkflowFilter
+      href: Services88/Workflow/CreateDefaultWorkflowFilter.md
+    - name: CreateDefaultWorkflowGoal
+      href: Services88/Workflow/CreateDefaultWorkflowGoal.md
+    - name: CreateDefaultWorkflowStepFromType
+      href: Services88/Workflow/CreateDefaultWorkflowStepFromType.md
+    - name: CreateDefaultWorkflowStepOption
+      href: Services88/Workflow/CreateDefaultWorkflowStepOption.md
+    - name: CreateDefaultWorkflowTrigger
+      href: Services88/Workflow/CreateDefaultWorkflowTrigger.md
     - name: DeleteEmailFlow
       href: Services88/Workflow/DeleteEmailFlow.md
-    - name: DeleteWorkflowStep
-      href: Services88/Workflow/DeleteWorkflowStep.md
+    - name: DeleteWorkflowGoal
+      href: Services88/Workflow/DeleteWorkflowGoal.md
+    - name: DeleteWorkflowStepOption
+      href: Services88/Workflow/DeleteWorkflowStepOption.md
+    - name: DeleteWorkflowTrigger
+      href: Services88/Workflow/DeleteWorkflowTrigger.md
     - name: GetEmailFlow
       href: Services88/Workflow/GetEmailFlow.md
+    - name: GetWorkflowGoal
+      href: Services88/Workflow/GetWorkflowGoal.md
     - name: GetWorkflowStep
       href: Services88/Workflow/GetWorkflowStep.md
+    - name: GetWorkflowStepOption
+      href: Services88/Workflow/GetWorkflowStepOption.md
+    - name: GetWorkflowTrigger
+      href: Services88/Workflow/GetWorkflowTrigger.md
     - name: SaveEmailFlow
       href: Services88/Workflow/SaveEmailFlow.md
-    - name: SaveWorkflowStep
-      href: Services88/Workflow/SaveWorkflowStep.md
+    - name: SaveWorkflowGoal
+      href: Services88/Workflow/SaveWorkflowGoal.md
+    - name: SaveWorkflowStepOption
+      href: Services88/Workflow/SaveWorkflowStepOption.md
+    - name: SaveWorkflowTrigger
+      href: Services88/Workflow/SaveWorkflowTrigger.md
     - name: TryAddPersonsToEmailFlow
       href: Services88/Workflow/TryAddPersonsToEmailFlow.md

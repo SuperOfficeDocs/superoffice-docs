@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsShadowDynamicSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -567,7 +567,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/contact/contactPhone/description,mailingAddr/contact/postAddress/line2,mailingAddr/contact/streetAddress/wgs84longitude,mailingAddr/person/fullName,mailingAddr/person/personAddress/state
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingClickRate,mailingAddr/person/personUpdatedByFullName,mailingAddr/person/personExtra/x_person_datetime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

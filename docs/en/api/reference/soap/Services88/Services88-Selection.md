@@ -1180,6 +1180,11 @@ title: Services88.SelectionAgent WSDL
       </xs:complexType>
       <xs:element name="RecurrenceWeekPattern" nillable="true" type="q122:RecurrenceWeekPattern" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="Weekday">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
         <xs:list>
           <xs:simpleType>
             <xs:restriction base="xs:string">

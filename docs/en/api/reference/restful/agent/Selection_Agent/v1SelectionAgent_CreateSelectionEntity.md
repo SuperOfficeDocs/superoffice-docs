@@ -103,8 +103,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,7 +116,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Schiller, Kris and Reilly"
+  "TargetTableName": "Wiza LLC"
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-centric grid-enabled intranet",
-  "Postit": "accusantium",
+  "Description": "Diverse composite policy",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 818,
-  "IncludePerson": 706,
-  "MemberCount": 405,
-  "Name": "Rice-Crona",
-  "PostitTextId": 216,
-  "CreatedDate": "2009-02-07T12:15:20.1417348+01:00",
-  "SelectionId": 786,
-  "SoundEx": "nihil",
-  "Source": 688,
-  "TextId": 477,
-  "UpdatedDate": "2011-10-22T12:15:20.1417348+02:00",
-  "UpdatedCount": 224,
-  "Visibility": 705,
+  "GroupIdx": 90,
+  "IncludePerson": 674,
+  "MemberCount": 155,
+  "Name": "Leffler-Bradtke",
+  "PostitTextId": 725,
+  "CreatedDate": "1999-06-13T15:29:22.7803+02:00",
+  "SelectionId": 709,
+  "SoundEx": "dolorem",
+  "Source": 576,
+  "TextId": 424,
+  "UpdatedDate": "2005-04-18T15:29:22.7803+02:00",
+  "UpdatedCount": 156,
+  "Visibility": 622,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 930,
-  "TargetTableName": "Murazik Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 392,
-  "RightSelectionId": 525,
+  "TargetTableNumber": 810,
+  "TargetTableName": "Terry Inc and Sons",
+  "Completed": true,
+  "LeftSelectionId": 673,
+  "RightSelectionId": 862,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ebert Inc and Sons",
-  "ShadowProviderName": "Lueilwitz, Mueller and Cummings",
-  "ChartKey": "ipsam",
-  "LastLoaded": "2023-02-05T12:15:20.1417348+01:00",
-  "LastLoadedBy": 592,
+  "MainProviderName": "Jacobi-Kulas",
+  "ShadowProviderName": "Schumm-Hickle",
+  "ChartKey": "consequatur",
+  "LastLoaded": "2018-10-22T15:29:22.7803+02:00",
+  "LastLoadedBy": 837,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-05-22T12:15:20.1417348+02:00",
-  "LastMembershipChangeBy": 362,
+  "LastMembershipChange": "2019-11-05T15:29:22.7817976+01:00",
+  "LastMembershipChangeBy": 6,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quia",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Goyette, Dietrich and Beer",
-  "DashboardTileDefinitionId": 235,
+  "MainHeading": "enim",
+  "MemberTabHeading": "delectus",
+  "MailingsProviderName": "Marvin, O'Connell and Thiel",
+  "DashboardTileDefinitionId": 326,
   "VisibleFor": [
     {
-      "VisibleId": 510,
+      "VisibleId": 616,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 75
         }
       }
     },
     {
-      "VisibleId": 510,
+      "VisibleId": 616,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 75
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 590
+      "FieldLength": 678
     }
   }
 }

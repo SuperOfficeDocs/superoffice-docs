@@ -67,8 +67,8 @@ OK
 | Provider | string | The provider these tokens belong to |
 | AccessToken | string | Access token |
 | RefreshToken | string | Refresh token |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aliquid"
+  "Key": "consectetur"
 }
 ```
 
@@ -91,15 +91,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "ut",
-  "AccessToken": "excepturi",
-  "RefreshToken": "cumque",
+  "Provider": "animi",
+  "AccessToken": "quia",
+  "RefreshToken": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

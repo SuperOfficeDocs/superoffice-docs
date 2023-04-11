@@ -42,7 +42,7 @@ ChatTopicEntity deleted.
 |----------------|-------------|
 | 204 | ChatTopicEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

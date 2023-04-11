@@ -75,8 +75,8 @@ OK
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -89,12 +89,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 176,
-  "Name": "Mueller, Heller and Lemke",
-  "Config": "cum",
-  "Rank": 14,
-  "Client": "qui",
-  "Style": "eaque"
+  "DashboardThemeId": 241,
+  "Name": "West, Frami and Wunsch",
+  "Config": "necessitatibus",
+  "Rank": 772,
+  "Client": "sit",
+  "Style": "blanditiis"
 }
 ```
 
@@ -105,23 +105,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 924,
-  "Name": "Murray-Gleason",
-  "Config": "qui",
-  "Rank": 200,
-  "Client": "ipsum",
-  "Style": "omnis",
+  "DashboardThemeId": 354,
+  "Name": "Marks, Witting and McCullough",
+  "Config": "repudiandae",
+  "Rank": 785,
+  "Client": "repudiandae",
+  "Style": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldType": "System.Int32",
+      "FieldLength": 640
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

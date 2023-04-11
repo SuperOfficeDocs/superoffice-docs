@@ -78,8 +78,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | Number1 | string | Alphanumeric user field |
 | Number2 | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 323,
-    "Name": "Kassulke Group",
-    "OrgNr": "1220827",
+    "ContactId": 783,
+    "Name": "O'Conner-O'Keefe",
+    "OrgNr": "981586",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-914-669-6208 x98731",
-    "AssociateId": 55,
-    "CountryId": 290,
-    "EmailAddress": "alize@kirlin.co.uk",
-    "Kananame": "aut",
-    "EmailAddressName": "darrel@mcculloughgutmann.biz",
+    "City": "ea",
+    "DirectPhone": "(766)618-6408 x97108",
+    "AssociateId": 628,
+    "CountryId": 253,
+    "EmailAddress": "darian_keeling@rau.name",
+    "Kananame": "consequatur",
+    "EmailAddressName": "benny.heidenreich@rippin.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mckayla Gaylord Sr.",
+    "AssociateFullName": "Dagmar Bergstrom I",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "rerum",
-    "FullName": "Maybell Dickens",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 122,
-    "Number1": "1080517",
-    "Number2": "1131202",
+    "FormattedAddress": "nisi",
+    "FullName": "Bella Kozey III",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 204,
+    "Number1": "1275307",
+    "Number2": "958811",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 488
+        "FieldLength": 324
       }
     }
   }

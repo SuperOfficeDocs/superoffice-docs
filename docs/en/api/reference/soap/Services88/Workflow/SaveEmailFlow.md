@@ -44,15 +44,72 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
      <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
      <Workflow:Status xsi:type="Workflow:WorkflowDefinitionStatus">None</Workflow:Status>
-     <Workflow:VisibleForAll xsi:type="xsd:short">0</Workflow:VisibleForAll>
+     <Workflow:VisibleForAll xsi:type="xsd:boolean">false</Workflow:VisibleForAll>
      <Workflow:VisibleForAssociates xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </Workflow:VisibleForAssociates>
      <Workflow:VisibleForGroups xsi:type="NetServerServices882:ArrayOfint">
       <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
      </Workflow:VisibleForGroups>
-     <Workflow:JumpToFinish xsi:type="xsd:short">0</Workflow:JumpToFinish>
-     <Workflow:StartOnlyOnce xsi:type="xsd:short">0</Workflow:StartOnlyOnce>
+     <Workflow:JumpToFinish xsi:type="xsd:boolean">false</Workflow:JumpToFinish>
+     <Workflow:StartOnlyOnce xsi:type="xsd:boolean">false</Workflow:StartOnlyOnce>
+     <Workflow:OverrideConsentSubscription xsi:type="xsd:boolean">false</Workflow:OverrideConsentSubscription>
+     <Workflow:FromType xsi:type="Workflow:EmailFromType">FromOnlySpecified</Workflow:FromType>
+     <Workflow:FromName xsi:type="xsd:string"></Workflow:FromName>
+     <Workflow:FromAddr xsi:type="xsd:string"></Workflow:FromAddr>
+     <Workflow:ReplyToType xsi:type="Workflow:EmailReplyToType">ReplyToOnlySpecified</Workflow:ReplyToType>
+     <Workflow:ReplyToAddr xsi:type="xsd:string"></Workflow:ReplyToAddr>
+     <Workflow:ReplyToName xsi:type="xsd:string"></Workflow:ReplyToName>
+     <Workflow:SmsSender xsi:type="xsd:string"></Workflow:SmsSender>
+     <Workflow:UseGoogleAnalytics xsi:type="xsd:boolean">false</Workflow:UseGoogleAnalytics>
+     <Workflow:GaSource xsi:type="xsd:string"></Workflow:GaSource>
+     <Workflow:GaCampaign xsi:type="xsd:string"></Workflow:GaCampaign>
+     <Workflow:UseTimeframe xsi:type="xsd:boolean">false</Workflow:UseTimeframe>
+     <Workflow:SelectedDays xsi:type="Workflow:Weekday">Monday</Workflow:SelectedDays>
+     <Workflow:TimeframeStart xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:TimeframeStart>
+     <Workflow:TimeframeEnd xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:TimeframeEnd>
+     <Workflow:UseWorkflowStart xsi:type="xsd:boolean">false</Workflow:UseWorkflowStart>
+     <Workflow:WorkflowStart xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:WorkflowStart>
+     <Workflow:UseEnrollmentEnd xsi:type="xsd:boolean">false</Workflow:UseEnrollmentEnd>
+     <Workflow:EnrollmentEnd xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:EnrollmentEnd>
+     <Workflow:RemoveFromFlows xsi:type="NetServerServices882:ArrayOfint">
+      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
+     </Workflow:RemoveFromFlows>
+     <Workflow:TzLocation xsi:type="Workflow:TimeZoneData">
+      <Workflow:TZLocationID xsi:type="xsd:int">0</Workflow:TZLocationID>
+      <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+      <Workflow:TZLocationCode xsi:type="xsd:string"></Workflow:TZLocationCode>
+      <Workflow:TZLocationCities xsi:type="xsd:string"></Workflow:TZLocationCities>
+      <Workflow:IsoNumber xsi:type="xsd:int">0</Workflow:IsoNumber>
+      <Workflow:TimeZoneSTDRules xsi:type="Workflow:TimeZoneRuleDictionary">
+       <Workflow:TimeZoneRuleKeyValuePair>
+        <Workflow:Key xsi:type="xsd:dateTime"></Workflow:Key>
+        <Workflow:Value xsi:type="Workflow:TimeZoneRule">
+         <Workflow:TZOffset xsi:type="xsd:int">0</Workflow:TZOffset>
+         <Workflow:StartRulePattern xsi:type="xsd:string"></Workflow:StartRulePattern>
+         <Workflow:EndRulePattern xsi:type="xsd:string"></Workflow:EndRulePattern>
+         <Workflow:StartDay xsi:type="xsd:int">0</Workflow:StartDay>
+         <Workflow:StartMonth xsi:type="xsd:int">0</Workflow:StartMonth>
+         <Workflow:EndDay xsi:type="xsd:int">0</Workflow:EndDay>
+         <Workflow:EndMonth xsi:type="xsd:int">0</Workflow:EndMonth>
+        </Workflow:Value>
+       </Workflow:TimeZoneRuleKeyValuePair>
+      </Workflow:TimeZoneSTDRules>
+      <Workflow:TimeZoneDSTRules xsi:type="Workflow:TimeZoneRuleDictionary">
+       <Workflow:TimeZoneRuleKeyValuePair>
+        <Workflow:Key xsi:type="xsd:dateTime"></Workflow:Key>
+        <Workflow:Value xsi:type="Workflow:TimeZoneRule">
+         <Workflow:TZOffset xsi:type="xsd:int">0</Workflow:TZOffset>
+         <Workflow:StartRulePattern xsi:type="xsd:string"></Workflow:StartRulePattern>
+         <Workflow:EndRulePattern xsi:type="xsd:string"></Workflow:EndRulePattern>
+         <Workflow:StartDay xsi:type="xsd:int">0</Workflow:StartDay>
+         <Workflow:StartMonth xsi:type="xsd:int">0</Workflow:StartMonth>
+         <Workflow:EndDay xsi:type="xsd:int">0</Workflow:EndDay>
+         <Workflow:EndMonth xsi:type="xsd:int">0</Workflow:EndMonth>
+        </Workflow:Value>
+       </Workflow:TimeZoneRuleKeyValuePair>
+      </Workflow:TimeZoneDSTRules>
+     </Workflow:TzLocation>
      <Workflow:Folder xsi:type="Workflow:HierarchyEntity">
       <Workflow:HierarchyId xsi:type="xsd:int">0</Workflow:HierarchyId>
       <Workflow:Domain xsi:type="Workflow:Domain">Unknown</Workflow:Domain>
@@ -80,15 +137,15 @@ Application tokens must be specified if calling an Online installation. Applicat
           <Workflow:UpdatedAssociateId xsi:nil="true"></Workflow:UpdatedAssociateId>
          </Workflow:HierarchyEntity>
         </Workflow:Children>
-        <Workflow:Registered xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Registered>
+        <Workflow:Registered xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Registered>
         <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-        <Workflow:Updated xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Updated>
+        <Workflow:Updated xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Updated>
         <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
        </Workflow:HierarchyEntity>
       </Workflow:Children>
-      <Workflow:Registered xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Registered>
+      <Workflow:Registered xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Registered>
       <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-      <Workflow:Updated xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Updated>
+      <Workflow:Updated xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Updated>
       <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
      </Workflow:Folder>
      <Workflow:Associate xsi:type="Workflow:Associate">
@@ -149,22 +206,74 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Workflow:StyleHint xsi:type="xsd:string"></Workflow:StyleHint>
       <Workflow:FullName xsi:type="xsd:string"></Workflow:FullName>
      </Workflow:ShipmentType>
-     <Workflow:OverrideConsentSubscription xsi:type="xsd:short">0</Workflow:OverrideConsentSubscription>
-     <Workflow:Steps xsi:type="Workflow:ArrayOfWorkflowStep">
-      <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
+     <Workflow:Steps xsi:type="Workflow:ArrayOfWorkflowStepBase">
+      <Workflow:WorkflowStepBase xsi:type="Workflow:WorkflowStepBase">
        <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
+       <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
        <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-       <Workflow:SubSteps xsi:type="Workflow:ArrayOfWorkflowStep">
-        <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
-         <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
-         <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-         <Workflow:SubSteps xsi:type="Workflow:ArrayOfWorkflowStep">
-          <Workflow:WorkflowStep xsi:nil="true"></Workflow:WorkflowStep>
-         </Workflow:SubSteps>
-        </Workflow:WorkflowStep>
-       </Workflow:SubSteps>
-      </Workflow:WorkflowStep>
+       <Workflow:Rank xsi:type="xsd:int">0</Workflow:Rank>
+      </Workflow:WorkflowStepBase>
      </Workflow:Steps>
+     <Workflow:Triggers xsi:type="Workflow:ArrayOfWorkflowTrigger">
+      <Workflow:WorkflowTrigger xsi:type="Workflow:WorkflowTrigger">
+       <Workflow:WorkflowTriggerId xsi:type="xsd:int">0</Workflow:WorkflowTriggerId>
+       <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
+       <Workflow:TriggerType xsi:type="Workflow:WorkflowTriggerType">None</Workflow:TriggerType>
+       <Workflow:RestrictionGroups xsi:type="Workflow:ArrayOfArchiveRestrictionGroup">
+        <Workflow:ArchiveRestrictionGroup xsi:type="Workflow:ArchiveRestrictionGroup">
+         <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+         <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
+         <Workflow:Rank xsi:type="xsd:short">0</Workflow:Rank>
+         <Workflow:Restrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+          <Workflow:ArchiveRestrictionInfo xsi:nil="true"></Workflow:ArchiveRestrictionInfo>
+         </Workflow:Restrictions>
+        </Workflow:ArchiveRestrictionGroup>
+       </Workflow:RestrictionGroups>
+      </Workflow:WorkflowTrigger>
+     </Workflow:Triggers>
+     <Workflow:Goals xsi:type="Workflow:ArrayOfWorkflowGoal">
+      <Workflow:WorkflowGoal xsi:type="Workflow:WorkflowGoal">
+       <Workflow:WorkflowGoalId xsi:type="xsd:int">0</Workflow:WorkflowGoalId>
+       <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
+       <Workflow:GoalType xsi:type="Workflow:WorkflowGoalType">None</Workflow:GoalType>
+       <Workflow:RestrictionGroups xsi:type="Workflow:ArrayOfArchiveRestrictionGroup">
+        <Workflow:ArchiveRestrictionGroup xsi:type="Workflow:ArchiveRestrictionGroup">
+         <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+         <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
+         <Workflow:Rank xsi:type="xsd:short">0</Workflow:Rank>
+         <Workflow:Restrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+          <Workflow:ArchiveRestrictionInfo xsi:nil="true"></Workflow:ArchiveRestrictionInfo>
+         </Workflow:Restrictions>
+        </Workflow:ArchiveRestrictionGroup>
+       </Workflow:RestrictionGroups>
+      </Workflow:WorkflowGoal>
+     </Workflow:Goals>
+     <Workflow:Filter xsi:type="Workflow:WorkflowFilter">
+      <Workflow:RestrictionGroups xsi:type="Workflow:ArrayOfArchiveRestrictionGroup">
+       <Workflow:ArchiveRestrictionGroup xsi:type="Workflow:ArchiveRestrictionGroup">
+        <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+        <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
+        <Workflow:Rank xsi:type="xsd:short">0</Workflow:Rank>
+        <Workflow:Restrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+         <Workflow:ArchiveRestrictionInfo xsi:type="Workflow:ArchiveRestrictionInfo">
+          <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+          <Workflow:Operator xsi:type="xsd:string"></Workflow:Operator>
+          <Workflow:Values xsi:nil="true"></Workflow:Values>
+          <Workflow:DisplayValues xsi:nil="true"></Workflow:DisplayValues>
+          <Workflow:ColumnInfo xsi:nil="true"></Workflow:ColumnInfo>
+          <Workflow:IsActive xsi:nil="true"></Workflow:IsActive>
+          <Workflow:SubRestrictions xsi:nil="true"></Workflow:SubRestrictions>
+          <Workflow:InterParenthesis xsi:nil="true"></Workflow:InterParenthesis>
+          <Workflow:InterOperator xsi:nil="true"></Workflow:InterOperator>
+          <Workflow:UniqueHash xsi:nil="true"></Workflow:UniqueHash>
+         </Workflow:ArchiveRestrictionInfo>
+        </Workflow:Restrictions>
+       </Workflow:ArchiveRestrictionGroup>
+      </Workflow:RestrictionGroups>
+     </Workflow:Filter>
+     <Workflow:BlockLists xsi:type="NetServerServices882:ArrayOfint">
+      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
+     </Workflow:BlockLists>
     </Workflow:EmailFlow>
    </Workflow:SaveEmailFlow>
 
@@ -193,15 +302,72 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
     <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
     <Workflow:Status xsi:type="Workflow:WorkflowDefinitionStatus">None</Workflow:Status>
-    <Workflow:VisibleForAll xsi:type="xsd:short">0</Workflow:VisibleForAll>
+    <Workflow:VisibleForAll xsi:type="xsd:boolean">false</Workflow:VisibleForAll>
     <Workflow:VisibleForAssociates xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Workflow:VisibleForAssociates>
     <Workflow:VisibleForGroups xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Workflow:VisibleForGroups>
-    <Workflow:JumpToFinish xsi:type="xsd:short">0</Workflow:JumpToFinish>
-    <Workflow:StartOnlyOnce xsi:type="xsd:short">0</Workflow:StartOnlyOnce>
+    <Workflow:JumpToFinish xsi:type="xsd:boolean">false</Workflow:JumpToFinish>
+    <Workflow:StartOnlyOnce xsi:type="xsd:boolean">false</Workflow:StartOnlyOnce>
+    <Workflow:OverrideConsentSubscription xsi:type="xsd:boolean">false</Workflow:OverrideConsentSubscription>
+    <Workflow:FromType xsi:type="Workflow:EmailFromType">FromOnlySpecified</Workflow:FromType>
+    <Workflow:FromName xsi:type="xsd:string"></Workflow:FromName>
+    <Workflow:FromAddr xsi:type="xsd:string"></Workflow:FromAddr>
+    <Workflow:ReplyToType xsi:type="Workflow:EmailReplyToType">ReplyToOnlySpecified</Workflow:ReplyToType>
+    <Workflow:ReplyToAddr xsi:type="xsd:string"></Workflow:ReplyToAddr>
+    <Workflow:ReplyToName xsi:type="xsd:string"></Workflow:ReplyToName>
+    <Workflow:SmsSender xsi:type="xsd:string"></Workflow:SmsSender>
+    <Workflow:UseGoogleAnalytics xsi:type="xsd:boolean">false</Workflow:UseGoogleAnalytics>
+    <Workflow:GaSource xsi:type="xsd:string"></Workflow:GaSource>
+    <Workflow:GaCampaign xsi:type="xsd:string"></Workflow:GaCampaign>
+    <Workflow:UseTimeframe xsi:type="xsd:boolean">false</Workflow:UseTimeframe>
+    <Workflow:SelectedDays xsi:type="Workflow:Weekday">Monday</Workflow:SelectedDays>
+    <Workflow:TimeframeStart xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:TimeframeStart>
+    <Workflow:TimeframeEnd xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:TimeframeEnd>
+    <Workflow:UseWorkflowStart xsi:type="xsd:boolean">false</Workflow:UseWorkflowStart>
+    <Workflow:WorkflowStart xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:WorkflowStart>
+    <Workflow:UseEnrollmentEnd xsi:type="xsd:boolean">false</Workflow:UseEnrollmentEnd>
+    <Workflow:EnrollmentEnd xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:EnrollmentEnd>
+    <Workflow:RemoveFromFlows xsi:type="NetServerServices882:ArrayOfint">
+     <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
+    </Workflow:RemoveFromFlows>
+    <Workflow:TzLocation xsi:type="Workflow:TimeZoneData">
+     <Workflow:TZLocationID xsi:type="xsd:int">0</Workflow:TZLocationID>
+     <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+     <Workflow:TZLocationCode xsi:type="xsd:string"></Workflow:TZLocationCode>
+     <Workflow:TZLocationCities xsi:type="xsd:string"></Workflow:TZLocationCities>
+     <Workflow:IsoNumber xsi:type="xsd:int">0</Workflow:IsoNumber>
+     <Workflow:TimeZoneSTDRules xsi:type="Workflow:TimeZoneRuleDictionary">
+      <Workflow:TimeZoneRuleKeyValuePair>
+       <Workflow:Key xsi:type="xsd:dateTime"></Workflow:Key>
+       <Workflow:Value xsi:type="Workflow:TimeZoneRule">
+        <Workflow:TZOffset xsi:type="xsd:int">0</Workflow:TZOffset>
+        <Workflow:StartRulePattern xsi:type="xsd:string"></Workflow:StartRulePattern>
+        <Workflow:EndRulePattern xsi:type="xsd:string"></Workflow:EndRulePattern>
+        <Workflow:StartDay xsi:type="xsd:int">0</Workflow:StartDay>
+        <Workflow:StartMonth xsi:type="xsd:int">0</Workflow:StartMonth>
+        <Workflow:EndDay xsi:type="xsd:int">0</Workflow:EndDay>
+        <Workflow:EndMonth xsi:type="xsd:int">0</Workflow:EndMonth>
+       </Workflow:Value>
+      </Workflow:TimeZoneRuleKeyValuePair>
+     </Workflow:TimeZoneSTDRules>
+     <Workflow:TimeZoneDSTRules xsi:type="Workflow:TimeZoneRuleDictionary">
+      <Workflow:TimeZoneRuleKeyValuePair>
+       <Workflow:Key xsi:type="xsd:dateTime"></Workflow:Key>
+       <Workflow:Value xsi:type="Workflow:TimeZoneRule">
+        <Workflow:TZOffset xsi:type="xsd:int">0</Workflow:TZOffset>
+        <Workflow:StartRulePattern xsi:type="xsd:string"></Workflow:StartRulePattern>
+        <Workflow:EndRulePattern xsi:type="xsd:string"></Workflow:EndRulePattern>
+        <Workflow:StartDay xsi:type="xsd:int">0</Workflow:StartDay>
+        <Workflow:StartMonth xsi:type="xsd:int">0</Workflow:StartMonth>
+        <Workflow:EndDay xsi:type="xsd:int">0</Workflow:EndDay>
+        <Workflow:EndMonth xsi:type="xsd:int">0</Workflow:EndMonth>
+       </Workflow:Value>
+      </Workflow:TimeZoneRuleKeyValuePair>
+     </Workflow:TimeZoneDSTRules>
+    </Workflow:TzLocation>
     <Workflow:Folder xsi:type="Workflow:HierarchyEntity">
      <Workflow:HierarchyId xsi:type="xsd:int">0</Workflow:HierarchyId>
      <Workflow:Domain xsi:type="Workflow:Domain">Unknown</Workflow:Domain>
@@ -225,21 +391,21 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Workflow:Children xsi:type="Workflow:ArrayOfHierarchyEntity">
           <Workflow:HierarchyEntity xsi:nil="true"></Workflow:HierarchyEntity>
          </Workflow:Children>
-         <Workflow:Registered xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Registered>
+         <Workflow:Registered xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Registered>
          <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-         <Workflow:Updated xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Updated>
+         <Workflow:Updated xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Updated>
          <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
         </Workflow:HierarchyEntity>
        </Workflow:Children>
-       <Workflow:Registered xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Registered>
+       <Workflow:Registered xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Registered>
        <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-       <Workflow:Updated xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Updated>
+       <Workflow:Updated xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Updated>
        <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
       </Workflow:HierarchyEntity>
      </Workflow:Children>
-     <Workflow:Registered xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Registered>
+     <Workflow:Registered xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Registered>
      <Workflow:RegisteredAssociateId xsi:type="xsd:int">0</Workflow:RegisteredAssociateId>
-     <Workflow:Updated xsi:type="xsd:dateTime">2023-03-01T11:15:06Z</Workflow:Updated>
+     <Workflow:Updated xsi:type="xsd:dateTime">2023-03-31T13:29:04Z</Workflow:Updated>
      <Workflow:UpdatedAssociateId xsi:type="xsd:int">0</Workflow:UpdatedAssociateId>
     </Workflow:Folder>
     <Workflow:Associate xsi:type="Workflow:Associate">
@@ -302,26 +468,116 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Workflow:StyleHint xsi:type="xsd:string"></Workflow:StyleHint>
      <Workflow:FullName xsi:type="xsd:string"></Workflow:FullName>
     </Workflow:ShipmentType>
-    <Workflow:OverrideConsentSubscription xsi:type="xsd:short">0</Workflow:OverrideConsentSubscription>
-    <Workflow:Steps xsi:type="Workflow:ArrayOfWorkflowStep">
-     <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
+    <Workflow:Steps xsi:type="Workflow:ArrayOfWorkflowStepBase">
+     <Workflow:WorkflowStepBase xsi:type="Workflow:WorkflowStepBase">
       <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
+      <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
       <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-      <Workflow:SubSteps xsi:type="Workflow:ArrayOfWorkflowStep">
-       <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
-        <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
-        <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-        <Workflow:SubSteps xsi:type="Workflow:ArrayOfWorkflowStep">
-         <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
-          <Workflow:WorkflowStepId xsi:nil="true"></Workflow:WorkflowStepId>
-          <Workflow:StepType xsi:nil="true"></Workflow:StepType>
-          <Workflow:SubSteps xsi:nil="true"></Workflow:SubSteps>
-         </Workflow:WorkflowStep>
-        </Workflow:SubSteps>
-       </Workflow:WorkflowStep>
-      </Workflow:SubSteps>
-     </Workflow:WorkflowStep>
+      <Workflow:Rank xsi:type="xsd:int">0</Workflow:Rank>
+     </Workflow:WorkflowStepBase>
     </Workflow:Steps>
+    <Workflow:Triggers xsi:type="Workflow:ArrayOfWorkflowTrigger">
+     <Workflow:WorkflowTrigger xsi:type="Workflow:WorkflowTrigger">
+      <Workflow:WorkflowTriggerId xsi:type="xsd:int">0</Workflow:WorkflowTriggerId>
+      <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
+      <Workflow:TriggerType xsi:type="Workflow:WorkflowTriggerType">None</Workflow:TriggerType>
+      <Workflow:RestrictionGroups xsi:type="Workflow:ArrayOfArchiveRestrictionGroup">
+       <Workflow:ArchiveRestrictionGroup xsi:type="Workflow:ArchiveRestrictionGroup">
+        <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+        <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
+        <Workflow:Rank xsi:type="xsd:short">0</Workflow:Rank>
+        <Workflow:Restrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+         <Workflow:ArchiveRestrictionInfo xsi:type="Workflow:ArchiveRestrictionInfo">
+          <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+          <Workflow:Operator xsi:type="xsd:string"></Workflow:Operator>
+          <Workflow:Values xsi:nil="true"></Workflow:Values>
+          <Workflow:DisplayValues xsi:nil="true"></Workflow:DisplayValues>
+          <Workflow:ColumnInfo xsi:nil="true"></Workflow:ColumnInfo>
+          <Workflow:IsActive xsi:nil="true"></Workflow:IsActive>
+          <Workflow:SubRestrictions xsi:nil="true"></Workflow:SubRestrictions>
+          <Workflow:InterParenthesis xsi:nil="true"></Workflow:InterParenthesis>
+          <Workflow:InterOperator xsi:nil="true"></Workflow:InterOperator>
+          <Workflow:UniqueHash xsi:nil="true"></Workflow:UniqueHash>
+         </Workflow:ArchiveRestrictionInfo>
+        </Workflow:Restrictions>
+       </Workflow:ArchiveRestrictionGroup>
+      </Workflow:RestrictionGroups>
+     </Workflow:WorkflowTrigger>
+    </Workflow:Triggers>
+    <Workflow:Goals xsi:type="Workflow:ArrayOfWorkflowGoal">
+     <Workflow:WorkflowGoal xsi:type="Workflow:WorkflowGoal">
+      <Workflow:WorkflowGoalId xsi:type="xsd:int">0</Workflow:WorkflowGoalId>
+      <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
+      <Workflow:GoalType xsi:type="Workflow:WorkflowGoalType">None</Workflow:GoalType>
+      <Workflow:RestrictionGroups xsi:type="Workflow:ArrayOfArchiveRestrictionGroup">
+       <Workflow:ArchiveRestrictionGroup xsi:type="Workflow:ArchiveRestrictionGroup">
+        <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+        <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
+        <Workflow:Rank xsi:type="xsd:short">0</Workflow:Rank>
+        <Workflow:Restrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+         <Workflow:ArchiveRestrictionInfo xsi:type="Workflow:ArchiveRestrictionInfo">
+          <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+          <Workflow:Operator xsi:type="xsd:string"></Workflow:Operator>
+          <Workflow:Values xsi:nil="true"></Workflow:Values>
+          <Workflow:DisplayValues xsi:nil="true"></Workflow:DisplayValues>
+          <Workflow:ColumnInfo xsi:nil="true"></Workflow:ColumnInfo>
+          <Workflow:IsActive xsi:nil="true"></Workflow:IsActive>
+          <Workflow:SubRestrictions xsi:nil="true"></Workflow:SubRestrictions>
+          <Workflow:InterParenthesis xsi:nil="true"></Workflow:InterParenthesis>
+          <Workflow:InterOperator xsi:nil="true"></Workflow:InterOperator>
+          <Workflow:UniqueHash xsi:nil="true"></Workflow:UniqueHash>
+         </Workflow:ArchiveRestrictionInfo>
+        </Workflow:Restrictions>
+       </Workflow:ArchiveRestrictionGroup>
+      </Workflow:RestrictionGroups>
+     </Workflow:WorkflowGoal>
+    </Workflow:Goals>
+    <Workflow:Filter xsi:type="Workflow:WorkflowFilter">
+     <Workflow:RestrictionGroups xsi:type="Workflow:ArrayOfArchiveRestrictionGroup">
+      <Workflow:ArchiveRestrictionGroup xsi:type="Workflow:ArchiveRestrictionGroup">
+       <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+       <Workflow:Description xsi:type="xsd:string"></Workflow:Description>
+       <Workflow:Rank xsi:type="xsd:short">0</Workflow:Rank>
+       <Workflow:Restrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+        <Workflow:ArchiveRestrictionInfo xsi:type="Workflow:ArchiveRestrictionInfo">
+         <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+         <Workflow:Operator xsi:type="xsd:string"></Workflow:Operator>
+         <Workflow:Values xsi:type="NetServerServices882:ArrayOfstring">
+          <NetServerServices882:string xsi:nil="true"></NetServerServices882:string>
+         </Workflow:Values>
+         <Workflow:DisplayValues xsi:type="NetServerServices882:ArrayOfstring">
+          <NetServerServices882:string xsi:nil="true"></NetServerServices882:string>
+         </Workflow:DisplayValues>
+         <Workflow:ColumnInfo xsi:type="Workflow:ArchiveColumnInfo">
+          <Workflow:DisplayName xsi:type="xsd:string"></Workflow:DisplayName>
+          <Workflow:DisplayTooltip xsi:type="xsd:string"></Workflow:DisplayTooltip>
+          <Workflow:DisplayType xsi:type="xsd:string"></Workflow:DisplayType>
+          <Workflow:CanOrderBy xsi:nil="true"></Workflow:CanOrderBy>
+          <Workflow:Name xsi:type="xsd:string"></Workflow:Name>
+          <Workflow:CanRestrictBy xsi:nil="true"></Workflow:CanRestrictBy>
+          <Workflow:RestrictionType xsi:type="xsd:string"></Workflow:RestrictionType>
+          <Workflow:RestrictionListName xsi:type="xsd:string"></Workflow:RestrictionListName>
+          <Workflow:IsVisible xsi:nil="true"></Workflow:IsVisible>
+          <Workflow:Width xsi:type="xsd:string"></Workflow:Width>
+          <Workflow:IconHint xsi:type="xsd:string"></Workflow:IconHint>
+          <Workflow:HeadingIconHint xsi:type="xsd:string"></Workflow:HeadingIconHint>
+          <Workflow:ExtraInfo xsi:type="xsd:string"></Workflow:ExtraInfo>
+         </Workflow:ColumnInfo>
+         <Workflow:IsActive xsi:type="xsd:boolean">false</Workflow:IsActive>
+         <Workflow:SubRestrictions xsi:type="Workflow:ArrayOfArchiveRestrictionInfo">
+          <Workflow:ArchiveRestrictionInfo xsi:nil="true"></Workflow:ArchiveRestrictionInfo>
+         </Workflow:SubRestrictions>
+         <Workflow:InterParenthesis xsi:type="xsd:int">0</Workflow:InterParenthesis>
+         <Workflow:InterOperator xsi:type="Workflow:InterRestrictionOperator">None</Workflow:InterOperator>
+         <Workflow:UniqueHash xsi:type="xsd:int">0</Workflow:UniqueHash>
+        </Workflow:ArchiveRestrictionInfo>
+       </Workflow:Restrictions>
+      </Workflow:ArchiveRestrictionGroup>
+     </Workflow:RestrictionGroups>
+    </Workflow:Filter>
+    <Workflow:BlockLists xsi:type="NetServerServices882:ArrayOfint">
+     <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
+    </Workflow:BlockLists>
    </Workflow:Response>
   </Workflow:SaveEmailFlowResponse>
  </SOAP-ENV:Body>

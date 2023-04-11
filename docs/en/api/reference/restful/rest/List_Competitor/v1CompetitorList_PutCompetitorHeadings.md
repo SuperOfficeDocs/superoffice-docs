@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 759,
-    "Name": "Cummerata-Okuneva",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 441,
-    "UdListDefinitionId": 180
+    "HeadingId": 549,
+    "Name": "Grady-Murphy",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "Rank": 783,
+    "UdListDefinitionId": 740
   },
   {
-    "HeadingId": 759,
-    "Name": "Cummerata-Okuneva",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 441,
-    "UdListDefinitionId": 180
+    "HeadingId": 549,
+    "Name": "Grady-Murphy",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "Rank": 783,
+    "UdListDefinitionId": 740
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 120,
-    "Name": "Rowe Group",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "Rank": 205,
-    "UdListDefinitionId": 97,
+    "HeadingId": 468,
+    "Name": "Kshlerin, Ebert and Dooley",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 689,
+    "UdListDefinitionId": 590,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 92
+        "FieldLength": 108
       }
     }
   }

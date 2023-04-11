@@ -65,8 +65,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,50 +85,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "Welch, Runte and Bernier",
-    "ToolTip": "Sunt mollitia ut ullam.",
-    "Deleted": true,
-    "Rank": 497,
-    "Type": "autem",
+    "Id": 114,
+    "Name": "Ullrich, Braun and Kris",
+    "ToolTip": "Sit reprehenderit eum.",
+    "Deleted": false,
+    "Rank": 756,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 477,
-        "Name": "Simonis, Wunsch and Mertz",
-        "ToolTip": "Quasi odit.",
-        "Deleted": false,
-        "Rank": 313,
-        "Type": "error",
+        "Id": 382,
+        "Name": "Hoppe Group",
+        "ToolTip": "Est deserunt vero eligendi quod.",
+        "Deleted": true,
+        "Rank": 875,
+        "Type": "voluptate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 950,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "culpa",
-        "FullName": "Ms. Derrick Kelley Stracke V",
+        "IconHint": "deserunt",
+        "ColorBlock": 935,
+        "ExtraInfo": "ut",
+        "StyleHint": "esse",
+        "FullName": "Jeffrey Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 905
+            "FieldType": "System.Int32",
+            "FieldLength": 237
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 718,
-    "ExtraInfo": "consectetur",
-    "StyleHint": "aut",
-    "FullName": "Prof. Glenna Lillie Hettinger",
+    "IconHint": "vel",
+    "ColorBlock": 988,
+    "ExtraInfo": "quia",
+    "StyleHint": "tempore",
+    "FullName": "Rocio Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 6
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

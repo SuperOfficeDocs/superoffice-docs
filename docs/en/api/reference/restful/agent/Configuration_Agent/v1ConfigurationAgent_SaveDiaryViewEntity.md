@@ -55,7 +55,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,8 +67,8 @@ OK
 | AssocId | int32 |  |
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,39 +76,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 817,
-  "Name": "Baumbach Group",
-  "Tooltip": "dicta",
-  "VisibleColumns": 702,
-  "Rank": 570,
-  "AssocId": 553,
+  "DiaryViewId": 212,
+  "Name": "Ziemann Inc and Sons",
+  "Tooltip": "dolorem",
+  "VisibleColumns": 370,
+  "Rank": 486,
+  "AssocId": 378,
   "AssociateList": [
     {
-      "Id": 984,
-      "Name": "Kovacek, Deckow and Tillman",
-      "ToolTip": "Et vero odio officiis corporis qui earum perspiciatis.",
-      "Deleted": true,
-      "Rank": 974,
-      "Type": "aliquid",
-      "ColorBlock": 718,
-      "IconHint": "odit",
-      "Selected": false,
-      "LastChanged": "2010-01-30T12:15:18.4157599+01:00",
+      "Id": 117,
+      "Name": "Renner, Boyle and Hills",
+      "ToolTip": "Quia odio consequatur fuga quis facere aut.",
+      "Deleted": false,
+      "Rank": 376,
+      "Type": "quasi",
+      "ColorBlock": 447,
+      "IconHint": "ratione",
+      "Selected": true,
+      "LastChanged": "2019-12-23T15:29:21.0297857+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "molestias",
+      "ExtraInfo": "nostrum",
+      "StyleHint": "totam",
       "Hidden": false,
-      "FullName": "Mr. Lee Domenica Considine Jr."
+      "FullName": "Prof. Sydnie Rodriguez"
     }
   ],
-  "TzLocationId": 167
+  "TzLocationId": 659
 }
 ```
 
@@ -119,49 +119,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 283,
-  "Name": "Runte-Armstrong",
-  "Tooltip": "corporis",
-  "VisibleColumns": 7,
-  "Rank": 140,
-  "AssocId": 493,
+  "DiaryViewId": 707,
+  "Name": "Spencer, Runolfsson and Harris",
+  "Tooltip": "dolores",
+  "VisibleColumns": 198,
+  "Rank": 266,
+  "AssocId": 630,
   "AssociateList": [
     {
-      "Id": 765,
-      "Name": "Kunze Group",
-      "ToolTip": "Odit earum.",
+      "Id": 918,
+      "Name": "Luettgen, Langworth and Balistreri",
+      "ToolTip": "Dolorem alias sunt est.",
       "Deleted": false,
-      "Rank": 158,
-      "Type": "nobis",
-      "ColorBlock": 720,
-      "IconHint": "voluptatem",
-      "Selected": false,
-      "LastChanged": "2012-12-06T12:15:18.4167596+01:00",
+      "Rank": 119,
+      "Type": "corporis",
+      "ColorBlock": 681,
+      "IconHint": "est",
+      "Selected": true,
+      "LastChanged": "2013-05-11T15:29:21.0307874+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolore",
-      "StyleHint": "excepturi",
+      "ExtraInfo": "quasi",
+      "StyleHint": "eum",
       "Hidden": false,
-      "FullName": "Mr. Rebecca Rau",
+      "FullName": "Conrad Crist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 966
         }
       }
     }
   ],
-  "TzLocationId": 402,
+  "TzLocationId": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 19
     }
   }
 }

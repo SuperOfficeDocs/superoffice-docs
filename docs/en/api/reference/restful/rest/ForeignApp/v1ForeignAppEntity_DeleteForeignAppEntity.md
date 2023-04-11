@@ -43,7 +43,7 @@ ForeignAppEntity deleted.
 | 204 | ForeignAppEntity deleted. |
 | 412 | Delete aborted because ForeignAppEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -52,7 +52,7 @@ ForeignAppEntity deleted.
 DELETE /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

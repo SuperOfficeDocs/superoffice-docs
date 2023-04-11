@@ -82,8 +82,8 @@ RelationDefinitionEntity updated.
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -92,16 +92,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 701,
-  "Name": "Corwin-Bruen",
-  "Tooltip": "amet",
-  "PassiveText": "quia",
-  "Deleted": true,
-  "Rank": 464,
+  "ReldefId": 544,
+  "Name": "Heathcote-Kuhlman",
+  "Tooltip": "aliquam",
+  "PassiveText": "dolor",
+  "Deleted": false,
+  "Rank": 294,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -114,12 +114,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 261,
-  "Name": "Hahn-Haag",
-  "Tooltip": "odio",
-  "PassiveText": "est",
+  "ReldefId": 513,
+  "Name": "Mertz Inc and Sons",
+  "Tooltip": "adipisci",
+  "PassiveText": "adipisci",
   "Deleted": false,
-  "Rank": 513,
+  "Rank": 567,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldLength": 199
     }
   },
   "_Links": {

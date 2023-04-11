@@ -78,34 +78,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 191,
-  "Name": "Jerde, McClure and Carter",
-  "AssociateId": 796,
-  "DetailsTable": 75,
-  "DetailsRecord": 646,
+  "Id": 246,
+  "Name": "Gaylord Inc and Sons",
+  "AssociateId": 294,
+  "DetailsTable": 924,
+  "DetailsRecord": 251,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "voluptatem",
-    "ParameterObject2": "ipsam"
+    "ParameterObject1": "et",
+    "ParameterObject2": "itaque"
   },
-  "LastStarted": "2011-02-10T12:15:27.5976313+01:00",
-  "Created": "2020-05-07T12:15:27.5976313+02:00",
-  "StartCount": 151,
-  "DatabaseSerialNumber": "810499",
-  "Context": "optio",
-  "Result": "illum",
+  "LastStarted": "2012-05-11T15:29:30.8059856+02:00",
+  "Created": "2001-09-03T15:29:30.8059856+02:00",
+  "StartCount": 73,
+  "DatabaseSerialNumber": "503439",
+  "Context": "eos",
+  "Result": "praesentium",
   "State": "All",
-  "Description": "Polarised local archive",
-  "Response": "eveniet",
-  "Request": "illum",
-  "ProgressDescription": "Re-engineered discrete benchmark",
-  "ProgressPercent": 134,
-  "FileName": "Stroman, Baumbach and Heathcote",
+  "Description": "Automated demand-driven info-mediaries",
+  "Response": "est",
+  "Request": "recusandae",
+  "ProgressDescription": "Fundamental attitude-oriented monitoring",
+  "ProgressPercent": 398,
+  "FileName": "Bahringer Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -116,5 +116,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-844
+87
 ```

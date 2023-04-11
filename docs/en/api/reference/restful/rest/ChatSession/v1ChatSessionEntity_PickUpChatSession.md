@@ -81,8 +81,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 702,
-  "TopicId": 724,
+  "ChatSessionId": 813,
+  "TopicId": 280,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fuga",
-  "CustomerHost": "laudantium",
-  "CustomerName": "Gleason Group",
-  "CustomerEmail": "krista_nitzsche@skiles.uk",
-  "CustomerPhone": "1-957-390-1895 x82125",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Conn-Nienow",
+  "CustomerAlias": "libero",
+  "CustomerHost": "aperiam",
+  "CustomerName": "Weimann Group",
+  "CustomerEmail": "august@reilly.co.uk",
+  "CustomerPhone": "121-743-6365",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Sanford-Bradtke",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "vel",
-  "WhenRequested": "2019-08-12T12:15:26.4856428+02:00",
-  "WhenStarted": "2012-03-31T12:15:26.4856428+02:00",
-  "WhenEnded": "2019-05-02T12:15:26.4856428+02:00",
-  "WhenIdle": "2015-08-02T12:15:26.4856428+02:00",
-  "WhenFetched": "2015-09-03T12:15:26.4856428+02:00",
-  "SessionKey": "id",
-  "InitialQueuePos": 643,
-  "AlertLevel": 859,
-  "Rank": 671,
+  "FirstMessage": "natus",
+  "LastMessage": "laborum",
+  "WhenRequested": "2023-01-01T15:29:29.3897041+01:00",
+  "WhenStarted": "2010-12-07T15:29:29.3897041+01:00",
+  "WhenEnded": "2014-09-23T15:29:29.3897041+02:00",
+  "WhenIdle": "2019-05-07T15:29:29.3897041+02:00",
+  "WhenFetched": "2022-02-19T15:29:29.3897041+01:00",
+  "SessionKey": "laboriosam",
+  "InitialQueuePos": 80,
+  "AlertLevel": 681,
+  "Rank": 561,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 616,
+  "ChatbotIsActive": true,
+  "Rating": 373,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 147
     }
   }
 }

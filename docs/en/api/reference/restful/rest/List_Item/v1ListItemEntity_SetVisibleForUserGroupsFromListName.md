@@ -86,8 +86,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,42 +100,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Gislason Inc and Sons",
-    "ToolTip": "Laborum esse et quas.",
+    "Id": 761,
+    "Name": "Ritchie-Schamberger",
+    "ToolTip": "Voluptatem velit suscipit consequatur est dignissimos accusantium.",
     "Deleted": false,
-    "Rank": 133,
-    "Type": "debitis",
-    "ColorBlock": 131,
-    "IconHint": "fugit",
+    "Rank": 82,
+    "Type": "modi",
+    "ColorBlock": 537,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2016-09-04T12:15:27.8386228+02:00",
+    "LastChanged": "2005-07-11T15:29:31.0399466+02:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Goodwin, Waters and Nicolas",
-        "ToolTip": "Est consequatur id expedita illo ducimus.",
-        "Deleted": false,
-        "Rank": 429,
-        "Type": "dolore",
-        "ColorBlock": 229,
-        "IconHint": "reiciendis",
-        "Selected": false,
-        "LastChanged": "2021-04-18T12:15:27.8386228+02:00",
+        "Id": 537,
+        "Name": "Schowalter Group",
+        "ToolTip": "In maiores.",
+        "Deleted": true,
+        "Rank": 387,
+        "Type": "aut",
+        "ColorBlock": 14,
+        "IconHint": "dolorum",
+        "Selected": true,
+        "LastChanged": "2021-11-07T15:29:31.0404467+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "omnis",
+        "ExtraInfo": "harum",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Ladarius Beer"
+        "FullName": "Jalen Keeling"
       }
     ],
-    "ExtraInfo": "rem",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "sed",
+    "StyleHint": "fuga",
     "Hidden": false,
-    "FullName": "Ellen Jewel Jast IV"
+    "FullName": "Grayson Oberbrunner"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Kihn, Koch and Kohler",
-    "ToolTip": "Odit beatae voluptas et et assumenda iste eos.",
+    "Id": 48,
+    "Name": "Baumbach, Medhurst and Davis",
+    "ToolTip": "Facere laboriosam quis et ipsa.",
     "Deleted": true,
-    "Rank": 167,
-    "Type": "consequatur",
-    "ColorBlock": 593,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2015-02-10T12:15:27.8396227+01:00",
+    "Rank": 402,
+    "Type": "quo",
+    "ColorBlock": 171,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2017-06-19T15:29:31.0419467+02:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Lakin-Harris",
-        "ToolTip": "Error architecto.",
+        "Id": 907,
+        "Name": "Mohr, Boyer and Cummerata",
+        "ToolTip": "Impedit tempora esse dolorem ratione impedit.",
         "Deleted": false,
-        "Rank": 294,
-        "Type": "omnis",
-        "ColorBlock": 230,
-        "IconHint": "aliquam",
+        "Rank": 274,
+        "Type": "in",
+        "ColorBlock": 235,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2015-12-09T12:15:27.8406237+01:00",
+        "LastChanged": "2015-06-27T15:29:31.0419467+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "cum",
+        "ExtraInfo": "magnam",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Ms. Blaise Strosin III",
+        "FullName": "Mr. Isai Florian Howe V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldLength": 609
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "placeat",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Lavada Veum",
+    "FullName": "Miss Walton Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 590
       }
     }
   }

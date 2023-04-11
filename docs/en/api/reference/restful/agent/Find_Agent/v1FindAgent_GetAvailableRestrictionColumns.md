@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "in",
-  "ProviderName": "Stanton LLC"
+  "StorageType": "cupiditate",
+  "ProviderName": "Kunde-Boyer"
 }
 ```
 
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quaerat",
-  "quas"
+  "sit",
+  "consequatur"
 ]
 ```

@@ -120,8 +120,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -133,7 +133,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 77,
+  "TicketEntityId": 57,
   "ReadStatus": "Green",
   "CheckEscalating": false
 }
@@ -146,21 +146,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 172,
-  "Title": "nihil",
-  "CreatedAt": "2022-09-05T12:15:20.353735+02:00",
-  "LastChanged": "2016-06-19T12:15:20.353735+02:00",
-  "ReadByOwner": "2022-09-07T12:15:20.353735+02:00",
-  "ReadByCustomer": "2013-09-27T12:15:20.353735+02:00",
-  "FirstReadByOwner": "2018-10-15T12:15:20.353735+02:00",
-  "FirstReadByUser": "1997-05-05T12:15:20.353735+02:00",
-  "Activate": "1997-02-22T12:15:20.353735+01:00",
-  "ClosedAt": "2020-12-07T12:15:20.353735+01:00",
-  "RepliedAt": "2011-04-09T12:15:20.353735+02:00",
-  "AlertTimeout": "2001-05-02T12:15:20.353735+02:00",
-  "Deadline": "2007-11-17T12:15:20.353735+01:00",
+  "TicketId": 530,
+  "Title": "ut",
+  "CreatedAt": "2020-10-15T15:29:23.126757+02:00",
+  "LastChanged": "2006-05-05T15:29:23.126757+02:00",
+  "ReadByOwner": "2022-04-26T15:29:23.126757+02:00",
+  "ReadByCustomer": "2012-11-22T15:29:23.126757+01:00",
+  "FirstReadByOwner": "2002-08-28T15:29:23.126757+02:00",
+  "FirstReadByUser": "2002-05-14T15:29:23.126757+02:00",
+  "Activate": "2016-01-13T15:29:23.126757+01:00",
+  "ClosedAt": "2010-07-27T15:29:23.126757+02:00",
+  "RepliedAt": "1999-07-18T15:29:23.126757+02:00",
+  "AlertTimeout": "1997-11-09T15:29:23.126757+01:00",
+  "Deadline": "1996-05-13T15:29:23.126757+02:00",
   "CreatedBy": null,
-  "Author": "perspiciatis",
+  "Author": "consequatur",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -171,157 +171,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quidem",
-      "PersonId": 619,
-      "Mrmrs": "enim",
-      "Firstname": "Terrell",
-      "Lastname": "Hessel",
-      "MiddleName": "Thiel LLC",
-      "Title": "dolorem",
-      "Description": "Realigned web-enabled orchestration",
-      "Email": "marietta@tillman.uk",
-      "FullName": "Tristian Kilback",
-      "DirectPhone": "1-931-397-2567 x6104",
-      "FormalName": "Volkman LLC",
-      "CountryId": 1000,
-      "ContactId": 426,
-      "ContactName": "McLaughlin-Waters",
-      "Retired": 394,
-      "Rank": 844,
-      "ActiveInterests": 576,
+      "Position": "voluptas",
+      "PersonId": 975,
+      "Mrmrs": "et",
+      "Firstname": "Marianne",
+      "Lastname": "Cummings",
+      "MiddleName": "Carroll-Schmitt",
+      "Title": "ea",
+      "Description": "Multi-channelled bottom-line pricing structure",
+      "Email": "broderick.balistreri@wisokylynch.co.uk",
+      "FullName": "Vesta Sauer",
+      "DirectPhone": "(042)974-0770 x6165",
+      "FormalName": "Kuhic LLC",
+      "CountryId": 518,
+      "ContactId": 699,
+      "ContactName": "Waters, Beier and Roberts",
+      "Retired": 766,
+      "Rank": 690,
+      "ActiveInterests": 322,
       "ContactDepartment": "",
-      "ContactCountryId": 154,
-      "ContactOrgNr": "522517",
-      "FaxPhone": "(479)920-7694 x79020",
-      "MobilePhone": "218.743.2650 x240",
-      "ContactPhone": "151-080-2161 x07822",
-      "AssociateName": "Trantow, Denesik and Prosacco",
-      "AssociateId": 598,
+      "ContactCountryId": 577,
+      "ContactOrgNr": "1433485",
+      "FaxPhone": "515-979-9378 x615",
+      "MobilePhone": "1-502-316-2447",
+      "ContactPhone": "1-403-289-8084 x5410",
+      "AssociateName": "Gorczany-Kohler",
+      "AssociateId": 509,
       "UsePersonAddress": false,
-      "ContactFax": "soluta",
-      "Kanafname": "maxime",
-      "Kanalname": "veritatis",
-      "Post1": "cupiditate",
-      "Post2": "nesciunt",
-      "Post3": "rerum",
-      "EmailName": "charlie_brekke@pouros.info",
-      "ContactFullName": "Camren Haley",
-      "ActiveErpLinks": 85,
-      "TicketPriorityId": 833,
-      "SupportLanguageId": 163,
-      "SupportAssociateId": 522,
+      "ContactFax": "dolore",
+      "Kanafname": "deleniti",
+      "Kanalname": "facere",
+      "Post1": "praesentium",
+      "Post2": "quos",
+      "Post3": "molestiae",
+      "EmailName": "terrence_hand@mayer.ca",
+      "ContactFullName": "Ms. Noelia Veum Sr.",
+      "ActiveErpLinks": 250,
+      "TicketPriorityId": 943,
+      "SupportLanguageId": 888,
+      "SupportAssociateId": 43,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 40
         }
       }
     }
   ],
-  "AlertLevel": 591,
-  "ConnectId": 322,
+  "AlertLevel": 405,
+  "ConnectId": 946,
   "ReadStatus": "Green",
-  "TimeToReply": 559,
-  "RealTimeToReply": 28,
-  "TimeToClose": 151,
-  "RealTimeToClose": 599,
-  "TimeSpentInternally": 698,
-  "TimeSpentExternally": 788,
-  "TimeSpentQueue": 931,
-  "RealTimeSpentInternally": 432,
-  "RealTimeSpentExternally": 505,
-  "RealTimeSpentQueue": 396,
-  "HasAttachment": true,
-  "NumReplies": 446,
-  "NumMessages": 38,
-  "FromAddress": "qui",
+  "TimeToReply": 263,
+  "RealTimeToReply": 859,
+  "TimeToClose": 886,
+  "RealTimeToClose": 4,
+  "TimeSpentInternally": 563,
+  "TimeSpentExternally": 542,
+  "TimeSpentQueue": 349,
+  "RealTimeSpentInternally": 132,
+  "RealTimeSpentExternally": 122,
+  "RealTimeSpentQueue": 40,
+  "HasAttachment": false,
+  "NumReplies": 815,
+  "NumMessages": 42,
+  "FromAddress": "in",
   "Messages": [
     {
-      "TicketMessageId": 363,
-      "CreatedAt": "2003-05-03T12:15:20.3577318+02:00",
+      "TicketMessageId": 38,
+      "CreatedAt": "2009-04-07T15:29:23.1312572+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "odit",
-      "PersonId": 748,
-      "PersonFullName": "Roma Kihn",
-      "ContactId": 742,
-      "ContactName": "Beer Group",
+      "Important": false,
+      "Author": "deleniti",
+      "PersonId": 83,
+      "PersonFullName": "Gabe Boehm",
+      "ContactId": 775,
+      "ContactName": "Legros Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 16,
-      "EmailHeader": "jarret_ryan@windlerbruen.name",
+      "NumAttachments": 128,
+      "EmailHeader": "randy_gerhold@walter.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "error",
-      "Sentiment": 364,
-      "SentimentConfidence": 952,
-      "CreatedBy": 943,
-      "ChangedAt": "2000-05-17T12:15:20.3587313+02:00",
+      "Language": "dolorum",
+      "Sentiment": 920,
+      "SentimentConfidence": 18,
+      "CreatedBy": 911,
+      "ChangedAt": "1997-07-14T15:29:23.131757+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 994
+          "FieldLength": 395
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 392,
-      "Name": "Wehner, Haley and Eichmann",
-      "ToolTip": "Consequatur dicta doloribus.",
+      "Id": 182,
+      "Name": "Walter, Bosco and Herman",
+      "ToolTip": "Repellat sint quasi velit laudantium.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 997
         }
       }
     },
     {
-      "Id": 392,
-      "Name": "Wehner, Haley and Eichmann",
-      "ToolTip": "Consequatur dicta doloribus.",
+      "Id": 182,
+      "Name": "Walter, Bosco and Herman",
+      "ToolTip": "Repellat sint quasi velit laudantium.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 954
+          "FieldLength": 997
         }
       }
     }
   ],
-  "Language": "adipisci",
-  "Sentiment": 965,
-  "SentimentConfidence": 807,
-  "SuggestedCategoryId": 63,
+  "Language": "voluptas",
+  "Sentiment": 4,
+  "SentimentConfidence": 866,
+  "SuggestedCategoryId": 786,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 480,
-  "IconHint": "reprehenderit",
+  "OrigHumanCategoryId": 593,
+  "IconHint": "nam",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "possimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 428
     }
   }
 }

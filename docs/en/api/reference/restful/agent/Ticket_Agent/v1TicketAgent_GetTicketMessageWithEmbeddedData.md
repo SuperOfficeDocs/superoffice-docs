@@ -87,11 +87,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,11 +100,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 779,
+  "Id": 833,
   "EmbedImages": "Inline"
 }
 ```
@@ -115,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 483,
+  "EjMessageId": 748,
   "Ticket": null,
-  "CreatedAt": "1996-07-27T12:15:20.4887302+02:00",
+  "CreatedAt": "2001-01-22T15:29:23.259255+01:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "quia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quae",
-  "TimeSpent": 448,
-  "Body": "tenetur",
-  "HtmlBody": "non",
-  "EmailHeader": "ernie.spinka@stroman.us",
-  "DebugInfo": "illo",
-  "MailSorter": "culpa",
+  "MessageId": "magni",
+  "TimeSpent": 264,
+  "Body": "omnis",
+  "HtmlBody": "autem",
+  "EmailHeader": "xzavier.volkman@crona.name",
+  "DebugInfo": "beatae",
+  "MailSorter": "vel",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "exercitationem",
   "MessageHeaders": [
     {
-      "Id": 873,
-      "Name": "Marvin, Shanahan and Schiller",
-      "Value": "deleniti",
+      "Id": 718,
+      "Name": "Greenholt, Frami and Hahn",
+      "Value": "veritatis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,47 +145,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 939
         }
       }
     }
   ],
   "Important": false,
-  "Language": "qui",
-  "Sentiment": 78,
-  "SentimentConfidence": 598,
+  "Language": "nam",
+  "Sentiment": 276,
+  "SentimentConfidence": 604,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 250,
-      "Name": "Padberg LLC",
-      "ContentType": "et",
-      "AttSize": 146,
+      "AttachmentId": 449,
+      "Name": "Huel LLC",
+      "ContentType": "fuga",
+      "AttSize": 311,
       "InlineImage": false,
-      "ContentId": "vel",
+      "ContentId": "quae",
+      "AuthKey": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldLength": 820
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "odit"
+    "CustomFields1": "quisquam",
+    "CustomFields2": "quasi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 878
     }
   }
 }

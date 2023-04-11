@@ -78,8 +78,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 247,
-    "ColumnId": 287,
-    "FieldDefault": "sunt",
-    "FieldHeight": 78,
-    "FieldLabel": "cumque",
-    "FieldLeft": 394,
-    "FieldTop": 78,
+    "UDefFieldId": 606,
+    "ColumnId": 985,
+    "FieldDefault": "illum",
+    "FieldHeight": 856,
+    "FieldLabel": "et",
+    "FieldLeft": 820,
+    "FieldTop": 583,
     "FieldType": "Checkbox",
-    "FieldWidth": 236,
-    "FormatMask": "est",
+    "FieldWidth": 699,
+    "FormatMask": "iste",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 148,
-    "LabelLeft": 794,
-    "LabelTop": 901,
-    "LabelWidth": 431,
-    "LastVersionId": 10,
-    "ListTableId": 90,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 792,
+    "LabelLeft": 892,
+    "LabelTop": 378,
+    "LabelWidth": 954,
+    "LastVersionId": 286,
+    "ListTableId": 899,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 288,
-    "ProgId": "culpa",
+    "Page1LineNo": 920,
+    "ProgId": "aut",
     "IsReadOnly": false,
-    "ShortLabel": "perspiciatis",
-    "TabOrder": 796,
-    "TextLength": 340,
-    "Tooltip": "consectetur",
-    "UdefIdentity": 643,
-    "UDListDefinitionId": 153,
+    "ShortLabel": "consequatur",
+    "TabOrder": 340,
+    "TextLength": 930,
+    "Tooltip": "pariatur",
+    "UdefIdentity": 334,
+    "UDListDefinitionId": 412,
     "Justification": "Center",
-    "Version": 340,
-    "TemplateVariableName": "Prohaska LLC",
+    "Version": 24,
+    "TemplateVariableName": "D'Amore-Hessel",
     "HasBeenPublished": true,
-    "MdoListName": "Tillman-Schulist",
+    "MdoListName": "Kling-Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldLength": 16
       }
     }
   }

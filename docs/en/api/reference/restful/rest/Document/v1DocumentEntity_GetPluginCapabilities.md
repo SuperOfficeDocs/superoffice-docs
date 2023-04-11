@@ -55,7 +55,7 @@ OK
 GET /api/v1/Document/Plugin/{pluginId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -65,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "necessitatibus",
-  "2": "veritatis"
+  "1": "qui",
+  "2": "occaecati"
 }
 ```

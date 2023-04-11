@@ -86,8 +86,8 @@ HierarchyEntity updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -100,32 +100,32 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 720,
+  "HierarchyId": 63,
   "Domain": "Dashboards",
-  "Name": "Simonis, Abbott and Boyer",
-  "Fullname": "ipsa",
-  "ParentId": 828,
+  "Name": "Roob Inc and Sons",
+  "Fullname": "repudiandae",
+  "ParentId": 133,
   "Children": [
     {
-      "HierarchyId": 705,
+      "HierarchyId": 124,
       "Domain": "Dashboards",
-      "Name": "Swift, Borer and Schmitt",
-      "Fullname": "ea",
-      "ParentId": 715,
+      "Name": "Konopelski-Borer",
+      "Fullname": "ut",
+      "ParentId": 507,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-11-05T12:15:26.9836356+01:00",
-      "RegisteredAssociateId": 240,
-      "Updated": "1998-07-26T12:15:26.9836356+02:00",
-      "UpdatedAssociateId": 906
+      "Registered": "2006-11-23T15:29:29.7837048+01:00",
+      "RegisteredAssociateId": 154,
+      "Updated": "2016-06-21T15:29:29.7837048+02:00",
+      "UpdatedAssociateId": 865
     }
   ],
-  "Registered": "2003-12-11T12:15:26.9836356+01:00",
-  "RegisteredAssociateId": 711,
-  "Updated": "2018-07-20T12:15:26.9836356+02:00",
-  "UpdatedAssociateId": 720
+  "Registered": "2019-04-11T15:29:29.7837048+02:00",
+  "RegisteredAssociateId": 938,
+  "Updated": "2010-01-24T15:29:29.7837048+01:00",
+  "UpdatedAssociateId": 824
 }
 ```
 
@@ -136,51 +136,51 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 544,
+  "HierarchyId": 531,
   "Domain": "Dashboards",
-  "Name": "Hackett Group",
-  "Fullname": "quam",
-  "ParentId": 763,
+  "Name": "Robel-O'Hara",
+  "Fullname": "minus",
+  "ParentId": 658,
   "Children": [
     {
-      "HierarchyId": 631,
+      "HierarchyId": 757,
       "Domain": "Dashboards",
-      "Name": "Murray Inc and Sons",
-      "Fullname": "omnis",
-      "ParentId": 195,
+      "Name": "Block-Bode",
+      "Fullname": "aut",
+      "ParentId": 558,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-02-24T12:15:26.9836356+01:00",
-      "RegisteredAssociateId": 77,
-      "Updated": "2002-01-21T12:15:26.9836356+01:00",
-      "UpdatedAssociateId": 553,
+      "Registered": "2006-05-23T15:29:29.7842009+02:00",
+      "RegisteredAssociateId": 246,
+      "Updated": "2019-05-03T15:29:29.7842009+02:00",
+      "UpdatedAssociateId": 765,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 193
         }
       }
     }
   ],
-  "Registered": "2000-11-11T12:15:26.9836356+01:00",
-  "RegisteredAssociateId": 328,
-  "Updated": "2007-10-04T12:15:26.9836356+02:00",
-  "UpdatedAssociateId": 542,
+  "Registered": "2012-03-25T15:29:29.7842009+02:00",
+  "RegisteredAssociateId": 475,
+  "Updated": "2011-04-10T15:29:29.7842009+02:00",
+  "UpdatedAssociateId": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 950
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

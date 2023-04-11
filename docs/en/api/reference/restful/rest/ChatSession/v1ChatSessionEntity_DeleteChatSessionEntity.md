@@ -42,7 +42,7 @@ ChatSessionEntity deleted.
 |----------------|-------------|
 | 204 | ChatSessionEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -51,7 +51,7 @@ ChatSessionEntity deleted.
 DELETE /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

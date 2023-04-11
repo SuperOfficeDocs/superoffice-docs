@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,16 +72,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 829,
-  "Name": "Murphy Inc and Sons",
-  "Tooltip": "commodi",
+  "HeadingId": 445,
+  "Name": "Vandervort-Crooks",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 704,
-  "UdListDefinitionId": 3
+  "Rank": 709,
+  "UdListDefinitionId": 350
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 23,
-  "Name": "Dibbert, Hackett and Gutmann",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 532,
-  "UdListDefinitionId": 438,
+  "HeadingId": 209,
+  "Name": "Koch-Sporer",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "Rank": 935,
+  "UdListDefinitionId": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 407
     }
   }
 }

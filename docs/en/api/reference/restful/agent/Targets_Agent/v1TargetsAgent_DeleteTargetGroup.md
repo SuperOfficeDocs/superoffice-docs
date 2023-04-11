@@ -24,7 +24,7 @@ Deletes the TargetGroup
 | TargetGroupId | int32 | **Required** The id of the TargetGroup to be deleted. |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=312
+POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=818
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Targets/DeleteTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

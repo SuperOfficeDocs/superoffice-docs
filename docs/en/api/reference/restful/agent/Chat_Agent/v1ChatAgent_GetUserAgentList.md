@@ -77,8 +77,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Gibson-Schmitt",
-    "ToolTip": "Ut eos earum et voluptas.",
+    "Id": 101,
+    "Name": "Haag Inc and Sons",
+    "ToolTip": "Dolore corporis.",
     "Deleted": false,
-    "Rank": 347,
-    "Type": "ipsam",
+    "Rank": 345,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Parker-Glover",
-        "ToolTip": "Tenetur repudiandae aut placeat consectetur ut.",
+        "Id": 581,
+        "Name": "Batz-Hyatt",
+        "ToolTip": "Possimus quia sed.",
         "Deleted": false,
-        "Rank": 868,
-        "Type": "iste",
+        "Rank": 355,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 341,
-        "ExtraInfo": "soluta",
-        "StyleHint": "molestias",
-        "FullName": "Miss Lorenza Emanuel Swaniawski",
+        "IconHint": "aut",
+        "ColorBlock": 320,
+        "ExtraInfo": "sapiente",
+        "StyleHint": "eum",
+        "FullName": "Lelia Satterfield",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 866
+            "FieldLength": 953
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 688,
-    "ExtraInfo": "et",
-    "StyleHint": "est",
-    "FullName": "Camron Armstrong",
+    "IconHint": "aut",
+    "ColorBlock": 322,
+    "ExtraInfo": "fuga",
+    "StyleHint": "velit",
+    "FullName": "Mr. Melyna Terry V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 823
+        "FieldType": "System.Int32",
+        "FieldLength": 385
       }
     }
   }

@@ -65,8 +65,8 @@ OK
 | TargetGroupId | int32 | The group id - but it may not still exist |
 | Year | int32 | The year this set of targets are associated with (2020, 2021...) |
 | Revisions | array | Collection of revisions (with changes) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetRevisionHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 382
+  "TargetAssignmentInfoId": 932
 }
 ```
 
@@ -89,13 +89,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 732,
-  "Year": 862,
+  "TargetGroupId": 297,
+  "Year": 212,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2017-01-08T12:15:20.2527361+01:00",
+      "When": "2007-12-21T15:29:23.0287595+01:00",
       "Changes": [
         {},
         {}
@@ -105,14 +105,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldLength": 141
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2017-01-08T12:15:20.2527361+01:00",
+      "When": "2007-12-21T15:29:23.0287595+01:00",
       "Changes": [
         {},
         {}
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 322
+          "FieldLength": 141
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

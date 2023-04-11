@@ -80,8 +80,8 @@ OK
 | PersonId | int32 | The person id |
 | ActivityPersonId | int32 | Id of the person causing the activity. |
 | AssociateId | int32 | Our contact |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2009-04-11T12:15:18.483761+02:00",
+  "ActivityStartTime": "2013-02-04T15:29:21.1027846+01:00",
   "ContactCategories": [
-    989,
-    105
+    857,
+    32
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -110,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 831,
+    "ContactId": 920,
     "Department": "",
-    "OrgNr": "979727",
-    "Name": "Bayer Inc and Sons",
+    "OrgNr": "1190068",
+    "Name": "Cremin, VonRueden and Nicolas",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Brando Koepp",
+    "AssociateFullName": "Grover Gibson",
     "Action": "ActivityCompleted",
-    "ActionTime": "2002-05-09T12:15:18.4857711+02:00",
+    "ActionTime": "2019-08-31T15:29:21.1032846+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Connelly, Cartwright and Ferry",
-    "ActionId": 263,
-    "PersonId": 986,
-    "ActivityPersonId": 203,
-    "AssociateId": 893,
+    "ActivityPersonName": "Rogahn, Abshire and Romaguera",
+    "ActionId": 438,
+    "PersonId": 50,
+    "ActivityPersonId": 974,
+    "AssociateId": 927,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 321
       }
     }
   }

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 782,
-    "Name": "Yost-Schowalter",
-    "ToolTip": "Delectus sit et dicta quam.",
-    "Deleted": true,
-    "Rank": 140,
-    "Type": "commodi",
-    "ColorBlock": 262,
-    "IconHint": "laudantium",
+    "Id": 368,
+    "Name": "Bosco-Cronin",
+    "ToolTip": "Itaque ducimus explicabo.",
+    "Deleted": false,
+    "Rank": 236,
+    "Type": "repellat",
+    "ColorBlock": 936,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2021-11-05T12:15:28.4406145+01:00",
+    "LastChanged": "2009-02-24T15:29:31.5519812+01:00",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Kling Group",
-        "ToolTip": "Nisi explicabo nobis ut officiis id.",
+        "Id": 949,
+        "Name": "Considine-Halvorson",
+        "ToolTip": "Vitae ut ad.",
         "Deleted": false,
-        "Rank": 176,
-        "Type": "vel",
-        "ColorBlock": 823,
-        "IconHint": "necessitatibus",
-        "Selected": false,
-        "LastChanged": "2019-02-26T12:15:28.4406145+01:00",
+        "Rank": 636,
+        "Type": "eum",
+        "ColorBlock": 532,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2006-12-20T15:29:31.5519812+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
+        "ExtraInfo": "aut",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Guiseppe Legros",
+        "FullName": "Ms. Devonte Howe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldType": "System.String",
+            "FieldLength": 655
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Dr. Toney Greenfelder MD",
+    "ExtraInfo": "similique",
+    "StyleHint": "adipisci",
+    "Hidden": false,
+    "FullName": "Mrs. Christy Bennett Bernier IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 811
       }
     }
   }

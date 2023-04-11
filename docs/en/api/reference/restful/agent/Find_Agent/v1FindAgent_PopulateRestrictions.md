@@ -65,15 +65,15 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo | TableRight |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
+| Name | string | The programmatic column name, including any required prefixes |
+| Operator | string | The operator, such as =, etc |
+| Values | array | Value(s) to test against |
+| DisplayValues | array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | bool | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | int32 | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | string | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | int32 |  |
 
 ## Sample request
@@ -82,22 +82,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Rice, Rolfson and Beahan",
+  "ProviderName": "Leannon-Boyer",
   "Restrictions": [
     {
-      "Name": "Treutel, Eichmann and Witting",
-      "Operator": "aut",
+      "Name": "Haley, Jaskolski and Nader",
+      "Operator": "laudantium",
       "Values": [
-        "est",
-        "exercitationem"
+        "rem",
+        "nulla"
       ],
       "DisplayValues": [
-        "libero",
-        "ut"
+        "et",
+        "temporibus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 664,
+      "InterParenthesis": 216,
       "InterOperator": "And",
-      "UniqueHash": 828
+      "UniqueHash": 289
     }
   ]
 }
@@ -121,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Labadie-Kub",
-    "Operator": "non",
+    "Name": "Kozey, Kozey and Haley",
+    "Operator": "magnam",
     "Values": [
-      "eum",
-      "quae"
+      "laborum",
+      "molestiae"
     ],
     "DisplayValues": [
-      "ipsam",
-      "vel"
+      "itaque",
+      "aperiam"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Block Group",
-        "Operator": "ducimus",
+        "Name": "Carter-Hilll",
+        "Operator": "voluptates",
         "Values": [
-          "expedita",
-          "quia"
+          "officia",
+          "eveniet"
         ],
         "DisplayValues": [
-          "aut",
-          "hic"
+          "doloremque",
+          "voluptate"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -151,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 418,
+        "InterParenthesis": 109,
         "InterOperator": "And",
-        "UniqueHash": 676
+        "UniqueHash": 229
       }
     ],
-    "InterParenthesis": 430,
+    "InterParenthesis": 10,
     "InterOperator": "And",
-    "UniqueHash": 651
+    "UniqueHash": 709
   }
 ]
 ```

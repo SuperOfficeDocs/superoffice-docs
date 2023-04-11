@@ -101,8 +101,8 @@ OK
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -114,7 +114,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 210
+  "QuoteId": 579
 }
 ```
 
@@ -126,75 +126,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 336,
-    "ERPQuoteVersionKey": "quae",
-    "QuoteId": 701,
-    "Description": "Innovative systematic strategy",
-    "Number": "335388",
+    "QuoteVersionId": 163,
+    "ERPQuoteVersionKey": "ut",
+    "QuoteId": 997,
+    "Description": "Inverse high-level hub",
+    "Number": "990653",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
-    "Reason": "empower scalable e-markets",
-    "LikelyQuoteAlternativeId": 950,
-    "SentDate": "2009-11-21T12:15:19.894738+01:00",
-    "FollowupId": 738,
-    "ExpirationDate": "2015-05-21T12:15:19.894738+02:00",
-    "DeliveryCountryId": 690,
+    "Reason": "",
+    "LikelyQuoteAlternativeId": 905,
+    "SentDate": "1997-12-02T15:29:22.5197648+01:00",
+    "FollowupId": 804,
+    "ExpirationDate": "2007-03-03T15:29:22.5197648+01:00",
+    "DeliveryCountryId": 228,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 506,
+    "InvoiceCountryId": 263,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "consequatur",
-    "ERPPaymentTypeKey": "cumque",
-    "ERPDeliveryTermsKey": "architecto",
-    "ERPDeliveryTypeKey": "sit",
-    "Rank": 977,
-    "ApprovedBy": 354,
-    "ApprovedText": "illum",
-    "ApprovedRegisteredBy": 610,
-    "ApprovedRegisteredDate": "2004-01-22T12:15:19.894738+01:00",
-    "ExtraField1": "cupiditate",
-    "ExtraField2": "facere",
-    "ExtraField3": "aliquam",
-    "ExtraField4": "aliquam",
-    "ExtraField5": "in",
-    "LastRecalculated": "2016-08-25T12:15:19.894738+02:00",
-    "Updated": "2013-05-24T12:15:19.894738+02:00",
-    "UpdatedAssociateId": 64,
-    "Registered": "2021-12-19T12:15:19.894738+01:00",
-    "RegisteredAssociateId": 102,
-    "RequestAssociateId": 367,
-    "RequestComment": "ipsum",
+    "ERPPaymentTermsKey": "labore",
+    "ERPPaymentTypeKey": "vitae",
+    "ERPDeliveryTermsKey": "sint",
+    "ERPDeliveryTypeKey": "iusto",
+    "Rank": 193,
+    "ApprovedBy": 236,
+    "ApprovedText": "quisquam",
+    "ApprovedRegisteredBy": 705,
+    "ApprovedRegisteredDate": "2006-03-29T15:29:22.5197648+02:00",
+    "ExtraField1": "dolores",
+    "ExtraField2": "ut",
+    "ExtraField3": "rerum",
+    "ExtraField4": "consectetur",
+    "ExtraField5": "quaerat",
+    "LastRecalculated": "2002-06-25T15:29:22.5202647+02:00",
+    "Updated": "2009-07-27T15:29:22.5202647+02:00",
+    "UpdatedAssociateId": 665,
+    "Registered": "2016-12-24T15:29:22.5202647+01:00",
+    "RegisteredAssociateId": 596,
+    "RequestAssociateId": 941,
+    "RequestComment": "sint",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 420,
-        "ERPQuoteAlternativeKey": "at",
-        "QuoteVersionId": 49,
-        "Name": "Hills Inc and Sons",
-        "Description": "Business-focused 5th generation hardware",
+        "QuoteAlternativeId": 633,
+        "ERPQuoteAlternativeKey": "animi",
+        "QuoteVersionId": 26,
+        "Name": "Parisian-Rutherford",
+        "Description": "Face to face analyzing emulation",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 25401.07,
-        "ERPDiscountAmount": 9499.154,
-        "DiscountPercent": 23426.649999999998,
-        "DiscountAmount": 4585.0419999999995,
+        "ERPDiscountPercent": 4390.7339999999995,
+        "ERPDiscountAmount": 9066.662,
+        "DiscountPercent": 1209.724,
+        "DiscountAmount": 18296.291999999998,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "adipisci",
-        "VAT": 10881.248,
-        "EarningPercent": 18067.51,
-        "EarningAmount": 30710.066,
-        "SubTotal": 13269.356,
-        "TotalPrice": 21809.505999999998,
-        "ExtraField1": "eveniet",
-        "ExtraField2": "amet",
-        "ExtraField3": "unde",
-        "ExtraField4": "ut",
-        "ExtraField5": "asperiores",
+        "VATInfo": "vero",
+        "VAT": 14817.552,
+        "EarningPercent": 4045.9939999999997,
+        "EarningAmount": 7960.36,
+        "SubTotal": 4174.488,
+        "TotalPrice": 27040.152,
+        "ExtraField1": "et",
+        "ExtraField2": "qui",
+        "ExtraField3": "aperiam",
+        "ExtraField4": "animi",
+        "ExtraField5": "deleniti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 477
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 261
       }
     }
   }

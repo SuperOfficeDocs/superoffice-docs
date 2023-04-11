@@ -77,8 +77,8 @@ OK
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Legros, McClure and Crooks"
+  "ConnectorName": "Collier-Legros"
 }
 ```
 
@@ -101,54 +101,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 669,
-  "ERPName": "Nitzsche, Stokes and Hessel",
-  "DisplayName": "Bode Group",
-  "DisplayDescription": "Quality-focused next generation intranet",
-  "Rank": 368,
-  "ConnectorName": "Nienow, Corkery and Mosciski",
-  "ErpConnectionId": 643,
-  "ExtraData": "hic",
+  "QuoteConnectionId": 855,
+  "ERPName": "Orn, Nitzsche and Hoppe",
+  "DisplayName": "Wiegand, Koss and Fritsch",
+  "DisplayDescription": "Persistent neutral circuit",
+  "Rank": 103,
+  "ConnectorName": "Kunde, Stiedemann and Prohaska",
+  "ErpConnectionId": 934,
+  "ExtraData": "eveniet",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 917,
-      "ERPPriceListKey": "expedita",
-      "QuoteConnectionId": 581,
-      "Name": "Strosin Inc and Sons",
-      "Description": "Total client-driven open system",
-      "Currency": "et",
-      "CurrencyName": "Mohr, Bernhard and Pfeffer",
-      "ValidFrom": "1999-05-26T12:15:19.9417403+02:00",
-      "ValidTo": "2018-11-06T12:15:19.9417403+01:00",
-      "IsActive": false,
+      "PriceListId": 344,
+      "ERPPriceListKey": "et",
+      "QuoteConnectionId": 653,
+      "Name": "Willms-Padberg",
+      "Description": "Switchable 5th generation frame",
+      "Currency": "assumenda",
+      "CurrencyName": "Denesik, Schroeder and Thiel",
+      "ValidFrom": "2002-03-13T15:29:22.5682642+01:00",
+      "ValidTo": "1997-04-11T15:29:22.5682642+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldType": "System.String",
+          "FieldLength": 141
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    75,
-    708
+    962,
+    411
   ],
   "AssociateAccessIds": [
-    870,
-    513
+    403,
+    222
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 462
+      "FieldLength": 367
     }
   }
 }

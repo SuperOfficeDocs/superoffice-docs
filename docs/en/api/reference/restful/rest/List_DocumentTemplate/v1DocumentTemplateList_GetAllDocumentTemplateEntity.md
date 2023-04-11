@@ -81,8 +81,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 774,
-    "Name": "Schimmel-Bechtelar",
-    "Tooltip": "ut",
-    "SaveInDb": 914,
-    "Filename": "quo",
-    "DefaultOref": "eius",
+    "DocumentTemplateId": 631,
+    "Name": "Wyman, Johns and Swaniawski",
+    "Tooltip": "et",
+    "SaveInDb": 804,
+    "Filename": "facilis",
+    "DefaultOref": "sed",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 884,
-    "IntentId": 971,
+    "AutoeventId": 881,
+    "IntentId": 235,
     "IsDefaultPublished": false,
-    "Rank": 712,
-    "LoadTemplateFromPlugin": 733,
+    "Rank": 563,
+    "LoadTemplateFromPlugin": 836,
     "MimeType": "est",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 89,
+    "DocumentTypeKey": 921,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "alphonso_aufderhar@hammes.com",
+    "EmailSubject": "rose.ernser@conroy.info",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "cooper@donnelly.name",
+    "SenderEmailAddress": "cyril@jacobischuppe.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldType": "System.String",
+        "FieldLength": 999
       }
     }
   }

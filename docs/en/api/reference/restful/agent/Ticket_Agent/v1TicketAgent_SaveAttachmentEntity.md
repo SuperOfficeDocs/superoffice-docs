@@ -44,6 +44,7 @@ The AttachmentEntity to be saved.
 | AttSize | Integer | The size (in bytes) for the attachment. |
 | InlineImage | Boolean | True if this attachment is inlined in the html_body. |
 | ContentId | String | The content_id of this attachment, used for inline images |
+| AuthKey | String | The key used for authenticating access to this attachment. |
 
 ## Response:
 
@@ -63,8 +64,9 @@ OK
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,12 +78,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 110,
-  "Name": "Hammes, Will and Yundt",
-  "ContentType": "similique",
-  "AttSize": 697,
-  "InlineImage": true,
-  "ContentId": "dolore"
+  "AttachmentId": 821,
+  "Name": "Waters Group",
+  "ContentType": "in",
+  "AttSize": 157,
+  "InlineImage": false,
+  "ContentId": "amet",
+  "AuthKey": "sint"
 }
 ```
 
@@ -92,18 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 91,
-  "Name": "Williamson, Yundt and Bruen",
-  "ContentType": "eaque",
-  "AttSize": 787,
+  "AttachmentId": 710,
+  "Name": "Ward, Hansen and Homenick",
+  "ContentType": "repellat",
+  "AttSize": 397,
   "InlineImage": false,
-  "ContentId": "recusandae",
+  "ContentId": "ut",
+  "AuthKey": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldLength": 411
     }
   }
 }

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Swaniawski-Marquardt",
-    "ToolTip": "Magni est.",
-    "Deleted": true,
-    "Rank": 621,
-    "Type": "laudantium",
-    "ColorBlock": 740,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2004-02-07T12:15:28.2696219+01:00",
+    "Id": 100,
+    "Name": "Keeling-Bashirian",
+    "ToolTip": "Porro esse ab beatae ut consequatur dolorum.",
+    "Deleted": false,
+    "Rank": 977,
+    "Type": "vel",
+    "ColorBlock": 80,
+    "IconHint": "debitis",
+    "Selected": true,
+    "LastChanged": "2008-02-08T15:29:31.384987+01:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Zieme LLC",
-        "ToolTip": "Laboriosam enim amet praesentium voluptatem.",
-        "Deleted": true,
-        "Rank": 292,
-        "Type": "ut",
-        "ColorBlock": 183,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "1998-03-16T12:15:28.2696219+01:00",
+        "Id": 739,
+        "Name": "Cronin-Greenholt",
+        "ToolTip": "Quasi ratione odio voluptas a quis non veritatis.",
+        "Deleted": false,
+        "Rank": 549,
+        "Type": "corrupti",
+        "ColorBlock": 671,
+        "IconHint": "illum",
+        "Selected": true,
+        "LastChanged": "2011-06-09T15:29:31.384987+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "iste",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mr. Colleen Roma McGlynn"
+        "FullName": "Baylee Maxie Monahan I"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "eos",
+    "ExtraInfo": "quis",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Miss Finn Nader IV"
+    "FullName": "Ms. Carmelo Hilario Medhurst"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Kuphal LLC",
-    "ToolTip": "Facere molestias aliquid officiis est quisquam.",
-    "Deleted": false,
-    "Rank": 602,
-    "Type": "sunt",
-    "ColorBlock": 523,
-    "IconHint": "consequatur",
+    "Id": 944,
+    "Name": "Block-Terry",
+    "ToolTip": "Praesentium reprehenderit.",
+    "Deleted": true,
+    "Rank": 762,
+    "Type": "illum",
+    "ColorBlock": 141,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2003-12-01T12:15:28.2726164+01:00",
+    "LastChanged": "2001-08-21T15:29:31.3869767+02:00",
     "ChildItems": [
       {
-        "Id": 738,
-        "Name": "Ondricka, Baumbach and Yundt",
-        "ToolTip": "Iure suscipit sint est ipsum dolores.",
+        "Id": 541,
+        "Name": "Prohaska-Abernathy",
+        "ToolTip": "Odit id.",
         "Deleted": false,
-        "Rank": 190,
-        "Type": "enim",
-        "ColorBlock": 756,
-        "IconHint": "id",
+        "Rank": 515,
+        "Type": "dignissimos",
+        "ColorBlock": 883,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2016-06-21T12:15:28.2726164+02:00",
+        "LastChanged": "2008-01-13T15:29:31.3869767+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "id",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Prof. Cory Madisen Moore II",
+        "FullName": "Miss Elisabeth Moen DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 340
+            "FieldType": "System.String",
+            "FieldLength": 18
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "qui",
+    "StyleHint": "sequi",
     "Hidden": true,
-    "FullName": "Mabel Rippin",
+    "FullName": "Demario Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldLength": 741
       }
     }
   }

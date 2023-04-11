@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 707,
-  "Name": "Pouros LLC",
-  "Tooltip": "numquam",
-  "Deleted": true,
-  "Rank": 567,
-  "IsCustomList": true,
+  "Id": 190,
+  "Name": "Kris, Haag and Cruickshank",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 57,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 920,
-  "Name": "Auer-Doyle",
-  "Tooltip": "porro",
+  "Id": 230,
+  "Name": "Casper LLC",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 453,
+  "Rank": 980,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": false,
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 467
+      "FieldLength": 911
     }
   }
 }

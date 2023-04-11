@@ -71,8 +71,8 @@ OK
 | MainHeading | string | 'Sale', intended for the main headings in the Find front page; this string will contain resource references |
 | FilterScreenHeading | string | 'Find sale', or whatever is appropriate for the Find &lt;entity&gt; filter page; this string will contain resource references |
 | SelectionEntityHeading | string | 'Companies', or whatever else is appropriate - the plural form of the entity name, intended for the Selection.Details tab before it is saved (!!); this string will contain resource references |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Bechtelar, Cormier and Luettgen",
-  "TypicalSearchId": 967
+  "EntityName": "Sauer, Rodriguez and Lockman",
+  "TypicalSearchId": 298
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "O'Kon LLC",
-  "SelectionId": 256,
-  "CanSaveAsSelection": true,
-  "MainHeading": "omnis",
-  "FilterScreenHeading": "dignissimos",
-  "SelectionEntityHeading": "et",
+  "ProviderName": "Konopelski Inc and Sons",
+  "SelectionId": 491,
+  "CanSaveAsSelection": false,
+  "MainHeading": "iste",
+  "FilterScreenHeading": "omnis",
+  "SelectionEntityHeading": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldLength": 599
     }
   }
 }

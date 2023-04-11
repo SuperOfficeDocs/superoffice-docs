@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 409,
-    "Name": "Upton-Williamson",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 147,
-    "UdListDefinitionId": 828
+    "HeadingId": 918,
+    "Name": "Lynch-Douglas",
+    "Tooltip": "harum",
+    "Deleted": false,
+    "Rank": 710,
+    "UdListDefinitionId": 440
   },
   {
-    "HeadingId": 409,
-    "Name": "Upton-Williamson",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 147,
-    "UdListDefinitionId": 828
+    "HeadingId": 918,
+    "Name": "Lynch-Douglas",
+    "Tooltip": "harum",
+    "Deleted": false,
+    "Rank": 710,
+    "UdListDefinitionId": 440
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 609,
-    "Name": "Herzog-Nader",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 434,
-    "UdListDefinitionId": 657,
+    "HeadingId": 975,
+    "Name": "Altenwerth Group",
+    "Tooltip": "expedita",
+    "Deleted": false,
+    "Rank": 729,
+    "UdListDefinitionId": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldType": "System.String",
+        "FieldLength": 144
       }
     }
   }

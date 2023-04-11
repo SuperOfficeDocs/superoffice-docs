@@ -116,8 +116,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -125,16 +125,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 783,
-  "StartTime": "1996-01-29T12:15:17.6737701+01:00",
-  "EndTime": "2009-08-21T12:15:17.6737701+02:00",
-  "Status": 236,
-  "Type": 242,
-  "AssociateId": 769
+  "Id": 368,
+  "StartTime": "2000-09-11T15:29:20.4203301+02:00",
+  "EndTime": "1997-06-27T15:29:20.4203301+02:00",
+  "Status": 578,
+  "Type": 497,
+  "AssociateId": 393
 }
 ```
 
@@ -145,53 +145,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 595,
-  "StartDate": "1999-03-30T12:15:17.6757706+02:00",
-  "EndDate": "1996-08-29T12:15:17.6757706+02:00",
+  "AppointmentId": 96,
+  "StartDate": "2015-12-20T15:29:20.4213308+01:00",
+  "EndDate": "2009-01-15T15:29:20.4213308+01:00",
   "Type": "BookingForChecklist",
-  "Task": "est",
-  "AssociateFullName": "Braeden Addison Schaefer III",
-  "ContactName": "Senger-Beier",
-  "Description": "Decentralized discrete help-desk",
-  "PersonFullName": "Miss Muriel Kenyon Dach",
-  "PersonId": 243,
-  "ContactId": 13,
-  "ProjectId": 344,
-  "ProjectName": "Bins Group",
+  "Task": "aliquid",
+  "AssociateFullName": "Eldora Kuphal IV",
+  "ContactName": "Dare-Ondricka",
+  "Description": "Seamless value-added budgetary management",
+  "PersonFullName": "Gaston D'Amore",
+  "PersonId": 956,
+  "ContactId": 571,
+  "ProjectId": 577,
+  "ProjectName": "Kuhn-Harris",
   "IsPublished": false,
-  "AssociateId": 577,
-  "ColorIndex": 933,
+  "AssociateId": 321,
+  "ColorIndex": 987,
   "IsFree": false,
   "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 374,
-  "PriorityName": "Ebert, Bayer and Dickinson",
+  "PriorityId": 615,
+  "PriorityName": "Roberts, Padberg and Carter",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2021-01-01T12:15:17.6767707+01:00",
+  "ActiveDate": "2018-09-10T15:29:20.421836+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-07-30T12:15:17.6767707+02:00",
-  "RecurringEndDate": "2021-03-03T12:15:17.6767707+01:00",
-  "MotherId": 977,
-  "AssignedBy": 14,
-  "AssignedByFullName": "Santina Mraz",
+  "RecurringStartDate": "2009-11-12T15:29:20.421836+01:00",
+  "RecurringEndDate": "2005-12-05T15:29:20.421836+01:00",
+  "MotherId": 84,
+  "AssignedBy": 389,
+  "AssignedByFullName": "Alexa Stoltenberg",
   "RejectReason": "",
-  "Location": "et",
-  "AlarmLeadTime": "eligendi",
-  "SaleId": 225,
-  "SaleName": "Considine Group",
-  "AssociateName": "Brown, Kreiger and Nicolas",
-  "CreatedDate": "2015-08-16T12:15:17.6767707+02:00",
-  "CreatedBy": "rerum",
-  "CreatedByFullName": "Carley Heathcote",
-  "CreatedByAssociateId": 834,
+  "Location": "ut",
+  "AlarmLeadTime": "non",
+  "SaleId": 671,
+  "SaleName": "Robel Inc and Sons",
+  "AssociateName": "Pfannerstill-Ortiz",
+  "CreatedDate": "2002-11-09T15:29:20.4228306+01:00",
+  "CreatedBy": "nobis",
+  "CreatedByFullName": "Shanny McGlynn",
+  "CreatedByAssociateId": 280,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 950
     }
   }
 }

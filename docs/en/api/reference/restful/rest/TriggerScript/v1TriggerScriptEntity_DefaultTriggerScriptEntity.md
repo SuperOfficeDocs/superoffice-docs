@@ -59,8 +59,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 367,
-  "Name": "Beer-Wintheiser",
+  "ScreenChooserId": 476,
+  "Name": "Powlowski-Armstrong",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "officiis",
-  "Source": "quod",
-  "Registered": "2000-01-22T12:15:27.5856268+01:00",
-  "RegisteredAssociateId": 662,
-  "Updated": "2010-03-29T12:15:27.5856268+02:00",
-  "UpdatedAssociateId": 890,
+  "UniqueIdentifier": "amet",
+  "Source": "commodi",
+  "Registered": "2016-12-23T15:29:30.7939901+01:00",
+  "RegisteredAssociateId": 446,
+  "Updated": "1997-05-10T15:29:30.7939901+02:00",
+  "UpdatedAssociateId": 712,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 307
+      "FieldLength": 727
     }
   }
 }

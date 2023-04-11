@@ -76,8 +76,8 @@ OK
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 329,
-  "Name": "Herman Inc and Sons"
+  "DashboardId": 97,
+  "Name": "Anderson, Gislason and Blick"
 }
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 996,
-  "UniqueId": "quo",
-  "Name": "Kovacek-Dibbert",
-  "Description": "Virtual optimal architecture",
-  "AssociateId": 104,
-  "Columns": 506,
+  "DashboardId": 386,
+  "UniqueId": "et",
+  "Name": "Konopelski Group",
+  "Description": "Advanced foreground core",
+  "AssociateId": 381,
+  "Columns": 407,
   "Theme": null,
-  "VisibleForAll": 587,
+  "VisibleForAll": 724,
   "VisibleForAssociates": [
-    806,
-    19
+    998,
+    836
   ],
   "VisibleForGroups": [
-    175,
-    959
+    602,
+    364
   ],
-  "PinForAll": 722,
+  "PinForAll": 550,
   "PinForAssociates": [
-    370,
-    239
+    630,
+    90
   ],
   "PinForGroups": [
-    210,
-    316
+    726,
+    185
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 211
     }
   }
 }

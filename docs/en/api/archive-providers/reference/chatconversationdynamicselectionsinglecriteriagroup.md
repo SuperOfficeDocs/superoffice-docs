@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ChatConversationDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -461,7 +461,7 @@ ChatConversation selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=icon,person/personExtra/x_person_user_relation,contact/contactAssociate/contactFullName
+GET /api/v1/archive/ChatConversationDynamicSelectionSingleCriteriaGroup?$select=person/mrMrs,contact/email/emailId,contact/contactAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

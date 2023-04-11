@@ -75,8 +75,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "cum",
-  "PrefKey": "exercitationem",
+  "PrefSection": "in",
+  "PrefKey": "aut",
   "PrefLevel": "Database"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "repellendus",
+  "RawValue": "quam",
   "Specification": null,
-  "DisplayValue": "at",
-  "DisplayTooltip": "id",
+  "DisplayValue": "qui",
+  "DisplayTooltip": "sit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 920,
-  "PrefDescId": 427,
-  "TableName": "Williamson-Schaden",
-  "UserPreferenceId": 400,
+  "TargetId": 583,
+  "PrefDescId": 504,
+  "TableName": "Williamson-Dooley",
+  "UserPreferenceId": 149,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 53
+      "FieldLength": 528
     }
   }
 }

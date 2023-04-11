@@ -68,8 +68,8 @@ OK
 | Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 448
+  "ContactId": 662
 }
 ```
 
@@ -92,41 +92,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 23652.298,
-  "Wgs84Longitude": 1266.136,
+  "Wgs84Latitude": 30854.23,
+  "Wgs84Longitude": 28989.5,
   "LocalizedAddress": [
     [
       {
-        "Name": "Reichel-Emard",
-        "Value": "molestiae",
-        "Tooltip": "dolores",
-        "Label": "aut",
-        "ValueLength": 658,
-        "AddressType": "optio",
+        "Name": "Hickle Group",
+        "Value": "autem",
+        "Tooltip": "dolorem",
+        "Label": "consequatur",
+        "ValueLength": 239,
+        "AddressType": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 91
+            "FieldType": "System.Int32",
+            "FieldLength": 548
           }
         }
       }
     ],
     [
       {
-        "Name": "Robel Group",
-        "Value": "amet",
-        "Tooltip": "rerum",
-        "Label": "est",
-        "ValueLength": 352,
-        "AddressType": "reprehenderit",
+        "Name": "Bechtelar, Donnelly and Weber",
+        "Value": "numquam",
+        "Tooltip": "quasi",
+        "Label": "ab",
+        "ValueLength": 502,
+        "AddressType": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 479
+            "FieldType": "System.Int32",
+            "FieldLength": 534
           }
         }
       }
@@ -134,13 +134,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "qui",
+  "Formatted": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 678
     }
   }
 }

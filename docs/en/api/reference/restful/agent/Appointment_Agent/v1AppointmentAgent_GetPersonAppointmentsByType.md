@@ -118,8 +118,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -127,15 +127,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 950,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2008-09-17T12:15:18.1267643+02:00",
-  "EndTime": "2015-06-10T12:15:18.1267643+02:00",
-  "Count": 248,
+  "PersonId": 618,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2019-12-12T15:29:20.7502896+01:00",
+  "EndTime": "2021-09-07T15:29:20.7502896+02:00",
+  "Count": 483,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -148,53 +148,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 763,
-    "StartDate": "2005-04-20T12:15:18.1277639+02:00",
-    "EndDate": "2008-03-19T12:15:18.1277639+01:00",
+    "AppointmentId": 736,
+    "StartDate": "2022-12-07T15:29:20.7517893+01:00",
+    "EndDate": "2002-02-04T15:29:20.7517893+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dignissimos",
-    "AssociateFullName": "Eve Misael Durgan Jr.",
-    "ContactName": "Olson-Greenfelder",
-    "Description": "Right-sized radical migration",
-    "PersonFullName": "Dashawn Jammie Mayer II",
-    "PersonId": 685,
-    "ContactId": 307,
-    "ProjectId": 937,
-    "ProjectName": "Zemlak LLC",
+    "Task": "voluptatibus",
+    "AssociateFullName": "Ms. Romaine Bergnaum I",
+    "ContactName": "King Group",
+    "Description": "Secured analyzing algorithm",
+    "PersonFullName": "Leora Satterfield",
+    "PersonId": 116,
+    "ContactId": 404,
+    "ProjectId": 76,
+    "ProjectName": "Spinka, Abshire and Spencer",
     "IsPublished": false,
-    "AssociateId": 416,
-    "ColorIndex": 878,
+    "AssociateId": 94,
+    "ColorIndex": 306,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 528,
-    "PriorityName": "Cormier, Kovacek and Dibbert",
+    "PriorityId": 310,
+    "PriorityName": "Christiansen Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2018-10-04T12:15:18.1287636+02:00",
+    "ActiveDate": "2020-07-13T15:29:20.7527908+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-12-05T12:15:18.1287636+01:00",
-    "RecurringEndDate": "1996-03-23T12:15:18.1287636+01:00",
-    "MotherId": 1002,
-    "AssignedBy": 479,
-    "AssignedByFullName": "Dr. Ewell Lee Brakus",
+    "RecurringStartDate": "2022-11-13T15:29:20.7527908+01:00",
+    "RecurringEndDate": "2009-08-31T15:29:20.7527908+02:00",
+    "MotherId": 983,
+    "AssignedBy": 840,
+    "AssignedByFullName": "King Klein",
     "RejectReason": "",
-    "Location": "sapiente",
-    "AlarmLeadTime": "est",
-    "SaleId": 983,
-    "SaleName": "Kuvalis Inc and Sons",
-    "AssociateName": "Block-Okuneva",
-    "CreatedDate": "2018-05-19T12:15:18.1287636+02:00",
+    "Location": "in",
+    "AlarmLeadTime": "non",
+    "SaleId": 773,
+    "SaleName": "Langworth, Weber and Mitchell",
+    "AssociateName": "Huels, Gutmann and Jast",
+    "CreatedDate": "2004-02-10T15:29:20.7527908+01:00",
     "CreatedBy": "est",
-    "CreatedByFullName": "Americo Hane",
-    "CreatedByAssociateId": 583,
+    "CreatedByFullName": "Destini Kuhlman",
+    "CreatedByAssociateId": 906,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 801
       }
     }
   }

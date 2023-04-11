@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Veum, Hessel and Harris",
-  "AssociateId": 77,
-  "DetailsTable": 271,
-  "DetailsRecord": 566,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 592,
+  "Name": "Medhurst-Bartell",
+  "AssociateId": 457,
+  "DetailsTable": 365,
+  "DetailsRecord": 288,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quibusdam",
-    "ParameterObject2": "consequatur"
+    "ParameterObject1": "facere",
+    "ParameterObject2": "autem"
   },
-  "LastStarted": "2007-04-07T12:15:20.0157365+02:00",
-  "Created": "2012-07-08T12:15:20.0157365+02:00",
-  "StartCount": 749,
-  "DatabaseSerialNumber": "1074086",
-  "Context": "numquam",
-  "Result": "eos",
+  "LastStarted": "1998-12-12T15:29:22.6397966+01:00",
+  "Created": "2003-06-22T15:29:22.6397966+02:00",
+  "StartCount": 769,
+  "DatabaseSerialNumber": "1098446",
+  "Context": "omnis",
+  "Result": "nemo",
   "State": "All",
-  "Description": "Pre-emptive human-resource utilisation",
-  "Response": "et",
-  "Request": "ratione",
-  "ProgressDescription": "De-engineered optimizing strategy",
-  "ProgressPercent": 478,
-  "FileName": "Spencer, Windler and Nolan",
+  "Description": "Synchronised assymetric forecast",
+  "Response": "velit",
+  "Request": "voluptatibus",
+  "ProgressDescription": "Team-oriented client-server throughput",
+  "ProgressPercent": 101,
+  "FileName": "Spinka, Anderson and Zulauf",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   }
 }

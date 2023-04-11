@@ -65,8 +65,8 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Direction | string |  |
+| Name | string | Programmatic name of the column to order by, semantically the same as the ArchiveColumnInfo {SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.Name}. |
+| Direction | string | Direction to order |
 
 ## Sample request
 
@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Turcotte-Bednar",
+  "ProviderName": "Buckridge, Pfannerstill and Homenick",
   "DesiredColumns": [
-    "ex",
-    "neque"
+    "distinctio",
+    "tenetur"
   ]
 }
 ```
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Spencer Group",
+    "Name": "Ondricka Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Spencer Group",
+    "Name": "Ondricka Group",
     "Direction": "ASC"
   }
 ]

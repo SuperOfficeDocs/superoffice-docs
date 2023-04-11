@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Little, Koepp and Braun",
-    "Tooltip": "quisquam",
-    "Deleted": false,
-    "UdListDefinitionId": 897,
-    "Rank": 992
+    "Id": 648,
+    "Name": "Wiegand-Lang",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "UdListDefinitionId": 543,
+    "Rank": 85
   },
   {
-    "Id": 654,
-    "Name": "Little, Koepp and Braun",
-    "Tooltip": "quisquam",
-    "Deleted": false,
-    "UdListDefinitionId": 897,
-    "Rank": 992
+    "Id": 648,
+    "Name": "Wiegand-Lang",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "UdListDefinitionId": 543,
+    "Rank": 85
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Johnson, Torphy and Rowe",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "UdListDefinitionId": 189,
-    "Rank": 884,
+    "Id": 320,
+    "Name": "Koelpin Inc and Sons",
+    "Tooltip": "veritatis",
+    "Deleted": true,
+    "UdListDefinitionId": 574,
+    "Rank": 8,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 337
+        "FieldLength": 564
       }
     }
   }

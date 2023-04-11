@@ -26,7 +26,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=voluptate
+GET /api/v1/List/SelectionCategory/MDOItems?query=nisi
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 372,
-    "Name": "Harris Inc and Sons",
-    "ToolTip": "Architecto quam consequatur sit iste in cumque molestias.",
+    "Id": 944,
+    "Name": "Schiller-Kuhlman",
+    "ToolTip": "Quibusdam architecto qui omnis et architecto dignissimos.",
     "Deleted": false,
-    "Rank": 348,
-    "Type": "pariatur",
+    "Rank": 820,
+    "Type": "corporis",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Tillman-Beier",
-        "ToolTip": "Unde quia culpa voluptas sint aperiam.",
+        "Id": 8,
+        "Name": "Hauck, Bauch and Walker",
+        "ToolTip": "Eveniet perferendis.",
         "Deleted": false,
-        "Rank": 44,
-        "Type": "quidem",
+        "Rank": 440,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "ut",
-        "ColorBlock": 289,
-        "ExtraInfo": "officia",
-        "StyleHint": "alias",
-        "FullName": "Mrs. Lexus Pollich",
+        "ColorBlock": 673,
+        "ExtraInfo": "et",
+        "StyleHint": "tenetur",
+        "FullName": "Dr. Samantha Raynor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 294
+            "FieldLength": 29
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 715,
-    "ExtraInfo": "dicta",
-    "StyleHint": "ipsam",
-    "FullName": "Ms. Thalia Donnelly DDS",
+    "IconHint": "ducimus",
+    "ColorBlock": 529,
+    "ExtraInfo": "illum",
+    "StyleHint": "temporibus",
+    "FullName": "Haley Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 21
       }
     }
   }

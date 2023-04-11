@@ -52,8 +52,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 81,
-    "Name": "Koelpin Inc and Sons",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "Rank": 613,
-    "UdListDefinitionId": 926,
+    "HeadingId": 318,
+    "Name": "Weissnat-Stoltenberg",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 298,
+    "UdListDefinitionId": 164,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldType": "System.String",
+        "FieldLength": 900
       }
     }
   }

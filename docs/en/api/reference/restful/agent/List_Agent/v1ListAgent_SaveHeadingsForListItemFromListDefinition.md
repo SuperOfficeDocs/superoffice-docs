@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 563,
-  "ListItemId": 106,
+  "UdListDefinitionId": 111,
+  "ListItemId": 327,
   "Headings": [
     {
-      "Id": 418,
-      "Name": "Cremin, Kuphal and Grant",
-      "ToolTip": "Commodi quia voluptate quasi modi amet molestiae commodi.",
+      "Id": 766,
+      "Name": "Beer Inc and Sons",
+      "ToolTip": "Unde eius omnis.",
       "Deleted": true,
-      "Rank": 957,
-      "Type": "delectus",
-      "ColorBlock": 581,
-      "IconHint": "sunt",
-      "Selected": true,
-      "LastChanged": "2008-10-01T12:15:19.2637486+02:00",
+      "Rank": 708,
+      "Type": "minus",
+      "ColorBlock": 409,
+      "IconHint": "voluptatem",
+      "Selected": false,
+      "LastChanged": "2014-08-23T15:29:22.0222718+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "itaque",
-      "Hidden": true,
-      "FullName": "Michale Gleichner I"
+      "ExtraInfo": "dolorem",
+      "StyleHint": "esse",
+      "Hidden": false,
+      "FullName": "Joy McClure"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Harvey-Boehm",
-    "ToolTip": "Ut possimus aut quia facere fugiat.",
+    "Id": 962,
+    "Name": "Lebsack-Gleason",
+    "ToolTip": "Exercitationem velit.",
     "Deleted": false,
-    "Rank": 588,
-    "Type": "laboriosam",
-    "ColorBlock": 348,
-    "IconHint": "vel",
+    "Rank": 962,
+    "Type": "est",
+    "ColorBlock": 758,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "1999-08-18T12:15:19.2647482+02:00",
+    "LastChanged": "2001-03-23T15:29:22.0227723+01:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Windler, Raynor and Schoen",
-        "ToolTip": "Est est laboriosam facilis ut.",
-        "Deleted": true,
-        "Rank": 956,
-        "Type": "est",
-        "ColorBlock": 153,
-        "IconHint": "nostrum",
+        "Id": 465,
+        "Name": "Denesik Inc and Sons",
+        "ToolTip": "Tempore nulla qui aut quia.",
+        "Deleted": false,
+        "Rank": 387,
+        "Type": "dicta",
+        "ColorBlock": 82,
+        "IconHint": "error",
         "Selected": false,
-        "LastChanged": "1997-01-07T12:15:19.2647482+01:00",
+        "LastChanged": "2021-01-09T15:29:22.0232718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "ut",
+        "ExtraInfo": "atque",
+        "StyleHint": "aliquid",
         "Hidden": true,
-        "FullName": "Taryn Conn DVM",
+        "FullName": "Mrs. Skye Osinski IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 146
+            "FieldLength": 404
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "soluta",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Lane Lindgren",
+    "FullName": "Ms. Frida Juanita Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 965
+        "FieldType": "System.Int32",
+        "FieldLength": 409
       }
     }
   }

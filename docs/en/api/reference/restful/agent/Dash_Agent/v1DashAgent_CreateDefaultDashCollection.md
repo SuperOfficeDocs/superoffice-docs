@@ -49,8 +49,8 @@ OK
 | Pinned | array | Dashboards pinned to the associate |
 | Favourites | array | The assocates favourite dashboards |
 | Other | array | Other dashboards |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 950,
-      "UniqueId": "esse",
-      "Name": "Kerluke-Cormier",
-      "Description": "Automated even-keeled info-mediaries",
-      "AssociateId": 707,
-      "Columns": 823,
+      "DashboardId": 157,
+      "UniqueId": "maiores",
+      "Name": "Ondricka Inc and Sons",
+      "Description": "Expanded 24/7 installation",
+      "AssociateId": 362,
+      "Columns": 481,
       "Theme": null,
-      "VisibleForAll": 628,
+      "VisibleForAll": 912,
       "VisibleForAssociates": [
-        134,
-        859
+        609,
+        983
       ],
       "VisibleForGroups": [
-        148,
-        52
+        896,
+        686
       ],
-      "PinForAll": 557,
+      "PinForAll": 851,
       "PinForAssociates": [
-        325,
-        707
+        708,
+        6
       ],
       "PinForGroups": [
-        924,
-        789
+        991,
+        884
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 698
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 678,
-      "UniqueId": "vel",
-      "Name": "Walsh-Stroman",
-      "Description": "Advanced demand-driven Graphical User Interface",
-      "AssociateId": 329,
-      "Columns": 895,
+      "DashboardId": 807,
+      "UniqueId": "illum",
+      "Name": "Wolff LLC",
+      "Description": "Down-sized attitude-oriented implementation",
+      "AssociateId": 365,
+      "Columns": 74,
       "Theme": null,
-      "VisibleForAll": 592,
+      "VisibleForAll": 684,
       "VisibleForAssociates": [
-        164,
-        610
+        963,
+        305
       ],
       "VisibleForGroups": [
-        889,
-        904
+        986,
+        831
       ],
-      "PinForAll": 677,
+      "PinForAll": 280,
       "PinForAssociates": [
-        604,
-        58
+        272,
+        653
       ],
       "PinForGroups": [
-        602,
-        534
+        954,
+        15
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 239
+          "FieldType": "System.String",
+          "FieldLength": 156
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 655,
-      "UniqueId": "et",
-      "Name": "Kulas-Crist",
-      "Description": "Persistent executive solution",
-      "AssociateId": 450,
-      "Columns": 215,
+      "DashboardId": 240,
+      "UniqueId": "at",
+      "Name": "Smith, Hilpert and Kohler",
+      "Description": "Implemented zero defect initiative",
+      "AssociateId": 593,
+      "Columns": 426,
       "Theme": null,
-      "VisibleForAll": 221,
+      "VisibleForAll": 919,
       "VisibleForAssociates": [
-        913,
-        627
+        747,
+        344
       ],
       "VisibleForGroups": [
-        586,
+        761,
         34
       ],
-      "PinForAll": 33,
+      "PinForAll": 683,
       "PinForAssociates": [
-        878,
-        786
+        795,
+        574
       ],
       "PinForGroups": [
-        12,
-        532
+        555,
+        772
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldType": "System.String",
+          "FieldLength": 53
         }
       }
     }
@@ -184,7 +184,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 536
     }
   }
 }

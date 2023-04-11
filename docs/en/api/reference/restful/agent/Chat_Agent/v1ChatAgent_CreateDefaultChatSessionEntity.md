@@ -77,8 +77,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 97,
-  "TopicId": 926,
+  "ChatSessionId": 889,
+  "TopicId": 602,
   "User": null,
   "Person": null,
-  "CustomerAlias": "possimus",
-  "CustomerHost": "et",
-  "CustomerName": "Rowe, Kling and Harvey",
-  "CustomerEmail": "alan_hand@lindfeeney.us",
-  "CustomerPhone": "1-813-177-3605",
+  "CustomerAlias": "eaque",
+  "CustomerHost": "odio",
+  "CustomerName": "Reilly-Parker",
+  "CustomerEmail": "maybell@walkerstoltenberg.ca",
+  "CustomerPhone": "713-357-4157 x0764",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schiller Group",
+  "CustomerCompanyName": "King, Legros and Harber",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "sunt",
-  "WhenRequested": "2003-01-02T12:15:18.2517623+01:00",
-  "WhenStarted": "2001-07-25T12:15:18.2517623+02:00",
-  "WhenEnded": "2000-09-11T12:15:18.2517623+02:00",
-  "WhenIdle": "2019-07-23T12:15:18.2517623+02:00",
-  "WhenFetched": "2000-02-16T12:15:18.2517623+01:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 152,
-  "AlertLevel": 76,
-  "Rank": 532,
+  "FirstMessage": "fugiat",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2013-11-10T15:29:20.8693226+01:00",
+  "WhenStarted": "1998-10-10T15:29:20.8693226+02:00",
+  "WhenEnded": "2003-05-07T15:29:20.8693226+02:00",
+  "WhenIdle": "2007-11-07T15:29:20.8693226+01:00",
+  "WhenFetched": "2016-01-11T15:29:20.8693226+01:00",
+  "SessionKey": "voluptatem",
+  "InitialQueuePos": 379,
+  "AlertLevel": 426,
+  "Rank": 266,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 813,
+  "ChatbotIsActive": false,
+  "Rating": 714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 970
+      "FieldLength": 90
     }
   }
 }

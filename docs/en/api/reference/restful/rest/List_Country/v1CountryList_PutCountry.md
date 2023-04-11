@@ -94,8 +94,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,23 +107,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 916,
-  "Name": "Windler-Mertz",
-  "CurrencyId": 858,
-  "EnglishName": "Waters LLC",
+  "CountryId": 385,
+  "Name": "Trantow, Prohaska and Bernhard",
+  "CurrencyId": 853,
+  "EnglishName": "Trantow, Jast and Langosh",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Centralized user-facing database",
-  "OrgNrText": "710208",
-  "InterAreaPrefix": "rerum",
-  "DialInPrefix": "repellat",
-  "ZipPrefix": "sit",
-  "DomainName": "Kessler, Watsica and Volkman",
-  "AddressLayoutId": 347,
-  "DomesticAddressLayoutId": 848,
-  "ForeignAddressLayoutId": 30,
-  "Rank": 363,
-  "Tooltip": "reprehenderit",
+  "ImageDescription": "Persistent clear-thinking functionalities",
+  "OrgNrText": "1972838",
+  "InterAreaPrefix": "eveniet",
+  "DialInPrefix": "rerum",
+  "ZipPrefix": "accusamus",
+  "DomainName": "Bergstrom-Sanford",
+  "AddressLayoutId": 212,
+  "DomesticAddressLayoutId": 629,
+  "ForeignAddressLayoutId": 485,
+  "Rank": 29,
+  "Tooltip": "quaerat",
   "Deleted": false
 }
 ```
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 91,
-  "Name": "Boyer Group",
-  "CurrencyId": 285,
-  "EnglishName": "Treutel Inc and Sons",
+  "CountryId": 365,
+  "Name": "Casper Group",
+  "CurrencyId": 33,
+  "EnglishName": "Mante-Hackett",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Ameliorated logistical circuit",
-  "OrgNrText": "1436625",
-  "InterAreaPrefix": "porro",
-  "DialInPrefix": "deserunt",
-  "ZipPrefix": "fuga",
-  "DomainName": "Bradtke LLC",
-  "AddressLayoutId": 514,
-  "DomesticAddressLayoutId": 747,
-  "ForeignAddressLayoutId": 854,
-  "Rank": 485,
-  "Tooltip": "id",
+  "ImageDescription": "Customizable dynamic standardization",
+  "OrgNrText": "348052",
+  "InterAreaPrefix": "doloremque",
+  "DialInPrefix": "voluptates",
+  "ZipPrefix": "perspiciatis",
+  "DomainName": "Donnelly Inc and Sons",
+  "AddressLayoutId": 31,
+  "DomesticAddressLayoutId": 387,
+  "ForeignAddressLayoutId": 178,
+  "Rank": 212,
+  "Tooltip": "adipisci",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

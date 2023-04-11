@@ -63,8 +63,8 @@ OK
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,16 +72,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 422,
-  "PrefDescId": 844,
-  "PrefValue": "ex",
-  "PrefShowValue": "est",
-  "Description": "Diverse high-level access",
-  "IsBuiltin": true
+  "PrefDescLineId": 45,
+  "PrefDescId": 764,
+  "PrefValue": "porro",
+  "PrefShowValue": "unde",
+  "Description": "Devolved heuristic ability",
+  "IsBuiltin": false
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 631,
-  "PrefDescId": 969,
-  "PrefValue": "aut",
-  "PrefShowValue": "quos",
-  "Description": "Optional encompassing data-warehouse",
-  "IsBuiltin": true,
+  "PrefDescLineId": 882,
+  "PrefDescId": 489,
+  "PrefValue": "praesentium",
+  "PrefShowValue": "tempore",
+  "Description": "Polarised user-facing throughput",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldType": "System.Int32",
+      "FieldLength": 39
     }
   }
 }

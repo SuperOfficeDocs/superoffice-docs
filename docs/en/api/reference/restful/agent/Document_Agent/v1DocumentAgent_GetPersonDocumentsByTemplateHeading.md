@@ -89,8 +89,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,16 +98,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 762,
+  "PersonId": 642,
   "IncludeProjectDocuments": false,
-  "StartTime": "2018-05-19T12:15:18.7337231+02:00",
-  "EndTime": "2019-03-15T12:15:18.7337231+01:00",
-  "Count": 711,
-  "TemplateHeadingId": 72
+  "StartTime": "1998-08-02T15:29:21.4947796+02:00",
+  "EndTime": "1996-04-24T15:29:21.4947796+02:00",
+  "Count": 827,
+  "TemplateHeadingId": 766
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 842,
-    "Attention": "eos",
-    "Header": "sapiente",
-    "Name": "Moen Group",
-    "OurRef": "minima",
-    "YourRef": "et",
-    "Description": "User-centric demand-driven strategy",
-    "DocumentTemplate": "laboriosam",
+    "DocumentId": 440,
+    "Attention": "eaque",
+    "Header": "harum",
+    "Name": "Schoen LLC",
+    "OurRef": "eaque",
+    "YourRef": "voluptatem",
+    "Description": "Integrated mission-critical info-mediaries",
+    "DocumentTemplate": "sapiente",
     "IsPublished": false,
-    "PersonId": 277,
-    "PersonFullName": "Ms. Arjun Leland Schaefer",
-    "AssociateFullName": "Selina Lenny Barrows DVM",
-    "ContactId": 3,
-    "ContactName": "Ebert LLC",
-    "ProjectId": 836,
-    "ProjectName": "Osinski Inc and Sons",
-    "AssociateId": 25,
-    "Snum": 648,
-    "SaleId": 481,
-    "SaleName": "Buckridge-Schuppe",
+    "PersonId": 854,
+    "PersonFullName": "Yasmeen Bechtelar DDS",
+    "AssociateFullName": "Taurean Hamill",
+    "ContactId": 947,
+    "ContactName": "Kiehn, Zemlak and Harris",
+    "ProjectId": 271,
+    "ProjectName": "Jerde-Rosenbaum",
+    "AssociateId": 201,
+    "Snum": 19,
+    "SaleId": 507,
+    "SaleName": "Kassulke Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldLength": 743
       }
     }
   }

@@ -67,11 +67,11 @@ OK
 POST /api/v1/Agents/BLOB/GetProductThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 582
+  "ProductId": 884
 }
 ```
 

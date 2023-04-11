@@ -60,8 +60,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 322,
-  "UniqueIdentifier": "fuga",
-  "Name": "Schumm Inc and Sons",
-  "Description": "Reverse-engineered methodical utilisation",
-  "IncludeId": "ab",
-  "HierarchyId": 380,
-  "Source": "voluptatum",
-  "Registered": "2020-01-10T12:15:26.807638+01:00",
-  "RegisteredAssociateId": 424,
-  "Updated": "2013-01-13T12:15:26.807638+01:00",
-  "UpdatedAssociateId": 464,
+  "EjscriptId": 755,
+  "UniqueIdentifier": "ducimus",
+  "Name": "Heller, Stoltenberg and Lesch",
+  "Description": "Integrated multi-tasking superstructure",
+  "IncludeId": "in",
+  "HierarchyId": 23,
+  "Source": "ut",
+  "Registered": "2008-10-05T15:29:29.6187011+02:00",
+  "RegisteredAssociateId": 689,
+  "Updated": "2002-04-01T15:29:29.6187011+02:00",
+  "UpdatedAssociateId": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 798
     }
   }
 }

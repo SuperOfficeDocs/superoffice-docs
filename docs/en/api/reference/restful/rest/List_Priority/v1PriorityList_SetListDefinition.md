@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Heidenreich Inc and Sons",
-  "Tooltip": "tempore",
+  "Id": 424,
+  "Name": "Altenwerth-Marks",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 443,
+  "Rank": 836,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nostrum",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Treutel, Lesch and Reynolds",
-  "Tooltip": "doloremque",
+  "Id": 698,
+  "Name": "Yundt-Kshlerin",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 521,
-  "IsCustomList": false,
+  "Rank": 70,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "UseGroupsAndHeadings": true,
+  "ListType": "esse",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

@@ -65,8 +65,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 80,
-  "Name": "Harris-Jaskolski",
-  "Tooltip": "saepe",
-  "Rank": 682,
-  "Key": "laudantium",
+  "LegalBaseId": 359,
+  "Name": "Kub-Luettgen",
+  "Tooltip": "quod",
+  "Rank": 268,
+  "Key": "est",
   "Deleted": false
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 643,
-  "Name": "Rempel-Senger",
-  "Tooltip": "placeat",
-  "Rank": 87,
-  "Key": "non",
-  "Deleted": false,
+  "LegalBaseId": 779,
+  "Name": "Gottlieb-Gorczany",
+  "Tooltip": "aliquam",
+  "Rank": 540,
+  "Key": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldLength": 959
     }
   }
 }

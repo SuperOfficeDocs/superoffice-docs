@@ -90,8 +90,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Swaniawski, Lubowitz and Johns",
+  "UserName": "Bednar, Herzog and Aufderhar",
   "User": null
 }
 ```
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 654,
-  "Name": "Schimmel, Wolf and Pfannerstill",
-  "Rank": 894,
-  "Tooltip": "itaque",
+  "AssociateId": 263,
+  "Name": "Bogisich, Lesch and Mraz",
+  "Rank": 82,
+  "Tooltip": "consequuntur",
   "LicenseOwners": [
     {
-      "Name": "Bashirian, Moen and Crooks",
-      "Description": "Robust multimedia orchestration",
+      "Name": "McCullough LLC",
+      "Description": "Reduced encompassing solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 880
         }
       }
     },
     {
-      "Name": "Bashirian, Moen and Crooks",
-      "Description": "Robust multimedia orchestration",
+      "Name": "McCullough LLC",
+      "Description": "Reduced encompassing solution",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldLength": 880
         }
       }
     }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "vitae",
-      "Tooltip": "alias",
-      "Id": 260,
-      "Rank": 885,
+      "Value": "nihil",
+      "Tooltip": "nihil",
+      "Id": 209,
+      "Rank": 652,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldLength": 244
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2002-08-21T12:15:20.5987282+02:00",
-  "Lastlogout": "2018-04-27T12:15:20.5987282+02:00",
-  "EjUserId": 523,
-  "RequestSignature": "voluptas",
+  "Deleted": true,
+  "Lastlogin": "2017-08-27T15:29:23.3712525+02:00",
+  "Lastlogout": "2022-01-04T15:29:23.3712525+01:00",
+  "EjUserId": 133,
+  "RequestSignature": "nihil",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quas",
-      "DisplayValue": "recusandae",
+      "Value": "architecto",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 52
         }
       }
     },
     {
       "Type": null,
-      "Value": "quas",
-      "DisplayValue": "recusandae",
+      "Value": "architecto",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 52
         }
       }
     }
   ],
-  "UserName": "Prosacco Inc and Sons",
+  "UserName": "Schiller, Rowe and Sanford",
   "TicketCategories": [
     {
-      "Id": 893,
-      "Name": "Barrows, Ankunding and Larkin",
-      "ToolTip": "Maxime sed.",
+      "Id": 212,
+      "Name": "Padberg Inc and Sons",
+      "ToolTip": "Consequatur necessitatibus et eos eligendi est ab minus.",
       "Deleted": false,
-      "Rank": 349,
-      "Type": "dolores",
+      "Rank": 357,
+      "Type": "a",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sunt",
-      "ColorBlock": 511,
-      "ExtraInfo": "sed",
-      "StyleHint": "qui",
-      "FullName": "Verdie Erdman",
+      "IconHint": "blanditiis",
+      "ColorBlock": 312,
+      "ExtraInfo": "facilis",
+      "StyleHint": "ipsam",
+      "FullName": "Mrs. Fredy O'Keefe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldType": "System.String",
+          "FieldLength": 129
         }
       }
     }
   ],
-  "NickName": "Durgan, Collier and Rowe",
-  "WaitingForApproval": true,
+  "NickName": "Pouros, Morar and Armstrong",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "fuga"
+    "CustomFields1": "expedita",
+    "CustomFields2": "accusantium"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kiehn LLC",
-      "DisplayName": "Kshlerin Inc and Sons",
-      "Description": "Ameliorated executive definition",
-      "ToolTip": "Mollitia nostrum illum perferendis.",
+      "Name": "Dicki, Mante and Huel",
+      "DisplayName": "Ledner LLC",
+      "Description": "Assimilated high-level challenge",
+      "ToolTip": "Ipsum tenetur temporibus consectetur.",
       "Actions": "Implicit",
-      "ActionData": "est",
+      "ActionData": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 17
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 907
     }
   }
 }

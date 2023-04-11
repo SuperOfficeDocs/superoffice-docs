@@ -25,8 +25,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=nobis
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=laboriosam
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 794,
-    "Name": "Grimes Group",
-    "ToolTip": "Vero nisi asperiores nihil sed cupiditate nisi fuga.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "est",
+    "Id": 203,
+    "Name": "Corwin, Tromp and Brakus",
+    "ToolTip": "Provident vitae provident quibusdam neque harum provident aliquid.",
+    "Deleted": false,
+    "Rank": 420,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Glover LLC",
-        "ToolTip": "Ab deserunt rerum est non quibusdam optio.",
+        "Id": 476,
+        "Name": "Yost-DuBuque",
+        "ToolTip": "Nulla a temporibus.",
         "Deleted": true,
-        "Rank": 47,
-        "Type": "veritatis",
+        "Rank": 578,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 225,
+        "IconHint": "dolor",
+        "ColorBlock": 766,
         "ExtraInfo": "vel",
-        "StyleHint": "culpa",
-        "FullName": "Christy Feest",
+        "StyleHint": "odio",
+        "FullName": "Mrs. Calista West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 720
+            "FieldLength": 556
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 535,
-    "ExtraInfo": "maiores",
-    "StyleHint": "et",
-    "FullName": "Mazie Lowe",
+    "IconHint": "non",
+    "ColorBlock": 332,
+    "ExtraInfo": "et",
+    "StyleHint": "illo",
+    "FullName": "Edyth Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 532
       }
     }
   }

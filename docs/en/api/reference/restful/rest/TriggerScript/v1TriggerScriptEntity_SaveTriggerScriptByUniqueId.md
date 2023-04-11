@@ -80,8 +80,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,20 +89,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 509,
-  "Name": "Hilll-Feeney",
+  "ScreenChooserId": 726,
+  "Name": "Nienow, Ledner and Bailey",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "delectus",
-  "Source": "assumenda",
-  "Registered": "2018-03-26T12:15:27.5926269+02:00",
-  "RegisteredAssociateId": 772,
-  "Updated": "2002-12-07T12:15:27.5926269+01:00",
-  "UpdatedAssociateId": 310
+  "UniqueIdentifier": "est",
+  "Source": "odit",
+  "Registered": "2008-08-16T15:29:30.8024849+02:00",
+  "RegisteredAssociateId": 326,
+  "Updated": "2018-03-01T15:29:30.8024849+01:00",
+  "UpdatedAssociateId": 372
 }
 ```
 
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 847,
-  "Name": "Borer Inc and Sons",
+  "ScreenChooserId": 961,
+  "Name": "Rodriguez Group",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "et",
-  "Registered": "2017-11-02T12:15:27.5936297+01:00",
-  "RegisteredAssociateId": 898,
-  "Updated": "2015-06-01T12:15:27.5936297+02:00",
-  "UpdatedAssociateId": 575,
+  "UniqueIdentifier": "impedit",
+  "Source": "iste",
+  "Registered": "2017-06-24T15:29:30.8029857+02:00",
+  "RegisteredAssociateId": 212,
+  "Updated": "2015-03-18T15:29:30.8029857+01:00",
+  "UpdatedAssociateId": 417,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldType": "System.Int32",
+      "FieldLength": 432
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=281
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=750
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -81,8 +81,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 944,
-  "Name": "Waters, Bradtke and Gaylord",
-  "Tooltip": "eveniet",
-  "SaveInDb": 80,
-  "Filename": "eligendi",
-  "DefaultOref": "ea",
+  "DocumentTemplateId": 26,
+  "Name": "Lemke, Stamm and Jacobs",
+  "Tooltip": "eos",
+  "SaveInDb": 501,
+  "Filename": "illum",
+  "DefaultOref": "officia",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 332,
-  "IntentId": 473,
+  "AutoeventId": 12,
+  "IntentId": 280,
   "IsDefaultPublished": false,
-  "Rank": 743,
-  "LoadTemplateFromPlugin": 475,
-  "MimeType": "sit",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 64,
+  "Rank": 870,
+  "LoadTemplateFromPlugin": 958,
+  "MimeType": "ipsam",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 325,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "duncan@lindgrenpfannerstill.us",
+  "EmailSubject": "tavares_lind@wardparisian.co.uk",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "danny@simonis.uk",
+  "SenderEmailAddress": "sincere@gerholdhettinger.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 364
     }
   }
 }

@@ -50,8 +50,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 646,
-  "Name": "Considine, Hettinger and Hansen",
-  "Tooltip": "voluptas",
+  "Id": 487,
+  "Name": "Fahey Inc and Sons",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "UdListDefinitionId": 877,
-  "Rank": 781,
+  "UdListDefinitionId": 819,
+  "Rank": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 787
     }
   }
 }

@@ -105,8 +105,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -115,31 +115,31 @@ OK
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 282,
-  "ContactId": 188,
-  "ProjectId": 612,
-  "ContactName": "Miller, Hintz and Smitham",
+  "ProjectmemberId": 128,
+  "ContactId": 889,
+  "ProjectId": 795,
+  "ContactName": "Bashirian Group",
   "ContactDepartment": "",
-  "ProjectName": "Wiza Group",
-  "EmailId": 197,
-  "EmailAddress": "triston.bayer@braun.uk",
-  "CountryId": 47,
-  "Firstname": "Felipa",
-  "MiddleName": "Kunze Inc and Sons",
-  "Lastname": "Willms",
-  "PersonId": 973,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Becker Inc and Sons",
-  "Phone": "1-683-284-2534 x658",
-  "PhoneId": 701,
-  "ProjectMemberTypeId": 243,
-  "EmailAddressName": "delphia_cronin@considine.us",
-  "Comment": "maiores",
-  "FullName": "Dr. Albert Russ Mertz IV"
+  "ProjectName": "Wiza, Wehner and Bahringer",
+  "EmailId": 410,
+  "EmailAddress": "karina.becker@romaguera.com",
+  "CountryId": 797,
+  "Firstname": "Leopold",
+  "MiddleName": "Kuhlman, Auer and Simonis",
+  "Lastname": "West",
+  "PersonId": 195,
+  "Mrmrs": "ea",
+  "ProjectMemberTypeName": "Kris-Smitham",
+  "Phone": "759-797-5165",
+  "PhoneId": 625,
+  "ProjectMemberTypeId": 879,
+  "EmailAddressName": "nicholaus@crist.com",
+  "Comment": "enim",
+  "FullName": "Prof. Courtney Abshire"
 }
 ```
 
@@ -150,38 +150,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 723,
-  "ContactId": 320,
-  "ProjectId": 224,
-  "ContactName": "Gerhold, Hilpert and Hahn",
+  "ProjectmemberId": 189,
+  "ContactId": 637,
+  "ProjectId": 290,
+  "ContactName": "Weber-Buckridge",
   "ContactDepartment": "",
-  "ProjectName": "Kulas, Swift and McDermott",
-  "EmailId": 884,
-  "EmailAddress": "margaret@hackettsawayn.info",
-  "CountryId": 687,
-  "Firstname": "Aimee",
-  "MiddleName": "Kassulke-Yost",
-  "Lastname": "Hoppe",
-  "PersonId": 445,
-  "Mrmrs": "voluptatem",
-  "ProjectMemberTypeName": "Balistreri-Conroy",
-  "Phone": "859-614-5312",
-  "PhoneId": 102,
-  "ProjectMemberTypeId": 720,
-  "EmailAddressName": "vickie.abernathy@morar.com",
-  "Comment": "aperiam",
-  "FullName": "Ludie Homenick",
+  "ProjectName": "Champlin, Ernser and Mayert",
+  "EmailId": 695,
+  "EmailAddress": "dolores_daugherty@kertzmann.com",
+  "CountryId": 714,
+  "Firstname": "Hermann",
+  "MiddleName": "Casper, Parker and Mueller",
+  "Lastname": "Prosacco",
+  "PersonId": 153,
+  "Mrmrs": "aliquam",
+  "ProjectMemberTypeName": "Wolf Group",
+  "Phone": "710.635.0523",
+  "PhoneId": 201,
+  "ProjectMemberTypeId": 160,
+  "EmailAddressName": "alvina.goldner@schowalter.name",
+  "Comment": "labore",
+  "FullName": "Lempi Reichel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 167
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

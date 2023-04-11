@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Macejkovic-Nolan"
+  "FileName": "Kilback-Marks"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 212,
-      "ContactName": "Cruickshank-Nikolaus",
-      "PersonId": 984,
-      "PersonName": "Barrows-Rau",
-      "AssociateId": 958,
-      "Address": "maiores",
-      "EmailId": 848,
+      "ContactId": 359,
+      "ContactName": "Leannon-Parisian",
+      "PersonId": 804,
+      "PersonName": "O'Reilly Group",
+      "AssociateId": 4,
+      "Address": "tempora",
+      "EmailId": 708,
       "DuplicatePersonIds": [
-        197,
-        182
+        794,
+        971
       ],
-      "Name": "Fritsch LLC",
+      "Name": "Konopelski, Ruecker and Homenick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 221
+          "FieldLength": 10
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 679,
-      "ContactName": "Collins, Bernier and Langosh",
-      "PersonId": 548,
-      "PersonName": "Monahan-Grant",
-      "AssociateId": 882,
-      "Address": "eum",
-      "EmailId": 474,
+      "ContactId": 466,
+      "ContactName": "Weissnat, Wiza and Anderson",
+      "PersonId": 462,
+      "PersonName": "Johnson, Nitzsche and Waelchi",
+      "AssociateId": 30,
+      "Address": "ad",
+      "EmailId": 457,
       "DuplicatePersonIds": [
-        4,
-        274
+        485,
+        723
       ],
-      "Name": "Gorczany, Davis and Botsford",
+      "Name": "Kunde-Schimmel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 92
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 345,
-      "ContactName": "Kerluke-Rolfson",
-      "PersonId": 708,
-      "PersonName": "Cummings, Stehr and Bayer",
-      "AssociateId": 855,
-      "Address": "molestiae",
-      "EmailId": 897,
+      "ContactId": 500,
+      "ContactName": "Krajcik LLC",
+      "PersonId": 956,
+      "PersonName": "Schimmel, Emard and Leannon",
+      "AssociateId": 302,
+      "Address": "voluptatem",
+      "EmailId": 591,
       "DuplicatePersonIds": [
-        784,
-        9
+        150,
+        368
       ],
-      "Name": "Mills Group",
+      "Name": "Ebert-Champlin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldType": "System.Int32",
+          "FieldLength": 428
         }
       }
     }
   ],
-  "Subject": "aperiam",
-  "HTMLBody": "cum",
+  "Subject": "sint",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2007-11-08T12:15:19.0517503+01:00",
-  "Size": 598,
+  "Sent": "2013-02-04T15:29:21.8162756+01:00",
+  "Size": 510,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "officiis",
-  "PlainBody": "quo",
+  "MessageID": "quia",
+  "PlainBody": "ab",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 899,
+  "ServerId": 375,
   "Attachments": [
     {
-      "Description": "Optional bifurcated open system",
-      "Filename": "et",
-      "Size": 908,
-      "Type": "eveniet",
-      "Encoding": "est",
-      "Id": "in",
-      "Disposition": "voluptatum",
+      "Description": "Proactive scalable software",
+      "Filename": "eum",
+      "Size": 478,
+      "Type": "qui",
+      "Encoding": "ut",
+      "Id": "iure",
+      "Disposition": "et",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldLength": 554
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Reinger, Hartmann and Green",
+      "Name": "Aufderhar Inc and Sons",
       "Values": [
-        "consequuntur",
-        "aut"
+        "quo",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 769
         }
       }
     },
     {
-      "Name": "Reinger, Hartmann and Green",
+      "Name": "Aufderhar Inc and Sons",
       "Values": [
-        "consequuntur",
-        "aut"
+        "quo",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 769
         }
       }
     }
   ],
-  "FolderName": "D'Amore-Swaniawski",
-  "EmailItemId": 869,
-  "AccountId": 624,
-  "ReceivedAt": "2006-11-14T12:15:19.0527527+01:00",
+  "FolderName": "Bayer-Brakus",
+  "EmailItemId": 910,
+  "AccountId": 140,
+  "ReceivedAt": "2004-04-17T15:29:21.8167746+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1996-10-03T12:15:19.0527527+02:00",
+  "RepliedAt": "2018-08-09T15:29:21.8167746+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 691
     }
   }
 }

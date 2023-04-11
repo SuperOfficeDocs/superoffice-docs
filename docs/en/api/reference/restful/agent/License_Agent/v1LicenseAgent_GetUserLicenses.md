@@ -66,8 +66,8 @@ OK
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 424
+  "AssociateId": 506
 }
 ```
 
@@ -91,30 +91,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Nolan Inc and Sons",
-    "Description": "Ameliorated hybrid encoding",
+    "Name": "Marquardt-Marvin",
+    "Description": "Total next generation Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 889,
-        "Tooltip": "numquam",
-        "CanAssign": true,
-        "Free": 597,
-        "InUse": 482,
+        "Total": 949,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 6,
+        "InUse": 479,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 562,
-        "Name": "Balistreri-Stiedemann",
-        "Description": "User-centric zero tolerance workforce",
-        "PrerequisiteModuleName": "Wisozk Inc and Sons",
-        "SortOrder": 746,
-        "ExtraFlags": 282,
+        "ModuleLicenseId": 987,
+        "Name": "McGlynn-Lang",
+        "Description": "Streamlined optimal function",
+        "PrerequisiteModuleName": "Collier, VonRueden and Rogahn",
+        "SortOrder": 802,
+        "ExtraFlags": 981,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 506
+            "FieldLength": 774
           }
         }
       }
@@ -122,25 +122,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 444,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 644,
-        "InUse": 109,
+        "Total": 445,
+        "Tooltip": "id",
+        "CanAssign": true,
+        "Free": 795,
+        "InUse": 223,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 539,
-        "Name": "Sipes, Stanton and Hackett",
-        "Description": "Vision-oriented value-added website",
-        "PrerequisiteModuleName": "Krajcik Group",
-        "SortOrder": 578,
-        "ExtraFlags": 830,
+        "ModuleLicenseId": 236,
+        "Name": "Reichert LLC",
+        "Description": "Multi-channelled stable projection",
+        "PrerequisiteModuleName": "Simonis, Crist and Botsford",
+        "SortOrder": 763,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 958
+            "FieldType": "System.String",
+            "FieldLength": 288
           }
         }
       }
@@ -150,35 +150,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 600
       }
     }
   },
   {
-    "Name": "Nolan Inc and Sons",
-    "Description": "Ameliorated hybrid encoding",
+    "Name": "Marquardt-Marvin",
+    "Description": "Total next generation Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 889,
-        "Tooltip": "numquam",
-        "CanAssign": true,
-        "Free": 597,
-        "InUse": 482,
+        "Total": 949,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 6,
+        "InUse": 479,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 562,
-        "Name": "Balistreri-Stiedemann",
-        "Description": "User-centric zero tolerance workforce",
-        "PrerequisiteModuleName": "Wisozk Inc and Sons",
-        "SortOrder": 746,
-        "ExtraFlags": 282,
+        "ModuleLicenseId": 987,
+        "Name": "McGlynn-Lang",
+        "Description": "Streamlined optimal function",
+        "PrerequisiteModuleName": "Collier, VonRueden and Rogahn",
+        "SortOrder": 802,
+        "ExtraFlags": 981,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 506
+            "FieldLength": 774
           }
         }
       }
@@ -186,25 +186,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 444,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 644,
-        "InUse": 109,
+        "Total": 445,
+        "Tooltip": "id",
+        "CanAssign": true,
+        "Free": 795,
+        "InUse": 223,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 539,
-        "Name": "Sipes, Stanton and Hackett",
-        "Description": "Vision-oriented value-added website",
-        "PrerequisiteModuleName": "Krajcik Group",
-        "SortOrder": 578,
-        "ExtraFlags": 830,
+        "ModuleLicenseId": 236,
+        "Name": "Reichert LLC",
+        "Description": "Multi-channelled stable projection",
+        "PrerequisiteModuleName": "Simonis, Crist and Botsford",
+        "SortOrder": 763,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 958
+            "FieldType": "System.String",
+            "FieldLength": 288
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 600
       }
     }
   }

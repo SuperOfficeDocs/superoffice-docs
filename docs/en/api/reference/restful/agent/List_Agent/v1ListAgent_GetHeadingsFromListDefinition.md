@@ -68,8 +68,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 435
+  "Id": 738
 }
 ```
 
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 356,
-    "Name": "Schmeler, Shanahan and Ledner",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 809,
-    "UdListDefinitionId": 616,
+    "HeadingId": 189,
+    "Name": "Harber Group",
+    "Tooltip": "porro",
+    "Deleted": true,
+    "Rank": 761,
+    "UdListDefinitionId": 951,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldType": "System.Int32",
+        "FieldLength": 433
       }
     }
   }

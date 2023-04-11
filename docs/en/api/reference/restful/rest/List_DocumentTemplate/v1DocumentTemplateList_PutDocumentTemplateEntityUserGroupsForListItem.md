@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Bradtke, Tillman and Marvin",
-    "ToolTip": "Optio officiis omnis quasi expedita quis non.",
+    "Id": 863,
+    "Name": "Schinner LLC",
+    "ToolTip": "Assumenda sit.",
     "Deleted": false,
-    "Rank": 516,
-    "Type": "sunt",
-    "ColorBlock": 117,
-    "IconHint": "consequuntur",
+    "Rank": 178,
+    "Type": "magni",
+    "ColorBlock": 821,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "1996-06-24T12:15:28.1516187+02:00",
+    "LastChanged": "2012-01-10T15:29:31.2644786+01:00",
     "ChildItems": [
       {
-        "Id": 865,
-        "Name": "O'Keefe, Mills and Little",
-        "ToolTip": "Porro sed esse et earum delectus dolor consequatur.",
+        "Id": 895,
+        "Name": "Farrell-Hamill",
+        "ToolTip": "Dolorem recusandae repellendus.",
         "Deleted": true,
-        "Rank": 744,
-        "Type": "esse",
-        "ColorBlock": 592,
-        "IconHint": "repudiandae",
+        "Rank": 184,
+        "Type": "ut",
+        "ColorBlock": 251,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2018-10-21T12:15:28.1526193+02:00",
+        "LastChanged": "2015-12-21T15:29:31.2644786+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "rem",
+        "StyleHint": "ipsa",
         "Hidden": true,
-        "FullName": "Billie Aileen Smith I"
+        "FullName": "Sienna Macejkovic"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Sadye Dare"
+    "ExtraInfo": "quos",
+    "StyleHint": "aliquam",
+    "Hidden": true,
+    "FullName": "Dr. Mario Davis MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Barton, Mosciski and O'Hara",
-    "ToolTip": "Tempore illum aut.",
-    "Deleted": true,
-    "Rank": 994,
-    "Type": "voluptatum",
-    "ColorBlock": 303,
-    "IconHint": "recusandae",
+    "Id": 689,
+    "Name": "Herzog-Altenwerth",
+    "ToolTip": "Ex dignissimos nihil dolorem.",
+    "Deleted": false,
+    "Rank": 104,
+    "Type": "nam",
+    "ColorBlock": 995,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2003-07-24T12:15:28.1546184+02:00",
+    "LastChanged": "2013-07-29T15:29:31.2654783+02:00",
     "ChildItems": [
       {
-        "Id": 95,
-        "Name": "Hoeger Inc and Sons",
-        "ToolTip": "Quaerat nesciunt iusto sapiente optio tempora qui sit.",
+        "Id": 100,
+        "Name": "Klocko Inc and Sons",
+        "ToolTip": "Consequuntur molestiae voluptas.",
         "Deleted": false,
-        "Rank": 130,
-        "Type": "recusandae",
-        "ColorBlock": 806,
-        "IconHint": "iste",
+        "Rank": 927,
+        "Type": "inventore",
+        "ColorBlock": 311,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2015-07-11T12:15:28.1546184+02:00",
+        "LastChanged": "2018-01-15T15:29:31.2659833+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "expedita",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Arielle Ward",
+        "FullName": "Mr. Reed Tommie Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 606
+            "FieldType": "System.String",
+            "FieldLength": 808
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "qui",
+    "ExtraInfo": "quam",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Xavier Gaylord",
+    "FullName": "Carolyne Colten Spinka DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldType": "System.String",
+        "FieldLength": 686
       }
     }
   }

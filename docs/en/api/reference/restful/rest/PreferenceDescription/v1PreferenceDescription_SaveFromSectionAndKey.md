@@ -92,8 +92,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -105,24 +105,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 796,
-  "Section": "illo",
-  "Key": "in",
-  "Name": "Hegmann, Koch and Rogahn",
+  "PrefDescId": 215,
+  "Section": "vel",
+  "Key": "consequatur",
+  "Name": "Rutherford Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused context-sensitive internet solution",
+  "Description": "Focused scalable function",
   "IsBuiltin": false,
-  "TableName": "Turner, Cassin and Jast",
-  "UserDefinedListId": 398,
-  "Rank": 153,
-  "SubGroup": "vel",
-  "MinLevel": 667,
-  "MaxValue": 480,
-  "MinValue": 323,
-  "RequiredLicense": "et"
+  "TableName": "Hermann Group",
+  "UserDefinedListId": 433,
+  "Rank": 758,
+  "SubGroup": "quo",
+  "MinLevel": 119,
+  "MaxValue": 91,
+  "MinValue": 769,
+  "RequiredLicense": "consectetur"
 }
 ```
 
@@ -133,30 +133,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 990,
-  "Section": "et",
-  "Key": "quia",
-  "Name": "Walker LLC",
+  "PrefDescId": 583,
+  "Section": "dolor",
+  "Key": "quisquam",
+  "Name": "Halvorson, Auer and Thompson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented global capability",
-  "IsBuiltin": false,
-  "TableName": "Dare Inc and Sons",
-  "UserDefinedListId": 49,
-  "Rank": 617,
-  "SubGroup": "recusandae",
-  "MinLevel": 52,
-  "MaxValue": 457,
-  "MinValue": 352,
-  "RequiredLicense": "voluptatibus",
+  "Description": "Self-enabling well-modulated budgetary management",
+  "IsBuiltin": true,
+  "TableName": "McGlynn, Herman and Greenholt",
+  "UserDefinedListId": 378,
+  "Rank": 981,
+  "SubGroup": "itaque",
+  "MinLevel": 856,
+  "MaxValue": 83,
+  "MinValue": 147,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldLength": 233
     }
   }
 }

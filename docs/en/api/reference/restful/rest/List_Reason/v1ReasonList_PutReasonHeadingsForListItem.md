@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Medhurst-Upton",
-    "ToolTip": "Ipsam magnam non eligendi voluptates.",
-    "Deleted": false,
-    "Rank": 137,
-    "Type": "porro",
-    "ColorBlock": 684,
-    "IconHint": "minus",
+    "Id": 452,
+    "Name": "Fisher Group",
+    "ToolTip": "Velit veniam.",
+    "Deleted": true,
+    "Rank": 55,
+    "Type": "ea",
+    "ColorBlock": 510,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2003-09-22T12:15:28.4246148+02:00",
+    "LastChanged": "2001-01-22T15:29:31.5359743+01:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Jenkins-McLaughlin",
-        "ToolTip": "Modi similique doloremque velit.",
+        "Id": 148,
+        "Name": "Rempel-Erdman",
+        "ToolTip": "Alias vitae ut consequatur quam voluptas voluptatibus eos.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "assumenda",
-        "ColorBlock": 75,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2019-02-08T12:15:28.4246148+01:00",
+        "Rank": 820,
+        "Type": "et",
+        "ColorBlock": 228,
+        "IconHint": "odit",
+        "Selected": false,
+        "LastChanged": "2020-02-13T15:29:31.5359743+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquam",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Clare Greenfelder"
+        "FullName": "Clarabelle Herzog"
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "debitis",
-    "Hidden": false,
-    "FullName": "Mr. Delta Block DDS"
+    "ExtraInfo": "mollitia",
+    "StyleHint": "veritatis",
+    "Hidden": true,
+    "FullName": "Eli Bednar"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Name": "Murphy, Feest and Kunde",
-    "ToolTip": "Rerum libero nesciunt.",
+    "Id": 58,
+    "Name": "Medhurst-Sanford",
+    "ToolTip": "Aperiam vel inventore harum.",
     "Deleted": true,
-    "Rank": 978,
-    "Type": "non",
-    "ColorBlock": 514,
-    "IconHint": "aperiam",
-    "Selected": false,
-    "LastChanged": "2020-06-24T12:15:28.4256179+02:00",
+    "Rank": 862,
+    "Type": "et",
+    "ColorBlock": 867,
+    "IconHint": "alias",
+    "Selected": true,
+    "LastChanged": "2002-07-14T15:29:31.5379771+02:00",
     "ChildItems": [
       {
-        "Id": 536,
-        "Name": "Simonis-Franecki",
-        "ToolTip": "Architecto velit minima.",
-        "Deleted": false,
-        "Rank": 226,
-        "Type": "officia",
-        "ColorBlock": 997,
-        "IconHint": "optio",
+        "Id": 191,
+        "Name": "Dietrich LLC",
+        "ToolTip": "Veniam officiis.",
+        "Deleted": true,
+        "Rank": 983,
+        "Type": "recusandae",
+        "ColorBlock": 313,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "1997-03-02T12:15:28.4256179+01:00",
+        "LastChanged": "2018-10-30T15:29:31.5379771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Frank Brekke",
+        "FullName": "Giovani Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 218
+            "FieldType": "System.Int32",
+            "FieldLength": 132
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "possimus",
-    "Hidden": true,
-    "FullName": "Vance Bradtke",
+    "ExtraInfo": "aut",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Miguel Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 11
       }
     }
   }

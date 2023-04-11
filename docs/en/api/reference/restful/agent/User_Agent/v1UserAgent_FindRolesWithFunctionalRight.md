@@ -79,8 +79,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Bernhard-Christiansen"
+  "FunctionalRightName": "Murray LLC"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 189,
-    "Name": "Anderson, Prohaska and McDermott",
-    "ToolTip": "Sapiente sapiente adipisci aut et aut quia est.",
-    "Deleted": false,
-    "Rank": 540,
-    "Type": "iure",
+    "Id": 204,
+    "Name": "Kub, Quigley and Littel",
+    "ToolTip": "Harum qui porro.",
+    "Deleted": true,
+    "Rank": 446,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 440,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Dolore id.",
-        "Deleted": true,
-        "Rank": 128,
-        "Type": "velit",
+        "Id": 126,
+        "Name": "Veum Inc and Sons",
+        "ToolTip": "Voluptatem accusantium voluptas delectus.",
+        "Deleted": false,
+        "Rank": 964,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rem",
-        "ColorBlock": 981,
-        "ExtraInfo": "quia",
-        "StyleHint": "animi",
-        "FullName": "Tyrel Krajcik",
+        "IconHint": "ut",
+        "ColorBlock": 114,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "ea",
+        "FullName": "Abigale Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 302
+            "FieldLength": 27
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 509,
-    "ExtraInfo": "quia",
-    "StyleHint": "debitis",
-    "FullName": "Mrs. Joesph Madilyn Bradtke II",
+    "IconHint": "tempore",
+    "ColorBlock": 351,
+    "ExtraInfo": "iusto",
+    "StyleHint": "sed",
+    "FullName": "Misty Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldLength": 209
       }
     }
   }

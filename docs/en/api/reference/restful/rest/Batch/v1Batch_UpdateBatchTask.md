@@ -101,8 +101,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -110,34 +110,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 415,
-  "Name": "Pfannerstill, Cormier and Hilll",
-  "AssociateId": 114,
-  "DetailsTable": 736,
-  "DetailsRecord": 536,
+  "Id": 375,
+  "Name": "Collier, Klocko and Rippin",
+  "AssociateId": 367,
+  "DetailsTable": 785,
+  "DetailsRecord": 527,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "asperiores",
-    "ParameterObject2": "corporis"
+    "ParameterObject1": "esse",
+    "ParameterObject2": "qui"
   },
-  "LastStarted": "1998-01-05T12:15:27.5996259+01:00",
-  "Created": "1996-10-02T12:15:27.5996259+02:00",
-  "StartCount": 583,
-  "DatabaseSerialNumber": "224003",
-  "Context": "tempora",
+  "LastStarted": "2011-08-02T15:29:30.8094865+02:00",
+  "Created": "2021-09-20T15:29:30.8094865+02:00",
+  "StartCount": 216,
+  "DatabaseSerialNumber": "1300386",
+  "Context": "a",
   "Result": "et",
   "State": "All",
-  "Description": "Realigned eco-centric firmware",
-  "Response": "dolorum",
-  "Request": "veniam",
-  "ProgressDescription": "Fully-configurable object-oriented moderator",
-  "ProgressPercent": 582,
-  "FileName": "Grimes-Denesik",
+  "Description": "Enhanced stable process improvement",
+  "Response": "quasi",
+  "Request": "pariatur",
+  "ProgressDescription": "Face to face demand-driven framework",
+  "ProgressPercent": 891,
+  "FileName": "Mayer, Klein and Quigley",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -149,37 +149,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 436,
-  "Name": "Schuppe, Donnelly and West",
-  "AssociateId": 700,
-  "DetailsTable": 78,
-  "DetailsRecord": 275,
+  "Id": 57,
+  "Name": "Jakubowski-Graham",
+  "AssociateId": 56,
+  "DetailsTable": 115,
+  "DetailsRecord": 820,
   "IsSystemTask": true,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "aliquid",
-    "ParameterObject2": "temporibus"
+    "ParameterObject1": "ea",
+    "ParameterObject2": "atque"
   },
-  "LastStarted": "2003-03-28T12:15:27.6006262+01:00",
-  "Created": "2020-03-07T12:15:27.6006262+01:00",
-  "StartCount": 889,
-  "DatabaseSerialNumber": "469534",
-  "Context": "quis",
-  "Result": "illo",
+  "LastStarted": "2000-11-08T15:29:30.8099851+01:00",
+  "Created": "2009-09-08T15:29:30.8099851+02:00",
+  "StartCount": 591,
+  "DatabaseSerialNumber": "1947535",
+  "Context": "ea",
+  "Result": "quisquam",
   "State": "All",
-  "Description": "Configurable bi-directional knowledge base",
-  "Response": "quibusdam",
-  "Request": "dolorem",
-  "ProgressDescription": "Exclusive foreground projection",
-  "ProgressPercent": 104,
-  "FileName": "Ziemann, Mueller and Heidenreich",
+  "Description": "User-centric background open system",
+  "Response": "soluta",
+  "Request": "sit",
+  "ProgressDescription": "Configurable fresh-thinking task-force",
+  "ProgressPercent": 677,
+  "FileName": "Boehm-Fahey",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldType": "System.String",
+      "FieldLength": 566
     }
   }
 }

@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 370,
-      "ContactName": "Satterfield-Tremblay",
-      "PersonId": 849,
-      "PersonName": "Rempel, O'Hara and Botsford",
-      "AssociateId": 179,
-      "Address": "et",
-      "EmailId": 903,
+      "ContactId": 97,
+      "ContactName": "Reilly, Zemlak and Corwin",
+      "PersonId": 232,
+      "PersonName": "Walsh Group",
+      "AssociateId": 197,
+      "Address": "aut",
+      "EmailId": 586,
       "DuplicatePersonIds": [
-        702,
-        183
+        215,
+        885
       ],
-      "Name": "Quigley, Olson and Macejkovic",
+      "Name": "Gutkowski Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 319,
-      "ContactName": "Koepp, Prohaska and Hilll",
-      "PersonId": 995,
-      "PersonName": "Zemlak, Koelpin and Russel",
-      "AssociateId": 174,
-      "Address": "inventore",
-      "EmailId": 29,
+      "ContactId": 747,
+      "ContactName": "Roob, Paucek and Considine",
+      "PersonId": 140,
+      "PersonName": "Towne, Feeney and Rau",
+      "AssociateId": 940,
+      "Address": "fugiat",
+      "EmailId": 960,
       "DuplicatePersonIds": [
-        868,
-        306
+        284,
+        478
       ],
-      "Name": "Sauer-Labadie",
+      "Name": "Cummings, Legros and O'Kon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 977
+          "FieldType": "System.Int32",
+          "FieldLength": 338
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 634,
-      "ContactName": "Blanda-Kemmer",
-      "PersonId": 71,
-      "PersonName": "Donnelly-Gulgowski",
-      "AssociateId": 473,
-      "Address": "laborum",
-      "EmailId": 256,
+      "ContactId": 155,
+      "ContactName": "Fadel-Jenkins",
+      "PersonId": 186,
+      "PersonName": "Ratke-Durgan",
+      "AssociateId": 367,
+      "Address": "eos",
+      "EmailId": 105,
       "DuplicatePersonIds": [
-        517,
-        347
+        178,
+        318
       ],
-      "Name": "Auer-Wilkinson",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 859
-        }
-      }
-    }
-  ],
-  "Subject": "exercitationem",
-  "HTMLBody": "maxime",
-  "From": null,
-  "Sent": "2011-12-07T12:15:18.907753+01:00",
-  "Size": 204,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "accusantium",
-  "PlainBody": "dolor",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 469,
-  "Attachments": [
-    {
-      "Description": "Streamlined bifurcated projection",
-      "Filename": "unde",
-      "Size": 39,
-      "Type": "veritatis",
-      "Encoding": "in",
-      "Id": "et",
-      "Disposition": "ad",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Block, Kreiger and Goodwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 495
+        }
+      }
+    }
+  ],
+  "Subject": "adipisci",
+  "HTMLBody": "nemo",
+  "From": null,
+  "Sent": "2014-05-05T15:29:21.6783149+02:00",
+  "Size": 258,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "commodi",
+  "PlainBody": "minus",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 201,
+  "Attachments": [
+    {
+      "Description": "Business-focused cohesive knowledge user",
+      "Filename": "aut",
+      "Size": 435,
+      "Type": "dolorem",
+      "Encoding": "odio",
+      "Id": "molestiae",
+      "Disposition": "laudantium",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 817
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kreiger-Hoppe",
+      "Name": "Little-Wisozk",
       "Values": [
-        "aut",
-        "dolorem"
+        "quae",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 84
         }
       }
     },
     {
-      "Name": "Kreiger-Hoppe",
+      "Name": "Little-Wisozk",
       "Values": [
-        "aut",
-        "dolorem"
+        "quae",
+        "distinctio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldType": "System.String",
+          "FieldLength": 84
         }
       }
     }
   ],
-  "FolderName": "Effertz-Botsford",
-  "EmailItemId": 778,
-  "AccountId": 303,
-  "ReceivedAt": "2003-11-22T12:15:18.907753+01:00",
+  "FolderName": "Nolan Group",
+  "EmailItemId": 366,
+  "AccountId": 634,
+  "ReceivedAt": "1995-12-05T15:29:21.6788126+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-09-07T12:15:18.907753+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2005-07-31T15:29:21.6788126+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 719
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

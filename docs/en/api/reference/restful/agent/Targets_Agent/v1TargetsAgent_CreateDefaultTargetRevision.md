@@ -50,8 +50,8 @@ OK
 | Who | Associate | Who made the change |
 | When | date-time | Registered when  in UTC. |
 | Changes | array | Collection of changes |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2016-10-20T12:15:20.2117368+02:00",
+  "When": "2016-07-17T15:29:22.9877591+02:00",
   "Changes": [
     {
-      "FieldIdentifier": "quas",
-      "ValueChangeFrom": 9301.712,
-      "ValueChangeTo": 15513.3,
+      "FieldIdentifier": "quis",
+      "ValueChangeFrom": 25184.824,
+      "ValueChangeTo": 4240.302,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 493
+          "FieldLength": 917
         }
       }
     },
     {
-      "FieldIdentifier": "quas",
-      "ValueChangeFrom": 9301.712,
-      "ValueChangeTo": 15513.3,
+      "FieldIdentifier": "quis",
+      "ValueChangeFrom": 25184.824,
+      "ValueChangeTo": 4240.302,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 493
+          "FieldLength": 917
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 717
     }
   }
 }

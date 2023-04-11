@@ -71,8 +71,8 @@ OK
 | ErrorCode | string | An error code, if available. |
 | Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/ErpSync/ForceResync
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 18,
+  "ErpConnectionId": 43,
   "InternalKeyIds": [
-    117,
-    869
+    404,
+    837
   ]
 }
 ```
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "ea",
-  "TechExplanation": "aut",
-  "ErrorCode": "eum",
+  "UserExplanation": "omnis",
+  "TechExplanation": "perferendis",
+  "ErrorCode": "modi",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 539
     }
   }
 }

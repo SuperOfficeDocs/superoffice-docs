@@ -76,8 +76,8 @@ OK
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 388,
-  "AttachmentId": "qui"
+  "DocId": 560,
+  "AttachmentId": "blanditiis"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized dedicated benchmark",
-  "Filename": "eius",
-  "Size": 627,
-  "Type": "corporis",
-  "Encoding": "ab",
-  "Id": "quo",
-  "Disposition": "qui",
+  "Description": "Sharable logistical parallelism",
+  "Filename": "eum",
+  "Size": 642,
+  "Type": "voluptatem",
+  "Encoding": "sunt",
+  "Id": "laborum",
+  "Disposition": "totam",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 840
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

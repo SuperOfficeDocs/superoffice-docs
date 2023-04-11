@@ -71,8 +71,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,15 +84,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 374,
+  "Id": 278,
+  "Name": "Dibbert, Wisozk and Abshire",
+  "Tooltip": "asperiores",
+  "Deleted": false,
+  "Rank": 768,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aperiam",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 889,
-  "Name": "Schmidt Group",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 56,
+  "Id": 141,
+  "Name": "Schinner-Gusikowski",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 489,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 686
     }
   }
 }

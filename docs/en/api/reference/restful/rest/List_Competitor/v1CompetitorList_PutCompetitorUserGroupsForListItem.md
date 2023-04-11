@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Kemmer LLC",
-    "ToolTip": "Repudiandae beatae ratione tempora perferendis pariatur aut.",
-    "Deleted": false,
-    "Rank": 221,
-    "Type": "non",
-    "ColorBlock": 292,
-    "IconHint": "facilis",
+    "Id": 168,
+    "Name": "Labadie Group",
+    "ToolTip": "Cum porro in distinctio.",
+    "Deleted": true,
+    "Rank": 486,
+    "Type": "nihil",
+    "ColorBlock": 641,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "1997-07-01T12:15:27.9076217+02:00",
+    "LastChanged": "2012-10-28T15:29:31.1169782+01:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Medhurst, Hettinger and Borer",
-        "ToolTip": "Sit eum dolore pariatur ad.",
-        "Deleted": true,
-        "Rank": 807,
-        "Type": "qui",
-        "ColorBlock": 106,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "2020-07-08T12:15:27.9086219+02:00",
+        "Id": 712,
+        "Name": "Dare, Daugherty and Ferry",
+        "ToolTip": "Hic odio non nemo.",
+        "Deleted": false,
+        "Rank": 13,
+        "Type": "autem",
+        "ColorBlock": 630,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "1995-12-29T15:29:31.117478+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quam",
+        "ExtraInfo": "dicta",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Annie Keith Klein MD"
+        "FullName": "Mrs. Edison Vince Spinka DDS"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "odio",
+    "ExtraInfo": "quod",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Rylee Ratke"
+    "FullName": "Lura Maximillian Bashirian MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Nikolaus Group",
-    "ToolTip": "Facilis et voluptatibus animi dolorem expedita in.",
+    "Id": 862,
+    "Name": "Armstrong Group",
+    "ToolTip": "Dolor aut voluptatibus.",
     "Deleted": false,
-    "Rank": 609,
-    "Type": "non",
-    "ColorBlock": 782,
-    "IconHint": "error",
+    "Rank": 195,
+    "Type": "id",
+    "ColorBlock": 860,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2022-01-15T12:15:27.9096221+01:00",
+    "LastChanged": "2015-03-15T15:29:31.1199857+01:00",
     "ChildItems": [
       {
-        "Id": 117,
-        "Name": "Zemlak LLC",
-        "ToolTip": "Unde quam corporis omnis sint harum.",
+        "Id": 468,
+        "Name": "Douglas-Tillman",
+        "ToolTip": "Est totam error doloribus cumque laboriosam tempora.",
         "Deleted": false,
-        "Rank": 218,
-        "Type": "dolor",
-        "ColorBlock": 500,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2013-04-03T12:15:27.9096221+02:00",
+        "Rank": 414,
+        "Type": "ab",
+        "ColorBlock": 351,
+        "IconHint": "blanditiis",
+        "Selected": false,
+        "LastChanged": "2005-10-27T15:29:31.1199857+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "suscipit",
-        "Hidden": true,
-        "FullName": "Issac Duncan Runolfsdottir I",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Quincy Harris DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 866
+            "FieldLength": 81
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "illum",
+    "ExtraInfo": "aut",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Devin Sanford",
+    "FullName": "Clair Erica Dooley MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 611
+        "FieldLength": 893
       }
     }
   }

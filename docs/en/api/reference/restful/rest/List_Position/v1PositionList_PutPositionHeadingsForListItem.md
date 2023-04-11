@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 227,
-    "Name": "Luettgen Group",
-    "ToolTip": "Unde nihil et ratione quos asperiores.",
+    "Id": 415,
+    "Name": "Krajcik, Vandervort and Hansen",
+    "ToolTip": "Itaque vel placeat laboriosam.",
     "Deleted": false,
-    "Rank": 809,
-    "Type": "reiciendis",
-    "ColorBlock": 40,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2010-09-24T12:15:28.2476166+02:00",
+    "Rank": 694,
+    "Type": "sit",
+    "ColorBlock": 999,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2022-06-02T15:29:31.3624774+02:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Abernathy, Armstrong and Lakin",
-        "ToolTip": "Tenetur fugit labore et incidunt molestiae placeat.",
-        "Deleted": true,
-        "Rank": 824,
-        "Type": "quo",
-        "ColorBlock": 390,
-        "IconHint": "voluptatem",
+        "Id": 630,
+        "Name": "Renner Inc and Sons",
+        "ToolTip": "Iusto odio doloremque aspernatur fuga sed voluptatem dolores.",
+        "Deleted": false,
+        "Rank": 350,
+        "Type": "et",
+        "ColorBlock": 190,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "1999-05-13T12:15:28.2476166+02:00",
+        "LastChanged": "1998-12-12T15:29:31.3624774+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Mr. Joanny Lang"
+        "ExtraInfo": "eum",
+        "StyleHint": "voluptatum",
+        "Hidden": false,
+        "FullName": "Ransom Luettgen"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "tempore",
-    "Hidden": true,
-    "FullName": "Kaelyn Bradtke"
+    "ExtraInfo": "velit",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Louie Jakubowski"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Emard Inc and Sons",
-    "ToolTip": "Quod nihil suscipit sit ea accusamus quis est.",
+    "Id": 762,
+    "Name": "Corwin-Jakubowski",
+    "ToolTip": "Eligendi ad fugiat odit qui odit animi vitae.",
     "Deleted": false,
-    "Rank": 374,
-    "Type": "eos",
-    "ColorBlock": 880,
+    "Rank": 824,
+    "Type": "consequatur",
+    "ColorBlock": 906,
     "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2009-04-11T12:15:28.249617+02:00",
+    "Selected": true,
+    "LastChanged": "2003-06-11T15:29:31.3634793+02:00",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Bartoletti, O'Hara and McCullough",
-        "ToolTip": "Facilis optio occaecati et hic.",
-        "Deleted": false,
-        "Rank": 973,
-        "Type": "qui",
-        "ColorBlock": 702,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2009-05-22T12:15:28.249617+02:00",
+        "Id": 704,
+        "Name": "Collins LLC",
+        "ToolTip": "Dicta cum.",
+        "Deleted": true,
+        "Rank": 225,
+        "Type": "occaecati",
+        "ColorBlock": 640,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2005-09-07T15:29:31.363977+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Kris Lang",
+        "ExtraInfo": "iusto",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Effie Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 906
+            "FieldType": "System.Int32",
+            "FieldLength": 390
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Shea Rohan",
+    "ExtraInfo": "sint",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Diamond Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 727
       }
     }
   }

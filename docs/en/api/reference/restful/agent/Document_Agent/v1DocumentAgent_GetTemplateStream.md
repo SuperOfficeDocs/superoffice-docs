@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Collier, Marks and Hoeger",
-  "AllowPersonal": true,
-  "UiCulture": "et"
+  "TemplateName": "Kertzmann LLC",
+  "AllowPersonal": false,
+  "UiCulture": "quia"
 }
 ```
 

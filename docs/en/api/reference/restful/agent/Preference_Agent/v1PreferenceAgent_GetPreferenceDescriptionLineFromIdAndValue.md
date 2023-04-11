@@ -69,8 +69,8 @@ OK
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 10,
-  "PrefValue": "ea"
+  "PrefDescId": 492,
+  "PrefValue": "excepturi"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 645,
-  "PrefDescId": 363,
-  "PrefValue": "ex",
-  "PrefShowValue": "occaecati",
-  "Description": "Self-enabling zero defect capability",
-  "IsBuiltin": true,
+  "PrefDescLineId": 71,
+  "PrefDescId": 909,
+  "PrefValue": "maxime",
+  "PrefShowValue": "ipsam",
+  "Description": "Front-line bi-directional database",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 468
     }
   }
 }

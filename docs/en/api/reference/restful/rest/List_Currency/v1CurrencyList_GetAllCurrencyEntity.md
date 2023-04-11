@@ -26,7 +26,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
 
 
@@ -63,8 +63,8 @@ OK
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 14,
-    "Name": "Morissette Inc and Sons",
-    "Tooltip": "assumenda",
-    "Rank": 525,
-    "Rate": 11147.637999999999,
-    "Units": 19493.48,
+    "CurrencyId": 776,
+    "Name": "Feil-Lesch",
+    "Tooltip": "voluptates",
+    "Rank": 290,
+    "Rate": 15068.271999999999,
+    "Units": 27826.786,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldLength": 998
       }
     }
   }

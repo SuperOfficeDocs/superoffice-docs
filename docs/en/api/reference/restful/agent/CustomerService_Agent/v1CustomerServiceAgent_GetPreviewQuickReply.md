@@ -66,8 +66,8 @@ OK
 | UpdatedByFullName | string | Full name of associate last updating this quick reply |
 | Updated | date-time | Date/time this quick reply was last updated. |
 | HtmlBody | string | Quick reply body in HTML format. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 756
+  "QuickReplyId": 765
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wyman, Gislason and Feil",
-  "UpdatedByFullName": "Daren Ullrich IV",
-  "Updated": "2006-05-28T12:15:18.647756+02:00",
-  "HtmlBody": "voluptatum",
+  "Name": "Howe-O'Hara",
+  "UpdatedByFullName": "Luther Koch",
+  "Updated": "1998-11-28T15:29:21.2727835+01:00",
+  "HtmlBody": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 34
     }
   }
 }

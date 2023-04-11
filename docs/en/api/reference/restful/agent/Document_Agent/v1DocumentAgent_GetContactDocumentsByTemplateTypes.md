@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 750,
-  "StartTime": "2015-01-15T12:15:18.706755+01:00",
-  "EndTime": "1998-12-06T12:15:18.706755+01:00",
-  "Count": 188,
+  "ContactId": 561,
+  "StartTime": "2021-09-25T15:29:21.4672793+02:00",
+  "EndTime": "1999-02-27T15:29:21.4672793+01:00",
+  "Count": 776,
   "DocumentTemplateIds": [
-    140,
-    178
+    388,
+    949
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 510,
-    "Attention": "optio",
-    "Header": "omnis",
-    "Name": "Rice LLC",
-    "OurRef": "molestias",
-    "YourRef": "doloribus",
-    "Description": "Synergized transitional artificial intelligence",
-    "DocumentTemplate": "impedit",
-    "IsPublished": true,
-    "PersonId": 307,
-    "PersonFullName": "Adrien Hillary Marks II",
-    "AssociateFullName": "Julien Macejkovic",
-    "ContactId": 235,
-    "ContactName": "Heller, Parisian and Christiansen",
-    "ProjectId": 281,
-    "ProjectName": "Cruickshank-Rogahn",
-    "AssociateId": 560,
-    "Snum": 457,
-    "SaleId": 73,
-    "SaleName": "Dare-Beahan",
+    "DocumentId": 155,
+    "Attention": "quia",
+    "Header": "eos",
+    "Name": "DuBuque, Mohr and Russel",
+    "OurRef": "impedit",
+    "YourRef": "sit",
+    "Description": "Virtual executive contingency",
+    "DocumentTemplate": "delectus",
+    "IsPublished": false,
+    "PersonId": 1002,
+    "PersonFullName": "Leopold Bartoletti",
+    "AssociateFullName": "Mr. Caesar Francisco Little",
+    "ContactId": 718,
+    "ContactName": "Kovacek-Schiller",
+    "ProjectId": 292,
+    "ProjectName": "Koss-Rodriguez",
+    "AssociateId": 443,
+    "Snum": 71,
+    "SaleId": 256,
+    "SaleName": "Greenholt Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 373
       }
     }
   }

@@ -95,8 +95,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 983
+  "ChatSessionId": 729
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 76,
-  "TopicId": 923,
+  "ChatSessionId": 439,
+  "TopicId": 57,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "et",
-  "CustomerName": "Mills, Kutch and Goodwin",
-  "CustomerEmail": "dillon@hettingeraufderhar.name",
-  "CustomerPhone": "994.946.8412 x54195",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "McLaughlin, Emmerich and Feil",
+  "CustomerAlias": "dolorem",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Anderson Group",
+  "CustomerEmail": "rossie@goodwin.co.uk",
+  "CustomerPhone": "(578)090-3188",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Wolff-O'Keefe",
   "Status": "Closed",
-  "FirstMessage": "voluptatum",
-  "LastMessage": "placeat",
-  "WhenRequested": "2015-04-06T12:15:18.3747614+02:00",
-  "WhenStarted": "2011-09-05T12:15:18.3747614+02:00",
-  "WhenEnded": "2016-09-20T12:15:18.3747614+02:00",
-  "WhenIdle": "2008-02-11T12:15:18.3747614+01:00",
-  "WhenFetched": "2015-03-12T12:15:18.3747614+01:00",
-  "SessionKey": "dignissimos",
-  "InitialQueuePos": 845,
-  "AlertLevel": 714,
-  "Rank": 496,
+  "FirstMessage": "doloribus",
+  "LastMessage": "autem",
+  "WhenRequested": "2005-10-17T15:29:20.9927872+02:00",
+  "WhenStarted": "2011-12-21T15:29:20.9927872+01:00",
+  "WhenEnded": "2008-05-08T15:29:20.9927872+02:00",
+  "WhenIdle": "2013-12-13T15:29:20.9927872+01:00",
+  "WhenFetched": "2010-06-06T15:29:20.9927872+02:00",
+  "SessionKey": "ipsa",
+  "InitialQueuePos": 965,
+  "AlertLevel": 472,
+  "Rank": 859,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 328,
+  "ChatbotIsActive": false,
+  "Rating": 309,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

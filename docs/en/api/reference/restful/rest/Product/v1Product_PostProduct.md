@@ -131,8 +131,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -140,55 +140,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 366,
-  "ERPProductKey": "blanditiis",
-  "ERPPriceListKey": "labore",
-  "Name": "Walker Inc and Sons",
-  "Description": "Upgradable eco-centric projection",
-  "Code": "perferendis",
-  "PriceUnit": "rerum",
-  "QuantityUnit": "eligendi",
+  "ProductId": 932,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "natus",
+  "Name": "Spinka Inc and Sons",
+  "Description": "Ameliorated optimizing synergy",
+  "Code": "cumque",
+  "PriceUnit": "ut",
+  "QuantityUnit": "nulla",
   "IsSubscription": false,
-  "SubscriptionUnit": "facilis",
-  "DefaultSubscriptionQuantity": 8173.472,
-  "ItemNumber": "1165740",
+  "SubscriptionUnit": "libero",
+  "DefaultSubscriptionQuantity": 17349.824,
+  "ItemNumber": "505188",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "rerum",
-  "VAT": 20418.01,
-  "VATInfo": "in",
-  "UnitCost": 3870.49,
-  "UnitMinimumPrice": 19405.728,
-  "UnitListPrice": 28384.638,
+  "ProductFamilyKey": "maiores",
+  "ProductTypeKey": "aut",
+  "VAT": 10019.398,
+  "VATInfo": "aut",
+  "UnitCost": 23389.041999999998,
+  "UnitMinimumPrice": 21198.376,
+  "UnitListPrice": 8831.612,
   "InAssortment": false,
-  "Supplier": "voluptatem",
-  "SupplierCode": "voluptas",
-  "Rights": "sapiente",
-  "Rule": "autem",
+  "Supplier": "aliquid",
+  "SupplierCode": "mollitia",
+  "Rights": "aut",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Roberts-Fisher",
-      "Value": "rerum",
+      "Name": "Hilll-Ledner",
+      "Value": "totam",
       "Type": "Image"
     },
     {
-      "Name": "Roberts-Fisher",
-      "Value": "rerum",
+      "Name": "Hilll-Ledner",
+      "Value": "totam",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "labore",
-  "ExtraField1": "id",
-  "ExtraField2": "quisquam",
-  "ExtraField3": "sequi",
-  "ExtraField4": "accusamus",
-  "ExtraField5": "et",
-  "InStock": 10765.289999999999
+  "RawExtraInfo": "pariatur",
+  "ExtraField1": "sed",
+  "ExtraField2": "quis",
+  "ExtraField3": "totam",
+  "ExtraField4": "deleniti",
+  "ExtraField5": "unde",
+  "InStock": 8944.436
 }
 ```
 
@@ -199,73 +199,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 577,
-  "ERPProductKey": "vitae",
-  "ERPPriceListKey": "quia",
-  "Name": "Hauck LLC",
-  "Description": "Persevering modular application",
-  "Code": "id",
-  "PriceUnit": "est",
-  "QuantityUnit": "id",
+  "ProductId": 827,
+  "ERPProductKey": "dolor",
+  "ERPPriceListKey": "quos",
+  "Name": "Franecki, Witting and Stanton",
+  "Description": "Object-based modular collaboration",
+  "Code": "eos",
+  "PriceUnit": "possimus",
+  "QuantityUnit": "unde",
   "IsSubscription": false,
   "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 26993.142,
-  "ItemNumber": "1651562",
+  "DefaultSubscriptionQuantity": 18957.566,
+  "ItemNumber": "765007",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequuntur",
-  "ProductTypeKey": "et",
-  "VAT": 5628.664,
-  "VATInfo": "explicabo",
-  "UnitCost": 22439.44,
-  "UnitMinimumPrice": 24974.845999999998,
-  "UnitListPrice": 3754.5319999999997,
+  "ProductFamilyKey": "ducimus",
+  "ProductTypeKey": "inventore",
+  "VAT": 24134.933999999997,
+  "VATInfo": "aperiam",
+  "UnitCost": 17086.568,
+  "UnitMinimumPrice": 22489.584,
+  "UnitListPrice": 20458.752,
   "InAssortment": true,
-  "Supplier": "occaecati",
-  "SupplierCode": "consequuntur",
-  "Rights": "et",
-  "Rule": "minus",
+  "Supplier": "eveniet",
+  "SupplierCode": "nihil",
+  "Rights": "est",
+  "Rule": "consequatur",
   "ExtraInfo": [
     {
-      "Name": "Barton LLC",
-      "Value": "eius",
+      "Name": "Tromp, Swaniawski and Boyle",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldType": "System.String",
+          "FieldLength": 903
         }
       }
     },
     {
-      "Name": "Barton LLC",
-      "Value": "eius",
+      "Name": "Tromp, Swaniawski and Boyle",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldType": "System.String",
+          "FieldLength": 903
         }
       }
     }
   ],
   "RawExtraInfo": "qui",
-  "ExtraField1": "impedit",
-  "ExtraField2": "a",
-  "ExtraField3": "ut",
-  "ExtraField4": "quis",
-  "ExtraField5": "perspiciatis",
-  "InStock": 31318.061999999998,
+  "ExtraField1": "aut",
+  "ExtraField2": "unde",
+  "ExtraField3": "quis",
+  "ExtraField4": "dolorum",
+  "ExtraField5": "dolor",
+  "InStock": 21361.344,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 86
     }
   }
 }

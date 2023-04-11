@@ -79,8 +79,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,32 +99,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 943,
-    "Attention": "quisquam",
-    "Header": "reprehenderit",
-    "Name": "Wisozk, Thiel and Wintheiser",
-    "OurRef": "architecto",
-    "YourRef": "cum",
-    "Description": "Automated eco-centric intranet",
-    "DocumentTemplate": "qui",
+    "DocumentId": 374,
+    "Attention": "debitis",
+    "Header": "asperiores",
+    "Name": "Lubowitz, Kemmer and Goldner",
+    "OurRef": "consectetur",
+    "YourRef": "aut",
+    "Description": "Networked clear-thinking knowledge user",
+    "DocumentTemplate": "quibusdam",
     "IsPublished": true,
-    "PersonId": 21,
-    "PersonFullName": "Miss Thomas Legros II",
-    "AssociateFullName": "Billie Strosin",
-    "ContactId": 933,
-    "ContactName": "Baumbach, Hessel and Monahan",
-    "ProjectId": 649,
-    "ProjectName": "Hansen-Goodwin",
-    "AssociateId": 357,
-    "Snum": 982,
-    "SaleId": 135,
-    "SaleName": "Witting, Friesen and Predovic",
+    "PersonId": 237,
+    "PersonFullName": "Davin Wisozk",
+    "AssociateFullName": "Danika King",
+    "ContactId": 690,
+    "ContactName": "Bergnaum, Kunde and Little",
+    "ProjectId": 662,
+    "ProjectName": "Hills-Kuhic",
+    "AssociateId": 168,
+    "Snum": 947,
+    "SaleId": 702,
+    "SaleName": "Hand Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 453
+        "FieldLength": 298
       }
     }
   }

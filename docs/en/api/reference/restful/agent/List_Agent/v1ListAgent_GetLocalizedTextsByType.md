@@ -68,8 +68,8 @@ OK
 | Type | string | The type of the text string, e.g. Field label, Udef label, etc. |
 | LocalizedTextId | int32 | Primary key |
 | IsBuiltIn | bool | 1 = this row is populated and maintained by SuperOffice |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "dolores",
-    "veritatis"
+    "aut",
+    "vero"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 933,
-    "ResourceId": 621,
-    "Text": "dolor",
+    "LanguageId": 596,
+    "ResourceId": 383,
+    "Text": "minus",
     "Type": "Column",
-    "LocalizedTextId": 523,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 492,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 474
+        "FieldType": "System.Int32",
+        "FieldLength": 749
       }
     }
   }

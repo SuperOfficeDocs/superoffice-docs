@@ -108,8 +108,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -117,7 +117,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,21 +127,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 398,
-  "Title": "mollitia",
-  "CreatedAt": "1998-02-19T12:15:20.3827306+01:00",
-  "LastChanged": "2011-04-21T12:15:20.3827306+02:00",
-  "ReadByOwner": "2000-03-11T12:15:20.3827306+01:00",
-  "ReadByCustomer": "2013-02-04T12:15:20.3827306+01:00",
-  "FirstReadByOwner": "2010-02-26T12:15:20.3827306+01:00",
-  "FirstReadByUser": "2013-12-28T12:15:20.3827306+01:00",
-  "Activate": "2015-07-19T12:15:20.3827306+02:00",
-  "ClosedAt": "2006-11-29T12:15:20.3827306+01:00",
-  "RepliedAt": "2019-08-19T12:15:20.3827306+02:00",
-  "AlertTimeout": "2011-03-10T12:15:20.3827306+01:00",
-  "Deadline": "2016-06-10T12:15:20.3827306+02:00",
+  "TicketId": 179,
+  "Title": "inventore",
+  "CreatedAt": "2003-11-20T15:29:23.1567903+01:00",
+  "LastChanged": "2003-09-19T15:29:23.1567903+02:00",
+  "ReadByOwner": "2000-07-12T15:29:23.1567903+02:00",
+  "ReadByCustomer": "2020-03-19T15:29:23.1567903+01:00",
+  "FirstReadByOwner": "2002-06-14T15:29:23.1567903+02:00",
+  "FirstReadByUser": "2002-04-17T15:29:23.1567903+02:00",
+  "Activate": "2005-06-05T15:29:23.1567903+02:00",
+  "ClosedAt": "1999-01-03T15:29:23.1567903+01:00",
+  "RepliedAt": "2004-04-26T15:29:23.1567903+02:00",
+  "AlertTimeout": "2010-06-02T15:29:23.1567903+02:00",
+  "Deadline": "2013-11-13T15:29:23.1567903+01:00",
   "CreatedBy": null,
-  "Author": "expedita",
+  "Author": "vero",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -152,157 +152,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "beatae",
-      "PersonId": 903,
-      "Mrmrs": "non",
-      "Firstname": "Cyrus",
-      "Lastname": "Ankunding",
-      "MiddleName": "Williamson-Fisher",
-      "Title": "sed",
-      "Description": "Enterprise-wide modular capability",
-      "Email": "audreanne_murphy@windler.ca",
-      "FullName": "Ms. Dino Bins I",
-      "DirectPhone": "649.359.2848 x4392",
-      "FormalName": "Heidenreich, Paucek and Reichert",
-      "CountryId": 972,
-      "ContactId": 630,
-      "ContactName": "Balistreri-Keebler",
-      "Retired": 75,
-      "Rank": 618,
-      "ActiveInterests": 30,
+      "Position": "dolorum",
+      "PersonId": 226,
+      "Mrmrs": "voluptatem",
+      "Firstname": "Milford",
+      "Lastname": "Jacobi",
+      "MiddleName": "Kertzmann, Kilback and McGlynn",
+      "Title": "tempore",
+      "Description": "Reactive zero defect system engine",
+      "Email": "ashlynn_larkin@ferryankunding.co.uk",
+      "FullName": "Mrs. Shirley Mayert V",
+      "DirectPhone": "320-280-0153 x3604",
+      "FormalName": "Rohan, Jast and Robel",
+      "CountryId": 903,
+      "ContactId": 522,
+      "ContactName": "Bode Inc and Sons",
+      "Retired": 107,
+      "Rank": 668,
+      "ActiveInterests": 833,
       "ContactDepartment": "",
-      "ContactCountryId": 375,
-      "ContactOrgNr": "1699151",
-      "FaxPhone": "1-273-788-2437",
-      "MobilePhone": "(736)289-7324 x666",
-      "ContactPhone": "1-712-764-6918 x50219",
-      "AssociateName": "Kunze, Barrows and Jewess",
-      "AssociateId": 30,
+      "ContactCountryId": 367,
+      "ContactOrgNr": "498780",
+      "FaxPhone": "(248)513-1814 x44317",
+      "MobilePhone": "1-015-104-8325 x79229",
+      "ContactPhone": "(027)414-3080",
+      "AssociateName": "Hauck, Crist and Paucek",
+      "AssociateId": 983,
       "UsePersonAddress": false,
-      "ContactFax": "aut",
-      "Kanafname": "reprehenderit",
-      "Kanalname": "cum",
-      "Post1": "rem",
-      "Post2": "aut",
-      "Post3": "illum",
-      "EmailName": "georgette@borerwalker.info",
-      "ContactFullName": "Mrs. Fanny Jeanette Hermann Sr.",
-      "ActiveErpLinks": 196,
-      "TicketPriorityId": 685,
-      "SupportLanguageId": 992,
-      "SupportAssociateId": 678,
+      "ContactFax": "aliquid",
+      "Kanafname": "non",
+      "Kanalname": "sunt",
+      "Post1": "voluptas",
+      "Post2": "quibusdam",
+      "Post3": "aliquam",
+      "EmailName": "rosa.hansen@cremin.name",
+      "ContactFullName": "Jose Cronin",
+      "ActiveErpLinks": 922,
+      "TicketPriorityId": 434,
+      "SupportLanguageId": 338,
+      "SupportAssociateId": 254,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 247
         }
       }
     }
   ],
-  "AlertLevel": 265,
-  "ConnectId": 260,
+  "AlertLevel": 4,
+  "ConnectId": 369,
   "ReadStatus": "Green",
-  "TimeToReply": 277,
-  "RealTimeToReply": 394,
-  "TimeToClose": 243,
-  "RealTimeToClose": 150,
-  "TimeSpentInternally": 347,
-  "TimeSpentExternally": 143,
-  "TimeSpentQueue": 785,
-  "RealTimeSpentInternally": 553,
-  "RealTimeSpentExternally": 212,
-  "RealTimeSpentQueue": 499,
-  "HasAttachment": true,
-  "NumReplies": 729,
-  "NumMessages": 761,
-  "FromAddress": "vero",
+  "TimeToReply": 414,
+  "RealTimeToReply": 512,
+  "TimeToClose": 657,
+  "RealTimeToClose": 948,
+  "TimeSpentInternally": 496,
+  "TimeSpentExternally": 460,
+  "TimeSpentQueue": 750,
+  "RealTimeSpentInternally": 514,
+  "RealTimeSpentExternally": 309,
+  "RealTimeSpentQueue": 511,
+  "HasAttachment": false,
+  "NumReplies": 687,
+  "NumMessages": 965,
+  "FromAddress": "dolores",
   "Messages": [
     {
-      "TicketMessageId": 969,
-      "CreatedAt": "2001-04-13T12:15:20.3877336+02:00",
+      "TicketMessageId": 277,
+      "CreatedAt": "1998-10-23T15:29:23.1607894+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "repellendus",
-      "PersonId": 312,
-      "PersonFullName": "Elyse Ebert",
-      "ContactId": 16,
-      "ContactName": "Willms, Dach and Gleason",
+      "Important": false,
+      "Author": "sint",
+      "PersonId": 866,
+      "PersonFullName": "Ari Douglas",
+      "ContactId": 218,
+      "ContactName": "Howell LLC",
       "ContactDepartment": "",
-      "NumAttachments": 686,
-      "EmailHeader": "maegan@jewess.com",
+      "NumAttachments": 488,
+      "EmailHeader": "oren.konopelski@hammes.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "enim",
-      "Sentiment": 539,
-      "SentimentConfidence": 842,
-      "CreatedBy": 598,
-      "ChangedAt": "2016-05-30T12:15:20.3877336+02:00",
+      "Language": "fugiat",
+      "Sentiment": 782,
+      "SentimentConfidence": 981,
+      "CreatedBy": 450,
+      "ChangedAt": "2007-05-18T15:29:23.1612892+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldType": "System.String",
+          "FieldLength": 369
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 672,
-      "Name": "Waelchi LLC",
-      "ToolTip": "Quidem rerum earum ipsum cumque.",
+      "Id": 97,
+      "Name": "Douglas Inc and Sons",
+      "ToolTip": "Rem cumque molestiae eum ipsam fugit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 350
         }
       }
     },
     {
-      "Id": 672,
-      "Name": "Waelchi LLC",
-      "ToolTip": "Quidem rerum earum ipsum cumque.",
+      "Id": 97,
+      "Name": "Douglas Inc and Sons",
+      "ToolTip": "Rem cumque molestiae eum ipsam fugit.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 350
         }
       }
     }
   ],
-  "Language": "sit",
-  "Sentiment": 456,
-  "SentimentConfidence": 309,
-  "SuggestedCategoryId": 872,
+  "Language": "et",
+  "Sentiment": 949,
+  "SentimentConfidence": 914,
+  "SuggestedCategoryId": 482,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 531,
-  "IconHint": "omnis",
+  "OrigHumanCategoryId": 194,
+  "IconHint": "quia",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "vero",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 247
     }
   }
 }

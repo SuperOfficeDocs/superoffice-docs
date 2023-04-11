@@ -82,8 +82,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "McClure, Orn and Grimes",
-    "ToolTip": "Assumenda perspiciatis atque rerum sed.",
+    "Id": 273,
+    "Name": "Schaden, Spinka and Feeney",
+    "ToolTip": "Deserunt fugit.",
     "Deleted": false,
-    "Rank": 922,
-    "Type": "id",
-    "ColorBlock": 870,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2011-07-25T12:15:20.565731+02:00",
+    "Rank": 303,
+    "Type": "aut",
+    "ColorBlock": 101,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2021-12-21T15:29:23.3377541+01:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Von LLC",
-        "ToolTip": "Velit qui voluptatem ut laborum voluptatem.",
+        "Id": 984,
+        "Name": "Ledner Group",
+        "ToolTip": "Hic iste a quia.",
         "Deleted": true,
-        "Rank": 347,
-        "Type": "nostrum",
-        "ColorBlock": 203,
-        "IconHint": "et",
+        "Rank": 117,
+        "Type": "unde",
+        "ColorBlock": 564,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "1999-06-27T12:15:20.565731+02:00",
+        "LastChanged": "2003-06-14T15:29:23.3377541+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Mr. Reese Roslyn Smith II",
+        "ExtraInfo": "veniam",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Ruthie Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 969
+            "FieldType": "System.String",
+            "FieldLength": 375
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "tenetur",
+    "ExtraInfo": "eum",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Josefa Welch",
+    "FullName": "Marilyne Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 414
       }
     }
   }

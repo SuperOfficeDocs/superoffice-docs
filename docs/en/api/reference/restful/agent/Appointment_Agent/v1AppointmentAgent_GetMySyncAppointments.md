@@ -91,8 +91,8 @@ OK
 | SaleName | string | Sale heading (short description?) |
 | StartDate | date-time | date + start time planned |
 | TaskName | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2017-02-24T12:15:17.6827699+01:00",
-  "EndTime": "1996-07-14T12:15:17.6827699+02:00"
+  "StartTime": "2011-07-30T15:29:20.4293304+02:00",
+  "EndTime": "2016-04-27T15:29:20.4293304+02:00"
 }
 ```
 
@@ -117,72 +117,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2011-01-06T12:15:17.6867735+01:00",
-    "AppointmentId": 542,
-    "AppointmentText": "corrupti",
+    "AlarmTime": "2009-03-08T15:29:20.4328308+01:00",
+    "AppointmentId": 565,
+    "AppointmentText": "quis",
     "ContactDepartment": "",
-    "ContactFullName": "Solon Hoeger",
-    "ContactName": "Ritchie-Cronin",
-    "ContactId": 63,
-    "EndDate": "2016-09-23T12:15:17.6867735+02:00",
+    "ContactFullName": "Sydni Swaniawski",
+    "ContactName": "Parisian Group",
+    "ContactId": 362,
+    "EndDate": "2022-09-02T15:29:20.4333321+02:00",
     "HasAlarm": false,
     "IsAllDay": false,
-    "IsAssignment": true,
+    "IsAssignment": false,
     "IsBusy": false,
-    "IsCompleted": true,
-    "IsInvitation": true,
-    "IsTentative": true,
-    "Location": "molestiae",
+    "IsCompleted": false,
+    "IsInvitation": false,
+    "IsTentative": false,
+    "Location": "minus",
     "Participants": [
       {
-        "PersonId": 154,
-        "PersonFirstName": "Ankunding LLC",
-        "PersonMiddleName": "Bahringer-Nader",
-        "PersonLastname": "Hermann",
-        "PersonMrmrs": "neque",
-        "PersonTitle": "explicabo",
-        "PersonPosition": "maxime",
-        "PersonAcademicTitle": "autem",
-        "PersonFormalName": "Lakin, Halvorson and Mraz",
-        "PersonFullName": "Mrs. Zachery Marquardt",
-        "ContactId": 689,
-        "ContactName": "Ritchie Group",
-        "ContactDepartment": "",
+        "PersonId": 133,
+        "PersonFirstName": "Greenfelder-Boyer",
+        "PersonMiddleName": "Marquardt LLC",
+        "PersonLastname": "Sanford",
+        "PersonMrmrs": "quibusdam",
+        "PersonTitle": "voluptatibus",
+        "PersonPosition": "et",
+        "PersonAcademicTitle": "est",
+        "PersonFormalName": "Goodwin-Boyer",
+        "PersonFullName": "Kasandra Powlowski Jr.",
+        "ContactId": 302,
+        "ContactName": "Bernier Group",
+        "ContactDepartment": "target leading-edge technologies",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Rosie Thaddeus Kunze Sr.",
+        "ContactFullName": "Mariam Windler",
         "EMail": [
-          "tempora",
-          "iure"
+          "qui",
+          "ut"
         ],
         "PhonePrivate": [
-          "205-205-8279",
-          "1-012-386-5234 x011"
+          "1-317-532-3907",
+          "136-457-0060 x58564"
         ],
         "PhoneFax": [
-          "167.616.6437 x45389",
-          "(829)623-7400 x2495"
+          "356.333.0107 x43199",
+          "406.467.4009 x1515"
         ],
         "PhoneMobile": [
-          "210-678-8704 x720",
-          "658.044.7204"
+          "909-704-7843 x6386",
+          "(917)947-9320"
         ],
         "PhoneDirect": [
-          "1-957-825-7213",
-          "(533)691-4912 x677"
+          "157-510-0471",
+          "(731)086-3352 x488"
         ],
         "PhoneContact": [
-          "138-945-7799 x24585",
-          "161.620.0425 x14054"
+          "973-806-6621",
+          "136-724-9565 x95370"
         ],
         "Messenger": [
-          "voluptatibus",
-          "voluptatibus"
+          "quia",
+          "consequuntur"
         ],
         "Voip": [
-          "quis",
-          "assumenda"
+          "numquam",
+          "rerum"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -202,27 +202,27 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldType": "System.String",
+            "FieldLength": 737
           }
         }
       }
     ],
-    "PersonFormalName": "Berge, Dach and Ratke",
-    "PersonFullName": "Lexi Hamill",
-    "PersonId": 886,
-    "ProjectId": 583,
-    "ProjectName": "Morar-Nikolaus",
-    "SaleId": 327,
-    "SaleName": "Crist, Goodwin and Stanton",
-    "StartDate": "1998-06-19T12:15:17.6877704+02:00",
-    "TaskName": "Conn, Gleason and Krajcik",
+    "PersonFormalName": "Spencer-Sanford",
+    "PersonFullName": "Miss Lily Zulauf I",
+    "PersonId": 473,
+    "ProjectId": 160,
+    "ProjectName": "Satterfield-Nikolaus",
+    "SaleId": 34,
+    "SaleName": "D'Amore Inc and Sons",
+    "StartDate": "2005-01-11T15:29:20.4343302+01:00",
+    "TaskName": "Cruickshank, Schimmel and Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldLength": 440
       }
     }
   }

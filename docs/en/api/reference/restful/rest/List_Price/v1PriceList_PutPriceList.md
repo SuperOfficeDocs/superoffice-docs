@@ -86,8 +86,8 @@ PriceList updated.
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -100,15 +100,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 657,
-  "ERPPriceListKey": "placeat",
-  "QuoteConnectionId": 652,
-  "Name": "Lockman LLC",
-  "Description": "Optimized homogeneous framework",
-  "Currency": "et",
-  "CurrencyName": "Douglas Inc and Sons",
-  "ValidFrom": "2014-12-05T12:15:28.2556197+01:00",
-  "ValidTo": "2016-08-28T12:15:28.2556197+02:00",
+  "PriceListId": 922,
+  "ERPPriceListKey": "illum",
+  "QuoteConnectionId": 187,
+  "Name": "Hintz Group",
+  "Description": "Public-key neutral portal",
+  "Currency": "est",
+  "CurrencyName": "Bruen, Trantow and Daniel",
+  "ValidFrom": "1997-01-01T15:29:31.3694769+01:00",
+  "ValidTo": "2002-09-15T15:29:31.3694769+02:00",
   "IsActive": false
 }
 ```
@@ -120,27 +120,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 362,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 590,
-  "Name": "Mraz-Monahan",
-  "Description": "Team-oriented multi-state internet solution",
-  "Currency": "enim",
-  "CurrencyName": "Kub, Kautzer and Ondricka",
-  "ValidFrom": "2009-04-29T12:15:28.2556197+02:00",
-  "ValidTo": "2006-11-15T12:15:28.2556197+01:00",
+  "PriceListId": 27,
+  "ERPPriceListKey": "voluptate",
+  "QuoteConnectionId": 512,
+  "Name": "Koelpin, Howe and Stoltenberg",
+  "Description": "Cross-group impactful system engine",
+  "Currency": "in",
+  "CurrencyName": "Orn-Quigley",
+  "ValidFrom": "1995-12-07T15:29:31.3709856+01:00",
+  "ValidTo": "2014-09-15T15:29:31.3709856+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 942
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -71,8 +71,8 @@ OK
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,34 +91,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 862,
-    "ERPName": "Abshire Inc and Sons",
-    "DisplayName": "O'Conner, Sipes and Ferry",
-    "DisplayDescription": "Enterprise-wide intangible interface",
-    "Rank": 752,
-    "ConnectorName": "Weissnat-Purdy",
-    "ErpConnectionId": 483,
-    "ExtraData": "iure",
-    "IsAvailable": true,
+    "QuoteConnectionId": 45,
+    "ERPName": "Jakubowski-Bartell",
+    "DisplayName": "Gibson LLC",
+    "DisplayDescription": "Profit-focused assymetric extranet",
+    "Rank": 632,
+    "ConnectorName": "Bins-Christiansen",
+    "ErpConnectionId": 697,
+    "ExtraData": "animi",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 797,
-        "ERPPriceListKey": "omnis",
-        "QuoteConnectionId": 445,
-        "Name": "Weissnat, Leannon and Kerluke",
-        "Description": "Right-sized fault-tolerant implementation",
-        "Currency": "aut",
-        "CurrencyName": "McCullough Inc and Sons",
-        "ValidFrom": "2003-06-05T12:15:19.9407375+02:00",
-        "ValidTo": "1997-01-04T12:15:19.9407375+01:00",
-        "IsActive": false,
+        "PriceListId": 358,
+        "ERPPriceListKey": "aut",
+        "QuoteConnectionId": 709,
+        "Name": "Bartoletti, Schowalter and Will",
+        "Description": "Persistent regional secured line",
+        "Currency": "minima",
+        "CurrencyName": "Gleichner-Oberbrunner",
+        "ValidFrom": "2018-10-21T15:29:22.5667649+02:00",
+        "ValidTo": "2009-09-15T15:29:22.5667649+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 377
+            "FieldLength": 777
           }
         }
       }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      241,
-      665
+      306,
+      579
     ],
     "AssociateAccessIds": [
-      507,
-      486
+      927,
+      262
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldType": "System.Int32",
+        "FieldLength": 90
       }
     }
   }

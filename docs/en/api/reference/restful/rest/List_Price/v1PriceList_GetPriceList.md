@@ -71,8 +71,8 @@ PriceList found.
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -81,7 +81,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 978,
-  "ERPPriceListKey": "nesciunt",
-  "QuoteConnectionId": 287,
-  "Name": "Lubowitz LLC",
-  "Description": "Customer-focused secondary hub",
-  "Currency": "necessitatibus",
-  "CurrencyName": "Senger-Mertz",
-  "ValidFrom": "1999-02-20T12:15:28.2546171+01:00",
-  "ValidTo": "2018-05-03T12:15:28.2546171+02:00",
+  "PriceListId": 730,
+  "ERPPriceListKey": "est",
+  "QuoteConnectionId": 883,
+  "Name": "Rau, Jerde and Borer",
+  "Description": "Pre-emptive fresh-thinking budgetary management",
+  "Currency": "voluptas",
+  "CurrencyName": "Barton, VonRueden and Weimann",
+  "ValidFrom": "2017-01-28T15:29:31.3694769+01:00",
+  "ValidTo": "2010-04-25T15:29:31.3694769+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldType": "System.Int32",
+      "FieldLength": 747
     }
   },
   "_Links": {

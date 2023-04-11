@@ -88,8 +88,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 642,
-  "ColumnId": 67,
-  "FieldDefault": "dolores",
-  "FieldHeight": 528,
-  "FieldLabel": "sunt",
-  "FieldLeft": 611,
-  "FieldTop": 681,
+  "UDefFieldId": 45,
+  "ColumnId": 465,
+  "FieldDefault": "sapiente",
+  "FieldHeight": 752,
+  "FieldLabel": "consequuntur",
+  "FieldLeft": 610,
+  "FieldTop": 776,
   "FieldType": "Checkbox",
-  "FieldWidth": 292,
-  "FormatMask": "blanditiis",
+  "FieldWidth": 497,
+  "FormatMask": "at",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 227,
-  "LabelLeft": 687,
-  "LabelTop": 1002,
-  "LabelWidth": 808,
-  "LastVersionId": 51,
-  "ListTableId": 827,
+  "LabelHeight": 765,
+  "LabelLeft": 365,
+  "LabelTop": 692,
+  "LabelWidth": 233,
+  "LastVersionId": 701,
+  "ListTableId": 373,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 305,
-  "ProgId": "ullam",
-  "IsReadOnly": false,
-  "ShortLabel": "rem",
-  "TabOrder": 311,
-  "TextLength": 647,
-  "Tooltip": "praesentium",
-  "UdefIdentity": 847,
-  "UDListDefinitionId": 927,
+  "Page1LineNo": 556,
+  "ProgId": "dicta",
+  "IsReadOnly": true,
+  "ShortLabel": "facilis",
+  "TabOrder": 624,
+  "TextLength": 637,
+  "Tooltip": "maiores",
+  "UdefIdentity": 189,
+  "UDListDefinitionId": 582,
   "Justification": "Center",
-  "Version": 419,
-  "TemplateVariableName": "Pfannerstill-Considine",
-  "HasBeenPublished": false,
-  "MdoListName": "McGlynn-Deckow",
+  "Version": 561,
+  "TemplateVariableName": "Zboncak LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Kuvalis Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

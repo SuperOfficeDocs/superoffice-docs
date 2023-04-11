@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 441,
-  "StartTime": "2010-09-16T12:15:18.1367704+02:00",
-  "EndTime": "2017-06-05T12:15:18.1367704+02:00",
-  "Count": 999,
+  "ProjectId": 856,
+  "StartTime": "2006-05-03T15:29:20.7552901+02:00",
+  "EndTime": "2009-11-18T15:29:20.7552901+01:00",
+  "Count": 584,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 764,
-    "StartDate": "2013-02-24T12:15:18.1387637+01:00",
-    "EndDate": "1996-01-03T12:15:18.1387637+01:00",
+    "AppointmentId": 737,
+    "StartDate": "1996-03-31T15:29:20.7567904+02:00",
+    "EndDate": "2002-03-11T15:29:20.7567904+01:00",
     "Type": "BookingForChecklist",
-    "Task": "tempora",
-    "AssociateFullName": "Mr. Zelda Corwin",
-    "ContactName": "Koch, Balistreri and Hane",
-    "Description": "Pre-emptive modular Graphic Interface",
-    "PersonFullName": "Ms. Claudine Ward DVM",
-    "PersonId": 554,
-    "ContactId": 279,
-    "ProjectId": 49,
-    "ProjectName": "Hills Group",
+    "Task": "optio",
+    "AssociateFullName": "Prof. Larry Dorian Ziemann",
+    "ContactName": "Murray LLC",
+    "Description": "Switchable optimizing definition",
+    "PersonFullName": "Myriam Darius Hackett V",
+    "PersonId": 340,
+    "ContactId": 392,
+    "ProjectId": 405,
+    "ProjectName": "Armstrong Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 599,
-    "ColorIndex": 620,
+    "AssociateId": 59,
+    "ColorIndex": 37,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 157,
-    "PriorityName": "Turcotte LLC",
+    "PriorityId": 674,
+    "PriorityName": "Fahey, Senger and Rempel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-12-21T12:15:18.1387637+01:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2011-12-09T15:29:20.7577907+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-04-01T12:15:18.1387637+02:00",
-    "RecurringEndDate": "2009-09-29T12:15:18.1387637+02:00",
-    "MotherId": 661,
-    "AssignedBy": 793,
-    "AssignedByFullName": "Kelsie Lemke PhD",
+    "RecurringStartDate": "1999-06-28T15:29:20.7577907+02:00",
+    "RecurringEndDate": "2017-01-20T15:29:20.7577907+01:00",
+    "MotherId": 439,
+    "AssignedBy": 395,
+    "AssignedByFullName": "Brice Weimann",
     "RejectReason": "",
-    "Location": "quod",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 193,
-    "SaleName": "Beer-Hyatt",
-    "AssociateName": "Runolfsson, Auer and Kunde",
-    "CreatedDate": "1999-09-02T12:15:18.1387637+02:00",
-    "CreatedBy": "at",
-    "CreatedByFullName": "Juwan Sawayn Sr.",
-    "CreatedByAssociateId": 80,
+    "Location": "vero",
+    "AlarmLeadTime": "consectetur",
+    "SaleId": 821,
+    "SaleName": "Schulist, Bergstrom and Parker",
+    "AssociateName": "Batz, Schulist and Cremin",
+    "CreatedDate": "2012-11-23T15:29:20.7577907+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Alyson Anderson",
+    "CreatedByAssociateId": 452,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 844
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

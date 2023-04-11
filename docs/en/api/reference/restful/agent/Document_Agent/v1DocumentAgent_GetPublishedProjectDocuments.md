@@ -82,8 +82,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 129
+  "ProjectId": 651
 }
 ```
 
@@ -107,32 +107,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 816,
-    "Attention": "aut",
-    "Header": "incidunt",
-    "Name": "Mayer-Tremblay",
-    "OurRef": "adipisci",
-    "YourRef": "qui",
-    "Description": "Programmable web-enabled synergy",
-    "DocumentTemplate": "hic",
+    "DocumentId": 53,
+    "Attention": "velit",
+    "Header": "libero",
+    "Name": "Dickens LLC",
+    "OurRef": "dolor",
+    "YourRef": "impedit",
+    "Description": "Virtual mission-critical throughput",
+    "DocumentTemplate": "placeat",
     "IsPublished": false,
-    "PersonId": 713,
-    "PersonFullName": "Deon Cleveland Christiansen Jr.",
-    "AssociateFullName": "Joanne Feeney",
-    "ContactId": 222,
-    "ContactName": "Bergnaum, Champlin and Lind",
-    "ProjectId": 216,
-    "ProjectName": "Lind-Rodriguez",
-    "AssociateId": 714,
-    "Snum": 792,
-    "SaleId": 819,
-    "SaleName": "Schultz LLC",
+    "PersonId": 993,
+    "PersonFullName": "Jarvis Hyatt",
+    "AssociateFullName": "Regan Hessel",
+    "ContactId": 934,
+    "ContactName": "Gislason-Halvorson",
+    "ProjectId": 289,
+    "ProjectName": "Kohler, Pollich and Hayes",
+    "AssociateId": 335,
+    "Snum": 286,
+    "SaleId": 645,
+    "SaleName": "Metz, Stiedemann and DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 56
+        "FieldLength": 317
       }
     }
   }

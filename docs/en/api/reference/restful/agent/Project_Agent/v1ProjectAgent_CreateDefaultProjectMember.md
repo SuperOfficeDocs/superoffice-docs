@@ -67,8 +67,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 18,
-  "ContactId": 805,
-  "ProjectId": 159,
-  "ContactName": "Oberbrunner LLC",
+  "ProjectmemberId": 304,
+  "ContactId": 595,
+  "ProjectId": 873,
+  "ContactName": "Grady-Upton",
   "ContactDepartment": "",
-  "ProjectName": "Hammes, Koepp and Haley",
-  "EmailId": 604,
-  "EmailAddress": "timmothy@corwin.ca",
-  "CountryId": 933,
-  "Firstname": "Alexander",
-  "MiddleName": "Balistreri, Borer and Kertzmann",
-  "Lastname": "Von",
-  "PersonId": 495,
-  "Mrmrs": "saepe",
-  "ProjectMemberTypeName": "Emmerich LLC",
-  "Phone": "(400)435-1652 x248",
-  "PhoneId": 490,
-  "ProjectMemberTypeId": 728,
-  "EmailAddressName": "ava@mosciski.co.uk",
+  "ProjectName": "Labadie, Conroy and Lebsack",
+  "EmailId": 570,
+  "EmailAddress": "alexis@bechtelargrady.com",
+  "CountryId": 180,
+  "Firstname": "Brooke",
+  "MiddleName": "Lebsack-Quitzon",
+  "Lastname": "Rogahn",
+  "PersonId": 366,
+  "Mrmrs": "sed",
+  "ProjectMemberTypeName": "Murray Inc and Sons",
+  "Phone": "1-486-459-6330",
+  "PhoneId": 810,
+  "ProjectMemberTypeId": 729,
+  "EmailAddressName": "winston.hartmann@swaniawski.com",
   "Comment": "qui",
-  "FullName": "Miss Mason Lesch DDS",
+  "FullName": "Mrs. Vada Lesley Graham",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 962
     }
   }
 }

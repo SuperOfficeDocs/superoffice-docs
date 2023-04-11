@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Pagac-Wiza",
-  "RecordId": 126,
-  "AssociateId": 728
+  "TableName": "Huel-Hayes",
+  "RecordId": 435,
+  "AssociateId": 362
 }
 ```
 

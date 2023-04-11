@@ -92,8 +92,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "hic",
-  "PluginId": 905
+  "LanguageCode": "est",
+  "PluginId": 100
 }
 ```
 
@@ -119,37 +119,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 123,
-  "Name": "Sawayn, Zieme and Bogisich",
-  "Tooltip": "et",
-  "SaveInDb": 767,
-  "Filename": "quibusdam",
-  "DefaultOref": "aperiam",
+  "DocumentTemplateId": 337,
+  "Name": "Howe-Zieme",
+  "Tooltip": "sit",
+  "SaveInDb": 887,
+  "Filename": "quasi",
+  "DefaultOref": "sed",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 92,
-  "IntentId": 336,
+  "AutoeventId": 353,
+  "IntentId": 883,
   "IsDefaultPublished": false,
-  "Rank": 463,
-  "LoadTemplateFromPlugin": 163,
-  "MimeType": "iure",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 629,
+  "Rank": 346,
+  "LoadTemplateFromPlugin": 741,
+  "MimeType": "et",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 756,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "bianka@stokes.name",
+  "EmailSubject": "gisselle@senger.ca",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "christiana.kerluke@hauckkuhic.uk",
+  "SenderEmailAddress": "dulce.stiedemann@buckridge.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 594
     }
   }
 }

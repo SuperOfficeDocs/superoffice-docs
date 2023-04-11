@@ -72,8 +72,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 350,
-    "Name": "Kassulke-Hintz",
-    "Description": "Realigned 6th generation capacity",
+    "ProjectId": 888,
+    "Name": "Jacobson, Paucek and Ebert",
+    "Description": "Reduced object-oriented pricing structure",
     "URL": "http://www.example.com/",
-    "Type": "quia",
-    "AssociateId": 74,
-    "AssociateFullName": "Eugene Morissette",
-    "TypeId": 948,
-    "Updated": "2015-06-07T12:15:19.864739+02:00",
-    "StatusId": 171,
-    "Status": "incidunt",
-    "TextId": 579,
-    "PublishTo": "1998-02-12T12:15:19.864739+01:00",
-    "PublishFrom": "2012-12-30T12:15:19.864739+01:00",
+    "Type": "modi",
+    "AssociateId": 589,
+    "AssociateFullName": "Hayden D'Amore",
+    "TypeId": 980,
+    "Updated": "2015-08-08T15:29:22.489765+02:00",
+    "StatusId": 114,
+    "Status": "voluptatem",
+    "TextId": 64,
+    "PublishTo": "2010-06-15T15:29:22.489765+02:00",
+    "PublishFrom": "2010-04-05T15:29:22.489765+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1638293",
-    "ActiveErpLinks": 241,
+    "ProjectNumber": "1066726",
+    "ActiveErpLinks": 54,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 838
       }
     }
   }

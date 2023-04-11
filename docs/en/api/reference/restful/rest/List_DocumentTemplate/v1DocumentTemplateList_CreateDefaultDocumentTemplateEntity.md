@@ -69,8 +69,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 417,
-  "Name": "Jacobs LLC",
-  "Tooltip": "possimus",
-  "SaveInDb": 552,
-  "Filename": "eaque",
-  "DefaultOref": "dolores",
+  "DocumentTemplateId": 768,
+  "Name": "O'Connell-Mosciski",
+  "Tooltip": "voluptas",
+  "SaveInDb": 316,
+  "Filename": "perferendis",
+  "DefaultOref": "atque",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 610,
-  "IntentId": 619,
+  "AutoeventId": 14,
+  "IntentId": 276,
   "IsDefaultPublished": false,
-  "Rank": 808,
-  "LoadTemplateFromPlugin": 845,
-  "MimeType": "sed",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 999,
+  "Rank": 470,
+  "LoadTemplateFromPlugin": 444,
+  "MimeType": "nemo",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 45,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "liza_wisoky@stehr.uk",
+  "EmailSubject": "loraine_johnston@kiehn.com",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ansley@dare.info",
+  "SenderEmailAddress": "luciano.nolan@mayermann.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 388
     }
   }
 }

@@ -61,8 +61,8 @@ OK
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
 | CreatedBy | Associate | Name of the person that created the Audience layout |
 | UpdatedBy | Associate | Name of the person that last updated the Audience layout |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 743,
-  "InstanceLayout": "est",
-  "InstanceName": "Kuhn-Wuckert",
-  "CreatedDate": "2022-02-24T12:15:18.1977628+01:00",
-  "UpdatedDate": "2004-02-10T12:15:18.1977628+01:00",
+  "AudienceLayoutId": 782,
+  "InstanceLayout": "exercitationem",
+  "InstanceName": "Kuphal, Hartmann and Weimann",
+  "CreatedDate": "2005-08-24T15:29:20.8157886+02:00",
+  "UpdatedDate": "1999-05-12T15:29:20.8157886+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 247
     }
   }
 }

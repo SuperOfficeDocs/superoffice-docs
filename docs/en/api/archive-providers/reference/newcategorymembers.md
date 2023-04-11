@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "NewCategoryMembers"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -68,7 +68,7 @@ Lists new CategoryMembers added through restriction.
 ## Sample
 
 ```http!
-GET /api/v1/archive/NewCategoryMembers?$select=mrMrs,title,contactCategory
+GET /api/v1/archive/NewCategoryMembers?$select=title,contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

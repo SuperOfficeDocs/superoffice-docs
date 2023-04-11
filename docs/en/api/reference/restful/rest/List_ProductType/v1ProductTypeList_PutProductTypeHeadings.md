@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 104,
-    "Name": "Corwin-Gerlach",
-    "Tooltip": "aut",
+    "HeadingId": 507,
+    "Name": "Predovic, Zboncak and Botsford",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 275,
-    "UdListDefinitionId": 954
+    "Rank": 903,
+    "UdListDefinitionId": 99
   },
   {
-    "HeadingId": 104,
-    "Name": "Corwin-Gerlach",
-    "Tooltip": "aut",
+    "HeadingId": 507,
+    "Name": "Predovic, Zboncak and Botsford",
+    "Tooltip": "libero",
     "Deleted": false,
-    "Rank": 275,
-    "UdListDefinitionId": 954
+    "Rank": 903,
+    "UdListDefinitionId": 99
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 246,
-    "Name": "Rohan, Herman and Cassin",
-    "Tooltip": "qui",
+    "HeadingId": 132,
+    "Name": "Frami, Veum and Emmerich",
+    "Tooltip": "vero",
     "Deleted": false,
-    "Rank": 945,
-    "UdListDefinitionId": 735,
+    "Rank": 354,
+    "UdListDefinitionId": 998,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 923
       }
     }
   }

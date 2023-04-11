@@ -93,8 +93,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,12 +102,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 686
+  "PersonId": 113
 }
 ```
 
@@ -118,14 +118,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 271,
-  "Name": "Gerlach-Braun",
-  "Rank": 894,
-  "Tooltip": "deserunt",
+  "AssociateId": 269,
+  "Name": "Dooley-Kuphal",
+  "Rank": 852,
+  "Tooltip": "in",
   "LicenseOwners": [
     {
-      "Name": "Kris-Bosco",
-      "Description": "Digitized cohesive installation",
+      "Name": "Hilll, Jacobs and Monahan",
+      "Description": "Stand-alone 6th generation leverage",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,14 +138,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldType": "System.Int32",
+          "FieldLength": 990
         }
       }
     },
     {
-      "Name": "Kris-Bosco",
-      "Description": "Digitized cohesive installation",
+      "Name": "Hilll, Jacobs and Monahan",
+      "Description": "Stand-alone 6th generation leverage",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,8 +158,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldType": "System.Int32",
+          "FieldLength": 990
         }
       }
     }
@@ -168,110 +168,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "esse",
-      "Tooltip": "sed",
-      "Id": 10,
-      "Rank": 187,
-      "Deleted": true,
+      "Value": "illum",
+      "Tooltip": "enim",
+      "Id": 40,
+      "Rank": 377,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldType": "System.String",
+          "FieldLength": 9
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2022-04-16T12:15:20.620728+02:00",
-  "Lastlogout": "2003-10-10T12:15:20.620728+02:00",
-  "EjUserId": 209,
-  "RequestSignature": "amet",
+  "Deleted": false,
+  "Lastlogin": "2012-01-01T15:29:23.3972903+01:00",
+  "Lastlogout": "2021-11-06T15:29:23.3972903+01:00",
+  "EjUserId": 422,
+  "RequestSignature": "temporibus",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "natus",
-      "DisplayValue": "sed",
+      "Value": "eius",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldLength": 133
         }
       }
     },
     {
       "Type": null,
-      "Value": "natus",
-      "DisplayValue": "sed",
+      "Value": "eius",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldLength": 133
         }
       }
     }
   ],
-  "UserName": "Lubowitz Inc and Sons",
+  "UserName": "Walsh LLC",
   "TicketCategories": [
     {
-      "Id": 14,
-      "Name": "Hilll-Wunsch",
-      "ToolTip": "Ea vel optio laudantium est porro cum delectus.",
-      "Deleted": true,
-      "Rank": 864,
-      "Type": "necessitatibus",
+      "Id": 726,
+      "Name": "Cruickshank, Goodwin and Turner",
+      "ToolTip": "Earum ea vel iusto voluptatum fuga assumenda.",
+      "Deleted": false,
+      "Rank": 359,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quia",
-      "ColorBlock": 633,
-      "ExtraInfo": "officia",
-      "StyleHint": "reiciendis",
-      "FullName": "Britney Hamill MD",
+      "IconHint": "accusamus",
+      "ColorBlock": 1000,
+      "ExtraInfo": "amet",
+      "StyleHint": "ipsum",
+      "FullName": "Betsy Friesen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 51
+          "FieldLength": 508
         }
       }
     }
   ],
-  "NickName": "Carroll-Beier",
-  "WaitingForApproval": true,
+  "NickName": "Morissette-Wuckert",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "optio",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "reiciendis"
+    "CustomFields1": "odit",
+    "CustomFields2": "temporibus"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bode, Miller and Lebsack",
-      "DisplayName": "Frami Group",
-      "Description": "Front-line empowering standardization",
-      "ToolTip": "Nostrum itaque facere soluta inventore omnis.",
+      "Name": "O'Conner-Toy",
+      "DisplayName": "Gibson LLC",
+      "Description": "Reactive disintermediate hardware",
+      "ToolTip": "Exercitationem qui perspiciatis nulla pariatur reprehenderit.",
       "Actions": "Implicit",
-      "ActionData": "ipsam",
+      "ActionData": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 132
+          "FieldLength": 736
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldLength": 93
     }
   }
 }

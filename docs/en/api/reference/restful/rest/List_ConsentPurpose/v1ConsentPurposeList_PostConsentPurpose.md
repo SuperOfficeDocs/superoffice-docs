@@ -79,8 +79,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 96,
-  "Name": "Kovacek Group",
-  "ConsentText": "et",
-  "FormText": "molestias",
-  "Key": "possimus",
-  "Tooltip": "qui",
-  "Active": 505,
-  "UpdatedDate": "2001-01-22T12:15:27.9196223+01:00",
+  "ConsentPurposeId": 984,
+  "Name": "Larkin, Wiegand and Bruen",
+  "ConsentText": "rerum",
+  "FormText": "temporibus",
+  "Key": "et",
+  "Tooltip": "reprehenderit",
+  "Active": 495,
+  "UpdatedDate": "2021-10-17T15:29:31.1304777+02:00",
   "UpdatedBy": null,
   "Deleted": false,
   "Rank": 128,
-  "PrivacyStatementDesc": "dolores",
+  "PrivacyStatementDesc": "adipisci",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 685,
-  "Name": "Little, Carter and Howe",
-  "ConsentText": "quos",
-  "FormText": "dolorem",
-  "Key": "odit",
-  "Tooltip": "odio",
-  "Active": 573,
-  "UpdatedDate": "1999-07-01T12:15:27.9206217+02:00",
+  "ConsentPurposeId": 27,
+  "Name": "Schumm Group",
+  "ConsentText": "porro",
+  "FormText": "at",
+  "Key": "molestiae",
+  "Tooltip": "dolorem",
+  "Active": 808,
+  "UpdatedDate": "2019-05-26T15:29:31.1314806+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 98,
-  "PrivacyStatementDesc": "voluptatem",
+  "Rank": 714,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 545
     }
   }
 }

@@ -70,8 +70,8 @@ OK
 | ArchiveEntityInfo | array |  |
 | ArchiveOrderByInfo | array |  |
 | OwnerKeys | string | The actual ownership information for the configuration that was retrieved |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "McGlynn-Gulgowski",
-  "ProviderName": "Cassin, Brekke and Crona",
-  "Context": "eum"
+  "GuiName": "Maggio LLC",
+  "ProviderName": "Kshlerin, Will and Weissnat",
+  "Context": "temporibus"
 }
 ```
 
@@ -98,68 +98,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Mante-Homenick",
-      "DisplayTooltip": "velit",
-      "DisplayType": "quos",
+      "DisplayName": "Ortiz, Barton and Haley",
+      "DisplayTooltip": "corrupti",
+      "DisplayType": "numquam",
       "CanOrderBy": true,
-      "Name": "Bailey, Padberg and Renner",
-      "CanRestrictBy": true,
-      "RestrictionType": "corporis",
-      "RestrictionListName": "Anderson LLC",
+      "Name": "Cruickshank, Will and Daniel",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Shields-Zieme",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "saepe",
-      "IconHint": "et",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "nostrum",
+      "Width": "adipisci",
+      "IconHint": "qui",
+      "HeadingIconHint": "voluptate"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 671,
-      "Name": "Ebert LLC",
-      "ToolTip": "Soluta quis.",
+      "Id": 225,
+      "Name": "Doyle Group",
+      "ToolTip": "Autem totam occaecati beatae.",
       "Deleted": false,
-      "Rank": 466,
-      "Type": "similique",
-      "ColorBlock": 70,
-      "IconHint": "aut",
+      "Rank": 838,
+      "Type": "molestias",
+      "ColorBlock": 436,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2019-09-12T12:15:18.1477635+02:00",
+      "LastChanged": "2002-10-17T15:29:20.7657902+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "reiciendis",
-      "Hidden": false,
-      "FullName": "Mrs. Claudie Flatley I",
+      "ExtraInfo": "unde",
+      "StyleHint": "in",
+      "Hidden": true,
+      "FullName": "Teresa Schinner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 438
+          "FieldLength": 657
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Green, Pfeffer and Cole",
+      "Name": "Runolfsson-Zemlak",
       "Direction": "ASC"
     },
     {
-      "Name": "Green, Pfeffer and Cole",
+      "Name": "Runolfsson-Zemlak",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "alias",
+  "OwnerKeys": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldType": "System.String",
+      "FieldLength": 259
     }
   }
 }

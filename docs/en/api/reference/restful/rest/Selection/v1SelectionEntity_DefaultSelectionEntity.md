@@ -87,8 +87,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,73 +104,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 12 Feb 2014 12:15:27 G2T
+Last-Modified: Wed, 04 Jun 2008 15:29:30 G6T
 
 {
-  "Description": "Synergistic encompassing flexibility",
-  "Postit": "enim",
+  "Description": "Up-sized regional framework",
+  "Postit": "mollitia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 669,
-  "IncludePerson": 224,
-  "MemberCount": 755,
-  "Name": "O'Keefe, Corkery and Shanahan",
-  "PostitTextId": 605,
-  "CreatedDate": "2016-08-24T12:15:27.356632+02:00",
-  "SelectionId": 28,
-  "SoundEx": "ut",
-  "Source": 689,
-  "TextId": 669,
-  "UpdatedDate": "2014-02-12T12:15:27.356632+01:00",
-  "UpdatedCount": 269,
-  "Visibility": 442,
+  "GroupIdx": 291,
+  "IncludePerson": 110,
+  "MemberCount": 712,
+  "Name": "Fadel Inc and Sons",
+  "PostitTextId": 660,
+  "CreatedDate": "2004-03-11T15:29:30.5829891+01:00",
+  "SelectionId": 832,
+  "SoundEx": "voluptate",
+  "Source": 708,
+  "TextId": 447,
+  "UpdatedDate": "2008-06-04T15:29:30.5829891+02:00",
+  "UpdatedCount": 21,
+  "Visibility": 486,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 624,
-  "TargetTableName": "Borer-Beatty",
-  "Completed": true,
-  "LeftSelectionId": 465,
-  "RightSelectionId": 805,
+  "TargetTableNumber": 165,
+  "TargetTableName": "Kessler, Powlowski and Rempel",
+  "Completed": false,
+  "LeftSelectionId": 423,
+  "RightSelectionId": 20,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "D'Amore LLC",
-  "ShadowProviderName": "Leannon, Purdy and Marquardt",
-  "ChartKey": "a",
-  "LastLoaded": "1997-01-24T12:15:27.356632+01:00",
-  "LastLoadedBy": 131,
+  "MainProviderName": "Corwin, Borer and Hamill",
+  "ShadowProviderName": "Nicolas LLC",
+  "ChartKey": "vitae",
+  "LastLoaded": "2022-03-31T15:29:30.5829891+02:00",
+  "LastLoadedBy": 662,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-07-13T12:15:27.356632+02:00",
-  "LastMembershipChangeBy": 59,
+  "LastMembershipChange": "2012-04-05T15:29:30.5834877+02:00",
+  "LastMembershipChangeBy": 48,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "facere",
-  "MailingsProviderName": "Daugherty Inc and Sons",
-  "DashboardTileDefinitionId": 890,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Parker, Johnston and Powlowski",
+  "DashboardTileDefinitionId": 568,
   "VisibleFor": [
     {
-      "VisibleId": 661,
+      "VisibleId": 280,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     },
     {
-      "VisibleId": 661,
+      "VisibleId": 280,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 564
+          "FieldType": "System.String",
+          "FieldLength": 999
         }
       }
     }
@@ -179,8 +179,8 @@ Last-Modified: Wed, 12 Feb 2014 12:15:27 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldType": "System.String",
+      "FieldLength": 116
     }
   }
 }

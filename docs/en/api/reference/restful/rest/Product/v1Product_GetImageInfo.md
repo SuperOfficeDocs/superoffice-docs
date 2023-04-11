@@ -63,8 +63,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 21 May 2006 12:15:27 G5T
+Last-Modified: Sat, 05 Jan 2013 15:29:30 G1T
 
 {
-  "BlobId": 623,
-  "BlobSize": 888,
-  "Description": "Inverse explicit ability",
-  "ExtraInfo": "voluptatum",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 930,
-  "CreatedDate": "2003-03-05T12:15:27.6756254+01:00",
-  "UpdatedDate": "2006-05-21T12:15:27.6756254+02:00",
+  "BlobId": 640,
+  "BlobSize": 335,
+  "Description": "Secured context-sensitive neural-net",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "aut",
+  "OriginalSize": 366,
+  "CreatedDate": "2006-06-03T15:29:30.8864871+02:00",
+  "UpdatedDate": "2013-01-05T15:29:30.8864871+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vitae",
+  "ConceptualType": "temporibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldType": "System.Int32",
+      "FieldLength": 226
     }
   }
 }

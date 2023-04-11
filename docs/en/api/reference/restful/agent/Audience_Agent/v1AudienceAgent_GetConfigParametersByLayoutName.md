@@ -69,8 +69,8 @@ OK
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Schuppe, Shields and Jast"
+  "LayoutName": "Mosciski-Abbott"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 786,
-    "Name": "Botsford-Schoen",
-    "Value": "ab",
-    "CreatedDate": "2013-11-15T12:15:18.1917625+01:00",
-    "UpdatedDate": "1998-01-15T12:15:18.1917625+01:00",
-    "CreatedBy": "omnis",
-    "UpdatedBy": "neque",
+    "AudienceLayoutId": 522,
+    "Name": "Smitham-Harvey",
+    "Value": "odio",
+    "CreatedDate": "2016-10-21T15:29:20.8092896+02:00",
+    "UpdatedDate": "2022-09-25T15:29:20.8092896+02:00",
+    "CreatedBy": "dolores",
+    "UpdatedBy": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 804
+        "FieldType": "System.Int32",
+        "FieldLength": 269
       }
     }
   }

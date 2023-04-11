@@ -85,8 +85,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Medhurst-Wolf",
+  "TaskName": "Hoeger, Vandervort and Stamm",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "O'Keefe Inc and Sons",
-    "AssociateId": 982,
-    "DetailsTable": 854,
-    "DetailsRecord": 92,
+    "Id": 526,
+    "Name": "Pacocha, Konopelski and Reichert",
+    "AssociateId": 820,
+    "DetailsTable": 657,
+    "DetailsRecord": 581,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ad",
-      "ParameterObject2": "perferendis"
+      "ParameterObject1": "magni",
+      "ParameterObject2": "optio"
     },
-    "LastStarted": "2019-06-11T12:15:18.2137626+02:00",
-    "Created": "2005-10-29T12:15:18.2137626+02:00",
-    "StartCount": 874,
-    "DatabaseSerialNumber": "1305736",
-    "Context": "nulla",
-    "Result": "minima",
+    "LastStarted": "2011-04-22T15:29:20.8312896+02:00",
+    "Created": "2008-01-19T15:29:20.8312896+01:00",
+    "StartCount": 464,
+    "DatabaseSerialNumber": "580663",
+    "Context": "eligendi",
+    "Result": "iure",
     "State": "All",
-    "Description": "Intuitive client-driven array",
-    "Response": "nostrum",
-    "Request": "excepturi",
-    "ProgressDescription": "Enterprise-wide mission-critical analyzer",
-    "ProgressPercent": 221,
-    "FileName": "Treutel, Haley and Muller",
+    "Description": "Stand-alone discrete knowledge base",
+    "Response": "sapiente",
+    "Request": "fugit",
+    "ProgressDescription": "Compatible heuristic implementation",
+    "ProgressPercent": 187,
+    "FileName": "Langosh Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 216
       }
     }
   }

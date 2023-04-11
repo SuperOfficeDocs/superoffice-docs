@@ -109,8 +109,8 @@ TriggerScriptEntity  updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -119,18 +119,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "ab",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "ab",
     "value": {}
   }
 ]
@@ -143,27 +143,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 407,
-  "Name": "Lindgren Inc and Sons",
+  "ScreenChooserId": 92,
+  "Name": "Schroeder-Stoltenberg",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "hic",
-  "Source": "sed",
-  "Registered": "1996-06-20T12:15:27.5916274+02:00",
-  "RegisteredAssociateId": 987,
-  "Updated": "2012-08-12T12:15:27.5916274+02:00",
-  "UpdatedAssociateId": 835,
+  "UniqueIdentifier": "cum",
+  "Source": "hic",
+  "Registered": "2020-12-01T15:29:30.8004929+01:00",
+  "RegisteredAssociateId": 102,
+  "Updated": "2016-12-29T15:29:30.8004929+01:00",
+  "UpdatedAssociateId": 996,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 587
+      "FieldLength": 424
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

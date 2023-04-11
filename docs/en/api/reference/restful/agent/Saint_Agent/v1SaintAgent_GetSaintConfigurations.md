@@ -62,8 +62,8 @@ OK
 | GenerationStart | date-time | When was the last regeneration started |
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 979,
+    "OwnerTable": 162,
     "Enabled": false,
-    "Period1": 627,
-    "Period2": 534,
-    "Period3": 320,
-    "GenerationStart": "2020-05-18T12:15:20.0137369+02:00",
-    "GenerationEnd": "2007-05-18T12:15:20.0137369+02:00",
-    "RowsGenerated": 99,
+    "Period1": 34,
+    "Period2": 235,
+    "Period3": 423,
+    "GenerationStart": "2008-03-06T15:29:22.6367632+01:00",
+    "GenerationEnd": "2007-06-28T15:29:22.6367632+02:00",
+    "RowsGenerated": 683,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldType": "System.String",
+        "FieldLength": 810
       }
     }
   }

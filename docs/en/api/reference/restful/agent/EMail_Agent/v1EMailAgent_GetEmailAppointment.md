@@ -72,8 +72,8 @@ OK
 | DtStart | date-time | Start date/time in ICS file. |
 | DtEnd | date-time | End date/time in ICS file. |
 | Superseded | bool | A newer invitation exists |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 875
+  "MailItemId": 218
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "quia",
-    "modi"
+    "id",
+    "qui"
   ],
-  "Comment": "sapiente",
-  "Sequence": 413,
-  "DtStart": "1997-06-17T12:15:18.9517514+02:00",
-  "DtEnd": "2012-11-18T12:15:18.9517514+01:00",
+  "Comment": "ut",
+  "Sequence": 331,
+  "DtStart": "2016-07-07T15:29:21.7192761+02:00",
+  "DtEnd": "2011-07-29T15:29:21.7192761+02:00",
   "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 291
     }
   }
 }

@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -66,24 +66,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "illum",
-  "ProviderName": "Kessler-Mayer",
-  "StorageKey": "maiores",
+  "StorageType": "ut",
+  "ProviderName": "Daniel, Hirthe and Mills",
+  "StorageKey": "est",
   "Restrictions": [
     {
-      "Name": "Huels Group",
-      "Operator": "deleniti",
+      "Name": "Kemmer-Strosin",
+      "Operator": "porro",
       "Values": [
-        "beatae",
-        "et"
+        "nulla",
+        "velit"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "eos"
+        "necessitatibus",
+        "expedita"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -91,9 +91,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 608,
+      "InterParenthesis": 327,
       "InterOperator": "And",
-      "UniqueHash": 111
+      "UniqueHash": 986
     }
   ]
 }

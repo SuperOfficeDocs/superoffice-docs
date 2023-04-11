@@ -64,8 +64,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 927,
-    "ParentId": 774,
-    "Name": "Senger-Kozey",
-    "Fullname": "beatae",
-    "CategoryMaster": 649,
+    "TicketCategoryId": 113,
+    "ParentId": 298,
+    "Name": "Purdy-Ankunding",
+    "Fullname": "vitae",
+    "CategoryMaster": 634,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Schoen-Kessler",
+    "ExternalName": "Maggio-Frami",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 783,
-    "ReplyTemplate": 224,
-    "NotificationEmail": "lessie@weissnat.co.uk",
+    "AssignmentLag": 994,
+    "ReplyTemplate": 992,
+    "NotificationEmail": "clement@fritschharris.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 684,
+    "EffectiveReplyTemplateId": 355,
     "ExtraFields": {
-      "ExtraFields1": "reiciendis",
-      "ExtraFields2": "ea"
+      "ExtraFields1": "facere",
+      "ExtraFields2": "est"
     },
     "CustomFields": {
-      "CustomFields1": "optio",
-      "CustomFields2": "odit"
+      "CustomFields1": "quo",
+      "CustomFields2": "sed"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldType": "System.String",
+        "FieldLength": 975
       }
     }
   }

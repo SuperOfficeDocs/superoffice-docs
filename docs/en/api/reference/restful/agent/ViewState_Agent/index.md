@@ -9,6 +9,8 @@ title: ViewState_Agent
 
 
 
+* [POST Agents/ViewState/GetLiveUiConfig](v1ViewStateAgent_GetLiveUiConfig.md)
+
 * [POST Agents/ViewState/GetHistory](v1ViewStateAgent_GetHistory.md)
 
 * [POST Agents/ViewState/GetCurrent](v1ViewStateAgent_GetCurrent.md)
@@ -36,3 +38,5 @@ title: ViewState_Agent
 * [POST Agents/ViewState/SaveCurrents](v1ViewStateAgent_SaveCurrents.md)
 
 * [POST Agents/ViewState/GetHistoriesByNamesAndIds](v1ViewStateAgent_GetHistoriesByNamesAndIds.md)
+
+* [POST Agents/ViewState/PublishAndRetrieveUiEvents](v1ViewStateAgent_PublishAndRetrieveUiEvents.md)

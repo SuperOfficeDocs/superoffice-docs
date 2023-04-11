@@ -25,8 +25,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=consequuntur
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=sint
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Schulist Inc and Sons",
-    "ToolTip": "Quidem itaque veritatis sint ut.",
-    "Deleted": false,
-    "Rank": 629,
-    "Type": "aliquam",
+    "Id": 771,
+    "Name": "Yundt-Schamberger",
+    "ToolTip": "Corrupti aut necessitatibus quaerat laborum.",
+    "Deleted": true,
+    "Rank": 523,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 339,
-        "Name": "Rippin LLC",
-        "ToolTip": "Sunt eaque provident tempora reiciendis.",
+        "Id": 181,
+        "Name": "Schmeler, Kohler and Cartwright",
+        "ToolTip": "Occaecati dolorem aut et sit hic tenetur.",
         "Deleted": false,
-        "Rank": 36,
-        "Type": "dicta",
+        "Rank": 739,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reprehenderit",
-        "ColorBlock": 129,
-        "ExtraInfo": "quo",
-        "StyleHint": "quis",
-        "FullName": "Lillian Little",
+        "IconHint": "velit",
+        "ColorBlock": 919,
+        "ExtraInfo": "at",
+        "StyleHint": "modi",
+        "FullName": "Ruth Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 530
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 481,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "quis",
-    "FullName": "Dr. Liliana Macy Feest",
+    "IconHint": "saepe",
+    "ColorBlock": 896,
+    "ExtraInfo": "dolorum",
+    "StyleHint": "sint",
+    "FullName": "Walter Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 804
       }
     }
   }

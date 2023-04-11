@@ -62,8 +62,8 @@ OK
 | CustomTags | array | Array with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width. |
 | TicketId | int32 | Identifier for ticket |
 | DocumentEntity | DocumentEntity | Custom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "cum",
+  "SourceInput": "asperiores",
   "Encoding": "Html",
-  "CultureName": "sv",
-  "ContactId": 843,
-  "PersonId": 301,
-  "ProjectId": 994,
-  "SelectionId": 380,
-  "AppointmentId": 389,
-  "DocumentId": 392,
-  "SaleId": 115,
-  "QuoteLineId": 670,
-  "QuoteAlternativeId": 884,
-  "ProductKey": "sint",
+  "CultureName": "en",
+  "ContactId": 100,
+  "PersonId": 276,
+  "ProjectId": 937,
+  "SelectionId": 312,
+  "AppointmentId": 786,
+  "DocumentId": 839,
+  "SaleId": 889,
+  "QuoteLineId": 289,
+  "QuoteAlternativeId": 334,
+  "ProductKey": "amet",
   "CustomTags": [
     [
       {}
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 72,
+  "TicketId": 590,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 921
+      "FieldLength": 550
     }
   }
 }

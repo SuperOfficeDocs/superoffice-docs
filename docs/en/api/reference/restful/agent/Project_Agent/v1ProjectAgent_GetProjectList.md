@@ -77,8 +77,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 151,
-    "Name": "Torphy, Schmitt and Morissette",
-    "Description": "Enterprise-wide analyzing framework",
+    "ProjectId": 442,
+    "Name": "Leannon Inc and Sons",
+    "Description": "Persevering reciprocal knowledge base",
     "URL": "http://www.example.com/",
-    "Type": "error",
-    "AssociateId": 293,
-    "AssociateFullName": "Mr. Thora Kling",
-    "TypeId": 300,
-    "Updated": "1998-03-19T12:15:19.8577455+01:00",
-    "StatusId": 926,
-    "Status": "ut",
-    "TextId": 245,
-    "PublishTo": "2002-09-29T12:15:19.8577455+02:00",
-    "PublishFrom": "2006-04-18T12:15:19.8577455+02:00",
+    "Type": "et",
+    "AssociateId": 60,
+    "AssociateFullName": "Miss Alexandra White",
+    "TypeId": 580,
+    "Updated": "2003-07-22T15:29:22.483265+02:00",
+    "StatusId": 865,
+    "Status": "in",
+    "TextId": 956,
+    "PublishTo": "2022-10-06T15:29:22.483265+02:00",
+    "PublishFrom": "2015-12-20T15:29:22.483265+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "372178",
-    "ActiveErpLinks": 939,
+    "ProjectNumber": "561245",
+    "ActiveErpLinks": 268,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 456
       }
     }
   }

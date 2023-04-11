@@ -93,8 +93,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,31 +102,31 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 499,
-  "ContactId": 763,
-  "ProjectId": 192,
-  "ContactName": "Schroeder Group",
+  "ProjectmemberId": 189,
+  "ContactId": 45,
+  "ProjectId": 85,
+  "ContactName": "Smitham Group",
   "ContactDepartment": "",
-  "ProjectName": "Waelchi, Cremin and Lueilwitz",
-  "EmailId": 181,
-  "EmailAddress": "lisa.bartell@collier.uk",
-  "CountryId": 21,
-  "Firstname": "Ilene",
-  "MiddleName": "Leuschke, Hoeger and Aufderhar",
-  "Lastname": "Rau",
-  "PersonId": 200,
-  "Mrmrs": "repudiandae",
-  "ProjectMemberTypeName": "Hammes, Kihn and Powlowski",
-  "Phone": "583-619-8824 x91279",
-  "PhoneId": 47,
-  "ProjectMemberTypeId": 668,
-  "EmailAddressName": "eunice.sauer@johnston.ca",
-  "Comment": "occaecati",
-  "FullName": "Bethel Blick"
+  "ProjectName": "Spencer-Stoltenberg",
+  "EmailId": 913,
+  "EmailAddress": "ryan@schuppewisoky.com",
+  "CountryId": 191,
+  "Firstname": "Diamond",
+  "MiddleName": "Cronin Inc and Sons",
+  "Lastname": "Emard",
+  "PersonId": 987,
+  "Mrmrs": "ipsum",
+  "ProjectMemberTypeName": "Ward Group",
+  "Phone": "813.347.9927 x13849",
+  "PhoneId": 816,
+  "ProjectMemberTypeId": 357,
+  "EmailAddressName": "ambrose_schulist@lebsack.info",
+  "Comment": "autem",
+  "FullName": "Annalise Parisian"
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 186,
-  "ContactId": 221,
-  "ProjectId": 928,
-  "ContactName": "Kuhlman Group",
-  "ContactDepartment": "",
-  "ProjectName": "Rolfson-Weber",
-  "EmailId": 669,
-  "EmailAddress": "tina_lebsack@bauch.uk",
-  "CountryId": 851,
-  "Firstname": "Tess",
-  "MiddleName": "Tromp, Farrell and Stroman",
-  "Lastname": "Cassin",
-  "PersonId": 968,
-  "Mrmrs": "ullam",
-  "ProjectMemberTypeName": "Grimes LLC",
-  "Phone": "249.128.5919",
-  "PhoneId": 340,
-  "ProjectMemberTypeId": 398,
-  "EmailAddressName": "raoul@kovacek.com",
-  "Comment": "et",
-  "FullName": "Prof. Kane Amely Stroman",
+  "ProjectmemberId": 28,
+  "ContactId": 451,
+  "ProjectId": 838,
+  "ContactName": "Kihn, Macejkovic and Welch",
+  "ContactDepartment": "exploit best-of-breed convergence",
+  "ProjectName": "Beer-Schulist",
+  "EmailId": 959,
+  "EmailAddress": "fredrick_fritsch@mcglynn.co.uk",
+  "CountryId": 550,
+  "Firstname": "Rebeca",
+  "MiddleName": "Lakin-Nikolaus",
+  "Lastname": "Wuckert",
+  "PersonId": 709,
+  "Mrmrs": "ut",
+  "ProjectMemberTypeName": "Hagenes-Muller",
+  "Phone": "641.053.2977 x042",
+  "PhoneId": 217,
+  "ProjectMemberTypeId": 881,
+  "EmailAddressName": "sheldon_hackett@ritchie.uk",
+  "Comment": "dignissimos",
+  "FullName": "Emile Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 49
     }
   }
 }

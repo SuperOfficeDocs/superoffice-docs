@@ -83,8 +83,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -93,36 +93,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 847,
+  "HierarchyId": 478,
   "Domain": "Dashboards",
-  "Name": "Kuhic, Keebler and Dibbert",
-  "Fullname": "repellendus",
-  "ParentId": 620,
+  "Name": "Wiegand, Kuphal and Stoltenberg",
+  "Fullname": "nobis",
+  "ParentId": 37,
   "Children": [
     {
-      "HierarchyId": 246,
+      "HierarchyId": 173,
       "Domain": "Dashboards",
-      "Name": "D'Amore Inc and Sons",
-      "Fullname": "ut",
-      "ParentId": 501,
+      "Name": "Kertzmann Group",
+      "Fullname": "qui",
+      "ParentId": 37,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-04-11T12:15:26.9816353+02:00",
-      "RegisteredAssociateId": 232,
-      "Updated": "2005-01-14T12:15:26.9816353+01:00",
-      "UpdatedAssociateId": 562
+      "Registered": "2015-04-16T15:29:29.7821985+02:00",
+      "RegisteredAssociateId": 245,
+      "Updated": "1997-12-25T15:29:29.7821985+01:00",
+      "UpdatedAssociateId": 646
     }
   ],
-  "Registered": "1998-07-30T12:15:26.9816353+02:00",
-  "RegisteredAssociateId": 152,
-  "Updated": "1996-05-22T12:15:26.9816353+02:00",
-  "UpdatedAssociateId": 726
+  "Registered": "1998-06-13T15:29:29.7821985+02:00",
+  "RegisteredAssociateId": 790,
+  "Updated": "2007-09-11T15:29:29.7821985+02:00",
+  "UpdatedAssociateId": 58
 }
 ```
 
@@ -133,51 +133,51 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 759,
+  "HierarchyId": 390,
   "Domain": "Dashboards",
-  "Name": "O'Connell-Hammes",
-  "Fullname": "veniam",
-  "ParentId": 320,
+  "Name": "Nikolaus-Dooley",
+  "Fullname": "sint",
+  "ParentId": 76,
   "Children": [
     {
-      "HierarchyId": 285,
+      "HierarchyId": 379,
       "Domain": "Dashboards",
-      "Name": "Olson-Gleason",
-      "Fullname": "omnis",
-      "ParentId": 971,
+      "Name": "Fahey-Bruen",
+      "Fullname": "totam",
+      "ParentId": 94,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-05-26T12:15:26.9816353+02:00",
-      "RegisteredAssociateId": 343,
-      "Updated": "1998-10-16T12:15:26.9816353+02:00",
-      "UpdatedAssociateId": 856,
+      "Registered": "2022-10-11T15:29:29.7826987+02:00",
+      "RegisteredAssociateId": 811,
+      "Updated": "1997-03-15T15:29:29.7826987+01:00",
+      "UpdatedAssociateId": 319,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldType": "System.Int32",
+          "FieldLength": 897
         }
       }
     }
   ],
-  "Registered": "2019-08-20T12:15:26.9816353+02:00",
-  "RegisteredAssociateId": 478,
-  "Updated": "2008-07-06T12:15:26.9816353+02:00",
-  "UpdatedAssociateId": 313,
+  "Registered": "2001-11-23T15:29:29.7826987+01:00",
+  "RegisteredAssociateId": 922,
+  "Updated": "2011-03-29T15:29:29.7826987+02:00",
+  "UpdatedAssociateId": 758,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 430
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -75,8 +75,8 @@ OK
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lang-Stokes",
+  "TableName": "Gislason-Sporer",
   "Columns": [
-    "earum",
-    "veniam"
+    "exercitationem",
+    "dolor"
   ],
   "Keys": [
-    "dolorem",
-    "culpa"
+    "sit",
+    "quidem"
   ],
   "Data": [
     [
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -117,41 +117,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "sed",
-  "Inserts": 819,
-  "Updates": 523,
-  "Deletes": 903,
+  "Success": true,
+  "Message": "dolor",
+  "Inserts": 638,
+  "Updates": 929,
+  "Deletes": 838,
   "RowStatus": [
     {
-      "PrimaryKey": 707,
+      "PrimaryKey": 868,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quod",
-        "velit"
+        "vel",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldLength": 90
         }
       }
     },
     {
-      "PrimaryKey": 707,
+      "PrimaryKey": 868,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "quod",
-        "velit"
+        "vel",
+        "libero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldLength": 90
         }
       }
     }
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 30
     }
   }
 }

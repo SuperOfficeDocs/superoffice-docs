@@ -78,8 +78,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 517,
-    "ColumnId": 315,
-    "FieldDefault": "quibusdam",
-    "FieldHeight": 54,
-    "FieldLabel": "in",
-    "FieldLeft": 517,
-    "FieldTop": 182,
+    "UDefFieldId": 86,
+    "ColumnId": 46,
+    "FieldDefault": "quod",
+    "FieldHeight": 654,
+    "FieldLabel": "esse",
+    "FieldLeft": 368,
+    "FieldTop": 860,
     "FieldType": "Checkbox",
-    "FieldWidth": 894,
-    "FormatMask": "rerum",
-    "HideLabel": true,
+    "FieldWidth": 737,
+    "FormatMask": "eaque",
+    "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 740,
-    "LabelLeft": 183,
-    "LabelTop": 247,
-    "LabelWidth": 682,
-    "LastVersionId": 541,
-    "ListTableId": 424,
-    "IsMandatory": true,
+    "LabelHeight": 897,
+    "LabelLeft": 875,
+    "LabelTop": 98,
+    "LabelWidth": 75,
+    "LastVersionId": 61,
+    "ListTableId": 235,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 932,
-    "ProgId": "neque",
+    "Page1LineNo": 163,
+    "ProgId": "sequi",
     "IsReadOnly": true,
-    "ShortLabel": "aperiam",
-    "TabOrder": 481,
-    "TextLength": 712,
-    "Tooltip": "corporis",
-    "UdefIdentity": 139,
-    "UDListDefinitionId": 391,
+    "ShortLabel": "id",
+    "TabOrder": 855,
+    "TextLength": 702,
+    "Tooltip": "ad",
+    "UdefIdentity": 765,
+    "UDListDefinitionId": 759,
     "Justification": "Center",
-    "Version": 32,
-    "TemplateVariableName": "Olson Inc and Sons",
+    "Version": 430,
+    "TemplateVariableName": "Watsica Group",
     "HasBeenPublished": false,
-    "MdoListName": "Gulgowski LLC",
+    "MdoListName": "Prohaska LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 365
+        "FieldType": "System.Int32",
+        "FieldLength": 527
       }
     }
   }

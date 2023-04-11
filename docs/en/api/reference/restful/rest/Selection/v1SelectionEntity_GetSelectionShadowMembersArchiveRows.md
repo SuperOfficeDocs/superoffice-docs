@@ -74,7 +74,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "provident",
+  "odata.nextLink": "aliquid",
   "value": [
     {
-      "PrimaryKey": 967,
+      "PrimaryKey": 7522,
       "EntityName": "sale",
-      "saleId": 967,
-      "contactId": 3818,
-      "name": "Wisoky-Lubowitz"
+      "saleId": 7522,
+      "contactId": 3903,
+      "name": "O'Hara LLC"
     },
     {
-      "PrimaryKey": 9322,
+      "PrimaryKey": 8259,
       "EntityName": "sale",
-      "saleId": 9322,
-      "contactId": 6412,
-      "name": "Pacocha-Macejkovic"
+      "saleId": 8259,
+      "contactId": 1645,
+      "name": "Tremblay Inc and Sons"
     }
   ]
 }

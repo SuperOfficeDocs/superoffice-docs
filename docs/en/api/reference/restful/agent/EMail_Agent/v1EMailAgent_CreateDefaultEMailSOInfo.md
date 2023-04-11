@@ -57,8 +57,8 @@ OK
 | ArchivedAt | date-time | The datetime when this email was archived |
 | ArchivedBy | int32 | The associate who archived this email |
 | ArchivedDisplayName | string | The full name of the associate who archived this email |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 489,
-  "AppointmentId": 560,
-  "ProjectId": 248,
-  "SaleId": 866,
-  "Archived": false,
-  "ArchivedAt": "2010-09-06T12:15:18.9767526+02:00",
-  "ArchivedBy": 548,
-  "ArchivedDisplayName": "Stiedemann-Nitzsche",
+  "DocumentId": 548,
+  "AppointmentId": 351,
+  "ProjectId": 985,
+  "SaleId": 716,
+  "Archived": true,
+  "ArchivedAt": "2009-08-15T15:29:21.7402756+02:00",
+  "ArchivedBy": 192,
+  "ArchivedDisplayName": "Wisoky Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 361
     }
   }
 }

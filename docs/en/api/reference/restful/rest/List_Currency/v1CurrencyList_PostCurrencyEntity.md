@@ -67,8 +67,8 @@ OK
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 22,
-  "Name": "Reilly-Kulas",
-  "Tooltip": "velit",
-  "Rank": 463,
-  "Rate": 4992.4619999999995,
-  "Units": 17481.452,
+  "CurrencyId": 530,
+  "Name": "Swift LLC",
+  "Tooltip": "in",
+  "Rank": 295,
+  "Rate": 26964.935999999998,
+  "Units": 5111.554,
   "Deleted": false
 }
 ```
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 530,
-  "Name": "Bergnaum, Goldner and Howe",
-  "Tooltip": "ducimus",
-  "Rank": 876,
-  "Rate": 30355.924,
-  "Units": 31104.95,
+  "CurrencyId": 818,
+  "Name": "Mueller, Borer and Gerhold",
+  "Tooltip": "quod",
+  "Rank": 568,
+  "Rate": 28337.628,
+  "Units": 21377.014,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

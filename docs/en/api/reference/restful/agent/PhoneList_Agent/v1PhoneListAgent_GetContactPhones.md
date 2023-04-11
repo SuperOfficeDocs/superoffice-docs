@@ -74,8 +74,8 @@ OK
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 961
+  "ContactId": 350
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-078-217-0430 x60395",
-    "PersonCellPhone": "1-252-052-5325 x57177",
-    "PersonPrivatePhone": "(796)269-7814 x9583",
-    "PersonFaxNumber": "571860",
-    "PersonPagerNumber": "1509436",
-    "PersonEmail": "jacky.mccullough@moore.ca",
-    "Id": 123,
-    "Name": "Schoen, Schultz and Feest",
-    "Tooltip": "dolores",
-    "UniqueId": "deserunt",
+    "PersonDirectPhone": "667.662.3045",
+    "PersonCellPhone": "(231)219-7056",
+    "PersonPrivatePhone": "(034)951-7041 x848",
+    "PersonFaxNumber": "1476447",
+    "PersonPagerNumber": "1471202",
+    "PersonEmail": "timmy@ratkebogisich.us",
+    "Id": 451,
+    "Name": "Glover-Weimann",
+    "Tooltip": "tempora",
+    "UniqueId": "aliquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldType": "System.String",
+        "FieldLength": 274
       }
     }
   }

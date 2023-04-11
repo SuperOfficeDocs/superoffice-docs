@@ -25,7 +25,7 @@ Gets a WindowPosSize object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=593
+POST /api/v1/Agents/Configuration/GetWindowPosSize?windowPosSizeId=706
 POST /api/v1/Agents/Configuration/GetWindowPosSize?$select=name,department,category/id
 ```
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -67,8 +67,8 @@ OK
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerWindow": "enim",
-  "PersonId": 419,
-  "AssociateId": 170,
-  "ExtraId": 810,
-  "ExtraInfo": "animi",
-  "Height": 324,
-  "LeftX": 907,
+  "OwnerWindow": "numquam",
+  "PersonId": 9,
+  "AssociateId": 441,
+  "ExtraId": 131,
+  "ExtraInfo": "laborum",
+  "Height": 383,
+  "LeftX": 392,
   "State": "Maximized",
-  "UpperY": 303,
-  "Width": 875,
-  "WindowPosSizeId": 965,
+  "UpperY": 693,
+  "Width": 710,
+  "WindowPosSizeId": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

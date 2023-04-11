@@ -53,8 +53,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 835,
-  "Name": "Schuppe LLC",
-  "CreatedDate": "2003-06-14T12:15:19.1387495+02:00",
-  "UpdatedDate": "2018-09-09T12:15:19.1387495+02:00",
+  "ForeignAppId": 313,
+  "Name": "White, Lebsack and Barton",
+  "CreatedDate": "2007-01-15T15:29:21.9048072+01:00",
+  "UpdatedDate": "2010-07-02T15:29:21.9048072+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 945,
-      "Name": "Bednar Group",
-      "CreatedDate": "2014-09-09T12:15:19.140749+02:00",
-      "UpdatedDate": "2000-01-23T12:15:19.140749+01:00",
-      "AssociateFullName": "Alice Welch",
-      "CreatedBy": "placeat",
-      "UpdatedBy": "nesciunt",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 191,
+      "ForeignDeviceId": 782,
+      "Name": "Nitzsche, Dietrich and Okuneva",
+      "CreatedDate": "2001-12-24T15:29:21.9058172+01:00",
+      "UpdatedDate": "2003-06-13T15:29:21.9058172+02:00",
+      "AssociateFullName": "Kaitlyn Beer I",
+      "CreatedBy": "necessitatibus",
+      "UpdatedBy": "consequuntur",
+      "DeviceIdentifier": "explicabo",
+      "ForeignAppId": 981,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 798
         }
       }
     }
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 789
     }
   }
 }

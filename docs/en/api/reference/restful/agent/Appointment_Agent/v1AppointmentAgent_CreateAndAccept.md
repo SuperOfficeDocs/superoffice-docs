@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Appointment/CreateAndAccept
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 113,
+  "EmailItemId": 873,
   "UpdateMode": "OnlyThis"
 }
 ```

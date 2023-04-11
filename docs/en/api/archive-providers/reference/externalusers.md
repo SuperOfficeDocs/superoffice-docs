@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ExternalUsers"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -66,7 +66,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalUsers?$select=mrMrs,usergroup
+GET /api/v1/archive/ExternalUsers?$select=credentialType,mrMrs,usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

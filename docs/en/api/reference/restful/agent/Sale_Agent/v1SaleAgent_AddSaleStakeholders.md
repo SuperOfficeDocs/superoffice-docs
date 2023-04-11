@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,32 +64,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 165,
+  "SaleId": 504,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "McKenzie Inc and Sons",
-      "Comment": "amet",
-      "StakeholderRoleId": 559,
-      "CountryId": 216,
-      "PersonId": 633,
-      "EmailDescription": "pietro@powlowskimetz.uk",
-      "EmailId": 409,
-      "EmailAddress": "hassan@wilderman.com",
-      "PhoneId": 513,
-      "ContactName": "Streich LLC",
-      "ContactId": 389,
-      "SaleId": 636,
-      "Mrmrs": "ut",
-      "Firstname": "Jadon",
-      "MiddleName": "Wiegand Inc and Sons",
-      "Lastname": "Hodkiewicz",
-      "SaleStakeholderId": 901,
-      "Rank": 910,
-      "Phone": "483.965.6275 x89190"
+      "StakeholderRoleName": "Toy, Gorczany and Brakus",
+      "Comment": "minima",
+      "StakeholderRoleId": 896,
+      "CountryId": 218,
+      "PersonId": 916,
+      "EmailDescription": "tad@cassinmraz.us",
+      "EmailId": 894,
+      "EmailAddress": "shana_borer@paucek.us",
+      "PhoneId": 148,
+      "ContactName": "Homenick LLC",
+      "ContactId": 426,
+      "SaleId": 16,
+      "Mrmrs": "minus",
+      "Firstname": "Daisy",
+      "MiddleName": "Morar-Doyle",
+      "Lastname": "Jewess",
+      "SaleStakeholderId": 834,
+      "Rank": 836,
+      "Phone": "894.740.7281 x1015"
     }
   ]
 }

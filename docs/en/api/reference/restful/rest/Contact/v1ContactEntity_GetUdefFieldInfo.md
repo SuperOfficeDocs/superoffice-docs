@@ -83,8 +83,8 @@ ContactEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 235,
-  "ColumnId": 311,
-  "FieldDefault": "reprehenderit",
-  "FieldHeight": 934,
-  "FieldLabel": "id",
-  "FieldLeft": 610,
-  "FieldTop": 6,
+  "UDefFieldId": 173,
+  "ColumnId": 664,
+  "FieldDefault": "voluptate",
+  "FieldHeight": 386,
+  "FieldLabel": "et",
+  "FieldLeft": 382,
+  "FieldTop": 517,
   "FieldType": "Checkbox",
-  "FieldWidth": 779,
-  "FormatMask": "odio",
+  "FieldWidth": 245,
+  "FormatMask": "occaecati",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 201,
-  "LabelLeft": 410,
-  "LabelTop": 699,
-  "LabelWidth": 105,
-  "LastVersionId": 812,
-  "ListTableId": 304,
+  "LabelHeight": 179,
+  "LabelLeft": 244,
+  "LabelTop": 823,
+  "LabelWidth": 108,
+  "LastVersionId": 257,
+  "ListTableId": 643,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 413,
-  "ProgId": "unde",
+  "Page1LineNo": 522,
+  "ProgId": "soluta",
   "IsReadOnly": false,
-  "ShortLabel": "exercitationem",
-  "TabOrder": 251,
-  "TextLength": 674,
-  "Tooltip": "sequi",
-  "UdefIdentity": 323,
-  "UDListDefinitionId": 248,
+  "ShortLabel": "ipsum",
+  "TabOrder": 74,
+  "TextLength": 869,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 829,
+  "UDListDefinitionId": 632,
   "Justification": "Center",
-  "Version": 576,
-  "TemplateVariableName": "Carter-Hickle",
-  "HasBeenPublished": true,
-  "MdoListName": "Morissette LLC",
+  "Version": 101,
+  "TemplateVariableName": "Witting Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Leannon LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 669
     }
   }
 }

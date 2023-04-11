@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 469,
-    "Name": "Schroeder, Dicki and Schowalter",
-    "ToolTip": "Hic maxime pariatur quo.",
-    "Deleted": true,
-    "Rank": 145,
-    "Type": "sit",
-    "ColorBlock": 589,
-    "IconHint": "at",
+    "Id": 580,
+    "Name": "Langosh Inc and Sons",
+    "ToolTip": "Recusandae non ut.",
+    "Deleted": false,
+    "Rank": 298,
+    "Type": "praesentium",
+    "ColorBlock": 821,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2001-03-27T12:15:28.3366156+02:00",
+    "LastChanged": "2021-08-21T15:29:31.4529782+02:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Schmitt Inc and Sons",
-        "ToolTip": "Et illo tempora pariatur laborum perspiciatis quo.",
+        "Id": 49,
+        "Name": "Ankunding, Satterfield and Erdman",
+        "ToolTip": "Et recusandae hic consequatur est.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "et",
-        "ColorBlock": 326,
-        "IconHint": "aut",
+        "Rank": 638,
+        "Type": "a",
+        "ColorBlock": 292,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2000-04-04T12:15:28.3376159+02:00",
+        "LastChanged": "2020-05-17T15:29:31.4529782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Margarita Bruen Sr."
+        "ExtraInfo": "quas",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Annette Stehr"
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "laborum",
-    "Hidden": true,
-    "FullName": "Brandt Collier"
+    "ExtraInfo": "doloribus",
+    "StyleHint": "maxime",
+    "Hidden": false,
+    "FullName": "Sharon Will"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Considine, Sporer and Sauer",
-    "ToolTip": "Quam labore.",
+    "Id": 197,
+    "Name": "Schaden LLC",
+    "ToolTip": "Quam qui et quis et necessitatibus molestiae.",
     "Deleted": false,
-    "Rank": 257,
-    "Type": "minus",
-    "ColorBlock": 143,
-    "IconHint": "cupiditate",
-    "Selected": false,
-    "LastChanged": "2016-02-23T12:15:28.3396155+01:00",
+    "Rank": 414,
+    "Type": "consequatur",
+    "ColorBlock": 398,
+    "IconHint": "fugiat",
+    "Selected": true,
+    "LastChanged": "2020-06-12T15:29:31.4539781+02:00",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Marquardt-Schneider",
-        "ToolTip": "Ut placeat voluptas minus ut aliquid.",
+        "Id": 279,
+        "Name": "Stoltenberg, Doyle and Bernier",
+        "ToolTip": "Perspiciatis aliquid aperiam minus animi.",
         "Deleted": false,
-        "Rank": 998,
-        "Type": "repellat",
-        "ColorBlock": 631,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2005-04-07T12:15:28.3396155+02:00",
+        "Rank": 202,
+        "Type": "sint",
+        "ColorBlock": 360,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "1997-11-16T15:29:31.4539781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "sunt",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "voluptatem",
         "Hidden": true,
-        "FullName": "Keith Smith",
+        "FullName": "Emilia Mohr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 8
+            "FieldType": "System.Int32",
+            "FieldLength": 665
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "itaque",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Willis Connelly",
+    "FullName": "Nicola Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 10
       }
     }
   }

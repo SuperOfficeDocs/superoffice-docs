@@ -70,8 +70,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lang, Streich and Mayer"
+  "ApplicationName": "Doyle, Watsica and Feest"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "dolor",
-    "Value": "aut",
-    "RecordId": 514,
-    "CreatedDate": "2008-02-09T12:15:19.1707485+01:00",
-    "UpdatedDate": "2005-08-14T12:15:19.1707485+02:00",
-    "UpdatedBy": "explicabo",
-    "CreatedBy": "aspernatur",
-    "TableName": "Homenick Group",
+    "Key": "sapiente",
+    "Value": "amet",
+    "RecordId": 547,
+    "CreatedDate": "2012-04-27T15:29:21.9298091+02:00",
+    "UpdatedDate": "2019-10-09T15:29:21.9298091+02:00",
+    "UpdatedBy": "corrupti",
+    "CreatedBy": "recusandae",
+    "TableName": "Nolan-Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 350
       }
     }
   }

@@ -90,8 +90,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,7 +107,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 21 Apr 2001 12:15:27 G4T
+Last-Modified: Fri, 03 Jul 2009 15:29:30 G7T
 
 {
   "Appointment": null,
@@ -116,7 +116,7 @@ Last-Modified: Sat, 21 Apr 2001 12:15:27 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repellendus",
+  "SaleText": "eos",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Last-Modified: Sat, 21 Apr 2001 12:15:27 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-06-02T12:15:27.245635+02:00",
-  "Amount": 15199.9,
-  "SaleId": 416,
-  "Earning": 4682.196,
-  "EarningPercent": 31252.248,
-  "Heading": "ullam",
-  "Number": "1030796",
-  "Probability": 469,
-  "CreatedDate": "1995-11-06T12:15:27.245635+01:00",
-  "UpdatedDate": "2001-04-21T12:15:27.245635+02:00",
+  "Saledate": "1997-02-19T15:29:30.0556595+01:00",
+  "Amount": 21235.984,
+  "SaleId": 551,
+  "Earning": 16165.171999999999,
+  "EarningPercent": 23893.615999999998,
+  "Heading": "quae",
+  "Number": "1024167",
+  "Probability": 995,
+  "CreatedDate": "2000-02-14T15:29:30.0556595+01:00",
+  "UpdatedDate": "2009-07-03T15:29:30.0556595+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 1001,
+  "ActiveLinks": 481,
   "Links": [
     {
-      "EntityName": "Steuber, Anderson and Kautzer",
-      "Id": 352,
-      "Description": "Synchronised foreground knowledge base",
-      "ExtraInfo": "tenetur",
-      "LinkId": 846,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 210
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2014-04-11T12:15:27.245635+02:00",
-  "Postit": "aut",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2010-10-17T12:15:27.245635+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Mohr-D'Amore",
-      "Comment": "velit",
-      "StakeholderRoleId": 571,
-      "CountryId": 429,
-      "PersonId": 479,
-      "EmailDescription": "dolly@kessler.com",
-      "EmailId": 537,
-      "EmailAddress": "virgil_miller@lehnerhamill.uk",
-      "PhoneId": 759,
-      "ContactName": "Anderson-Kohler",
-      "ContactId": 326,
-      "SaleId": 16,
-      "Mrmrs": "soluta",
-      "Firstname": "Leora",
-      "MiddleName": "Reichert-Dietrich",
-      "Lastname": "Lynch",
-      "SaleStakeholderId": 436,
-      "Rank": 107,
-      "Phone": "491-148-1244 x246",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 174
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 252,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Germaine Fadel III",
-    "SuperOffice:2": "305405746"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "expedita"
-  },
-  "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "autem"
-  },
-  "PublishEventDate": "2010-12-01T12:15:27.2476323+01:00",
-  "PublishTo": "1999-12-10T12:15:27.2476323+01:00",
-  "PublishFrom": "2010-01-31T12:15:27.2476323+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 552,
-      "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "EntityName": "Quigley, Friesen and Kiehn",
+      "Id": 971,
+      "Description": "Future-proofed empowering conglomeration",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 670,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 362
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2001-10-16T15:29:30.0556595+02:00",
+  "Postit": "error",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2003-03-05T15:29:30.0556595+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Metz, DuBuque and Schroeder",
+      "Comment": "molestias",
+      "StakeholderRoleId": 263,
+      "CountryId": 262,
+      "PersonId": 747,
+      "EmailDescription": "amari@kassulke.ca",
+      "EmailId": 500,
+      "EmailAddress": "wilmer_rosenbaum@pacochawalsh.com",
+      "PhoneId": 181,
+      "ContactName": "Schmitt-Carroll",
+      "ContactId": 797,
+      "SaleId": 697,
+      "Mrmrs": "quis",
+      "Firstname": "Carley",
+      "MiddleName": "Balistreri, Zemlak and Bechtelar",
+      "Lastname": "Brakus",
+      "SaleStakeholderId": 577,
+      "Rank": 971,
+      "Phone": "715.027.0914",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 489
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 295,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "minima",
+    "ExtraFields2": "in"
+  },
+  "CustomFields": {
+    "CustomFields1": "nulla",
+    "CustomFields2": "sunt"
+  },
+  "PublishEventDate": "2009-06-29T15:29:30.0566593+02:00",
+  "PublishTo": "2002-11-21T15:29:30.0566593+01:00",
+  "PublishFrom": "1999-04-14T15:29:30.0566593+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 493,
+      "Visibility": "All",
+      "DisplayValue": "dolores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 370
         }
       }
     },
     {
-      "VisibleId": 552,
+      "VisibleId": 493,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 370
         }
       }
     }
@@ -241,7 +241,7 @@ Last-Modified: Sat, 21 Apr 2001 12:15:27 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 188
     }
   }
 }

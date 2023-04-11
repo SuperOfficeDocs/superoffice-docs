@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 47,
-    "Name": "Oberbrunner, Pollich and Bartoletti",
-    "Tooltip": "sunt",
+    "HeadingId": 378,
+    "Name": "Zieme Group",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 33,
-    "UdListDefinitionId": 256
+    "Rank": 65,
+    "UdListDefinitionId": 8
   },
   {
-    "HeadingId": 47,
-    "Name": "Oberbrunner, Pollich and Bartoletti",
-    "Tooltip": "sunt",
+    "HeadingId": 378,
+    "Name": "Zieme Group",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 33,
-    "UdListDefinitionId": 256
+    "Rank": 65,
+    "UdListDefinitionId": 8
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 950,
-    "Name": "Marvin-Romaguera",
-    "Tooltip": "sit",
+    "HeadingId": 316,
+    "Name": "Nitzsche Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 355,
-    "UdListDefinitionId": 813,
+    "Rank": 334,
+    "UdListDefinitionId": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldLength": 28
       }
     }
   }

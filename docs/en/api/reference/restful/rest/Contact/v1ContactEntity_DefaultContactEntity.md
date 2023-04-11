@@ -90,8 +90,8 @@ OK
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 GET /api/v1/Contact/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,160 +107,160 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 16 Aug 2004 12:15:26 G8T
+Last-Modified: Sat, 04 Apr 2015 15:29:29 G4T
 
 {
-  "ContactId": 252,
-  "Name": "Altenwerth LLC",
+  "ContactId": 188,
+  "Name": "Nader-Kris",
   "Department": "",
-  "OrgNr": "370157",
-  "Number1": "1506739",
-  "Number2": "790428",
-  "UpdatedDate": "2004-08-16T12:15:26.5706414+02:00",
-  "CreatedDate": "1999-09-01T12:15:26.5706414+02:00",
+  "OrgNr": "719543",
+  "Number1": "1072102",
+  "Number2": "1352665",
+  "UpdatedDate": "2015-04-04T15:29:29.480205+02:00",
+  "CreatedDate": "2014-04-23T15:29:29.480205+02:00",
   "Emails": [
     {
-      "Value": "voluptates",
-      "StrippedValue": "magni",
-      "Description": "Inverse didactic adapter",
+      "Value": "consequatur",
+      "StrippedValue": "aut",
+      "Description": "Centralized systemic toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldType": "System.String",
+          "FieldLength": 138
         }
       }
     },
     {
-      "Value": "voluptates",
-      "StrippedValue": "magni",
-      "Description": "Inverse didactic adapter",
+      "Value": "consequatur",
+      "StrippedValue": "aut",
+      "Description": "Centralized systemic toolset",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 299
+          "FieldType": "System.String",
+          "FieldLength": 138
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 795,
-      "Name": "Christiansen-Lemke",
-      "ToolTip": "Nulla magni eligendi vero dolorem consectetur voluptatem assumenda.",
-      "Deleted": true,
-      "Rank": 286,
-      "Type": "delectus",
-      "ColorBlock": 831,
-      "IconHint": "expedita",
+      "Id": 716,
+      "Name": "McLaughlin, Zulauf and Moen",
+      "ToolTip": "Aliquid quia perferendis.",
+      "Deleted": false,
+      "Rank": 807,
+      "Type": "praesentium",
+      "ColorBlock": 738,
+      "IconHint": "quo",
       "Selected": false,
-      "LastChanged": "2004-03-07T12:15:26.5706414+01:00",
+      "LastChanged": "2014-09-02T15:29:29.480205+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "alias",
-      "StyleHint": "non",
-      "Hidden": true,
-      "FullName": "Mrs. Cristina Gusikowski",
+      "ExtraInfo": "ullam",
+      "StyleHint": "nam",
+      "Hidden": false,
+      "FullName": "Prof. Kade Ortiz III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldLength": 64
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "neque",
-      "StrippedValue": "nemo",
-      "Description": "Assimilated human-resource extranet",
+      "Value": "molestiae",
+      "StrippedValue": "vel",
+      "Description": "Cross-group optimizing flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldLength": 475
         }
       }
     },
     {
-      "Value": "neque",
-      "StrippedValue": "nemo",
-      "Description": "Assimilated human-resource extranet",
+      "Value": "molestiae",
+      "StrippedValue": "vel",
+      "Description": "Cross-group optimizing flexibility",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldLength": 475
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Open-source neutral database",
+      "Value": "illum",
+      "StrippedValue": "fugit",
+      "Description": "Function-based didactic service-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldLength": 670
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "voluptas",
-      "Description": "Open-source neutral database",
+      "Value": "illum",
+      "StrippedValue": "fugit",
+      "Description": "Function-based didactic service-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldLength": 670
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "ullam",
-      "StrippedValue": "incidunt",
-      "Description": "Proactive real-time algorithm",
+      "Value": "labore",
+      "StrippedValue": "nobis",
+      "Description": "Total static software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 867
         }
       }
     },
     {
-      "Value": "ullam",
-      "StrippedValue": "incidunt",
-      "Description": "Proactive real-time algorithm",
+      "Value": "labore",
+      "StrippedValue": "nobis",
+      "Description": "Total static software",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 867
         }
       }
     }
   ],
-  "Description": "Phased holistic hardware",
+  "Description": "Ergonomic responsive knowledge user",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,100 +269,100 @@ Last-Modified: Mon, 16 Aug 2004 12:15:26 G8T
   "Country": null,
   "Persons": [
     {
-      "Position": "nobis",
-      "PersonId": 606,
-      "Mrmrs": "consectetur",
-      "Firstname": "Loren",
-      "Lastname": "Gutkowski",
-      "MiddleName": "Gleason, McKenzie and Lueilwitz",
-      "Title": "laudantium",
-      "Description": "Object-based systemic artificial intelligence",
-      "Email": "sarina@maggio.name",
-      "FullName": "Breanne Aufderhar",
-      "DirectPhone": "(904)439-9490 x506",
-      "FormalName": "Yundt-McDermott",
-      "CountryId": 533,
-      "ContactId": 889,
-      "ContactName": "Nicolas LLC",
-      "Retired": 674,
-      "Rank": 220,
-      "ActiveInterests": 236,
+      "Position": "rerum",
+      "PersonId": 131,
+      "Mrmrs": "et",
+      "Firstname": "Serena",
+      "Lastname": "Schimmel",
+      "MiddleName": "Rice, Willms and Hodkiewicz",
+      "Title": "id",
+      "Description": "Centralized hybrid standardization",
+      "Email": "america.champlin@gutkowskihintz.co.uk",
+      "FullName": "Anabel Kohler",
+      "DirectPhone": "933-426-3287",
+      "FormalName": "Hilll-O'Keefe",
+      "CountryId": 285,
+      "ContactId": 610,
+      "ContactName": "Will-O'Reilly",
+      "Retired": 812,
+      "Rank": 210,
+      "ActiveInterests": 662,
       "ContactDepartment": "",
-      "ContactCountryId": 84,
-      "ContactOrgNr": "448943",
-      "FaxPhone": "(247)896-4815",
-      "MobilePhone": "521.626.3642 x469",
-      "ContactPhone": "1-041-008-3042 x7873",
-      "AssociateName": "Douglas, Upton and Feeney",
-      "AssociateId": 248,
-      "UsePersonAddress": false,
-      "ContactFax": "officia",
-      "Kanafname": "quae",
-      "Kanalname": "aut",
-      "Post1": "quia",
-      "Post2": "itaque",
-      "Post3": "neque",
-      "EmailName": "rachelle@barton.co.uk",
-      "ContactFullName": "Devan Ortiz",
-      "ActiveErpLinks": 956,
-      "TicketPriorityId": 662,
-      "SupportLanguageId": 223,
+      "ContactCountryId": 229,
+      "ContactOrgNr": "277000",
+      "FaxPhone": "1-153-987-5760 x560",
+      "MobilePhone": "(388)856-4587 x4606",
+      "ContactPhone": "1-193-285-9349 x29442",
+      "AssociateName": "King-Koch",
+      "AssociateId": 10,
+      "UsePersonAddress": true,
+      "ContactFax": "quos",
+      "Kanafname": "rerum",
+      "Kanalname": "quasi",
+      "Post1": "veniam",
+      "Post2": "sequi",
+      "Post3": "magnam",
+      "EmailName": "chauncey.marks@mertz.biz",
+      "ContactFullName": "Dr. Toy Gwendolyn Russel MD",
+      "ActiveErpLinks": 402,
+      "TicketPriorityId": 291,
+      "SupportLanguageId": 571,
       "SupportAssociateId": 583,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldType": "System.String",
+          "FieldLength": 337
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "dolores",
+  "Kananame": "quas",
   "Xstop": false,
-  "ActiveInterests": 923,
-  "GroupId": 249,
-  "ActiveStatusMonitorId": 562,
+  "ActiveInterests": 348,
+  "GroupId": 605,
+  "ActiveStatusMonitorId": 803,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 50,
-  "DbiAgentId": 796,
-  "DbiLastSyncronized": "2022-02-26T12:15:26.5756415+01:00",
-  "DbiKey": "porro",
-  "DbiLastModified": "2009-12-18T12:15:26.5756415+01:00",
+  "Deleted": 87,
+  "DbiAgentId": 937,
+  "DbiLastSyncronized": "2005-12-16T15:29:29.4852049+01:00",
+  "DbiKey": "eligendi",
+  "DbiLastModified": "2021-01-24T15:29:29.4852049+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 917,
-  "ActiveErpLinks": 448,
+  "Source": 42,
+  "ActiveErpLinks": 892,
   "BounceEmails": [
-    "glenda@reichel.co.uk",
-    "missouri@schulist.co.uk"
+    "lela.wyman@hammes.uk",
+    "reyes.pollich@koss.name"
   ],
   "Domains": [
-    "facere",
-    "dicta"
+    "voluptatum",
+    "nisi"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "1796563726",
-    "SuperOffice:2": "Nathanael Kshlerin I"
+    "SuperOffice:1": "Edd Hamill",
+    "SuperOffice:2": "Verda Mann DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "odit"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "provident",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 353
     }
   }
 }

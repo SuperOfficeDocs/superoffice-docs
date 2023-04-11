@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 398,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "vel",
+    "HeadingId": 168,
+    "Name": "Bode Group",
+    "Tooltip": "perspiciatis",
     "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 603
+    "Rank": 799,
+    "UdListDefinitionId": 153
   },
   {
-    "HeadingId": 398,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "vel",
+    "HeadingId": 168,
+    "Name": "Bode Group",
+    "Tooltip": "perspiciatis",
     "Deleted": false,
-    "Rank": 741,
-    "UdListDefinitionId": 603
+    "Rank": 799,
+    "UdListDefinitionId": 153
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 485,
-    "Name": "Connelly-Hettinger",
-    "Tooltip": "ut",
+    "HeadingId": 953,
+    "Name": "Gusikowski-Bins",
+    "Tooltip": "ratione",
     "Deleted": false,
-    "Rank": 700,
-    "UdListDefinitionId": 719,
+    "Rank": 95,
+    "UdListDefinitionId": 658,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

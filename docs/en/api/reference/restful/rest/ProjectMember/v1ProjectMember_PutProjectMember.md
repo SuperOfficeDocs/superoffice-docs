@@ -108,8 +108,8 @@ ProjectMember updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -118,31 +118,31 @@ ProjectMember updated.
 PUT /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 178,
-  "ContactId": 1002,
-  "ProjectId": 575,
-  "ContactName": "Armstrong Group",
+  "ProjectmemberId": 225,
+  "ContactId": 763,
+  "ProjectId": 909,
+  "ContactName": "Kshlerin-Rosenbaum",
   "ContactDepartment": "",
-  "ProjectName": "Mertz-Jenkins",
-  "EmailId": 100,
-  "EmailAddress": "ernie@wunschreinger.info",
-  "CountryId": 29,
-  "Firstname": "Cordie",
-  "MiddleName": "O'Connell Inc and Sons",
-  "Lastname": "Gleason",
-  "PersonId": 969,
-  "Mrmrs": "consectetur",
-  "ProjectMemberTypeName": "Kling, Kuhn and Champlin",
-  "Phone": "1-819-696-3563 x9435",
-  "PhoneId": 628,
-  "ProjectMemberTypeId": 143,
-  "EmailAddressName": "jacky@corkery.uk",
-  "Comment": "aut",
-  "FullName": "Jacinto Ledner"
+  "ProjectName": "Kreiger Inc and Sons",
+  "EmailId": 274,
+  "EmailAddress": "orpha.leffler@nicolas.ca",
+  "CountryId": 803,
+  "Firstname": "Laisha",
+  "MiddleName": "Brekke-Johns",
+  "Lastname": "Ruecker",
+  "PersonId": 912,
+  "Mrmrs": "sed",
+  "ProjectMemberTypeName": "Lesch, Hoppe and Smith",
+  "Phone": "215-684-4667 x31349",
+  "PhoneId": 784,
+  "ProjectMemberTypeId": 50,
+  "EmailAddressName": "carolyne@okeefe.us",
+  "Comment": "eos",
+  "FullName": "Kirsten Gusikowski"
 }
 ```
 
@@ -153,38 +153,38 @@ HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 18,
-  "ContactId": 458,
-  "ProjectId": 901,
-  "ContactName": "Prosacco LLC",
+  "ProjectmemberId": 213,
+  "ContactId": 66,
+  "ProjectId": 736,
+  "ContactName": "Bins, Bechtelar and Rutherford",
   "ContactDepartment": "",
-  "ProjectName": "Turcotte, Yundt and Kemmer",
-  "EmailId": 752,
-  "EmailAddress": "gonzalo@franeckiromaguera.biz",
-  "CountryId": 228,
-  "Firstname": "Baron",
-  "MiddleName": "Bailey, Smitham and Grady",
-  "Lastname": "Huels",
-  "PersonId": 224,
-  "Mrmrs": "et",
-  "ProjectMemberTypeName": "Wehner-Okuneva",
-  "Phone": "201-293-6977",
-  "PhoneId": 516,
-  "ProjectMemberTypeId": 862,
-  "EmailAddressName": "keven.schulist@gutkowskibogan.uk",
-  "Comment": "quaerat",
-  "FullName": "Daphnee Bart Pacocha Jr.",
+  "ProjectName": "Swift, Jakubowski and Nienow",
+  "EmailId": 115,
+  "EmailAddress": "marvin@wiegand.info",
+  "CountryId": 783,
+  "Firstname": "Janie",
+  "MiddleName": "Bartell Inc and Sons",
+  "Lastname": "Osinski",
+  "PersonId": 698,
+  "Mrmrs": "qui",
+  "ProjectMemberTypeName": "Wyman, Moen and Ebert",
+  "Phone": "1-042-887-0154 x80733",
+  "PhoneId": 863,
+  "ProjectMemberTypeId": 384,
+  "EmailAddressName": "naomie_botsford@gradyhyatt.us",
+  "Comment": "id",
+  "FullName": "Mavis Mueller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldLength": 575
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

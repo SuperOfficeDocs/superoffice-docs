@@ -59,8 +59,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 777,
-  "Name": "Murray LLC",
+  "ScreenChooserId": 324,
+  "Name": "Cruickshank-Wilkinson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "minima",
-  "Source": "aspernatur",
-  "Registered": "1999-01-26T12:15:18.6227564+01:00",
-  "RegisteredAssociateId": 861,
-  "Updated": "2001-04-11T12:15:18.6227564+02:00",
-  "UpdatedAssociateId": 397,
+  "UniqueIdentifier": "ut",
+  "Source": "qui",
+  "Registered": "2003-06-09T15:29:21.2492826+02:00",
+  "RegisteredAssociateId": 592,
+  "Updated": "2011-03-25T15:29:21.2492826+01:00",
+  "UpdatedAssociateId": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 494
     }
   }
 }

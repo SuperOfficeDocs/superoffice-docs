@@ -104,85 +104,85 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 215,
-  "Name": "Morar, Mante and Mayer",
+  "ContactId": 284,
+  "Name": "Block Group",
   "Department": "",
-  "OrgNr": "756046",
-  "Number1": "1540601",
-  "Number2": "1286793",
-  "UpdatedDate": "2023-02-01T12:15:26.7706452+01:00",
-  "CreatedDate": "2022-11-23T12:15:26.7706452+01:00",
+  "OrgNr": "809114",
+  "Number1": "1095511",
+  "Number2": "1127642",
+  "UpdatedDate": "1997-12-20T15:29:29.5797043+01:00",
+  "CreatedDate": "2022-06-14T15:29:29.5797043+02:00",
   "Emails": [
     {
-      "Value": "ab",
-      "StrippedValue": "est",
-      "Description": "Re-engineered multi-tasking algorithm"
+      "Value": "delectus",
+      "StrippedValue": "ipsam",
+      "Description": "Grass-roots even-keeled success"
     },
     {
-      "Value": "ab",
-      "StrippedValue": "est",
-      "Description": "Re-engineered multi-tasking algorithm"
+      "Value": "delectus",
+      "StrippedValue": "ipsam",
+      "Description": "Grass-roots even-keeled success"
     }
   ],
   "Interests": [
     {
-      "Id": 121,
-      "Name": "Sawayn-Bartell",
-      "ToolTip": "Voluptas consequuntur praesentium nihil.",
+      "Id": 412,
+      "Name": "Toy LLC",
+      "ToolTip": "Error et voluptatem laborum nemo omnis et et.",
       "Deleted": false,
-      "Rank": 590,
-      "Type": "sit",
-      "ColorBlock": 819,
-      "IconHint": "alias",
+      "Rank": 865,
+      "Type": "aut",
+      "ColorBlock": 955,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "1998-11-19T12:15:26.7706452+01:00",
+      "LastChanged": "2013-02-17T15:29:29.5802088+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "nesciunt",
-      "Hidden": false,
-      "FullName": "Karen Wisoky"
+      "ExtraInfo": "et",
+      "StyleHint": "autem",
+      "Hidden": true,
+      "FullName": "Miss Darien Moshe Hermiston"
     }
   ],
   "Urls": [
     {
-      "Value": "sed",
-      "StrippedValue": "corrupti",
-      "Description": "Assimilated object-oriented definition"
+      "Value": "omnis",
+      "StrippedValue": "cumque",
+      "Description": "Switchable scalable encoding"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "corrupti",
-      "Description": "Assimilated object-oriented definition"
+      "Value": "omnis",
+      "StrippedValue": "cumque",
+      "Description": "Switchable scalable encoding"
     }
   ],
   "Phones": [
     {
-      "Value": "repellat",
-      "StrippedValue": "sunt",
-      "Description": "Total homogeneous approach"
+      "Value": "dolor",
+      "StrippedValue": "exercitationem",
+      "Description": "Triple-buffered intermediate functionalities"
     },
     {
-      "Value": "repellat",
-      "StrippedValue": "sunt",
-      "Description": "Total homogeneous approach"
+      "Value": "dolor",
+      "StrippedValue": "exercitationem",
+      "Description": "Triple-buffered intermediate functionalities"
     }
   ],
   "Faxes": [
     {
-      "Value": "et",
-      "StrippedValue": "aut",
-      "Description": "Integrated national intranet"
+      "Value": "rerum",
+      "StrippedValue": "tempora",
+      "Description": "Profit-focused foreground array"
     },
     {
-      "Value": "et",
-      "StrippedValue": "aut",
-      "Description": "Integrated national intranet"
+      "Value": "rerum",
+      "StrippedValue": "tempora",
+      "Description": "Profit-focused foreground array"
     }
   ],
-  "Description": "Enhanced systematic concept",
+  "Description": "Sharable explicit framework",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -191,85 +191,85 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "aut",
-      "PersonId": 678,
-      "Mrmrs": "dolor",
-      "Firstname": "Delmer",
-      "Lastname": "Feil",
-      "MiddleName": "Jacobs LLC",
-      "Title": "alias",
-      "Description": "Proactive analyzing hub",
-      "Email": "selena@waters.info",
-      "FullName": "Mrs. Marcellus August Aufderhar PhD",
-      "DirectPhone": "635.673.9829 x9980",
-      "FormalName": "O'Reilly Group",
-      "CountryId": 788,
-      "ContactId": 113,
-      "ContactName": "Gottlieb Inc and Sons",
-      "Retired": 734,
-      "Rank": 612,
-      "ActiveInterests": 210,
+      "Position": "quibusdam",
+      "PersonId": 368,
+      "Mrmrs": "corrupti",
+      "Firstname": "Virgie",
+      "Lastname": "Schmitt",
+      "MiddleName": "Boehm, Considine and Botsford",
+      "Title": "perferendis",
+      "Description": "Distributed heuristic customer loyalty",
+      "Email": "edwina@reillyritchie.com",
+      "FullName": "Hans Kulas",
+      "DirectPhone": "1-928-547-9366 x9202",
+      "FormalName": "Schultz, Deckow and Leffler",
+      "CountryId": 589,
+      "ContactId": 518,
+      "ContactName": "Erdman, Stamm and Kessler",
+      "Retired": 29,
+      "Rank": 540,
+      "ActiveInterests": 381,
       "ContactDepartment": "",
-      "ContactCountryId": 172,
-      "ContactOrgNr": "810272",
-      "FaxPhone": "029-387-0530",
-      "MobilePhone": "(871)375-7868",
-      "ContactPhone": "(819)173-3633",
-      "AssociateName": "Larkin-Hodkiewicz",
-      "AssociateId": 104,
-      "UsePersonAddress": true,
-      "ContactFax": "velit",
-      "Kanafname": "aliquam",
-      "Kanalname": "et",
-      "Post1": "optio",
-      "Post2": "omnis",
-      "Post3": "voluptatem",
-      "EmailName": "helena@spinka.info",
-      "ContactFullName": "Dr. Litzy Greta Waelchi",
-      "ActiveErpLinks": 858,
-      "TicketPriorityId": 600,
-      "SupportLanguageId": 783,
-      "SupportAssociateId": 387,
+      "ContactCountryId": 190,
+      "ContactOrgNr": "811145",
+      "FaxPhone": "(102)269-9845",
+      "MobilePhone": "1-725-403-0129",
+      "ContactPhone": "(005)572-4625",
+      "AssociateName": "Roob LLC",
+      "AssociateId": 866,
+      "UsePersonAddress": false,
+      "ContactFax": "inventore",
+      "Kanafname": "ea",
+      "Kanalname": "ut",
+      "Post1": "quo",
+      "Post2": "illum",
+      "Post3": "ratione",
+      "EmailName": "cassie@rosenbaum.name",
+      "ContactFullName": "Mrs. Rachael Evan Funk",
+      "ActiveErpLinks": 380,
+      "TicketPriorityId": 246,
+      "SupportLanguageId": 4,
+      "SupportAssociateId": 678,
       "CategoryName": "VIP Customer"
     }
   ],
-  "NoMailing": true,
-  "Kananame": "quaerat",
-  "Xstop": true,
-  "ActiveInterests": 545,
-  "GroupId": 848,
-  "ActiveStatusMonitorId": 921,
+  "NoMailing": false,
+  "Kananame": "eaque",
+  "Xstop": false,
+  "ActiveInterests": 751,
+  "GroupId": 197,
+  "ActiveStatusMonitorId": 976,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 455,
-  "DbiAgentId": 310,
-  "DbiLastSyncronized": "2004-07-10T12:15:26.7766379+02:00",
-  "DbiKey": "quia",
-  "DbiLastModified": "2003-02-24T12:15:26.7766379+01:00",
+  "Deleted": 99,
+  "DbiAgentId": 682,
+  "DbiLastSyncronized": "2022-05-07T15:29:29.5857024+02:00",
+  "DbiKey": "provident",
+  "DbiLastModified": "2021-10-13T15:29:29.5857024+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 712,
-  "ActiveErpLinks": 632,
+  "Source": 404,
+  "ActiveErpLinks": 639,
   "BounceEmails": [
-    "marcos_bins@schadendach.info",
-    "glenda.schiller@beer.ca"
+    "reginald.legros@spinkawhite.name",
+    "jerome@prohaskanitzsche.co.uk"
   ],
   "Domains": [
-    "magnam",
-    "rem"
+    "ut",
+    "animi"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Thurman Leon Emard",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Reta Oberbrunner",
+    "SuperOffice:2": "Mr. Laverne Williamson IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "et",
+    "CustomFields2": "animi"
   }
 }
 ```
@@ -281,7 +281,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "velit",
-  "2": "consectetur"
+  "1": "et",
+  "2": "dolores"
 }
 ```

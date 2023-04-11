@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 332,
-  "StartTime": "2005-11-03T12:15:18.7197552+01:00",
-  "EndTime": "2006-10-27T12:15:18.7197552+02:00",
-  "Count": 417,
-  "TemplateHeadingId": 656
+  "PersonId": 646,
+  "StartTime": "2012-11-24T15:29:21.4812789+01:00",
+  "EndTime": "2023-01-18T15:29:21.4812789+01:00",
+  "Count": 460,
+  "TemplateHeadingId": 70
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 229,
-    "Attention": "numquam",
-    "Header": "ratione",
-    "Name": "Koss, Rice and Bradtke",
-    "OurRef": "accusantium",
+    "DocumentId": 956,
+    "Attention": "quaerat",
+    "Header": "sapiente",
+    "Name": "Cummings Group",
+    "OurRef": "saepe",
     "YourRef": "fugit",
-    "Description": "Compatible incremental Graphical User Interface",
-    "DocumentTemplate": "nobis",
+    "Description": "Public-key system-worthy moderator",
+    "DocumentTemplate": "assumenda",
     "IsPublished": true,
-    "PersonId": 669,
-    "PersonFullName": "Dr. Jaiden Melisa Ankunding IV",
-    "AssociateFullName": "Raheem Harris",
-    "ContactId": 269,
-    "ContactName": "Moore, Lubowitz and Goodwin",
-    "ProjectId": 999,
-    "ProjectName": "Huels, Dietrich and Lockman",
-    "AssociateId": 238,
-    "Snum": 552,
-    "SaleId": 596,
-    "SaleName": "Nienow-Collier",
+    "PersonId": 520,
+    "PersonFullName": "Kobe June Hermiston DDS",
+    "AssociateFullName": "Ms. Trudie Allen Schamberger",
+    "ContactId": 70,
+    "ContactName": "Jacobi, Kautzer and Osinski",
+    "ProjectId": 399,
+    "ProjectName": "Sipes Group",
+    "AssociateId": 933,
+    "Snum": 340,
+    "SaleId": 969,
+    "SaleName": "Weissnat Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldType": "System.String",
+        "FieldLength": 238
       }
     }
   }

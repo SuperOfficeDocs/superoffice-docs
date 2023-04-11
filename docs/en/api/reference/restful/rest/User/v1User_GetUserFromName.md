@@ -75,8 +75,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 477,
-  "Name": "Hintz, Klocko and Hansen",
-  "Rank": 555,
-  "Tooltip": "omnis",
+  "AssociateId": 926,
+  "Name": "Johnson LLC",
+  "Rank": 411,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Hermiston-Ankunding",
-      "Description": "Quality-focused transitional circuit",
+      "Name": "Hegmann, Rau and Kutch",
+      "Description": "Triple-buffered full-range core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     },
     {
-      "Name": "Hermiston-Ankunding",
-      "Description": "Quality-focused transitional circuit",
+      "Name": "Hegmann, Rau and Kutch",
+      "Description": "Triple-buffered full-range core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "iste",
-      "Tooltip": "maxime",
-      "Id": 939,
-      "Rank": 432,
-      "Deleted": true,
+      "Value": "quos",
+      "Tooltip": "tempora",
+      "Id": 854,
+      "Rank": 587,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 333
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-06-20T12:15:27.7686278+02:00",
-  "Lastlogout": "2009-07-26T12:15:27.7686278+02:00",
-  "EjUserId": 566,
-  "RequestSignature": "omnis",
+  "Lastlogin": "1997-04-14T15:29:30.9754857+02:00",
+  "Lastlogout": "2013-10-12T15:29:30.9754857+02:00",
+  "EjUserId": 727,
+  "RequestSignature": "reiciendis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nemo",
-      "DisplayValue": "impedit",
+      "Value": "et",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 920
         }
       }
     },
     {
       "Type": null,
-      "Value": "nemo",
-      "DisplayValue": "impedit",
+      "Value": "et",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldLength": 920
         }
       }
     }
   ],
-  "UserName": "Paucek, Bogisich and Feil",
+  "UserName": "Luettgen, Corkery and Heller",
   "TicketCategories": [
     {
-      "Id": 34,
-      "Name": "Prohaska Inc and Sons",
-      "ToolTip": "Assumenda vitae tempora veritatis quia accusamus facere nisi.",
+      "Id": 8,
+      "Name": "Becker Group",
+      "ToolTip": "Doloribus nobis dolor voluptatem.",
       "Deleted": false,
-      "Rank": 992,
-      "Type": "laborum",
+      "Rank": 799,
+      "Type": "corporis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cupiditate",
-      "ColorBlock": 500,
-      "ExtraInfo": "laborum",
-      "StyleHint": "qui",
-      "FullName": "Miss Carmela Destiney Yost",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
-        }
-      }
-    }
-  ],
-  "NickName": "Leuschke-Pfeffer",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "in"
-  },
-  "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "dolor"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kling, Hessel and Lemke",
-      "DisplayName": "Lesch-McLaughlin",
-      "Description": "Polarised encompassing algorithm",
-      "ToolTip": "Ipsa in omnis omnis quia.",
-      "Actions": "Implicit",
-      "ActionData": "quo",
+      "IconHint": "veniam",
+      "ColorBlock": 848,
+      "ExtraInfo": "et",
+      "StyleHint": "voluptas",
+      "FullName": "Ms. Kariane Casey Deckow V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 114
+          "FieldLength": 763
+        }
+      }
+    }
+  ],
+  "NickName": "Kreiger, Blick and Cummings",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "repudiandae"
+  },
+  "CustomFields": {
+    "CustomFields1": "quod",
+    "CustomFields2": "pariatur"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Bergnaum LLC",
+      "DisplayName": "Carroll-Rutherford",
+      "Description": "Seamless non-volatile middleware",
+      "ToolTip": "Quisquam et tempore sint reprehenderit deleniti pariatur.",
+      "Actions": "Implicit",
+      "ActionData": "ducimus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 464
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

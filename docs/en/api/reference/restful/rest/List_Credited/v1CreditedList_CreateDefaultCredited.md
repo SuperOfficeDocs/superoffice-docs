@@ -50,8 +50,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -59,7 +59,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 361,
-  "Name": "Bednar, Windler and Jerde",
-  "Tooltip": "sequi",
+  "Id": 425,
+  "Name": "Metz LLC",
+  "Tooltip": "labore",
   "Deleted": false,
-  "UdListDefinitionId": 581,
-  "Rank": 334,
+  "UdListDefinitionId": 295,
+  "Rank": 376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldType": "System.Int32",
+      "FieldLength": 170
     }
   }
 }

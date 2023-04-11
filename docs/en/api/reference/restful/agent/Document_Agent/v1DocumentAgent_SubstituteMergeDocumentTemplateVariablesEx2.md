@@ -77,21 +77,21 @@ OK
 POST /api/v1/Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 19,
-  "ContactId": 279,
-  "PersonId": 639,
-  "ProjectId": 934,
-  "SelectionId": 601,
-  "AppointmentId": 662,
-  "DocumentId": 916,
-  "SaleId": 986,
+  "MergeDocumentId": 693,
+  "ContactId": 74,
+  "PersonId": 154,
+  "ProjectId": 611,
+  "SelectionId": 478,
+  "AppointmentId": 444,
+  "DocumentId": 97,
+  "SaleId": 887,
   "CustomTags": {
-    "CustomTags1": "molestiae",
-    "CustomTags2": "enim"
+    "CustomTags1": "vero",
+    "CustomTags2": "rerum"
   }
 }
 ```

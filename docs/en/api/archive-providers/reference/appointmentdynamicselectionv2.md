@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmentDynamicSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -685,7 +685,7 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=appointmentPublish/publishedTo,contact/streetAddress/addressId,person/personAddress/addressId,person/personAddress/line2,person/restrictionAddress/formattedAddress
+GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=suggestedAppointmentId,person/correspondingAssociate/isActiveText,sale/saleType,sale/saleUdef/SuperOffice:6,associate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -116,8 +116,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -125,14 +125,14 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 445,
-  "StartTime": "1997-07-04T12:15:18.0007659+02:00",
-  "EndTime": "2002-02-01T12:15:18.0007659+01:00",
-  "Count": 909
+  "PersonId": 823,
+  "StartTime": "2013-04-27T15:29:20.7452895+02:00",
+  "EndTime": "2017-10-05T15:29:20.7452895+02:00",
+  "Count": 852
 }
 ```
 
@@ -144,53 +144,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 871,
-    "StartDate": "1996-06-07T12:15:18.1217644+02:00",
-    "EndDate": "2014-08-24T12:15:18.1217644+02:00",
+    "AppointmentId": 902,
+    "StartDate": "2014-02-01T15:29:20.7462902+01:00",
+    "EndDate": "2019-04-19T15:29:20.7462902+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Nora Powlowski",
-    "ContactName": "Gaylord, Keebler and Padberg",
-    "Description": "Organized 3rd generation analyzer",
-    "PersonFullName": "Walton Schuster",
-    "PersonId": 804,
-    "ContactId": 141,
-    "ProjectId": 812,
-    "ProjectName": "Sanford, Hilll and Cruickshank",
-    "IsPublished": true,
-    "AssociateId": 64,
-    "ColorIndex": 791,
+    "Task": "omnis",
+    "AssociateFullName": "Bennett Berenice Auer II",
+    "ContactName": "Kreiger-Franecki",
+    "Description": "Centralized regional Graphical User Interface",
+    "PersonFullName": "Aracely Hane",
+    "PersonId": 710,
+    "ContactId": 885,
+    "ProjectId": 325,
+    "ProjectName": "Sawayn, Terry and Connelly",
+    "IsPublished": false,
+    "AssociateId": 730,
+    "ColorIndex": 147,
     "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 753,
-    "PriorityName": "Johnson Group",
+    "PriorityId": 446,
+    "PriorityName": "Hegmann, Huels and Gerhold",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2000-04-21T12:15:18.1217644+02:00",
+    "ActiveDate": "2016-08-02T15:29:20.7467897+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-03-28T12:15:18.1217644+02:00",
-    "RecurringEndDate": "2017-09-17T12:15:18.1217644+02:00",
-    "MotherId": 565,
-    "AssignedBy": 884,
-    "AssignedByFullName": "Zackery Kemmer",
+    "RecurringStartDate": "2016-02-05T15:29:20.7467897+01:00",
+    "RecurringEndDate": "2019-03-24T15:29:20.7467897+01:00",
+    "MotherId": 694,
+    "AssignedBy": 917,
+    "AssignedByFullName": "Ms. Wilburn Nitzsche",
     "RejectReason": "",
-    "Location": "dolores",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 713,
-    "SaleName": "Terry-Zieme",
-    "AssociateName": "Davis-Jacobi",
-    "CreatedDate": "2017-12-09T12:15:18.1227647+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Bernard Heathcote",
-    "CreatedByAssociateId": 850,
+    "Location": "facere",
+    "AlarmLeadTime": "in",
+    "SaleId": 133,
+    "SaleName": "Waters LLC",
+    "AssociateName": "Goodwin LLC",
+    "CreatedDate": "1997-10-23T15:29:20.7472904+02:00",
+    "CreatedBy": "consectetur",
+    "CreatedByFullName": "Miss Hollis Muller V",
+    "CreatedByAssociateId": 707,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldLength": 682
       }
     }
   }

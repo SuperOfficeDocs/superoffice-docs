@@ -95,8 +95,8 @@ OK
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,32 +104,32 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 251,
-  "FormKey": "sit",
-  "Name": "Reinger-Frami",
-  "Description": "Virtual web-enabled productivity",
-  "Config": "velit",
-  "FolderId": 609,
-  "ScriptId": 5,
-  "ResponseShipmentId": 819,
+  "FormId": 371,
+  "FormKey": "ut",
+  "Name": "Nikolaus-Champlin",
+  "Description": "Organized 5th generation synergy",
+  "Config": "perspiciatis",
+  "FolderId": 999,
+  "ScriptId": 353,
+  "ResponseShipmentId": 695,
   "Active": false,
-  "Expires": "2002-07-14T12:15:19.3637489+02:00",
-  "MaxSubmits": 989,
+  "Expires": "1995-12-08T15:29:22.1247711+01:00",
+  "MaxSubmits": 156,
   "Type": "Normal",
-  "Recipe": "iusto",
-  "GroupId": 201,
-  "NewTicket": false,
+  "Recipe": "perspiciatis",
+  "GroupId": 688,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2009-06-16T12:15:19.3637489+02:00",
-  "RegisteredAssociateId": 93,
-  "Updated": "2001-12-22T12:15:19.3637489+01:00",
-  "UpdatedAssociateId": 50,
-  "UpdatedCount": 548,
-  "FolderName": "Brakus-Little"
+  "Registered": "2007-06-05T15:29:22.1247711+02:00",
+  "RegisteredAssociateId": 779,
+  "Updated": "2016-01-08T15:29:22.1247711+01:00",
+  "UpdatedAssociateId": 990,
+  "UpdatedCount": 694,
+  "FolderName": "Grant, Eichmann and Kautzer"
 }
 ```
 
@@ -140,34 +140,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 32,
-  "FormKey": "omnis",
-  "Name": "Bogan, Dooley and Beier",
-  "Description": "Progressive bottom-line budgetary management",
-  "Config": "beatae",
-  "FolderId": 187,
-  "ScriptId": 848,
-  "ResponseShipmentId": 824,
-  "Active": true,
-  "Expires": "2007-03-16T12:15:19.3637489+01:00",
-  "MaxSubmits": 600,
+  "FormId": 278,
+  "FormKey": "laborum",
+  "Name": "Heller Inc and Sons",
+  "Description": "Triple-buffered interactive hub",
+  "Config": "ut",
+  "FolderId": 132,
+  "ScriptId": 978,
+  "ResponseShipmentId": 340,
+  "Active": false,
+  "Expires": "2006-04-07T15:29:22.1252703+02:00",
+  "MaxSubmits": 951,
   "Type": "Normal",
-  "Recipe": "accusantium",
-  "GroupId": 144,
+  "Recipe": "labore",
+  "GroupId": 421,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2020-12-22T12:15:19.3637489+01:00",
-  "RegisteredAssociateId": 751,
-  "Updated": "2010-10-03T12:15:19.3637489+02:00",
-  "UpdatedAssociateId": 118,
-  "UpdatedCount": 258,
-  "FolderName": "Baumbach LLC",
+  "Registered": "2009-03-15T15:29:22.1252703+01:00",
+  "RegisteredAssociateId": 998,
+  "Updated": "1999-06-22T15:29:22.1252703+02:00",
+  "UpdatedAssociateId": 450,
+  "UpdatedCount": 386,
+  "FolderName": "McDermott-Lind",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldLength": 747
     }
   }
 }

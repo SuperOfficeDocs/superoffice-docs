@@ -80,8 +80,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,46 +99,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 835,
-  "ColumnId": 423,
-  "FieldDefault": "nisi",
-  "FieldHeight": 326,
-  "FieldLabel": "et",
-  "FieldLeft": 757,
-  "FieldTop": 296,
+  "UDefFieldId": 108,
+  "ColumnId": 586,
+  "FieldDefault": "saepe",
+  "FieldHeight": 794,
+  "FieldLabel": "ut",
+  "FieldLeft": 687,
+  "FieldTop": 959,
   "FieldType": "Checkbox",
-  "FieldWidth": 81,
-  "FormatMask": "sunt",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 10,
-  "LabelLeft": 342,
-  "LabelTop": 59,
-  "LabelWidth": 840,
-  "LastVersionId": 653,
-  "ListTableId": 800,
+  "FieldWidth": 533,
+  "FormatMask": "autem",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 409,
+  "LabelLeft": 294,
+  "LabelTop": 806,
+  "LabelWidth": 567,
+  "LastVersionId": 677,
+  "ListTableId": 298,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 887,
-  "ProgId": "libero",
+  "Page1LineNo": 931,
+  "ProgId": "quo",
   "IsReadOnly": true,
-  "ShortLabel": "ad",
-  "TabOrder": 449,
-  "TextLength": 698,
-  "Tooltip": "adipisci",
-  "UdefIdentity": 370,
-  "UDListDefinitionId": 903,
+  "ShortLabel": "veritatis",
+  "TabOrder": 624,
+  "TextLength": 228,
+  "Tooltip": "nihil",
+  "UdefIdentity": 446,
+  "UDListDefinitionId": 52,
   "Justification": "Center",
-  "Version": 39,
-  "TemplateVariableName": "Okuneva-Feest",
+  "Version": 947,
+  "TemplateVariableName": "White Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Schoen Inc and Sons",
+  "MdoListName": "Fritsch Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

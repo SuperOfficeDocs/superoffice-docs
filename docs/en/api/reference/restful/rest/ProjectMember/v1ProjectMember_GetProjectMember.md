@@ -82,8 +82,8 @@ ProjectMember found.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -102,33 +102,33 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 700,
-  "ContactId": 607,
-  "ProjectId": 647,
-  "ContactName": "Hessel Group",
+  "ProjectmemberId": 686,
+  "ContactId": 734,
+  "ProjectId": 799,
+  "ContactName": "Huels-Auer",
   "ContactDepartment": "",
-  "ProjectName": "Brown-Schmeler",
-  "EmailId": 345,
-  "EmailAddress": "sonny@gibson.co.uk",
-  "CountryId": 179,
-  "Firstname": "Luna",
-  "MiddleName": "Osinski-Yost",
-  "Lastname": "Greenholt",
-  "PersonId": 753,
-  "Mrmrs": "error",
-  "ProjectMemberTypeName": "White-Frami",
-  "Phone": "1-506-639-5991 x14041",
-  "PhoneId": 328,
-  "ProjectMemberTypeId": 377,
-  "EmailAddressName": "vicenta.mccullough@douglas.info",
-  "Comment": "laboriosam",
-  "FullName": "Agnes Kulas",
+  "ProjectName": "Thompson, Bailey and Robel",
+  "EmailId": 780,
+  "EmailAddress": "jasmin.rogahn@beatty.uk",
+  "CountryId": 814,
+  "Firstname": "Iva",
+  "MiddleName": "Herzog Inc and Sons",
+  "Lastname": "Hansen",
+  "PersonId": 952,
+  "Mrmrs": "molestiae",
+  "ProjectMemberTypeName": "Schmeler, Funk and Greenfelder",
+  "Phone": "886-104-5665",
+  "PhoneId": 991,
+  "ProjectMemberTypeId": 328,
+  "EmailAddressName": "shemar@mraz.info",
+  "Comment": "quis",
+  "FullName": "Hailee Sipes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 693
     }
   },
   "_Links": {
