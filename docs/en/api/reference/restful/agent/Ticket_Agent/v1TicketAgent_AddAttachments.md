@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,10 +70,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 493,
+  "TicketMessageEntityId": 504,
   "AttachmentIds": [
-    758,
-    328
+    287,
+    667
   ]
 }
 ```

@@ -73,8 +73,8 @@ OK
 | ContactDepartment | string | Department |
 | ContactCategory | string | Contact category |
 | SortName | string | If person ? The person name, else contact name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ruecker, Parisian and Wilderman",
-  "EmailAddress": "jordane_oconner@ryan.biz"
+  "Name": "Cole-Kub",
+  "EmailAddress": "brandt@bosco.co.uk"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 784,
-    "FullName": "Mrs. Kenna Jedediah Klocko",
-    "EmailAddress": "althea_rippin@christiansenabernathy.uk",
-    "ContactId": 116,
-    "ContactName": "Block, Mraz and Armstrong",
+    "PersonId": 533,
+    "FullName": "Mrs. Terrence Meta Hodkiewicz",
+    "EmailAddress": "lexie_prosacco@mohr.info",
+    "ContactId": 793,
+    "ContactName": "Glover, Bartoletti and King",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Beatty, Erdman and Ondricka",
+    "SortName": "Mraz-Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldLength": 85
       }
     }
   }

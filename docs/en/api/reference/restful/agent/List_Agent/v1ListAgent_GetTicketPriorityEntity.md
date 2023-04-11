@@ -25,7 +25,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=282
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=553
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -84,8 +84,8 @@ OK
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,60 +103,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 530,
-  "Name": "McGlynn LLC",
+  "TicketPriorityId": 175,
+  "Name": "Conn-Conn",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 927,
+  "SortOrder": 117,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 262,
-  "MonStart": "2009-12-20T12:15:19.2027546+01:00",
-  "MonStop": "2000-02-17T12:15:19.2027546+01:00",
-  "TueStart": "2003-10-10T12:15:19.2027546+02:00",
-  "TueStop": "2022-06-23T12:15:19.2027546+02:00",
-  "WedStart": "2017-04-08T12:15:19.2027546+02:00",
-  "WedStop": "2000-08-21T12:15:19.2027546+02:00",
-  "ThuStart": "2010-08-01T12:15:19.2027546+02:00",
-  "ThuStop": "2008-01-10T12:15:19.2027546+01:00",
-  "FriStart": "2015-08-04T12:15:19.2027546+02:00",
-  "FriStop": "2020-06-02T12:15:19.2027546+02:00",
-  "SatStart": "2022-01-17T12:15:19.2027546+01:00",
-  "SatStop": "2017-01-06T12:15:19.2027546+01:00",
-  "SunStart": "2015-08-30T12:15:19.2027546+02:00",
-  "SunStop": "2020-12-19T12:15:19.2027546+01:00",
+  "Deadline": 121,
+  "MonStart": "2018-01-12T15:29:21.9638093+01:00",
+  "MonStop": "2005-07-13T15:29:21.9638093+02:00",
+  "TueStart": "2016-03-13T15:29:21.9638093+01:00",
+  "TueStop": "2021-06-11T15:29:21.9638093+02:00",
+  "WedStart": "2017-04-22T15:29:21.9638093+02:00",
+  "WedStop": "2007-02-15T15:29:21.9638093+01:00",
+  "ThuStart": "2001-01-10T15:29:21.9638093+01:00",
+  "ThuStop": "2017-09-09T15:29:21.9638093+02:00",
+  "FriStart": "2015-05-22T15:29:21.9638093+02:00",
+  "FriStop": "2005-05-22T15:29:21.9638093+02:00",
+  "SatStart": "2016-07-28T15:29:21.9638093+02:00",
+  "SatStop": "1995-12-26T15:29:21.9638093+01:00",
+  "SunStart": "2020-10-14T15:29:21.9638093+02:00",
+  "SunStop": "2007-03-29T15:29:21.9638093+02:00",
   "NonDates": [
-    "eligendi",
-    "sed"
+    "et",
+    "temporibus"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 15,
-      "AlertLevel": 247,
-      "AlertTimeout": 173,
-      "Action": 515,
-      "DelegateTo": 606,
-      "ScriptId": 668,
-      "EmailTo": "neal@gorczany.ca",
-      "SmsTo": "quis",
-      "ReplyTemplateIdCustomer": 817,
-      "ReplyTemplateIdUser": 654,
-      "ReplyTemplateIdCatmast": 606,
-      "ReplyTemplateIdEmail": 118,
-      "RtiCustomerSms": 428,
-      "ReplyTemplateIdUserSms": 437,
-      "ReplyTemplateIdCatmastSms": 628,
-      "ReplyTemplateIdSms": 131,
+      "TicketAlertId": 228,
+      "AlertLevel": 796,
+      "AlertTimeout": 408,
+      "Action": 228,
+      "DelegateTo": 143,
+      "ScriptId": 266,
+      "EmailTo": "mateo@prohaska.biz",
+      "SmsTo": "ducimus",
+      "ReplyTemplateIdCustomer": 932,
+      "ReplyTemplateIdUser": 750,
+      "ReplyTemplateIdCatmast": 111,
+      "ReplyTemplateIdEmail": 947,
+      "RtiCustomerSms": 953,
+      "ReplyTemplateIdUserSms": 866,
+      "ReplyTemplateIdCatmastSms": 433,
+      "ReplyTemplateIdSms": 232,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldType": "System.String",
+          "FieldLength": 767
         }
       }
     }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 250
     }
   }
 }

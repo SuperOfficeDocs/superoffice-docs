@@ -67,8 +67,8 @@ OK
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,13 +80,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 112,
+  "ReportId": 953,
   "ReportCategory": "All",
-  "Description": "Total upward-trending productivity",
+  "Description": "Realigned 5th generation product",
   "ReportLayout": "CalendarMonth",
-  "Name": "Wilderman LLC",
-  "AssociateId": 630,
-  "TemplateId": 227,
+  "Name": "Feeney, Blick and Herzog",
+  "AssociateId": 745,
+  "TemplateId": 890,
   "Published": false
 }
 ```
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 402,
+  "ReportId": 590,
   "ReportCategory": "All",
-  "Description": "Right-sized transitional model",
+  "Description": "Public-key object-oriented service-desk",
   "ReportLayout": "CalendarMonth",
-  "Name": "Smith-Stroman",
-  "AssociateId": 462,
-  "TemplateId": 266,
+  "Name": "Osinski-Cole",
+  "AssociateId": 540,
+  "TemplateId": 25,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 10
     }
   }
 }

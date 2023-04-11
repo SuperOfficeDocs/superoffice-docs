@@ -97,8 +97,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 832
+  "UserGroupId": 247
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 673,
-    "ColumnId": 449,
-    "FieldDefault": "libero",
-    "FieldHeight": 277,
-    "FieldLabel": "expedita",
-    "FieldLeft": 407,
-    "FieldTop": 821,
+    "UDefFieldId": 399,
+    "ColumnId": 146,
+    "FieldDefault": "veniam",
+    "FieldHeight": 581,
+    "FieldLabel": "minima",
+    "FieldLeft": 165,
+    "FieldTop": 407,
     "FieldType": "Checkbox",
-    "FieldWidth": 845,
-    "FormatMask": "dignissimos",
+    "FieldWidth": 848,
+    "FormatMask": "maiores",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 678,
-    "LabelLeft": 766,
-    "LabelTop": 478,
-    "LabelWidth": 814,
-    "LastVersionId": 938,
-    "ListTableId": 319,
+    "IsIndexed": true,
+    "LabelHeight": 41,
+    "LabelLeft": 479,
+    "LabelTop": 999,
+    "LabelWidth": 17,
+    "LastVersionId": 442,
+    "ListTableId": 908,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 795,
-    "ProgId": "quia",
+    "Page1LineNo": 5,
+    "ProgId": "maiores",
     "IsReadOnly": false,
-    "ShortLabel": "a",
-    "TabOrder": 978,
-    "TextLength": 502,
-    "Tooltip": "vitae",
-    "UdefIdentity": 517,
-    "UDListDefinitionId": 525,
+    "ShortLabel": "maxime",
+    "TabOrder": 608,
+    "TextLength": 5,
+    "Tooltip": "laudantium",
+    "UdefIdentity": 504,
+    "UDListDefinitionId": 831,
     "Justification": "Center",
-    "Version": 936,
-    "TemplateVariableName": "Kling-Wuckert",
+    "Version": 855,
+    "TemplateVariableName": "Bauch LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Botsford-Ziemann",
+    "MdoListName": "Labadie-Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 85
+        "FieldLength": 317
       }
     }
   }

@@ -62,28 +62,11 @@ Application tokens must be specified if calling an Online installation. Applicat
  xmlns:Workflow="http://www.superoffice.net/ws/crm/NetServer/Services88">
  <SOAP-ENV:Body>
   <Workflow:GetWorkflowStepResponse>
-   <Workflow:Response xsi:type="Workflow:WorkflowStep">
+   <Workflow:Response xsi:type="Workflow:WorkflowStepBase">
     <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
+    <Workflow:WorkflowId xsi:type="xsd:int">0</Workflow:WorkflowId>
     <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-    <Workflow:SubSteps xsi:type="Workflow:ArrayOfWorkflowStep">
-     <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
-      <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
-      <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-      <Workflow:SubSteps xsi:type="Workflow:ArrayOfWorkflowStep">
-       <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
-        <Workflow:WorkflowStepId xsi:type="xsd:int">0</Workflow:WorkflowStepId>
-        <Workflow:StepType xsi:type="Workflow:WorkflowStepType">None</Workflow:StepType>
-        <Workflow:SubSteps xsi:type="Workflow:ArrayOfWorkflowStep">
-         <Workflow:WorkflowStep xsi:type="Workflow:WorkflowStep">
-          <Workflow:WorkflowStepId xsi:nil="true"></Workflow:WorkflowStepId>
-          <Workflow:StepType xsi:nil="true"></Workflow:StepType>
-          <Workflow:SubSteps xsi:nil="true"></Workflow:SubSteps>
-         </Workflow:WorkflowStep>
-        </Workflow:SubSteps>
-       </Workflow:WorkflowStep>
-      </Workflow:SubSteps>
-     </Workflow:WorkflowStep>
-    </Workflow:SubSteps>
+    <Workflow:Rank xsi:type="xsd:int">0</Workflow:Rank>
    </Workflow:Response>
   </Workflow:GetWorkflowStepResponse>
  </SOAP-ENV:Body>

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Cartwright Group",
-    "ToolTip": "Sit qui aperiam.",
-    "Deleted": false,
-    "Rank": 124,
-    "Type": "deleniti",
-    "ColorBlock": 854,
-    "IconHint": "aliquam",
+    "Id": 390,
+    "Name": "Wolf-Hegmann",
+    "ToolTip": "Omnis eum iusto iusto quia et.",
+    "Deleted": true,
+    "Rank": 374,
+    "Type": "ipsa",
+    "ColorBlock": 722,
+    "IconHint": "aliquid",
     "Selected": true,
-    "LastChanged": "2010-02-16T12:15:28.1176187+01:00",
+    "LastChanged": "2001-06-28T15:29:31.2284787+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Walsh Inc and Sons",
-        "ToolTip": "Necessitatibus quam magni et non porro.",
-        "Deleted": true,
-        "Rank": 702,
-        "Type": "consequatur",
-        "ColorBlock": 639,
-        "IconHint": "accusantium",
+        "Id": 892,
+        "Name": "Crist-Dicki",
+        "ToolTip": "Amet esse laborum sit aliquid.",
+        "Deleted": false,
+        "Rank": 646,
+        "Type": "similique",
+        "ColorBlock": 364,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "1996-12-02T12:15:28.1176187+01:00",
+        "LastChanged": "2015-05-25T15:29:31.2289792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "non",
+        "ExtraInfo": "similique",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Mrs. Oscar Hintz PhD"
+        "FullName": "Kaci Littel"
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Vallie Royal Hills PhD"
+    "ExtraInfo": "error",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Prof. Carlotta Ortiz"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Muller, Weissnat and Purdy",
-    "ToolTip": "Beatae velit officiis natus placeat dolores.",
+    "Id": 922,
+    "Name": "Emard, Bogan and Stehr",
+    "ToolTip": "Consequatur occaecati eveniet est labore consequatur.",
     "Deleted": true,
-    "Rank": 448,
-    "Type": "temporibus",
-    "ColorBlock": 725,
-    "IconHint": "quos",
-    "Selected": false,
-    "LastChanged": "2010-05-02T12:15:28.1196189+02:00",
+    "Rank": 335,
+    "Type": "architecto",
+    "ColorBlock": 282,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "1997-09-25T15:29:31.2309803+02:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Kuhn-Orn",
-        "ToolTip": "Et perferendis et cupiditate delectus soluta qui.",
+        "Id": 442,
+        "Name": "Keebler, Lakin and Hansen",
+        "ToolTip": "Numquam ipsum sit eveniet ut totam est.",
         "Deleted": false,
-        "Rank": 245,
-        "Type": "ut",
-        "ColorBlock": 641,
-        "IconHint": "rerum",
+        "Rank": 979,
+        "Type": "et",
+        "ColorBlock": 596,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2011-09-27T12:15:28.1196189+02:00",
+        "LastChanged": "2020-06-14T15:29:31.2309803+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Mr. Emely Jacinthe O'Kon",
+        "ExtraInfo": "qui",
+        "StyleHint": "quisquam",
+        "Hidden": false,
+        "FullName": "Obie Assunta Graham III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 574
+            "FieldType": "System.Int32",
+            "FieldLength": 400
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Dr. Alvina Kadin Hansen",
+    "ExtraInfo": "officia",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Carmella Alverta Kihn Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 669
+        "FieldType": "System.Int32",
+        "FieldLength": 321
       }
     }
   }

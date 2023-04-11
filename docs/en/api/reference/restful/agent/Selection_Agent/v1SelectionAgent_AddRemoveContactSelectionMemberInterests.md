@@ -58,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -67,26 +67,26 @@ No Content
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 867,
+  "SelectionId": 85,
   "AddCompanyInterests": [
-    61,
-    492
+    708,
+    985
   ],
   "RemoveCompanyInterests": [
-    51,
-    724
+    788,
+    127
   ],
   "AddContactInterests": [
-    64,
-    907
+    399,
+    300
   ],
   "RemoveContactInterests": [
-    558,
-    90
+    826,
+    650
   ]
 }
 ```

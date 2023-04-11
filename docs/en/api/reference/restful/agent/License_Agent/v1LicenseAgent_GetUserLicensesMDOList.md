@@ -69,8 +69,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Lindgren Group",
-    "ToolTip": "Veritatis maiores deleniti porro nisi possimus.",
-    "Deleted": true,
-    "Rank": 982,
-    "Type": "ut",
-    "ColorBlock": 357,
-    "IconHint": "rem",
+    "Id": 499,
+    "Name": "Green LLC",
+    "ToolTip": "Rerum et et qui recusandae et.",
+    "Deleted": false,
+    "Rank": 456,
+    "Type": "consequatur",
+    "ColorBlock": 252,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "1999-03-23T12:15:19.1877513+01:00",
+    "LastChanged": "2016-06-04T15:29:21.948809+02:00",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Flatley Group",
-        "ToolTip": "Et dolor repudiandae ea inventore explicabo ut.",
+        "Id": 720,
+        "Name": "Hills, Hilll and Lemke",
+        "ToolTip": "Quod nostrum.",
         "Deleted": false,
-        "Rank": 642,
-        "Type": "perspiciatis",
-        "ColorBlock": 590,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2009-01-01T12:15:19.1887489+01:00",
+        "Rank": 87,
+        "Type": "animi",
+        "ColorBlock": 650,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2020-03-02T15:29:21.948809+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "dolorum",
-        "Hidden": true,
-        "FullName": "Mollie Wolf",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Prof. Jerry Adella Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 806
+            "FieldLength": 453
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "earum",
+    "ExtraInfo": "qui",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Miss Garett Wiza",
+    "FullName": "Quentin Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 339
       }
     }
   }

@@ -60,6 +60,7 @@ The TicketMessageEntity to be saved.
 | Language | String | The language this message is in, based on some kind of analysis |
 | Sentiment | Integer | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | Integer | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | String | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | Array | Message attachments information |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -98,11 +99,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -110,72 +112,66 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 946,
+  "EjMessageId": 451,
   "Ticket": null,
-  "CreatedAt": "2007-03-30T12:15:20.2997324+02:00",
+  "CreatedAt": "2004-04-16T15:29:23.0747577+02:00",
   "CreatedBy": null,
-  "Author": "maiores",
+  "Author": "consequatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolores",
-  "TimeSpent": 424,
-  "Body": "nobis",
-  "HtmlBody": "voluptas",
-  "EmailHeader": "lilliana@bergstrom.biz",
-  "DebugInfo": "eum",
-  "MailSorter": "repudiandae",
+  "MessageId": "omnis",
+  "TimeSpent": 487,
+  "Body": "dolorem",
+  "HtmlBody": "debitis",
+  "EmailHeader": "percy_balistreri@rowe.ca",
+  "DebugInfo": "odio",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 382,
-      "Name": "Adams-Waelchi",
-      "Value": "assumenda",
+      "Id": 357,
+      "Name": "Wilkinson, Auer and Connelly",
+      "Value": "cumque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 382,
-      "Name": "Adams-Waelchi",
-      "Value": "assumenda",
+      "Id": 357,
+      "Name": "Wilkinson, Auer and Connelly",
+      "Value": "cumque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "ullam",
-  "Sentiment": 472,
-  "SentimentConfidence": 122,
+  "Language": "delectus",
+  "Sentiment": 633,
+  "SentimentConfidence": 699,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 247,
-      "Name": "Abernathy Group",
-      "ContentType": "cumque",
-      "AttSize": 479,
+      "AttachmentId": 223,
+      "Name": "Deckow, Klein and Hartmann",
+      "ContentType": "reiciendis",
+      "AttSize": 515,
       "InlineImage": true,
-      "ContentId": "non"
-    },
-    {
-      "AttachmentId": 247,
-      "Name": "Abernathy Group",
-      "ContentType": "cumque",
-      "AttSize": 479,
-      "InlineImage": true,
-      "ContentId": "non"
+      "ContentId": "ducimus",
+      "AuthKey": "nemo"
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "est"
+    "CustomFields1": "recusandae",
+    "CustomFields2": "dolor"
   }
 }
 ```
@@ -187,76 +183,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 333,
+  "EjMessageId": 33,
   "Ticket": null,
-  "CreatedAt": "2004-01-23T12:15:20.3067318+01:00",
+  "CreatedAt": "2008-10-26T15:29:23.0822578+01:00",
   "CreatedBy": null,
-  "Author": "incidunt",
+  "Author": "odio",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 315,
-  "Body": "recusandae",
-  "HtmlBody": "consectetur",
-  "EmailHeader": "keshawn.padberg@emmerich.co.uk",
-  "DebugInfo": "alias",
-  "MailSorter": "dolor",
+  "MessageId": "repellat",
+  "TimeSpent": 236,
+  "Body": "omnis",
+  "HtmlBody": "tenetur",
+  "EmailHeader": "bryana.stoltenberg@mante.uk",
+  "DebugInfo": "numquam",
+  "MailSorter": "optio",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequatur",
+  "SearchTitle": "ab",
   "MessageHeaders": [
     {
-      "Id": 930,
-      "Name": "Grady Group",
-      "Value": "tempora",
+      "Id": 724,
+      "Name": "Franecki-Emard",
+      "Value": "quisquam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 35
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "eum",
-  "Sentiment": 205,
-  "SentimentConfidence": 790,
+  "Important": true,
+  "Language": "rerum",
+  "Sentiment": 904,
+  "SentimentConfidence": 84,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 426,
-      "Name": "Reilly, Champlin and Hirthe",
-      "ContentType": "quia",
-      "AttSize": 425,
-      "InlineImage": false,
-      "ContentId": "repellat",
+      "AttachmentId": 763,
+      "Name": "Goyette Inc and Sons",
+      "ContentType": "fugiat",
+      "AttSize": 270,
+      "InlineImage": true,
+      "ContentId": "beatae",
+      "AuthKey": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldLength": 447
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "minus"
+    "CustomFields1": "ut",
+    "CustomFields2": "quisquam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 924
     }
   }
 }

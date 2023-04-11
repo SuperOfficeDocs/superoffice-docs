@@ -95,8 +95,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 189
+  "ChatSessionId": 748
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 555,
-  "TopicId": 790,
+  "ChatSessionId": 522,
+  "TopicId": 332,
   "User": null,
   "Person": null,
-  "CustomerAlias": "saepe",
-  "CustomerHost": "libero",
-  "CustomerName": "Upton, Tillman and Beier",
-  "CustomerEmail": "leatha@farrellsauer.name",
-  "CustomerPhone": "915.222.4337",
+  "CustomerAlias": "eum",
+  "CustomerHost": "rerum",
+  "CustomerName": "Kling-Nienow",
+  "CustomerEmail": "keshawn_wisoky@terrystamm.biz",
+  "CustomerPhone": "803-250-3997 x647",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Robel, Rice and Kris",
+  "CustomerCompanyName": "Legros-Renner",
   "Status": "Closed",
-  "FirstMessage": "repellat",
-  "LastMessage": "sit",
-  "WhenRequested": "2017-11-07T12:15:18.3257619+01:00",
-  "WhenStarted": "2017-09-08T12:15:18.3257619+02:00",
-  "WhenEnded": "2015-10-03T12:15:18.3257619+02:00",
-  "WhenIdle": "2007-07-28T12:15:18.3257619+02:00",
-  "WhenFetched": "2020-08-20T12:15:18.3257619+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 404,
-  "AlertLevel": 360,
-  "Rank": 185,
+  "FirstMessage": "est",
+  "LastMessage": "adipisci",
+  "WhenRequested": "2000-05-18T15:29:20.9442878+02:00",
+  "WhenStarted": "2000-10-07T15:29:20.9442878+02:00",
+  "WhenEnded": "1996-03-31T15:29:20.9442878+02:00",
+  "WhenIdle": "2009-03-03T15:29:20.9442878+01:00",
+  "WhenFetched": "2010-01-26T15:29:20.9442878+01:00",
+  "SessionKey": "quia",
+  "InitialQueuePos": 990,
+  "AlertLevel": 86,
+  "Rank": 874,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 155,
+  "Rating": 269,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldLength": 708
     }
   }
 }

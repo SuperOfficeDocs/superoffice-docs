@@ -89,8 +89,8 @@ OK
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -103,30 +103,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 76,
-  "UniqueId": "quasi",
-  "Name": "Carroll-Shields",
-  "Description": "Team-oriented human-resource standardization",
-  "AssociateId": 864,
-  "Columns": 553,
+  "DashboardId": 714,
+  "UniqueId": "nemo",
+  "Name": "Eichmann Inc and Sons",
+  "Description": "Persistent multimedia emulation",
+  "AssociateId": 121,
+  "Columns": 12,
   "Theme": null,
-  "VisibleForAll": 300,
+  "VisibleForAll": 770,
   "VisibleForAssociates": [
-    350,
-    218
+    409,
+    877
   ],
   "VisibleForGroups": [
-    493,
-    985
+    726,
+    873
   ],
-  "PinForAll": 264,
+  "PinForAll": 339,
   "PinForAssociates": [
-    287,
-    41
+    961,
+    48
   ],
   "PinForGroups": [
-    97,
-    973
+    767,
+    567
   ]
 }
 ```
@@ -138,42 +138,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 879,
-  "UniqueId": "et",
-  "Name": "Tromp Inc and Sons",
-  "Description": "Phased hybrid capability",
-  "AssociateId": 863,
-  "Columns": 794,
+  "DashboardId": 547,
+  "UniqueId": "consectetur",
+  "Name": "Jones-Beatty",
+  "Description": "Progressive 3rd generation product",
+  "AssociateId": 430,
+  "Columns": 662,
   "Theme": null,
-  "VisibleForAll": 724,
+  "VisibleForAll": 446,
   "VisibleForAssociates": [
-    924,
-    2
+    550,
+    769
   ],
   "VisibleForGroups": [
-    770,
-    421
+    909,
+    219
   ],
-  "PinForAll": 598,
+  "PinForAll": 208,
   "PinForAssociates": [
-    28,
-    494
+    622,
+    111
   ],
   "PinForGroups": [
-    90,
-    122
+    284,
+    347
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 193
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

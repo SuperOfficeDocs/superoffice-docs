@@ -70,8 +70,8 @@ OK
 | Street | StructuredAddress | Street address (company street, person address, delivery address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Postal | StructuredAddress | Postal address (company postal, billing address). LocalizedAddress changes override this property, so you do not have to change both Localized and this. |
 | Formatted | string | Read-only formatted address multi-line string. Combines street and postal into one string. e.g.: &lt;c&gt;"Postboks 123,\nBrugata 123,\n1234 OSLO\n"&lt;/c&gt; or &lt;c&gt;"Postbox 123,\nBridgelane 123,\nWest Tooting,\nEast Shire ES2 W31\n"&lt;/c&gt;. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 482
+  "QuoteVersionId": 579
 }
 ```
 
@@ -95,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 4914.112,
-    "Wgs84Longitude": 25730.14,
+    "Wgs84Latitude": 13996.444,
+    "Wgs84Longitude": 5193.038,
     "LocalizedAddress": [
       [
         {
-          "Name": "Schmeler Inc and Sons",
-          "Value": "architecto",
-          "Tooltip": "maiores",
-          "Label": "omnis",
-          "ValueLength": 539,
-          "AddressType": "placeat",
+          "Name": "Abbott, Terry and Kihn",
+          "Value": "nulla",
+          "Tooltip": "ut",
+          "Label": "voluptates",
+          "ValueLength": 845,
+          "AddressType": "quo",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 783
+              "FieldLength": 761
             }
           }
         }
       ],
       [
         {
-          "Name": "Lemke, Stark and Hartmann",
-          "Value": "dolorem",
-          "Tooltip": "aut",
-          "Label": "expedita",
-          "ValueLength": 236,
-          "AddressType": "accusamus",
+          "Name": "Volkman-Kessler",
+          "Value": "animi",
+          "Tooltip": "delectus",
+          "Label": "delectus",
+          "ValueLength": 230,
+          "AddressType": "doloribus",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 124
+              "FieldType": "System.Int32",
+              "FieldLength": 164
             }
           }
         }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "dolores",
+    "Formatted": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldType": "System.String",
+        "FieldLength": 158
       }
     }
   }

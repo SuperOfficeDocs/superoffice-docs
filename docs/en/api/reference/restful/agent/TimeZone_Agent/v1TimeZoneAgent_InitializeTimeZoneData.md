@@ -54,13 +54,13 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TZLocationID | int32 |  |
-| Name | string |  |
-| TZLocationCode | string |  |
-| TZLocationCities | string |  |
-| IsoNumber | int32 |  |
-| TimeZoneSTDRules | object |  |
-| TimeZoneDSTRules | object |  |
+| TZLocationID | int32 | Timezone location ID - primary key. |
+| Name | string | Name associated with the location: Country name + region name, Norway, United States - Alaska |
+| TZLocationCode | string | Code associated with location: UTC, AR-NQ, AU-QLD, PF2A Not the an ISO country code. Unique. |
+| TZLocationCities | string | Cities associated with location: Oslo, London, Rio de Janeiro |
+| IsoNumber | int32 | Country ISO code associated with location: 578 |
+| TimeZoneSTDRules | object | Dictionary of standard rules |
+| TimeZoneDSTRules | object | Dictionary of Daylight saving time rules |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,31 +79,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 277,
-    "Name": "Treutel-Schinner",
-    "TZLocationCode": "repellat",
-    "TZLocationCities": "corrupti",
-    "IsoNumber": 186,
+    "TZLocationID": 643,
+    "Name": "Lind-Bartoletti",
+    "TZLocationCode": "in",
+    "TZLocationCities": "sit",
+    "IsoNumber": 789,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 699,
-        "StartMonth": 792,
-        "EndDay": 325,
-        "EndMonth": 8,
-        "TZOffset": 279,
-        "StartRulePattern": "qui",
-        "EndRulePattern": "est"
+        "StartDay": 345,
+        "StartMonth": 521,
+        "EndDay": 261,
+        "EndMonth": 29,
+        "TZOffset": 551,
+        "StartRulePattern": "quia",
+        "EndRulePattern": "illum"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 212,
-        "StartMonth": 909,
-        "EndDay": 784,
-        "EndMonth": 636,
-        "TZOffset": 79,
-        "StartRulePattern": "rerum",
-        "EndRulePattern": "sint"
+        "StartDay": 245,
+        "StartMonth": 39,
+        "EndDay": 99,
+        "EndMonth": 355,
+        "TZOffset": 20,
+        "StartRulePattern": "consequatur",
+        "EndRulePattern": "sunt"
       }
     }
   }

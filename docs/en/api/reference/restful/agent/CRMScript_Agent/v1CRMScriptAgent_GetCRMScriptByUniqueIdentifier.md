@@ -74,8 +74,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "repellendus"
+  "UniqueIdentifier": "architecto"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Brekke Inc and Sons",
-  "Description": "Enterprise-wide scalable internet solution",
-  "IncludeId": "id",
-  "Source": "saepe",
-  "Registered": "2020-03-09T12:15:18.6247569+01:00",
-  "RegisteredBy": "consequatur",
-  "Updated": "2017-01-06T12:15:18.6247569+01:00",
-  "UpdatedBy": "iste",
-  "Path": "sapiente",
+  "UniqueIdentifier": "et",
+  "Name": "Wiegand Inc and Sons",
+  "Description": "Adaptive actuating methodology",
+  "IncludeId": "voluptatem",
+  "Source": "doloremque",
+  "Registered": "2014-12-11T15:29:21.2517826+01:00",
+  "RegisteredBy": "nesciunt",
+  "Updated": "2019-05-23T15:29:21.2517826+02:00",
+  "UpdatedBy": "aut",
+  "Path": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 170
     }
   }
 }

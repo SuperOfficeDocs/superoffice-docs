@@ -97,8 +97,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 63
+  "UserGroupId": 715
 }
 ```
 
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 113,
-    "ColumnId": 841,
-    "FieldDefault": "ratione",
-    "FieldHeight": 456,
-    "FieldLabel": "alias",
-    "FieldLeft": 873,
-    "FieldTop": 160,
+    "UDefFieldId": 917,
+    "ColumnId": 674,
+    "FieldDefault": "nulla",
+    "FieldHeight": 364,
+    "FieldLabel": "atque",
+    "FieldLeft": 866,
+    "FieldTop": 578,
     "FieldType": "Checkbox",
-    "FieldWidth": 147,
-    "FormatMask": "veniam",
+    "FieldWidth": 49,
+    "FormatMask": "omnis",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 409,
-    "LabelLeft": 364,
-    "LabelTop": 427,
-    "LabelWidth": 933,
-    "LastVersionId": 609,
-    "ListTableId": 802,
-    "IsMandatory": true,
+    "LabelHeight": 482,
+    "LabelLeft": 559,
+    "LabelTop": 864,
+    "LabelWidth": 438,
+    "LastVersionId": 27,
+    "ListTableId": 766,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 665,
-    "ProgId": "praesentium",
-    "IsReadOnly": true,
-    "ShortLabel": "magni",
-    "TabOrder": 184,
-    "TextLength": 457,
-    "Tooltip": "vel",
-    "UdefIdentity": 18,
-    "UDListDefinitionId": 454,
+    "Page1LineNo": 808,
+    "ProgId": "vel",
+    "IsReadOnly": false,
+    "ShortLabel": "recusandae",
+    "TabOrder": 162,
+    "TextLength": 334,
+    "Tooltip": "consequatur",
+    "UdefIdentity": 890,
+    "UDListDefinitionId": 283,
     "Justification": "Center",
-    "Version": 697,
-    "TemplateVariableName": "Strosin LLC",
+    "Version": 793,
+    "TemplateVariableName": "Daniel-Turcotte",
     "HasBeenPublished": true,
-    "MdoListName": "Dickinson LLC",
+    "MdoListName": "Franecki-Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 878
+        "FieldType": "System.String",
+        "FieldLength": 987
       }
     }
   }

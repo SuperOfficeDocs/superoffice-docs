@@ -26,7 +26,7 @@ Deletes the User
 | UserId | int32 | **Required** The id of the User to be deleted. |
 
 ```http
-POST /api/v1/Agents/User/DeleteUser?UserId=780
+POST /api/v1/Agents/User/DeleteUser?UserId=451
 ```
 
 
@@ -48,7 +48,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/User/DeleteUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

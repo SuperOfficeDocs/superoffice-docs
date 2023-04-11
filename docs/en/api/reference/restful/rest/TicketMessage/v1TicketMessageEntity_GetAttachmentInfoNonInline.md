@@ -54,8 +54,9 @@ OK
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +64,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 701,
-    "Name": "Hintz, Mueller and Mosciski",
-    "ContentType": "eos",
-    "AttSize": 2,
-    "InlineImage": false,
-    "ContentId": "voluptatem",
+    "AttachmentId": 840,
+    "Name": "Steuber Inc and Sons",
+    "ContentType": "dolor",
+    "AttSize": 878,
+    "InlineImage": true,
+    "ContentId": "quia",
+    "AuthKey": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

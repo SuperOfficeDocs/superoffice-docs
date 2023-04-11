@@ -66,8 +66,8 @@ OK
 |----------------|------|--------------|
 | Score | int32 | Sentiment score, -100 = very unhappy, 100 = very happy, 0 = no idea (not recognized) |
 | Confidence | int32 | Sentiment analysis confidence, where available. 0 = no idea, 100 = perfectly confident, -1 = no confidence score available |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "ut"
+  "Text": "deserunt"
 }
 ```
 
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 883,
-  "Confidence": 592,
+  "Score": 34,
+  "Confidence": 370,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldType": "System.Int32",
+      "FieldLength": 984
     }
   }
 }

@@ -103,8 +103,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -118,12 +118,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 825,
-      "ContactId": 768
+      "PersonId": 518,
+      "ContactId": 88
     },
     {
-      "PersonId": 825,
-      "ContactId": 768
+      "PersonId": 518,
+      "ContactId": 88
     }
   ]
 }
@@ -136,70 +136,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persevering hybrid circuit",
-  "Postit": "sunt",
+  "Description": "Multi-channelled systemic hardware",
+  "Postit": "corrupti",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 963,
-  "IncludePerson": 79,
-  "MemberCount": 844,
-  "Name": "Glover Group",
-  "PostitTextId": 1002,
-  "CreatedDate": "1998-01-11T12:15:20.15174+01:00",
-  "SelectionId": 923,
-  "SoundEx": "illo",
-  "Source": 345,
-  "TextId": 231,
-  "UpdatedDate": "2018-08-18T12:15:20.15174+02:00",
-  "UpdatedCount": 301,
-  "Visibility": 409,
+  "GroupIdx": 901,
+  "IncludePerson": 112,
+  "MemberCount": 85,
+  "Name": "Beier-Heathcote",
+  "PostitTextId": 851,
+  "CreatedDate": "2013-07-23T15:29:22.7928031+02:00",
+  "SelectionId": 668,
+  "SoundEx": "sit",
+  "Source": 5,
+  "TextId": 603,
+  "UpdatedDate": "2003-03-17T15:29:22.7928031+01:00",
+  "UpdatedCount": 227,
+  "Visibility": 696,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 339,
-  "TargetTableName": "Bogan-Kling",
-  "Completed": true,
-  "LeftSelectionId": 753,
-  "RightSelectionId": 145,
+  "CompanyUnique": true,
+  "TargetTableNumber": 809,
+  "TargetTableName": "Emmerich, Mayert and Bartoletti",
+  "Completed": false,
+  "LeftSelectionId": 956,
+  "RightSelectionId": 682,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nitzsche-Leffler",
-  "ShadowProviderName": "Kshlerin-Cummings",
-  "ChartKey": "eos",
-  "LastLoaded": "1997-04-12T12:15:20.15174+02:00",
-  "LastLoadedBy": 965,
+  "MainProviderName": "Beier, Terry and Barrows",
+  "ShadowProviderName": "Borer LLC",
+  "ChartKey": "aliquam",
+  "LastLoaded": "2019-06-16T15:29:22.7928031+02:00",
+  "LastLoadedBy": 580,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-01-29T12:15:20.15174+01:00",
-  "LastMembershipChangeBy": 149,
+  "LastMembershipChange": "2003-08-18T15:29:22.7932972+02:00",
+  "LastMembershipChangeBy": 680,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "optio",
-  "MailingsProviderName": "Ward, Kassulke and Walker",
-  "DashboardTileDefinitionId": 865,
+  "MainHeading": "voluptates",
+  "MemberTabHeading": "sed",
+  "MailingsProviderName": "Hoeger, Purdy and Romaguera",
+  "DashboardTileDefinitionId": 744,
   "VisibleFor": [
     {
-      "VisibleId": 787,
+      "VisibleId": 400,
       "Visibility": "All",
-      "DisplayValue": "architecto",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldType": "System.String",
+          "FieldLength": 282
         }
       }
     },
     {
-      "VisibleId": 787,
+      "VisibleId": 400,
       "Visibility": "All",
-      "DisplayValue": "architecto",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldType": "System.String",
+          "FieldLength": 282
         }
       }
     }
@@ -209,7 +209,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 278
     }
   }
 }

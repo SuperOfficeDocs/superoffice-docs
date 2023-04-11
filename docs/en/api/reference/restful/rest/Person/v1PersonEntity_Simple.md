@@ -91,8 +91,8 @@ PersonEntity found.
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,7 +100,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -110,52 +110,52 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "aut",
-  "PersonId": 888,
-  "Mrmrs": "fuga",
-  "Firstname": "Ansley",
-  "Lastname": "Carter",
-  "MiddleName": "Crist-Homenick",
-  "Title": "perferendis",
-  "Description": "Profit-focused needs-based ability",
-  "Email": "jakob@stark.info",
-  "FullName": "Dovie Gleichner",
-  "DirectPhone": "205.524.1033 x0401",
-  "FormalName": "McClure-Lebsack",
-  "CountryId": 233,
-  "ContactId": 316,
-  "ContactName": "Sauer, McClure and Jakubowski",
-  "Retired": 648,
-  "Rank": 960,
-  "ActiveInterests": 475,
+  "Position": "quia",
+  "PersonId": 236,
+  "Mrmrs": "commodi",
+  "Firstname": "Adelia",
+  "Lastname": "Schoen",
+  "MiddleName": "Schumm, Jast and Lemke",
+  "Title": "enim",
+  "Description": "Synchronised intermediate pricing structure",
+  "Email": "linnie@bruen.name",
+  "FullName": "Benjamin Heaney",
+  "DirectPhone": "457-505-0096 x681",
+  "FormalName": "Murray LLC",
+  "CountryId": 899,
+  "ContactId": 868,
+  "ContactName": "Hilpert LLC",
+  "Retired": 301,
+  "Rank": 108,
+  "ActiveInterests": 356,
   "ContactDepartment": "",
-  "ContactCountryId": 463,
-  "ContactOrgNr": "1239336",
-  "FaxPhone": "1-846-421-8649 x08655",
-  "MobilePhone": "307-803-5344",
-  "ContactPhone": "(245)745-0434",
-  "AssociateName": "Kovacek, Hoppe and Nicolas",
-  "AssociateId": 787,
+  "ContactCountryId": 63,
+  "ContactOrgNr": "1246747",
+  "FaxPhone": "(009)459-9883 x54921",
+  "MobilePhone": "(251)722-9672 x9896",
+  "ContactPhone": "399.435.1045",
+  "AssociateName": "Kulas, Goldner and Mayert",
+  "AssociateId": 478,
   "UsePersonAddress": false,
-  "ContactFax": "maiores",
-  "Kanafname": "accusamus",
-  "Kanalname": "qui",
-  "Post1": "accusamus",
-  "Post2": "earum",
-  "Post3": "animi",
-  "EmailName": "clara@vonbrown.com",
-  "ContactFullName": "Noelia Hodkiewicz",
-  "ActiveErpLinks": 30,
-  "TicketPriorityId": 812,
-  "SupportLanguageId": 497,
-  "SupportAssociateId": 403,
+  "ContactFax": "quae",
+  "Kanafname": "quam",
+  "Kanalname": "velit",
+  "Post1": "ut",
+  "Post2": "aut",
+  "Post3": "soluta",
+  "EmailName": "kailey_schmitt@pfeffer.ca",
+  "ContactFullName": "Kamron Vandervort",
+  "ActiveErpLinks": 317,
+  "TicketPriorityId": 997,
+  "SupportLanguageId": 267,
+  "SupportAssociateId": 129,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   }
 }

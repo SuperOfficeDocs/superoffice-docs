@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Hudson-Spinka",
-    "ToolTip": "Aut corporis impedit animi beatae sunt a totam.",
+    "Id": 349,
+    "Name": "Schmidt Group",
+    "ToolTip": "Corporis molestiae voluptatem et.",
     "Deleted": false,
-    "Rank": 667,
-    "Type": "facere",
-    "ColorBlock": 444,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2011-08-04T12:15:28.2136214+02:00",
+    "Rank": 457,
+    "Type": "autem",
+    "ColorBlock": 453,
+    "IconHint": "cumque",
+    "Selected": false,
+    "LastChanged": "2001-09-02T15:29:31.329981+02:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Olson Inc and Sons",
-        "ToolTip": "Aut quidem neque dolor vitae velit.",
-        "Deleted": true,
-        "Rank": 65,
-        "Type": "itaque",
-        "ColorBlock": 850,
-        "IconHint": "dignissimos",
-        "Selected": false,
-        "LastChanged": "1997-07-15T12:15:28.2136214+02:00",
+        "Id": 185,
+        "Name": "Hills-Cummerata",
+        "ToolTip": "Ducimus architecto occaecati.",
+        "Deleted": false,
+        "Rank": 560,
+        "Type": "dolor",
+        "ColorBlock": 707,
+        "IconHint": "nostrum",
+        "Selected": true,
+        "LastChanged": "2018-01-10T15:29:31.329981+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Grayce Bartoletti"
+        "ExtraInfo": "aperiam",
+        "StyleHint": "cumque",
+        "Hidden": false,
+        "FullName": "Marlin Kovacek"
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "et",
+    "ExtraInfo": "qui",
+    "StyleHint": "tempora",
     "Hidden": true,
-    "FullName": "Carmela Fahey Sr."
+    "FullName": "Jevon Wunsch III"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "McDermott Group",
-    "ToolTip": "Aut soluta.",
-    "Deleted": true,
-    "Rank": 209,
-    "Type": "minus",
-    "ColorBlock": 311,
-    "IconHint": "enim",
+    "Id": 229,
+    "Name": "Walker-Lesch",
+    "ToolTip": "Libero voluptates quia consequatur consequatur omnis assumenda.",
+    "Deleted": false,
+    "Rank": 481,
+    "Type": "ut",
+    "ColorBlock": 58,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2017-08-22T12:15:28.2146173+02:00",
+    "LastChanged": "2019-03-04T15:29:31.3314772+01:00",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Gerlach, Ferry and Huel",
-        "ToolTip": "Omnis numquam.",
+        "Id": 746,
+        "Name": "Ledner, Corwin and Spinka",
+        "ToolTip": "Id repellat quae aliquam voluptatibus aperiam velit.",
         "Deleted": false,
-        "Rank": 806,
-        "Type": "accusamus",
-        "ColorBlock": 626,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2003-07-14T12:15:28.2146173+02:00",
+        "Rank": 453,
+        "Type": "fugit",
+        "ColorBlock": 862,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2016-06-21T15:29:31.3314772+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "laborum",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "reprehenderit",
         "Hidden": true,
-        "FullName": "Dr. Gilda Christopher Adams DDS",
+        "FullName": "Burnice Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldLength": 840
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "ratione",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Miles Jarrett Johns Jr.",
+    "FullName": "Dr. Tod Adelle Erdman PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

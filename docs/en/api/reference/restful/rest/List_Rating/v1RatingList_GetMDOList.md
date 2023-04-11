@@ -26,7 +26,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=nemo
+GET /api/v1/List/Rating/MDOItems?query=quidem
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Ritchie-Waters",
-    "ToolTip": "Eos est sint.",
+    "Id": 168,
+    "Name": "O'Reilly, Dibbert and Hand",
+    "ToolTip": "Rerum atque fugiat similique.",
     "Deleted": false,
-    "Rank": 423,
-    "Type": "repudiandae",
+    "Rank": 428,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Daniel-Grimes",
-        "ToolTip": "Voluptatem est quia eum asperiores ipsa tempora quae.",
+        "Id": 451,
+        "Name": "Sauer-Witting",
+        "ToolTip": "Sit reprehenderit et quia.",
         "Deleted": true,
-        "Rank": 862,
-        "Type": "qui",
+        "Rank": 50,
+        "Type": "veniam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 156,
-        "ExtraInfo": "quos",
-        "StyleHint": "beatae",
-        "FullName": "Missouri Grady",
+        "IconHint": "sapiente",
+        "ColorBlock": 774,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aliquid",
+        "FullName": "Keven Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldType": "System.String",
+            "FieldLength": 383
           }
         }
       }
     ],
-    "IconHint": "aliquid",
-    "ColorBlock": 274,
-    "ExtraInfo": "rerum",
-    "StyleHint": "aut",
-    "FullName": "Dr. Aileen Celia Langosh",
+    "IconHint": "facilis",
+    "ColorBlock": 716,
+    "ExtraInfo": "incidunt",
+    "StyleHint": "voluptatem",
+    "FullName": "Miss Delmer Retha Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 362
       }
     }
   }

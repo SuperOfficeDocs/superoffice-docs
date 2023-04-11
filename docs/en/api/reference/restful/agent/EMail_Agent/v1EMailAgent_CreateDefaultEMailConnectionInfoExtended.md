@@ -56,8 +56,8 @@ OK
 | Password | string | Password for the username |
 | UseSSL | bool | Use a secure connection with the server |
 | Folder | string | Optional folder to set as current after logging in |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,19 +75,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 238,
-  "ServerName": "Cartwright Inc and Sons",
-  "Protocol": "officia",
-  "UserName": "Effertz LLC",
-  "Password": "cum",
-  "UseSSL": false,
-  "Folder": "maxime",
+  "Port": 935,
+  "ServerName": "Torp Group",
+  "Protocol": "adipisci",
+  "UserName": "Hartmann Group",
+  "Password": "sint",
+  "UseSSL": true,
+  "Folder": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   }
 }

@@ -75,8 +75,8 @@ ContactEntity found.
 | ActiveErpLinks | int32 | The number of active erp links |
 | Number1 | string | Alphanumeric user field |
 | Number2 | string | Alphanumeric user field |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 782,
-  "Name": "Doyle-Hoeger",
-  "OrgNr": "1729759",
+  "ContactId": 214,
+  "Name": "Block-Grady",
+  "OrgNr": "462307",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "ut",
-  "DirectPhone": "1-403-490-8118 x7904",
-  "AssociateId": 857,
-  "CountryId": 549,
-  "EmailAddress": "deanna_heller@hammes.ca",
-  "Kananame": "dolores",
-  "EmailAddressName": "maria.quitzon@johnson.info",
+  "City": "nesciunt",
+  "DirectPhone": "1-437-448-4347",
+  "AssociateId": 868,
+  "CountryId": 728,
+  "EmailAddress": "oral@hintzarmstrong.co.uk",
+  "Kananame": "in",
+  "EmailAddressName": "shane@mitchellruecker.us",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Mrs. Khalil Daniel",
+  "AssociateFullName": "Brenda O'Conner",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "voluptatem",
-  "FullName": "Elody Haley",
+  "FormattedAddress": "ut",
+  "FullName": "Marley Lueilwitz",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 205,
-  "Number1": "1284176",
-  "Number2": "827998",
+  "ActiveErpLinks": 776,
+  "Number1": "952947",
+  "Number2": "724662",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 515
     }
   }
 }

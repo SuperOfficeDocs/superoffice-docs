@@ -85,8 +85,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Conroy, Reilly and Lakin",
+  "Name": "McDermott, Brekke and Larson",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 492,
-    "Name": "Thiel-Beer",
-    "AssociateId": 957,
-    "DetailsTable": 982,
-    "DetailsRecord": 706,
+    "Id": 626,
+    "Name": "Gislason-Hoppe",
+    "AssociateId": 262,
+    "DetailsTable": 440,
+    "DetailsRecord": 331,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "et",
-      "ParameterObject2": "in"
+      "ParameterObject1": "rerum",
+      "ParameterObject2": "possimus"
     },
-    "LastStarted": "2006-01-09T12:15:18.2077631+01:00",
-    "Created": "2000-06-08T12:15:18.2077631+02:00",
-    "StartCount": 245,
-    "DatabaseSerialNumber": "1569931",
-    "Context": "harum",
-    "Result": "fugiat",
+    "LastStarted": "2019-04-07T15:29:20.8247892+02:00",
+    "Created": "2017-12-25T15:29:20.8252885+01:00",
+    "StartCount": 324,
+    "DatabaseSerialNumber": "1165454",
+    "Context": "aut",
+    "Result": "fuga",
     "State": "All",
-    "Description": "Upgradable dedicated framework",
-    "Response": "qui",
-    "Request": "reprehenderit",
-    "ProgressDescription": "Pre-emptive asynchronous framework",
-    "ProgressPercent": 165,
-    "FileName": "Zulauf LLC",
+    "Description": "Operative 24/7 hierarchy",
+    "Response": "accusamus",
+    "Request": "officia",
+    "ProgressDescription": "Cross-group assymetric focus group",
+    "ProgressPercent": 391,
+    "FileName": "Blick-Wolff",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 862
       }
     }
   }

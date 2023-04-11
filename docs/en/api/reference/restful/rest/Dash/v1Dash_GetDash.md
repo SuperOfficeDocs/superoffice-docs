@@ -74,8 +74,8 @@ Dash found.
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -84,7 +84,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,37 +94,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 526,
-  "UniqueId": "velit",
-  "Name": "Franecki, Yundt and Ortiz",
-  "Description": "Re-engineered mobile portal",
-  "AssociateId": 247,
-  "Columns": 524,
+  "DashboardId": 175,
+  "UniqueId": "et",
+  "Name": "Bode-Brown",
+  "Description": "Open-architected upward-trending capacity",
+  "AssociateId": 251,
+  "Columns": 183,
   "Theme": null,
-  "VisibleForAll": 490,
+  "VisibleForAll": 983,
   "VisibleForAssociates": [
-    305,
-    937
+    486,
+    138
   ],
   "VisibleForGroups": [
-    601,
-    374
+    255,
+    694
   ],
-  "PinForAll": 293,
+  "PinForAll": 13,
   "PinForAssociates": [
-    917,
-    352
+    558,
+    457
   ],
   "PinForGroups": [
-    370,
-    662
+    736,
+    742
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 866
     }
   },
   "_Links": {

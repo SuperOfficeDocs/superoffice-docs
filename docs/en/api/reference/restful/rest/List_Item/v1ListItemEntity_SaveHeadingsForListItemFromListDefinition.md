@@ -86,8 +86,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Padberg Inc and Sons",
-    "ToolTip": "Placeat numquam modi veritatis eum distinctio ut.",
-    "Deleted": true,
-    "Rank": 554,
-    "Type": "dolor",
-    "ColorBlock": 659,
-    "IconHint": "labore",
+    "Id": 595,
+    "Name": "Kiehn, Ledner and Franecki",
+    "ToolTip": "Et possimus.",
+    "Deleted": false,
+    "Rank": 240,
+    "Type": "corporis",
+    "ColorBlock": 353,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "1996-10-29T12:15:27.8426265+01:00",
+    "LastChanged": "2020-03-17T15:29:31.0459467+01:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Fadel Inc and Sons",
-        "ToolTip": "Unde quis fugiat et.",
-        "Deleted": true,
-        "Rank": 901,
-        "Type": "non",
-        "ColorBlock": 558,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "2002-12-21T12:15:27.8426265+01:00",
+        "Id": 549,
+        "Name": "Upton, Quigley and Mertz",
+        "ToolTip": "Suscipit beatae ut dicta ipsam.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "sapiente",
+        "ColorBlock": 667,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2022-03-15T15:29:31.0459467+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "qui",
+        "ExtraInfo": "architecto",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Arnold Cora Oberbrunner I"
+        "FullName": "Myra Durgan"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Mrs. Leon Mills"
+    "ExtraInfo": "dolore",
+    "StyleHint": "nisi",
+    "Hidden": true,
+    "FullName": "Prof. Sibyl Ward Jr."
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Gleichner, Wilderman and Koepp",
-    "ToolTip": "Et quis quam placeat.",
-    "Deleted": false,
-    "Rank": 508,
-    "Type": "aperiam",
-    "ColorBlock": 267,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "1999-11-23T12:15:27.8446232+01:00",
+    "Id": 48,
+    "Name": "Hudson-Kautzer",
+    "ToolTip": "Aliquid odit tenetur necessitatibus occaecati.",
+    "Deleted": true,
+    "Rank": 629,
+    "Type": "incidunt",
+    "ColorBlock": 334,
+    "IconHint": "laudantium",
+    "Selected": true,
+    "LastChanged": "2001-03-29T15:29:31.0474468+02:00",
     "ChildItems": [
       {
-        "Id": 524,
-        "Name": "Ankunding-Crooks",
-        "ToolTip": "Et eaque cumque.",
+        "Id": 33,
+        "Name": "Lueilwitz, Fahey and Paucek",
+        "ToolTip": "Illum et corporis consequuntur qui at ad.",
         "Deleted": false,
-        "Rank": 634,
-        "Type": "aut",
-        "ColorBlock": 625,
-        "IconHint": "est",
+        "Rank": 424,
+        "Type": "sapiente",
+        "ColorBlock": 123,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2002-10-12T12:15:27.8446232+02:00",
+        "LastChanged": "2016-07-16T15:29:31.0474468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "neque",
+        "StyleHint": "animi",
         "Hidden": false,
-        "FullName": "Casper Schulist",
+        "FullName": "Ms. Christophe Lind Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 492
+            "FieldLength": 128
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "aut",
+    "ExtraInfo": "iste",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Elissa Anabelle Johnson IV",
+    "FullName": "Ciara Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldLength": 136
       }
     }
   }

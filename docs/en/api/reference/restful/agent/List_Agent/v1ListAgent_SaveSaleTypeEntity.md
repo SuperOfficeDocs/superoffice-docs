@@ -95,8 +95,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,51 +104,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 358,
-  "Name": "Ondricka, Sporer and Bahringer",
-  "Tooltip": "praesentium",
-  "Rank": 682,
+  "SaleTypeId": 665,
+  "Name": "Mertz, Terry and Reichert",
+  "Tooltip": "autem",
+  "Rank": 22,
   "DurationUnit": "Century",
-  "SaleDuration": 437,
-  "SaleTypeCatId": 400,
+  "SaleDuration": 308,
+  "SaleTypeCatId": 829,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 55,
-  "QuoteLinesTemplate": 833,
-  "ConfirmationLinesTemplate": 294,
+  "DefaultQuoteValidity": 939,
+  "QuoteLinesTemplate": 863,
+  "ConfirmationLinesTemplate": 453,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 983,
-  "MinEarningPercent": 53,
-  "GroupQuoteLinesBy": 674,
-  "SortGroupLinesBy": 992,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 614,
+  "MinEarningPercent": 829,
+  "GroupQuoteLinesBy": 765,
+  "SortGroupLinesBy": 902,
   "Stages": [
     {
-      "Id": 932,
-      "Name": "Aufderhar, Hammes and McDermott",
-      "ToolTip": "Molestiae odio possimus animi blanditiis incidunt quia.",
+      "Id": 1001,
+      "Name": "O'Kon LLC",
+      "ToolTip": "Voluptatem iusto et cum et quia iusto.",
       "Deleted": false,
-      "Rank": 730,
-      "Type": "dolor",
-      "ColorBlock": 583,
-      "IconHint": "dolores",
+      "Rank": 858,
+      "Type": "cumque",
+      "ColorBlock": 141,
+      "IconHint": "sunt",
       "Selected": false,
-      "LastChanged": "1997-06-06T12:15:19.3387502+02:00",
+      "LastChanged": "1996-09-26T15:29:22.1007714+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "natus",
+      "ExtraInfo": "rerum",
+      "StyleHint": "debitis",
       "Hidden": false,
-      "FullName": "Ms. Lavinia Bergnaum DDS"
+      "FullName": "Dr. Scotty Jakubowski DVM"
     }
   ]
 }
@@ -161,53 +161,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 11,
-  "Name": "Weimann Inc and Sons",
-  "Tooltip": "cum",
-  "Rank": 829,
+  "SaleTypeId": 177,
+  "Name": "Schiller-Anderson",
+  "Tooltip": "sed",
+  "Rank": 928,
   "DurationUnit": "Century",
-  "SaleDuration": 521,
-  "SaleTypeCatId": 847,
-  "Deleted": true,
+  "SaleDuration": 146,
+  "SaleTypeCatId": 86,
+  "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 61,
-  "QuoteLinesTemplate": 142,
-  "ConfirmationLinesTemplate": 887,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 163,
+  "QuoteLinesTemplate": 135,
+  "ConfirmationLinesTemplate": 46,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 483,
-  "MinEarningPercent": 254,
-  "GroupQuoteLinesBy": 565,
-  "SortGroupLinesBy": 145,
+  "MaxDiscountPercent": 796,
+  "MinEarningPercent": 846,
+  "GroupQuoteLinesBy": 564,
+  "SortGroupLinesBy": 787,
   "Stages": [
     {
-      "Id": 369,
-      "Name": "Mohr-Hammes",
-      "ToolTip": "Dolore nemo aut magni similique voluptas maxime.",
+      "Id": 990,
+      "Name": "Schmidt Group",
+      "ToolTip": "Adipisci placeat sapiente.",
       "Deleted": false,
-      "Rank": 885,
-      "Type": "qui",
-      "ColorBlock": 118,
-      "IconHint": "ut",
-      "Selected": false,
-      "LastChanged": "2015-10-20T12:15:19.3397458+02:00",
+      "Rank": 468,
+      "Type": "ut",
+      "ColorBlock": 916,
+      "IconHint": "doloribus",
+      "Selected": true,
+      "LastChanged": "1999-01-22T15:29:22.1017706+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempore",
-      "StyleHint": "cupiditate",
-      "Hidden": false,
-      "FullName": "Mariah Funk",
+      "ExtraInfo": "cumque",
+      "StyleHint": "aut",
+      "Hidden": true,
+      "FullName": "Bo Hayes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 204
+          "FieldType": "System.Int32",
+          "FieldLength": 994
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 828
     }
   }
 }

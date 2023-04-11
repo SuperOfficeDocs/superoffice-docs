@@ -80,8 +80,8 @@ SaleStakeholder found.
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -100,31 +100,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Deckow Group",
-  "Comment": "debitis",
-  "StakeholderRoleId": 654,
-  "CountryId": 53,
-  "PersonId": 239,
-  "EmailDescription": "lucile@kuphalmckenzie.name",
-  "EmailId": 635,
-  "EmailAddress": "virgil_pollich@larkin.co.uk",
-  "PhoneId": 642,
-  "ContactName": "Kovacek, VonRueden and Shields",
-  "ContactId": 404,
-  "SaleId": 567,
-  "Mrmrs": "corrupti",
-  "Firstname": "Ebba",
-  "MiddleName": "Ryan-Schuster",
-  "Lastname": "Farrell",
-  "SaleStakeholderId": 751,
-  "Rank": 357,
-  "Phone": "531-033-2542",
+  "StakeholderRoleName": "Hagenes-Kling",
+  "Comment": "nihil",
+  "StakeholderRoleId": 842,
+  "CountryId": 815,
+  "PersonId": 138,
+  "EmailDescription": "kariane@eichmann.us",
+  "EmailId": 751,
+  "EmailAddress": "ramon@kihn.biz",
+  "PhoneId": 281,
+  "ContactName": "Bailey-Brown",
+  "ContactId": 159,
+  "SaleId": 263,
+  "Mrmrs": "veniam",
+  "Firstname": "Jared",
+  "MiddleName": "Langosh, Cole and Swaniawski",
+  "Lastname": "Gorczany",
+  "SaleStakeholderId": 259,
+  "Rank": 79,
+  "Phone": "223-901-2979 x198",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 551
     }
   },
   "_Links": {

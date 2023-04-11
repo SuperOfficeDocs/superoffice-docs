@@ -128,8 +128,8 @@ ChatTopicEntity updated.
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -138,41 +138,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 29,
-  "Name": "Larson Group",
-  "Description": "Robust incremental core",
-  "WelcomeMessage": "porro",
+  "ChatTopicId": 838,
+  "Name": "Pfannerstill Group",
+  "Description": "Seamless modular encryption",
+  "WelcomeMessage": "sunt",
   "Language": null,
-  "LastAccept": "2003-05-20T12:15:26.5236416+02:00",
-  "SecondsPrAccept": 239,
-  "AlertRecipient": "non",
+  "LastAccept": "2020-02-11T15:29:29.431204+01:00",
+  "SecondsPrAccept": 176,
+  "AlertRecipient": "fuga",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "ut",
+  "BadgeHeader": "mollitia",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "expedita",
-  "WarnNewChatMinutes": 801,
-  "WarnManagerNewChatMinutes": 704,
+  "CustomQueueText": "iure",
+  "WarnNewChatMinutes": 442,
+  "WarnManagerNewChatMinutes": 949,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 106,
-  "WarnManagerChatMessageMinutes": 425,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 208,
-  "OfflineFormQueueLength": 422,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "porro"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 582,
+  "WarnManagerChatMessageMinutes": 413,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 389,
+  "OfflineFormQueueLength": 901,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "perferendis"
 }
 ```
 
@@ -183,48 +183,48 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 990,
-  "Name": "Howe, Nikolaus and Hudson",
-  "Description": "Down-sized contextually-based project",
-  "WelcomeMessage": "hic",
+  "ChatTopicId": 1000,
+  "Name": "Stoltenberg, Sipes and Gibson",
+  "Description": "Centralized needs-based firmware",
+  "WelcomeMessage": "itaque",
   "Language": null,
-  "LastAccept": "2011-06-07T12:15:26.5276423+02:00",
-  "SecondsPrAccept": 647,
-  "AlertRecipient": "libero",
+  "LastAccept": "2011-11-14T15:29:29.4337034+01:00",
+  "SecondsPrAccept": 150,
+  "AlertRecipient": "quae",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "qui",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sequi",
-  "WarnNewChatMinutes": 900,
-  "WarnManagerNewChatMinutes": 772,
+  "BadgeHeader": "ratione",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "saepe",
+  "WarnNewChatMinutes": 693,
+  "WarnManagerNewChatMinutes": 3,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 990,
-  "WarnManagerChatMessageMinutes": 915,
+  "WarnChatMessageMinutes": 503,
+  "WarnManagerChatMessageMinutes": 222,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 172,
-  "OfflineFormQueueLength": 734,
+  "OfflineFormTimeLimit": 388,
+  "OfflineFormQueueLength": 114,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "doloribus",
+  "WidgetRatingText": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldLength": 464
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

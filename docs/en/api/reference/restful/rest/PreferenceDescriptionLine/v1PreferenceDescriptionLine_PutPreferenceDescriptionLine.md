@@ -78,8 +78,8 @@ PreferenceDescriptionLine updated.
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -88,16 +88,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 80,
-  "PrefDescId": 717,
-  "PrefValue": "porro",
-  "PrefShowValue": "asperiores",
-  "Description": "Managed methodical policy",
-  "IsBuiltin": false
+  "PrefDescLineId": 145,
+  "PrefDescId": 370,
+  "PrefValue": "laboriosam",
+  "PrefShowValue": "et",
+  "Description": "Mandatory hybrid time-frame",
+  "IsBuiltin": true
 }
 ```
 
@@ -108,18 +108,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 317,
-  "PrefDescId": 779,
-  "PrefValue": "sunt",
-  "PrefShowValue": "magnam",
-  "Description": "Profit-focused didactic attitude",
+  "PrefDescLineId": 788,
+  "PrefDescId": 931,
+  "PrefValue": "iste",
+  "PrefShowValue": "facere",
+  "Description": "Managed foreground extranet",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 131
     }
   },
   "_Links": {

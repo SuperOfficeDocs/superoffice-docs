@@ -71,8 +71,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285,
-  "Name": "Tillman Inc and Sons",
-  "AssociateId": 155,
-  "DetailsTable": 514,
-  "DetailsRecord": 200,
+  "Id": 550,
+  "Name": "Hand, Mayert and Padberg",
+  "AssociateId": 609,
+  "DetailsTable": 991,
+  "DetailsRecord": 143,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "autem",
-    "ParameterObject2": "rem"
+    "ParameterObject1": "aut",
+    "ParameterObject2": "iure"
   },
-  "LastStarted": "1996-05-10T12:15:27.5986265+02:00",
-  "Created": "2002-03-30T12:15:27.5986265+01:00",
-  "StartCount": 91,
-  "DatabaseSerialNumber": "1084640",
-  "Context": "culpa",
-  "Result": "itaque",
+  "LastStarted": "2002-12-07T15:29:30.806988+01:00",
+  "Created": "2022-11-12T15:29:30.806988+01:00",
+  "StartCount": 840,
+  "DatabaseSerialNumber": "1104306",
+  "Context": "eum",
+  "Result": "quasi",
   "State": "All",
-  "Description": "Synchronised heuristic time-frame",
-  "Response": "ipsa",
-  "Request": "rem",
-  "ProgressDescription": "Object-based bottom-line support",
-  "ProgressPercent": 811,
-  "FileName": "Bernhard, Marquardt and Gibson",
+  "Description": "Profound zero tolerance infrastructure",
+  "Response": "esse",
+  "Request": "dignissimos",
+  "ProgressDescription": "Proactive mission-critical parallelism",
+  "ProgressPercent": 552,
+  "FileName": "Abshire-Batz",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=353
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=472
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -77,8 +77,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 149,
-  "ContactId": 790,
-  "ProjectId": 653,
-  "ContactName": "Medhurst Group",
-  "ContactDepartment": "",
-  "ProjectName": "Gutmann, Rowe and Corwin",
-  "EmailId": 893,
-  "EmailAddress": "lisa_renner@effertzernser.name",
-  "CountryId": 900,
-  "Firstname": "Jamel",
-  "MiddleName": "Brekke, Okuneva and Tromp",
-  "Lastname": "Towne",
-  "PersonId": 480,
-  "Mrmrs": "illo",
-  "ProjectMemberTypeName": "Leuschke Inc and Sons",
-  "Phone": "(936)702-6118 x028",
-  "PhoneId": 798,
-  "ProjectMemberTypeId": 663,
-  "EmailAddressName": "grayce@upton.com",
-  "Comment": "distinctio",
-  "FullName": "Mrs. Jordy Runolfsson V",
+  "ProjectmemberId": 624,
+  "ContactId": 754,
+  "ProjectId": 642,
+  "ContactName": "Borer-Okuneva",
+  "ContactDepartment": "monetize dot-com solutions",
+  "ProjectName": "Bartoletti Group",
+  "EmailId": 773,
+  "EmailAddress": "meaghan@will.info",
+  "CountryId": 708,
+  "Firstname": "Yessenia",
+  "MiddleName": "McKenzie Group",
+  "Lastname": "Murray",
+  "PersonId": 721,
+  "Mrmrs": "nihil",
+  "ProjectMemberTypeName": "Feest, Farrell and Hirthe",
+  "Phone": "543.924.1661 x9266",
+  "PhoneId": 12,
+  "ProjectMemberTypeId": 246,
+  "EmailAddressName": "whitney.hartmann@gusikowski.co.uk",
+  "Comment": "repellat",
+  "FullName": "Prof. Elvis Rebeka Lockman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 351
     }
   }
 }

@@ -106,8 +106,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -115,12 +115,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 39,
-  "Name": "Schroeder Group"
+  "SelectionId": 897,
+  "Name": "Macejkovic, Larson and Medhurst"
 }
 ```
 
@@ -131,70 +131,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive mission-critical firmware",
-  "Postit": "dicta",
+  "Description": "Multi-layered content-based paradigm",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 171,
-  "IncludePerson": 980,
-  "MemberCount": 374,
-  "Name": "Gutkowski Inc and Sons",
-  "PostitTextId": 807,
-  "CreatedDate": "2011-07-29T12:15:20.1897338+02:00",
-  "SelectionId": 264,
-  "SoundEx": "et",
-  "Source": 134,
-  "TextId": 318,
-  "UpdatedDate": "1995-11-20T12:15:20.1897338+01:00",
-  "UpdatedCount": 84,
-  "Visibility": 279,
+  "GroupIdx": 134,
+  "IncludePerson": 368,
+  "MemberCount": 872,
+  "Name": "Windler LLC",
+  "PostitTextId": 825,
+  "CreatedDate": "2014-07-18T15:29:22.9662943+02:00",
+  "SelectionId": 892,
+  "SoundEx": "hic",
+  "Source": 432,
+  "TextId": 653,
+  "UpdatedDate": "2021-03-15T15:29:22.9662943+01:00",
+  "UpdatedCount": 937,
+  "Visibility": 267,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 663,
-  "TargetTableName": "Fadel, Sipes and Blick",
+  "TargetTableNumber": 44,
+  "TargetTableName": "Howell-Hodkiewicz",
   "Completed": false,
-  "LeftSelectionId": 825,
-  "RightSelectionId": 527,
+  "LeftSelectionId": 137,
+  "RightSelectionId": 224,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Daniel-O'Keefe",
-  "ShadowProviderName": "Greenholt, Becker and Nicolas",
-  "ChartKey": "id",
-  "LastLoaded": "1995-10-16T12:15:20.1897338+02:00",
-  "LastLoadedBy": 284,
+  "MainProviderName": "Crona-Huels",
+  "ShadowProviderName": "Hilll Inc and Sons",
+  "ChartKey": "ut",
+  "LastLoaded": "2003-05-16T15:29:22.9667942+02:00",
+  "LastLoadedBy": 709,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-01-15T12:15:20.1907337+01:00",
-  "LastMembershipChangeBy": 644,
+  "LastMembershipChange": "2015-03-07T15:29:22.9667942+01:00",
+  "LastMembershipChangeBy": 699,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "exercitationem",
-  "MemberTabHeading": "corporis",
-  "MailingsProviderName": "Murray LLC",
-  "DashboardTileDefinitionId": 843,
+  "MainHeading": "pariatur",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Jacobi, Turcotte and Lindgren",
+  "DashboardTileDefinitionId": 353,
   "VisibleFor": [
     {
-      "VisibleId": 399,
+      "VisibleId": 122,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 488
+          "FieldLength": 406
         }
       }
     },
     {
-      "VisibleId": 399,
+      "VisibleId": 122,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 488
+          "FieldLength": 406
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldType": "System.String",
+      "FieldLength": 500
     }
   }
 }

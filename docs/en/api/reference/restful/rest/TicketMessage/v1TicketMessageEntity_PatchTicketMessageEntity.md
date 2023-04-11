@@ -118,11 +118,12 @@ TicketMessageEntity  updated.
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -137,12 +138,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "id",
+    "path": "vero",
     "value": {}
   },
   {
     "op": "add",
-    "path": "id",
+    "path": "vero",
     "value": {}
   }
 ]
@@ -155,28 +156,28 @@ HTTP/1.1 200 TicketMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 228,
+  "EjMessageId": 719,
   "Ticket": null,
-  "CreatedAt": "2011-07-30T12:15:27.5796238+02:00",
+  "CreatedAt": "2009-11-18T15:29:30.7874852+01:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "asperiores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sint",
-  "TimeSpent": 951,
-  "Body": "et",
-  "HtmlBody": "neque",
-  "EmailHeader": "shakira_herman@cassinhomenick.name",
-  "DebugInfo": "fugit",
-  "MailSorter": "dignissimos",
+  "MessageId": "officiis",
+  "TimeSpent": 629,
+  "Body": "quis",
+  "HtmlBody": "quo",
+  "EmailHeader": "willy_steuber@schroeder.name",
+  "DebugInfo": "itaque",
+  "MailSorter": "officia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "assumenda",
+  "SearchTitle": "delectus",
   "MessageHeaders": [
     {
-      "Id": 923,
-      "Name": "Schoen-Huels",
-      "Value": "et",
+      "Id": 139,
+      "Name": "Walsh, Kihn and Borer",
+      "Value": "impedit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -184,47 +185,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 493
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "est",
-  "Sentiment": 643,
-  "SentimentConfidence": 166,
+  "Important": true,
+  "Language": "veniam",
+  "Sentiment": 819,
+  "SentimentConfidence": 590,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 879,
-      "Name": "Jaskolski Inc and Sons",
-      "ContentType": "esse",
-      "AttSize": 533,
+      "AttachmentId": 862,
+      "Name": "Volkman, Jacobi and Bernhard",
+      "ContentType": "asperiores",
+      "AttSize": 363,
       "InlineImage": false,
-      "ContentId": "quo",
+      "ContentId": "quae",
+      "AuthKey": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 461
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "necessitatibus"
+    "CustomFields1": "et",
+    "CustomFields2": "perspiciatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 613
     }
   },
   "_Links": {

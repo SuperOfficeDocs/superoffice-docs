@@ -63,8 +63,8 @@ OK
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
 | DashTileDefinition | DashTileDefinition | The tile definition entity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,15 +72,15 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 869,
-  "DashboardId": 620,
-  "Height": 976,
-  "Width": 312,
-  "Rank": 511,
+  "DashboardTileId": 931,
+  "DashboardId": 377,
+  "Height": 922,
+  "Width": 446,
+  "Rank": 414,
   "DashTileDefinition": null
 }
 ```
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 29,
-  "DashboardId": 780,
-  "Height": 494,
-  "Width": 679,
-  "Rank": 168,
+  "DashboardTileId": 540,
+  "DashboardId": 76,
+  "Height": 215,
+  "Width": 495,
+  "Rank": 700,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldType": "System.Int32",
+      "FieldLength": 383
     }
   }
 }

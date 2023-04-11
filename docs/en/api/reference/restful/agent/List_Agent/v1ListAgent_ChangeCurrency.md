@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 4820.092,
-  "FromCurrency": "ut",
-  "ToCurrency": "occaecati"
+  "Amount": 25391.667999999998,
+  "FromCurrency": "omnis",
+  "ToCurrency": "ipsa"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-15362.868
+1043.622
 ```

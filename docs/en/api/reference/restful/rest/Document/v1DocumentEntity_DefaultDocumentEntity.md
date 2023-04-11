@@ -80,8 +80,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,91 +97,91 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 27 Jan 2012 12:15:26 G1T
+Last-Modified: Wed, 11 Jun 1997 15:29:29 G6T
 
 {
-  "DocumentId": 44,
+  "DocumentId": 558,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veritatis",
-  "Header": "autem",
-  "Name": "Feil, Pagac and Greenholt",
-  "OurRef": "quisquam",
-  "YourRef": "dolores",
-  "CreatedDate": "2011-01-15T12:15:26.8256373+01:00",
-  "UpdatedDate": "2012-01-27T12:15:26.8256373+01:00",
-  "Description": "Profound needs-based implementation",
+  "Attention": "tempora",
+  "Header": "distinctio",
+  "Name": "Kub Group",
+  "OurRef": "omnis",
+  "YourRef": "facilis",
+  "CreatedDate": "1999-05-10T15:29:29.6416977+02:00",
+  "UpdatedDate": "1997-06-11T15:29:29.6416977+02:00",
+  "Description": "Reactive 24/7 array",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-10-27T12:15:26.8286374+02:00",
-  "ExternalRef": "voluptatem",
+  "Date": "1997-08-27T15:29:29.6447001+02:00",
+  "ExternalRef": "explicabo",
   "Completed": "Completed",
-  "ActiveLinks": 469,
+  "ActiveLinks": 473,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Nitzsche-Flatley",
-      "Id": 698,
-      "Description": "Profit-focused upward-trending local area network",
-      "ExtraInfo": "neque",
-      "LinkId": 628,
+      "EntityName": "Roob, McLaughlin and Hartmann",
+      "Id": 986,
+      "Description": "Focused dedicated secured line",
+      "ExtraInfo": "nulla",
+      "LinkId": 428,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 422
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 148,
-  "Snum": 366,
+  "SuggestedDocumentId": 816,
+  "Snum": 375,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Adrien Adele Parisian Jr.",
-    "SuperOffice:2": "1351949914"
+    "SuperOffice:1": "Anya Bartoletti",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "et"
+    "ExtraFields1": "non",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "aut"
+    "CustomFields1": "et",
+    "CustomFields2": "delectus"
   },
-  "PublishEventDate": "2013-01-21T12:15:26.8306375+01:00",
-  "PublishTo": "2000-09-24T12:15:26.8306375+02:00",
-  "PublishFrom": "2004-11-17T12:15:26.8306375+01:00",
+  "PublishEventDate": "1996-12-28T15:29:29.6457+01:00",
+  "PublishTo": "2002-07-26T15:29:29.6457+02:00",
+  "PublishFrom": "2019-09-07T15:29:29.6457+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 215,
+      "VisibleId": 120,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldType": "System.String",
+          "FieldLength": 129
         }
       }
     },
     {
-      "VisibleId": 215,
+      "VisibleId": 120,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldType": "System.String",
+          "FieldLength": 129
         }
       }
     }
@@ -190,8 +190,8 @@ Last-Modified: Fri, 27 Jan 2012 12:15:26 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

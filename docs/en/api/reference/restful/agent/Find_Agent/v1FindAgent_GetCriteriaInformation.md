@@ -71,8 +71,8 @@ OK
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,12 +84,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "tempore",
-  "ProviderName": "Stanton-Prohaska",
-  "StorageKey": "laborum",
+  "StorageType": "voluptatibus",
+  "ProviderName": "Torp Inc and Sons",
+  "StorageKey": "eum",
   "StaticColumns": [
-    "in",
-    "delectus"
+    "excepturi",
+    "ipsum"
   ]
 }
 ```
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "O'Connell, Effertz and Prosacco",
-      "Operator": "qui",
+      "Name": "Brown, Boyer and McGlynn",
+      "Operator": "adipisci",
       "Values": [
-        "sapiente",
-        "aut"
+        "sit",
+        "quo"
       ],
       "DisplayValues": [
-        "voluptas",
-        "repellendus"
+        "itaque",
+        "eos"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 789,
+      "InterParenthesis": 17,
       "InterOperator": "And",
-      "UniqueHash": 145
+      "UniqueHash": 766
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Reynolds Group",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "eveniet",
+      "DisplayName": "Homenick-Daniel",
+      "DisplayTooltip": "assumenda",
+      "DisplayType": "consequatur",
       "CanOrderBy": false,
-      "Name": "Barrows-Connelly",
+      "Name": "DuBuque LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "sunt",
-      "RestrictionListName": "Hessel-Schoen",
-      "IsVisible": false,
-      "ExtraInfo": "amet",
-      "Width": "vel",
-      "IconHint": "perspiciatis",
-      "HeadingIconHint": "tempora"
+      "RestrictionType": "nostrum",
+      "RestrictionListName": "Kozey, Durgan and Abshire",
+      "IsVisible": true,
+      "ExtraInfo": "animi",
+      "Width": "eligendi",
+      "IconHint": "et",
+      "HeadingIconHint": "quisquam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Cremin Inc and Sons",
-      "PrimaryKey": 127,
+      "EntityName": "Zemlak, Kuvalis and Franecki",
+      "PrimaryKey": 542,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "reiciendis",
-          "LinkHint": "asperiores"
+          "DisplayValue": "molestias",
+          "TooltipHint": "facere",
+          "LinkHint": "sint"
         }
       },
-      "LinkHint": "repudiandae",
-      "StyleHint": "mollitia",
+      "LinkHint": "labore",
+      "StyleHint": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 222
+          "FieldType": "System.Int32",
+          "FieldLength": 953
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Gorczany Inc and Sons",
-      "Description": "Synchronised foreground circuit",
-      "Rank": 816,
+      "Name": "Parker, Kovacek and Botsford",
+      "Description": "Optional grid-enabled instruction set",
+      "Rank": 744,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gorczany Inc and Sons",
-      "Description": "Synchronised foreground circuit",
-      "Rank": 816,
+      "Name": "Parker, Kovacek and Botsford",
+      "Description": "Optional grid-enabled instruction set",
+      "Rank": 744,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 490
+      "FieldLength": 330
     }
   }
 }

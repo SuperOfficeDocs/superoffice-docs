@@ -56,8 +56,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 523,
-  "ERPPriceListKey": "tenetur",
-  "QuoteConnectionId": 260,
-  "Name": "Parisian-O'Connell",
-  "Description": "Horizontal didactic concept",
-  "Currency": "quas",
-  "CurrencyName": "Stamm-Feest",
-  "ValidFrom": "1997-08-16T12:15:28.2526228+02:00",
-  "ValidTo": "2001-10-09T12:15:28.2526228+02:00",
-  "IsActive": false,
+  "PriceListId": 673,
+  "ERPPriceListKey": "sed",
+  "QuoteConnectionId": 793,
+  "Name": "Corwin Group",
+  "Description": "Customizable attitude-oriented approach",
+  "Currency": "qui",
+  "CurrencyName": "Gerhold LLC",
+  "ValidFrom": "2001-12-02T15:29:31.3674847+01:00",
+  "ValidTo": "2008-08-04T15:29:31.3674847+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldType": "System.String",
+      "FieldLength": 549
     }
   }
 }

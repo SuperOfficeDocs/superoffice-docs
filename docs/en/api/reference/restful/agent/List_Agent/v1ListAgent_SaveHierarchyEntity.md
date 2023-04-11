@@ -71,8 +71,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,32 +84,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 759,
+  "HierarchyId": 82,
   "Domain": "Dashboards",
-  "Name": "Hegmann, Goyette and Mohr",
-  "Fullname": "consequuntur",
-  "ParentId": 349,
+  "Name": "Gerhold, Bins and Konopelski",
+  "Fullname": "et",
+  "ParentId": 763,
   "Children": [
     {
-      "HierarchyId": 750,
+      "HierarchyId": 184,
       "Domain": "Dashboards",
-      "Name": "Boyer-Bauch",
-      "Fullname": "labore",
-      "ParentId": 488,
+      "Name": "Bins Inc and Sons",
+      "Fullname": "corporis",
+      "ParentId": 26,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-04-26T12:15:19.3267465+02:00",
-      "RegisteredAssociateId": 76,
-      "Updated": "2015-03-23T12:15:19.3267465+01:00",
-      "UpdatedAssociateId": 102
+      "Registered": "2011-08-22T15:29:22.0877706+02:00",
+      "RegisteredAssociateId": 868,
+      "Updated": "2001-08-13T15:29:22.0877706+02:00",
+      "UpdatedAssociateId": 153
     }
   ],
-  "Registered": "2010-12-17T12:15:19.3267465+01:00",
-  "RegisteredAssociateId": 880,
-  "Updated": "2000-06-14T12:15:19.3267465+02:00",
-  "UpdatedAssociateId": 814
+  "Registered": "2009-02-22T15:29:22.0877706+01:00",
+  "RegisteredAssociateId": 563,
+  "Updated": "2003-05-28T15:29:22.0877706+02:00",
+  "UpdatedAssociateId": 963
 }
 ```
 
@@ -120,46 +120,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 693,
+  "HierarchyId": 284,
   "Domain": "Dashboards",
-  "Name": "Langosh LLC",
-  "Fullname": "ab",
-  "ParentId": 109,
+  "Name": "Jaskolski LLC",
+  "Fullname": "est",
+  "ParentId": 415,
   "Children": [
     {
-      "HierarchyId": 964,
+      "HierarchyId": 81,
       "Domain": "Dashboards",
-      "Name": "Lemke, Mueller and Wilkinson",
-      "Fullname": "dolore",
-      "ParentId": 859,
+      "Name": "Marvin-Franecki",
+      "Fullname": "magni",
+      "ParentId": 810,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-12-10T12:15:19.3277474+01:00",
-      "RegisteredAssociateId": 281,
-      "Updated": "2010-11-13T12:15:19.3277474+01:00",
-      "UpdatedAssociateId": 295,
+      "Registered": "2019-01-11T15:29:22.0882716+01:00",
+      "RegisteredAssociateId": 248,
+      "Updated": "2002-05-07T15:29:22.0882716+02:00",
+      "UpdatedAssociateId": 931,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 417
         }
       }
     }
   ],
-  "Registered": "2009-02-26T12:15:19.3277474+01:00",
-  "RegisteredAssociateId": 529,
-  "Updated": "2002-10-27T12:15:19.3277474+01:00",
-  "UpdatedAssociateId": 305,
+  "Registered": "2014-11-07T15:29:22.0882716+01:00",
+  "RegisteredAssociateId": 509,
+  "Updated": "2011-12-07T15:29:22.0882716+01:00",
+  "UpdatedAssociateId": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 582
     }
   }
 }

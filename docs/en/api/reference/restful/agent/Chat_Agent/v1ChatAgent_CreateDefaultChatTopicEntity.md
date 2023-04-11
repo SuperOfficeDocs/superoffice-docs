@@ -77,8 +77,8 @@ OK
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 19,
-  "Name": "Johnston, Kihn and Huel",
-  "Description": "Operative web-enabled implementation",
-  "WelcomeMessage": "aliquam",
+  "ChatTopicId": 667,
+  "Name": "Monahan LLC",
+  "Description": "Compatible scalable moratorium",
+  "WelcomeMessage": "voluptatum",
   "Language": null,
-  "LastAccept": "2005-09-19T12:15:18.2747612+02:00",
-  "SecondsPrAccept": 205,
-  "AlertRecipient": "aut",
+  "LastAccept": "2009-07-30T15:29:20.8923217+02:00",
+  "SecondsPrAccept": 210,
+  "AlertRecipient": "id",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "qui",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "quod",
-  "WarnNewChatMinutes": 181,
-  "WarnManagerNewChatMinutes": 31,
-  "TicketEnabled": true,
+  "BadgeHeader": "voluptatem",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "ut",
+  "WarnNewChatMinutes": 855,
+  "WarnManagerNewChatMinutes": 201,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 842,
-  "WarnManagerChatMessageMinutes": 671,
+  "WarnChatMessageMinutes": 749,
+  "WarnManagerChatMessageMinutes": 55,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 723,
-  "OfflineFormQueueLength": 215,
+  "OfflineFormTimeLimit": 387,
+  "OfflineFormQueueLength": 602,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "dignissimos",
+  "WidgetRatingText": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldType": "System.String",
+      "FieldLength": 90
     }
   }
 }

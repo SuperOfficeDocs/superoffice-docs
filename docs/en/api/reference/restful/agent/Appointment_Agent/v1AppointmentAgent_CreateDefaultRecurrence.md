@@ -50,22 +50,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RecurrenceId | int32 |  |
-| StartDate | date-time |  |
-| EndDate | date-time |  |
-| RecurrenceCounter | int32 |  |
-| RecurrenceEndType | string |  |
-| Pattern | string |  |
-| DayPattern | TableRight |  |
-| WeekPattern | TableRight |  |
-| MonthPattern | TableRight |  |
-| YearPattern | TableRight |  |
-| Dates | array |  |
-| IsRecurrence | bool |  |
+| RecurrenceId | int32 | The recurrence rule id |
+| StartDate | date-time | Start date of the repetition pattern |
+| EndDate | date-time | End date of the repetition pattern Only used when the end is calculated from a end date. {SuperOffice.Data.RecurrenceEndType.EndDate} |
+| RecurrenceCounter | int32 | Number of recurrences Only used when the end is calculated from a number of repetitions. {SuperOffice.Data.RecurrenceEndType.Counter} |
+| RecurrenceEndType | string | Type defining how the end of the recurrence sequence should be calculated |
+| Pattern | string | The recurrence pattern (Daily, Weekly, Monthly, Yearly, Custom) |
+| DayPattern | RecurrenceDayPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i daily. {SuperOffice.Data.RecurrencePattern.Daily} |
+| WeekPattern | RecurrenceWeekPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i weekly. {SuperOffice.Data.RecurrencePattern.Weekly} |
+| MonthPattern | RecurrenceMonthPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i monthly. {SuperOffice.Data.RecurrencePattern.Monthly} |
+| YearPattern | RecurrenceYearPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i yearly. {SuperOffice.Data.RecurrencePattern.Yearly} |
+| Dates | array | List of all dates where this recurrence occurs |
+| IsRecurrence | bool | Get a or set IsRecurrence, indicating if this is a repeating appointment or not. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,10 +83,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 503,
-  "StartDate": "2009-11-14T12:15:17.8237682+01:00",
-  "EndDate": "2006-12-03T12:15:17.8237682+01:00",
-  "RecurrenceCounter": 966,
+  "RecurrenceId": 195,
+  "StartDate": "1999-05-05T15:29:20.5662922+02:00",
+  "EndDate": "2006-11-06T15:29:20.5662922+01:00",
+  "RecurrenceCounter": 61,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2008-03-02T12:15:17.8237682+01:00",
+      "Date": "2010-05-25T15:29:20.5662922+02:00",
       "IsConflict": false,
-      "Description": "Pre-emptive heuristic paradigm",
-      "DescriptionStyleHint": "Team-oriented value-added framework",
-      "Tooltip": "enim"
+      "Description": "Sharable systemic conglomeration",
+      "DescriptionStyleHint": "Horizontal solution-oriented system engine",
+      "Tooltip": "voluptas"
     },
     {
-      "Date": "2008-03-02T12:15:17.8237682+01:00",
+      "Date": "2010-05-25T15:29:20.5662922+02:00",
       "IsConflict": false,
-      "Description": "Pre-emptive heuristic paradigm",
-      "DescriptionStyleHint": "Team-oriented value-added framework",
-      "Tooltip": "enim"
+      "Description": "Sharable systemic conglomeration",
+      "DescriptionStyleHint": "Horizontal solution-oriented system engine",
+      "Tooltip": "voluptas"
     }
   ],
   "IsRecurrence": false

@@ -89,8 +89,8 @@ OK
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,29 +98,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 131,
-  "Name": "Schoen-Keeling",
-  "Description": "Proactive hybrid algorithm",
-  "DefaultHeight": 416,
-  "DefaultWidth": 1001,
+  "DashboardTileDefinitionId": 348,
+  "Name": "Swaniawski-McGlynn",
+  "Description": "Profound intangible Graphical User Interface",
+  "DefaultHeight": 69,
+  "DefaultWidth": 352,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Bailey LLC",
-  "SelectionId": 720,
+  "EntityName": "Metz LLC",
+  "SelectionId": 306,
   "CurrencyMode": "Base",
   "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "est",
-  "SortBy": "et",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 254,
-  "MeasureByField": "veritatis",
+  "MeasureField": "sunt",
+  "SortBy": "recusandae",
+  "LayoutConfig": "adipisci",
+  "SecondarySelectionId": 499,
+  "MeasureByField": "iusto",
   "Usage": "Dashboard",
-  "ProviderName": "Hodkiewicz Group"
+  "ProviderName": "Sauer-Larkin"
 }
 ```
 
@@ -131,31 +131,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 434,
-  "Name": "Armstrong, Powlowski and Kemmer",
-  "Description": "Compatible high-level productivity",
-  "DefaultHeight": 417,
-  "DefaultWidth": 679,
+  "DashboardTileDefinitionId": 991,
+  "Name": "Ortiz, Pacocha and Breitenberg",
+  "Description": "Customer-focused exuding firmware",
+  "DefaultHeight": 906,
+  "DefaultWidth": 684,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Schimmel-Larson",
-  "SelectionId": 403,
+  "EntityName": "Bradtke-Nikolaus",
+  "SelectionId": 729,
   "CurrencyMode": "Base",
-  "CurrencyCode": "accusantium",
+  "CurrencyCode": "minus",
   "Measure": "Average",
-  "MeasureField": "eligendi",
-  "SortBy": "voluptatibus",
-  "LayoutConfig": "sunt",
-  "SecondarySelectionId": 977,
-  "MeasureByField": "ut",
+  "MeasureField": "impedit",
+  "SortBy": "quis",
+  "LayoutConfig": "nostrum",
+  "SecondarySelectionId": 759,
+  "MeasureByField": "vitae",
   "Usage": "Dashboard",
-  "ProviderName": "Christiansen-Feil",
+  "ProviderName": "Eichmann-White",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 933
     }
   }
 }

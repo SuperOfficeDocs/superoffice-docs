@@ -32,7 +32,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
 
 
@@ -98,8 +98,8 @@ DocumentEntity found.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -116,91 +116,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 18 Nov 2013 12:15:26 G11T
+Last-Modified: Tue, 06 Jan 2015 15:29:29 G1T
 
 {
-  "DocumentId": 579,
+  "DocumentId": 455,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "unde",
-  "Header": "ipsa",
-  "Name": "Nader LLC",
-  "OurRef": "sit",
-  "YourRef": "facilis",
-  "CreatedDate": "2018-04-03T12:15:26.8576377+02:00",
-  "UpdatedDate": "2013-11-18T12:15:26.8576377+01:00",
-  "Description": "Polarised grid-enabled data-warehouse",
+  "Attention": "quo",
+  "Header": "est",
+  "Name": "Reichel, Walker and Beer",
+  "OurRef": "nulla",
+  "YourRef": "facere",
+  "CreatedDate": "2010-07-17T15:29:29.6707019+02:00",
+  "UpdatedDate": "2015-01-06T15:29:29.6707019+01:00",
+  "Description": "Networked disintermediate monitoring",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-11-16T12:15:26.8616401+01:00",
-  "ExternalRef": "et",
+  "Date": "2002-08-27T15:29:29.6731998+02:00",
+  "ExternalRef": "reprehenderit",
   "Completed": "Completed",
-  "ActiveLinks": 579,
+  "ActiveLinks": 79,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schuppe LLC",
-      "Id": 797,
-      "Description": "User-friendly high-level flexibility",
-      "ExtraInfo": "aut",
-      "LinkId": 495,
+      "EntityName": "Erdman LLC",
+      "Id": 686,
+      "Description": "User-centric encompassing local area network",
+      "ExtraInfo": "ut",
+      "LinkId": 315,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 406
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 550,
-  "Snum": 24,
+  "SuggestedDocumentId": 373,
+  "Snum": 45,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1194253595"
+    "SuperOffice:1": "596681140",
+    "SuperOffice:2": "1854488141"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "vitae"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2004-01-04T12:15:26.8626368+01:00",
-  "PublishTo": "1997-07-29T12:15:26.8626368+02:00",
-  "PublishFrom": "2016-07-02T12:15:26.8626368+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-01-07T15:29:29.6742+01:00",
+  "PublishTo": "1997-05-28T15:29:29.6742+02:00",
+  "PublishFrom": "2017-12-12T15:29:29.6742+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 128,
+      "VisibleId": 212,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 866
         }
       }
     },
     {
-      "VisibleId": 128,
+      "VisibleId": 212,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 866
         }
       }
     }
@@ -210,12 +210,12 @@ Last-Modified: Mon, 18 Nov 2013 12:15:26 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 707
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

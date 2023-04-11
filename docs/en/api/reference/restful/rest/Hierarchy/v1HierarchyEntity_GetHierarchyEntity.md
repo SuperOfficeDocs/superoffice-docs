@@ -71,8 +71,8 @@ HierarchyEntity found.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -91,46 +91,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 72,
+  "HierarchyId": 338,
   "Domain": "Dashboards",
-  "Name": "Schumm, Erdman and Emard",
-  "Fullname": "et",
-  "ParentId": 758,
+  "Name": "Dicki-Armstrong",
+  "Fullname": "voluptas",
+  "ParentId": 842,
   "Children": [
     {
-      "HierarchyId": 658,
+      "HierarchyId": 814,
       "Domain": "Dashboards",
-      "Name": "Dickinson, Aufderhar and Hickle",
-      "Fullname": "placeat",
-      "ParentId": 306,
+      "Name": "Strosin LLC",
+      "Fullname": "tenetur",
+      "ParentId": 440,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-10-21T12:15:26.9826351+02:00",
-      "RegisteredAssociateId": 397,
-      "Updated": "1999-11-07T12:15:26.9826351+01:00",
-      "UpdatedAssociateId": 282,
+      "Registered": "2003-02-21T15:29:29.7831984+01:00",
+      "RegisteredAssociateId": 147,
+      "Updated": "2007-06-04T15:29:29.7831984+02:00",
+      "UpdatedAssociateId": 684,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 466
+          "FieldType": "System.String",
+          "FieldLength": 860
         }
       }
     }
   ],
-  "Registered": "2013-05-31T12:15:26.9826351+02:00",
-  "RegisteredAssociateId": 942,
-  "Updated": "2007-04-07T12:15:26.9826351+02:00",
-  "UpdatedAssociateId": 275,
+  "Registered": "2012-02-29T15:29:29.7831984+01:00",
+  "RegisteredAssociateId": 155,
+  "Updated": "2004-03-21T15:29:29.7831984+01:00",
+  "UpdatedAssociateId": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   },
   "_Links": {

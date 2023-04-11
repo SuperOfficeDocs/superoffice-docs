@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 671,
+  "PersonId": 448,
   "IncludeProjectDocuments": true,
-  "StartTime": "2000-02-18T12:15:18.7357549+01:00",
-  "EndTime": "2007-04-23T12:15:18.7357549+02:00",
-  "Count": 327
+  "StartTime": "2011-09-30T15:29:21.4972813+02:00",
+  "EndTime": "2001-09-18T15:29:21.4972813+02:00",
+  "Count": 108
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 613,
-    "Attention": "omnis",
-    "Header": "sit",
-    "Name": "Ondricka Inc and Sons",
-    "OurRef": "vero",
-    "YourRef": "sit",
-    "Description": "Integrated regional encryption",
-    "DocumentTemplate": "architecto",
-    "IsPublished": true,
-    "PersonId": 861,
-    "PersonFullName": "Chelsie Stroman",
-    "AssociateFullName": "Elda Gleichner",
-    "ContactId": 794,
-    "ContactName": "Hegmann, Aufderhar and Pouros",
-    "ProjectId": 3,
-    "ProjectName": "Schneider, Armstrong and Schumm",
-    "AssociateId": 745,
-    "Snum": 680,
-    "SaleId": 891,
-    "SaleName": "Nolan LLC",
+    "DocumentId": 179,
+    "Attention": "accusamus",
+    "Header": "asperiores",
+    "Name": "Kohler-Johns",
+    "OurRef": "eum",
+    "YourRef": "cumque",
+    "Description": "Balanced solution-oriented frame",
+    "DocumentTemplate": "dolorem",
+    "IsPublished": false,
+    "PersonId": 585,
+    "PersonFullName": "Lindsay Pfeffer",
+    "AssociateFullName": "Miss Irwin Cremin I",
+    "ContactId": 951,
+    "ContactName": "Reinger, Friesen and Purdy",
+    "ProjectId": 686,
+    "ProjectName": "O'Reilly, Greenholt and Harris",
+    "AssociateId": 160,
+    "Snum": 590,
+    "SaleId": 886,
+    "SaleName": "Quigley, Stiedemann and Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

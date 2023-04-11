@@ -43,7 +43,7 @@ AppointmentEntity deleted.
 | 204 | AppointmentEntity deleted. |
 | 412 | Delete aborted because AppointmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

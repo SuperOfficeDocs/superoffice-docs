@@ -76,8 +76,8 @@ OK
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | ActiveQuoteVersion | QuoteVersion | The active quote version for the quote |
 | FavoriteQuoteAlternative | QuoteAlternative | The favorite quote alternative for the quote and active quote version. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 172
+  "QuoteId": 287
 }
 ```
 
@@ -100,26 +100,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 578,
-  "SaleId": 267,
-  "QuoteConnectionId": 151,
-  "ERPQuoteKey": "fuga",
-  "ERPOrderKey": "aut",
-  "ActiveQuoteVersionId": 782,
-  "AcceptedQuoteAlternativeId": 106,
-  "UseValuesFromQuote": 209,
-  "DocumentId": 660,
-  "PoNumber": "1617136",
-  "OrderComment": "aut",
-  "PreferredEmailCulture": "annabel@keelingweber.uk",
+  "QuoteId": 688,
+  "SaleId": 898,
+  "QuoteConnectionId": 254,
+  "ERPQuoteKey": "rerum",
+  "ERPOrderKey": "repellat",
+  "ActiveQuoteVersionId": 362,
+  "AcceptedQuoteAlternativeId": 310,
+  "UseValuesFromQuote": 847,
+  "DocumentId": 625,
+  "PoNumber": "841638",
+  "OrderComment": "sapiente",
+  "PreferredEmailCulture": "ezra@schowalter.biz",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

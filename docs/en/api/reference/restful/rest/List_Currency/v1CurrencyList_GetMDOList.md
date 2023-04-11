@@ -25,8 +25,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=harum
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=nihil
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Zboncak-Tromp",
-    "ToolTip": "Eligendi sed id fugit.",
-    "Deleted": false,
-    "Rank": 988,
-    "Type": "veniam",
+    "Id": 910,
+    "Name": "Thiel Group",
+    "ToolTip": "Porro autem quis.",
+    "Deleted": true,
+    "Rank": 124,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 678,
-        "Name": "Buckridge, Bednar and Mertz",
-        "ToolTip": "Aut expedita qui officia qui qui.",
-        "Deleted": true,
-        "Rank": 704,
-        "Type": "asperiores",
+        "Id": 749,
+        "Name": "Lind-Rosenbaum",
+        "ToolTip": "Consequatur non ad aliquam minima repudiandae est at.",
+        "Deleted": false,
+        "Rank": 521,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 549,
-        "ExtraInfo": "rerum",
-        "StyleHint": "dolorem",
-        "FullName": "Freeda Davis",
+        "IconHint": "rerum",
+        "ColorBlock": 463,
+        "ExtraInfo": "itaque",
+        "StyleHint": "natus",
+        "FullName": "Amanda Bogisich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 351
+            "FieldLength": 290
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 360,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "aspernatur",
-    "FullName": "Bette Earnest Labadie PhD",
+    "IconHint": "eius",
+    "ColorBlock": 140,
+    "ExtraInfo": "omnis",
+    "StyleHint": "sit",
+    "FullName": "Kathlyn Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 228
       }
     }
   }

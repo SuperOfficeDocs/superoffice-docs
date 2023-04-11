@@ -48,7 +48,7 @@ ConfigurableScreenDelta
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| ConfigurableScreenDelta | TableRight |  |
+| ConfigurableScreenDelta | TimeZoneData |  |
 
 ## Response:
 
@@ -58,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,28 +99,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 205,
-  "Name": "Weissnat-Effertz",
-  "Description": "Object-based coherent Graphic Interface",
-  "DeltaJson": "in",
+  "ConfigurableScreenDeltaId": 262,
+  "Name": "Will, Maggio and Swift",
+  "Description": "Multi-lateral 5th generation migration",
+  "DeltaJson": "maiores",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "numquam",
-  "UpdatedDate": "2015-05-05T12:15:18.4277591+02:00",
-  "CreatedDate": "2019-11-05T12:15:18.4277591+01:00",
+  "RecipeId": "tenetur",
+  "UpdatedDate": "2013-08-08T15:29:21.0432852+02:00",
+  "CreatedDate": "2007-12-23T15:29:21.0432852+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    996,
-    30
+    48,
+    629
   ],
-  "AppliesToKey": "deserunt",
+  "AppliesToKey": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 859
     }
   }
 }

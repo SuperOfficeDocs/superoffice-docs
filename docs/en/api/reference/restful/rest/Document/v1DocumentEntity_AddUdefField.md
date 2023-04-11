@@ -88,8 +88,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 283,
-  "ColumnId": 901,
-  "FieldDefault": "praesentium",
-  "FieldHeight": 714,
-  "FieldLabel": "temporibus",
-  "FieldLeft": 564,
-  "FieldTop": 746,
+  "UDefFieldId": 151,
+  "ColumnId": 854,
+  "FieldDefault": "aut",
+  "FieldHeight": 356,
+  "FieldLabel": "est",
+  "FieldLeft": 271,
+  "FieldTop": 937,
   "FieldType": "Checkbox",
-  "FieldWidth": 959,
-  "FormatMask": "quia",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 122,
-  "LabelLeft": 688,
-  "LabelTop": 614,
-  "LabelWidth": 443,
-  "LastVersionId": 537,
-  "ListTableId": 815,
-  "IsMandatory": false,
+  "FieldWidth": 787,
+  "FormatMask": "velit",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 640,
+  "LabelLeft": 131,
+  "LabelTop": 122,
+  "LabelWidth": 798,
+  "LastVersionId": 158,
+  "ListTableId": 456,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 672,
-  "ProgId": "iure",
-  "IsReadOnly": false,
-  "ShortLabel": "deleniti",
-  "TabOrder": 905,
-  "TextLength": 995,
-  "Tooltip": "cupiditate",
-  "UdefIdentity": 628,
-  "UDListDefinitionId": 592,
+  "Page1LineNo": 364,
+  "ProgId": "harum",
+  "IsReadOnly": true,
+  "ShortLabel": "quae",
+  "TabOrder": 393,
+  "TextLength": 858,
+  "Tooltip": "omnis",
+  "UdefIdentity": 711,
+  "UDListDefinitionId": 989,
   "Justification": "Center",
-  "Version": 488,
-  "TemplateVariableName": "Jaskolski LLC",
+  "Version": 910,
+  "TemplateVariableName": "Mills-Sipes",
   "HasBeenPublished": false,
-  "MdoListName": "Durgan Group",
+  "MdoListName": "Bayer-Goyette",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 613
     }
   }
 }

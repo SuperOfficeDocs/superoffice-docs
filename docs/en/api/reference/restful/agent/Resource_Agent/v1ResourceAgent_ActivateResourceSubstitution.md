@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -69,8 +69,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Schaden LLC",
-  "Culture": "beatae",
+  "ResourceName": "Wintheiser LLC",
+  "Culture": "rerum",
   "IsActive": false
 }
 ```

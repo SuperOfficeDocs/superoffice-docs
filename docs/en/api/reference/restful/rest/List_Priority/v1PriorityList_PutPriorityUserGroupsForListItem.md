@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Wiza, Hodkiewicz and Casper",
-    "ToolTip": "Voluptates nulla et.",
+    "Id": 705,
+    "Name": "Littel LLC",
+    "ToolTip": "Repudiandae ea dolorem labore.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "explicabo",
-    "ColorBlock": 246,
-    "IconHint": "modi",
+    "Rank": 102,
+    "Type": "cupiditate",
+    "ColorBlock": 188,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2006-03-03T12:15:28.2656167+01:00",
+    "LastChanged": "2004-05-04T15:29:31.3804795+02:00",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Walter, Wyman and Nitzsche",
-        "ToolTip": "Nesciunt pariatur et sed.",
+        "Id": 861,
+        "Name": "Bergnaum-Klocko",
+        "ToolTip": "Eveniet ipsum sunt.",
         "Deleted": false,
-        "Rank": 472,
-        "Type": "non",
-        "ColorBlock": 520,
-        "IconHint": "accusantium",
+        "Rank": 368,
+        "Type": "eum",
+        "ColorBlock": 84,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2008-02-07T12:15:28.2666167+01:00",
+        "LastChanged": "2019-08-22T15:29:31.3804795+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "magnam",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Randi Emmerich"
+        "FullName": "Rhiannon Greenfelder"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "minima",
+    "StyleHint": "doloremque",
     "Hidden": false,
-    "FullName": "Jayda Muller"
+    "FullName": "Abner Ratke IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Jones, Langworth and Quitzon",
-    "ToolTip": "Id ut.",
-    "Deleted": false,
-    "Rank": 608,
-    "Type": "veniam",
-    "ColorBlock": 219,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2011-10-02T12:15:28.2676167+02:00",
+    "Id": 997,
+    "Name": "Zboncak Group",
+    "ToolTip": "Maiores omnis maxime.",
+    "Deleted": true,
+    "Rank": 972,
+    "Type": "dicta",
+    "ColorBlock": 200,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2017-07-22T15:29:31.3824785+02:00",
     "ChildItems": [
       {
-        "Id": 878,
-        "Name": "Leannon Inc and Sons",
-        "ToolTip": "Odio nesciunt.",
+        "Id": 42,
+        "Name": "Orn Inc and Sons",
+        "ToolTip": "In sint.",
         "Deleted": true,
-        "Rank": 363,
-        "Type": "et",
-        "ColorBlock": 38,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "2006-04-24T12:15:28.2676167+02:00",
+        "Rank": 927,
+        "Type": "libero",
+        "ColorBlock": 519,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2009-11-22T15:29:31.3824785+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "dolor",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Twila Lynch",
+        "FullName": "Lelah Emard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldLength": 747
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Ethan Hamill",
+    "ExtraInfo": "sunt",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Dr. Felicia Edwina Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 988
       }
     }
   }

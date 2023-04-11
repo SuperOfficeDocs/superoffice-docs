@@ -111,8 +111,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -124,7 +124,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 347
+  "AppointmentId": 155
 }
 ```
 
@@ -135,61 +135,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 654,
-  "StartDate": "2004-07-18T12:15:17.6567727+02:00",
-  "EndDate": "2015-04-12T12:15:17.6567727+02:00",
+  "AppointmentId": 634,
+  "StartDate": "1999-02-23T15:29:20.2693334+01:00",
+  "EndDate": "2005-07-21T15:29:20.2693334+02:00",
   "Type": "BookingForChecklist",
-  "Task": "ex",
-  "AssociateFullName": "Mrs. Violet Kathryne Breitenberg",
-  "ContactName": "Cassin, Effertz and Berge",
-  "Description": "Polarised executive matrices",
-  "PersonFullName": "Alexanne Bode",
-  "PersonId": 207,
-  "ContactId": 397,
-  "ProjectId": 69,
-  "ProjectName": "Gottlieb, Gusikowski and Stanton",
+  "Task": "hic",
+  "AssociateFullName": "Myrna Ankunding",
+  "ContactName": "Cartwright-Cronin",
+  "Description": "User-centric full-range Graphic Interface",
+  "PersonFullName": "Mr. Tyrique Douglas",
+  "PersonId": 211,
+  "ContactId": 435,
+  "ProjectId": 701,
+  "ProjectName": "Daniel-Bins",
   "IsPublished": false,
-  "AssociateId": 297,
-  "ColorIndex": 342,
+  "AssociateId": 328,
+  "ColorIndex": 502,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 911,
-  "PriorityName": "Homenick-Cruickshank",
+  "PriorityId": 978,
+  "PriorityName": "Hermiston, Treutel and Carter",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2018-06-20T12:15:17.6577704+02:00",
+  "ActiveDate": "2018-07-28T15:29:20.2698361+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2019-07-09T12:15:17.6577704+02:00",
-  "RecurringEndDate": "2005-12-10T12:15:17.6577704+01:00",
-  "MotherId": 186,
-  "AssignedBy": 607,
-  "AssignedByFullName": "Dr. Mozelle Johns Sr.",
+  "RecurringStartDate": "2002-06-17T15:29:20.2698361+02:00",
+  "RecurringEndDate": "1998-04-17T15:29:20.2698361+02:00",
+  "MotherId": 319,
+  "AssignedBy": 295,
+  "AssignedByFullName": "Mrs. Valentin Deckow II",
   "RejectReason": "",
-  "Location": "tempora",
-  "AlarmLeadTime": "voluptatem",
-  "SaleId": 766,
-  "SaleName": "Stark, Bernhard and Buckridge",
-  "AssociateName": "Nader, Gutmann and O'Hara",
-  "CreatedDate": "2006-05-25T12:15:17.6577704+02:00",
-  "CreatedBy": "porro",
-  "CreatedByFullName": "Carlee Crist",
-  "CreatedByAssociateId": 888,
+  "Location": "inventore",
+  "AlarmLeadTime": "optio",
+  "SaleId": 314,
+  "SaleName": "Schmeler Inc and Sons",
+  "AssociateName": "Schneider Inc and Sons",
+  "CreatedDate": "2004-02-04T15:29:20.2703327+01:00",
+  "CreatedBy": "debitis",
+  "CreatedByFullName": "Miss Alexis Shannon Swift III",
+  "CreatedByAssociateId": 621,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

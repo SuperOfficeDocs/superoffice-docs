@@ -71,8 +71,8 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,28 +97,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ea",
-    "InputValues2": "sit"
+    "InputValues1": "reprehenderit",
+    "InputValues2": "nam"
   },
   "BlockExecution": false,
-  "NavigateTo": "ab",
-  "Message": "omnis",
-  "ShowDialog": "aut",
+  "NavigateTo": "sit",
+  "Message": "et",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "assumenda",
-    "OutputValues2": "incidunt"
+    "OutputValues1": "ipsam",
+    "OutputValues2": "ab"
   },
   "StateValues": {
-    "StateValues1": "eos",
-    "StateValues2": "eius"
+    "StateValues1": "odio",
+    "StateValues2": "incidunt"
   },
-  "Exception": "dolorum",
+  "Exception": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldType": "System.String",
+      "FieldLength": 357
     }
   }
 }

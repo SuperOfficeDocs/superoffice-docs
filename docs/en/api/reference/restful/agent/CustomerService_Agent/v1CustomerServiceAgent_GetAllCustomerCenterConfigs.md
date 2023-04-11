@@ -62,8 +62,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 6,
+    "CustConfigId": 258,
     "Type": "Options",
-    "Config": "velit",
-    "CustLangId": 970,
-    "Registered": "2016-09-19T12:15:18.6417562+02:00",
-    "RegisteredAssociateId": 760,
-    "Updated": "2008-11-22T12:15:18.6417562+01:00",
-    "UpdatedAssociateId": 182,
+    "Config": "ut",
+    "CustLangId": 448,
+    "Registered": "2011-12-08T15:29:21.2682822+01:00",
+    "RegisteredAssociateId": 302,
+    "Updated": "2015-01-15T15:29:21.2682822+01:00",
+    "UpdatedAssociateId": 912,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldLength": 817
       }
     }
   }

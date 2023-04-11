@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Raynor Inc and Sons",
-    "ToolTip": "Et harum rerum id quasi.",
+    "Id": 330,
+    "Name": "Robel, Doyle and Deckow",
+    "ToolTip": "Impedit quo.",
     "Deleted": false,
-    "Rank": 115,
-    "Type": "amet",
-    "ColorBlock": 18,
-    "IconHint": "qui",
+    "Rank": 376,
+    "Type": "culpa",
+    "ColorBlock": 658,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1999-04-11T12:15:28.3846152+02:00",
+    "LastChanged": "1998-07-09T15:29:31.4979756+02:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Cronin LLC",
-        "ToolTip": "Iste eligendi.",
+        "Id": 139,
+        "Name": "Bins-Hahn",
+        "ToolTip": "Impedit eos harum soluta tempora.",
         "Deleted": false,
-        "Rank": 672,
-        "Type": "corporis",
-        "ColorBlock": 330,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2018-10-22T12:15:28.3846152+02:00",
+        "Rank": 361,
+        "Type": "esse",
+        "ColorBlock": 538,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2017-03-08T15:29:31.4979756+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "libero",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Timmy Marvin"
+        "FullName": "Prof. Polly Cassandre Beahan DDS"
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "animi",
+    "ExtraInfo": "delectus",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Larissa Lindgren"
+    "FullName": "Miss Helen Althea Gusikowski"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Ledner Group",
-    "ToolTip": "Dolore dolores aspernatur.",
+    "Id": 885,
+    "Name": "Shields-Tillman",
+    "ToolTip": "Voluptatem placeat.",
     "Deleted": false,
-    "Rank": 987,
-    "Type": "debitis",
-    "ColorBlock": 823,
-    "IconHint": "aut",
+    "Rank": 932,
+    "Type": "laborum",
+    "ColorBlock": 157,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2001-04-07T12:15:28.3866157+02:00",
+    "LastChanged": "2023-02-09T15:29:31.5004762+01:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Dicki-Kohler",
-        "ToolTip": "Vero voluptatem et ullam.",
+        "Id": 508,
+        "Name": "Pouros-Shields",
+        "ToolTip": "Rerum aut assumenda cupiditate quos.",
         "Deleted": true,
-        "Rank": 181,
-        "Type": "cumque",
-        "ColorBlock": 212,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2016-07-15T12:15:28.3866157+02:00",
+        "Rank": 509,
+        "Type": "tenetur",
+        "ColorBlock": 507,
+        "IconHint": "temporibus",
+        "Selected": false,
+        "LastChanged": "2020-04-22T15:29:31.5004762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "beatae",
         "Hidden": true,
-        "FullName": "Prof. Cornelius Birdie Rolfson",
+        "FullName": "Breanna O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldLength": 51
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "porro",
-    "Hidden": true,
-    "FullName": "Mrs. Donnell Rogahn V",
+    "ExtraInfo": "qui",
+    "StyleHint": "cumque",
+    "Hidden": false,
+    "FullName": "Miss Juliet Reichel IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 439
+        "FieldLength": 754
       }
     }
   }

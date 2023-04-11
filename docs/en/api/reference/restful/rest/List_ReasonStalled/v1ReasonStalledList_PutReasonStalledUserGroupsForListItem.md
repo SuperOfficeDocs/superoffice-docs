@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Dickinson, Koch and Dare",
-    "ToolTip": "Voluptatibus hic similique qui.",
-    "Deleted": true,
-    "Rank": 615,
-    "Type": "repudiandae",
-    "ColorBlock": 201,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2021-01-02T12:15:28.4546161+01:00",
+    "Id": 349,
+    "Name": "Cummerata Group",
+    "ToolTip": "Et totam voluptas possimus expedita.",
+    "Deleted": false,
+    "Rank": 208,
+    "Type": "odit",
+    "ColorBlock": 185,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2015-05-21T15:29:31.5664738+02:00",
     "ChildItems": [
       {
-        "Id": 513,
-        "Name": "Kris-Swift",
-        "ToolTip": "Qui iste et eveniet ut vero non.",
+        "Id": 907,
+        "Name": "Conroy-Roob",
+        "ToolTip": "Est illum.",
         "Deleted": false,
-        "Rank": 976,
-        "Type": "deleniti",
-        "ColorBlock": 52,
-        "IconHint": "recusandae",
+        "Rank": 70,
+        "Type": "saepe",
+        "ColorBlock": 338,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "2005-09-05T12:15:28.4546161+02:00",
+        "LastChanged": "2008-09-24T15:29:31.5664738+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "nemo",
+        "ExtraInfo": "sit",
+        "StyleHint": "magni",
         "Hidden": true,
-        "FullName": "Chelsey Franecki III"
+        "FullName": "Glen Franecki"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Mr. Dylan Schiller DDS"
+    "ExtraInfo": "ipsum",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Mrs. Aaron Joaquin Kutch"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Kulas LLC",
-    "ToolTip": "Architecto rem et ea.",
-    "Deleted": true,
-    "Rank": 690,
-    "Type": "alias",
-    "ColorBlock": 93,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2013-03-27T12:15:28.4566154+01:00",
+    "Id": 238,
+    "Name": "Zieme-Kozey",
+    "ToolTip": "Ea ut.",
+    "Deleted": false,
+    "Rank": 799,
+    "Type": "ut",
+    "ColorBlock": 946,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2007-02-14T15:29:31.5679742+01:00",
     "ChildItems": [
       {
-        "Id": 790,
-        "Name": "Heidenreich LLC",
-        "ToolTip": "Totam neque rerum placeat nesciunt deserunt.",
+        "Id": 848,
+        "Name": "Lynch LLC",
+        "ToolTip": "Suscipit velit quaerat enim est.",
         "Deleted": false,
-        "Rank": 145,
-        "Type": "ducimus",
-        "ColorBlock": 943,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2014-05-14T12:15:28.4566154+02:00",
+        "Rank": 59,
+        "Type": "molestias",
+        "ColorBlock": 289,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2017-03-11T15:29:31.5679742+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Vito Daniel",
+        "ExtraInfo": "sit",
+        "StyleHint": "porro",
+        "Hidden": false,
+        "FullName": "Sylvan Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldLength": 347
           }
         }
       }
     ],
     "ExtraInfo": "rerum",
-    "StyleHint": "quo",
-    "Hidden": false,
-    "FullName": "Daniela Wisozk DDS",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Aurelia Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldType": "System.String",
+        "FieldLength": 843
       }
     }
   }

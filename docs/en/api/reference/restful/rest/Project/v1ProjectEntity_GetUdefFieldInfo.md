@@ -83,8 +83,8 @@ ProjectEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 907,
-  "ColumnId": 298,
-  "FieldDefault": "id",
-  "FieldHeight": 970,
-  "FieldLabel": "veniam",
-  "FieldLeft": 192,
-  "FieldTop": 366,
+  "UDefFieldId": 63,
+  "ColumnId": 522,
+  "FieldDefault": "mollitia",
+  "FieldHeight": 238,
+  "FieldLabel": "corporis",
+  "FieldLeft": 904,
+  "FieldTop": 993,
   "FieldType": "Checkbox",
-  "FieldWidth": 747,
-  "FormatMask": "molestiae",
-  "HideLabel": true,
+  "FieldWidth": 491,
+  "FormatMask": "iste",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 466,
-  "LabelLeft": 75,
-  "LabelTop": 606,
-  "LabelWidth": 231,
-  "LastVersionId": 497,
-  "ListTableId": 281,
-  "IsMandatory": false,
+  "LabelHeight": 347,
+  "LabelLeft": 199,
+  "LabelTop": 915,
+  "LabelWidth": 527,
+  "LastVersionId": 877,
+  "ListTableId": 187,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 496,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 663,
+  "ProgId": "qui",
   "IsReadOnly": false,
-  "ShortLabel": "animi",
-  "TabOrder": 164,
-  "TextLength": 984,
-  "Tooltip": "ipsam",
-  "UdefIdentity": 92,
-  "UDListDefinitionId": 284,
+  "ShortLabel": "placeat",
+  "TabOrder": 993,
+  "TextLength": 743,
+  "Tooltip": "repellat",
+  "UdefIdentity": 552,
+  "UDListDefinitionId": 524,
   "Justification": "Center",
-  "Version": 343,
-  "TemplateVariableName": "Kunze, Fay and O'Connell",
+  "Version": 921,
+  "TemplateVariableName": "Leannon Group",
   "HasBeenPublished": false,
-  "MdoListName": "Pouros LLC",
+  "MdoListName": "Ernser, Lang and Deckow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 294
     }
   }
 }

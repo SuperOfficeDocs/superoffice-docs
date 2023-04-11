@@ -109,8 +109,8 @@ OK
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -118,58 +118,58 @@ OK
 POST /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 26,
-  "Name": "Bahringer LLC",
+  "TicketPriorityId": 314,
+  "Name": "Simonis, Hills and Bergnaum",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 368,
+  "SortOrder": 598,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 396,
-  "MonStart": "2006-04-21T12:15:28.5566138+02:00",
-  "MonStop": "1999-03-21T12:15:28.5566138+01:00",
-  "TueStart": "2022-09-06T12:15:28.5566138+02:00",
-  "TueStop": "2007-11-13T12:15:28.5566138+01:00",
-  "WedStart": "2008-04-14T12:15:28.5566138+02:00",
-  "WedStop": "2005-07-31T12:15:28.5566138+02:00",
-  "ThuStart": "1998-12-29T12:15:28.5566138+01:00",
-  "ThuStop": "2000-09-18T12:15:28.5566138+02:00",
-  "FriStart": "2003-01-26T12:15:28.5566138+01:00",
-  "FriStop": "2022-06-18T12:15:28.5566138+02:00",
-  "SatStart": "2014-04-26T12:15:28.5566138+02:00",
-  "SatStop": "1997-11-23T12:15:28.5566138+01:00",
-  "SunStart": "2005-12-14T12:15:28.5566138+01:00",
-  "SunStop": "2010-05-30T12:15:28.5566138+02:00",
+  "Deadline": 183,
+  "MonStart": "2008-04-10T15:29:31.6664807+02:00",
+  "MonStop": "2021-07-13T15:29:31.6664807+02:00",
+  "TueStart": "2002-01-14T15:29:31.6664807+01:00",
+  "TueStop": "2009-09-04T15:29:31.6664807+02:00",
+  "WedStart": "2020-03-18T15:29:31.6664807+01:00",
+  "WedStop": "2019-11-15T15:29:31.6664807+01:00",
+  "ThuStart": "2007-04-30T15:29:31.6664807+02:00",
+  "ThuStop": "2014-02-25T15:29:31.6664807+01:00",
+  "FriStart": "1997-12-22T15:29:31.6664807+01:00",
+  "FriStop": "2003-08-05T15:29:31.6664807+02:00",
+  "SatStart": "2019-01-21T15:29:31.6664807+01:00",
+  "SatStop": "2004-11-27T15:29:31.6664807+01:00",
+  "SunStart": "2015-10-13T15:29:31.6664807+02:00",
+  "SunStop": "2021-08-18T15:29:31.6664807+02:00",
   "NonDates": [
-    "in",
-    "consectetur"
+    "voluptas",
+    "iusto"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 629,
-      "AlertLevel": 543,
-      "AlertTimeout": 68,
-      "Action": 350,
-      "DelegateTo": 445,
-      "ScriptId": 360,
-      "EmailTo": "hubert.stark@turcottewilderman.biz",
-      "SmsTo": "in",
-      "ReplyTemplateIdCustomer": 862,
-      "ReplyTemplateIdUser": 650,
-      "ReplyTemplateIdCatmast": 748,
-      "ReplyTemplateIdEmail": 90,
-      "RtiCustomerSms": 684,
-      "ReplyTemplateIdUserSms": 338,
-      "ReplyTemplateIdCatmastSms": 774,
-      "ReplyTemplateIdSms": 491
+      "TicketAlertId": 808,
+      "AlertLevel": 747,
+      "AlertTimeout": 89,
+      "Action": 127,
+      "DelegateTo": 466,
+      "ScriptId": 37,
+      "EmailTo": "nina@hayesrunolfsson.com",
+      "SmsTo": "repellendus",
+      "ReplyTemplateIdCustomer": 200,
+      "ReplyTemplateIdUser": 523,
+      "ReplyTemplateIdCatmast": 433,
+      "ReplyTemplateIdEmail": 598,
+      "RtiCustomerSms": 483,
+      "ReplyTemplateIdUserSms": 417,
+      "ReplyTemplateIdCatmastSms": 871,
+      "ReplyTemplateIdSms": 23
     }
   ]
 }
@@ -182,60 +182,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 906,
-  "Name": "Cole, Feeney and Considine",
+  "TicketPriorityId": 236,
+  "Name": "Moore, O'Keefe and Stoltenberg",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 43,
+  "SortOrder": 811,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 658,
-  "MonStart": "2022-11-09T12:15:28.5576126+01:00",
-  "MonStop": "2004-03-24T12:15:28.5576126+01:00",
-  "TueStart": "1999-06-01T12:15:28.5576126+02:00",
-  "TueStop": "2006-08-03T12:15:28.5576126+02:00",
-  "WedStart": "2018-06-17T12:15:28.5576126+02:00",
-  "WedStop": "2012-07-12T12:15:28.5576126+02:00",
-  "ThuStart": "2020-06-14T12:15:28.5576126+02:00",
-  "ThuStop": "2006-05-13T12:15:28.5576126+02:00",
-  "FriStart": "2016-10-05T12:15:28.5576126+02:00",
-  "FriStop": "2002-08-02T12:15:28.5576126+02:00",
-  "SatStart": "2003-03-25T12:15:28.5576126+01:00",
-  "SatStop": "2006-07-06T12:15:28.5576126+02:00",
-  "SunStart": "2019-03-03T12:15:28.5576126+01:00",
-  "SunStop": "2021-11-19T12:15:28.5576126+01:00",
+  "Deadline": 111,
+  "MonStart": "2014-02-11T15:29:31.666975+01:00",
+  "MonStop": "2022-03-25T15:29:31.666975+01:00",
+  "TueStart": "2003-04-28T15:29:31.666975+02:00",
+  "TueStop": "2010-10-06T15:29:31.666975+02:00",
+  "WedStart": "2009-12-27T15:29:31.666975+01:00",
+  "WedStop": "2016-08-02T15:29:31.666975+02:00",
+  "ThuStart": "1997-08-26T15:29:31.666975+02:00",
+  "ThuStop": "2002-07-31T15:29:31.666975+02:00",
+  "FriStart": "2013-05-27T15:29:31.666975+02:00",
+  "FriStop": "2017-07-09T15:29:31.666975+02:00",
+  "SatStart": "2016-01-11T15:29:31.666975+01:00",
+  "SatStop": "1996-10-02T15:29:31.666975+02:00",
+  "SunStart": "1996-07-21T15:29:31.666975+02:00",
+  "SunStop": "2019-06-29T15:29:31.666975+02:00",
   "NonDates": [
-    "blanditiis",
-    "praesentium"
+    "laudantium",
+    "recusandae"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 105,
-      "AlertLevel": 617,
-      "AlertTimeout": 747,
-      "Action": 56,
-      "DelegateTo": 119,
-      "ScriptId": 980,
-      "EmailTo": "kailee@west.info",
-      "SmsTo": "laboriosam",
-      "ReplyTemplateIdCustomer": 980,
-      "ReplyTemplateIdUser": 600,
-      "ReplyTemplateIdCatmast": 73,
-      "ReplyTemplateIdEmail": 117,
-      "RtiCustomerSms": 426,
-      "ReplyTemplateIdUserSms": 529,
-      "ReplyTemplateIdCatmastSms": 272,
-      "ReplyTemplateIdSms": 248,
+      "TicketAlertId": 430,
+      "AlertLevel": 1000,
+      "AlertTimeout": 195,
+      "Action": 916,
+      "DelegateTo": 701,
+      "ScriptId": 763,
+      "EmailTo": "aisha@corwin.us",
+      "SmsTo": "amet",
+      "ReplyTemplateIdCustomer": 44,
+      "ReplyTemplateIdUser": 20,
+      "ReplyTemplateIdCatmast": 438,
+      "ReplyTemplateIdEmail": 834,
+      "RtiCustomerSms": 832,
+      "ReplyTemplateIdUserSms": 237,
+      "ReplyTemplateIdCatmastSms": 188,
+      "ReplyTemplateIdSms": 816,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldType": "System.Int32",
+          "FieldLength": 91
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 789
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

@@ -97,8 +97,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 791
+  "SelectedListId": 714
 }
 ```
 
@@ -122,46 +122,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 643,
-  "ColumnId": 820,
-  "FieldDefault": "asperiores",
-  "FieldHeight": 685,
-  "FieldLabel": "sint",
-  "FieldLeft": 346,
-  "FieldTop": 151,
+  "UDefFieldId": 898,
+  "ColumnId": 184,
+  "FieldDefault": "inventore",
+  "FieldHeight": 787,
+  "FieldLabel": "minus",
+  "FieldLeft": 622,
+  "FieldTop": 634,
   "FieldType": "Checkbox",
-  "FieldWidth": 38,
-  "FormatMask": "eveniet",
+  "FieldWidth": 89,
+  "FormatMask": "ut",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 940,
-  "LabelLeft": 266,
-  "LabelTop": 825,
-  "LabelWidth": 318,
-  "LastVersionId": 479,
-  "ListTableId": 303,
+  "IsIndexed": false,
+  "LabelHeight": 191,
+  "LabelLeft": 64,
+  "LabelTop": 619,
+  "LabelWidth": 49,
+  "LastVersionId": 669,
+  "ListTableId": 110,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 816,
-  "ProgId": "et",
+  "Page1LineNo": 664,
+  "ProgId": "magni",
   "IsReadOnly": false,
-  "ShortLabel": "ipsa",
-  "TabOrder": 945,
-  "TextLength": 525,
-  "Tooltip": "excepturi",
-  "UdefIdentity": 31,
-  "UDListDefinitionId": 223,
+  "ShortLabel": "qui",
+  "TabOrder": 118,
+  "TextLength": 514,
+  "Tooltip": "laboriosam",
+  "UdefIdentity": 934,
+  "UDListDefinitionId": 679,
   "Justification": "Center",
-  "Version": 344,
-  "TemplateVariableName": "Krajcik-Pouros",
-  "HasBeenPublished": false,
-  "MdoListName": "Towne, Quigley and Smith",
+  "Version": 692,
+  "TemplateVariableName": "Rowe, Dicki and Waters",
+  "HasBeenPublished": true,
+  "MdoListName": "Walsh-Kiehn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldLength": 737
     }
   }
 }

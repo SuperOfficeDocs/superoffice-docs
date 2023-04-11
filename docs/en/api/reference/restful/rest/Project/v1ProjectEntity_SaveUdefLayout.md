@@ -119,8 +119,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -128,45 +128,45 @@ OK
 PUT /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 945,
-    "ColumnId": 998,
-    "FieldDefault": "aspernatur",
-    "FieldHeight": 53,
-    "FieldLabel": "dolor",
-    "FieldLeft": 747,
-    "FieldTop": 966,
+    "UDefFieldId": 818,
+    "ColumnId": 814,
+    "FieldDefault": "velit",
+    "FieldHeight": 167,
+    "FieldLabel": "excepturi",
+    "FieldLeft": 429,
+    "FieldTop": 310,
     "FieldType": "Checkbox",
-    "FieldWidth": 400,
-    "FormatMask": "autem",
+    "FieldWidth": 884,
+    "FormatMask": "accusantium",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 48,
-    "LabelLeft": 571,
-    "LabelTop": 435,
-    "LabelWidth": 764,
-    "LastVersionId": 153,
-    "ListTableId": 167,
+    "IsIndexed": true,
+    "LabelHeight": 27,
+    "LabelLeft": 696,
+    "LabelTop": 740,
+    "LabelWidth": 872,
+    "LastVersionId": 107,
+    "ListTableId": 746,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 504,
-    "ProgId": "rerum",
+    "Page1LineNo": 115,
+    "ProgId": "fuga",
     "IsReadOnly": false,
-    "ShortLabel": "nostrum",
-    "TabOrder": 302,
-    "TextLength": 435,
-    "Tooltip": "quos",
-    "UdefIdentity": 59,
-    "UDListDefinitionId": 130,
+    "ShortLabel": "amet",
+    "TabOrder": 654,
+    "TextLength": 643,
+    "Tooltip": "molestias",
+    "UdefIdentity": 936,
+    "UDListDefinitionId": 266,
     "Justification": "Center",
-    "Version": 127,
-    "TemplateVariableName": "Kuhn-Klein",
-    "HasBeenPublished": true,
-    "MdoListName": "Schiller, Heathcote and Robel"
+    "Version": 555,
+    "TemplateVariableName": "Prohaska LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Schmitt-Willms"
   }
 ]
 ```
@@ -179,46 +179,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 442,
-    "ColumnId": 714,
-    "FieldDefault": "eius",
-    "FieldHeight": 385,
-    "FieldLabel": "quisquam",
-    "FieldLeft": 696,
-    "FieldTop": 630,
+    "UDefFieldId": 202,
+    "ColumnId": 617,
+    "FieldDefault": "et",
+    "FieldHeight": 930,
+    "FieldLabel": "et",
+    "FieldLeft": 7,
+    "FieldTop": 441,
     "FieldType": "Checkbox",
-    "FieldWidth": 695,
-    "FormatMask": "assumenda",
+    "FieldWidth": 706,
+    "FormatMask": "eveniet",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 516,
-    "LabelLeft": 205,
-    "LabelTop": 198,
-    "LabelWidth": 904,
-    "LastVersionId": 337,
-    "ListTableId": 814,
+    "LabelHeight": 293,
+    "LabelLeft": 53,
+    "LabelTop": 823,
+    "LabelWidth": 556,
+    "LastVersionId": 345,
+    "ListTableId": 832,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 40,
-    "ProgId": "consequatur",
+    "Page1LineNo": 299,
+    "ProgId": "possimus",
     "IsReadOnly": false,
-    "ShortLabel": "eum",
-    "TabOrder": 909,
-    "TextLength": 56,
-    "Tooltip": "nemo",
-    "UdefIdentity": 23,
-    "UDListDefinitionId": 929,
+    "ShortLabel": "error",
+    "TabOrder": 549,
+    "TextLength": 847,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 468,
+    "UDListDefinitionId": 548,
     "Justification": "Center",
-    "Version": 946,
-    "TemplateVariableName": "Marks, Collins and Gerhold",
+    "Version": 464,
+    "TemplateVariableName": "Satterfield-Koepp",
     "HasBeenPublished": true,
-    "MdoListName": "Glover-Kertzmann",
+    "MdoListName": "Kihn-Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 736
       }
     }
   }

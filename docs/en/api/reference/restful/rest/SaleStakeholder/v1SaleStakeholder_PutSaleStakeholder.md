@@ -104,8 +104,8 @@ SaleStakeholder updated.
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -114,29 +114,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jones-Ernser",
-  "Comment": "qui",
-  "StakeholderRoleId": 687,
-  "CountryId": 380,
-  "PersonId": 449,
-  "EmailDescription": "presley_upton@reilly.us",
-  "EmailId": 848,
-  "EmailAddress": "gay@gleason.co.uk",
-  "PhoneId": 562,
-  "ContactName": "Cummerata LLC",
-  "ContactId": 821,
-  "SaleId": 203,
-  "Mrmrs": "ut",
-  "Firstname": "Jerrold",
-  "MiddleName": "Sporer, Wiegand and Bauch",
-  "Lastname": "Jewess",
-  "SaleStakeholderId": 398,
-  "Rank": 964,
-  "Phone": "075-491-0480 x92084"
+  "StakeholderRoleName": "O'Hara, Murray and McGlynn",
+  "Comment": "nisi",
+  "StakeholderRoleId": 95,
+  "CountryId": 200,
+  "PersonId": 941,
+  "EmailDescription": "jimmie@blanda.name",
+  "EmailId": 306,
+  "EmailAddress": "kariane@haagkautzer.com",
+  "PhoneId": 179,
+  "ContactName": "Bailey Inc and Sons",
+  "ContactId": 791,
+  "SaleId": 950,
+  "Mrmrs": "quos",
+  "Firstname": "Ivy",
+  "MiddleName": "Stoltenberg-Goodwin",
+  "Lastname": "Wolff",
+  "SaleStakeholderId": 716,
+  "Rank": 84,
+  "Phone": "395.225.2463 x429"
 }
 ```
 
@@ -147,31 +147,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Rowe Inc and Sons",
-  "Comment": "numquam",
-  "StakeholderRoleId": 298,
-  "CountryId": 504,
-  "PersonId": 889,
-  "EmailDescription": "orval@kerluke.ca",
-  "EmailId": 134,
-  "EmailAddress": "heber.dickens@bradtkesimonis.co.uk",
-  "PhoneId": 332,
-  "ContactName": "Kihn Inc and Sons",
-  "ContactId": 178,
-  "SaleId": 820,
-  "Mrmrs": "facere",
-  "Firstname": "Grayson",
-  "MiddleName": "Cole, Schimmel and Rowe",
-  "Lastname": "Cole",
-  "SaleStakeholderId": 729,
-  "Rank": 12,
-  "Phone": "142.582.8516 x88141",
+  "StakeholderRoleName": "Reichel Group",
+  "Comment": "soluta",
+  "StakeholderRoleId": 530,
+  "CountryId": 468,
+  "PersonId": 808,
+  "EmailDescription": "rhea_pacocha@klein.name",
+  "EmailId": 601,
+  "EmailAddress": "liam_stracke@bode.name",
+  "PhoneId": 68,
+  "ContactName": "Morissette LLC",
+  "ContactId": 805,
+  "SaleId": 349,
+  "Mrmrs": "quam",
+  "Firstname": "Brandt",
+  "MiddleName": "Berge-Kautzer",
+  "Lastname": "Aufderhar",
+  "SaleStakeholderId": 858,
+  "Rank": 506,
+  "Phone": "589.441.8503 x3771",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldType": "System.Int32",
+      "FieldLength": 618
     }
   },
   "_Links": {

@@ -69,8 +69,8 @@ ShipmentMessageBlockEntity found.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -79,7 +79,7 @@ ShipmentMessageBlockEntity found.
 GET /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,20 +89,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 637,
-  "AssociateId": 245,
-  "Block": "enim",
-  "Registered": "2017-01-01T12:15:27.3956298+01:00",
-  "RegisteredAssociateId": 172,
-  "Updated": "2020-03-28T12:15:27.3956298+01:00",
-  "UpdatedAssociateId": 726,
-  "UpdatedCount": 786,
+  "ShipmentMessageBlockId": 515,
+  "AssociateId": 390,
+  "Block": "quisquam",
+  "Registered": "2017-03-20T15:29:30.6209875+01:00",
+  "RegisteredAssociateId": 69,
+  "Updated": "2002-02-28T15:29:30.6209875+01:00",
+  "UpdatedAssociateId": 465,
+  "UpdatedCount": 279,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldLength": 661
     }
   },
   "_Links": {

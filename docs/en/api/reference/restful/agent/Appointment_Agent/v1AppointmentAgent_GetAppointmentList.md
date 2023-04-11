@@ -108,8 +108,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -117,7 +117,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,61 +128,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 750,
-    "StartDate": "2012-06-05T12:15:17.9867665+02:00",
-    "EndDate": "2003-11-15T12:15:17.9867665+01:00",
+    "AppointmentId": 760,
+    "StartDate": "2009-05-27T15:29:20.7287906+02:00",
+    "EndDate": "2008-02-12T15:29:20.7287906+01:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Miguel Schmidt",
-    "ContactName": "Kilback, Farrell and Gaylord",
-    "Description": "Future-proofed static matrices",
-    "PersonFullName": "Josianne Moen",
-    "PersonId": 933,
-    "ContactId": 489,
-    "ProjectId": 912,
-    "ProjectName": "Kreiger Inc and Sons",
-    "IsPublished": true,
-    "AssociateId": 650,
-    "ColorIndex": 226,
+    "Task": "inventore",
+    "AssociateFullName": "Daisy Thompson",
+    "ContactName": "Stamm-Hagenes",
+    "Description": "De-engineered bandwidth-monitored concept",
+    "PersonFullName": "Alanis Feest",
+    "PersonId": 898,
+    "ContactId": 362,
+    "ProjectId": 215,
+    "ProjectName": "Heller, Swaniawski and Kihn",
+    "IsPublished": false,
+    "AssociateId": 307,
+    "ColorIndex": 639,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 842,
-    "PriorityName": "Jaskolski Group",
+    "PriorityId": 940,
+    "PriorityName": "Ondricka Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2005-03-26T12:15:17.9877653+01:00",
+    "ActiveDate": "2017-09-01T15:29:20.7287906+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-06-19T12:15:17.9877653+02:00",
-    "RecurringEndDate": "2013-12-24T12:15:17.9877653+01:00",
-    "MotherId": 585,
-    "AssignedBy": 517,
-    "AssignedByFullName": "Kailyn Tia Smith DVM",
+    "RecurringStartDate": "1997-09-12T15:29:20.7287906+02:00",
+    "RecurringEndDate": "2015-12-19T15:29:20.7287906+01:00",
+    "MotherId": 472,
+    "AssignedBy": 973,
+    "AssignedByFullName": "Miss Jonatan Corene Wunsch DVM",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 884,
-    "SaleName": "Klocko, Schultz and Bogisich",
-    "AssociateName": "Leffler-Runte",
-    "CreatedDate": "2008-09-21T12:15:17.9877653+02:00",
-    "CreatedBy": "inventore",
-    "CreatedByFullName": "Miss Edgardo Lynch",
-    "CreatedByAssociateId": 716,
+    "Location": "optio",
+    "AlarmLeadTime": "eius",
+    "SaleId": 931,
+    "SaleName": "Boyer, Lueilwitz and Olson",
+    "AssociateName": "Pollich Group",
+    "CreatedDate": "2020-02-09T15:29:20.7292899+01:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Mariela Weber",
+    "CreatedByAssociateId": 833,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

@@ -104,8 +104,8 @@ ShipmentMessageBlockEntity  updated.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -114,18 +114,18 @@ ShipmentMessageBlockEntity  updated.
 PATCH /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "possimus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "possimus",
     "value": {}
   }
 ]
@@ -138,25 +138,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 610,
-  "AssociateId": 109,
-  "Block": "delectus",
-  "Registered": "2010-07-23T12:15:27.3966292+02:00",
-  "RegisteredAssociateId": 386,
-  "Updated": "1996-02-25T12:15:27.3966292+01:00",
-  "UpdatedAssociateId": 240,
-  "UpdatedCount": 836,
+  "ShipmentMessageBlockId": 517,
+  "AssociateId": 178,
+  "Block": "dolores",
+  "Registered": "2009-04-26T15:29:30.6219897+02:00",
+  "RegisteredAssociateId": 773,
+  "Updated": "2010-08-08T15:29:30.6219897+02:00",
+  "UpdatedAssociateId": 273,
+  "UpdatedCount": 431,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

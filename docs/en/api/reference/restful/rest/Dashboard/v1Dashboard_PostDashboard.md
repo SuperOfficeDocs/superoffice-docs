@@ -73,8 +73,8 @@ OK
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -83,26 +83,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 820,
-  "AssociateId": 904,
-  "Caption": "rerum",
+  "DashboardId": 386,
+  "AssociateId": 932,
+  "Caption": "eius",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 407,
-      "Caption": "ut",
-      "Description": "Cross-platform real-time intranet",
-      "ChartName": "Rempel Inc and Sons",
-      "ChartId": "quaerat",
+      "DashboardTileId": 796,
+      "Caption": "dignissimos",
+      "Description": "Centralized analyzing circuit",
+      "ChartName": "Lueilwitz LLC",
+      "ChartId": "incidunt",
       "IsDefault": false,
-      "AssociateId": 302,
-      "GroupId": 275,
-      "SelectionId": 421,
-      "Config": "quidem",
+      "AssociateId": 871,
+      "GroupId": 1002,
+      "SelectionId": 93,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -125,22 +125,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 284,
-  "AssociateId": 129,
-  "Caption": "est",
+  "DashboardId": 151,
+  "AssociateId": 922,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 26,
-      "Caption": "est",
-      "Description": "Persevering attitude-oriented emulation",
-      "ChartName": "Kihn, Schamberger and Hilll",
-      "ChartId": "non",
-      "IsDefault": true,
-      "AssociateId": 868,
-      "GroupId": 748,
-      "SelectionId": 321,
-      "Config": "similique",
+      "DashboardTileId": 761,
+      "Caption": "veritatis",
+      "Description": "Public-key zero administration algorithm",
+      "ChartName": "Kuphal-Zieme",
+      "ChartId": "iste",
+      "IsDefault": false,
+      "AssociateId": 728,
+      "GroupId": 38,
+      "SelectionId": 937,
+      "Config": "deleniti",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 741
         }
       }
     }
@@ -165,13 +165,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 200
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

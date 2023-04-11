@@ -58,8 +58,8 @@ OK
 | BottomMargin | int32 | Bottom margin in twips |
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 306,
-  "Name": "Kulas-Borer",
-  "Description": "Persevering radical utilisation",
+  "ReportLabelLayoutId": 961,
+  "Name": "Bradtke, Yost and Lesch",
+  "Description": "Extended motivating alliance",
   "Orientation": "Landscape",
-  "PaperWidth": 416,
-  "PaperHeight": 702,
-  "LeftMargin": 428,
-  "RightMargin": 129,
-  "TopMargin": 428,
-  "BottomMargin": 245,
-  "CountColumns": 249,
-  "CountRows": 664,
+  "PaperWidth": 502,
+  "PaperHeight": 312,
+  "LeftMargin": 659,
+  "RightMargin": 804,
+  "TopMargin": 486,
+  "BottomMargin": 375,
+  "CountColumns": 434,
+  "CountRows": 176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 65
     }
   }
 }

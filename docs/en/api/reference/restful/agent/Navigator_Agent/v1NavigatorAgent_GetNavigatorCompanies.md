@@ -65,8 +65,8 @@ OK
 | Id | int32 |  |
 | Value | string |  |
 | Tooltip | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummings-Mosciski"
+  "Name": "Schamberger-Larkin"
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Value": "et",
-    "Tooltip": "est",
+    "Id": 15,
+    "Value": "voluptate",
+    "Tooltip": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldType": "System.String",
+        "FieldLength": 667
       }
     }
   },
   {
-    "Id": 643,
-    "Value": "et",
-    "Tooltip": "est",
+    "Id": 15,
+    "Value": "voluptate",
+    "Tooltip": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldType": "System.String",
+        "FieldLength": 667
       }
     }
   }

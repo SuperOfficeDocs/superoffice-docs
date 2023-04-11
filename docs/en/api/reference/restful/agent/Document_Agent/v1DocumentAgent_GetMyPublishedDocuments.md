@@ -74,8 +74,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,32 +94,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 837,
-    "Attention": "sit",
-    "Header": "facilis",
-    "Name": "Stehr, Casper and Moen",
-    "OurRef": "aut",
-    "YourRef": "sunt",
-    "Description": "Right-sized homogeneous concept",
-    "DocumentTemplate": "qui",
+    "DocumentId": 950,
+    "Attention": "dolores",
+    "Header": "facere",
+    "Name": "Goldner-Hudson",
+    "OurRef": "sapiente",
+    "YourRef": "corrupti",
+    "Description": "Phased even-keeled capacity",
+    "DocumentTemplate": "accusamus",
     "IsPublished": false,
-    "PersonId": 648,
-    "PersonFullName": "Heloise Kali Kohler Jr.",
-    "AssociateFullName": "Hassie Balistreri",
-    "ContactId": 642,
-    "ContactName": "Prosacco LLC",
-    "ProjectId": 676,
-    "ProjectName": "Bode-O'Kon",
-    "AssociateId": 982,
-    "Snum": 711,
-    "SaleId": 88,
-    "SaleName": "Hodkiewicz, Schultz and Walsh",
+    "PersonId": 328,
+    "PersonFullName": "Llewellyn Corwin",
+    "AssociateFullName": "Brennon Berge",
+    "ContactId": 478,
+    "ContactName": "Crona, Hintz and Schmitt",
+    "ProjectId": 91,
+    "ProjectName": "Green LLC",
+    "AssociateId": 178,
+    "Snum": 524,
+    "SaleId": 637,
+    "SaleName": "Schumm Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldType": "System.String",
+        "FieldLength": 416
       }
     }
   }

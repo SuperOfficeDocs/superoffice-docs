@@ -54,8 +54,8 @@ OK
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 407,
-  "Name": "Roberts LLC",
-  "Tooltip": "ut",
-  "PassiveText": "at",
+  "ReldefId": 388,
+  "Name": "Renner, O'Hara and Gibson",
+  "Tooltip": "aut",
+  "PassiveText": "laborum",
   "Deleted": true,
-  "Rank": 768,
+  "Rank": 259,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldLength": 118
     }
   }
 }

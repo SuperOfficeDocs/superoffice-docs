@@ -87,8 +87,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,10 +100,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 941,
-  "StartTime": "2001-04-03T12:15:18.7117555+02:00",
-  "EndTime": "2022-02-12T12:15:18.7117555+01:00",
-  "Count": 542
+  "ContactId": 349,
+  "StartTime": "2004-04-02T15:29:21.4722805+02:00",
+  "EndTime": "2008-05-07T15:29:21.4722805+02:00",
+  "Count": 858
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 801,
-    "Attention": "ducimus",
-    "Header": "vel",
-    "Name": "Stokes Group",
-    "OurRef": "perferendis",
-    "YourRef": "nesciunt",
-    "Description": "Triple-buffered grid-enabled product",
-    "DocumentTemplate": "aut",
+    "DocumentId": 300,
+    "Attention": "possimus",
+    "Header": "et",
+    "Name": "Langworth-Olson",
+    "OurRef": "in",
+    "YourRef": "quae",
+    "Description": "Devolved cohesive encryption",
+    "DocumentTemplate": "eum",
     "IsPublished": false,
-    "PersonId": 46,
-    "PersonFullName": "Miss Sarai Leora Vandervort",
-    "AssociateFullName": "Hazle Von",
-    "ContactId": 846,
-    "ContactName": "Abbott, McCullough and Russel",
-    "ProjectId": 261,
-    "ProjectName": "Crona, Smitham and Gislason",
-    "AssociateId": 432,
-    "Snum": 491,
-    "SaleId": 874,
-    "SaleName": "Powlowski-Gulgowski",
+    "PersonId": 111,
+    "PersonFullName": "Prof. Brannon Koch V",
+    "AssociateFullName": "Miss Al Carter",
+    "ContactId": 654,
+    "ContactName": "McLaughlin LLC",
+    "ProjectId": 678,
+    "ProjectName": "Gutmann Group",
+    "AssociateId": 239,
+    "Snum": 316,
+    "SaleId": 576,
+    "SaleName": "Ziemann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldLength": 184
       }
     }
   }

@@ -59,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Dicki LLC",
-  "ModuleName": "Runolfsson-Olson"
+  "OwnerName": "Beatty Group",
+  "ModuleName": "Mann-Nolan"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Yundt-Johns",
-  "ModuleName": "Kshlerin-Wiza",
-  "ModuleDescription": "Up-sized context-sensitive focus group",
-  "ModuleTooltip": "pariatur",
-  "ModuleVersion": "facere",
+  "OwnerName": "Schoen, Kassulke and Ullrich",
+  "ModuleName": "Graham-Bernhard",
+  "ModuleDescription": "Universal incremental capability",
+  "ModuleTooltip": "ad",
+  "ModuleVersion": "consectetur",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 260,
-  "ExtraFlags": 90,
-  "ExtraInfo": "sit",
-  "SortOrder": 107,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Altenwerth-Hyatt",
-  "Signature": "blanditiis"
+  "NumberOfLicenses": 53,
+  "ExtraFlags": 972,
+  "ExtraInfo": "assumenda",
+  "SortOrder": 24,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Hilll Group",
+  "Signature": "ut"
 }
 ```

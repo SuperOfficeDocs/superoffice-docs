@@ -49,8 +49,8 @@ OK
 | OngoingChats | int32 | The number of ongoing chats this users has now |
 | Present | bool | Indicates if the user has the chat presence turned on or off |
 | ChatTopics | array | An array of ids with chat topics that this user is a member of |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,20 +69,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 435,
-    "DisplayName": "Hickle LLC",
-    "OngoingChats": 33,
+    "UserId": 685,
+    "DisplayName": "Nitzsche, McCullough and Stark",
+    "OngoingChats": 461,
     "Present": false,
     "ChatTopics": [
-      421,
-      25
+      956,
+      314
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 557
       }
     }
   }

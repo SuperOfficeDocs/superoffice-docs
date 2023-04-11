@@ -28,7 +28,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=666
+GET /api/v1/Contact/{contactId}/Summary?limit=283
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,79 +84,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 536,
-      "TicketStatus": 838,
-      "Title": "reiciendis",
-      "Registered": "2007-03-19T12:15:26.7706452+01:00",
-      "IconHint": "laborum"
+      "TicketId": 244,
+      "TicketStatus": 778,
+      "Title": "magnam",
+      "Registered": "2017-12-13T15:29:29.5792028+01:00",
+      "IconHint": "maiores"
     },
     {
-      "TicketId": 536,
-      "TicketStatus": 838,
-      "Title": "reiciendis",
-      "Registered": "2007-03-19T12:15:26.7706452+01:00",
-      "IconHint": "laborum"
+      "TicketId": 244,
+      "TicketStatus": 778,
+      "Title": "magnam",
+      "Registered": "2017-12-13T15:29:29.5792028+01:00",
+      "IconHint": "maiores"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 640,
-      "DocumentId": 199,
-      "Date": "1996-01-05T12:15:26.7706452+01:00",
-      "Description": "Multi-channelled transitional hub",
+      "AppointmentId": 985,
+      "DocumentId": 157,
+      "Date": "2006-04-01T15:29:29.5792028+02:00",
+      "Description": "Business-focused system-worthy access",
       "Completed": "Completed",
-      "Registered": "2010-07-07T12:15:26.7706452+02:00"
+      "Registered": "2006-03-29T15:29:29.5792028+02:00"
     },
     {
-      "AppointmentId": 640,
-      "DocumentId": 199,
-      "Date": "1996-01-05T12:15:26.7706452+01:00",
-      "Description": "Multi-channelled transitional hub",
+      "AppointmentId": 985,
+      "DocumentId": 157,
+      "Date": "2006-04-01T15:29:29.5792028+02:00",
+      "Description": "Business-focused system-worthy access",
       "Completed": "Completed",
-      "Registered": "2010-07-07T12:15:26.7706452+02:00"
+      "Registered": "2006-03-29T15:29:29.5792028+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 46,
-      "DocumentId": 973,
-      "Date": "2017-11-05T12:15:26.7706452+01:00",
-      "Description": "Polarised human-resource concept",
+      "AppointmentId": 999,
+      "DocumentId": 272,
+      "Date": "2020-02-10T15:29:29.5792028+01:00",
+      "Description": "Object-based explicit conglomeration",
       "Completed": "Completed",
-      "Registered": "2022-01-05T12:15:26.7706452+01:00"
+      "Registered": "2001-06-29T15:29:29.5792028+02:00"
     },
     {
-      "AppointmentId": 46,
-      "DocumentId": 973,
-      "Date": "2017-11-05T12:15:26.7706452+01:00",
-      "Description": "Polarised human-resource concept",
+      "AppointmentId": 999,
+      "DocumentId": 272,
+      "Date": "2020-02-10T15:29:29.5792028+01:00",
+      "Description": "Object-based explicit conglomeration",
       "Completed": "Completed",
-      "Registered": "2022-01-05T12:15:26.7706452+01:00"
+      "Registered": "2001-06-29T15:29:29.5792028+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 860,
-      "SaleDate": "2021-08-17T12:15:26.7706452+02:00",
-      "Probability": 196,
-      "Heading": "hic",
-      "Amount": 19882.095999999998,
-      "Currency": "aspernatur",
-      "AmountInBaseCurrency": 3043.114,
+      "SaleId": 450,
+      "SaleDate": "2022-09-29T15:29:29.5792028+02:00",
+      "Probability": 930,
+      "Heading": "molestias",
+      "Amount": 26783.164,
+      "Currency": "odio",
+      "AmountInBaseCurrency": 22865.664,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2008-01-03T12:15:26.7706452+01:00"
+      "Registered": "2001-08-29T15:29:29.5797043+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 40,
-      "Name": "Hoppe LLC",
-      "CompanyName": "Friesen, Langosh and Barrows",
-      "FirstMessage": "pariatur",
-      "LastMessage": "cupiditate",
-      "WhenRequested": "2019-07-30T12:15:26.7706452+02:00",
-      "WhenEnded": "1998-08-01T12:15:26.7706452+02:00"
+      "ChatSessionId": 919,
+      "Name": "Jakubowski, McClure and Wunsch",
+      "CompanyName": "Franecki-Nicolas",
+      "FirstMessage": "qui",
+      "LastMessage": "enim",
+      "WhenRequested": "2015-04-24T15:29:29.5797043+02:00",
+      "WhenEnded": "2008-03-15T15:29:29.5797043+01:00"
     }
   ]
 }

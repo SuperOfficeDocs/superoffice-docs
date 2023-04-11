@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ForeignKeys"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -53,7 +53,7 @@ Lists all foreign apps, and outer joins any devices + keys associated with the a
 ## Sample
 
 ```http!
-GET /api/v1/archive/ForeignKeys?$select=keyUpdatedBy,deviceIdentifier,deviceLastSyncTrans
+GET /api/v1/archive/ForeignKeys?$select=deviceIdentifier,deviceLastSyncTrans
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

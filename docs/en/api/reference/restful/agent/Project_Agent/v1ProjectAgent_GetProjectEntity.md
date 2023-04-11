@@ -25,7 +25,7 @@ Gets a ProjectEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=467
+POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=522
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
 
@@ -87,8 +87,8 @@ OK
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,127 +106,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 129,
-  "Name": "Cronin Inc and Sons",
-  "ProjectNumber": "682960",
+  "ProjectId": 962,
+  "Name": "Schaden-Kris",
+  "ProjectNumber": "1814189",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 580,
-      "ContactId": 743,
-      "ProjectId": 210,
-      "ContactName": "O'Reilly Inc and Sons",
+      "ProjectmemberId": 906,
+      "ContactId": 848,
+      "ProjectId": 508,
+      "ContactName": "Rice, Hammes and Lueilwitz",
       "ContactDepartment": "",
-      "ProjectName": "Klocko Group",
-      "EmailId": 513,
-      "EmailAddress": "abe@leffler.ca",
-      "CountryId": 799,
-      "Firstname": "Jack",
-      "MiddleName": "Williamson Group",
-      "Lastname": "Kunde",
-      "PersonId": 834,
-      "Mrmrs": "eos",
-      "ProjectMemberTypeName": "Glover-Larkin",
-      "Phone": "923-898-6136 x89940",
-      "PhoneId": 757,
-      "ProjectMemberTypeId": 650,
-      "EmailAddressName": "anais_trantow@abbott.name",
-      "Comment": "ducimus",
-      "FullName": "Skylar Von",
+      "ProjectName": "Wunsch-Kuhn",
+      "EmailId": 561,
+      "EmailAddress": "leatha@klein.ca",
+      "CountryId": 399,
+      "Firstname": "Lavern",
+      "MiddleName": "Heidenreich LLC",
+      "Lastname": "Zemlak",
+      "PersonId": 669,
+      "Mrmrs": "et",
+      "ProjectMemberTypeName": "Parker-Gleichner",
+      "Phone": "826.630.3299 x8406",
+      "PhoneId": 61,
+      "ProjectMemberTypeId": 934,
+      "EmailAddressName": "angel@leuschke.biz",
+      "Comment": "eius",
+      "FullName": "Lexi Jonathon Hermiston II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldType": "System.String",
+          "FieldLength": 844
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "consequatur",
-      "StrippedValue": "assumenda",
-      "Description": "Fundamental client-server artificial intelligence",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 798
-        }
-      }
-    },
-    {
-      "Value": "consequatur",
-      "StrippedValue": "assumenda",
-      "Description": "Fundamental client-server artificial intelligence",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 798
-        }
-      }
-    }
-  ],
-  "CreatedDate": "1998-04-30T12:15:19.8327415+02:00",
-  "UpdatedDate": "1996-11-12T12:15:19.8327415+01:00",
-  "Description": "Networked logistical projection",
-  "Postit": "repudiandae",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Associate": null,
-  "ProjectStatus": null,
-  "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Polarised client-driven internet solution",
-  "ActiveStatusMonitorId": 789,
-  "Links": [
-    {
-      "EntityName": "Mann, Bernier and Boyle",
-      "Id": 730,
-      "Description": "Secured 5th generation moderator",
-      "ExtraInfo": "dicta",
-      "LinkId": 887,
+      "Value": "ut",
+      "StrippedValue": "aliquid",
+      "Description": "Open-source high-level capability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 729
+          "FieldLength": 447
+        }
+      }
+    },
+    {
+      "Value": "ut",
+      "StrippedValue": "aliquid",
+      "Description": "Open-source high-level capability",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
   ],
-  "ActiveLinks": 158,
+  "CreatedDate": "1998-03-14T15:29:22.4593018+01:00",
+  "UpdatedDate": "2017-07-19T15:29:22.4593018+02:00",
+  "Description": "Versatile global protocol",
+  "Postit": "ut",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
+  "HasImage": false,
+  "ImageDescription": "Programmable disintermediate capability",
+  "ActiveStatusMonitorId": 405,
+  "Links": [
+    {
+      "EntityName": "Watsica-Mertz",
+      "Id": 805,
+      "Description": "Horizontal responsive core",
+      "ExtraInfo": "sint",
+      "LinkId": 5,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
+        }
+      }
+    }
+  ],
+  "ActiveLinks": 910,
   "Completed": false,
-  "NextMilestoneDate": "2018-12-23T12:15:19.8347418+01:00",
-  "NmdAppointmentId": 18,
-  "EndDate": "2000-06-20T12:15:19.8347418+02:00",
-  "ActiveErpLinks": 121,
+  "NextMilestoneDate": "1999-05-08T15:29:22.4603055+02:00",
+  "NmdAppointmentId": 118,
+  "EndDate": "2006-07-12T15:29:22.4603055+02:00",
+  "ActiveErpLinks": 741,
   "UserDefinedFields": {
-    "SuperOffice:1": "Evie Consuelo Volkman I",
-    "SuperOffice:2": "Ceasar Murazik PhD"
+    "SuperOffice:1": "Ethyl Swaniawski",
+    "SuperOffice:2": "Mrs. Cicero Heathcote"
   },
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "nam"
+    "CustomFields1": "sit",
+    "CustomFields2": "pariatur"
   },
-  "PublishEventDate": "2011-11-25T12:15:19.8347418+01:00",
-  "PublishTo": "2010-08-08T12:15:19.8347418+02:00",
-  "PublishFrom": "2002-10-05T12:15:19.8347418+02:00",
+  "PublishEventDate": "2013-02-27T15:29:22.4608047+01:00",
+  "PublishTo": "2006-10-10T15:29:22.4608047+02:00",
+  "PublishFrom": "2014-04-16T15:29:22.4608047+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 935
     }
   }
 }

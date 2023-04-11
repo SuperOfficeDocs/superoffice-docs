@@ -65,8 +65,8 @@ OK
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 83,
-  "Name": "Schamberger Group",
-  "Description": "Fundamental 4th generation encoding",
-  "DefaultHeight": 413,
-  "DefaultWidth": 502,
+  "DashboardTileDefinitionId": 276,
+  "Name": "Hintz, Bauch and Stroman",
+  "Description": "Stand-alone real-time benchmark",
+  "DefaultHeight": 8,
+  "DefaultWidth": 4,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Krajcik LLC",
-  "SelectionId": 376,
+  "EntityName": "Steuber-Champlin",
+  "SelectionId": 792,
   "CurrencyMode": "Base",
-  "CurrencyCode": "omnis",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "qui",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 170,
-  "MeasureByField": "sed",
+  "MeasureField": "provident",
+  "SortBy": "eaque",
+  "LayoutConfig": "hic",
+  "SecondarySelectionId": 377,
+  "MeasureByField": "sit",
   "Usage": "Dashboard",
-  "ProviderName": "Veum Inc and Sons",
+  "ProviderName": "Goodwin, Ankunding and Cremin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 735
     }
   }
 }

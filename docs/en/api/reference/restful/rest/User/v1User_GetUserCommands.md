@@ -46,7 +46,7 @@ Not Found.
 |----------------|-------------|
 | 404 | Not Found. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

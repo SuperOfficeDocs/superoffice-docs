@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 118
+  "AssociateId": 187
 }
 ```
 
@@ -93,14 +93,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Willms-Keebler",
-    "DeviceIdentifier": "et",
-    "PocketVersion": "excepturi",
-    "Language": "consequatur",
-    "PNSHandle": "a",
+    "DeviceName": "Hilll LLC",
+    "DeviceIdentifier": "corporis",
+    "PocketVersion": "quis",
+    "Language": "nobis",
+    "PNSHandle": "aliquid",
     "Platform": "Apple",
-    "OSVersion": "modi",
-    "TimeZoneId": 533
+    "OSVersion": "corrupti",
+    "TimeZoneId": 544
   }
 ]
 ```

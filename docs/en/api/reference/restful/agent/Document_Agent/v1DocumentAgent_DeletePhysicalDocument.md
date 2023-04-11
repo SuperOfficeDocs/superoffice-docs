@@ -59,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Document/DeletePhysicalDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 551,
+  "DocumentId": 412,
   "AllowedReturnType": [
-    "dolor",
-    "temporibus"
+    "eum",
+    "nobis"
   ]
 }
 ```
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "est",
-  "VersionId": "in",
-  "Success": true,
+  "ExternalReference": "aut",
+  "VersionId": "soluta",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "culpa",
-  "AdditionalInfo": "qui"
+  "Value": "sunt",
+  "AdditionalInfo": "rerum"
 }
 ```

@@ -85,8 +85,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,10 +98,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bednar, Lemke and Sipes",
+  "Name": "Boyer, Schiller and Mills",
   "AssociateIds": [
-    402,
-    944
+    112,
+    278
   ]
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Koss-Stamm",
-    "AssociateId": 834,
-    "DetailsTable": 408,
-    "DetailsRecord": 315,
+    "Id": 381,
+    "Name": "Cremin Group",
+    "AssociateId": 277,
+    "DetailsTable": 468,
+    "DetailsRecord": 647,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "consequatur",
-      "ParameterObject2": "quo"
+      "ParameterObject1": "quia",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2018-03-24T12:15:18.2087633+01:00",
-    "Created": "1998-02-03T12:15:18.2087633+01:00",
-    "StartCount": 820,
-    "DatabaseSerialNumber": "1247790",
-    "Context": "sed",
-    "Result": "quia",
+    "LastStarted": "2008-05-06T15:29:20.8257894+02:00",
+    "Created": "2016-10-25T15:29:20.8257894+02:00",
+    "StartCount": 253,
+    "DatabaseSerialNumber": "1357855",
+    "Context": "accusantium",
+    "Result": "excepturi",
     "State": "All",
-    "Description": "Implemented human-resource emulation",
-    "Response": "dicta",
-    "Request": "eos",
-    "ProgressDescription": "Customizable hybrid migration",
-    "ProgressPercent": 764,
-    "FileName": "Runte-Ullrich",
+    "Description": "Upgradable dedicated adapter",
+    "Response": "nihil",
+    "Request": "consectetur",
+    "ProgressDescription": "Devolved transitional data-warehouse",
+    "ProgressPercent": 699,
+    "FileName": "Bins-Johnston",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldType": "System.String",
+        "FieldLength": 787
       }
     }
   }

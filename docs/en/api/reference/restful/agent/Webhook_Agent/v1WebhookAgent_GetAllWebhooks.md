@@ -90,8 +90,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Baumbach-Reilly",
-  "EventFilter": "reprehenderit",
+  "NameFilter": "Marquardt-Kertzmann",
+  "EventFilter": "similique",
   "StatusFilter": "Active"
 }
 ```
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 413,
-    "Name": "Ruecker-Casper",
+    "WebhookId": 260,
+    "Name": "Hand-Stehr",
     "Events": [
-      "maxime",
-      "modi"
+      "doloremque",
+      "sequi"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "in",
+    "Secret": "inventore",
     "State": "Active",
-    "Type": "earum",
+    "Type": "nostrum",
     "Headers": {
-      "Headers1": "corrupti",
-      "Headers2": "quis"
+      "Headers1": "autem",
+      "Headers2": "dolor"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2006-05-12T12:15:20.6707268+02:00",
+    "Registered": "2012-06-30T15:29:23.4477875+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2007-06-11T12:15:20.6707268+02:00",
+    "Updated": "1998-05-21T15:29:23.4477875+02:00",
     "UpdatedAssociate": null
   }
 ]

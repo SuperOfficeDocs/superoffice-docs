@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Spinka Group",
-    "ToolTip": "Nostrum sapiente iusto porro eos at.",
+    "Id": 12,
+    "Name": "Ernser, Dickens and Dooley",
+    "ToolTip": "Nostrum ut ut.",
     "Deleted": true,
-    "Rank": 411,
-    "Type": "nihil",
-    "ColorBlock": 160,
-    "IconHint": "eum",
+    "Rank": 114,
+    "Type": "ad",
+    "ColorBlock": 136,
+    "IconHint": "eos",
     "Selected": false,
-    "LastChanged": "2002-12-12T12:15:28.4226214+01:00",
+    "LastChanged": "2012-11-06T15:29:31.5349753+01:00",
     "ChildItems": [
       {
-        "Id": 161,
-        "Name": "Doyle, Considine and Ondricka",
-        "ToolTip": "Perferendis laboriosam quia qui reprehenderit ex provident.",
-        "Deleted": true,
-        "Rank": 454,
-        "Type": "amet",
-        "ColorBlock": 67,
-        "IconHint": "vero",
-        "Selected": false,
-        "LastChanged": "2010-06-11T12:15:28.4236229+02:00",
+        "Id": 708,
+        "Name": "Daniel LLC",
+        "ToolTip": "Voluptas modi.",
+        "Deleted": false,
+        "Rank": 410,
+        "Type": "dolor",
+        "ColorBlock": 642,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2020-02-23T15:29:31.5349753+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "animi",
+        "ExtraInfo": "qui",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Willis Cremin",
+        "FullName": "Domenico Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldType": "System.String",
+            "FieldLength": 17
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "ad",
+    "ExtraInfo": "ut",
+    "StyleHint": "illo",
     "Hidden": true,
-    "FullName": "Miss Carmelo Naomi Grimes I",
+    "FullName": "Ms. Malika Senger MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldType": "System.String",
+        "FieldLength": 339
       }
     }
   }

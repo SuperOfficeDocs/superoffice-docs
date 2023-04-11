@@ -140,8 +140,8 @@ SaleEntity  updated.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -150,18 +150,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quos",
+  "SaleText": "dolores",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -189,113 +189,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-04-14T12:15:27.3266303+02:00",
-  "Amount": 1886.668,
-  "SaleId": 157,
-  "Earning": 24053.45,
-  "EarningPercent": 5493.902,
-  "Heading": "voluptatum",
-  "Number": "789242",
-  "Probability": 776,
-  "CreatedDate": "2010-07-25T12:15:27.3266303+02:00",
-  "UpdatedDate": "2003-10-11T12:15:27.3266303+02:00",
+  "Saledate": "2019-12-30T15:29:30.5554903+01:00",
+  "Amount": 27447.572,
+  "SaleId": 991,
+  "Earning": 9148.1459999999988,
+  "EarningPercent": 28325.092,
+  "Heading": "deleniti",
+  "Number": "807075",
+  "Probability": 490,
+  "CreatedDate": "2017-10-24T15:29:30.5554903+02:00",
+  "UpdatedDate": "2006-09-05T15:29:30.5554903+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 544,
+  "ActiveLinks": 54,
   "Links": [
     {
-      "EntityName": "Ondricka, Schroeder and Leannon",
-      "Id": 102,
-      "Description": "Open-source context-sensitive encoding",
-      "ExtraInfo": "delectus",
-      "LinkId": 759,
+      "EntityName": "Mills Group",
+      "Id": 732,
+      "Description": "Front-line exuding alliance",
+      "ExtraInfo": "eos",
+      "LinkId": 520,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 416
+          "FieldType": "System.String",
+          "FieldLength": 139
         }
       }
     }
   ],
-  "NextDueDate": "2005-10-16T12:15:27.3276305+02:00",
-  "Postit": "perspiciatis",
+  "NextDueDate": "1998-04-20T15:29:30.5554903+02:00",
+  "Postit": "iste",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-09-11T12:15:27.3276305+02:00",
+  "ReopenDate": "2020-09-06T15:29:30.5559893+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Fay LLC",
-      "Comment": "et",
-      "StakeholderRoleId": 155,
-      "CountryId": 833,
-      "PersonId": 253,
-      "EmailDescription": "alec@lefflerswaniawski.us",
-      "EmailId": 903,
-      "EmailAddress": "scot@farrellzieme.us",
-      "PhoneId": 733,
-      "ContactName": "Kling, Rath and Raynor",
-      "ContactId": 679,
-      "SaleId": 75,
-      "Mrmrs": "rerum",
-      "Firstname": "Helen",
-      "MiddleName": "Waters LLC",
-      "Lastname": "Littel",
-      "SaleStakeholderId": 386,
-      "Rank": 437,
-      "Phone": "(592)621-0678",
+      "StakeholderRoleName": "West, Lang and Toy",
+      "Comment": "dolor",
+      "StakeholderRoleId": 686,
+      "CountryId": 839,
+      "PersonId": 379,
+      "EmailDescription": "moriah.bogisich@crooks.uk",
+      "EmailId": 272,
+      "EmailAddress": "carroll.glover@raubeahan.com",
+      "PhoneId": 339,
+      "ContactName": "Hyatt-Maggio",
+      "ContactId": 4,
+      "SaleId": 418,
+      "Mrmrs": "dolor",
+      "Firstname": "Kaylie",
+      "MiddleName": "Veum-Waters",
+      "Lastname": "Nitzsche",
+      "SaleStakeholderId": 5,
+      "Rank": 13,
+      "Phone": "673-121-5366",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 143
+          "FieldLength": 578
         }
       }
     }
   ],
-  "ActiveErpLinks": 393,
+  "ActiveErpLinks": 850,
   "UserDefinedFields": {
-    "SuperOffice:1": "1449058481",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1134767498",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "2010-09-10T12:15:27.3276305+02:00",
-  "PublishTo": "1997-10-26T12:15:27.3276305+01:00",
-  "PublishFrom": "2002-08-11T12:15:27.3276305+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-12-31T15:29:30.5564884+01:00",
+  "PublishTo": "2008-07-21T15:29:30.5564884+02:00",
+  "PublishFrom": "2019-02-19T15:29:30.5564884+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 183,
+      "VisibleId": 656,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 472
         }
       }
     },
     {
-      "VisibleId": 183,
+      "VisibleId": 656,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 472
         }
       }
     }
@@ -305,7 +305,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 449
     }
   },
   "_Links": {

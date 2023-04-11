@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Langosh Inc and Sons",
-    "ToolTip": "Et doloremque nam.",
+    "Id": 827,
+    "Name": "Leannon Group",
+    "ToolTip": "Sed fugiat reprehenderit.",
     "Deleted": false,
-    "Rank": 895,
-    "Type": "sunt",
-    "ColorBlock": 235,
-    "IconHint": "hic",
-    "Selected": true,
-    "LastChanged": "2008-12-12T12:15:28.5156128+01:00",
+    "Rank": 916,
+    "Type": "nulla",
+    "ColorBlock": 740,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2016-09-02T15:29:31.6254742+02:00",
     "ChildItems": [
       {
-        "Id": 284,
-        "Name": "Adams-Murphy",
-        "ToolTip": "Corporis at quod est molestiae aperiam.",
-        "Deleted": true,
-        "Rank": 267,
-        "Type": "rerum",
-        "ColorBlock": 128,
-        "IconHint": "fuga",
-        "Selected": true,
-        "LastChanged": "2012-02-22T12:15:28.5166153+01:00",
+        "Id": 682,
+        "Name": "Barton Inc and Sons",
+        "ToolTip": "Dolor provident aliquam.",
+        "Deleted": false,
+        "Rank": 802,
+        "Type": "consequatur",
+        "ColorBlock": 536,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2007-10-26T15:29:31.6254742+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "reprehenderit",
-        "Hidden": false,
-        "FullName": "Rebecca Corkery"
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Willis Stefan Ebert V"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "corrupti",
-    "Hidden": true,
-    "FullName": "Miss Gladyce Krajcik Jr."
+    "ExtraInfo": "itaque",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Mr. Shania Thalia Hermiston"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Price-Larson",
-    "ToolTip": "Vel commodi.",
-    "Deleted": true,
-    "Rank": 644,
-    "Type": "aut",
-    "ColorBlock": 471,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2012-10-08T12:15:28.5176177+02:00",
+    "Id": 99,
+    "Name": "Howell-Senger",
+    "ToolTip": "Vitae corrupti autem occaecati.",
+    "Deleted": false,
+    "Rank": 480,
+    "Type": "excepturi",
+    "ColorBlock": 279,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2005-07-29T15:29:31.6279816+02:00",
     "ChildItems": [
       {
-        "Id": 375,
-        "Name": "Nienow, Boehm and Hintz",
-        "ToolTip": "In cupiditate blanditiis.",
+        "Id": 129,
+        "Name": "Koss-Collier",
+        "ToolTip": "Ut fugit blanditiis fugiat velit.",
         "Deleted": false,
-        "Rank": 657,
-        "Type": "quia",
-        "ColorBlock": 696,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2014-07-28T12:15:28.5176177+02:00",
+        "Rank": 782,
+        "Type": "quod",
+        "ColorBlock": 779,
+        "IconHint": "cumque",
+        "Selected": true,
+        "LastChanged": "1998-04-09T15:29:31.6279816+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "totam",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "commodi",
         "Hidden": true,
-        "FullName": "Mrs. Mireya Christelle Wilkinson",
+        "FullName": "Prof. Citlalli Trisha O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldType": "System.String",
+            "FieldLength": 184
           }
         }
       }
     ],
     "ExtraInfo": "sit",
-    "StyleHint": "fugit",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Mr. Ben Scotty Kuphal",
+    "FullName": "Kaylee Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 346
       }
     }
   }

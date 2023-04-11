@@ -115,8 +115,8 @@ SaleStakeholder  updated.
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -125,18 +125,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -149,36 +149,36 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Little-Predovic",
-  "Comment": "est",
-  "StakeholderRoleId": 390,
-  "CountryId": 550,
-  "PersonId": 459,
-  "EmailDescription": "zella@bechtelarstanton.name",
-  "EmailId": 555,
-  "EmailAddress": "jennings.raynor@anderson.info",
-  "PhoneId": 964,
-  "ContactName": "Fahey Inc and Sons",
-  "ContactId": 103,
-  "SaleId": 153,
-  "Mrmrs": "ea",
-  "Firstname": "Jamey",
-  "MiddleName": "Lebsack Inc and Sons",
-  "Lastname": "Torphy",
-  "SaleStakeholderId": 312,
-  "Rank": 670,
-  "Phone": "431-498-5045",
+  "StakeholderRoleName": "Wintheiser Inc and Sons",
+  "Comment": "quis",
+  "StakeholderRoleId": 943,
+  "CountryId": 66,
+  "PersonId": 710,
+  "EmailDescription": "karlie@jones.info",
+  "EmailId": 820,
+  "EmailAddress": "crawford.rice@powlowski.info",
+  "PhoneId": 10,
+  "ContactName": "Casper-Boyle",
+  "ContactId": 53,
+  "SaleId": 157,
+  "Mrmrs": "numquam",
+  "Firstname": "Leonardo",
+  "MiddleName": "Greenholt-Schmitt",
+  "Lastname": "Wiegand",
+  "SaleStakeholderId": 654,
+  "Rank": 914,
+  "Phone": "1-791-647-0266",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldType": "System.String",
+      "FieldLength": 924
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -95,8 +95,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 506
+  "ChatSessionId": 463
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 65,
-  "TopicId": 908,
+  "ChatSessionId": 764,
+  "TopicId": 110,
   "User": null,
   "Person": null,
-  "CustomerAlias": "suscipit",
-  "CustomerHost": "labore",
-  "CustomerName": "Abernathy-Lesch",
-  "CustomerEmail": "celine.kohler@bayer.info",
-  "CustomerPhone": "347.935.6860",
+  "CustomerAlias": "recusandae",
+  "CustomerHost": "est",
+  "CustomerName": "Bartell Group",
+  "CustomerEmail": "nico@oconner.biz",
+  "CustomerPhone": "435.907.2326 x74051",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Howell Group",
+  "CustomerCompanyName": "Lynch Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "facere",
-  "LastMessage": "odio",
-  "WhenRequested": "1998-07-03T12:15:18.338761+02:00",
-  "WhenStarted": "2017-11-17T12:15:18.338761+01:00",
-  "WhenEnded": "1999-01-27T12:15:18.338761+01:00",
-  "WhenIdle": "2004-09-04T12:15:18.338761+02:00",
-  "WhenFetched": "2007-09-11T12:15:18.338761+02:00",
-  "SessionKey": "architecto",
-  "InitialQueuePos": 959,
-  "AlertLevel": 998,
-  "Rank": 580,
+  "FirstMessage": "porro",
+  "LastMessage": "et",
+  "WhenRequested": "1998-08-04T15:29:20.9562872+02:00",
+  "WhenStarted": "2021-11-29T15:29:20.9562872+01:00",
+  "WhenEnded": "2004-10-01T15:29:20.9562872+02:00",
+  "WhenIdle": "2000-10-03T15:29:20.9562872+02:00",
+  "WhenFetched": "2017-01-19T15:29:20.9562872+01:00",
+  "SessionKey": "sit",
+  "InitialQueuePos": 828,
+  "AlertLevel": 462,
+  "Rank": 808,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 538,
+  "Rating": 558,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldType": "System.String",
+      "FieldLength": 227
     }
   }
 }

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Jacobi-Smitham",
-    "ToolTip": "Et eaque.",
+    "Id": 615,
+    "Name": "Marvin, Mante and Jones",
+    "ToolTip": "Nihil culpa.",
     "Deleted": false,
-    "Rank": 236,
-    "Type": "non",
-    "ColorBlock": 790,
-    "IconHint": "quia",
+    "Rank": 26,
+    "Type": "saepe",
+    "ColorBlock": 330,
+    "IconHint": "hic",
     "Selected": true,
-    "LastChanged": "2015-07-03T12:15:27.8786252+02:00",
+    "LastChanged": "2011-08-17T15:29:31.0889461+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "O'Conner LLC",
-        "ToolTip": "Architecto cum qui cum vel laborum at consequatur.",
-        "Deleted": false,
-        "Rank": 854,
-        "Type": "non",
-        "ColorBlock": 451,
-        "IconHint": "qui",
+        "Id": 427,
+        "Name": "Dietrich-Tillman",
+        "ToolTip": "Qui non.",
+        "Deleted": true,
+        "Rank": 721,
+        "Type": "sit",
+        "ColorBlock": 535,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2011-12-01T12:15:27.8786252+01:00",
+        "LastChanged": "2014-12-10T15:29:31.0889461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "eum",
+        "ExtraInfo": "sed",
+        "StyleHint": "quis",
         "Hidden": true,
-        "FullName": "Dr. Kitty Davis"
+        "FullName": "Lamont Weimann DDS"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "sint",
+    "ExtraInfo": "sed",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mrs. Lucie Stehr"
+    "FullName": "Hilbert Bailey"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Name": "Muller Group",
-    "ToolTip": "Aspernatur debitis sunt fugit quo.",
+    "Id": 274,
+    "Name": "Pouros-Lebsack",
+    "ToolTip": "Ut et consectetur accusantium eos at.",
     "Deleted": false,
-    "Rank": 791,
-    "Type": "quo",
-    "ColorBlock": 641,
-    "IconHint": "temporibus",
-    "Selected": true,
-    "LastChanged": "2014-06-26T12:15:27.880623+02:00",
+    "Rank": 216,
+    "Type": "in",
+    "ColorBlock": 904,
+    "IconHint": "illum",
+    "Selected": false,
+    "LastChanged": "2004-04-02T15:29:31.0904461+02:00",
     "ChildItems": [
       {
-        "Id": 690,
-        "Name": "Weissnat, Turner and Kuvalis",
-        "ToolTip": "Quisquam dolorem nobis.",
+        "Id": 760,
+        "Name": "Hilll-Bernier",
+        "ToolTip": "Dolorem tempore dignissimos sit dolore.",
         "Deleted": false,
-        "Rank": 868,
-        "Type": "cum",
-        "ColorBlock": 622,
-        "IconHint": "corrupti",
-        "Selected": false,
-        "LastChanged": "2015-12-25T12:15:27.880623+01:00",
+        "Rank": 919,
+        "Type": "omnis",
+        "ColorBlock": 261,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2000-12-04T15:29:31.0904461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "repellat",
-        "Hidden": true,
-        "FullName": "Ayla Haley",
+        "ExtraInfo": "dolore",
+        "StyleHint": "accusamus",
+        "Hidden": false,
+        "FullName": "Miss Christian Pfeffer DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 385
+            "FieldType": "System.Int32",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "iste",
+    "ExtraInfo": "quia",
+    "StyleHint": "doloremque",
     "Hidden": true,
-    "FullName": "Savannah Zackery Wiza MD",
+    "FullName": "Baby Cronin I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 309
       }
     }
   }

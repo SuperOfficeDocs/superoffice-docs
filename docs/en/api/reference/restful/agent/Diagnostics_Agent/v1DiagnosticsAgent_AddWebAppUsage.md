@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -69,13 +69,13 @@ Content-Type: application/json; charset=utf-8
 {
   "WebAppUsages": [
     {
-      "WebAppUsageId": 954,
-      "AssocId": 483,
-      "Timestamp": "1998-01-01T12:15:18.7047555+01:00",
-      "ViewState": "ex",
-      "AggregateCount": 468,
-      "AggregateBin": 680,
-      "Version": 910
+      "WebAppUsageId": 322,
+      "AssocId": 212,
+      "Timestamp": "2018-03-03T15:29:21.4652794+01:00",
+      "ViewState": "officiis",
+      "AggregateCount": 541,
+      "AggregateBin": 146,
+      "Version": 442
     }
   ]
 }

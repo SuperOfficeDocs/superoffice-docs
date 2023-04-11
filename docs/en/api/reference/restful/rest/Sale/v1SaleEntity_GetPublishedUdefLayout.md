@@ -78,8 +78,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 564,
-    "ColumnId": 368,
-    "FieldDefault": "debitis",
-    "FieldHeight": 565,
-    "FieldLabel": "laboriosam",
-    "FieldLeft": 763,
-    "FieldTop": 484,
+    "UDefFieldId": 661,
+    "ColumnId": 232,
+    "FieldDefault": "quis",
+    "FieldHeight": 103,
+    "FieldLabel": "maiores",
+    "FieldLeft": 491,
+    "FieldTop": 496,
     "FieldType": "Checkbox",
-    "FieldWidth": 61,
-    "FormatMask": "soluta",
+    "FieldWidth": 571,
+    "FormatMask": "explicabo",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 618,
-    "LabelLeft": 220,
-    "LabelTop": 824,
-    "LabelWidth": 857,
-    "LastVersionId": 138,
-    "ListTableId": 568,
-    "IsMandatory": true,
+    "LabelHeight": 601,
+    "LabelLeft": 613,
+    "LabelTop": 202,
+    "LabelWidth": 948,
+    "LastVersionId": 17,
+    "ListTableId": 639,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 770,
-    "ProgId": "ut",
+    "Page1LineNo": 182,
+    "ProgId": "rerum",
     "IsReadOnly": false,
-    "ShortLabel": "nostrum",
-    "TabOrder": 610,
-    "TextLength": 875,
-    "Tooltip": "praesentium",
-    "UdefIdentity": 216,
-    "UDListDefinitionId": 976,
+    "ShortLabel": "saepe",
+    "TabOrder": 174,
+    "TextLength": 293,
+    "Tooltip": "repellat",
+    "UdefIdentity": 48,
+    "UDListDefinitionId": 322,
     "Justification": "Center",
-    "Version": 671,
-    "TemplateVariableName": "Reilly Group",
-    "HasBeenPublished": false,
-    "MdoListName": "Torp, Zemlak and Beer",
+    "Version": 553,
+    "TemplateVariableName": "Monahan, Kohler and Schmeler",
+    "HasBeenPublished": true,
+    "MdoListName": "Roberts, Rath and Dare",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldType": "System.String",
+        "FieldLength": 618
       }
     }
   }

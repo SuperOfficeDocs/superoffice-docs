@@ -25,7 +25,7 @@ Gets a ShipmentMessageBlockEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=239
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=70
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -64,8 +64,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 588,
-  "AssociateId": 557,
-  "Block": "non",
-  "Registered": "2015-10-18T12:15:19.3737456+02:00",
-  "RegisteredAssociateId": 604,
-  "Updated": "2001-04-01T12:15:19.3737456+02:00",
-  "UpdatedAssociateId": 332,
-  "UpdatedCount": 440,
+  "ShipmentMessageBlockId": 250,
+  "AssociateId": 260,
+  "Block": "fugiat",
+  "Registered": "2017-11-18T15:29:22.13477+01:00",
+  "RegisteredAssociateId": 833,
+  "Updated": "1997-04-29T15:29:22.13477+02:00",
+  "UpdatedAssociateId": 824,
+  "UpdatedCount": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 327
     }
   }
 }

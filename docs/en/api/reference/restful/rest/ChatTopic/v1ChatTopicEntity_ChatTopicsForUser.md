@@ -77,8 +77,8 @@ OK
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,43 +97,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 907,
-    "Name": "Breitenberg-Murray",
-    "Description": "Innovative interactive open system",
-    "WelcomeMessage": "omnis",
+    "ChatTopicId": 853,
+    "Name": "Grimes-Daniel",
+    "Description": "Reduced context-sensitive access",
+    "WelcomeMessage": "quo",
     "Language": null,
-    "LastAccept": "2013-05-05T12:15:26.5356422+02:00",
-    "SecondsPrAccept": 835,
-    "AlertRecipient": "maxime",
+    "LastAccept": "2017-07-03T15:29:29.4417035+02:00",
+    "SecondsPrAccept": 786,
+    "AlertRecipient": "voluptatibus",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "provident",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "voluptatem",
-    "WarnNewChatMinutes": 152,
-    "WarnManagerNewChatMinutes": 320,
-    "TicketEnabled": false,
+    "CollectConsent": false,
+    "BadgeHeader": "earum",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "voluptatum",
+    "WarnNewChatMinutes": 666,
+    "WarnManagerNewChatMinutes": 472,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 688,
-    "WarnManagerChatMessageMinutes": 754,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 198,
-    "OfflineFormQueueLength": 751,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "accusamus",
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 87,
+    "WarnManagerChatMessageMinutes": 231,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 422,
+    "OfflineFormQueueLength": 666,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "ex",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldType": "System.String",
+        "FieldLength": 602
       }
     }
   }

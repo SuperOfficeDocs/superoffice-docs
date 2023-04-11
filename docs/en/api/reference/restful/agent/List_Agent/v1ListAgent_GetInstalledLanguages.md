@@ -61,8 +61,8 @@ OK
 | ThreeLetterISOLanguageName | string | ISO 3-letter abbreviation |
 | TwoLetterISOLanguageName | string | ISO 2-letter abbreviation |
 | IsBuiltIn | bool | Has this row been inserted by SuperOffice priming data |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 260,
-    "LCID": 13,
-    "EnglishName": "Lakin, Mayert and Lehner",
-    "NativeName": "Bartoletti Inc and Sons",
-    "ThreeLetterISOLanguageName": "Anderson-Heathcote",
-    "TwoLetterISOLanguageName": "Satterfield-Hayes",
+    "LanguageInfoId": 750,
+    "LCID": 216,
+    "EnglishName": "Wilkinson, Zemlak and Buckridge",
+    "NativeName": "Schmidt-Hickle",
+    "ThreeLetterISOLanguageName": "Pfeffer-Pfeffer",
+    "TwoLetterISOLanguageName": "Turcotte, Marks and Strosin",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldLength": 379
       }
     }
   }

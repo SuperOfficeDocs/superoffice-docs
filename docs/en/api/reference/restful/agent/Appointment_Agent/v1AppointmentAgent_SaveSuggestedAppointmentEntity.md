@@ -79,8 +79,8 @@ OK
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
 | Type | Task | Type of the suggested appointment |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,21 +88,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 742,
-  "Name": "Jaskolski, Williamson and Runolfsdottir",
-  "Tooltip": "magnam",
-  "Rank": 918,
-  "Deleted": true,
-  "DaysFuture": 340,
-  "Duration": "doloremque",
+  "SuggestedAppointmentId": 963,
+  "Name": "Brekke Inc and Sons",
+  "Tooltip": "reiciendis",
+  "Rank": 863,
+  "Deleted": false,
+  "DaysFuture": 141,
+  "Duration": "culpa",
   "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "sed",
+  "Text": "necessitatibus",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 726,
-  "Name": "Kunde Group",
-  "Tooltip": "expedita",
-  "Rank": 370,
+  "SuggestedAppointmentId": 278,
+  "Name": "Bradtke, Bauch and Ryan",
+  "Tooltip": "vero",
+  "Rank": 740,
   "Deleted": false,
-  "DaysFuture": 109,
-  "Duration": "magni",
-  "AutoSuggest": false,
-  "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "magni",
+  "DaysFuture": 699,
+  "Duration": "eligendi",
+  "AutoSuggest": true,
+  "IsMilestone": true,
+  "AssignToMember": true,
+  "Text": "est",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 955
     }
   }
 }

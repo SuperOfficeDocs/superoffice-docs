@@ -80,8 +80,8 @@ DashTileDefinition found.
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -90,7 +90,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,36 +100,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 218,
-  "Name": "Gutkowski, Medhurst and Kertzmann",
-  "Description": "Open-source dynamic frame",
-  "DefaultHeight": 776,
-  "DefaultWidth": 651,
+  "DashboardTileDefinitionId": 761,
+  "Name": "Morar-Schneider",
+  "Description": "Focused static instruction set",
+  "DefaultHeight": 748,
+  "DefaultWidth": 645,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Fisher Inc and Sons",
-  "SelectionId": 202,
+  "EntityName": "Jakubowski LLC",
+  "SelectionId": 164,
   "CurrencyMode": "Base",
-  "CurrencyCode": "veritatis",
+  "CurrencyCode": "iusto",
   "Measure": "Average",
-  "MeasureField": "et",
-  "SortBy": "occaecati",
-  "LayoutConfig": "officia",
-  "SecondarySelectionId": 921,
-  "MeasureByField": "vero",
+  "MeasureField": "molestiae",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "magni",
+  "SecondarySelectionId": 409,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Thiel-Harber",
+  "ProviderName": "Will, Padberg and Fisher",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 711
+      "FieldType": "System.Int32",
+      "FieldLength": 122
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

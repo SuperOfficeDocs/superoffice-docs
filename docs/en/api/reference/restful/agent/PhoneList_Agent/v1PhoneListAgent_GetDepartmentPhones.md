@@ -74,8 +74,8 @@ OK
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 575
+  "DepartmentId": 930
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "513-861-8327",
-    "PersonCellPhone": "1-209-244-2159 x712",
-    "PersonPrivatePhone": "(911)226-8989",
-    "PersonFaxNumber": "806888",
-    "PersonPagerNumber": "1128254",
-    "PersonEmail": "lionel@koelpinwaters.us",
-    "Id": 349,
-    "Name": "Ankunding-Renner",
-    "Tooltip": "cupiditate",
-    "UniqueId": "et",
+    "PersonDirectPhone": "125-602-8256 x693",
+    "PersonCellPhone": "1-809-266-1085 x4071",
+    "PersonPrivatePhone": "1-357-293-2453",
+    "PersonFaxNumber": "701414",
+    "PersonPagerNumber": "1805535",
+    "PersonEmail": "jennifer_lockman@willcarter.name",
+    "Id": 321,
+    "Name": "Champlin Group",
+    "Tooltip": "ipsum",
+    "UniqueId": "suscipit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 150
+        "FieldLength": 921
       }
     }
   }

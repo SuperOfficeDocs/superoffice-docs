@@ -32,7 +32,7 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | value | string | **Required** The preference value as a string |
 
 ```http
-PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=a
+PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=deserunt
 ```
 
 
@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

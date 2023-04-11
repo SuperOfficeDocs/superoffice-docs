@@ -77,8 +77,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 6,
-  "TopicId": 848,
+  "ChatSessionId": 881,
+  "TopicId": 984,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Sawayn, Osinski and Trantow",
-  "CustomerEmail": "jakayla_johnson@morissette.info",
-  "CustomerPhone": "827-904-5109 x1138",
+  "CustomerAlias": "quia",
+  "CustomerHost": "quis",
+  "CustomerName": "Gottlieb Inc and Sons",
+  "CustomerEmail": "noble_kautzer@trantow.uk",
+  "CustomerPhone": "179-205-0531",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Stamm, Rau and Hahn",
+  "CustomerCompanyName": "Frami, Runolfsson and Nikolaus",
   "Status": "Closed",
-  "FirstMessage": "illo",
-  "LastMessage": "praesentium",
-  "WhenRequested": "2018-07-31T12:15:26.4976424+02:00",
-  "WhenStarted": "2007-03-23T12:15:26.4976424+01:00",
-  "WhenEnded": "2000-08-25T12:15:26.4976424+02:00",
-  "WhenIdle": "2020-01-17T12:15:26.4976424+01:00",
-  "WhenFetched": "2009-04-15T12:15:26.4976424+02:00",
-  "SessionKey": "porro",
-  "InitialQueuePos": 121,
-  "AlertLevel": 285,
-  "Rank": 455,
+  "FirstMessage": "porro",
+  "LastMessage": "ut",
+  "WhenRequested": "2009-03-29T15:29:29.4027037+02:00",
+  "WhenStarted": "2003-01-09T15:29:29.4027037+01:00",
+  "WhenEnded": "2002-11-21T15:29:29.4027037+01:00",
+  "WhenIdle": "2006-01-28T15:29:29.4027037+01:00",
+  "WhenFetched": "2011-12-29T15:29:29.4027037+01:00",
+  "SessionKey": "quae",
+  "InitialQueuePos": 184,
+  "AlertLevel": 133,
+  "Rank": 578,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -126,13 +126,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 285,
+  "Rating": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 974
     }
   }
 }

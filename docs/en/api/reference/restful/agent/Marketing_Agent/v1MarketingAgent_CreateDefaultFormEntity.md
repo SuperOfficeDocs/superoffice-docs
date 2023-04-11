@@ -68,8 +68,8 @@ OK
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
 | FolderName | string | The name of the folder for this form |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 922,
-  "FormKey": "voluptates",
-  "Name": "Ankunding-Schimmel",
-  "Description": "Balanced needs-based installation",
-  "Config": "consectetur",
-  "FolderId": 473,
-  "ScriptId": 280,
-  "ResponseShipmentId": 144,
-  "Active": false,
-  "Expires": "2009-12-01T12:15:19.3627459+01:00",
-  "MaxSubmits": 536,
+  "FormId": 908,
+  "FormKey": "voluptatem",
+  "Name": "Yundt Inc and Sons",
+  "Description": "Cross-group grid-enabled time-frame",
+  "Config": "ut",
+  "FolderId": 768,
+  "ScriptId": 14,
+  "ResponseShipmentId": 668,
+  "Active": true,
+  "Expires": "2020-11-21T15:29:22.1242702+01:00",
+  "MaxSubmits": 124,
   "Type": "Normal",
-  "Recipe": "aut",
-  "GroupId": 280,
+  "Recipe": "hic",
+  "GroupId": 714,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "1999-04-28T12:15:19.3627459+02:00",
-  "RegisteredAssociateId": 73,
-  "Updated": "2018-05-16T12:15:19.3627459+02:00",
-  "UpdatedAssociateId": 298,
-  "UpdatedCount": 572,
-  "FolderName": "Little, Wiza and O'Conner",
+  "Registered": "2011-01-03T15:29:22.1242702+01:00",
+  "RegisteredAssociateId": 172,
+  "Updated": "2022-06-06T15:29:22.1242702+02:00",
+  "UpdatedAssociateId": 954,
+  "UpdatedCount": 85,
+  "FolderName": "Schaefer, Schmitt and Mayert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 939
+      "FieldLength": 392
     }
   }
 }

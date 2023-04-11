@@ -119,8 +119,8 @@ AppointmentEntity found.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -129,7 +129,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -137,129 +137,129 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 29 Jul 2008 12:15:26 G7T
+Last-Modified: Sun, 05 Oct 2008 15:29:29 G10T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-08-04T12:15:26.2826459+02:00",
-  "AppointmentId": 914,
-  "Description": "Polarised directional info-mediaries",
-  "StartDate": "1999-04-04T12:15:26.2826459+02:00",
-  "EndDate": "2008-08-30T12:15:26.2826459+02:00",
+  "CreatedDate": "2002-01-19T15:29:29.168707+01:00",
+  "AppointmentId": 395,
+  "Description": "Automated well-modulated middleware",
+  "StartDate": "2004-12-31T15:29:29.168707+01:00",
+  "EndDate": "2013-10-02T15:29:29.168707+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 162,
+  "MotherId": 115,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-07-29T12:15:26.2856515+02:00",
+  "UpdatedDate": "2008-10-05T15:29:29.1722126+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 844,
+  "ActiveLinks": 940,
   "Links": [
     {
-      "EntityName": "Trantow LLC",
-      "Id": 597,
-      "Description": "Realigned cohesive alliance",
-      "ExtraInfo": "atque",
-      "LinkId": 164,
+      "EntityName": "Ullrich LLC",
+      "Id": 783,
+      "Description": "Phased disintermediate challenge",
+      "ExtraInfo": "ex",
+      "LinkId": 845,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 955
+          "FieldLength": 391
         }
       }
     }
   ],
-  "AlarmLeadTime": "soluta",
-  "HasAlarm": true,
-  "ColorIndex": 622,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 403,
   "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "sapiente",
-  "LeadTime": "asperiores",
-  "Location": "temporibus",
-  "RejectCounter": 221,
+  "IsAlldayEvent": true,
+  "LagTime": "quibusdam",
+  "LeadTime": "fuga",
+  "Location": "facere",
+  "RejectCounter": 741,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 40,
-      "PersonId": 273,
-      "ContactId": 719,
-      "EmailId": 306,
-      "SendEmail": true,
+      "AssociateId": 222,
+      "PersonId": 921,
+      "ContactId": 485,
+      "EmailId": 703,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 40,
-      "PersonId": 273,
-      "ContactId": 719,
-      "EmailId": 306,
-      "SendEmail": true,
+      "AssociateId": 222,
+      "PersonId": 921,
+      "ContactId": 485,
+      "EmailId": 703,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-04-11T12:15:26.2856515+02:00",
+  "ActiveDate": "1999-07-22T15:29:29.1727069+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 176,
+  "PreferredTZLocation": 314,
   "Sale": null,
-  "SuggestedAppointmentId": 579,
+  "SuggestedAppointmentId": 192,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloremque",
+  "CentralserviceVideomeetId": "consequatur",
   "UserDefinedFields": {
-    "SuperOffice:1": "Aiden Connelly II",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Miracle Schumm"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "natus"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "laborum"
+    "CustomFields1": "quos",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2020-06-11T12:15:26.2876454+02:00",
-  "PublishTo": "1999-12-15T12:15:26.2876454+01:00",
-  "PublishFrom": "2019-11-19T12:15:26.2876454+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-04-22T15:29:29.1752068+02:00",
+  "PublishTo": "2010-05-15T15:29:29.1752068+02:00",
+  "PublishFrom": "1996-02-29T15:29:29.1752068+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 890,
+      "VisibleId": 301,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldType": "System.Int32",
+          "FieldLength": 270
         }
       }
     },
     {
-      "VisibleId": 890,
+      "VisibleId": 301,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 440
+          "FieldType": "System.Int32",
+          "FieldLength": 270
         }
       }
     }
@@ -269,12 +269,12 @@ Last-Modified: Tue, 29 Jul 2008 12:15:26 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 802
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

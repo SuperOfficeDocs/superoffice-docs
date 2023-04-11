@@ -43,7 +43,7 @@ DocumentEntity deleted.
 | 204 | DocumentEntity deleted. |
 | 412 | Delete aborted because DocumentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

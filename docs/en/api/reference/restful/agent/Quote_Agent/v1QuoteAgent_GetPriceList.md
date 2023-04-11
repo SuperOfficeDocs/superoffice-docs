@@ -25,7 +25,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=657
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=769
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -66,8 +66,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 209,
-  "ERPPriceListKey": "consequuntur",
-  "QuoteConnectionId": 306,
-  "Name": "Schoen, Swift and Kozey",
-  "Description": "Synchronised national workforce",
-  "Currency": "exercitationem",
-  "CurrencyName": "Price-Wisozk",
-  "ValidFrom": "2001-05-31T12:15:19.9187377+02:00",
-  "ValidTo": "2020-05-22T12:15:19.9187377+02:00",
-  "IsActive": false,
+  "PriceListId": 678,
+  "ERPPriceListKey": "nostrum",
+  "QuoteConnectionId": 115,
+  "Name": "Weimann, Cummerata and Cruickshank",
+  "Description": "Reduced bandwidth-monitored model",
+  "Currency": "voluptatum",
+  "CurrencyName": "Jaskolski Inc and Sons",
+  "ValidFrom": "2012-08-02T15:29:22.5442643+02:00",
+  "ValidTo": "2001-07-21T15:29:22.5442643+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 289
+      "FieldLength": 383
     }
   }
 }

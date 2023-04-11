@@ -68,8 +68,8 @@ OK
 | ValidFaxNumbers | int32 | Number of members with a valid fax number. |
 | NoAddresses | int32 | Number of members with an invalid address. |
 | NoFaxOrEmails | int32 | Number of members with no fax or email address. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 483
+  "SelectionId": 274
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 233,
-  "ValidPostalAddresses": 420,
-  "ValidEmailAddresses": 152,
-  "ValidFaxNumbers": 187,
-  "NoAddresses": 463,
-  "NoFaxOrEmails": 746,
+  "Total": 459,
+  "ValidPostalAddresses": 224,
+  "ValidEmailAddresses": 270,
+  "ValidFaxNumbers": 197,
+  "NoAddresses": 59,
+  "NoFaxOrEmails": 617,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 910
     }
   }
 }

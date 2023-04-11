@@ -106,8 +106,8 @@ HierarchyEntity  updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -122,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "nulla",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "nulla",
     "value": {}
   }
 ]
@@ -140,46 +140,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 3,
+  "HierarchyId": 495,
   "Domain": "Dashboards",
-  "Name": "Weimann-Powlowski",
-  "Fullname": "et",
-  "ParentId": 813,
+  "Name": "Walker, Ward and Collins",
+  "Fullname": "dicta",
+  "ParentId": 399,
   "Children": [
     {
-      "HierarchyId": 709,
+      "HierarchyId": 533,
       "Domain": "Dashboards",
-      "Name": "Larson Group",
-      "Fullname": "amet",
-      "ParentId": 395,
+      "Name": "Russel-Feeney",
+      "Fullname": "quia",
+      "ParentId": 331,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-10-01T12:15:26.9846352+02:00",
-      "RegisteredAssociateId": 91,
-      "Updated": "2009-05-23T12:15:26.9846352+02:00",
-      "UpdatedAssociateId": 725,
+      "Registered": "2005-04-19T15:29:29.7846984+02:00",
+      "RegisteredAssociateId": 207,
+      "Updated": "2020-09-22T15:29:29.7846984+02:00",
+      "UpdatedAssociateId": 914,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 454
         }
       }
     }
   ],
-  "Registered": "2007-10-18T12:15:26.9846352+02:00",
-  "RegisteredAssociateId": 270,
-  "Updated": "2014-07-15T12:15:26.9846352+02:00",
-  "UpdatedAssociateId": 756,
+  "Registered": "2019-11-30T15:29:29.7846984+01:00",
+  "RegisteredAssociateId": 55,
+  "Updated": "2002-02-26T15:29:29.7846984+01:00",
+  "UpdatedAssociateId": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 535
+      "FieldType": "System.Int32",
+      "FieldLength": 570
     }
   },
   "_Links": {

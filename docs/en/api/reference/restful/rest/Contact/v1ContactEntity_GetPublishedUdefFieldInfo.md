@@ -83,8 +83,8 @@ ContactEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 463,
-  "ColumnId": 2,
-  "FieldDefault": "velit",
-  "FieldHeight": 53,
-  "FieldLabel": "nemo",
-  "FieldLeft": 190,
-  "FieldTop": 842,
+  "UDefFieldId": 189,
+  "ColumnId": 237,
+  "FieldDefault": "et",
+  "FieldHeight": 743,
+  "FieldLabel": "voluptatibus",
+  "FieldLeft": 323,
+  "FieldTop": 236,
   "FieldType": "Checkbox",
-  "FieldWidth": 162,
-  "FormatMask": "ducimus",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 446,
-  "LabelLeft": 877,
-  "LabelTop": 856,
-  "LabelWidth": 555,
-  "LastVersionId": 918,
-  "ListTableId": 163,
-  "IsMandatory": false,
+  "FieldWidth": 542,
+  "FormatMask": "enim",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 380,
+  "LabelLeft": 289,
+  "LabelTop": 749,
+  "LabelWidth": 381,
+  "LastVersionId": 656,
+  "ListTableId": 397,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 317,
-  "ProgId": "laborum",
+  "Page1LineNo": 350,
+  "ProgId": "quasi",
   "IsReadOnly": false,
-  "ShortLabel": "facilis",
-  "TabOrder": 548,
-  "TextLength": 974,
-  "Tooltip": "nostrum",
-  "UdefIdentity": 145,
-  "UDListDefinitionId": 807,
+  "ShortLabel": "eum",
+  "TabOrder": 56,
+  "TextLength": 689,
+  "Tooltip": "est",
+  "UdefIdentity": 63,
+  "UDListDefinitionId": 142,
   "Justification": "Center",
-  "Version": 415,
-  "TemplateVariableName": "Lowe, Halvorson and Hayes",
+  "Version": 714,
+  "TemplateVariableName": "Klein-DuBuque",
   "HasBeenPublished": false,
-  "MdoListName": "Pacocha Inc and Sons",
+  "MdoListName": "Mayer-Barton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldLength": 19
     }
   }
 }

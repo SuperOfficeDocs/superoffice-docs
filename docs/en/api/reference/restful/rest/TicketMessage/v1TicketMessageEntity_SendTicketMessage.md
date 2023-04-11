@@ -33,12 +33,12 @@ Send a message to recipients by email
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=repudiandae,mollitia
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=vitae,veniam
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=non,voluptates
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=libero
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=203
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=voluptate
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=ut,velit
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=aut,laborum
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=necessitatibus,illum
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=atque
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=660
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=molestiae
 ```
 
 
@@ -60,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

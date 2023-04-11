@@ -81,25 +81,25 @@ Content-Type: application/json; charset=utf-8
       "DefaultShowInGui": true,
       "DefaultShowInSelector": true,
       "IsActive": true,
-      "Key": "atque",
-      "ValueType": "magnam",
+      "Key": "porro",
+      "ValueType": "et",
       "Mandatory": false,
-      "EncodedDisplayName": "Marks, Kutch and Mohr",
-      "EncodedDisplayDescription": "Advanced full-range firmware",
-      "IconHint": "vel",
+      "EncodedDisplayName": "Abbott LLC",
+      "EncodedDisplayDescription": "Horizontal background focus group",
+      "IconHint": "aliquid",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "possimus",
-      "EncodedDataCaptionDescription": "Secured logistical help-desk",
-      "CurrentOperationType": "omnis",
+      "EncodedDataCaption": "qui",
+      "EncodedDataCaptionDescription": "Vision-oriented multi-tasking website",
+      "CurrentOperationType": "iure",
       "Values": [
-        "iure",
-        "doloribus"
+        "et",
+        "est"
       ],
       "DisplayValues": [
-        "inventore",
+        "accusantium",
         "cumque"
       ],
       "OperationInfos": [
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Stroman Group",
-  "Context": "pariatur",
-  "SelectionId": 587,
+  "TableName": "Russel, Smith and Zemlak",
+  "Context": "occaecati",
+  "SelectionId": 722,
   "IsShadow": false
 }
 ```
@@ -121,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-642
+50
 ```

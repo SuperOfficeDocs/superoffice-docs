@@ -96,8 +96,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 361
+  "ProductId": 513
 }
 ```
 
@@ -120,73 +120,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 838,
-  "ERPProductKey": "temporibus",
-  "ERPPriceListKey": "in",
-  "Name": "Klein Group",
-  "Description": "Quality-focused leading edge task-force",
-  "Code": "voluptatum",
-  "PriceUnit": "voluptate",
-  "QuantityUnit": "officia",
+  "ProductId": 398,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "voluptatem",
+  "Name": "Zboncak, Macejkovic and Cartwright",
+  "Description": "Cloned intangible archive",
+  "Code": "fuga",
+  "PriceUnit": "deserunt",
+  "QuantityUnit": "nisi",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolorum",
-  "DefaultSubscriptionQuantity": 22107.236,
-  "ItemNumber": "473615",
+  "SubscriptionUnit": "porro",
+  "DefaultSubscriptionQuantity": 24138.068,
+  "ItemNumber": "570896",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "esse",
-  "ProductTypeKey": "iste",
-  "VAT": 11457.904,
-  "VATInfo": "eaque",
-  "UnitCost": 6023.548,
-  "UnitMinimumPrice": 15137.22,
-  "UnitListPrice": 22292.142,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "nobis",
-  "Rights": "quia",
-  "Rule": "vero",
+  "ProductFamilyKey": "fuga",
+  "ProductTypeKey": "adipisci",
+  "VAT": 20941.388,
+  "VATInfo": "repellat",
+  "UnitCost": 13191.006,
+  "UnitMinimumPrice": 6387.092,
+  "UnitListPrice": 7462.054,
+  "InAssortment": false,
+  "Supplier": "ipsam",
+  "SupplierCode": "quibusdam",
+  "Rights": "repellendus",
+  "Rule": "at",
   "ExtraInfo": [
     {
-      "Name": "Ward-Treutel",
-      "Value": "non",
+      "Name": "Hand, Franecki and Feeney",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 739
         }
       }
     },
     {
-      "Name": "Ward-Treutel",
-      "Value": "non",
+      "Name": "Hand, Franecki and Feeney",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 739
         }
       }
     }
   ],
-  "RawExtraInfo": "hic",
-  "ExtraField1": "velit",
-  "ExtraField2": "qui",
-  "ExtraField3": "nobis",
-  "ExtraField4": "nam",
-  "ExtraField5": "incidunt",
-  "InStock": 12658.225999999999,
+  "RawExtraInfo": "eos",
+  "ExtraField1": "at",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "cupiditate",
+  "ExtraField4": "voluptates",
+  "ExtraField5": "nihil",
+  "InStock": 11119.431999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 443
     }
   }
 }

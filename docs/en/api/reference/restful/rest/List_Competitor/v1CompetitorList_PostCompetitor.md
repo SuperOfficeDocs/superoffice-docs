@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,16 +72,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 777,
-  "Name": "Conroy-Sawayn",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "UdListDefinitionId": 670,
-  "Rank": 688
+  "Id": 257,
+  "Name": "Connelly-Auer",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 513,
+  "Rank": 962
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 28,
-  "Name": "Connelly-Marquardt",
-  "Tooltip": "cupiditate",
+  "Id": 565,
+  "Name": "Bergnaum Group",
+  "Tooltip": "odit",
   "Deleted": false,
-  "UdListDefinitionId": 609,
-  "Rank": 35,
+  "UdListDefinitionId": 977,
+  "Rank": 728,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 139
     }
   }
 }

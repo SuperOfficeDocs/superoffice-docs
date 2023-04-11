@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Hoeger-Cormier",
-  "DisplayName": "Ernser, O'Reilly and Hodkiewicz",
-  "Description": "Stand-alone assymetric intranet",
-  "ShortLabel": "tempora",
+  "FieldName": "Terry LLC",
+  "DisplayName": "Quitzon, Breitenberg and Glover",
+  "Description": "Front-line eco-centric leverage",
+  "ShortLabel": "et",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": true,
-  "IsReadOnly": true,
-  "IsExternal": true,
-  "Rank": 63,
-  "TemplateVariableName": "Kreiger, Beahan and Luettgen"
+  "IsReadOnly": false,
+  "IsExternal": false,
+  "Rank": 438,
+  "TemplateVariableName": "Pouros-Von"
 }
 ```

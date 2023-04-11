@@ -74,8 +74,8 @@ OK
 | SecretValue | string | Data stored encrypted in the db. Typically a password. Max 70 characters. |
 | PublicValue | string | Data stored unencrypted in the db.  Typically server and or username. Max 238 characters. |
 | IsActive | bool | Is this credentials currently active. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 646,
-  "Type": "aut"
+  "AssociateId": 418,
+  "Type": "dolorem"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2015-03-10T12:15:20.6007357+01:00",
-    "ValidTo": "2015-04-29T12:15:20.6007357+02:00",
-    "Comment": "sit",
-    "SecretValue": "ut",
-    "PublicValue": "nesciunt",
-    "IsActive": true,
+    "ValidFrom": "2002-12-08T15:29:23.3737537+01:00",
+    "ValidTo": "2012-10-11T15:29:23.3737537+02:00",
+    "Comment": "voluptate",
+    "SecretValue": "mollitia",
+    "PublicValue": "aut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldType": "System.String",
+        "FieldLength": 543
       }
     }
   }

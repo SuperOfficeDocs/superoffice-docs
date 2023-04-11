@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,17 +97,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 274,
-  "StartTime": "2011-01-01T12:15:18.7167554+01:00",
-  "EndTime": "2017-02-19T12:15:18.7167554+01:00",
-  "Count": 165,
+  "PersonId": 385,
+  "StartTime": "2015-08-22T15:29:21.47728+02:00",
+  "EndTime": "1998-07-13T15:29:21.47728+02:00",
+  "Count": 893,
   "DocumentTemplateIds": [
-    34,
-    281
+    522,
+    392
   ]
 }
 ```
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 664,
-    "Attention": "nihil",
-    "Header": "nihil",
-    "Name": "Buckridge Inc and Sons",
-    "OurRef": "id",
-    "YourRef": "rerum",
-    "Description": "Advanced executive software",
-    "DocumentTemplate": "enim",
+    "DocumentId": 898,
+    "Attention": "earum",
+    "Header": "pariatur",
+    "Name": "Wolf-Hauck",
+    "OurRef": "fuga",
+    "YourRef": "quaerat",
+    "Description": "Optional background model",
+    "DocumentTemplate": "fugit",
     "IsPublished": true,
-    "PersonId": 821,
-    "PersonFullName": "Ardith Hoppe",
-    "AssociateFullName": "Nikita McClure",
-    "ContactId": 725,
-    "ContactName": "Hettinger Inc and Sons",
-    "ProjectId": 712,
-    "ProjectName": "Howe LLC",
-    "AssociateId": 217,
-    "Snum": 486,
-    "SaleId": 564,
-    "SaleName": "Miller Inc and Sons",
+    "PersonId": 751,
+    "PersonFullName": "Lee Hilll",
+    "AssociateFullName": "Eldridge McLaughlin",
+    "ContactId": 661,
+    "ContactName": "Waters-Smith",
+    "ProjectId": 893,
+    "ProjectName": "Walter-Sporer",
+    "AssociateId": 177,
+    "Snum": 668,
+    "SaleId": 749,
+    "SaleName": "Tromp-Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 234
+        "FieldType": "System.Int32",
+        "FieldLength": 117
       }
     }
   }

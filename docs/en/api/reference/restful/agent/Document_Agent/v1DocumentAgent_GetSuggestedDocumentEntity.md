@@ -25,7 +25,7 @@ Gets a SuggestedDocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=471
+POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?suggestedDocumentEntityId=535
 POST /api/v1/Agents/Document/GetSuggestedDocumentEntity?$select=name,department,category/id
 ```
 
@@ -67,8 +67,8 @@ OK
 | DocTmpl | DocumentTemplate | Document template |
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,12 +86,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 74,
-  "Name": "Tillman, Keeling and Hirthe",
-  "Tooltip": "ut",
-  "Rank": 49,
-  "DoctmplId": 544,
-  "Header": "nemo",
+  "SuggestedDocumentId": 601,
+  "Name": "Cassin, Lakin and Hagenes",
+  "Tooltip": "quae",
+  "Rank": 135,
+  "DoctmplId": 907,
+  "Header": "molestiae",
   "OurRef": "et",
   "Deleted": false,
   "DocTmpl": null,
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

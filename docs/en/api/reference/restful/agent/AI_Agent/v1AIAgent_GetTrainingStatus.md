@@ -58,8 +58,8 @@ OK
 | Status | string | Determines if a training is running, finished or unavailable |
 | CurrentModel | CategorizationModelDetails | Current model information |
 | PreviousModel | CategorizationModelDetails | Previous model information |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,8 +77,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "repellat",
-  "Status": "ut",
+  "ContextIdentifier": "reiciendis",
+  "Status": "consequatur",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 755
     }
   }
 }

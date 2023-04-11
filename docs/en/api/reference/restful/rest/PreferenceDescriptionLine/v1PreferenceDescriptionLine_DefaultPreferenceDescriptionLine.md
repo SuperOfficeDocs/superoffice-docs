@@ -52,8 +52,8 @@ OK
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 907,
-  "PrefDescId": 922,
-  "PrefValue": "a",
-  "PrefShowValue": "in",
-  "Description": "Expanded zero defect neural-net",
+  "PrefDescLineId": 621,
+  "PrefDescId": 363,
+  "PrefValue": "eligendi",
+  "PrefShowValue": "dolorem",
+  "Description": "Down-sized maximized array",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Notification"
 so.generated: true
-so.date: 02.15.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -27,6 +27,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |"appointmentCancelled"|Appointment|
 |"appointmentAccepted"|Appointment|
 |"appointmentRejected"|Appointment|
+|"ticketNew"|Request|
+|"ticketNewMessage"|Request|
+|"ticketEscalated"|Request|
+|"ticketActivated"|Request|
+|"ticketTransferred"|Request|
+|"ticketCustomMessage"|Request|
+|"ticketFavouriteUpdated"|Request|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -35,24 +42,26 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |id| *None* |!!id| x |
 |associateId|associate|Associate: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
-|originatorFullName|associate|!!originatorFullName - Full name: !!originatorFullName| x |
-|receiverFullName|associate|!!receiverFullName - Full name: !!receiverFullName| x |
+|originatorFullName| *None* |!!originatorFullName|  |
 |notifyDateTime|datetime|!!notifyDateTime| x |
 |title| *None* |!!title|  |
 |updateType| *None* |!!updateType|  |
-|startDateTime| *None* |!!startDateTime| x |
+|startDateTime| *None* |!!startDateTime|  |
 |endDateTime| *None* |!!endDateTime|  |
 |location| *None* |!!location|  |
 |isRecurring| *None* |!!isRecurring|  |
 |isEmailInvitation| *None* |!!isEmailInvitation|  |
+|invitedPersonId| *None* |!!invitedPersonId|  |
 |isSeen| *None* |!!isSeen|  |
-|recurringStartDateTime| *None* |!!recurringStartDate| x |
-|recurringEndDateTime| *None* |!!recurringEndDate| x |
+|hasConflict| *None* |!!hasConflict|  |
+|ticketId| *None* |!!ticketId|  |
+|category| *None* |!!category|  |
+|customUrl| *None* |!!customUrl|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=receiverFullName,updateType
+GET /api/v1/archive/Notification?$select=title,endDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

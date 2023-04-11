@@ -73,8 +73,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 705
+  "Id": 452
 }
 ```
 
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "modi",
+  "RawValue": "perferendis",
   "Specification": null,
-  "DisplayValue": "necessitatibus",
-  "DisplayTooltip": "enim",
+  "DisplayValue": "consequuntur",
+  "DisplayTooltip": "corporis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 57,
-  "PrefDescId": 225,
-  "TableName": "Boehm Group",
-  "UserPreferenceId": 557,
+  "TargetId": 122,
+  "PrefDescId": 185,
+  "TableName": "Olson Group",
+  "UserPreferenceId": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldType": "System.String",
+      "FieldLength": 838
     }
   }
 }

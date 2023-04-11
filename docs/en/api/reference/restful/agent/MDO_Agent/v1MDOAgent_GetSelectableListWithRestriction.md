@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Brown, Lemke and Kub",
-  "AdditionalInfo": "illum",
-  "SearchValue": "ut"
+  "Name": "Stroman Group",
+  "AdditionalInfo": "laudantium",
+  "SearchValue": "ratione"
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Howe-Spinka",
-    "ToolTip": "Molestias voluptatum totam voluptas quibusdam.",
+    "Id": 31,
+    "Name": "Jewess-Blick",
+    "ToolTip": "Quisquam magni maxime velit quam.",
     "Deleted": false,
-    "Rank": 313,
-    "Type": "numquam",
-    "ColorBlock": 936,
-    "IconHint": "voluptas",
+    "Rank": 476,
+    "Type": "aliquid",
+    "ColorBlock": 288,
+    "IconHint": "minus",
     "Selected": false,
-    "LastChanged": "1999-07-11T12:15:19.3887504+02:00",
+    "LastChanged": "2016-08-29T15:29:22.1493106+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Hilpert, Mante and Rath",
-        "ToolTip": "Sit laborum alias ipsum autem.",
-        "Deleted": true,
-        "Rank": 441,
-        "Type": "itaque",
-        "ColorBlock": 794,
-        "IconHint": "numquam",
+        "Id": 498,
+        "Name": "Medhurst-Stoltenberg",
+        "ToolTip": "Maiores nobis voluptates a ex.",
+        "Deleted": false,
+        "Rank": 102,
+        "Type": "ut",
+        "ColorBlock": 80,
+        "IconHint": "aspernatur",
         "Selected": true,
-        "LastChanged": "2005-10-15T12:15:19.3887504+02:00",
+        "LastChanged": "2015-03-24T15:29:22.1493106+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Maxine Haag",
+        "FullName": "Fredy Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 861
+            "FieldLength": 569
           }
         }
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "nulla",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Ms. Mallie Stanley Harvey",
+    "FullName": "Miss Freeman Consuelo Moore I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldLength": 485
       }
     }
   }

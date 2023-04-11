@@ -49,8 +49,8 @@ OK
 | TargetGroupId | int32 | The group id - but it may not still exist |
 | Year | int32 | The year this set of targets are associated with (2020, 2021...) |
 | Revisions | array | Collection of revisions (with changes) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,13 +68,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 162,
-  "Year": 272,
+  "TargetGroupId": 682,
+  "Year": 812,
   "Revisions": [
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2004-07-15T12:15:20.2127334+02:00",
+      "When": "2008-03-18T15:29:22.988258+01:00",
       "Changes": [
         {},
         {}
@@ -84,14 +84,14 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldLength": 563
         }
       }
     },
     {
       "LogEvent": "Create",
       "Who": null,
-      "When": "2004-07-15T12:15:20.2127334+02:00",
+      "When": "2008-03-18T15:29:22.988258+01:00",
       "Changes": [
         {},
         {}
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldLength": 563
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

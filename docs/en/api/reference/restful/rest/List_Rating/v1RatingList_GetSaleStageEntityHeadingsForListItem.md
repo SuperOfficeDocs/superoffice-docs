@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Schinner-Hilll",
-    "ToolTip": "Debitis vitae adipisci.",
-    "Deleted": false,
-    "Rank": 217,
-    "Type": "dolores",
-    "ColorBlock": 436,
-    "IconHint": "cum",
+    "Id": 471,
+    "Name": "Gleason-Wolf",
+    "ToolTip": "Voluptates magnam sit autem et hic.",
+    "Deleted": true,
+    "Rank": 761,
+    "Type": "perspiciatis",
+    "ColorBlock": 531,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2016-02-10T12:15:28.4046168+01:00",
+    "LastChanged": "2007-09-14T15:29:31.5179736+02:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Murphy-Reynolds",
-        "ToolTip": "Totam in repudiandae earum voluptas.",
-        "Deleted": true,
-        "Rank": 215,
-        "Type": "nam",
-        "ColorBlock": 424,
-        "IconHint": "excepturi",
-        "Selected": true,
-        "LastChanged": "2011-01-22T12:15:28.4046168+01:00",
+        "Id": 303,
+        "Name": "Ledner Group",
+        "ToolTip": "Similique facere laboriosam quo ea voluptas reiciendis.",
+        "Deleted": false,
+        "Rank": 605,
+        "Type": "praesentium",
+        "ColorBlock": 775,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2023-03-25T15:29:31.5179736+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Israel Boehm",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "nisi",
+        "Hidden": false,
+        "FullName": "Mrs. Bernardo Clifford Ritchie IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 390
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "ab",
-    "Hidden": false,
-    "FullName": "Warren Keebler",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Bertram Satterfield",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldType": "System.String",
+        "FieldLength": 96
       }
     }
   }

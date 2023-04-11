@@ -83,8 +83,8 @@ ProjectEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 420,
-  "ColumnId": 38,
-  "FieldDefault": "aut",
-  "FieldHeight": 5,
-  "FieldLabel": "optio",
-  "FieldLeft": 181,
-  "FieldTop": 158,
+  "UDefFieldId": 638,
+  "ColumnId": 935,
+  "FieldDefault": "quia",
+  "FieldHeight": 352,
+  "FieldLabel": "possimus",
+  "FieldLeft": 879,
+  "FieldTop": 336,
   "FieldType": "Checkbox",
-  "FieldWidth": 116,
-  "FormatMask": "sequi",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 43,
-  "LabelLeft": 804,
-  "LabelTop": 670,
-  "LabelWidth": 12,
-  "LastVersionId": 671,
-  "ListTableId": 554,
+  "FieldWidth": 282,
+  "FormatMask": "corporis",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 464,
+  "LabelLeft": 934,
+  "LabelTop": 884,
+  "LabelWidth": 516,
+  "LastVersionId": 616,
+  "ListTableId": 443,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 675,
-  "ProgId": "incidunt",
-  "IsReadOnly": false,
-  "ShortLabel": "eius",
-  "TabOrder": 796,
-  "TextLength": 238,
-  "Tooltip": "qui",
-  "UdefIdentity": 252,
-  "UDListDefinitionId": 322,
+  "Page1LineNo": 984,
+  "ProgId": "numquam",
+  "IsReadOnly": true,
+  "ShortLabel": "velit",
+  "TabOrder": 228,
+  "TextLength": 809,
+  "Tooltip": "ratione",
+  "UdefIdentity": 279,
+  "UDListDefinitionId": 963,
   "Justification": "Center",
-  "Version": 179,
-  "TemplateVariableName": "Leannon LLC",
+  "Version": 682,
+  "TemplateVariableName": "Leffler-Volkman",
   "HasBeenPublished": false,
-  "MdoListName": "Green, Botsford and O'Hara",
+  "MdoListName": "Emmerich, Pfannerstill and O'Kon",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 882
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

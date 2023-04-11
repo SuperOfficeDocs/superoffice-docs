@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 572,
-    "Name": "Crooks Inc and Sons",
-    "Tooltip": "error",
+    "Id": 137,
+    "Name": "Price Group",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 18,
-    "Rank": 922
+    "UdListDefinitionId": 418,
+    "Rank": 580
   },
   {
-    "Id": 572,
-    "Name": "Crooks Inc and Sons",
-    "Tooltip": "error",
+    "Id": 137,
+    "Name": "Price Group",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 18,
-    "Rank": 922
+    "UdListDefinitionId": 418,
+    "Rank": 580
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 958,
-    "Name": "Graham Group",
-    "Tooltip": "exercitationem",
+    "Id": 728,
+    "Name": "Parker, Hettinger and O'Keefe",
+    "Tooltip": "dignissimos",
     "Deleted": false,
-    "UdListDefinitionId": 380,
-    "Rank": 220,
+    "UdListDefinitionId": 238,
+    "Rank": 234,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 516
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

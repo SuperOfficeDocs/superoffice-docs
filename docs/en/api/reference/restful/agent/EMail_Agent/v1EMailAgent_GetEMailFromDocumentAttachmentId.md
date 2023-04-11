@@ -92,8 +92,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -105,10 +105,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 507,
+  "DocId": 427,
   "AttachmentIds": [
-    "iste",
-    "est"
+    "facilis",
+    "atque"
   ],
   "IncludeAttachments": true
 }
@@ -123,146 +123,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 188,
-      "ContactName": "Feil-Blanda",
-      "PersonId": 41,
-      "PersonName": "Murazik-Pollich",
-      "AssociateId": 631,
-      "Address": "cupiditate",
-      "EmailId": 962,
+      "ContactId": 512,
+      "ContactName": "Gislason LLC",
+      "PersonId": 691,
+      "PersonName": "Morar, Pollich and Schmeler",
+      "AssociateId": 31,
+      "Address": "et",
+      "EmailId": 28,
       "DuplicatePersonIds": [
-        47,
-        516
+        954,
+        80
       ],
-      "Name": "Conn Group",
+      "Name": "Sipes-Moore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldType": "System.String",
+          "FieldLength": 454
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 601,
-      "ContactName": "Sporer, Hagenes and Leffler",
-      "PersonId": 490,
-      "PersonName": "Mohr, Weissnat and Hessel",
-      "AssociateId": 148,
-      "Address": "qui",
-      "EmailId": 254,
+      "ContactId": 407,
+      "ContactName": "Veum-Senger",
+      "PersonId": 187,
+      "PersonName": "Bergnaum LLC",
+      "AssociateId": 129,
+      "Address": "vero",
+      "EmailId": 651,
       "DuplicatePersonIds": [
-        219,
-        771
+        972,
+        325
       ],
-      "Name": "Rohan, Pouros and Eichmann",
+      "Name": "Will, Kohler and Weber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 752
+          "FieldType": "System.Int32",
+          "FieldLength": 144
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 136,
-      "ContactName": "Towne Group",
-      "PersonId": 213,
-      "PersonName": "Mayer, O'Connell and Littel",
-      "AssociateId": 740,
-      "Address": "perspiciatis",
-      "EmailId": 755,
+      "ContactId": 521,
+      "ContactName": "Fahey LLC",
+      "PersonId": 559,
+      "PersonName": "Treutel-Schmeler",
+      "AssociateId": 162,
+      "Address": "eum",
+      "EmailId": 110,
       "DuplicatePersonIds": [
-        102,
-        188
+        410,
+        470
       ],
-      "Name": "Leannon Group",
+      "Name": "Zboncak, Schaefer and Lakin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 619
+          "FieldLength": 283
         }
       }
     }
   ],
-  "Subject": "veritatis",
-  "HTMLBody": "autem",
+  "Subject": "quia",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2001-11-03T12:15:19.0327577+01:00",
-  "Size": 748,
+  "Sent": "2007-05-04T15:29:21.7967762+02:00",
+  "Size": 549,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "doloremque",
-  "PlainBody": "illum",
+  "MessageID": "quod",
+  "PlainBody": "sint",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 506,
+  "ServerId": 580,
   "Attachments": [
     {
-      "Description": "Implemented encompassing knowledge user",
-      "Filename": "qui",
-      "Size": 549,
-      "Type": "nostrum",
-      "Encoding": "laboriosam",
-      "Id": "culpa",
-      "Disposition": "nemo",
+      "Description": "Advanced system-worthy website",
+      "Filename": "cumque",
+      "Size": 987,
+      "Type": "iste",
+      "Encoding": "et",
+      "Id": "itaque",
+      "Disposition": "debitis",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldLength": 817
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wunsch Group",
+      "Name": "Mante Group",
       "Values": [
-        "vitae",
-        "quo"
+        "rerum",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 417
         }
       }
     },
     {
-      "Name": "Wunsch Group",
+      "Name": "Mante Group",
       "Values": [
-        "vitae",
-        "quo"
+        "rerum",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 417
         }
       }
     }
   ],
-  "FolderName": "Smith, Herzog and Smith",
-  "EmailItemId": 691,
-  "AccountId": 447,
-  "ReceivedAt": "2003-05-21T12:15:19.0337511+02:00",
+  "FolderName": "Little-Hintz",
+  "EmailItemId": 856,
+  "AccountId": 24,
+  "ReceivedAt": "1996-12-19T15:29:21.7972748+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-12-30T12:15:19.0337511+01:00",
+  "RepliedAt": "1997-08-01T15:29:21.7972748+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 716
     }
   }
 }

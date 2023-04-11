@@ -63,8 +63,8 @@ OK
 | PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
 | TargetAssignments | array | Collection of target values |
 | TargetDimension | TargetDimension | Info about the target dimensions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,24 +76,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 397,
-  "Year": 16,
+  "TargetGroupId": 370,
+  "Year": 2,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 717,
+      "TargetAssignmentInfoId": 213,
       "Values": [
-        485,
-        661
+        311,
+        760
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 322,
-      "DimensionListItemDisplayName": "Daugherty-White"
+      "DimensionListItem": 64,
+      "DimensionListItemDisplayName": "Quitzon, Ebert and Wunsch"
     }
   ],
   "TargetDimension": null
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 314,
-  "Year": 475,
+  "TargetGroupId": 67,
+  "Year": 178,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 60,
+      "TargetAssignmentInfoId": 209,
       "Values": [
-        849,
-        231
+        127,
+        595
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 247,
-      "DimensionListItemDisplayName": "Mertz, Stiedemann and Tremblay",
+      "DimensionListItem": 346,
+      "DimensionListItemDisplayName": "Reynolds-Marquardt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldLength": 284
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldLength": 646
     }
   }
 }

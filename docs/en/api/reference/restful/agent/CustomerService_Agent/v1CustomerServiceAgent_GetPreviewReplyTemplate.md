@@ -68,8 +68,8 @@ OK
 | Updated | date-time | Date/time this reply template was last updated. |
 | Body | string | Reply template body in the best available format. |
 | IsHtml | bool | If true, body is HTML. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 273
+  "ReplyTemplateId": 331
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Haley, Cummerata and Franecki",
-  "Description": "Total mission-critical hub",
-  "OwnedByFullName": "Kris Schulist",
-  "Updated": "1996-08-12T12:15:18.6487562+02:00",
-  "Body": "placeat",
-  "IsHtml": false,
+  "Name": "Towne, Rippin and Nienow",
+  "Description": "Progressive optimal structure",
+  "OwnedByFullName": "Carolanne Yost DDS",
+  "Updated": "2003-01-14T15:29:21.2742824+01:00",
+  "Body": "ut",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 761
     }
   }
 }

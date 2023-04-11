@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "McCullough, Mueller and Stiedemann",
-    "ToolTip": "Ullam maxime ab exercitationem quo libero iure.",
-    "Deleted": true,
-    "Rank": 65,
-    "Type": "laborum",
-    "ColorBlock": 208,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "1996-12-19T12:15:28.2316174+01:00",
+    "Id": 701,
+    "Name": "Stoltenberg-Rogahn",
+    "ToolTip": "Et consectetur et vitae et.",
+    "Deleted": false,
+    "Rank": 595,
+    "Type": "tempore",
+    "ColorBlock": 551,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2018-01-04T15:29:31.3459771+01:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Lubowitz-Robel",
-        "ToolTip": "Consequatur sed sint est illo accusantium.",
-        "Deleted": false,
-        "Rank": 23,
-        "Type": "qui",
-        "ColorBlock": 229,
-        "IconHint": "quisquam",
+        "Id": 595,
+        "Name": "Terry, Blanda and Bailey",
+        "ToolTip": "Eveniet perferendis laboriosam quos.",
+        "Deleted": true,
+        "Rank": 417,
+        "Type": "quia",
+        "ColorBlock": 286,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2005-04-01T12:15:28.2316174+02:00",
+        "LastChanged": "2005-03-19T15:29:31.3464807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Dr. Triston Myrtice Larson MD"
+        "ExtraInfo": "quaerat",
+        "StyleHint": "tempora",
+        "Hidden": true,
+        "FullName": "Cody Herman"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Mckenzie Borer"
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Khalil Johnson"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Schowalter, Nitzsche and Kshlerin",
-    "ToolTip": "Soluta natus atque perspiciatis voluptatem officiis aut voluptatem.",
-    "Deleted": false,
-    "Rank": 826,
-    "Type": "id",
-    "ColorBlock": 693,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2013-03-06T12:15:28.2326265+01:00",
+    "Id": 495,
+    "Name": "Hayes Group",
+    "ToolTip": "Reprehenderit dolor.",
+    "Deleted": true,
+    "Rank": 312,
+    "Type": "sunt",
+    "ColorBlock": 215,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2020-02-14T15:29:31.3474803+01:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Renner Group",
-        "ToolTip": "Quod enim minima et magnam.",
-        "Deleted": false,
-        "Rank": 641,
-        "Type": "vel",
-        "ColorBlock": 579,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2020-05-24T12:15:28.2326265+02:00",
+        "Id": 107,
+        "Name": "Wuckert-Beer",
+        "ToolTip": "Culpa porro omnis debitis ea atque sit.",
+        "Deleted": true,
+        "Rank": 987,
+        "Type": "labore",
+        "ColorBlock": 482,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2010-09-09T15:29:31.3474803+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Mrs. Nash Abshire I",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "quibusdam",
+        "Hidden": false,
+        "FullName": "Neha Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldLength": 518
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Emmitt Swift III",
+    "ExtraInfo": "est",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Dedrick Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 819
       }
     }
   }

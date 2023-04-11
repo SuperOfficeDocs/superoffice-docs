@@ -24,7 +24,7 @@ Deletes the ReportLabelLayoutEntity
 | ReportLabelLayoutEntityId | int32 | **Required** The id of the ReportLabelLayoutEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?ReportLabelLayoutEntityId=900
+POST /api/v1/Agents/Report/DeleteReportLabelLayoutEntity?ReportLabelLayoutEntityId=381
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request

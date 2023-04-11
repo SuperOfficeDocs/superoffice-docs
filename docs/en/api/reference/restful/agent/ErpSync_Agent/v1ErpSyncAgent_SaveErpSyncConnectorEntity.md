@@ -61,8 +61,8 @@ OK
 | DisplayName | string | Name shown in the list |
 | URL | string | The URL where the connector is located and can be called |
 | Deleted | bool | True if the connector is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 657,
-  "DisplayName": "Runolfsson Group",
+  "ErpConnectorId": 481,
+  "DisplayName": "Hyatt-Kub",
   "URL": "http://www.example.com/",
   "Deleted": false
 }
@@ -88,16 +88,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 505,
-  "DisplayName": "Hahn Inc and Sons",
+  "ErpConnectorId": 513,
+  "DisplayName": "Hintz-Schiller",
   "URL": "http://www.example.com/",
-  "Deleted": true,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 211
+      "FieldLength": 598
     }
   }
 }

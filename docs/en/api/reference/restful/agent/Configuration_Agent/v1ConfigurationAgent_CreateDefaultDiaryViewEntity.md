@@ -42,7 +42,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -54,8 +54,8 @@ OK
 | AssocId | int32 |  |
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 569,
-  "Name": "Satterfield, Quitzon and Buckridge",
-  "Tooltip": "tenetur",
-  "VisibleColumns": 241,
-  "Rank": 270,
-  "AssocId": 709,
+  "DiaryViewId": 647,
+  "Name": "Hermiston LLC",
+  "Tooltip": "eaque",
+  "VisibleColumns": 964,
+  "Rank": 307,
+  "AssocId": 518,
   "AssociateList": [
     {
-      "Id": 229,
-      "Name": "Farrell, Hammes and Yost",
-      "ToolTip": "Vel inventore molestias expedita delectus quia dicta.",
+      "Id": 463,
+      "Name": "Gleason-Hahn",
+      "ToolTip": "Quisquam culpa quaerat quo.",
       "Deleted": false,
-      "Rank": 525,
-      "Type": "minima",
-      "ColorBlock": 364,
-      "IconHint": "fuga",
+      "Rank": 977,
+      "Type": "consectetur",
+      "ColorBlock": 426,
+      "IconHint": "soluta",
       "Selected": false,
-      "LastChanged": "2016-12-13T12:15:18.4147595+01:00",
+      "LastChanged": "2001-08-09T15:29:21.0292855+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "voluptate",
-      "Hidden": true,
-      "FullName": "Ms. Timmy Sasha Bergstrom",
+      "ExtraInfo": "id",
+      "StyleHint": "minus",
+      "Hidden": false,
+      "FullName": "Kariane Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 162
         }
       }
     }
   ],
-  "TzLocationId": 138,
+  "TzLocationId": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 84
+      "FieldLength": 520
     }
   }
 }

@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 44,
-      "ContactName": "Kilback-Mayert",
-      "PersonId": 655,
-      "PersonName": "Toy, Stracke and Mosciski",
-      "AssociateId": 485,
-      "Address": "aut",
-      "EmailId": 598,
+      "ContactId": 304,
+      "ContactName": "Welch Inc and Sons",
+      "PersonId": 718,
+      "PersonName": "Jakubowski-Gaylord",
+      "AssociateId": 300,
+      "Address": "accusantium",
+      "EmailId": 937,
       "DuplicatePersonIds": [
-        228,
-        732
+        946,
+        377
       ],
-      "Name": "Stracke, Dicki and Denesik",
+      "Name": "Carroll, Collier and Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 747
+          "FieldLength": 952
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 142,
-      "ContactName": "Hayes Group",
-      "PersonId": 778,
-      "PersonName": "Cummings, Reichel and O'Keefe",
-      "AssociateId": 976,
-      "Address": "assumenda",
-      "EmailId": 352,
+      "ContactId": 762,
+      "ContactName": "Mante Inc and Sons",
+      "PersonId": 731,
+      "PersonName": "Kutch, Zieme and Hirthe",
+      "AssociateId": 657,
+      "Address": "porro",
+      "EmailId": 383,
       "DuplicatePersonIds": [
-        804,
-        363
+        865,
+        305
       ],
-      "Name": "Friesen-Koelpin",
+      "Name": "Langosh LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldLength": 230
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 389,
-      "ContactName": "Gibson LLC",
-      "PersonId": 802,
-      "PersonName": "Torp-Mertz",
-      "AssociateId": 980,
-      "Address": "perferendis",
-      "EmailId": 121,
+      "ContactId": 193,
+      "ContactName": "Hirthe, Jacobi and Schaden",
+      "PersonId": 87,
+      "PersonName": "Beahan LLC",
+      "AssociateId": 659,
+      "Address": "amet",
+      "EmailId": 207,
       "DuplicatePersonIds": [
-        946,
-        122
+        206,
+        818
       ],
-      "Name": "Jast-Murphy",
+      "Name": "Stamm Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 832
+          "FieldLength": 387
         }
       }
     }
   ],
-  "Subject": "autem",
-  "HTMLBody": "ipsa",
+  "Subject": "magnam",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2011-10-11T12:15:18.9367522+02:00",
-  "Size": 786,
+  "Sent": "2010-07-14T15:29:21.7047772+02:00",
+  "Size": 159,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sint",
-  "PlainBody": "facilis",
+  "MessageID": "repudiandae",
+  "PlainBody": "eaque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 217,
+  "ServerId": 884,
   "Attachments": [
     {
-      "Description": "Configurable tertiary emulation",
-      "Filename": "neque",
-      "Size": 731,
-      "Type": "autem",
-      "Encoding": "incidunt",
-      "Id": "voluptates",
-      "Disposition": "nisi",
+      "Description": "Fully-configurable disintermediate access",
+      "Filename": "porro",
+      "Size": 161,
+      "Type": "velit",
+      "Encoding": "ut",
+      "Id": "et",
+      "Disposition": "optio",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 987
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Konopelski Group",
+      "Name": "Buckridge, Becker and Wyman",
       "Values": [
-        "harum",
-        "pariatur"
+        "incidunt",
+        "commodi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 95
+          "FieldLength": 561
         }
       }
     },
     {
-      "Name": "Konopelski Group",
+      "Name": "Buckridge, Becker and Wyman",
       "Values": [
-        "harum",
-        "pariatur"
+        "incidunt",
+        "commodi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 95
+          "FieldLength": 561
         }
       }
     }
   ],
-  "FolderName": "Donnelly, Schumm and Funk",
-  "EmailItemId": 360,
-  "AccountId": 580,
-  "ReceivedAt": "2001-02-04T12:15:18.9377527+01:00",
+  "FolderName": "Nikolaus LLC",
+  "EmailItemId": 455,
+  "AccountId": 990,
+  "ReceivedAt": "2003-01-08T15:29:21.7062771+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-09-10T12:15:18.9377527+02:00",
+  "RepliedAt": "2004-06-01T15:29:21.7062771+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 477
     }
   }
 }

@@ -83,8 +83,8 @@ SaleEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 465,
-  "ColumnId": 195,
-  "FieldDefault": "maxime",
-  "FieldHeight": 256,
-  "FieldLabel": "enim",
-  "FieldLeft": 658,
-  "FieldTop": 404,
+  "UDefFieldId": 414,
+  "ColumnId": 329,
+  "FieldDefault": "labore",
+  "FieldHeight": 818,
+  "FieldLabel": "labore",
+  "FieldLeft": 65,
+  "FieldTop": 89,
   "FieldType": "Checkbox",
-  "FieldWidth": 423,
-  "FormatMask": "aut",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 87,
-  "LabelLeft": 471,
-  "LabelTop": 572,
-  "LabelWidth": 767,
-  "LastVersionId": 881,
-  "ListTableId": 930,
-  "IsMandatory": false,
+  "FieldWidth": 434,
+  "FormatMask": "ad",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 986,
+  "LabelLeft": 212,
+  "LabelTop": 220,
+  "LabelWidth": 631,
+  "LastVersionId": 517,
+  "ListTableId": 751,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 336,
-  "ProgId": "iure",
+  "Page1LineNo": 888,
+  "ProgId": "magnam",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 799,
-  "TextLength": 101,
-  "Tooltip": "aspernatur",
-  "UdefIdentity": 776,
-  "UDListDefinitionId": 635,
+  "ShortLabel": "nemo",
+  "TabOrder": 645,
+  "TextLength": 778,
+  "Tooltip": "repudiandae",
+  "UdefIdentity": 726,
+  "UDListDefinitionId": 92,
   "Justification": "Center",
-  "Version": 997,
-  "TemplateVariableName": "Wisozk, Swaniawski and Carter",
+  "Version": 760,
+  "TemplateVariableName": "Heidenreich-Ferry",
   "HasBeenPublished": false,
-  "MdoListName": "Gerhold-Quigley",
+  "MdoListName": "Kozey-West",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 35
     }
   }
 }

@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "person"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -26,7 +26,10 @@ The name of the MDO list is 'person'.
 
 | Description | Name | Example Value |
 |-----|-----|------|
-|Restrict results to selection memebers.| selection_id|23|
+|Restrict results to company contacts.| contact_id|5|
+|Restrict results to person.| person_id|10|
+|Restrict results to project members.| project_id|15|
+|Restrict results to selection members.| selection_id|23|
 
 
 

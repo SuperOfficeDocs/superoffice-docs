@@ -94,8 +94,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,52 +113,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "vel",
-  "PersonId": 297,
-  "Mrmrs": "praesentium",
-  "Firstname": "Watson",
-  "Lastname": "Harris",
-  "MiddleName": "Morissette, Schaden and Terry",
-  "Title": "numquam",
-  "Description": "Open-architected uniform orchestration",
-  "Email": "albina.kassulke@morissette.info",
-  "FullName": "Adonis Amani Koch MD",
-  "DirectPhone": "223-771-3432 x25882",
-  "FormalName": "Schinner LLC",
-  "CountryId": 873,
-  "ContactId": 817,
-  "ContactName": "Stiedemann Group",
-  "Retired": 761,
-  "Rank": 685,
-  "ActiveInterests": 205,
+  "Position": "aliquid",
+  "PersonId": 236,
+  "Mrmrs": "impedit",
+  "Firstname": "Travis",
+  "Lastname": "Robel",
+  "MiddleName": "Barton, Block and Lockman",
+  "Title": "earum",
+  "Description": "Face to face secondary pricing structure",
+  "Email": "nelson@will.com",
+  "FullName": "Mr. Taurean Littel",
+  "DirectPhone": "1-701-206-6287",
+  "FormalName": "Douglas Inc and Sons",
+  "CountryId": 87,
+  "ContactId": 145,
+  "ContactName": "Labadie, Homenick and Fisher",
+  "Retired": 453,
+  "Rank": 103,
+  "ActiveInterests": 582,
   "ContactDepartment": "",
-  "ContactCountryId": 441,
-  "ContactOrgNr": "1675595",
-  "FaxPhone": "597-301-0902 x3397",
-  "MobilePhone": "(898)603-5665",
-  "ContactPhone": "(164)194-9375",
-  "AssociateName": "Moore Group",
-  "AssociateId": 860,
-  "UsePersonAddress": false,
-  "ContactFax": "ullam",
-  "Kanafname": "eum",
-  "Kanalname": "repellendus",
-  "Post1": "officia",
-  "Post2": "sint",
-  "Post3": "sunt",
-  "EmailName": "alva@bahringer.us",
-  "ContactFullName": "Joe Sawayn III",
-  "ActiveErpLinks": 550,
-  "TicketPriorityId": 999,
-  "SupportLanguageId": 594,
-  "SupportAssociateId": 138,
+  "ContactCountryId": 554,
+  "ContactOrgNr": "1547328",
+  "FaxPhone": "434-932-5975 x871",
+  "MobilePhone": "(282)379-2571 x18442",
+  "ContactPhone": "(926)970-5011 x18589",
+  "AssociateName": "Collier Inc and Sons",
+  "AssociateId": 324,
+  "UsePersonAddress": true,
+  "ContactFax": "vero",
+  "Kanafname": "dolores",
+  "Kanalname": "omnis",
+  "Post1": "consequatur",
+  "Post2": "aut",
+  "Post3": "id",
+  "EmailName": "shemar_roob@beer.co.uk",
+  "ContactFullName": "Avis Howe",
+  "ActiveErpLinks": 764,
+  "TicketPriorityId": 984,
+  "SupportLanguageId": 503,
+  "SupportAssociateId": 618,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 111
     }
   }
 }

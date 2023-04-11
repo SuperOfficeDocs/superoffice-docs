@@ -70,8 +70,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 72
+  "AssociateId": 294
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 545,
-    "AssociateId": 341,
-    "Block": "quod",
-    "Registered": "2012-10-04T12:15:19.3737456+02:00",
-    "RegisteredAssociateId": 165,
-    "Updated": "2007-04-27T12:15:19.3737456+02:00",
-    "UpdatedAssociateId": 913,
-    "UpdatedCount": 456,
+    "ShipmentMessageBlockId": 922,
+    "AssociateId": 523,
+    "Block": "et",
+    "Registered": "1997-04-14T15:29:22.13477+02:00",
+    "RegisteredAssociateId": 329,
+    "Updated": "2004-01-20T15:29:22.13477+01:00",
+    "UpdatedAssociateId": 671,
+    "UpdatedCount": 882,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 856
       }
     }
   }

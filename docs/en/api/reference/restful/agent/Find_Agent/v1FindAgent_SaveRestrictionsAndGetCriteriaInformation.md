@@ -72,8 +72,8 @@ OK
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ducimus",
-  "ProviderName": "Collins-Kilback",
-  "StorageKey": "quae",
+  "StorageType": "perferendis",
+  "ProviderName": "Roberts LLC",
+  "StorageKey": "error",
   "Restrictions": [
     {
-      "Name": "Fisher-Harris",
-      "Operator": "laboriosam",
+      "Name": "Jenkins-Ortiz",
+      "Operator": "non",
       "Values": [
-        "ducimus",
-        "saepe"
+        "non",
+        "pariatur"
       ],
       "DisplayValues": [
-        "omnis",
-        "est"
+        "commodi",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 711,
+      "InterParenthesis": 195,
       "InterOperator": "And",
-      "UniqueHash": 717
+      "UniqueHash": 235
     }
   ],
   "StaticColumns": [
-    "odit",
-    "corrupti"
+    "et",
+    "sint"
   ]
 }
 ```
@@ -127,81 +127,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Shields, Pfeffer and Sawayn",
-      "Operator": "dolorem",
+      "Name": "Wuckert, Stiedemann and Hettinger",
+      "Operator": "officia",
       "Values": [
-        "cupiditate",
-        "quo"
+        "cumque",
+        "alias"
       ],
       "DisplayValues": [
-        "id",
-        "rerum"
+        "deleniti",
+        "quod"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 223,
+      "InterParenthesis": 896,
       "InterOperator": "And",
-      "UniqueHash": 597
+      "UniqueHash": 202
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Brekke, Jacobs and Tromp",
-      "DisplayTooltip": "qui",
-      "DisplayType": "debitis",
+      "DisplayName": "Kunde Inc and Sons",
+      "DisplayTooltip": "id",
+      "DisplayType": "voluptate",
       "CanOrderBy": false,
-      "Name": "Roberts, Kutch and Stoltenberg",
+      "Name": "Weissnat-Denesik",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Boyer Inc and Sons",
+      "RestrictionType": "eaque",
+      "RestrictionListName": "Kassulke-Crona",
       "IsVisible": false,
-      "ExtraInfo": "libero",
-      "Width": "odio",
-      "IconHint": "sit",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "in",
+      "Width": "sed",
+      "IconHint": "qui",
+      "HeadingIconHint": "ut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Roberts-King",
-      "PrimaryKey": 819,
+      "EntityName": "Koepp LLC",
+      "PrimaryKey": 14,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "tempore",
-          "TooltipHint": "sunt",
-          "LinkHint": "dolorum"
+          "DisplayValue": "voluptates",
+          "TooltipHint": "dolorum",
+          "LinkHint": "sit"
         }
       },
-      "LinkHint": "magnam",
-      "StyleHint": "perspiciatis",
+      "LinkHint": "modi",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 790
+          "FieldLength": 389
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jacobs, Grant and Gaylord",
-      "Description": "Customer-focused clear-thinking array",
-      "Rank": 103,
+      "Name": "Larson-Weissnat",
+      "Description": "Multi-layered systematic product",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jacobs, Grant and Gaylord",
-      "Description": "Customer-focused clear-thinking array",
-      "Rank": 103,
+      "Name": "Larson-Weissnat",
+      "Description": "Multi-layered systematic product",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 916
     }
   }
 }

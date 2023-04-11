@@ -64,8 +64,8 @@ OK
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 350,
-  "SourcePersonId": 577,
-  "DestinationContactId": 648,
-  "DestinationPersonId": 257,
-  "RelationId": 971,
-  "Comment": "eaque",
-  "RelationDefinitionId": 987,
-  "Reversed": 374,
-  "UpdatedDate": "2006-03-23T12:15:19.9757371+01:00",
-  "CreatedDate": "1999-04-13T12:15:19.9757371+02:00",
+  "SourceContactId": 10,
+  "SourcePersonId": 714,
+  "DestinationContactId": 259,
+  "DestinationPersonId": 87,
+  "RelationId": 557,
+  "Comment": "voluptas",
+  "RelationDefinitionId": 276,
+  "Reversed": 681,
+  "UpdatedDate": "2011-09-09T15:29:22.6007646+02:00",
+  "CreatedDate": "2007-09-17T15:29:22.6007646+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Watsica LLC",
-  "SourcePersonName": "Bogisich, Wisoky and Harber",
-  "DestinationContactName": "Erdman, Willms and Hintz",
-  "DestinationPersonName": "Mitchell-Baumbach",
-  "ActiveText": "minus",
-  "PassiveText": "laborum",
+  "SourceContactName": "Donnelly-Roberts",
+  "SourcePersonName": "Mante Inc and Sons",
+  "DestinationContactName": "Beatty Group",
+  "DestinationPersonName": "Collins-Reichel",
+  "ActiveText": "consequuntur",
+  "PassiveText": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 905
+      "FieldType": "System.Int32",
+      "FieldLength": 484
     }
   }
 }

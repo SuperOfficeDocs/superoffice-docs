@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 571,
-  "StartTime": "2012-06-07T12:15:18.7247557+02:00",
-  "EndTime": "2006-12-30T12:15:18.7247557+01:00",
-  "Count": 165,
-  "DocumentTemplateId": 155
+  "ProjectId": 279,
+  "StartTime": "2009-09-21T15:29:21.4867791+02:00",
+  "EndTime": "1998-07-29T15:29:21.4867791+02:00",
+  "Count": 322,
+  "DocumentTemplateId": 486
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 275,
-    "Attention": "ea",
-    "Header": "vitae",
-    "Name": "Braun-Torp",
-    "OurRef": "ipsum",
-    "YourRef": "incidunt",
-    "Description": "Right-sized upward-trending projection",
-    "DocumentTemplate": "fugit",
+    "DocumentId": 424,
+    "Attention": "debitis",
+    "Header": "quas",
+    "Name": "Renner Group",
+    "OurRef": "omnis",
+    "YourRef": "laborum",
+    "Description": "User-centric global workforce",
+    "DocumentTemplate": "eius",
     "IsPublished": false,
-    "PersonId": 991,
-    "PersonFullName": "Mrs. Elisabeth Marjolaine Gislason Sr.",
-    "AssociateFullName": "Prof. Oleta Quigley",
-    "ContactId": 532,
-    "ContactName": "Tillman Inc and Sons",
-    "ProjectId": 379,
-    "ProjectName": "Leannon LLC",
-    "AssociateId": 476,
-    "Snum": 869,
-    "SaleId": 748,
-    "SaleName": "Olson Inc and Sons",
+    "PersonId": 906,
+    "PersonFullName": "Pedro Lorenza Upton IV",
+    "AssociateFullName": "Mr. Lonny Amos Dibbert",
+    "ContactId": 39,
+    "ContactName": "Aufderhar LLC",
+    "ProjectId": 486,
+    "ProjectName": "Reinger, Marvin and Emard",
+    "AssociateId": 920,
+    "Snum": 273,
+    "SaleId": 572,
+    "SaleName": "Kirlin-Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 202
+        "FieldLength": 389
       }
     }
   }

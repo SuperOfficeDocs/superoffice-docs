@@ -78,8 +78,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 637,
-  "HeadingId": 819
+  "UdListDefinitionId": 717,
+  "HeadingId": 234
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Mayer-McDermott",
-    "ToolTip": "Enim earum.",
-    "Deleted": false,
-    "Rank": 317,
-    "Type": "id",
-    "ColorBlock": 527,
-    "IconHint": "in",
+    "Id": 929,
+    "Name": "Howell-Predovic",
+    "ToolTip": "Autem consequatur ut debitis.",
+    "Deleted": true,
+    "Rank": 602,
+    "Type": "expedita",
+    "ColorBlock": 20,
+    "IconHint": "consectetur",
     "Selected": true,
-    "LastChanged": "2003-01-29T12:15:19.2687499+01:00",
+    "LastChanged": "2005-11-05T15:29:22.0272723+01:00",
     "ChildItems": [
       {
-        "Id": 442,
-        "Name": "Abbott-Miller",
-        "ToolTip": "Vel non consequatur neque quas ratione quo.",
+        "Id": 406,
+        "Name": "Kshlerin, Keebler and Tromp",
+        "ToolTip": "Ad vel.",
         "Deleted": false,
-        "Rank": 245,
-        "Type": "maiores",
-        "ColorBlock": 836,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "2009-03-21T12:15:19.2687499+01:00",
+        "Rank": 434,
+        "Type": "et",
+        "ColorBlock": 191,
+        "IconHint": "qui",
+        "Selected": true,
+        "LastChanged": "2018-11-23T15:29:22.0272723+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "asperiores",
-        "Hidden": true,
-        "FullName": "Howard Braun",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "odio",
+        "Hidden": false,
+        "FullName": "Helena Kuhic I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 599
+            "FieldType": "System.String",
+            "FieldLength": 211
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "sed",
+    "ExtraInfo": "optio",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Bethel Christiansen",
+    "FullName": "Elbert Seth Berge I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldType": "System.String",
+        "FieldLength": 17
       }
     }
   }

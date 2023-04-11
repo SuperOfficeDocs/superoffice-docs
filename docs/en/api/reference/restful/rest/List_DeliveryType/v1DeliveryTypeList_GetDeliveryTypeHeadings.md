@@ -52,8 +52,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 510,
-    "Name": "Rohan, Quigley and Bartoletti",
-    "Tooltip": "dolores",
+    "HeadingId": 813,
+    "Name": "Romaguera LLC",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 377,
-    "UdListDefinitionId": 211,
+    "Rank": 356,
+    "UdListDefinitionId": 226,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldLength": 52
       }
     }
   }

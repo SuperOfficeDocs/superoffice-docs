@@ -115,8 +115,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -124,13 +124,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2007-03-18T12:15:17.9887676+01:00",
-  "EndTime": "2001-11-29T12:15:17.9887676+01:00",
-  "Count": 704
+  "StartTime": "1997-07-06T15:29:20.7297905+02:00",
+  "EndTime": "2018-02-19T15:29:20.7297905+01:00",
+  "Count": 685
 }
 ```
 
@@ -142,61 +142,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 214,
-    "StartDate": "1998-02-19T12:15:17.9897657+01:00",
-    "EndDate": "2022-07-20T12:15:17.9897657+02:00",
+    "AppointmentId": 434,
+    "StartDate": "2003-07-18T15:29:20.7307905+02:00",
+    "EndDate": "2012-08-27T15:29:20.7307905+02:00",
     "Type": "BookingForChecklist",
-    "Task": "porro",
-    "AssociateFullName": "Naomi Ortiz",
-    "ContactName": "Rowe, Yost and Raynor",
-    "Description": "Compatible disintermediate artificial intelligence",
-    "PersonFullName": "Prof. Juvenal Tyler Boehm",
-    "PersonId": 581,
-    "ContactId": 862,
-    "ProjectId": 858,
-    "ProjectName": "Beatty, Batz and Jakubowski",
-    "IsPublished": true,
-    "AssociateId": 619,
-    "ColorIndex": 304,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "Task": "consequatur",
+    "AssociateFullName": "Felton Travon Williamson V",
+    "ContactName": "Carter, Bode and Marks",
+    "Description": "Configurable 24/7 Graphic Interface",
+    "PersonFullName": "Brody Tillman",
+    "PersonId": 269,
+    "ContactId": 617,
+    "ProjectId": 315,
+    "ProjectName": "Price Group",
+    "IsPublished": false,
+    "AssociateId": 535,
+    "ColorIndex": 968,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 192,
-    "PriorityName": "Mosciski, Prohaska and O'Reilly",
+    "PriorityId": 258,
+    "PriorityName": "Mante, Hermiston and Jerde",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2002-04-13T12:15:17.9907684+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2009-09-12T15:29:20.731291+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-04-14T12:15:17.9907684+02:00",
-    "RecurringEndDate": "2008-04-25T12:15:17.9907684+02:00",
-    "MotherId": 769,
-    "AssignedBy": 220,
-    "AssignedByFullName": "Ms. Sadie Wava Lemke I",
+    "RecurringStartDate": "2021-04-28T15:29:20.731291+02:00",
+    "RecurringEndDate": "2021-03-24T15:29:20.731291+01:00",
+    "MotherId": 440,
+    "AssignedBy": 855,
+    "AssignedByFullName": "Ashleigh Batz",
     "RejectReason": "",
-    "Location": "dolorem",
-    "AlarmLeadTime": "consectetur",
-    "SaleId": 997,
-    "SaleName": "Harris Group",
-    "AssociateName": "Hamill, Towne and Little",
-    "CreatedDate": "2020-07-25T12:15:17.9907684+02:00",
-    "CreatedBy": "accusamus",
-    "CreatedByFullName": "Ms. Lessie Hessel PhD",
-    "CreatedByAssociateId": 748,
+    "Location": "ut",
+    "AlarmLeadTime": "quia",
+    "SaleId": 780,
+    "SaleName": "Bosco, Rice and Wisozk",
+    "AssociateName": "Wolf, Mosciski and McGlynn",
+    "CreatedDate": "2018-06-04T15:29:20.7317898+02:00",
+    "CreatedBy": "consequuntur",
+    "CreatedByFullName": "Miss Milford Flatley",
+    "CreatedByAssociateId": 176,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldType": "System.Int32",
+        "FieldLength": 534
       }
     }
   }

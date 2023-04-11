@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 544,
-    "Name": "Conn-Hilll",
-    "ToolTip": "Illo quia ut corrupti.",
-    "Deleted": true,
-    "Rank": 782,
-    "Type": "minima",
-    "ColorBlock": 254,
-    "IconHint": "qui",
+    "Id": 930,
+    "Name": "Schiller, Hayes and Rippin",
+    "ToolTip": "Et nobis ipsa veritatis dolorem sit sint.",
+    "Deleted": false,
+    "Rank": 305,
+    "Type": "expedita",
+    "ColorBlock": 823,
+    "IconHint": "quisquam",
     "Selected": false,
-    "LastChanged": "2013-09-25T12:15:27.9126317+02:00",
+    "LastChanged": "2003-11-23T15:29:31.1214888+01:00",
     "ChildItems": [
       {
-        "Id": 267,
-        "Name": "Wyman Inc and Sons",
-        "ToolTip": "Similique non dolor omnis dicta qui.",
+        "Id": 932,
+        "Name": "Crist LLC",
+        "ToolTip": "Sunt tempora sed incidunt recusandae.",
         "Deleted": true,
-        "Rank": 856,
-        "Type": "minus",
-        "ColorBlock": 561,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "1996-09-17T12:15:27.9126317+02:00",
+        "Rank": 851,
+        "Type": "qui",
+        "ColorBlock": 374,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "2006-05-11T15:29:31.1214888+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "magni",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Santa Hagenes",
+        "FullName": "Ms. Patricia Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 339
+            "FieldLength": 721
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Alva Gerlach",
+    "ExtraInfo": "qui",
+    "StyleHint": "vitae",
+    "Hidden": true,
+    "FullName": "Mya Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 953
       }
     }
   }

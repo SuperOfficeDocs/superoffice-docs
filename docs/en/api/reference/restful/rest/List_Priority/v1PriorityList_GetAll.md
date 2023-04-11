@@ -60,8 +60,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "McClure LLC",
-    "Tooltip": "recusandae",
-    "Deleted": false,
-    "UdListDefinitionId": 726,
-    "Rank": 805,
+    "Id": 969,
+    "Name": "McGlynn-Kerluke",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "UdListDefinitionId": 781,
+    "Rank": 841,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldLength": 667
       }
     }
   }

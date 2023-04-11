@@ -58,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New | TableRight |  |
-| Current | TableRight |  |
+| New | TimeZoneData |  |
+| Current | TimeZoneData |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Quitzon, Morar and O'Keefe"
+  "OwnerName": "Hermiston LLC"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 262,
-      "NumberOfLicensesFree": 736,
-      "NumberOfLicensesAdded": 426,
-      "NumberOfLicensesNewTotal": 223,
-      "NumberOfLicensesNewFree": 536,
-      "NumberOfLicensesTotal": 882
+      "NumberOfLicensesInUse": 906,
+      "NumberOfLicensesFree": 417,
+      "NumberOfLicensesAdded": 46,
+      "NumberOfLicensesNewTotal": 429,
+      "NumberOfLicensesNewFree": 114,
+      "NumberOfLicensesTotal": 617
     }
   ],
-  "AccumulatedNextCheckDate": "2012-08-12T12:15:19.1807567+02:00"
+  "AccumulatedNextCheckDate": "2011-04-19T15:29:21.9413115+02:00"
 }
 ```

@@ -24,6 +24,7 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [FlushCachesByName](FlushCachesByName.md)
 * [GetCacheNames](GetCacheNames.md)
 * [GetCacheState](GetCacheState.md)
+* [GetEntityCountsForCurrentUser](GetEntityCountsForCurrentUser.md)
 * [GetWebAppUsagesForPeriod](GetWebAppUsagesForPeriod.md)
 * [LogViewState](LogViewState.md)
 * [PerformTasksAfterUpgrade](PerformTasksAfterUpgrade.md)

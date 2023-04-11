@@ -80,8 +80,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "est"
+  "Section": "qui"
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 646,
-    "Section": "ea",
-    "Key": "dicta",
-    "Name": "Pfannerstill Inc and Sons",
+    "PrefDescId": 684,
+    "Section": "tempore",
+    "Key": "nam",
+    "Name": "Harvey Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Pre-emptive scalable service-desk",
-    "IsBuiltin": false,
-    "TableName": "Erdman-Botsford",
-    "UserDefinedListId": 158,
-    "Rank": 502,
-    "SubGroup": "omnis",
-    "MinLevel": 219,
-    "MaxValue": 470,
-    "MinValue": 406,
-    "RequiredLicense": "eum",
+    "Description": "Streamlined executive Graphical User Interface",
+    "IsBuiltin": true,
+    "TableName": "Dickens LLC",
+    "UserDefinedListId": 997,
+    "Rank": 102,
+    "SubGroup": "accusamus",
+    "MinLevel": 536,
+    "MaxValue": 724,
+    "MinValue": 459,
+    "RequiredLicense": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 940
+        "FieldType": "System.Int32",
+        "FieldLength": 541
       }
     }
   }

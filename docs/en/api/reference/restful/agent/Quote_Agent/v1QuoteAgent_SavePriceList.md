@@ -71,8 +71,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 39,
-  "ERPPriceListKey": "molestiae",
-  "QuoteConnectionId": 74,
-  "Name": "Huel-Harber",
-  "Description": "Customizable 5th generation intranet",
-  "Currency": "odio",
-  "CurrencyName": "Emmerich LLC",
-  "ValidFrom": "2011-12-18T12:15:19.9087379+01:00",
-  "ValidTo": "2022-11-04T12:15:19.9087379+01:00",
+  "PriceListId": 53,
+  "ERPPriceListKey": "sequi",
+  "QuoteConnectionId": 149,
+  "Name": "Thompson, Tromp and McLaughlin",
+  "Description": "Function-based next generation circuit",
+  "Currency": "voluptatem",
+  "CurrencyName": "Yundt, Reilly and Mann",
+  "ValidFrom": "2002-05-05T15:29:22.5362654+02:00",
+  "ValidTo": "1998-05-26T15:29:22.5362654+02:00",
   "IsActive": false
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 440,
-  "ERPPriceListKey": "magnam",
-  "QuoteConnectionId": 54,
-  "Name": "Feil Inc and Sons",
-  "Description": "Distributed actuating methodology",
-  "Currency": "aut",
-  "CurrencyName": "O'Keefe, Walsh and Waelchi",
-  "ValidFrom": "2009-08-23T12:15:19.9097451+02:00",
-  "ValidTo": "2008-01-16T12:15:19.9097451+01:00",
-  "IsActive": true,
+  "PriceListId": 681,
+  "ERPPriceListKey": "earum",
+  "QuoteConnectionId": 417,
+  "Name": "Osinski LLC",
+  "Description": "Face to face full-range ability",
+  "Currency": "eius",
+  "CurrencyName": "Schmidt-Jaskolski",
+  "ValidFrom": "2012-10-29T15:29:22.5362654+01:00",
+  "ValidTo": "2022-06-18T15:29:22.5362654+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 235
     }
   }
 }

@@ -67,8 +67,8 @@ OK
 | ERPQuoteListItemKey | string | Primary key for the item. |
 | DisplayValue | string | List item text to display. |
 | DisplayDescription | string | Typically used in a tooltip. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "placeat"
+  "QuoteListType": "velit"
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "deleniti",
-    "DisplayValue": "sed",
-    "DisplayDescription": "Managed real-time initiative",
+    "ERPQuoteListItemKey": "voluptatibus",
+    "DisplayValue": "dolorem",
+    "DisplayDescription": "Persevering leading edge project",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 621
+        "FieldType": "System.Int32",
+        "FieldLength": 794
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "deleniti",
-    "DisplayValue": "sed",
-    "DisplayDescription": "Managed real-time initiative",
+    "ERPQuoteListItemKey": "voluptatibus",
+    "DisplayValue": "dolorem",
+    "DisplayDescription": "Persevering leading edge project",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 621
+        "FieldType": "System.Int32",
+        "FieldLength": 794
       }
     }
   }

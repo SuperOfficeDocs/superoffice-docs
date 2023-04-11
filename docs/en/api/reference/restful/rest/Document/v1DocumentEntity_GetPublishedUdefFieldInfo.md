@@ -83,8 +83,8 @@ DocumentEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 33,
-  "ColumnId": 450,
-  "FieldDefault": "ducimus",
-  "FieldHeight": 736,
-  "FieldLabel": "alias",
-  "FieldLeft": 952,
-  "FieldTop": 73,
+  "UDefFieldId": 448,
+  "ColumnId": 71,
+  "FieldDefault": "occaecati",
+  "FieldHeight": 684,
+  "FieldLabel": "cumque",
+  "FieldLeft": 8,
+  "FieldTop": 589,
   "FieldType": "Checkbox",
-  "FieldWidth": 398,
-  "FormatMask": "doloremque",
+  "FieldWidth": 99,
+  "FormatMask": "omnis",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 890,
-  "LabelLeft": 842,
-  "LabelTop": 117,
-  "LabelWidth": 393,
-  "LastVersionId": 786,
-  "ListTableId": 837,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 5,
+  "LabelLeft": 672,
+  "LabelTop": 734,
+  "LabelWidth": 205,
+  "LastVersionId": 984,
+  "ListTableId": 383,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 916,
-  "ProgId": "molestiae",
-  "IsReadOnly": false,
-  "ShortLabel": "at",
-  "TabOrder": 28,
-  "TextLength": 259,
-  "Tooltip": "rem",
-  "UdefIdentity": 269,
-  "UDListDefinitionId": 615,
+  "Page1LineNo": 527,
+  "ProgId": "consequatur",
+  "IsReadOnly": true,
+  "ShortLabel": "dolores",
+  "TabOrder": 191,
+  "TextLength": 834,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 629,
+  "UDListDefinitionId": 274,
   "Justification": "Center",
-  "Version": 505,
-  "TemplateVariableName": "O'Keefe Inc and Sons",
+  "Version": 295,
+  "TemplateVariableName": "Murazik Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Abshire, Prohaska and Reilly",
+  "MdoListName": "Price-Hettinger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 585
     }
   }
 }

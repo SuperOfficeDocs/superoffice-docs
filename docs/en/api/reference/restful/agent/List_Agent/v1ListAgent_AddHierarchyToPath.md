@@ -74,8 +74,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "cupiditate",
-  "Name": "Koelpin Group"
+  "Path": "nihil",
+  "Name": "Goldner-Cummings"
 }
 ```
 
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 928,
+  "HierarchyId": 193,
   "Domain": "Dashboards",
-  "Name": "Erdman-Pfeffer",
-  "Fullname": "laborum",
-  "ParentId": 985,
+  "Name": "Littel-Moen",
+  "Fullname": "ad",
+  "ParentId": 457,
   "Children": [
     {
-      "HierarchyId": 252,
+      "HierarchyId": 386,
       "Domain": "Dashboards",
-      "Name": "Berge, Von and Marquardt",
-      "Fullname": "delectus",
-      "ParentId": 209,
+      "Name": "Tromp, Hilpert and Thiel",
+      "Fullname": "explicabo",
+      "ParentId": 630,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-04-12T12:15:19.3137481+02:00",
-      "RegisteredAssociateId": 359,
-      "Updated": "1999-10-28T12:15:19.3137481+02:00",
-      "UpdatedAssociateId": 666,
+      "Registered": "2007-12-16T15:29:22.0737718+01:00",
+      "RegisteredAssociateId": 363,
+      "Updated": "2021-09-04T15:29:22.0737718+02:00",
+      "UpdatedAssociateId": 517,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 112
         }
       }
     }
   ],
-  "Registered": "2009-08-04T12:15:19.3137481+02:00",
-  "RegisteredAssociateId": 553,
-  "Updated": "2001-08-22T12:15:19.3137481+02:00",
-  "UpdatedAssociateId": 873,
+  "Registered": "2011-09-11T15:29:22.0737718+02:00",
+  "RegisteredAssociateId": 850,
+  "Updated": "2018-04-10T15:29:22.0737718+02:00",
+  "UpdatedAssociateId": 152,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldLength": 22
     }
   }
 }

@@ -26,7 +26,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=True
+GET /api/v1/List/Task/Items?includeDeleted=False
 ```
 
 
@@ -69,8 +69,8 @@ OK
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 888,
-    "Value": "aut",
+    "TaskListItemId": 493,
+    "Value": "tempora",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "est",
+    "Tooltip": "aut",
     "Deleted": false,
-    "IntentId": 839,
-    "Rank": 226,
+    "IntentId": 604,
+    "Rank": 167,
     "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": false,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 568
       }
     }
   }

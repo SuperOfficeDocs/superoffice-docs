@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "vitae",
-  "OptionalSecretKey": "pariatur"
+  "Token": "quia",
+  "OptionalSecretKey": "aut"
 }
 ```
 

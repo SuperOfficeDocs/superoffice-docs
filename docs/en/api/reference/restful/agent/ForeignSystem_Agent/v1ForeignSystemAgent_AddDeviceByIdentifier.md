@@ -73,8 +73,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Pfeffer, Bartell and Pfeffer",
-  "DeviceName": "Veum, Nicolas and Reichel",
-  "DeviceIdentifier": "deserunt"
+  "ApplicationName": "Grant Inc and Sons",
+  "DeviceName": "Tillman Inc and Sons",
+  "DeviceIdentifier": "quia"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 977,
-  "Name": "Monahan LLC",
-  "CreatedDate": "2014-07-25T12:15:19.1537547+02:00",
-  "UpdatedDate": "2011-04-17T12:15:19.1537547+02:00",
-  "AssociateFullName": "Mrs. Laisha Ike Wiegand DVM",
-  "CreatedBy": "non",
-  "UpdatedBy": "possimus",
-  "DeviceIdentifier": "animi",
-  "ForeignAppId": 546,
+  "ForeignDeviceId": 707,
+  "Name": "Murazik, Ryan and Gislason",
+  "CreatedDate": "2008-11-04T15:29:21.9178076+01:00",
+  "UpdatedDate": "2022-03-08T15:29:21.9178076+01:00",
+  "AssociateFullName": "Desiree Ullrich",
+  "CreatedBy": "aut",
+  "UpdatedBy": "in",
+  "DeviceIdentifier": "perferendis",
+  "ForeignAppId": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 477
     }
   }
 }

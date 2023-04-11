@@ -78,8 +78,8 @@ OK
 | SignOnTriggersAssign | bool | If true, the sign on task should be created as an Assigned task, triggering the invitation dialog |
 | SignOnPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
 | SignOffPersonId | int32 | If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Oral Roger Wilderman PhD",
-    "Description": "Operative executive benchmark",
-    "ProjectId": 769,
-    "EventName": "Heidenreich Group",
-    "AssociateId": 261,
+    "AssociateFullName": "Dr. Aryanna Cartwright",
+    "Description": "Ergonomic mission-critical Graphic Interface",
+    "ProjectId": 182,
+    "EventName": "Oberbrunner-Bode",
+    "AssociateId": 346,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "amet",
-    "SignOffText": "voluptatem",
-    "SignOnConfirmationText": "et",
-    "SignOnText": "asperiores",
-    "EventDate": "2017-05-30T12:15:19.8567385+02:00",
+    "SignOffConfirmationText": "veritatis",
+    "SignOffText": "quia",
+    "SignOnConfirmationText": "voluptatem",
+    "SignOnText": "repellat",
+    "EventDate": "2013-03-26T15:29:22.4817659+01:00",
     "Enabled": false,
-    "SignOff": true,
-    "SignOffTaskEnable": true,
-    "SignOnTaskEnable": false,
+    "SignOff": false,
+    "SignOffTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": false,
-    "SignOffTaskId": 803,
-    "SignOnTaskId": 361,
-    "SignOffTriggersAssign": true,
+    "SignOffTaskId": 645,
+    "SignOnTaskId": 485,
+    "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 997,
-    "SignOffPersonId": 53,
+    "SignOnPersonId": 654,
+    "SignOffPersonId": 762,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 792
       }
     }
   }

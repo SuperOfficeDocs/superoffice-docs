@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Walsh-Reichert",
-    "ToolTip": "Voluptate officiis molestiae voluptatem autem qui sit.",
-    "Deleted": true,
-    "Rank": 572,
-    "Type": "in",
-    "ColorBlock": 857,
-    "IconHint": "accusantium",
+    "Id": 176,
+    "Name": "Schimmel-Conroy",
+    "ToolTip": "Accusantium minima sit qui ab molestias adipisci odit.",
+    "Deleted": false,
+    "Rank": 911,
+    "Type": "voluptatem",
+    "ColorBlock": 684,
+    "IconHint": "commodi",
     "Selected": false,
-    "LastChanged": "2004-03-09T12:15:28.0996189+01:00",
+    "LastChanged": "1997-08-30T15:29:31.2114793+02:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Dickinson-Murray",
-        "ToolTip": "Dolorem blanditiis et.",
-        "Deleted": true,
-        "Rank": 11,
-        "Type": "labore",
-        "ColorBlock": 694,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2015-12-15T12:15:28.1006188+01:00",
+        "Id": 710,
+        "Name": "McLaughlin LLC",
+        "ToolTip": "Esse deleniti a dolores dolorem repudiandae perferendis.",
+        "Deleted": false,
+        "Rank": 125,
+        "Type": "distinctio",
+        "ColorBlock": 532,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2020-11-25T15:29:31.2119855+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "natus",
-        "Hidden": true,
-        "FullName": "Rusty Conroy",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Corbin Kozey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 647
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "inventore",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Noemie Casper",
+    "FullName": "Daija Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

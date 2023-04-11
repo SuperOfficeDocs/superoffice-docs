@@ -58,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New | TableRight |  |
-| Current | TableRight |  |
+| New | TimeZoneData |  |
+| Current | TimeZoneData |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Windler, Schmidt and O'Hara"
+  "OwnerName": "Schamberger-Pollich"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 918,
-      "NumberOfLicensesFree": 893,
-      "NumberOfLicensesAdded": 211,
-      "NumberOfLicensesNewTotal": 867,
-      "NumberOfLicensesNewFree": 403,
-      "NumberOfLicensesTotal": 492
+      "NumberOfLicensesInUse": 809,
+      "NumberOfLicensesFree": 144,
+      "NumberOfLicensesAdded": 248,
+      "NumberOfLicensesNewTotal": 601,
+      "NumberOfLicensesNewFree": 770,
+      "NumberOfLicensesTotal": 342
     }
   ],
-  "AccumulatedNextCheckDate": "1996-09-26T12:15:19.1827562+02:00"
+  "AccumulatedNextCheckDate": "2007-05-11T15:29:21.9433148+02:00"
 }
 ```

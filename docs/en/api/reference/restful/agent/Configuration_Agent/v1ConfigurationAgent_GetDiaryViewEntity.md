@@ -25,7 +25,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=697
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=644
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -64,8 +64,8 @@ OK
 | AssocId | int32 |  |
 | AssociateList | array |  |
 | TzLocationId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,49 +83,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 418,
-  "Name": "Kilback, Brown and Rath",
-  "Tooltip": "optio",
-  "VisibleColumns": 40,
-  "Rank": 392,
-  "AssocId": 551,
+  "DiaryViewId": 410,
+  "Name": "Bogisich, Batz and Murray",
+  "Tooltip": "est",
+  "VisibleColumns": 779,
+  "Rank": 548,
+  "AssocId": 268,
   "AssociateList": [
     {
-      "Id": 515,
-      "Name": "Fay LLC",
-      "ToolTip": "Sit qui quibusdam velit est.",
+      "Id": 740,
+      "Name": "Frami-Quitzon",
+      "ToolTip": "Qui vero voluptatum autem sed.",
       "Deleted": false,
-      "Rank": 302,
-      "Type": "impedit",
-      "ColorBlock": 388,
-      "IconHint": "molestias",
+      "Rank": 654,
+      "Type": "iste",
+      "ColorBlock": 302,
+      "IconHint": "officia",
       "Selected": false,
-      "LastChanged": "2019-10-14T12:15:18.4337617+02:00",
+      "LastChanged": "2008-02-18T15:29:21.0497853+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quos",
-      "StyleHint": "assumenda",
+      "ExtraInfo": "eos",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Mr. Dovie Gabriella Hayes",
+      "FullName": "Jena Blick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldLength": 852
         }
       }
     }
   ],
-  "TzLocationId": 473,
+  "TzLocationId": 997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 859
+      "FieldType": "System.Int32",
+      "FieldLength": 109
     }
   }
 }

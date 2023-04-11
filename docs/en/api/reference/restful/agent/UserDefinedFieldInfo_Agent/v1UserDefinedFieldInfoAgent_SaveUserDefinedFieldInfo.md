@@ -119,8 +119,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -132,40 +132,40 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 289,
-  "ColumnId": 716,
-  "FieldDefault": "velit",
-  "FieldHeight": 168,
-  "FieldLabel": "non",
-  "FieldLeft": 398,
-  "FieldTop": 974,
+  "UDefFieldId": 909,
+  "ColumnId": 981,
+  "FieldDefault": "ut",
+  "FieldHeight": 423,
+  "FieldLabel": "maxime",
+  "FieldLeft": 691,
+  "FieldTop": 436,
   "FieldType": "Checkbox",
-  "FieldWidth": 777,
-  "FormatMask": "quia",
-  "HideLabel": true,
+  "FieldWidth": 684,
+  "FormatMask": "optio",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 443,
-  "LabelLeft": 443,
-  "LabelTop": 675,
-  "LabelWidth": 392,
-  "LastVersionId": 685,
-  "ListTableId": 86,
-  "IsMandatory": true,
+  "LabelHeight": 849,
+  "LabelLeft": 45,
+  "LabelTop": 969,
+  "LabelWidth": 662,
+  "LastVersionId": 527,
+  "ListTableId": 74,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 894,
-  "ProgId": "eum",
+  "Page1LineNo": 404,
+  "ProgId": "sed",
   "IsReadOnly": true,
-  "ShortLabel": "commodi",
-  "TabOrder": 245,
-  "TextLength": 68,
-  "Tooltip": "quis",
-  "UdefIdentity": 614,
-  "UDListDefinitionId": 647,
+  "ShortLabel": "omnis",
+  "TabOrder": 563,
+  "TextLength": 987,
+  "Tooltip": "laboriosam",
+  "UdefIdentity": 623,
+  "UDListDefinitionId": 357,
   "Justification": "Center",
-  "Version": 399,
-  "TemplateVariableName": "Gerhold-Weber",
-  "HasBeenPublished": false,
-  "MdoListName": "Schaefer, Funk and Leffler"
+  "Version": 247,
+  "TemplateVariableName": "Roberts, Kerluke and Abbott",
+  "HasBeenPublished": true,
+  "MdoListName": "Orn, Fadel and Altenwerth"
 }
 ```
 
@@ -176,46 +176,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 624,
-  "ColumnId": 31,
-  "FieldDefault": "recusandae",
-  "FieldHeight": 814,
-  "FieldLabel": "aut",
-  "FieldLeft": 936,
-  "FieldTop": 742,
+  "UDefFieldId": 466,
+  "ColumnId": 732,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 534,
+  "FieldLabel": "molestias",
+  "FieldLeft": 216,
+  "FieldTop": 125,
   "FieldType": "Checkbox",
-  "FieldWidth": 98,
-  "FormatMask": "voluptate",
+  "FieldWidth": 310,
+  "FormatMask": "voluptas",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 264,
-  "LabelLeft": 625,
-  "LabelTop": 939,
-  "LabelWidth": 51,
-  "LastVersionId": 681,
-  "ListTableId": 748,
+  "LabelHeight": 471,
+  "LabelLeft": 760,
+  "LabelTop": 5,
+  "LabelWidth": 127,
+  "LastVersionId": 413,
+  "ListTableId": 326,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 707,
-  "ProgId": "et",
+  "Page1LineNo": 251,
+  "ProgId": "placeat",
   "IsReadOnly": false,
-  "ShortLabel": "officiis",
-  "TabOrder": 169,
-  "TextLength": 250,
-  "Tooltip": "molestiae",
-  "UdefIdentity": 739,
-  "UDListDefinitionId": 508,
+  "ShortLabel": "ut",
+  "TabOrder": 285,
+  "TextLength": 627,
+  "Tooltip": "excepturi",
+  "UdefIdentity": 999,
+  "UDListDefinitionId": 712,
   "Justification": "Center",
-  "Version": 536,
-  "TemplateVariableName": "Bogisich-Stark",
+  "Version": 825,
+  "TemplateVariableName": "Schuster LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Nicolas, Johnston and VonRueden",
+  "MdoListName": "Morissette-Howell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 138
+      "FieldLength": 952
     }
   }
 }

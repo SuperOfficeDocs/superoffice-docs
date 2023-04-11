@@ -81,8 +81,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 598,
-  "TopicId": 193,
+  "ChatSessionId": 840,
+  "TopicId": 891,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quibusdam",
-  "CustomerHost": "sed",
-  "CustomerName": "Price Inc and Sons",
-  "CustomerEmail": "beulah_farrell@hessel.info",
-  "CustomerPhone": "474.189.8439 x470",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Boyer-Leffler",
+  "CustomerAlias": "neque",
+  "CustomerHost": "tempore",
+  "CustomerName": "Predovic-Wunsch",
+  "CustomerEmail": "verlie_schroeder@goldner.co.uk",
+  "CustomerPhone": "(851)003-2675 x44399",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Larkin, Romaguera and Turner",
   "Status": "Closed",
-  "FirstMessage": "enim",
-  "LastMessage": "tempore",
-  "WhenRequested": "2019-01-11T12:15:26.508642+01:00",
-  "WhenStarted": "2015-07-31T12:15:26.508642+02:00",
-  "WhenEnded": "2003-08-31T12:15:26.508642+02:00",
-  "WhenIdle": "1996-09-20T12:15:26.508642+02:00",
-  "WhenFetched": "2007-09-05T12:15:26.508642+02:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 691,
-  "AlertLevel": 938,
-  "Rank": 223,
+  "FirstMessage": "fugit",
+  "LastMessage": "cumque",
+  "WhenRequested": "2006-03-24T15:29:29.4152037+01:00",
+  "WhenStarted": "1996-09-20T15:29:29.4152037+02:00",
+  "WhenEnded": "1999-12-14T15:29:29.4152037+01:00",
+  "WhenIdle": "2008-05-16T15:29:29.4152037+02:00",
+  "WhenFetched": "1998-09-03T15:29:29.4152037+02:00",
+  "SessionKey": "dolore",
+  "InitialQueuePos": 773,
+  "AlertLevel": 766,
+  "Rank": 981,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -130,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 940,
+  "Rating": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 686
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   }
 }

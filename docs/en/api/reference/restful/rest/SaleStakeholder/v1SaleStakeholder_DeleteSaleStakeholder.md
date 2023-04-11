@@ -42,7 +42,7 @@ SaleStakeholder deleted.
 |----------------|-------------|
 | 204 | SaleStakeholder deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

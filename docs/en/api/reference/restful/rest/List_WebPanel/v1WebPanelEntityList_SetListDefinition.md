@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 434,
-  "Name": "Skiles LLC",
-  "Tooltip": "quasi",
+  "Id": 253,
+  "Name": "Leuschke, Bradtke and Kuphal",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 586,
+  "Rank": 161,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": true
+  "ListType": "nisi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Hackett, Ziemann and Schmidt",
-  "Tooltip": "accusamus",
+  "Id": 687,
+  "Name": "Haley, Brekke and Upton",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 446,
-  "IsCustomList": true,
+  "Rank": 372,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "perspiciatis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 908
     }
   }
 }

@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 859,
-  "TemplateName": "Wyman Group",
+  "SelectionId": 625,
+  "TemplateName": "Streich Group",
   "UseContacts": false
 }
 ```

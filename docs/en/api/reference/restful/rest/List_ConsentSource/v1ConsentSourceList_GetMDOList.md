@@ -26,7 +26,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=iure
+GET /api/v1/List/ConsentSource/MDOItems?query=officia
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Kiehn-Watsica",
-    "ToolTip": "Dicta neque iste quaerat et et.",
+    "Id": 395,
+    "Name": "Stehr-Botsford",
+    "ToolTip": "Quia omnis eum.",
     "Deleted": true,
-    "Rank": 364,
-    "Type": "aut",
+    "Rank": 504,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "McCullough, Stroman and Walker",
-        "ToolTip": "Minima itaque velit ut aut ullam ut.",
-        "Deleted": false,
-        "Rank": 772,
-        "Type": "quasi",
+        "Id": 617,
+        "Name": "Moore, Ratke and Keeling",
+        "ToolTip": "Aspernatur ea minima.",
+        "Deleted": true,
+        "Rank": 424,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 733,
-        "ExtraInfo": "dolore",
-        "StyleHint": "distinctio",
-        "FullName": "Miss Adolph Hyatt II",
+        "IconHint": "reiciendis",
+        "ColorBlock": 715,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "non",
+        "FullName": "Earl Louvenia Hane Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 157
+            "FieldType": "System.String",
+            "FieldLength": 151
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 128,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "vero",
-    "FullName": "Miss Jazmyne Ransom Braun V",
+    "IconHint": "dignissimos",
+    "ColorBlock": 448,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "voluptas",
+    "FullName": "Gardner Cornell Bernhard I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 126
       }
     }
   }

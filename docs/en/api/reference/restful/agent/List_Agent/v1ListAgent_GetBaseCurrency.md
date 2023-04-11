@@ -61,8 +61,8 @@ OK
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,19 +80,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 617,
-  "Name": "Okuneva, Stiedemann and Adams",
-  "Tooltip": "occaecati",
-  "Rank": 597,
-  "Rate": 5459.428,
-  "Units": 22270.203999999998,
-  "Deleted": false,
+  "CurrencyId": 742,
+  "Name": "Kovacek, Wolff and Kreiger",
+  "Tooltip": "est",
+  "Rank": 741,
+  "Rate": 28187.196,
+  "Units": 23661.7,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

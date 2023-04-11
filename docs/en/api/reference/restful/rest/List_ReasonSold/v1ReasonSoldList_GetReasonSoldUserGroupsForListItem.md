@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Senger, Mueller and Kling",
-    "ToolTip": "Magni ut et sit.",
-    "Deleted": true,
-    "Rank": 297,
-    "Type": "id",
-    "ColorBlock": 986,
-    "IconHint": "autem",
+    "Id": 895,
+    "Name": "O'Conner Inc and Sons",
+    "ToolTip": "Velit aut tempora voluptatem voluptatibus sed aut sunt.",
+    "Deleted": false,
+    "Rank": 880,
+    "Type": "cum",
+    "ColorBlock": 277,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2000-11-29T12:15:28.4356142+01:00",
+    "LastChanged": "2002-04-30T15:29:31.5469746+02:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Schamberger-D'Amore",
-        "ToolTip": "Voluptas illo qui error corporis alias.",
+        "Id": 432,
+        "Name": "Kirlin, Kertzmann and Brekke",
+        "ToolTip": "Sit sapiente quia aut nam ut.",
         "Deleted": false,
-        "Rank": 351,
-        "Type": "minus",
-        "ColorBlock": 26,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2004-03-06T12:15:28.4356142+01:00",
+        "Rank": 169,
+        "Type": "cumque",
+        "ColorBlock": 628,
+        "IconHint": "iure",
+        "Selected": true,
+        "LastChanged": "2016-06-28T15:29:31.5469746+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "cumque",
+        "ExtraInfo": "expedita",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Madeline Corkery",
+        "FullName": "Kacie Zulauf",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 457
+            "FieldType": "System.Int32",
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "doloribus",
-    "Hidden": true,
-    "FullName": "Estefania Brown",
+    "ExtraInfo": "ut",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Tre Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 187
+        "FieldType": "System.Int32",
+        "FieldLength": 869
       }
     }
   }

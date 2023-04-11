@@ -25,7 +25,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=254
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=765
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -63,8 +63,8 @@ OK
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
 | CreatedBy | Associate | Name of the person that created the Audience layout |
 | UpdatedBy | Associate | Name of the person that last updated the Audience layout |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 316,
-  "InstanceLayout": "est",
-  "InstanceName": "Greenholt, Jast and Toy",
-  "CreatedDate": "2020-07-20T12:15:18.1937628+02:00",
-  "UpdatedDate": "2012-03-26T12:15:18.1937628+02:00",
+  "AudienceLayoutId": 601,
+  "InstanceLayout": "nihil",
+  "InstanceName": "Medhurst Inc and Sons",
+  "CreatedDate": "2002-10-26T15:29:20.8112899+02:00",
+  "UpdatedDate": "2005-02-06T15:29:20.8112899+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

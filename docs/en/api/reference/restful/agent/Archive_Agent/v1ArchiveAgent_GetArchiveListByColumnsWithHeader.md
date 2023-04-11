@@ -92,8 +92,8 @@ OK
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,36 +101,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wiegand, Johns and Kerluke",
+  "ProviderName": "Steuber Inc and Sons",
   "Columns": [
-    "nobis",
-    "rerum"
+    "officia",
+    "eum"
   ],
   "SortOrder": [
     {
-      "Name": "Blick-Goyette",
+      "Name": "Marks-Nader",
       "Direction": "ASC"
     },
     {
-      "Name": "Blick-Goyette",
+      "Name": "Marks-Nader",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ernser-Mante",
-      "Operator": "voluptatum",
+      "Name": "Zemlak, Skiles and Glover",
+      "Operator": "aperiam",
       "Values": [
-        "sit",
-        "natus"
+        "quia",
+        "omnis"
       ],
       "DisplayValues": [
-        "dolorum",
-        "quia"
+        "labore",
+        "quidem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,18 +138,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 567,
+      "InterParenthesis": 310,
       "InterOperator": "And",
-      "UniqueHash": 636
+      "UniqueHash": 842
     }
   ],
   "Entities": [
-    "consequuntur",
-    "nostrum"
+    "tempora",
+    "similique"
   ],
-  "Page": 495,
-  "PageSize": 634,
-  "Options": "nemo"
+  "Page": 344,
+  "PageSize": 621,
+  "Options": "ducimus"
 }
 ```
 
@@ -160,26 +160,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 387,
+  "RowCount": 423,
   "Rows": [
     {
-      "EntityName": "Jewess, Paucek and Bernhard",
-      "PrimaryKey": 459,
+      "EntityName": "Halvorson LLC",
+      "PrimaryKey": 469,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "natus",
-          "TooltipHint": "et",
-          "LinkHint": "neque"
+          "DisplayValue": "minima",
+          "TooltipHint": "aspernatur",
+          "LinkHint": "optio"
         }
       },
-      "LinkHint": "commodi",
-      "StyleHint": "ratione",
+      "LinkHint": "et",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 913
         }
       }
     }
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 195
     }
   }
 }

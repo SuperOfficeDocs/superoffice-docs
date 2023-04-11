@@ -72,8 +72,8 @@ OK
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,13 +85,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 118,
-  "Name": "Kassulke-Batz",
-  "Tooltip": "dolor",
-  "Rank": 398,
-  "Rate": 25457.482,
-  "Units": 13858.547999999999,
-  "Deleted": false
+  "CurrencyId": 757,
+  "Name": "Flatley-Gutkowski",
+  "Tooltip": "est",
+  "Rank": 117,
+  "Rate": 24263.428,
+  "Units": 14187.618,
+  "Deleted": true
 }
 ```
 
@@ -102,19 +102,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 560,
-  "Name": "Waters-Franecki",
-  "Tooltip": "maxime",
-  "Rank": 589,
-  "Rate": 9981.7899999999991,
-  "Units": 18290.023999999998,
-  "Deleted": false,
+  "CurrencyId": 791,
+  "Name": "Schiller LLC",
+  "Tooltip": "est",
+  "Rank": 956,
+  "Rate": 16641.54,
+  "Units": 11467.306,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldLength": 261
     }
   }
 }

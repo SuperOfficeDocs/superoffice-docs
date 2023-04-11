@@ -111,8 +111,8 @@ OK
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -124,7 +124,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 543
+  "QuoteLineId": 575
 }
 ```
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 417,
-  "ERPQuoteLineKey": "soluta",
-  "QuoteAlternativeId": 756,
-  "ERPProductKey": "quas",
+  "QuoteLineId": 734,
+  "ERPQuoteLineKey": "repellat",
+  "QuoteAlternativeId": 90,
+  "ERPProductKey": "corporis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 11501.779999999999,
-  "DeliveredQuantity": 2278.418,
-  "Rank": 505,
-  "Name": "Fadel, Bashirian and Kuvalis",
-  "Description": "Monitored real-time task-force",
-  "Code": "qui",
-  "QuantityUnit": "earum",
-  "PriceUnit": "similique",
-  "ItemNumber": "1061069",
+  "Quantity": 9803.152,
+  "DeliveredQuantity": 3964.5099999999998,
+  "Rank": 730,
+  "Name": "Schowalter-Green",
+  "Description": "Balanced bandwidth-monitored structure",
+  "Code": "consequatur",
+  "QuantityUnit": "optio",
+  "PriceUnit": "velit",
+  "ItemNumber": "1687539",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatibus",
-  "ProductTypeKey": "nihil",
-  "Supplier": "molestiae",
-  "SupplierCode": "commodi",
-  "Thumbnail": "tempora",
-  "VATInfo": "quae",
-  "VAT": 13849.145999999999,
-  "UnitCost": 10116.552,
-  "UnitMinimumPrice": 15149.756,
-  "UnitListPrice": 16519.314,
+  "ProductFamilyKey": "molestiae",
+  "ProductTypeKey": "eius",
+  "Supplier": "sed",
+  "SupplierCode": "sit",
+  "Thumbnail": "deleniti",
+  "VATInfo": "consectetur",
+  "VAT": 18067.51,
+  "UnitCost": 18778.928,
+  "UnitMinimumPrice": 9975.521999999999,
+  "UnitListPrice": 3108.928,
   "ExtraInfo": [
     {
-      "Name": "Rohan LLC",
-      "Value": "sunt",
+      "Name": "Dickens Inc and Sons",
+      "Value": "natus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldType": "System.String",
+          "FieldLength": 934
         }
       }
     },
     {
-      "Name": "Rohan LLC",
-      "Value": "sunt",
+      "Name": "Dickens Inc and Sons",
+      "Value": "natus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldType": "System.String",
+          "FieldLength": 934
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
+  "RawExtraInfo": "nisi",
   "IsSubscription": false,
-  "SubscriptionUnit": "odit",
-  "SubscriptionQuantity": 19477.809999999998,
-  "SubscriptionStart": "2013-02-23T12:15:19.971737+01:00",
-  "ERPDiscountPercent": 5487.634,
-  "ERPDiscountAmount": 15384.805999999999,
-  "DiscountPercent": 23147.724,
-  "DiscountAmount": 29682.113999999998,
+  "SubscriptionUnit": "ea",
+  "SubscriptionQuantity": 15074.539999999999,
+  "SubscriptionStart": "2014-10-03T15:29:22.5977646+02:00",
+  "ERPDiscountPercent": 14146.876,
+  "ERPDiscountAmount": 29559.888,
+  "DiscountPercent": 7317.8899999999994,
+  "DiscountAmount": 31048.538,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 322.80199999999996,
-  "EarningAmount": 29688.381999999998,
-  "SubTotal": 4252.838,
-  "TotalPrice": 24348.046,
-  "Rights": "nulla",
-  "Rule": "non",
-  "ExtraField1": "provident",
-  "ExtraField2": "corrupti",
-  "ExtraField3": "voluptates",
-  "ExtraField4": "consequuntur",
-  "ExtraField5": "quos",
+  "EarningPercent": 4760.546,
+  "EarningAmount": 8088.8539999999994,
+  "SubTotal": 23291.888,
+  "TotalPrice": 25748.944,
+  "Rights": "voluptatibus",
+  "Rule": "fugit",
+  "ExtraField1": "officiis",
+  "ExtraField2": "labore",
+  "ExtraField3": "rerum",
+  "ExtraField4": "iure",
+  "ExtraField5": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldLength": 357
     }
   }
 }

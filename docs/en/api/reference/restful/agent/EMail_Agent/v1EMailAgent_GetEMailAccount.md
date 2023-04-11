@@ -27,7 +27,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=93
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=991
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -68,8 +68,8 @@ OK
 | ErrorReason | string | Reason/Error message. Readonly field |
 | InboxFolder | string | Inbox folder name if available in the db |
 | SentFolder | string | Sent email folder name if available in the db |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 623,
-  "EMailAddress": "dolor",
-  "AssociateId": 179,
+  "EMailAccountId": 264,
+  "EMailAddress": "eum",
+  "AssociateId": 449,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 825,
-  "ErrorCount": 287,
-  "ErrorReason": "facilitate front-end systems",
-  "InboxFolder": "perspiciatis",
-  "SentFolder": "est",
+  "AccountStatus": 546,
+  "ErrorCount": 486,
+  "ErrorReason": "",
+  "InboxFolder": "ea",
+  "SentFolder": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 175
     }
   }
 }

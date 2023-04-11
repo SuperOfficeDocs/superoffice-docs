@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Dicki-Hyatt"
+  "TaskName": "Considine, Bednar and Cassin"
 }
 ```
 
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Littel LLC",
-    "AssociateId": 334,
-    "DetailsTable": 554,
-    "DetailsRecord": 666,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 926,
+    "Name": "Rogahn-Mueller",
+    "AssociateId": 624,
+    "DetailsTable": 256,
+    "DetailsRecord": 125,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "et",
+      "ParameterObject1": "consectetur",
       "ParameterObject2": "repellat"
     },
-    "LastStarted": "2022-06-10T12:15:18.2107625+02:00",
-    "Created": "2003-10-19T12:15:18.2107625+02:00",
-    "StartCount": 260,
-    "DatabaseSerialNumber": "567931",
-    "Context": "sapiente",
-    "Result": "odit",
+    "LastStarted": "2003-05-17T15:29:20.8287893+02:00",
+    "Created": "2000-07-05T15:29:20.8287893+02:00",
+    "StartCount": 471,
+    "DatabaseSerialNumber": "1535324",
+    "Context": "accusamus",
+    "Result": "est",
     "State": "All",
-    "Description": "Cross-platform demand-driven strategy",
-    "Response": "corporis",
-    "Request": "delectus",
-    "ProgressDescription": "Down-sized asynchronous hierarchy",
-    "ProgressPercent": 424,
-    "FileName": "Sauer-Smitham",
+    "Description": "Sharable multimedia orchestration",
+    "Response": "quam",
+    "Request": "facilis",
+    "ProgressDescription": "Team-oriented optimal archive",
+    "ProgressPercent": 391,
+    "FileName": "Langosh-Pouros",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

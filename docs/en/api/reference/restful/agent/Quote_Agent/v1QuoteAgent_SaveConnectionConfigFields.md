@@ -72,10 +72,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 58,
+  "QuoteConnectionId": 469,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "ut",
-    "ConnectionConfigFields2": "modi"
+    "ConnectionConfigFields1": "natus",
+    "ConnectionConfigFields2": "aut"
   }
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "delectus",
-  "2": "assumenda"
+  "1": "architecto",
+  "2": "saepe"
 }
 ```

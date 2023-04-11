@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=vel
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
 ```
 
 
@@ -70,8 +70,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 13 Dec 2004 12:15:26 G12T
+Last-Modified: Sat, 11 Feb 2006 15:29:29 G2T
 
 {
-  "Key": "inventore",
-  "Value": "maiores",
-  "RecordId": 658,
-  "CreatedDate": "2009-07-15T12:15:26.9806378+02:00",
-  "UpdatedDate": "2004-12-13T12:15:26.9806378+01:00",
-  "UpdatedBy": "officia",
-  "CreatedBy": "sapiente",
-  "TableName": "Schmeler, Towne and Gislason",
+  "Key": "eos",
+  "Value": "neque",
+  "RecordId": 534,
+  "CreatedDate": "2001-09-03T15:29:29.7806984+02:00",
+  "UpdatedDate": "2006-02-11T15:29:29.7806984+01:00",
+  "UpdatedBy": "dolores",
+  "CreatedBy": "quisquam",
+  "TableName": "Rohan-Breitenberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 563
     }
   }
 }

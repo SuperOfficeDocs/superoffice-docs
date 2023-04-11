@@ -72,8 +72,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,36 +92,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 483,
-    "ParentId": 402,
-    "Name": "Heidenreich, Vandervort and Waelchi",
-    "Fullname": "et",
-    "CategoryMaster": 262,
+    "TicketCategoryId": 679,
+    "ParentId": 939,
+    "Name": "Hansen, Corkery and Carter",
+    "Fullname": "id",
+    "CategoryMaster": 260,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Labadie, Feeney and Hackett",
+    "ExternalName": "Kozey LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 332,
-    "ReplyTemplate": 66,
-    "NotificationEmail": "zion_rutherford@rice.com",
+    "AssignmentLag": 825,
+    "ReplyTemplate": 901,
+    "NotificationEmail": "mauricio.bednar@ondricka.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 417,
+    "EffectiveReplyTemplateId": 814,
     "ExtraFields": {
-      "ExtraFields1": "nemo",
-      "ExtraFields2": "doloribus"
+      "ExtraFields1": "necessitatibus",
+      "ExtraFields2": "rerum"
     },
     "CustomFields": {
-      "CustomFields1": "laudantium",
-      "CustomFields2": "illum"
+      "CustomFields1": "ut",
+      "CustomFields2": "consectetur"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 264
       }
     }
   }

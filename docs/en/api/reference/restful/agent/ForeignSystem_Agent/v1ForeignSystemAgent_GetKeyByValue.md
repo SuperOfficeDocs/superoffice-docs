@@ -74,8 +74,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Barton, Treutel and Satterfield",
-  "DeviceName": "Lebsack, Gottlieb and Ryan",
-  "KeyName": "Pollich Group",
-  "KeyValue": "ipsum",
-  "TableName": "Leffler-Hodkiewicz"
+  "ApplicationName": "Kris, Farrell and Haag",
+  "DeviceName": "Johns-Kuvalis",
+  "KeyName": "Hudson, Toy and Gutmann",
+  "KeyValue": "molestiae",
+  "TableName": "Lesch-Zulauf"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "ad",
-  "RecordId": 673,
-  "CreatedDate": "2019-12-20T12:15:19.1647522+01:00",
-  "UpdatedDate": "2019-03-29T12:15:19.1647522+01:00",
-  "UpdatedBy": "voluptas",
-  "CreatedBy": "rerum",
-  "TableName": "Stokes-Quigley",
+  "Key": "voluptas",
+  "Value": "animi",
+  "RecordId": 960,
+  "CreatedDate": "2022-06-29T15:29:21.9248094+02:00",
+  "UpdatedDate": "2014-10-12T15:29:21.9248094+02:00",
+  "UpdatedBy": "unde",
+  "CreatedBy": "optio",
+  "TableName": "Stark, Jakubowski and Schinner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 192
+      "FieldLength": 644
     }
   }
 }

@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 692,
-  "Name": "Klein LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 402,
+  "Id": 893,
+  "Name": "Breitenberg Group",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 74,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 763,
-  "Name": "Kautzer, Ebert and Leuschke",
-  "Tooltip": "possimus",
+  "Id": 910,
+  "Name": "Stroman, Koelpin and Lubowitz",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "Rank": 296,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 174,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 826
+      "FieldType": "System.String",
+      "FieldLength": 437
     }
   }
 }

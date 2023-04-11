@@ -70,29 +70,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 593,
-  "NumDocumentsAlreadyMigrated": 649,
+  "NumDocumentsOmitted": 103,
+  "NumDocumentsAlreadyMigrated": 816,
   "Documents": [
     {
-      "DocumentId": 269,
-      "ContactId": 428,
-      "PersonId": 74,
-      "SaleId": 367,
-      "ProjectId": 344,
-      "DocTmplId": 657,
-      "AssociateId": 331,
-      "UserGroupId": 52,
-      "VisibleForId": 944
+      "DocumentId": 73,
+      "ContactId": 417,
+      "PersonId": 201,
+      "SaleId": 631,
+      "ProjectId": 114,
+      "DocTmplId": 243,
+      "AssociateId": 245,
+      "UserGroupId": 132,
+      "VisibleForId": 65
     }
   ],
   "Associates": [
     {
-      "AssociateId": 434,
-      "EmailAddress": "bell@rogahn.co.uk"
+      "AssociateId": 798,
+      "EmailAddress": "michael.harris@kuphal.co.uk"
     },
     {
-      "AssociateId": 434,
-      "EmailAddress": "bell@rogahn.co.uk"
+      "AssociateId": 798,
+      "EmailAddress": "michael.harris@kuphal.co.uk"
     }
   ]
 }

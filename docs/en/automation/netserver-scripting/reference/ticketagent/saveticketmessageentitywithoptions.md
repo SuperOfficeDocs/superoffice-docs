@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -21,6 +21,7 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.ITicketAgen
        TicketMessageEntity  entity,
        Boolean  notify,
        Int32[]  attachmentIds,
+       Boolean  updateRepliedAt,
        ref object  eventState
       );
 ```
@@ -34,6 +35,7 @@ Event state is not preserved between different service calls. It is set to null 
        TicketMessageEntity  entity,
        Boolean  notify,
        Int32[]  attachmentIds,
+       Boolean  updateRepliedAt,
        ref TicketMessageEntity  returnValue,
        ref object  eventState
       );
@@ -47,6 +49,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
        TicketMessageEntity  entity,
        Boolean  notify,
        Int32[]  attachmentIds,
+       Boolean  updateRepliedAt,
        ref TicketMessageEntity  returnValue,
        ref object  eventState
       );

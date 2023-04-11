@@ -67,8 +67,8 @@ OK
 | ExtraInfo | string | Used to store additional information for the delivery systems. |
 | Synchronous | bool |  |
 | IsTemporarySelection | bool | If true, the selection is a temporary selection that can be deleted later. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 973,
-  "DocumentId": 859,
+  "SelectionId": 568,
+  "DocumentId": 817,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "assumenda",
-  "AlwaysUseCustomAttention": false,
+  "CustomAttention": "accusamus",
+  "AlwaysUseCustomAttention": true,
   "SaveDocument": false,
-  "CustomMailBody": "et",
+  "CustomMailBody": "voluptatum",
   "TaskEntity": null,
-  "AddCompanyInterest": 890,
-  "AddPersonInterest": 370,
-  "RemoveCompanyInterest": 966,
-  "RemovePersonInterest": 939,
-  "IncludeNoMailingsRecipient": true,
+  "AddCompanyInterest": 61,
+  "AddPersonInterest": 189,
+  "RemoveCompanyInterest": 461,
+  "RemovePersonInterest": 15,
+  "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 211,
+  "ProjectId": 245,
   "IncludeRetiredRecipients": false,
-  "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "aut",
-  "ExtraInfo": "neque",
+  "IncludeStoppedRecipients": false,
+  "CustomMailSubject": "facere",
+  "ExtraInfo": "expedita",
   "Synchronous": false,
-  "IsTemporarySelection": false,
+  "IsTemporarySelection": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 721
     }
   }
 }

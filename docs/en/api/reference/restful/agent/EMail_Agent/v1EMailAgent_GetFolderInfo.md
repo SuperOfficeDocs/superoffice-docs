@@ -75,8 +75,8 @@ OK
 | UnreadItems | int32 | Number of unread messages in the folder |
 | Subscribed | bool | Indicates if the folder is subscribed to |
 | EmailFolderId | int32 | Primary key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "blanditiis",
-    "repellat"
+    "labore",
+    "et"
   ]
 }
 ```
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Moore Group",
-    "Delimiter": "quisquam",
-    "Flags": "consequatur",
-    "TotalItems": 393,
-    "UnreadItems": 898,
-    "Subscribed": true,
-    "EmailFolderId": 597,
+    "Name": "Goyette, Dach and Lehner",
+    "Delimiter": "hic",
+    "Flags": "dolorum",
+    "TotalItems": 270,
+    "UnreadItems": 167,
+    "Subscribed": false,
+    "EmailFolderId": 373,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldType": "System.Int32",
+        "FieldLength": 412
       }
     }
   }

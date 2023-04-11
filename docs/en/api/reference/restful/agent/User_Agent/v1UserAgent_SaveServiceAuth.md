@@ -65,8 +65,8 @@ OK
 | AuthType | string | The type of authentication, plain-text, OAuth... |
 | Username | string | The username |
 | Password | string | The (decrypted) password or token |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,12 +78,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 334,
-  "Server": "voluptatem",
-  "Port": 24,
-  "AuthType": "ab",
-  "Username": "dicta",
-  "Password": "unde"
+  "ServiceAuthId": 841,
+  "Server": "placeat",
+  "Port": 155,
+  "AuthType": "aspernatur",
+  "Username": "at",
+  "Password": "sapiente"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 370,
-  "Server": "ipsam",
-  "Port": 717,
-  "AuthType": "aliquid",
-  "Username": "ratione",
-  "Password": "sequi",
+  "ServiceAuthId": 845,
+  "Server": "et",
+  "Port": 519,
+  "AuthType": "enim",
+  "Username": "ad",
+  "Password": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 19
     }
   }
 }

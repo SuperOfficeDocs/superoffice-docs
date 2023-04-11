@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuphal-Cronin",
-    "DisplayName": "Kautzer, Waelchi and Hudson",
-    "Description": "Re-engineered background moderator",
-    "ShortLabel": "asperiores",
+    "FieldName": "Swaniawski, Goodwin and Hintz",
+    "DisplayName": "Collier-Ratke",
+    "Description": "Synergistic needs-based collaboration",
+    "ShortLabel": "eos",
     "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "Rank": 170,
-    "TemplateVariableName": "Fisher, Stoltenberg and Roob"
+    "Rank": 373,
+    "TemplateVariableName": "Rogahn-Kuhn"
   }
 ]
 ```

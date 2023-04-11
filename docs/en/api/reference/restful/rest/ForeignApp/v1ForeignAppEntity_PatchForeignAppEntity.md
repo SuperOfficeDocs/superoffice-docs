@@ -103,8 +103,8 @@ ForeignAppEntity  updated.
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -113,18 +113,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequuntur",
+    "path": "voluptatum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequuntur",
+    "path": "voluptatum",
     "value": {}
   }
 ]
@@ -137,29 +137,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 521,
-  "Name": "Pacocha-Dickinson",
-  "CreatedDate": "2022-09-08T12:15:26.958636+02:00",
-  "UpdatedDate": "2003-01-07T12:15:26.958636+01:00",
+  "ForeignAppId": 911,
+  "Name": "Jerde LLC",
+  "CreatedDate": "2016-05-09T15:29:29.7661984+02:00",
+  "UpdatedDate": "1996-09-02T15:29:29.7661984+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 852,
-      "Name": "Lang-Walter",
-      "CreatedDate": "2007-07-29T12:15:26.9686354+02:00",
-      "UpdatedDate": "2006-02-28T12:15:26.9686354+01:00",
-      "AssociateFullName": "Helen Stroman",
-      "CreatedBy": "id",
-      "UpdatedBy": "odio",
-      "DeviceIdentifier": "fuga",
-      "ForeignAppId": 154,
+      "ForeignDeviceId": 993,
+      "Name": "DuBuque, Swift and Wiza",
+      "CreatedDate": "2014-12-27T15:29:29.7667035+01:00",
+      "UpdatedDate": "1996-02-12T15:29:29.7667035+01:00",
+      "AssociateFullName": "Jordyn Mills",
+      "CreatedBy": "dignissimos",
+      "UpdatedBy": "mollitia",
+      "DeviceIdentifier": "molestiae",
+      "ForeignAppId": 466,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldType": "System.String",
+      "FieldLength": 711
     }
   },
   "_Links": {

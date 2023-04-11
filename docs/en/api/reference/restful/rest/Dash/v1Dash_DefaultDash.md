@@ -59,8 +59,8 @@ OK
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 496,
-  "UniqueId": "nemo",
-  "Name": "Lakin Group",
-  "Description": "Adaptive modular forecast",
-  "AssociateId": 777,
-  "Columns": 728,
+  "DashboardId": 686,
+  "UniqueId": "inventore",
+  "Name": "McKenzie-Friesen",
+  "Description": "Total background knowledge base",
+  "AssociateId": 653,
+  "Columns": 438,
   "Theme": null,
-  "VisibleForAll": 79,
+  "VisibleForAll": 26,
   "VisibleForAssociates": [
-    900,
-    852
+    740,
+    35
   ],
   "VisibleForGroups": [
-    743,
-    847
+    757,
+    297
   ],
-  "PinForAll": 722,
+  "PinForAll": 995,
   "PinForAssociates": [
-    924,
-    63
+    949,
+    123
   ],
   "PinForGroups": [
-    563,
-    882
+    65,
+    858
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldLength": 958
     }
   }
 }

@@ -71,8 +71,8 @@ OK
 | Deleted | bool | If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster. |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,54 +91,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 92,
-    "ERPName": "Roberts LLC",
-    "DisplayName": "Stehr-Schimmel",
-    "DisplayDescription": "Function-based analyzing strategy",
-    "Rank": 352,
-    "ConnectorName": "Emmerich Inc and Sons",
-    "ErpConnectionId": 785,
-    "ExtraData": "consequatur",
+    "QuoteConnectionId": 372,
+    "ERPName": "Hessel LLC",
+    "DisplayName": "Daniel Group",
+    "DisplayDescription": "Reactive executive leverage",
+    "Rank": 307,
+    "ConnectorName": "Cremin, Hirthe and Kirlin",
+    "ErpConnectionId": 831,
+    "ExtraData": "exercitationem",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 553,
-        "ERPPriceListKey": "harum",
-        "QuoteConnectionId": 317,
-        "Name": "Murphy-Pacocha",
-        "Description": "Re-contextualized stable architecture",
-        "Currency": "aperiam",
-        "CurrencyName": "Boyer, Hyatt and Kris",
-        "ValidFrom": "2018-10-17T12:15:19.9397396+02:00",
-        "ValidTo": "2021-07-30T12:15:19.9397396+02:00",
+        "PriceListId": 414,
+        "ERPPriceListKey": "ut",
+        "QuoteConnectionId": 624,
+        "Name": "Miller-Mayert",
+        "Description": "Customer-focused content-based solution",
+        "Currency": "temporibus",
+        "CurrencyName": "Fritsch LLC",
+        "ValidFrom": "2005-08-31T15:29:22.5647642+02:00",
+        "ValidTo": "2001-09-11T15:29:22.5647642+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 134
+            "FieldLength": 78
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": true,
+    "AllAccess": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      734,
-      282
+      150,
+      855
     ],
     "AssociateAccessIds": [
-      753,
-      274
+      273,
+      324
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldLength": 950
       }
     }
   }

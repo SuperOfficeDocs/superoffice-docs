@@ -60,8 +60,8 @@ OK
 | Encoding | string | Encoding for url |
 | ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
 | Deleted | bool | True if deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 551,
-  "Name": "Gutmann, Gutmann and Dietrich",
-  "Tooltip": "voluptatem",
-  "TableName": "Rutherford Group",
-  "Area": "et",
+  "TaskMenuId": 923,
+  "Name": "Kassulke-Fay",
+  "Tooltip": "fuga",
+  "TableName": "Feeney, Kuhlman and Glover",
+  "Area": "voluptas",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 49,
+  "CrmScriptId": 671,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 224,
+  "Rank": 907,
   "Encoding": "ANSI",
-  "ProgId": "voluptatum",
-  "Deleted": true,
+  "ProgId": "nulla",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

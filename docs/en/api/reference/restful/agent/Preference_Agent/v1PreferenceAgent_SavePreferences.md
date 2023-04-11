@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "id",
+      "RawValue": "veritatis",
       "Specification": null,
-      "DisplayValue": "dolorem",
-      "DisplayTooltip": "sit",
+      "DisplayValue": "animi",
+      "DisplayTooltip": "nihil",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 424,
-      "PrefDescId": 809,
-      "TableName": "Nicolas, Dicki and Schmeler",
-      "UserPreferenceId": 891
+      "TargetId": 133,
+      "PrefDescId": 405,
+      "TableName": "Bogan Inc and Sons",
+      "UserPreferenceId": 186
     }
   ]
 }

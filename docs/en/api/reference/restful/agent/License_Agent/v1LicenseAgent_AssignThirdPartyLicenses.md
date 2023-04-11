@@ -78,8 +78,8 @@ OK
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 300,
-  "ModuleOwner": "explicabo",
+  "AssociateId": 329,
+  "ModuleOwner": "quo",
   "ModuleLicenseNames": [
-    "Bailey Inc and Sons",
-    "Hane Inc and Sons"
+    "Tillman-Turcotte",
+    "Thompson-Raynor"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 54,
-    "Tooltip": "quaerat",
+    "Total": 325,
+    "Tooltip": "similique",
     "CanAssign": false,
-    "Free": 16,
-    "InUse": 959,
+    "Free": 602,
+    "InUse": 909,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 883,
-    "Name": "Windler, Gulgowski and Tillman",
-    "Description": "Vision-oriented optimizing process improvement",
-    "PrerequisiteModuleName": "Klein LLC",
-    "SortOrder": 678,
-    "ExtraFlags": 691,
+    "Assigned": true,
+    "ModuleLicenseId": 700,
+    "Name": "Corkery Group",
+    "Description": "Distributed mission-critical core",
+    "PrerequisiteModuleName": "Keeling-Mertz",
+    "SortOrder": 248,
+    "ExtraFlags": 647,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 860
+        "FieldLength": 996
       }
     }
   }

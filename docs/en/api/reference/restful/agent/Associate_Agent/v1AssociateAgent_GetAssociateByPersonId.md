@@ -74,8 +74,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 877
+  "PersonId": 329
 }
 ```
 
@@ -98,24 +98,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 806,
-  "Name": "Medhurst Inc and Sons",
-  "PersonId": 176,
-  "Rank": 3,
-  "Tooltip": "est",
+  "AssociateId": 782,
+  "Name": "Volkman-Bruen",
+  "PersonId": 267,
+  "Rank": 686,
+  "Tooltip": "iste",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 88,
-  "FullName": "Nella Bartoletti",
-  "FormalName": "Ondricka-Bechtelar",
-  "Deleted": false,
-  "EjUserId": 512,
-  "UserName": "Moen LLC",
+  "GroupIdx": 533,
+  "FullName": "Mrs. Marjorie Bayer DDS",
+  "FormalName": "Thompson LLC",
+  "Deleted": true,
+  "EjUserId": 153,
+  "UserName": "Huel, Brakus and Ullrich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 266
     }
   }
 }

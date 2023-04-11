@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionDynamicSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -455,7 +455,7 @@ FormSubmission selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/retired,person/personAssociate/contactName,person/correspondingAssociate/usergroup,contact/countryId,contact/email/emailHasBounced
+GET /api/v1/archive/FormSubmissionDynamicSelectionV2?$select=person/personAddress/wgs84latitude,person/withdrawnEmarketingConsent,contact/email/emailLastBounce,contact/SaintStatus1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

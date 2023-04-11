@@ -58,14 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New | TableRight |  |
-| Current | TableRight |  |
+| New | TimeZoneData |  |
+| Current | TimeZoneData |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "excepturi"
+  "FileContent": "enim"
 }
 ```
 
@@ -98,14 +98,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 666,
-      "NumberOfLicensesFree": 619,
-      "NumberOfLicensesAdded": 171,
-      "NumberOfLicensesNewTotal": 202,
-      "NumberOfLicensesNewFree": 41,
-      "NumberOfLicensesTotal": 127
+      "NumberOfLicensesInUse": 58,
+      "NumberOfLicensesFree": 655,
+      "NumberOfLicensesAdded": 760,
+      "NumberOfLicensesNewTotal": 909,
+      "NumberOfLicensesNewFree": 881,
+      "NumberOfLicensesTotal": 8
     }
   ],
-  "AccumulatedNextCheckDate": "2004-09-03T12:15:19.1907482+02:00"
+  "AccumulatedNextCheckDate": "1998-02-23T15:29:21.9518086+01:00"
 }
 ```

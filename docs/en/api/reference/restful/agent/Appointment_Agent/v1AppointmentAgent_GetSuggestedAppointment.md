@@ -25,7 +25,7 @@ Gets a SuggestedAppointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=138
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=541
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -70,8 +70,8 @@ OK
 | Name | string | Item name, visible in Guide |
 | Duration | int32 | Duration in minutes of suggested appointment |
 | Associate | Associate | The owner of the suggested activity. Always the same as the sales owner. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 156,
-  "Deleted": 574,
-  "DaysFuture": 579,
-  "Tooltip": "culpa",
-  "Text": "aliquam",
-  "TaskId": 682,
-  "SuggestedAppointmentId": 452,
-  "SaleTypeStageLinkId": 277,
-  "RegisteredAssociateId": 277,
-  "Rank": 223,
-  "ProjectTypeStatusLinkId": 870,
-  "Name": "Bartoletti Group",
-  "Duration": 164,
+  "AutoSuggest": 466,
+  "Deleted": 364,
+  "DaysFuture": 585,
+  "Tooltip": "qui",
+  "Text": "dolorum",
+  "TaskId": 346,
+  "SuggestedAppointmentId": 517,
+  "SaleTypeStageLinkId": 322,
+  "RegisteredAssociateId": 906,
+  "Rank": 925,
+  "ProjectTypeStatusLinkId": 956,
+  "Name": "Franecki-Marquardt",
+  "Duration": 758,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 858
     }
   }
 }

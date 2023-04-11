@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,32 +88,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Satterfield, Koepp and Kshlerin",
-  "ListItemId": 978,
+  "UdListDefinitionName": "Bartell, Abbott and Klocko",
+  "ListItemId": 195,
   "Headings": [
     {
-      "Id": 142,
-      "Name": "Yundt, Buckridge and Pouros",
-      "ToolTip": "Asperiores natus.",
+      "Id": 780,
+      "Name": "Stokes, Langosh and Effertz",
+      "ToolTip": "Maxime laborum.",
       "Deleted": false,
-      "Rank": 185,
-      "Type": "dolores",
-      "ColorBlock": 722,
+      "Rank": 191,
+      "Type": "nostrum",
+      "ColorBlock": 736,
       "IconHint": "quia",
-      "Selected": false,
-      "LastChanged": "1997-03-03T12:15:19.265754+01:00",
+      "Selected": true,
+      "LastChanged": "2008-10-07T15:29:22.0237728+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "et",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "aperiam",
       "Hidden": false,
-      "FullName": "Rosario Olson"
+      "FullName": "Miss Claud Barrows"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 900,
-    "Name": "Goyette, Stoltenberg and Boyer",
-    "ToolTip": "Est blanditiis aliquam sequi error.",
+    "Id": 843,
+    "Name": "Stehr, Bruen and Gibson",
+    "ToolTip": "Recusandae mollitia earum hic ipsam illum quis sit.",
     "Deleted": false,
-    "Rank": 513,
-    "Type": "nesciunt",
-    "ColorBlock": 854,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2010-07-15T12:15:19.2667475+02:00",
+    "Rank": 463,
+    "Type": "facilis",
+    "ColorBlock": 250,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2015-01-01T15:29:22.0257725+01:00",
     "ChildItems": [
       {
-        "Id": 48,
-        "Name": "Durgan LLC",
-        "ToolTip": "Tempore fugiat.",
-        "Deleted": true,
-        "Rank": 751,
-        "Type": "alias",
-        "ColorBlock": 468,
-        "IconHint": "sit",
+        "Id": 203,
+        "Name": "Williamson, Ebert and Buckridge",
+        "ToolTip": "Nihil quaerat sed aliquid consequuntur earum cumque et.",
+        "Deleted": false,
+        "Rank": 787,
+        "Type": "et",
+        "ColorBlock": 399,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2004-11-30T12:15:19.2667475+01:00",
+        "LastChanged": "2020-06-14T15:29:22.0257725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "temporibus",
-        "Hidden": true,
-        "FullName": "Dr. Mckenna Brekke",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Jordi Lueilwitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 764
+            "FieldType": "System.String",
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quia",
+    "ExtraInfo": "illo",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Miss Melba Amos Kirlin PhD",
+    "FullName": "Zoe Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldType": "System.String",
+        "FieldLength": 920
       }
     }
   }

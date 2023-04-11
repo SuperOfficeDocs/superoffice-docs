@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteConnection"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -67,7 +67,7 @@ This is the archive Provider for the QuoteConnection Archive in SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteConnection?$select=updatedDate,erpConnection/description
+GET /api/v1/archive/QuoteConnection?$select=registeredDate,updatedDate,erpConnection/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

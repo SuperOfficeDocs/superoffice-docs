@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,10 +70,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    868,
-    48
+    682,
+    81
   ],
-  "RoleId": 614,
+  "RoleId": 178,
   "Comment": "qui"
 }
 ```

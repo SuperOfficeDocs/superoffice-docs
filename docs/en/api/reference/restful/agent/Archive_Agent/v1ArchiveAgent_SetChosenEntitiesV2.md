@@ -60,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -69,17 +69,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Murazik LLC",
-  "ProviderName": "Bergstrom Group",
-  "Context": "dolores",
-  "OwnerKeys": "quos",
+  "GuiName": "Kautzer-Koelpin",
+  "ProviderName": "Cruickshank Inc and Sons",
+  "Context": "nemo",
+  "OwnerKeys": "quis",
   "Entities": [
-    "eum",
-    "earum"
+    "molestias",
+    "et"
   ]
 }
 ```

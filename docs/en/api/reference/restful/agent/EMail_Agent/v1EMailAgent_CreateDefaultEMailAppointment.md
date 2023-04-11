@@ -57,8 +57,8 @@ OK
 | DtStart | date-time | Start date/time in ICS file. |
 | DtEnd | date-time | End date/time in ICS file. |
 | Superseded | bool | A newer invitation exists |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "ipsa",
-    "quia"
+    "impedit",
+    "consequatur"
   ],
-  "Comment": "soluta",
-  "Sequence": 176,
-  "DtStart": "2008-05-09T12:15:18.9637198+02:00",
-  "DtEnd": "1999-06-17T12:15:18.9637198+02:00",
+  "Comment": "ullam",
+  "Sequence": 607,
+  "DtStart": "2018-03-23T15:29:21.7317757+01:00",
+  "DtEnd": "2014-04-02T15:29:21.7317757+02:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 140
     }
   }
 }

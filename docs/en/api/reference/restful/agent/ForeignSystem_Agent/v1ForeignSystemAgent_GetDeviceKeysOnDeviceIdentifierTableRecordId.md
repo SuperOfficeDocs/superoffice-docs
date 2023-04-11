@@ -74,8 +74,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hegmann, Kshlerin and Satterfield",
-  "DeviceName": "Glover LLC",
-  "DeviceIdentifier": "officiis",
-  "TableName": "Torp-Daugherty",
-  "RecordId": 297
+  "ApplicationName": "Kunze-Corwin",
+  "DeviceName": "Hilll-Jerde",
+  "DeviceIdentifier": "ratione",
+  "TableName": "Kemmer, Daniel and Mueller",
+  "RecordId": 350
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "odio",
-    "Value": "alias",
-    "RecordId": 860,
-    "CreatedDate": "2010-04-12T12:15:19.1717511+02:00",
-    "UpdatedDate": "2008-04-16T12:15:19.1717511+02:00",
-    "UpdatedBy": "dicta",
-    "CreatedBy": "quasi",
-    "TableName": "Hayes, Powlowski and Davis",
+    "Key": "qui",
+    "Value": "natus",
+    "RecordId": 221,
+    "CreatedDate": "2005-02-04T15:29:21.931809+01:00",
+    "UpdatedDate": "2000-09-12T15:29:21.931809+02:00",
+    "UpdatedBy": "modi",
+    "CreatedBy": "molestias",
+    "TableName": "Buckridge-Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldType": "System.Int32",
+        "FieldLength": 512
       }
     }
   }

@@ -27,7 +27,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=187
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=489
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -66,8 +66,8 @@ OK
 | ArchivedAt | date-time | The datetime when this email was archived |
 | ArchivedBy | int32 | The associate who archived this email |
 | ArchivedDisplayName | string | The full name of the associate who archived this email |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 393,
-  "AppointmentId": 946,
-  "ProjectId": 488,
-  "SaleId": 869,
+  "DocumentId": 770,
+  "AppointmentId": 193,
+  "ProjectId": 53,
+  "SaleId": 97,
   "Archived": true,
-  "ArchivedAt": "2014-08-27T12:15:18.9567518+02:00",
-  "ArchivedBy": 248,
-  "ArchivedDisplayName": "Legros LLC",
+  "ArchivedAt": "1997-07-09T15:29:21.7252759+02:00",
+  "ArchivedBy": 469,
+  "ArchivedDisplayName": "Buckridge Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldLength": 609
     }
   }
 }

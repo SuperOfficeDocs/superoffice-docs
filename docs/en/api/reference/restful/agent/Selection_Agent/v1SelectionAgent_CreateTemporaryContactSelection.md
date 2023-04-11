@@ -95,8 +95,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,7 +104,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,70 +114,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked composite methodology",
-  "Postit": "unde",
+  "Description": "Profit-focused high-level array",
+  "Postit": "sint",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 889,
-  "IncludePerson": 884,
-  "MemberCount": 65,
-  "Name": "Kuvalis-Emmerich",
-  "PostitTextId": 628,
-  "CreatedDate": "2016-10-16T12:15:20.1637345+02:00",
-  "SelectionId": 730,
-  "SoundEx": "ipsam",
-  "Source": 179,
-  "TextId": 837,
-  "UpdatedDate": "2005-10-15T12:15:20.1637345+02:00",
-  "UpdatedCount": 549,
-  "Visibility": 615,
+  "GroupIdx": 771,
+  "IncludePerson": 448,
+  "MemberCount": 209,
+  "Name": "Mills-Cormier",
+  "PostitTextId": 292,
+  "CreatedDate": "2019-06-16T15:29:22.805302+02:00",
+  "SelectionId": 527,
+  "SoundEx": "quia",
+  "Source": 428,
+  "TextId": 407,
+  "UpdatedDate": "2013-03-01T15:29:22.805302+01:00",
+  "UpdatedCount": 989,
+  "Visibility": 503,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 564,
-  "TargetTableName": "Streich-Spinka",
-  "Completed": true,
-  "LeftSelectionId": 736,
-  "RightSelectionId": 633,
+  "CompanyUnique": true,
+  "TargetTableNumber": 220,
+  "TargetTableName": "Anderson-Kirlin",
+  "Completed": false,
+  "LeftSelectionId": 578,
+  "RightSelectionId": 127,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ruecker Group",
-  "ShadowProviderName": "Muller, Torp and Hickle",
-  "ChartKey": "optio",
-  "LastLoaded": "2017-09-16T12:15:20.1637345+02:00",
-  "LastLoadedBy": 691,
+  "MainProviderName": "Tillman-Treutel",
+  "ShadowProviderName": "Senger Inc and Sons",
+  "ChartKey": "eaque",
+  "LastLoaded": "2006-10-29T15:29:22.805302+01:00",
+  "LastLoadedBy": 128,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-01-16T12:15:20.1647397+01:00",
-  "LastMembershipChangeBy": 669,
+  "LastMembershipChange": "2004-02-17T15:29:22.8057976+01:00",
+  "LastMembershipChangeBy": 999,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fuga",
-  "MemberTabHeading": "dignissimos",
-  "MailingsProviderName": "Miller, Davis and Goldner",
-  "DashboardTileDefinitionId": 812,
+  "MainHeading": "fugit",
+  "MemberTabHeading": "modi",
+  "MailingsProviderName": "Friesen, Wolf and Erdman",
+  "DashboardTileDefinitionId": 382,
   "VisibleFor": [
     {
-      "VisibleId": 234,
+      "VisibleId": 607,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 496
         }
       }
     },
     {
-      "VisibleId": 234,
+      "VisibleId": 607,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 496
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

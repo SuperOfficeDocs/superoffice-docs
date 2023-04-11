@@ -70,5 +70,5 @@ Accept-Language: sv
 HTTP/1.1 200 The blob id
 Content-Type: application/json; charset=utf-8
 
-412
+904
 ```

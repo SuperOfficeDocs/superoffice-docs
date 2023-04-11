@@ -118,8 +118,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -131,12 +131,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 721,
-  "IncludeProjectAppointments": false,
-  "StartTime": "1997-09-30T12:15:17.6287426+02:00",
-  "EndTime": "2009-11-05T12:15:17.6287426+01:00",
-  "Count": 440,
-  "TaskHeadingId": 206
+  "PersonId": 883,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2022-01-22T15:29:20.2418342+01:00",
+  "EndTime": "2002-03-24T15:29:20.2418342+01:00",
+  "Count": 814,
+  "TaskHeadingId": 628
 }
 ```
 
@@ -148,61 +148,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 732,
-    "StartDate": "2003-07-12T12:15:17.6297724+02:00",
-    "EndDate": "2014-09-20T12:15:17.6297724+02:00",
+    "AppointmentId": 578,
+    "StartDate": "2002-12-28T15:29:20.2433324+01:00",
+    "EndDate": "2008-08-25T15:29:20.2433324+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Aurelie Kunde",
-    "ContactName": "Hilpert-Satterfield",
-    "Description": "Fully-configurable high-level info-mediaries",
-    "PersonFullName": "Salvatore Tremayne Lesch IV",
-    "PersonId": 308,
-    "ContactId": 882,
-    "ProjectId": 605,
-    "ProjectName": "Botsford LLC",
+    "Task": "voluptatem",
+    "AssociateFullName": "Cameron Shyann Bergstrom III",
+    "ContactName": "Berge Group",
+    "Description": "Configurable reciprocal benchmark",
+    "PersonFullName": "Dan McCullough",
+    "PersonId": 944,
+    "ContactId": 535,
+    "ProjectId": 353,
+    "ProjectName": "Raynor Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 129,
-    "ColorIndex": 148,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 696,
+    "ColorIndex": 92,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 91,
-    "PriorityName": "Gaylord LLC",
+    "PriorityId": 920,
+    "PriorityName": "Crooks-Toy",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-03-13T12:15:17.630739+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2006-08-17T15:29:20.243825+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2019-02-06T12:15:17.630739+01:00",
-    "RecurringEndDate": "2015-06-15T12:15:17.630739+02:00",
-    "MotherId": 218,
-    "AssignedBy": 705,
-    "AssignedByFullName": "Celestino Nolan",
+    "RecurringStartDate": "2022-12-04T15:29:20.243825+01:00",
+    "RecurringEndDate": "2003-11-15T15:29:20.243825+01:00",
+    "MotherId": 185,
+    "AssignedBy": 27,
+    "AssignedByFullName": "Miss Yasmeen Gerhold Jr.",
     "RejectReason": "",
-    "Location": "sunt",
-    "AlarmLeadTime": "quia",
-    "SaleId": 481,
-    "SaleName": "Skiles-Kovacek",
-    "AssociateName": "Predovic-Reinger",
-    "CreatedDate": "2020-02-15T12:15:17.630739+01:00",
-    "CreatedBy": "quidem",
-    "CreatedByFullName": "Ms. Laurianne Rohan DVM",
-    "CreatedByAssociateId": 478,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "consequatur",
+    "SaleId": 605,
+    "SaleName": "Labadie Inc and Sons",
+    "AssociateName": "Pollich Group",
+    "CreatedDate": "1999-03-06T15:29:20.243825+01:00",
+    "CreatedBy": "recusandae",
+    "CreatedByFullName": "Holden Barton",
+    "CreatedByAssociateId": 444,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 788
+        "FieldType": "System.Int32",
+        "FieldLength": 14
       }
     }
   }

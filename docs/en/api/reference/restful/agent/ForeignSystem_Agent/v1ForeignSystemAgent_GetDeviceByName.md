@@ -72,8 +72,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Anderson, Stiedemann and Kuphal",
-  "DeviceName": "Dibbert LLC"
+  "ApplicationName": "Wuckert-Larson",
+  "DeviceName": "Schinner-Conroy"
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 850,
-  "Name": "Roberts-Little",
-  "CreatedDate": "1998-05-20T12:15:19.1517506+02:00",
-  "UpdatedDate": "2014-07-21T12:15:19.1517506+02:00",
-  "AssociateFullName": "Roberto Hamill",
-  "CreatedBy": "eaque",
-  "UpdatedBy": "dolorem",
-  "DeviceIdentifier": "ipsum",
-  "ForeignAppId": 676,
+  "ForeignDeviceId": 36,
+  "Name": "Feest-Osinski",
+  "CreatedDate": "2014-04-23T15:29:21.9163077+02:00",
+  "UpdatedDate": "2012-07-31T15:29:21.9163077+02:00",
+  "AssociateFullName": "Lauren Zieme",
+  "CreatedBy": "sint",
+  "UpdatedBy": "ducimus",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 214,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 505
     }
   }
 }

@@ -72,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 445,
-  "Rank": 328
+  "QuoteLineId": 420,
+  "Rank": 911
 }
 ```
 

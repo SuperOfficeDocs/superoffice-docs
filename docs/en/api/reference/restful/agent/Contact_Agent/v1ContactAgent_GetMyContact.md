@@ -98,8 +98,8 @@ OK
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,157 +117,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 609,
-  "Name": "Kling, Sauer and Olson",
+  "ContactId": 908,
+  "Name": "Jaskolski, Stark and Bauch",
   "Department": "",
-  "OrgNr": "1802772",
-  "Number1": "1290950",
-  "Number2": "1493630",
-  "UpdatedDate": "2004-08-13T12:15:18.529758+02:00",
-  "CreatedDate": "2001-11-15T12:15:18.529758+01:00",
+  "OrgNr": "1431784",
+  "Number1": "943816",
+  "Number2": "480433",
+  "UpdatedDate": "1996-01-01T15:29:21.1488175+01:00",
+  "CreatedDate": "2017-01-07T15:29:21.1488175+01:00",
   "Emails": [
     {
-      "Value": "aspernatur",
-      "StrippedValue": "ut",
-      "Description": "Cross-group global functionalities",
+      "Value": "eum",
+      "StrippedValue": "odit",
+      "Description": "Persevering real-time Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     },
     {
-      "Value": "aspernatur",
-      "StrippedValue": "ut",
-      "Description": "Cross-group global functionalities",
+      "Value": "eum",
+      "StrippedValue": "odit",
+      "Description": "Persevering real-time Graphical User Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 158,
-      "Name": "Steuber, Schimmel and Baumbach",
-      "ToolTip": "Voluptatibus sapiente et harum.",
+      "Id": 107,
+      "Name": "Lindgren, Greenfelder and Cummerata",
+      "ToolTip": "Natus omnis nostrum nihil incidunt sed.",
       "Deleted": false,
-      "Rank": 468,
-      "Type": "natus",
-      "ColorBlock": 926,
-      "IconHint": "repudiandae",
-      "Selected": false,
-      "LastChanged": "2018-06-15T12:15:18.529758+02:00",
+      "Rank": 953,
+      "Type": "ratione",
+      "ColorBlock": 322,
+      "IconHint": "placeat",
+      "Selected": true,
+      "LastChanged": "2016-12-13T15:29:21.1503258+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quisquam",
-      "StyleHint": "dolorem",
+      "ExtraInfo": "inventore",
+      "StyleHint": "ut",
       "Hidden": false,
-      "FullName": "Prof. Magnolia Mosciski",
+      "FullName": "Mr. Javier Lyda Nienow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 202
+          "FieldLength": 890
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quaerat",
-      "StrippedValue": "eius",
-      "Description": "Right-sized motivating local area network",
+      "Value": "beatae",
+      "StrippedValue": "natus",
+      "Description": "Virtual uniform adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     },
     {
-      "Value": "quaerat",
-      "StrippedValue": "eius",
-      "Description": "Right-sized motivating local area network",
+      "Value": "beatae",
+      "StrippedValue": "natus",
+      "Description": "Virtual uniform adapter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "totam",
-      "StrippedValue": "qui",
-      "Description": "Synchronised assymetric core",
+      "Value": "quo",
+      "StrippedValue": "animi",
+      "Description": "Ameliorated transitional data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     },
     {
-      "Value": "totam",
-      "StrippedValue": "qui",
-      "Description": "Synchronised assymetric core",
+      "Value": "quo",
+      "StrippedValue": "animi",
+      "Description": "Ameliorated transitional data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 317
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "illum",
-      "StrippedValue": "ab",
-      "Description": "Operative object-oriented standardization",
+      "Value": "facilis",
+      "StrippedValue": "et",
+      "Description": "Persevering discrete emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     },
     {
-      "Value": "illum",
-      "StrippedValue": "ab",
-      "Description": "Operative object-oriented standardization",
+      "Value": "facilis",
+      "StrippedValue": "et",
+      "Description": "Persevering discrete emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 134
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     }
   ],
-  "Description": "Ameliorated heuristic internet solution",
+  "Description": "Versatile interactive matrix",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -276,100 +276,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "ad",
-      "PersonId": 359,
-      "Mrmrs": "in",
-      "Firstname": "Nicola",
-      "Lastname": "Denesik",
-      "MiddleName": "Gusikowski, Mayer and Rau",
-      "Title": "sunt",
-      "Description": "Integrated assymetric neural-net",
-      "Email": "laurence.anderson@mayerbashirian.ca",
-      "FullName": "Mr. Carroll Amara Champlin",
-      "DirectPhone": "287-681-5705 x66835",
-      "FormalName": "Cartwright, Schamberger and Harvey",
-      "CountryId": 423,
-      "ContactId": 906,
-      "ContactName": "Schmidt-Towne",
-      "Retired": 760,
-      "Rank": 410,
-      "ActiveInterests": 853,
-      "ContactDepartment": "reinvent enterprise infomediaries",
-      "ContactCountryId": 693,
-      "ContactOrgNr": "904041",
-      "FaxPhone": "1-665-254-3500",
-      "MobilePhone": "(165)436-8024 x54943",
-      "ContactPhone": "(806)218-9372",
-      "AssociateName": "Veum Inc and Sons",
-      "AssociateId": 439,
-      "UsePersonAddress": true,
-      "ContactFax": "harum",
-      "Kanafname": "maxime",
-      "Kanalname": "cum",
-      "Post1": "sapiente",
-      "Post2": "ducimus",
-      "Post3": "numquam",
-      "EmailName": "serenity@emardcorkery.biz",
-      "ContactFullName": "Miss Savannah Gleichner",
-      "ActiveErpLinks": 174,
-      "TicketPriorityId": 873,
-      "SupportLanguageId": 126,
-      "SupportAssociateId": 151,
+      "Position": "ratione",
+      "PersonId": 208,
+      "Mrmrs": "non",
+      "Firstname": "Providenci",
+      "Lastname": "Bosco",
+      "MiddleName": "Mertz, Zboncak and Mitchell",
+      "Title": "accusantium",
+      "Description": "Polarised real-time algorithm",
+      "Email": "tre@leffler.info",
+      "FullName": "Jaylin Kiehn",
+      "DirectPhone": "1-396-708-4275",
+      "FormalName": "Hackett, Sanford and Schmeler",
+      "CountryId": 324,
+      "ContactId": 139,
+      "ContactName": "Stanton-Hickle",
+      "Retired": 193,
+      "Rank": 649,
+      "ActiveInterests": 550,
+      "ContactDepartment": "",
+      "ContactCountryId": 186,
+      "ContactOrgNr": "1660280",
+      "FaxPhone": "290-881-9611",
+      "MobilePhone": "766.260.7110 x549",
+      "ContactPhone": "342.531.8948 x668",
+      "AssociateName": "Barton Group",
+      "AssociateId": 767,
+      "UsePersonAddress": false,
+      "ContactFax": "quaerat",
+      "Kanafname": "sint",
+      "Kanalname": "quam",
+      "Post1": "voluptatibus",
+      "Post2": "unde",
+      "Post3": "molestias",
+      "EmailName": "mazie.kshlerin@prohaskakulas.info",
+      "ContactFullName": "Kurtis Gottlieb IV",
+      "ActiveErpLinks": 110,
+      "TicketPriorityId": 502,
+      "SupportLanguageId": 52,
+      "SupportAssociateId": 878,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldType": "System.String",
+          "FieldLength": 943
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "voluptatum",
+  "NoMailing": false,
+  "Kananame": "doloribus",
   "Xstop": false,
-  "ActiveInterests": 614,
-  "GroupId": 495,
-  "ActiveStatusMonitorId": 587,
+  "ActiveInterests": 937,
+  "GroupId": 70,
+  "ActiveStatusMonitorId": 630,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 506,
-  "DbiAgentId": 665,
-  "DbiLastSyncronized": "2009-11-04T12:15:18.5337594+01:00",
-  "DbiKey": "sunt",
-  "DbiLastModified": "2011-03-09T12:15:18.5337594+01:00",
+  "Deleted": 140,
+  "DbiAgentId": 575,
+  "DbiLastSyncronized": "2016-07-15T15:29:21.1538175+02:00",
+  "DbiKey": "itaque",
+  "DbiLastModified": "1999-04-25T15:29:21.1538175+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 242,
+  "Source": 96,
   "ActiveErpLinks": 710,
   "BounceEmails": [
-    "hollis.price@lesch.co.uk",
-    "ettie_kreiger@lindgren.uk"
+    "rico.leuschke@wyman.biz",
+    "zoila@harrisharris.ca"
   ],
   "Domains": [
-    "aspernatur",
-    "quasi"
+    "laboriosam",
+    "laudantium"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Toy Annabell Jacobi",
-    "SuperOffice:2": "1159785436"
+    "SuperOffice:1": "1283824711",
+    "SuperOffice:2": "Gerson Jacobs"
   },
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "atque"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "odio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 777
     }
   }
 }

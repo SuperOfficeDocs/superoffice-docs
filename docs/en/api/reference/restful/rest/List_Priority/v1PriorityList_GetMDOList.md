@@ -25,8 +25,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=at
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=odio
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Bins, Schoen and Medhurst",
-    "ToolTip": "Nostrum occaecati.",
-    "Deleted": true,
-    "Rank": 117,
-    "Type": "tempora",
+    "Id": 171,
+    "Name": "Upton, Larson and Cummings",
+    "ToolTip": "Corporis dignissimos quod odio facilis.",
+    "Deleted": false,
+    "Rank": 330,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Kovacek-Klein",
-        "ToolTip": "Id iste dolores.",
+        "Id": 216,
+        "Name": "Barrows Inc and Sons",
+        "ToolTip": "Quia reprehenderit consequatur est ratione sit deleniti sit.",
         "Deleted": false,
-        "Rank": 875,
-        "Type": "quis",
+        "Rank": 339,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 868,
-        "ExtraInfo": "sit",
-        "StyleHint": "alias",
-        "FullName": "Elliot Koss",
+        "IconHint": "ipsam",
+        "ColorBlock": 419,
+        "ExtraInfo": "quasi",
+        "StyleHint": "aut",
+        "FullName": "Coleman Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldLength": 150
           }
         }
       }
     ],
-    "IconHint": "sequi",
-    "ColorBlock": 185,
-    "ExtraInfo": "libero",
-    "StyleHint": "quo",
-    "FullName": "Hanna Crooks",
+    "IconHint": "tempore",
+    "ColorBlock": 304,
+    "ExtraInfo": "nihil",
+    "StyleHint": "placeat",
+    "FullName": "Will Trevor Funk V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

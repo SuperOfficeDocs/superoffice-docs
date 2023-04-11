@@ -25,7 +25,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=893
+POST /api/v1/Agents/Person/GetPerson?personId=895
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -96,8 +96,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -115,52 +115,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "exercitationem",
-  "PersonId": 753,
-  "Mrmrs": "velit",
-  "Firstname": "Rory",
-  "Lastname": "Adams",
-  "MiddleName": "Boyle, Kertzmann and Bashirian",
-  "Title": "dolores",
-  "Description": "Inverse optimal protocol",
-  "Email": "matteo.johnston@christiansen.co.uk",
-  "FullName": "Effie Bailey",
-  "DirectPhone": "451.041.4465 x9096",
-  "FormalName": "Orn, Heaney and Hirthe",
-  "CountryId": 609,
-  "ContactId": 808,
-  "ContactName": "Daugherty-Weber",
-  "Retired": 209,
-  "Rank": 283,
-  "ActiveInterests": 27,
-  "ContactDepartment": "redefine out-of-the-box systems",
-  "ContactCountryId": 182,
-  "ContactOrgNr": "734074",
-  "FaxPhone": "1-629-247-9094",
-  "MobilePhone": "153-543-9327 x5141",
-  "ContactPhone": "(770)312-6719",
-  "AssociateName": "Balistreri Group",
-  "AssociateId": 427,
+  "Position": "aspernatur",
+  "PersonId": 135,
+  "Mrmrs": "perspiciatis",
+  "Firstname": "Kaylie",
+  "Lastname": "Deckow",
+  "MiddleName": "Kuvalis-O'Conner",
+  "Title": "quibusdam",
+  "Description": "Optional stable strategy",
+  "Email": "steve.kutch@watsica.info",
+  "FullName": "Jacynthe Cecile Haley DVM",
+  "DirectPhone": "282.057.4621 x76077",
+  "FormalName": "Trantow, Mills and Nader",
+  "CountryId": 5,
+  "ContactId": 236,
+  "ContactName": "Hodkiewicz, Reilly and Ankunding",
+  "Retired": 844,
+  "Rank": 103,
+  "ActiveInterests": 850,
+  "ContactDepartment": "",
+  "ContactCountryId": 939,
+  "ContactOrgNr": "766634",
+  "FaxPhone": "(191)012-0019",
+  "MobilePhone": "211-076-3126",
+  "ContactPhone": "(228)281-5788 x331",
+  "AssociateName": "Senger, Tromp and Morissette",
+  "AssociateId": 15,
   "UsePersonAddress": false,
-  "ContactFax": "et",
-  "Kanafname": "voluptatem",
-  "Kanalname": "excepturi",
-  "Post1": "porro",
-  "Post2": "qui",
-  "Post3": "sapiente",
-  "EmailName": "brendan@harber.co.uk",
-  "ContactFullName": "Lottie Domenica Spinka DVM",
-  "ActiveErpLinks": 102,
-  "TicketPriorityId": 665,
-  "SupportLanguageId": 575,
-  "SupportAssociateId": 968,
+  "ContactFax": "alias",
+  "Kanafname": "quia",
+  "Kanalname": "ullam",
+  "Post1": "blanditiis",
+  "Post2": "accusantium",
+  "Post3": "explicabo",
+  "EmailName": "mariane_johns@schmittjacobson.ca",
+  "ContactFullName": "Antwon Ankunding",
+  "ActiveErpLinks": 714,
+  "TicketPriorityId": 40,
+  "SupportLanguageId": 176,
+  "SupportAssociateId": 176,
   "CategoryName": "VIP Customer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 730
     }
   }
 }

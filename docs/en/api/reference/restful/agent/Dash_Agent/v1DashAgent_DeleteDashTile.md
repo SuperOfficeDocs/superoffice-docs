@@ -24,7 +24,7 @@ Deletes the DashTile
 | DashTileId | int32 | **Required** The id of the DashTile to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=911
+POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=213
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

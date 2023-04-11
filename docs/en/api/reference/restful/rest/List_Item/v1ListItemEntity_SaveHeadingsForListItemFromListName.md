@@ -86,8 +86,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 644,
-    "Name": "Fadel LLC",
-    "ToolTip": "Rerum repudiandae qui iste est repellat blanditiis sunt.",
+    "Id": 834,
+    "Name": "Zboncak LLC",
+    "ToolTip": "At molestias eum sapiente voluptas vel optio.",
     "Deleted": true,
-    "Rank": 226,
-    "Type": "rerum",
-    "ColorBlock": 221,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2002-09-23T12:15:27.8476229+02:00",
+    "Rank": 888,
+    "Type": "veniam",
+    "ColorBlock": 342,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2009-09-28T15:29:31.0514464+02:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Haley-Terry",
-        "ToolTip": "Consequatur voluptatibus itaque nam adipisci.",
-        "Deleted": true,
-        "Rank": 830,
-        "Type": "dolores",
-        "ColorBlock": 356,
-        "IconHint": "error",
+        "Id": 735,
+        "Name": "McClure LLC",
+        "ToolTip": "Numquam voluptatem.",
+        "Deleted": false,
+        "Rank": 980,
+        "Type": "voluptatem",
+        "ColorBlock": 761,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2015-07-26T12:15:27.8476229+02:00",
+        "LastChanged": "1997-04-06T15:29:31.0514464+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "harum",
+        "ExtraInfo": "possimus",
+        "StyleHint": "dolorum",
         "Hidden": false,
-        "FullName": "Misty Kautzer PhD"
+        "FullName": "Prof. Ewell Mylene Kozey"
       }
     ],
-    "ExtraInfo": "corrupti",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Sandrine Crist"
+    "ExtraInfo": "ex",
+    "StyleHint": "possimus",
+    "Hidden": false,
+    "FullName": "Delores Kshlerin"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Hettinger, Hyatt and Yundt",
-    "ToolTip": "Animi aperiam esse hic.",
+    "Id": 235,
+    "Name": "Zieme, Bayer and Kessler",
+    "ToolTip": "Molestiae tempore.",
     "Deleted": false,
-    "Rank": 51,
-    "Type": "corporis",
-    "ColorBlock": 539,
-    "IconHint": "enim",
+    "Rank": 447,
+    "Type": "est",
+    "ColorBlock": 949,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2007-08-23T12:15:27.848624+02:00",
+    "LastChanged": "2000-04-01T15:29:31.0529463+02:00",
     "ChildItems": [
       {
-        "Id": 154,
-        "Name": "Swaniawski Group",
-        "ToolTip": "Non et laudantium possimus.",
+        "Id": 210,
+        "Name": "Koch-Schuster",
+        "ToolTip": "Est ut voluptatibus explicabo.",
         "Deleted": false,
-        "Rank": 931,
-        "Type": "unde",
-        "ColorBlock": 426,
-        "IconHint": "eius",
-        "Selected": true,
-        "LastChanged": "2003-02-20T12:15:27.848624+01:00",
+        "Rank": 445,
+        "Type": "aliquam",
+        "ColorBlock": 583,
+        "IconHint": "amet",
+        "Selected": false,
+        "LastChanged": "2001-03-25T15:29:31.0534466+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "totam",
-        "Hidden": true,
-        "FullName": "Keara Okuneva",
+        "ExtraInfo": "et",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Lelia Eldora Kuhlman DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Chad O'Keefe",
+    "ExtraInfo": "modi",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Mrs. Sage Cali Roberts V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 356
+        "FieldLength": 333
       }
     }
   }

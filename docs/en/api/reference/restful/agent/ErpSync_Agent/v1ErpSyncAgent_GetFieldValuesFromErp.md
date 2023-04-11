@@ -72,8 +72,8 @@ OK
 | DisplayValue | string |  |
 | SyncToCrm | bool | Should value changes in ERP be automatically transferred to CRM |
 | SyncToErp | bool | Should value changes in CRM be automatically transferred to ERP |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 857,
+  "ErpConnectionId": 782,
   "ActorTypeErp": "Customer",
-  "ErpKey": "quos"
+  "ErpKey": "non"
 }
 ```
 
@@ -99,10 +99,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Legros, Jewess and Becker",
-    "CrmFieldKey": "animi",
-    "Value": "et",
-    "DisplayValue": "quia",
+    "DisplayName": "Lemke, Glover and Beier",
+    "CrmFieldKey": "praesentium",
+    "Value": "eos",
+    "DisplayValue": "commodi",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldLength": 530
       }
     }
   }

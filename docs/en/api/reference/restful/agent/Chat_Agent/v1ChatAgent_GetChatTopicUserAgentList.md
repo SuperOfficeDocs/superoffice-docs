@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 380
+  "ChatTopicId": 355
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 474,
+    "TopicId": 380,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": true,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": true
   },
   {
-    "TopicId": 474,
+    "TopicId": 380,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": true,
-    "CanManage": false,
+    "CanManage": true,
     "CanNotify": true
   }
 ]

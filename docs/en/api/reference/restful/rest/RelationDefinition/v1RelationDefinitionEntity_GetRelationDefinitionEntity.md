@@ -69,8 +69,8 @@ RelationDefinitionEntity found.
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -89,12 +89,12 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 922,
-  "Name": "Emmerich, Murphy and Schmidt",
-  "Tooltip": "veritatis",
-  "PassiveText": "ratione",
+  "ReldefId": 861,
+  "Name": "Towne, Kutch and Kunde",
+  "Tooltip": "ducimus",
+  "PassiveText": "nobis",
   "Deleted": false,
-  "Rank": 754,
+  "Rank": 309,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldLength": 925
     }
   },
   "_Links": {

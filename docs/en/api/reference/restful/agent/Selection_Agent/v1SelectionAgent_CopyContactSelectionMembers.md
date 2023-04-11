@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,12 +64,12 @@ No Content
 POST /api/v1/Agents/Selection/CopyContactSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 192,
-  "ToSelectionId": 67
+  "FromSelectionId": 270,
+  "ToSelectionId": 481
 }
 ```
 

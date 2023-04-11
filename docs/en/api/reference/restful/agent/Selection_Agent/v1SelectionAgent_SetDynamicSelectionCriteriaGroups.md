@@ -65,9 +65,9 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -80,21 +80,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 579,
+  "SelectionId": 865,
   "Criteria": [
     {
-      "Name": "Monahan-Cummings",
-      "Description": "Managed 5th generation emulation",
-      "Rank": 961,
+      "Name": "Walker Inc and Sons",
+      "Description": "Monitored full-range analyzer",
+      "Rank": 548,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Monahan-Cummings",
-      "Description": "Managed 5th generation emulation",
-      "Rank": 961,
+      "Name": "Walker Inc and Sons",
+      "Description": "Monitored full-range analyzer",
+      "Rank": 548,
       "Restrictions": [
         {},
         {}
@@ -112,20 +112,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Legros-Roob",
-    "Description": "Networked 24/7 Graphic Interface",
-    "Rank": 44,
+    "Name": "Osinski-Douglas",
+    "Description": "Ameliorated cohesive Graphical User Interface",
+    "Rank": 416,
     "Restrictions": [
       {
-        "Name": "Littel, Mueller and Johnston",
-        "Operator": "consequuntur",
+        "Name": "Reilly, Willms and Grant",
+        "Operator": "odio",
         "Values": [
-          "ut",
-          "distinctio"
+          "non",
+          "eligendi"
         ],
         "DisplayValues": [
-          "minima",
-          "tempore"
+          "sit",
+          "quam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -133,27 +133,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 704,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 331
+        "UniqueHash": 421
       }
     ]
   },
   {
-    "Name": "Legros-Roob",
-    "Description": "Networked 24/7 Graphic Interface",
-    "Rank": 44,
+    "Name": "Osinski-Douglas",
+    "Description": "Ameliorated cohesive Graphical User Interface",
+    "Rank": 416,
     "Restrictions": [
       {
-        "Name": "Littel, Mueller and Johnston",
-        "Operator": "consequuntur",
+        "Name": "Reilly, Willms and Grant",
+        "Operator": "odio",
         "Values": [
-          "ut",
-          "distinctio"
+          "non",
+          "eligendi"
         ],
         "DisplayValues": [
-          "minima",
-          "tempore"
+          "sit",
+          "quam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -161,9 +161,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 704,
+        "InterParenthesis": 480,
         "InterOperator": "And",
-        "UniqueHash": 331
+        "UniqueHash": 421
       }
     ]
   }

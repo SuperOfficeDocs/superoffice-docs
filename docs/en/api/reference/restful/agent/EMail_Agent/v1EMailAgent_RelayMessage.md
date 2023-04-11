@@ -59,7 +59,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -73,11 +73,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
-  "Rfc822": "ipsum",
-  "From": "molestias",
+  "Rfc822": "labore",
+  "From": "est",
   "Recipients": [
-    "accusamus",
-    "provident"
+    "iusto",
+    "atque"
   ]
 }
 ```

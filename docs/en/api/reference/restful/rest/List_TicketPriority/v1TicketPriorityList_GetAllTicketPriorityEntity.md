@@ -84,8 +84,8 @@ OK
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,60 +104,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 166,
-    "Name": "Goldner LLC",
+    "TicketPriorityId": 959,
+    "Name": "Labadie, Gibson and Schoen",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 443,
+    "SortOrder": 651,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 922,
-    "MonStart": "1999-08-13T12:15:28.5556193+02:00",
-    "MonStop": "1996-09-20T12:15:28.5556193+02:00",
-    "TueStart": "2005-02-07T12:15:28.5556193+01:00",
-    "TueStop": "2005-05-08T12:15:28.5556193+02:00",
-    "WedStart": "2020-03-26T12:15:28.5556193+01:00",
-    "WedStop": "2014-09-30T12:15:28.5556193+02:00",
-    "ThuStart": "1997-03-02T12:15:28.5556193+01:00",
-    "ThuStop": "2017-02-28T12:15:28.5556193+01:00",
-    "FriStart": "2011-02-08T12:15:28.5556193+01:00",
-    "FriStop": "2013-05-03T12:15:28.5556193+02:00",
-    "SatStart": "2021-11-14T12:15:28.5556193+01:00",
-    "SatStop": "2011-04-18T12:15:28.5556193+02:00",
-    "SunStart": "2007-09-19T12:15:28.5556193+02:00",
-    "SunStop": "2010-10-05T12:15:28.5556193+02:00",
+    "Deadline": 667,
+    "MonStart": "2014-12-05T15:29:31.6659729+01:00",
+    "MonStop": "2023-01-08T15:29:31.6659729+01:00",
+    "TueStart": "2001-08-23T15:29:31.6659729+02:00",
+    "TueStop": "2019-05-07T15:29:31.6659729+02:00",
+    "WedStart": "2010-09-04T15:29:31.6659729+02:00",
+    "WedStop": "2017-10-10T15:29:31.6659729+02:00",
+    "ThuStart": "2010-04-29T15:29:31.6659729+02:00",
+    "ThuStop": "2019-06-24T15:29:31.6659729+02:00",
+    "FriStart": "2011-06-11T15:29:31.6659729+02:00",
+    "FriStop": "2023-03-01T15:29:31.6659729+01:00",
+    "SatStart": "2008-03-03T15:29:31.6659729+01:00",
+    "SatStop": "1999-05-21T15:29:31.6659729+02:00",
+    "SunStart": "2020-07-01T15:29:31.6659729+02:00",
+    "SunStop": "2010-05-04T15:29:31.6659729+02:00",
     "NonDates": [
-      "vel",
-      "similique"
+      "eveniet",
+      "quasi"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 413,
-        "AlertLevel": 590,
-        "AlertTimeout": 709,
-        "Action": 705,
-        "DelegateTo": 714,
-        "ScriptId": 208,
-        "EmailTo": "hillary@mosciski.name",
-        "SmsTo": "et",
-        "ReplyTemplateIdCustomer": 157,
-        "ReplyTemplateIdUser": 90,
-        "ReplyTemplateIdCatmast": 462,
-        "ReplyTemplateIdEmail": 492,
-        "RtiCustomerSms": 256,
-        "ReplyTemplateIdUserSms": 709,
-        "ReplyTemplateIdCatmastSms": 577,
-        "ReplyTemplateIdSms": 388,
+        "TicketAlertId": 538,
+        "AlertLevel": 507,
+        "AlertTimeout": 567,
+        "Action": 312,
+        "DelegateTo": 611,
+        "ScriptId": 677,
+        "EmailTo": "catalina@marks.info",
+        "SmsTo": "magni",
+        "ReplyTemplateIdCustomer": 909,
+        "ReplyTemplateIdUser": 274,
+        "ReplyTemplateIdCatmast": 264,
+        "ReplyTemplateIdEmail": 605,
+        "RtiCustomerSms": 908,
+        "ReplyTemplateIdUserSms": 333,
+        "ReplyTemplateIdCatmastSms": 617,
+        "ReplyTemplateIdSms": 976,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldType": "System.Int32",
+            "FieldLength": 432
           }
         }
       }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldType": "System.String",
+        "FieldLength": 430
       }
     }
   }

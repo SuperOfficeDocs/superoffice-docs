@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 980
+  "Id": 401
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 135,
-  "Name": "Howe-Price",
-  "AssociateId": 619,
-  "DetailsTable": 220,
-  "DetailsRecord": 287,
+  "Id": 482,
+  "Name": "Hahn, Toy and Bayer",
+  "AssociateId": 518,
+  "DetailsTable": 199,
+  "DetailsRecord": 141,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "quo",
-    "ParameterObject2": "molestias"
+    "ParameterObject1": "recusandae",
+    "ParameterObject2": "suscipit"
   },
-  "LastStarted": "2003-10-18T12:15:18.2027627+02:00",
-  "Created": "2018-10-31T12:15:18.2027627+01:00",
-  "StartCount": 523,
-  "DatabaseSerialNumber": "804805",
-  "Context": "voluptates",
-  "Result": "reiciendis",
+  "LastStarted": "2015-09-17T15:29:20.8202886+02:00",
+  "Created": "2006-03-21T15:29:20.8202886+01:00",
+  "StartCount": 449,
+  "DatabaseSerialNumber": "233997",
+  "Context": "perferendis",
+  "Result": "facilis",
   "State": "All",
-  "Description": "Profit-focused impactful protocol",
-  "Response": "rerum",
-  "Request": "quis",
-  "ProgressDescription": "Synchronised object-oriented extranet",
-  "ProgressPercent": 714,
-  "FileName": "Bednar-Corwin",
+  "Description": "Upgradable bifurcated installation",
+  "Response": "sint",
+  "Request": "corrupti",
+  "ProgressDescription": "Focused holistic info-mediaries",
+  "ProgressPercent": 520,
+  "FileName": "Bergnaum, Hodkiewicz and Wiza",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 724
     }
   }
 }

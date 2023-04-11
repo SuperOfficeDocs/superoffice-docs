@@ -103,8 +103,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -123,53 +123,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 417,
-    "StartDate": "2006-12-29T12:15:17.6617708+01:00",
-    "EndDate": "2008-01-15T12:15:17.6617708+01:00",
+    "AppointmentId": 932,
+    "StartDate": "2003-08-06T15:29:20.4068305+02:00",
+    "EndDate": "2021-11-09T15:29:20.4068305+01:00",
     "Type": "BookingForChecklist",
-    "Task": "fugit",
-    "AssociateFullName": "Damion Gusikowski",
-    "ContactName": "Feest, Fisher and Walsh",
-    "Description": "Multi-layered methodical intranet",
-    "PersonFullName": "Garrison Gutkowski",
-    "PersonId": 47,
-    "ContactId": 375,
-    "ProjectId": 896,
-    "ProjectName": "Lehner-Satterfield",
-    "IsPublished": true,
-    "AssociateId": 559,
-    "ColorIndex": 545,
-    "IsFree": false,
+    "Task": "in",
+    "AssociateFullName": "Aniyah Daniel",
+    "ContactName": "Cole, Kuhn and Barton",
+    "Description": "Inverse national focus group",
+    "PersonFullName": "Mrs. Griffin Annabell Okuneva",
+    "PersonId": 873,
+    "ContactId": 191,
+    "ProjectId": 469,
+    "ProjectName": "Kerluke, Larkin and Kovacek",
+    "IsPublished": false,
+    "AssociateId": 623,
+    "ColorIndex": 767,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 787,
-    "PriorityName": "Effertz-Bartoletti",
+    "PriorityId": 212,
+    "PriorityName": "Dietrich, Grady and Jewess",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2007-11-20T12:15:17.6627702+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2003-02-22T15:29:20.4078305+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-09-25T12:15:17.6627702+02:00",
-    "RecurringEndDate": "2008-03-04T12:15:17.6627702+01:00",
-    "MotherId": 848,
-    "AssignedBy": 142,
-    "AssignedByFullName": "Prof. Jocelyn Laurel Hauck I",
+    "RecurringStartDate": "2014-11-26T15:29:20.4078305+01:00",
+    "RecurringEndDate": "2006-02-20T15:29:20.4078305+01:00",
+    "MotherId": 673,
+    "AssignedBy": 752,
+    "AssignedByFullName": "Dalton Blick",
     "RejectReason": "",
-    "Location": "nihil",
-    "AlarmLeadTime": "enim",
-    "SaleId": 950,
-    "SaleName": "Sawayn LLC",
-    "AssociateName": "Willms-Beier",
-    "CreatedDate": "2017-05-22T12:15:17.6627702+02:00",
-    "CreatedBy": "ipsa",
-    "CreatedByFullName": "Dr. Myrtice Crist",
-    "CreatedByAssociateId": 338,
+    "Location": "perferendis",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 130,
+    "SaleName": "Watsica, Dicki and Quitzon",
+    "AssociateName": "Pouros Group",
+    "CreatedDate": "2016-06-22T15:29:20.4078305+02:00",
+    "CreatedBy": "voluptas",
+    "CreatedByFullName": "Jairo Halvorson",
+    "CreatedByAssociateId": 147,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 166
+        "FieldLength": 342
       }
     }
   }

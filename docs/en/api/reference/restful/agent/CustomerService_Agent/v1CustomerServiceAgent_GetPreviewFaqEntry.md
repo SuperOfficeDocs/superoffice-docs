@@ -67,8 +67,8 @@ OK
 | Updated | date-time | Date/time this faq entry was last updated. |
 | Question | string | The question for this entry. |
 | Answer | string | The answer for this entry. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 109
+  "KbEntryId": 134
 }
 ```
 
@@ -91,17 +91,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "consequatur",
-  "RegisteredByFullName": "Mr. Jake Elias Zboncak PhD",
-  "Updated": "1999-07-28T12:15:18.6457559+02:00",
-  "Question": "explicabo",
-  "Answer": "id",
+  "Title": "officiis",
+  "RegisteredByFullName": "Graham Ivory Ortiz Sr.",
+  "Updated": "1996-01-19T15:29:21.2722826+01:00",
+  "Question": "voluptatum",
+  "Answer": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 934
     }
   }
 }

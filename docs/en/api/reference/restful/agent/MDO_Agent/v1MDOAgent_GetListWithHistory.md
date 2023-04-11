@@ -78,8 +78,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Turcotte-Ruecker",
-  "ForceFlatList": true,
-  "AdditionalInfo": "qui",
+  "Name": "Purdy-Larson",
+  "ForceFlatList": false,
+  "AdditionalInfo": "et",
   "HistoryItems": [
-    159,
-    115
+    640,
+    389
   ],
   "OnlyHistory": true
 }
@@ -110,50 +110,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Baumbach Inc and Sons",
-    "ToolTip": "Totam aut rem provident quidem consequuntur.",
+    "Id": 220,
+    "Name": "Little LLC",
+    "ToolTip": "Molestiae amet.",
     "Deleted": false,
-    "Rank": 124,
-    "Type": "blanditiis",
+    "Rank": 466,
+    "Type": "fugit",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Swift-Cummings",
-        "ToolTip": "Qui aut possimus cupiditate similique et.",
+        "Id": 595,
+        "Name": "Welch Inc and Sons",
+        "ToolTip": "Recusandae dicta quia placeat perferendis mollitia.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "et",
+        "Rank": 379,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "animi",
-        "ColorBlock": 807,
-        "ExtraInfo": "impedit",
-        "StyleHint": "ipsam",
-        "FullName": "Julia Norwood Osinski DDS",
+        "IconHint": "et",
+        "ColorBlock": 741,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "totam",
+        "FullName": "Dr. Luisa Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 815
+            "FieldLength": 937
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 642,
-    "ExtraInfo": "natus",
-    "StyleHint": "quia",
-    "FullName": "Edyth Dach",
+    "IconHint": "incidunt",
+    "ColorBlock": 135,
+    "ExtraInfo": "qui",
+    "StyleHint": "voluptatem",
+    "FullName": "Crystal Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldType": "System.String",
+        "FieldLength": 429
       }
     }
   }

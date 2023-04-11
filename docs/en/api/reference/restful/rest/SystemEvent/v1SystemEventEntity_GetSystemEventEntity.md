@@ -71,8 +71,8 @@ SystemEventEntity found.
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -81,7 +81,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 657,
+  "SystemEventId": 881,
   "Scope": "Database",
-  "Eta": "1997-10-06T12:15:27.4066296+02:00",
-  "Eventkey": "hic",
-  "Eventmess": "fugit",
-  "ExtraInfo": 869,
-  "Owner": 246,
-  "UpdatedCount": 534,
-  "Registered": "2003-03-12T12:15:27.4066296+01:00",
+  "Eta": "2011-08-23T15:29:30.6304954+02:00",
+  "Eventkey": "magni",
+  "Eventmess": "unde",
+  "ExtraInfo": 11,
+  "Owner": 587,
+  "UpdatedCount": 259,
+  "Registered": "2020-02-21T15:29:30.6304954+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   },
   "_Links": {

@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,8 +24,10 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IViewStateAgent
 * [GetHistoriesByNamesAndIds](gethistoriesbynamesandids.md)
 * [GetHistory](gethistory.md)
 * [GetHistoryLengthPrefValue](gethistorylengthprefvalue.md)
+* [GetLiveUiConfig](getliveuiconfig.md)
 * [GetNextCurrent](getnextcurrent.md)
 * [GetPreviousCurrent](getpreviouscurrent.md)
+* [PublishAndRetrieveUiEvents](publishandretrieveuievents.md)
 * [SaveCurrent](savecurrent.md)
 * [SaveCurrents](savecurrents.md)
 * [SaveHistories](savehistories.md)

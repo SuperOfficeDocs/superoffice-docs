@@ -71,8 +71,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sawayn, Goldner and Harber"
+  "ApplicationName": "Lowe, Stoltenberg and Nienow"
 }
 ```
 
@@ -96,21 +96,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 28,
-    "Name": "Schmeler-Kuhn",
-    "CreatedDate": "2000-12-01T12:15:19.1517506+01:00",
-    "UpdatedDate": "2013-07-22T12:15:19.1517506+02:00",
-    "AssociateFullName": "Claudine Fahey",
-    "CreatedBy": "sed",
-    "UpdatedBy": "voluptatem",
-    "DeviceIdentifier": "tenetur",
-    "ForeignAppId": 441,
+    "ForeignDeviceId": 759,
+    "Name": "Boehm-Lehner",
+    "CreatedDate": "2005-09-14T15:29:21.9153074+02:00",
+    "UpdatedDate": "2008-12-31T15:29:21.9153074+01:00",
+    "AssociateFullName": "Jess Nader",
+    "CreatedBy": "consequatur",
+    "UpdatedBy": "nihil",
+    "DeviceIdentifier": "recusandae",
+    "ForeignAppId": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 982
+        "FieldType": "System.Int32",
+        "FieldLength": 597
       }
     }
   }

@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,8 +98,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    694,
-    97
+    73,
+    179
   ]
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 170,
-    "Name": "Raynor-Lebsack",
-    "AssociateId": 909,
-    "DetailsTable": 663,
-    "DetailsRecord": 152,
+    "Id": 956,
+    "Name": "Kutch-Douglas",
+    "AssociateId": 391,
+    "DetailsTable": 385,
+    "DetailsRecord": 779,
     "IsSystemTask": true,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "nostrum"
+      "ParameterObject1": "qui",
+      "ParameterObject2": "dolores"
     },
-    "LastStarted": "2012-11-09T12:15:18.203765+01:00",
-    "Created": "2019-12-08T12:15:18.203765+01:00",
-    "StartCount": 505,
-    "DatabaseSerialNumber": "1375390",
-    "Context": "sunt",
-    "Result": "consequuntur",
+    "LastStarted": "2021-09-13T15:29:20.8212888+02:00",
+    "Created": "1999-11-07T15:29:20.8212888+01:00",
+    "StartCount": 728,
+    "DatabaseSerialNumber": "760590",
+    "Context": "aut",
+    "Result": "sit",
     "State": "All",
-    "Description": "Enterprise-wide cohesive forecast",
-    "Response": "laboriosam",
-    "Request": "magnam",
-    "ProgressDescription": "Team-oriented motivating implementation",
-    "ProgressPercent": 895,
-    "FileName": "Ebert LLC",
+    "Description": "Advanced solution-oriented interface",
+    "Response": "ea",
+    "Request": "quis",
+    "ProgressDescription": "Multi-lateral holistic complexity",
+    "ProgressPercent": 81,
+    "FileName": "Funk-Labadie",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 102
       }
     }
   }

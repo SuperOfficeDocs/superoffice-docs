@@ -60,7 +60,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,8 +77,8 @@ OK
 | CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,22 +90,22 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 650,
-  "Name": "Heathcote, Gorczany and Christiansen",
-  "Description": "Streamlined even-keeled emulation",
-  "DeltaJson": "magnam",
+  "ConfigurableScreenDeltaId": 265,
+  "Name": "Hudson Group",
+  "Description": "Cross-platform user-facing Graphical User Interface",
+  "DeltaJson": "quaerat",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "deleniti",
-  "UpdatedDate": "1996-01-29T12:15:18.4117594+01:00",
-  "CreatedDate": "2022-12-11T12:15:18.4117594+01:00",
+  "RecipeId": "debitis",
+  "UpdatedDate": "2009-03-25T15:29:21.0247866+01:00",
+  "CreatedDate": "2004-12-06T15:29:21.0247866+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    331,
-    405
+    995,
+    577
   ],
-  "AppliesToKey": "recusandae"
+  "AppliesToKey": "ab"
 }
 ```
 
@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 31,
-  "Name": "Bahringer, Glover and Schoen",
-  "Description": "User-friendly zero administration approach",
-  "DeltaJson": "consequatur",
+  "ConfigurableScreenDeltaId": 275,
+  "Name": "Crona LLC",
+  "Description": "Diverse uniform extranet",
+  "DeltaJson": "quidem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sit",
-  "UpdatedDate": "2014-02-19T12:15:18.4127596+01:00",
-  "CreatedDate": "1999-08-27T12:15:18.4127596+02:00",
+  "RecipeId": "optio",
+  "UpdatedDate": "1996-04-28T15:29:21.0262858+02:00",
+  "CreatedDate": "1996-05-11T15:29:21.0262858+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    676,
-    163
+    607,
+    582
   ],
-  "AppliesToKey": "expedita",
+  "AppliesToKey": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 595
     }
   }
 }

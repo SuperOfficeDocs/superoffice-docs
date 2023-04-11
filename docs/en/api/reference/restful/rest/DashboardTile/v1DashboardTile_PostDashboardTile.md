@@ -91,8 +91,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -105,42 +105,42 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 795,
-  "Caption": "ab",
-  "Description": "Profound neutral model",
-  "ChartName": "Runolfsdottir-Bahringer",
-  "ChartId": "eum",
-  "IsDefault": true,
-  "AssociateId": 168,
-  "GroupId": 929,
-  "SelectionId": 979,
-  "Config": "velit",
+  "DashboardTileId": 747,
+  "Caption": "in",
+  "Description": "Re-engineered secondary alliance",
+  "ChartName": "Oberbrunner-Kozey",
+  "ChartId": "voluptatum",
+  "IsDefault": false,
+  "AssociateId": 679,
+  "GroupId": 250,
+  "SelectionId": 826,
+  "Config": "voluptatum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Olson, Smitham and Casper",
-      "Description": "Front-line local emulation",
+      "Name": "Hermiston Inc and Sons",
+      "Description": "Upgradable stable open system",
       "Type": "Boolean",
-      "ListName": "Hilpert-McLaughlin",
+      "ListName": "Hessel-Rogahn",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eveniet",
+      "Value": "officiis",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 256,
+      "VisibleId": 513,
       "Visibility": "All",
-      "DisplayValue": "aspernatur"
+      "DisplayValue": "dolorum"
     },
     {
-      "VisibleId": 256,
+      "VisibleId": 513,
       "Visibility": "All",
-      "DisplayValue": "aspernatur"
+      "DisplayValue": "dolorum"
     }
   ]
 }
@@ -153,64 +153,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 382,
-  "Caption": "natus",
-  "Description": "Function-based 3rd generation customer loyalty",
-  "ChartName": "Botsford-Goodwin",
-  "ChartId": "nam",
-  "IsDefault": false,
-  "AssociateId": 139,
-  "GroupId": 863,
-  "SelectionId": 800,
-  "Config": "omnis",
+  "DashboardTileId": 215,
+  "Caption": "voluptas",
+  "Description": "Re-engineered transitional analyzer",
+  "ChartName": "Greenholt, Schowalter and Kreiger",
+  "ChartId": "nostrum",
+  "IsDefault": true,
+  "AssociateId": 804,
+  "GroupId": 575,
+  "SelectionId": 788,
+  "Config": "occaecati",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wiegand-Boyle",
-      "Description": "Down-sized directional challenge",
+      "Name": "Wuckert Inc and Sons",
+      "Description": "Proactive secondary installation",
       "Type": "Boolean",
-      "ListName": "Kunze LLC",
+      "ListName": "Thompson LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "velit",
+      "Value": "id",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 196
+          "FieldLength": 141
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 599,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldType": "System.String",
+          "FieldLength": 267
         }
       }
     },
     {
-      "VisibleId": 599,
+      "VisibleId": 401,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldType": "System.String",
+          "FieldLength": 267
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 132
     }
   },
   "_Links": {

@@ -87,8 +87,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,7 +100,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 872,
-    "Name": "Rowe Group",
-    "Tooltip": "consequatur",
-    "SaveInDb": 496,
-    "Filename": "eveniet",
-    "DefaultOref": "eligendi",
+    "DocumentTemplateId": 936,
+    "Name": "Bruen LLC",
+    "Tooltip": "illum",
+    "SaveInDb": 397,
+    "Filename": "fugit",
+    "DefaultOref": "ducimus",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 977,
-    "IntentId": 66,
+    "AutoeventId": 27,
+    "IntentId": 978,
     "IsDefaultPublished": false,
-    "Rank": 189,
-    "LoadTemplateFromPlugin": 928,
-    "MimeType": "dolor",
+    "Rank": 215,
+    "LoadTemplateFromPlugin": 219,
+    "MimeType": "ipsa",
     "IsInUseInGuides": true,
-    "DocumentTypeKey": 92,
+    "DocumentTypeKey": 719,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "santa@oconnellweissnat.uk",
+    "EmailSubject": "otto@gislason.co.uk",
     "IncludeSignature": false,
-    "ShowCurrents": true,
+    "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "doyle.koelpin@starkpadberg.us",
+    "SenderEmailAddress": "mertie.gaylord@hamill.biz",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 504
       }
     }
   }

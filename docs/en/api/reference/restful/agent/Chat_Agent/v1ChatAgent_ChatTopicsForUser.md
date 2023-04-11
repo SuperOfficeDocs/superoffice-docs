@@ -87,8 +87,8 @@ OK
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 681,
-    "Name": "Reilly Group",
-    "Description": "Configurable incremental parallelism",
-    "WelcomeMessage": "minima",
+    "ChatTopicId": 927,
+    "Name": "Sawayn-Auer",
+    "Description": "Fully-configurable upward-trending application",
+    "WelcomeMessage": "officiis",
     "Language": null,
-    "LastAccept": "2021-09-12T12:15:18.3837639+02:00",
-    "SecondsPrAccept": 369,
-    "AlertRecipient": "quam",
+    "LastAccept": "2014-07-11T15:29:21.0022862+02:00",
+    "SecondsPrAccept": 694,
+    "AlertRecipient": "ipsum",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "harum",
+    "CollectConsent": false,
+    "BadgeHeader": "consequatur",
     "CustomQueueTextEnabled": true,
-    "CustomQueueText": "quasi",
-    "WarnNewChatMinutes": 366,
-    "WarnManagerNewChatMinutes": 803,
+    "CustomQueueText": "numquam",
+    "WarnNewChatMinutes": 360,
+    "WarnManagerNewChatMinutes": 522,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 863,
-    "WarnManagerChatMessageMinutes": 445,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 95,
-    "OfflineFormQueueLength": 982,
+    "WarnChatMessageMinutes": 574,
+    "WarnManagerChatMessageMinutes": 770,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 121,
+    "OfflineFormQueueLength": 929,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "molestias",
+    "WidgetRatingText": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 120
       }
     }
   }

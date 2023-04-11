@@ -77,8 +77,8 @@ OK
 | DocumentMessageId | int32 | If a document was used as the message this is the document ID. |
 | Opened | date-time | Date/time the customer read the mailing. |
 | LinkClicks | int32 | The number of links clicked in the mailing. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 104
+  "ShipmentAddrId": 161
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2014-09-14T12:15:19.3717456+02:00",
+  "SendingTime": "2006-07-06T15:29:22.1332708+02:00",
   "Status": "Blocked",
-  "ShipmentId": 573,
-  "ShipmentDescription": "Customizable tangible Graphical User Interface",
-  "FromAddress": "qui",
-  "ContactId": 422,
-  "ContactName": "Padberg, Buckridge and Cummings",
-  "PersonId": 748,
-  "PersonFullName": "Anabel Fay",
-  "ShipmentType": "ratione",
-  "MessageId": 615,
-  "MessageSubject": "suscipit",
-  "DocumentMessageId": 912,
-  "Opened": "2001-09-21T12:15:19.3717456+02:00",
-  "LinkClicks": 885,
+  "ShipmentId": 343,
+  "ShipmentDescription": "Function-based intangible infrastructure",
+  "FromAddress": "provident",
+  "ContactId": 217,
+  "ContactName": "Boehm Group",
+  "PersonId": 932,
+  "PersonFullName": "Randal Patrick Hoppe PhD",
+  "ShipmentType": "maxime",
+  "MessageId": 170,
+  "MessageSubject": "sit",
+  "DocumentMessageId": 902,
+  "Opened": "2020-03-11T15:29:22.1337709+01:00",
+  "LinkClicks": 419,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 434
+      "FieldLength": 382
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=606
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=744
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -65,8 +65,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 294,
-  "Name": "Rath, Hudson and Bergnaum",
-  "CreatedDate": "2002-02-27T12:15:19.1667492+01:00",
-  "UpdatedDate": "2016-02-08T12:15:19.1667492+01:00",
-  "AssociateFullName": "Reid Gutmann I",
-  "CreatedBy": "aliquid",
+  "ForeignDeviceId": 698,
+  "Name": "Harber LLC",
+  "CreatedDate": "2020-10-26T15:29:21.9263094+01:00",
+  "UpdatedDate": "1995-12-27T15:29:21.9263094+01:00",
+  "AssociateFullName": "Aiyana Leuschke",
+  "CreatedBy": "aperiam",
   "UpdatedBy": "eaque",
-  "DeviceIdentifier": "sint",
-  "ForeignAppId": 453,
+  "DeviceIdentifier": "explicabo",
+  "ForeignAppId": 628,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 649
     }
   }
 }

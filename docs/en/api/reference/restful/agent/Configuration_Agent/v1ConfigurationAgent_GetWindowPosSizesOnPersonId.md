@@ -73,8 +73,8 @@ OK
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 381
+  "PersonId": 42
 }
 ```
 
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "nostrum",
-    "PersonId": 300,
-    "AssociateId": 191,
-    "ExtraId": 154,
-    "ExtraInfo": "minus",
-    "Height": 664,
-    "LeftX": 565,
+    "OwnerWindow": "dolor",
+    "PersonId": 945,
+    "AssociateId": 543,
+    "ExtraId": 497,
+    "ExtraInfo": "id",
+    "Height": 996,
+    "LeftX": 309,
     "State": "Maximized",
-    "UpperY": 864,
-    "Width": 581,
-    "WindowPosSizeId": 392,
+    "UpperY": 681,
+    "Width": 640,
+    "WindowPosSizeId": 313,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldType": "System.String",
+        "FieldLength": 363
       }
     }
   }

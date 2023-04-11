@@ -25,7 +25,7 @@ Gets a LanguageInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=14
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=969
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
 
@@ -63,8 +63,8 @@ OK
 | ThreeLetterISOLanguageName | string | ISO 3-letter abbreviation |
 | TwoLetterISOLanguageName | string | ISO 2-letter abbreviation |
 | IsBuiltIn | bool | Has this row been inserted by SuperOffice priming data |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 565,
-  "LCID": 561,
-  "EnglishName": "Fritsch-Crona",
-  "NativeName": "Kutch LLC",
-  "ThreeLetterISOLanguageName": "Morar-Kuhic",
-  "TwoLetterISOLanguageName": "Wisoky-Wiza",
+  "LanguageInfoId": 611,
+  "LCID": 268,
+  "EnglishName": "Jacobi-Leffler",
+  "NativeName": "Prosacco Inc and Sons",
+  "ThreeLetterISOLanguageName": "Prohaska, Goyette and Hartmann",
+  "TwoLetterISOLanguageName": "Rolfson-Brown",
   "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldType": "System.String",
+      "FieldLength": 170
     }
   }
 }

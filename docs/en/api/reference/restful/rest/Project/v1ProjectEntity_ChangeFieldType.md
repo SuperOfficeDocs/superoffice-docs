@@ -29,7 +29,7 @@ Change a ProjectEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -94,8 +94,8 @@ ProjectEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -113,46 +113,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 175,
-  "ColumnId": 695,
-  "FieldDefault": "sit",
-  "FieldHeight": 916,
-  "FieldLabel": "excepturi",
-  "FieldLeft": 899,
-  "FieldTop": 192,
+  "UDefFieldId": 36,
+  "ColumnId": 534,
+  "FieldDefault": "omnis",
+  "FieldHeight": 223,
+  "FieldLabel": "sequi",
+  "FieldLeft": 910,
+  "FieldTop": 480,
   "FieldType": "Checkbox",
-  "FieldWidth": 668,
-  "FormatMask": "labore",
-  "HideLabel": true,
+  "FieldWidth": 277,
+  "FormatMask": "et",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 501,
-  "LabelLeft": 431,
-  "LabelTop": 431,
-  "LabelWidth": 756,
-  "LastVersionId": 685,
-  "ListTableId": 863,
+  "LabelHeight": 588,
+  "LabelLeft": 163,
+  "LabelTop": 499,
+  "LabelWidth": 714,
+  "LastVersionId": 568,
+  "ListTableId": 494,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 773,
-  "ProgId": "molestiae",
+  "Page1LineNo": 599,
+  "ProgId": "ea",
   "IsReadOnly": true,
-  "ShortLabel": "eveniet",
-  "TabOrder": 886,
-  "TextLength": 242,
-  "Tooltip": "est",
-  "UdefIdentity": 112,
-  "UDListDefinitionId": 352,
+  "ShortLabel": "veritatis",
+  "TabOrder": 87,
+  "TextLength": 266,
+  "Tooltip": "aut",
+  "UdefIdentity": 53,
+  "UDListDefinitionId": 315,
   "Justification": "Center",
-  "Version": 481,
-  "TemplateVariableName": "Heller-O'Hara",
+  "Version": 529,
+  "TemplateVariableName": "Shanahan-Ryan",
   "HasBeenPublished": false,
-  "MdoListName": "Lockman, Willms and Larkin",
+  "MdoListName": "Sauer, Kreiger and Olson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldLength": 630
     }
   }
 }

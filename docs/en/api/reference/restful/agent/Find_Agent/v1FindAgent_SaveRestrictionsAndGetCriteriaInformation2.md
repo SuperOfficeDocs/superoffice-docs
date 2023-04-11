@@ -72,8 +72,8 @@ OK
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "enim",
-  "ProviderName": "Nienow LLC",
-  "StorageKey": "sunt",
-  "Restrictions": "a",
-  "StaticColumns": "quia"
+  "StorageType": "in",
+  "ProviderName": "Romaguera, Connelly and Harris",
+  "StorageKey": "reiciendis",
+  "Restrictions": "qui",
+  "StaticColumns": "voluptas"
 }
 ```
 
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ledner Group",
-      "Operator": "ut",
+      "Name": "Murray Group",
+      "Operator": "explicabo",
       "Values": [
-        "reprehenderit",
-        "labore"
+        "aut",
+        "placeat"
       ],
       "DisplayValues": [
-        "dicta",
-        "ratione"
+        "dolores",
+        "perferendis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -118,65 +118,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 117,
+      "InterParenthesis": 294,
       "InterOperator": "And",
-      "UniqueHash": 312
+      "UniqueHash": 852
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Labadie-Mertz",
-      "DisplayTooltip": "molestiae",
-      "DisplayType": "alias",
-      "CanOrderBy": true,
-      "Name": "Simonis Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Rippin, Hackett and Rowe",
-      "IsVisible": false,
-      "ExtraInfo": "esse",
-      "Width": "expedita",
-      "IconHint": "doloremque",
-      "HeadingIconHint": "temporibus"
+      "DisplayName": "Kunde LLC",
+      "DisplayTooltip": "hic",
+      "DisplayType": "consequatur",
+      "CanOrderBy": false,
+      "Name": "Mayert-Considine",
+      "CanRestrictBy": true,
+      "RestrictionType": "ea",
+      "RestrictionListName": "Boyer Group",
+      "IsVisible": true,
+      "ExtraInfo": "velit",
+      "Width": "ut",
+      "IconHint": "voluptates",
+      "HeadingIconHint": "laboriosam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Lind-Schmeler",
-      "PrimaryKey": 429,
+      "EntityName": "Treutel LLC",
+      "PrimaryKey": 120,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusantium",
-          "TooltipHint": "vel",
-          "LinkHint": "expedita"
+          "DisplayValue": "in",
+          "TooltipHint": "quia",
+          "LinkHint": "alias"
         }
       },
-      "LinkHint": "nihil",
-      "StyleHint": "veniam",
+      "LinkHint": "earum",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 900
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Windler Group",
-      "Description": "Stand-alone demand-driven software",
-      "Rank": 59,
+      "Name": "Emard-Lind",
+      "Description": "Fundamental bi-directional extranet",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Windler Group",
-      "Description": "Stand-alone demand-driven software",
-      "Rank": 59,
+      "Name": "Emard-Lind",
+      "Description": "Fundamental bi-directional extranet",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 554
     }
   }
 }

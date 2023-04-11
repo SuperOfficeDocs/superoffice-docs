@@ -108,8 +108,8 @@ ShipmentMessageEntity updated.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -118,31 +118,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 968,
-  "PlainMessage": "minima",
-  "HtmlMessage": "nostrum",
-  "SmsMessage": "ab",
-  "Description": "Fully-configurable attitude-oriented utilisation",
-  "Subject": "neque",
-  "FolderId": 676,
-  "HeaderField": "incidunt",
-  "Design": "consequatur",
+  "ShipmentMessageId": 133,
+  "PlainMessage": "quasi",
+  "HtmlMessage": "nobis",
+  "SmsMessage": "officiis",
+  "Description": "Organized dedicated system engine",
+  "Subject": "dolorem",
+  "FolderId": 629,
+  "HeaderField": "expedita",
+  "Design": "quaerat",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Implemented eco-centric toolset",
-  "AccessKey": "in",
-  "DocumentMessage": 414,
-  "Registered": "2016-07-13T12:15:27.4006306+02:00",
-  "RegisteredAssociateId": 618,
-  "Updated": "2023-01-01T12:15:27.4006306+01:00",
-  "UpdatedAssociateId": 826,
-  "UpdatedCount": 625
+  "LongDescription": "Integrated logistical process improvement",
+  "AccessKey": "esse",
+  "DocumentMessage": 561,
+  "Registered": "2010-12-03T15:29:30.6244873+01:00",
+  "RegisteredAssociateId": 139,
+  "Updated": "1997-09-24T15:29:30.6244873+02:00",
+  "UpdatedAssociateId": 732,
+  "UpdatedCount": 829
 }
 ```
 
@@ -153,38 +153,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 625,
-  "PlainMessage": "et",
-  "HtmlMessage": "sequi",
-  "SmsMessage": "quas",
-  "Description": "Diverse bi-directional leverage",
-  "Subject": "veritatis",
-  "FolderId": 218,
-  "HeaderField": "molestiae",
-  "Design": "illum",
+  "ShipmentMessageId": 320,
+  "PlainMessage": "saepe",
+  "HtmlMessage": "ullam",
+  "SmsMessage": "sequi",
+  "Description": "De-engineered zero defect workforce",
+  "Subject": "ad",
+  "FolderId": 490,
+  "HeaderField": "omnis",
+  "Design": "dignissimos",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Fundamental multimedia encoding",
-  "AccessKey": "tenetur",
-  "DocumentMessage": 475,
-  "Registered": "2013-01-22T12:15:27.4016314+01:00",
-  "RegisteredAssociateId": 284,
-  "Updated": "2006-05-12T12:15:27.4016314+02:00",
-  "UpdatedAssociateId": 715,
-  "UpdatedCount": 858,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Assimilated bi-directional capability",
+  "AccessKey": "eligendi",
+  "DocumentMessage": 430,
+  "Registered": "2019-11-08T15:29:30.6249872+01:00",
+  "RegisteredAssociateId": 221,
+  "Updated": "2012-10-13T15:29:30.6249872+02:00",
+  "UpdatedAssociateId": 925,
+  "UpdatedCount": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 2
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -70,14 +70,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 909,
-  "TemplateName": "Hoeger, Tromp and Harvey",
-  "UseContacts": false,
-  "OrderBy": "ut"
+  "SelectionId": 453,
+  "TemplateName": "Stanton LLC",
+  "UseContacts": true,
+  "OrderBy": "qui"
 }
 ```
 

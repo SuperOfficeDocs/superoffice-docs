@@ -100,8 +100,8 @@ AppointmentEntity found.
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -119,61 +119,61 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 236,
-  "StartDate": "2004-10-14T12:15:26.3426521+02:00",
-  "EndDate": "1997-11-16T12:15:26.3426521+01:00",
+  "AppointmentId": 340,
+  "StartDate": "2019-08-10T15:29:29.2402059+02:00",
+  "EndDate": "2000-05-10T15:29:29.2402059+02:00",
   "Type": "BookingForChecklist",
-  "Task": "libero",
-  "AssociateFullName": "Vada Schmitt",
-  "ContactName": "Kulas, Stehr and Emard",
-  "Description": "Enhanced directional groupware",
-  "PersonFullName": "Adalberto Keeling",
-  "PersonId": 1002,
-  "ContactId": 998,
-  "ProjectId": 342,
-  "ProjectName": "McClure Inc and Sons",
+  "Task": "distinctio",
+  "AssociateFullName": "Jacquelyn Kenyon Koepp I",
+  "ContactName": "Glover Inc and Sons",
+  "Description": "Reduced 24/7 protocol",
+  "PersonFullName": "Sadye Anderson",
+  "PersonId": 217,
+  "ContactId": 271,
+  "ProjectId": 561,
+  "ProjectName": "Fadel LLC",
   "IsPublished": false,
-  "AssociateId": 771,
-  "ColorIndex": 455,
-  "IsFree": false,
-  "HasAlarm": false,
+  "AssociateId": 4,
+  "ColorIndex": 389,
+  "IsFree": true,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 223,
-  "PriorityName": "Fadel, King and Jacobson",
+  "PriorityId": 366,
+  "PriorityName": "Armstrong-Dibbert",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2017-01-04T12:15:26.3426521+01:00",
+  "ActiveDate": "2013-08-13T15:29:29.2417059+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1996-07-07T12:15:26.3426521+02:00",
-  "RecurringEndDate": "2017-07-30T12:15:26.3426521+02:00",
-  "MotherId": 661,
-  "AssignedBy": 29,
-  "AssignedByFullName": "Prof. Wava Franecki DVM",
-  "RejectReason": "",
-  "Location": "nihil",
-  "AlarmLeadTime": "quis",
-  "SaleId": 499,
-  "SaleName": "Corkery-Sanford",
-  "AssociateName": "Schmidt-Kovacek",
-  "CreatedDate": "2017-04-24T12:15:26.3426521+02:00",
-  "CreatedBy": "a",
-  "CreatedByFullName": "Dagmar Adrain Gibson MD",
-  "CreatedByAssociateId": 726,
+  "RecurringStartDate": "2019-06-08T15:29:29.2417059+02:00",
+  "RecurringEndDate": "2008-05-29T15:29:29.2417059+02:00",
+  "MotherId": 589,
+  "AssignedBy": 335,
+  "AssignedByFullName": "Luisa Gutkowski",
+  "RejectReason": "extend strategic markets",
+  "Location": "numquam",
+  "AlarmLeadTime": "expedita",
+  "SaleId": 700,
+  "SaleName": "Bode Group",
+  "AssociateName": "Strosin Inc and Sons",
+  "CreatedDate": "1997-08-28T15:29:29.2417059+02:00",
+  "CreatedBy": "est",
+  "CreatedByFullName": "Brennan Gleichner",
+  "CreatedByAssociateId": 750,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldType": "System.Int32",
+      "FieldLength": 742
     }
   }
 }

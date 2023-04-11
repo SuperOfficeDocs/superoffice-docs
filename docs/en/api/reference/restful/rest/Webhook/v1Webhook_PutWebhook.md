@@ -102,30 +102,30 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 597,
-  "Name": "Friesen, Ferry and Hills",
+  "WebhookId": 966,
+  "Name": "Gulgowski Inc and Sons",
   "Events": [
-    "provident",
-    "impedit"
+    "quis",
+    "fugit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ab",
+  "Secret": "iusto",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "quas",
   "Headers": {
-    "Headers1": "doloribus",
-    "Headers2": "autem"
+    "Headers1": "sint",
+    "Headers2": "soluta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-08-30T12:15:27.8146258+02:00",
+  "Registered": "2016-12-17T15:29:31.0204472+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-11-26T12:15:27.8156292+01:00",
+  "Updated": "2007-07-15T15:29:31.0209471+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -137,26 +137,26 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 168,
-  "Name": "Kozey-Stokes",
+  "WebhookId": 652,
+  "Name": "Swift LLC",
   "Events": [
-    "repellat",
-    "cum"
+    "magnam",
+    "rerum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "accusantium",
+  "Secret": "commodi",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "pariatur",
-    "Headers2": "nostrum"
+    "Headers1": "nihil",
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-01-11T12:15:27.8166233+01:00",
+  "Registered": "2010-02-07T15:29:31.0229469+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-08-02T12:15:27.8166233+02:00",
+  "Updated": "2014-12-28T15:29:31.0234471+01:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

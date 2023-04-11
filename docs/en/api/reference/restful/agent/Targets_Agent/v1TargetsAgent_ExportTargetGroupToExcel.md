@@ -65,8 +65,8 @@ OK
 | BatchTaskId | int32 | Id of the BatchTask created. &lt;=0 if no BatchTask was created. |
 | FileName | string | The path to the output file created, if it exists. Will be an empty string if no file was created. |
 | Message | string | Descriptive messages; errors, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 854
+  "TargetGroupId": 681
 }
 ```
 
@@ -89,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 70,
-  "FileName": "Pouros, Grant and Ziemann",
-  "Message": "illo",
+  "BatchTaskId": 188,
+  "FileName": "Feest-Schowalter",
+  "Message": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldLength": 667
     }
   }
 }

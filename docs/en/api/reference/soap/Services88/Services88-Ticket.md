@@ -51,6 +51,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="AttSize" type="xs:int" />
               <xs:element minOccurs="0" name="InlineImage" type="xs:boolean" />
               <xs:element minOccurs="0" name="ContentId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AuthKey" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -780,6 +781,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedBy" type="xs:int" />
               <xs:element minOccurs="0" name="ChangedAt" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Badge" type="tns:BadgeType" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -826,6 +828,22 @@ title: Services88.TicketAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="MessageHeaderStdItemCol" nillable="true" type="tns:MessageHeaderStdItemCol" />
+      <xs:simpleType name="BadgeType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Reply" />
+          <xs:enumeration value="Forward" />
+          <xs:enumeration value="Comment" />
+          <xs:enumeration value="Incoming" />
+          <xs:enumeration value="Outgoing" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="BadgeType" nillable="true" type="tns:BadgeType" />
       <xs:complexType name="ArrayOfTag">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="Tag" nillable="true" type="tns:Tag" />
@@ -988,6 +1006,7 @@ title: Services88.TicketAgent WSDL
               <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Sentiment" type="xs:int" />
               <xs:element minOccurs="0" name="SentimentConfidence" type="xs:int" />
+              <xs:element minOccurs="0" name="Badge" type="tns:BadgeType" />
               <xs:element minOccurs="0" name="AttachmentsInfo" nillable="true" type="tns:ArrayOfAttachmentEntity" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
@@ -1883,6 +1902,7 @@ title: Services88.TicketAgent WSDL
             <xs:element minOccurs="0" name="Entity" nillable="true" type="tns:TicketMessageEntity" />
             <xs:element minOccurs="0" name="Notify" type="xs:boolean" />
             <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q31:ArrayOfint" xmlns:q31="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="UpdateRepliedAt" type="xs:boolean" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

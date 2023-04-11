@@ -25,7 +25,7 @@ Gets a SystemEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=255
+POST /api/v1/Agents/Configuration/GetSystemEventEntity?systemEventEntityId=953
 POST /api/v1/Agents/Configuration/GetSystemEventEntity?$select=name,department,category/id
 ```
 
@@ -66,8 +66,8 @@ OK
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 980,
+  "SystemEventId": 959,
   "Scope": "Database",
-  "Eta": "2020-03-10T12:15:18.4347594+01:00",
-  "Eventkey": "ut",
-  "Eventmess": "enim",
-  "ExtraInfo": 568,
-  "Owner": 331,
-  "UpdatedCount": 385,
-  "Registered": "2005-02-17T12:15:18.4347594+01:00",
+  "Eta": "1997-12-15T15:29:21.0507863+01:00",
+  "Eventkey": "ipsam",
+  "Eventmess": "officiis",
+  "ExtraInfo": 647,
+  "Owner": 159,
+  "UpdatedCount": 965,
+  "Registered": "2003-05-29T15:29:21.0507863+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 511
     }
   }
 }

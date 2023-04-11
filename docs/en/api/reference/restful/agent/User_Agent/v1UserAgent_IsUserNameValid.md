@@ -76,10 +76,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 480,
+  "AssociateId": 831,
   "Type": "AnonymousAssociate",
-  "PersonId": 812,
-  "UserName": "Williamson-Blick"
+  "PersonId": 388,
+  "UserName": "Moen-Murray"
 }
 ```
 

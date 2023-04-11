@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Morissette-Spinka",
-  "ResourceValues": "iure",
-  "Culture": "quod",
-  "IsActive": true
+  "ResourceName": "Eichmann-Hackett",
+  "ResourceValues": "in",
+  "Culture": "facere",
+  "IsActive": false
 }
 ```
 

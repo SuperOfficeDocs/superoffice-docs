@@ -54,8 +54,9 @@ OK
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +64,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 835,
-    "Name": "Gleason Group",
-    "ContentType": "distinctio",
-    "AttSize": 689,
-    "InlineImage": true,
-    "ContentId": "aut",
+    "AttachmentId": 57,
+    "Name": "Beatty Inc and Sons",
+    "ContentType": "accusantium",
+    "AttSize": 581,
+    "InlineImage": false,
+    "ContentId": "saepe",
+    "AuthKey": "harum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldType": "System.Int32",
+        "FieldLength": 752
       }
     }
   }

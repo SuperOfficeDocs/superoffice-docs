@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 473,
-    "Name": "Bosco, Hettinger and Bergstrom",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 710,
-    "UdListDefinitionId": 947
+    "HeadingId": 989,
+    "Name": "Bergnaum, Collins and O'Reilly",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 144,
+    "UdListDefinitionId": 357
   },
   {
-    "HeadingId": 473,
-    "Name": "Bosco, Hettinger and Bergstrom",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "Rank": 710,
-    "UdListDefinitionId": 947
+    "HeadingId": 989,
+    "Name": "Bergnaum, Collins and O'Reilly",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 144,
+    "UdListDefinitionId": 357
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 104,
-    "Name": "O'Conner-Jacobi",
-    "Tooltip": "rerum",
+    "HeadingId": 356,
+    "Name": "Kassulke-Blanda",
+    "Tooltip": "unde",
     "Deleted": false,
-    "Rank": 879,
-    "UdListDefinitionId": 713,
+    "Rank": 294,
+    "UdListDefinitionId": 945,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldType": "System.String",
+        "FieldLength": 711
       }
     }
   }

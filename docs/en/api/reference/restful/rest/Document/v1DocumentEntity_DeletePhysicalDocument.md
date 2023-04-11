@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +77,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "pariatur",
-  "VersionId": "ipsam",
-  "Success": false,
+  "ExternalReference": "et",
+  "VersionId": "sit",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "dicta",
-  "AdditionalInfo": "sed"
+  "Value": "quas",
+  "AdditionalInfo": "voluptatem"
 }
 ```

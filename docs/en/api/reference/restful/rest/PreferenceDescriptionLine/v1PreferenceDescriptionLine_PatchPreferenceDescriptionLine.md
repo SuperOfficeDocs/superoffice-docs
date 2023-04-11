@@ -102,8 +102,8 @@ PreferenceDescriptionLine  updated.
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -118,12 +118,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "odit",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "odit",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 983,
-  "PrefDescId": 468,
-  "PrefValue": "explicabo",
-  "PrefShowValue": "veritatis",
-  "Description": "Grass-roots non-volatile projection",
-  "IsBuiltin": false,
+  "PrefDescLineId": 386,
+  "PrefDescId": 614,
+  "PrefValue": "veritatis",
+  "PrefShowValue": "voluptatem",
+  "Description": "Stand-alone content-based productivity",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 272
     }
   },
   "_Links": {

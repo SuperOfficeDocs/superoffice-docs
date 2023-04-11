@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Will Inc and Sons",
-    "ToolTip": "Quia deserunt maxime.",
-    "Deleted": false,
-    "Rank": 289,
-    "Type": "nobis",
-    "ColorBlock": 443,
-    "IconHint": "architecto",
+    "Id": 79,
+    "Name": "Mraz Group",
+    "ToolTip": "Eius necessitatibus quis.",
+    "Deleted": true,
+    "Rank": 281,
+    "Type": "beatae",
+    "ColorBlock": 906,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2012-05-13T12:15:28.4186164+02:00",
+    "LastChanged": "2016-12-05T15:29:31.5304745+01:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "Hyatt Group",
-        "ToolTip": "Perferendis adipisci veniam aliquid earum quia.",
+        "Id": 923,
+        "Name": "Turner-Farrell",
+        "ToolTip": "Ut qui cumque.",
         "Deleted": false,
-        "Rank": 885,
-        "Type": "suscipit",
-        "ColorBlock": 782,
-        "IconHint": "nihil",
+        "Rank": 716,
+        "Type": "mollitia",
+        "ColorBlock": 261,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2009-05-09T12:15:28.4186164+02:00",
+        "LastChanged": "2010-04-26T15:29:31.5304745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Magali Miller",
+        "FullName": "Durward Reichel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 21
+            "FieldType": "System.String",
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "vel",
+    "ExtraInfo": "animi",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Trisha Murray",
+    "FullName": "Shanie Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

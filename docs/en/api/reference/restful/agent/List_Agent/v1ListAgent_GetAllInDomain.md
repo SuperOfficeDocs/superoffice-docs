@@ -73,8 +73,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 353,
+    "HierarchyId": 393,
     "Domain": "Dashboards",
-    "Name": "Windler-Paucek",
-    "Fullname": "quis",
-    "ParentId": 928,
+    "Name": "Baumbach-Padberg",
+    "Fullname": "sit",
+    "ParentId": 6,
     "Children": [
       {
-        "HierarchyId": 709,
+        "HierarchyId": 288,
         "Domain": "Dashboards",
-        "Name": "Hansen-Torphy",
-        "Fullname": "omnis",
-        "ParentId": 64,
+        "Name": "Parker-Ortiz",
+        "Fullname": "consequatur",
+        "ParentId": 592,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2003-02-01T12:15:19.3117468+01:00",
-        "RegisteredAssociateId": 432,
-        "Updated": "2019-01-05T12:15:19.3117468+01:00",
-        "UpdatedAssociateId": 246,
+        "Registered": "2019-05-17T15:29:22.071271+02:00",
+        "RegisteredAssociateId": 796,
+        "Updated": "1998-12-07T15:29:22.071271+01:00",
+        "UpdatedAssociateId": 307,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldLength": 469
           }
         }
       }
     ],
-    "Registered": "2014-02-24T12:15:19.3117468+01:00",
-    "RegisteredAssociateId": 443,
-    "Updated": "2004-10-12T12:15:19.3117468+02:00",
-    "UpdatedAssociateId": 217,
+    "Registered": "2020-01-31T15:29:22.071271+01:00",
+    "RegisteredAssociateId": 724,
+    "Updated": "2020-11-25T15:29:22.071271+01:00",
+    "UpdatedAssociateId": 545,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 367
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

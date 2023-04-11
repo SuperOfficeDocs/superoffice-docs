@@ -102,8 +102,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 165
+  "ProjectId": 594
 }
 ```
 
@@ -127,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quae",
-    "PersonId": 61,
-    "Mrmrs": "vero",
-    "Firstname": "Rafaela",
-    "Lastname": "Reichel",
-    "MiddleName": "Greenfelder-Jakubowski",
-    "Title": "et",
-    "Description": "Diverse next generation initiative",
-    "Email": "berta@mann.us",
-    "FullName": "Oscar Stokes",
-    "DirectPhone": "959.889.8910",
-    "FormalName": "Padberg Group",
-    "CountryId": 854,
-    "ContactId": 658,
-    "ContactName": "Blick, Bernhard and Morar",
-    "Retired": 678,
-    "Rank": 244,
-    "ActiveInterests": 85,
+    "Position": "commodi",
+    "PersonId": 845,
+    "Mrmrs": "ut",
+    "Firstname": "Nelson",
+    "Lastname": "Morar",
+    "MiddleName": "Shields-White",
+    "Title": "odit",
+    "Description": "Sharable maximized ability",
+    "Email": "herbert_walker@purdy.name",
+    "FullName": "Prof. Matilde Cormier",
+    "DirectPhone": "808.988.7117 x5848",
+    "FormalName": "Macejkovic-Kovacek",
+    "CountryId": 547,
+    "ContactId": 343,
+    "ContactName": "O'Connell-Heidenreich",
+    "Retired": 991,
+    "Rank": 649,
+    "ActiveInterests": 551,
     "ContactDepartment": "",
-    "ContactCountryId": 309,
-    "ContactOrgNr": "246928",
-    "FaxPhone": "626.554.8062",
-    "MobilePhone": "793-604-7697",
-    "ContactPhone": "510.267.1591 x877",
-    "AssociateName": "Pfeffer-Block",
-    "AssociateId": 472,
+    "ContactCountryId": 142,
+    "ContactOrgNr": "1017806",
+    "FaxPhone": "026-337-9392 x880",
+    "MobilePhone": "1-786-681-1253 x9405",
+    "ContactPhone": "(404)747-8727",
+    "AssociateName": "Kirlin LLC",
+    "AssociateId": 831,
     "UsePersonAddress": true,
-    "ContactFax": "et",
-    "Kanafname": "aut",
-    "Kanalname": "ipsum",
-    "Post1": "et",
-    "Post2": "numquam",
-    "Post3": "autem",
-    "EmailName": "fanny_spencer@cartwrightferry.uk",
-    "ContactFullName": "Laila Hintz",
-    "ActiveErpLinks": 240,
-    "TicketPriorityId": 444,
-    "SupportLanguageId": 340,
-    "SupportAssociateId": 587,
+    "ContactFax": "dolores",
+    "Kanafname": "porro",
+    "Kanalname": "voluptas",
+    "Post1": "sed",
+    "Post2": "dolorum",
+    "Post3": "voluptatem",
+    "EmailName": "zachariah@cremin.biz",
+    "ContactFullName": "Susana Glover",
+    "ActiveErpLinks": 22,
+    "TicketPriorityId": 282,
+    "SupportLanguageId": 478,
+    "SupportAssociateId": 567,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 620
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

@@ -74,8 +74,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Vandervort Group"
+  "Name": "Keeling-Funk"
 }
 ```
 
@@ -99,50 +99,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Abbott, Bruen and Douglas",
-    "ToolTip": "Natus error.",
-    "Deleted": false,
-    "Rank": 485,
-    "Type": "eos",
+    "Id": 865,
+    "Name": "Kuphal, Flatley and Nienow",
+    "ToolTip": "Impedit asperiores.",
+    "Deleted": true,
+    "Rank": 903,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Schulist, Schroeder and Fritsch",
-        "ToolTip": "Veritatis a nemo reiciendis cumque enim.",
-        "Deleted": false,
-        "Rank": 215,
-        "Type": "reiciendis",
+        "Id": 463,
+        "Name": "Swaniawski, Weber and Hagenes",
+        "ToolTip": "Doloremque error voluptatem reprehenderit.",
+        "Deleted": true,
+        "Rank": 386,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 579,
-        "ExtraInfo": "est",
-        "StyleHint": "cumque",
-        "FullName": "Xander Feeney",
+        "IconHint": "inventore",
+        "ColorBlock": 157,
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "adipisci",
+        "FullName": "Jed Jones",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 636
+            "FieldLength": 838
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 87,
-    "ExtraInfo": "eos",
-    "StyleHint": "excepturi",
-    "FullName": "Jermey Anderson",
+    "IconHint": "laboriosam",
+    "ColorBlock": 270,
+    "ExtraInfo": "nihil",
+    "StyleHint": "officiis",
+    "FullName": "Scot Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 727
       }
     }
   }

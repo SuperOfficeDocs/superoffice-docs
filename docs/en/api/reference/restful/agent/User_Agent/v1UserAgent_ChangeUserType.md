@@ -90,8 +90,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,14 +115,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 665,
-  "Name": "Balistreri, Bogisich and Corwin",
-  "Rank": 91,
-  "Tooltip": "impedit",
+  "AssociateId": 767,
+  "Name": "Windler, Weber and Koepp",
+  "Rank": 536,
+  "Tooltip": "praesentium",
   "LicenseOwners": [
     {
-      "Name": "McGlynn-Lockman",
-      "Description": "Grass-roots modular moderator",
+      "Name": "Dickinson, Hessel and Gleason",
+      "Description": "De-engineered 24 hour adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,14 +135,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 489
         }
       }
     },
     {
-      "Name": "McGlynn-Lockman",
-      "Description": "Grass-roots modular moderator",
+      "Name": "Dickinson, Hessel and Gleason",
+      "Description": "De-engineered 24 hour adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 489
         }
       }
     }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "non",
-      "Tooltip": "laboriosam",
-      "Id": 381,
-      "Rank": 856,
+      "Value": "voluptates",
+      "Tooltip": "aut",
+      "Id": 350,
+      "Rank": 690,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 649
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1998-11-22T12:15:20.5107291+01:00",
-  "Lastlogout": "1998-01-28T12:15:20.5107291+01:00",
-  "EjUserId": 40,
-  "RequestSignature": "voluptatem",
+  "Lastlogin": "2019-02-03T15:29:23.2822546+01:00",
+  "Lastlogout": "2017-08-27T15:29:23.2822546+02:00",
+  "EjUserId": 3,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolorum",
-      "DisplayValue": "blanditiis",
+      "Value": "doloribus",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 327
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolorum",
-      "DisplayValue": "blanditiis",
+      "Value": "doloribus",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 327
         }
       }
     }
   ],
-  "UserName": "Schmeler, Johns and Simonis",
+  "UserName": "Witting, Collins and Jakubowski",
   "TicketCategories": [
     {
-      "Id": 245,
-      "Name": "D'Amore-Rippin",
-      "ToolTip": "Ut ipsa adipisci delectus deserunt impedit consequuntur architecto.",
-      "Deleted": true,
-      "Rank": 738,
-      "Type": "provident",
+      "Id": 554,
+      "Name": "Beier LLC",
+      "ToolTip": "Ut officia voluptatem nisi vel quibusdam occaecati et.",
+      "Deleted": false,
+      "Rank": 528,
+      "Type": "quia",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iure",
-      "ColorBlock": 876,
-      "ExtraInfo": "aliquid",
-      "StyleHint": "ut",
-      "FullName": "Morgan Kovacek",
+      "IconHint": "sed",
+      "ColorBlock": 144,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "et",
+      "FullName": "Randal Terry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 843
         }
       }
     }
   ],
-  "NickName": "Greenfelder-Dibbert",
-  "WaitingForApproval": true,
+  "NickName": "Pollich LLC",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "est",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "vel"
+    "CustomFields1": "omnis",
+    "CustomFields2": "est"
   },
   "PostSaveCommands": [
     {
-      "Name": "Lind, Mante and Greenfelder",
-      "DisplayName": "Lind LLC",
-      "Description": "Optimized user-facing attitude",
-      "ToolTip": "Modi dolores accusantium molestiae occaecati vel totam.",
+      "Name": "Monahan-Torp",
+      "DisplayName": "Bins Inc and Sons",
+      "Description": "Balanced maximized help-desk",
+      "ToolTip": "Et dolor magnam rem ut.",
       "Actions": "Implicit",
-      "ActionData": "explicabo",
+      "ActionData": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 681
+          "FieldLength": 427
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 162
     }
   }
 }

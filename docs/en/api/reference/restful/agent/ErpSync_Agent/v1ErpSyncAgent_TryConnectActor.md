@@ -74,31 +74,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 8,
-  "CrmRecordId": 387,
+  "ErpConnectionId": 801,
+  "CrmRecordId": 759,
   "CrmActorType": "Contact",
   "ErpKey": "est",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Haag, Ziemann and Berge",
-      "CrmFieldKey": "est",
-      "Value": "velit",
-      "DisplayValue": "eum",
+      "DisplayName": "Blanda Inc and Sons",
+      "CrmFieldKey": "corporis",
+      "Value": "ut",
+      "DisplayValue": "soluta",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Haag, Ziemann and Berge",
-      "CrmFieldKey": "est",
-      "Value": "velit",
-      "DisplayValue": "eum",
+      "DisplayName": "Blanda Inc and Sons",
+      "CrmFieldKey": "corporis",
+      "Value": "ut",
+      "DisplayValue": "soluta",
       "SyncToCrm": false,
-      "SyncToErp": true
+      "SyncToErp": false
     }
   ]
 }
@@ -110,5 +110,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

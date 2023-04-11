@@ -101,8 +101,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -118,70 +118,70 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 20 Feb 2017 12:15:26 G2T
+Last-Modified: Fri, 05 Nov 2021 15:29:29 G11T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1996-04-12T12:15:26.2276523+02:00",
-  "AppointmentId": 400,
-  "Description": "Managed well-modulated function",
-  "StartDate": "2010-03-02T12:15:26.2276523+01:00",
-  "EndDate": "2017-11-17T12:15:26.2276523+01:00",
+  "CreatedDate": "2000-03-31T15:29:29.1092079+02:00",
+  "AppointmentId": 229,
+  "Description": "Upgradable incremental projection",
+  "StartDate": "2010-08-25T15:29:29.1092079+02:00",
+  "EndDate": "2018-06-10T15:29:29.1092079+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 734,
+  "MotherId": 864,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-02-20T12:15:26.2306469+01:00",
+  "UpdatedDate": "2021-11-05T15:29:29.1122079+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 931,
+  "ActiveLinks": 820,
   "Links": [
     {
-      "EntityName": "Grady Group",
-      "Id": 544,
-      "Description": "Secured didactic budgetary management",
-      "ExtraInfo": "sint",
-      "LinkId": 37,
+      "EntityName": "Lindgren, Adams and Schinner",
+      "Id": 660,
+      "Description": "Quality-focused disintermediate product",
+      "ExtraInfo": "dolorem",
+      "LinkId": 510,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 103
+          "FieldLength": 289
         }
       }
     }
   ],
-  "AlarmLeadTime": "ratione",
-  "HasAlarm": false,
-  "ColorIndex": 193,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "consectetur",
-  "LeadTime": "aut",
-  "Location": "unde",
-  "RejectCounter": 388,
+  "AlarmLeadTime": "in",
+  "HasAlarm": true,
+  "ColorIndex": 201,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "maxime",
+  "LeadTime": "voluptatem",
+  "Location": "quos",
+  "RejectCounter": 122,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 188,
-      "PersonId": 850,
-      "ContactId": 338,
-      "EmailId": 554,
+      "AssociateId": 223,
+      "PersonId": 255,
+      "ContactId": 918,
+      "EmailId": 155,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 188,
-      "PersonId": 850,
-      "ContactId": 338,
-      "EmailId": 554,
+      "AssociateId": 223,
+      "PersonId": 255,
+      "ContactId": 918,
+      "EmailId": 155,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -189,58 +189,58 @@ Last-Modified: Mon, 20 Feb 2017 12:15:26 G2T
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-12-25T12:15:26.2306469+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-08-19T15:29:29.1127075+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 424,
+  "PreferredTZLocation": 791,
   "Sale": null,
-  "SuggestedAppointmentId": 355,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 234,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "possimus",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Reed Ebert"
+    "SuperOffice:1": "Rosario Moore",
+    "SuperOffice:2": "Natasha Bogan"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "est",
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "2001-07-26T12:15:26.2326528+02:00",
-  "PublishTo": "1997-03-02T12:15:26.2326528+01:00",
-  "PublishFrom": "1999-05-23T12:15:26.2326528+02:00",
+  "PublishEventDate": "1995-11-30T15:29:29.1142081+01:00",
+  "PublishTo": "1996-02-12T15:29:29.1142081+01:00",
+  "PublishFrom": "2009-06-30T15:29:29.1142081+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 141,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 874
         }
       }
     },
     {
-      "VisibleId": 141,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 669
+          "FieldLength": 874
         }
       }
     }
@@ -250,7 +250,7 @@ Last-Modified: Mon, 20 Feb 2017 12:15:26 G2T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 297
+      "FieldLength": 750
     }
   }
 }

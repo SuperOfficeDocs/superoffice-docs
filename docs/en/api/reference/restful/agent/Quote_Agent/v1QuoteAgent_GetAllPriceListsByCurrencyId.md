@@ -75,8 +75,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 607,
-  "CurrencyId": 830
+  "QuoteConnectionId": 767,
+  "CurrencyId": 64
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 382,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 585,
-    "Name": "Stracke, Cartwright and Barrows",
-    "Description": "Monitored non-volatile framework",
-    "Currency": "dignissimos",
-    "CurrencyName": "Yundt, Fisher and Oberbrunner",
-    "ValidFrom": "2000-09-06T12:15:19.949737+02:00",
-    "ValidTo": "2008-05-18T12:15:19.949737+02:00",
+    "PriceListId": 523,
+    "ERPPriceListKey": "non",
+    "QuoteConnectionId": 871,
+    "Name": "Rohan, Leffler and Quitzon",
+    "Description": "Expanded encompassing monitoring",
+    "Currency": "laudantium",
+    "CurrencyName": "Wyman, Wiegand and Hilll",
+    "ValidFrom": "2000-10-24T15:29:22.5747645+02:00",
+    "ValidTo": "2023-03-08T15:29:22.5747645+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldLength": 43
       }
     }
   }

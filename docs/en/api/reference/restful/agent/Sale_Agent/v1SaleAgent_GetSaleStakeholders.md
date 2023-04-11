@@ -81,8 +81,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 460
+  "SaleId": 676
 }
 ```
 
@@ -106,31 +106,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Ryan, Jerde and Nolan",
-    "Comment": "non",
-    "StakeholderRoleId": 696,
-    "CountryId": 848,
-    "PersonId": 729,
-    "EmailDescription": "augusta.lubowitz@smith.name",
-    "EmailId": 95,
-    "EmailAddress": "hermina@kozey.co.uk",
-    "PhoneId": 225,
-    "ContactName": "Murray-Skiles",
-    "ContactId": 470,
-    "SaleId": 455,
-    "Mrmrs": "unde",
-    "Firstname": "Luisa",
-    "MiddleName": "Marquardt-Little",
-    "Lastname": "Hoeger",
-    "SaleStakeholderId": 834,
-    "Rank": 799,
-    "Phone": "980.329.0656",
+    "StakeholderRoleName": "Keeling Inc and Sons",
+    "Comment": "dolorem",
+    "StakeholderRoleId": 758,
+    "CountryId": 472,
+    "PersonId": 785,
+    "EmailDescription": "reginald_bins@huels.co.uk",
+    "EmailId": 962,
+    "EmailAddress": "derrick_price@carroll.us",
+    "PhoneId": 686,
+    "ContactName": "Beer-Renner",
+    "ContactId": 115,
+    "SaleId": 979,
+    "Mrmrs": "natus",
+    "Firstname": "Idella",
+    "MiddleName": "Berge-Harvey",
+    "Lastname": "Heller",
+    "SaleStakeholderId": 955,
+    "Rank": 699,
+    "Phone": "902.786.8659 x6291",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 552
+        "FieldType": "System.String",
+        "FieldLength": 903
       }
     }
   }

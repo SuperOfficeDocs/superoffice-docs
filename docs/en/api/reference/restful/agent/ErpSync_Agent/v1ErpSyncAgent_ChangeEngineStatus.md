@@ -67,8 +67,8 @@ OK
 | IsRunning | bool | Is the engine currently running |
 | StatusMessage | string | Current status message from the engine |
 | Interval | string | The interval for each iteration of the sync engine |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Run": true
+  "Run": false
 }
 ```
 
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "accusamus",
-  "Interval": "quasi",
+  "StatusMessage": "ducimus",
+  "Interval": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldLength": 952
     }
   }
 }

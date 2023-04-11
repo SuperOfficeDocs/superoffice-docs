@@ -64,8 +64,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Powlowski Inc and Sons",
-    "Tooltip": "iste",
+    "Id": 925,
+    "Name": "Grant-Harber",
+    "Tooltip": "facere",
     "Deleted": true,
-    "Rank": 947,
+    "Rank": 701,
     "IsCustomList": true,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "ullam",
-    "InUseByUserDefinedFields": true,
+    "ListType": "iste",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 984
       }
     }
   }

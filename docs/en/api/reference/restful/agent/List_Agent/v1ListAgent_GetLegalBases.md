@@ -60,8 +60,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | Key | string | The key used to uniquely identify this legal base |
 | Deleted | bool | true if the LegalBase is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 724,
-    "Name": "Mills-Littel",
-    "Tooltip": "quisquam",
-    "Rank": 172,
-    "Key": "deserunt",
+    "LegalBaseId": 432,
+    "Name": "Runolfsson, Doyle and Welch",
+    "Tooltip": "velit",
+    "Rank": 355,
+    "Key": "sint",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 927
       }
     }
   }

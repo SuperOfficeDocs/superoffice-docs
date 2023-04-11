@@ -79,8 +79,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,46 +88,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 629,
-  "Caption": "possimus",
-  "Description": "Synergistic fault-tolerant architecture",
-  "ChartName": "Hudson-Welch",
-  "ChartId": "velit",
+  "DashboardTileId": 394,
+  "Caption": "voluptatem",
+  "Description": "Programmable eco-centric methodology",
+  "ChartName": "Donnelly Inc and Sons",
+  "ChartId": "unde",
   "IsDefault": false,
-  "AssociateId": 622,
-  "GroupId": 581,
-  "SelectionId": 744,
-  "Config": "praesentium",
+  "AssociateId": 672,
+  "GroupId": 542,
+  "SelectionId": 947,
+  "Config": "exercitationem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Schaefer LLC",
-      "Description": "User-friendly holistic installation",
+      "Name": "Lindgren Group",
+      "Description": "Networked attitude-oriented success",
       "Type": "Boolean",
-      "ListName": "Jones-Gutkowski",
+      "ListName": "Pollich-Johns",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "recusandae",
-      "DefaultDataOption": true
+      "Value": "voluptatum",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 259,
+      "VisibleId": 294,
       "Visibility": "All",
-      "DisplayValue": "minus"
+      "DisplayValue": "explicabo"
     },
     {
-      "VisibleId": 259,
+      "VisibleId": 294,
       "Visibility": "All",
-      "DisplayValue": "minus"
+      "DisplayValue": "explicabo"
     }
   ]
 }
@@ -140,64 +140,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 32,
-  "Caption": "et",
-  "Description": "Reactive value-added superstructure",
-  "ChartName": "Block-Crooks",
-  "ChartId": "ut",
+  "DashboardTileId": 984,
+  "Caption": "eos",
+  "Description": "Decentralized system-worthy interface",
+  "ChartName": "Lebsack LLC",
+  "ChartId": "magni",
   "IsDefault": false,
-  "AssociateId": 736,
-  "GroupId": 677,
-  "SelectionId": 299,
-  "Config": "nisi",
+  "AssociateId": 595,
+  "GroupId": 29,
+  "SelectionId": 803,
+  "Config": "veniam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Quitzon LLC",
-      "Description": "Ameliorated dynamic service-desk",
+      "Name": "Oberbrunner-Kris",
+      "Description": "Self-enabling multi-tasking moderator",
       "Type": "Boolean",
-      "ListName": "Nader, Marquardt and Rosenbaum",
+      "ListName": "Littel-Connelly",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eum",
+      "Value": "et",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 878
+          "FieldLength": 940
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 37,
+      "VisibleId": 218,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 410
         }
       }
     },
     {
-      "VisibleId": 37,
+      "VisibleId": 218,
       "Visibility": "All",
-      "DisplayValue": "magni",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 410
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 493
     }
   }
 }

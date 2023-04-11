@@ -68,8 +68,8 @@ OK
 |----------------|------|--------------|
 | Date | date-time | Date that this item is valid for; there is exactly one item per date, ordered by date. |
 | ActivityInformation | ActivitySummary | Activity information summary - number of free and busy activities. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2018-03-24T12:15:17.6897703+01:00",
-  "EndDate": "2002-10-20T12:15:17.6897703+02:00",
-  "AssociateId": 703
+  "StartDate": "2004-12-04T15:29:20.4348307+01:00",
+  "EndDate": "1997-02-17T15:29:20.4348307+01:00",
+  "AssociateId": 184
 }
 ```
 
@@ -95,26 +95,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-02-23T12:15:17.6897703+01:00",
+    "Date": "2023-01-19T15:29:20.4348307+01:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 963
       }
     }
   },
   {
-    "Date": "2005-02-23T12:15:17.6897703+01:00",
+    "Date": "2023-01-19T15:29:20.4348307+01:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 963
       }
     }
   }

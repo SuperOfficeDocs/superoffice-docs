@@ -68,8 +68,8 @@ OK
 | AssociateId | int32 | Id of the associate this favourite belongs to. |
 | ExtraInfo | string | Extra information for this favourite. |
 | Rank | int32 | Rank order |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "McClure-Willms",
-  "AssociateId": 457
+  "TableName": "Konopelski-Zulauf",
+  "AssociateId": 193
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Carroll Inc and Sons",
-    "RecordId": 195,
-    "AssociateId": 614,
-    "ExtraInfo": "minima",
-    "Rank": 617,
+    "TableName": "Prohaska, Stark and Turner",
+    "RecordId": 266,
+    "AssociateId": 882,
+    "ExtraInfo": "dolor",
+    "Rank": 501,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

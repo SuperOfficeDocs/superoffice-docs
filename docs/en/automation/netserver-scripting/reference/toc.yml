@@ -912,6 +912,8 @@ items:
     href: diagnosticsagent/getcachenames.md
   - name: GetCacheState
     href: diagnosticsagent/getcachestate.md
+  - name: GetEntityCountsForCurrentUser
+    href: diagnosticsagent/getentitycountsforcurrentuser.md
   - name: GetWebAppUsagesForPeriod
     href: diagnosticsagent/getwebappusagesforperiod.md
   - name: LogViewState
@@ -1285,6 +1287,8 @@ items:
     href: emailagent/refreshfolderforassociate.md
   - name: RelayMessage
     href: emailagent/relaymessage.md
+  - name: ResolveEMailRecipients
+    href: emailagent/resolveemailrecipients.md
   - name: Save
     href: emailagent/save.md
   - name: SaveDraft
@@ -2372,6 +2376,8 @@ items:
     href: personagent/createdefaultpersonentity.md
   - name: CreateDefaultPersonImage
     href: personagent/createdefaultpersonimage.md
+  - name: CreateOrUpdateUserCandidate
+    href: personagent/createorupdateusercandidate.md
   - name: CreateTemporaryKey
     href: personagent/createtemporarykey.md
   - name: DeleteConsentPerson
@@ -2398,6 +2404,8 @@ items:
     href: personagent/getconsentinfos.md
   - name: GetConsentPerson
     href: personagent/getconsentperson.md
+  - name: GetCustomerCentrePasswordReplyTemplate
+    href: personagent/getcustomercentrepasswordreplytemplate.md
   - name: GetMyOwner
     href: personagent/getmyowner.md
   - name: GetMyPerson
@@ -2424,6 +2432,8 @@ items:
     href: personagent/getphones.md
   - name: GetSalesRep
     href: personagent/getsalesrep.md
+  - name: GetUserCandidateByPerson
+    href: personagent/getusercandidatebyperson.md
   - name: HasConsent
     href: personagent/hasconsent.md
   - name: IsNumberValid
@@ -2444,6 +2454,8 @@ items:
     href: personagent/savepersonentity.md
   - name: SendConsentConfirmationEmail
     href: personagent/sendconsentconfirmationemail.md
+  - name: SendEmail
+    href: personagent/sendemail.md
   - name: SetConsent
     href: personagent/setconsent.md
   - name: SetPersonImage
@@ -3681,10 +3693,14 @@ items:
     href: viewstateagent/gethistory.md
   - name: GetHistoryLengthPrefValue
     href: viewstateagent/gethistorylengthprefvalue.md
+  - name: GetLiveUiConfig
+    href: viewstateagent/getliveuiconfig.md
   - name: GetNextCurrent
     href: viewstateagent/getnextcurrent.md
   - name: GetPreviousCurrent
     href: viewstateagent/getpreviouscurrent.md
+  - name: PublishAndRetrieveUiEvents
+    href: viewstateagent/publishandretrieveuievents.md
   - name: SaveCurrent
     href: viewstateagent/savecurrent.md
   - name: SaveCurrents
@@ -3719,20 +3735,42 @@ items:
     href: workflowagent/addafterworkflowstep.md
   - name: CreateDefaultEmailFlow
     href: workflowagent/createdefaultemailflow.md
-  - name: CreateDefaultWorkflowStep
-    href: workflowagent/createdefaultworkflowstep.md
+  - name: CreateDefaultWorkflowFilter
+    href: workflowagent/createdefaultworkflowfilter.md
+  - name: CreateDefaultWorkflowGoal
+    href: workflowagent/createdefaultworkflowgoal.md
+  - name: CreateDefaultWorkflowStepFromType
+    href: workflowagent/createdefaultworkflowstepfromtype.md
+  - name: CreateDefaultWorkflowStepOption
+    href: workflowagent/createdefaultworkflowstepoption.md
+  - name: CreateDefaultWorkflowTrigger
+    href: workflowagent/createdefaultworkflowtrigger.md
   - name: DeleteEmailFlow
     href: workflowagent/deleteemailflow.md
-  - name: DeleteWorkflowStep
-    href: workflowagent/deleteworkflowstep.md
+  - name: DeleteWorkflowGoal
+    href: workflowagent/deleteworkflowgoal.md
+  - name: DeleteWorkflowStepOption
+    href: workflowagent/deleteworkflowstepoption.md
+  - name: DeleteWorkflowTrigger
+    href: workflowagent/deleteworkflowtrigger.md
   - name: GetEmailFlow
     href: workflowagent/getemailflow.md
+  - name: GetWorkflowGoal
+    href: workflowagent/getworkflowgoal.md
   - name: GetWorkflowStep
     href: workflowagent/getworkflowstep.md
+  - name: GetWorkflowStepOption
+    href: workflowagent/getworkflowstepoption.md
+  - name: GetWorkflowTrigger
+    href: workflowagent/getworkflowtrigger.md
   - name: SaveEmailFlow
     href: workflowagent/saveemailflow.md
-  - name: SaveWorkflowStep
-    href: workflowagent/saveworkflowstep.md
+  - name: SaveWorkflowGoal
+    href: workflowagent/saveworkflowgoal.md
+  - name: SaveWorkflowStepOption
+    href: workflowagent/saveworkflowstepoption.md
+  - name: SaveWorkflowTrigger
+    href: workflowagent/saveworkflowtrigger.md
   - name: TryAddPersonsToEmailFlow
     href: workflowagent/tryaddpersonstoemailflow.md
 

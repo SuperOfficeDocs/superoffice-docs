@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Chat/GetChatMessages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 524,
-  "After": 961
+  "ChatSessionId": 910,
+  "After": 130
 }
 ```
 
@@ -96,15 +96,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 802,
-    "ChatSessionId": 171,
+    "ChatMessageId": 80,
+    "ChatSessionId": 246,
     "Type": "Invalid",
-    "Message": "autem",
-    "Author": "nobis",
-    "ReadByCustomer": 970,
+    "Message": "incidunt",
+    "Author": "alias",
+    "ReadByCustomer": 528,
     "SpecialType": "Block",
-    "SpecialParam": "voluptatum",
-    "WhenPosted": "2010-02-11T12:15:18.3787597+01:00"
+    "SpecialParam": "illum",
+    "WhenPosted": "2007-03-20T15:29:20.9967869+01:00"
   }
 ]
 ```

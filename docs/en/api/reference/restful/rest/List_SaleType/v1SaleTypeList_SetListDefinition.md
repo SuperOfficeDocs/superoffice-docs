@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,16 +87,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Swift-Stokes",
-  "Tooltip": "reprehenderit",
+  "Id": 773,
+  "Name": "Volkman, Abshire and Koch",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "Rank": 183,
+  "Rank": 757,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Ernser-Wilkinson",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 867,
-  "IsCustomList": true,
+  "Id": 308,
+  "Name": "Schiller LLC",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 717,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "recusandae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "inventore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldLength": 287
     }
   }
 }

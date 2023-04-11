@@ -32,7 +32,7 @@ Calls the Project agent service GetProjectEntity.
 
 ```http
 GET /api/v1/Project/{id}?$select=name,department,category/id
-GET /api/v1/Project/{id}?fk=False
+GET /api/v1/Project/{id}?fk=True
 ```
 
 
@@ -95,8 +95,8 @@ ProjectEntity found.
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -105,7 +105,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,130 +113,130 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 09 Jul 1999 12:15:27 G7T
+Last-Modified: Sun, 03 Mar 2002 15:29:29 G3T
 
 {
-  "ProjectId": 395,
-  "Name": "Reilly-Langworth",
-  "ProjectNumber": "973471",
+  "ProjectId": 703,
+  "Name": "Monahan, Marks and Rau",
+  "ProjectNumber": "1034329",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 6,
-      "ContactId": 148,
-      "ProjectId": 477,
-      "ContactName": "Mitchell Inc and Sons",
+      "ProjectmemberId": 914,
+      "ContactId": 707,
+      "ProjectId": 443,
+      "ContactName": "Herman Group",
       "ContactDepartment": "",
-      "ProjectName": "Hettinger Group",
-      "EmailId": 822,
-      "EmailAddress": "jimmie@volkman.co.uk",
-      "CountryId": 806,
-      "Firstname": "Keith",
-      "MiddleName": "Quitzon-Herzog",
-      "Lastname": "Rau",
-      "PersonId": 433,
-      "Mrmrs": "corrupti",
-      "ProjectMemberTypeName": "Raynor, Weber and Daugherty",
-      "Phone": "(145)610-2869",
-      "PhoneId": 297,
-      "ProjectMemberTypeId": 589,
-      "EmailAddressName": "kelsi@emmerich.us",
-      "Comment": "officia",
-      "FullName": "Shyanne Abbott",
+      "ProjectName": "Jenkins-Gottlieb",
+      "EmailId": 281,
+      "EmailAddress": "annabel@schuster.ca",
+      "CountryId": 316,
+      "Firstname": "Keven",
+      "MiddleName": "Feest LLC",
+      "Lastname": "Jacobs",
+      "PersonId": 254,
+      "Mrmrs": "voluptas",
+      "ProjectMemberTypeName": "O'Hara, Gorczany and O'Connell",
+      "Phone": "(389)498-0278 x532",
+      "PhoneId": 397,
+      "ProjectMemberTypeId": 777,
+      "EmailAddressName": "grant@witting.uk",
+      "Comment": "voluptas",
+      "FullName": "Anne Feil Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 667
+          "FieldType": "System.Int32",
+          "FieldLength": 1000
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "dolor",
-      "StrippedValue": "in",
-      "Description": "Seamless composite migration",
+      "Value": "omnis",
+      "StrippedValue": "sit",
+      "Description": "Devolved directional hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldType": "System.String",
+          "FieldLength": 236
         }
       }
     },
     {
-      "Value": "dolor",
-      "StrippedValue": "in",
-      "Description": "Seamless composite migration",
+      "Value": "omnis",
+      "StrippedValue": "sit",
+      "Description": "Devolved directional hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldType": "System.String",
+          "FieldLength": 236
         }
       }
     }
   ],
-  "CreatedDate": "1996-04-22T12:15:27.1496326+02:00",
-  "UpdatedDate": "1999-07-09T12:15:27.1496326+02:00",
-  "Description": "Compatible modular process improvement",
-  "Postit": "laudantium",
+  "CreatedDate": "2000-12-30T15:29:29.9571958+01:00",
+  "UpdatedDate": "2002-03-03T15:29:29.9571958+01:00",
+  "Description": "Extended holistic structure",
+  "Postit": "quia",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "De-engineered zero defect function",
-  "ActiveStatusMonitorId": 764,
+  "HasImage": false,
+  "ImageDescription": "Business-focused user-facing emulation",
+  "ActiveStatusMonitorId": 573,
   "Links": [
     {
-      "EntityName": "Mertz Group",
-      "Id": 388,
-      "Description": "Polarised static orchestration",
+      "EntityName": "Zulauf-Crona",
+      "Id": 861,
+      "Description": "Devolved composite software",
       "ExtraInfo": "officiis",
-      "LinkId": 357,
+      "LinkId": 756,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 435
         }
       }
     }
   ],
-  "ActiveLinks": 913,
-  "Completed": true,
-  "NextMilestoneDate": "2015-06-20T12:15:27.1516328+02:00",
-  "NmdAppointmentId": 731,
-  "EndDate": "2010-06-02T12:15:27.1516328+02:00",
-  "ActiveErpLinks": 139,
+  "ActiveLinks": 340,
+  "Completed": false,
+  "NextMilestoneDate": "2003-10-06T15:29:29.959196+02:00",
+  "NmdAppointmentId": 672,
+  "EndDate": "2004-08-14T15:29:29.959196+02:00",
+  "ActiveErpLinks": 607,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Colton Williamson",
-    "SuperOffice:2": "366551188"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "569563256"
   },
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "animi"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2013-02-14T12:15:27.1516328+01:00",
-  "PublishTo": "2012-10-01T12:15:27.1516328+02:00",
-  "PublishFrom": "2001-11-24T12:15:27.1516328+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-11-23T15:29:29.9596987+01:00",
+  "PublishTo": "2009-03-14T15:29:29.9596987+01:00",
+  "PublishFrom": "2002-07-09T15:29:29.9596987+02:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 441
     }
   },
   "_Links": {

@@ -65,8 +65,8 @@ OK
 | Value | string | The Element FullName.  This is a value that is intended to be shown to the user. |
 | StrippedValue | string | The Element FullName.  This is a value that can be parsed and used by systems. |
 | Description | string | The Element Description |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 297
+  "PersonId": 186
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "maiores",
-    "StrippedValue": "facere",
-    "Description": "Decentralized cohesive emulation",
+    "Value": "eius",
+    "StrippedValue": "non",
+    "Description": "Stand-alone zero administration contingency",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 263
       }
     }
   },
   {
-    "Value": "maiores",
-    "StrippedValue": "facere",
-    "Description": "Decentralized cohesive emulation",
+    "Value": "eius",
+    "StrippedValue": "non",
+    "Description": "Stand-alone zero administration contingency",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 263
       }
     }
   }

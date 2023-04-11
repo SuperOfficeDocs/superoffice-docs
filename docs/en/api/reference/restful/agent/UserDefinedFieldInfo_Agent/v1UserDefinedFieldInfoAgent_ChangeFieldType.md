@@ -98,8 +98,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 269,
-  "ColumnId": 200,
-  "FieldDefault": "fuga",
-  "FieldHeight": 814,
-  "FieldLabel": "debitis",
-  "FieldLeft": 182,
-  "FieldTop": 424,
+  "UDefFieldId": 520,
+  "ColumnId": 601,
+  "FieldDefault": "minima",
+  "FieldHeight": 258,
+  "FieldLabel": "praesentium",
+  "FieldLeft": 142,
+  "FieldTop": 366,
   "FieldType": "Checkbox",
-  "FieldWidth": 276,
-  "FormatMask": "velit",
+  "FieldWidth": 909,
+  "FormatMask": "quaerat",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 752,
-  "LabelLeft": 696,
-  "LabelTop": 295,
-  "LabelWidth": 133,
-  "LastVersionId": 14,
-  "ListTableId": 663,
-  "IsMandatory": false,
+  "LabelHeight": 896,
+  "LabelLeft": 437,
+  "LabelTop": 170,
+  "LabelWidth": 125,
+  "LastVersionId": 15,
+  "ListTableId": 467,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 685,
-  "ProgId": "dolores",
+  "Page1LineNo": 701,
+  "ProgId": "sint",
   "IsReadOnly": false,
-  "ShortLabel": "facere",
-  "TabOrder": 779,
-  "TextLength": 144,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 800,
-  "UDListDefinitionId": 643,
+  "ShortLabel": "eveniet",
+  "TabOrder": 615,
+  "TextLength": 523,
+  "Tooltip": "nam",
+  "UdefIdentity": 127,
+  "UDListDefinitionId": 961,
   "Justification": "Center",
-  "Version": 166,
-  "TemplateVariableName": "Labadie Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Maggio, Pouros and Torp",
+  "Version": 104,
+  "TemplateVariableName": "Russel-Wolf",
+  "HasBeenPublished": false,
+  "MdoListName": "Ortiz-Ledner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldLength": 623
     }
   }
 }

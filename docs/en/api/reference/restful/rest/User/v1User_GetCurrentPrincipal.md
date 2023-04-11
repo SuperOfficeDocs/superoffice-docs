@@ -42,37 +42,37 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: SoPrincipalCarrier
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| UserType | string |  |
-| Associate | string |  |
-| AssociateId | int32 |  |
-| IsPerson | bool |  |
-| PersonId | int32 |  |
-| CountryId | int32 |  |
-| HomeCountryId | int32 |  |
-| ContactId | int32 |  |
-| GroupId | int32 |  |
-| BusinessId | int32 |  |
-| CategoryId | int32 |  |
-| ContactOwner | int32 |  |
-| RoleId | int32 |  |
-| RoleName | string |  |
-| RoleDescription | string |  |
-| RoleType | string |  |
-| Licenses | array |  |
-| FullName | string |  |
-| EMailAddress | string |  |
-| FunctionRights | array |  |
-| EjUserId | int32 |  |
-| EjAccessLevel | int32 |  |
-| EjUserStatus | string |  |
-| ProvidedCredentials | array |  |
-| SecondaryGroups | array |  |
-| DatabaseContextIdentifier | string |  |
-| UserName | string |  |
+| UserType | string | Type of user |
+| Associate | string | Associate name (e.g. logon name) for the user |
+| AssociateId | int32 | AssociateId for the user. |
+| IsPerson | bool | Is this associate a person, and not a resource? |
+| PersonId | int32 | Associate's person id |
+| CountryId | int32 | Country id for the user. |
+| HomeCountryId | int32 | Country id for the user's home country.  This is the default country id when creating new items. |
+| ContactId | int32 | Company of the associate's person |
+| GroupId | int32 | Associate's group_idx |
+| BusinessId | int32 | BusinessIdx for the company that the user belongs to. |
+| CategoryId | int32 | CategoryIdx of the company that the user belongs to. |
+| ContactOwner | int32 | Owner (AssocaiteId) of the company that the user belongs to. |
+| RoleId | int32 | Id of the users role |
+| RoleName | string | Name of the users role |
+| RoleDescription | string | Descrtiption (e.g. tooltip) for the users role |
+| RoleType | string | Type of user. |
+| Licenses | array | License granted to the site and user. |
+| FullName | string | The Person full name if the associate is a person. Use IsPerson to check |
+| EMailAddress | string | The Person e-mail address if the associate is a person. Use IsPerson to check |
+| FunctionRights | array | Functional rights for the user.  This array is sorted so a lookup can be performed using {M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)}. |
+| EjUserId | int32 | Primary key in eJournal's old user table. |
+| EjAccessLevel | int32 | eJournal user access level |
+| EjUserStatus | string | eJournal user status |
+| ProvidedCredentials | array | The credentials used for authenticating this user. |
+| SecondaryGroups | array | Secondary user groups |
+| DatabaseContextIdentifier | string | Name of the database context |
+| UserName | string | UserName on associatetable. Same as SuperId from Online |
 
 ## Sample request
 
@@ -91,76 +91,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "commodi",
-  "AssociateId": 831,
+  "Associate": "qui",
+  "AssociateId": 997,
   "IsPerson": false,
-  "PersonId": 365,
-  "CountryId": 347,
-  "HomeCountryId": 739,
-  "ContactId": 399,
-  "GroupId": 828,
-  "BusinessId": 269,
-  "CategoryId": 51,
-  "ContactOwner": 37,
-  "RoleId": 746,
-  "RoleName": "Moore Group",
-  "RoleDescription": "User-friendly disintermediate protocol",
+  "PersonId": 280,
+  "CountryId": 738,
+  "HomeCountryId": 870,
+  "ContactId": 494,
+  "GroupId": 803,
+  "BusinessId": 720,
+  "CategoryId": 498,
+  "ContactOwner": 506,
+  "RoleId": 986,
+  "RoleName": "Goldner-Schuppe",
+  "RoleDescription": "Upgradable scalable capability",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 18,
-      "OwnerName": "Donnelly Group",
-      "OwnerDescription": "Organic national knowledge base",
-      "ModuleId": 434,
-      "Name": "Beahan, Zieme and Schmeler",
-      "Description": "Profit-focused hybrid framework",
-      "Version": "voluptatem",
+      "OwnerId": 133,
+      "OwnerName": "Wehner-Jerde",
+      "OwnerDescription": "Visionary optimizing implementation",
+      "ModuleId": 604,
+      "Name": "Rutherford, Satterfield and Kunde",
+      "Description": "Intuitive value-added hardware",
+      "Version": "blanditiis",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 652,
-      "ExtraInfo": "dolores",
-      "SortOrder": 399,
-      "LicenseNumber": 944,
+      "ExtraFlags": 627,
+      "ExtraInfo": "eveniet",
+      "SortOrder": 758,
+      "LicenseNumber": 360,
       "IsHidden": false,
-      "IsUnrestricted": false,
-      "ExpiryDate": "2008-02-22T12:15:27.8016236+01:00",
+      "IsUnrestricted": true,
+      "ExpiryDate": "1998-02-12T15:29:31.0084829+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 247
+          "FieldLength": 423
         }
       }
     }
   ],
-  "FullName": "Ms. Frank Susanna Sporer DDS",
-  "EMailAddress": "suscipit",
+  "FullName": "Roosevelt Blick",
+  "EMailAddress": "eos",
   "FunctionRights": [
-    "voluptatem",
-    "non"
+    "nulla",
+    "quos"
   ],
-  "EjUserId": 689,
+  "EjUserId": 735,
   "EjAccessLevel": 567,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "quo",
-      "SearchName": "Ortiz Inc and Sons",
-      "DisplayName": "Bergstrom, Cassin and Schuster",
-      "CredentialId": 310
+      "Type": "debitis",
+      "SearchName": "Feest, Kuhn and Price",
+      "DisplayName": "White-Farrell",
+      "CredentialId": 870
     },
     {
-      "Type": "quo",
-      "SearchName": "Ortiz Inc and Sons",
-      "DisplayName": "Bergstrom, Cassin and Schuster",
-      "CredentialId": 310
+      "Type": "debitis",
+      "SearchName": "Feest, Kuhn and Price",
+      "DisplayName": "White-Farrell",
+      "CredentialId": 870
     }
   ],
   "SecondaryGroups": [
-    576,
-    477
+    277,
+    754
   ],
-  "DatabaseContextIdentifier": "suscipit",
-  "UserName": "Hackett-Rice"
+  "DatabaseContextIdentifier": "expedita",
+  "UserName": "Barton, Hahn and Purdy"
 }
 ```

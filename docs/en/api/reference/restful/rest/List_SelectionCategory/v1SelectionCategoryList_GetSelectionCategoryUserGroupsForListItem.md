@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 827,
-    "Name": "Ferry-Donnelly",
-    "ToolTip": "Dicta tempora.",
-    "Deleted": false,
-    "Rank": 747,
-    "Type": "qui",
-    "ColorBlock": 901,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "2014-04-09T12:15:28.4986141+02:00",
+    "Id": 558,
+    "Name": "Bergstrom-Yundt",
+    "ToolTip": "Asperiores sunt voluptatem necessitatibus aut.",
+    "Deleted": true,
+    "Rank": 211,
+    "Type": "rerum",
+    "ColorBlock": 321,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2015-10-27T15:29:31.6079749+01:00",
     "ChildItems": [
       {
-        "Id": 522,
-        "Name": "Jacobson, Strosin and Cole",
-        "ToolTip": "Iusto aperiam eligendi eius dolores.",
-        "Deleted": false,
-        "Rank": 903,
-        "Type": "suscipit",
-        "ColorBlock": 395,
-        "IconHint": "accusamus",
-        "Selected": false,
-        "LastChanged": "2018-12-28T12:15:28.4986141+01:00",
+        "Id": 382,
+        "Name": "Schuster Group",
+        "ToolTip": "Reprehenderit exercitationem exercitationem at.",
+        "Deleted": true,
+        "Rank": 280,
+        "Type": "nihil",
+        "ColorBlock": 993,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2005-08-13T15:29:31.6084745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "ipsam",
+        "ExtraInfo": "illum",
+        "StyleHint": "doloribus",
         "Hidden": true,
-        "FullName": "Justen Hammes",
+        "FullName": "Vicente Grayce Lubowitz III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 250
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Gerard Kris",
+    "ExtraInfo": "quidem",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Aliya Vandervort",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 750
       }
     }
   }

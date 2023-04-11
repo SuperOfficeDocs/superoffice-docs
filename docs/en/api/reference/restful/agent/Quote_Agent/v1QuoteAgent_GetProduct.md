@@ -97,8 +97,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 662,
-  "ERPProductKey": "laudantium"
+  "QuoteConnectionId": 710,
+  "ERPProductKey": "quas"
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 320,
-  "ERPProductKey": "iure",
-  "ERPPriceListKey": "voluptatibus",
-  "Name": "Swaniawski, Gleason and Effertz",
-  "Description": "Right-sized local methodology",
-  "Code": "alias",
-  "PriceUnit": "in",
+  "ProductId": 214,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "asperiores",
+  "Name": "Cummerata, Grimes and Dooley",
+  "Description": "Diverse multimedia groupware",
+  "Code": "unde",
+  "PriceUnit": "illo",
   "QuantityUnit": "et",
-  "IsSubscription": false,
-  "SubscriptionUnit": "soluta",
-  "DefaultSubscriptionQuantity": 19562.428,
-  "ItemNumber": "537872",
+  "IsSubscription": true,
+  "SubscriptionUnit": "tenetur",
+  "DefaultSubscriptionQuantity": 11304.338,
+  "ItemNumber": "1548743",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "exercitationem",
-  "ProductTypeKey": "quia",
-  "VAT": 4870.236,
-  "VATInfo": "eveniet",
-  "UnitCost": 9000.848,
-  "UnitMinimumPrice": 5403.016,
-  "UnitListPrice": 28300.02,
+  "ProductFamilyKey": "eos",
+  "ProductTypeKey": "natus",
+  "VAT": 19418.264,
+  "VATInfo": "voluptate",
+  "UnitCost": 27400.561999999998,
+  "UnitMinimumPrice": 4509.826,
+  "UnitListPrice": 24423.262,
   "InAssortment": true,
-  "Supplier": "et",
+  "Supplier": "suscipit",
   "SupplierCode": "maxime",
-  "Rights": "rerum",
-  "Rule": "officia",
+  "Rights": "error",
+  "Rule": "minima",
   "ExtraInfo": [
     {
-      "Name": "Lind Group",
-      "Value": "vitae",
+      "Name": "Abernathy LLC",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     },
     {
-      "Name": "Lind Group",
-      "Value": "vitae",
+      "Name": "Abernathy LLC",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldType": "System.String",
+          "FieldLength": 762
         }
       }
     }
   ],
-  "RawExtraInfo": "magnam",
-  "ExtraField1": "quidem",
-  "ExtraField2": "corporis",
-  "ExtraField3": "distinctio",
-  "ExtraField4": "quas",
-  "ExtraField5": "optio",
-  "InStock": 14037.186,
+  "RawExtraInfo": "deleniti",
+  "ExtraField1": "rerum",
+  "ExtraField2": "aut",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "odio",
+  "ExtraField5": "voluptas",
+  "InStock": 25542.1,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 522
     }
   }
 }

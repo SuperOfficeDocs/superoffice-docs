@@ -73,8 +73,8 @@ OK
 | Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Url | string | Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Quote/PlaceOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 894,
-  "MarkSaleAsSold": true,
-  "PoNumber": "1733123",
-  "OrderComment": "expedita",
-  "Culture": "suscipit"
+  "QuoteAlternativeId": 203,
+  "MarkSaleAsSold": false,
+  "PoNumber": "1452661",
+  "OrderComment": "quis",
+  "Culture": "vel"
 }
 ```
 
@@ -101,10 +101,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "earum",
-  "TechExplanation": "incidunt",
-  "ErrorCode": "numquam",
+  "IsOk": false,
+  "UserExplanation": "impedit",
+  "TechExplanation": "qui",
+  "ErrorCode": "occaecati",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 820
     }
   }
 }

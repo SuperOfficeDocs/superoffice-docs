@@ -72,8 +72,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Cassin Inc and Sons",
-  "Id": 160
+  "HistoryName": "Hettinger, O'Hara and Hegmann",
+  "Id": 126
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 415,
-  "Id": 329,
-  "HistoryName": "Hills, Mante and Cummerata",
-  "HistoryId": 833,
-  "AssociateId": 894,
-  "Name": "Ziemann-Lind",
-  "ItemInfo": "officiis",
+  "Rank": 793,
+  "Id": 862,
+  "HistoryName": "Cruickshank-Kilback",
+  "HistoryId": 490,
+  "AssociateId": 800,
+  "Name": "Fisher-Mayer",
+  "ItemInfo": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 383
     }
   }
 }

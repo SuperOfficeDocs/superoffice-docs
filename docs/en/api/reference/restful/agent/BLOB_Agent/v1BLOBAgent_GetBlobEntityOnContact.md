@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 307
+  "ContactId": 997
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 528,
-  "BlobSize": 130,
-  "Description": "Visionary transitional software",
-  "ExtraInfo": "quaerat",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 456,
-  "CreatedDate": "2001-09-07T12:15:18.233762+02:00",
-  "UpdatedDate": "2006-08-03T12:15:18.233762+02:00",
+  "BlobId": 56,
+  "BlobSize": 626,
+  "Description": "Polarised national benchmark",
+  "ExtraInfo": "sint",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "consequuntur",
+  "OriginalSize": 995,
+  "CreatedDate": "2005-02-17T15:29:20.8522889+01:00",
+  "UpdatedDate": "2018-04-19T15:29:20.8522889+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt",
+  "ConceptualType": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

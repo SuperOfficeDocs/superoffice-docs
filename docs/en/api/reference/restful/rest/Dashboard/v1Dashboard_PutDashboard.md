@@ -76,8 +76,8 @@ Dashboard updated.
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -86,26 +86,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 497,
-  "AssociateId": 879,
-  "Caption": "optio",
+  "DashboardId": 889,
+  "AssociateId": 503,
+  "Caption": "nobis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 542,
-      "Caption": "velit",
-      "Description": "Implemented explicit migration",
-      "ChartName": "Spencer, Paucek and Rosenbaum",
-      "ChartId": "delectus",
-      "IsDefault": true,
-      "AssociateId": 741,
-      "GroupId": 710,
-      "SelectionId": 725,
-      "Config": "impedit",
+      "DashboardTileId": 841,
+      "Caption": "sapiente",
+      "Description": "Monitored solution-oriented projection",
+      "ChartName": "Deckow LLC",
+      "ChartId": "nam",
+      "IsDefault": false,
+      "AssociateId": 821,
+      "GroupId": 578,
+      "SelectionId": 199,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -128,22 +128,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 528,
-  "AssociateId": 625,
+  "DashboardId": 451,
+  "AssociateId": 808,
   "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 289,
-      "Caption": "in",
-      "Description": "Synchronised optimizing artificial intelligence",
-      "ChartName": "Toy, Witting and Hackett",
-      "ChartId": "dolore",
+      "DashboardTileId": 803,
+      "Caption": "sit",
+      "Description": "Optional well-modulated internet solution",
+      "ChartName": "Hamill-Marks",
+      "ChartId": "architecto",
       "IsDefault": false,
-      "AssociateId": 670,
-      "GroupId": 399,
-      "SelectionId": 353,
-      "Config": "quia",
+      "AssociateId": 643,
+      "GroupId": 444,
+      "SelectionId": 367,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldLength": 839
         }
       }
     }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   },
   "_Links": {

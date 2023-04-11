@@ -61,8 +61,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,16 +80,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 482,
-  "Name": "Olson-Mertz",
-  "Tooltip": "assumenda",
+  "RoleId": 761,
+  "Name": "Wehner, Keeling and Metz",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 964,
-  "Rank": 175,
-  "Created": "2014-02-14T12:15:20.5287292+01:00",
-  "UseCategories": 69,
+  "Deleted": 98,
+  "Rank": 118,
+  "Created": "2021-04-08T15:29:23.3012547+02:00",
+  "UseCategories": 985,
   "CreatedBy": null,
-  "Updated": "2020-05-12T12:15:20.5297314+02:00",
+  "Updated": "2016-08-16T15:29:23.3012547+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 545
     }
   }
 }

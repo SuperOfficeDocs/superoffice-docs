@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -130,13 +130,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 466,
-  "StartTime": "2000-11-28T12:15:17.6417705+01:00",
-  "EndTime": "2004-06-10T12:15:17.6417705+02:00",
-  "Count": 730,
+  "PersonId": 68,
+  "StartTime": "2009-08-03T15:29:20.2548247+02:00",
+  "EndTime": "1997-02-27T15:29:20.2548247+01:00",
+  "Count": 492,
   "TaskIds": [
-    778,
-    553
+    360,
+    252
   ]
 }
 ```
@@ -149,53 +149,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 647,
-    "StartDate": "2007-12-03T12:15:17.6427729+01:00",
-    "EndDate": "2022-11-14T12:15:17.6427729+01:00",
+    "AppointmentId": 480,
+    "StartDate": "2004-06-14T15:29:20.25583+02:00",
+    "EndDate": "2005-12-01T15:29:20.25583+01:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Donnie Prohaska",
-    "ContactName": "Raynor Inc and Sons",
-    "Description": "Distributed 5th generation internet solution",
-    "PersonFullName": "Prof. Kane Katrina Feest V",
-    "PersonId": 498,
-    "ContactId": 302,
-    "ProjectId": 187,
-    "ProjectName": "Abshire, Smith and Wyman",
-    "IsPublished": false,
-    "AssociateId": 512,
-    "ColorIndex": 1000,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "suscipit",
+    "AssociateFullName": "Sherwood Rutherford",
+    "ContactName": "Gulgowski-Mayer",
+    "Description": "User-centric fresh-thinking focus group",
+    "PersonFullName": "Prof. Jazmyn Runolfsson DVM",
+    "PersonId": 917,
+    "ContactId": 393,
+    "ProjectId": 211,
+    "ProjectName": "Mann-Keebler",
+    "IsPublished": true,
+    "AssociateId": 409,
+    "ColorIndex": 242,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 607,
-    "PriorityName": "Schroeder, Pouros and Lesch",
+    "PriorityId": 784,
+    "PriorityName": "Beer-Durgan",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2000-07-27T12:15:17.6437714+02:00",
+    "ActiveDate": "2009-02-18T15:29:20.2563324+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-12-11T12:15:17.6437714+01:00",
-    "RecurringEndDate": "2001-01-16T12:15:17.6437714+01:00",
-    "MotherId": 76,
-    "AssignedBy": 550,
-    "AssignedByFullName": "Abigayle Yost",
+    "RecurringStartDate": "2005-05-02T15:29:20.2563324+02:00",
+    "RecurringEndDate": "2006-05-30T15:29:20.2563324+02:00",
+    "MotherId": 5,
+    "AssignedBy": 191,
+    "AssignedByFullName": "Cicero Connelly",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "quia",
-    "SaleId": 133,
-    "SaleName": "Miller, Bailey and Bednar",
-    "AssociateName": "Hoppe, Sauer and Rogahn",
-    "CreatedDate": "2020-06-30T12:15:17.6437714+02:00",
-    "CreatedBy": "neque",
-    "CreatedByFullName": "Jakayla McLaughlin",
-    "CreatedByAssociateId": 247,
+    "Location": "corrupti",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 40,
+    "SaleName": "Ryan Inc and Sons",
+    "AssociateName": "Kessler, Fahey and Lang",
+    "CreatedDate": "2021-02-07T15:29:20.2568327+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Prof. Flavie Pattie Cummerata Jr.",
+    "CreatedByAssociateId": 494,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldLength": 988
       }
     }
   }

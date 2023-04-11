@@ -62,15 +62,15 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo | TableRight |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
+| Name | string | The programmatic column name, including any required prefixes |
+| Operator | string | The operator, such as =, etc |
+| Values | array | Value(s) to test against |
+| DisplayValues | array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | bool | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | int32 | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | string | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | int32 |  |
 
 ## Sample request
@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 52
+  "SelectionId": 185
 }
 ```
 
@@ -95,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schaefer, Abbott and Johnson",
-    "Operator": "magnam",
+    "Name": "Cremin LLC",
+    "Operator": "reiciendis",
     "Values": [
-      "adipisci",
-      "consequuntur"
+      "dolorem",
+      "omnis"
     ],
     "DisplayValues": [
-      "rerum",
-      "deleniti"
+      "quae",
+      "ut"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Hand Group",
-        "Operator": "odit",
+        "Name": "Thompson, Heller and Bernhard",
+        "Operator": "consequatur",
         "Values": [
-          "magni",
+          "voluptas",
           "aut"
         ],
         "DisplayValues": [
-          "aspernatur",
-          "quibusdam"
+          "nulla",
+          "rem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -125,14 +125,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 800,
+        "InterParenthesis": 23,
         "InterOperator": "And",
-        "UniqueHash": 2
+        "UniqueHash": 738
       }
     ],
-    "InterParenthesis": 811,
+    "InterParenthesis": 362,
     "InterOperator": "And",
-    "UniqueHash": 609
+    "UniqueHash": 634
   }
 ]
 ```

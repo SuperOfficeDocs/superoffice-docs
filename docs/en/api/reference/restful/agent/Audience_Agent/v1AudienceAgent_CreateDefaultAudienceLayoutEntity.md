@@ -53,8 +53,8 @@ OK
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
 | CreatedBy | Associate | Name of the person that created the Audience layout |
 | UpdatedBy | Associate | Name of the person that last updated the Audience layout |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 928,
-  "InstanceLayout": "deleniti",
-  "InstanceName": "Hermiston LLC",
-  "CreatedDate": "2012-05-18T12:15:18.1837632+02:00",
-  "UpdatedDate": "2001-05-30T12:15:18.1837632+02:00",
+  "AudienceLayoutId": 113,
+  "InstanceLayout": "corrupti",
+  "InstanceName": "Morar, Heller and Oberbrunner",
+  "CreatedDate": "2006-04-07T15:29:20.8022891+02:00",
+  "UpdatedDate": "1996-12-26T15:29:20.8022891+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 592
     }
   }
 }

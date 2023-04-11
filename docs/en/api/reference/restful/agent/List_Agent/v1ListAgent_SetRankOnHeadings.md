@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -64,14 +64,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 200,
+  "UdListDefinitionId": 264,
   "HeadingIds": [
-    189,
-    986
+    55,
+    519
   ]
 }
 ```

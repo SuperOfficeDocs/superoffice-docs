@@ -89,8 +89,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,7 +102,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Grimes, Schumm and Graham"
+  "UserName": "Ebert, Auer and Schmitt"
 }
 ```
 
@@ -113,14 +113,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 754,
-  "Name": "Wunsch, Dooley and Glover",
-  "Rank": 622,
-  "Tooltip": "qui",
+  "AssociateId": 868,
+  "Name": "Wilkinson, Aufderhar and Jewess",
+  "Rank": 479,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "McGlynn, Altenwerth and Johnson",
-      "Description": "Programmable contextually-based knowledge base",
+      "Name": "Metz-Osinski",
+      "Description": "Synchronised maximized hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,14 +133,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldType": "System.Int32",
+          "FieldLength": 536
         }
       }
     },
     {
-      "Name": "McGlynn, Altenwerth and Johnson",
-      "Description": "Programmable contextually-based knowledge base",
+      "Name": "Metz-Osinski",
+      "Description": "Synchronised maximized hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 819
+          "FieldType": "System.Int32",
+          "FieldLength": 536
         }
       }
     }
@@ -163,110 +163,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "culpa",
-      "Tooltip": "aut",
-      "Id": 926,
-      "Rank": 584,
-      "Deleted": false,
+      "Value": "porro",
+      "Tooltip": "quae",
+      "Id": 141,
+      "Rank": 745,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 644
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2017-11-22T12:15:20.5907284+01:00",
-  "Lastlogout": "2002-09-19T12:15:20.5907284+02:00",
-  "EjUserId": 531,
-  "RequestSignature": "id",
+  "Deleted": true,
+  "Lastlogin": "2021-03-27T15:29:23.3617531+01:00",
+  "Lastlogout": "2011-05-06T15:29:23.3617531+02:00",
+  "EjUserId": 247,
+  "RequestSignature": "sint",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "accusamus",
-      "DisplayValue": "rerum",
+      "Value": "ut",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 261
         }
       }
     },
     {
       "Type": null,
-      "Value": "accusamus",
-      "DisplayValue": "rerum",
+      "Value": "ut",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 261
         }
       }
     }
   ],
-  "UserName": "Pollich Inc and Sons",
+  "UserName": "Leannon, Veum and Sanford",
   "TicketCategories": [
     {
-      "Id": 315,
-      "Name": "Mraz, Grady and Gutkowski",
-      "ToolTip": "Repellendus sit iusto.",
-      "Deleted": true,
-      "Rank": 616,
-      "Type": "possimus",
+      "Id": 321,
+      "Name": "Wolff, Marks and Gulgowski",
+      "ToolTip": "Dolores dolor exercitationem.",
+      "Deleted": false,
+      "Rank": 343,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 402,
-      "ExtraInfo": "ipsam",
-      "StyleHint": "blanditiis",
-      "FullName": "Sheila Beahan",
+      "IconHint": "asperiores",
+      "ColorBlock": 28,
+      "ExtraInfo": "sint",
+      "StyleHint": "explicabo",
+      "FullName": "Ephraim Reinger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldLength": 585
         }
       }
     }
   ],
-  "NickName": "Goyette-Emard",
+  "NickName": "McLaughlin, Graham and Fahey",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "nihil",
+    "CustomFields2": "velit"
   },
   "PostSaveCommands": [
     {
-      "Name": "Deckow-Purdy",
-      "DisplayName": "Breitenberg, Durgan and Emmerich",
-      "Description": "Decentralized scalable projection",
-      "ToolTip": "Et aut odit exercitationem impedit numquam dolorum.",
+      "Name": "Collins Group",
+      "DisplayName": "Wehner-Wyman",
+      "Description": "Managed client-server budgetary management",
+      "ToolTip": "Earum sunt ad vel qui amet praesentium.",
       "Actions": "Implicit",
-      "ActionData": "illum",
+      "ActionData": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 664
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     }
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 82
     }
   }
 }

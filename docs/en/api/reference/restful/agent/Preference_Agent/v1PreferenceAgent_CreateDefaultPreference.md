@@ -57,8 +57,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "laborum",
+  "RawValue": "blanditiis",
   "Specification": null,
-  "DisplayValue": "dolorem",
-  "DisplayTooltip": "praesentium",
+  "DisplayValue": "facilis",
+  "DisplayTooltip": "delectus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 56,
-  "PrefDescId": 86,
-  "TableName": "Krajcik-Bergstrom",
-  "UserPreferenceId": 677,
+  "TargetId": 101,
+  "PrefDescId": 520,
+  "TableName": "Bashirian LLC",
+  "UserPreferenceId": 1001,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldType": "System.Int32",
+      "FieldLength": 889
     }
   }
 }

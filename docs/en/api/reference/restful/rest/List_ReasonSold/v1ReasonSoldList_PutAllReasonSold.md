@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Pouros Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 329,
-    "Rank": 364
+    "Id": 98,
+    "Name": "Ebert, Hettinger and Skiles",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 576,
+    "Rank": 878
   },
   {
-    "Id": 812,
-    "Name": "Pouros Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 329,
-    "Rank": 364
+    "Id": 98,
+    "Name": "Ebert, Hettinger and Skiles",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 576,
+    "Rank": 878
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Fisher, Franecki and Kilback",
-    "Tooltip": "doloribus",
+    "Id": 442,
+    "Name": "Skiles, Steuber and Kulas",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 166,
-    "Rank": 572,
+    "UdListDefinitionId": 983,
+    "Rank": 15,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldLength": 358
       }
     }
   }

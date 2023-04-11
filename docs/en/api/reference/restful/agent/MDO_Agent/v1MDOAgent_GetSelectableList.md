@@ -80,8 +80,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jast LLC",
+  "Name": "Hartmann-Hayes",
   "ForceFlatList": false,
-  "AdditionalInfo": "ab",
+  "AdditionalInfo": "omnis",
   "OnlyHistory": false
 }
 ```
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Lemke, Wolf and Armstrong",
-    "ToolTip": "In accusamus deserunt dolor eaque.",
+    "Id": 448,
+    "Name": "Schmitt Group",
+    "ToolTip": "Doloribus voluptas sequi neque quibusdam.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "commodi",
-    "ColorBlock": 359,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2008-02-29T12:15:19.392746+01:00",
+    "Rank": 463,
+    "Type": "adipisci",
+    "ColorBlock": 910,
+    "IconHint": "fugiat",
+    "Selected": false,
+    "LastChanged": "2022-07-14T15:29:22.1533038+02:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Daugherty, Pfannerstill and Ledner",
-        "ToolTip": "Dolorem perspiciatis.",
-        "Deleted": false,
-        "Rank": 869,
-        "Type": "aspernatur",
-        "ColorBlock": 642,
-        "IconHint": "sequi",
-        "Selected": false,
-        "LastChanged": "2002-01-06T12:15:19.392746+01:00",
+        "Id": 502,
+        "Name": "Yundt-Ankunding",
+        "ToolTip": "Quas saepe quis.",
+        "Deleted": true,
+        "Rank": 1002,
+        "Type": "ut",
+        "ColorBlock": 416,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2018-02-07T15:29:22.1533038+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Betsy Metz",
+        "ExtraInfo": "facere",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Raheem Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldType": "System.Int32",
+            "FieldLength": 754
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "provident",
+    "ExtraInfo": "possimus",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Kyra Botsford",
+    "FullName": "Raymond Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   }

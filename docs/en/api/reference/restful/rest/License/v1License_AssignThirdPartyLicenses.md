@@ -68,8 +68,8 @@ OK
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 400,
-    "Tooltip": "modi",
+    "Total": 160,
+    "Tooltip": "enim",
     "CanAssign": false,
-    "Free": 349,
-    "InUse": 671,
-    "IsHidden": true,
+    "Free": 901,
+    "InUse": 481,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 875,
-    "Name": "Waters-Schmidt",
-    "Description": "Multi-layered hybrid benchmark",
-    "PrerequisiteModuleName": "Dickinson-Treutel",
-    "SortOrder": 173,
-    "ExtraFlags": 194,
+    "ModuleLicenseId": 333,
+    "Name": "Mann Group",
+    "Description": "Up-sized responsive moratorium",
+    "PrerequisiteModuleName": "Heathcote, Brekke and Roob",
+    "SortOrder": 398,
+    "ExtraFlags": 666,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   }

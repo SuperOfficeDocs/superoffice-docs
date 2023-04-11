@@ -100,8 +100,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 145,
+  "DocumentId": 69,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "labore",
-  "Header": "nisi",
-  "Name": "Quitzon-Bashirian",
-  "OurRef": "aperiam",
-  "YourRef": "tempore",
-  "CreatedDate": "2020-12-24T12:15:18.7987619+01:00",
-  "UpdatedDate": "2002-03-04T12:15:18.7987619+01:00",
-  "Description": "Customizable fresh-thinking support",
+  "Attention": "ut",
+  "Header": "eveniet",
+  "Name": "Smitham-Glover",
+  "OurRef": "rem",
+  "YourRef": "quisquam",
+  "CreatedDate": "2010-01-24T15:29:21.561779+01:00",
+  "UpdatedDate": "2017-07-21T15:29:21.561779+02:00",
+  "Description": "Sharable clear-thinking alliance",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-08-16T12:15:18.8017575+02:00",
-  "ExternalRef": "earum",
+  "Date": "1997-01-12T15:29:21.5642796+01:00",
+  "ExternalRef": "deserunt",
   "Completed": "Completed",
-  "ActiveLinks": 933,
+  "ActiveLinks": 433,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "West, McKenzie and Thompson",
-      "Id": 632,
-      "Description": "Self-enabling explicit knowledge base",
-      "ExtraInfo": "aut",
-      "LinkId": 175,
+      "EntityName": "Bruen, Sporer and Raynor",
+      "Id": 875,
+      "Description": "Persevering multimedia leverage",
+      "ExtraInfo": "sed",
+      "LinkId": 202,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 492
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 4,
-  "Snum": 52,
+  "SuggestedDocumentId": 178,
+  "Snum": 955,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ronaldo Hodkiewicz",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "927707080",
+    "SuperOffice:2": "Jacey Koepp"
   },
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "quia",
+    "CustomFields2": "fuga"
   },
-  "PublishEventDate": "2000-11-13T12:15:18.8027539+01:00",
-  "PublishTo": "2017-04-03T12:15:18.8027539+02:00",
-  "PublishFrom": "1995-11-04T12:15:18.8027539+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1997-10-31T15:29:21.5657784+01:00",
+  "PublishTo": "2014-03-06T15:29:21.5657784+01:00",
+  "PublishFrom": "2015-08-18T15:29:21.5657784+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 181,
+      "VisibleId": 391,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldType": "System.String",
+          "FieldLength": 509
         }
       }
     },
     {
-      "VisibleId": 181,
+      "VisibleId": 391,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 639
+          "FieldType": "System.String",
+          "FieldLength": 509
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldType": "System.Int32",
+      "FieldLength": 347
     }
   }
 }

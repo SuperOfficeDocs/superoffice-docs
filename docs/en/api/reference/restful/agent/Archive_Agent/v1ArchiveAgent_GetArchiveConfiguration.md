@@ -69,8 +69,8 @@ OK
 | ArchiveEntityInfo | array |  |
 | ArchiveOrderByInfo | array |  |
 | OwnerKeys | string | The actual ownership information for the configuration that was retrieved |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hermiston, Walsh and Connelly",
-  "ProviderName": "Christiansen-Schuster"
+  "GuiName": "Mraz-Gutmann",
+  "ProviderName": "Thompson, Veum and Tillman"
 }
 ```
 
@@ -96,68 +96,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Buckridge-Watsica",
-      "DisplayTooltip": "eveniet",
-      "DisplayType": "voluptatum",
+      "DisplayName": "Padberg, D'Amore and Herman",
+      "DisplayTooltip": "sit",
+      "DisplayType": "porro",
       "CanOrderBy": false,
-      "Name": "Gutmann-Schultz",
+      "Name": "Maggio Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "impedit",
-      "RestrictionListName": "Ryan LLC",
+      "RestrictionType": "beatae",
+      "RestrictionListName": "Swift, Gleason and Greenholt",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "corrupti",
-      "IconHint": "et",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "ipsum",
+      "Width": "nihil",
+      "IconHint": "molestiae",
+      "HeadingIconHint": "adipisci"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 219,
-      "Name": "McGlynn LLC",
-      "ToolTip": "Autem consequatur est.",
+      "Id": 207,
+      "Name": "Lehner Inc and Sons",
+      "ToolTip": "Illum illum.",
       "Deleted": false,
-      "Rank": 792,
-      "Type": "eum",
-      "ColorBlock": 497,
-      "IconHint": "aspernatur",
+      "Rank": 834,
+      "Type": "ut",
+      "ColorBlock": 917,
+      "IconHint": "necessitatibus",
       "Selected": true,
-      "LastChanged": "2009-05-04T12:15:18.1457635+02:00",
+      "LastChanged": "2023-02-10T15:29:20.7642903+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "laudantium",
+      "ExtraInfo": "iste",
+      "StyleHint": "tempore",
       "Hidden": true,
-      "FullName": "Sierra Boyer PhD",
+      "FullName": "Omer Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldLength": 302
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Ward, Casper and Christiansen",
+      "Name": "Mueller, Lakin and Waters",
       "Direction": "ASC"
     },
     {
-      "Name": "Ward, Casper and Christiansen",
+      "Name": "Mueller, Lakin and Waters",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "vitae",
+  "OwnerKeys": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   }
 }

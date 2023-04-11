@@ -81,8 +81,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    462,
-    434
+    467,
+    941
   ]
 }
 ```
@@ -109,31 +109,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Hand-Ortiz",
-    "Comment": "similique",
-    "StakeholderRoleId": 702,
-    "CountryId": 980,
-    "PersonId": 120,
-    "EmailDescription": "mable@kozey.co.uk",
-    "EmailId": 703,
-    "EmailAddress": "emily.rau@goodwinmorissette.ca",
-    "PhoneId": 294,
-    "ContactName": "Kulas Group",
-    "ContactId": 900,
-    "SaleId": 718,
-    "Mrmrs": "aliquam",
-    "Firstname": "Domenic",
-    "MiddleName": "Swift LLC",
-    "Lastname": "O'Hara",
-    "SaleStakeholderId": 56,
-    "Rank": 941,
-    "Phone": "(676)547-2294 x27159",
+    "StakeholderRoleName": "Gusikowski Inc and Sons",
+    "Comment": "rem",
+    "StakeholderRoleId": 115,
+    "CountryId": 588,
+    "PersonId": 942,
+    "EmailDescription": "maximo_crona@barrows.us",
+    "EmailId": 913,
+    "EmailAddress": "lewis_kihn@kirlin.biz",
+    "PhoneId": 750,
+    "ContactName": "Spinka-Stokes",
+    "ContactId": 792,
+    "SaleId": 568,
+    "Mrmrs": "libero",
+    "Firstname": "Coleman",
+    "MiddleName": "O'Kon Group",
+    "Lastname": "Bosco",
+    "SaleStakeholderId": 888,
+    "Rank": 6,
+    "Phone": "(809)476-9824 x91639",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 56
       }
     }
   }

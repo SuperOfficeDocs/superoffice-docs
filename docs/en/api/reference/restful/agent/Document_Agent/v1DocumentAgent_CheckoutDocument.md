@@ -59,7 +59,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Document/CheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 994,
+  "DocumentId": 381,
   "AllowedReturnTypes": [
-    "ad",
-    "rem"
+    "excepturi",
+    "et"
   ]
 }
 ```
@@ -95,11 +95,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "adipisci",
-  "VersionId": "omnis",
-  "Success": true,
+  "ExternalReference": "sunt",
+  "VersionId": "quo",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "fugit",
-  "AdditionalInfo": "sapiente"
+  "Value": "sit",
+  "AdditionalInfo": "iusto"
 }
 ```

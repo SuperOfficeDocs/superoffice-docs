@@ -25,7 +25,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=525
+POST /api/v1/Agents/Project/GetProject?projectId=295
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -74,8 +74,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 451,
-  "Name": "Boyle, King and Greenfelder",
-  "Description": "Optimized non-volatile process improvement",
+  "ProjectId": 758,
+  "Name": "Aufderhar-Fritsch",
+  "Description": "Cloned fault-tolerant data-warehouse",
   "URL": "http://www.example.com/",
-  "Type": "nam",
-  "AssociateId": 166,
-  "AssociateFullName": "Myrtice Altenwerth DVM",
-  "TypeId": 543,
-  "Updated": "2003-06-09T12:15:19.8277622+02:00",
-  "StatusId": 351,
-  "Status": "unde",
-  "TextId": 19,
-  "PublishTo": "2008-02-27T12:15:19.8277622+01:00",
-  "PublishFrom": "2010-01-04T12:15:19.8277622+01:00",
+  "Type": "dolorem",
+  "AssociateId": 690,
+  "AssociateFullName": "Dr. Bruce Morissette Sr.",
+  "TypeId": 814,
+  "Updated": "2021-07-05T15:29:22.4538021+02:00",
+  "StatusId": 531,
+  "Status": "est",
+  "TextId": 329,
+  "PublishTo": "2000-08-11T15:29:22.4538021+02:00",
+  "PublishFrom": "2010-11-19T15:29:22.4538021+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "810573",
-  "ActiveErpLinks": 541,
+  "ProjectNumber": "925237",
+  "ActiveErpLinks": 882,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   }
 }

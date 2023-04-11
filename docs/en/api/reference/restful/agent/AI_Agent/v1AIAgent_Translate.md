@@ -74,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "eveniet",
-  "TargetLanguage": "nam"
+  "Text": "et",
+  "TargetLanguage": "ipsum"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolore"
+"voluptatum"
 ```

@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Satterfield-Tromp",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 163,
-    "UdListDefinitionId": 508
+    "HeadingId": 360,
+    "Name": "Quigley Group",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 737,
+    "UdListDefinitionId": 124
   },
   {
-    "HeadingId": 172,
-    "Name": "Satterfield-Tromp",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 163,
-    "UdListDefinitionId": 508
+    "HeadingId": 360,
+    "Name": "Quigley Group",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 737,
+    "UdListDefinitionId": 124
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 982,
-    "Name": "Orn LLC",
-    "Tooltip": "perspiciatis",
+    "HeadingId": 587,
+    "Name": "Jones-Brown",
+    "Tooltip": "alias",
     "Deleted": false,
-    "Rank": 329,
-    "UdListDefinitionId": 14,
+    "Rank": 995,
+    "UdListDefinitionId": 869,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 15
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

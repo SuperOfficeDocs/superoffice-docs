@@ -69,8 +69,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,46 +88,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 956,
+  "HierarchyId": 500,
   "Domain": "Dashboards",
-  "Name": "Langworth Inc and Sons",
-  "Fullname": "nemo",
-  "ParentId": 145,
+  "Name": "Sipes-Cruickshank",
+  "Fullname": "tempore",
+  "ParentId": 937,
   "Children": [
     {
-      "HierarchyId": 67,
+      "HierarchyId": 452,
       "Domain": "Dashboards",
-      "Name": "Kertzmann-Schuster",
+      "Name": "Upton-Ritchie",
       "Fullname": "consequatur",
-      "ParentId": 325,
+      "ParentId": 60,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-02-11T12:15:26.9856396+01:00",
-      "RegisteredAssociateId": 419,
-      "Updated": "1997-08-18T12:15:26.9856396+02:00",
-      "UpdatedAssociateId": 224,
+      "Registered": "2006-09-02T15:29:29.7866983+02:00",
+      "RegisteredAssociateId": 442,
+      "Updated": "2012-02-07T15:29:29.7866983+01:00",
+      "UpdatedAssociateId": 510,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 776
         }
       }
     }
   ],
-  "Registered": "2006-11-12T12:15:26.9856396+01:00",
-  "RegisteredAssociateId": 939,
-  "Updated": "2006-06-10T12:15:26.9856396+02:00",
-  "UpdatedAssociateId": 978,
+  "Registered": "2002-11-17T15:29:29.787198+01:00",
+  "RegisteredAssociateId": 177,
+  "Updated": "2002-01-11T15:29:29.787198+01:00",
+  "UpdatedAssociateId": 470,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 550
     }
   }
 }

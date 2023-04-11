@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Lebsack, Spencer and Heathcote",
-    "ToolTip": "Explicabo facilis autem autem velit omnis omnis et.",
+    "Id": 976,
+    "Name": "Fritsch, Friesen and Hahn",
+    "ToolTip": "Quis ut in.",
     "Deleted": false,
-    "Rank": 792,
-    "Type": "voluptas",
-    "ColorBlock": 138,
-    "IconHint": "earum",
+    "Rank": 390,
+    "Type": "ut",
+    "ColorBlock": 295,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2002-04-30T12:15:28.2876167+02:00",
+    "LastChanged": "2003-02-16T15:29:31.4014761+01:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Hansen, Treutel and Daniel",
-        "ToolTip": "Aut saepe illum nam repellat mollitia.",
-        "Deleted": true,
-        "Rank": 67,
-        "Type": "voluptatibus",
-        "ColorBlock": 710,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "1997-02-17T12:15:28.2876167+01:00",
+        "Id": 509,
+        "Name": "Cronin-Towne",
+        "ToolTip": "Quasi et et et quae.",
+        "Deleted": false,
+        "Rank": 812,
+        "Type": "unde",
+        "ColorBlock": 731,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2001-02-15T15:29:31.4019769+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "totam",
+        "ExtraInfo": "sunt",
+        "StyleHint": "animi",
         "Hidden": true,
-        "FullName": "Dr. Elouise Queenie Botsford PhD"
+        "FullName": "Bennett Reichel"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "vitae",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Dorothea Greenholt"
+    "FullName": "Eldora Bettye Koelpin III"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Bednar, Howell and Homenick",
-    "ToolTip": "Unde quisquam explicabo dolores qui eos.",
-    "Deleted": true,
-    "Rank": 892,
-    "Type": "et",
-    "ColorBlock": 287,
-    "IconHint": "nesciunt",
+    "Id": 330,
+    "Name": "Morar, Dickinson and Baumbach",
+    "ToolTip": "Est qui.",
+    "Deleted": false,
+    "Rank": 932,
+    "Type": "reprehenderit",
+    "ColorBlock": 113,
+    "IconHint": "aliquid",
     "Selected": false,
-    "LastChanged": "2020-04-28T12:15:28.288617+02:00",
+    "LastChanged": "2010-01-31T15:29:31.4039776+01:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Brown, McLaughlin and Beier",
-        "ToolTip": "At quia est necessitatibus voluptas quia unde natus.",
-        "Deleted": true,
-        "Rank": 520,
-        "Type": "voluptas",
-        "ColorBlock": 92,
-        "IconHint": "ratione",
-        "Selected": false,
-        "LastChanged": "2005-01-03T12:15:28.288617+01:00",
+        "Id": 978,
+        "Name": "Schultz Group",
+        "ToolTip": "Qui quisquam.",
+        "Deleted": false,
+        "Rank": 135,
+        "Type": "consectetur",
+        "ColorBlock": 229,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2016-09-01T15:29:31.4039776+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "id",
+        "ExtraInfo": "est",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Marquise McKenzie Sr.",
+        "FullName": "Cortez Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 164
+            "FieldType": "System.String",
+            "FieldLength": 826
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "non",
+    "ExtraInfo": "sed",
+    "StyleHint": "quaerat",
     "Hidden": true,
-    "FullName": "Columbus Parker",
+    "FullName": "Buster Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 382
       }
     }
   }

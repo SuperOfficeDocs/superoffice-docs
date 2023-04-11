@@ -68,8 +68,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Wehner Group",
-  "Tooltip": "provident",
-  "Deleted": true,
-  "UdListDefinitionId": 538,
-  "Rank": 556
+  "Id": 607,
+  "Name": "Kilback-Gislason",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "UdListDefinitionId": 769,
+  "Rank": 453
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Harris-Koepp",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "UdListDefinitionId": 528,
-  "Rank": 229,
+  "Id": 177,
+  "Name": "Marks, Bartell and Rath",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 964,
+  "Rank": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldType": "System.Int32",
+      "FieldLength": 820
     }
   }
 }

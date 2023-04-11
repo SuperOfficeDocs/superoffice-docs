@@ -59,8 +59,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 319,
-    "Name": "Ledner Inc and Sons",
-    "ConsentText": "recusandae",
-    "FormText": "dignissimos",
-    "Key": "sit",
-    "Tooltip": "omnis",
-    "Active": 734,
-    "UpdatedDate": "2010-06-03T12:15:27.9186264+02:00",
+    "ConsentPurposeId": 271,
+    "Name": "Bruen-Donnelly",
+    "ConsentText": "non",
+    "FormText": "eum",
+    "Key": "sint",
+    "Tooltip": "consequuntur",
+    "Active": 563,
+    "UpdatedDate": "2009-08-12T15:29:31.1294786+02:00",
     "UpdatedBy": null,
     "Deleted": true,
-    "Rank": 967,
-    "PrivacyStatementDesc": "dolores",
+    "Rank": 123,
+    "PrivacyStatementDesc": "sed",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 170
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

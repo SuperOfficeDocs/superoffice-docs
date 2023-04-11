@@ -49,7 +49,7 @@ AppointmentId, Participant, UpdateMode
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | AppointmentId | Integer |  |
-| Participant | TableRight |  |
+| Participant | ParticipantInfo | Class representing an appointment participant. |
 | UpdateMode | String |  |
 
 ## Response:
@@ -94,7 +94,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -119,8 +119,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/AssignTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 702,
+  "AppointmentId": 359,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -149,122 +149,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-10-08T12:15:17.8357686+02:00",
-  "AppointmentId": 76,
-  "Description": "Persevering composite database",
-  "StartDate": "1998-12-28T12:15:17.8357686+01:00",
-  "EndDate": "2019-08-23T12:15:17.8357686+02:00",
+  "CreatedDate": "2015-11-12T15:29:20.5787919+01:00",
+  "AppointmentId": 575,
+  "Description": "Mandatory impactful paradigm",
+  "StartDate": "2020-01-08T15:29:20.5787919+01:00",
+  "EndDate": "2015-03-14T15:29:20.5787919+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 263,
+  "MotherId": 118,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-03-31T12:15:17.8387679+02:00",
+  "UpdatedDate": "1996-06-01T15:29:20.5812919+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 544,
+  "ActiveLinks": 107,
   "Links": [
     {
-      "EntityName": "Cummings LLC",
-      "Id": 780,
-      "Description": "Programmable leading edge monitoring",
-      "ExtraInfo": "autem",
-      "LinkId": 86,
+      "EntityName": "Heathcote-Glover",
+      "Id": 792,
+      "Description": "Enterprise-wide leading edge model",
+      "ExtraInfo": "magni",
+      "LinkId": 927,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 389
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
+  "AlarmLeadTime": "ab",
   "HasAlarm": true,
-  "ColorIndex": 655,
+  "ColorIndex": 106,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "at",
-  "LeadTime": "repudiandae",
-  "Location": "et",
-  "RejectCounter": 988,
+  "IsAlldayEvent": false,
+  "LagTime": "non",
+  "LeadTime": "natus",
+  "Location": "voluptas",
+  "RejectCounter": 821,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 733,
-      "PersonId": 959,
-      "ContactId": 503,
-      "EmailId": 816,
-      "SendEmail": true,
+      "AssociateId": 686,
+      "PersonId": 422,
+      "ContactId": 686,
+      "EmailId": 258,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 733,
-      "PersonId": 959,
-      "ContactId": 503,
-      "EmailId": 816,
-      "SendEmail": true,
+      "AssociateId": 686,
+      "PersonId": 422,
+      "ContactId": 686,
+      "EmailId": 258,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-10-26T12:15:17.8387679+02:00",
+  "ActiveDate": "2019-10-31T15:29:20.5812919+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 166,
+  "PreferredTZLocation": 685,
   "Sale": null,
-  "SuggestedAppointmentId": 401,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 483,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ut",
+  "CentralserviceVideomeetId": "recusandae",
   "UserDefinedFields": {
-    "SuperOffice:1": "Liana Weber",
-    "SuperOffice:2": "1184332108"
+    "SuperOffice:1": "Santino Brekke",
+    "SuperOffice:2": "Angelica O'Kon"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "itaque",
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "illum"
+    "CustomFields1": "saepe",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2004-01-07T12:15:17.8407684+01:00",
-  "PublishTo": "2020-08-22T12:15:17.8407684+02:00",
-  "PublishFrom": "2007-12-26T12:15:17.8407684+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-06-29T15:29:20.5837922+02:00",
+  "PublishTo": "2005-12-04T15:29:20.5837922+01:00",
+  "PublishFrom": "2006-03-15T15:29:20.5837922+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 683,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     },
     {
-      "VisibleId": 683,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "quam",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldType": "System.String",
+          "FieldLength": 518
         }
       }
     }
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 511
     }
   }
 }

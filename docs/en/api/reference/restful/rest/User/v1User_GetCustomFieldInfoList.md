@@ -66,7 +66,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schaden LLC",
-    "DisplayName": "McDermott, Trantow and Hegmann",
-    "Description": "Organized zero defect success",
-    "ShortLabel": "aut",
+    "FieldName": "Kuhn, Littel and Reilly",
+    "DisplayName": "Schaden, DuBuque and Lemke",
+    "Description": "Exclusive foreground structure",
+    "ShortLabel": "facilis",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "Rank": 776,
-    "TemplateVariableName": "Mayert-Pfeffer"
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "Rank": 661,
+    "TemplateVariableName": "Corwin Group"
   }
 ]
 ```

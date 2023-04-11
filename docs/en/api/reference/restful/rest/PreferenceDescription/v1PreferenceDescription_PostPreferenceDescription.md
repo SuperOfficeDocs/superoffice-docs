@@ -99,8 +99,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -109,28 +109,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 783,
-  "Section": "asperiores",
-  "Key": "fugiat",
-  "Name": "Muller Group",
+  "PrefDescId": 998,
+  "Section": "voluptas",
+  "Key": "quia",
+  "Name": "Abbott, Stoltenberg and Nader",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Grass-roots zero administration circuit",
+  "Description": "Reverse-engineered dynamic Graphical User Interface",
   "IsBuiltin": false,
-  "TableName": "Crona, Wiza and Jones",
-  "UserDefinedListId": 610,
-  "Rank": 202,
-  "SubGroup": "eius",
-  "MinLevel": 862,
-  "MaxValue": 491,
-  "MinValue": 638,
-  "RequiredLicense": "rerum"
+  "TableName": "Lebsack-Ratke",
+  "UserDefinedListId": 153,
+  "Rank": 971,
+  "SubGroup": "asperiores",
+  "MinLevel": 89,
+  "MaxValue": 594,
+  "MinValue": 56,
+  "RequiredLicense": "sint"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 751,
-  "Section": "cum",
-  "Key": "non",
-  "Name": "Bode-Borer",
+  "PrefDescId": 265,
+  "Section": "aut",
+  "Key": "debitis",
+  "Name": "Bednar-DuBuque",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented assymetric capability",
+  "Description": "Grass-roots even-keeled hub",
   "IsBuiltin": false,
-  "TableName": "Balistreri LLC",
-  "UserDefinedListId": 602,
-  "Rank": 134,
-  "SubGroup": "aut",
-  "MinLevel": 375,
-  "MaxValue": 135,
-  "MinValue": 105,
-  "RequiredLicense": "perspiciatis",
+  "TableName": "Stoltenberg Inc and Sons",
+  "UserDefinedListId": 837,
+  "Rank": 623,
+  "SubGroup": "quos",
+  "MinLevel": 590,
+  "MaxValue": 348,
+  "MinValue": 439,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 546
     }
   },
   "_Links": {

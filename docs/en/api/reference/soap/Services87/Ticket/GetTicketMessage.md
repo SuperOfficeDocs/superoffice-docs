@@ -64,7 +64,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Ticket:GetTicketMessageResponse>
    <Ticket:Response xsi:type="Ticket:TicketMessage">
     <Ticket:TicketMessageId xsi:type="xsd:int">0</Ticket:TicketMessageId>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-03-01T11:12:25Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2023-03-31T13:26:19Z</Ticket:CreatedAt>
     <Ticket:Slevel xsi:type="Ticket:TicketSecurityLevel">Unknown</Ticket:Slevel>
     <Ticket:Important xsi:type="xsd:boolean">false</Ticket:Important>
    </Ticket:Response>

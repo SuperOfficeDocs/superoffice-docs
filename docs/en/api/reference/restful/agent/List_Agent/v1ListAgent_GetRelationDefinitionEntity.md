@@ -25,7 +25,7 @@ Gets a RelationDefinitionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=947
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=398
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -64,8 +64,8 @@ OK
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,12 +83,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 426,
-  "Name": "Reichert, Gislason and Pacocha",
-  "Tooltip": "itaque",
-  "PassiveText": "atque",
+  "ReldefId": 959,
+  "Name": "Swift, Huels and Schowalter",
+  "Tooltip": "voluptatibus",
+  "PassiveText": "assumenda",
   "Deleted": false,
-  "Rank": 976,
+  "Rank": 887,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 405
     }
   }
 }

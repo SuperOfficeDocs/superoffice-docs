@@ -56,8 +56,8 @@ OK
 |----------------|------|--------------|
 | Name | string | The name of the dictionary step (from attribute, not class name) |
 | StepNumber | int32 | Generation number of step |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,26 +76,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emard, Towne and Cormier",
-    "StepNumber": 166,
+    "Name": "Gleason-Gleason",
+    "StepNumber": 167,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   },
   {
-    "Name": "Emard, Towne and Cormier",
-    "StepNumber": 166,
+    "Name": "Gleason-Gleason",
+    "StepNumber": 167,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 486
+        "FieldType": "System.Int32",
+        "FieldLength": 722
       }
     }
   }

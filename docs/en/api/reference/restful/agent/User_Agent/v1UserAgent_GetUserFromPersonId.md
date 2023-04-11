@@ -89,8 +89,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,7 +102,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 864
+  "PersonId": 875
 }
 ```
 
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 360,
-    "Name": "Yundt, Beier and Turcotte",
-    "Rank": 126,
-    "Tooltip": "dolorum",
+    "AssociateId": 445,
+    "Name": "Satterfield LLC",
+    "Rank": 486,
+    "Tooltip": "et",
     "LicenseOwners": [
       {
-        "Name": "Little-Bailey",
-        "Description": "Re-engineered composite software",
+        "Name": "Frami-Bins",
+        "Description": "Upgradable encompassing superstructure",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 705
           }
         }
       },
       {
-        "Name": "Little-Bailey",
-        "Description": "Re-engineered composite software",
+        "Name": "Frami-Bins",
+        "Description": "Upgradable encompassing superstructure",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldLength": 705
           }
         }
       }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "officia",
-        "Tooltip": "sint",
-        "Id": 757,
-        "Rank": 707,
+        "Value": "amet",
+        "Tooltip": "omnis",
+        "Id": 883,
+        "Rank": 173,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldLength": 548
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2006-01-31T12:15:20.6107287+01:00",
-    "Lastlogout": "1997-11-27T12:15:20.6107287+01:00",
-    "EjUserId": 301,
-    "RequestSignature": "recusandae",
+    "Lastlogin": "2008-01-12T15:29:23.3827533+01:00",
+    "Lastlogout": "2018-08-16T15:29:23.3827533+02:00",
+    "EjUserId": 623,
+    "RequestSignature": "nam",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "sint",
-        "DisplayValue": "omnis",
+        "Value": "consequuntur",
+        "DisplayValue": "sunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 359
+            "FieldLength": 38
           }
         }
       },
       {
         "Type": null,
-        "Value": "sint",
-        "DisplayValue": "omnis",
+        "Value": "consequuntur",
+        "DisplayValue": "sunt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 359
+            "FieldLength": 38
           }
         }
       }
     ],
-    "UserName": "Gaylord Group",
+    "UserName": "Bradtke-Effertz",
     "TicketCategories": [
       {
-        "Id": 968,
-        "Name": "Lebsack Group",
-        "ToolTip": "Quisquam inventore expedita dolorem repellat suscipit enim a.",
-        "Deleted": false,
-        "Rank": 842,
-        "Type": "consectetur",
+        "Id": 215,
+        "Name": "Stark-Lueilwitz",
+        "ToolTip": "Iusto excepturi voluptates fugiat accusamus quasi.",
+        "Deleted": true,
+        "Rank": 861,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 251,
-        "ExtraInfo": "illum",
-        "StyleHint": "id",
-        "FullName": "Ethelyn Moen",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 650
-          }
-        }
-      }
-    ],
-    "NickName": "Lesch, Luettgen and Bruen",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "ex",
-      "ExtraFields2": "repellendus"
-    },
-    "CustomFields": {
-      "CustomFields1": "quisquam",
-      "CustomFields2": "voluptatum"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Kemmer Group",
-        "DisplayName": "Douglas-Dach",
-        "Description": "Horizontal fresh-thinking frame",
-        "ToolTip": "Qui ut sed architecto nihil facilis voluptatem.",
-        "Actions": "Implicit",
-        "ActionData": "odio",
+        "IconHint": "distinctio",
+        "ColorBlock": 58,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "sunt",
+        "FullName": "Nola Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 585
+            "FieldLength": 800
+          }
+        }
+      }
+    ],
+    "NickName": "Denesik, Feest and Fadel",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "incidunt",
+      "ExtraFields2": "vel"
+    },
+    "CustomFields": {
+      "CustomFields1": "quas",
+      "CustomFields2": "vitae"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Abbott, Hessel and Wilderman",
+        "DisplayName": "Homenick-Emmerich",
+        "Description": "Persevering attitude-oriented interface",
+        "ToolTip": "Asperiores aliquam.",
+        "Actions": "Implicit",
+        "ActionData": "iusto",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 674
           }
         }
       }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 295
+        "FieldLength": 320
       }
     }
   }

@@ -74,8 +74,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,56 +94,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Grady LLC",
-    "ToolTip": "Doloremque in illo architecto.",
+    "Id": 408,
+    "Name": "Mraz, Russel and Heathcote",
+    "ToolTip": "Non reiciendis fugiat quis soluta eius.",
     "Deleted": false,
-    "Rank": 226,
-    "Type": "ipsam",
-    "ColorBlock": 885,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2016-06-06T12:15:27.8416268+02:00",
+    "Rank": 440,
+    "Type": "pariatur",
+    "ColorBlock": 698,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2014-04-07T15:29:31.0439464+02:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Harris, Walsh and Schimmel",
-        "ToolTip": "Dolorum dolores amet.",
+        "Id": 247,
+        "Name": "Corwin-D'Amore",
+        "ToolTip": "Sit consequatur in omnis necessitatibus modi.",
         "Deleted": false,
-        "Rank": 391,
-        "Type": "totam",
-        "ColorBlock": 272,
-        "IconHint": "totam",
-        "Selected": true,
-        "LastChanged": "1996-06-24T12:15:27.8416268+02:00",
+        "Rank": 32,
+        "Type": "dolores",
+        "ColorBlock": 927,
+        "IconHint": "tempora",
+        "Selected": false,
+        "LastChanged": "2013-07-25T15:29:31.0449467+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Claudine Schroeder",
+        "ExtraInfo": "impedit",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Mr. Houston Colt Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 302
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "sequi",
+    "ExtraInfo": "sed",
+    "StyleHint": "consequuntur",
     "Hidden": true,
-    "FullName": "Kyra Renner",
+    "FullName": "Dr. Alice Toy Reynolds PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 844
+        "FieldLength": 185
       }
     }
   }

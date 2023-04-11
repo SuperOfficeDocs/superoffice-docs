@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -19,7 +19,7 @@ Scripting events called on the <see cref='M:SuperOffice.CRM.Services.IWorkflowAg
 ```cs
     static void BeforeAddAfterWorkflowStep(
        Int32  workflowStepId,
-       WorkflowStep  subStep,
+       WorkflowStepBase  subStep,
        ref object  eventState
       );
 ```
@@ -31,8 +31,8 @@ Event state is not preserved between different service calls. It is set to null 
 ```cs
     static void AfterAddAfterWorkflowStep(
        Int32  workflowStepId,
-       WorkflowStep  subStep,
-       ref WorkflowStep  returnValue,
+       WorkflowStepBase  subStep,
+       ref WorkflowStepBase  returnValue,
        ref object  eventState
       );
 ```
@@ -43,8 +43,8 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ```cs
     static void AfterAddAfterWorkflowStepAsync(
        Int32  workflowStepId,
-       WorkflowStep  subStep,
-       ref WorkflowStep  returnValue,
+       WorkflowStepBase  subStep,
+       ref WorkflowStepBase  returnValue,
        ref object  eventState
       );
 ```

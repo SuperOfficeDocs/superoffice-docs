@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Yundt, Green and Paucek",
-  "AssociateId": 309,
-  "DetailsTable": 856,
-  "DetailsRecord": 826,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 487,
+  "Name": "Wilderman-Christiansen",
+  "AssociateId": 185,
+  "DetailsTable": 807,
+  "DetailsRecord": 705,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "officiis",
-    "ParameterObject2": "ad"
+    "ParameterObject1": "sint",
+    "ParameterObject2": "consequuntur"
   },
-  "LastStarted": "2004-10-05T12:15:20.0147362+02:00",
-  "Created": "2010-09-07T12:15:20.0147362+02:00",
-  "StartCount": 901,
-  "DatabaseSerialNumber": "1322738",
-  "Context": "minima",
-  "Result": "minus",
+  "LastStarted": "2011-09-08T15:29:22.6382992+02:00",
+  "Created": "1996-08-31T15:29:22.6382992+02:00",
+  "StartCount": 307,
+  "DatabaseSerialNumber": "411137",
+  "Context": "omnis",
+  "Result": "ea",
   "State": "All",
-  "Description": "Function-based regional task-force",
-  "Response": "est",
-  "Request": "sit",
-  "ProgressDescription": "Synergistic 4th generation function",
-  "ProgressPercent": 301,
-  "FileName": "O'Connell, Luettgen and Schmeler",
+  "Description": "Realigned motivating knowledge base",
+  "Response": "asperiores",
+  "Request": "in",
+  "ProgressDescription": "Multi-tiered scalable solution",
+  "ProgressPercent": 530,
+  "FileName": "Franecki, Heaney and Zemlak",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 936
     }
   }
 }

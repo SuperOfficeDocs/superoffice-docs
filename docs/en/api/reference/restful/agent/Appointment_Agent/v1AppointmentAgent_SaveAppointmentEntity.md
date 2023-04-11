@@ -68,7 +68,7 @@ The AppointmentEntity to be saved.
 | Location | String | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | Integer | How many invitees have rejected this appointment |
 | RejectReason | String | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | Array | List of id's of the participants to this appointment. |
 | AssignmentStatus | String | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | String | Status if this appointment represents an invitation |
@@ -136,7 +136,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -161,8 +161,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -170,7 +170,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -178,107 +178,107 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-05-03T12:15:17.7377754+02:00",
-  "AppointmentId": 57,
-  "Description": "Right-sized logistical superstructure",
-  "StartDate": "1996-08-08T12:15:17.7377754+02:00",
-  "EndDate": "2022-04-08T12:15:17.7377754+02:00",
+  "CreatedDate": "2014-08-26T15:29:20.4817941+02:00",
+  "AppointmentId": 13,
+  "Description": "Team-oriented bandwidth-monitored software",
+  "StartDate": "2007-09-28T15:29:20.4817941+02:00",
+  "EndDate": "2009-06-26T15:29:20.4817941+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 600,
+  "MotherId": 359,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-09-07T12:15:17.7407693+02:00",
+  "UpdatedDate": "2018-05-28T15:29:20.4852934+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 174,
+  "ActiveLinks": 338,
   "Links": [
     {
-      "EntityName": "Auer-Hand",
-      "Id": 253,
-      "Description": "Integrated high-level throughput",
-      "ExtraInfo": "error",
-      "LinkId": 318
+      "EntityName": "Lueilwitz Group",
+      "Id": 81,
+      "Description": "Devolved didactic neural-net",
+      "ExtraInfo": "consequatur",
+      "LinkId": 418
     },
     {
-      "EntityName": "Auer-Hand",
-      "Id": 253,
-      "Description": "Integrated high-level throughput",
-      "ExtraInfo": "error",
-      "LinkId": 318
+      "EntityName": "Lueilwitz Group",
+      "Id": 81,
+      "Description": "Devolved didactic neural-net",
+      "ExtraInfo": "consequatur",
+      "LinkId": 418
     }
   ],
-  "AlarmLeadTime": "at",
-  "HasAlarm": false,
-  "ColorIndex": 977,
+  "AlarmLeadTime": "eaque",
+  "HasAlarm": true,
+  "ColorIndex": 834,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "delectus",
-  "LeadTime": "mollitia",
-  "Location": "sint",
-  "RejectCounter": 399,
+  "LagTime": "incidunt",
+  "LeadTime": "sit",
+  "Location": "aliquid",
+  "RejectCounter": 603,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 381,
-      "PersonId": 685,
-      "ContactId": 868,
-      "EmailId": 448,
-      "SendEmail": false,
+      "AssociateId": 930,
+      "PersonId": 779,
+      "ContactId": 180,
+      "EmailId": 782,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 381,
-      "PersonId": 685,
-      "ContactId": 868,
-      "EmailId": 448,
-      "SendEmail": false,
+      "AssociateId": 930,
+      "PersonId": 779,
+      "ContactId": 180,
+      "EmailId": 782,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-06-18T12:15:17.7407693+02:00",
+  "ActiveDate": "2011-10-24T15:29:20.4852934+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 389,
+  "PreferredTZLocation": 762,
   "Sale": null,
-  "SuggestedAppointmentId": 770,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 487,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "iure",
+  "CentralserviceVideomeetId": "quod",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Mrs. Nora Lind III"
+    "SuperOffice:1": "Mrs. Adrien McKenzie III",
+    "SuperOffice:2": "Miss Stevie Kiera Gottlieb I"
   },
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "distinctio"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "cumque"
+    "CustomFields1": "neque",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2018-02-12T12:15:17.742769+01:00",
-  "PublishTo": "1997-01-20T12:15:17.742769+01:00",
-  "PublishFrom": "2022-02-10T12:15:17.742769+01:00",
+  "PublishEventDate": "2022-01-06T15:29:20.4877941+01:00",
+  "PublishTo": "2002-10-02T15:29:20.4877941+02:00",
+  "PublishFrom": "2001-08-21T15:29:20.4877941+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 659,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "distinctio"
+      "DisplayValue": "accusamus"
     },
     {
-      "VisibleId": 659,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "distinctio"
+      "DisplayValue": "accusamus"
     }
   ]
 }
@@ -295,63 +295,63 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-11-03T12:15:17.7527696+01:00",
-  "AppointmentId": 199,
-  "Description": "Synergized incremental archive",
-  "StartDate": "2002-12-31T12:15:17.7527696+01:00",
-  "EndDate": "2009-03-08T12:15:17.7527696+01:00",
+  "CreatedDate": "2004-12-24T15:29:20.4972942+01:00",
+  "AppointmentId": 178,
+  "Description": "Re-engineered fresh-thinking leverage",
+  "StartDate": "2013-10-18T15:29:20.4972942+02:00",
+  "EndDate": "2008-11-20T15:29:20.4972942+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 371,
+  "MotherId": 735,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2016-08-06T12:15:17.7567695+02:00",
+  "UpdatedDate": "2012-04-18T15:29:20.5007938+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 134,
+  "ActiveLinks": 17,
   "Links": [
     {
-      "EntityName": "Rodriguez Group",
-      "Id": 731,
-      "Description": "Innovative global circuit",
-      "ExtraInfo": "consequuntur",
-      "LinkId": 220,
+      "EntityName": "Mann, Farrell and Cummerata",
+      "Id": 819,
+      "Description": "Pre-emptive impactful portal",
+      "ExtraInfo": "magni",
+      "LinkId": 857,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldLength": 443
         }
       }
     }
   ],
-  "AlarmLeadTime": "non",
+  "AlarmLeadTime": "officia",
   "HasAlarm": true,
-  "ColorIndex": 271,
+  "ColorIndex": 40,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatibus",
-  "LeadTime": "harum",
-  "Location": "sequi",
-  "RejectCounter": 746,
+  "LagTime": "magnam",
+  "LeadTime": "tempore",
+  "Location": "explicabo",
+  "RejectCounter": 94,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 846,
-      "PersonId": 291,
-      "ContactId": 852,
-      "EmailId": 374,
+      "AssociateId": 750,
+      "PersonId": 974,
+      "ContactId": 806,
+      "EmailId": 574,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 846,
-      "PersonId": 291,
-      "ContactId": 852,
-      "EmailId": 374,
+      "AssociateId": 750,
+      "PersonId": 974,
+      "ContactId": 806,
+      "EmailId": 574,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -359,58 +359,58 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-08-29T12:15:17.7567695+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2013-08-02T15:29:20.5012938+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 735,
+  "PreferredTZLocation": 516,
   "Sale": null,
-  "SuggestedAppointmentId": 242,
+  "SuggestedAppointmentId": 80,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "fugit",
+  "CentralserviceVideomeetId": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kris Schneider",
-    "SuperOffice:2": "Dr. Dahlia Collins IV"
+    "SuperOffice:1": "Abner Bechtelar",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "ex",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "nostrum"
   },
-  "PublishEventDate": "2001-02-13T12:15:17.7587697+01:00",
-  "PublishTo": "2008-07-06T12:15:17.7587697+02:00",
-  "PublishFrom": "2016-08-08T12:15:17.7587697+02:00",
+  "PublishEventDate": "1999-12-13T15:29:20.5032942+01:00",
+  "PublishTo": "2022-01-15T15:29:20.5032942+01:00",
+  "PublishFrom": "2020-12-29T15:29:20.5032942+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 328,
+      "VisibleId": 113,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldType": "System.Int32",
+          "FieldLength": 935
         }
       }
     },
     {
-      "VisibleId": 328,
+      "VisibleId": 113,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 656
+          "FieldType": "System.Int32",
+          "FieldLength": 935
         }
       }
     }
@@ -419,8 +419,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 333
     }
   }
 }

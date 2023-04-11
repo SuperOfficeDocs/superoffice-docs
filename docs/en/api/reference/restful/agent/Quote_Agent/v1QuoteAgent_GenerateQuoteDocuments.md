@@ -77,8 +77,8 @@ OK
 | ToEmail | string | The email address of the recipient, taken from the sale's person |
 | ToFullName | string | The full name of the recipient, taken from the sale's person |
 | ErrorMessage | string | If something went wrong, show this message and do not continue |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,12 +90,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 607,
-  "EmailBodyTemplateId": 319,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 583,
-  "IncludeAttachments": true,
-  "RawMailSubject": "dolorum"
+  "QuoteVersionId": 624,
+  "EmailBodyTemplateId": 463,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 405,
+  "IncludeAttachments": false,
+  "RawMailSubject": "odit"
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 793,
-  "QuotedProductsId": 981,
+  "QuoteDocumentId": 309,
+  "QuotedProductsId": 100,
   "QuoteAttachmentIds": [
-    604,
-    673
+    370,
+    48
   ],
-  "MailBody": "culpa",
-  "MailSubject": "et",
-  "ToEmail": "elliott@cole.name",
-  "ToFullName": "Wilfredo Russel",
-  "ErrorMessage": "id",
+  "MailBody": "nostrum",
+  "MailSubject": "id",
+  "ToEmail": "rusty.carroll@strackefisher.co.uk",
+  "ToFullName": "Enrique Collier",
+  "ErrorMessage": "quaerat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 747
     }
   }
 }

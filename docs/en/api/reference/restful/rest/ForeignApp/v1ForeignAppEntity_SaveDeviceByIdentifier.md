@@ -75,8 +75,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,19 +84,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 710,
-  "Name": "Nikolaus, Swaniawski and Jacobs",
-  "CreatedDate": "1996-02-02T12:15:26.9726437+01:00",
-  "UpdatedDate": "1999-03-12T12:15:26.9726437+01:00",
-  "AssociateFullName": "Dr. Shemar Evangeline Shields DDS",
-  "CreatedBy": "qui",
-  "UpdatedBy": "possimus",
-  "DeviceIdentifier": "officiis",
-  "ForeignAppId": 813
+  "ForeignDeviceId": 889,
+  "Name": "Haag, Medhurst and Swaniawski",
+  "CreatedDate": "2002-09-05T15:29:29.7721983+02:00",
+  "UpdatedDate": "2002-06-27T15:29:29.7721983+02:00",
+  "AssociateFullName": "Don Breitenberg",
+  "CreatedBy": "aspernatur",
+  "UpdatedBy": "tenetur",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 775
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 115,
-  "Name": "Rath, Wilderman and Crona",
-  "CreatedDate": "2022-02-10T12:15:26.9736378+01:00",
-  "UpdatedDate": "2020-06-09T12:15:26.9736378+02:00",
-  "AssociateFullName": "Georgette Braun",
-  "CreatedBy": "illo",
-  "UpdatedBy": "architecto",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 985,
+  "ForeignDeviceId": 719,
+  "Name": "Christiansen LLC",
+  "CreatedDate": "1996-03-13T15:29:29.7726987+01:00",
+  "UpdatedDate": "2007-08-31T15:29:29.7726987+02:00",
+  "AssociateFullName": "Mrs. Broderick Heidenreich",
+  "CreatedBy": "fugit",
+  "UpdatedBy": "aspernatur",
+  "DeviceIdentifier": "enim",
+  "ForeignAppId": 440,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 65
     }
   }
 }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "CategoryMembers"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -74,7 +74,7 @@ Combines all CategoryMembers in table together with added, edited or removed thr
 ## Sample
 
 ```http!
-GET /api/v1/archive/CategoryMembers?$select=lastName,personId,usergroup
+GET /api/v1/archive/CategoryMembers?$select=personId,role,personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

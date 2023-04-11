@@ -58,8 +58,8 @@ OK
 | EmailId | int32 | Primary key |
 | DuplicatePersonIds | array | All persons with this EmailAddress stored in db is listed here |
 | Name | string | The name on the email address |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 338,
-  "ContactName": "Gorczany-Connelly",
-  "PersonId": 589,
-  "PersonName": "King, Brakus and Johnston",
-  "AssociateId": 601,
-  "Address": "aperiam",
-  "EmailId": 584,
+  "ContactId": 373,
+  "ContactName": "Jacobi LLC",
+  "PersonId": 38,
+  "PersonName": "Paucek-Armstrong",
+  "AssociateId": 365,
+  "Address": "necessitatibus",
+  "EmailId": 644,
   "DuplicatePersonIds": [
-    447,
-    788
+    976,
+    771
   ],
-  "Name": "Eichmann, Rohan and Mraz",
+  "Name": "Halvorson, Weber and D'Amore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

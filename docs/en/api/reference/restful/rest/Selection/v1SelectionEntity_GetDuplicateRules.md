@@ -48,8 +48,8 @@ OK
 | DisplayName | string | Short name of rule to display to user |
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,30 +68,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wilkinson, Shields and Dare",
-    "DisplayName": "Williamson LLC",
-    "DisplayTooltip": "dolorem",
-    "IsActive": false,
+    "Name": "Schneider-Hegmann",
+    "DisplayName": "Runolfsson Inc and Sons",
+    "DisplayTooltip": "molestiae",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 380
       }
     }
   },
   {
-    "Name": "Wilkinson, Shields and Dare",
-    "DisplayName": "Williamson LLC",
-    "DisplayTooltip": "dolorem",
-    "IsActive": false,
+    "Name": "Schneider-Hegmann",
+    "DisplayName": "Runolfsson Inc and Sons",
+    "DisplayTooltip": "molestiae",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 380
       }
     }
   }

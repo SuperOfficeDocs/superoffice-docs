@@ -68,8 +68,8 @@ OK
 | Id | int32 | Primary key |
 | Rank | int32 | Rank order |
 | Deleted | bool | Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "earum",
-  "Tooltip": "ut",
-  "Id": 941,
-  "Rank": 475,
+  "Value": "nulla",
+  "Tooltip": "suscipit",
+  "Id": 818,
+  "Rank": 488,
   "Deleted": false
 }
 ```
@@ -96,17 +96,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "dignissimos",
-  "Tooltip": "ut",
-  "Id": 869,
-  "Rank": 161,
-  "Deleted": false,
+  "Value": "amet",
+  "Tooltip": "sequi",
+  "Id": 576,
+  "Rank": 618,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 202
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

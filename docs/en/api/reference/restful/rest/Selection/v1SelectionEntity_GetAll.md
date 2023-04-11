@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=in
-GET /api/v1/Selection?$top=787
-GET /api/v1/Selection?$skip=742
+GET /api/v1/Selection?$entities=quis
+GET /api/v1/Selection?$top=815
+GET /api/v1/Selection?$skip=366
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=tempora
+GET /api/v1/Selection?$context=repudiandae
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=False
+GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -131,18 +131,18 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "facere",
   "value": [
     {
-      "PrimaryKey": 5618,
+      "PrimaryKey": 2906,
       "EntityName": "sale",
-      "saleId": 5618,
-      "contactId": 372,
-      "name": "Goldner LLC"
+      "saleId": 2906,
+      "contactId": 1012,
+      "name": "Grimes Group"
     },
     {
-      "PrimaryKey": 1491,
+      "PrimaryKey": 2577,
       "EntityName": "sale",
-      "saleId": 1491,
-      "contactId": 2310,
-      "name": "Hansen, Bauch and Hermann"
+      "saleId": 2577,
+      "contactId": 6225,
+      "name": "Hauck Inc and Sons"
     }
   ]
 }

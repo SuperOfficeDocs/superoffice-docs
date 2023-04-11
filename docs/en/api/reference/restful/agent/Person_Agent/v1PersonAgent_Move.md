@@ -58,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -71,9 +71,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 439,
-  "DestinationContactId": 819,
-  "MoveAfterDate": "1996-12-20T12:15:19.6777416+01:00"
+  "PersonId": 683,
+  "DestinationContactId": 653,
+  "MoveAfterDate": "2018-01-23T15:29:22.3072676+01:00"
 }
 ```
 

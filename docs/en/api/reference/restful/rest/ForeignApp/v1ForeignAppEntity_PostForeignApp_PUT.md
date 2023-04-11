@@ -57,8 +57,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 427,
-  "Name": "Stracke Inc and Sons",
-  "CreatedDate": "2011-01-19T12:15:26.9396383+01:00",
-  "UpdatedDate": "2004-12-06T12:15:26.9396383+01:00",
+  "ForeignAppId": 24,
+  "Name": "Schmitt-McKenzie",
+  "CreatedDate": "1997-02-05T15:29:29.7471997+01:00",
+  "UpdatedDate": "2005-09-14T15:29:29.7471997+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 254,
-      "Name": "Renner Inc and Sons",
-      "CreatedDate": "2009-12-11T12:15:26.9406364+01:00",
-      "UpdatedDate": "2013-12-21T12:15:26.9406364+01:00",
-      "AssociateFullName": "Vilma Tomasa Veum IV",
-      "CreatedBy": "corporis",
-      "UpdatedBy": "eos",
-      "DeviceIdentifier": "velit",
-      "ForeignAppId": 91,
+      "ForeignDeviceId": 145,
+      "Name": "Pfannerstill-Dicki",
+      "CreatedDate": "2006-12-31T15:29:29.7476994+01:00",
+      "UpdatedDate": "2004-06-26T15:29:29.7476994+02:00",
+      "AssociateFullName": "Hester White",
+      "CreatedBy": "quisquam",
+      "UpdatedBy": "non",
+      "DeviceIdentifier": "amet",
+      "ForeignAppId": 752,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 636
+          "FieldLength": 175
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldType": "System.String",
+      "FieldLength": 472
     }
   }
 }

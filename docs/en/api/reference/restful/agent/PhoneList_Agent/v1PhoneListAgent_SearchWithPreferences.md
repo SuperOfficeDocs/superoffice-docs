@@ -75,8 +75,8 @@ OK
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "et",
+  "SearchString": "suscipit",
   "Preferences": null
 }
 ```
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-436-304-4825 x96325",
-    "PersonCellPhone": "1-833-532-9613",
-    "PersonPrivatePhone": "935-266-9046 x37226",
-    "PersonFaxNumber": "730768",
-    "PersonPagerNumber": "798490",
-    "PersonEmail": "odessa@altenwerth.info",
-    "Id": 777,
-    "Name": "Herman, Rath and Morar",
-    "Tooltip": "quod",
-    "UniqueId": "sit",
+    "PersonDirectPhone": "1-364-872-8963",
+    "PersonCellPhone": "808-598-0261",
+    "PersonPrivatePhone": "524-716-9328",
+    "PersonFaxNumber": "798029",
+    "PersonPagerNumber": "1502495",
+    "PersonEmail": "kellen@block.uk",
+    "Id": 179,
+    "Name": "Wiegand, Boyle and Keeling",
+    "Tooltip": "a",
+    "UniqueId": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldLength": 639
       }
     }
   }

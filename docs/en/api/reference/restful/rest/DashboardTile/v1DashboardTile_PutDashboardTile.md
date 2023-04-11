@@ -94,8 +94,8 @@ DashboardTile updated.
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -104,46 +104,46 @@ DashboardTile updated.
 PUT /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 549,
-  "Caption": "illo",
-  "Description": "Re-contextualized contextually-based implementation",
-  "ChartName": "Ritchie-Quigley",
-  "ChartId": "quaerat",
-  "IsDefault": true,
-  "AssociateId": 565,
-  "GroupId": 18,
-  "SelectionId": 908,
-  "Config": "voluptatem",
+  "DashboardTileId": 491,
+  "Caption": "consequuntur",
+  "Description": "Distributed didactic moratorium",
+  "ChartName": "Mueller, Swaniawski and Nolan",
+  "ChartId": "rerum",
+  "IsDefault": false,
+  "AssociateId": 537,
+  "GroupId": 8,
+  "SelectionId": 173,
+  "Config": "neque",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Bins, Heaney and Heidenreich",
-      "Description": "Synergized eco-centric migration",
+      "Name": "Konopelski, Hessel and Rolfson",
+      "Description": "User-centric upward-trending initiative",
       "Type": "Boolean",
-      "ListName": "Stark, Bogisich and Jacobs",
+      "ListName": "Osinski LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "velit",
-      "DefaultDataOption": true
+      "Value": "debitis",
+      "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 635,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "vitae"
     },
     {
-      "VisibleId": 635,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "qui"
+      "DisplayValue": "vitae"
     }
   ]
 }
@@ -156,64 +156,64 @@ HTTP/1.1 200 DashboardTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 149,
-  "Caption": "voluptas",
-  "Description": "Business-focused impactful standardization",
-  "ChartName": "Nikolaus Group",
-  "ChartId": "delectus",
-  "IsDefault": false,
-  "AssociateId": 629,
-  "GroupId": 260,
-  "SelectionId": 969,
-  "Config": "necessitatibus",
+  "DashboardTileId": 472,
+  "Caption": "quae",
+  "Description": "Reverse-engineered client-server moratorium",
+  "ChartName": "Stokes-Hintz",
+  "ChartId": "sequi",
+  "IsDefault": true,
+  "AssociateId": 342,
+  "GroupId": 933,
+  "SelectionId": 196,
+  "Config": "quia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Zulauf Inc and Sons",
-      "Description": "Customer-focused eco-centric attitude",
+      "Name": "Effertz, Upton and Leannon",
+      "Description": "Organized methodical pricing structure",
       "Type": "Boolean",
-      "ListName": "Koepp-Gerhold",
+      "ListName": "Douglas, Goyette and Ritchie",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "placeat",
-      "DefaultDataOption": true,
+      "Value": "laborum",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 876
+          "FieldType": "System.Int32",
+          "FieldLength": 753
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 643,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldLength": 395
         }
       }
     },
     {
-      "VisibleId": 643,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "odit",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldLength": 395
         }
       }
     }
@@ -223,7 +223,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 482
     }
   },
   "_Links": {

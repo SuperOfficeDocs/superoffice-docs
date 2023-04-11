@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 129,
-  "SelectionId": 401,
-  "IncludeEmails": false
+  "DocumentPluginId": 788,
+  "SelectionId": 158,
+  "IncludeEmails": true
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 442,
-  "NumDocumentsAlreadyMigrated": 363,
+  "NumDocumentsOmitted": 958,
+  "NumDocumentsAlreadyMigrated": 169,
   "Documents": [
     {
-      "DocumentId": 944,
-      "ContactId": 680,
-      "PersonId": 603,
-      "SaleId": 628,
-      "ProjectId": 740,
-      "DocTmplId": 563,
-      "AssociateId": 358,
-      "UserGroupId": 9,
-      "VisibleForId": 749
+      "DocumentId": 38,
+      "ContactId": 233,
+      "PersonId": 191,
+      "SaleId": 296,
+      "ProjectId": 36,
+      "DocTmplId": 12,
+      "AssociateId": 699,
+      "UserGroupId": 384,
+      "VisibleForId": 253
     }
   ],
   "Associates": [
     {
-      "AssociateId": 889,
-      "EmailAddress": "jace.kreiger@langworth.co.uk"
+      "AssociateId": 362,
+      "EmailAddress": "brook_weimann@oberbrunnerwiza.co.uk"
     },
     {
-      "AssociateId": 889,
-      "EmailAddress": "jace.kreiger@langworth.co.uk"
+      "AssociateId": 362,
+      "EmailAddress": "brook_weimann@oberbrunnerwiza.co.uk"
     }
   ]
 }

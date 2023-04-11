@@ -53,8 +53,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,32 +70,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 22 Dec 2005 12:15:26 G12T
+Last-Modified: Fri, 07 Jan 2000 15:29:29 G1T
 
 {
-  "ForeignAppId": 268,
-  "Name": "Berge, Ward and Shanahan",
-  "CreatedDate": "1998-02-18T12:15:26.9446371+01:00",
-  "UpdatedDate": "2005-12-22T12:15:26.9446371+01:00",
+  "ForeignAppId": 767,
+  "Name": "Mueller Group",
+  "CreatedDate": "2006-04-30T15:29:29.7521995+02:00",
+  "UpdatedDate": "2000-01-07T15:29:29.7521995+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 778,
-      "Name": "Parisian, Schuster and Ziemann",
-      "CreatedDate": "2001-08-23T12:15:26.9456362+02:00",
-      "UpdatedDate": "1998-09-18T12:15:26.9456362+02:00",
-      "AssociateFullName": "Ms. Blaise Immanuel Casper DDS",
-      "CreatedBy": "a",
-      "UpdatedBy": "possimus",
-      "DeviceIdentifier": "deleniti",
-      "ForeignAppId": 254,
+      "ForeignDeviceId": 421,
+      "Name": "Kautzer Inc and Sons",
+      "CreatedDate": "1999-08-10T15:29:29.7531987+02:00",
+      "UpdatedDate": "2010-08-11T15:29:29.7531987+02:00",
+      "AssociateFullName": "Prof. Angelita Marisol Hilll",
+      "CreatedBy": "earum",
+      "UpdatedBy": "inventore",
+      "DeviceIdentifier": "repellat",
+      "ForeignAppId": 958,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 524
+          "FieldType": "System.Int32",
+          "FieldLength": 212
         }
       }
     }
@@ -104,8 +104,8 @@ Last-Modified: Thu, 22 Dec 2005 12:15:26 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldType": "System.String",
+      "FieldLength": 673
     }
   }
 }

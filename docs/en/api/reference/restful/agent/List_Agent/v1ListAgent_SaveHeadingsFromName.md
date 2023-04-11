@@ -69,8 +69,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,23 +82,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Steuber LLC",
+  "Name": "Hilpert, Cummerata and Bechtelar",
   "Entities": [
     {
-      "HeadingId": 710,
-      "Name": "Thompson-Towne",
-      "Tooltip": "error",
+      "HeadingId": 914,
+      "Name": "Heaney-Simonis",
+      "Tooltip": "ut",
       "Deleted": true,
-      "Rank": 422,
-      "UdListDefinitionId": 274
+      "Rank": 582,
+      "UdListDefinitionId": 926
     },
     {
-      "HeadingId": 710,
-      "Name": "Thompson-Towne",
-      "Tooltip": "error",
+      "HeadingId": 914,
+      "Name": "Heaney-Simonis",
+      "Tooltip": "ut",
       "Deleted": true,
-      "Rank": 422,
-      "UdListDefinitionId": 274
+      "Rank": 582,
+      "UdListDefinitionId": 926
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 374,
-    "Name": "Robel, Stark and Harris",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 639,
-    "UdListDefinitionId": 724,
+    "HeadingId": 922,
+    "Name": "Morar Group",
+    "Tooltip": "tempora",
+    "Deleted": false,
+    "Rank": 661,
+    "UdListDefinitionId": 315,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 229
+        "FieldLength": 917
       }
     }
   }

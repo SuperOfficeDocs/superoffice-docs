@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 490,
-    "Name": "Kub Group",
-    "ToolTip": "Qui blanditiis quo quos dolore et eveniet.",
+    "Id": 880,
+    "Name": "Eichmann-Mertz",
+    "ToolTip": "Molestiae et et fuga et modi ut.",
     "Deleted": true,
-    "Rank": 264,
-    "Type": "molestiae",
-    "ColorBlock": 50,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2013-02-20T12:15:28.4876135+01:00",
+    "Rank": 184,
+    "Type": "placeat",
+    "ColorBlock": 153,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2000-04-17T15:29:31.597474+02:00",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Oberbrunner, Runte and Rempel",
-        "ToolTip": "Eos ut voluptas tempora consequatur laborum aperiam veritatis.",
+        "Id": 713,
+        "Name": "Dibbert LLC",
+        "ToolTip": "Unde voluptas id voluptatem inventore eaque molestiae.",
         "Deleted": false,
-        "Rank": 114,
-        "Type": "consectetur",
-        "ColorBlock": 100,
-        "IconHint": "nobis",
+        "Rank": 607,
+        "Type": "doloribus",
+        "ColorBlock": 815,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2016-09-15T12:15:28.4876135+02:00",
+        "LastChanged": "2000-08-24T15:29:31.5979718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "possimus",
+        "ExtraInfo": "quia",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Dr. Shad Augustine Zboncak"
+        "FullName": "Mr. Skyla Stan Runte III"
       }
     ],
-    "ExtraInfo": "deleniti",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Miss Charlotte Mertz MD"
+    "ExtraInfo": "eum",
+    "StyleHint": "nemo",
+    "Hidden": true,
+    "FullName": "Claude Lubowitz"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Schaefer Group",
-    "ToolTip": "Qui amet necessitatibus aut labore sunt sed at.",
+    "Id": 95,
+    "Name": "Cole Group",
+    "ToolTip": "Pariatur ipsum non qui voluptas aperiam.",
     "Deleted": false,
-    "Rank": 521,
-    "Type": "minima",
-    "ColorBlock": 596,
-    "IconHint": "alias",
+    "Rank": 85,
+    "Type": "voluptatem",
+    "ColorBlock": 253,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "1999-12-28T12:15:28.4896146+01:00",
+    "LastChanged": "2000-10-22T15:29:31.598974+02:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "Emard Inc and Sons",
-        "ToolTip": "Blanditiis natus doloribus consectetur.",
+        "Id": 776,
+        "Name": "Hagenes-Kihn",
+        "ToolTip": "Vel voluptatem esse aliquam.",
         "Deleted": false,
-        "Rank": 993,
-        "Type": "minus",
-        "ColorBlock": 379,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2003-07-13T12:15:28.4896146+02:00",
+        "Rank": 290,
+        "Type": "et",
+        "ColorBlock": 205,
+        "IconHint": "aperiam",
+        "Selected": false,
+        "LastChanged": "2007-03-01T15:29:31.598974+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "natus",
+        "StyleHint": "itaque",
         "Hidden": true,
-        "FullName": "Ryleigh Anibal Treutel Sr.",
+        "FullName": "Dr. Dorian Cummings Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 456
+            "FieldType": "System.String",
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Prof. Margot Feeney",
+    "FullName": "Alana Kale Bogisich MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 202
       }
     }
   }

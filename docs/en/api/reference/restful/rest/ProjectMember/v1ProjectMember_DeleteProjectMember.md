@@ -42,7 +42,7 @@ ProjectMember deleted.
 |----------------|-------------|
 | 204 | ProjectMember deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

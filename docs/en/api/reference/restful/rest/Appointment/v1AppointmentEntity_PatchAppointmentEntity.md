@@ -151,8 +151,8 @@ AppointmentEntity  updated.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -161,18 +161,18 @@ AppointmentEntity  updated.
 PATCH /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ullam",
+    "path": "quo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ullam",
+    "path": "quo",
     "value": {}
   }
 ]
@@ -189,122 +189,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-06-12T12:15:26.3246447+02:00",
-  "AppointmentId": 969,
-  "Description": "Ergonomic fault-tolerant Graphic Interface",
-  "StartDate": "2007-04-06T12:15:26.3246447+02:00",
-  "EndDate": "2005-06-22T12:15:26.3246447+02:00",
+  "CreatedDate": "2015-08-02T15:29:29.2187097+02:00",
+  "AppointmentId": 927,
+  "Description": "Open-architected empowering synergy",
+  "StartDate": "1997-10-15T15:29:29.2187097+02:00",
+  "EndDate": "2016-05-23T15:29:29.2187097+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 427,
+  "MotherId": 769,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-12-18T12:15:26.3276451+01:00",
+  "UpdatedDate": "2014-03-14T15:29:29.2237102+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 553,
+  "ActiveLinks": 218,
   "Links": [
     {
-      "EntityName": "Schneider LLC",
-      "Id": 614,
-      "Description": "Seamless interactive monitoring",
-      "ExtraInfo": "debitis",
-      "LinkId": 236,
+      "EntityName": "Schiller Group",
+      "Id": 487,
+      "Description": "Pre-emptive web-enabled synergy",
+      "ExtraInfo": "ab",
+      "LinkId": 691,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 146
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     }
   ],
-  "AlarmLeadTime": "illum",
-  "HasAlarm": true,
-  "ColorIndex": 331,
+  "AlarmLeadTime": "pariatur",
+  "HasAlarm": false,
+  "ColorIndex": 19,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "veritatis",
-  "LeadTime": "incidunt",
-  "Location": "fugit",
-  "RejectCounter": 708,
+  "LagTime": "maiores",
+  "LeadTime": "voluptatum",
+  "Location": "explicabo",
+  "RejectCounter": 297,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 740,
-      "PersonId": 923,
-      "ContactId": 780,
-      "EmailId": 490,
-      "SendEmail": true,
+      "AssociateId": 354,
+      "PersonId": 809,
+      "ContactId": 687,
+      "EmailId": 266,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 740,
-      "PersonId": 923,
-      "ContactId": 780,
-      "EmailId": 490,
-      "SendEmail": true,
+      "AssociateId": 354,
+      "PersonId": 809,
+      "ContactId": 687,
+      "EmailId": 266,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-08-28T12:15:26.3276451+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-08-13T15:29:29.2242116+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 739,
+  "PreferredTZLocation": 179,
   "Sale": null,
-  "SuggestedAppointmentId": 804,
+  "SuggestedAppointmentId": 132,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "modi",
+  "CentralserviceVideomeetId": "eligendi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Jannie Trent Bogisich Sr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "210798769"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "ut"
+    "CustomFields1": "facilis",
+    "CustomFields2": "sapiente"
   },
-  "PublishEventDate": "2019-07-09T12:15:26.3306458+02:00",
-  "PublishTo": "2002-07-12T12:15:26.3306458+02:00",
-  "PublishFrom": "2011-09-22T12:15:26.3306458+02:00",
+  "PublishEventDate": "2015-05-21T15:29:29.2262098+02:00",
+  "PublishTo": "2003-01-14T15:29:29.2262098+01:00",
+  "PublishFrom": "2017-06-25T15:29:29.2262098+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 513,
+      "VisibleId": 896,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldLength": 134
         }
       }
     },
     {
-      "VisibleId": 513,
+      "VisibleId": 896,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldLength": 134
         }
       }
     }
@@ -314,7 +314,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 279
+      "FieldLength": 58
     }
   },
   "_Links": {

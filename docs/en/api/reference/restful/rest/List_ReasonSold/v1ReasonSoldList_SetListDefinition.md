@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 25,
-  "Name": "Beer-Swift",
-  "Tooltip": "corporis",
+  "Id": 984,
+  "Name": "Beahan-Prosacco",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 577,
+  "Rank": 687,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": false,
+  "ListType": "blanditiis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 441,
-  "Name": "Abbott-Franecki",
-  "Tooltip": "repellat",
+  "Id": 590,
+  "Name": "Runte LLC",
+  "Tooltip": "ab",
   "Deleted": true,
-  "Rank": 60,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 618,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   }
 }

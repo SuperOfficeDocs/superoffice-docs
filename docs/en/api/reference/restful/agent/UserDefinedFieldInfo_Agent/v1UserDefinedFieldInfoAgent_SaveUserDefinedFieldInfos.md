@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -71,40 +71,40 @@ Content-Type: application/json; charset=utf-8
 {
   "Infos": [
     {
-      "UDefFieldId": 505,
-      "ColumnId": 53,
-      "FieldDefault": "provident",
-      "FieldHeight": 821,
-      "FieldLabel": "veritatis",
-      "FieldLeft": 546,
-      "FieldTop": 970,
+      "UDefFieldId": 281,
+      "ColumnId": 67,
+      "FieldDefault": "sed",
+      "FieldHeight": 418,
+      "FieldLabel": "animi",
+      "FieldLeft": 384,
+      "FieldTop": 706,
       "FieldType": "Checkbox",
-      "FieldWidth": 531,
-      "FormatMask": "quisquam",
-      "HideLabel": true,
+      "FieldWidth": 392,
+      "FormatMask": "quia",
+      "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 899,
-      "LabelLeft": 216,
-      "LabelTop": 876,
-      "LabelWidth": 393,
-      "LastVersionId": 15,
-      "ListTableId": 950,
+      "LabelHeight": 775,
+      "LabelLeft": 815,
+      "LabelTop": 330,
+      "LabelWidth": 1000,
+      "LastVersionId": 574,
+      "ListTableId": 254,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 745,
-      "ProgId": "cumque",
+      "Page1LineNo": 652,
+      "ProgId": "et",
       "IsReadOnly": false,
-      "ShortLabel": "voluptatum",
-      "TabOrder": 690,
-      "TextLength": 929,
-      "Tooltip": "et",
-      "UdefIdentity": 824,
-      "UDListDefinitionId": 194,
+      "ShortLabel": "culpa",
+      "TabOrder": 934,
+      "TextLength": 576,
+      "Tooltip": "odio",
+      "UdefIdentity": 554,
+      "UDListDefinitionId": 199,
       "Justification": "Center",
-      "Version": 693,
-      "TemplateVariableName": "Hahn-O'Connell",
-      "HasBeenPublished": true,
-      "MdoListName": "Price-Lueilwitz"
+      "Version": 861,
+      "TemplateVariableName": "Fisher, Rogahn and Bergstrom",
+      "HasBeenPublished": false,
+      "MdoListName": "Sanford Group"
     }
   ]
 }

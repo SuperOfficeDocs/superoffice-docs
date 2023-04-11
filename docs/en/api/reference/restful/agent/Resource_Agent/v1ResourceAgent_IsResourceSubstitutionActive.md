@@ -67,8 +67,8 @@ OK
 | ResourceValue | string | The value of the resource in the given culture |
 | Culture | string | .NET-style culture code, such as NB-NO or EN-UK |
 | IsActive | bool | Is this override active |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hayes, Beatty and Hand",
-    "Gulgowski-Ferry"
+    "Hickle, Hackett and Mayert",
+    "Hudson-Klein"
   ],
-  "Culture": "doloribus"
+  "Culture": "alias"
 }
 ```
 
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Abshire, Conn and Luettgen",
-    "ResourceValue": "magnam",
-    "Culture": "fugit",
+    "ResourceName": "Boehm, Hickle and Bode",
+    "ResourceValue": "quidem",
+    "Culture": "ut",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 993
       }
     }
   },
   {
-    "ResourceName": "Abshire, Conn and Luettgen",
-    "ResourceValue": "magnam",
-    "Culture": "fugit",
+    "ResourceName": "Boehm, Hickle and Bode",
+    "ResourceValue": "quidem",
+    "Culture": "ut",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 993
       }
     }
   }

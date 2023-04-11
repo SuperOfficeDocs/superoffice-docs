@@ -80,8 +80,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 700
+  "PersonId": 198
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 251,
-    "Name": "VonRueden Group",
-    "Description": "Centralized stable support",
+    "ProjectId": 247,
+    "Name": "Crona-Feil",
+    "Description": "Horizontal 24 hour circuit",
     "URL": "http://www.example.com/",
-    "Type": "aut",
-    "AssociateId": 602,
-    "AssociateFullName": "Dallas Mante",
-    "TypeId": 19,
-    "Updated": "2018-08-20T12:15:19.8607396+02:00",
-    "StatusId": 708,
-    "Status": "maxime",
-    "TextId": 188,
-    "PublishTo": "2001-09-08T12:15:19.8607396+02:00",
-    "PublishFrom": "2019-11-06T12:15:19.8607396+01:00",
-    "IsPublished": true,
+    "Type": "dolorem",
+    "AssociateId": 250,
+    "AssociateFullName": "Ms. Ana Reinger",
+    "TypeId": 273,
+    "Updated": "2009-04-14T15:29:22.4867661+02:00",
+    "StatusId": 889,
+    "Status": "dolores",
+    "TextId": 104,
+    "PublishTo": "2006-11-17T15:29:22.4867661+01:00",
+    "PublishFrom": "2013-01-27T15:29:22.4867661+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "806622",
-    "ActiveErpLinks": 131,
+    "ProjectNumber": "1313730",
+    "ActiveErpLinks": 514,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 816
       }
     }
   }

@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "McLaughlin LLC",
-    "ToolTip": "Ratione similique beatae asperiores aliquam hic.",
-    "Deleted": true,
-    "Rank": 305,
-    "Type": "quia",
-    "ColorBlock": 453,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2003-01-23T12:15:28.3026234+01:00",
+    "Id": 941,
+    "Name": "Cole, Rohan and Johns",
+    "ToolTip": "Omnis ratione.",
+    "Deleted": false,
+    "Rank": 793,
+    "Type": "excepturi",
+    "ColorBlock": 271,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2010-09-07T15:29:31.4179768+02:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Bednar, Stoltenberg and Walter",
-        "ToolTip": "Maiores officiis aut aperiam culpa.",
+        "Id": 611,
+        "Name": "Cormier LLC",
+        "ToolTip": "A ullam quisquam repellendus qui deserunt.",
         "Deleted": false,
-        "Rank": 423,
-        "Type": "neque",
-        "ColorBlock": 286,
-        "IconHint": "fugit",
-        "Selected": true,
-        "LastChanged": "2001-12-20T12:15:28.3036187+01:00",
+        "Rank": 984,
+        "Type": "odio",
+        "ColorBlock": 282,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2005-10-24T15:29:31.4184804+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "ex",
-        "Hidden": false,
-        "FullName": "Bonita Nienow",
+        "ExtraInfo": "maiores",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Miss Edythe Larissa Wilderman Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 719
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "fugit",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "ad",
     "Hidden": true,
-    "FullName": "Molly Balistreri",
+    "FullName": "Shawna Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

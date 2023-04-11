@@ -73,8 +73,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fahey, Senger and Franecki",
-  "DeviceName": "Deckow, Macejkovic and Wolff",
-  "DeviceIdentifier": "dolorem",
-  "TableName": "Ledner-Cormier"
+  "ApplicationName": "Reichel Inc and Sons",
+  "DeviceName": "Schmitt LLC",
+  "DeviceIdentifier": "quaerat",
+  "TableName": "Sauer, Vandervort and Conroy"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quae",
-    "Value": "ut",
-    "RecordId": 173,
-    "CreatedDate": "2001-01-05T12:15:19.1717511+01:00",
-    "UpdatedDate": "2014-05-19T12:15:19.1717511+02:00",
-    "UpdatedBy": "consectetur",
-    "CreatedBy": "deserunt",
-    "TableName": "Windler-Gottlieb",
+    "Key": "quibusdam",
+    "Value": "enim",
+    "RecordId": 529,
+    "CreatedDate": "2011-05-09T15:29:21.9313087+02:00",
+    "UpdatedDate": "2018-07-05T15:29:21.9313087+02:00",
+    "UpdatedBy": "distinctio",
+    "CreatedBy": "non",
+    "TableName": "Herman, Lakin and Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldType": "System.String",
+        "FieldLength": 685
       }
     }
   }

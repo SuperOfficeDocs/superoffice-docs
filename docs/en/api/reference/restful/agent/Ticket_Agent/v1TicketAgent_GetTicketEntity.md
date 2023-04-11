@@ -25,7 +25,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=740
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=962
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -110,8 +110,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -129,21 +129,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 331,
-  "Title": "iusto",
-  "CreatedAt": "2014-05-21T12:15:20.3227317+02:00",
-  "LastChanged": "2002-12-23T12:15:20.3227317+01:00",
-  "ReadByOwner": "2011-04-03T12:15:20.3227317+02:00",
-  "ReadByCustomer": "2006-12-09T12:15:20.3227317+01:00",
-  "FirstReadByOwner": "2002-09-14T12:15:20.3227317+02:00",
-  "FirstReadByUser": "2012-06-27T12:15:20.3227317+02:00",
-  "Activate": "2016-11-09T12:15:20.3227317+01:00",
-  "ClosedAt": "2003-01-26T12:15:20.3227317+01:00",
-  "RepliedAt": "2005-08-03T12:15:20.3227317+02:00",
-  "AlertTimeout": "1999-07-28T12:15:20.3227317+02:00",
-  "Deadline": "2006-08-01T12:15:20.3227317+02:00",
+  "TicketId": 881,
+  "Title": "similique",
+  "CreatedAt": "1997-05-14T15:29:23.0982565+02:00",
+  "LastChanged": "1998-12-05T15:29:23.0982565+01:00",
+  "ReadByOwner": "2020-07-20T15:29:23.0982565+02:00",
+  "ReadByCustomer": "2017-06-03T15:29:23.0982565+02:00",
+  "FirstReadByOwner": "1997-11-13T15:29:23.0982565+01:00",
+  "FirstReadByUser": "2017-03-28T15:29:23.0982565+02:00",
+  "Activate": "2021-02-06T15:29:23.0982565+01:00",
+  "ClosedAt": "2018-09-30T15:29:23.0982565+02:00",
+  "RepliedAt": "2008-11-21T15:29:23.0982565+01:00",
+  "AlertTimeout": "1999-11-19T15:29:23.0982565+01:00",
+  "Deadline": "2017-11-26T15:29:23.0982565+01:00",
   "CreatedBy": null,
-  "Author": "magnam",
+  "Author": "possimus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -154,157 +154,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "praesentium",
-      "PersonId": 536,
-      "Mrmrs": "quas",
-      "Firstname": "Emelie",
-      "Lastname": "Parisian",
-      "MiddleName": "Zieme, West and Adams",
-      "Title": "et",
-      "Description": "Distributed background secured line",
-      "Email": "abbigail.kshlerin@dickinsonrath.biz",
-      "FullName": "Edwin Toy",
-      "DirectPhone": "1-078-122-1546 x384",
-      "FormalName": "Powlowski, Stokes and Bins",
-      "CountryId": 59,
-      "ContactId": 17,
-      "ContactName": "Bashirian Inc and Sons",
-      "Retired": 965,
-      "Rank": 112,
-      "ActiveInterests": 208,
+      "Position": "nostrum",
+      "PersonId": 586,
+      "Mrmrs": "recusandae",
+      "Firstname": "Elvera",
+      "Lastname": "DuBuque",
+      "MiddleName": "Halvorson Inc and Sons",
+      "Title": "placeat",
+      "Description": "Organized intermediate application",
+      "Email": "greyson@goyette.name",
+      "FullName": "Kane Bogisich",
+      "DirectPhone": "577-214-3863",
+      "FormalName": "Marvin, Walsh and Shields",
+      "CountryId": 630,
+      "ContactId": 59,
+      "ContactName": "Orn Group",
+      "Retired": 421,
+      "Rank": 467,
+      "ActiveInterests": 253,
       "ContactDepartment": "",
-      "ContactCountryId": 141,
-      "ContactOrgNr": "899694",
-      "FaxPhone": "(741)588-3525 x125",
-      "MobilePhone": "(674)158-7574 x911",
-      "ContactPhone": "201.969.9971",
-      "AssociateName": "Bradtke, Kuhn and Reynolds",
-      "AssociateId": 927,
+      "ContactCountryId": 847,
+      "ContactOrgNr": "238535",
+      "FaxPhone": "190-009-6684 x66859",
+      "MobilePhone": "(933)343-1410 x2816",
+      "ContactPhone": "(400)568-7339 x325",
+      "AssociateName": "Quigley, Reynolds and Klein",
+      "AssociateId": 817,
       "UsePersonAddress": false,
-      "ContactFax": "itaque",
-      "Kanafname": "beatae",
-      "Kanalname": "est",
-      "Post1": "at",
-      "Post2": "architecto",
-      "Post3": "suscipit",
-      "EmailName": "lambert.shields@walker.uk",
-      "ContactFullName": "Geraldine Genesis Koelpin V",
-      "ActiveErpLinks": 277,
-      "TicketPriorityId": 11,
-      "SupportLanguageId": 275,
-      "SupportAssociateId": 228,
+      "ContactFax": "aut",
+      "Kanafname": "voluptatibus",
+      "Kanalname": "iusto",
+      "Post1": "deleniti",
+      "Post2": "soluta",
+      "Post3": "fugit",
+      "EmailName": "florian.cormier@bahringer.co.uk",
+      "ContactFullName": "Chris Bailey",
+      "ActiveErpLinks": 732,
+      "TicketPriorityId": 738,
+      "SupportLanguageId": 107,
+      "SupportAssociateId": 576,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 296
+          "FieldLength": 850
         }
       }
     }
   ],
-  "AlertLevel": 308,
-  "ConnectId": 132,
+  "AlertLevel": 249,
+  "ConnectId": 111,
   "ReadStatus": "Green",
-  "TimeToReply": 537,
-  "RealTimeToReply": 222,
-  "TimeToClose": 65,
-  "RealTimeToClose": 827,
-  "TimeSpentInternally": 308,
-  "TimeSpentExternally": 306,
-  "TimeSpentQueue": 147,
-  "RealTimeSpentInternally": 876,
-  "RealTimeSpentExternally": 570,
-  "RealTimeSpentQueue": 17,
+  "TimeToReply": 386,
+  "RealTimeToReply": 561,
+  "TimeToClose": 965,
+  "RealTimeToClose": 48,
+  "TimeSpentInternally": 927,
+  "TimeSpentExternally": 530,
+  "TimeSpentQueue": 755,
+  "RealTimeSpentInternally": 267,
+  "RealTimeSpentExternally": 704,
+  "RealTimeSpentQueue": 779,
   "HasAttachment": true,
-  "NumReplies": 692,
-  "NumMessages": 659,
-  "FromAddress": "corrupti",
+  "NumReplies": 917,
+  "NumMessages": 211,
+  "FromAddress": "totam",
   "Messages": [
     {
-      "TicketMessageId": 713,
-      "CreatedAt": "2012-04-22T12:15:20.3267324+02:00",
+      "TicketMessageId": 455,
+      "CreatedAt": "2015-04-03T15:29:23.1027573+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "quia",
-      "PersonId": 544,
-      "PersonFullName": "Murray Weber",
-      "ContactId": 626,
-      "ContactName": "Stehr-Cremin",
+      "Author": "a",
+      "PersonId": 470,
+      "PersonFullName": "Miss Jovanny O'Keefe Sr.",
+      "ContactId": 347,
+      "ContactName": "Blanda Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 72,
-      "EmailHeader": "deron.hoppe@ryanhodkiewicz.name",
+      "NumAttachments": 815,
+      "EmailHeader": "macy@vandervortokeefe.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "autem",
-      "Sentiment": 652,
-      "SentimentConfidence": 882,
-      "CreatedBy": 744,
-      "ChangedAt": "2010-11-24T12:15:20.3277321+01:00",
+      "Language": "enim",
+      "Sentiment": 806,
+      "SentimentConfidence": 692,
+      "CreatedBy": 383,
+      "ChangedAt": "2001-05-25T15:29:23.1032573+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 630
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 349,
-      "Name": "Zemlak LLC",
-      "ToolTip": "Officiis itaque impedit aut perferendis dolorem.",
+      "Id": 866,
+      "Name": "Windler-Kris",
+      "ToolTip": "Cum sequi eveniet incidunt exercitationem culpa dolores.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 560
+          "FieldType": "System.Int32",
+          "FieldLength": 323
         }
       }
     },
     {
-      "Id": 349,
-      "Name": "Zemlak LLC",
-      "ToolTip": "Officiis itaque impedit aut perferendis dolorem.",
+      "Id": 866,
+      "Name": "Windler-Kris",
+      "ToolTip": "Cum sequi eveniet incidunt exercitationem culpa dolores.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 560
+          "FieldType": "System.Int32",
+          "FieldLength": 323
         }
       }
     }
   ],
-  "Language": "exercitationem",
-  "Sentiment": 237,
-  "SentimentConfidence": 372,
-  "SuggestedCategoryId": 29,
+  "Language": "voluptatem",
+  "Sentiment": 580,
+  "SentimentConfidence": 353,
+  "SuggestedCategoryId": 819,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 988,
-  "IconHint": "ab",
+  "OrigHumanCategoryId": 30,
+  "IconHint": "non",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "explicabo",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "quas"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "at"
+    "CustomFields1": "est",
+    "CustomFields2": "aperiam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 170
     }
   }
 }

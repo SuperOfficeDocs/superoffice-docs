@@ -27,7 +27,7 @@ Gets a RoleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=114
+POST /api/v1/Agents/User/GetRoleEntity?roleEntityId=327
 POST /api/v1/Agents/User/GetRoleEntity?$select=name,department,category/id
 ```
 
@@ -70,8 +70,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/User/GetRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,24 +89,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 187,
-  "Name": "Pouros-Steuber",
-  "Tooltip": "fugiat",
+  "RoleId": 664,
+  "Name": "Stanton, Dare and Beahan",
+  "Tooltip": "optio",
   "RoleType": "Anonymous",
-  "Deleted": 305,
-  "Rank": 79,
-  "Created": "2008-12-27T12:15:20.5607283+01:00",
-  "UseCategories": 399,
+  "Deleted": 642,
+  "Rank": 163,
+  "Created": "2022-03-12T15:29:23.3332537+01:00",
+  "UseCategories": 831,
   "CreatedBy": null,
-  "Updated": "2000-07-27T12:15:20.561728+02:00",
+  "Updated": "2004-04-11T15:29:23.3337533+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

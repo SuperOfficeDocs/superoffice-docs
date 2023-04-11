@@ -78,7 +78,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 14,
+  "AssociateId": 973,
   "UserPresenceStatus": null
 }
 ```
@@ -91,6 +91,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "quaerat"
+  "Message": "eum"
 }
 ```

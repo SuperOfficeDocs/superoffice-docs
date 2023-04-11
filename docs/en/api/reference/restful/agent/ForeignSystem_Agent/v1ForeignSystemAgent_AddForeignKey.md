@@ -73,8 +73,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Windler Inc and Sons",
-  "DeviceName": "Heidenreich-Lakin",
-  "DeviceIdentifier": "sit"
+  "ApplicationName": "Vandervort-Robel",
+  "DeviceName": "Ritchie, Lynch and Hansen",
+  "DeviceIdentifier": "earum"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quod",
-  "Value": "repudiandae",
-  "RecordId": 851,
-  "CreatedDate": "1997-01-01T12:15:19.1587494+01:00",
-  "UpdatedDate": "2006-03-30T12:15:19.1587494+02:00",
-  "UpdatedBy": "numquam",
-  "CreatedBy": "eum",
-  "TableName": "Rowe-Ernser",
+  "Key": "nihil",
+  "Value": "pariatur",
+  "RecordId": 469,
+  "CreatedDate": "1997-06-20T15:29:21.9228093+02:00",
+  "UpdatedDate": "2013-01-23T15:29:21.9228093+01:00",
+  "UpdatedBy": "pariatur",
+  "CreatedBy": "nemo",
+  "TableName": "Bins-Johns",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 127
     }
   }
 }

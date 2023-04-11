@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 224,
-  "Name": "Okuneva-Hoeger",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 12,
+  "Id": 221,
+  "Name": "Marvin, Cormier and Graham",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 7,
   "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639,
-  "Name": "Stehr Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 602,
+  "Name": "Feeney Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 166,
+  "Rank": 585,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "impedit",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 444
     }
   }
 }

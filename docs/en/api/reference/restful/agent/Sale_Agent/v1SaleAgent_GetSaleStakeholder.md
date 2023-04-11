@@ -25,7 +25,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=460
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=366
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -75,8 +75,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "White, Frami and Heathcote",
-  "Comment": "omnis",
-  "StakeholderRoleId": 599,
-  "CountryId": 958,
-  "PersonId": 686,
-  "EmailDescription": "madelyn.raynor@reynolds.ca",
-  "EmailId": 908,
-  "EmailAddress": "winnifred_kirlin@konopelski.biz",
-  "PhoneId": 761,
-  "ContactName": "Bednar LLC",
-  "ContactId": 448,
-  "SaleId": 969,
-  "Mrmrs": "omnis",
-  "Firstname": "August",
-  "MiddleName": "Romaguera-VonRueden",
-  "Lastname": "Pouros",
-  "SaleStakeholderId": 933,
-  "Rank": 831,
-  "Phone": "(867)273-4315",
+  "StakeholderRoleName": "Denesik-Lynch",
+  "Comment": "ea",
+  "StakeholderRoleId": 206,
+  "CountryId": 187,
+  "PersonId": 630,
+  "EmailDescription": "albina@watsica.name",
+  "EmailId": 194,
+  "EmailAddress": "leonor@champlin.info",
+  "PhoneId": 601,
+  "ContactName": "Gorczany, Heathcote and Kuvalis",
+  "ContactId": 28,
+  "SaleId": 491,
+  "Mrmrs": "et",
+  "Firstname": "Bulah",
+  "MiddleName": "Gorczany, Huel and Glover",
+  "Lastname": "Krajcik",
+  "SaleStakeholderId": 229,
+  "Rank": 196,
+  "Phone": "(320)162-9436 x79725",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 865
     }
   }
 }

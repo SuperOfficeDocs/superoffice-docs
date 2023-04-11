@@ -72,8 +72,8 @@ OK
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Runolfsdottir, Wehner and Terry",
+  "TableName": "Wilkinson-Anderson",
   "Columns": [
-    "cumque",
-    "qui"
+    "voluptas",
+    "aperiam"
   ],
   "Data": [
     [
@@ -109,40 +109,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "qui",
-  "Inserts": 390,
-  "Updates": 714,
-  "Deletes": 528,
+  "Message": "ea",
+  "Inserts": 115,
+  "Updates": 743,
+  "Deletes": 676,
   "RowStatus": [
     {
-      "PrimaryKey": 691,
+      "PrimaryKey": 281,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sed",
-        "facere"
+        "vero",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 801
         }
       }
     },
     {
-      "PrimaryKey": 691,
+      "PrimaryKey": 281,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sed",
-        "facere"
+        "vero",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 877
+          "FieldLength": 801
         }
       }
     }
@@ -151,8 +151,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

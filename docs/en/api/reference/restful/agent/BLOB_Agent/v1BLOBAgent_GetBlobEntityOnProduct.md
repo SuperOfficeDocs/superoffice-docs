@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 858
+  "ProductId": 462
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 390,
-  "BlobSize": 480,
-  "Description": "Proactive web-enabled benchmark",
-  "ExtraInfo": "cum",
+  "BlobId": 384,
+  "BlobSize": 991,
+  "Description": "Organized systemic access",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "omnis",
-  "OriginalSize": 483,
-  "CreatedDate": "2004-08-29T12:15:18.2297627+02:00",
-  "UpdatedDate": "2019-10-03T12:15:18.2297627+02:00",
+  "MimeType": "cum",
+  "OriginalSize": 346,
+  "CreatedDate": "1995-12-01T15:29:20.847789+01:00",
+  "UpdatedDate": "2023-01-16T15:29:20.847789+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

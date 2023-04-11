@@ -110,8 +110,8 @@ CRMScriptEntity  updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "fuga",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fuga",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -144,23 +144,23 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 470,
-  "UniqueIdentifier": "alias",
-  "Name": "Runolfsson-Franecki",
-  "Description": "Secured modular projection",
-  "IncludeId": "et",
-  "HierarchyId": 385,
-  "Source": "unde",
-  "Registered": "2009-01-03T12:15:26.8126382+01:00",
-  "RegisteredAssociateId": 796,
-  "Updated": "2021-06-24T12:15:26.8126382+02:00",
-  "UpdatedAssociateId": 478,
+  "EjscriptId": 452,
+  "UniqueIdentifier": "laudantium",
+  "Name": "Aufderhar Inc and Sons",
+  "Description": "De-engineered multimedia software",
+  "IncludeId": "voluptatem",
+  "HierarchyId": 485,
+  "Source": "rerum",
+  "Registered": "2017-07-31T15:29:29.6292022+02:00",
+  "RegisteredAssociateId": 110,
+  "Updated": "2014-06-12T15:29:29.6292022+02:00",
+  "UpdatedAssociateId": 736,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldType": "System.String",
+      "FieldLength": 58
     }
   },
   "_Links": {

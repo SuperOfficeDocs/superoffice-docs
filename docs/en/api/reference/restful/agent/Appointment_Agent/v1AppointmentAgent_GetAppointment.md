@@ -25,7 +25,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=255
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=438
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -105,8 +105,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -124,53 +124,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 686,
-  "StartDate": "2021-10-28T12:15:17.7647733+02:00",
-  "EndDate": "2006-12-27T12:15:17.7647733+01:00",
+  "AppointmentId": 558,
+  "StartDate": "2010-06-05T15:29:20.5092929+02:00",
+  "EndDate": "2009-11-30T15:29:20.5092929+01:00",
   "Type": "BookingForChecklist",
-  "Task": "atque",
-  "AssociateFullName": "Dr. Gloria Carter PhD",
-  "ContactName": "Torp, Ondricka and Greenfelder",
-  "Description": "Managed empowering utilisation",
-  "PersonFullName": "Mona Moen",
-  "PersonId": 301,
-  "ContactId": 763,
-  "ProjectId": 457,
-  "ProjectName": "Gislason LLC",
+  "Task": "quibusdam",
+  "AssociateFullName": "Dr. Lorna Joel Feest DDS",
+  "ContactName": "Schumm Inc and Sons",
+  "Description": "Enhanced cohesive emulation",
+  "PersonFullName": "Parker Goodwin",
+  "PersonId": 525,
+  "ContactId": 238,
+  "ProjectId": 129,
+  "ProjectName": "Buckridge, Collier and O'Kon",
   "IsPublished": false,
-  "AssociateId": 283,
-  "ColorIndex": 412,
-  "IsFree": true,
+  "AssociateId": 166,
+  "ColorIndex": 489,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 823,
-  "PriorityName": "Quitzon, Wisozk and Pacocha",
+  "PriorityId": 233,
+  "PriorityName": "Ruecker-Monahan",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2013-09-29T12:15:17.7657735+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2001-11-20T15:29:20.5097929+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2012-03-08T12:15:17.7657735+01:00",
-  "RecurringEndDate": "2004-12-07T12:15:17.7657735+01:00",
-  "MotherId": 418,
-  "AssignedBy": 260,
-  "AssignedByFullName": "Prof. Seth Tyrese Wiza",
+  "RecurringStartDate": "1996-10-11T15:29:20.5097929+02:00",
+  "RecurringEndDate": "2014-04-18T15:29:20.5097929+02:00",
+  "MotherId": 851,
+  "AssignedBy": 843,
+  "AssignedByFullName": "Manuela Gusikowski",
   "RejectReason": "",
-  "Location": "libero",
-  "AlarmLeadTime": "qui",
-  "SaleId": 777,
-  "SaleName": "Haley, Parker and Becker",
-  "AssociateName": "Cole, O'Reilly and Boyle",
-  "CreatedDate": "2005-02-04T12:15:17.7657735+01:00",
-  "CreatedBy": "ullam",
-  "CreatedByFullName": "Giuseppe Jessy O'Keefe V",
-  "CreatedByAssociateId": 799,
+  "Location": "repellendus",
+  "AlarmLeadTime": "autem",
+  "SaleId": 600,
+  "SaleName": "Cormier-Hills",
+  "AssociateName": "Satterfield, Daniel and Lueilwitz",
+  "CreatedDate": "1997-08-29T15:29:20.5102938+02:00",
+  "CreatedBy": "iusto",
+  "CreatedByFullName": "Gwendolyn Kutch",
+  "CreatedByAssociateId": 459,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 396
     }
   }
 }

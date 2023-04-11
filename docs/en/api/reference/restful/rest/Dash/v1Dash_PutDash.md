@@ -92,8 +92,8 @@ Dash updated.
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -102,34 +102,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 516,
-  "UniqueId": "velit",
-  "Name": "Tillman LLC",
-  "Description": "Balanced empowering open architecture",
-  "AssociateId": 728,
-  "Columns": 893,
+  "DashboardId": 630,
+  "UniqueId": "consequatur",
+  "Name": "West Inc and Sons",
+  "Description": "Seamless asynchronous help-desk",
+  "AssociateId": 594,
+  "Columns": 565,
   "Theme": null,
-  "VisibleForAll": 305,
+  "VisibleForAll": 279,
   "VisibleForAssociates": [
-    464,
-    665
+    997,
+    247
   ],
   "VisibleForGroups": [
-    452,
-    444
+    645,
+    244
   ],
-  "PinForAll": 989,
+  "PinForAll": 426,
   "PinForAssociates": [
-    46,
-    723
+    996,
+    811
   ],
   "PinForGroups": [
-    173,
-    32
+    515,
+    588
   ]
 }
 ```
@@ -141,37 +141,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 463,
-  "UniqueId": "aliquam",
-  "Name": "Rutherford-Schumm",
-  "Description": "Operative object-oriented archive",
-  "AssociateId": 103,
-  "Columns": 421,
+  "DashboardId": 564,
+  "UniqueId": "aut",
+  "Name": "Bauch-Lowe",
+  "Description": "Right-sized clear-thinking open system",
+  "AssociateId": 707,
+  "Columns": 437,
   "Theme": null,
-  "VisibleForAll": 341,
+  "VisibleForAll": 962,
   "VisibleForAssociates": [
-    675,
-    62
+    335,
+    39
   ],
   "VisibleForGroups": [
-    927,
-    179
+    581,
+    846
   ],
-  "PinForAll": 156,
+  "PinForAll": 866,
   "PinForAssociates": [
-    876,
-    725
+    370,
+    956
   ],
   "PinForGroups": [
-    398,
-    318
+    150,
+    951
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 27
+      "FieldType": "System.Int32",
+      "FieldLength": 540
     }
   },
   "_Links": {

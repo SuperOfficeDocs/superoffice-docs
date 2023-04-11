@@ -74,8 +74,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "in"
+  "TriggerScriptUniqueId": "fugit"
 }
 ```
 
@@ -98,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 934,
-  "Name": "Fritsch Group",
+  "ScreenChooserId": 215,
+  "Name": "Schuppe-Lang",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "ad",
-  "Source": "quam",
-  "Registered": "2017-05-23T12:15:18.6337567+02:00",
-  "RegisteredAssociateId": 159,
-  "Updated": "2015-08-11T12:15:18.6337567+02:00",
-  "UpdatedAssociateId": 232,
+  "UniqueIdentifier": "dolor",
+  "Source": "dolorem",
+  "Registered": "2012-06-23T15:29:21.2607834+02:00",
+  "RegisteredAssociateId": 206,
+  "Updated": "2017-02-02T15:29:21.2607834+01:00",
+  "UpdatedAssociateId": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 499
     }
   }
 }

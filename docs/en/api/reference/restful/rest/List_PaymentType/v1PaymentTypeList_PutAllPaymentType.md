@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Doyle-Pacocha",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 187,
-    "Rank": 396
+    "Id": 256,
+    "Name": "Nader Inc and Sons",
+    "Tooltip": "culpa",
+    "Deleted": true,
+    "UdListDefinitionId": 444,
+    "Rank": 21
   },
   {
-    "Id": 739,
-    "Name": "Doyle-Pacocha",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 187,
-    "Rank": 396
+    "Id": 256,
+    "Name": "Nader Inc and Sons",
+    "Tooltip": "culpa",
+    "Deleted": true,
+    "UdListDefinitionId": 444,
+    "Rank": 21
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Schaden LLC",
-    "Tooltip": "et",
+    "Id": 311,
+    "Name": "Shanahan Group",
+    "Tooltip": "eos",
     "Deleted": true,
-    "UdListDefinitionId": 627,
-    "Rank": 375,
+    "UdListDefinitionId": 394,
+    "Rank": 310,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 464
       }
     }
   }

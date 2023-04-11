@@ -57,8 +57,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,29 +76,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 856,
-  "Name": "Nader-Glover",
-  "CreatedDate": "2012-09-27T12:15:26.9416423+02:00",
-  "UpdatedDate": "2021-06-02T12:15:26.9416423+02:00",
+  "ForeignAppId": 72,
+  "Name": "Heathcote, Little and Gusikowski",
+  "CreatedDate": "2013-02-10T15:29:29.7501967+01:00",
+  "UpdatedDate": "2012-04-01T15:29:29.7501967+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 80,
-      "Name": "Haley LLC",
-      "CreatedDate": "2008-08-25T12:15:26.9426362+02:00",
-      "UpdatedDate": "2001-02-01T12:15:26.9426362+01:00",
-      "AssociateFullName": "Reba Rodriguez DDS",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "ipsum",
-      "ForeignAppId": 234,
+      "ForeignDeviceId": 786,
+      "Name": "Von-Leannon",
+      "CreatedDate": "2012-04-23T15:29:29.7506989+02:00",
+      "UpdatedDate": "2016-12-08T15:29:29.7506989+01:00",
+      "AssociateFullName": "Miss Jodie Cremin",
+      "CreatedBy": "tempore",
+      "UpdatedBy": "sunt",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 830,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldType": "System.Int32",
+          "FieldLength": 271
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldLength": 229
     }
   }
 }

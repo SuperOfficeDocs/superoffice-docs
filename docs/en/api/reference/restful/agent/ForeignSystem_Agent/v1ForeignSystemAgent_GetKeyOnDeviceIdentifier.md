@@ -77,8 +77,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,12 +90,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mitchell-Ritchie",
-  "DeviceName": "Hagenes Group",
-  "DeviceIdentifier": "qui",
-  "KeyName": "Crooks Group",
-  "TableName": "Koss Inc and Sons",
-  "RecordId": 486
+  "ApplicationName": "Pacocha, Funk and Gleichner",
+  "DeviceName": "Jones, Murray and D'Amore",
+  "DeviceIdentifier": "et",
+  "KeyName": "Boyle LLC",
+  "TableName": "Marks-Bayer",
+  "RecordId": 851
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nostrum",
-  "Value": "omnis",
-  "RecordId": 667,
-  "CreatedDate": "2005-07-15T12:15:19.1577486+02:00",
-  "UpdatedDate": "2014-01-23T12:15:19.1577486+01:00",
-  "UpdatedBy": "fugiat",
-  "CreatedBy": "natus",
-  "TableName": "Oberbrunner-Schneider",
+  "Key": "non",
+  "Value": "saepe",
+  "RecordId": 936,
+  "CreatedDate": "2004-07-17T15:29:21.9218146+02:00",
+  "UpdatedDate": "2006-07-14T15:29:21.9218146+02:00",
+  "UpdatedBy": "dolor",
+  "CreatedBy": "tenetur",
+  "TableName": "Schuster Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

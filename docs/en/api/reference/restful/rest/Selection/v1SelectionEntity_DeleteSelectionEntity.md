@@ -43,7 +43,7 @@ SelectionEntity deleted.
 | 204 | SelectionEntity deleted. |
 | 412 | Delete aborted because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -52,7 +52,7 @@ SelectionEntity deleted.
 DELETE /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

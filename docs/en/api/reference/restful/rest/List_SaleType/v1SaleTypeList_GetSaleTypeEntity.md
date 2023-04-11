@@ -73,8 +73,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,53 +92,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 484,
-  "Name": "Yost LLC",
-  "Tooltip": "laboriosam",
-  "Rank": 328,
+  "SaleTypeId": 99,
+  "Name": "Quigley LLC",
+  "Tooltip": "sit",
+  "Rank": 285,
   "DurationUnit": "Century",
-  "SaleDuration": 242,
-  "SaleTypeCatId": 210,
+  "SaleDuration": 876,
+  "SaleTypeCatId": 833,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 120,
-  "QuoteLinesTemplate": 700,
-  "ConfirmationLinesTemplate": 762,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 187,
-  "MinEarningPercent": 327,
-  "GroupQuoteLinesBy": 245,
-  "SortGroupLinesBy": 409,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 294,
+  "QuoteLinesTemplate": 914,
+  "ConfirmationLinesTemplate": 913,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 458,
+  "MinEarningPercent": 216,
+  "GroupQuoteLinesBy": 869,
+  "SortGroupLinesBy": 959,
   "Stages": [
     {
-      "Id": 877,
-      "Name": "Morar, Cassin and Lakin",
-      "ToolTip": "Nam minima illo aliquam consectetur aut.",
+      "Id": 43,
+      "Name": "Windler Group",
+      "ToolTip": "Accusantium magnam itaque mollitia expedita magni.",
       "Deleted": false,
-      "Rank": 273,
-      "Type": "occaecati",
-      "ColorBlock": 300,
-      "IconHint": "est",
-      "Selected": false,
-      "LastChanged": "2009-01-15T12:15:28.4726141+01:00",
+      "Rank": 149,
+      "Type": "praesentium",
+      "ColorBlock": 191,
+      "IconHint": "laboriosam",
+      "Selected": true,
+      "LastChanged": "2011-09-20T15:29:31.586974+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "quisquam",
-      "Hidden": false,
-      "FullName": "Saige Pollich II",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "minima",
+      "Hidden": true,
+      "FullName": "Mrs. Joshuah Greenholt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 921
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldType": "System.Int32",
+      "FieldLength": 388
     }
   }
 }

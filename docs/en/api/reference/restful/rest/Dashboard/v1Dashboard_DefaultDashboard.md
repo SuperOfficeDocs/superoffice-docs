@@ -51,8 +51,8 @@ OK
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -60,7 +60,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,22 +70,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 23,
-  "AssociateId": 621,
-  "Caption": "quia",
+  "DashboardId": 935,
+  "AssociateId": 154,
+  "Caption": "pariatur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 464,
-      "Caption": "magni",
-      "Description": "Implemented attitude-oriented project",
-      "ChartName": "Wisoky, White and Pollich",
-      "ChartId": "et",
+      "DashboardTileId": 307,
+      "Caption": "provident",
+      "Description": "Profit-focused cohesive infrastructure",
+      "ChartName": "Ankunding Inc and Sons",
+      "ChartId": "quaerat",
       "IsDefault": true,
-      "AssociateId": 992,
-      "GroupId": 476,
-      "SelectionId": 139,
-      "Config": "odit",
+      "AssociateId": 164,
+      "GroupId": 571,
+      "SelectionId": 620,
+      "Config": "ducimus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 199
         }
       }
     }
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 547
+      "FieldType": "System.Int32",
+      "FieldLength": 741
     }
   }
 }

@@ -1260,6 +1260,7 @@ title: Services88.ListAgent WSDL
           <xs:enumeration value="CompanyCardTask" />
           <xs:enumeration value="ProjectCardTask" />
           <xs:enumeration value="TicketCard" />
+          <xs:enumeration value="TicketMinicard" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Navigation" nillable="true" type="tns:Navigation" />

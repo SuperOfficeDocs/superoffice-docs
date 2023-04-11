@@ -58,8 +58,8 @@ OK
 | DisplayName | string | Short name of rule to display to user |
 | DisplayTooltip | string | Description of the rule |
 | IsActive | bool | Indicating if a rule is current active, and should included in the duplicate detection |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bayer LLC",
-    "DisplayName": "Herzog LLC",
-    "DisplayTooltip": "facere",
-    "IsActive": true,
+    "Name": "Boyer-Lind",
+    "DisplayName": "Hyatt, Miller and Schroeder",
+    "DisplayTooltip": "reiciendis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 157
+        "FieldLength": 188
       }
     }
   },
   {
-    "Name": "Bayer LLC",
-    "DisplayName": "Herzog LLC",
-    "DisplayTooltip": "facere",
-    "IsActive": true,
+    "Name": "Boyer-Lind",
+    "DisplayName": "Hyatt, Miller and Schroeder",
+    "DisplayTooltip": "reiciendis",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 157
+        "FieldLength": 188
       }
     }
   }

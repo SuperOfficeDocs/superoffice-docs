@@ -76,8 +76,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 83,
-  "Restrictions": "dignissimos"
+  "DashboardTileId": 462,
+  "Restrictions": "ipsa"
 }
 ```
 
@@ -91,19 +91,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Auer, Hermann and Willms",
-        "DisplayTooltip": "ad",
-        "DisplayType": "animi",
+        "DisplayName": "Doyle, Kunde and Schmitt",
+        "DisplayTooltip": "eveniet",
+        "DisplayType": "sint",
         "CanOrderBy": false,
-        "Name": "Herman Group",
-        "CanRestrictBy": true,
-        "RestrictionType": "molestias",
-        "RestrictionListName": "Adams-Bahringer",
-        "IsVisible": true,
-        "ExtraInfo": "odio",
-        "Width": "eaque",
-        "IconHint": "sapiente",
-        "HeadingIconHint": "ea"
+        "Name": "Balistreri, Nitzsche and Koepp",
+        "CanRestrictBy": false,
+        "RestrictionType": "qui",
+        "RestrictionListName": "Durgan LLC",
+        "IsVisible": false,
+        "ExtraInfo": "qui",
+        "Width": "asperiores",
+        "IconHint": "illum",
+        "HeadingIconHint": "non"
       }
     ],
     "Result": null
@@ -111,19 +111,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Auer, Hermann and Willms",
-        "DisplayTooltip": "ad",
-        "DisplayType": "animi",
+        "DisplayName": "Doyle, Kunde and Schmitt",
+        "DisplayTooltip": "eveniet",
+        "DisplayType": "sint",
         "CanOrderBy": false,
-        "Name": "Herman Group",
-        "CanRestrictBy": true,
-        "RestrictionType": "molestias",
-        "RestrictionListName": "Adams-Bahringer",
-        "IsVisible": true,
-        "ExtraInfo": "odio",
-        "Width": "eaque",
-        "IconHint": "sapiente",
-        "HeadingIconHint": "ea"
+        "Name": "Balistreri, Nitzsche and Koepp",
+        "CanRestrictBy": false,
+        "RestrictionType": "qui",
+        "RestrictionListName": "Durgan LLC",
+        "IsVisible": false,
+        "ExtraInfo": "qui",
+        "Width": "asperiores",
+        "IconHint": "illum",
+        "HeadingIconHint": "non"
       }
     ],
     "Result": null

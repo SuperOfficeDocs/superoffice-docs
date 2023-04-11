@@ -84,8 +84,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +109,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 801,
-    "Name": "Williamson-Reynolds",
-    "Tooltip": "eum",
-    "Rank": 257,
+    "SaleTypeId": 845,
+    "Name": "Schultz Group",
+    "Tooltip": "vero",
+    "Rank": 899,
     "DurationUnit": "Century",
-    "SaleDuration": 586,
-    "SaleTypeCatId": 564,
+    "SaleDuration": 210,
+    "SaleTypeCatId": 396,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 543,
-    "QuoteLinesTemplate": 234,
-    "ConfirmationLinesTemplate": 829,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 219,
+    "QuoteLinesTemplate": 618,
+    "ConfirmationLinesTemplate": 700,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 846,
-    "MinEarningPercent": 572,
-    "GroupQuoteLinesBy": 999,
-    "SortGroupLinesBy": 136,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 639,
+    "MinEarningPercent": 476,
+    "GroupQuoteLinesBy": 163,
+    "SortGroupLinesBy": 138,
     "Stages": [
       {
-        "Id": 684,
-        "Name": "Ankunding Inc and Sons",
-        "ToolTip": "Consequatur eum qui reprehenderit consequatur voluptatem maxime.",
+        "Id": 674,
+        "Name": "Crooks-Balistreri",
+        "ToolTip": "Ut quo voluptas explicabo accusantium.",
         "Deleted": false,
-        "Rank": 674,
-        "Type": "quibusdam",
-        "ColorBlock": 716,
-        "IconHint": "doloribus",
+        "Rank": 666,
+        "Type": "animi",
+        "ColorBlock": 955,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2000-08-30T12:15:19.2337544+02:00",
+        "LastChanged": "2017-01-30T15:29:21.9967722+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "illo",
-        "Hidden": false,
-        "FullName": "Prof. Jazlyn Romaguera DDS",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Jamar Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 775
+            "FieldLength": 763
           }
         }
       }
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 760
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

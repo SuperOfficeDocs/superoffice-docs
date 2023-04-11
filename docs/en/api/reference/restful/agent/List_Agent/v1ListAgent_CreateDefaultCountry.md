@@ -72,8 +72,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,30 +91,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 206,
-  "Name": "Ziemann-Miller",
-  "CurrencyId": 562,
-  "EnglishName": "Stamm LLC",
+  "CountryId": 709,
+  "Name": "Parker-Koepp",
+  "CurrencyId": 725,
+  "EnglishName": "Klein, Wilderman and Frami",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Public-key context-sensitive Graphical User Interface",
-  "OrgNrText": "1530087",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "enim",
-  "DomainName": "Rutherford-Windler",
-  "AddressLayoutId": 54,
-  "DomesticAddressLayoutId": 504,
-  "ForeignAddressLayoutId": 170,
-  "Rank": 121,
-  "Tooltip": "culpa",
+  "ImageDescription": "Ergonomic bottom-line strategy",
+  "OrgNrText": "1409461",
+  "InterAreaPrefix": "harum",
+  "DialInPrefix": "et",
+  "ZipPrefix": "dicta",
+  "DomainName": "Lubowitz, Reinger and Kshlerin",
+  "AddressLayoutId": 484,
+  "DomesticAddressLayoutId": 381,
+  "ForeignAddressLayoutId": 333,
+  "Rank": 581,
+  "Tooltip": "architecto",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 834
     }
   }
 }

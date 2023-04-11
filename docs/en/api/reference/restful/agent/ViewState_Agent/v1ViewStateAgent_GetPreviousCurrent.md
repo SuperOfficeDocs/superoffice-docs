@@ -72,8 +72,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kerluke Group",
-  "Id": 671
+  "HistoryName": "Tillman Inc and Sons",
+  "Id": 202
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 654,
-  "Id": 751,
-  "HistoryName": "Pagac, Kilback and Satterfield",
-  "HistoryId": 449,
-  "AssociateId": 415,
-  "Name": "Boyer-Kassulke",
-  "ItemInfo": "perferendis",
+  "Rank": 528,
+  "Id": 473,
+  "HistoryName": "Feil-Medhurst",
+  "HistoryId": 772,
+  "AssociateId": 326,
+  "Name": "Marquardt LLC",
+  "ItemInfo": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 615
     }
   }
 }

@@ -72,8 +72,8 @@ OK
 | CrmActorType | string | The crm actor type which these fields belongs to |
 | ErpActorType | string | The erp actor type which these fields belongs to |
 | ErpActorTypes | array | Contains all mapped ErpActorType for this CrmActorType |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 340
+  "EntityId": 263
 }
 ```
 
@@ -98,27 +98,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 5,
-    "ConnectionName": "Crooks, Towne and Lehner",
+    "ErpConnectionId": 75,
+    "ConnectionName": "Russel, Ernser and Schuppe",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "sint",
-        "Rank": 135,
-        "DisplayName": "Powlowski, Daugherty and Kiehn",
-        "DisplayDescription": "Digitized stable application",
+        "FieldKey": "facilis",
+        "Rank": 12,
+        "DisplayName": "Rosenbaum Inc and Sons",
+        "DisplayDescription": "Streamlined 3rd generation productivity",
         "FieldType": "Checkbox",
-        "ListName": "O'Connell Group",
-        "DefaultValue": "aut",
-        "MaxLength": 535,
+        "ListName": "Waelchi-Stracke",
+        "DefaultValue": "est",
+        "MaxLength": 236,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 735
+            "FieldType": "System.String",
+            "FieldLength": 736
           }
         }
       }
@@ -126,15 +126,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "ad",
-      "dolor"
+      "ex",
+      "est"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 80
+        "FieldLength": 974
       }
     }
   }

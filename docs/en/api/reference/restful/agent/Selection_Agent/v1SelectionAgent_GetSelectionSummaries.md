@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    530,
-    392
+    947,
+    724
   ]
 }
 ```
@@ -93,18 +93,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 730,
-    "Name": "O'Kon-Davis",
-    "TargetTable": "ipsam",
-    "Registered": "2020-05-09T12:15:20.2017382+02:00",
-    "ProviderName": "Goldner, Mosciski and Bergstrom"
+    "SelectionId": 268,
+    "Name": "Nitzsche-Jast",
+    "TargetTable": "et",
+    "Registered": "1997-03-15T15:29:22.977759+01:00",
+    "ProviderName": "Hammes, Rogahn and Ebert"
   },
   {
-    "SelectionId": 730,
-    "Name": "O'Kon-Davis",
-    "TargetTable": "ipsam",
-    "Registered": "2020-05-09T12:15:20.2017382+02:00",
-    "ProviderName": "Goldner, Mosciski and Bergstrom"
+    "SelectionId": 268,
+    "Name": "Nitzsche-Jast",
+    "TargetTable": "et",
+    "Registered": "1997-03-15T15:29:22.977759+01:00",
+    "ProviderName": "Hammes, Rogahn and Ebert"
   }
 ]
 ```

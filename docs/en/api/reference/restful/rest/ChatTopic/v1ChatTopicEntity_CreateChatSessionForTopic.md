@@ -79,8 +79,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 196,
-  "TopicId": 604,
+  "ChatSessionId": 507,
+  "TopicId": 807,
   "User": null,
   "Person": null,
-  "CustomerAlias": "cum",
-  "CustomerHost": "molestias",
-  "CustomerName": "West, Mueller and Raynor",
-  "CustomerEmail": "edwina.dibbert@mclaughlin.info",
-  "CustomerPhone": "1-797-696-2400 x606",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Emard, Kub and Waelchi",
+  "CustomerAlias": "deleniti",
+  "CustomerHost": "ex",
+  "CustomerName": "Bergstrom-McCullough",
+  "CustomerEmail": "chaya@durgan.co.uk",
+  "CustomerPhone": "926-656-9587 x5568",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Moore Group",
   "Status": "Closed",
-  "FirstMessage": "excepturi",
-  "LastMessage": "quasi",
-  "WhenRequested": "2021-10-17T12:15:26.552643+02:00",
-  "WhenStarted": "2009-10-26T12:15:26.552643+01:00",
-  "WhenEnded": "2017-04-22T12:15:26.552643+02:00",
-  "WhenIdle": "2005-11-04T12:15:26.552643+01:00",
-  "WhenFetched": "2006-10-09T12:15:26.552643+02:00",
-  "SessionKey": "recusandae",
-  "InitialQueuePos": 931,
-  "AlertLevel": 729,
-  "Rank": 150,
+  "FirstMessage": "ea",
+  "LastMessage": "dolores",
+  "WhenRequested": "2017-03-26T15:29:29.4612029+02:00",
+  "WhenStarted": "2018-06-13T15:29:29.4612029+02:00",
+  "WhenEnded": "2011-08-23T15:29:29.4612029+02:00",
+  "WhenIdle": "2020-01-27T15:29:29.4612029+01:00",
+  "WhenFetched": "1998-09-05T15:29:29.4612029+02:00",
+  "SessionKey": "reprehenderit",
+  "InitialQueuePos": 108,
+  "AlertLevel": 567,
+  "Rank": 195,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -128,13 +128,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 129,
+  "Rating": 528,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 412
     }
   }
 }

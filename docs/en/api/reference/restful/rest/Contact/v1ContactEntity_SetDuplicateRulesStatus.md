@@ -47,7 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -61,15 +61,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Baumbach-Jacobi",
-    "DisplayName": "Bayer, Dach and Gleichner",
-    "DisplayTooltip": "eaque",
+    "Name": "Wilderman Group",
+    "DisplayName": "Rolfson LLC",
+    "DisplayTooltip": "harum",
     "IsActive": false
   },
   {
-    "Name": "Baumbach-Jacobi",
-    "DisplayName": "Bayer, Dach and Gleichner",
-    "DisplayTooltip": "eaque",
+    "Name": "Wilderman Group",
+    "DisplayName": "Rolfson LLC",
+    "DisplayTooltip": "harum",
     "IsActive": false
   }
 ]

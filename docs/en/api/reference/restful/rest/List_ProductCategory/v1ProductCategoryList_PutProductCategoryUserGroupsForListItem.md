@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Jast, Langworth and Kris",
-    "ToolTip": "Molestiae quaerat minima impedit.",
-    "Deleted": false,
-    "Rank": 404,
-    "Type": "autem",
-    "ColorBlock": 379,
-    "IconHint": "odit",
-    "Selected": false,
-    "LastChanged": "1996-02-16T12:15:28.2826163+01:00",
+    "Id": 595,
+    "Name": "Mante, Heaney and Wiegand",
+    "ToolTip": "Sit aut suscipit sunt quisquam.",
+    "Deleted": true,
+    "Rank": 356,
+    "Type": "cum",
+    "ColorBlock": 238,
+    "IconHint": "nesciunt",
+    "Selected": true,
+    "LastChanged": "2012-05-20T15:29:31.3969746+02:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Carroll-Greenholt",
-        "ToolTip": "Deserunt voluptates eius non voluptate.",
+        "Id": 829,
+        "Name": "Fritsch, Rippin and Carroll",
+        "ToolTip": "Voluptatem laboriosam.",
         "Deleted": false,
-        "Rank": 107,
-        "Type": "pariatur",
-        "ColorBlock": 128,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2020-05-21T12:15:28.2826163+02:00",
+        "Rank": 846,
+        "Type": "quo",
+        "ColorBlock": 884,
+        "IconHint": "veritatis",
+        "Selected": true,
+        "LastChanged": "2017-05-24T15:29:31.3969746+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aperiam",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "rerum",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Marcel Reynold Thiel I"
+        "FullName": "Lorna Sipes"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "doloribus",
-    "Hidden": false,
-    "FullName": "Leonie Beatty DVM"
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Vernie Stiedemann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Crona Group",
-    "ToolTip": "Fugiat maiores adipisci sint tempora.",
+    "Id": 499,
+    "Name": "Swaniawski, Hammes and Wiegand",
+    "ToolTip": "Maiores cumque at occaecati qui qui.",
     "Deleted": true,
-    "Rank": 539,
-    "Type": "modi",
-    "ColorBlock": 431,
-    "IconHint": "et",
+    "Rank": 815,
+    "Type": "fugiat",
+    "ColorBlock": 361,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2009-08-10T12:15:28.2836162+02:00",
+    "LastChanged": "2001-05-25T15:29:31.3989786+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Mertz-Feest",
-        "ToolTip": "Et aut officia facilis labore.",
+        "Id": 369,
+        "Name": "Beahan-Hauck",
+        "ToolTip": "Dolor consequuntur quidem magni et voluptatibus.",
         "Deleted": false,
-        "Rank": 207,
-        "Type": "ipsam",
-        "ColorBlock": 898,
-        "IconHint": "et",
+        "Rank": 598,
+        "Type": "hic",
+        "ColorBlock": 617,
+        "IconHint": "voluptatem",
         "Selected": true,
-        "LastChanged": "2019-10-30T12:15:28.2836162+01:00",
+        "LastChanged": "1996-02-04T15:29:31.3994772+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "minus",
+        "ExtraInfo": "neque",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Prof. Jody Sabryna Leannon",
+        "FullName": "Mr. Hassie Lakin DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 244
+            "FieldLength": 96
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Ms. Zaria Mose Fisher",
+    "ExtraInfo": "sequi",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Aurelio Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 635
+        "FieldType": "System.Int32",
+        "FieldLength": 546
       }
     }
   }

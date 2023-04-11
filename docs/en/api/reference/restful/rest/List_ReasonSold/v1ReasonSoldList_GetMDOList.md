@@ -25,8 +25,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=rem
+GET /api/v1/List/ReasonSold/MDOItems?flat=True
+GET /api/v1/List/ReasonSold/MDOItems?query=voluptatem
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Zemlak, Gleason and Fay",
-    "ToolTip": "Amet perferendis autem inventore.",
+    "Id": 311,
+    "Name": "Nicolas, Carter and Kuhn",
+    "ToolTip": "Officiis minus quam sint asperiores animi a earum.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "ipsam",
+    "Rank": 478,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Schumm LLC",
-        "ToolTip": "Et vel velit est est minima consequatur.",
-        "Deleted": true,
-        "Rank": 31,
-        "Type": "dignissimos",
+        "Id": 378,
+        "Name": "Bernhard, Grady and Kozey",
+        "ToolTip": "Voluptas architecto perspiciatis rem fugit aperiam ab.",
+        "Deleted": false,
+        "Rank": 936,
+        "Type": "totam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "distinctio",
-        "ColorBlock": 530,
-        "ExtraInfo": "nihil",
-        "StyleHint": "ad",
-        "FullName": "Jovan Balistreri",
+        "IconHint": "reprehenderit",
+        "ColorBlock": 890,
+        "ExtraInfo": "distinctio",
+        "StyleHint": "consequatur",
+        "FullName": "Miss Dulce Leila Connelly II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 966
+            "FieldLength": 486
           }
         }
       }
     ],
-    "IconHint": "reprehenderit",
-    "ColorBlock": 322,
-    "ExtraInfo": "sed",
-    "StyleHint": "ipsam",
-    "FullName": "Cameron Lakin",
+    "IconHint": "qui",
+    "ColorBlock": 741,
+    "ExtraInfo": "esse",
+    "StyleHint": "inventore",
+    "FullName": "Jessie Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 468
       }
     }
   }

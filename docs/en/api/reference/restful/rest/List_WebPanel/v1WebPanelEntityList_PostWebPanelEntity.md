@@ -95,8 +95,8 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,27 +108,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 317,
-  "Name": "Corwin, Muller and Mohr",
-  "Tooltip": "sapiente",
+  "WebPanelId": 92,
+  "Name": "Murazik-Marquardt",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 623,
+  "Rank": 262,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Reilly, Langworth and Schultz",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Bergnaum-Jakubowski",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 259,
-  "AlwaysReloadOnShow": true
+  "ProgId": "nisi",
+  "Icon": 629,
+  "AlwaysReloadOnShow": false
 }
 ```
 
@@ -139,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 880,
-  "Name": "Thompson Inc and Sons",
-  "Tooltip": "suscipit",
-  "Deleted": true,
-  "Rank": 469,
+  "WebPanelId": 654,
+  "Name": "Boyer, Rippin and Gusikowski",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 24,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Turcotte-Torphy",
+  "ShowInStatusBar": false,
+  "WindowName": "Kautzer-Harber",
   "Url": "http://www.example.com/",
-  "ProgId": "libero",
-  "Icon": 856,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "et",
+  "Icon": 992,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldLength": 335
     }
   }
 }

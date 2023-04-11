@@ -88,8 +88,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,12 +97,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 591,
-  "OnlyOpenSales": true
+  "ContactId": 178,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Zboncak, Price and Buckridge",
-    "SaleDate": "2007-12-01T12:15:20.0977392+01:00",
-    "SaleId": 414,
-    "Probability": 810,
-    "Title": "est",
-    "Amount": 25300.782,
-    "Currency": "voluptatem",
-    "ProjectName": "Marvin LLC",
-    "AssociateFullName": "Ms. Araceli Bettye Greenfelder IV",
-    "Description": "Cross-platform national neural-net",
+    "ContactName": "Ritchie-Raynor",
+    "SaleDate": "2005-11-05T15:29:22.7352979+01:00",
+    "SaleId": 399,
+    "Probability": 169,
+    "Title": "doloremque",
+    "Amount": 11448.502,
+    "Currency": "vel",
+    "ProjectName": "Stokes-Maggio",
+    "AssociateFullName": "Ruben Berge",
+    "Description": "Enterprise-wide regional interface",
     "Status": "Lost",
-    "WeightedAmount": 29942.236,
-    "ProjectId": 645,
-    "EarningPercent": 15240.642,
-    "Earning": 20831.698,
-    "ContactId": 770,
-    "AssociateId": 387,
-    "PersonId": 353,
-    "SaleTypeId": 109,
-    "SaleTypeName": "Bernier Group",
-    "PersonFullName": "Eldon Torphy",
+    "WeightedAmount": 134.762,
+    "ProjectId": 529,
+    "EarningPercent": 11877.859999999999,
+    "Earning": 29381.25,
+    "ContactId": 851,
+    "AssociateId": 171,
+    "PersonId": 445,
+    "SaleTypeId": 60,
+    "SaleTypeName": "Quigley Group",
+    "PersonFullName": "Sister Gerhold",
     "Completed": "Completed",
-    "ActiveErpLinks": 574,
-    "NextDueDate": "1999-05-15T12:15:20.098735+02:00",
-    "Number": "833021",
+    "ActiveErpLinks": 316,
+    "NextDueDate": "2020-12-03T15:29:22.7358047+01:00",
+    "Number": "1368005",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

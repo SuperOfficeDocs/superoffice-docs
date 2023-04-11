@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 3,
-    "Name": "Veum-Hills",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 761,
-    "UdListDefinitionId": 116
+    "HeadingId": 32,
+    "Name": "Becker, Wunsch and Greenfelder",
+    "Tooltip": "delectus",
+    "Deleted": false,
+    "Rank": 658,
+    "UdListDefinitionId": 173
   },
   {
-    "HeadingId": 3,
-    "Name": "Veum-Hills",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 761,
-    "UdListDefinitionId": 116
+    "HeadingId": 32,
+    "Name": "Becker, Wunsch and Greenfelder",
+    "Tooltip": "delectus",
+    "Deleted": false,
+    "Rank": 658,
+    "UdListDefinitionId": 173
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 331,
-    "Name": "Bayer Group",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "Rank": 577,
-    "UdListDefinitionId": 405,
+    "HeadingId": 84,
+    "Name": "Gerhold Inc and Sons",
+    "Tooltip": "maiores",
+    "Deleted": true,
+    "Rank": 769,
+    "UdListDefinitionId": 16,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldLength": 950
       }
     }
   }

@@ -42,7 +42,7 @@ CRMScriptEntity deleted.
 |----------------|-------------|
 | 204 | CRMScriptEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

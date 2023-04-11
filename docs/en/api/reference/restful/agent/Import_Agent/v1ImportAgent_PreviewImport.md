@@ -70,8 +70,8 @@ OK
 | Operation | string | Which operation will be used? This is a read-only property |
 | Type | string | Which entity type will be created? This is a read-only property |
 | ExternalKey | string | Optional external primary key for the row |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,31 +86,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "aut",
-        "ipsam"
+        "voluptatem",
+        "maxime"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ea"
+      "ExternalKey": "non"
     },
     {
       "Values": [
-        "aut",
-        "ipsam"
+        "voluptatem",
+        "maxime"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ea"
+      "ExternalKey": "non"
     }
   ],
   "ColumnDefinition": [
-    "dolore",
-    "nostrum"
+    "eos",
+    "sunt"
   ],
-  "Culture": "ut",
-  "Context": "aliquid"
+  "Culture": "quo",
+  "Context": "nam"
 }
 ```
 
@@ -123,19 +123,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "itaque",
-      "ipsum"
+      "occaecati",
+      "magnam"
     ],
-    "Selected": false,
+    "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "corrupti",
+    "ExternalKey": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 303
       }
     }
   }

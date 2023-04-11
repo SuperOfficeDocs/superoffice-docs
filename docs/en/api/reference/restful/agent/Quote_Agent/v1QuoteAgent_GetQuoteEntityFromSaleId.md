@@ -75,8 +75,8 @@ OK
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 474
+  "SaleId": 56
 }
 ```
 
@@ -99,58 +99,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 887,
-  "SaleId": 320,
-  "QuoteConnectionId": 520,
-  "ERPQuoteKey": "quo",
-  "ERPOrderKey": "neque",
-  "ActiveQuoteVersionId": 258,
-  "AcceptedQuoteAlternativeId": 994,
-  "UseValuesFromQuote": 296,
-  "DocumentId": 169,
-  "PoNumber": "1057994",
-  "OrderComment": "soluta",
-  "PreferredEmailCulture": "princess_lemke@ullrich.name",
+  "QuoteId": 649,
+  "SaleId": 934,
+  "QuoteConnectionId": 481,
+  "ERPQuoteKey": "cumque",
+  "ERPOrderKey": "amet",
+  "ActiveQuoteVersionId": 707,
+  "AcceptedQuoteAlternativeId": 576,
+  "UseValuesFromQuote": 738,
+  "DocumentId": 346,
+  "PoNumber": "688967",
+  "OrderComment": "consequuntur",
+  "PreferredEmailCulture": "raymundo@franeckicorkery.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 26,
-      "ERPQuoteVersionKey": "in",
-      "QuoteId": 362,
-      "Description": "Reduced context-sensitive database",
-      "Number": "1414852",
+      "QuoteVersionId": 821,
+      "ERPQuoteVersionKey": "tempore",
+      "QuoteId": 163,
+      "Description": "Customer-focused 4th generation website",
+      "Number": "1757068",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 724,
-      "SentDate": "1999-01-16T12:15:19.9567378+01:00",
-      "FollowupId": 272,
-      "ExpirationDate": "2006-07-02T12:15:19.9567378+02:00",
-      "DeliveryCountryId": 559,
+      "LikelyQuoteAlternativeId": 983,
+      "SentDate": "2011-04-02T15:29:22.5837646+02:00",
+      "FollowupId": 891,
+      "ExpirationDate": "2001-07-24T15:29:22.5837646+02:00",
+      "DeliveryCountryId": 113,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 741,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "quae",
-      "ERPPaymentTypeKey": "velit",
-      "ERPDeliveryTermsKey": "qui",
-      "ERPDeliveryTypeKey": "ea",
-      "Rank": 307,
-      "ApprovedBy": 932,
-      "ApprovedText": "rem",
-      "ApprovedRegisteredBy": 508,
-      "ApprovedRegisteredDate": "2013-12-25T12:15:19.9567378+01:00",
-      "ExtraField1": "nihil",
-      "ExtraField2": "alias",
-      "ExtraField3": "molestiae",
-      "ExtraField4": "animi",
-      "ExtraField5": "sunt",
-      "LastRecalculated": "2013-07-12T12:15:19.9567378+02:00",
-      "Updated": "2016-01-22T12:15:19.9567378+01:00",
-      "UpdatedAssociateId": 558,
-      "Registered": "2007-03-20T12:15:19.9567378+01:00",
-      "RegisteredAssociateId": 749,
-      "RequestAssociateId": 889,
-      "RequestComment": "nesciunt",
+      "InvoiceCountryId": 240,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "omnis",
+      "ERPPaymentTypeKey": "quia",
+      "ERPDeliveryTermsKey": "exercitationem",
+      "ERPDeliveryTypeKey": "sapiente",
+      "Rank": 445,
+      "ApprovedBy": 697,
+      "ApprovedText": "nesciunt",
+      "ApprovedRegisteredBy": 639,
+      "ApprovedRegisteredDate": "2004-03-28T15:29:22.5837646+02:00",
+      "ExtraField1": "omnis",
+      "ExtraField2": "dolore",
+      "ExtraField3": "alias",
+      "ExtraField4": "quis",
+      "ExtraField5": "et",
+      "LastRecalculated": "2003-08-02T15:29:22.5842639+02:00",
+      "Updated": "2022-06-29T15:29:22.5842639+02:00",
+      "UpdatedAssociateId": 682,
+      "Registered": "2020-06-09T15:29:22.5842639+02:00",
+      "RegisteredAssociateId": 183,
+      "RequestAssociateId": 386,
+      "RequestComment": "iusto",
       "QuoteAlternatives": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldLength": 104
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldLength": 44
     }
   }
 }

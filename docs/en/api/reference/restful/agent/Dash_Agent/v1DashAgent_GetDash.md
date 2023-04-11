@@ -25,7 +25,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=817
+POST /api/v1/Agents/Dash/GetDash?dashId=520
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -69,8 +69,8 @@ OK
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,37 +88,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 75,
-  "UniqueId": "suscipit",
-  "Name": "Kertzmann LLC",
-  "Description": "Diverse background software",
-  "AssociateId": 894,
-  "Columns": 79,
+  "DashboardId": 282,
+  "UniqueId": "quis",
+  "Name": "Corwin, Miller and Lind",
+  "Description": "Exclusive uniform secured line",
+  "AssociateId": 855,
+  "Columns": 490,
   "Theme": null,
-  "VisibleForAll": 150,
+  "VisibleForAll": 624,
   "VisibleForAssociates": [
-    679,
-    909
+    339,
+    691
   ],
   "VisibleForGroups": [
-    695,
-    666
+    435,
+    268
   ],
-  "PinForAll": 561,
+  "PinForAll": 369,
   "PinForAssociates": [
-    659,
-    963
+    828,
+    301
   ],
   "PinForGroups": [
-    401,
-    916
+    471,
+    259
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 484
     }
   }
 }

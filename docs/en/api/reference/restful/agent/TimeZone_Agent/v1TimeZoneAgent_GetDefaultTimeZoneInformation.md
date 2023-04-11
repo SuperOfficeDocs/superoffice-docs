@@ -79,11 +79,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 63,
-  "TZLocationId": 948,
-  "LocationCode": "sed",
-  "Description": "Customer-focused client-server concept",
+  "PreferenceId": 93,
+  "TZLocationId": 315,
+  "LocationCode": "qui",
+  "Description": "Front-line foreground success",
   "Country": "Sokovia",
-  "Bias": 161
+  "Bias": 828
 }
 ```

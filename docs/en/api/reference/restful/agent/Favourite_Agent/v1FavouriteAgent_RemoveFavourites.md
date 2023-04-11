@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -65,16 +65,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Smitham, Kuhlman and Prohaska",
+  "TableName": "Lemke-Heller",
   "RecordIds": [
-    26,
-    591
+    514,
+    210
   ],
-  "AssociateId": 78
+  "AssociateId": 357
 }
 ```
 

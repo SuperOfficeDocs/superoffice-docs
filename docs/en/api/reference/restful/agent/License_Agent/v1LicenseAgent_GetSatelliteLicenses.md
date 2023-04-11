@@ -66,8 +66,8 @@ OK
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 941
+  "SatelliteId": 812
 }
 ```
 
@@ -91,30 +91,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fay, Goodwin and Langworth",
-    "Description": "Synergized executive middleware",
+    "Name": "Anderson LLC",
+    "Description": "Organic multimedia collaboration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 514,
-        "Tooltip": "sunt",
-        "CanAssign": false,
-        "Free": 873,
-        "InUse": 180,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 734,
+        "Tooltip": "quibusdam",
+        "CanAssign": true,
+        "Free": 605,
+        "InUse": 781,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 429,
-        "Name": "Dickens-Windler",
-        "Description": "Cross-group regional hub",
-        "PrerequisiteModuleName": "Murphy Group",
-        "SortOrder": 646,
-        "ExtraFlags": 296,
+        "ModuleLicenseId": 807,
+        "Name": "D'Amore-Schultz",
+        "Description": "Exclusive incremental moderator",
+        "PrerequisiteModuleName": "Mayert, Gerlach and Mills",
+        "SortOrder": 602,
+        "ExtraFlags": 422,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 181
+            "FieldLength": 679
           }
         }
       }
@@ -122,25 +122,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 408,
-        "Tooltip": "voluptas",
+        "Total": 369,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 396,
-        "InUse": 310,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 831,
-        "Name": "Rohan, Donnelly and Jaskolski",
-        "Description": "Proactive bottom-line hub",
-        "PrerequisiteModuleName": "Bosco-O'Reilly",
-        "SortOrder": 600,
-        "ExtraFlags": 468,
+        "Free": 720,
+        "InUse": 770,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 863,
+        "Name": "Price-Bednar",
+        "Description": "Synergistic 3rd generation firmware",
+        "PrerequisiteModuleName": "Bailey Inc and Sons",
+        "SortOrder": 749,
+        "ExtraFlags": 510,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 272
+            "FieldLength": 363
           }
         }
       }
@@ -150,35 +150,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 768
       }
     }
   },
   {
-    "Name": "Fay, Goodwin and Langworth",
-    "Description": "Synergized executive middleware",
+    "Name": "Anderson LLC",
+    "Description": "Organic multimedia collaboration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 514,
-        "Tooltip": "sunt",
-        "CanAssign": false,
-        "Free": 873,
-        "InUse": 180,
-        "IsHidden": true,
+        "Unrestricted": false,
+        "Total": 734,
+        "Tooltip": "quibusdam",
+        "CanAssign": true,
+        "Free": 605,
+        "InUse": 781,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 429,
-        "Name": "Dickens-Windler",
-        "Description": "Cross-group regional hub",
-        "PrerequisiteModuleName": "Murphy Group",
-        "SortOrder": 646,
-        "ExtraFlags": 296,
+        "ModuleLicenseId": 807,
+        "Name": "D'Amore-Schultz",
+        "Description": "Exclusive incremental moderator",
+        "PrerequisiteModuleName": "Mayert, Gerlach and Mills",
+        "SortOrder": 602,
+        "ExtraFlags": 422,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 181
+            "FieldLength": 679
           }
         }
       }
@@ -186,25 +186,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 408,
-        "Tooltip": "voluptas",
+        "Total": 369,
+        "Tooltip": "et",
         "CanAssign": false,
-        "Free": 396,
-        "InUse": 310,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 831,
-        "Name": "Rohan, Donnelly and Jaskolski",
-        "Description": "Proactive bottom-line hub",
-        "PrerequisiteModuleName": "Bosco-O'Reilly",
-        "SortOrder": 600,
-        "ExtraFlags": 468,
+        "Free": 720,
+        "InUse": 770,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 863,
+        "Name": "Price-Bednar",
+        "Description": "Synergistic 3rd generation firmware",
+        "PrerequisiteModuleName": "Bailey Inc and Sons",
+        "SortOrder": 749,
+        "ExtraFlags": 510,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 272
+            "FieldLength": 363
           }
         }
       }
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldLength": 768
       }
     }
   }

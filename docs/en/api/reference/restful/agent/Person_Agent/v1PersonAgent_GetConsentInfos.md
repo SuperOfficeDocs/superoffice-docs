@@ -79,8 +79,8 @@ OK
 | ConsentSourceId | int32 | Primary key for the ConsentSource associated with this consent |
 | ConsentSourceKey | string | Key of the ConsentSource associated with this consent |
 | ConsentSourceName | string | Name of the ConsentSource associated with this consent |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 628
+  "PersonId": 819
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 331,
-    "Comment": "nesciunt",
-    "Registered": "2018-01-31T12:15:19.696741+01:00",
-    "RegisteredAssociateId": 591,
-    "Updated": "1999-12-06T12:15:19.696741+01:00",
-    "UpdatedAssociateId": 305,
-    "LegalBaseId": 341,
-    "LegalBaseKey": "assumenda",
-    "LegalBaseName": "Smith-Hills",
-    "ConsentPurposeId": 682,
-    "ConsentPurposeKey": "porro",
-    "ConsentPurposeName": "Ernser Group",
-    "ConsentSourceId": 70,
-    "ConsentSourceKey": "exercitationem",
-    "ConsentSourceName": "Schoen Group",
+    "ConsentPersonId": 517,
+    "Comment": "quod",
+    "Registered": "2013-12-12T15:29:22.3267673+01:00",
+    "RegisteredAssociateId": 44,
+    "Updated": "2004-10-17T15:29:22.3267673+02:00",
+    "UpdatedAssociateId": 207,
+    "LegalBaseId": 223,
+    "LegalBaseKey": "aut",
+    "LegalBaseName": "Nader, Moen and Brekke",
+    "ConsentPurposeId": 705,
+    "ConsentPurposeKey": "voluptatem",
+    "ConsentPurposeName": "Jacobs, Kuhn and Frami",
+    "ConsentSourceId": 644,
+    "ConsentSourceKey": "eos",
+    "ConsentSourceName": "Moen-Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 380
+        "FieldType": "System.String",
+        "FieldLength": 354
       }
     }
   }

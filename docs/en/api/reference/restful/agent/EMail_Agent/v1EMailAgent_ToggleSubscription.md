@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,7 +70,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 14,
+  "FolderId": 239,
   "SubscriptionStatus": false
 }
 ```

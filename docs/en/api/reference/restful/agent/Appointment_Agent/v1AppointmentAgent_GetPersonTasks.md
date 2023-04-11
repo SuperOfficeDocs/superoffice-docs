@@ -114,8 +114,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -127,8 +127,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 791,
-  "Count": 2
+  "PersonId": 263,
+  "Count": 941
 }
 ```
 
@@ -140,53 +140,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 141,
-    "StartDate": "2020-09-23T12:15:18.1237637+02:00",
-    "EndDate": "2014-01-14T12:15:18.1237637+01:00",
+    "AppointmentId": 498,
+    "StartDate": "2016-08-08T15:29:20.7492894+02:00",
+    "EndDate": "2004-11-22T15:29:20.7492894+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quia",
-    "AssociateFullName": "Herminio Langosh",
-    "ContactName": "Corwin, Considine and Cruickshank",
-    "Description": "Persevering 24 hour Graphic Interface",
-    "PersonFullName": "Francesca Hagenes",
-    "PersonId": 407,
-    "ContactId": 127,
-    "ProjectId": 453,
-    "ProjectName": "Hoeger-Jacobson",
-    "IsPublished": true,
-    "AssociateId": 86,
-    "ColorIndex": 640,
+    "Task": "ut",
+    "AssociateFullName": "Miss Helga Hintz DDS",
+    "ContactName": "Yundt, Veum and Tillman",
+    "Description": "Phased methodical firmware",
+    "PersonFullName": "Miss Grayce Brendan Labadie V",
+    "PersonId": 242,
+    "ContactId": 110,
+    "ProjectId": 283,
+    "ProjectName": "Cole-Konopelski",
+    "IsPublished": false,
+    "AssociateId": 645,
+    "ColorIndex": 944,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 974,
-    "PriorityName": "Gerhold Inc and Sons",
+    "PriorityId": 671,
+    "PriorityName": "Parker Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-07-15T12:15:18.125764+02:00",
+    "ActiveDate": "2022-03-22T15:29:20.7497906+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-03-23T12:15:18.125764+01:00",
-    "RecurringEndDate": "2002-07-15T12:15:18.125764+02:00",
-    "MotherId": 142,
-    "AssignedBy": 438,
-    "AssignedByFullName": "Dr. Jeanne McClure",
+    "RecurringStartDate": "2018-01-07T15:29:20.7497906+01:00",
+    "RecurringEndDate": "2009-01-29T15:29:20.7497906+01:00",
+    "MotherId": 879,
+    "AssignedBy": 125,
+    "AssignedByFullName": "Chanelle Padberg",
     "RejectReason": "",
-    "Location": "voluptas",
-    "AlarmLeadTime": "quis",
-    "SaleId": 673,
-    "SaleName": "Kutch Group",
-    "AssociateName": "Kuhic Group",
-    "CreatedDate": "2018-01-02T12:15:18.1267643+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Bernard Schaefer",
-    "CreatedByAssociateId": 187,
+    "Location": "aut",
+    "AlarmLeadTime": "necessitatibus",
+    "SaleId": 433,
+    "SaleName": "Bauch, Denesik and Jaskolski",
+    "AssociateName": "Bauch, Kreiger and Schulist",
+    "CreatedDate": "2017-05-24T15:29:20.7502896+02:00",
+    "CreatedBy": "illo",
+    "CreatedByFullName": "Ms. Peyton Stoltenberg",
+    "CreatedByAssociateId": 57,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -194,7 +194,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 310
+        "FieldLength": 789
       }
     }
   }

@@ -116,8 +116,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -126,18 +126,18 @@ OK
 POST /api/v1/User
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 467,
-  "Name": "Zemlak, Roberts and Feil",
-  "Rank": 992,
-  "Tooltip": "laboriosam",
+  "AssociateId": 601,
+  "Name": "O'Hara, Carter and Runolfsson",
+  "Rank": 923,
+  "Tooltip": "in",
   "LicenseOwners": [
     {
-      "Name": "Lakin-Spencer",
-      "Description": "Proactive methodical groupware",
+      "Name": "Blanda LLC",
+      "Description": "Diverse multi-tasking moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Lakin-Spencer",
-      "Description": "Proactive methodical groupware",
+      "Name": "Blanda LLC",
+      "Description": "Diverse multi-tasking moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -165,86 +165,86 @@ Content-Type: application/json; charset=utf-8
   "OtherGroups": [
     {
       "Value": "amet",
-      "Tooltip": "qui",
-      "Id": 378,
-      "Rank": 664,
+      "Tooltip": "repellendus",
+      "Id": 663,
+      "Rank": 330,
       "Deleted": false
     },
     {
       "Value": "amet",
-      "Tooltip": "qui",
-      "Id": 378,
-      "Rank": 664,
+      "Tooltip": "repellendus",
+      "Id": 663,
+      "Rank": 330,
       "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2018-10-11T12:15:27.7285891+02:00",
-  "Lastlogout": "2004-10-12T12:15:27.7285891+02:00",
-  "EjUserId": 402,
-  "RequestSignature": "at",
+  "Deleted": true,
+  "Lastlogin": "2002-09-04T15:29:30.9379831+02:00",
+  "Lastlogout": "2022-05-10T15:29:30.9379831+02:00",
+  "EjUserId": 766,
+  "RequestSignature": "modi",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "possimus",
-      "DisplayValue": "quam"
+      "Value": "occaecati",
+      "DisplayValue": "quas"
     },
     {
       "Type": null,
-      "Value": "possimus",
-      "DisplayValue": "quam"
+      "Value": "occaecati",
+      "DisplayValue": "quas"
     }
   ],
-  "UserName": "Baumbach-Bailey",
+  "UserName": "Bradtke LLC",
   "TicketCategories": [
     {
-      "Id": 707,
-      "Name": "Koepp LLC",
-      "ToolTip": "Voluptatum repellat.",
+      "Id": 950,
+      "Name": "Monahan, Littel and Padberg",
+      "ToolTip": "Provident numquam praesentium.",
       "Deleted": false,
-      "Rank": 363,
-      "Type": "nemo",
+      "Rank": 549,
+      "Type": "veritatis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "perspiciatis",
-      "ColorBlock": 762,
-      "ExtraInfo": "corporis",
-      "StyleHint": "consequatur",
-      "FullName": "Brandi Pfeffer"
+      "IconHint": "cupiditate",
+      "ColorBlock": 488,
+      "ExtraInfo": "omnis",
+      "StyleHint": "impedit",
+      "FullName": "Hoyt Fisher"
     }
   ],
-  "NickName": "Robel Group",
+  "NickName": "Watsica Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "non"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "explicabo"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "libero"
+    "CustomFields1": "hic",
+    "CustomFields2": "eligendi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Pouros LLC",
-      "DisplayName": "Waters, Gulgowski and Muller",
-      "Description": "Realigned hybrid circuit",
-      "ToolTip": "Sunt fugiat ipsa perspiciatis est commodi fuga.",
+      "Name": "Romaguera, Hessel and Lubowitz",
+      "DisplayName": "Lubowitz, Legros and Emard",
+      "Description": "Versatile mission-critical structure",
+      "ToolTip": "Enim beatae ipsa non eveniet hic.",
       "Actions": "Implicit",
-      "ActionData": "dicta"
+      "ActionData": "quod"
     },
     {
-      "Name": "Pouros LLC",
-      "DisplayName": "Waters, Gulgowski and Muller",
-      "Description": "Realigned hybrid circuit",
-      "ToolTip": "Sunt fugiat ipsa perspiciatis est commodi fuga.",
+      "Name": "Romaguera, Hessel and Lubowitz",
+      "DisplayName": "Lubowitz, Legros and Emard",
+      "Description": "Versatile mission-critical structure",
+      "ToolTip": "Enim beatae ipsa non eveniet hic.",
       "Actions": "Implicit",
-      "ActionData": "dicta"
+      "ActionData": "quod"
     }
   ]
 }
@@ -257,14 +257,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 90,
-  "Name": "Ferry-Gerlach",
-  "Rank": 579,
-  "Tooltip": "est",
+  "AssociateId": 420,
+  "Name": "Grimes, Nikolaus and Walter",
+  "Rank": 441,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Hodkiewicz Group",
-      "Description": "Ameliorated user-facing secured line",
+      "Name": "Herzog-Kuhlman",
+      "Description": "Centralized coherent alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -277,14 +277,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     },
     {
-      "Name": "Hodkiewicz Group",
-      "Description": "Ameliorated user-facing secured line",
+      "Name": "Herzog-Kuhlman",
+      "Description": "Centralized coherent alliance",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -297,8 +297,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
@@ -307,110 +307,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "molestias",
-      "Tooltip": "voluptatibus",
-      "Id": 142,
-      "Rank": 395,
+      "Value": "eligendi",
+      "Tooltip": "ab",
+      "Id": 630,
+      "Rank": 148,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldType": "System.String",
+          "FieldLength": 22
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2004-05-03T12:15:27.7356249+02:00",
-  "Lastlogout": "2006-06-01T12:15:27.7356249+02:00",
-  "EjUserId": 675,
-  "RequestSignature": "consequuntur",
+  "Lastlogin": "1998-08-28T15:29:30.9434837+02:00",
+  "Lastlogout": "2017-03-21T15:29:30.9434837+01:00",
+  "EjUserId": 981,
+  "RequestSignature": "ab",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nemo",
-      "DisplayValue": "facilis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "nemo",
-      "DisplayValue": "facilis",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
-        }
-      }
-    }
-  ],
-  "UserName": "Corkery LLC",
-  "TicketCategories": [
-    {
-      "Id": 228,
-      "Name": "Hamill Group",
-      "ToolTip": "Suscipit rem est vitae aut.",
-      "Deleted": true,
-      "Rank": 879,
-      "Type": "ut",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ullam",
-      "ColorBlock": 253,
-      "ExtraInfo": "amet",
-      "StyleHint": "error",
-      "FullName": "Beryl Weissnat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 860
-        }
-      }
-    }
-  ],
-  "NickName": "Rice-Emmerich",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "ex"
-  },
-  "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "dolorem"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Hilll-Fritsch",
-      "DisplayName": "Koch-Johnson",
-      "Description": "Synergized value-added hierarchy",
-      "ToolTip": "Quia iste.",
-      "Actions": "Implicit",
-      "ActionData": "nemo",
+      "Value": "autem",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 743
+          "FieldLength": 629
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "autem",
+      "DisplayValue": "ipsam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 629
+        }
+      }
+    }
+  ],
+  "UserName": "Murazik-Swaniawski",
+  "TicketCategories": [
+    {
+      "Id": 636,
+      "Name": "Kris-Nienow",
+      "ToolTip": "Eligendi illo officiis tempora culpa.",
+      "Deleted": false,
+      "Rank": 911,
+      "Type": "velit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "veniam",
+      "ColorBlock": 390,
+      "ExtraInfo": "maiores",
+      "StyleHint": "ut",
+      "FullName": "Josiane Mertz",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 264
+        }
+      }
+    }
+  ],
+  "NickName": "Kozey-Hane",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "nam"
+  },
+  "CustomFields": {
+    "CustomFields1": "explicabo",
+    "CustomFields2": "tenetur"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Steuber LLC",
+      "DisplayName": "Upton-Jacobs",
+      "Description": "Assimilated bi-directional Graphic Interface",
+      "ToolTip": "Repellat accusantium est ex.",
+      "Actions": "Implicit",
+      "ActionData": "doloribus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 320
         }
       }
     }
@@ -420,7 +420,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldLength": 295
     }
   },
   "_Links": {

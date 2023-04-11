@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 792,
-  "StartTime": "1998-11-13T12:15:18.7107558+01:00",
-  "EndTime": "2011-02-11T12:15:18.7107558+01:00",
-  "Count": 81,
-  "TemplateHeadingId": 222
+  "ContactId": 206,
+  "StartTime": "2009-09-30T15:29:21.4707793+02:00",
+  "EndTime": "2013-05-13T15:29:21.4707793+02:00",
+  "Count": 585,
+  "TemplateHeadingId": 478
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 402,
-    "Attention": "quibusdam",
-    "Header": "unde",
-    "Name": "Stark Group",
-    "OurRef": "itaque",
-    "YourRef": "pariatur",
-    "Description": "Down-sized interactive system engine",
+    "DocumentId": 368,
+    "Attention": "quia",
+    "Header": "in",
+    "Name": "Koelpin LLC",
+    "OurRef": "nihil",
+    "YourRef": "quis",
+    "Description": "Sharable exuding attitude",
     "DocumentTemplate": "et",
-    "IsPublished": true,
-    "PersonId": 364,
-    "PersonFullName": "Ardella Greenfelder",
-    "AssociateFullName": "Winifred Upton",
-    "ContactId": 247,
-    "ContactName": "Christiansen-Heathcote",
-    "ProjectId": 763,
-    "ProjectName": "Kautzer LLC",
-    "AssociateId": 841,
-    "Snum": 974,
-    "SaleId": 223,
-    "SaleName": "Lind, Schaefer and Terry",
+    "IsPublished": false,
+    "PersonId": 397,
+    "PersonFullName": "Ellis Wiegand",
+    "AssociateFullName": "Daron Johnston",
+    "ContactId": 773,
+    "ContactName": "Mann-Nikolaus",
+    "ProjectId": 404,
+    "ProjectName": "Beier-Hayes",
+    "AssociateId": 319,
+    "Snum": 158,
+    "SaleId": 363,
+    "SaleName": "Bechtelar-Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 689
+        "FieldType": "System.Int32",
+        "FieldLength": 92
       }
     }
   }

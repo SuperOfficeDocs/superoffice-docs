@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromTicketStatusId": 598,
-  "ToTicketStatusId": 710
+  "FromTicketStatusId": 534,
+  "ToTicketStatusId": 570
 }
 ```
 

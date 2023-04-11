@@ -42,7 +42,7 @@ Dashboard deleted.
 |----------------|-------------|
 | 204 | Dashboard deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

@@ -79,8 +79,8 @@ PreferenceDescription found.
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -99,30 +99,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 348,
+  "PrefDescId": 59,
   "Section": "aut",
-  "Key": "rem",
-  "Name": "Kuhn-Wunsch",
+  "Key": "sed",
+  "Name": "Schinner Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Quality-focused impactful superstructure",
-  "IsBuiltin": false,
-  "TableName": "Farrell-McLaughlin",
-  "UserDefinedListId": 902,
-  "Rank": 645,
-  "SubGroup": "harum",
-  "MinLevel": 711,
-  "MaxValue": 786,
-  "MinValue": 53,
-  "RequiredLicense": "sit",
+  "Description": "Triple-buffered didactic extranet",
+  "IsBuiltin": true,
+  "TableName": "Corwin Inc and Sons",
+  "UserDefinedListId": 32,
+  "Rank": 606,
+  "SubGroup": "iure",
+  "MinLevel": 277,
+  "MaxValue": 696,
+  "MinValue": 504,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldLength": 485
     }
   },
   "_Links": {

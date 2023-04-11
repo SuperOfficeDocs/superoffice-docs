@@ -102,8 +102,8 @@ DashTile  updated.
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
 | DashTileDefinition | DashTileDefinition | The tile definition entity |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -118,12 +118,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "optio",
+    "path": "debitis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "optio",
+    "path": "debitis",
     "value": {}
   }
 ]
@@ -136,18 +136,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 633,
-  "DashboardId": 236,
-  "Height": 481,
-  "Width": 417,
-  "Rank": 402,
+  "DashboardTileId": 958,
+  "DashboardId": 647,
+  "Height": 875,
+  "Width": 174,
+  "Rank": 315,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldType": "System.Int32",
+      "FieldLength": 664
     }
   },
   "_Links": {

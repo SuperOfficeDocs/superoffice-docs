@@ -67,8 +67,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Hartmann LLC",
-    "Tooltip": "doloremque",
+    "Id": 927,
+    "Name": "Treutel Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 937,
-    "Rank": 460
+    "UdListDefinitionId": 21,
+    "Rank": 193
   },
   {
-    "Id": 129,
-    "Name": "Hartmann LLC",
-    "Tooltip": "doloremque",
+    "Id": 927,
+    "Name": "Treutel Group",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "UdListDefinitionId": 937,
-    "Rank": 460
+    "UdListDefinitionId": 21,
+    "Rank": 193
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Tremblay LLC",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 475,
-    "Rank": 354,
+    "Id": 743,
+    "Name": "Fahey, Purdy and Ratke",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "UdListDefinitionId": 408,
+    "Rank": 501,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 939
       }
     }
   }

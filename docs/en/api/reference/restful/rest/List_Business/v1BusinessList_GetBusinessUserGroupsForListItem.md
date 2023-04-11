@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Effertz, West and Padberg",
-    "ToolTip": "Tenetur vitae.",
-    "Deleted": true,
-    "Rank": 947,
-    "Type": "fugit",
-    "ColorBlock": 629,
-    "IconHint": "ut",
+    "Id": 616,
+    "Name": "Gaylord, Hermann and Herman",
+    "ToolTip": "Omnis quam corrupti numquam ab quisquam.",
+    "Deleted": false,
+    "Rank": 283,
+    "Type": "autem",
+    "ColorBlock": 159,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2007-04-23T12:15:27.872622+02:00",
+    "LastChanged": "2019-03-03T15:29:31.0784461+01:00",
     "ChildItems": [
       {
-        "Id": 99,
-        "Name": "Boehm-Brakus",
-        "ToolTip": "Iusto dolorem earum.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "provident",
-        "ColorBlock": 681,
-        "IconHint": "a",
+        "Id": 495,
+        "Name": "Zieme LLC",
+        "ToolTip": "Illo eum asperiores non repudiandae cumque atque enim.",
+        "Deleted": false,
+        "Rank": 607,
+        "Type": "eligendi",
+        "ColorBlock": 234,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2019-10-10T12:15:27.872622+02:00",
+        "LastChanged": "2014-08-17T15:29:31.078946+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "neque",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Ollie Quitzon",
+        "FullName": "Ms. Hector Stracke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 279
+            "FieldLength": 855
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Frida Mayer",
+    "FullName": "Mrs. Matilde Abshire III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldLength": 968
       }
     }
   }

@@ -73,8 +73,8 @@ OK
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 380
+  "AssociateId": 119
 }
 ```
 
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "distinctio",
-    "PersonId": 914,
-    "AssociateId": 414,
-    "ExtraId": 983,
-    "ExtraInfo": "quasi",
-    "Height": 537,
-    "LeftX": 784,
+    "OwnerWindow": "numquam",
+    "PersonId": 462,
+    "AssociateId": 322,
+    "ExtraId": 18,
+    "ExtraInfo": "est",
+    "Height": 734,
+    "LeftX": 385,
     "State": "Maximized",
-    "UpperY": 472,
-    "Width": 431,
-    "WindowPosSizeId": 97,
+    "UpperY": 709,
+    "Width": 759,
+    "WindowPosSizeId": 341,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldLength": 204
       }
     }
   }

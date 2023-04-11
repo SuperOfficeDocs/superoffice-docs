@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Bernier Inc and Sons",
-    "ToolTip": "Sed numquam nisi sunt magni.",
-    "Deleted": true,
-    "Rank": 801,
-    "Type": "quidem",
-    "ColorBlock": 624,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "1998-03-03T12:15:28.4826164+01:00",
+    "Id": 39,
+    "Name": "Hand Inc and Sons",
+    "ToolTip": "Qui maxime veritatis harum.",
+    "Deleted": false,
+    "Rank": 601,
+    "Type": "est",
+    "ColorBlock": 950,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2022-03-03T15:29:31.5924773+01:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Wiza-Lind",
-        "ToolTip": "Facere veritatis inventore fuga.",
-        "Deleted": true,
-        "Rank": 166,
-        "Type": "ad",
-        "ColorBlock": 501,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2022-07-04T12:15:28.4826164+02:00",
+        "Id": 917,
+        "Name": "Hahn, Veum and Jacobs",
+        "ToolTip": "Non sed perferendis.",
+        "Deleted": false,
+        "Rank": 787,
+        "Type": "error",
+        "ColorBlock": 145,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2010-01-03T15:29:31.5924773+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Prof. Steve Kayli Romaguera IV",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Nelson Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldLength": 759
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eos",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Alvah Nikolaus",
+    "FullName": "Dr. Karianne Upton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 981
       }
     }
   }

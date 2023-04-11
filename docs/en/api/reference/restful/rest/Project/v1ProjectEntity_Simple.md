@@ -69,8 +69,8 @@ ProjectEntity found.
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 561,
-  "Name": "Brown-Lowe",
-  "Description": "Centralized systemic synergy",
+  "ProjectId": 137,
+  "Name": "Ernser Inc and Sons",
+  "Description": "Triple-buffered tertiary internet solution",
   "URL": "http://www.example.com/",
-  "Type": "repellat",
-  "AssociateId": 137,
-  "AssociateFullName": "Mr. Jamison Kevin Funk DVM",
-  "TypeId": 977,
-  "Updated": "2012-02-28T12:15:27.1836324+01:00",
-  "StatusId": 734,
+  "Type": "voluptatem",
+  "AssociateId": 421,
+  "AssociateFullName": "Hipolito Esperanza Wuckert DVM",
+  "TypeId": 605,
+  "Updated": "2021-07-09T15:29:29.9931602+02:00",
+  "StatusId": 440,
   "Status": "dolores",
-  "TextId": 184,
-  "PublishTo": "2021-06-03T12:15:27.1836324+02:00",
-  "PublishFrom": "2011-01-04T12:15:27.1836324+01:00",
-  "IsPublished": true,
+  "TextId": 231,
+  "PublishTo": "2006-06-12T15:29:29.9931602+02:00",
+  "PublishFrom": "2022-01-22T15:29:29.9931602+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "764420",
-  "ActiveErpLinks": 358,
+  "ProjectNumber": "373790",
+  "ActiveErpLinks": 309,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldType": "System.Int32",
+      "FieldLength": 944
     }
   }
 }

@@ -100,8 +100,8 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -113,27 +113,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 616,
-  "Name": "Hermann-Lindgren",
-  "Tooltip": "vero",
-  "Deleted": false,
-  "Rank": 407,
+  "WebPanelId": 149,
+  "Name": "Sipes-Hahn",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 802,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Thompson-Bernier",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Cartwright-Prohaska",
   "Url": "http://www.example.com/",
-  "ProgId": "eaque",
-  "Icon": 129,
-  "AlwaysReloadOnShow": false
+  "ProgId": "doloremque",
+  "Icon": 994,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -144,33 +144,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 849,
-  "Name": "Lakin LLC",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "Rank": 776,
+  "WebPanelId": 417,
+  "Name": "Jast LLC",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 416,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Runolfsson Group",
+  "WindowName": "Zieme, Beier and O'Connell",
   "Url": "http://www.example.com/",
-  "ProgId": "reiciendis",
-  "Icon": 172,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "voluptatem",
+  "Icon": 176,
+  "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldLength": 888
     }
   }
 }

@@ -70,8 +70,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 966,
-  "UdListDefinitionName": "Brown-Hamill",
+  "Id": 799,
+  "UdListDefinitionName": "Ortiz Group",
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 233,
-  "Name": "Daniel, Boehm and Wyman",
-  "Tooltip": "rem",
+  "Id": 522,
+  "Name": "Johns Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "UdListDefinitionId": 767,
-  "Rank": 393,
+  "UdListDefinitionId": 616,
+  "Rank": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 975
     }
   }
 }

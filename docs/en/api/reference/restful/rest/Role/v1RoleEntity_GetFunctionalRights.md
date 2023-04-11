@@ -68,8 +68,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 232,
-    "Name": "Abernathy Group",
-    "ToolTip": "Officia consectetur.",
+    "Id": 465,
+    "Name": "Brown Inc and Sons",
+    "ToolTip": "Repudiandae ea expedita et explicabo.",
     "Deleted": false,
-    "Rank": 473,
-    "Type": "fuga",
-    "ColorBlock": 875,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2007-03-04T12:15:27.2236385+01:00",
+    "Rank": 906,
+    "Type": "numquam",
+    "ColorBlock": 90,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2017-10-01T15:29:30.0331601+02:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Mills Group",
-        "ToolTip": "Ipsa quaerat.",
+        "Id": 73,
+        "Name": "Lubowitz-Hayes",
+        "ToolTip": "Vel voluptatem velit.",
         "Deleted": true,
-        "Rank": 383,
-        "Type": "et",
-        "ColorBlock": 551,
-        "IconHint": "et",
+        "Rank": 351,
+        "Type": "expedita",
+        "ColorBlock": 642,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2011-03-01T12:15:27.2236385+01:00",
+        "LastChanged": "2008-06-25T15:29:30.0331601+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "non",
+        "ExtraInfo": "officia",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Demetrius Moen V",
+        "FullName": "Freeman Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 251
+            "FieldType": "System.Int32",
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Julien Reichert",
+    "ExtraInfo": "aut",
+    "StyleHint": "debitis",
+    "Hidden": false,
+    "FullName": "Celine Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 721
       }
     }
   }

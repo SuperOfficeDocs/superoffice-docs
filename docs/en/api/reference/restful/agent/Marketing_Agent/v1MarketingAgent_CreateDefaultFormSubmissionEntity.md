@@ -56,8 +56,8 @@ OK
 | Response | string | The JSON-formatted response from this form |
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 523,
-  "FormId": 260,
-  "WhenSubmitted": "2015-02-18T12:15:19.364746+01:00",
-  "ContactId": 426,
-  "PersonId": 678,
-  "EmailAddress": "mallory@heathcote.uk",
-  "ResponseShipmentAddrId": 486,
-  "Response": "maxime",
+  "FormSubmissionId": 540,
+  "FormId": 96,
+  "WhenSubmitted": "2009-09-26T15:29:22.1257712+02:00",
+  "ContactId": 280,
+  "PersonId": 206,
+  "EmailAddress": "laury.gleason@langworthupton.name",
+  "ResponseShipmentAddrId": 160,
+  "Response": "non",
   "Status": "EmailVerification",
-  "ProcessingLog": "quis",
+  "ProcessingLog": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 752
     }
   }
 }

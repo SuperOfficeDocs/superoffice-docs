@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 158,
-    "Name": "Graham Inc and Sons",
-    "ToolTip": "Alias eum cum aliquam atque asperiores sunt.",
+    "Id": 869,
+    "Name": "McGlynn Inc and Sons",
+    "ToolTip": "Tempora repudiandae dolorem sit sit autem quasi molestiae.",
     "Deleted": false,
-    "Rank": 291,
-    "Type": "sed",
-    "ColorBlock": 517,
-    "IconHint": "tenetur",
-    "Selected": true,
-    "LastChanged": "2003-03-11T12:15:28.2416172+01:00",
+    "Rank": 403,
+    "Type": "doloremque",
+    "ColorBlock": 769,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2016-11-15T15:29:31.356977+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Reilly, Walker and Shanahan",
-        "ToolTip": "Aut deserunt veniam dolorum ut.",
+        "Id": 331,
+        "Name": "Denesik-Beier",
+        "ToolTip": "Dolor qui repudiandae.",
         "Deleted": false,
-        "Rank": 189,
-        "Type": "aut",
-        "ColorBlock": 701,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2009-01-18T12:15:28.2416172+01:00",
+        "Rank": 864,
+        "Type": "porro",
+        "ColorBlock": 820,
+        "IconHint": "incidunt",
+        "Selected": false,
+        "LastChanged": "2018-11-07T15:29:31.356977+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Edd Auer MD",
+        "ExtraInfo": "qui",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Joan Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 984
+            "FieldLength": 309
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "sint",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Margot Stamm",
+    "FullName": "Maureen Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 451
+        "FieldType": "System.String",
+        "FieldLength": 27
       }
     }
   }

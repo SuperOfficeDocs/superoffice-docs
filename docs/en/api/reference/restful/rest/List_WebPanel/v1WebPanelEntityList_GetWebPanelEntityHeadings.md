@@ -52,8 +52,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 254,
-    "Name": "Steuber Inc and Sons",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "Rank": 787,
-    "UdListDefinitionId": 20,
+    "HeadingId": 192,
+    "Name": "Cole-Lesch",
+    "Tooltip": "tempore",
+    "Deleted": false,
+    "Rank": 974,
+    "UdListDefinitionId": 518,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldType": "System.Int32",
+        "FieldLength": 204
       }
     }
   }

@@ -73,7 +73,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Kuhic LLC"
+  "AssociateName": "Howe-Ondricka"
 }
 ```
 
@@ -83,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Schmeler, Emmerich and Luettgen"
+"Willms Inc and Sons"
 ```

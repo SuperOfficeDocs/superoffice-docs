@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 749
+  "DocumentId": 163
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ratione",
-    "DocumentId": 845,
-    "VersionId": "nostrum",
-    "CheckedInDate": "2000-04-20T12:15:18.8597212+02:00",
-    "CheckedInByName": "Grant LLC",
-    "CheckedInByAssociateId": 454,
-    "Description": "Configurable 24 hour hierarchy",
-    "DisplayText": "libero",
+    "ExternalReference": "autem",
+    "DocumentId": 75,
+    "VersionId": "voluptatum",
+    "CheckedInDate": "2014-03-01T15:29:21.6248111+01:00",
+    "CheckedInByName": "Ondricka Group",
+    "CheckedInByAssociateId": 919,
+    "Description": "Centralized clear-thinking infrastructure",
+    "DisplayText": "eveniet",
     "ExtraFields": [
-      "aut",
-      "nulla"
+      "dignissimos",
+      "cum"
     ]
   }
 ]

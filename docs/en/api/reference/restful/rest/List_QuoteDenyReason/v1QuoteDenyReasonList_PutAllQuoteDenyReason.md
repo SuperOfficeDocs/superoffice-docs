@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Altenwerth, Dickens and Schmidt",
-    "Tooltip": "eum",
+    "Id": 459,
+    "Name": "Maggio Group",
+    "Tooltip": "vel",
     "Deleted": true,
-    "UdListDefinitionId": 721,
-    "Rank": 528
+    "UdListDefinitionId": 147,
+    "Rank": 817
   },
   {
-    "Id": 66,
-    "Name": "Altenwerth, Dickens and Schmidt",
-    "Tooltip": "eum",
+    "Id": 459,
+    "Name": "Maggio Group",
+    "Tooltip": "vel",
     "Deleted": true,
-    "UdListDefinitionId": 721,
-    "Rank": 528
+    "UdListDefinitionId": 147,
+    "Rank": 817
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 587,
-    "Name": "Roberts-Walter",
-    "Tooltip": "et",
+    "Id": 42,
+    "Name": "Hudson, Little and Beatty",
+    "Tooltip": "esse",
     "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 67,
+    "UdListDefinitionId": 609,
+    "Rank": 632,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldType": "System.String",
+        "FieldLength": 453
       }
     }
   }

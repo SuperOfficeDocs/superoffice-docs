@@ -75,8 +75,8 @@ OK
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 385
+  "QuoteId": 447
 }
 ```
 
@@ -99,57 +99,57 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 337,
-  "SaleId": 4,
-  "QuoteConnectionId": 530,
-  "ERPQuoteKey": "necessitatibus",
-  "ERPOrderKey": "provident",
-  "ActiveQuoteVersionId": 982,
-  "AcceptedQuoteAlternativeId": 334,
-  "UseValuesFromQuote": 976,
-  "DocumentId": 192,
-  "PoNumber": "673470",
-  "OrderComment": "ducimus",
-  "PreferredEmailCulture": "daphne@hamillwelch.us",
+  "QuoteId": 456,
+  "SaleId": 387,
+  "QuoteConnectionId": 280,
+  "ERPQuoteKey": "consequuntur",
+  "ERPOrderKey": "deserunt",
+  "ActiveQuoteVersionId": 812,
+  "AcceptedQuoteAlternativeId": 810,
+  "UseValuesFromQuote": 871,
+  "DocumentId": 604,
+  "PoNumber": "1483015",
+  "OrderComment": "hic",
+  "PreferredEmailCulture": "roxane@hagenes.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 794,
-      "ERPQuoteVersionKey": "delectus",
-      "QuoteId": 188,
-      "Description": "Visionary client-driven model",
-      "Number": "1272921",
+      "QuoteVersionId": 354,
+      "ERPQuoteVersionKey": "nisi",
+      "QuoteId": 926,
+      "Description": "Visionary upward-trending firmware",
+      "Number": "289416",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 67,
-      "SentDate": "2021-04-28T12:15:19.9557403+02:00",
-      "FollowupId": 928,
-      "ExpirationDate": "2008-09-16T12:15:19.9557403+02:00",
-      "DeliveryCountryId": 711,
+      "LikelyQuoteAlternativeId": 460,
+      "SentDate": "2021-05-21T15:29:22.5827636+02:00",
+      "FollowupId": 36,
+      "ExpirationDate": "2011-04-29T15:29:22.5827636+02:00",
+      "DeliveryCountryId": 387,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 278,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "hic",
-      "ERPPaymentTypeKey": "ullam",
-      "ERPDeliveryTermsKey": "provident",
-      "ERPDeliveryTypeKey": "eos",
-      "Rank": 522,
-      "ApprovedBy": 650,
-      "ApprovedText": "natus",
-      "ApprovedRegisteredBy": 363,
-      "ApprovedRegisteredDate": "2007-12-30T12:15:19.9557403+01:00",
-      "ExtraField1": "numquam",
-      "ExtraField2": "numquam",
-      "ExtraField3": "commodi",
-      "ExtraField4": "mollitia",
-      "ExtraField5": "debitis",
-      "LastRecalculated": "2001-04-05T12:15:19.9557403+02:00",
-      "Updated": "2021-03-24T12:15:19.9557403+01:00",
-      "UpdatedAssociateId": 281,
-      "Registered": "2017-09-18T12:15:19.9557403+02:00",
-      "RegisteredAssociateId": 335,
-      "RequestAssociateId": 616,
+      "InvoiceCountryId": 23,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "porro",
+      "ERPPaymentTypeKey": "optio",
+      "ERPDeliveryTermsKey": "unde",
+      "ERPDeliveryTypeKey": "voluptas",
+      "Rank": 701,
+      "ApprovedBy": 357,
+      "ApprovedText": "non",
+      "ApprovedRegisteredBy": 623,
+      "ApprovedRegisteredDate": "2015-10-11T15:29:22.5827636+02:00",
+      "ExtraField1": "rerum",
+      "ExtraField2": "consectetur",
+      "ExtraField3": "ex",
+      "ExtraField4": "dolores",
+      "ExtraField5": "maxime",
+      "LastRecalculated": "2022-11-01T15:29:22.5827636+01:00",
+      "Updated": "2014-08-26T15:29:22.5827636+02:00",
+      "UpdatedAssociateId": 160,
+      "Registered": "2022-03-19T15:29:22.5827636+01:00",
+      "RegisteredAssociateId": 107,
+      "RequestAssociateId": 164,
       "RequestComment": "cum",
       "QuoteAlternatives": [
         {},
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 25
+          "FieldType": "System.Int32",
+          "FieldLength": 957
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 794
     }
   }
 }

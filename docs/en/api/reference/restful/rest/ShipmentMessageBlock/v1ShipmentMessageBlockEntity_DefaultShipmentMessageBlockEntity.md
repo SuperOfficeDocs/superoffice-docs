@@ -54,8 +54,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 907,
-  "AssociateId": 831,
-  "Block": "est",
-  "Registered": "2018-01-31T12:15:27.3946293+01:00",
-  "RegisteredAssociateId": 241,
-  "Updated": "2012-10-06T12:15:27.3946293+02:00",
-  "UpdatedAssociateId": 457,
-  "UpdatedCount": 382,
+  "ShipmentMessageBlockId": 284,
+  "AssociateId": 696,
+  "Block": "delectus",
+  "Registered": "2011-04-27T15:29:30.6204875+02:00",
+  "RegisteredAssociateId": 895,
+  "Updated": "2001-07-13T15:29:30.6204875+02:00",
+  "UpdatedAssociateId": 675,
+  "UpdatedCount": 595,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

@@ -58,8 +58,8 @@ OK
 | TabName | string | Name of tab control |
 | Order | string | The actual tab order |
 | AssociateId | int32 | Associate who owns this tab order |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TabOrderId": 795,
-    "TabName": "Sauer-Casper",
-    "Order": "velit",
-    "AssociateId": 817,
+    "TabOrderId": 480,
+    "TabName": "Toy-Moen",
+    "Order": "dolore",
+    "AssociateId": 262,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldLength": 912
       }
     }
   },
   {
-    "TabOrderId": 795,
-    "TabName": "Sauer-Casper",
-    "Order": "velit",
-    "AssociateId": 817,
+    "TabOrderId": 480,
+    "TabName": "Toy-Moen",
+    "Order": "dolore",
+    "AssociateId": 262,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldLength": 912
       }
     }
   }

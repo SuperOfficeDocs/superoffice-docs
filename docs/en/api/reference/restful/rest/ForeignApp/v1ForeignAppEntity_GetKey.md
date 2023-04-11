@@ -62,8 +62,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 12 Jul 2013 12:15:26 G7T
+Last-Modified: Sun, 11 Feb 2018 15:29:29 G2T
 
 {
-  "Key": "et",
-  "Value": "est",
-  "RecordId": 238,
-  "CreatedDate": "2008-02-12T12:15:26.9756353+01:00",
-  "UpdatedDate": "2013-07-12T12:15:26.9756353+02:00",
-  "UpdatedBy": "illo",
-  "CreatedBy": "reiciendis",
-  "TableName": "Bechtelar-Dietrich",
+  "Key": "sint",
+  "Value": "ut",
+  "RecordId": 334,
+  "CreatedDate": "2020-02-07T15:29:29.7756983+01:00",
+  "UpdatedDate": "2018-02-11T15:29:29.7756983+01:00",
+  "UpdatedBy": "aliquam",
+  "CreatedBy": "dignissimos",
+  "TableName": "Stamm Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 983
     }
   }
 }

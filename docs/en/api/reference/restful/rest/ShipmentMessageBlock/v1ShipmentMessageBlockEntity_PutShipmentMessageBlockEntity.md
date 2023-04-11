@@ -82,8 +82,8 @@ ShipmentMessageBlockEntity updated.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -92,18 +92,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 588,
-  "AssociateId": 940,
-  "Block": "vel",
-  "Registered": "2012-08-12T12:15:27.3956298+02:00",
-  "RegisteredAssociateId": 384,
-  "Updated": "2012-05-02T12:15:27.3956298+02:00",
-  "UpdatedAssociateId": 313,
-  "UpdatedCount": 861
+  "ShipmentMessageBlockId": 241,
+  "AssociateId": 597,
+  "Block": "nesciunt",
+  "Registered": "1996-10-23T15:29:30.6214888+02:00",
+  "RegisteredAssociateId": 70,
+  "Updated": "2006-02-15T15:29:30.6214888+01:00",
+  "UpdatedAssociateId": 52,
+  "UpdatedCount": 466
 }
 ```
 
@@ -114,20 +114,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 870,
-  "AssociateId": 729,
-  "Block": "quia",
-  "Registered": "2008-10-27T12:15:27.3956298+01:00",
-  "RegisteredAssociateId": 755,
-  "Updated": "2021-07-26T12:15:27.3956298+02:00",
-  "UpdatedAssociateId": 919,
-  "UpdatedCount": 571,
+  "ShipmentMessageBlockId": 123,
+  "AssociateId": 785,
+  "Block": "fuga",
+  "Registered": "2018-02-04T15:29:30.6214888+01:00",
+  "RegisteredAssociateId": 407,
+  "Updated": "2006-03-12T15:29:30.6214888+01:00",
+  "UpdatedAssociateId": 160,
+  "UpdatedCount": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 495
     }
   },
   "_Links": {

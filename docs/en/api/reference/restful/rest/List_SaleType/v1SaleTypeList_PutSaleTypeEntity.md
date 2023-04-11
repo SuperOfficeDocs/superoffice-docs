@@ -102,8 +102,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -111,51 +111,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 484,
-  "Name": "Heller, Ullrich and Feest",
-  "Tooltip": "praesentium",
-  "Rank": 786,
+  "SaleTypeId": 827,
+  "Name": "Krajcik Group",
+  "Tooltip": "est",
+  "Rank": 964,
   "DurationUnit": "Century",
-  "SaleDuration": 877,
-  "SaleTypeCatId": 517,
-  "Deleted": false,
+  "SaleDuration": 336,
+  "SaleTypeCatId": 189,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 732,
-  "QuoteLinesTemplate": 631,
-  "ConfirmationLinesTemplate": 40,
+  "DefaultQuoteValidity": 103,
+  "QuoteLinesTemplate": 565,
+  "ConfirmationLinesTemplate": 695,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 932,
-  "MinEarningPercent": 281,
-  "GroupQuoteLinesBy": 367,
-  "SortGroupLinesBy": 501,
+  "MaxDiscountPercent": 111,
+  "MinEarningPercent": 871,
+  "GroupQuoteLinesBy": 632,
+  "SortGroupLinesBy": 379,
   "Stages": [
     {
-      "Id": 543,
-      "Name": "Runolfsdottir-Koelpin",
-      "ToolTip": "Mollitia repellendus quasi dolores quibusdam velit expedita.",
+      "Id": 123,
+      "Name": "Greenfelder, Kerluke and Grant",
+      "ToolTip": "Voluptatibus illo sit nesciunt officia commodi.",
       "Deleted": false,
-      "Rank": 215,
-      "Type": "autem",
-      "ColorBlock": 754,
-      "IconHint": "dolores",
-      "Selected": false,
-      "LastChanged": "2005-05-07T12:15:28.4726141+02:00",
+      "Rank": 209,
+      "Type": "tempora",
+      "ColorBlock": 993,
+      "IconHint": "quaerat",
+      "Selected": true,
+      "LastChanged": "2023-03-02T15:29:31.5874814+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "necessitatibus",
-      "StyleHint": "libero",
-      "Hidden": false,
-      "FullName": "Abdullah Gislason"
+      "ExtraInfo": "asperiores",
+      "StyleHint": "aspernatur",
+      "Hidden": true,
+      "FullName": "Fatima Hansen"
     }
   ]
 }
@@ -168,53 +168,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 656,
-  "Name": "Auer-Koss",
-  "Tooltip": "laudantium",
-  "Rank": 151,
+  "SaleTypeId": 175,
+  "Name": "Runte Group",
+  "Tooltip": "deserunt",
+  "Rank": 794,
   "DurationUnit": "Century",
-  "SaleDuration": 135,
-  "SaleTypeCatId": 93,
-  "Deleted": false,
+  "SaleDuration": 919,
+  "SaleTypeCatId": 466,
+  "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 106,
-  "QuoteLinesTemplate": 149,
-  "ConfirmationLinesTemplate": 39,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 765,
+  "QuoteLinesTemplate": 840,
+  "ConfirmationLinesTemplate": 740,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 258,
-  "MinEarningPercent": 403,
-  "GroupQuoteLinesBy": 160,
-  "SortGroupLinesBy": 110,
+  "MaxDiscountPercent": 893,
+  "MinEarningPercent": 796,
+  "GroupQuoteLinesBy": 636,
+  "SortGroupLinesBy": 374,
   "Stages": [
     {
-      "Id": 892,
-      "Name": "Goyette-Rolfson",
-      "ToolTip": "Minima ut laborum omnis aut perferendis.",
-      "Deleted": true,
-      "Rank": 30,
-      "Type": "qui",
-      "ColorBlock": 314,
-      "IconHint": "et",
+      "Id": 784,
+      "Name": "Mills-Zieme",
+      "ToolTip": "Consequatur ratione qui fuga non aliquid quia.",
+      "Deleted": false,
+      "Rank": 374,
+      "Type": "placeat",
+      "ColorBlock": 292,
+      "IconHint": "corrupti",
       "Selected": false,
-      "LastChanged": "1996-04-18T12:15:28.4796139+02:00",
+      "LastChanged": "2020-05-28T15:29:31.5884742+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nulla",
-      "StyleHint": "saepe",
-      "Hidden": true,
-      "FullName": "Dax Turner",
+      "ExtraInfo": "reprehenderit",
+      "StyleHint": "dolore",
+      "Hidden": false,
+      "FullName": "Gerda Charlotte Legros DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 6
         }
       }
     }
@@ -224,7 +224,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 610
+      "FieldLength": 826
     }
   }
 }

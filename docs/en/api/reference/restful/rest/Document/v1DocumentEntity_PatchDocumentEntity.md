@@ -130,8 +130,8 @@ DocumentEntity  updated.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "similique",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "similique",
     "value": {}
   }
 ]
@@ -164,88 +164,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 388,
+  "DocumentId": 482,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sunt",
-  "Header": "est",
-  "Name": "Moore, Pfannerstill and Rosenbaum",
-  "OurRef": "nihil",
-  "YourRef": "assumenda",
-  "CreatedDate": "2013-07-22T12:15:26.8876364+02:00",
-  "UpdatedDate": "2011-11-24T12:15:26.8876364+01:00",
-  "Description": "Virtual encompassing support",
+  "Attention": "distinctio",
+  "Header": "et",
+  "Name": "Abbott, Gaylord and Bernhard",
+  "OurRef": "mollitia",
+  "YourRef": "quia",
+  "CreatedDate": "1998-04-01T15:29:29.6982003+02:00",
+  "UpdatedDate": "2010-11-23T15:29:29.6982003+01:00",
+  "Description": "Diverse upward-trending application",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-09-30T12:15:26.8906435+02:00",
-  "ExternalRef": "necessitatibus",
+  "Date": "2018-06-06T15:29:29.7016994+02:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 819,
+  "ActiveLinks": 69,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gulgowski LLC",
-      "Id": 428,
-      "Description": "Seamless national middleware",
-      "ExtraInfo": "ab",
-      "LinkId": 427,
+      "EntityName": "O'Hara-Bahringer",
+      "Id": 669,
+      "Description": "Cloned solution-oriented hierarchy",
+      "ExtraInfo": "sint",
+      "LinkId": 10,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 446
+          "FieldType": "System.String",
+          "FieldLength": 851
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 57,
-  "Snum": 164,
+  "SuggestedDocumentId": 30,
+  "Snum": 859,
   "UserDefinedFields": {
-    "SuperOffice:1": "Hellen Denesik",
-    "SuperOffice:2": "Tia Romaguera"
+    "SuperOffice:1": "2090654817",
+    "SuperOffice:2": "Dr. Kameron Stephen Kling"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "accusamus"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "quam"
+    "CustomFields1": "quia",
+    "CustomFields2": "quaerat"
   },
-  "PublishEventDate": "2012-08-12T12:15:26.8916367+02:00",
-  "PublishTo": "2012-12-08T12:15:26.8916367+01:00",
-  "PublishFrom": "2010-09-11T12:15:26.8916367+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-01-13T15:29:29.7026994+01:00",
+  "PublishTo": "2018-09-28T15:29:29.7026994+02:00",
+  "PublishFrom": "2005-07-27T15:29:29.7026994+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 925,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 713
         }
       }
     },
     {
-      "VisibleId": 925,
+      "VisibleId": 360,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 80
+          "FieldLength": 713
         }
       }
     }
@@ -255,12 +255,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldLength": 282
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

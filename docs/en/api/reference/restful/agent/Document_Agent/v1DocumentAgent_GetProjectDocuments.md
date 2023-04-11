@@ -87,8 +87,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,14 +96,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 874,
-  "StartTime": "2013-04-23T12:15:18.728755+02:00",
-  "EndTime": "2017-03-04T12:15:18.728755+01:00",
-  "Count": 107
+  "ProjectId": 968,
+  "StartTime": "2022-10-21T15:29:21.4897799+02:00",
+  "EndTime": "1998-09-16T15:29:21.4897799+02:00",
+  "Count": 550
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 687,
-    "Attention": "et",
-    "Header": "dolorem",
-    "Name": "Koch, Gleichner and Stanton",
-    "OurRef": "at",
-    "YourRef": "sed",
-    "Description": "Devolved web-enabled complexity",
-    "DocumentTemplate": "dolorum",
+    "DocumentId": 22,
+    "Attention": "eaque",
+    "Header": "est",
+    "Name": "Nolan, Feeney and Hermann",
+    "OurRef": "est",
+    "YourRef": "blanditiis",
+    "Description": "Profound incremental neural-net",
+    "DocumentTemplate": "quibusdam",
     "IsPublished": true,
-    "PersonId": 139,
-    "PersonFullName": "Felix Zieme",
-    "AssociateFullName": "Gail Sawayn",
-    "ContactId": 315,
-    "ContactName": "Larson, Jenkins and Anderson",
-    "ProjectId": 281,
-    "ProjectName": "McCullough, Stiedemann and Crist",
-    "AssociateId": 907,
-    "Snum": 766,
-    "SaleId": 243,
-    "SaleName": "Carroll LLC",
+    "PersonId": 442,
+    "PersonFullName": "Dr. Grant Shields",
+    "AssociateFullName": "Ryleigh Bruen",
+    "ContactId": 515,
+    "ContactName": "Johnson LLC",
+    "ProjectId": 596,
+    "ProjectName": "Bergstrom Inc and Sons",
+    "AssociateId": 904,
+    "Snum": 612,
+    "SaleId": 97,
+    "SaleName": "Feil Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 228
+        "FieldType": "System.String",
+        "FieldLength": 12
       }
     }
   }

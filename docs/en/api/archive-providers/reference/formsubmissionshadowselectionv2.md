@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionShadowSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -458,7 +458,7 @@ Shadow contact provider for the FormSubmission provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=registeredDate,person/personPrivate/formattedNumber,person/personAddress/county,contact/contactAssociate/associateDbId,contact/contactAssociate/ejStatus
+GET /api/v1/archive/FormSubmissionShadowSelectionV2?$select=associate/assocType,associate/personEmail,person/hasInfoText,person/hasInterests,person/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

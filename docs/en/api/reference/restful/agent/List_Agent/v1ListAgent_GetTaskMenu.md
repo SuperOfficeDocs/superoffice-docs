@@ -25,7 +25,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=244
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=38
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -70,8 +70,8 @@ OK
 | Encoding | string | Encoding for url |
 | ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
 | Deleted | bool | True if deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 796,
-  "Name": "Mitchell Group",
-  "Tooltip": "assumenda",
-  "TableName": "Strosin-Considine",
-  "Area": "et",
+  "TaskMenuId": 176,
+  "Name": "Cartwright, Satterfield and Heaney",
+  "Tooltip": "exercitationem",
+  "TableName": "Walker-Marquardt",
+  "Area": "officiis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 653,
+  "CrmScriptId": 252,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 626,
+  "Rank": 743,
   "Encoding": "ANSI",
-  "ProgId": "mollitia",
-  "Deleted": false,
+  "ProgId": "ut",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldLength": 633
     }
   }
 }

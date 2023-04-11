@@ -67,8 +67,8 @@ OK
 | GenerationStart | date-time | When was the last regeneration started |
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,18 +76,18 @@ OK
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 725,
+  "OwnerTable": 561,
   "Enabled": false,
-  "Period1": 124,
-  "Period2": 636,
-  "Period3": 140,
-  "GenerationStart": "2004-05-24T12:15:20.0107383+02:00",
-  "GenerationEnd": "2002-10-20T12:15:20.0107383+02:00",
-  "RowsGenerated": 141
+  "Period1": 550,
+  "Period2": 581,
+  "Period3": 705,
+  "GenerationStart": "2016-03-11T15:29:22.6347637+01:00",
+  "GenerationEnd": "2023-02-03T15:29:22.6347637+01:00",
+  "RowsGenerated": 167
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 937,
+  "OwnerTable": 251,
   "Enabled": true,
-  "Period1": 347,
-  "Period2": 631,
-  "Period3": 206,
-  "GenerationStart": "2002-03-23T12:15:20.0107383+01:00",
-  "GenerationEnd": "2019-07-04T12:15:20.0107383+02:00",
-  "RowsGenerated": 835,
+  "Period1": 617,
+  "Period2": 759,
+  "Period3": 82,
+  "GenerationStart": "2001-10-19T15:29:22.6352634+02:00",
+  "GenerationEnd": "2018-03-12T15:29:22.6352634+01:00",
+  "RowsGenerated": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 391
     }
   }
 }

@@ -58,6 +58,7 @@ The AttachmentEntity to be saved.
 | AttSize | Integer | The size (in bytes) for the attachment. |
 | InlineImage | Boolean | True if this attachment is inlined in the html_body. |
 | ContentId | String | The content_id of this attachment, used for inline images |
+| AuthKey | String | The key used for authenticating access to this attachment. |
 
 ## Response:
 
@@ -78,8 +79,9 @@ AttachmentEntity updated.
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -88,16 +90,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 704,
-  "Name": "Anderson, Pouros and Weissnat",
-  "ContentType": "cum",
-  "AttSize": 819,
-  "InlineImage": true,
-  "ContentId": "aut"
+  "AttachmentId": 416,
+  "Name": "Wisoky Inc and Sons",
+  "ContentType": "quod",
+  "AttSize": 277,
+  "InlineImage": false,
+  "ContentId": "velit",
+  "AuthKey": "voluptatem"
 }
 ```
 
@@ -108,18 +111,19 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 432,
-  "Name": "O'Conner-Wisozk",
-  "ContentType": "odio",
-  "AttSize": 49,
-  "InlineImage": false,
-  "ContentId": "iure",
+  "AttachmentId": 870,
+  "Name": "Morissette Group",
+  "ContentType": "dolore",
+  "AttSize": 794,
+  "InlineImage": true,
+  "ContentId": "quibusdam",
+  "AuthKey": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldLength": 167
     }
   },
   "_Links": {

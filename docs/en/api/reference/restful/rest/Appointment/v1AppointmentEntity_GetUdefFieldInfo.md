@@ -83,8 +83,8 @@ AppointmentEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 230,
-  "ColumnId": 587,
-  "FieldDefault": "ipsa",
-  "FieldHeight": 519,
-  "FieldLabel": "quidem",
-  "FieldLeft": 832,
-  "FieldTop": 551,
+  "UDefFieldId": 64,
+  "ColumnId": 722,
+  "FieldDefault": "repellat",
+  "FieldHeight": 997,
+  "FieldLabel": "cupiditate",
+  "FieldLeft": 477,
+  "FieldTop": 810,
   "FieldType": "Checkbox",
-  "FieldWidth": 69,
-  "FormatMask": "veniam",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 986,
-  "LabelLeft": 942,
-  "LabelTop": 429,
-  "LabelWidth": 291,
-  "LastVersionId": 992,
-  "ListTableId": 380,
+  "FieldWidth": 932,
+  "FormatMask": "minus",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 433,
+  "LabelLeft": 534,
+  "LabelTop": 632,
+  "LabelWidth": 19,
+  "LastVersionId": 409,
+  "ListTableId": 170,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 958,
-  "ProgId": "qui",
-  "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 497,
-  "TextLength": 340,
-  "Tooltip": "expedita",
-  "UdefIdentity": 15,
-  "UDListDefinitionId": 439,
+  "Page1LineNo": 325,
+  "ProgId": "aliquam",
+  "IsReadOnly": true,
+  "ShortLabel": "est",
+  "TabOrder": 737,
+  "TextLength": 301,
+  "Tooltip": "dolore",
+  "UdefIdentity": 784,
+  "UDListDefinitionId": 968,
   "Justification": "Center",
-  "Version": 570,
-  "TemplateVariableName": "Wyman-Cruickshank",
-  "HasBeenPublished": false,
-  "MdoListName": "Kemmer, Reynolds and Prohaska",
+  "Version": 468,
+  "TemplateVariableName": "Turcotte-Buckridge",
+  "HasBeenPublished": true,
+  "MdoListName": "Beatty, Gleichner and Schowalter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldLength": 506
     }
   }
 }

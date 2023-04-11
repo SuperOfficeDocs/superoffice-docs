@@ -114,8 +114,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -123,14 +123,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 397,
-  "StartTime": "2015-10-11T12:15:17.66877+02:00",
-  "EndTime": "2009-09-28T12:15:17.66877+02:00",
-  "Count": 487
+  "AssociateId": 760,
+  "StartTime": "2006-07-31T15:29:20.4148303+02:00",
+  "EndTime": "2004-12-06T15:29:20.4148303+01:00",
+  "Count": 20
 }
 ```
 
@@ -142,61 +142,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 252,
-    "StartDate": "2022-11-21T12:15:17.6697707+01:00",
-    "EndDate": "2014-10-12T12:15:17.6697707+02:00",
+    "AppointmentId": 8,
+    "StartDate": "2013-07-06T15:29:20.4158303+02:00",
+    "EndDate": "2008-10-13T15:29:20.4158303+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nam",
-    "AssociateFullName": "Aylin Runte",
-    "ContactName": "Lakin, Ondricka and Farrell",
-    "Description": "Public-key grid-enabled internet solution",
-    "PersonFullName": "Leland Heathcote",
-    "PersonId": 584,
-    "ContactId": 928,
-    "ProjectId": 883,
-    "ProjectName": "VonRueden-Feest",
+    "Task": "rerum",
+    "AssociateFullName": "Kiana Mitchell",
+    "ContactName": "Kerluke, Smitham and Larkin",
+    "Description": "Integrated modular Graphic Interface",
+    "PersonFullName": "Laura Arch Nolan Jr.",
+    "PersonId": 227,
+    "ContactId": 254,
+    "ProjectId": 533,
+    "ProjectName": "Moen, Kemmer and Eichmann",
     "IsPublished": false,
-    "AssociateId": 803,
-    "ColorIndex": 478,
-    "IsFree": false,
+    "AssociateId": 599,
+    "ColorIndex": 904,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 467,
-    "PriorityName": "Vandervort-Berge",
+    "PriorityId": 319,
+    "PriorityName": "Boehm-Walker",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-04-21T12:15:17.6717706+02:00",
+    "ActiveDate": "1996-10-21T15:29:20.416831+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-08-27T12:15:17.6717706+02:00",
-    "RecurringEndDate": "2003-10-13T12:15:17.6717706+02:00",
-    "MotherId": 187,
-    "AssignedBy": 672,
-    "AssignedByFullName": "Tanner Rowe",
-    "RejectReason": "seize visionary paradigms",
-    "Location": "est",
-    "AlarmLeadTime": "quam",
-    "SaleId": 330,
-    "SaleName": "Hagenes-Feest",
-    "AssociateName": "Hartmann Inc and Sons",
-    "CreatedDate": "2020-10-23T12:15:17.6717706+02:00",
-    "CreatedBy": "repellat",
-    "CreatedByFullName": "Rowland Reece Hermiston Sr.",
-    "CreatedByAssociateId": 344,
+    "RecurringStartDate": "2018-05-16T15:29:20.416831+02:00",
+    "RecurringEndDate": "2005-09-08T15:29:20.416831+02:00",
+    "MotherId": 579,
+    "AssignedBy": 820,
+    "AssignedByFullName": "Ms. Percy Oswald Kessler MD",
+    "RejectReason": "orchestrate turn-key bandwidth",
+    "Location": "fugit",
+    "AlarmLeadTime": "cupiditate",
+    "SaleId": 423,
+    "SaleName": "Durgan Inc and Sons",
+    "AssociateName": "Grady-Witting",
+    "CreatedDate": "2004-08-10T15:29:20.417834+02:00",
+    "CreatedBy": "tempora",
+    "CreatedByFullName": "Deon Christiansen IV",
+    "CreatedByAssociateId": 291,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 763
+        "FieldType": "System.Int32",
+        "FieldLength": 135
       }
     }
   }

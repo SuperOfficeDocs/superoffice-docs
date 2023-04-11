@@ -75,8 +75,8 @@ CRMScriptEntity found.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -85,7 +85,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 780,
-  "UniqueIdentifier": "hic",
-  "Name": "Boyer, Rosenbaum and Keeling",
-  "Description": "Digitized logistical algorithm",
-  "IncludeId": "quaerat",
-  "HierarchyId": 338,
-  "Source": "reiciendis",
-  "Registered": "2020-04-15T12:15:26.8116402+02:00",
-  "RegisteredAssociateId": 871,
-  "Updated": "2001-05-18T12:15:26.8116402+02:00",
-  "UpdatedAssociateId": 801,
+  "EjscriptId": 396,
+  "UniqueIdentifier": "autem",
+  "Name": "Senger-Homenick",
+  "Description": "Diverse uniform attitude",
+  "IncludeId": "sed",
+  "HierarchyId": 449,
+  "Source": "repellat",
+  "Registered": "2014-07-25T15:29:29.6276691+02:00",
+  "RegisteredAssociateId": 601,
+  "Updated": "2018-11-16T15:29:29.6276691+01:00",
+  "UpdatedAssociateId": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldType": "System.Int32",
+      "FieldLength": 82
     }
   },
   "_Links": {

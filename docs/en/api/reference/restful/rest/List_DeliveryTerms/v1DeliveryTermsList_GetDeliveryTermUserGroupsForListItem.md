@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Rempel Group",
-    "ToolTip": "Occaecati id neque nisi neque aut autem est.",
-    "Deleted": true,
-    "Rank": 273,
-    "Type": "quo",
-    "ColorBlock": 56,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2015-10-12T12:15:28.1126189+02:00",
+    "Id": 687,
+    "Name": "Kozey, Bailey and Feeney",
+    "ToolTip": "Pariatur accusamus laboriosam ut.",
+    "Deleted": false,
+    "Rank": 879,
+    "Type": "aut",
+    "ColorBlock": 27,
+    "IconHint": "quas",
+    "Selected": false,
+    "LastChanged": "2006-01-07T15:29:31.2229793+01:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Stamm Inc and Sons",
-        "ToolTip": "Consequatur omnis excepturi voluptas et.",
+        "Id": 747,
+        "Name": "DuBuque-Larson",
+        "ToolTip": "Soluta quaerat hic ut nisi vel.",
         "Deleted": true,
-        "Rank": 843,
-        "Type": "non",
-        "ColorBlock": 320,
+        "Rank": 645,
+        "Type": "nemo",
+        "ColorBlock": 628,
         "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2012-07-22T12:15:28.1126189+02:00",
+        "LastChanged": "2011-10-27T15:29:31.2229793+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "soluta",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Prof. Alan Sigmund Reinger Sr.",
+        "FullName": "Mollie Wisozk PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 241
+            "FieldType": "System.Int32",
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Wendell Walsh",
+    "ExtraInfo": "dolorum",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Mrs. Leone Murray III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 124
       }
     }
   }

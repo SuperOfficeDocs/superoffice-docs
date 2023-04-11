@@ -118,8 +118,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -131,12 +131,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 782,
+  "PersonId": 658,
   "IncludeProjectAppointments": true,
-  "StartTime": "2002-08-09T12:15:17.622775+02:00",
-  "EndTime": "2022-06-28T12:15:17.622775+02:00",
-  "Count": 981,
-  "TaskId": 805
+  "StartTime": "2005-04-27T15:29:20.2358246+02:00",
+  "EndTime": "2001-12-14T15:29:20.2358246+01:00",
+  "Count": 394,
+  "TaskId": 210
 }
 ```
 
@@ -148,53 +148,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 695,
-    "StartDate": "2004-09-26T12:15:17.6237709+02:00",
-    "EndDate": "1997-11-06T12:15:17.6237709+01:00",
+    "AppointmentId": 355,
+    "StartDate": "2021-03-25T15:29:20.2378244+01:00",
+    "EndDate": "2019-12-14T15:29:20.2378244+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Mr. Celia Kub",
-    "ContactName": "O'Reilly, Ward and Lubowitz",
-    "Description": "Stand-alone full-range capacity",
-    "PersonFullName": "Marco Stephany Lang DDS",
-    "PersonId": 647,
-    "ContactId": 59,
-    "ProjectId": 396,
-    "ProjectName": "Hills-Pfannerstill",
-    "IsPublished": false,
-    "AssociateId": 656,
-    "ColorIndex": 626,
+    "Task": "qui",
+    "AssociateFullName": "Newton Lowe",
+    "ContactName": "Reinger-Gislason",
+    "Description": "Business-focused heuristic firmware",
+    "PersonFullName": "Gerardo Delfina Fritsch IV",
+    "PersonId": 430,
+    "ContactId": 923,
+    "ProjectId": 259,
+    "ProjectName": "Kohler, Bernier and Mertz",
+    "IsPublished": true,
+    "AssociateId": 2,
+    "ColorIndex": 962,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 191,
-    "PriorityName": "Ritchie Group",
+    "PriorityId": 180,
+    "PriorityName": "Johnston LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2015-12-23T12:15:17.6247709+01:00",
+    "ActiveDate": "1999-12-03T15:29:20.2383243+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-09-27T12:15:17.6247709+02:00",
-    "RecurringEndDate": "2018-03-15T12:15:17.6247709+01:00",
-    "MotherId": 983,
-    "AssignedBy": 449,
-    "AssignedByFullName": "Ms. Stanford Richard Christiansen V",
+    "RecurringStartDate": "1999-02-27T15:29:20.2383243+01:00",
+    "RecurringEndDate": "2011-03-08T15:29:20.2383243+01:00",
+    "MotherId": 149,
+    "AssignedBy": 405,
+    "AssignedByFullName": "Shanny Boyer",
     "RejectReason": "",
-    "Location": "perferendis",
-    "AlarmLeadTime": "voluptatibus",
-    "SaleId": 58,
-    "SaleName": "Bartoletti Group",
-    "AssociateName": "Walter Group",
-    "CreatedDate": "1996-01-17T12:15:17.6247709+01:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Sebastian Crist",
-    "CreatedByAssociateId": 626,
+    "Location": "voluptates",
+    "AlarmLeadTime": "et",
+    "SaleId": 908,
+    "SaleName": "Hammes-Lebsack",
+    "AssociateName": "Hansen LLC",
+    "CreatedDate": "2017-02-19T15:29:20.2383243+01:00",
+    "CreatedBy": "ut",
+    "CreatedByFullName": "Afton Tromp",
+    "CreatedByAssociateId": 143,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 289
+        "FieldLength": 457
       }
     }
   }

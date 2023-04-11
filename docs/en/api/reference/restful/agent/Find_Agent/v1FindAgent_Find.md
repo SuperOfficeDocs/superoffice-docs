@@ -71,8 +71,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,15 +80,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "debitis",
-  "ProviderName": "Koss-Leffler",
-  "StorageKey": "consequatur",
-  "PageSize": 470,
-  "PageNumber": 43
+  "StorageType": "commodi",
+  "ProviderName": "Jaskolski Group",
+  "StorageKey": "corporis",
+  "PageSize": 196,
+  "PageNumber": 17
 }
 ```
 
@@ -101,51 +101,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Corwin Group",
-      "DisplayTooltip": "architecto",
-      "DisplayType": "similique",
+      "DisplayName": "Rath-Ferry",
+      "DisplayTooltip": "ex",
+      "DisplayType": "repellat",
       "CanOrderBy": false,
-      "Name": "Homenick-Leannon",
+      "Name": "Larkin-Pouros",
       "CanRestrictBy": false,
-      "RestrictionType": "ab",
-      "RestrictionListName": "Klein Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "fuga",
-      "Width": "quo",
-      "IconHint": "qui",
-      "HeadingIconHint": "eaque"
+      "RestrictionType": "accusantium",
+      "RestrictionListName": "Grady, Muller and DuBuque",
+      "IsVisible": true,
+      "ExtraInfo": "libero",
+      "Width": "perspiciatis",
+      "IconHint": "nihil",
+      "HeadingIconHint": "tempora"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Altenwerth Inc and Sons",
-      "PrimaryKey": 72,
+      "EntityName": "Schoen, Cassin and Bernier",
+      "PrimaryKey": 848,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "totam",
-          "TooltipHint": "voluptate",
-          "LinkHint": "quam"
+          "DisplayValue": "error",
+          "TooltipHint": "eos",
+          "LinkHint": "eligendi"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "non",
+      "LinkHint": "provident",
+      "StyleHint": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldLength": 84
         }
       }
     }
   ],
-  "RowCount": 245,
+  "RowCount": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 235
     }
   }
 }

@@ -81,8 +81,8 @@ OK
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Littel-Kuhn"
+  "EntityName": "Lynch Inc and Sons"
 }
 ```
 
@@ -105,31 +105,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 692,
-  "Name": "Romaguera, Kris and Howell",
-  "Description": "Advanced web-enabled monitoring",
-  "DefaultHeight": 55,
-  "DefaultWidth": 430,
+  "DashboardTileDefinitionId": 693,
+  "Name": "Kuvalis Inc and Sons",
+  "Description": "Profound logistical focus group",
+  "DefaultHeight": 637,
+  "DefaultWidth": 820,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Beier-Stroman",
-  "SelectionId": 321,
+  "EntityName": "Miller, Barrows and Fisher",
+  "SelectionId": 162,
   "CurrencyMode": "Base",
-  "CurrencyCode": "harum",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "rerum",
-  "SortBy": "tenetur",
-  "LayoutConfig": "perspiciatis",
-  "SecondarySelectionId": 389,
-  "MeasureByField": "illo",
+  "MeasureField": "non",
+  "SortBy": "illo",
+  "LayoutConfig": "eos",
+  "SecondarySelectionId": 588,
+  "MeasureByField": "laboriosam",
   "Usage": "Dashboard",
-  "ProviderName": "Watsica-Barrows",
+  "ProviderName": "Walsh Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 318
     }
   }
 }

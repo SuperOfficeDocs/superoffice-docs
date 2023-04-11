@@ -106,8 +106,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -119,18 +119,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 455,
-  "PersonId": 449,
-  "AppointmentId": 811,
-  "DocumentId": 105,
-  "SaleId": 64,
-  "SelectionId": 766,
-  "ProjectId": 57,
+  "ContactId": 858,
+  "PersonId": 998,
+  "AppointmentId": 395,
+  "DocumentId": 734,
+  "SaleId": 815,
+  "SelectionId": 495,
+  "ProjectId": 788,
   "CustomTags": {
-    "CustomTags1": "quam",
-    "CustomTags2": "illum"
+    "CustomTags1": "delectus",
+    "CustomTags2": "incidunt"
   },
-  "UiCulture": "voluptatem"
+  "UiCulture": "ut"
 }
 ```
 
@@ -141,88 +141,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 573,
+  "DocumentId": 411,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sint",
-  "Header": "porro",
-  "Name": "Predovic-Friesen",
-  "OurRef": "necessitatibus",
-  "YourRef": "laudantium",
-  "CreatedDate": "2002-10-23T12:15:18.8377533+02:00",
-  "UpdatedDate": "2014-03-16T12:15:18.8377533+01:00",
-  "Description": "Decentralized composite framework",
+  "Attention": "nam",
+  "Header": "voluptas",
+  "Name": "O'Reilly-Raynor",
+  "OurRef": "omnis",
+  "YourRef": "qui",
+  "CreatedDate": "2021-12-04T15:29:21.6022775+01:00",
+  "UpdatedDate": "2007-06-25T15:29:21.6022775+02:00",
+  "Description": "Business-focused mobile standardization",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-09-21T12:15:18.8407548+02:00",
-  "ExternalRef": "amet",
+  "Date": "2002-06-09T15:29:21.6057778+02:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 958,
+  "ActiveLinks": 169,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Leannon Group",
-      "Id": 718,
-      "Description": "Configurable system-worthy orchestration",
-      "ExtraInfo": "voluptas",
-      "LinkId": 163,
+      "EntityName": "Feeney-Fahey",
+      "Id": 555,
+      "Description": "Adaptive mobile migration",
+      "ExtraInfo": "quo",
+      "LinkId": 413,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 220
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 282,
-  "Snum": 429,
+  "SuggestedDocumentId": 534,
+  "Snum": 793,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Muhammad Baumbach",
-    "SuperOffice:2": "2074562942"
+    "SuperOffice:1": "Eli Pagac",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "quis",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "optio",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "rerum"
+    "CustomFields1": "unde",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2001-02-18T12:15:18.8417272+01:00",
-  "PublishTo": "2016-05-14T12:15:18.8417272+02:00",
-  "PublishFrom": "2018-01-08T12:15:18.8417272+01:00",
+  "PublishEventDate": "2008-08-20T15:29:21.6068139+02:00",
+  "PublishTo": "2014-11-06T15:29:21.6068139+01:00",
+  "PublishFrom": "2001-05-27T15:29:21.6068139+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 236,
+      "VisibleId": 130,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldType": "System.String",
+          "FieldLength": 974
         }
       }
     },
     {
-      "VisibleId": 236,
+      "VisibleId": 130,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldType": "System.String",
+          "FieldLength": 974
         }
       }
     }
@@ -231,8 +231,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldType": "System.String",
+      "FieldLength": 499
     }
   }
 }

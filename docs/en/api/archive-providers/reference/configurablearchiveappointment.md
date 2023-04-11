@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ConfigurableArchiveAppointment"
 so.generated: true
-so.date: 02.15.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -683,7 +683,7 @@ This is the archive Provider for the Configurable appointment Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveAppointment?$select=contact/contactAssociate/fullName,person/rank,person/retired,project/projectAssociate/usergroup,sale/registeredByFullName
+GET /api/v1/archive/ConfigurableArchiveAppointment?$select=type,contact/category,contact/restrictionAddress/line2,contact/contactExtra/x_contact_short_dropdown,contact/saintTicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

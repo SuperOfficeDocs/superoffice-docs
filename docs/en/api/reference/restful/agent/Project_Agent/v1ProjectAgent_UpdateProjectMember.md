@@ -83,8 +83,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 770,
-  "ContactId": 657,
-  "ProjectId": 497,
-  "ContactName": "Watsica-Nitzsche",
+  "ProjectmemberId": 710,
+  "ContactId": 164,
+  "ProjectId": 199,
+  "ContactName": "Kerluke-Kreiger",
   "ContactDepartment": "",
-  "ProjectName": "Blick Group",
-  "EmailId": 854,
-  "EmailAddress": "vidal_gaylord@rowe.name",
-  "CountryId": 426,
-  "Firstname": "Ellen",
-  "MiddleName": "Schamberger, Buckridge and Denesik",
-  "Lastname": "Schroeder",
-  "PersonId": 994,
-  "Mrmrs": "ea",
-  "ProjectMemberTypeName": "Ankunding, Hauck and Stokes",
-  "Phone": "816-114-2773",
-  "PhoneId": 879,
-  "ProjectMemberTypeId": 985,
-  "EmailAddressName": "asha.shields@gloverbarrows.com",
-  "Comment": "magni",
-  "FullName": "Carmelo Raynor",
+  "ProjectName": "Blick LLC",
+  "EmailId": 115,
+  "EmailAddress": "kay@schultzfranecki.info",
+  "CountryId": 930,
+  "Firstname": "Stella",
+  "MiddleName": "Orn, Ortiz and Treutel",
+  "Lastname": "Grady",
+  "PersonId": 35,
+  "Mrmrs": "consequatur",
+  "ProjectMemberTypeName": "Gerlach, Vandervort and Mertz",
+  "Phone": "499-434-9994",
+  "PhoneId": 830,
+  "ProjectMemberTypeId": 579,
+  "EmailAddressName": "osborne_bergnaum@schamberger.name",
+  "Comment": "corrupti",
+  "FullName": "Maynard Lind",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 875
     }
   }
 }

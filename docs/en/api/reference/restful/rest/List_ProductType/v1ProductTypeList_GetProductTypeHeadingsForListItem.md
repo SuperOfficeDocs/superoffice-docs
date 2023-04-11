@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 773,
-    "Name": "Will, Kutch and Schuppe",
-    "ToolTip": "Vitae est fugit aliquam laudantium.",
+    "Id": 532,
+    "Name": "Doyle LLC",
+    "ToolTip": "Porro voluptatem.",
     "Deleted": false,
-    "Rank": 633,
-    "Type": "dignissimos",
-    "ColorBlock": 883,
-    "IconHint": "ullam",
-    "Selected": true,
-    "LastChanged": "2009-11-09T12:15:28.3196184+01:00",
+    "Rank": 904,
+    "Type": "ut",
+    "ColorBlock": 514,
+    "IconHint": "architecto",
+    "Selected": false,
+    "LastChanged": "2002-09-19T15:29:31.4349763+02:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "VonRueden-Skiles",
-        "ToolTip": "Totam sed saepe tempore accusantium placeat ipsa doloribus.",
-        "Deleted": false,
-        "Rank": 99,
-        "Type": "et",
-        "ColorBlock": 434,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "2007-04-27T12:15:28.3196184+02:00",
+        "Id": 910,
+        "Name": "Hartmann LLC",
+        "ToolTip": "Reiciendis officiis.",
+        "Deleted": true,
+        "Rank": 541,
+        "Type": "ea",
+        "ColorBlock": 247,
+        "IconHint": "fugiat",
+        "Selected": false,
+        "LastChanged": "2003-12-30T15:29:31.4354763+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Miss Edwina Esperanza Simonis Sr.",
+        "ExtraInfo": "corporis",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Miss Joanne Alexie Berge DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 628
+            "FieldLength": 441
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Jude Rodriguez",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Dr. Ashton Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 736
+        "FieldType": "System.String",
+        "FieldLength": 83
       }
     }
   }

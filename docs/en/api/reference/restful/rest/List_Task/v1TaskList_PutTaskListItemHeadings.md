@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 126,
-    "Name": "Weimann-Bauch",
-    "Tooltip": "est",
+    "HeadingId": 593,
+    "Name": "Carter, Dach and Rice",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 358,
-    "UdListDefinitionId": 691
+    "Rank": 924,
+    "UdListDefinitionId": 60
   },
   {
-    "HeadingId": 126,
-    "Name": "Weimann-Bauch",
-    "Tooltip": "est",
+    "HeadingId": 593,
+    "Name": "Carter, Dach and Rice",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 358,
-    "UdListDefinitionId": 691
+    "Rank": 924,
+    "UdListDefinitionId": 60
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 328,
-    "Name": "Kris LLC",
-    "Tooltip": "alias",
+    "HeadingId": 903,
+    "Name": "Runolfsson, Kuhlman and Hessel",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 615,
-    "UdListDefinitionId": 493,
+    "Rank": 432,
+    "UdListDefinitionId": 525,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 278
+        "FieldLength": 118
       }
     }
   }

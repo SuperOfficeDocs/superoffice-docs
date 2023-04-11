@@ -77,8 +77,8 @@ OK
 | NumOpened | int32 | Number of recipients that opened the email. |
 | NumBounced | int32 | Number of recipients that resulted in a bounce. |
 | NumClicks | int32 | Number of recipients that clicked at least 1 link in the mailing. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 939
+  "ShipmentId": 589
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2011-09-17T12:15:19.3727483+02:00",
+  "StartDate": "2004-02-07T15:29:22.1342701+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 951,
-  "ShipmentDescription": "Synchronised mission-critical Graphic Interface",
-  "FromAddress": "vel",
-  "PersonId": 763,
-  "PersonFullName": "Olga August Hane IV",
-  "ShipmentType": "dolores",
-  "MessageId": 945,
-  "MessageSubject": "cupiditate",
-  "DocumentMessageId": 963,
-  "NumSent": 928,
-  "NumOpened": 575,
-  "NumBounced": 122,
-  "NumClicks": 32,
+  "ShipmentId": 260,
+  "ShipmentDescription": "Realigned mobile approach",
+  "FromAddress": "beatae",
+  "PersonId": 916,
+  "PersonFullName": "Orland Kovacek",
+  "ShipmentType": "ex",
+  "MessageId": 341,
+  "MessageSubject": "cumque",
+  "DocumentMessageId": 674,
+  "NumSent": 740,
+  "NumOpened": 353,
+  "NumBounced": 327,
+  "NumClicks": 629,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 784
     }
   }
 }

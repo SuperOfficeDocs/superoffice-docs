@@ -83,8 +83,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -97,15 +97,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 616,
-  "ERPPriceListKey": "nobis",
-  "QuoteConnectionId": 405,
-  "Name": "Kuvalis-Jaskolski",
-  "Description": "De-engineered contextually-based emulation",
-  "Currency": "velit",
-  "CurrencyName": "Hauck-Kozey",
-  "ValidFrom": "2016-11-07T12:15:28.2536194+01:00",
-  "ValidTo": "2018-06-19T12:15:28.2536194+02:00",
+  "PriceListId": 990,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 904,
+  "Name": "Friesen, Kuhn and McGlynn",
+  "Description": "Versatile clear-thinking complexity",
+  "Currency": "et",
+  "CurrencyName": "Wyman, Hermann and Sawayn",
+  "ValidFrom": "2008-12-23T15:29:31.3684742+01:00",
+  "ValidTo": "1997-07-08T15:29:31.3684742+02:00",
   "IsActive": false
 }
 ```
@@ -117,27 +117,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 456,
-  "ERPPriceListKey": "doloribus",
-  "QuoteConnectionId": 567,
-  "Name": "Weissnat LLC",
-  "Description": "Customer-focused stable array",
-  "Currency": "ut",
-  "CurrencyName": "Harber LLC",
-  "ValidFrom": "2014-09-14T12:15:28.2546171+02:00",
-  "ValidTo": "2002-10-06T12:15:28.2546171+02:00",
+  "PriceListId": 810,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 521,
+  "Name": "Doyle, Bergstrom and Gibson",
+  "Description": "Polarised grid-enabled standardization",
+  "Currency": "rem",
+  "CurrencyName": "Collier Inc and Sons",
+  "ValidFrom": "1997-05-25T15:29:31.368978+02:00",
+  "ValidTo": "2001-08-05T15:29:31.368978+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 577
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

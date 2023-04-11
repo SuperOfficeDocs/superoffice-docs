@@ -92,8 +92,8 @@ OK
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 340
+  "ProjectId": 253
 }
 ```
 
@@ -116,94 +116,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quisquam",
-  "SignOffText": "sed",
-  "SignOnConfirmationText": "in",
-  "SignOnText": "nesciunt",
-  "EventDate": "1999-10-09T12:15:19.8527387+02:00",
-  "Enabled": false,
-  "CreatedDate": "2014-07-10T12:15:19.8527387+02:00",
+  "SignOffConfirmationText": "velit",
+  "SignOffText": "repellendus",
+  "SignOnConfirmationText": "sapiente",
+  "SignOnText": "eius",
+  "EventDate": "2009-07-18T15:29:22.477265+02:00",
+  "Enabled": true,
+  "CreatedDate": "2022-09-21T15:29:22.477265+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 453,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 418,
   "SignOffTriggersAssign": false,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 307,
+  "SignOnTaskId": 376,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2014-10-19T12:15:19.8527387+02:00",
+  "UpdatedDate": "2011-09-03T15:29:22.477265+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 1000,
-  "Id": 414,
-  "PublishFrom": "2022-05-22T12:15:19.8537388+02:00",
+  "ProjectId": 455,
+  "Id": 429,
+  "PublishFrom": "2018-04-10T15:29:22.4782661+02:00",
   "PublishType": "External",
-  "PublishTo": "2002-02-14T12:15:19.8537388+01:00",
+  "PublishTo": "2013-05-22T15:29:22.4782661+02:00",
   "VisibleForCategories": [
     {
-      "Id": 394,
-      "Name": "Mohr, Dietrich and Parisian",
-      "ToolTip": "Sed necessitatibus ipsam.",
+      "Id": 486,
+      "Name": "Casper Group",
+      "ToolTip": "Et veritatis.",
       "Deleted": true,
-      "Rank": 708,
-      "Type": "et",
+      "Rank": 814,
+      "Type": "quaerat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sunt",
-      "ColorBlock": 148,
-      "ExtraInfo": "et",
-      "StyleHint": "vero",
-      "FullName": "King Gutkowski",
+      "IconHint": "laborum",
+      "ColorBlock": 921,
+      "ExtraInfo": "omnis",
+      "StyleHint": "ut",
+      "FullName": "Mr. Dario Meredith Beer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 637
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 646,
-      "Name": "Tromp-Towne",
-      "ToolTip": "Dolor nobis ullam dolor id.",
-      "Deleted": false,
-      "Rank": 864,
-      "Type": "beatae",
+      "Id": 930,
+      "Name": "Rowe, Runolfsdottir and Welch",
+      "ToolTip": "Perspiciatis facere fuga suscipit saepe natus dolor autem.",
+      "Deleted": true,
+      "Rank": 990,
+      "Type": "autem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 731,
-      "ExtraInfo": "illum",
-      "StyleHint": "a",
-      "FullName": "Jade Robel",
+      "IconHint": "eligendi",
+      "ColorBlock": 261,
+      "ExtraInfo": "quos",
+      "StyleHint": "iusto",
+      "FullName": "Shayne Swift",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 68
+          "FieldLength": 319
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 105,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 812,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 23
     }
   }
 }

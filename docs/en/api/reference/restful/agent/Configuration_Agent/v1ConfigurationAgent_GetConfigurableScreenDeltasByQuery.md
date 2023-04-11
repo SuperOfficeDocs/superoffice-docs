@@ -48,7 +48,7 @@ DeltaQuery
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DeltaQuery | TableRight |  |
+| DeltaQuery | TimeZoneData |  |
 
 ## Response:array
 
@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,28 +100,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 22,
-    "Name": "Gleason Inc and Sons",
-    "Description": "Open-source maximized hub",
-    "DeltaJson": "dignissimos",
+    "ConfigurableScreenDeltaId": 859,
+    "Name": "Zieme Group",
+    "Description": "Devolved executive adapter",
+    "DeltaJson": "sed",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "eos",
-    "UpdatedDate": "2011-02-03T12:15:18.4257597+01:00",
-    "CreatedDate": "2017-04-22T12:15:18.4257597+02:00",
+    "RecipeId": "quas",
+    "UpdatedDate": "2004-12-03T15:29:21.0407862+01:00",
+    "CreatedDate": "2014-05-01T15:29:21.0407862+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      110,
-      289
+      481,
+      148
     ],
-    "AppliesToKey": "sit",
+    "AppliesToKey": "ab",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 832
+        "FieldLength": 821
       }
     }
   }

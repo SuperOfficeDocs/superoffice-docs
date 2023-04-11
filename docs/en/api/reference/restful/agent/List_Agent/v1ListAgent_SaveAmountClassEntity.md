@@ -67,8 +67,8 @@ OK
 | AmountTo | double | Upper limit of this amount class |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
 | CurrencyId | int32 | Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,18 +76,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 625,
-  "Name": "Feeney LLC",
-  "Tooltip": "quia",
-  "Rank": 756,
-  "AmountFrom": 24934.104,
-  "AmountTo": 26990.007999999998,
+  "AmountClassId": 372,
+  "Name": "Gislason Group",
+  "Tooltip": "totam",
+  "Rank": 697,
+  "AmountFrom": 20449.35,
+  "AmountTo": 1927.4099999999999,
   "Deleted": true,
-  "CurrencyId": 100
+  "CurrencyId": 927
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 984,
-  "Name": "Stamm Inc and Sons",
-  "Tooltip": "autem",
-  "Rank": 834,
-  "AmountFrom": 26040.406,
-  "AmountTo": 5603.592,
-  "Deleted": false,
-  "CurrencyId": 212,
+  "AmountClassId": 615,
+  "Name": "Gulgowski, Schmidt and Shields",
+  "Tooltip": "ipsam",
+  "Rank": 382,
+  "AmountFrom": 21991.278,
+  "AmountTo": 9765.544,
+  "Deleted": true,
+  "CurrencyId": 952,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

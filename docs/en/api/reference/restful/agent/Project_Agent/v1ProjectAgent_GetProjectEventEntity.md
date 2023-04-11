@@ -25,7 +25,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=375
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=938
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -86,8 +86,8 @@ OK
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,94 +105,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "omnis",
-  "SignOffText": "tempore",
-  "SignOnConfirmationText": "omnis",
-  "SignOnText": "ut",
-  "EventDate": "2009-02-27T12:15:19.848741+01:00",
-  "Enabled": false,
-  "CreatedDate": "2008-05-15T12:15:19.848741+02:00",
-  "SignOff": true,
+  "SignOffConfirmationText": "unde",
+  "SignOffText": "cupiditate",
+  "SignOnConfirmationText": "corporis",
+  "SignOnText": "quasi",
+  "EventDate": "2013-01-19T15:29:22.4727666+01:00",
+  "Enabled": true,
+  "CreatedDate": "2012-05-07T15:29:22.4732654+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 735,
+  "SignOffTaskId": 420,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 944,
+  "SignOnTaskId": 633,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2005-05-28T12:15:19.848741+02:00",
+  "UpdatedDate": "2016-03-28T15:29:22.4732654+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 860,
-  "Id": 752,
-  "PublishFrom": "2019-07-13T12:15:19.848741+02:00",
+  "ProjectId": 121,
+  "Id": 608,
+  "PublishFrom": "2000-09-14T15:29:22.4737662+02:00",
   "PublishType": "External",
-  "PublishTo": "1996-08-09T12:15:19.848741+02:00",
+  "PublishTo": "1997-10-13T15:29:22.4737662+02:00",
   "VisibleForCategories": [
     {
-      "Id": 591,
-      "Name": "Wisoky-Klocko",
-      "ToolTip": "Culpa voluptatibus molestiae aut quaerat eligendi aspernatur.",
+      "Id": 453,
+      "Name": "Reilly, Torphy and Sawayn",
+      "ToolTip": "Distinctio ad nemo incidunt veritatis nulla blanditiis ad.",
       "Deleted": false,
-      "Rank": 223,
-      "Type": "voluptatem",
+      "Rank": 833,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 574,
-      "ExtraInfo": "soluta",
-      "StyleHint": "ut",
-      "FullName": "Mrs. Tyrell Catharine Rau DDS",
+      "IconHint": "voluptatum",
+      "ColorBlock": 523,
+      "ExtraInfo": "unde",
+      "StyleHint": "sapiente",
+      "FullName": "Dr. Adolphus Jules Murray",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 811
+          "FieldType": "System.Int32",
+          "FieldLength": 370
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 813,
-      "Name": "Wisoky-Ziemann",
-      "ToolTip": "Placeat libero dolore incidunt enim expedita saepe.",
-      "Deleted": false,
-      "Rank": 516,
-      "Type": "illo",
+      "Id": 174,
+      "Name": "Cormier-Walker",
+      "ToolTip": "Ut eius dolorem soluta esse odio.",
+      "Deleted": true,
+      "Rank": 52,
+      "Type": "sunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "esse",
-      "ColorBlock": 838,
-      "ExtraInfo": "enim",
-      "StyleHint": "et",
-      "FullName": "Ebba Balistreri",
+      "IconHint": "illum",
+      "ColorBlock": 503,
+      "ExtraInfo": "eos",
+      "StyleHint": "corporis",
+      "FullName": "Ms. Dora Nyah Gibson DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldLength": 58
         }
       }
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsPublished": false,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 739,
+  "ProjectEventId": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 545
+      "FieldLength": 920
     }
   }
 }

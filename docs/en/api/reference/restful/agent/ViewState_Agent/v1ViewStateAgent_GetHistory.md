@@ -25,7 +25,7 @@ Gets a History object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ViewState/GetHistory?historyId=460
+POST /api/v1/Agents/ViewState/GetHistory?historyId=516
 POST /api/v1/Agents/ViewState/GetHistory?$select=name,department,category/id
 ```
 
@@ -63,8 +63,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 629,
-  "Id": 340,
-  "HistoryName": "Goldner Group",
-  "HistoryId": 364,
-  "AssociateId": 899,
-  "Name": "Gutkowski, Hane and Jones",
-  "ItemInfo": "vel",
+  "Rank": 902,
+  "Id": 548,
+  "HistoryName": "Christiansen, Ziemann and VonRueden",
+  "HistoryId": 228,
+  "AssociateId": 913,
+  "Name": "Kirlin Inc and Sons",
+  "ItemInfo": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 217
     }
   }
 }

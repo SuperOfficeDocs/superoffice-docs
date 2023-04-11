@@ -68,8 +68,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Greenfelder-Lueilwitz",
-    "ToolTip": "Qui enim delectus cupiditate fuga.",
-    "Deleted": true,
-    "Rank": 442,
-    "Type": "dolore",
-    "ColorBlock": 19,
-    "IconHint": "ex",
-    "Selected": true,
-    "LastChanged": "1997-08-07T12:15:27.2216316+02:00",
+    "Id": 306,
+    "Name": "Wyman Group",
+    "ToolTip": "Velit omnis.",
+    "Deleted": false,
+    "Rank": 36,
+    "Type": "eligendi",
+    "ColorBlock": 421,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2016-09-02T15:29:30.0316592+02:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Harber Group",
-        "ToolTip": "Ipsa inventore est culpa corrupti vel labore similique.",
+        "Id": 5,
+        "Name": "Walter-Hills",
+        "ToolTip": "Cumque quo et.",
         "Deleted": false,
-        "Rank": 284,
-        "Type": "rem",
-        "ColorBlock": 884,
-        "IconHint": "rerum",
+        "Rank": 306,
+        "Type": "et",
+        "ColorBlock": 806,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2016-10-31T12:15:27.2226378+01:00",
+        "LastChanged": "1999-03-22T15:29:30.0316592+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Lazaro McDermott",
+        "ExtraInfo": "sunt",
+        "StyleHint": "facilis",
+        "Hidden": true,
+        "FullName": "Cleo Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 240
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "beatae",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "ipsa",
     "Hidden": true,
-    "FullName": "Marlon Klocko Jr.",
+    "FullName": "Earlene Huel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 226
       }
     }
   }

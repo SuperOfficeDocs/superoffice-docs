@@ -99,8 +99,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -112,8 +112,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 256,
-  "UiCulture": "aut"
+  "DocumentId": 496,
+  "UiCulture": "consectetur"
 }
 ```
 
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 699,
+  "DocumentId": 965,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quisquam",
-  "Header": "qui",
-  "Name": "Cole, Leffler and Reichel",
-  "OurRef": "porro",
-  "YourRef": "vero",
-  "CreatedDate": "2011-06-08T12:15:18.8127547+02:00",
-  "UpdatedDate": "2015-05-25T12:15:18.8127547+02:00",
-  "Description": "Grass-roots logistical standardization",
+  "Attention": "sit",
+  "Header": "inventore",
+  "Name": "Runolfsson-Predovic",
+  "OurRef": "praesentium",
+  "YourRef": "eum",
+  "CreatedDate": "2001-05-14T15:29:21.576278+02:00",
+  "UpdatedDate": "2007-04-05T15:29:21.576278+02:00",
+  "Description": "Decentralized client-driven collaboration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-09-11T12:15:18.8157566+02:00",
-  "ExternalRef": "numquam",
+  "Date": "2013-07-02T15:29:21.5797777+02:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 480,
+  "ActiveLinks": 724,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bergstrom, Smitham and Batz",
-      "Id": 890,
-      "Description": "De-engineered coherent archive",
-      "ExtraInfo": "temporibus",
-      "LinkId": 757,
+      "EntityName": "Bechtelar, Rohan and Wilderman",
+      "Id": 47,
+      "Description": "Versatile intangible extranet",
+      "ExtraInfo": "aut",
+      "LinkId": 318,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 836
+          "FieldLength": 651
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 998,
-  "Snum": 816,
+  "SuggestedDocumentId": 474,
+  "Snum": 421,
   "UserDefinedFields": {
-    "SuperOffice:1": "Gina Armstrong",
-    "SuperOffice:2": "1283414496"
+    "SuperOffice:1": "Prof. Mariana Flatley IV",
+    "SuperOffice:2": "730568705"
   },
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "est"
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "nostrum"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "mollitia",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2013-01-29T12:15:18.8167537+01:00",
-  "PublishTo": "2012-10-22T12:15:18.8167537+02:00",
-  "PublishFrom": "1996-05-31T12:15:18.8167537+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2001-01-05T15:29:21.5802787+01:00",
+  "PublishTo": "2001-06-29T15:29:21.5802787+02:00",
+  "PublishFrom": "2022-07-14T15:29:21.5802787+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 349,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     },
     {
-      "VisibleId": 349,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "asperiores",
+      "DisplayValue": "nulla",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 806
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

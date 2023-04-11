@@ -61,8 +61,8 @@ OK
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,26 +70,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 978,
-  "AssociateId": 787,
-  "Caption": "ipsum",
+  "DashboardId": 474,
+  "AssociateId": 221,
+  "Caption": "molestias",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 264,
-      "Caption": "doloribus",
-      "Description": "Programmable real-time instruction set",
-      "ChartName": "Corwin, Hegmann and Ondricka",
-      "ChartId": "ipsum",
-      "IsDefault": true,
-      "AssociateId": 167,
-      "GroupId": 426,
-      "SelectionId": 384,
-      "Config": "ullam",
+      "DashboardTileId": 959,
+      "Caption": "reprehenderit",
+      "Description": "Synchronised exuding support",
+      "ChartName": "Marquardt-Labadie",
+      "ChartId": "sunt",
+      "IsDefault": false,
+      "AssociateId": 453,
+      "GroupId": 838,
+      "SelectionId": 599,
+      "Config": "neque",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,22 +112,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 949,
-  "AssociateId": 893,
-  "Caption": "cum",
+  "DashboardId": 603,
+  "AssociateId": 928,
+  "Caption": "tenetur",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 327,
-      "Caption": "pariatur",
-      "Description": "Networked responsive strategy",
-      "ChartName": "Stroman-Schmidt",
-      "ChartId": "non",
+      "DashboardTileId": 849,
+      "Caption": "iste",
+      "Description": "Visionary responsive instruction set",
+      "ChartName": "Mohr-Funk",
+      "ChartId": "sint",
       "IsDefault": false,
-      "AssociateId": 651,
-      "GroupId": 800,
-      "SelectionId": 149,
-      "Config": "aliquid",
+      "AssociateId": 427,
+      "GroupId": 253,
+      "SelectionId": 263,
+      "Config": "a",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldType": "System.String",
+          "FieldLength": 805
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldType": "System.String",
+      "FieldLength": 334
     }
   }
 }

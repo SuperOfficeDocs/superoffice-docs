@@ -68,11 +68,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,28 +91,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 243,
+  "EjMessageId": 439,
   "Ticket": null,
-  "CreatedAt": "2017-07-28T12:15:20.295732+02:00",
+  "CreatedAt": "2022-04-11T15:29:23.0712574+02:00",
   "CreatedBy": null,
-  "Author": "corrupti",
+  "Author": "nostrum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ipsum",
-  "TimeSpent": 980,
-  "Body": "aut",
-  "HtmlBody": "magnam",
-  "EmailHeader": "daniela@ratke.com",
-  "DebugInfo": "rerum",
-  "MailSorter": "nisi",
+  "MessageId": "id",
+  "TimeSpent": 197,
+  "Body": "ratione",
+  "HtmlBody": "nostrum",
+  "EmailHeader": "xavier.pfannerstill@gulgowskisenger.uk",
+  "DebugInfo": "est",
+  "MailSorter": "impedit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "labore",
+  "SearchTitle": "voluptatum",
   "MessageHeaders": [
     {
-      "Id": 505,
-      "Name": "Daugherty-Kuphal",
-      "Value": "quisquam",
+      "Id": 12,
+      "Name": "Littel-Shields",
+      "Value": "modi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,47 +120,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 877
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quos",
-  "Sentiment": 393,
-  "SentimentConfidence": 908,
+  "Language": "optio",
+  "Sentiment": 749,
+  "SentimentConfidence": 616,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 539,
-      "Name": "Miller-Yost",
-      "ContentType": "sequi",
-      "AttSize": 964,
-      "InlineImage": true,
-      "ContentId": "omnis",
+      "AttachmentId": 318,
+      "Name": "Haag, Rohan and Fadel",
+      "ContentType": "alias",
+      "AttSize": 712,
+      "InlineImage": false,
+      "ContentId": "necessitatibus",
+      "AuthKey": "repellat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldType": "System.Int32",
+          "FieldLength": 39
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "dolorum",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "et"
+    "CustomFields1": "repellat",
+    "CustomFields2": "alias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

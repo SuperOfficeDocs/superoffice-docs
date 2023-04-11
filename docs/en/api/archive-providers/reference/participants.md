@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Participants"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -228,7 +228,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=portraitThumbnail,personContact/stop,groupRestrictionId
+GET /api/v1/archive/Participants?$select=personContact/activeErpLinks,personEmail,personUpdatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -72,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateId": 481,
-  "UiCulture": "libero"
+  "TemplateId": 745,
+  "UiCulture": "commodi"
 }
 ```
 

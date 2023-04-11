@@ -57,8 +57,8 @@ OK
 | DocTmpl | DocumentTemplate | Document template |
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,14 +76,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 549,
-  "Name": "Kuvalis-Kertzmann",
-  "Tooltip": "adipisci",
-  "Rank": 431,
-  "DoctmplId": 795,
-  "Header": "pariatur",
-  "OurRef": "vitae",
-  "Deleted": true,
+  "SuggestedDocumentId": 417,
+  "Name": "Hartmann-Terry",
+  "Tooltip": "enim",
+  "Rank": 68,
+  "DoctmplId": 907,
+  "Header": "dolores",
+  "OurRef": "maxime",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 955
     }
   }
 }

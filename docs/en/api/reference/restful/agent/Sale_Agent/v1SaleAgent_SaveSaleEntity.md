@@ -139,8 +139,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -148,7 +148,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptas",
+  "SaleText": "velit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -167,90 +167,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-07-25T12:15:20.0437369+02:00",
-  "Amount": 20057.6,
-  "SaleId": 784,
-  "Earning": 28105.712,
-  "EarningPercent": 23580.216,
-  "Heading": "dicta",
-  "Number": "661685",
-  "Probability": 423,
-  "CreatedDate": "2014-02-04T12:15:20.0437369+01:00",
-  "UpdatedDate": "2005-01-31T12:15:20.0437369+01:00",
+  "Saledate": "2011-06-18T15:29:22.6627965+02:00",
+  "Amount": 26472.897999999997,
+  "SaleId": 2,
+  "Earning": 8649.84,
+  "EarningPercent": 3149.67,
+  "Heading": "eos",
+  "Number": "759127",
+  "Probability": 310,
+  "CreatedDate": "2012-02-26T15:29:22.6627965+01:00",
+  "UpdatedDate": "2014-10-22T15:29:22.6627965+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 149,
+  "ActiveLinks": 101,
   "Links": [
     {
-      "EntityName": "McClure LLC",
-      "Id": 608,
-      "Description": "Balanced disintermediate framework",
-      "ExtraInfo": "nobis",
-      "LinkId": 631
+      "EntityName": "Kassulke-Spinka",
+      "Id": 704,
+      "Description": "Proactive attitude-oriented matrices",
+      "ExtraInfo": "assumenda",
+      "LinkId": 440
     },
     {
-      "EntityName": "McClure LLC",
-      "Id": 608,
-      "Description": "Balanced disintermediate framework",
-      "ExtraInfo": "nobis",
-      "LinkId": 631
+      "EntityName": "Kassulke-Spinka",
+      "Id": 704,
+      "Description": "Proactive attitude-oriented matrices",
+      "ExtraInfo": "assumenda",
+      "LinkId": 440
     }
   ],
-  "NextDueDate": "2013-04-18T12:15:20.0437369+02:00",
-  "Postit": "qui",
+  "NextDueDate": "2003-01-25T15:29:22.6627965+01:00",
+  "Postit": "similique",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-11-05T12:15:20.0437369+01:00",
+  "ReopenDate": "1999-11-25T15:29:22.6627965+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hartmann, Satterfield and Shanahan",
-      "Comment": "sed",
-      "StakeholderRoleId": 531,
-      "CountryId": 290,
-      "PersonId": 800,
-      "EmailDescription": "gennaro_oconner@quigley.info",
-      "EmailId": 499,
-      "EmailAddress": "valentin_friesen@kuhic.ca",
-      "PhoneId": 758,
-      "ContactName": "Gleason-Littel",
-      "ContactId": 245,
-      "SaleId": 224,
-      "Mrmrs": "a",
-      "Firstname": "Avery",
-      "MiddleName": "Schoen, Simonis and Christiansen",
-      "Lastname": "Smitham",
-      "SaleStakeholderId": 210,
-      "Rank": 206,
-      "Phone": "529-981-8155"
+      "StakeholderRoleName": "Price, Nitzsche and Vandervort",
+      "Comment": "aspernatur",
+      "StakeholderRoleId": 551,
+      "CountryId": 887,
+      "PersonId": 864,
+      "EmailDescription": "nelson_lindgren@larson.name",
+      "EmailId": 656,
+      "EmailAddress": "moriah.mayert@oreilly.biz",
+      "PhoneId": 613,
+      "ContactName": "Conroy LLC",
+      "ContactId": 808,
+      "SaleId": 600,
+      "Mrmrs": "voluptate",
+      "Firstname": "Marty",
+      "MiddleName": "Marquardt-Bruen",
+      "Lastname": "Murazik",
+      "SaleStakeholderId": 333,
+      "Rank": 354,
+      "Phone": "107.386.4761 x918"
     }
   ],
-  "ActiveErpLinks": 841,
+  "ActiveErpLinks": 943,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Elisa Goodwin V",
-    "SuperOffice:2": "2115069755"
+    "SuperOffice:1": "Lon Robel",
+    "SuperOffice:2": "56027159"
   },
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "et"
+    "ExtraFields1": "harum",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "provident"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2011-11-01T12:15:20.0447359+01:00",
-  "PublishTo": "2002-07-11T12:15:20.0447359+02:00",
-  "PublishFrom": "1998-04-01T12:15:20.0447359+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-05-20T15:29:22.6637976+02:00",
+  "PublishTo": "2017-03-22T15:29:22.6637976+01:00",
+  "PublishFrom": "2017-03-11T15:29:22.6637976+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 282,
+      "VisibleId": 70,
       "Visibility": "All",
-      "DisplayValue": "sapiente"
+      "DisplayValue": "ut"
     },
     {
-      "VisibleId": 282,
+      "VisibleId": 70,
       "Visibility": "All",
-      "DisplayValue": "sapiente"
+      "DisplayValue": "ut"
     }
   ]
 }
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "excepturi",
+  "SaleText": "architecto",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -278,113 +278,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-02-26T12:15:20.0567359+01:00",
-  "Amount": 23912.42,
-  "SaleId": 289,
-  "Earning": 2541.674,
-  "EarningPercent": 30700.664,
-  "Heading": "aliquid",
-  "Number": "1062011",
-  "Probability": 58,
-  "CreatedDate": "2005-03-28T12:15:20.0567359+02:00",
-  "UpdatedDate": "2022-12-19T12:15:20.0567359+01:00",
+  "Saledate": "2016-02-18T15:29:22.6772993+01:00",
+  "Amount": 14428.936,
+  "SaleId": 795,
+  "Earning": 27892.6,
+  "EarningPercent": 13316.366,
+  "Heading": "sint",
+  "Number": "1202844",
+  "Probability": 439,
+  "CreatedDate": "2000-11-03T15:29:22.6772993+01:00",
+  "UpdatedDate": "2009-06-26T15:29:22.6772993+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 104,
+  "ActiveLinks": 901,
   "Links": [
     {
-      "EntityName": "O'Keefe-Rowe",
-      "Id": 330,
-      "Description": "Enterprise-wide mission-critical algorithm",
-      "ExtraInfo": "beatae",
-      "LinkId": 121,
+      "EntityName": "Weimann, Nicolas and Davis",
+      "Id": 400,
+      "Description": "Diverse client-server moratorium",
+      "ExtraInfo": "sunt",
+      "LinkId": 442,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldType": "System.String",
+          "FieldLength": 165
         }
       }
     }
   ],
-  "NextDueDate": "2022-03-10T12:15:20.0567359+01:00",
-  "Postit": "commodi",
+  "NextDueDate": "2000-03-09T15:29:22.6772993+01:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2000-04-15T12:15:20.0567359+02:00",
+  "ReopenDate": "2005-01-21T15:29:22.6772993+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Ryan Inc and Sons",
-      "Comment": "suscipit",
-      "StakeholderRoleId": 352,
-      "CountryId": 641,
-      "PersonId": 626,
-      "EmailDescription": "ian.osinski@daugherty.us",
-      "EmailId": 646,
-      "EmailAddress": "alexander@little.ca",
-      "PhoneId": 969,
-      "ContactName": "Collier, Kuhic and Wuckert",
-      "ContactId": 418,
-      "SaleId": 915,
-      "Mrmrs": "quia",
-      "Firstname": "Darlene",
-      "MiddleName": "VonRueden, Anderson and Torp",
-      "Lastname": "Aufderhar",
-      "SaleStakeholderId": 793,
-      "Rank": 678,
-      "Phone": "(473)334-2861 x157",
+      "StakeholderRoleName": "Zulauf Inc and Sons",
+      "Comment": "et",
+      "StakeholderRoleId": 165,
+      "CountryId": 118,
+      "PersonId": 200,
+      "EmailDescription": "noah.hilpert@pfannerstillsanford.co.uk",
+      "EmailId": 782,
+      "EmailAddress": "winifred_lindgren@haley.ca",
+      "PhoneId": 904,
+      "ContactName": "Howell LLC",
+      "ContactId": 622,
+      "SaleId": 686,
+      "Mrmrs": "omnis",
+      "Firstname": "Alysa",
+      "MiddleName": "Durgan, Sauer and Bernier",
+      "Lastname": "Hermiston",
+      "SaleStakeholderId": 492,
+      "Rank": 632,
+      "Phone": "(011)104-4302 x7970",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldLength": 709
         }
       }
     }
   ],
-  "ActiveErpLinks": 182,
+  "ActiveErpLinks": 74,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Devin Barton",
-    "SuperOffice:2": "Antone Christiansen"
+    "SuperOffice:1": "258099657",
+    "SuperOffice:2": "Raquel Jenkins I"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "fugit",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "eos"
+    "CustomFields1": "iure",
+    "CustomFields2": "amet"
   },
-  "PublishEventDate": "2002-02-02T12:15:20.0577358+01:00",
-  "PublishTo": "2001-10-17T12:15:20.0577358+02:00",
-  "PublishFrom": "2009-03-07T12:15:20.0577358+01:00",
+  "PublishEventDate": "2002-09-25T15:29:22.6782961+02:00",
+  "PublishTo": "2007-08-01T15:29:22.6782961+02:00",
+  "PublishFrom": "1999-08-26T15:29:22.6782961+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 872,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 678
         }
       }
     },
     {
-      "VisibleId": 872,
+      "VisibleId": 660,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 678
         }
       }
     }
@@ -393,8 +393,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldType": "System.Int32",
+      "FieldLength": 276
     }
   }
 }

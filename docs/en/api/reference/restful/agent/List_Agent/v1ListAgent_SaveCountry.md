@@ -80,8 +80,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 677,
-  "Name": "Parisian Group",
-  "CurrencyId": 176,
-  "EnglishName": "Bartoletti, Greenfelder and Cormier",
+  "CountryId": 901,
+  "Name": "Wolff LLC",
+  "CurrencyId": 323,
+  "EnglishName": "Barton-Boyer",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergized web-enabled alliance",
-  "OrgNrText": "560809",
-  "InterAreaPrefix": "atque",
-  "DialInPrefix": "rerum",
-  "ZipPrefix": "eos",
-  "DomainName": "Gutkowski-Lueilwitz",
-  "AddressLayoutId": 287,
-  "DomesticAddressLayoutId": 790,
-  "ForeignAddressLayoutId": 705,
-  "Rank": 175,
-  "Tooltip": "culpa",
-  "Deleted": false,
+  "ImageDescription": "Integrated intangible interface",
+  "OrgNrText": "1403233",
+  "InterAreaPrefix": "consequatur",
+  "DialInPrefix": "deleniti",
+  "ZipPrefix": "aut",
+  "DomainName": "Effertz Group",
+  "AddressLayoutId": 477,
+  "DomesticAddressLayoutId": 351,
+  "ForeignAddressLayoutId": 960,
+  "Rank": 954,
+  "Tooltip": "autem",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   }
 }

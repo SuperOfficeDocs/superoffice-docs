@@ -114,8 +114,8 @@ ContactRelationEntity  updated.
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -130,12 +130,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "earum",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "earum",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 357,
-  "SourcePersonId": 695,
-  "DestinationContactId": 123,
-  "DestinationPersonId": 217,
-  "RelationId": 662,
-  "Comment": "voluptas",
-  "RelationDefinitionId": 182,
-  "Reversed": 888,
-  "UpdatedDate": "2018-03-30T12:15:26.8066377+02:00",
-  "CreatedDate": "2007-04-01T12:15:26.8066377+02:00",
+  "SourceContactId": 421,
+  "SourcePersonId": 363,
+  "DestinationContactId": 402,
+  "DestinationPersonId": 743,
+  "RelationId": 560,
+  "Comment": "aut",
+  "RelationDefinitionId": 554,
+  "Reversed": 635,
+  "UpdatedDate": "1997-06-15T15:29:29.6172087+02:00",
+  "CreatedDate": "1996-10-23T15:29:29.6172087+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Boyer, Morissette and Stiedemann",
-  "SourcePersonName": "Cummings, Littel and Jerde",
-  "DestinationContactName": "Farrell LLC",
-  "DestinationPersonName": "Ruecker, Vandervort and Renner",
-  "ActiveText": "quos",
-  "PassiveText": "dolorum",
+  "SourceContactName": "Sawayn Group",
+  "SourcePersonName": "Roob, Rosenbaum and Gottlieb",
+  "DestinationContactName": "Emmerich Inc and Sons",
+  "DestinationPersonName": "Schuster, O'Conner and Gorczany",
+  "ActiveText": "provident",
+  "PassiveText": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   },
   "_Links": {

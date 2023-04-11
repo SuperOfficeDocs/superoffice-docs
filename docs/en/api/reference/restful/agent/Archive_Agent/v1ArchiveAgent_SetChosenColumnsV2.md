@@ -60,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -73,13 +73,13 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lebsack-Hegmann",
-  "ProviderName": "Prosacco, Bahringer and Grimes",
-  "Context": "adipisci",
-  "OwnerKeys": "numquam",
+  "GuiName": "Rice-Schmitt",
+  "ProviderName": "Labadie, Connelly and Wiegand",
+  "Context": "voluptates",
+  "OwnerKeys": "sint",
   "ChosenColumns": [
-    "sunt",
-    "ut"
+    "ipsum",
+    "totam"
   ]
 }
 ```

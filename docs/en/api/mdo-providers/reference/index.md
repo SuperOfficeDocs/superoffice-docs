@@ -7,7 +7,7 @@ keywords:
   - "mdo"
   - "provider"
   - "mdo provider"
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -64,7 +64,7 @@ so.envir:
 | [SubscriptionUnit](SubscriptionUnit.md) |MDO List for database table ID: Table id 442. subscriptionunit.tooltip|
 | [Tags](Tags.md) |MDO List for database table ID: Table id 488. tags.tooltip|
 | [Task](Task.md) |MDO List for database table ID: Table id 67. task.tooltip|
-| [TaskMenu](TaskMenu.md) |MDO List for database table ID: Table id 519. taskmenu.tooltip|
+| [TaskMenu](TaskMenu.md) |MDO List for database table ID: Table id 520. taskmenu.tooltip|
 | [UDList](UDList.md) |MDO List for database table ID: Table id 136. udlist.tooltip|
 
 ## List of other valid MDO providers
@@ -152,8 +152,11 @@ so.envir:
 | [ejcategory](ejcategory.md) |EjCategoryProvider creates a flat or tree list based on the table: EJ_CATEGORY|
 | [ejuser](ejuser.md) ||
 | [emailaddress](emailaddress.md) |List of e-mail addresses matching the search valu|
+| [emailflow](emailflow.md) |List provider for EmailFlow|
 | [emailfolder](emailfolder.md) |EmailFolderProvider gives you the folder hierarchy of a given mail account|
+| [emailfromtype](emailfromtype.md) |MDO provider for the EmailFromType enum|
 | [emailrecipient](emailrecipient.md) |List of most recent e-mail recipients cached for the current user.|
+| [emailreplytotype](emailreplytotype.md) |MDO provider for the EmailReplyToType enum|
 | [erpactortype](erpactortype.md) ||
 | [erpconnections](erpconnections.md) |Retrieve the list of all defined Erp Connections (not Connectors, that's another list)|
 | [erpconnectors](erpconnectors.md) |Retrieve the list of all defined Erp Connectors (not Connections, that's another list)|
@@ -217,6 +220,7 @@ so.envir:
 | [location](location.md) |Implements the mdo provider for the list of avaiable locations. This list aggregates element|
 | [mailhtmltemplate](mailhtmltemplate.md) |List provider for the Mailtemplates.|
 | [mailing](mailing.md) |All mailings - history ids|
+| [mailingdomains](mailingdomains.md) |MDO list provider for Mailing domains, including leading @|
 | [mailingfavourite](mailingfavourite.md) |MDO list provider for Favourites|
 | [mailingstatus](mailingstatus.md) ||
 | [mailingsubscriptiontype](mailingsubscriptiontype.md) |Mailing subscription types; Invitations, news, etc|
@@ -439,5 +443,10 @@ so.envir:
 | [webpanelgroup](webpanelgroup.md) |List of WebPanels with visible for groups as commaseperated ids in extrainfo field|
 | [weekday](weekday.md) |MDO provider for the hard-coded list of week days.|
 | [weeknumber](weeknumber.md) |MDO provider for the hard-coded list of numbered weeks in the recurrence dialog.|
+| [workflowdefinitionstatus](workflowdefinitionstatus.md) |MDO provider for the WorkflowDefinitionStatus enum|
+| [workflowgoaltype](workflowgoaltype.md) |MDO provider for the WorkflowGoalType enum|
+| [workflowinstancestatus](workflowinstancestatus.md) |MDO provider for the WorkflowInstanceStatus enum|
+| [workflowsteptype](workflowsteptype.md) |MDO provider for the WorkflowStepType enum|
+| [workflowtriggertype](workflowtriggertype.md) |MDO provider for the WorkflowTriggerType enum|
 | [y_equipment](y_equipment.md) |Extra tables lists. List names are 'y_xyz' - based on the custom table name|
 

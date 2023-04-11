@@ -76,8 +76,8 @@ OK
 | AllAccess | bool | Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it |
 | UserGroupAccessIds | array | Array of ids containing usergroups that will have access to this connection. |
 | AssociateAccessIds | array | Array of ids containing associates that will have access to this connection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,33 +100,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 865,
-  "ErpConnectorId": 983,
-  "DisplayName": "Stiedemann Inc and Sons",
-  "DisplayDescription": "Reverse-engineered intangible success",
-  "Active": false,
-  "ConnectionId": "quia",
-  "MostRecentTimestamp": "ut",
+  "ErpConnectionId": 631,
+  "ErpConnectorId": 117,
+  "DisplayName": "Fisher, Hammes and Harris",
+  "DisplayDescription": "Robust demand-driven firmware",
+  "Active": true,
+  "ConnectionId": "ducimus",
+  "MostRecentTimestamp": "a",
   "ConfigFields": {
-    "ConfigFields1": "asperiores",
-    "ConfigFields2": "atque"
+    "ConfigFields1": "sunt",
+    "ConfigFields2": "alias"
   },
   "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    837,
-    615
+    718,
+    553
   ],
   "AssociateAccessIds": [
-    703,
-    685
+    894,
+    595
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldLength": 27
     }
   }
 }

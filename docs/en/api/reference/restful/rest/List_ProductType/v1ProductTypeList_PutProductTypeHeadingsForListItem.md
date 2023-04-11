@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Lowe, Greenholt and Schoen",
-    "ToolTip": "Assumenda maxime quas vitae velit debitis aliquid quisquam.",
+    "Id": 171,
+    "Name": "Schaefer, Eichmann and Johnston",
+    "ToolTip": "Voluptatem id.",
     "Deleted": false,
-    "Rank": 527,
-    "Type": "excepturi",
-    "ColorBlock": 8,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2021-06-29T12:15:28.3206174+02:00",
+    "Rank": 580,
+    "Type": "qui",
+    "ColorBlock": 62,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2017-11-13T15:29:31.4359758+01:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Quigley, Koepp and Jones",
-        "ToolTip": "Quasi debitis.",
+        "Id": 911,
+        "Name": "Farrell Inc and Sons",
+        "ToolTip": "Sit odit dignissimos et molestias dignissimos cum.",
         "Deleted": true,
-        "Rank": 480,
-        "Type": "est",
-        "ColorBlock": 767,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "2002-12-25T12:15:28.3206174+01:00",
+        "Rank": 670,
+        "Type": "mollitia",
+        "ColorBlock": 819,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2010-01-27T15:29:31.4359758+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "aut",
+        "StyleHint": "non",
         "Hidden": true,
-        "FullName": "Millie Ally Reynolds DDS"
+        "FullName": "Miss Hank Tillman"
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Shanny Jordyn Monahan V"
+    "ExtraInfo": "sit",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Nova Beier"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Bayer LLC",
-    "ToolTip": "Omnis consequatur dolore alias dolorem.",
-    "Deleted": true,
-    "Rank": 968,
-    "Type": "repellendus",
-    "ColorBlock": 113,
-    "IconHint": "voluptas",
+    "Id": 892,
+    "Name": "Simonis-Pouros",
+    "ToolTip": "Eum hic nostrum tempore et.",
+    "Deleted": false,
+    "Rank": 328,
+    "Type": "vel",
+    "ColorBlock": 887,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2016-08-04T12:15:28.3216157+02:00",
+    "LastChanged": "2007-01-02T15:29:31.4374764+01:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Yost-Franecki",
-        "ToolTip": "Nesciunt necessitatibus neque ipsa odio aut dolor.",
-        "Deleted": true,
-        "Rank": 407,
-        "Type": "voluptas",
-        "ColorBlock": 502,
-        "IconHint": "nesciunt",
+        "Id": 906,
+        "Name": "Metz Inc and Sons",
+        "ToolTip": "Animi omnis.",
+        "Deleted": false,
+        "Rank": 491,
+        "Type": "aliquam",
+        "ColorBlock": 66,
+        "IconHint": "voluptates",
         "Selected": true,
-        "LastChanged": "2005-01-25T12:15:28.3216157+01:00",
+        "LastChanged": "2011-08-08T15:29:31.4374764+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "est",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Sabina Mosciski",
+        "StyleHint": "fugiat",
+        "Hidden": false,
+        "FullName": "Geovany Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldType": "System.String",
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "illo",
+    "ExtraInfo": "quia",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Jannie Davis",
+    "FullName": "Lexi Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 99
       }
     }
   }

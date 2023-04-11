@@ -49,7 +49,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -63,12 +63,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 235,
-    "ContactId": 394
+    "PersonId": 628,
+    "ContactId": 339
   },
   {
-    "PersonId": 235,
-    "ContactId": 394
+    "PersonId": 628,
+    "ContactId": 339
   }
 ]
 ```

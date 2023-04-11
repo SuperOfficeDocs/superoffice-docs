@@ -42,7 +42,7 @@ PriceList deleted.
 |----------------|-------------|
 | 204 | PriceList deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -130,11 +130,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 318,
-  "StartTime": "2017-07-20T12:15:17.6527713+02:00",
-  "EndTime": "2011-05-25T12:15:17.6527713+02:00",
-  "Count": 828,
-  "TaskHeadingId": 982
+  "ContactId": 980,
+  "StartTime": "2005-01-03T15:29:20.2653323+01:00",
+  "EndTime": "2010-04-18T15:29:20.2653323+02:00",
+  "Count": 916,
+  "TaskHeadingId": 742
 }
 ```
 
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 504,
-    "StartDate": "2015-02-20T12:15:17.6537704+01:00",
-    "EndDate": "2014-12-11T12:15:17.6537704+01:00",
+    "AppointmentId": 89,
+    "StartDate": "2018-09-04T15:29:20.2668323+02:00",
+    "EndDate": "2007-10-07T15:29:20.2668323+02:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Camden Gislason",
-    "ContactName": "Boehm Inc and Sons",
-    "Description": "Reduced 5th generation circuit",
-    "PersonFullName": "Augustine Heaney",
-    "PersonId": 288,
-    "ContactId": 868,
-    "ProjectId": 769,
-    "ProjectName": "McCullough-Ullrich",
-    "IsPublished": true,
-    "AssociateId": 102,
-    "ColorIndex": 224,
+    "Task": "et",
+    "AssociateFullName": "Paige Ernser",
+    "ContactName": "Schmeler LLC",
+    "Description": "Future-proofed fresh-thinking archive",
+    "PersonFullName": "Ms. Stuart Douglas V",
+    "PersonId": 635,
+    "ContactId": 893,
+    "ProjectId": 836,
+    "ProjectName": "Sawayn-Boehm",
+    "IsPublished": false,
+    "AssociateId": 409,
+    "ColorIndex": 602,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 33,
-    "PriorityName": "Langworth-Pfeffer",
+    "PriorityId": 404,
+    "PriorityName": "Hermiston, Luettgen and Champlin",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2017-10-30T12:15:17.6537704+01:00",
+    "ActiveDate": "2006-04-25T15:29:20.2668323+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-06-24T12:15:17.6547703+02:00",
-    "RecurringEndDate": "2013-09-11T12:15:17.6547703+02:00",
-    "MotherId": 418,
-    "AssignedBy": 672,
-    "AssignedByFullName": "Dixie Ritchie",
+    "RecurringStartDate": "1998-06-23T15:29:20.2668323+02:00",
+    "RecurringEndDate": "2014-10-16T15:29:20.2673374+02:00",
+    "MotherId": 359,
+    "AssignedBy": 790,
+    "AssignedByFullName": "Mrs. Cade Bernhard II",
     "RejectReason": "",
-    "Location": "animi",
-    "AlarmLeadTime": "explicabo",
-    "SaleId": 490,
-    "SaleName": "Casper, Durgan and Jewess",
-    "AssociateName": "Smith-Bernhard",
-    "CreatedDate": "2020-10-16T12:15:17.6547703+02:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Mr. Quinton Schmitt MD",
-    "CreatedByAssociateId": 773,
+    "Location": "sapiente",
+    "AlarmLeadTime": "voluptate",
+    "SaleId": 311,
+    "SaleName": "Hauck, Emard and Sipes",
+    "AssociateName": "Lynch, Quitzon and Runolfsson",
+    "CreatedDate": "2002-12-16T15:29:20.2673374+01:00",
+    "CreatedBy": "distinctio",
+    "CreatedByFullName": "Shana Runolfsson",
+    "CreatedByAssociateId": 95,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldType": "System.String",
+        "FieldLength": 73
       }
     }
   }

@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Beatty, Lueilwitz and Corkery",
-    "ToolTip": "Ut et autem ea magni consequatur.",
+    "Id": 388,
+    "Name": "McCullough, Hilpert and Larson",
+    "ToolTip": "Voluptatibus eligendi.",
     "Deleted": true,
-    "Rank": 983,
-    "Type": "et",
-    "ColorBlock": 901,
-    "IconHint": "aut",
+    "Rank": 548,
+    "Type": "id",
+    "ColorBlock": 423,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2010-05-08T12:15:28.0076205+02:00",
+    "LastChanged": "2001-07-17T15:29:31.1779808+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Padberg, Lakin and Stanton",
-        "ToolTip": "Ipsam explicabo itaque voluptatem ut.",
-        "Deleted": false,
-        "Rank": 582,
-        "Type": "vitae",
-        "ColorBlock": 682,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2010-02-07T12:15:28.0076205+01:00",
+        "Id": 209,
+        "Name": "Kihn-Braun",
+        "ToolTip": "Ex pariatur aut praesentium sequi ab.",
+        "Deleted": true,
+        "Rank": 558,
+        "Type": "ut",
+        "ColorBlock": 122,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2020-10-05T15:29:31.1779808+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Mr. Noelia Kessler",
+        "ExtraInfo": "nihil",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Jody Cortney Jakubowski II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 415
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "provident",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "atque",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ms. Stephany Fleta Barton DDS",
+    "FullName": "Phyllis Miller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 890
+        "FieldLength": 19
       }
     }
   }

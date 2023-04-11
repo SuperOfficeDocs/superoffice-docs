@@ -73,8 +73,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,12 +88,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "vero",
-      "Key": "cumque"
+      "Section": "odit",
+      "Key": "impedit"
     },
     {
-      "Section": "vero",
-      "Key": "cumque"
+      "Section": "odit",
+      "Key": "impedit"
     }
   ]
 }
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "et",
+    "RawValue": "est",
     "Specification": null,
-    "DisplayValue": "et",
-    "DisplayTooltip": "placeat",
+    "DisplayValue": "ut",
+    "DisplayTooltip": "autem",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 46,
-    "PrefDescId": 331,
-    "TableName": "Satterfield-Casper",
-    "UserPreferenceId": 179,
+    "TargetId": 964,
+    "PrefDescId": 819,
+    "TableName": "Weissnat-Veum",
+    "UserPreferenceId": 231,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldType": "System.String",
+        "FieldLength": 695
       }
     }
   }

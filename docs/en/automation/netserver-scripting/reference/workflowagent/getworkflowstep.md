@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -30,7 +30,7 @@ Event state is not preserved between different service calls. It is set to null 
 ```cs
     static void AfterGetWorkflowStep(
        Int32  workflowStepId,
-       ref WorkflowStep  returnValue,
+       ref WorkflowStepBase  returnValue,
        ref object  eventState
       );
 ```
@@ -41,7 +41,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ```cs
     static void AfterGetWorkflowStepAsync(
        Int32  workflowStepId,
-       ref WorkflowStep  returnValue,
+       ref WorkflowStepBase  returnValue,
        ref object  eventState
       );
 ```

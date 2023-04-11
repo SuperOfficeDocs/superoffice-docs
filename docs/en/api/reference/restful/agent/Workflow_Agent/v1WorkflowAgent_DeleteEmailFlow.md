@@ -24,7 +24,7 @@ Deletes the EmailFlow
 | EmailFlowId | int32 | **Required** The id of the EmailFlow to be deleted. |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteEmailFlow?EmailFlowId=499
+POST /api/v1/Agents/Workflow/DeleteEmailFlow?EmailFlowId=825
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

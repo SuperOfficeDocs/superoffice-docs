@@ -25,7 +25,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=316
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=499
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -87,8 +87,8 @@ OK
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,43 +106,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 926,
-  "Name": "Price Inc and Sons",
-  "Description": "Exclusive multimedia info-mediaries",
-  "WelcomeMessage": "vero",
+  "ChatTopicId": 271,
+  "Name": "Corkery, Welch and Lebsack",
+  "Description": "Automated leading edge paradigm",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2018-04-04T12:15:18.38076+02:00",
-  "SecondsPrAccept": 495,
-  "AlertRecipient": "dolores",
+  "LastAccept": "2011-11-01T15:29:20.999786+01:00",
+  "SecondsPrAccept": 342,
+  "AlertRecipient": "sunt",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "dolor",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "natus",
-  "WarnNewChatMinutes": 865,
-  "WarnManagerNewChatMinutes": 923,
+  "CollectConsent": false,
+  "BadgeHeader": "ab",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "aperiam",
+  "WarnNewChatMinutes": 775,
+  "WarnManagerNewChatMinutes": 10,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 304,
-  "WarnManagerChatMessageMinutes": 556,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 581,
-  "OfflineFormQueueLength": 264,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ducimus",
+  "WarnChatMessageMinutes": 537,
+  "WarnManagerChatMessageMinutes": 783,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 308,
+  "OfflineFormQueueLength": 197,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   }
 }

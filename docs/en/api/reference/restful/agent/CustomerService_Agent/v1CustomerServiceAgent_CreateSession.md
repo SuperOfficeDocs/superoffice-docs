@@ -65,8 +65,8 @@ OK
 | Key | string | The session key created in the login table |
 | LoginId | int32 | The id of the login row |
 | UserId | int32 | The ejuser id owning this session key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "doloribus"
+  "RemoteIp": "sint"
 }
 ```
 
@@ -89,15 +89,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "illo",
-  "LoginId": 197,
-  "UserId": 423,
+  "Key": "facilis",
+  "LoginId": 836,
+  "UserId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldLength": 95
     }
   }
 }

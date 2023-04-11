@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 592,
-  "ListItemId": 492,
+  "UdListDefinitionId": 105,
+  "ListItemId": 42,
   "ShowDeleted": false
 }
 ```
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Dibbert, Schneider and Stoltenberg",
-    "ToolTip": "Earum repellat nihil qui quasi.",
+    "Id": 434,
+    "Name": "Bruen, Skiles and Frami",
+    "ToolTip": "Eaque facere totam unde error.",
     "Deleted": false,
-    "Rank": 722,
-    "Type": "sit",
-    "ColorBlock": 102,
-    "IconHint": "voluptates",
-    "Selected": true,
-    "LastChanged": "2007-02-01T12:15:19.2607472+01:00",
+    "Rank": 831,
+    "Type": "aspernatur",
+    "ColorBlock": 388,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "1998-11-29T15:29:22.0187716+01:00",
     "ChildItems": [
       {
-        "Id": 213,
-        "Name": "Leffler LLC",
-        "ToolTip": "Placeat inventore eius rerum at rerum iste.",
+        "Id": 39,
+        "Name": "Gutkowski-Fay",
+        "ToolTip": "Ullam aliquid non fuga voluptas nesciunt cupiditate.",
         "Deleted": true,
-        "Rank": 338,
-        "Type": "quia",
-        "ColorBlock": 414,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2014-02-09T12:15:19.2607472+01:00",
+        "Rank": 287,
+        "Type": "rerum",
+        "ColorBlock": 296,
+        "IconHint": "illum",
+        "Selected": true,
+        "LastChanged": "2000-08-13T15:29:22.0187716+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Ms. Lyla Waters I",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Prof. Vivien Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 463
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quam",
+    "ExtraInfo": "qui",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Miss Junius Lowe II",
+    "FullName": "Hallie Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 723
       }
     }
   }

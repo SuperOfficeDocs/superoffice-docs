@@ -59,8 +59,8 @@ OK
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 483,
-  "UniqueId": "qui",
-  "Name": "Torphy-Kassulke",
-  "Description": "Persistent heuristic complexity",
-  "AssociateId": 193,
-  "Columns": 112,
+  "DashboardId": 962,
+  "UniqueId": "consectetur",
+  "Name": "Sipes LLC",
+  "Description": "Mandatory fresh-thinking parallelism",
+  "AssociateId": 274,
+  "Columns": 786,
   "Theme": null,
-  "VisibleForAll": 140,
+  "VisibleForAll": 234,
   "VisibleForAssociates": [
-    338,
-    327
+    420,
+    740
   ],
   "VisibleForGroups": [
-    432,
-    972
+    248,
+    373
   ],
-  "PinForAll": 997,
+  "PinForAll": 625,
   "PinForAssociates": [
-    164,
-    151
+    374,
+    617
   ],
   "PinForGroups": [
-    712,
-    575
+    594,
+    845
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 774
     }
   }
 }

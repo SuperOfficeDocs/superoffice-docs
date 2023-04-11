@@ -68,8 +68,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,56 +88,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Schimmel-Hamill",
-    "ToolTip": "Dolorum id.",
+    "Id": 446,
+    "Name": "Baumbach-Marquardt",
+    "ToolTip": "Nesciunt animi est.",
     "Deleted": false,
-    "Rank": 481,
-    "Type": "corporis",
-    "ColorBlock": 927,
-    "IconHint": "molestias",
+    "Rank": 736,
+    "Type": "delectus",
+    "ColorBlock": 980,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "1998-10-14T12:15:27.2196332+02:00",
+    "LastChanged": "2015-02-25T15:29:30.0286601+01:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Goodwin Group",
-        "ToolTip": "Mollitia itaque sit corrupti minus facilis.",
-        "Deleted": false,
-        "Rank": 163,
-        "Type": "eos",
-        "ColorBlock": 125,
-        "IconHint": "nemo",
+        "Id": 677,
+        "Name": "Leuschke-Veum",
+        "ToolTip": "Eos quia sit sit vel voluptatem vel labore.",
+        "Deleted": true,
+        "Rank": 247,
+        "Type": "odit",
+        "ColorBlock": 694,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2013-09-19T12:15:27.2206321+02:00",
+        "LastChanged": "2000-11-25T15:29:30.0291589+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Damien Terrence Schamberger DVM",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Mr. Maximo Becker IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldType": "System.String",
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Theron Jordy Tremblay II",
+    "ExtraInfo": "ab",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Macy Gutkowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 153
       }
     }
   }

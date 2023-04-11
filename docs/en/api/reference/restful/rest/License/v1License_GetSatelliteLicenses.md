@@ -52,8 +52,8 @@ OK
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,56 +72,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sporer, Spinka and Hammes",
-    "Description": "Public-key uniform monitoring",
+    "Name": "Bosco-Denesik",
+    "Description": "Sharable leading edge productivity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 326,
-        "Tooltip": "voluptates",
+        "Unrestricted": true,
+        "Total": 352,
+        "Tooltip": "nihil",
         "CanAssign": false,
-        "Free": 10,
-        "InUse": 958,
+        "Free": 930,
+        "InUse": 671,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 155,
-        "Name": "Johns Group",
-        "Description": "Fundamental zero defect help-desk",
-        "PrerequisiteModuleName": "Reichel Group",
-        "SortOrder": 796,
-        "ExtraFlags": 645,
+        "ModuleLicenseId": 81,
+        "Name": "Von Group",
+        "Description": "Horizontal assymetric capacity",
+        "PrerequisiteModuleName": "Gleichner, Wisoky and Langworth",
+        "SortOrder": 448,
+        "ExtraFlags": 88,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 799
+            "FieldLength": 572
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 540,
-        "Tooltip": "voluptas",
-        "CanAssign": false,
-        "Free": 685,
-        "InUse": 515,
+        "Unrestricted": true,
+        "Total": 401,
+        "Tooltip": "omnis",
+        "CanAssign": true,
+        "Free": 90,
+        "InUse": 787,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 76,
-        "Name": "Stark Group",
-        "Description": "Universal value-added middleware",
-        "PrerequisiteModuleName": "Pacocha LLC",
-        "SortOrder": 835,
-        "ExtraFlags": 852,
+        "ModuleLicenseId": 104,
+        "Name": "Ankunding, Howell and Grimes",
+        "Description": "Managed client-server hierarchy",
+        "PrerequisiteModuleName": "Rath Group",
+        "SortOrder": 618,
+        "ExtraFlags": 99,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldLength": 326
           }
         }
       }
@@ -130,62 +130,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   },
   {
-    "Name": "Sporer, Spinka and Hammes",
-    "Description": "Public-key uniform monitoring",
+    "Name": "Bosco-Denesik",
+    "Description": "Sharable leading edge productivity",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 326,
-        "Tooltip": "voluptates",
+        "Unrestricted": true,
+        "Total": 352,
+        "Tooltip": "nihil",
         "CanAssign": false,
-        "Free": 10,
-        "InUse": 958,
+        "Free": 930,
+        "InUse": 671,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 155,
-        "Name": "Johns Group",
-        "Description": "Fundamental zero defect help-desk",
-        "PrerequisiteModuleName": "Reichel Group",
-        "SortOrder": 796,
-        "ExtraFlags": 645,
+        "ModuleLicenseId": 81,
+        "Name": "Von Group",
+        "Description": "Horizontal assymetric capacity",
+        "PrerequisiteModuleName": "Gleichner, Wisoky and Langworth",
+        "SortOrder": 448,
+        "ExtraFlags": 88,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 799
+            "FieldLength": 572
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 540,
-        "Tooltip": "voluptas",
-        "CanAssign": false,
-        "Free": 685,
-        "InUse": 515,
+        "Unrestricted": true,
+        "Total": 401,
+        "Tooltip": "omnis",
+        "CanAssign": true,
+        "Free": 90,
+        "InUse": 787,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 76,
-        "Name": "Stark Group",
-        "Description": "Universal value-added middleware",
-        "PrerequisiteModuleName": "Pacocha LLC",
-        "SortOrder": 835,
-        "ExtraFlags": 852,
+        "ModuleLicenseId": 104,
+        "Name": "Ankunding, Howell and Grimes",
+        "Description": "Managed client-server hierarchy",
+        "PrerequisiteModuleName": "Rath Group",
+        "SortOrder": 618,
+        "ExtraFlags": 99,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldLength": 326
           }
         }
       }
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

@@ -67,8 +67,8 @@ OK
 | OwnedByFullName | string | Full name of dashboard owner |
 | Registered | date-time | Registered when  in UTC. |
 | Tiles | array | Dashboard tiles |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 361
+  "DashboardId": 288
 }
 ```
 
@@ -91,32 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torphy-Green",
-  "Description": "Extended systematic paradigm",
-  "OwnedByFullName": "Miss Katlyn Minnie Rice DDS",
-  "Registered": "1998-07-30T12:15:18.6817559+02:00",
+  "Name": "Brekke-Moore",
+  "Description": "De-engineered incremental software",
+  "OwnedByFullName": "Isabella Rogahn",
+  "Registered": "2022-03-23T15:29:21.4447811+01:00",
   "Tiles": [
     {
-      "Name": "Bashirian Inc and Sons",
+      "Name": "Erdman, Jaskolski and Collier",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 559
         }
       }
     },
     {
-      "Name": "Bashirian Inc and Sons",
+      "Name": "Erdman, Jaskolski and Collier",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 559
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldLength": 706
     }
   }
 }

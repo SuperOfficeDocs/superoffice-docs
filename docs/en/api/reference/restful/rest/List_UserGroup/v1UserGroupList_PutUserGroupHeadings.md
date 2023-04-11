@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 51,
-    "Name": "Fisher Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 637,
+    "Name": "Boyle, Blanda and Rutherford",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 868,
-    "UdListDefinitionId": 452
+    "Rank": 86,
+    "UdListDefinitionId": 117
   },
   {
-    "HeadingId": 51,
-    "Name": "Fisher Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 637,
+    "Name": "Boyle, Blanda and Rutherford",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 868,
-    "UdListDefinitionId": 452
+    "Rank": 86,
+    "UdListDefinitionId": 117
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 524,
-    "Name": "Mills LLC",
-    "Tooltip": "ut",
+    "HeadingId": 978,
+    "Name": "Runte, Russel and Schmitt",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 206,
-    "UdListDefinitionId": 567,
+    "Rank": 710,
+    "UdListDefinitionId": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 332
+        "FieldLength": 127
       }
     }
   }

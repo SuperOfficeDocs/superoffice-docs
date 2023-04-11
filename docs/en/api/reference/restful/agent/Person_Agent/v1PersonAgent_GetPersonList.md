@@ -99,8 +99,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -119,52 +119,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nulla",
-    "PersonId": 709,
-    "Mrmrs": "nemo",
-    "Firstname": "Evangeline",
-    "Lastname": "Brekke",
-    "MiddleName": "Kiehn, Treutel and Sporer",
-    "Title": "repellat",
-    "Description": "Versatile neutral website",
-    "Email": "reba.collins@wizasauer.co.uk",
-    "FullName": "Ms. Fabian Lucinda Kirlin",
-    "DirectPhone": "(028)429-3065 x28791",
-    "FormalName": "Simonis, Kihn and Swaniawski",
-    "CountryId": 903,
-    "ContactId": 794,
-    "ContactName": "Kutch-Hilpert",
-    "Retired": 582,
-    "Rank": 100,
-    "ActiveInterests": 26,
+    "Position": "repellat",
+    "PersonId": 434,
+    "Mrmrs": "quo",
+    "Firstname": "Lisette",
+    "Lastname": "Langworth",
+    "MiddleName": "Kautzer LLC",
+    "Title": "expedita",
+    "Description": "Innovative upward-trending policy",
+    "Email": "conrad_von@farrellsenger.name",
+    "FullName": "Katlyn Dibbert",
+    "DirectPhone": "907-476-0267",
+    "FormalName": "Jast, Littel and Kassulke",
+    "CountryId": 433,
+    "ContactId": 580,
+    "ContactName": "Morar-Wiza",
+    "Retired": 404,
+    "Rank": 278,
+    "ActiveInterests": 777,
     "ContactDepartment": "",
-    "ContactCountryId": 344,
-    "ContactOrgNr": "741979",
-    "FaxPhone": "(425)740-8004 x884",
-    "MobilePhone": "244-670-4205 x831",
-    "ContactPhone": "745.501.0883",
-    "AssociateName": "Fadel Group",
-    "AssociateId": 40,
+    "ContactCountryId": 670,
+    "ContactOrgNr": "1871986",
+    "FaxPhone": "(011)446-3743 x739",
+    "MobilePhone": "1-329-334-2617",
+    "ContactPhone": "1-379-556-5166",
+    "AssociateName": "McDermott, Hoeger and Beier",
+    "AssociateId": 995,
     "UsePersonAddress": true,
-    "ContactFax": "assumenda",
-    "Kanafname": "aliquam",
-    "Kanalname": "dignissimos",
-    "Post1": "optio",
-    "Post2": "assumenda",
-    "Post3": "sint",
-    "EmailName": "kitty@goldnerwatsica.biz",
-    "ContactFullName": "Destini O'Kon",
-    "ActiveErpLinks": 382,
-    "TicketPriorityId": 868,
-    "SupportLanguageId": 32,
-    "SupportAssociateId": 352,
+    "ContactFax": "ratione",
+    "Kanafname": "et",
+    "Kanalname": "nam",
+    "Post1": "quia",
+    "Post2": "id",
+    "Post3": "ut",
+    "EmailName": "angela.langosh@friesen.ca",
+    "ContactFullName": "Gabriel Cormier",
+    "ActiveErpLinks": 702,
+    "TicketPriorityId": 254,
+    "SupportLanguageId": 425,
+    "SupportAssociateId": 929,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldType": "System.Int32",
+        "FieldLength": 768
       }
     }
   }

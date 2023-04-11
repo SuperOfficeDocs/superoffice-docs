@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Bednar Inc and Sons",
-    "ToolTip": "Ut qui ut odio.",
-    "Deleted": true,
-    "Rank": 588,
-    "Type": "optio",
-    "ColorBlock": 896,
-    "IconHint": "expedita",
+    "Id": 30,
+    "Name": "Gislason-Douglas",
+    "ToolTip": "Ut quae temporibus quo voluptatem aliquam.",
+    "Deleted": false,
+    "Rank": 720,
+    "Type": "iste",
+    "ColorBlock": 21,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2022-12-11T12:15:28.2306174+01:00",
+    "LastChanged": "2022-04-13T15:29:31.3454771+02:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Sawayn LLC",
-        "ToolTip": "Omnis consectetur in dolorum.",
-        "Deleted": false,
-        "Rank": 189,
-        "Type": "commodi",
-        "ColorBlock": 150,
-        "IconHint": "non",
+        "Id": 161,
+        "Name": "Mayer LLC",
+        "ToolTip": "Incidunt reprehenderit vitae illo delectus quod est placeat.",
+        "Deleted": true,
+        "Rank": 617,
+        "Type": "itaque",
+        "ColorBlock": 481,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2019-11-12T12:15:28.2306174+01:00",
+        "LastChanged": "1999-01-03T15:29:31.3454771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "aut",
+        "ExtraInfo": "sint",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Providenci Schmeler",
+        "FullName": "Mr. Ransom Bernhard I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldLength": 491
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Mr. Evangeline Cormier",
+    "ExtraInfo": "rerum",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Miss Ryann Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 524
       }
     }
   }

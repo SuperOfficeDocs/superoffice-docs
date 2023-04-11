@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Bauch Inc and Sons",
-    "ToolTip": "Unde voluptates est et similique.",
+    "Id": 349,
+    "Name": "Zboncak, Rolfson and Grimes",
+    "ToolTip": "Natus repudiandae occaecati.",
     "Deleted": false,
-    "Rank": 740,
-    "Type": "ducimus",
-    "ColorBlock": 765,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2022-03-06T12:15:28.5026155+01:00",
+    "Rank": 204,
+    "Type": "quidem",
+    "ColorBlock": 295,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2006-09-17T15:29:31.6129736+02:00",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Tillman, Quitzon and Runolfsson",
-        "ToolTip": "Itaque amet voluptas ea recusandae praesentium.",
+        "Id": 530,
+        "Name": "Heller-Crona",
+        "ToolTip": "Odit vel sunt.",
         "Deleted": false,
-        "Rank": 363,
-        "Type": "molestiae",
-        "ColorBlock": 322,
-        "IconHint": "non",
+        "Rank": 574,
+        "Type": "eveniet",
+        "ColorBlock": 5,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2007-02-18T12:15:28.5026155+01:00",
+        "LastChanged": "2014-09-01T15:29:31.6129736+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Breanne D'Amore",
+        "ExtraInfo": "vel",
+        "StyleHint": "minima",
+        "Hidden": false,
+        "FullName": "Dr. Karolann Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldLength": 201
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "eum",
+    "ExtraInfo": "tempore",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Hermann Treutel",
+    "FullName": "Mrs. Taya Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 879
+        "FieldLength": 795
       }
     }
   }

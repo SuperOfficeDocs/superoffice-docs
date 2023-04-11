@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -69,9 +69,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 421,
-  "ListItemId": 142,
-  "Direction": 559
+  "UdListDefinitionId": 486,
+  "ListItemId": 128,
+  "Direction": 269
 }
 ```
 

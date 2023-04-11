@@ -73,8 +73,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Watsica, Dibbert and Stark",
-  "DeviceName": "Greenholt, Berge and Becker",
-  "DeviceIdentifier": "labore"
+  "ApplicationName": "Hansen Group",
+  "DeviceName": "Schaefer, Moore and Dibbert",
+  "DeviceIdentifier": "aut"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "dolor",
-  "RecordId": 334,
-  "CreatedDate": "2018-09-05T12:15:19.1597485+02:00",
-  "UpdatedDate": "2008-11-04T12:15:19.1597485+01:00",
-  "UpdatedBy": "vel",
-  "CreatedBy": "eligendi",
-  "TableName": "Crooks Group",
+  "Key": "dolores",
+  "Value": "maiores",
+  "RecordId": 110,
+  "CreatedDate": "1997-04-14T15:29:21.9233092+02:00",
+  "UpdatedDate": "2013-10-23T15:29:21.9233092+02:00",
+  "UpdatedBy": "reprehenderit",
+  "CreatedBy": "veritatis",
+  "TableName": "Sporer-Reynolds",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 797
     }
   }
 }

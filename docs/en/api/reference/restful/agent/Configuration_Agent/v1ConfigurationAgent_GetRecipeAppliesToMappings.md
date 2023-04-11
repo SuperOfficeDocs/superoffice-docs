@@ -69,7 +69,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sit",
-  "2": "et"
+  "1": "sed",
+  "2": "beatae"
 }
 ```

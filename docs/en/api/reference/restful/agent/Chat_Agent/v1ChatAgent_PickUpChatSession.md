@@ -95,8 +95,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 716
+  "ChatSessionId": 300
 }
 ```
 
@@ -119,43 +119,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 767,
-  "TopicId": 519,
+  "ChatSessionId": 638,
+  "TopicId": 802,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quibusdam",
-  "CustomerHost": "voluptatem",
-  "CustomerName": "Zemlak Inc and Sons",
-  "CustomerEmail": "baron@lind.ca",
-  "CustomerPhone": "579-741-5341 x40883",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Bartoletti-Herman",
+  "CustomerAlias": "incidunt",
+  "CustomerHost": "vel",
+  "CustomerName": "Schoen, Kessler and Bechtelar",
+  "CustomerEmail": "alexandre@rowebreitenberg.info",
+  "CustomerPhone": "795.883.3600",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Little-Auer",
   "Status": "Closed",
-  "FirstMessage": "eos",
-  "LastMessage": "illo",
-  "WhenRequested": "1996-09-01T12:15:18.3507285+02:00",
-  "WhenStarted": "2005-09-08T12:15:18.3507285+02:00",
-  "WhenEnded": "1998-02-09T12:15:18.3507285+01:00",
-  "WhenIdle": "2015-08-16T12:15:18.3507285+02:00",
-  "WhenFetched": "1998-09-07T12:15:18.3507285+02:00",
-  "SessionKey": "voluptatem",
-  "InitialQueuePos": 699,
-  "AlertLevel": 297,
-  "Rank": 817,
+  "FirstMessage": "excepturi",
+  "LastMessage": "veniam",
+  "WhenRequested": "2007-06-25T15:29:20.9682864+02:00",
+  "WhenStarted": "2000-06-04T15:29:20.9682864+02:00",
+  "WhenEnded": "2020-09-16T15:29:20.9682864+02:00",
+  "WhenIdle": "2014-10-18T15:29:20.9682864+02:00",
+  "WhenFetched": "1996-05-14T15:29:20.9682864+02:00",
+  "SessionKey": "sint",
+  "InitialQueuePos": 51,
+  "AlertLevel": 78,
+  "Rank": 187,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 757,
+  "ChatbotIsActive": false,
+  "Rating": 43,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 803
     }
   }
 }

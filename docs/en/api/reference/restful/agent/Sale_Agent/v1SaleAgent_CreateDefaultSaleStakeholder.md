@@ -65,8 +65,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Stark, Franecki and Rath",
-  "Comment": "corporis",
-  "StakeholderRoleId": 885,
-  "CountryId": 174,
-  "PersonId": 295,
-  "EmailDescription": "reyna@wilkinson.co.uk",
-  "EmailId": 407,
-  "EmailAddress": "britney.medhurst@eichmanngrant.us",
-  "PhoneId": 808,
-  "ContactName": "Russel, Brekke and Schaden",
-  "ContactId": 760,
-  "SaleId": 21,
-  "Mrmrs": "facilis",
-  "Firstname": "Buster",
-  "MiddleName": "Hilll Group",
-  "Lastname": "Eichmann",
-  "SaleStakeholderId": 818,
-  "Rank": 126,
-  "Phone": "608.162.1390",
+  "StakeholderRoleName": "Jerde-Auer",
+  "Comment": "est",
+  "StakeholderRoleId": 695,
+  "CountryId": 170,
+  "PersonId": 787,
+  "EmailDescription": "kolby_kuvalis@zulauf.us",
+  "EmailId": 472,
+  "EmailAddress": "noemi.hettinger@flatleyebert.ca",
+  "PhoneId": 307,
+  "ContactName": "Bode LLC",
+  "ContactId": 944,
+  "SaleId": 640,
+  "Mrmrs": "asperiores",
+  "Firstname": "Quinn",
+  "MiddleName": "Mosciski LLC",
+  "Lastname": "Nienow",
+  "SaleStakeholderId": 374,
+  "Rank": 804,
+  "Phone": "378-532-3721 x57007",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 408
     }
   }
 }

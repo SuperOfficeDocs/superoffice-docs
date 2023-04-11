@@ -92,7 +92,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -117,8 +117,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,7 +126,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -145,122 +145,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-06-23T12:15:17.7957687+02:00",
-  "AppointmentId": 446,
-  "Description": "Expanded 24 hour data-warehouse",
-  "StartDate": "2007-01-30T12:15:17.7967691+01:00",
-  "EndDate": "2016-02-19T12:15:17.7967691+01:00",
+  "CreatedDate": "2017-04-10T15:29:20.5392931+02:00",
+  "AppointmentId": 175,
+  "Description": "Profit-focused static secured line",
+  "StartDate": "2005-12-05T15:29:20.5392931+01:00",
+  "EndDate": "1999-01-18T15:29:20.5392931+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 636,
+  "MotherId": 382,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-04-27T12:15:17.799769+02:00",
+  "UpdatedDate": "2015-06-16T15:29:20.5427937+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 574,
+  "ActiveLinks": 743,
   "Links": [
     {
-      "EntityName": "DuBuque, Connelly and Brekke",
-      "Id": 459,
-      "Description": "Vision-oriented didactic help-desk",
-      "ExtraInfo": "quas",
-      "LinkId": 673,
+      "EntityName": "Shanahan Group",
+      "Id": 529,
+      "Description": "Progressive actuating firmware",
+      "ExtraInfo": "velit",
+      "LinkId": 453,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldLength": 90
         }
       }
     }
   ],
-  "AlarmLeadTime": "enim",
-  "HasAlarm": false,
-  "ColorIndex": 512,
-  "IsFree": true,
+  "AlarmLeadTime": "quo",
+  "HasAlarm": true,
+  "ColorIndex": 873,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "expedita",
-  "LeadTime": "harum",
-  "Location": "sunt",
-  "RejectCounter": 171,
+  "LagTime": "maxime",
+  "LeadTime": "officia",
+  "Location": "eum",
+  "RejectCounter": 104,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 50,
-      "PersonId": 799,
-      "ContactId": 12,
-      "EmailId": 247,
-      "SendEmail": true,
+      "AssociateId": 582,
+      "PersonId": 793,
+      "ContactId": 453,
+      "EmailId": 665,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 50,
-      "PersonId": 799,
-      "ContactId": 12,
-      "EmailId": 247,
-      "SendEmail": true,
+      "AssociateId": 582,
+      "PersonId": 793,
+      "ContactId": 453,
+      "EmailId": 665,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-11-02T12:15:17.799769+01:00",
+  "ActiveDate": "2013-02-21T15:29:20.5432939+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 455,
+  "PreferredTZLocation": 244,
   "Sale": null,
-  "SuggestedAppointmentId": 830,
+  "SuggestedAppointmentId": 26,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "consequatur",
+  "CentralserviceVideomeetId": "accusantium",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Prof. Jedediah Kris"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "ea"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "perspiciatis"
   },
-  "PublishEventDate": "2010-05-25T12:15:17.8017764+02:00",
-  "PublishTo": "2012-06-08T12:15:17.8017764+02:00",
-  "PublishFrom": "2009-01-21T12:15:17.8017764+01:00",
+  "PublishEventDate": "2022-03-03T15:29:20.5447936+01:00",
+  "PublishTo": "1998-07-13T15:29:20.5447936+02:00",
+  "PublishFrom": "2007-12-30T15:29:20.5447936+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 661,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 13
         }
       }
     },
     {
-      "VisibleId": 661,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 93
+          "FieldLength": 13
         }
       }
     }
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 855
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

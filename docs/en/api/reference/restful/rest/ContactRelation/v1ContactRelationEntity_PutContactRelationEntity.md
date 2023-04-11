@@ -103,8 +103,8 @@ ContactRelationEntity updated.
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -113,28 +113,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 144,
-  "SourcePersonId": 898,
-  "DestinationContactId": 95,
-  "DestinationPersonId": 339,
-  "RelationId": 785,
-  "Comment": "tempora",
-  "RelationDefinitionId": 43,
-  "Reversed": 311,
-  "UpdatedDate": "2019-01-15T12:15:26.8016396+01:00",
-  "CreatedDate": "2017-02-11T12:15:26.8016396+01:00",
+  "SourceContactId": 755,
+  "SourcePersonId": 82,
+  "DestinationContactId": 722,
+  "DestinationPersonId": 748,
+  "RelationId": 863,
+  "Comment": "rerum",
+  "RelationDefinitionId": 913,
+  "Reversed": 555,
+  "UpdatedDate": "2000-01-14T15:29:29.6127038+01:00",
+  "CreatedDate": "2006-10-09T15:29:29.6127038+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hahn Group",
-  "SourcePersonName": "Halvorson, Metz and Donnelly",
-  "DestinationContactName": "Aufderhar-Mills",
-  "DestinationPersonName": "Kuvalis-Fisher",
-  "ActiveText": "eos",
-  "PassiveText": "doloremque"
+  "SourceContactName": "Dare-Daugherty",
+  "SourcePersonName": "Batz, Kovacek and Keebler",
+  "DestinationContactName": "Littel-Lind",
+  "DestinationPersonName": "Runolfsson, Conroy and Schoen",
+  "ActiveText": "recusandae",
+  "PassiveText": "magni"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 326,
-  "SourcePersonId": 667,
-  "DestinationContactId": 477,
-  "DestinationPersonId": 71,
-  "RelationId": 864,
-  "Comment": "ea",
-  "RelationDefinitionId": 417,
-  "Reversed": 336,
-  "UpdatedDate": "2003-07-05T12:15:26.8036377+02:00",
-  "CreatedDate": "2004-12-14T12:15:26.8036377+01:00",
+  "SourceContactId": 384,
+  "SourcePersonId": 348,
+  "DestinationContactId": 541,
+  "DestinationPersonId": 311,
+  "RelationId": 755,
+  "Comment": "aut",
+  "RelationDefinitionId": 54,
+  "Reversed": 399,
+  "UpdatedDate": "2001-09-18T15:29:29.6147019+02:00",
+  "CreatedDate": "2017-03-09T15:29:29.6147019+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Will, Mosciski and Borer",
-  "SourcePersonName": "Olson, Cremin and Stark",
-  "DestinationContactName": "Jaskolski, Quitzon and Strosin",
-  "DestinationPersonName": "Hane-Crist",
-  "ActiveText": "vel",
-  "PassiveText": "non",
+  "SourceContactName": "Brakus, Schmidt and Breitenberg",
+  "SourcePersonName": "Zulauf Inc and Sons",
+  "DestinationContactName": "Kuvalis Inc and Sons",
+  "DestinationPersonName": "Mayer-Durgan",
+  "ActiveText": "qui",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 361
+      "FieldLength": 731
     }
   },
   "_Links": {

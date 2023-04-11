@@ -93,8 +93,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,15 +102,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 340,
-  "CredentialType": "ex",
-  "CredentialValue": "iure",
-  "CredentialDisplayValue": "reprehenderit"
+  "ContactId": 585,
+  "CredentialType": "occaecati",
+  "CredentialValue": "tenetur",
+  "CredentialDisplayValue": "impedit"
 }
 ```
 
@@ -121,14 +121,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 619,
-  "Name": "Denesik LLC",
-  "Rank": 596,
-  "Tooltip": "iure",
+  "AssociateId": 32,
+  "Name": "Dickinson-Hessel",
+  "Rank": 720,
+  "Tooltip": "cum",
   "LicenseOwners": [
     {
-      "Name": "Muller Inc and Sons",
-      "Description": "Organic 5th generation model",
+      "Name": "Hilpert Group",
+      "Description": "Integrated discrete hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldLength": 422
         }
       }
     },
     {
-      "Name": "Muller Inc and Sons",
-      "Description": "Organic 5th generation model",
+      "Name": "Hilpert Group",
+      "Description": "Integrated discrete hardware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 792
+          "FieldLength": 422
         }
       }
     }
@@ -171,110 +171,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequatur",
+      "Value": "laudantium",
       "Tooltip": "qui",
-      "Id": 620,
-      "Rank": 825,
+      "Id": 628,
+      "Rank": 811,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldLength": 949
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2009-09-25T12:15:20.5177371+02:00",
-  "Lastlogout": "2010-02-11T12:15:20.5177371+01:00",
-  "EjUserId": 348,
-  "RequestSignature": "nihil",
+  "Lastlogin": "1996-01-29T15:29:23.2897545+01:00",
+  "Lastlogout": "2000-12-24T15:29:23.2897545+01:00",
+  "EjUserId": 481,
+  "RequestSignature": "explicabo",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "facilis",
-      "DisplayValue": "in",
+      "Value": "similique",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 493
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     },
     {
       "Type": null,
-      "Value": "facilis",
-      "DisplayValue": "in",
+      "Value": "similique",
+      "DisplayValue": "omnis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 666
+        }
+      }
+    }
+  ],
+  "UserName": "Marquardt-Jacobs",
+  "TicketCategories": [
+    {
+      "Id": 46,
+      "Name": "Parker Inc and Sons",
+      "ToolTip": "Repellat delectus.",
+      "Deleted": true,
+      "Rank": 165,
+      "Type": "earum",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "eligendi",
+      "ColorBlock": 612,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "dolorem",
+      "FullName": "Vallie Brandy Lang I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 493
+          "FieldLength": 613
         }
       }
     }
   ],
-  "UserName": "Ledner Group",
-  "TicketCategories": [
-    {
-      "Id": 704,
-      "Name": "Green, Wisoky and Marvin",
-      "ToolTip": "Incidunt dolores iste alias quia.",
-      "Deleted": false,
-      "Rank": 19,
-      "Type": "commodi",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "est",
-      "ColorBlock": 952,
-      "ExtraInfo": "pariatur",
-      "StyleHint": "ut",
-      "FullName": "Mr. Haven Dasia Hodkiewicz III",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 407
-        }
-      }
-    }
-  ],
-  "NickName": "Kautzer-Simonis",
+  "NickName": "Moen LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "qui",
+    "CustomFields2": "distinctio"
   },
   "PostSaveCommands": [
     {
-      "Name": "Gutkowski, Reichel and Bauch",
-      "DisplayName": "Wisoky, Bechtelar and Kilback",
-      "Description": "Business-focused human-resource info-mediaries",
-      "ToolTip": "Id totam perferendis.",
+      "Name": "Doyle LLC",
+      "DisplayName": "Lockman, Gulgowski and Goodwin",
+      "Description": "Ameliorated incremental throughput",
+      "ToolTip": "Molestiae quia architecto sequi laudantium nulla ipsum beatae.",
       "Actions": "Implicit",
-      "ActionData": "aut",
+      "ActionData": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 566
         }
       }
     }
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 125
     }
   }
 }

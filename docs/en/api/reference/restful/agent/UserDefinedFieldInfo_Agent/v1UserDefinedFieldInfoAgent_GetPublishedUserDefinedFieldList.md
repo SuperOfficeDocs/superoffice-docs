@@ -96,8 +96,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -121,46 +121,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 891,
-    "ColumnId": 163,
-    "FieldDefault": "nesciunt",
-    "FieldHeight": 445,
-    "FieldLabel": "et",
-    "FieldLeft": 866,
-    "FieldTop": 804,
+    "UDefFieldId": 636,
+    "ColumnId": 176,
+    "FieldDefault": "voluptatibus",
+    "FieldHeight": 961,
+    "FieldLabel": "quos",
+    "FieldLeft": 268,
+    "FieldTop": 70,
     "FieldType": "Checkbox",
-    "FieldWidth": 12,
-    "FormatMask": "non",
+    "FieldWidth": 855,
+    "FormatMask": "doloremque",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 212,
-    "LabelLeft": 8,
-    "LabelTop": 514,
-    "LabelWidth": 160,
-    "LastVersionId": 464,
-    "ListTableId": 388,
+    "IsIndexed": false,
+    "LabelHeight": 922,
+    "LabelLeft": 810,
+    "LabelTop": 304,
+    "LabelWidth": 512,
+    "LastVersionId": 330,
+    "ListTableId": 725,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 787,
-    "ProgId": "error",
+    "Page1LineNo": 237,
+    "ProgId": "non",
     "IsReadOnly": false,
-    "ShortLabel": "dicta",
-    "TabOrder": 858,
-    "TextLength": 832,
-    "Tooltip": "nesciunt",
-    "UdefIdentity": 904,
-    "UDListDefinitionId": 998,
+    "ShortLabel": "sunt",
+    "TabOrder": 691,
+    "TextLength": 558,
+    "Tooltip": "dolor",
+    "UdefIdentity": 230,
+    "UDListDefinitionId": 123,
     "Justification": "Center",
-    "Version": 380,
-    "TemplateVariableName": "West-Cummings",
+    "Version": 122,
+    "TemplateVariableName": "Crona-Metz",
     "HasBeenPublished": false,
-    "MdoListName": "Upton LLC",
+    "MdoListName": "Williamson, Legros and Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 904
+        "FieldType": "System.Int32",
+        "FieldLength": 801
       }
     }
   }

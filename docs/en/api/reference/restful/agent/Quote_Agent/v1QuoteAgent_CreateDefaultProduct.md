@@ -80,8 +80,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 275,
-  "ERPProductKey": "tempora",
-  "ERPPriceListKey": "consectetur",
-  "Name": "Johnson-Feeney",
-  "Description": "Public-key zero defect superstructure",
-  "Code": "sunt",
-  "PriceUnit": "ex",
-  "QuantityUnit": "perspiciatis",
+  "ProductId": 559,
+  "ERPProductKey": "autem",
+  "ERPPriceListKey": "nulla",
+  "Name": "Dare-Nitzsche",
+  "Description": "Versatile multi-state benchmark",
+  "Code": "ab",
+  "PriceUnit": "doloremque",
+  "QuantityUnit": "esse",
   "IsSubscription": false,
-  "SubscriptionUnit": "quo",
-  "DefaultSubscriptionQuantity": 17707.1,
-  "ItemNumber": "1669520",
+  "SubscriptionUnit": "molestiae",
+  "DefaultSubscriptionQuantity": 30011.183999999997,
+  "ItemNumber": "1707255",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "beatae",
-  "ProductTypeKey": "temporibus",
-  "VAT": 27842.456,
-  "VATInfo": "atque",
-  "UnitCost": 7847.536,
-  "UnitMinimumPrice": 16171.439999999999,
-  "UnitListPrice": 24426.396,
+  "ProductFamilyKey": "debitis",
+  "ProductTypeKey": "illo",
+  "VAT": 6142.6399999999994,
+  "VATInfo": "enim",
+  "UnitCost": 22762.242,
+  "UnitMinimumPrice": 15340.93,
+  "UnitListPrice": 21872.185999999998,
   "InAssortment": true,
-  "Supplier": "numquam",
-  "SupplierCode": "autem",
-  "Rights": "consequuntur",
-  "Rule": "fugiat",
+  "Supplier": "eum",
+  "SupplierCode": "eos",
+  "Rights": "eligendi",
+  "Rule": "fuga",
   "ExtraInfo": [
     {
-      "Name": "Gorczany LLC",
-      "Value": "et",
+      "Name": "Hartmann, Keeling and Herman",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 421
         }
       }
     },
     {
-      "Name": "Gorczany LLC",
-      "Value": "et",
+      "Name": "Hartmann, Keeling and Herman",
+      "Value": "praesentium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 421
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "temporibus",
-  "ExtraField2": "aliquam",
-  "ExtraField3": "autem",
-  "ExtraField4": "qui",
-  "ExtraField5": "nemo",
-  "InStock": 8364.6459999999988,
+  "RawExtraInfo": "perspiciatis",
+  "ExtraField1": "sed",
+  "ExtraField2": "sequi",
+  "ExtraField3": "ducimus",
+  "ExtraField4": "sapiente",
+  "ExtraField5": "doloribus",
+  "InStock": 6387.092,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldLength": 86
     }
   }
 }

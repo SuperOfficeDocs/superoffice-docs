@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Stoltenberg, Ankunding and Monahan",
-    "ToolTip": "Maxime quis est laborum aut.",
-    "Deleted": true,
-    "Rank": 880,
-    "Type": "enim",
-    "ColorBlock": 900,
-    "IconHint": "ipsum",
+    "Id": 158,
+    "Name": "Boehm Group",
+    "ToolTip": "Voluptatem amet.",
+    "Deleted": false,
+    "Rank": 120,
+    "Type": "minima",
+    "ColorBlock": 522,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2015-07-01T12:15:28.0106202+02:00",
+    "LastChanged": "2019-06-03T15:29:31.1789799+02:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Luettgen-Lemke",
-        "ToolTip": "Voluptatibus repellendus recusandae aliquid quaerat.",
-        "Deleted": false,
-        "Rank": 695,
-        "Type": "impedit",
-        "ColorBlock": 178,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2004-12-28T12:15:28.014621+01:00",
+        "Id": 320,
+        "Name": "Carter Group",
+        "ToolTip": "Dignissimos iste.",
+        "Deleted": true,
+        "Rank": 494,
+        "Type": "corrupti",
+        "ColorBlock": 526,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2008-06-10T15:29:31.1789799+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "et",
+        "ExtraInfo": "unde",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Tabitha Jake Borer V"
+        "FullName": "Marta West"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Izaiah Bruen"
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Toni Stark Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 710,
-    "Name": "Conroy LLC",
-    "ToolTip": "Amet et et consequatur ipsa iste quaerat.",
+    "Id": 883,
+    "Name": "Lindgren-Ebert",
+    "ToolTip": "Enim nemo sit est expedita sit ex.",
     "Deleted": true,
-    "Rank": 115,
-    "Type": "dignissimos",
-    "ColorBlock": 158,
-    "IconHint": "accusantium",
+    "Rank": 810,
+    "Type": "nulla",
+    "ColorBlock": 429,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2019-12-29T12:15:28.0196204+01:00",
+    "LastChanged": "2019-09-08T15:29:31.1804795+02:00",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Mertz LLC",
-        "ToolTip": "Voluptatem pariatur molestiae rerum quibusdam reprehenderit molestiae.",
-        "Deleted": true,
-        "Rank": 834,
-        "Type": "voluptas",
-        "ColorBlock": 375,
-        "IconHint": "atque",
-        "Selected": false,
-        "LastChanged": "2005-03-27T12:15:28.0226238+02:00",
+        "Id": 915,
+        "Name": "McGlynn Group",
+        "ToolTip": "Molestias molestiae.",
+        "Deleted": false,
+        "Rank": 347,
+        "Type": "inventore",
+        "ColorBlock": 237,
+        "IconHint": "quasi",
+        "Selected": true,
+        "LastChanged": "2019-12-26T15:29:31.1804795+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Prof. Summer Rebeca Larkin",
+        "ExtraInfo": "maxime",
+        "StyleHint": "porro",
+        "Hidden": false,
+        "FullName": "Genesis Mills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 333
+            "FieldType": "System.String",
+            "FieldLength": 127
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "sit",
+    "ExtraInfo": "hic",
+    "StyleHint": "asperiores",
     "Hidden": true,
-    "FullName": "Elta Smith",
+    "FullName": "Dr. Betsy Shea Beatty II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 134
+        "FieldType": "System.Int32",
+        "FieldLength": 556
       }
     }
   }

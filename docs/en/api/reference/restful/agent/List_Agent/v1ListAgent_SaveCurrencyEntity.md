@@ -65,8 +65,8 @@ OK
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,17 +74,17 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 52,
-  "Name": "Daniel, Borer and Thompson",
-  "Tooltip": "doloribus",
-  "Rank": 189,
-  "Rate": 15726.412,
-  "Units": 451.296,
-  "Deleted": false
+  "CurrencyId": 275,
+  "Name": "Schaefer-Sipes",
+  "Tooltip": "natus",
+  "Rank": 386,
+  "Rate": 12047.096,
+  "Units": 10730.815999999999,
+  "Deleted": true
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 800,
-  "Name": "Lind Inc and Sons",
-  "Tooltip": "quis",
-  "Rank": 132,
-  "Rate": 5926.394,
-  "Units": 9439.608,
+  "CurrencyId": 212,
+  "Name": "Beatty-Orn",
+  "Tooltip": "iusto",
+  "Rank": 61,
+  "Rate": 16190.243999999999,
+  "Units": 26422.754,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 28
     }
   }
 }

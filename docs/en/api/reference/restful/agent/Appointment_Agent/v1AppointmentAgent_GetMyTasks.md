@@ -113,8 +113,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 645
+  "Count": 964
 }
 ```
 
@@ -138,61 +138,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 328,
-    "StartDate": "2021-03-27T12:15:17.9977337+01:00",
-    "EndDate": "2022-05-27T12:15:17.9977337+02:00",
+    "AppointmentId": 230,
+    "StartDate": "1996-05-07T15:29:20.7437903+02:00",
+    "EndDate": "1996-05-01T15:29:20.7437903+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Ms. Veda Alvera Armstrong",
-    "ContactName": "Swaniawski-Swift",
-    "Description": "Object-based bottom-line local area network",
-    "PersonFullName": "Kyleigh Becker",
-    "PersonId": 513,
-    "ContactId": 502,
-    "ProjectId": 580,
-    "ProjectName": "Rodriguez, Shields and Swift",
+    "Task": "natus",
+    "AssociateFullName": "Clarissa Vilma Jast PhD",
+    "ContactName": "Schamberger, O'Hara and Sawayn",
+    "Description": "Multi-layered regional capacity",
+    "PersonFullName": "Prof. Damian Bailee Nicolas",
+    "PersonId": 729,
+    "ContactId": 544,
+    "ProjectId": 155,
+    "ProjectName": "Hane-Swift",
     "IsPublished": false,
-    "AssociateId": 208,
-    "ColorIndex": 179,
+    "AssociateId": 17,
+    "ColorIndex": 84,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 165,
-    "PriorityName": "Adams-Windler",
+    "PriorityId": 55,
+    "PriorityName": "Nicolas, Pagac and Bins",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2010-04-21T12:15:17.9997661+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2009-05-01T15:29:20.7442895+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-07-30T12:15:17.9997661+02:00",
-    "RecurringEndDate": "1995-12-21T12:15:17.9997661+01:00",
-    "MotherId": 465,
-    "AssignedBy": 802,
-    "AssignedByFullName": "Miss Braulio Quinton Bernhard",
+    "RecurringStartDate": "2020-04-19T15:29:20.7442895+02:00",
+    "RecurringEndDate": "2014-05-31T15:29:20.7442895+02:00",
+    "MotherId": 695,
+    "AssignedBy": 363,
+    "AssignedByFullName": "Terrence Gleason",
     "RejectReason": "",
-    "Location": "id",
-    "AlarmLeadTime": "soluta",
-    "SaleId": 328,
-    "SaleName": "Welch Group",
-    "AssociateName": "Christiansen, Zemlak and Muller",
-    "CreatedDate": "2019-08-17T12:15:17.9997661+02:00",
-    "CreatedBy": "eveniet",
-    "CreatedByFullName": "Rafael Emmerich",
-    "CreatedByAssociateId": 478,
+    "Location": "et",
+    "AlarmLeadTime": "et",
+    "SaleId": 25,
+    "SaleName": "Hickle LLC",
+    "AssociateName": "Brekke Inc and Sons",
+    "CreatedDate": "2015-07-22T15:29:20.7447903+02:00",
+    "CreatedBy": "magnam",
+    "CreatedByFullName": "Zoey Jacinthe Langworth PhD",
+    "CreatedByAssociateId": 641,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 399
+        "FieldType": "System.String",
+        "FieldLength": 751
       }
     }
   }

@@ -61,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -75,16 +75,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "rerum",
   "Specification": null,
-  "DisplayValue": "dolorem",
-  "DisplayTooltip": "at",
+  "DisplayValue": "assumenda",
+  "DisplayTooltip": "non",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 404,
-  "PrefDescId": 925,
-  "TableName": "Bode LLC",
-  "UserPreferenceId": 6
+  "TargetId": 85,
+  "PrefDescId": 43,
+  "TableName": "Crist, Marks and Schinner",
+  "UserPreferenceId": 298
 }
 ```
 

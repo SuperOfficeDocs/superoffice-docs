@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 612,
-    "Name": "Pacocha-Price",
-    "ToolTip": "Maiores aspernatur temporibus nulla sapiente.",
-    "Deleted": true,
-    "Rank": 840,
-    "Type": "quaerat",
-    "ColorBlock": 242,
-    "IconHint": "repudiandae",
+    "Id": 465,
+    "Name": "Larkin, Halvorson and Price",
+    "ToolTip": "Voluptas totam nihil blanditiis necessitatibus adipisci unde tempora.",
+    "Deleted": false,
+    "Rank": 679,
+    "Type": "et",
+    "ColorBlock": 649,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2019-11-07T12:15:28.1746182+01:00",
+    "LastChanged": "2017-06-16T15:29:31.2884777+02:00",
     "ChildItems": [
       {
-        "Id": 448,
-        "Name": "Brekke Group",
-        "ToolTip": "Quo enim.",
+        "Id": 796,
+        "Name": "Nitzsche-Sanford",
+        "ToolTip": "Sed eos non vero rerum voluptatem.",
         "Deleted": false,
-        "Rank": 241,
-        "Type": "autem",
-        "ColorBlock": 941,
-        "IconHint": "nobis",
-        "Selected": true,
-        "LastChanged": "2014-01-21T12:15:28.1746182+01:00",
+        "Rank": 968,
+        "Type": "voluptas",
+        "ColorBlock": 288,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "1996-06-24T15:29:31.2884777+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Dr. Alexander Thomas Hintz"
+        "ExtraInfo": "dolorum",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Dovie Schumm"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Mr. Ova Deanna Rippin MD"
+    "ExtraInfo": "nihil",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Skyla Gutmann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Johnson Inc and Sons",
-    "ToolTip": "Quasi deserunt dolor est voluptas impedit.",
+    "Id": 350,
+    "Name": "Langworth, Mante and Howe",
+    "ToolTip": "Excepturi et possimus.",
     "Deleted": false,
-    "Rank": 768,
-    "Type": "alias",
-    "ColorBlock": 738,
-    "IconHint": "sit",
+    "Rank": 660,
+    "Type": "laboriosam",
+    "ColorBlock": 43,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2015-11-05T12:15:28.1766177+01:00",
+    "LastChanged": "2001-11-03T15:29:31.2899787+01:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Pollich, Robel and Thompson",
-        "ToolTip": "Dolorem atque libero impedit nostrum alias alias minus.",
+        "Id": 897,
+        "Name": "Padberg, Lang and Haley",
+        "ToolTip": "Quisquam temporibus vero et voluptatibus.",
         "Deleted": true,
-        "Rank": 402,
-        "Type": "et",
-        "ColorBlock": 151,
-        "IconHint": "doloribus",
+        "Rank": 77,
+        "Type": "praesentium",
+        "ColorBlock": 391,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2022-08-10T12:15:28.1766177+02:00",
+        "LastChanged": "2020-05-24T15:29:31.2899787+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Dorcas Hirthe",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Violet Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 540
+            "FieldLength": 825
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Mr. Carli Will",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Bradley Renner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 183
       }
     }
   }

@@ -70,8 +70,8 @@ OK
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Douglas-Koss",
-  "ParameterName": "Dickinson Group"
+  "LayoutName": "Raynor-Bahringer",
+  "ParameterName": "McCullough Group"
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 156,
-  "Name": "Rice-Cartwright",
-  "Value": "sint",
-  "CreatedDate": "2015-06-14T12:15:18.1887634+02:00",
-  "UpdatedDate": "2015-08-21T12:15:18.1887634+02:00",
-  "CreatedBy": "explicabo",
-  "UpdatedBy": "sit",
+  "AudienceLayoutId": 469,
+  "Name": "Abernathy Group",
+  "Value": "consequatur",
+  "CreatedDate": "2000-06-22T15:29:20.8072889+02:00",
+  "UpdatedDate": "2016-12-09T15:29:20.8072889+01:00",
+  "CreatedBy": "ad",
+  "UpdatedBy": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldLength": 95
     }
   }
 }

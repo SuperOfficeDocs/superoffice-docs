@@ -70,32 +70,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wiegand-Schumm",
+  "ProviderName": "Cummings-Batz",
   "Restrictions": [
     {
-      "Name": "Orn, Hayes and Dietrich",
-      "Operator": "ut",
+      "Name": "Runolfsson, Sauer and Johns",
+      "Operator": "ipsum",
       "Values": [
-        "vel",
-        "consectetur"
+        "dolor",
+        "ut"
       ],
       "DisplayValues": [
-        "quia",
-        "molestiae"
+        "omnis",
+        "voluptate"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 408,
+      "InterParenthesis": 419,
       "InterOperator": "And",
-      "UniqueHash": 466
+      "UniqueHash": 785
     }
   ]
 }
@@ -108,7 +108,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  763,
-  650
+  607,
+  449
 ]
 ```

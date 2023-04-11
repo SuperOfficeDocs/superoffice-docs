@@ -67,8 +67,8 @@ OK
 | ErpListItemMappings | array | Array of ErpConnectionListMapping |
 | ErpConnectionId | int32 | Primary key |
 | ErpConnectionName | string | The name of the erp connection |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 57
+  "ErpConnectionId": 173
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Jakubowski Group",
+      "ErpListName": "Adams-Schaden",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Jacobs, Hackett and Jakubowski",
-      "ErpFieldId": 215,
+      "ErpActorTypeName": "Luettgen-Wehner",
+      "ErpFieldId": 130,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 577
         }
       }
     }
   ],
-  "ErpConnectionId": 874,
-  "ErpConnectionName": "Bogan Inc and Sons",
+  "ErpConnectionId": 294,
+  "ErpConnectionName": "Gerhold-Bauch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldLength": 193
     }
   }
 }

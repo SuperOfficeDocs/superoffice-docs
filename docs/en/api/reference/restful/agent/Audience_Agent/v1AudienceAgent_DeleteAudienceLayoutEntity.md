@@ -24,7 +24,7 @@ Deletes the AudienceLayoutEntity
 | AudienceLayoutEntityId | int32 | **Required** The id of the AudienceLayoutEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=351
+POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity?AudienceLayoutEntityId=706
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Audience/DeleteAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

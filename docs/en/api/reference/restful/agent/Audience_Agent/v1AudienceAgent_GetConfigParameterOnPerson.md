@@ -70,8 +70,8 @@ OK
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Gorczany Group",
-  "PersonId": 435
+  "ParameterName": "Murazik, Roberts and Mueller",
+  "PersonId": 647
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 905,
-  "Name": "Kirlin LLC",
-  "Value": "voluptas",
-  "CreatedDate": "2022-03-16T12:15:18.1907665+01:00",
-  "UpdatedDate": "2000-08-31T12:15:18.1907665+02:00",
-  "CreatedBy": "ducimus",
-  "UpdatedBy": "molestias",
+  "AudienceLayoutId": 198,
+  "Name": "Reinger, Jewess and Schuppe",
+  "Value": "fugit",
+  "CreatedDate": "2010-11-11T15:29:20.8087886+01:00",
+  "UpdatedDate": "2012-09-06T15:29:20.8087886+02:00",
+  "CreatedBy": "harum",
+  "UpdatedBy": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldType": "System.Int32",
+      "FieldLength": 79
     }
   }
 }

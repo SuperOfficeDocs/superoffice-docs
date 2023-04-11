@@ -60,8 +60,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,23 +79,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 310,
-  "UniqueIdentifier": "libero",
-  "Name": "Klein-Moen",
-  "Description": "Adaptive multimedia system engine",
-  "IncludeId": "eveniet",
-  "HierarchyId": 509,
-  "Source": "cupiditate",
-  "Registered": "2009-10-21T12:15:18.6197571+02:00",
-  "RegisteredAssociateId": 405,
-  "Updated": "2013-07-03T12:15:18.6197571+02:00",
-  "UpdatedAssociateId": 473,
+  "EjscriptId": 346,
+  "UniqueIdentifier": "ab",
+  "Name": "Morar LLC",
+  "Description": "Inverse system-worthy installation",
+  "IncludeId": "similique",
+  "HierarchyId": 357,
+  "Source": "doloremque",
+  "Registered": "2012-07-18T15:29:21.2472825+02:00",
+  "RegisteredAssociateId": 38,
+  "Updated": "2010-01-30T15:29:21.2472825+01:00",
+  "UpdatedAssociateId": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 942
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

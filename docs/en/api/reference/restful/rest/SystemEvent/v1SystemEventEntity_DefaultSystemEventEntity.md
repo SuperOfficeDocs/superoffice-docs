@@ -56,8 +56,8 @@ OK
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -65,7 +65,7 @@ OK
 GET /api/v1/SystemEvent/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 163,
+  "SystemEventId": 776,
   "Scope": "Database",
-  "Eta": "2003-04-03T12:15:27.402629+02:00",
-  "Eventkey": "deserunt",
-  "Eventmess": "non",
-  "ExtraInfo": 285,
-  "Owner": 914,
-  "UpdatedCount": 704,
-  "Registered": "2004-11-29T12:15:27.402629+01:00",
+  "Eta": "2002-10-03T15:29:30.6274888+02:00",
+  "Eventkey": "dolorem",
+  "Eventmess": "corporis",
+  "ExtraInfo": 17,
+  "Owner": 817,
+  "UpdatedCount": 934,
+  "Registered": "2010-07-01T15:29:30.6274888+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 60
     }
   }
 }

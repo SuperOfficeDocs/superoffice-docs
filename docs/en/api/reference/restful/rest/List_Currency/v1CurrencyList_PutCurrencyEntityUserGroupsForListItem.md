@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Von-Cartwright",
-    "ToolTip": "Nisi labore soluta fuga quia.",
-    "Deleted": false,
-    "Rank": 54,
-    "Type": "quo",
-    "ColorBlock": 653,
-    "IconHint": "aut",
+    "Id": 645,
+    "Name": "Aufderhar, Bartell and Stark",
+    "ToolTip": "Molestiae repudiandae id ea sit at.",
+    "Deleted": true,
+    "Rank": 777,
+    "Type": "odit",
+    "ColorBlock": 179,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2001-10-22T12:15:28.0966191+02:00",
+    "LastChanged": "2012-05-20T15:29:31.2069829+02:00",
     "ChildItems": [
       {
-        "Id": 263,
-        "Name": "Jacobs LLC",
-        "ToolTip": "Deserunt voluptatum sint occaecati quis voluptatem.",
-        "Deleted": false,
-        "Rank": 342,
-        "Type": "non",
-        "ColorBlock": 98,
-        "IconHint": "eum",
+        "Id": 682,
+        "Name": "Steuber, Stracke and Harvey",
+        "ToolTip": "Nobis debitis eligendi soluta et.",
+        "Deleted": true,
+        "Rank": 779,
+        "Type": "et",
+        "ColorBlock": 917,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2017-02-08T12:15:28.0966191+01:00",
+        "LastChanged": "2003-08-02T15:29:31.2069829+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Rene Wisoky"
+        "ExtraInfo": "perferendis",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Candace Hills"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "officiis",
+    "ExtraInfo": "aut",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Prof. Tomasa Aniyah Hessel"
+    "FullName": "Audreanne White"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Stracke, Lowe and Hamill",
-    "ToolTip": "Neque perferendis unde accusamus.",
-    "Deleted": false,
-    "Rank": 865,
-    "Type": "assumenda",
-    "ColorBlock": 830,
-    "IconHint": "atque",
+    "Id": 912,
+    "Name": "Mayert Inc and Sons",
+    "ToolTip": "Et facere.",
+    "Deleted": true,
+    "Rank": 792,
+    "Type": "enim",
+    "ColorBlock": 932,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "1999-07-24T12:15:28.0986217+02:00",
+    "LastChanged": "2016-07-05T15:29:31.2099795+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Kunde LLC",
-        "ToolTip": "Eum suscipit aut eum nulla.",
-        "Deleted": true,
-        "Rank": 552,
-        "Type": "aliquid",
-        "ColorBlock": 138,
-        "IconHint": "similique",
-        "Selected": false,
-        "LastChanged": "2022-12-07T12:15:28.0986217+01:00",
+        "Id": 485,
+        "Name": "Tromp-Stroman",
+        "ToolTip": "Aut magni eaque sed eligendi officiis.",
+        "Deleted": false,
+        "Rank": 563,
+        "Type": "voluptates",
+        "ColorBlock": 136,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2015-05-19T15:29:31.2104792+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "qui",
+        "ExtraInfo": "ut",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Braden Bayer",
+        "FullName": "Kelton Gibson MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 994
+            "FieldType": "System.Int32",
+            "FieldLength": 450
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "consectetur",
-    "Hidden": false,
-    "FullName": "Vern Fernando Renner V",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "officia",
+    "Hidden": true,
+    "FullName": "Cordell Ritchie DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

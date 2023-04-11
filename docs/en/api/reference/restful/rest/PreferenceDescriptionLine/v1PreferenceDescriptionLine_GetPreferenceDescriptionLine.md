@@ -67,8 +67,8 @@ PreferenceDescriptionLine found.
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -87,18 +87,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 57,
-  "PrefDescId": 404,
-  "PrefValue": "occaecati",
-  "PrefShowValue": "earum",
-  "Description": "Object-based human-resource Graphical User Interface",
+  "PrefDescLineId": 767,
+  "PrefDescId": 628,
+  "PrefValue": "modi",
+  "PrefShowValue": "numquam",
+  "Description": "Optimized 24/7 algorithm",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 505
     }
   },
   "_Links": {

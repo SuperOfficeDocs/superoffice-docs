@@ -71,8 +71,8 @@ OK
 | Response | string | The JSON-formatted response from this form |
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,20 +80,20 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 590,
-  "FormId": 76,
-  "WhenSubmitted": "2020-01-28T12:15:19.364746+01:00",
-  "ContactId": 952,
-  "PersonId": 233,
-  "EmailAddress": "elda_klein@spencer.co.uk",
-  "ResponseShipmentAddrId": 1002,
-  "Response": "enim",
+  "FormSubmissionId": 632,
+  "FormId": 302,
+  "WhenSubmitted": "2008-03-05T15:29:22.126271+01:00",
+  "ContactId": 859,
+  "PersonId": 866,
+  "EmailAddress": "rowan_haley@schuster.co.uk",
+  "ResponseShipmentAddrId": 181,
+  "Response": "error",
   "Status": "EmailVerification",
-  "ProcessingLog": "molestias"
+  "ProcessingLog": "maiores"
 }
 ```
 
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 666,
-  "FormId": 903,
-  "WhenSubmitted": "2005-08-27T12:15:19.3657465+02:00",
-  "ContactId": 171,
-  "PersonId": 352,
-  "EmailAddress": "cordia@lehnersauer.name",
-  "ResponseShipmentAddrId": 540,
-  "Response": "dolores",
+  "FormSubmissionId": 285,
+  "FormId": 628,
+  "WhenSubmitted": "1996-03-29T15:29:22.1267701+01:00",
+  "ContactId": 693,
+  "PersonId": 790,
+  "EmailAddress": "eileen@harris.com",
+  "ResponseShipmentAddrId": 874,
+  "Response": "dolorem",
   "Status": "EmailVerification",
-  "ProcessingLog": "voluptatibus",
+  "ProcessingLog": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 927
     }
   }
 }

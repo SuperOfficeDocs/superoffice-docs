@@ -25,7 +25,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=322
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=253
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -100,8 +100,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "velit",
+  "SaleText": "provident",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -134,113 +134,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-07-09T12:15:20.0807356+02:00",
-  "Amount": 21026.005999999998,
-  "SaleId": 254,
-  "Earning": 27178.048,
-  "EarningPercent": 4049.1279999999997,
-  "Heading": "ut",
-  "Number": "484515",
-  "Probability": 983,
-  "CreatedDate": "2018-11-06T12:15:20.0807356+01:00",
-  "UpdatedDate": "2000-03-12T12:15:20.0807356+01:00",
+  "Saledate": "1999-07-20T15:29:22.7017986+02:00",
+  "Amount": 11642.81,
+  "SaleId": 813,
+  "Earning": 28682.368,
+  "EarningPercent": 13347.706,
+  "Heading": "eius",
+  "Number": "787562",
+  "Probability": 174,
+  "CreatedDate": "2005-02-09T15:29:22.7017986+01:00",
+  "UpdatedDate": "2008-06-11T15:29:22.7017986+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 825,
+  "ActiveLinks": 192,
   "Links": [
     {
-      "EntityName": "Powlowski Group",
-      "Id": 999,
-      "Description": "Synergized global info-mediaries",
-      "ExtraInfo": "at",
-      "LinkId": 173,
+      "EntityName": "Block, Wiza and Schoen",
+      "Id": 32,
+      "Description": "Pre-emptive object-oriented workforce",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 467,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
   ],
-  "NextDueDate": "2016-03-22T12:15:20.0807356+01:00",
-  "Postit": "praesentium",
+  "NextDueDate": "2016-09-02T15:29:22.7023006+02:00",
+  "Postit": "ratione",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-11-06T12:15:20.0807356+01:00",
+  "ReopenDate": "2017-10-02T15:29:22.7023006+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "D'Amore, Rutherford and Botsford",
-      "Comment": "molestias",
-      "StakeholderRoleId": 401,
-      "CountryId": 890,
-      "PersonId": 868,
-      "EmailDescription": "maribel@renner.name",
-      "EmailId": 584,
-      "EmailAddress": "leon.orn@spencer.biz",
-      "PhoneId": 318,
-      "ContactName": "Okuneva-Veum",
-      "ContactId": 655,
-      "SaleId": 628,
-      "Mrmrs": "qui",
-      "Firstname": "Reva",
-      "MiddleName": "Runolfsdottir Inc and Sons",
-      "Lastname": "Gorczany",
-      "SaleStakeholderId": 68,
-      "Rank": 721,
-      "Phone": "752.621.4899",
+      "StakeholderRoleName": "Green, Denesik and Shields",
+      "Comment": "dolor",
+      "StakeholderRoleId": 776,
+      "CountryId": 732,
+      "PersonId": 476,
+      "EmailDescription": "kamille@hegmann.name",
+      "EmailId": 903,
+      "EmailAddress": "eldred_oreilly@oreillylubowitz.info",
+      "PhoneId": 829,
+      "ContactName": "Douglas Group",
+      "ContactId": 37,
+      "SaleId": 503,
+      "Mrmrs": "debitis",
+      "Firstname": "Braulio",
+      "MiddleName": "Jaskolski, Howe and Schmidt",
+      "Lastname": "Rodriguez",
+      "SaleStakeholderId": 977,
+      "Rank": 463,
+      "Phone": "840-861-3560",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 517
+          "FieldLength": 419
         }
       }
     }
   ],
-  "ActiveErpLinks": 759,
+  "ActiveErpLinks": 584,
   "UserDefinedFields": {
-    "SuperOffice:1": "562330082",
-    "SuperOffice:2": "Dagmar Prosacco"
+    "SuperOffice:1": "293131512",
+    "SuperOffice:2": "Lonny Kuhlman"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "consequuntur"
   },
-  "PublishEventDate": "2020-03-04T12:15:20.0827358+01:00",
-  "PublishTo": "1997-09-09T12:15:20.0827358+02:00",
-  "PublishFrom": "2013-08-01T12:15:20.0827358+02:00",
+  "PublishEventDate": "1999-02-27T15:29:22.7032982+01:00",
+  "PublishTo": "2000-11-15T15:29:22.7032982+01:00",
+  "PublishFrom": "2020-05-29T15:29:22.7032982+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 588,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 602
         }
       }
     },
     {
-      "VisibleId": 588,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "aspernatur",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 602
         }
       }
     }
@@ -250,7 +250,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldLength": 319
     }
   }
 }

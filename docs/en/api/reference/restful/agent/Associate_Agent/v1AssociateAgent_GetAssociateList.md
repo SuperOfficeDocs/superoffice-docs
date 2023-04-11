@@ -71,8 +71,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,24 +91,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 222,
-    "Name": "Satterfield Inc and Sons",
-    "PersonId": 898,
-    "Rank": 181,
-    "Tooltip": "suscipit",
+    "AssociateId": 354,
+    "Name": "Botsford-Beier",
+    "PersonId": 428,
+    "Rank": 157,
+    "Tooltip": "dolorum",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 824,
-    "FullName": "Lacey Justyn Bartoletti Jr.",
-    "FormalName": "Prosacco-Kshlerin",
+    "GroupIdx": 403,
+    "FullName": "Dennis Wilkinson",
+    "FormalName": "Thompson LLC",
     "Deleted": false,
-    "EjUserId": 407,
-    "UserName": "Sanford Group",
+    "EjUserId": 304,
+    "UserName": "Barton Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 275
       }
     }
   }

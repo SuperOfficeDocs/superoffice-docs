@@ -69,8 +69,8 @@ OK
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
 | CreatedBy | Associate | Name of the person that created the Audience layout |
 | UpdatedBy | Associate | Name of the person that last updated the Audience layout |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Cole-Kertzmann"
+  "LayoutName": "Pfeffer LLC"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 295,
-  "InstanceLayout": "ipsa",
-  "InstanceName": "Toy Inc and Sons",
-  "CreatedDate": "2005-07-16T12:15:18.1957625+02:00",
-  "UpdatedDate": "1996-12-14T12:15:18.1957625+01:00",
+  "AudienceLayoutId": 526,
+  "InstanceLayout": "quibusdam",
+  "InstanceName": "Thompson, D'Amore and Okuneva",
+  "CreatedDate": "2023-02-10T15:29:20.8137888+01:00",
+  "UpdatedDate": "2000-05-20T15:29:20.8137888+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 135
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   }
 }

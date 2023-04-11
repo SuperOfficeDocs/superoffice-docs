@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Pfeffer Inc and Sons",
-    "ToolTip": "Reiciendis delectus consequatur eius nam non eos a.",
-    "Deleted": false,
-    "Rank": 855,
-    "Type": "inventore",
-    "ColorBlock": 122,
-    "IconHint": "ea",
+    "Id": 198,
+    "Name": "Parisian-Crooks",
+    "ToolTip": "Quos ipsam veniam quis.",
+    "Deleted": true,
+    "Rank": 866,
+    "Type": "sequi",
+    "ColorBlock": 622,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "1998-06-22T12:15:28.2086177+02:00",
+    "LastChanged": "2007-03-02T15:29:31.3254779+01:00",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Becker-Bartoletti",
-        "ToolTip": "Sit aut molestiae ducimus optio.",
+        "Id": 527,
+        "Name": "Blanda-Douglas",
+        "ToolTip": "Sit incidunt laboriosam eius sit sed.",
         "Deleted": false,
-        "Rank": 886,
-        "Type": "distinctio",
-        "ColorBlock": 207,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "1996-08-16T12:15:28.2086177+02:00",
+        "Rank": 810,
+        "Type": "et",
+        "ColorBlock": 336,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2016-03-24T15:29:31.3254779+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Adolf Nader"
+        "ExtraInfo": "vitae",
+        "StyleHint": "quaerat",
+        "Hidden": true,
+        "FullName": "Ms. Melyna Pollich DVM"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "modi",
+    "ExtraInfo": "officia",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Virgil Jones V"
+    "FullName": "Ms. Oliver Clifford Beatty DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Farrell Inc and Sons",
-    "ToolTip": "Architecto harum.",
+    "Id": 741,
+    "Name": "Dooley, Runte and Denesik",
+    "ToolTip": "Occaecati natus aliquam et omnis voluptas.",
     "Deleted": false,
-    "Rank": 246,
-    "Type": "deleniti",
-    "ColorBlock": 358,
-    "IconHint": "culpa",
-    "Selected": true,
-    "LastChanged": "2001-10-27T12:15:28.2106198+02:00",
+    "Rank": 742,
+    "Type": "quia",
+    "ColorBlock": 252,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2007-07-16T15:29:31.3269781+02:00",
     "ChildItems": [
       {
-        "Id": 669,
-        "Name": "Fadel-Dach",
-        "ToolTip": "Aliquid excepturi cum.",
+        "Id": 206,
+        "Name": "Huel-Sanford",
+        "ToolTip": "Non consequatur.",
         "Deleted": false,
-        "Rank": 309,
-        "Type": "delectus",
-        "ColorBlock": 551,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2002-04-11T12:15:28.2106198+02:00",
+        "Rank": 910,
+        "Type": "consequuntur",
+        "ColorBlock": 144,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2006-08-11T15:29:31.3269781+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "vel",
+        "ExtraInfo": "sint",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mr. Arnoldo Schuyler Schulist MD",
+        "FullName": "Vivian Windler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldType": "System.String",
+            "FieldLength": 71
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Ms. Cordia Dante Parisian",
+    "ExtraInfo": "et",
+    "StyleHint": "at",
+    "Hidden": false,
+    "FullName": "Ocie Cicero Ortiz MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldLength": 825
       }
     }
   }

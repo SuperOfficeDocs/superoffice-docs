@@ -85,7 +85,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,26 +95,26 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 352,
-  "Name": "Braun, Mayer and Raynor",
+  "WebhookId": 537,
+  "Name": "Stiedemann-Reichel",
   "Events": [
-    "unde",
-    "iure"
+    "dolorem",
+    "autem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "velit",
+  "Secret": "pariatur",
   "State": "Active",
-  "Type": "ea",
+  "Type": "sequi",
   "Headers": {
-    "Headers1": "non",
-    "Headers2": "et"
+    "Headers1": "eos",
+    "Headers2": "sunt"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-04-23T12:15:27.8126213+02:00",
+  "Registered": "1998-09-07T15:29:31.0194818+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-10-14T12:15:27.8136231+02:00",
+  "Updated": "2006-05-13T15:29:31.019948+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",

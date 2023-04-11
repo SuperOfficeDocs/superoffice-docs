@@ -68,8 +68,8 @@ OK
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Weber-Ratke",
-      "Description": "Fully-configurable modular productivity",
+      "Name": "Sanford LLC",
+      "Description": "Advanced mobile success",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Weber-Ratke",
-      "Description": "Fully-configurable modular productivity",
+      "Name": "Sanford LLC",
+      "Description": "Advanced mobile success",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,56 +118,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wisoky, Morissette and Ernser",
-    "Description": "Organic composite approach",
+    "Name": "Pacocha, O'Kon and Lebsack",
+    "Description": "Reverse-engineered discrete local area network",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 182,
-        "Tooltip": "ratione",
-        "CanAssign": false,
-        "Free": 420,
-        "InUse": 252,
-        "IsHidden": true,
+        "Total": 163,
+        "Tooltip": "occaecati",
+        "CanAssign": true,
+        "Free": 723,
+        "InUse": 129,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 183,
-        "Name": "Jewess Group",
-        "Description": "Assimilated actuating system engine",
-        "PrerequisiteModuleName": "Luettgen Inc and Sons",
-        "SortOrder": 717,
-        "ExtraFlags": 733,
+        "ModuleLicenseId": 310,
+        "Name": "Conroy, Metz and Weissnat",
+        "Description": "Switchable human-resource info-mediaries",
+        "PrerequisiteModuleName": "Adams, Veum and Smith",
+        "SortOrder": 304,
+        "ExtraFlags": 432,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldType": "System.String",
+            "FieldLength": 371
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 602,
-        "Tooltip": "blanditiis",
-        "CanAssign": false,
-        "Free": 141,
-        "InUse": 297,
+        "Unrestricted": true,
+        "Total": 882,
+        "Tooltip": "impedit",
+        "CanAssign": true,
+        "Free": 942,
+        "InUse": 600,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 783,
-        "Name": "Upton-Doyle",
-        "Description": "Right-sized client-server interface",
-        "PrerequisiteModuleName": "Streich-White",
-        "SortOrder": 518,
-        "ExtraFlags": 570,
+        "ModuleLicenseId": 987,
+        "Name": "Schimmel, Deckow and Gibson",
+        "Description": "Ameliorated 3rd generation knowledge user",
+        "PrerequisiteModuleName": "Rice, Goldner and Beahan",
+        "SortOrder": 259,
+        "ExtraFlags": 418,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 853
           }
         }
       }
@@ -177,61 +177,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 644
       }
     }
   },
   {
-    "Name": "Wisoky, Morissette and Ernser",
-    "Description": "Organic composite approach",
+    "Name": "Pacocha, O'Kon and Lebsack",
+    "Description": "Reverse-engineered discrete local area network",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 182,
-        "Tooltip": "ratione",
-        "CanAssign": false,
-        "Free": 420,
-        "InUse": 252,
-        "IsHidden": true,
+        "Total": 163,
+        "Tooltip": "occaecati",
+        "CanAssign": true,
+        "Free": 723,
+        "InUse": 129,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 183,
-        "Name": "Jewess Group",
-        "Description": "Assimilated actuating system engine",
-        "PrerequisiteModuleName": "Luettgen Inc and Sons",
-        "SortOrder": 717,
-        "ExtraFlags": 733,
+        "ModuleLicenseId": 310,
+        "Name": "Conroy, Metz and Weissnat",
+        "Description": "Switchable human-resource info-mediaries",
+        "PrerequisiteModuleName": "Adams, Veum and Smith",
+        "SortOrder": 304,
+        "ExtraFlags": 432,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldType": "System.String",
+            "FieldLength": 371
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 602,
-        "Tooltip": "blanditiis",
-        "CanAssign": false,
-        "Free": 141,
-        "InUse": 297,
+        "Unrestricted": true,
+        "Total": 882,
+        "Tooltip": "impedit",
+        "CanAssign": true,
+        "Free": 942,
+        "InUse": 600,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 783,
-        "Name": "Upton-Doyle",
-        "Description": "Right-sized client-server interface",
-        "PrerequisiteModuleName": "Streich-White",
-        "SortOrder": 518,
-        "ExtraFlags": 570,
+        "ModuleLicenseId": 987,
+        "Name": "Schimmel, Deckow and Gibson",
+        "Description": "Ameliorated 3rd generation knowledge user",
+        "PrerequisiteModuleName": "Rice, Goldner and Beahan",
+        "SortOrder": 259,
+        "ExtraFlags": 418,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 853
           }
         }
       }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 779
+        "FieldLength": 644
       }
     }
   }

@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Kovacek Group",
-    "ToolTip": "Id fugiat perferendis dolore voluptas id laborum.",
-    "Deleted": true,
-    "Rank": 264,
-    "Type": "quas",
-    "ColorBlock": 836,
-    "IconHint": "minus",
+    "Id": 602,
+    "Name": "Towne-Abbott",
+    "ToolTip": "Ipsam sint laboriosam nemo.",
+    "Deleted": false,
+    "Rank": 622,
+    "Type": "labore",
+    "ColorBlock": 569,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "1999-11-21T12:15:28.1556184+01:00",
+    "LastChanged": "2011-10-22T15:29:31.2679851+02:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Pagac, Rice and Pagac",
-        "ToolTip": "Aut nobis veritatis est amet.",
-        "Deleted": true,
-        "Rank": 289,
-        "Type": "enim",
-        "ColorBlock": 282,
-        "IconHint": "qui",
+        "Id": 884,
+        "Name": "Witting, Murray and Weissnat",
+        "ToolTip": "Omnis omnis et quis corporis animi.",
+        "Deleted": false,
+        "Rank": 669,
+        "Type": "minima",
+        "ColorBlock": 651,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2001-12-13T12:15:28.1566184+01:00",
+        "LastChanged": "2010-03-25T15:29:31.268478+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "ab",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Oran Mitchell",
+        "FullName": "Britney Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 495
+            "FieldType": "System.String",
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Miss Emiliano Jaycee Johnson",
+    "ExtraInfo": "alias",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Thelma Gislason DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 937
       }
     }
   }

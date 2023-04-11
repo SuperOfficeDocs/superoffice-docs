@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 933
+  "PersonId": 105
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 667,
-  "BlobSize": 651,
-  "Description": "Inverse mission-critical software",
-  "ExtraInfo": "vel",
+  "BlobId": 215,
+  "BlobSize": 808,
+  "Description": "Implemented cohesive project",
+  "ExtraInfo": "nam",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "consectetur",
-  "OriginalSize": 953,
-  "CreatedDate": "2008-01-14T12:15:18.2257656+01:00",
-  "UpdatedDate": "2001-04-08T12:15:18.2257656+02:00",
+  "MimeType": "aliquam",
+  "OriginalSize": 803,
+  "CreatedDate": "1999-08-20T15:29:20.8437881+02:00",
+  "UpdatedDate": "2005-07-23T15:29:20.8437881+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "id",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 397
     }
   }
 }

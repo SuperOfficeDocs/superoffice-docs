@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Heidenreich, Mayer and McClure",
-    "ToolTip": "Qui laborum delectus excepturi quia recusandae quis ducimus.",
+    "Id": 389,
+    "Name": "Fahey-Kirlin",
+    "ToolTip": "Omnis reiciendis architecto consequuntur.",
     "Deleted": false,
-    "Rank": 914,
-    "Type": "saepe",
-    "ColorBlock": 248,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "2007-06-18T12:15:27.8896127+02:00",
+    "Rank": 77,
+    "Type": "facilis",
+    "ColorBlock": 599,
+    "IconHint": "tenetur",
+    "Selected": true,
+    "LastChanged": "1996-08-24T15:29:31.0999807+02:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Robel LLC",
-        "ToolTip": "Quia temporibus.",
+        "Id": 421,
+        "Name": "Schumm-Rutherford",
+        "ToolTip": "Tempore doloribus dolor.",
         "Deleted": true,
-        "Rank": 617,
-        "Type": "quis",
-        "ColorBlock": 367,
-        "IconHint": "debitis",
+        "Rank": 320,
+        "Type": "dolor",
+        "ColorBlock": 799,
+        "IconHint": "voluptatum",
         "Selected": true,
-        "LastChanged": "2008-12-12T12:15:27.8896127+01:00",
+        "LastChanged": "2018-11-01T15:29:31.0999807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Adelia Bins",
+        "ExtraInfo": "non",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Jarvis Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 657
+            "FieldType": "System.Int32",
+            "FieldLength": 946
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Mrs. Paolo Broderick Hermiston Jr.",
+    "ExtraInfo": "repellat",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Theo Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldType": "System.Int32",
+        "FieldLength": 886
       }
     }
   }

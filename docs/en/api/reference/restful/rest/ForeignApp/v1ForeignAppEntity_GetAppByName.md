@@ -55,8 +55,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,32 +72,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 03 Aug 2003 12:15:26 G8T
+Last-Modified: Thu, 08 Dec 2022 15:29:29 G12T
 
 {
-  "ForeignAppId": 850,
-  "Name": "Kulas, Rempel and Rath",
-  "CreatedDate": "2017-09-07T12:15:26.9696358+02:00",
-  "UpdatedDate": "2003-08-03T12:15:26.9696358+02:00",
+  "ForeignAppId": 469,
+  "Name": "Douglas Group",
+  "CreatedDate": "2021-08-08T15:29:29.7681982+02:00",
+  "UpdatedDate": "2022-12-08T15:29:29.7681982+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 82,
-      "Name": "Yost LLC",
-      "CreatedDate": "1996-03-07T12:15:26.9706352+01:00",
-      "UpdatedDate": "2021-06-14T12:15:26.9706352+02:00",
-      "AssociateFullName": "Mr. Cory Grant",
-      "CreatedBy": "laudantium",
-      "UpdatedBy": "commodi",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 361,
+      "ForeignDeviceId": 114,
+      "Name": "Yost-Volkman",
+      "CreatedDate": "2011-07-04T15:29:29.7701984+02:00",
+      "UpdatedDate": "2015-07-29T15:29:29.7701984+02:00",
+      "AssociateFullName": "Tate Greenfelder",
+      "CreatedBy": "incidunt",
+      "UpdatedBy": "ex",
+      "DeviceIdentifier": "at",
+      "ForeignAppId": 435,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 671
         }
       }
     }
@@ -107,7 +107,7 @@ Last-Modified: Sun, 03 Aug 2003 12:15:26 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldLength": 396
     }
   }
 }

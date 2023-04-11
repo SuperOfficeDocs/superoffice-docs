@@ -69,8 +69,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Watsica-O'Hara",
+  "Name": "Goyette, Rutherford and Ziemann",
   "Entity": null
 }
 ```
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 312,
-  "Name": "Morar, Mitchell and Torp",
-  "Tooltip": "eum",
+  "HeadingId": 337,
+  "Name": "Stark-Raynor",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 682,
-  "UdListDefinitionId": 130,
+  "Rank": 261,
+  "UdListDefinitionId": 114,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldType": "System.String",
+      "FieldLength": 960
     }
   }
 }

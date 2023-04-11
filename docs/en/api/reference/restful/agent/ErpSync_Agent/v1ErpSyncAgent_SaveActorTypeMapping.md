@@ -69,8 +69,8 @@ OK
 | FieldMappings | array | Array of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync |
 | ActorTypeErp | string | The actor type (ERP side) |
 | ActorTypeCrm | string | The actor type (CRM side) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 471,
-  "IsActive": true,
+  "ErpConnectionId": 47,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 416,
-      "CrmFieldKey": "temporibus",
-      "CrmDisplayName": "Sipes LLC",
-      "CrmDisplayTooltip": "maiores",
-      "ErpFieldKey": "fuga",
+      "ErpFieldId": 95,
+      "CrmFieldKey": "ullam",
+      "CrmDisplayName": "Conroy, Herman and Labadie",
+      "CrmDisplayTooltip": "et",
+      "ErpFieldKey": "non",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Wiza, Daniel and Grimes",
-      "ErpDisplayTooltip": "quibusdam",
+      "ErpDisplayName": "Hodkiewicz-Hirthe",
+      "ErpDisplayTooltip": "omnis",
       "SyncToCrm": false,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": true,
-      "AlreadyMapped": true,
+      "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "voluptas",
+      "ListReference": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 358
+          "FieldType": "System.Int32",
+          "FieldLength": 34
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

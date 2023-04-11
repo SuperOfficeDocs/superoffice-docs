@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,15 +97,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 188,
-  "StartTime": "2020-05-25T12:15:18.7177551+02:00",
-  "EndTime": "2012-05-20T12:15:18.7177551+02:00",
-  "Count": 377,
-  "DocumentTemplateId": 760
+  "PersonId": 442,
+  "StartTime": "2001-02-02T15:29:21.4787801+01:00",
+  "EndTime": "2012-03-10T15:29:21.4787801+01:00",
+  "Count": 227,
+  "DocumentTemplateId": 6
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 22,
-    "Attention": "omnis",
-    "Header": "et",
-    "Name": "Schiller Group",
-    "OurRef": "qui",
-    "YourRef": "sequi",
-    "Description": "Reverse-engineered fresh-thinking adapter",
-    "DocumentTemplate": "doloremque",
-    "IsPublished": true,
-    "PersonId": 507,
-    "PersonFullName": "Miracle Kuhn",
-    "AssociateFullName": "Mrs. Colby Towne I",
-    "ContactId": 716,
-    "ContactName": "Keeling, Beier and Kshlerin",
-    "ProjectId": 139,
-    "ProjectName": "Nolan-Goyette",
-    "AssociateId": 800,
-    "Snum": 779,
-    "SaleId": 232,
-    "SaleName": "Dicki, McCullough and Volkman",
+    "DocumentId": 402,
+    "Attention": "voluptas",
+    "Header": "aut",
+    "Name": "Stoltenberg-Marvin",
+    "OurRef": "iste",
+    "YourRef": "fuga",
+    "Description": "Realigned analyzing superstructure",
+    "DocumentTemplate": "est",
+    "IsPublished": false,
+    "PersonId": 496,
+    "PersonFullName": "Kassandra Aufderhar Sr.",
+    "AssociateFullName": "Prof. Hortense Cole V",
+    "ContactId": 309,
+    "ContactName": "Nader-Goodwin",
+    "ProjectId": 214,
+    "ProjectName": "Gerhold Inc and Sons",
+    "AssociateId": 606,
+    "Snum": 417,
+    "SaleId": 402,
+    "SaleName": "Wuckert-Kub",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldLength": 292
       }
     }
   }

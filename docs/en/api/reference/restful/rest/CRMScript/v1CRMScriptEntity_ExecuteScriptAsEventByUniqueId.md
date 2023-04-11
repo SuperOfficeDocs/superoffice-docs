@@ -78,8 +78,8 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,20 +93,20 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quia",
-    "InputValues2": "rem"
+    "InputValues1": "possimus",
+    "InputValues2": "culpa"
   },
   "BlockExecution": false,
-  "NavigateTo": "voluptas",
-  "Message": "et",
-  "ShowDialog": "et",
+  "NavigateTo": "voluptatum",
+  "Message": "aperiam",
+  "ShowDialog": "soluta",
   "OutputValues": {
-    "OutputValues1": "ut",
-    "OutputValues2": "ut"
+    "OutputValues1": "porro",
+    "OutputValues2": "quis"
   },
   "StateValues": {
-    "StateValues1": "omnis",
-    "StateValues2": "iusto"
+    "StateValues1": "minus",
+    "StateValues2": "aut"
   },
   "Exception": "omnis"
 }
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "explicabo",
-    "InputValues2": "autem"
+    "InputValues1": "modi",
+    "InputValues2": "quos"
   },
-  "BlockExecution": true,
-  "NavigateTo": "sapiente",
-  "Message": "sequi",
-  "ShowDialog": "quia",
+  "BlockExecution": false,
+  "NavigateTo": "dolor",
+  "Message": "est",
+  "ShowDialog": "aliquid",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "enim"
+    "OutputValues1": "sequi",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "aut",
-    "StateValues2": "qui"
+    "StateValues1": "quibusdam",
+    "StateValues2": "aut"
   },
-  "Exception": "molestiae",
+  "Exception": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldType": "System.String",
+      "FieldLength": 909
     }
   }
 }

@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,155 +116,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 757,
-      "ContactName": "Crist-Grimes",
-      "PersonId": 588,
-      "PersonName": "Schinner LLC",
-      "AssociateId": 483,
-      "Address": "atque",
-      "EmailId": 904,
+      "ContactId": 358,
+      "ContactName": "Lemke, Torphy and Bradtke",
+      "PersonId": 475,
+      "PersonName": "Goodwin Inc and Sons",
+      "AssociateId": 86,
+      "Address": "et",
+      "EmailId": 465,
       "DuplicatePersonIds": [
-        530,
-        38
+        226,
+        347
       ],
-      "Name": "Spinka Inc and Sons",
+      "Name": "Cassin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldLength": 873
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 6,
-      "ContactName": "Raynor LLC",
-      "PersonId": 7,
-      "PersonName": "Wintheiser-Jacobs",
-      "AssociateId": 184,
-      "Address": "corporis",
-      "EmailId": 837,
+      "ContactId": 568,
+      "ContactName": "Braun, Brekke and Ferry",
+      "PersonId": 581,
+      "PersonName": "West, Strosin and Keebler",
+      "AssociateId": 972,
+      "Address": "dignissimos",
+      "EmailId": 649,
       "DuplicatePersonIds": [
-        759,
-        722
+        314,
+        236
       ],
-      "Name": "O'Hara, Denesik and Hirthe",
+      "Name": "Zboncak, Schowalter and Feest",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 202
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 718,
-      "ContactName": "Nienow LLC",
-      "PersonId": 814,
-      "PersonName": "Von Inc and Sons",
-      "AssociateId": 249,
-      "Address": "rerum",
-      "EmailId": 761,
+      "ContactId": 991,
+      "ContactName": "Brakus, Pacocha and Kemmer",
+      "PersonId": 422,
+      "PersonName": "Hegmann LLC",
+      "AssociateId": 634,
+      "Address": "laboriosam",
+      "EmailId": 146,
       "DuplicatePersonIds": [
-        27,
-        791
+        72,
+        309
       ],
-      "Name": "Hauck LLC",
+      "Name": "Skiles LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 803
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "consequuntur",
+  "Subject": "at",
+  "HTMLBody": "dolor",
   "From": null,
-  "Sent": "2014-03-23T12:15:19.0437533+01:00",
-  "Size": 472,
+  "Sent": "2001-09-07T15:29:21.8067757+02:00",
+  "Size": 229,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "esse",
-  "PlainBody": "minima",
-  "IsSent": false,
+  "MessageID": "expedita",
+  "PlainBody": "dolores",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 800,
+  "ServerId": 256,
   "Attachments": [
     {
-      "Description": "Visionary regional encryption",
-      "Filename": "eum",
-      "Size": 666,
-      "Type": "molestiae",
-      "Encoding": "qui",
-      "Id": "voluptate",
-      "Disposition": "sed",
+      "Description": "Future-proofed bifurcated attitude",
+      "Filename": "qui",
+      "Size": 30,
+      "Type": "nisi",
+      "Encoding": "et",
+      "Id": "nihil",
+      "Disposition": "non",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 355
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bartell, Lindgren and Parisian",
+      "Name": "Wisoky, Mueller and Hackett",
       "Values": [
-        "in",
-        "earum"
+        "at",
+        "perspiciatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     },
     {
-      "Name": "Bartell, Lindgren and Parisian",
+      "Name": "Wisoky, Mueller and Hackett",
       "Values": [
-        "in",
-        "earum"
+        "at",
+        "perspiciatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     }
   ],
-  "FolderName": "Haley LLC",
-  "EmailItemId": 741,
-  "AccountId": 850,
-  "ReceivedAt": "2013-02-27T12:15:19.0437533+01:00",
+  "FolderName": "Jenkins LLC",
+  "EmailItemId": 381,
+  "AccountId": 537,
+  "ReceivedAt": "2017-04-08T15:29:21.8072754+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-11-24T12:15:19.0437533+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2013-03-10T15:29:21.8072754+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 619
     }
   }
 }

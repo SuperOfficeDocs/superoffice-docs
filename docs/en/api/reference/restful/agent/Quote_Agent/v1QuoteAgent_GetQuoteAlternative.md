@@ -25,7 +25,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=629
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=965
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -79,8 +79,8 @@ OK
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,35 +98,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 21,
-  "ERPQuoteAlternativeKey": "molestiae",
-  "QuoteVersionId": 543,
-  "Name": "Mraz LLC",
-  "Description": "Configurable clear-thinking paradigm",
+  "QuoteAlternativeId": 621,
+  "ERPQuoteAlternativeKey": "voluptatum",
+  "QuoteVersionId": 121,
+  "Name": "Romaguera, Lueilwitz and Turcotte",
+  "Description": "Balanced global conglomeration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 25034.392,
-  "ERPDiscountAmount": 8759.5299999999988,
-  "DiscountPercent": 7270.88,
-  "DiscountAmount": 21615.198,
+  "ERPDiscountPercent": 31255.381999999998,
+  "ERPDiscountAmount": 30330.852,
+  "DiscountPercent": 10505.168,
+  "DiscountAmount": 1413.434,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quibusdam",
-  "VAT": 25545.234,
-  "EarningPercent": 6026.682,
-  "EarningAmount": 13817.805999999999,
-  "SubTotal": 438.76,
-  "TotalPrice": 8546.418,
-  "ExtraField1": "animi",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "quia",
-  "ExtraField4": "recusandae",
-  "ExtraField5": "officiis",
+  "VATInfo": "dicta",
+  "VAT": 27967.816,
+  "EarningPercent": 18045.572,
+  "EarningAmount": 8217.348,
+  "SubTotal": 8355.244,
+  "TotalPrice": 5713.282,
+  "ExtraField1": "voluptas",
+  "ExtraField2": "dolores",
+  "ExtraField3": "doloribus",
+  "ExtraField4": "sint",
+  "ExtraField5": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

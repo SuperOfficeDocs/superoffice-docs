@@ -111,8 +111,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -124,7 +124,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 164
+  "ProjectId": 880
 }
 ```
 
@@ -135,61 +135,61 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 109,
-  "StartDate": "2008-10-19T12:15:19.8417386+02:00",
-  "EndDate": "2003-09-04T12:15:19.8417386+02:00",
+  "AppointmentId": 568,
+  "StartDate": "2007-07-22T15:29:22.4668012+02:00",
+  "EndDate": "1996-05-13T15:29:22.4668012+02:00",
   "Type": "BookingForChecklist",
-  "Task": "natus",
-  "AssociateFullName": "Mr. Emilia Reinger MD",
-  "ContactName": "West LLC",
-  "Description": "Managed responsive structure",
-  "PersonFullName": "Ms. Mckenna Mills",
-  "PersonId": 906,
-  "ContactId": 46,
-  "ProjectId": 746,
-  "ProjectName": "Runolfsdottir Group",
+  "Task": "non",
+  "AssociateFullName": "Aron Lueilwitz MD",
+  "ContactName": "Jakubowski, Raynor and Corkery",
+  "Description": "Enterprise-wide encompassing pricing structure",
+  "PersonFullName": "Earnestine Klein",
+  "PersonId": 1001,
+  "ContactId": 457,
+  "ProjectId": 683,
+  "ProjectName": "Hilpert, Osinski and Bruen",
   "IsPublished": true,
-  "AssociateId": 620,
-  "ColorIndex": 626,
-  "IsFree": true,
+  "AssociateId": 774,
+  "ColorIndex": 935,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 562,
-  "PriorityName": "Watsica, Lindgren and Sauer",
+  "PriorityId": 724,
+  "PriorityName": "Prosacco Group",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2001-02-06T12:15:19.8417386+01:00",
+  "ActiveDate": "2008-01-03T15:29:22.4673027+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-08-18T12:15:19.8417386+02:00",
-  "RecurringEndDate": "2010-08-21T12:15:19.8417386+02:00",
-  "MotherId": 442,
-  "AssignedBy": 451,
-  "AssignedByFullName": "Lon Towne",
+  "RecurringStartDate": "2020-10-19T15:29:22.4673027+02:00",
+  "RecurringEndDate": "2019-10-16T15:29:22.4673027+02:00",
+  "MotherId": 249,
+  "AssignedBy": 775,
+  "AssignedByFullName": "Prof. Jermain Freeda Bogan II",
   "RejectReason": "",
-  "Location": "at",
-  "AlarmLeadTime": "debitis",
-  "SaleId": 464,
-  "SaleName": "Crist, Reichert and Wehner",
-  "AssociateName": "Hessel, Botsford and Krajcik",
-  "CreatedDate": "2006-11-21T12:15:19.8427386+01:00",
-  "CreatedBy": "qui",
-  "CreatedByFullName": "Velma Braden Dickens MD",
-  "CreatedByAssociateId": 28,
+  "Location": "in",
+  "AlarmLeadTime": "sunt",
+  "SaleId": 740,
+  "SaleName": "McLaughlin-Macejkovic",
+  "AssociateName": "Reichert Inc and Sons",
+  "CreatedDate": "1997-01-14T15:29:22.4678036+01:00",
+  "CreatedBy": "sunt",
+  "CreatedByFullName": "Jasper Batz",
+  "CreatedByAssociateId": 560,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

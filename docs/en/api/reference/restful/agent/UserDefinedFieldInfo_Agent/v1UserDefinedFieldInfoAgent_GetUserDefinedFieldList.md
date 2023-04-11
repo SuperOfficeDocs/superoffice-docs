@@ -98,8 +98,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 247,
-    "ColumnId": 842,
-    "FieldDefault": "aperiam",
-    "FieldHeight": 829,
-    "FieldLabel": "natus",
-    "FieldLeft": 187,
-    "FieldTop": 676,
+    "UDefFieldId": 105,
+    "ColumnId": 366,
+    "FieldDefault": "et",
+    "FieldHeight": 194,
+    "FieldLabel": "quod",
+    "FieldLeft": 138,
+    "FieldTop": 175,
     "FieldType": "Checkbox",
-    "FieldWidth": 434,
-    "FormatMask": "fugit",
+    "FieldWidth": 804,
+    "FormatMask": "sit",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 80,
-    "LabelLeft": 40,
-    "LabelTop": 661,
-    "LabelWidth": 323,
-    "LastVersionId": 793,
-    "ListTableId": 291,
+    "IsIndexed": false,
+    "LabelHeight": 643,
+    "LabelLeft": 423,
+    "LabelTop": 372,
+    "LabelWidth": 712,
+    "LastVersionId": 92,
+    "ListTableId": 300,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 466,
-    "ProgId": "voluptate",
+    "Page1LineNo": 604,
+    "ProgId": "excepturi",
     "IsReadOnly": false,
-    "ShortLabel": "id",
-    "TabOrder": 565,
-    "TextLength": 149,
-    "Tooltip": "nobis",
-    "UdefIdentity": 213,
-    "UDListDefinitionId": 379,
+    "ShortLabel": "est",
+    "TabOrder": 792,
+    "TextLength": 927,
+    "Tooltip": "sint",
+    "UdefIdentity": 876,
+    "UDListDefinitionId": 898,
     "Justification": "Center",
-    "Version": 610,
-    "TemplateVariableName": "Kunze-Stark",
+    "Version": 684,
+    "TemplateVariableName": "Hodkiewicz-Schultz",
     "HasBeenPublished": false,
-    "MdoListName": "Steuber-Reinger",
+    "MdoListName": "Pfannerstill, Olson and Mayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldType": "System.Int32",
+        "FieldLength": 389
       }
     }
   }

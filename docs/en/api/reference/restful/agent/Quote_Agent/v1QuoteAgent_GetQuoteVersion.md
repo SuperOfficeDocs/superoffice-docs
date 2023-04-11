@@ -101,8 +101,8 @@ OK
 | RequestAssociateId | int32 | User to whom the request proposal should be delivered |
 | RequestComment | string | Comment for why quote should be approved |
 | QuoteAlternatives | array | The QuoteAlternatives for the QuoteVersion |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 807
+  "QuoteVersionId": 747
 }
 ```
 
@@ -125,75 +125,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 980,
-  "ERPQuoteVersionKey": "ut",
-  "QuoteId": 821,
-  "Description": "Exclusive zero tolerance project",
-  "Number": "1123261",
+  "QuoteVersionId": 542,
+  "ERPQuoteVersionKey": "itaque",
+  "QuoteId": 460,
+  "Description": "Horizontal 5th generation service-desk",
+  "Number": "678792",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 505,
-  "SentDate": "2006-08-22T12:15:19.893738+02:00",
-  "FollowupId": 725,
-  "ExpirationDate": "2002-05-14T12:15:19.893738+02:00",
-  "DeliveryCountryId": 56,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 375,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "natus",
-  "ERPPaymentTypeKey": "provident",
-  "ERPDeliveryTermsKey": "repellendus",
-  "ERPDeliveryTypeKey": "accusamus",
-  "Rank": 874,
-  "ApprovedBy": 225,
-  "ApprovedText": "accusamus",
-  "ApprovedRegisteredBy": 895,
-  "ApprovedRegisteredDate": "2014-04-09T12:15:19.893738+02:00",
-  "ExtraField1": "velit",
-  "ExtraField2": "sed",
-  "ExtraField3": "quidem",
-  "ExtraField4": "rerum",
-  "ExtraField5": "ad",
-  "LastRecalculated": "2017-12-15T12:15:19.893738+01:00",
-  "Updated": "2019-10-13T12:15:19.893738+02:00",
-  "UpdatedAssociateId": 166,
-  "Registered": "2022-11-11T12:15:19.893738+01:00",
-  "RegisteredAssociateId": 145,
-  "RequestAssociateId": 984,
-  "RequestComment": "ullam",
+  "LikelyQuoteAlternativeId": 208,
+  "SentDate": "1998-06-23T15:29:22.5187646+02:00",
+  "FollowupId": 421,
+  "ExpirationDate": "1998-02-08T15:29:22.5187646+01:00",
+  "DeliveryCountryId": 158,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 306,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "id",
+  "ERPPaymentTypeKey": "optio",
+  "ERPDeliveryTermsKey": "accusantium",
+  "ERPDeliveryTypeKey": "quod",
+  "Rank": 892,
+  "ApprovedBy": 337,
+  "ApprovedText": "quia",
+  "ApprovedRegisteredBy": 45,
+  "ApprovedRegisteredDate": "1999-04-26T15:29:22.5187646+02:00",
+  "ExtraField1": "accusantium",
+  "ExtraField2": "iure",
+  "ExtraField3": "veniam",
+  "ExtraField4": "ipsa",
+  "ExtraField5": "et",
+  "LastRecalculated": "2001-05-14T15:29:22.5187646+02:00",
+  "Updated": "2001-02-17T15:29:22.5187646+01:00",
+  "UpdatedAssociateId": 842,
+  "Registered": "2001-07-22T15:29:22.5187646+02:00",
+  "RegisteredAssociateId": 97,
+  "RequestAssociateId": 169,
+  "RequestComment": "in",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 656,
-      "ERPQuoteAlternativeKey": "beatae",
-      "QuoteVersionId": 97,
-      "Name": "Kirlin LLC",
-      "Description": "User-centric global collaboration",
+      "QuoteAlternativeId": 580,
+      "ERPQuoteAlternativeKey": "numquam",
+      "QuoteVersionId": 167,
+      "Name": "Skiles, Jenkins and Bergnaum",
+      "Description": "Business-focused incremental interface",
       "Status": "Error",
-      "Reason": "",
-      "ERPDiscountPercent": 28945.624,
-      "ERPDiscountAmount": 10263.85,
-      "DiscountPercent": 30211.76,
-      "DiscountAmount": 21922.329999999998,
+      "Reason": "utilize cutting-edge markets",
+      "ERPDiscountPercent": 14607.573999999999,
+      "ERPDiscountAmount": 29218.282,
+      "DiscountPercent": 106.556,
+      "DiscountAmount": 24818.146,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "aut",
-      "VAT": 4669.66,
-      "EarningPercent": 16817.043999999998,
-      "EarningAmount": 466.966,
-      "SubTotal": 30324.584,
-      "TotalPrice": 30211.76,
-      "ExtraField1": "rem",
-      "ExtraField2": "eaque",
-      "ExtraField3": "quas",
-      "ExtraField4": "reprehenderit",
-      "ExtraField5": "minus",
+      "VATInfo": "qui",
+      "VAT": 26667.206,
+      "EarningPercent": 4425.208,
+      "EarningAmount": 6437.236,
+      "SubTotal": 18597.156,
+      "TotalPrice": 20399.206,
+      "ExtraField1": "pariatur",
+      "ExtraField2": "et",
+      "ExtraField3": "excepturi",
+      "ExtraField4": "aut",
+      "ExtraField5": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 205
         }
       }
     }
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 710
     }
   }
 }

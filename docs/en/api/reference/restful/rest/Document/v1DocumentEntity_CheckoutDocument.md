@@ -54,7 +54,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "dignissimos",
-  "VersionId": "molestiae",
-  "Success": false,
+  "ExternalReference": "optio",
+  "VersionId": "sint",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "similique",
-  "AdditionalInfo": "est"
+  "Value": "vel",
+  "AdditionalInfo": "ut"
 }
 ```

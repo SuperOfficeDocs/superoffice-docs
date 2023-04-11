@@ -104,8 +104,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -113,14 +113,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 131,
+  "SelectionId": 907,
   "SelectionMemberIds": [
-    525,
-    977
+    809,
+    967
   ]
 }
 ```
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent bifurcated instruction set",
-  "Postit": "consequatur",
+  "Description": "Triple-buffered global groupware",
+  "Postit": "mollitia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 169,
-  "IncludePerson": 238,
-  "MemberCount": 733,
-  "Name": "Larkin, Stanton and Halvorson",
-  "PostitTextId": 929,
-  "CreatedDate": "1997-08-27T12:15:20.1687352+02:00",
-  "SelectionId": 426,
-  "SoundEx": "qui",
-  "Source": 736,
-  "TextId": 43,
-  "UpdatedDate": "2018-03-13T12:15:20.1687352+01:00",
-  "UpdatedCount": 621,
-  "Visibility": 64,
+  "GroupIdx": 641,
+  "IncludePerson": 50,
+  "MemberCount": 940,
+  "Name": "Mayert, O'Hara and Hirthe",
+  "PostitTextId": 417,
+  "CreatedDate": "2011-05-28T15:29:22.8102976+02:00",
+  "SelectionId": 49,
+  "SoundEx": "placeat",
+  "Source": 118,
+  "TextId": 212,
+  "UpdatedDate": "1998-08-02T15:29:22.8102976+02:00",
+  "UpdatedCount": 165,
+  "Visibility": 669,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 834,
-  "TargetTableName": "Harber LLC",
+  "TargetTableNumber": 798,
+  "TargetTableName": "Gulgowski, Adams and Lind",
   "Completed": false,
-  "LeftSelectionId": 985,
-  "RightSelectionId": 531,
+  "LeftSelectionId": 396,
+  "RightSelectionId": 99,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kovacek-Witting",
-  "ShadowProviderName": "Hartmann, Cassin and Russel",
-  "ChartKey": "et",
-  "LastLoaded": "2017-11-24T12:15:20.1697344+01:00",
-  "LastLoadedBy": 560,
+  "MainProviderName": "Walker, Wisoky and Torp",
+  "ShadowProviderName": "Hayes Inc and Sons",
+  "ChartKey": "velit",
+  "LastLoaded": "2020-04-25T15:29:22.8102976+02:00",
+  "LastLoadedBy": 513,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-07-22T12:15:20.1697344+02:00",
-  "LastMembershipChangeBy": 613,
+  "LastMembershipChange": "2009-10-07T15:29:22.8107964+02:00",
+  "LastMembershipChangeBy": 46,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Yundt, Conn and Witting",
-  "DashboardTileDefinitionId": 871,
+  "MainHeading": "a",
+  "MemberTabHeading": "voluptatum",
+  "MailingsProviderName": "Metz, Hauck and Wintheiser",
+  "DashboardTileDefinitionId": 69,
   "VisibleFor": [
     {
-      "VisibleId": 115,
+      "VisibleId": 274,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 961
         }
       }
     },
     {
-      "VisibleId": 115,
+      "VisibleId": 274,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 961
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldType": "System.String",
+      "FieldLength": 511
     }
   }
 }

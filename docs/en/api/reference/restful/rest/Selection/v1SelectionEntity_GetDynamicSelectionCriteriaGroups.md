@@ -50,9 +50,9 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -72,58 +72,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Leannon Group",
-    "Description": "Reduced mobile utilisation",
-    "Rank": 303,
+    "Name": "Haley-Mosciski",
+    "Description": "Open-source content-based process improvement",
+    "Rank": 431,
     "Restrictions": [
       {
-        "Name": "Kiehn-Williamson",
-        "Operator": "corporis",
+        "Name": "Bogisich-Wiegand",
+        "Operator": "fugiat",
         "Values": [
-          "cum",
-          "ea"
+          "provident",
+          "impedit"
         ],
         "DisplayValues": [
-          "quaerat",
-          "vero"
+          "sit",
+          "magni"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 720,
+        "InterParenthesis": 904,
         "InterOperator": "And",
-        "UniqueHash": 464
+        "UniqueHash": 290
       }
     ]
   },
   {
-    "Name": "Leannon Group",
-    "Description": "Reduced mobile utilisation",
-    "Rank": 303,
+    "Name": "Haley-Mosciski",
+    "Description": "Open-source content-based process improvement",
+    "Rank": 431,
     "Restrictions": [
       {
-        "Name": "Kiehn-Williamson",
-        "Operator": "corporis",
+        "Name": "Bogisich-Wiegand",
+        "Operator": "fugiat",
         "Values": [
-          "cum",
-          "ea"
+          "provident",
+          "impedit"
         ],
         "DisplayValues": [
-          "quaerat",
-          "vero"
+          "sit",
+          "magni"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 720,
+        "InterParenthesis": 904,
         "InterOperator": "And",
-        "UniqueHash": 464
+        "UniqueHash": 290
       }
     ]
   }

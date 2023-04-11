@@ -31,7 +31,7 @@ System and Anonymous users can be created without an exsisting person and permit
 
 ```http
 GET /api/v1/User/Default?userType=AnonymousAssociate
-GET /api/v1/User/Default?personId=607
+GET /api/v1/User/Default?personId=823
 ```
 
 
@@ -86,8 +86,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,7 +95,7 @@ OK
 GET /api/v1/User/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,14 +105,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 961,
-  "Name": "Mayer-Swaniawski",
-  "Rank": 209,
-  "Tooltip": "et",
+  "AssociateId": 503,
+  "Name": "Kerluke, Corwin and West",
+  "Rank": 414,
+  "Tooltip": "magni",
   "LicenseOwners": [
     {
-      "Name": "Olson-Mosciski",
-      "Description": "Re-contextualized human-resource flexibility",
+      "Name": "Wyman LLC",
+      "Description": "Horizontal bifurcated portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,14 +125,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldType": "System.String",
+          "FieldLength": 18
         }
       }
     },
     {
-      "Name": "Olson-Mosciski",
-      "Description": "Re-contextualized human-resource flexibility",
+      "Name": "Wyman LLC",
+      "Description": "Horizontal bifurcated portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -145,8 +145,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldType": "System.String",
+          "FieldLength": 18
         }
       }
     }
@@ -155,110 +155,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "id",
-      "Tooltip": "tempore",
-      "Id": 529,
-      "Rank": 536,
-      "Deleted": true,
+      "Value": "aspernatur",
+      "Tooltip": "omnis",
+      "Id": 46,
+      "Rank": 865,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldType": "System.String",
+          "FieldLength": 334
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-06-20T12:15:27.7856246+02:00",
-  "Lastlogout": "2021-10-20T12:15:27.7856246+02:00",
-  "EjUserId": 198,
-  "RequestSignature": "natus",
+  "Lastlogin": "2015-09-02T15:29:30.9924822+02:00",
+  "Lastlogout": "2021-06-01T15:29:30.9924822+02:00",
+  "EjUserId": 375,
+  "RequestSignature": "alias",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "qui",
-      "DisplayValue": "fugiat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 995
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "qui",
-      "DisplayValue": "fugiat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 995
-        }
-      }
-    }
-  ],
-  "UserName": "Maggio, Heathcote and Schmidt",
-  "TicketCategories": [
-    {
-      "Id": 360,
-      "Name": "Stiedemann-Feest",
-      "ToolTip": "Qui rerum magnam.",
-      "Deleted": false,
-      "Rank": 658,
-      "Type": "sit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dignissimos",
-      "ColorBlock": 197,
-      "ExtraInfo": "esse",
-      "StyleHint": "nam",
-      "FullName": "Darion Treutel",
+      "Value": "rerum",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 12
+          "FieldLength": 968
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "rerum",
+      "DisplayValue": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
   ],
-  "NickName": "Nader LLC",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "delectus"
-  },
-  "PostSaveCommands": [
+  "UserName": "Sipes-Bradtke",
+  "TicketCategories": [
     {
-      "Name": "Bergnaum LLC",
-      "DisplayName": "Hamill-Pacocha",
-      "Description": "User-centric 24/7 access",
-      "ToolTip": "Magnam vitae.",
-      "Actions": "Implicit",
-      "ActionData": "vel",
+      "Id": 946,
+      "Name": "Kulas LLC",
+      "ToolTip": "Modi eligendi ut reprehenderit quia.",
+      "Deleted": false,
+      "Rank": 202,
+      "Type": "aliquam",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "maxime",
+      "ColorBlock": 257,
+      "ExtraInfo": "doloremque",
+      "StyleHint": "occaecati",
+      "FullName": "Darrion Ledner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 16
+        }
+      }
+    }
+  ],
+  "NickName": "Heidenreich LLC",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "minima",
+    "ExtraFields2": "nemo"
+  },
+  "CustomFields": {
+    "CustomFields1": "modi",
+    "CustomFields2": "nemo"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Funk, Lynch and Kuhlman",
+      "DisplayName": "Nicolas-Dach",
+      "Description": "Diverse executive open architecture",
+      "ToolTip": "Ipsum voluptatum sapiente assumenda ea sit.",
+      "Actions": "Implicit",
+      "ActionData": "quasi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 667
         }
       }
     }
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 550
     }
   }
 }

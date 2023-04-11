@@ -113,8 +113,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -122,16 +122,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    300,
-    354
+    278,
+    614
   ],
-  "StartTime": "1998-11-17T12:15:17.6777713+01:00",
-  "EndTime": "2009-11-08T12:15:17.6777713+01:00"
+  "StartTime": "2004-03-18T15:29:20.4233332+01:00",
+  "EndTime": "2018-06-18T15:29:20.4233332+02:00"
 }
 ```
 
@@ -143,53 +143,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 500,
-    "StartDate": "2011-01-21T12:15:17.6787698+01:00",
-    "EndDate": "2005-08-16T12:15:17.6787698+02:00",
+    "AppointmentId": 662,
+    "StartDate": "2012-04-30T15:29:20.4243307+02:00",
+    "EndDate": "1997-11-02T15:29:20.4243307+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Dr. Janae Amos Kovacek",
-    "ContactName": "Harris Group",
-    "Description": "Organic high-level contingency",
-    "PersonFullName": "Margot Thiel",
-    "PersonId": 499,
-    "ContactId": 589,
-    "ProjectId": 489,
-    "ProjectName": "Cole-Carroll",
-    "IsPublished": false,
-    "AssociateId": 921,
-    "ColorIndex": 706,
-    "IsFree": false,
+    "Task": "quam",
+    "AssociateFullName": "Marianne Angel Fahey DVM",
+    "ContactName": "Waters, Ritchie and Labadie",
+    "Description": "Upgradable systemic capacity",
+    "PersonFullName": "Oswaldo Bechtelar",
+    "PersonId": 578,
+    "ContactId": 110,
+    "ProjectId": 550,
+    "ProjectName": "Schulist, Hills and Murray",
+    "IsPublished": true,
+    "AssociateId": 909,
+    "ColorIndex": 385,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 276,
-    "PriorityName": "Pouros, Schowalter and Stokes",
+    "PriorityId": 947,
+    "PriorityName": "Jewess Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2009-04-21T12:15:17.6797765+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2021-05-24T15:29:20.4248329+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-03-14T12:15:17.6797765+01:00",
-    "RecurringEndDate": "2003-03-13T12:15:17.6797765+01:00",
-    "MotherId": 958,
-    "AssignedBy": 137,
-    "AssignedByFullName": "Ms. Ramona Aileen Wisoky Sr.",
-    "RejectReason": "",
-    "Location": "magni",
-    "AlarmLeadTime": "repellendus",
-    "SaleId": 799,
-    "SaleName": "Bogisich, Miller and Beier",
-    "AssociateName": "Wintheiser, Littel and Hodkiewicz",
-    "CreatedDate": "1997-01-13T12:15:17.6797765+01:00",
-    "CreatedBy": "quam",
-    "CreatedByFullName": "Brisa Dooley",
-    "CreatedByAssociateId": 598,
+    "RecurringStartDate": "2014-11-09T15:29:20.4248329+01:00",
+    "RecurringEndDate": "1996-08-05T15:29:20.4248329+02:00",
+    "MotherId": 308,
+    "AssignedBy": 118,
+    "AssignedByFullName": "Natasha Jason Ortiz V",
+    "RejectReason": "exploit vertical e-commerce",
+    "Location": "nobis",
+    "AlarmLeadTime": "vero",
+    "SaleId": 743,
+    "SaleName": "Bahringer-Johns",
+    "AssociateName": "Kuphal-Emmerich",
+    "CreatedDate": "2003-04-24T15:29:20.4253309+02:00",
+    "CreatedBy": "quibusdam",
+    "CreatedByFullName": "Bertram Marvin",
+    "CreatedByAssociateId": 559,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldLength": 834
       }
     }
   }

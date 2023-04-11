@@ -81,8 +81,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,25 +96,25 @@ Content-Type: application/json; charset=utf-8
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Wolff LLC",
-      "Comment": "repellendus",
-      "StakeholderRoleId": 207,
-      "CountryId": 935,
-      "PersonId": 203,
-      "EmailDescription": "ole_bogan@herman.uk",
-      "EmailId": 988,
-      "EmailAddress": "warren@hamill.info",
-      "PhoneId": 384,
-      "ContactName": "Hettinger LLC",
-      "ContactId": 901,
-      "SaleId": 632,
-      "Mrmrs": "tenetur",
-      "Firstname": "Rahul",
-      "MiddleName": "Lind-Rowe",
-      "Lastname": "Ward",
-      "SaleStakeholderId": 74,
-      "Rank": 98,
-      "Phone": "1-146-977-7148"
+      "StakeholderRoleName": "Bahringer, Koepp and Gleason",
+      "Comment": "ipsam",
+      "StakeholderRoleId": 335,
+      "CountryId": 419,
+      "PersonId": 273,
+      "EmailDescription": "lavonne.lowe@schinner.ca",
+      "EmailId": 114,
+      "EmailAddress": "eliane.erdman@wiza.co.uk",
+      "PhoneId": 273,
+      "ContactName": "Jaskolski Inc and Sons",
+      "ContactId": 246,
+      "SaleId": 551,
+      "Mrmrs": "ratione",
+      "Firstname": "Jacynthe",
+      "MiddleName": "Cruickshank-Mayer",
+      "Lastname": "Sawayn",
+      "SaleStakeholderId": 872,
+      "Rank": 497,
+      "Phone": "283-933-8087"
     }
   ]
 }
@@ -128,31 +128,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Hoeger-McCullough",
-    "Comment": "dolor",
-    "StakeholderRoleId": 453,
-    "CountryId": 422,
-    "PersonId": 570,
-    "EmailDescription": "gracie_orn@predovic.com",
-    "EmailId": 967,
-    "EmailAddress": "bridget@willms.biz",
-    "PhoneId": 148,
-    "ContactName": "Terry, Kiehn and Swift",
-    "ContactId": 875,
-    "SaleId": 34,
-    "Mrmrs": "assumenda",
-    "Firstname": "Kurtis",
-    "MiddleName": "Ortiz, Runolfsdottir and Schuppe",
-    "Lastname": "Marvin",
-    "SaleStakeholderId": 671,
-    "Rank": 340,
-    "Phone": "1-072-971-8183",
+    "StakeholderRoleName": "Beatty LLC",
+    "Comment": "consequatur",
+    "StakeholderRoleId": 783,
+    "CountryId": 53,
+    "PersonId": 850,
+    "EmailDescription": "vito@von.name",
+    "EmailId": 250,
+    "EmailAddress": "mark@pfannerstill.us",
+    "PhoneId": 913,
+    "ContactName": "Lakin Inc and Sons",
+    "ContactId": 903,
+    "SaleId": 649,
+    "Mrmrs": "incidunt",
+    "Firstname": "Efrain",
+    "MiddleName": "O'Connell, Kulas and Hirthe",
+    "Lastname": "Rice",
+    "SaleStakeholderId": 864,
+    "Rank": 407,
+    "Phone": "1-362-937-8742 x3761",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 670
       }
     }
   }

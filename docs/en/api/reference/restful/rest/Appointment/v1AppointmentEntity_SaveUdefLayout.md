@@ -119,8 +119,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -133,40 +133,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 764,
-    "ColumnId": 442,
-    "FieldDefault": "unde",
-    "FieldHeight": 809,
-    "FieldLabel": "suscipit",
-    "FieldLeft": 958,
-    "FieldTop": 590,
+    "UDefFieldId": 38,
+    "ColumnId": 700,
+    "FieldDefault": "iste",
+    "FieldHeight": 775,
+    "FieldLabel": "ut",
+    "FieldLeft": 852,
+    "FieldTop": 781,
     "FieldType": "Checkbox",
-    "FieldWidth": 748,
-    "FormatMask": "corporis",
+    "FieldWidth": 323,
+    "FormatMask": "fugit",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 211,
-    "LabelLeft": 693,
-    "LabelTop": 236,
-    "LabelWidth": 411,
-    "LastVersionId": 598,
-    "ListTableId": 65,
-    "IsMandatory": true,
+    "LabelHeight": 340,
+    "LabelLeft": 897,
+    "LabelTop": 887,
+    "LabelWidth": 604,
+    "LastVersionId": 607,
+    "ListTableId": 740,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 907,
-    "ProgId": "minus",
+    "Page1LineNo": 36,
+    "ProgId": "occaecati",
     "IsReadOnly": false,
-    "ShortLabel": "eaque",
-    "TabOrder": 118,
-    "TextLength": 356,
-    "Tooltip": "et",
-    "UdefIdentity": 863,
-    "UDListDefinitionId": 847,
+    "ShortLabel": "quam",
+    "TabOrder": 454,
+    "TextLength": 511,
+    "Tooltip": "nesciunt",
+    "UdefIdentity": 207,
+    "UDListDefinitionId": 131,
     "Justification": "Center",
-    "Version": 724,
-    "TemplateVariableName": "Crona LLC",
+    "Version": 343,
+    "TemplateVariableName": "Schinner-Douglas",
     "HasBeenPublished": true,
-    "MdoListName": "Hilpert Inc and Sons"
+    "MdoListName": "Brakus, Bartoletti and Gusikowski"
   }
 ]
 ```
@@ -179,46 +179,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 605,
-    "ColumnId": 161,
-    "FieldDefault": "dignissimos",
-    "FieldHeight": 911,
-    "FieldLabel": "ab",
-    "FieldLeft": 458,
-    "FieldTop": 711,
+    "UDefFieldId": 858,
+    "ColumnId": 198,
+    "FieldDefault": "necessitatibus",
+    "FieldHeight": 87,
+    "FieldLabel": "illo",
+    "FieldLeft": 850,
+    "FieldTop": 123,
     "FieldType": "Checkbox",
-    "FieldWidth": 229,
-    "FormatMask": "fugit",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 572,
-    "LabelLeft": 96,
-    "LabelTop": 980,
-    "LabelWidth": 259,
-    "LastVersionId": 96,
-    "ListTableId": 953,
-    "IsMandatory": false,
+    "FieldWidth": 972,
+    "FormatMask": "quis",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 416,
+    "LabelLeft": 84,
+    "LabelTop": 834,
+    "LabelWidth": 792,
+    "LastVersionId": 52,
+    "ListTableId": 34,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 406,
-    "ProgId": "optio",
-    "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 19,
-    "TextLength": 214,
-    "Tooltip": "maiores",
-    "UdefIdentity": 97,
-    "UDListDefinitionId": 892,
+    "Page1LineNo": 452,
+    "ProgId": "voluptates",
+    "IsReadOnly": true,
+    "ShortLabel": "ipsa",
+    "TabOrder": 434,
+    "TextLength": 710,
+    "Tooltip": "blanditiis",
+    "UdefIdentity": 614,
+    "UDListDefinitionId": 259,
     "Justification": "Center",
-    "Version": 234,
-    "TemplateVariableName": "Tillman, Block and Bahringer",
-    "HasBeenPublished": true,
-    "MdoListName": "Bergnaum-Boyle",
+    "Version": 181,
+    "TemplateVariableName": "Harvey LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Cronin, Hartmann and Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldLength": 275
       }
     }
   }

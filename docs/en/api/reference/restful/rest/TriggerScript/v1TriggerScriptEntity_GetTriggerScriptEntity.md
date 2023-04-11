@@ -74,8 +74,8 @@ TriggerScriptEntity found.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -94,22 +94,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 501,
-  "Name": "Dicki-Boyle",
+  "ScreenChooserId": 350,
+  "Name": "Anderson-Marquardt",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "aut",
-  "Source": "debitis",
-  "Registered": "2010-03-28T12:15:27.5886268+02:00",
-  "RegisteredAssociateId": 39,
-  "Updated": "2013-01-05T12:15:27.5886268+01:00",
-  "UpdatedAssociateId": 569,
+  "Enabled": false,
+  "UniqueIdentifier": "nobis",
+  "Source": "eos",
+  "Registered": "2019-12-04T15:29:30.7969861+01:00",
+  "RegisteredAssociateId": 189,
+  "Updated": "1996-05-27T15:29:30.7969861+02:00",
+  "UpdatedAssociateId": 923,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 925
     }
   },
   "_Links": {

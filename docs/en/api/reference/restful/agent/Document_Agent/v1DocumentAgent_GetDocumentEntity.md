@@ -25,7 +25,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=484
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=555
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -90,8 +90,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 320,
+  "DocumentId": 642,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "est",
-  "Header": "nisi",
-  "Name": "Carroll, Hudson and Stroman",
-  "OurRef": "corporis",
-  "YourRef": "doloribus",
-  "CreatedDate": "2019-10-11T12:15:18.7847541+02:00",
-  "UpdatedDate": "2022-10-21T12:15:18.7847541+02:00",
-  "Description": "Function-based upward-trending algorithm",
+  "Attention": "aut",
+  "Header": "ut",
+  "Name": "Leuschke, Brakus and Buckridge",
+  "OurRef": "facere",
+  "YourRef": "qui",
+  "CreatedDate": "2017-12-28T15:29:21.5482794+01:00",
+  "UpdatedDate": "2021-12-03T15:29:21.5482794+01:00",
+  "Description": "Synergistic responsive secured line",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-11-19T12:15:18.788754+01:00",
-  "ExternalRef": "sit",
+  "Date": "2010-08-23T15:29:21.5517789+02:00",
+  "ExternalRef": "veniam",
   "Completed": "Completed",
-  "ActiveLinks": 460,
+  "ActiveLinks": 530,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kutch, Kirlin and Haley",
-      "Id": 807,
-      "Description": "Polarised dedicated concept",
-      "ExtraInfo": "nostrum",
-      "LinkId": 988,
+      "EntityName": "Ratke, Gottlieb and Olson",
+      "Id": 447,
+      "Description": "Cross-platform actuating success",
+      "ExtraInfo": "est",
+      "LinkId": 529,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 855
+          "FieldType": "System.String",
+          "FieldLength": 839
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 579,
-  "Snum": 809,
+  "SuggestedDocumentId": 221,
+  "Snum": 338,
   "UserDefinedFields": {
-    "SuperOffice:1": "337221395",
-    "SuperOffice:2": "Bruce Upton"
+    "SuperOffice:1": "Mr. Claud Stanton",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "in"
+    "ExtraFields1": "est",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "harum",
-    "CustomFields2": "porro"
+    "CustomFields1": "ut",
+    "CustomFields2": "veniam"
   },
-  "PublishEventDate": "2012-11-27T12:15:18.7897221+01:00",
-  "PublishTo": "2005-10-09T12:15:18.7897221+02:00",
-  "PublishFrom": "2021-06-06T12:15:18.7897221+02:00",
+  "PublishEventDate": "2002-10-18T15:29:21.5527793+02:00",
+  "PublishTo": "2014-03-04T15:29:21.5527793+01:00",
+  "PublishFrom": "2009-12-27T15:29:21.5527793+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 154,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 173
         }
       }
     },
     {
-      "VisibleId": 154,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "neque",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 173
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 216
     }
   }
 }

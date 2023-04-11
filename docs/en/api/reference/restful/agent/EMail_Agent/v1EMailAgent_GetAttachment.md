@@ -74,8 +74,8 @@ OK
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 549,
-  "AttachmentId": "eaque"
+  "MessageServerId": 446,
+  "AttachmentId": "et"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed fresh-thinking pricing structure",
-  "Filename": "maiores",
-  "Size": 884,
-  "Type": "laudantium",
-  "Encoding": "neque",
-  "Id": "minima",
-  "Disposition": "tempora",
+  "Description": "Horizontal upward-trending Graphic Interface",
+  "Filename": "illo",
+  "Size": 148,
+  "Type": "iusto",
+  "Encoding": "molestiae",
+  "Id": "deserunt",
+  "Disposition": "et",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldType": "System.String",
+      "FieldLength": 300
     }
   }
 }

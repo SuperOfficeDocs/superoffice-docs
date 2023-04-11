@@ -78,8 +78,8 @@ OK
 | Name | string | Item name, visible in Guide |
 | Duration | int32 | Duration in minutes of suggested appointment |
 | Associate | Associate | The owner of the suggested activity. Always the same as the sales owner. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 866,
-  "CurrentAppointmentId": 887,
-  "SkipCompleteCheck": true
+  "SaleId": 338,
+  "CurrentAppointmentId": 93,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -104,26 +104,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 967,
-  "Deleted": 842,
-  "DaysFuture": 178,
-  "Tooltip": "inventore",
-  "Text": "qui",
-  "TaskId": 874,
-  "SuggestedAppointmentId": 159,
-  "SaleTypeStageLinkId": 599,
-  "RegisteredAssociateId": 700,
-  "Rank": 943,
-  "ProjectTypeStatusLinkId": 924,
-  "Name": "Rodriguez-Jakubowski",
-  "Duration": 990,
+  "AutoSuggest": 45,
+  "Deleted": 275,
+  "DaysFuture": 344,
+  "Tooltip": "earum",
+  "Text": "quam",
+  "TaskId": 812,
+  "SuggestedAppointmentId": 493,
+  "SaleTypeStageLinkId": 345,
+  "RegisteredAssociateId": 141,
+  "Rank": 411,
+  "ProjectTypeStatusLinkId": 762,
+  "Name": "Brekke LLC",
+  "Duration": 25,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   }
 }

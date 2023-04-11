@@ -71,8 +71,8 @@ OK
 | Mandatory | bool | Is this a mandatory field? |
 | Rank | int32 | Rank of the field |
 | RestrictEdit | bool | If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 126
+  "QuoteLineConfigurationId": 305
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 209,
-  "FieldName": "Schowalter Group",
-  "Label": "sequi",
-  "Tooltip": "saepe",
-  "Editable": true,
+  "QuoteLineConfigurationId": 406,
+  "FieldName": "Treutel, Labadie and Ward",
+  "Label": "sapiente",
+  "Tooltip": "temporibus",
+  "Editable": false,
   "InUse": false,
   "Mandatory": true,
-  "Rank": 441,
-  "RestrictEdit": false,
+  "Rank": 3,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 53
     }
   }
 }

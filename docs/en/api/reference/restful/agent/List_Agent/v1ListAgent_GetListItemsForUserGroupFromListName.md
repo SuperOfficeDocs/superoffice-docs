@@ -78,8 +78,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jerde LLC",
-  "GroupId": 291
+  "UdListDefinitionName": "Johns, Dare and Rau",
+  "GroupId": 777
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "White, Schaden and Blanda",
-    "ToolTip": "Beatae sint aut a.",
-    "Deleted": true,
-    "Rank": 345,
-    "Type": "ex",
-    "ColorBlock": 311,
-    "IconHint": "distinctio",
-    "Selected": false,
-    "LastChanged": "2011-04-14T12:15:19.2567514+02:00",
+    "Id": 127,
+    "Name": "Batz, Langosh and Maggio",
+    "ToolTip": "Nostrum dolor dolorem et.",
+    "Deleted": false,
+    "Rank": 832,
+    "Type": "dolores",
+    "ColorBlock": 543,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2014-12-04T15:29:22.0172716+01:00",
     "ChildItems": [
       {
-        "Id": 602,
-        "Name": "Adams LLC",
-        "ToolTip": "Aspernatur molestias perferendis ut.",
+        "Id": 48,
+        "Name": "Gutmann-Hintz",
+        "ToolTip": "Id consequuntur pariatur.",
         "Deleted": false,
-        "Rank": 376,
-        "Type": "rerum",
-        "ColorBlock": 487,
-        "IconHint": "ipsam",
-        "Selected": false,
-        "LastChanged": "2011-09-21T12:15:19.2567514+02:00",
+        "Rank": 530,
+        "Type": "quam",
+        "ColorBlock": 109,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "1998-03-09T15:29:22.0172716+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "quis",
+        "ExtraInfo": "sequi",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Antwan Stracke",
+        "FullName": "Garrett Dickinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldType": "System.String",
+            "FieldLength": 179
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "aut",
+    "ExtraInfo": "molestias",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Anna Ebert",
+    "FullName": "Ms. Marcus Keeling II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

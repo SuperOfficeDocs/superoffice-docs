@@ -87,8 +87,8 @@ OK
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,13 +96,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 80,
-  "QuoteAlternativeId": 502,
-  "QuoteAlternativeName": "Friesen Group"
+  "QuoteVersionId": 671,
+  "QuoteAlternativeId": 996,
+  "QuoteAlternativeName": "Bashirian LLC"
 }
 ```
 
@@ -113,35 +113,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 972,
-  "ERPQuoteAlternativeKey": "perspiciatis",
-  "QuoteVersionId": 473,
-  "Name": "Eichmann, Padberg and Haag",
-  "Description": "De-engineered bandwidth-monitored hub",
+  "QuoteAlternativeId": 799,
+  "ERPQuoteAlternativeKey": "sit",
+  "QuoteVersionId": 385,
+  "Name": "O'Kon-Batz",
+  "Description": "Horizontal well-modulated monitoring",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 18199.138,
-  "ERPDiscountAmount": 8906.828,
-  "DiscountPercent": 908.86,
-  "DiscountAmount": 15917.586,
+  "ERPDiscountPercent": 18327.631999999998,
+  "ERPDiscountAmount": 21959.938,
+  "DiscountPercent": 13338.304,
+  "DiscountAmount": 20455.618,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ipsum",
-  "VAT": 4691.598,
-  "EarningPercent": 24470.272,
-  "EarningAmount": 29986.111999999997,
-  "SubTotal": 2535.406,
-  "TotalPrice": 15635.526,
-  "ExtraField1": "aliquid",
-  "ExtraField2": "qui",
-  "ExtraField3": "dolores",
-  "ExtraField4": "nemo",
-  "ExtraField5": "dolore",
+  "VATInfo": "aut",
+  "VAT": 18390.311999999998,
+  "EarningPercent": 19631.376,
+  "EarningAmount": 877.52,
+  "SubTotal": 15845.503999999999,
+  "TotalPrice": 31158.228,
+  "ExtraField1": "sunt",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "sit",
+  "ExtraField4": "impedit",
+  "ExtraField5": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 617
     }
   }
 }

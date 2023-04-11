@@ -55,8 +55,8 @@ OK
 |----------------|------|--------------|
 | Valid | bool | True if the CRMScript was successfully validated. If false, see the error message for details |
 | ErrorMessage | string | Contains the error message for a non-valide CRMScript |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,14 +74,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "officiis",
+  "Valid": true,
+  "ErrorMessage": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 596
     }
   }
 }

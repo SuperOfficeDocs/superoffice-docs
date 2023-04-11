@@ -60,8 +60,8 @@ OK
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price, Ryan and Mann",
-    "Description": "Total hybrid policy",
+    "Name": "Treutel, Stoltenberg and Berge",
+    "Description": "Ergonomic reciprocal process improvement",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "debitis",
-        "CanAssign": false,
-        "Free": 718,
-        "InUse": 575,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 669,
+        "Tooltip": "reprehenderit",
+        "CanAssign": true,
+        "Free": 74,
+        "InUse": 122,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 131,
-        "Name": "Bergnaum-Block",
-        "Description": "Monitored multi-state firmware",
-        "PrerequisiteModuleName": "Stoltenberg-Sporer",
-        "SortOrder": 209,
-        "ExtraFlags": 375,
+        "ModuleLicenseId": 189,
+        "Name": "Gorczany Group",
+        "Description": "Versatile disintermediate function",
+        "PrerequisiteModuleName": "Rath-Heathcote",
+        "SortOrder": 918,
+        "ExtraFlags": 886,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldLength": 353
           }
         }
       }
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 339,
-        "Tooltip": "facilis",
-        "CanAssign": true,
-        "Free": 649,
-        "InUse": 870,
+        "Total": 421,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 18,
+        "InUse": 785,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 123,
-        "Name": "Kunze LLC",
-        "Description": "Devolved non-volatile system engine",
-        "PrerequisiteModuleName": "Satterfield-Larkin",
-        "SortOrder": 980,
-        "ExtraFlags": 17,
+        "ModuleLicenseId": 343,
+        "Name": "Cruickshank, Pagac and Bins",
+        "Description": "Multi-layered optimizing installation",
+        "PrerequisiteModuleName": "Pagac Inc and Sons",
+        "SortOrder": 419,
+        "ExtraFlags": 384,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 849
+            "FieldLength": 986
           }
         }
       }
@@ -138,36 +138,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 19
       }
     }
   },
   {
-    "Name": "Price, Ryan and Mann",
-    "Description": "Total hybrid policy",
+    "Name": "Treutel, Stoltenberg and Berge",
+    "Description": "Ergonomic reciprocal process improvement",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 189,
-        "Tooltip": "debitis",
-        "CanAssign": false,
-        "Free": 718,
-        "InUse": 575,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 669,
+        "Tooltip": "reprehenderit",
+        "CanAssign": true,
+        "Free": 74,
+        "InUse": 122,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 131,
-        "Name": "Bergnaum-Block",
-        "Description": "Monitored multi-state firmware",
-        "PrerequisiteModuleName": "Stoltenberg-Sporer",
-        "SortOrder": 209,
-        "ExtraFlags": 375,
+        "ModuleLicenseId": 189,
+        "Name": "Gorczany Group",
+        "Description": "Versatile disintermediate function",
+        "PrerequisiteModuleName": "Rath-Heathcote",
+        "SortOrder": 918,
+        "ExtraFlags": 886,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldLength": 353
           }
         }
       }
@@ -175,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 339,
-        "Tooltip": "facilis",
-        "CanAssign": true,
-        "Free": 649,
-        "InUse": 870,
+        "Total": 421,
+        "Tooltip": "quia",
+        "CanAssign": false,
+        "Free": 18,
+        "InUse": 785,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 123,
-        "Name": "Kunze LLC",
-        "Description": "Devolved non-volatile system engine",
-        "PrerequisiteModuleName": "Satterfield-Larkin",
-        "SortOrder": 980,
-        "ExtraFlags": 17,
+        "ModuleLicenseId": 343,
+        "Name": "Cruickshank, Pagac and Bins",
+        "Description": "Multi-layered optimizing installation",
+        "PrerequisiteModuleName": "Pagac Inc and Sons",
+        "SortOrder": 419,
+        "ExtraFlags": 384,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 849
+            "FieldLength": 986
           }
         }
       }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 813
+        "FieldType": "System.Int32",
+        "FieldLength": 19
       }
     }
   }

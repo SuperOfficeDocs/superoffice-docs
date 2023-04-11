@@ -93,8 +93,8 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,31 +102,31 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 735,
-  "Name": "Stehr-Mante",
-  "Tooltip": "culpa",
+  "WebPanelId": 413,
+  "Name": "Doyle Inc and Sons",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 289,
+  "Rank": 815,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Christiansen LLC",
+  "WindowName": "Kunze-Johns",
   "Url": "http://www.example.com/",
-  "ProgId": "facere",
-  "Icon": 960,
-  "AlwaysReloadOnShow": false
+  "ProgId": "voluptas",
+  "Icon": 208,
+  "AlwaysReloadOnShow": true
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 476,
-  "Name": "Bauch, Berge and Bahringer",
-  "Tooltip": "nihil",
+  "WebPanelId": 853,
+  "Name": "Hegmann-Jacobson",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 547,
+  "Rank": 592,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Pacocha Inc and Sons",
+  "WindowName": "Hand, Huel and Mitchell",
   "Url": "http://www.example.com/",
-  "ProgId": "voluptatem",
-  "Icon": 904,
+  "ProgId": "harum",
+  "Icon": 20,
   "AlwaysReloadOnShow": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldType": "System.String",
+      "FieldLength": 152
     }
   }
 }

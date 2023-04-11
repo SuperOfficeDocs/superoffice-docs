@@ -77,8 +77,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,8 +90,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 200,
-  "Type": 712
+  "GroupId": 269,
+  "Type": 404
 }
 ```
 
@@ -103,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 651,
-    "Name": "Torphy, Leannon and Hermiston",
-    "PersonId": 862,
-    "Rank": 547,
-    "Tooltip": "culpa",
+    "AssociateId": 357,
+    "Name": "Shields-Jones",
+    "PersonId": 250,
+    "Rank": 230,
+    "Tooltip": "ut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 719,
-    "FullName": "Jewel Wunsch",
-    "FormalName": "Brekke-Barrows",
-    "Deleted": false,
-    "EjUserId": 441,
-    "UserName": "Bashirian-Conn",
+    "GroupIdx": 330,
+    "FullName": "Josiane Skyla Schulist PhD",
+    "FormalName": "Johnston, Von and Koss",
+    "Deleted": true,
+    "EjUserId": 654,
+    "UserName": "Hermiston-Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 704
       }
     }
   }

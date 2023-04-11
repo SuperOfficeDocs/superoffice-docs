@@ -42,7 +42,7 @@ ChatSessionEntity deleted.
 |----------------|-------------|
 | 204 | ChatSessionEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

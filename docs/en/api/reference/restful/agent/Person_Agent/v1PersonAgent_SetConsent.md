@@ -58,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 879,
-  "Purpose": "adipisci",
-  "Source": "vitae",
-  "LegalBase": "rem",
-  "Comment": "laudantium"
+  "PersonId": 707,
+  "Purpose": "qui",
+  "Source": "dignissimos",
+  "LegalBase": "neque",
+  "Comment": "eligendi"
 }
 ```
 

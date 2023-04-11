@@ -65,8 +65,8 @@ OK
 | ConsentSourceId | int32 | Primary key for the ConsentSource associated with this consent |
 | ConsentSourceKey | string | Key of the ConsentSource associated with this consent |
 | ConsentSourceName | string | Name of the ConsentSource associated with this consent |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,27 +85,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 30,
-    "Comment": "ut",
-    "Registered": "2004-02-03T12:15:27.0926342+01:00",
-    "RegisteredAssociateId": 213,
-    "Updated": "2006-09-24T12:15:27.0926342+02:00",
-    "UpdatedAssociateId": 657,
-    "LegalBaseId": 292,
-    "LegalBaseKey": "voluptas",
-    "LegalBaseName": "Schamberger, Bailey and Hamill",
-    "ConsentPurposeId": 283,
-    "ConsentPurposeKey": "est",
-    "ConsentPurposeName": "Turner Inc and Sons",
-    "ConsentSourceId": 750,
-    "ConsentSourceKey": "sed",
-    "ConsentSourceName": "Reinger, Ledner and Sporer",
+    "ConsentPersonId": 662,
+    "Comment": "ab",
+    "Registered": "2014-11-13T15:29:29.8966987+01:00",
+    "RegisteredAssociateId": 170,
+    "Updated": "2013-03-04T15:29:29.8966987+01:00",
+    "UpdatedAssociateId": 557,
+    "LegalBaseId": 775,
+    "LegalBaseKey": "doloremque",
+    "LegalBaseName": "Johnston, Hyatt and Cormier",
+    "ConsentPurposeId": 202,
+    "ConsentPurposeKey": "veritatis",
+    "ConsentPurposeName": "Kozey, Cartwright and Wiegand",
+    "ConsentSourceId": 702,
+    "ConsentSourceKey": "molestias",
+    "ConsentSourceName": "McClure-Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldType": "System.String",
+        "FieldLength": 22
       }
     }
   }

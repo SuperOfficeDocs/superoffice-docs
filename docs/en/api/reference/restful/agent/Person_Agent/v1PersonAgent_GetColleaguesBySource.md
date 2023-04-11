@@ -105,8 +105,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 139
+  "Count": 423
 }
 ```
 
@@ -131,52 +131,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "dolor",
-    "PersonId": 561,
-    "Mrmrs": "sunt",
-    "Firstname": "Maxwell",
-    "Lastname": "Kshlerin",
-    "MiddleName": "Kuhlman, Rau and Mayer",
-    "Title": "accusantium",
-    "Description": "Proactive next generation internet solution",
-    "Email": "virginie.bergnaum@lowe.co.uk",
-    "FullName": "Miss Karine Frederik Kessler I",
-    "DirectPhone": "(134)772-4930",
-    "FormalName": "Stark Inc and Sons",
-    "CountryId": 380,
-    "ContactId": 125,
-    "ContactName": "Konopelski Group",
-    "Retired": 42,
-    "Rank": 820,
-    "ActiveInterests": 840,
+    "Position": "voluptatibus",
+    "PersonId": 130,
+    "Mrmrs": "est",
+    "Firstname": "Domenico",
+    "Lastname": "Thompson",
+    "MiddleName": "Dietrich, Keebler and Steuber",
+    "Title": "impedit",
+    "Description": "Future-proofed empowering artificial intelligence",
+    "Email": "matilde.lowe@hodkiewicz.com",
+    "FullName": "Prof. Oda Nicklaus Gutmann Sr.",
+    "DirectPhone": "885.539.3455 x437",
+    "FormalName": "Herzog LLC",
+    "CountryId": 178,
+    "ContactId": 458,
+    "ContactName": "Rau-Kautzer",
+    "Retired": 938,
+    "Rank": 789,
+    "ActiveInterests": 335,
     "ContactDepartment": "",
-    "ContactCountryId": 396,
-    "ContactOrgNr": "1402869",
-    "FaxPhone": "(094)726-6211 x69560",
-    "MobilePhone": "(966)186-4123",
-    "ContactPhone": "(213)441-7473 x907",
-    "AssociateName": "Hickle LLC",
-    "AssociateId": 871,
+    "ContactCountryId": 571,
+    "ContactOrgNr": "1063194",
+    "FaxPhone": "665.520.4341",
+    "MobilePhone": "166.216.6147",
+    "ContactPhone": "1-140-729-0124",
+    "AssociateName": "O'Hara Inc and Sons",
+    "AssociateId": 259,
     "UsePersonAddress": false,
-    "ContactFax": "dolores",
-    "Kanafname": "cum",
-    "Kanalname": "earum",
-    "Post1": "inventore",
-    "Post2": "voluptatibus",
-    "Post3": "quos",
-    "EmailName": "gennaro@graham.ca",
-    "ContactFullName": "Dave Harber",
-    "ActiveErpLinks": 242,
-    "TicketPriorityId": 202,
-    "SupportLanguageId": 394,
-    "SupportAssociateId": 724,
+    "ContactFax": "eaque",
+    "Kanafname": "qui",
+    "Kanalname": "et",
+    "Post1": "non",
+    "Post2": "harum",
+    "Post3": "odio",
+    "EmailName": "justine_larkin@schaden.info",
+    "ContactFullName": "Keon Weber",
+    "ActiveErpLinks": 684,
+    "TicketPriorityId": 104,
+    "SupportLanguageId": 72,
+    "SupportAssociateId": 974,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 102
       }
     }
   }

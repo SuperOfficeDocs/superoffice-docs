@@ -76,8 +76,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quas",
+  "RawValue": "debitis",
   "Specification": null,
-  "DisplayValue": "assumenda",
-  "DisplayTooltip": "ipsam",
+  "DisplayValue": "et",
+  "DisplayTooltip": "ut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 750,
-  "PrefDescId": 554,
-  "TableName": "Willms-Streich",
-  "UserPreferenceId": 101,
+  "TargetId": 212,
+  "PrefDescId": 820,
+  "TableName": "Goyette Group",
+  "UserPreferenceId": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 404
     }
   }
 }

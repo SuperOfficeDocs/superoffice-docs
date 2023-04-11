@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineShadowSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -723,7 +723,7 @@ Shadow contact provider for the quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowSelectionV2?$select=totalPriceWithAlternativeDiscount,alternative/version/quote/sale/person/searchPhone/description,alternative/version/quote/sale/person/personExtra/x_person_hidden_integer,alternative/version/quote/sale/person/correspondingAssociate/credentialDisplayValue,alternative/version/quote/sale/contact/restrictionAddress/state
+GET /api/v1/archive/QuoteLineShadowSelectionV2?$select=alternative/version/status,alternative/version/quote/sale/person/restrictionAddress/line2,alternative/version/quote/sale/person/personAssociate/simultaneousEjUser,alternative/version/quote/sale/project/projectAssociate/otherGroups,alternative/version/quote/connection/erpConnection/name
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

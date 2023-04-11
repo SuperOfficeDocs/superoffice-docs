@@ -36,13 +36,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=758
-POST /api/v1/Document/{documentId}/Content?personId=517
-POST /api/v1/Document/{documentId}/Content?appointmentId=685
-POST /api/v1/Document/{documentId}/Content?saleId=576
-POST /api/v1/Document/{documentId}/Content?selectionId=681
-POST /api/v1/Document/{documentId}/Content?projectId=164
-POST /api/v1/Document/{documentId}/Content?uiCulture=ullam
+POST /api/v1/Document/{documentId}/Content?contactId=679
+POST /api/v1/Document/{documentId}/Content?personId=850
+POST /api/v1/Document/{documentId}/Content?appointmentId=294
+POST /api/v1/Document/{documentId}/Content?saleId=688
+POST /api/v1/Document/{documentId}/Content?selectionId=930
+POST /api/v1/Document/{documentId}/Content?projectId=477
+POST /api/v1/Document/{documentId}/Content?uiCulture=rerum
 ```
 
 
@@ -111,8 +111,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -130,88 +130,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 214,
+  "DocumentId": 388,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "beatae",
-  "Header": "sunt",
-  "Name": "Kling-Kozey",
-  "OurRef": "minus",
+  "Attention": "ut",
+  "Header": "vitae",
+  "Name": "Koelpin Inc and Sons",
+  "OurRef": "veritatis",
   "YourRef": "omnis",
-  "CreatedDate": "1996-09-02T12:15:26.9136361+02:00",
-  "UpdatedDate": "2011-06-06T12:15:26.9136361+02:00",
-  "Description": "Up-sized explicit open system",
+  "CreatedDate": "2016-09-28T15:29:29.7231993+02:00",
+  "UpdatedDate": "2005-04-21T15:29:29.7231993+02:00",
+  "Description": "Automated national alliance",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1997-06-20T12:15:26.9176375+02:00",
-  "ExternalRef": "quibusdam",
+  "Date": "2022-06-21T15:29:29.7257047+02:00",
+  "ExternalRef": "aspernatur",
   "Completed": "Completed",
-  "ActiveLinks": 686,
+  "ActiveLinks": 811,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kshlerin Inc and Sons",
-      "Id": 50,
-      "Description": "Integrated methodical website",
-      "ExtraInfo": "voluptas",
-      "LinkId": 786,
+      "EntityName": "Bayer-Cormier",
+      "Id": 679,
+      "Description": "Mandatory hybrid circuit",
+      "ExtraInfo": "et",
+      "LinkId": 529,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldType": "System.String",
+          "FieldLength": 922
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 685,
-  "Snum": 431,
+  "SuggestedDocumentId": 566,
+  "Snum": 37,
   "UserDefinedFields": {
-    "SuperOffice:1": "1457585252",
-    "SuperOffice:2": "Evangeline Hoeger"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Meda Stroman"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "odio"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "2005-03-23T12:15:26.9186359+01:00",
-  "PublishTo": "2003-10-01T12:15:26.9186359+02:00",
-  "PublishFrom": "1997-06-02T12:15:26.9186359+02:00",
+  "PublishEventDate": "2021-07-09T15:29:29.7267008+02:00",
+  "PublishTo": "2000-11-09T15:29:29.7267008+01:00",
+  "PublishFrom": "1997-06-17T15:29:29.7267008+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 645,
+      "VisibleId": 117,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 794
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     },
     {
-      "VisibleId": 645,
+      "VisibleId": 117,
       "Visibility": "All",
-      "DisplayValue": "distinctio",
+      "DisplayValue": "eligendi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 794
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     }
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   }
 }

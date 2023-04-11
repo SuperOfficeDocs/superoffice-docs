@@ -90,8 +90,8 @@ OK
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -115,60 +115,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 265,
-    "Name": "Kovacek Group",
+    "TicketPriorityId": 442,
+    "Name": "Abbott Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 797,
+    "SortOrder": 317,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 392,
-    "MonStart": "2003-09-18T12:15:19.2047482+02:00",
-    "MonStop": "2012-01-31T12:15:19.2047482+01:00",
-    "TueStart": "2002-03-03T12:15:19.2047482+01:00",
-    "TueStop": "2015-06-22T12:15:19.2047482+02:00",
-    "WedStart": "2010-03-24T12:15:19.2047482+01:00",
-    "WedStop": "2014-07-27T12:15:19.2047482+02:00",
-    "ThuStart": "2016-12-15T12:15:19.2047482+01:00",
-    "ThuStop": "2000-05-06T12:15:19.2047482+02:00",
-    "FriStart": "1999-02-17T12:15:19.2047482+01:00",
-    "FriStop": "2005-08-31T12:15:19.2047482+02:00",
-    "SatStart": "2015-08-01T12:15:19.2047482+02:00",
-    "SatStop": "2001-12-24T12:15:19.2047482+01:00",
-    "SunStart": "1996-09-30T12:15:19.2047482+02:00",
-    "SunStop": "2002-08-21T12:15:19.2047482+02:00",
+    "Deadline": 435,
+    "MonStart": "2003-04-02T15:29:21.9653087+02:00",
+    "MonStop": "1996-09-14T15:29:21.9653087+02:00",
+    "TueStart": "2000-01-05T15:29:21.9653087+01:00",
+    "TueStop": "2022-05-26T15:29:21.9653087+02:00",
+    "WedStart": "1996-01-23T15:29:21.9653087+01:00",
+    "WedStop": "2015-07-01T15:29:21.9653087+02:00",
+    "ThuStart": "2001-06-17T15:29:21.9653087+02:00",
+    "ThuStop": "2021-03-23T15:29:21.9653087+01:00",
+    "FriStart": "2017-10-26T15:29:21.9653087+02:00",
+    "FriStop": "1996-10-15T15:29:21.9653087+02:00",
+    "SatStart": "2009-11-13T15:29:21.9653087+01:00",
+    "SatStop": "2017-09-08T15:29:21.9653087+02:00",
+    "SunStart": "2004-03-11T15:29:21.9653087+01:00",
+    "SunStop": "2017-08-10T15:29:21.9653087+02:00",
     "NonDates": [
-      "sed",
+      "natus",
       "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 500,
-        "AlertLevel": 976,
-        "AlertTimeout": 898,
-        "Action": 546,
-        "DelegateTo": 652,
-        "ScriptId": 144,
-        "EmailTo": "jaden@spinka.name",
-        "SmsTo": "sit",
-        "ReplyTemplateIdCustomer": 316,
-        "ReplyTemplateIdUser": 706,
-        "ReplyTemplateIdCatmast": 820,
-        "ReplyTemplateIdEmail": 314,
-        "RtiCustomerSms": 311,
-        "ReplyTemplateIdUserSms": 842,
-        "ReplyTemplateIdCatmastSms": 776,
-        "ReplyTemplateIdSms": 411,
+        "TicketAlertId": 476,
+        "AlertLevel": 487,
+        "AlertTimeout": 563,
+        "Action": 631,
+        "DelegateTo": 895,
+        "ScriptId": 364,
+        "EmailTo": "timothy@reichert.ca",
+        "SmsTo": "dolor",
+        "ReplyTemplateIdCustomer": 819,
+        "ReplyTemplateIdUser": 620,
+        "ReplyTemplateIdCatmast": 654,
+        "ReplyTemplateIdEmail": 669,
+        "RtiCustomerSms": 57,
+        "ReplyTemplateIdUserSms": 751,
+        "ReplyTemplateIdCatmastSms": 504,
+        "ReplyTemplateIdSms": 854,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 352
+            "FieldLength": 340
           }
         }
       }
@@ -178,7 +178,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldLength": 97
       }
     }
   }

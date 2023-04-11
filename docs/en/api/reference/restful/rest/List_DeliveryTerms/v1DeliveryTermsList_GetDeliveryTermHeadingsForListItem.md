@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Cartwright-Emmerich",
-    "ToolTip": "Laudantium dolore possimus officia.",
-    "Deleted": false,
-    "Rank": 46,
-    "Type": "ex",
-    "ColorBlock": 198,
-    "IconHint": "natus",
-    "Selected": false,
-    "LastChanged": "2020-11-14T12:15:28.116619+01:00",
+    "Id": 173,
+    "Name": "Jacobs-Smitham",
+    "ToolTip": "Et nostrum qui inventore.",
+    "Deleted": true,
+    "Rank": 361,
+    "Type": "consequatur",
+    "ColorBlock": 193,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "1997-10-31T15:29:31.2279804+01:00",
     "ChildItems": [
       {
-        "Id": 675,
-        "Name": "Auer-Jerde",
-        "ToolTip": "Commodi ea.",
+        "Id": 648,
+        "Name": "Macejkovic LLC",
+        "ToolTip": "Optio voluptatem et commodi unde.",
         "Deleted": false,
-        "Rank": 782,
-        "Type": "atque",
-        "ColorBlock": 526,
-        "IconHint": "accusamus",
+        "Rank": 477,
+        "Type": "rerum",
+        "ColorBlock": 795,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2005-08-07T12:15:28.1176187+02:00",
+        "LastChanged": "2011-12-19T15:29:31.2279804+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "dolores",
+        "ExtraInfo": "dicta",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Scot Funk",
+        "FullName": "Mr. Tito Matilde Kuhn I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 720
+            "FieldType": "System.Int32",
+            "FieldLength": 855
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "eveniet",
-    "Hidden": true,
-    "FullName": "Ofelia Rice",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Mr. Earlene Ziemann DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 379
       }
     }
   }

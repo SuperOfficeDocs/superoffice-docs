@@ -119,8 +119,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -133,40 +133,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 339,
-    "ColumnId": 249,
-    "FieldDefault": "sint",
-    "FieldHeight": 987,
-    "FieldLabel": "occaecati",
-    "FieldLeft": 5,
-    "FieldTop": 233,
+    "UDefFieldId": 945,
+    "ColumnId": 254,
+    "FieldDefault": "omnis",
+    "FieldHeight": 381,
+    "FieldLabel": "et",
+    "FieldLeft": 984,
+    "FieldTop": 889,
     "FieldType": "Checkbox",
-    "FieldWidth": 897,
-    "FormatMask": "nostrum",
+    "FieldWidth": 817,
+    "FormatMask": "aut",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 52,
-    "LabelLeft": 281,
-    "LabelTop": 706,
-    "LabelWidth": 928,
-    "LastVersionId": 896,
-    "ListTableId": 994,
-    "IsMandatory": true,
+    "LabelHeight": 972,
+    "LabelLeft": 885,
+    "LabelTop": 6,
+    "LabelWidth": 207,
+    "LastVersionId": 510,
+    "ListTableId": 370,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 680,
-    "ProgId": "a",
+    "Page1LineNo": 294,
+    "ProgId": "ut",
     "IsReadOnly": false,
-    "ShortLabel": "maxime",
-    "TabOrder": 293,
-    "TextLength": 247,
-    "Tooltip": "ut",
-    "UdefIdentity": 57,
-    "UDListDefinitionId": 214,
+    "ShortLabel": "asperiores",
+    "TabOrder": 505,
+    "TextLength": 915,
+    "Tooltip": "consequatur",
+    "UdefIdentity": 265,
+    "UDListDefinitionId": 494,
     "Justification": "Center",
-    "Version": 68,
-    "TemplateVariableName": "Lakin Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Ortiz-O'Keefe"
+    "Version": 913,
+    "TemplateVariableName": "Balistreri Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Hintz, Towne and Will"
   }
 ]
 ```
@@ -179,46 +179,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 185,
-    "ColumnId": 722,
-    "FieldDefault": "tempore",
-    "FieldHeight": 614,
-    "FieldLabel": "officiis",
-    "FieldLeft": 106,
-    "FieldTop": 86,
+    "UDefFieldId": 964,
+    "ColumnId": 749,
+    "FieldDefault": "assumenda",
+    "FieldHeight": 708,
+    "FieldLabel": "ea",
+    "FieldLeft": 552,
+    "FieldTop": 876,
     "FieldType": "Checkbox",
-    "FieldWidth": 93,
-    "FormatMask": "labore",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 687,
-    "LabelLeft": 628,
-    "LabelTop": 23,
-    "LabelWidth": 949,
-    "LastVersionId": 552,
-    "ListTableId": 741,
+    "FieldWidth": 17,
+    "FormatMask": "voluptatum",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 137,
+    "LabelLeft": 436,
+    "LabelTop": 910,
+    "LabelWidth": 51,
+    "LastVersionId": 520,
+    "ListTableId": 357,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 30,
-    "ProgId": "praesentium",
+    "Page1LineNo": 587,
+    "ProgId": "ut",
     "IsReadOnly": true,
-    "ShortLabel": "explicabo",
-    "TabOrder": 916,
-    "TextLength": 553,
-    "Tooltip": "voluptatem",
-    "UdefIdentity": 916,
-    "UDListDefinitionId": 560,
+    "ShortLabel": "tenetur",
+    "TabOrder": 902,
+    "TextLength": 757,
+    "Tooltip": "enim",
+    "UdefIdentity": 499,
+    "UDListDefinitionId": 646,
     "Justification": "Center",
-    "Version": 421,
-    "TemplateVariableName": "Schowalter Group",
+    "Version": 993,
+    "TemplateVariableName": "Morissette-Littel",
     "HasBeenPublished": false,
-    "MdoListName": "Rosenbaum-Gutmann",
+    "MdoListName": "Hahn Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 545
       }
     }
   }

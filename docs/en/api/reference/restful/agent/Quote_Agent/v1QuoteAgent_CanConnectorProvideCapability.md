@@ -72,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 202,
-  "CapabilityName": "Gulgowski-Sipes"
+  "QuoteConnectionId": 495,
+  "CapabilityName": "Bradtke, Conroy and Bartoletti"
 }
 ```
 

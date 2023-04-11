@@ -78,8 +78,8 @@ DashTheme updated.
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -88,16 +88,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 767,
-  "Name": "Reilly, Rodriguez and Gleason",
-  "Config": "eveniet",
-  "Rank": 403,
-  "Client": "quos",
-  "Style": "et"
+  "DashboardThemeId": 214,
+  "Name": "Ankunding Inc and Sons",
+  "Config": "dolores",
+  "Rank": 940,
+  "Client": "voluptates",
+  "Style": "quisquam"
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 889,
-  "Name": "Zieme-Keebler",
-  "Config": "quas",
-  "Rank": 770,
-  "Client": "at",
-  "Style": "illo",
+  "DashboardThemeId": 614,
+  "Name": "Sanford-Fadel",
+  "Config": "et",
+  "Rank": 356,
+  "Client": "temporibus",
+  "Style": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldType": "System.String",
+      "FieldLength": 370
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -66,8 +66,8 @@ Dashboard found.
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -86,22 +86,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 950,
-  "AssociateId": 317,
-  "Caption": "fugit",
+  "DashboardId": 953,
+  "AssociateId": 678,
+  "Caption": "totam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 50,
-      "Caption": "consequuntur",
-      "Description": "Programmable tangible standardization",
-      "ChartName": "Little, Predovic and Waters",
-      "ChartId": "voluptate",
+      "DashboardTileId": 787,
+      "Caption": "autem",
+      "Description": "Implemented assymetric initiative",
+      "ChartName": "Emard Group",
+      "ChartId": "sint",
       "IsDefault": false,
-      "AssociateId": 635,
-      "GroupId": 291,
-      "SelectionId": 822,
-      "Config": "et",
+      "AssociateId": 150,
+      "GroupId": 791,
+      "SelectionId": 484,
+      "Config": "suscipit",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldLength": 689
         }
       }
     }
@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 339
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

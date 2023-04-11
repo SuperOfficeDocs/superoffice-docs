@@ -70,8 +70,8 @@ OK
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mraz-Spencer"
+  "TableName": "Wiza, Hessel and Cummerata"
 }
 ```
 
@@ -95,40 +95,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "officiis",
-  "Inserts": 576,
-  "Updates": 128,
-  "Deletes": 546,
+  "Message": "ducimus",
+  "Inserts": 347,
+  "Updates": 434,
+  "Deletes": 138,
   "RowStatus": [
     {
-      "PrimaryKey": 87,
+      "PrimaryKey": 364,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolor",
-        "quasi"
+        "nisi",
+        "exercitationem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 626
         }
       }
     },
     {
-      "PrimaryKey": 87,
+      "PrimaryKey": 364,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "dolor",
-        "quasi"
+        "nisi",
+        "exercitationem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 626
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 198
     }
   }
 }

@@ -113,8 +113,8 @@ OK
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -122,100 +122,100 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 149,
-  "Name": "Predovic Group",
-  "ProjectNumber": "275736",
+  "ProjectId": 461,
+  "Name": "Altenwerth, Watsica and Dickinson",
+  "ProjectNumber": "871479",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 260,
-      "ContactId": 751,
-      "ProjectId": 941,
-      "ContactName": "Ward, Green and Gleichner",
-      "ContactDepartment": "scale compelling web services",
-      "ProjectName": "Dooley-Bartoletti",
-      "EmailId": 364,
-      "EmailAddress": "ellie_cummings@rippin.us",
-      "CountryId": 383,
-      "Firstname": "Hadley",
-      "MiddleName": "Kihn Inc and Sons",
-      "Lastname": "Halvorson",
-      "PersonId": 856,
-      "Mrmrs": "voluptatibus",
-      "ProjectMemberTypeName": "O'Keefe-Smith",
-      "Phone": "304.966.8652 x6594",
-      "PhoneId": 663,
-      "ProjectMemberTypeId": 718,
-      "EmailAddressName": "janie@heathcote.name",
-      "Comment": "aut",
-      "FullName": "Llewellyn Kallie Becker MD"
+      "ProjectmemberId": 533,
+      "ContactId": 577,
+      "ProjectId": 411,
+      "ContactName": "Lindgren, Kunde and Boyer",
+      "ContactDepartment": "",
+      "ProjectName": "Bailey-Willms",
+      "EmailId": 323,
+      "EmailAddress": "christian.hahn@friesenborer.ca",
+      "CountryId": 185,
+      "Firstname": "Douglas",
+      "MiddleName": "Harvey, Haley and McClure",
+      "Lastname": "Wintheiser",
+      "PersonId": 15,
+      "Mrmrs": "necessitatibus",
+      "ProjectMemberTypeName": "Daugherty LLC",
+      "Phone": "113.085.9294 x27045",
+      "PhoneId": 492,
+      "ProjectMemberTypeId": 887,
+      "EmailAddressName": "adell@hyattlabadie.info",
+      "Comment": "quam",
+      "FullName": "Oceane Wisozk"
     }
   ],
   "Urls": [
     {
-      "Value": "sit",
-      "StrippedValue": "blanditiis",
-      "Description": "Exclusive clear-thinking customer loyalty"
+      "Value": "ipsam",
+      "StrippedValue": "vel",
+      "Description": "Managed 24/7 model"
     },
     {
-      "Value": "sit",
-      "StrippedValue": "blanditiis",
-      "Description": "Exclusive clear-thinking customer loyalty"
+      "Value": "ipsam",
+      "StrippedValue": "vel",
+      "Description": "Managed 24/7 model"
     }
   ],
-  "CreatedDate": "2014-06-13T12:15:19.80074+02:00",
-  "UpdatedDate": "2009-08-16T12:15:19.80074+02:00",
-  "Description": "Adaptive national definition",
-  "Postit": "nihil",
+  "CreatedDate": "2000-10-09T15:29:22.4297998+02:00",
+  "UpdatedDate": "1999-07-04T15:29:22.4297998+02:00",
+  "Description": "Synergized disintermediate website",
+  "Postit": "dolorum",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Monitored explicit Graphical User Interface",
-  "ActiveStatusMonitorId": 458,
+  "ImageDescription": "User-centric incremental concept",
+  "ActiveStatusMonitorId": 866,
   "Links": [
     {
-      "EntityName": "Halvorson LLC",
-      "Id": 99,
-      "Description": "Open-architected motivating website",
-      "ExtraInfo": "quasi",
-      "LinkId": 541
+      "EntityName": "Hyatt-Wintheiser",
+      "Id": 690,
+      "Description": "Visionary intangible capacity",
+      "ExtraInfo": "praesentium",
+      "LinkId": 636
     },
     {
-      "EntityName": "Halvorson LLC",
-      "Id": 99,
-      "Description": "Open-architected motivating website",
-      "ExtraInfo": "quasi",
-      "LinkId": 541
+      "EntityName": "Hyatt-Wintheiser",
+      "Id": 690,
+      "Description": "Visionary intangible capacity",
+      "ExtraInfo": "praesentium",
+      "LinkId": 636
     }
   ],
-  "ActiveLinks": 113,
-  "Completed": true,
-  "NextMilestoneDate": "2015-08-05T12:15:19.8017394+02:00",
-  "NmdAppointmentId": 546,
-  "EndDate": "2002-03-13T12:15:19.8017394+01:00",
-  "ActiveErpLinks": 718,
+  "ActiveLinks": 520,
+  "Completed": false,
+  "NextMilestoneDate": "2007-11-14T15:29:22.4308003+01:00",
+  "NmdAppointmentId": 374,
+  "EndDate": "2021-06-07T15:29:22.4308003+02:00",
+  "ActiveErpLinks": 255,
   "UserDefinedFields": {
-    "SuperOffice:1": "Aletha Earlene Weissnat V",
-    "SuperOffice:2": "2078656254"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "autem"
+    "CustomFields1": "numquam",
+    "CustomFields2": "ad"
   },
-  "PublishEventDate": "2005-01-07T12:15:19.8027393+01:00",
-  "PublishTo": "2010-11-12T12:15:19.8027393+01:00",
-  "PublishFrom": "2000-05-28T12:15:19.8027393+02:00",
-  "IsPublished": true
+  "PublishEventDate": "2005-01-25T15:29:22.4308003+01:00",
+  "PublishTo": "2008-03-20T15:29:22.4308003+01:00",
+  "PublishFrom": "2017-06-13T15:29:22.4308003+02:00",
+  "IsPublished": false
 }
 ```
 
@@ -226,127 +226,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 176,
-  "Name": "Emard-Conroy",
-  "ProjectNumber": "761026",
+  "ProjectId": 921,
+  "Name": "Quitzon-Torp",
+  "ProjectNumber": "672137",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 636,
-      "ContactId": 555,
-      "ProjectId": 429,
-      "ContactName": "Macejkovic LLC",
+      "ProjectmemberId": 258,
+      "ContactId": 679,
+      "ProjectId": 966,
+      "ContactName": "Schoen-Hoeger",
       "ContactDepartment": "",
-      "ProjectName": "Johnston-Crona",
-      "EmailId": 834,
-      "EmailAddress": "rowland@turcottehaley.co.uk",
-      "CountryId": 682,
-      "Firstname": "Mary",
-      "MiddleName": "Lakin-Nolan",
-      "Lastname": "Runolfsdottir",
-      "PersonId": 867,
-      "Mrmrs": "similique",
-      "ProjectMemberTypeName": "Renner Inc and Sons",
-      "Phone": "326-562-3759 x34890",
-      "PhoneId": 574,
-      "ProjectMemberTypeId": 776,
-      "EmailAddressName": "adolf.hegmann@rice.biz",
-      "Comment": "repellendus",
-      "FullName": "Buster Schmidt",
+      "ProjectName": "Watsica Group",
+      "EmailId": 165,
+      "EmailAddress": "corine.sauer@harvey.us",
+      "CountryId": 185,
+      "Firstname": "Noe",
+      "MiddleName": "Hoeger Group",
+      "Lastname": "Koepp",
+      "PersonId": 152,
+      "Mrmrs": "neque",
+      "ProjectMemberTypeName": "Bergnaum Inc and Sons",
+      "Phone": "1-344-698-0821 x4687",
+      "PhoneId": 781,
+      "ProjectMemberTypeId": 322,
+      "EmailAddressName": "logan@emmerich.biz",
+      "Comment": "placeat",
+      "FullName": "Eldred Schaden I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldType": "System.String",
+          "FieldLength": 688
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "occaecati",
-      "StrippedValue": "sunt",
-      "Description": "Secured logistical portal",
+      "Value": "voluptatem",
+      "StrippedValue": "velit",
+      "Description": "Managed interactive groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 914
         }
       }
     },
     {
-      "Value": "occaecati",
-      "StrippedValue": "sunt",
-      "Description": "Secured logistical portal",
+      "Value": "voluptatem",
+      "StrippedValue": "velit",
+      "Description": "Managed interactive groupware",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 914
         }
       }
     }
   ],
-  "CreatedDate": "2005-11-22T12:15:19.8067395+01:00",
-  "UpdatedDate": "2014-06-13T12:15:19.8067395+02:00",
-  "Description": "Seamless didactic alliance",
-  "Postit": "ea",
+  "CreatedDate": "2011-05-28T15:29:22.4349679+02:00",
+  "UpdatedDate": "1998-11-29T15:29:22.4349679+01:00",
+  "Description": "Pre-emptive zero defect function",
+  "Postit": "ab",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Ameliorated context-sensitive solution",
-  "ActiveStatusMonitorId": 34,
+  "HasImage": true,
+  "ImageDescription": "Digitized national product",
+  "ActiveStatusMonitorId": 506,
   "Links": [
     {
-      "EntityName": "Kunze Inc and Sons",
-      "Id": 56,
-      "Description": "Innovative encompassing complexity",
-      "ExtraInfo": "sapiente",
-      "LinkId": 1001,
+      "EntityName": "O'Connell-Mohr",
+      "Id": 850,
+      "Description": "Polarised attitude-oriented migration",
+      "ExtraInfo": "neque",
+      "LinkId": 168,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 217
+          "FieldType": "System.Int32",
+          "FieldLength": 986
         }
       }
     }
   ],
-  "ActiveLinks": 311,
+  "ActiveLinks": 43,
   "Completed": true,
-  "NextMilestoneDate": "2006-05-27T12:15:19.8077391+02:00",
-  "NmdAppointmentId": 537,
-  "EndDate": "1997-03-14T12:15:19.8077391+01:00",
-  "ActiveErpLinks": 559,
+  "NextMilestoneDate": "2011-10-23T15:29:22.4362998+02:00",
+  "NmdAppointmentId": 63,
+  "EndDate": "1996-06-09T15:29:22.4362998+02:00",
+  "ActiveErpLinks": 851,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Prof. Raoul Thompson"
+    "SuperOffice:1": "Mariano Johns",
+    "SuperOffice:2": "Martina Mohr"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "et"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "sint"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "magni"
   },
-  "PublishEventDate": "2003-10-11T12:15:19.8087395+02:00",
-  "PublishTo": "2019-12-23T12:15:19.8087395+01:00",
-  "PublishFrom": "2012-02-06T12:15:19.8087395+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1996-04-17T15:29:22.4362998+02:00",
+  "PublishTo": "2014-01-31T15:29:22.4362998+01:00",
+  "PublishFrom": "2011-09-27T15:29:22.4362998+02:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 724
     }
   }
 }

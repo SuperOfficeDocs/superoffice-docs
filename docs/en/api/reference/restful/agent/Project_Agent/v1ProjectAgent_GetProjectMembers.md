@@ -83,8 +83,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 395
+  "ProjectId": 146
 }
 ```
 
@@ -108,33 +108,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 39,
-    "ContactId": 325,
-    "ProjectId": 642,
-    "ContactName": "Medhurst-Wuckert",
+    "ProjectmemberId": 243,
+    "ContactId": 881,
+    "ProjectId": 871,
+    "ContactName": "Kemmer Inc and Sons",
     "ContactDepartment": "",
-    "ProjectName": "Dach-Anderson",
-    "EmailId": 324,
-    "EmailAddress": "eugenia.bergnaum@reichert.us",
-    "CountryId": 347,
-    "Firstname": "Buddy",
-    "MiddleName": "Zieme-Heaney",
-    "Lastname": "Larson",
-    "PersonId": 638,
-    "Mrmrs": "tenetur",
-    "ProjectMemberTypeName": "Miller, Langosh and Simonis",
-    "Phone": "759.406.3726 x415",
-    "PhoneId": 334,
-    "ProjectMemberTypeId": 972,
-    "EmailAddressName": "christine.flatley@christiansenhauck.info",
-    "Comment": "numquam",
-    "FullName": "Ashley Jacobs",
+    "ProjectName": "Walker LLC",
+    "EmailId": 796,
+    "EmailAddress": "abel@bogisich.info",
+    "CountryId": 137,
+    "Firstname": "Brandyn",
+    "MiddleName": "Denesik-Leffler",
+    "Lastname": "Cole",
+    "PersonId": 496,
+    "Mrmrs": "ad",
+    "ProjectMemberTypeName": "Kerluke Inc and Sons",
+    "Phone": "078-361-2639",
+    "PhoneId": 909,
+    "ProjectMemberTypeId": 414,
+    "EmailAddressName": "britney@lockman.com",
+    "Comment": "eum",
+    "FullName": "Prof. Genoveva Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 751
       }
     }
   }

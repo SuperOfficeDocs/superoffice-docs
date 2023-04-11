@@ -76,8 +76,8 @@ OK
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,94 +95,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "vitae",
-  "SignOffText": "assumenda",
-  "SignOnConfirmationText": "ratione",
-  "SignOnText": "officiis",
-  "EventDate": "1997-01-03T12:15:19.8107405+01:00",
+  "SignOffConfirmationText": "temporibus",
+  "SignOffText": "in",
+  "SignOnConfirmationText": "repellendus",
+  "SignOnText": "tenetur",
+  "EventDate": "1996-10-08T15:29:22.4388028+02:00",
   "Enabled": false,
-  "CreatedDate": "2008-05-25T12:15:19.8107405+02:00",
-  "SignOff": true,
+  "CreatedDate": "2019-08-20T15:29:22.4388028+02:00",
+  "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 723,
+  "SignOffTaskId": 384,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 594,
-  "SignOnTriggersAssign": false,
-  "UpdatedDate": "2014-11-02T12:15:19.8107405+01:00",
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 660,
+  "SignOnTriggersAssign": true,
+  "UpdatedDate": "1997-04-10T15:29:22.4388028+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 932,
-  "Id": 698,
-  "PublishFrom": "2001-12-06T12:15:19.8117421+01:00",
+  "ProjectId": 853,
+  "Id": 775,
+  "PublishFrom": "2019-08-05T15:29:22.4398027+02:00",
   "PublishType": "External",
-  "PublishTo": "2016-01-29T12:15:19.8117421+01:00",
+  "PublishTo": "2022-09-16T15:29:22.4398027+02:00",
   "VisibleForCategories": [
     {
-      "Id": 752,
-      "Name": "Volkman, Hirthe and Schmitt",
-      "ToolTip": "Ea commodi vel ratione.",
+      "Id": 313,
+      "Name": "O'Keefe-Walter",
+      "ToolTip": "At fuga explicabo.",
       "Deleted": false,
-      "Rank": 142,
-      "Type": "quis",
+      "Rank": 509,
+      "Type": "ab",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "esse",
-      "ColorBlock": 477,
-      "ExtraInfo": "consequatur",
-      "StyleHint": "ad",
-      "FullName": "Darien Schulist DDS",
+      "IconHint": "ut",
+      "ColorBlock": 953,
+      "ExtraInfo": "quos",
+      "StyleHint": "quasi",
+      "FullName": "Elenor Smith DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 646
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 910,
-      "Name": "Howe-Ondricka",
-      "ToolTip": "Est reprehenderit.",
-      "Deleted": true,
-      "Rank": 705,
-      "Type": "sed",
+      "Id": 659,
+      "Name": "Rippin, Emard and Ziemann",
+      "ToolTip": "Modi aspernatur aperiam eaque aliquam id perferendis.",
+      "Deleted": false,
+      "Rank": 493,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 727,
-      "ExtraInfo": "labore",
-      "StyleHint": "molestias",
-      "FullName": "Prof. Zetta Delaney Abbott",
+      "IconHint": "sit",
+      "ColorBlock": 458,
+      "ExtraInfo": "asperiores",
+      "StyleHint": "expedita",
+      "FullName": "Maybelle Reinger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 162
+          "FieldType": "System.Int32",
+          "FieldLength": 864
         }
       }
     }
   ],
   "IsPublished": true,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 726,
+  "ProjectEventId": 756,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 739
+      "FieldLength": 292
     }
   }
 }

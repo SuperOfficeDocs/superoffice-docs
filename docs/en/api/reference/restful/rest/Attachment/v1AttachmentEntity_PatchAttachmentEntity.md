@@ -102,8 +102,9 @@ AttachmentEntity  updated.
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -112,18 +113,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nulla",
+    "path": "perferendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nulla",
+    "path": "perferendis",
     "value": {}
   }
 ]
@@ -136,18 +137,19 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 74,
-  "Name": "Wunsch Inc and Sons",
-  "ContentType": "nihil",
-  "AttSize": 480,
-  "InlineImage": false,
-  "ContentId": "voluptas",
+  "AttachmentId": 107,
+  "Name": "Walsh Group",
+  "ContentType": "sit",
+  "AttSize": 850,
+  "InlineImage": true,
+  "ContentId": "earum",
+  "AuthKey": "expedita",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 155
     }
   },
   "_Links": {

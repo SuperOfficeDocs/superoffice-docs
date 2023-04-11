@@ -78,8 +78,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 220,
-    "ColumnId": 106,
-    "FieldDefault": "reprehenderit",
-    "FieldHeight": 711,
-    "FieldLabel": "non",
-    "FieldLeft": 568,
-    "FieldTop": 193,
+    "UDefFieldId": 377,
+    "ColumnId": 197,
+    "FieldDefault": "vel",
+    "FieldHeight": 532,
+    "FieldLabel": "corrupti",
+    "FieldLeft": 709,
+    "FieldTop": 96,
     "FieldType": "Checkbox",
-    "FieldWidth": 253,
-    "FormatMask": "molestias",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 625,
-    "LabelLeft": 992,
-    "LabelTop": 801,
-    "LabelWidth": 847,
-    "LastVersionId": 300,
-    "ListTableId": 357,
-    "IsMandatory": true,
+    "FieldWidth": 311,
+    "FormatMask": "laboriosam",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 286,
+    "LabelLeft": 764,
+    "LabelTop": 173,
+    "LabelWidth": 297,
+    "LastVersionId": 302,
+    "ListTableId": 258,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 471,
-    "ProgId": "suscipit",
-    "IsReadOnly": true,
-    "ShortLabel": "excepturi",
-    "TabOrder": 178,
-    "TextLength": 488,
-    "Tooltip": "possimus",
-    "UdefIdentity": 480,
-    "UDListDefinitionId": 28,
+    "Page1LineNo": 577,
+    "ProgId": "soluta",
+    "IsReadOnly": false,
+    "ShortLabel": "possimus",
+    "TabOrder": 773,
+    "TextLength": 538,
+    "Tooltip": "in",
+    "UdefIdentity": 327,
+    "UDListDefinitionId": 97,
     "Justification": "Center",
-    "Version": 670,
-    "TemplateVariableName": "Barrows Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Kub, Ruecker and Sporer",
+    "Version": 409,
+    "TemplateVariableName": "Shields, Batz and Hartmann",
+    "HasBeenPublished": true,
+    "MdoListName": "Braun, Grady and Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 128
       }
     }
   }

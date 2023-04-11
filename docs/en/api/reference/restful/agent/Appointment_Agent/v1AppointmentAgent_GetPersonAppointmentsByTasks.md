@@ -118,8 +118,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -131,14 +131,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 546,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2023-02-07T12:15:17.625771+01:00",
-  "EndTime": "2017-05-24T12:15:17.625771+02:00",
-  "Count": 809,
+  "PersonId": 574,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2011-05-19T15:29:20.2388254+02:00",
+  "EndTime": "2012-02-04T15:29:20.2388254+01:00",
+  "Count": 826,
   "TaskIds": [
-    571,
-    13
+    444,
+    845
   ]
 }
 ```
@@ -151,53 +151,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 996,
-    "StartDate": "1997-11-27T12:15:17.6277714+01:00",
-    "EndDate": "2017-07-10T12:15:17.6277714+02:00",
+    "AppointmentId": 625,
+    "StartDate": "2021-08-01T15:29:20.2408246+02:00",
+    "EndDate": "2010-12-09T15:29:20.2408246+01:00",
     "Type": "BookingForChecklist",
-    "Task": "itaque",
-    "AssociateFullName": "Esther Champlin",
-    "ContactName": "Kutch-Aufderhar",
-    "Description": "Assimilated neutral task-force",
-    "PersonFullName": "Ronny Kerluke",
-    "PersonId": 39,
-    "ContactId": 850,
-    "ProjectId": 594,
-    "ProjectName": "McClure-Ernser",
-    "IsPublished": true,
-    "AssociateId": 195,
-    "ColorIndex": 393,
+    "Task": "repellat",
+    "AssociateFullName": "Concepcion Ebert",
+    "ContactName": "Windler, Effertz and Jewess",
+    "Description": "Implemented 4th generation structure",
+    "PersonFullName": "Miss Lura Reynolds III",
+    "PersonId": 331,
+    "ContactId": 145,
+    "ProjectId": 654,
+    "ProjectName": "Carter, Raynor and Nienow",
+    "IsPublished": false,
+    "AssociateId": 973,
+    "ColorIndex": 674,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 253,
-    "PriorityName": "Witting, Schaefer and Kertzmann",
+    "PriorityId": 687,
+    "PriorityName": "Stiedemann-Gerlach",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2010-01-07T12:15:17.6277714+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2018-10-29T15:29:20.2413269+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-02-15T12:15:17.6277714+01:00",
-    "RecurringEndDate": "2016-01-29T12:15:17.6277714+01:00",
-    "MotherId": 748,
-    "AssignedBy": 660,
-    "AssignedByFullName": "Tony Hazle Cummerata I",
+    "RecurringStartDate": "2021-01-13T15:29:20.2413269+01:00",
+    "RecurringEndDate": "1998-12-07T15:29:20.2413269+01:00",
+    "MotherId": 630,
+    "AssignedBy": 981,
+    "AssignedByFullName": "Mr. Neil Emmerich",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "architecto",
-    "SaleId": 749,
-    "SaleName": "Morissette Inc and Sons",
-    "AssociateName": "Mohr LLC",
-    "CreatedDate": "1996-06-30T12:15:17.6277714+02:00",
-    "CreatedBy": "blanditiis",
-    "CreatedByFullName": "Joanny Collier",
-    "CreatedByAssociateId": 449,
+    "Location": "ex",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 302,
+    "SaleName": "Marvin LLC",
+    "AssociateName": "Boyle-Schmeler",
+    "CreatedDate": "2012-05-30T15:29:20.2413269+02:00",
+    "CreatedBy": "tenetur",
+    "CreatedByFullName": "Quinten Cremin",
+    "CreatedByAssociateId": 220,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 6
       }
     }
   }

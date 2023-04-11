@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Lehner-Zboncak",
-    "ToolTip": "Temporibus soluta.",
+    "Id": 390,
+    "Name": "Rosenbaum, Wolf and Koss",
+    "ToolTip": "Voluptates consectetur odio.",
     "Deleted": true,
-    "Rank": 452,
-    "Type": "quia",
-    "ColorBlock": 314,
-    "IconHint": "sed",
+    "Rank": 299,
+    "Type": "saepe",
+    "ColorBlock": 814,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2004-01-02T12:15:28.1696187+01:00",
+    "LastChanged": "2004-11-01T15:29:31.2814783+01:00",
     "ChildItems": [
       {
-        "Id": 462,
-        "Name": "Frami Group",
-        "ToolTip": "Vero odio quia doloribus.",
-        "Deleted": false,
-        "Rank": 109,
-        "Type": "qui",
-        "ColorBlock": 290,
-        "IconHint": "a",
+        "Id": 511,
+        "Name": "Leannon-Jewess",
+        "ToolTip": "Omnis provident adipisci possimus veniam et nihil minus.",
+        "Deleted": true,
+        "Rank": 629,
+        "Type": "consectetur",
+        "ColorBlock": 837,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "1995-12-22T12:15:28.1696187+01:00",
+        "LastChanged": "2002-03-05T15:29:31.2814783+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "delectus",
-        "Hidden": true,
-        "FullName": "Jaida Veum",
+        "ExtraInfo": "vel",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Marco Erick Weissnat Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Mrs. Alysa Rempel",
+    "ExtraInfo": "dolor",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Prof. Willow Gage Brekke I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 154
       }
     }
   }

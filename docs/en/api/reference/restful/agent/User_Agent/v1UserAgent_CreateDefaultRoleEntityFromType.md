@@ -79,8 +79,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,16 +103,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 431,
-  "Name": "Cremin Group",
-  "Tooltip": "ducimus",
+  "RoleId": 506,
+  "Name": "Yundt Group",
+  "Tooltip": "nihil",
   "RoleType": "Anonymous",
-  "Deleted": 545,
-  "Rank": 664,
-  "Created": "2022-10-29T12:15:20.5717281+02:00",
-  "UseCategories": 500,
+  "Deleted": 940,
+  "Rank": 697,
+  "Created": "2000-07-31T15:29:23.3432539+02:00",
+  "UseCategories": 618,
   "CreatedBy": null,
-  "Updated": "2022-12-29T12:15:20.5717281+01:00",
+  "Updated": "2019-02-21T15:29:23.3432539+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldLength": 148
     }
   }
 }

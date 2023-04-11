@@ -140,8 +140,8 @@ ContactEntity  updated.
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -150,18 +150,18 @@ ContactEntity  updated.
 PATCH /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quod",
+    "path": "officia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quod",
+    "path": "officia",
     "value": {}
   }
 ]
@@ -174,157 +174,157 @@ HTTP/1.1 200 ContactEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 433,
-  "Name": "Collins, Wilderman and Halvorson",
+  "ContactId": 66,
+  "Name": "Schuster-Reichel",
   "Department": "",
-  "OrgNr": "1169804",
-  "Number1": "1369043",
-  "Number2": "410232",
-  "UpdatedDate": "2007-04-23T12:15:26.7216391+02:00",
-  "CreatedDate": "2003-05-02T12:15:26.7216391+02:00",
+  "OrgNr": "1638194",
+  "Number1": "1144697",
+  "Number2": "501180",
+  "UpdatedDate": "2013-02-21T15:29:29.5607019+01:00",
+  "CreatedDate": "2015-11-23T15:29:29.5607019+01:00",
   "Emails": [
     {
-      "Value": "sint",
-      "StrippedValue": "earum",
-      "Description": "Reverse-engineered user-facing firmware",
+      "Value": "velit",
+      "StrippedValue": "vel",
+      "Description": "Balanced background service-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     },
     {
-      "Value": "sint",
-      "StrippedValue": "earum",
-      "Description": "Reverse-engineered user-facing firmware",
+      "Value": "velit",
+      "StrippedValue": "vel",
+      "Description": "Balanced background service-desk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 306,
-      "Name": "Abbott Inc and Sons",
-      "ToolTip": "Itaque quibusdam et blanditiis pariatur sunt laudantium.",
-      "Deleted": true,
-      "Rank": 850,
-      "Type": "temporibus",
-      "ColorBlock": 424,
-      "IconHint": "veritatis",
-      "Selected": true,
-      "LastChanged": "2014-10-16T12:15:26.7256389+02:00",
+      "Id": 874,
+      "Name": "Hoeger-Boyer",
+      "ToolTip": "Exercitationem architecto ab similique soluta quibusdam.",
+      "Deleted": false,
+      "Rank": 77,
+      "Type": "omnis",
+      "ColorBlock": 612,
+      "IconHint": "aperiam",
+      "Selected": false,
+      "LastChanged": "2016-12-12T15:29:29.5607019+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "culpa",
-      "StyleHint": "nam",
-      "Hidden": true,
-      "FullName": "Mrs. Rocio Hammes PhD",
+      "ExtraInfo": "quis",
+      "StyleHint": "libero",
+      "Hidden": false,
+      "FullName": "Melba Treutel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "labore",
-      "StrippedValue": "veniam",
-      "Description": "Organic bi-directional adapter",
+      "Value": "inventore",
+      "StrippedValue": "rerum",
+      "Description": "Customer-focused real-time budgetary management",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 560
+          "FieldType": "System.Int32",
+          "FieldLength": 51
         }
       }
     },
     {
-      "Value": "labore",
-      "StrippedValue": "veniam",
-      "Description": "Organic bi-directional adapter",
+      "Value": "inventore",
+      "StrippedValue": "rerum",
+      "Description": "Customer-focused real-time budgetary management",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 560
+          "FieldType": "System.Int32",
+          "FieldLength": 51
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "perspiciatis",
-      "StrippedValue": "voluptatum",
-      "Description": "Customizable foreground hierarchy",
+      "Value": "sunt",
+      "StrippedValue": "facere",
+      "Description": "Devolved 3rd generation support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldType": "System.String",
+          "FieldLength": 492
         }
       }
     },
     {
-      "Value": "perspiciatis",
-      "StrippedValue": "voluptatum",
-      "Description": "Customizable foreground hierarchy",
+      "Value": "sunt",
+      "StrippedValue": "facere",
+      "Description": "Devolved 3rd generation support",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldType": "System.String",
+          "FieldLength": 492
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "unde",
-      "StrippedValue": "sint",
-      "Description": "Progressive mobile initiative",
+      "Value": "iusto",
+      "StrippedValue": "eius",
+      "Description": "Phased secondary concept",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 616
         }
       }
     },
     {
-      "Value": "unde",
-      "StrippedValue": "sint",
-      "Description": "Progressive mobile initiative",
+      "Value": "iusto",
+      "StrippedValue": "eius",
+      "Description": "Phased secondary concept",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 616
         }
       }
     }
   ],
-  "Description": "Ergonomic responsive hub",
+  "Description": "Public-key actuating circuit",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -333,100 +333,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "voluptatem",
-      "PersonId": 934,
-      "Mrmrs": "perspiciatis",
-      "Firstname": "Junius",
-      "Lastname": "Borer",
-      "MiddleName": "Douglas LLC",
-      "Title": "facilis",
-      "Description": "Operative reciprocal capability",
-      "Email": "joannie@hirthe.name",
-      "FullName": "Dr. Wilford Gerhold",
-      "DirectPhone": "(818)330-8276",
-      "FormalName": "Hilpert LLC",
-      "CountryId": 142,
-      "ContactId": 873,
-      "ContactName": "Wilkinson-Vandervort",
-      "Retired": 895,
-      "Rank": 991,
-      "ActiveInterests": 679,
+      "Position": "optio",
+      "PersonId": 538,
+      "Mrmrs": "illum",
+      "Firstname": "Chauncey",
+      "Lastname": "Leuschke",
+      "MiddleName": "Jacobs-Kuhlman",
+      "Title": "in",
+      "Description": "Secured stable firmware",
+      "Email": "dominique_kutch@daugherty.name",
+      "FullName": "Anabelle Howe",
+      "DirectPhone": "979-088-8792 x1766",
+      "FormalName": "Wunsch-Gulgowski",
+      "CountryId": 919,
+      "ContactId": 429,
+      "ContactName": "Ratke-Aufderhar",
+      "Retired": 174,
+      "Rank": 559,
+      "ActiveInterests": 457,
       "ContactDepartment": "",
-      "ContactCountryId": 641,
-      "ContactOrgNr": "1072771",
-      "FaxPhone": "(583)816-1567 x735",
-      "MobilePhone": "(367)376-9780 x9723",
-      "ContactPhone": "031.301.3061",
-      "AssociateName": "King Group",
-      "AssociateId": 974,
-      "UsePersonAddress": true,
-      "ContactFax": "est",
-      "Kanafname": "consectetur",
-      "Kanalname": "ipsum",
-      "Post1": "corrupti",
-      "Post2": "odit",
-      "Post3": "vitae",
-      "EmailName": "jason@marvin.biz",
-      "ContactFullName": "Mrs. Kacey Ardith Bailey III",
-      "ActiveErpLinks": 848,
-      "TicketPriorityId": 697,
-      "SupportLanguageId": 183,
-      "SupportAssociateId": 114,
+      "ContactCountryId": 65,
+      "ContactOrgNr": "914249",
+      "FaxPhone": "245.588.0402 x83211",
+      "MobilePhone": "(340)843-0011 x492",
+      "ContactPhone": "792-683-8762 x11373",
+      "AssociateName": "Conroy-Marks",
+      "AssociateId": 911,
+      "UsePersonAddress": false,
+      "ContactFax": "soluta",
+      "Kanafname": "ut",
+      "Kanalname": "qui",
+      "Post1": "inventore",
+      "Post2": "voluptate",
+      "Post3": "magnam",
+      "EmailName": "may_koelpin@torpbuckridge.uk",
+      "ContactFullName": "Jermey Weber",
+      "ActiveErpLinks": 785,
+      "TicketPriorityId": 939,
+      "SupportLanguageId": 818,
+      "SupportAssociateId": 601,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldLength": 130
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "soluta",
-  "Xstop": false,
-  "ActiveInterests": 2,
-  "GroupId": 226,
-  "ActiveStatusMonitorId": 914,
+  "Kananame": "laboriosam",
+  "Xstop": true,
+  "ActiveInterests": 218,
+  "GroupId": 61,
+  "ActiveStatusMonitorId": 300,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 168,
-  "DbiAgentId": 544,
-  "DbiLastSyncronized": "1999-02-27T12:15:26.7396391+01:00",
-  "DbiKey": "qui",
-  "DbiLastModified": "2006-02-12T12:15:26.7396391+01:00",
+  "Deleted": 657,
+  "DbiAgentId": 52,
+  "DbiLastSyncronized": "2013-01-05T15:29:29.5651984+01:00",
+  "DbiKey": "fugiat",
+  "DbiLastModified": "2008-04-06T15:29:29.5651984+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 422,
-  "ActiveErpLinks": 376,
+  "Source": 525,
+  "ActiveErpLinks": 908,
   "BounceEmails": [
-    "serena.wilderman@schimmel.info",
-    "jada.berge@blanda.us"
+    "yvonne@heidenreichschroeder.info",
+    "kristina_johnson@gerhold.biz"
   ],
   "Domains": [
-    "pariatur",
-    "inventore"
+    "unde",
+    "quod"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Brant Eichmann MD",
-    "SuperOffice:2": "795702790"
+    "SuperOffice:1": "1578012373",
+    "SuperOffice:2": "Juliet Volkman"
   },
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "et"
+    "ExtraFields1": "vero",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "odit"
+    "CustomFields1": "laborum",
+    "CustomFields2": "perspiciatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   },
   "_Links": {

@@ -69,8 +69,8 @@ OK
 |----------------|------|--------------|
 | Reason | string |  |
 | Result | bool |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 781,
+  "AssociateId": 74,
   "Type": "AnonymousAssociate",
-  "PersonId": 804,
-  "UserName": "Hoppe, Larkin and Rolfson"
+  "PersonId": 904,
+  "UserName": "Altenwerth Inc and Sons"
 }
 ```
 
@@ -96,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "revolutionize granular web-readiness",
+  "Reason": "",
   "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldLength": 208
     }
   }
 }

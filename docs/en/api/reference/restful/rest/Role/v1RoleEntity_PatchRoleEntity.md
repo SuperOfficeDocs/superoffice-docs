@@ -111,8 +111,8 @@ RoleEntity  updated.
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -121,18 +121,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "similique",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "similique",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -145,24 +145,24 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 790,
-  "Name": "Grant-Powlowski",
-  "Tooltip": "distinctio",
+  "RoleId": 588,
+  "Name": "Leuschke Group",
+  "Tooltip": "nihil",
   "RoleType": "Anonymous",
-  "Deleted": 832,
-  "Rank": 883,
-  "Created": "2022-10-20T12:15:27.2166322+02:00",
-  "UseCategories": 947,
+  "Deleted": 482,
+  "Rank": 331,
+  "Created": "2020-07-01T15:29:30.0266606+02:00",
+  "UseCategories": 44,
   "CreatedBy": null,
-  "Updated": "2022-03-04T12:15:27.2166322+01:00",
+  "Updated": "1999-02-24T15:29:30.0266606+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 390
     }
   },
   "_Links": {

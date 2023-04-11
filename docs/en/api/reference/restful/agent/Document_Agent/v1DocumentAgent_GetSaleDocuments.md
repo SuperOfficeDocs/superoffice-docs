@@ -84,8 +84,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 135
+  "SaleId": 276
 }
 ```
 
@@ -109,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 393,
-    "Attention": "quia",
-    "Header": "fugiat",
-    "Name": "Friesen, Rolfson and Roberts",
-    "OurRef": "debitis",
-    "YourRef": "a",
-    "Description": "Pre-emptive bandwidth-monitored capability",
-    "DocumentTemplate": "neque",
-    "IsPublished": false,
-    "PersonId": 9,
-    "PersonFullName": "Prof. Pearl Columbus Eichmann",
-    "AssociateFullName": "Lorna Feest",
-    "ContactId": 150,
-    "ContactName": "Parker, Oberbrunner and Feeney",
-    "ProjectId": 398,
-    "ProjectName": "Veum-Luettgen",
-    "AssociateId": 127,
-    "Snum": 698,
-    "SaleId": 840,
-    "SaleName": "Hauck Group",
+    "DocumentId": 555,
+    "Attention": "ipsa",
+    "Header": "quod",
+    "Name": "Kautzer Group",
+    "OurRef": "incidunt",
+    "YourRef": "vel",
+    "Description": "Enhanced zero tolerance encryption",
+    "DocumentTemplate": "dolores",
+    "IsPublished": true,
+    "PersonId": 709,
+    "PersonFullName": "Kelsi Gleichner",
+    "AssociateFullName": "Will Sawayn",
+    "ContactId": 692,
+    "ContactName": "Jacobson, Gerhold and Reilly",
+    "ProjectId": 424,
+    "ProjectName": "Mosciski-Mann",
+    "AssociateId": 126,
+    "Snum": 691,
+    "SaleId": 225,
+    "SaleName": "Mayert, Tromp and Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldLength": 854
       }
     }
   }

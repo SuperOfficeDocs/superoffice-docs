@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Beier, Hane and Hyatt",
-    "ToolTip": "Sint consequatur id omnis aut voluptas.",
-    "Deleted": true,
-    "Rank": 139,
-    "Type": "dolore",
-    "ColorBlock": 164,
-    "IconHint": "aut",
+    "Id": 562,
+    "Name": "O'Reilly, Kertzmann and Blanda",
+    "ToolTip": "Non voluptatum iure sed porro deleniti quia.",
+    "Deleted": false,
+    "Rank": 916,
+    "Type": "magni",
+    "ColorBlock": 810,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "1996-09-17T12:15:28.1346207+02:00",
+    "LastChanged": "1999-07-08T15:29:31.2469799+02:00",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Paucek Group",
-        "ToolTip": "Qui qui nulla iure assumenda libero deserunt.",
+        "Id": 53,
+        "Name": "Douglas Inc and Sons",
+        "ToolTip": "Voluptas vel libero.",
         "Deleted": true,
-        "Rank": 388,
-        "Type": "eum",
-        "ColorBlock": 216,
-        "IconHint": "assumenda",
+        "Rank": 973,
+        "Type": "quisquam",
+        "ColorBlock": 405,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2002-03-23T12:15:28.1346207+01:00",
+        "LastChanged": "2006-05-24T15:29:31.2469799+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "ab",
-        "Hidden": true,
-        "FullName": "Bert Hyman Stokes I"
+        "ExtraInfo": "ea",
+        "StyleHint": "consectetur",
+        "Hidden": false,
+        "FullName": "Ms. Jessica Hollie Mueller DDS"
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Reanna West"
+    "ExtraInfo": "fugiat",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Geovanny Reilly"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Durgan, Langosh and Dare",
-    "ToolTip": "Eveniet enim omnis eos.",
+    "Id": 174,
+    "Name": "Quigley Group",
+    "ToolTip": "Placeat dolorum nesciunt.",
     "Deleted": false,
-    "Rank": 778,
-    "Type": "dolor",
-    "ColorBlock": 785,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "2004-03-07T12:15:28.1356187+01:00",
+    "Rank": 37,
+    "Type": "eveniet",
+    "ColorBlock": 465,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2021-06-18T15:29:31.2479785+02:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Nitzsche LLC",
-        "ToolTip": "Quia est earum cum.",
-        "Deleted": true,
-        "Rank": 758,
-        "Type": "tempore",
-        "ColorBlock": 946,
-        "IconHint": "sint",
+        "Id": 941,
+        "Name": "Streich Group",
+        "ToolTip": "Repellendus consequatur ut ea est rerum consequuntur.",
+        "Deleted": false,
+        "Rank": 366,
+        "Type": "corporis",
+        "ColorBlock": 224,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2004-12-24T12:15:28.1356187+01:00",
+        "LastChanged": "2005-08-29T15:29:31.2479785+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sed",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Wilhelmine Stanton V",
+        "FullName": "Myrna Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 999
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quia",
+    "ExtraInfo": "quos",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Markus Pollich V",
+    "FullName": "Bobbie Mattie Smitham Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 724
       }
     }
   }

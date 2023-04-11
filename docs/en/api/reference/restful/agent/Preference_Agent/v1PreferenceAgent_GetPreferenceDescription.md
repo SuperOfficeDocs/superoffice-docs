@@ -25,7 +25,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=808
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=197
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -74,8 +74,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 486,
-  "Section": "eum",
-  "Key": "illum",
-  "Name": "Wiza Group",
+  "PrefDescId": 421,
+  "Section": "harum",
+  "Key": "ipsum",
+  "Name": "O'Kon Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profound tangible circuit",
-  "IsBuiltin": true,
-  "TableName": "Windler, Friesen and Reilly",
-  "UserDefinedListId": 54,
-  "Rank": 678,
-  "SubGroup": "ab",
-  "MinLevel": 407,
-  "MaxValue": 885,
-  "MinValue": 541,
-  "RequiredLicense": "animi",
+  "Description": "Multi-layered mission-critical middleware",
+  "IsBuiltin": false,
+  "TableName": "Rath-Jacobs",
+  "UserDefinedListId": 576,
+  "Rank": 124,
+  "SubGroup": "omnis",
+  "MinLevel": 97,
+  "MaxValue": 191,
+  "MinValue": 795,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 155
     }
   }
 }

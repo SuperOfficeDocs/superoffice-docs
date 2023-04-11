@@ -24,7 +24,7 @@ Deletes the BlobEntity
 | BlobEntityId | int32 | **Required** The id of the BlobEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?BlobEntityId=293
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?BlobEntityId=638
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request

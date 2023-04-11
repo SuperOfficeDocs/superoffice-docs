@@ -73,7 +73,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "VisibleIn": "ActivityDialog",
-  "WindowName": "Farrell, Kertzmann and Beatty"
+  "WindowName": "Schultz-Hane"
 }
 ```
 

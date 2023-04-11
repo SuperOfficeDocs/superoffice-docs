@@ -77,8 +77,8 @@ OK
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 411,
-  "Name": "Hand Group",
-  "Description": "Ameliorated 3rd generation standardization",
-  "WelcomeMessage": "quidem",
+  "ChatTopicId": 24,
+  "Name": "Swaniawski Group",
+  "Description": "Multi-layered incremental artificial intelligence",
+  "WelcomeMessage": "voluptatem",
   "Language": null,
-  "LastAccept": "2020-01-04T12:15:26.5146429+01:00",
-  "SecondsPrAccept": 463,
-  "AlertRecipient": "eum",
+  "LastAccept": "2019-05-30T15:29:29.4217035+02:00",
+  "SecondsPrAccept": 379,
+  "AlertRecipient": "quam",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "consequuntur",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "hic",
-  "WarnNewChatMinutes": 37,
-  "WarnManagerNewChatMinutes": 62,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "sed",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "sunt",
+  "WarnNewChatMinutes": 459,
+  "WarnManagerNewChatMinutes": 934,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -119,20 +119,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 658,
-  "WarnManagerChatMessageMinutes": 704,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 715,
-  "OfflineFormQueueLength": 280,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 590,
+  "WarnManagerChatMessageMinutes": 852,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 512,
+  "OfflineFormQueueLength": 518,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "in",
+  "WidgetRatingText": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

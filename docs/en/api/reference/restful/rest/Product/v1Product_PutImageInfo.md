@@ -83,8 +83,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,19 +96,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 513,
-  "BlobSize": 777,
-  "Description": "Synergistic zero defect local area network",
-  "ExtraInfo": "totam",
+  "BlobId": 909,
+  "BlobSize": 432,
+  "Description": "Configurable logistical task-force",
+  "ExtraInfo": "nihil",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 68,
-  "CreatedDate": "2006-01-20T12:15:27.6766255+01:00",
-  "UpdatedDate": "2021-09-07T12:15:27.6766255+02:00",
+  "IsZipped": false,
+  "MimeType": "voluptatibus",
+  "OriginalSize": 899,
+  "CreatedDate": "2004-04-18T15:29:30.8874835+02:00",
+  "UpdatedDate": "2020-10-12T15:29:30.8874835+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sint"
+  "ConceptualType": "nam"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 174,
-  "BlobSize": 375,
-  "Description": "Assimilated dedicated model",
-  "ExtraInfo": "rerum",
+  "BlobId": 611,
+  "BlobSize": 490,
+  "Description": "Cloned system-worthy interface",
+  "ExtraInfo": "deleniti",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "debitis",
-  "OriginalSize": 56,
-  "CreatedDate": "2015-04-08T12:15:27.6786254+02:00",
-  "UpdatedDate": "2021-03-14T12:15:27.6786254+01:00",
+  "IsZipped": true,
+  "MimeType": "quasi",
+  "OriginalSize": 273,
+  "CreatedDate": "2013-03-31T15:29:30.8894834+02:00",
+  "UpdatedDate": "2018-10-20T15:29:30.8894834+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "doloremque",
+  "ConceptualType": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldType": "System.String",
+      "FieldLength": 938
     }
   }
 }

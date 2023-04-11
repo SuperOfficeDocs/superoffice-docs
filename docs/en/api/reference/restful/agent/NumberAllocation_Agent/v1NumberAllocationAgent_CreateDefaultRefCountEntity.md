@@ -57,8 +57,8 @@ OK
 | Unique | bool | Check that entered value is unique |
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 670,
-  "Field": "porro",
-  "RecordId": 326,
+  "RefCountsId": 917,
+  "Field": "hic",
+  "RecordId": 170,
   "SuggestedRecords": [
     {
-      "Id": 766,
-      "Name": "Stamm Group",
-      "ToolTip": "Omnis unde rem neque rerum qui inventore.",
+      "Id": 318,
+      "Name": "Bartell LLC",
+      "ToolTip": "Rerum sequi eveniet possimus suscipit velit reiciendis quam.",
       "Deleted": false,
-      "Rank": 245,
-      "Type": "modi",
+      "Rank": 166,
+      "Type": "explicabo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 718,
-      "ExtraInfo": "at",
-      "StyleHint": "molestiae",
-      "FullName": "Tia Stiedemann",
+      "IconHint": "exercitationem",
+      "ColorBlock": 782,
+      "ExtraInfo": "quo",
+      "StyleHint": "rerum",
+      "FullName": "Russell Nitzsche Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldLength": 942
         }
       }
     }
   ],
-  "CurrentValue": 199,
-  "TravelPrefix": 252,
-  "SatPrefix": 221,
-  "Allocate": true,
-  "Unique": false,
+  "CurrentValue": 515,
+  "TravelPrefix": 834,
+  "SatPrefix": 219,
+  "Allocate": false,
+  "Unique": true,
   "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

@@ -90,8 +90,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,40 +99,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Walker-Rolfson",
-      "Operator": "tenetur",
+      "Name": "Kris Inc and Sons",
+      "Operator": "ex",
       "Values": [
-        "aperiam",
-        "at"
+        "quis",
+        "rerum"
       ],
       "DisplayValues": [
-        "mollitia",
-        "at"
+        "quas",
+        "autem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 52,
+      "InterParenthesis": 721,
       "InterOperator": "And",
-      "UniqueHash": 745
+      "UniqueHash": 348
     }
   ],
-  "ProviderName": "Kris, McKenzie and Zboncak",
+  "ProviderName": "Welch-Marvin",
   "DesiredColumns": [
-    "aspernatur",
-    "iusto"
+    "voluptatem",
+    "voluptatem"
   ],
-  "PageSize": 894,
-  "PageNumber": 84
+  "PageSize": 28,
+  "PageNumber": 462
 }
 ```
 
@@ -145,51 +145,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Davis-Rutherford",
-      "DisplayTooltip": "at",
-      "DisplayType": "occaecati",
+      "DisplayName": "Rempel, Rodriguez and Olson",
+      "DisplayTooltip": "qui",
+      "DisplayType": "aspernatur",
       "CanOrderBy": true,
-      "Name": "Jerde, Cartwright and Jenkins",
-      "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Ruecker LLC",
+      "Name": "Beatty-Lemke",
+      "CanRestrictBy": true,
+      "RestrictionType": "nulla",
+      "RestrictionListName": "Cole Group",
       "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "consequatur",
-      "IconHint": "nulla",
-      "HeadingIconHint": "explicabo"
+      "ExtraInfo": "consequatur",
+      "Width": "numquam",
+      "IconHint": "illo",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Roberts LLC",
-      "PrimaryKey": 342,
+      "EntityName": "Heidenreich-Konopelski",
+      "PrimaryKey": 400,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "eum",
-          "LinkHint": "nemo"
+          "DisplayValue": "ut",
+          "TooltipHint": "distinctio",
+          "LinkHint": "dolores"
         }
       },
-      "LinkHint": "quo",
-      "StyleHint": "et",
+      "LinkHint": "a",
+      "StyleHint": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 581
         }
       }
     }
   ],
-  "RowCount": 708,
+  "RowCount": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 516
     }
   }
 }

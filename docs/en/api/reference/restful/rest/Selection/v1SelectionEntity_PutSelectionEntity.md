@@ -149,8 +149,8 @@ SelectionEntity updated.
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -159,60 +159,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-channelled web-enabled data-warehouse",
-  "Postit": "recusandae",
+  "Description": "Advanced incremental attitude",
+  "Postit": "rerum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 886,
-  "IncludePerson": 245,
-  "MemberCount": 279,
-  "Name": "Shields, Howell and Dickinson",
-  "PostitTextId": 629,
-  "CreatedDate": "2002-09-20T12:15:27.3736322+02:00",
-  "SelectionId": 766,
-  "SoundEx": "quam",
-  "Source": 791,
-  "TextId": 810,
-  "UpdatedDate": "2017-02-02T12:15:27.3736322+01:00",
-  "UpdatedCount": 743,
-  "Visibility": 439,
+  "GroupIdx": 608,
+  "IncludePerson": 890,
+  "MemberCount": 603,
+  "Name": "Beer-Bergnaum",
+  "PostitTextId": 206,
+  "CreatedDate": "2008-11-05T15:29:30.5989921+01:00",
+  "SelectionId": 908,
+  "SoundEx": "exercitationem",
+  "Source": 603,
+  "TextId": 895,
+  "UpdatedDate": "2003-05-15T15:29:30.5989921+02:00",
+  "UpdatedCount": 961,
+  "Visibility": 957,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 913,
-  "TargetTableName": "Bradtke, Leffler and Franecki",
-  "Completed": true,
-  "LeftSelectionId": 566,
-  "RightSelectionId": 668,
+  "TargetTableNumber": 663,
+  "TargetTableName": "Runolfsson-Hodkiewicz",
+  "Completed": false,
+  "LeftSelectionId": 340,
+  "RightSelectionId": 744,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leannon, Ortiz and Schulist",
-  "ShadowProviderName": "Gleichner, Gulgowski and Cormier",
-  "ChartKey": "laboriosam",
-  "LastLoaded": "2019-08-29T12:15:27.3736322+02:00",
-  "LastLoadedBy": 620,
+  "MainProviderName": "Breitenberg Inc and Sons",
+  "ShadowProviderName": "Herzog, Bartell and Kautzer",
+  "ChartKey": "sed",
+  "LastLoaded": "2005-06-01T15:29:30.5989921+02:00",
+  "LastLoadedBy": 136,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-07-24T12:15:27.3736322+02:00",
-  "LastMembershipChangeBy": 339,
+  "LastMembershipChange": "2003-09-16T15:29:30.5994884+02:00",
+  "LastMembershipChangeBy": 76,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cumque",
-  "MemberTabHeading": "ea",
-  "MailingsProviderName": "Schmeler Group",
-  "DashboardTileDefinitionId": 475,
+  "MainHeading": "sit",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Mraz, Daugherty and Ernser",
+  "DashboardTileDefinitionId": 323,
   "VisibleFor": [
     {
-      "VisibleId": 818,
+      "VisibleId": 738,
       "Visibility": "All",
-      "DisplayValue": "dolor"
+      "DisplayValue": "sed"
     },
     {
-      "VisibleId": 818,
+      "VisibleId": 738,
       "Visibility": "All",
-      "DisplayValue": "dolor"
+      "DisplayValue": "sed"
     }
   ]
 }
@@ -225,70 +225,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored optimal implementation",
-  "Postit": "ea",
+  "Description": "Object-based uniform support",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 427,
-  "IncludePerson": 17,
-  "MemberCount": 238,
-  "Name": "Zulauf-Schuster",
-  "PostitTextId": 507,
-  "CreatedDate": "2005-06-04T12:15:27.3786346+02:00",
-  "SelectionId": 825,
-  "SoundEx": "non",
-  "Source": 924,
-  "TextId": 297,
-  "UpdatedDate": "2002-03-27T12:15:27.3786346+01:00",
-  "UpdatedCount": 301,
-  "Visibility": 414,
+  "GroupIdx": 700,
+  "IncludePerson": 200,
+  "MemberCount": 835,
+  "Name": "Muller, Ernser and Lemke",
+  "PostitTextId": 636,
+  "CreatedDate": "2013-01-11T15:29:30.6039883+01:00",
+  "SelectionId": 845,
+  "SoundEx": "perspiciatis",
+  "Source": 595,
+  "TextId": 630,
+  "UpdatedDate": "2020-12-11T15:29:30.6044879+01:00",
+  "UpdatedCount": 222,
+  "Visibility": 915,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 610,
-  "TargetTableName": "Prohaska-Rippin",
-  "Completed": false,
-  "LeftSelectionId": 561,
-  "RightSelectionId": 369,
+  "TargetTableNumber": 762,
+  "TargetTableName": "Bergnaum, Haley and Pfannerstill",
+  "Completed": true,
+  "LeftSelectionId": 502,
+  "RightSelectionId": 215,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmitt-Farrell",
-  "ShadowProviderName": "Rodriguez, Okuneva and Ritchie",
-  "ChartKey": "occaecati",
-  "LastLoaded": "2018-02-14T12:15:27.3796306+01:00",
-  "LastLoadedBy": 377,
+  "MainProviderName": "Glover Inc and Sons",
+  "ShadowProviderName": "Stehr LLC",
+  "ChartKey": "non",
+  "LastLoaded": "2001-12-10T15:29:30.6044879+01:00",
+  "LastLoadedBy": 280,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-01-28T12:15:27.3796306+01:00",
-  "LastMembershipChangeBy": 804,
+  "LastMembershipChange": "2021-05-31T15:29:30.6044879+02:00",
+  "LastMembershipChangeBy": 971,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ratione",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Cruickshank Inc and Sons",
-  "DashboardTileDefinitionId": 47,
+  "MainHeading": "aliquam",
+  "MemberTabHeading": "necessitatibus",
+  "MailingsProviderName": "Grimes Group",
+  "DashboardTileDefinitionId": 635,
   "VisibleFor": [
     {
-      "VisibleId": 114,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     },
     {
-      "VisibleId": 114,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 736
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     }
@@ -298,7 +298,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldLength": 679
     }
   },
   "_Links": {

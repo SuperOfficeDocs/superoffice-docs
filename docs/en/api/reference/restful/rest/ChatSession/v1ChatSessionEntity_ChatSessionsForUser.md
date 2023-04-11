@@ -77,8 +77,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 601,
-    "TopicId": 916,
+    "ChatSessionId": 103,
+    "TopicId": 317,
     "User": null,
     "Person": null,
-    "CustomerAlias": "maxime",
-    "CustomerHost": "hic",
-    "CustomerName": "Wehner-Murray",
-    "CustomerEmail": "colton_heaney@huel.com",
-    "CustomerPhone": "695.486.3305 x83371",
+    "CustomerAlias": "doloribus",
+    "CustomerHost": "voluptas",
+    "CustomerName": "Jerde Inc and Sons",
+    "CustomerEmail": "beryl_jaskolski@dibberthauck.biz",
+    "CustomerPhone": "(695)661-0642 x5443",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Hayes, Johnson and Schowalter",
+    "CustomerCompanyName": "Beer-Baumbach",
     "Status": "Closed",
-    "FirstMessage": "doloremque",
-    "LastMessage": "quis",
-    "WhenRequested": "2004-01-27T12:15:26.4366434+01:00",
-    "WhenStarted": "2020-09-20T12:15:26.4366434+02:00",
-    "WhenEnded": "2015-02-06T12:15:26.4366434+01:00",
-    "WhenIdle": "2000-06-06T12:15:26.4366434+02:00",
-    "WhenFetched": "2021-07-04T12:15:26.4366434+02:00",
-    "SessionKey": "facilis",
-    "InitialQueuePos": 592,
-    "AlertLevel": 740,
-    "Rank": 75,
+    "FirstMessage": "excepturi",
+    "LastMessage": "eveniet",
+    "WhenRequested": "2006-01-12T15:29:29.3387115+01:00",
+    "WhenStarted": "1999-10-27T15:29:29.3387115+02:00",
+    "WhenEnded": "2016-01-19T15:29:29.3387115+01:00",
+    "WhenIdle": "2006-04-03T15:29:29.3387115+02:00",
+    "WhenFetched": "2009-12-30T15:29:29.3387115+01:00",
+    "SessionKey": "voluptatem",
+    "InitialQueuePos": 388,
+    "AlertLevel": 208,
+    "Rank": 855,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 826,
+    "Rating": 164,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldType": "System.String",
+        "FieldLength": 707
       }
     }
   }

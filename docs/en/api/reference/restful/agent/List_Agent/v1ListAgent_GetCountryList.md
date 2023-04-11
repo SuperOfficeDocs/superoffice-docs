@@ -77,8 +77,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 999,
-    "Name": "Abshire, Sanford and Wisoky",
-    "CurrencyId": 154,
-    "EnglishName": "Casper-Mayert",
+    "CountryId": 184,
+    "Name": "Walter, Lueilwitz and Green",
+    "CurrencyId": 258,
+    "EnglishName": "Hyatt LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Switchable context-sensitive analyzer",
-    "OrgNrText": "909209",
-    "InterAreaPrefix": "perferendis",
-    "DialInPrefix": "sunt",
-    "ZipPrefix": "corrupti",
-    "DomainName": "Treutel, Reilly and Simonis",
-    "AddressLayoutId": 959,
-    "DomesticAddressLayoutId": 739,
-    "ForeignAddressLayoutId": 707,
-    "Rank": 757,
-    "Tooltip": "accusantium",
-    "Deleted": true,
+    "ImageDescription": "Persistent intangible adapter",
+    "OrgNrText": "620605",
+    "InterAreaPrefix": "inventore",
+    "DialInPrefix": "ducimus",
+    "ZipPrefix": "aut",
+    "DomainName": "Welch-Schuppe",
+    "AddressLayoutId": 567,
+    "DomesticAddressLayoutId": 269,
+    "ForeignAddressLayoutId": 79,
+    "Rank": 817,
+    "Tooltip": "debitis",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldLength": 394
       }
     }
   }

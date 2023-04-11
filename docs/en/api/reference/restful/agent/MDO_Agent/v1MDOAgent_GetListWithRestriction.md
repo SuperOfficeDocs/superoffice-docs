@@ -76,8 +76,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Herman, Medhurst and Rempel",
-  "AdditionalInfo": "voluptatem",
-  "SearchValue": "perferendis"
+  "Name": "Schoen-Borer",
+  "AdditionalInfo": "totam",
+  "SearchValue": "nulla"
 }
 ```
 
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Walter, Balistreri and Romaguera",
-    "ToolTip": "Dignissimos voluptates qui doloremque omnis ab.",
-    "Deleted": false,
-    "Rank": 324,
-    "Type": "exercitationem",
+    "Id": 365,
+    "Name": "Olson Inc and Sons",
+    "ToolTip": "Quos sint aliquid at id.",
+    "Deleted": true,
+    "Rank": 728,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Schamberger, Skiles and Pollich",
-        "ToolTip": "Maiores mollitia quia autem sunt.",
+        "Id": 399,
+        "Name": "Turner Inc and Sons",
+        "ToolTip": "Qui mollitia dolores ipsam in voluptas cum est.",
         "Deleted": false,
-        "Rank": 647,
-        "Type": "sapiente",
+        "Rank": 844,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dicta",
-        "ColorBlock": 485,
-        "ExtraInfo": "sapiente",
-        "StyleHint": "est",
-        "FullName": "Mr. Alexanne Sabina Howell II",
+        "IconHint": "minima",
+        "ColorBlock": 559,
+        "ExtraInfo": "saepe",
+        "StyleHint": "quo",
+        "FullName": "Sterling Simonis DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 522
+            "FieldType": "System.Int32",
+            "FieldLength": 795
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 865,
-    "ExtraInfo": "error",
-    "StyleHint": "expedita",
-    "FullName": "Arianna Kiel Schinner Jr.",
+    "IconHint": "quos",
+    "ColorBlock": 527,
+    "ExtraInfo": "veniam",
+    "StyleHint": "libero",
+    "FullName": "Zoe Senger IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldLength": 369
       }
     }
   }

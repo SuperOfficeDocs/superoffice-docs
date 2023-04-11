@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -68,8 +68,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    82,
-    995
+    302,
+    247
   ]
 }
 ```

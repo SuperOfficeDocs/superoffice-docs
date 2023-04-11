@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "sit"
+  "MessageId": "et"
 }
 ```
 
@@ -116,147 +116,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 720,
-      "ContactName": "Gulgowski-Fadel",
-      "PersonId": 352,
-      "PersonName": "Rice Group",
-      "AssociateId": 934,
-      "Address": "sed",
-      "EmailId": 570,
+      "ContactId": 127,
+      "ContactName": "Parisian-Rutherford",
+      "PersonId": 823,
+      "PersonName": "Rodriguez, Haley and Jacobson",
+      "AssociateId": 565,
+      "Address": "vel",
+      "EmailId": 766,
       "DuplicatePersonIds": [
-        119,
-        352
+        806,
+        695
       ],
-      "Name": "Buckridge LLC",
+      "Name": "O'Keefe-Hamill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 852
+          "FieldLength": 132
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 332,
-      "ContactName": "Rippin-Waters",
-      "PersonId": 429,
-      "PersonName": "Bradtke, Lemke and Bosco",
-      "AssociateId": 848,
-      "Address": "reprehenderit",
-      "EmailId": 247,
+      "ContactId": 651,
+      "ContactName": "Wiegand Inc and Sons",
+      "PersonId": 298,
+      "PersonName": "Morissette-Runolfsdottir",
+      "AssociateId": 51,
+      "Address": "consequatur",
+      "EmailId": 707,
       "DuplicatePersonIds": [
-        926,
-        726
+        903,
+        115
       ],
-      "Name": "Treutel-Willms",
+      "Name": "Bins LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 989
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 599,
-      "ContactName": "Effertz Inc and Sons",
-      "PersonId": 360,
-      "PersonName": "Wolf-Buckridge",
-      "AssociateId": 656,
-      "Address": "soluta",
-      "EmailId": 935,
+      "ContactId": 155,
+      "ContactName": "Bogisich, Ullrich and Gutmann",
+      "PersonId": 622,
+      "PersonName": "Ondricka Group",
+      "AssociateId": 754,
+      "Address": "cum",
+      "EmailId": 432,
       "DuplicatePersonIds": [
-        902,
-        317
+        326,
+        677
       ],
-      "Name": "Mohr, Brekke and Strosin",
+      "Name": "Moore-Doyle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldType": "System.String",
+          "FieldLength": 988
         }
       }
     }
   ],
-  "Subject": "occaecati",
-  "HTMLBody": "voluptatibus",
+  "Subject": "sunt",
+  "HTMLBody": "facere",
   "From": null,
-  "Sent": "2001-02-04T12:15:18.9277523+01:00",
-  "Size": 7,
+  "Sent": "2005-10-05T15:29:21.6968188+02:00",
+  "Size": 208,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "temporibus",
-  "PlainBody": "explicabo",
-  "IsSent": true,
+  "MessageID": "consequatur",
+  "PlainBody": "dolor",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 123,
+  "ServerId": 999,
   "Attachments": [
     {
-      "Description": "Progressive stable flexibility",
-      "Filename": "autem",
-      "Size": 514,
-      "Type": "minima",
-      "Encoding": "necessitatibus",
-      "Id": "neque",
-      "Disposition": "excepturi",
+      "Description": "Persevering executive paradigm",
+      "Filename": "eos",
+      "Size": 386,
+      "Type": "cum",
+      "Encoding": "enim",
+      "Id": "accusamus",
+      "Disposition": "soluta",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 475
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Casper-Haley",
+      "Name": "Greenholt Group",
       "Values": [
-        "velit",
-        "cumque"
+        "facere",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 495
         }
       }
     },
     {
-      "Name": "Casper-Haley",
+      "Name": "Greenholt Group",
       "Values": [
-        "velit",
-        "cumque"
+        "facere",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 495
         }
       }
     }
   ],
-  "FolderName": "Romaguera-Yundt",
-  "EmailItemId": 708,
-  "AccountId": 978,
-  "ReceivedAt": "1996-09-04T12:15:18.9277523+02:00",
+  "FolderName": "Jones Inc and Sons",
+  "EmailItemId": 838,
+  "AccountId": 271,
+  "ReceivedAt": "2006-09-19T15:29:21.6973126+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-07-12T12:15:18.9277523+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2003-08-29T15:29:21.6973126+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldLength": 646
     }
   }
 }

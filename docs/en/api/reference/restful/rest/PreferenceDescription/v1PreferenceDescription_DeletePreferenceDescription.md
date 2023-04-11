@@ -42,7 +42,7 @@ PreferenceDescription deleted.
 |----------------|-------------|
 | 204 | PreferenceDescription deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

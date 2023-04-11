@@ -103,8 +103,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 187
+  "ProjectId": 98
 }
 ```
 
@@ -127,70 +127,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed uniform focus group",
-  "Postit": "reiciendis",
+  "Description": "Integrated bi-directional access",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 309,
-  "IncludePerson": 70,
-  "MemberCount": 466,
-  "Name": "Lubowitz, Jerde and Yundt",
-  "PostitTextId": 347,
-  "CreatedDate": "2004-09-28T12:15:20.1567341+02:00",
-  "SelectionId": 990,
-  "SoundEx": "qui",
-  "Source": 179,
-  "TextId": 439,
-  "UpdatedDate": "2004-02-15T12:15:20.1567341+01:00",
-  "UpdatedCount": 650,
-  "Visibility": 484,
+  "GroupIdx": 55,
+  "IncludePerson": 178,
+  "MemberCount": 237,
+  "Name": "Stehr, Reynolds and Cummings",
+  "PostitTextId": 12,
+  "CreatedDate": "2006-04-16T15:29:22.7982967+02:00",
+  "SelectionId": 850,
+  "SoundEx": "deleniti",
+  "Source": 18,
+  "TextId": 843,
+  "UpdatedDate": "2008-04-07T15:29:22.7982967+02:00",
+  "UpdatedCount": 184,
+  "Visibility": 592,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 708,
-  "TargetTableName": "Bode Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 257,
-  "RightSelectionId": 223,
+  "TargetTableNumber": 143,
+  "TargetTableName": "Lang-Feest",
+  "Completed": true,
+  "LeftSelectionId": 577,
+  "RightSelectionId": 381,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kiehn, Hamill and Schaefer",
-  "ShadowProviderName": "Murray-Runte",
-  "ChartKey": "omnis",
-  "LastLoaded": "2019-09-26T12:15:20.1567341+02:00",
-  "LastLoadedBy": 348,
+  "MainProviderName": "Osinski-Considine",
+  "ShadowProviderName": "Bayer, Sipes and Weber",
+  "ChartKey": "nam",
+  "LastLoaded": "2018-07-13T15:29:22.7982967+02:00",
+  "LastLoadedBy": 622,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-08-22T12:15:20.1577381+02:00",
-  "LastMembershipChangeBy": 332,
+  "LastMembershipChange": "2009-12-11T15:29:22.7987971+01:00",
+  "LastMembershipChangeBy": 356,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "architecto",
-  "MailingsProviderName": "Kihn-Swift",
-  "DashboardTileDefinitionId": 645,
+  "MainHeading": "facilis",
+  "MemberTabHeading": "quibusdam",
+  "MailingsProviderName": "Klein-Weimann",
+  "DashboardTileDefinitionId": 155,
   "VisibleFor": [
     {
-      "VisibleId": 24,
+      "VisibleId": 404,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 18
         }
       }
     },
     {
-      "VisibleId": 24,
+      "VisibleId": 404,
       "Visibility": "All",
-      "DisplayValue": "tenetur",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 321
+          "FieldLength": 18
         }
       }
     }
@@ -199,8 +199,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

@@ -42,7 +42,7 @@ ShipmentMessageEntity deleted.
 |----------------|-------------|
 | 204 | ShipmentMessageEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

@@ -119,8 +119,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -128,7 +128,7 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    819,
-    76
+    703,
+    186
   ]
 }
 ```
@@ -149,21 +149,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 775,
-  "Title": "voluptas",
-  "CreatedAt": "2004-09-17T12:15:20.4317303+02:00",
-  "LastChanged": "2007-10-29T12:15:20.4317303+01:00",
-  "ReadByOwner": "2021-10-26T12:15:20.4317303+02:00",
-  "ReadByCustomer": "2014-07-10T12:15:20.4317303+02:00",
-  "FirstReadByOwner": "2000-04-05T12:15:20.4317303+02:00",
-  "FirstReadByUser": "2004-11-23T12:15:20.4317303+01:00",
-  "Activate": "2020-10-25T12:15:20.4317303+01:00",
-  "ClosedAt": "2013-11-03T12:15:20.4317303+01:00",
-  "RepliedAt": "2022-04-16T12:15:20.4317303+02:00",
-  "AlertTimeout": "2009-03-21T12:15:20.4317303+01:00",
-  "Deadline": "2010-05-30T12:15:20.4317303+02:00",
+  "TicketId": 345,
+  "Title": "voluptate",
+  "CreatedAt": "2003-03-24T15:29:23.2007919+01:00",
+  "LastChanged": "2017-05-20T15:29:23.2007919+02:00",
+  "ReadByOwner": "2010-01-02T15:29:23.2007919+01:00",
+  "ReadByCustomer": "2018-01-03T15:29:23.2007919+01:00",
+  "FirstReadByOwner": "2005-08-10T15:29:23.2007919+02:00",
+  "FirstReadByUser": "2014-08-17T15:29:23.2007919+02:00",
+  "Activate": "2009-02-25T15:29:23.2007919+01:00",
+  "ClosedAt": "1998-01-24T15:29:23.2007919+01:00",
+  "RepliedAt": "2018-01-24T15:29:23.2007919+01:00",
+  "AlertTimeout": "1997-02-24T15:29:23.2007919+01:00",
+  "Deadline": "2001-11-17T15:29:23.2007919+01:00",
   "CreatedBy": null,
-  "Author": "eius",
+  "Author": "non",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -174,157 +174,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "dolore",
-      "PersonId": 132,
-      "Mrmrs": "non",
-      "Firstname": "Tianna",
-      "Lastname": "Aufderhar",
-      "MiddleName": "Wisoky Group",
-      "Title": "sint",
-      "Description": "Adaptive cohesive analyzer",
-      "Email": "ashtyn@bechtelar.biz",
-      "FullName": "Rey Renner PhD",
-      "DirectPhone": "(348)430-3339 x6562",
-      "FormalName": "Aufderhar Group",
-      "CountryId": 122,
-      "ContactId": 827,
-      "ContactName": "Harris Inc and Sons",
-      "Retired": 205,
-      "Rank": 97,
-      "ActiveInterests": 704,
+      "Position": "ullam",
+      "PersonId": 753,
+      "Mrmrs": "aut",
+      "Firstname": "Robin",
+      "Lastname": "Breitenberg",
+      "MiddleName": "Braun-Franecki",
+      "Title": "occaecati",
+      "Description": "Mandatory holistic projection",
+      "Email": "iliana.luettgen@damore.ca",
+      "FullName": "Hershel Hilpert",
+      "DirectPhone": "120.746.8056 x291",
+      "FormalName": "Frami-Thompson",
+      "CountryId": 126,
+      "ContactId": 149,
+      "ContactName": "Gorczany, McGlynn and Kessler",
+      "Retired": 238,
+      "Rank": 463,
+      "ActiveInterests": 311,
       "ContactDepartment": "",
-      "ContactCountryId": 123,
-      "ContactOrgNr": "1196851",
-      "FaxPhone": "190.591.9113 x37515",
-      "MobilePhone": "(767)195-5887 x93666",
-      "ContactPhone": "289.673.9930 x093",
-      "AssociateName": "Schmidt, Block and Roberts",
-      "AssociateId": 704,
-      "UsePersonAddress": false,
-      "ContactFax": "dolore",
-      "Kanafname": "fuga",
-      "Kanalname": "modi",
-      "Post1": "id",
-      "Post2": "ipsum",
-      "Post3": "facere",
-      "EmailName": "madonna@mcculloughzboncak.biz",
-      "ContactFullName": "Clinton Schumm V",
-      "ActiveErpLinks": 374,
-      "TicketPriorityId": 35,
-      "SupportLanguageId": 322,
-      "SupportAssociateId": 907,
+      "ContactCountryId": 687,
+      "ContactOrgNr": "1306602",
+      "FaxPhone": "708-970-4124",
+      "MobilePhone": "1-585-792-9565 x33331",
+      "ContactPhone": "633-415-3052 x8746",
+      "AssociateName": "Schroeder, Connelly and Lynch",
+      "AssociateId": 789,
+      "UsePersonAddress": true,
+      "ContactFax": "nisi",
+      "Kanafname": "quos",
+      "Kanalname": "soluta",
+      "Post1": "quam",
+      "Post2": "incidunt",
+      "Post3": "impedit",
+      "EmailName": "penelope.simonis@fay.name",
+      "ContactFullName": "Eunice Treutel",
+      "ActiveErpLinks": 283,
+      "TicketPriorityId": 298,
+      "SupportLanguageId": 637,
+      "SupportAssociateId": 571,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldType": "System.Int32",
+          "FieldLength": 710
         }
       }
     }
   ],
-  "AlertLevel": 681,
-  "ConnectId": 919,
+  "AlertLevel": 372,
+  "ConnectId": 345,
   "ReadStatus": "Green",
-  "TimeToReply": 162,
-  "RealTimeToReply": 986,
-  "TimeToClose": 159,
-  "RealTimeToClose": 980,
-  "TimeSpentInternally": 892,
-  "TimeSpentExternally": 313,
-  "TimeSpentQueue": 447,
-  "RealTimeSpentInternally": 222,
-  "RealTimeSpentExternally": 320,
-  "RealTimeSpentQueue": 351,
-  "HasAttachment": true,
-  "NumReplies": 111,
-  "NumMessages": 330,
-  "FromAddress": "voluptates",
+  "TimeToReply": 490,
+  "RealTimeToReply": 135,
+  "TimeToClose": 121,
+  "RealTimeToClose": 191,
+  "TimeSpentInternally": 471,
+  "TimeSpentExternally": 873,
+  "TimeSpentQueue": 329,
+  "RealTimeSpentInternally": 254,
+  "RealTimeSpentExternally": 680,
+  "RealTimeSpentQueue": 756,
+  "HasAttachment": false,
+  "NumReplies": 664,
+  "NumMessages": 364,
+  "FromAddress": "reiciendis",
   "Messages": [
     {
-      "TicketMessageId": 185,
-      "CreatedAt": "2006-12-24T12:15:20.4357302+01:00",
+      "TicketMessageId": 330,
+      "CreatedAt": "2010-11-27T15:29:23.2052905+01:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "fugit",
-      "PersonId": 734,
-      "PersonFullName": "Jude Bode",
-      "ContactId": 406,
-      "ContactName": "Bartoletti LLC",
+      "Important": true,
+      "Author": "modi",
+      "PersonId": 992,
+      "PersonFullName": "Dr. Hudson Hartmann IV",
+      "ContactId": 495,
+      "ContactName": "Crona Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 417,
-      "EmailHeader": "clara@yundt.com",
+      "NumAttachments": 625,
+      "EmailHeader": "abby@yostmcclure.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quis",
-      "Sentiment": 145,
-      "SentimentConfidence": 726,
-      "CreatedBy": 784,
-      "ChangedAt": "2016-05-09T12:15:20.4357302+02:00",
+      "Language": "necessitatibus",
+      "Sentiment": 736,
+      "SentimentConfidence": 955,
+      "CreatedBy": 253,
+      "ChangedAt": "1999-01-29T15:29:23.2057908+01:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 606
+          "FieldType": "System.Int32",
+          "FieldLength": 379
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 689,
-      "Name": "Boyle LLC",
-      "ToolTip": "Culpa distinctio et necessitatibus.",
+      "Id": 423,
+      "Name": "Sauer Inc and Sons",
+      "ToolTip": "Ad qui repellendus quam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 768
         }
       }
     },
     {
-      "Id": 689,
-      "Name": "Boyle LLC",
-      "ToolTip": "Culpa distinctio et necessitatibus.",
+      "Id": 423,
+      "Name": "Sauer Inc and Sons",
+      "ToolTip": "Ad qui repellendus quam.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 288
+          "FieldLength": 768
         }
       }
     }
   ],
-  "Language": "sapiente",
-  "Sentiment": 935,
-  "SentimentConfidence": 950,
-  "SuggestedCategoryId": 241,
+  "Language": "officia",
+  "Sentiment": 473,
+  "SentimentConfidence": 755,
+  "SuggestedCategoryId": 318,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 849,
-  "IconHint": "illo",
+  "OrigHumanCategoryId": 307,
+  "IconHint": "non",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "explicabo",
-    "CustomFields2": "at"
+    "CustomFields1": "cumque",
+    "CustomFields2": "magni"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 249
     }
   }
 }

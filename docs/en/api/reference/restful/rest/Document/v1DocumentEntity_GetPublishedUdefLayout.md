@@ -78,8 +78,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 665,
-    "ColumnId": 774,
-    "FieldDefault": "molestiae",
-    "FieldHeight": 779,
-    "FieldLabel": "nostrum",
-    "FieldLeft": 582,
-    "FieldTop": 395,
+    "UDefFieldId": 315,
+    "ColumnId": 880,
+    "FieldDefault": "non",
+    "FieldHeight": 564,
+    "FieldLabel": "ut",
+    "FieldLeft": 798,
+    "FieldTop": 273,
     "FieldType": "Checkbox",
-    "FieldWidth": 226,
-    "FormatMask": "et",
+    "FieldWidth": 985,
+    "FormatMask": "hic",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 989,
-    "LabelLeft": 555,
-    "LabelTop": 407,
-    "LabelWidth": 917,
-    "LastVersionId": 62,
-    "ListTableId": 119,
-    "IsMandatory": false,
+    "LabelHeight": 522,
+    "LabelLeft": 212,
+    "LabelTop": 313,
+    "LabelWidth": 846,
+    "LastVersionId": 678,
+    "ListTableId": 620,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 916,
-    "ProgId": "officia",
+    "Page1LineNo": 876,
+    "ProgId": "sapiente",
     "IsReadOnly": true,
-    "ShortLabel": "earum",
-    "TabOrder": 30,
-    "TextLength": 518,
-    "Tooltip": "maiores",
-    "UdefIdentity": 922,
-    "UDListDefinitionId": 118,
+    "ShortLabel": "mollitia",
+    "TabOrder": 769,
+    "TextLength": 940,
+    "Tooltip": "ipsa",
+    "UdefIdentity": 442,
+    "UDListDefinitionId": 952,
     "Justification": "Center",
-    "Version": 179,
-    "TemplateVariableName": "Mayert-Schultz",
+    "Version": 504,
+    "TemplateVariableName": "Kuhlman Group",
     "HasBeenPublished": false,
-    "MdoListName": "Wehner Inc and Sons",
+    "MdoListName": "Grimes LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   }

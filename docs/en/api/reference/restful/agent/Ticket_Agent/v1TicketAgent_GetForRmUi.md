@@ -118,8 +118,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Ticket/GetForRmUi
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 828
+  "TicketId": 910
 }
 ```
 
@@ -142,21 +142,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 704,
-  "Title": "reiciendis",
-  "CreatedAt": "2015-11-05T12:15:20.3357313+01:00",
-  "LastChanged": "2000-01-14T12:15:20.3357313+01:00",
-  "ReadByOwner": "2020-10-08T12:15:20.3357313+02:00",
-  "ReadByCustomer": "2017-05-15T12:15:20.3357313+02:00",
-  "FirstReadByOwner": "1998-05-07T12:15:20.3357313+02:00",
-  "FirstReadByUser": "2005-01-22T12:15:20.3357313+01:00",
-  "Activate": "2000-09-24T12:15:20.3357313+02:00",
-  "ClosedAt": "2004-05-06T12:15:20.3357313+02:00",
-  "RepliedAt": "1997-11-21T12:15:20.3357313+01:00",
-  "AlertTimeout": "2012-08-14T12:15:20.3357313+02:00",
-  "Deadline": "1995-12-09T12:15:20.3357313+01:00",
+  "TicketId": 331,
+  "Title": "culpa",
+  "CreatedAt": "1998-09-20T15:29:23.1122568+02:00",
+  "LastChanged": "2003-12-04T15:29:23.1122568+01:00",
+  "ReadByOwner": "2012-12-10T15:29:23.1122568+01:00",
+  "ReadByCustomer": "2008-01-31T15:29:23.1122568+01:00",
+  "FirstReadByOwner": "2011-03-31T15:29:23.1122568+02:00",
+  "FirstReadByUser": "2007-08-16T15:29:23.1122568+02:00",
+  "Activate": "2021-12-19T15:29:23.1122568+01:00",
+  "ClosedAt": "2010-07-14T15:29:23.1122568+02:00",
+  "RepliedAt": "1996-08-07T15:29:23.1122568+02:00",
+  "AlertTimeout": "2000-10-08T15:29:23.1122568+02:00",
+  "Deadline": "2019-03-12T15:29:23.1122568+01:00",
   "CreatedBy": null,
-  "Author": "corrupti",
+  "Author": "dignissimos",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,157 +167,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "provident",
-      "PersonId": 798,
-      "Mrmrs": "ut",
-      "Firstname": "Darion",
-      "Lastname": "Jacobson",
-      "MiddleName": "Russel, Zieme and Haley",
-      "Title": "nesciunt",
-      "Description": "Organic dedicated capability",
-      "Email": "alexzander@ernser.uk",
-      "FullName": "Ms. Mariam Kristofer Connelly III",
-      "DirectPhone": "049.031.6667",
-      "FormalName": "Sawayn Inc and Sons",
-      "CountryId": 27,
-      "ContactId": 421,
-      "ContactName": "Kovacek-Nikolaus",
-      "Retired": 671,
-      "Rank": 99,
-      "ActiveInterests": 991,
+      "Position": "et",
+      "PersonId": 471,
+      "Mrmrs": "in",
+      "Firstname": "Hipolito",
+      "Lastname": "Von",
+      "MiddleName": "Dickens LLC",
+      "Title": "et",
+      "Description": "Synergistic dedicated frame",
+      "Email": "durward@quigleyroberts.name",
+      "FullName": "Neil Ebert",
+      "DirectPhone": "888-424-5481 x52470",
+      "FormalName": "Quigley LLC",
+      "CountryId": 461,
+      "ContactId": 763,
+      "ContactName": "Abbott LLC",
+      "Retired": 131,
+      "Rank": 538,
+      "ActiveInterests": 25,
       "ContactDepartment": "",
-      "ContactCountryId": 107,
-      "ContactOrgNr": "417581",
-      "FaxPhone": "007-336-1384",
-      "MobilePhone": "914-505-2906 x13901",
-      "ContactPhone": "292.018.7688 x893",
-      "AssociateName": "Walter, Predovic and Pacocha",
-      "AssociateId": 671,
+      "ContactCountryId": 786,
+      "ContactOrgNr": "1246877",
+      "FaxPhone": "765.049.1726",
+      "MobilePhone": "(252)706-5594 x2820",
+      "ContactPhone": "772.126.2368 x9347",
+      "AssociateName": "Macejkovic Inc and Sons",
+      "AssociateId": 958,
       "UsePersonAddress": false,
-      "ContactFax": "natus",
-      "Kanafname": "labore",
-      "Kanalname": "aut",
-      "Post1": "consequuntur",
-      "Post2": "mollitia",
-      "Post3": "qui",
-      "EmailName": "jules_bailey@carter.us",
-      "ContactFullName": "Janie Kuhlman",
-      "ActiveErpLinks": 508,
-      "TicketPriorityId": 727,
-      "SupportLanguageId": 90,
-      "SupportAssociateId": 577,
+      "ContactFax": "fugit",
+      "Kanafname": "incidunt",
+      "Kanalname": "quia",
+      "Post1": "ut",
+      "Post2": "omnis",
+      "Post3": "suscipit",
+      "EmailName": "hugh.turcotte@turner.biz",
+      "ContactFullName": "Prof. Tito Roel Monahan",
+      "ActiveErpLinks": 932,
+      "TicketPriorityId": 735,
+      "SupportLanguageId": 815,
+      "SupportAssociateId": 827,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldLength": 32
         }
       }
     }
   ],
-  "AlertLevel": 538,
-  "ConnectId": 928,
+  "AlertLevel": 871,
+  "ConnectId": 175,
   "ReadStatus": "Green",
-  "TimeToReply": 983,
-  "RealTimeToReply": 880,
-  "TimeToClose": 665,
-  "RealTimeToClose": 31,
-  "TimeSpentInternally": 845,
-  "TimeSpentExternally": 769,
-  "TimeSpentQueue": 778,
-  "RealTimeSpentInternally": 666,
-  "RealTimeSpentExternally": 776,
-  "RealTimeSpentQueue": 752,
+  "TimeToReply": 294,
+  "RealTimeToReply": 640,
+  "TimeToClose": 794,
+  "RealTimeToClose": 385,
+  "TimeSpentInternally": 220,
+  "TimeSpentExternally": 94,
+  "TimeSpentQueue": 558,
+  "RealTimeSpentInternally": 187,
+  "RealTimeSpentExternally": 871,
+  "RealTimeSpentQueue": 347,
   "HasAttachment": false,
-  "NumReplies": 937,
-  "NumMessages": 419,
-  "FromAddress": "ab",
+  "NumReplies": 452,
+  "NumMessages": 550,
+  "FromAddress": "tenetur",
   "Messages": [
     {
-      "TicketMessageId": 156,
-      "CreatedAt": "2017-09-09T12:15:20.3417321+02:00",
+      "TicketMessageId": 446,
+      "CreatedAt": "1998-01-08T15:29:23.1167572+01:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "quasi",
-      "PersonId": 455,
-      "PersonFullName": "Prof. Brain Boyd Roberts MD",
-      "ContactId": 18,
-      "ContactName": "Kemmer Inc and Sons",
+      "Author": "minima",
+      "PersonId": 231,
+      "PersonFullName": "Heaven Bauch",
+      "ContactId": 498,
+      "ContactName": "Swaniawski Group",
       "ContactDepartment": "",
-      "NumAttachments": 941,
-      "EmailHeader": "gussie@botsford.com",
+      "NumAttachments": 119,
+      "EmailHeader": "holden.turcotte@stark.info",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "commodi",
-      "Sentiment": 393,
-      "SentimentConfidence": 534,
-      "CreatedBy": 517,
-      "ChangedAt": "2011-07-11T12:15:20.3427327+02:00",
+      "Language": "quis",
+      "Sentiment": 23,
+      "SentimentConfidence": 767,
+      "CreatedBy": 720,
+      "ChangedAt": "2011-11-03T15:29:23.1172564+01:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldType": "System.String",
+          "FieldLength": 138
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 480,
-      "Name": "Eichmann LLC",
-      "ToolTip": "Quis doloremque et dicta occaecati magnam aperiam sint.",
+      "Id": 651,
+      "Name": "Lubowitz Group",
+      "ToolTip": "Distinctio dignissimos incidunt explicabo vitae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 608
+          "FieldLength": 844
         }
       }
     },
     {
-      "Id": 480,
-      "Name": "Eichmann LLC",
-      "ToolTip": "Quis doloremque et dicta occaecati magnam aperiam sint.",
+      "Id": 651,
+      "Name": "Lubowitz Group",
+      "ToolTip": "Distinctio dignissimos incidunt explicabo vitae.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 608
+          "FieldLength": 844
         }
       }
     }
   ],
-  "Language": "incidunt",
-  "Sentiment": 666,
-  "SentimentConfidence": 763,
-  "SuggestedCategoryId": 346,
+  "Language": "consequatur",
+  "Sentiment": 138,
+  "SentimentConfidence": 938,
+  "SuggestedCategoryId": 774,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 546,
-  "IconHint": "ut",
+  "OrigHumanCategoryId": 179,
+  "IconHint": "doloremque",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "doloremque"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "quia"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

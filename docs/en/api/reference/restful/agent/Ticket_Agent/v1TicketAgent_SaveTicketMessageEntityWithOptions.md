@@ -44,13 +44,14 @@ POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions?$select=name,depar
 
 ## Request Body: request 
 
-Entity, Notify, AttachmentIds 
+Entity, Notify, AttachmentIds, UpdateRepliedAt 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Entity | TicketMessageEntity | The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request). <para /> Carrier object for TicketMessageEntity. Services for the TicketMessageEntity Carrier is available from the <see cref="T:SuperOffice.CRM.Services.ITicketAgent">Ticket Agent</see>. |
 | Notify | Boolean |  |
 | AttachmentIds | Array |  |
+| UpdateRepliedAt | Boolean |  |
 
 ## Response:
 
@@ -86,11 +87,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,11 +105,12 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    624,
-    796
-  ]
+    278,
+    153
+  ],
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -118,28 +121,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 571,
+  "EjMessageId": 624,
   "Ticket": null,
-  "CreatedAt": "2007-12-16T12:15:20.4807399+01:00",
+  "CreatedAt": "2015-09-20T15:29:23.250755+02:00",
   "CreatedBy": null,
-  "Author": "natus",
+  "Author": "consequatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "adipisci",
-  "TimeSpent": 62,
-  "Body": "sit",
-  "HtmlBody": "sit",
-  "EmailHeader": "reynold.veum@schadenjacobi.com",
-  "DebugInfo": "nihil",
-  "MailSorter": "qui",
+  "MessageId": "dolorum",
+  "TimeSpent": 92,
+  "Body": "sed",
+  "HtmlBody": "est",
+  "EmailHeader": "elyse@jerdewisoky.com",
+  "DebugInfo": "minus",
+  "MailSorter": "nisi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "vel",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 577,
-      "Name": "Huel-Metz",
-      "Value": "in",
+      "Id": 121,
+      "Name": "Larson, Turner and Hettinger",
+      "Value": "sit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -147,47 +150,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 901
         }
       }
     }
   ],
   "Important": false,
-  "Language": "sapiente",
-  "Sentiment": 917,
-  "SentimentConfidence": 163,
+  "Language": "aperiam",
+  "Sentiment": 467,
+  "SentimentConfidence": 531,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 950,
-      "Name": "Pollich-Runolfsdottir",
-      "ContentType": "animi",
-      "AttSize": 365,
-      "InlineImage": true,
-      "ContentId": "fugiat",
+      "AttachmentId": 918,
+      "Name": "Welch, Bahringer and Bergstrom",
+      "ContentType": "temporibus",
+      "AttSize": 654,
+      "InlineImage": false,
+      "ContentId": "deleniti",
+      "AuthKey": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 14
+          "FieldLength": 571
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "rem"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 811
     }
   }
 }

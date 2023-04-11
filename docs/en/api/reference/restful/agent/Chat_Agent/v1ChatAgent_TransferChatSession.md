@@ -96,8 +96,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -109,8 +109,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 703,
-  "ToAssociate": "praesentium"
+  "ChatSessionId": 577,
+  "ToAssociate": "ipsa"
 }
 ```
 
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 297,
-  "TopicId": 631,
+  "ChatSessionId": 511,
+  "TopicId": 629,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consectetur",
-  "CustomerHost": "sed",
-  "CustomerName": "McGlynn LLC",
-  "CustomerEmail": "esteban_ebert@collierwintheiser.name",
-  "CustomerPhone": "515.361.2467 x137",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Mohr LLC",
+  "CustomerAlias": "accusantium",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Hermann-Lang",
+  "CustomerEmail": "arturo.johnson@johns.co.uk",
+  "CustomerPhone": "845-728-3423",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Hane, Effertz and Christiansen",
   "Status": "Closed",
-  "FirstMessage": "quos",
-  "LastMessage": "provident",
-  "WhenRequested": "2008-11-01T12:15:18.3147639+01:00",
-  "WhenStarted": "2007-10-06T12:15:18.3147639+02:00",
-  "WhenEnded": "1998-07-10T12:15:18.3147639+02:00",
-  "WhenIdle": "2011-07-03T12:15:18.3147639+02:00",
-  "WhenFetched": "2014-04-23T12:15:18.3147639+02:00",
-  "SessionKey": "error",
-  "InitialQueuePos": 696,
-  "AlertLevel": 74,
-  "Rank": 497,
+  "FirstMessage": "ipsam",
+  "LastMessage": "et",
+  "WhenRequested": "2012-09-28T15:29:20.9323234+02:00",
+  "WhenStarted": "2017-04-28T15:29:20.9323234+02:00",
+  "WhenEnded": "2014-01-18T15:29:20.9323234+01:00",
+  "WhenIdle": "2003-10-30T15:29:20.9323234+01:00",
+  "WhenFetched": "2020-02-15T15:29:20.9323234+01:00",
+  "SessionKey": "ipsum",
+  "InitialQueuePos": 756,
+  "AlertLevel": 828,
+  "Rank": 481,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 740,
+  "Rating": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 149
     }
   }
 }

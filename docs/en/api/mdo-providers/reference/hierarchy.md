@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "hierarchy"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -67,6 +67,7 @@ foreach (var item in listProvider.RootItems) {
 |6|UserGroups||Domain|
 |7|ExternalDocumentRelatedToSpmMessage||Domain|
 |8|Dashboards||Domain|
+|9|EmailFlows||Domain|
 
 
 ## Related MDO Lists

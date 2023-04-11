@@ -26,7 +26,7 @@ Deletes the TriggerScriptEntity
 | TriggerScriptEntityId | int32 | **Required** The id of the TriggerScriptEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=3
+POST /api/v1/Agents/CRMScript/DeleteTriggerScriptEntity?TriggerScriptEntityId=267
 ```
 
 
@@ -48,7 +48,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request

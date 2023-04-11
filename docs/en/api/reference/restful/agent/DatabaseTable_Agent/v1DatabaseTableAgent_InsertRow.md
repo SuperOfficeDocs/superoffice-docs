@@ -72,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Trantow Group",
+  "TableName": "Kessler, Hayes and Durgan",
   "Values": {
-    "Values1": "non",
-    "Values2": "libero"
+    "Values1": "illum",
+    "Values2": "architecto"
   }
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-715
+501
 ```

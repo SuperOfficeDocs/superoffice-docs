@@ -53,8 +53,8 @@ OK
 | DisplayName | string | Name shown in the list |
 | URL | string | The URL where the connector is located and can be called |
 | Deleted | bool | True if the connector is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,16 +72,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 588,
-  "DisplayName": "Johnston-Hettinger",
+  "ErpConnectorId": 380,
+  "DisplayName": "Veum Inc and Sons",
   "URL": "http://www.example.com/",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldType": "System.String",
+      "FieldLength": 919
     }
   }
 }

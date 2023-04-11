@@ -43,7 +43,7 @@ ContactEntity deleted.
 | 204 | ContactEntity deleted. |
 | 412 | Delete aborted because ContactEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

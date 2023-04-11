@@ -43,7 +43,7 @@ PersonEntity deleted.
 | 204 | PersonEntity deleted. |
 | 412 | Delete aborted because PersonEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

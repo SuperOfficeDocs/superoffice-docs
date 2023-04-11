@@ -70,8 +70,8 @@ OK
 | ErrorCode | string | An error code, if available. |
 | Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,9 +83,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 914,
-  "AssociateId": 427,
-  "Comment": "earum"
+  "QuoteVersionId": 748,
+  "AssociateId": 923,
+  "Comment": "porro"
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "qui",
-  "TechExplanation": "culpa",
-  "ErrorCode": "ut",
+  "IsOk": false,
+  "UserExplanation": "non",
+  "TechExplanation": "fugit",
+  "ErrorCode": "id",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldLength": 492
     }
   }
 }

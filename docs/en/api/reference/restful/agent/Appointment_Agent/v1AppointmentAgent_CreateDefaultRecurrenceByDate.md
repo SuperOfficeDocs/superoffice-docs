@@ -60,22 +60,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RecurrenceId | int32 |  |
-| StartDate | date-time |  |
-| EndDate | date-time |  |
-| RecurrenceCounter | int32 |  |
-| RecurrenceEndType | string |  |
-| Pattern | string |  |
-| DayPattern | TableRight |  |
-| WeekPattern | TableRight |  |
-| MonthPattern | TableRight |  |
-| YearPattern | TableRight |  |
-| Dates | array |  |
-| IsRecurrence | bool |  |
+| RecurrenceId | int32 | The recurrence rule id |
+| StartDate | date-time | Start date of the repetition pattern |
+| EndDate | date-time | End date of the repetition pattern Only used when the end is calculated from a end date. {SuperOffice.Data.RecurrenceEndType.EndDate} |
+| RecurrenceCounter | int32 | Number of recurrences Only used when the end is calculated from a number of repetitions. {SuperOffice.Data.RecurrenceEndType.Counter} |
+| RecurrenceEndType | string | Type defining how the end of the recurrence sequence should be calculated |
+| Pattern | string | The recurrence pattern (Daily, Weekly, Monthly, Yearly, Custom) |
+| DayPattern | RecurrenceDayPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i daily. {SuperOffice.Data.RecurrencePattern.Daily} |
+| WeekPattern | RecurrenceWeekPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i weekly. {SuperOffice.Data.RecurrencePattern.Weekly} |
+| MonthPattern | RecurrenceMonthPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i monthly. {SuperOffice.Data.RecurrencePattern.Monthly} |
+| YearPattern | RecurrenceYearPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i yearly. {SuperOffice.Data.RecurrencePattern.Yearly} |
+| Dates | array | List of all dates where this recurrence occurs |
+| IsRecurrence | bool | Get a or set IsRecurrence, indicating if this is a repeating appointment or not. |
 
 ## Sample request
 
@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2006-01-11T12:15:17.8757672+01:00"
+  "StartDate": "1999-01-12T15:29:20.6168276+01:00"
 }
 ```
 
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 332,
-  "StartDate": "2018-09-03T12:15:17.8757672+02:00",
-  "EndDate": "2013-08-25T12:15:17.8757672+02:00",
-  "RecurrenceCounter": 522,
+  "RecurrenceId": 617,
+  "StartDate": "2009-04-07T15:29:20.6168276+02:00",
+  "EndDate": "2019-05-12T15:29:20.6168276+02:00",
+  "RecurrenceCounter": 344,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-07-26T12:15:17.8757672+02:00",
+      "Date": "2003-10-15T15:29:20.6173268+02:00",
       "IsConflict": false,
-      "Description": "Automated actuating encryption",
-      "DescriptionStyleHint": "Compatible 3rd generation support",
-      "Tooltip": "dolor"
+      "Description": "Phased stable methodology",
+      "DescriptionStyleHint": "Face to face dynamic instruction set",
+      "Tooltip": "dignissimos"
     },
     {
-      "Date": "2000-07-26T12:15:17.8757672+02:00",
+      "Date": "2003-10-15T15:29:20.6173268+02:00",
       "IsConflict": false,
-      "Description": "Automated actuating encryption",
-      "DescriptionStyleHint": "Compatible 3rd generation support",
-      "Tooltip": "dolor"
+      "Description": "Phased stable methodology",
+      "DescriptionStyleHint": "Face to face dynamic instruction set",
+      "Tooltip": "dignissimos"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

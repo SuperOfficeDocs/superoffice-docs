@@ -27,7 +27,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=632
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=485
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -66,8 +66,8 @@ OK
 | Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 | Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Replication/GetSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 958,
-  "Created": "1997-03-29T12:15:19.9987364+01:00",
+  "SatelliteId": 607,
+  "Created": "1999-03-25T15:29:22.6227639+01:00",
   "CreatedBy": null,
-  "Updated": "1996-05-17T12:15:19.9987364+02:00",
+  "Updated": "1997-12-13T15:29:22.6232641+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Cole-Rowe",
-      "Description": "Intuitive composite array",
+      "Name": "VonRueden Inc and Sons",
+      "Description": "Stand-alone real-time migration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -108,14 +108,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldType": "System.Int32",
+          "FieldLength": 415
         }
       }
     },
     {
-      "Name": "Cole-Rowe",
-      "Description": "Intuitive composite array",
+      "Name": "VonRueden Inc and Sons",
+      "Description": "Stand-alone real-time migration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldType": "System.Int32",
+          "FieldLength": 415
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldLength": 421
     }
   }
 }

@@ -104,8 +104,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -113,15 +113,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    636,
-    262
+    316,
+    714
   ],
-  "TargetTableNumber": 401
+  "TargetTableNumber": 936
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Extended demand-driven policy",
-  "Postit": "omnis",
+  "Description": "Focused modular installation",
+  "Postit": "molestias",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 462,
-  "IncludePerson": 62,
-  "MemberCount": 943,
-  "Name": "Russel, Lebsack and Monahan",
-  "PostitTextId": 406,
-  "CreatedDate": "2005-10-25T12:15:20.1787342+02:00",
-  "SelectionId": 11,
-  "SoundEx": "nam",
-  "Source": 55,
-  "TextId": 180,
-  "UpdatedDate": "2016-06-28T12:15:20.1787342+02:00",
-  "UpdatedCount": 75,
-  "Visibility": 406,
+  "GroupIdx": 760,
+  "IncludePerson": 21,
+  "MemberCount": 994,
+  "Name": "Doyle Group",
+  "PostitTextId": 234,
+  "CreatedDate": "2005-06-14T15:29:22.9502972+02:00",
+  "SelectionId": 309,
+  "SoundEx": "maiores",
+  "Source": 154,
+  "TextId": 62,
+  "UpdatedDate": "2017-08-08T15:29:22.9502972+02:00",
+  "UpdatedCount": 666,
+  "Visibility": 71,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 85,
-  "TargetTableName": "Goldner LLC",
+  "TargetTableNumber": 438,
+  "TargetTableName": "Ritchie LLC",
   "Completed": false,
-  "LeftSelectionId": 344,
-  "RightSelectionId": 727,
+  "LeftSelectionId": 258,
+  "RightSelectionId": 522,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hand Inc and Sons",
-  "ShadowProviderName": "Abbott, Fahey and Heller",
-  "ChartKey": "ut",
-  "LastLoaded": "2020-04-09T12:15:20.1797337+02:00",
-  "LastLoadedBy": 368,
+  "MainProviderName": "Wehner Inc and Sons",
+  "ShadowProviderName": "Powlowski Inc and Sons",
+  "ChartKey": "quibusdam",
+  "LastLoaded": "2019-08-24T15:29:22.9502972+02:00",
+  "LastLoadedBy": 105,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-08-19T12:15:20.1797337+02:00",
-  "LastMembershipChangeBy": 292,
+  "LastMembershipChange": "2018-10-29T15:29:22.9502972+01:00",
+  "LastMembershipChangeBy": 760,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quidem",
-  "MemberTabHeading": "repudiandae",
-  "MailingsProviderName": "Streich Inc and Sons",
-  "DashboardTileDefinitionId": 441,
+  "MainHeading": "qui",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Becker, Grant and Hoeger",
+  "DashboardTileDefinitionId": 755,
   "VisibleFor": [
     {
-      "VisibleId": 278,
+      "VisibleId": 179,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 27
+          "FieldLength": 778
         }
       }
     },
     {
-      "VisibleId": 278,
+      "VisibleId": 179,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 27
+          "FieldLength": 778
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 138
     }
   }
 }

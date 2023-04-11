@@ -75,8 +75,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 299
+  "ProjectId": 607
 }
 ```
 
@@ -99,25 +99,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 135,
-  "BlobSize": 500,
-  "Description": "Mandatory intangible model",
-  "ExtraInfo": "praesentium",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "reprehenderit",
-  "OriginalSize": 785,
-  "CreatedDate": "2021-01-05T12:15:18.2237688+01:00",
-  "UpdatedDate": "2000-06-04T12:15:18.2237688+02:00",
+  "BlobId": 953,
+  "BlobSize": 126,
+  "Description": "Universal optimizing support",
+  "ExtraInfo": "ut",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "unde",
+  "OriginalSize": 466,
+  "CreatedDate": "2007-05-07T15:29:20.8412894+02:00",
+  "UpdatedDate": "1997-02-13T15:29:20.8412894+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "odio",
+  "ConceptualType": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 351
     }
   }
 }

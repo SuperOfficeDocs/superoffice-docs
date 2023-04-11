@@ -85,8 +85,8 @@ OK
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 413
+  "QuoteVersionId": 636
 }
 ```
 
@@ -110,35 +110,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 261,
-    "ERPQuoteAlternativeKey": "occaecati",
-    "QuoteVersionId": 583,
-    "Name": "Towne, Skiles and Hagenes",
-    "Description": "Open-source holistic knowledge base",
+    "QuoteAlternativeId": 764,
+    "ERPQuoteAlternativeKey": "eius",
+    "QuoteVersionId": 518,
+    "Name": "Reichel Inc and Sons",
+    "Description": "Seamless exuding alliance",
     "Status": "Error",
-    "Reason": "morph back-end partnerships",
-    "ERPDiscountPercent": 22693.293999999998,
-    "ERPDiscountAmount": 13585.89,
-    "DiscountPercent": 15713.876,
-    "DiscountAmount": 15469.423999999999,
+    "Reason": "",
+    "ERPDiscountPercent": 21837.712,
+    "ERPDiscountAmount": 21956.804,
+    "DiscountPercent": 557.852,
+    "DiscountAmount": 5879.384,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "eos",
-    "VAT": 9025.92,
-    "EarningPercent": 22126.04,
-    "EarningAmount": 20449.35,
-    "SubTotal": 3337.71,
-    "TotalPrice": 11464.172,
-    "ExtraField1": "vero",
-    "ExtraField2": "velit",
-    "ExtraField3": "cumque",
-    "ExtraField4": "eos",
-    "ExtraField5": "tenetur",
+    "VATInfo": "quidem",
+    "VAT": 6293.072,
+    "EarningPercent": 21323.736,
+    "EarningAmount": 24476.54,
+    "SubTotal": 9627.648,
+    "TotalPrice": 22445.708,
+    "ExtraField1": "quod",
+    "ExtraField2": "nisi",
+    "ExtraField3": "enim",
+    "ExtraField4": "mollitia",
+    "ExtraField5": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 108
       }
     }
   }

@@ -76,15 +76,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 530,
-  "AssociateId": 662,
+  "DocumentId": 611,
+  "AssociateId": 49,
   "CustomTags": [
-    "accusamus",
-    "velit"
+    "consequatur",
+    "quidem"
   ],
   "CustomValues": [
-    "ut",
-    "sed"
+    "vitae",
+    "incidunt"
   ]
 }
 ```

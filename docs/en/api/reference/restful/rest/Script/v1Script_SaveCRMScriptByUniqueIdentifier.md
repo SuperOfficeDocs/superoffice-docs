@@ -77,8 +77,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,20 +86,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "corrupti",
-  "Name": "Klocko Inc and Sons",
-  "Description": "Upgradable maximized contingency",
-  "IncludeId": "exercitationem",
-  "Source": "consequuntur",
-  "Registered": "2009-11-20T12:15:27.719625+01:00",
-  "RegisteredBy": "sunt",
-  "Updated": "2006-11-02T12:15:27.719625+01:00",
-  "UpdatedBy": "explicabo",
-  "Path": "enim"
+  "UniqueIdentifier": "ratione",
+  "Name": "Bauch LLC",
+  "Description": "Virtual user-facing concept",
+  "IncludeId": "adipisci",
+  "Source": "et",
+  "Registered": "2013-08-15T15:29:30.9289835+02:00",
+  "RegisteredBy": "est",
+  "Updated": "2002-04-30T15:29:30.9289835+02:00",
+  "UpdatedBy": "aut",
+  "Path": "quod"
 }
 ```
 
@@ -110,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Lebsack Inc and Sons",
-  "Description": "Automated scalable collaboration",
-  "IncludeId": "et",
-  "Source": "molestiae",
-  "Registered": "2009-11-18T12:15:27.7206245+01:00",
-  "RegisteredBy": "quisquam",
-  "Updated": "1996-02-03T12:15:27.7206245+01:00",
-  "UpdatedBy": "voluptates",
-  "Path": "labore",
+  "UniqueIdentifier": "nihil",
+  "Name": "Prosacco-Zboncak",
+  "Description": "Enterprise-wide demand-driven superstructure",
+  "IncludeId": "nulla",
+  "Source": "voluptas",
+  "Registered": "2012-09-16T15:29:30.9294857+02:00",
+  "RegisteredBy": "eius",
+  "Updated": "2012-02-16T15:29:30.9294857+01:00",
+  "UpdatedBy": "dolorum",
+  "Path": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 326
     }
   }
 }

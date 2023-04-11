@@ -89,8 +89,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,7 +102,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 646
+  "EjUserId": 899
 }
 ```
 
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 27,
-    "Name": "Douglas LLC",
-    "Rank": 296,
-    "Tooltip": "atque",
+    "AssociateId": 939,
+    "Name": "Kuvalis Inc and Sons",
+    "Rank": 268,
+    "Tooltip": "beatae",
     "LicenseOwners": [
       {
-        "Name": "Crona-Rogahn",
-        "Description": "Visionary 4th generation functionalities",
+        "Name": "Jaskolski Group",
+        "Description": "Open-architected cohesive alliance",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 881
+            "FieldType": "System.Int32",
+            "FieldLength": 703
           }
         }
       },
       {
-        "Name": "Crona-Rogahn",
-        "Description": "Visionary 4th generation functionalities",
+        "Name": "Jaskolski Group",
+        "Description": "Open-architected cohesive alliance",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 881
+            "FieldType": "System.Int32",
+            "FieldLength": 703
           }
         }
       }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "saepe",
-        "Tooltip": "consequatur",
-        "Id": 25,
-        "Rank": 858,
-        "Deleted": true,
+        "Value": "beatae",
+        "Tooltip": "necessitatibus",
+        "Id": 762,
+        "Rank": 842,
+        "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 716
+            "FieldLength": 389
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2019-02-11T12:15:20.6337281+01:00",
-    "Lastlogout": "2000-07-18T12:15:20.6337281+02:00",
-    "EjUserId": 781,
-    "RequestSignature": "quisquam",
+    "Lastlogin": "2011-04-11T15:29:23.4102867+02:00",
+    "Lastlogout": "2021-06-13T15:29:23.4102867+02:00",
+    "EjUserId": 262,
+    "RequestSignature": "et",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "sed",
-        "DisplayValue": "voluptatem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 121
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "sed",
-        "DisplayValue": "voluptatem",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 121
-          }
-        }
-      }
-    ],
-    "UserName": "McKenzie-Klein",
-    "TicketCategories": [
-      {
-        "Id": 121,
-        "Name": "Konopelski Inc and Sons",
-        "ToolTip": "Blanditiis dolorum porro nihil voluptatem inventore.",
-        "Deleted": false,
-        "Rank": 46,
-        "Type": "cumque",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "modi",
-        "ColorBlock": 365,
-        "ExtraInfo": "aut",
-        "StyleHint": "dolores",
-        "FullName": "Mr. Romaine Yessenia Ward MD",
+        "Value": "cupiditate",
+        "DisplayValue": "assumenda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 134
+            "FieldLength": 394
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "cupiditate",
+        "DisplayValue": "assumenda",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 394
           }
         }
       }
     ],
-    "NickName": "Schoen, Mitchell and Feeney",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "quis",
-      "ExtraFields2": "qui"
-    },
-    "CustomFields": {
-      "CustomFields1": "soluta",
-      "CustomFields2": "eligendi"
-    },
-    "PostSaveCommands": [
+    "UserName": "Flatley-Jast",
+    "TicketCategories": [
       {
-        "Name": "Kub, Osinski and Stiedemann",
-        "DisplayName": "Blanda, Daniel and Gibson",
-        "Description": "Fully-configurable bifurcated internet solution",
-        "ToolTip": "Quia in quo omnis aut aliquid eos.",
-        "Actions": "Implicit",
-        "ActionData": "quos",
+        "Id": 429,
+        "Name": "Barton-Baumbach",
+        "ToolTip": "Voluptatem et illo.",
+        "Deleted": false,
+        "Rank": 687,
+        "Type": "unde",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "quo",
+        "ColorBlock": 630,
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "totam",
+        "FullName": "Hanna Dare",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 622
+            "FieldLength": 100
+          }
+        }
+      }
+    ],
+    "NickName": "Gibson-Schulist",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "dolor",
+      "ExtraFields2": "cumque"
+    },
+    "CustomFields": {
+      "CustomFields1": "sunt",
+      "CustomFields2": "architecto"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Harris LLC",
+        "DisplayName": "Maggio-Kautzer",
+        "Description": "Inverse interactive algorithm",
+        "ToolTip": "Tempora neque quo.",
+        "Actions": "Implicit",
+        "ActionData": "explicabo",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 994
           }
         }
       }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 530
       }
     }
   }

@@ -159,8 +159,8 @@ OK
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -168,18 +168,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sipes, Wintheiser and Heathcote",
-  "ProviderName": "Mills-Willms",
-  "SortOrder": "quibusdam",
-  "Restriction": "sequi",
-  "Entities": "aliquam",
-  "Page": 217,
-  "PageSize": 894,
-  "Context": "dolorem"
+  "GuiName": "Doyle LLC",
+  "ProviderName": "Beer, Carter and Jast",
+  "SortOrder": "at",
+  "Restriction": "suscipit",
+  "Entities": "incidunt",
+  "Page": 716,
+  "PageSize": 789,
+  "Context": "et"
 }
 ```
 
@@ -191,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bins LLC",
-    "PrimaryKey": 856,
+    "EntityName": "Bechtelar, Barrows and Russel",
+    "PrimaryKey": 329,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatem",
-        "TooltipHint": "nihil",
-        "LinkHint": "occaecati"
+        "DisplayValue": "sint",
+        "TooltipHint": "enim",
+        "LinkHint": "rem"
       }
     },
-    "LinkHint": "reiciendis",
-    "StyleHint": "occaecati",
+    "LinkHint": "similique",
+    "StyleHint": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 161
+        "FieldLength": 679
       }
     }
   }

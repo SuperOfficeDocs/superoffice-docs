@@ -75,8 +75,8 @@ DashboardTile found.
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -95,64 +95,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 20,
-  "Caption": "eos",
-  "Description": "Synchronised even-keeled solution",
-  "ChartName": "Rath-Hayes",
-  "ChartId": "voluptatem",
-  "IsDefault": true,
-  "AssociateId": 737,
-  "GroupId": 902,
-  "SelectionId": 989,
-  "Config": "nihil",
+  "DashboardTileId": 182,
+  "Caption": "delectus",
+  "Description": "Reverse-engineered disintermediate toolset",
+  "ChartName": "Yundt Group",
+  "ChartId": "ut",
+  "IsDefault": false,
+  "AssociateId": 981,
+  "GroupId": 43,
+  "SelectionId": 502,
+  "Config": "illo",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Walsh Group",
-      "Description": "Triple-buffered hybrid hierarchy",
+      "Name": "Upton-Herman",
+      "Description": "Fully-configurable bottom-line Graphical User Interface",
       "Type": "Boolean",
-      "ListName": "Breitenberg Group",
+      "ListName": "Johnson Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolorum",
+      "Value": "quidem",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 804
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 237,
+      "VisibleId": 601,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldType": "System.Int32",
+          "FieldLength": 146
         }
       }
     },
     {
-      "VisibleId": 237,
+      "VisibleId": 601,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldType": "System.Int32",
+          "FieldLength": 146
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldLength": 774
     }
   },
   "_Links": {

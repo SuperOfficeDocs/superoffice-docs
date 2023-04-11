@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 433,
-    "Name": "Stroman-Ortiz",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 413,
-    "UdListDefinitionId": 170
+    "HeadingId": 264,
+    "Name": "Bergstrom-Ankunding",
+    "Tooltip": "ad",
+    "Deleted": true,
+    "Rank": 899,
+    "UdListDefinitionId": 807
   },
   {
-    "HeadingId": 433,
-    "Name": "Stroman-Ortiz",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 413,
-    "UdListDefinitionId": 170
+    "HeadingId": 264,
+    "Name": "Bergstrom-Ankunding",
+    "Tooltip": "ad",
+    "Deleted": true,
+    "Rank": 899,
+    "UdListDefinitionId": 807
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 527,
-    "Name": "Schumm-Johnson",
-    "Tooltip": "dicta",
-    "Deleted": false,
-    "Rank": 111,
-    "UdListDefinitionId": 859,
+    "HeadingId": 747,
+    "Name": "Windler-Carter",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 839,
+    "UdListDefinitionId": 243,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 245
       }
     }
   }

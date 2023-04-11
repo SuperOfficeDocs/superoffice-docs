@@ -71,8 +71,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 550,
-  "Name": "Ullrich Inc and Sons",
-  "Rank": 146,
-  "Tooltip": "numquam",
+  "AssociateId": 492,
+  "Name": "Yost, Runolfsson and Kling",
+  "Rank": 471,
+  "Tooltip": "accusantium",
   "LicenseOwners": [
     {
-      "Name": "Raynor, Schneider and Ankunding",
-      "Description": "Organic mobile secured line",
+      "Name": "Feil-Rippin",
+      "Description": "Vision-oriented upward-trending artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 387
         }
       }
     },
     {
-      "Name": "Raynor, Schneider and Ankunding",
-      "Description": "Organic mobile secured line",
+      "Name": "Feil-Rippin",
+      "Description": "Vision-oriented upward-trending artificial intelligence",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 387
         }
       }
     }
@@ -140,110 +140,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "blanditiis",
-      "Tooltip": "occaecati",
-      "Id": 122,
-      "Rank": 473,
+      "Value": "laudantium",
+      "Tooltip": "deleniti",
+      "Id": 58,
+      "Rank": 922,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 198
+          "FieldType": "System.Int32",
+          "FieldLength": 926
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2016-10-20T12:15:27.7996233+02:00",
-  "Lastlogout": "2001-08-01T12:15:27.7996233+02:00",
-  "EjUserId": 165,
-  "RequestSignature": "tempore",
+  "Deleted": false,
+  "Lastlogin": "2013-06-14T15:29:31.0054825+02:00",
+  "Lastlogout": "2014-07-29T15:29:31.0054825+02:00",
+  "EjUserId": 205,
+  "RequestSignature": "minima",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "ipsa",
+      "Value": "fuga",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldLength": 449
         }
       }
     },
     {
       "Type": null,
-      "Value": "mollitia",
-      "DisplayValue": "ipsa",
+      "Value": "fuga",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 124
+          "FieldLength": 449
         }
       }
     }
   ],
-  "UserName": "Luettgen, Mosciski and Ondricka",
+  "UserName": "O'Reilly LLC",
   "TicketCategories": [
     {
-      "Id": 231,
-      "Name": "Kunze, Shields and Gerlach",
-      "ToolTip": "Exercitationem mollitia vero sit quasi.",
-      "Deleted": true,
-      "Rank": 352,
-      "Type": "ipsa",
+      "Id": 976,
+      "Name": "Monahan, Predovic and Reynolds",
+      "ToolTip": "Architecto consectetur iure quos voluptates minima ut modi.",
+      "Deleted": false,
+      "Rank": 931,
+      "Type": "perferendis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dicta",
-      "ColorBlock": 916,
-      "ExtraInfo": "ipsa",
-      "StyleHint": "qui",
-      "FullName": "Harrison Bailey I",
+      "IconHint": "et",
+      "ColorBlock": 286,
+      "ExtraInfo": "ut",
+      "StyleHint": "sapiente",
+      "FullName": "Lawson Schulist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldLength": 857
         }
       }
     }
   ],
-  "NickName": "Flatley, Ankunding and Jacobson",
-  "WaitingForApproval": true,
+  "NickName": "Renner-Dach",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "magni",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "dicta"
+    "CustomFields1": "et",
+    "CustomFields2": "in"
   },
   "PostSaveCommands": [
     {
-      "Name": "Fadel Group",
-      "DisplayName": "Mraz Group",
-      "Description": "Exclusive holistic data-warehouse",
-      "ToolTip": "Ipsam porro quos et.",
+      "Name": "Prosacco, McLaughlin and Steuber",
+      "DisplayName": "Stracke LLC",
+      "Description": "Organized cohesive archive",
+      "ToolTip": "Voluptatem et et in perspiciatis enim.",
       "Actions": "Implicit",
-      "ActionData": "eum",
+      "ActionData": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 463
+          "FieldLength": 745
         }
       }
     }
@@ -253,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 205
     }
   }
 }

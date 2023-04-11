@@ -91,8 +91,8 @@ User found.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -111,14 +111,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 975,
-  "Name": "Beahan LLC",
-  "Rank": 705,
-  "Tooltip": "rem",
+  "AssociateId": 595,
+  "Name": "Doyle Group",
+  "Rank": 926,
+  "Tooltip": "consequatur",
   "LicenseOwners": [
     {
-      "Name": "VonRueden, Harvey and Hills",
-      "Description": "Adaptive secondary capacity",
+      "Name": "Stroman, Will and Hettinger",
+      "Description": "Front-line fresh-thinking pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldLength": 530
         }
       }
     },
     {
-      "Name": "VonRueden, Harvey and Hills",
-      "Description": "Adaptive secondary capacity",
+      "Name": "Stroman, Will and Hettinger",
+      "Description": "Front-line fresh-thinking pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldLength": 530
         }
       }
     }
@@ -161,110 +161,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nemo",
-      "Tooltip": "nisi",
-      "Id": 848,
-      "Rank": 590,
-      "Deleted": false,
+      "Value": "ea",
+      "Tooltip": "sit",
+      "Id": 472,
+      "Rank": 600,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldType": "System.Int32",
+          "FieldLength": 140
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2010-07-08T12:15:27.7426245+02:00",
-  "Lastlogout": "2016-07-05T12:15:27.7426245+02:00",
-  "EjUserId": 939,
-  "RequestSignature": "soluta",
+  "Deleted": false,
+  "Lastlogin": "2005-11-27T15:29:30.9509849+01:00",
+  "Lastlogout": "2013-12-02T15:29:30.9509849+01:00",
+  "EjUserId": 356,
+  "RequestSignature": "tempora",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "a",
-      "DisplayValue": "rerum",
+      "Value": "quia",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 499
         }
       }
     },
     {
       "Type": null,
-      "Value": "a",
-      "DisplayValue": "rerum",
+      "Value": "quia",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldLength": 499
         }
       }
     }
   ],
-  "UserName": "Crist-Jacobi",
+  "UserName": "Nicolas LLC",
   "TicketCategories": [
     {
-      "Id": 513,
-      "Name": "Goyette Inc and Sons",
-      "ToolTip": "Quod facilis voluptatem aut ipsum autem qui.",
-      "Deleted": false,
-      "Rank": 153,
-      "Type": "nobis",
+      "Id": 465,
+      "Name": "O'Hara-O'Reilly",
+      "ToolTip": "Rem aut occaecati commodi.",
+      "Deleted": true,
+      "Rank": 9,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "magnam",
-      "ColorBlock": 378,
-      "ExtraInfo": "error",
-      "StyleHint": "velit",
-      "FullName": "Madilyn Goodwin",
+      "IconHint": "ad",
+      "ColorBlock": 434,
+      "ExtraInfo": "et",
+      "StyleHint": "perspiciatis",
+      "FullName": "Prof. Ashton Cummerata IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 255
         }
       }
     }
   ],
-  "NickName": "Champlin-Eichmann",
+  "NickName": "Schiller LLC",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "et"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "odio"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "nemo",
+    "CustomFields2": "distinctio"
   },
   "PostSaveCommands": [
     {
-      "Name": "Johnston, Marks and Pagac",
-      "DisplayName": "Schaden LLC",
-      "Description": "Self-enabling client-driven initiative",
-      "ToolTip": "Autem voluptates alias excepturi et.",
+      "Name": "Runte, Denesik and McClure",
+      "DisplayName": "Bosco, Mayert and Monahan",
+      "Description": "Inverse secondary open system",
+      "ToolTip": "Omnis libero et dicta numquam qui consectetur.",
       "Actions": "Implicit",
-      "ActionData": "dolore",
+      "ActionData": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldType": "System.String",
+          "FieldLength": 839
         }
       }
     }
@@ -274,12 +274,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 932
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

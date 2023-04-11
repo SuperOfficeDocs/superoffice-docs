@@ -69,8 +69,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,27 +78,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 508,
+  "UdListDefinitionId": 507,
   "Items": [
     {
-      "Id": 293,
-      "Name": "Yost-Schiller",
-      "Tooltip": "dolorum",
+      "Id": 10,
+      "Name": "Hickle-Fay",
+      "Tooltip": "odit",
       "Deleted": false,
-      "UdListDefinitionId": 886,
-      "Rank": 912
+      "UdListDefinitionId": 620,
+      "Rank": 274
     },
     {
-      "Id": 293,
-      "Name": "Yost-Schiller",
-      "Tooltip": "dolorum",
+      "Id": 10,
+      "Name": "Hickle-Fay",
+      "Tooltip": "odit",
       "Deleted": false,
-      "UdListDefinitionId": 886,
-      "Rank": 912
+      "UdListDefinitionId": 620,
+      "Rank": 274
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Satterfield, Murray and Quigley",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "UdListDefinitionId": 318,
-    "Rank": 355,
+    "Id": 57,
+    "Name": "Watsica, Renner and Beier",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "UdListDefinitionId": 59,
+    "Rank": 757,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldType": "System.String",
+        "FieldLength": 161
       }
     }
   }

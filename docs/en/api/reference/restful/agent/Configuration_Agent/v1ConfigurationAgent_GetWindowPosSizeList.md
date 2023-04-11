@@ -70,8 +70,8 @@ OK
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "sit",
-    "PersonId": 923,
-    "AssociateId": 70,
-    "ExtraId": 196,
-    "ExtraInfo": "aliquam",
-    "Height": 730,
-    "LeftX": 122,
+    "OwnerWindow": "placeat",
+    "PersonId": 495,
+    "AssociateId": 192,
+    "ExtraId": 203,
+    "ExtraInfo": "rem",
+    "Height": 105,
+    "LeftX": 575,
     "State": "Maximized",
-    "UpperY": 495,
-    "Width": 237,
-    "WindowPosSizeId": 372,
+    "UpperY": 269,
+    "Width": 447,
+    "WindowPosSizeId": 223,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 151
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

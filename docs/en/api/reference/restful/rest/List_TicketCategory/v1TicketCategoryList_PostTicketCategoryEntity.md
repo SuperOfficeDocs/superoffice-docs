@@ -89,8 +89,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,33 +98,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 611,
-  "ParentId": 935,
-  "Name": "Carter Inc and Sons",
-  "Fullname": "dolores",
-  "CategoryMaster": 119,
+  "TicketCategoryId": 637,
+  "ParentId": 466,
+  "Name": "Ratke, Jakubowski and Jacobi",
+  "Fullname": "sit",
+  "CategoryMaster": 840,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wolf, Kuvalis and Bergnaum",
+  "ExternalName": "Dare-Reichert",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 20,
-  "ReplyTemplate": 90,
-  "NotificationEmail": "afton_wisoky@littlemitchell.us",
+  "AssignmentLag": 985,
+  "ReplyTemplate": 127,
+  "NotificationEmail": "devonte@labadie.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 600,
+  "EffectiveReplyTemplateId": 622,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "est",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "adipisci",
-    "CustomFields2": "rem"
+    "CustomFields1": "eos",
+    "CustomFields2": "laudantium"
   }
 }
 ```
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 730,
-  "ParentId": 655,
-  "Name": "Gerlach, Ward and Spinka",
-  "Fullname": "quibusdam",
-  "CategoryMaster": 234,
+  "TicketCategoryId": 254,
+  "ParentId": 999,
+  "Name": "Simonis, Turcotte and Stanton",
+  "Fullname": "nihil",
+  "CategoryMaster": 350,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Price Group",
+  "ExternalName": "Grant Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 939,
-  "ReplyTemplate": 970,
-  "NotificationEmail": "jevon_nitzsche@murazik.us",
+  "AssignmentLag": 170,
+  "ReplyTemplate": 76,
+  "NotificationEmail": "allison_kemmer@hilll.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 248,
+  "EffectiveReplyTemplateId": 1001,
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "corporis"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "commodi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldType": "System.Int32",
+      "FieldLength": 801
     }
   }
 }

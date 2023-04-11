@@ -92,7 +92,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -117,8 +117,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 983
+  "SaleId": 977
 }
 ```
 
@@ -145,122 +145,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-05-05T12:15:17.9247668+02:00",
-  "AppointmentId": 781,
-  "Description": "Function-based transitional conglomeration",
-  "StartDate": "2021-08-04T12:15:17.9247668+02:00",
-  "EndDate": "2019-06-08T12:15:17.9247668+02:00",
+  "CreatedDate": "1998-01-03T15:29:20.6653271+01:00",
+  "AppointmentId": 653,
+  "Description": "Total secondary parallelism",
+  "StartDate": "2008-11-24T15:29:20.6653271+01:00",
+  "EndDate": "2022-02-20T15:29:20.6653271+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 870,
+  "MotherId": 730,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-11-02T12:15:17.9277666+01:00",
+  "UpdatedDate": "2002-06-02T15:29:20.6693276+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 457,
+  "ActiveLinks": 538,
   "Links": [
     {
-      "EntityName": "Ernser-Bernier",
-      "Id": 674,
-      "Description": "Seamless explicit model",
-      "ExtraInfo": "recusandae",
-      "LinkId": 872,
+      "EntityName": "Towne-Block",
+      "Id": 434,
+      "Description": "Organic optimizing model",
+      "ExtraInfo": "voluptas",
+      "LinkId": 837,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 178
+          "FieldType": "System.Int32",
+          "FieldLength": 496
         }
       }
     }
   ],
-  "AlarmLeadTime": "assumenda",
+  "AlarmLeadTime": "in",
   "HasAlarm": false,
-  "ColorIndex": 509,
+  "ColorIndex": 372,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quasi",
-  "LeadTime": "sunt",
-  "Location": "saepe",
-  "RejectCounter": 576,
-  "RejectReason": "grow web-enabled infrastructures",
+  "IsAlldayEvent": false,
+  "LagTime": "iure",
+  "LeadTime": "officiis",
+  "Location": "et",
+  "RejectCounter": 621,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 292,
-      "PersonId": 247,
-      "ContactId": 982,
-      "EmailId": 30,
-      "SendEmail": false,
+      "AssociateId": 270,
+      "PersonId": 797,
+      "ContactId": 872,
+      "EmailId": 677,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 292,
-      "PersonId": 247,
-      "ContactId": 982,
-      "EmailId": 30,
-      "SendEmail": false,
+      "AssociateId": 270,
+      "PersonId": 797,
+      "ContactId": 872,
+      "EmailId": 677,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-03-16T12:15:17.9277666+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2010-05-01T15:29:20.6693276+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 686,
+  "PreferredTZLocation": 928,
   "Sale": null,
-  "SuggestedAppointmentId": 568,
+  "SuggestedAppointmentId": 320,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "et",
+  "CentralserviceVideomeetId": "dignissimos",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Ms. Ahmed Will I"
+    "SuperOffice:1": "2068811051",
+    "SuperOffice:2": "982679856"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "facilis"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
+    "CustomFields1": "ratione",
     "CustomFields2": "doloribus"
   },
-  "PublishEventDate": "2004-12-22T12:15:17.9307705+01:00",
-  "PublishTo": "2013-01-09T12:15:17.9307705+01:00",
-  "PublishFrom": "2000-03-30T12:15:17.9307705+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1997-01-24T15:29:20.670827+01:00",
+  "PublishTo": "2012-07-01T15:29:20.670827+02:00",
+  "PublishFrom": "2006-02-09T15:29:20.670827+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 495,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 784
         }
       }
     },
     {
-      "VisibleId": 495,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 784
         }
       }
     }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 759
     }
   }
 }

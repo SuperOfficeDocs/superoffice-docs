@@ -99,8 +99,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "quos",
+  "FieldLabel": "dolorem",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 965,
-  "ColumnId": 431,
-  "FieldDefault": "cum",
-  "FieldHeight": 207,
-  "FieldLabel": "dolorum",
-  "FieldLeft": 948,
-  "FieldTop": 226,
+  "UDefFieldId": 139,
+  "ColumnId": 38,
+  "FieldDefault": "doloribus",
+  "FieldHeight": 35,
+  "FieldLabel": "nisi",
+  "FieldLeft": 224,
+  "FieldTop": 799,
   "FieldType": "Checkbox",
-  "FieldWidth": 240,
-  "FormatMask": "ipsa",
+  "FieldWidth": 551,
+  "FormatMask": "eum",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 108,
-  "LabelLeft": 42,
-  "LabelTop": 115,
-  "LabelWidth": 192,
-  "LastVersionId": 17,
-  "ListTableId": 157,
-  "IsMandatory": false,
+  "LabelHeight": 970,
+  "LabelLeft": 146,
+  "LabelTop": 458,
+  "LabelWidth": 681,
+  "LastVersionId": 947,
+  "ListTableId": 108,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 646,
-  "ProgId": "quam",
+  "Page1LineNo": 257,
+  "ProgId": "consequuntur",
   "IsReadOnly": false,
-  "ShortLabel": "est",
-  "TabOrder": 252,
-  "TextLength": 538,
-  "Tooltip": "quibusdam",
-  "UdefIdentity": 564,
-  "UDListDefinitionId": 817,
+  "ShortLabel": "repudiandae",
+  "TabOrder": 308,
+  "TextLength": 1002,
+  "Tooltip": "iusto",
+  "UdefIdentity": 517,
+  "UDListDefinitionId": 9,
   "Justification": "Center",
-  "Version": 271,
-  "TemplateVariableName": "Hodkiewicz, Schneider and Runolfsdottir",
+  "Version": 393,
+  "TemplateVariableName": "Schoen, Hilpert and McCullough",
   "HasBeenPublished": false,
-  "MdoListName": "Rodriguez-Lubowitz",
+  "MdoListName": "Bechtelar, Collins and Kemmer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   }
 }

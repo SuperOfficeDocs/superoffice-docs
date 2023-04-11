@@ -77,8 +77,8 @@ OK
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,9 +90,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 465,
-  "ConnectionId": 246,
-  "FirstAlternativeName": "Deckow Inc and Sons"
+  "SaleId": 524,
+  "ConnectionId": 801,
+  "FirstAlternativeName": "Blanda, Runte and Lubowitz"
 }
 ```
 
@@ -103,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 993,
-  "SaleId": 360,
-  "QuoteConnectionId": 765,
-  "ERPQuoteKey": "aut",
-  "ERPOrderKey": "ipsam",
-  "ActiveQuoteVersionId": 532,
-  "AcceptedQuoteAlternativeId": 991,
-  "UseValuesFromQuote": 942,
-  "DocumentId": 365,
-  "PoNumber": "1660827",
-  "OrderComment": "sunt",
-  "PreferredEmailCulture": "rickey.okon@auer.ca",
+  "QuoteId": 352,
+  "SaleId": 957,
+  "QuoteConnectionId": 464,
+  "ERPQuoteKey": "voluptatibus",
+  "ERPOrderKey": "odit",
+  "ActiveQuoteVersionId": 854,
+  "AcceptedQuoteAlternativeId": 187,
+  "UseValuesFromQuote": 731,
+  "DocumentId": 618,
+  "PoNumber": "1319460",
+  "OrderComment": "culpa",
+  "PreferredEmailCulture": "jennyfer@koelpin.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 150,
-      "ERPQuoteVersionKey": "inventore",
-      "QuoteId": 191,
-      "Description": "Fully-configurable solution-oriented knowledge base",
-      "Number": "981703",
+      "QuoteVersionId": 754,
+      "ERPQuoteVersionKey": "incidunt",
+      "QuoteId": 800,
+      "Description": "Automated solution-oriented open architecture",
+      "Number": "1236363",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 135,
-      "SentDate": "2010-02-07T12:15:19.9527373+01:00",
-      "FollowupId": 486,
-      "ExpirationDate": "2020-01-16T12:15:19.9527373+01:00",
-      "DeliveryCountryId": 188,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 692,
+      "LikelyQuoteAlternativeId": 246,
+      "SentDate": "2012-05-30T15:29:22.5812644+02:00",
+      "FollowupId": 187,
+      "ExpirationDate": "2005-04-26T15:29:22.5812644+02:00",
+      "DeliveryCountryId": 845,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 259,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "vel",
-      "ERPPaymentTypeKey": "adipisci",
-      "ERPDeliveryTermsKey": "quia",
-      "ERPDeliveryTypeKey": "vel",
-      "Rank": 749,
-      "ApprovedBy": 660,
-      "ApprovedText": "id",
-      "ApprovedRegisteredBy": 842,
-      "ApprovedRegisteredDate": "2008-08-31T12:15:19.9527373+02:00",
-      "ExtraField1": "ratione",
-      "ExtraField2": "autem",
-      "ExtraField3": "quas",
-      "ExtraField4": "non",
-      "ExtraField5": "deserunt",
-      "LastRecalculated": "2016-12-12T12:15:19.9527373+01:00",
-      "Updated": "2010-09-15T12:15:19.9527373+02:00",
-      "UpdatedAssociateId": 263,
-      "Registered": "2020-12-15T12:15:19.9527373+01:00",
-      "RegisteredAssociateId": 972,
-      "RequestAssociateId": 449,
-      "RequestComment": "corrupti",
+      "ERPPaymentTermsKey": "molestias",
+      "ERPPaymentTypeKey": "voluptas",
+      "ERPDeliveryTermsKey": "nam",
+      "ERPDeliveryTypeKey": "ea",
+      "Rank": 962,
+      "ApprovedBy": 548,
+      "ApprovedText": "ut",
+      "ApprovedRegisteredBy": 757,
+      "ApprovedRegisteredDate": "1998-12-16T15:29:22.5812644+01:00",
+      "ExtraField1": "consequatur",
+      "ExtraField2": "non",
+      "ExtraField3": "eos",
+      "ExtraField4": "praesentium",
+      "ExtraField5": "praesentium",
+      "LastRecalculated": "2000-01-03T15:29:22.5812644+01:00",
+      "Updated": "1997-12-29T15:29:22.5812644+01:00",
+      "UpdatedAssociateId": 712,
+      "Registered": "2003-01-29T15:29:22.5812644+01:00",
+      "RegisteredAssociateId": 871,
+      "RequestAssociateId": 424,
+      "RequestComment": "placeat",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 186
         }
       }
     }
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 549
     }
   }
 }

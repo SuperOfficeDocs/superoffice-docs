@@ -64,8 +64,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,25 +83,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 491,
-  "Name": "Bode-Boehm",
-  "ConsentText": "sunt",
-  "FormText": "id",
-  "Key": "nobis",
-  "Tooltip": "doloremque",
-  "Active": 3,
-  "UpdatedDate": "1997-06-22T12:15:27.9226217+02:00",
+  "ConsentPurposeId": 813,
+  "Name": "Kuhlman Inc and Sons",
+  "ConsentText": "vel",
+  "FormText": "maiores",
+  "Key": "perferendis",
+  "Tooltip": "est",
+  "Active": 450,
+  "UpdatedDate": "2020-05-13T15:29:31.1324779+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 773,
-  "PrivacyStatementDesc": "dolorum",
+  "Deleted": true,
+  "Rank": 955,
+  "PrivacyStatementDesc": "enim",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

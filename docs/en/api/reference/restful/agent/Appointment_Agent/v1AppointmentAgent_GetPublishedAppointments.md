@@ -111,8 +111,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -120,13 +120,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    130,
-    213
+    218,
+    543
   ]
 }
 ```
@@ -139,61 +139,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 231,
-    "StartDate": "2017-02-26T12:15:17.6587727+01:00",
-    "EndDate": "2018-11-15T12:15:17.6587727+01:00",
+    "AppointmentId": 214,
+    "StartDate": "2002-01-29T15:29:20.402831+01:00",
+    "EndDate": "2019-03-30T15:29:20.402831+01:00",
     "Type": "BookingForChecklist",
-    "Task": "tenetur",
-    "AssociateFullName": "Ivory Mills II",
-    "ContactName": "Blanda-Brakus",
-    "Description": "Versatile full-range access",
-    "PersonFullName": "Rosalee Stark",
-    "PersonId": 565,
-    "ContactId": 200,
-    "ProjectId": 972,
-    "ProjectName": "Jenkins LLC",
-    "IsPublished": true,
-    "AssociateId": 949,
-    "ColorIndex": 499,
+    "Task": "molestiae",
+    "AssociateFullName": "Miss Benton Conn",
+    "ContactName": "Carter, Waters and Farrell",
+    "Description": "Mandatory well-modulated adapter",
+    "PersonFullName": "Jordi Adela Morissette III",
+    "PersonId": 100,
+    "ContactId": 845,
+    "ProjectId": 577,
+    "ProjectName": "Ruecker, Leuschke and Wunsch",
+    "IsPublished": false,
+    "AssociateId": 242,
+    "ColorIndex": 31,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 421,
-    "PriorityName": "Brekke, Hills and Koch",
+    "PriorityId": 589,
+    "PriorityName": "Gislason-Schuppe",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2014-02-05T12:15:17.6597709+01:00",
+    "ActiveDate": "2014-11-02T15:29:20.4033282+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-11-26T12:15:17.6597709+01:00",
-    "RecurringEndDate": "2008-01-27T12:15:17.6597709+01:00",
-    "MotherId": 378,
-    "AssignedBy": 511,
-    "AssignedByFullName": "Hailie Kuhic",
+    "RecurringStartDate": "2017-10-13T15:29:20.4033282+02:00",
+    "RecurringEndDate": "2011-02-24T15:29:20.4033282+01:00",
+    "MotherId": 635,
+    "AssignedBy": 288,
+    "AssignedByFullName": "Felipa Lubowitz",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "doloribus",
-    "SaleId": 919,
-    "SaleName": "Hyatt-Farrell",
-    "AssociateName": "Baumbach, Kub and Torp",
-    "CreatedDate": "2016-07-30T12:15:17.6607704+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Jermaine Gilda Sporer III",
-    "CreatedByAssociateId": 416,
+    "Location": "non",
+    "AlarmLeadTime": "eum",
+    "SaleId": 848,
+    "SaleName": "Rosenbaum, Willms and O'Kon",
+    "AssociateName": "Lemke, Ankunding and Friesen",
+    "CreatedDate": "2005-09-08T15:29:20.4038308+02:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Fernando King",
+    "CreatedByAssociateId": 708,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 828
+        "FieldType": "System.Int32",
+        "FieldLength": 345
       }
     }
   }

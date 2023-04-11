@@ -61,8 +61,8 @@ OK
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 636,
-    "Name": "Homenick, Hilll and Bailey",
-    "Value": "assumenda",
-    "CreatedDate": "2013-03-19T12:15:18.1917625+01:00",
-    "UpdatedDate": "2002-06-30T12:15:18.1917625+02:00",
-    "CreatedBy": "quaerat",
-    "UpdatedBy": "harum",
+    "AudienceLayoutId": 129,
+    "Name": "Ankunding Group",
+    "Value": "modi",
+    "CreatedDate": "2011-11-23T15:29:20.8097897+01:00",
+    "UpdatedDate": "2021-03-03T15:29:20.8097897+01:00",
+    "CreatedBy": "aut",
+    "UpdatedBy": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldLength": 203
       }
     }
   }

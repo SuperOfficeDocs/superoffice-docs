@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 686,
-  "TableName": "Walsh-Waters",
+  "RoleId": 94,
+  "TableName": "Dare Inc and Sons",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eveniet"
+"autem"
 ```

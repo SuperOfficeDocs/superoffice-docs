@@ -116,8 +116,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -125,14 +125,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 654,
-  "StartTime": "2009-11-19T12:15:17.6137722+01:00",
-  "EndTime": "2020-02-03T12:15:17.6137722+01:00",
-  "Count": 128
+  "PersonId": 755,
+  "StartTime": "2018-06-19T15:29:20.227825+02:00",
+  "EndTime": "2018-05-09T15:29:20.227825+02:00",
+  "Count": 883
 }
 ```
 
@@ -144,53 +144,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 31,
-    "StartDate": "2003-07-02T12:15:17.618771+02:00",
-    "EndDate": "2012-04-19T12:15:17.618771+02:00",
+    "AppointmentId": 278,
+    "StartDate": "2022-08-27T15:29:20.2323004+02:00",
+    "EndDate": "2013-08-17T15:29:20.2323004+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Chaz Jerald Kuvalis MD",
-    "ContactName": "Buckridge, Lehner and Kovacek",
-    "Description": "Future-proofed well-modulated product",
-    "PersonFullName": "Anthony Legros",
-    "PersonId": 204,
-    "ContactId": 482,
-    "ProjectId": 335,
-    "ProjectName": "Fadel Inc and Sons",
+    "Task": "fuga",
+    "AssociateFullName": "Tristin Lakin",
+    "ContactName": "Bode Group",
+    "Description": "Networked web-enabled intranet",
+    "PersonFullName": "Ms. Glennie Norbert Cummings II",
+    "PersonId": 669,
+    "ContactId": 353,
+    "ProjectId": 570,
+    "ProjectName": "Douglas, Marvin and Spencer",
     "IsPublished": false,
-    "AssociateId": 585,
-    "ColorIndex": 33,
+    "AssociateId": 898,
+    "ColorIndex": 425,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 441,
-    "PriorityName": "Haag Inc and Sons",
+    "PriorityId": 407,
+    "PriorityName": "Turner Group",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2001-08-25T12:15:17.618771+02:00",
+    "ActiveDate": "2007-09-02T15:29:20.2328276+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-12-16T12:15:17.618771+01:00",
-    "RecurringEndDate": "2011-03-02T12:15:17.618771+01:00",
-    "MotherId": 100,
-    "AssignedBy": 9,
-    "AssignedByFullName": "Ms. Johnny Spinka MD",
-    "RejectReason": "",
-    "Location": "magnam",
-    "AlarmLeadTime": "sunt",
-    "SaleId": 640,
-    "SaleName": "Ferry-Lowe",
-    "AssociateName": "Harber, Dicki and Lindgren",
-    "CreatedDate": "2000-07-30T12:15:17.6197713+02:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Laurianne Pfeffer",
-    "CreatedByAssociateId": 748,
+    "RecurringStartDate": "2018-12-29T15:29:20.2328276+01:00",
+    "RecurringEndDate": "2000-02-12T15:29:20.2328276+01:00",
+    "MotherId": 776,
+    "AssignedBy": 973,
+    "AssignedByFullName": "Carlo Mayert",
+    "RejectReason": "reintermediate intuitive interfaces",
+    "Location": "et",
+    "AlarmLeadTime": "similique",
+    "SaleId": 291,
+    "SaleName": "Erdman-Glover",
+    "AssociateName": "Walker LLC",
+    "CreatedDate": "1999-04-13T15:29:20.233326+02:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Camren Trantow",
+    "CreatedByAssociateId": 677,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 194
       }
     }
   }

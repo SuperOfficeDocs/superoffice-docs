@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Name": "Trantow-Dach",
-    "ToolTip": "Corporis nihil eligendi accusantium vero.",
+    "Id": 32,
+    "Name": "Hodkiewicz, Towne and Littel",
+    "ToolTip": "Itaque minima ut cupiditate repudiandae odit qui.",
     "Deleted": false,
-    "Rank": 970,
-    "Type": "nemo",
-    "ColorBlock": 744,
-    "IconHint": "deserunt",
-    "Selected": true,
-    "LastChanged": "2022-01-05T12:15:28.2996196+01:00",
+    "Rank": 702,
+    "Type": "quia",
+    "ColorBlock": 202,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2018-06-14T15:29:31.4144765+02:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Lebsack-D'Amore",
-        "ToolTip": "Quisquam voluptas consectetur a sint non enim.",
-        "Deleted": true,
-        "Rank": 483,
-        "Type": "dolor",
-        "ColorBlock": 20,
-        "IconHint": "exercitationem",
+        "Id": 311,
+        "Name": "Barrows LLC",
+        "ToolTip": "Quia quo facere sed.",
+        "Deleted": false,
+        "Rank": 253,
+        "Type": "omnis",
+        "ColorBlock": 933,
+        "IconHint": "harum",
         "Selected": true,
-        "LastChanged": "2020-04-02T12:15:28.2996196+02:00",
+        "LastChanged": "2004-08-27T15:29:31.4149777+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Leo Ullrich"
+        "FullName": "Miss Dale Heaney"
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "atque",
-    "Hidden": false,
-    "FullName": "Gustave Champlin"
+    "ExtraInfo": "dolorum",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Ruthie Kemmer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Effertz, Grant and Bailey",
-    "ToolTip": "Aut quas ullam accusantium ullam.",
-    "Deleted": false,
-    "Rank": 988,
-    "Type": "voluptatem",
-    "ColorBlock": 337,
-    "IconHint": "minima",
-    "Selected": false,
-    "LastChanged": "2008-01-03T12:15:28.3006161+01:00",
+    "Id": 926,
+    "Name": "Marvin, Mann and Douglas",
+    "ToolTip": "Et quia quis enim omnis cupiditate temporibus nam.",
+    "Deleted": true,
+    "Rank": 579,
+    "Type": "fuga",
+    "ColorBlock": 174,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "1999-08-12T15:29:31.4159771+02:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Morar Group",
-        "ToolTip": "Ut provident nisi totam ullam illum dolorum blanditiis.",
-        "Deleted": false,
-        "Rank": 20,
-        "Type": "repellat",
-        "ColorBlock": 38,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2021-04-25T12:15:28.3006161+02:00",
+        "Id": 819,
+        "Name": "Sipes Inc and Sons",
+        "ToolTip": "Et minus omnis velit voluptas eum enim quas.",
+        "Deleted": true,
+        "Rank": 589,
+        "Type": "suscipit",
+        "ColorBlock": 719,
+        "IconHint": "quidem",
+        "Selected": false,
+        "LastChanged": "2011-01-23T15:29:31.4159771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "in",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "vero",
         "Hidden": false,
-        "FullName": "Kasandra Tyler Windler V",
+        "FullName": "Maynard Will",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 218
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "eaque",
+    "ExtraInfo": "magni",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Newton Cremin",
+    "FullName": "Mrs. Eleonore Zackary Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldType": "System.String",
+        "FieldLength": 234
       }
     }
   }

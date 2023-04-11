@@ -125,8 +125,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -135,41 +135,41 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 276,
-  "TopicId": 918,
+  "ChatSessionId": 907,
+  "TopicId": 728,
   "User": null,
   "Person": null,
-  "CustomerAlias": "excepturi",
-  "CustomerHost": "voluptates",
-  "CustomerName": "Casper-Spinka",
-  "CustomerEmail": "clovis_konopelski@deckow.ca",
-  "CustomerPhone": "219-181-4688 x29523",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "O'Kon, Reynolds and Goyette",
+  "CustomerAlias": "non",
+  "CustomerHost": "quas",
+  "CustomerName": "Koss, Dicki and Wehner",
+  "CustomerEmail": "vladimir.strosin@hamill.biz",
+  "CustomerPhone": "(053)545-8218 x597",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Ziemann LLC",
   "Status": "Closed",
-  "FirstMessage": "nihil",
-  "LastMessage": "voluptatibus",
-  "WhenRequested": "2018-09-16T12:15:26.3716444+02:00",
-  "WhenStarted": "2012-04-16T12:15:26.3716444+02:00",
-  "WhenEnded": "1998-08-08T12:15:26.3716444+02:00",
-  "WhenIdle": "1999-05-05T12:15:26.3716444+02:00",
-  "WhenFetched": "2020-06-22T12:15:26.3716444+02:00",
-  "SessionKey": "nostrum",
-  "InitialQueuePos": 3,
-  "AlertLevel": 830,
-  "Rank": 279,
+  "FirstMessage": "iusto",
+  "LastMessage": "eos",
+  "WhenRequested": "2009-07-23T15:29:29.2717092+02:00",
+  "WhenStarted": "2013-06-16T15:29:29.2717092+02:00",
+  "WhenEnded": "1999-02-12T15:29:29.2717092+01:00",
+  "WhenIdle": "2021-02-12T15:29:29.2717092+01:00",
+  "WhenFetched": "2005-09-29T15:29:29.2717092+02:00",
+  "SessionKey": "eum",
+  "InitialQueuePos": 226,
+  "AlertLevel": 340,
+  "Rank": 582,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 112
+  "ChatbotIsActive": true,
+  "Rating": 749
 }
 ```
 
@@ -180,29 +180,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 519,
-  "TopicId": 975,
+  "ChatSessionId": 978,
+  "TopicId": 611,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptas",
-  "CustomerHost": "ipsum",
-  "CustomerName": "King Group",
-  "CustomerEmail": "isadore_white@rogahn.ca",
-  "CustomerPhone": "412-604-6028 x513",
+  "CustomerAlias": "aut",
+  "CustomerHost": "deleniti",
+  "CustomerName": "Kshlerin Inc and Sons",
+  "CustomerEmail": "sid@hermiston.ca",
+  "CustomerPhone": "303.785.8131",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Legros-Ziemann",
+  "CustomerCompanyName": "Shanahan Group",
   "Status": "Closed",
-  "FirstMessage": "libero",
-  "LastMessage": "non",
-  "WhenRequested": "2017-10-29T12:15:26.3816441+01:00",
-  "WhenStarted": "1999-10-26T12:15:26.3816441+02:00",
-  "WhenEnded": "2009-08-13T12:15:26.3816441+02:00",
-  "WhenIdle": "1996-09-03T12:15:26.3816441+02:00",
-  "WhenFetched": "2011-03-10T12:15:26.3816441+01:00",
-  "SessionKey": "in",
-  "InitialQueuePos": 523,
-  "AlertLevel": 408,
-  "Rank": 709,
+  "FirstMessage": "modi",
+  "LastMessage": "distinctio",
+  "WhenRequested": "2022-02-24T15:29:29.2827055+01:00",
+  "WhenStarted": "2010-03-02T15:29:29.2827055+01:00",
+  "WhenEnded": "2001-10-22T15:29:29.2827055+02:00",
+  "WhenIdle": "2007-03-25T15:29:29.2827055+02:00",
+  "WhenFetched": "2007-01-19T15:29:29.2827055+01:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 460,
+  "AlertLevel": 156,
+  "Rank": 163,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -210,18 +210,18 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 17,
+  "Rating": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 300
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

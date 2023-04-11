@@ -50,7 +50,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,11 +77,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "impedit",
-  "VersionId": "unde",
-  "Success": true,
+  "ExternalReference": "voluptatem",
+  "VersionId": "dolores",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "eius",
-  "AdditionalInfo": "enim"
+  "Value": "nam",
+  "AdditionalInfo": "pariatur"
 }
 ```

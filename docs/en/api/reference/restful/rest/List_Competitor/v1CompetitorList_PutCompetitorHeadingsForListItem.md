@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 896,
-    "Name": "Rippin-Parker",
-    "ToolTip": "Et exercitationem ut hic sapiente quia id.",
-    "Deleted": false,
-    "Rank": 491,
-    "Type": "delectus",
-    "ColorBlock": 436,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "1996-03-02T12:15:27.9126317+01:00",
+    "Id": 771,
+    "Name": "Grimes-Bosco",
+    "ToolTip": "Earum nostrum totam delectus saepe dolores.",
+    "Deleted": true,
+    "Rank": 333,
+    "Type": "molestiae",
+    "ColorBlock": 30,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2016-01-26T15:29:31.1224859+01:00",
     "ChildItems": [
       {
-        "Id": 4,
-        "Name": "Berge, Glover and Weissnat",
-        "ToolTip": "Ad asperiores omnis assumenda ut maxime.",
+        "Id": 751,
+        "Name": "Simonis-King",
+        "ToolTip": "Beatae maxime.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "corrupti",
-        "ColorBlock": 897,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2017-10-05T12:15:27.9126317+02:00",
+        "Rank": 543,
+        "Type": "delectus",
+        "ColorBlock": 163,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2003-06-25T15:29:31.1224859+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Prof. Ladarius Fahey Jr."
+        "ExtraInfo": "eligendi",
+        "StyleHint": "earum",
+        "Hidden": false,
+        "FullName": "Prof. Adelle Ava Bins Jr."
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "ullam",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Cierra Kihn"
+    "FullName": "Gunner Christiansen"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Abernathy-Wiegand",
-    "ToolTip": "Nostrum sit perferendis tempora delectus quia tenetur ullam.",
+    "Id": 415,
+    "Name": "Hackett, Abbott and Schultz",
+    "ToolTip": "Quis nihil quibusdam repudiandae blanditiis sequi quia minus.",
     "Deleted": true,
-    "Rank": 702,
-    "Type": "adipisci",
-    "ColorBlock": 275,
-    "IconHint": "deleniti",
+    "Rank": 727,
+    "Type": "consequatur",
+    "ColorBlock": 631,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "1996-04-09T12:15:27.9146216+02:00",
+    "LastChanged": "2019-09-28T15:29:31.1249803+02:00",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Gutmann LLC",
-        "ToolTip": "Officia ut culpa sequi molestias totam.",
+        "Id": 318,
+        "Name": "Predovic LLC",
+        "ToolTip": "Est vero.",
         "Deleted": true,
-        "Rank": 248,
-        "Type": "itaque",
-        "ColorBlock": 849,
-        "IconHint": "soluta",
+        "Rank": 964,
+        "Type": "et",
+        "ColorBlock": 284,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2000-08-03T12:15:27.9146216+02:00",
+        "LastChanged": "1999-06-27T15:29:31.1249803+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Eugene Jewess",
+        "ExtraInfo": "magnam",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Yasmeen O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 787
+            "FieldType": "System.String",
+            "FieldLength": 885
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "alias",
+    "ExtraInfo": "non",
+    "StyleHint": "commodi",
     "Hidden": false,
-    "FullName": "Jan Lebsack",
+    "FullName": "Britney Conn III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 834
       }
     }
   }

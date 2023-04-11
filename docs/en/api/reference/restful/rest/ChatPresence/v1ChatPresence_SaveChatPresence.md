@@ -48,7 +48,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -62,23 +62,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 252,
-    "DisplayName": "Dach Inc and Sons",
-    "OngoingChats": 959,
+    "UserId": 955,
+    "DisplayName": "Stokes Inc and Sons",
+    "OngoingChats": 52,
     "Present": false,
     "ChatTopics": [
-      303,
-      454
+      729,
+      550
     ]
   },
   {
-    "UserId": 252,
-    "DisplayName": "Dach Inc and Sons",
-    "OngoingChats": 959,
+    "UserId": 955,
+    "DisplayName": "Stokes Inc and Sons",
+    "OngoingChats": 52,
     "Present": false,
     "ChatTopics": [
-      303,
-      454
+      729,
+      550
     ]
   }
 ]

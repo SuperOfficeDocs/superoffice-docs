@@ -7,7 +7,7 @@ keywords:
   - "mdo provider"
   - "lists"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -64,7 +64,8 @@ foreach (var item in listProvider.RootItems) {
 |164|Privacy - Source|||
 |165|Privacy - Legal basis|||
 |166|Company - Category family|||
-|176|Task Menu|||
+|176|Task menuAufgabe“"|||
+|177|Mailing domains|||
 |97|Document - Template|||
 |98|General - Resource|||
 |152|Company - Category|||
@@ -79,7 +80,6 @@ foreach (var item in listProvider.RootItems) {
 |157|Contact - Mr/Mrs|||
 |109|Project - Type, Stages|||
 |110|Project - Status|||
-|111|Project member - Function|||
 
 
 ## Related MDO Lists

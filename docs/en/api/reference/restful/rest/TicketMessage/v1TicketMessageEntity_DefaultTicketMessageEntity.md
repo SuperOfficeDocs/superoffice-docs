@@ -68,11 +68,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +81,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,76 +91,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 751,
+  "EjMessageId": 803,
   "Ticket": null,
-  "CreatedAt": "2001-12-21T12:15:27.5406277+01:00",
+  "CreatedAt": "2004-06-19T15:29:30.7484854+02:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "occaecati",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestiae",
-  "TimeSpent": 928,
-  "Body": "ipsam",
-  "HtmlBody": "maiores",
-  "EmailHeader": "lawrence@lesch.biz",
-  "DebugInfo": "et",
-  "MailSorter": "sint",
+  "MessageId": "sunt",
+  "TimeSpent": 610,
+  "Body": "delectus",
+  "HtmlBody": "voluptas",
+  "EmailHeader": "jackie.gottlieb@runte.uk",
+  "DebugInfo": "rerum",
+  "MailSorter": "atque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eius",
+  "SearchTitle": "vero",
   "MessageHeaders": [
     {
-      "Id": 382,
-      "Name": "Murazik, Deckow and Kassulke",
-      "Value": "voluptatem",
+      "Id": 385,
+      "Name": "Harber-Cummerata",
+      "Value": "quam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 489
+          "FieldType": "System.Int32",
+          "FieldLength": 405
         }
       }
     }
   ],
   "Important": false,
-  "Language": "minus",
-  "Sentiment": 429,
-  "SentimentConfidence": 853,
+  "Language": "voluptates",
+  "Sentiment": 353,
+  "SentimentConfidence": 250,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 730,
-      "Name": "Hoeger-Gibson",
-      "ContentType": "necessitatibus",
-      "AttSize": 693,
+      "AttachmentId": 258,
+      "Name": "Rolfson-Toy",
+      "ContentType": "voluptas",
+      "AttSize": 400,
       "InlineImage": false,
-      "ContentId": "cupiditate",
+      "ContentId": "beatae",
+      "AuthKey": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 439
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "officiis"
+    "CustomFields1": "maiores",
+    "CustomFields2": "totam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 423
     }
   }
 }

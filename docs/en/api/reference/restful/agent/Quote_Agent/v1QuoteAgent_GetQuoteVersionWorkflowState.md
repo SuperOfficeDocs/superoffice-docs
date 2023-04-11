@@ -69,8 +69,8 @@ OK
 | StateImage | QuoteVersionButtonState | Information about the state image for the current quote version. |
 | UpdatePricesButton | QuoteVersionButtonState | Information about the action for the update prices button. |
 | Status | QuoteVersionStatusInformation | Status information for the Quote Version. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 712,
-  "QuoteAlternativeId": 623
+  "QuoteVersionId": 107,
+  "QuoteAlternativeId": 927
 }
 ```
 
@@ -97,16 +97,16 @@ Content-Type: application/json; charset=utf-8
   "ActionButtons": [
     {
       "Action": "Approve",
-      "ImageHint": "voluptatem",
-      "DisplayText": "cupiditate",
-      "TooltipText": "perferendis",
+      "ImageHint": "minus",
+      "DisplayText": "officia",
+      "TooltipText": "et",
       "Enabled": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 555
         }
       }
     }
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 366
     }
   }
 }

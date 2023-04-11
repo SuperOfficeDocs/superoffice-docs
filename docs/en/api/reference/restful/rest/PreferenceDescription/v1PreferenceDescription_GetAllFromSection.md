@@ -66,8 +66,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,30 +86,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 565,
-    "Section": "quisquam",
-    "Key": "quam",
-    "Name": "Reynolds, Hagenes and Schamberger",
+    "PrefDescId": 652,
+    "Section": "enim",
+    "Key": "quo",
+    "Name": "McLaughlin, Greenfelder and Leuschke",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Horizontal radical framework",
-    "IsBuiltin": false,
-    "TableName": "Aufderhar-Senger",
-    "UserDefinedListId": 416,
-    "Rank": 842,
-    "SubGroup": "velit",
-    "MinLevel": 63,
-    "MaxValue": 619,
-    "MinValue": 629,
-    "RequiredLicense": "blanditiis",
+    "Description": "Reactive intermediate time-frame",
+    "IsBuiltin": true,
+    "TableName": "Turner-Cartwright",
+    "UserDefinedListId": 857,
+    "Rank": 478,
+    "SubGroup": "ad",
+    "MinLevel": 348,
+    "MaxValue": 530,
+    "MinValue": 709,
+    "RequiredLicense": "soluta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 81
+        "FieldType": "System.Int32",
+        "FieldLength": 481
       }
     }
   }

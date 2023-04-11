@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 239,
-  "StartTime": "2002-03-13T12:15:17.6207711+01:00",
-  "EndTime": "2012-07-08T12:15:17.6207711+02:00",
-  "Count": 460,
+  "PersonId": 455,
+  "StartTime": "2000-08-18T15:29:20.233326+02:00",
+  "EndTime": "2010-01-02T15:29:20.233326+01:00",
+  "Count": 117,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 130,
-    "StartDate": "2012-05-23T12:15:17.6217707+02:00",
-    "EndDate": "2011-01-10T12:15:17.6217707+01:00",
+    "AppointmentId": 507,
+    "StartDate": "2001-11-03T15:29:20.2348252+01:00",
+    "EndDate": "2015-09-21T15:29:20.2348252+02:00",
     "Type": "BookingForChecklist",
-    "Task": "provident",
-    "AssociateFullName": "Elta Bahringer",
-    "ContactName": "Corwin, West and Parisian",
-    "Description": "Fundamental executive standardization",
-    "PersonFullName": "Prof. Estelle Margarett Breitenberg I",
-    "PersonId": 683,
-    "ContactId": 898,
-    "ProjectId": 48,
-    "ProjectName": "Stroman, Simonis and Brown",
+    "Task": "magnam",
+    "AssociateFullName": "Prof. Dulce Olson IV",
+    "ContactName": "Hessel-Erdman",
+    "Description": "Cross-group client-driven frame",
+    "PersonFullName": "Aiden Rosa Gusikowski V",
+    "PersonId": 77,
+    "ContactId": 637,
+    "ProjectId": 909,
+    "ProjectName": "Marvin-Ebert",
     "IsPublished": true,
-    "AssociateId": 351,
-    "ColorIndex": 883,
+    "AssociateId": 980,
+    "ColorIndex": 743,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 236,
-    "PriorityName": "Watsica, Kuhic and Mitchell",
+    "PriorityId": 708,
+    "PriorityName": "D'Amore Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-02-06T12:15:17.6217707+01:00",
+    "ActiveDate": "2005-02-26T15:29:20.2353248+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-07-21T12:15:17.6217707+02:00",
-    "RecurringEndDate": "2011-03-12T12:15:17.6217707+01:00",
-    "MotherId": 958,
-    "AssignedBy": 302,
-    "AssignedByFullName": "Valentin Kihn",
+    "RecurringStartDate": "2017-04-18T15:29:20.2353248+02:00",
+    "RecurringEndDate": "2001-02-16T15:29:20.2353248+01:00",
+    "MotherId": 233,
+    "AssignedBy": 835,
+    "AssignedByFullName": "Keegan Farrell",
     "RejectReason": "",
-    "Location": "tenetur",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 315,
-    "SaleName": "Blick Group",
-    "AssociateName": "McClure LLC",
-    "CreatedDate": "2005-09-30T12:15:17.622775+02:00",
-    "CreatedBy": "necessitatibus",
-    "CreatedByFullName": "Guadalupe Miller",
-    "CreatedByAssociateId": 818,
+    "Location": "aperiam",
+    "AlarmLeadTime": "et",
+    "SaleId": 235,
+    "SaleName": "Raynor Group",
+    "AssociateName": "McLaughlin-Bogan",
+    "CreatedDate": "2015-09-26T15:29:20.2358246+02:00",
+    "CreatedBy": "autem",
+    "CreatedByFullName": "Ottis Kautzer",
+    "CreatedByAssociateId": 873,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 538
       }
     }
   }

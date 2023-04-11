@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Kohler, Ryan and Moore",
-    "ToolTip": "Delectus sequi.",
-    "Deleted": true,
-    "Rank": 732,
-    "Type": "neque",
-    "ColorBlock": 787,
+    "Id": 857,
+    "Name": "Larkin Group",
+    "ToolTip": "Aliquid ullam excepturi sint molestiae molestias.",
+    "Deleted": false,
+    "Rank": 489,
+    "Type": "provident",
+    "ColorBlock": 382,
     "IconHint": "consectetur",
-    "Selected": false,
-    "LastChanged": "2000-04-18T12:15:28.2266195+02:00",
+    "Selected": true,
+    "LastChanged": "2002-04-29T15:29:31.3409783+02:00",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Ritchie Group",
-        "ToolTip": "Delectus nostrum tempore.",
+        "Id": 564,
+        "Name": "Shields, Jenkins and Bauch",
+        "ToolTip": "Deserunt voluptatem dolore et maiores tempora.",
         "Deleted": true,
-        "Rank": 737,
-        "Type": "quas",
-        "ColorBlock": 849,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2001-08-08T12:15:28.2266195+02:00",
+        "Rank": 767,
+        "Type": "ipsum",
+        "ColorBlock": 884,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2000-06-15T15:29:31.3409783+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Rhea Brekke",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Miss Brooks Bartoletti DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 640
+            "FieldLength": 796
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "non",
+    "ExtraInfo": "vero",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Karina Reynolds",
+    "FullName": "Karolann Mertz II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldType": "System.String",
+        "FieldLength": 672
       }
     }
   }

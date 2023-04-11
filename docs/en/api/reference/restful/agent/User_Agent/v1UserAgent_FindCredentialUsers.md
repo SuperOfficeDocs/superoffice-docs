@@ -67,8 +67,8 @@ OK
 |----------------|------|--------------|
 | Headings | array | Headings in which to list the different users. |
 | Users | array | The list of actual users that can be selected |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,8 +80,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "iusto",
-  "SearchString": "aut"
+  "Type": "praesentium",
+  "SearchString": "nulla"
 }
 ```
 
@@ -93,16 +93,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "delectus",
-    "qui"
+    "vel",
+    "ex"
   ],
   "Users": [
     {
-      "Value": "sint",
-      "DisplayValue": "et",
+      "Value": "magni",
+      "DisplayValue": "perspiciatis",
       "Columns": [
-        "id",
-        "molestiae"
+        "quis",
+        "quia"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -110,16 +110,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 633
         }
       }
     },
     {
-      "Value": "sint",
-      "DisplayValue": "et",
+      "Value": "magni",
+      "DisplayValue": "perspiciatis",
       "Columns": [
-        "id",
-        "molestiae"
+        "quis",
+        "quia"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 633
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 99
     }
   }
 }

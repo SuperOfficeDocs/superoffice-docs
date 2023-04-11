@@ -25,7 +25,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=291
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=301
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -78,8 +78,8 @@ OK
 | WaitToFinish | bool | True if the application shall wait for fininsh event |
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,34 +97,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 808,
-  "Name": "Tillman, Fritsch and Okuneva",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 526,
-  "Filename": "qui",
-  "Parameters": "et",
-  "Workdir": "minima",
+  "ExtAppId": 587,
+  "Name": "Hoppe-Brown",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "Rank": 572,
+  "Filename": "minima",
+  "Parameters": "molestiae",
+  "Workdir": "possimus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 77,
-  "WaitToFinish": false,
+  "ShowInStatusBar": false,
+  "Icon": 406,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "facilis",
+  "Path": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 923
+      "FieldType": "System.Int32",
+      "FieldLength": 419
     }
   }
 }

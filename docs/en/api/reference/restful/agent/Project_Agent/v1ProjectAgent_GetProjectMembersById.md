@@ -83,8 +83,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    705,
-    664
+    509,
+    700
   ]
 }
 ```
@@ -111,33 +111,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 559,
-    "ContactId": 784,
-    "ProjectId": 107,
-    "ContactName": "Kassulke LLC",
+    "ProjectmemberId": 764,
+    "ContactId": 721,
+    "ProjectId": 986,
+    "ContactName": "Stamm Inc and Sons",
     "ContactDepartment": "",
-    "ProjectName": "Lynch Group",
-    "EmailId": 713,
-    "EmailAddress": "brady.stiedemann@hills.biz",
-    "CountryId": 55,
-    "Firstname": "Hailey",
-    "MiddleName": "Gleichner Group",
-    "Lastname": "Kemmer",
-    "PersonId": 163,
-    "Mrmrs": "neque",
-    "ProjectMemberTypeName": "Spencer, Klein and Wuckert",
-    "Phone": "358-404-9100",
-    "PhoneId": 705,
-    "ProjectMemberTypeId": 741,
-    "EmailAddressName": "carli@padbergklein.info",
-    "Comment": "magni",
-    "FullName": "Toney Pouros Sr.",
+    "ProjectName": "Ernser Group",
+    "EmailId": 193,
+    "EmailAddress": "felton@mosciski.ca",
+    "CountryId": 85,
+    "Firstname": "Deanna",
+    "MiddleName": "Tromp LLC",
+    "Lastname": "Schultz",
+    "PersonId": 693,
+    "Mrmrs": "eveniet",
+    "ProjectMemberTypeName": "Corkery, Krajcik and Keeling",
+    "Phone": "158-439-7789 x6732",
+    "PhoneId": 11,
+    "ProjectMemberTypeId": 413,
+    "EmailAddressName": "dillon@marvinrogahn.com",
+    "Comment": "corrupti",
+    "FullName": "Dr. Aisha Homenick V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 701
+        "FieldLength": 18
       }
     }
   }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextPerson"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -658,6 +658,8 @@ as well as before any ORDER BY, are applied.
 |consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |request/contactId|int|Company ID: Database ID of company| x |
 |request/personId|int|Contact ID: Database ID of the contact row| x |
+|request/saleId|int|Sale ID: The database ID of the sale record| x |
+|request/projectId|int|Project ID: Database ID of project record| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|listAny|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
@@ -695,6 +697,9 @@ as well as before any ORDER BY, are applied.
 |request/tags|intArray|Tags: Tags connected to a request| x |
 |request/ownedBy|ejUser|Owner: The owner of the request| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
+|request/messageLanguage|listAny|Language: Recognized language in messages|  |
+|request/sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
+|request/suggestedCategory|listAny|Sugg.Cat.: Suggested service category|  |
 |request/createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -958,7 +963,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personExtra/x_person_shorttext_list,personExtra/y_rental/x_end,correspondingAssociate/userName,personContact/searchPhone/formattedNumber,personContact/restrictionAddress/formattedMultiLineAddress
+GET /api/v1/archive/FreetextPerson?$select=fullNameWithContact,email/emailProtocol,email/emailBounceCount,personAddress/city,personSourceRelation/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

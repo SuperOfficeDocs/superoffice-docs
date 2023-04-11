@@ -25,7 +25,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=704
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=936
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -61,8 +61,8 @@ OK
 | Caption | string | The caption for this dashboard |
 | Layout | string | The dashboard layout, how the tiles are organized on the screen |
 | Tiles | array | The tiles associated with this dashboard |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 424,
-  "AssociateId": 218,
-  "Caption": "quam",
+  "DashboardId": 570,
+  "AssociateId": 902,
+  "Caption": "nemo",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 27,
-      "Caption": "culpa",
-      "Description": "Integrated even-keeled definition",
-      "ChartName": "Schaden, Walter and Davis",
-      "ChartId": "atque",
+      "DashboardTileId": 423,
+      "Caption": "laudantium",
+      "Description": "Assimilated modular encryption",
+      "ChartName": "Cruickshank Group",
+      "ChartId": "ut",
       "IsDefault": true,
-      "AssociateId": 360,
-      "GroupId": 225,
-      "SelectionId": 60,
-      "Config": "quaerat",
+      "AssociateId": 499,
+      "GroupId": 805,
+      "SelectionId": 492,
+      "Config": "beatae",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 724
+          "FieldLength": 139
         }
       }
     }
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   }
 }

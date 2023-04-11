@@ -80,8 +80,8 @@ OK
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 162,
-  "SourcePersonId": 611,
-  "DestinationContactId": 462,
-  "DestinationPersonId": 81,
-  "RelationId": 104,
-  "Comment": "sit",
-  "RelationDefinitionId": 984,
-  "Reversed": 574,
-  "UpdatedDate": "2004-03-07T12:15:19.9807367+01:00",
-  "CreatedDate": "2010-03-04T12:15:19.9807367+01:00",
+  "SourceContactId": 807,
+  "SourcePersonId": 984,
+  "DestinationContactId": 633,
+  "DestinationPersonId": 766,
+  "RelationId": 648,
+  "Comment": "minus",
+  "RelationDefinitionId": 22,
+  "Reversed": 452,
+  "UpdatedDate": "2007-08-12T15:29:22.6052643+02:00",
+  "CreatedDate": "2019-12-17T15:29:22.6052643+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mills-Gerlach",
-  "SourcePersonName": "Grady, Nikolaus and Schuster",
-  "DestinationContactName": "Boyer-Swift",
-  "DestinationPersonName": "Windler-Krajcik",
-  "ActiveText": "ut",
-  "PassiveText": "aut",
+  "SourceContactName": "Schimmel-Kub",
+  "SourcePersonName": "Rau-Kshlerin",
+  "DestinationContactName": "Dooley-Kshlerin",
+  "DestinationPersonName": "Johnson Group",
+  "ActiveText": "totam",
+  "PassiveText": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 365
     }
   }
 }

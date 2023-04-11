@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 743,
-    "Name": "Hilpert, Medhurst and Marks",
-    "Tooltip": "exercitationem",
+    "HeadingId": 920,
+    "Name": "Dare Inc and Sons",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 967
+    "Rank": 703,
+    "UdListDefinitionId": 96
   },
   {
-    "HeadingId": 743,
-    "Name": "Hilpert, Medhurst and Marks",
-    "Tooltip": "exercitationem",
+    "HeadingId": 920,
+    "Name": "Dare Inc and Sons",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 963,
-    "UdListDefinitionId": 967
+    "Rank": 703,
+    "UdListDefinitionId": 96
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 751,
-    "Name": "Hauck, Johns and O'Connell",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 347,
-    "UdListDefinitionId": 476,
+    "HeadingId": 195,
+    "Name": "Stokes LLC",
+    "Tooltip": "architecto",
+    "Deleted": false,
+    "Rank": 337,
+    "UdListDefinitionId": 172,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldType": "System.Int32",
+        "FieldLength": 113
       }
     }
   }

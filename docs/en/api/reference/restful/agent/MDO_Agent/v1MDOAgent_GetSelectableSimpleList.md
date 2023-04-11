@@ -77,8 +77,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bartell-Mayert"
+  "Name": "McCullough LLC"
 }
 ```
 
@@ -102,56 +102,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 763,
-    "Name": "Beier Inc and Sons",
-    "ToolTip": "Dolores magni ut similique et sint.",
+    "Id": 54,
+    "Name": "Borer-Dare",
+    "ToolTip": "Enim est quis quas molestiae assumenda eum quisquam.",
     "Deleted": false,
-    "Rank": 391,
-    "Type": "quod",
-    "ColorBlock": 640,
-    "IconHint": "officiis",
+    "Rank": 519,
+    "Type": "et",
+    "ColorBlock": 933,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2004-01-16T12:15:19.3857455+01:00",
+    "LastChanged": "2017-02-27T15:29:22.1478061+01:00",
     "ChildItems": [
       {
-        "Id": 910,
-        "Name": "McClure-Hand",
-        "ToolTip": "Est voluptatem ipsum ea dicta quam quae.",
-        "Deleted": true,
-        "Rank": 920,
-        "Type": "nesciunt",
-        "ColorBlock": 538,
-        "IconHint": "aperiam",
+        "Id": 223,
+        "Name": "Gibson-Gottlieb",
+        "ToolTip": "Eius vel sunt.",
+        "Deleted": false,
+        "Rank": 429,
+        "Type": "consequuntur",
+        "ColorBlock": 746,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2001-07-26T12:15:19.3857455+02:00",
+        "LastChanged": "2013-06-20T15:29:22.1478061+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "qui",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Mrs. Asa Demetris Bartoletti",
+        "FullName": "Bryce Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldType": "System.String",
+            "FieldLength": 907
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "amet",
-    "Hidden": false,
-    "FullName": "Ms. Casey Annie Altenwerth",
+    "ExtraInfo": "ullam",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Ms. Lea Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldLength": 281
       }
     }
   }

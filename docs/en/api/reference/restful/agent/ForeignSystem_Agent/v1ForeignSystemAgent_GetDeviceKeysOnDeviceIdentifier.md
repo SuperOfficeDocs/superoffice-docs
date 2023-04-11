@@ -72,8 +72,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,9 +85,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Runte-Schneider",
-  "DeviceName": "Watsica-Volkman",
-  "DeviceIdentifier": "laborum"
+  "ApplicationName": "Erdman, Bartell and Torphy",
+  "DeviceName": "Gutmann Inc and Sons",
+  "DeviceIdentifier": "quia"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "impedit",
-    "Value": "et",
-    "RecordId": 125,
-    "CreatedDate": "2002-10-30T12:15:19.1707485+01:00",
-    "UpdatedDate": "2010-04-22T12:15:19.1707485+02:00",
-    "UpdatedBy": "ducimus",
-    "CreatedBy": "et",
-    "TableName": "Kiehn-Walsh",
+    "Key": "assumenda",
+    "Value": "qui",
+    "RecordId": 438,
+    "CreatedDate": "2006-04-07T15:29:21.9308088+02:00",
+    "UpdatedDate": "2012-02-25T15:29:21.9308088+01:00",
+    "UpdatedBy": "aspernatur",
+    "CreatedBy": "fugiat",
+    "TableName": "Schaefer Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 23
       }
     }
   }

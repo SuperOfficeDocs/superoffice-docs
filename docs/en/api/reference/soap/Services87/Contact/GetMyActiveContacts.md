@@ -39,7 +39,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Contact:Credentials>
  <SOAP-ENV:Body>
    <Contact:GetMyActiveContacts>
-    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2023-03-01T11:11:04Z</Contact:ActivityStartTime>
+    <Contact:ActivityStartTime xsi:type="xsd:dateTime">2023-03-31T13:24:59Z</Contact:ActivityStartTime>
     <Contact:ContactCategories xsi:type="NetServerServices872:ArrayOfint">
      <NetServerServices872:int xsi:type="xsd:int">0</NetServerServices872:int>
     </Contact:ContactCategories>
@@ -75,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Contact:URL xsi:type="xsd:string"></Contact:URL>
      <Contact:AssociateFullName xsi:type="xsd:string"></Contact:AssociateFullName>
      <Contact:Action xsi:type="Contact:ContactAction">Created</Contact:Action>
-     <Contact:ActionTime xsi:type="xsd:dateTime">2023-03-01T11:11:04Z</Contact:ActionTime>
+     <Contact:ActionTime xsi:type="xsd:dateTime">2023-03-31T13:24:59Z</Contact:ActionTime>
      <Contact:Category xsi:type="xsd:string"></Contact:Category>
      <Contact:ActivityPersonName xsi:type="xsd:string"></Contact:ActivityPersonName>
      <Contact:ActionId xsi:type="xsd:int">0</Contact:ActionId>

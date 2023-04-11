@@ -110,8 +110,8 @@ DashboardTile  updated.
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -120,18 +120,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "atque",
+    "path": "error",
     "value": {}
   },
   {
     "op": "add",
-    "path": "atque",
+    "path": "error",
     "value": {}
   }
 ]
@@ -144,64 +144,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 606,
-  "Caption": "aliquam",
-  "Description": "Ergonomic demand-driven extranet",
-  "ChartName": "Conroy, McKenzie and Jast",
-  "ChartId": "consequatur",
-  "IsDefault": false,
-  "AssociateId": 746,
-  "GroupId": 9,
-  "SelectionId": 376,
-  "Config": "animi",
+  "DashboardTileId": 663,
+  "Caption": "est",
+  "Description": "Robust zero tolerance installation",
+  "ChartName": "Strosin LLC",
+  "ChartId": "iste",
+  "IsDefault": true,
+  "AssociateId": 613,
+  "GroupId": 457,
+  "SelectionId": 589,
+  "Config": "rem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Larson-Willms",
-      "Description": "Streamlined assymetric frame",
+      "Name": "Sauer-Leuschke",
+      "Description": "Profound foreground initiative",
       "Type": "Boolean",
-      "ListName": "Pfannerstill-Williamson",
+      "ListName": "Kessler-Tremblay",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "animi",
+      "Value": "sit",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 336
+          "FieldLength": 382
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 912,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 277
         }
       }
     },
     {
-      "VisibleId": 912,
+      "VisibleId": 893,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldType": "System.String",
+          "FieldLength": 277
         }
       }
     }
@@ -210,8 +210,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   },
   "_Links": {

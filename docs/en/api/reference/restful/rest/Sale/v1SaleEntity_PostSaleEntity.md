@@ -151,8 +151,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -161,7 +161,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "officia",
+  "SaleText": "ut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -180,90 +180,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-03-29T12:15:27.2546313+02:00",
-  "Amount": 29954.771999999997,
-  "SaleId": 42,
-  "Earning": 20960.192,
-  "EarningPercent": 5337.202,
-  "Heading": "assumenda",
-  "Number": "854251",
-  "Probability": 817,
-  "CreatedDate": "2009-05-23T12:15:27.2546313+02:00",
-  "UpdatedDate": "2002-02-17T12:15:27.2546313+01:00",
+  "Saledate": "2020-10-14T15:29:30.1727174+02:00",
+  "Amount": 13090.717999999999,
+  "SaleId": 995,
+  "Earning": 4155.684,
+  "EarningPercent": 5581.6539999999995,
+  "Heading": "laborum",
+  "Number": "1517261",
+  "Probability": 291,
+  "CreatedDate": "1996-03-26T15:29:30.1727174+01:00",
+  "UpdatedDate": "2001-12-09T15:29:30.1727174+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 723,
+  "ActiveLinks": 446,
   "Links": [
     {
-      "EntityName": "Bernhard, Mitchell and Beer",
-      "Id": 341,
-      "Description": "Integrated bottom-line structure",
-      "ExtraInfo": "nisi",
-      "LinkId": 49
+      "EntityName": "Stark-Schneider",
+      "Id": 563,
+      "Description": "Multi-channelled static implementation",
+      "ExtraInfo": "illum",
+      "LinkId": 809
     },
     {
-      "EntityName": "Bernhard, Mitchell and Beer",
-      "Id": 341,
-      "Description": "Integrated bottom-line structure",
-      "ExtraInfo": "nisi",
-      "LinkId": 49
+      "EntityName": "Stark-Schneider",
+      "Id": 563,
+      "Description": "Multi-channelled static implementation",
+      "ExtraInfo": "illum",
+      "LinkId": 809
     }
   ],
-  "NextDueDate": "1999-09-09T12:15:27.2546313+02:00",
-  "Postit": "quia",
+  "NextDueDate": "2018-08-08T15:29:30.1727174+02:00",
+  "Postit": "odio",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-08-29T12:15:27.2556323+02:00",
+  "ReopenDate": "2011-03-23T15:29:30.1741908+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Doyle, Johnson and Macejkovic",
-      "Comment": "ab",
-      "StakeholderRoleId": 696,
-      "CountryId": 789,
-      "PersonId": 96,
-      "EmailDescription": "reagan@flatleystracke.ca",
-      "EmailId": 670,
-      "EmailAddress": "archibald_witting@mcculloughbeer.co.uk",
-      "PhoneId": 244,
-      "ContactName": "Robel Inc and Sons",
-      "ContactId": 793,
-      "SaleId": 77,
-      "Mrmrs": "mollitia",
-      "Firstname": "Myron",
-      "MiddleName": "Leffler-Tillman",
-      "Lastname": "Kassulke",
-      "SaleStakeholderId": 775,
-      "Rank": 866,
-      "Phone": "828-681-7449 x8095"
+      "StakeholderRoleName": "VonRueden-Leuschke",
+      "Comment": "deserunt",
+      "StakeholderRoleId": 228,
+      "CountryId": 870,
+      "PersonId": 457,
+      "EmailDescription": "dawson_gleichner@damoredavis.info",
+      "EmailId": 993,
+      "EmailAddress": "richie@considineward.co.uk",
+      "PhoneId": 528,
+      "ContactName": "Koelpin, Pollich and Conn",
+      "ContactId": 400,
+      "SaleId": 134,
+      "Mrmrs": "atque",
+      "Firstname": "Abagail",
+      "MiddleName": "Rosenbaum LLC",
+      "Lastname": "Heaney",
+      "SaleStakeholderId": 540,
+      "Rank": 622,
+      "Phone": "(606)511-6059 x71860"
     }
   ],
-  "ActiveErpLinks": 514,
+  "ActiveErpLinks": 695,
   "UserDefinedFields": {
-    "SuperOffice:1": "57637806",
-    "SuperOffice:2": "Elinore Collins"
+    "SuperOffice:1": "1392599929",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "magnam"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "neque"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "nemo"
   },
-  "PublishEventDate": "2009-03-31T12:15:27.2556323+02:00",
-  "PublishTo": "2021-03-07T12:15:27.2556323+01:00",
-  "PublishFrom": "2022-05-01T12:15:27.2556323+02:00",
+  "PublishEventDate": "2014-07-03T15:29:30.1816598+02:00",
+  "PublishTo": "2003-01-07T15:29:30.1816598+01:00",
+  "PublishFrom": "1998-07-04T15:29:30.1816598+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 961,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "repudiandae"
+      "DisplayValue": "quos"
     },
     {
-      "VisibleId": 961,
+      "VisibleId": 3,
       "Visibility": "All",
-      "DisplayValue": "repudiandae"
+      "DisplayValue": "quos"
     }
   ]
 }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ratione",
+  "SaleText": "porro",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -291,113 +291,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-01-20T12:15:27.2706389+01:00",
-  "Amount": 9029.054,
-  "SaleId": 356,
-  "Earning": 13109.521999999999,
-  "EarningPercent": 5938.9299999999994,
-  "Heading": "sint",
-  "Number": "1175882",
-  "Probability": 79,
-  "CreatedDate": "2014-12-07T12:15:27.2706389+01:00",
-  "UpdatedDate": "1996-11-05T12:15:27.2706389+01:00",
+  "Saledate": "1999-03-20T15:29:30.4874837+01:00",
+  "Amount": 24329.242,
+  "SaleId": 474,
+  "Earning": 22514.656,
+  "EarningPercent": 14482.214,
+  "Heading": "suscipit",
+  "Number": "955101",
+  "Probability": 507,
+  "CreatedDate": "2014-08-06T15:29:30.4874837+02:00",
+  "UpdatedDate": "2013-12-05T15:29:30.4874837+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 97,
+  "ActiveLinks": 529,
   "Links": [
     {
-      "EntityName": "Bogisich Inc and Sons",
-      "Id": 813,
-      "Description": "Synergistic object-oriented emulation",
-      "ExtraInfo": "dolorum",
-      "LinkId": 36,
+      "EntityName": "Lesch, Beer and Smitham",
+      "Id": 564,
+      "Description": "Vision-oriented interactive focus group",
+      "ExtraInfo": "alias",
+      "LinkId": 501,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 410
         }
       }
     }
   ],
-  "NextDueDate": "2009-06-07T12:15:27.2706389+02:00",
-  "Postit": "aliquid",
+  "NextDueDate": "1998-10-20T15:29:30.4879836+02:00",
+  "Postit": "quos",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-01-06T12:15:27.2706389+01:00",
+  "ReopenDate": "2016-09-16T15:29:30.4884879+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hagenes Inc and Sons",
-      "Comment": "beatae",
-      "StakeholderRoleId": 785,
-      "CountryId": 422,
-      "PersonId": 189,
-      "EmailDescription": "josie@shanahan.info",
-      "EmailId": 258,
-      "EmailAddress": "adan_greenfelder@kovacek.co.uk",
-      "PhoneId": 494,
-      "ContactName": "Green-Howe",
-      "ContactId": 326,
-      "SaleId": 513,
-      "Mrmrs": "qui",
-      "Firstname": "Kaylee",
-      "MiddleName": "Sawayn, Funk and Lakin",
-      "Lastname": "Brekke",
-      "SaleStakeholderId": 756,
-      "Rank": 381,
-      "Phone": "176.188.1357",
+      "StakeholderRoleName": "Thiel, Weissnat and Gibson",
+      "Comment": "perspiciatis",
+      "StakeholderRoleId": 278,
+      "CountryId": 507,
+      "PersonId": 443,
+      "EmailDescription": "yvette.collier@blanda.ca",
+      "EmailId": 17,
+      "EmailAddress": "leo@dicki.name",
+      "PhoneId": 393,
+      "ContactName": "Dibbert, Satterfield and Rempel",
+      "ContactId": 278,
+      "SaleId": 134,
+      "Mrmrs": "molestiae",
+      "Firstname": "Christop",
+      "MiddleName": "Konopelski Inc and Sons",
+      "Lastname": "Marquardt",
+      "SaleStakeholderId": 732,
+      "Rank": 427,
+      "Phone": "(923)196-2782 x187",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldLength": 625
         }
       }
     }
   ],
-  "ActiveErpLinks": 942,
+  "ActiveErpLinks": 922,
   "UserDefinedFields": {
-    "SuperOffice:1": "1340351155",
-    "SuperOffice:2": "Darrel Daniel"
+    "SuperOffice:1": "159050045",
+    "SuperOffice:2": "Mr. Teagan Terry"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "quam"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "cum"
+    "CustomFields1": "atque",
+    "CustomFields2": "earum"
   },
-  "PublishEventDate": "2011-04-07T12:15:27.2716324+02:00",
-  "PublishTo": "1997-07-01T12:15:27.2716324+02:00",
-  "PublishFrom": "2002-05-28T12:15:27.2716324+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2019-05-27T15:29:30.5029584+02:00",
+  "PublishTo": "2013-03-28T15:29:30.5029584+01:00",
+  "PublishFrom": "2013-03-06T15:29:30.5029584+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 886,
+      "VisibleId": 606,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldLength": 940
         }
       }
     },
     {
-      "VisibleId": 886,
+      "VisibleId": 606,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldLength": 940
         }
       }
     }
@@ -407,7 +407,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 55
     }
   },
   "_Links": {

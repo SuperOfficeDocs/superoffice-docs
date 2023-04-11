@@ -107,8 +107,8 @@ OK
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Contact/ChangeCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactEntity": null,
-  "ToCountryId": 595
+  "ToCountryId": 995
 }
 ```
 
@@ -132,157 +132,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 471,
-  "Name": "Stokes, Rath and Corwin",
+  "ContactId": 195,
+  "Name": "Hansen-Lesch",
   "Department": "",
-  "OrgNr": "934162",
-  "Number1": "1282124",
-  "Number2": "642712",
-  "UpdatedDate": "1996-01-04T12:15:18.5627574+01:00",
-  "CreatedDate": "2006-04-11T12:15:18.5627574+02:00",
+  "OrgNr": "902240",
+  "Number1": "1445216",
+  "Number2": "342047",
+  "UpdatedDate": "2020-03-23T15:29:21.1828198+01:00",
+  "CreatedDate": "1996-01-29T15:29:21.1828198+01:00",
   "Emails": [
     {
-      "Value": "velit",
-      "StrippedValue": "et",
-      "Description": "Polarised explicit challenge",
+      "Value": "qui",
+      "StrippedValue": "provident",
+      "Description": "Expanded user-facing moderator",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 568
         }
       }
     },
     {
-      "Value": "velit",
-      "StrippedValue": "et",
-      "Description": "Polarised explicit challenge",
+      "Value": "qui",
+      "StrippedValue": "provident",
+      "Description": "Expanded user-facing moderator",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 568
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 881,
-      "Name": "Roob, Dibbert and Tromp",
-      "ToolTip": "Consequatur explicabo.",
-      "Deleted": false,
-      "Rank": 293,
-      "Type": "sapiente",
-      "ColorBlock": 516,
-      "IconHint": "sit",
+      "Id": 815,
+      "Name": "Cruickshank, Botsford and Bailey",
+      "ToolTip": "Velit illo autem repellat quia sunt consequatur eos.",
+      "Deleted": true,
+      "Rank": 526,
+      "Type": "neque",
+      "ColorBlock": 775,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "1996-02-21T12:15:18.5627574+01:00",
+      "LastChanged": "2020-03-28T15:29:21.1828198+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "est",
+      "ExtraInfo": "distinctio",
+      "StyleHint": "voluptas",
       "Hidden": true,
-      "FullName": "Norma Thiel",
+      "FullName": "Favian D'Amore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 233
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "itaque",
-      "StrippedValue": "exercitationem",
-      "Description": "Synergized client-driven instruction set",
+      "Value": "rerum",
+      "StrippedValue": "et",
+      "Description": "Enhanced upward-trending framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 170
         }
       }
     },
     {
-      "Value": "itaque",
-      "StrippedValue": "exercitationem",
-      "Description": "Synergized client-driven instruction set",
+      "Value": "rerum",
+      "StrippedValue": "et",
+      "Description": "Enhanced upward-trending framework",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 170
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "voluptatem",
-      "StrippedValue": "rerum",
-      "Description": "Multi-tiered 24/7 standardization",
+      "Value": "architecto",
+      "StrippedValue": "eum",
+      "Description": "Pre-emptive executive project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     },
     {
-      "Value": "voluptatem",
-      "StrippedValue": "rerum",
-      "Description": "Multi-tiered 24/7 standardization",
+      "Value": "architecto",
+      "StrippedValue": "eum",
+      "Description": "Pre-emptive executive project",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "non",
-      "StrippedValue": "enim",
-      "Description": "Operative zero administration customer loyalty",
+      "Value": "aliquam",
+      "StrippedValue": "vero",
+      "Description": "Stand-alone regional moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 695
         }
       }
     },
     {
-      "Value": "non",
-      "StrippedValue": "enim",
-      "Description": "Operative zero administration customer loyalty",
+      "Value": "aliquam",
+      "StrippedValue": "vero",
+      "Description": "Stand-alone regional moratorium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 695
         }
       }
     }
   ],
-  "Description": "Customizable reciprocal collaboration",
+  "Description": "Seamless motivating installation",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -291,100 +291,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "aliquam",
-      "PersonId": 101,
-      "Mrmrs": "dolorum",
-      "Firstname": "Jewel",
-      "Lastname": "Hickle",
-      "MiddleName": "King-Hand",
-      "Title": "quos",
-      "Description": "Balanced explicit service-desk",
-      "Email": "ryleigh@granthalvorson.biz",
-      "FullName": "Erich Padberg",
-      "DirectPhone": "184-042-3593 x08300",
-      "FormalName": "Cormier, Medhurst and Cronin",
-      "CountryId": 927,
-      "ContactId": 379,
-      "ContactName": "Hammes, Schneider and Little",
-      "Retired": 805,
-      "Rank": 224,
-      "ActiveInterests": 216,
+      "Position": "voluptas",
+      "PersonId": 898,
+      "Mrmrs": "dolor",
+      "Firstname": "Sienna",
+      "Lastname": "Kreiger",
+      "MiddleName": "Corwin Inc and Sons",
+      "Title": "eveniet",
+      "Description": "Advanced 3rd generation archive",
+      "Email": "heath@wolf.biz",
+      "FullName": "Torey Flatley",
+      "DirectPhone": "1-369-402-7459",
+      "FormalName": "Koelpin-Von",
+      "CountryId": 88,
+      "ContactId": 830,
+      "ContactName": "Yost, Hodkiewicz and Bogisich",
+      "Retired": 196,
+      "Rank": 206,
+      "ActiveInterests": 786,
       "ContactDepartment": "",
-      "ContactCountryId": 963,
-      "ContactOrgNr": "419186",
-      "FaxPhone": "124.341.8973",
-      "MobilePhone": "1-783-976-0427 x89972",
-      "ContactPhone": "1-097-972-1020 x230",
-      "AssociateName": "Purdy LLC",
-      "AssociateId": 947,
+      "ContactCountryId": 196,
+      "ContactOrgNr": "1480350",
+      "FaxPhone": "1-347-337-3904 x6761",
+      "MobilePhone": "417-122-2352",
+      "ContactPhone": "885-634-6965 x961",
+      "AssociateName": "Morar Inc and Sons",
+      "AssociateId": 987,
       "UsePersonAddress": false,
-      "ContactFax": "odio",
-      "Kanafname": "ipsam",
-      "Kanalname": "repudiandae",
-      "Post1": "aut",
-      "Post2": "officia",
-      "Post3": "sit",
-      "EmailName": "alfred.crona@nienow.com",
-      "ContactFullName": "Marlin Farrell",
-      "ActiveErpLinks": 222,
-      "TicketPriorityId": 511,
-      "SupportLanguageId": 294,
-      "SupportAssociateId": 182,
+      "ContactFax": "corporis",
+      "Kanafname": "totam",
+      "Kanalname": "et",
+      "Post1": "soluta",
+      "Post2": "tempora",
+      "Post3": "et",
+      "EmailName": "mason@raynor.com",
+      "ContactFullName": "Prof. Benton Brielle Stroman",
+      "ActiveErpLinks": 428,
+      "TicketPriorityId": 547,
+      "SupportLanguageId": 715,
+      "SupportAssociateId": 628,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 123
         }
       }
     }
   ],
-  "NoMailing": false,
-  "Kananame": "non",
+  "NoMailing": true,
+  "Kananame": "qui",
   "Xstop": false,
-  "ActiveInterests": 909,
-  "GroupId": 974,
-  "ActiveStatusMonitorId": 243,
+  "ActiveInterests": 388,
+  "GroupId": 814,
+  "ActiveStatusMonitorId": 16,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 133,
-  "DbiAgentId": 619,
-  "DbiLastSyncronized": "2016-01-28T12:15:18.5667609+01:00",
-  "DbiKey": "saepe",
-  "DbiLastModified": "2015-11-26T12:15:18.5667609+01:00",
+  "Deleted": 430,
+  "DbiAgentId": 564,
+  "DbiLastSyncronized": "2013-07-24T15:29:21.1878195+02:00",
+  "DbiKey": "aut",
+  "DbiLastModified": "2016-07-10T15:29:21.1878195+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 249,
-  "ActiveErpLinks": 414,
+  "Source": 344,
+  "ActiveErpLinks": 51,
   "BounceEmails": [
-    "jessy@greenfelder.biz",
-    "otilia_jacobs@kovacek.ca"
+    "jimmie.veum@paucek.uk",
+    "janae@mitchell.info"
   ],
   "Domains": [
-    "aliquid",
-    "non"
+    "voluptatem",
+    "hic"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Freeman Schaden DDS",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Maureen Felicita Schimmel DDS",
+    "SuperOffice:2": "625413699"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "et"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "sed"
+    "CustomFields1": "unde",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldType": "System.String",
+      "FieldLength": 153
     }
   }
 }

@@ -75,8 +75,8 @@ OK
 | MaxLength | int32 | Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.) |
 | Access | string | Access restrictions on the field |
 | ShowInSearch | bool | True if this field is displayed in search result |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 804,
-  "ConnectorName": "Carter, Gerhold and Olson"
+  "ConnectionId": 252,
+  "ConnectorName": "Fay LLC"
 }
 ```
 
@@ -101,14 +101,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "placeat",
-    "Rank": 532,
-    "DisplayName": "Heller-Shanahan",
-    "DisplayDescription": "Synergistic bifurcated support",
+    "FieldKey": "voluptas",
+    "Rank": 714,
+    "DisplayName": "Mante, Muller and Mitchell",
+    "DisplayDescription": "Visionary fresh-thinking policy",
     "FieldType": "Checkbox",
-    "ListName": "Robel, Streich and Doyle",
-    "DefaultValue": "voluptas",
-    "MaxLength": 496,
+    "ListName": "Parker, Dickens and Feeney",
+    "DefaultValue": "voluptatem",
+    "MaxLength": 449,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 913
       }
     }
   }

@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Leannon-O'Conner",
-  "Tooltip": "consequatur",
+  "Id": 789,
+  "Name": "Nolan Inc and Sons",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 972,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 17,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Rutherford-Hauck",
-  "Tooltip": "et",
+  "Id": 679,
+  "Name": "Strosin Inc and Sons",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "Rank": 871,
+  "Rank": 58,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
+  "ListType": "eum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldLength": 621
     }
   }
 }

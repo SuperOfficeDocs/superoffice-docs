@@ -78,8 +78,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,46 +98,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 848,
-    "ColumnId": 260,
-    "FieldDefault": "neque",
-    "FieldHeight": 12,
-    "FieldLabel": "nemo",
-    "FieldLeft": 874,
-    "FieldTop": 578,
+    "UDefFieldId": 138,
+    "ColumnId": 28,
+    "FieldDefault": "magni",
+    "FieldHeight": 185,
+    "FieldLabel": "quis",
+    "FieldLeft": 996,
+    "FieldTop": 830,
     "FieldType": "Checkbox",
-    "FieldWidth": 718,
-    "FormatMask": "tenetur",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 553,
-    "LabelLeft": 541,
-    "LabelTop": 283,
-    "LabelWidth": 129,
-    "LastVersionId": 423,
-    "ListTableId": 235,
+    "FieldWidth": 779,
+    "FormatMask": "quo",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 901,
+    "LabelLeft": 961,
+    "LabelTop": 728,
+    "LabelWidth": 573,
+    "LastVersionId": 33,
+    "ListTableId": 671,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 131,
-    "ProgId": "debitis",
-    "IsReadOnly": true,
-    "ShortLabel": "incidunt",
-    "TabOrder": 277,
-    "TextLength": 537,
-    "Tooltip": "non",
-    "UdefIdentity": 19,
-    "UDListDefinitionId": 130,
+    "Page1LineNo": 283,
+    "ProgId": "fugiat",
+    "IsReadOnly": false,
+    "ShortLabel": "in",
+    "TabOrder": 119,
+    "TextLength": 458,
+    "Tooltip": "aspernatur",
+    "UdefIdentity": 283,
+    "UDListDefinitionId": 227,
     "Justification": "Center",
-    "Version": 539,
-    "TemplateVariableName": "Wolff-Barrows",
-    "HasBeenPublished": true,
-    "MdoListName": "Hegmann-Romaguera",
+    "Version": 596,
+    "TemplateVariableName": "Wuckert Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Fadel-Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldType": "System.String",
+        "FieldLength": 485
       }
     }
   }

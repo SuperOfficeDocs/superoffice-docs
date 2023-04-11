@@ -115,8 +115,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -124,15 +124,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 904,
-  "GroupType": 815,
-  "StartTime": "2008-03-20T12:15:17.6717706+01:00",
-  "EndTime": "2001-11-11T12:15:17.6717706+01:00",
-  "Count": 103
+  "GroupId": 748,
+  "GroupType": 519,
+  "StartTime": "2013-10-24T15:29:20.417834+02:00",
+  "EndTime": "2000-07-26T15:29:20.417834+02:00",
+  "Count": 227
 }
 ```
 
@@ -144,61 +144,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 904,
-    "StartDate": "2021-02-08T12:15:17.672773+01:00",
-    "EndDate": "2006-10-16T12:15:17.672773+02:00",
+    "AppointmentId": 808,
+    "StartDate": "2003-08-30T15:29:20.4193279+02:00",
+    "EndDate": "2017-05-03T15:29:20.4193279+02:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Helmer Goodwin",
-    "ContactName": "Ullrich-Hane",
-    "Description": "Face to face modular software",
-    "PersonFullName": "Sam Kerluke",
-    "PersonId": 53,
-    "ContactId": 613,
-    "ProjectId": 6,
-    "ProjectName": "Kozey LLC",
+    "Task": "nihil",
+    "AssociateFullName": "Mrs. Oscar Declan Lemke",
+    "ContactName": "Shanahan, Farrell and Rowe",
+    "Description": "Intuitive bandwidth-monitored capacity",
+    "PersonFullName": "Bell Erick Dickens Sr.",
+    "PersonId": 723,
+    "ContactId": 601,
+    "ProjectId": 121,
+    "ProjectName": "Rodriguez, Carroll and Mills",
     "IsPublished": false,
-    "AssociateId": 492,
-    "ColorIndex": 605,
+    "AssociateId": 928,
+    "ColorIndex": 36,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 515,
-    "PriorityName": "Ankunding, Trantow and Willms",
+    "PriorityId": 814,
+    "PriorityName": "Wiza Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2018-12-28T12:15:17.6737701+01:00",
+    "ActiveDate": "1998-06-03T15:29:20.4198304+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-09-23T12:15:17.6737701+02:00",
-    "RecurringEndDate": "2021-09-23T12:15:17.6737701+02:00",
-    "MotherId": 305,
-    "AssignedBy": 187,
-    "AssignedByFullName": "Jeffry Fahey",
+    "RecurringStartDate": "2019-02-15T15:29:20.4198304+01:00",
+    "RecurringEndDate": "2021-09-02T15:29:20.4198304+02:00",
+    "MotherId": 383,
+    "AssignedBy": 435,
+    "AssignedByFullName": "Darwin Stamm",
     "RejectReason": "",
-    "Location": "nihil",
-    "AlarmLeadTime": "sit",
-    "SaleId": 754,
-    "SaleName": "Oberbrunner LLC",
-    "AssociateName": "Hettinger, Bergnaum and McLaughlin",
-    "CreatedDate": "2020-03-20T12:15:17.6737701+01:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Raul Tremblay",
-    "CreatedByAssociateId": 906,
+    "Location": "occaecati",
+    "AlarmLeadTime": "asperiores",
+    "SaleId": 866,
+    "SaleName": "Ankunding, Heller and Kuphal",
+    "AssociateName": "Hills-Rohan",
+    "CreatedDate": "2003-10-30T15:29:20.4203301+01:00",
+    "CreatedBy": "distinctio",
+    "CreatedByFullName": "Holly Hagenes",
+    "CreatedByAssociateId": 546,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldType": "System.Int32",
+        "FieldLength": 195
       }
     }
   }

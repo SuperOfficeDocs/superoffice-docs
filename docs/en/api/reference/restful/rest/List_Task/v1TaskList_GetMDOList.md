@@ -26,7 +26,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=non
+GET /api/v1/List/Task/MDOItems?query=voluptas
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Batz Group",
-    "ToolTip": "Voluptate aut totam accusantium qui dolor.",
+    "Id": 140,
+    "Name": "Quigley Group",
+    "ToolTip": "Asperiores sed repellat repellat dicta.",
     "Deleted": false,
-    "Rank": 540,
-    "Type": "molestiae",
+    "Rank": 677,
+    "Type": "perferendis",
     "ChildItems": [
       {
-        "Id": 645,
-        "Name": "Nikolaus-Spencer",
-        "ToolTip": "Voluptatem fugit et dolore voluptates voluptatibus et voluptatem.",
+        "Id": 28,
+        "Name": "Bauch-Ryan",
+        "ToolTip": "Id expedita laboriosam.",
         "Deleted": false,
-        "Rank": 515,
-        "Type": "quis",
+        "Rank": 508,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "facilis",
-        "ColorBlock": 240,
-        "ExtraInfo": "quo",
-        "StyleHint": "non",
-        "FullName": "Sigrid Pfeffer",
+        "IconHint": "quisquam",
+        "ColorBlock": 347,
+        "ExtraInfo": "aperiam",
+        "StyleHint": "iure",
+        "FullName": "Jacinto Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldType": "System.String",
+            "FieldLength": 930
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 623,
-    "ExtraInfo": "est",
-    "StyleHint": "error",
-    "FullName": "Dr. Natalia Ferry II",
+    "IconHint": "molestias",
+    "ColorBlock": 287,
+    "ExtraInfo": "suscipit",
+    "StyleHint": "dolorem",
+    "FullName": "Serena Jeanie Weber DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 721
       }
     }
   }

@@ -97,8 +97,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,53 +116,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 573,
-  "StartDate": "2018-04-14T12:15:27.1766325+02:00",
-  "EndDate": "2014-02-28T12:15:27.1766325+01:00",
+  "AppointmentId": 987,
+  "StartDate": "2010-02-20T15:29:29.9866594+01:00",
+  "EndDate": "2007-11-03T15:29:29.9866594+01:00",
   "Type": "BookingForChecklist",
-  "Task": "atque",
-  "AssociateFullName": "Grayce Heaney",
-  "ContactName": "Welch-Feest",
-  "Description": "Configurable bandwidth-monitored process improvement",
-  "PersonFullName": "Mr. Jed Boyle II",
-  "PersonId": 765,
-  "ContactId": 907,
-  "ProjectId": 334,
-  "ProjectName": "Goldner LLC",
+  "Task": "deleniti",
+  "AssociateFullName": "Miss Gerhard Funk",
+  "ContactName": "Altenwerth, Crona and Nader",
+  "Description": "Multi-layered 4th generation software",
+  "PersonFullName": "Prof. Angelita Torphy MD",
+  "PersonId": 6,
+  "ContactId": 251,
+  "ProjectId": 667,
+  "ProjectName": "Nikolaus, Mraz and Hudson",
   "IsPublished": true,
-  "AssociateId": 148,
-  "ColorIndex": 515,
-  "IsFree": false,
+  "AssociateId": 306,
+  "ColorIndex": 886,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 908,
-  "PriorityName": "Watsica-Kuhic",
+  "PriorityId": 768,
+  "PriorityName": "Schimmel, Keeling and O'Reilly",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "1997-07-02T12:15:27.1776332+02:00",
+  "ActiveDate": "2006-03-08T15:29:29.9881603+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2002-12-26T12:15:27.1776332+01:00",
-  "RecurringEndDate": "2013-02-12T12:15:27.1776332+01:00",
-  "MotherId": 949,
-  "AssignedBy": 651,
-  "AssignedByFullName": "Sunny Murray DDS",
+  "RecurringStartDate": "1999-07-10T15:29:29.9881603+02:00",
+  "RecurringEndDate": "2006-04-15T15:29:29.9881603+02:00",
+  "MotherId": 453,
+  "AssignedBy": 444,
+  "AssignedByFullName": "Prof. Murray Lakin PhD",
   "RejectReason": "",
-  "Location": "et",
-  "AlarmLeadTime": "laboriosam",
-  "SaleId": 636,
-  "SaleName": "Frami-Halvorson",
-  "AssociateName": "Conn Group",
-  "CreatedDate": "2001-11-14T12:15:27.1776332+01:00",
-  "CreatedBy": "id",
-  "CreatedByFullName": "Dr. Amanda Axel Becker MD",
-  "CreatedByAssociateId": 195,
+  "Location": "quia",
+  "AlarmLeadTime": "voluptatem",
+  "SaleId": 923,
+  "SaleName": "Renner, Parker and Gibson",
+  "AssociateName": "Crooks-Haley",
+  "CreatedDate": "2012-08-16T15:29:29.9886594+02:00",
+  "CreatedBy": "doloribus",
+  "CreatedByFullName": "Sharon Simonis",
+  "CreatedByAssociateId": 145,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
   "TableRight": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 110
     }
   }
 }

@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,19 +83,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "Medhurst-Turcotte",
-  "Tooltip": "quisquam",
+  "Id": 935,
+  "Name": "McKenzie Group",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 878,
+  "Rank": 781,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minima",
+  "UseGroupsAndHeadings": false,
+  "ListType": "incidunt",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 685,
-  "Name": "Bernhard-Flatley",
-  "Tooltip": "repudiandae",
-  "Deleted": true,
-  "Rank": 24,
-  "IsCustomList": true,
+  "Id": 992,
+  "Name": "Lehner Inc and Sons",
+  "Tooltip": "perferendis",
+  "Deleted": false,
+  "Rank": 953,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 823
     }
   }
 }

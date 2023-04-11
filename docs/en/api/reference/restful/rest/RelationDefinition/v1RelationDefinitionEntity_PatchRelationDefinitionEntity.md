@@ -104,8 +104,8 @@ RelationDefinitionEntity  updated.
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -114,18 +114,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -138,25 +138,25 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 570,
-  "Name": "Ward-Beer",
-  "Tooltip": "rerum",
-  "PassiveText": "tempora",
+  "ReldefId": 605,
+  "Name": "Beahan-Hagenes",
+  "Tooltip": "dolorum",
+  "PassiveText": "dicta",
   "Deleted": false,
-  "Rank": 950,
+  "Rank": 80,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 847
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

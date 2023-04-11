@@ -84,8 +84,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Document/GetAppointmentDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 533
+  "AppointmentId": 919
 }
 ```
 
@@ -109,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 667,
-    "Attention": "libero",
-    "Header": "quis",
-    "Name": "Marks, Ferry and Pacocha",
-    "OurRef": "vel",
-    "YourRef": "et",
-    "Description": "Automated upward-trending alliance",
-    "DocumentTemplate": "incidunt",
+    "DocumentId": 93,
+    "Attention": "sequi",
+    "Header": "consectetur",
+    "Name": "Collins-Swaniawski",
+    "OurRef": "repellat",
+    "YourRef": "qui",
+    "Description": "Networked context-sensitive structure",
+    "DocumentTemplate": "molestiae",
     "IsPublished": false,
-    "PersonId": 159,
-    "PersonFullName": "Mrs. Elise Walter",
-    "AssociateFullName": "Russell Ziemann",
-    "ContactId": 125,
-    "ContactName": "Leannon, Rodriguez and Nitzsche",
-    "ProjectId": 767,
-    "ProjectName": "Gleichner Inc and Sons",
-    "AssociateId": 875,
-    "Snum": 792,
-    "SaleId": 163,
-    "SaleName": "Hermann-Hauck",
+    "PersonId": 287,
+    "PersonFullName": "Aurelio Hauck PhD",
+    "AssociateFullName": "Miss Rhea Zoey Langosh",
+    "ContactId": 798,
+    "ContactName": "Rowe-Price",
+    "ProjectId": 333,
+    "ProjectName": "Stehr-Leuschke",
+    "AssociateId": 126,
+    "Snum": 99,
+    "SaleId": 635,
+    "SaleName": "Walter LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 95
       }
     }
   }

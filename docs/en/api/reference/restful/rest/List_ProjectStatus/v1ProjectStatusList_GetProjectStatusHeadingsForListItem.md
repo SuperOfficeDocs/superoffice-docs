@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Graham-Abshire",
-    "ToolTip": "Culpa et aut voluptatibus recusandae nam exercitationem atque.",
+    "Id": 933,
+    "Name": "Wiegand, Larson and Lakin",
+    "ToolTip": "Quos vel tempore blanditiis harum.",
     "Deleted": false,
-    "Rank": 84,
-    "Type": "accusantium",
-    "ColorBlock": 506,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2020-06-09T12:15:28.3366156+02:00",
+    "Rank": 185,
+    "Type": "debitis",
+    "ColorBlock": 475,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "2022-06-06T15:29:31.4519762+02:00",
     "ChildItems": [
       {
-        "Id": 586,
-        "Name": "Roberts, Satterfield and Bartoletti",
-        "ToolTip": "Provident suscipit eveniet.",
+        "Id": 509,
+        "Name": "Pfannerstill Group",
+        "ToolTip": "Enim dolorum qui nesciunt.",
         "Deleted": false,
-        "Rank": 357,
-        "Type": "consequatur",
-        "ColorBlock": 156,
-        "IconHint": "explicabo",
-        "Selected": true,
-        "LastChanged": "2001-02-24T12:15:28.3366156+01:00",
+        "Rank": 917,
+        "Type": "illo",
+        "ColorBlock": 102,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2016-08-14T15:29:31.4519762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "a",
-        "Hidden": true,
-        "FullName": "Rasheed Jones MD",
+        "ExtraInfo": "autem",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Seamus Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 527
+            "FieldLength": 479
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "velit",
+    "ExtraInfo": "amet",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Alva Kohler",
+    "FullName": "Winona Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 567
+        "FieldType": "System.Int32",
+        "FieldLength": 785
       }
     }
   }

@@ -81,8 +81,8 @@ ForeignAppEntity updated.
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -91,27 +91,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 641,
-  "Name": "Wisoky, Gislason and Spencer",
-  "CreatedDate": "2000-09-05T12:15:26.9536393+02:00",
-  "UpdatedDate": "1997-08-11T12:15:26.9536393+02:00",
+  "ForeignAppId": 108,
+  "Name": "Wyman LLC",
+  "CreatedDate": "2000-06-15T15:29:29.7611987+02:00",
+  "UpdatedDate": "2019-11-08T15:29:29.7611987+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 586,
-      "Name": "Jones-White",
-      "CreatedDate": "2022-09-22T12:15:26.9546357+02:00",
-      "UpdatedDate": "1996-07-01T12:15:26.9546357+02:00",
-      "AssociateFullName": "Ms. Gavin Lebsack DVM",
-      "CreatedBy": "eius",
-      "UpdatedBy": "molestiae",
-      "DeviceIdentifier": "eum",
-      "ForeignAppId": 123
+      "ForeignDeviceId": 694,
+      "Name": "Yost Inc and Sons",
+      "CreatedDate": "2006-06-02T15:29:29.7616989+02:00",
+      "UpdatedDate": "2005-12-05T15:29:29.7616989+01:00",
+      "AssociateFullName": "Laury Gutkowski",
+      "CreatedBy": "possimus",
+      "UpdatedBy": "nesciunt",
+      "DeviceIdentifier": "aspernatur",
+      "ForeignAppId": 645
     }
   ]
 }
@@ -124,29 +124,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 772,
-  "Name": "Tremblay-Ullrich",
-  "CreatedDate": "1997-03-18T12:15:26.956636+01:00",
-  "UpdatedDate": "2009-11-20T12:15:26.956636+01:00",
+  "ForeignAppId": 115,
+  "Name": "Mueller LLC",
+  "CreatedDate": "1996-07-22T15:29:29.7626962+02:00",
+  "UpdatedDate": "2015-06-16T15:29:29.7626962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 878,
-      "Name": "Bergnaum-Stamm",
-      "CreatedDate": "1999-02-16T12:15:26.956636+01:00",
-      "UpdatedDate": "2017-12-03T12:15:26.956636+01:00",
-      "AssociateFullName": "Aniya Grady",
-      "CreatedBy": "enim",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 251,
+      "ForeignDeviceId": 501,
+      "Name": "Ferry, Rosenbaum and Hane",
+      "CreatedDate": "2008-07-06T15:29:29.7647015+02:00",
+      "UpdatedDate": "2015-01-26T15:29:29.7647015+01:00",
+      "AssociateFullName": "Velda Streich",
+      "CreatedBy": "et",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 135,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 11
         }
       }
     }
@@ -156,12 +156,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 286
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

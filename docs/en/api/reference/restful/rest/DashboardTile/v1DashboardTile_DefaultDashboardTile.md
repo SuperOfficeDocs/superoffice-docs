@@ -60,8 +60,8 @@ OK
 | EntityType | string | The tile entity type |
 | Options | array | The tile options |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,7 +69,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,64 +79,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 919,
-  "Caption": "sunt",
-  "Description": "Upgradable full-range open architecture",
-  "ChartName": "Keeling-Prosacco",
-  "ChartId": "porro",
-  "IsDefault": false,
-  "AssociateId": 563,
-  "GroupId": 950,
-  "SelectionId": 695,
-  "Config": "est",
+  "DashboardTileId": 520,
+  "Caption": "rerum",
+  "Description": "Seamless executive database",
+  "ChartName": "Heidenreich-Hodkiewicz",
+  "ChartId": "voluptas",
+  "IsDefault": true,
+  "AssociateId": 385,
+  "GroupId": 913,
+  "SelectionId": 834,
+  "Config": "rerum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "O'Keefe Inc and Sons",
-      "Description": "Reactive asynchronous architecture",
+      "Name": "Bergnaum-Schroeder",
+      "Description": "Grass-roots multimedia orchestration",
       "Type": "Boolean",
-      "ListName": "Hagenes, Jenkins and Monahan",
+      "ListName": "Walker LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatibus",
+      "Value": "sunt",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 444
+          "FieldLength": 180
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 632,
+      "VisibleId": 950,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 571
         }
       }
     },
     {
-      "VisibleId": 632,
+      "VisibleId": 950,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 571
         }
       }
     }
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 474
+      "FieldLength": 118
     }
   }
 }

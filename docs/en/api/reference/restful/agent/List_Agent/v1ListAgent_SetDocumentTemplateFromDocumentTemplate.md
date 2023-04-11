@@ -88,8 +88,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 254,
+  "SourceDocumentTemplateId": 3,
   "DocumentTemplateEntity": null
 }
 ```
@@ -113,37 +113,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 863,
-  "Name": "Koelpin, Wilderman and Koelpin",
-  "Tooltip": "reiciendis",
-  "SaveInDb": 118,
-  "Filename": "et",
-  "DefaultOref": "vero",
+  "DocumentTemplateId": 526,
+  "Name": "Miller-Maggio",
+  "Tooltip": "et",
+  "SaveInDb": 892,
+  "Filename": "quo",
+  "DefaultOref": "fuga",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 249,
-  "IntentId": 497,
+  "AutoeventId": 474,
+  "IntentId": 854,
   "IsDefaultPublished": false,
-  "Rank": 30,
-  "LoadTemplateFromPlugin": 614,
-  "MimeType": "tenetur",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 735,
+  "Rank": 414,
+  "LoadTemplateFromPlugin": 452,
+  "MimeType": "vitae",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 200,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "toni@okon.ca",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "della.mcglynn@legrosgreen.biz",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brendan_robel@willschmeler.uk",
+  "SenderEmailAddress": "evalyn_schinner@heaney.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldLength": 722
     }
   }
 }

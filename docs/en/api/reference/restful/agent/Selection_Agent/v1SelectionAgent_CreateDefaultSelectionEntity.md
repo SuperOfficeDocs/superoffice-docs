@@ -87,8 +87,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse multimedia standardization",
-  "Postit": "voluptatum",
+  "Description": "Quality-focused local hub",
+  "Postit": "earum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 504,
-  "IncludePerson": 218,
-  "MemberCount": 177,
-  "Name": "Boehm, Swaniawski and Nolan",
-  "PostitTextId": 689,
-  "CreatedDate": "2003-08-21T12:15:20.1217346+02:00",
-  "SelectionId": 550,
-  "SoundEx": "soluta",
-  "Source": 73,
-  "TextId": 572,
-  "UpdatedDate": "2008-10-04T12:15:20.1217346+02:00",
-  "UpdatedCount": 6,
-  "Visibility": 950,
+  "GroupIdx": 22,
+  "IncludePerson": 971,
+  "MemberCount": 751,
+  "Name": "Gusikowski-Buckridge",
+  "PostitTextId": 573,
+  "CreatedDate": "2009-06-26T15:29:22.7602982+02:00",
+  "SelectionId": 1002,
+  "SoundEx": "ut",
+  "Source": 928,
+  "TextId": 661,
+  "UpdatedDate": "2011-05-18T15:29:22.7602982+02:00",
+  "UpdatedCount": 739,
+  "Visibility": 880,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 498,
-  "TargetTableName": "Conroy LLC",
-  "Completed": true,
-  "LeftSelectionId": 886,
-  "RightSelectionId": 367,
+  "CompanyUnique": true,
+  "TargetTableNumber": 332,
+  "TargetTableName": "Ratke-Pollich",
+  "Completed": false,
+  "LeftSelectionId": 429,
+  "RightSelectionId": 177,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Grant-Blanda",
-  "ShadowProviderName": "Marvin-Ledner",
-  "ChartKey": "numquam",
-  "LastLoaded": "2003-02-05T12:15:20.1217346+01:00",
-  "LastLoadedBy": 810,
+  "MainProviderName": "Feil-Bradtke",
+  "ShadowProviderName": "Boyle-Dietrich",
+  "ChartKey": "laborum",
+  "LastLoaded": "2007-03-25T15:29:22.7607971+02:00",
+  "LastLoadedBy": 17,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-01-24T12:15:20.1227346+01:00",
-  "LastMembershipChangeBy": 134,
+  "LastMembershipChange": "2016-12-17T15:29:22.7617974+01:00",
+  "LastMembershipChangeBy": 566,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "amet",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Quigley LLC",
-  "DashboardTileDefinitionId": 41,
+  "MainHeading": "ipsa",
+  "MemberTabHeading": "soluta",
+  "MailingsProviderName": "Funk, Lubowitz and Schultz",
+  "DashboardTileDefinitionId": 911,
   "VisibleFor": [
     {
-      "VisibleId": 784,
+      "VisibleId": 443,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 369
         }
       }
     },
     {
-      "VisibleId": 784,
+      "VisibleId": 443,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldLength": 369
         }
       }
     }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 538
     }
   }
 }

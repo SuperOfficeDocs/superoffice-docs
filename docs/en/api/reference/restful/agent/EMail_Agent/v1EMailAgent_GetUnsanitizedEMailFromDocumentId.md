@@ -93,8 +93,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 397
+  "DocumentId": 708
 }
 ```
 
@@ -119,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 761,
-      "ContactName": "Altenwerth, Little and Nienow",
-      "PersonId": 994,
-      "PersonName": "Price-Jacobs",
-      "AssociateId": 105,
-      "Address": "excepturi",
-      "EmailId": 457,
+      "ContactId": 96,
+      "ContactName": "Reilly-Hoppe",
+      "PersonId": 472,
+      "PersonName": "O'Hara, Bosco and Gaylord",
+      "AssociateId": 148,
+      "Address": "iure",
+      "EmailId": 172,
       "DuplicatePersonIds": [
-        238,
-        229
+        503,
+        953
       ],
-      "Name": "Quitzon, Effertz and Schroeder",
+      "Name": "Labadie, Vandervort and Keebler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 439
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 870,
-      "ContactName": "Paucek, Miller and Padberg",
-      "PersonId": 799,
-      "PersonName": "Graham-Reinger",
-      "AssociateId": 802,
-      "Address": "ab",
-      "EmailId": 355,
+      "ContactId": 655,
+      "ContactName": "Hodkiewicz, Buckridge and Schimmel",
+      "PersonId": 557,
+      "PersonName": "Howell, Gleason and Kirlin",
+      "AssociateId": 593,
+      "Address": "et",
+      "EmailId": 202,
       "DuplicatePersonIds": [
-        707,
-        13
+        469,
+        14
       ],
-      "Name": "Bartell-Huel",
+      "Name": "Harvey, Romaguera and Wuckert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 949
+          "FieldLength": 263
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 847,
-      "ContactName": "Romaguera-Predovic",
-      "PersonId": 947,
-      "PersonName": "Wolff Inc and Sons",
-      "AssociateId": 96,
-      "Address": "non",
-      "EmailId": 95,
+      "ContactId": 421,
+      "ContactName": "Treutel-Batz",
+      "PersonId": 425,
+      "PersonName": "Fritsch-Bernhard",
+      "AssociateId": 857,
+      "Address": "sed",
+      "EmailId": 578,
       "DuplicatePersonIds": [
-        466,
-        617
+        543,
+        907
       ],
-      "Name": "Weber-Beahan",
+      "Name": "Goldner, Senger and Robel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldLength": 284
         }
       }
     }
   ],
-  "Subject": "odit",
-  "HTMLBody": "dolores",
+  "Subject": "illum",
+  "HTMLBody": "quia",
   "From": null,
-  "Sent": "2000-11-02T12:15:19.0227511+01:00",
-  "Size": 555,
+  "Sent": "2003-01-02T15:29:21.7872749+01:00",
+  "Size": 374,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "commodi",
-  "PlainBody": "praesentium",
-  "IsSent": false,
+  "MessageID": "accusantium",
+  "PlainBody": "repudiandae",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 505,
+  "ServerId": 645,
   "Attachments": [
     {
-      "Description": "Synergistic systematic extranet",
-      "Filename": "qui",
-      "Size": 782,
-      "Type": "maiores",
-      "Encoding": "culpa",
-      "Id": "veniam",
-      "Disposition": "aut",
+      "Description": "Enterprise-wide tertiary alliance",
+      "Filename": "autem",
+      "Size": 174,
+      "Type": "quaerat",
+      "Encoding": "voluptate",
+      "Id": "aut",
+      "Disposition": "exercitationem",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 693
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mosciski, Schoen and Buckridge",
+      "Name": "D'Amore-Dooley",
       "Values": [
-        "neque",
-        "consequuntur"
+        "possimus",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     },
     {
-      "Name": "Mosciski, Schoen and Buckridge",
+      "Name": "D'Amore-Dooley",
       "Values": [
-        "neque",
-        "consequuntur"
+        "possimus",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldType": "System.String",
+          "FieldLength": 529
         }
       }
     }
   ],
-  "FolderName": "Kling, Heathcote and Dietrich",
-  "EmailItemId": 486,
-  "AccountId": 511,
-  "ReceivedAt": "2004-10-03T12:15:19.0237527+02:00",
+  "FolderName": "Donnelly-Gislason",
+  "EmailItemId": 11,
+  "AccountId": 827,
+  "ReceivedAt": "2003-11-10T15:29:21.7872749+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2012-03-04T12:15:19.0237527+01:00",
+  "RepliedAt": "1998-05-27T15:29:21.7877751+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 121
     }
   }
 }

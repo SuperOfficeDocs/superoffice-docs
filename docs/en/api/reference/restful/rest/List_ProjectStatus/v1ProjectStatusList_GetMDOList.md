@@ -26,7 +26,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=soluta
+GET /api/v1/List/ProjectStatus/MDOItems?query=tempora
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Stokes-Prohaska",
-    "ToolTip": "Dolore officiis accusantium tempora sunt dolorum asperiores.",
+    "Id": 901,
+    "Name": "Strosin-Fadel",
+    "ToolTip": "Fugiat voluptatem.",
     "Deleted": false,
-    "Rank": 425,
-    "Type": "quia",
+    "Rank": 295,
+    "Type": "temporibus",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Fritsch Group",
-        "ToolTip": "Repellendus dolores impedit architecto eum.",
+        "Id": 200,
+        "Name": "Turner-Schamberger",
+        "ToolTip": "Eos amet non excepturi.",
         "Deleted": false,
-        "Rank": 95,
-        "Type": "aliquid",
+        "Rank": 553,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 415,
-        "ExtraInfo": "adipisci",
-        "StyleHint": "nam",
-        "FullName": "Murray Bradtke",
+        "IconHint": "sed",
+        "ColorBlock": 747,
+        "ExtraInfo": "quaerat",
+        "StyleHint": "autem",
+        "FullName": "Ada Kemmer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 39
+            "FieldLength": 887
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 675,
-    "ExtraInfo": "dicta",
-    "StyleHint": "exercitationem",
-    "FullName": "Norene Kulas",
+    "IconHint": "laborum",
+    "ColorBlock": 114,
+    "ExtraInfo": "ducimus",
+    "StyleHint": "quod",
+    "FullName": "Rollin Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldType": "System.Int32",
+        "FieldLength": 142
       }
     }
   }

@@ -75,8 +75,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,17 +88,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 508,
-  "UniqueIdentifier": "quia",
-  "Name": "Nicolas, Rosenbaum and Greenholt",
-  "Description": "Programmable regional interface",
-  "IncludeId": "eligendi",
-  "HierarchyId": 554,
-  "Source": "at",
-  "Registered": "2009-01-16T12:15:18.6207627+01:00",
-  "RegisteredAssociateId": 314,
-  "Updated": "2009-05-31T12:15:18.6207627+02:00",
-  "UpdatedAssociateId": 953
+  "EjscriptId": 764,
+  "UniqueIdentifier": "sed",
+  "Name": "Kohler, Hackett and Spinka",
+  "Description": "Phased systematic parallelism",
+  "IncludeId": "suscipit",
+  "HierarchyId": 563,
+  "Source": "sequi",
+  "Registered": "2021-12-22T15:29:21.2477836+01:00",
+  "RegisteredAssociateId": 201,
+  "Updated": "2013-10-08T15:29:21.2477836+02:00",
+  "UpdatedAssociateId": 93
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 754,
-  "UniqueIdentifier": "minus",
-  "Name": "Yundt, Nader and Cormier",
-  "Description": "Distributed value-added capacity",
+  "EjscriptId": 318,
+  "UniqueIdentifier": "fuga",
+  "Name": "Fadel-Hamill",
+  "Description": "Phased content-based paradigm",
   "IncludeId": "voluptatem",
-  "HierarchyId": 363,
-  "Source": "iure",
-  "Registered": "2011-01-11T12:15:18.6207627+01:00",
-  "RegisteredAssociateId": 626,
-  "Updated": "2013-08-04T12:15:18.6207627+02:00",
-  "UpdatedAssociateId": 208,
+  "HierarchyId": 720,
+  "Source": "quos",
+  "Registered": "2014-05-14T15:29:21.2482826+02:00",
+  "RegisteredAssociateId": 225,
+  "Updated": "2007-12-08T15:29:21.2482826+01:00",
+  "UpdatedAssociateId": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 120
     }
   }
 }

@@ -449,6 +449,7 @@ title: Services88.PocketAgent WSDL
           <xs:enumeration value="CompanyCardTask" />
           <xs:enumeration value="ProjectCardTask" />
           <xs:enumeration value="TicketCard" />
+          <xs:enumeration value="TicketMinicard" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="Navigation" nillable="true" type="q49:Navigation" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />

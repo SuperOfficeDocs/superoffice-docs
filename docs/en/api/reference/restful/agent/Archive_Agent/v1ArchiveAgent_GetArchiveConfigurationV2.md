@@ -71,8 +71,8 @@ OK
 | ArchiveEntityInfo | array |  |
 | ArchiveOrderByInfo | array |  |
 | OwnerKeys | string | The actual ownership information for the configuration that was retrieved |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,10 +84,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sauer-Wisozk",
-  "ProviderName": "Kertzmann, McCullough and Daugherty",
-  "Context": "qui",
-  "OwnerKeys": "et"
+  "GuiName": "Lehner LLC",
+  "ProviderName": "Leuschke Group",
+  "Context": "incidunt",
+  "OwnerKeys": "aliquam"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Tillman LLC",
-      "DisplayTooltip": "eligendi",
-      "DisplayType": "voluptatem",
+      "DisplayName": "Harber-Will",
+      "DisplayTooltip": "sint",
+      "DisplayType": "temporibus",
       "CanOrderBy": false,
-      "Name": "Larkin-Murray",
+      "Name": "Leuschke, Casper and Leffler",
       "CanRestrictBy": false,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Emmerich Inc and Sons",
+      "RestrictionType": "vitae",
+      "RestrictionListName": "Toy-Koch",
       "IsVisible": false,
-      "ExtraInfo": "eum",
-      "Width": "dolor",
-      "IconHint": "quia",
-      "HeadingIconHint": "consequatur"
+      "ExtraInfo": "beatae",
+      "Width": "sit",
+      "IconHint": "tenetur",
+      "HeadingIconHint": "pariatur"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 654,
-      "Name": "Marquardt, Franecki and Prosacco",
-      "ToolTip": "Consequatur ut consectetur provident et.",
-      "Deleted": false,
-      "Rank": 364,
-      "Type": "aperiam",
-      "ColorBlock": 912,
-      "IconHint": "cupiditate",
-      "Selected": true,
-      "LastChanged": "2012-08-07T12:15:18.1507677+02:00",
+      "Id": 82,
+      "Name": "Hermiston Group",
+      "ToolTip": "Quis praesentium atque voluptatem ab reiciendis voluptatem vitae.",
+      "Deleted": true,
+      "Rank": 1000,
+      "Type": "quaerat",
+      "ColorBlock": 447,
+      "IconHint": "tenetur",
+      "Selected": false,
+      "LastChanged": "2019-05-29T15:29:20.7687904+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "sunt",
-      "Hidden": true,
-      "FullName": "Connor Lesch",
+      "ExtraInfo": "dolor",
+      "StyleHint": "cum",
+      "Hidden": false,
+      "FullName": "Serenity Becker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldType": "System.Int32",
+          "FieldLength": 62
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Homenick-Kemmer",
+      "Name": "Wilkinson-Bruen",
       "Direction": "ASC"
     },
     {
-      "Name": "Homenick-Kemmer",
+      "Name": "Wilkinson-Bruen",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "ratione",
+  "OwnerKeys": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 384
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   }
 }

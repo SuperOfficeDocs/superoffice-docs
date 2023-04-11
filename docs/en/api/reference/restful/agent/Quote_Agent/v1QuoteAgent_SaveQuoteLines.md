@@ -111,8 +111,8 @@ OK
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -120,64 +120,64 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLines": [
     {
-      "QuoteLineId": 732,
-      "ERPQuoteLineKey": "qui",
-      "QuoteAlternativeId": 646,
-      "ERPProductKey": "eaque",
+      "QuoteLineId": 769,
+      "ERPQuoteLineKey": "et",
+      "QuoteAlternativeId": 319,
+      "ERPProductKey": "ipsum",
       "Status": "Error",
       "Reason": "",
-      "Quantity": 7897.6799999999994,
-      "DeliveredQuantity": 4754.278,
-      "Rank": 231,
-      "Name": "Baumbach Group",
-      "Description": "Cross-group bandwidth-monitored circuit",
-      "Code": "quia",
-      "QuantityUnit": "sit",
-      "PriceUnit": "modi",
-      "ItemNumber": "684581",
+      "Quantity": 3083.8559999999998,
+      "DeliveredQuantity": 1034.22,
+      "Rank": 969,
+      "Name": "Walter Group",
+      "Description": "Open-source uniform hierarchy",
+      "Code": "est",
+      "QuantityUnit": "porro",
+      "PriceUnit": "reprehenderit",
+      "ItemNumber": "876053",
       "Url": "http://www.example.com/",
       "ProductCategoryKey": "VIP Customer",
-      "ProductFamilyKey": "neque",
-      "ProductTypeKey": "quo",
-      "Supplier": "sed",
-      "SupplierCode": "saepe",
-      "Thumbnail": "qui",
-      "VATInfo": "quae",
-      "VAT": 27701.426,
-      "UnitCost": 31327.464,
-      "UnitMinimumPrice": 13670.508,
-      "UnitListPrice": 20298.917999999998,
+      "ProductFamilyKey": "eligendi",
+      "ProductTypeKey": "eveniet",
+      "Supplier": "unde",
+      "SupplierCode": "rem",
+      "Thumbnail": "enim",
+      "VATInfo": "cumque",
+      "VAT": 27234.46,
+      "UnitCost": 20584.112,
+      "UnitMinimumPrice": 4719.804,
+      "UnitListPrice": 18236.746,
       "ExtraInfo": [
         {},
         {}
       ],
-      "RawExtraInfo": "est",
-      "IsSubscription": false,
-      "SubscriptionUnit": "a",
-      "SubscriptionQuantity": 7095.376,
-      "SubscriptionStart": "2006-05-18T12:15:19.9687367+02:00",
-      "ERPDiscountPercent": 100.288,
-      "ERPDiscountAmount": 19202.018,
-      "DiscountPercent": 28660.43,
-      "DiscountAmount": 11620.872,
+      "RawExtraInfo": "nesciunt",
+      "IsSubscription": true,
+      "SubscriptionUnit": "et",
+      "SubscriptionQuantity": 814.83999999999992,
+      "SubscriptionStart": "2006-12-24T15:29:22.5952645+01:00",
+      "ERPDiscountPercent": 17312.216,
+      "ERPDiscountAmount": 8803.405999999999,
+      "DiscountPercent": 24395.056,
+      "DiscountAmount": 10740.217999999999,
       "UserValueOverride": "DiscountAmount",
-      "EarningPercent": 19885.23,
-      "EarningAmount": 21461.631999999998,
-      "SubTotal": 26544.98,
-      "TotalPrice": 17453.246,
-      "Rights": "rerum",
-      "Rule": "inventore",
-      "ExtraField1": "tenetur",
-      "ExtraField2": "consequuntur",
-      "ExtraField3": "provident",
-      "ExtraField4": "magnam",
-      "ExtraField5": "nihil"
+      "EarningPercent": 10282.654,
+      "EarningAmount": 9771.812,
+      "SubTotal": 28958.16,
+      "TotalPrice": 8160.936,
+      "Rights": "accusantium",
+      "Rule": "quia",
+      "ExtraField1": "dolores",
+      "ExtraField2": "odio",
+      "ExtraField3": "aliquam",
+      "ExtraField4": "molestiae",
+      "ExtraField5": "autem"
     }
   ]
 }
@@ -191,88 +191,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 335,
-    "ERPQuoteLineKey": "quia",
-    "QuoteAlternativeId": 462,
-    "ERPProductKey": "sapiente",
+    "QuoteLineId": 871,
+    "ERPQuoteLineKey": "necessitatibus",
+    "QuoteAlternativeId": 631,
+    "ERPProductKey": "ut",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 23943.76,
-    "DeliveredQuantity": 388.616,
-    "Rank": 996,
-    "Name": "Roberts-Schumm",
-    "Description": "Cross-group full-range infrastructure",
-    "Code": "ab",
-    "QuantityUnit": "in",
-    "PriceUnit": "quis",
-    "ItemNumber": "1086181",
+    "Quantity": 711.418,
+    "DeliveredQuantity": 3453.6679999999997,
+    "Rank": 440,
+    "Name": "Bode, Reichel and Leuschke",
+    "Description": "Open-source multi-state model",
+    "Code": "quo",
+    "QuantityUnit": "non",
+    "PriceUnit": "qui",
+    "ItemNumber": "1241860",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "est",
-    "ProductTypeKey": "est",
-    "Supplier": "ea",
-    "SupplierCode": "labore",
-    "Thumbnail": "vero",
-    "VATInfo": "perferendis",
-    "VAT": 5493.902,
-    "UnitCost": 9702.864,
-    "UnitMinimumPrice": 17321.618,
-    "UnitListPrice": 1482.382,
+    "ProductFamilyKey": "nesciunt",
+    "ProductTypeKey": "fuga",
+    "Supplier": "nihil",
+    "SupplierCode": "velit",
+    "Thumbnail": "vel",
+    "VATInfo": "perspiciatis",
+    "VAT": 2764.188,
+    "UnitCost": 14334.916,
+    "UnitMinimumPrice": 22357.956,
+    "UnitListPrice": 14519.822,
     "ExtraInfo": [
       {
-        "Name": "Cremin-Nitzsche",
-        "Value": "autem",
+        "Name": "Wisozk LLC",
+        "Value": "perferendis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 491
           }
         }
       },
       {
-        "Name": "Cremin-Nitzsche",
-        "Value": "autem",
+        "Name": "Wisozk LLC",
+        "Value": "perferendis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 491
           }
         }
       }
     ],
-    "RawExtraInfo": "sint",
+    "RawExtraInfo": "occaecati",
     "IsSubscription": false,
-    "SubscriptionUnit": "perspiciatis",
-    "SubscriptionQuantity": 8129.596,
-    "SubscriptionStart": "1999-04-10T12:15:19.9707375+02:00",
-    "ERPDiscountPercent": 8186.008,
-    "ERPDiscountAmount": 10784.094,
-    "DiscountPercent": 5196.172,
-    "DiscountAmount": 17058.362,
+    "SubscriptionUnit": "aperiam",
+    "SubscriptionQuantity": 23097.579999999998,
+    "SubscriptionStart": "2010-01-09T15:29:22.5962645+01:00",
+    "ERPDiscountPercent": 2491.5299999999997,
+    "ERPDiscountAmount": 18550.146,
+    "DiscountPercent": 10533.374,
+    "DiscountAmount": 18691.176,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 14356.854,
-    "EarningAmount": 6440.37,
-    "SubTotal": 6700.492,
-    "TotalPrice": 27616.808,
-    "Rights": "nostrum",
-    "Rule": "magnam",
-    "ExtraField1": "animi",
-    "ExtraField2": "fugiat",
-    "ExtraField3": "odit",
-    "ExtraField4": "ut",
-    "ExtraField5": "vel",
+    "EarningPercent": 5569.1179999999995,
+    "EarningAmount": 28227.938,
+    "SubTotal": 5854.312,
+    "TotalPrice": 8888.024,
+    "Rights": "ut",
+    "Rule": "et",
+    "ExtraField1": "est",
+    "ExtraField2": "aut",
+    "ExtraField3": "in",
+    "ExtraField4": "et",
+    "ExtraField5": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldLength": 894
       }
     }
   }

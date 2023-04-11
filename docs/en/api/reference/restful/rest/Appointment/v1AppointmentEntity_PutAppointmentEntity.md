@@ -177,8 +177,8 @@ AppointmentEntity updated.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -195,62 +195,62 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-01-16T12:15:26.2916463+01:00",
-  "AppointmentId": 318,
-  "Description": "Intuitive system-worthy functionalities",
-  "StartDate": "2005-08-08T12:15:26.2916463+02:00",
-  "EndDate": "1997-04-08T12:15:26.2916463+02:00",
+  "CreatedDate": "2008-06-14T15:29:29.1787077+02:00",
+  "AppointmentId": 980,
+  "Description": "Down-sized asynchronous adapter",
+  "StartDate": "2016-02-09T15:29:29.1787077+01:00",
+  "EndDate": "1999-06-30T15:29:29.1787077+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 908,
+  "MotherId": 306,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-12-30T12:15:26.2956454+01:00",
+  "UpdatedDate": "2000-09-29T15:29:29.1837089+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 238,
+  "ActiveLinks": 514,
   "Links": [
     {
-      "EntityName": "Dooley LLC",
-      "Id": 85,
-      "Description": "Profound object-oriented model",
-      "ExtraInfo": "enim",
-      "LinkId": 195
+      "EntityName": "Koss LLC",
+      "Id": 568,
+      "Description": "Pre-emptive modular utilisation",
+      "ExtraInfo": "labore",
+      "LinkId": 846
     },
     {
-      "EntityName": "Dooley LLC",
-      "Id": 85,
-      "Description": "Profound object-oriented model",
-      "ExtraInfo": "enim",
-      "LinkId": 195
+      "EntityName": "Koss LLC",
+      "Id": 568,
+      "Description": "Pre-emptive modular utilisation",
+      "ExtraInfo": "labore",
+      "LinkId": 846
     }
   ],
-  "AlarmLeadTime": "asperiores",
-  "HasAlarm": true,
-  "ColorIndex": 786,
+  "AlarmLeadTime": "temporibus",
+  "HasAlarm": false,
+  "ColorIndex": 597,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolor",
-  "LeadTime": "quas",
-  "Location": "quis",
-  "RejectCounter": 508,
+  "LagTime": "expedita",
+  "LeadTime": "modi",
+  "Location": "placeat",
+  "RejectCounter": 115,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 878,
-      "PersonId": 750,
-      "ContactId": 971,
-      "EmailId": 849,
+      "AssociateId": 261,
+      "PersonId": 81,
+      "ContactId": 101,
+      "EmailId": 180,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 878,
-      "PersonId": 750,
-      "ContactId": 971,
-      "EmailId": 849,
+      "AssociateId": 261,
+      "PersonId": 81,
+      "ContactId": 101,
+      "EmailId": 180,
       "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
@@ -258,44 +258,44 @@ Content-Type: application/json; charset=utf-8
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-05-19T12:15:26.2956454+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2001-05-09T15:29:29.1842102+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 242,
+  "PreferredTZLocation": 167,
   "Sale": null,
-  "SuggestedAppointmentId": 731,
+  "SuggestedAppointmentId": 794,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "reprehenderit",
+  "CentralserviceVideomeetId": "nostrum",
   "UserDefinedFields": {
-    "SuperOffice:1": "Brody Goldner",
-    "SuperOffice:2": "Miss Erick Swaniawski"
+    "SuperOffice:1": "Hassie Borer",
+    "SuperOffice:2": "Edgar Schuster"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "quidem"
+    "CustomFields1": "et",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2013-03-30T12:15:26.2976511+01:00",
-  "PublishTo": "2018-11-07T12:15:26.2976511+01:00",
-  "PublishFrom": "2004-05-28T12:15:26.2976511+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-05-04T15:29:29.186709+02:00",
+  "PublishTo": "2018-07-13T15:29:29.186709+02:00",
+  "PublishFrom": "2011-10-24T15:29:29.186709+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 40,
+      "VisibleId": 97,
       "Visibility": "All",
-      "DisplayValue": "in"
+      "DisplayValue": "hic"
     },
     {
-      "VisibleId": 40,
+      "VisibleId": 97,
       "Visibility": "All",
-      "DisplayValue": "in"
+      "DisplayValue": "hic"
     }
   ]
 }
@@ -312,122 +312,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-08-12T12:15:26.3066474+02:00",
-  "AppointmentId": 231,
-  "Description": "Total high-level conglomeration",
-  "StartDate": "2002-07-13T12:15:26.3066474+02:00",
-  "EndDate": "2013-04-03T12:15:26.3066474+02:00",
+  "CreatedDate": "2009-11-27T15:29:29.1982065+01:00",
+  "AppointmentId": 759,
+  "Description": "Face to face fresh-thinking database",
+  "StartDate": "2013-05-18T15:29:29.1982065+02:00",
+  "EndDate": "2011-01-19T15:29:29.1982065+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 606,
+  "MotherId": 363,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-11-21T12:15:26.310646+01:00",
+  "UpdatedDate": "2021-01-10T15:29:29.2017068+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 5,
+  "ActiveLinks": 853,
   "Links": [
     {
-      "EntityName": "Breitenberg Inc and Sons",
-      "Id": 312,
-      "Description": "Managed tertiary model",
-      "ExtraInfo": "quis",
-      "LinkId": 263,
+      "EntityName": "Gutkowski-Tillman",
+      "Id": 849,
+      "Description": "Ergonomic 24 hour model",
+      "ExtraInfo": "sit",
+      "LinkId": 235,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 720
         }
       }
     }
   ],
-  "AlarmLeadTime": "aperiam",
-  "HasAlarm": true,
-  "ColorIndex": 131,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "vitae",
-  "LeadTime": "quia",
-  "Location": "necessitatibus",
-  "RejectCounter": 765,
+  "AlarmLeadTime": "accusamus",
+  "HasAlarm": false,
+  "ColorIndex": 447,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "eligendi",
+  "LeadTime": "quisquam",
+  "Location": "in",
+  "RejectCounter": 495,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 666,
-      "PersonId": 348,
-      "ContactId": 584,
-      "EmailId": 64,
-      "SendEmail": false,
+      "AssociateId": 943,
+      "PersonId": 460,
+      "ContactId": 753,
+      "EmailId": 969,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 666,
-      "PersonId": 348,
-      "ContactId": 584,
-      "EmailId": 64,
-      "SendEmail": false,
+      "AssociateId": 943,
+      "PersonId": 460,
+      "ContactId": 753,
+      "EmailId": 969,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-07-26T12:15:26.310646+02:00",
+  "ActiveDate": "2023-01-13T15:29:29.2017068+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 243,
+  "PreferredTZLocation": 635,
   "Sale": null,
-  "SuggestedAppointmentId": 353,
+  "SuggestedAppointmentId": 40,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloremque",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Alfredo Hermiston",
-    "SuperOffice:2": "Mauricio Schmitt"
+    "SuperOffice:1": "1330386237",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "ad",
-    "CustomFields2": "deserunt"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2021-01-03T12:15:26.3126449+01:00",
-  "PublishTo": "2022-08-01T12:15:26.3126449+02:00",
-  "PublishFrom": "2001-03-29T12:15:26.3126449+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-05-18T15:29:29.2032064+02:00",
+  "PublishTo": "2016-12-07T15:29:29.2032064+01:00",
+  "PublishFrom": "2016-07-24T15:29:29.2032064+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 580,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 371
+          "FieldType": "System.Int32",
+          "FieldLength": 891
         }
       }
     },
     {
-      "VisibleId": 580,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 371
+          "FieldType": "System.Int32",
+          "FieldLength": 891
         }
       }
     }
@@ -436,8 +436,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 603
     }
   },
   "_Links": {

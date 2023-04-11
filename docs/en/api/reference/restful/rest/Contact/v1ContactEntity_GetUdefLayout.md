@@ -80,8 +80,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 475,
-    "ColumnId": 919,
-    "FieldDefault": "quas",
-    "FieldHeight": 723,
-    "FieldLabel": "omnis",
-    "FieldLeft": 661,
-    "FieldTop": 560,
+    "UDefFieldId": 88,
+    "ColumnId": 78,
+    "FieldDefault": "recusandae",
+    "FieldHeight": 972,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 140,
+    "FieldTop": 231,
     "FieldType": "Checkbox",
-    "FieldWidth": 547,
-    "FormatMask": "sint",
-    "HideLabel": false,
+    "FieldWidth": 503,
+    "FormatMask": "officia",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 619,
-    "LabelLeft": 398,
-    "LabelTop": 716,
-    "LabelWidth": 268,
-    "LastVersionId": 173,
-    "ListTableId": 743,
+    "LabelHeight": 469,
+    "LabelLeft": 959,
+    "LabelTop": 403,
+    "LabelWidth": 934,
+    "LastVersionId": 737,
+    "ListTableId": 433,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 108,
-    "ProgId": "repellendus",
+    "Page1LineNo": 36,
+    "ProgId": "laudantium",
     "IsReadOnly": false,
-    "ShortLabel": "alias",
-    "TabOrder": 315,
-    "TextLength": 30,
-    "Tooltip": "odit",
-    "UdefIdentity": 721,
-    "UDListDefinitionId": 583,
+    "ShortLabel": "aut",
+    "TabOrder": 586,
+    "TextLength": 791,
+    "Tooltip": "harum",
+    "UdefIdentity": 667,
+    "UDListDefinitionId": 180,
     "Justification": "Center",
-    "Version": 355,
-    "TemplateVariableName": "Mayert, Pouros and Toy",
+    "Version": 13,
+    "TemplateVariableName": "Hirthe Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Doyle Group",
+    "MdoListName": "Tillman LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 75
+        "FieldLength": 474
       }
     }
   }

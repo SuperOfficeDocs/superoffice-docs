@@ -75,8 +75,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 532,
-  "Currency": "optio"
+  "QuoteConnectionId": 137,
+  "Currency": "enim"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 4,
-    "ERPPriceListKey": "sit",
-    "QuoteConnectionId": 335,
-    "Name": "Kovacek-Rogahn",
-    "Description": "Ameliorated hybrid application",
-    "Currency": "ad",
-    "CurrencyName": "West-Gorczany",
-    "ValidFrom": "2001-01-22T12:15:19.949737+01:00",
-    "ValidTo": "2009-02-08T12:15:19.949737+01:00",
+    "PriceListId": 928,
+    "ERPPriceListKey": "rerum",
+    "QuoteConnectionId": 189,
+    "Name": "O'Reilly-Reilly",
+    "Description": "Reactive upward-trending Graphic Interface",
+    "Currency": "sint",
+    "CurrencyName": "Murray-Lueilwitz",
+    "ValidFrom": "2009-10-08T15:29:22.5737638+02:00",
+    "ValidTo": "2022-03-22T15:29:22.5737638+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 540
+        "FieldType": "System.Int32",
+        "FieldLength": 402
       }
     }
   }

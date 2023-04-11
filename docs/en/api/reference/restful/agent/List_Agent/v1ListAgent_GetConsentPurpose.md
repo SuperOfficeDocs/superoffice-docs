@@ -25,7 +25,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=416
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=747
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -69,8 +69,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 726,
-  "Name": "Stokes, Vandervort and Pagac",
-  "ConsentText": "ad",
-  "FormText": "eveniet",
-  "Key": "ut",
-  "Tooltip": "commodi",
-  "Active": 575,
-  "UpdatedDate": "2009-08-29T12:15:19.3567488+02:00",
+  "ConsentPurposeId": 791,
+  "Name": "Dickinson LLC",
+  "ConsentText": "qui",
+  "FormText": "et",
+  "Key": "ea",
+  "Tooltip": "dolores",
+  "Active": 850,
+  "UpdatedDate": "2012-06-11T15:29:22.1177704+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 66,
-  "PrivacyStatementDesc": "ut",
+  "Rank": 583,
+  "PrivacyStatementDesc": "doloribus",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 991
     }
   }
 }
