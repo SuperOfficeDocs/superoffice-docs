@@ -16,8 +16,6 @@ language: en
 
 [!include[Edit list item](includes/edit-list-item.md)] when you are adding an item to the **Privacy - Legal basis** list.
 
-Watch the video to learn how to change privacy lists (video length - 3:57):
-
 ## Steps
 
 1. Enter the name of the item in the **Name** field.

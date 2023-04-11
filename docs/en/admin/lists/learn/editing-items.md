@@ -50,11 +50,13 @@ Watch this video to learn how you can edit list items is SuperOffice CRM (video 
 
 ## Related content
 
-* Customize privacy lists
-* Customize your sales lists
+* [Customise privacy lists][3]
+* [Customise your sales lists][4]
 
 <!-- Referenced links -->
 [1]: deleting-items.md
 [2]: specialized-lists.md
+[3]: privacy-source-add.md
+[4]: 
 
 <!-- Referenced images -->
