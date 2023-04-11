@@ -167,10 +167,16 @@ items:
   href: reference/ejuser.md
 - name: Emailaddress
   href: reference/emailaddress.md
+- name: EmailFlow
+  href: reference/emailflow.md
 - name: Emailfolder
   href: reference/emailfolder.md
+- name: EmailFromType
+  href: reference/emailfromtype.md
 - name: Emailrecipient
   href: reference/emailrecipient.md
+- name: EmailReplyToType
+  href: reference/emailreplytotype.md
 - name: Erpactortype
   href: reference/erpactortype.md
 - name: Erpconnections
@@ -297,6 +303,8 @@ items:
   href: reference/mailhtmltemplate.md
 - name: Mailing
   href: reference/mailing.md
+- name: MailingDomains
+  href: reference/mailingdomains.md
 - name: Mailingfavourite
   href: reference/mailingfavourite.md
 - name: Mailingstatus
@@ -743,7 +751,15 @@ items:
   href: reference/weekday.md
 - name: Weeknumber
   href: reference/weeknumber.md
+- name: WorkflowDefinitionStatus
+  href: reference/workflowdefinitionstatus.md
+- name: WorkflowGoalType
+  href: reference/workflowgoaltype.md
+- name: WorkflowInstanceStatus
+  href: reference/workflowinstancestatus.md
 - name: WorkflowStepType
   href: reference/workflowsteptype.md
+- name: WorkflowTriggerType
+  href: reference/workflowtriggertype.md
 - name: Y_equipment
   href: reference/y_equipment.md
