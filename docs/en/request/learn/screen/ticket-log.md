@@ -15,6 +15,8 @@ language: en
 
 This screen shows the log for this request. All events are recorded, including when they occurred, what happened and who was responsible.
 
+![The change log on a requests shows all the different changes done on the request -screenshot][img1]
+
 ## Related topics
 
 * [Create request][11]
@@ -43,3 +45,4 @@ This screen shows the log for this request. All events are recorded, including w
 [11]: ../howto/create.md
 
 <!-- Referenced images -->
+[img1]: ../media/request-change-log.png

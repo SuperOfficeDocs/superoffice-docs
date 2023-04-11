@@ -25,6 +25,8 @@ items:
     items:
      - name: Add ERP connection
        href: sync/sync-add-erp-connection.md
+     - name: Edit ERP connection
+       href: sync/sync-edit-erp-connection.md
      - name: Set sync priority
        href: sync/sync-set-sync-priority.md
      - name: Configure field mapping
@@ -39,5 +41,3 @@ items:
        href: sync/sync-import-from-erp.md
      - name: Resync from CRM
        href: sync/sync-resync-from-crm.md
-  - name: Edit ERP connection
-    href: sync/sync-edit-erp-connection.md

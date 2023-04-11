@@ -13,6 +13,8 @@ language: en
 
 # Request screen
 
+![Overview of the requests screen or the request tab -screenshot][img3]
+
 The Request screen has the following sections:
 
 * At the top of the screen, the **request header** contains basic information about the request, like id, title, contact and deadline.
@@ -60,10 +62,10 @@ The request properties sidebar contains the following options:
 
 The **Messages** tab displays the messages related to the request.
 
-You can change how many messages are displayed, in ![icon][img3] **Personal settings**:
+You can change how many messages are displayed, in ![icon][img2] **Personal settings**:
 
-1. Select ![icon][img3] **Personal settings** > **Preferences**.
-1. Select the groups for **Request xx** tab.
+1. Select ![icon][img2] **Personal settings** > **Preferences**.
+1. Select the group for **Request**.
 1. Specify the number of messages in the **No. of expanded messages** field.
 1. Click **OK**.
 
@@ -72,6 +74,8 @@ You can change how many messages are displayed, in ![icon][img3] **Personal sett
 Click the ![icon][img1] **Task** button on a message to access additional options for the message:
 
 * **Change**: Click here to [edit][8] or delete the message.
+* **Reply**: Click here to reply the contact in the To field.
+* **Reply all**: Click here to replay all contacts in the To, Cc and Bcc fields.
 * **Forward**: Click here to [forward the message][9].
 * **Email header**: Click here to view the email header.
 * **Show**: Click here to view the message in a new window/tab.
@@ -118,4 +122,5 @@ The **Details** tab contains an overview of all the fields for the request.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
-[img3]: ../../../../media/icons/personal-settings-small.png
+[img2]: ../../../../media/icons/personal-settings-small.png
+[img3]: ../media/request-screen.png

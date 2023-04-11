@@ -11,7 +11,7 @@ language: en
 
 # Extra fields
 
-* [Define extra fields][1].
+* [Add extra fields][1].
 
 <!-- Referenced links -->
 [1]: create.md

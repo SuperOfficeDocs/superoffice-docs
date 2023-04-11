@@ -1,6 +1,6 @@
 items:
  - name: Implementation guide
-   href: implementation-guide.md
+   href: ../implementation-guide.md
  - name: Add consent purpose
    href: add-consent-purpose.md
  - name: Add legal base
