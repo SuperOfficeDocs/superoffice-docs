@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 606,
-    "Name": "Kemmer, Spencer and Zulauf",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 980,
-    "UdListDefinitionId": 615
+    "HeadingId": 61,
+    "Name": "Becker, Robel and Pfannerstill",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 228,
+    "UdListDefinitionId": 319
   },
   {
-    "HeadingId": 606,
-    "Name": "Kemmer, Spencer and Zulauf",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "Rank": 980,
-    "UdListDefinitionId": 615
+    "HeadingId": 61,
+    "Name": "Becker, Robel and Pfannerstill",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 228,
+    "UdListDefinitionId": 319
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 586,
-    "Name": "Frami, Schmitt and Heaney",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 715,
-    "UdListDefinitionId": 559,
+    "HeadingId": 213,
+    "Name": "Lemke LLC",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 156,
+    "UdListDefinitionId": 136,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldType": "System.String",
+        "FieldLength": 176
       }
     }
   }

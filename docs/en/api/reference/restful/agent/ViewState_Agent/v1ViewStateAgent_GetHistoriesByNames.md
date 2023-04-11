@@ -69,8 +69,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Mraz, Krajcik and Cole",
-    "Schuppe LLC"
+    "Altenwerth-Torp",
+    "Wisoky LLC"
   ]
 }
 ```
@@ -97,19 +97,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 369,
-    "Id": 695,
-    "HistoryName": "Altenwerth, Littel and Schaden",
-    "HistoryId": 856,
-    "AssociateId": 47,
-    "Name": "Nikolaus, Will and Gorczany",
+    "Rank": 581,
+    "Id": 463,
+    "HistoryName": "Wolff, Nikolaus and Haag",
+    "HistoryId": 950,
+    "AssociateId": 977,
+    "Name": "Becker, Hamill and Deckow",
     "ItemInfo": "maiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldLength": 662
       }
     }
   }

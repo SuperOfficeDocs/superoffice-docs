@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Conroy, Jones and Kihn",
-    "ToolTip": "Molestiae sed hic minima.",
+    "Id": 311,
+    "Name": "Hahn-Gottlieb",
+    "ToolTip": "Officiis necessitatibus.",
     "Deleted": false,
-    "Rank": 271,
-    "Type": "sequi",
-    "ColorBlock": 170,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "2021-12-09T12:15:28.2076188+01:00",
+    "Rank": 451,
+    "Type": "in",
+    "ColorBlock": 58,
+    "IconHint": "aspernatur",
+    "Selected": false,
+    "LastChanged": "2022-06-24T15:29:31.3244776+02:00",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "O'Hara-Brown",
-        "ToolTip": "Aut ut repellat.",
+        "Id": 113,
+        "Name": "Tromp-Metz",
+        "ToolTip": "In et.",
         "Deleted": true,
-        "Rank": 126,
-        "Type": "voluptas",
-        "ColorBlock": 154,
-        "IconHint": "non",
+        "Rank": 180,
+        "Type": "dolores",
+        "ColorBlock": 676,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2008-06-08T12:15:28.2076188+02:00",
+        "LastChanged": "1999-12-14T15:29:31.3244776+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "ex",
+        "ExtraInfo": "ab",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Dr. Demetrius Lorine Breitenberg III",
+        "FullName": "Dr. Gloria Jayda Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 563
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "vel",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Retta Lindsey Ratke Jr.",
+    "FullName": "Vincenzo Krajcik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 263
       }
     }
   }

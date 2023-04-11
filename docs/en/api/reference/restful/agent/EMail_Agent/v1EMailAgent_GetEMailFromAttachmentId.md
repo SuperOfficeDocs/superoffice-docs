@@ -92,8 +92,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,16 +101,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 774,
+  "EmailId": 84,
   "AttachmentIds": [
-    "fugiat",
-    "expedita"
+    "ratione",
+    "et"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -123,155 +123,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 85,
-      "ContactName": "Gerlach Group",
-      "PersonId": 636,
-      "PersonName": "Bogisich LLC",
-      "AssociateId": 964,
-      "Address": "est",
-      "EmailId": 843,
+      "ContactId": 632,
+      "ContactName": "Graham Group",
+      "PersonId": 16,
+      "PersonName": "Spinka Inc and Sons",
+      "AssociateId": 632,
+      "Address": "qui",
+      "EmailId": 267,
       "DuplicatePersonIds": [
-        568,
-        418
+        108,
+        768
       ],
-      "Name": "Ryan LLC",
+      "Name": "Schmitt, Brekke and Howell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 376
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 277,
-      "ContactName": "Rice-Quigley",
-      "PersonId": 620,
-      "PersonName": "Lang Group",
-      "AssociateId": 340,
-      "Address": "sapiente",
-      "EmailId": 32,
+      "ContactId": 708,
+      "ContactName": "Kohler LLC",
+      "PersonId": 32,
+      "PersonName": "Considine Inc and Sons",
+      "AssociateId": 421,
+      "Address": "sed",
+      "EmailId": 277,
       "DuplicatePersonIds": [
-        645,
-        266
+        264,
+        116
       ],
-      "Name": "Strosin, Crona and Kub",
+      "Name": "Farrell-Kautzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 677
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 944,
-      "ContactName": "Rosenbaum-Boyer",
-      "PersonId": 451,
-      "PersonName": "Wyman, Skiles and Schuppe",
-      "AssociateId": 429,
-      "Address": "distinctio",
-      "EmailId": 231,
+      "ContactId": 363,
+      "ContactName": "Walker Group",
+      "PersonId": 651,
+      "PersonName": "Stiedemann-Welch",
+      "AssociateId": 804,
+      "Address": "sunt",
+      "EmailId": 235,
       "DuplicatePersonIds": [
-        399,
-        347
+        75,
+        568
       ],
-      "Name": "Schultz, Wisoky and Greenholt",
+      "Name": "Gerhold Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 275
+          "FieldLength": 107
         }
       }
     }
   ],
-  "Subject": "assumenda",
-  "HTMLBody": "ut",
+  "Subject": "adipisci",
+  "HTMLBody": "animi",
   "From": null,
-  "Sent": "2019-10-14T12:15:19.0257503+02:00",
-  "Size": 826,
+  "Sent": "2010-06-03T15:29:21.7902749+02:00",
+  "Size": 38,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatibus",
-  "PlainBody": "vel",
+  "MessageID": "quod",
+  "PlainBody": "rerum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 578,
+  "ServerId": 705,
   "Attachments": [
     {
-      "Description": "Future-proofed holistic parallelism",
-      "Filename": "fugit",
-      "Size": 246,
-      "Type": "eos",
-      "Encoding": "delectus",
-      "Id": "adipisci",
-      "Disposition": "sed",
+      "Description": "Configurable demand-driven matrix",
+      "Filename": "saepe",
+      "Size": 373,
+      "Type": "sunt",
+      "Encoding": "voluptatem",
+      "Id": "illum",
+      "Disposition": "est",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 527
+          "FieldType": "System.Int32",
+          "FieldLength": 65
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Wunsch Group",
+      "Name": "Kovacek LLC",
       "Values": [
-        "aliquid",
-        "blanditiis"
+        "et",
+        "harum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 183
         }
       }
     },
     {
-      "Name": "Wunsch Group",
+      "Name": "Kovacek LLC",
       "Values": [
-        "aliquid",
-        "blanditiis"
+        "et",
+        "harum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 183
         }
       }
     }
   ],
-  "FolderName": "Quigley Inc and Sons",
-  "EmailItemId": 762,
-  "AccountId": 406,
-  "ReceivedAt": "2019-10-06T12:15:19.0267506+02:00",
+  "FolderName": "Rau Inc and Sons",
+  "EmailItemId": 895,
+  "AccountId": 926,
+  "ReceivedAt": "2010-02-08T15:29:21.7907756+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-12-01T12:15:19.0267506+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2009-01-06T15:29:21.7907756+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

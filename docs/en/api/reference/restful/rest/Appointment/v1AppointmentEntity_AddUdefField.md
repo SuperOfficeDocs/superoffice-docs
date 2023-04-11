@@ -88,8 +88,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 37,
-  "ColumnId": 922,
-  "FieldDefault": "placeat",
-  "FieldHeight": 182,
-  "FieldLabel": "adipisci",
-  "FieldLeft": 971,
-  "FieldTop": 781,
+  "UDefFieldId": 943,
+  "ColumnId": 45,
+  "FieldDefault": "at",
+  "FieldHeight": 946,
+  "FieldLabel": "aliquam",
+  "FieldLeft": 900,
+  "FieldTop": 690,
   "FieldType": "Checkbox",
-  "FieldWidth": 849,
-  "FormatMask": "a",
+  "FieldWidth": 60,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 762,
-  "LabelLeft": 19,
-  "LabelTop": 530,
-  "LabelWidth": 559,
-  "LastVersionId": 617,
-  "ListTableId": 94,
+  "IsIndexed": false,
+  "LabelHeight": 816,
+  "LabelLeft": 673,
+  "LabelTop": 149,
+  "LabelWidth": 348,
+  "LastVersionId": 332,
+  "ListTableId": 786,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 966,
-  "ProgId": "nulla",
-  "IsReadOnly": false,
-  "ShortLabel": "numquam",
-  "TabOrder": 749,
-  "TextLength": 345,
-  "Tooltip": "qui",
-  "UdefIdentity": 692,
-  "UDListDefinitionId": 171,
+  "Page1LineNo": 328,
+  "ProgId": "est",
+  "IsReadOnly": true,
+  "ShortLabel": "libero",
+  "TabOrder": 968,
+  "TextLength": 432,
+  "Tooltip": "nulla",
+  "UdefIdentity": 547,
+  "UDListDefinitionId": 482,
   "Justification": "Center",
-  "Version": 560,
-  "TemplateVariableName": "Huel Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Christiansen-Bechtelar",
+  "Version": 618,
+  "TemplateVariableName": "Hermiston Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Koch, Mohr and Dietrich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

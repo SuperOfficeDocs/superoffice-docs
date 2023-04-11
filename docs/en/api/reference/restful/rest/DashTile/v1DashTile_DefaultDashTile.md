@@ -52,8 +52,8 @@ OK
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
 | DashTileDefinition | DashTileDefinition | The tile definition entity |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 524,
-  "DashboardId": 951,
-  "Height": 972,
-  "Width": 283,
-  "Rank": 169,
+  "DashboardTileId": 920,
+  "DashboardId": 507,
+  "Height": 730,
+  "Width": 75,
+  "Rank": 386,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   }
 }

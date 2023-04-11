@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -68,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 653,
+  "BlobEntityId": 511,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```

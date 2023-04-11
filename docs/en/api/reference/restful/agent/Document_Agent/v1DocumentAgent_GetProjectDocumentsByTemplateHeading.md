@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 40,
-  "StartTime": "2010-06-05T12:15:18.7267553+02:00",
-  "EndTime": "2008-03-03T12:15:18.7267553+01:00",
-  "Count": 814,
-  "TemplateHeadingId": 909
+  "ProjectId": 149,
+  "StartTime": "2006-09-13T15:29:21.4882791+02:00",
+  "EndTime": "2020-03-21T15:29:21.4882791+01:00",
+  "Count": 633,
+  "TemplateHeadingId": 983
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 688,
-    "Attention": "eum",
-    "Header": "qui",
-    "Name": "Orn, D'Amore and McDermott",
-    "OurRef": "vel",
-    "YourRef": "nihil",
-    "Description": "Reactive optimal open system",
-    "DocumentTemplate": "labore",
-    "IsPublished": false,
-    "PersonId": 185,
-    "PersonFullName": "Omari Douglas DVM",
-    "AssociateFullName": "Prof. Felicity Cummerata",
-    "ContactId": 194,
-    "ContactName": "Ryan, Sauer and Langosh",
-    "ProjectId": 428,
-    "ProjectName": "Koelpin-Purdy",
-    "AssociateId": 35,
-    "Snum": 384,
-    "SaleId": 541,
-    "SaleName": "Wehner, Hickle and Bogan",
+    "DocumentId": 561,
+    "Attention": "omnis",
+    "Header": "nesciunt",
+    "Name": "Batz Inc and Sons",
+    "OurRef": "omnis",
+    "YourRef": "aut",
+    "Description": "Self-enabling solution-oriented intranet",
+    "DocumentTemplate": "commodi",
+    "IsPublished": true,
+    "PersonId": 838,
+    "PersonFullName": "Al Wehner",
+    "AssociateFullName": "Carroll Fahey",
+    "ContactId": 368,
+    "ContactName": "Lowe-Hammes",
+    "ProjectId": 834,
+    "ProjectName": "Gleason, Spinka and Heidenreich",
+    "AssociateId": 160,
+    "Snum": 920,
+    "SaleId": 780,
+    "SaleName": "Wolff, Ward and Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 49
       }
     }
   }

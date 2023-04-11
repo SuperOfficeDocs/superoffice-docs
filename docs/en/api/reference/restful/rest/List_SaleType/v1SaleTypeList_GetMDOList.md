@@ -25,7 +25,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?flat=False
 GET /api/v1/List/SaleType/MDOItems?query=aut
 ```
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Weimann-Adams",
-    "ToolTip": "Magnam quibusdam perferendis at nostrum doloribus velit.",
+    "Id": 451,
+    "Name": "Schinner, O'Kon and Walter",
+    "ToolTip": "Et expedita atque nobis harum qui quisquam.",
     "Deleted": true,
-    "Rank": 300,
+    "Rank": 931,
     "Type": "autem",
     "ChildItems": [
       {
-        "Id": 483,
-        "Name": "Dicki LLC",
-        "ToolTip": "Maiores nesciunt fuga.",
+        "Id": 387,
+        "Name": "Renner, Herman and Douglas",
+        "ToolTip": "Sunt quod velit reiciendis.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "tempore",
+        "Rank": 202,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "hic",
-        "ColorBlock": 867,
-        "ExtraInfo": "et",
-        "StyleHint": "atque",
-        "FullName": "Dessie Rodriguez",
+        "IconHint": "illo",
+        "ColorBlock": 773,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "omnis",
+        "FullName": "Freeda Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldType": "System.String",
+            "FieldLength": 843
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 770,
-    "ExtraInfo": "molestias",
-    "StyleHint": "ut",
-    "FullName": "Toy Upton IV",
+    "IconHint": "placeat",
+    "ColorBlock": 922,
+    "ExtraInfo": "corrupti",
+    "StyleHint": "qui",
+    "FullName": "Brooke Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 341
       }
     }
   }

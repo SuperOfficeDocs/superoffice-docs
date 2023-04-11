@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "King, Lebsack and Kirlin",
-    "ToolTip": "Sunt voluptas impedit.",
-    "Deleted": true,
-    "Rank": 429,
-    "Type": "unde",
-    "ColorBlock": 458,
-    "IconHint": "cumque",
+    "Id": 812,
+    "Name": "Hickle-Nolan",
+    "ToolTip": "Debitis consequatur dolorem error eveniet.",
+    "Deleted": false,
+    "Rank": 120,
+    "Type": "labore",
+    "ColorBlock": 343,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2002-12-16T12:15:28.514613+01:00",
+    "LastChanged": "2012-05-04T15:29:31.6244749+02:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Baumbach-McLaughlin",
-        "ToolTip": "Sunt dolores hic nam.",
-        "Deleted": false,
-        "Rank": 326,
-        "Type": "autem",
-        "ColorBlock": 395,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2012-09-04T12:15:28.514613+02:00",
+        "Id": 505,
+        "Name": "Roberts Group",
+        "ToolTip": "Cumque consequatur occaecati earum rerum.",
+        "Deleted": true,
+        "Rank": 182,
+        "Type": "vero",
+        "ColorBlock": 169,
+        "IconHint": "repellendus",
+        "Selected": true,
+        "LastChanged": "2012-07-19T15:29:31.6249733+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Baron Sylvester West V",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Giovani Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldLength": 469
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "iste",
+    "ExtraInfo": "et",
+    "StyleHint": "quaerat",
     "Hidden": true,
-    "FullName": "Adolf Gleason",
+    "FullName": "Prof. Emerald Pearl Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 737
+        "FieldLength": 238
       }
     }
   }

@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "autem",
-  "EntityId": 230
+  "EntityType": "quia",
+  "EntityId": 517
 }
 ```
 
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ex",
-  "2": "ut"
+  "1": "aliquid",
+  "2": "vero"
 }
 ```

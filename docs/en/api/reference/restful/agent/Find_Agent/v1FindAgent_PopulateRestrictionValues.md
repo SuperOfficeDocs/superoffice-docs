@@ -64,15 +64,15 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo | TableRight |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
+| Name | string | The programmatic column name, including any required prefixes |
+| Operator | string | The operator, such as =, etc |
+| Values | array | Value(s) to test against |
+| DisplayValues | array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | bool | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | int32 | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | string | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | int32 |  |
 
 ## Sample request
@@ -81,21 +81,21 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictionValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Waelchi Inc and Sons",
-      "Operator": "sit",
+      "Name": "Schulist Inc and Sons",
+      "Operator": "odio",
       "Values": [
-        "temporibus",
-        "saepe"
+        "fugiat",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "ut",
-        "deserunt"
+        "explicabo",
+        "voluptatum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -103,9 +103,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 843,
+      "InterParenthesis": 636,
       "InterOperator": "And",
-      "UniqueHash": 638
+      "UniqueHash": 877
     }
   ]
 }
@@ -119,44 +119,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Keefe-Heidenreich",
-    "Operator": "repellendus",
+    "Name": "Littel, Lemke and West",
+    "Operator": "consequatur",
     "Values": [
-      "fugiat",
-      "magni"
+      "nemo",
+      "architecto"
     ],
     "DisplayValues": [
-      "ducimus",
-      "distinctio"
+      "magni",
+      "doloremque"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Purdy, Kessler and Schinner",
-        "Operator": "odio",
+        "Name": "Schimmel Inc and Sons",
+        "Operator": "sed",
         "Values": [
-          "nihil",
-          "non"
+          "quam",
+          "est"
         ],
         "DisplayValues": [
-          "molestias",
-          "commodi"
+          "aliquid",
+          "consequuntur"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 158,
+        "InterParenthesis": 896,
         "InterOperator": "And",
-        "UniqueHash": 768
+        "UniqueHash": 132
       }
     ],
-    "InterParenthesis": 735,
+    "InterParenthesis": 870,
     "InterOperator": "And",
-    "UniqueHash": 422
+    "UniqueHash": 292
   }
 ]
 ```

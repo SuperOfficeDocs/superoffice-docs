@@ -70,8 +70,8 @@ OK
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Eichmann Inc and Sons",
+  "LayoutName": "Green, Ferry and Shields",
   "ConfigParameter": null
 }
 ```
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 292,
-  "Name": "Murphy, Schiller and Jenkins",
-  "Value": "natus",
-  "CreatedDate": "2022-07-14T12:15:18.1883045+02:00",
-  "UpdatedDate": "2014-03-03T12:15:18.1883045+01:00",
-  "CreatedBy": "facere",
-  "UpdatedBy": "excepturi",
+  "AudienceLayoutId": 674,
+  "Name": "Heller, Oberbrunner and King",
+  "Value": "veniam",
+  "CreatedDate": "2021-02-25T15:29:20.8057899+01:00",
+  "UpdatedDate": "2003-05-19T15:29:20.8057899+02:00",
+  "CreatedBy": "autem",
+  "UpdatedBy": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldType": "System.String",
+      "FieldLength": 54
     }
   }
 }

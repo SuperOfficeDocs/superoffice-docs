@@ -105,8 +105,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -114,18 +114,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 316,
-  "PersonId": 953,
-  "AppointmentId": 699,
-  "DocumentId": 753,
-  "SaleId": 521,
-  "SelectionId": 346,
-  "ProjectId": 339,
-  "UiCulture": "quas"
+  "ContactId": 239,
+  "PersonId": 296,
+  "AppointmentId": 288,
+  "DocumentId": 119,
+  "SaleId": 827,
+  "SelectionId": 494,
+  "ProjectId": 8,
+  "UiCulture": "aut"
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 352,
+  "DocumentId": 698,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quidem",
-  "Header": "ut",
-  "Name": "Rosenbaum-Marvin",
-  "OurRef": "aut",
-  "YourRef": "laboriosam",
-  "CreatedDate": "2000-10-30T12:15:18.8517565+01:00",
-  "UpdatedDate": "2005-01-07T12:15:18.8517565+01:00",
-  "Description": "Adaptive 6th generation capability",
+  "Attention": "repellendus",
+  "Header": "corporis",
+  "Name": "Altenwerth Group",
+  "OurRef": "ut",
+  "YourRef": "at",
+  "CreatedDate": "1996-12-07T15:29:21.6158109+01:00",
+  "UpdatedDate": "2009-03-11T15:29:21.6158109+01:00",
+  "Description": "Mandatory uniform software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-07-13T12:15:18.8547533+02:00",
-  "ExternalRef": "rerum",
+  "Date": "2007-05-07T15:29:21.6193149+02:00",
+  "ExternalRef": "non",
   "Completed": "Completed",
   "ActiveLinks": 459,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Gulgowski-Hamill",
-      "Id": 689,
-      "Description": "Digitized even-keeled attitude",
-      "ExtraInfo": "ea",
-      "LinkId": 714,
+      "EntityName": "Kub, Sawayn and Luettgen",
+      "Id": 189,
+      "Description": "Reverse-engineered 6th generation collaboration",
+      "ExtraInfo": "minus",
+      "LinkId": 309,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 412
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 341,
-  "Snum": 964,
+  "SuggestedDocumentId": 393,
+  "Snum": 194,
   "UserDefinedFields": {
-    "SuperOffice:1": "1284389987",
-    "SuperOffice:2": "Ms. Antone O'Hara PhD"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Ms. Vicente Nader I"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "labore",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "quia",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2004-06-26T12:15:18.8557546+02:00",
-  "PublishTo": "2017-08-24T12:15:18.8557546+02:00",
-  "PublishFrom": "2017-10-02T12:15:18.8557546+02:00",
+  "PublishEventDate": "2005-06-30T15:29:21.620311+02:00",
+  "PublishTo": "2003-05-21T15:29:21.620311+02:00",
+  "PublishFrom": "2009-01-21T15:29:21.620311+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 422,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     },
     {
-      "VisibleId": 422,
+      "VisibleId": 830,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 402
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     }
@@ -226,8 +226,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldType": "System.String",
+      "FieldLength": 940
     }
   }
 }

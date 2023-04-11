@@ -75,8 +75,8 @@ OK
 | ContactDepartment | string | Department |
 | ContactCategory | string | Contact category |
 | SortName | string | If person ? The person name, else contact name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Franecki-Donnelly",
-  "EmailAddress": "earline@rodriguez.co.uk",
-  "NumberOfContacts": 931,
-  "NumberOfPersons": 19
+  "Name": "Jast, Brown and Lowe",
+  "EmailAddress": "santiago.mraz@handstehr.com",
+  "NumberOfContacts": 823,
+  "NumberOfPersons": 475
 }
 ```
 
@@ -103,20 +103,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 950,
-    "FullName": "Dr. Noemy Bernier V",
-    "EmailAddress": "daniella_pagac@fritschhauck.com",
-    "ContactId": 929,
-    "ContactName": "White, Feeney and McGlynn",
+    "PersonId": 698,
+    "FullName": "Ms. Jarrell Kaia Ruecker",
+    "EmailAddress": "benjamin_hintz@kreiger.uk",
+    "ContactId": 196,
+    "ContactName": "Herzog LLC",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Quigley Inc and Sons",
+    "SortName": "Champlin-Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 193
       }
     }
   }

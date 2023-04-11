@@ -47,7 +47,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -61,15 +61,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heller Inc and Sons",
-    "DisplayName": "Hackett Group",
-    "DisplayTooltip": "id",
+    "Name": "Mraz-Morar",
+    "DisplayName": "Satterfield-Heathcote",
+    "DisplayTooltip": "qui",
     "IsActive": true
   },
   {
-    "Name": "Heller Inc and Sons",
-    "DisplayName": "Hackett Group",
-    "DisplayTooltip": "id",
+    "Name": "Mraz-Morar",
+    "DisplayName": "Satterfield-Heathcote",
+    "DisplayTooltip": "qui",
     "IsActive": true
   }
 ]

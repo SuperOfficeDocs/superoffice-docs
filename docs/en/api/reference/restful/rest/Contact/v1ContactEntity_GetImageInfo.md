@@ -63,8 +63,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 Jun 2004 12:15:26 G6T
+Last-Modified: Mon, 09 Jan 2023 15:29:29 G1T
 
 {
-  "BlobId": 797,
-  "BlobSize": 918,
-  "Description": "Reactive bottom-line interface",
-  "ExtraInfo": "ullam",
-  "IsEncrypted": true,
+  "BlobId": 765,
+  "BlobSize": 20,
+  "Description": "Cross-group multimedia open system",
+  "ExtraInfo": "molestias",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ea",
-  "OriginalSize": 421,
-  "CreatedDate": "2015-03-10T12:15:26.5566422+01:00",
-  "UpdatedDate": "2004-06-08T12:15:26.5566422+02:00",
+  "MimeType": "quisquam",
+  "OriginalSize": 151,
+  "CreatedDate": "2009-05-11T15:29:29.4657052+02:00",
+  "UpdatedDate": "2023-01-09T15:29:29.4657052+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolore",
+  "ConceptualType": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 875
+      "FieldType": "System.Int32",
+      "FieldLength": 85
     }
   }
 }

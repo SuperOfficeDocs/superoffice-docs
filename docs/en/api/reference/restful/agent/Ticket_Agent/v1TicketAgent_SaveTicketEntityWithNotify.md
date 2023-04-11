@@ -117,8 +117,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,7 +126,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -142,21 +142,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 366,
-  "Title": "sit",
-  "CreatedAt": "2003-01-31T12:15:20.367731+01:00",
-  "LastChanged": "2015-09-30T12:15:20.367731+02:00",
-  "ReadByOwner": "2016-04-13T12:15:20.367731+02:00",
-  "ReadByCustomer": "2020-02-23T12:15:20.367731+01:00",
-  "FirstReadByOwner": "2008-05-13T12:15:20.367731+02:00",
-  "FirstReadByUser": "2000-01-28T12:15:20.367731+01:00",
-  "Activate": "2007-06-19T12:15:20.367731+02:00",
-  "ClosedAt": "2004-04-28T12:15:20.367731+02:00",
-  "RepliedAt": "2022-06-11T12:15:20.367731+02:00",
-  "AlertTimeout": "2019-01-29T12:15:20.367731+01:00",
-  "Deadline": "2018-04-04T12:15:20.367731+02:00",
+  "TicketId": 442,
+  "Title": "voluptatem",
+  "CreatedAt": "2002-10-10T15:29:23.1422899+02:00",
+  "LastChanged": "1998-04-28T15:29:23.1422899+02:00",
+  "ReadByOwner": "2014-11-07T15:29:23.1422899+01:00",
+  "ReadByCustomer": "2013-08-17T15:29:23.1422899+02:00",
+  "FirstReadByOwner": "1998-01-16T15:29:23.1422899+01:00",
+  "FirstReadByUser": "2018-07-03T15:29:23.1422899+02:00",
+  "Activate": "2020-10-11T15:29:23.1422899+02:00",
+  "ClosedAt": "2010-05-18T15:29:23.1422899+02:00",
+  "RepliedAt": "2017-05-31T15:29:23.1422899+02:00",
+  "AlertTimeout": "2002-07-18T15:29:23.1422899+02:00",
+  "Deadline": "2001-04-20T15:29:23.1422899+02:00",
   "CreatedBy": null,
-  "Author": "hic",
+  "Author": "et",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,157 +167,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "et",
-      "PersonId": 737,
+      "Position": "numquam",
+      "PersonId": 624,
       "Mrmrs": "et",
-      "Firstname": "Grady",
-      "Lastname": "Ritchie",
-      "MiddleName": "Davis, Turner and Hilpert",
-      "Title": "dolores",
-      "Description": "Object-based demand-driven protocol",
-      "Email": "hallie_muller@hilpertsawayn.biz",
-      "FullName": "Mrs. Tyson Antonia Luettgen",
-      "DirectPhone": "028.121.5500",
-      "FormalName": "Bergnaum, Kuhn and Boyer",
-      "CountryId": 772,
-      "ContactId": 518,
-      "ContactName": "Schiller, Johnston and Murray",
-      "Retired": 358,
-      "Rank": 736,
-      "ActiveInterests": 412,
-      "ContactDepartment": "engineer back-end partnerships",
-      "ContactCountryId": 227,
-      "ContactOrgNr": "996439",
-      "FaxPhone": "(944)076-7113",
-      "MobilePhone": "100.076.0318 x128",
-      "ContactPhone": "1-572-827-5324",
-      "AssociateName": "Bins, Willms and Feil",
-      "AssociateId": 577,
-      "UsePersonAddress": false,
-      "ContactFax": "dicta",
-      "Kanafname": "quia",
-      "Kanalname": "dolorem",
-      "Post1": "vel",
-      "Post2": "porro",
-      "Post3": "qui",
-      "EmailName": "tamia_crona@braun.biz",
-      "ContactFullName": "Prof. Armando Koelpin",
-      "ActiveErpLinks": 523,
-      "TicketPriorityId": 400,
-      "SupportLanguageId": 887,
-      "SupportAssociateId": 753,
+      "Firstname": "Sylvester",
+      "Lastname": "Gibson",
+      "MiddleName": "Rath Inc and Sons",
+      "Title": "dolor",
+      "Description": "Reduced bi-directional help-desk",
+      "Email": "julio@grantcronin.uk",
+      "FullName": "Taurean Fay",
+      "DirectPhone": "706-517-4934",
+      "FormalName": "Olson LLC",
+      "CountryId": 786,
+      "ContactId": 614,
+      "ContactName": "Schimmel-McGlynn",
+      "Retired": 795,
+      "Rank": 45,
+      "ActiveInterests": 758,
+      "ContactDepartment": "",
+      "ContactCountryId": 182,
+      "ContactOrgNr": "816125",
+      "FaxPhone": "675.066.6121",
+      "MobilePhone": "(434)452-1484",
+      "ContactPhone": "803.548.3966 x491",
+      "AssociateName": "Nienow-Mills",
+      "AssociateId": 136,
+      "UsePersonAddress": true,
+      "ContactFax": "est",
+      "Kanafname": "a",
+      "Kanalname": "illum",
+      "Post1": "omnis",
+      "Post2": "velit",
+      "Post3": "laborum",
+      "EmailName": "ivy_jakubowski@haag.co.uk",
+      "ContactFullName": "Mr. Allen Vivian Leannon",
+      "ActiveErpLinks": 920,
+      "TicketPriorityId": 106,
+      "SupportLanguageId": 835,
+      "SupportAssociateId": 821,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 669
         }
       }
     }
   ],
-  "AlertLevel": 480,
-  "ConnectId": 61,
+  "AlertLevel": 301,
+  "ConnectId": 787,
   "ReadStatus": "Green",
-  "TimeToReply": 31,
-  "RealTimeToReply": 135,
-  "TimeToClose": 894,
-  "RealTimeToClose": 842,
-  "TimeSpentInternally": 766,
-  "TimeSpentExternally": 277,
-  "TimeSpentQueue": 179,
-  "RealTimeSpentInternally": 493,
-  "RealTimeSpentExternally": 250,
-  "RealTimeSpentQueue": 873,
+  "TimeToReply": 95,
+  "RealTimeToReply": 541,
+  "TimeToClose": 602,
+  "RealTimeToClose": 517,
+  "TimeSpentInternally": 317,
+  "TimeSpentExternally": 211,
+  "TimeSpentQueue": 281,
+  "RealTimeSpentInternally": 145,
+  "RealTimeSpentExternally": 935,
+  "RealTimeSpentQueue": 352,
   "HasAttachment": false,
-  "NumReplies": 918,
-  "NumMessages": 459,
-  "FromAddress": "quam",
+  "NumReplies": 611,
+  "NumMessages": 570,
+  "FromAddress": "adipisci",
   "Messages": [
     {
-      "TicketMessageId": 604,
-      "CreatedAt": "2021-07-31T12:15:20.372731+02:00",
+      "TicketMessageId": 178,
+      "CreatedAt": "2001-07-04T15:29:23.1467908+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "ipsa",
-      "PersonId": 644,
-      "PersonFullName": "Mrs. Amelie Hoeger PhD",
-      "ContactId": 443,
-      "ContactName": "Quigley-Mraz",
+      "Author": "est",
+      "PersonId": 688,
+      "PersonFullName": "Verner Hartmann",
+      "ContactId": 98,
+      "ContactName": "Brown Group",
       "ContactDepartment": "",
-      "NumAttachments": 660,
-      "EmailHeader": "amara_shields@watsica.uk",
+      "NumAttachments": 667,
+      "EmailHeader": "misael@ratkeankunding.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "molestiae",
-      "Sentiment": 909,
-      "SentimentConfidence": 694,
-      "CreatedBy": 88,
-      "ChangedAt": "2001-02-01T12:15:20.372731+01:00",
+      "Language": "veniam",
+      "Sentiment": 351,
+      "SentimentConfidence": 551,
+      "CreatedBy": 439,
+      "ChangedAt": "2010-11-30T15:29:23.1467908+01:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 630
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 84,
-      "Name": "Crooks Group",
-      "ToolTip": "In nisi sint voluptatem eum.",
+      "Id": 605,
+      "Name": "Lueilwitz Group",
+      "ToolTip": "Culpa adipisci est laudantium magni voluptates quos ratione.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldType": "System.String",
+          "FieldLength": 345
         }
       }
     },
     {
-      "Id": 84,
-      "Name": "Crooks Group",
-      "ToolTip": "In nisi sint voluptatem eum.",
+      "Id": 605,
+      "Name": "Lueilwitz Group",
+      "ToolTip": "Culpa adipisci est laudantium magni voluptates quos ratione.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldType": "System.String",
+          "FieldLength": 345
         }
       }
     }
   ],
-  "Language": "cumque",
-  "Sentiment": 241,
-  "SentimentConfidence": 104,
-  "SuggestedCategoryId": 598,
+  "Language": "aliquam",
+  "Sentiment": 496,
+  "SentimentConfidence": 868,
+  "SuggestedCategoryId": 605,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 609,
-  "IconHint": "totam",
+  "OrigHumanCategoryId": 141,
+  "IconHint": "voluptate",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "excepturi"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "enim"
+    "CustomFields1": "soluta",
+    "CustomFields2": "magnam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 506
     }
   }
 }

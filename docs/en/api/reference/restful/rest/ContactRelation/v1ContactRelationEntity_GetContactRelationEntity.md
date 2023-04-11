@@ -80,8 +80,8 @@ ContactRelationEntity found.
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -90,7 +90,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,33 +98,33 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Jun 2021 12:15:26 G6T
+Last-Modified: Thu, 07 Jan 2016 15:29:29 G1T
 
 {
-  "SourceContactId": 753,
-  "SourcePersonId": 514,
-  "DestinationContactId": 368,
-  "DestinationPersonId": 995,
-  "RelationId": 448,
-  "Comment": "voluptas",
-  "RelationDefinitionId": 205,
-  "Reversed": 623,
-  "UpdatedDate": "2021-06-11T12:15:26.8006387+02:00",
-  "CreatedDate": "2015-12-27T12:15:26.8006387+01:00",
+  "SourceContactId": 871,
+  "SourcePersonId": 938,
+  "DestinationContactId": 884,
+  "DestinationPersonId": 661,
+  "RelationId": 657,
+  "Comment": "ut",
+  "RelationDefinitionId": 441,
+  "Reversed": 460,
+  "UpdatedDate": "2016-01-07T15:29:29.6117014+01:00",
+  "CreatedDate": "2018-05-11T15:29:29.6117014+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Cummerata Group",
-  "SourcePersonName": "Bergstrom-Ledner",
-  "DestinationContactName": "Little LLC",
-  "DestinationPersonName": "Eichmann-Dietrich",
-  "ActiveText": "officiis",
-  "PassiveText": "minima",
+  "SourceContactName": "Stanton-Wolf",
+  "SourcePersonName": "Waelchi, Welch and Thiel",
+  "DestinationContactName": "Hettinger Group",
+  "DestinationPersonName": "Wintheiser Inc and Sons",
+  "ActiveText": "aut",
+  "PassiveText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 516
+      "FieldType": "System.String",
+      "FieldLength": 100
     }
   },
   "_Links": {

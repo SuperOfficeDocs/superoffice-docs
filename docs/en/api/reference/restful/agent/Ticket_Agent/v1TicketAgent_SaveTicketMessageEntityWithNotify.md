@@ -85,11 +85,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -113,28 +114,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 319,
+  "EjMessageId": 301,
   "Ticket": null,
-  "CreatedAt": "1996-06-09T12:15:20.4727299+02:00",
+  "CreatedAt": "2014-11-30T15:29:23.2427545+01:00",
   "CreatedBy": null,
-  "Author": "dignissimos",
+  "Author": "consequuntur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "necessitatibus",
-  "TimeSpent": 751,
+  "MessageId": "facere",
+  "TimeSpent": 284,
   "Body": "similique",
-  "HtmlBody": "sequi",
-  "EmailHeader": "cassie_doyle@gleason.ca",
-  "DebugInfo": "iure",
-  "MailSorter": "eligendi",
+  "HtmlBody": "aperiam",
+  "EmailHeader": "annabelle@senger.us",
+  "DebugInfo": "expedita",
+  "MailSorter": "quisquam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eligendi",
+  "SearchTitle": "dolores",
   "MessageHeaders": [
     {
-      "Id": 17,
-      "Name": "Breitenberg Group",
-      "Value": "sed",
+      "Id": 46,
+      "Name": "Hegmann-McKenzie",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -142,47 +143,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 343
+          "FieldLength": 329
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quaerat",
-  "Sentiment": 457,
-  "SentimentConfidence": 715,
+  "Language": "praesentium",
+  "Sentiment": 570,
+  "SentimentConfidence": 358,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 615,
-      "Name": "Schmidt-Bruen",
-      "ContentType": "aut",
-      "AttSize": 195,
+      "AttachmentId": 712,
+      "Name": "Block, Veum and O'Keefe",
+      "ContentType": "autem",
+      "AttSize": 111,
       "InlineImage": true,
-      "ContentId": "rerum",
+      "ContentId": "nostrum",
+      "AuthKey": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldType": "System.Int32",
+          "FieldLength": 230
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "optio"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldType": "System.String",
+      "FieldLength": 769
     }
   }
 }

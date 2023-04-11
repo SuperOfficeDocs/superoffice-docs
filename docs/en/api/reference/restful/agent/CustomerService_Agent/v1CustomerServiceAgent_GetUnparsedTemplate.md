@@ -70,8 +70,8 @@ OK
 | HtmlParsed | string | The HTML version of the reply template, and if applicable parsed with customer and ticket data |
 | Attachments | array | Meta data for the connected attachments |
 | Subject | string | The subject for this reply template |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetUnparsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 587,
-  "LanguageId": 184
+  "ReplyTemplateId": 482,
+  "LanguageId": 214
 }
 ```
 
@@ -95,34 +95,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 958,
-  "PlainParsed": "ea",
-  "HtmlParsed": "exercitationem",
+  "ReplyTemplateId": 794,
+  "PlainParsed": "eius",
+  "HtmlParsed": "occaecati",
   "Attachments": [
     {
-      "AttachmentId": 996,
-      "Name": "Russel-Koelpin",
-      "ContentType": "consequatur",
-      "AttSize": 396,
+      "AttachmentId": 103,
+      "Name": "White Group",
+      "ContentType": "cumque",
+      "AttSize": 524,
       "InlineImage": true,
-      "ContentId": "consequatur",
+      "ContentId": "quas",
+      "AuthKey": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldLength": 915
         }
       }
     }
   ],
-  "Subject": "repellat",
+  "Subject": "doloremque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   }
 }

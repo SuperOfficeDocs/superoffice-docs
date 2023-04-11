@@ -25,7 +25,7 @@ Gets a HierarchyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=12
+POST /api/v1/Agents/List/GetHierarchyEntity?hierarchyEntityId=517
 POST /api/v1/Agents/List/GetHierarchyEntity?$select=name,department,category/id
 ```
 
@@ -66,8 +66,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 410,
+  "HierarchyId": 871,
   "Domain": "Dashboards",
-  "Name": "Simonis, Stanton and Ratke",
-  "Fullname": "fugit",
-  "ParentId": 3,
+  "Name": "Altenwerth, Bergstrom and Littel",
+  "Fullname": "esse",
+  "ParentId": 566,
   "Children": [
     {
-      "HierarchyId": 871,
+      "HierarchyId": 434,
       "Domain": "Dashboards",
-      "Name": "Treutel Inc and Sons",
-      "Fullname": "debitis",
-      "ParentId": 607,
+      "Name": "Smitham Group",
+      "Fullname": "rerum",
+      "ParentId": 363,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-11-11T12:15:19.3107472+01:00",
-      "RegisteredAssociateId": 130,
-      "Updated": "2018-05-20T12:15:19.3107472+02:00",
-      "UpdatedAssociateId": 456,
+      "Registered": "1998-02-08T15:29:22.0707719+01:00",
+      "RegisteredAssociateId": 455,
+      "Updated": "2002-09-24T15:29:22.0707719+02:00",
+      "UpdatedAssociateId": 940,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 806
         }
       }
     }
   ],
-  "Registered": "2019-02-15T12:15:19.3107472+01:00",
-  "RegisteredAssociateId": 619,
-  "Updated": "2018-11-24T12:15:19.3107472+01:00",
-  "UpdatedAssociateId": 516,
+  "Registered": "2006-02-15T15:29:22.0707719+01:00",
+  "RegisteredAssociateId": 640,
+  "Updated": "2007-12-25T15:29:22.0707719+01:00",
+  "UpdatedAssociateId": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 375
     }
   }
 }

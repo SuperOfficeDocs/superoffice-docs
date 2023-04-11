@@ -71,8 +71,8 @@ OK
 | AggregateCount | int32 | Number of times the specific soprotocol is accessed |
 | AggregateBin | int32 | ?? |
 | Version | int32 | ?? |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2003-12-31T12:15:18.7047555+01:00",
-  "ToDate": "2015-11-16T12:15:18.7047555+01:00",
-  "SearchTerm": "laborum"
+  "FromDate": "2012-10-04T15:29:21.4652794+02:00",
+  "ToDate": "2004-12-25T15:29:21.4652794+01:00",
+  "SearchTerm": "deserunt"
 }
 ```
 
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 768,
-    "AssocId": 516,
-    "Timestamp": "2003-04-16T12:15:18.70576+02:00",
-    "ViewState": "nostrum",
-    "AggregateCount": 31,
-    "AggregateBin": 443,
-    "Version": 177,
+    "WebAppUsageId": 13,
+    "AssocId": 115,
+    "Timestamp": "2013-03-17T15:29:21.4657795+01:00",
+    "ViewState": "odit",
+    "AggregateCount": 735,
+    "AggregateBin": 731,
+    "Version": 44,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 622
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

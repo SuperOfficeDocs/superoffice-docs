@@ -59,8 +59,8 @@ OK
 | Flags | string | Flag status of this mail (unread, replied, deleted ) |
 | Size | int32 | Total size of the e-mail |
 | EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,45 +78,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 749,
-  "MessageId": "velit",
-  "Subject": "pariatur",
+  "ServerId": 813,
+  "MessageId": "nesciunt",
+  "Subject": "repellat",
   "From": null,
   "To": [
     {
-      "ContactId": 758,
-      "ContactName": "Gislason Inc and Sons",
-      "PersonId": 200,
-      "PersonName": "Jaskolski-Kautzer",
-      "AssociateId": 856,
-      "Address": "ut",
-      "EmailId": 884,
+      "ContactId": 146,
+      "ContactName": "Trantow, Wunsch and O'Connell",
+      "PersonId": 641,
+      "PersonName": "Klein, Luettgen and Bednar",
+      "AssociateId": 305,
+      "Address": "beatae",
+      "EmailId": 906,
       "DuplicatePersonIds": [
-        572,
-        146
+        456,
+        836
       ],
-      "Name": "Mosciski LLC",
+      "Name": "Swift LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldLength": 29
         }
       }
     }
   ],
-  "Sent": "2012-12-03T12:15:18.9757512+01:00",
+  "Sent": "2000-09-21T15:29:21.7382756+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 619,
+  "Size": 528,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 298
     }
   }
 }

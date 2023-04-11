@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "PersonActivity"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -24,8 +24,8 @@ Activity archive provider for the Person card
 ## Supported Entities
 | Name | Description |
 | ---- | ----- |
-|"formSubmission"|Form submissions|
 |"chat"|Chat session|
+|"formSubmission"|Form submissions|
 |"mailing"|Mailings|
 |"document"|Documents|
 |"appointment"|Follow-ups|
@@ -35,23 +35,32 @@ Activity archive provider for the Person card
 | ---- | ----- | ------- | ------ |
 |getAllRows|bool|GetAll: Get all rows of archive - use with care, you may be fetching the whole database|  |
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
-|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
-|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
-|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
-|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
+|chatSessionId|int|Chat session ID: Database ID of the chat session| x |
+|firstMessage|string|First message: The first message submitted in the chat| x |
+|lastMessage|string|Last message: The last message submitted in the chat| x |
+|whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
+|whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
+|whenEnded|datetime|Chat ended: When did this chat end?| x |
+|duration|timeSpan|Duration: The duration of the chat session|  |
+|timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
+|queueLength|int|Queue length: Queue length when the session was requested| x |
+|rating|int|Rating: Rating of chat session| x |
+|agent|ejUser|Agent: The agent of the chat| x |
+|status|listAny|Status: Status for the chat session| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|time| *None* |Time: Time|  |
 |type|listAny|Type: Displays the type of an activity| x |
 |text|positiveString|Text: Displays a descriptive text for the item| x |
 |associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |contactId|listAny|Company ID: Database ID of company| x |
 |personId|listAny|Contact ID: Database ID of the contact row| x |
-|updatedBy|associate|Updated by: The user who last updated the data| x |
 |updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
+|chatTopic/chatTopicId|int|ID: The database ID of the chat channel| x |
+|chatTopic/name|string|Name: Name| x |
+|chatTopic/description|string|Description: The description of the chat channel| x |
+|chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
 |associate/firstName|string|First name: Displays the contact's first name| x |
 |associate/lastName|string|Last name: Displays the contact's last name| x |
 |associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
@@ -60,7 +69,6 @@ Activity archive provider for the Person card
 |associate/personId|int|Contact ID: Database ID of the contact row|  |
 |associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|associate/associateDbId|associate|ID| x |
 |associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |associate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -453,6 +461,14 @@ Activity archive provider for the Person card
 |contact/saintIntention|listAny|Intention|  |
 |contact/saintTicketStatus|listAny|Status|  |
 |contact/saintTicketCategory|listAny|Category|  |
+|formSubmissionId|int|Form submission ID: ID of the form submission record| x |
+|formSubmissionName|string|Form name: Displays a descriptive text for the item| x |
+|formSubmissionStatus|listAny|Status: Status of the form submission record| x |
+|formSubmissionEmail|string|E-mail: The e-mail address of the person who submitted the form| x |
+|time| *None* |Time: Time|  |
+|updatedBy|associate|Updated by: The user who last updated the data| x |
+|registeredBy|associate|Registered by: The user who registered the data| x |
+|associate/associateDbId|associate|ID| x |
 |mailingId|int|ID: Displays the ID of the mailing| x |
 |mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |mailingDescription|string|Name: Displays the name of the mailing| x |
@@ -941,22 +957,6 @@ Activity archive provider for the Person card
 |project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
-|chatSessionId|int|Chat session ID: Database ID of the chat session| x |
-|firstMessage|string|First message: The first message submitted in the chat| x |
-|lastMessage|string|Last message: The last message submitted in the chat| x |
-|whenRequested|datetime|Chat requested: When was this chat requested by the customer?| x |
-|whenStarted|datetime|Chat started: When was this chat started between the customer and the agent?| x |
-|whenEnded|datetime|Chat ended: When did this chat end?| x |
-|duration|timeSpan|Duration: The duration of the chat session|  |
-|timeInQueue|timeSpan|Time in queue: The time spent waiting in the queue| x |
-|queueLength|int|Queue length: Queue length when the session was requested| x |
-|rating|int|Rating: Rating of chat session| x |
-|agent|ejUser|Agent: The agent of the chat| x |
-|status|listAny|Status: Status for the chat session| x |
-|chatTopic/chatTopicId|int|ID: The database ID of the chat channel| x |
-|chatTopic/name|string|Name: Name| x |
-|chatTopic/description|string|Description: The description of the chat channel| x |
-|chatTopic/badgeHeader|string|Badge header: The value of the badge header for the chat channel| x |
 |completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |recordType|string|Record type : Shows the record type| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
@@ -970,6 +970,7 @@ Activity archive provider for the Person card
 |yourref|string|Your ref.| x |
 |attention|string|Salutation| x |
 |subject|string|Subject| x |
+|name|string|File name | x |
 |mailMergeDraft|bool|Mail merge draft : Indicates whether the document is a mail merge template| x |
 |snum|int|Document number: Serial number of document. It can be generated by the number allocation system for a dedicated document template.| x |
 |isReport|bool|Report: Is this document a saved report run?|  |
@@ -1121,7 +1122,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=person/personCategory,person/personMobilePhone/formattedNumber,person/personAssociate/assocName,person/withdrawnEmarketingConsent,contact/email/emailLastSent
+GET /api/v1/archive/PersonActivity?$select=person/personUdef/SuperOffice:8,person/personAssociate/userName,person/correspondingAssociate/assocName,contact/contactDeleted,mailingAddr/contact/restrictionAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

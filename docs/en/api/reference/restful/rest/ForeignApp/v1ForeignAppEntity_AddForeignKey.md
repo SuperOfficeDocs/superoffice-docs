@@ -73,8 +73,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,14 +86,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quidem",
-  "Value": "minima",
-  "RecordId": 636,
-  "CreatedDate": "2004-08-06T12:15:26.9786352+02:00",
-  "UpdatedDate": "2004-10-16T12:15:26.9786352+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "asperiores",
-  "TableName": "Thompson-Hahn"
+  "Key": "et",
+  "Value": "necessitatibus",
+  "RecordId": 423,
+  "CreatedDate": "2013-01-16T15:29:29.7781985+01:00",
+  "UpdatedDate": "2009-05-04T15:29:29.7781985+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "accusamus",
+  "TableName": "Schamberger, Kshlerin and Lynch"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ea",
-  "Value": "et",
-  "RecordId": 458,
-  "CreatedDate": "2016-07-14T12:15:26.9786352+02:00",
-  "UpdatedDate": "2013-07-13T12:15:26.9786352+02:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "aliquid",
-  "TableName": "Nicolas Inc and Sons",
+  "Key": "dicta",
+  "Value": "est",
+  "RecordId": 455,
+  "CreatedDate": "2013-03-13T15:29:29.7786963+01:00",
+  "UpdatedDate": "2006-12-22T15:29:29.7786963+01:00",
+  "UpdatedBy": "suscipit",
+  "CreatedBy": "delectus",
+  "TableName": "Fahey-Sawayn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 574
     }
   }
 }

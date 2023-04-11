@@ -30,9 +30,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=et
-GET /api/v1/MDOList/{listname}?query=ut
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=aspernatur
+GET /api/v1/MDOList/{listname}?query=suscipit
 ```
 
 
@@ -74,8 +74,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,50 +94,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Gutmann-Hermann",
-    "ToolTip": "Dolore doloremque numquam aspernatur ea.",
-    "Deleted": true,
-    "Rank": 172,
-    "Type": "et",
+    "Id": 912,
+    "Name": "Romaguera-Haag",
+    "ToolTip": "Quaerat libero autem officia sunt.",
+    "Deleted": false,
+    "Rank": 971,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "McKenzie-Nader",
-        "ToolTip": "Adipisci totam sint eaque.",
+        "Id": 402,
+        "Name": "Greenfelder, Shields and Beatty",
+        "ToolTip": "Molestiae odit corrupti omnis.",
         "Deleted": false,
-        "Rank": 176,
-        "Type": "adipisci",
+        "Rank": 457,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illum",
-        "ColorBlock": 89,
-        "ExtraInfo": "saepe",
-        "StyleHint": "veritatis",
-        "FullName": "Araceli Feest",
+        "IconHint": "quis",
+        "ColorBlock": 248,
+        "ExtraInfo": "rerum",
+        "StyleHint": "vitae",
+        "FullName": "Mr. Leanna Skye Considine",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 183
+            "FieldLength": 335
           }
         }
       }
     ],
-    "IconHint": "veniam",
-    "ColorBlock": 257,
-    "ExtraInfo": "temporibus",
-    "StyleHint": "natus",
-    "FullName": "Mrs. Orville Rodrigo Jacobi DDS",
+    "IconHint": "aliquid",
+    "ColorBlock": 41,
+    "ExtraInfo": "impedit",
+    "StyleHint": "necessitatibus",
+    "FullName": "Ardella Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 990
       }
     }
   }

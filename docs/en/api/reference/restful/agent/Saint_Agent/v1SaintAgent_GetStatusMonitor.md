@@ -77,8 +77,8 @@ OK
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 169
+  "Id": 886
 }
 ```
 
@@ -101,27 +101,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 244,
-  "Rank": 412,
-  "DefaultTask": 327,
-  "DefaultTaskText": "aut",
+  "OwnerTable": 62,
+  "Rank": 970,
+  "DefaultTask": 525,
+  "DefaultTaskText": "voluptas",
   "IsVisual": false,
-  "LastGenerated": "2022-01-11T12:15:20.0137369+01:00",
-  "Description": "Organized 3rd generation productivity",
-  "Name": "Walsh LLC",
-  "StatusMonitorId": 296,
-  "PictureId": 676,
-  "NeedsUpdate": true,
+  "LastGenerated": "2011-07-07T15:29:22.6377969+02:00",
+  "Description": "De-engineered zero defect synergy",
+  "Name": "Krajcik Inc and Sons",
+  "StatusMonitorId": 976,
+  "PictureId": 754,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 61,
-  "NumNeedUpdate": 973,
-  "GenerationStart": "2019-05-22T12:15:20.0137369+02:00",
+  "NumMatches": 983,
+  "NumNeedUpdate": 208,
+  "GenerationStart": "1997-12-16T15:29:22.6377969+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 787
     }
   }
 }

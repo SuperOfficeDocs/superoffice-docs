@@ -1494,10 +1494,120 @@ title: Services88.PersonAgent WSDL
         </xs:sequence>
       </xs:complexType>
       <xs:element name="ArrayOfPersonImage" nillable="true" type="tns:ArrayOfPersonImage" />
+      <xs:element name="CreateOrUpdateUserCandidate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+            <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AccessAllRequests" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="CreateOrUpdateUserCandidateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserCandidate" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="UserCandidate">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="UserCandidateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="SecretKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SecretValue" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="UserCandidate" nillable="true" type="tns:UserCandidate" />
+      <xs:element name="GetUserCandidateByPerson">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserCandidateByPersonResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserCandidate" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomerCentrePasswordReplyTemplate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomerCentrePasswordReplyTemplateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ReplyTemplateParsed" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ReplyTemplateParsed">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
+              <xs:element minOccurs="0" name="PlainParsed" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="HtmlParsed" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Attachments" nillable="true" type="tns:ArrayOfAttachmentEntity" />
+              <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ReplyTemplateParsed" nillable="true" type="tns:ReplyTemplateParsed" />
+      <xs:complexType name="ArrayOfAttachmentEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="AttachmentEntity" nillable="true" type="tns:AttachmentEntity" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfAttachmentEntity" nillable="true" type="tns:ArrayOfAttachmentEntity" />
+      <xs:complexType name="AttachmentEntity">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="AttachmentId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ContentType" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AttSize" type="xs:int" />
+              <xs:element minOccurs="0" name="InlineImage" type="xs:boolean" />
+              <xs:element minOccurs="0" name="ContentId" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AuthKey" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="AttachmentEntity" nillable="true" type="tns:AttachmentEntity" />
+      <xs:element name="SendEmail">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="From" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="To" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="PlainBody" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="HtmlBody" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="AttachmentIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SendEmailResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetPersonList">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q6:ArrayOfint" xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="PersonIds" nillable="true" type="q7:ArrayOfint" xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -2437,6 +2547,74 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="CreateOrUpdateUserCandidateRequest">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateUserCandidate" />
+  </wsdl:message>
+  <wsdl:message name="CreateOrUpdateUserCandidateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="CreateOrUpdateUserCandidateResponse">
+    <wsdl:part name="parameters" element="tns:CreateOrUpdateUserCandidateResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateOrUpdateUserCandidateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserCandidateByPersonRequest">
+    <wsdl:part name="parameters" element="tns:GetUserCandidateByPerson" />
+  </wsdl:message>
+  <wsdl:message name="GetUserCandidateByPersonRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserCandidateByPersonResponse">
+    <wsdl:part name="parameters" element="tns:GetUserCandidateByPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserCandidateByPersonResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerCentrePasswordReplyTemplateRequest">
+    <wsdl:part name="parameters" element="tns:GetCustomerCentrePasswordReplyTemplate" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerCentrePasswordReplyTemplateRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerCentrePasswordReplyTemplateResponse">
+    <wsdl:part name="parameters" element="tns:GetCustomerCentrePasswordReplyTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerCentrePasswordReplyTemplateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailRequest">
+    <wsdl:part name="parameters" element="tns:SendEmail" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailResponse">
+    <wsdl:part name="parameters" element="tns:SendEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPersonListRequest">
     <wsdl:part name="parameters" element="tns:GetPersonList" />
   </wsdl:message>
@@ -2792,6 +2970,22 @@ title: Services88.PersonAgent WSDL
     <wsdl:operation name="GetPersonImages">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonImages" name="GetPersonImagesRequest" message="tns:GetPersonImagesRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonImagesResponse" name="GetPersonImagesResponse" message="tns:GetPersonImagesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateUserCandidate">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateOrUpdateUserCandidate" name="CreateOrUpdateUserCandidateRequest" message="tns:CreateOrUpdateUserCandidateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateOrUpdateUserCandidateResponse" name="CreateOrUpdateUserCandidateResponse" message="tns:CreateOrUpdateUserCandidateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserCandidateByPerson">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetUserCandidateByPerson" name="GetUserCandidateByPersonRequest" message="tns:GetUserCandidateByPersonRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetUserCandidateByPersonResponse" name="GetUserCandidateByPersonResponse" message="tns:GetUserCandidateByPersonResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerCentrePasswordReplyTemplate">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetCustomerCentrePasswordReplyTemplate" name="GetCustomerCentrePasswordReplyTemplateRequest" message="tns:GetCustomerCentrePasswordReplyTemplateRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetCustomerCentrePasswordReplyTemplateResponse" name="GetCustomerCentrePasswordReplyTemplateResponse" message="tns:GetCustomerCentrePasswordReplyTemplateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmail" name="SendEmailRequest" message="tns:SendEmailRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmailResponse" name="SendEmailResponse" message="tns:SendEmailResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonList" name="GetPersonListRequest" message="tns:GetPersonListRequest" />
@@ -3509,6 +3703,70 @@ title: Services88.PersonAgent WSDL
         <soap:header message="tns:GetPersonImagesResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetPersonImagesResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetPersonImagesResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateOrUpdateUserCandidate">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/CreateOrUpdateUserCandidate" style="document" />
+      <wsdl:input name="CreateOrUpdateUserCandidateRequest">
+        <soap:header message="tns:CreateOrUpdateUserCandidateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:CreateOrUpdateUserCandidateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:CreateOrUpdateUserCandidateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="CreateOrUpdateUserCandidateResponse">
+        <soap:header message="tns:CreateOrUpdateUserCandidateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:CreateOrUpdateUserCandidateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:CreateOrUpdateUserCandidateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:CreateOrUpdateUserCandidateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserCandidateByPerson">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetUserCandidateByPerson" style="document" />
+      <wsdl:input name="GetUserCandidateByPersonRequest">
+        <soap:header message="tns:GetUserCandidateByPersonRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetUserCandidateByPersonRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetUserCandidateByPersonRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetUserCandidateByPersonResponse">
+        <soap:header message="tns:GetUserCandidateByPersonResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetUserCandidateByPersonResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetUserCandidateByPersonResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetUserCandidateByPersonResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerCentrePasswordReplyTemplate">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetCustomerCentrePasswordReplyTemplate" style="document" />
+      <wsdl:input name="GetCustomerCentrePasswordReplyTemplateRequest">
+        <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCustomerCentrePasswordReplyTemplateResponse">
+        <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCustomerCentrePasswordReplyTemplateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmail" style="document" />
+      <wsdl:input name="SendEmailRequest">
+        <soap:header message="tns:SendEmailRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SendEmailRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SendEmailRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SendEmailResponse">
+        <soap:header message="tns:SendEmailResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SendEmailResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SendEmailResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SendEmailResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

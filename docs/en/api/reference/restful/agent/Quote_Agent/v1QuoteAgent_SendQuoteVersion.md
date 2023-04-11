@@ -75,8 +75,8 @@ OK
 | Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Url | string | Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,11 +88,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 855,
-  "ExpiryDate": "2019-02-15T12:15:19.8957382+01:00",
-  "FollowupDate": "2017-07-19T12:15:19.8957382+02:00",
-  "FollowupText": "non",
-  "Culture": "expedita"
+  "QuoteVersionId": 140,
+  "ExpiryDate": "1996-01-04T15:29:22.5202647+01:00",
+  "FollowupDate": "2019-12-10T15:29:22.5202647+01:00",
+  "FollowupText": "ipsam",
+  "Culture": "quo"
 }
 ```
 
@@ -103,10 +103,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "adipisci",
-  "TechExplanation": "blanditiis",
-  "ErrorCode": "odit",
+  "IsOk": true,
+  "UserExplanation": "sit",
+  "TechExplanation": "perferendis",
+  "ErrorCode": "dolor",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 588
     }
   }
 }

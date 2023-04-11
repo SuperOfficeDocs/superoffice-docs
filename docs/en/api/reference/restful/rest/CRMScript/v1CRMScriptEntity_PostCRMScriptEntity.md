@@ -88,8 +88,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -98,21 +98,21 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 767,
-  "UniqueIdentifier": "doloremque",
-  "Name": "Ferry-Casper",
-  "Description": "Synergistic web-enabled knowledge base",
-  "IncludeId": "quidem",
-  "HierarchyId": 394,
-  "Source": "sit",
-  "Registered": "2016-02-08T12:15:26.8096418+01:00",
-  "RegisteredAssociateId": 395,
-  "Updated": "2010-09-03T12:15:26.8096418+02:00",
-  "UpdatedAssociateId": 336
+  "EjscriptId": 610,
+  "UniqueIdentifier": "pariatur",
+  "Name": "Runte-Mohr",
+  "Description": "Optimized scalable success",
+  "IncludeId": "quis",
+  "HierarchyId": 988,
+  "Source": "omnis",
+  "Registered": "2011-09-25T15:29:29.620205+02:00",
+  "RegisteredAssociateId": 619,
+  "Updated": "2022-10-02T15:29:29.620205+02:00",
+  "UpdatedAssociateId": 403
 }
 ```
 
@@ -123,28 +123,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 71,
-  "UniqueIdentifier": "dolorem",
-  "Name": "Stoltenberg-Hudson",
-  "Description": "Re-engineered tertiary leverage",
-  "IncludeId": "blanditiis",
-  "HierarchyId": 472,
-  "Source": "alias",
-  "Registered": "2011-10-19T12:15:26.8096418+02:00",
-  "RegisteredAssociateId": 873,
-  "Updated": "1997-01-23T12:15:26.8096418+01:00",
-  "UpdatedAssociateId": 302,
+  "EjscriptId": 180,
+  "UniqueIdentifier": "enim",
+  "Name": "Mitchell, Mills and Kris",
+  "Description": "Ergonomic high-level concept",
+  "IncludeId": "ut",
+  "HierarchyId": 657,
+  "Source": "consectetur",
+  "Registered": "2013-10-24T15:29:29.627202+02:00",
+  "RegisteredAssociateId": 966,
+  "Updated": "2005-08-17T15:29:29.627202+02:00",
+  "UpdatedAssociateId": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldLength": 741
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

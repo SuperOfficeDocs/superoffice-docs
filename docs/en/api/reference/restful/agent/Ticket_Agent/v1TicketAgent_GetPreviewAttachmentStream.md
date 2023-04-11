@@ -68,8 +68,8 @@ OK
 | Type | string | The mimetype of the stream |
 | Size | int32 | Size of the stream |
 | Stream | byte | Document data |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 626
+  "AttachmentId": 694
 }
 ```
 
@@ -92,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gaylord-Blick",
-  "Type": "amet",
-  "Size": 974,
+  "Name": "Abshire-Macejkovic",
+  "Type": "nemo",
+  "Size": 923,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 204
     }
   }
 }

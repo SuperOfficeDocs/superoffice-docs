@@ -87,8 +87,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,28 +96,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 775,
-  "Section": "officiis",
-  "Key": "ipsam",
-  "Name": "Cruickshank Inc and Sons",
+  "PrefDescId": 364,
+  "Section": "eos",
+  "Key": "qui",
+  "Name": "Mante, Crona and Hayes",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic 24/7 matrices",
+  "Description": "Customer-focused local knowledge base",
   "IsBuiltin": false,
-  "TableName": "Gerlach, Simonis and Langworth",
-  "UserDefinedListId": 104,
-  "Rank": 38,
-  "SubGroup": "odit",
-  "MinLevel": 752,
-  "MaxValue": 205,
-  "MinValue": 956,
-  "RequiredLicense": "repudiandae"
+  "TableName": "Bartell-Kunze",
+  "UserDefinedListId": 612,
+  "Rank": 668,
+  "SubGroup": "corrupti",
+  "MinLevel": 352,
+  "MaxValue": 500,
+  "MinValue": 227,
+  "RequiredLicense": "vitae"
 }
 ```
 
@@ -128,30 +128,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 380,
-  "Section": "unde",
-  "Key": "dolorem",
-  "Name": "Wilkinson LLC",
+  "PrefDescId": 355,
+  "Section": "pariatur",
+  "Key": "illo",
+  "Name": "Volkman-Green",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Streamlined next generation process improvement",
+  "Description": "Implemented needs-based utilisation",
   "IsBuiltin": false,
-  "TableName": "Zemlak, O'Keefe and Howell",
-  "UserDefinedListId": 630,
-  "Rank": 324,
-  "SubGroup": "exercitationem",
-  "MinLevel": 342,
-  "MaxValue": 316,
-  "MinValue": 468,
-  "RequiredLicense": "nam",
+  "TableName": "Barton-Muller",
+  "UserDefinedListId": 502,
+  "Rank": 836,
+  "SubGroup": "quia",
+  "MinLevel": 181,
+  "MaxValue": 481,
+  "MinValue": 290,
+  "RequiredLicense": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 881
     }
   }
 }

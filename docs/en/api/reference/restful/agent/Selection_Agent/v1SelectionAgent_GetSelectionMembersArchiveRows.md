@@ -70,8 +70,8 @@ OK
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 923,
-  "Select": "dicta"
+  "SelectionId": 990,
+  "Select": "omnis"
 }
 ```
 
@@ -96,23 +96,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Halvorson-Wunsch",
-    "PrimaryKey": 247,
+    "EntityName": "Dach Group",
+    "PrimaryKey": 1000,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "fuga",
-        "TooltipHint": "dignissimos",
-        "LinkHint": "reprehenderit"
+        "DisplayValue": "officiis",
+        "TooltipHint": "qui",
+        "LinkHint": "quidem"
       }
     },
-    "LinkHint": "ipsam",
-    "StyleHint": "aspernatur",
+    "LinkHint": "ad",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldType": "System.Int32",
+        "FieldLength": 641
       }
     }
   }

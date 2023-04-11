@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=consectetur
-GET /api/v1/Document?$top=780
-GET /api/v1/Document?$skip=740
+GET /api/v1/Document?$entities=laudantium
+GET /api/v1/Document?$top=219
+GET /api/v1/Document?$skip=313
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=eius
+GET /api/v1/Document?$context=quisquam
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "explicabo",
+  "odata.nextLink": "necessitatibus",
   "value": [
     {
-      "PrimaryKey": 1352,
+      "PrimaryKey": 5643,
       "EntityName": "sale",
-      "saleId": 1352,
-      "contactId": 9741,
-      "name": "Veum, Turcotte and McClure"
+      "saleId": 5643,
+      "contactId": 222,
+      "name": "Spencer, O'Keefe and Gibson"
     },
     {
-      "PrimaryKey": 9466,
+      "PrimaryKey": 7400,
       "EntityName": "sale",
-      "saleId": 9466,
-      "contactId": 3340,
-      "name": "Gutkowski Inc and Sons"
+      "saleId": 7400,
+      "contactId": 9171,
+      "name": "Lemke, Altenwerth and Wolff"
     }
   ]
 }

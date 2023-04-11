@@ -157,8 +157,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quos",
-  "ProviderName": "Brekke-Pacocha",
-  "StorageKey": "et",
-  "ExtraRestrictions": "pariatur",
-  "OrderBy": "quia",
-  "DesiredColumns": "explicabo",
-  "PageSize": 176,
-  "PageNumber": 757
+  "StorageType": "et",
+  "ProviderName": "Windler Group",
+  "StorageKey": "praesentium",
+  "ExtraRestrictions": "explicabo",
+  "OrderBy": "voluptatem",
+  "DesiredColumns": "sunt",
+  "PageSize": 998,
+  "PageNumber": 530
 }
 ```
 
@@ -190,51 +190,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Haley, Kulas and Hamill",
-      "DisplayTooltip": "esse",
-      "DisplayType": "blanditiis",
-      "CanOrderBy": true,
-      "Name": "Bayer LLC",
+      "DisplayName": "Mann-Mohr",
+      "DisplayTooltip": "libero",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Schulist-Kemmer",
       "CanRestrictBy": false,
-      "RestrictionType": "sapiente",
-      "RestrictionListName": "Grady Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "est",
-      "Width": "aliquid",
-      "IconHint": "fugiat",
-      "HeadingIconHint": "similique"
+      "RestrictionType": "qui",
+      "RestrictionListName": "Gerlach-Zieme",
+      "IsVisible": false,
+      "ExtraInfo": "ut",
+      "Width": "ut",
+      "IconHint": "laborum",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schmeler, Ondricka and Maggio",
-      "PrimaryKey": 947,
+      "EntityName": "Kuhn, Monahan and Nikolaus",
+      "PrimaryKey": 245,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "sint",
-          "LinkHint": "velit"
+          "DisplayValue": "odit",
+          "TooltipHint": "saepe",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "velit",
+      "LinkHint": "et",
+      "StyleHint": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldType": "System.String",
+          "FieldLength": 59
         }
       }
     }
   ],
-  "RowCount": 849,
+  "RowCount": 640,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

@@ -83,8 +83,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 117,
-  "BlobSize": 644,
-  "Description": "Expanded full-range firmware",
-  "ExtraInfo": "molestiae",
+  "BlobId": 53,
+  "BlobSize": 195,
+  "Description": "Digitized optimal conglomeration",
+  "ExtraInfo": "reprehenderit",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "repudiandae",
-  "OriginalSize": 706,
-  "CreatedDate": "2013-04-29T12:15:27.1206331+02:00",
-  "UpdatedDate": "2000-06-20T12:15:27.1206331+02:00",
+  "MimeType": "dolore",
+  "OriginalSize": 396,
+  "CreatedDate": "2003-11-28T15:29:29.9276981+01:00",
+  "UpdatedDate": "1996-01-02T15:29:29.9276981+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "illo"
+  "ConceptualType": "ad"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 520,
-  "BlobSize": 925,
-  "Description": "Streamlined exuding initiative",
-  "ExtraInfo": "voluptatum",
+  "BlobId": 255,
+  "BlobSize": 344,
+  "Description": "Automated bifurcated collaboration",
+  "ExtraInfo": "distinctio",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "impedit",
-  "OriginalSize": 701,
-  "CreatedDate": "2021-10-23T12:15:27.1236329+02:00",
-  "UpdatedDate": "2022-10-19T12:15:27.1236329+02:00",
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 762,
+  "CreatedDate": "2018-10-27T15:29:29.9296965+02:00",
+  "UpdatedDate": "2008-11-18T15:29:29.9296965+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "beatae",
+  "ConceptualType": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 294
     }
   }
 }

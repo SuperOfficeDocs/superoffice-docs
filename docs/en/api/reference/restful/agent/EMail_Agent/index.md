@@ -9,6 +9,8 @@ title: EMail_Agent
 
 
 
+* [POST Agents/EMail/MoveEmailsToTrash](v1EMailAgent_MoveEmailsToTrash.md)
+
 * [POST Agents/EMail/Save](v1EMailAgent_Save.md)
 
 * [POST Agents/EMail/SaveToMailServer](v1EMailAgent_SaveToMailServer.md)
@@ -123,6 +125,8 @@ title: EMail_Agent
 
 * [POST Agents/EMail/HasSPFRecord](v1EMailAgent_HasSPFRecord.md)
 
+* [POST Agents/EMail/ResolveEMailRecipients](v1EMailAgent_ResolveEMailRecipients.md)
+
 * [POST Agents/EMail/GetEMailFromId](v1EMailAgent_GetEMailFromId.md)
 
 * [POST Agents/EMail/SendEMails](v1EMailAgent_SendEMails.md)
@@ -204,5 +208,3 @@ title: EMail_Agent
 * [POST Agents/EMail/MarkEmailsAsRead](v1EMailAgent_MarkEmailsAsRead.md)
 
 * [POST Agents/EMail/DeleteEmails](v1EMailAgent_DeleteEmails.md)
-
-* [POST Agents/EMail/MoveEmailsToTrash](v1EMailAgent_MoveEmailsToTrash.md)

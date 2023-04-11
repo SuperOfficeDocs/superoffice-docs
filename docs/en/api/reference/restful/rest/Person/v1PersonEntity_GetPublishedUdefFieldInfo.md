@@ -83,8 +83,8 @@ PersonEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 335,
-  "ColumnId": 845,
-  "FieldDefault": "ut",
-  "FieldHeight": 736,
-  "FieldLabel": "quibusdam",
-  "FieldLeft": 584,
-  "FieldTop": 95,
+  "UDefFieldId": 382,
+  "ColumnId": 70,
+  "FieldDefault": "voluptatum",
+  "FieldHeight": 361,
+  "FieldLabel": "enim",
+  "FieldLeft": 752,
+  "FieldTop": 67,
   "FieldType": "Checkbox",
-  "FieldWidth": 216,
-  "FormatMask": "voluptatibus",
+  "FieldWidth": 813,
+  "FormatMask": "illum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 875,
-  "LabelLeft": 78,
-  "LabelTop": 388,
-  "LabelWidth": 526,
-  "LastVersionId": 962,
-  "ListTableId": 939,
+  "LabelHeight": 747,
+  "LabelLeft": 870,
+  "LabelTop": 213,
+  "LabelWidth": 996,
+  "LastVersionId": 391,
+  "ListTableId": 862,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 120,
-  "ProgId": "assumenda",
-  "IsReadOnly": true,
-  "ShortLabel": "consequatur",
-  "TabOrder": 81,
-  "TextLength": 236,
-  "Tooltip": "itaque",
-  "UdefIdentity": 331,
-  "UDListDefinitionId": 368,
+  "Page1LineNo": 950,
+  "ProgId": "laudantium",
+  "IsReadOnly": false,
+  "ShortLabel": "expedita",
+  "TabOrder": 109,
+  "TextLength": 522,
+  "Tooltip": "ut",
+  "UdefIdentity": 584,
+  "UDListDefinitionId": 943,
   "Justification": "Center",
-  "Version": 369,
-  "TemplateVariableName": "Lemke-Koss",
-  "HasBeenPublished": true,
-  "MdoListName": "Nolan LLC",
+  "Version": 820,
+  "TemplateVariableName": "Glover-Olson",
+  "HasBeenPublished": false,
+  "MdoListName": "Nienow-Keeling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

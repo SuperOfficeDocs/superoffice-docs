@@ -71,8 +71,8 @@ OK
 | Changes | ChangedData | Tablename/recordid of data changed by this method, that the client may need to reload |
 | Url | string | Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url. |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Quote/GetOrderState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 811
+  "QuoteVersionId": 787
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "ipsa",
-  "TechExplanation": "rerum",
-  "ErrorCode": "et",
+  "IsOk": false,
+  "UserExplanation": "quidem",
+  "TechExplanation": "esse",
+  "ErrorCode": "odio",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 170
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   }
 }

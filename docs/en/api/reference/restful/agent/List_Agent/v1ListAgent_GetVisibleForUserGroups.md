@@ -78,8 +78,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 740,
-  "ListItemId": 131
+  "UdListDefinitionId": 499,
+  "ListItemId": 834
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Barton Inc and Sons",
-    "ToolTip": "Sunt ut laboriosam ex deserunt repellendus explicabo quidem.",
-    "Deleted": false,
-    "Rank": 490,
-    "Type": "fugiat",
-    "ColorBlock": 460,
-    "IconHint": "aut",
+    "Id": 155,
+    "Name": "Lakin, Hoppe and O'Keefe",
+    "ToolTip": "Odio quia illum modi cum.",
+    "Deleted": true,
+    "Rank": 568,
+    "Type": "dolores",
+    "ColorBlock": 998,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2012-07-21T12:15:19.2457471+02:00",
+    "LastChanged": "2022-02-27T15:29:22.0072725+01:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Senger-Kling",
-        "ToolTip": "Eum dolor harum ipsam dolore aspernatur.",
+        "Id": 927,
+        "Name": "Huels-Rolfson",
+        "ToolTip": "Est tempora voluptas qui.",
         "Deleted": false,
-        "Rank": 239,
-        "Type": "quod",
-        "ColorBlock": 834,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2016-03-16T12:15:19.2457471+01:00",
+        "Rank": 847,
+        "Type": "enim",
+        "ColorBlock": 837,
+        "IconHint": "dolorem",
+        "Selected": false,
+        "LastChanged": "2002-07-23T15:29:22.0072725+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Nakia Hamill",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "ipsa",
+        "Hidden": true,
+        "FullName": "Geoffrey Alford Conn Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldType": "System.String",
+            "FieldLength": 950
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Miguel Johns",
+    "ExtraInfo": "id",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Jamal Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 537
       }
     }
   }

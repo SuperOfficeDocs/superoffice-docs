@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -105,73 +105,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "error",
-    "ValueType": "similique",
-    "Mandatory": true,
-    "EncodedDisplayName": "Schuster Group",
-    "EncodedDisplayDescription": "Configurable grid-enabled standardization",
-    "IconHint": "quia",
+    "IsActive": false,
+    "Key": "et",
+    "ValueType": "adipisci",
+    "Mandatory": false,
+    "EncodedDisplayName": "Mueller LLC",
+    "EncodedDisplayDescription": "Balanced actuating internet solution",
+    "IconHint": "soluta",
     "ControlInfos": [
       {
-        "Type": "vitae",
-        "Label": "ut",
-        "Dimension": 783,
-        "ListProviderName": "Wilderman, Labadie and Breitenberg",
-        "ListProviderExtraInfo": "facilis",
-        "ListProviderPrimaryKeyName": "Dach Group",
-        "ListLeadText": "consectetur",
+        "Type": "ut",
+        "Label": "et",
+        "Dimension": 983,
+        "ListProviderName": "Gerlach Inc and Sons",
+        "ListProviderExtraInfo": "adipisci",
+        "ListProviderPrimaryKeyName": "Schowalter-Goodwin",
+        "ListLeadText": "perferendis",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 526
+          }
+        }
+      }
+    ],
+    "EncodedDataCaption": "asperiores",
+    "EncodedDataCaptionDescription": "User-friendly optimizing Graphical User Interface",
+    "CurrentOperationType": "sed",
+    "Values": [
+      "in",
+      "a"
+    ],
+    "DisplayValues": [
+      "voluptatibus",
+      "inventore"
+    ],
+    "OperationInfos": [
+      {
+        "Key": "molestias",
+        "EncodedDisplayName": "Cassin LLC",
+        "EncodedLeadTexts": [
+          "autem",
+          "sunt"
+        ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 949
-          }
-        }
-      }
-    ],
-    "EncodedDataCaption": "eaque",
-    "EncodedDataCaptionDescription": "Distributed high-level archive",
-    "CurrentOperationType": "sint",
-    "Values": [
-      "temporibus",
-      "a"
-    ],
-    "DisplayValues": [
-      "cupiditate",
-      "molestiae"
-    ],
-    "OperationInfos": [
-      {
-        "Key": "aut",
-        "EncodedDisplayName": "Gorczany-Welch",
-        "EncodedLeadTexts": [
-          "aliquam",
-          "accusamus"
-        ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 234
+            "FieldLength": 875
           }
         }
       },
       {
-        "Key": "aut",
-        "EncodedDisplayName": "Gorczany-Welch",
+        "Key": "molestias",
+        "EncodedDisplayName": "Cassin LLC",
         "EncodedLeadTexts": [
-          "aliquam",
-          "accusamus"
+          "autem",
+          "sunt"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 234
+            "FieldType": "System.Int32",
+            "FieldLength": 875
           }
         }
       }

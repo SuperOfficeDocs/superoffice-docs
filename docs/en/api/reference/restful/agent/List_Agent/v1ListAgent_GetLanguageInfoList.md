@@ -66,8 +66,8 @@ OK
 | ThreeLetterISOLanguageName | string | ISO 3-letter abbreviation |
 | TwoLetterISOLanguageName | string | ISO 2-letter abbreviation |
 | IsBuiltIn | bool | Has this row been inserted by SuperOffice priming data |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,12 +86,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 546,
-    "LCID": 252,
-    "EnglishName": "Tremblay LLC",
-    "NativeName": "Kozey, Corwin and Berge",
-    "ThreeLetterISOLanguageName": "Effertz-Wintheiser",
-    "TwoLetterISOLanguageName": "Reichel Group",
+    "LanguageInfoId": 621,
+    "LCID": 432,
+    "EnglishName": "Kohler, Mohr and Kulas",
+    "NativeName": "Runolfsson-Wyman",
+    "ThreeLetterISOLanguageName": "Collier LLC",
+    "TwoLetterISOLanguageName": "Lehner Inc and Sons",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {

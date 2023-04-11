@@ -65,9 +65,9 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eos",
-  "ProviderName": "Hilpert LLC",
-  "StorageKey": "consequatur",
-  "Context": "voluptatibus"
+  "StorageType": "reiciendis",
+  "ProviderName": "Frami, Lehner and Littel",
+  "StorageKey": "porro",
+  "Context": "accusantium"
 }
 ```
 
@@ -95,20 +95,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mitchell Group",
-    "Description": "Open-architected neutral projection",
-    "Rank": 422,
+    "Name": "Morar, Schumm and Brakus",
+    "Description": "Upgradable asynchronous toolset",
+    "Rank": 495,
     "Restrictions": [
       {
-        "Name": "Schumm, Waelchi and Lang",
-        "Operator": "sed",
+        "Name": "Wyman Group",
+        "Operator": "dolores",
         "Values": [
-          "aperiam",
-          "voluptas"
+          "minima",
+          "non"
         ],
         "DisplayValues": [
-          "laboriosam",
-          "ipsa"
+          "aut",
+          "quod"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -116,27 +116,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 815,
+        "InterParenthesis": 210,
         "InterOperator": "And",
-        "UniqueHash": 85
+        "UniqueHash": 295
       }
     ]
   },
   {
-    "Name": "Mitchell Group",
-    "Description": "Open-architected neutral projection",
-    "Rank": 422,
+    "Name": "Morar, Schumm and Brakus",
+    "Description": "Upgradable asynchronous toolset",
+    "Rank": 495,
     "Restrictions": [
       {
-        "Name": "Schumm, Waelchi and Lang",
-        "Operator": "sed",
+        "Name": "Wyman Group",
+        "Operator": "dolores",
         "Values": [
-          "aperiam",
-          "voluptas"
+          "minima",
+          "non"
         ],
         "DisplayValues": [
-          "laboriosam",
-          "ipsa"
+          "aut",
+          "quod"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -144,9 +144,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 815,
+        "InterParenthesis": 210,
         "InterOperator": "And",
-        "UniqueHash": 85
+        "UniqueHash": 295
       }
     ]
   }

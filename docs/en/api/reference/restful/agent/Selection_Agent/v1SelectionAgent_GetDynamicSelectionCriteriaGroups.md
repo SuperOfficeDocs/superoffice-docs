@@ -64,9 +64,9 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 378
+  "SelectionId": 23
 }
 ```
 
@@ -91,58 +91,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bailey LLC",
-    "Description": "Multi-lateral global architecture",
-    "Rank": 357,
+    "Name": "Metz LLC",
+    "Description": "Expanded radical algorithm",
+    "Rank": 954,
     "Restrictions": [
       {
-        "Name": "Kertzmann, Rath and Blanda",
-        "Operator": "ex",
+        "Name": "Cruickshank, Olson and Brakus",
+        "Operator": "ratione",
         "Values": [
-          "sit",
-          "omnis"
+          "ut",
+          "qui"
         ],
         "DisplayValues": [
-          "quae",
-          "et"
+          "consequatur",
+          "fuga"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 568,
+        "InterParenthesis": 261,
         "InterOperator": "And",
-        "UniqueHash": 139
+        "UniqueHash": 826
       }
     ]
   },
   {
-    "Name": "Bailey LLC",
-    "Description": "Multi-lateral global architecture",
-    "Rank": 357,
+    "Name": "Metz LLC",
+    "Description": "Expanded radical algorithm",
+    "Rank": 954,
     "Restrictions": [
       {
-        "Name": "Kertzmann, Rath and Blanda",
-        "Operator": "ex",
+        "Name": "Cruickshank, Olson and Brakus",
+        "Operator": "ratione",
         "Values": [
-          "sit",
-          "omnis"
+          "ut",
+          "qui"
         ],
         "DisplayValues": [
-          "quae",
-          "et"
+          "consequatur",
+          "fuga"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 568,
+        "InterParenthesis": 261,
         "InterOperator": "And",
-        "UniqueHash": 139
+        "UniqueHash": 826
       }
     ]
   }

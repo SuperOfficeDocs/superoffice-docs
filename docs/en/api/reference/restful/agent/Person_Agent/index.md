@@ -93,6 +93,14 @@ title: Person_Agent
 
 * [POST Agents/Person/GetPersonImages](v1PersonAgent_GetPersonImages.md)
 
+* [POST Agents/Person/CreateOrUpdateUserCandidate](v1PersonAgent_CreateOrUpdateUserCandidate.md)
+
+* [POST Agents/Person/GetUserCandidateByPerson](v1PersonAgent_GetUserCandidateByPerson.md)
+
+* [POST Agents/Person/GetCustomerCentrePasswordReplyTemplate](v1PersonAgent_GetCustomerCentrePasswordReplyTemplate.md)
+
+* [POST Agents/Person/SendEmail](v1PersonAgent_SendEmail.md)
+
 * [POST Agents/Person/GetPersonList](v1PersonAgent_GetPersonList.md)
 
 * [POST Agents/Person/GetPersonsFromContact](v1PersonAgent_GetPersonsFromContact.md)

@@ -65,8 +65,8 @@ OK
 | SaleStakeholderId | int32 | Primary key |
 | Rank | int32 | Rank in list of stakeholders |
 | Phone | string | Phone number |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Franecki, Konopelski and Jakubowski",
-  "Comment": "non",
-  "StakeholderRoleId": 360,
-  "CountryId": 929,
-  "PersonId": 767,
-  "EmailDescription": "ricardo@tromp.us",
-  "EmailId": 744,
-  "EmailAddress": "caitlyn@pfannerstill.uk",
-  "PhoneId": 421,
-  "ContactName": "Champlin, Skiles and Conroy",
-  "ContactId": 767,
-  "SaleId": 454,
-  "Mrmrs": "neque",
-  "Firstname": "Adell",
-  "MiddleName": "Russel Inc and Sons",
-  "Lastname": "McGlynn",
-  "SaleStakeholderId": 608,
-  "Rank": 928,
-  "Phone": "(487)196-5976 x1149",
+  "StakeholderRoleName": "Zieme-Leuschke",
+  "Comment": "consequuntur",
+  "StakeholderRoleId": 986,
+  "CountryId": 404,
+  "PersonId": 242,
+  "EmailDescription": "glennie@harris.co.uk",
+  "EmailId": 88,
+  "EmailAddress": "hilario@barton.com",
+  "PhoneId": 267,
+  "ContactName": "Hettinger, Mertz and Gorczany",
+  "ContactId": 934,
+  "SaleId": 145,
+  "Mrmrs": "distinctio",
+  "Firstname": "Cecile",
+  "MiddleName": "Schmidt-Wisoky",
+  "Lastname": "Spinka",
+  "SaleStakeholderId": 273,
+  "Rank": 858,
+  "Phone": "1-303-656-0361",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 215
     }
   }
 }

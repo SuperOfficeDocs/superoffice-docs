@@ -77,8 +77,8 @@ OK
 | OrderComment | string | A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing |
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | QuoteVersions | array | Array og QuoteVersions connected to the quote. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 534,
-  "SaleId": 865,
-  "QuoteConnectionId": 803,
-  "ERPQuoteKey": "necessitatibus",
-  "ERPOrderKey": "et",
-  "ActiveQuoteVersionId": 972,
-  "AcceptedQuoteAlternativeId": 181,
-  "UseValuesFromQuote": 247,
-  "DocumentId": 762,
-  "PoNumber": "847382",
-  "OrderComment": "qui",
-  "PreferredEmailCulture": "demetris@waelchi.info",
+  "QuoteId": 167,
+  "SaleId": 864,
+  "QuoteConnectionId": 522,
+  "ERPQuoteKey": "eaque",
+  "ERPOrderKey": "commodi",
+  "ActiveQuoteVersionId": 905,
+  "AcceptedQuoteAlternativeId": 612,
+  "UseValuesFromQuote": 292,
+  "DocumentId": 328,
+  "PoNumber": "1667045",
+  "OrderComment": "quis",
+  "PreferredEmailCulture": "sally_beier@auerweissnat.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 175,
-      "ERPQuoteVersionKey": "in",
-      "QuoteId": 295,
-      "Description": "Robust object-oriented info-mediaries",
-      "Number": "1121411",
+      "QuoteVersionId": 878,
+      "ERPQuoteVersionKey": "quisquam",
+      "QuoteId": 559,
+      "Description": "De-engineered motivating complexity",
+      "Number": "363697",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 239,
-      "SentDate": "2002-11-12T12:15:19.9587378+01:00",
-      "FollowupId": 527,
-      "ExpirationDate": "2014-09-04T12:15:19.9587378+02:00",
-      "DeliveryCountryId": 880,
+      "LikelyQuoteAlternativeId": 918,
+      "SentDate": "2009-07-12T15:29:22.5857648+02:00",
+      "FollowupId": 448,
+      "ExpirationDate": "2015-10-02T15:29:22.5857648+02:00",
+      "DeliveryCountryId": 982,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 61,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "maxime",
-      "ERPPaymentTypeKey": "in",
-      "ERPDeliveryTermsKey": "esse",
-      "ERPDeliveryTypeKey": "error",
-      "Rank": 468,
-      "ApprovedBy": 379,
-      "ApprovedText": "quia",
-      "ApprovedRegisteredBy": 42,
-      "ApprovedRegisteredDate": "2021-09-16T12:15:19.9587378+02:00",
-      "ExtraField1": "ut",
-      "ExtraField2": "vero",
-      "ExtraField3": "aliquid",
-      "ExtraField4": "tempora",
-      "ExtraField5": "deleniti",
-      "LastRecalculated": "2021-07-08T12:15:19.9587378+02:00",
-      "Updated": "2020-09-12T12:15:19.9587378+02:00",
-      "UpdatedAssociateId": 749,
-      "Registered": "2008-06-03T12:15:19.9587378+02:00",
-      "RegisteredAssociateId": 205,
-      "RequestAssociateId": 627,
-      "RequestComment": "accusamus",
+      "InvoiceCountryId": 980,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "eos",
+      "ERPPaymentTypeKey": "non",
+      "ERPDeliveryTermsKey": "velit",
+      "ERPDeliveryTypeKey": "et",
+      "Rank": 71,
+      "ApprovedBy": 190,
+      "ApprovedText": "iusto",
+      "ApprovedRegisteredBy": 261,
+      "ApprovedRegisteredDate": "2006-11-10T15:29:22.5862645+01:00",
+      "ExtraField1": "facilis",
+      "ExtraField2": "commodi",
+      "ExtraField3": "optio",
+      "ExtraField4": "odit",
+      "ExtraField5": "ducimus",
+      "LastRecalculated": "2010-08-25T15:29:22.5862645+02:00",
+      "Updated": "1999-07-27T15:29:22.5862645+02:00",
+      "UpdatedAssociateId": 384,
+      "Registered": "2017-11-16T15:29:22.5862645+01:00",
+      "RegisteredAssociateId": 714,
+      "RequestAssociateId": 747,
+      "RequestComment": "aut",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldType": "System.String",
+          "FieldLength": 915
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   }
 }

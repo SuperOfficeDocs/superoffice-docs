@@ -99,8 +99,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -112,7 +112,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 941,
+  "DocumentId": 828,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -124,88 +124,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 217,
+  "DocumentId": 404,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "perferendis",
-  "Header": "repellendus",
-  "Name": "Beatty LLC",
-  "OurRef": "enim",
-  "YourRef": "rerum",
-  "CreatedDate": "1997-10-27T12:15:18.8827534+01:00",
-  "UpdatedDate": "2011-12-21T12:15:18.8827534+01:00",
-  "Description": "Synergized value-added benchmark",
+  "Attention": "sed",
+  "Header": "ipsum",
+  "Name": "Kling-Legros",
+  "OurRef": "illum",
+  "YourRef": "quo",
+  "CreatedDate": "2003-05-07T15:29:21.6488106+02:00",
+  "UpdatedDate": "2001-12-24T15:29:21.6488106+01:00",
+  "Description": "Synergistic asynchronous protocol",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-03-12T12:15:18.8857526+01:00",
-  "ExternalRef": "consequatur",
+  "Date": "2011-08-25T15:29:21.6528108+02:00",
+  "ExternalRef": "adipisci",
   "Completed": "Completed",
-  "ActiveLinks": 56,
+  "ActiveLinks": 792,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Fisher Group",
-      "Id": 397,
-      "Description": "Implemented systematic software",
-      "ExtraInfo": "et",
-      "LinkId": 156,
+      "EntityName": "Brekke-Mosciski",
+      "Id": 731,
+      "Description": "Innovative clear-thinking frame",
+      "ExtraInfo": "qui",
+      "LinkId": 674,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 461
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 636,
-  "Snum": 597,
+  "SuggestedDocumentId": 678,
+  "Snum": 990,
   "UserDefinedFields": {
-    "SuperOffice:1": "953162316",
-    "SuperOffice:2": "Lester O'Hara"
+    "SuperOffice:1": "1099289829",
+    "SuperOffice:2": "Nettie Lindgren"
   },
   "ExtraFields": {
-    "ExtraFields1": "ex",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "est",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "non"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2014-06-07T12:15:18.8867529+02:00",
-  "PublishTo": "2000-07-23T12:15:18.8867529+02:00",
-  "PublishFrom": "2021-09-06T12:15:18.8867529+02:00",
+  "PublishEventDate": "2004-10-29T15:29:21.6533107+02:00",
+  "PublishTo": "2004-10-26T15:29:21.6533107+02:00",
+  "PublishFrom": "1998-01-23T15:29:21.6533107+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 22,
+      "VisibleId": 486,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 658
         }
       }
     },
     {
-      "VisibleId": 22,
+      "VisibleId": 486,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "reiciendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldLength": 658
         }
       }
     }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 681
     }
   }
 }

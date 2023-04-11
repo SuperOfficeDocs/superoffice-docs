@@ -48,15 +48,15 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo | RecurrenceInfo |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
+| Name | string | The programmatic column name, including any required prefixes |
+| Operator | string | The operator, such as =, etc |
+| Values | array | Value(s) to test against |
+| DisplayValues | array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | bool | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | int32 | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | string | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | int32 |  |
 
 ## Sample request
@@ -76,29 +76,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gislason, Heaney and Hackett",
-    "Operator": "sequi",
+    "Name": "Wiza-Wolff",
+    "Operator": "voluptatem",
     "Values": [
-      "rem",
-      "temporibus"
+      "in",
+      "velit"
     ],
     "DisplayValues": [
-      "earum",
-      "illo"
+      "repudiandae",
+      "vero"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Balistreri, Bednar and Greenfelder",
-        "Operator": "facere",
+        "Name": "Walsh Inc and Sons",
+        "Operator": "omnis",
         "Values": [
-          "qui",
-          "ab"
+          "mollitia",
+          "ad"
         ],
         "DisplayValues": [
-          "veritatis",
-          "sint"
+          "omnis",
+          "voluptatem"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -106,14 +106,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 838,
+        "InterParenthesis": 253,
         "InterOperator": "And",
-        "UniqueHash": 407
+        "UniqueHash": 429
       }
     ],
-    "InterParenthesis": 545,
+    "InterParenthesis": 431,
     "InterOperator": "And",
-    "UniqueHash": 547
+    "UniqueHash": 64
   }
 ]
 ```

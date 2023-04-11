@@ -111,8 +111,8 @@ OK
 | IsVisibleForCategories | bool |  |
 | IsVisibleForPersonInterests | bool |  |
 | ProjectEventId | int32 | Primary key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -120,76 +120,76 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "adipisci",
-  "SignOffText": "voluptates",
-  "SignOnConfirmationText": "ut",
-  "SignOnText": "exercitationem",
-  "EventDate": "1995-10-21T12:15:19.8127391+02:00",
-  "Enabled": false,
-  "CreatedDate": "2017-02-01T12:15:19.8127391+01:00",
+  "SignOffConfirmationText": "aut",
+  "SignOffText": "vitae",
+  "SignOnConfirmationText": "quis",
+  "SignOnText": "voluptatum",
+  "EventDate": "2008-09-04T15:29:22.440302+02:00",
+  "Enabled": true,
+  "CreatedDate": "2020-09-29T15:29:22.440302+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 930,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 173,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 499,
+  "SignOn": true,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 640,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2015-12-08T12:15:19.8127391+01:00",
+  "UpdatedDate": "2018-01-03T15:29:22.440302+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 882,
-  "Id": 232,
-  "PublishFrom": "2011-12-25T12:15:19.8127391+01:00",
+  "ProjectId": 53,
+  "Id": 964,
+  "PublishFrom": "2019-08-20T15:29:22.441302+02:00",
   "PublishType": "External",
-  "PublishTo": "2009-01-18T12:15:19.8127391+01:00",
+  "PublishTo": "2002-11-29T15:29:22.441302+01:00",
   "VisibleForCategories": [
     {
-      "Id": 32,
-      "Name": "Gleichner Group",
-      "ToolTip": "Nobis eius.",
-      "Deleted": false,
-      "Rank": 228,
-      "Type": "architecto",
+      "Id": 589,
+      "Name": "Bednar-McLaughlin",
+      "ToolTip": "Ipsa necessitatibus quae repudiandae expedita pariatur saepe voluptas.",
+      "Deleted": true,
+      "Rank": 782,
+      "Type": "nemo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "accusantium",
-      "ColorBlock": 816,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "aut",
-      "FullName": "Stephany Hilll"
+      "IconHint": "cupiditate",
+      "ColorBlock": 971,
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "repellendus",
+      "FullName": "Cristian Lang"
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 45,
-      "Name": "Stiedemann-Abshire",
-      "ToolTip": "Ut et fugit tempora ducimus et est natus.",
+      "Id": 261,
+      "Name": "Bruen Inc and Sons",
+      "ToolTip": "Sunt quis quos.",
       "Deleted": false,
-      "Rank": 54,
-      "Type": "facilis",
+      "Rank": 543,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorem",
-      "ColorBlock": 110,
-      "ExtraInfo": "sint",
-      "StyleHint": "et",
-      "FullName": "Cecile Jones"
+      "IconHint": "dolor",
+      "ColorBlock": 1002,
+      "ExtraInfo": "a",
+      "StyleHint": "quas",
+      "FullName": "Dejuan Pfeffer"
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
+  "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 114
+  "ProjectEventId": 1002
 }
 ```
 
@@ -200,94 +200,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "consequatur",
+  "SignOffConfirmationText": "qui",
   "SignOffText": "est",
-  "SignOnConfirmationText": "ullam",
-  "SignOnText": "dolorem",
-  "EventDate": "2011-02-08T12:15:19.8157416+01:00",
-  "Enabled": true,
-  "CreatedDate": "2017-12-28T12:15:19.8157416+01:00",
+  "SignOnConfirmationText": "velit",
+  "SignOnText": "est",
+  "EventDate": "1998-06-08T15:29:22.4438028+02:00",
+  "Enabled": false,
+  "CreatedDate": "2006-07-02T15:29:22.4438028+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 297,
+  "SignOffTaskId": 928,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 296,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 880,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2016-08-15T12:15:19.8157416+02:00",
+  "UpdatedDate": "2011-05-12T15:29:22.4438028+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 134,
-  "Id": 185,
-  "PublishFrom": "2010-06-18T12:15:19.8167414+02:00",
+  "ProjectId": 673,
+  "Id": 576,
+  "PublishFrom": "2000-11-27T15:29:22.4443059+01:00",
   "PublishType": "External",
-  "PublishTo": "2004-08-08T12:15:19.8167414+02:00",
+  "PublishTo": "2014-11-21T15:29:22.4443059+01:00",
   "VisibleForCategories": [
     {
-      "Id": 329,
-      "Name": "Abshire, Gibson and Gaylord",
-      "ToolTip": "Quos vero rerum non pariatur sequi.",
+      "Id": 970,
+      "Name": "Pollich, Zemlak and Kassulke",
+      "ToolTip": "Sit doloribus et.",
       "Deleted": false,
-      "Rank": 257,
-      "Type": "nihil",
+      "Rank": 689,
+      "Type": "distinctio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iusto",
-      "ColorBlock": 211,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "amet",
-      "FullName": "Briana Lehner",
+      "IconHint": "pariatur",
+      "ColorBlock": 27,
+      "ExtraInfo": "labore",
+      "StyleHint": "dolore",
+      "FullName": "Phyllis Langosh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldType": "System.Int32",
+          "FieldLength": 799
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 773,
-      "Name": "Lowe-Ortiz",
-      "ToolTip": "Exercitationem suscipit nesciunt ut fugit sit magnam voluptates.",
+      "Id": 539,
+      "Name": "Christiansen Inc and Sons",
+      "ToolTip": "Veritatis libero exercitationem doloribus.",
       "Deleted": false,
-      "Rank": 989,
-      "Type": "non",
+      "Rank": 274,
+      "Type": "modi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "saepe",
-      "ColorBlock": 768,
-      "ExtraInfo": "ut",
-      "StyleHint": "quaerat",
-      "FullName": "Cortney Hermann",
+      "IconHint": "temporibus",
+      "ColorBlock": 332,
+      "ExtraInfo": "aspernatur",
+      "StyleHint": "quis",
+      "FullName": "Kayden Labadie IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldLength": 65
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 454,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 37,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 347
     }
   }
 }

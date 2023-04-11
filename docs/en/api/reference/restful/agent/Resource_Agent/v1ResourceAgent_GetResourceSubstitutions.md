@@ -68,8 +68,8 @@ OK
 | ResourceValue | string | The value of the resource in the given culture |
 | Culture | string | .NET-style culture code, such as NB-NO or EN-UK |
 | IsActive | bool | Is this override active |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,16 +77,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Kautzer, Lebsack and Johnston",
-    "Streich-Nader"
+    "Hane-D'Amore",
+    "Beahan-King"
   ],
-  "Culture": "id",
-  "ActiveOnly": false
+  "Culture": "expedita",
+  "ActiveOnly": true
 }
 ```
 
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Fadel-Weissnat",
-    "ResourceValue": "veniam",
-    "Culture": "laborum",
-    "IsActive": false,
+    "ResourceName": "Stoltenberg-Ruecker",
+    "ResourceValue": "maiores",
+    "Culture": "voluptate",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldLength": 477
       }
     }
   },
   {
-    "ResourceName": "Fadel-Weissnat",
-    "ResourceValue": "veniam",
-    "Culture": "laborum",
-    "IsActive": false,
+    "ResourceName": "Stoltenberg-Ruecker",
+    "ResourceValue": "maiores",
+    "Culture": "voluptate",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 255
+        "FieldLength": 477
       }
     }
   }

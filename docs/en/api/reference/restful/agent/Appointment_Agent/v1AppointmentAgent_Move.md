@@ -94,7 +94,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -119,8 +119,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -132,8 +132,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 40,
-  "NewStartTime": "2016-08-04T12:15:17.8407684+02:00",
+  "AppointmentId": 180,
+  "NewStartTime": "2000-03-29T15:29:20.584292+02:00",
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -149,122 +149,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-05-26T12:15:17.8517757+02:00",
-  "AppointmentId": 174,
-  "Description": "Self-enabling scalable product",
-  "StartDate": "2008-04-20T12:15:17.8517757+02:00",
-  "EndDate": "2016-10-18T12:15:17.8517757+02:00",
+  "CreatedDate": "2002-12-14T15:29:20.5952926+01:00",
+  "AppointmentId": 527,
+  "Description": "Multi-tiered zero tolerance frame",
+  "StartDate": "2005-03-13T15:29:20.5952926+01:00",
+  "EndDate": "2010-03-08T15:29:20.5952926+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 946,
+  "MotherId": 148,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-05-31T12:15:17.8557687+02:00",
+  "UpdatedDate": "2005-11-20T15:29:20.5977928+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 888,
+  "ActiveLinks": 164,
   "Links": [
     {
-      "EntityName": "Kuhn LLC",
-      "Id": 413,
-      "Description": "Seamless incremental flexibility",
-      "ExtraInfo": "porro",
-      "LinkId": 219,
+      "EntityName": "Keeling-Wintheiser",
+      "Id": 692,
+      "Description": "De-engineered fault-tolerant approach",
+      "ExtraInfo": "dolor",
+      "LinkId": 636,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldType": "System.String",
+          "FieldLength": 172
         }
       }
     }
   ],
-  "AlarmLeadTime": "dolor",
+  "AlarmLeadTime": "rerum",
   "HasAlarm": false,
-  "ColorIndex": 948,
+  "ColorIndex": 974,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "culpa",
-  "LeadTime": "quisquam",
-  "Location": "rerum",
-  "RejectCounter": 589,
+  "LagTime": "occaecati",
+  "LeadTime": "tempora",
+  "Location": "quisquam",
+  "RejectCounter": 442,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 132,
-      "PersonId": 892,
-      "ContactId": 338,
-      "EmailId": 648,
-      "SendEmail": false,
+      "AssociateId": 269,
+      "PersonId": 793,
+      "ContactId": 912,
+      "EmailId": 346,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 132,
-      "PersonId": 892,
-      "ContactId": 338,
-      "EmailId": 648,
-      "SendEmail": false,
+      "AssociateId": 269,
+      "PersonId": 793,
+      "ContactId": 912,
+      "EmailId": 346,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-09-01T12:15:17.8557687+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2001-11-06T15:29:20.5987926+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 159,
+  "PreferredTZLocation": 499,
   "Sale": null,
-  "SuggestedAppointmentId": 995,
+  "SuggestedAppointmentId": 855,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "similique",
+  "CentralserviceVideomeetId": "id",
   "UserDefinedFields": {
-    "SuperOffice:1": "1406033654",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "2040718417",
+    "SuperOffice:2": "761013557"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "porro",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "minus"
+    "CustomFields1": "expedita",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "1996-02-04T12:15:17.8567678+01:00",
-  "PublishTo": "2006-01-08T12:15:17.8567678+01:00",
-  "PublishFrom": "2011-08-24T12:15:17.8567678+02:00",
+  "PublishEventDate": "2004-01-09T15:29:20.5997925+01:00",
+  "PublishTo": "2018-11-29T15:29:20.5997925+01:00",
+  "PublishFrom": "1996-11-24T15:29:20.5997925+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 387,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1001
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     },
     {
-      "VisibleId": 387,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "ea",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1001
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     }
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 182
     }
   }
 }

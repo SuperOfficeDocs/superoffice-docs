@@ -54,7 +54,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -69,14 +69,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 944,
-      "Name": "Bergstrom-Brown",
-      "HtmlBody": "aperiam"
+      "QuickReplyId": 882,
+      "Name": "Nader Group",
+      "HtmlBody": "ex"
     },
     {
-      "QuickReplyId": 944,
-      "Name": "Bergstrom-Brown",
-      "HtmlBody": "aperiam"
+      "QuickReplyId": 882,
+      "Name": "Nader Group",
+      "HtmlBody": "ex"
     }
   ]
 }

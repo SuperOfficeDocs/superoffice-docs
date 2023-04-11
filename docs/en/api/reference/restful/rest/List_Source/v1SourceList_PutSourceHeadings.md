@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 588,
-    "Name": "Pacocha, Bernier and Daugherty",
-    "Tooltip": "autem",
+    "HeadingId": 952,
+    "Name": "Christiansen, Carroll and Paucek",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 938,
-    "UdListDefinitionId": 255
+    "Rank": 365,
+    "UdListDefinitionId": 666
   },
   {
-    "HeadingId": 588,
-    "Name": "Pacocha, Bernier and Daugherty",
-    "Tooltip": "autem",
+    "HeadingId": 952,
+    "Name": "Christiansen, Carroll and Paucek",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 938,
-    "UdListDefinitionId": 255
+    "Rank": 365,
+    "UdListDefinitionId": 666
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 678,
-    "Name": "Skiles, Steuber and Kub",
-    "Tooltip": "aut",
+    "HeadingId": 514,
+    "Name": "King-Johns",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 90,
-    "UdListDefinitionId": 205,
+    "Rank": 423,
+    "UdListDefinitionId": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 596
+        "FieldType": "System.Int32",
+        "FieldLength": 293
       }
     }
   }

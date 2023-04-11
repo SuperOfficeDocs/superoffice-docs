@@ -103,8 +103,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -112,18 +112,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 237,
-  "Name": "Halvorson-Kerluke",
-  "Rank": 90,
-  "Tooltip": "ea",
+  "AssociateId": 252,
+  "Name": "Welch, Marvin and Franecki",
+  "Rank": 454,
+  "Tooltip": "eveniet",
   "LicenseOwners": [
     {
-      "Name": "Mraz Inc and Sons",
-      "Description": "Future-proofed zero defect application",
+      "Name": "Frami-Feeney",
+      "Description": "Object-based high-level database",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Mraz Inc and Sons",
-      "Description": "Future-proofed zero defect application",
+      "Name": "Frami-Feeney",
+      "Description": "Object-based high-level database",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,87 +150,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nulla",
-      "Tooltip": "recusandae",
-      "Id": 283,
-      "Rank": 774,
-      "Deleted": false
+      "Value": "voluptas",
+      "Tooltip": "qui",
+      "Id": 747,
+      "Rank": 997,
+      "Deleted": true
     },
     {
-      "Value": "nulla",
-      "Tooltip": "recusandae",
-      "Id": 283,
-      "Rank": 774,
-      "Deleted": false
+      "Value": "voluptas",
+      "Tooltip": "qui",
+      "Id": 747,
+      "Rank": 997,
+      "Deleted": true
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2003-05-18T12:15:20.5467315+02:00",
-  "Lastlogout": "2014-05-10T12:15:20.5467315+02:00",
-  "EjUserId": 940,
-  "RequestSignature": "non",
+  "Lastlogin": "2015-10-06T15:29:23.3187535+02:00",
+  "Lastlogout": "2005-07-17T15:29:23.3187535+02:00",
+  "EjUserId": 749,
+  "RequestSignature": "est",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ea",
-      "DisplayValue": "qui"
+      "Value": "est",
+      "DisplayValue": "perspiciatis"
     },
     {
       "Type": null,
-      "Value": "ea",
-      "DisplayValue": "qui"
+      "Value": "est",
+      "DisplayValue": "perspiciatis"
     }
   ],
-  "UserName": "Osinski, Wilderman and Hermiston",
+  "UserName": "Adams, Lynch and Wisoky",
   "TicketCategories": [
     {
-      "Id": 109,
-      "Name": "Eichmann-VonRueden",
-      "ToolTip": "Qui molestias sit laudantium ea quos qui.",
+      "Id": 639,
+      "Name": "Hilll, Roberts and Gerhold",
+      "ToolTip": "Perspiciatis deserunt assumenda fugit.",
       "Deleted": false,
-      "Rank": 450,
-      "Type": "id",
+      "Rank": 106,
+      "Type": "labore",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sit",
-      "ColorBlock": 284,
-      "ExtraInfo": "molestiae",
-      "StyleHint": "praesentium",
-      "FullName": "Isai Gulgowski"
+      "IconHint": "asperiores",
+      "ColorBlock": 456,
+      "ExtraInfo": "voluptas",
+      "StyleHint": "ut",
+      "FullName": "Dawson Dooley"
     }
   ],
-  "NickName": "Nikolaus, Gleichner and Prohaska",
+  "NickName": "Bayer, Glover and Corwin",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "in"
+    "CustomFields1": "vel",
+    "CustomFields2": "porro"
   },
   "PostSaveCommands": [
     {
-      "Name": "Funk, Goyette and Stamm",
-      "DisplayName": "Leuschke, Dickinson and Bosco",
-      "Description": "Sharable heuristic adapter",
-      "ToolTip": "Aut perspiciatis.",
+      "Name": "D'Amore-Lynch",
+      "DisplayName": "Emard-Lehner",
+      "Description": "Persevering context-sensitive attitude",
+      "ToolTip": "Dolor omnis.",
       "Actions": "Implicit",
-      "ActionData": "exercitationem"
+      "ActionData": "consequatur"
     },
     {
-      "Name": "Funk, Goyette and Stamm",
-      "DisplayName": "Leuschke, Dickinson and Bosco",
-      "Description": "Sharable heuristic adapter",
-      "ToolTip": "Aut perspiciatis.",
+      "Name": "D'Amore-Lynch",
+      "DisplayName": "Emard-Lehner",
+      "Description": "Persevering context-sensitive attitude",
+      "ToolTip": "Dolor omnis.",
       "Actions": "Implicit",
-      "ActionData": "exercitationem"
+      "ActionData": "consequatur"
     }
   ]
 }
@@ -243,14 +243,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 760,
-  "Name": "Murphy, Hilll and Nikolaus",
-  "Rank": 954,
-  "Tooltip": "autem",
+  "AssociateId": 290,
+  "Name": "Crona LLC",
+  "Rank": 959,
+  "Tooltip": "soluta",
   "LicenseOwners": [
     {
-      "Name": "Marks-Stracke",
-      "Description": "Quality-focused 5th generation collaboration",
+      "Name": "Torp, Kutch and Weimann",
+      "Description": "Inverse composite adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -264,13 +264,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldLength": 297
         }
       }
     },
     {
-      "Name": "Marks-Stracke",
-      "Description": "Quality-focused 5th generation collaboration",
+      "Name": "Torp, Kutch and Weimann",
+      "Description": "Inverse composite adapter",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldLength": 297
         }
       }
     }
@@ -293,110 +293,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "fuga",
-      "Tooltip": "eos",
-      "Id": 36,
-      "Rank": 64,
+      "Value": "rem",
+      "Tooltip": "ex",
+      "Id": 4,
+      "Rank": 762,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 349
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-05-18T12:15:20.5527289+02:00",
-  "Lastlogout": "2019-08-05T12:15:20.5527289+02:00",
-  "EjUserId": 723,
-  "RequestSignature": "quia",
+  "Lastlogin": "2016-04-20T15:29:23.3247546+02:00",
+  "Lastlogout": "2002-04-14T15:29:23.3247546+02:00",
+  "EjUserId": 55,
+  "RequestSignature": "explicabo",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "officia",
-      "DisplayValue": "aut",
+      "Value": "maiores",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 629
+          "FieldType": "System.Int32",
+          "FieldLength": 583
         }
       }
     },
     {
       "Type": null,
-      "Value": "officia",
-      "DisplayValue": "aut",
+      "Value": "maiores",
+      "DisplayValue": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 583
+        }
+      }
+    }
+  ],
+  "UserName": "Breitenberg LLC",
+  "TicketCategories": [
+    {
+      "Id": 838,
+      "Name": "Bednar Inc and Sons",
+      "ToolTip": "Rerum eos quis.",
+      "Deleted": false,
+      "Rank": 700,
+      "Type": "eos",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "magni",
+      "ColorBlock": 649,
+      "ExtraInfo": "quidem",
+      "StyleHint": "sunt",
+      "FullName": "Mrs. Billy Abigail Olson",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 910
+        }
+      }
+    }
+  ],
+  "NickName": "Zieme, Wolf and Renner",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "quibusdam"
+  },
+  "CustomFields": {
+    "CustomFields1": "ut",
+    "CustomFields2": "est"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Ortiz, Dicki and Ernser",
+      "DisplayName": "Ortiz Inc and Sons",
+      "Description": "Public-key value-added challenge",
+      "ToolTip": "Maxime est sint aspernatur facere provident.",
+      "Actions": "Implicit",
+      "ActionData": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 629
-        }
-      }
-    }
-  ],
-  "UserName": "McDermott Group",
-  "TicketCategories": [
-    {
-      "Id": 583,
-      "Name": "Schuster-Collins",
-      "ToolTip": "Consequatur sunt iste voluptas consequuntur voluptas quia ea.",
-      "Deleted": false,
-      "Rank": 276,
-      "Type": "sit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "quod",
-      "ColorBlock": 607,
-      "ExtraInfo": "rerum",
-      "StyleHint": "molestiae",
-      "FullName": "Enos Friesen",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 893
-        }
-      }
-    }
-  ],
-  "NickName": "Hartmann, King and Dooley",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "aut"
-  },
-  "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "impedit"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Herman-Becker",
-      "DisplayName": "Blick-Crooks",
-      "Description": "Optimized neutral process improvement",
-      "ToolTip": "Dicta labore cum eveniet.",
-      "Actions": "Implicit",
-      "ActionData": "aut",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldLength": 393
         }
       }
     }
@@ -405,8 +405,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   }
 }

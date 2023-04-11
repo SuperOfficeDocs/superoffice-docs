@@ -25,7 +25,7 @@ Gets a DashTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTile?dashTileId=977
+POST /api/v1/Agents/Dash/GetDashTile?dashTileId=566
 POST /api/v1/Agents/Dash/GetDashTile?$select=name,department,category/id
 ```
 
@@ -62,8 +62,8 @@ OK
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
 | DashTileDefinition | DashTileDefinition | The tile definition entity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 404,
-  "DashboardId": 642,
-  "Height": 542,
-  "Width": 144,
-  "Rank": 395,
+  "DashboardTileId": 90,
+  "DashboardId": 913,
+  "Height": 49,
+  "Width": 827,
+  "Rank": 22,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

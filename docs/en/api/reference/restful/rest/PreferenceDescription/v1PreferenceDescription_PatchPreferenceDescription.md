@@ -114,8 +114,8 @@ PreferenceDescription  updated.
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -124,18 +124,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "excepturi",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -148,30 +148,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 627,
-  "Section": "qui",
-  "Key": "laboriosam",
-  "Name": "Kris, Gleichner and Blanda",
+  "PrefDescId": 146,
+  "Section": "illum",
+  "Key": "rerum",
+  "Name": "Monahan-Durgan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Right-sized solution-oriented intranet",
+  "Description": "Customer-focused non-volatile interface",
   "IsBuiltin": false,
-  "TableName": "Brown-Wolff",
-  "UserDefinedListId": 720,
-  "Rank": 998,
+  "TableName": "Oberbrunner LLC",
+  "UserDefinedListId": 977,
+  "Rank": 549,
   "SubGroup": "vel",
-  "MinLevel": 8,
-  "MaxValue": 349,
-  "MinValue": 262,
-  "RequiredLicense": "dolorem",
+  "MinLevel": 355,
+  "MaxValue": 69,
+  "MinValue": 676,
+  "RequiredLicense": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 222
     }
   },
   "_Links": {

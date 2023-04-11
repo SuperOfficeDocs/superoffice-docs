@@ -83,8 +83,8 @@ DocumentEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 881,
-  "ColumnId": 214,
-  "FieldDefault": "adipisci",
-  "FieldHeight": 331,
-  "FieldLabel": "aut",
-  "FieldLeft": 577,
-  "FieldTop": 549,
+  "UDefFieldId": 477,
+  "ColumnId": 519,
+  "FieldDefault": "accusamus",
+  "FieldHeight": 769,
+  "FieldLabel": "fugit",
+  "FieldLeft": 594,
+  "FieldTop": 793,
   "FieldType": "Checkbox",
-  "FieldWidth": 932,
-  "FormatMask": "sit",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 230,
-  "LabelLeft": 176,
-  "LabelTop": 562,
-  "LabelWidth": 650,
-  "LastVersionId": 810,
-  "ListTableId": 517,
-  "IsMandatory": true,
+  "FieldWidth": 272,
+  "FormatMask": "quod",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 4,
+  "LabelLeft": 341,
+  "LabelTop": 460,
+  "LabelWidth": 768,
+  "LastVersionId": 228,
+  "ListTableId": 125,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 217,
-  "ProgId": "quo",
-  "IsReadOnly": true,
-  "ShortLabel": "illum",
-  "TabOrder": 387,
-  "TextLength": 236,
-  "Tooltip": "animi",
-  "UdefIdentity": 850,
-  "UDListDefinitionId": 587,
+  "Page1LineNo": 796,
+  "ProgId": "ea",
+  "IsReadOnly": false,
+  "ShortLabel": "numquam",
+  "TabOrder": 772,
+  "TextLength": 353,
+  "Tooltip": "assumenda",
+  "UdefIdentity": 148,
+  "UDListDefinitionId": 24,
   "Justification": "Center",
-  "Version": 381,
-  "TemplateVariableName": "Kertzmann, Osinski and Koss",
+  "Version": 796,
+  "TemplateVariableName": "Hand Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Heathcote Group",
+  "MdoListName": "Emard Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 540
     }
   }
 }

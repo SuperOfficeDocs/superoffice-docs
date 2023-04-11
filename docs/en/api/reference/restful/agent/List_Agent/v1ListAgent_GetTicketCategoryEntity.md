@@ -25,7 +25,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=160
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=214
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -74,8 +74,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 252,
-  "ParentId": 749,
-  "Name": "O'Kon, Kuvalis and Keeling",
-  "Fullname": "rerum",
-  "CategoryMaster": 39,
+  "TicketCategoryId": 743,
+  "ParentId": 707,
+  "Name": "Nolan, Christiansen and Schulist",
+  "Fullname": "distinctio",
+  "CategoryMaster": 826,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Yundt LLC",
+  "ExternalName": "Vandervort-Morissette",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 356,
-  "ReplyTemplate": 412,
-  "NotificationEmail": "bethel@hegmannpollich.info",
+  "AssignmentLag": 221,
+  "ReplyTemplate": 282,
+  "NotificationEmail": "margarett@littel.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 339,
+  "EffectiveReplyTemplateId": 188,
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "explicabo",
-    "CustomFields2": "iusto"
+    "CustomFields1": "tempora",
+    "CustomFields2": "molestias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldLength": 293
     }
   }
 }

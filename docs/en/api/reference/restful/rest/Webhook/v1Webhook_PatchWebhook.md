@@ -120,18 +120,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quo",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quo",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -144,26 +144,26 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 680,
-  "Name": "VonRueden, Schaden and Homenick",
+  "WebhookId": 5,
+  "Name": "Moen-Barton",
   "Events": [
-    "et",
-    "repudiandae"
+    "ut",
+    "laudantium"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "impedit",
+  "Secret": "dolores",
   "State": "Active",
-  "Type": "debitis",
+  "Type": "quidem",
   "Headers": {
-    "Headers1": "in",
-    "Headers2": "ducimus"
+    "Headers1": "labore",
+    "Headers2": "eos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2002-03-29T12:15:27.8186236+01:00",
+  "Registered": "2012-05-07T15:29:31.0249469+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-09-25T12:15:27.8206241+02:00",
+  "Updated": "2020-10-18T15:29:31.0249469+02:00",
   "UpdatedAssociate": null,
   "_Links": {
     "Self": "https://www.example.com/api/v1/contact/321",

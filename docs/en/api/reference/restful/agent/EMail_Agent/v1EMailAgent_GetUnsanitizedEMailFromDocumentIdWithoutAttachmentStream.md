@@ -93,8 +93,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -106,7 +106,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 926
+  "DocumentId": 902
 }
 ```
 
@@ -119,146 +119,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 528,
-      "ContactName": "King, Batz and Stracke",
-      "PersonId": 150,
-      "PersonName": "Ziemann LLC",
-      "AssociateId": 995,
-      "Address": "omnis",
-      "EmailId": 430,
+      "ContactId": 420,
+      "ContactName": "Price Inc and Sons",
+      "PersonId": 897,
+      "PersonName": "Cartwright-Dibbert",
+      "AssociateId": 144,
+      "Address": "totam",
+      "EmailId": 5,
       "DuplicatePersonIds": [
-        353,
-        745
+        13,
+        389
       ],
-      "Name": "Borer LLC",
+      "Name": "Champlin, Grant and Runolfsdottir",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 917
+          "FieldType": "System.Int32",
+          "FieldLength": 434
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 640,
-      "ContactName": "Willms-Breitenberg",
-      "PersonId": 888,
-      "PersonName": "Wyman LLC",
-      "AssociateId": 758,
-      "Address": "a",
-      "EmailId": 853,
+      "ContactId": 641,
+      "ContactName": "Littel-Mueller",
+      "PersonId": 510,
+      "PersonName": "Kilback-Emmerich",
+      "AssociateId": 572,
+      "Address": "reprehenderit",
+      "EmailId": 535,
       "DuplicatePersonIds": [
-        55,
-        222
+        253,
+        433
       ],
-      "Name": "Volkman-Koelpin",
+      "Name": "Breitenberg Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 999
+          "FieldType": "System.Int32",
+          "FieldLength": 830
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 323,
-      "ContactName": "Larson, Barrows and Johnson",
-      "PersonId": 781,
-      "PersonName": "Marks-Tromp",
-      "AssociateId": 117,
-      "Address": "quo",
-      "EmailId": 35,
+      "ContactId": 937,
+      "ContactName": "Streich Group",
+      "PersonId": 214,
+      "PersonName": "Kiehn LLC",
+      "AssociateId": 445,
+      "Address": "officiis",
+      "EmailId": 807,
       "DuplicatePersonIds": [
-        535,
-        492
+        435,
+        40
       ],
-      "Name": "Hammes Group",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 659
-        }
-      }
-    }
-  ],
-  "Subject": "voluptatem",
-  "HTMLBody": "quibusdam",
-  "From": null,
-  "Sent": "2019-11-13T12:15:18.9437542+01:00",
-  "Size": 381,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "nesciunt",
-  "PlainBody": "reiciendis",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 701,
-  "Attachments": [
-    {
-      "Description": "Versatile needs-based toolset",
-      "Filename": "cum",
-      "Size": 311,
-      "Type": "non",
-      "Encoding": "quibusdam",
-      "Id": "quia",
-      "Disposition": "omnis",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Sipes-Bayer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldLength": 548
+        }
+      }
+    }
+  ],
+  "Subject": "fugit",
+  "HTMLBody": "eveniet",
+  "From": null,
+  "Sent": "2003-06-19T15:29:21.7122766+02:00",
+  "Size": 502,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "quibusdam",
+  "PlainBody": "sunt",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 279,
+  "Attachments": [
+    {
+      "Description": "Triple-buffered homogeneous emulation",
+      "Filename": "asperiores",
+      "Size": 205,
+      "Type": "quasi",
+      "Encoding": "neque",
+      "Id": "accusantium",
+      "Disposition": "aut",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 500
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Koch, Larkin and Erdman",
+      "Name": "Bechtelar, Sauer and Roberts",
       "Values": [
-        "ad",
-        "quos"
+        "velit",
+        "magni"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldLength": 696
         }
       }
     },
     {
-      "Name": "Koch, Larkin and Erdman",
+      "Name": "Bechtelar, Sauer and Roberts",
       "Values": [
-        "ad",
-        "quos"
+        "velit",
+        "magni"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldLength": 696
         }
       }
     }
   ],
-  "FolderName": "Cummerata, Oberbrunner and Oberbrunner",
-  "EmailItemId": 746,
-  "AccountId": 808,
-  "ReceivedAt": "2010-01-27T12:15:18.9447579+01:00",
+  "FolderName": "Dietrich Inc and Sons",
+  "EmailItemId": 340,
+  "AccountId": 311,
+  "ReceivedAt": "2021-12-21T15:29:21.7122766+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-07-08T12:15:18.9447579+02:00",
+  "RepliedAt": "2022-03-11T15:29:21.7127762+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 844
+      "FieldType": "System.Int32",
+      "FieldLength": 164
     }
   }
 }

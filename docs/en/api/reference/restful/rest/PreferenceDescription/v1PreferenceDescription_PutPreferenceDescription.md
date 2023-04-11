@@ -102,8 +102,8 @@ PreferenceDescription updated.
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -112,28 +112,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 163,
-  "Section": "nemo",
-  "Key": "qui",
-  "Name": "Batz-Spinka",
+  "PrefDescId": 896,
+  "Section": "qui",
+  "Key": "perspiciatis",
+  "Name": "Ferry LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Automated intangible service-desk",
+  "Description": "Realigned client-server interface",
   "IsBuiltin": true,
-  "TableName": "Jacobson LLC",
-  "UserDefinedListId": 620,
-  "Rank": 727,
-  "SubGroup": "ut",
-  "MinLevel": 66,
-  "MaxValue": 683,
-  "MinValue": 507,
-  "RequiredLicense": "dolorum"
+  "TableName": "Prosacco LLC",
+  "UserDefinedListId": 945,
+  "Rank": 50,
+  "SubGroup": "modi",
+  "MinLevel": 959,
+  "MaxValue": 416,
+  "MinValue": 621,
+  "RequiredLicense": "architecto"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 816,
-  "Section": "non",
-  "Key": "consequatur",
-  "Name": "Yundt-Hauck",
+  "PrefDescId": 673,
+  "Section": "alias",
+  "Key": "repellendus",
+  "Name": "Nicolas Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-architected mobile algorithm",
-  "IsBuiltin": false,
-  "TableName": "Berge LLC",
-  "UserDefinedListId": 86,
-  "Rank": 730,
-  "SubGroup": "adipisci",
-  "MinLevel": 296,
-  "MaxValue": 329,
-  "MinValue": 519,
-  "RequiredLicense": "exercitationem",
+  "Description": "Cross-group local focus group",
+  "IsBuiltin": true,
+  "TableName": "Reilly-Douglas",
+  "UserDefinedListId": 270,
+  "Rank": 5,
+  "SubGroup": "dolores",
+  "MinLevel": 831,
+  "MaxValue": 593,
+  "MinValue": 164,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 262
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

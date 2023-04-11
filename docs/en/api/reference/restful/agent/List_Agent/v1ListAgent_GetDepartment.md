@@ -25,7 +25,7 @@ Gets a Department object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDepartment?departmentId=385
+POST /api/v1/Agents/List/GetDepartment?departmentId=596
 POST /api/v1/Agents/List/GetDepartment?$select=name,department,category/id
 ```
 
@@ -59,8 +59,8 @@ OK
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 360,
-  "Value": "aut",
-  "Tooltip": "ipsa",
+  "Id": 887,
+  "Value": "itaque",
+  "Tooltip": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 25
     }
   }
 }

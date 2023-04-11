@@ -59,8 +59,8 @@ OK
 | AssociateList | array | The list of associates to filter on |
 | GroupList | array | The list of groups to filter on |
 | FutureDateList | array | The list of future date selections. This is a static MDO list with standard values. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,91 +78,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2003-06-09T12:15:18.142764+02:00",
-  "ToDate": "2016-01-02T12:15:18.142764+01:00",
+  "FromDate": "2016-01-08T15:29:20.7607904+01:00",
+  "ToDate": "2021-02-19T15:29:20.7607904+01:00",
   "AssociateList": [
     {
-      "Id": 685,
-      "Name": "Monahan-Gutkowski",
-      "ToolTip": "Ab laudantium quam.",
-      "Deleted": false,
-      "Rank": 109,
-      "Type": "est",
-      "ColorBlock": 499,
-      "IconHint": "totam",
+      "Id": 237,
+      "Name": "DuBuque, Spencer and Thiel",
+      "ToolTip": "Dolorem voluptas ratione quia officia dolore.",
+      "Deleted": true,
+      "Rank": 627,
+      "Type": "rerum",
+      "ColorBlock": 194,
+      "IconHint": "ea",
       "Selected": false,
-      "LastChanged": "2002-06-15T12:15:18.142764+02:00",
+      "LastChanged": "2005-10-15T15:29:20.7607904+02:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "voluptas",
-      "StyleHint": "rem",
+      "StyleHint": "nobis",
       "Hidden": false,
-      "FullName": "Mrs. Ken Walker II",
+      "FullName": "Hudson Schmeler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldType": "System.String",
+          "FieldLength": 482
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 984,
-      "Name": "Jacobs Inc and Sons",
-      "ToolTip": "Qui inventore amet aut sit.",
+      "Id": 588,
+      "Name": "Leuschke Inc and Sons",
+      "ToolTip": "Provident consectetur quam praesentium dignissimos ut et vel.",
       "Deleted": false,
-      "Rank": 843,
-      "Type": "voluptatem",
-      "ColorBlock": 402,
-      "IconHint": "consequuntur",
-      "Selected": true,
-      "LastChanged": "2015-08-26T12:15:18.1437638+02:00",
+      "Rank": 397,
+      "Type": "ex",
+      "ColorBlock": 557,
+      "IconHint": "ipsam",
+      "Selected": false,
+      "LastChanged": "2010-06-16T15:29:20.7612893+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "totam",
-      "StyleHint": "laborum",
+      "ExtraInfo": "dolore",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Lorenza Lockman",
+      "FullName": "Adela Carroll",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 248
+          "FieldType": "System.String",
+          "FieldLength": 923
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 129,
-      "Name": "Schuppe-Ondricka",
-      "ToolTip": "Repellendus explicabo et consequatur unde saepe.",
+      "Id": 745,
+      "Name": "Hegmann-Weber",
+      "ToolTip": "Alias at veniam ipsa ut nam nisi.",
       "Deleted": false,
-      "Rank": 347,
-      "Type": "ut",
+      "Rank": 516,
+      "Type": "suscipit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "maxime",
-      "ColorBlock": 469,
-      "ExtraInfo": "delectus",
-      "StyleHint": "quia",
-      "FullName": "Rhett Celestine Dickinson III",
+      "IconHint": "et",
+      "ColorBlock": 281,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "consectetur",
+      "FullName": "Elouise Ledner V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 521
         }
       }
     }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldType": "System.Int32",
+      "FieldLength": 328
     }
   }
 }

@@ -71,8 +71,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 168,
-  "Id": 909,
-  "HistoryName": "Shields Group",
-  "HistoryId": 313,
-  "AssociateId": 716,
-  "Name": "Kutch Inc and Sons",
-  "ItemInfo": "officia",
+  "Rank": 500,
+  "Id": 290,
+  "HistoryName": "Ortiz-Pollich",
+  "HistoryId": 55,
+  "AssociateId": 224,
+  "Name": "Rogahn, Oberbrunner and Reinger",
+  "ItemInfo": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 852
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

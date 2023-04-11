@@ -74,8 +74,8 @@ OK
 |----------------|------|--------------|
 | User | User | The resolved User instance. |
 | PersonCreated | bool | Indicates if the resolved person was created or not. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 365,
-  "PersonName": "Davis, Fisher and Berge",
+  "ContactId": 681,
+  "PersonName": "Bosco-Hartmann",
   "PhoneNumbers": [
-    "1784991",
-    "747398"
+    "1819769",
+    "1081109"
   ],
   "Emails": [
-    "alvena@lockman.us",
-    "ansley@carroll.us"
+    "manley_jaskolski@erdman.us",
+    "renee.rolfson@zemlak.name"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -110,13 +110,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   }
 }

@@ -73,8 +73,8 @@ OK
 | DocTmpl | DocumentTemplate | Document template |
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,17 +82,17 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 165,
-  "Name": "Kassulke LLC",
-  "Tooltip": "libero",
-  "Rank": 345,
-  "DoctmplId": 842,
-  "Header": "reprehenderit",
-  "OurRef": "cupiditate",
+  "SuggestedDocumentId": 149,
+  "Name": "Buckridge-Jerde",
+  "Tooltip": "possimus",
+  "Rank": 818,
+  "DoctmplId": 759,
+  "Header": "sit",
+  "OurRef": "accusantium",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -107,14 +107,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 589,
-  "Name": "Will-Schuppe",
-  "Tooltip": "nihil",
-  "Rank": 623,
-  "DoctmplId": 564,
-  "Header": "ut",
-  "OurRef": "earum",
-  "Deleted": false,
+  "SuggestedDocumentId": 63,
+  "Name": "Halvorson, Kovacek and Witting",
+  "Tooltip": "quia",
+  "Rank": 859,
+  "DoctmplId": 899,
+  "Header": "sunt",
+  "OurRef": "ea",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 930
     }
   }
 }

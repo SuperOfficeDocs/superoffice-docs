@@ -58,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -73,10 +73,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    312,
-    234
+    657,
+    592
   ],
-  "TargetFolder": "magnam"
+  "TargetFolder": "aut"
 }
 ```
 

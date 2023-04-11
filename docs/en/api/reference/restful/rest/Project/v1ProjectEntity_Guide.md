@@ -73,14 +73,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Project/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Guide?$orderBy=name asc
-GET /api/v1/Project/{id}/Guide?$entities=voluptatem
-GET /api/v1/Project/{id}/Guide?$top=672
-GET /api/v1/Project/{id}/Guide?$skip=891
+GET /api/v1/Project/{id}/Guide?$entities=minus
+GET /api/v1/Project/{id}/Guide?$top=101
+GET /api/v1/Project/{id}/Guide?$skip=339
 GET /api/v1/Project/{id}/Guide?$mode=Full
 GET /api/v1/Project/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Guide?$context=ut
+GET /api/v1/Project/{id}/Guide?$context=id
 GET /api/v1/Project/{id}/Guide?$format=JSON
-GET /api/v1/Project/{id}/Guide?$jsonSafe=False
+GET /api/v1/Project/{id}/Guide?$jsonSafe=True
 GET /api/v1/Project/{id}/Guide?$output=Display
 ```
 
@@ -133,21 +133,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "sunt",
   "value": [
     {
-      "PrimaryKey": 4066,
+      "PrimaryKey": 4193,
       "EntityName": "sale",
-      "saleId": 4066,
-      "contactId": 8838,
-      "name": "Wilderman Group"
+      "saleId": 4193,
+      "contactId": 3310,
+      "name": "Kunze-Parisian"
     },
     {
-      "PrimaryKey": 1208,
+      "PrimaryKey": 3096,
       "EntityName": "sale",
-      "saleId": 1208,
-      "contactId": 546,
-      "name": "Nader, Wisozk and Dach"
+      "saleId": 3096,
+      "contactId": 5036,
+      "name": "Hartmann, Adams and Miller"
     }
   ]
 }

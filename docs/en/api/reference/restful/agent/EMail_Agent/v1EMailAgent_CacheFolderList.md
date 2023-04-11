@@ -63,8 +63,8 @@ OK
 | UnreadItems | int32 | Number of unread messages in the folder |
 | Subscribed | bool | Indicates if the folder is subscribed to |
 | EmailFolderId | int32 | Primary key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reinger, Herzog and Lindgren",
-    "Delimiter": "animi",
-    "Flags": "pariatur",
-    "TotalItems": 671,
-    "UnreadItems": 377,
+    "Name": "Purdy-Walter",
+    "Delimiter": "eius",
+    "Flags": "ut",
+    "TotalItems": 551,
+    "UnreadItems": 259,
     "Subscribed": false,
-    "EmailFolderId": 326,
+    "EmailFolderId": 372,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 44
+        "FieldType": "System.Int32",
+        "FieldLength": 933
       }
     }
   }

@@ -82,8 +82,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 387,
-  "ERPProductKey": "iure",
-  "ERPPriceListKey": "nisi",
-  "Name": "Beahan, Koepp and Willms",
-  "Description": "User-centric zero defect standardization",
-  "Code": "ipsum",
-  "PriceUnit": "quis",
-  "QuantityUnit": "est",
+  "ProductId": 804,
+  "ERPProductKey": "error",
+  "ERPPriceListKey": "architecto",
+  "Name": "Monahan, Gislason and Buckridge",
+  "Description": "Up-sized didactic capability",
+  "Code": "autem",
+  "PriceUnit": "ducimus",
+  "QuantityUnit": "sunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "quasi",
-  "DefaultSubscriptionQuantity": 4371.93,
-  "ItemNumber": "1219494",
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 14184.484,
+  "ItemNumber": "1156056",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "tempora",
-  "VAT": 14861.428,
-  "VATInfo": "alias",
-  "UnitCost": 20530.834,
-  "UnitMinimumPrice": 25676.861999999997,
-  "UnitListPrice": 25369.73,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "eligendi",
+  "VAT": 13911.826,
+  "VATInfo": "est",
+  "UnitCost": 12510.928,
+  "UnitMinimumPrice": 29434.528,
+  "UnitListPrice": 5424.954,
   "InAssortment": false,
-  "Supplier": "eum",
-  "SupplierCode": "consequatur",
-  "Rights": "sint",
-  "Rule": "voluptate",
+  "Supplier": "voluptas",
+  "SupplierCode": "ipsum",
+  "Rights": "vel",
+  "Rule": "laborum",
   "ExtraInfo": [
     {
-      "Name": "O'Reilly, Christiansen and Rosenbaum",
-      "Value": "architecto",
+      "Name": "Ankunding, Krajcik and Collins",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 941
+          "FieldLength": 220
         }
       }
     },
     {
-      "Name": "O'Reilly, Christiansen and Rosenbaum",
-      "Value": "architecto",
+      "Name": "Ankunding, Krajcik and Collins",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 941
+          "FieldLength": 220
         }
       }
     }
   ],
-  "RawExtraInfo": "rem",
-  "ExtraField1": "nemo",
-  "ExtraField2": "eos",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "et",
-  "ExtraField5": "dolore",
-  "InStock": 26435.29,
+  "RawExtraInfo": "id",
+  "ExtraField1": "assumenda",
+  "ExtraField2": "et",
+  "ExtraField3": "perferendis",
+  "ExtraField4": "minima",
+  "ExtraField5": "quia",
+  "InStock": 7527.8679999999995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 50
     }
   }
 }

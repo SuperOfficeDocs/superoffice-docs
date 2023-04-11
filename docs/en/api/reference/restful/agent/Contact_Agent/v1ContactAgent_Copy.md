@@ -76,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 378,
-  "DestinationContactName": "Monahan LLC",
+  "SourceContactId": 917,
+  "DestinationContactName": "McKenzie Inc and Sons",
   "DestinationContactDepartment": "",
-  "CopyPersons": true
+  "CopyPersons": false
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-991
+149
 ```

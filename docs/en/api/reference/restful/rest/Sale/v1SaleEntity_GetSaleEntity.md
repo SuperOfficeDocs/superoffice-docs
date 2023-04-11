@@ -108,8 +108,8 @@ SaleEntity found.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -118,7 +118,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 10 Jul 1999 12:15:27 G7T
+Last-Modified: Wed, 26 Aug 2020 15:29:30 G8T
 
 {
   "Appointment": null,
@@ -135,7 +135,7 @@ Last-Modified: Sat, 10 Jul 1999 12:15:27 G7T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "tempora",
+  "SaleText": "aperiam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -144,113 +144,113 @@ Last-Modified: Sat, 10 Jul 1999 12:15:27 G7T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-12-28T12:15:27.2866341+01:00",
-  "Amount": 16607.066,
-  "SaleId": 687,
-  "Earning": 15995.936,
-  "EarningPercent": 30026.854,
-  "Heading": "sit",
-  "Number": "839752",
-  "Probability": 793,
-  "CreatedDate": "2002-06-25T12:15:27.2866341+02:00",
-  "UpdatedDate": "1999-07-10T12:15:27.2866341+02:00",
+  "Saledate": "2003-03-19T15:29:30.5169871+01:00",
+  "Amount": 14037.186,
+  "SaleId": 547,
+  "Earning": 21251.654,
+  "EarningPercent": 22091.566,
+  "Heading": "quae",
+  "Number": "393981",
+  "Probability": 118,
+  "CreatedDate": "2018-05-25T15:29:30.5169871+02:00",
+  "UpdatedDate": "2020-08-26T15:29:30.5169871+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 659,
+  "ActiveLinks": 977,
   "Links": [
     {
-      "EntityName": "Pacocha-Harvey",
-      "Id": 300,
-      "Description": "Quality-focused intermediate emulation",
-      "ExtraInfo": "rerum",
-      "LinkId": 705,
+      "EntityName": "Towne, Larson and Ledner",
+      "Id": 893,
+      "Description": "Stand-alone bandwidth-monitored software",
+      "ExtraInfo": "fugiat",
+      "LinkId": 591,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldLength": 296
         }
       }
     }
   ],
-  "NextDueDate": "2008-05-28T12:15:27.2876308+02:00",
-  "Postit": "minus",
+  "NextDueDate": "2004-02-01T15:29:30.5174888+01:00",
+  "Postit": "recusandae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-07-19T12:15:27.2876308+02:00",
+  "ReopenDate": "2006-10-22T15:29:30.5174888+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Romaguera LLC",
-      "Comment": "qui",
-      "StakeholderRoleId": 993,
-      "CountryId": 940,
-      "PersonId": 118,
-      "EmailDescription": "nelle@hilpert.biz",
-      "EmailId": 46,
-      "EmailAddress": "davon@hessel.us",
-      "PhoneId": 989,
-      "ContactName": "Ziemann-Orn",
-      "ContactId": 84,
-      "SaleId": 739,
-      "Mrmrs": "omnis",
-      "Firstname": "Skyla",
-      "MiddleName": "Littel, Johnson and Hauck",
-      "Lastname": "Terry",
-      "SaleStakeholderId": 419,
-      "Rank": 206,
-      "Phone": "1-086-829-5155 x278",
+      "StakeholderRoleName": "Stamm, Roob and Rutherford",
+      "Comment": "consequatur",
+      "StakeholderRoleId": 174,
+      "CountryId": 96,
+      "PersonId": 136,
+      "EmailDescription": "leilani_cummings@parisian.co.uk",
+      "EmailId": 208,
+      "EmailAddress": "minnie@goyette.com",
+      "PhoneId": 475,
+      "ContactName": "Hodkiewicz Inc and Sons",
+      "ContactId": 837,
+      "SaleId": 197,
+      "Mrmrs": "est",
+      "Firstname": "Michel",
+      "MiddleName": "Zboncak-Stracke",
+      "Lastname": "Gislason",
+      "SaleStakeholderId": 694,
+      "Rank": 15,
+      "Phone": "1-863-754-2690 x6941",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldLength": 64
         }
       }
     }
   ],
-  "ActiveErpLinks": 483,
+  "ActiveErpLinks": 677,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bernadette Hegmann DDS",
-    "SuperOffice:2": "Estevan Huel PhD"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Ms. Kaya Stamm"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "suscipit",
+    "ExtraFields2": "voluptatum"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "aut"
+    "CustomFields1": "odit",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2002-10-03T12:15:27.2886308+02:00",
-  "PublishTo": "2014-11-11T12:15:27.2886308+01:00",
-  "PublishFrom": "1997-07-15T12:15:27.2886308+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2001-07-11T15:29:30.5184889+02:00",
+  "PublishTo": "2021-08-25T15:29:30.5184889+02:00",
+  "PublishFrom": "2022-04-18T15:29:30.5184889+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 360,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 899
         }
       }
     },
     {
-      "VisibleId": 360,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 899
         }
       }
     }
@@ -260,12 +260,12 @@ Last-Modified: Sat, 10 Jul 1999 12:15:27 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 317
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

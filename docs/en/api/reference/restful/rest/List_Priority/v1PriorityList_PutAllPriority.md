@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 853,
-    "Name": "Waters Group",
-    "Tooltip": "et",
+    "Id": 547,
+    "Name": "Bednar, Crona and Okuneva",
+    "Tooltip": "officia",
     "Deleted": true,
-    "UdListDefinitionId": 116,
-    "Rank": 479
+    "UdListDefinitionId": 780,
+    "Rank": 579
   },
   {
-    "Id": 853,
-    "Name": "Waters Group",
-    "Tooltip": "et",
+    "Id": 547,
+    "Name": "Bednar, Crona and Okuneva",
+    "Tooltip": "officia",
     "Deleted": true,
-    "UdListDefinitionId": 116,
-    "Rank": 479
+    "UdListDefinitionId": 780,
+    "Rank": 579
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Runolfsdottir-McKenzie",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 917,
-    "Rank": 989,
+    "Id": 960,
+    "Name": "Fisher Group",
+    "Tooltip": "reiciendis",
+    "Deleted": false,
+    "UdListDefinitionId": 581,
+    "Rank": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 679
       }
     }
   }

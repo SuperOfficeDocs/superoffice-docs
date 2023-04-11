@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 885,
-    "Name": "Tillman Inc and Sons",
-    "Tooltip": "sequi",
-    "Deleted": true,
-    "Rank": 90,
-    "UdListDefinitionId": 265
+    "HeadingId": 688,
+    "Name": "Weber, King and Daugherty",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "Rank": 742,
+    "UdListDefinitionId": 24
   },
   {
-    "HeadingId": 885,
-    "Name": "Tillman Inc and Sons",
-    "Tooltip": "sequi",
-    "Deleted": true,
-    "Rank": 90,
-    "UdListDefinitionId": 265
+    "HeadingId": 688,
+    "Name": "Weber, King and Daugherty",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "Rank": 742,
+    "UdListDefinitionId": 24
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 18,
-    "Name": "Reichel, Rice and Goldner",
-    "Tooltip": "assumenda",
-    "Deleted": false,
-    "Rank": 249,
-    "UdListDefinitionId": 892,
+    "HeadingId": 106,
+    "Name": "Osinski, Swift and Adams",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "Rank": 344,
+    "UdListDefinitionId": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 996
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

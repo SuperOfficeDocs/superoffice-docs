@@ -92,8 +92,8 @@ ChatSessionEntity found.
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -102,7 +102,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -112,48 +112,48 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 228,
-  "TopicId": 269,
+  "ChatSessionId": 1001,
+  "TopicId": 361,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "optio",
-  "CustomerName": "Zemlak, Simonis and Mayer",
-  "CustomerEmail": "ward@oreillyullrich.biz",
-  "CustomerPhone": "820.944.3578",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schmitt-Corwin",
+  "CustomerAlias": "blanditiis",
+  "CustomerHost": "iste",
+  "CustomerName": "Kris, McGlynn and Wiza",
+  "CustomerEmail": "judd_hegmann@farrellrohan.biz",
+  "CustomerPhone": "814-057-6976 x93615",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Russel, Monahan and Dietrich",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "qui",
-  "WhenRequested": "2004-07-07T12:15:26.3936438+02:00",
-  "WhenStarted": "2003-03-25T12:15:26.3936438+01:00",
-  "WhenEnded": "2013-11-10T12:15:26.3936438+01:00",
-  "WhenIdle": "1997-12-30T12:15:26.3936438+01:00",
-  "WhenFetched": "1996-06-17T12:15:26.3936438+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 209,
-  "AlertLevel": 126,
-  "Rank": 10,
+  "FirstMessage": "deserunt",
+  "LastMessage": "dolores",
+  "WhenRequested": "1999-06-02T15:29:29.2947062+02:00",
+  "WhenStarted": "2014-07-07T15:29:29.2947062+02:00",
+  "WhenEnded": "2006-06-15T15:29:29.2947062+02:00",
+  "WhenIdle": "2018-12-25T15:29:29.2947062+01:00",
+  "WhenFetched": "2002-12-02T15:29:29.2947062+01:00",
+  "SessionKey": "eveniet",
+  "InitialQueuePos": 540,
+  "AlertLevel": 700,
+  "Rank": 948,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 388,
+  "ChatbotIsActive": false,
+  "Rating": 674,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 360
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

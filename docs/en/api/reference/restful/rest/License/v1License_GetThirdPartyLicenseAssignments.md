@@ -63,8 +63,8 @@ OK
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 187,
-    "Tooltip": "corrupti",
-    "CanAssign": true,
-    "Free": 183,
-    "InUse": 251,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 330,
-    "Name": "Mraz, Walsh and McClure",
-    "Description": "Enterprise-wide disintermediate architecture",
-    "PrerequisiteModuleName": "Schulist-Erdman",
-    "SortOrder": 84,
-    "ExtraFlags": 972,
+    "Total": 396,
+    "Tooltip": "ut",
+    "CanAssign": false,
+    "Free": 850,
+    "InUse": 600,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 756,
+    "Name": "Zieme Group",
+    "Description": "Business-focused bi-directional migration",
+    "PrerequisiteModuleName": "Kassulke LLC",
+    "SortOrder": 534,
+    "ExtraFlags": 602,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldLength": 96
       }
     }
   }

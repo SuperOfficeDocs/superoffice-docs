@@ -128,8 +128,8 @@ ChatSessionEntity updated.
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -138,41 +138,41 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 927,
-  "TopicId": 188,
+  "ChatSessionId": 669,
+  "TopicId": 898,
   "User": null,
   "Person": null,
-  "CustomerAlias": "consequatur",
-  "CustomerHost": "laudantium",
-  "CustomerName": "Gerlach Inc and Sons",
-  "CustomerEmail": "murray@hammes.co.uk",
-  "CustomerPhone": "221-715-1485",
+  "CustomerAlias": "ab",
+  "CustomerHost": "modi",
+  "CustomerName": "Morar-Murazik",
+  "CustomerEmail": "laurence@gaylord.com",
+  "CustomerPhone": "644-897-0014",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Abshire Inc and Sons",
+  "CustomerCompanyName": "Muller-Okuneva",
   "Status": "Closed",
-  "FirstMessage": "nihil",
-  "LastMessage": "et",
-  "WhenRequested": "2013-05-04T12:15:26.4006438+02:00",
-  "WhenStarted": "2020-01-17T12:15:26.4006438+01:00",
-  "WhenEnded": "2020-02-14T12:15:26.4006438+01:00",
-  "WhenIdle": "2022-11-18T12:15:26.4006438+01:00",
-  "WhenFetched": "2002-01-04T12:15:26.4006438+01:00",
-  "SessionKey": "doloremque",
-  "InitialQueuePos": 669,
-  "AlertLevel": 778,
-  "Rank": 530,
+  "FirstMessage": "quibusdam",
+  "LastMessage": "molestias",
+  "WhenRequested": "2018-01-03T15:29:29.3012054+01:00",
+  "WhenStarted": "2019-11-10T15:29:29.3012054+01:00",
+  "WhenEnded": "2022-04-04T15:29:29.3012054+02:00",
+  "WhenIdle": "2016-03-10T15:29:29.3012054+01:00",
+  "WhenFetched": "2002-03-21T15:29:29.3012054+01:00",
+  "SessionKey": "impedit",
+  "InitialQueuePos": 974,
+  "AlertLevel": 543,
+  "Rank": 175,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 725
+  "ChatbotIsActive": true,
+  "Rating": 453
 }
 ```
 
@@ -183,29 +183,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 3,
-  "TopicId": 866,
+  "ChatSessionId": 111,
+  "TopicId": 146,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quia",
-  "CustomerHost": "eum",
-  "CustomerName": "Adams LLC",
-  "CustomerEmail": "malika@croningoyette.info",
-  "CustomerPhone": "318-386-3718 x5607",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Rowe, Morissette and Balistreri",
+  "CustomerAlias": "eum",
+  "CustomerHost": "tenetur",
+  "CustomerName": "Nicolas, Runte and Lesch",
+  "CustomerEmail": "wallace@rempel.name",
+  "CustomerPhone": "903-095-7886 x1877",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Hudson Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "libero",
-  "LastMessage": "commodi",
-  "WhenRequested": "2022-04-05T12:15:26.4116465+02:00",
-  "WhenStarted": "1998-11-24T12:15:26.4116465+01:00",
-  "WhenEnded": "2013-08-12T12:15:26.4116465+02:00",
-  "WhenIdle": "2013-10-26T12:15:26.4116465+02:00",
-  "WhenFetched": "2020-08-15T12:15:26.4116465+02:00",
-  "SessionKey": "quo",
-  "InitialQueuePos": 315,
-  "AlertLevel": 431,
-  "Rank": 545,
+  "FirstMessage": "nam",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2008-06-21T15:29:29.3122098+02:00",
+  "WhenStarted": "2001-11-08T15:29:29.3122098+01:00",
+  "WhenEnded": "2020-12-27T15:29:29.3122098+01:00",
+  "WhenIdle": "2017-10-05T15:29:29.3122098+02:00",
+  "WhenFetched": "2016-11-15T15:29:29.3122098+01:00",
+  "SessionKey": "ex",
+  "InitialQueuePos": 191,
+  "AlertLevel": 343,
+  "Rank": 58,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -213,13 +213,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 511,
+  "Rating": 169,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   },
   "_Links": {

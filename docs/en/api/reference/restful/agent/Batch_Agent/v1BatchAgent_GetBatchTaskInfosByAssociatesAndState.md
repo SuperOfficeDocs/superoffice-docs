@@ -85,8 +85,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    832,
-    486
+    230,
+    81
   ],
   "State": "All"
 }
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Kerluke Group",
-    "AssociateId": 35,
-    "DetailsTable": 437,
-    "DetailsRecord": 919,
+    "Id": 937,
+    "Name": "Gorczany LLC",
+    "AssociateId": 25,
+    "DetailsTable": 662,
+    "DetailsRecord": 445,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quo",
-      "ParameterObject2": "animi"
+      "ParameterObject1": "ullam",
+      "ParameterObject2": "tempore"
     },
-    "LastStarted": "2014-02-17T12:15:18.2097626+01:00",
-    "Created": "2013-12-23T12:15:18.2097626+01:00",
-    "StartCount": 911,
-    "DatabaseSerialNumber": "854601",
-    "Context": "reprehenderit",
-    "Result": "maiores",
+    "LastStarted": "2009-01-16T15:29:20.8267892+01:00",
+    "Created": "2006-11-28T15:29:20.8267892+01:00",
+    "StartCount": 733,
+    "DatabaseSerialNumber": "828830",
+    "Context": "ea",
+    "Result": "officiis",
     "State": "All",
-    "Description": "Stand-alone non-volatile attitude",
-    "Response": "ut",
-    "Request": "repudiandae",
-    "ProgressDescription": "Re-contextualized explicit groupware",
-    "ProgressPercent": 754,
-    "FileName": "Tremblay-Huels",
+    "Description": "Total systemic conglomeration",
+    "Response": "aut",
+    "Request": "modi",
+    "ProgressDescription": "Profit-focused reciprocal conglomeration",
+    "ProgressPercent": 465,
+    "FileName": "Hoeger-Davis",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 706
       }
     }
   }

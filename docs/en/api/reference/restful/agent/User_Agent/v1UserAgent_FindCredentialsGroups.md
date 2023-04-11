@@ -70,8 +70,8 @@ OK
 |----------------|------|--------------|
 | Name | string | This is the full name of the group as needed to discover the users within the group.  this value should not be displayed to the end user. |
 | DisplayName | string | The display name of the group to display to the user. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "iusto",
-  "SearchString": "pariatur"
+  "Type": "esse",
+  "SearchString": "itaque"
 }
 ```
 
@@ -96,26 +96,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Senger-Wilderman",
-    "DisplayName": "Boyer, Schneider and Mertz",
+    "Name": "Heller, Ryan and Conn",
+    "DisplayName": "Fahey, Heller and Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 210
       }
     }
   },
   {
-    "Name": "Senger-Wilderman",
-    "DisplayName": "Boyer, Schneider and Mertz",
+    "Name": "Heller, Ryan and Conn",
+    "DisplayName": "Fahey, Heller and Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 210
       }
     }
   }

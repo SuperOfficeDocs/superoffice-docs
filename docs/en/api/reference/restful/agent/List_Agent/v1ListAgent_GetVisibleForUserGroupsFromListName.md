@@ -78,8 +78,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wisozk-Vandervort",
-  "ListItemId": 728
+  "UdListDefinitionName": "Ziemann, Fay and Rosenbaum",
+  "ListItemId": 849
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Herzog, Rohan and Reynolds",
-    "ToolTip": "Earum nisi.",
+    "Id": 398,
+    "Name": "Bradtke, Stehr and Jacobi",
+    "ToolTip": "Id error ipsa eveniet.",
     "Deleted": false,
-    "Rank": 869,
-    "Type": "molestiae",
-    "ColorBlock": 659,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2017-04-09T12:15:19.2467479+02:00",
+    "Rank": 72,
+    "Type": "provident",
+    "ColorBlock": 867,
+    "IconHint": "voluptate",
+    "Selected": true,
+    "LastChanged": "2014-03-09T15:29:22.0087726+01:00",
     "ChildItems": [
       {
-        "Id": 635,
-        "Name": "Dare-Jacobson",
-        "ToolTip": "Aut nisi voluptatum.",
+        "Id": 17,
+        "Name": "Bosco-Willms",
+        "ToolTip": "Est dolor quo est voluptatem impedit.",
         "Deleted": false,
-        "Rank": 401,
-        "Type": "voluptatibus",
-        "ColorBlock": 558,
-        "IconHint": "ut",
+        "Rank": 87,
+        "Type": "voluptas",
+        "ColorBlock": 115,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "1997-05-17T12:15:19.2467479+02:00",
+        "LastChanged": "2003-05-16T15:29:22.009272+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "et",
+        "StyleHint": "atque",
         "Hidden": true,
-        "FullName": "Prof. Marian Eugenia Walsh IV",
+        "FullName": "Dennis Schuster V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 551
+            "FieldType": "System.Int32",
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "nemo",
-    "Hidden": true,
-    "FullName": "Miss Hulda Kylie Dibbert",
+    "ExtraInfo": "et",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Waldo Greenholt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldLength": 479
       }
     }
   }

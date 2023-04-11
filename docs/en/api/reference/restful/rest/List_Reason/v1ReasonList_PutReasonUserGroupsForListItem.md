@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Barrows Inc and Sons",
-    "ToolTip": "Dicta doloremque soluta.",
+    "Id": 169,
+    "Name": "Stracke Group",
+    "ToolTip": "Aut soluta qui occaecati in quisquam corporis facere.",
     "Deleted": true,
-    "Rank": 767,
-    "Type": "omnis",
-    "ColorBlock": 542,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "1997-04-12T12:15:28.4196143+02:00",
+    "Rank": 744,
+    "Type": "accusamus",
+    "ColorBlock": 475,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "2006-04-20T15:29:31.5309754+02:00",
     "ChildItems": [
       {
-        "Id": 737,
-        "Name": "Tillman Inc and Sons",
-        "ToolTip": "Non molestias magni earum qui.",
-        "Deleted": false,
-        "Rank": 289,
-        "Type": "vel",
-        "ColorBlock": 716,
-        "IconHint": "sed",
+        "Id": 60,
+        "Name": "Rowe, Swift and Schaefer",
+        "ToolTip": "Ducimus maxime neque fugiat ipsum veniam.",
+        "Deleted": true,
+        "Rank": 144,
+        "Type": "a",
+        "ColorBlock": 196,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2022-04-30T12:15:28.4196143+02:00",
+        "LastChanged": "2002-07-12T15:29:31.5314745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "magnam",
+        "ExtraInfo": "sequi",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Llewellyn Gaylord"
+        "FullName": "Fabiola Littel"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Theodore Altenwerth"
+    "ExtraInfo": "pariatur",
+    "StyleHint": "reprehenderit",
+    "Hidden": true,
+    "FullName": "Jodie Blick"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 717,
-    "Name": "Haley, Stehr and Marvin",
-    "ToolTip": "Iure pariatur aut voluptate sed quaerat.",
+    "Id": 993,
+    "Name": "Schaefer-Renner",
+    "ToolTip": "Maxime aliquam ducimus deserunt velit aut possimus consequuntur.",
     "Deleted": false,
-    "Rank": 335,
-    "Type": "quia",
-    "ColorBlock": 868,
-    "IconHint": "maiores",
-    "Selected": false,
-    "LastChanged": "1999-09-22T12:15:28.4216147+02:00",
+    "Rank": 604,
+    "Type": "voluptatum",
+    "ColorBlock": 627,
+    "IconHint": "quae",
+    "Selected": true,
+    "LastChanged": "2009-09-24T15:29:31.5334768+02:00",
     "ChildItems": [
       {
-        "Id": 106,
-        "Name": "Spencer, Cremin and Muller",
-        "ToolTip": "Harum est sed facilis.",
-        "Deleted": true,
-        "Rank": 320,
-        "Type": "cumque",
-        "ColorBlock": 194,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2005-08-09T12:15:28.4216147+02:00",
+        "Id": 277,
+        "Name": "Sauer-Kuvalis",
+        "ToolTip": "Unde quasi molestiae.",
+        "Deleted": false,
+        "Rank": 809,
+        "Type": "rerum",
+        "ColorBlock": 510,
+        "IconHint": "vero",
+        "Selected": true,
+        "LastChanged": "2016-08-05T15:29:31.5334768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Kelley Silas Gibson IV",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "architecto",
+        "Hidden": false,
+        "FullName": "Prof. Magali Marshall Keeling Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 777
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "fugit",
-    "StyleHint": "enim",
+    "ExtraInfo": "nihil",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Mr. Raina Rogahn MD",
+    "FullName": "Stanley Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 809
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

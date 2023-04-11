@@ -78,8 +78,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "fugiat",
+  "TriggerScriptUniqueId": "nobis",
   "Entity": null
 }
 ```
@@ -103,22 +103,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 443,
-  "Name": "Bruen-Gleichner",
+  "ScreenChooserId": 22,
+  "Name": "Pollich-Kuhic",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "expedita",
-  "Source": "corporis",
-  "Registered": "2003-08-03T12:15:18.6357565+02:00",
-  "RegisteredAssociateId": 365,
-  "Updated": "2014-08-18T12:15:18.6357565+02:00",
-  "UpdatedAssociateId": 181,
+  "UniqueIdentifier": "sint",
+  "Source": "dignissimos",
+  "Registered": "1996-07-05T15:29:21.2617831+02:00",
+  "RegisteredAssociateId": 793,
+  "Updated": "2023-03-19T15:29:21.2617831+01:00",
+  "UpdatedAssociateId": 741,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

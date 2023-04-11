@@ -76,12 +76,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 79,
+  "ErpConnectionId": 951,
   "CrmActorType": "Contact",
-  "EntityId": 888,
+  "EntityId": 101,
   "FieldKeys": [
-    "sapiente",
-    "assumenda"
+    "sunt",
+    "eveniet"
   ]
 }
 ```
@@ -93,7 +93,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "neque",
-  "nesciunt"
+  "repellendus",
+  "esse"
 ]
 ```

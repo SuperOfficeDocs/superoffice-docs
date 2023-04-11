@@ -60,8 +60,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
-  "Name": "Buckridge Group",
-  "Description": "Function-based 3rd generation emulation",
-  "IncludeId": "consequuntur",
-  "Source": "provident",
-  "Registered": "2001-10-02T12:15:27.719625+02:00",
-  "RegisteredBy": "doloremque",
-  "Updated": "2020-08-18T12:15:27.719625+02:00",
-  "UpdatedBy": "laudantium",
-  "Path": "doloremque",
+  "UniqueIdentifier": "itaque",
+  "Name": "Price, Kiehn and Grady",
+  "Description": "Adaptive well-modulated functionalities",
+  "IncludeId": "soluta",
+  "Source": "vero",
+  "Registered": "2003-05-20T15:29:30.9284835+02:00",
+  "RegisteredBy": "eum",
+  "Updated": "2000-08-25T15:29:30.9284835+02:00",
+  "UpdatedBy": "ullam",
+  "Path": "repellendus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 243
     }
   }
 }

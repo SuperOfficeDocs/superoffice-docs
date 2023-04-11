@@ -72,8 +72,8 @@ OK
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,18 +81,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Murray, Wilkinson and McKenzie",
-  "StorageKey": "consequatur",
+  "StorageType": "accusamus",
+  "ProviderName": "Gottlieb-Beer",
+  "StorageKey": "amet",
   "StaticColumns": [
-    "reiciendis",
-    "sit"
+    "eos",
+    "non"
   ],
-  "Context": "saepe"
+  "Context": "at"
 }
 ```
 
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kertzmann, Krajcik and Corkery",
-      "Operator": "modi",
+      "Name": "Frami Inc and Sons",
+      "Operator": "pariatur",
       "Values": [
-        "quia",
-        "sed"
+        "harum",
+        "at"
       ],
       "DisplayValues": [
-        "omnis",
-        "id"
+        "sint",
+        "sit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 414,
+      "InterParenthesis": 279,
       "InterOperator": "And",
-      "UniqueHash": 733
+      "UniqueHash": 946
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Spinka Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "nemo",
-      "CanOrderBy": false,
-      "Name": "West-VonRueden",
+      "DisplayName": "West, Hilll and Olson",
+      "DisplayTooltip": "ea",
+      "DisplayType": "officiis",
+      "CanOrderBy": true,
+      "Name": "Schmitt, Boehm and Bechtelar",
       "CanRestrictBy": true,
-      "RestrictionType": "nesciunt",
-      "RestrictionListName": "Hansen, Marvin and Reynolds",
-      "IsVisible": true,
-      "ExtraInfo": "est",
-      "Width": "fuga",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "soluta"
+      "RestrictionType": "quia",
+      "RestrictionListName": "Lueilwitz Group",
+      "IsVisible": false,
+      "ExtraInfo": "sit",
+      "Width": "autem",
+      "IconHint": "qui",
+      "HeadingIconHint": "harum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Pfeffer Group",
-      "PrimaryKey": 320,
+      "EntityName": "Goyette-McGlynn",
+      "PrimaryKey": 227,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "sed",
-          "LinkHint": "consequatur"
+          "DisplayValue": "cumque",
+          "TooltipHint": "consequatur",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "aperiam",
+      "LinkHint": "saepe",
+      "StyleHint": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 414
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Johns-Zboncak",
-      "Description": "Intuitive tangible archive",
-      "Rank": 398,
+      "Name": "Schaden, Kutch and Cremin",
+      "Description": "Profound bandwidth-monitored support",
+      "Rank": 709,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Johns-Zboncak",
-      "Description": "Intuitive tangible archive",
-      "Rank": 398,
+      "Name": "Schaden, Kutch and Cremin",
+      "Description": "Profound bandwidth-monitored support",
+      "Rank": 709,
       "Restrictions": [
         {},
         {}
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 367,
-    "Name": "Frami, Huel and Gislason",
-    "ToolTip": "Praesentium sit aut delectus.",
-    "Deleted": true,
-    "Rank": 842,
-    "Type": "aut",
-    "ColorBlock": 82,
-    "IconHint": "molestiae",
+    "Id": 628,
+    "Name": "Gulgowski, Hermiston and Abbott",
+    "ToolTip": "Veniam sunt ullam distinctio eius.",
+    "Deleted": false,
+    "Rank": 63,
+    "Type": "ut",
+    "ColorBlock": 75,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2007-03-28T12:15:28.4546161+02:00",
+    "LastChanged": "2001-11-17T15:29:31.5644759+01:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Gerhold Inc and Sons",
-        "ToolTip": "Ut rerum repellat rem.",
+        "Id": 238,
+        "Name": "Franecki-Ziemann",
+        "ToolTip": "Sit dolor consequatur.",
         "Deleted": true,
-        "Rank": 932,
-        "Type": "earum",
-        "ColorBlock": 786,
-        "IconHint": "velit",
+        "Rank": 173,
+        "Type": "facere",
+        "ColorBlock": 776,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "1996-09-02T12:15:28.4546161+02:00",
+        "LastChanged": "2005-04-01T15:29:31.5644759+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "omnis",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Christian White",
+        "FullName": "Ruth Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 823
+            "FieldType": "System.Int32",
+            "FieldLength": 758
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "animi",
+    "StyleHint": "temporibus",
     "Hidden": true,
-    "FullName": "Abbie Ferry",
+    "FullName": "Delta Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

@@ -64,8 +64,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,46 +83,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 488,
+  "HierarchyId": 37,
   "Domain": "Dashboards",
-  "Name": "Collins Inc and Sons",
-  "Fullname": "nisi",
-  "ParentId": 678,
+  "Name": "Feeney Inc and Sons",
+  "Fullname": "sequi",
+  "ParentId": 932,
   "Children": [
     {
-      "HierarchyId": 983,
+      "HierarchyId": 798,
       "Domain": "Dashboards",
-      "Name": "Bradtke-Will",
-      "Fullname": "ex",
-      "ParentId": 193,
+      "Name": "King Inc and Sons",
+      "Fullname": "eaque",
+      "ParentId": 116,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1996-07-15T12:15:26.9876377+02:00",
-      "RegisteredAssociateId": 414,
-      "Updated": "1997-05-16T12:15:26.9876377+02:00",
-      "UpdatedAssociateId": 635,
+      "Registered": "2019-10-01T15:29:29.7881985+02:00",
+      "RegisteredAssociateId": 32,
+      "Updated": "2020-02-20T15:29:29.7881985+01:00",
+      "UpdatedAssociateId": 325,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 985
+          "FieldType": "System.Int32",
+          "FieldLength": 345
         }
       }
     }
   ],
-  "Registered": "2007-06-23T12:15:26.9876377+02:00",
-  "RegisteredAssociateId": 757,
-  "Updated": "2018-07-12T12:15:26.9876377+02:00",
-  "UpdatedAssociateId": 954,
+  "Registered": "2023-01-31T15:29:29.7881985+01:00",
+  "RegisteredAssociateId": 295,
+  "Updated": "2000-12-16T15:29:29.7881985+01:00",
+  "UpdatedAssociateId": 590,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldType": "System.String",
+      "FieldLength": 771
     }
   }
 }

@@ -64,8 +64,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,56 +84,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Kirlin, Runte and Orn",
-    "ToolTip": "Ratione non sit maxime dignissimos.",
+    "Id": 730,
+    "Name": "Langworth LLC",
+    "ToolTip": "Illum non.",
     "Deleted": false,
-    "Rank": 621,
-    "Type": "nihil",
-    "ColorBlock": 442,
-    "IconHint": "repellendus",
+    "Rank": 64,
+    "Type": "harum",
+    "ColorBlock": 17,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "1999-05-27T12:15:27.8376227+02:00",
+    "LastChanged": "1998-04-16T15:29:31.0384467+02:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "Stoltenberg, Keebler and Wiegand",
-        "ToolTip": "Perspiciatis totam sed sequi sint vel.",
+        "Id": 657,
+        "Name": "Johns-Sawayn",
+        "ToolTip": "Earum et ut et neque.",
         "Deleted": true,
-        "Rank": 912,
-        "Type": "ipsum",
-        "ColorBlock": 990,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2012-05-30T12:15:27.8376227+02:00",
+        "Rank": 669,
+        "Type": "porro",
+        "ColorBlock": 799,
+        "IconHint": "velit",
+        "Selected": true,
+        "LastChanged": "2016-05-29T15:29:31.0394467+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "voluptatum",
-        "Hidden": false,
-        "FullName": "Lisa Goyette II",
+        "ExtraInfo": "maiores",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Jodie Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 426
+            "FieldType": "System.String",
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "sit",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Cecil Mills",
+    "FullName": "Alexandria O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

@@ -72,8 +72,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 902,
-    "Name": "Jaskolski, Luettgen and Davis",
-    "CurrencyId": 403,
-    "EnglishName": "Ratke-O'Connell",
+    "CountryId": 455,
+    "Name": "Pouros-Glover",
+    "CurrencyId": 136,
+    "EnglishName": "Carter Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Upgradable homogeneous time-frame",
-    "OrgNrText": "421496",
-    "InterAreaPrefix": "cum",
-    "DialInPrefix": "quae",
-    "ZipPrefix": "neque",
-    "DomainName": "Runolfsdottir, Kling and Bradtke",
-    "AddressLayoutId": 785,
-    "DomesticAddressLayoutId": 14,
-    "ForeignAddressLayoutId": 677,
-    "Rank": 905,
-    "Tooltip": "quaerat",
+    "ImageDescription": "Down-sized exuding collaboration",
+    "OrgNrText": "883344",
+    "InterAreaPrefix": "aspernatur",
+    "DialInPrefix": "modi",
+    "ZipPrefix": "sapiente",
+    "DomainName": "Nolan-Kuphal",
+    "AddressLayoutId": 776,
+    "DomesticAddressLayoutId": 261,
+    "ForeignAddressLayoutId": 938,
+    "Rank": 458,
+    "Tooltip": "quae",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 504
+        "FieldType": "System.Int32",
+        "FieldLength": 487
       }
     }
   }

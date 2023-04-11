@@ -73,8 +73,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 122,
-  "Name": "Ortiz-Upton",
+  "ScreenChooserId": 521,
+  "Name": "Littel Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "tempora",
-  "Source": "eligendi",
-  "Registered": "1999-07-07T12:15:18.6227564+02:00",
-  "RegisteredAssociateId": 973,
-  "Updated": "2016-05-28T12:15:18.6227564+02:00",
-  "UpdatedAssociateId": 415
+  "UniqueIdentifier": "rerum",
+  "Source": "sit",
+  "Registered": "1999-09-28T15:29:21.2497834+02:00",
+  "RegisteredAssociateId": 23,
+  "Updated": "2015-01-28T15:29:21.2497834+01:00",
+  "UpdatedAssociateId": 796
 }
 ```
 
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 250,
-  "Name": "Wisozk-Williamson",
+  "ScreenChooserId": 650,
+  "Name": "Fritsch Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "saepe",
-  "Source": "aliquam",
-  "Registered": "2015-02-20T12:15:18.6237597+01:00",
-  "RegisteredAssociateId": 837,
-  "Updated": "1998-11-07T12:15:18.6237597+01:00",
-  "UpdatedAssociateId": 856,
+  "Enabled": true,
+  "UniqueIdentifier": "eum",
+  "Source": "eum",
+  "Registered": "2009-12-25T15:29:21.2507836+01:00",
+  "RegisteredAssociateId": 770,
+  "Updated": "1996-01-14T15:29:21.2507836+01:00",
+  "UpdatedAssociateId": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 444
     }
   }
 }

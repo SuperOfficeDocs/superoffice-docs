@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 874,
-    "Name": "McLaughlin-Dietrich",
-    "ToolTip": "Nisi maiores eaque et vel.",
+    "Id": 259,
+    "Name": "West-Schiller",
+    "ToolTip": "Deleniti nihil sit id.",
     "Deleted": false,
-    "Rank": 193,
-    "Type": "ad",
-    "ColorBlock": 869,
-    "IconHint": "temporibus",
+    "Rank": 705,
+    "Type": "recusandae",
+    "ColorBlock": 702,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2011-09-13T12:15:28.3316166+02:00",
+    "LastChanged": "1999-01-15T15:29:31.4484779+01:00",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Leannon LLC",
-        "ToolTip": "Voluptatem et temporibus.",
+        "Id": 956,
+        "Name": "Kiehn-Walsh",
+        "ToolTip": "Quia dolor.",
         "Deleted": true,
-        "Rank": 202,
-        "Type": "cumque",
-        "ColorBlock": 936,
-        "IconHint": "nostrum",
+        "Rank": 167,
+        "Type": "quasi",
+        "ColorBlock": 641,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2007-01-30T12:15:28.3316166+01:00",
+        "LastChanged": "2011-10-12T15:29:31.4484779+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Yasmin Quigley"
+        "ExtraInfo": "vitae",
+        "StyleHint": "itaque",
+        "Hidden": true,
+        "FullName": "Kaycee Mueller"
       }
     ],
-    "ExtraInfo": "ab",
-    "StyleHint": "modi",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Benton Schimmel"
+    "FullName": "Mr. Dannie Aufderhar Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Morar-Crooks",
-    "ToolTip": "Qui consequuntur ab voluptatum expedita nobis voluptates voluptatibus.",
+    "Id": 262,
+    "Name": "Block, Berge and Considine",
+    "ToolTip": "Qui qui non amet sit dolor nihil at.",
     "Deleted": true,
-    "Rank": 252,
-    "Type": "quibusdam",
-    "ColorBlock": 867,
-    "IconHint": "aliquid",
+    "Rank": 137,
+    "Type": "aut",
+    "ColorBlock": 502,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2008-01-23T12:15:28.3346162+01:00",
+    "LastChanged": "1997-08-08T15:29:31.4499762+02:00",
     "ChildItems": [
       {
-        "Id": 177,
-        "Name": "Hartmann LLC",
-        "ToolTip": "Est rerum magnam recusandae quia explicabo sapiente animi.",
-        "Deleted": false,
-        "Rank": 361,
-        "Type": "asperiores",
-        "ColorBlock": 881,
-        "IconHint": "molestias",
+        "Id": 951,
+        "Name": "Schamberger, Schowalter and Erdman",
+        "ToolTip": "Qui maiores et corporis ipsam magnam nihil explicabo.",
+        "Deleted": true,
+        "Rank": 101,
+        "Type": "dignissimos",
+        "ColorBlock": 73,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2012-04-25T12:15:28.3346162+02:00",
+        "LastChanged": "2021-12-18T15:29:31.4499762+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Ericka Tromp",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Prof. Malika Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 859
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "error",
+    "ExtraInfo": "qui",
+    "StyleHint": "deserunt",
     "Hidden": false,
-    "FullName": "Mrs. Orrin VonRueden",
+    "FullName": "Berta Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 498
       }
     }
   }

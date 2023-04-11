@@ -71,8 +71,8 @@ OK
 | Mandatory | bool | Is this a mandatory field? |
 | Rank | int32 | Rank of the field |
 | RestrictEdit | bool | If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Kiehn Inc and Sons"
+  "FieldName": "Terry-Hermiston"
 }
 ```
 
@@ -95,21 +95,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 915,
-  "FieldName": "Hauck, Conroy and Lynch",
-  "Label": "quas",
-  "Tooltip": "sequi",
-  "Editable": true,
-  "InUse": false,
-  "Mandatory": false,
-  "Rank": 875,
+  "QuoteLineConfigurationId": 615,
+  "FieldName": "Berge-Hahn",
+  "Label": "animi",
+  "Tooltip": "tenetur",
+  "Editable": false,
+  "InUse": true,
+  "Mandatory": true,
+  "Rank": 501,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   }
 }

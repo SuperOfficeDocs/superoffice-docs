@@ -59,8 +59,8 @@ OK
 | NetServerSmsProvider | string | Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, PSWinCom SMS, SMS Teknik or TXTLocal. |
 | NsPluginSender | string | The sender of the SMS messages. This text will appear on the recipient's mobile phone. |
 | NsPluginConfig | object | Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,16 +68,16 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "et",
-  "NsPluginSender": "tempore",
+  "NetServerSmsProvider": "odit",
+  "NsPluginSender": "et",
   "NsPluginConfig": {
-    "NsPluginConfig1": "ea",
-    "NsPluginConfig2": "libero"
+    "NsPluginConfig1": "soluta",
+    "NsPluginConfig2": "necessitatibus"
   }
 }
 ```
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "debitis",
-  "NsPluginSender": "animi",
+  "NetServerSmsProvider": "tempore",
+  "NsPluginSender": "delectus",
   "NsPluginConfig": {
-    "NsPluginConfig1": "error",
-    "NsPluginConfig2": "dolores"
+    "NsPluginConfig1": "eum",
+    "NsPluginConfig2": "saepe"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   }
 }

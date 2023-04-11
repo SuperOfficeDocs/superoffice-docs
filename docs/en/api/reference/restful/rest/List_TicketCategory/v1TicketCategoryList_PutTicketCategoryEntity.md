@@ -94,8 +94,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,33 +103,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 907,
-  "ParentId": 810,
-  "Name": "Yundt Inc and Sons",
-  "Fullname": "rem",
-  "CategoryMaster": 369,
+  "TicketCategoryId": 501,
+  "ParentId": 747,
+  "Name": "Labadie, Gorczany and Marks",
+  "Fullname": "sit",
+  "CategoryMaster": 420,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bergstrom-Bode",
+  "ExternalName": "Larkin Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 321,
-  "ReplyTemplate": 174,
-  "NotificationEmail": "arjun@borer.us",
+  "AssignmentLag": 778,
+  "ReplyTemplate": 853,
+  "NotificationEmail": "ron@mills.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 373,
+  "EffectiveReplyTemplateId": 599,
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "perspiciatis"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "et"
+    "CustomFields1": "tempore",
+    "CustomFields2": "in"
   }
 }
 ```
@@ -141,36 +141,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 445,
-  "ParentId": 113,
-  "Name": "Zulauf-Sauer",
-  "Fullname": "modi",
-  "CategoryMaster": 862,
+  "TicketCategoryId": 655,
+  "ParentId": 893,
+  "Name": "Kuhic, Conn and Gottlieb",
+  "Fullname": "culpa",
+  "CategoryMaster": 97,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Feest LLC",
+  "ExternalName": "Kunze, Walker and Osinski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 462,
-  "ReplyTemplate": 132,
-  "NotificationEmail": "bertrand@kreigercole.biz",
+  "AssignmentLag": 750,
+  "ReplyTemplate": 520,
+  "NotificationEmail": "roselyn@davis.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 355,
+  "EffectiveReplyTemplateId": 213,
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "impedit"
+    "CustomFields1": "qui",
+    "CustomFields2": "error"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 704
     }
   }
 }

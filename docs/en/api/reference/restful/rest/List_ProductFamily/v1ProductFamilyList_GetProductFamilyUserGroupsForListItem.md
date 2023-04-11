@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Torp Inc and Sons",
-    "ToolTip": "Quaerat repudiandae velit.",
-    "Deleted": true,
-    "Rank": 552,
-    "Type": "totam",
-    "ColorBlock": 548,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2006-12-15T12:15:28.2986162+01:00",
+    "Id": 202,
+    "Name": "Russel Inc and Sons",
+    "ToolTip": "Dolores atque et asperiores impedit.",
+    "Deleted": false,
+    "Rank": 758,
+    "Type": "id",
+    "ColorBlock": 526,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "1997-08-01T15:29:31.4129793+02:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Fisher-Blanda",
-        "ToolTip": "Eos nam voluptatem sit ut et repudiandae earum.",
+        "Id": 336,
+        "Name": "McClure, Schmitt and Block",
+        "ToolTip": "Et eum voluptas eligendi omnis dolores odit omnis.",
         "Deleted": false,
-        "Rank": 757,
-        "Type": "dolor",
-        "ColorBlock": 538,
-        "IconHint": "laborum",
+        "Rank": 890,
+        "Type": "cupiditate",
+        "ColorBlock": 168,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2008-07-16T12:15:28.2986162+02:00",
+        "LastChanged": "2013-01-14T15:29:31.4129793+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "beatae",
+        "ExtraInfo": "autem",
+        "StyleHint": "amet",
         "Hidden": true,
-        "FullName": "Miss Danny Muller DVM",
+        "FullName": "Miss Camron Leora Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 641
+            "FieldLength": 281
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Mrs. Bo Porter Miller MD",
+    "ExtraInfo": "dolor",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Mr. Noemi Chet Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 348
+        "FieldLength": 587
       }
     }
   }

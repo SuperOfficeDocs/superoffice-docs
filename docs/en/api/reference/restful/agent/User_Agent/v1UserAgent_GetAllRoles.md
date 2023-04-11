@@ -82,8 +82,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Braun LLC",
-    "ToolTip": "Dignissimos et excepturi possimus asperiores qui.",
+    "Id": 684,
+    "Name": "Gusikowski Inc and Sons",
+    "ToolTip": "Ut eum natus at quod saepe qui in.",
     "Deleted": false,
-    "Rank": 65,
-    "Type": "ea",
-    "ColorBlock": 925,
-    "IconHint": "quo",
+    "Rank": 683,
+    "Type": "hic",
+    "ColorBlock": 508,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2011-10-07T12:15:20.5637287+02:00",
+    "LastChanged": "2001-07-07T15:29:23.3362542+02:00",
     "ChildItems": [
       {
-        "Id": 465,
-        "Name": "Little-Powlowski",
-        "ToolTip": "Quod recusandae dolores est ut accusantium.",
+        "Id": 876,
+        "Name": "Lebsack Group",
+        "ToolTip": "Vero dolorem.",
         "Deleted": false,
-        "Rank": 162,
-        "Type": "expedita",
-        "ColorBlock": 906,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2022-09-18T12:15:20.5637287+02:00",
+        "Rank": 670,
+        "Type": "tenetur",
+        "ColorBlock": 318,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2019-05-01T15:29:23.3362542+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "occaecati",
-        "Hidden": false,
-        "FullName": "Solon Feest",
+        "ExtraInfo": "aut",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Maida Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldType": "System.String",
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Jacky Anika Legros Sr.",
+    "ExtraInfo": "saepe",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Jettie Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldType": "System.Int32",
+        "FieldLength": 261
       }
     }
   }

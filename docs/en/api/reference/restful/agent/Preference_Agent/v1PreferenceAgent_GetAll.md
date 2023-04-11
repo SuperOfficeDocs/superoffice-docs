@@ -72,8 +72,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 492,
-    "Section": "quia",
-    "Key": "et",
-    "Name": "Swaniawski Group",
+    "PrefDescId": 205,
+    "Section": "ut",
+    "Key": "quos",
+    "Name": "Wyman Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Synchronised optimizing system engine",
+    "Description": "Decentralized uniform budgetary management",
     "IsBuiltin": false,
-    "TableName": "Wiegand, Gutkowski and Hoeger",
-    "UserDefinedListId": 114,
-    "Rank": 183,
-    "SubGroup": "distinctio",
-    "MinLevel": 799,
-    "MaxValue": 833,
-    "MinValue": 735,
-    "RequiredLicense": "ut",
+    "TableName": "Rohan, Wunsch and Ankunding",
+    "UserDefinedListId": 399,
+    "Rank": 896,
+    "SubGroup": "reprehenderit",
+    "MinLevel": 804,
+    "MaxValue": 853,
+    "MinValue": 49,
+    "RequiredLicense": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

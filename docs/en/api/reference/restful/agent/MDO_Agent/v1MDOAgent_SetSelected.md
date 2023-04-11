@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,28 +92,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Block, Kihn and Lesch",
-  "AdditionalInfo": "enim",
+  "Name": "Deckow, McCullough and Hahn",
+  "AdditionalInfo": "recusandae",
   "SelectableMDOList": [
     {
-      "Id": 800,
-      "Name": "Rogahn Group",
-      "ToolTip": "Molestiae fugit eius voluptas aut.",
+      "Id": 998,
+      "Name": "Reinger, Wolff and Mohr",
+      "ToolTip": "Iusto unde officiis velit corporis quidem.",
       "Deleted": false,
-      "Rank": 625,
-      "Type": "velit",
-      "ColorBlock": 796,
-      "IconHint": "exercitationem",
+      "Rank": 139,
+      "Type": "quidem",
+      "ColorBlock": 19,
+      "IconHint": "enim",
       "Selected": false,
-      "LastChanged": "2007-08-20T12:15:19.3937468+02:00",
+      "LastChanged": "2021-11-13T15:29:22.1543035+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "provident",
-      "StyleHint": "et",
+      "ExtraInfo": "ipsa",
+      "StyleHint": "ullam",
       "Hidden": false,
-      "FullName": "Mustafa Wintheiser"
+      "FullName": "Jerrell Graham"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Pacocha LLC",
-    "ToolTip": "Et aut culpa similique consequatur odit neque aut.",
+    "Id": 362,
+    "Name": "Wintheiser, Hintz and Jewess",
+    "ToolTip": "Sit culpa architecto.",
     "Deleted": false,
-    "Rank": 338,
-    "Type": "corrupti",
-    "ColorBlock": 678,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2003-05-24T12:15:19.3947455+02:00",
+    "Rank": 17,
+    "Type": "quia",
+    "ColorBlock": 10,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "1997-02-13T15:29:22.1553036+01:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Hegmann Inc and Sons",
-        "ToolTip": "Et in sunt facere deserunt.",
-        "Deleted": false,
-        "Rank": 489,
-        "Type": "et",
-        "ColorBlock": 891,
-        "IconHint": "vel",
+        "Id": 347,
+        "Name": "Williamson, Moen and Cartwright",
+        "ToolTip": "Alias sed consequuntur sequi.",
+        "Deleted": true,
+        "Rank": 271,
+        "Type": "at",
+        "ColorBlock": 953,
+        "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "2006-06-29T12:15:19.3957451+02:00",
+        "LastChanged": "2018-04-29T15:29:22.1553036+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Kayli Frami",
+        "FullName": "Isaac Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 249
+            "FieldLength": 510
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "omnis",
+    "ExtraInfo": "et",
+    "StyleHint": "dolore",
     "Hidden": false,
-    "FullName": "Rex Eichmann",
+    "FullName": "Wallace Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldType": "System.String",
+        "FieldLength": 457
       }
     }
   }

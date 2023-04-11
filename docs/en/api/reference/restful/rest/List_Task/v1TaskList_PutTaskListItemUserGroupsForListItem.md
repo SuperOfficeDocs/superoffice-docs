@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 585,
-    "Name": "Gutmann-Schneider",
-    "ToolTip": "Voluptas qui sit.",
-    "Deleted": true,
-    "Rank": 761,
-    "Type": "ullam",
-    "ColorBlock": 401,
-    "IconHint": "modi",
+    "Id": 243,
+    "Name": "Corwin Group",
+    "ToolTip": "Laudantium reiciendis ut magnam at et.",
+    "Deleted": false,
+    "Rank": 150,
+    "Type": "sequi",
+    "ColorBlock": 24,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2018-10-19T12:15:28.5326197+02:00",
+    "LastChanged": "2015-12-17T15:29:31.6429733+01:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "DuBuque, Runolfsson and Mraz",
-        "ToolTip": "Vel quia et voluptate fuga qui.",
+        "Id": 96,
+        "Name": "Kerluke, Jacobi and Bosco",
+        "ToolTip": "Non repellendus esse.",
         "Deleted": false,
-        "Rank": 627,
-        "Type": "officia",
-        "ColorBlock": 533,
-        "IconHint": "vel",
+        "Rank": 35,
+        "Type": "rerum",
+        "ColorBlock": 419,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2012-09-26T12:15:28.5336129+02:00",
+        "LastChanged": "2006-02-02T15:29:31.6429733+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "culpa",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Ansley Irving Weber IV"
+        "FullName": "Felix Prosacco"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "autem",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Eulah Kshlerin"
+    "FullName": "Winfield Nienow"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Walter LLC",
-    "ToolTip": "Ut vitae dolores.",
+    "Id": 25,
+    "Name": "Kozey-McKenzie",
+    "ToolTip": "Quia facilis est est.",
     "Deleted": true,
-    "Rank": 663,
-    "Type": "sed",
-    "ColorBlock": 667,
-    "IconHint": "numquam",
+    "Rank": 658,
+    "Type": "ipsam",
+    "ColorBlock": 380,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2023-02-22T12:15:28.5346124+01:00",
+    "LastChanged": "2020-09-08T15:29:31.6454733+02:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Bechtelar, Kerluke and Strosin",
-        "ToolTip": "Velit ratione autem est sint facere ut doloremque.",
-        "Deleted": false,
-        "Rank": 840,
-        "Type": "sunt",
-        "ColorBlock": 546,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2007-07-23T12:15:28.5346124+02:00",
+        "Id": 710,
+        "Name": "McKenzie, Rice and Ondricka",
+        "ToolTip": "Iste ut molestiae sint est nam iusto.",
+        "Deleted": true,
+        "Rank": 757,
+        "Type": "deserunt",
+        "ColorBlock": 33,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2021-01-14T15:29:31.6454733+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "ad",
-        "Hidden": true,
-        "FullName": "Alexander Schultz",
+        "ExtraInfo": "saepe",
+        "StyleHint": "cupiditate",
+        "Hidden": false,
+        "FullName": "Dangelo Nyasia Bogisich III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 247
+            "FieldType": "System.Int32",
+            "FieldLength": 846
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "cupiditate",
-    "Hidden": false,
-    "FullName": "Ms. Miguel Imelda Balistreri PhD",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "optio",
+    "Hidden": true,
+    "FullName": "Miss Keith Ed Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 639
+        "FieldLength": 541
       }
     }
   }

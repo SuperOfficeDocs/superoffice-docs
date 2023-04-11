@@ -83,8 +83,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,23 +92,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 3,
-  "BlobSize": 135,
-  "Description": "Multi-tiered solution-oriented portal",
-  "ExtraInfo": "aut",
+  "BlobId": 804,
+  "BlobSize": 680,
+  "Description": "Quality-focused scalable portal",
+  "ExtraInfo": "exercitationem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "voluptates",
-  "OriginalSize": 262,
-  "CreatedDate": "2007-04-26T12:15:26.5576424+02:00",
-  "UpdatedDate": "2004-11-11T12:15:26.5576424+01:00",
+  "MimeType": "aliquid",
+  "OriginalSize": 621,
+  "CreatedDate": "2019-01-31T15:29:29.466703+01:00",
+  "UpdatedDate": "2004-06-02T15:29:29.466703+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "veritatis"
+  "ConceptualType": "nihil"
 }
 ```
 
@@ -119,25 +119,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 302,
-  "BlobSize": 83,
-  "Description": "Assimilated discrete hub",
-  "ExtraInfo": "et",
+  "BlobId": 973,
+  "BlobSize": 674,
+  "Description": "Innovative scalable analyzer",
+  "ExtraInfo": "aliquid",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 648,
-  "CreatedDate": "2015-05-31T12:15:26.5596422+02:00",
-  "UpdatedDate": "1999-09-12T12:15:26.5596422+02:00",
+  "IsZipped": true,
+  "MimeType": "dolores",
+  "OriginalSize": 848,
+  "CreatedDate": "2002-07-04T15:29:29.4682025+02:00",
+  "UpdatedDate": "2022-07-18T15:29:29.4682025+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quo",
+  "ConceptualType": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 74
     }
   }
 }

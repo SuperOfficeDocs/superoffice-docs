@@ -67,8 +67,8 @@ OK
 | Operation | string | Which operation will be used? This is a read-only property |
 | Type | string | Which entity type will be created? This is a read-only property |
 | ExternalKey | string | Optional external primary key for the row |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Import/CreateDefaultImportLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 667
+  "CountColumns": 933
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "repellat",
-    "beatae"
+    "ut",
+    "corrupti"
   ],
   "Selected": false,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "cumque",
+  "ExternalKey": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   }
 }

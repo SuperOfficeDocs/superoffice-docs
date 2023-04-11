@@ -64,8 +64,8 @@ OK
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 901,
-    "Tooltip": "modi",
+    "Total": 655,
+    "Tooltip": "autem",
     "CanAssign": true,
-    "Free": 488,
-    "InUse": 883,
-    "IsHidden": true,
+    "Free": 503,
+    "InUse": 979,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 65,
-    "Name": "Hermann Inc and Sons",
-    "Description": "Synchronised zero defect neural-net",
-    "PrerequisiteModuleName": "O'Hara, Robel and Klein",
-    "SortOrder": 98,
-    "ExtraFlags": 215,
+    "ModuleLicenseId": 281,
+    "Name": "Macejkovic, Bayer and Ledner",
+    "Description": "Devolved mobile benchmark",
+    "PrerequisiteModuleName": "White Inc and Sons",
+    "SortOrder": 765,
+    "ExtraFlags": 972,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 562
+        "FieldType": "System.Int32",
+        "FieldLength": 943
       }
     }
   }

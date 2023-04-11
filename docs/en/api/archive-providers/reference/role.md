@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Role"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -48,7 +48,7 @@ Lists all Roles in table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Role?$select=rank,description,useCategories
+GET /api/v1/archive/Role?$select=description,useCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

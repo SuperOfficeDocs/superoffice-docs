@@ -69,8 +69,8 @@ OK
 | DimensionListId | int32 | List id (can be used by list provider system to get list items) |
 | DimensionListLabel | string | list label (list column name) |
 | SelectedDimensions | array | id's of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,17 +82,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 546,
+  "TargetDimensionId": 325,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "non",
-  "DimensionListName": "Kling, Spinka and Smitham",
-  "DimensionListId": 131,
-  "DimensionListLabel": "quia",
+  "DimensionListField": "nihil",
+  "DimensionListName": "Roberts, Upton and Walsh",
+  "DimensionListId": 363,
+  "DimensionListLabel": "enim",
   "SelectedDimensions": [
-    306,
-    553
+    939,
+    293
   ]
 }
 ```
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 221,
+  "TargetDimensionId": 863,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "aspernatur",
-  "DimensionListName": "Carroll, Rath and Durgan",
-  "DimensionListId": 656,
-  "DimensionListLabel": "molestiae",
+  "DimensionListField": "blanditiis",
+  "DimensionListName": "Beahan LLC",
+  "DimensionListId": 189,
+  "DimensionListLabel": "ex",
   "SelectedDimensions": [
-    16,
-    849
+    639,
+    357
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldType": "System.String",
+      "FieldLength": 342
     }
   }
 }

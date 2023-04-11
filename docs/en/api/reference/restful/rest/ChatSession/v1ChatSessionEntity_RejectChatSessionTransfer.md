@@ -81,8 +81,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 181,
-  "TopicId": 66,
+  "ChatSessionId": 878,
+  "TopicId": 939,
   "User": null,
   "Person": null,
-  "CustomerAlias": "accusantium",
-  "CustomerHost": "distinctio",
-  "CustomerName": "Johnston-Carter",
-  "CustomerEmail": "clovis@hettingercollins.us",
-  "CustomerPhone": "1-465-289-8234",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "est",
+  "CustomerName": "Satterfield, Funk and Quitzon",
+  "CustomerEmail": "dangelo@kirlin.co.uk",
+  "CustomerPhone": "495.147.5159",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Fay, Tremblay and Lemke",
+  "CustomerCompanyName": "Deckow-Considine",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "atque",
-  "WhenRequested": "2002-03-11T12:15:26.4726425+01:00",
-  "WhenStarted": "2018-10-04T12:15:26.4726425+02:00",
-  "WhenEnded": "2007-07-23T12:15:26.4726425+02:00",
-  "WhenIdle": "2003-01-21T12:15:26.4726425+01:00",
-  "WhenFetched": "2020-03-02T12:15:26.4726425+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 496,
-  "AlertLevel": 735,
-  "Rank": 737,
+  "FirstMessage": "culpa",
+  "LastMessage": "est",
+  "WhenRequested": "1998-05-05T15:29:29.377205+02:00",
+  "WhenStarted": "2017-06-18T15:29:29.377205+02:00",
+  "WhenEnded": "2007-07-27T15:29:29.377205+02:00",
+  "WhenIdle": "2002-03-10T15:29:29.377205+01:00",
+  "WhenFetched": "2022-01-26T15:29:29.377205+01:00",
+  "SessionKey": "doloribus",
+  "InitialQueuePos": 112,
+  "AlertLevel": 722,
+  "Rank": 747,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -130,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 883,
+  "Rating": 387,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 596
     }
   }
 }

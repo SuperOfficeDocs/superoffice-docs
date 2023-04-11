@@ -99,8 +99,8 @@ OK
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -113,24 +113,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 99,
-  "SourcePersonId": 830,
-  "DestinationContactId": 522,
-  "DestinationPersonId": 355,
-  "RelationId": 810,
-  "Comment": "accusamus",
-  "RelationDefinitionId": 841,
-  "Reversed": 916,
-  "UpdatedDate": "2008-02-06T12:15:26.7966407+01:00",
-  "CreatedDate": "2003-07-22T12:15:26.7966407+02:00",
+  "SourceContactId": 147,
+  "SourcePersonId": 525,
+  "DestinationContactId": 141,
+  "DestinationPersonId": 952,
+  "RelationId": 988,
+  "Comment": "hic",
+  "RelationDefinitionId": 517,
+  "Reversed": 412,
+  "UpdatedDate": "2010-06-01T15:29:29.6067049+02:00",
+  "CreatedDate": "2012-08-10T15:29:29.6067049+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stanton Inc and Sons",
-  "SourcePersonName": "Ziemann-Runolfsdottir",
-  "DestinationContactName": "Beatty-Botsford",
-  "DestinationPersonName": "Marvin Inc and Sons",
-  "ActiveText": "est",
-  "PassiveText": "quas"
+  "SourceContactName": "Denesik-Altenwerth",
+  "SourcePersonName": "Steuber Group",
+  "DestinationContactName": "Steuber Inc and Sons",
+  "DestinationPersonName": "Steuber, Rogahn and Vandervort",
+  "ActiveText": "facilis",
+  "PassiveText": "ad"
 }
 ```
 
@@ -141,30 +141,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 50,
-  "SourcePersonId": 59,
-  "DestinationContactId": 939,
-  "DestinationPersonId": 993,
-  "RelationId": 308,
-  "Comment": "iusto",
-  "RelationDefinitionId": 306,
-  "Reversed": 40,
-  "UpdatedDate": "2015-04-29T12:15:26.7986393+02:00",
-  "CreatedDate": "2008-12-11T12:15:26.7986393+01:00",
+  "SourceContactId": 182,
+  "SourcePersonId": 365,
+  "DestinationContactId": 613,
+  "DestinationPersonId": 163,
+  "RelationId": 863,
+  "Comment": "maiores",
+  "RelationDefinitionId": 942,
+  "Reversed": 669,
+  "UpdatedDate": "2002-02-06T15:29:29.6082035+01:00",
+  "CreatedDate": "2001-10-25T15:29:29.6082035+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Nitzsche LLC",
-  "SourcePersonName": "Sipes, Prosacco and Lesch",
-  "DestinationContactName": "Ferry-Kessler",
-  "DestinationPersonName": "Luettgen Group",
-  "ActiveText": "et",
-  "PassiveText": "esse",
+  "SourceContactName": "Kilback-Padberg",
+  "SourcePersonName": "Dibbert Inc and Sons",
+  "DestinationContactName": "Padberg LLC",
+  "DestinationPersonName": "Funk, Stoltenberg and Wolff",
+  "ActiveText": "eius",
+  "PassiveText": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 538
     }
   },
   "_Links": {

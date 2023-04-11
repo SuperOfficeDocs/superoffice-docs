@@ -103,8 +103,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -112,34 +112,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 416,
-  "Name": "Heidenreich, Lubowitz and Ebert",
-  "Tooltip": "iste",
-  "SaveInDb": 909,
-  "Filename": "qui",
-  "DefaultOref": "quos",
+  "DocumentTemplateId": 235,
+  "Name": "Hansen LLC",
+  "Tooltip": "autem",
+  "SaveInDb": 159,
+  "Filename": "hic",
+  "DefaultOref": "animi",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 391,
-  "IntentId": 1000,
+  "AutoeventId": 596,
+  "IntentId": 632,
   "IsDefaultPublished": false,
-  "Rank": 829,
-  "LoadTemplateFromPlugin": 305,
-  "MimeType": "molestiae",
+  "Rank": 864,
+  "LoadTemplateFromPlugin": 125,
+  "MimeType": "sint",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 674,
+  "DocumentTypeKey": 413,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "katharina.jacobi@mayert.uk",
-  "IncludeSignature": false,
+  "EmailSubject": "kevon@klingkub.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "marilyne.ritchie@toy.ca",
+  "SenderEmailAddress": "danial@schneider.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 851,
-  "Name": "Dicki, VonRueden and Marquardt",
-  "Tooltip": "quam",
-  "SaveInDb": 347,
-  "Filename": "recusandae",
+  "DocumentTemplateId": 470,
+  "Name": "Stehr Group",
+  "Tooltip": "eum",
+  "SaveInDb": 925,
+  "Filename": "et",
   "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 692,
-  "IntentId": 361,
-  "IsDefaultPublished": true,
-  "Rank": 576,
-  "LoadTemplateFromPlugin": 526,
-  "MimeType": "quia",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 496,
+  "AutoeventId": 98,
+  "IntentId": 244,
+  "IsDefaultPublished": false,
+  "Rank": 449,
+  "LoadTemplateFromPlugin": 63,
+  "MimeType": "magni",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 41,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "haven_hilpert@hyatt.name",
-  "IncludeSignature": true,
+  "EmailSubject": "rowan_ziemann@aufderhar.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sydnee.windler@brekke.us",
+  "SenderEmailAddress": "davonte_oconnell@berniercummings.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 725
     }
   }
 }

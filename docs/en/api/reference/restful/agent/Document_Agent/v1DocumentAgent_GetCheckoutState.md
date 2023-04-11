@@ -58,7 +58,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -76,7 +76,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 332
+  "DocumentId": 207
 }
 ```
 
@@ -88,7 +88,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 231,
-  "Name": "Miller-Ankunding"
+  "AssociateId": 868,
+  "Name": "Sauer, Fritsch and Dare"
 }
 ```

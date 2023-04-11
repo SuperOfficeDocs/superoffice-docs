@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=est
-GET /api/v1/CRMScript?$top=618
-GET /api/v1/CRMScript?$skip=553
+GET /api/v1/CRMScript?$entities=distinctio
+GET /api/v1/CRMScript?$top=405
+GET /api/v1/CRMScript?$skip=639
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=molestiae
+GET /api/v1/CRMScript?$context=libero
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=True
+GET /api/v1/CRMScript?$jsonSafe=False
 GET /api/v1/CRMScript?$output=Display
 ```
 
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorem",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 3620,
+      "PrimaryKey": 247,
       "EntityName": "sale",
-      "saleId": 3620,
-      "contactId": 1963,
-      "name": "McClure, Corwin and Sauer"
+      "saleId": 247,
+      "contactId": 5876,
+      "name": "Vandervort, Mitchell and Jerde"
     },
     {
-      "PrimaryKey": 9268,
+      "PrimaryKey": 633,
       "EntityName": "sale",
-      "saleId": 9268,
-      "contactId": 3021,
-      "name": "Boehm, Runolfsson and Macejkovic"
+      "saleId": 633,
+      "contactId": 8536,
+      "name": "Sawayn-Marks"
     }
   ]
 }

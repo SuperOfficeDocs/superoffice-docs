@@ -68,8 +68,8 @@ OK
 | ValidFaxNumbers | int32 | Number of members with a valid fax number. |
 | NoAddresses | int32 | Number of members with an invalid address. |
 | NoFaxOrEmails | int32 | Number of members with no fax or email address. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 410
+  "ProjectId": 909
 }
 ```
 
@@ -92,18 +92,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 329,
-  "ValidPostalAddresses": 131,
-  "ValidEmailAddresses": 981,
-  "ValidFaxNumbers": 530,
-  "NoAddresses": 132,
-  "NoFaxOrEmails": 65,
+  "Total": 48,
+  "ValidPostalAddresses": 586,
+  "ValidEmailAddresses": 247,
+  "ValidFaxNumbers": 836,
+  "NoAddresses": 546,
+  "NoFaxOrEmails": 999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldType": "System.String",
+      "FieldLength": 695
     }
   }
 }

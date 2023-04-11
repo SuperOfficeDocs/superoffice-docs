@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Nolan-Dach",
-    "ToolTip": "Voluptas nesciunt in cupiditate dolorem minima.",
-    "Deleted": false,
-    "Rank": 857,
-    "Type": "rerum",
-    "ColorBlock": 406,
-    "IconHint": "aspernatur",
-    "Selected": true,
-    "LastChanged": "2021-09-12T12:15:27.8946226+02:00",
+    "Id": 903,
+    "Name": "Bogisich Group",
+    "ToolTip": "Sed asperiores tempora et.",
+    "Deleted": true,
+    "Rank": 982,
+    "Type": "qui",
+    "ColorBlock": 515,
+    "IconHint": "magnam",
+    "Selected": false,
+    "LastChanged": "2023-02-17T15:29:31.1054764+01:00",
     "ChildItems": [
       {
-        "Id": 245,
-        "Name": "Hansen, Nader and Beer",
-        "ToolTip": "A ex autem maxime.",
-        "Deleted": true,
-        "Rank": 428,
-        "Type": "amet",
-        "ColorBlock": 249,
-        "IconHint": "dignissimos",
+        "Id": 893,
+        "Name": "Schulist, Luettgen and Auer",
+        "ToolTip": "Voluptas iusto quia.",
+        "Deleted": false,
+        "Rank": 341,
+        "Type": "id",
+        "ColorBlock": 395,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2015-12-13T12:15:27.8956223+01:00",
+        "LastChanged": "2016-05-09T15:29:31.1054764+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "omnis",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "mollitia",
         "Hidden": true,
-        "FullName": "Virgil Schumm"
+        "FullName": "Elnora Pfannerstill"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "corrupti",
+    "ExtraInfo": "sit",
+    "StyleHint": "aliquid",
     "Hidden": true,
-    "FullName": "Freeda Gulgowski"
+    "FullName": "Mrs. Johnathan Zemlak DDS"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Anderson-Muller",
-    "ToolTip": "Accusantium est sed rem ut et.",
-    "Deleted": true,
-    "Rank": 740,
-    "Type": "beatae",
-    "ColorBlock": 242,
-    "IconHint": "amet",
-    "Selected": true,
-    "LastChanged": "2004-03-03T12:15:27.8976228+01:00",
+    "Id": 147,
+    "Name": "Denesik, Ward and Sporer",
+    "ToolTip": "Libero veritatis.",
+    "Deleted": false,
+    "Rank": 868,
+    "Type": "deleniti",
+    "ColorBlock": 672,
+    "IconHint": "voluptate",
+    "Selected": false,
+    "LastChanged": "1997-05-28T15:29:31.1079781+02:00",
     "ChildItems": [
       {
-        "Id": 375,
-        "Name": "Medhurst, Greenfelder and Rosenbaum",
-        "ToolTip": "Earum voluptas alias occaecati aut itaque repudiandae et.",
+        "Id": 277,
+        "Name": "Olson-Baumbach",
+        "ToolTip": "Velit voluptatem ut.",
         "Deleted": false,
-        "Rank": 413,
-        "Type": "soluta",
-        "ColorBlock": 960,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2008-03-26T12:15:27.8976228+01:00",
+        "Rank": 606,
+        "Type": "voluptas",
+        "ColorBlock": 883,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "1997-01-24T15:29:31.1079781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "id",
+        "ExtraInfo": "quia",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Aron Keeling III",
+        "FullName": "Miss Niko Elwyn Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 388
+            "FieldType": "System.Int32",
+            "FieldLength": 318
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Myrtice Abe Denesik III",
+    "ExtraInfo": "et",
+    "StyleHint": "delectus",
+    "Hidden": false,
+    "FullName": "Ms. Janiya Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 511
       }
     }
   }

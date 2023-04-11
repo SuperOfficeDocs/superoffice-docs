@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Bechtelar, Steuber and Casper",
-  "Tooltip": "voluptatibus",
-  "Deleted": true,
-  "Rank": 423,
+  "Id": 883,
+  "Name": "Reichel, Konopelski and Herzog",
+  "Tooltip": "expedita",
+  "Deleted": false,
+  "Rank": 398,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sequi",
-  "InUseByUserDefinedFields": true
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 484,
-  "Name": "Breitenberg Inc and Sons",
-  "Tooltip": "ipsam",
+  "Id": 718,
+  "Name": "Lebsack Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 628,
-  "IsCustomList": true,
+  "Rank": 633,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 800
+      "FieldLength": 650
     }
   }
 }

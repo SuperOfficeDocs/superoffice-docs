@@ -71,8 +71,8 @@ ListEntity found.
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -81,7 +81,7 @@ ListEntity found.
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,22 +91,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Schamberger, Hackett and Shanahan",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 642,
-  "IsCustomList": false,
+  "Id": 432,
+  "Name": "Donnelly, Lang and Moen",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 588,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "totam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aliquid",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 663
     }
   },
   "_Links": {

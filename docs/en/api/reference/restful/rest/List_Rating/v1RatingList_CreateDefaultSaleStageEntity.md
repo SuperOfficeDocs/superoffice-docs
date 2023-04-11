@@ -50,8 +50,8 @@ OK
 | Probability | int32 | The numeric probability of the sale |
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 808,
-  "Value": "vel",
-  "Tooltip": "aspernatur",
-  "Probability": 712,
-  "Deleted": false,
-  "Rank": 709,
+  "SaleStageId": 116,
+  "Value": "aspernatur",
+  "Tooltip": "dignissimos",
+  "Probability": 132,
+  "Deleted": true,
+  "Rank": 669,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

@@ -25,7 +25,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=504
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=731
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -66,8 +66,8 @@ OK
 | HasGuide | bool | Does this project type have a guide attached |
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,41 +85,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 798,
-  "Name": "Hirthe-Schiller",
-  "Tooltip": "rerum",
-  "Rank": 426,
+  "ProjTypeId": 842,
+  "Name": "Aufderhar, Grimes and Feil",
+  "Tooltip": "voluptatem",
+  "Rank": 485,
   "DurationUnit": "Century",
-  "ProjectDuration": 627,
+  "ProjectDuration": 15,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 164,
-      "Name": "Abshire Inc and Sons",
-      "ToolTip": "Itaque similique dolorem alias sunt temporibus.",
+      "Id": 904,
+      "Name": "Kuhic Group",
+      "ToolTip": "Sed odit suscipit et excepturi quis voluptate.",
       "Deleted": false,
-      "Rank": 770,
-      "Type": "quis",
-      "ColorBlock": 997,
-      "IconHint": "voluptatum",
+      "Rank": 550,
+      "Type": "qui",
+      "ColorBlock": 257,
+      "IconHint": "labore",
       "Selected": true,
-      "LastChanged": "2015-02-07T12:15:19.2217476+01:00",
+      "LastChanged": "2001-06-24T15:29:21.9817732+02:00",
       "ChildItems": [
         {},
         {}
       ],
       "ExtraInfo": "et",
-      "StyleHint": "sequi",
-      "Hidden": true,
-      "FullName": "Alta Corkery",
+      "StyleHint": "dolorem",
+      "Hidden": false,
+      "FullName": "Roxanne Kozey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 752
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 197
+  "DocumentId": 405
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 16,
-      "ContactName": "Feest, Bogan and Osinski",
-      "PersonId": 563,
-      "PersonName": "Dietrich Inc and Sons",
-      "AssociateId": 299,
-      "Address": "occaecati",
-      "EmailId": 887,
+      "ContactId": 971,
+      "ContactName": "Spencer-Yost",
+      "PersonId": 718,
+      "PersonName": "Tillman-Nader",
+      "AssociateId": 914,
+      "Address": "saepe",
+      "EmailId": 596,
       "DuplicatePersonIds": [
-        908,
-        913
+        484,
+        55
       ],
-      "Name": "Labadie, Tremblay and Renner",
+      "Name": "Schoen Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 871
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 357,
-      "ContactName": "McDermott Inc and Sons",
-      "PersonId": 87,
-      "PersonName": "Moen, Pollich and Dickens",
-      "AssociateId": 526,
-      "Address": "quis",
-      "EmailId": 127,
+      "ContactId": 631,
+      "ContactName": "Toy Group",
+      "PersonId": 773,
+      "PersonName": "Fisher Inc and Sons",
+      "AssociateId": 674,
+      "Address": "voluptatem",
+      "EmailId": 864,
       "DuplicatePersonIds": [
-        618,
-        892
+        105,
+        374
       ],
-      "Name": "Mayert-Sawayn",
+      "Name": "Mraz, Pfeffer and Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldType": "System.Int32",
+          "FieldLength": 222
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 297,
-      "ContactName": "Wehner Inc and Sons",
-      "PersonId": 819,
-      "PersonName": "Ziemann-Lehner",
-      "AssociateId": 375,
-      "Address": "inventore",
-      "EmailId": 154,
+      "ContactId": 474,
+      "ContactName": "Pouros-Connelly",
+      "PersonId": 450,
+      "PersonName": "Mills-Cruickshank",
+      "AssociateId": 773,
+      "Address": "vitae",
+      "EmailId": 417,
       "DuplicatePersonIds": [
-        450,
-        740
+        51,
+        909
       ],
-      "Name": "Keebler, Hills and Emard",
+      "Name": "Dietrich Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 928
+          "FieldLength": 1000
         }
       }
     }
   ],
-  "Subject": "quae",
-  "HTMLBody": "possimus",
+  "Subject": "corporis",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2016-12-14T12:15:19.0197505+01:00",
-  "Size": 847,
+  "Sent": "2000-02-21T15:29:21.7842761+01:00",
+  "Size": 906,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "natus",
-  "PlainBody": "deleniti",
-  "IsSent": true,
+  "MessageID": "nihil",
+  "PlainBody": "non",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 951,
+  "ServerId": 682,
   "Attachments": [
     {
-      "Description": "Persistent content-based synergy",
-      "Filename": "ut",
-      "Size": 657,
-      "Type": "explicabo",
-      "Encoding": "et",
-      "Id": "atque",
-      "Disposition": "itaque",
+      "Description": "Inverse dynamic methodology",
+      "Filename": "deserunt",
+      "Size": 558,
+      "Type": "aut",
+      "Encoding": "porro",
+      "Id": "harum",
+      "Disposition": "ad",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 268
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Flatley-Hand",
+      "Name": "Yundt, Hamill and Stehr",
       "Values": [
-        "voluptates",
-        "temporibus"
+        "soluta",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 434
         }
       }
     },
     {
-      "Name": "Flatley-Hand",
+      "Name": "Yundt, Hamill and Stehr",
       "Values": [
-        "voluptates",
-        "temporibus"
+        "soluta",
+        "excepturi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 472
+          "FieldLength": 434
         }
       }
     }
   ],
-  "FolderName": "Bergstrom, Wyman and Kuhn",
-  "EmailItemId": 53,
-  "AccountId": 55,
-  "ReceivedAt": "2013-11-26T12:15:19.0197505+01:00",
+  "FolderName": "Wyman, Hermiston and Miller",
+  "EmailItemId": 50,
+  "AccountId": 686,
+  "ReceivedAt": "2022-11-06T15:29:21.7847773+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-05-01T12:15:19.0197505+02:00",
+  "RepliedAt": "2010-08-20T15:29:21.7847773+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -263,8 +263,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 360
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   }
 }

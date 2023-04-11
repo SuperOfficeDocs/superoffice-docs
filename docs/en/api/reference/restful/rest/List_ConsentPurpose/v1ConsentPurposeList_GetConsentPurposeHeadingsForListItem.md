@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 588,
-    "Name": "Dooley Inc and Sons",
-    "ToolTip": "Placeat voluptate harum qui perferendis cumque unde.",
+    "Id": 512,
+    "Name": "Thompson Inc and Sons",
+    "ToolTip": "Sunt maxime mollitia incidunt vel dolor est.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "consequatur",
-    "ColorBlock": 759,
-    "IconHint": "iure",
+    "Rank": 18,
+    "Type": "quis",
+    "ColorBlock": 982,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2021-09-20T12:15:27.9316215+02:00",
+    "LastChanged": "2001-03-27T15:29:31.1429806+02:00",
     "ChildItems": [
       {
-        "Id": 890,
-        "Name": "Ziemann-Kovacek",
-        "ToolTip": "Voluptatem aut aliquam repellat consequuntur.",
+        "Id": 30,
+        "Name": "Toy, Cremin and O'Kon",
+        "ToolTip": "Non est dicta incidunt ea.",
         "Deleted": false,
-        "Rank": 831,
-        "Type": "perspiciatis",
-        "ColorBlock": 956,
-        "IconHint": "sit",
+        "Rank": 700,
+        "Type": "ea",
+        "ColorBlock": 862,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "1996-03-22T12:15:27.9316215+01:00",
+        "LastChanged": "2011-06-20T15:29:31.1429806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Lia Olson",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "blanditiis",
+        "Hidden": false,
+        "FullName": "Polly Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 449
+            "FieldType": "System.String",
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "id",
+    "ExtraInfo": "labore",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Miss Zachery Stanton III",
+    "FullName": "Dr. Leopoldo Balistreri PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 455
+        "FieldLength": 283
       }
     }
   }

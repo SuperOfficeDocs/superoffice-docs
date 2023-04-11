@@ -69,14 +69,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=sequi
-GET /api/v1/User?$top=770
-GET /api/v1/User?$skip=808
+GET /api/v1/User?$entities=est
+GET /api/v1/User?$top=627
+GET /api/v1/User?$skip=429
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=hic
+GET /api/v1/User?$context=aut
 GET /api/v1/User?$format=JSON
-GET /api/v1/User?$jsonSafe=True
+GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
 ```
 
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "odio",
   "value": [
     {
-      "PrimaryKey": 7163,
+      "PrimaryKey": 4606,
       "EntityName": "sale",
-      "saleId": 7163,
-      "contactId": 2325,
-      "name": "Ratke Group"
+      "saleId": 4606,
+      "contactId": 2804,
+      "name": "Ryan-Eichmann"
     },
     {
-      "PrimaryKey": 4403,
+      "PrimaryKey": 4060,
       "EntityName": "sale",
-      "saleId": 4403,
-      "contactId": 5165,
-      "name": "Corwin-Klocko"
+      "saleId": 4060,
+      "contactId": 5859,
+      "name": "Swaniawski, Medhurst and Stracke"
     }
   ]
 }

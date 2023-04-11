@@ -73,8 +73,8 @@ OK
 | TicketUrl | string | A URL leading directly to the created request. This is a URL ment to be used by a Service user |
 | PersonName | string | The name of the person/customer connected to the ticket |
 | ContactName | string | The name of the contact/company connected to the ticket |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 7,
-  "Data": "quo"
+  "TicketId": 664,
+  "Data": "voluptatibus"
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 810,
-  "Title": "sapiente",
-  "OwnerName": "Jakubowski, Schuster and Parker",
+  "TicketId": 130,
+  "Title": "rerum",
+  "OwnerName": "Christiansen, Labadie and Reynolds",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Becker-Keebler",
+  "PriorityName": "Ryan Group",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Waters Inc and Sons",
-  "ContactName": "Dicki, Gislason and Rowe",
+  "PersonName": "Tillman Inc and Sons",
+  "ContactName": "Cole, Trantow and Harvey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

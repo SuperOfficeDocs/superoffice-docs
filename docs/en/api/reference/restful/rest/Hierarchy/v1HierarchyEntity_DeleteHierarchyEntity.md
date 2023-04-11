@@ -42,7 +42,7 @@ HierarchyEntity deleted.
 |----------------|-------------|
 | 204 | HierarchyEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

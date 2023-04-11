@@ -67,8 +67,8 @@ OK
 | DisplayText | string | Text to be displayed on the button |
 | TooltipText | string | The tooltip for the button |
 | Enabled | bool | Indicate if the button should be enabled or disabled |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowImageState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 162
+  "QuoteVersionId": 785
 }
 ```
 
@@ -92,16 +92,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Action": "Approve",
-  "ImageHint": "iste",
-  "DisplayText": "ea",
-  "TooltipText": "quidem",
+  "ImageHint": "pariatur",
+  "DisplayText": "perspiciatis",
+  "TooltipText": "ea",
   "Enabled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 340
     }
   }
 }

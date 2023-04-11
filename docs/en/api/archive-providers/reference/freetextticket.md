@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FreetextTicket"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -34,6 +34,8 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |searchwords|string|Search word: One or more words to be used in free text search|  |
 |contactId|int|Company ID: Database ID of company| x |
 |personId|int|Contact ID: Database ID of the contact row| x |
+|saleId|int|Sale ID: The database ID of the sale record| x |
+|projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|listAny|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -71,6 +73,9 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |tags|intArray|Tags: Tags connected to a request| x |
 |ownedBy|ejUser|Owner: The owner of the request| x |
 |content|string|Content: Search for content in messages related to requests| x |
+|messageLanguage|listAny|Language: Recognized language in messages|  |
+|sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
+|suggestedCategory|listAny|Sugg.Cat.: Suggested service category|  |
 |createdBy/firstName|string|Created by - First name: Displays the contact's first name| x |
 |createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
@@ -711,7 +716,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=status,contact/postAddress/zip,contact/saintTicketStatus,extra/x_ticket_category_relation,sale/amount
+GET /api/v1/archive/FreetextTicket?$select=numberOfMessages,createdBy/otherGroups,contact/contactAssociate/ejUserId,contact/contactUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

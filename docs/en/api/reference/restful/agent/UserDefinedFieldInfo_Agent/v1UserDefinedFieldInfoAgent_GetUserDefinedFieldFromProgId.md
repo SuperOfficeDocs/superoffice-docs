@@ -99,8 +99,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "iure",
+  "ProgId": "ipsam",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 784,
-  "ColumnId": 441,
-  "FieldDefault": "est",
-  "FieldHeight": 745,
-  "FieldLabel": "illo",
-  "FieldLeft": 868,
-  "FieldTop": 974,
+  "UDefFieldId": 827,
+  "ColumnId": 203,
+  "FieldDefault": "molestiae",
+  "FieldHeight": 136,
+  "FieldLabel": "nisi",
+  "FieldLeft": 317,
+  "FieldTop": 858,
   "FieldType": "Checkbox",
-  "FieldWidth": 509,
-  "FormatMask": "consequatur",
-  "HideLabel": false,
+  "FieldWidth": 42,
+  "FormatMask": "error",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 864,
-  "LabelLeft": 104,
-  "LabelTop": 980,
-  "LabelWidth": 839,
-  "LastVersionId": 542,
-  "ListTableId": 69,
+  "LabelHeight": 876,
+  "LabelLeft": 301,
+  "LabelTop": 140,
+  "LabelWidth": 589,
+  "LastVersionId": 383,
+  "ListTableId": 261,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 312,
-  "ProgId": "sunt",
+  "Page1LineNo": 383,
+  "ProgId": "explicabo",
   "IsReadOnly": false,
-  "ShortLabel": "vel",
-  "TabOrder": 607,
-  "TextLength": 688,
-  "Tooltip": "ad",
-  "UdefIdentity": 261,
-  "UDListDefinitionId": 311,
+  "ShortLabel": "maxime",
+  "TabOrder": 730,
+  "TextLength": 912,
+  "Tooltip": "quidem",
+  "UdefIdentity": 493,
+  "UDListDefinitionId": 362,
   "Justification": "Center",
-  "Version": 982,
-  "TemplateVariableName": "Murazik Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Williamson-Spencer",
+  "Version": 477,
+  "TemplateVariableName": "Hermiston, Rutherford and Schulist",
+  "HasBeenPublished": true,
+  "MdoListName": "Swaniawski-Ruecker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 315
     }
   }
 }

@@ -87,8 +87,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Chat/ChatSessionsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 471,
-    "TopicId": 61,
+    "ChatSessionId": 66,
+    "TopicId": 329,
     "User": null,
     "Person": null,
-    "CustomerAlias": "sint",
-    "CustomerHost": "aut",
-    "CustomerName": "Dietrich-Donnelly",
-    "CustomerEmail": "bernadette@klockowolff.co.uk",
-    "CustomerPhone": "1-652-512-9550 x89021",
-    "CustomerConsented": true,
-    "CustomerCompanyName": "Barton Group",
+    "CustomerAlias": "vel",
+    "CustomerHost": "voluptates",
+    "CustomerName": "Hoeger-Powlowski",
+    "CustomerEmail": "virgie@wisozkjohnson.com",
+    "CustomerPhone": "1-093-469-9489 x9611",
+    "CustomerConsented": false,
+    "CustomerCompanyName": "Hessel, Jaskolski and Bruen",
     "Status": "Closed",
-    "FirstMessage": "perferendis",
-    "LastMessage": "optio",
-    "WhenRequested": "2009-07-07T12:15:18.3027613+02:00",
-    "WhenStarted": "1998-08-05T12:15:18.3027613+02:00",
-    "WhenEnded": "2019-05-30T12:15:18.3027613+02:00",
-    "WhenIdle": "2017-11-29T12:15:18.3027613+01:00",
-    "WhenFetched": "2020-12-09T12:15:18.3027613+01:00",
-    "SessionKey": "accusamus",
-    "InitialQueuePos": 886,
-    "AlertLevel": 455,
-    "Rank": 667,
+    "FirstMessage": "cum",
+    "LastMessage": "neque",
+    "WhenRequested": "2017-06-19T15:29:20.9203237+02:00",
+    "WhenStarted": "2012-12-16T15:29:20.9203237+01:00",
+    "WhenEnded": "2012-02-14T15:29:20.9203237+01:00",
+    "WhenIdle": "2006-05-14T15:29:20.9203237+02:00",
+    "WhenFetched": "2022-09-13T15:29:20.9203237+02:00",
+    "SessionKey": "et",
+    "InitialQueuePos": 844,
+    "AlertLevel": 847,
+    "Rank": 964,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 858,
+    "Rating": 314,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldType": "System.Int32",
+        "FieldLength": 427
       }
     }
   }

@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 182,
-  "Name": "Runolfsdottir Group",
-  "Tooltip": "velit",
+  "Id": 13,
+  "Name": "Schmidt-Yundt",
+  "Tooltip": "alias",
   "Deleted": true,
-  "Rank": 867,
-  "IsCustomList": true,
+  "Rank": 606,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": true
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Name": "Kris-Stokes",
-  "Tooltip": "doloribus",
+  "Id": 807,
+  "Name": "Mertz, Torphy and Schulist",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 696,
+  "Rank": 889,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "deleniti",
+  "ListType": "at",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 446
     }
   }
 }

@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,14 +126,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 523,
-  "StartTime": "1996-09-19T12:15:17.6107712+02:00",
-  "EndTime": "1998-03-20T12:15:17.6107712+01:00",
-  "Count": 376,
+  "ContactId": 966,
+  "StartTime": "2004-02-11T15:29:20.2253274+01:00",
+  "EndTime": "2008-05-28T15:29:20.2253274+02:00",
+  "Count": 54,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 662,
-    "StartDate": "1996-04-03T12:15:17.612771+02:00",
-    "EndDate": "1997-01-28T12:15:17.612771+01:00",
+    "AppointmentId": 810,
+    "StartDate": "1999-10-12T15:29:20.2263292+02:00",
+    "EndDate": "2004-01-15T15:29:20.2263292+01:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Lola Kozey",
-    "ContactName": "Murphy, Jerde and Brown",
-    "Description": "Self-enabling reciprocal structure",
-    "PersonFullName": "Ms. Evans Kunze DVM",
-    "PersonId": 765,
-    "ContactId": 138,
-    "ProjectId": 437,
-    "ProjectName": "Pfeffer-Farrell",
+    "Task": "nemo",
+    "AssociateFullName": "Miss Veronica Finn Frami III",
+    "ContactName": "Konopelski, Green and Johns",
+    "Description": "Re-engineered didactic moderator",
+    "PersonFullName": "Nils Osinski II",
+    "PersonId": 184,
+    "ContactId": 450,
+    "ProjectId": 618,
+    "ProjectName": "Quigley, Purdy and Ruecker",
     "IsPublished": false,
-    "AssociateId": 788,
-    "ColorIndex": 900,
+    "AssociateId": 548,
+    "ColorIndex": 727,
     "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 622,
-    "PriorityName": "Collins, Wilderman and Trantow",
+    "PriorityId": 960,
+    "PriorityName": "Grant-Hessel",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2001-11-07T12:15:17.612771+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2007-09-12T15:29:20.2273229+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-07-05T12:15:17.612771+02:00",
-    "RecurringEndDate": "2011-08-01T12:15:17.612771+02:00",
-    "MotherId": 302,
-    "AssignedBy": 218,
-    "AssignedByFullName": "Cordia Sanford",
+    "RecurringStartDate": "2010-08-26T15:29:20.2273229+02:00",
+    "RecurringEndDate": "2010-08-08T15:29:20.2273229+02:00",
+    "MotherId": 54,
+    "AssignedBy": 528,
+    "AssignedByFullName": "Nathanial Ward",
     "RejectReason": "",
-    "Location": "molestiae",
-    "AlarmLeadTime": "tempora",
-    "SaleId": 876,
-    "SaleName": "Donnelly-Graham",
-    "AssociateName": "Weissnat, Mertz and Runolfsson",
-    "CreatedDate": "1998-09-01T12:15:17.6137722+02:00",
-    "CreatedBy": "placeat",
-    "CreatedByFullName": "Violet Ryan",
-    "CreatedByAssociateId": 63,
+    "Location": "consectetur",
+    "AlarmLeadTime": "enim",
+    "SaleId": 212,
+    "SaleName": "Hamill Group",
+    "AssociateName": "Prohaska Group",
+    "CreatedDate": "2004-09-12T15:29:20.2273229+02:00",
+    "CreatedBy": "id",
+    "CreatedByFullName": "Berenice Koepp",
+    "CreatedByAssociateId": 31,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldType": "System.String",
+        "FieldLength": 879
       }
     }
   }

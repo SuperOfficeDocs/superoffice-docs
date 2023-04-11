@@ -43,7 +43,7 @@ AppointmentEntity deleted.
 | 204 | AppointmentEntity deleted. |
 | 412 | Delete aborted because AppointmentEntity has changed since the requested If-Unmodified-Since timestamp. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -52,7 +52,7 @@ AppointmentEntity deleted.
 DELETE /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

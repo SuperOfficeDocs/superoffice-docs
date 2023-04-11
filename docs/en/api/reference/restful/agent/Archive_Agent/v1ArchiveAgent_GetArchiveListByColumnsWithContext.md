@@ -94,8 +94,8 @@ OK
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Goyette LLC",
+  "ProviderName": "Ullrich, Waters and Keeling",
   "Columns": [
-    "quis",
-    "repellat"
+    "aut",
+    "ratione"
   ],
   "SortOrder": [
     {
-      "Name": "Ondricka, Leffler and Wyman",
+      "Name": "Larson LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Ondricka, Leffler and Wyman",
+      "Name": "Larson LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Walter-Altenwerth",
-      "Operator": "excepturi",
+      "Name": "Brekke, Jenkins and Smitham",
+      "Operator": "nostrum",
       "Values": [
-        "similique",
-        "ea"
+        "labore",
+        "omnis"
       ],
       "DisplayValues": [
-        "quia",
-        "ab"
+        "vel",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,18 +140,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 801,
+      "InterParenthesis": 537,
       "InterOperator": "And",
-      "UniqueHash": 888
+      "UniqueHash": 167
     }
   ],
   "Entities": [
-    "pariatur",
-    "dicta"
+    "doloribus",
+    "fuga"
   ],
-  "Page": 567,
-  "PageSize": 885,
-  "Context": "sapiente"
+  "Page": 93,
+  "PageSize": 509,
+  "Context": "autem"
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Koelpin, Bahringer and Turner",
-    "PrimaryKey": 40,
+    "EntityName": "Krajcik Inc and Sons",
+    "PrimaryKey": 394,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "possimus",
-        "TooltipHint": "qui",
-        "LinkHint": "soluta"
+        "DisplayValue": "dolor",
+        "TooltipHint": "laborum",
+        "LinkHint": "pariatur"
       }
     },
-    "LinkHint": "consequuntur",
-    "StyleHint": "illum",
+    "LinkHint": "quia",
+    "StyleHint": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 474
       }
     }
   }

@@ -81,8 +81,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,16 +90,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walter-Koch",
+  "Name": "Bosco, Fritsch and Armstrong",
   "ForceFlatList": false,
-  "AdditionalInfo": "tempora",
+  "AdditionalInfo": "voluptas",
   "HistoryItems": [
-    246,
-    402
+    897,
+    734
   ],
   "OnlyHistory": false
 }
@@ -113,56 +113,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Ullrich-Robel",
-    "ToolTip": "Illo sint possimus mollitia reiciendis et.",
+    "Id": 533,
+    "Name": "Ullrich Group",
+    "ToolTip": "Ut tempore nihil ullam.",
     "Deleted": false,
-    "Rank": 549,
-    "Type": "odio",
-    "ColorBlock": 852,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2007-11-06T12:15:19.3907466+01:00",
+    "Rank": 904,
+    "Type": "dicta",
+    "ColorBlock": 339,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2014-10-19T15:29:22.1513042+02:00",
     "ChildItems": [
       {
-        "Id": 326,
-        "Name": "Feest, Gottlieb and Kuvalis",
-        "ToolTip": "Sint veniam veritatis qui vel itaque.",
-        "Deleted": true,
-        "Rank": 505,
-        "Type": "nesciunt",
-        "ColorBlock": 158,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2011-11-06T12:15:19.3907466+01:00",
+        "Id": 339,
+        "Name": "Lesch LLC",
+        "ToolTip": "Ut et ab velit ut.",
+        "Deleted": false,
+        "Rank": 453,
+        "Type": "ut",
+        "ColorBlock": 359,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "1997-05-22T15:29:22.1518039+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Houston Bernice Romaguera I",
+        "ExtraInfo": "nihil",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Prof. Della Yost MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 21
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Leora Haag",
+    "ExtraInfo": "eum",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Darrin Philip Pfannerstill Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 651
       }
     }
   }

@@ -104,8 +104,8 @@ DashTileDefinition updated.
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -114,29 +114,29 @@ DashTileDefinition updated.
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 831,
-  "Name": "Conn, Glover and Conn",
-  "Description": "Universal neutral methodology",
-  "DefaultHeight": 42,
-  "DefaultWidth": 454,
+  "DashboardTileDefinitionId": 835,
+  "Name": "Shanahan Inc and Sons",
+  "Description": "Open-source mission-critical matrices",
+  "DefaultHeight": 354,
+  "DefaultWidth": 287,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Cronin, Leffler and Von",
-  "SelectionId": 218,
+  "EntityName": "Schiller, Cronin and Ondricka",
+  "SelectionId": 881,
   "CurrencyMode": "Base",
-  "CurrencyCode": "explicabo",
+  "CurrencyCode": "expedita",
   "Measure": "Average",
-  "MeasureField": "dolores",
-  "SortBy": "tempora",
-  "LayoutConfig": "iste",
-  "SecondarySelectionId": 86,
-  "MeasureByField": "qui",
+  "MeasureField": "deleniti",
+  "SortBy": "dolorem",
+  "LayoutConfig": "perferendis",
+  "SecondarySelectionId": 945,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Leannon-Sporer"
+  "ProviderName": "Runte Inc and Sons"
 }
 ```
 
@@ -147,36 +147,36 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 585,
-  "Name": "Schaefer-Mosciski",
-  "Description": "Intuitive systemic capability",
-  "DefaultHeight": 894,
-  "DefaultWidth": 427,
+  "DashboardTileDefinitionId": 228,
+  "Name": "Huel Group",
+  "Description": "Synchronised next generation Graphic Interface",
+  "DefaultHeight": 673,
+  "DefaultWidth": 934,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Orn, Willms and Lemke",
-  "SelectionId": 583,
+  "EntityName": "Strosin-Nader",
+  "SelectionId": 372,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sed",
+  "CurrencyCode": "vitae",
   "Measure": "Average",
-  "MeasureField": "deleniti",
-  "SortBy": "distinctio",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 373,
-  "MeasureByField": "cupiditate",
+  "MeasureField": "minima",
+  "SortBy": "eos",
+  "LayoutConfig": "perferendis",
+  "SecondarySelectionId": 396,
+  "MeasureByField": "placeat",
   "Usage": "Dashboard",
-  "ProviderName": "Roberts, Watsica and O'Connell",
+  "ProviderName": "Tremblay Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 232
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

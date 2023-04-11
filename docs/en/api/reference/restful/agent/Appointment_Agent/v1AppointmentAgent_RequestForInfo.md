@@ -74,8 +74,8 @@ OK
 | RequestedContacts | array | The companies that match the request |
 | RequestedPerson | Person | The person that matches the request. |
 | SalesRep | Person | The sales representative for the person that matches the request. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 605,
-  "Channel": "accusantium",
-  "Regarding": "minus",
-  "ContactName": "Gerhold-Huel",
-  "PersonFirstname": "Bridie",
-  "PersonLastname": "Hansen",
-  "EmailAddress": "judson@braun.info",
-  "PhoneNumber": "763222"
+  "AssociateIdForNewContact": 228,
+  "Channel": "eligendi",
+  "Regarding": "dolor",
+  "ContactName": "Gislason-Herzog",
+  "PersonFirstname": "Devonte",
+  "PersonLastname": "Reynolds",
+  "EmailAddress": "felicity@grahamhamill.co.uk",
+  "PhoneNumber": "1101609"
 }
 ```
 
@@ -107,36 +107,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 44,
-      "Name": "Kilback, Gerhold and Metz",
-      "OrgNr": "914067",
+      "ContactId": 14,
+      "Name": "Schumm-Pouros",
+      "OrgNr": "1207467",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "sit",
-      "DirectPhone": "(297)559-1182 x581",
-      "AssociateId": 979,
-      "CountryId": 929,
-      "EmailAddress": "jewell@framirobel.uk",
-      "Kananame": "qui",
-      "EmailAddressName": "cecilia.braun@kihn.biz",
+      "City": "magnam",
+      "DirectPhone": "438.708.4835 x43126",
+      "AssociateId": 370,
+      "CountryId": 874,
+      "EmailAddress": "duane_mayert@marks.com",
+      "Kananame": "facilis",
+      "EmailAddressName": "curt@homenick.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Darian Bogan Jr.",
+      "AssociateFullName": "Dr. Mitchel Hyatt",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "sunt",
-      "FullName": "Miss Estel Rempel Jr.",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 677,
-      "Number1": "697760",
-      "Number2": "606116",
+      "FormattedAddress": "eligendi",
+      "FullName": "Mrs. Dillan McLaughlin",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 992,
+      "Number1": "1759668",
+      "Number2": "1596813",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 520
+          "FieldType": "System.Int32",
+          "FieldLength": 677
         }
       }
     }
@@ -147,8 +147,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 884
     }
   }
 }

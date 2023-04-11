@@ -90,8 +90,8 @@ OK
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,157 +109,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 306,
-  "Name": "Gerhold-Hessel",
+  "ContactId": 19,
+  "Name": "Beahan-Ratke",
   "Department": "",
-  "OrgNr": "1372385",
-  "Number1": "1692933",
-  "Number2": "1017730",
-  "UpdatedDate": "2007-03-09T12:15:18.4477625+01:00",
-  "CreatedDate": "2004-01-25T12:15:18.4477625+01:00",
+  "OrgNr": "1010021",
+  "Number1": "1490320",
+  "Number2": "1565680",
+  "UpdatedDate": "2015-05-02T15:29:21.0637857+02:00",
+  "CreatedDate": "2006-11-26T15:29:21.0637857+01:00",
   "Emails": [
     {
-      "Value": "itaque",
-      "StrippedValue": "consequatur",
-      "Description": "Versatile demand-driven monitoring",
+      "Value": "hic",
+      "StrippedValue": "eligendi",
+      "Description": "Customizable stable ability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 14
+          "FieldLength": 585
         }
       }
     },
     {
-      "Value": "itaque",
-      "StrippedValue": "consequatur",
-      "Description": "Versatile demand-driven monitoring",
+      "Value": "hic",
+      "StrippedValue": "eligendi",
+      "Description": "Customizable stable ability",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 14
+          "FieldLength": 585
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 49,
-      "Name": "Bartell-Boehm",
-      "ToolTip": "Quasi error.",
-      "Deleted": false,
-      "Rank": 156,
-      "Type": "sed",
-      "ColorBlock": 212,
-      "IconHint": "dignissimos",
+      "Id": 242,
+      "Name": "Reichel Inc and Sons",
+      "ToolTip": "Hic id et vitae.",
+      "Deleted": true,
+      "Rank": 807,
+      "Type": "ut",
+      "ColorBlock": 81,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2002-08-30T12:15:18.4487581+02:00",
+      "LastChanged": "2013-06-17T15:29:21.0637857+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sapiente",
-      "StyleHint": "at",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "vel",
       "Hidden": false,
-      "FullName": "Dr. Mariane Nicole Prosacco",
+      "FullName": "Mrs. Aniya Trantow DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldLength": 710
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "esse",
-      "StrippedValue": "iure",
-      "Description": "Reverse-engineered web-enabled monitoring",
+      "Value": "voluptatem",
+      "StrippedValue": "eveniet",
+      "Description": "Synergistic full-range website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     },
     {
-      "Value": "esse",
-      "StrippedValue": "iure",
-      "Description": "Reverse-engineered web-enabled monitoring",
+      "Value": "voluptatem",
+      "StrippedValue": "eveniet",
+      "Description": "Synergistic full-range website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 3
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "sit",
-      "StrippedValue": "at",
-      "Description": "Inverse dedicated function",
+      "Value": "veritatis",
+      "StrippedValue": "quis",
+      "Description": "Future-proofed national model",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 310
+          "FieldLength": 307
         }
       }
     },
     {
-      "Value": "sit",
-      "StrippedValue": "at",
-      "Description": "Inverse dedicated function",
+      "Value": "veritatis",
+      "StrippedValue": "quis",
+      "Description": "Future-proofed national model",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 310
+          "FieldLength": 307
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "quis",
-      "StrippedValue": "quia",
-      "Description": "Synergistic intangible knowledge user",
+      "Value": "illo",
+      "StrippedValue": "est",
+      "Description": "Cross-group national hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 738
         }
       }
     },
     {
-      "Value": "quis",
-      "StrippedValue": "quia",
-      "Description": "Synergistic intangible knowledge user",
+      "Value": "illo",
+      "StrippedValue": "est",
+      "Description": "Cross-group national hub",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 178
+          "FieldLength": 738
         }
       }
     }
   ],
-  "Description": "Networked global website",
+  "Description": "Networked client-driven array",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -268,100 +268,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "expedita",
-      "PersonId": 199,
-      "Mrmrs": "adipisci",
-      "Firstname": "Guido",
-      "Lastname": "Daugherty",
-      "MiddleName": "Stiedemann, Bernhard and Walsh",
-      "Title": "consequatur",
-      "Description": "Enterprise-wide transitional help-desk",
-      "Email": "hazel_waelchi@crooksdietrich.us",
-      "FullName": "Jade Gustave Walker Jr.",
-      "DirectPhone": "1-652-645-0508",
-      "FormalName": "Barrows-Rempel",
-      "CountryId": 678,
-      "ContactId": 981,
-      "ContactName": "Steuber, Mohr and Wisoky",
-      "Retired": 695,
-      "Rank": 116,
-      "ActiveInterests": 822,
-      "ContactDepartment": "",
-      "ContactCountryId": 151,
-      "ContactOrgNr": "707243",
-      "FaxPhone": "(152)448-8626 x9351",
-      "MobilePhone": "1-331-667-5138 x3860",
-      "ContactPhone": "(056)915-8167 x22278",
-      "AssociateName": "Schulist Group",
-      "AssociateId": 685,
+      "Position": "repellendus",
+      "PersonId": 133,
+      "Mrmrs": "et",
+      "Firstname": "Antonio",
+      "Lastname": "Kris",
+      "MiddleName": "Shields, Block and Daugherty",
+      "Title": "incidunt",
+      "Description": "Fully-configurable 5th generation implementation",
+      "Email": "tracy_bernhard@swift.co.uk",
+      "FullName": "Bart Johns Sr.",
+      "DirectPhone": "020.552.5136 x246",
+      "FormalName": "Bartoletti-Hackett",
+      "CountryId": 187,
+      "ContactId": 994,
+      "ContactName": "Koss-Littel",
+      "Retired": 219,
+      "Rank": 865,
+      "ActiveInterests": 299,
+      "ContactDepartment": "monetize value-added e-business",
+      "ContactCountryId": 30,
+      "ContactOrgNr": "1092197",
+      "FaxPhone": "017.852.0784 x7196",
+      "MobilePhone": "(497)751-2321 x96269",
+      "ContactPhone": "030-745-4181 x0287",
+      "AssociateName": "McDermott LLC",
+      "AssociateId": 39,
       "UsePersonAddress": false,
-      "ContactFax": "odio",
-      "Kanafname": "exercitationem",
-      "Kanalname": "vitae",
-      "Post1": "neque",
-      "Post2": "reiciendis",
-      "Post3": "dolores",
-      "EmailName": "devin.altenwerth@schmidtmcdermott.name",
-      "ContactFullName": "Haven O'Conner",
-      "ActiveErpLinks": 778,
-      "TicketPriorityId": 139,
-      "SupportLanguageId": 342,
-      "SupportAssociateId": 223,
+      "ContactFax": "aspernatur",
+      "Kanafname": "voluptatem",
+      "Kanalname": "exercitationem",
+      "Post1": "reiciendis",
+      "Post2": "dolore",
+      "Post3": "et",
+      "EmailName": "toney@haley.info",
+      "ContactFullName": "Chaim Ledner",
+      "ActiveErpLinks": 655,
+      "TicketPriorityId": 952,
+      "SupportLanguageId": 500,
+      "SupportAssociateId": 830,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 300
+          "FieldType": "System.String",
+          "FieldLength": 688
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "natus",
-  "Xstop": false,
-  "ActiveInterests": 781,
-  "GroupId": 720,
-  "ActiveStatusMonitorId": 654,
+  "NoMailing": false,
+  "Kananame": "in",
+  "Xstop": true,
+  "ActiveInterests": 431,
+  "GroupId": 29,
+  "ActiveStatusMonitorId": 251,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 701,
-  "DbiAgentId": 318,
-  "DbiLastSyncronized": "1999-05-27T12:15:18.4527592+02:00",
-  "DbiKey": "ut",
-  "DbiLastModified": "1999-11-20T12:15:18.4527592+01:00",
+  "Deleted": 648,
+  "DbiAgentId": 387,
+  "DbiLastSyncronized": "2002-02-28T15:29:21.0682853+01:00",
+  "DbiKey": "neque",
+  "DbiLastModified": "2018-07-21T15:29:21.0682853+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 324,
-  "ActiveErpLinks": 94,
+  "Source": 379,
+  "ActiveErpLinks": 923,
   "BounceEmails": [
-    "bernard_mayert@jakubowski.ca",
-    "sadie_damore@jaskolski.co.uk"
+    "jannie_hand@pourosgreen.us",
+    "simone@zemlak.uk"
   ],
   "Domains": [
-    "similique",
-    "est"
+    "qui",
+    "ipsum"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "37902208",
-    "SuperOffice:2": "Janessa Clarabelle Kemmer DDS"
+    "SuperOffice:1": "2092515538",
+    "SuperOffice:2": "Milan Mossie Brekke Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "dignissimos",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "illum",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 258
     }
   }
 }

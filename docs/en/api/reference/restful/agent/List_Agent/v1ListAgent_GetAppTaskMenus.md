@@ -68,8 +68,8 @@ OK
 | Encoding | string | Encoding for url |
 | ProgId | string | String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's |
 | Deleted | bool | True if deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,26 +88,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 85,
-    "Name": "Reynolds-Hayes",
-    "Tooltip": "quia",
-    "TableName": "Hettinger, Abernathy and Daugherty",
-    "Area": "iure",
+    "TaskMenuId": 5,
+    "Name": "Hills-Keebler",
+    "Tooltip": "hic",
+    "TableName": "Hagenes-Leffler",
+    "Area": "eligendi",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 796,
+    "CrmScriptId": 743,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 154,
+    "Rank": 246,
     "Encoding": "ANSI",
-    "ProgId": "porro",
+    "ProgId": "consequatur",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 693
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

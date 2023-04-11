@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Blanda-Schamberger",
-    "ToolTip": "Tenetur inventore hic maiores.",
+    "Id": 470,
+    "Name": "Kunze, Dickinson and Bayer",
+    "ToolTip": "Amet dicta omnis.",
     "Deleted": false,
-    "Rank": 641,
-    "Type": "possimus",
-    "ColorBlock": 782,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2012-01-12T12:15:28.3486154+01:00",
+    "Rank": 704,
+    "Type": "dolor",
+    "ColorBlock": 615,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2000-12-07T15:29:31.4639759+01:00",
     "ChildItems": [
       {
-        "Id": 456,
-        "Name": "Schmitt, Armstrong and Franecki",
-        "ToolTip": "Et architecto perspiciatis.",
+        "Id": 504,
+        "Name": "Pacocha LLC",
+        "ToolTip": "Sed at corrupti.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "aut",
-        "ColorBlock": 147,
-        "IconHint": "ullam",
+        "Rank": 354,
+        "Type": "earum",
+        "ColorBlock": 734,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2000-06-10T12:15:28.3486154+02:00",
+        "LastChanged": "1998-05-08T15:29:31.4639759+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "quia",
+        "ExtraInfo": "nulla",
+        "StyleHint": "aperiam",
         "Hidden": true,
-        "FullName": "Jordan Gislason"
+        "FullName": "Rex Funk"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "repellendus",
-    "Hidden": true,
-    "FullName": "Miss Art Trenton Schowalter"
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Henri Modesta Ferry Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "McCullough Inc and Sons",
-    "ToolTip": "Quia enim ut corporis nulla.",
-    "Deleted": false,
-    "Rank": 622,
-    "Type": "distinctio",
-    "ColorBlock": 824,
-    "IconHint": "voluptatibus",
-    "Selected": true,
-    "LastChanged": "2012-08-18T12:15:28.3516157+02:00",
+    "Id": 316,
+    "Name": "Gutmann Group",
+    "ToolTip": "Totam sed.",
+    "Deleted": true,
+    "Rank": 882,
+    "Type": "deserunt",
+    "ColorBlock": 785,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2016-03-13T15:29:31.4654757+01:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Zieme-West",
-        "ToolTip": "In est.",
+        "Id": 849,
+        "Name": "Koepp Inc and Sons",
+        "ToolTip": "Asperiores molestias aliquam nulla.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "est",
-        "ColorBlock": 193,
-        "IconHint": "aspernatur",
-        "Selected": true,
-        "LastChanged": "2011-08-18T12:15:28.3516157+02:00",
+        "Rank": 861,
+        "Type": "cumque",
+        "ColorBlock": 997,
+        "IconHint": "officia",
+        "Selected": false,
+        "LastChanged": "2020-03-11T15:29:31.4654757+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sit",
+        "ExtraInfo": "debitis",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Mireille Bechtelar",
+        "FullName": "Miss Alyson Fritsch IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 648
+            "FieldType": "System.String",
+            "FieldLength": 304
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "fugit",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Mia Grant",
+    "FullName": "Linnea Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldLength": 154
       }
     }
   }

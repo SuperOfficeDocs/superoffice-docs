@@ -72,8 +72,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,44 +87,44 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Brakus LLC",
-      "Operator": "quos",
+      "Name": "Jones Group",
+      "Operator": "cupiditate",
       "Values": [
-        "quia",
-        "est"
+        "minus",
+        "non"
       ],
       "DisplayValues": [
-        "laboriosam",
-        "perspiciatis"
+        "voluptate",
+        "vitae"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 950,
+      "InterParenthesis": 410,
       "InterOperator": "And",
-      "UniqueHash": 915
+      "UniqueHash": 905
     }
   ],
-  "ProviderName": "Reichert, Nader and Fritsch",
+  "ProviderName": "Lesch Group",
   "DesiredColumns": [
-    "autem",
-    "quia"
+    "consectetur",
+    "possimus"
   ],
   "OrderBy": [
     {
-      "Name": "Monahan Inc and Sons",
+      "Name": "Turner Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Monahan Inc and Sons",
+      "Name": "Turner Group",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 397,
-  "PageNumber": 731
+  "PageSize": 735,
+  "PageNumber": 81
 }
 ```
 
@@ -137,51 +137,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Leuschke Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "minima",
-      "CanOrderBy": true,
-      "Name": "Brakus, Stracke and Grimes",
+      "DisplayName": "Cruickshank, Becker and Rempel",
+      "DisplayTooltip": "accusantium",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Daniel, O'Keefe and Blanda",
       "CanRestrictBy": true,
-      "RestrictionType": "dicta",
-      "RestrictionListName": "Rippin-Kuhlman",
-      "IsVisible": false,
-      "ExtraInfo": "quod",
-      "Width": "consequuntur",
-      "IconHint": "sed",
-      "HeadingIconHint": "in"
+      "RestrictionType": "culpa",
+      "RestrictionListName": "Wintheiser-Kilback",
+      "IsVisible": true,
+      "ExtraInfo": "sapiente",
+      "Width": "aut",
+      "IconHint": "doloremque",
+      "HeadingIconHint": "repellendus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bayer Group",
-      "PrimaryKey": 990,
+      "EntityName": "O'Reilly-Bode",
+      "PrimaryKey": 814,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ipsa",
-          "TooltipHint": "quos",
-          "LinkHint": "sint"
+          "DisplayValue": "officia",
+          "TooltipHint": "consequuntur",
+          "LinkHint": "soluta"
         }
       },
-      "LinkHint": "saepe",
-      "StyleHint": "assumenda",
+      "LinkHint": "aut",
+      "StyleHint": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 90
         }
       }
     }
   ],
-  "RowCount": 964,
+  "RowCount": 761,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldType": "System.String",
+      "FieldLength": 747
     }
   }
 }

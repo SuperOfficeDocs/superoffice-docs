@@ -60,22 +60,22 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: RecurrenceInfo
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| RecurrenceId | int32 |  |
-| StartDate | date-time |  |
-| EndDate | date-time |  |
-| RecurrenceCounter | int32 |  |
-| RecurrenceEndType | string |  |
-| Pattern | string |  |
-| DayPattern | TableRight |  |
-| WeekPattern | TableRight |  |
-| MonthPattern | TableRight |  |
-| YearPattern | TableRight |  |
-| Dates | array |  |
-| IsRecurrence | bool |  |
+| RecurrenceId | int32 | The recurrence rule id |
+| StartDate | date-time | Start date of the repetition pattern |
+| EndDate | date-time | End date of the repetition pattern Only used when the end is calculated from a end date. {SuperOffice.Data.RecurrenceEndType.EndDate} |
+| RecurrenceCounter | int32 | Number of recurrences Only used when the end is calculated from a number of repetitions. {SuperOffice.Data.RecurrenceEndType.Counter} |
+| RecurrenceEndType | string | Type defining how the end of the recurrence sequence should be calculated |
+| Pattern | string | The recurrence pattern (Daily, Weekly, Monthly, Yearly, Custom) |
+| DayPattern | RecurrenceDayPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i daily. {SuperOffice.Data.RecurrencePattern.Daily} |
+| WeekPattern | RecurrenceWeekPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i weekly. {SuperOffice.Data.RecurrencePattern.Weekly} |
+| MonthPattern | RecurrenceMonthPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i monthly. {SuperOffice.Data.RecurrencePattern.Monthly} |
+| YearPattern | RecurrenceYearPattern | Pattern describing a daily recurrence Only set when the recurrence pattern i yearly. {SuperOffice.Data.RecurrencePattern.Yearly} |
+| Dates | array | List of all dates where this recurrence occurs |
+| IsRecurrence | bool | Get a or set IsRecurrence, indicating if this is a repeating appointment or not. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,10 +98,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 987,
-  "StartDate": "2004-10-31T12:15:17.8227684+01:00",
-  "EndDate": "2004-12-22T12:15:17.8227684+01:00",
-  "RecurrenceCounter": 923,
+  "RecurrenceId": 456,
+  "StartDate": "1996-08-25T15:29:20.5652939+02:00",
+  "EndDate": "2006-03-03T15:29:20.5652939+01:00",
+  "RecurrenceCounter": 241,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -110,20 +110,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2021-08-27T12:15:17.8227684+02:00",
+      "Date": "2013-10-28T15:29:20.5652939+01:00",
       "IsConflict": true,
-      "Description": "Phased system-worthy ability",
-      "DescriptionStyleHint": "Synergized dynamic website",
-      "Tooltip": "sit"
+      "Description": "Streamlined interactive Graphical User Interface",
+      "DescriptionStyleHint": "User-friendly zero administration hierarchy",
+      "Tooltip": "sapiente"
     },
     {
-      "Date": "2021-08-27T12:15:17.8227684+02:00",
+      "Date": "2013-10-28T15:29:20.5652939+01:00",
       "IsConflict": true,
-      "Description": "Phased system-worthy ability",
-      "DescriptionStyleHint": "Synergized dynamic website",
-      "Tooltip": "sit"
+      "Description": "Streamlined interactive Graphical User Interface",
+      "DescriptionStyleHint": "User-friendly zero administration hierarchy",
+      "Tooltip": "sapiente"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

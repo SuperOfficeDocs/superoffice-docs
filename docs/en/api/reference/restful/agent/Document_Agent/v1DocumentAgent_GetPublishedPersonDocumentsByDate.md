@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 615,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2002-06-27T12:15:18.7137554+02:00",
-  "EndTime": "2009-06-18T12:15:18.7137554+02:00",
-  "Count": 311
+  "PersonId": 604,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2014-01-26T15:29:21.4737801+01:00",
+  "EndTime": "2001-03-23T15:29:21.4737801+01:00",
+  "Count": 463
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 225,
-    "Attention": "autem",
-    "Header": "veritatis",
-    "Name": "Ullrich-Spencer",
-    "OurRef": "at",
-    "YourRef": "ea",
-    "Description": "Realigned system-worthy data-warehouse",
-    "DocumentTemplate": "praesentium",
+    "DocumentId": 279,
+    "Attention": "voluptas",
+    "Header": "qui",
+    "Name": "Hills Group",
+    "OurRef": "est",
+    "YourRef": "exercitationem",
+    "Description": "Ameliorated uniform function",
+    "DocumentTemplate": "vero",
     "IsPublished": false,
-    "PersonId": 696,
-    "PersonFullName": "Virginie Albin Stokes V",
-    "AssociateFullName": "Dr. Elmore Bosco III",
-    "ContactId": 405,
-    "ContactName": "Schumm-Cole",
-    "ProjectId": 377,
-    "ProjectName": "Lowe-Morar",
-    "AssociateId": 620,
-    "Snum": 955,
-    "SaleId": 266,
-    "SaleName": "Berge, Schmidt and Hackett",
+    "PersonId": 188,
+    "PersonFullName": "Kayla Champlin",
+    "AssociateFullName": "Zula Bernhard",
+    "ContactId": 474,
+    "ContactName": "Gislason, O'Connell and Veum",
+    "ProjectId": 952,
+    "ProjectName": "Dickens-Rippin",
+    "AssociateId": 633,
+    "Snum": 650,
+    "SaleId": 572,
+    "SaleName": "Mante Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldLength": 566
       }
     }
   }

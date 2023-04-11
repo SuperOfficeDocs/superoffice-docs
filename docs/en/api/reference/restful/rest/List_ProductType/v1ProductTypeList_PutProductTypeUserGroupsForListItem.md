@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Hane-O'Kon",
-    "ToolTip": "Eveniet ut ut explicabo sunt non.",
-    "Deleted": false,
-    "Rank": 403,
-    "Type": "saepe",
-    "ColorBlock": 181,
-    "IconHint": "quasi",
-    "Selected": false,
-    "LastChanged": "2008-05-02T12:15:28.3156158+02:00",
+    "Id": 566,
+    "Name": "Hartmann Inc and Sons",
+    "ToolTip": "Animi libero consequatur error corporis asperiores natus.",
+    "Deleted": true,
+    "Rank": 125,
+    "Type": "aut",
+    "ColorBlock": 15,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "1999-01-25T15:29:31.430976+01:00",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Moore, Rempel and Gulgowski",
-        "ToolTip": "Molestias delectus.",
-        "Deleted": false,
-        "Rank": 406,
-        "Type": "quibusdam",
-        "ColorBlock": 233,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "1997-01-24T12:15:28.3156158+01:00",
+        "Id": 377,
+        "Name": "Jones, Schumm and Effertz",
+        "ToolTip": "Aspernatur nemo.",
+        "Deleted": true,
+        "Rank": 914,
+        "Type": "quia",
+        "ColorBlock": 789,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2002-11-28T15:29:31.4314766+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
+        "ExtraInfo": "vitae",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Iliana Leannon"
+        "Hidden": false,
+        "FullName": "Silas Lebsack"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Emma Towne"
+    "ExtraInfo": "debitis",
+    "StyleHint": "aperiam",
+    "Hidden": true,
+    "FullName": "Mr. Sonya Herman MD"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Prohaska-Nitzsche",
-    "ToolTip": "Eum qui et voluptas dicta expedita est blanditiis.",
+    "Id": 726,
+    "Name": "Sanford Inc and Sons",
+    "ToolTip": "Repellat deserunt sequi corrupti rerum.",
     "Deleted": false,
-    "Rank": 462,
-    "Type": "harum",
-    "ColorBlock": 738,
-    "IconHint": "odio",
-    "Selected": false,
-    "LastChanged": "2021-06-07T12:15:28.3166167+02:00",
+    "Rank": 476,
+    "Type": "eius",
+    "ColorBlock": 215,
+    "IconHint": "accusamus",
+    "Selected": true,
+    "LastChanged": "2018-08-16T15:29:31.4324782+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Bailey, Jaskolski and Block",
-        "ToolTip": "Blanditiis provident aspernatur.",
-        "Deleted": true,
-        "Rank": 543,
-        "Type": "nostrum",
-        "ColorBlock": 787,
-        "IconHint": "ea",
+        "Id": 808,
+        "Name": "Franecki LLC",
+        "ToolTip": "Deserunt dolor eum eum molestiae.",
+        "Deleted": false,
+        "Rank": 617,
+        "Type": "id",
+        "ColorBlock": 937,
+        "IconHint": "atque",
         "Selected": true,
-        "LastChanged": "2020-11-29T12:15:28.3166167+01:00",
+        "LastChanged": "2010-06-03T15:29:31.4324782+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "iure",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Kale Torphy",
+        "FullName": "Esperanza Arvid Wolff II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 774
+            "FieldLength": 513
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Daron Waelchi",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "officiis",
+    "Hidden": true,
+    "FullName": "Dr. Ethelyn Shawn Cummerata DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldLength": 266
       }
     }
   }

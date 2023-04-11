@@ -95,8 +95,8 @@ OK
 | WaitToFinish | bool | True if the application shall wait for fininsh event |
 | ExecuteOnEvent | string | Events that cause automatic execution of this app |
 | Path | string | Path where the programfile is located; if empty, PATH is used |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -104,32 +104,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 83,
-  "Name": "Lueilwitz, Hegmann and Becker",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 966,
-  "Filename": "quaerat",
-  "Parameters": "ullam",
-  "Workdir": "odio",
+  "ExtAppId": 262,
+  "Name": "Jakubowski-Baumbach",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 713,
+  "Filename": "ea",
+  "Parameters": "ipsam",
+  "Workdir": "ex",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 801,
-  "WaitToFinish": false,
+  "Icon": 529,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "iusto"
+  "Path": "explicabo"
 }
 ```
 
@@ -140,17 +140,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 229,
-  "Name": "Howell-Boehm",
-  "Tooltip": "sed",
+  "ExtAppId": 555,
+  "Name": "Osinski LLC",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 596,
-  "Filename": "molestias",
-  "Parameters": "ea",
-  "Workdir": "sed",
+  "Rank": 256,
+  "Filename": "consequatur",
+  "Parameters": "nihil",
+  "Workdir": "dolor",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
@@ -158,16 +158,16 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 605,
-  "WaitToFinish": false,
+  "Icon": 749,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consequuntur",
+  "Path": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 67
     }
   }
 }

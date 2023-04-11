@@ -81,8 +81,8 @@ OK
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,25 +90,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 493,
-  "Rank": 213,
-  "DefaultTask": 769,
-  "DefaultTaskText": "qui",
-  "IsVisual": true,
-  "LastGenerated": "2004-10-21T12:15:20.0107383+02:00",
-  "Description": "Stand-alone executive internet solution",
-  "Name": "Weissnat, Johns and Rolfson",
-  "StatusMonitorId": 966,
-  "PictureId": 220,
+  "OwnerTable": 617,
+  "Rank": 887,
+  "DefaultTask": 513,
+  "DefaultTaskText": "odit",
+  "IsVisual": false,
+  "LastGenerated": "2013-09-18T15:29:22.6357638+02:00",
+  "Description": "Operative even-keeled alliance",
+  "Name": "Klocko, Ullrich and Adams",
+  "StatusMonitorId": 968,
+  "PictureId": 305,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 284,
-  "NumNeedUpdate": 935,
-  "GenerationStart": "2015-05-07T12:15:20.0107383+02:00"
+  "NumMatches": 749,
+  "NumNeedUpdate": 307,
+  "GenerationStart": "2007-04-22T15:29:22.6357638+02:00"
 }
 ```
 
@@ -119,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 587,
-  "Rank": 891,
-  "DefaultTask": 154,
-  "DefaultTaskText": "similique",
+  "OwnerTable": 236,
+  "Rank": 829,
+  "DefaultTask": 967,
+  "DefaultTaskText": "sit",
   "IsVisual": false,
-  "LastGenerated": "2001-10-11T12:15:20.0127391+02:00",
-  "Description": "Pre-emptive cohesive matrix",
-  "Name": "Hand, Gulgowski and Leffler",
-  "StatusMonitorId": 984,
-  "PictureId": 523,
+  "LastGenerated": "2010-01-04T15:29:22.6357638+01:00",
+  "Description": "Function-based well-modulated process improvement",
+  "Name": "Hansen Inc and Sons",
+  "StatusMonitorId": 371,
+  "PictureId": 193,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 511,
-  "NumNeedUpdate": 823,
-  "GenerationStart": "2021-09-02T12:15:20.0127391+02:00",
+  "NumMatches": 19,
+  "NumNeedUpdate": 758,
+  "GenerationStart": "2006-06-22T15:29:22.6362643+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

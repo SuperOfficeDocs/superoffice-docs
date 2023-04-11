@@ -26,7 +26,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=natus
+GET /api/v1/List/ProductCategory/MDOItems?query=doloremque
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Sauer, Rau and Hermann",
-    "ToolTip": "Adipisci quisquam et quis veritatis.",
-    "Deleted": true,
-    "Rank": 49,
-    "Type": "ut",
+    "Id": 10,
+    "Name": "Cronin-Hodkiewicz",
+    "ToolTip": "Atque sunt in dicta qui necessitatibus.",
+    "Deleted": false,
+    "Rank": 811,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Heathcote Inc and Sons",
-        "ToolTip": "Porro esse.",
+        "Id": 342,
+        "Name": "Buckridge Inc and Sons",
+        "ToolTip": "Numquam inventore.",
         "Deleted": false,
-        "Rank": 149,
-        "Type": "repellendus",
+        "Rank": 838,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 209,
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "blanditiis",
-        "FullName": "Aubree McDermott",
+        "IconHint": "sed",
+        "ColorBlock": 218,
+        "ExtraInfo": "cum",
+        "StyleHint": "voluptatem",
+        "FullName": "Dr. Earnestine Jacky Becker DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 131
+            "FieldType": "System.Int32",
+            "FieldLength": 837
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 551,
-    "ExtraInfo": "quam",
-    "StyleHint": "sed",
-    "FullName": "Dexter Emard DDS",
+    "IconHint": "ea",
+    "ColorBlock": 465,
+    "ExtraInfo": "at",
+    "StyleHint": "veritatis",
+    "FullName": "Hillary Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 401
+        "FieldType": "System.Int32",
+        "FieldLength": 86
       }
     }
   }

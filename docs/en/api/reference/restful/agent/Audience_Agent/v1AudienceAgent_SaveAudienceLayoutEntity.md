@@ -65,8 +65,8 @@ OK
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
 | CreatedBy | Associate | Name of the person that created the Audience layout |
 | UpdatedBy | Associate | Name of the person that last updated the Audience layout |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 185,
-  "InstanceLayout": "explicabo",
-  "InstanceName": "Kessler, Hermiston and Medhurst",
-  "CreatedDate": "1997-09-06T12:15:18.1847653+02:00",
-  "UpdatedDate": "2005-07-12T12:15:18.1847653+02:00",
+  "AudienceLayoutId": 724,
+  "InstanceLayout": "debitis",
+  "InstanceName": "Stokes-Dietrich",
+  "CreatedDate": "2015-10-20T15:29:20.8032894+02:00",
+  "UpdatedDate": "2021-10-20T15:29:20.8032894+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 341,
-  "InstanceLayout": "in",
-  "InstanceName": "Boyle, Waelchi and Welch",
-  "CreatedDate": "2009-03-16T12:15:18.1867631+01:00",
-  "UpdatedDate": "2019-10-01T12:15:18.1867631+02:00",
+  "AudienceLayoutId": 862,
+  "InstanceLayout": "sapiente",
+  "InstanceName": "Lindgren Group",
+  "CreatedDate": "2001-08-26T15:29:20.8047897+02:00",
+  "UpdatedDate": "2017-01-05T15:29:20.8047897+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 884
     }
   }
 }

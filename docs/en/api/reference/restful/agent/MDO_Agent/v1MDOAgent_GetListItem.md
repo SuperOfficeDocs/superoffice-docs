@@ -75,8 +75,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Kerluke-O'Conner",
-  "Id": 404
+  "ListName": "Beier, Grant and Block",
+  "Id": 197
 }
 ```
 
@@ -100,50 +100,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Hermiston, Weber and Trantow",
-  "ToolTip": "Tenetur et rerum ut vel earum voluptatem soluta.",
+  "Id": 523,
+  "Name": "Thompson, Glover and Lang",
+  "ToolTip": "Repellendus nemo qui incidunt natus aut et esse.",
   "Deleted": true,
-  "Rank": 990,
-  "Type": "quae",
+  "Rank": 560,
+  "Type": "quas",
   "ChildItems": [
     {
-      "Id": 930,
-      "Name": "Vandervort, Leffler and Little",
-      "ToolTip": "Aut saepe.",
+      "Id": 662,
+      "Name": "Cartwright-Conn",
+      "ToolTip": "Eum architecto nobis.",
       "Deleted": false,
-      "Rank": 632,
-      "Type": "alias",
+      "Rank": 352,
+      "Type": "itaque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reiciendis",
-      "ColorBlock": 748,
-      "ExtraInfo": "laborum",
-      "StyleHint": "et",
-      "FullName": "Benedict Strosin",
+      "IconHint": "culpa",
+      "ColorBlock": 489,
+      "ExtraInfo": "inventore",
+      "StyleHint": "cupiditate",
+      "FullName": "Ollie Gorczany",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 692
         }
       }
     }
   ],
-  "IconHint": "officia",
-  "ColorBlock": 5,
-  "ExtraInfo": "doloribus",
-  "StyleHint": "ratione",
-  "FullName": "Claude Friesen",
+  "IconHint": "ab",
+  "ColorBlock": 714,
+  "ExtraInfo": "ab",
+  "StyleHint": "ut",
+  "FullName": "Monroe Rowe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldType": "System.Int32",
+      "FieldLength": 414
     }
   }
 }

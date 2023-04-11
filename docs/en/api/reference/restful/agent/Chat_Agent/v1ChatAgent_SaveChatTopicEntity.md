@@ -113,8 +113,8 @@ OK
 | OfflineFormQueueLength | int32 | The number of customers in the queue before the offline form is available |
 | WidgetEnableRating | bool | Enable rating functionality in the chat widgte |
 | WidgetRatingText | string | The text to be displayed in the widget next to the rating stars |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -122,41 +122,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 246,
-  "Name": "Huel, Schimmel and Sanford",
-  "Description": "Streamlined methodical archive",
-  "WelcomeMessage": "laborum",
+  "ChatTopicId": 896,
+  "Name": "Mante-Schaden",
+  "Description": "Stand-alone even-keeled standardization",
+  "WelcomeMessage": "ut",
   "Language": null,
-  "LastAccept": "2003-08-22T12:15:18.2767619+02:00",
-  "SecondsPrAccept": 263,
-  "AlertRecipient": "nostrum",
+  "LastAccept": "2015-02-03T15:29:20.8943238+01:00",
+  "SecondsPrAccept": 555,
+  "AlertRecipient": "sed",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "nihil",
+  "BadgeHeader": "vel",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "id",
-  "WarnNewChatMinutes": 461,
-  "WarnManagerNewChatMinutes": 606,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 649,
+  "WarnManagerNewChatMinutes": 84,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 353,
-  "WarnManagerChatMessageMinutes": 342,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 302,
-  "OfflineFormQueueLength": 760,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 98,
+  "WarnManagerChatMessageMinutes": 890,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 230,
+  "OfflineFormQueueLength": 806,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "ducimus"
+  "WidgetRatingText": "aut"
 }
 ```
 
@@ -167,43 +167,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 861,
-  "Name": "Parisian-Wunsch",
-  "Description": "Horizontal maximized focus group",
-  "WelcomeMessage": "sunt",
+  "ChatTopicId": 102,
+  "Name": "Roob, Schumm and O'Conner",
+  "Description": "Seamless incremental hub",
+  "WelcomeMessage": "ullam",
   "Language": null,
-  "LastAccept": "1996-04-21T12:15:18.2797612+02:00",
-  "SecondsPrAccept": 318,
-  "AlertRecipient": "voluptas",
+  "LastAccept": "2021-02-25T15:29:20.8968214+01:00",
+  "SecondsPrAccept": 687,
+  "AlertRecipient": "est",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "fugit",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "alias",
-  "WarnNewChatMinutes": 507,
-  "WarnManagerNewChatMinutes": 493,
+  "CollectConsent": false,
+  "BadgeHeader": "ut",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "eum",
+  "WarnNewChatMinutes": 262,
+  "WarnManagerNewChatMinutes": 509,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 669,
-  "WarnManagerChatMessageMinutes": 691,
+  "WarnChatMessageMinutes": 209,
+  "WarnManagerChatMessageMinutes": 834,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 492,
-  "OfflineFormQueueLength": 106,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "rem",
+  "OfflineFormTimeLimit": 561,
+  "OfflineFormQueueLength": 761,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

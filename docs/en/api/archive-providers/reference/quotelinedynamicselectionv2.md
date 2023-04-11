@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "QuoteLineDynamicSelectionV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -718,7 +718,7 @@ QuoteLine selection archive with OR-able selection groups. Each group is represe
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=alternative/vatInfo,alternative/version/quote/sale/person/portraitThumbnail,alternative/version/quote/sale/person/correspondingAssociate/lastName,alternative/version/quote/sale/contact/postAddress/state,alternative/version/quote/sale/contact/contactAssociate/contactDepartment
+GET /api/v1/archive/QuoteLineDynamicSelectionV2?$select=unitCost,quoteLineThumbnail,alternative/subTotal,alternative/version/quote/sale/stalledComment,alternative/version/quote/sale/saleTypeCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -84,8 +84,8 @@ OK
 | IsDefaultPublished | bool | Published to external persons |
 | ColorIndex | string | JAP |
 | DefaultVideomeetingStatus | string | Default video-meeting status for meetings created in SuperOffice CRM. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,17 +97,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 677,
-  "Value": "necessitatibus",
+  "TaskListItemId": 786,
+  "Value": "impedit",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "fuga",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "IntentId": 304,
-  "Rank": 809,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IntentId": 463,
+  "Rank": 156,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -120,17 +120,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 569,
-  "Value": "beatae",
+  "TaskListItemId": 396,
+  "Value": "et",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "quis",
+  "Tooltip": "et",
   "Deleted": true,
-  "IntentId": 656,
-  "Rank": 346,
+  "IntentId": 207,
+  "Rank": 558,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 263
     }
   }
 }

@@ -63,11 +63,11 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Date | date-time |  |
-| IsConflict | bool |  |
-| Description | string |  |
-| DescriptionStyleHint | string |  |
-| Tooltip | string |  |
+| Date | date-time | Date of the recurrence. |
+| IsConflict | bool | Is there a conflict for this occurrence. |
+| Description | string | Conflict or day (e.g. red, blue, etc. letter-day) name. |
+| DescriptionStyleHint | string | Style hint for the description (i.e. red for red-letter-days) |
+| Tooltip | string | Description of conflict or other things happening this day. |
 
 ## Sample request
 
@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "ex",
-    "facilis"
+    "fugit",
+    "voluptatem"
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2017-08-26T12:15:17.8237682+02:00",
+    "Date": "2005-07-31T15:29:20.5657934+02:00",
     "IsConflict": true,
-    "Description": "Object-based 3rd generation contingency",
-    "DescriptionStyleHint": "Business-focused systematic structure",
-    "Tooltip": "eveniet"
+    "Description": "Realigned 3rd generation matrices",
+    "DescriptionStyleHint": "Open-architected directional time-frame",
+    "Tooltip": "non"
   },
   {
-    "Date": "2017-08-26T12:15:17.8237682+02:00",
+    "Date": "2005-07-31T15:29:20.5657934+02:00",
     "IsConflict": true,
-    "Description": "Object-based 3rd generation contingency",
-    "DescriptionStyleHint": "Business-focused systematic structure",
-    "Tooltip": "eveniet"
+    "Description": "Realigned 3rd generation matrices",
+    "DescriptionStyleHint": "Open-architected directional time-frame",
+    "Tooltip": "non"
   }
 ]
 ```

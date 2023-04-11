@@ -83,8 +83,8 @@ OK
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -97,15 +97,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 332,
+  "SystemEventId": 743,
   "Scope": "Database",
-  "Eta": "2014-11-09T12:15:27.4046294+01:00",
-  "Eventkey": "cum",
-  "Eventmess": "quia",
-  "ExtraInfo": 471,
-  "Owner": 515,
-  "UpdatedCount": 332,
-  "Registered": "2007-12-22T12:15:27.4056292+01:00",
+  "Eta": "2006-03-14T15:29:30.6284909+01:00",
+  "Eventkey": "ad",
+  "Eventmess": "veritatis",
+  "ExtraInfo": 362,
+  "Owner": 107,
+  "UpdatedCount": 395,
+  "Registered": "2001-07-30T15:29:30.6289859+02:00",
   "ActivatedBy": null
 }
 ```
@@ -117,27 +117,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 779,
+  "SystemEventId": 519,
   "Scope": "Database",
-  "Eta": "2007-10-04T12:15:27.4056292+02:00",
-  "Eventkey": "illo",
-  "Eventmess": "ipsum",
-  "ExtraInfo": 647,
-  "Owner": 786,
-  "UpdatedCount": 313,
-  "Registered": "2022-08-18T12:15:27.4056292+02:00",
+  "Eta": "1998-04-07T15:29:30.6294879+02:00",
+  "Eventkey": "consequatur",
+  "Eventmess": "et",
+  "ExtraInfo": 593,
+  "Owner": 552,
+  "UpdatedCount": 141,
+  "Registered": "2006-12-04T15:29:30.6294879+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldLength": 57
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

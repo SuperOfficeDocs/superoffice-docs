@@ -93,8 +93,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 62
+  "ChatTopicId": 662
 }
 ```
 
@@ -117,29 +117,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 401,
-  "TopicId": 576,
+  "ChatSessionId": 323,
+  "TopicId": 126,
   "User": null,
   "Person": null,
-  "CustomerAlias": "omnis",
-  "CustomerHost": "autem",
-  "CustomerName": "Walsh Group",
-  "CustomerEmail": "rocky.wiza@feestmaggio.com",
-  "CustomerPhone": "877-815-8692 x89780",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Howe, Boyle and Lind",
+  "CustomerAlias": "alias",
+  "CustomerHost": "nisi",
+  "CustomerName": "Wolf, Hickle and Rogahn",
+  "CustomerEmail": "jarod@deckow.us",
+  "CustomerPhone": "(986)434-4063 x59184",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Sporer-Hilll",
   "Status": "Closed",
-  "FirstMessage": "hic",
+  "FirstMessage": "rerum",
   "LastMessage": "et",
-  "WhenRequested": "2012-01-01T12:15:18.40176+01:00",
-  "WhenStarted": "1999-07-12T12:15:18.40176+02:00",
-  "WhenEnded": "1999-09-24T12:15:18.40176+02:00",
-  "WhenIdle": "2011-04-15T12:15:18.40176+02:00",
-  "WhenFetched": "2007-01-09T12:15:18.40176+01:00",
-  "SessionKey": "modi",
-  "InitialQueuePos": 950,
-  "AlertLevel": 863,
-  "Rank": 863,
+  "WhenRequested": "2005-09-24T15:29:21.0192857+02:00",
+  "WhenStarted": "2016-04-19T15:29:21.0192857+02:00",
+  "WhenEnded": "2010-05-08T15:29:21.0192857+02:00",
+  "WhenIdle": "2014-04-29T15:29:21.0192857+02:00",
+  "WhenFetched": "2002-03-15T15:29:21.0192857+01:00",
+  "SessionKey": "temporibus",
+  "InitialQueuePos": 21,
+  "AlertLevel": 204,
+  "Rank": 648,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -147,13 +147,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 476,
+  "Rating": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldLength": 157
     }
   }
 }

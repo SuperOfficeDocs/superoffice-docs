@@ -90,8 +90,8 @@ CRMScriptEntity updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -100,21 +100,21 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 883,
-  "UniqueIdentifier": "aut",
-  "Name": "Towne-Hickle",
-  "Description": "Multi-tiered coherent approach",
-  "IncludeId": "minus",
-  "HierarchyId": 496,
-  "Source": "asperiores",
-  "Registered": "1996-07-03T12:15:26.8116402+02:00",
-  "RegisteredAssociateId": 818,
-  "Updated": "2003-07-04T12:15:26.8116402+02:00",
-  "UpdatedAssociateId": 357
+  "EjscriptId": 306,
+  "UniqueIdentifier": "rerum",
+  "Name": "Boehm, Wintheiser and Mayer",
+  "Description": "Synergistic global neural-net",
+  "IncludeId": "sit",
+  "HierarchyId": 919,
+  "Source": "et",
+  "Registered": "2000-01-08T15:29:29.6282015+01:00",
+  "RegisteredAssociateId": 142,
+  "Updated": "2017-03-13T15:29:29.6282015+01:00",
+  "UpdatedAssociateId": 944
 }
 ```
 
@@ -125,23 +125,23 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 743,
-  "UniqueIdentifier": "unde",
-  "Name": "Abshire Group",
-  "Description": "Up-sized heuristic archive",
-  "IncludeId": "modi",
-  "HierarchyId": 102,
-  "Source": "molestiae",
-  "Registered": "2015-01-21T12:15:26.8116402+01:00",
-  "RegisteredAssociateId": 380,
-  "Updated": "2013-12-03T12:15:26.8116402+01:00",
-  "UpdatedAssociateId": 662,
+  "EjscriptId": 107,
+  "UniqueIdentifier": "rerum",
+  "Name": "Schneider-Miller",
+  "Description": "Intuitive motivating knowledge user",
+  "IncludeId": "ullam",
+  "HierarchyId": 10,
+  "Source": "repudiandae",
+  "Registered": "1999-06-01T15:29:29.6287007+02:00",
+  "RegisteredAssociateId": 847,
+  "Updated": "2013-03-13T15:29:29.6287007+01:00",
+  "UpdatedAssociateId": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 545
     }
   },
   "_Links": {

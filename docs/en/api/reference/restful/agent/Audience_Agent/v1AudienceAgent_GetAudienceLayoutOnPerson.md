@@ -69,8 +69,8 @@ OK
 | UpdatedDate | date-time | The date and time the Audience layout was last updated  in UTC. |
 | CreatedBy | Associate | Name of the person that created the Audience layout |
 | UpdatedBy | Associate | Name of the person that last updated the Audience layout |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 65
+  "PersonId": 71
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 407,
-  "InstanceLayout": "in",
-  "InstanceName": "Pfeffer-Stoltenberg",
-  "CreatedDate": "2017-12-24T12:15:18.1997628+01:00",
-  "UpdatedDate": "2008-10-20T12:15:18.1997628+02:00",
+  "AudienceLayoutId": 997,
+  "InstanceLayout": "voluptatem",
+  "InstanceName": "Durgan, Lowe and Kertzmann",
+  "CreatedDate": "2011-03-02T15:29:20.8182897+01:00",
+  "UpdatedDate": "2021-11-12T15:29:20.8182897+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 374
     }
   }
 }

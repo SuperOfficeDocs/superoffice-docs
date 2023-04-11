@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dooley LLC",
-  "FieldName": "Mills, Stark and Hamill"
+  "TableName": "Runolfsson Inc and Sons",
+  "FieldName": "Fahey, Lind and Schowalter"
 }
 ```
 
@@ -100,17 +100,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Senger, Schroeder and Kutch",
-  "DisplayName": "Nolan-Bergnaum",
-  "Description": "Ameliorated background open system",
-  "ShortLabel": "ut",
-  "HideLabel": false,
-  "HideField": true,
+  "FieldName": "Brekke-Kautzer",
+  "DisplayName": "Reinger Inc and Sons",
+  "Description": "Reverse-engineered 4th generation capacity",
+  "ShortLabel": "nobis",
+  "HideLabel": true,
+  "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "Rank": 713,
-  "TemplateVariableName": "Ernser Group"
+  "Rank": 672,
+  "TemplateVariableName": "Padberg LLC"
 }
 ```

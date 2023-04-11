@@ -25,7 +25,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=766
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=166
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -66,8 +66,8 @@ OK
 | Response | string | The JSON-formatted response from this form |
 | Status | string | What is the status of this submission |
 | ProcessingLog | string | A log of what happened during processing |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 460,
-  "FormId": 330,
-  "WhenSubmitted": "2022-05-02T12:15:19.3707433+02:00",
-  "ContactId": 166,
-  "PersonId": 863,
-  "EmailAddress": "jackson.lang@mann.us",
-  "ResponseShipmentAddrId": 196,
-  "Response": "sequi",
+  "FormSubmissionId": 683,
+  "FormId": 703,
+  "WhenSubmitted": "2010-03-18T15:29:22.132271+01:00",
+  "ContactId": 855,
+  "PersonId": 826,
+  "EmailAddress": "maddison@connellydietrich.co.uk",
+  "ResponseShipmentAddrId": 913,
+  "Response": "consequatur",
   "Status": "EmailVerification",
-  "ProcessingLog": "omnis",
+  "ProcessingLog": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 319
     }
   }
 }

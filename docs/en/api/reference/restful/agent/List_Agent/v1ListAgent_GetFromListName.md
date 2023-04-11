@@ -69,8 +69,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 789,
-  "UdListDefinitionName": "Feeney, Miller and Cole"
+  "Id": 636,
+  "UdListDefinitionName": "Dickinson-Larson"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Christiansen, Rolfson and Schoen",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 410,
-  "Rank": 33,
+  "Id": 462,
+  "Name": "Trantow-Stamm",
+  "Tooltip": "doloribus",
+  "Deleted": true,
+  "UdListDefinitionId": 30,
+  "Rank": 981,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 976
     }
   }
 }

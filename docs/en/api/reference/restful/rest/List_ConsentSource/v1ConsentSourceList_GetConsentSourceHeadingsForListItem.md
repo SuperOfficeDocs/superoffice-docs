@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "Kihn, Green and Bartoletti",
-    "ToolTip": "Rerum vel est consequatur adipisci.",
-    "Deleted": true,
-    "Rank": 389,
-    "Type": "ut",
-    "ColorBlock": 419,
-    "IconHint": "quas",
+    "Id": 910,
+    "Name": "Kautzer-Considine",
+    "ToolTip": "Eaque sed optio error corrupti aperiam amet autem.",
+    "Deleted": false,
+    "Rank": 904,
+    "Type": "quibusdam",
+    "ColorBlock": 122,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2000-02-26T12:15:27.9476223+01:00",
+    "LastChanged": "2022-07-31T15:29:31.1589798+02:00",
     "ChildItems": [
       {
-        "Id": 786,
-        "Name": "Dickinson-Gaylord",
-        "ToolTip": "Dolores consequatur impedit omnis molestiae nesciunt a.",
+        "Id": 519,
+        "Name": "Schinner-Ryan",
+        "ToolTip": "Doloribus quia veritatis.",
         "Deleted": false,
-        "Rank": 658,
-        "Type": "quis",
-        "ColorBlock": 479,
-        "IconHint": "nihil",
+        "Rank": 444,
+        "Type": "rem",
+        "ColorBlock": 997,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2002-01-24T12:15:27.9476223+01:00",
+        "LastChanged": "2015-06-26T15:29:31.1589798+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "ratione",
+        "ExtraInfo": "fuga",
+        "StyleHint": "consequatur",
         "Hidden": true,
-        "FullName": "Ms. Jarod Ondricka",
+        "FullName": "Geoffrey Howell DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldType": "System.String",
+            "FieldLength": 425
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "iusto",
-    "Hidden": false,
-    "FullName": "Ms. Abagail Rene Wehner II",
+    "ExtraInfo": "rerum",
+    "StyleHint": "dolore",
+    "Hidden": true,
+    "FullName": "Effie Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 81
       }
     }
   }

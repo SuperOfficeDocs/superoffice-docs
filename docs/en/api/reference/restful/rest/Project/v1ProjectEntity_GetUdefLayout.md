@@ -80,8 +80,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 682,
-    "ColumnId": 167,
+    "UDefFieldId": 82,
+    "ColumnId": 999,
     "FieldDefault": "esse",
-    "FieldHeight": 708,
-    "FieldLabel": "occaecati",
-    "FieldLeft": 586,
-    "FieldTop": 735,
+    "FieldHeight": 827,
+    "FieldLabel": "architecto",
+    "FieldLeft": 363,
+    "FieldTop": 451,
     "FieldType": "Checkbox",
-    "FieldWidth": 545,
-    "FormatMask": "ab",
+    "FieldWidth": 162,
+    "FormatMask": "ut",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 89,
-    "LabelLeft": 289,
-    "LabelTop": 19,
-    "LabelWidth": 778,
-    "LastVersionId": 565,
-    "ListTableId": 497,
+    "IsIndexed": true,
+    "LabelHeight": 966,
+    "LabelLeft": 41,
+    "LabelTop": 200,
+    "LabelWidth": 448,
+    "LastVersionId": 426,
+    "ListTableId": 435,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 672,
-    "ProgId": "voluptas",
+    "Page1LineNo": 939,
+    "ProgId": "est",
     "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 104,
-    "TextLength": 479,
-    "Tooltip": "nihil",
-    "UdefIdentity": 932,
-    "UDListDefinitionId": 424,
+    "ShortLabel": "quo",
+    "TabOrder": 572,
+    "TextLength": 65,
+    "Tooltip": "dicta",
+    "UdefIdentity": 877,
+    "UDListDefinitionId": 787,
     "Justification": "Center",
-    "Version": 14,
-    "TemplateVariableName": "Kreiger Group",
-    "HasBeenPublished": true,
-    "MdoListName": "Runte-Gleichner",
+    "Version": 7,
+    "TemplateVariableName": "Olson, Casper and Haag",
+    "HasBeenPublished": false,
+    "MdoListName": "Stracke, Herman and Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 946
       }
     }
   }

@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Huels-Green",
-    "ToolTip": "Fugit hic quidem iste sed quia ratione odit.",
-    "Deleted": false,
-    "Rank": 633,
-    "Type": "sint",
-    "ColorBlock": 852,
-    "IconHint": "necessitatibus",
-    "Selected": false,
-    "LastChanged": "2015-02-07T12:15:28.3886174+01:00",
+    "Id": 269,
+    "Name": "Rath-Weissnat",
+    "ToolTip": "Temporibus architecto vero.",
+    "Deleted": true,
+    "Rank": 406,
+    "Type": "et",
+    "ColorBlock": 905,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2017-02-05T15:29:31.5019764+01:00",
     "ChildItems": [
       {
-        "Id": 562,
-        "Name": "Lebsack-Greenholt",
-        "ToolTip": "Quia aliquam.",
+        "Id": 127,
+        "Name": "Berge Group",
+        "ToolTip": "Exercitationem deserunt nam.",
         "Deleted": false,
-        "Rank": 948,
-        "Type": "consequatur",
-        "ColorBlock": 606,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2003-06-18T12:15:28.3886174+02:00",
+        "Rank": 107,
+        "Type": "fuga",
+        "ColorBlock": 27,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2006-12-17T15:29:31.5019764+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "ut",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Ms. Robin Becker",
+        "FullName": "Mrs. Willow Boyer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldType": "System.String",
+            "FieldLength": 827
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "a",
+    "ExtraInfo": "ex",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Willard Metz",
+    "FullName": "Mrs. Birdie Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 366
       }
     }
   }

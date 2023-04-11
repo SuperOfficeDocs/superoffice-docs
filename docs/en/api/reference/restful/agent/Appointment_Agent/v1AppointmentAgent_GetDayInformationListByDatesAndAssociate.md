@@ -69,8 +69,8 @@ OK
 | ActivityInformation | ActivitySummary | Activity information summary - number of free and busy activities. |
 | RedLetterInformation | RedLetterSummary | Summary of redletter day information - holiday in own country, and in other countries known to the system. |
 | Date | date-time | Date that this item is valid for; there is exactly one item per date, ordered by date. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2023-01-11T12:15:17.6887762+01:00",
-  "EndDate": "2000-04-14T12:15:17.6887762+02:00",
-  "AssociateId": 912
+  "StartDate": "1996-08-06T15:29:20.4343302+02:00",
+  "EndDate": "2001-10-08T15:29:20.4343302+02:00",
+  "AssociateId": 868
 }
 ```
 
@@ -98,26 +98,26 @@ Content-Type: application/json; charset=utf-8
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2012-09-18T12:15:17.6887762+02:00",
+    "Date": "2005-11-30T15:29:20.4348307+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 410
       }
     }
   },
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2012-09-18T12:15:17.6887762+02:00",
+    "Date": "2005-11-30T15:29:20.4348307+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 410
       }
     }
   }

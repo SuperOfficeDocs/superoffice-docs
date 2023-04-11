@@ -108,8 +108,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -117,34 +117,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 146,
-  "Name": "Waelchi-Corwin",
-  "Tooltip": "eius",
-  "SaveInDb": 700,
-  "Filename": "molestias",
-  "DefaultOref": "repellat",
+  "DocumentTemplateId": 317,
+  "Name": "White Inc and Sons",
+  "Tooltip": "deserunt",
+  "SaveInDb": 949,
+  "Filename": "atque",
+  "DefaultOref": "corrupti",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 754,
-  "IntentId": 124,
+  "AutoeventId": 383,
+  "IntentId": 256,
   "IsDefaultPublished": false,
-  "Rank": 447,
-  "LoadTemplateFromPlugin": 334,
-  "MimeType": "eos",
+  "Rank": 559,
+  "LoadTemplateFromPlugin": 493,
+  "MimeType": "omnis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 939,
+  "DocumentTypeKey": 172,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "andreanne_harvey@vandervortjerde.us",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "gabriel_casper@bashirian.ca",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "rosendo.ziemann@roob.uk",
+  "SenderEmailAddress": "grady_weissnat@durgan.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -156,37 +156,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 703,
-  "Name": "Jenkins LLC",
-  "Tooltip": "animi",
-  "SaveInDb": 842,
-  "Filename": "a",
-  "DefaultOref": "asperiores",
+  "DocumentTemplateId": 98,
+  "Name": "Swift, Green and Grant",
+  "Tooltip": "dolores",
+  "SaveInDb": 322,
+  "Filename": "iusto",
+  "DefaultOref": "vel",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 779,
-  "IntentId": 179,
+  "AutoeventId": 532,
+  "IntentId": 997,
   "IsDefaultPublished": false,
-  "Rank": 550,
-  "LoadTemplateFromPlugin": 437,
-  "MimeType": "ducimus",
+  "Rank": 694,
+  "LoadTemplateFromPlugin": 373,
+  "MimeType": "impedit",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 483,
+  "DocumentTypeKey": 31,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "estell_cassin@nitzschebogisich.uk",
+  "EmailSubject": "blair@weimannpurdy.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lauren@greenholtbalistreri.us",
+  "SenderEmailAddress": "erwin@hagenes.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

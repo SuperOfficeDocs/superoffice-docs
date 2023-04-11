@@ -73,12 +73,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document/{id}/Links?$select=name,department,category/id
 GET /api/v1/Document/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Document/{id}/Links?$orderBy=name asc
-GET /api/v1/Document/{id}/Links?$entities=quaerat
-GET /api/v1/Document/{id}/Links?$top=709
-GET /api/v1/Document/{id}/Links?$skip=745
+GET /api/v1/Document/{id}/Links?$entities=velit
+GET /api/v1/Document/{id}/Links?$top=780
+GET /api/v1/Document/{id}/Links?$skip=344
 GET /api/v1/Document/{id}/Links?$mode=Full
 GET /api/v1/Document/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Document/{id}/Links?$context=sed
+GET /api/v1/Document/{id}/Links?$context=assumenda
 GET /api/v1/Document/{id}/Links?$format=JSON
 GET /api/v1/Document/{id}/Links?$jsonSafe=False
 GET /api/v1/Document/{id}/Links?$output=Display
@@ -122,7 +122,7 @@ OK
 GET /api/v1/Document/{id}/Links
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -136,18 +136,18 @@ Content-Type: application/json; charset=utf-8
   "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 1508,
+      "PrimaryKey": 1159,
       "EntityName": "sale",
-      "saleId": 1508,
-      "contactId": 4648,
-      "name": "Ziemann, Mills and Kunze"
+      "saleId": 1159,
+      "contactId": 3077,
+      "name": "Wintheiser-Corkery"
     },
     {
-      "PrimaryKey": 2935,
+      "PrimaryKey": 8292,
       "EntityName": "sale",
-      "saleId": 2935,
-      "contactId": 9490,
-      "name": "Koss-VonRueden"
+      "saleId": 8292,
+      "contactId": 556,
+      "name": "Kozey Group"
     }
   ]
 }

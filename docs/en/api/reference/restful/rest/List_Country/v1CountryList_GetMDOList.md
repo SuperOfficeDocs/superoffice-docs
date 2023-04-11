@@ -25,8 +25,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=architecto
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=sed
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Schuster, Nienow and Hermann",
-    "ToolTip": "In perspiciatis culpa qui totam occaecati.",
+    "Id": 933,
+    "Name": "Dietrich, Zieme and Corwin",
+    "ToolTip": "Rerum ut ut quidem autem nisi ab ea.",
     "Deleted": false,
-    "Rank": 773,
-    "Type": "possimus",
+    "Rank": 995,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Ryan, Schumm and Pfannerstill",
-        "ToolTip": "Accusamus ducimus ut asperiores.",
+        "Id": 726,
+        "Name": "Homenick-Muller",
+        "ToolTip": "Illum ipsa ea delectus nulla.",
         "Deleted": true,
-        "Rank": 455,
-        "Type": "quia",
+        "Rank": 687,
+        "Type": "praesentium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 910,
-        "ExtraInfo": "et",
-        "StyleHint": "ex",
-        "FullName": "Daphnee Walter",
+        "IconHint": "neque",
+        "ColorBlock": 811,
+        "ExtraInfo": "perferendis",
+        "StyleHint": "sed",
+        "FullName": "Paxton Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 75
+            "FieldLength": 662
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 546,
-    "ExtraInfo": "soluta",
-    "StyleHint": "magni",
-    "FullName": "Prof. Electa Angela Dare",
+    "IconHint": "adipisci",
+    "ColorBlock": 400,
+    "ExtraInfo": "animi",
+    "StyleHint": "consequatur",
+    "FullName": "Maymie Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 572
+        "FieldType": "System.Int32",
+        "FieldLength": 78
       }
     }
   }

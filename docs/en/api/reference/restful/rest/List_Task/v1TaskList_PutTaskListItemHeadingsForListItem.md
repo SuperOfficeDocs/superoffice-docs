@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Fisher Inc and Sons",
-    "ToolTip": "Architecto dignissimos eum doloribus est enim.",
-    "Deleted": true,
-    "Rank": 773,
-    "Type": "enim",
-    "ColorBlock": 660,
-    "IconHint": "dolor",
+    "Id": 299,
+    "Name": "Rolfson-Schultz",
+    "ToolTip": "Ex ut sint et iure corrupti repudiandae aut.",
+    "Deleted": false,
+    "Rank": 762,
+    "Type": "praesentium",
+    "ColorBlock": 761,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "1996-04-17T12:15:28.5376132+02:00",
+    "LastChanged": "2011-02-21T15:29:31.6479727+01:00",
     "ChildItems": [
       {
-        "Id": 719,
-        "Name": "Corkery LLC",
-        "ToolTip": "Omnis voluptas nulla est optio praesentium.",
+        "Id": 412,
+        "Name": "Klocko Group",
+        "ToolTip": "Eveniet deserunt.",
         "Deleted": false,
-        "Rank": 659,
-        "Type": "in",
-        "ColorBlock": 353,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2008-04-23T12:15:28.5386131+02:00",
+        "Rank": 353,
+        "Type": "expedita",
+        "ColorBlock": 887,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2013-11-27T15:29:31.6479727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Claudie Emmerich"
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Emie Bosco IV"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Larissa Towne"
+    "ExtraInfo": "porro",
+    "StyleHint": "consectetur",
+    "Hidden": true,
+    "FullName": "Kaya Trantow"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Marvin-Lemke",
-    "ToolTip": "Consequuntur recusandae voluptatum sint qui aut.",
-    "Deleted": false,
-    "Rank": 321,
-    "Type": "ullam",
-    "ColorBlock": 905,
-    "IconHint": "incidunt",
+    "Id": 720,
+    "Name": "Schulist Group",
+    "ToolTip": "Ratione aut excepturi sit incidunt qui illum praesentium.",
+    "Deleted": true,
+    "Rank": 299,
+    "Type": "et",
+    "ColorBlock": 614,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2020-02-26T12:15:28.539617+01:00",
+    "LastChanged": "2020-10-25T15:29:31.6494812+01:00",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Hessel, Bosco and Frami",
-        "ToolTip": "A atque praesentium animi.",
+        "Id": 701,
+        "Name": "Stroman, Fritsch and Wuckert",
+        "ToolTip": "Dolorum animi animi eaque vero qui.",
         "Deleted": false,
-        "Rank": 638,
-        "Type": "exercitationem",
-        "ColorBlock": 978,
-        "IconHint": "alias",
-        "Selected": true,
-        "LastChanged": "2017-10-27T12:15:28.539617+02:00",
+        "Rank": 163,
+        "Type": "iure",
+        "ColorBlock": 49,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "1999-08-17T15:29:31.6499732+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Randy Gaylord",
+        "ExtraInfo": "itaque",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Justyn O'Connell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 501
+            "FieldType": "System.String",
+            "FieldLength": 231
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "perspiciatis",
-    "Hidden": true,
-    "FullName": "Dr. Dominique Velma Zemlak",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Ramona Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 459
       }
     }
   }

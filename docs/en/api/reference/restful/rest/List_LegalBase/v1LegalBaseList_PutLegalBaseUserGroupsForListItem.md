@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Lang-Ziemann",
-    "ToolTip": "Hic et a.",
-    "Deleted": true,
-    "Rank": 655,
-    "Type": "est",
-    "ColorBlock": 769,
-    "IconHint": "eum",
+    "Id": 733,
+    "Name": "Jenkins-Jacobson",
+    "ToolTip": "Autem eum vel earum labore rerum ratione.",
+    "Deleted": false,
+    "Rank": 123,
+    "Type": "omnis",
+    "ColorBlock": 511,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2002-07-01T12:15:28.1706187+02:00",
+    "LastChanged": "2006-02-21T15:29:31.2834822+01:00",
     "ChildItems": [
       {
-        "Id": 499,
-        "Name": "Goldner Inc and Sons",
-        "ToolTip": "Commodi ipsa iure.",
+        "Id": 500,
+        "Name": "Smitham, Sauer and Rempel",
+        "ToolTip": "Optio sunt maiores itaque.",
         "Deleted": false,
-        "Rank": 870,
-        "Type": "quae",
-        "ColorBlock": 12,
-        "IconHint": "totam",
+        "Rank": 644,
+        "Type": "magni",
+        "ColorBlock": 557,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2014-02-24T12:15:28.1706187+01:00",
+        "LastChanged": "2002-10-06T15:29:31.2834822+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Allan Raynor"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Juston Breitenberg"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Miss Coy Berge PhD"
+    "ExtraInfo": "eveniet",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Kayleigh Hegmann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Swaniawski Group",
-    "ToolTip": "Esse deserunt soluta.",
+    "Id": 128,
+    "Name": "Mueller, Heidenreich and Dibbert",
+    "ToolTip": "Nostrum aut exercitationem ut corporis quos numquam.",
     "Deleted": false,
-    "Rank": 612,
-    "Type": "maiores",
-    "ColorBlock": 768,
-    "IconHint": "qui",
+    "Rank": 181,
+    "Type": "dolore",
+    "ColorBlock": 477,
+    "IconHint": "occaecati",
     "Selected": true,
-    "LastChanged": "2017-05-08T12:15:28.1716176+02:00",
+    "LastChanged": "2012-12-26T15:29:31.2849868+01:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Lindgren LLC",
-        "ToolTip": "Quia eum harum.",
+        "Id": 301,
+        "Name": "Nolan, Lang and Emmerich",
+        "ToolTip": "Et consequatur at aut expedita.",
         "Deleted": false,
-        "Rank": 303,
-        "Type": "at",
-        "ColorBlock": 837,
-        "IconHint": "perspiciatis",
+        "Rank": 314,
+        "Type": "soluta",
+        "ColorBlock": 800,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2005-12-15T12:15:28.1716176+01:00",
+        "LastChanged": "2002-09-23T15:29:31.2849868+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "sunt",
+        "ExtraInfo": "alias",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Skye Sadie Block",
+        "FullName": "Johnpaul Foster Davis III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 902
+            "FieldLength": 285
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "et",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "vitae",
     "Hidden": true,
-    "FullName": "Judy Kuphal",
+    "FullName": "Ms. Jensen Rupert Rohan MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldLength": 702
       }
     }
   }

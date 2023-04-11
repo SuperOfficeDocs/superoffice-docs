@@ -65,8 +65,8 @@ OK
 | Label | string | The label for the data set |
 | Values | array | Values in this set |
 | Description | string | Tooltip for data value |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,8 +79,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "qui",
-    "nihil"
+    "magni",
+    "sapiente"
   ]
 }
 ```
@@ -93,82 +93,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "fuga",
+    "Label": "asperiores",
     "Values": [
       {
-        "Label": "qui",
-        "Value": 25031.257999999998,
-        "Description": "Seamless high-level ability",
+        "Label": "aliquam",
+        "Value": 26479.165999999997,
+        "Description": "Exclusive next generation portal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldLength": 244
           }
         }
       },
       {
-        "Label": "qui",
-        "Value": 25031.257999999998,
-        "Description": "Seamless high-level ability",
+        "Label": "aliquam",
+        "Value": 26479.165999999997,
+        "Description": "Exclusive next generation portal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldLength": 244
           }
         }
       }
     ],
-    "Description": "Assimilated national groupware",
+    "Description": "Progressive mission-critical instruction set",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 884
       }
     }
   },
   {
-    "Label": "fuga",
+    "Label": "asperiores",
     "Values": [
       {
-        "Label": "qui",
-        "Value": 25031.257999999998,
-        "Description": "Seamless high-level ability",
+        "Label": "aliquam",
+        "Value": 26479.165999999997,
+        "Description": "Exclusive next generation portal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldLength": 244
           }
         }
       },
       {
-        "Label": "qui",
-        "Value": 25031.257999999998,
-        "Description": "Seamless high-level ability",
+        "Label": "aliquam",
+        "Value": 26479.165999999997,
+        "Description": "Exclusive next generation portal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldLength": 244
           }
         }
       }
     ],
-    "Description": "Assimilated national groupware",
+    "Description": "Progressive mission-critical instruction set",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 884
       }
     }
   }

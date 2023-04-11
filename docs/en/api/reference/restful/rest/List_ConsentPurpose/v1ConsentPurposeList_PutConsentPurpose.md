@@ -84,8 +84,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,22 +93,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 569,
-  "Name": "Fisher Group",
-  "ConsentText": "qui",
-  "FormText": "voluptates",
-  "Key": "accusamus",
-  "Tooltip": "dolorum",
-  "Active": 608,
-  "UpdatedDate": "1996-12-26T12:15:27.9226217+01:00",
+  "ConsentPurposeId": 312,
+  "Name": "Bednar Inc and Sons",
+  "ConsentText": "praesentium",
+  "FormText": "esse",
+  "Key": "dolores",
+  "Tooltip": "ducimus",
+  "Active": 159,
+  "UpdatedDate": "1996-07-27T15:29:31.1329782+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 791,
-  "PrivacyStatementDesc": "exercitationem",
+  "Deleted": true,
+  "Rank": 172,
+  "PrivacyStatementDesc": "a",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 918,
-  "Name": "Herzog Inc and Sons",
-  "ConsentText": "in",
-  "FormText": "unde",
-  "Key": "officia",
-  "Tooltip": "nesciunt",
-  "Active": 871,
-  "UpdatedDate": "1997-11-27T12:15:27.9236221+01:00",
+  "ConsentPurposeId": 655,
+  "Name": "Skiles-Borer",
+  "ConsentText": "deleniti",
+  "FormText": "at",
+  "Key": "similique",
+  "Tooltip": "totam",
+  "Active": 700,
+  "UpdatedDate": "2002-10-29T15:29:31.1349785+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 206,
-  "PrivacyStatementDesc": "doloremque",
+  "Deleted": false,
+  "Rank": 709,
+  "PrivacyStatementDesc": "eligendi",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 835
     }
   }
 }

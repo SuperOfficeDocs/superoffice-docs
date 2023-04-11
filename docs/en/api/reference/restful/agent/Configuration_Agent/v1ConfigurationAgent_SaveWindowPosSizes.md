@@ -73,8 +73,8 @@ OK
 | UpperY | int32 |  |
 | Width | int32 |  |
 | WindowPosSizeId | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,23 +82,23 @@ OK
 POST /api/v1/Agents/Configuration/SaveWindowPosSizes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "WindowPosSizes": [
     {
-      "OwnerWindow": "facilis",
-      "PersonId": 541,
-      "AssociateId": 213,
-      "ExtraId": 247,
-      "ExtraInfo": "aliquam",
-      "Height": 121,
-      "LeftX": 917,
+      "OwnerWindow": "laudantium",
+      "PersonId": 409,
+      "AssociateId": 80,
+      "ExtraId": 862,
+      "ExtraInfo": "perferendis",
+      "Height": 548,
+      "LeftX": 553,
       "State": "Maximized",
-      "UpperY": 672,
-      "Width": 814,
-      "WindowPosSizeId": 991
+      "UpperY": 57,
+      "Width": 962,
+      "WindowPosSizeId": 706
     }
   ]
 }
@@ -112,23 +112,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "officia",
-    "PersonId": 637,
-    "AssociateId": 700,
-    "ExtraId": 208,
-    "ExtraInfo": "ut",
-    "Height": 581,
-    "LeftX": 555,
+    "OwnerWindow": "et",
+    "PersonId": 820,
+    "AssociateId": 665,
+    "ExtraId": 104,
+    "ExtraInfo": "id",
+    "Height": 248,
+    "LeftX": 196,
     "State": "Maximized",
-    "UpperY": 533,
-    "Width": 81,
-    "WindowPosSizeId": 88,
+    "UpperY": 5,
+    "Width": 168,
+    "WindowPosSizeId": 257,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 794
       }
     }
   }

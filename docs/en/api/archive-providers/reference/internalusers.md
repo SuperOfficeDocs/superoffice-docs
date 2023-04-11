@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "InternalUsers"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -94,7 +94,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/InternalUsers?$select=firstName,title
+GET /api/v1/archive/InternalUsers?$select=assocName,firstName,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

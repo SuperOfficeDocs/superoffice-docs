@@ -42,7 +42,7 @@ Webhook deleted.
 |----------------|-------------|
 | 204 | Webhook deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

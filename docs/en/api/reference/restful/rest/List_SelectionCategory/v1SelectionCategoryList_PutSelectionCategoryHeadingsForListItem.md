@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Huel, Turcotte and Murazik",
-    "ToolTip": "Non repellat deleniti eius aut hic.",
-    "Deleted": true,
-    "Rank": 350,
-    "Type": "quas",
-    "ColorBlock": 753,
-    "IconHint": "in",
+    "Id": 451,
+    "Name": "Connelly, Kunde and Gerlach",
+    "ToolTip": "Quos totam soluta id veniam earum voluptatum.",
+    "Deleted": false,
+    "Rank": 321,
+    "Type": "reprehenderit",
+    "ColorBlock": 949,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2015-07-21T12:15:28.5036132+02:00",
+    "LastChanged": "2012-07-24T15:29:31.613974+02:00",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Rice-Schowalter",
-        "ToolTip": "Quibusdam distinctio ad eius earum mollitia.",
+        "Id": 30,
+        "Name": "Wolff-Trantow",
+        "ToolTip": "Sunt vero et explicabo voluptates amet autem.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "iure",
-        "ColorBlock": 619,
-        "IconHint": "sed",
+        "Rank": 495,
+        "Type": "ducimus",
+        "ColorBlock": 11,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2001-01-21T12:15:28.5036132+01:00",
+        "LastChanged": "2003-10-31T15:29:31.613974+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Kallie Little"
+        "ExtraInfo": "vel",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Sienna Wilkinson"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Agustina Hudson Jr."
+    "ExtraInfo": "quia",
+    "StyleHint": "nesciunt",
+    "Hidden": true,
+    "FullName": "Bernard Vandervort"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 618,
-    "Name": "Halvorson, Olson and Mertz",
-    "ToolTip": "Dolores perspiciatis.",
-    "Deleted": true,
-    "Rank": 698,
-    "Type": "ducimus",
-    "ColorBlock": 583,
-    "IconHint": "quo",
+    "Id": 556,
+    "Name": "Strosin Group",
+    "ToolTip": "Voluptas optio consequatur quas nisi neque voluptatem.",
+    "Deleted": false,
+    "Rank": 100,
+    "Type": "aut",
+    "ColorBlock": 687,
+    "IconHint": "ipsam",
     "Selected": true,
-    "LastChanged": "2011-08-15T12:15:28.5056134+02:00",
+    "LastChanged": "2005-07-30T15:29:31.6159732+02:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Luettgen-Bernhard",
-        "ToolTip": "Placeat eius.",
+        "Id": 935,
+        "Name": "Heathcote Group",
+        "ToolTip": "Architecto assumenda iste ut.",
         "Deleted": false,
-        "Rank": 57,
-        "Type": "ex",
-        "ColorBlock": 402,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2019-11-21T12:15:28.5056134+01:00",
+        "Rank": 282,
+        "Type": "est",
+        "ColorBlock": 965,
+        "IconHint": "vitae",
+        "Selected": false,
+        "LastChanged": "2012-02-16T15:29:31.6159732+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Dr. Dean Hagenes",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Guadalupe Kellen Mills I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 893
+            "FieldType": "System.Int32",
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "nulla",
     "Hidden": true,
-    "FullName": "Raoul Cruickshank",
+    "FullName": "Creola Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 37
+        "FieldLength": 713
       }
     }
   }

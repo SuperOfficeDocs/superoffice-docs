@@ -92,8 +92,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -105,9 +105,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2011-02-23T12:15:20.0947351+01:00",
-  "ToDate": "1998-05-06T12:15:20.0947351+02:00",
-  "AmountLimit": 674,
+  "FromDate": "2013-10-14T15:29:22.7307952+02:00",
+  "ToDate": "2018-03-08T15:29:22.7307952+01:00",
+  "AmountLimit": 410,
   "Status": "Lost"
 }
 ```
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Cummings, Hilpert and Reichel",
-    "SaleDate": "1999-03-31T12:15:20.0947351+02:00",
-    "SaleId": 516,
-    "Probability": 100,
-    "Title": "magni",
-    "Amount": 27058.956,
-    "Currency": "ab",
-    "ProjectName": "Brakus LLC",
-    "AssociateFullName": "Reginald Marks DVM",
-    "Description": "Distributed optimal moratorium",
+    "ContactName": "Nader, Murray and Hoeger",
+    "SaleDate": "2012-12-10T15:29:22.7312977+01:00",
+    "SaleId": 460,
+    "Probability": 44,
+    "Title": "vel",
+    "Amount": 14203.287999999999,
+    "Currency": "cupiditate",
+    "ProjectName": "Lesch, Aufderhar and Batz",
+    "AssociateFullName": "America Roob",
+    "Description": "Integrated cohesive array",
     "Status": "Lost",
-    "WeightedAmount": 2115.45,
-    "ProjectId": 60,
-    "EarningPercent": 18838.474,
-    "Earning": 16215.315999999999,
-    "ContactId": 728,
-    "AssociateId": 675,
-    "PersonId": 172,
-    "SaleTypeId": 451,
-    "SaleTypeName": "Satterfield-Toy",
-    "PersonFullName": "Gussie Kautzer",
+    "WeightedAmount": 16760.631999999998,
+    "ProjectId": 592,
+    "EarningPercent": 25244.37,
+    "Earning": 24319.84,
+    "ContactId": 432,
+    "AssociateId": 7,
+    "PersonId": 708,
+    "SaleTypeId": 516,
+    "SaleTypeName": "Witting, Sawayn and Little",
+    "PersonFullName": "Mr. Marcelle Clementina Schmitt III",
     "Completed": "Completed",
-    "ActiveErpLinks": 956,
-    "NextDueDate": "2010-06-19T12:15:20.0957352+02:00",
-    "Number": "569593",
+    "ActiveErpLinks": 719,
+    "NextDueDate": "2007-06-07T15:29:22.7317981+02:00",
+    "Number": "1284554",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldType": "System.String",
+        "FieldLength": 695
       }
     }
   }

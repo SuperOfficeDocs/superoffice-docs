@@ -67,8 +67,8 @@ OK
 | Rank | int32 | Rank of this consent source |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 453,
-    "Name": "Dicki, Hayes and Grady",
-    "ConsentText": "illum",
-    "FormText": "ut",
-    "Key": "accusantium",
-    "Tooltip": "id",
-    "Active": 329,
-    "UpdatedDate": "2012-05-09T12:15:19.361746+02:00",
+    "ConsentPurposeId": 21,
+    "Name": "Reynolds, Hilll and Trantow",
+    "ConsentText": "sunt",
+    "FormText": "sint",
+    "Key": "dignissimos",
+    "Tooltip": "voluptatem",
+    "Active": 222,
+    "UpdatedDate": "2000-10-27T15:29:22.1222701+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 333,
-    "PrivacyStatementDesc": "sed",
+    "Rank": 901,
+    "PrivacyStatementDesc": "et",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 339
       }
     }
   }

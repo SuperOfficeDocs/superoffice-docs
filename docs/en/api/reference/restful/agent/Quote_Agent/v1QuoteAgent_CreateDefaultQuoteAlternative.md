@@ -69,8 +69,8 @@ OK
 | ExtraField3 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField4 | string | Optional information added by Quote Connector; usable in the quote document merge process |
 | ExtraField5 | string | Optional information added by Quote Connector; usable in the quote document merge process |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 302,
-  "ERPQuoteAlternativeKey": "minus",
-  "QuoteVersionId": 284,
-  "Name": "Hartmann Inc and Sons",
-  "Description": "Advanced cohesive help-desk",
+  "QuoteAlternativeId": 216,
+  "ERPQuoteAlternativeKey": "optio",
+  "QuoteVersionId": 903,
+  "Name": "Cummerata Inc and Sons",
+  "Description": "Diverse disintermediate encryption",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 12517.196,
-  "ERPDiscountAmount": 523.37799999999993,
-  "DiscountPercent": 2272.15,
-  "DiscountAmount": 1523.124,
+  "ERPDiscountPercent": 7963.494,
+  "ERPDiscountAmount": 6734.9659999999994,
+  "DiscountPercent": 8562.088,
+  "DiscountAmount": 21273.592,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aliquid",
-  "VAT": 43.876,
-  "EarningPercent": 10370.405999999999,
-  "EarningAmount": 29215.147999999997,
-  "SubTotal": 27692.023999999998,
-  "TotalPrice": 9872.1,
-  "ExtraField1": "dolore",
-  "ExtraField2": "quo",
-  "ExtraField3": "eius",
-  "ExtraField4": "et",
-  "ExtraField5": "quasi",
+  "VATInfo": "et",
+  "VAT": 21771.898,
+  "EarningPercent": 8496.274,
+  "EarningAmount": 22154.246,
+  "SubTotal": 29650.773999999998,
+  "TotalPrice": 23063.106,
+  "ExtraField1": "atque",
+  "ExtraField2": "distinctio",
+  "ExtraField3": "perspiciatis",
+  "ExtraField4": "est",
+  "ExtraField5": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 94
     }
   }
 }

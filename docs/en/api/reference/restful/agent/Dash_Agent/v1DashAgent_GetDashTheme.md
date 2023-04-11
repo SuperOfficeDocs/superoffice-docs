@@ -25,7 +25,7 @@ Gets a DashTheme object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=888
+POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=112
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
 
@@ -62,8 +62,8 @@ OK
 | Rank | int32 | Rank order |
 | Client | string | Name of client(s) this theme is available to |
 | Style | string | Style value - for example 'light' or 'dark' |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 533,
-  "Name": "Buckridge Group",
-  "Config": "in",
-  "Rank": 76,
-  "Client": "et",
-  "Style": "illo",
+  "DashboardThemeId": 845,
+  "Name": "Osinski, Mayert and Raynor",
+  "Config": "ratione",
+  "Rank": 21,
+  "Client": "consequatur",
+  "Style": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 615
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

@@ -77,8 +77,8 @@ OK
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 463,
-  "ModuleOwner": "reiciendis"
+  "AssociateId": 334,
+  "ModuleOwner": "corporis"
 }
 ```
 
@@ -103,26 +103,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 296,
-    "Tooltip": "reprehenderit",
-    "CanAssign": true,
-    "Free": 31,
-    "InUse": 331,
-    "IsHidden": true,
+    "Unrestricted": false,
+    "Total": 47,
+    "Tooltip": "deleniti",
+    "CanAssign": false,
+    "Free": 609,
+    "InUse": 347,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 594,
-    "Name": "Boehm LLC",
-    "Description": "Enterprise-wide regional firmware",
-    "PrerequisiteModuleName": "Harber-Jerde",
-    "SortOrder": 799,
-    "ExtraFlags": 138,
+    "ModuleLicenseId": 368,
+    "Name": "Kertzmann-Bergnaum",
+    "Description": "Polarised 24 hour monitoring",
+    "PrerequisiteModuleName": "Hintz-Altenwerth",
+    "SortOrder": 846,
+    "ExtraFlags": 650,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 694
       }
     }
   }

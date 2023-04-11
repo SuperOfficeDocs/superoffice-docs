@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 497,
-    "Name": "Rogahn LLC",
-    "ToolTip": "Quae qui ut.",
-    "Deleted": true,
-    "Rank": 174,
-    "Type": "qui",
-    "ColorBlock": 122,
-    "IconHint": "beatae",
+    "Id": 927,
+    "Name": "Larkin-Swaniawski",
+    "ToolTip": "Occaecati est eum est autem repellendus ratione cupiditate.",
+    "Deleted": false,
+    "Rank": 668,
+    "Type": "aut",
+    "ColorBlock": 102,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2010-08-31T12:15:28.3896162+02:00",
+    "LastChanged": "1998-06-25T15:29:31.5024752+02:00",
     "ChildItems": [
       {
-        "Id": 22,
-        "Name": "West Group",
-        "ToolTip": "Quisquam placeat quas.",
-        "Deleted": false,
-        "Rank": 165,
-        "Type": "accusantium",
-        "ColorBlock": 720,
-        "IconHint": "deserunt",
+        "Id": 580,
+        "Name": "Towne, Bergstrom and Grady",
+        "ToolTip": "Cumque rem.",
+        "Deleted": true,
+        "Rank": 261,
+        "Type": "voluptas",
+        "ColorBlock": 165,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2018-08-20T12:15:28.3896162+02:00",
+        "LastChanged": "1997-02-07T15:29:31.5029751+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Mr. Kenna Pasquale Stracke"
+        "ExtraInfo": "itaque",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Adrian Turner"
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "eos",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Jaydon Walsh"
+    "FullName": "Orrin Erdman Sr."
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 700,
-    "Name": "Herman, Dibbert and Keeling",
-    "ToolTip": "Est suscipit officiis dolores et consequuntur quo quis.",
+    "Id": 556,
+    "Name": "White Group",
+    "ToolTip": "Molestiae sint eligendi atque sunt.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "ut",
-    "ColorBlock": 627,
-    "IconHint": "corporis",
+    "Rank": 749,
+    "Type": "cumque",
+    "ColorBlock": 686,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "1999-05-29T12:15:28.3916145+02:00",
+    "LastChanged": "2006-10-20T15:29:31.5049755+02:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Mante, Hilpert and Hills",
-        "ToolTip": "Et aliquam porro et ullam sit fuga.",
+        "Id": 56,
+        "Name": "Weber-Kihn",
+        "ToolTip": "Est minus.",
         "Deleted": false,
-        "Rank": 715,
-        "Type": "similique",
-        "ColorBlock": 676,
-        "IconHint": "a",
+        "Rank": 270,
+        "Type": "consequatur",
+        "ColorBlock": 476,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "2001-01-24T12:15:28.3916145+01:00",
+        "LastChanged": "2017-03-31T15:29:31.5049755+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "veniam",
-        "Hidden": true,
-        "FullName": "Harrison Gaylord",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Jedediah Greenholt Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 607
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "quasi",
+    "ExtraInfo": "labore",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Amanda Altenwerth",
+    "FullName": "Kaitlin Aniya Emmerich II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

@@ -50,8 +50,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,18 +69,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Lakin LLC",
-  "Tooltip": "ut",
+  "Id": 657,
+  "Name": "Bayer Inc and Sons",
+  "Tooltip": "eius",
   "Deleted": false,
-  "UdListDefinitionId": 492,
-  "Rank": 196,
+  "UdListDefinitionId": 938,
+  "Rank": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   }
 }

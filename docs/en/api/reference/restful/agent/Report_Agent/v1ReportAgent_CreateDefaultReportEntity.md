@@ -54,8 +54,8 @@ OK
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 459,
+  "ReportId": 9,
   "ReportCategory": "All",
-  "Description": "Fundamental uniform info-mediaries",
+  "Description": "Synergized incremental productivity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Wilderman Inc and Sons",
-  "AssociateId": 727,
-  "TemplateId": 647,
+  "Name": "Nikolaus-Hermann",
+  "AssociateId": 737,
+  "TemplateId": 994,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

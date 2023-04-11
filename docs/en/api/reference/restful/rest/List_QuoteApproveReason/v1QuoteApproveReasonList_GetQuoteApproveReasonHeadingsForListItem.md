@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 611,
-    "Name": "Abernathy, Wiza and Kuhic",
-    "ToolTip": "Doloremque ducimus aspernatur aut eius.",
+    "Id": 168,
+    "Name": "Pfannerstill, Gusikowski and Thiel",
+    "ToolTip": "Totam sint aut quia dolore.",
     "Deleted": true,
-    "Rank": 538,
-    "Type": "ducimus",
-    "ColorBlock": 770,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2020-04-22T12:15:28.370615+02:00",
+    "Rank": 859,
+    "Type": "nesciunt",
+    "ColorBlock": 216,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2000-10-12T15:29:31.4854755+02:00",
     "ChildItems": [
       {
-        "Id": 880,
-        "Name": "Crona Inc and Sons",
-        "ToolTip": "In inventore.",
-        "Deleted": true,
-        "Rank": 236,
-        "Type": "eos",
-        "ColorBlock": 345,
-        "IconHint": "commodi",
+        "Id": 286,
+        "Name": "Aufderhar, Ullrich and Murray",
+        "ToolTip": "Nemo quod.",
+        "Deleted": false,
+        "Rank": 532,
+        "Type": "labore",
+        "ColorBlock": 387,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2014-12-14T12:15:28.370615+01:00",
+        "LastChanged": "2013-02-14T15:29:31.4854755+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Wilber Lueilwitz",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "quisquam",
+        "Hidden": false,
+        "FullName": "Melody Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 440
+            "FieldLength": 895
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "totam",
+    "ExtraInfo": "ea",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Novella Morissette",
+    "FullName": "Mattie Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 661
       }
     }
   }

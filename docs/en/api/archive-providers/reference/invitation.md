@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Invitation"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -696,7 +696,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=person/birthYear,person/personDirectFax/description,person/consentSourceEmarketing
+GET /api/v1/archive/Invitation?$select=contact/contactAssociate/contactId,contact/contactAssociate/title,contact/contactUdef/SuperOffice:12,project/type,project/projectAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

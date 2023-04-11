@@ -69,8 +69,8 @@ OK
 | Updates | int32 | Number of rows updated |
 | Deletes | int32 | Number of rows deleted / zeroed |
 | RowStatus | array | Array of statuses and primary keys for all rows that were specified. Populated if the 'ReturnRowStatus' parameter of 'Upsert' is set, otherwise null |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,10 +82,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Crooks-Raynor",
+  "TableName": "Morissette-Swift",
   "IDs": [
-    691,
-    342
+    719,
+    856
   ]
 }
 ```
@@ -98,40 +98,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "tempore",
-  "Inserts": 638,
-  "Updates": 292,
-  "Deletes": 188,
+  "Message": "deleniti",
+  "Inserts": 788,
+  "Updates": 476,
+  "Deletes": 231,
   "RowStatus": [
     {
-      "PrimaryKey": 403,
+      "PrimaryKey": 39,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "accusantium",
-        "adipisci"
+        "in",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 694
         }
       }
     },
     {
-      "PrimaryKey": 403,
+      "PrimaryKey": 39,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "accusantium",
-        "adipisci"
+        "in",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 694
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 810
     }
   }
 }

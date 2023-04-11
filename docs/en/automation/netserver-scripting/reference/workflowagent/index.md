@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -18,12 +18,23 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IWorkflowAgent'
 
 * [AddAfterWorkflowStep](addafterworkflowstep.md)
 * [CreateDefaultEmailFlow](createdefaultemailflow.md)
-* [CreateDefaultWorkflowStep](createdefaultworkflowstep.md)
+* [CreateDefaultWorkflowFilter](createdefaultworkflowfilter.md)
+* [CreateDefaultWorkflowGoal](createdefaultworkflowgoal.md)
+* [CreateDefaultWorkflowStepFromType](createdefaultworkflowstepfromtype.md)
+* [CreateDefaultWorkflowStepOption](createdefaultworkflowstepoption.md)
+* [CreateDefaultWorkflowTrigger](createdefaultworkflowtrigger.md)
 * [DeleteEmailFlow](deleteemailflow.md)
-* [DeleteWorkflowStep](deleteworkflowstep.md)
+* [DeleteWorkflowGoal](deleteworkflowgoal.md)
+* [DeleteWorkflowStepOption](deleteworkflowstepoption.md)
+* [DeleteWorkflowTrigger](deleteworkflowtrigger.md)
 * [GetEmailFlow](getemailflow.md)
+* [GetWorkflowGoal](getworkflowgoal.md)
 * [GetWorkflowStep](getworkflowstep.md)
+* [GetWorkflowStepOption](getworkflowstepoption.md)
+* [GetWorkflowTrigger](getworkflowtrigger.md)
 * [SaveEmailFlow](saveemailflow.md)
-* [SaveWorkflowStep](saveworkflowstep.md)
+* [SaveWorkflowGoal](saveworkflowgoal.md)
+* [SaveWorkflowStepOption](saveworkflowstepoption.md)
+* [SaveWorkflowTrigger](saveworkflowtrigger.md)
 * [TryAddPersonsToEmailFlow](tryaddpersonstoemailflow.md)
 

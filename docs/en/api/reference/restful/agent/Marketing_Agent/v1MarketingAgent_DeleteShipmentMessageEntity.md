@@ -24,7 +24,7 @@ Deletes the ShipmentMessageEntity
 | ShipmentMessageEntityId | int32 | **Required** The id of the ShipmentMessageEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?ShipmentMessageEntityId=380
+POST /api/v1/Agents/Marketing/DeleteShipmentMessageEntity?ShipmentMessageEntityId=825
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request

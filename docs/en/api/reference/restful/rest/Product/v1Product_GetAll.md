@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=accusamus
-GET /api/v1/Product?$top=284
-GET /api/v1/Product?$skip=249
+GET /api/v1/Product?$entities=quae
+GET /api/v1/Product?$top=815
+GET /api/v1/Product?$skip=737
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=nobis
+GET /api/v1/Product?$context=quos
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=True
 GET /api/v1/Product?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "incidunt",
+  "odata.nextLink": "dolorum",
   "value": [
     {
-      "PrimaryKey": 1920,
+      "PrimaryKey": 31,
       "EntityName": "sale",
-      "saleId": 1920,
-      "contactId": 7136,
-      "name": "Runte LLC"
+      "saleId": 31,
+      "contactId": 627,
+      "name": "Langosh, Zemlak and Dibbert"
     },
     {
-      "PrimaryKey": 6702,
+      "PrimaryKey": 9456,
       "EntityName": "sale",
-      "saleId": 6702,
-      "contactId": 9907,
-      "name": "Grimes, Morissette and Klocko"
+      "saleId": 9456,
+      "contactId": 9336,
+      "name": "Tillman, Conroy and Hoeger"
     }
   ]
 }

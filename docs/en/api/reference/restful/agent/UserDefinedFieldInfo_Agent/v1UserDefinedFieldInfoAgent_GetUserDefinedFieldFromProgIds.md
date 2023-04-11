@@ -99,8 +99,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "sint",
-    "maiores"
+    "iusto",
+    "aut"
   ],
   "OwnerType": "Appointment"
 }
@@ -128,46 +128,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 638,
-    "ColumnId": 300,
-    "FieldDefault": "et",
-    "FieldHeight": 501,
-    "FieldLabel": "nihil",
-    "FieldLeft": 887,
-    "FieldTop": 364,
+    "UDefFieldId": 129,
+    "ColumnId": 743,
+    "FieldDefault": "sed",
+    "FieldHeight": 616,
+    "FieldLabel": "qui",
+    "FieldLeft": 789,
+    "FieldTop": 326,
     "FieldType": "Checkbox",
-    "FieldWidth": 69,
-    "FormatMask": "ea",
-    "HideLabel": false,
+    "FieldWidth": 420,
+    "FormatMask": "neque",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 964,
-    "LabelLeft": 472,
-    "LabelTop": 723,
-    "LabelWidth": 292,
-    "LastVersionId": 127,
-    "ListTableId": 859,
-    "IsMandatory": true,
+    "LabelHeight": 797,
+    "LabelLeft": 932,
+    "LabelTop": 570,
+    "LabelWidth": 114,
+    "LastVersionId": 577,
+    "ListTableId": 66,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 801,
-    "ProgId": "assumenda",
+    "Page1LineNo": 18,
+    "ProgId": "qui",
     "IsReadOnly": false,
-    "ShortLabel": "voluptate",
-    "TabOrder": 961,
-    "TextLength": 493,
-    "Tooltip": "quaerat",
-    "UdefIdentity": 719,
-    "UDListDefinitionId": 505,
+    "ShortLabel": "eum",
+    "TabOrder": 88,
+    "TextLength": 150,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 450,
+    "UDListDefinitionId": 467,
     "Justification": "Center",
-    "Version": 4,
-    "TemplateVariableName": "Reinger-Stamm",
-    "HasBeenPublished": false,
-    "MdoListName": "Schimmel, Hahn and Zulauf",
+    "Version": 108,
+    "TemplateVariableName": "Schmeler-McGlynn",
+    "HasBeenPublished": true,
+    "MdoListName": "Crist, Schowalter and Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 738
       }
     }
   }

@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 623,
-    "Name": "Kutch Group",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 927,
-    "Rank": 878
+    "Id": 776,
+    "Name": "Aufderhar-Kling",
+    "Tooltip": "modi",
+    "Deleted": true,
+    "UdListDefinitionId": 745,
+    "Rank": 824
   },
   {
-    "Id": 623,
-    "Name": "Kutch Group",
-    "Tooltip": "est",
-    "Deleted": false,
-    "UdListDefinitionId": 927,
-    "Rank": 878
+    "Id": 776,
+    "Name": "Aufderhar-Kling",
+    "Tooltip": "modi",
+    "Deleted": true,
+    "UdListDefinitionId": 745,
+    "Rank": 824
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 423,
-    "Name": "Leuschke Group",
-    "Tooltip": "sequi",
-    "Deleted": false,
-    "UdListDefinitionId": 43,
-    "Rank": 248,
+    "Id": 877,
+    "Name": "Russel, Block and Turcotte",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 86,
+    "Rank": 183,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldType": "System.String",
+        "FieldLength": 668
       }
     }
   }

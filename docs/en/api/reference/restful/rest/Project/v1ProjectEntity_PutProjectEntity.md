@@ -129,8 +129,8 @@ ProjectEntity updated.
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -139,99 +139,99 @@ ProjectEntity updated.
 PUT /api/v1/Project/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 132,
-  "Name": "Weber Inc and Sons",
-  "ProjectNumber": "1309913",
+  "ProjectId": 831,
+  "Name": "Kub, Walsh and Rath",
+  "ProjectNumber": "1458371",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 903,
-      "ContactId": 933,
-      "ProjectId": 345,
-      "ContactName": "Kertzmann-Kohler",
+      "ProjectmemberId": 254,
+      "ContactId": 89,
+      "ProjectId": 362,
+      "ContactName": "Sanford-Miller",
       "ContactDepartment": "",
-      "ProjectName": "Gutmann-Ullrich",
-      "EmailId": 915,
-      "EmailAddress": "cicero.rau@bayer.co.uk",
-      "CountryId": 970,
-      "Firstname": "Tess",
-      "MiddleName": "Bode-Kassulke",
-      "Lastname": "Jaskolski",
-      "PersonId": 634,
-      "Mrmrs": "asperiores",
-      "ProjectMemberTypeName": "Crona-Johnston",
-      "Phone": "(336)866-9444 x6974",
-      "PhoneId": 966,
-      "ProjectMemberTypeId": 856,
-      "EmailAddressName": "libbie.wisoky@konopelskicole.info",
-      "Comment": "numquam",
-      "FullName": "Miss Wava Klein Jr."
+      "ProjectName": "Mraz LLC",
+      "EmailId": 879,
+      "EmailAddress": "kyra.hartmann@simonis.biz",
+      "CountryId": 691,
+      "Firstname": "Turner",
+      "MiddleName": "Wolff-Kohler",
+      "Lastname": "Muller",
+      "PersonId": 470,
+      "Mrmrs": "hic",
+      "ProjectMemberTypeName": "Kulas-Lockman",
+      "Phone": "1-882-119-6796",
+      "PhoneId": 206,
+      "ProjectMemberTypeId": 874,
+      "EmailAddressName": "walton@franecki.biz",
+      "Comment": "qui",
+      "FullName": "Mona Herzog"
     }
   ],
   "Urls": [
     {
-      "Value": "possimus",
-      "StrippedValue": "placeat",
-      "Description": "Adaptive eco-centric pricing structure"
+      "Value": "dolorum",
+      "StrippedValue": "quos",
+      "Description": "Organic value-added standardization"
     },
     {
-      "Value": "possimus",
-      "StrippedValue": "placeat",
-      "Description": "Adaptive eco-centric pricing structure"
+      "Value": "dolorum",
+      "StrippedValue": "quos",
+      "Description": "Organic value-added standardization"
     }
   ],
-  "CreatedDate": "1996-07-15T12:15:27.1536335+02:00",
-  "UpdatedDate": "2011-03-21T12:15:27.1536335+01:00",
-  "Description": "Multi-layered high-level workforce",
-  "Postit": "voluptatem",
+  "CreatedDate": "2003-08-15T15:29:29.961693+02:00",
+  "UpdatedDate": "2011-10-13T15:29:29.961693+02:00",
+  "Description": "Fully-configurable 24 hour installation",
+  "Postit": "numquam",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Optimized dynamic functionalities",
-  "ActiveStatusMonitorId": 266,
+  "HasImage": false,
+  "ImageDescription": "Multi-channelled clear-thinking adapter",
+  "ActiveStatusMonitorId": 409,
   "Links": [
     {
-      "EntityName": "Legros-Harber",
-      "Id": 668,
-      "Description": "Right-sized disintermediate hardware",
-      "ExtraInfo": "qui",
-      "LinkId": 499
+      "EntityName": "Monahan-Cartwright",
+      "Id": 139,
+      "Description": "Mandatory dedicated ability",
+      "ExtraInfo": "a",
+      "LinkId": 780
     },
     {
-      "EntityName": "Legros-Harber",
-      "Id": 668,
-      "Description": "Right-sized disintermediate hardware",
-      "ExtraInfo": "qui",
-      "LinkId": 499
+      "EntityName": "Monahan-Cartwright",
+      "Id": 139,
+      "Description": "Mandatory dedicated ability",
+      "ExtraInfo": "a",
+      "LinkId": 780
     }
   ],
-  "ActiveLinks": 703,
-  "Completed": true,
-  "NextMilestoneDate": "2018-12-10T12:15:27.1546329+01:00",
-  "NmdAppointmentId": 997,
-  "EndDate": "2019-11-28T12:15:27.1546329+01:00",
-  "ActiveErpLinks": 593,
+  "ActiveLinks": 114,
+  "Completed": false,
+  "NextMilestoneDate": "2012-12-06T15:29:29.9631961+01:00",
+  "NmdAppointmentId": 538,
+  "EndDate": "1999-07-03T15:29:29.9631961+02:00",
+  "ActiveErpLinks": 808,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "245989587"
+    "SuperOffice:1": "Jarvis Homenick",
+    "SuperOffice:2": "Mrs. Elisabeth Cale Boyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "et"
+    "CustomFields1": "corporis",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2013-01-06T12:15:27.1556325+01:00",
-  "PublishTo": "2001-08-03T12:15:27.1556325+02:00",
-  "PublishFrom": "2015-01-05T12:15:27.1556325+01:00",
+  "PublishEventDate": "2020-10-23T15:29:29.9641995+02:00",
+  "PublishTo": "2010-10-02T15:29:29.9641995+02:00",
+  "PublishFrom": "2007-11-14T15:29:29.9641995+01:00",
   "IsPublished": false
 }
 ```
@@ -243,132 +243,132 @@ HTTP/1.1 200 ProjectEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 437,
-  "Name": "Koss Group",
-  "ProjectNumber": "1023885",
+  "ProjectId": 816,
+  "Name": "Morar Group",
+  "ProjectNumber": "710948",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 735,
-      "ContactId": 879,
-      "ProjectId": 312,
-      "ContactName": "Halvorson-Barrows",
+      "ProjectmemberId": 239,
+      "ContactId": 573,
+      "ProjectId": 775,
+      "ContactName": "Dach LLC",
       "ContactDepartment": "",
-      "ProjectName": "Pfeffer Inc and Sons",
-      "EmailId": 604,
-      "EmailAddress": "mohammad_pouros@cummerata.biz",
-      "CountryId": 31,
-      "Firstname": "Maribel",
-      "MiddleName": "Eichmann LLC",
-      "Lastname": "Schoen",
-      "PersonId": 435,
-      "Mrmrs": "id",
-      "ProjectMemberTypeName": "Okuneva-Schinner",
-      "Phone": "017-824-6946",
-      "PhoneId": 57,
-      "ProjectMemberTypeId": 745,
-      "EmailAddressName": "kaleb_waelchi@blick.biz",
-      "Comment": "voluptatibus",
-      "FullName": "Ross Howe",
+      "ProjectName": "Von LLC",
+      "EmailId": 68,
+      "EmailAddress": "celestine_runte@spinkagaylord.co.uk",
+      "CountryId": 865,
+      "Firstname": "Gudrun",
+      "MiddleName": "Fay-Goyette",
+      "Lastname": "Kuvalis",
+      "PersonId": 418,
+      "Mrmrs": "cum",
+      "ProjectMemberTypeName": "Frami Inc and Sons",
+      "Phone": "1-364-813-6300 x78490",
+      "PhoneId": 953,
+      "ProjectMemberTypeId": 171,
+      "EmailAddressName": "lorine.hodkiewicz@hoeger.co.uk",
+      "Comment": "cupiditate",
+      "FullName": "Miss Carolyn Elda Raynor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 653
+          "FieldType": "System.Int32",
+          "FieldLength": 887
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "fugit",
-      "StrippedValue": "et",
-      "Description": "Versatile local contingency",
+      "Value": "illum",
+      "StrippedValue": "velit",
+      "Description": "Programmable demand-driven product",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldLength": 962
         }
       }
     },
     {
-      "Value": "fugit",
-      "StrippedValue": "et",
-      "Description": "Versatile local contingency",
+      "Value": "illum",
+      "StrippedValue": "velit",
+      "Description": "Programmable demand-driven product",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 565
+          "FieldLength": 962
         }
       }
     }
   ],
-  "CreatedDate": "2021-06-28T12:15:27.1596327+02:00",
-  "UpdatedDate": "2014-11-06T12:15:27.1596327+01:00",
-  "Description": "Diverse 24/7 initiative",
-  "Postit": "aut",
+  "CreatedDate": "1997-02-25T15:29:29.9681957+01:00",
+  "UpdatedDate": "2014-06-12T15:29:29.9681957+02:00",
+  "Description": "Multi-channelled bandwidth-monitored process improvement",
+  "Postit": "molestiae",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Horizontal intermediate core",
-  "ActiveStatusMonitorId": 706,
+  "HasImage": false,
+  "ImageDescription": "Centralized maximized budgetary management",
+  "ActiveStatusMonitorId": 71,
   "Links": [
     {
-      "EntityName": "Quigley, Hane and Bergstrom",
-      "Id": 542,
-      "Description": "Multi-layered optimal knowledge base",
-      "ExtraInfo": "beatae",
-      "LinkId": 568,
+      "EntityName": "Denesik, Koss and Willms",
+      "Id": 984,
+      "Description": "Adaptive composite support",
+      "ExtraInfo": "vel",
+      "LinkId": 310,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldLength": 429
         }
       }
     }
   ],
-  "ActiveLinks": 713,
-  "Completed": true,
-  "NextMilestoneDate": "1996-08-13T12:15:27.1616331+02:00",
-  "NmdAppointmentId": 900,
-  "EndDate": "2018-12-08T12:15:27.1616331+01:00",
-  "ActiveErpLinks": 606,
+  "ActiveLinks": 466,
+  "Completed": false,
+  "NextMilestoneDate": "2007-02-07T15:29:29.9701958+01:00",
+  "NmdAppointmentId": 225,
+  "EndDate": "2019-10-24T15:29:29.9701958+02:00",
+  "ActiveErpLinks": 377,
   "UserDefinedFields": {
-    "SuperOffice:1": "315516838",
-    "SuperOffice:2": "552572350"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mrs. Jackie Bailey"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
+    "ExtraFields1": "aut",
     "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "ut",
+    "CustomFields2": "maiores"
   },
-  "PublishEventDate": "2012-10-12T12:15:27.1616331+02:00",
-  "PublishTo": "2017-10-24T12:15:27.1616331+02:00",
-  "PublishFrom": "2012-08-21T12:15:27.1616331+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-09-08T15:29:29.9706933+02:00",
+  "PublishTo": "2016-05-30T15:29:29.9706933+02:00",
+  "PublishFrom": "2016-06-28T15:29:29.9706933+02:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 45
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

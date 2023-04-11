@@ -57,8 +57,8 @@ OK
 | Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 | Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,17 +76,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 349,
-  "Created": "2006-09-27T12:15:19.9847438+02:00",
+  "SatelliteId": 634,
+  "Created": "1999-06-15T15:29:22.6097646+02:00",
   "CreatedBy": null,
-  "Updated": "1999-09-01T12:15:19.9857405+02:00",
+  "Updated": "1998-07-31T15:29:22.6102643+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Larson, Nienow and Sanford",
-      "Description": "Streamlined eco-centric orchestration",
+      "Name": "Bailey, Stroman and Heathcote",
+      "Description": "User-centric impactful complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,13 +100,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 225
+          "FieldLength": 506
         }
       }
     },
     {
-      "Name": "Larson, Nienow and Sanford",
-      "Description": "Streamlined eco-centric orchestration",
+      "Name": "Bailey, Stroman and Heathcote",
+      "Description": "User-centric impactful complexity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 225
+          "FieldLength": 506
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 536
     }
   }
 }

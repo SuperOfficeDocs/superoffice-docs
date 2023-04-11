@@ -68,8 +68,8 @@ OK
 | PrefShowValue | string | Descriptive value, multilang-parsed, to put in list |
 | Description | string | Description of preference value, multi-language parsed |
 | IsBuiltin | bool | 1 = This row populated and maintained by SuperOffice |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 850,
-      "PrefDescId": 930,
-      "PrefValue": "molestiae",
-      "PrefShowValue": "non",
-      "Description": "Centralized intangible benchmark",
-      "IsBuiltin": false
+      "PrefDescLineId": 762,
+      "PrefDescId": 385,
+      "PrefValue": "quia",
+      "PrefShowValue": "quaerat",
+      "Description": "Advanced discrete process improvement",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 850,
-      "PrefDescId": 930,
-      "PrefValue": "molestiae",
-      "PrefShowValue": "non",
-      "Description": "Centralized intangible benchmark",
-      "IsBuiltin": false
+      "PrefDescLineId": 762,
+      "PrefDescId": 385,
+      "PrefValue": "quia",
+      "PrefShowValue": "quaerat",
+      "Description": "Advanced discrete process improvement",
+      "IsBuiltin": true
     }
   ]
 }
@@ -110,18 +110,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 1001,
-    "PrefDescId": 956,
-    "PrefValue": "quia",
-    "PrefShowValue": "cupiditate",
-    "Description": "Implemented scalable installation",
+    "PrefDescLineId": 202,
+    "PrefDescId": 678,
+    "PrefValue": "aperiam",
+    "PrefShowValue": "officia",
+    "Description": "Stand-alone 24 hour encoding",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 890
       }
     }
   }

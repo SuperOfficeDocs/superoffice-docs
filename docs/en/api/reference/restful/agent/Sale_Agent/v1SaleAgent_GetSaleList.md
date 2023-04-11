@@ -84,8 +84,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kemmer LLC",
-    "SaleDate": "2011-03-12T12:15:20.0887369+01:00",
-    "SaleId": 111,
-    "Probability": 488,
-    "Title": "accusamus",
-    "Amount": 12630.02,
-    "Currency": "saepe",
-    "ProjectName": "Daugherty Inc and Sons",
-    "AssociateFullName": "Bulah Ratke",
-    "Description": "Centralized asynchronous synergy",
+    "ContactName": "Bauch Inc and Sons",
+    "SaleDate": "2001-03-07T15:29:22.7252981+01:00",
+    "SaleId": 806,
+    "Probability": 597,
+    "Title": "itaque",
+    "Amount": 8280.028,
+    "Currency": "nostrum",
+    "ProjectName": "Larson-Wintheiser",
+    "AssociateFullName": "Una Cruickshank",
+    "Description": "Integrated incremental alliance",
     "Status": "Lost",
-    "WeightedAmount": 5371.6759999999995,
-    "ProjectId": 638,
-    "EarningPercent": 27547.86,
-    "Earning": 416.822,
-    "ContactId": 598,
-    "AssociateId": 529,
-    "PersonId": 817,
-    "SaleTypeId": 106,
-    "SaleTypeName": "Dibbert-Padberg",
-    "PersonFullName": "Ms. Gus Jocelyn Bartoletti DVM",
+    "WeightedAmount": 21649.672,
+    "ProjectId": 644,
+    "EarningPercent": 11909.199999999999,
+    "Earning": 31101.816,
+    "ContactId": 735,
+    "AssociateId": 346,
+    "PersonId": 682,
+    "SaleTypeId": 400,
+    "SaleTypeName": "Jast, O'Conner and Grady",
+    "PersonFullName": "Maximilian Hagenes",
     "Completed": "Completed",
-    "ActiveErpLinks": 383,
-    "NextDueDate": "2001-11-29T12:15:20.0887369+01:00",
-    "Number": "787331",
+    "ActiveErpLinks": 515,
+    "NextDueDate": "2018-06-13T15:29:22.7252981+02:00",
+    "Number": "970380",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 792
       }
     }
   }

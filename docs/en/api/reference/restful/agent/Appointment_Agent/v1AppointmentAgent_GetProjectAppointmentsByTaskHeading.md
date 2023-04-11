@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 289,
-  "StartTime": "2003-11-15T12:15:17.6367713+01:00",
-  "EndTime": "2005-12-21T12:15:17.6367713+01:00",
-  "Count": 242,
-  "TaskHeadingId": 829
+  "ProjectId": 379,
+  "StartTime": "2006-03-04T15:29:20.2498243+01:00",
+  "EndTime": "2013-08-24T15:29:20.2498243+02:00",
+  "Count": 878,
+  "TaskHeadingId": 875
 }
 ```
 
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 440,
-    "StartDate": "2019-11-16T12:15:17.6377725+01:00",
-    "EndDate": "2020-01-09T12:15:17.6377725+01:00",
+    "AppointmentId": 242,
+    "StartDate": "2010-09-21T15:29:20.2508331+02:00",
+    "EndDate": "2013-03-25T15:29:20.2508331+01:00",
     "Type": "BookingForChecklist",
-    "Task": "illo",
-    "AssociateFullName": "Freeda Towne",
-    "ContactName": "Wunsch Inc and Sons",
-    "Description": "Organized tertiary internet solution",
-    "PersonFullName": "Annetta O'Kon",
-    "PersonId": 422,
-    "ContactId": 364,
-    "ProjectId": 143,
-    "ProjectName": "Nader-Huels",
+    "Task": "ad",
+    "AssociateFullName": "Prof. Delia Elroy Mertz V",
+    "ContactName": "Emard-Kohler",
+    "Description": "Ergonomic scalable website",
+    "PersonFullName": "Kay Rice",
+    "PersonId": 210,
+    "ContactId": 223,
+    "ProjectId": 514,
+    "ProjectName": "Mills-Lang",
     "IsPublished": false,
-    "AssociateId": 810,
-    "ColorIndex": 916,
+    "AssociateId": 819,
+    "ColorIndex": 945,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 487,
-    "PriorityName": "Nader Inc and Sons",
+    "PriorityId": 543,
+    "PriorityName": "Hills, Heidenreich and Stracke",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2009-03-13T12:15:17.6377725+01:00",
+    "ActiveDate": "1996-12-24T15:29:20.2513247+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-09-01T12:15:17.6377725+02:00",
-    "RecurringEndDate": "2005-10-17T12:15:17.6377725+02:00",
-    "MotherId": 311,
-    "AssignedBy": 980,
-    "AssignedByFullName": "Eryn Gerhold",
+    "RecurringStartDate": "2018-11-30T15:29:20.2513247+01:00",
+    "RecurringEndDate": "2016-03-25T15:29:20.2513247+01:00",
+    "MotherId": 180,
+    "AssignedBy": 892,
+    "AssignedByFullName": "Bret Beatty",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "iste",
-    "SaleId": 978,
-    "SaleName": "Bayer Inc and Sons",
-    "AssociateName": "Beer, Mann and Fadel",
-    "CreatedDate": "2013-05-31T12:15:17.6387709+02:00",
-    "CreatedBy": "nesciunt",
-    "CreatedByFullName": "Ericka Hammes IV",
-    "CreatedByAssociateId": 197,
+    "Location": "molestiae",
+    "AlarmLeadTime": "sit",
+    "SaleId": 370,
+    "SaleName": "Sauer-Kling",
+    "AssociateName": "Hyatt LLC",
+    "CreatedDate": "2018-10-15T15:29:20.2518279+02:00",
+    "CreatedBy": "deserunt",
+    "CreatedByFullName": "Lavon Ward",
+    "CreatedByAssociateId": 391,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 957
+        "FieldLength": 470
       }
     }
   }

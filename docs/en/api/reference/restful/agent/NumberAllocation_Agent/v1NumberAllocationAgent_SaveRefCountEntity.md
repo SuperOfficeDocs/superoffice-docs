@@ -73,8 +73,8 @@ OK
 | Unique | bool | Check that entered value is unique |
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 882,
-  "Field": "aut",
-  "RecordId": 496,
+  "RefCountsId": 333,
+  "Field": "deleniti",
+  "RecordId": 641,
   "SuggestedRecords": [
     {
-      "Id": 959,
-      "Name": "Blanda-Schaefer",
-      "ToolTip": "Officia et ratione eligendi quaerat.",
+      "Id": 91,
+      "Name": "Gutmann-Grant",
+      "ToolTip": "Molestias est.",
       "Deleted": false,
-      "Rank": 745,
-      "Type": "officia",
+      "Rank": 262,
+      "Type": "ipsa",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sapiente",
-      "ColorBlock": 223,
-      "ExtraInfo": "assumenda",
-      "StyleHint": "vero",
-      "FullName": "Mrs. Royal Flatley V"
+      "IconHint": "ipsum",
+      "ColorBlock": 291,
+      "ExtraInfo": "possimus",
+      "StyleHint": "odio",
+      "FullName": "Mrs. Jamar Davis"
     }
   ],
-  "CurrentValue": 995,
-  "TravelPrefix": 992,
-  "SatPrefix": 722,
-  "Allocate": true,
+  "CurrentValue": 773,
+  "TravelPrefix": 905,
+  "SatPrefix": 552,
+  "Allocate": false,
   "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": true
+  "AllowBlank": false
 }
 ```
 
@@ -125,49 +125,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 672,
-  "Field": "mollitia",
-  "RecordId": 884,
+  "RefCountsId": 634,
+  "Field": "hic",
+  "RecordId": 176,
   "SuggestedRecords": [
     {
-      "Id": 537,
-      "Name": "Hammes-Cremin",
-      "ToolTip": "Dolor et dolorum laudantium incidunt non.",
+      "Id": 601,
+      "Name": "Roob-Kautzer",
+      "ToolTip": "Quia enim.",
       "Deleted": false,
-      "Rank": 835,
-      "Type": "blanditiis",
+      "Rank": 942,
+      "Type": "est",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "porro",
-      "ColorBlock": 788,
-      "ExtraInfo": "et",
-      "StyleHint": "enim",
-      "FullName": "Mrs. Ila Kub",
+      "IconHint": "laborum",
+      "ColorBlock": 419,
+      "ExtraInfo": "ad",
+      "StyleHint": "veritatis",
+      "FullName": "Cara Gutmann III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 507
+          "FieldType": "System.Int32",
+          "FieldLength": 431
         }
       }
     }
   ],
-  "CurrentValue": 284,
-  "TravelPrefix": 494,
-  "SatPrefix": 906,
+  "CurrentValue": 236,
+  "TravelPrefix": 686,
+  "SatPrefix": 122,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 579
     }
   }
 }

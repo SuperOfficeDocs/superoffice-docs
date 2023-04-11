@@ -80,8 +80,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 597,
+  "DocumentId": 175,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "earum",
-  "Header": "quis",
-  "Name": "Donnelly-Lesch",
-  "OurRef": "ad",
-  "YourRef": "et",
-  "CreatedDate": "2016-08-03T12:15:18.7477554+02:00",
-  "UpdatedDate": "2017-09-04T12:15:18.7477554+02:00",
-  "Description": "Expanded zero tolerance matrix",
+  "Attention": "totam",
+  "Header": "neque",
+  "Name": "Grant LLC",
+  "OurRef": "cupiditate",
+  "YourRef": "tenetur",
+  "CreatedDate": "2013-07-27T15:29:21.509279+02:00",
+  "UpdatedDate": "2022-11-28T15:29:21.509279+01:00",
+  "Description": "Exclusive coherent info-mediaries",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-11-05T12:15:18.7507552+01:00",
+  "Date": "2010-06-20T15:29:21.512779+02:00",
   "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 680,
+  "ActiveLinks": 102,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Beahan-Rippin",
-      "Id": 689,
-      "Description": "Cloned explicit forecast",
-      "ExtraInfo": "est",
-      "LinkId": 371,
+      "EntityName": "Kreiger-Yundt",
+      "Id": 832,
+      "Description": "Networked well-modulated Graphical User Interface",
+      "ExtraInfo": "enim",
+      "LinkId": 469,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 445
+          "FieldType": "System.Int32",
+          "FieldLength": 48
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 647,
-  "Snum": 532,
+  "SuggestedDocumentId": 40,
+  "Snum": 362,
   "UserDefinedFields": {
-    "SuperOffice:1": "Elvera Izaiah Crona IV",
-    "SuperOffice:2": "Liana Boyle"
+    "SuperOffice:1": "Prof. Kenyon Schimmel DVM",
+    "SuperOffice:2": "Johanna Connelly"
   },
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "occaecati"
+    "ExtraFields1": "non",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "eum"
+    "CustomFields1": "accusamus",
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "2019-04-13T12:15:18.7527546+02:00",
-  "PublishTo": "2020-07-11T12:15:18.7527546+02:00",
-  "PublishFrom": "2015-01-14T12:15:18.7527546+01:00",
+  "PublishEventDate": "2001-10-15T15:29:21.5137788+02:00",
+  "PublishTo": "2014-01-04T15:29:21.5137788+01:00",
+  "PublishFrom": "1999-05-05T15:29:21.5137788+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 475,
+      "VisibleId": 751,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 816
         }
       }
     },
     {
-      "VisibleId": 475,
+      "VisibleId": 751,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 816
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldType": "System.Int32",
+      "FieldLength": 363
     }
   }
 }

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Trantow, Gulgowski and Pacocha",
-    "ToolTip": "Est temporibus saepe officia voluptate aut.",
+    "Id": 189,
+    "Name": "Runolfsson-Buckridge",
+    "ToolTip": "Qui aut.",
     "Deleted": false,
-    "Rank": 388,
-    "Type": "distinctio",
-    "ColorBlock": 717,
-    "IconHint": "non",
+    "Rank": 490,
+    "Type": "ipsa",
+    "ColorBlock": 509,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2010-09-01T12:15:28.1916176+02:00",
+    "LastChanged": "2020-08-13T15:29:31.3049437+02:00",
     "ChildItems": [
       {
-        "Id": 361,
-        "Name": "Schaefer-Ullrich",
-        "ToolTip": "Et rerum aut unde qui a voluptatem voluptas.",
+        "Id": 210,
+        "Name": "Crist, Kihn and McDermott",
+        "ToolTip": "Quaerat tempora.",
         "Deleted": false,
-        "Rank": 984,
-        "Type": "repellendus",
-        "ColorBlock": 908,
-        "IconHint": "velit",
+        "Rank": 657,
+        "Type": "voluptas",
+        "ColorBlock": 770,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2007-08-29T12:15:28.1916176+02:00",
+        "LastChanged": "2009-01-28T15:29:31.3054436+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "et",
+        "ExtraInfo": "est",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Prof. Bell Mariela Will V"
+        "FullName": "Felipe Goyette"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "repellat",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Beverly Davis"
+    "FullName": "Cassidy Beer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Gislason-Kessler",
-    "ToolTip": "Ad accusantium dolores ut aliquid.",
-    "Deleted": false,
-    "Rank": 312,
-    "Type": "dolores",
-    "ColorBlock": 408,
-    "IconHint": "laboriosam",
+    "Id": 282,
+    "Name": "Gislason-Farrell",
+    "ToolTip": "Laborum non nesciunt magni non.",
+    "Deleted": true,
+    "Rank": 591,
+    "Type": "est",
+    "ColorBlock": 858,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "1996-06-07T12:15:28.1926178+02:00",
+    "LastChanged": "2012-04-05T15:29:31.3064435+02:00",
     "ChildItems": [
       {
-        "Id": 735,
-        "Name": "Barrows Inc and Sons",
-        "ToolTip": "Voluptas qui praesentium.",
+        "Id": 161,
+        "Name": "Quigley-Bednar",
+        "ToolTip": "Voluptatem voluptatem assumenda qui similique repellat.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "sed",
-        "ColorBlock": 634,
-        "IconHint": "corporis",
-        "Selected": false,
-        "LastChanged": "1997-07-02T12:15:28.1926178+02:00",
+        "Rank": 713,
+        "Type": "velit",
+        "ColorBlock": 647,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2005-03-22T15:29:31.3064435+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "autem",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Kelley Bruen",
+        "FullName": "Tyrique Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 572
+            "FieldLength": 101
           }
         }
       }
     ],
     "ExtraInfo": "qui",
-    "StyleHint": "natus",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mr. Guillermo Johanna Fritsch V",
+    "FullName": "Prof. Emelie Osinski DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldLength": 790
       }
     }
   }

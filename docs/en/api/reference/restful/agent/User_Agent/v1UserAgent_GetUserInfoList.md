@@ -76,8 +76,8 @@ OK
 | RoleTooltip | string |  |
 | UserGroupName | string |  |
 | UserGroupTooltip | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Deleted": false,
-    "UserInfoId": 914,
-    "UserName": "Schultz Group",
-    "PersonId": 866,
-    "Rank": 342,
-    "Tooltip": "quo",
-    "UserGroupId": 72,
-    "EjUserId": 534,
+    "Deleted": true,
+    "UserInfoId": 339,
+    "UserName": "Kuvalis, Leffler and Kulas",
+    "PersonId": 160,
+    "Rank": 683,
+    "Tooltip": "exercitationem",
+    "UserGroupId": 921,
+    "EjUserId": 672,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "accusamus",
-      "voluptatum"
+      "non",
+      "pariatur"
     ],
-    "CanLogon": false,
-    "RoleName": "Schiller-Senger",
-    "RoleTooltip": "nam",
-    "UserGroupName": "Waelchi, Pouros and Bogan",
-    "UserGroupTooltip": "ut",
+    "CanLogon": true,
+    "RoleName": "Greenfelder-Klein",
+    "RoleTooltip": "quia",
+    "UserGroupName": "Quitzon Group",
+    "UserGroupTooltip": "illo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldType": "System.String",
+        "FieldLength": 94
       }
     }
   }

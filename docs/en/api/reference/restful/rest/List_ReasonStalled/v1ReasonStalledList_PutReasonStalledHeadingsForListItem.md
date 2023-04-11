@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Bode-Nitzsche",
-    "ToolTip": "Necessitatibus veritatis molestiae cum repudiandae.",
-    "Deleted": false,
-    "Rank": 386,
-    "Type": "sint",
-    "ColorBlock": 814,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2010-07-28T12:15:28.4606137+02:00",
+    "Id": 656,
+    "Name": "Wiza, Schuster and Bins",
+    "ToolTip": "Sint labore quidem quibusdam voluptatibus expedita numquam at.",
+    "Deleted": true,
+    "Rank": 695,
+    "Type": "possimus",
+    "ColorBlock": 427,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2020-11-21T15:29:31.5709741+01:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Weimann-Kozey",
-        "ToolTip": "Dolorem aut quidem.",
-        "Deleted": false,
-        "Rank": 955,
-        "Type": "minus",
-        "ColorBlock": 596,
-        "IconHint": "excepturi",
+        "Id": 99,
+        "Name": "Bergstrom, Orn and Bogan",
+        "ToolTip": "Minima eius velit cupiditate.",
+        "Deleted": true,
+        "Rank": 495,
+        "Type": "repellat",
+        "ColorBlock": 60,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2017-10-10T12:15:28.4606137+02:00",
+        "LastChanged": "2011-10-30T15:29:31.5709741+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Dannie Wisozk"
+        "ExtraInfo": "quo",
+        "StyleHint": "optio",
+        "Hidden": false,
+        "FullName": "Miss Alek Lockman Sr."
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "facilis",
+    "ExtraInfo": "maiores",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Mr. Ova Gretchen Dach"
+    "FullName": "Ms. Abdiel Telly Botsford V"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "Lehner, O'Kon and Jenkins",
-    "ToolTip": "Enim consequatur culpa magnam repellendus inventore.",
+    "Id": 880,
+    "Name": "Keeling Inc and Sons",
+    "ToolTip": "Iure optio non earum laborum qui.",
     "Deleted": false,
-    "Rank": 176,
-    "Type": "et",
-    "ColorBlock": 192,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2005-01-18T12:15:28.4616166+01:00",
+    "Rank": 752,
+    "Type": "modi",
+    "ColorBlock": 410,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2004-08-25T15:29:31.5724744+02:00",
     "ChildItems": [
       {
-        "Id": 786,
-        "Name": "Heidenreich LLC",
-        "ToolTip": "Minima a saepe labore adipisci est aperiam.",
-        "Deleted": false,
-        "Rank": 971,
-        "Type": "iste",
-        "ColorBlock": 110,
-        "IconHint": "id",
+        "Id": 20,
+        "Name": "Bradtke Inc and Sons",
+        "ToolTip": "Quo natus corrupti.",
+        "Deleted": true,
+        "Rank": 707,
+        "Type": "nostrum",
+        "ColorBlock": 504,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "2005-07-03T12:15:28.4616166+02:00",
+        "LastChanged": "2015-01-13T15:29:31.5724744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Lily Mertz",
+        "ExtraInfo": "quos",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Isaiah Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "eum",
+    "ExtraInfo": "autem",
+    "StyleHint": "consequuntur",
     "Hidden": false,
-    "FullName": "Bethany Dibbert",
+    "FullName": "Glenda Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 595
+        "FieldType": "System.Int32",
+        "FieldLength": 699
       }
     }
   }

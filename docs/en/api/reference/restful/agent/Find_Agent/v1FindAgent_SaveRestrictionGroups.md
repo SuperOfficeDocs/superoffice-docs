@@ -66,9 +66,9 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -81,30 +81,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolores",
-  "ProviderName": "Leannon LLC",
-  "StorageKey": "non",
+  "StorageType": "praesentium",
+  "ProviderName": "Mertz, Quitzon and Marks",
+  "StorageKey": "ut",
   "RestrictionGroups": [
     {
-      "Name": "Raynor Group",
-      "Description": "Synergistic executive capability",
-      "Rank": 740,
+      "Name": "Dicki-Walter",
+      "Description": "Profit-focused modular complexity",
+      "Rank": 828,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Raynor Group",
-      "Description": "Synergistic executive capability",
-      "Rank": 740,
+      "Name": "Dicki-Walter",
+      "Description": "Profit-focused modular complexity",
+      "Rank": 828,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "ut"
+  "Context": "laudantium"
 }
 ```
 
@@ -116,58 +116,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walter LLC",
-    "Description": "Multi-channelled fault-tolerant paradigm",
-    "Rank": 693,
+    "Name": "Marvin, McCullough and Powlowski",
+    "Description": "Synchronised asynchronous encoding",
+    "Rank": 712,
     "Restrictions": [
       {
-        "Name": "West-Gutmann",
-        "Operator": "possimus",
+        "Name": "Williamson-Padberg",
+        "Operator": "dolores",
         "Values": [
-          "doloribus",
-          "sunt"
+          "cum",
+          "enim"
         ],
         "DisplayValues": [
-          "dolorem",
-          "corporis"
+          "esse",
+          "omnis"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 493,
+        "InterParenthesis": 744,
         "InterOperator": "And",
-        "UniqueHash": 719
+        "UniqueHash": 6
       }
     ]
   },
   {
-    "Name": "Walter LLC",
-    "Description": "Multi-channelled fault-tolerant paradigm",
-    "Rank": 693,
+    "Name": "Marvin, McCullough and Powlowski",
+    "Description": "Synchronised asynchronous encoding",
+    "Rank": 712,
     "Restrictions": [
       {
-        "Name": "West-Gutmann",
-        "Operator": "possimus",
+        "Name": "Williamson-Padberg",
+        "Operator": "dolores",
         "Values": [
-          "doloribus",
-          "sunt"
+          "cum",
+          "enim"
         ],
         "DisplayValues": [
-          "dolorem",
-          "corporis"
+          "esse",
+          "omnis"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 493,
+        "InterParenthesis": 744,
         "InterOperator": "And",
-        "UniqueHash": 719
+        "UniqueHash": 6
       }
     ]
   }

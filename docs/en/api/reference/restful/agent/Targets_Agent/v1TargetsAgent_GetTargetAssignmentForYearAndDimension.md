@@ -75,8 +75,8 @@ OK
 | Currency | Currency | The currency of the target.  <para>Use MDO List name "currency" to get list items.</para> |
 | DimensionListItem | int32 | Id of the dimension list item this assignement is for |
 | DimensionListItemDisplayName | string | Display name of the dimension list item this assignement is for. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 275,
+  "TargetYear": 394,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 194,
-  "DimensionId": 989
+  "Id": 211,
+  "DimensionId": 579
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 794,
+  "TargetAssignmentInfoId": 746,
   "Values": [
-    380,
-    48
+    196,
+    392
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 78,
-  "DimensionListItemDisplayName": "Price-Kihn",
+  "DimensionListItem": 800,
+  "DimensionListItemDisplayName": "Bartoletti, Baumbach and Howe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldLength": 670
     }
   }
 }

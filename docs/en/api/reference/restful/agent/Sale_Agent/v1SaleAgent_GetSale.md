@@ -25,7 +25,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=646
+POST /api/v1/Agents/Sale/GetSale?saleId=184
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -81,8 +81,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,37 +100,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Nienow Group",
-  "SaleDate": "2010-12-04T12:15:20.06674+01:00",
-  "SaleId": 570,
-  "Probability": 904,
-  "Title": "sed",
-  "Amount": 23749.451999999997,
-  "Currency": "quos",
-  "ProjectName": "Metz Group",
-  "AssociateFullName": "Kaela Borer",
-  "Description": "De-engineered holistic internet solution",
+  "ContactName": "Koelpin-Pacocha",
+  "SaleDate": "2002-03-24T15:29:22.6867969+01:00",
+  "SaleId": 315,
+  "Probability": 421,
+  "Title": "aliquam",
+  "Amount": 27870.662,
+  "Currency": "odit",
+  "ProjectName": "Stehr, Runolfsson and Effertz",
+  "AssociateFullName": "Johnny Corwin",
+  "Description": "Grass-roots next generation model",
   "Status": "Lost",
-  "WeightedAmount": 14920.974,
-  "ProjectId": 459,
-  "EarningPercent": 8192.276,
-  "Earning": 17970.356,
-  "ContactId": 737,
-  "AssociateId": 496,
-  "PersonId": 222,
-  "SaleTypeId": 584,
-  "SaleTypeName": "Cremin, Reichert and Okuneva",
-  "PersonFullName": "Alysa Hermiston",
+  "WeightedAmount": 14472.812,
+  "ProjectId": 773,
+  "EarningPercent": 14936.644,
+  "Earning": 6631.544,
+  "ContactId": 905,
+  "AssociateId": 947,
+  "PersonId": 522,
+  "SaleTypeId": 968,
+  "SaleTypeName": "Grimes, Buckridge and Hammes",
+  "PersonFullName": "Miss Vern Ullrich DVM",
   "Completed": "Completed",
-  "ActiveErpLinks": 39,
-  "NextDueDate": "1995-12-31T12:15:20.06674+01:00",
-  "Number": "1752402",
+  "ActiveErpLinks": 91,
+  "NextDueDate": "2009-04-01T15:29:22.6873041+02:00",
+  "Number": "1616538",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldType": "System.Int32",
+      "FieldLength": 35
     }
   }
 }

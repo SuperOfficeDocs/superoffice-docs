@@ -65,8 +65,8 @@ OK
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 330,
-  "Name": "Walsh, Pfannerstill and Dach",
-  "Description": "Synergized upward-trending methodology",
-  "DefaultHeight": 822,
-  "DefaultWidth": 536,
+  "DashboardTileDefinitionId": 839,
+  "Name": "Jacobs, Mante and Bode",
+  "Description": "Implemented next generation Graphical User Interface",
+  "DefaultHeight": 996,
+  "DefaultWidth": 838,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Daniel LLC",
-  "SelectionId": 645,
+  "EntityName": "Macejkovic, Keebler and Stehr",
+  "SelectionId": 132,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "harum",
   "Measure": "Average",
-  "MeasureField": "ut",
-  "SortBy": "nisi",
-  "LayoutConfig": "distinctio",
-  "SecondarySelectionId": 1000,
-  "MeasureByField": "est",
+  "MeasureField": "consectetur",
+  "SortBy": "tempore",
+  "LayoutConfig": "nobis",
+  "SecondarySelectionId": 272,
+  "MeasureByField": "adipisci",
   "Usage": "Dashboard",
-  "ProviderName": "Bednar, Spinka and Koepp",
+  "ProviderName": "Reynolds, Quitzon and Hamill",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 845
+      "FieldType": "System.Int32",
+      "FieldLength": 83
     }
   }
 }

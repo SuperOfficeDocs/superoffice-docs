@@ -93,8 +93,8 @@ OK
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -106,52 +106,52 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kemmer, Hudson and Bechtelar",
+  "ProviderName": "Kihn Group",
   "Columns": [
-    "fugit",
-    "omnis"
+    "consectetur",
+    "in"
   ],
   "SortOrder": [
     {
-      "Name": "Goldner Inc and Sons",
+      "Name": "Barton-Boehm",
       "Direction": "ASC"
     },
     {
-      "Name": "Goldner Inc and Sons",
+      "Name": "Barton-Boehm",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rau, Bahringer and Blanda",
-      "Operator": "ipsam",
+      "Name": "Gutmann, Wunsch and Hamill",
+      "Operator": "omnis",
       "Values": [
-        "ut",
-        "quod"
+        "rem",
+        "eaque"
       ],
       "DisplayValues": [
-        "iste",
-        "voluptas"
+        "illo",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 524,
+      "InterParenthesis": 672,
       "InterOperator": "And",
-      "UniqueHash": 511
+      "UniqueHash": 372
     }
   ],
   "Entities": [
-    "ducimus",
-    "rerum"
+    "magni",
+    "exercitationem"
   ],
-  "Page": 550,
-  "PageSize": 584,
-  "Options": "accusamus",
-  "Context": "optio"
+  "Page": 967,
+  "PageSize": 752,
+  "Options": "est",
+  "Context": "magnam"
 }
 ```
 
@@ -162,26 +162,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 633,
+  "RowCount": 329,
   "Rows": [
     {
-      "EntityName": "Gleichner-Bruen",
-      "PrimaryKey": 935,
+      "EntityName": "Nicolas, Ernser and Ziemann",
+      "PrimaryKey": 568,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "error",
-          "TooltipHint": "et",
-          "LinkHint": "voluptas"
+          "DisplayValue": "et",
+          "TooltipHint": "aut",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "maxime",
+      "LinkHint": "velit",
+      "StyleHint": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 21
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 276
     }
   }
 }

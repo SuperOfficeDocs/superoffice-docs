@@ -68,8 +68,9 @@ OK
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 65
+  "TicketMessageEntityId": 569
 }
 ```
 
@@ -93,18 +94,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 246,
-    "Name": "Beer Group",
-    "ContentType": "et",
-    "AttSize": 791,
+    "AttachmentId": 334,
+    "Name": "Gleichner, Howe and Kirlin",
+    "ContentType": "veritatis",
+    "AttSize": 450,
     "InlineImage": false,
-    "ContentId": "ex",
+    "ContentId": "ut",
+    "AuthKey": "at",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldType": "System.String",
+        "FieldLength": 319
       }
     }
   }

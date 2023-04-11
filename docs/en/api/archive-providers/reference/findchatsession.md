@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FindChatSession"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -461,7 +461,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=person/personAssociate/contactCategory,contact/NumberOfNotCompletedTicketsInPeriod,contact/LastCompletedTicket
+GET /api/v1/archive/FindChatSession?$select=whenEnded,person/personAssociate/portraitThumbnail,person/subscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

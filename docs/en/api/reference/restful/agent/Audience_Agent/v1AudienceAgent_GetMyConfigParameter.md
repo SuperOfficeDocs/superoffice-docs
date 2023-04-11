@@ -69,8 +69,8 @@ OK
 | UpdatedDate | date-time | The date and time the configuration parameter was last updated  in UTC. |
 | CreatedBy | string | Name of the person that created the configuration parameter |
 | UpdatedBy | string | Name of the person that last updated the configuration parameter |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Windler-Donnelly"
+  "ParameterName": "Collins-Tremblay"
 }
 ```
 
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 816,
-  "Name": "Streich, Bartell and Satterfield",
-  "Value": "possimus",
-  "CreatedDate": "2018-12-03T12:15:18.1897679+01:00",
-  "UpdatedDate": "2010-09-24T12:15:18.1897679+02:00",
-  "CreatedBy": "molestiae",
-  "UpdatedBy": "at",
+  "AudienceLayoutId": 479,
+  "Name": "Gleason LLC",
+  "Value": "explicabo",
+  "CreatedDate": "2014-04-23T15:29:20.8077889+02:00",
+  "UpdatedDate": "2004-05-17T15:29:20.8077889+02:00",
+  "CreatedBy": "commodi",
+  "UpdatedBy": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

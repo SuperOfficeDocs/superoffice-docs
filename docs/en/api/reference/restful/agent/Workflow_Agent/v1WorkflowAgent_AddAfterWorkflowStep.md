@@ -49,7 +49,7 @@ WorkflowStepId, SubStep
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WorkflowStepId | Integer |  |
-| SubStep | WorkflowStep | Workflow step carrier <para /> Carrier object for WorkflowStep. Services for the WorkflowStep Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWorkflowAgent">Workflow Agent</see>. |
+| SubStep | WorkflowStepBase | Workflow step carrier. <para /> Carrier object for WorkflowStepBase. Services for the WorkflowStepBase Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IWorkflowAgent">Workflow Agent</see>. |
 
 ## Response:
 
@@ -59,15 +59,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: WorkflowStep
+### Response body: WorkflowStepBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WorkflowStepId | int32 | Primary key |
+| WorkflowId | int32 | The flow this step belongs to |
 | StepType | string | Step type |
-| SubSteps | array | Sub/Child steps in the workflow. When the step line forks into more than one is given by the StepType. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| Rank | int32 | Step order |
 
 ## Sample request
 
@@ -75,11 +74,11 @@ OK
 POST /api/v1/Agents/Workflow/AddAfterWorkflowStep
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 822,
+  "WorkflowStepId": 14,
   "SubStep": null
 }
 ```
@@ -91,49 +90,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 231,
+  "WorkflowStepId": 434,
+  "WorkflowId": 955,
   "StepType": "AddToList",
-  "SubSteps": [
-    {
-      "WorkflowStepId": 945,
-      "StepType": "AddToList",
-      "SubSteps": [
-        {},
-        {}
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 384
-        }
-      }
-    },
-    {
-      "WorkflowStepId": 945,
-      "StepType": "AddToList",
-      "SubSteps": [
-        {},
-        {}
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 384
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 516
-    }
-  }
+  "Rank": 189
 }
 ```

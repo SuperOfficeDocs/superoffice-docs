@@ -26,7 +26,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=corporis
+GET /api/v1/List/Category/MDOItems?query=quos
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Cremin, Cremin and Anderson",
-    "ToolTip": "Ratione voluptates praesentium reiciendis perferendis quos perferendis qui.",
+    "Id": 407,
+    "Name": "Bogisich LLC",
+    "ToolTip": "Est quaerat asperiores.",
     "Deleted": false,
-    "Rank": 68,
-    "Type": "debitis",
+    "Rank": 299,
+    "Type": "architecto",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Hansen-Swift",
-        "ToolTip": "At ut repellendus quis dolorum.",
+        "Id": 719,
+        "Name": "Carter-Crooks",
+        "ToolTip": "Eos non asperiores optio.",
         "Deleted": false,
-        "Rank": 540,
-        "Type": "ut",
+        "Rank": 45,
+        "Type": "alias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 383,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "dignissimos",
-        "FullName": "Aaron Connelly",
+        "IconHint": "accusantium",
+        "ColorBlock": 923,
+        "ExtraInfo": "esse",
+        "StyleHint": "qui",
+        "FullName": "Amelia Sporer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 202
+            "FieldType": "System.String",
+            "FieldLength": 372
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 243,
-    "ExtraInfo": "aut",
-    "StyleHint": "rerum",
-    "FullName": "Hal Turner",
+    "IconHint": "magnam",
+    "ColorBlock": 588,
+    "ExtraInfo": "vitae",
+    "StyleHint": "suscipit",
+    "FullName": "Ibrahim Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldType": "System.String",
+        "FieldLength": 274
       }
     }
   }

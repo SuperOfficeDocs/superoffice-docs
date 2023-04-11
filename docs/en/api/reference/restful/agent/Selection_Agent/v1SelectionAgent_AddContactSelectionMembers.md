@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -68,15 +68,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 695,
+  "SelectionId": 496,
   "ContactPersonIds": [
     {
-      "PersonId": 302,
-      "ContactId": 238
+      "PersonId": 604,
+      "ContactId": 714
     },
     {
-      "PersonId": 302,
-      "ContactId": 238
+      "PersonId": 604,
+      "ContactId": 714
     }
   ]
 }

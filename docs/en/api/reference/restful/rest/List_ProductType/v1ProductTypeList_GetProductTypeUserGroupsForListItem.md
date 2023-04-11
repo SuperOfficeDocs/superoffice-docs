@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Zulauf, Keeling and Smitham",
-    "ToolTip": "At sed fuga est ut est.",
-    "Deleted": true,
-    "Rank": 563,
-    "Type": "qui",
-    "ColorBlock": 15,
-    "IconHint": "reprehenderit",
+    "Id": 755,
+    "Name": "Kovacek LLC",
+    "ToolTip": "Occaecati enim aperiam.",
+    "Deleted": false,
+    "Rank": 395,
+    "Type": "eum",
+    "ColorBlock": 803,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2015-01-31T12:15:28.3146234+01:00",
+    "LastChanged": "2017-01-16T15:29:31.4304762+01:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "McCullough, Predovic and Jacobson",
-        "ToolTip": "Atque eius est enim aliquam velit est sed.",
-        "Deleted": true,
-        "Rank": 797,
-        "Type": "vero",
-        "ColorBlock": 988,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2016-10-14T12:15:28.3146234+02:00",
+        "Id": 144,
+        "Name": "Wolff Inc and Sons",
+        "ToolTip": "Commodi dolorum ad in eum inventore.",
+        "Deleted": false,
+        "Rank": 739,
+        "Type": "incidunt",
+        "ColorBlock": 488,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2010-09-29T15:29:31.4304762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Aubree Renner",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "delectus",
+        "Hidden": true,
+        "FullName": "Mrs. Edythe Lavern Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 11
+            "FieldType": "System.Int32",
+            "FieldLength": 424
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "autem",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Mary Wisozk",
+    "FullName": "Lonnie Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 966
+        "FieldType": "System.Int32",
+        "FieldLength": 726
       }
     }
   }

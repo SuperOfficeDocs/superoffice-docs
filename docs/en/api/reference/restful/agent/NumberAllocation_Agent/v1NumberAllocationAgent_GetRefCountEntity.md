@@ -25,7 +25,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=478
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=868
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -67,8 +67,8 @@ OK
 | Unique | bool | Check that entered value is unique |
 | ReadOnly | bool | Target field is read only in GUI |
 | AllowBlank | bool | Allow blank  as a valid value |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,49 +86,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 692,
-  "Field": "odio",
-  "RecordId": 861,
+  "RefCountsId": 483,
+  "Field": "a",
+  "RecordId": 858,
   "SuggestedRecords": [
     {
-      "Id": 48,
-      "Name": "Stokes, Dickens and Williamson",
-      "ToolTip": "Officia architecto sit sapiente omnis debitis.",
+      "Id": 716,
+      "Name": "Kub Inc and Sons",
+      "ToolTip": "Doloribus dolor natus suscipit facere dolorem quos saepe.",
       "Deleted": false,
-      "Rank": 682,
-      "Type": "repudiandae",
+      "Rank": 306,
+      "Type": "vero",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 402,
-      "ExtraInfo": "aut",
-      "StyleHint": "dolorum",
-      "FullName": "Leanna Heller",
+      "IconHint": "officia",
+      "ColorBlock": 234,
+      "ExtraInfo": "fuga",
+      "StyleHint": "totam",
+      "FullName": "Miss Mavis Stoltenberg V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 149
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     }
   ],
-  "CurrentValue": 625,
-  "TravelPrefix": 162,
-  "SatPrefix": 431,
+  "CurrentValue": 767,
+  "TravelPrefix": 183,
+  "SatPrefix": 516,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": false,
+  "Unique": true,
+  "ReadOnly": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 406
     }
   }
 }

@@ -13,11 +13,9 @@ title: Services88.ViewStateAgent WSDL
     <xs:schema elementFormDefault="qualified" targetNamespace="http://www.superoffice.net/ws/crm/NetServer/Services88" xmlns:xs="http://www.w3.org/2001/XMLSchema">
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-      <xs:element name="GetHistory">
+      <xs:element name="GetLiveUiConfig">
         <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="HistoryId" type="xs:int" />
-          </xs:sequence>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="ApplicationToken" nillable="true" type="xs:string" />
@@ -36,29 +34,24 @@ title: Services88.ViewStateAgent WSDL
       </xs:complexType>
       <xs:element name="SoTimeZone" nillable="true" type="tns:SoTimeZone" />
       <xs:element name="TimeZone" nillable="true" type="tns:SoTimeZone" />
-      <xs:element name="GetHistoryResponse">
+      <xs:element name="GetLiveUiConfigResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:History" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:LiveUiConfig" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:complexType name="History">
+      <xs:complexType name="LiveUiConfig">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
             <xs:sequence>
-              <xs:element minOccurs="0" name="Rank" type="xs:short" />
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="HistoryName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="HistoryId" type="xs:int" />
-              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
-              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ItemInfo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="IsEnabled" type="xs:boolean" />
+              <xs:element minOccurs="0" name="PollingInterval" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="History" nillable="true" type="tns:History" />
+      <xs:element name="LiveUiConfig" nillable="true" type="tns:LiveUiConfig" />
       <xs:complexType name="Carrier">
         <xs:sequence>
           <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
@@ -213,6 +206,36 @@ title: Services88.ViewStateAgent WSDL
       <xs:element name="SoExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="ExtraInfo" nillable="true" type="tns:SoExtraInfo" />
       <xs:element name="Succeeded" type="xs:boolean" />
+      <xs:element name="GetHistory">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="HistoryId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetHistoryResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:History" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="History">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Rank" type="xs:short" />
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="HistoryName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="HistoryId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ItemInfo" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="History" nillable="true" type="tns:History" />
       <xs:element name="GetCurrent">
         <xs:complexType>
           <xs:sequence>
@@ -415,6 +438,43 @@ title: Services88.ViewStateAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="PublishAndRetrieveUiEvents">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="LatestKnownEventId" type="xs:int" />
+            <xs:element minOccurs="0" name="PublishEvents" nillable="true" type="tns:ArrayOfUiEvent" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfUiEvent">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="UiEvent" nillable="true" type="tns:UiEvent" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfUiEvent" nillable="true" type="tns:ArrayOfUiEvent" />
+      <xs:complexType name="UiEvent">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EventId" type="xs:int" />
+              <xs:element minOccurs="0" name="EventName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EntityType" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EntityKey" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="AssociateName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="EventDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="UiEvent" nillable="true" type="tns:UiEvent" />
+      <xs:element name="PublishAndRetrieveUiEventsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfUiEvent" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
     </xs:schema>
     <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
       <xs:element name="anyType" nillable="true" type="xs:anyType" />
@@ -466,6 +526,23 @@ title: Services88.ViewStateAgent WSDL
       <xs:element name="ArrayOfstring" nillable="true" type="tns:ArrayOfstring" />
     </xs:schema>
   </wsdl:types>
+  <wsdl:message name="GetLiveUiConfigRequest">
+    <wsdl:part name="parameters" element="tns:GetLiveUiConfig" />
+  </wsdl:message>
+  <wsdl:message name="GetLiveUiConfigRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetLiveUiConfigResponse">
+    <wsdl:part name="parameters" element="tns:GetLiveUiConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLiveUiConfigResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetHistoryRequest">
     <wsdl:part name="parameters" element="tns:GetHistory" />
   </wsdl:message>
@@ -704,7 +781,28 @@ title: Services88.ViewStateAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="PublishAndRetrieveUiEventsRequest">
+    <wsdl:part name="parameters" element="tns:PublishAndRetrieveUiEvents" />
+  </wsdl:message>
+  <wsdl:message name="PublishAndRetrieveUiEventsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="PublishAndRetrieveUiEventsResponse">
+    <wsdl:part name="parameters" element="tns:PublishAndRetrieveUiEventsResponse" />
+  </wsdl:message>
+  <wsdl:message name="PublishAndRetrieveUiEventsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:portType name="ViewState">
+    <wsdl:operation name="GetLiveUiConfig">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetLiveUiConfig" name="GetLiveUiConfigRequest" message="tns:GetLiveUiConfigRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetLiveUiConfigResponse" name="GetLiveUiConfigResponse" message="tns:GetLiveUiConfigResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetHistory">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistory" name="GetHistoryRequest" message="tns:GetHistoryRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoryResponse" name="GetHistoryResponse" message="tns:GetHistoryResponse" />
@@ -761,9 +859,29 @@ title: Services88.ViewStateAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoriesByNamesAndIds" name="GetHistoriesByNamesAndIdsRequest" message="tns:GetHistoriesByNamesAndIdsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistoriesByNamesAndIdsResponse" name="GetHistoriesByNamesAndIdsResponse" message="tns:GetHistoriesByNamesAndIdsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="PublishAndRetrieveUiEvents">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/PublishAndRetrieveUiEvents" name="PublishAndRetrieveUiEventsRequest" message="tns:PublishAndRetrieveUiEventsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/PublishAndRetrieveUiEventsResponse" name="PublishAndRetrieveUiEventsResponse" message="tns:PublishAndRetrieveUiEventsResponse" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_ViewState" type="tns:ViewState">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLiveUiConfig">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetLiveUiConfig" style="document" />
+      <wsdl:input name="GetLiveUiConfigRequest">
+        <soap:header message="tns:GetLiveUiConfigRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetLiveUiConfigRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetLiveUiConfigRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetLiveUiConfigResponse">
+        <soap:header message="tns:GetLiveUiConfigResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetLiveUiConfigResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetLiveUiConfigResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetLiveUiConfigResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetHistory">
       <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/GetHistory" style="document" />
       <wsdl:input name="GetHistoryRequest">
@@ -985,6 +1103,22 @@ title: Services88.ViewStateAgent WSDL
         <soap:header message="tns:GetHistoriesByNamesAndIdsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetHistoriesByNamesAndIdsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetHistoriesByNamesAndIdsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PublishAndRetrieveUiEvents">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/ViewState/PublishAndRetrieveUiEvents" style="document" />
+      <wsdl:input name="PublishAndRetrieveUiEventsRequest">
+        <soap:header message="tns:PublishAndRetrieveUiEventsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:PublishAndRetrieveUiEventsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:PublishAndRetrieveUiEventsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PublishAndRetrieveUiEventsResponse">
+        <soap:header message="tns:PublishAndRetrieveUiEventsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:PublishAndRetrieveUiEventsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:PublishAndRetrieveUiEventsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:PublishAndRetrieveUiEventsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

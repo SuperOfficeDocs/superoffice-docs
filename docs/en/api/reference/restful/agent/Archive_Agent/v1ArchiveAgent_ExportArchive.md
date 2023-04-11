@@ -73,8 +73,8 @@ OK
 | BatchTaskId | int32 | Id of the BatchTask created. &lt;=0 if no BatchTask was created. |
 | FileName | string | The path to the output file created, if it exists. Will be an empty string if no file was created. |
 | Message | string | Descriptive messages; errors, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,37 +86,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Torphy, Powlowski and Fritsch",
-  "Context": "ut",
+  "ProviderName": "Reichert LLC",
+  "Context": "in",
   "DesiredEntities": [
-    "totam",
-    "sint"
+    "quasi",
+    "iusto"
   ],
   "Columns": [
-    "voluptas",
-    "debitis"
+    "earum",
+    "odit"
   ],
   "SortOrder": [
     {
-      "Name": "Okuneva-Pfannerstill",
+      "Name": "Kutch Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Okuneva-Pfannerstill",
+      "Name": "Kutch Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Nolan, Thompson and Sipes",
-      "Operator": "qui",
+      "Name": "Cole, Kuhic and Marvin",
+      "Operator": "est",
       "Values": [
-        "quasi",
-        "perspiciatis"
+        "quo",
+        "non"
       ],
       "DisplayValues": [
-        "nisi",
-        "esse"
+        "qui",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -124,17 +124,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 649,
+      "InterParenthesis": 827,
       "InterOperator": "And",
-      "UniqueHash": 773
+      "UniqueHash": 231
     }
   ],
-  "ExportType": "neque",
+  "ExportType": "minus",
   "SelectedRowIds": [
-    "earum",
-    "quos"
+    "voluptatum",
+    "expedita"
   ],
-  "EstimatedRowCount": 664
+  "EstimatedRowCount": 277
 }
 ```
 
@@ -145,15 +145,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 57,
-  "FileName": "Satterfield-Strosin",
-  "Message": "dolor",
+  "BatchTaskId": 355,
+  "FileName": "DuBuque, Morar and Nienow",
+  "Message": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 323
     }
   }
 }

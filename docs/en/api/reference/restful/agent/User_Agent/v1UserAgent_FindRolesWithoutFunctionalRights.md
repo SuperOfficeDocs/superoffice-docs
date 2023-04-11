@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Leuschke Group",
-    "Runolfsson, Rau and Predovic"
+    "Larkin Group",
+    "Auer Group"
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  957,
-  409
+  507,
+  666
 ]
 ```

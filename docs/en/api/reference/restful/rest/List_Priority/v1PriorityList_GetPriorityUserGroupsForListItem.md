@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Name": "Mertz, Jewess and Davis",
-    "ToolTip": "Dolorem incidunt non sed vel quis blanditiis nam.",
-    "Deleted": false,
-    "Rank": 605,
-    "Type": "porro",
-    "ColorBlock": 239,
-    "IconHint": "quibusdam",
+    "Id": 896,
+    "Name": "Friesen-Osinski",
+    "ToolTip": "Beatae ab sequi quia nisi eos architecto voluptas.",
+    "Deleted": true,
+    "Rank": 747,
+    "Type": "molestias",
+    "ColorBlock": 764,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2008-03-14T12:15:28.2646172+01:00",
+    "LastChanged": "1998-11-06T15:29:31.3794766+01:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Pacocha Inc and Sons",
-        "ToolTip": "Eveniet impedit.",
+        "Id": 468,
+        "Name": "Keeling Inc and Sons",
+        "ToolTip": "Officiis ut voluptatibus voluptas omnis et placeat.",
         "Deleted": true,
-        "Rank": 263,
-        "Type": "iure",
-        "ColorBlock": 538,
-        "IconHint": "vero",
+        "Rank": 946,
+        "Type": "illo",
+        "ColorBlock": 545,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2003-01-22T12:15:28.2646172+01:00",
+        "LastChanged": "2015-06-17T15:29:31.3794766+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "quis",
+        "ExtraInfo": "architecto",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Renee Wunsch",
+        "FullName": "Dr. Carlie Khalil Runte Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 289
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "cupiditate",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "consequuntur",
     "Hidden": false,
-    "FullName": "Hunter Schamberger",
+    "FullName": "Jalen Jesse Krajcik DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 969
       }
     }
   }

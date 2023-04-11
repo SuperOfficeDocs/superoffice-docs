@@ -25,7 +25,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=506
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=271
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -62,8 +62,9 @@ OK
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,18 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 86,
-  "Name": "Schiller, Mraz and Dach",
-  "ContentType": "est",
-  "AttSize": 400,
-  "InlineImage": false,
-  "ContentId": "et",
+  "AttachmentId": 286,
+  "Name": "Padberg Inc and Sons",
+  "ContentType": "quo",
+  "AttSize": 239,
+  "InlineImage": true,
+  "ContentId": "omnis",
+  "AuthKey": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 990
     }
   }
 }

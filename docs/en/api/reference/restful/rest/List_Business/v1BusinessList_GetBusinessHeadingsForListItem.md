@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Roberts, Denesik and Armstrong",
-    "ToolTip": "Aut consequuntur nesciunt molestiae veritatis et perferendis.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "eum",
-    "ColorBlock": 997,
-    "IconHint": "delectus",
-    "Selected": true,
-    "LastChanged": "2006-04-11T12:15:27.8776226+02:00",
+    "Id": 110,
+    "Name": "Bashirian LLC",
+    "ToolTip": "Nemo ut blanditiis rerum dolorem sint a voluptatum.",
+    "Deleted": true,
+    "Rank": 32,
+    "Type": "est",
+    "ColorBlock": 868,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2019-03-21T15:29:31.0879461+01:00",
     "ChildItems": [
       {
-        "Id": 300,
-        "Name": "Medhurst, Roob and Johnson",
-        "ToolTip": "Et deserunt unde sunt amet et qui ut.",
-        "Deleted": true,
-        "Rank": 885,
-        "Type": "quidem",
-        "ColorBlock": 787,
-        "IconHint": "corrupti",
+        "Id": 283,
+        "Name": "Kemmer LLC",
+        "ToolTip": "Delectus ab voluptatibus sapiente reprehenderit.",
+        "Deleted": false,
+        "Rank": 964,
+        "Type": "recusandae",
+        "ColorBlock": 521,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "2002-12-25T12:15:27.8776226+01:00",
+        "LastChanged": "2010-08-26T15:29:31.0879461+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Elwin Becker",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "maxime",
+        "Hidden": false,
+        "FullName": "Asha Alivia Sipes DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 264
+            "FieldLength": 718
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Ms. Rafaela Josefa Graham MD",
+    "ExtraInfo": "animi",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Brent Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldType": "System.Int32",
+        "FieldLength": 936
       }
     }
   }

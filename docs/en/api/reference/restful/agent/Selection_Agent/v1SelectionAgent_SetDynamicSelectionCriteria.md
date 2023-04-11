@@ -65,15 +65,15 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Operator | string |  |
-| Values | array |  |
-| DisplayValues | array |  |
-| ColumnInfo | TableRight |  |
-| IsActive | bool |  |
-| SubRestrictions | array |  |
-| InterParenthesis | int32 |  |
-| InterOperator | string |  |
+| Name | string | The programmatic column name, including any required prefixes |
+| Operator | string | The operator, such as =, etc |
+| Values | array | Value(s) to test against |
+| DisplayValues | array | Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the {SuperOffice.CRM.Globalization.CultureDataFormatter}. |
+| ColumnInfo | ArchiveColumnInfo | Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnInfo.Name == this.Name will always be true |
+| IsActive | bool | Is this restriction active?  Inactive restrictions will not influence the generated query |
+| SubRestrictions | array | Optional collection of sub criteria, usually null but set for Saint counter fields |
+| InterParenthesis | int32 | Get or set the parenthesis (if any) associated with this restriction. Positive values indicate a number of opening parentheses (deepening nesting level), while negative numbers indicate closing parentheses. Zero means no change in nesting level (no parentheses). |
+| InterOperator | string | Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And |
 | UniqueHash | int32 |  |
 
 ## Sample request
@@ -86,18 +86,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 377,
+  "SelectionId": 302,
   "Criteria": [
     {
-      "Name": "Pfeffer-Denesik",
-      "Operator": "at",
+      "Name": "Hyatt, Brakus and Hahn",
+      "Operator": "iusto",
       "Values": [
-        "error",
-        "expedita"
+        "voluptatem",
+        "placeat"
       ],
       "DisplayValues": [
-        "fugit",
-        "occaecati"
+        "eum",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -105,9 +105,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 191,
+      "InterParenthesis": 348,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 246
     }
   ]
 }
@@ -121,29 +121,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogisich-Simonis",
-    "Operator": "et",
+    "Name": "Morissette Inc and Sons",
+    "Operator": "in",
     "Values": [
-      "est",
-      "voluptatibus"
+      "qui",
+      "est"
     ],
     "DisplayValues": [
-      "ipsum",
-      "et"
+      "quam",
+      "est"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Becker LLC",
-        "Operator": "sequi",
+        "Name": "Zboncak LLC",
+        "Operator": "nam",
         "Values": [
-          "corporis",
-          "et"
+          "omnis",
+          "eos"
         ],
         "DisplayValues": [
-          "magnam",
-          "rerum"
+          "veritatis",
+          "ea"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -151,14 +151,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 579,
+        "InterParenthesis": 510,
         "InterOperator": "And",
-        "UniqueHash": 392
+        "UniqueHash": 708
       }
     ],
-    "InterParenthesis": 354,
+    "InterParenthesis": 561,
     "InterOperator": "And",
-    "UniqueHash": 940
+    "UniqueHash": 903
   }
 ]
 ```

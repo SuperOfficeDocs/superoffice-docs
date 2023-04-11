@@ -24,7 +24,7 @@ Deletes the SaleEntity
 | SaleEntityId | int32 | **Required** The id of the SaleEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleEntity?SaleEntityId=951
+POST /api/v1/Agents/Sale/DeleteSaleEntity?SaleEntityId=320
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request

@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "West, Crona and Smitham",
-    "Tooltip": "ut",
+    "Id": 351,
+    "Name": "Stokes LLC",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 759,
-    "Rank": 106
+    "UdListDefinitionId": 361,
+    "Rank": 79
   },
   {
-    "Id": 155,
-    "Name": "West, Crona and Smitham",
-    "Tooltip": "ut",
+    "Id": 351,
+    "Name": "Stokes LLC",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "UdListDefinitionId": 759,
-    "Rank": 106
+    "UdListDefinitionId": 361,
+    "Rank": 79
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Schinner-Beier",
-    "Tooltip": "quos",
+    "Id": 842,
+    "Name": "Bartoletti-Wiegand",
+    "Tooltip": "consequuntur",
     "Deleted": false,
-    "UdListDefinitionId": 438,
-    "Rank": 753,
+    "UdListDefinitionId": 429,
+    "Rank": 773,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

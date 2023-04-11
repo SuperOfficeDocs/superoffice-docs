@@ -75,8 +75,8 @@ OK
 | PinForAll | int32 | True if pinned for all |
 | PinForAssociates | array | Array of references to the pinned associates |
 | PinForGroups | array | Array of references to the pinned groups |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    578,
-    955
+    757,
+    378
   ]
 }
 ```
@@ -103,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 604,
-    "UniqueId": "ut",
-    "Name": "Yundt, Effertz and Jakubowski",
-    "Description": "Optional uniform toolset",
-    "AssociateId": 602,
-    "Columns": 823,
+    "DashboardId": 391,
+    "UniqueId": "enim",
+    "Name": "Balistreri LLC",
+    "Description": "Open-architected directional Graphic Interface",
+    "AssociateId": 306,
+    "Columns": 483,
     "Theme": null,
-    "VisibleForAll": 32,
+    "VisibleForAll": 493,
     "VisibleForAssociates": [
-      420,
-      223
+      670,
+      202
     ],
     "VisibleForGroups": [
-      359,
-      348
+      636,
+      736
     ],
-    "PinForAll": 537,
+    "PinForAll": 940,
     "PinForAssociates": [
-      391,
-      200
+      967,
+      730
     ],
     "PinForGroups": [
-      775,
-      585
+      657,
+      330
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 105
+        "FieldLength": 915
       }
     }
   }

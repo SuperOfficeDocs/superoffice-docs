@@ -72,8 +72,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,22 +81,22 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Nicolas LLC",
-  "StorageKey": "culpa",
-  "PageSize": 822,
-  "PageNumber": 506,
+  "StorageType": "possimus",
+  "ProviderName": "Kemmer-Wilderman",
+  "StorageKey": "ut",
+  "PageSize": 286,
+  "PageNumber": 232,
   "OrderBy": [
     {
-      "Name": "Schmitt-Waters",
+      "Name": "Gleichner, Murray and Gusikowski",
       "Direction": "ASC"
     },
     {
-      "Name": "Schmitt-Waters",
+      "Name": "Gleichner, Murray and Gusikowski",
       "Direction": "ASC"
     }
   ]
@@ -112,51 +112,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Mertz Inc and Sons",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "eos",
+      "DisplayName": "Abshire, Nader and Veum",
+      "DisplayTooltip": "ut",
+      "DisplayType": "mollitia",
       "CanOrderBy": false,
-      "Name": "Spinka LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "architecto",
-      "RestrictionListName": "Denesik, Zboncak and Stracke",
-      "IsVisible": false,
-      "ExtraInfo": "accusamus",
-      "Width": "eius",
-      "IconHint": "eaque",
-      "HeadingIconHint": "quaerat"
+      "Name": "Senger-Gottlieb",
+      "CanRestrictBy": false,
+      "RestrictionType": "id",
+      "RestrictionListName": "Herman-Okuneva",
+      "IsVisible": true,
+      "ExtraInfo": "voluptatum",
+      "Width": "tempora",
+      "IconHint": "doloribus",
+      "HeadingIconHint": "dolorum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Leannon, Marvin and Kertzmann",
-      "PrimaryKey": 214,
+      "EntityName": "Luettgen LLC",
+      "PrimaryKey": 519,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ducimus",
-          "TooltipHint": "in",
-          "LinkHint": "ipsa"
+          "DisplayValue": "quia",
+          "TooltipHint": "neque",
+          "LinkHint": "praesentium"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "velit",
+      "LinkHint": "eligendi",
+      "StyleHint": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 137
         }
       }
     }
   ],
-  "RowCount": 739,
+  "RowCount": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 547
+      "FieldLength": 199
     }
   }
 }

@@ -29,7 +29,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -94,8 +94,8 @@ DocumentEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 179,
-  "ColumnId": 130,
-  "FieldDefault": "quidem",
-  "FieldHeight": 410,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 770,
-  "FieldTop": 660,
+  "UDefFieldId": 312,
+  "ColumnId": 90,
+  "FieldDefault": "velit",
+  "FieldHeight": 742,
+  "FieldLabel": "ut",
+  "FieldLeft": 455,
+  "FieldTop": 93,
   "FieldType": "Checkbox",
-  "FieldWidth": 485,
-  "FormatMask": "labore",
+  "FieldWidth": 170,
+  "FormatMask": "voluptate",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 451,
-  "LabelLeft": 616,
-  "LabelTop": 622,
-  "LabelWidth": 263,
-  "LastVersionId": 862,
-  "ListTableId": 780,
+  "LabelHeight": 474,
+  "LabelLeft": 331,
+  "LabelTop": 185,
+  "LabelWidth": 961,
+  "LastVersionId": 321,
+  "ListTableId": 30,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 11,
-  "ProgId": "laboriosam",
+  "Page1LineNo": 137,
+  "ProgId": "iure",
   "IsReadOnly": false,
-  "ShortLabel": "magni",
-  "TabOrder": 462,
-  "TextLength": 15,
-  "Tooltip": "similique",
-  "UdefIdentity": 825,
-  "UDListDefinitionId": 481,
+  "ShortLabel": "quis",
+  "TabOrder": 185,
+  "TextLength": 194,
+  "Tooltip": "sunt",
+  "UdefIdentity": 259,
+  "UDListDefinitionId": 642,
   "Justification": "Center",
-  "Version": 52,
-  "TemplateVariableName": "Morar Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Tillman LLC",
+  "Version": 47,
+  "TemplateVariableName": "Nienow, Bechtelar and Dare",
+  "HasBeenPublished": true,
+  "MdoListName": "Rempel, Bechtelar and White",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 248
     }
   }
 }

@@ -90,8 +90,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -100,20 +100,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 440,
-  "Name": "Nitzsche-Ullrich",
-  "Tooltip": "autem",
+  "RoleId": 610,
+  "Name": "Gusikowski LLC",
+  "Tooltip": "placeat",
   "RoleType": "Anonymous",
-  "Deleted": 236,
-  "Rank": 585,
-  "Created": "1997-11-21T12:15:27.2056318+01:00",
-  "UseCategories": 5,
+  "Deleted": 918,
+  "Rank": 850,
+  "Created": "2004-09-01T15:29:30.0151595+02:00",
+  "UseCategories": 398,
   "CreatedBy": null,
-  "Updated": "2006-07-14T12:15:27.2056318+02:00",
+  "Updated": "2018-10-04T15:29:30.0151595+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -126,16 +126,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 454,
-  "Name": "Wisozk-Nienow",
-  "Tooltip": "eos",
+  "RoleId": 465,
+  "Name": "Stanton Inc and Sons",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 823,
-  "Rank": 267,
-  "Created": "2021-03-21T12:15:27.2066318+01:00",
-  "UseCategories": 192,
+  "Deleted": 521,
+  "Rank": 257,
+  "Created": "2005-03-21T15:29:30.0166597+01:00",
+  "UseCategories": 676,
   "CreatedBy": null,
-  "Updated": "1997-04-29T12:15:27.2076334+02:00",
+  "Updated": "2010-03-14T15:29:30.0181593+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 402
+      "FieldLength": 27
     }
   },
   "_Links": {

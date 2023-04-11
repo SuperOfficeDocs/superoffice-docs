@@ -117,8 +117,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
 {
   "MergedTicketEntity": null,
   "SecondaryTicketIds": [
-    611,
-    69
+    549,
+    345
   ]
 }
 ```
@@ -145,21 +145,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 128,
-  "Title": "adipisci",
-  "CreatedAt": "2016-04-23T12:15:20.4457302+02:00",
-  "LastChanged": "2016-06-05T12:15:20.4457302+02:00",
-  "ReadByOwner": "2003-05-02T12:15:20.4457302+02:00",
-  "ReadByCustomer": "2002-07-01T12:15:20.4457302+02:00",
-  "FirstReadByOwner": "2016-04-29T12:15:20.4457302+02:00",
-  "FirstReadByUser": "2013-06-18T12:15:20.4457302+02:00",
-  "Activate": "2010-05-25T12:15:20.4457302+02:00",
-  "ClosedAt": "2022-07-08T12:15:20.4457302+02:00",
-  "RepliedAt": "1995-12-17T12:15:20.4457302+01:00",
-  "AlertTimeout": "1997-03-29T12:15:20.4457302+01:00",
-  "Deadline": "2012-06-16T12:15:20.4457302+02:00",
+  "TicketId": 667,
+  "Title": "sint",
+  "CreatedAt": "2003-11-01T15:29:23.215291+01:00",
+  "LastChanged": "2009-10-05T15:29:23.215291+02:00",
+  "ReadByOwner": "1997-03-23T15:29:23.215291+01:00",
+  "ReadByCustomer": "2022-05-23T15:29:23.215291+02:00",
+  "FirstReadByOwner": "2011-11-06T15:29:23.215291+01:00",
+  "FirstReadByUser": "2008-11-08T15:29:23.215291+01:00",
+  "Activate": "2009-11-05T15:29:23.215291+01:00",
+  "ClosedAt": "1996-11-21T15:29:23.215291+01:00",
+  "RepliedAt": "1999-05-06T15:29:23.215291+02:00",
+  "AlertTimeout": "1996-09-13T15:29:23.215291+02:00",
+  "Deadline": "2006-12-27T15:29:23.215291+01:00",
   "CreatedBy": null,
-  "Author": "saepe",
+  "Author": "voluptates",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -170,157 +170,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "et",
-      "PersonId": 663,
-      "Mrmrs": "autem",
-      "Firstname": "Luis",
-      "Lastname": "Konopelski",
-      "MiddleName": "Blick Group",
-      "Title": "cupiditate",
-      "Description": "Switchable mission-critical system engine",
-      "Email": "sterling_kris@spencerwolff.co.uk",
-      "FullName": "Frederique Nader",
-      "DirectPhone": "721-884-7533 x068",
-      "FormalName": "Gleason, Doyle and Kihn",
-      "CountryId": 420,
-      "ContactId": 382,
-      "ContactName": "Effertz-Cole",
-      "Retired": 418,
-      "Rank": 295,
-      "ActiveInterests": 851,
+      "Position": "vitae",
+      "PersonId": 722,
+      "Mrmrs": "consequatur",
+      "Firstname": "Wallace",
+      "Lastname": "Greenfelder",
+      "MiddleName": "Littel Inc and Sons",
+      "Title": "necessitatibus",
+      "Description": "Customizable intermediate secured line",
+      "Email": "sarina_feeney@oconner.name",
+      "FullName": "Lenny Veum",
+      "DirectPhone": "706.025.5144 x822",
+      "FormalName": "Lesch LLC",
+      "CountryId": 553,
+      "ContactId": 966,
+      "ContactName": "Lesch LLC",
+      "Retired": 132,
+      "Rank": 968,
+      "ActiveInterests": 990,
       "ContactDepartment": "",
-      "ContactCountryId": 335,
-      "ContactOrgNr": "1777490",
-      "FaxPhone": "(737)532-6659 x605",
-      "MobilePhone": "487-154-4984",
-      "ContactPhone": "1-635-542-5836",
-      "AssociateName": "Leannon-Braun",
-      "AssociateId": 340,
-      "UsePersonAddress": true,
-      "ContactFax": "facere",
-      "Kanafname": "ut",
-      "Kanalname": "itaque",
-      "Post1": "voluptatem",
-      "Post2": "quos",
-      "Post3": "sint",
-      "EmailName": "josh@mosciski.ca",
-      "ContactFullName": "Trent O'Connell",
-      "ActiveErpLinks": 980,
-      "TicketPriorityId": 771,
-      "SupportLanguageId": 47,
-      "SupportAssociateId": 958,
+      "ContactCountryId": 703,
+      "ContactOrgNr": "694957",
+      "FaxPhone": "167.336.7756",
+      "MobilePhone": "1-942-446-4497 x03806",
+      "ContactPhone": "791.699.1841",
+      "AssociateName": "Frami LLC",
+      "AssociateId": 93,
+      "UsePersonAddress": false,
+      "ContactFax": "aliquid",
+      "Kanafname": "facilis",
+      "Kanalname": "nihil",
+      "Post1": "repellat",
+      "Post2": "ducimus",
+      "Post3": "aut",
+      "EmailName": "blake@schmitt.co.uk",
+      "ContactFullName": "Ms. Chandler Giles Johns",
+      "ActiveErpLinks": 769,
+      "TicketPriorityId": 842,
+      "SupportLanguageId": 706,
+      "SupportAssociateId": 668,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldType": "System.String",
+          "FieldLength": 776
         }
       }
     }
   ],
-  "AlertLevel": 805,
-  "ConnectId": 109,
+  "AlertLevel": 424,
+  "ConnectId": 552,
   "ReadStatus": "Green",
-  "TimeToReply": 273,
-  "RealTimeToReply": 564,
-  "TimeToClose": 636,
-  "RealTimeToClose": 469,
-  "TimeSpentInternally": 596,
-  "TimeSpentExternally": 329,
-  "TimeSpentQueue": 513,
-  "RealTimeSpentInternally": 486,
-  "RealTimeSpentExternally": 126,
-  "RealTimeSpentQueue": 735,
+  "TimeToReply": 655,
+  "RealTimeToReply": 110,
+  "TimeToClose": 804,
+  "RealTimeToClose": 311,
+  "TimeSpentInternally": 924,
+  "TimeSpentExternally": 978,
+  "TimeSpentQueue": 708,
+  "RealTimeSpentInternally": 177,
+  "RealTimeSpentExternally": 910,
+  "RealTimeSpentQueue": 648,
   "HasAttachment": false,
-  "NumReplies": 370,
-  "NumMessages": 10,
-  "FromAddress": "est",
+  "NumReplies": 180,
+  "NumMessages": 535,
+  "FromAddress": "quod",
   "Messages": [
     {
-      "TicketMessageId": 543,
-      "CreatedAt": "2016-03-19T12:15:20.4507297+01:00",
+      "TicketMessageId": 9,
+      "CreatedAt": "2010-05-26T15:29:23.219793+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "velit",
-      "PersonId": 749,
-      "PersonFullName": "Mrs. Breanne Herbert Kuphal IV",
-      "ContactId": 714,
-      "ContactName": "Auer-Ratke",
+      "Important": false,
+      "Author": "fugit",
+      "PersonId": 651,
+      "PersonFullName": "Kolby Chester Feest Jr.",
+      "ContactId": 554,
+      "ContactName": "Leannon Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 420,
-      "EmailHeader": "abel@kutch.ca",
+      "NumAttachments": 649,
+      "EmailHeader": "maynard@oconnellreynolds.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "autem",
-      "Sentiment": 412,
-      "SentimentConfidence": 894,
-      "CreatedBy": 101,
-      "ChangedAt": "1998-11-28T12:15:20.4507297+01:00",
+      "Language": "quasi",
+      "Sentiment": 527,
+      "SentimentConfidence": 945,
+      "CreatedBy": 293,
+      "ChangedAt": "2002-04-13T15:29:23.2202915+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldType": "System.String",
+          "FieldLength": 423
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 390,
-      "Name": "Moore, Powlowski and Predovic",
-      "ToolTip": "Aut sit est nihil vitae dolorum enim unde.",
+      "Id": 903,
+      "Name": "McLaughlin-Douglas",
+      "ToolTip": "Corrupti maiores.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 637
         }
       }
     },
     {
-      "Id": 390,
-      "Name": "Moore, Powlowski and Predovic",
-      "ToolTip": "Aut sit est nihil vitae dolorum enim unde.",
+      "Id": 903,
+      "Name": "McLaughlin-Douglas",
+      "ToolTip": "Corrupti maiores.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 637
         }
       }
     }
   ],
-  "Language": "velit",
-  "Sentiment": 675,
-  "SentimentConfidence": 344,
-  "SuggestedCategoryId": 598,
+  "Language": "sint",
+  "Sentiment": 502,
+  "SentimentConfidence": 4,
+  "SuggestedCategoryId": 185,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 281,
-  "IconHint": "ipsum",
+  "OrigHumanCategoryId": 410,
+  "IconHint": "dolores",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "a"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "aut"
+    "CustomFields1": "eaque",
+    "CustomFields2": "libero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 468
     }
   }
 }

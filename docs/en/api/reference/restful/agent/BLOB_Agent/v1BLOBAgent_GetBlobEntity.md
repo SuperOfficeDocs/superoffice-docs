@@ -25,7 +25,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=206
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=805
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -69,8 +69,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,25 +88,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 228,
-  "BlobSize": 5,
-  "Description": "Pre-emptive dedicated migration",
-  "ExtraInfo": "laudantium",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "tenetur",
-  "OriginalSize": 1002,
-  "CreatedDate": "2019-06-03T12:15:18.220763+02:00",
-  "UpdatedDate": "2013-12-29T12:15:18.220763+01:00",
+  "BlobId": 318,
+  "BlobSize": 339,
+  "Description": "Compatible upward-trending array",
+  "ExtraInfo": "minima",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 879,
+  "CreatedDate": "2018-05-16T15:29:20.8387883+02:00",
+  "UpdatedDate": "2001-03-16T15:29:20.8387883+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tenetur",
+  "ConceptualType": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 210
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   }
 }

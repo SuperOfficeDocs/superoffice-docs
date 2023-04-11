@@ -27,7 +27,7 @@ Gets a Area object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetArea?areaId=430
+POST /api/v1/Agents/Replication/GetArea?areaId=178
 POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 ```
 
@@ -64,8 +64,8 @@ OK
 | NumberOfUsers | int32 |  |
 | NumberOfLogins | int32 |  |
 | FreetextEnabeled | bool |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Replication/GetArea
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 509,
-  "Name": "Lueilwitz-Nitzsche",
-  "MaxDataAge": 423,
-  "NumberOfUsers": 427,
-  "NumberOfLogins": 164,
-  "FreetextEnabeled": false,
+  "AreaId": 563,
+  "Name": "Leuschke, Morar and Satterfield",
+  "MaxDataAge": 747,
+  "NumberOfUsers": 658,
+  "NumberOfLogins": 815,
+  "FreetextEnabeled": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

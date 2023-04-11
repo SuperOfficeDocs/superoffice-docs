@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "AppointmentNotificationAggregator"
 so.generated: true
-so.date: 02.15.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -37,8 +37,7 @@ Aggregates all subproviders, doing some work on linkhints.
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |id| *None* |!!id| x |
 |associateId|associate|Associate: SR\_SINGULAR\_ASSOCIATE\_TOOLTIP| x |
-|originatorFullName|associate|!!originatorFullName - Full name: !!originatorFullName| x |
-|receiverFullName|associate|!!receiverFullName - Full name: !!receiverFullName| x |
+|originatorFullName| *None* |!!originatorFullName|  |
 |notifyDateTime|datetime|!!notifyDateTime| x |
 |title| *None* |!!title|  |
 |updateType| *None* |!!updateType|  |
@@ -47,14 +46,14 @@ Aggregates all subproviders, doing some work on linkhints.
 |location| *None* |!!location|  |
 |isRecurring| *None* |!!isRecurring|  |
 |isEmailInvitation| *None* |!!isEmailInvitation|  |
+|invitedPersonId| *None* |!!invitedPersonId| x |
 |isSeen| *None* |!!isSeen|  |
-|recurringStartDateTime| *None* |!!recurringStartDate| x |
-|recurringEndDateTime| *None* |!!recurringEndDate| x |
+|hasConflict| *None* |!!hasConflict|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotificationAggregator?$select=receiverFullName,updateType
+GET /api/v1/archive/AppointmentNotificationAggregator?$select=notifyDateTime,startDateTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

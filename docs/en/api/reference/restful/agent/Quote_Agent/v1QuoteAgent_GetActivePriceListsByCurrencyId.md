@@ -75,8 +75,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 599,
-  "CurrencyId": 384
+  "QuoteConnectionId": 340,
+  "CurrencyId": 122
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 750,
-    "ERPPriceListKey": "molestiae",
-    "QuoteConnectionId": 388,
-    "Name": "Watsica Group",
-    "Description": "Organic well-modulated hub",
-    "Currency": "voluptatem",
-    "CurrencyName": "Nitzsche-Walter",
-    "ValidFrom": "1999-07-16T12:15:19.9477056+02:00",
-    "ValidTo": "2019-12-17T12:15:19.9477056+01:00",
+    "PriceListId": 679,
+    "ERPPriceListKey": "nostrum",
+    "QuoteConnectionId": 594,
+    "Name": "Ortiz LLC",
+    "Description": "Assimilated stable pricing structure",
+    "Currency": "impedit",
+    "CurrencyName": "Jast, Stokes and Torphy",
+    "ValidFrom": "2008-04-19T15:29:22.5732638+02:00",
+    "ValidTo": "2017-11-02T15:29:22.5732638+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 517
       }
     }
   }

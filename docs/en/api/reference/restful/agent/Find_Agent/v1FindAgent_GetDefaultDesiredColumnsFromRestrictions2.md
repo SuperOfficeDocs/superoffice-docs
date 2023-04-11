@@ -148,19 +148,19 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| DisplayName | string |  |
-| DisplayTooltip | string |  |
-| DisplayType | string |  |
-| CanOrderBy | bool |  |
-| Name | string |  |
-| CanRestrictBy | bool |  |
-| RestrictionType | string |  |
-| RestrictionListName | string |  |
-| IsVisible | bool |  |
-| ExtraInfo | string |  |
-| Width | string |  |
-| IconHint | string |  |
-| HeadingIconHint | string |  |
+| DisplayName | string | The column name to show, can be a resource identifier string |
+| DisplayTooltip | string | The column tooltip, used in the column list and in the column headings |
+| DisplayType | string | Type of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags. |
+| CanOrderBy | bool | Can this column be used for sorting? |
+| Name | string | Unique identity of this column (in this particular context); the name to be used when requesting the column from a provider, setting restrictions or order by criteria |
+| CanRestrictBy | bool | Can this column be used as a restriction |
+| RestrictionType | string | The data type of the restriction; use this to retrieve the legal operators for the restriction |
+| RestrictionListName | string | If the restriction data type is 'list', this property contains the name of the SoList so that choices can be shown |
+| IsVisible | bool | Is this column visible to the user in configuration dialogs etc |
+| ExtraInfo | string | Example: "navigator" -&gt; Should this column be mapped to a hyperlinked navigator text type? |
+| Width | string | The width specification, if the column info has been extended with GUI-based information. It is either "n%" or "nc", where n is an integer. Percent-formatted fields grow and shrink; number-of-characters formatted fields have constant width when the whole archive width changes. |
+| IconHint | string | Icon hint corresponding to the display name; this icon hint is used in the configuration dialog and other places where we 'talk about' the columns of the archive. The actual heading of the archive may also contain icons in lieu of textual names, the icon hint for that is specified in {SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.HeadingIconHint} and is a different one. |
+| HeadingIconHint | string | Icon hint for the archive heading only. If this is a nonempty string, the archive header should use this icon and ignore the {SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.DisplayName}. Otherwise, the DisplayName should be used as the heading. |
 
 ## Sample request
 
@@ -172,8 +172,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kassulke Group",
-  "Restrictions": "et"
+  "ProviderName": "Farrell Group",
+  "Restrictions": "quis"
 }
 ```
 
@@ -185,19 +185,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Smith Group",
-    "DisplayTooltip": "vero",
-    "DisplayType": "voluptate",
-    "CanOrderBy": false,
-    "Name": "Murphy Group",
-    "CanRestrictBy": false,
-    "RestrictionType": "voluptatibus",
-    "RestrictionListName": "Herzog, Fritsch and Dooley",
+    "DisplayName": "Ryan-Dare",
+    "DisplayTooltip": "necessitatibus",
+    "DisplayType": "expedita",
+    "CanOrderBy": true,
+    "Name": "Emard LLC",
+    "CanRestrictBy": true,
+    "RestrictionType": "placeat",
+    "RestrictionListName": "Walsh Inc and Sons",
     "IsVisible": false,
-    "ExtraInfo": "animi",
-    "Width": "fugiat",
-    "IconHint": "quod",
-    "HeadingIconHint": "et"
+    "ExtraInfo": "facilis",
+    "Width": "et",
+    "IconHint": "aut",
+    "HeadingIconHint": "qui"
   }
 ]
 ```

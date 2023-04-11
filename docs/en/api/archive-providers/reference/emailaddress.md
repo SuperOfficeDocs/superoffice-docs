@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "EmailAddress"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -495,7 +495,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=personAddress/city,contactSupportAssociate/lastName,nameDepartment
+GET /api/v1/archive/EmailAddress?$select=personAddress/county,updatedByFullName,contactAssociate/contactDepartment,contactUdef/SuperOffice:8,LastDoBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

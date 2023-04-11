@@ -158,8 +158,8 @@ OK
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -171,13 +171,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lubowitz Group",
-  "ProviderName": "Brekke-McClure",
-  "SortOrder": "sunt",
-  "Restriction": "veritatis",
-  "Entities": "sapiente",
-  "Page": 701,
-  "PageSize": 814
+  "GuiName": "Cronin, Connelly and DuBuque",
+  "ProviderName": "Brown-Nitzsche",
+  "SortOrder": "tenetur",
+  "Restriction": "ipsa",
+  "Entities": "atque",
+  "Page": 831,
+  "PageSize": 463
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hyatt, Smith and Spinka",
-    "PrimaryKey": 492,
+    "EntityName": "Schultz-Yundt",
+    "PrimaryKey": 303,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ut",
-        "TooltipHint": "tempora",
-        "LinkHint": "adipisci"
+        "DisplayValue": "magni",
+        "TooltipHint": "quia",
+        "LinkHint": "molestias"
       }
     },
-    "LinkHint": "rerum",
-    "StyleHint": "sit",
+    "LinkHint": "autem",
+    "StyleHint": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 453
       }
     }
   }

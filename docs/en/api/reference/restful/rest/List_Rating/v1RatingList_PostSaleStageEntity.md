@@ -65,8 +65,8 @@ OK
 | Probability | int32 | The numeric probability of the sale |
 | Deleted | bool | If true, the Sale stage is deleted |
 | Rank | int32 | Rank order |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 426,
-  "Value": "omnis",
-  "Tooltip": "voluptatem",
-  "Probability": 745,
-  "Deleted": false,
-  "Rank": 269
+  "SaleStageId": 210,
+  "Value": "ratione",
+  "Tooltip": "occaecati",
+  "Probability": 295,
+  "Deleted": true,
+  "Rank": 731
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 231,
-  "Value": "quidem",
-  "Tooltip": "et",
-  "Probability": 397,
+  "SaleStageId": 950,
+  "Value": "aut",
+  "Tooltip": "possimus",
+  "Probability": 336,
   "Deleted": false,
-  "Rank": 870,
+  "Rank": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 546
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   }
 }

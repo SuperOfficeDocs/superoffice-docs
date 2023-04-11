@@ -72,8 +72,8 @@ OK
 | SunStop | date-time | The work hour stop for Sundays. Note that only the time part of the DateTime is used |
 | NonDates | array | Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime. Exception - it IS possible to include a year here, for dates that should not repeat every year |
 | EscalationLevels | array | Escalation levels bound to the parent priority |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,60 +91,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 310,
-  "Name": "Jakubowski Inc and Sons",
+  "TicketPriorityId": 180,
+  "Name": "Johnson-Schuster",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 950,
+  "SortOrder": 182,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 16,
-  "MonStart": "2020-04-18T12:15:28.5586133+02:00",
-  "MonStop": "2013-08-01T12:15:28.5586133+02:00",
-  "TueStart": "2004-05-26T12:15:28.5586133+02:00",
-  "TueStop": "2021-04-28T12:15:28.5586133+02:00",
-  "WedStart": "2002-07-19T12:15:28.5586133+02:00",
-  "WedStop": "2014-08-17T12:15:28.5586133+02:00",
-  "ThuStart": "2018-02-10T12:15:28.5586133+01:00",
-  "ThuStop": "2006-08-02T12:15:28.5586133+02:00",
-  "FriStart": "2005-03-31T12:15:28.5586133+02:00",
-  "FriStop": "2012-09-21T12:15:28.5586133+02:00",
-  "SatStart": "1996-03-14T12:15:28.5586133+01:00",
-  "SatStop": "2020-07-10T12:15:28.5586133+02:00",
-  "SunStart": "2011-07-29T12:15:28.5586133+02:00",
-  "SunStop": "1996-05-06T12:15:28.5586133+02:00",
+  "Deadline": 763,
+  "MonStart": "2001-06-01T15:29:31.6679724+02:00",
+  "MonStop": "2014-11-01T15:29:31.6679724+01:00",
+  "TueStart": "2004-02-20T15:29:31.6679724+01:00",
+  "TueStop": "2001-02-02T15:29:31.6679724+01:00",
+  "WedStart": "2016-11-29T15:29:31.6679724+01:00",
+  "WedStop": "2003-08-08T15:29:31.6679724+02:00",
+  "ThuStart": "2013-07-04T15:29:31.6679724+02:00",
+  "ThuStop": "2022-03-17T15:29:31.6679724+01:00",
+  "FriStart": "2012-01-17T15:29:31.6679724+01:00",
+  "FriStop": "1997-06-22T15:29:31.6679724+02:00",
+  "SatStart": "2007-04-13T15:29:31.6679724+02:00",
+  "SatStop": "2020-01-09T15:29:31.6679724+01:00",
+  "SunStart": "2020-07-19T15:29:31.6679724+02:00",
+  "SunStop": "1996-12-21T15:29:31.6679724+01:00",
   "NonDates": [
-    "quia",
-    "doloremque"
+    "modi",
+    "totam"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 114,
-      "AlertLevel": 26,
-      "AlertTimeout": 142,
-      "Action": 421,
-      "DelegateTo": 614,
-      "ScriptId": 733,
-      "EmailTo": "jaclyn@greenfelder.co.uk",
-      "SmsTo": "voluptatem",
-      "ReplyTemplateIdCustomer": 761,
-      "ReplyTemplateIdUser": 88,
-      "ReplyTemplateIdCatmast": 203,
-      "ReplyTemplateIdEmail": 327,
-      "RtiCustomerSms": 856,
-      "ReplyTemplateIdUserSms": 99,
-      "ReplyTemplateIdCatmastSms": 784,
-      "ReplyTemplateIdSms": 14,
+      "TicketAlertId": 753,
+      "AlertLevel": 101,
+      "AlertTimeout": 955,
+      "Action": 428,
+      "DelegateTo": 546,
+      "ScriptId": 32,
+      "EmailTo": "edmund_jenkins@kuhlman.ca",
+      "SmsTo": "ullam",
+      "ReplyTemplateIdCustomer": 437,
+      "ReplyTemplateIdUser": 107,
+      "ReplyTemplateIdCatmast": 911,
+      "ReplyTemplateIdEmail": 572,
+      "RtiCustomerSms": 690,
+      "ReplyTemplateIdUserSms": 235,
+      "ReplyTemplateIdCatmastSms": 85,
+      "ReplyTemplateIdSms": 158,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 292
+          "FieldLength": 221
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldType": "System.String",
+      "FieldLength": 455
     }
   }
 }

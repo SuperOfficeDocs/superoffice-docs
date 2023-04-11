@@ -69,8 +69,8 @@ OK
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,19 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 375,
-  "Name": "Cassin, Jones and Borer",
-  "Tooltip": "qui",
-  "Rank": 726,
-  "Key": "quo",
-  "MailTemplateId": 697,
+  "ConsentSourceId": 41,
+  "Name": "Schimmel, Lubowitz and Kshlerin",
+  "Tooltip": "minus",
+  "Rank": 373,
+  "Key": "consequatur",
+  "MailTemplateId": 482,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldLength": 530
     }
   }
 }

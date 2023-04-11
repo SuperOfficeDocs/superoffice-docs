@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Marvin Inc and Sons",
-    "AssociateId": 569,
-    "DetailsTable": 415,
-    "DetailsRecord": 897,
+    "Id": 775,
+    "Name": "Krajcik-Kunde",
+    "AssociateId": 385,
+    "DetailsTable": 366,
+    "DetailsRecord": 699,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quis",
-      "ParameterObject2": "modi"
+      "ParameterObject1": "vero",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2022-07-06T12:15:18.2047623+02:00",
-    "Created": "2005-12-24T12:15:18.2047623+01:00",
-    "StartCount": 452,
-    "DatabaseSerialNumber": "894620",
-    "Context": "nihil",
-    "Result": "quis",
+    "LastStarted": "1996-09-29T15:29:20.8232892+02:00",
+    "Created": "2005-08-04T15:29:20.8232892+02:00",
+    "StartCount": 36,
+    "DatabaseSerialNumber": "575101",
+    "Context": "ducimus",
+    "Result": "veritatis",
     "State": "All",
-    "Description": "Reduced national hierarchy",
-    "Response": "voluptatem",
-    "Request": "ducimus",
-    "ProgressDescription": "Cross-platform interactive capability",
-    "ProgressPercent": 95,
-    "FileName": "Ondricka-Bartoletti",
+    "Description": "Synchronised intangible help-desk",
+    "Response": "quisquam",
+    "Request": "dolorem",
+    "ProgressDescription": "Intuitive attitude-oriented utilisation",
+    "ProgressPercent": 759,
+    "FileName": "Dare LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldType": "System.String",
+        "FieldLength": 702
       }
     }
   }

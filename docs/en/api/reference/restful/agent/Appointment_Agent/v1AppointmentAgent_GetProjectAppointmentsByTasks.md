@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -130,13 +130,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 134,
-  "StartTime": "2015-07-24T12:15:17.6337707+02:00",
-  "EndTime": "2004-09-06T12:15:17.6337707+02:00",
-  "Count": 412,
+  "ProjectId": 375,
+  "StartTime": "2010-09-06T15:29:20.2468262+02:00",
+  "EndTime": "2020-12-20T15:29:20.2468262+01:00",
+  "Count": 246,
   "TaskIds": [
-    884,
-    624
+    113,
+    52
   ]
 }
 ```
@@ -149,53 +149,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 874,
-    "StartDate": "2002-09-27T12:15:17.634771+02:00",
-    "EndDate": "2000-09-18T12:15:17.634771+02:00",
+    "AppointmentId": 640,
+    "StartDate": "2022-01-14T15:29:20.2483243+01:00",
+    "EndDate": "2011-11-15T15:29:20.2483243+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nam",
-    "AssociateFullName": "Felicita Will",
-    "ContactName": "Senger LLC",
-    "Description": "Ameliorated zero administration implementation",
-    "PersonFullName": "Mr. Turner Sunny Mitchell",
-    "PersonId": 121,
-    "ContactId": 325,
-    "ProjectId": 385,
-    "ProjectName": "Dooley Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 933,
-    "ColorIndex": 893,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "et",
+    "AssociateFullName": "Miss Jo Laron Bruen",
+    "ContactName": "Ferry-Ferry",
+    "Description": "Face to face methodical secured line",
+    "PersonFullName": "Mrs. Lonnie Tromp DDS",
+    "PersonId": 319,
+    "ContactId": 10,
+    "ProjectId": 991,
+    "ProjectName": "Homenick, Ferry and Franecki",
+    "IsPublished": true,
+    "AssociateId": 284,
+    "ColorIndex": 915,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 504,
-    "PriorityName": "Dare LLC",
+    "PriorityId": 511,
+    "PriorityName": "Runte, Mayer and Kuhlman",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2013-07-26T12:15:17.6357713+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2015-06-02T15:29:20.2488269+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-09-09T12:15:17.6357713+02:00",
-    "RecurringEndDate": "2002-06-03T12:15:17.6357713+02:00",
-    "MotherId": 728,
-    "AssignedBy": 525,
-    "AssignedByFullName": "Mr. Wilhelmine Cormier",
+    "RecurringStartDate": "1999-10-07T15:29:20.2488269+02:00",
+    "RecurringEndDate": "2004-07-22T15:29:20.2488269+02:00",
+    "MotherId": 261,
+    "AssignedBy": 839,
+    "AssignedByFullName": "Darron Gutmann",
     "RejectReason": "",
-    "Location": "sunt",
-    "AlarmLeadTime": "repellendus",
-    "SaleId": 166,
-    "SaleName": "Ullrich LLC",
-    "AssociateName": "Donnelly, Reichel and Schimmel",
-    "CreatedDate": "2002-03-03T12:15:17.6357713+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Dorthy Stephanie Schimmel IV",
-    "CreatedByAssociateId": 368,
+    "Location": "ut",
+    "AlarmLeadTime": "quam",
+    "SaleId": 412,
+    "SaleName": "Kuphal Group",
+    "AssociateName": "Champlin Group",
+    "CreatedDate": "2016-12-12T15:29:20.2493254+01:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Summer Gladyce Gaylord Jr.",
+    "CreatedByAssociateId": 36,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -203,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 386
+        "FieldLength": 949
       }
     }
   }

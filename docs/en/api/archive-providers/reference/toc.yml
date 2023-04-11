@@ -201,7 +201,15 @@ items:
   href: emailaddress.md
 - name: Emailcontactaddress
   href: emailcontactaddress.md
-- name: Emailpersonaddress
+- name: EmailFlowFolders
+  href: emailflowfolders.md
+- name: EmailFlowInstances
+  href: emailflowinstances.md
+- name: EmailFlows
+  href: emailflows.md
+- name: EmailFlowsAndFolders
+  href: emailflowsandfolders.md
+- name: EmailPersonAddress
   href: emailpersonaddress.md
 - name: ErpConnection
   href: erpconnection.md
@@ -641,6 +649,8 @@ items:
   href: ticketfavouriteupdatednotification.md
 - name: TicketMessage
   href: ticketmessage.md
+- name: TicketNewMessageNotification
+  href: ticketnewmessagenotification.md
 - name: TicketNewNotification
   href: ticketnewnotification.md
 - name: TicketNotification
@@ -677,8 +687,6 @@ items:
   href: ticketstaticselectionv2.md
 - name: TicketTransferredNotification
   href: tickettransferrednotification.md
-- name: TicketUpdatedNotification
-  href: ticketupdatednotification.md
 - name: TimeZones
   href: timezones.md
 - name: UnassignedTickets

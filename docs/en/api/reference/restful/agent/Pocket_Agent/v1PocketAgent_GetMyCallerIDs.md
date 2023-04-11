@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "est",
-  "MinDate": "2007-10-23T12:15:19.7577402+02:00",
-  "MaxDate": "2017-04-04T12:15:19.7577402+02:00"
+  "LastHash": "qui",
+  "MinDate": "1998-05-21T15:29:22.3883004+02:00",
+  "MaxDate": "1999-03-16T15:29:22.3883004+01:00"
 }
 ```
 
@@ -90,16 +90,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "eveniet",
+  "CallerIDHash": "aut",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 293,
-      "PersonId": 414,
-      "PersonName": "Jewess, Schaefer and Witting",
-      "Mrmrs": "aut",
-      "ContactId": 390,
-      "ContactName": "Lueilwitz-Hoppe"
+      "DialInPrefix": 733,
+      "PersonId": 710,
+      "PersonName": "Barrows-Roberts",
+      "Mrmrs": "consequuntur",
+      "ContactId": 417,
+      "ContactName": "Bradtke, Fahey and Ziemann"
     }
   ]
 }

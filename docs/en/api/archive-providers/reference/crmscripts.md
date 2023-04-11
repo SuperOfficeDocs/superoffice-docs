@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "CRMScripts"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -45,6 +45,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |extraMenuId| *None* |ExtraMenuId: Foreign key to the extra\_menu table|  |
 |hierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
 |hierarchyFullname| *None* |Hierarchy name: The full name/path from table hierarchy|  |
+|hierarchyName| *None* |Hierarchy name: The full name/path from table hierarchy|  |
+|hierarchyParentId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
 |screenChooserId| *None* |ScreenChooser ID: Primary key for table ScreenChooser|  |
 |screenType| *None* |ScreenType: Determines type of ScreenChooser|  |
 |enabled| *None* |Enabled: Enables or disables this ScreenChooser|  |
@@ -52,7 +54,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/CRMScripts?$select=updatedDate,ejscriptId
+GET /api/v1/archive/CRMScripts?$select=registeredBy,includeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

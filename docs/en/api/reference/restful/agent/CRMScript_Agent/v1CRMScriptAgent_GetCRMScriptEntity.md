@@ -27,7 +27,7 @@ Gets a CRMScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=688
+POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?cRMScriptEntityId=360
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity?$select=name,department,category/id
 ```
 
@@ -69,8 +69,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 403,
-  "UniqueIdentifier": "corrupti",
-  "Name": "Waters Group",
-  "Description": "Enhanced global toolset",
-  "IncludeId": "ratione",
-  "HierarchyId": 857,
-  "Source": "quas",
-  "Registered": "2012-07-27T12:15:18.6257589+02:00",
-  "RegisteredAssociateId": 620,
-  "Updated": "2013-04-07T12:15:18.6257589+02:00",
-  "UpdatedAssociateId": 811,
+  "EjscriptId": 70,
+  "UniqueIdentifier": "est",
+  "Name": "Murphy LLC",
+  "Description": "Intuitive dynamic installation",
+  "IncludeId": "ducimus",
+  "HierarchyId": 464,
+  "Source": "amet",
+  "Registered": "1996-05-27T15:29:21.2532824+02:00",
+  "RegisteredAssociateId": 990,
+  "Updated": "1999-10-09T15:29:21.2532824+02:00",
+  "UpdatedAssociateId": 992,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 516
     }
   }
 }

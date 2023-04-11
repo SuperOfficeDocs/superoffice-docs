@@ -94,8 +94,8 @@ SaleEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 559,
-  "ColumnId": 678,
-  "FieldDefault": "ullam",
-  "FieldHeight": 213,
-  "FieldLabel": "ea",
-  "FieldLeft": 550,
-  "FieldTop": 558,
+  "UDefFieldId": 441,
+  "ColumnId": 178,
+  "FieldDefault": "cupiditate",
+  "FieldHeight": 555,
+  "FieldLabel": "illum",
+  "FieldLeft": 323,
+  "FieldTop": 549,
   "FieldType": "Checkbox",
-  "FieldWidth": 592,
-  "FormatMask": "quia",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 980,
-  "LabelLeft": 523,
-  "LabelTop": 58,
-  "LabelWidth": 973,
-  "LastVersionId": 166,
-  "ListTableId": 862,
-  "IsMandatory": false,
+  "FieldWidth": 986,
+  "FormatMask": "debitis",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 929,
+  "LabelLeft": 689,
+  "LabelTop": 815,
+  "LabelWidth": 402,
+  "LastVersionId": 465,
+  "ListTableId": 219,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 226,
-  "ProgId": "doloremque",
+  "Page1LineNo": 348,
+  "ProgId": "earum",
   "IsReadOnly": false,
-  "ShortLabel": "rem",
-  "TabOrder": 715,
-  "TextLength": 390,
-  "Tooltip": "alias",
-  "UdefIdentity": 700,
-  "UDListDefinitionId": 401,
+  "ShortLabel": "ullam",
+  "TabOrder": 896,
+  "TextLength": 89,
+  "Tooltip": "velit",
+  "UdefIdentity": 276,
+  "UDListDefinitionId": 797,
   "Justification": "Center",
-  "Version": 653,
-  "TemplateVariableName": "Hilpert-Brekke",
-  "HasBeenPublished": false,
-  "MdoListName": "Legros-Abernathy",
+  "Version": 752,
+  "TemplateVariableName": "Oberbrunner, Collier and Nitzsche",
+  "HasBeenPublished": true,
+  "MdoListName": "Larson, Goyette and Leuschke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 166
     }
   }
 }

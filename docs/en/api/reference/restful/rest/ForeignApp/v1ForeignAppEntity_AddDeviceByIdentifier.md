@@ -59,8 +59,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -68,7 +68,7 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 646,
-  "Name": "Schmitt-Sipes",
-  "CreatedDate": "2020-03-15T12:15:26.9746363+01:00",
-  "UpdatedDate": "2001-04-05T12:15:26.9746363+02:00",
-  "AssociateFullName": "Emily Von",
-  "CreatedBy": "dignissimos",
-  "UpdatedBy": "maxime",
-  "DeviceIdentifier": "exercitationem",
-  "ForeignAppId": 890,
+  "ForeignDeviceId": 202,
+  "Name": "Gottlieb Inc and Sons",
+  "CreatedDate": "2006-07-29T15:29:29.7736985+02:00",
+  "UpdatedDate": "2012-07-02T15:29:29.7736985+02:00",
+  "AssociateFullName": "Mrs. Delbert Daphney Fisher MD",
+  "CreatedBy": "est",
+  "UpdatedBy": "aut",
+  "DeviceIdentifier": "nobis",
+  "ForeignAppId": 504,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 340
     }
   }
 }

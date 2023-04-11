@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -130,11 +130,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 232,
-  "StartTime": "2010-05-11T12:15:17.6387709+02:00",
-  "EndTime": "2005-11-16T12:15:17.6387709+01:00",
-  "Count": 271,
-  "TaskId": 810
+  "PersonId": 406,
+  "StartTime": "2015-03-02T15:29:20.2518279+01:00",
+  "EndTime": "2013-03-07T15:29:20.2518279+01:00",
+  "Count": 162,
+  "TaskId": 231
 }
 ```
 
@@ -146,61 +146,61 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 153,
-    "StartDate": "2013-08-12T12:15:17.6407705+02:00",
-    "EndDate": "2023-02-04T12:15:17.6407705+01:00",
+    "AppointmentId": 263,
+    "StartDate": "2020-06-12T15:29:20.2538283+02:00",
+    "EndDate": "2006-04-23T15:29:20.2538283+02:00",
     "Type": "BookingForChecklist",
-    "Task": "odit",
-    "AssociateFullName": "Casey Corwin",
-    "ContactName": "Durgan LLC",
-    "Description": "Diverse optimal synergy",
-    "PersonFullName": "Juana Goyette",
-    "PersonId": 809,
-    "ContactId": 467,
-    "ProjectId": 31,
-    "ProjectName": "Cummerata, Lowe and Goldner",
+    "Task": "inventore",
+    "AssociateFullName": "Hattie Kovacek",
+    "ContactName": "Marquardt-Gerlach",
+    "Description": "Multi-tiered fresh-thinking access",
+    "PersonFullName": "Dr. Granville Julien Price MD",
+    "PersonId": 1002,
+    "ContactId": 207,
+    "ProjectId": 489,
+    "ProjectName": "Wolf Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 773,
-    "ColorIndex": 659,
+    "AssociateId": 298,
+    "ColorIndex": 536,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 975,
-    "PriorityName": "Rippin-Little",
+    "PriorityId": 263,
+    "PriorityName": "Yundt-Beier",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2021-11-23T12:15:17.6407705+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2015-04-03T15:29:20.2543243+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-07-03T12:15:17.6407705+02:00",
-    "RecurringEndDate": "2004-10-06T12:15:17.6407705+02:00",
-    "MotherId": 274,
-    "AssignedBy": 339,
-    "AssignedByFullName": "Kendra Labadie",
+    "RecurringStartDate": "2009-09-18T15:29:20.2543243+02:00",
+    "RecurringEndDate": "2001-05-07T15:29:20.2543243+02:00",
+    "MotherId": 695,
+    "AssignedBy": 794,
+    "AssignedByFullName": "Allison Bosco",
     "RejectReason": "",
-    "Location": "sit",
-    "AlarmLeadTime": "sint",
-    "SaleId": 215,
-    "SaleName": "Schiller, Hackett and Ebert",
-    "AssociateName": "Runte-Hand",
-    "CreatedDate": "1999-06-28T12:15:17.6417705+02:00",
-    "CreatedBy": "earum",
-    "CreatedByFullName": "Alexandre Hoppe",
-    "CreatedByAssociateId": 402,
+    "Location": "veniam",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 972,
+    "SaleName": "Mohr, Gottlieb and Erdman",
+    "AssociateName": "Krajcik LLC",
+    "CreatedDate": "2013-12-07T15:29:20.2548247+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Arnulfo Hilpert",
+    "CreatedByAssociateId": 688,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 616
       }
     }
   }

@@ -52,8 +52,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 40,
-    "Name": "Keeling-Bergnaum",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 848,
-    "UdListDefinitionId": 306,
+    "HeadingId": 921,
+    "Name": "Nicolas, Shanahan and Jacobi",
+    "Tooltip": "facilis",
+    "Deleted": false,
+    "Rank": 380,
+    "UdListDefinitionId": 672,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 721
+        "FieldLength": 128
       }
     }
   }

@@ -77,8 +77,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Keefe, Fisher and Ruecker",
-  "ForceFlatList": true,
-  "AdditionalInfo": "itaque",
+  "Name": "Walter-Metz",
+  "ForceFlatList": false,
+  "AdditionalInfo": "voluptatibus",
   "OnlyHistory": false
 }
 ```
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Mueller, Schimmel and Keebler",
-    "ToolTip": "Non soluta voluptatem quasi.",
-    "Deleted": false,
-    "Rank": 384,
-    "Type": "provident",
+    "Id": 433,
+    "Name": "Thiel, Jakubowski and Larson",
+    "ToolTip": "Est magni.",
+    "Deleted": true,
+    "Rank": 67,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Hilpert-Ryan",
-        "ToolTip": "Ut dolores explicabo.",
+        "Id": 570,
+        "Name": "Carter-Leannon",
+        "ToolTip": "Tempore quasi.",
         "Deleted": false,
-        "Rank": 912,
-        "Type": "quisquam",
+        "Rank": 914,
+        "Type": "vitae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 631,
-        "ExtraInfo": "non",
-        "StyleHint": "eos",
-        "FullName": "Buddy Weimann IV",
+        "IconHint": "distinctio",
+        "ColorBlock": 917,
+        "ExtraInfo": "enim",
+        "StyleHint": "magni",
+        "FullName": "Prof. Anastacio Enid Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 719
+            "FieldLength": 582
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 628,
-    "ExtraInfo": "inventore",
-    "StyleHint": "temporibus",
-    "FullName": "Raphaelle Jenkins",
+    "IconHint": "labore",
+    "ColorBlock": 408,
+    "ExtraInfo": "atque",
+    "StyleHint": "animi",
+    "FullName": "Connor Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 144
       }
     }
   }

@@ -67,8 +67,8 @@ OK
 | Alarms | array |  |
 | PollingInterval | int32 |  |
 | SilentAfter | int32 |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
   "IncludeAllAppointments": false,
-  "DefaultAlarmLeadTimeInMinutes": 787
+  "DefaultAlarmLeadTimeInMinutes": 321
 }
 ```
 
@@ -95,47 +95,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 290,
-      "StartTime": "2008-11-17T12:15:17.69077+01:00",
-      "EndDate": "2012-10-15T12:15:17.69077+02:00",
-      "AlarmTime": "2017-10-25T12:15:17.69077+02:00",
-      "PersonId": 376,
-      "PersonFullName": "Thaddeus Stiedemann",
-      "ContactName": "Zemlak, Rath and Pouros",
-      "ProjectId": 662,
-      "ProjectName": "Upton Group",
-      "AppointmentText": "ut",
-      "SaleId": 813,
-      "SaleName": "Ebert Inc and Sons",
-      "Location": "laboriosam",
+      "AppointmentId": 892,
+      "StartTime": "2014-12-22T15:29:20.4373301+01:00",
+      "EndDate": "1999-07-28T15:29:20.4373301+02:00",
+      "AlarmTime": "1996-11-17T15:29:20.4373301+01:00",
+      "PersonId": 21,
+      "PersonFullName": "Caitlyn Balistreri",
+      "ContactName": "Cassin LLC",
+      "ProjectId": 255,
+      "ProjectName": "Sawayn-Kerluke",
+      "AppointmentText": "ad",
+      "SaleId": 881,
+      "SaleName": "Jast-Watsica",
+      "Location": "ut",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 445,
+      "ContactId": 310,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Dickinson, Schulist and Pagac",
-      "TaskName": "Schaden-Stehr",
+      "FormalName": "Marvin LLC",
+      "TaskName": "Walter, Keeling and Schmeler",
       "ContactDepartment": "",
-      "ContactFullName": "Percy Greenholt",
+      "ContactFullName": "Molly Hand",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldLength": 533
         }
       }
     }
   ],
-  "PollingInterval": 471,
-  "SilentAfter": 218,
+  "PollingInterval": 221,
+  "SilentAfter": 630,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 929
+      "FieldLength": 109
     }
   }
 }

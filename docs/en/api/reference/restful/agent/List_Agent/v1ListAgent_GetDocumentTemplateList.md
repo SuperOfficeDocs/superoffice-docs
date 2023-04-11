@@ -70,8 +70,8 @@ OK
 | Direction | string | 1 = incoming, 2 = outgoing, see EAppntDirection |
 | AutoeventId | int32 | Which document plugin is responsible for the documents generated from this template |
 | QuoteDocType | string | What type of quote document is this. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,23 +90,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 68,
-    "Name": "Lueilwitz-Feest",
-    "Tooltip": "ipsam",
-    "SaveInDb": 857,
-    "Filename": "non",
-    "DefaultOref": "quibusdam",
+    "DocumentTemplateId": 590,
+    "Name": "Schultz LLC",
+    "Tooltip": "sed",
+    "SaveInDb": 451,
+    "Filename": "sunt",
+    "DefaultOref": "ratione",
     "RecordType": "Appointment",
-    "Deleted": 428,
+    "Deleted": 104,
     "Direction": "Incoming",
-    "AutoeventId": 819,
+    "AutoeventId": 130,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 435
       }
     }
   }

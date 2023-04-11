@@ -137,8 +137,8 @@ SelectionEntity  updated.
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "nihil",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "nihil",
     "value": {}
   }
 ]
@@ -171,70 +171,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive high-level architecture",
-  "Postit": "iure",
+  "Description": "Down-sized 24/7 monitoring",
+  "Postit": "dolore",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 383,
-  "IncludePerson": 567,
-  "MemberCount": 654,
-  "Name": "Prohaska LLC",
-  "PostitTextId": 448,
-  "CreatedDate": "2019-10-24T12:15:27.3846295+02:00",
-  "SelectionId": 398,
-  "SoundEx": "aliquam",
-  "Source": 629,
-  "TextId": 90,
-  "UpdatedDate": "2008-10-22T12:15:27.3846295+02:00",
-  "UpdatedCount": 80,
-  "Visibility": 37,
+  "GroupIdx": 41,
+  "IncludePerson": 51,
+  "MemberCount": 216,
+  "Name": "Robel-Dickinson",
+  "PostitTextId": 866,
+  "CreatedDate": "2013-01-07T15:29:30.6104922+01:00",
+  "SelectionId": 250,
+  "SoundEx": "voluptas",
+  "Source": 242,
+  "TextId": 288,
+  "UpdatedDate": "2019-07-29T15:29:30.6104922+02:00",
+  "UpdatedCount": 588,
+  "Visibility": 759,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 931,
-  "TargetTableName": "Kertzmann Group",
+  "CompanyUnique": true,
+  "TargetTableNumber": 472,
+  "TargetTableName": "Abernathy, Orn and Glover",
   "Completed": false,
-  "LeftSelectionId": 635,
-  "RightSelectionId": 405,
+  "LeftSelectionId": 321,
+  "RightSelectionId": 458,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ondricka-Wolf",
-  "ShadowProviderName": "Ernser Inc and Sons",
-  "ChartKey": "amet",
-  "LastLoaded": "1996-11-23T12:15:27.3846295+01:00",
-  "LastLoadedBy": 521,
+  "MainProviderName": "Gerlach Group",
+  "ShadowProviderName": "Gleason, Paucek and Howell",
+  "ChartKey": "architecto",
+  "LastLoaded": "1999-02-24T15:29:30.6109873+01:00",
+  "LastLoadedBy": 736,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-03-21T12:15:27.3856318+01:00",
-  "LastMembershipChangeBy": 947,
+  "LastMembershipChange": "2013-09-19T15:29:30.6109873+02:00",
+  "LastMembershipChangeBy": 1001,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "distinctio",
-  "MemberTabHeading": "sint",
-  "MailingsProviderName": "Kuhn-Bednar",
-  "DashboardTileDefinitionId": 263,
+  "MainHeading": "beatae",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Pollich, Dare and Turcotte",
+  "DashboardTileDefinitionId": 547,
   "VisibleFor": [
     {
-      "VisibleId": 265,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldLength": 188
         }
       }
     },
     {
-      "VisibleId": 265,
+      "VisibleId": 559,
       "Visibility": "All",
-      "DisplayValue": "natus",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldLength": 188
         }
       }
     }
@@ -244,12 +244,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 838
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

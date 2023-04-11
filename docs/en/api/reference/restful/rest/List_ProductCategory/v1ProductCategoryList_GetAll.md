@@ -24,7 +24,7 @@ Gets all the ProductCategory items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductCategory/Items?includeDeleted=False
+GET /api/v1/List/ProductCategory/Items?includeDeleted=True
 ```
 
 
@@ -60,8 +60,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,18 +80,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Gusikowski Inc and Sons",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "UdListDefinitionId": 929,
-    "Rank": 835,
+    "Id": 327,
+    "Name": "Collier Inc and Sons",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 237,
+    "Rank": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

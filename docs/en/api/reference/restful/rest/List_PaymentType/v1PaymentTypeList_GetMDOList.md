@@ -26,7 +26,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=error
+GET /api/v1/List/PaymentType/MDOItems?query=nesciunt
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Oberbrunner Inc and Sons",
-    "ToolTip": "Deleniti et praesentium accusamus quas.",
-    "Deleted": true,
-    "Rank": 38,
-    "Type": "dolorem",
+    "Id": 86,
+    "Name": "Yundt, Mills and Bartell",
+    "ToolTip": "Sequi sit accusamus possimus unde voluptatem.",
+    "Deleted": false,
+    "Rank": 297,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 961,
-        "Name": "Cormier LLC",
-        "ToolTip": "Natus et suscipit vero.",
-        "Deleted": true,
-        "Rank": 407,
-        "Type": "dolore",
+        "Id": 132,
+        "Name": "Johnston, Funk and Crona",
+        "ToolTip": "Est autem ipsam consequuntur.",
+        "Deleted": false,
+        "Rank": 719,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "molestias",
-        "ColorBlock": 120,
-        "ExtraInfo": "alias",
-        "StyleHint": "ad",
-        "FullName": "Mr. Hester Hane",
+        "IconHint": "eligendi",
+        "ColorBlock": 256,
+        "ExtraInfo": "est",
+        "StyleHint": "nulla",
+        "FullName": "Pat Jarod Haley DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 27
+            "FieldLength": 643
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 64,
-    "ExtraInfo": "non",
-    "StyleHint": "quo",
-    "FullName": "Wilmer Harber V",
+    "IconHint": "error",
+    "ColorBlock": 740,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "porro",
+    "FullName": "Jessie Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

@@ -93,8 +93,8 @@ OK
 | ColumnData | object | Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. &lt;para/&gt;The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. &lt;para/&gt;Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip. |
 | LinkHint | string | Link hint for the row, indicating things like navigation links that can be presented as clickable hyperlinks |
 | StyleHint | string | Style hint for the row, for instance 'retired' for associates or 'private' for appointments. Presentation layers can interpret the style hints as they see fit. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,54 +102,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Brown-Graham",
+  "ProviderName": "Prohaska LLC",
   "Columns": [
-    "illo",
-    "sit"
+    "sunt",
+    "nostrum"
   ],
   "SortOrder": [
     {
-      "Name": "Moore, Bernier and Feil",
+      "Name": "Kuhn-Boehm",
       "Direction": "ASC"
     },
     {
-      "Name": "Moore, Bernier and Feil",
+      "Name": "Kuhn-Boehm",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Kuhn, Harris and Auer",
-      "Operator": "voluptates",
+      "Name": "Legros Group",
+      "Operator": "ea",
       "Values": [
-        "ut",
-        "rerum"
+        "repudiandae",
+        "sit"
       ],
       "DisplayValues": [
-        "cupiditate",
-        "nihil"
+        "veritatis",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 245,
+      "InterParenthesis": 338,
       "InterOperator": "And",
-      "UniqueHash": 781
+      "UniqueHash": 483
     }
   ],
   "Entities": [
-    "consequatur",
-    "voluptatem"
+    "dolores",
+    "incidunt"
   ],
-  "Page": 462,
-  "PageSize": 634
+  "Page": 354,
+  "PageSize": 637
 }
 ```
 
@@ -161,23 +161,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Conn-Kreiger",
-    "PrimaryKey": 565,
+    "EntityName": "Boyer, VonRueden and Effertz",
+    "PrimaryKey": 289,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "harum",
-        "TooltipHint": "vitae",
-        "LinkHint": "tempore"
+        "DisplayValue": "odio",
+        "TooltipHint": "consequatur",
+        "LinkHint": "sint"
       }
     },
-    "LinkHint": "in",
-    "StyleHint": "eum",
+    "LinkHint": "molestiae",
+    "StyleHint": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldLength": 771
       }
     }
   }

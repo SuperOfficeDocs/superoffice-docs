@@ -56,8 +56,8 @@ OK
 | HasGuide | bool | Does this project type have a guide attached |
 | IsAutoAdvance | bool | Does the project status advance automatically, when the last guided activity in a status is completed? |
 | Stages | array | Stages (project statuses), those associated with this ProjType are selected. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 240,
-  "Name": "Schaden-Hamill",
-  "Tooltip": "aliquam",
-  "Rank": 771,
+  "ProjTypeId": 50,
+  "Name": "Gleason Group",
+  "Tooltip": "minus",
+  "Rank": 225,
   "DurationUnit": "Century",
-  "ProjectDuration": 857,
-  "Deleted": true,
-  "HasGuide": true,
+  "ProjectDuration": 331,
+  "Deleted": false,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 634,
-      "Name": "Doyle, Murphy and Bradtke",
-      "ToolTip": "Recusandae eaque.",
-      "Deleted": false,
-      "Rank": 780,
-      "Type": "natus",
-      "ColorBlock": 279,
-      "IconHint": "et",
+      "Id": 97,
+      "Name": "Howe-Moen",
+      "ToolTip": "Perferendis delectus quaerat omnis vel voluptas id.",
+      "Deleted": true,
+      "Rank": 348,
+      "Type": "molestiae",
+      "ColorBlock": 417,
+      "IconHint": "ducimus",
       "Selected": false,
-      "LastChanged": "1996-07-15T12:15:19.3307464+02:00",
+      "LastChanged": "2020-10-20T15:29:22.0907716+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "omnis",
-      "Hidden": false,
-      "FullName": "Marquis Rau",
+      "ExtraInfo": "et",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Emelie Morar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldLength": 927
         }
       }
     }
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 145
     }
   }
 }

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "Kirlin-Quigley",
-    "ToolTip": "Quae mollitia cupiditate corrupti ipsum nisi rerum.",
+    "Id": 603,
+    "Name": "Kutch, Altenwerth and Collins",
+    "ToolTip": "Consequatur aut totam omnis aperiam veritatis.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "quibusdam",
-    "ColorBlock": 204,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2022-07-21T12:15:28.2426176+02:00",
+    "Rank": 116,
+    "Type": "debitis",
+    "ColorBlock": 762,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2003-03-07T15:29:31.3579768+01:00",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "Stroman Group",
-        "ToolTip": "Nam in ut aut adipisci necessitatibus praesentium eos.",
+        "Id": 266,
+        "Name": "Zemlak-Hayes",
+        "ToolTip": "Autem aut voluptatem doloribus sed magni blanditiis.",
         "Deleted": true,
-        "Rank": 643,
-        "Type": "officia",
-        "ColorBlock": 781,
-        "IconHint": "distinctio",
+        "Rank": 386,
+        "Type": "numquam",
+        "ColorBlock": 803,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2011-11-05T12:15:28.2426176+01:00",
+        "LastChanged": "1996-02-22T15:29:31.3579768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "et",
+        "ExtraInfo": "at",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Mrs. Narciso Daija Cartwright Jr."
+        "FullName": "Frederique Gleichner"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "veniam",
-    "Hidden": false,
-    "FullName": "Madilyn Ortiz"
+    "ExtraInfo": "labore",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Nella Blanda"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Schroeder-Weber",
-    "ToolTip": "Sit quia eaque veritatis unde ducimus eum.",
-    "Deleted": false,
-    "Rank": 463,
-    "Type": "et",
-    "ColorBlock": 485,
-    "IconHint": "laudantium",
+    "Id": 96,
+    "Name": "Mraz-Marks",
+    "ToolTip": "Ut maxime adipisci.",
+    "Deleted": true,
+    "Rank": 683,
+    "Type": "reprehenderit",
+    "ColorBlock": 888,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "1999-10-05T12:15:28.2446169+02:00",
+    "LastChanged": "2009-03-07T15:29:31.358978+01:00",
     "ChildItems": [
       {
-        "Id": 343,
-        "Name": "Sporer, Cummings and Goodwin",
-        "ToolTip": "Est sint odit.",
-        "Deleted": false,
-        "Rank": 506,
-        "Type": "molestiae",
-        "ColorBlock": 690,
-        "IconHint": "error",
+        "Id": 775,
+        "Name": "Prosacco Group",
+        "ToolTip": "Minima voluptatem adipisci sit non voluptatem et.",
+        "Deleted": true,
+        "Rank": 726,
+        "Type": "delectus",
+        "ColorBlock": 831,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2007-04-01T12:15:28.2446169+02:00",
+        "LastChanged": "1998-05-13T15:29:31.3599773+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quam",
-        "Hidden": false,
-        "FullName": "Mrs. Rosalinda Goyette",
+        "ExtraInfo": "est",
+        "StyleHint": "animi",
+        "Hidden": true,
+        "FullName": "Cynthia Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 166
+            "FieldType": "System.String",
+            "FieldLength": 797
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Ariane Bayer III",
+    "ExtraInfo": "eum",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Golda Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 230
       }
     }
   }

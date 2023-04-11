@@ -102,8 +102,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 615
+  "ContactId": 80
 }
 ```
 
@@ -127,52 +127,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "est",
-    "PersonId": 968,
-    "Mrmrs": "nobis",
-    "Firstname": "Katheryn",
-    "Lastname": "Goodwin",
-    "MiddleName": "Ziemann LLC",
-    "Title": "voluptatem",
-    "Description": "Exclusive dynamic moderator",
-    "Email": "mona@hirtheoberbrunner.biz",
-    "FullName": "Weston Parker",
-    "DirectPhone": "(483)893-1393",
-    "FormalName": "O'Keefe Inc and Sons",
-    "CountryId": 918,
-    "ContactId": 293,
-    "ContactName": "Roberts, Brekke and Schuster",
-    "Retired": 770,
-    "Rank": 71,
-    "ActiveInterests": 55,
+    "Position": "quia",
+    "PersonId": 861,
+    "Mrmrs": "ipsa",
+    "Firstname": "Eleazar",
+    "Lastname": "Bartell",
+    "MiddleName": "Hammes Inc and Sons",
+    "Title": "sunt",
+    "Description": "Organic disintermediate implementation",
+    "Email": "kenyon@koeppprohaska.com",
+    "FullName": "Garrick Hane",
+    "DirectPhone": "(349)269-8523 x264",
+    "FormalName": "D'Amore-Volkman",
+    "CountryId": 381,
+    "ContactId": 731,
+    "ContactName": "Rice, Feil and Wehner",
+    "Retired": 306,
+    "Rank": 18,
+    "ActiveInterests": 708,
     "ContactDepartment": "",
-    "ContactCountryId": 127,
-    "ContactOrgNr": "539373",
-    "FaxPhone": "(665)044-1905 x42274",
-    "MobilePhone": "(802)860-1834 x8443",
-    "ContactPhone": "1-413-884-6682 x0633",
-    "AssociateName": "Corkery Inc and Sons",
-    "AssociateId": 194,
-    "UsePersonAddress": true,
-    "ContactFax": "eum",
-    "Kanafname": "debitis",
-    "Kanalname": "sit",
-    "Post1": "voluptatem",
-    "Post2": "dolorum",
-    "Post3": "sed",
-    "EmailName": "juana@lockman.uk",
-    "ContactFullName": "Dr. Demetris Auer Sr.",
-    "ActiveErpLinks": 471,
-    "TicketPriorityId": 939,
-    "SupportLanguageId": 858,
-    "SupportAssociateId": 442,
+    "ContactCountryId": 745,
+    "ContactOrgNr": "971676",
+    "FaxPhone": "(568)076-1633 x81265",
+    "MobilePhone": "(380)910-3625",
+    "ContactPhone": "270.064.4091 x873",
+    "AssociateName": "Abernathy, Aufderhar and Heaney",
+    "AssociateId": 738,
+    "UsePersonAddress": false,
+    "ContactFax": "adipisci",
+    "Kanafname": "vitae",
+    "Kanalname": "officiis",
+    "Post1": "qui",
+    "Post2": "et",
+    "Post3": "et",
+    "EmailName": "van.bechtelar@adamsbode.uk",
+    "ContactFullName": "Raoul Romaguera",
+    "ActiveErpLinks": 267,
+    "TicketPriorityId": 371,
+    "SupportLanguageId": 672,
+    "SupportAssociateId": 987,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldLength": 324
       }
     }
   }

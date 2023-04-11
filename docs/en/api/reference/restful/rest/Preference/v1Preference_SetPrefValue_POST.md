@@ -61,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,21 +70,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ullam",
+  "RawValue": "sit",
   "Specification": null,
-  "DisplayValue": "ab",
+  "DisplayValue": "quo",
   "DisplayTooltip": "eum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 224,
-  "PrefDescId": 810,
-  "TableName": "Botsford LLC",
-  "UserPreferenceId": 582
+  "TargetId": 510,
+  "PrefDescId": 931,
+  "TableName": "DuBuque LLC",
+  "UserPreferenceId": 472
 }
 ```
 

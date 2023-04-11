@@ -82,8 +82,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "temporibus",
-  "Key": "est",
+  "Section": "ex",
+  "Key": "harum",
   "PreferenceDescription": null
 }
 ```
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 789,
-  "Section": "at",
-  "Key": "numquam",
-  "Name": "Miller LLC",
+  "PrefDescId": 873,
+  "Section": "in",
+  "Key": "tempore",
+  "Name": "Wolf Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Vision-oriented regional model",
-  "IsBuiltin": false,
-  "TableName": "Abshire-Jakubowski",
-  "UserDefinedListId": 79,
-  "Rank": 735,
-  "SubGroup": "dignissimos",
-  "MinLevel": 950,
-  "MaxValue": 897,
-  "MinValue": 358,
-  "RequiredLicense": "id",
+  "Description": "Cross-platform bi-directional task-force",
+  "IsBuiltin": true,
+  "TableName": "Kemmer, Thompson and Schaefer",
+  "UserDefinedListId": 727,
+  "Rank": 898,
+  "SubGroup": "quo",
+  "MinLevel": 245,
+  "MaxValue": 831,
+  "MinValue": 164,
+  "RequiredLicense": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldLength": 373
     }
   }
 }

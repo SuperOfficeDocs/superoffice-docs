@@ -60,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -73,22 +73,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 434,
+  "TicketMessageEntityId": 866,
   "To": [
-    "qui",
-    "veniam"
+    "quibusdam",
+    "vero"
   ],
   "Cc": [
-    "et",
-    "quam"
+    "ullam",
+    "ea"
   ],
   "Bcc": [
-    "dolore",
-    "rerum"
+    "sed",
+    "eaque"
   ],
-  "Subject": "et",
-  "ReplyTemplateId": 909,
-  "GdprSource": "mollitia"
+  "Subject": "repellat",
+  "ReplyTemplateId": 887,
+  "GdprSource": "odio"
 }
 ```
 

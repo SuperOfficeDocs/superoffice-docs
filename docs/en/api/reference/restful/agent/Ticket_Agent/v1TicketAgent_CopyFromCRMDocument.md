@@ -68,8 +68,9 @@ OK
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 165
+  "DocumentId": 445
 }
 ```
 
@@ -92,18 +93,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 879,
-  "Name": "White, Konopelski and Anderson",
-  "ContentType": "placeat",
-  "AttSize": 726,
+  "AttachmentId": 906,
+  "Name": "Armstrong Inc and Sons",
+  "ContentType": "aut",
+  "AttSize": 123,
   "InlineImage": false,
-  "ContentId": "ducimus",
+  "ContentId": "quia",
+  "AuthKey": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 739
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   }
 }

@@ -73,8 +73,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,18 +82,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consequuntur",
-  "Value": "atque",
-  "RecordId": 975,
-  "CreatedDate": "1998-05-10T12:15:26.9776352+02:00",
-  "UpdatedDate": "2020-02-17T12:15:26.9776352+01:00",
-  "UpdatedBy": "quam",
-  "CreatedBy": "expedita",
-  "TableName": "Turner Group"
+  "Key": "molestiae",
+  "Value": "tempora",
+  "RecordId": 189,
+  "CreatedDate": "2010-06-20T15:29:29.7771982+02:00",
+  "UpdatedDate": "1996-08-05T15:29:29.7771982+02:00",
+  "UpdatedBy": "commodi",
+  "CreatedBy": "consequatur",
+  "TableName": "Watsica-Batz"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "mollitia",
-  "Value": "qui",
-  "RecordId": 737,
-  "CreatedDate": "2013-12-12T12:15:26.9786352+01:00",
-  "UpdatedDate": "1997-12-17T12:15:26.9786352+01:00",
-  "UpdatedBy": "nam",
-  "CreatedBy": "enim",
-  "TableName": "Strosin LLC",
+  "Key": "numquam",
+  "Value": "ratione",
+  "RecordId": 909,
+  "CreatedDate": "2011-06-10T15:29:29.7776992+02:00",
+  "UpdatedDate": "2022-08-30T15:29:29.7776992+02:00",
+  "UpdatedBy": "unde",
+  "CreatedBy": "vel",
+  "TableName": "Thompson, Abshire and Volkman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 773
     }
   }
 }

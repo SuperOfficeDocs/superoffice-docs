@@ -59,7 +59,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/Contact/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 153,
-  "DestinationContactId": 961,
-  "MergeIdenticalPersons": true,
+  "SourceContactId": 769,
+  "DestinationContactId": 614,
+  "MergeIdenticalPersons": false,
   "ReplaceEmptyFieldsOnDestination": false
 }
 ```

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Schultz Inc and Sons",
-    "ToolTip": "Natus est.",
-    "Deleted": true,
-    "Rank": 936,
-    "Type": "sint",
-    "ColorBlock": 261,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2008-03-08T12:15:28.1136275+01:00",
+    "Id": 697,
+    "Name": "Stokes Inc and Sons",
+    "ToolTip": "Ullam illum aliquam.",
+    "Deleted": false,
+    "Rank": 535,
+    "Type": "aut",
+    "ColorBlock": 675,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2006-01-09T15:29:31.2239794+01:00",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Wintheiser, Connelly and Miller",
-        "ToolTip": "Cumque voluptatum voluptas quidem quibusdam nostrum quia.",
+        "Id": 758,
+        "Name": "Moore, Macejkovic and Thompson",
+        "ToolTip": "Aut voluptatem alias natus.",
         "Deleted": false,
-        "Rank": 956,
-        "Type": "velit",
-        "ColorBlock": 353,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "2002-06-11T12:15:28.1136275+02:00",
+        "Rank": 287,
+        "Type": "explicabo",
+        "ColorBlock": 10,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "1997-05-03T15:29:31.2239794+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "ut",
+        "ExtraInfo": "iure",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Norene Hickle"
+        "FullName": "Mrs. Burdette Freeman Nolan"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "nemo",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Rex Runolfsson"
+    "FullName": "Jackeline Larue Ziemann II"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Fadel-Cummings",
-    "ToolTip": "Dolor perspiciatis asperiores recusandae ut aliquid.",
-    "Deleted": true,
-    "Rank": 229,
-    "Type": "temporibus",
-    "ColorBlock": 639,
-    "IconHint": "minima",
+    "Id": 587,
+    "Name": "Hamill-Vandervort",
+    "ToolTip": "Asperiores dolor occaecati eos.",
+    "Deleted": false,
+    "Rank": 441,
+    "Type": "sed",
+    "ColorBlock": 988,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2016-08-31T12:15:28.1146186+02:00",
+    "LastChanged": "2018-11-04T15:29:31.226482+01:00",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Hane-Feeney",
-        "ToolTip": "Qui accusantium laudantium.",
-        "Deleted": true,
-        "Rank": 18,
-        "Type": "debitis",
-        "ColorBlock": 331,
-        "IconHint": "quia",
+        "Id": 534,
+        "Name": "Rohan, Little and Swaniawski",
+        "ToolTip": "Illum corporis aperiam quas.",
+        "Deleted": false,
+        "Rank": 516,
+        "Type": "cumque",
+        "ColorBlock": 119,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2012-09-13T12:15:28.1146186+02:00",
+        "LastChanged": "2016-03-25T15:29:31.226482+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "veniam",
+        "ExtraInfo": "odit",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Toney Kerluke",
+        "FullName": "Pinkie Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 908
+            "FieldType": "System.String",
+            "FieldLength": 526
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "sapiente",
-    "Hidden": false,
-    "FullName": "Dr. Ernesto Lubowitz Jr.",
+    "ExtraInfo": "placeat",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Berry McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldLength": 409
       }
     }
   }

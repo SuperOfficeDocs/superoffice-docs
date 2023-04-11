@@ -62,8 +62,8 @@ OK
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Value": "molestiae",
-    "Tooltip": "aut",
+    "Id": 772,
+    "Value": "sunt",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   },
   {
-    "Id": 397,
-    "Value": "molestiae",
-    "Tooltip": "aut",
+    "Id": 772,
+    "Value": "sunt",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldType": "System.Int32",
+        "FieldLength": 954
       }
     }
   }

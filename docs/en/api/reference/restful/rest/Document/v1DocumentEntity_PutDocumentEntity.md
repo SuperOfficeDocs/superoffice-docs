@@ -137,8 +137,8 @@ DocumentEntity updated.
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -151,73 +151,73 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 160,
+  "DocumentId": 317,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "quos",
-  "Name": "Hansen-Bernhard",
-  "OurRef": "et",
-  "YourRef": "iusto",
-  "CreatedDate": "2017-10-25T12:15:26.8626368+02:00",
-  "UpdatedDate": "2010-01-17T12:15:26.8626368+01:00",
-  "Description": "Robust background hardware",
+  "Attention": "quis",
+  "Header": "rerum",
+  "Name": "Wisozk-Kuhlman",
+  "OurRef": "sunt",
+  "YourRef": "delectus",
+  "CreatedDate": "2002-04-19T15:29:29.6761999+02:00",
+  "UpdatedDate": "2012-02-23T15:29:29.6761999+01:00",
+  "Description": "Programmable even-keeled complexity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-06-26T12:15:26.8676387+02:00",
-  "ExternalRef": "voluptatibus",
+  "Date": "2022-10-23T15:29:29.679701+02:00",
+  "ExternalRef": "eum",
   "Completed": "Completed",
-  "ActiveLinks": 581,
+  "ActiveLinks": 684,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kohler, Harber and Daniel",
-      "Id": 287,
-      "Description": "Stand-alone cohesive system engine",
-      "ExtraInfo": "autem",
-      "LinkId": 512
+      "EntityName": "Cremin Group",
+      "Id": 30,
+      "Description": "Intuitive executive capacity",
+      "ExtraInfo": "est",
+      "LinkId": 659
     },
     {
-      "EntityName": "Kohler, Harber and Daniel",
-      "Id": 287,
-      "Description": "Stand-alone cohesive system engine",
-      "ExtraInfo": "autem",
-      "LinkId": 512
+      "EntityName": "Cremin Group",
+      "Id": 30,
+      "Description": "Intuitive executive capacity",
+      "ExtraInfo": "est",
+      "LinkId": 659
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 460,
-  "Snum": 719,
+  "SuggestedDocumentId": 346,
+  "Snum": 194,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Lenna Wiza",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Reece Sawayn",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "molestias"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "id"
+    "CustomFields1": "saepe",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2008-05-06T12:15:26.8686392+02:00",
-  "PublishTo": "2016-10-01T12:15:26.8686392+02:00",
-  "PublishFrom": "2004-05-29T12:15:26.8686392+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-03-25T15:29:29.6801999+01:00",
+  "PublishTo": "1999-06-26T15:29:29.6801999+02:00",
+  "PublishFrom": "2002-01-21T15:29:29.6801999+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 742,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "earum"
+      "DisplayValue": "eum"
     },
     {
-      "VisibleId": 742,
+      "VisibleId": 37,
       "Visibility": "All",
-      "DisplayValue": "earum"
+      "DisplayValue": "eum"
     }
   ]
 }
@@ -230,88 +230,88 @@ HTTP/1.1 200 DocumentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 435,
+  "DocumentId": 192,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veritatis",
-  "Header": "nisi",
-  "Name": "Kuvalis, Hermann and Gutmann",
-  "OurRef": "voluptatum",
-  "YourRef": "aut",
-  "CreatedDate": "2020-08-13T12:15:26.8746373+02:00",
-  "UpdatedDate": "1999-02-05T12:15:26.8746373+01:00",
-  "Description": "Multi-tiered bandwidth-monitored strategy",
+  "Attention": "fugit",
+  "Header": "voluptas",
+  "Name": "Douglas Inc and Sons",
+  "OurRef": "nostrum",
+  "YourRef": "numquam",
+  "CreatedDate": "2003-11-07T15:29:29.6871998+01:00",
+  "UpdatedDate": "2017-06-06T15:29:29.6871998+02:00",
+  "Description": "Realigned contextually-based knowledge base",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-08-26T12:15:26.8786368+02:00",
-  "ExternalRef": "aut",
+  "Date": "2011-11-15T15:29:29.6902+01:00",
+  "ExternalRef": "quae",
   "Completed": "Completed",
-  "ActiveLinks": 256,
+  "ActiveLinks": 687,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wyman Group",
-      "Id": 366,
-      "Description": "Monitored optimal secured line",
-      "ExtraInfo": "sit",
-      "LinkId": 366,
+      "EntityName": "Leannon-Barrows",
+      "Id": 497,
+      "Description": "Profound systemic circuit",
+      "ExtraInfo": "dolorem",
+      "LinkId": 708,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldLength": 865
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 491,
-  "Snum": 660,
+  "SuggestedDocumentId": 226,
+  "Snum": 332,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Kellen Collier",
-    "SuperOffice:2": "Emely Willms"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1245815894"
   },
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "provident"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "nisi"
   },
-  "PublishEventDate": "2008-07-09T12:15:26.8796363+02:00",
-  "PublishTo": "2012-09-13T12:15:26.8796363+02:00",
-  "PublishFrom": "2018-05-10T12:15:26.8796363+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-12-12T15:29:29.691201+01:00",
+  "PublishTo": "1996-03-14T15:29:29.691201+01:00",
+  "PublishFrom": "2007-02-14T15:29:29.691201+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 7,
+      "VisibleId": 301,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 639
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     },
     {
-      "VisibleId": 7,
+      "VisibleId": 301,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 639
+          "FieldType": "System.Int32",
+          "FieldLength": 204
         }
       }
     }
@@ -321,7 +321,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 697
     }
   },
   "_Links": {

@@ -65,8 +65,8 @@ OK
 | Password | string | The password used to log into the mail account. This is hidden when reading |
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,13 +78,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 780,
+  "MailInFilterId": 742,
   "ServerType": "Facebook",
-  "Address": "fugit",
-  "Username": "repellat",
-  "Password": "nulla",
-  "Server": "perferendis",
-  "Port": 791
+  "Address": "eos",
+  "Username": "sed",
+  "Password": "earum",
+  "Server": "enim",
+  "Port": 582
 }
 ```
 
@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 297,
+  "MailInFilterId": 468,
   "ServerType": "Facebook",
-  "Address": "iste",
-  "Username": "odit",
-  "Password": "atque",
-  "Server": "non",
-  "Port": 409,
+  "Address": "ad",
+  "Username": "illum",
+  "Password": "doloribus",
+  "Server": "sint",
+  "Port": 427,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

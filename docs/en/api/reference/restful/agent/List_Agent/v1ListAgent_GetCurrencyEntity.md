@@ -25,7 +25,7 @@ Gets a CurrencyEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=543
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=369
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
 
@@ -63,8 +63,8 @@ OK
 | Rate | double | Exchange rate |
 | Units | double | Exchange unit scale (0.01, 0.1, 1, 10, 100 etc) |
 | Deleted | bool | 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 714,
-  "Name": "Gottlieb Inc and Sons",
-  "Tooltip": "facilis",
-  "Rank": 804,
-  "Rate": 28.206,
-  "Units": 2848.806,
-  "Deleted": true,
+  "CurrencyId": 781,
+  "Name": "Mills-Stark",
+  "Tooltip": "delectus",
+  "Rank": 376,
+  "Rate": 28942.489999999998,
+  "Units": 9063.528,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

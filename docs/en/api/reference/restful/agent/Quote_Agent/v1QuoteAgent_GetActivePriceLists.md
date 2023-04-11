@@ -75,8 +75,8 @@ OK
 | ValidFrom | date-time | The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date. |
 | ValidTo | date-time | The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date. |
 | IsActive | bool | Is the list active (as opposed to being worked on, suddenly canceled, etc. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 328,
-  "Currency": "quo"
+  "QuoteConnectionId": 33,
+  "Currency": "a"
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 661,
-    "ERPPriceListKey": "enim",
-    "QuoteConnectionId": 404,
-    "Name": "Johnston-Rogahn",
-    "Description": "Optimized foreground projection",
-    "Currency": "ipsa",
-    "CurrencyName": "Gislason Inc and Sons",
-    "ValidFrom": "2020-02-08T12:15:19.9467449+01:00",
-    "ValidTo": "1996-01-10T12:15:19.9467449+01:00",
+    "PriceListId": 634,
+    "ERPPriceListKey": "et",
+    "QuoteConnectionId": 387,
+    "Name": "Stark Inc and Sons",
+    "Description": "Face to face multimedia intranet",
+    "Currency": "vel",
+    "CurrencyName": "Durgan-Bauch",
+    "ValidFrom": "1997-07-10T15:29:22.5727639+02:00",
+    "ValidTo": "1998-03-01T15:29:22.5727639+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

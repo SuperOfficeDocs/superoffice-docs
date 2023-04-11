@@ -44,9 +44,9 @@ Criteria groups defining the selection result. Empty array is legal, simply mean
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | String |  |
-| Description | String |  |
-| Rank | Integer |  |
+| Name | String | Name of the group |
+| Description | String | Description of the group |
+| Rank | Integer | Rank of group among groups |
 | Restrictions | Array |  |
 
 ## Response:array
@@ -61,9 +61,9 @@ OK
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -72,63 +72,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murphy LLC",
-    "Description": "Balanced dedicated structure",
-    "Rank": 199,
+    "Name": "Bernhard-Hartmann",
+    "Description": "Function-based next generation algorithm",
+    "Rank": 159,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "facere",
+        "Name": "Reichert Inc and Sons",
+        "Operator": "molestiae",
         "Values": [
-          "quaerat",
-          "odit"
-        ],
-        "DisplayValues": [
-          "amet",
+          "enim",
           "quia"
         ],
+        "DisplayValues": [
+          "aut",
+          "exercitationem"
+        ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 223,
+        "InterParenthesis": 279,
         "InterOperator": "And",
-        "UniqueHash": 180
+        "UniqueHash": 271
       }
     ]
   },
   {
-    "Name": "Murphy LLC",
-    "Description": "Balanced dedicated structure",
-    "Rank": 199,
+    "Name": "Bernhard-Hartmann",
+    "Description": "Function-based next generation algorithm",
+    "Rank": 159,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "facere",
+        "Name": "Reichert Inc and Sons",
+        "Operator": "molestiae",
         "Values": [
-          "quaerat",
-          "odit"
-        ],
-        "DisplayValues": [
-          "amet",
+          "enim",
           "quia"
         ],
+        "DisplayValues": [
+          "aut",
+          "exercitationem"
+        ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 223,
+        "InterParenthesis": 279,
         "InterOperator": "And",
-        "UniqueHash": 180
+        "UniqueHash": 271
       }
     ]
   }
@@ -143,20 +143,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Donnelly Inc and Sons",
-    "Description": "Organized coherent analyzer",
-    "Rank": 11,
+    "Name": "Douglas Inc and Sons",
+    "Description": "Monitored client-driven strategy",
+    "Rank": 176,
     "Restrictions": [
       {
-        "Name": "Torphy-Ledner",
-        "Operator": "et",
+        "Name": "Huels Inc and Sons",
+        "Operator": "maiores",
         "Values": [
-          "dolore",
-          "at"
+          "assumenda",
+          "in"
         ],
         "DisplayValues": [
           "qui",
-          "commodi"
+          "soluta"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -164,27 +164,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 335,
+        "InterParenthesis": 51,
         "InterOperator": "And",
-        "UniqueHash": 977
+        "UniqueHash": 409
       }
     ]
   },
   {
-    "Name": "Donnelly Inc and Sons",
-    "Description": "Organized coherent analyzer",
-    "Rank": 11,
+    "Name": "Douglas Inc and Sons",
+    "Description": "Monitored client-driven strategy",
+    "Rank": 176,
     "Restrictions": [
       {
-        "Name": "Torphy-Ledner",
-        "Operator": "et",
+        "Name": "Huels Inc and Sons",
+        "Operator": "maiores",
         "Values": [
-          "dolore",
-          "at"
+          "assumenda",
+          "in"
         ],
         "DisplayValues": [
           "qui",
-          "commodi"
+          "soluta"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -192,9 +192,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 335,
+        "InterParenthesis": 51,
         "InterOperator": "And",
-        "UniqueHash": 977
+        "UniqueHash": 409
       }
     ]
   }

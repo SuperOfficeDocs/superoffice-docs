@@ -58,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ea",
-  "ProviderName": "Hammes-Hand",
-  "StorageKey": "fuga",
-  "Rank": 180,
-  "Context": "eos"
+  "StorageType": "voluptas",
+  "ProviderName": "Robel-Moen",
+  "StorageKey": "aut",
+  "Rank": 554,
+  "Context": "minus"
 }
 ```
 

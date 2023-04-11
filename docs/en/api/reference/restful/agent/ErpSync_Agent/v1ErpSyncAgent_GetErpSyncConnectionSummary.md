@@ -70,8 +70,8 @@ OK
 | Deleted | bool | Is the connection deleted |
 | LastSync | date-time | The time of the last sync |
 | Actors | array | Summaries of the configuration of the actors configured for this connection |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 12
+  "ErpSyncConnectionId": 137
 }
 ```
 
@@ -94,37 +94,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Parker-Waelchi",
-  "DisplayDescription": "Multi-channelled next generation encoding",
+  "DisplayName": "Armstrong-Willms",
+  "DisplayDescription": "Right-sized background architecture",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2011-09-13T12:15:19.0767497+02:00",
+  "LastSync": "2015-04-28T15:29:21.8407749+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "qui",
-      "Mappings": "voluptas",
+      "Defaults": "velit",
+      "Mappings": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldLength": 622
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "qui",
-      "Mappings": "voluptas",
+      "Defaults": "velit",
+      "Mappings": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 186
+          "FieldLength": 622
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   }
 }

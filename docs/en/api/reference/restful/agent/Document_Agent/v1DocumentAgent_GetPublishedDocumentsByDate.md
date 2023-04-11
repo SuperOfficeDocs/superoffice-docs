@@ -88,8 +88,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,11 +101,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 205,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2002-06-20T12:15:18.70576+02:00",
-  "EndTime": "2016-02-15T12:15:18.70576+01:00",
-  "Count": 716
+  "PersonId": 63,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2000-10-31T15:29:21.4657795+01:00",
+  "EndTime": "2018-09-06T15:29:21.4657795+02:00",
+  "Count": 491
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 756,
-    "Attention": "ut",
-    "Header": "in",
-    "Name": "Bogan Group",
-    "OurRef": "magni",
-    "YourRef": "modi",
-    "Description": "Switchable composite artificial intelligence",
-    "DocumentTemplate": "sunt",
-    "IsPublished": true,
-    "PersonId": 697,
-    "PersonFullName": "Dr. Archibald Flatley Jr.",
-    "AssociateFullName": "Ms. Anthony Dwight Schaefer Jr.",
-    "ContactId": 304,
-    "ContactName": "White, Haley and Barton",
-    "ProjectId": 962,
-    "ProjectName": "Harris, Satterfield and Batz",
-    "AssociateId": 334,
-    "Snum": 63,
-    "SaleId": 924,
-    "SaleName": "Murphy, Jones and Tillman",
+    "DocumentId": 646,
+    "Attention": "omnis",
+    "Header": "nemo",
+    "Name": "Collier, Brown and Bogisich",
+    "OurRef": "recusandae",
+    "YourRef": "pariatur",
+    "Description": "Distributed systemic hardware",
+    "DocumentTemplate": "minima",
+    "IsPublished": false,
+    "PersonId": 828,
+    "PersonFullName": "Mr. Emmanuelle Glover III",
+    "AssociateFullName": "Jadyn Predovic",
+    "ContactId": 97,
+    "ContactName": "Pfeffer-Labadie",
+    "ProjectId": 256,
+    "ProjectName": "Hessel, Schaden and Bernier",
+    "AssociateId": 341,
+    "Snum": 768,
+    "SaleId": 557,
+    "SaleName": "Nolan LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 577
       }
     }
   }

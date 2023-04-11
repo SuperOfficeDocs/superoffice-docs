@@ -78,8 +78,8 @@ OK
 | PrerequisiteModuleName | string | Name of module that must be active for this license to be used. |
 | SortOrder | int32 | Sort order of licenses. |
 | ExtraFlags | int32 | License flags. 1 = user plan |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 663,
-  "ModuleOwner": "incidunt",
+  "AssociateId": 127,
+  "ModuleOwner": "non",
   "ModuleLicenseNames": [
-    "Kassulke Group",
-    "McGlynn Inc and Sons"
+    "Lehner-Adams",
+    "Nader, Witting and Dach"
   ]
 }
 ```
@@ -109,25 +109,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 989,
-    "Tooltip": "adipisci",
-    "CanAssign": false,
-    "Free": 109,
-    "InUse": 989,
+    "Total": 182,
+    "Tooltip": "ut",
+    "CanAssign": true,
+    "Free": 512,
+    "InUse": 232,
     "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 564,
-    "Name": "Moore, Fadel and Lakin",
-    "Description": "Re-engineered tangible local area network",
-    "PrerequisiteModuleName": "Koepp, Paucek and Hills",
-    "SortOrder": 795,
-    "ExtraFlags": 483,
+    "Assigned": false,
+    "ModuleLicenseId": 291,
+    "Name": "Ondricka Group",
+    "Description": "Diverse optimizing hub",
+    "PrerequisiteModuleName": "Pagac-Bednar",
+    "SortOrder": 792,
+    "ExtraFlags": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 263
       }
     }
   }

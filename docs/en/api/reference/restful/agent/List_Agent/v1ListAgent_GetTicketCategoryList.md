@@ -77,8 +77,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,36 +97,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 265,
-    "ParentId": 558,
-    "Name": "Senger LLC",
-    "Fullname": "amet",
-    "CategoryMaster": 921,
+    "TicketCategoryId": 861,
+    "ParentId": 1001,
+    "Name": "Crooks, Watsica and Waters",
+    "Fullname": "et",
+    "CategoryMaster": 238,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Vandervort Inc and Sons",
+    "ExternalName": "Kemmer Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 406,
-    "ReplyTemplate": 893,
-    "NotificationEmail": "magnolia_abshire@padbergebert.co.uk",
+    "AssignmentLag": 286,
+    "ReplyTemplate": 426,
+    "NotificationEmail": "johnson@littelpagac.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 392,
+    "EffectiveReplyTemplateId": 395,
     "ExtraFields": {
-      "ExtraFields1": "architecto",
-      "ExtraFields2": "eligendi"
+      "ExtraFields1": "assumenda",
+      "ExtraFields2": "nobis"
     },
     "CustomFields": {
-      "CustomFields1": "reiciendis",
-      "CustomFields2": "nostrum"
+      "CustomFields1": "quam",
+      "CustomFields2": "distinctio"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 230
       }
     }
   }

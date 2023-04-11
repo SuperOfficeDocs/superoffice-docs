@@ -96,8 +96,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 225
+  "SuggestedDocumentId": 145
 }
 ```
 
@@ -120,88 +120,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 4,
+  "DocumentId": 656,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quas",
-  "Header": "inventore",
-  "Name": "Lind Inc and Sons",
-  "OurRef": "voluptas",
-  "YourRef": "debitis",
-  "CreatedDate": "2017-06-22T12:15:18.8697527+02:00",
-  "UpdatedDate": "2022-11-03T12:15:18.8697527+01:00",
-  "Description": "Programmable local array",
+  "Attention": "qui",
+  "Header": "aut",
+  "Name": "Bechtelar-Weimann",
+  "OurRef": "earum",
+  "YourRef": "repellendus",
+  "CreatedDate": "2011-11-09T15:29:21.634812+01:00",
+  "UpdatedDate": "2010-03-29T15:29:21.634812+02:00",
+  "Description": "Diverse bottom-line open architecture",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-01-07T12:15:18.8737528+01:00",
-  "ExternalRef": "ut",
+  "Date": "2017-03-22T15:29:21.6388111+01:00",
+  "ExternalRef": "reiciendis",
   "Completed": "Completed",
-  "ActiveLinks": 354,
+  "ActiveLinks": 100,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schmeler-Wunsch",
-      "Id": 142,
-      "Description": "Ameliorated national process improvement",
-      "ExtraInfo": "quam",
-      "LinkId": 529,
+      "EntityName": "Hettinger, Walter and Gibson",
+      "Id": 70,
+      "Description": "Decentralized web-enabled interface",
+      "ExtraInfo": "aliquid",
+      "LinkId": 403,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldLength": 36
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 414,
-  "Snum": 894,
+  "SuggestedDocumentId": 913,
+  "Snum": 30,
   "UserDefinedFields": {
-    "SuperOffice:1": "844389439",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mikel Monahan",
+    "SuperOffice:2": "Wava Yost"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "ex"
+    "CustomFields1": "est",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2001-02-28T12:15:18.8747551+01:00",
-  "PublishTo": "2010-01-21T12:15:18.8747551+01:00",
-  "PublishFrom": "2022-12-11T12:15:18.8747551+01:00",
+  "PublishEventDate": "1996-02-24T15:29:21.6398115+01:00",
+  "PublishTo": "2004-06-14T15:29:21.6398115+02:00",
+  "PublishFrom": "2003-06-29T15:29:21.6398115+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 737,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldLength": 342
         }
       }
     },
     {
-      "VisibleId": 737,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 57
+          "FieldLength": 342
         }
       }
     }
@@ -211,7 +211,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 673
     }
   }
 }

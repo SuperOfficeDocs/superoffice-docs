@@ -69,8 +69,8 @@ ForeignAppEntity found.
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -87,32 +87,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 26 Jan 2005 12:15:26 G1T
+Last-Modified: Sun, 11 Aug 2002 15:29:29 G8T
 
 {
-  "ForeignAppId": 144,
-  "Name": "Kozey, Rohan and Morar",
-  "CreatedDate": "2011-06-29T12:15:26.9526354+02:00",
-  "UpdatedDate": "2005-01-26T12:15:26.9526354+01:00",
+  "ForeignAppId": 505,
+  "Name": "Ward-Nikolaus",
+  "CreatedDate": "2022-03-09T15:29:29.7596984+01:00",
+  "UpdatedDate": "2002-08-11T15:29:29.7596984+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 159,
-      "Name": "Bergnaum LLC",
-      "CreatedDate": "1996-01-21T12:15:26.9526354+01:00",
-      "UpdatedDate": "1996-06-19T12:15:26.9526354+02:00",
-      "AssociateFullName": "Kasandra Lindgren",
-      "CreatedBy": "rerum",
-      "UpdatedBy": "eos",
-      "DeviceIdentifier": "doloribus",
-      "ForeignAppId": 760,
+      "ForeignDeviceId": 733,
+      "Name": "Romaguera Group",
+      "CreatedDate": "2005-06-17T15:29:29.7606988+02:00",
+      "UpdatedDate": "1998-09-12T15:29:29.7606988+02:00",
+      "AssociateFullName": "Mrs. Charlene Kariane Schuppe MD",
+      "CreatedBy": "harum",
+      "UpdatedBy": "accusantium",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 5,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 345
         }
       }
     }
@@ -121,13 +121,13 @@ Last-Modified: Wed, 26 Jan 2005 12:15:26 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 67
+      "FieldType": "System.Int32",
+      "FieldLength": 521
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

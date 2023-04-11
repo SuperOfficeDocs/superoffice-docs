@@ -94,8 +94,8 @@ PersonEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,7 +103,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,46 +113,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 437,
-  "ColumnId": 222,
-  "FieldDefault": "enim",
-  "FieldHeight": 691,
-  "FieldLabel": "odit",
-  "FieldLeft": 26,
-  "FieldTop": 191,
+  "UDefFieldId": 443,
+  "ColumnId": 791,
+  "FieldDefault": "est",
+  "FieldHeight": 291,
+  "FieldLabel": "nihil",
+  "FieldLeft": 524,
+  "FieldTop": 704,
   "FieldType": "Checkbox",
-  "FieldWidth": 818,
-  "FormatMask": "odio",
+  "FieldWidth": 49,
+  "FormatMask": "cupiditate",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 378,
-  "LabelLeft": 770,
-  "LabelTop": 809,
-  "LabelWidth": 356,
-  "LastVersionId": 130,
-  "ListTableId": 763,
+  "IsIndexed": false,
+  "LabelHeight": 841,
+  "LabelLeft": 190,
+  "LabelTop": 455,
+  "LabelWidth": 927,
+  "LastVersionId": 197,
+  "ListTableId": 348,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 254,
-  "ProgId": "quas",
+  "Page1LineNo": 333,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "saepe",
-  "TabOrder": 601,
-  "TextLength": 433,
-  "Tooltip": "rerum",
-  "UdefIdentity": 1001,
-  "UDListDefinitionId": 206,
+  "ShortLabel": "vel",
+  "TabOrder": 668,
+  "TextLength": 122,
+  "Tooltip": "est",
+  "UdefIdentity": 944,
+  "UDListDefinitionId": 494,
   "Justification": "Center",
-  "Version": 682,
-  "TemplateVariableName": "Hahn-Williamson",
-  "HasBeenPublished": true,
-  "MdoListName": "Swift, Wiegand and Smith",
+  "Version": 153,
+  "TemplateVariableName": "Von, Connelly and Kuhic",
+  "HasBeenPublished": false,
+  "MdoListName": "Jones Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 246
     }
   }
 }

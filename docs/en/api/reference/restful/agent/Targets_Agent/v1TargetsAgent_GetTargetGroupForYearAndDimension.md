@@ -69,8 +69,8 @@ OK
 | PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
 | TargetAssignments | array | Collection of target values |
 | TargetDimension | TargetDimension | Info about the target dimensions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 754,
-  "DimensionId": 734
+  "TargetYear": 237,
+  "DimensionId": 571
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 463,
-  "Year": 773,
+  "TargetGroupId": 158,
+  "Year": 671,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 151,
+      "TargetAssignmentInfoId": 644,
       "Values": [
-        728,
-        931
+        281,
+        165
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 606,
-      "DimensionListItemDisplayName": "Lind Group",
+      "DimensionListItem": 697,
+      "DimensionListItemDisplayName": "Nienow, Cassin and Schinner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 832
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 577
     }
   }
 }

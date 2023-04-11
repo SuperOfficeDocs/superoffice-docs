@@ -31,9 +31,9 @@ Set a specified type of consent on the person.
 | comment | string |  A comment regarding this consent. May be null or empty. |
 
 ```http
-PUT /api/v1/Person/{personId}/Consent/{purpose}?source=non
-PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=perferendis
-PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=molestias
+PUT /api/v1/Person/{personId}/Consent/{purpose}?source=aut
+PUT /api/v1/Person/{personId}/Consent/{purpose}?legalBase=et
+PUT /api/v1/Person/{personId}/Consent/{purpose}?comment=aliquid
 ```
 
 
@@ -55,7 +55,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

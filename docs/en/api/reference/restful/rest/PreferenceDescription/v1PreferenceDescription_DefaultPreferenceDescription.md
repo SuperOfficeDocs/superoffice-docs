@@ -64,8 +64,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 415,
-  "Section": "vitae",
-  "Key": "et",
-  "Name": "O'Hara, Lang and Zemlak",
+  "PrefDescId": 336,
+  "Section": "eaque",
+  "Key": "ut",
+  "Name": "Herman, Schamberger and O'Hara",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cloned secondary focus group",
+  "Description": "Managed regional Graphic Interface",
   "IsBuiltin": false,
-  "TableName": "Goldner, Medhurst and McCullough",
-  "UserDefinedListId": 675,
-  "Rank": 889,
-  "SubGroup": "qui",
-  "MinLevel": 908,
-  "MaxValue": 294,
-  "MinValue": 279,
-  "RequiredLicense": "quasi",
+  "TableName": "Schuppe-Weber",
+  "UserDefinedListId": 620,
+  "Rank": 301,
+  "SubGroup": "numquam",
+  "MinLevel": 192,
+  "MaxValue": 308,
+  "MinValue": 248,
+  "RequiredLicense": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldLength": 368
     }
   }
 }

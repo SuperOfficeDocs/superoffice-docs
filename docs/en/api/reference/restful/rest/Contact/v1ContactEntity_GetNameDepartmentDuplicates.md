@@ -28,7 +28,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=dolorum
+GET /api/v1/Contact/Duplicates/{name}?department=veritatis
 ```
 
 
@@ -63,8 +63,8 @@ OK
 | EntryName | string | Name of duplicate entry |
 | EntryIdentifier | string | String identifier for entry. Typically used to identify an entry in an external system. |
 | RuleDisplayName | string | Short name of rule to display to user |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Prosacco Inc and Sons",
-    "SoPrimaryKey": 817,
-    "EntryName": "Schiller-Pouros",
-    "EntryIdentifier": "aliquam",
-    "RuleDisplayName": "Walter LLC",
+    "RuleName": "Jones-Lebsack",
+    "SoPrimaryKey": 579,
+    "EntryName": "Stracke Group",
+    "EntryIdentifier": "veniam",
+    "RuleDisplayName": "Hyatt, Schuster and Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 638
       }
     }
   }

@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,25 +72,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Schumm-Hauck",
-    "Tooltip": "libero",
+    "Id": 187,
+    "Name": "Kovacek Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 470,
-    "Rank": 430
+    "UdListDefinitionId": 524,
+    "Rank": 62
   },
   {
-    "Id": 508,
-    "Name": "Schumm-Hauck",
-    "Tooltip": "libero",
+    "Id": 187,
+    "Name": "Kovacek Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 470,
-    "Rank": 430
+    "UdListDefinitionId": 524,
+    "Rank": 62
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Wintheiser, Nolan and Fahey",
-    "Tooltip": "velit",
-    "Deleted": true,
-    "UdListDefinitionId": 950,
-    "Rank": 783,
+    "Id": 784,
+    "Name": "Marks, Schneider and Reynolds",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "UdListDefinitionId": 310,
+    "Rank": 946,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 76
       }
     }
   }

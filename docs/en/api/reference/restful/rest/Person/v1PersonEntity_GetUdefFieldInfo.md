@@ -83,8 +83,8 @@ PersonEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 745,
-  "ColumnId": 893,
-  "FieldDefault": "at",
-  "FieldHeight": 137,
-  "FieldLabel": "vitae",
-  "FieldLeft": 111,
-  "FieldTop": 451,
+  "UDefFieldId": 977,
+  "ColumnId": 466,
+  "FieldDefault": "repellendus",
+  "FieldHeight": 791,
+  "FieldLabel": "architecto",
+  "FieldLeft": 755,
+  "FieldTop": 802,
   "FieldType": "Checkbox",
-  "FieldWidth": 391,
-  "FormatMask": "omnis",
+  "FieldWidth": 335,
+  "FormatMask": "ea",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 134,
-  "LabelLeft": 13,
-  "LabelTop": 656,
-  "LabelWidth": 206,
-  "LastVersionId": 726,
-  "ListTableId": 898,
+  "IsIndexed": true,
+  "LabelHeight": 777,
+  "LabelLeft": 6,
+  "LabelTop": 926,
+  "LabelWidth": 461,
+  "LastVersionId": 582,
+  "ListTableId": 722,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 951,
-  "ProgId": "quaerat",
+  "Page1LineNo": 669,
+  "ProgId": "deleniti",
   "IsReadOnly": false,
-  "ShortLabel": "necessitatibus",
-  "TabOrder": 50,
-  "TextLength": 249,
-  "Tooltip": "quae",
-  "UdefIdentity": 398,
-  "UDListDefinitionId": 915,
+  "ShortLabel": "distinctio",
+  "TabOrder": 194,
+  "TextLength": 725,
+  "Tooltip": "vel",
+  "UdefIdentity": 492,
+  "UDListDefinitionId": 678,
   "Justification": "Center",
-  "Version": 544,
-  "TemplateVariableName": "Willms, Wiegand and Boehm",
+  "Version": 26,
+  "TemplateVariableName": "Hahn-D'Amore",
   "HasBeenPublished": false,
-  "MdoListName": "Hermiston-Stokes",
+  "MdoListName": "Heathcote, O'Conner and Huels",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldType": "System.String",
+      "FieldLength": 478
     }
   }
 }

@@ -74,8 +74,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "eos",
-  "Children": true
+  "Path": "quaerat",
+  "Children": false
 }
 ```
 
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 31,
+  "HierarchyId": 476,
   "Domain": "Dashboards",
-  "Name": "Leannon, Kuvalis and Eichmann",
-  "Fullname": "est",
-  "ParentId": 961,
+  "Name": "Koss-Dicki",
+  "Fullname": "deserunt",
+  "ParentId": 270,
   "Children": [
     {
-      "HierarchyId": 300,
+      "HierarchyId": 138,
       "Domain": "Dashboards",
-      "Name": "Marks, Dietrich and Witting",
-      "Fullname": "at",
-      "ParentId": 133,
+      "Name": "Sipes-O'Connell",
+      "Fullname": "ut",
+      "ParentId": 150,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-06-03T12:15:19.3127465+02:00",
-      "RegisteredAssociateId": 689,
-      "Updated": "2002-04-03T12:15:19.3127465+02:00",
-      "UpdatedAssociateId": 682,
+      "Registered": "1996-11-18T15:29:22.0732707+01:00",
+      "RegisteredAssociateId": 733,
+      "Updated": "2012-05-12T15:29:22.0732707+02:00",
+      "UpdatedAssociateId": 1001,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 30
+          "FieldLength": 899
         }
       }
     }
   ],
-  "Registered": "2005-05-26T12:15:19.3127465+02:00",
-  "RegisteredAssociateId": 10,
-  "Updated": "2016-02-14T12:15:19.3127465+01:00",
-  "UpdatedAssociateId": 690,
+  "Registered": "1999-12-17T15:29:22.0732707+01:00",
+  "RegisteredAssociateId": 104,
+  "Updated": "2004-12-06T15:29:22.0732707+01:00",
+  "UpdatedAssociateId": 241,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 647
     }
   }
 }

@@ -124,8 +124,8 @@ User  updated.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -134,18 +134,18 @@ User  updated.
 PATCH /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -158,14 +158,14 @@ HTTP/1.1 200 User  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 610,
-  "Name": "Beahan, Kulas and Ferry",
-  "Rank": 914,
-  "Tooltip": "quos",
+  "AssociateId": 908,
+  "Name": "Treutel-Shanahan",
+  "Rank": 94,
+  "Tooltip": "ex",
   "LicenseOwners": [
     {
-      "Name": "Abernathy, Quitzon and Mills",
-      "Description": "User-friendly zero administration database",
+      "Name": "Okuneva LLC",
+      "Description": "Implemented contextually-based access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -179,13 +179,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 49
         }
       }
     },
     {
-      "Name": "Abernathy, Quitzon and Mills",
-      "Description": "User-friendly zero administration database",
+      "Name": "Okuneva LLC",
+      "Description": "Implemented contextually-based access",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 49
         }
       }
     }
@@ -208,110 +208,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eos",
-      "Tooltip": "molestias",
-      "Id": 495,
-      "Rank": 672,
+      "Value": "id",
+      "Tooltip": "quis",
+      "Id": 551,
+      "Rank": 802,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 555
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2011-09-13T12:15:27.7606247+02:00",
-  "Lastlogout": "2012-03-26T12:15:27.7606247+02:00",
-  "EjUserId": 526,
-  "RequestSignature": "error",
+  "Deleted": false,
+  "Lastlogin": "2019-01-31T15:29:30.9669827+01:00",
+  "Lastlogout": "2010-12-26T15:29:30.9669827+01:00",
+  "EjUserId": 416,
+  "RequestSignature": "soluta",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "soluta",
-      "DisplayValue": "cumque",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 47
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "soluta",
-      "DisplayValue": "cumque",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 47
-        }
-      }
-    }
-  ],
-  "UserName": "Ziemann-Lakin",
-  "TicketCategories": [
-    {
-      "Id": 522,
-      "Name": "Beer LLC",
-      "ToolTip": "Et eos minus.",
-      "Deleted": false,
-      "Rank": 567,
-      "Type": "et",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "accusamus",
-      "ColorBlock": 935,
-      "ExtraInfo": "possimus",
-      "StyleHint": "et",
-      "FullName": "Pietro Kunze",
+      "Value": "ipsam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 971
+          "FieldLength": 34
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ipsam",
+      "DisplayValue": "minus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 34
         }
       }
     }
   ],
-  "NickName": "Toy LLC",
+  "UserName": "Casper, Mohr and Leannon",
+  "TicketCategories": [
+    {
+      "Id": 385,
+      "Name": "Hansen-Jakubowski",
+      "ToolTip": "Quaerat fuga perspiciatis vel enim et.",
+      "Deleted": false,
+      "Rank": 995,
+      "Type": "id",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "dolores",
+      "ColorBlock": 438,
+      "ExtraInfo": "eligendi",
+      "StyleHint": "quas",
+      "FullName": "Tianna Rodriguez",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 561
+        }
+      }
+    }
+  ],
+  "NickName": "Goldner, Simonis and Barton",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "perspiciatis",
-    "CustomFields2": "autem"
+    "CustomFields1": "sunt",
+    "CustomFields2": "quaerat"
   },
   "PostSaveCommands": [
     {
-      "Name": "McCullough, Moen and Hauck",
-      "DisplayName": "Douglas Group",
-      "Description": "Organized upward-trending installation",
-      "ToolTip": "Corporis non labore voluptatum animi qui.",
+      "Name": "Kuhic-D'Amore",
+      "DisplayName": "Mraz Group",
+      "Description": "Progressive maximized knowledge user",
+      "ToolTip": "Quisquam rem perspiciatis quia minus eaque officia itaque.",
       "Actions": "Implicit",
-      "ActionData": "dicta",
+      "ActionData": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 340
         }
       }
     }
@@ -320,13 +320,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 225
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

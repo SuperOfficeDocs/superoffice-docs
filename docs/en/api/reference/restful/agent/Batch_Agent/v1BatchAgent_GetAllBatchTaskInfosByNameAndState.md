@@ -85,8 +85,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Bruen, Shields and Krajcik",
+  "TaskName": "Heller, Schneider and Kessler",
   "State": "All"
 }
 ```
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Stehr, Waters and Hoeger",
-    "AssociateId": 372,
-    "DetailsTable": 719,
-    "DetailsRecord": 744,
-    "IsSystemTask": true,
+    "Id": 556,
+    "Name": "Kutch, Quigley and Beahan",
+    "AssociateId": 228,
+    "DetailsTable": 157,
+    "DetailsRecord": 232,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "blanditiis",
-      "ParameterObject2": "quasi"
+      "ParameterObject1": "et",
+      "ParameterObject2": "eos"
     },
-    "LastStarted": "2002-11-16T12:15:18.2107625+01:00",
-    "Created": "1998-05-29T12:15:18.2107625+02:00",
-    "StartCount": 782,
-    "DatabaseSerialNumber": "1027092",
-    "Context": "et",
-    "Result": "et",
+    "LastStarted": "2004-04-08T15:29:20.8292894+02:00",
+    "Created": "2012-02-17T15:29:20.8292894+01:00",
+    "StartCount": 830,
+    "DatabaseSerialNumber": "881057",
+    "Context": "repudiandae",
+    "Result": "molestiae",
     "State": "All",
-    "Description": "Configurable 5th generation task-force",
-    "Response": "molestias",
-    "Request": "eum",
-    "ProgressDescription": "Sharable background portal",
-    "ProgressPercent": 169,
-    "FileName": "Will Group",
+    "Description": "Secured needs-based solution",
+    "Response": "dolor",
+    "Request": "aperiam",
+    "ProgressDescription": "Re-contextualized incremental superstructure",
+    "ProgressPercent": 592,
+    "FileName": "Strosin, Hintz and Williamson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 189
       }
     }
   }

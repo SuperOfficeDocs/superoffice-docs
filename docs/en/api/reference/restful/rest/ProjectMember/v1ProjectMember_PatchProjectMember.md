@@ -117,8 +117,8 @@ ProjectMember  updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -127,18 +127,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cum",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cum",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -151,38 +151,38 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 651,
-  "ContactId": 556,
-  "ProjectId": 443,
-  "ContactName": "Toy, Ondricka and Willms",
+  "ProjectmemberId": 209,
+  "ContactId": 880,
+  "ProjectId": 87,
+  "ContactName": "Jenkins Group",
   "ContactDepartment": "",
-  "ProjectName": "Morar Group",
-  "EmailId": 279,
-  "EmailAddress": "braulio@tromp.biz",
-  "CountryId": 343,
-  "Firstname": "Libby",
-  "MiddleName": "Reichert, Altenwerth and Graham",
-  "Lastname": "Fritsch",
-  "PersonId": 293,
-  "Mrmrs": "fugit",
-  "ProjectMemberTypeName": "Hane-Hessel",
-  "Phone": "(096)042-6004 x237",
-  "PhoneId": 324,
-  "ProjectMemberTypeId": 442,
-  "EmailAddressName": "andreanne_lubowitz@ebert.biz",
-  "Comment": "optio",
-  "FullName": "Prof. Larry Anya Hessel DVM",
+  "ProjectName": "Ferry, Schamberger and Mosciski",
+  "EmailId": 610,
+  "EmailAddress": "quincy@rolfson.com",
+  "CountryId": 556,
+  "Firstname": "Colin",
+  "MiddleName": "McClure Group",
+  "Lastname": "Schumm",
+  "PersonId": 569,
+  "Mrmrs": "aut",
+  "ProjectMemberTypeName": "Russel, Lowe and Willms",
+  "Phone": "(113)323-4821",
+  "PhoneId": 959,
+  "ProjectMemberTypeId": 529,
+  "EmailAddressName": "simeon@kuhn.info",
+  "Comment": "culpa",
+  "FullName": "Aileen Stamm",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldType": "System.String",
+      "FieldLength": 195
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

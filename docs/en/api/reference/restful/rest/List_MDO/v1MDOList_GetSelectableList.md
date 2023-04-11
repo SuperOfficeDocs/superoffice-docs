@@ -29,7 +29,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=quae
+GET /api/v1/MDOList/{listname}/selectable?additional=vel
 GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 860,
-    "Name": "Terry Group",
-    "ToolTip": "A voluptas.",
-    "Deleted": true,
-    "Rank": 481,
-    "Type": "excepturi",
-    "ColorBlock": 352,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2005-08-17T12:15:28.1826199+02:00",
+    "Id": 57,
+    "Name": "O'Reilly-Simonis",
+    "ToolTip": "Ea vel.",
+    "Deleted": false,
+    "Rank": 593,
+    "Type": "unde",
+    "ColorBlock": 914,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2013-01-19T15:29:31.2959786+01:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Crona, Douglas and Greenfelder",
-        "ToolTip": "Deserunt non qui.",
+        "Id": 836,
+        "Name": "Williamson-Simonis",
+        "ToolTip": "Nihil dolorem non est.",
         "Deleted": false,
-        "Rank": 643,
-        "Type": "vel",
-        "ColorBlock": 185,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2011-07-31T12:15:28.1826199+02:00",
+        "Rank": 701,
+        "Type": "est",
+        "ColorBlock": 263,
+        "IconHint": "possimus",
+        "Selected": false,
+        "LastChanged": "2015-03-29T15:29:31.2959786+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "odit",
+        "ExtraInfo": "nihil",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Elouise Beer",
+        "FullName": "Delmer Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 628
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Prof. Michelle Parisian I",
+    "ExtraInfo": "omnis",
+    "StyleHint": "excepturi",
+    "Hidden": true,
+    "FullName": "Macy Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 780
+        "FieldLength": 877
       }
     }
   }

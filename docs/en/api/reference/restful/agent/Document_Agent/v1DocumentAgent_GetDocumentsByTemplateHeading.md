@@ -84,8 +84,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 943
+  "TemplateHeadingId": 185
 }
 ```
 
@@ -109,32 +109,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 518,
-    "Attention": "quia",
-    "Header": "ad",
-    "Name": "Trantow-Kuphal",
-    "OurRef": "ut",
-    "YourRef": "rerum",
-    "Description": "Phased system-worthy forecast",
-    "DocumentTemplate": "molestiae",
+    "DocumentId": 395,
+    "Attention": "quibusdam",
+    "Header": "optio",
+    "Name": "Paucek-Waters",
+    "OurRef": "non",
+    "YourRef": "dolores",
+    "Description": "Switchable solution-oriented implementation",
+    "DocumentTemplate": "velit",
     "IsPublished": true,
-    "PersonId": 570,
-    "PersonFullName": "Prof. Quentin Mason Schinner",
-    "AssociateFullName": "Esther Vandervort",
-    "ContactId": 157,
-    "ContactName": "Sporer Group",
-    "ProjectId": 606,
-    "ProjectName": "Langosh Group",
-    "AssociateId": 940,
-    "Snum": 470,
-    "SaleId": 497,
-    "SaleName": "Breitenberg, Berge and Wilderman",
+    "PersonId": 706,
+    "PersonFullName": "Maude Schmeler V",
+    "AssociateFullName": "Lisa Amelie Nader DDS",
+    "ContactId": 945,
+    "ContactName": "Gutkowski, Torphy and Upton",
+    "ProjectId": 273,
+    "ProjectName": "Bailey, Lebsack and Kub",
+    "AssociateId": 969,
+    "Snum": 522,
+    "SaleId": 773,
+    "SaleName": "Kihn LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 744
+        "FieldLength": 155
       }
     }
   }

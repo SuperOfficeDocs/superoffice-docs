@@ -64,8 +64,8 @@ OK
 | Description | string | Link description. |
 | ExtraInfo | string | Extrainfo for link. Use for information that does not have a primary key |
 | LinkId | int32 | Primary key |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Parker LLC",
-    "Id": 515,
-    "Description": "Polarised cohesive moderator",
-    "ExtraInfo": "laudantium",
-    "LinkId": 720,
+    "EntityName": "King-Lubowitz",
+    "Id": 76,
+    "Description": "Integrated grid-enabled workforce",
+    "ExtraInfo": "sapiente",
+    "LinkId": 986,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 776
       }
     }
   }

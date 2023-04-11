@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 709,
-  "SelectionId": 847,
-  "Restrictions": "ea"
+  "DashboardTileId": 972,
+  "SelectionId": 707,
+  "Restrictions": "commodi"
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Wolff LLC",
-        "DisplayTooltip": "eos",
-        "DisplayType": "voluptas",
-        "CanOrderBy": false,
-        "Name": "Franecki Inc and Sons",
-        "CanRestrictBy": true,
-        "RestrictionType": "quia",
-        "RestrictionListName": "Hirthe, Sipes and Ferry",
-        "IsVisible": false,
-        "ExtraInfo": "amet",
-        "Width": "magnam",
-        "IconHint": "consectetur",
-        "HeadingIconHint": "nam"
+        "DisplayName": "Weimann-Mueller",
+        "DisplayTooltip": "vero",
+        "DisplayType": "voluptatem",
+        "CanOrderBy": true,
+        "Name": "Mann Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "voluptatum",
+        "RestrictionListName": "Stamm Inc and Sons",
+        "IsVisible": true,
+        "ExtraInfo": "odit",
+        "Width": "perspiciatis",
+        "IconHint": "eos",
+        "HeadingIconHint": "nisi"
       }
     ],
     "Result": null
@@ -113,19 +113,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Wolff LLC",
-        "DisplayTooltip": "eos",
-        "DisplayType": "voluptas",
-        "CanOrderBy": false,
-        "Name": "Franecki Inc and Sons",
-        "CanRestrictBy": true,
-        "RestrictionType": "quia",
-        "RestrictionListName": "Hirthe, Sipes and Ferry",
-        "IsVisible": false,
-        "ExtraInfo": "amet",
-        "Width": "magnam",
-        "IconHint": "consectetur",
-        "HeadingIconHint": "nam"
+        "DisplayName": "Weimann-Mueller",
+        "DisplayTooltip": "vero",
+        "DisplayType": "voluptatem",
+        "CanOrderBy": true,
+        "Name": "Mann Inc and Sons",
+        "CanRestrictBy": false,
+        "RestrictionType": "voluptatum",
+        "RestrictionListName": "Stamm Inc and Sons",
+        "IsVisible": true,
+        "ExtraInfo": "odit",
+        "Width": "perspiciatis",
+        "IconHint": "eos",
+        "HeadingIconHint": "nisi"
       }
     ],
     "Result": null

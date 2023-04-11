@@ -111,8 +111,8 @@ OK
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -135,88 +135,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 153,
-  "ERPQuoteLineKey": "nam",
-  "QuoteAlternativeId": 81,
-  "ERPProductKey": "dolor",
+  "QuoteLineId": 54,
+  "ERPQuoteLineKey": "ea",
+  "QuoteAlternativeId": 773,
+  "ERPProductKey": "voluptatem",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25444.946,
-  "DeliveredQuantity": 22912.674,
-  "Rank": 107,
-  "Name": "Muller, Feeney and Bernier",
-  "Description": "Multi-layered user-facing function",
-  "Code": "modi",
-  "QuantityUnit": "possimus",
-  "PriceUnit": "dolor",
-  "ItemNumber": "1458516",
+  "Quantity": 13733.188,
+  "DeliveredQuantity": 6847.79,
+  "Rank": 518,
+  "Name": "Zulauf, Harris and Crooks",
+  "Description": "Profound intangible software",
+  "Code": "consequatur",
+  "QuantityUnit": "ea",
+  "PriceUnit": "dolore",
+  "ItemNumber": "1433835",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aspernatur",
-  "ProductTypeKey": "amet",
-  "Supplier": "veniam",
-  "SupplierCode": "molestiae",
-  "Thumbnail": "facere",
-  "VATInfo": "qui",
-  "VAT": 3510.08,
-  "UnitCost": 20972.728,
-  "UnitMinimumPrice": 9461.546,
-  "UnitListPrice": 2538.54,
+  "ProductFamilyKey": "recusandae",
+  "ProductTypeKey": "sapiente",
+  "Supplier": "id",
+  "SupplierCode": "recusandae",
+  "Thumbnail": "ipsam",
+  "VATInfo": "atque",
+  "VAT": 7668.898,
+  "UnitCost": 21314.334,
+  "UnitMinimumPrice": 7449.518,
+  "UnitListPrice": 12103.508,
   "ExtraInfo": [
     {
-      "Name": "Wiza Group",
-      "Value": "soluta",
+      "Name": "Zieme Inc and Sons",
+      "Value": "ratione",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 452
         }
       }
     },
     {
-      "Name": "Wiza Group",
-      "Value": "soluta",
+      "Name": "Zieme Inc and Sons",
+      "Value": "ratione",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 745
+          "FieldLength": 452
         }
       }
     }
   ],
-  "RawExtraInfo": "excepturi",
+  "RawExtraInfo": "voluptatibus",
   "IsSubscription": false,
-  "SubscriptionUnit": "explicabo",
-  "SubscriptionQuantity": 20035.662,
-  "SubscriptionStart": "2003-01-20T12:15:19.9677375+01:00",
-  "ERPDiscountPercent": 21201.51,
-  "ERPDiscountAmount": 4625.784,
-  "DiscountPercent": 12344.826,
-  "DiscountAmount": 16694.818,
+  "SubscriptionUnit": "ipsum",
+  "SubscriptionQuantity": 9847.028,
+  "SubscriptionStart": "2022-05-19T15:29:22.5942645+02:00",
+  "ERPDiscountPercent": 2237.676,
+  "ERPDiscountAmount": 2253.346,
+  "DiscountPercent": 11946.807999999999,
+  "DiscountAmount": 22226.327999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 15049.467999999999,
-  "EarningAmount": 13698.714,
-  "SubTotal": 20449.35,
-  "TotalPrice": 28124.516,
-  "Rights": "molestiae",
-  "Rule": "suscipit",
-  "ExtraField1": "consequuntur",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "esse",
-  "ExtraField4": "similique",
-  "ExtraField5": "soluta",
+  "EarningPercent": 8085.7199999999993,
+  "EarningAmount": 21007.201999999997,
+  "SubTotal": 4114.942,
+  "TotalPrice": 9687.194,
+  "Rights": "fuga",
+  "Rule": "nulla",
+  "ExtraField1": "facilis",
+  "ExtraField2": "saepe",
+  "ExtraField3": "natus",
+  "ExtraField4": "cupiditate",
+  "ExtraField5": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldLength": 431
     }
   }
 }

@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Blick-Larkin"
+  "LayoutName": "Keeling Inc and Sons"
 }
 ```
 

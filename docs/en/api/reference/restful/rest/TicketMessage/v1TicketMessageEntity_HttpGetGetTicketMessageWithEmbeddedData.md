@@ -83,11 +83,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -105,28 +106,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 811,
+  "EjMessageId": 85,
   "Ticket": null,
-  "CreatedAt": "2005-07-05T12:15:27.5596276+02:00",
+  "CreatedAt": "2000-06-28T15:29:30.7679854+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "veritatis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatibus",
-  "TimeSpent": 355,
-  "Body": "vitae",
-  "HtmlBody": "rerum",
-  "EmailHeader": "linwood.toy@kemmer.ca",
-  "DebugInfo": "eos",
-  "MailSorter": "eos",
+  "MessageId": "sunt",
+  "TimeSpent": 715,
+  "Body": "expedita",
+  "HtmlBody": "eum",
+  "EmailHeader": "beau@konopelski.co.uk",
+  "DebugInfo": "ut",
+  "MailSorter": "dignissimos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "magnam",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 262,
-      "Name": "Volkman, Brakus and Fisher",
-      "Value": "autem",
+      "Id": 102,
+      "Name": "Hahn-Volkman",
+      "Value": "officia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -134,47 +135,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 257
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ab",
-  "Sentiment": 278,
-  "SentimentConfidence": 899,
+  "Important": false,
+  "Language": "recusandae",
+  "Sentiment": 360,
+  "SentimentConfidence": 567,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 398,
-      "Name": "Stoltenberg, Stamm and Hudson",
-      "ContentType": "aut",
-      "AttSize": 5,
-      "InlineImage": false,
-      "ContentId": "laboriosam",
+      "AttachmentId": 712,
+      "Name": "Borer-Monahan",
+      "ContentType": "dolorum",
+      "AttSize": 282,
+      "InlineImage": true,
+      "ContentId": "esse",
+      "AuthKey": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 110
+          "FieldLength": 35
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "id",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "sed"
+    "CustomFields1": "rerum",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

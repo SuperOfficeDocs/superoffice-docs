@@ -25,7 +25,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=862
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=513
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -111,8 +111,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,122 +134,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-09-27T12:15:17.7797687+02:00",
-  "AppointmentId": 651,
-  "Description": "Future-proofed logistical workforce",
-  "StartDate": "2017-10-07T12:15:17.7797687+02:00",
-  "EndDate": "2010-09-14T12:15:17.7797687+02:00",
+  "CreatedDate": "2018-07-14T15:29:20.5232928+02:00",
+  "AppointmentId": 211,
+  "Description": "Managed hybrid internet solution",
+  "StartDate": "2001-01-24T15:29:20.5232928+01:00",
+  "EndDate": "1999-04-01T15:29:20.5232928+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 910,
+  "MotherId": 527,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-08-28T12:15:17.7827688+02:00",
+  "UpdatedDate": "2010-02-25T15:29:20.5267928+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 54,
+  "ActiveLinks": 495,
   "Links": [
     {
-      "EntityName": "Jones Inc and Sons",
-      "Id": 518,
-      "Description": "Diverse coherent service-desk",
-      "ExtraInfo": "praesentium",
-      "LinkId": 216,
+      "EntityName": "Kertzmann Group",
+      "Id": 843,
+      "Description": "Open-architected directional encoding",
+      "ExtraInfo": "neque",
+      "LinkId": 985,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 697
+          "FieldType": "System.Int32",
+          "FieldLength": 913
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatem",
-  "HasAlarm": false,
-  "ColorIndex": 377,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "eum",
-  "LeadTime": "sit",
-  "Location": "tempore",
-  "RejectCounter": 265,
+  "AlarmLeadTime": "exercitationem",
+  "HasAlarm": true,
+  "ColorIndex": 228,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "in",
+  "LeadTime": "aut",
+  "Location": "laboriosam",
+  "RejectCounter": 696,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 377,
-      "PersonId": 215,
-      "ContactId": 788,
-      "EmailId": 289,
-      "SendEmail": false,
+      "AssociateId": 67,
+      "PersonId": 305,
+      "ContactId": 917,
+      "EmailId": 372,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 377,
-      "PersonId": 215,
-      "ContactId": 788,
-      "EmailId": 289,
-      "SendEmail": false,
+      "AssociateId": 67,
+      "PersonId": 305,
+      "ContactId": 917,
+      "EmailId": 372,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-02-13T12:15:17.7827688+01:00",
+  "ActiveDate": "2004-08-27T15:29:20.5267928+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 143,
+  "PreferredTZLocation": 931,
   "Sale": null,
-  "SuggestedAppointmentId": 717,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 101,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "amet",
+  "CentralserviceVideomeetId": "ipsam",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Dale Mosciski"
+    "SuperOffice:1": "Ms. Gerda Hal Cole PhD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "et"
+    "CustomFields1": "facere",
+    "CustomFields2": "temporibus"
   },
-  "PublishEventDate": "1996-07-02T12:15:17.7847709+02:00",
-  "PublishTo": "2021-04-29T12:15:17.7847709+02:00",
-  "PublishFrom": "2007-07-18T12:15:17.7847709+02:00",
+  "PublishEventDate": "2009-03-10T15:29:20.5287938+01:00",
+  "PublishTo": "2008-10-08T15:29:20.5287938+02:00",
+  "PublishFrom": "1996-09-12T15:29:20.5287938+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 916,
+      "VisibleId": 805,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 257
+          "FieldType": "System.Int32",
+          "FieldLength": 133
         }
       }
     },
     {
-      "VisibleId": 916,
+      "VisibleId": 805,
       "Visibility": "All",
-      "DisplayValue": "modi",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 257
+          "FieldType": "System.Int32",
+          "FieldLength": 133
         }
       }
     }
@@ -259,7 +259,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldLength": 944
     }
   }
 }

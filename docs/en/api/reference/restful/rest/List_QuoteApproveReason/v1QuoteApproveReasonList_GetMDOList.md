@@ -26,7 +26,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=dolorem
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=corporis
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Name": "Kuhn-Runte",
-    "ToolTip": "Earum harum minus dolore.",
-    "Deleted": false,
-    "Rank": 980,
-    "Type": "assumenda",
+    "Id": 366,
+    "Name": "Berge, Carter and Parisian",
+    "ToolTip": "Reprehenderit alias eum cupiditate sunt.",
+    "Deleted": true,
+    "Rank": 533,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 294,
-        "Name": "Farrell-Rutherford",
-        "ToolTip": "Ut rerum nesciunt labore modi enim vel.",
-        "Deleted": true,
-        "Rank": 229,
-        "Type": "dignissimos",
+        "Id": 22,
+        "Name": "Gusikowski, Cole and Oberbrunner",
+        "ToolTip": "Dicta et illo.",
+        "Deleted": false,
+        "Rank": 424,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequuntur",
-        "ColorBlock": 561,
-        "ExtraInfo": "rerum",
-        "StyleHint": "unde",
-        "FullName": "Ollie Stracke",
+        "IconHint": "dolor",
+        "ColorBlock": 766,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "dolore",
+        "FullName": "Palma Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 241
+            "FieldLength": 505
           }
         }
       }
     ],
-    "IconHint": "ex",
-    "ColorBlock": 493,
-    "ExtraInfo": "vero",
-    "StyleHint": "eius",
-    "FullName": "Eino Gislason",
+    "IconHint": "dolor",
+    "ColorBlock": 641,
+    "ExtraInfo": "et",
+    "StyleHint": "quis",
+    "FullName": "Naomi Brakus Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 7
       }
     }
   }

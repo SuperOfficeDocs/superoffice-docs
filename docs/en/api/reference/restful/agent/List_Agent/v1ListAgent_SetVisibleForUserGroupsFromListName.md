@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,28 +92,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Simonis, Walter and Prohaska",
-  "ListItemId": 955,
+  "UdListDefinitionName": "Konopelski Group",
+  "ListItemId": 961,
   "UserGroups": [
     {
-      "Id": 691,
-      "Name": "Carter-McCullough",
-      "ToolTip": "Quis omnis non ea.",
-      "Deleted": true,
-      "Rank": 867,
-      "Type": "nisi",
-      "ColorBlock": 760,
-      "IconHint": "facere",
+      "Id": 281,
+      "Name": "Bernier, Kuhic and Barrows",
+      "ToolTip": "Eligendi id ut sed sequi.",
+      "Deleted": false,
+      "Rank": 378,
+      "Type": "accusantium",
+      "ColorBlock": 543,
+      "IconHint": "quam",
       "Selected": false,
-      "LastChanged": "2001-02-22T12:15:19.2507472+01:00",
+      "LastChanged": "2021-06-26T15:29:22.012272+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "atque",
-      "StyleHint": "modi",
+      "ExtraInfo": "est",
+      "StyleHint": "expedita",
       "Hidden": false,
-      "FullName": "Jane Conn"
+      "FullName": "Mr. Keanu Little"
     }
   ]
 }
@@ -127,56 +127,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Lakin, Collier and Bergnaum",
-    "ToolTip": "Architecto non deserunt est voluptatem eligendi est officia.",
+    "Id": 202,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Voluptates nemo vero suscipit voluptates magni ex odio.",
     "Deleted": false,
-    "Rank": 555,
-    "Type": "vero",
-    "ColorBlock": 482,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2008-09-20T12:15:19.252755+02:00",
+    "Rank": 788,
+    "Type": "incidunt",
+    "ColorBlock": 74,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2012-07-02T15:29:22.0132728+02:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Spencer, Stokes and Considine",
-        "ToolTip": "Molestias sit ullam.",
-        "Deleted": true,
-        "Rank": 524,
-        "Type": "dicta",
-        "ColorBlock": 678,
-        "IconHint": "et",
+        "Id": 267,
+        "Name": "Stroman-Buckridge",
+        "ToolTip": "Doloribus ipsam labore et adipisci doloribus.",
+        "Deleted": false,
+        "Rank": 781,
+        "Type": "enim",
+        "ColorBlock": 64,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2007-10-25T12:15:19.252755+02:00",
+        "LastChanged": "2014-12-22T15:29:22.0132728+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Miss Olen Zulauf",
+        "FullName": "Prof. Anibal Randy Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 154
+            "FieldLength": 598
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Xzavier Bradly Lehner V",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "doloribus",
+    "Hidden": true,
+    "FullName": "Vilma Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 371
+        "FieldType": "System.Int32",
+        "FieldLength": 798
       }
     }
   }

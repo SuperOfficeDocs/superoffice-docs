@@ -25,8 +25,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=rerum
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=animi
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Kutch-Graham",
-    "ToolTip": "Aspernatur sed sit quaerat numquam et.",
+    "Id": 347,
+    "Name": "Stanton Inc and Sons",
+    "ToolTip": "Quis saepe eligendi voluptatem quia molestiae.",
     "Deleted": false,
-    "Rank": 50,
-    "Type": "officiis",
+    "Rank": 945,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Hermann-Schaefer",
-        "ToolTip": "Reiciendis id recusandae voluptas quia assumenda maiores.",
-        "Deleted": true,
-        "Rank": 826,
-        "Type": "dolores",
+        "Id": 61,
+        "Name": "Friesen Inc and Sons",
+        "ToolTip": "In temporibus.",
+        "Deleted": false,
+        "Rank": 410,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 756,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "sed",
-        "FullName": "Denis Fahey",
+        "IconHint": "ipsum",
+        "ColorBlock": 54,
+        "ExtraInfo": "illum",
+        "StyleHint": "ipsa",
+        "FullName": "Oswaldo Renner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 170
+            "FieldLength": 435
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 278,
-    "ExtraInfo": "saepe",
-    "StyleHint": "libero",
-    "FullName": "Laurine Caroline Brekke V",
+    "IconHint": "nisi",
+    "ColorBlock": 235,
+    "ExtraInfo": "praesentium",
+    "StyleHint": "ratione",
+    "FullName": "Johnpaul Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 784
       }
     }
   }

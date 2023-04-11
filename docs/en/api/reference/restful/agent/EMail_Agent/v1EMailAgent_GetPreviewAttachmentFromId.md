@@ -78,8 +78,8 @@ OK
 | Id | string | Content-ID |
 | Disposition | string | Content-Disposition |
 | Stream | byte | Binary stream for outgoing attachments. This property will not be populated for existing e-mail items. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,10 +91,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 714,
-  "AttachmentId": "maiores",
-  "AttachmentType": "ab",
-  "AttachmentFilename": "sapiente"
+  "MailItemId": 742,
+  "AttachmentId": "ipsa",
+  "AttachmentType": "quasi",
+  "AttachmentFilename": "autem"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked cohesive knowledge base",
-  "Filename": "quo",
-  "Size": 764,
-  "Type": "ut",
-  "Encoding": "voluptatem",
-  "Id": "aliquam",
-  "Disposition": "nostrum",
+  "Description": "Adaptive value-added knowledge base",
+  "Filename": "eum",
+  "Size": 900,
+  "Type": "consequatur",
+  "Encoding": "molestiae",
+  "Id": "iusto",
+  "Disposition": "consequuntur",
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldLength": 477
     }
   }
 }

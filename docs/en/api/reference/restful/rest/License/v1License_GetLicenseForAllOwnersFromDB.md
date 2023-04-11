@@ -46,8 +46,8 @@ OK
 |----------------|------|--------------|
 | Reason | string |  |
 | CanBeActivated | bool |  |
-| New | RecurrenceInfo |  |
-| Current | RecurrenceInfo |  |
+| New | TimeZoneData |  |
+| Current | TimeZoneData |  |
 | ExtendedModuleLicenses | array |  |
 | AccumulatedNextCheckDate | date-time |  |
 
@@ -69,41 +69,41 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 623,
-        "NumberOfLicensesFree": 525,
-        "NumberOfLicensesAdded": 732,
-        "NumberOfLicensesNewTotal": 414,
-        "NumberOfLicensesNewFree": 89,
-        "NumberOfLicensesTotal": 316
+        "NumberOfLicensesInUse": 880,
+        "NumberOfLicensesFree": 301,
+        "NumberOfLicensesAdded": 446,
+        "NumberOfLicensesNewTotal": 776,
+        "NumberOfLicensesNewFree": 441,
+        "NumberOfLicensesTotal": 896
       }
     ],
-    "AccumulatedNextCheckDate": "2011-07-18T12:15:27.6376273+02:00"
+    "AccumulatedNextCheckDate": "2018-10-21T15:29:30.8489841+02:00"
   },
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 623,
-        "NumberOfLicensesFree": 525,
-        "NumberOfLicensesAdded": 732,
-        "NumberOfLicensesNewTotal": 414,
-        "NumberOfLicensesNewFree": 89,
-        "NumberOfLicensesTotal": 316
+        "NumberOfLicensesInUse": 880,
+        "NumberOfLicensesFree": 301,
+        "NumberOfLicensesAdded": 446,
+        "NumberOfLicensesNewTotal": 776,
+        "NumberOfLicensesNewFree": 441,
+        "NumberOfLicensesTotal": 896
       }
     ],
-    "AccumulatedNextCheckDate": "2011-07-18T12:15:27.6376273+02:00"
+    "AccumulatedNextCheckDate": "2018-10-21T15:29:30.8489841+02:00"
   }
 ]
 ```

@@ -42,17 +42,17 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| TZLocationID | int32 |  |
-| Name | string |  |
-| TZLocationCode | string |  |
-| TZLocationCities | string |  |
-| IsoNumber | int32 |  |
-| TimeZoneSTDRules | object |  |
-| TimeZoneDSTRules | object |  |
+| TZLocationID | int32 | Timezone location ID - primary key. |
+| Name | string | Name associated with the location: Country name + region name, Norway, United States - Alaska |
+| TZLocationCode | string | Code associated with location: UTC, AR-NQ, AU-QLD, PF2A Not the an ISO country code. Unique. |
+| TZLocationCities | string | Cities associated with location: Oslo, London, Rio de Janeiro |
+| IsoNumber | int32 | Country ISO code associated with location: 578 |
+| TimeZoneSTDRules | object | Dictionary of standard rules |
+| TimeZoneDSTRules | object | Dictionary of Daylight saving time rules |
 
 ## Sample request
 
@@ -70,31 +70,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 614,
-  "Name": "Roberts-Robel",
-  "TZLocationCode": "aut",
-  "TZLocationCities": "et",
-  "IsoNumber": 382,
+  "TZLocationID": 95,
+  "Name": "Nader, Hahn and Kling",
+  "TZLocationCode": "sequi",
+  "TZLocationCities": "tenetur",
+  "IsoNumber": 678,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 651,
-      "StartMonth": 468,
-      "EndDay": 889,
-      "EndMonth": 53,
-      "TZOffset": 461,
-      "StartRulePattern": "est",
-      "EndRulePattern": "quo"
+      "StartDay": 267,
+      "StartMonth": 433,
+      "EndDay": 438,
+      "EndMonth": 793,
+      "TZOffset": 699,
+      "StartRulePattern": "error",
+      "EndRulePattern": "est"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 690,
-      "StartMonth": 144,
-      "EndDay": 93,
-      "EndMonth": 801,
-      "TZOffset": 185,
-      "StartRulePattern": "est",
-      "EndRulePattern": "numquam"
+      "StartDay": 191,
+      "StartMonth": 195,
+      "EndDay": 21,
+      "EndMonth": 387,
+      "TZOffset": 539,
+      "StartRulePattern": "labore",
+      "EndRulePattern": "repellat"
     }
   }
 }

@@ -68,8 +68,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 962,
-  "Name": "Terry, Gaylord and Botsford",
-  "Tooltip": "corporis",
-  "Rank": 907,
+  "SaleTypeId": 578,
+  "Name": "VonRueden-Kling",
+  "Tooltip": "impedit",
+  "Rank": 474,
   "DurationUnit": "Century",
-  "SaleDuration": 627,
-  "SaleTypeCatId": 266,
-  "Deleted": true,
+  "SaleDuration": 361,
+  "SaleTypeCatId": 604,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 420,
-  "QuoteLinesTemplate": 697,
-  "ConfirmationLinesTemplate": 3,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 663,
+  "QuoteLinesTemplate": 13,
+  "ConfirmationLinesTemplate": 95,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 1002,
-  "MinEarningPercent": 417,
-  "GroupQuoteLinesBy": 133,
-  "SortGroupLinesBy": 507,
+  "MaxDiscountPercent": 116,
+  "MinEarningPercent": 773,
+  "GroupQuoteLinesBy": 336,
+  "SortGroupLinesBy": 632,
   "Stages": [
     {
-      "Id": 978,
-      "Name": "Ledner, Langworth and Lakin",
-      "ToolTip": "Et dolores nostrum temporibus enim accusamus.",
-      "Deleted": true,
-      "Rank": 757,
-      "Type": "sunt",
-      "ColorBlock": 25,
-      "IconHint": "magni",
-      "Selected": false,
-      "LastChanged": "2004-01-16T12:15:19.3377462+01:00",
+      "Id": 933,
+      "Name": "Corkery, Grimes and Rippin",
+      "ToolTip": "Et quis qui molestias et qui.",
+      "Deleted": false,
+      "Rank": 95,
+      "Type": "quis",
+      "ColorBlock": 252,
+      "IconHint": "ut",
+      "Selected": true,
+      "LastChanged": "2017-12-15T15:29:22.0967714+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "dolores",
-      "Hidden": false,
-      "FullName": "Mrs. Irma Gino Watsica IV",
+      "ExtraInfo": "ut",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Ms. Alexandria Bechtelar Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 108
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldType": "System.String",
+      "FieldLength": 226
     }
   }
 }

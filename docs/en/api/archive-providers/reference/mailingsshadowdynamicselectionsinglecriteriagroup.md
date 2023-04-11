@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "MailingsShadowDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -565,7 +565,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactExtra/x_contact_boolean,mailingAddr/person/personAddress/state,mailingAddr/person/hasEmarketingConsent,project/NumberOfNotCompletedActivities
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactAssociate/lastName,mailingAddr/person/isProjectMember,mailingAddr/person/personMobilePhone/formattedNumber,mailingAddr/person/personAssociate/fullName,mailingAddr/person/personAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

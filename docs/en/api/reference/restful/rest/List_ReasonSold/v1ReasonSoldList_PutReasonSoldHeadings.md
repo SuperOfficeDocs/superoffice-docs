@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 4,
-    "Name": "Bartoletti-Boyer",
-    "Tooltip": "ut",
+    "HeadingId": 333,
+    "Name": "Mertz Group",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 212,
-    "UdListDefinitionId": 160
+    "Rank": 372,
+    "UdListDefinitionId": 999
   },
   {
-    "HeadingId": 4,
-    "Name": "Bartoletti-Boyer",
-    "Tooltip": "ut",
+    "HeadingId": 333,
+    "Name": "Mertz Group",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 212,
-    "UdListDefinitionId": 160
+    "Rank": 372,
+    "UdListDefinitionId": 999
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 817,
-    "Name": "Breitenberg, Zboncak and Schamberger",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "Rank": 346,
-    "UdListDefinitionId": 175,
+    "HeadingId": 810,
+    "Name": "Schulist, Jewess and Wisoky",
+    "Tooltip": "vitae",
+    "Deleted": true,
+    "Rank": 449,
+    "UdListDefinitionId": 256,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 173
       }
     }
   }

@@ -67,8 +67,8 @@ OK
 | ErpListItemMappings | array | Array of ErpConnectionListMapping |
 | ErpConnectionId | int32 | Primary key |
 | ErpConnectionName | string | The name of the erp connection |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Jones-Grimes",
+      "ErpListName": "Brown Inc and Sons",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Kessler, West and Cormier",
-      "ErpFieldId": 49,
+      "ErpActorTypeName": "Kuphal, Jakubowski and Murazik",
+      "ErpFieldId": 433,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 596
+          "FieldLength": 711
         }
       }
     }
   ],
-  "ErpConnectionId": 861,
-  "ErpConnectionName": "Kub Inc and Sons",
+  "ErpConnectionId": 886,
+  "ErpConnectionName": "Welch, Ward and Dare",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

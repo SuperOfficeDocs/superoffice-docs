@@ -74,8 +74,8 @@ OK
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 200,
-  "Name": "Schaefer-King",
-  "Description": "Visionary value-added focus group"
+  "SourceId": 583,
+  "Name": "Berge-Bradtke",
+  "Description": "Configurable zero tolerance encoding"
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 311,
+  "ReportId": 399,
   "ReportCategory": "All",
-  "Description": "Persevering 3rd generation concept",
+  "Description": "Devolved 3rd generation pricing structure",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hilpert LLC",
-  "AssociateId": 423,
-  "TemplateId": 16,
-  "Published": false,
+  "Name": "Walsh LLC",
+  "AssociateId": 648,
+  "TemplateId": 553,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 487
     }
   }
 }

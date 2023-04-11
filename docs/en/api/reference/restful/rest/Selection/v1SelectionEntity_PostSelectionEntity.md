@@ -145,8 +145,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -155,60 +155,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent regional extranet",
-  "Postit": "qui",
+  "Description": "Intuitive intermediate orchestration",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 708,
-  "IncludePerson": 538,
-  "MemberCount": 259,
-  "Name": "Kuvalis LLC",
-  "PostitTextId": 913,
-  "CreatedDate": "2022-08-23T12:15:27.3586305+02:00",
-  "SelectionId": 942,
-  "SoundEx": "ducimus",
-  "Source": 222,
-  "TextId": 727,
-  "UpdatedDate": "2015-11-15T12:15:27.3586305+01:00",
-  "UpdatedCount": 912,
-  "Visibility": 851,
+  "GroupIdx": 449,
+  "IncludePerson": 262,
+  "MemberCount": 822,
+  "Name": "Gerhold-Kiehn",
+  "PostitTextId": 441,
+  "CreatedDate": "2008-08-18T15:29:30.5859909+02:00",
+  "SelectionId": 218,
+  "SoundEx": "ullam",
+  "Source": 224,
+  "TextId": 288,
+  "UpdatedDate": "1998-10-17T15:29:30.5859909+02:00",
+  "UpdatedCount": 504,
+  "Visibility": 895,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 351,
-  "TargetTableName": "Bosco, Lockman and Jewess",
+  "TargetTableNumber": 635,
+  "TargetTableName": "Pfannerstill-D'Amore",
   "Completed": false,
-  "LeftSelectionId": 401,
-  "RightSelectionId": 914,
+  "LeftSelectionId": 965,
+  "RightSelectionId": 280,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lueilwitz, Gaylord and Ankunding",
-  "ShadowProviderName": "Hilll Group",
-  "ChartKey": "qui",
-  "LastLoaded": "2007-11-25T12:15:27.3596298+01:00",
-  "LastLoadedBy": 535,
+  "MainProviderName": "Kozey LLC",
+  "ShadowProviderName": "Howe-Heller",
+  "ChartKey": "et",
+  "LastLoaded": "1996-09-08T15:29:30.5859909+02:00",
+  "LastLoadedBy": 698,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-02-17T12:15:27.3596298+01:00",
-  "LastMembershipChangeBy": 580,
+  "LastMembershipChange": "2009-01-10T15:29:30.5864918+01:00",
+  "LastMembershipChangeBy": 911,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eos",
-  "MemberTabHeading": "voluptas",
-  "MailingsProviderName": "Macejkovic, Durgan and Lehner",
-  "DashboardTileDefinitionId": 392,
+  "MainHeading": "non",
+  "MemberTabHeading": "minima",
+  "MailingsProviderName": "Lesch Group",
+  "DashboardTileDefinitionId": 467,
   "VisibleFor": [
     {
-      "VisibleId": 40,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "maiores"
+      "DisplayValue": "aut"
     },
     {
-      "VisibleId": 40,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "maiores"
+      "DisplayValue": "aut"
     }
   ]
 }
@@ -221,70 +221,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized bandwidth-monitored groupware",
-  "Postit": "doloribus",
+  "Description": "Versatile transitional local area network",
+  "Postit": "sit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 24,
-  "IncludePerson": 459,
-  "MemberCount": 452,
-  "Name": "Becker, Witting and Eichmann",
-  "PostitTextId": 513,
-  "CreatedDate": "2006-04-09T12:15:27.3646272+02:00",
-  "SelectionId": 74,
-  "SoundEx": "et",
-  "Source": 641,
-  "TextId": 549,
-  "UpdatedDate": "1999-05-16T12:15:27.3646272+02:00",
-  "UpdatedCount": 407,
-  "Visibility": 248,
+  "GroupIdx": 923,
+  "IncludePerson": 947,
+  "MemberCount": 353,
+  "Name": "McGlynn, Nitzsche and Ernser",
+  "PostitTextId": 92,
+  "CreatedDate": "2000-11-05T15:29:30.590989+01:00",
+  "SelectionId": 735,
+  "SoundEx": "id",
+  "Source": 384,
+  "TextId": 507,
+  "UpdatedDate": "2005-01-27T15:29:30.590989+01:00",
+  "UpdatedCount": 715,
+  "Visibility": 504,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 680,
-  "TargetTableName": "Bechtelar Group",
-  "Completed": true,
-  "LeftSelectionId": 778,
-  "RightSelectionId": 800,
+  "CompanyUnique": true,
+  "TargetTableNumber": 601,
+  "TargetTableName": "Wisoky LLC",
+  "Completed": false,
+  "LeftSelectionId": 348,
+  "RightSelectionId": 372,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Effertz, Dach and Balistreri",
-  "ShadowProviderName": "Lehner, Fisher and Kshlerin",
-  "ChartKey": "assumenda",
-  "LastLoaded": "2018-04-01T12:15:27.3646272+02:00",
-  "LastLoadedBy": 730,
+  "MainProviderName": "Morissette-Little",
+  "ShadowProviderName": "Sipes Group",
+  "ChartKey": "beatae",
+  "LastLoaded": "2008-01-17T15:29:30.590989+01:00",
+  "LastLoadedBy": 695,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-12-01T12:15:27.3646272+01:00",
-  "LastMembershipChangeBy": 530,
+  "LastMembershipChange": "2017-02-19T15:29:30.5919884+01:00",
+  "LastMembershipChangeBy": 301,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "illum",
-  "MemberTabHeading": "atque",
-  "MailingsProviderName": "Morar, Aufderhar and Swift",
-  "DashboardTileDefinitionId": 689,
+  "MainHeading": "sint",
+  "MemberTabHeading": "molestias",
+  "MailingsProviderName": "Adams-Franecki",
+  "DashboardTileDefinitionId": 365,
   "VisibleFor": [
     {
-      "VisibleId": 44,
+      "VisibleId": 636,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 300
         }
       }
     },
     {
-      "VisibleId": 44,
+      "VisibleId": 636,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 152
+          "FieldLength": 300
         }
       }
     }
@@ -293,13 +293,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldType": "System.String",
+      "FieldLength": 799
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

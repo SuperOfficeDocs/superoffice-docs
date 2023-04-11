@@ -71,8 +71,8 @@ OK
 | ChangedQuoteVersion | QuoteVersion | The validated QuoteVersion |
 | ChangedQuoteAlternatives | array | The changed QuoteAlternatives |
 | Status | string | QuoteStatus = Ok / OkWithInfo / Warn / Error. Error implies IsOk = false. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 385
+  "QuoteVersionId": 658
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
+  "IsOk": false,
   "UserExplanation": "in",
-  "TechExplanation": "provident",
-  "ErrorCode": "distinctio",
+  "TechExplanation": "ut",
+  "ErrorCode": "molestias",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldType": "System.String",
+          "FieldLength": 615
         }
       }
     },
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldType": "System.String",
+          "FieldLength": 615
         }
       }
     }
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 132
     }
   }
 }

@@ -27,7 +27,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=4
+POST /api/v1/Agents/User/GetUser?userId=537
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -83,8 +83,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,14 +102,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 556,
-  "Name": "Okuneva, Kuhn and Bode",
-  "Rank": 649,
-  "Tooltip": "doloribus",
+  "AssociateId": 547,
+  "Name": "Pagac Inc and Sons",
+  "Rank": 805,
+  "Tooltip": "corrupti",
   "LicenseOwners": [
     {
-      "Name": "Jerde Group",
-      "Description": "Upgradable fresh-thinking benchmark",
+      "Name": "Buckridge LLC",
+      "Description": "Business-focused dynamic secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,13 +123,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 581
         }
       }
     },
     {
-      "Name": "Jerde Group",
-      "Description": "Upgradable fresh-thinking benchmark",
+      "Name": "Buckridge LLC",
+      "Description": "Business-focused dynamic secured line",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 581
         }
       }
     }
@@ -152,110 +152,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sapiente",
-      "Tooltip": "fuga",
-      "Id": 622,
-      "Rank": 25,
+      "Value": "eum",
+      "Tooltip": "perferendis",
+      "Id": 633,
+      "Rank": 137,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 703
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2005-03-13T12:15:20.5827282+01:00",
-  "Lastlogout": "2010-08-26T12:15:20.5827282+02:00",
-  "EjUserId": 232,
-  "RequestSignature": "quia",
+  "Deleted": true,
+  "Lastlogin": "2010-08-21T15:29:23.3542535+02:00",
+  "Lastlogout": "2010-02-14T15:29:23.3542535+01:00",
+  "EjUserId": 411,
+  "RequestSignature": "aut",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "debitis",
-      "DisplayValue": "deserunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "debitis",
-      "DisplayValue": "deserunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 745
-        }
-      }
-    }
-  ],
-  "UserName": "Willms-Ratke",
-  "TicketCategories": [
-    {
-      "Id": 814,
-      "Name": "McClure Group",
-      "ToolTip": "Eos aut.",
-      "Deleted": false,
-      "Rank": 331,
-      "Type": "nostrum",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "praesentium",
-      "ColorBlock": 742,
-      "ExtraInfo": "rerum",
-      "StyleHint": "vel",
-      "FullName": "Mrs. Russel Coralie Jerde MD",
+      "Value": "sunt",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 420
+          "FieldLength": 359
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "sunt",
+      "DisplayValue": "neque",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 359
         }
       }
     }
   ],
-  "NickName": "Ledner, Crona and Wilkinson",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "aperiam",
-    "ExtraFields2": "temporibus"
-  },
-  "CustomFields": {
-    "CustomFields1": "iure",
-    "CustomFields2": "et"
-  },
-  "PostSaveCommands": [
+  "UserName": "Schuppe-Dickinson",
+  "TicketCategories": [
     {
-      "Name": "Stroman-Hills",
-      "DisplayName": "Keebler-Dietrich",
-      "Description": "Sharable intangible approach",
-      "ToolTip": "Fugiat enim labore assumenda voluptas.",
-      "Actions": "Implicit",
-      "ActionData": "rerum",
+      "Id": 863,
+      "Name": "Nitzsche, Mraz and Jacobi",
+      "ToolTip": "Totam ducimus rerum dolorem quibusdam maiores totam aut.",
+      "Deleted": true,
+      "Rank": 351,
+      "Type": "eaque",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "fuga",
+      "ColorBlock": 250,
+      "ExtraInfo": "quis",
+      "StyleHint": "dolorum",
+      "FullName": "Haleigh Purdy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldLength": 417
+        }
+      }
+    }
+  ],
+  "NickName": "Powlowski, Mraz and Halvorson",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "omnis"
+  },
+  "CustomFields": {
+    "CustomFields1": "autem",
+    "CustomFields2": "reprehenderit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Leffler, Ratke and Heathcote",
+      "DisplayName": "Kilback, Klein and Fadel",
+      "Description": "Grass-roots human-resource Graphical User Interface",
+      "ToolTip": "Rem sit reiciendis velit fuga.",
+      "Actions": "Implicit",
+      "ActionData": "labore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 652
         }
       }
     }
@@ -265,7 +265,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 894
     }
   }
 }

@@ -117,8 +117,8 @@ TicketEntity found.
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -127,7 +127,7 @@ TicketEntity found.
 GET /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -137,21 +137,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 419,
-  "Title": "consequatur",
-  "CreatedAt": "2013-02-12T12:15:27.4596305+01:00",
-  "LastChanged": "2010-05-07T12:15:27.4596305+02:00",
-  "ReadByOwner": "1998-05-21T12:15:27.4596305+02:00",
-  "ReadByCustomer": "2010-08-17T12:15:27.4596305+02:00",
-  "FirstReadByOwner": "2005-05-25T12:15:27.4596305+02:00",
-  "FirstReadByUser": "1999-01-06T12:15:27.4596305+01:00",
-  "Activate": "2019-07-20T12:15:27.4596305+02:00",
-  "ClosedAt": "2019-11-18T12:15:27.4596305+01:00",
-  "RepliedAt": "2002-06-16T12:15:27.4596305+02:00",
-  "AlertTimeout": "2007-08-29T12:15:27.4596305+02:00",
-  "Deadline": "2021-01-24T12:15:27.4596305+01:00",
+  "TicketId": 124,
+  "Title": "necessitatibus",
+  "CreatedAt": "2003-04-28T15:29:30.676987+02:00",
+  "LastChanged": "2003-12-19T15:29:30.676987+01:00",
+  "ReadByOwner": "1998-03-29T15:29:30.676987+02:00",
+  "ReadByCustomer": "2016-12-14T15:29:30.676987+01:00",
+  "FirstReadByOwner": "2008-07-25T15:29:30.676987+02:00",
+  "FirstReadByUser": "2017-01-09T15:29:30.676987+01:00",
+  "Activate": "2013-08-22T15:29:30.676987+02:00",
+  "ClosedAt": "2000-01-05T15:29:30.676987+01:00",
+  "RepliedAt": "2021-08-22T15:29:30.676987+02:00",
+  "AlertTimeout": "2017-06-09T15:29:30.676987+02:00",
+  "Deadline": "2020-06-22T15:29:30.676987+02:00",
   "CreatedBy": null,
-  "Author": "ipsa",
+  "Author": "et",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -162,157 +162,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "veritatis",
-      "PersonId": 46,
-      "Mrmrs": "quos",
-      "Firstname": "Jeremy",
-      "Lastname": "Monahan",
-      "MiddleName": "Kshlerin, Fisher and Keebler",
-      "Title": "rerum",
-      "Description": "Synergistic 24 hour info-mediaries",
-      "Email": "anika_fadel@keebler.biz",
-      "FullName": "Shakira Ankunding",
-      "DirectPhone": "606.928.4254",
-      "FormalName": "Welch, Dickinson and Powlowski",
-      "CountryId": 11,
-      "ContactId": 166,
-      "ContactName": "Schimmel LLC",
-      "Retired": 853,
-      "Rank": 837,
-      "ActiveInterests": 133,
+      "Position": "voluptates",
+      "PersonId": 744,
+      "Mrmrs": "ex",
+      "Firstname": "Irwin",
+      "Lastname": "McDermott",
+      "MiddleName": "O'Reilly, Hermann and Schumm",
+      "Title": "voluptas",
+      "Description": "Quality-focused asynchronous standardization",
+      "Email": "ali@kesslerhowell.name",
+      "FullName": "Ray Von",
+      "DirectPhone": "652-755-4961 x0950",
+      "FormalName": "Spinka-Wisozk",
+      "CountryId": 192,
+      "ContactId": 485,
+      "ContactName": "Brown, Jast and Funk",
+      "Retired": 989,
+      "Rank": 97,
+      "ActiveInterests": 756,
       "ContactDepartment": "",
-      "ContactCountryId": 857,
-      "ContactOrgNr": "720027",
-      "FaxPhone": "(081)353-9324 x36343",
-      "MobilePhone": "215.020.8822",
-      "ContactPhone": "912-381-2253 x05341",
-      "AssociateName": "Carter LLC",
-      "AssociateId": 177,
-      "UsePersonAddress": false,
-      "ContactFax": "aut",
-      "Kanafname": "voluptate",
-      "Kanalname": "ut",
-      "Post1": "maxime",
-      "Post2": "voluptates",
-      "Post3": "magni",
-      "EmailName": "kali@hillsquigley.name",
-      "ContactFullName": "Prof. Ebba Marquis Barton",
-      "ActiveErpLinks": 46,
-      "TicketPriorityId": 623,
-      "SupportLanguageId": 763,
-      "SupportAssociateId": 334,
+      "ContactCountryId": 117,
+      "ContactOrgNr": "1716376",
+      "FaxPhone": "(761)600-9162 x1978",
+      "MobilePhone": "123.514.7436",
+      "ContactPhone": "(129)384-2322",
+      "AssociateName": "Runolfsson Inc and Sons",
+      "AssociateId": 960,
+      "UsePersonAddress": true,
+      "ContactFax": "minus",
+      "Kanafname": "corporis",
+      "Kanalname": "omnis",
+      "Post1": "pariatur",
+      "Post2": "enim",
+      "Post3": "optio",
+      "EmailName": "sydni.runolfsdottir@bins.biz",
+      "ContactFullName": "Dr. Edison Jake Morar",
+      "ActiveErpLinks": 896,
+      "TicketPriorityId": 503,
+      "SupportLanguageId": 59,
+      "SupportAssociateId": 332,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 304
+          "FieldType": "System.Int32",
+          "FieldLength": 36
         }
       }
     }
   ],
-  "AlertLevel": 322,
-  "ConnectId": 163,
+  "AlertLevel": 11,
+  "ConnectId": 70,
   "ReadStatus": "Green",
-  "TimeToReply": 224,
-  "RealTimeToReply": 702,
-  "TimeToClose": 54,
-  "RealTimeToClose": 951,
-  "TimeSpentInternally": 387,
-  "TimeSpentExternally": 452,
-  "TimeSpentQueue": 283,
-  "RealTimeSpentInternally": 628,
-  "RealTimeSpentExternally": 251,
-  "RealTimeSpentQueue": 426,
+  "TimeToReply": 772,
+  "RealTimeToReply": 551,
+  "TimeToClose": 242,
+  "RealTimeToClose": 18,
+  "TimeSpentInternally": 851,
+  "TimeSpentExternally": 236,
+  "TimeSpentQueue": 535,
+  "RealTimeSpentInternally": 892,
+  "RealTimeSpentExternally": 959,
+  "RealTimeSpentQueue": 498,
   "HasAttachment": false,
-  "NumReplies": 554,
-  "NumMessages": 865,
-  "FromAddress": "repellat",
+  "NumReplies": 456,
+  "NumMessages": 112,
+  "FromAddress": "eveniet",
   "Messages": [
     {
-      "TicketMessageId": 484,
-      "CreatedAt": "1996-07-03T12:15:27.4646283+02:00",
+      "TicketMessageId": 19,
+      "CreatedAt": "2004-10-12T15:29:30.6819871+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "aut",
-      "PersonId": 233,
-      "PersonFullName": "Lurline Klocko",
-      "ContactId": 331,
-      "ContactName": "Pouros Group",
+      "Author": "sint",
+      "PersonId": 799,
+      "PersonFullName": "Dan Breitenberg",
+      "ContactId": 695,
+      "ContactName": "Barton Group",
       "ContactDepartment": "",
-      "NumAttachments": 177,
-      "EmailHeader": "donato_brekke@quitzon.name",
+      "NumAttachments": 842,
+      "EmailHeader": "prince@parkerreinger.name",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "sit",
-      "Sentiment": 462,
-      "SentimentConfidence": 661,
-      "CreatedBy": 605,
-      "ChangedAt": "2009-10-09T12:15:27.4646283+02:00",
+      "Language": "soluta",
+      "Sentiment": 115,
+      "SentimentConfidence": 319,
+      "CreatedBy": 735,
+      "ChangedAt": "2013-08-01T15:29:30.6819871+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldType": "System.String",
+          "FieldLength": 985
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 905,
-      "Name": "Spinka-Zulauf",
-      "ToolTip": "Dolores suscipit nihil.",
+      "Id": 680,
+      "Name": "Kris Inc and Sons",
+      "ToolTip": "Deserunt vitae provident.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 148
         }
       }
     },
     {
-      "Id": 905,
-      "Name": "Spinka-Zulauf",
-      "ToolTip": "Dolores suscipit nihil.",
+      "Id": 680,
+      "Name": "Kris Inc and Sons",
+      "ToolTip": "Deserunt vitae provident.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 294
+          "FieldType": "System.String",
+          "FieldLength": 148
         }
       }
     }
   ],
-  "Language": "quaerat",
-  "Sentiment": 812,
-  "SentimentConfidence": 221,
-  "SuggestedCategoryId": 789,
+  "Language": "sapiente",
+  "Sentiment": 860,
+  "SentimentConfidence": 623,
+  "SuggestedCategoryId": 862,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 970,
-  "IconHint": "sint",
+  "OrigHumanCategoryId": 469,
+  "IconHint": "possimus",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "non",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "et"
+    "CustomFields1": "maxime",
+    "CustomFields2": "quaerat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 952
     }
   },
   "_Links": {

@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "provident"
+  "MessageId": "voluptatem"
 }
 ```
 
@@ -116,146 +116,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 546,
-      "ContactName": "Hammes, Quigley and Langosh",
-      "PersonId": 787,
-      "PersonName": "Blanda Inc and Sons",
-      "AssociateId": 959,
-      "Address": "sapiente",
-      "EmailId": 335,
+      "ContactId": 373,
+      "ContactName": "Deckow Inc and Sons",
+      "PersonId": 382,
+      "PersonName": "Lowe LLC",
+      "AssociateId": 992,
+      "Address": "aliquam",
+      "EmailId": 294,
       "DuplicatePersonIds": [
-        853,
-        375
+        572,
+        160
       ],
-      "Name": "Senger, Keebler and Kessler",
+      "Name": "Daniel-Emmerich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 467
+          "FieldLength": 769
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 284,
-      "ContactName": "Simonis, Sauer and Yost",
-      "PersonId": 981,
-      "PersonName": "Collins Group",
-      "AssociateId": 44,
-      "Address": "dolores",
-      "EmailId": 280,
+      "ContactId": 717,
+      "ContactName": "Quigley-Franecki",
+      "PersonId": 980,
+      "PersonName": "Bosco-Gutmann",
+      "AssociateId": 84,
+      "Address": "quia",
+      "EmailId": 451,
       "DuplicatePersonIds": [
-        505,
-        346
+        887,
+        738
       ],
-      "Name": "Mayert, Robel and Botsford",
+      "Name": "Gibson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 235
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 819,
-      "ContactName": "Keeling Group",
-      "PersonId": 820,
-      "PersonName": "McGlynn-McCullough",
-      "AssociateId": 371,
-      "Address": "excepturi",
-      "EmailId": 494,
+      "ContactId": 342,
+      "ContactName": "Abbott LLC",
+      "PersonId": 739,
+      "PersonName": "Shields Inc and Sons",
+      "AssociateId": 490,
+      "Address": "dolorum",
+      "EmailId": 409,
       "DuplicatePersonIds": [
-        13,
-        199
+        556,
+        405
       ],
-      "Name": "Beahan, Altenwerth and Parker",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 354
-        }
-      }
-    }
-  ],
-  "Subject": "dignissimos",
-  "HTMLBody": "explicabo",
-  "From": null,
-  "Sent": "2011-11-02T12:15:18.9317554+01:00",
-  "Size": 963,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "explicabo",
-  "PlainBody": "vel",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 298,
-  "Attachments": [
-    {
-      "Description": "Focused methodical firmware",
-      "Filename": "tenetur",
-      "Size": 56,
-      "Type": "odit",
-      "Encoding": "necessitatibus",
-      "Id": "sint",
-      "Disposition": "molestiae",
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Kirlin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldLength": 569
+        }
+      }
+    }
+  ],
+  "Subject": "ut",
+  "HTMLBody": "et",
+  "From": null,
+  "Sent": "2005-12-30T15:29:21.6998152+01:00",
+  "Size": 627,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "ratione",
+  "PlainBody": "facilis",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 812,
+  "Attachments": [
+    {
+      "Description": "Face to face client-driven database",
+      "Filename": "tenetur",
+      "Size": 695,
+      "Type": "qui",
+      "Encoding": "quo",
+      "Id": "dolorem",
+      "Disposition": "fuga",
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hilpert-Lynch",
+      "Name": "Larkin-Wisozk",
       "Values": [
-        "sit",
-        "qui"
+        "sint",
+        "nisi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldType": "System.String",
+          "FieldLength": 320
         }
       }
     },
     {
-      "Name": "Hilpert-Lynch",
+      "Name": "Larkin-Wisozk",
       "Values": [
-        "sit",
-        "qui"
+        "sint",
+        "nisi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldType": "System.String",
+          "FieldLength": 320
         }
       }
     }
   ],
-  "FolderName": "Stoltenberg Inc and Sons",
-  "EmailItemId": 989,
-  "AccountId": 411,
-  "ReceivedAt": "2000-06-20T12:15:18.9317554+02:00",
+  "FolderName": "Rempel, Spinka and Hahn",
+  "EmailItemId": 558,
+  "AccountId": 6,
+  "ReceivedAt": "2006-09-18T15:29:21.7008124+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-06-24T12:15:18.9317554+02:00",
+  "RepliedAt": "2004-01-03T15:29:21.7013122+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 551
     }
   }
 }

@@ -26,7 +26,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=ex
+GET /api/v1/List/Position/MDOItems?query=omnis
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1001,
-    "Name": "McGlynn-Hagenes",
-    "ToolTip": "Et distinctio.",
+    "Id": 616,
+    "Name": "Stroman, Fahey and Brown",
+    "ToolTip": "Corrupti facilis quo voluptatem quisquam delectus vero assumenda.",
     "Deleted": false,
-    "Rank": 201,
-    "Type": "ea",
+    "Rank": 795,
+    "Type": "tenetur",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Fisher, Brakus and Erdman",
-        "ToolTip": "Ut voluptas nostrum quia laborum corrupti.",
-        "Deleted": true,
-        "Rank": 25,
-        "Type": "nostrum",
+        "Id": 170,
+        "Name": "Bernier LLC",
+        "ToolTip": "Odio consequatur ratione inventore ratione.",
+        "Deleted": false,
+        "Rank": 621,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "alias",
-        "ColorBlock": 805,
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
-        "FullName": "Lawson Wuckert",
+        "IconHint": "error",
+        "ColorBlock": 333,
+        "ExtraInfo": "recusandae",
+        "StyleHint": "eveniet",
+        "FullName": "Dr. Thaddeus Kaleigh Eichmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldType": "System.String",
+            "FieldLength": 483
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 208,
-    "ExtraInfo": "delectus",
-    "StyleHint": "officia",
-    "FullName": "Dr. Clay Shanna Kunze",
+    "IconHint": "ea",
+    "ColorBlock": 914,
+    "ExtraInfo": "laudantium",
+    "StyleHint": "et",
+    "FullName": "Dolly Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldType": "System.Int32",
+        "FieldLength": 708
       }
     }
   }

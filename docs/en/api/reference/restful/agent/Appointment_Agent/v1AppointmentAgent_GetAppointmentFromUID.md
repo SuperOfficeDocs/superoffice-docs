@@ -92,7 +92,7 @@ OK
 | Location | string | Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here |
 | RejectCounter | int32 | How many invitees have rejected this appointment |
 | RejectReason | string | Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here  <para>Use MDO List name "rejectReason" to get list items.</para> |
-| Recurrence | TableRight | The appointment recurrence. |
+| Recurrence | RecurrenceInfo | The appointment recurrence. |
 | Participants | array | List of id's of the participants to this appointment. |
 | AssignmentStatus | string | Status if this appointment is in the process of being assigned to someone else |
 | InvitationStatus | string | Status if this appointment represents an invitation |
@@ -117,8 +117,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "natus"
+  "UID": "fugiat"
 }
 ```
 
@@ -145,122 +145,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-09-22T12:15:17.9757671+02:00",
-  "AppointmentId": 805,
-  "Description": "Multi-lateral next generation access",
-  "StartDate": "2002-03-17T12:15:17.9757671+01:00",
-  "EndDate": "2000-11-12T12:15:17.9757671+01:00",
+  "CreatedDate": "2022-11-14T15:29:20.7177911+01:00",
+  "AppointmentId": 380,
+  "Description": "Implemented optimizing orchestration",
+  "StartDate": "2003-11-07T15:29:20.7177911+01:00",
+  "EndDate": "2007-09-30T15:29:20.7177911+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 936,
+  "MotherId": 662,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-09-23T12:15:17.9797669+02:00",
+  "UpdatedDate": "2012-04-16T15:29:20.7212908+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 971,
+  "ActiveLinks": 462,
   "Links": [
     {
-      "EntityName": "Green LLC",
-      "Id": 925,
-      "Description": "User-friendly leading edge Graphic Interface",
-      "ExtraInfo": "rerum",
-      "LinkId": 813,
+      "EntityName": "Batz, Jones and Larkin",
+      "Id": 673,
+      "Description": "Horizontal 5th generation encoding",
+      "ExtraInfo": "itaque",
+      "LinkId": 173,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 383
+          "FieldType": "System.Int32",
+          "FieldLength": 420
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
+  "AlarmLeadTime": "nisi",
   "HasAlarm": false,
-  "ColorIndex": 430,
-  "IsFree": true,
+  "ColorIndex": 111,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "deleniti",
-  "LeadTime": "est",
-  "Location": "quam",
-  "RejectCounter": 919,
+  "LagTime": "adipisci",
+  "LeadTime": "delectus",
+  "Location": "accusantium",
+  "RejectCounter": 145,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 145,
-      "PersonId": 703,
-      "ContactId": 632,
-      "EmailId": 697,
-      "SendEmail": false,
+      "AssociateId": 934,
+      "PersonId": 868,
+      "ContactId": 613,
+      "EmailId": 695,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 145,
-      "PersonId": 703,
-      "ContactId": 632,
-      "EmailId": 697,
-      "SendEmail": false,
+      "AssociateId": 934,
+      "PersonId": 868,
+      "ContactId": 613,
+      "EmailId": 695,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-08-06T12:15:17.9797669+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2018-03-23T15:29:20.7212908+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 855,
+  "PreferredTZLocation": 225,
   "Sale": null,
-  "SuggestedAppointmentId": 141,
+  "SuggestedAppointmentId": 150,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "totam",
+  "CentralserviceVideomeetId": "facilis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Karolann Rau",
-    "SuperOffice:2": "Leland Maggio"
+    "SuperOffice:1": "1776473458",
+    "SuperOffice:2": "Mr. Jordi Spencer MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "non"
+    "CustomFields1": "a",
+    "CustomFields2": "molestiae"
   },
-  "PublishEventDate": "2006-01-19T12:15:17.9817659+01:00",
-  "PublishTo": "2006-01-11T12:15:17.9817659+01:00",
-  "PublishFrom": "2009-09-22T12:15:17.9817659+02:00",
+  "PublishEventDate": "2000-07-20T15:29:20.72279+02:00",
+  "PublishTo": "2015-11-11T15:29:20.72279+01:00",
+  "PublishFrom": "2017-02-16T15:29:20.72279+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 647,
+      "VisibleId": 424,
       "Visibility": "All",
-      "DisplayValue": "laborum",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 6
         }
       }
     },
     {
-      "VisibleId": 647,
+      "VisibleId": 424,
       "Visibility": "All",
-      "DisplayValue": "laborum",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 6
         }
       }
     }
@@ -269,8 +269,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 308
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

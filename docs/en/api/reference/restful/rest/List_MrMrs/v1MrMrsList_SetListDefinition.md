@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,15 +87,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Toy-Gulgowski",
-  "Tooltip": "consectetur",
-  "Deleted": true,
-  "Rank": 221,
-  "IsCustomList": true,
+  "Id": 549,
+  "Name": "Lakin, Dach and McGlynn",
+  "Tooltip": "aliquam",
+  "Deleted": false,
+  "Rank": 14,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Fritsch, Lang and Becker",
-  "Tooltip": "sit",
+  "Id": 913,
+  "Name": "Kreiger Group",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 951,
+  "Rank": 516,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldLength": 794
     }
   }
 }

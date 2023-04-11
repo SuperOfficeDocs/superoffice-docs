@@ -75,8 +75,8 @@ OK
 | BottomMargin | int32 | Bottom margin in twips |
 | CountColumns | int32 | Number og columns |
 | CountRows | int32 | Number of rows |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,18 +88,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 843,
-  "Name": "Keeling, Johnston and Mayert",
-  "Description": "Profound tangible structure",
+  "ReportLabelLayoutId": 821,
+  "Name": "Haag-Koelpin",
+  "Description": "Ergonomic executive algorithm",
   "Orientation": "Landscape",
-  "PaperWidth": 669,
-  "PaperHeight": 160,
-  "LeftMargin": 403,
-  "RightMargin": 462,
-  "TopMargin": 409,
-  "BottomMargin": 492,
-  "CountColumns": 830,
-  "CountRows": 783
+  "PaperWidth": 848,
+  "PaperHeight": 618,
+  "LeftMargin": 47,
+  "RightMargin": 859,
+  "TopMargin": 7,
+  "BottomMargin": 774,
+  "CountColumns": 32,
+  "CountRows": 535
 }
 ```
 
@@ -110,24 +110,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 219,
-  "Name": "Walter LLC",
-  "Description": "Switchable contextually-based workforce",
+  "ReportLabelLayoutId": 824,
+  "Name": "Renner, Fadel and Hackett",
+  "Description": "Reactive hybrid alliance",
   "Orientation": "Landscape",
-  "PaperWidth": 155,
-  "PaperHeight": 33,
-  "LeftMargin": 908,
-  "RightMargin": 993,
-  "TopMargin": 761,
-  "BottomMargin": 940,
-  "CountColumns": 690,
-  "CountRows": 548,
+  "PaperWidth": 657,
+  "PaperHeight": 394,
+  "LeftMargin": 192,
+  "RightMargin": 381,
+  "TopMargin": 989,
+  "BottomMargin": 621,
+  "CountColumns": 216,
+  "CountRows": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldType": "System.String",
+      "FieldLength": 569
     }
   }
 }

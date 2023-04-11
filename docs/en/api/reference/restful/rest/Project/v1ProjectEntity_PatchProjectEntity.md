@@ -127,8 +127,8 @@ ProjectEntity  updated.
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -143,12 +143,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "vel",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "vel",
     "value": {}
   }
 ]
@@ -161,127 +161,127 @@ HTTP/1.1 200 ProjectEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 218,
-  "Name": "Graham Group",
-  "ProjectNumber": "774763",
+  "ProjectId": 611,
+  "Name": "Jakubowski, Gleichner and Hermann",
+  "ProjectNumber": "727715",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 17,
-      "ContactId": 103,
-      "ProjectId": 966,
-      "ContactName": "Walsh, Jast and Kuvalis",
+      "ProjectmemberId": 831,
+      "ContactId": 480,
+      "ProjectId": 202,
+      "ContactName": "Effertz-Reichert",
       "ContactDepartment": "",
-      "ProjectName": "Abbott, Conroy and Schmidt",
-      "EmailId": 354,
-      "EmailAddress": "kiarra.heller@maggioerdman.info",
-      "CountryId": 526,
-      "Firstname": "Antonio",
-      "MiddleName": "Koch-Dickens",
-      "Lastname": "Gerhold",
-      "PersonId": 577,
-      "Mrmrs": "et",
-      "ProjectMemberTypeName": "Armstrong-Olson",
-      "Phone": "152-289-3244 x5152",
-      "PhoneId": 24,
-      "ProjectMemberTypeId": 568,
-      "EmailAddressName": "wilton@nitzschelynch.com",
-      "Comment": "blanditiis",
-      "FullName": "Ms. Marilyne Zula Bailey III",
+      "ProjectName": "Ward-Robel",
+      "EmailId": 669,
+      "EmailAddress": "joyce@conroy.co.uk",
+      "CountryId": 838,
+      "Firstname": "Houston",
+      "MiddleName": "Bailey, Jacobson and Considine",
+      "Lastname": "Schowalter",
+      "PersonId": 158,
+      "Mrmrs": "est",
+      "ProjectMemberTypeName": "Wolf Inc and Sons",
+      "Phone": "(126)273-8160 x51567",
+      "PhoneId": 159,
+      "ProjectMemberTypeId": 804,
+      "EmailAddressName": "julia@schroeder.name",
+      "Comment": "voluptas",
+      "FullName": "Dorris West",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 885
+          "FieldType": "System.Int32",
+          "FieldLength": 807
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "omnis",
-      "StrippedValue": "numquam",
-      "Description": "Realigned explicit conglomeration",
+      "Value": "pariatur",
+      "StrippedValue": "est",
+      "Description": "Exclusive national algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldType": "System.String",
+          "FieldLength": 258
         }
       }
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "numquam",
-      "Description": "Realigned explicit conglomeration",
+      "Value": "pariatur",
+      "StrippedValue": "est",
+      "Description": "Exclusive national algorithm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldType": "System.String",
+          "FieldLength": 258
         }
       }
     }
   ],
-  "CreatedDate": "2019-06-29T12:15:27.1676328+02:00",
-  "UpdatedDate": "2022-12-16T12:15:27.1676328+01:00",
-  "Description": "Exclusive real-time firmware",
-  "Postit": "ab",
+  "CreatedDate": "2011-11-28T15:29:29.9771953+01:00",
+  "UpdatedDate": "2008-01-08T15:29:29.9771953+01:00",
+  "Description": "Upgradable encompassing secured line",
+  "Postit": "voluptatem",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Implemented leading edge data-warehouse",
-  "ActiveStatusMonitorId": 412,
+  "HasImage": false,
+  "ImageDescription": "Self-enabling stable infrastructure",
+  "ActiveStatusMonitorId": 291,
   "Links": [
     {
-      "EntityName": "Thompson-Kuhlman",
-      "Id": 517,
-      "Description": "Cloned motivating toolset",
-      "ExtraInfo": "vel",
-      "LinkId": 486,
+      "EntityName": "Romaguera Inc and Sons",
+      "Id": 192,
+      "Description": "Total regional process improvement",
+      "ExtraInfo": "error",
+      "LinkId": 373,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldType": "System.String",
+          "FieldLength": 316
         }
       }
     }
   ],
-  "ActiveLinks": 604,
+  "ActiveLinks": 388,
   "Completed": false,
-  "NextMilestoneDate": "2019-04-04T12:15:27.1696326+02:00",
-  "NmdAppointmentId": 727,
-  "EndDate": "1998-02-22T12:15:27.1696326+01:00",
-  "ActiveErpLinks": 52,
+  "NextMilestoneDate": "2008-01-13T15:29:29.9786953+01:00",
+  "NmdAppointmentId": 902,
+  "EndDate": "2012-07-26T15:29:29.9786953+02:00",
+  "ActiveErpLinks": 577,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Violet Klocko II",
-    "SuperOffice:2": "Mrs. Nannie Hollie Osinski DDS"
+    "SuperOffice:1": "Sandy Maggio",
+    "SuperOffice:2": "274887926"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "repellendus"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2012-01-29T12:15:27.1696326+01:00",
-  "PublishTo": "2004-04-21T12:15:27.1696326+02:00",
-  "PublishFrom": "2008-04-01T12:15:27.1696326+02:00",
+  "PublishEventDate": "1996-10-27T15:29:29.9786953+01:00",
+  "PublishTo": "2023-03-10T15:29:29.9786953+01:00",
+  "PublishFrom": "2022-03-10T15:29:29.9786953+01:00",
   "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 143
     }
   },
   "_Links": {

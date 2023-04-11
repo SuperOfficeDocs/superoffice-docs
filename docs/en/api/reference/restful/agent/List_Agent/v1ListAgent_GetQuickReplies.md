@@ -57,8 +57,8 @@ OK
 | QuickReplyId | int32 | Primary key |
 | Name | string | The short name of the quick reply |
 | HtmlBody | string | The html body of the quick reply |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/GetQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,28 +77,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 667,
-    "Name": "Brakus-Graham",
-    "HtmlBody": "sit",
+    "QuickReplyId": 658,
+    "Name": "Hand Inc and Sons",
+    "HtmlBody": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldType": "System.Int32",
+        "FieldLength": 779
       }
     }
   },
   {
-    "QuickReplyId": 667,
-    "Name": "Brakus-Graham",
-    "HtmlBody": "sit",
+    "QuickReplyId": 658,
+    "Name": "Hand Inc and Sons",
+    "HtmlBody": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldType": "System.Int32",
+        "FieldLength": 779
       }
     }
   }

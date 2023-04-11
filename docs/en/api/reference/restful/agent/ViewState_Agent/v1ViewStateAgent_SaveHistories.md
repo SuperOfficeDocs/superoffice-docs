@@ -72,8 +72,8 @@ OK
 | AssociateId | int32 | Owner of history list |
 | Name | string | Name of the history item, for instance contact name |
 | ItemInfo | string | Extra information on the history item, e.g. The Associate Type for an associate or other relevant info. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Durgan, Satterfield and Jones",
+  "HistoryName": "Kassulke, Feest and Schultz",
   "History": [
     {
-      "Rank": 241,
-      "Id": 209,
-      "HistoryName": "Fahey LLC",
-      "HistoryId": 143,
-      "AssociateId": 920,
-      "Name": "Koepp, Harris and Parisian",
-      "ItemInfo": "rerum"
+      "Rank": 444,
+      "Id": 817,
+      "HistoryName": "Kilback Inc and Sons",
+      "HistoryId": 944,
+      "AssociateId": 340,
+      "Name": "Smith LLC",
+      "ItemInfo": "deleniti"
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 170,
-    "Id": 297,
-    "HistoryName": "Lakin, Armstrong and Lubowitz",
-    "HistoryId": 506,
-    "AssociateId": 695,
-    "Name": "Hilpert Inc and Sons",
-    "ItemInfo": "et",
+    "Rank": 653,
+    "Id": 303,
+    "HistoryName": "Heller, Franecki and Emmerich",
+    "HistoryId": 273,
+    "AssociateId": 20,
+    "Name": "Rutherford, Conn and Zboncak",
+    "ItemInfo": "nobis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 836
       }
     }
   }

@@ -63,8 +63,8 @@ OK
 | CreatedBy | Associate | The person that first created the document. The property is read-only. |
 | UpdatedBy | Associate | The person that last updated the appointment. |
 | ConceptualType | string | The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,28 +80,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 17 Jan 2005 12:15:27 G1T
+Last-Modified: Wed, 21 Jan 2009 15:29:30 G1T
 
 {
-  "BlobId": 208,
-  "BlobSize": 675,
-  "Description": "De-engineered responsive implementation",
-  "ExtraInfo": "omnis",
+  "BlobId": 441,
+  "BlobSize": 986,
+  "Description": "Adaptive content-based throughput",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "ullam",
-  "OriginalSize": 72,
-  "CreatedDate": "1998-06-11T12:15:27.1946325+02:00",
-  "UpdatedDate": "2005-01-17T12:15:27.1946325+01:00",
+  "IsZipped": true,
+  "MimeType": "eligendi",
+  "OriginalSize": 164,
+  "CreatedDate": "2021-09-21T15:29:30.0041605+02:00",
+  "UpdatedDate": "2009-01-21T15:29:30.0041605+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolor",
+  "ConceptualType": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

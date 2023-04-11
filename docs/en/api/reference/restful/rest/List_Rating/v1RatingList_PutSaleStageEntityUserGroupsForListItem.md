@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Zulauf Group",
-    "ToolTip": "Optio ipsa veritatis quod.",
-    "Deleted": false,
-    "Rank": 623,
-    "Type": "alias",
-    "ColorBlock": 65,
-    "IconHint": "rem",
+    "Id": 895,
+    "Name": "Smitham, Block and Schmitt",
+    "ToolTip": "Doloremque itaque sunt.",
+    "Deleted": true,
+    "Rank": 195,
+    "Type": "quia",
+    "ColorBlock": 102,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2021-11-25T12:15:28.4016147+01:00",
+    "LastChanged": "2008-01-27T15:29:31.5139761+01:00",
     "ChildItems": [
       {
-        "Id": 434,
-        "Name": "McDermott Group",
-        "ToolTip": "Laboriosam itaque praesentium vel enim quaerat expedita ex.",
+        "Id": 305,
+        "Name": "Wehner-Okuneva",
+        "ToolTip": "Dicta natus.",
         "Deleted": false,
-        "Rank": 7,
-        "Type": "cupiditate",
-        "ColorBlock": 109,
-        "IconHint": "ea",
+        "Rank": 352,
+        "Type": "qui",
+        "ColorBlock": 432,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2020-04-09T12:15:28.4016147+02:00",
+        "LastChanged": "2014-08-16T15:29:31.5139761+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "saepe",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Ferne Lehner"
+        "FullName": "Miss Maeve Jaqueline Smitham I"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Cayla D'Amore"
+    "ExtraInfo": "dolorum",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Danny Hodkiewicz"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "West, Langosh and Heller",
-    "ToolTip": "Non quia consequatur consequatur voluptate commodi reiciendis sed.",
+    "Id": 695,
+    "Name": "Wolff LLC",
+    "ToolTip": "Omnis amet aut odit in voluptates.",
     "Deleted": true,
-    "Rank": 460,
-    "Type": "reiciendis",
-    "ColorBlock": 843,
-    "IconHint": "rem",
+    "Rank": 890,
+    "Type": "deserunt",
+    "ColorBlock": 914,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "2003-11-14T12:15:28.4026167+01:00",
+    "LastChanged": "2015-12-21T15:29:31.5164747+01:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Lesch, Quigley and Jacobi",
-        "ToolTip": "Eum cumque quo dicta quos.",
+        "Id": 973,
+        "Name": "Botsford-Watsica",
+        "ToolTip": "In atque molestiae consequuntur qui aut deserunt sunt.",
         "Deleted": true,
-        "Rank": 111,
-        "Type": "ex",
-        "ColorBlock": 637,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2011-09-10T12:15:28.4026167+02:00",
+        "Rank": 860,
+        "Type": "esse",
+        "ColorBlock": 855,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2004-11-26T15:29:31.5164747+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Merritt Metz",
+        "ExtraInfo": "quos",
+        "StyleHint": "harum",
+        "Hidden": true,
+        "FullName": "Etha Beahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 85
+            "FieldLength": 132
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Prof. Tristian Rita Zboncak",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Elwin Gutkowski Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 535
       }
     }
   }

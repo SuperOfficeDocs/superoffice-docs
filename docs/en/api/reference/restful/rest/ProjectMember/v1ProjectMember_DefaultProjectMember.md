@@ -67,8 +67,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,7 +76,7 @@ OK
 GET /api/v1/ProjectMember/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 19,
-  "ContactId": 381,
-  "ProjectId": 855,
-  "ContactName": "Bauch Group",
-  "ContactDepartment": "",
-  "ProjectName": "Koepp, Boyer and Stokes",
-  "EmailId": 564,
-  "EmailAddress": "cale_bartell@hane.co.uk",
-  "CountryId": 287,
-  "Firstname": "Josie",
-  "MiddleName": "Howe, Nolan and Turcotte",
-  "Lastname": "Mante",
-  "PersonId": 886,
-  "Mrmrs": "voluptatem",
-  "ProjectMemberTypeName": "Stark Group",
-  "Phone": "717-505-2047",
-  "PhoneId": 304,
-  "ProjectMemberTypeId": 888,
-  "EmailAddressName": "anabelle.walter@renner.com",
-  "Comment": "consequuntur",
-  "FullName": "Clara Muller",
+  "ProjectmemberId": 212,
+  "ContactId": 59,
+  "ProjectId": 449,
+  "ContactName": "Shields Inc and Sons",
+  "ContactDepartment": "innovate 24/7 relationships",
+  "ProjectName": "West, Champlin and Kulas",
+  "EmailId": 832,
+  "EmailAddress": "letha.johns@reichert.info",
+  "CountryId": 175,
+  "Firstname": "Favian",
+  "MiddleName": "Bogisich, Labadie and Dietrich",
+  "Lastname": "Ledner",
+  "PersonId": 596,
+  "Mrmrs": "vel",
+  "ProjectMemberTypeName": "Koepp, Gorczany and Waelchi",
+  "Phone": "(890)525-7667 x25240",
+  "PhoneId": 911,
+  "ProjectMemberTypeId": 814,
+  "EmailAddressName": "carlo@jakubowski.name",
+  "Comment": "totam",
+  "FullName": "Ms. Deanna Stoltenberg I",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

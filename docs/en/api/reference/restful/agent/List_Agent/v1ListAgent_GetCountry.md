@@ -25,7 +25,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=819
+POST /api/v1/Agents/List/GetCountry?countryId=123
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -74,8 +74,8 @@ OK
 | Rank | int32 | The rank of the country |
 | Tooltip | string | The tooltip of the country |
 | Deleted | bool | true if the country is deleted |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 10,
-  "Name": "Deckow-Bashirian",
-  "CurrencyId": 276,
-  "EnglishName": "Hills, Wilkinson and Batz",
+  "CountryId": 727,
+  "Name": "West LLC",
+  "CurrencyId": 897,
+  "EnglishName": "Johnson, Boehm and Daugherty",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Pre-emptive upward-trending service-desk",
-  "OrgNrText": "1411006",
-  "InterAreaPrefix": "in",
-  "DialInPrefix": "deleniti",
-  "ZipPrefix": "voluptatem",
-  "DomainName": "Nikolaus LLC",
-  "AddressLayoutId": 260,
-  "DomesticAddressLayoutId": 358,
-  "ForeignAddressLayoutId": 260,
-  "Rank": 799,
-  "Tooltip": "ea",
-  "Deleted": true,
+  "ImageDescription": "Synergistic 24/7 groupware",
+  "OrgNrText": "1094451",
+  "InterAreaPrefix": "sunt",
+  "DialInPrefix": "commodi",
+  "ZipPrefix": "tempora",
+  "DomainName": "Green Group",
+  "AddressLayoutId": 861,
+  "DomesticAddressLayoutId": 215,
+  "ForeignAddressLayoutId": 811,
+  "Rank": 9,
+  "Tooltip": "natus",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 990
     }
   }
 }

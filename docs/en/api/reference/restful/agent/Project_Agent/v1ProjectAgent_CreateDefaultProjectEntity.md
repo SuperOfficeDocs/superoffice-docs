@@ -77,8 +77,8 @@ OK
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,127 +96,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 527,
-  "Name": "Friesen Group",
-  "ProjectNumber": "1095160",
+  "ProjectId": 999,
+  "Name": "Lebsack, Schinner and Stokes",
+  "ProjectNumber": "1026451",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 996,
-      "ContactId": 760,
-      "ProjectId": 40,
-      "ContactName": "Altenwerth LLC",
-      "ContactDepartment": "",
-      "ProjectName": "Sanford LLC",
-      "EmailId": 390,
-      "EmailAddress": "cullen@bayerjohnston.name",
-      "CountryId": 391,
-      "Firstname": "Myrtle",
-      "MiddleName": "Roob-Stark",
-      "Lastname": "Maggio",
-      "PersonId": 906,
-      "Mrmrs": "molestiae",
-      "ProjectMemberTypeName": "Nolan LLC",
-      "Phone": "027.828.6910",
-      "PhoneId": 893,
-      "ProjectMemberTypeId": 868,
-      "EmailAddressName": "jordane@bernhard.com",
-      "Comment": "voluptas",
-      "FullName": "Arno Kreiger",
+      "ProjectmemberId": 68,
+      "ContactId": 435,
+      "ProjectId": 825,
+      "ContactName": "Hirthe LLC",
+      "ContactDepartment": "cultivate holistic niches",
+      "ProjectName": "Rolfson Group",
+      "EmailId": 692,
+      "EmailAddress": "isaiah.schuppe@stanton.us",
+      "CountryId": 39,
+      "Firstname": "Rozella",
+      "MiddleName": "King Inc and Sons",
+      "Lastname": "Schuster",
+      "PersonId": 196,
+      "Mrmrs": "quod",
+      "ProjectMemberTypeName": "Legros, Dach and Durgan",
+      "Phone": "234.592.7194",
+      "PhoneId": 225,
+      "ProjectMemberTypeId": 278,
+      "EmailAddressName": "amani@croninparker.biz",
+      "Comment": "accusantium",
+      "FullName": "Sofia Bartoletti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 733
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "nesciunt",
-      "StrippedValue": "omnis",
-      "Description": "Universal user-facing firmware",
+      "Value": "tempora",
+      "StrippedValue": "aut",
+      "Description": "Synergized leading edge parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 832
         }
       }
     },
     {
-      "Value": "nesciunt",
-      "StrippedValue": "omnis",
-      "Description": "Universal user-facing firmware",
+      "Value": "tempora",
+      "StrippedValue": "aut",
+      "Description": "Synergized leading edge parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldLength": 832
         }
       }
     }
   ],
-  "CreatedDate": "2001-11-20T12:15:19.7967398+01:00",
-  "UpdatedDate": "1997-06-02T12:15:19.7967398+02:00",
-  "Description": "Visionary attitude-oriented archive",
-  "Postit": "corrupti",
+  "CreatedDate": "2015-02-11T15:29:22.4197999+01:00",
+  "UpdatedDate": "2005-12-28T15:29:22.4197999+01:00",
+  "Description": "Intuitive fresh-thinking benchmark",
+  "Postit": "dolores",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Mandatory exuding model",
-  "ActiveStatusMonitorId": 830,
+  "ImageDescription": "Horizontal heuristic local area network",
+  "ActiveStatusMonitorId": 541,
   "Links": [
     {
-      "EntityName": "Wiza, Turcotte and Bauch",
-      "Id": 647,
-      "Description": "Synergistic next generation customer loyalty",
-      "ExtraInfo": "sequi",
-      "LinkId": 611,
+      "EntityName": "Barton-Grimes",
+      "Id": 267,
+      "Description": "Multi-tiered maximized core",
+      "ExtraInfo": "ducimus",
+      "LinkId": 323,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 972
+          "FieldType": "System.Int32",
+          "FieldLength": 761
         }
       }
     }
   ],
-  "ActiveLinks": 11,
-  "Completed": false,
-  "NextMilestoneDate": "2008-04-22T12:15:19.7977426+02:00",
-  "NmdAppointmentId": 185,
-  "EndDate": "2001-08-30T12:15:19.7977426+02:00",
-  "ActiveErpLinks": 839,
+  "ActiveLinks": 12,
+  "Completed": true,
+  "NextMilestoneDate": "2015-08-19T15:29:22.4273011+02:00",
+  "NmdAppointmentId": 204,
+  "EndDate": "1996-01-03T15:29:22.4273011+01:00",
+  "ActiveErpLinks": 418,
   "UserDefinedFields": {
-    "SuperOffice:1": "428100692",
-    "SuperOffice:2": "Isom Ole Brown Sr."
+    "SuperOffice:1": "Prof. Teagan Haley",
+    "SuperOffice:2": "564154834"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "ratione",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "sunt"
+    "CustomFields1": "labore",
+    "CustomFields2": "unde"
   },
-  "PublishEventDate": "1997-07-02T12:15:19.7977426+02:00",
-  "PublishTo": "2012-06-21T12:15:19.7977426+02:00",
-  "PublishFrom": "2002-07-22T12:15:19.7977426+02:00",
+  "PublishEventDate": "2018-05-17T15:29:22.4273011+02:00",
+  "PublishTo": "2002-10-24T15:29:22.4273011+02:00",
+  "PublishFrom": "2002-05-17T15:29:22.4273011+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 552
     }
   }
 }

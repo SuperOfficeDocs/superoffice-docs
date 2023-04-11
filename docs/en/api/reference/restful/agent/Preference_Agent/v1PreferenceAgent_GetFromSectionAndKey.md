@@ -81,8 +81,8 @@ OK
 | MaxValue | int32 | Max value (if type 1); list table ID (if type 5) |
 | MinValue | int32 | Min value (if type 1); list extra id (if type 5) |
 | RequiredLicense | string | Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "quibusdam",
+  "Section": "quo",
   "Key": "eos"
 }
 ```
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 225,
-  "Section": "illum",
-  "Key": "adipisci",
-  "Name": "Jacobs LLC",
+  "PrefDescId": 178,
+  "Section": "voluptatum",
+  "Key": "amet",
+  "Name": "Bosco, Bosco and Parker",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone exuding help-desk",
-  "IsBuiltin": false,
-  "TableName": "Watsica-Paucek",
-  "UserDefinedListId": 81,
-  "Rank": 38,
-  "SubGroup": "vitae",
-  "MinLevel": 675,
-  "MaxValue": 232,
-  "MinValue": 543,
-  "RequiredLicense": "delectus",
+  "Description": "Diverse foreground help-desk",
+  "IsBuiltin": true,
+  "TableName": "Wiza Group",
+  "UserDefinedListId": 125,
+  "Rank": 261,
+  "SubGroup": "iusto",
+  "MinLevel": 920,
+  "MaxValue": 30,
+  "MinValue": 311,
+  "RequiredLicense": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 182
     }
   }
 }

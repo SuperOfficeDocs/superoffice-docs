@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 797,
-  "Name": "Kiehn, Brekke and Carter",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 401,
-  "UdListDefinitionId": 154
+  "HeadingId": 219,
+  "Name": "Pfannerstill-Douglas",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 730,
+  "UdListDefinitionId": 897
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 502,
-  "Name": "Collins LLC",
-  "Tooltip": "error",
+  "HeadingId": 450,
+  "Name": "Kunze-Dickens",
+  "Tooltip": "ex",
   "Deleted": true,
-  "Rank": 507,
-  "UdListDefinitionId": 840,
+  "Rank": 308,
+  "UdListDefinitionId": 622,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 948
     }
   }
 }

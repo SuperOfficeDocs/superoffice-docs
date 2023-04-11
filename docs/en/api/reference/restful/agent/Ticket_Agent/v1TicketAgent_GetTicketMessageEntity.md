@@ -25,7 +25,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=222
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=240
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -78,11 +78,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +91,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,76 +101,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 948,
+  "EjMessageId": 602,
   "Ticket": null,
-  "CreatedAt": "2004-09-25T12:15:20.4607333+02:00",
+  "CreatedAt": "2010-05-18T15:29:23.2302557+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "incidunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "expedita",
-  "TimeSpent": 453,
-  "Body": "id",
-  "HtmlBody": "tempore",
-  "EmailHeader": "neha_lakin@emard.info",
-  "DebugInfo": "neque",
-  "MailSorter": "quidem",
+  "MessageId": "quas",
+  "TimeSpent": 139,
+  "Body": "qui",
+  "HtmlBody": "atque",
+  "EmailHeader": "dedrick_franecki@runolfsson.ca",
+  "DebugInfo": "quisquam",
+  "MailSorter": "non",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "odit",
+  "SearchTitle": "temporibus",
   "MessageHeaders": [
     {
-      "Id": 172,
-      "Name": "Tremblay Group",
-      "Value": "tenetur",
+      "Id": 584,
+      "Name": "Anderson-Bernhard",
+      "Value": "exercitationem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldType": "System.String",
+          "FieldLength": 854
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "eius",
-  "Sentiment": 975,
-  "SentimentConfidence": 864,
+  "Important": true,
+  "Language": "amet",
+  "Sentiment": 94,
+  "SentimentConfidence": 784,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 973,
-      "Name": "Ratke-Kunze",
-      "ContentType": "quisquam",
-      "AttSize": 505,
-      "InlineImage": true,
-      "ContentId": "atque",
+      "AttachmentId": 232,
+      "Name": "Watsica LLC",
+      "ContentType": "voluptatem",
+      "AttSize": 111,
+      "InlineImage": false,
+      "ContentId": "esse",
+      "AuthKey": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldType": "System.String",
+          "FieldLength": 31
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "dicta"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "at"
+    "CustomFields1": "dolor",
+    "CustomFields2": "minima"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

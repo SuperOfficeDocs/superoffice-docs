@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 485,
-    "Name": "Rutherford, Murazik and Powlowski",
-    "ToolTip": "Numquam sit incidunt incidunt.",
+    "Id": 108,
+    "Name": "Huel, Considine and Koelpin",
+    "ToolTip": "Nostrum ipsum aut qui.",
     "Deleted": false,
-    "Rank": 257,
-    "Type": "enim",
-    "ColorBlock": 573,
-    "IconHint": "hic",
+    "Rank": 614,
+    "Type": "iste",
+    "ColorBlock": 442,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-01-20T12:15:28.3996146+01:00",
+    "LastChanged": "2013-04-11T15:29:31.5129755+02:00",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Cassin-Goldner",
-        "ToolTip": "Illum laboriosam aliquid officiis facilis rerum.",
-        "Deleted": true,
-        "Rank": 892,
-        "Type": "quod",
-        "ColorBlock": 825,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2011-12-26T12:15:28.3996146+01:00",
+        "Id": 498,
+        "Name": "Robel, Rice and Roob",
+        "ToolTip": "Reiciendis expedita accusantium.",
+        "Deleted": false,
+        "Rank": 686,
+        "Type": "blanditiis",
+        "ColorBlock": 80,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2013-02-09T15:29:31.5129755+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "cum",
-        "Hidden": false,
-        "FullName": "Mr. Melody Jed Hamill Sr.",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Pinkie Boyer II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 524
+            "FieldType": "System.String",
+            "FieldLength": 202
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Eugene Beier",
+    "ExtraInfo": "eos",
+    "StyleHint": "fugiat",
+    "Hidden": true,
+    "FullName": "Marlon Lebsack DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 320
       }
     }
   }

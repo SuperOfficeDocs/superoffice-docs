@@ -70,8 +70,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 983,
-    "Name": "Stoltenberg LLC",
-    "AssociateId": 724,
-    "DetailsTable": 33,
-    "DetailsRecord": 630,
+    "Id": 612,
+    "Name": "Monahan LLC",
+    "AssociateId": 827,
+    "DetailsTable": 779,
+    "DetailsRecord": 93,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "libero",
-      "ParameterObject2": "quos"
+      "ParameterObject1": "maxime",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2000-06-20T12:15:27.5996259+02:00",
-    "Created": "1997-04-15T12:15:27.5996259+02:00",
-    "StartCount": 756,
-    "DatabaseSerialNumber": "1428113",
-    "Context": "adipisci",
-    "Result": "sint",
+    "LastStarted": "2010-06-10T15:29:30.8089848+02:00",
+    "Created": "2022-07-31T15:29:30.8089848+02:00",
+    "StartCount": 392,
+    "DatabaseSerialNumber": "705295",
+    "Context": "hic",
+    "Result": "at",
     "State": "All",
-    "Description": "Reduced needs-based superstructure",
-    "Response": "itaque",
-    "Request": "tenetur",
-    "ProgressDescription": "Synergized exuding migration",
-    "ProgressPercent": 357,
-    "FileName": "Green LLC",
+    "Description": "Centralized zero tolerance open system",
+    "Response": "voluptatum",
+    "Request": "optio",
+    "ProgressDescription": "Optional local analyzer",
+    "ProgressPercent": 779,
+    "FileName": "Russel Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 519
       }
     }
   }

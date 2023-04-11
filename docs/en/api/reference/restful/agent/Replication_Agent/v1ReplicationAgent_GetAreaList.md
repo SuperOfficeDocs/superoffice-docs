@@ -67,8 +67,8 @@ OK
 | NumberOfUsers | int32 |  |
 | NumberOfLogins | int32 |  |
 | FreetextEnabeled | bool |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 656,
-    "Name": "Torphy, Robel and Ernser",
-    "MaxDataAge": 796,
-    "NumberOfUsers": 625,
-    "NumberOfLogins": 697,
+    "AreaId": 218,
+    "Name": "Nolan, Rowe and Frami",
+    "MaxDataAge": 527,
+    "NumberOfUsers": 971,
+    "NumberOfLogins": 23,
     "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 128
       }
     }
   }

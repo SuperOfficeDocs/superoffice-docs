@@ -111,8 +111,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -120,11 +120,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 734
+  "ProjectId": 676
 }
 ```
 
@@ -136,53 +136,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 124,
-    "StartDate": "2014-01-22T12:15:17.6647705+01:00",
-    "EndDate": "2008-05-08T12:15:17.6647705+02:00",
+    "AppointmentId": 694,
+    "StartDate": "1996-02-20T15:29:20.4093326+01:00",
+    "EndDate": "2002-03-07T15:29:20.4093326+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Ottilie Waelchi",
-    "ContactName": "Weissnat, Marquardt and Jaskolski",
-    "Description": "Distributed local extranet",
-    "PersonFullName": "Miss Issac Dayna Johnston Jr.",
-    "PersonId": 238,
-    "ContactId": 357,
-    "ProjectId": 420,
-    "ProjectName": "Bruen-Kling",
-    "IsPublished": true,
-    "AssociateId": 146,
-    "ColorIndex": 675,
-    "IsFree": true,
+    "Task": "libero",
+    "AssociateFullName": "Fletcher Hilpert",
+    "ContactName": "Collins Group",
+    "Description": "Multi-lateral value-added open architecture",
+    "PersonFullName": "Mateo West",
+    "PersonId": 52,
+    "ContactId": 432,
+    "ProjectId": 227,
+    "ProjectName": "Considine, Kihn and Gislason",
+    "IsPublished": false,
+    "AssociateId": 947,
+    "ColorIndex": 534,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 971,
-    "PriorityName": "Nicolas Inc and Sons",
+    "PriorityId": 669,
+    "PriorityName": "Franecki, McGlynn and Jenkins",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2014-06-03T12:15:17.6647705+02:00",
+    "ActiveDate": "2008-07-18T15:29:20.4098313+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-02-20T12:15:17.6647705+01:00",
-    "RecurringEndDate": "2001-05-26T12:15:17.6647705+02:00",
-    "MotherId": 584,
-    "AssignedBy": 550,
-    "AssignedByFullName": "Dr. Keeley Nienow",
+    "RecurringStartDate": "2006-12-09T15:29:20.4098313+01:00",
+    "RecurringEndDate": "2010-04-04T15:29:20.4098313+02:00",
+    "MotherId": 829,
+    "AssignedBy": 916,
+    "AssignedByFullName": "Miss Joy O'Reilly",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "qui",
-    "SaleId": 849,
-    "SaleName": "Nikolaus, Mayer and Gorczany",
-    "AssociateName": "Kohler-Collier",
-    "CreatedDate": "2020-01-12T12:15:17.6657739+01:00",
-    "CreatedBy": "provident",
-    "CreatedByFullName": "Cierra Grimes",
-    "CreatedByAssociateId": 273,
+    "Location": "ea",
+    "AlarmLeadTime": "numquam",
+    "SaleId": 58,
+    "SaleName": "O'Conner Inc and Sons",
+    "AssociateName": "Daniel-Murazik",
+    "CreatedDate": "2007-01-22T15:29:20.4103302+01:00",
+    "CreatedBy": "commodi",
+    "CreatedByFullName": "Mariah Maggio",
+    "CreatedByAssociateId": 253,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 925
       }
     }
   }

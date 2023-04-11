@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Stoltenberg-Leuschke",
-    "ToolTip": "Ipsam molestias.",
-    "Deleted": true,
-    "Rank": 928,
-    "Type": "iste",
-    "ColorBlock": 833,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2014-10-27T12:15:27.872622+01:00",
+    "Id": 785,
+    "Name": "Becker Inc and Sons",
+    "ToolTip": "Nesciunt ea rem consequatur tenetur.",
+    "Deleted": false,
+    "Rank": 220,
+    "Type": "iure",
+    "ColorBlock": 424,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2007-06-29T15:29:31.0794473+02:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Kuphal-Cruickshank",
-        "ToolTip": "Quis iusto similique aliquid voluptas sint.",
+        "Id": 571,
+        "Name": "Bogisich-DuBuque",
+        "ToolTip": "Minima aut suscipit nemo labore reiciendis.",
         "Deleted": false,
-        "Rank": 255,
-        "Type": "omnis",
-        "ColorBlock": 506,
-        "IconHint": "aut",
+        "Rank": 190,
+        "Type": "adipisci",
+        "ColorBlock": 428,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2016-03-28T12:15:27.8736229+02:00",
+        "LastChanged": "2020-04-26T15:29:31.0794473+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Rodolfo Mraz"
+        "ExtraInfo": "possimus",
+        "StyleHint": "fuga",
+        "Hidden": true,
+        "FullName": "Miss Margot Andreane Denesik Jr."
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Mr. Tomasa Ward Jr."
+    "ExtraInfo": "sed",
+    "StyleHint": "porro",
+    "Hidden": true,
+    "FullName": "Johnathan Corkery"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Jacobson-Rowe",
-    "ToolTip": "Suscipit qui dignissimos sunt culpa ratione.",
-    "Deleted": true,
-    "Rank": 443,
-    "Type": "alias",
-    "ColorBlock": 744,
-    "IconHint": "consequuntur",
+    "Id": 705,
+    "Name": "Conroy, Larson and Stracke",
+    "ToolTip": "Soluta molestiae consequatur optio sit natus blanditiis.",
+    "Deleted": false,
+    "Rank": 547,
+    "Type": "dolorum",
+    "ColorBlock": 813,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2014-07-19T12:15:27.8756227+02:00",
+    "LastChanged": "2013-04-15T15:29:31.0809463+02:00",
     "ChildItems": [
       {
-        "Id": 248,
-        "Name": "Larson LLC",
-        "ToolTip": "Laboriosam amet dignissimos suscipit est officia error.",
+        "Id": 858,
+        "Name": "Hudson, Jerde and Fisher",
+        "ToolTip": "Minus doloremque iusto qui veritatis.",
         "Deleted": true,
-        "Rank": 187,
-        "Type": "voluptatem",
-        "ColorBlock": 120,
-        "IconHint": "iste",
+        "Rank": 58,
+        "Type": "et",
+        "ColorBlock": 339,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2005-08-13T12:15:27.8756227+02:00",
+        "LastChanged": "2011-01-04T15:29:31.0814461+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "blanditiis",
-        "Hidden": false,
-        "FullName": "Dr. Missouri Tyree Sawayn",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Kellie Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 867
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "magnam",
-    "Hidden": true,
-    "FullName": "Kole Mosciski I",
+    "ExtraInfo": "molestias",
+    "StyleHint": "a",
+    "Hidden": false,
+    "FullName": "Prof. Frederik Nils Jones DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldType": "System.Int32",
+        "FieldLength": 453
       }
     }
   }

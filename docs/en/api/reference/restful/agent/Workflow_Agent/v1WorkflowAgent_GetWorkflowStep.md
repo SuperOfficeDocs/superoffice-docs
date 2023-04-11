@@ -9,7 +9,7 @@ uid: v1WorkflowAgent_GetWorkflowStep
 POST /api/v1/Agents/Workflow/GetWorkflowStep
 ```
 
-Gets a WorkflowStep object.
+Get Workflowstep by ID
 
 
 
@@ -21,11 +21,9 @@ Gets a WorkflowStep object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| workflowStepId | int32 | **Required** The primary key. |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowStep?workflowStepId=132
 POST /api/v1/Agents/Workflow/GetWorkflowStep?$select=name,department,category/id
 ```
 
@@ -36,6 +34,7 @@ POST /api/v1/Agents/Workflow/GetWorkflowStep?$select=name,department,category/id
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept         | Content-type(s) you would like the response in: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept-Language | Convert string references and multi-language values into a specified language (iso2) code. |
 | SO-Language | Convert string references and multi-language values into a specified language (iso2) code. Overrides Accept-Language value. |
@@ -43,6 +42,13 @@ POST /api/v1/Agents/Workflow/GetWorkflowStep?$select=name,department,category/id
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+## Request Body: request 
+
+WorkflowStepId 
+
+| Property Name | Type |  Description |
+|----------------|------|--------------|
+| WorkflowStepId | Integer |  |
 
 ## Response:
 
@@ -52,15 +58,14 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: WorkflowStep
+### Response body: WorkflowStepBase
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | WorkflowStepId | int32 | Primary key |
+| WorkflowId | int32 | The flow this step belongs to |
 | StepType | string | Step type |
-| SubSteps | array | Sub/Child steps in the workflow. When the step line forks into more than one is given by the StepType. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| Rank | int32 | Step order |
 
 ## Sample request
 
@@ -68,7 +73,12 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStep
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
+Content-Type: application/json; charset=utf-8
+
+{
+  "WorkflowStepId": 111
+}
 ```
 
 ## Sample response
@@ -78,49 +88,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepId": 141,
+  "WorkflowStepId": 63,
+  "WorkflowId": 995,
   "StepType": "AddToList",
-  "SubSteps": [
-    {
-      "WorkflowStepId": 287,
-      "StepType": "AddToList",
-      "SubSteps": [
-        {},
-        {}
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 314
-        }
-      }
-    },
-    {
-      "WorkflowStepId": 287,
-      "StepType": "AddToList",
-      "SubSteps": [
-        {},
-        {}
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 314
-        }
-      }
-    }
-  ],
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
-    }
-  }
+  "Rank": 740
 }
 ```

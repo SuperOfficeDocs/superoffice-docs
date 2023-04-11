@@ -60,7 +60,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -73,10 +73,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourcePersonId": 70,
-  "DestinationPersonId": 125,
-  "MoveAfterDate": "2009-11-15T12:15:19.6777416+01:00",
-  "DeleteSource": true,
+  "SourcePersonId": 873,
+  "DestinationPersonId": 395,
+  "MoveAfterDate": "2005-02-28T15:29:22.3087676+01:00",
+  "DeleteSource": false,
   "ReplaceEmptyFieldsOnDestination": false
 }
 ```

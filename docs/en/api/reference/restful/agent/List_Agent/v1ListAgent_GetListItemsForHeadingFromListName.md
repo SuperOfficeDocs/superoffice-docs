@@ -78,8 +78,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Abbott-Bergnaum",
-  "HeadingId": 885
+  "UdListDefinitionName": "Kris LLC",
+  "HeadingId": 859
 }
 ```
 
@@ -104,56 +104,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Ferry, Spinka and West",
-    "ToolTip": "Aut quis.",
-    "Deleted": false,
-    "Rank": 553,
-    "Type": "omnis",
-    "ColorBlock": 468,
-    "IconHint": "nam",
+    "Id": 860,
+    "Name": "Medhurst Group",
+    "ToolTip": "Reprehenderit voluptatem debitis aperiam porro corrupti sed nobis.",
+    "Deleted": true,
+    "Rank": 46,
+    "Type": "sit",
+    "ColorBlock": 451,
+    "IconHint": "placeat",
     "Selected": true,
-    "LastChanged": "2007-08-15T12:15:19.2707474+02:00",
+    "LastChanged": "2008-07-10T15:29:22.0287718+02:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Beatty Group",
-        "ToolTip": "Exercitationem quaerat dolor.",
+        "Id": 491,
+        "Name": "Veum, Stracke and Steuber",
+        "ToolTip": "Quae ut non sapiente sed voluptatem fugiat voluptates.",
         "Deleted": false,
-        "Rank": 897,
-        "Type": "assumenda",
-        "ColorBlock": 169,
-        "IconHint": "omnis",
+        "Rank": 128,
+        "Type": "quae",
+        "ColorBlock": 142,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2009-11-06T12:15:19.2707474+01:00",
+        "LastChanged": "2015-01-11T15:29:22.0297723+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Austin Tremblay",
+        "ExtraInfo": "odit",
+        "StyleHint": "ratione",
+        "Hidden": false,
+        "FullName": "Lawrence Laila Lindgren I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 265
+            "FieldLength": 445
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
+    "ExtraInfo": "fugit",
     "StyleHint": "quasi",
     "Hidden": false,
-    "FullName": "Dr. Ceasar Joannie Hane II",
+    "FullName": "Kim Laisha McClure I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

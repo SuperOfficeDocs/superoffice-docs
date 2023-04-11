@@ -76,8 +76,8 @@ OK
 | SenderEmailMode | string | If email template, when DocType is Privacy or quote email, it is possible to make sender address like our contact, or our support contact, or always one address |
 | SenderEmailAddress | string | If email template, default senderaddress when template is of type quote email or privacy email. |
 | InvitationDocType | string | Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3 |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 302,
-  "Name": "Lockman-Towne",
-  "Tooltip": "officia",
-  "SaveInDb": 32,
-  "Filename": "doloribus",
-  "DefaultOref": "qui",
+  "DocumentTemplateId": 678,
+  "Name": "Mante Inc and Sons",
+  "Tooltip": "magnam",
+  "SaveInDb": 110,
+  "Filename": "voluptatum",
+  "DefaultOref": "est",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 490,
-  "IntentId": 685,
-  "IsDefaultPublished": true,
-  "Rank": 972,
-  "LoadTemplateFromPlugin": 759,
-  "MimeType": "tempora",
+  "AutoeventId": 745,
+  "IntentId": 494,
+  "IsDefaultPublished": false,
+  "Rank": 361,
+  "LoadTemplateFromPlugin": 523,
+  "MimeType": "temporibus",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 711,
+  "DocumentTypeKey": 483,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "jackeline_schoen@vonrueden.co.uk",
+  "EmailSubject": "roxanne@maggio.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "pierce_haag@pollichmitchell.name",
+  "SenderEmailAddress": "ferne@romagueracremin.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldLength": 79
     }
   }
 }

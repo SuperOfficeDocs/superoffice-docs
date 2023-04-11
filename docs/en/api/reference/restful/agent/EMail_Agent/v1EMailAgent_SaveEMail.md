@@ -91,8 +91,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,146 +118,146 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 398,
-      "ContactName": "Sporer-Jakubowski",
-      "PersonId": 156,
-      "PersonName": "Keebler, Price and Brown",
-      "AssociateId": 761,
-      "Address": "magnam",
-      "EmailId": 753,
+      "ContactId": 37,
+      "ContactName": "Windler-Toy",
+      "PersonId": 208,
+      "PersonName": "Lakin, Watsica and Runolfsdottir",
+      "AssociateId": 698,
+      "Address": "perspiciatis",
+      "EmailId": 733,
       "DuplicatePersonIds": [
-        269,
-        883
+        139,
+        645
       ],
-      "Name": "Oberbrunner-Oberbrunner",
+      "Name": "Schmitt-Rodriguez",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 318
+          "FieldType": "System.Int32",
+          "FieldLength": 404
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 616,
-      "ContactName": "Koss Inc and Sons",
-      "PersonId": 952,
-      "PersonName": "Murazik Inc and Sons",
-      "AssociateId": 615,
-      "Address": "fuga",
-      "EmailId": 777,
+      "ContactId": 443,
+      "ContactName": "Ondricka, Bednar and Homenick",
+      "PersonId": 700,
+      "PersonName": "Williamson Group",
+      "AssociateId": 51,
+      "Address": "soluta",
+      "EmailId": 431,
       "DuplicatePersonIds": [
-        418,
-        957
+        220,
+        786
       ],
-      "Name": "Schmidt, Walsh and Jast",
+      "Name": "Ward-Rosenbaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 637
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 879,
-      "ContactName": "Feeney, Armstrong and McGlynn",
-      "PersonId": 45,
-      "PersonName": "Bayer-Jacobi",
-      "AssociateId": 694,
-      "Address": "perspiciatis",
-      "EmailId": 655,
+      "ContactId": 994,
+      "ContactName": "Prohaska-Robel",
+      "PersonId": 6,
+      "PersonName": "Ankunding Inc and Sons",
+      "AssociateId": 808,
+      "Address": "voluptas",
+      "EmailId": 698,
       "DuplicatePersonIds": [
-        120,
-        977
+        128,
+        114
       ],
-      "Name": "Mosciski, Rath and Veum",
+      "Name": "Parisian-Donnelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 28
         }
       }
     }
   ],
-  "Subject": "saepe",
-  "HTMLBody": "nisi",
+  "Subject": "inventore",
+  "HTMLBody": "eum",
   "From": null,
-  "Sent": "2000-11-01T12:15:19.0117509+01:00",
-  "Size": 895,
+  "Sent": "2007-12-23T15:29:21.775775+01:00",
+  "Size": 467,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ipsum",
-  "PlainBody": "eos",
+  "MessageID": "nemo",
+  "PlainBody": "sed",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 712,
+  "ServerId": 607,
   "Attachments": [
     {
-      "Description": "Realigned upward-trending structure",
-      "Filename": "a",
-      "Size": 754,
-      "Type": "doloremque",
-      "Encoding": "ut",
-      "Id": "impedit",
-      "Disposition": "numquam",
+      "Description": "Profit-focused cohesive paradigm",
+      "Filename": "consequuntur",
+      "Size": 146,
+      "Type": "et",
+      "Encoding": "possimus",
+      "Id": "ea",
+      "Disposition": "soluta",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 40
+          "FieldLength": 107
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gusikowski, Rice and Mohr",
+      "Name": "Wiza LLC",
       "Values": [
-        "eos",
-        "officia"
+        "adipisci",
+        "saepe"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     },
     {
-      "Name": "Gusikowski, Rice and Mohr",
+      "Name": "Wiza LLC",
       "Values": [
-        "eos",
-        "officia"
+        "adipisci",
+        "saepe"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     }
   ],
-  "FolderName": "Okuneva, Lebsack and Friesen",
-  "EmailItemId": 908,
-  "AccountId": 444,
-  "ReceivedAt": "2019-12-01T12:15:19.0127509+01:00",
+  "FolderName": "Gaylord-Keebler",
+  "EmailItemId": 238,
+  "AccountId": 676,
+  "ReceivedAt": "2002-05-12T15:29:21.7762749+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-06-01T12:15:19.0127509+02:00",
+  "RepliedAt": "2018-04-26T15:29:21.7762749+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldLength": 966
     }
   }
 }

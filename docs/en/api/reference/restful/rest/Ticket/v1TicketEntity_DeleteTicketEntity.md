@@ -42,7 +42,7 @@ TicketEntity deleted.
 |----------------|-------------|
 | 204 | TicketEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request

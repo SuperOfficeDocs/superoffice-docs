@@ -25,7 +25,7 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=384
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=29
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -64,8 +64,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 149,
+  "CustConfigId": 92,
   "Type": "Options",
-  "Config": "cum",
-  "CustLangId": 47,
-  "Registered": "2000-07-05T12:15:18.6417562+02:00",
-  "RegisteredAssociateId": 215,
-  "Updated": "2002-07-22T12:15:18.6417562+02:00",
-  "UpdatedAssociateId": 987,
+  "Config": "natus",
+  "CustLangId": 748,
+  "Registered": "2003-07-13T15:29:21.2677832+02:00",
+  "RegisteredAssociateId": 69,
+  "Updated": "2010-03-12T15:29:21.2677832+01:00",
+  "UpdatedAssociateId": 194,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 633
     }
   }
 }

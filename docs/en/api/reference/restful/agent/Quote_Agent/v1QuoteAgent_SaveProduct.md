@@ -119,8 +119,8 @@ OK
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -128,55 +128,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 143,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "ex",
-  "Name": "Huel Group",
-  "Description": "Inverse stable circuit",
-  "Code": "sapiente",
-  "PriceUnit": "temporibus",
-  "QuantityUnit": "voluptatibus",
+  "ProductId": 920,
+  "ERPProductKey": "ea",
+  "ERPPriceListKey": "ut",
+  "Name": "Runolfsson-Steuber",
+  "Description": "Cross-platform even-keeled extranet",
+  "Code": "eligendi",
+  "PriceUnit": "dignissimos",
+  "QuantityUnit": "et",
   "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "DefaultSubscriptionQuantity": 14701.594,
-  "ItemNumber": "1243880",
+  "SubscriptionUnit": "in",
+  "DefaultSubscriptionQuantity": 16807.642,
+  "ItemNumber": "871778",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "recusandae",
-  "ProductTypeKey": "quisquam",
-  "VAT": 12050.23,
-  "VATInfo": "quo",
-  "UnitCost": 12739.71,
-  "UnitMinimumPrice": 19390.058,
-  "UnitListPrice": 29939.102,
+  "ProductFamilyKey": "ad",
+  "ProductTypeKey": "sequi",
+  "VAT": 18133.324,
+  "VATInfo": "eos",
+  "UnitCost": 16196.511999999999,
+  "UnitMinimumPrice": 4735.474,
+  "UnitListPrice": 20421.144,
   "InAssortment": false,
-  "Supplier": "eaque",
-  "SupplierCode": "quae",
-  "Rights": "eos",
-  "Rule": "repellendus",
+  "Supplier": "suscipit",
+  "SupplierCode": "consequatur",
+  "Rights": "et",
+  "Rule": "voluptas",
   "ExtraInfo": [
     {
-      "Name": "Kirlin Inc and Sons",
-      "Value": "sint",
+      "Name": "Green, Nicolas and Klocko",
+      "Value": "atque",
       "Type": "Image"
     },
     {
-      "Name": "Kirlin Inc and Sons",
-      "Value": "sint",
+      "Name": "Green, Nicolas and Klocko",
+      "Value": "atque",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "aspernatur",
-  "ExtraField1": "ipsa",
-  "ExtraField2": "et",
-  "ExtraField3": "excepturi",
-  "ExtraField4": "nihil",
-  "ExtraField5": "animi",
-  "InStock": 17262.072
+  "RawExtraInfo": "hic",
+  "ExtraField1": "placeat",
+  "ExtraField2": "esse",
+  "ExtraField3": "libero",
+  "ExtraField4": "vero",
+  "ExtraField5": "necessitatibus",
+  "InStock": 21188.974
 }
 ```
 
@@ -187,73 +187,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 310,
-  "ERPProductKey": "optio",
-  "ERPPriceListKey": "fugit",
-  "Name": "Ward Group",
-  "Description": "Future-proofed web-enabled application",
-  "Code": "ipsa",
-  "PriceUnit": "dignissimos",
-  "QuantityUnit": "quam",
-  "IsSubscription": false,
-  "SubscriptionUnit": "vel",
-  "DefaultSubscriptionQuantity": 26601.392,
-  "ItemNumber": "798229",
+  "ProductId": 577,
+  "ERPProductKey": "culpa",
+  "ERPPriceListKey": "officia",
+  "Name": "Gerlach, McCullough and Rosenbaum",
+  "Description": "Optional real-time Graphic Interface",
+  "Code": "totam",
+  "PriceUnit": "eveniet",
+  "QuantityUnit": "dolorum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 23903.018,
+  "ItemNumber": "941610",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "velit",
-  "ProductTypeKey": "incidunt",
-  "VAT": 6048.62,
-  "VATInfo": "nihil",
-  "UnitCost": 7885.1439999999993,
-  "UnitMinimumPrice": 26206.507999999998,
-  "UnitListPrice": 1667.288,
+  "ProductFamilyKey": "quibusdam",
+  "ProductTypeKey": "fugiat",
+  "VAT": 30597.242,
+  "VATInfo": "aperiam",
+  "UnitCost": 24764.868,
+  "UnitMinimumPrice": 28817.129999999997,
+  "UnitListPrice": 30008.05,
   "InAssortment": false,
-  "Supplier": "fuga",
-  "SupplierCode": "ducimus",
-  "Rights": "pariatur",
-  "Rule": "amet",
+  "Supplier": "consequuntur",
+  "SupplierCode": "sapiente",
+  "Rights": "nihil",
+  "Rule": "incidunt",
   "ExtraInfo": [
     {
-      "Name": "Beatty LLC",
-      "Value": "eum",
+      "Name": "Carter Inc and Sons",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 646
         }
       }
     },
     {
-      "Name": "Beatty LLC",
-      "Value": "eum",
+      "Name": "Carter Inc and Sons",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 646
         }
       }
     }
   ],
-  "RawExtraInfo": "illo",
-  "ExtraField1": "quia",
-  "ExtraField2": "alias",
-  "ExtraField3": "id",
-  "ExtraField4": "aut",
-  "ExtraField5": "alias",
-  "InStock": 17926.48,
+  "RawExtraInfo": "consequuntur",
+  "ExtraField1": "harum",
+  "ExtraField2": "qui",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "sit",
+  "ExtraField5": "fugiat",
+  "InStock": 13717.518,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 346
     }
   }
 }

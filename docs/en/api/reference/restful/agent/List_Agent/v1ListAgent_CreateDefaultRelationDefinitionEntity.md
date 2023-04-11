@@ -54,8 +54,8 @@ OK
 | Rank | int32 | Rank order |
 | Source | string | The source of the relation |
 | Destination | string | The destination of the relation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 575,
-  "Name": "Corkery-Klocko",
-  "Tooltip": "eveniet",
-  "PassiveText": "veritatis",
+  "ReldefId": 684,
+  "Name": "Gulgowski LLC",
+  "Tooltip": "fuga",
+  "PassiveText": "vel",
   "Deleted": false,
-  "Rank": 428,
+  "Rank": 671,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldLength": 769
     }
   }
 }

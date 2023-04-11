@@ -96,8 +96,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -105,13 +105,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    460,
-    211
+    284,
+    824
   ]
 }
 ```
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 180,
-    "ColumnId": 603,
-    "FieldDefault": "non",
-    "FieldHeight": 780,
-    "FieldLabel": "quibusdam",
-    "FieldLeft": 915,
-    "FieldTop": 483,
+    "UDefFieldId": 7,
+    "ColumnId": 382,
+    "FieldDefault": "dignissimos",
+    "FieldHeight": 816,
+    "FieldLabel": "dolores",
+    "FieldLeft": 38,
+    "FieldTop": 622,
     "FieldType": "Checkbox",
-    "FieldWidth": 624,
-    "FormatMask": "soluta",
+    "FieldWidth": 452,
+    "FormatMask": "omnis",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 30,
-    "LabelLeft": 735,
-    "LabelTop": 378,
-    "LabelWidth": 162,
-    "LastVersionId": 277,
-    "ListTableId": 359,
-    "IsMandatory": true,
+    "LabelHeight": 28,
+    "LabelLeft": 349,
+    "LabelTop": 782,
+    "LabelWidth": 605,
+    "LastVersionId": 411,
+    "ListTableId": 777,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 440,
-    "ProgId": "et",
+    "Page1LineNo": 1000,
+    "ProgId": "est",
     "IsReadOnly": true,
-    "ShortLabel": "commodi",
-    "TabOrder": 258,
-    "TextLength": 334,
-    "Tooltip": "soluta",
-    "UdefIdentity": 458,
-    "UDListDefinitionId": 176,
+    "ShortLabel": "rerum",
+    "TabOrder": 124,
+    "TextLength": 288,
+    "Tooltip": "molestias",
+    "UdefIdentity": 723,
+    "UDListDefinitionId": 802,
     "Justification": "Center",
-    "Version": 610,
-    "TemplateVariableName": "Klocko LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Schuster Inc and Sons",
+    "Version": 759,
+    "TemplateVariableName": "Gleason Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Streich-Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldType": "System.String",
+        "FieldLength": 832
       }
     }
   }

@@ -54,8 +54,8 @@ OK
 | GenerationStart | date-time | When was the last regeneration started |
 | GenerationEnd | date-time | When was the last regeneration finished |
 | RowsGenerated | int32 | Number of CounterValue rows generated for this entity |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 402,
-  "Enabled": false,
-  "Period1": 717,
-  "Period2": 332,
-  "Period3": 627,
-  "GenerationStart": "2016-11-11T12:15:20.0097361+01:00",
-  "GenerationEnd": "2022-05-22T12:15:20.0097361+02:00",
-  "RowsGenerated": 691,
+  "OwnerTable": 784,
+  "Enabled": true,
+  "Period1": 590,
+  "Period2": 438,
+  "Period3": 838,
+  "GenerationStart": "2020-06-20T15:29:22.6347637+02:00",
+  "GenerationEnd": "2002-06-26T15:29:22.6347637+02:00",
+  "RowsGenerated": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 901
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

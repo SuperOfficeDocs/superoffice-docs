@@ -58,7 +58,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 257,
-  "EmailAddress": "pat.ritchie@goodwin.uk",
-  "EmailTemplateId": 555,
-  "CultureLcidId": 430,
-  "Subject": "similique"
+  "PersonId": 434,
+  "EmailAddress": "salma@russel.com",
+  "EmailTemplateId": 816,
+  "CultureLcidId": 948,
+  "Subject": "et"
 }
 ```
 

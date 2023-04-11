@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 575,
-    "Name": "Swaniawski-Schuster",
-    "ToolTip": "Aut ex fugiat assumenda sit.",
-    "Deleted": false,
-    "Rank": 979,
-    "Type": "sint",
-    "ColorBlock": 460,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "2005-02-03T12:15:28.1566184+01:00",
+    "Id": 914,
+    "Name": "McLaughlin Group",
+    "ToolTip": "Et tenetur possimus qui.",
+    "Deleted": true,
+    "Rank": 35,
+    "Type": "nostrum",
+    "ColorBlock": 289,
+    "IconHint": "veritatis",
+    "Selected": true,
+    "LastChanged": "2004-02-21T15:29:31.2689754+01:00",
     "ChildItems": [
       {
-        "Id": 502,
-        "Name": "Aufderhar, Goodwin and Gottlieb",
-        "ToolTip": "Illo quia qui at ab.",
+        "Id": 855,
+        "Name": "Medhurst Group",
+        "ToolTip": "Dicta aut nam.",
         "Deleted": false,
-        "Rank": 22,
-        "Type": "soluta",
-        "ColorBlock": 528,
-        "IconHint": "quas",
+        "Rank": 568,
+        "Type": "nihil",
+        "ColorBlock": 767,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2010-02-15T12:15:28.1566184+01:00",
+        "LastChanged": "2008-09-03T15:29:31.2689754+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "odit",
-        "Hidden": false,
-        "FullName": "Micaela Fisher Sr."
+        "ExtraInfo": "provident",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Theodore Rowe"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Helga Jakubowski MD"
+    "FullName": "Davonte Bartell"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Kunde Group",
-    "ToolTip": "Vel iste.",
-    "Deleted": false,
-    "Rank": 933,
-    "Type": "quo",
-    "ColorBlock": 598,
-    "IconHint": "illum",
-    "Selected": false,
-    "LastChanged": "2006-09-21T12:15:28.1596185+02:00",
+    "Id": 809,
+    "Name": "Becker, Turcotte and Hartmann",
+    "ToolTip": "Dolores occaecati tempora quam explicabo odit.",
+    "Deleted": true,
+    "Rank": 325,
+    "Type": "exercitationem",
+    "ColorBlock": 932,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2022-08-21T15:29:31.2704803+02:00",
     "ChildItems": [
       {
-        "Id": 221,
-        "Name": "Lehner LLC",
-        "ToolTip": "Perferendis nobis.",
+        "Id": 991,
+        "Name": "Beer Inc and Sons",
+        "ToolTip": "Error odit similique est.",
         "Deleted": false,
-        "Rank": 850,
-        "Type": "aspernatur",
-        "ColorBlock": 504,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "1996-07-01T12:15:28.1596185+02:00",
+        "Rank": 315,
+        "Type": "voluptas",
+        "ColorBlock": 896,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2010-12-03T15:29:31.2704803+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "et",
+        "StyleHint": "doloribus",
         "Hidden": true,
-        "FullName": "Jadyn Batz",
+        "FullName": "Ruthe McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 319
+            "FieldType": "System.Int32",
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "est",
+    "ExtraInfo": "quo",
+    "StyleHint": "nulla",
     "Hidden": true,
-    "FullName": "Kylee Rempel",
+    "FullName": "Isac Kuvalis PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldLength": 736
       }
     }
   }

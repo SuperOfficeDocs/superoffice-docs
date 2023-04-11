@@ -73,8 +73,8 @@ OK
 | Mandatory | bool | Is this a mandatory field? |
 | Rank | int32 | Rank of the field |
 | RestrictEdit | bool | If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,21 +82,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 611,
-      "FieldName": "Beahan, Moen and Turcotte",
-      "Label": "sed",
-      "Tooltip": "qui",
+      "QuoteLineConfigurationId": 1002,
+      "FieldName": "Greenfelder, Bernier and Borer",
+      "Label": "asperiores",
+      "Tooltip": "corrupti",
       "Editable": false,
-      "InUse": false,
-      "Mandatory": true,
-      "Rank": 409,
-      "RestrictEdit": true
+      "InUse": true,
+      "Mandatory": false,
+      "Rank": 989,
+      "RestrictEdit": false
     }
   ]
 }
@@ -110,21 +110,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 556,
-    "FieldName": "Wunsch, Sipes and Vandervort",
-    "Label": "blanditiis",
-    "Tooltip": "dolor",
-    "Editable": false,
+    "QuoteLineConfigurationId": 826,
+    "FieldName": "Bergstrom-Ernser",
+    "Label": "repellat",
+    "Tooltip": "rerum",
+    "Editable": true,
     "InUse": true,
     "Mandatory": false,
-    "Rank": 603,
-    "RestrictEdit": false,
+    "Rank": 939,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 594
       }
     }
   }

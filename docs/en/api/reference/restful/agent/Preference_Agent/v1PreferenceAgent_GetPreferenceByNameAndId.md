@@ -76,8 +76,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "aliquid",
-  "PrefKey": "sit",
+  "PrefSection": "labore",
+  "PrefKey": "nihil",
   "PrefLevel": "Database",
-  "OwnerId": 527
+  "OwnerId": 162
 }
 ```
 
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ipsum",
+  "RawValue": "sit",
   "Specification": null,
-  "DisplayValue": "doloremque",
-  "DisplayTooltip": "sit",
+  "DisplayValue": "corrupti",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 412,
-  "PrefDescId": 192,
-  "TableName": "Veum LLC",
-  "UserPreferenceId": 199,
+  "TargetId": 251,
+  "PrefDescId": 992,
+  "TableName": "Collins LLC",
+  "UserPreferenceId": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldLength": 985
     }
   }
 }

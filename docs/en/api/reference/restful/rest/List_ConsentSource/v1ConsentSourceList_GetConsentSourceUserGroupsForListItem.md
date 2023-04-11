@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,55 +86,55 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Id": 479,
-    "Name": "Kshlerin LLC",
-    "ToolTip": "Molestiae ipsam.",
+    "Name": "Schuster-Casper",
+    "ToolTip": "Est quia possimus.",
     "Deleted": false,
-    "Rank": 984,
-    "Type": "eum",
-    "ColorBlock": 874,
-    "IconHint": "veniam",
+    "Rank": 352,
+    "Type": "similique",
+    "ColorBlock": 680,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2006-09-07T12:15:27.9426238+02:00",
+    "LastChanged": "1999-07-10T15:29:31.15398+02:00",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Stroman-Huel",
-        "ToolTip": "Rerum aut occaecati repellat.",
-        "Deleted": true,
-        "Rank": 520,
-        "Type": "non",
-        "ColorBlock": 543,
-        "IconHint": "cupiditate",
+        "Id": 70,
+        "Name": "Anderson, Johnson and Stanton",
+        "ToolTip": "Adipisci similique et laudantium odio.",
+        "Deleted": false,
+        "Rank": 555,
+        "Type": "sed",
+        "ColorBlock": 136,
+        "IconHint": "repellendus",
         "Selected": true,
-        "LastChanged": "2008-05-11T12:15:27.9436212+02:00",
+        "LastChanged": "2012-04-22T15:29:31.1544804+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "magnam",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "architecto",
         "Hidden": true,
-        "FullName": "Austyn Hammes",
+        "FullName": "Arturo Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldType": "System.String",
+            "FieldLength": 458
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "alias",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Tara Durgan",
+    "FullName": "Kathleen Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldType": "System.Int32",
+        "FieldLength": 879
       }
     }
   }

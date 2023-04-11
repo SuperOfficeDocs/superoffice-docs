@@ -76,10 +76,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 480,
+  "AssociateId": 831,
   "Type": "AnonymousAssociate",
-  "PersonId": 812,
-  "UserName": "Williamson-Blick"
+  "PersonId": 388,
+  "UserName": "Moen-Murray"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

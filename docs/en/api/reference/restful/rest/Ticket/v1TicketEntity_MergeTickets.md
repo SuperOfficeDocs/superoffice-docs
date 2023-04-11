@@ -50,7 +50,7 @@ Merge one or more tickets into one primary ticket
 | mergedTicketEntity.createdBy.userName | string |  User name |
 | mergedTicketEntity.createdBy.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.createdBy.tableRight.reason | string |   |
-| mergedTicketEntity.createdBy.fieldProperties | object |   |
+| mergedTicketEntity.createdBy.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.author | string |  A string representing the author of the ticket (same as author of first message). |
 | mergedTicketEntity.ownedBy.associateId | int32 |  Primary key |
 | mergedTicketEntity.ownedBy.name | string |  Initials, also login name, possibly database user name |
@@ -67,7 +67,7 @@ Merge one or more tickets into one primary ticket
 | mergedTicketEntity.ownedBy.userName | string |  User name |
 | mergedTicketEntity.ownedBy.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.ownedBy.tableRight.reason | string |   |
-| mergedTicketEntity.ownedBy.fieldProperties | object |   |
+| mergedTicketEntity.ownedBy.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.category.ticketCategoryId | int32 |  The id of the ticket category. (primary key) |
 | mergedTicketEntity.category.parentId | int32 |  The parent category for this category. -1 if this is a toplevel category. |
 | mergedTicketEntity.category.name | string |  The (short) name of this category. E.g. &amp;apos;support&amp;apos;. |
@@ -90,7 +90,7 @@ Merge one or more tickets into one primary ticket
 | mergedTicketEntity.category.defaultTicketStatus.usedInQueue | bool |  If set, status is used in GetNext calculations |
 | mergedTicketEntity.category.defaultTicketStatus.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.category.defaultTicketStatus.tableRight.reason | string |   |
-| mergedTicketEntity.category.defaultTicketStatus.fieldProperties | object |   |
+| mergedTicketEntity.category.defaultTicketStatus.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.category.defaultMessageStatus.ticketStatusId | int32 |  The primary key (auto-incremented) |
 | mergedTicketEntity.category.defaultMessageStatus.name | string |  Name of user defined ticket status |
 | mergedTicketEntity.category.defaultMessageStatus.status | Enum: Unknown, Active, Closed, Postponed, Deleted, Merged, PostponedSpecific, Postponed1Hour, Postponed2Hours, Postponed3Hours, Postponed4Hours, PostponedDay, PostponedWeek, PostponedMonth |  The &amp;apos;classic&amp;apos; ticket status. I.e. active/closed/postponed/deleted |
@@ -100,7 +100,7 @@ Merge one or more tickets into one primary ticket
 | mergedTicketEntity.category.defaultMessageStatus.usedInQueue | bool |  If set, status is used in GetNext calculations |
 | mergedTicketEntity.category.defaultMessageStatus.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.category.defaultMessageStatus.tableRight.reason | string |   |
-| mergedTicketEntity.category.defaultMessageStatus.fieldProperties | object |   |
+| mergedTicketEntity.category.defaultMessageStatus.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.category.effectiveReplyTemplateId | int32 |  Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | mergedTicketEntity.category.extraFields | object |  Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead.
 Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
@@ -110,7 +110,7 @@ The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <
 combined collection. |
 | mergedTicketEntity.category.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.category.tableRight.reason | string |   |
-| mergedTicketEntity.category.fieldProperties | object |   |
+| mergedTicketEntity.category.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.slevel | Enum: Unknown, Internal, External |  The securitylevel of the ticket. |
 | mergedTicketEntity.priority.ticketPriorityId | int32 |  The primary key (auto-incremented) |
 | mergedTicketEntity.priority.name | string |  The name of the priority. |
@@ -142,7 +142,7 @@ combined collection. |
 | mergedTicketEntity.priority.escalationLevels | array |  Escalation levels bound to the parent priority |
 | mergedTicketEntity.priority.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.priority.tableRight.reason | string |   |
-| mergedTicketEntity.priority.fieldProperties | object |   |
+| mergedTicketEntity.priority.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.baseStatus | Enum: Unknown, Active, Closed, Postponed, Deleted, Merged, PostponedSpecific, Postponed1Hour, Postponed2Hours, Postponed3Hours, Postponed4Hours, PostponedDay, PostponedWeek, PostponedMonth |  The status of the ticket. I.e. active/closed/postponed/deleted 
 <para>Use MDO List name "ticketstatus" to get list items.</para> |
 | mergedTicketEntity.status.ticketStatusId | int32 |  The primary key (auto-incremented) |
@@ -154,7 +154,7 @@ combined collection. |
 | mergedTicketEntity.status.usedInQueue | bool |  If set, status is used in GetNext calculations |
 | mergedTicketEntity.status.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.status.tableRight.reason | string |   |
-| mergedTicketEntity.status.fieldProperties | object |   |
+| mergedTicketEntity.status.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.origin | Enum: Unknown, Email, SMS, Fax, Phone, Facebook, Twitter, Internal, CustomerCentre, EMarketing, AutoGenerated, Chat, Form |  What is the origin of this ticket |
 | mergedTicketEntity.person.position | string |  The position. This is a predefined SuperOffice value, different from Title |
 | mergedTicketEntity.person.personId | int32 |  Primary key |
@@ -198,7 +198,7 @@ combined collection. |
 | mergedTicketEntity.person.categoryName | string |  The category list item name |
 | mergedTicketEntity.person.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.person.tableRight.reason | string |   |
-| mergedTicketEntity.person.fieldProperties | object |   |
+| mergedTicketEntity.person.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.secondaryPersons | array |  The secondary persons this ticket is connected to 
 <para>Use MDO List name "person_new" to get list items.</para> |
 | mergedTicketEntity.alertLevel | int32 |  The alert level for the ticket. Matches the level value of the ticket_alert table. |
@@ -254,7 +254,7 @@ combined collection. |
 | mergedTicketEntity.sale.number | string |  Alphanumeric user field |
 | mergedTicketEntity.sale.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.sale.tableRight.reason | string |   |
-| mergedTicketEntity.sale.fieldProperties | object |   |
+| mergedTicketEntity.sale.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.project.projectId | int32 |  Primary key |
 | mergedTicketEntity.project.name | string |  Project name |
 | mergedTicketEntity.project.description | string |  The projects description |
@@ -275,7 +275,7 @@ combined collection. |
 | mergedTicketEntity.project.activeErpLinks | int32 |  The number of active erp links |
 | mergedTicketEntity.project.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.project.tableRight.reason | string |   |
-| mergedTicketEntity.project.fieldProperties | object |   |
+| mergedTicketEntity.project.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 | mergedTicketEntity.extraFields | object |  Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead.
 Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | mergedTicketEntity.customFields | object |  Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.
@@ -284,260 +284,260 @@ The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref
 combined collection. |
 | mergedTicketEntity.tableRight.mask | Enum: None, Select, Update, Insert, Delete, Filtering, RestrictedUpdate, Unused1, Uninitialized, FULL, WRITE, URU, UDR, UR, URI, R, RI, RF, F, FI |   |
 | mergedTicketEntity.tableRight.reason | string |   |
-| mergedTicketEntity.fieldProperties | object |   |
+| mergedTicketEntity.fieldProperties | object |  Field property dictionary mapping field names to field access rights. |
 
 ```http
-POST /api/v1/Ticket/Merge?secondaryTicketIds=31,672
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ticketId=297
-POST /api/v1/Ticket/Merge?mergedTicketEntity.title=tenetur
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdAt=05/29/2004 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.lastChanged=10/26/2014 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.readByOwner=06/12/2019 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.readByCustomer=02/13/2020 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.firstReadByOwner=07/13/2013 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.firstReadByUser=06/20/2011 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.activate=05/08/1998 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.closedAt=06/12/2011 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.repliedAt=11/10/1995 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.alertTimeout=08/06/2017 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.deadline=06/17/2014 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.associateId=625
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.name=est
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.personId=955
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.rank=991
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.tooltip=illo
+POST /api/v1/Ticket/Merge?secondaryTicketIds=873,980
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ticketId=564
+POST /api/v1/Ticket/Merge?mergedTicketEntity.title=sit
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdAt=02/04/2001 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.lastChanged=06/25/2013 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.readByOwner=09/14/2007 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.readByCustomer=02/21/2003 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.firstReadByOwner=01/17/2011 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.firstReadByUser=04/22/2000 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.activate=05/13/2010 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.closedAt=05/08/1997 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.repliedAt=10/07/2010 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.alertTimeout=01/15/2009 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.deadline=03/10/2020 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.associateId=288
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.name=quidem
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.personId=915
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.rank=30
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.tooltip=esse
 POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.type=AnonymousAssociate
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.groupIdx=204
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.fullName=Corwin, Smitham and Nolan
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.formalName=Larkin, Parisian and Davis
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.groupIdx=41
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.fullName=Littel, Gibson and Abernathy
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.formalName=Beier, Weimann and Zulauf
 POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.deleted=False
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.ejUserId=222
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.userName=Marquardt-Metz
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.ejUserId=647
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.userName=Anderson-Boehm
 POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.tableRight.reason=nam
+POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.tableRight.reason=quisquam
 POST /api/v1/Ticket/Merge?mergedTicketEntity.createdBy.fieldProperties=An object of some kind
-POST /api/v1/Ticket/Merge?mergedTicketEntity.author=placeat
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.associateId=102
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.name=blanditiis
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.personId=423
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.rank=804
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.tooltip=labore
+POST /api/v1/Ticket/Merge?mergedTicketEntity.author=ut
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.associateId=215
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.name=facere
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.personId=96
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.rank=211
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.tooltip=non
 POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.type=AnonymousAssociate
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.groupIdx=895
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.fullName=Murray Inc and Sons
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.formalName=Grimes LLC
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.groupIdx=269
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.fullName=Ankunding Group
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.formalName=Rogahn LLC
 POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.deleted=True
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.ejUserId=821
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.userName=Wolff-Eichmann
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.ejUserId=768
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.userName=O'Connell-Nienow
 POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.tableRight.reason=et
+POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.tableRight.reason=esse
 POST /api/v1/Ticket/Merge?mergedTicketEntity.ownedBy.fieldProperties=An object of some kind
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.ticketCategoryId=760
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.parentId=509
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.name=laudantium
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.fullname=voluptatum
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.categoryMaster=167
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.ticketCategoryId=709
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.parentId=7
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.name=vitae
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.fullname=itaque
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.categoryMaster=118
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.flags=AcceptWhenReplying
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.delegateMethod=Even
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.externalName=Langworth LLC
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.externalName=Wilderman, Collier and VonRueden
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.closingStatus=Active
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.msgClosingStatus=Active
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.assignmentLag=986
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.replyTemplate=683
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.notificationEmail=jaylen_murphy@abbottdaniel.com
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.ticketStatusId=555
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.name=aliquam
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.assignmentLag=764
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.replyTemplate=798
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.notificationEmail=oleta@huels.ca
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.ticketStatusId=854
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.name=aut
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.status=Active
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.timeCounter=Externally
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.noEmailReopen=True
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.isDefault=True
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.usedInQueue=True
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.noEmailReopen=False
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.isDefault=False
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.usedInQueue=False
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.tableRight.reason=quod
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.tableRight.reason=nihil
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultTicketStatus.fieldProperties=An object of some kind
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.ticketStatusId=336
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.name=eaque
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.ticketStatusId=868
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.name=at
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.status=Active
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.timeCounter=Externally
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.noEmailReopen=False
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.isDefault=False
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.usedInQueue=True
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.isDefault=True
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.usedInQueue=False
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.tableRight.reason=nesciunt
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.tableRight.reason=autem
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.defaultMessageStatus.fieldProperties=An object of some kind
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.effectiveReplyTemplateId=441
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.effectiveReplyTemplateId=625
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.extraFields=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.customFields=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.category.tableRight.reason=dolore
+POST /api/v1/Ticket/Merge?mergedTicketEntity.category.tableRight.reason=molestias
 POST /api/v1/Ticket/Merge?mergedTicketEntity.category.fieldProperties=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.slevel=External
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.ticketPriorityId=732
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.name=sunt
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.ticketPriorityId=969
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.name=et
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.status=Deleted
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.flags=AlertSchedule
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.sortOrder=42
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.sortOrder=266
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.ticketRead=Continue
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.changedOwner=Continue
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.ticketNewinfo=Continue
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.ticketClosed=Continue
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.ticketChangedPriority=Continue
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.ticketNew=Continue
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.deadline=946
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.monStart=12/26/2007 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.monStop=09/05/2006 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.tueStart=08/09/1997 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.tueStop=08/25/2006 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.wedStart=09/07/2010 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.wedStop=03/22/2000 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.thuStart=06/10/2010 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.thuStop=08/25/2015 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.friStart=07/15/2019 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.friStop=01/11/2006 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.satStart=01/05/2020 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.satStop=04/02/2014 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.sunStart=01/29/1999 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.sunStop=08/11/2015 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.nonDates=repudiandae,pariatur
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.escalationLevels=molestias,aut
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.deadline=170
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.monStart=05/28/1996 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.monStop=12/27/2013 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.tueStart=02/28/2012 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.tueStop=02/23/2000 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.wedStart=01/11/2021 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.wedStop=06/22/2011 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.thuStart=02/15/2002 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.thuStop=11/08/2008 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.friStart=03/19/2010 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.friStop=02/07/2017 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.satStart=03/26/2013 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.satStop=10/04/2018 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.sunStart=09/09/2019 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.sunStop=12/07/2014 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.nonDates=quo,et
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.escalationLevels=reprehenderit,deserunt
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.tableRight.reason=neque
+POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.tableRight.reason=unde
 POST /api/v1/Ticket/Merge?mergedTicketEntity.priority.fieldProperties=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.baseStatus=Active
-POST /api/v1/Ticket/Merge?mergedTicketEntity.status.ticketStatusId=882
-POST /api/v1/Ticket/Merge?mergedTicketEntity.status.name=doloribus
+POST /api/v1/Ticket/Merge?mergedTicketEntity.status.ticketStatusId=279
+POST /api/v1/Ticket/Merge?mergedTicketEntity.status.name=quasi
 POST /api/v1/Ticket/Merge?mergedTicketEntity.status.status=Active
 POST /api/v1/Ticket/Merge?mergedTicketEntity.status.timeCounter=Externally
 POST /api/v1/Ticket/Merge?mergedTicketEntity.status.noEmailReopen=True
-POST /api/v1/Ticket/Merge?mergedTicketEntity.status.isDefault=True
+POST /api/v1/Ticket/Merge?mergedTicketEntity.status.isDefault=False
 POST /api/v1/Ticket/Merge?mergedTicketEntity.status.usedInQueue=True
 POST /api/v1/Ticket/Merge?mergedTicketEntity.status.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.status.tableRight.reason=magni
+POST /api/v1/Ticket/Merge?mergedTicketEntity.status.tableRight.reason=iste
 POST /api/v1/Ticket/Merge?mergedTicketEntity.status.fieldProperties=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.origin=AutoGenerated
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.position=consectetur
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.personId=490
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.mrmrs=dolorem
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.firstname=magni
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.lastname=maiores
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.middleName=Marks LLC
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.title=voluptas
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.description=voluptas
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.email=et
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.fullName=Mante, Gorczany and Mertz
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.directPhone=782.589.0450 x5513
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.formalName=Denesik-Haley
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.countryId=628
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactId=982
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactName=Halvorson Group
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.retired=941
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.rank=737
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.activeInterests=297
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.position=illum
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.personId=34
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.mrmrs=perferendis
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.firstname=vero
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.lastname=ducimus
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.middleName=Schroeder Group
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.title=impedit
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.description=sed
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.email=saepe
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.fullName=Brakus Group
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.directPhone=393-848-7696
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.formalName=Veum, Mraz and Fisher
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.countryId=359
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactId=189
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactName=Howe, Pfannerstill and Mueller
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.retired=530
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.rank=496
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.activeInterests=549
 POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactDepartment=
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactCountryId=813
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactOrgNr=652864
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.faxPhone=(261)400-5830 x3346
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.mobilePhone=338-159-3612
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactPhone=1-054-219-0547 x760
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.associateName=Wintheiser, Pagac and Fritsch
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.associateId=908
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactCountryId=390
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactOrgNr=638610
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.faxPhone=243-230-5916 x017
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.mobilePhone=270.381.1055 x5025
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactPhone=(059)777-7060
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.associateName=Casper, Langworth and Olson
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.associateId=336
 POST /api/v1/Ticket/Merge?mergedTicketEntity.person.usePersonAddress=False
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactFax=aspernatur
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.kanafname=voluptatum
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.kanalname=et
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.post1=eveniet
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.post2=voluptatem
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.post3=voluptatem
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.emailName=Sawayn Inc and Sons
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactFullName=Ms. Sherman Pollich IV
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.activeErpLinks=683
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.ticketPriorityId=822
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.supportLanguageId=1002
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.supportAssociateId=231
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.categoryName=Rogahn-Schinner
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactFax=quia
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.kanafname=perspiciatis
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.kanalname=illo
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.post1=dolores
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.post2=soluta
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.post3=delectus
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.emailName=Pfannerstill, Kling and Johns
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.contactFullName=Eveline Collins
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.activeErpLinks=985
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.ticketPriorityId=119
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.supportLanguageId=53
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.supportAssociateId=8
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.categoryName=Sawayn-Miller
 POST /api/v1/Ticket/Merge?mergedTicketEntity.person.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.person.tableRight.reason=architecto
+POST /api/v1/Ticket/Merge?mergedTicketEntity.person.tableRight.reason=consequatur
 POST /api/v1/Ticket/Merge?mergedTicketEntity.person.fieldProperties=An object of some kind
-POST /api/v1/Ticket/Merge?mergedTicketEntity.secondaryPersons=qui,culpa
-POST /api/v1/Ticket/Merge?mergedTicketEntity.alertLevel=115
-POST /api/v1/Ticket/Merge?mergedTicketEntity.connectId=76
+POST /api/v1/Ticket/Merge?mergedTicketEntity.secondaryPersons=et,sunt
+POST /api/v1/Ticket/Merge?mergedTicketEntity.alertLevel=960
+POST /api/v1/Ticket/Merge?mergedTicketEntity.connectId=60
 POST /api/v1/Ticket/Merge?mergedTicketEntity.readStatus=Green
-POST /api/v1/Ticket/Merge?mergedTicketEntity.timeToReply=382
-POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeToReply=378
-POST /api/v1/Ticket/Merge?mergedTicketEntity.timeToClose=394
-POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeToClose=240
-POST /api/v1/Ticket/Merge?mergedTicketEntity.timeSpentInternally=154
-POST /api/v1/Ticket/Merge?mergedTicketEntity.timeSpentExternally=591
-POST /api/v1/Ticket/Merge?mergedTicketEntity.timeSpentQueue=633
-POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeSpentInternally=412
-POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeSpentExternally=428
-POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeSpentQueue=228
-POST /api/v1/Ticket/Merge?mergedTicketEntity.hasAttachment=False
-POST /api/v1/Ticket/Merge?mergedTicketEntity.numReplies=348
-POST /api/v1/Ticket/Merge?mergedTicketEntity.numMessages=351
-POST /api/v1/Ticket/Merge?mergedTicketEntity.fromAddress=ea
-POST /api/v1/Ticket/Merge?mergedTicketEntity.messages=aspernatur,consequatur
-POST /api/v1/Ticket/Merge?mergedTicketEntity.tags=placeat,et
-POST /api/v1/Ticket/Merge?mergedTicketEntity.language=ducimus
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sentiment=372
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sentimentConfidence=860
-POST /api/v1/Ticket/Merge?mergedTicketEntity.suggestedCategoryId=359
+POST /api/v1/Ticket/Merge?mergedTicketEntity.timeToReply=122
+POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeToReply=492
+POST /api/v1/Ticket/Merge?mergedTicketEntity.timeToClose=604
+POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeToClose=575
+POST /api/v1/Ticket/Merge?mergedTicketEntity.timeSpentInternally=718
+POST /api/v1/Ticket/Merge?mergedTicketEntity.timeSpentExternally=765
+POST /api/v1/Ticket/Merge?mergedTicketEntity.timeSpentQueue=845
+POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeSpentInternally=63
+POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeSpentExternally=6
+POST /api/v1/Ticket/Merge?mergedTicketEntity.realTimeSpentQueue=316
+POST /api/v1/Ticket/Merge?mergedTicketEntity.hasAttachment=True
+POST /api/v1/Ticket/Merge?mergedTicketEntity.numReplies=661
+POST /api/v1/Ticket/Merge?mergedTicketEntity.numMessages=399
+POST /api/v1/Ticket/Merge?mergedTicketEntity.fromAddress=dicta
+POST /api/v1/Ticket/Merge?mergedTicketEntity.messages=qui,tenetur
+POST /api/v1/Ticket/Merge?mergedTicketEntity.tags=quia,debitis
+POST /api/v1/Ticket/Merge?mergedTicketEntity.language=optio
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sentiment=165
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sentimentConfidence=457
+POST /api/v1/Ticket/Merge?mergedTicketEntity.suggestedCategoryId=570
 POST /api/v1/Ticket/Merge?mergedTicketEntity.suggestedCategoryName=VIP Customer
-POST /api/v1/Ticket/Merge?mergedTicketEntity.origHumanCategoryId=307
-POST /api/v1/Ticket/Merge?mergedTicketEntity.iconHint=ea
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.contactName=Jacobson, Lockman and Bailey
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleDate=02/06/2018 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleId=239
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.probability=193
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.title=error
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.amount=20114.012
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.currency=reiciendis
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.projectName=Herman, Denesik and Dooley
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.associateFullName=Ms. Waino Calista Denesik DVM
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.description=ullam
+POST /api/v1/Ticket/Merge?mergedTicketEntity.origHumanCategoryId=316
+POST /api/v1/Ticket/Merge?mergedTicketEntity.iconHint=pariatur
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.contactName=Hermiston, Stoltenberg and Skiles
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleDate=01/16/2003 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleId=111
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.probability=586
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.title=dignissimos
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.amount=28632.224
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.currency=dicta
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.projectName=Ullrich-Bogisich
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.associateFullName=Taylor Jakubowski
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.description=qui
 POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.status=Lost
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.weightedAmount=6014.146
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.projectId=26
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.earningPercent=3033.712
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.earning=27886.332
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.contactId=138
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.associateId=648
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.personId=839
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleTypeId=132
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleTypeName=Jenkins, Kreiger and Rodriguez
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.personFullName=Kitty Brakus
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.weightedAmount=4632.052
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.projectId=186
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.earningPercent=11260.462
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.earning=14046.588
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.contactId=756
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.associateId=113
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.personId=82
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleTypeId=923
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.saleTypeName=Barrows-Hettinger
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.personFullName=Adrian Ritchie
 POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.completed=Completed
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.activeErpLinks=481
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.nextDueDate=05/08/2021 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.number=aut
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.activeErpLinks=337
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.nextDueDate=02/19/2003 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.number=est
 POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.tableRight.reason=commodi
+POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.tableRight.reason=natus
 POST /api/v1/Ticket/Merge?mergedTicketEntity.sale.fieldProperties=An object of some kind
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.projectId=596
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.name=consequatur
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.description=mollitia
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.uRL=totam
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.type=et
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.associateId=221
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.associateFullName=Miss Chelsie Heathcote
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.typeId=669
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.updated=09/12/2002 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.statusId=884
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.status=facere
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.textId=363
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.publishTo=04/14/2007 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.publishFrom=11/11/1995 12:15:29
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.isPublished=False
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.uRLName=Lindgren Group
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.projectNumber=848018
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.activeErpLinks=348
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.projectId=251
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.name=tempora
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.description=quia
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.uRL=odio
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.type=laudantium
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.associateId=854
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.associateFullName=Cecilia Runte
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.typeId=79
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.updated=09/16/2000 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.statusId=746
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.status=repellat
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.textId=947
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.publishTo=01/14/2005 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.publishFrom=07/02/2020 15:29:32
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.isPublished=True
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.uRLName=Kub Inc and Sons
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.projectNumber=1346065
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.activeErpLinks=981
 POST /api/v1/Ticket/Merge?mergedTicketEntity.project.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.project.tableRight.reason=magni
+POST /api/v1/Ticket/Merge?mergedTicketEntity.project.tableRight.reason=non
 POST /api/v1/Ticket/Merge?mergedTicketEntity.project.fieldProperties=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.extraFields=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.customFields=An object of some kind
 POST /api/v1/Ticket/Merge?mergedTicketEntity.tableRight.mask=Delete
-POST /api/v1/Ticket/Merge?mergedTicketEntity.tableRight.reason=ut
+POST /api/v1/Ticket/Merge?mergedTicketEntity.tableRight.reason=nisi
 POST /api/v1/Ticket/Merge?mergedTicketEntity.fieldProperties=An object of some kind
 ```
 
@@ -622,8 +622,8 @@ OK
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -641,21 +641,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 506,
-  "Title": "accusantium",
-  "CreatedAt": "2007-03-27T12:15:27.5266274+02:00",
-  "LastChanged": "2008-12-10T12:15:27.5266274+01:00",
-  "ReadByOwner": "2009-08-27T12:15:27.5266274+02:00",
-  "ReadByCustomer": "2009-11-16T12:15:27.5266274+01:00",
-  "FirstReadByOwner": "1997-01-16T12:15:27.5266274+01:00",
-  "FirstReadByUser": "2007-10-19T12:15:27.5266274+02:00",
-  "Activate": "2004-07-06T12:15:27.5266274+02:00",
-  "ClosedAt": "2000-05-25T12:15:27.5266274+02:00",
-  "RepliedAt": "2005-07-22T12:15:27.5266274+02:00",
-  "AlertTimeout": "2011-09-07T12:15:27.5266274+02:00",
-  "Deadline": "2004-05-19T12:15:27.5266274+02:00",
+  "TicketId": 550,
+  "Title": "provident",
+  "CreatedAt": "2022-01-09T15:29:30.7324857+01:00",
+  "LastChanged": "2019-09-14T15:29:30.7324857+02:00",
+  "ReadByOwner": "2017-07-27T15:29:30.7324857+02:00",
+  "ReadByCustomer": "2022-10-20T15:29:30.7324857+02:00",
+  "FirstReadByOwner": "2015-08-18T15:29:30.7324857+02:00",
+  "FirstReadByUser": "2003-09-04T15:29:30.7324857+02:00",
+  "Activate": "2015-01-02T15:29:30.7324857+01:00",
+  "ClosedAt": "2004-07-01T15:29:30.7324857+02:00",
+  "RepliedAt": "2009-10-03T15:29:30.7324857+02:00",
+  "AlertTimeout": "2015-11-14T15:29:30.7324857+01:00",
+  "Deadline": "2002-03-28T15:29:30.7324857+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "aut",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -666,157 +666,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quam",
-      "PersonId": 363,
-      "Mrmrs": "enim",
-      "Firstname": "Hunter",
-      "Lastname": "Roob",
-      "MiddleName": "Douglas Group",
-      "Title": "libero",
-      "Description": "Multi-lateral coherent architecture",
-      "Email": "olen_mraz@macejkoviclubowitz.ca",
-      "FullName": "Dr. Waino Harvey DVM",
-      "DirectPhone": "(832)507-0580 x81460",
-      "FormalName": "Mills, Schmeler and Goyette",
-      "CountryId": 627,
-      "ContactId": 842,
-      "ContactName": "Dach-Dach",
-      "Retired": 383,
-      "Rank": 836,
-      "ActiveInterests": 322,
+      "Position": "qui",
+      "PersonId": 81,
+      "Mrmrs": "velit",
+      "Firstname": "Myra",
+      "Lastname": "Greenfelder",
+      "MiddleName": "Huels LLC",
+      "Title": "id",
+      "Description": "Fully-configurable multi-state encoding",
+      "Email": "magnolia@zulauf.ca",
+      "FullName": "Jaden Emmanuel Klein III",
+      "DirectPhone": "1-149-327-4794",
+      "FormalName": "Stokes LLC",
+      "CountryId": 333,
+      "ContactId": 961,
+      "ContactName": "Luettgen-Kreiger",
+      "Retired": 87,
+      "Rank": 930,
+      "ActiveInterests": 698,
       "ContactDepartment": "",
-      "ContactCountryId": 994,
-      "ContactOrgNr": "1435359",
-      "FaxPhone": "1-342-358-5706 x877",
-      "MobilePhone": "1-481-084-2540",
-      "ContactPhone": "309.686.9349",
-      "AssociateName": "Dare Inc and Sons",
-      "AssociateId": 676,
+      "ContactCountryId": 71,
+      "ContactOrgNr": "1430959",
+      "FaxPhone": "812-753-0051 x04788",
+      "MobilePhone": "1-631-024-6993",
+      "ContactPhone": "515.626.0870",
+      "AssociateName": "Tromp-Lang",
+      "AssociateId": 944,
       "UsePersonAddress": false,
-      "ContactFax": "voluptatibus",
-      "Kanafname": "sunt",
-      "Kanalname": "fuga",
-      "Post1": "quia",
-      "Post2": "dolor",
-      "Post3": "rem",
-      "EmailName": "madge@franeckioconner.name",
-      "ContactFullName": "Walton Quitzon",
-      "ActiveErpLinks": 338,
-      "TicketPriorityId": 806,
-      "SupportLanguageId": 161,
-      "SupportAssociateId": 808,
+      "ContactFax": "nesciunt",
+      "Kanafname": "praesentium",
+      "Kanalname": "et",
+      "Post1": "ut",
+      "Post2": "impedit",
+      "Post3": "quibusdam",
+      "EmailName": "aron.schultz@mcglynngrimes.name",
+      "ContactFullName": "Ms. Darron Lesch I",
+      "ActiveErpLinks": 319,
+      "TicketPriorityId": 83,
+      "SupportLanguageId": 841,
+      "SupportAssociateId": 533,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 907
+          "FieldLength": 321
         }
       }
     }
   ],
-  "AlertLevel": 510,
-  "ConnectId": 518,
+  "AlertLevel": 878,
+  "ConnectId": 351,
   "ReadStatus": "Green",
-  "TimeToReply": 99,
-  "RealTimeToReply": 728,
-  "TimeToClose": 334,
-  "RealTimeToClose": 704,
-  "TimeSpentInternally": 616,
-  "TimeSpentExternally": 631,
-  "TimeSpentQueue": 540,
-  "RealTimeSpentInternally": 631,
-  "RealTimeSpentExternally": 763,
-  "RealTimeSpentQueue": 452,
+  "TimeToReply": 920,
+  "RealTimeToReply": 99,
+  "TimeToClose": 232,
+  "RealTimeToClose": 451,
+  "TimeSpentInternally": 991,
+  "TimeSpentExternally": 984,
+  "TimeSpentQueue": 417,
+  "RealTimeSpentInternally": 481,
+  "RealTimeSpentExternally": 958,
+  "RealTimeSpentQueue": 173,
   "HasAttachment": false,
-  "NumReplies": 135,
-  "NumMessages": 924,
-  "FromAddress": "nostrum",
+  "NumReplies": 605,
+  "NumMessages": 357,
+  "FromAddress": "ratione",
   "Messages": [
     {
-      "TicketMessageId": 484,
-      "CreatedAt": "2002-10-13T12:15:27.530627+02:00",
+      "TicketMessageId": 1002,
+      "CreatedAt": "2014-09-04T15:29:30.7374886+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "ad",
-      "PersonId": 921,
-      "PersonFullName": "Miss Valentine Bins III",
-      "ContactId": 70,
-      "ContactName": "Parker-Watsica",
+      "Author": "libero",
+      "PersonId": 50,
+      "PersonFullName": "Quinn Eichmann PhD",
+      "ContactId": 78,
+      "ContactName": "Hintz-Crona",
       "ContactDepartment": "",
-      "NumAttachments": 764,
-      "EmailHeader": "rozella_hoppe@stiedemann.uk",
+      "NumAttachments": 579,
+      "EmailHeader": "arvel_zboncak@murphy.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "minima",
-      "Sentiment": 384,
-      "SentimentConfidence": 437,
-      "CreatedBy": 257,
-      "ChangedAt": "2005-08-12T12:15:27.530627+02:00",
+      "Language": "in",
+      "Sentiment": 887,
+      "SentimentConfidence": 613,
+      "CreatedBy": 932,
+      "ChangedAt": "2013-07-26T15:29:30.7379861+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldType": "System.String",
+          "FieldLength": 339
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 205,
-      "Name": "Schuster, Lubowitz and Hahn",
-      "ToolTip": "Magnam facere laudantium ad non voluptas tenetur.",
+      "Id": 9,
+      "Name": "Walsh, Ebert and Senger",
+      "ToolTip": "Nostrum qui laudantium perspiciatis est quis et voluptatem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 414
         }
       }
     },
     {
-      "Id": 205,
-      "Name": "Schuster, Lubowitz and Hahn",
-      "ToolTip": "Magnam facere laudantium ad non voluptas tenetur.",
+      "Id": 9,
+      "Name": "Walsh, Ebert and Senger",
+      "ToolTip": "Nostrum qui laudantium perspiciatis est quis et voluptatem.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 414
         }
       }
     }
   ],
-  "Language": "molestiae",
-  "Sentiment": 892,
-  "SentimentConfidence": 507,
-  "SuggestedCategoryId": 65,
+  "Language": "reiciendis",
+  "Sentiment": 346,
+  "SentimentConfidence": 785,
+  "SuggestedCategoryId": 826,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 206,
-  "IconHint": "aut",
+  "OrigHumanCategoryId": 651,
+  "IconHint": "quia",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "odio"
+    "CustomFields1": "et",
+    "CustomFields2": "cupiditate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   }
 }

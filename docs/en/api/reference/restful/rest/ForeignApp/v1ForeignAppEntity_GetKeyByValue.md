@@ -31,7 +31,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=et
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=vel
 ```
 
 
@@ -69,8 +69,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 May 2001 12:15:26 G5T
+Last-Modified: Thu, 17 Aug 2017 15:29:29 G8T
 
 {
-  "Key": "ullam",
-  "Value": "beatae",
-  "RecordId": 240,
-  "CreatedDate": "2015-07-15T12:15:26.9796351+02:00",
-  "UpdatedDate": "2001-05-26T12:15:26.9796351+02:00",
-  "UpdatedBy": "dicta",
-  "CreatedBy": "consequuntur",
-  "TableName": "Goodwin, Lemke and Davis",
+  "Key": "nesciunt",
+  "Value": "autem",
+  "RecordId": 876,
+  "CreatedDate": "2007-04-17T15:29:29.7791988+02:00",
+  "UpdatedDate": "2017-08-17T15:29:29.7791988+02:00",
+  "UpdatedBy": "quibusdam",
+  "CreatedBy": "ea",
+  "TableName": "Rempel, Heaney and Bednar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 23
     }
   }
 }

@@ -58,8 +58,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -67,7 +67,7 @@ OK
 GET /api/v1/User/currentAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 803,
-  "Name": "Rolfson-Olson",
-  "PersonId": 974,
-  "Rank": 692,
-  "Tooltip": "corrupti",
+  "AssociateId": 287,
+  "Name": "Goyette Inc and Sons",
+  "PersonId": 115,
+  "Rank": 389,
+  "Tooltip": "tempora",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 481,
-  "FullName": "Kody Lind Sr.",
-  "FormalName": "Waelchi Group",
-  "Deleted": true,
-  "EjUserId": 566,
-  "UserName": "West, Ernser and Koelpin",
+  "GroupIdx": 470,
+  "FullName": "Laurel Will",
+  "FormalName": "Anderson, Kub and Leffler",
+  "Deleted": false,
+  "EjUserId": 451,
+  "UserName": "Sanford, Hegmann and Bergstrom",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 329
+      "FieldLength": 798
     }
   }
 }

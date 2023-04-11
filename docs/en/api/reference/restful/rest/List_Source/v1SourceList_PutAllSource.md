@@ -63,8 +63,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "Mohr, Ryan and Mante",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 874,
-    "Rank": 376
+    "Id": 484,
+    "Name": "Durgan LLC",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 986,
+    "Rank": 419
   },
   {
-    "Id": 289,
-    "Name": "Mohr, Ryan and Mante",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 874,
-    "Rank": 376
+    "Id": 484,
+    "Name": "Durgan LLC",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "UdListDefinitionId": 986,
+    "Rank": 419
   }
 ]
 ```
@@ -103,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Price-Bauch",
-    "Tooltip": "asperiores",
-    "Deleted": true,
-    "UdListDefinitionId": 568,
-    "Rank": 375,
+    "Id": 525,
+    "Name": "Bode, Jast and Ullrich",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "UdListDefinitionId": 493,
+    "Rank": 699,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 332
       }
     }
   }

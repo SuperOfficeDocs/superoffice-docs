@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bauch-Gibson",
+  "ProviderName": "Kuhic, Ortiz and Murray",
   "Restrictions": [
     {
-      "Name": "Wisozk-Jacobi",
-      "Operator": "omnis",
+      "Name": "Kuphal-Daugherty",
+      "Operator": "sit",
       "Values": [
-        "suscipit",
-        "sint"
+        "sed",
+        "fugiat"
       ],
       "DisplayValues": [
-        "rem",
-        "quam"
+        "libero",
+        "culpa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,13 +89,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 56,
+      "InterParenthesis": 682,
       "InterOperator": "And",
-      "UniqueHash": 192
+      "UniqueHash": 69
     }
   ],
-  "AssociateId": 172,
-  "ExtraInfo": "quia"
+  "AssociateId": 813,
+  "ExtraInfo": "explicabo"
 }
 ```
 

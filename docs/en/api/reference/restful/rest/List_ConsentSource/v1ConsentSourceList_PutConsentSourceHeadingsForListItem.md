@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 813,
-    "Name": "Satterfield LLC",
-    "ToolTip": "Unde incidunt.",
-    "Deleted": true,
-    "Rank": 493,
-    "Type": "nam",
-    "ColorBlock": 972,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2000-11-19T12:15:27.951622+01:00",
+    "Id": 448,
+    "Name": "Powlowski, Quigley and Witting",
+    "ToolTip": "Quam expedita minus cupiditate.",
+    "Deleted": false,
+    "Rank": 161,
+    "Type": "totam",
+    "ColorBlock": 1001,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2015-01-13T15:29:31.1599799+01:00",
     "ChildItems": [
       {
-        "Id": 549,
-        "Name": "Rohan, Hettinger and Jacobson",
-        "ToolTip": "Id et voluptatem impedit qui.",
-        "Deleted": false,
-        "Rank": 750,
-        "Type": "neque",
-        "ColorBlock": 572,
-        "IconHint": "asperiores",
+        "Id": 870,
+        "Name": "Quigley, Funk and Kulas",
+        "ToolTip": "Repellat praesentium et et enim veritatis.",
+        "Deleted": true,
+        "Rank": 152,
+        "Type": "et",
+        "ColorBlock": 193,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2006-03-26T12:15:27.951622+02:00",
+        "LastChanged": "2006-07-05T15:29:31.1599799+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "eos",
         "Hidden": true,
-        "FullName": "Darrion Pfannerstill"
+        "FullName": "Mr. Abdul Bahringer"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Alexandria Lindgren"
+    "ExtraInfo": "non",
+    "StyleHint": "voluptatibus",
+    "Hidden": false,
+    "FullName": "Ms. Anibal Marta Zieme I"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Kautzer-Simonis",
-    "ToolTip": "Facere eligendi deleniti est est perferendis.",
+    "Id": 709,
+    "Name": "Bauch, Yost and Marvin",
+    "ToolTip": "Provident necessitatibus.",
     "Deleted": false,
-    "Rank": 677,
-    "Type": "ut",
-    "ColorBlock": 127,
-    "IconHint": "eaque",
+    "Rank": 420,
+    "Type": "aperiam",
+    "ColorBlock": 815,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2022-03-26T12:15:27.9576209+01:00",
+    "LastChanged": "2007-06-27T15:29:31.1619811+02:00",
     "ChildItems": [
       {
-        "Id": 68,
-        "Name": "Dooley-Cole",
-        "ToolTip": "Sint quia provident non id.",
-        "Deleted": true,
-        "Rank": 1001,
-        "Type": "nam",
-        "ColorBlock": 49,
-        "IconHint": "doloribus",
+        "Id": 587,
+        "Name": "Jones Group",
+        "ToolTip": "Molestiae est.",
+        "Deleted": false,
+        "Rank": 150,
+        "Type": "necessitatibus",
+        "ColorBlock": 778,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2003-04-07T12:15:27.9576209+02:00",
+        "LastChanged": "1996-12-28T15:29:31.162486+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "rerum",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "assumenda",
         "Hidden": true,
-        "FullName": "Ottis Kerluke",
+        "FullName": "Alexandre Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 430
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "nihil",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Kyle Haag",
+    "FullName": "Dr. Jazmyn Feeney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 413
+        "FieldType": "System.Int32",
+        "FieldLength": 150
       }
     }
   }

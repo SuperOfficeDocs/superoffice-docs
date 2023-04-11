@@ -90,8 +90,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "numquam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2004-07-23T12:15:20.0307421+02:00",
-  "Amount": 21235.984,
-  "SaleId": 398,
-  "Earning": 26544.98,
-  "EarningPercent": 5387.346,
-  "Heading": "maiores",
-  "Number": "1054169",
-  "Probability": 213,
-  "CreatedDate": "1999-01-15T12:15:20.0307421+01:00",
-  "UpdatedDate": "2021-09-17T12:15:20.0307421+02:00",
+  "Saledate": "2016-10-19T15:29:22.6537966+02:00",
+  "Amount": 23602.154,
+  "SaleId": 957,
+  "Earning": 30512.624,
+  "EarningPercent": 11492.377999999999,
+  "Heading": "aperiam",
+  "Number": "365654",
+  "Probability": 292,
+  "CreatedDate": "2001-05-01T15:29:22.6537966+02:00",
+  "UpdatedDate": "1998-02-08T15:29:22.6537966+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 530,
+  "ActiveLinks": 208,
   "Links": [
     {
-      "EntityName": "Rau, Johnson and Marquardt",
-      "Id": 673,
-      "Description": "Optimized mobile capacity",
-      "ExtraInfo": "maiores",
-      "LinkId": 379,
+      "EntityName": "Frami-Ruecker",
+      "Id": 551,
+      "Description": "Customer-focused 3rd generation installation",
+      "ExtraInfo": "natus",
+      "LinkId": 1001,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 978
         }
       }
     }
   ],
-  "NextDueDate": "2019-04-02T12:15:20.0307421+02:00",
-  "Postit": "id",
+  "NextDueDate": "2022-10-08T15:29:22.6537966+02:00",
+  "Postit": "perferendis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-12-03T12:15:20.0317362+01:00",
+  "ReopenDate": "2011-08-23T15:29:22.6542966+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schamberger-Senger",
-      "Comment": "debitis",
-      "StakeholderRoleId": 66,
-      "CountryId": 958,
-      "PersonId": 453,
-      "EmailDescription": "johnnie.schmitt@schowalter.name",
-      "EmailId": 225,
-      "EmailAddress": "olen.schmitt@mclaughlin.us",
-      "PhoneId": 353,
-      "ContactName": "Weimann, Ledner and Walsh",
-      "ContactId": 631,
-      "SaleId": 24,
-      "Mrmrs": "harum",
-      "Firstname": "Albina",
-      "MiddleName": "Yundt-Kunze",
-      "Lastname": "Satterfield",
-      "SaleStakeholderId": 997,
-      "Rank": 968,
-      "Phone": "009.690.1435 x6881",
+      "StakeholderRoleName": "Hoeger, Harvey and Boyer",
+      "Comment": "ut",
+      "StakeholderRoleId": 357,
+      "CountryId": 369,
+      "PersonId": 447,
+      "EmailDescription": "charity_bayer@russel.us",
+      "EmailId": 31,
+      "EmailAddress": "harmony@dubuque.ca",
+      "PhoneId": 356,
+      "ContactName": "Mante-Towne",
+      "ContactId": 843,
+      "SaleId": 630,
+      "Mrmrs": "ut",
+      "Firstname": "Kaci",
+      "MiddleName": "Hane, Osinski and Huels",
+      "Lastname": "Smith",
+      "SaleStakeholderId": 668,
+      "Rank": 401,
+      "Phone": "(242)346-6542",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 238
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 990,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Kirstin Bahringer"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "minus",
+    "ExtraFields2": "neque"
+  },
+  "CustomFields": {
+    "CustomFields1": "facere",
+    "CustomFields2": "dicta"
+  },
+  "PublishEventDate": "2007-12-01T15:29:22.6552966+01:00",
+  "PublishTo": "2000-12-28T15:29:22.6552966+01:00",
+  "PublishFrom": "2023-03-10T15:29:22.6552966+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 583,
+      "Visibility": "All",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 38
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 313,
-  "UserDefinedFields": {
-    "SuperOffice:1": "2041269139",
-    "SuperOffice:2": "1585577453"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "blanditiis",
-    "ExtraFields2": "iste"
-  },
-  "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quas"
-  },
-  "PublishEventDate": "1996-01-31T12:15:20.0327359+01:00",
-  "PublishTo": "2013-05-20T12:15:20.0327359+02:00",
-  "PublishFrom": "2014-10-15T12:15:20.0327359+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 514,
-      "Visibility": "All",
-      "DisplayValue": "excepturi",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 774
         }
       }
     },
     {
-      "VisibleId": 514,
+      "VisibleId": 583,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
@@ -239,8 +239,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 752
+      "FieldType": "System.Int32",
+      "FieldLength": 275
     }
   }
 }

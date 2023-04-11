@@ -58,7 +58,7 @@ User with given id does not exist in the db.
 | 404 | User with given id does not exist in the db. |
 | 400 | Bad request. Entity to save is not in request body. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -67,7 +67,7 @@ User with given id does not exist in the db.
 POST /api/v1/User/{id}/CustomCommand/{commandName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

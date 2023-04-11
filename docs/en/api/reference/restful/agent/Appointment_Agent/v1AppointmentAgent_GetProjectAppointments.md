@@ -116,8 +116,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -125,14 +125,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 968,
-  "StartTime": "2017-05-20T12:15:18.1287636+02:00",
-  "EndTime": "2019-04-09T12:15:18.1287636+02:00",
-  "Count": 132
+  "ProjectId": 928,
+  "StartTime": "1997-09-17T15:29:20.7532903+02:00",
+  "EndTime": "2004-04-12T15:29:20.7532903+02:00",
+  "Count": 408
 }
 ```
 
@@ -144,53 +144,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 284,
-    "StartDate": "2000-09-13T12:15:18.1307635+02:00",
-    "EndDate": "2001-08-21T12:15:18.1307635+02:00",
+    "AppointmentId": 976,
+    "StartDate": "2006-09-10T15:29:20.7542915+02:00",
+    "EndDate": "2016-02-05T15:29:20.7542915+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptas",
-    "AssociateFullName": "Mr. Milford Trantow",
-    "ContactName": "Gorczany-Stark",
-    "Description": "Proactive secondary function",
-    "PersonFullName": "Chyna Marquardt",
-    "PersonId": 281,
-    "ContactId": 792,
-    "ProjectId": 94,
-    "ProjectName": "Cartwright, Feeney and Dickens",
-    "IsPublished": true,
-    "AssociateId": 106,
-    "ColorIndex": 765,
+    "Task": "molestiae",
+    "AssociateFullName": "Prof. Evalyn Stokes",
+    "ContactName": "Quitzon, Barton and Witting",
+    "Description": "Customer-focused dedicated open architecture",
+    "PersonFullName": "Eulah Huel",
+    "PersonId": 169,
+    "ContactId": 567,
+    "ProjectId": 306,
+    "ProjectName": "Beier-Kuhn",
+    "IsPublished": false,
+    "AssociateId": 752,
+    "ColorIndex": 72,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 660,
-    "PriorityName": "Pacocha-Conroy",
+    "PriorityId": 233,
+    "PriorityName": "Gleichner Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2013-08-11T12:15:18.1367704+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "1999-01-30T15:29:20.7547898+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-01-28T12:15:18.1367704+01:00",
-    "RecurringEndDate": "2019-10-08T12:15:18.1367704+02:00",
-    "MotherId": 537,
-    "AssignedBy": 118,
-    "AssignedByFullName": "Ms. Nedra Herman V",
+    "RecurringStartDate": "2021-03-17T15:29:20.7547898+01:00",
+    "RecurringEndDate": "2000-12-22T15:29:20.7547898+01:00",
+    "MotherId": 897,
+    "AssignedBy": 698,
+    "AssignedByFullName": "Harrison Goyette",
     "RejectReason": "",
-    "Location": "similique",
-    "AlarmLeadTime": "quia",
-    "SaleId": 793,
-    "SaleName": "Cartwright-Parker",
-    "AssociateName": "Davis, Mante and Weissnat",
-    "CreatedDate": "2012-08-07T12:15:18.1367704+02:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Mrs. Elouise Nikki Bailey IV",
-    "CreatedByAssociateId": 861,
+    "Location": "qui",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 263,
+    "SaleName": "Nitzsche-Witting",
+    "AssociateName": "Conn, Bogisich and Pacocha",
+    "CreatedDate": "2002-08-01T15:29:20.7552901+02:00",
+    "CreatedBy": "autem",
+    "CreatedByFullName": "Mayra Corkery",
+    "CreatedByAssociateId": 482,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -198,7 +198,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 986
+        "FieldLength": 223
       }
     }
   }

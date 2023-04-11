@@ -118,8 +118,8 @@ User updated.
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -128,18 +128,18 @@ User updated.
 PUT /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 582,
-  "Name": "Stokes LLC",
-  "Rank": 438,
-  "Tooltip": "blanditiis",
+  "AssociateId": 445,
+  "Name": "Huels Inc and Sons",
+  "Rank": 462,
+  "Tooltip": "beatae",
   "LicenseOwners": [
     {
-      "Name": "Hoeger-Ryan",
-      "Description": "Reduced dynamic collaboration",
+      "Name": "Doyle Group",
+      "Description": "Persevering real-time frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,8 +150,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Hoeger-Ryan",
-      "Description": "Reduced dynamic collaboration",
+      "Name": "Doyle Group",
+      "Description": "Persevering real-time frame",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -166,87 +166,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quibusdam",
-      "Tooltip": "dignissimos",
-      "Id": 94,
-      "Rank": 548,
+      "Value": "labore",
+      "Tooltip": "provident",
+      "Id": 739,
+      "Rank": 628,
       "Deleted": false
     },
     {
-      "Value": "quibusdam",
-      "Tooltip": "dignissimos",
-      "Id": 94,
-      "Rank": 548,
+      "Value": "labore",
+      "Tooltip": "provident",
+      "Id": 739,
+      "Rank": 628,
       "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2012-05-08T12:15:27.7466249+02:00",
-  "Lastlogout": "2000-07-17T12:15:27.7466249+02:00",
-  "EjUserId": 895,
-  "RequestSignature": "minus",
+  "Deleted": false,
+  "Lastlogin": "2019-03-18T15:29:30.954983+01:00",
+  "Lastlogout": "2022-07-14T15:29:30.954983+02:00",
+  "EjUserId": 699,
+  "RequestSignature": "inventore",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "illo"
+      "Value": "earum",
+      "DisplayValue": "voluptate"
     },
     {
       "Type": null,
-      "Value": "cupiditate",
-      "DisplayValue": "illo"
+      "Value": "earum",
+      "DisplayValue": "voluptate"
     }
   ],
-  "UserName": "Gutmann, Schumm and Cummerata",
+  "UserName": "Beier, Quitzon and Quitzon",
   "TicketCategories": [
     {
-      "Id": 362,
-      "Name": "Kulas-Gleichner",
-      "ToolTip": "Reiciendis et perspiciatis dignissimos.",
+      "Id": 609,
+      "Name": "Hahn, Kessler and Ferry",
+      "ToolTip": "Veniam iure nostrum expedita et et.",
       "Deleted": false,
-      "Rank": 573,
-      "Type": "quod",
+      "Rank": 602,
+      "Type": "atque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 44,
-      "ExtraInfo": "in",
-      "StyleHint": "soluta",
-      "FullName": "Mrs. Morton Alvina Nolan"
+      "IconHint": "voluptatem",
+      "ColorBlock": 644,
+      "ExtraInfo": "aliquam",
+      "StyleHint": "nostrum",
+      "FullName": "Julius Lind"
     }
   ],
-  "NickName": "Rolfson, D'Amore and Rowe",
-  "WaitingForApproval": false,
+  "NickName": "Tromp-Rutherford",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "debitis"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "nam"
+    "CustomFields1": "aliquid",
+    "CustomFields2": "eius"
   },
   "PostSaveCommands": [
     {
-      "Name": "Brekke, Breitenberg and Brakus",
-      "DisplayName": "Feeney-Jacobson",
-      "Description": "Seamless heuristic Graphical User Interface",
-      "ToolTip": "Velit ex natus.",
+      "Name": "Jaskolski, Sporer and Harris",
+      "DisplayName": "Wilderman Group",
+      "Description": "Vision-oriented multimedia workforce",
+      "ToolTip": "Quia totam quae neque itaque.",
       "Actions": "Implicit",
-      "ActionData": "qui"
+      "ActionData": "provident"
     },
     {
-      "Name": "Brekke, Breitenberg and Brakus",
-      "DisplayName": "Feeney-Jacobson",
-      "Description": "Seamless heuristic Graphical User Interface",
-      "ToolTip": "Velit ex natus.",
+      "Name": "Jaskolski, Sporer and Harris",
+      "DisplayName": "Wilderman Group",
+      "Description": "Vision-oriented multimedia workforce",
+      "ToolTip": "Quia totam quae neque itaque.",
       "Actions": "Implicit",
-      "ActionData": "qui"
+      "ActionData": "provident"
     }
   ]
 }
@@ -259,14 +259,14 @@ HTTP/1.1 200 User updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 388,
-  "Name": "Hamill-Prosacco",
-  "Rank": 273,
-  "Tooltip": "perferendis",
+  "AssociateId": 266,
+  "Name": "Hermann, Langosh and Zieme",
+  "Rank": 473,
+  "Tooltip": "voluptatem",
   "LicenseOwners": [
     {
-      "Name": "O'Kon, Christiansen and Berge",
-      "Description": "Innovative bi-directional parallelism",
+      "Name": "Walsh-Fahey",
+      "Description": "Robust coherent core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -279,14 +279,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 44
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     },
     {
-      "Name": "O'Kon, Christiansen and Berge",
-      "Description": "Innovative bi-directional parallelism",
+      "Name": "Walsh-Fahey",
+      "Description": "Robust coherent core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -299,8 +299,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 44
+          "FieldType": "System.String",
+          "FieldLength": 306
         }
       }
     }
@@ -309,110 +309,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "velit",
-      "Tooltip": "est",
-      "Id": 700,
-      "Rank": 382,
-      "Deleted": false,
+      "Value": "qui",
+      "Tooltip": "doloremque",
+      "Id": 111,
+      "Rank": 187,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 974
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-07-10T12:15:27.7536246+02:00",
-  "Lastlogout": "2009-12-21T12:15:27.7536246+01:00",
-  "EjUserId": 501,
-  "RequestSignature": "sunt",
+  "Lastlogin": "2022-03-11T15:29:30.9604829+01:00",
+  "Lastlogout": "2002-03-12T15:29:30.9604829+01:00",
+  "EjUserId": 913,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quidem",
-      "DisplayValue": "suscipit",
+      "Value": "alias",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldLength": 880
         }
       }
     },
     {
       "Type": null,
-      "Value": "quidem",
-      "DisplayValue": "suscipit",
+      "Value": "alias",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldLength": 880
         }
       }
     }
   ],
-  "UserName": "Wehner Group",
+  "UserName": "Mann, Gerlach and Walsh",
   "TicketCategories": [
     {
-      "Id": 431,
-      "Name": "O'Hara-Purdy",
-      "ToolTip": "Error praesentium fugiat aut ab aspernatur.",
-      "Deleted": false,
-      "Rank": 742,
-      "Type": "nisi",
+      "Id": 315,
+      "Name": "Wilkinson-Keeling",
+      "ToolTip": "Omnis ullam.",
+      "Deleted": true,
+      "Rank": 8,
+      "Type": "nam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "amet",
-      "ColorBlock": 609,
-      "ExtraInfo": "dolore",
-      "StyleHint": "doloremque",
-      "FullName": "Derick Ernser",
+      "IconHint": "ut",
+      "ColorBlock": 183,
+      "ExtraInfo": "natus",
+      "StyleHint": "aut",
+      "FullName": "Ms. Yadira Maeve Senger V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldLength": 860
         }
       }
     }
   ],
-  "NickName": "Dooley, Bogan and McCullough",
+  "NickName": "Kreiger-Goldner",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "aperiam"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "itaque"
+    "CustomFields1": "alias",
+    "CustomFields2": "aperiam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Wuckert-Toy",
-      "DisplayName": "Ortiz, Satterfield and Wintheiser",
-      "Description": "Reduced bandwidth-monitored adapter",
-      "ToolTip": "Qui quidem amet et.",
+      "Name": "Towne Group",
+      "DisplayName": "Armstrong-Barrows",
+      "Description": "Robust contextually-based emulation",
+      "ToolTip": "Iste aut placeat veniam.",
       "Actions": "Implicit",
-      "ActionData": "dolores",
+      "ActionData": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldType": "System.String",
+          "FieldLength": 299
         }
       }
     }
@@ -421,13 +421,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 114
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

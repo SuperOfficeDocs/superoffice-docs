@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hamill, Roberts and Miller",
-  "Context": "nostrum"
+  "TableName": "Kuvalis Group",
+  "Context": "mollitia"
 }
 ```
 
@@ -105,75 +105,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "nulla",
-    "ValueType": "hic",
-    "Mandatory": true,
-    "EncodedDisplayName": "Lebsack, Hayes and Rowe",
-    "EncodedDisplayDescription": "Inverse modular time-frame",
-    "IconHint": "nesciunt",
+    "Key": "id",
+    "ValueType": "ut",
+    "Mandatory": false,
+    "EncodedDisplayName": "Brekke Group",
+    "EncodedDisplayDescription": "Profound 5th generation access",
+    "IconHint": "sunt",
     "ControlInfos": [
       {
-        "Type": "eum",
-        "Label": "quisquam",
-        "Dimension": 605,
-        "ListProviderName": "Aufderhar Group",
-        "ListProviderExtraInfo": "velit",
-        "ListProviderPrimaryKeyName": "Braun, Hermann and Blanda",
-        "ListLeadText": "deserunt",
+        "Type": "sequi",
+        "Label": "illum",
+        "Dimension": 65,
+        "ListProviderName": "Bechtelar, Bartoletti and Hammes",
+        "ListProviderExtraInfo": "nam",
+        "ListProviderPrimaryKeyName": "Tromp, Ortiz and Lesch",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 623
+            "FieldLength": 311
           }
         }
       }
     ],
-    "EncodedDataCaption": "vitae",
-    "EncodedDataCaptionDescription": "Multi-lateral systematic function",
-    "CurrentOperationType": "rerum",
+    "EncodedDataCaption": "ea",
+    "EncodedDataCaptionDescription": "Configurable empowering protocol",
+    "CurrentOperationType": "iure",
     "Values": [
-      "recusandae",
-      "sed"
+      "sit",
+      "totam"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "molestiae"
+      "molestiae",
+      "et"
     ],
     "OperationInfos": [
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Satterfield-Schuster",
+        "Key": "et",
+        "EncodedDisplayName": "Maggio, Wyman and Simonis",
         "EncodedLeadTexts": [
-          "harum",
-          "quia"
+          "quod",
+          "sint"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldType": "System.String",
+            "FieldLength": 421
           }
         }
       },
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Satterfield-Schuster",
+        "Key": "et",
+        "EncodedDisplayName": "Maggio, Wyman and Simonis",
         "EncodedLeadTexts": [
-          "harum",
-          "quia"
+          "quod",
+          "sint"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldType": "System.String",
+            "FieldLength": 421
           }
         }
       }

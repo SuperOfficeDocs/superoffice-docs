@@ -78,8 +78,8 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,28 +87,28 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "optio",
-    "InputValues2": "voluptatum"
+    "InputValues1": "qui",
+    "InputValues2": "aperiam"
   },
   "BlockExecution": false,
-  "NavigateTo": "reiciendis",
-  "Message": "laudantium",
-  "ShowDialog": "error",
+  "NavigateTo": "sed",
+  "Message": "pariatur",
+  "ShowDialog": "et",
   "OutputValues": {
-    "OutputValues1": "perferendis",
-    "OutputValues2": "exercitationem"
+    "OutputValues1": "consequatur",
+    "OutputValues2": "et"
   },
   "StateValues": {
     "StateValues1": "ut",
-    "StateValues2": "nam"
+    "StateValues2": "ut"
   },
-  "Exception": "vel"
+  "Exception": "ducimus"
 }
 ```
 
@@ -121,28 +121,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quidem",
-    "InputValues2": "enim"
+    "InputValues1": "recusandae",
+    "InputValues2": "eos"
   },
-  "BlockExecution": true,
-  "NavigateTo": "libero",
-  "Message": "omnis",
-  "ShowDialog": "quibusdam",
+  "BlockExecution": false,
+  "NavigateTo": "laboriosam",
+  "Message": "rem",
+  "ShowDialog": "eum",
   "OutputValues": {
-    "OutputValues1": "maxime",
-    "OutputValues2": "ipsa"
+    "OutputValues1": "ut",
+    "OutputValues2": "eos"
   },
   "StateValues": {
-    "StateValues1": "nulla",
-    "StateValues2": "aut"
+    "StateValues1": "dolorem",
+    "StateValues2": "reiciendis"
   },
-  "Exception": "voluptatem",
+  "Exception": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldLength": 255
     }
   }
 }

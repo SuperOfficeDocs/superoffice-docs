@@ -77,8 +77,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -87,27 +87,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 181,
-  "Name": "Donnelly Group",
-  "CreatedDate": "2018-08-23T12:15:26.9466372+02:00",
-  "UpdatedDate": "2009-05-14T12:15:26.9466372+02:00",
+  "ForeignAppId": 585,
+  "Name": "Wuckert, Rosenbaum and Cruickshank",
+  "CreatedDate": "2017-03-08T15:29:29.7551997+01:00",
+  "UpdatedDate": "2003-12-07T15:29:29.7551997+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 32,
-      "Name": "Bailey-Hills",
-      "CreatedDate": "2022-08-16T12:15:26.9476357+02:00",
-      "UpdatedDate": "2017-07-22T12:15:26.9476357+02:00",
-      "AssociateFullName": "Mr. Nigel Keeling Sr.",
-      "CreatedBy": "deleniti",
-      "UpdatedBy": "id",
-      "DeviceIdentifier": "sapiente",
-      "ForeignAppId": 210
+      "ForeignDeviceId": 350,
+      "Name": "Sauer LLC",
+      "CreatedDate": "2023-01-20T15:29:29.7557007+01:00",
+      "UpdatedDate": "2018-02-07T15:29:29.7557007+01:00",
+      "AssociateFullName": "Gisselle Geovany Gottlieb IV",
+      "CreatedBy": "hic",
+      "UpdatedBy": "dolor",
+      "DeviceIdentifier": "delectus",
+      "ForeignAppId": 824
     }
   ]
 }
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 48,
-  "Name": "Schmitt-Franecki",
-  "CreatedDate": "2015-08-04T12:15:26.950636+02:00",
-  "UpdatedDate": "2012-12-16T12:15:26.950636+01:00",
+  "ForeignAppId": 174,
+  "Name": "Kohler, Gerhold and Bayer",
+  "CreatedDate": "2009-07-10T15:29:29.7572001+02:00",
+  "UpdatedDate": "2008-04-02T15:29:29.7572001+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 563,
-      "Name": "Kuhn LLC",
-      "CreatedDate": "2007-05-15T12:15:26.950636+02:00",
-      "UpdatedDate": "2001-10-19T12:15:26.950636+02:00",
-      "AssociateFullName": "Andrew Kuhlman",
-      "CreatedBy": "dolores",
-      "UpdatedBy": "dolorem",
-      "DeviceIdentifier": "quas",
-      "ForeignAppId": 183,
+      "ForeignDeviceId": 15,
+      "Name": "Fisher Group",
+      "CreatedDate": "2017-11-24T15:29:29.7576988+01:00",
+      "UpdatedDate": "2023-01-15T15:29:29.7576988+01:00",
+      "AssociateFullName": "Ms. Irwin Harber",
+      "CreatedBy": "debitis",
+      "UpdatedBy": "omnis",
+      "DeviceIdentifier": "eum",
+      "ForeignAppId": 588,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 957
+          "FieldType": "System.String",
+          "FieldLength": 717
         }
       }
     }
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldLength": 954
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

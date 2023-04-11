@@ -14,8 +14,11 @@ so.topic: reference
 ## New Archive provider
 
 * v10.2.4
-  * EmailFlowInstance
-  * EmailFlow
+  * [EmailFlowFolders][62]
+  * [EmailFlowInstances][63]
+  * [EmailFlows][64]
+  * [EmailFlowsAndFolders][65]
+  * [TicketNewMessageNotification (replaces TicketUpdatedNotification)][66]
 
 * v10.2.3
   * [ticketactivatednotification][52]
@@ -32,14 +35,14 @@ so.topic: reference
 ## New MDO Providers
 
 * v10.2.4
-  * EmailFlowList
-  * EmailFromType
-  * EmailReplyToType
-  * MailingDomains
-  * WorkflowDefinitionStatus
-  * WorkflowGoalType
-  * WorkflowInstanceStatus
-  * WorkflowTriggerType
+  * [EmailFlow][67]
+  * [EmailFromType][68]
+  * [EmailReplyToType][69]
+  * [MailingDomains][70]
+  * [WorkflowDefinitionStatus][71]
+  * [WorkflowGoalType][72]
+  * [WorkflowInstanceStatus][73]
+  * [WorkflowTriggerType][74]
 
 * v10.2.3
   * [workflowsteptype][59]
@@ -59,7 +62,9 @@ so.topic: reference
 |IAppointmentAgent | SetSeenMany                            |10.2.2   | [REST Link][60] | [SOAP Link][61] |
 |IArchiveAgent     | GetRelatedData                         |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
 |IArchiveAgent     | GetRelatedData2                        |10.2.1   | [REST Link][9]  | [SOAP Link][27] |
+|IDiagnosticsAgent | GetEntityCountsForCurrentUser          |10.2.4   | [REST Link][76] | [SOAP Link][98] |
 |IEMailAgent       | HasSPFRecord                           |10.2.1   | [REST Link][10] | [SOAP Link][28] |
+|IEMailAgent       | ResolveEMailRecipients                 |10.2.4   | [REST Link][77] | [SOAP Link][99] |
 |IListAgent        | CreateDefaultTaskMenu                  |10.2.1   | [REST Link][11] | [SOAP Link][29] |
 |IListAgent        | DeleteAppTaskMenus                     |10.2.1   | [REST Link][12] | [SOAP Link][30] |
 |IListAgent        | DeleteTaskMenu                         |10.2.1   | [REST Link][13] | [SOAP Link][31] |
@@ -69,11 +74,11 @@ so.topic: reference
 |IListAgent        | SaveTaskMenu                           |10.2.1   | [REST Link][17] | [SOAP Link][35] |
 |IMarketingAgent   | GetFormSubmissionsCount                |10.2.2   | [REST Link][17] | [SOAP Link][35] |
 |IPersonAgent      | CreateDefaultPersonImage               |10.2.1   | [REST Link][18] | [SOAP Link][36] |
-|IPersonAgent      | CreateOrUpdateUserCandidate            |10.2.4   | TBD             | TBD             |
-|IPersonAgent      | GetCustomerCentrePasswordReplyTemplate |10.2.4   | TBD             | TBD             |
+|IPersonAgent      | CreateOrUpdateUserCandidate            |10.2.4   | [REST Link][78] | [SOAP Link][100]|
+|IPersonAgent      | GetCustomerCentrePasswordReplyTemplate |10.2.4   | [REST Link][79] | [SOAP Link][101]|
 |IPersonAgent      | GetPersonImages                        |10.2.1   | [REST Link][19] | [SOAP Link][37] |
-|IPersonAgent      | GetUserCandidateByPerson               |10.2.4   | TBD             | TBD             |
-|IPersonAgent      | SendEmail                              |10.2.4   | TBD             | TBD             |
+|IPersonAgent      | GetUserCandidateByPerson               |10.2.4   | [REST Link][80] | [SOAP Link][102]|
+|IPersonAgent      | SendEmail                              |10.2.4   | [REST Link][81] | [SOAP Link][103]|
 |ITicketAgent      | ClearNotify                            |10.2.3   | [REST Link][46] | [SOAP Link][47] |
 |ITicketAgent      | CopyFromCRMDocument                    |10.2.3   | [REST Link][48] | [SOAP Link][49] |
 |ITicketAgent      | GetNextInQueue                         |10.2.3   | [REST Link][50] | [SOAP Link][51] |
@@ -83,8 +88,25 @@ so.topic: reference
 |IUserAgent        | GetUserPresenceStatus                  |10.2.1   | [REST Link][23] | [SOAP Link][41] |
 |IUserAgent        | SetUserPresenceStatus                  |10.2.1   | [REST Link][24] | [SOAP Link][42] |
 |IUserDefinedFieldInfoAgent | ClearCaches                   |10.2.1   | [REST Link][25] | [SOAP Link][43] |
+|IViewStateAgent   | GetLiveUiConfig                        |10.2.4   | [REST Link][82] | [SOAP Link][104]|
+|IViewStateAgent   | PublishAndRetrieveUiEvents             |10.2.4   | [REST Link][83] | [SOAP Link][105]|
+|IWorkflowAgent    | CreateDefaultWorkflowFilter            |10.2.4   | [REST Link][84] | [SOAP Link][106]|
+|IWorkflowAgent    | CreateDefaultWorkflowGoal              |10.2.4   | [REST Link][85] | [SOAP Link][107]|
+|IWorkflowAgent    | CreateDefaultWorkflowStepFromType      |10.2.4   | [REST Link][86] | [SOAP Link][108]|
+|IWorkflowAgent    | CreateDefaultWorkflowStepOption        |10.2.4   | [REST Link][87] | [SOAP Link][109]|
+|IWorkflowAgent    | CreateDefaultWorkflowTrigger           |10.2.4   | [REST Link][88] | [SOAP Link][110]|
+|IWorkflowAgent    | DeleteWorkflowGoal                     |10.2.4   | [REST Link][89] | [SOAP Link][111]|
+|IWorkflowAgent    | DeleteWorkflowStepOption               |10.2.4   | [REST Link][90] | [SOAP Link][112]|
+|IWorkflowAgent    | DeleteWorkflowTrigger                  |10.2.4   | [REST Link][91] | [SOAP Link][113]|
+|IWorkflowAgent    | GetWorkflowGoal                        |10.2.4   | [REST Link][92] | [SOAP Link][114]|
+|IWorkflowAgent    | GetWorkflowStepOption                  |10.2.4   | [REST Link][93] | [SOAP Link][115]|
+|IWorkflowAgent    | GetWorkflowTrigger                     |10.2.4   | [REST Link][94] | [SOAP Link][116]|
+|IWorkflowAgent    | SaveWorkflowGoal                       |10.2.4   | [REST Link][95] | [SOAP Link][117]|
+|IWorkflowAgent    | SaveWorkflowStepOption                 |10.2.4   | [REST Link][96] | [SOAP Link][118]|
+|IWorkflowAgent    | SaveWorkflowTrigger                    |10.2.4   | [REST Link][97] | [SOAP Link][119]|
 
-## Modified web service methods - breaking changes
+
+## Breaking changes - modified web service methods
 
 | Agent Name       | Method Name                           | Version | REST Agent      | SOAP Agent      |
 |------------------|---------------------------------------|:-------:|-----------------|-----------------|
@@ -225,3 +247,61 @@ services.AddLogging(a =>
 [59]: ../../../docs/en/api/mdo-providers/reference/workflowsteptype.md
 [60]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_SetSeenMany.md
 [61]: ../../../docs/en/api/reference/soap/Services88/Appointment/SetSeenMany.md
+[62]: ../../../docs/en/api/archive-providers/reference/emailflowfolders.md
+[63]: ../../../docs/en/api/archive-providers/reference/emailflowinstances.md
+[64]: ../../../docs/en/api/archive-providers/reference/emailflows.md
+[65]: ../../../docs/en/api/archive-providers/reference/emailflowsandfolders.md
+[66]: ../../../docs/en/api/archive-providers/reference/ticketnewmessagenotification.md
+[67]: ../../../docs/en/api/mdo-providers/reference/emailflow.md
+[68]: ../../../docs/en/api/mdo-providers/reference/emailfromtype.md
+[69]: ../../../docs/en/api/mdo-providers/reference/emailreplytotype.md
+[70]: ../../../docs/en/api/mdo-providers/reference/mailingdomains.md
+[71]: ../../../docs/en/api/mdo-providers/reference/workflowdefinitionstatus.md
+[72]: ../../../docs/en/api/mdo-providers/reference/workflowgoaltype.md
+[73]: ../../../docs/en/api/mdo-providers/reference/workflowinstancestatus.md
+[74]: ../../../docs/en/api/mdo-providers/reference/workflowtriggertype.md
+[75]: ../../../docs/en/api/reference/restful/agent/Archive_Agent/v1ArchiveAgent_GetRelatedData.md
+[76]: ../../../docs/en/api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_GetEntityCountsForCurrentUser.md
+[77]: ../../../docs/en/api/reference/restful/agent/EMail_Agent/v1EMailAgent_ResolveEMailRecipients.md
+[78]: ../../../docs/en/api/reference/restful/agent/Person_Agent/v1PersonAgent_CreateOrUpdateUserCandidate.md
+[79]: ../../../docs/en/api/reference/restful/agent/Person_Agent/v1PersonAgent_GetCustomerCentrePasswordReplyTemplate.md
+[80]: ../../../docs/en/api/reference/restful/agent/Person_Agent/v1PersonAgent_GetUserCandidateByPerson.md
+[81]: ../../../docs/en/api/reference/restful/agent/Person_Agent/v1PersonAgent_SendEmail.md
+[82]: ../../../docs/en/api/reference/restful/agent/ViewState_Agent/v1ViewStateAgent_GetLiveUiConfig.md
+[83]: ../../../docs/en/api/reference/restful/agent/ViewState_Agent/v1ViewStateAgent_PublishAndRetrieveUiEvents.md
+[84]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowFilter.md
+[85]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowGoal.md
+[86]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepFromType.md
+[87]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowStepOption.md
+[88]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_CreateDefaultWorkflowTrigger.md
+[89]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_DeleteWorkflowGoal.md
+[90]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_DeleteWorkflowStepOption.md
+[91]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_DeleteWorkflowTrigger.md
+[92]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetWorkflowGoal.md
+[93]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetWorkflowStepOption.md
+[94]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_GetWorkflowTrigger.md
+[95]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowGoal.md
+[96]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowStepOption.md
+[97]: ../../../docs/en/api/reference/restful/agent/Workflow_Agent/v1WorkflowAgent_SaveWorkflowTrigger.md
+[98]: ../../../docs/en/api/reference/soap/Services88/Diagnostics/GetEntityCountsForCurrentUser.md
+[99]: ../../../docs/en/api/reference/soap/Services88/EMail/ResolveEMailRecipients.md
+[100]: ../../../docs/en/api/reference/soap/Services88/Person/CreateOrUpdateUserCandidate.md
+[101]: ../../../docs/en/api/reference/soap/Services88/Person/GetCustomerCentrePasswordReplyTemplate.md
+[102]: ../../../docs/en/api/reference/soap/Services88/Person/GetUserCandidateByPerson.md
+[103]: ../../../docs/en/api/reference/soap/Services88/Person/SendEmail.md
+[104]: ../../../docs/en/api/reference/soap/Services88/ViewState/GetLiveUiConfig.md
+[105]: ../../../docs/en/api/reference/soap/Services88/ViewState/PublishAndRetrieveUiEvents.md
+[106]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowFilter.md
+[107]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowGoal.md
+[108]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowStepFromType.md
+[109]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowStepOption.md
+[110]: ../../../docs/en/api/reference/soap/Services88/Workflow/CreateDefaultWorkflowTrigger.md
+[111]: ../../../docs/en/api/reference/soap/Services88/Workflow/DeleteWorkflowGoal.md
+[112]: ../../../docs/en/api/reference/soap/Services88/Workflow/DeleteWorkflowStepOption.md
+[113]: ../../../docs/en/api/reference/soap/Services88/Workflow/DeleteWorkflowTrigger.md
+[114]: ../../../docs/en/api/reference/soap/Services88/Workflow/GetWorkflowGoal.md
+[115]: ../../../docs/en/api/reference/soap/Services88/Workflow/GetWorkflowStepOption.md
+[116]: ../../../docs/en/api/reference/soap/Services88/Workflow/GetWorkflowTrigger.md
+[117]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowGoal.md
+[118]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowStepOption.md
+[119]: ../../../docs/en/api/reference/soap/Services88/Workflow/SaveWorkflowTrigger.md

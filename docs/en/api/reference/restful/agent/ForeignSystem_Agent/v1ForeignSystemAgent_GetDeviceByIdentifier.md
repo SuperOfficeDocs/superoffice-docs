@@ -73,8 +73,8 @@ OK
 | UpdatedBy | string | The person that last updated this device. |
 | DeviceIdentifier | string | Optional unique id of device (Palm pilot device ID, etc) |
 | ForeignAppId | int32 | Reference to foregin application (device type) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Robel LLC",
-  "DeviceName": "Walker Inc and Sons",
-  "DeviceIdentifier": "ea"
+  "ApplicationName": "Heller-Paucek",
+  "DeviceName": "Ratke Group",
+  "DeviceIdentifier": "omnis"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 160,
-  "Name": "Cartwright Inc and Sons",
-  "CreatedDate": "2018-12-08T12:15:19.152749+01:00",
-  "UpdatedDate": "2021-08-03T12:15:19.152749+02:00",
-  "AssociateFullName": "Dr. Alexandro Skiles DDS",
-  "CreatedBy": "aut",
-  "UpdatedBy": "hic",
-  "DeviceIdentifier": "saepe",
-  "ForeignAppId": 72,
+  "ForeignDeviceId": 380,
+  "Name": "Carroll Inc and Sons",
+  "CreatedDate": "2008-06-15T15:29:21.9173078+02:00",
+  "UpdatedDate": "2012-08-29T15:29:21.9173078+02:00",
+  "AssociateFullName": "Rozella Cummings",
+  "CreatedBy": "impedit",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "ab",
+  "ForeignAppId": 832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldType": "System.String",
+      "FieldLength": 354
     }
   }
 }

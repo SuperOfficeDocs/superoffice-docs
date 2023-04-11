@@ -56,6 +56,7 @@ The AttachmentEntity to be saved.
 | AttSize | Integer | The size (in bytes) for the attachment. |
 | InlineImage | Boolean | True if this attachment is inlined in the html_body. |
 | ContentId | String | The content_id of this attachment, used for inline images |
+| AuthKey | String | The key used for authenticating access to this attachment. |
 
 ## Response:
 
@@ -75,8 +76,9 @@ OK
 | AttSize | int32 | The size (in bytes) for the attachment. |
 | InlineImage | bool | True if this attachment is inlined in the html_body. |
 | ContentId | string | The content_id of this attachment, used for inline images |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| AuthKey | string | The key used for authenticating access to this attachment. |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -89,12 +91,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 383,
-  "Name": "Buckridge, Schroeder and Glover",
-  "ContentType": "cumque",
-  "AttSize": 807,
-  "InlineImage": false,
-  "ContentId": "consequuntur"
+  "AttachmentId": 370,
+  "Name": "Abernathy, Spinka and Feest",
+  "ContentType": "est",
+  "AttSize": 817,
+  "InlineImage": true,
+  "ContentId": "non",
+  "AuthKey": "tempore"
 }
 ```
 
@@ -105,23 +108,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 26,
-  "Name": "Christiansen, Williamson and Schuppe",
-  "ContentType": "quod",
-  "AttSize": 384,
-  "InlineImage": true,
-  "ContentId": "veritatis",
+  "AttachmentId": 788,
+  "Name": "Kiehn-Hagenes",
+  "ContentType": "dicta",
+  "AttSize": 425,
+  "InlineImage": false,
+  "ContentId": "reiciendis",
+  "AuthKey": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldLength": 70
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

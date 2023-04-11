@@ -73,8 +73,8 @@ OK
 | CriteriaArchiveColumns | array | Array of ColumnInfo column specifications |
 | CriteriaArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows. |
 | RestrictionGroups | array | Array of restrictiongroups, including the default first group of restrictions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,22 +82,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Welch, Walsh and Gerlach",
-  "StorageKey": "ut",
+  "StorageType": "saepe",
+  "ProviderName": "Marquardt-Herzog",
+  "StorageKey": "dicta",
   "DesiredColumnNames": [
-    "Feeney, Hayes and Schumm",
-    "Bauch, Koelpin and Bogan"
+    "Corwin-Carroll",
+    "VonRueden, Jaskolski and Kautzer"
   ],
   "StaticColumns": [
-    "sit",
-    "asperiores"
+    "voluptas",
+    "voluptatibus"
   ],
-  "Context": "ut"
+  "Context": "aut"
 }
 ```
 
@@ -110,81 +110,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Spencer Group",
-      "Operator": "quo",
+      "Name": "Swift LLC",
+      "Operator": "officiis",
       "Values": [
-        "molestiae",
-        "aut"
+        "dicta",
+        "similique"
       ],
       "DisplayValues": [
-        "repudiandae",
-        "repellat"
+        "sequi",
+        "quo"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 625,
+      "InterParenthesis": 171,
       "InterOperator": "And",
-      "UniqueHash": 512
+      "UniqueHash": 705
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Casper LLC",
-      "DisplayTooltip": "ad",
-      "DisplayType": "cupiditate",
-      "CanOrderBy": false,
-      "Name": "Green-Hoeger",
+      "DisplayName": "Ziemann-Simonis",
+      "DisplayTooltip": "inventore",
+      "DisplayType": "vel",
+      "CanOrderBy": true,
+      "Name": "Emard-Moore",
       "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Wolff Group",
-      "IsVisible": false,
-      "ExtraInfo": "officia",
-      "Width": "et",
-      "IconHint": "porro",
-      "HeadingIconHint": "repellendus"
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Hettinger-Hansen",
+      "IsVisible": true,
+      "ExtraInfo": "enim",
+      "Width": "omnis",
+      "IconHint": "molestias",
+      "HeadingIconHint": "repudiandae"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Tremblay Inc and Sons",
-      "PrimaryKey": 994,
+      "EntityName": "Orn, Simonis and Bergstrom",
+      "PrimaryKey": 931,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolores",
-          "TooltipHint": "ut",
-          "LinkHint": "quos"
+          "DisplayValue": "suscipit",
+          "TooltipHint": "a",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "consequuntur",
+      "LinkHint": "neque",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 403
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hessel LLC",
-      "Description": "Distributed motivating Graphic Interface",
-      "Rank": 171,
+      "Name": "Turcotte-Hermann",
+      "Description": "Assimilated stable process improvement",
+      "Rank": 859,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hessel LLC",
-      "Description": "Distributed motivating Graphic Interface",
-      "Rank": 171,
+      "Name": "Turcotte-Hermann",
+      "Description": "Assimilated stable process improvement",
+      "Rank": 859,
       "Restrictions": [
         {},
         {}
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldLength": 338
     }
   }
 }

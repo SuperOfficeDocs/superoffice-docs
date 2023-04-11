@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionShadowDynamicSelectionSingleCriteriaGroup"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -453,7 +453,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=associate/assocTooltip,person/restrictionAddress/zip,contact/business,contact/searchPhone/formattedNumber,contact/restrictionAddress/formattedMultiLineAddress
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=person/personUdef/SuperOffice:7,contact/contactExtra/x_contact_request_relation,person/restrictionAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

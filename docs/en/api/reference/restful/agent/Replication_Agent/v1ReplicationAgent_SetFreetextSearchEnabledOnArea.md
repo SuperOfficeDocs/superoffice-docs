@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,7 +70,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 722,
+  "AreaId": 43,
   "FreetextEnabled": true
 }
 ```

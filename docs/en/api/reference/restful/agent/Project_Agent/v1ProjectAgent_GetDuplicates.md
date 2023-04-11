@@ -67,8 +67,8 @@ OK
 | EntryName | string | Name of duplicate entry |
 | EntryIdentifier | string | String identifier for entry. Typically used to identify an entry in an external system. |
 | RuleDisplayName | string | Short name of rule to display to user |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nolan-Metz"
+  "Name": "Ward LLC"
 }
 ```
 
@@ -92,17 +92,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Gutkowski, Hickle and Eichmann",
-    "SoPrimaryKey": 663,
-    "EntryName": "Kuphal, Stroman and Pouros",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Satterfield-Wisoky",
+    "RuleName": "Christiansen-Reilly",
+    "SoPrimaryKey": 936,
+    "EntryName": "Schaefer-Nader",
+    "EntryIdentifier": "repellendus",
+    "RuleDisplayName": "Lockman Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 816
       }
     }
   }

@@ -69,8 +69,8 @@ OK
 | CreatedBy | Associate | The person that created the foreign application. |
 | UpdatedBy | Associate | The person that last updated this foreign application. |
 | Devices | array | The devices that belong to this foreign app. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bashirian LLC"
+  "ApplicationName": "Okuneva Group"
 }
 ```
 
@@ -93,29 +93,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 288,
-  "Name": "Weimann LLC",
-  "CreatedDate": "2016-03-14T12:15:19.1487492+01:00",
-  "UpdatedDate": "2004-12-23T12:15:19.1487492+01:00",
+  "ForeignAppId": 487,
+  "Name": "Lueilwitz, Nader and West",
+  "CreatedDate": "2002-05-01T15:29:21.9138069+02:00",
+  "UpdatedDate": "2011-08-15T15:29:21.9138069+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 811,
-      "Name": "Hilll, Farrell and Padberg",
-      "CreatedDate": "2011-04-19T12:15:19.150749+02:00",
-      "UpdatedDate": "2019-07-04T12:15:19.150749+02:00",
-      "AssociateFullName": "Odie Donnelly",
-      "CreatedBy": "atque",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "quasi",
-      "ForeignAppId": 344,
+      "ForeignDeviceId": 188,
+      "Name": "Bartell, Hilll and Legros",
+      "CreatedDate": "2003-03-18T15:29:21.9143088+01:00",
+      "UpdatedDate": "2007-11-02T15:29:21.9143088+01:00",
+      "AssociateFullName": "Rhea Wisozk",
+      "CreatedBy": "in",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "dolore",
+      "ForeignAppId": 863,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldLength": 441
         }
       }
     }
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 662
     }
   }
 }

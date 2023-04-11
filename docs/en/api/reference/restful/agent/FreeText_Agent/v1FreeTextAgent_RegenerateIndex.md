@@ -84,8 +84,8 @@ OK
 | ProgressPercent | int32 | Task progress, in percent of estimated total |
 | FileName | string | The filename related to the batchtask. |
 | CancellationBehaviour | string | Indicate if the task can be stopped. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -108,37 +108,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 410,
-  "Name": "Von-Konopelski",
-  "AssociateId": 696,
-  "DetailsTable": 192,
-  "DetailsRecord": 303,
+  "Id": 882,
+  "Name": "Schinner Inc and Sons",
+  "AssociateId": 309,
+  "DetailsTable": 348,
+  "DetailsRecord": 212,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "temporibus",
-    "ParameterObject2": "repellat"
+    "ParameterObject1": "natus",
+    "ParameterObject2": "natus"
   },
-  "LastStarted": "2004-10-25T12:15:19.1757492+02:00",
-  "Created": "2002-06-05T12:15:19.1757492+02:00",
-  "StartCount": 778,
-  "DatabaseSerialNumber": "673593",
-  "Context": "libero",
-  "Result": "tenetur",
+  "LastStarted": "2016-04-22T15:29:21.9363137+02:00",
+  "Created": "2001-07-14T15:29:21.9363137+02:00",
+  "StartCount": 293,
+  "DatabaseSerialNumber": "742775",
+  "Context": "iusto",
+  "Result": "velit",
   "State": "All",
-  "Description": "Innovative system-worthy service-desk",
-  "Response": "velit",
-  "Request": "quo",
-  "ProgressDescription": "Vision-oriented modular hierarchy",
-  "ProgressPercent": 949,
-  "FileName": "Smith Inc and Sons",
+  "Description": "Centralized eco-centric middleware",
+  "Response": "omnis",
+  "Request": "dolorem",
+  "ProgressDescription": "Synergistic optimizing support",
+  "ProgressPercent": 486,
+  "FileName": "Kub-Tremblay",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

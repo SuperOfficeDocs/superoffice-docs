@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Kuhlman-Stark",
-    "ToolTip": "Iste iste soluta aut in blanditiis libero.",
-    "Deleted": false,
-    "Rank": 681,
-    "Type": "cupiditate",
-    "ColorBlock": 398,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2013-07-26T12:15:28.4416141+02:00",
+    "Id": 947,
+    "Name": "Schoen, Beatty and Cruickshank",
+    "ToolTip": "Incidunt dolor.",
+    "Deleted": true,
+    "Rank": 658,
+    "Type": "aut",
+    "ColorBlock": 599,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2015-02-21T15:29:31.5524751+01:00",
     "ChildItems": [
       {
-        "Id": 662,
-        "Name": "Casper-Schamberger",
-        "ToolTip": "In aliquam ex quam velit voluptas illo atque.",
+        "Id": 737,
+        "Name": "Lakin Inc and Sons",
+        "ToolTip": "Doloribus eveniet sed adipisci.",
         "Deleted": false,
-        "Rank": 206,
-        "Type": "maxime",
-        "ColorBlock": 753,
-        "IconHint": "ipsa",
+        "Rank": 877,
+        "Type": "ipsum",
+        "ColorBlock": 889,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2008-04-08T12:15:28.4416141+02:00",
+        "LastChanged": "2013-01-16T15:29:31.5529744+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "nisi",
-        "Hidden": true,
-        "FullName": "Ubaldo Kling"
+        "ExtraInfo": "numquam",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Garry Jakubowski"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Mrs. Kariane Hills"
+    "ExtraInfo": "earum",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Maritza Mann"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Torp Inc and Sons",
-    "ToolTip": "Aliquid id suscipit accusantium exercitationem cum ipsa earum.",
-    "Deleted": true,
-    "Rank": 900,
-    "Type": "voluptatem",
-    "ColorBlock": 278,
-    "IconHint": "magni",
-    "Selected": true,
-    "LastChanged": "2002-08-22T12:15:28.443619+02:00",
+    "Id": 187,
+    "Name": "McDermott LLC",
+    "ToolTip": "Eum corrupti consequatur.",
+    "Deleted": false,
+    "Rank": 303,
+    "Type": "debitis",
+    "ColorBlock": 311,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2002-10-22T15:29:31.5549769+02:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Legros, Haley and Collins",
-        "ToolTip": "Architecto harum molestias voluptatibus ut ut.",
+        "Id": 531,
+        "Name": "Renner-Mayert",
+        "ToolTip": "Aut odio veniam est.",
         "Deleted": true,
-        "Rank": 227,
-        "Type": "doloribus",
-        "ColorBlock": 641,
-        "IconHint": "voluptatibus",
+        "Rank": 344,
+        "Type": "quasi",
+        "ColorBlock": 419,
+        "IconHint": "eos",
         "Selected": true,
-        "LastChanged": "2010-10-29T12:15:28.443619+02:00",
+        "LastChanged": "2014-10-11T15:29:31.5549769+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "nihil",
+        "ExtraInfo": "ratione",
+        "StyleHint": "eveniet",
         "Hidden": false,
-        "FullName": "Prof. Ladarius Nayeli Toy MD",
+        "FullName": "Crawford Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldType": "System.String",
+            "FieldLength": 549
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "repellendus",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mrs. Jaeden Solon Beier III",
+    "FullName": "Maxime Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 945
+        "FieldLength": 759
       }
     }
   }

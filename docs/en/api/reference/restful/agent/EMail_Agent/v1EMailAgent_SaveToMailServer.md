@@ -90,8 +90,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,147 +116,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 214,
-      "ContactName": "O'Hara-Hickle",
-      "PersonId": 357,
-      "PersonName": "Powlowski LLC",
-      "AssociateId": 108,
-      "Address": "aut",
-      "EmailId": 668,
+      "ContactId": 873,
+      "ContactName": "Jenkins-Williamson",
+      "PersonId": 572,
+      "PersonName": "Walter, Welch and Gorczany",
+      "AssociateId": 872,
+      "Address": "eligendi",
+      "EmailId": 799,
       "DuplicatePersonIds": [
-        965,
-        127
+        475,
+        210
       ],
-      "Name": "Hoppe Inc and Sons",
+      "Name": "Walter-Dooley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldLength": 436
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 431,
-      "ContactName": "Collins, Marvin and Purdy",
-      "PersonId": 225,
-      "PersonName": "Kreiger, Huels and Smitham",
-      "AssociateId": 63,
-      "Address": "nemo",
-      "EmailId": 51,
+      "ContactId": 214,
+      "ContactName": "Pacocha Inc and Sons",
+      "PersonId": 412,
+      "PersonName": "Vandervort LLC",
+      "AssociateId": 323,
+      "Address": "explicabo",
+      "EmailId": 151,
       "DuplicatePersonIds": [
-        931,
-        4
+        656,
+        181
       ],
-      "Name": "Volkman Group",
+      "Name": "Boyle LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 771
+          "FieldType": "System.Int32",
+          "FieldLength": 645
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 827,
-      "ContactName": "Willms-Herman",
-      "PersonId": 255,
-      "PersonName": "Carroll, Stamm and Mitchell",
-      "AssociateId": 192,
-      "Address": "autem",
-      "EmailId": 576,
+      "ContactId": 507,
+      "ContactName": "Koepp-Keeling",
+      "PersonId": 311,
+      "PersonName": "Brown Group",
+      "AssociateId": 903,
+      "Address": "numquam",
+      "EmailId": 669,
       "DuplicatePersonIds": [
-        704,
-        589
+        965,
+        701
       ],
-      "Name": "Stehr Group",
+      "Name": "Reichel LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 16
+          "FieldLength": 915
         }
       }
     }
   ],
-  "Subject": "aliquam",
-  "HTMLBody": "dolores",
+  "Subject": "nihil",
+  "HTMLBody": "atque",
   "From": null,
-  "Sent": "1999-05-14T12:15:18.9117529+02:00",
-  "Size": 259,
+  "Sent": "1999-03-08T15:29:21.6813122+01:00",
+  "Size": 454,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "qui",
-  "PlainBody": "sunt",
+  "MessageID": "blanditiis",
+  "PlainBody": "omnis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 492,
+  "ServerId": 95,
   "Attachments": [
     {
-      "Description": "Profit-focused solution-oriented success",
-      "Filename": "non",
-      "Size": 803,
-      "Type": "id",
-      "Encoding": "ut",
-      "Id": "incidunt",
-      "Disposition": "sed",
+      "Description": "Fully-configurable fresh-thinking internet solution",
+      "Filename": "sit",
+      "Size": 407,
+      "Type": "laudantium",
+      "Encoding": "non",
+      "Id": "pariatur",
+      "Disposition": "quia",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 249
+          "FieldLength": 96
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Volkman, Gorczany and Wiza",
+      "Name": "Bechtelar-Schuppe",
       "Values": [
-        "reiciendis",
-        "quas"
+        "magni",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 859
         }
       }
     },
     {
-      "Name": "Volkman, Gorczany and Wiza",
+      "Name": "Bechtelar-Schuppe",
       "Values": [
-        "reiciendis",
-        "quas"
+        "magni",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 859
         }
       }
     }
   ],
-  "FolderName": "Thiel, Oberbrunner and Corwin",
-  "EmailItemId": 849,
-  "AccountId": 728,
-  "ReceivedAt": "2009-11-18T12:15:18.9117529+01:00",
+  "FolderName": "Erdman, Maggio and Weimann",
+  "EmailItemId": 614,
+  "AccountId": 492,
+  "ReceivedAt": "2003-04-26T15:29:21.6818139+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-09-29T12:15:18.9117529+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2006-12-14T15:29:21.6818139+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 807
+      "FieldLength": 127
     }
   }
 }

@@ -63,8 +63,8 @@ OK
 | UpdatedBy | string | Name of the person that last updated the foreign key |
 | CreatedBy | string | Name of the person that created the foreign key |
 | TableName | string | Table name, transformed to and from numeric table id by the service layer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Oct 1996 12:15:26 G10T
+Last-Modified: Mon, 26 Aug 1996 15:29:29 G8T
 
 {
-  "Key": "consequatur",
-  "Value": "et",
-  "RecordId": 553,
-  "CreatedDate": "1999-06-16T12:15:26.9766352+02:00",
-  "UpdatedDate": "1996-10-11T12:15:26.9766352+02:00",
-  "UpdatedBy": "officia",
-  "CreatedBy": "fuga",
-  "TableName": "Wilkinson, Grady and Friesen",
+  "Key": "harum",
+  "Value": "nihil",
+  "RecordId": 912,
+  "CreatedDate": "1999-07-08T15:29:29.7761987+02:00",
+  "UpdatedDate": "1996-08-26T15:29:29.7766985+02:00",
+  "UpdatedBy": "non",
+  "CreatedBy": "eos",
+  "TableName": "Koss, Johnson and Mosciski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 292
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

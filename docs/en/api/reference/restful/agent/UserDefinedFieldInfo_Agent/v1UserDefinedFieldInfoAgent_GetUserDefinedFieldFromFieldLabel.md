@@ -99,8 +99,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -108,11 +108,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "repellendus",
+  "FieldLabel": "aut",
   "OwnerType": "Appointment"
 }
 ```
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 849,
-  "ColumnId": 699,
-  "FieldDefault": "non",
-  "FieldHeight": 771,
-  "FieldLabel": "eos",
-  "FieldLeft": 916,
-  "FieldTop": 362,
+  "UDefFieldId": 779,
+  "ColumnId": 295,
+  "FieldDefault": "reiciendis",
+  "FieldHeight": 787,
+  "FieldLabel": "ut",
+  "FieldLeft": 589,
+  "FieldTop": 961,
   "FieldType": "Checkbox",
-  "FieldWidth": 512,
-  "FormatMask": "velit",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 999,
-  "LabelLeft": 870,
-  "LabelTop": 788,
-  "LabelWidth": 539,
-  "LastVersionId": 522,
-  "ListTableId": 858,
-  "IsMandatory": false,
+  "FieldWidth": 866,
+  "FormatMask": "saepe",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 612,
+  "LabelLeft": 385,
+  "LabelTop": 824,
+  "LabelWidth": 185,
+  "LastVersionId": 928,
+  "ListTableId": 73,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 482,
-  "ProgId": "adipisci",
+  "Page1LineNo": 640,
+  "ProgId": "quae",
   "IsReadOnly": false,
-  "ShortLabel": "tempora",
-  "TabOrder": 227,
-  "TextLength": 590,
-  "Tooltip": "quo",
-  "UdefIdentity": 771,
-  "UDListDefinitionId": 365,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 795,
+  "TextLength": 923,
+  "Tooltip": "voluptates",
+  "UdefIdentity": 282,
+  "UDListDefinitionId": 950,
   "Justification": "Center",
-  "Version": 923,
-  "TemplateVariableName": "Runte, Howell and Homenick",
-  "HasBeenPublished": false,
-  "MdoListName": "Hilpert-Olson",
+  "Version": 705,
+  "TemplateVariableName": "White, Heidenreich and Conroy",
+  "HasBeenPublished": true,
+  "MdoListName": "Wiegand LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 616
     }
   }
 }

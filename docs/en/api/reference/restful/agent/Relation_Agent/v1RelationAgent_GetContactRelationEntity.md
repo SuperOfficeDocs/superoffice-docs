@@ -25,7 +25,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=576
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=578
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -74,8 +74,8 @@ OK
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 758,
-  "SourcePersonId": 242,
-  "DestinationContactId": 674,
-  "DestinationPersonId": 985,
-  "RelationId": 544,
-  "Comment": "quia",
-  "RelationDefinitionId": 484,
-  "Reversed": 102,
-  "UpdatedDate": "2013-06-26T12:15:19.9777367+02:00",
-  "CreatedDate": "2000-06-08T12:15:19.9777367+02:00",
+  "SourceContactId": 293,
+  "SourcePersonId": 252,
+  "DestinationContactId": 789,
+  "DestinationPersonId": 371,
+  "RelationId": 416,
+  "Comment": "cum",
+  "RelationDefinitionId": 533,
+  "Reversed": 302,
+  "UpdatedDate": "2017-09-11T15:29:22.6032642+02:00",
+  "CreatedDate": "1996-08-05T15:29:22.6032642+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hegmann, Hermann and Ziemann",
-  "SourcePersonName": "Hodkiewicz, Okuneva and Schneider",
-  "DestinationContactName": "Gutkowski, O'Connell and Barrows",
-  "DestinationPersonName": "Kovacek Group",
-  "ActiveText": "molestiae",
-  "PassiveText": "alias",
+  "SourceContactName": "Powlowski, Pollich and Sawayn",
+  "SourcePersonName": "Jaskolski-Jaskolski",
+  "DestinationContactName": "McLaughlin-Moen",
+  "DestinationPersonName": "Beatty LLC",
+  "ActiveText": "et",
+  "PassiveText": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 955
+      "FieldType": "System.Int32",
+      "FieldLength": 667
     }
   }
 }

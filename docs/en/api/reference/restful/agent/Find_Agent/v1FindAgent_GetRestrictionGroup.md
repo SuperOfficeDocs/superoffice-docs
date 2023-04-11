@@ -62,13 +62,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: ArchiveRestrictionGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Kohler, Mueller and Jerde",
-  "StorageKey": "et",
-  "Rank": 934,
-  "Context": "placeat"
+  "StorageType": "doloribus",
+  "ProviderName": "Streich Inc and Sons",
+  "StorageKey": "sint",
+  "Rank": 55,
+  "Context": "nobis"
 }
 ```
 
@@ -96,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corwin, Rutherford and Brown",
-  "Description": "Synchronised secondary function",
-  "Rank": 780,
+  "Name": "Schumm, McDermott and Prohaska",
+  "Description": "Quality-focused next generation moratorium",
+  "Rank": 71,
   "Restrictions": [
     {
-      "Name": "Schmeler, Glover and Wilkinson",
-      "Operator": "sint",
+      "Name": "Schmitt, Abshire and Bruen",
+      "Operator": "sed",
       "Values": [
-        "aut",
-        "voluptatem"
+        "voluptate",
+        "velit"
       ],
       "DisplayValues": [
-        "temporibus",
-        "est"
+        "quam",
+        "eum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -117,9 +117,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 488,
+      "InterParenthesis": 677,
       "InterOperator": "And",
-      "UniqueHash": 415
+      "UniqueHash": 666
     }
   ]
 }

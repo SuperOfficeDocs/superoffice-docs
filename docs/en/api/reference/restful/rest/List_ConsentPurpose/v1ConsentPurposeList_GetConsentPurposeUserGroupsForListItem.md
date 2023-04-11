@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Bergstrom-Glover",
-    "ToolTip": "Id consectetur nemo sequi enim voluptatem et et.",
-    "Deleted": true,
-    "Rank": 707,
-    "Type": "molestiae",
-    "ColorBlock": 29,
-    "IconHint": "officiis",
+    "Id": 188,
+    "Name": "Kuphal, Okuneva and Schmeler",
+    "ToolTip": "Mollitia inventore eum quia.",
+    "Deleted": false,
+    "Rank": 568,
+    "Type": "cum",
+    "ColorBlock": 170,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2008-08-16T12:15:27.9276217+02:00",
+    "LastChanged": "2002-05-13T15:29:31.1379777+02:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Balistreri-Hane",
-        "ToolTip": "Ratione ullam id et.",
+        "Id": 892,
+        "Name": "Abernathy Group",
+        "ToolTip": "Non magnam ea.",
         "Deleted": false,
-        "Rank": 472,
-        "Type": "libero",
-        "ColorBlock": 666,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "1996-06-05T12:15:27.9276217+02:00",
+        "Rank": 703,
+        "Type": "dolores",
+        "ColorBlock": 166,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2001-12-12T15:29:31.1379777+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "repellendus",
-        "Hidden": true,
-        "FullName": "Madelynn O'Reilly",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Mrs. Doyle Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 120
+            "FieldType": "System.Int32",
+            "FieldLength": 343
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "provident",
+    "ExtraInfo": "odio",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Brandt McClure",
+    "FullName": "Mr. Danial Gerhold PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 812
       }
     }
   }

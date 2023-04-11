@@ -69,8 +69,8 @@ OK
 | PeriodType | string | Period type for editing this set of targets (Year, Quarter...) |
 | TargetAssignments | array | Collection of target values |
 | TargetDimension | TargetDimension | Info about the target dimensions |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 911,
+  "TargetYear": 292,
   "EntityType": "None"
 }
 ```
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 606,
-  "Year": 68,
+  "TargetGroupId": 710,
+  "Year": 328,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 896,
+      "TargetAssignmentInfoId": 952,
       "Values": [
-        737,
-        549
+        818,
+        966
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 541,
-      "DimensionListItemDisplayName": "Thompson, Johns and Cremin",
+      "DimensionListItem": 447,
+      "DimensionListItemDisplayName": "Wilkinson-Gutmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 268
+          "FieldType": "System.Int32",
+          "FieldLength": 844
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 136
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "TargetValueSub"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -388,7 +388,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=contact/contactPhone/formattedNumber,contact/contactAssociate/mrMrs,contact/contactSupportAssociate/mrMrs,contact/contactSupportPerson/personUdef/SuperOffice:11,contact/contactSupportPerson/withdrawnEmarketingConsent
+GET /api/v1/archive/TargetValueSub?$select=contact/contactAssociate/usergroup,contact/contactSupportAssociate/personId,contact/contactSupportPerson/personDeletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

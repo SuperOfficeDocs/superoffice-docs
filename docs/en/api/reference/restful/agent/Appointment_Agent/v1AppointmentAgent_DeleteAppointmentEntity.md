@@ -24,7 +24,7 @@ Deletes the AppointmentEntity
 | AppointmentEntityId | int32 | **Required** The id of the AppointmentEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=839
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=668
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request

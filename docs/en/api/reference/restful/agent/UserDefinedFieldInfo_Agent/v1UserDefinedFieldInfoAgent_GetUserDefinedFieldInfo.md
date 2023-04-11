@@ -25,7 +25,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=18
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=968
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -90,8 +90,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 377,
-  "ColumnId": 953,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 558,
-  "FieldLabel": "sequi",
-  "FieldLeft": 315,
-  "FieldTop": 143,
+  "UDefFieldId": 437,
+  "ColumnId": 444,
+  "FieldDefault": "quam",
+  "FieldHeight": 951,
+  "FieldLabel": "et",
+  "FieldLeft": 302,
+  "FieldTop": 784,
   "FieldType": "Checkbox",
-  "FieldWidth": 952,
-  "FormatMask": "dolorum",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 417,
-  "LabelLeft": 995,
-  "LabelTop": 879,
-  "LabelWidth": 656,
-  "LastVersionId": 707,
-  "ListTableId": 434,
+  "FieldWidth": 678,
+  "FormatMask": "rerum",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 39,
+  "LabelLeft": 714,
+  "LabelTop": 176,
+  "LabelWidth": 202,
+  "LastVersionId": 605,
+  "ListTableId": 390,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 345,
-  "ProgId": "officiis",
+  "Page1LineNo": 252,
+  "ProgId": "ut",
   "IsReadOnly": true,
-  "ShortLabel": "voluptates",
-  "TabOrder": 648,
-  "TextLength": 785,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 768,
-  "UDListDefinitionId": 130,
+  "ShortLabel": "qui",
+  "TabOrder": 577,
+  "TextLength": 713,
+  "Tooltip": "officia",
+  "UdefIdentity": 399,
+  "UDListDefinitionId": 200,
   "Justification": "Center",
-  "Version": 97,
-  "TemplateVariableName": "Stiedemann, Anderson and Kub",
-  "HasBeenPublished": false,
-  "MdoListName": "Muller-Schulist",
+  "Version": 305,
+  "TemplateVariableName": "Bergstrom-Goyette",
+  "HasBeenPublished": true,
+  "MdoListName": "Hoeger-Rice",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldType": "System.String",
+      "FieldLength": 386
     }
   }
 }

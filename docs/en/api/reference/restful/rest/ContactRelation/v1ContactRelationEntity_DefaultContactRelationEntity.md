@@ -64,8 +64,8 @@ OK
 | DestinationPersonName | string | Name of the destination person. |
 | ActiveText | string | Active text for the relation. |
 | PassiveText | string | Passive text for the relation. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,33 +81,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Mar 2001 12:15:26 G3T
+Last-Modified: Wed, 22 Oct 1997 15:29:29 G10T
 
 {
-  "SourceContactId": 659,
-  "SourcePersonId": 776,
-  "DestinationContactId": 535,
-  "DestinationPersonId": 44,
-  "RelationId": 963,
-  "Comment": "animi",
-  "RelationDefinitionId": 712,
-  "Reversed": 245,
-  "UpdatedDate": "2001-03-17T12:15:26.7936377+01:00",
-  "CreatedDate": "2003-06-15T12:15:26.7936377+02:00",
+  "SourceContactId": 417,
+  "SourcePersonId": 34,
+  "DestinationContactId": 721,
+  "DestinationPersonId": 856,
+  "RelationId": 655,
+  "Comment": "quisquam",
+  "RelationDefinitionId": 720,
+  "Reversed": 559,
+  "UpdatedDate": "1997-10-22T15:29:29.6032008+02:00",
+  "CreatedDate": "2007-03-08T15:29:29.6032008+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stanton Inc and Sons",
-  "SourcePersonName": "Parisian-Herzog",
-  "DestinationContactName": "Hills-Zboncak",
-  "DestinationPersonName": "Rosenbaum Inc and Sons",
-  "ActiveText": "consequatur",
-  "PassiveText": "odit",
+  "SourceContactName": "Boehm LLC",
+  "SourcePersonName": "Crist, Boyer and Buckridge",
+  "DestinationContactName": "Hayes Inc and Sons",
+  "DestinationPersonName": "Schoen-Langosh",
+  "ActiveText": "dolores",
+  "PassiveText": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

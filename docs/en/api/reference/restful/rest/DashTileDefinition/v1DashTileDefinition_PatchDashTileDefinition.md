@@ -115,8 +115,8 @@ DashTileDefinition  updated.
 | MeasureByField | string | Field to group by |
 | Usage | string | Where this tile can be used |
 | ProviderName | string | Name of provider to use with this entity type - read only property |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -125,18 +125,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "et",
     "value": {}
   }
 ]
@@ -149,31 +149,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 567,
-  "Name": "Hills, Rutherford and Lynch",
-  "Description": "Object-based methodical help-desk",
-  "DefaultHeight": 674,
-  "DefaultWidth": 99,
+  "DashboardTileDefinitionId": 240,
+  "Name": "Glover LLC",
+  "Description": "Innovative tertiary interface",
+  "DefaultHeight": 517,
+  "DefaultWidth": 279,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Volkman, Konopelski and Quigley",
-  "SelectionId": 919,
+  "EntityName": "Hickle-Von",
+  "SelectionId": 42,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequatur",
+  "CurrencyCode": "eum",
   "Measure": "Average",
-  "MeasureField": "eum",
-  "SortBy": "totam",
-  "LayoutConfig": "dolorum",
-  "SecondarySelectionId": 535,
-  "MeasureByField": "nisi",
+  "MeasureField": "expedita",
+  "SortBy": "aliquid",
+  "LayoutConfig": "rem",
+  "SecondarySelectionId": 855,
+  "MeasureByField": "asperiores",
   "Usage": "Dashboard",
-  "ProviderName": "Abbott-Hackett",
+  "ProviderName": "Kerluke Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   },
   "_Links": {

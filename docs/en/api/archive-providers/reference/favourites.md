@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Favourites"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -1967,6 +1967,8 @@ blah....
 |consentSourceEmarketing| *None* |Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |request/contactId| *None* |Company ID: Database ID of company|  |
 |request/personId| *None* |Contact ID: Database ID of the contact row|  |
+|request/saleId| *None* |Sale ID: The database ID of the sale record|  |
+|request/projectId| *None* |Project ID: Database ID of project record|  |
 |request/ticketStatusName| *None* |Status: Request status|  |
 |request/categoryFullName| *None* |Category: Request category|  |
 |request/priorityName| *None* |Priority: Service priority|  |
@@ -2004,6 +2006,9 @@ blah....
 |request/tags| *None* |Tags: Tags connected to a request|  |
 |request/ownedBy| *None* |Owner: The owner of the request|  |
 |request/content| *None* |Content: Search for content in messages related to requests|  |
+|request/messageLanguage| *None* |Language: Recognized language in messages|  |
+|request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
+|request/suggestedCategory| *None* |Sugg.Cat.: Suggested service category|  |
 |request/createdBy/firstName| *None* |Created by - First name: Displays the contact's first name|  |
 |request/createdBy/lastName| *None* |Created by - Last name: Displays the contact's last name|  |
 |request/createdBy/middleName| *None* |Created by - Middle Name: Displays the contact's middle name.|  |
@@ -2939,6 +2944,9 @@ blah....
 |tags| *None* |Tags: Tags connected to a request|  |
 |ownedBy| *None* |Owner: The owner of the request|  |
 |content| *None* |Content: Search for content in messages related to requests|  |
+|messageLanguage| *None* |Language: Recognized language in messages|  |
+|sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
+|suggestedCategory| *None* |Sugg.Cat.: Suggested service category|  |
 |createdBy/firstName| *None* |Created by - First name: Displays the contact's first name|  |
 |createdBy/lastName| *None* |Created by - Last name: Displays the contact's last name|  |
 |createdBy/middleName| *None* |Created by - Middle Name: Displays the contact's middle name.|  |
@@ -3018,7 +3026,7 @@ blah....
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=contact/email/emailId,contact/restrictionAddress/state,contact/contactExtra/x_contact_integer,contact/LastDoBySale,associate/assocName
+GET /api/v1/archive/Favourites?$select=person/personMobilePhone/formattedNumber,contact/postAddress/line1,contact/contactAssociate/ejDisplayName,project/projectEvent/isExternalEvent,project/projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -112,8 +112,8 @@ OK
 | ExtraField3 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -125,8 +125,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 939,
-  "ERPProductKey": "dolorum"
+  "QuoteAlternativeId": 539,
+  "ERPProductKey": "cumque"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 174,
-  "ERPQuoteLineKey": "totam",
-  "QuoteAlternativeId": 731,
-  "ERPProductKey": "non",
+  "QuoteLineId": 634,
+  "ERPQuoteLineKey": "molestias",
+  "QuoteAlternativeId": 345,
+  "ERPProductKey": "ipsam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 23332.63,
-  "DeliveredQuantity": 27870.662,
-  "Rank": 681,
-  "Name": "Schaden LLC",
-  "Description": "Intuitive bifurcated utilisation",
-  "Code": "consequatur",
-  "QuantityUnit": "sint",
-  "PriceUnit": "sint",
-  "ItemNumber": "1894102",
+  "Quantity": 4397.0019999999995,
+  "DeliveredQuantity": 6659.75,
+  "Rank": 226,
+  "Name": "Schuppe Inc and Sons",
+  "Description": "Automated analyzing encryption",
+  "Code": "qui",
+  "QuantityUnit": "incidunt",
+  "PriceUnit": "non",
+  "ItemNumber": "428646",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "reprehenderit",
-  "ProductTypeKey": "quaerat",
-  "Supplier": "velit",
-  "SupplierCode": "recusandae",
-  "Thumbnail": "voluptatem",
-  "VATInfo": "quo",
-  "VAT": 17957.82,
-  "UnitCost": 14779.944,
-  "UnitMinimumPrice": 18174.066,
-  "UnitListPrice": 24899.629999999997,
+  "ProductFamilyKey": "aliquid",
+  "ProductTypeKey": "vitae",
+  "Supplier": "quibusdam",
+  "SupplierCode": "et",
+  "Thumbnail": "suscipit",
+  "VATInfo": "rerum",
+  "VAT": 14685.923999999999,
+  "UnitCost": 5236.914,
+  "UnitMinimumPrice": 1673.556,
+  "UnitListPrice": 28597.75,
   "ExtraInfo": [
     {
-      "Name": "Kreiger, Senger and McLaughlin",
-      "Value": "sint",
+      "Name": "Bode LLC",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 816
         }
       }
     },
     {
-      "Name": "Kreiger, Senger and McLaughlin",
-      "Value": "sint",
+      "Name": "Bode LLC",
+      "Value": "id",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 359
+          "FieldLength": 816
         }
       }
     }
   ],
-  "RawExtraInfo": "optio",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ad",
-  "SubscriptionQuantity": 16152.635999999999,
-  "SubscriptionStart": "2000-04-30T12:15:19.9627392+02:00",
-  "ERPDiscountPercent": 18368.374,
-  "ERPDiscountAmount": 17359.226,
-  "DiscountPercent": 29190.075999999997,
-  "DiscountAmount": 12730.307999999999,
+  "RawExtraInfo": "dicta",
+  "IsSubscription": false,
+  "SubscriptionUnit": "ratione",
+  "SubscriptionQuantity": 18556.414,
+  "SubscriptionStart": "2019-05-26T15:29:22.5902644+02:00",
+  "ERPDiscountPercent": 22944.014,
+  "ERPDiscountAmount": 18979.504,
+  "DiscountPercent": 27341.016,
+  "DiscountAmount": 7791.124,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 19255.296,
-  "EarningAmount": 5804.168,
-  "SubTotal": 2115.45,
-  "TotalPrice": 3046.248,
-  "Rights": "aliquam",
-  "Rule": "quo",
-  "ExtraField1": "eaque",
-  "ExtraField2": "maiores",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "deleniti",
-  "ExtraField5": "quia",
+  "EarningPercent": 19885.23,
+  "EarningAmount": 20750.214,
+  "SubTotal": 19048.452,
+  "TotalPrice": 5490.768,
+  "Rights": "omnis",
+  "Rule": "ut",
+  "ExtraField1": "possimus",
+  "ExtraField2": "unde",
+  "ExtraField3": "modi",
+  "ExtraField4": "ducimus",
+  "ExtraField5": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 766
     }
   }
 }

@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,16 +87,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "Cummerata-Mosciski",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "Rank": 164,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magni",
-  "InUseByUserDefinedFields": false
+  "Id": 443,
+  "Name": "D'Amore, Berge and Turcotte",
+  "Tooltip": "repellat",
+  "Deleted": false,
+  "Rank": 620,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "corporis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 636,
-  "Name": "O'Connell Group",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "Rank": 138,
-  "IsCustomList": true,
+  "Id": 894,
+  "Name": "Larkin, Bashirian and Dickens",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 459,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

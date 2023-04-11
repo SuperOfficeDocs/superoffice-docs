@@ -55,8 +55,8 @@ OK
 | SecretValue | string | Data stored encrypted in the db. Typically a password. Max 70 characters. |
 | PublicValue | string | Data stored unencrypted in the db.  Typically server and or username. Max 238 characters. |
 | IsActive | bool | Is this credentials currently active. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "1997-06-01T12:15:20.5347291+02:00",
-  "ValidTo": "1996-07-10T12:15:20.5347291+02:00",
-  "Comment": "non",
-  "SecretValue": "quaerat",
-  "PublicValue": "ratione",
+  "ValidFrom": "2001-07-21T15:29:23.3072549+02:00",
+  "ValidTo": "2004-01-18T15:29:23.3072549+01:00",
+  "Comment": "provident",
+  "SecretValue": "accusantium",
+  "PublicValue": "dicta",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 453
     }
   }
 }

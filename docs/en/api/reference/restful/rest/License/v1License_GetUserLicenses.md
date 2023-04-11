@@ -52,8 +52,8 @@ OK
 | Description | string |  |
 | RestrictedModuleLicenses | array |  |
 | UnrestrictedModuleLicenses | array | The unrestricted module licenses that this license owner |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -72,30 +72,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Padberg, Cassin and Barton",
-    "Description": "Synergistic static workforce",
+    "Name": "Harvey, Williamson and Bechtelar",
+    "Description": "Switchable eco-centric product",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 162,
-        "Tooltip": "error",
+        "Total": 678,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 344,
-        "InUse": 709,
-        "IsHidden": false,
+        "Free": 854,
+        "InUse": 213,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 301,
-        "Name": "Wisozk Group",
-        "Description": "Decentralized multi-tasking project",
-        "PrerequisiteModuleName": "Bode-Skiles",
-        "SortOrder": 551,
-        "ExtraFlags": 642,
+        "ModuleLicenseId": 873,
+        "Name": "Shields LLC",
+        "Description": "De-engineered tangible toolset",
+        "PrerequisiteModuleName": "Hessel, D'Amore and McKenzie",
+        "SortOrder": 796,
+        "ExtraFlags": 370,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 267
           }
         }
       }
@@ -103,25 +103,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 989,
-        "Tooltip": "repellendus",
-        "CanAssign": false,
-        "Free": 501,
-        "InUse": 445,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 545,
-        "Name": "Hilll, Crooks and Brakus",
-        "Description": "Front-line coherent database",
-        "PrerequisiteModuleName": "Hintz LLC",
-        "SortOrder": 83,
-        "ExtraFlags": 417,
+        "Total": 189,
+        "Tooltip": "vel",
+        "CanAssign": true,
+        "Free": 161,
+        "InUse": 146,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 165,
+        "Name": "Volkman, Walker and Adams",
+        "Description": "Extended multi-tasking functionalities",
+        "PrerequisiteModuleName": "Gottlieb-Pacocha",
+        "SortOrder": 348,
+        "ExtraFlags": 782,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 864
           }
         }
       }
@@ -131,35 +131,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 390
       }
     }
   },
   {
-    "Name": "Padberg, Cassin and Barton",
-    "Description": "Synergistic static workforce",
+    "Name": "Harvey, Williamson and Bechtelar",
+    "Description": "Switchable eco-centric product",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 162,
-        "Tooltip": "error",
+        "Total": 678,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 344,
-        "InUse": 709,
-        "IsHidden": false,
+        "Free": 854,
+        "InUse": 213,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 301,
-        "Name": "Wisozk Group",
-        "Description": "Decentralized multi-tasking project",
-        "PrerequisiteModuleName": "Bode-Skiles",
-        "SortOrder": 551,
-        "ExtraFlags": 642,
+        "ModuleLicenseId": 873,
+        "Name": "Shields LLC",
+        "Description": "De-engineered tangible toolset",
+        "PrerequisiteModuleName": "Hessel, D'Amore and McKenzie",
+        "SortOrder": 796,
+        "ExtraFlags": 370,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldLength": 267
           }
         }
       }
@@ -167,25 +167,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 989,
-        "Tooltip": "repellendus",
-        "CanAssign": false,
-        "Free": 501,
-        "InUse": 445,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 545,
-        "Name": "Hilll, Crooks and Brakus",
-        "Description": "Front-line coherent database",
-        "PrerequisiteModuleName": "Hintz LLC",
-        "SortOrder": 83,
-        "ExtraFlags": 417,
+        "Total": 189,
+        "Tooltip": "vel",
+        "CanAssign": true,
+        "Free": 161,
+        "InUse": 146,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 165,
+        "Name": "Volkman, Walker and Adams",
+        "Description": "Extended multi-tasking functionalities",
+        "PrerequisiteModuleName": "Gottlieb-Pacocha",
+        "SortOrder": 348,
+        "ExtraFlags": 782,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldLength": 864
           }
         }
       }
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 374
+        "FieldLength": 390
       }
     }
   }

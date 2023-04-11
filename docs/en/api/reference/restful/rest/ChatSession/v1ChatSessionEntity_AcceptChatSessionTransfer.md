@@ -81,8 +81,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,43 +100,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 819,
-  "TopicId": 402,
+  "ChatSessionId": 624,
+  "TopicId": 829,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "est",
-  "CustomerName": "Ernser, Bernier and Marquardt",
-  "CustomerEmail": "lysanne.oconnell@kingherman.ca",
-  "CustomerPhone": "(944)663-1784 x82528",
+  "CustomerAlias": "eveniet",
+  "CustomerHost": "non",
+  "CustomerName": "Raynor-Brakus",
+  "CustomerEmail": "kitty@corwin.name",
+  "CustomerPhone": "(610)165-8999 x674",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Russel, Gorczany and Pfannerstill",
+  "CustomerCompanyName": "Cummings LLC",
   "Status": "Closed",
-  "FirstMessage": "ratione",
-  "LastMessage": "est",
-  "WhenRequested": "2011-02-19T12:15:26.4606436+01:00",
-  "WhenStarted": "2018-10-25T12:15:26.4606436+02:00",
-  "WhenEnded": "2012-07-02T12:15:26.4606436+02:00",
-  "WhenIdle": "2022-03-08T12:15:26.4606436+01:00",
-  "WhenFetched": "2008-03-07T12:15:26.4606436+01:00",
-  "SessionKey": "corrupti",
-  "InitialQueuePos": 435,
-  "AlertLevel": 349,
-  "Rank": 122,
+  "FirstMessage": "corporis",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2007-03-08T15:29:29.3637043+01:00",
+  "WhenStarted": "2015-01-14T15:29:29.3637043+01:00",
+  "WhenEnded": "1999-08-18T15:29:29.3637043+02:00",
+  "WhenIdle": "2011-05-28T15:29:29.3637043+02:00",
+  "WhenFetched": "2021-09-24T15:29:29.3637043+02:00",
+  "SessionKey": "aut",
+  "InitialQueuePos": 323,
+  "AlertLevel": 653,
+  "Rank": 889,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 945,
+  "ChatbotIsActive": true,
+  "Rating": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 362
     }
   }
 }

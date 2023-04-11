@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 360,
-  "MinDate": "2004-12-16T12:15:18.9027204+01:00",
-  "MaxDate": "2021-01-09T12:15:18.9027204+01:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 811,
+  "MinDate": "2004-11-14T15:29:21.6738128+01:00",
+  "MaxDate": "2003-01-02T15:29:21.6738128+01:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 628,
-  "NumDocumentsAlreadyMigrated": 894,
+  "NumDocumentsOmitted": 1000,
+  "NumDocumentsAlreadyMigrated": 184,
   "Documents": [
     {
-      "DocumentId": 476,
-      "ContactId": 374,
-      "PersonId": 178,
-      "SaleId": 454,
-      "ProjectId": 366,
-      "DocTmplId": 98,
-      "AssociateId": 295,
-      "UserGroupId": 713,
-      "VisibleForId": 302
+      "DocumentId": 966,
+      "ContactId": 471,
+      "PersonId": 938,
+      "SaleId": 585,
+      "ProjectId": 575,
+      "DocTmplId": 689,
+      "AssociateId": 39,
+      "UserGroupId": 648,
+      "VisibleForId": 418
     }
   ],
   "Associates": [
     {
-      "AssociateId": 714,
-      "EmailAddress": "sister@schaden.uk"
+      "AssociateId": 282,
+      "EmailAddress": "fredrick_smith@dach.com"
     },
     {
-      "AssociateId": 714,
-      "EmailAddress": "sister@schaden.uk"
+      "AssociateId": 282,
+      "EmailAddress": "fredrick_smith@dach.com"
     }
   ]
 }

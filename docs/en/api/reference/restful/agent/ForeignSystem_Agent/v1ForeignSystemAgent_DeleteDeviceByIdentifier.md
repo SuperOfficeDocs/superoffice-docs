@@ -56,7 +56,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -65,13 +65,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Nikolaus Inc and Sons",
-  "DeviceName": "Kovacek LLC",
-  "DeviceIdentifier": "nostrum"
+  "ApplicationName": "Collier Group",
+  "DeviceName": "Renner Group",
+  "DeviceIdentifier": "quam"
 }
 ```
 

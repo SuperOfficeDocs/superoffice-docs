@@ -62,8 +62,8 @@ OK
 | Id | int32 | The List Item Id |
 | Value | string | The List Item Value |
 | Tooltip | string | The List Item Tooltip |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,28 +82,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Value": "dicta",
-    "Tooltip": "ipsa",
+    "Id": 457,
+    "Value": "atque",
+    "Tooltip": "esse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldType": "System.Int32",
+        "FieldLength": 843
       }
     }
   },
   {
-    "Id": 335,
-    "Value": "dicta",
-    "Tooltip": "ipsa",
+    "Id": 457,
+    "Value": "atque",
+    "Tooltip": "esse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldType": "System.Int32",
+        "FieldLength": 843
       }
     }
   }

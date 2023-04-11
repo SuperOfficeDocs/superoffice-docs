@@ -58,8 +58,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -67,7 +67,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,50 +78,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Name": "Hodkiewicz, Lehner and Kub",
-    "ToolTip": "Dignissimos sequi rerum.",
+    "Id": 30,
+    "Name": "Wyman, Brekke and Orn",
+    "ToolTip": "Fugiat aliquid quia commodi eum.",
     "Deleted": false,
-    "Rank": 333,
-    "Type": "dolorum",
+    "Rank": 941,
+    "Type": "praesentium",
     "ChildItems": [
       {
-        "Id": 334,
-        "Name": "Brakus-Jones",
-        "ToolTip": "Aut laboriosam et aperiam sit recusandae.",
+        "Id": 272,
+        "Name": "Hahn-Pollich",
+        "ToolTip": "Et et.",
         "Deleted": false,
-        "Rank": 456,
-        "Type": "quasi",
+        "Rank": 846,
+        "Type": "autem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 720,
-        "ExtraInfo": "nostrum",
-        "StyleHint": "vel",
-        "FullName": "Dr. Antwon Mann PhD",
+        "IconHint": "sed",
+        "ColorBlock": 659,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "similique",
+        "FullName": "Jeanne Rico Cronin V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 182
+            "FieldType": "System.Int32",
+            "FieldLength": 765
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 461,
-    "ExtraInfo": "ut",
-    "StyleHint": "repudiandae",
-    "FullName": "Chaz Bradtke",
+    "IconHint": "mollitia",
+    "ColorBlock": 225,
+    "ExtraInfo": "neque",
+    "StyleHint": "ratione",
+    "FullName": "Mireya Javonte Wintheiser V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldLength": 577
       }
     }
   }

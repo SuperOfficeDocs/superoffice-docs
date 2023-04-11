@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 990,
-  "StartTime": "2002-09-15T12:15:17.6477705+02:00",
-  "EndTime": "2014-05-13T12:15:17.6477705+02:00",
-  "Count": 12,
-  "TaskId": 133
+  "ContactId": 573,
+  "StartTime": "1999-10-26T15:29:20.2603325+02:00",
+  "EndTime": "2003-12-06T15:29:20.2603325+01:00",
+  "Count": 986,
+  "TaskId": 499
 }
 ```
 
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 11,
-    "StartDate": "2002-08-05T12:15:17.6487704+02:00",
-    "EndDate": "2019-08-07T12:15:17.6487704+02:00",
+    "AppointmentId": 836,
+    "StartDate": "2017-07-25T15:29:20.2613365+02:00",
+    "EndDate": "2002-05-25T15:29:20.2613365+02:00",
     "Type": "BookingForChecklist",
-    "Task": "molestiae",
-    "AssociateFullName": "Elmira Watsica",
-    "ContactName": "Bradtke Inc and Sons",
-    "Description": "Assimilated foreground framework",
-    "PersonFullName": "Fleta Wolff",
-    "PersonId": 769,
-    "ContactId": 942,
-    "ProjectId": 552,
-    "ProjectName": "Beer, Legros and Johns",
-    "IsPublished": true,
-    "AssociateId": 513,
-    "ColorIndex": 678,
+    "Task": "ut",
+    "AssociateFullName": "Lucie Abernathy",
+    "ContactName": "Sawayn, Walsh and Langosh",
+    "Description": "Compatible well-modulated project",
+    "PersonFullName": "Ms. Mauricio Johnson MD",
+    "PersonId": 64,
+    "ContactId": 691,
+    "ProjectId": 350,
+    "ProjectName": "Dietrich-Reichel",
+    "IsPublished": false,
+    "AssociateId": 431,
+    "ColorIndex": 524,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 902,
-    "PriorityName": "Rutherford Group",
+    "PriorityId": 332,
+    "PriorityName": "Kuvalis Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-01-03T12:15:17.6487704+01:00",
+    "ActiveDate": "2020-06-08T15:29:20.2618323+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-02-15T12:15:17.6487704+01:00",
-    "RecurringEndDate": "2001-11-29T12:15:17.6487704+01:00",
-    "MotherId": 700,
-    "AssignedBy": 441,
-    "AssignedByFullName": "Jolie Will",
+    "RecurringStartDate": "2004-02-17T15:29:20.2618323+01:00",
+    "RecurringEndDate": "2017-05-17T15:29:20.2618323+02:00",
+    "MotherId": 153,
+    "AssignedBy": 35,
+    "AssignedByFullName": "Dr. Isadore Osinski DVM",
     "RejectReason": "",
-    "Location": "quidem",
-    "AlarmLeadTime": "nihil",
-    "SaleId": 859,
-    "SaleName": "Gerhold-Schowalter",
-    "AssociateName": "Langosh-Walker",
-    "CreatedDate": "2020-08-23T12:15:17.6487704+02:00",
-    "CreatedBy": "earum",
-    "CreatedByFullName": "Ms. Angus Tess Dicki II",
-    "CreatedByAssociateId": 998,
+    "Location": "dolorem",
+    "AlarmLeadTime": "provident",
+    "SaleId": 72,
+    "SaleName": "Lemke, Koch and Douglas",
+    "AssociateName": "Rowe Inc and Sons",
+    "CreatedDate": "2020-12-07T15:29:20.2618323+01:00",
+    "CreatedBy": "quaerat",
+    "CreatedByFullName": "Thurman Vandervort",
+    "CreatedByAssociateId": 275,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 203
+        "FieldLength": 676
       }
     }
   }

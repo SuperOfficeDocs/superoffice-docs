@@ -86,8 +86,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,47 +95,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Gutmann, Mraz and Bednar",
-    "ToolTip": "Exercitationem id ut est ut consequatur.",
-    "Deleted": true,
-    "Rank": 320,
-    "Type": "sit",
-    "ColorBlock": 638,
-    "IconHint": "reiciendis",
+    "Id": 977,
+    "Name": "Cremin Group",
+    "ToolTip": "Aut consectetur omnis inventore sint nisi modi.",
+    "Deleted": false,
+    "Rank": 619,
+    "Type": "neque",
+    "ColorBlock": 810,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2006-01-23T12:15:27.8286208+01:00",
+    "LastChanged": "2011-03-17T15:29:31.0349467+01:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Quitzon LLC",
-        "ToolTip": "Asperiores ab quis tenetur nostrum sunt qui harum.",
-        "Deleted": true,
-        "Rank": 7,
-        "Type": "illum",
-        "ColorBlock": 323,
-        "IconHint": "nemo",
+        "Id": 844,
+        "Name": "Schmidt, Flatley and Kertzmann",
+        "ToolTip": "Esse aut cupiditate praesentium cumque quis incidunt.",
+        "Deleted": false,
+        "Rank": 155,
+        "Type": "ratione",
+        "ColorBlock": 484,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2012-01-02T12:15:27.8296229+01:00",
+        "LastChanged": "1996-09-04T15:29:31.0354466+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "porro",
-        "Hidden": false,
-        "FullName": "Prof. Cayla Rosenbaum"
+        "ExtraInfo": "vel",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Ms. Carli Zora Kuhlman"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "dolorum",
     "Hidden": true,
-    "FullName": "Edna Murphy"
+    "FullName": "Dr. Mariano Zieme IV"
   }
 ]
 ```
@@ -148,56 +148,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "O'Connell, Prosacco and Bednar",
-    "ToolTip": "Natus aperiam odit est iure et.",
-    "Deleted": true,
-    "Rank": 401,
-    "Type": "consequuntur",
-    "ColorBlock": 164,
-    "IconHint": "iure",
+    "Id": 409,
+    "Name": "Satterfield, Jones and Baumbach",
+    "ToolTip": "Minima et aut incidunt.",
+    "Deleted": false,
+    "Rank": 296,
+    "Type": "vitae",
+    "ColorBlock": 148,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2022-05-11T12:15:27.8306227+02:00",
+    "LastChanged": "2006-12-24T15:29:31.0369468+01:00",
     "ChildItems": [
       {
-        "Id": 323,
-        "Name": "Huels-Homenick",
-        "ToolTip": "Facere suscipit voluptatum rem officia alias quidem placeat.",
-        "Deleted": false,
-        "Rank": 965,
-        "Type": "nobis",
-        "ColorBlock": 671,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2017-07-25T12:15:27.8306227+02:00",
+        "Id": 516,
+        "Name": "Witting, Glover and Cruickshank",
+        "ToolTip": "Consequatur expedita.",
+        "Deleted": true,
+        "Rank": 540,
+        "Type": "iure",
+        "ColorBlock": 20,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2018-06-24T15:29:31.0369468+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Tom Bayer",
+        "ExtraInfo": "vero",
+        "StyleHint": "autem",
+        "Hidden": false,
+        "FullName": "Jannie Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 232
+            "FieldLength": 88
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "quam",
-    "Hidden": true,
-    "FullName": "Estella O'Reilly",
+    "ExtraInfo": "totam",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Mr. Hershel Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 931
+        "FieldType": "System.Int32",
+        "FieldLength": 571
       }
     }
   }

@@ -53,8 +53,8 @@ OK
 | Password | string | The password used to log into the mail account. This is hidden when reading |
 | Server | string | The email server to connect to |
 | Port | int32 | The port used to connect to the server |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 792,
+  "MailInFilterId": 209,
   "ServerType": "Facebook",
-  "Address": "omnis",
-  "Username": "aliquam",
-  "Password": "quae",
-  "Server": "assumenda",
-  "Port": 508,
+  "Address": "voluptates",
+  "Username": "reiciendis",
+  "Password": "tenetur",
+  "Server": "molestias",
+  "Port": 731,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldLength": 459
     }
   }
 }

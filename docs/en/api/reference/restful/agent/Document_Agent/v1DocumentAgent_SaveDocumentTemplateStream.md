@@ -61,7 +61,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 298,
+  "DocumentTemplateId": 21,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ducimus",
-  "PluginId": 921
+  "LanguageCode": "nam",
+  "PluginId": 178
 }
 ```
 
@@ -95,10 +95,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hartmann-Graham",
-  "Description": "Operative transitional installation",
-  "ExternalReference": "et",
-  "MimeType": "ullam",
-  "PluginId": 758
+  "Name": "Rolfson LLC",
+  "Description": "Implemented 5th generation process improvement",
+  "ExternalReference": "unde",
+  "MimeType": "aperiam",
+  "PluginId": 601
 }
 ```

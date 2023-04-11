@@ -83,8 +83,8 @@ AppointmentEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,46 +102,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 257,
-  "ColumnId": 612,
-  "FieldDefault": "fugiat",
-  "FieldHeight": 525,
-  "FieldLabel": "est",
-  "FieldLeft": 110,
-  "FieldTop": 7,
+  "UDefFieldId": 9,
+  "ColumnId": 155,
+  "FieldDefault": "qui",
+  "FieldHeight": 94,
+  "FieldLabel": "earum",
+  "FieldLeft": 164,
+  "FieldTop": 499,
   "FieldType": "Checkbox",
-  "FieldWidth": 463,
-  "FormatMask": "nostrum",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 156,
-  "LabelLeft": 151,
-  "LabelTop": 422,
-  "LabelWidth": 436,
-  "LastVersionId": 763,
-  "ListTableId": 531,
+  "FieldWidth": 645,
+  "FormatMask": "et",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 971,
+  "LabelLeft": 108,
+  "LabelTop": 254,
+  "LabelWidth": 609,
+  "LastVersionId": 11,
+  "ListTableId": 85,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 65,
-  "ProgId": "quidem",
-  "IsReadOnly": true,
-  "ShortLabel": "ratione",
-  "TabOrder": 431,
-  "TextLength": 661,
-  "Tooltip": "repellendus",
-  "UdefIdentity": 841,
-  "UDListDefinitionId": 936,
+  "Page1LineNo": 19,
+  "ProgId": "nesciunt",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatibus",
+  "TabOrder": 310,
+  "TextLength": 395,
+  "Tooltip": "porro",
+  "UdefIdentity": 395,
+  "UDListDefinitionId": 131,
   "Justification": "Center",
-  "Version": 277,
-  "TemplateVariableName": "West Inc and Sons",
+  "Version": 453,
+  "TemplateVariableName": "Bergnaum, Windler and Stroman",
   "HasBeenPublished": true,
-  "MdoListName": "McDermott LLC",
+  "MdoListName": "Mueller, Aufderhar and Wintheiser",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldLength": 573
     }
   }
 }

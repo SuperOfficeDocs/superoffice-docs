@@ -45,7 +45,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,7 +71,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,20 +81,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Gottlieb, Ondricka and Hauck",
-  "ModuleName": "Conn Group",
-  "ModuleDescription": "Progressive client-server task-force",
-  "ModuleTooltip": "similique",
-  "ModuleVersion": "totam",
+  "OwnerName": "Pouros, Cartwright and Bernhard",
+  "ModuleName": "Kunde Group",
+  "ModuleDescription": "Automated didactic knowledge base",
+  "ModuleTooltip": "fugiat",
+  "ModuleVersion": "labore",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 417,
-  "ExtraFlags": 78,
-  "ExtraInfo": "similique",
-  "SortOrder": 628,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Turner-Strosin",
-  "Signature": "nihil"
+  "NumberOfLicenses": 244,
+  "ExtraFlags": 727,
+  "ExtraInfo": "ea",
+  "SortOrder": 323,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Okuneva, Bauch and Stehr",
+  "Signature": "quo"
 }
 ```

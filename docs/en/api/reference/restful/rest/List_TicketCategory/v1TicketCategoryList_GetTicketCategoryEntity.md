@@ -69,8 +69,8 @@ OK
 | EffectiveReplyTemplateId | int32 | Id of reply template to merge into messages, whose ticket belongs to this category. Also takes into account 'Apply to subcategories' on parent categories. This is a calculated, readonly field. |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -88,36 +88,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 408,
-  "ParentId": 370,
-  "Name": "Runolfsdottir-Cormier",
-  "Fullname": "mollitia",
-  "CategoryMaster": 895,
+  "TicketCategoryId": 361,
+  "ParentId": 292,
+  "Name": "O'Conner-Hickle",
+  "Fullname": "fuga",
+  "CategoryMaster": 161,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Sporer-Braun",
+  "ExternalName": "Grimes Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 921,
-  "ReplyTemplate": 583,
-  "NotificationEmail": "mireya@bartoletti.name",
+  "AssignmentLag": 106,
+  "ReplyTemplate": 128,
+  "NotificationEmail": "jaylon.cummings@heidenreich.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 775,
+  "EffectiveReplyTemplateId": 4,
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "enim"
+    "CustomFields1": "quia",
+    "CustomFields2": "culpa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 6
     }
   }
 }

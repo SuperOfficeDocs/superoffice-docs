@@ -80,8 +80,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 123
+  "ContactId": 469
 }
 ```
 
@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 491,
-    "Name": "Corkery-Kub",
-    "Description": "Object-based client-driven application",
+    "ProjectId": 629,
+    "Name": "Kutch, Terry and Lakin",
+    "Description": "Advanced impactful projection",
     "URL": "http://www.example.com/",
-    "Type": "enim",
-    "AssociateId": 135,
-    "AssociateFullName": "Mrs. Furman Mia Collier",
-    "TypeId": 573,
-    "Updated": "2021-01-29T12:15:19.8617384+01:00",
-    "StatusId": 737,
-    "Status": "dolorem",
-    "TextId": 826,
-    "PublishTo": "2015-07-15T12:15:19.8627386+02:00",
-    "PublishFrom": "1996-02-23T12:15:19.8627386+01:00",
-    "IsPublished": true,
+    "Type": "architecto",
+    "AssociateId": 92,
+    "AssociateFullName": "Rasheed Rod Luettgen V",
+    "TypeId": 957,
+    "Updated": "2004-08-20T15:29:22.4877653+02:00",
+    "StatusId": 741,
+    "Status": "quas",
+    "TextId": 43,
+    "PublishTo": "2004-09-28T15:29:22.4877653+02:00",
+    "PublishFrom": "2012-09-18T15:29:22.4877653+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1564679",
-    "ActiveErpLinks": 307,
+    "ProjectNumber": "633795",
+    "ActiveErpLinks": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 555
       }
     }
   }

@@ -61,7 +61,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,16 +70,16 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Skiles Group",
-  "DeviceName": "Flatley LLC",
-  "DeviceIdentifier": "dolorem",
-  "KeyName": "Reinger, Ryan and Huels",
-  "TableName": "Lesch-Block",
-  "RecordId": 637
+  "ApplicationName": "Gibson-Rohan",
+  "DeviceName": "Wunsch-Mraz",
+  "DeviceIdentifier": "sit",
+  "KeyName": "Dooley, Vandervort and Bechtelar",
+  "TableName": "Gutkowski-Conn",
+  "RecordId": 699
 }
 ```
 

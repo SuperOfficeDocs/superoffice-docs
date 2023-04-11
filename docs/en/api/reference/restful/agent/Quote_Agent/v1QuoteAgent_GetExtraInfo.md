@@ -65,8 +65,8 @@ OK
 | Name | string | Label for the field |
 | Value | string | Value for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user's computer is set up). |
 | Type | string | String, url, image. How the value should be interpreted. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "omnis"
+  "QuoteLineExtraData": "cumque"
 }
 ```
 
@@ -90,28 +90,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Senger-Shields",
-    "Value": "minima",
+    "Name": "Koepp LLC",
+    "Value": "est",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 762
       }
     }
   },
   {
-    "Name": "Senger-Shields",
-    "Value": "minima",
+    "Name": "Koepp LLC",
+    "Value": "est",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 762
       }
     }
   }

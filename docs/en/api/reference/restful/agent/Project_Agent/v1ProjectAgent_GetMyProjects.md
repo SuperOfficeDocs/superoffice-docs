@@ -82,8 +82,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 192,
-    "Name": "Brekke-Gaylord",
-    "Description": "Grass-roots global contingency",
+    "ProjectId": 319,
+    "Name": "Nikolaus, Pfeffer and Langosh",
+    "Description": "Centralized contextually-based framework",
     "URL": "http://www.example.com/",
-    "Type": "aspernatur",
-    "AssociateId": 389,
-    "AssociateFullName": "Hyman Swift",
-    "TypeId": 523,
-    "Updated": "2021-06-01T12:15:19.8587394+02:00",
-    "StatusId": 782,
-    "Status": "repudiandae",
-    "TextId": 506,
-    "PublishTo": "1997-10-01T12:15:19.8587394+02:00",
-    "PublishFrom": "2012-02-09T12:15:19.8587394+01:00",
-    "IsPublished": false,
+    "Type": "nam",
+    "AssociateId": 554,
+    "AssociateFullName": "Dorian McKenzie",
+    "TypeId": 168,
+    "Updated": "2005-12-21T15:29:22.4837662+01:00",
+    "StatusId": 108,
+    "Status": "quia",
+    "TextId": 807,
+    "PublishTo": "2007-01-28T15:29:22.4837662+01:00",
+    "PublishFrom": "2005-02-28T15:29:22.4837662+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "254521",
-    "ActiveErpLinks": 397,
+    "ProjectNumber": "1199893",
+    "ActiveErpLinks": 147,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

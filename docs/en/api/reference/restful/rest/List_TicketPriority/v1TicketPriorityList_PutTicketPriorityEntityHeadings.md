@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 50,
-    "Name": "Huels LLC",
-    "Tooltip": "et",
+    "HeadingId": 952,
+    "Name": "Wiza, Waters and Emard",
+    "Tooltip": "minima",
     "Deleted": true,
-    "Rank": 595,
-    "UdListDefinitionId": 232
+    "Rank": 140,
+    "UdListDefinitionId": 303
   },
   {
-    "HeadingId": 50,
-    "Name": "Huels LLC",
-    "Tooltip": "et",
+    "HeadingId": 952,
+    "Name": "Wiza, Waters and Emard",
+    "Tooltip": "minima",
     "Deleted": true,
-    "Rank": 595,
-    "UdListDefinitionId": 232
+    "Rank": 140,
+    "UdListDefinitionId": 303
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 553,
-    "Name": "Kessler, Schneider and Runte",
-    "Tooltip": "voluptatibus",
+    "HeadingId": 9,
+    "Name": "Kiehn Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": true,
-    "Rank": 864,
-    "UdListDefinitionId": 25,
+    "Rank": 474,
+    "UdListDefinitionId": 351,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "ticketfavourites"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -31,6 +31,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |getNoRows|bool|GetNone: Do not get any rows from the archive|  |
 |contactId|int|Company ID: Database ID of company| x |
 |personId|int|Contact ID: Database ID of the contact row| x |
+|saleId|int|Sale ID: The database ID of the sale record| x |
+|projectId|int|Project ID: Database ID of project record| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|listAny|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -68,6 +70,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |tags|intArray|Tags: Tags connected to a request| x |
 |ownedBy|ejUser|Owner: The owner of the request| x |
 |content|string|Content: Search for content in messages related to requests| x |
+|messageLanguage|listAny|Language: Recognized language in messages|  |
+|sentimentScore|listAny|Sentiment: Sentiment score, -100 to +100|  |
+|suggestedCategory|listAny|Sugg.Cat.: Suggested service category|  |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |icon| *None* |Category: Displays the icon for an activity type| x |
 |text|positiveString|Favourite: Displays a descriptive text for the item| x |
@@ -712,7 +717,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=createdBy/role,contact/postAddress/county,contact/contactUdef/SuperOffice:2,contact/contactExtra/x_contact_longtext,project/SaintStatus3
+GET /api/v1/archive/ticketfavourites?$select=createdBy/personEmail,person/hasInterests,person/personAssociate/contactFullName,contact/saintTicketStatus,project/NumberOfNotCompletedSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

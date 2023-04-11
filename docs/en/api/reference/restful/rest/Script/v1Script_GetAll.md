@@ -69,12 +69,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=totam
-GET /api/v1/Script?$top=276
-GET /api/v1/Script?$skip=66
+GET /api/v1/Script?$entities=aut
+GET /api/v1/Script?$top=506
+GET /api/v1/Script?$skip=586
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=omnis
+GET /api/v1/Script?$context=saepe
 GET /api/v1/Script?$format=JSON
 GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
@@ -117,7 +117,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -128,21 +128,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vero",
+  "odata.nextLink": "a",
   "value": [
     {
-      "PrimaryKey": 9552,
+      "PrimaryKey": 1464,
       "EntityName": "sale",
-      "saleId": 9552,
-      "contactId": 525,
-      "name": "Brown Inc and Sons"
+      "saleId": 1464,
+      "contactId": 2636,
+      "name": "Thompson-Quigley"
     },
     {
-      "PrimaryKey": 667,
+      "PrimaryKey": 262,
       "EntityName": "sale",
-      "saleId": 667,
-      "contactId": 7177,
-      "name": "Swift Group"
+      "saleId": 262,
+      "contactId": 5426,
+      "name": "Bogan, Watsica and Harris"
     }
   ]
 }

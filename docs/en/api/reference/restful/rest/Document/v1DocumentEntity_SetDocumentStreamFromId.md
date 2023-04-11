@@ -89,8 +89,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,7 +98,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,88 +108,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 136,
+  "DocumentId": 628,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eaque",
-  "Header": "perspiciatis",
-  "Name": "Wiegand LLC",
-  "OurRef": "libero",
-  "YourRef": "omnis",
-  "CreatedDate": "2020-12-03T12:15:26.9016364+01:00",
-  "UpdatedDate": "2012-11-27T12:15:26.9016364+01:00",
-  "Description": "Mandatory interactive workforce",
+  "Attention": "adipisci",
+  "Header": "deserunt",
+  "Name": "Ernser Group",
+  "OurRef": "et",
+  "YourRef": "rerum",
+  "CreatedDate": "2014-01-22T15:29:29.7107+01:00",
+  "UpdatedDate": "2013-03-15T15:29:29.7107+01:00",
+  "Description": "Function-based zero administration architecture",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-04-11T12:15:26.905644+02:00",
-  "ExternalRef": "rem",
+  "Date": "2009-04-06T15:29:29.7141999+02:00",
+  "ExternalRef": "facere",
   "Completed": "Completed",
-  "ActiveLinks": 522,
+  "ActiveLinks": 963,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jones-Will",
-      "Id": 672,
-      "Description": "Enterprise-wide hybrid moratorium",
-      "ExtraInfo": "ut",
-      "LinkId": 497,
+      "EntityName": "Kertzmann, Willms and Trantow",
+      "Id": 770,
+      "Description": "Profound multi-state intranet",
+      "ExtraInfo": "quia",
+      "LinkId": 87,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldLength": 598
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 154,
-  "Snum": 869,
+  "SuggestedDocumentId": 753,
+  "Snum": 865,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dovie Bernier"
+    "SuperOffice:1": "Adan Hahn",
+    "SuperOffice:2": "Ms. Iva Corwin"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "nobis"
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "iusto"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "ab"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "delectus"
   },
-  "PublishEventDate": "2018-05-31T12:15:26.9066365+02:00",
-  "PublishTo": "2001-04-15T12:15:26.9066365+02:00",
-  "PublishFrom": "2000-03-24T12:15:26.9066365+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2004-06-16T15:29:29.7147049+02:00",
+  "PublishTo": "1999-08-02T15:29:29.7147049+02:00",
+  "PublishFrom": "2000-04-11T15:29:29.7147049+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 360,
+      "VisibleId": 680,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 654
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     },
     {
-      "VisibleId": 360,
+      "VisibleId": 680,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 654
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     }
@@ -199,7 +199,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 160
     }
   }
 }

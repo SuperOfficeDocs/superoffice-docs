@@ -67,8 +67,8 @@ OK
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 361,
-  "Name": "Reichel Group",
-  "Tooltip": "consequatur",
-  "Rank": 169,
-  "Key": "et",
-  "MailTemplateId": 841,
+  "ConsentSourceId": 677,
+  "Name": "Roob LLC",
+  "Tooltip": "rerum",
+  "Rank": 716,
+  "Key": "ut",
+  "MailTemplateId": 868,
   "Deleted": true
 }
 ```
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 802,
-  "Name": "Schmidt-VonRueden",
-  "Tooltip": "consequatur",
-  "Rank": 216,
-  "Key": "dolorum",
-  "MailTemplateId": 71,
-  "Deleted": false,
+  "ConsentSourceId": 929,
+  "Name": "Windler-Becker",
+  "Tooltip": "odio",
+  "Rank": 741,
+  "Key": "impedit",
+  "MailTemplateId": 1001,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 431
     }
   }
 }

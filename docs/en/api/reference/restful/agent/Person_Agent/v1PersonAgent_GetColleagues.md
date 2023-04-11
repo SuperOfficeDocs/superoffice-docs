@@ -94,8 +94,8 @@ OK
 | SupportLanguageId | int32 | Support priority ID |
 | SupportAssociateId | int32 | Our support contact for this person |
 | CategoryName | string | The category list item name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -114,52 +114,52 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "voluptatem",
-    "PersonId": 784,
-    "Mrmrs": "adipisci",
-    "Firstname": "Ryley",
-    "Lastname": "Jacobson",
-    "MiddleName": "King-Kihn",
-    "Title": "quia",
-    "Description": "Business-focused composite benchmark",
-    "Email": "imelda@mertz.uk",
-    "FullName": "Jerel Boyer",
-    "DirectPhone": "336.580.1887",
-    "FormalName": "Hoppe LLC",
-    "CountryId": 607,
-    "ContactId": 815,
-    "ContactName": "Ernser, Harber and McLaughlin",
-    "Retired": 20,
-    "Rank": 442,
-    "ActiveInterests": 78,
+    "Position": "est",
+    "PersonId": 67,
+    "Mrmrs": "nisi",
+    "Firstname": "Lexus",
+    "Lastname": "Stehr",
+    "MiddleName": "Kris Group",
+    "Title": "qui",
+    "Description": "Realigned foreground open system",
+    "Email": "dariana_gaylord@erdman.info",
+    "FullName": "Marina Dare",
+    "DirectPhone": "(607)626-2095",
+    "FormalName": "Corkery-McDermott",
+    "CountryId": 155,
+    "ContactId": 743,
+    "ContactName": "Herman LLC",
+    "Retired": 432,
+    "Rank": 746,
+    "ActiveInterests": 237,
     "ContactDepartment": "",
-    "ContactCountryId": 948,
-    "ContactOrgNr": "1483632",
-    "FaxPhone": "(579)622-4027",
-    "MobilePhone": "857-677-9295 x80017",
-    "ContactPhone": "1-178-412-5501 x4970",
-    "AssociateName": "Ferry-Crooks",
-    "AssociateId": 808,
+    "ContactCountryId": 641,
+    "ContactOrgNr": "1787169",
+    "FaxPhone": "401-840-6914 x20830",
+    "MobilePhone": "752-515-8385",
+    "ContactPhone": "773-080-4480",
+    "AssociateName": "Pfannerstill Inc and Sons",
+    "AssociateId": 299,
     "UsePersonAddress": false,
-    "ContactFax": "aut",
+    "ContactFax": "enim",
     "Kanafname": "et",
-    "Kanalname": "laudantium",
-    "Post1": "quaerat",
+    "Kanalname": "unde",
+    "Post1": "fugit",
     "Post2": "aut",
-    "Post3": "explicabo",
-    "EmailName": "kaycee.champlin@gulgowskianderson.biz",
-    "ContactFullName": "Mr. Glennie Schneider Sr.",
-    "ActiveErpLinks": 451,
-    "TicketPriorityId": 742,
-    "SupportLanguageId": 175,
-    "SupportAssociateId": 14,
+    "Post3": "dolorem",
+    "EmailName": "coralie@rempel.info",
+    "ContactFullName": "Darian Lind",
+    "ActiveErpLinks": 459,
+    "TicketPriorityId": 662,
+    "SupportLanguageId": 859,
+    "SupportAssociateId": 345,
     "CategoryName": "VIP Customer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 236
+        "FieldLength": 729
       }
     }
   }

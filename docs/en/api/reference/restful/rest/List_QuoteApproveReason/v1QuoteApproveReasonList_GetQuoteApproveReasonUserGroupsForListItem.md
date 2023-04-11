@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Ernser Inc and Sons",
-    "ToolTip": "Earum nulla ad consequatur qui voluptatem.",
+    "Id": 505,
+    "Name": "Hand Inc and Sons",
+    "ToolTip": "Deleniti cumque id facere mollitia.",
     "Deleted": false,
-    "Rank": 234,
-    "Type": "eos",
-    "ColorBlock": 412,
-    "IconHint": "nostrum",
+    "Rank": 903,
+    "Type": "perferendis",
+    "ColorBlock": 237,
+    "IconHint": "doloremque",
     "Selected": true,
-    "LastChanged": "2016-03-18T12:15:28.3656176+01:00",
+    "LastChanged": "2021-12-09T15:29:31.480476+01:00",
     "ChildItems": [
       {
-        "Id": 954,
-        "Name": "Barrows-Zulauf",
-        "ToolTip": "Illum sed aliquid.",
-        "Deleted": true,
-        "Rank": 314,
-        "Type": "et",
-        "ColorBlock": 315,
-        "IconHint": "laudantium",
+        "Id": 299,
+        "Name": "Roob, Jast and Balistreri",
+        "ToolTip": "Quidem hic dolore.",
+        "Deleted": false,
+        "Rank": 481,
+        "Type": "quo",
+        "ColorBlock": 81,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2007-08-02T12:15:28.3656176+02:00",
+        "LastChanged": "2002-05-15T15:29:31.480476+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Hassan Gerlach",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Eldred Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 102
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "tempore",
-    "Hidden": false,
-    "FullName": "Jacinthe Smitham",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Marianne Merle Bashirian V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 157
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

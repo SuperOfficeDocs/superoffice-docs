@@ -83,8 +83,8 @@ SaleEntity found.
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,7 +92,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 890,
-  "ColumnId": 825,
-  "FieldDefault": "totam",
-  "FieldHeight": 135,
-  "FieldLabel": "eligendi",
-  "FieldLeft": 55,
-  "FieldTop": 882,
+  "UDefFieldId": 297,
+  "ColumnId": 854,
+  "FieldDefault": "similique",
+  "FieldHeight": 417,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 581,
+  "FieldTop": 18,
   "FieldType": "Checkbox",
-  "FieldWidth": 864,
-  "FormatMask": "est",
+  "FieldWidth": 377,
+  "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 758,
-  "LabelLeft": 167,
-  "LabelTop": 425,
-  "LabelWidth": 88,
-  "LastVersionId": 53,
-  "ListTableId": 435,
-  "IsMandatory": true,
+  "LabelHeight": 884,
+  "LabelLeft": 420,
+  "LabelTop": 678,
+  "LabelWidth": 121,
+  "LastVersionId": 147,
+  "ListTableId": 511,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 523,
-  "ProgId": "aut",
+  "Page1LineNo": 58,
+  "ProgId": "aliquid",
   "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 641,
-  "TextLength": 480,
-  "Tooltip": "possimus",
-  "UdefIdentity": 911,
-  "UDListDefinitionId": 836,
+  "ShortLabel": "omnis",
+  "TabOrder": 32,
+  "TextLength": 947,
+  "Tooltip": "laborum",
+  "UdefIdentity": 493,
+  "UDListDefinitionId": 969,
   "Justification": "Center",
-  "Version": 145,
-  "TemplateVariableName": "Bogisich, Roberts and McClure",
+  "Version": 263,
+  "TemplateVariableName": "Jaskolski, Morissette and Kemmer",
   "HasBeenPublished": false,
-  "MdoListName": "Huel, Sanford and Skiles",
+  "MdoListName": "Keebler Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 951
     }
   }
 }

@@ -52,8 +52,8 @@ OK
 | PersonId | int32 | Person ID |
 | ConsentPurpose | ConsentPurpose | The consent purpose |
 | Comment | string | Comment regarding this specific consent |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 810,
+  "ConsentPersonId": 520,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 453,
+  "PersonId": 884,
   "ConsentPurpose": null,
-  "Comment": "eius",
+  "Comment": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 768
+      "FieldType": "System.Int32",
+      "FieldLength": 971
     }
   }
 }

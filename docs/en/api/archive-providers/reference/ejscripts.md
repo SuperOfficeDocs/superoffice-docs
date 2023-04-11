@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "Ejscripts"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -47,11 +47,13 @@ Lists all CRM Scripts in the ejScript table.
 |extraMenuId|int|ExtraMenuId: Foreign key to the extra\_menu table| x |
 |hierarchyId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |hierarchyFullname|string|Hierarchy name: The full name/path from table hierarchy| x |
+|hierarchyName|string|Hierarchy name: The full name/path from table hierarchy| x |
+|hierarchyParentId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ejscripts?$select=updatedBy,registeredDate
+GET /api/v1/archive/Ejscripts?$select=updatedDate,path
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

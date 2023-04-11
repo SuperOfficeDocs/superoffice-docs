@@ -77,8 +77,8 @@ OK
 | PublishTo | date-time | Publication valid to (inclusive) |
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/Project/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,130 +94,130 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 15 May 2016 12:15:27 G5T
+Last-Modified: Sat, 25 Mar 2023 15:29:29 G3T
 
 {
-  "ProjectId": 810,
-  "Name": "Hand, Sporer and Waters",
-  "ProjectNumber": "625625",
+  "ProjectId": 617,
+  "Name": "Heaney-Nolan",
+  "ProjectNumber": "1096943",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 521,
-      "ContactId": 773,
-      "ProjectId": 698,
-      "ContactName": "Padberg, Greenfelder and Corkery",
+      "ProjectmemberId": 981,
+      "ContactId": 715,
+      "ProjectId": 119,
+      "ContactName": "Hauck, Kub and Little",
       "ContactDepartment": "",
-      "ProjectName": "Dach-Bechtelar",
-      "EmailId": 924,
-      "EmailAddress": "etha@tillman.com",
-      "CountryId": 343,
-      "Firstname": "Lela",
-      "MiddleName": "Bergstrom, Schneider and Brakus",
-      "Lastname": "Krajcik",
-      "PersonId": 582,
-      "Mrmrs": "sit",
-      "ProjectMemberTypeName": "Kessler-Nienow",
-      "Phone": "1-592-984-4933 x18554",
-      "PhoneId": 364,
-      "ProjectMemberTypeId": 523,
-      "EmailAddressName": "giovanny.nienow@moen.name",
-      "Comment": "autem",
-      "FullName": "Mr. Emmitt Dortha Reynolds MD",
+      "ProjectName": "Quigley Group",
+      "EmailId": 535,
+      "EmailAddress": "adolphus_cole@schneider.com",
+      "CountryId": 355,
+      "Firstname": "Mollie",
+      "MiddleName": "Armstrong LLC",
+      "Lastname": "Abernathy",
+      "PersonId": 101,
+      "Mrmrs": "hic",
+      "ProjectMemberTypeName": "Sauer-Pfeffer",
+      "Phone": "324.017.1999",
+      "PhoneId": 78,
+      "ProjectMemberTypeId": 840,
+      "EmailAddressName": "tomas@glover.com",
+      "Comment": "quas",
+      "FullName": "Norwood Stanton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 345
+          "FieldType": "System.Int32",
+          "FieldLength": 426
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ipsum",
-      "StrippedValue": "molestias",
-      "Description": "Switchable motivating benchmark",
+      "Value": "optio",
+      "StrippedValue": "sit",
+      "Description": "Phased background local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     },
     {
-      "Value": "ipsum",
-      "StrippedValue": "molestias",
-      "Description": "Switchable motivating benchmark",
+      "Value": "optio",
+      "StrippedValue": "sit",
+      "Description": "Phased background local area network",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     }
   ],
-  "CreatedDate": "2009-04-01T12:15:27.1306328+02:00",
-  "UpdatedDate": "2016-05-15T12:15:27.1306328+02:00",
-  "Description": "Synergistic regional task-force",
-  "Postit": "optio",
+  "CreatedDate": "1998-05-30T15:29:29.9366964+02:00",
+  "UpdatedDate": "2023-03-25T15:29:29.9366964+01:00",
+  "Description": "Cross-platform bifurcated superstructure",
+  "Postit": "at",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Operative motivating moratorium",
-  "ActiveStatusMonitorId": 821,
+  "HasImage": false,
+  "ImageDescription": "Front-line composite structure",
+  "ActiveStatusMonitorId": 128,
   "Links": [
     {
-      "EntityName": "Langworth-Hammes",
-      "Id": 484,
-      "Description": "Devolved reciprocal open system",
-      "ExtraInfo": "consequuntur",
-      "LinkId": 935,
+      "EntityName": "Grant, Eichmann and Hauck",
+      "Id": 92,
+      "Description": "Organic actuating support",
+      "ExtraInfo": "vitae",
+      "LinkId": 945,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldType": "System.String",
+          "FieldLength": 603
         }
       }
     }
   ],
-  "ActiveLinks": 405,
+  "ActiveLinks": 142,
   "Completed": true,
-  "NextMilestoneDate": "2016-04-10T12:15:27.1316358+02:00",
-  "NmdAppointmentId": 785,
-  "EndDate": "2017-08-05T12:15:27.1316358+02:00",
-  "ActiveErpLinks": 757,
+  "NextMilestoneDate": "2005-09-09T15:29:29.9391616+02:00",
+  "NmdAppointmentId": 866,
+  "EndDate": "2008-02-21T15:29:29.9391616+01:00",
+  "ActiveErpLinks": 34,
   "UserDefinedFields": {
-    "SuperOffice:1": "Zoie Gusikowski",
-    "SuperOffice:2": "Ms. Meaghan Cassin"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Eunice Reynolds"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "soluta"
+    "CustomFields1": "ut",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2021-02-02T12:15:27.1326358+01:00",
-  "PublishTo": "2003-08-20T12:15:27.1326358+02:00",
-  "PublishFrom": "2021-04-30T12:15:27.1326358+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-06-23T15:29:29.9396656+02:00",
+  "PublishTo": "2010-01-21T15:29:29.9396656+01:00",
+  "PublishFrom": "2000-08-25T15:29:29.9396656+02:00",
+  "IsPublished": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 314
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

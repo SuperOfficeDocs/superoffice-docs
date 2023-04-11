@@ -77,8 +77,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 76,
-  "TopicId": 759,
+  "ChatSessionId": 695,
+  "TopicId": 182,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sit",
-  "CustomerHost": "sequi",
-  "CustomerName": "Schultz-Kuhlman",
-  "CustomerEmail": "luisa.cole@sipes.info",
-  "CustomerPhone": "057.446.3358",
+  "CustomerAlias": "numquam",
+  "CustomerHost": "voluptatum",
+  "CustomerName": "Bartoletti, Mann and Ward",
+  "CustomerEmail": "mose@harvey.uk",
+  "CustomerPhone": "1-577-450-6291",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Ledner Group",
+  "CustomerCompanyName": "Witting Group",
   "Status": "Closed",
-  "FirstMessage": "quia",
-  "LastMessage": "assumenda",
-  "WhenRequested": "2018-01-26T12:15:26.3636465+01:00",
-  "WhenStarted": "2023-02-24T12:15:26.3636465+01:00",
-  "WhenEnded": "2005-06-19T12:15:26.3636465+02:00",
-  "WhenIdle": "2020-06-17T12:15:26.3636465+02:00",
-  "WhenFetched": "2006-09-07T12:15:26.3636465+02:00",
-  "SessionKey": "nihil",
-  "InitialQueuePos": 263,
-  "AlertLevel": 454,
-  "Rank": 282,
+  "FirstMessage": "ea",
+  "LastMessage": "ipsum",
+  "WhenRequested": "2019-02-16T15:29:29.2642058+01:00",
+  "WhenStarted": "2003-10-20T15:29:29.2642058+02:00",
+  "WhenEnded": "2008-10-12T15:29:29.2642058+02:00",
+  "WhenIdle": "2008-06-05T15:29:29.2642058+02:00",
+  "WhenFetched": "2017-06-09T15:29:29.2642058+02:00",
+  "SessionKey": "itaque",
+  "InitialQueuePos": 315,
+  "AlertLevel": 429,
+  "Rank": 971,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 499,
+  "ChatbotIsActive": false,
+  "Rating": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

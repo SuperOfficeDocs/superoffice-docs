@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Marquardt, Waelchi and Corwin",
-    "ToolTip": "Officia in quis magni quam.",
+    "Id": 522,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Voluptas fugit qui quidem necessitatibus modi et est.",
     "Deleted": false,
-    "Rank": 810,
-    "Type": "et",
-    "ColorBlock": 316,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2011-06-24T12:15:27.9966212+02:00",
+    "Rank": 547,
+    "Type": "aut",
+    "ColorBlock": 256,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "2005-09-26T15:29:31.1744861+02:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Reilly, Hilpert and Herman",
-        "ToolTip": "Alias veritatis et aut.",
+        "Id": 209,
+        "Name": "Hackett LLC",
+        "ToolTip": "Necessitatibus nostrum eos voluptas provident vel omnis.",
         "Deleted": true,
-        "Rank": 137,
-        "Type": "eum",
-        "ColorBlock": 727,
-        "IconHint": "architecto",
-        "Selected": false,
-        "LastChanged": "2002-03-26T12:15:27.9966212+01:00",
+        "Rank": 376,
+        "Type": "corporis",
+        "ColorBlock": 316,
+        "IconHint": "quis",
+        "Selected": true,
+        "LastChanged": "2001-12-23T15:29:31.1744861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "quam",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Dorris Cassin"
+        "FullName": "Jan Beth Ledner MD"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Destin Wyman"
+    "ExtraInfo": "et",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Araceli Lueilwitz"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Kihn-Ziemann",
-    "ToolTip": "Impedit culpa atque adipisci sunt.",
+    "Id": 259,
+    "Name": "Simonis, Botsford and Morar",
+    "ToolTip": "A tenetur harum quod.",
     "Deleted": false,
-    "Rank": 930,
-    "Type": "veritatis",
-    "ColorBlock": 975,
-    "IconHint": "asperiores",
+    "Rank": 161,
+    "Type": "minima",
+    "ColorBlock": 767,
+    "IconHint": "totam",
     "Selected": true,
-    "LastChanged": "2002-12-07T12:15:28.0016209+01:00",
+    "LastChanged": "2007-07-05T15:29:31.1759811+02:00",
     "ChildItems": [
       {
-        "Id": 724,
-        "Name": "Willms Group",
-        "ToolTip": "Illum at aut.",
-        "Deleted": true,
-        "Rank": 640,
-        "Type": "unde",
-        "ColorBlock": 248,
-        "IconHint": "iusto",
+        "Id": 21,
+        "Name": "Stroman-Nolan",
+        "ToolTip": "Vel voluptas est sit molestias doloribus doloribus est.",
+        "Deleted": false,
+        "Rank": 669,
+        "Type": "qui",
+        "ColorBlock": 347,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2010-05-13T12:15:28.0046228+02:00",
+        "LastChanged": "2004-11-21T15:29:31.1759811+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "dolorum",
-        "Hidden": true,
-        "FullName": "Raoul Anderson",
+        "ExtraInfo": "sequi",
+        "StyleHint": "inventore",
+        "Hidden": false,
+        "FullName": "Buster Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 422
+            "FieldLength": 837
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Virginia Kemmer",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "sunt",
+    "Hidden": true,
+    "FullName": "Jerrold Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 901
+        "FieldLength": 686
       }
     }
   }

@@ -97,8 +97,8 @@ OK
 | GroupQuoteLinesBy | int32 | Group quote lines by this field |
 | SortGroupLinesBy | int32 | Sort group lines by this field |
 | Stages | array | Stages, those associated with this SaleType are selected.  <para>Use MDO List name "salestage" to get list items.</para> |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -110,47 +110,47 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 833,
-  "Name": "Koelpin-Moen",
-  "Tooltip": "aut",
-  "Rank": 392,
+  "SaleTypeId": 488,
+  "Name": "Donnelly Group",
+  "Tooltip": "a",
+  "Rank": 119,
   "DurationUnit": "Century",
-  "SaleDuration": 703,
-  "SaleTypeCatId": 366,
-  "Deleted": true,
+  "SaleDuration": 135,
+  "SaleTypeCatId": 658,
+  "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 614,
-  "QuoteLinesTemplate": 732,
-  "ConfirmationLinesTemplate": 404,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 420,
+  "QuoteLinesTemplate": 532,
+  "ConfirmationLinesTemplate": 891,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 876,
-  "MinEarningPercent": 87,
-  "GroupQuoteLinesBy": 290,
-  "SortGroupLinesBy": 836,
+  "MaxDiscountPercent": 253,
+  "MinEarningPercent": 563,
+  "GroupQuoteLinesBy": 179,
+  "SortGroupLinesBy": 760,
   "Stages": [
     {
-      "Id": 341,
-      "Name": "Maggio Inc and Sons",
-      "ToolTip": "Natus corrupti qui iste.",
-      "Deleted": false,
-      "Rank": 396,
-      "Type": "incidunt",
-      "ColorBlock": 310,
-      "IconHint": "maxime",
-      "Selected": true,
-      "LastChanged": "2005-08-09T12:15:28.4676171+02:00",
+      "Id": 724,
+      "Name": "Ward, Pfeffer and Kutch",
+      "ToolTip": "Vel repellendus.",
+      "Deleted": true,
+      "Rank": 755,
+      "Type": "sit",
+      "ColorBlock": 682,
+      "IconHint": "rerum",
+      "Selected": false,
+      "LastChanged": "2013-02-01T15:29:31.5824741+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eius",
-      "StyleHint": "neque",
+      "ExtraInfo": "ullam",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Raymond Hettinger"
+      "FullName": "Ms. Christiana Makayla Hagenes"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 405,
-  "Name": "Maggio, Heathcote and Renner",
-  "Tooltip": "sint",
-  "Rank": 125,
+  "SaleTypeId": 429,
+  "Name": "Langworth, Howell and Keebler",
+  "Tooltip": "vitae",
+  "Rank": 313,
   "DurationUnit": "Century",
-  "SaleDuration": 594,
-  "SaleTypeCatId": 862,
+  "SaleDuration": 767,
+  "SaleTypeCatId": 399,
   "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 826,
-  "QuoteLinesTemplate": 905,
-  "ConfirmationLinesTemplate": 709,
+  "DefaultQuoteValidity": 294,
+  "QuoteLinesTemplate": 473,
+  "ConfirmationLinesTemplate": 599,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 934,
-  "MinEarningPercent": 216,
-  "GroupQuoteLinesBy": 589,
-  "SortGroupLinesBy": 739,
+  "MaxDiscountPercent": 15,
+  "MinEarningPercent": 401,
+  "GroupQuoteLinesBy": 224,
+  "SortGroupLinesBy": 556,
   "Stages": [
     {
-      "Id": 187,
-      "Name": "Walker, Lebsack and Schulist",
-      "ToolTip": "Possimus maxime.",
+      "Id": 969,
+      "Name": "Cronin, Rippin and Fay",
+      "ToolTip": "Placeat voluptate aliquam dolores dolorem voluptatem beatae.",
       "Deleted": false,
-      "Rank": 306,
-      "Type": "corporis",
-      "ColorBlock": 587,
-      "IconHint": "est",
+      "Rank": 84,
+      "Type": "a",
+      "ColorBlock": 796,
+      "IconHint": "accusantium",
       "Selected": false,
-      "LastChanged": "2007-08-05T12:15:28.4696196+02:00",
+      "LastChanged": "2014-06-24T15:29:31.583974+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vitae",
-      "StyleHint": "aut",
+      "ExtraInfo": "rerum",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Dr. Mortimer Juvenal Hagenes",
+      "FullName": "Mrs. Neha Schimmel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 130
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   }
 }

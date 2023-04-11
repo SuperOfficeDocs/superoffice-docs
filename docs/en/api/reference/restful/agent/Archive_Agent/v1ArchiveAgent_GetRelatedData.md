@@ -67,7 +67,7 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Field | string | The name of a 'related field'. This must be a valid column name in the DotSyntax/Dynamic system, implicitly starting with the given root table |
-| FieldValue | TableRight | The value for the Field, expressed as an archive column data cell |
+| FieldValue | ArchiveColumnData | The value for the Field, expressed as an archive column data cell |
 
 ## Sample request
 
@@ -79,11 +79,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "similique",
-  "RecordId": 461,
+  "Table": "veritatis",
+  "RecordId": 439,
   "Fields": [
-    "eveniet",
-    "velit"
+    "officia",
+    "at"
   ]
 }
 ```
@@ -96,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "odio",
+    "Field": "dolores",
     "FieldValue": null
   },
   {
-    "Field": "odio",
+    "Field": "dolores",
     "FieldValue": null
   }
 ]

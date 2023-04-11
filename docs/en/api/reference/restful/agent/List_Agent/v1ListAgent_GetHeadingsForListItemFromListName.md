@@ -79,8 +79,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,9 +92,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stark, Murazik and Heller",
-  "ListItemId": 521,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Predovic, Runte and Yost",
+  "ListItemId": 868,
+  "ShowDeleted": false
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Walter-Roberts",
-    "ToolTip": "Minus ea voluptates consectetur voluptatem iusto.",
+    "Id": 350,
+    "Name": "Klein LLC",
+    "ToolTip": "Tenetur ut vel at a voluptate.",
     "Deleted": false,
-    "Rank": 72,
-    "Type": "est",
-    "ColorBlock": 488,
-    "IconHint": "suscipit",
+    "Rank": 941,
+    "Type": "quia",
+    "ColorBlock": 530,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2000-12-15T12:15:19.2627469+01:00",
+    "LastChanged": "1997-05-30T15:29:22.0212725+02:00",
     "ChildItems": [
       {
-        "Id": 1000,
-        "Name": "Padberg, Kozey and Lakin",
-        "ToolTip": "Ipsum atque nihil velit dicta earum accusamus.",
+        "Id": 672,
+        "Name": "Shanahan-Jacobi",
+        "ToolTip": "Provident quia est culpa accusantium hic quasi.",
         "Deleted": false,
-        "Rank": 505,
-        "Type": "deleniti",
-        "ColorBlock": 898,
-        "IconHint": "et",
+        "Rank": 801,
+        "Type": "nihil",
+        "ColorBlock": 155,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2009-02-07T12:15:19.2627469+01:00",
+        "LastChanged": "2002-11-12T15:29:22.0212725+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "beatae",
-        "Hidden": false,
-        "FullName": "Danika Reynolds",
+        "ExtraInfo": "omnis",
+        "StyleHint": "ex",
+        "Hidden": true,
+        "FullName": "Amber Sim Ruecker II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 498
+            "FieldLength": 302
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Dr. Diego Alexzander Greenholt",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Libby Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 796
       }
     }
   }

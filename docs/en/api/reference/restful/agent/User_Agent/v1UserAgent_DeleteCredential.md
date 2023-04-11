@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/User/DeleteCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 388,
-  "CredentialType": "doloribus"
+  "UserId": 900,
+  "CredentialType": "voluptate"
 }
 ```
 

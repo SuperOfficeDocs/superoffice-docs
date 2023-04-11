@@ -74,8 +74,8 @@ OK
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "debitis"
+  "SearchString": "quaerat"
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "775-714-4591",
-    "PersonCellPhone": "(138)825-7583",
-    "PersonPrivatePhone": "076.419.0556 x585",
-    "PersonFaxNumber": "1023777",
-    "PersonPagerNumber": "1170035",
-    "PersonEmail": "lenny_klocko@stracke.uk",
-    "Id": 308,
-    "Name": "Schultz Inc and Sons",
-    "Tooltip": "repudiandae",
-    "UniqueId": "corrupti",
+    "PersonDirectPhone": "(778)612-8127",
+    "PersonCellPhone": "(273)461-0237",
+    "PersonPrivatePhone": "(755)892-0303 x76686",
+    "PersonFaxNumber": "777602",
+    "PersonPagerNumber": "501990",
+    "PersonEmail": "kacie.klocko@greenholt.co.uk",
+    "Id": 625,
+    "Name": "Senger LLC",
+    "Tooltip": "fugiat",
+    "UniqueId": "unde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 215
       }
     }
   }

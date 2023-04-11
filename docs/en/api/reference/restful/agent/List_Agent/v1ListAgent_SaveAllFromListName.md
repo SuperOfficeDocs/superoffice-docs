@@ -69,8 +69,8 @@ OK
 | Deleted | bool | True if the list item is marked as deleted |
 | UdListDefinitionId | int32 | The id of the list which this list item belongs to |
 | Rank | int32 | The rank of the list item |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,23 +82,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lindgren LLC",
+  "UdListDefinitionName": "Balistreri-Schmeler",
   "Items": [
     {
-      "Id": 147,
-      "Name": "Fritsch, Mohr and Dach",
-      "Tooltip": "itaque",
-      "Deleted": true,
-      "UdListDefinitionId": 951,
-      "Rank": 202
+      "Id": 854,
+      "Name": "Balistreri-Schaefer",
+      "Tooltip": "aliquid",
+      "Deleted": false,
+      "UdListDefinitionId": 367,
+      "Rank": 261
     },
     {
-      "Id": 147,
-      "Name": "Fritsch, Mohr and Dach",
-      "Tooltip": "itaque",
-      "Deleted": true,
-      "UdListDefinitionId": 951,
-      "Rank": 202
+      "Id": 854,
+      "Name": "Balistreri-Schaefer",
+      "Tooltip": "aliquid",
+      "Deleted": false,
+      "UdListDefinitionId": 367,
+      "Rank": 261
     }
   ]
 }
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 891,
-    "Name": "Sauer-Nader",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "UdListDefinitionId": 655,
-    "Rank": 615,
+    "Id": 815,
+    "Name": "Monahan-Roob",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "UdListDefinitionId": 159,
+    "Rank": 91,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 606
       }
     }
   }

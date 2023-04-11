@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Schulist Inc and Sons",
+  "TemplateName": "Wyman-Doyle",
   "AllowPersonal": false,
-  "UiCulture": "molestiae"
+  "UiCulture": "expedita"
 }
 ```
 

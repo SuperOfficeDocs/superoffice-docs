@@ -106,8 +106,8 @@ OK
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -115,11 +115,11 @@ OK
 POST /api/v1/Agents/Contact/GetContactWithPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 822
+  "ContactId": 750
 }
 ```
 
@@ -130,157 +130,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 524,
-  "Name": "Grady, Ratke and Vandervort",
+  "ContactId": 802,
+  "Name": "Welch, O'Connell and Gislason",
   "Department": "",
-  "OrgNr": "619203",
-  "Number1": "852187",
-  "Number2": "381397",
-  "UpdatedDate": "2012-03-14T12:15:18.5137624+01:00",
-  "CreatedDate": "2007-04-23T12:15:18.5137624+02:00",
+  "OrgNr": "1431196",
+  "Number1": "1497293",
+  "Number2": "1180957",
+  "UpdatedDate": "2014-11-07T15:29:21.132818+01:00",
+  "CreatedDate": "2022-06-16T15:29:21.132818+02:00",
   "Emails": [
     {
-      "Value": "quo",
-      "StrippedValue": "quibusdam",
-      "Description": "Automated explicit product",
+      "Value": "maiores",
+      "StrippedValue": "nobis",
+      "Description": "Multi-layered contextually-based concept",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldLength": 195
         }
       }
     },
     {
-      "Value": "quo",
-      "StrippedValue": "quibusdam",
-      "Description": "Automated explicit product",
+      "Value": "maiores",
+      "StrippedValue": "nobis",
+      "Description": "Multi-layered contextually-based concept",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldLength": 195
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 97,
-      "Name": "Fritsch, Beer and Halvorson",
-      "ToolTip": "Rerum similique cum natus ut.",
-      "Deleted": false,
-      "Rank": 499,
-      "Type": "quaerat",
-      "ColorBlock": 477,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2012-08-23T12:15:18.5137624+02:00",
+      "Id": 831,
+      "Name": "Kub, Crona and Aufderhar",
+      "ToolTip": "Dolor tempora praesentium maiores eos.",
+      "Deleted": true,
+      "Rank": 821,
+      "Type": "sapiente",
+      "ColorBlock": 252,
+      "IconHint": "corporis",
+      "Selected": false,
+      "LastChanged": "1999-01-26T15:29:21.1338182+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "quis",
+      "ExtraInfo": "ut",
+      "StyleHint": "laboriosam",
       "Hidden": false,
-      "FullName": "Mertie Welch",
+      "FullName": "Dr. Lane Annette Weimann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 287
+          "FieldType": "System.String",
+          "FieldLength": 313
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "qui",
-      "StrippedValue": "ut",
-      "Description": "Secured neutral encoding",
+      "Value": "nesciunt",
+      "StrippedValue": "quia",
+      "Description": "Focused 24 hour capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1001
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "ut",
-      "Description": "Secured neutral encoding",
+      "Value": "nesciunt",
+      "StrippedValue": "quia",
+      "Description": "Focused 24 hour capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1001
+          "FieldType": "System.Int32",
+          "FieldLength": 517
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "et",
-      "StrippedValue": "aut",
-      "Description": "Business-focused 4th generation access",
+      "Value": "enim",
+      "StrippedValue": "ullam",
+      "Description": "Public-key human-resource utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldType": "System.Int32",
+          "FieldLength": 788
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "aut",
-      "Description": "Business-focused 4th generation access",
+      "Value": "enim",
+      "StrippedValue": "ullam",
+      "Description": "Public-key human-resource utilisation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldType": "System.Int32",
+          "FieldLength": 788
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "repellat",
-      "StrippedValue": "rem",
-      "Description": "Multi-lateral system-worthy methodology",
+      "Value": "tempora",
+      "StrippedValue": "ea",
+      "Description": "Customizable non-volatile architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldType": "System.Int32",
+          "FieldLength": 634
         }
       }
     },
     {
-      "Value": "repellat",
-      "StrippedValue": "rem",
-      "Description": "Multi-lateral system-worthy methodology",
+      "Value": "tempora",
+      "StrippedValue": "ea",
+      "Description": "Customizable non-volatile architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldType": "System.Int32",
+          "FieldLength": 634
         }
       }
     }
   ],
-  "Description": "Reverse-engineered intermediate analyzer",
+  "Description": "Optional reciprocal firmware",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,100 +289,100 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "veniam",
-      "PersonId": 804,
-      "Mrmrs": "officiis",
-      "Firstname": "Emmy",
-      "Lastname": "Hackett",
-      "MiddleName": "Murphy LLC",
-      "Title": "totam",
-      "Description": "Re-contextualized non-volatile utilisation",
-      "Email": "dave@wunsch.com",
-      "FullName": "Gladys Haley",
-      "DirectPhone": "544.597.8098",
-      "FormalName": "Graham-Friesen",
-      "CountryId": 119,
-      "ContactId": 344,
-      "ContactName": "Zemlak LLC",
-      "Retired": 887,
-      "Rank": 809,
-      "ActiveInterests": 539,
+      "Position": "et",
+      "PersonId": 309,
+      "Mrmrs": "cupiditate",
+      "Firstname": "Dylan",
+      "Lastname": "O'Reilly",
+      "MiddleName": "Dooley-Schowalter",
+      "Title": "voluptatum",
+      "Description": "Configurable scalable collaboration",
+      "Email": "mathilde.reilly@starkframi.uk",
+      "FullName": "Pedro Hermiston",
+      "DirectPhone": "548-198-1991 x53395",
+      "FormalName": "Powlowski-Leannon",
+      "CountryId": 375,
+      "ContactId": 538,
+      "ContactName": "White LLC",
+      "Retired": 842,
+      "Rank": 526,
+      "ActiveInterests": 905,
       "ContactDepartment": "",
-      "ContactCountryId": 638,
-      "ContactOrgNr": "185370",
-      "FaxPhone": "1-053-674-3334",
-      "MobilePhone": "(474)715-4581 x310",
-      "ContactPhone": "1-847-156-7272 x952",
-      "AssociateName": "Langosh-Hamill",
-      "AssociateId": 4,
-      "UsePersonAddress": false,
-      "ContactFax": "ea",
-      "Kanafname": "explicabo",
-      "Kanalname": "hic",
-      "Post1": "est",
-      "Post2": "molestias",
-      "Post3": "modi",
-      "EmailName": "kaycee@mertzraynor.us",
-      "ContactFullName": "Prof. Ted Bud Howe DDS",
-      "ActiveErpLinks": 546,
-      "TicketPriorityId": 122,
-      "SupportLanguageId": 687,
-      "SupportAssociateId": 437,
+      "ContactCountryId": 125,
+      "ContactOrgNr": "899958",
+      "FaxPhone": "872.152.8649 x207",
+      "MobilePhone": "749-334-2837",
+      "ContactPhone": "357-843-7467",
+      "AssociateName": "Runolfsson, Kulas and Konopelski",
+      "AssociateId": 662,
+      "UsePersonAddress": true,
+      "ContactFax": "tenetur",
+      "Kanafname": "laborum",
+      "Kanalname": "possimus",
+      "Post1": "voluptatem",
+      "Post2": "numquam",
+      "Post3": "excepturi",
+      "EmailName": "coty.cartwright@tremblay.com",
+      "ContactFullName": "Ms. Scotty Dicki DVM",
+      "ActiveErpLinks": 136,
+      "TicketPriorityId": 755,
+      "SupportLanguageId": 54,
+      "SupportAssociateId": 484,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldLength": 249
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "nobis",
+  "Kananame": "rerum",
   "Xstop": false,
-  "ActiveInterests": 251,
-  "GroupId": 558,
-  "ActiveStatusMonitorId": 702,
+  "ActiveInterests": 442,
+  "GroupId": 436,
+  "ActiveStatusMonitorId": 781,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 147,
-  "DbiAgentId": 607,
-  "DbiLastSyncronized": "2004-04-06T12:15:18.5187592+02:00",
-  "DbiKey": "eos",
-  "DbiLastModified": "2000-03-10T12:15:18.5187592+01:00",
+  "Deleted": 11,
+  "DbiAgentId": 360,
+  "DbiLastSyncronized": "1996-12-25T15:29:21.1373179+01:00",
+  "DbiKey": "non",
+  "DbiLastModified": "2020-09-18T15:29:21.1373179+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 707,
-  "ActiveErpLinks": 84,
+  "Source": 440,
+  "ActiveErpLinks": 508,
   "BounceEmails": [
-    "madaline@mraz.biz",
-    "mercedes_spencer@kulasbins.co.uk"
+    "otho@harris.info",
+    "vivianne@fadelankunding.us"
   ],
   "Domains": [
-    "doloremque",
-    "dolores"
+    "ratione",
+    "aut"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Foster Raynor I",
-    "SuperOffice:2": "2103028790"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Jaiden Thiel"
   },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "assumenda"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "eaque",
-    "CustomFields2": "et"
+    "CustomFields1": "eius",
+    "CustomFields2": "expedita"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 571
+      "FieldType": "System.Int32",
+      "FieldLength": 629
     }
   }
 }

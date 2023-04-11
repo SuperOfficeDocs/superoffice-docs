@@ -25,7 +25,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=989
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=766
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -97,8 +97,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -116,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised reciprocal software",
-  "Postit": "totam",
+  "Description": "Open-architected cohesive infrastructure",
+  "Postit": "molestiae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 61,
-  "IncludePerson": 847,
-  "MemberCount": 428,
-  "Name": "Fahey-Wolff",
-  "PostitTextId": 311,
-  "CreatedDate": "2019-03-15T12:15:20.1347418+01:00",
-  "SelectionId": 877,
-  "SoundEx": "quibusdam",
-  "Source": 330,
-  "TextId": 327,
-  "UpdatedDate": "2004-12-29T12:15:20.1347418+01:00",
-  "UpdatedCount": 808,
-  "Visibility": 398,
+  "GroupIdx": 348,
+  "IncludePerson": 538,
+  "MemberCount": 443,
+  "Name": "Connelly, Ernser and Homenick",
+  "PostitTextId": 319,
+  "CreatedDate": "2016-07-18T15:29:22.774797+02:00",
+  "SelectionId": 190,
+  "SoundEx": "fuga",
+  "Source": 244,
+  "TextId": 519,
+  "UpdatedDate": "1998-02-21T15:29:22.774797+01:00",
+  "UpdatedCount": 378,
+  "Visibility": 374,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 963,
-  "TargetTableName": "Waelchi, Davis and Kiehn",
+  "CompanyUnique": false,
+  "TargetTableNumber": 463,
+  "TargetTableName": "Brown Group",
   "Completed": false,
-  "LeftSelectionId": 764,
-  "RightSelectionId": 204,
+  "LeftSelectionId": 411,
+  "RightSelectionId": 473,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jones-Hamill",
-  "ShadowProviderName": "Welch, Batz and Ullrich",
-  "ChartKey": "blanditiis",
-  "LastLoaded": "1999-03-02T12:15:20.1347418+01:00",
-  "LastLoadedBy": 286,
+  "MainProviderName": "Crist-Pfannerstill",
+  "ShadowProviderName": "Heidenreich LLC",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2018-02-17T15:29:22.774797+01:00",
+  "LastLoadedBy": 208,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-06-14T12:15:20.1357348+02:00",
-  "LastMembershipChangeBy": 291,
+  "LastMembershipChange": "2013-12-09T15:29:22.7753026+01:00",
+  "LastMembershipChangeBy": 515,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sit",
-  "MemberTabHeading": "impedit",
-  "MailingsProviderName": "Tillman, Hudson and Lind",
-  "DashboardTileDefinitionId": 141,
+  "MainHeading": "in",
+  "MemberTabHeading": "perspiciatis",
+  "MailingsProviderName": "Moen Group",
+  "DashboardTileDefinitionId": 235,
   "VisibleFor": [
     {
-      "VisibleId": 705,
+      "VisibleId": 672,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 550
+          "FieldLength": 192
         }
       }
     },
     {
-      "VisibleId": 705,
+      "VisibleId": 672,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 550
+          "FieldLength": 192
         }
       }
     }
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldLength": 426
     }
   }
 }

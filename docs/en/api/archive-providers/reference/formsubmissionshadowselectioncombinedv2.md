@@ -8,7 +8,7 @@ keywords:
   - "archive provider"
   - "FormSubmissionShadowSelectionCombinedV2"
 so.generated: true
-so.date: 01.23.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -458,7 +458,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=person/personUpdatedByFullName,person/correspondingAssociate/assocName,contact/SaintStatus1
+GET /api/v1/archive/FormSubmissionShadowSelectionCombinedV2?$select=formSubmissionId,person/restrictionAddress/line2,contact/contactAssociate/assocTooltip,contact/contactExtra/x_contact_default_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -78,7 +78,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,18 +90,18 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kris, Hammes and Gislason",
-    "DisplayName": "Ernser-Hand",
-    "Description": "Multi-lateral system-worthy alliance",
-    "ShortLabel": "beatae",
+    "FieldName": "Jaskolski Group",
+    "DisplayName": "Stracke-Herman",
+    "Description": "Triple-buffered secondary middleware",
+    "ShortLabel": "mollitia",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": true,
-    "Rank": 904,
-    "TemplateVariableName": "Wehner Inc and Sons"
+    "Rank": 423,
+    "TemplateVariableName": "Connelly-Hermann"
   }
 ]
 ```

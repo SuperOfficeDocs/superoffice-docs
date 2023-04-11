@@ -77,8 +77,8 @@ OK
 | OutputValues | object | Values sent back to the environment from the event handler |
 | StateValues | object | Values kept between event handlers |
 | Exception | string | String containing error message from handler system if it failed |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 952,
+  "CRMScriptId": 866,
   "EventData": null
 }
 ```
@@ -104,28 +104,28 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "sunt",
-    "InputValues2": "rerum"
+    "InputValues1": "at",
+    "InputValues2": "et"
   },
-  "BlockExecution": true,
-  "NavigateTo": "aut",
-  "Message": "totam",
-  "ShowDialog": "dolorem",
+  "BlockExecution": false,
+  "NavigateTo": "cum",
+  "Message": "iure",
+  "ShowDialog": "numquam",
   "OutputValues": {
-    "OutputValues1": "vero",
-    "OutputValues2": "ducimus"
+    "OutputValues1": "magnam",
+    "OutputValues2": "nemo"
   },
   "StateValues": {
-    "StateValues1": "et",
-    "StateValues2": "exercitationem"
+    "StateValues1": "dolores",
+    "StateValues2": "quia"
   },
-  "Exception": "iusto",
+  "Exception": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 741
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

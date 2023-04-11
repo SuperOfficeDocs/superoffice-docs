@@ -67,8 +67,8 @@ DashTile found.
 | Width | int32 | Width used by this tile in the dashboard |
 | Rank | int32 | Rank order |
 | DashTileDefinition | DashTileDefinition | The tile definition entity |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -87,23 +87,23 @@ HTTP/1.1 200 DashTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 118,
-  "DashboardId": 566,
-  "Height": 383,
-  "Width": 236,
-  "Rank": 251,
+  "DashboardTileId": 461,
+  "DashboardId": 697,
+  "Height": 72,
+  "Width": 482,
+  "Rank": 802,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 881
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

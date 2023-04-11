@@ -6,7 +6,7 @@ so.generated: true
 keywords:
   - "netserver"
   - "scripting"
-so.date: 03.01.2023
+so.date: 03.31.2023
 so.topic: reference
 so.envir:
   - "onsite"
@@ -100,6 +100,7 @@ Service methods defined on <see cref='T:SuperOffice.CRM.Services.IEMailAgent'>EM
 * [RefreshFolder](refreshfolder.md)
 * [RefreshFolderForAssociate](refreshfolderforassociate.md)
 * [RelayMessage](relaymessage.md)
+* [ResolveEMailRecipients](resolveemailrecipients.md)
 * [Save](save.md)
 * [SaveDraft](savedraft.md)
 * [SaveEMail](saveemail.md)

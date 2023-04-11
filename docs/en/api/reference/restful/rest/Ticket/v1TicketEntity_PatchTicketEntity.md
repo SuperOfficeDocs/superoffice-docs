@@ -150,8 +150,8 @@ TicketEntity  updated.
 | Project | Project | The project that this ticket connected to  <para>Use MDO List name "project" to get list items.</para> |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -160,18 +160,18 @@ TicketEntity  updated.
 PATCH /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorem",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -184,21 +184,21 @@ HTTP/1.1 200 TicketEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 604,
-  "Title": "consequuntur",
-  "CreatedAt": "2020-05-26T12:15:27.4976278+02:00",
-  "LastChanged": "2003-11-28T12:15:27.4976278+01:00",
-  "ReadByOwner": "2011-01-10T12:15:27.4976278+01:00",
-  "ReadByCustomer": "2018-11-30T12:15:27.4976278+01:00",
-  "FirstReadByOwner": "2001-03-09T12:15:27.4976278+01:00",
-  "FirstReadByUser": "2022-06-10T12:15:27.4976278+02:00",
-  "Activate": "2006-11-06T12:15:27.4976278+01:00",
-  "ClosedAt": "2007-02-28T12:15:27.4976278+01:00",
-  "RepliedAt": "2021-06-29T12:15:27.4976278+02:00",
-  "AlertTimeout": "2004-03-01T12:15:27.4976278+01:00",
-  "Deadline": "2021-09-18T12:15:27.4976278+02:00",
+  "TicketId": 592,
+  "Title": "molestiae",
+  "CreatedAt": "2017-01-02T15:29:30.7119859+01:00",
+  "LastChanged": "2021-01-15T15:29:30.7119859+01:00",
+  "ReadByOwner": "1998-08-24T15:29:30.7119859+02:00",
+  "ReadByCustomer": "1996-05-01T15:29:30.7119859+02:00",
+  "FirstReadByOwner": "2021-05-07T15:29:30.7119859+02:00",
+  "FirstReadByUser": "2012-01-03T15:29:30.7119859+01:00",
+  "Activate": "2011-12-09T15:29:30.7119859+01:00",
+  "ClosedAt": "2020-01-03T15:29:30.7119859+01:00",
+  "RepliedAt": "2014-11-06T15:29:30.7119859+01:00",
+  "AlertTimeout": "2009-04-06T15:29:30.7119859+02:00",
+  "Deadline": "2015-12-17T15:29:30.7119859+01:00",
   "CreatedBy": null,
-  "Author": "odio",
+  "Author": "id",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -209,157 +209,158 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "animi",
-      "PersonId": 705,
-      "Mrmrs": "quia",
-      "Firstname": "Harmony",
-      "Lastname": "Lynch",
-      "MiddleName": "Boyer-Harris",
-      "Title": "pariatur",
-      "Description": "Monitored attitude-oriented throughput",
-      "Email": "lilyan@framiconsidine.com",
-      "FullName": "Arne Howe",
-      "DirectPhone": "969.834.7119 x28421",
-      "FormalName": "Hettinger, Monahan and Friesen",
-      "CountryId": 448,
-      "ContactId": 1000,
-      "ContactName": "Bednar, Kautzer and Botsford",
-      "Retired": 164,
-      "Rank": 111,
-      "ActiveInterests": 437,
+      "Position": "et",
+      "PersonId": 956,
+      "Mrmrs": "id",
+      "Firstname": "Malcolm",
+      "Lastname": "Carter",
+      "MiddleName": "Herman Group",
+      "Title": "ut",
+      "Description": "Multi-layered value-added implementation",
+      "Email": "noemie@durgan.info",
+      "FullName": "Dr. Chanelle Hartmann",
+      "DirectPhone": "035-781-6344",
+      "FormalName": "Torp, Hermiston and Runte",
+      "CountryId": 295,
+      "ContactId": 942,
+      "ContactName": "Graham LLC",
+      "Retired": 687,
+      "Rank": 2,
+      "ActiveInterests": 930,
       "ContactDepartment": "",
-      "ContactCountryId": 256,
-      "ContactOrgNr": "744517",
-      "FaxPhone": "1-660-900-0717 x228",
-      "MobilePhone": "1-296-954-2680",
-      "ContactPhone": "462-360-3858",
-      "AssociateName": "Swaniawski-Rutherford",
-      "AssociateId": 277,
+      "ContactCountryId": 184,
+      "ContactOrgNr": "180585",
+      "FaxPhone": "704.927.9248",
+      "MobilePhone": "299-285-6174",
+      "ContactPhone": "(432)618-8090 x46611",
+      "AssociateName": "O'Keefe, Quigley and Beahan",
+      "AssociateId": 389,
       "UsePersonAddress": true,
-      "ContactFax": "mollitia",
-      "Kanafname": "magnam",
-      "Kanalname": "assumenda",
-      "Post1": "repudiandae",
-      "Post2": "ratione",
-      "Post3": "et",
-      "EmailName": "maxie.moen@cronaziemann.ca",
-      "ContactFullName": "Mrs. Godfrey Billy Cummerata V",
-      "ActiveErpLinks": 906,
-      "TicketPriorityId": 705,
-      "SupportLanguageId": 233,
-      "SupportAssociateId": 645,
+      "ContactFax": "alias",
+      "Kanafname": "quibusdam",
+      "Kanalname": "aut",
+      "Post1": "error",
+      "Post2": "et",
+      "Post3": "atque",
+      "EmailName": "adonis@funk.ca",
+      "ContactFullName": "Briana Hettinger",
+      "ActiveErpLinks": 40,
+      "TicketPriorityId": 298,
+      "SupportLanguageId": 275,
+      "SupportAssociateId": 473,
       "CategoryName": "VIP Customer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldLength": 327
         }
       }
     }
   ],
-  "AlertLevel": 86,
-  "ConnectId": 101,
+  "AlertLevel": 72,
+  "ConnectId": 890,
   "ReadStatus": "Green",
-  "TimeToReply": 454,
-  "RealTimeToReply": 587,
-  "TimeToClose": 52,
-  "RealTimeToClose": 951,
-  "TimeSpentInternally": 153,
-  "TimeSpentExternally": 385,
-  "TimeSpentQueue": 558,
-  "RealTimeSpentInternally": 900,
-  "RealTimeSpentExternally": 417,
-  "RealTimeSpentQueue": 592,
-  "HasAttachment": false,
-  "NumReplies": 341,
-  "NumMessages": 942,
-  "FromAddress": "ducimus",
+  "TimeToReply": 609,
+  "RealTimeToReply": 721,
+  "TimeToClose": 10,
+  "RealTimeToClose": 473,
+  "TimeSpentInternally": 355,
+  "TimeSpentExternally": 311,
+  "TimeSpentQueue": 618,
+  "RealTimeSpentInternally": 965,
+  "RealTimeSpentExternally": 194,
+  "RealTimeSpentQueue": 890,
+  "HasAttachment": true,
+  "NumReplies": 749,
+  "NumMessages": 869,
+  "FromAddress": "pariatur",
   "Messages": [
     {
-      "TicketMessageId": 988,
-      "CreatedAt": "2014-12-31T12:15:27.5026282+01:00",
+      "TicketMessageId": 909,
+      "CreatedAt": "2013-06-12T15:29:30.715989+02:00",
       "Slevel": "External",
-      "Important": true,
-      "Author": "quibusdam",
-      "PersonId": 531,
-      "PersonFullName": "Britney Buck Yost I",
-      "ContactId": 150,
-      "ContactName": "Barrows-Towne",
+      "Important": false,
+      "Author": "et",
+      "PersonId": 813,
+      "PersonFullName": "Miss River Bergnaum",
+      "ContactId": 505,
+      "ContactName": "Hintz-Luettgen",
       "ContactDepartment": "",
-      "NumAttachments": 925,
-      "EmailHeader": "frederique@mcculloughhomenick.info",
+      "NumAttachments": 14,
+      "EmailHeader": "jarret@bailey.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "ex",
-      "Sentiment": 819,
-      "SentimentConfidence": 823,
-      "CreatedBy": 852,
-      "ChangedAt": "2009-09-10T12:15:27.5036285+02:00",
+      "Language": "adipisci",
+      "Sentiment": 439,
+      "SentimentConfidence": 829,
+      "CreatedBy": 448,
+      "ChangedAt": "1998-10-23T15:29:30.7164861+02:00",
+      "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldLength": 215
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 242,
-      "Name": "Zboncak Group",
-      "ToolTip": "Quo perspiciatis repellat.",
+      "Id": 425,
+      "Name": "Mosciski LLC",
+      "ToolTip": "Doloremque laudantium eum magni harum dolorum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 482
         }
       }
     },
     {
-      "Id": 242,
-      "Name": "Zboncak Group",
-      "ToolTip": "Quo perspiciatis repellat.",
+      "Id": 425,
+      "Name": "Mosciski LLC",
+      "ToolTip": "Doloremque laudantium eum magni harum dolorum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 975
+          "FieldType": "System.Int32",
+          "FieldLength": 482
         }
       }
     }
   ],
-  "Language": "modi",
-  "Sentiment": 676,
-  "SentimentConfidence": 172,
-  "SuggestedCategoryId": 716,
+  "Language": "velit",
+  "Sentiment": 821,
+  "SentimentConfidence": 161,
+  "SuggestedCategoryId": 260,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 708,
-  "IconHint": "laborum",
+  "OrigHumanCategoryId": 151,
+  "IconHint": "impedit",
   "Sale": null,
   "Project": null,
   "ExtraFields": {
-    "ExtraFields1": "ad",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "dolor"
+    "CustomFields1": "sunt",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   },
   "_Links": {

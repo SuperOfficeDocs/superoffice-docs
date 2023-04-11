@@ -85,11 +85,12 @@ OK
 | Language | string | The language this message is in, based on some kind of analysis |
 | Sentiment | int32 | Sentiment index, 100 = completely happy; -100 = suicidally unhappy; 0 = no idea |
 | SentimentConfidence | int32 | Confidence of sentiment index, 0 = no idea, 100 = completely sure |
+| Badge | string | Badge to explicitly determine how a message was generated |
 | AttachmentsInfo | array | Message attachments information |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.TicketMessageEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,8 +102,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 699,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 334,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -113,76 +114,78 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 253,
+  "EjMessageId": 689,
   "Ticket": null,
-  "CreatedAt": "2021-03-05T12:15:20.4957289+01:00",
+  "CreatedAt": "2012-09-11T15:29:23.2672545+02:00",
   "CreatedBy": null,
-  "Author": "corrupti",
+  "Author": "culpa",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 36,
-  "Body": "fugit",
-  "HtmlBody": "quisquam",
-  "EmailHeader": "antonio.hane@leuschke.ca",
-  "DebugInfo": "quasi",
-  "MailSorter": "ad",
+  "MessageId": "omnis",
+  "TimeSpent": 288,
+  "Body": "omnis",
+  "HtmlBody": "rerum",
+  "EmailHeader": "alva@jacobson.ca",
+  "DebugInfo": "esse",
+  "MailSorter": "nam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nesciunt",
+  "SearchTitle": "et",
   "MessageHeaders": [
     {
-      "Id": 545,
-      "Name": "Hirthe, Feeney and McClure",
-      "Value": "eum",
+      "Id": 922,
+      "Name": "Halvorson-Walker",
+      "Value": "in",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldType": "System.Int32",
+          "FieldLength": 646
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "minus",
-  "Sentiment": 148,
-  "SentimentConfidence": 498,
+  "Important": true,
+  "Language": "quo",
+  "Sentiment": 105,
+  "SentimentConfidence": 575,
+  "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 90,
-      "Name": "Brown, Kertzmann and Hills",
-      "ContentType": "vel",
-      "AttSize": 688,
+      "AttachmentId": 538,
+      "Name": "Johnson, Legros and Stehr",
+      "ContentType": "sit",
+      "AttSize": 62,
       "InlineImage": false,
-      "ContentId": "aut",
+      "ContentId": "voluptas",
+      "AuthKey": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldType": "System.String",
+          "FieldLength": 784
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eius",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eaque"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "animi"
+    "CustomFields1": "omnis",
+    "CustomFields2": "nihil"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 403
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

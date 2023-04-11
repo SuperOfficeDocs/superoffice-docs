@@ -106,8 +106,8 @@ SystemEventEntity  updated.
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -116,18 +116,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nulla",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nulla",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -140,27 +140,27 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 682,
+  "SystemEventId": 208,
   "Scope": "Database",
-  "Eta": "2004-11-07T12:15:27.4106351+01:00",
-  "Eventkey": "temporibus",
-  "Eventmess": "corporis",
-  "ExtraInfo": 71,
-  "Owner": 787,
-  "UpdatedCount": 671,
-  "Registered": "2000-08-05T12:15:27.4106351+02:00",
+  "Eta": "2003-02-21T15:29:30.6339888+01:00",
+  "Eventkey": "aut",
+  "Eventmess": "laborum",
+  "ExtraInfo": 112,
+  "Owner": 223,
+  "UpdatedCount": 42,
+  "Registered": "1999-03-12T15:29:30.6339888+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldType": "System.Int32",
+      "FieldLength": 407
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

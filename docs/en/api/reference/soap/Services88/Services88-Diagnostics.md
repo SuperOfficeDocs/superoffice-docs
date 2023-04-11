@@ -128,6 +128,138 @@ title: Services88.DiagnosticsAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetEntityCountsForCurrentUser">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetEntityCountsForCurrentUserResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfEntityCounts" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfEntityCounts">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="EntityCounts" nillable="true" type="tns:EntityCounts" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfEntityCounts" nillable="true" type="tns:ArrayOfEntityCounts" />
+      <xs:complexType name="EntityCounts">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Records" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="EntityCounts" nillable="true" type="tns:EntityCounts" />
+      <xs:complexType name="Carrier">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
+          <xs:element minOccurs="0" name="FieldProperties" nillable="true" type="tns:FieldPropertyDictionary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="Carrier" nillable="true" type="tns:Carrier" />
+      <xs:complexType name="TableRight">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Mask" type="tns:ETableRight" />
+          <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="TableRight" nillable="true" type="tns:TableRight" />
+      <xs:simpleType name="ETableRight">
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Select" />
+              <xs:enumeration value="Update" />
+              <xs:enumeration value="Insert" />
+              <xs:enumeration value="Delete" />
+              <xs:enumeration value="Filtering" />
+              <xs:enumeration value="RestrictedUpdate" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Uninitialized" />
+              <xs:enumeration value="R">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+              <xs:enumeration value="F">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="ETableRight" nillable="true" type="tns:ETableRight" />
+      <xs:complexType name="FieldPropertyDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="FieldPropertyDictionaryKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="tns:FieldProperty" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FieldPropertyDictionary" nillable="true" type="tns:FieldPropertyDictionary" />
+      <xs:complexType name="FieldProperty">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="FieldRight" nillable="true" type="tns:FieldRight" />
+          <xs:element minOccurs="0" name="FieldType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FieldLength" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FieldProperty" nillable="true" type="tns:FieldProperty" />
+      <xs:complexType name="FieldRight">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Mask" type="tns:EFieldRight" />
+          <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="FieldRight" nillable="true" type="tns:FieldRight" />
+      <xs:simpleType name="EFieldRight">
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Read" />
+              <xs:enumeration value="Write" />
+              <xs:enumeration value="Unused1" />
+              <xs:enumeration value="Unused2" />
+              <xs:enumeration value="Unused3" />
+              <xs:enumeration value="Unused4" />
+              <xs:enumeration value="UIHintMandatory" />
+              <xs:enumeration value="UIHintReadOnly" />
+              <xs:enumeration value="UndefinedValue256" />
+              <xs:enumeration value="Nullable">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+                  </xs:appinfo>
+                </xs:annotation>
+              </xs:enumeration>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
       <xs:element name="LogViewState">
         <xs:complexType>
           <xs:sequence>
@@ -250,109 +382,6 @@ title: Services88.DiagnosticsAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="WebAppUsage" nillable="true" type="tns:WebAppUsage" />
-      <xs:complexType name="Carrier">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="TableRight" nillable="true" type="tns:TableRight" />
-          <xs:element minOccurs="0" name="FieldProperties" nillable="true" type="tns:FieldPropertyDictionary" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="Carrier" nillable="true" type="tns:Carrier" />
-      <xs:complexType name="TableRight">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Mask" type="tns:ETableRight" />
-          <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="TableRight" nillable="true" type="tns:TableRight" />
-      <xs:simpleType name="ETableRight">
-        <xs:list>
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:enumeration value="Select" />
-              <xs:enumeration value="Update" />
-              <xs:enumeration value="Insert" />
-              <xs:enumeration value="Delete" />
-              <xs:enumeration value="Filtering" />
-              <xs:enumeration value="RestrictedUpdate" />
-              <xs:enumeration value="Unused1" />
-              <xs:enumeration value="Uninitialized" />
-              <xs:enumeration value="R">
-                <xs:annotation>
-                  <xs:appinfo>
-                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
-                  </xs:appinfo>
-                </xs:annotation>
-              </xs:enumeration>
-              <xs:enumeration value="F">
-                <xs:annotation>
-                  <xs:appinfo>
-                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
-                  </xs:appinfo>
-                </xs:annotation>
-              </xs:enumeration>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:list>
-      </xs:simpleType>
-      <xs:element name="ETableRight" nillable="true" type="tns:ETableRight" />
-      <xs:complexType name="FieldPropertyDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="FieldPropertyDictionaryKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="tns:FieldProperty" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="FieldPropertyDictionary" nillable="true" type="tns:FieldPropertyDictionary" />
-      <xs:complexType name="FieldProperty">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="FieldRight" nillable="true" type="tns:FieldRight" />
-          <xs:element minOccurs="0" name="FieldType" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="FieldLength" type="xs:int" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="FieldProperty" nillable="true" type="tns:FieldProperty" />
-      <xs:complexType name="FieldRight">
-        <xs:sequence>
-          <xs:element minOccurs="0" name="Mask" type="tns:EFieldRight" />
-          <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="FieldRight" nillable="true" type="tns:FieldRight" />
-      <xs:simpleType name="EFieldRight">
-        <xs:list>
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:enumeration value="Read" />
-              <xs:enumeration value="Write" />
-              <xs:enumeration value="Unused1" />
-              <xs:enumeration value="Unused2" />
-              <xs:enumeration value="Unused3" />
-              <xs:enumeration value="Unused4" />
-              <xs:enumeration value="UIHintMandatory" />
-              <xs:enumeration value="UIHintReadOnly" />
-              <xs:enumeration value="UndefinedValue256" />
-              <xs:enumeration value="Nullable">
-                <xs:annotation>
-                  <xs:appinfo>
-                    <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
-                  </xs:appinfo>
-                </xs:annotation>
-              </xs:enumeration>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:list>
-      </xs:simpleType>
-      <xs:element name="EFieldRight" nillable="true" type="tns:EFieldRight" />
       <xs:element name="AddWebAppUsageResponse">
         <xs:complexType>
           <xs:sequence />
@@ -504,6 +533,23 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="parameters" element="tns:GetCacheStateResponse" />
   </wsdl:message>
   <wsdl:message name="GetCacheStateResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityCountsForCurrentUserRequest">
+    <wsdl:part name="parameters" element="tns:GetEntityCountsForCurrentUser" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityCountsForCurrentUserRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityCountsForCurrentUserResponse">
+    <wsdl:part name="parameters" element="tns:GetEntityCountsForCurrentUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEntityCountsForCurrentUserResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -713,6 +759,10 @@ title: Services88.DiagnosticsAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheState" name="GetCacheStateRequest" message="tns:GetCacheStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheStateResponse" name="GetCacheStateResponse" message="tns:GetCacheStateResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetEntityCountsForCurrentUser">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForCurrentUser" name="GetEntityCountsForCurrentUserRequest" message="tns:GetEntityCountsForCurrentUserRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForCurrentUserResponse" name="GetEntityCountsForCurrentUserResponse" message="tns:GetEntityCountsForCurrentUserResponse" />
+    </wsdl:operation>
     <wsdl:operation name="LogViewState">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/LogViewState" name="LogViewStateRequest" message="tns:LogViewStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/LogViewStateResponse" name="LogViewStateResponse" message="tns:LogViewStateResponse" />
@@ -821,6 +871,22 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:GetCacheStateResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetCacheStateResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetCacheStateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEntityCountsForCurrentUser">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForCurrentUser" style="document" />
+      <wsdl:input name="GetEntityCountsForCurrentUserRequest">
+        <soap:header message="tns:GetEntityCountsForCurrentUserRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetEntityCountsForCurrentUserRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetEntityCountsForCurrentUserRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetEntityCountsForCurrentUserResponse">
+        <soap:header message="tns:GetEntityCountsForCurrentUserResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetEntityCountsForCurrentUserResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetEntityCountsForCurrentUserResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetEntityCountsForCurrentUserResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

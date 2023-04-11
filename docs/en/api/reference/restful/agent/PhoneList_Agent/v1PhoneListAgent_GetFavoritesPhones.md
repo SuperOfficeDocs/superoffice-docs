@@ -64,8 +64,8 @@ OK
 | Name | string | The contact or person's name |
 | Tooltip | string |  |
 | UniqueId | string | Property setting a unique id indicating if this is a person or contact |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-204-654-0686 x1687",
-    "PersonCellPhone": "1-691-810-9019",
-    "PersonPrivatePhone": "1-118-217-0330",
-    "PersonFaxNumber": "322956",
-    "PersonPagerNumber": "407589",
-    "PersonEmail": "lindsey@abshire.biz",
-    "Id": 621,
-    "Name": "Wolf Inc and Sons",
-    "Tooltip": "sit",
-    "UniqueId": "eos",
+    "PersonDirectPhone": "231-801-0083 x2285",
+    "PersonCellPhone": "(875)771-2539 x904",
+    "PersonPrivatePhone": "316.546.8429",
+    "PersonFaxNumber": "1885508",
+    "PersonPagerNumber": "1624668",
+    "PersonEmail": "santino@crist.biz",
+    "Id": 685,
+    "Name": "Upton Group",
+    "Tooltip": "quis",
+    "UniqueId": "error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 435
       }
     }
   }

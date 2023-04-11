@@ -25,7 +25,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=788
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=122
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -52,7 +52,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -69,8 +69,8 @@ OK
 | CreatedBy | Associate | Carrier object for Associate. Services for the Associate Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IAssociateAgent">Associate Agent</see>. |
 | AppliesToIds | array |  |
 | AppliesToKey | string |  |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,28 +88,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 962,
-  "Name": "Grant, Considine and Schamberger",
-  "Description": "Open-source systematic core",
-  "DeltaJson": "distinctio",
+  "ConfigurableScreenDeltaId": 598,
+  "Name": "Friesen, King and Crooks",
+  "Description": "Networked non-volatile paradigm",
+  "DeltaJson": "pariatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptates",
-  "UpdatedDate": "2020-02-06T12:15:18.4217598+01:00",
-  "CreatedDate": "2018-05-02T12:15:18.4217598+02:00",
+  "RecipeId": "inventore",
+  "UpdatedDate": "2013-03-11T15:29:21.0357853+01:00",
+  "CreatedDate": "2002-11-12T15:29:21.0357853+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    467,
-    860
+    716,
+    158
   ],
-  "AppliesToKey": "rem",
+  "AppliesToKey": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 985
     }
   }
 }

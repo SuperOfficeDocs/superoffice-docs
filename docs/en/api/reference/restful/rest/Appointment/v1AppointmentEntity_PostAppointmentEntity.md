@@ -173,8 +173,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -183,7 +183,7 @@ OK
 POST /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -191,107 +191,107 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-10-08T12:15:26.2496469+02:00",
-  "AppointmentId": 259,
-  "Description": "Distributed foreground budgetary management",
-  "StartDate": "2009-10-19T12:15:26.2496469+02:00",
-  "EndDate": "2021-12-13T12:15:26.2496469+01:00",
+  "CreatedDate": "2001-01-19T15:29:29.1337075+01:00",
+  "AppointmentId": 411,
+  "Description": "Operative composite secured line",
+  "StartDate": "2020-10-10T15:29:29.1337075+02:00",
+  "EndDate": "1999-05-24T15:29:29.1337075+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 623,
+  "MotherId": 469,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1997-10-12T12:15:26.2526462+02:00",
+  "UpdatedDate": "2009-02-04T15:29:29.1372087+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 64,
+  "ActiveLinks": 205,
   "Links": [
     {
-      "EntityName": "Strosin-Rath",
-      "Id": 260,
-      "Description": "Centralized grid-enabled open architecture",
-      "ExtraInfo": "autem",
-      "LinkId": 543
+      "EntityName": "Stiedemann-Torp",
+      "Id": 767,
+      "Description": "Managed stable strategy",
+      "ExtraInfo": "rerum",
+      "LinkId": 783
     },
     {
-      "EntityName": "Strosin-Rath",
-      "Id": 260,
-      "Description": "Centralized grid-enabled open architecture",
-      "ExtraInfo": "autem",
-      "LinkId": 543
+      "EntityName": "Stiedemann-Torp",
+      "Id": 767,
+      "Description": "Managed stable strategy",
+      "ExtraInfo": "rerum",
+      "LinkId": 783
     }
   ],
-  "AlarmLeadTime": "quidem",
-  "HasAlarm": true,
-  "ColorIndex": 34,
+  "AlarmLeadTime": "quod",
+  "HasAlarm": false,
+  "ColorIndex": 395,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "ut",
-  "LeadTime": "quisquam",
-  "Location": "at",
-  "RejectCounter": 937,
+  "IsAlldayEvent": true,
+  "LagTime": "velit",
+  "LeadTime": "non",
+  "Location": "ut",
+  "RejectCounter": 415,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 460,
-      "PersonId": 91,
-      "ContactId": 26,
-      "EmailId": 333,
-      "SendEmail": false,
+      "AssociateId": 693,
+      "PersonId": 544,
+      "ContactId": 995,
+      "EmailId": 212,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 460,
-      "PersonId": 91,
-      "ContactId": 26,
-      "EmailId": 333,
-      "SendEmail": false,
+      "AssociateId": 693,
+      "PersonId": 544,
+      "ContactId": 995,
+      "EmailId": 212,
+      "SendEmail": true,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-04-14T12:15:26.2526462+02:00",
+  "ActiveDate": "2000-04-04T15:29:29.1372087+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 16,
+  "PreferredTZLocation": 491,
   "Sale": null,
-  "SuggestedAppointmentId": 424,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 333,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "pariatur",
+  "CentralserviceVideomeetId": "totam",
   "UserDefinedFields": {
-    "SuperOffice:1": "1773881004",
-    "SuperOffice:2": "Kari Ottis Bednar Jr."
+    "SuperOffice:1": "Annamarie Quitzon",
+    "SuperOffice:2": "Madeline Bobby Lind PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "tenetur"
   },
   "CustomFields": {
-    "CustomFields1": "quisquam",
-    "CustomFields2": "nihil"
+    "CustomFields1": "ullam",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2001-11-26T12:15:26.2546458+01:00",
-  "PublishTo": "2012-03-25T12:15:26.2546458+02:00",
-  "PublishFrom": "2004-01-15T12:15:26.2546458+01:00",
+  "PublishEventDate": "2013-08-30T15:29:29.1392075+02:00",
+  "PublishTo": "2009-05-18T15:29:29.1392075+02:00",
+  "PublishFrom": "2004-06-16T15:29:29.1392075+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 301,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "error"
+      "DisplayValue": "pariatur"
     },
     {
-      "VisibleId": 301,
+      "VisibleId": 482,
       "Visibility": "All",
-      "DisplayValue": "error"
+      "DisplayValue": "pariatur"
     }
   ]
 }
@@ -308,122 +308,122 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-08-07T12:15:26.2646454+02:00",
-  "AppointmentId": 621,
-  "Description": "Extended global info-mediaries",
-  "StartDate": "1999-09-30T12:15:26.2646454+02:00",
-  "EndDate": "2002-03-04T12:15:26.2646454+01:00",
+  "CreatedDate": "2020-07-24T15:29:29.1512099+02:00",
+  "AppointmentId": 73,
+  "Description": "Cross-platform responsive artificial intelligence",
+  "StartDate": "1999-11-15T15:29:29.1512099+01:00",
+  "EndDate": "2022-03-05T15:29:29.1512099+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 945,
+  "MotherId": 389,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2019-07-13T12:15:26.2686456+02:00",
+  "UpdatedDate": "1998-02-15T15:29:29.1547077+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 601,
+  "ActiveLinks": 963,
   "Links": [
     {
-      "EntityName": "Macejkovic-Collins",
-      "Id": 981,
-      "Description": "Multi-layered systematic throughput",
-      "ExtraInfo": "aut",
-      "LinkId": 397,
+      "EntityName": "Farrell, Herman and Kreiger",
+      "Id": 513,
+      "Description": "Organized 3rd generation system engine",
+      "ExtraInfo": "ipsam",
+      "LinkId": 479,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 625
+          "FieldType": "System.Int32",
+          "FieldLength": 148
         }
       }
     }
   ],
-  "AlarmLeadTime": "quisquam",
+  "AlarmLeadTime": "non",
   "HasAlarm": false,
-  "ColorIndex": 783,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "nobis",
-  "LeadTime": "porro",
-  "Location": "hic",
-  "RejectCounter": 176,
+  "ColorIndex": 611,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "illo",
+  "LeadTime": "provident",
+  "Location": "voluptatem",
+  "RejectCounter": 643,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 552,
-      "PersonId": 220,
-      "ContactId": 757,
-      "EmailId": 514,
-      "SendEmail": true,
+      "AssociateId": 63,
+      "PersonId": 845,
+      "ContactId": 910,
+      "EmailId": 281,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     },
     {
-      "AssociateId": 552,
-      "PersonId": 220,
-      "ContactId": 757,
-      "EmailId": 514,
-      "SendEmail": true,
+      "AssociateId": 63,
+      "PersonId": 845,
+      "ContactId": 910,
+      "EmailId": 281,
+      "SendEmail": false,
       "InvitationStatus": "Accepted"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1996-04-11T12:15:26.2686456+02:00",
+  "ActiveDate": "2000-08-18T15:29:29.1552071+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 966,
+  "PreferredTZLocation": 288,
   "Sale": null,
-  "SuggestedAppointmentId": 793,
+  "SuggestedAppointmentId": 972,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "molestiae",
+  "CentralserviceVideomeetId": "sapiente",
   "UserDefinedFields": {
-    "SuperOffice:1": "Pansy Tillman Jr.",
-    "SuperOffice:2": "Davon Gutkowski"
+    "SuperOffice:1": "Prof. Madelyn Schuster",
+    "SuperOffice:2": "Mr. Enos Waelchi Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "unde"
+    "CustomFields1": "autem",
+    "CustomFields2": "animi"
   },
-  "PublishEventDate": "2013-08-06T12:15:26.2706453+02:00",
-  "PublishTo": "1996-07-27T12:15:26.2706453+02:00",
-  "PublishFrom": "2016-11-05T12:15:26.2706453+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-08-21T15:29:29.1567072+02:00",
+  "PublishTo": "2017-03-09T15:29:29.1567072+01:00",
+  "PublishFrom": "2020-06-08T15:29:29.1567072+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 806,
+      "VisibleId": 910,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldType": "System.String",
+          "FieldLength": 567
         }
       }
     },
     {
-      "VisibleId": 806,
+      "VisibleId": 910,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "modi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 280
+          "FieldType": "System.String",
+          "FieldLength": 567
         }
       }
     }
@@ -433,12 +433,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 717
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -66,8 +66,8 @@ OK
 |----------------|------|--------------|
 | ClientId | string | This is the registered client_id for AccessGateway OIDC |
 | RedirectUri | string | This is the registered redirect_uri for AccessGateway OIDC. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "rerum"
+  "RedirectUri": "ipsam"
 }
 ```
 
@@ -90,14 +90,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "rem",
-  "RedirectUri": "quas",
+  "ClientId": "consectetur",
+  "RedirectUri": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 245
     }
   }
 }

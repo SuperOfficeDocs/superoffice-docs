@@ -69,8 +69,8 @@ OK
 | Contact | Contact | Carrier object for Contact. Services for the Contact Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IContactAgent">Contact Agent</see>. |
 | Area | Area | Carrier object for Area. Services for the Area Carrier is available from the <see cref="T:SuperOffice.CRM.Services.IReplicationAgent">Replication Agent</see>. |
 | LicenseOwners | array | The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -78,21 +78,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 253,
-  "Created": "2006-09-16T12:15:19.9877369+02:00",
+  "SatelliteId": 370,
+  "Created": "2000-07-17T15:29:22.6117635+02:00",
   "CreatedBy": null,
-  "Updated": "2003-01-17T12:15:19.9877369+01:00",
+  "Updated": "1997-03-03T15:29:22.6122634+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Connelly-Macejkovic",
-      "Description": "Quality-focused local algorithm",
+      "Name": "Von LLC",
+      "Description": "Seamless systematic archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -103,8 +103,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Connelly-Macejkovic",
-      "Description": "Quality-focused local algorithm",
+      "Name": "Von LLC",
+      "Description": "Seamless systematic archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -125,17 +125,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 587,
-  "Created": "2019-08-29T12:15:19.9917367+02:00",
+  "SatelliteId": 717,
+  "Created": "2014-05-11T15:29:22.6167634+02:00",
   "CreatedBy": null,
-  "Updated": "2020-03-26T12:15:19.9937367+01:00",
+  "Updated": "2000-08-02T15:29:22.6167634+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Wiza-Heidenreich",
-      "Description": "Robust mission-critical frame",
+      "Name": "Jakubowski, Steuber and Paucek",
+      "Description": "Balanced coherent projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -148,14 +148,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     },
     {
-      "Name": "Wiza-Heidenreich",
-      "Description": "Robust mission-critical frame",
+      "Name": "Jakubowski, Steuber and Paucek",
+      "Description": "Balanced coherent projection",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldType": "System.String",
+          "FieldLength": 581
         }
       }
     }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

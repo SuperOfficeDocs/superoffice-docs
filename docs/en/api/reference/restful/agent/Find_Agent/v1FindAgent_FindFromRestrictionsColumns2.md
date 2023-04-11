@@ -154,8 +154,8 @@ OK
 | ArchiveColumns | array | Array of ColumnInfo column specifications |
 | ArchiveRows | array | Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows |
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -167,11 +167,11 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "maiores",
-  "ProviderName": "Lockman, Smitham and Schumm",
-  "DesiredColumns": "tempora",
-  "PageSize": 527,
-  "PageNumber": 377
+  "Restrictions": "eaque",
+  "ProviderName": "Morar, Watsica and Fisher",
+  "DesiredColumns": "sed",
+  "PageSize": 691,
+  "PageNumber": 97
 }
 ```
 
@@ -184,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Ortiz, Bernier and Nitzsche",
-      "DisplayTooltip": "provident",
-      "DisplayType": "laudantium",
+      "DisplayName": "Daniel, Bergnaum and Farrell",
+      "DisplayTooltip": "corrupti",
+      "DisplayType": "maiores",
       "CanOrderBy": true,
-      "Name": "Rosenbaum-Feest",
-      "CanRestrictBy": false,
-      "RestrictionType": "similique",
-      "RestrictionListName": "Nitzsche-Upton",
+      "Name": "Rutherford, Weber and Nitzsche",
+      "CanRestrictBy": true,
+      "RestrictionType": "distinctio",
+      "RestrictionListName": "Ryan, Koch and Dibbert",
       "IsVisible": false,
-      "ExtraInfo": "labore",
-      "Width": "in",
-      "IconHint": "et",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "dolorem",
+      "Width": "cupiditate",
+      "IconHint": "hic",
+      "HeadingIconHint": "cumque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hartmann, Vandervort and Wilkinson",
-      "PrimaryKey": 630,
+      "EntityName": "Muller-Waters",
+      "PrimaryKey": 946,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "et",
-          "LinkHint": "voluptatibus"
+          "DisplayValue": "sed",
+          "TooltipHint": "quia",
+          "LinkHint": "temporibus"
         }
       },
-      "LinkHint": "maiores",
-      "StyleHint": "nihil",
+      "LinkHint": "harum",
+      "StyleHint": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldType": "System.String",
+          "FieldLength": 826
         }
       }
     }
   ],
-  "RowCount": 454,
+  "RowCount": 742,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 5
     }
   }
 }

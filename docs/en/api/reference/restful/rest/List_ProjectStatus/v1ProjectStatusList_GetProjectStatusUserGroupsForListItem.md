@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Bradtke-Altenwerth",
-    "ToolTip": "Autem veniam nesciunt quibusdam pariatur est non.",
+    "Id": 926,
+    "Name": "Kunze-Hermann",
+    "ToolTip": "Delectus dolor pariatur tenetur veritatis.",
     "Deleted": true,
-    "Rank": 715,
-    "Type": "necessitatibus",
-    "ColorBlock": 524,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "1997-08-09T12:15:28.3316166+02:00",
+    "Rank": 758,
+    "Type": "consequatur",
+    "ColorBlock": 336,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "2009-03-05T15:29:31.4474758+01:00",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Bogan-Langosh",
-        "ToolTip": "Id neque veritatis rem.",
-        "Deleted": false,
-        "Rank": 815,
-        "Type": "sint",
-        "ColorBlock": 664,
-        "IconHint": "ut",
+        "Id": 561,
+        "Name": "Leannon-Lemke",
+        "ToolTip": "Consequuntur hic error eligendi accusamus dolor quod.",
+        "Deleted": true,
+        "Rank": 919,
+        "Type": "animi",
+        "ColorBlock": 646,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2006-05-20T12:15:28.3316166+02:00",
+        "LastChanged": "1998-10-19T15:29:31.4474758+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Miss Kavon Bosco I",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "nam",
+        "Hidden": true,
+        "FullName": "William Louvenia Lakin III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 756
+            "FieldLength": 910
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Eudora Kirlin",
+    "ExtraInfo": "officia",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Angelina Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldLength": 397
       }
     }
   }

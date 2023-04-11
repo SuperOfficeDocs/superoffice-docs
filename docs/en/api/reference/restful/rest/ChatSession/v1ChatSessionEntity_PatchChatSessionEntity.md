@@ -127,8 +127,8 @@ ChatSessionEntity  updated.
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
 
 ## Sample request
@@ -143,12 +143,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aut",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aut",
+    "path": "in",
     "value": {}
   }
 ]
@@ -161,48 +161,48 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 551,
-  "TopicId": 808,
+  "ChatSessionId": 217,
+  "TopicId": 189,
   "User": null,
   "Person": null,
-  "CustomerAlias": "doloremque",
-  "CustomerHost": "ratione",
-  "CustomerName": "McCullough Group",
-  "CustomerEmail": "carolyne_daniel@kovacekbeier.ca",
-  "CustomerPhone": "293.725.2612",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Kunze-Gerhold",
+  "CustomerAlias": "harum",
+  "CustomerHost": "et",
+  "CustomerName": "Lowe-Spinka",
+  "CustomerEmail": "kristy@shieldscollins.biz",
+  "CustomerPhone": "137-242-2997 x6342",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Powlowski, Green and Howe",
   "Status": "Closed",
-  "FirstMessage": "minus",
-  "LastMessage": "minima",
-  "WhenRequested": "2022-08-22T12:15:26.4246434+02:00",
-  "WhenStarted": "2000-06-30T12:15:26.4246434+02:00",
-  "WhenEnded": "2020-05-10T12:15:26.4246434+02:00",
-  "WhenIdle": "1997-12-16T12:15:26.4246434+01:00",
-  "WhenFetched": "1998-10-18T12:15:26.4246434+02:00",
-  "SessionKey": "quia",
-  "InitialQueuePos": 980,
-  "AlertLevel": 148,
-  "Rank": 960,
+  "FirstMessage": "reprehenderit",
+  "LastMessage": "odio",
+  "WhenRequested": "2019-06-27T15:29:29.3262054+02:00",
+  "WhenStarted": "2007-11-20T15:29:29.3262054+01:00",
+  "WhenEnded": "2005-12-28T15:29:29.3262054+01:00",
+  "WhenIdle": "2017-10-10T15:29:29.3262054+02:00",
+  "WhenFetched": "2020-12-30T15:29:29.3262054+01:00",
+  "SessionKey": "reiciendis",
+  "InitialQueuePos": 540,
+  "AlertLevel": 581,
+  "Rank": 959,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 920,
+  "ChatbotIsActive": true,
+  "Rating": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 17
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

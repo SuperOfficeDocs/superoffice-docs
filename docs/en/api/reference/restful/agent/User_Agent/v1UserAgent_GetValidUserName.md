@@ -76,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 11,
+  "AssociateId": 466,
   "Type": "AnonymousAssociate",
-  "PersonId": 397,
-  "UserName": "Hartmann-Bashirian"
+  "PersonId": 449,
+  "UserName": "Cummings LLC"
 }
 ```
 
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"D'Amore LLC"
+"Harvey Inc and Sons"
 ```

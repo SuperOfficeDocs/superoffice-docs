@@ -42,7 +42,7 @@ ShipmentMessageBlockEntity deleted.
 |----------------|-------------|
 | 204 | ShipmentMessageBlockEntity deleted. |
 
-### Response body: RecurrenceInfo
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -51,7 +51,7 @@ ShipmentMessageBlockEntity deleted.
 DELETE /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

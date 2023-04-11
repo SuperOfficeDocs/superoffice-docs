@@ -83,8 +83,8 @@ OK
 | ProgId | string | String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's |
 | Icon | int32 | The icon of the webpanel |
 | AlwaysReloadOnShow | bool | If set to true, the content will reload every time the panel is shown |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "atque"
+  "ProgId": "et"
 }
 ```
 
@@ -107,33 +107,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 231,
-  "Name": "Nitzsche LLC",
-  "Tooltip": "temporibus",
-  "Deleted": true,
-  "Rank": 268,
+  "WebPanelId": 155,
+  "Name": "Bayer LLC",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 665,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Brekke LLC",
+  "WindowName": "Kirlin LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "eos",
-  "Icon": 190,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "cum",
+  "Icon": 548,
+  "AlwaysReloadOnShow": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   }
 }

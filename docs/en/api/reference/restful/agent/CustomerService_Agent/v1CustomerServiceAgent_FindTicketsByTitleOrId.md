@@ -71,8 +71,8 @@ OK
 | TicketUrl | string | A URL leading directly to the created request. This is a URL ment to be used by a Service user |
 | PersonName | string | The name of the person/customer connected to the ticket |
 | ContactName | string | The name of the contact/company connected to the ticket |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "sint",
-  "MaxRows": 624
+  "TitleOrId": "aut",
+  "MaxRows": 486
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 606,
-    "Title": "quod",
-    "OwnerName": "Wintheiser Group",
+    "TicketId": 550,
+    "Title": "ipsa",
+    "OwnerName": "Marks, Hamill and Greenholt",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Durgan LLC",
+    "PriorityName": "Gaylord LLC",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Nikolaus, Mitchell and Goodwin",
-    "ContactName": "Lehner, Renner and Kemmer",
+    "PersonName": "Satterfield-Deckow",
+    "ContactName": "Effertz LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldLength": 204
       }
     }
   }

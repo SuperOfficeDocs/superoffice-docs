@@ -90,8 +90,8 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | NextDueDate | date-time | Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching. |
 | Number | string | Alphanumeric user field |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 362,
-  "Count": 526
+  "AmountLimit": 920,
+  "Count": 424
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Dooley LLC",
-    "SaleDate": "2007-01-10T12:15:20.0927352+01:00",
-    "SaleId": 303,
-    "Probability": 737,
-    "Title": "distinctio",
-    "Amount": 2071.574,
-    "Currency": "error",
-    "ProjectName": "Runte-Hudson",
-    "AssociateFullName": "Adah Maggio",
-    "Description": "Expanded executive circuit",
+    "ContactName": "Swaniawski-Schuppe",
+    "SaleDate": "2003-04-07T15:29:22.7287972+02:00",
+    "SaleId": 94,
+    "Probability": 451,
+    "Title": "dolorem",
+    "Amount": 26231.579999999998,
+    "Currency": "quidem",
+    "ProjectName": "McGlynn, Harber and Prohaska",
+    "AssociateFullName": "Estella Cordell Crooks III",
+    "Description": "Programmable cohesive hardware",
     "Status": "Lost",
-    "WeightedAmount": 29168.138,
-    "ProjectId": 148,
-    "EarningPercent": 24733.528,
-    "Earning": 24188.212,
-    "ContactId": 264,
-    "AssociateId": 864,
-    "PersonId": 473,
-    "SaleTypeId": 726,
-    "SaleTypeName": "Hills-Hackett",
-    "PersonFullName": "Mrs. Carrie Alexandra Powlowski",
+    "WeightedAmount": 30145.946,
+    "ProjectId": 63,
+    "EarningPercent": 28588.347999999998,
+    "Earning": 27917.672,
+    "ContactId": 58,
+    "AssociateId": 944,
+    "PersonId": 588,
+    "SaleTypeId": 323,
+    "SaleTypeName": "Smitham-Jenkins",
+    "PersonFullName": "Candida Hirthe",
     "Completed": "Completed",
-    "ActiveErpLinks": 420,
-    "NextDueDate": "2013-08-02T12:15:20.0927352+02:00",
-    "Number": "1024122",
+    "ActiveErpLinks": 312,
+    "NextDueDate": "2023-02-25T15:29:22.7292983+01:00",
+    "Number": "1199218",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 801
       }
     }
   }

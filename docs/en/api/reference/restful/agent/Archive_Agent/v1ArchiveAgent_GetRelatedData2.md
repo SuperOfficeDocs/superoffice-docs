@@ -67,7 +67,7 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | Field | string | The name of a 'related field'. This must be a valid column name in the DotSyntax/Dynamic system, implicitly starting with the given root table |
-| FieldValue | TableRight | The value for the Field, expressed as an archive column data cell |
+| FieldValue | ArchiveColumnData | The value for the Field, expressed as an archive column data cell |
 
 ## Sample request
 
@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "quos",
-  "RecordId": 820,
-  "Fields": "voluptatum"
+  "Table": "suscipit",
+  "RecordId": 458,
+  "Fields": "porro"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "distinctio",
+    "Field": "fugit",
     "FieldValue": null
   },
   {
-    "Field": "distinctio",
+    "Field": "fugit",
     "FieldValue": null
   }
 ]

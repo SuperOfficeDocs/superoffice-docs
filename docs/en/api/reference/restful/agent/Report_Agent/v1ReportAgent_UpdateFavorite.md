@@ -70,8 +70,8 @@ OK
 | AssociateId | int32 | The owner of the report. |
 | TemplateId | int32 | The id of report template. |
 | Published | bool | Is the report published? |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -94,20 +94,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 160,
+  "ReportId": 885,
   "ReportCategory": "All",
-  "Description": "Front-line 5th generation function",
+  "Description": "Multi-layered tangible firmware",
   "ReportLayout": "CalendarMonth",
-  "Name": "Greenfelder LLC",
-  "AssociateId": 184,
-  "TemplateId": 246,
-  "Published": true,
+  "Name": "Beatty Inc and Sons",
+  "AssociateId": 552,
+  "TemplateId": 929,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 431
     }
   }
 }

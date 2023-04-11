@@ -68,8 +68,8 @@ OK
 |----------------|------|--------------|
 | Success | bool | True if the test went ok. False if it failed. See the error message for details |
 | ErrorMessage | string | If an error occured, this member will contain a description of the error |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/CustomerService/TestSmtpServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SmtpUri": "laboriosam",
-  "From": "est",
+  "SmtpUri": "ratione",
+  "From": "optio",
   "UseStoredPassword": false
 }
 ```
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "ErrorMessage": "quae",
+  "Success": false,
+  "ErrorMessage": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

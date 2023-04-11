@@ -59,7 +59,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 475,
-  "Direction": 540,
-  "ErpConnectionId": 666,
+  "ErpFieldId": 828,
+  "Direction": 308,
+  "ErpConnectionId": 657,
   "ErpActorType": "Customer"
 }
 ```

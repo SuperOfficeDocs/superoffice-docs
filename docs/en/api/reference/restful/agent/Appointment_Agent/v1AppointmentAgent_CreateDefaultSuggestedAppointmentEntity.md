@@ -60,8 +60,8 @@ OK
 | ProjectTypeStatusLink | ProjectTypeStatusLink | Project type and project status link info |
 | SaleTypeStageLink | SaleTypeStageLink | Sale type and stage link info |
 | Type | Task | Type of the suggested appointment |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,17 +79,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 917,
-  "Name": "Boyer, Gerhold and Bayer",
-  "Tooltip": "mollitia",
-  "Rank": 506,
-  "Deleted": true,
-  "DaysFuture": 978,
-  "Duration": "cupiditate",
+  "SuggestedAppointmentId": 522,
+  "Name": "Stehr-Satterfield",
+  "Tooltip": "voluptatem",
+  "Rank": 636,
+  "Deleted": false,
+  "DaysFuture": 464,
+  "Duration": "similique",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "alias",
+  "Text": "nesciunt",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 778
+      "FieldType": "System.Int32",
+      "FieldLength": 85
     }
   }
 }

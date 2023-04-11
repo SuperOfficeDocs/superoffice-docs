@@ -89,8 +89,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -98,16 +98,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 991,
+  "PersonId": 993,
   "IncludeProjectDocuments": true,
-  "StartTime": "2004-07-05T12:15:18.73176+02:00",
-  "EndTime": "2013-11-27T12:15:18.73176+01:00",
-  "Count": 383,
-  "DocumentTemplateId": 912
+  "StartTime": "1996-04-28T15:29:21.4937789+02:00",
+  "EndTime": "2021-05-13T15:29:21.4937789+02:00",
+  "Count": 683,
+  "DocumentTemplateId": 116
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 207,
-    "Attention": "consectetur",
-    "Header": "facere",
-    "Name": "Powlowski, Zulauf and Marvin",
-    "OurRef": "natus",
-    "YourRef": "molestiae",
-    "Description": "Self-enabling 24/7 data-warehouse",
-    "DocumentTemplate": "veniam",
-    "IsPublished": true,
-    "PersonId": 257,
-    "PersonFullName": "Dr. Rosie Parisian",
-    "AssociateFullName": "Mr. Francesco Providenci Koepp",
-    "ContactId": 227,
-    "ContactName": "Doyle, Lemke and Nitzsche",
-    "ProjectId": 375,
-    "ProjectName": "Weber-Jerde",
-    "AssociateId": 13,
-    "Snum": 116,
-    "SaleId": 179,
-    "SaleName": "Crona LLC",
+    "DocumentId": 230,
+    "Attention": "eius",
+    "Header": "quia",
+    "Name": "Rau LLC",
+    "OurRef": "error",
+    "YourRef": "doloremque",
+    "Description": "Visionary multi-tasking frame",
+    "DocumentTemplate": "voluptatibus",
+    "IsPublished": false,
+    "PersonId": 408,
+    "PersonFullName": "Ms. Dulce Dach",
+    "AssociateFullName": "Yolanda Greenfelder",
+    "ContactId": 370,
+    "ContactName": "Bogisich Group",
+    "ProjectId": 107,
+    "ProjectName": "Ryan-Cartwright",
+    "AssociateId": 294,
+    "Snum": 676,
+    "SaleId": 947,
+    "SaleName": "Reilly, Mayert and Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldType": "System.Int32",
+        "FieldLength": 426
       }
     }
   }

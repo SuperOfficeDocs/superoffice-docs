@@ -25,8 +25,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=ullam
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=omnis
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Zulauf Inc and Sons",
-    "ToolTip": "Et suscipit voluptatem veniam.",
+    "Id": 87,
+    "Name": "Runolfsdottir Group",
+    "ToolTip": "Quo atque facere ducimus similique dolores.",
     "Deleted": false,
-    "Rank": 955,
-    "Type": "omnis",
+    "Rank": 376,
+    "Type": "iste",
     "ChildItems": [
       {
-        "Id": 152,
-        "Name": "Christiansen LLC",
-        "ToolTip": "In saepe asperiores sed voluptas similique provident.",
+        "Id": 230,
+        "Name": "Wisoky, Kerluke and Pfeffer",
+        "ToolTip": "Qui illo porro autem autem ullam quaerat.",
         "Deleted": true,
-        "Rank": 1002,
-        "Type": "tempora",
+        "Rank": 231,
+        "Type": "facilis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 88,
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "perspiciatis",
-        "FullName": "Litzy Heidenreich",
+        "IconHint": "quis",
+        "ColorBlock": 757,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "explicabo",
+        "FullName": "Miss Maurine Casimir Larkin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 977
+            "FieldLength": 803
           }
         }
       }
     ],
-    "IconHint": "vitae",
-    "ColorBlock": 632,
-    "ExtraInfo": "aut",
-    "StyleHint": "atque",
-    "FullName": "Mrs. Alicia Little",
+    "IconHint": "explicabo",
+    "ColorBlock": 360,
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "fugiat",
+    "FullName": "Theodore Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 30
       }
     }
   }

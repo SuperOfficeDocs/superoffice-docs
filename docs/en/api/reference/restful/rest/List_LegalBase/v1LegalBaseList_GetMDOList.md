@@ -26,7 +26,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=harum
+GET /api/v1/List/LegalBase/MDOItems?query=odit
 ```
 
 
@@ -68,8 +68,8 @@ OK
 | ExtraInfo | string | Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field. |
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,50 +88,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "Pacocha-Boyer",
-    "ToolTip": "Beatae provident quia corrupti.",
-    "Deleted": false,
-    "Rank": 256,
-    "Type": "minus",
+    "Id": 351,
+    "Name": "Hauck-Jerde",
+    "ToolTip": "Nobis dolor nihil voluptas iure.",
+    "Deleted": true,
+    "Rank": 241,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 500,
-        "Name": "Satterfield, Friesen and Conn",
-        "ToolTip": "Iure nemo asperiores perferendis dolores exercitationem dolores fugit.",
+        "Id": 803,
+        "Name": "Bayer, Murray and Stracke",
+        "ToolTip": "Doloribus nostrum sed.",
         "Deleted": false,
-        "Rank": 679,
-        "Type": "beatae",
+        "Rank": 808,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 515,
-        "ExtraInfo": "sequi",
-        "StyleHint": "laudantium",
-        "FullName": "Robb Schmeler",
+        "IconHint": "assumenda",
+        "ColorBlock": 933,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "adipisci",
+        "FullName": "Patrick McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldLength": 646
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 355,
-    "ExtraInfo": "ut",
-    "StyleHint": "aut",
-    "FullName": "Hermina Schneider",
+    "IconHint": "enim",
+    "ColorBlock": 456,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "illum",
+    "FullName": "Jaylen Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldType": "System.String",
+        "FieldLength": 1000
       }
     }
   }

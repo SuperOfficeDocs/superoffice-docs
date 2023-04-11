@@ -75,8 +75,8 @@ OK
 | Flags | string | Flag status of this mail (unread, replied, deleted ) |
 | Size | int32 | Total size of the e-mail |
 | EMailSOInfo | EMailSOInfo | Glue between SuperOffice data and an e-mail. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    995,
-    229
+    482,
+    212
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 277,
-    "MessageId": "omnis",
-    "Subject": "aut",
+    "ServerId": 924,
+    "MessageId": "nesciunt",
+    "Subject": "ut",
     "From": null,
     "To": [
       {
-        "ContactId": 571,
-        "ContactName": "Abbott-Stiedemann",
-        "PersonId": 707,
-        "PersonName": "Hodkiewicz, Satterfield and Murazik",
-        "AssociateId": 581,
-        "Address": "totam",
-        "EmailId": 869,
+        "ContactId": 228,
+        "ContactName": "Muller-Rohan",
+        "PersonId": 539,
+        "PersonName": "Jast, Wisoky and Reichert",
+        "AssociateId": 632,
+        "Address": "voluptates",
+        "EmailId": 127,
         "DuplicatePersonIds": [
-          228,
-          741
+          581,
+          19
         ],
-        "Name": "Ebert-West",
+        "Name": "Schmidt-Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldType": "System.String",
+            "FieldLength": 299
           }
         }
       }
     ],
-    "Sent": "2022-05-24T12:15:19.0387507+02:00",
+    "Sent": "2010-11-06T15:29:21.8017755+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 939,
+    "Size": 656,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 949
+        "FieldLength": 13
       }
     }
   }

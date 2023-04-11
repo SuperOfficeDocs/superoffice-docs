@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -70,35 +70,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 901,
+  "TicketCategoryId": 100,
   "MembershipsToAdd": [
     {
       "User": null,
-      "Weight": 444
+      "Weight": 371
     },
     {
       "User": null,
-      "Weight": 444
+      "Weight": 371
     }
   ],
   "MembershipsToUpdate": [
     {
       "User": null,
-      "Weight": 430
+      "Weight": 790
     },
     {
       "User": null,
-      "Weight": 430
+      "Weight": 790
     }
   ],
   "MembershipsToDelete": [
     {
       "User": null,
-      "Weight": 801
+      "Weight": 335
     },
     {
       "User": null,
-      "Weight": 801
+      "Weight": 335
     }
   ]
 }

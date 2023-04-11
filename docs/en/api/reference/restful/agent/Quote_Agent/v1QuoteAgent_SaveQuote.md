@@ -76,8 +76,8 @@ OK
 | PreferredEmailCulture | string | When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language |
 | ActiveQuoteVersion | QuoteVersion | The active quote version for the quote |
 | FavoriteQuoteAlternative | QuoteAlternative | The favorite quote alternative for the quote and active quote version. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 117,
-  "SaleId": 122,
-  "QuoteConnectionId": 120,
-  "ERPQuoteKey": "non",
-  "ERPOrderKey": "enim",
-  "ActiveQuoteVersionId": 631,
-  "AcceptedQuoteAlternativeId": 45,
-  "UseValuesFromQuote": 763,
-  "DocumentId": 450,
-  "PoNumber": "1026788",
-  "OrderComment": "quaerat",
-  "PreferredEmailCulture": "wilfred.klocko@berniershanahan.biz",
+  "QuoteId": 668,
+  "SaleId": 863,
+  "QuoteConnectionId": 385,
+  "ERPQuoteKey": "ratione",
+  "ERPOrderKey": "illo",
+  "ActiveQuoteVersionId": 695,
+  "AcceptedQuoteAlternativeId": 276,
+  "UseValuesFromQuote": 147,
+  "DocumentId": 521,
+  "PoNumber": "553067",
+  "OrderComment": "iure",
+  "PreferredEmailCulture": "francisco@ruecker.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 574
     }
   }
 }

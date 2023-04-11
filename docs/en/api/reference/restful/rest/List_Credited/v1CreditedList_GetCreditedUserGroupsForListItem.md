@@ -65,8 +65,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Bernier, Doyle and Murray",
-    "ToolTip": "Qui quod magni.",
+    "Id": 926,
+    "Name": "Wisozk LLC",
+    "ToolTip": "Molestiae dicta nostrum laudantium voluptatem.",
     "Deleted": false,
-    "Rank": 964,
-    "Type": "ex",
-    "ColorBlock": 128,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "2012-10-31T12:15:28.0566206+01:00",
+    "Rank": 790,
+    "Type": "expedita",
+    "ColorBlock": 771,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "2016-07-13T15:29:31.1894803+02:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Emard, Von and Balistreri",
-        "ToolTip": "Sint voluptatem.",
+        "Id": 309,
+        "Name": "Romaguera Group",
+        "ToolTip": "Dolorem repellendus.",
         "Deleted": false,
-        "Rank": 176,
-        "Type": "ducimus",
-        "ColorBlock": 381,
-        "IconHint": "quibusdam",
-        "Selected": true,
-        "LastChanged": "2017-04-30T12:15:28.0566206+02:00",
+        "Rank": 814,
+        "Type": "porro",
+        "ColorBlock": 261,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2019-05-05T15:29:31.1894803+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Miss Shanny Ella Kessler III",
+        "ExtraInfo": "iure",
+        "StyleHint": "maiores",
+        "Hidden": true,
+        "FullName": "Mr. Christa Mckenzie Lindgren MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 340
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Aaliyah Sipes",
+    "ExtraInfo": "numquam",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Lucinda Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 99
+        "FieldType": "System.Int32",
+        "FieldLength": 895
       }
     }
   }

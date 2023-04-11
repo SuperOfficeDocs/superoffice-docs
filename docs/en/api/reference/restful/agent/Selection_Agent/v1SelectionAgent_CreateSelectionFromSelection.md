@@ -106,8 +106,8 @@ OK
 | MailingsProviderName | string | The name of the provider for the Mailings tab, if relevant; this string will contain resource references |
 | DashboardTileDefinitionId | int32 | The associated tile definition |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -115,14 +115,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 857,
-  "Name": "Lehner Inc and Sons",
+  "SelectionId": 349,
+  "Name": "Price, Wiegand and Cartwright",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fully-configurable reciprocal leverage",
-  "Postit": "reiciendis",
+  "Description": "Reduced incremental extranet",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 617,
-  "IncludePerson": 605,
-  "MemberCount": 704,
-  "Name": "Towne, Aufderhar and Hudson",
-  "PostitTextId": 556,
-  "CreatedDate": "2018-06-11T12:15:20.1847336+02:00",
-  "SelectionId": 562,
-  "SoundEx": "rerum",
-  "Source": 782,
-  "TextId": 944,
-  "UpdatedDate": "1995-11-30T12:15:20.1847336+01:00",
-  "UpdatedCount": 674,
-  "Visibility": 455,
+  "GroupIdx": 41,
+  "IncludePerson": 552,
+  "MemberCount": 212,
+  "Name": "Hauck LLC",
+  "PostitTextId": 910,
+  "CreatedDate": "1998-04-20T15:29:22.9568001+02:00",
+  "SelectionId": 411,
+  "SoundEx": "accusamus",
+  "Source": 395,
+  "TextId": 621,
+  "UpdatedDate": "2005-11-22T15:29:22.9568001+01:00",
+  "UpdatedCount": 42,
+  "Visibility": 860,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 960,
-  "TargetTableName": "O'Reilly, Zieme and Stanton",
+  "TargetTableNumber": 993,
+  "TargetTableName": "Beatty, Block and Lind",
   "Completed": false,
-  "LeftSelectionId": 984,
-  "RightSelectionId": 714,
+  "LeftSelectionId": 708,
+  "RightSelectionId": 871,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McKenzie-Bashirian",
-  "ShadowProviderName": "Runolfsson LLC",
-  "ChartKey": "repellendus",
-  "LastLoaded": "2003-08-16T12:15:20.1847336+02:00",
-  "LastLoadedBy": 343,
+  "MainProviderName": "Macejkovic Inc and Sons",
+  "ShadowProviderName": "DuBuque-O'Connell",
+  "ChartKey": "totam",
+  "LastLoaded": "2021-12-09T15:29:22.9572945+01:00",
+  "LastLoadedBy": 224,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-06T12:15:20.1857336+02:00",
-  "LastMembershipChangeBy": 728,
+  "LastMembershipChange": "2012-09-21T15:29:22.9572945+02:00",
+  "LastMembershipChangeBy": 948,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tenetur",
-  "MemberTabHeading": "animi",
-  "MailingsProviderName": "Murphy, Carter and Kutch",
-  "DashboardTileDefinitionId": 131,
+  "MainHeading": "omnis",
+  "MemberTabHeading": "ea",
+  "MailingsProviderName": "Homenick-Bartell",
+  "DashboardTileDefinitionId": 501,
   "VisibleFor": [
     {
-      "VisibleId": 884,
+      "VisibleId": 594,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 307
         }
       }
     },
     {
-      "VisibleId": 884,
+      "VisibleId": 594,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "reprehenderit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 307
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldLength": 318
     }
   }
 }

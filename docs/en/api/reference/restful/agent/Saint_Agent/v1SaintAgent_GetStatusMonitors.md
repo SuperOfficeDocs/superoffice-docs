@@ -78,8 +78,8 @@ OK
 | NumMatches | int32 | Number of targets that have this status, this should be the number of rows in StatusValue pointing to this definition, and that have isSignalled set to 1 |
 | NumNeedUpdate | int32 | Number of targets that had this status, but have their needsUpdate bit set due to some change |
 | GenerationStart | date-time | When was the last regeneration started |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,8 +91,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Type": "quis"
+  "Id": 425,
+  "Type": "recusandae"
 }
 ```
 
@@ -104,27 +104,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 726,
-    "Rank": 155,
-    "DefaultTask": 640,
-    "DefaultTaskText": "suscipit",
+    "OwnerTable": 560,
+    "Rank": 542,
+    "DefaultTask": 852,
+    "DefaultTaskText": "voluptatibus",
     "IsVisual": false,
-    "LastGenerated": "2022-05-28T12:15:20.0137369+02:00",
-    "Description": "Innovative interactive complexity",
-    "Name": "Hackett-Predovic",
-    "StatusMonitorId": 858,
-    "PictureId": 185,
+    "LastGenerated": "2006-11-02T15:29:22.6372971+01:00",
+    "Description": "Pre-emptive system-worthy architecture",
+    "Name": "Swaniawski-Olson",
+    "StatusMonitorId": 722,
+    "PictureId": 855,
     "NeedsUpdate": false,
-    "Deleted": false,
-    "NumMatches": 98,
-    "NumNeedUpdate": 234,
-    "GenerationStart": "2011-12-15T12:15:20.0137369+01:00",
+    "Deleted": true,
+    "NumMatches": 214,
+    "NumNeedUpdate": 559,
+    "GenerationStart": "2011-04-11T15:29:22.6372971+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   }

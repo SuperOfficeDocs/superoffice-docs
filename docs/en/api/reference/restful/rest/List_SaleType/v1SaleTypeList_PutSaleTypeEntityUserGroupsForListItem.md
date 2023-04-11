@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Hettinger, Sporer and Hahn",
-    "ToolTip": "Molestiae consequatur sint consequatur repellendus.",
-    "Deleted": true,
-    "Rank": 354,
-    "Type": "corporis",
-    "ColorBlock": 203,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2001-01-09T12:15:28.4836194+01:00",
+    "Id": 251,
+    "Name": "Boyle, Okuneva and Harber",
+    "ToolTip": "Voluptatem quod distinctio illo repellendus.",
+    "Deleted": false,
+    "Rank": 40,
+    "Type": "iusto",
+    "ColorBlock": 607,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2022-04-12T15:29:31.5934743+02:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Jewess-Skiles",
-        "ToolTip": "Dicta nisi commodi.",
+        "Id": 836,
+        "Name": "Emard, Purdy and Becker",
+        "ToolTip": "Explicabo optio fuga similique.",
         "Deleted": false,
-        "Rank": 250,
-        "Type": "natus",
-        "ColorBlock": 187,
-        "IconHint": "error",
+        "Rank": 421,
+        "Type": "suscipit",
+        "ColorBlock": 381,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2011-09-09T12:15:28.4836194+02:00",
+        "LastChanged": "2022-06-26T15:29:31.5934743+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Mrs. Leone Kiel Bruen"
+        "ExtraInfo": "sed",
+        "StyleHint": "voluptatibus",
+        "Hidden": false,
+        "FullName": "Dr. Mackenzie Forrest Rempel"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "unde",
-    "Hidden": false,
-    "FullName": "Amya Will"
+    "ExtraInfo": "quis",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Damon Bernier"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Greenfelder, Brakus and Shields",
-    "ToolTip": "Doloribus quam adipisci.",
-    "Deleted": false,
-    "Rank": 602,
-    "Type": "consequatur",
-    "ColorBlock": 47,
-    "IconHint": "velit",
+    "Id": 781,
+    "Name": "Kling Group",
+    "ToolTip": "Distinctio facilis consequatur et ut distinctio.",
+    "Deleted": true,
+    "Rank": 990,
+    "Type": "omnis",
+    "ColorBlock": 621,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2009-11-17T12:15:28.4856134+01:00",
+    "LastChanged": "2006-06-12T15:29:31.5949737+02:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "Ryan, Adams and Schoen",
-        "ToolTip": "Accusamus omnis id et earum et nam.",
+        "Id": 196,
+        "Name": "Friesen, Hintz and Bradtke",
+        "ToolTip": "Enim soluta nobis quia.",
         "Deleted": false,
-        "Rank": 531,
-        "Type": "iusto",
-        "ColorBlock": 694,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "1997-10-28T12:15:28.4856134+01:00",
+        "Rank": 216,
+        "Type": "ipsam",
+        "ColorBlock": 339,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2014-05-03T15:29:31.5949737+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mckenzie West",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Sydnie Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 252
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Mr. Zane Herman MD",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "adipisci",
+    "Hidden": true,
+    "FullName": "Maye Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldLength": 590
       }
     }
   }

@@ -62,8 +62,8 @@ OK
 | PrefDescId | int32 | The id of the prefdesc this preference is connected to |
 | TableName | string | For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to. |
 | UserPreferenceId | int32 | The id of the user preference |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,22 +82,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "occaecati",
+  "RawValue": "magni",
   "Specification": null,
-  "DisplayValue": "aliquam",
-  "DisplayTooltip": "minima",
+  "DisplayValue": "dolor",
+  "DisplayTooltip": "exercitationem",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 194,
-  "PrefDescId": 739,
-  "TableName": "Homenick, Jacobi and Bins",
-  "UserPreferenceId": 833,
+  "TargetId": 928,
+  "PrefDescId": 840,
+  "TableName": "Maggio, Stracke and Monahan",
+  "UserPreferenceId": 392,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

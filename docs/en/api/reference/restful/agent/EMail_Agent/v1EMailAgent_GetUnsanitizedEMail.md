@@ -94,8 +94,8 @@ OK
 | HasCalendarData | bool | If this email contains exactly one iCal appointment |
 | CalMethod | string | Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc. |
 | CalReplyStatus | string | Reply status stored in calendar data for the ical method is REPLY |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
+  "Id": 703,
   "IncludeAttachments": false
 }
 ```
@@ -121,155 +121,155 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 164,
-      "ContactName": "Schamberger, Mante and Zboncak",
-      "PersonId": 690,
-      "PersonName": "Wisozk Inc and Sons",
-      "AssociateId": 349,
-      "Address": "hic",
-      "EmailId": 499,
+      "ContactId": 117,
+      "ContactName": "Legros LLC",
+      "PersonId": 15,
+      "PersonName": "Carter, Feest and Smith",
+      "AssociateId": 137,
+      "Address": "et",
+      "EmailId": 88,
       "DuplicatePersonIds": [
-        169,
-        238
+        405,
+        956
       ],
-      "Name": "Schinner, Homenick and Konopelski",
+      "Name": "Mitchell LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldLength": 150
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 631,
-      "ContactName": "Tremblay-Cremin",
-      "PersonId": 354,
-      "PersonName": "Predovic Group",
-      "AssociateId": 366,
-      "Address": "cupiditate",
-      "EmailId": 228,
+      "ContactId": 904,
+      "ContactName": "Schinner LLC",
+      "PersonId": 57,
+      "PersonName": "Schinner, Littel and Schamberger",
+      "AssociateId": 170,
+      "Address": "quisquam",
+      "EmailId": 805,
       "DuplicatePersonIds": [
-        804,
-        255
+        192,
+        421
       ],
-      "Name": "Bernhard-Nitzsche",
+      "Name": "Feeney-Cummings",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldType": "System.Int32",
+          "FieldLength": 514
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 62,
-      "ContactName": "Koch, Waelchi and Labadie",
-      "PersonId": 480,
-      "PersonName": "Lemke Group",
-      "AssociateId": 177,
-      "Address": "nostrum",
-      "EmailId": 831,
+      "ContactId": 689,
+      "ContactName": "Flatley Inc and Sons",
+      "PersonId": 926,
+      "PersonName": "Bailey-Smitham",
+      "AssociateId": 799,
+      "Address": "iusto",
+      "EmailId": 797,
       "DuplicatePersonIds": [
-        618,
-        607
+        695,
+        14
       ],
-      "Name": "Schuster-Swift",
+      "Name": "Mante, Schowalter and Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
+          "FieldType": "System.Int32",
           "FieldLength": 831
         }
       }
     }
   ],
-  "Subject": "laborum",
-  "HTMLBody": "officiis",
+  "Subject": "sed",
+  "HTMLBody": "vitae",
   "From": null,
-  "Sent": "2002-07-23T12:15:19.0607501+02:00",
-  "Size": 996,
+  "Sent": "2003-04-16T15:29:21.8252744+02:00",
+  "Size": 82,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "et",
-  "PlainBody": "facilis",
+  "MessageID": "unde",
+  "PlainBody": "odio",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 183,
+  "ServerId": 379,
   "Attachments": [
     {
-      "Description": "Business-focused demand-driven database",
-      "Filename": "ut",
-      "Size": 14,
-      "Type": "itaque",
-      "Encoding": "incidunt",
-      "Id": "ut",
-      "Disposition": "quasi",
+      "Description": "Multi-layered didactic extranet",
+      "Filename": "exercitationem",
+      "Size": 765,
+      "Type": "et",
+      "Encoding": "voluptas",
+      "Id": "laudantium",
+      "Disposition": "totam",
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldLength": 677
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stanton, Rohan and Littel",
+      "Name": "Ruecker LLC",
       "Values": [
-        "consequatur",
-        "aut"
+        "sint",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldLength": 921
         }
       }
     },
     {
-      "Name": "Stanton, Rohan and Littel",
+      "Name": "Ruecker LLC",
       "Values": [
-        "consequatur",
-        "aut"
+        "sint",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldLength": 921
         }
       }
     }
   ],
-  "FolderName": "Hauck-Grady",
-  "EmailItemId": 21,
-  "AccountId": 388,
-  "ReceivedAt": "1996-09-19T12:15:19.0607501+02:00",
+  "FolderName": "Predovic Group",
+  "EmailItemId": 40,
+  "AccountId": 732,
+  "ReceivedAt": "1997-11-05T15:29:21.8257754+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-04-01T12:15:19.0617499+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1996-07-27T15:29:21.8257754+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

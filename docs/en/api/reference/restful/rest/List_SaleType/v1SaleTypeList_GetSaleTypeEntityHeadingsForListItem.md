@@ -30,7 +30,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -75,8 +75,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Davis Inc and Sons",
-    "ToolTip": "Quia labore cupiditate.",
-    "Deleted": false,
-    "Rank": 847,
-    "Type": "cupiditate",
-    "ColorBlock": 799,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2002-06-30T12:15:28.4866132+02:00",
+    "Id": 61,
+    "Name": "Satterfield, Bernier and Crona",
+    "ToolTip": "Dolor dignissimos voluptate.",
+    "Deleted": true,
+    "Rank": 607,
+    "Type": "eligendi",
+    "ColorBlock": 773,
+    "IconHint": "ad",
+    "Selected": true,
+    "LastChanged": "2006-01-22T15:29:31.5969737+01:00",
     "ChildItems": [
       {
-        "Id": 703,
-        "Name": "Borer, Parker and Hahn",
-        "ToolTip": "Est ipsa unde et ipsam.",
+        "Id": 417,
+        "Name": "DuBuque-Windler",
+        "ToolTip": "Dolorum assumenda occaecati.",
         "Deleted": false,
-        "Rank": 243,
-        "Type": "natus",
-        "ColorBlock": 572,
-        "IconHint": "nesciunt",
+        "Rank": 18,
+        "Type": "quae",
+        "ColorBlock": 685,
+        "IconHint": "quo",
         "Selected": true,
-        "LastChanged": "1997-10-02T12:15:28.4866132+02:00",
+        "LastChanged": "2010-07-04T15:29:31.5969737+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "sit",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Mekhi Lynch",
+        "FullName": "Mr. Amira Reymundo Jacobson V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 694
+            "FieldLength": 536
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "et",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Johan O'Keefe",
+    "FullName": "Miss Elsa O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldLength": 718
       }
     }
   }

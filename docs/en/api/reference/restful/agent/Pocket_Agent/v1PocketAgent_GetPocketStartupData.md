@@ -64,16 +64,16 @@ OK
 | Property Name | Type |  Description |
 |----------------|------|--------------|
 | TableRights | array | List of tablerights for logged in user, in the same order as the Tables array parameter |
-| PhoneLocaleTimeZoneData | TableRight |  |
-| BaseLocaleTimeZoneData | TableRight |  |
+| PhoneLocaleTimeZoneData | TimeZoneData |  |
+| BaseLocaleTimeZoneData | TimeZoneData |  |
 | OverdueSalesCount | int32 | Number of overdued sales for current user |
 | NotificationsCount | int32 | Number of new invitations |
 | SystemWebPanels | array | Web panels defined in Admin client, set to be shown in Pocket client |
 | PocketPreferences | array | All Pocket specific preferences, including WebPanels defined by the user in Pocket |
 | IsPushNotificationEnabled | bool | Is push notification configured and enabled in Netserver |
 | CustomData | string | Custom data for Pocket, in JSON format |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "aut",
-    "pariatur"
+    "et",
+    "et"
   ],
-  "CurrentClientTime": "2016-08-29T12:15:19.75874+02:00"
+  "CurrentClientTime": "2019-03-14T15:29:22.3888004+01:00"
 }
 ```
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "necessitatibus",
-    "qui"
+    "in",
+    "dolore"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 808,
-  "NotificationsCount": 718,
+  "OverdueSalesCount": 591,
+  "NotificationsCount": 950,
   "SystemWebPanels": [
     {
-      "WebPanelId": 588,
-      "Name": "Hansen-VonRueden",
-      "Tooltip": "provident",
+      "WebPanelId": 693,
+      "Name": "Moore, Spinka and O'Conner",
+      "Tooltip": "quod",
       "Deleted": false,
-      "Rank": 602,
+      "Rank": 982,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
+      "OnCentral": false,
       "OnSatellite": false,
       "OnTravel": true,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": true,
-      "ShowInMenuBar": true,
+      "OnSalesMarketingPocket": false,
+      "ShowInMenuBar": false,
       "ShowInToolBar": false,
-      "ShowInAddressBar": false,
-      "ShowInStatusBar": true,
-      "WindowName": "Romaguera-Yost",
+      "ShowInAddressBar": true,
+      "ShowInStatusBar": false,
+      "WindowName": "Wolf-Gutmann",
       "Url": "http://www.example.com/",
-      "ProgId": "sit",
-      "Icon": 280,
+      "ProgId": "consequuntur",
+      "Icon": 890,
       "AlwaysReloadOnShow": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldType": "System.String",
+          "FieldLength": 904
         }
       }
     }
@@ -144,34 +144,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "quo",
+      "RawValue": "voluptate",
       "Specification": null,
-      "DisplayValue": "quia",
-      "DisplayTooltip": "aut",
+      "DisplayValue": "earum",
+      "DisplayTooltip": "rerum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 532,
-      "PrefDescId": 82,
-      "TableName": "Lemke-Baumbach",
-      "UserPreferenceId": 553,
+      "TargetId": 816,
+      "PrefDescId": 628,
+      "TableName": "Hodkiewicz, Upton and Smitham",
+      "UserPreferenceId": 612,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 750
+          "FieldType": "System.String",
+          "FieldLength": 51
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "est",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldLength": 861
     }
   }
 }

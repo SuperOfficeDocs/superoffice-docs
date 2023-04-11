@@ -61,13 +61,13 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: ArchiveRestrictionGroup
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
-| Name | string |  |
-| Description | string |  |
-| Rank | int32 |  |
+| Name | string | Name of the group |
+| Description | string | Description of the group |
+| Rank | int32 | Rank of group among groups |
 | Restrictions | array |  |
 
 ## Sample request
@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "doloremque",
-  "ProviderName": "Hermiston-Koepp",
-  "StorageKey": "dolores",
-  "Context": "laborum"
+  "StorageType": "modi",
+  "ProviderName": "Crooks-Shields",
+  "StorageKey": "placeat",
+  "Context": "sed"
 }
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tromp-Gerlach",
-  "Description": "Streamlined 6th generation neural-net",
-  "Rank": 291,
+  "Name": "Brekke-Johnston",
+  "Description": "Reverse-engineered reciprocal architecture",
+  "Rank": 98,
   "Restrictions": [
     {
-      "Name": "Weber LLC",
-      "Operator": "ut",
+      "Name": "Monahan, Connelly and Cormier",
+      "Operator": "qui",
       "Values": [
-        "mollitia",
-        "tempore"
+        "voluptatem",
+        "exercitationem"
       ],
       "DisplayValues": [
-        "quidem",
-        "rerum"
+        "accusantium",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 253,
+      "InterParenthesis": 271,
       "InterOperator": "And",
-      "UniqueHash": 173
+      "UniqueHash": 37
     }
   ]
 }

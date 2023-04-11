@@ -25,7 +25,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=420
+POST /api/v1/Agents/Associate/GetAssociate?associateId=20
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -68,8 +68,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,24 +87,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 813,
-  "Name": "Armstrong-Hilpert",
-  "PersonId": 840,
-  "Rank": 856,
-  "Tooltip": "ab",
+  "AssociateId": 875,
+  "Name": "Barton-Stroman",
+  "PersonId": 932,
+  "Rank": 63,
+  "Tooltip": "ut",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 671,
-  "FullName": "Ms. Simeon Pollich",
-  "FormalName": "Emmerich Inc and Sons",
+  "GroupIdx": 60,
+  "FullName": "Prof. Abigayle Hessel MD",
+  "FormalName": "Leffler, Hudson and Schuster",
   "Deleted": false,
-  "EjUserId": 513,
-  "UserName": "Feil Group",
+  "EjUserId": 225,
+  "UserName": "Waelchi, Tromp and Fritsch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 412
     }
   }
 }

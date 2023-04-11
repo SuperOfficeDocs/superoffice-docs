@@ -61,8 +61,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | Associate | Last updated by user |
 | DataRights | DataRights | Data rights matrix - defines role's access to data owned by current user, users in same group, and other users. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,16 +80,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 395,
-  "Name": "Mitchell, Hamill and Leuschke",
-  "Tooltip": "quo",
+  "RoleId": 612,
+  "Name": "Sawayn, Bradtke and Witting",
+  "Tooltip": "assumenda",
   "RoleType": "Anonymous",
-  "Deleted": 501,
-  "Rank": 68,
-  "Created": "2012-03-01T12:15:27.203632+01:00",
-  "UseCategories": 300,
+  "Deleted": 886,
+  "Rank": 780,
+  "Created": "2013-05-14T15:29:30.0131598+02:00",
+  "UseCategories": 807,
   "CreatedBy": null,
-  "Updated": "2011-11-26T12:15:27.203632+01:00",
+  "Updated": "2017-08-16T15:29:30.0136588+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 63
+      "FieldLength": 550
     }
   }
 }

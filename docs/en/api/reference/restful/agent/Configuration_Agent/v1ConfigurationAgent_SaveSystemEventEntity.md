@@ -71,8 +71,8 @@ OK
 | UpdatedCount | int32 | Number of updates made to this record |
 | Registered | date-time | Registered when  in UTC. |
 | ActivatedBy | Associate | The associate that first created the SystemEvent. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -80,19 +80,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 906,
+  "SystemEventId": 18,
   "Scope": "Database",
-  "Eta": "2002-06-04T12:15:18.4187643+02:00",
-  "Eventkey": "eligendi",
-  "Eventmess": "cum",
-  "ExtraInfo": 883,
-  "Owner": 467,
-  "UpdatedCount": 4,
-  "Registered": "2001-11-14T12:15:18.4187643+01:00",
+  "Eta": "1997-12-03T15:29:21.0322863+01:00",
+  "Eventkey": "quae",
+  "Eventmess": "similique",
+  "ExtraInfo": 62,
+  "Owner": 417,
+  "UpdatedCount": 737,
+  "Registered": "1999-08-12T15:29:21.0322863+02:00",
   "ActivatedBy": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 592,
+  "SystemEventId": 47,
   "Scope": "Database",
-  "Eta": "1996-02-29T12:15:18.4197621+01:00",
-  "Eventkey": "rem",
-  "Eventmess": "earum",
-  "ExtraInfo": 836,
-  "Owner": 551,
-  "UpdatedCount": 49,
-  "Registered": "1996-01-12T12:15:18.4197621+01:00",
+  "Eta": "1999-02-14T15:29:21.0332856+01:00",
+  "Eventkey": "qui",
+  "Eventmess": "necessitatibus",
+  "ExtraInfo": 180,
+  "Owner": 307,
+  "UpdatedCount": 855,
+  "Registered": "2016-04-02T15:29:21.0342867+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 886
+      "FieldType": "System.String",
+      "FieldLength": 992
     }
   }
 }

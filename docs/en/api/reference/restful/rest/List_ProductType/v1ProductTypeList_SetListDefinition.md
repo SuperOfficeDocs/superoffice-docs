@@ -74,8 +74,8 @@ OK
 | UseGroupsAndHeadings | bool | Indicates if this list should use groups and headings |
 | ListType | string | The type of this list, often indicated by the database name, but not necessarily |
 | InUseByUserDefinedFields | bool | True if this in use by one or more udfields |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,20 +83,20 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Cruickshank, Zieme and Hahn",
-  "Tooltip": "ipsam",
+  "Id": 284,
+  "Name": "Howell-Wunsch",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 713,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 711,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Doyle, Rau and Legros",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 545,
+  "Id": 777,
+  "Name": "Conn-Lindgren",
+  "Tooltip": "rem",
+  "Deleted": true,
+  "Rank": 483,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "beatae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldLength": 840
     }
   }
 }

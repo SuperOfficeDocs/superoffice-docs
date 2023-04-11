@@ -82,8 +82,8 @@ OK
 | TransferTo | Associate | User agent that has a pending transfer of the chat session |
 | ChatbotIsActive | bool | Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user. |
 | Rating | int32 | Rating of this chat conversation given by the customer |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 484,
-  "TopicId": 114,
+  "ChatSessionId": 599,
+  "TopicId": 444,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "et",
-  "CustomerName": "Cummings-Orn",
-  "CustomerEmail": "oscar@bayervandervort.co.uk",
-  "CustomerPhone": "221.263.6391 x47937",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Murazik-Doyle",
+  "CustomerAlias": "enim",
+  "CustomerHost": "aut",
+  "CustomerName": "Dickens Inc and Sons",
+  "CustomerEmail": "sabryna.mclaughlin@krajcikkuhlman.us",
+  "CustomerPhone": "401-526-1525 x53758",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "O'Hara Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "voluptas",
-  "LastMessage": "sunt",
-  "WhenRequested": "2003-05-15T12:15:26.448646+02:00",
-  "WhenStarted": "2022-09-09T12:15:26.448646+02:00",
-  "WhenEnded": "2015-05-10T12:15:26.448646+02:00",
-  "WhenIdle": "2007-12-29T12:15:26.448646+01:00",
-  "WhenFetched": "2014-09-28T12:15:26.448646+02:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 471,
-  "AlertLevel": 711,
-  "Rank": 232,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "aliquid",
+  "WhenRequested": "2001-12-15T15:29:29.3512048+01:00",
+  "WhenStarted": "2017-10-20T15:29:29.3512048+02:00",
+  "WhenEnded": "2002-09-29T15:29:29.3512048+02:00",
+  "WhenIdle": "2009-03-10T15:29:29.3512048+01:00",
+  "WhenFetched": "2023-03-26T15:29:29.3512048+02:00",
+  "SessionKey": "quo",
+  "InitialQueuePos": 64,
+  "AlertLevel": 566,
+  "Rank": 262,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 664,
+  "Rating": 1000,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   }
 }

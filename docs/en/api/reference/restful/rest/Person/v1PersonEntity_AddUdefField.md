@@ -88,8 +88,8 @@ OK
 | TemplateVariableName | string | Template variable name |
 | HasBeenPublished | bool | Has the udef field been published? |
 | MdoListName | string | MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only) |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,46 +107,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 136,
-  "ColumnId": 151,
-  "FieldDefault": "modi",
-  "FieldHeight": 344,
-  "FieldLabel": "excepturi",
-  "FieldLeft": 602,
-  "FieldTop": 259,
+  "UDefFieldId": 897,
+  "ColumnId": 596,
+  "FieldDefault": "sed",
+  "FieldHeight": 330,
+  "FieldLabel": "ad",
+  "FieldLeft": 775,
+  "FieldTop": 409,
   "FieldType": "Checkbox",
-  "FieldWidth": 902,
-  "FormatMask": "velit",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 269,
-  "LabelLeft": 586,
-  "LabelTop": 199,
-  "LabelWidth": 848,
-  "LastVersionId": 415,
-  "ListTableId": 930,
+  "FieldWidth": 106,
+  "FormatMask": "sit",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 389,
+  "LabelLeft": 73,
+  "LabelTop": 261,
+  "LabelWidth": 569,
+  "LastVersionId": 872,
+  "ListTableId": 796,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 467,
-  "ProgId": "sunt",
-  "IsReadOnly": false,
-  "ShortLabel": "sit",
-  "TabOrder": 87,
-  "TextLength": 197,
-  "Tooltip": "dolor",
-  "UdefIdentity": 234,
-  "UDListDefinitionId": 462,
+  "Page1LineNo": 676,
+  "ProgId": "voluptas",
+  "IsReadOnly": true,
+  "ShortLabel": "velit",
+  "TabOrder": 456,
+  "TextLength": 747,
+  "Tooltip": "omnis",
+  "UdefIdentity": 246,
+  "UDListDefinitionId": 922,
   "Justification": "Center",
-  "Version": 990,
-  "TemplateVariableName": "Bogisich, Ziemann and Hartmann",
-  "HasBeenPublished": false,
-  "MdoListName": "Schmitt, Wilderman and Will",
+  "Version": 305,
+  "TemplateVariableName": "Skiles, Schiller and Hintz",
+  "HasBeenPublished": true,
+  "MdoListName": "Smitham-Jaskolski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldLength": 625
     }
   }
 }

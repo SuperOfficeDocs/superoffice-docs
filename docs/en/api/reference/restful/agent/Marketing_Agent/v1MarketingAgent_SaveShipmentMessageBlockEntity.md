@@ -67,8 +67,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -76,18 +76,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 18,
-  "AssociateId": 825,
-  "Block": "animi",
-  "Registered": "2022-08-25T12:15:19.3677454+02:00",
-  "RegisteredAssociateId": 786,
-  "Updated": "2018-12-09T12:15:19.3677454+01:00",
-  "UpdatedAssociateId": 239,
-  "UpdatedCount": 944
+  "ShipmentMessageBlockId": 640,
+  "AssociateId": 458,
+  "Block": "maxime",
+  "Registered": "2005-10-17T15:29:22.1277708+02:00",
+  "RegisteredAssociateId": 712,
+  "Updated": "2012-09-02T15:29:22.1277708+02:00",
+  "UpdatedAssociateId": 161,
+  "UpdatedCount": 106
 }
 ```
 
@@ -98,20 +98,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 503,
-  "AssociateId": 621,
-  "Block": "ut",
-  "Registered": "1997-09-05T12:15:19.3677454+02:00",
-  "RegisteredAssociateId": 593,
-  "Updated": "2001-01-31T12:15:19.3677454+01:00",
-  "UpdatedAssociateId": 241,
-  "UpdatedCount": 566,
+  "ShipmentMessageBlockId": 480,
+  "AssociateId": 126,
+  "Block": "enim",
+  "Registered": "2013-12-01T15:29:22.1277708+01:00",
+  "RegisteredAssociateId": 407,
+  "Updated": "2020-03-03T15:29:22.1277708+01:00",
+  "UpdatedAssociateId": 624,
+  "UpdatedCount": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldLength": 677
     }
   }
 }

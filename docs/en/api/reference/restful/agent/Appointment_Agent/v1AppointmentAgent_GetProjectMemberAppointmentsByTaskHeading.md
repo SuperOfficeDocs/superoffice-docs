@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 191,
-  "StartTime": "2007-03-25T12:15:17.6437714+02:00",
-  "EndTime": "2021-08-07T12:15:17.6437714+02:00",
-  "Count": 629,
-  "TaskHeadingId": 603
+  "PersonId": 95,
+  "StartTime": "2008-10-16T15:29:20.2573323+02:00",
+  "EndTime": "2000-01-24T15:29:20.2573323+01:00",
+  "Count": 660,
+  "TaskHeadingId": 11
 }
 ```
 
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 350,
-    "StartDate": "2000-10-22T12:15:17.6457704+02:00",
-    "EndDate": "2021-02-16T12:15:17.6457704+01:00",
+    "AppointmentId": 250,
+    "StartDate": "2017-06-10T15:29:20.2588327+02:00",
+    "EndDate": "1999-04-05T15:29:20.2588327+02:00",
     "Type": "BookingForChecklist",
-    "Task": "repellat",
-    "AssociateFullName": "Randi Wunsch",
-    "ContactName": "Hackett, Hartmann and Hills",
-    "Description": "Front-line tangible moderator",
-    "PersonFullName": "Ressie Corwin Jr.",
-    "PersonId": 564,
-    "ContactId": 792,
-    "ProjectId": 313,
-    "ProjectName": "Ebert, Collins and VonRueden",
-    "IsPublished": true,
-    "AssociateId": 596,
-    "ColorIndex": 384,
+    "Task": "odit",
+    "AssociateFullName": "Mr. Carroll Lemke",
+    "ContactName": "Little-Kuhlman",
+    "Description": "Compatible transitional approach",
+    "PersonFullName": "Erika Bauch",
+    "PersonId": 859,
+    "ContactId": 867,
+    "ProjectId": 16,
+    "ProjectName": "Mosciski Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 383,
+    "ColorIndex": 242,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 537,
-    "PriorityName": "Cummings LLC",
+    "PriorityId": 152,
+    "PriorityName": "Steuber Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2001-04-18T12:15:17.6467706+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2018-08-23T15:29:20.2593326+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-01-16T12:15:17.6467706+01:00",
-    "RecurringEndDate": "2012-09-20T12:15:17.6467706+02:00",
-    "MotherId": 681,
-    "AssignedBy": 655,
-    "AssignedByFullName": "Miss Makenzie Estrella Batz PhD",
-    "RejectReason": "",
-    "Location": "odio",
-    "AlarmLeadTime": "ipsum",
-    "SaleId": 208,
-    "SaleName": "Bechtelar-Hermann",
-    "AssociateName": "Rohan Group",
-    "CreatedDate": "2014-06-02T12:15:17.6467706+02:00",
-    "CreatedBy": "doloremque",
-    "CreatedByFullName": "Mrs. Brent Abel Anderson Jr.",
-    "CreatedByAssociateId": 747,
+    "RecurringStartDate": "2008-11-23T15:29:20.2593326+01:00",
+    "RecurringEndDate": "2001-03-13T15:29:20.2593326+01:00",
+    "MotherId": 450,
+    "AssignedBy": 723,
+    "AssignedByFullName": "Ms. Alf Aida Gleichner DVM",
+    "RejectReason": "benchmark visionary bandwidth",
+    "Location": "distinctio",
+    "AlarmLeadTime": "eum",
+    "SaleId": 758,
+    "SaleName": "Deckow, Kub and Sipes",
+    "AssociateName": "Ziemann, Bernhard and Breitenberg",
+    "CreatedDate": "1999-03-13T15:29:20.2598325+01:00",
+    "CreatedBy": "laborum",
+    "CreatedByFullName": "Garrett Mohr",
+    "CreatedByAssociateId": 888,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 876
       }
     }
   }

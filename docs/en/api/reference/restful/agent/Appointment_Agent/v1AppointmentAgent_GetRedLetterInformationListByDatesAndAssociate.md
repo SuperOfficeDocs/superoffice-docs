@@ -69,8 +69,8 @@ OK
 | Date | date-time | Date that this item is valid for; there is exactly one item per date, ordered by date. |
 | RedLetterInformation | RedLetterSummary | Summary of redletter day information - holiday in own country, and in other countries known to the system. |
 | RedLetterDetails | RedLetterDetails | Red letter day text details, all the texts related to the given day. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "1996-05-03T12:15:17.6897703+02:00",
-  "EndDate": "1998-06-17T12:15:17.6897703+02:00",
-  "AssociateId": 155
+  "StartDate": "1998-11-06T15:29:20.4353307+01:00",
+  "EndDate": "2012-08-26T15:29:20.4353307+02:00",
+  "AssociateId": 988
 }
 ```
 
@@ -96,28 +96,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "1998-05-06T12:15:17.6897703+02:00",
+    "Date": "2006-01-15T15:29:20.4353307+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   },
   {
-    "Date": "1998-05-06T12:15:17.6897703+02:00",
+    "Date": "2006-01-15T15:29:20.4353307+01:00",
     "RedLetterInformation": null,
     "RedLetterDetails": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 812
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

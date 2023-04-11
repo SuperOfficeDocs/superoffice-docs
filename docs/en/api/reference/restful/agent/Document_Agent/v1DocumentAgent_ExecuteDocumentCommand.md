@@ -62,7 +62,7 @@ OK
 |----------------|-------------|
 | 200 | OK |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -79,20 +79,20 @@ OK
 POST /api/v1/Agents/Document/ExecuteDocumentCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 971,
-  "VersionId": "incidunt",
+  "DocumentId": 161,
+  "VersionId": "enim",
   "AllowedReturnTypes": [
-    "animi",
-    "eveniet"
+    "veritatis",
+    "cum"
   ],
-  "Command": "sequi",
+  "Command": "voluptate",
   "AdditionalData": [
-    "natus",
-    "qui"
+    "alias",
+    "sunt"
   ]
 }
 ```
@@ -104,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "saepe",
-  "VersionId": "fugit",
+  "ExternalReference": "minima",
+  "VersionId": "aliquid",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "odit",
-  "AdditionalInfo": "voluptas"
+  "Value": "ipsum",
+  "AdditionalInfo": "at"
 }
 ```

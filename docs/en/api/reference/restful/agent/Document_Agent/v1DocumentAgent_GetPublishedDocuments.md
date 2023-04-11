@@ -82,8 +82,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    926,
-    271
+    380,
+    318
   ]
 }
 ```
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 499,
-    "Attention": "rerum",
-    "Header": "ex",
-    "Name": "Kihn, Bauch and Stamm",
-    "OurRef": "inventore",
-    "YourRef": "incidunt",
-    "Description": "Organic actuating challenge",
-    "DocumentTemplate": "sunt",
+    "DocumentId": 599,
+    "Attention": "quae",
+    "Header": "et",
+    "Name": "Hills, Miller and Gutmann",
+    "OurRef": "magni",
+    "YourRef": "est",
+    "Description": "Compatible 24 hour process improvement",
+    "DocumentTemplate": "aut",
     "IsPublished": true,
-    "PersonId": 661,
-    "PersonFullName": "Mrs. Dustin Schaden",
-    "AssociateFullName": "Miss Hilbert Vance Mosciski DDS",
-    "ContactId": 34,
-    "ContactName": "Hegmann-Hettinger",
-    "ProjectId": 818,
-    "ProjectName": "Kuvalis LLC",
-    "AssociateId": 450,
-    "Snum": 753,
-    "SaleId": 197,
-    "SaleName": "Emmerich Inc and Sons",
+    "PersonId": 482,
+    "PersonFullName": "Monserrate Kuhn",
+    "AssociateFullName": "Litzy Bailey",
+    "ContactId": 842,
+    "ContactName": "Borer-McCullough",
+    "ProjectId": 681,
+    "ProjectName": "Dibbert Inc and Sons",
+    "AssociateId": 886,
+    "Snum": 313,
+    "SaleId": 950,
+    "SaleName": "Jast-Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 11
       }
     }
   }

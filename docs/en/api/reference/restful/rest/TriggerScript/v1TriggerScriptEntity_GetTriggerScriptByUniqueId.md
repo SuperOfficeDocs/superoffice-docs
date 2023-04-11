@@ -60,8 +60,8 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 265,
-  "Name": "Beer-Olson",
+  "ScreenChooserId": 999,
+  "Name": "Rodriguez-Tillman",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "molestias",
-  "Source": "iure",
-  "Registered": "2013-09-13T12:15:27.5926269+02:00",
-  "RegisteredAssociateId": 326,
-  "Updated": "2006-11-06T12:15:27.5926269+01:00",
-  "UpdatedAssociateId": 130,
+  "Enabled": true,
+  "UniqueIdentifier": "nobis",
+  "Source": "deserunt",
+  "Registered": "1999-01-31T15:29:30.8014837+01:00",
+  "RegisteredAssociateId": 740,
+  "Updated": "2021-11-14T15:29:30.8014837+01:00",
+  "UpdatedAssociateId": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 1002
     }
   }
 }

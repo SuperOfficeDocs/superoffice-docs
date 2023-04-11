@@ -53,8 +53,8 @@ OK
 | Key | string | The key used to uniquely identify this consent source |
 | MailTemplateId | int32 | The mail template to use when automatically sending emails to new persons created with this consent source. |
 | Deleted | bool | true if the ConsentSource is deleted |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 940,
-    "Name": "Corwin, Prohaska and Fahey",
-    "Tooltip": "excepturi",
-    "Rank": 46,
-    "Key": "pariatur",
-    "MailTemplateId": 920,
+    "ConsentSourceId": 729,
+    "Name": "Murray-Hayes",
+    "Tooltip": "ut",
+    "Rank": 505,
+    "Key": "odit",
+    "MailTemplateId": 196,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 592
       }
     }
   }

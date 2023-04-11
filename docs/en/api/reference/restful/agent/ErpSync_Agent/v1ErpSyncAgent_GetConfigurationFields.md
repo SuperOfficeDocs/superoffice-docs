@@ -74,8 +74,8 @@ OK
 | MaxLength | int32 | Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.) |
 | Access | string | Access restrictions on the field |
 | ShowInSearch | bool | True if this field is displayed in search result |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -87,7 +87,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 683
+  "ErpConnectorId": 342
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quibusdam",
-    "Rank": 655,
-    "DisplayName": "Reichel, Gutkowski and Ledner",
-    "DisplayDescription": "Optional radical task-force",
+    "FieldKey": "similique",
+    "Rank": 225,
+    "DisplayName": "Schumm LLC",
+    "DisplayDescription": "Quality-focused global open architecture",
     "FieldType": "Checkbox",
-    "ListName": "Haag Inc and Sons",
-    "DefaultValue": "molestiae",
-    "MaxLength": 393,
+    "ListName": "Blanda, Rau and Rath",
+    "DefaultValue": "et",
+    "MaxLength": 82,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 287
       }
     }
   }

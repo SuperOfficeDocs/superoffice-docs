@@ -93,8 +93,8 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
 | UpdatedCount | int32 | Number of updates made to this record |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -102,31 +102,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 192,
-  "PlainMessage": "enim",
-  "HtmlMessage": "tempora",
-  "SmsMessage": "tempore",
-  "Description": "Inverse composite service-desk",
-  "Subject": "id",
-  "FolderId": 68,
-  "HeaderField": "et",
-  "Design": "aperiam",
+  "ShipmentMessageId": 791,
+  "PlainMessage": "qui",
+  "HtmlMessage": "nobis",
+  "SmsMessage": "sequi",
+  "Description": "Front-line optimizing service-desk",
+  "Subject": "omnis",
+  "FolderId": 680,
+  "HeaderField": "ea",
+  "Design": "eligendi",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Multi-layered multi-tasking software",
-  "AccessKey": "a",
-  "DocumentMessage": 861,
-  "Registered": "2000-09-06T12:15:19.3687519+02:00",
-  "RegisteredAssociateId": 630,
-  "Updated": "2000-01-17T12:15:19.3687519+01:00",
-  "UpdatedAssociateId": 757,
-  "UpdatedCount": 603
+  "LongDescription": "Quality-focused modular solution",
+  "AccessKey": "id",
+  "DocumentMessage": 43,
+  "Registered": "1997-11-01T15:29:22.1287712+01:00",
+  "RegisteredAssociateId": 402,
+  "Updated": "2021-11-22T15:29:22.1287712+01:00",
+  "UpdatedAssociateId": 649,
+  "UpdatedCount": 638
 }
 ```
 
@@ -137,33 +137,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 438,
-  "PlainMessage": "sint",
-  "HtmlMessage": "aliquid",
-  "SmsMessage": "repellat",
-  "Description": "Open-source multi-tasking instruction set",
-  "Subject": "sed",
-  "FolderId": 471,
-  "HeaderField": "mollitia",
-  "Design": "fugiat",
+  "ShipmentMessageId": 380,
+  "PlainMessage": "eum",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "blanditiis",
+  "Description": "Fundamental bifurcated definition",
+  "Subject": "quos",
+  "FolderId": 380,
+  "HeaderField": "laboriosam",
+  "Design": "sit",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Virtual web-enabled customer loyalty",
-  "AccessKey": "accusamus",
-  "DocumentMessage": 109,
-  "Registered": "1998-12-04T12:15:19.3687519+01:00",
-  "RegisteredAssociateId": 898,
-  "Updated": "2021-06-23T12:15:19.3687519+02:00",
-  "UpdatedAssociateId": 429,
-  "UpdatedCount": 553,
+  "LongDescription": "Right-sized next generation orchestration",
+  "AccessKey": "quasi",
+  "DocumentMessage": 217,
+  "Registered": "2018-03-10T15:29:22.1307711+01:00",
+  "RegisteredAssociateId": 725,
+  "Updated": "2000-08-27T15:29:22.1307711+02:00",
+  "UpdatedAssociateId": 662,
+  "UpdatedCount": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 587
     }
   }
 }

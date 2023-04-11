@@ -74,8 +74,8 @@ OK
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.User.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.User.ExtraFields} and <see cref="!:UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
 | PostSaveCommands | array | Post custom commands the client should execute after save has completed. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 459,
-  "Name": "Reichert, Spinka and Hegmann",
-  "Rank": 45,
-  "Tooltip": "ex",
+  "AssociateId": 579,
+  "Name": "Kihn, Schulist and Ullrich",
+  "Rank": 168,
+  "Tooltip": "quia",
   "LicenseOwners": [
     {
-      "Name": "Conroy-Hessel",
-      "Description": "Mandatory logistical orchestration",
+      "Name": "Toy Inc and Sons",
+      "Description": "Team-oriented heuristic contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -113,14 +113,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 690
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     },
     {
-      "Name": "Conroy-Hessel",
-      "Description": "Mandatory logistical orchestration",
+      "Name": "Toy Inc and Sons",
+      "Description": "Team-oriented heuristic contingency",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 690
+          "FieldType": "System.Int32",
+          "FieldLength": 256
         }
       }
     }
@@ -143,110 +143,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aliquam",
-      "Tooltip": "explicabo",
-      "Id": 152,
-      "Rank": 975,
+      "Value": "laboriosam",
+      "Tooltip": "enim",
+      "Id": 644,
+      "Rank": 274,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 493
+          "FieldType": "System.Int32",
+          "FieldLength": 353
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2014-06-27T12:15:20.5417359+02:00",
-  "Lastlogout": "2008-07-09T12:15:20.5417359+02:00",
-  "EjUserId": 321,
-  "RequestSignature": "ut",
+  "Deleted": true,
+  "Lastlogin": "1998-08-18T15:29:23.3142539+02:00",
+  "Lastlogout": "2013-09-20T15:29:23.3142539+02:00",
+  "EjUserId": 499,
+  "RequestSignature": "sequi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "numquam",
-      "DisplayValue": "saepe",
+      "Value": "voluptates",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 787
+          "FieldLength": 382
         }
       }
     },
     {
       "Type": null,
-      "Value": "numquam",
-      "DisplayValue": "saepe",
+      "Value": "voluptates",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 787
+          "FieldLength": 382
         }
       }
     }
   ],
-  "UserName": "Gutmann, Satterfield and Powlowski",
+  "UserName": "Wolf-Wilkinson",
   "TicketCategories": [
     {
-      "Id": 885,
-      "Name": "Stokes, Rice and Crona",
-      "ToolTip": "Incidunt hic eos.",
+      "Id": 753,
+      "Name": "Herzog, Sauer and Brown",
+      "ToolTip": "In omnis.",
       "Deleted": false,
-      "Rank": 687,
-      "Type": "cupiditate",
+      "Rank": 809,
+      "Type": "blanditiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 847,
-      "ExtraInfo": "ut",
-      "StyleHint": "accusantium",
-      "FullName": "Stephanie Grimes IV",
+      "IconHint": "exercitationem",
+      "ColorBlock": 637,
+      "ExtraInfo": "repellendus",
+      "StyleHint": "voluptatum",
+      "FullName": "Liza Orn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 622
+          "FieldType": "System.String",
+          "FieldLength": 254
         }
       }
     }
   ],
-  "NickName": "Bauch-Leuschke",
+  "NickName": "West Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "temporibus",
-    "ExtraFields2": "numquam"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "placeat",
-    "CustomFields2": "beatae"
+    "CustomFields1": "non",
+    "CustomFields2": "nihil"
   },
   "PostSaveCommands": [
     {
-      "Name": "Rosenbaum Group",
-      "DisplayName": "Kuhlman-Runolfsdottir",
-      "Description": "Fundamental reciprocal capacity",
-      "ToolTip": "Voluptatem voluptate recusandae qui vero aspernatur delectus.",
+      "Name": "Mraz, Gusikowski and Harber",
+      "DisplayName": "Brakus, Murray and Stamm",
+      "Description": "De-engineered eco-centric groupware",
+      "ToolTip": "Ut eveniet labore aperiam ipsa perferendis.",
       "Actions": "Implicit",
-      "ActionData": "corporis",
+      "ActionData": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldType": "System.String",
+          "FieldLength": 523
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 22
     }
   }
 }

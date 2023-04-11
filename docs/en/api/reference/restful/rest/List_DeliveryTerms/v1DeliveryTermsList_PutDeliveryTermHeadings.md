@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -79,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 881,
-    "Name": "Davis, Homenick and Jenkins",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 489,
-    "UdListDefinitionId": 85
+    "HeadingId": 68,
+    "Name": "Dicki LLC",
+    "Tooltip": "illum",
+    "Deleted": true,
+    "Rank": 921,
+    "UdListDefinitionId": 625
   },
   {
-    "HeadingId": 881,
-    "Name": "Davis, Homenick and Jenkins",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 489,
-    "UdListDefinitionId": 85
+    "HeadingId": 68,
+    "Name": "Dicki LLC",
+    "Tooltip": "illum",
+    "Deleted": true,
+    "Rank": 921,
+    "UdListDefinitionId": 625
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 613,
-    "Name": "Cronin, Mayer and Hagenes",
-    "Tooltip": "explicabo",
+    "HeadingId": 646,
+    "Name": "Kemmer, Medhurst and Bergstrom",
+    "Tooltip": "modi",
     "Deleted": false,
-    "Rank": 714,
-    "UdListDefinitionId": 490,
+    "Rank": 581,
+    "UdListDefinitionId": 932,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldType": "System.Int32",
+        "FieldLength": 792
       }
     }
   }

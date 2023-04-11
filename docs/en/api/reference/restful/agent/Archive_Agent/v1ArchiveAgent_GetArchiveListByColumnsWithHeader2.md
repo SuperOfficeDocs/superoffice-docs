@@ -156,8 +156,8 @@ OK
 |----------------|------|--------------|
 | RowCount | int32 | Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation |
 | Rows | array | The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -169,14 +169,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Blick, Simonis and Fahey",
-  "Columns": "assumenda",
-  "SortOrder": "cumque",
-  "Restriction": "at",
-  "Entities": "corrupti",
-  "Page": 328,
-  "PageSize": 546,
-  "Options": "maiores"
+  "ProviderName": "Stiedemann LLC",
+  "Columns": "explicabo",
+  "SortOrder": "officiis",
+  "Restriction": "necessitatibus",
+  "Entities": "molestiae",
+  "Page": 441,
+  "PageSize": 603,
+  "Options": "incidunt"
 }
 ```
 
@@ -187,26 +187,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 818,
+  "RowCount": 725,
   "Rows": [
     {
-      "EntityName": "Jacobs, Labadie and Sauer",
-      "PrimaryKey": 879,
+      "EntityName": "Macejkovic Group",
+      "PrimaryKey": 360,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cumque",
-          "TooltipHint": "aliquam",
-          "LinkHint": "nesciunt"
+          "DisplayValue": "inventore",
+          "TooltipHint": "et",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "cupiditate",
-      "StyleHint": "et",
+      "LinkHint": "et",
+      "StyleHint": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 688
+          "FieldLength": 265
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 461
     }
   }
 }

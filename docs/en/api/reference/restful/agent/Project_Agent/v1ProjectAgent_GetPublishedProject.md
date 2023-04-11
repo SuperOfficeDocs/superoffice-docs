@@ -80,8 +80,8 @@ OK
 | URLName | string | Visible field |
 | ProjectNumber | string | Automatically generated number |
 | ActiveErpLinks | int32 | The number of active erp links |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 33
+  "ProjectId": 900
 }
 ```
 
@@ -104,30 +104,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 262,
-  "Name": "Feil LLC",
-  "Description": "Exclusive analyzing contingency",
+  "ProjectId": 562,
+  "Name": "Littel, Osinski and Braun",
+  "Description": "Profit-focused radical analyzer",
   "URL": "http://www.example.com/",
-  "Type": "ex",
-  "AssociateId": 279,
-  "AssociateFullName": "Harmony Cummings",
-  "TypeId": 66,
-  "Updated": "2016-10-09T12:15:19.8627386+02:00",
-  "StatusId": 922,
-  "Status": "rerum",
-  "TextId": 612,
-  "PublishTo": "2022-08-23T12:15:19.8627386+02:00",
-  "PublishFrom": "2020-08-25T12:15:19.8627386+02:00",
-  "IsPublished": true,
+  "Type": "sunt",
+  "AssociateId": 394,
+  "AssociateFullName": "Blaise Leuschke",
+  "TypeId": 559,
+  "Updated": "1996-06-07T15:29:22.4882661+02:00",
+  "StatusId": 75,
+  "Status": "harum",
+  "TextId": 835,
+  "PublishTo": "2000-04-10T15:29:22.4882661+02:00",
+  "PublishFrom": "2003-09-13T15:29:22.4882661+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1095769",
-  "ActiveErpLinks": 632,
+  "ProjectNumber": "1401316",
+  "ActiveErpLinks": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldType": "System.Int32",
+      "FieldLength": 315
     }
   }
 }

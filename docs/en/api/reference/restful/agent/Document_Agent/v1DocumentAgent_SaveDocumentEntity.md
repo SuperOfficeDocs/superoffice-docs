@@ -119,8 +119,8 @@ OK
 | PublishFrom | date-time | Publication valid from (inclusive) |
 | IsPublished | bool | Publication is published |
 | VisibleFor | array | The set of users or groups the record is visible for |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -128,77 +128,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 159,
+  "DocumentId": 201,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "pariatur",
-  "Header": "eveniet",
-  "Name": "Gutmann-Klocko",
-  "OurRef": "laudantium",
-  "YourRef": "odio",
-  "CreatedDate": "2013-03-16T12:15:18.7537572+01:00",
-  "UpdatedDate": "2014-09-08T12:15:18.7537572+02:00",
-  "Description": "User-centric context-sensitive standardization",
+  "Attention": "aliquam",
+  "Header": "repellendus",
+  "Name": "Kessler-Koepp",
+  "OurRef": "error",
+  "YourRef": "et",
+  "CreatedDate": "2006-09-02T15:29:21.5147802+02:00",
+  "UpdatedDate": "1999-04-14T15:29:21.5147802+02:00",
+  "Description": "Face to face fault-tolerant encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-01-31T12:15:18.7577553+01:00",
-  "ExternalRef": "sit",
+  "Date": "2017-05-29T15:29:21.5197788+02:00",
+  "ExternalRef": "ab",
   "Completed": "Completed",
-  "ActiveLinks": 846,
+  "ActiveLinks": 845,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Feest, Hills and Senger",
-      "Id": 302,
-      "Description": "Centralized optimal artificial intelligence",
-      "ExtraInfo": "distinctio",
-      "LinkId": 770
+      "EntityName": "Wolf Inc and Sons",
+      "Id": 92,
+      "Description": "Intuitive web-enabled secured line",
+      "ExtraInfo": "ex",
+      "LinkId": 695
     },
     {
-      "EntityName": "Feest, Hills and Senger",
-      "Id": 302,
-      "Description": "Centralized optimal artificial intelligence",
-      "ExtraInfo": "distinctio",
-      "LinkId": 770
+      "EntityName": "Wolf Inc and Sons",
+      "Id": 92,
+      "Description": "Intuitive web-enabled secured line",
+      "ExtraInfo": "ex",
+      "LinkId": 695
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 281,
-  "Snum": 862,
+  "SuggestedDocumentId": 671,
+  "Snum": 839,
   "UserDefinedFields": {
-    "SuperOffice:1": "Joana Hayes",
-    "SuperOffice:2": "916557671"
+    "SuperOffice:1": "1005536265",
+    "SuperOffice:2": "212234537"
   },
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "illum"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "temporibus"
+    "CustomFields1": "enim",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2006-10-07T12:15:18.7587548+02:00",
-  "PublishTo": "1997-12-07T12:15:18.7587548+01:00",
-  "PublishFrom": "2005-08-04T12:15:18.7587548+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1996-11-06T15:29:21.5202787+01:00",
+  "PublishTo": "2021-10-11T15:29:21.5202787+02:00",
+  "PublishFrom": "2017-12-10T15:29:21.5202787+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 995,
+      "VisibleId": 303,
       "Visibility": "All",
-      "DisplayValue": "delectus"
+      "DisplayValue": "illum"
     },
     {
-      "VisibleId": 995,
+      "VisibleId": 303,
       "Visibility": "All",
-      "DisplayValue": "delectus"
+      "DisplayValue": "illum"
     }
   ]
 }
@@ -211,88 +211,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 50,
+  "DocumentId": 184,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tempora",
-  "Header": "laudantium",
-  "Name": "Wolf-Haley",
-  "OurRef": "et",
-  "YourRef": "dolores",
-  "CreatedDate": "2016-01-28T12:15:18.7657549+01:00",
-  "UpdatedDate": "2017-11-06T12:15:18.7657549+01:00",
-  "Description": "Ameliorated foreground internet solution",
+  "Attention": "qui",
+  "Header": "et",
+  "Name": "Collier LLC",
+  "OurRef": "nostrum",
+  "YourRef": "sunt",
+  "CreatedDate": "2005-09-04T15:29:21.5267794+02:00",
+  "UpdatedDate": "2014-09-30T15:29:21.5267794+02:00",
+  "Description": "Right-sized multi-state forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2010-07-10T12:15:18.7687549+02:00",
-  "ExternalRef": "aut",
+  "Date": "2006-01-24T15:29:21.5302796+01:00",
+  "ExternalRef": "voluptatibus",
   "Completed": "Completed",
-  "ActiveLinks": 400,
+  "ActiveLinks": 456,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cummings, Quigley and Corwin",
-      "Id": 473,
-      "Description": "Triple-buffered eco-centric function",
-      "ExtraInfo": "sapiente",
-      "LinkId": 1000,
+      "EntityName": "Mann-Schroeder",
+      "Id": 503,
+      "Description": "Object-based object-oriented info-mediaries",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 678,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 466
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 346,
-  "Snum": 619,
+  "SuggestedDocumentId": 487,
+  "Snum": 886,
   "UserDefinedFields": {
-    "SuperOffice:1": "1343067435",
-    "SuperOffice:2": "156300043"
+    "SuperOffice:1": "Nicholaus Frida Wilkinson Sr.",
+    "SuperOffice:2": "Gregoria Nels Hyatt Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "possimus"
+    "CustomFields1": "ex",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2021-11-14T12:15:18.7707549+01:00",
-  "PublishTo": "2002-07-25T12:15:18.7707549+02:00",
-  "PublishFrom": "2013-02-01T12:15:18.7707549+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2001-09-08T15:29:21.5312789+02:00",
+  "PublishTo": "2010-03-02T15:29:21.5312789+01:00",
+  "PublishFrom": "2008-01-28T15:29:21.5312789+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 617,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 642
         }
       }
     },
     {
-      "VisibleId": 617,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "quisquam",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 209
+          "FieldLength": 642
         }
       }
     }
@@ -301,8 +301,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

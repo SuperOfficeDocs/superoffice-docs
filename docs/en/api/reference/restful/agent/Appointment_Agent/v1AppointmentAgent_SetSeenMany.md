@@ -57,7 +57,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Appointment/SetSeenMany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    193,
-    754
+    660,
+    504
   ],
   "UpdateMode": "OnlyThis"
 }

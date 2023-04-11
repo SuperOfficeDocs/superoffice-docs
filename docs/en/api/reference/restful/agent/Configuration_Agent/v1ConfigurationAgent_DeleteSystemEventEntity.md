@@ -24,7 +24,7 @@ Deletes the SystemEventEntity
 | SystemEventEntityId | int32 | **Required** The id of the SystemEventEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?SystemEventEntityId=480
+POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?SystemEventEntityId=599
 ```
 
 
@@ -46,7 +46,7 @@ No Content
 |----------------|-------------|
 | 204 | No Content |
 
-### Response body: TableRight
+### Response body: TimeZoneData
 
 
 ## Sample request
@@ -55,7 +55,7 @@ No Content
 POST /api/v1/Agents/Configuration/DeleteSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

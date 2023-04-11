@@ -65,8 +65,8 @@ OK
 | Deleted | bool | True if the heading is marked as deleted |
 | Rank | int32 | Rank order |
 | UdListDefinitionId | int32 | The id of the list which this heading belongs to |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 144,
-    "Name": "Gorczany Group",
-    "Tooltip": "et",
+    "HeadingId": 53,
+    "Name": "Nienow-Larkin",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 829,
-    "UdListDefinitionId": 711
+    "Rank": 232,
+    "UdListDefinitionId": 246
   },
   {
-    "HeadingId": 144,
-    "Name": "Gorczany Group",
-    "Tooltip": "et",
+    "HeadingId": 53,
+    "Name": "Nienow-Larkin",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "Rank": 829,
-    "UdListDefinitionId": 711
+    "Rank": 232,
+    "UdListDefinitionId": 246
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 910,
-    "Name": "Kuhic, Nicolas and Von",
-    "Tooltip": "voluptatem",
+    "HeadingId": 806,
+    "Name": "Eichmann, Wisoky and Becker",
+    "Tooltip": "illo",
     "Deleted": true,
-    "Rank": 433,
-    "UdListDefinitionId": 22,
+    "Rank": 407,
+    "UdListDefinitionId": 410,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 791
       }
     }
   }

@@ -134,8 +134,8 @@ Product updated.
 | ExtraField4 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | ExtraField5 | string | This a simple field for adding information that the Connector can provide, and that the qoute document need to display. |
 | InStock | double | Negative numbers will be interpreted as how many is ordered. Might not be available. |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -143,55 +143,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 25,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Cruickshank Inc and Sons",
-  "Description": "Front-line asynchronous benchmark",
-  "Code": "autem",
-  "PriceUnit": "adipisci",
-  "QuantityUnit": "possimus",
-  "IsSubscription": false,
-  "SubscriptionUnit": "maiores",
-  "DefaultSubscriptionQuantity": 10950.196,
-  "ItemNumber": "892553",
+  "ProductId": 572,
+  "ERPProductKey": "iusto",
+  "ERPPriceListKey": "ut",
+  "Name": "Ondricka, Williamson and Stanton",
+  "Description": "Diverse multi-tasking secured line",
+  "Code": "ipsum",
+  "PriceUnit": "omnis",
+  "QuantityUnit": "accusamus",
+  "IsSubscription": true,
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 6484.246,
+  "ItemNumber": "1304049",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "enim",
-  "ProductTypeKey": "repellat",
-  "VAT": 27682.622,
-  "VATInfo": "ut",
-  "UnitCost": 1118.838,
-  "UnitMinimumPrice": 18706.845999999998,
-  "UnitListPrice": 25911.912,
-  "InAssortment": false,
-  "Supplier": "autem",
-  "SupplierCode": "sit",
-  "Rights": "temporibus",
-  "Rule": "eaque",
+  "ProductFamilyKey": "assumenda",
+  "ProductTypeKey": "laudantium",
+  "VAT": 22430.038,
+  "VATInfo": "et",
+  "UnitCost": 13824.073999999999,
+  "UnitMinimumPrice": 5424.954,
+  "UnitListPrice": 29892.092,
+  "InAssortment": true,
+  "Supplier": "ipsum",
+  "SupplierCode": "consectetur",
+  "Rights": "enim",
+  "Rule": "sint",
   "ExtraInfo": [
     {
-      "Name": "Nicolas, O'Connell and Hudson",
-      "Value": "excepturi",
+      "Name": "Jaskolski, Cummerata and Kemmer",
+      "Value": "omnis",
       "Type": "Image"
     },
     {
-      "Name": "Nicolas, O'Connell and Hudson",
-      "Value": "excepturi",
+      "Name": "Jaskolski, Cummerata and Kemmer",
+      "Value": "omnis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quasi",
-  "ExtraField1": "excepturi",
-  "ExtraField2": "quo",
-  "ExtraField3": "provident",
-  "ExtraField4": "quas",
-  "ExtraField5": "quia",
-  "InStock": 7969.762
+  "RawExtraInfo": "est",
+  "ExtraField1": "possimus",
+  "ExtraField2": "dolor",
+  "ExtraField3": "iusto",
+  "ExtraField4": "repellat",
+  "ExtraField5": "sit",
+  "InStock": 21753.094
 }
 ```
 
@@ -202,73 +202,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 991,
-  "ERPProductKey": "beatae",
-  "ERPPriceListKey": "quia",
-  "Name": "Mohr Group",
-  "Description": "Enterprise-wide multi-state algorithm",
-  "Code": "officia",
-  "PriceUnit": "dolores",
-  "QuantityUnit": "quo",
-  "IsSubscription": false,
-  "SubscriptionUnit": "omnis",
-  "DefaultSubscriptionQuantity": 3275.0299999999997,
-  "ItemNumber": "1931841",
+  "ProductId": 501,
+  "ERPProductKey": "voluptas",
+  "ERPPriceListKey": "deserunt",
+  "Name": "Deckow LLC",
+  "Description": "Universal systematic concept",
+  "Code": "ratione",
+  "PriceUnit": "qui",
+  "QuantityUnit": "fugiat",
+  "IsSubscription": true,
+  "SubscriptionUnit": "harum",
+  "DefaultSubscriptionQuantity": 17685.162,
+  "ItemNumber": "1205291",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "a",
-  "ProductTypeKey": "ut",
-  "VAT": 25708.201999999997,
-  "VATInfo": "maxime",
-  "UnitCost": 1576.402,
-  "UnitMinimumPrice": 18550.146,
-  "UnitListPrice": 31318.061999999998,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "libero",
-  "Rights": "quia",
-  "Rule": "esse",
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "error",
+  "VAT": 21887.856,
+  "VATInfo": "ratione",
+  "UnitCost": 22251.399999999998,
+  "UnitMinimumPrice": 1968.152,
+  "UnitListPrice": 9079.198,
+  "InAssortment": false,
+  "Supplier": "deleniti",
+  "SupplierCode": "quasi",
+  "Rights": "excepturi",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Schuster Inc and Sons",
-      "Value": "autem",
+      "Name": "Schaden Inc and Sons",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 653
+          "FieldLength": 769
         }
       }
     },
     {
-      "Name": "Schuster Inc and Sons",
-      "Value": "autem",
+      "Name": "Schaden Inc and Sons",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 653
+          "FieldLength": 769
         }
       }
     }
   ],
-  "RawExtraInfo": "quae",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "hic",
-  "ExtraField3": "deleniti",
-  "ExtraField4": "et",
-  "ExtraField5": "laboriosam",
-  "InStock": 21467.899999999998,
+  "RawExtraInfo": "voluptatem",
+  "ExtraField1": "laboriosam",
+  "ExtraField2": "omnis",
+  "ExtraField3": "nihil",
+  "ExtraField4": "ullam",
+  "ExtraField5": "neque",
+  "InStock": 19706.592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

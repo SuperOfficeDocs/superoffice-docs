@@ -68,8 +68,8 @@ OK
 |----------------|------|--------------|
 | Success | bool | Was call to webhook successful? (200 OK) |
 | Message | string | Headers and body of response from webhook |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -81,26 +81,26 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 223,
-  "Name": "Corwin LLC",
+  "WebhookId": 996,
+  "Name": "Barrows, Breitenberg and Pagac",
   "Events": [
-    "consequatur",
-    "iusto"
+    "accusamus",
+    "dolores"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "inventore",
   "State": "Active",
-  "Type": "nesciunt",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "quibusdam",
-    "Headers2": "omnis"
+    "Headers1": "unde",
+    "Headers2": "dicta"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1997-07-02T12:15:27.8206241+02:00",
+  "Registered": "2020-05-09T15:29:31.0259479+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-12-04T12:15:27.8216252+01:00",
+  "Updated": "2021-05-27T15:29:31.0264485+02:00",
   "UpdatedAssociate": null
 }
 ```
@@ -112,14 +112,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "totam",
+  "Success": false,
+  "Message": "maxime",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 574
+      "FieldLength": 178
     }
   }
 }

@@ -87,8 +87,8 @@ OK
 | StyleHint | string | Style hint indicating, information such as background color etc. Custom field. |
 | Hidden | bool | True if the ListItem is hidden |
 | FullName | string | The name of the ListItem in its context |
-| TableRight | RecurrenceInfo |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -101,42 +101,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 23,
-    "Name": "Oberbrunner-Adams",
-    "ToolTip": "Eaque esse error soluta ipsa id.",
+    "Id": 160,
+    "Name": "Cummings-Beier",
+    "ToolTip": "Iusto et ut eligendi qui illo ea.",
     "Deleted": false,
-    "Rank": 534,
-    "Type": "ut",
-    "ColorBlock": 721,
-    "IconHint": "illum",
+    "Rank": 506,
+    "Type": "in",
+    "ColorBlock": 630,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2018-06-12T12:15:28.4986141+02:00",
+    "LastChanged": "2000-05-07T15:29:31.6089735+02:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Schuster Group",
-        "ToolTip": "Ut ipsam molestiae deserunt veniam.",
+        "Id": 796,
+        "Name": "Wuckert-White",
+        "ToolTip": "Necessitatibus deleniti est et rem a quia dolor.",
         "Deleted": false,
-        "Rank": 484,
-        "Type": "necessitatibus",
-        "ColorBlock": 658,
-        "IconHint": "neque",
+        "Rank": 462,
+        "Type": "voluptatum",
+        "ColorBlock": 302,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2003-09-07T12:15:28.4996134+02:00",
+        "LastChanged": "2010-05-22T15:29:31.6094739+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "veritatis",
-        "Hidden": true,
-        "FullName": "Miss Gene Nora Yundt IV"
+        "ExtraInfo": "nulla",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Mr. Dana Schimmel"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Sebastian Gutkowski"
+    "ExtraInfo": "beatae",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Ari Becker IV"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Fritsch, Connelly and Hermiston",
-    "ToolTip": "Omnis tenetur voluptatem natus.",
+    "Id": 351,
+    "Name": "Parisian, Ondricka and Schultz",
+    "ToolTip": "Consequuntur quaerat quia.",
     "Deleted": false,
-    "Rank": 509,
-    "Type": "recusandae",
-    "ColorBlock": 902,
-    "IconHint": "deserunt",
+    "Rank": 29,
+    "Type": "praesentium",
+    "ColorBlock": 737,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2014-03-02T12:15:28.5016139+01:00",
+    "LastChanged": "2014-11-07T15:29:31.6109732+01:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Stehr-Medhurst",
-        "ToolTip": "Beatae labore a at et.",
-        "Deleted": false,
-        "Rank": 36,
-        "Type": "voluptas",
-        "ColorBlock": 400,
-        "IconHint": "commodi",
+        "Id": 779,
+        "Name": "Gerlach-Jewess",
+        "ToolTip": "Qui temporibus in.",
+        "Deleted": true,
+        "Rank": 983,
+        "Type": "blanditiis",
+        "ColorBlock": 487,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2016-10-09T12:15:28.5016139+02:00",
+        "LastChanged": "2012-09-16T15:29:31.6114734+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "eveniet",
-        "Hidden": true,
-        "FullName": "Osborne Willms",
+        "ExtraInfo": "quo",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Cruz Grady",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 459
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Dr. Glenna Russel MD",
+    "ExtraInfo": "impedit",
+    "StyleHint": "at",
+    "Hidden": true,
+    "FullName": "Miss Zaria Hayley Feeney PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldType": "System.String",
+        "FieldLength": 643
       }
     }
   }

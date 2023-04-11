@@ -117,8 +117,8 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -126,15 +126,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 766,
-  "StartTime": "2002-04-30T12:15:17.6317709+02:00",
-  "EndTime": "2017-03-30T12:15:17.6317709+02:00",
-  "Count": 573,
-  "TaskId": 382
+  "ProjectId": 962,
+  "StartTime": "1997-02-16T15:29:20.2443303+01:00",
+  "EndTime": "2017-09-14T15:29:20.2443303+02:00",
+  "Count": 364,
+  "TaskId": 779
 }
 ```
 
@@ -146,53 +146,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 554,
-    "StartDate": "2002-05-05T12:15:17.6327705+02:00",
-    "EndDate": "2000-04-25T12:15:17.6327705+02:00",
+    "AppointmentId": 164,
+    "StartDate": "2003-08-01T15:29:20.2458245+02:00",
+    "EndDate": "1999-08-14T15:29:20.2458245+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sapiente",
-    "AssociateFullName": "Dayne Quigley",
-    "ContactName": "Kshlerin Inc and Sons",
-    "Description": "Optional eco-centric productivity",
-    "PersonFullName": "Veda Maggio",
-    "PersonId": 157,
-    "ContactId": 738,
-    "ProjectId": 5,
-    "ProjectName": "McKenzie, Hansen and Herman",
-    "IsPublished": false,
-    "AssociateId": 24,
-    "ColorIndex": 685,
+    "Task": "explicabo",
+    "AssociateFullName": "Edgar Bednar",
+    "ContactName": "Fadel, Conroy and Schuppe",
+    "Description": "Object-based background solution",
+    "PersonFullName": "Joaquin Dickinson",
+    "PersonId": 186,
+    "ContactId": 71,
+    "ProjectId": 639,
+    "ProjectName": "Kuhn, Rice and Goldner",
+    "IsPublished": true,
+    "AssociateId": 489,
+    "ColorIndex": 640,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 625,
-    "PriorityName": "Homenick Inc and Sons",
+    "PriorityId": 89,
+    "PriorityName": "Lebsack-Ankunding",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2015-11-07T12:15:17.6327705+01:00",
+    "ActiveDate": "2005-02-16T15:29:20.2463259+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-03-23T12:15:17.6327705+01:00",
-    "RecurringEndDate": "2000-08-19T12:15:17.6327705+02:00",
-    "MotherId": 119,
-    "AssignedBy": 67,
-    "AssignedByFullName": "Delmer Strosin I",
+    "RecurringStartDate": "2006-07-25T15:29:20.2463259+02:00",
+    "RecurringEndDate": "2000-06-06T15:29:20.2463259+02:00",
+    "MotherId": 586,
+    "AssignedBy": 641,
+    "AssignedByFullName": "Lucio Fadel",
     "RejectReason": "",
-    "Location": "voluptatibus",
-    "AlarmLeadTime": "excepturi",
-    "SaleId": 108,
-    "SaleName": "Hessel Inc and Sons",
-    "AssociateName": "Powlowski LLC",
-    "CreatedDate": "2007-04-17T12:15:17.6327705+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Frederique Gleichner",
-    "CreatedByAssociateId": 303,
+    "Location": "in",
+    "AlarmLeadTime": "officia",
+    "SaleId": 206,
+    "SaleName": "Ratke-McKenzie",
+    "AssociateName": "Bogan LLC",
+    "CreatedDate": "2007-09-09T15:29:20.2463259+02:00",
+    "CreatedBy": "eos",
+    "CreatedByFullName": "Ms. Carolanne Herman Sr.",
+    "CreatedByAssociateId": 97,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
     "TableRight": null,
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 356
       }
     }
   }

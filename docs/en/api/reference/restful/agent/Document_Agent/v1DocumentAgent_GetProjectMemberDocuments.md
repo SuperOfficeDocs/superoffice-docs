@@ -87,8 +87,8 @@ OK
 | Snum | int32 | The sequence number allocated from refcount on used template when creating the document |
 | SaleId | int32 | Owning sale, if any (may be 0) |
 | SaleName | string | Heading of Owning sale, if any. (may be blank) |
-| TableRight | TableRight |  |
-| FieldProperties | object |  |
+| TableRight | TableRight | The carrier's table right |
+| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -100,10 +100,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 718,
-  "StartTime": "2019-08-12T12:15:18.7217552+02:00",
-  "EndTime": "2009-04-29T12:15:18.7217552+02:00",
-  "Count": 292
+  "PersonId": 919,
+  "StartTime": "1997-10-18T15:29:21.4827791+02:00",
+  "EndTime": "2017-07-20T15:29:21.4827791+02:00",
+  "Count": 596
 }
 ```
 
@@ -115,32 +115,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 795,
-    "Attention": "neque",
-    "Header": "eum",
-    "Name": "Boyle-Williamson",
-    "OurRef": "in",
-    "YourRef": "doloribus",
-    "Description": "Team-oriented systematic matrix",
-    "DocumentTemplate": "est",
+    "DocumentId": 139,
+    "Attention": "sunt",
+    "Header": "reprehenderit",
+    "Name": "Dach-Grimes",
+    "OurRef": "aut",
+    "YourRef": "maiores",
+    "Description": "Function-based impactful superstructure",
+    "DocumentTemplate": "enim",
     "IsPublished": false,
-    "PersonId": 196,
-    "PersonFullName": "Leif Mante",
-    "AssociateFullName": "Miss Arlene Kane Bins PhD",
-    "ContactId": 326,
-    "ContactName": "Jerde-Spencer",
-    "ProjectId": 491,
-    "ProjectName": "Morissette, Muller and Wisoky",
-    "AssociateId": 735,
-    "Snum": 210,
-    "SaleId": 939,
-    "SaleName": "Heller-Block",
+    "PersonId": 991,
+    "PersonFullName": "Dagmar Schoen",
+    "AssociateFullName": "Mr. Richmond Isom Dooley V",
+    "ContactId": 642,
+    "ContactName": "Feest Inc and Sons",
+    "ProjectId": 212,
+    "ProjectName": "Weimann-Greenholt",
+    "AssociateId": 739,
+    "Snum": 485,
+    "SaleId": 794,
+    "SaleName": "Grady, Waters and Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 344
       }
     }
   }
