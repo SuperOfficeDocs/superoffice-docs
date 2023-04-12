@@ -22,8 +22,8 @@ items:
     href: get-contact.md
   - name: Show persons for contact
     href: show-persons-for-contact.md
-  - name: Open dialog
-    href: open-dialog.md
+  - name: Using SoProtocol
+    href: using-soprotocol.md
   - name: Open appointment dialog
     href: open-appointment-dialog.md
 - name: In CRMScript

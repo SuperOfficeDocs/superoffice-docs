@@ -25,4 +25,4 @@ Another parameter associated with the mode is the new parameter, i.e. \[mode=edi
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image006.jpg
+[img1]: media/contact-edit-mode.png

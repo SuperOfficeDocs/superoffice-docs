@@ -8,45 +8,165 @@ keywords:
 so.topic: reference
 ---
 
-# Navigation points (where)
+# SoProtocol entity targets
 
-Entity-specific sub-modes are listed for the screen or dialog they apply to. Generic sub-modes are listed in the table.
+Entity-specific navigation points are used to navigate to a specific entity in the SuperOffice CRM client. The following table lists the entity-specific navigation points.
 
-* Company (contact)
-  * Interest
-  * PersonArchive
-  * RelationArchive
-  * ProjectArchive
-  * ActivityArchive
-* Contact (person)
-  * Interest
-* Diary
-  * Day
-  * Week
-  * Month
-  * ReferenceView
-* Sale
-* Project
-  * MemberArchive
-  * ActivityArchive
-* Selection
-  * Task
-* Inbox (mail)
-* Appointment (dialog)
-* Document (dialog)
-* Invitations (dialog)
+* Chat (**chat**)
+  * Upper tab views:
+    * main
 
-| Sub-mode | Contact | Project | Person | Selection |
-|:---------|:-------:|:-------:|:------:|:---------:|
-| Main     | x       | x       | x      | x         |
-| Udef     | x       | x       | x      |           |
-| WWW      | x       | x       |        |           |
-| Info     | x       | x       | x      |           |
+* Company (**contact**)
+  * Upper tab views:
+    * main
+    * udef
+    * interest
+    * info
+  * Lower tab views:
+    * personarchive
+    * relationarchive
+    * projectarchive
+    * activityarchive
+    * salearchive,
+    * ticketarchive
+
+* Contact (**person**)
+  * Upper tab views:
+    * main
+    * details
+    * udef
+    * interest
+    * info
+  * Lower tab views:
+    * projectarchive
+    * relationarchive
+    * activityarchive
+    * salearchive,
+    * ticketarchive
+
+* Diary (**diary**)
+  * Upper tab views:
+    * day
+    * week
+    * month
+    * view
+  * Lower tab views:
+    * activityarchive
+    * diarysalearchive
+
+* Inbox (**newinbox**)
+  * Upper tab views:
+    * main
+
+* Marketing (**emarketing**)
+  * Upper tab views:
+    * mailings
+    * mmlisttemplates
+    * mmlistlinks
+    * mmlistimages
+    * mmlistbounces
+    * mmlistforms
+    * mmlistformtemplates
+    * mmlistformsubmissions
+
+* Project (**project**)
+  * Upper tab views:
+    * main
+    * udef
+    * info
+    * image
+    * links
+  * Lower tab views:
+    * guide
+    * projectmembersarchive
+    * activityarchive
+    * salearchive
+    * ticketarchive
+
+* Reports (**report**)
+  * Upper tab views:
+    * reporterfavorites
+    * reportercontact
+    * reporterproject
+    * reportersale
+    * reporteractivity
+  * Lower tab views:
+    * reportarchive
+
+* Requests (**ticket**)
+  * Upper tab views:
+    * main
+    * findticket
+
+* Sale (**sale**)
+  * Upper tab views:
+    * main
+    * details
+    * udef
+    * links
+    * info
+  * Lower tab views:
+    * guide
+    * quote
+    * saleactivityarchive
+    * stakeholderarchive
+    * ticketarchive
+
+* Selection (**selectionsearch**)
+  * Upper tab views:
+    * main
+    * findpane
+    * detailspane
+    * newchartspane
+    * selmailingspane
+    * webpanelpane
+
+* Appointment Dialog (**appointment**)
+  * Upper tab views:
+    * main
+    * details
+    * status
+    * links
+    * udef
+
+* Document Dialog (**document**)
+  * Upper tab views:
+    * main
+    * links
+    * more
+
+* Invitations Dialog (**invitations**)
+  * Upper tab views:
+    * archive
+    * main
+
+## Minicard addresses
+
+The following minicard addresses are available:
+
+* minicontact
+* miniperson
+* miniday
+* minimonth
+* minifavourites
+* mininextday
+* mininotepad
+* minipreview
+* miniproject
+* miniprojectmembers
+* minisale
+* miniselection
+* miniselectionmembers
+* miniweek
 
 ## Examples
 
-* To go to the contact screen, `superoffice:contact`
+* To go to the contact screen, select the main details and select the person grid
+  * `contact.main.personarchive`
 
-* To go to the *day* view of the diary: `superoffice:diary.day`
+* To go to the contact screen, select the interests tab, and select the project grid in the lower tab view, and view the company information in the minicard view.
+  * `contact.interest.projectarchive.minicontact`
+
+* To go to the diary and view the *day* tab: `diary.day`
 
 <!-- Referenced links -->

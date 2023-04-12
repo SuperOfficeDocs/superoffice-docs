@@ -59,17 +59,18 @@ In the same config file, if we use duplicate soprotocol values for views, it wil
 
 ## Find current state
 
-To get the SOProtocol link that reflects the current state of the application, use the view page info option available and copy the address.
+To get the SOProtocol link that reflects the current state of the application, use the browser address bar to view the current page information and copy the address.
 
 > [!NOTE]
-> When running SuperOffice in a Firefox browser, we can use the **Copy Shortcut** option on the task button to get the address.
+> Alternatively, use the **Copy Shortcut** option in the task button when available to get the current SoProtocol.
 
 ![03][img3]
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
-[img2]: media/image002.jpg
-[img3]: media/image003.jpg
-[img4]: media/image008.jpg
+[img1]: media/project-udef.png
+[img2]: media/project-note-projectmembersarchive.png
+[img3]: media/copy-shortcut.png
+[img4]: media/contact-contact_id.png
+

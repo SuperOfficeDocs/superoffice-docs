@@ -14,11 +14,11 @@ so.envir: onsite
 
 The following example shows how we can retrieve the contact panel with contact\_id = 10 through the URL.
 
-`www.example.com/default.aspx??contact_id=10`
+`www.example.com/default.aspx?contact.main?contact_id=10`
 
 ![04][img1]
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image004.jpg
+[img1]: media/contact.png

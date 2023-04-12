@@ -15,7 +15,7 @@ so.envir: onsite
 Users create new contacts by clicking the **New** button in the GUI. Programs can’t click buttons for the user. Instead, they use SoProtocol to tell SuperOffice to act as if the button was clicked:
 
 ```html
-contact.main[mode=edit&new=true
+contact.main?contact_id=0
 ```
 
 NEW mode is just editing a blank contact, so this is equivalent to
@@ -38,12 +38,9 @@ Users need to fill required data fields such as company name, department, street
 
 The following example shows how we can create a new Contact using the URL. `contact_id=0` on the end is used to clear the person archive.
 
-`http://localhost/SuperOfficeWeb/default.aspx?main[mode=edit&new=true]?contact_id=0`
-
-![07][img1]
+`http://localhost/SuperOfficeWeb/default.aspx?contact.main[mode=edit&new=true]?contact_id=0`
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image007.jpg
-[img2]: media/image010.jpg
+[img2]: media/contact-new.png

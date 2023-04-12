@@ -12,13 +12,27 @@ so.envir: onsite
 
 # How to open the Appointment dialog
 
-The following example shows how we can open an Appointment dialog based on a given Appointment\_id. "appoinmtnet\_id = 124". When the \[dialog=stop\] parameter is used it stops the user from going to another page by any means exposed in the page such as buttons and links.
+The following example shows how to open an Appointment dialog in the current context based on a given appointment\_id, "appointment\_id = 124". If the current context is displaying the company page, the appointment dialog will appear over the company page.
 
-`www.example.com/Default.aspx?appointment[dialog=stop]?appointment_id=124`
+`www.example.com/Default.aspx?appointment?appointment_id=124`
 
-![05][img1]
+![in-context][img1]
+
+To view the appointment in the context of the diary, use SoProtocol to navigate to the diary page and then use the appointment_id to view the day where the appointment appears.
+
+`www.example.com/Default.aspx?diary.main?appointment_id=124`
+
+![diary-context][img3]
+
+Use the \[dialog=stop\] parameter to open the appointment dialog in the whole window.
+
+`www.example.com/Default.aspx?appointment[dialog=stop]?appointment_id=10`
+
+![whole-window -screenshot][img2]
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image005.jpg
+[img1]: media/appointment-default.png
+[img2]: media/appointment-whole-window.png
+[img3]: media/appointment-diary.png

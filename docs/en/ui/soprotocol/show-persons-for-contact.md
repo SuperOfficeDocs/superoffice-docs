@@ -29,4 +29,4 @@ Following is a screenshot of the web page that will be shown when the above URL 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: media/image001.jpg
+[img1]: media/contact.png
