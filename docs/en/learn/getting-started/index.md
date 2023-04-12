@@ -92,7 +92,7 @@ SuperOffice CRM is compatible with all the latest operating systems and browsers
 * [Search and find data][14]
 * [Set your personal preferences][7]
 * [How to set up your account with the right language][15]
-* [Connect your email with SuperOffice CRM][8]
+* [Connect your email, documents and diary with SuperOffice CRM][8]
 * [Use side panel to work more efficiently][4]
 * [Working with section tabs and archives][12]
 * [How do you work with activities like follow-ups, documents and emails][13]
@@ -107,7 +107,7 @@ SuperOffice CRM is compatible with all the latest operating systems and browsers
 [5]: login.md#forgot-password
 [6]: login.md
 [7]: preferences.md
-[8]: connect-email-and-documents.md
+[8]: connect-email-documents-diary.md
 [9]: ../../mobile/superoffice-mobile/learn/index.md
 
 [11]: ../basics/fav.md

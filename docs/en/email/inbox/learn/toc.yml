@@ -1,7 +1,7 @@
 items:
 - name: Overview
   href: index.md
-- name: Set up
+- name: Set up Inbox
   href: setup.md
 - name: Inbox options
   href: inbox-options.md
