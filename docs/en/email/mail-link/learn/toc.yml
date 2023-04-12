@@ -8,6 +8,8 @@ items:
 - name: Work with emails
   href: compose.md
   items:
+  - name: Compose
+    href: compose.md
   - name: Create email from SuperOffice CRM
     href: create-in-superoffice.md
   - name: Create email from Microsoft Outlook
@@ -31,3 +33,4 @@ items:
 
 - name: SuperOffice CRM options dialog
   href: settings/toc.yml
+  topicHref: settings/index.md

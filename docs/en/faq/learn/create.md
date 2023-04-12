@@ -22,6 +22,7 @@ Watch this video and find out how to create and publish FAQs in the Customer Cen
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/TLOukelJp54]
+*How to create and publish a FAQ - This video is created for Version 8, so the how-tos might differ slightly from how it looks today, but you will understand how to do the same steps in todays version.*
 
 ## Requirements
 
@@ -35,6 +36,8 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 1. [Open a request][1].
 
 1. Click the ![icon][img1] **Task** button and select **Publish to FAQ**. This takes you to the **FAQ entry properties** screen.
+
+   ![The FAQ entry properties screen -screenshot][img5]
 
 1. Edit the request name in the **Name** field if necessary.
 
@@ -81,11 +84,13 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 1. Enter the question that you want the FAQ entry to contain. By default, the first message in the request is pasted into the **Question** tab.
 
     > [!TIP]
-    > Click ![icon][img2] and select a language to spell check the message in that language.
+    > Click the ![icon][img2] **Format font** button to change the layout of the text.
 
 1. Go to the **Answer** tab and enter the answer. By default, the next messages in the request are pasted into the **Answer** tab.
 
-1. Click **OK**. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it.
+1. If you have more than one [language][6], you need to select the different **languages** in the footer and repeat the steps for **Question** and **Answer**.
+
+1. Click **OK** when you are done. The **FAQ Entry** screen is displayed, and your proposed FAQ entry is sent to the administrator, who can publish it.
 
 ## Create new FAQ
 
@@ -97,14 +102,15 @@ If you reply to an enquiry and think the same question may arise again, it is a 
 
     ![The FAQ screen -screenshot][img3]
 
-1. Follow the procedure above starting at step 3.
+1. Follow the procedure above starting at **step 3**.
 
-Because the option to create FAQ entries this way is only available to administrators, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
+Because the option to create FAQ entries this way is only available to **administrators**, there is no need for a separate publishing step in this process. The administrator can create and publish simultaneously.
 
 ## What would you like to do now?
 
 * [Edit FAQ entries][4]
 * [Add FAQ in a message][5]
+* [Set up multiple languages][6]
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md#open
@@ -112,9 +118,11 @@ Because the option to create FAQ entries this way is only available to administr
 [3]: publish.md
 [4]: edit.md
 [5]: add-to-request.md
+[6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/task.png
-[img2]: ../../../media/icons/service/spell-check.png
+[img1]: ../../../media/icons/btn-menu.png
+[img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: media/create-publish-faq.png
-[img4]: ../../../../media/icons/main-menu.png
+[img4]: ../../../media/icons/main-menu.png
+[img5]: media/faq-create.png

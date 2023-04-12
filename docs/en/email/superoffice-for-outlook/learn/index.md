@@ -3,7 +3,7 @@ uid: help-en-email-outlook
 title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 author: Bergfrid Dias
-so.date: 07.04.2022
+so.date: 07.04.2023
 keywords: email
 so.topic: concept
 language: en
@@ -26,10 +26,12 @@ To connect SuperOffice for Outlook, go to our [App Store][1] and follow the inst
 
 ## Related content
 
-* SharePoint document library
+* [Install SuperOffice for Outlook from the AppStore][1]
+* [SharePoint document library][2]
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
+[2]: ../../../admin/preferences/learn/document-library/index.md
 
 <!-- Referenced images -->
 [img1]: media/user-superoffice-outlook-sidepanel.png

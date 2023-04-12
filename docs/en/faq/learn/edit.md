@@ -27,4 +27,4 @@ language: en
 [1]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[img1]: ../../../media/icons/main-menu.png

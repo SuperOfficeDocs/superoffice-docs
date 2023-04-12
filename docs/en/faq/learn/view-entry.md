@@ -13,12 +13,13 @@ language: en
 
 # View FAQ entries (in SuperOffice)
 
-1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **FAQ**. This takes you to the FAQ screen, which contains FAQ entries in a [folder structure][1] that you can create yourself.
+1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **FAQ**. This takes you to the FAQ screen, which contains FAQ entries in a [folder structure][1] that you can create and edit yourself.
 
 2. If the list contains several sub-folders, go to the one you require.
 
 3. Click the FAQ entry you want. The **FAQ entry** screen appears and comprises two tabs:
     * **Overview**: Here you can see the question, answer and other details that make up the FAQ entry.
+    * **Details**: Gives an overview of the user that created the FAQ, the workflow, who can see it, the keywords, number of times read and the score for the FAQ.
     * **Comments**: This contains any feedback that customers have added via the customer centre. In the list, you can view the comments and publish them (or not), if they are valuable additions to an FAQ entry.
 
 To edit the current FAQ entry, click the **Edit entry** button.
@@ -42,4 +43,4 @@ To publish the current FAQ entry, select **Move forward in workflow**. To un-pub
 [7]: workflow.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[img1]: ../../../media/icons/main-menu.png

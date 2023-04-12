@@ -42,18 +42,19 @@ You can both change the name of a stage and alter which users are to have access
 1. Edit the name as required.
 1. Change which users are to have access to the stage:
     * To add users, follow the procedure above.
-    * To remove users, select the user(s) in question, click the ![icon][img1] menu button, and select **Remove access for selected users**.
+    * To remove users, select the user(s) in question, click the ![icon][img1] **Actions** button, and select **Remove access for selected users**.
 1. Click **OK**. The changes are saved.
 
 ## Delete stage
-
-> [!NOTE]
-> You cannot delete the default **Unpublished** and **Published** stages.
 
 1. Go to ![icon][img4] **Main menu** in the top bar and select **Knowledge base** > **FAQ**.
 1. Click the ![icon][img2] **Workflow** button.
 1. Click the name of the stage. This takes you to the **Edit stage** screen.
 1. Click **Delete**. If the stage is not associated with any FAQ entries, it is deleted immediately.
+
+   > [!NOTE]
+   > You cannot delete the default **Unpublished** and **Published** stages.
+
 1. If it is linked to FAQ entries, select which stage in the workflow these FAQ entries should be moved to. Select the stage you want in the **Move to workflow** list.
 1. Click **Delete**. The stage is deleted and associated FAQ entries are moved to the selected stage.
 
@@ -63,8 +64,8 @@ You can both change the name of a stage and alter which users are to have access
 1. To adjust anything before publishing, follow the procedure under [Publish FAQ entries][2].
 1. Click the **Move forward in workflow** button until **Published** is shown in the **Workflow stage** field in the **Details** tab.
 
-> [!TIP]
-> You can cancel publishing of the FAQ entry by clicking the **Move backward in workflow** button.
+   > [!TIP]
+   > You can cancel publishing of the FAQ entry by clicking the **Move backward in workflow** button.
 
 <!-- Referenced links -->
 [1]: view-entry.md
@@ -74,4 +75,4 @@ You can both change the name of a stage and alter which users are to have access
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../../common/icons/gearblack.png
 [img3]: ../../../media/icons/btn-add.png
-[img4]: ../../../../media/icons/main-menu.png
+[img4]: ../../../media/icons/main-menu.png

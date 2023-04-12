@@ -34,4 +34,4 @@ If you want details of the registered email addresses, go to ![icon][img1] **Mai
 [3]: manage-folders.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[img1]: ../../../../../media/icons/main-menu.png

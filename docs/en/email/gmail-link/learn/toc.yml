@@ -4,6 +4,7 @@ items:
 - name: Edit Gmail Link settings
   href: settings.md
 - name: Work with emails
+  topicHref: manage-senders.md
   items:
   - name: Manage senders
     href: manage-senders.md

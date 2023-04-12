@@ -8,6 +8,7 @@ items:
 - name: View email message
   href: preview.md
 - name: Work with emails
+  topicHref: compose.md
   items:
   - name: Compose email
     href: compose.md

@@ -36,4 +36,4 @@ When you register email addresses under **Knowledge base** > **Email addresses**
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../media/icons/main-menu.png
+[img2]: ../../../../../media/icons/main-menu.png
