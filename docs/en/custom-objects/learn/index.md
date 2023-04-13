@@ -64,7 +64,7 @@ If you do not have license to Configurable Screens, use the rank of the differen
 
 <!-- Referenced links -->
 [1]: udef/index.md
-[2]: extra-field/index.md
+[2]: extra-field/create.md
 [3]: extra-table/index.md
 [4]: extra-table/create.md
 [5]: ../../ui/screen-designer/learn/index.md

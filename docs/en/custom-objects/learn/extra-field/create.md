@@ -2,10 +2,12 @@
 uid: help-en-extra-fields-create
 title:  Define extra fields
 description: Define extra fields
-author: HanneGunnarsson
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: extra field, custom field
 so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -22,8 +24,8 @@ After you create an extra table, you must set up fields in the table, to allow y
 1. Browse to the table you want, point at the table name and click the button ![icon][img2].
 1. In the **New extra field** screen, select a field type in the **Type** list box.
 1. Click **OK**. The **Field properties** screen appears.
-1. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
-1. Click **OK** to save, and then **Restart NetServer**.
+1. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 3).
+1. Click **OK** to save, and then click the **Restart NetServer** button in the upper-right corner.
 
 ## Field properties
 

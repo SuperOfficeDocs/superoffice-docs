@@ -6,6 +6,8 @@ author: HanneGunnarsson
 so.date: 03.29.2023
 keywords: extra table
 so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

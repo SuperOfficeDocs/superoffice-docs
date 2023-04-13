@@ -21,7 +21,7 @@ items:
       href: udef/page-1-fields.md
     - name: Maximum number of fields
       href: udef/limitations.md
-  - name: Extra tables
+  - name: Extra tables and fields
     href: extra-table/index.md
     items:
     - name: Overview
@@ -30,10 +30,5 @@ items:
       href: screen/tables.md
     - name: Add extra tables
       href: extra-table/create.md
-  - name: Extra fields
-    href: extra-field/index.md
-    items:
-    - name: Overview
-      href: extra-field/index.md
     - name: Add extra fields
       href: extra-field/create.md

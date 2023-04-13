@@ -6,6 +6,8 @@ author: HanneGunnarsson
 so.date: 03.20.2023
 keywords: table, field, system design
 so.topic: reference
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
