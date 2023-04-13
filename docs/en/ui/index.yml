@@ -101,12 +101,6 @@ conceptualContent:
       - url: soprotocol/page-control-and-cache.md
         itemType: concept
         text: Page control and cache
-      - url: soprotocol/query-strings.md
-        itemType: concept
-        text: Query strings
-      - url: soprotocol/sop-and-superstate.md
-        itemType: concept
-        text: Sop and superstate
       - url: soprotocol/in-crmscript.md
         itemType: concept
         text: In CRMScript

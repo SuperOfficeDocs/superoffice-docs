@@ -1,25 +1,21 @@
 items:
 - name: Overview
   href: index.md
-- name: Navigation points
+- name: Navigation targets
   href: navigation-points.md
 - name: Page control and cache
   href: page-control-and-cache.md
-- name: Query strings
-  href: query-strings.md
-- name: Sop and superstate
-  href: sop-and-superstate.md
 - name: How to...
   expanded: true
   items:
   - name: Create appointment
     href: create-appointment.md
+  - name: Get contact
+    href: get-contact.md
   - name: Create contact
     href: create-contact.md
   - name: Edit contact
     href: edit-contact.md
-  - name: Get contact
-    href: get-contact.md
   - name: Show persons for contact
     href: show-persons-for-contact.md
   - name: Using SoProtocol

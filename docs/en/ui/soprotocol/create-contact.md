@@ -10,7 +10,7 @@ so.client: web
 so.envir: onsite
 ---
 
-# How to create contact
+# How to create contact (obsolete from 10.0)
 
 Users create new contacts by clicking the **New** button in the GUI. Programs can’t click buttons for the user. Instead, they use SoProtocol to tell SuperOffice to act as if the button was clicked:
 

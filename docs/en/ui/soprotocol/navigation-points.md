@@ -12,133 +12,23 @@ so.topic: reference
 
 Entity-specific navigation points are used to navigate to a specific entity in the SuperOffice CRM client. The following table lists the entity-specific navigation points.
 
-* Chat (**chat**)
-  * Upper tab views:
-    * main
+| Entity | target name | Upper Tab Views | Lower Tab Views |
+|--------|------------|-----------------|-----------------|
+| Chat | chat | main | - |
+| Company | contact | main, udef, interest, info | personarchive, relationarchive, projectarchive, activityarchive, salearchive, ticketarchive |
+| Contact | person | main, details, udef, interest, info | projectarchive, relationarchive, activityarchive, salearchive, ticketarchive |
+| Diary | diary | day, week, month, view | activityarchive, diarysalearchive |
+| Inbox | newinbox | main | - |
+| Marketing | emarketing | mailings, mmlisttemplates, mmlistlinks, mmlistimages, mmlistbounces, mmlistforms, mmlistformtemplates, mmlistformsubmissions | - |
+| Project | project | main, udef, info, image, links | guide, projectmembersarchive, activityarchive, salearchive, ticketarchive |
+| Reports | report | reporterfavorites, reportercontact, reporterproject, reportersale, reporteractivity | reportarchive |
+| Requests | ticket | main, findticket | - |
+| Sale | sale | main, details, udef, links, info | guide, quote, saleactivityarchive, stakeholderarchive, ticketarchive |
+| Selection | selectionsearch | main, findpane, detailspane, newchartspane, selmailingspane, webpanelpane | - |
+| Appointment Dialog | appointment | main, details, status, links, udef | - |
+| Document Dialog | document | main, links, more | - |
+| Invitations Dialog | invitations | archive, main | - |
 
-* Company (**contact**)
-  * Upper tab views:
-    * main
-    * udef
-    * interest
-    * info
-  * Lower tab views:
-    * personarchive
-    * relationarchive
-    * projectarchive
-    * activityarchive
-    * salearchive,
-    * ticketarchive
-
-* Contact (**person**)
-  * Upper tab views:
-    * main
-    * details
-    * udef
-    * interest
-    * info
-  * Lower tab views:
-    * projectarchive
-    * relationarchive
-    * activityarchive
-    * salearchive,
-    * ticketarchive
-
-* Diary (**diary**)
-  * Upper tab views:
-    * day
-    * week
-    * month
-    * view
-  * Lower tab views:
-    * activityarchive
-    * diarysalearchive
-
-* Inbox (**newinbox**)
-  * Upper tab views:
-    * main
-
-* Marketing (**emarketing**)
-  * Upper tab views:
-    * mailings
-    * mmlisttemplates
-    * mmlistlinks
-    * mmlistimages
-    * mmlistbounces
-    * mmlistforms
-    * mmlistformtemplates
-    * mmlistformsubmissions
-
-* Project (**project**)
-  * Upper tab views:
-    * main
-    * udef
-    * info
-    * image
-    * links
-  * Lower tab views:
-    * guide
-    * projectmembersarchive
-    * activityarchive
-    * salearchive
-    * ticketarchive
-
-* Reports (**report**)
-  * Upper tab views:
-    * reporterfavorites
-    * reportercontact
-    * reporterproject
-    * reportersale
-    * reporteractivity
-  * Lower tab views:
-    * reportarchive
-
-* Requests (**ticket**)
-  * Upper tab views:
-    * main
-    * findticket
-
-* Sale (**sale**)
-  * Upper tab views:
-    * main
-    * details
-    * udef
-    * links
-    * info
-  * Lower tab views:
-    * guide
-    * quote
-    * saleactivityarchive
-    * stakeholderarchive
-    * ticketarchive
-
-* Selection (**selectionsearch**)
-  * Upper tab views:
-    * main
-    * findpane
-    * detailspane
-    * newchartspane
-    * selmailingspane
-    * webpanelpane
-
-* Appointment Dialog (**appointment**)
-  * Upper tab views:
-    * main
-    * details
-    * status
-    * links
-    * udef
-
-* Document Dialog (**document**)
-  * Upper tab views:
-    * main
-    * links
-    * more
-
-* Invitations Dialog (**invitations**)
-  * Upper tab views:
-    * archive
-    * main
 
 ## Minicard addresses
 

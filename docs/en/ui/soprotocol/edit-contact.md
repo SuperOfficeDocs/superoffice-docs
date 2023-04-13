@@ -10,7 +10,7 @@ so.client: web
 so.envir: onsite
 ---
 
-# How to edit a specific contact
+# How to edit a specific contact (obsolete from 10.0)
 
 You can switch to the edit mode and edit a specific contact with SoProtocol like this: `contact.main[mode=edit]`
 
