@@ -3,9 +3,11 @@ uid: help-en-languages-category
 title: Work with external categories
 description: Work with external categories
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.29.2023
 keywords: Settings and maintenance
 so.topic: help
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -34,7 +36,7 @@ Example: The internal category "Support" can then have an external category for 
 8. Click **OK**. The external category is created, and displayed under **External categories** in the **Customer language** screen.
 
 > [!NOTE]
-> The external categories are displayed only in the **Customer language** screen. They are not shown under **System settings** > **Categories** in SuperOffice Service.
+> The external categories are displayed only in the **Customer language** screen.
 
 ## Delete external categories
 
