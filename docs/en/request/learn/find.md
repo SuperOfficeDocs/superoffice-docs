@@ -46,6 +46,7 @@ The simplest way to search for requests is to use the search field available in 
 ### Show only own categories
 
 1. Select ![icon][img2] **Personal settings** > **Preferences**.
+1. Select the **Request** group.
 1. Set **Show only own categories** to Yes.
 1. Click **Save**.
 
@@ -70,7 +71,8 @@ The result contains a list of requests that match the criteria specified above. 
 * Sort the requests by clicking the appropriate column heading.
 * Select a row to display the content of that request in the preview section.
 * Open a request by double-clicking the relevant row.
-* Click the ![icon][img1] **Task** button in the upper-right corner to access the change the view options.
+* In the lower-left corner click the button to **Show/Hide preview**.
+* On the ![icon][img1] **Task** button in the lower-left corner you can access different tasks to run on selected requests.
 
 > [!TIP]
 > The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information**, or **Not read by owner**.

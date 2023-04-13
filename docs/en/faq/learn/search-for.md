@@ -28,4 +28,4 @@ If there are lots of FAQ entries in a folder, it may be difficult to find the on
 [2]: manage-folders.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[img1]: ../../../media/icons/main-menu.png

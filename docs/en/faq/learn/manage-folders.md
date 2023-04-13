@@ -57,4 +57,4 @@ Before you delete an FAQ folder, you must remove all the entries in it. You do t
 [3]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[img1]: ../../../media/icons/main-menu.png

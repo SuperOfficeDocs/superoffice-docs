@@ -91,7 +91,7 @@ items:
       topicHref: ../admin/preferences/learn/index.md
     - name: Privacy
       href: ../security/privacy/learn/admin/toc.yml
-      topicHref: ../security/privacy/learn/admin/implementation-guide.md
+      topicHref: ../security/privacy/learn/implementation-guide.md
     - name: Quote/Sync
       href: ../quote/learn/admin/toc.yml
       topicHref: ../quote/learn/admin/index.md

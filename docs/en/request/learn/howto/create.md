@@ -136,7 +136,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 [9]: ../../reply-templates/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/service/msg-toolbar.png
+[img1]: ../../../../media/icons/format-font.png
 [img2]: ../../../../../common/icons/attachments-theme.png
 [img3]: ../../../../../common/icons/copy-paste-icon.png
 [img4]: ../../../../../common/icons/stop.png

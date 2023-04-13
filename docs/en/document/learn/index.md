@@ -67,6 +67,7 @@ To ensure that you can communicate with your clients in their own language (wher
 
 ## Related topics
 
+* [Connect email, documents and diary][9]
 * [Open documents][1]
 * [Upload documents][2]
 * [Create new documents][3]
@@ -85,6 +86,7 @@ To ensure that you can communicate with your clients in their own language (wher
 [6]: delete.md
 [7]: lock.md
 [8]: ../../email/mail-link/learn/archive.md
+[9]: ../../learn/getting-started/connect-email-documents-diary.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png
