@@ -7,11 +7,12 @@ so.date: 03.23.2023
 keywords: Service, SOAP
 so.topic: howto
 so.user: admin
+so.user.tooltip: Settings and maintenance
 so.envir: onsite
 language: en
 ---
 
-# Configure SOAP interface
+# Configure SOAP interface (ONSITE only)
 
 ## Add an IP address range
 

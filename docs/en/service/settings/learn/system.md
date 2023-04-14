@@ -1,26 +1,36 @@
 ---
-uid: help-en-service-settings-system
-title: Global preferences for Service
-description: Global preferences for Service
+uid: help-en-admin-global-preferences
+title: Global preferences
+description: Global preferences
 author: SuperOffice RnD
 so.date: 03.27.2023
-keywords: Service, settings
+keywords: prefrences, settings, global
 so.topic: help
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Global preferences for Service
+# Global preferences
 
-[!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
+The **Global Preferences** under ![icon][img1] **Preferences** is used to configure some of the key preferences in SuperOffice CRM.
 
-The **System** screen is used to configure some of the key characteristics of SuperOffice Service.
+Areas you can configure preferences for:
 
-## What would you like to find out more about?
-
-* [Global preferences for Service][1]
+* Statistics
+* Functions
+* E-mail
+* Marketing
+* Grouped lists
+* Mobile CRM
+* Sale
+* [SuperOffice Service system settings][1]
+* System
+* Targets
+* Data mirroring
+* [SMS configuration][4]
 * [SMTP][2] (ONSITE only)
-* [Password][3]
-* [SMS][4]
+* [Customer Centre password policy][3]
 
 <!-- Referenced links -->
 [1]: settings.md
@@ -29,3 +39,4 @@ The **System** screen is used to configure some of the key characteristics of Su
 [4]: sms.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

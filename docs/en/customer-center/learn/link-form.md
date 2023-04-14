@@ -6,6 +6,8 @@ author: Bergfrid Dias
 so.date: 03.20.2023
 keywords: form, Customer Center
 so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -37,7 +39,7 @@ You need to [create a web form][3] before you add it to your Customer centre. Re
 
 1. Click **Save** to save your settings. The web form you have added will now be available on the Contact us page.
 
-When a customer completes this form, the information and details will automatically be saved in SuperOffice Service as a request under the category and the priority you have defined for this form.
+When a customer completes this form, the information and details will automatically be saved in SuperOffice as a request under the category and the priority you have defined for this form.
 
 ![Web form on the Contact us page -screenshot][img4]
 

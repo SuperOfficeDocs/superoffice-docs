@@ -11,6 +11,9 @@ language: en
 
 # Common profiles
 
+> [!NOTE]
+> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
 Common profiles are linked to a [role][2] and apply to all users who have that role. You configure common profiles in the **Show profiles** screen.
 
 ## Profile types

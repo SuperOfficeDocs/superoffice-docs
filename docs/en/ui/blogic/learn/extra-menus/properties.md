@@ -11,6 +11,9 @@ language: en
 
 # Menu properties
 
+> [!NOTE]
+> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
 Here you can edit the properties of options on extra menus and web panels.
 
 * **Base Program**: Select a base program if you want the content of the URL field to be added to a select base program. For this to work, the text in the URL field must start with &action=...

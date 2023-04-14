@@ -12,7 +12,7 @@ language: en
 # Add function to menu button
 
 > [!NOTE]
-> You can also add a macro to the **Task** button when you [create or edit a macro][1].
+> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
 
 To add a macro to the **Task** button in the Company screen, Contact screen, Request screen, or **Message** tab:
 
@@ -24,6 +24,9 @@ To add a macro to the **Task** button in the Company screen, Contact screen, Req
 6. Select the desired position in the **Position** list (0 = top).
 7. Click **OK**.
 8. Open a request, contact, company or message, click the ![icon][img2] **Task** button and check that the button is displayed and functions as desired.
+
+> [!NOTE]
+> You can also add a macro to the **Task** button when you [create or edit a macro][1].
 
 <!-- Referenced links -->
 [1]: ../../../../automation/crmscript/learn/create-macro.md

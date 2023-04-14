@@ -6,10 +6,7 @@ author: Bergfrid Dias
 so.date: 02.23.2023
 keywords: custom object
 so.topic: concept
-so.version: 10
-so.lang: en
-so.envir:
-so.client:
+language: en
 so.user: admin
 so.user.tooltip: Settings and maintenance
 ---

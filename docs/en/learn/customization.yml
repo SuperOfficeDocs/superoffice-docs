@@ -29,9 +29,8 @@ landingContent:
           url: ../admin/options/learn/index.md
       - linkListType: reference
         links:
-        - text: System settings in Service
-          url: ../service/settings/learn/index.md
-
+        - text: Global preferences
+          url: ../service/settings/learn/system.md
 
   # Card
   - title: Custom objects

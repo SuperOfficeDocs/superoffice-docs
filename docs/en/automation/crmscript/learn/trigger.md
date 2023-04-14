@@ -18,7 +18,7 @@ Triggers are scripts that are executed for specific events in the system, such a
 
 CRMScript can make your working day more efficient by automating various tasks. You can define that a certain event in the system will set in motion (trigger) one or more predefined actions. No knowledge of scripting is required to get this to work.
 
-**Example from SuperOffice Service**: When a request is closed, the customer must be notified of this by email. We can create a macro that contains a series of actions to create and send this email notification. This macro is run automatically when a request is closed. The actions in the macro will load the relevant request, fetch the right reply template and send an email to the customer that the request is closed.
+**Example from SuperOffice**: When a request is closed, the customer must be notified of this by email. We can create a macro that contains a series of actions to create and send this email notification. This macro is run automatically when a request is closed. The actions in the macro will load the relevant request, fetch the right reply template and send an email to the customer that the request is closed.
 
 This is an example of a very simple trigger. You can for instance add conditions to the actions in a trigger, by changing the default **Always** setting.
 
@@ -27,8 +27,8 @@ This is an example of a very simple trigger. You can for instance add conditions
 We will now create a series of actions based on the example above.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Click **CRMScript** and select the **Triggers** tab.
-1. Click the **New trigger (macro)** button. The **Choose trigger** screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select **Request closed**, so that the macro is run when a request is closed in SuperOffice Service.
+1. Click ![icon][img2] **CRMScript** and select the **Triggers** tab.
+1. Click the **New trigger (macro)** button. The **Choose trigger** screen displays the available triggers. These are events in the system that can be used to set off actions/macros. In our example we select **Request closed**, so that the macro is run when a request is closed in SuperOffice.
 1. Type "request" in the search field and select the trigger called **Request closed**.
 1. Enter a description of the trigger in the **Description** field.
 1. Select **Enabled**.
@@ -55,3 +55,4 @@ You have now created a macro that sends an email with "Request closed" to the cu
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/gearblack.png
+[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

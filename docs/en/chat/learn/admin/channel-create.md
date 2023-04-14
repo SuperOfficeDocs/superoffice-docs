@@ -7,6 +7,7 @@ so.date: 03.24.2023
 keywords: chat
 so.topic: howto
 so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -113,7 +114,7 @@ The preview on the right displays the chat window with the current settings.
 
 ## Pre-chat form
 
-In the **Pre-chat form** tab, you can define how customers should identify themselves (or not) in the chat. In addition, you can enable automated FAQ suggestions from SuperOffice Service.
+In the **Pre-chat form** tab, you can define how customers should identify themselves (or not) in the chat. In addition, you can enable automated FAQ suggestions from SuperOffice.
 
 | Field | Description |
 |---|---|
@@ -134,7 +135,7 @@ When the customer or the agent ends the chat, you can display a post-chat form w
 | Enable post-chat form | Select this option to show the post-chat form to the customer when the chat is finished. |
 | Header | Enter a short header text. |
 | Message | Enter a short message to the customer. |
-| Enable transcript | Select this option to enable transcript. The customer can enter an email address to send the transcript to. The reply template for the transcript can be found in SuperOffice Service. |
+| Enable transcript | Select this option to enable transcript. The customer can enter an email address to send the transcript to. The reply template for the transcript can be found in SuperOffice. |
 
 The preview on the right displays the chat window with the current settings.
 

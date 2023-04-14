@@ -1,29 +1,19 @@
 ---
-uid: help-en-service-settings-system-password
-title: Password
-description: Password
+uid: help-en-service-global-preferences-customer-centre-password
+title: Password policy for the Customer Centre
+description: Global preferences for Customer centre password policy
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.29.2023
 keywords: Service, settings
 so.topic: help
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Password
+# Password policy for the Customer Centre
 
-## How to change your password
-
-1. Select ![icon][img1] **Personal Settings > Change password**.
-2. Enter the new password in the **New password** field.
-3. Enter it again in the **Repeat password** field to ensure you entered it correctly first time round.
-4. Click **OK**.
-
-> [!NOTE]
-> Multiple authentication methods are available, so it depends of what authentication method your user is set up with and if you can change the password here. Check out our FAQ if you have [forgotten your password][1].
-
-## Password for the Customer Centre
-
-The **Global preferences** screen contains the following options under **Customer Centre password policy**:
+Go to ![icon][img1] **Preferences** in the navigator and select the tab **Global Preferences**. The section for **Customer Centre password policy** contains the following options:
 
 * **Hide contact password in request management**: If checked, when displaying contacts, passwords are shown as dots.
 * **Require complex password when customer password is set**: If checked, contacts' passwords must meet the minimum requirements set out below.
@@ -34,7 +24,6 @@ The **Global preferences** screen contains the following options under **Custome
 * **Minimum number of special characters in password**: The smallest number of special characters permitted in a password. Special characters are non-numeric, non-alphabetic characters, such as asterisks and question marks.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
+[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

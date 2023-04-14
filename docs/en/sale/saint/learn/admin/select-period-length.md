@@ -7,6 +7,7 @@ so.date: 02.22.2023
 keywords: sale, SAINT, counter
 so.topic: howto
 so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -18,7 +19,7 @@ You can specify the period (duration in days) for the following counters:
 
 * Number of completed/non-completed activities in period
 * Number of completed/non-completed sales in period
-* Number of completed/non-completed requests during period (if you are using SuperOffice Service)
+* Number of completed/non-completed requests during period (if your company has any SuperOffice Service licences)
 
 [!include[Define counter](../../../learn/includes/def-counter.md)]
 

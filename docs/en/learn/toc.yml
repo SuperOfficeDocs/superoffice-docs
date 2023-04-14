@@ -231,7 +231,7 @@ items:
       href: ../admin/import/learn/toc.yml
       topicHref: ../admin/import/learn/index.md
     - name: System events
-      href: ../admin/learn/system-events.md
+      topicHref: ../admin/learn/system-events.md
       items:
       - name: Overview
         href: ../admin/learn/system-event.md

@@ -7,11 +7,12 @@ so.date: 06.29.2022
 keywords: Service, Data Exchange
 so.topic: reference
 so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 so.envir: onsite
 ---
 
-# Data Exchange (Onsite)
+# Data Exchange (ONSITE only)
 
 [!include[Requirement](../../../../learn/includes/req-expander-services.md)]
 

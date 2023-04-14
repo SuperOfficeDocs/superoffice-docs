@@ -11,6 +11,9 @@ language: en
 
 # Global profiles
 
+> [!NOTE]
+> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
 A global profile is used as the default profile and applies to all those who do not have a personal profile or who have not been assigned a common profile on the basis of the role they belong to.
 
 ## Create

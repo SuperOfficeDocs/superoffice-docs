@@ -4,22 +4,27 @@ title: Add navigator group and extra menu
 description: Add navigator group and extra menu
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: navigator group
 so.topic: help
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Add navigator group and extra menu
 
-To illustrate this functionality, we will add a new navigator group in the navigator to the left in SuperOffice Service. We will add an extra menu in the new navigator group. In our example, we will add the navigator group "Websites" with some useful websites.
+> [!NOTE]
+> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
+To illustrate this functionality, we will add a new navigator group in the navigator to the left in SuperOffice. We will add an extra menu in the new navigator group. In our example, we will add the navigator group "Websites" with some useful websites.
 
 1. Select ![icon][img2] **System settings** > **System design** > **Extra menus**.
 
-2. Hold the mouse pointer over the **Navigator** folder and click ![icon][1].
+2. Hold the mouse pointer over the **Navigator** folder and click ![icon][img1].
 
 3. Enter "Websites" in the **Label** field (maximum 14 characters).
 
-4. Optional: Click the button **Browse** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog.
+4. Optional: Click the button **Choose** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog.
 
 5. Click **Position** to choose where the new navigator group should be positioned (0 = top).
 

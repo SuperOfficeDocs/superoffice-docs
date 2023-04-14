@@ -6,10 +6,12 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Service, onsite
 so.topic: reference
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# SOAP
+# SOAP (ONSITE only)
 
 In the SOAP screen, you can configure the SOAP interface. You can set up 3 types of port access:
 

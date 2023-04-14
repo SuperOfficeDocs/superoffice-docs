@@ -10,8 +10,13 @@ language: en
 so.envir: onsite
 ---
 
-# SMTP
+# SMTP (ONSITE only)
 
-The **SMTP** tab in the **System** screen contains the following options:
+Go to ![icon][img1] **Preferences** in the navigator and select the tab **Global Preferences**. The section **SMTP** contains the following options:
 
 [!include[List of fields for mailings](../../../marketing/learn/includes/mailing-smtp-fields.md)]
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

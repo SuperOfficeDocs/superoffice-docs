@@ -4,8 +4,10 @@ title: Logging in
 description: Log in to activate your SuperOffice CRM account using a SuperOffice CRM password or a single sign-on option.
 author: SuperOffice RnD
 so.date: 03.02.2023
-keywords: CRM, sign in, login
+keywords: CRM, sign in, login, password
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -121,16 +123,15 @@ You must belong to the *User level 0* role or another role that gives you login 
 > [!TIP]
 > You can also open Settings and maintenance via the **File** menu in SuperOffice CRM for Windows, or from the main menu in SuperOffice CRM for Web.
 
-## How do I get to Service?
+## How to change your password
 
-1. Click ![icon][img2] **Service** in the navigator on the left side of the screen.
+1. Select ![icon][img1] **Personal Settings > Change password**.
+2. Enter the new password in the **New password** field.
+3. Enter it again in the **Repeat password** field to ensure you entered it correctly first time round.
+4. Click **OK**.
 
-1. Click **Log in**. This takes you to the dashboard in SuperOffice Service.
-
-> [!TIP]
-> To log out of SuperOffice Service, click the ![icon][img1] Personal settings icon at the top of the screen, and select **Log out**.
-
-In SuperOffice Service you can also log in as the same user in several browsers or multiple sessions.
+> [!NOTE]
+> Multiple authentication methods are available, so it depends of what authentication method your user is set up with and if you can change the password here. Check out our FAQ if you have [forgotten your password][8].
 
 ## Related content
 
@@ -149,10 +150,10 @@ Have trouble logging in? [Check our FAQs][1] for different log-in issues.
 [5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
 [7]: ../../identity-management/single-sign-on/index.md
+[8]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
-[img2]: ../../../../common/icons/nav-cs.png
 [img3]: media/create-password-strenght-indicator.png
 [img4]: media/login-screen.png
 [img5]: media/activate-now-email.png

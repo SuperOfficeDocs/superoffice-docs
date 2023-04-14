@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 02.22.2023
 keywords: CRMScript
 so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -15,10 +17,9 @@ CRMScript is a feature that allows you to automate tasks in or modify the behavi
 
 The different tools, macros and scripts, triggers and scheduled tasks, have different capabilities and are used for different purposes. The following is an introduction to the flexible and powerful embedded scripting tool – CRMScript.
 
-**To access the functions in CRMScript:**
+## Access CRMScript
 
-* In SuperOffice Service, select ![icon][img1] **System settings** > **System design** > **CRMScript**.
-* In SuperOffice Settings and maintenance, click **CRMScript** in the navigator.
+To access the functions in CRMScript open SuperOffice Settings and maintenance and click ![icon][img1] **CRMScript** in the navigator.
 
 Triggers are scripts that are executed for specific events in the system, such as when a new sale is created or a request gets closed. Triggers can react silently to what happens, or block the operation and show an explanation back to the user.
 
@@ -45,4 +46,4 @@ Triggers are scripts that are executed for specific events in the system, such a
 [7]: ../reference/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu-small.png
+[img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

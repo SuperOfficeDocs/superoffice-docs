@@ -4,8 +4,9 @@ items:
 - name: Work with preferences
   href: update-preferences.md
 
-- name: Global preferences for Service
+- name: Global preferences
   href: ../../../service/settings/learn/toc.yml
+  topicHref: ../../../service/settings/learn/system.md
 
 - name: Video meetings
   href: video-meetings/index.md

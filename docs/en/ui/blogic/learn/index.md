@@ -1,7 +1,7 @@
 ---
 uid: help-en-system-design-screen
-title: System design screen
-description: System design screen
+title: System design
+description: System design
 author: SuperOffice RnD
 so.date: 02.23.2023
 keywords: System design
@@ -11,11 +11,11 @@ so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# System design screen
+# System design
 
-To use your SuperOffice Service in a more efficient way and make the system even smarter, advanced options are available via the Expander Services Development Tools.
+To use your SuperOffice in a more efficient way and make the system even smarter, advanced options are available via the Expander Services Development Tools.
 
-Provided you have access to the Development Tools, you will see the System design menu in the System settings menu. You can create extra tables and fields, make customized workflows via CRM Script, and edit the different Service screens to fit your particular business needs. These tools help you customize SuperOffice Service in such a way that your request system becomes even more powerful and relevant to your company.
+Provided you have access to the Development Tools, you will see the ![icon][img1] **System design** in the navigator. You can create extra tables and fields, make customised workflows via CRM Script, and edit the different main cards and dialogs to fit your particular business needs. These tools help you customise SuperOffice in such a way that your request system becomes even more powerful and relevant to your company.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
@@ -43,9 +43,9 @@ Here you can find the advanced options in SuperOffice.
 
 [CRMScript][2] is a feature that allows you to automate tasks in or modify the behaviour of SuperOffice. Automating tasks and processes will help you to save time and will make you and your colleague more productive.
 
-## Create extra tables and fields in Service
+## Create extra tables and fields
 
-By [adding extra tables and fields][1] to SuperOffice Service you can save a variety of information important for your company. You can add extra tables and fields to your Requests, Contact cards or Company cards.
+By [adding extra tables and fields][1] to SuperOffice you can save a variety of information important for your company. You can add extra tables and fields to your Requests, Contact cards or Company cards.
 
 <!-- Referenced links -->
 [1]: ../../../custom-objects/learn/extra-table/index.md
@@ -63,3 +63,4 @@ By [adding extra tables and fields][1] to SuperOffice Service you can save a var
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

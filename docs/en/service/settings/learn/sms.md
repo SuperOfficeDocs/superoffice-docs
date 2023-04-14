@@ -6,20 +6,22 @@ author: SuperOffice RnD
 so.date: 03.27.2023
 keywords: Service, settings
 so.topic: help
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# SMS
+# SMS configuration in Global preferences
 
-The **SMS** tab in the **System** screen contains options for configuring SMS solutions in SuperOffice Service.
+Go to ![icon][img1] **Preferences** in the navigator and select the tab **Global Preferences**. The section for **SMS configuration** contains options for configuring SMS solutions in SuperOffice.
 
 ## General fields
 
 [!include[Settings for mailings - SMS](../../../marketing/learn/includes/mailing-settings-sms.md)]
 
-## Testing the SMS settings
+### Testing the SMS settings
 
-To test the settings, enter a mobile phone number and some text, and then click **Send test**.
+To test the settings, enter a mobile phone number and some text, and then click **Test**.
 
 ## Fields available for Original Intelecom (ONSITE only)
 
@@ -36,3 +38,8 @@ To test the settings, enter a mobile phone number and some text, and then click 
 * **SMS endpoint**: This field should contain code that allows SuperOffice Service to recognize an incoming SMS.
 * **User name**: Here you enter the user name provided to you by PsWinCom.
 * **Password**: Here you enter the password provided to you by PsWinCom.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

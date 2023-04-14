@@ -7,6 +7,7 @@ so.date: 02.22.2023
 keywords: chat
 so.topic: howto
 so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
