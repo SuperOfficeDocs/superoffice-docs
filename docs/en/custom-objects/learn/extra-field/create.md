@@ -13,14 +13,14 @@ language: en
 
 # Add extra fields
 
-After you create an extra table, you must set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
+After you create an [extra table][1], you must set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
 
 > [!TIP]
 > Extra fields can for instance be used as search criteria and columns in sales in SuperOffice CRM.
 
 **Steps:**
 
-1. Click the **System design** button in the navigator. Then select the **Tables** tab.
+1. Click the ![icon][img1] **System design** button in the navigator. Then select the **Tables** tab.
 1. Browse to the table you want, point at the table name and click the button ![icon][img2].
 1. In the **New extra field** screen, select a field type in the **Type** list box.
 1. Click **OK**. The **Field properties** screen appears.
@@ -65,6 +65,8 @@ After you create an extra table, you must set up fields in the table, to allow y
 | View in relational choosers | If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You created an extra table called "Products" with an extra table relation to the **Requests** table. In this way you can search for and add products in the **Extra fields** tab when creating new requests. By selecting **View in relational choosers** for specific fields in the "Products" table, these fields are available as search fields in the **Extra fields** tab. |
 
 <!-- Referenced links -->
+[1]: ../extra-table/create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png
 [img2]: ../../../../media/icons/service/new-field.png

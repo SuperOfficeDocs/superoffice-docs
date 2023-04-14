@@ -26,8 +26,6 @@ items:
     items:
     - name: Overview
       href: extra-table/index.md
-    - name: Tables
-      href: screen/tables.md
     - name: Add extra tables
       href: extra-table/create.md
     - name: Add extra fields

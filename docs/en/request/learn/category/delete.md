@@ -2,7 +2,7 @@
 uid: help-en-request-category-delete
 title: Delete category
 description: Delete category
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 03.29.2023
 keywords: request, category
 so.topic: howto

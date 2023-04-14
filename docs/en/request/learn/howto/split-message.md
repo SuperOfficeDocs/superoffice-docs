@@ -2,7 +2,7 @@
 uid: help-en-request-message-split
 title: Split message
 description: Split message
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 so.date: 03.16.2023
 keywords: request, message
 so.topic: howto

@@ -1,6 +1,6 @@
 ---
 uid: help-en-request-fav
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 title: Add requests to the favorites list
 description: Add requests to the favorites list
 so.date: 06.29.2022

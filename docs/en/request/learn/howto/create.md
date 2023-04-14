@@ -1,6 +1,6 @@
 ---
 uid: help-en-request-create
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 title: Create a request
 description: Create a request
 so.date: 02.20.2023

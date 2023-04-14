@@ -2,7 +2,7 @@
 uid: help-en-request-message-edit
 title: Edit message
 description: How to edit a message in a request in SuperOffice
-author: HanneGunnarsson
+author: Hanne Gunnarsson
 keywords: request
 so.topic: howto
 so.user: user
