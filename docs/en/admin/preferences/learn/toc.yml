@@ -5,8 +5,8 @@ items:
   href: update-preferences.md
 
 - name: Global preferences
-  href: ../../../service/settings/learn/toc.yml
-  topicHref: ../../../service/settings/learn/system.md
+  href: global-preferences/toc.yml
+  topicHref: global-preferences//system.md
 
 - name: Video meetings
   href: video-meetings/index.md
@@ -15,6 +15,7 @@ items:
     href: video-meetings/configure-video-meetings.md
   - name: Email setup for video meetings
     href: video-meetings/email-setup-in-superoffice.md
+
 - name: Document library
   href: document-library/index.md
   items:

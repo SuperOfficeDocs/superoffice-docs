@@ -151,10 +151,10 @@ items:
       topicHref: ../automation/crmscript/learn/index.md
 
     - name: Requests
-      topicHref: ../service/settings/learn/index.md
+      topicHref: ../request/learn/index-admin.md
       items:
       - name: Overview
-        href: ../service/settings/learn/index.md
+        href: ../request/learn/index-admin.md
       - name: Categories
         href: ../request/learn/category/index.md
         items:

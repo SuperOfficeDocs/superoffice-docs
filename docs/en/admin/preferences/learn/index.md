@@ -6,12 +6,14 @@ author: Bergfrid Dias
 so.date: 03.21.2023
 keywords: settings, preferences
 so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Preferences
 
-In the Preferences screen you can set preferences for the whole system (globally), one database, one user group or an individual user. Preferences that can be set only on a global (system) level, are located in the **Global preferences** tab.
+In the Preferences screen you can set preferences for the whole system (globally), one database, one user group or an individual user. Preferences that can be set only on a global (system) level, are located in the **[Global preferences][1]** tab.
 
 Users can edit the settings of [individual preferences][4] to customize them for their own use by going to **Personal settings** > **Preferences** in the Top bar. The preferences available to the user depend on what is specified in Settings and maintenance.
 
@@ -40,7 +42,7 @@ You can choose which settings to display in the list based on the level they are
 
 ## <a id="global" />Global preferences (for the whole system)
 
-Some preferences can be set only on a global level:
+Some [preferences][1] can be set only on a global level:
 
 * Statistics
 * Functions
@@ -56,7 +58,7 @@ Some preferences can be set only on a global level:
 
 ### Change global preferences
 
-To edit these preferences, go to the **Preferences** screen and select the **Global preferences** tab.
+To edit these preferences, go to the ![icon][img1] **Preferences** screen and select the **Global preferences** tab.
 
 * The various preferences are divided into sections.
 * Hold the mouse-pointer over a preference to display additional info.
@@ -82,6 +84,7 @@ On the left is the **Preferences** list containing all the preferences defined f
 * Free-text search
 * Functions
 * Grouped lists
+* In-app communication
 * Marketing
 * Notifications via email + popup + SMS
 * Request
@@ -113,9 +116,11 @@ The contents of these columns are defined in the **Setting** dialog. [How to add
 You can sort the rows in the columns by clicking on the required column heading. Click the column heading onc to sort in reverse order.
 
 <!-- Referenced links -->
-[8]: video-meetings/index.md
-[9]: document-library/index.md
+[1]: global-preferences/system.md
 [3]: update-preferences.md
 [4]: update-preferences.md#personal
+[8]: video-meetings/index.md
+[9]: document-library/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-admin-preferences-active.png
