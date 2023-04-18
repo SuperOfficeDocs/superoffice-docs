@@ -1,0 +1,128 @@
+﻿items:
+- uid: CRMScript.NetServer.CalMethod
+  children:
+  - CRMScript.NetServer.CalMethod.Unknown
+  - CRMScript.NetServer.CalMethod.Add
+  - CRMScript.NetServer.CalMethod.Cancel
+  - CRMScript.NetServer.CalMethod.Counter
+  - CRMScript.NetServer.CalMethod.DeclineCounter
+  - CRMScript.NetServer.CalMethod.Publish
+  - CRMScript.NetServer.CalMethod.Refresh
+  - CRMScript.NetServer.CalMethod.Reply
+  - CRMScript.NetServer.CalMethod.Request
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: CalMethod
+  syntax: 
+    content: CalMethod
+  summary: "Valid iCal methods"
+  name: CalMethod
+  nameWithType: CalMethod
+  fullName: CRMScript.NetServer.CalMethod
+- uid: CRMScript.NetServer.CalMethod.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Unknown
+  syntax: 
+    content: CalMethod.Unknown
+  summary: "Method is not known"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.CalMethod.Unknown
+- uid: CRMScript.NetServer.CalMethod.Add
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Add
+  syntax: 
+    content: CalMethod.Add
+  summary: "Add one or more instances to an existing event."
+  name: Add
+  nameWithType: Add
+  fullName: CRMScript.NetServer.CalMethod.Add
+- uid: CRMScript.NetServer.CalMethod.Cancel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Cancel
+  syntax: 
+    content: CalMethod.Cancel
+  summary: "Cancel one or more instances of an existing event."
+  name: Cancel
+  nameWithType: Cancel
+  fullName: CRMScript.NetServer.CalMethod.Cancel
+- uid: CRMScript.NetServer.CalMethod.Counter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Counter
+  syntax: 
+    content: CalMethod.Counter
+  summary: "Counter a REQUEST with an alternative proposal, Sent by an 'Attendee' to the 'Organizer'. "
+  name: Counter
+  nameWithType: Counter
+  fullName: CRMScript.NetServer.CalMethod.Counter
+- uid: CRMScript.NetServer.CalMethod.DeclineCounter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.DeclineCounter
+  syntax: 
+    content: CalMethod.DeclineCounter
+  summary: "Decline a counter proposal. Sent to an 'Attendee' by the 'Organizer'."
+  name: DeclineCounter
+  nameWithType: DeclineCounter
+  fullName: CRMScript.NetServer.CalMethod.DeclineCounter
+- uid: CRMScript.NetServer.CalMethod.Publish
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Publish
+  syntax: 
+    content: CalMethod.Publish
+  summary: "Post notification of an event. Used primarily as a method of advertising the existence of an event."
+  name: Publish
+  nameWithType: Publish
+  fullName: CRMScript.NetServer.CalMethod.Publish
+- uid: CRMScript.NetServer.CalMethod.Refresh
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Refresh
+  syntax: 
+    content: CalMethod.Refresh
+  summary: "A request is sent to an 'Organizer' by an 'Attendee' asking for the latest version of an event to be resent to the requester."
+  name: Refresh
+  nameWithType: Refresh
+  fullName: CRMScript.NetServer.CalMethod.Refresh
+- uid: CRMScript.NetServer.CalMethod.Reply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Reply
+  syntax: 
+    content: CalMethod.Reply
+  summary: "Reply to an event request. Clients may set their status ('partstat') to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED."
+  name: Reply
+  nameWithType: Reply
+  fullName: CRMScript.NetServer.CalMethod.Reply
+- uid: CRMScript.NetServer.CalMethod.Request
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CalMethod.Request
+  syntax: 
+    content: CalMethod.Request
+  summary: "Make a request for an event. This is an explicit invitation to one or more 'Attendees'. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH."
+  name: Request
+  nameWithType: Request
+  fullName: CRMScript.NetServer.CalMethod.Request
+references:
+- uid: CRMScript.NetServer.CalMethod
+  commentId: T:CRMScript.NetServer.CalMethod
+  isExternal: true
+  name: CalMethod
+  nameWithType: CalMethod
+  fullName: CRMScript.NetServer.CalMethod

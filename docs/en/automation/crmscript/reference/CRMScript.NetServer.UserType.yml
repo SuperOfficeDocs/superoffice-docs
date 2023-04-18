@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.UserType
+  children:
+  - CRMScript.NetServer.UserType.Unknown
+  - CRMScript.NetServer.UserType.InternalAssociate
+  - CRMScript.NetServer.UserType.ResourceAssociate
+  - CRMScript.NetServer.UserType.ExternalAssociate
+  - CRMScript.NetServer.UserType.AnonymousAssociate
+  - CRMScript.NetServer.UserType.SystemAssociate
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: UserType
+  syntax: 
+    content: UserType
+  summary: "Type of user (or resource). Mapps functionally to associate type - but with different binary values."
+  name: UserType
+  nameWithType: UserType
+  fullName: CRMScript.NetServer.UserType
+- uid: CRMScript.NetServer.UserType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UserType.Unknown
+  syntax: 
+    content: UserType.Unknown
+  summary: ""
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.UserType.Unknown
+- uid: CRMScript.NetServer.UserType.InternalAssociate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UserType.InternalAssociate
+  syntax: 
+    content: UserType.InternalAssociate
+  summary: "Employee"
+  name: InternalAssociate
+  nameWithType: InternalAssociate
+  fullName: CRMScript.NetServer.UserType.InternalAssociate
+- uid: CRMScript.NetServer.UserType.ResourceAssociate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UserType.ResourceAssociate
+  syntax: 
+    content: UserType.ResourceAssociate
+  summary: "Resource - meeting room, projector or other bookable resource"
+  name: ResourceAssociate
+  nameWithType: ResourceAssociate
+  fullName: CRMScript.NetServer.UserType.ResourceAssociate
+- uid: CRMScript.NetServer.UserType.ExternalAssociate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UserType.ExternalAssociate
+  syntax: 
+    content: UserType.ExternalAssociate
+  summary: "External person"
+  name: ExternalAssociate
+  nameWithType: ExternalAssociate
+  fullName: CRMScript.NetServer.UserType.ExternalAssociate
+- uid: CRMScript.NetServer.UserType.AnonymousAssociate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UserType.AnonymousAssociate
+  syntax: 
+    content: UserType.AnonymousAssociate
+  summary: "Anonymous user - used by applications that does not require logins"
+  name: AnonymousAssociate
+  nameWithType: AnonymousAssociate
+  fullName: CRMScript.NetServer.UserType.AnonymousAssociate
+- uid: CRMScript.NetServer.UserType.SystemAssociate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UserType.SystemAssociate
+  syntax: 
+    content: UserType.SystemAssociate
+  summary: "System user - mainly used for integrations or administration.  This user is not goverened sentry"
+  name: SystemAssociate
+  nameWithType: SystemAssociate
+  fullName: CRMScript.NetServer.UserType.SystemAssociate
+references:
+- uid: CRMScript.NetServer.UserType
+  commentId: T:CRMScript.NetServer.UserType
+  isExternal: true
+  name: UserType
+  nameWithType: UserType
+  fullName: CRMScript.NetServer.UserType

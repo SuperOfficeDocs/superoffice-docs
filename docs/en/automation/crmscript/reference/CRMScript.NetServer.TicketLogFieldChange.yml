@@ -1,0 +1,572 @@
+﻿items:
+- uid: CRMScript.NetServer.TicketLogFieldChange
+  children:
+  - CRMScript.NetServer.TicketLogFieldChange.CreatedAt
+  - CRMScript.NetServer.TicketLogFieldChange.Title
+  - CRMScript.NetServer.TicketLogFieldChange.LastChanged
+  - CRMScript.NetServer.TicketLogFieldChange.ReadByOwner
+  - CRMScript.NetServer.TicketLogFieldChange.ReadByCustomer
+  - CRMScript.NetServer.TicketLogFieldChange.ClosedAt
+  - CRMScript.NetServer.TicketLogFieldChange.TimeToClose
+  - CRMScript.NetServer.TicketLogFieldChange.RealTimeToClose
+  - CRMScript.NetServer.TicketLogFieldChange.TimeToReply
+  - CRMScript.NetServer.TicketLogFieldChange.RealTimeToReply
+  - CRMScript.NetServer.TicketLogFieldChange.Author
+  - CRMScript.NetServer.TicketLogFieldChange.CreatedBy
+  - CRMScript.NetServer.TicketLogFieldChange.AlertLevel
+  - CRMScript.NetServer.TicketLogFieldChange.AlertTimeout
+  - CRMScript.NetServer.TicketLogFieldChange.ConnectId
+  - CRMScript.NetServer.TicketLogFieldChange.FilterId
+  - CRMScript.NetServer.TicketLogFieldChange.ReadStatus
+  - CRMScript.NetServer.TicketLogFieldChange.HasAttachment
+  - CRMScript.NetServer.TicketLogFieldChange.DisplayFilter
+  - CRMScript.NetServer.TicketLogFieldChange.AlertStop
+  - CRMScript.NetServer.TicketLogFieldChange.RepliedAt
+  - CRMScript.NetServer.TicketLogFieldChange.SLevel
+  - CRMScript.NetServer.TicketLogFieldChange.Category
+  - CRMScript.NetServer.TicketLogFieldChange.Priority
+  - CRMScript.NetServer.TicketLogFieldChange.CustId
+  - CRMScript.NetServer.TicketLogFieldChange.Status
+  - CRMScript.NetServer.TicketLogFieldChange.FirstReadByUser
+  - CRMScript.NetServer.TicketLogFieldChange.Activate
+  - CRMScript.NetServer.TicketLogFieldChange.OwnedBy
+  - CRMScript.NetServer.TicketLogFieldChange.AgentId
+  - CRMScript.NetServer.TicketLogFieldChange.DbiKey
+  - CRMScript.NetServer.TicketLogFieldChange.DbiLastSyncronized
+  - CRMScript.NetServer.TicketLogFieldChange.ExtraField
+  - CRMScript.NetServer.TicketLogFieldChange.FirstReadByOwner
+  - CRMScript.NetServer.TicketLogFieldChange.TicketStatus
+  - CRMScript.NetServer.TicketLogFieldChange.Deadline
+  - CRMScript.NetServer.TicketLogFieldChange.FilterAddress
+  - CRMScript.NetServer.TicketLogFieldChange.TimeSpentInternally
+  - CRMScript.NetServer.TicketLogFieldChange.TimeSpentExternally
+  - CRMScript.NetServer.TicketLogFieldChange.TimeSpentQueue
+  - CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentInternally
+  - CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentExternally
+  - CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentQueue
+  - CRMScript.NetServer.TicketLogFieldChange.NumReplies
+  - CRMScript.NetServer.TicketLogFieldChange.NumMessages
+  - CRMScript.NetServer.TicketLogFieldChange.Tags
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TicketLogFieldChange
+  syntax: 
+    content: TicketLogFieldChange
+  summary: "Value representing a ticket field that changed"
+  name: TicketLogFieldChange
+  nameWithType: TicketLogFieldChange
+  fullName: CRMScript.NetServer.TicketLogFieldChange
+- uid: CRMScript.NetServer.TicketLogFieldChange.CreatedAt
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.CreatedAt
+  syntax: 
+    content: TicketLogFieldChange.CreatedAt
+  summary: "CreatedAt changed"
+  name: CreatedAt
+  nameWithType: CreatedAt
+  fullName: CRMScript.NetServer.TicketLogFieldChange.CreatedAt
+- uid: CRMScript.NetServer.TicketLogFieldChange.Title
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Title
+  syntax: 
+    content: TicketLogFieldChange.Title
+  summary: "Title changed"
+  name: Title
+  nameWithType: Title
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Title
+- uid: CRMScript.NetServer.TicketLogFieldChange.LastChanged
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.LastChanged
+  syntax: 
+    content: TicketLogFieldChange.LastChanged
+  summary: "LastChanged changed"
+  name: LastChanged
+  nameWithType: LastChanged
+  fullName: CRMScript.NetServer.TicketLogFieldChange.LastChanged
+- uid: CRMScript.NetServer.TicketLogFieldChange.ReadByOwner
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.ReadByOwner
+  syntax: 
+    content: TicketLogFieldChange.ReadByOwner
+  summary: "ReadByOwner changed"
+  name: ReadByOwner
+  nameWithType: ReadByOwner
+  fullName: CRMScript.NetServer.TicketLogFieldChange.ReadByOwner
+- uid: CRMScript.NetServer.TicketLogFieldChange.ReadByCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.ReadByCustomer
+  syntax: 
+    content: TicketLogFieldChange.ReadByCustomer
+  summary: "ReadByCustomer changed"
+  name: ReadByCustomer
+  nameWithType: ReadByCustomer
+  fullName: CRMScript.NetServer.TicketLogFieldChange.ReadByCustomer
+- uid: CRMScript.NetServer.TicketLogFieldChange.ClosedAt
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.ClosedAt
+  syntax: 
+    content: TicketLogFieldChange.ClosedAt
+  summary: "ClosedAt changed"
+  name: ClosedAt
+  nameWithType: ClosedAt
+  fullName: CRMScript.NetServer.TicketLogFieldChange.ClosedAt
+- uid: CRMScript.NetServer.TicketLogFieldChange.TimeToClose
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.TimeToClose
+  syntax: 
+    content: TicketLogFieldChange.TimeToClose
+  summary: "TimeToClose changed"
+  name: TimeToClose
+  nameWithType: TimeToClose
+  fullName: CRMScript.NetServer.TicketLogFieldChange.TimeToClose
+- uid: CRMScript.NetServer.TicketLogFieldChange.RealTimeToClose
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.RealTimeToClose
+  syntax: 
+    content: TicketLogFieldChange.RealTimeToClose
+  summary: "RealTimeToClose changed"
+  name: RealTimeToClose
+  nameWithType: RealTimeToClose
+  fullName: CRMScript.NetServer.TicketLogFieldChange.RealTimeToClose
+- uid: CRMScript.NetServer.TicketLogFieldChange.TimeToReply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.TimeToReply
+  syntax: 
+    content: TicketLogFieldChange.TimeToReply
+  summary: "TimeToReply changed"
+  name: TimeToReply
+  nameWithType: TimeToReply
+  fullName: CRMScript.NetServer.TicketLogFieldChange.TimeToReply
+- uid: CRMScript.NetServer.TicketLogFieldChange.RealTimeToReply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.RealTimeToReply
+  syntax: 
+    content: TicketLogFieldChange.RealTimeToReply
+  summary: "RealTimeToReply changed"
+  name: RealTimeToReply
+  nameWithType: RealTimeToReply
+  fullName: CRMScript.NetServer.TicketLogFieldChange.RealTimeToReply
+- uid: CRMScript.NetServer.TicketLogFieldChange.Author
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Author
+  syntax: 
+    content: TicketLogFieldChange.Author
+  summary: "Author changed"
+  name: Author
+  nameWithType: Author
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Author
+- uid: CRMScript.NetServer.TicketLogFieldChange.CreatedBy
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.CreatedBy
+  syntax: 
+    content: TicketLogFieldChange.CreatedBy
+  summary: "CreatedBy changed"
+  name: CreatedBy
+  nameWithType: CreatedBy
+  fullName: CRMScript.NetServer.TicketLogFieldChange.CreatedBy
+- uid: CRMScript.NetServer.TicketLogFieldChange.AlertLevel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.AlertLevel
+  syntax: 
+    content: TicketLogFieldChange.AlertLevel
+  summary: "AlertLevel changed"
+  name: AlertLevel
+  nameWithType: AlertLevel
+  fullName: CRMScript.NetServer.TicketLogFieldChange.AlertLevel
+- uid: CRMScript.NetServer.TicketLogFieldChange.AlertTimeout
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.AlertTimeout
+  syntax: 
+    content: TicketLogFieldChange.AlertTimeout
+  summary: "AlertTimeout changed"
+  name: AlertTimeout
+  nameWithType: AlertTimeout
+  fullName: CRMScript.NetServer.TicketLogFieldChange.AlertTimeout
+- uid: CRMScript.NetServer.TicketLogFieldChange.ConnectId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.ConnectId
+  syntax: 
+    content: TicketLogFieldChange.ConnectId
+  summary: "ConnectId changed"
+  name: ConnectId
+  nameWithType: ConnectId
+  fullName: CRMScript.NetServer.TicketLogFieldChange.ConnectId
+- uid: CRMScript.NetServer.TicketLogFieldChange.FilterId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.FilterId
+  syntax: 
+    content: TicketLogFieldChange.FilterId
+  summary: "FilterId changed"
+  name: FilterId
+  nameWithType: FilterId
+  fullName: CRMScript.NetServer.TicketLogFieldChange.FilterId
+- uid: CRMScript.NetServer.TicketLogFieldChange.ReadStatus
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.ReadStatus
+  syntax: 
+    content: TicketLogFieldChange.ReadStatus
+  summary: "ReadStatus changed"
+  name: ReadStatus
+  nameWithType: ReadStatus
+  fullName: CRMScript.NetServer.TicketLogFieldChange.ReadStatus
+- uid: CRMScript.NetServer.TicketLogFieldChange.HasAttachment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.HasAttachment
+  syntax: 
+    content: TicketLogFieldChange.HasAttachment
+  summary: "HasAttachment changed"
+  name: HasAttachment
+  nameWithType: HasAttachment
+  fullName: CRMScript.NetServer.TicketLogFieldChange.HasAttachment
+- uid: CRMScript.NetServer.TicketLogFieldChange.DisplayFilter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.DisplayFilter
+  syntax: 
+    content: TicketLogFieldChange.DisplayFilter
+  summary: "DisplayFilter changed"
+  name: DisplayFilter
+  nameWithType: DisplayFilter
+  fullName: CRMScript.NetServer.TicketLogFieldChange.DisplayFilter
+- uid: CRMScript.NetServer.TicketLogFieldChange.AlertStop
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.AlertStop
+  syntax: 
+    content: TicketLogFieldChange.AlertStop
+  summary: "AlertStop changed"
+  name: AlertStop
+  nameWithType: AlertStop
+  fullName: CRMScript.NetServer.TicketLogFieldChange.AlertStop
+- uid: CRMScript.NetServer.TicketLogFieldChange.RepliedAt
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.RepliedAt
+  syntax: 
+    content: TicketLogFieldChange.RepliedAt
+  summary: "RepliedAt changed"
+  name: RepliedAt
+  nameWithType: RepliedAt
+  fullName: CRMScript.NetServer.TicketLogFieldChange.RepliedAt
+- uid: CRMScript.NetServer.TicketLogFieldChange.SLevel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.SLevel
+  syntax: 
+    content: TicketLogFieldChange.SLevel
+  summary: "SLevel changed"
+  name: SLevel
+  nameWithType: SLevel
+  fullName: CRMScript.NetServer.TicketLogFieldChange.SLevel
+- uid: CRMScript.NetServer.TicketLogFieldChange.Category
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Category
+  syntax: 
+    content: TicketLogFieldChange.Category
+  summary: "Category changed"
+  name: Category
+  nameWithType: Category
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Category
+- uid: CRMScript.NetServer.TicketLogFieldChange.Priority
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Priority
+  syntax: 
+    content: TicketLogFieldChange.Priority
+  summary: "Priority changed"
+  name: Priority
+  nameWithType: Priority
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Priority
+- uid: CRMScript.NetServer.TicketLogFieldChange.CustId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.CustId
+  syntax: 
+    content: TicketLogFieldChange.CustId
+  summary: "CustId changed"
+  name: CustId
+  nameWithType: CustId
+  fullName: CRMScript.NetServer.TicketLogFieldChange.CustId
+- uid: CRMScript.NetServer.TicketLogFieldChange.Status
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Status
+  syntax: 
+    content: TicketLogFieldChange.Status
+  summary: "Status changed"
+  name: Status
+  nameWithType: Status
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Status
+- uid: CRMScript.NetServer.TicketLogFieldChange.FirstReadByUser
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.FirstReadByUser
+  syntax: 
+    content: TicketLogFieldChange.FirstReadByUser
+  summary: "FirstReadByUser changed"
+  name: FirstReadByUser
+  nameWithType: FirstReadByUser
+  fullName: CRMScript.NetServer.TicketLogFieldChange.FirstReadByUser
+- uid: CRMScript.NetServer.TicketLogFieldChange.Activate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Activate
+  syntax: 
+    content: TicketLogFieldChange.Activate
+  summary: "Activate changed"
+  name: Activate
+  nameWithType: Activate
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Activate
+- uid: CRMScript.NetServer.TicketLogFieldChange.OwnedBy
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.OwnedBy
+  syntax: 
+    content: TicketLogFieldChange.OwnedBy
+  summary: "OwnedBy changed"
+  name: OwnedBy
+  nameWithType: OwnedBy
+  fullName: CRMScript.NetServer.TicketLogFieldChange.OwnedBy
+- uid: CRMScript.NetServer.TicketLogFieldChange.AgentId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.AgentId
+  syntax: 
+    content: TicketLogFieldChange.AgentId
+  summary: "AgentId changed"
+  name: AgentId
+  nameWithType: AgentId
+  fullName: CRMScript.NetServer.TicketLogFieldChange.AgentId
+- uid: CRMScript.NetServer.TicketLogFieldChange.DbiKey
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.DbiKey
+  syntax: 
+    content: TicketLogFieldChange.DbiKey
+  summary: "DbiKey changed"
+  name: DbiKey
+  nameWithType: DbiKey
+  fullName: CRMScript.NetServer.TicketLogFieldChange.DbiKey
+- uid: CRMScript.NetServer.TicketLogFieldChange.DbiLastSyncronized
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.DbiLastSyncronized
+  syntax: 
+    content: TicketLogFieldChange.DbiLastSyncronized
+  summary: "DbiLastSyncronized changed"
+  name: DbiLastSyncronized
+  nameWithType: DbiLastSyncronized
+  fullName: CRMScript.NetServer.TicketLogFieldChange.DbiLastSyncronized
+- uid: CRMScript.NetServer.TicketLogFieldChange.ExtraField
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.ExtraField
+  syntax: 
+    content: TicketLogFieldChange.ExtraField
+  summary: "ExtraField changed"
+  name: ExtraField
+  nameWithType: ExtraField
+  fullName: CRMScript.NetServer.TicketLogFieldChange.ExtraField
+- uid: CRMScript.NetServer.TicketLogFieldChange.FirstReadByOwner
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.FirstReadByOwner
+  syntax: 
+    content: TicketLogFieldChange.FirstReadByOwner
+  summary: "FirstReadByOwner changed"
+  name: FirstReadByOwner
+  nameWithType: FirstReadByOwner
+  fullName: CRMScript.NetServer.TicketLogFieldChange.FirstReadByOwner
+- uid: CRMScript.NetServer.TicketLogFieldChange.TicketStatus
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.TicketStatus
+  syntax: 
+    content: TicketLogFieldChange.TicketStatus
+  summary: "TicketStatus changed"
+  name: TicketStatus
+  nameWithType: TicketStatus
+  fullName: CRMScript.NetServer.TicketLogFieldChange.TicketStatus
+- uid: CRMScript.NetServer.TicketLogFieldChange.Deadline
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Deadline
+  syntax: 
+    content: TicketLogFieldChange.Deadline
+  summary: "Deadline changed"
+  name: Deadline
+  nameWithType: Deadline
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Deadline
+- uid: CRMScript.NetServer.TicketLogFieldChange.FilterAddress
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.FilterAddress
+  syntax: 
+    content: TicketLogFieldChange.FilterAddress
+  summary: "FilterAddress changed"
+  name: FilterAddress
+  nameWithType: FilterAddress
+  fullName: CRMScript.NetServer.TicketLogFieldChange.FilterAddress
+- uid: CRMScript.NetServer.TicketLogFieldChange.TimeSpentInternally
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.TimeSpentInternally
+  syntax: 
+    content: TicketLogFieldChange.TimeSpentInternally
+  summary: "TimeSpentInternally changed"
+  name: TimeSpentInternally
+  nameWithType: TimeSpentInternally
+  fullName: CRMScript.NetServer.TicketLogFieldChange.TimeSpentInternally
+- uid: CRMScript.NetServer.TicketLogFieldChange.TimeSpentExternally
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.TimeSpentExternally
+  syntax: 
+    content: TicketLogFieldChange.TimeSpentExternally
+  summary: "TimeSpentExternally changed"
+  name: TimeSpentExternally
+  nameWithType: TimeSpentExternally
+  fullName: CRMScript.NetServer.TicketLogFieldChange.TimeSpentExternally
+- uid: CRMScript.NetServer.TicketLogFieldChange.TimeSpentQueue
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.TimeSpentQueue
+  syntax: 
+    content: TicketLogFieldChange.TimeSpentQueue
+  summary: "TimeSpentQueue changed"
+  name: TimeSpentQueue
+  nameWithType: TimeSpentQueue
+  fullName: CRMScript.NetServer.TicketLogFieldChange.TimeSpentQueue
+- uid: CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentInternally
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.RealTimeSpentInternally
+  syntax: 
+    content: TicketLogFieldChange.RealTimeSpentInternally
+  summary: "RealTimeSpentInternally changed"
+  name: RealTimeSpentInternally
+  nameWithType: RealTimeSpentInternally
+  fullName: CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentInternally
+- uid: CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentExternally
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.RealTimeSpentExternally
+  syntax: 
+    content: TicketLogFieldChange.RealTimeSpentExternally
+  summary: "RealTimeSpentExternally changed"
+  name: RealTimeSpentExternally
+  nameWithType: RealTimeSpentExternally
+  fullName: CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentExternally
+- uid: CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentQueue
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.RealTimeSpentQueue
+  syntax: 
+    content: TicketLogFieldChange.RealTimeSpentQueue
+  summary: "RealTimeSpentQueue changed"
+  name: RealTimeSpentQueue
+  nameWithType: RealTimeSpentQueue
+  fullName: CRMScript.NetServer.TicketLogFieldChange.RealTimeSpentQueue
+- uid: CRMScript.NetServer.TicketLogFieldChange.NumReplies
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.NumReplies
+  syntax: 
+    content: TicketLogFieldChange.NumReplies
+  summary: "NumReplies changed"
+  name: NumReplies
+  nameWithType: NumReplies
+  fullName: CRMScript.NetServer.TicketLogFieldChange.NumReplies
+- uid: CRMScript.NetServer.TicketLogFieldChange.NumMessages
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.NumMessages
+  syntax: 
+    content: TicketLogFieldChange.NumMessages
+  summary: "NumMessages changed"
+  name: NumMessages
+  nameWithType: NumMessages
+  fullName: CRMScript.NetServer.TicketLogFieldChange.NumMessages
+- uid: CRMScript.NetServer.TicketLogFieldChange.Tags
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogFieldChange.Tags
+  syntax: 
+    content: TicketLogFieldChange.Tags
+  summary: "Tags changed"
+  name: Tags
+  nameWithType: Tags
+  fullName: CRMScript.NetServer.TicketLogFieldChange.Tags
+references:
+- uid: CRMScript.NetServer.TicketLogFieldChange
+  commentId: T:CRMScript.NetServer.TicketLogFieldChange
+  isExternal: true
+  name: TicketLogFieldChange
+  nameWithType: TicketLogFieldChange
+  fullName: CRMScript.NetServer.TicketLogFieldChange

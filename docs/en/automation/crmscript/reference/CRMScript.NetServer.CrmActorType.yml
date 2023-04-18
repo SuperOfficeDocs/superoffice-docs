@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.CrmActorType
+  children:
+  - CRMScript.NetServer.CrmActorType.Unknown
+  - CRMScript.NetServer.CrmActorType.Contact
+  - CRMScript.NetServer.CrmActorType.Person
+  - CRMScript.NetServer.CrmActorType.Project
+  - CRMScript.NetServer.CrmActorType.Sale
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: CrmActorType
+  syntax: 
+    content: CrmActorType
+  summary: "Actor type within the CRM, system, a subset of the SuperOffice Entity types"
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: CRMScript.NetServer.CrmActorType
+- uid: CRMScript.NetServer.CrmActorType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CrmActorType.Unknown
+  syntax: 
+    content: CrmActorType.Unknown
+  summary: "Unknown - used when initializing"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.CrmActorType.Unknown
+- uid: CRMScript.NetServer.CrmActorType.Contact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CrmActorType.Contact
+  syntax: 
+    content: CrmActorType.Contact
+  summary: "Crm Customer"
+  name: Contact
+  nameWithType: Contact
+  fullName: CRMScript.NetServer.CrmActorType.Contact
+- uid: CRMScript.NetServer.CrmActorType.Person
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CrmActorType.Person
+  syntax: 
+    content: CrmActorType.Person
+  summary: "Person"
+  name: Person
+  nameWithType: Person
+  fullName: CRMScript.NetServer.CrmActorType.Person
+- uid: CRMScript.NetServer.CrmActorType.Project
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CrmActorType.Project
+  syntax: 
+    content: CrmActorType.Project
+  summary: "Project"
+  name: Project
+  nameWithType: Project
+  fullName: CRMScript.NetServer.CrmActorType.Project
+- uid: CRMScript.NetServer.CrmActorType.Sale
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CrmActorType.Sale
+  syntax: 
+    content: CrmActorType.Sale
+  summary: "Sale"
+  name: Sale
+  nameWithType: Sale
+  fullName: CRMScript.NetServer.CrmActorType.Sale
+references:
+- uid: CRMScript.NetServer.CrmActorType
+  commentId: T:CRMScript.NetServer.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: CRMScript.NetServer.CrmActorType

@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.MessageActionType
+  children:
+  - CRMScript.NetServer.MessageActionType.None
+  - CRMScript.NetServer.MessageActionType.Reply
+  - CRMScript.NetServer.MessageActionType.ReplyAll
+  - CRMScript.NetServer.MessageActionType.Forward
+  - CRMScript.NetServer.MessageActionType.InternalComment
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: MessageActionType
+  syntax: 
+    content: MessageActionType
+  summary: "Ticket message actions"
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: CRMScript.NetServer.MessageActionType
+- uid: CRMScript.NetServer.MessageActionType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageActionType.None
+  syntax: 
+    content: MessageActionType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.MessageActionType.None
+- uid: CRMScript.NetServer.MessageActionType.Reply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageActionType.Reply
+  syntax: 
+    content: MessageActionType.Reply
+  summary: "Reply to message"
+  name: Reply
+  nameWithType: Reply
+  fullName: CRMScript.NetServer.MessageActionType.Reply
+- uid: CRMScript.NetServer.MessageActionType.ReplyAll
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageActionType.ReplyAll
+  syntax: 
+    content: MessageActionType.ReplyAll
+  summary: "Reply to all"
+  name: ReplyAll
+  nameWithType: ReplyAll
+  fullName: CRMScript.NetServer.MessageActionType.ReplyAll
+- uid: CRMScript.NetServer.MessageActionType.Forward
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageActionType.Forward
+  syntax: 
+    content: MessageActionType.Forward
+  summary: "Forward message"
+  name: Forward
+  nameWithType: Forward
+  fullName: CRMScript.NetServer.MessageActionType.Forward
+- uid: CRMScript.NetServer.MessageActionType.InternalComment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageActionType.InternalComment
+  syntax: 
+    content: MessageActionType.InternalComment
+  summary: "Add internal commnet"
+  name: InternalComment
+  nameWithType: InternalComment
+  fullName: CRMScript.NetServer.MessageActionType.InternalComment
+references:
+- uid: CRMScript.NetServer.MessageActionType
+  commentId: T:CRMScript.NetServer.MessageActionType
+  isExternal: true
+  name: MessageActionType
+  nameWithType: MessageActionType
+  fullName: CRMScript.NetServer.MessageActionType

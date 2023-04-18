@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.TtlFlags
+  children:
+  - CRMScript.NetServer.TtlFlags.None
+  - CRMScript.NetServer.TtlFlags.Imported
+  - CRMScript.NetServer.TtlFlags.MassOperation
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TtlFlags
+  syntax: 
+    content: TtlFlags
+  summary: "Flag bits for extra information in TravelTransactionLog"
+  name: TtlFlags
+  nameWithType: TtlFlags
+  fullName: CRMScript.NetServer.TtlFlags
+- uid: CRMScript.NetServer.TtlFlags.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TtlFlags.None
+  syntax: 
+    content: TtlFlags.None
+  summary: "No extra information."
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TtlFlags.None
+- uid: CRMScript.NetServer.TtlFlags.Imported
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TtlFlags.Imported
+  syntax: 
+    content: TtlFlags.Imported
+  summary: "The data change was caused by an Import operation."
+  name: Imported
+  nameWithType: Imported
+  fullName: CRMScript.NetServer.TtlFlags.Imported
+- uid: CRMScript.NetServer.TtlFlags.MassOperation
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TtlFlags.MassOperation
+  syntax: 
+    content: TtlFlags.MassOperation
+  summary: "The data change was done by a Mass Operation."
+  name: MassOperation
+  nameWithType: MassOperation
+  fullName: CRMScript.NetServer.TtlFlags.MassOperation
+references:
+- uid: CRMScript.NetServer.TtlFlags
+  commentId: T:CRMScript.NetServer.TtlFlags
+  isExternal: true
+  name: TtlFlags
+  nameWithType: TtlFlags
+  fullName: CRMScript.NetServer.TtlFlags

@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.DeltaState
+  children:
+  - CRMScript.NetServer.DeltaState.Unknown
+  - CRMScript.NetServer.DeltaState.Draft
+  - CRMScript.NetServer.DeltaState.Published
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DeltaState
+  syntax: 
+    content: DeltaState
+  summary: "State of delta"
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: CRMScript.NetServer.DeltaState
+- uid: CRMScript.NetServer.DeltaState.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DeltaState.Unknown
+  syntax: 
+    content: DeltaState.Unknown
+  summary: "No state applicable for this delta, or not yet decided"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.DeltaState.Unknown
+- uid: CRMScript.NetServer.DeltaState.Draft
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DeltaState.Draft
+  syntax: 
+    content: DeltaState.Draft
+  summary: "Draft"
+  name: Draft
+  nameWithType: Draft
+  fullName: CRMScript.NetServer.DeltaState.Draft
+- uid: CRMScript.NetServer.DeltaState.Published
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DeltaState.Published
+  syntax: 
+    content: DeltaState.Published
+  summary: "Published"
+  name: Published
+  nameWithType: Published
+  fullName: CRMScript.NetServer.DeltaState.Published
+references:
+- uid: CRMScript.NetServer.DeltaState
+  commentId: T:CRMScript.NetServer.DeltaState
+  isExternal: true
+  name: DeltaState
+  nameWithType: DeltaState
+  fullName: CRMScript.NetServer.DeltaState

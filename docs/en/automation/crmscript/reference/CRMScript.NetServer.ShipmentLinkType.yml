@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ShipmentLinkType
+  children:
+  - CRMScript.NetServer.ShipmentLinkType.Unknown
+  - CRMScript.NetServer.ShipmentLinkType.Link
+  - CRMScript.NetServer.ShipmentLinkType.Image
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ShipmentLinkType
+  syntax: 
+    content: ShipmentLinkType
+  summary: "Customer action type (clicked a link, viewed an image etc)"
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: CRMScript.NetServer.ShipmentLinkType
+- uid: CRMScript.NetServer.ShipmentLinkType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkType.Unknown
+  syntax: 
+    content: ShipmentLinkType.Unknown
+  summary: "Unknown - should not be used."
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.ShipmentLinkType.Unknown
+- uid: CRMScript.NetServer.ShipmentLinkType.Link
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkType.Link
+  syntax: 
+    content: ShipmentLinkType.Link
+  summary: "Clicked a link in the shipment"
+  name: Link
+  nameWithType: Link
+  fullName: CRMScript.NetServer.ShipmentLinkType.Link
+- uid: CRMScript.NetServer.ShipmentLinkType.Image
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkType.Image
+  syntax: 
+    content: ShipmentLinkType.Image
+  summary: "Viewed an image in the shipment"
+  name: Image
+  nameWithType: Image
+  fullName: CRMScript.NetServer.ShipmentLinkType.Image
+references:
+- uid: CRMScript.NetServer.ShipmentLinkType
+  commentId: T:CRMScript.NetServer.ShipmentLinkType
+  isExternal: true
+  name: ShipmentLinkType
+  nameWithType: ShipmentLinkType
+  fullName: CRMScript.NetServer.ShipmentLinkType

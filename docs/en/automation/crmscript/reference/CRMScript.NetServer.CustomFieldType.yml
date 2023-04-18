@@ -1,0 +1,212 @@
+﻿items:
+- uid: CRMScript.NetServer.CustomFieldType
+  children:
+  - CRMScript.NetServer.CustomFieldType.Unknown
+  - CRMScript.NetServer.CustomFieldType.Integer
+  - CRMScript.NetServer.CustomFieldType.ShortText
+  - CRMScript.NetServer.CustomFieldType.LongText
+  - CRMScript.NetServer.CustomFieldType.Date
+  - CRMScript.NetServer.CustomFieldType.Blob
+  - CRMScript.NetServer.CustomFieldType.Checkbox
+  - CRMScript.NetServer.CustomFieldType.MdoList
+  - CRMScript.NetServer.CustomFieldType.Decimal
+  - CRMScript.NetServer.CustomFieldType.DateTime
+  - CRMScript.NetServer.CustomFieldType.Time
+  - CRMScript.NetServer.CustomFieldType.TimeSpan
+  - CRMScript.NetServer.CustomFieldType.RelationTo
+  - CRMScript.NetServer.CustomFieldType.Attachment
+  - CRMScript.NetServer.CustomFieldType.DynamicLink
+  - CRMScript.NetServer.CustomFieldType.ListText
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: CustomFieldType
+  syntax: 
+    content: CustomFieldType
+  summary: "Custom Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal, 9 = DateTime, 10 = Time, 11 = TimeSpan, 12 = Relation, 13 = Attachment"
+  name: CustomFieldType
+  nameWithType: CustomFieldType
+  fullName: CRMScript.NetServer.CustomFieldType
+- uid: CRMScript.NetServer.CustomFieldType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Unknown
+  syntax: 
+    content: CustomFieldType.Unknown
+  summary: "Unknown/Undefined field type: 0"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.CustomFieldType.Unknown
+- uid: CRMScript.NetServer.CustomFieldType.Integer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Integer
+  syntax: 
+    content: CustomFieldType.Integer
+  summary: "Number (32-bit integer): '[I:123]'"
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.NetServer.CustomFieldType.Integer
+- uid: CRMScript.NetServer.CustomFieldType.ShortText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.ShortText
+  syntax: 
+    content: CustomFieldType.ShortText
+  summary: "Short text, up to 255 characters: 'text value'"
+  name: ShortText
+  nameWithType: ShortText
+  fullName: CRMScript.NetServer.CustomFieldType.ShortText
+- uid: CRMScript.NetServer.CustomFieldType.LongText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.LongText
+  syntax: 
+    content: CustomFieldType.LongText
+  summary: "Long text: 'long text value'"
+  name: LongText
+  nameWithType: LongText
+  fullName: CRMScript.NetServer.CustomFieldType.LongText
+- uid: CRMScript.NetServer.CustomFieldType.Date
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Date
+  syntax: 
+    content: CustomFieldType.Date
+  summary: "Date: '[D:06/19/2019]'"
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.NetServer.CustomFieldType.Date
+- uid: CRMScript.NetServer.CustomFieldType.Blob
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Blob
+  syntax: 
+    content: CustomFieldType.Blob
+  summary: "Binary blob, encoded as Base64 string."
+  name: Blob
+  nameWithType: Blob
+  fullName: CRMScript.NetServer.CustomFieldType.Blob
+- uid: CRMScript.NetServer.CustomFieldType.Checkbox
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Checkbox
+  syntax: 
+    content: CustomFieldType.Checkbox
+  summary: "Boolean, stored as an integer, 1 = checked/true, 0 = unchecked/false: '[I:1]'"
+  name: Checkbox
+  nameWithType: Checkbox
+  fullName: CRMScript.NetServer.CustomFieldType.Checkbox
+- uid: CRMScript.NetServer.CustomFieldType.MdoList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.MdoList
+  syntax: 
+    content: CustomFieldType.MdoList
+  summary: "MDO List item reference, stored as an integer ID: '[I:123]'"
+  name: MdoList
+  nameWithType: MdoList
+  fullName: CRMScript.NetServer.CustomFieldType.MdoList
+- uid: CRMScript.NetServer.CustomFieldType.Decimal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Decimal
+  syntax: 
+    content: CustomFieldType.Decimal
+  summary: "Decimal / floating point, stored as a double: '[F:3.14159]'"
+  name: Decimal
+  nameWithType: Decimal
+  fullName: CRMScript.NetServer.CustomFieldType.Decimal
+- uid: CRMScript.NetServer.CustomFieldType.DateTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.DateTime
+  syntax: 
+    content: CustomFieldType.DateTime
+  summary: "Date + Time:  '[DT:06/19/2019 14:35:56.00000]'"
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.NetServer.CustomFieldType.DateTime
+- uid: CRMScript.NetServer.CustomFieldType.Time
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Time
+  syntax: 
+    content: CustomFieldType.Time
+  summary: "Time only - ignore the date part: '[T:06/19/2019 14:35:56.00000]'"
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.NetServer.CustomFieldType.Time
+- uid: CRMScript.NetServer.CustomFieldType.TimeSpan
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.TimeSpan
+  syntax: 
+    content: CustomFieldType.TimeSpan
+  summary: "Timespan in some units (hours, minutes or seconds): '[I:1234]'"
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: CRMScript.NetServer.CustomFieldType.TimeSpan
+- uid: CRMScript.NetServer.CustomFieldType.RelationTo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.RelationTo
+  syntax: 
+    content: CustomFieldType.RelationTo
+  summary: "Relation to another table. Stored as an int (primary key of record in other table): '[I:1234]'"
+  name: RelationTo
+  nameWithType: RelationTo
+  fullName: CRMScript.NetServer.CustomFieldType.RelationTo
+- uid: CRMScript.NetServer.CustomFieldType.Attachment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.Attachment
+  syntax: 
+    content: CustomFieldType.Attachment
+  summary: "File Attachment: int record id in attachment table: '[I:1234]'"
+  name: Attachment
+  nameWithType: Attachment
+  fullName: CRMScript.NetServer.CustomFieldType.Attachment
+- uid: CRMScript.NetServer.CustomFieldType.DynamicLink
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.DynamicLink
+  syntax: 
+    content: CustomFieldType.DynamicLink
+  summary: "Dynamic Link: contains link redirect value: 'https://example.com/scripts/ticket.fcgi?action=redirectLink&extraFieldId=5&table=y_equipment&id=2'"
+  name: DynamicLink
+  nameWithType: DynamicLink
+  fullName: CRMScript.NetServer.CustomFieldType.DynamicLink
+- uid: CRMScript.NetServer.CustomFieldType.ListText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CustomFieldType.ListText
+  syntax: 
+    content: CustomFieldType.ListText
+  summary: "Text with list items to choose between: 'text value'"
+  name: ListText
+  nameWithType: ListText
+  fullName: CRMScript.NetServer.CustomFieldType.ListText
+references:
+- uid: CRMScript.NetServer.CustomFieldType
+  commentId: T:CRMScript.NetServer.CustomFieldType
+  isExternal: true
+  name: CustomFieldType
+  nameWithType: CustomFieldType
+  fullName: CRMScript.NetServer.CustomFieldType

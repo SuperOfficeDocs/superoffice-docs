@@ -1,45 +1,40 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.PublishType
-  # Same as SuperOffice.Data.PublishType
-  commentId: T:CRMScript.NetServer.PublishType
-  id: PublishType
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.PublishType.Undefined
   - CRMScript.NetServer.PublishType.External
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: PublishType
+  syntax: 
+    content: PublishType
+  summary: "Should this field be published by default?"
   name: PublishType
   nameWithType: PublishType
   fullName: CRMScript.NetServer.PublishType
-  type: Enum
-  summary: "\nShould this field be published by default?\n"
 - uid: CRMScript.NetServer.PublishType.Undefined
-  commentId: F:CRMScript.NetServer.PublishType.Undefined
-  id: PublishType.Undefined
   langs:
   - crmscript
-  name: PublishType.Undefined
-  nameWithType: PublishType.Undefined
+  type: Field
+  so.intellisense: PublishType.Undefined
+  syntax: 
+    content: PublishType.Undefined
+  summary: ""
+  name: Undefined
+  nameWithType: Undefined
   fullName: CRMScript.NetServer.PublishType.Undefined
-  type: Field
-  summary: "\n0: Undefined\n"
-  syntax: 
-    content: Undefined = 0
-    type: CRMScript.NetServer.PublishType
 - uid: CRMScript.NetServer.PublishType.External
-  commentId: F:CRMScript.NetServer.PublishType.External
-  id: PublishType.External
   langs:
   - crmscript
-  name: PublishType.External
-  nameWithType: PublishType.External
-  fullName: CRMScript.NetServer.PublishType.External
   type: Field
-  summary: "\n1: Published to external persons\n"
+  so.intellisense: PublishType.External
   syntax: 
-    content: External = 1
-    type: CRMScript.NetServer.PublishType
+    content: PublishType.External
+  summary: "Published to external persons"
+  name: External
+  nameWithType: External
+  fullName: CRMScript.NetServer.PublishType.External
 references:
 - uid: CRMScript.NetServer.PublishType
   commentId: T:CRMScript.NetServer.PublishType
@@ -47,3 +42,38 @@ references:
   name: PublishType
   nameWithType: PublishType
   fullName: CRMScript.NetServer.PublishType
+references:
+- uid: CRMScript.NetServer.AppAvailableState
+  commentId: T:CRMScript.NetServer.AppAvailableState
+  isExternal: true
+  name: AppAvailableState
+  nameWithType: AppAvailableState
+  fullName: CRMScript.NetServer.AppAvailableState
+references:
+- uid: CRMScript.NetServer.AppExecuteOnEvent
+  commentId: T:CRMScript.NetServer.AppExecuteOnEvent
+  isExternal: true
+  name: AppExecuteOnEvent
+  nameWithType: AppExecuteOnEvent
+  fullName: CRMScript.NetServer.AppExecuteOnEvent
+references:
+- uid: CRMScript.NetServer.AppNavigation
+  commentId: T:CRMScript.NetServer.AppNavigation
+  isExternal: true
+  name: AppNavigation
+  nameWithType: AppNavigation
+  fullName: CRMScript.NetServer.AppNavigation
+references:
+- uid: CRMScript.NetServer.AppShowState
+  commentId: T:CRMScript.NetServer.AppShowState
+  isExternal: true
+  name: AppShowState
+  nameWithType: AppShowState
+  fullName: CRMScript.NetServer.AppShowState
+references:
+- uid: CRMScript.NetServer.AppType
+  commentId: T:CRMScript.NetServer.AppType
+  isExternal: true
+  name: AppType
+  nameWithType: AppType
+  fullName: CRMScript.NetServer.AppType

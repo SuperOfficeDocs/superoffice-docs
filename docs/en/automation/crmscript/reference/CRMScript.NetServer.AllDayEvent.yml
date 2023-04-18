@@ -1,0 +1,44 @@
+﻿items:
+- uid: CRMScript.NetServer.AllDayEvent
+  children:
+  - CRMScript.NetServer.AllDayEvent.No
+  - CRMScript.NetServer.AllDayEvent.Yes
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: AllDayEvent
+  syntax: 
+    content: AllDayEvent
+  summary: "Is this an all day event: 0 = No, 1 = Yes"
+  name: AllDayEvent
+  nameWithType: AllDayEvent
+  fullName: CRMScript.NetServer.AllDayEvent
+- uid: CRMScript.NetServer.AllDayEvent.No
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AllDayEvent.No
+  syntax: 
+    content: AllDayEvent.No
+  summary: ""
+  name: No
+  nameWithType: No
+  fullName: CRMScript.NetServer.AllDayEvent.No
+- uid: CRMScript.NetServer.AllDayEvent.Yes
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AllDayEvent.Yes
+  syntax: 
+    content: AllDayEvent.Yes
+  summary: ""
+  name: Yes
+  nameWithType: Yes
+  fullName: CRMScript.NetServer.AllDayEvent.Yes
+references:
+- uid: CRMScript.NetServer.AllDayEvent
+  commentId: T:CRMScript.NetServer.AllDayEvent
+  isExternal: true
+  name: AllDayEvent
+  nameWithType: AllDayEvent
+  fullName: CRMScript.NetServer.AllDayEvent

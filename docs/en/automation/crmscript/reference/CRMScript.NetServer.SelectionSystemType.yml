@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.SelectionSystemType
+  children:
+  - CRMScript.NetServer.SelectionSystemType.User
+  - CRMScript.NetServer.SelectionSystemType.TemporaryShortTermStatic
+  - CRMScript.NetServer.SelectionSystemType.PersonalForFind
+  - CRMScript.NetServer.SelectionSystemType.DashboardTileSelection
+  - CRMScript.NetServer.SelectionSystemType.PersonalForDashboard
+  - CRMScript.NetServer.SelectionSystemType.PersonalForDashboardSecondary
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: SelectionSystemType
+  syntax: 
+    content: SelectionSystemType
+  summary: "Selection system type - defines if this selection is one that is managed by the system, and what kind it is"
+  name: SelectionSystemType
+  nameWithType: SelectionSystemType
+  fullName: CRMScript.NetServer.SelectionSystemType
+- uid: CRMScript.NetServer.SelectionSystemType.User
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SelectionSystemType.User
+  syntax: 
+    content: SelectionSystemType.User
+  summary: "User selection, managed by users"
+  name: User
+  nameWithType: User
+  fullName: CRMScript.NetServer.SelectionSystemType.User
+- uid: CRMScript.NetServer.SelectionSystemType.TemporaryShortTermStatic
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SelectionSystemType.TemporaryShortTermStatic
+  syntax: 
+    content: SelectionSystemType.TemporaryShortTermStatic
+  summary: "Temporary static selection, one per user, for short-term operations"
+  name: TemporaryShortTermStatic
+  nameWithType: TemporaryShortTermStatic
+  fullName: CRMScript.NetServer.SelectionSystemType.TemporaryShortTermStatic
+- uid: CRMScript.NetServer.SelectionSystemType.PersonalForFind
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SelectionSystemType.PersonalForFind
+  syntax: 
+    content: SelectionSystemType.PersonalForFind
+  summary: "Personal dynamic, for the Find mode in the selection panel"
+  name: PersonalForFind
+  nameWithType: PersonalForFind
+  fullName: CRMScript.NetServer.SelectionSystemType.PersonalForFind
+- uid: CRMScript.NetServer.SelectionSystemType.DashboardTileSelection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SelectionSystemType.DashboardTileSelection
+  syntax: 
+    content: SelectionSystemType.DashboardTileSelection
+  summary: "Selecton is associated with a dashboard tile"
+  name: DashboardTileSelection
+  nameWithType: DashboardTileSelection
+  fullName: CRMScript.NetServer.SelectionSystemType.DashboardTileSelection
+- uid: CRMScript.NetServer.SelectionSystemType.PersonalForDashboard
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SelectionSystemType.PersonalForDashboard
+  syntax: 
+    content: SelectionSystemType.PersonalForDashboard
+  summary: "Personal dynamic, for dashboard tiles"
+  name: PersonalForDashboard
+  nameWithType: PersonalForDashboard
+  fullName: CRMScript.NetServer.SelectionSystemType.PersonalForDashboard
+- uid: CRMScript.NetServer.SelectionSystemType.PersonalForDashboardSecondary
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SelectionSystemType.PersonalForDashboardSecondary
+  syntax: 
+    content: SelectionSystemType.PersonalForDashboardSecondary
+  summary: "Personal dynamic secondary, for dashboard tiles"
+  name: PersonalForDashboardSecondary
+  nameWithType: PersonalForDashboardSecondary
+  fullName: CRMScript.NetServer.SelectionSystemType.PersonalForDashboardSecondary
+references:
+- uid: CRMScript.NetServer.SelectionSystemType
+  commentId: T:CRMScript.NetServer.SelectionSystemType
+  isExternal: true
+  name: SelectionSystemType
+  nameWithType: SelectionSystemType
+  fullName: CRMScript.NetServer.SelectionSystemType

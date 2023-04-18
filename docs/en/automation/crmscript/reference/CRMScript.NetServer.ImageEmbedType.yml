@@ -1,0 +1,44 @@
+﻿items:
+- uid: CRMScript.NetServer.ImageEmbedType
+  children:
+  - CRMScript.NetServer.ImageEmbedType.Link
+  - CRMScript.NetServer.ImageEmbedType.Inline
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImageEmbedType
+  syntax: 
+    content: ImageEmbedType
+  summary: "Embedded images type"
+  name: ImageEmbedType
+  nameWithType: ImageEmbedType
+  fullName: CRMScript.NetServer.ImageEmbedType
+- uid: CRMScript.NetServer.ImageEmbedType.Link
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImageEmbedType.Link
+  syntax: 
+    content: ImageEmbedType.Link
+  summary: "Link image via href."
+  name: Link
+  nameWithType: Link
+  fullName: CRMScript.NetServer.ImageEmbedType.Link
+- uid: CRMScript.NetServer.ImageEmbedType.Inline
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImageEmbedType.Inline
+  syntax: 
+    content: ImageEmbedType.Inline
+  summary: "Inline image via base64 encoded data in document."
+  name: Inline
+  nameWithType: Inline
+  fullName: CRMScript.NetServer.ImageEmbedType.Inline
+references:
+- uid: CRMScript.NetServer.ImageEmbedType
+  commentId: T:CRMScript.NetServer.ImageEmbedType
+  isExternal: true
+  name: ImageEmbedType
+  nameWithType: ImageEmbedType
+  fullName: CRMScript.NetServer.ImageEmbedType

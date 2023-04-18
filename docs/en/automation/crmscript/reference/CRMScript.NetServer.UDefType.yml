@@ -1,11 +1,5 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.UDefType
-  # Same as SuperOffice.Data.UDefType
-  commentId: T:CRMScript.NetServer.UDefType
-  id: UDefType
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.UDefType.Invalid
   - CRMScript.NetServer.UDefType.Contact
@@ -16,128 +10,115 @@ items:
   - CRMScript.NetServer.UDefType.Appointment
   - CRMScript.NetServer.UDefType.Document
   - CRMScript.NetServer.UDefType.None
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: UDefType
+  syntax: 
+    content: UDefType
+  summary: "Same as the EUDefType enum in the C++ client, this is the DATABASE value used for udef definitions"
   name: UDefType
   nameWithType: UDefType
   fullName: CRMScript.NetServer.UDefType
-  type: Enum
-  summary: "\nThe DATABASE value used for udef definitions\n"
 - uid: CRMScript.NetServer.UDefType.Invalid
-  commentId: F:CRMScript.NetServer.UDefType.Invalid
-  id: UDefType.Invalid
   langs:
   - crmscript
-  name: UDefType.Invalid
-  nameWithType: UDefType.Invalid
+  type: Field
+  so.intellisense: UDefType.Invalid
+  syntax: 
+    content: UDefType.Invalid
+  summary: "Invalid"
+  name: Invalid
+  nameWithType: Invalid
   fullName: CRMScript.NetServer.UDefType.Invalid
-  type: Field
-  summary: "\n0: Invalid\n"
-  syntax: 
-    content: Invalid = 0
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.Contact
-  commentId: F:CRMScript.NetServer.UDefType.Contact
-  id: UDefType.Contact
   langs:
   - crmscript
-  name: UDefType.Contact
-  nameWithType: UDefType.Contact
+  type: Field
+  so.intellisense: UDefType.Contact
+  syntax: 
+    content: UDefType.Contact
+  summary: "Owner is the contact table"
+  name: Contact
+  nameWithType: Contact
   fullName: CRMScript.NetServer.UDefType.Contact
-  type: Field
-  summary: "\n7: Owner is the contact table\n"
-  syntax: 
-    content: Contact = 7
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.Person
-  commentId: F:CRMScript.NetServer.UDefType.Person
-  id: UDefType.Person
   langs:
   - crmscript
-  name: UDefType.Person
-  nameWithType: UDefType.Person
+  type: Field
+  so.intellisense: UDefType.Person
+  syntax: 
+    content: UDefType.Person
+  summary: "Owner is the Person table"
+  name: Person
+  nameWithType: Person
   fullName: CRMScript.NetServer.UDefType.Person
-  type: Field
-  summary: "\n8: Owner is the Person table\n"
-  syntax: 
-    content: Person = 8
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.Project
-  commentId: F:CRMScript.NetServer.UDefType.Project
-  id: UDefType.Project
   langs:
   - crmscript
-  name: UDefType.Project
-  nameWithType: UDefType.Project
+  type: Field
+  so.intellisense: UDefType.Project
+  syntax: 
+    content: UDefType.Project
+  summary: "Owner is the project table"
+  name: Project
+  nameWithType: Project
   fullName: CRMScript.NetServer.UDefType.Project
-  type: Field
-  summary: "\n9: Owner is the project table\n"
-  syntax: 
-    content: Project = 9
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.Sale
-  commentId: F:CRMScript.NetServer.UDefType.Sale
-  id: UDefType.Sale
   langs:
   - crmscript
-  name: UDefType.Sale
-  nameWithType: UDefType.Sale
+  type: Field
+  so.intellisense: UDefType.Sale
+  syntax: 
+    content: UDefType.Sale
+  summary: "Owner is the sale table"
+  name: Sale
+  nameWithType: Sale
   fullName: CRMScript.NetServer.UDefType.Sale
-  type: Field
-  summary: "\n10: Owner is the sale table\n"
-  syntax: 
-    content: Sale = 10
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.Temp
-  commentId: F:CRMScript.NetServer.UDefType.Temp
-  id: UDefType.Temp
   langs:
   - crmscript
-  name: UDefType.Temp
-  nameWithType: UDefType.Temp
+  type: Field
+  so.intellisense: UDefType.Temp
+  syntax: 
+    content: UDefType.Temp
+  summary: "This is the temporary udef table pair, used during reorganizations"
+  name: Temp
+  nameWithType: Temp
   fullName: CRMScript.NetServer.UDefType.Temp
-  type: Field
-  summary: "\n11: This is the temporary udef table pair, used during reorganizations\n"
-  syntax: 
-    content: Temp = 11
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.Appointment
-  commentId: F:CRMScript.NetServer.UDefType.Appointment
-  id: UDefType.Appointment
   langs:
   - crmscript
-  name: UDefType.Appointment
-  nameWithType: UDefType.Appointment
+  type: Field
+  so.intellisense: UDefType.Appointment
+  syntax: 
+    content: UDefType.Appointment
+  summary: "Owner is the appointment table"
+  name: Appointment
+  nameWithType: Appointment
   fullName: CRMScript.NetServer.UDefType.Appointment
-  type: Field
-  summary: "\n12: Owner is the appointment table\n"
-  syntax: 
-    content: Appointment = 12
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.Document
-  commentId: F:CRMScript.NetServer.UDefType.Document
-  id: UDefType.Document
   langs:
   - crmscript
-  name: UDefType.Document
-  nameWithType: UDefType.Document
+  type: Field
+  so.intellisense: UDefType.Document
+  syntax: 
+    content: UDefType.Document
+  summary: "Owner is the document table"
+  name: Document
+  nameWithType: Document
   fullName: CRMScript.NetServer.UDefType.Document
-  type: Field
-  summary: "\n13: Owner is the document table\n"
-  syntax: 
-    content: Document = 13
-    type: CRMScript.NetServer.UDefType
 - uid: CRMScript.NetServer.UDefType.None
-  commentId: F:CRMScript.NetServer.UDefType.None
-  id: UDefType.None
   langs:
   - crmscript
-  name: UDefType.None
-  nameWithType: UDefType.None
-  fullName: CRMScript.NetServer.UDefType.None
   type: Field
-  summary: "\n14: Owner is undefined, you should not see this value in a real database\n"
+  so.intellisense: UDefType.None
   syntax: 
-    content: None = 14
-    type: CRMScript.NetServer.UDefType
+    content: UDefType.None
+  summary: "Owner is undefined, you should not see this value in a real database"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.UDefType.None
 references:
 - uid: CRMScript.NetServer.UDefType
   commentId: T:CRMScript.NetServer.UDefType

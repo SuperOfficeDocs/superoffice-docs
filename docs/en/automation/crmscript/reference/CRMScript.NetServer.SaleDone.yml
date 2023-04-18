@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.SaleDone
+  children:
+  - CRMScript.NetServer.SaleDone.Unknown
+  - CRMScript.NetServer.SaleDone.NotDone
+  - CRMScript.NetServer.SaleDone.Done
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: SaleDone
+  syntax: 
+    content: SaleDone
+  summary: "Values for the 'done' field in the sale table"
+  name: SaleDone
+  nameWithType: SaleDone
+  fullName: CRMScript.NetServer.SaleDone
+- uid: CRMScript.NetServer.SaleDone.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SaleDone.Unknown
+  syntax: 
+    content: SaleDone.Unknown
+  summary: "Sale Done/Not done state is unknown"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.SaleDone.Unknown
+- uid: CRMScript.NetServer.SaleDone.NotDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SaleDone.NotDone
+  syntax: 
+    content: SaleDone.NotDone
+  summary: "Sale is not done"
+  name: NotDone
+  nameWithType: NotDone
+  fullName: CRMScript.NetServer.SaleDone.NotDone
+- uid: CRMScript.NetServer.SaleDone.Done
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: SaleDone.Done
+  syntax: 
+    content: SaleDone.Done
+  summary: "Sale is done"
+  name: Done
+  nameWithType: Done
+  fullName: CRMScript.NetServer.SaleDone.Done
+references:
+- uid: CRMScript.NetServer.SaleDone
+  commentId: T:CRMScript.NetServer.SaleDone
+  isExternal: true
+  name: SaleDone
+  nameWithType: SaleDone
+  fullName: CRMScript.NetServer.SaleDone

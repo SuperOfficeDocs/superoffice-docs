@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportProductDuplicateMatch
+  children:
+  - CRMScript.NetServer.ImportProductDuplicateMatch.Name
+  - CRMScript.NetServer.ImportProductDuplicateMatch.Code
+  - CRMScript.NetServer.ImportProductDuplicateMatch.NameCode
+  - CRMScript.NetServer.ImportProductDuplicateMatch.ErpKey
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportProductDuplicateMatch
+  syntax: 
+    content: ImportProductDuplicateMatch
+  summary: "Product duplicate matching for import"
+  name: ImportProductDuplicateMatch
+  nameWithType: ImportProductDuplicateMatch
+  fullName: CRMScript.NetServer.ImportProductDuplicateMatch
+- uid: CRMScript.NetServer.ImportProductDuplicateMatch.Name
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportProductDuplicateMatch.Name
+  syntax: 
+    content: ImportProductDuplicateMatch.Name
+  summary: "Name"
+  name: Name
+  nameWithType: Name
+  fullName: CRMScript.NetServer.ImportProductDuplicateMatch.Name
+- uid: CRMScript.NetServer.ImportProductDuplicateMatch.Code
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportProductDuplicateMatch.Code
+  syntax: 
+    content: ImportProductDuplicateMatch.Code
+  summary: "Code"
+  name: Code
+  nameWithType: Code
+  fullName: CRMScript.NetServer.ImportProductDuplicateMatch.Code
+- uid: CRMScript.NetServer.ImportProductDuplicateMatch.NameCode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportProductDuplicateMatch.NameCode
+  syntax: 
+    content: ImportProductDuplicateMatch.NameCode
+  summary: "Name + Code"
+  name: NameCode
+  nameWithType: NameCode
+  fullName: CRMScript.NetServer.ImportProductDuplicateMatch.NameCode
+- uid: CRMScript.NetServer.ImportProductDuplicateMatch.ErpKey
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportProductDuplicateMatch.ErpKey
+  syntax: 
+    content: ImportProductDuplicateMatch.ErpKey
+  summary: "ErpKey"
+  name: ErpKey
+  nameWithType: ErpKey
+  fullName: CRMScript.NetServer.ImportProductDuplicateMatch.ErpKey
+references:
+- uid: CRMScript.NetServer.ImportProductDuplicateMatch
+  commentId: T:CRMScript.NetServer.ImportProductDuplicateMatch
+  isExternal: true
+  name: ImportProductDuplicateMatch
+  nameWithType: ImportProductDuplicateMatch
+  fullName: CRMScript.NetServer.ImportProductDuplicateMatch

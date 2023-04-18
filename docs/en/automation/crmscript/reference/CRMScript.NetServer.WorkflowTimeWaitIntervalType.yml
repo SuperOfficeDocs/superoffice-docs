@@ -1,0 +1,104 @@
+﻿items:
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType
+  children:
+  - CRMScript.NetServer.WorkflowTimeWaitIntervalType.None
+  - CRMScript.NetServer.WorkflowTimeWaitIntervalType.Seconds
+  - CRMScript.NetServer.WorkflowTimeWaitIntervalType.Minutes
+  - CRMScript.NetServer.WorkflowTimeWaitIntervalType.Hours
+  - CRMScript.NetServer.WorkflowTimeWaitIntervalType.WorkingDays
+  - CRMScript.NetServer.WorkflowTimeWaitIntervalType.Days
+  - CRMScript.NetServer.WorkflowTimeWaitIntervalType.Weeks
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowTimeWaitIntervalType
+  syntax: 
+    content: WorkflowTimeWaitIntervalType
+  summary: "Workflow waiting time interval type"
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitIntervalType.None
+  syntax: 
+    content: WorkflowTimeWaitIntervalType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType.None
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Seconds
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitIntervalType.Seconds
+  syntax: 
+    content: WorkflowTimeWaitIntervalType.Seconds
+  summary: "Seconds"
+  name: Seconds
+  nameWithType: Seconds
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Seconds
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Minutes
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitIntervalType.Minutes
+  syntax: 
+    content: WorkflowTimeWaitIntervalType.Minutes
+  summary: "Minutes"
+  name: Minutes
+  nameWithType: Minutes
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Minutes
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Hours
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitIntervalType.Hours
+  syntax: 
+    content: WorkflowTimeWaitIntervalType.Hours
+  summary: "Hours"
+  name: Hours
+  nameWithType: Hours
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Hours
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType.WorkingDays
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitIntervalType.WorkingDays
+  syntax: 
+    content: WorkflowTimeWaitIntervalType.WorkingDays
+  summary: "Working days"
+  name: WorkingDays
+  nameWithType: WorkingDays
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType.WorkingDays
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Days
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitIntervalType.Days
+  syntax: 
+    content: WorkflowTimeWaitIntervalType.Days
+  summary: "Days"
+  name: Days
+  nameWithType: Days
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Days
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Weeks
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitIntervalType.Weeks
+  syntax: 
+    content: WorkflowTimeWaitIntervalType.Weeks
+  summary: "Weeks"
+  name: Weeks
+  nameWithType: Weeks
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType.Weeks
+references:
+- uid: CRMScript.NetServer.WorkflowTimeWaitIntervalType
+  commentId: T:CRMScript.NetServer.WorkflowTimeWaitIntervalType
+  isExternal: true
+  name: WorkflowTimeWaitIntervalType
+  nameWithType: WorkflowTimeWaitIntervalType
+  fullName: CRMScript.NetServer.WorkflowTimeWaitIntervalType

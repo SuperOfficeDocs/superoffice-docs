@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.RecipientType
+  children:
+  - CRMScript.NetServer.RecipientType.To
+  - CRMScript.NetServer.RecipientType.CC
+  - CRMScript.NetServer.RecipientType.BCC
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RecipientType
+  syntax: 
+    content: RecipientType
+  summary: "Recipient type"
+  name: RecipientType
+  nameWithType: RecipientType
+  fullName: CRMScript.NetServer.RecipientType
+- uid: CRMScript.NetServer.RecipientType.To
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientType.To
+  syntax: 
+    content: RecipientType.To
+  summary: "To"
+  name: To
+  nameWithType: To
+  fullName: CRMScript.NetServer.RecipientType.To
+- uid: CRMScript.NetServer.RecipientType.CC
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientType.CC
+  syntax: 
+    content: RecipientType.CC
+  summary: "CC"
+  name: CC
+  nameWithType: CC
+  fullName: CRMScript.NetServer.RecipientType.CC
+- uid: CRMScript.NetServer.RecipientType.BCC
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientType.BCC
+  syntax: 
+    content: RecipientType.BCC
+  summary: "BCC"
+  name: BCC
+  nameWithType: BCC
+  fullName: CRMScript.NetServer.RecipientType.BCC
+references:
+- uid: CRMScript.NetServer.RecipientType
+  commentId: T:CRMScript.NetServer.RecipientType
+  isExternal: true
+  name: RecipientType
+  nameWithType: RecipientType
+  fullName: CRMScript.NetServer.RecipientType

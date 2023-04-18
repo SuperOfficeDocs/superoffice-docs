@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.NetServerBuildType
+  children:
+  - CRMScript.NetServer.NetServerBuildType.Feature
+  - CRMScript.NetServer.NetServerBuildType.Stable
+  - CRMScript.NetServer.NetServerBuildType.Alpha
+  - CRMScript.NetServer.NetServerBuildType.Beta
+  - CRMScript.NetServer.NetServerBuildType.ReleaseCandidate
+  - CRMScript.NetServer.NetServerBuildType.Release
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: NetServerBuildType
+  syntax: 
+    content: NetServerBuildType
+  summary: ""
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: CRMScript.NetServer.NetServerBuildType
+- uid: CRMScript.NetServer.NetServerBuildType.Feature
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NetServerBuildType.Feature
+  syntax: 
+    content: NetServerBuildType.Feature
+  summary: "SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development."
+  name: Feature
+  nameWithType: Feature
+  fullName: CRMScript.NetServer.NetServerBuildType.Feature
+- uid: CRMScript.NetServer.NetServerBuildType.Stable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NetServerBuildType.Stable
+  syntax: 
+    content: NetServerBuildType.Stable
+  summary: "SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development."
+  name: Stable
+  nameWithType: Stable
+  fullName: CRMScript.NetServer.NetServerBuildType.Stable
+- uid: CRMScript.NetServer.NetServerBuildType.Alpha
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NetServerBuildType.Alpha
+  syntax: 
+    content: NetServerBuildType.Alpha
+  summary: "SuperOffice Confidential version that shall only be used by SuperOffice or partners with a signed and valid agreement with SuperOffice."
+  name: Alpha
+  nameWithType: Alpha
+  fullName: CRMScript.NetServer.NetServerBuildType.Alpha
+- uid: CRMScript.NetServer.NetServerBuildType.Beta
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NetServerBuildType.Beta
+  syntax: 
+    content: NetServerBuildType.Beta
+  summary: "Beta version intended for SuperOffice with beta partners"
+  name: Beta
+  nameWithType: Beta
+  fullName: CRMScript.NetServer.NetServerBuildType.Beta
+- uid: CRMScript.NetServer.NetServerBuildType.ReleaseCandidate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NetServerBuildType.ReleaseCandidate
+  syntax: 
+    content: NetServerBuildType.ReleaseCandidate
+  summary: "Release candidate intended for customers participating in a ramp-up or beta program."
+  name: ReleaseCandidate
+  nameWithType: ReleaseCandidate
+  fullName: CRMScript.NetServer.NetServerBuildType.ReleaseCandidate
+- uid: CRMScript.NetServer.NetServerBuildType.Release
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NetServerBuildType.Release
+  syntax: 
+    content: NetServerBuildType.Release
+  summary: "Release intended for customers."
+  name: Release
+  nameWithType: Release
+  fullName: CRMScript.NetServer.NetServerBuildType.Release
+references:
+- uid: CRMScript.NetServer.NetServerBuildType
+  commentId: T:CRMScript.NetServer.NetServerBuildType
+  isExternal: true
+  name: NetServerBuildType
+  nameWithType: NetServerBuildType
+  fullName: CRMScript.NetServer.NetServerBuildType

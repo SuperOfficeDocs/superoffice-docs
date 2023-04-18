@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ReplyTemplateAccessLevel
+  children:
+  - CRMScript.NetServer.ReplyTemplateAccessLevel.Full
+  - CRMScript.NetServer.ReplyTemplateAccessLevel.Read
+  - CRMScript.NetServer.ReplyTemplateAccessLevel.None
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ReplyTemplateAccessLevel
+  syntax: 
+    content: ReplyTemplateAccessLevel
+  summary: "Describes access level to get reply templaes"
+  name: ReplyTemplateAccessLevel
+  nameWithType: ReplyTemplateAccessLevel
+  fullName: CRMScript.NetServer.ReplyTemplateAccessLevel
+- uid: CRMScript.NetServer.ReplyTemplateAccessLevel.Full
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateAccessLevel.Full
+  syntax: 
+    content: ReplyTemplateAccessLevel.Full
+  summary: "Everyone can read and edit"
+  name: Full
+  nameWithType: Full
+  fullName: CRMScript.NetServer.ReplyTemplateAccessLevel.Full
+- uid: CRMScript.NetServer.ReplyTemplateAccessLevel.Read
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateAccessLevel.Read
+  syntax: 
+    content: ReplyTemplateAccessLevel.Read
+  summary: "Everyone can read, but only you can edit"
+  name: Read
+  nameWithType: Read
+  fullName: CRMScript.NetServer.ReplyTemplateAccessLevel.Read
+- uid: CRMScript.NetServer.ReplyTemplateAccessLevel.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateAccessLevel.None
+  syntax: 
+    content: ReplyTemplateAccessLevel.None
+  summary: "Only you can read or edit"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ReplyTemplateAccessLevel.None
+references:
+- uid: CRMScript.NetServer.ReplyTemplateAccessLevel
+  commentId: T:CRMScript.NetServer.ReplyTemplateAccessLevel
+  isExternal: true
+  name: ReplyTemplateAccessLevel
+  nameWithType: ReplyTemplateAccessLevel
+  fullName: CRMScript.NetServer.ReplyTemplateAccessLevel

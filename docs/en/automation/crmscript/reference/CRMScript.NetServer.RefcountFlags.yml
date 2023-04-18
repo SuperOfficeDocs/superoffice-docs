@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.RefcountFlags
+  children:
+  - CRMScript.NetServer.RefcountFlags.Unknown
+  - CRMScript.NetServer.RefcountFlags.Allocate
+  - CRMScript.NetServer.RefcountFlags.Unique
+  - CRMScript.NetServer.RefcountFlags.ReadOnly
+  - CRMScript.NetServer.RefcountFlags.AllowBlank
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RefcountFlags
+  syntax: 
+    content: RefcountFlags
+  summary: "Value for flag field in refcounts"
+  name: RefcountFlags
+  nameWithType: RefcountFlags
+  fullName: CRMScript.NetServer.RefcountFlags
+- uid: CRMScript.NetServer.RefcountFlags.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RefcountFlags.Unknown
+  syntax: 
+    content: RefcountFlags.Unknown
+  summary: "Unknown - used when initializing"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.RefcountFlags.Unknown
+- uid: CRMScript.NetServer.RefcountFlags.Allocate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RefcountFlags.Allocate
+  syntax: 
+    content: RefcountFlags.Allocate
+  summary: "Perform number allocation automatically"
+  name: Allocate
+  nameWithType: Allocate
+  fullName: CRMScript.NetServer.RefcountFlags.Allocate
+- uid: CRMScript.NetServer.RefcountFlags.Unique
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RefcountFlags.Unique
+  syntax: 
+    content: RefcountFlags.Unique
+  summary: "Check that entered values are unique"
+  name: Unique
+  nameWithType: Unique
+  fullName: CRMScript.NetServer.RefcountFlags.Unique
+- uid: CRMScript.NetServer.RefcountFlags.ReadOnly
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RefcountFlags.ReadOnly
+  syntax: 
+    content: RefcountFlags.ReadOnly
+  summary: "Target field is read-only in GUI"
+  name: ReadOnly
+  nameWithType: ReadOnly
+  fullName: CRMScript.NetServer.RefcountFlags.ReadOnly
+- uid: CRMScript.NetServer.RefcountFlags.AllowBlank
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RefcountFlags.AllowBlank
+  syntax: 
+    content: RefcountFlags.AllowBlank
+  summary: "Blank is a legal value"
+  name: AllowBlank
+  nameWithType: AllowBlank
+  fullName: CRMScript.NetServer.RefcountFlags.AllowBlank
+references:
+- uid: CRMScript.NetServer.RefcountFlags
+  commentId: T:CRMScript.NetServer.RefcountFlags
+  isExternal: true
+  name: RefcountFlags
+  nameWithType: RefcountFlags
+  fullName: CRMScript.NetServer.RefcountFlags

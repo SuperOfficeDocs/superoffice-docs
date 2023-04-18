@@ -1,0 +1,188 @@
+﻿items:
+- uid: CRMScript.NetServer.WorkflowTriggerType
+  children:
+  - CRMScript.NetServer.WorkflowTriggerType.None
+  - CRMScript.NetServer.WorkflowTriggerType.SendEmail
+  - CRMScript.NetServer.WorkflowTriggerType.SendSMS
+  - CRMScript.NetServer.WorkflowTriggerType.WaitForTime
+  - CRMScript.NetServer.WorkflowTriggerType.WaitForAction
+  - CRMScript.NetServer.WorkflowTriggerType.Split
+  - CRMScript.NetServer.WorkflowTriggerType.UpdateContact
+  - CRMScript.NetServer.WorkflowTriggerType.AddToList
+  - CRMScript.NetServer.WorkflowTriggerType.RemoveFromList
+  - CRMScript.NetServer.WorkflowTriggerType.CreateRequest
+  - CRMScript.NetServer.WorkflowTriggerType.CreateFollowUp
+  - CRMScript.NetServer.WorkflowTriggerType.CreateSale
+  - CRMScript.NetServer.WorkflowTriggerType.NotifyByEmail
+  - CRMScript.NetServer.WorkflowTriggerType.NotifyBySMS
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowTriggerType
+  syntax: 
+    content: WorkflowTriggerType
+  summary: "Workflow Trigger Type"
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: CRMScript.NetServer.WorkflowTriggerType
+- uid: CRMScript.NetServer.WorkflowTriggerType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.None
+  syntax: 
+    content: WorkflowTriggerType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowTriggerType.None
+- uid: CRMScript.NetServer.WorkflowTriggerType.SendEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.SendEmail
+  syntax: 
+    content: WorkflowTriggerType.SendEmail
+  summary: "ContactCreated"
+  name: SendEmail
+  nameWithType: SendEmail
+  fullName: CRMScript.NetServer.WorkflowTriggerType.SendEmail
+- uid: CRMScript.NetServer.WorkflowTriggerType.SendSMS
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.SendSMS
+  syntax: 
+    content: WorkflowTriggerType.SendSMS
+  summary: "ContactUpdated"
+  name: SendSMS
+  nameWithType: SendSMS
+  fullName: CRMScript.NetServer.WorkflowTriggerType.SendSMS
+- uid: CRMScript.NetServer.WorkflowTriggerType.WaitForTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.WaitForTime
+  syntax: 
+    content: WorkflowTriggerType.WaitForTime
+  summary: "AddedToProject"
+  name: WaitForTime
+  nameWithType: WaitForTime
+  fullName: CRMScript.NetServer.WorkflowTriggerType.WaitForTime
+- uid: CRMScript.NetServer.WorkflowTriggerType.WaitForAction
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.WaitForAction
+  syntax: 
+    content: WorkflowTriggerType.WaitForAction
+  summary: "CreatedRequest"
+  name: WaitForAction
+  nameWithType: WaitForAction
+  fullName: CRMScript.NetServer.WorkflowTriggerType.WaitForAction
+- uid: CRMScript.NetServer.WorkflowTriggerType.Split
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.Split
+  syntax: 
+    content: WorkflowTriggerType.Split
+  summary: "LinkClicked"
+  name: Split
+  nameWithType: Split
+  fullName: CRMScript.NetServer.WorkflowTriggerType.Split
+- uid: CRMScript.NetServer.WorkflowTriggerType.UpdateContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.UpdateContact
+  syntax: 
+    content: WorkflowTriggerType.UpdateContact
+  summary: "AddedToSelection"
+  name: UpdateContact
+  nameWithType: UpdateContact
+  fullName: CRMScript.NetServer.WorkflowTriggerType.UpdateContact
+- uid: CRMScript.NetServer.WorkflowTriggerType.AddToList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.AddToList
+  syntax: 
+    content: WorkflowTriggerType.AddToList
+  summary: "FormSubmitted"
+  name: AddToList
+  nameWithType: AddToList
+  fullName: CRMScript.NetServer.WorkflowTriggerType.AddToList
+- uid: CRMScript.NetServer.WorkflowTriggerType.RemoveFromList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.RemoveFromList
+  syntax: 
+    content: WorkflowTriggerType.RemoveFromList
+  summary: "AddedMessage"
+  name: RemoveFromList
+  nameWithType: RemoveFromList
+  fullName: CRMScript.NetServer.WorkflowTriggerType.RemoveFromList
+- uid: CRMScript.NetServer.WorkflowTriggerType.CreateRequest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.CreateRequest
+  syntax: 
+    content: WorkflowTriggerType.CreateRequest
+  summary: "StartedChat"
+  name: CreateRequest
+  nameWithType: CreateRequest
+  fullName: CRMScript.NetServer.WorkflowTriggerType.CreateRequest
+- uid: CRMScript.NetServer.WorkflowTriggerType.CreateFollowUp
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.CreateFollowUp
+  syntax: 
+    content: WorkflowTriggerType.CreateFollowUp
+  summary: "OrderPlaced"
+  name: CreateFollowUp
+  nameWithType: CreateFollowUp
+  fullName: CRMScript.NetServer.WorkflowTriggerType.CreateFollowUp
+- uid: CRMScript.NetServer.WorkflowTriggerType.CreateSale
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.CreateSale
+  syntax: 
+    content: WorkflowTriggerType.CreateSale
+  summary: "SaleCreated"
+  name: CreateSale
+  nameWithType: CreateSale
+  fullName: CRMScript.NetServer.WorkflowTriggerType.CreateSale
+- uid: CRMScript.NetServer.WorkflowTriggerType.NotifyByEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.NotifyByEmail
+  syntax: 
+    content: WorkflowTriggerType.NotifyByEmail
+  summary: "SaleSold"
+  name: NotifyByEmail
+  nameWithType: NotifyByEmail
+  fullName: CRMScript.NetServer.WorkflowTriggerType.NotifyByEmail
+- uid: CRMScript.NetServer.WorkflowTriggerType.NotifyBySMS
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTriggerType.NotifyBySMS
+  syntax: 
+    content: WorkflowTriggerType.NotifyBySMS
+  summary: "SaleLost"
+  name: NotifyBySMS
+  nameWithType: NotifyBySMS
+  fullName: CRMScript.NetServer.WorkflowTriggerType.NotifyBySMS
+references:
+- uid: CRMScript.NetServer.WorkflowTriggerType
+  commentId: T:CRMScript.NetServer.WorkflowTriggerType
+  isExternal: true
+  name: WorkflowTriggerType
+  nameWithType: WorkflowTriggerType
+  fullName: CRMScript.NetServer.WorkflowTriggerType

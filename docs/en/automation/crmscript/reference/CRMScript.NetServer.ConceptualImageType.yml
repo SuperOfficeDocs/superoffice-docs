@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.ConceptualImageType
+  children:
+  - CRMScript.NetServer.ConceptualImageType.UndefinedImage
+  - CRMScript.NetServer.ConceptualImageType.PersonImage
+  - CRMScript.NetServer.ConceptualImageType.ProjectImage
+  - CRMScript.NetServer.ConceptualImageType.EventImage
+  - CRMScript.NetServer.ConceptualImageType.Thumbnail
+  - CRMScript.NetServer.ConceptualImageType.StatusMonitorImage
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ConceptualImageType
+  syntax: 
+    content: ConceptualImageType
+  summary: "Conceptual image types"
+  name: ConceptualImageType
+  nameWithType: ConceptualImageType
+  fullName: CRMScript.NetServer.ConceptualImageType
+- uid: CRMScript.NetServer.ConceptualImageType.UndefinedImage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ConceptualImageType.UndefinedImage
+  syntax: 
+    content: ConceptualImageType.UndefinedImage
+  summary: ""
+  name: UndefinedImage
+  nameWithType: UndefinedImage
+  fullName: CRMScript.NetServer.ConceptualImageType.UndefinedImage
+- uid: CRMScript.NetServer.ConceptualImageType.PersonImage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ConceptualImageType.PersonImage
+  syntax: 
+    content: ConceptualImageType.PersonImage
+  summary: "Image used with persons"
+  name: PersonImage
+  nameWithType: PersonImage
+  fullName: CRMScript.NetServer.ConceptualImageType.PersonImage
+- uid: CRMScript.NetServer.ConceptualImageType.ProjectImage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ConceptualImageType.ProjectImage
+  syntax: 
+    content: ConceptualImageType.ProjectImage
+  summary: "Image used in projects"
+  name: ProjectImage
+  nameWithType: ProjectImage
+  fullName: CRMScript.NetServer.ConceptualImageType.ProjectImage
+- uid: CRMScript.NetServer.ConceptualImageType.EventImage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ConceptualImageType.EventImage
+  syntax: 
+    content: ConceptualImageType.EventImage
+  summary: "Image used in ?"
+  name: EventImage
+  nameWithType: EventImage
+  fullName: CRMScript.NetServer.ConceptualImageType.EventImage
+- uid: CRMScript.NetServer.ConceptualImageType.Thumbnail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ConceptualImageType.Thumbnail
+  syntax: 
+    content: ConceptualImageType.Thumbnail
+  summary: "Image used as thumbnails"
+  name: Thumbnail
+  nameWithType: Thumbnail
+  fullName: CRMScript.NetServer.ConceptualImageType.Thumbnail
+- uid: CRMScript.NetServer.ConceptualImageType.StatusMonitorImage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ConceptualImageType.StatusMonitorImage
+  syntax: 
+    content: ConceptualImageType.StatusMonitorImage
+  summary: "Image used in status monitors"
+  name: StatusMonitorImage
+  nameWithType: StatusMonitorImage
+  fullName: CRMScript.NetServer.ConceptualImageType.StatusMonitorImage
+references:
+- uid: CRMScript.NetServer.ConceptualImageType
+  commentId: T:CRMScript.NetServer.ConceptualImageType
+  isExternal: true
+  name: ConceptualImageType
+  nameWithType: ConceptualImageType
+  fullName: CRMScript.NetServer.ConceptualImageType

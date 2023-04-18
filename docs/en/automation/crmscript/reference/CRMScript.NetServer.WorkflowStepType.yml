@@ -1,0 +1,200 @@
+﻿items:
+- uid: CRMScript.NetServer.WorkflowStepType
+  children:
+  - CRMScript.NetServer.WorkflowStepType.None
+  - CRMScript.NetServer.WorkflowStepType.SendEmail
+  - CRMScript.NetServer.WorkflowStepType.SendSMS
+  - CRMScript.NetServer.WorkflowStepType.WaitForTime
+  - CRMScript.NetServer.WorkflowStepType.WaitForAction
+  - CRMScript.NetServer.WorkflowStepType.Split
+  - CRMScript.NetServer.WorkflowStepType.UpdateContact
+  - CRMScript.NetServer.WorkflowStepType.AddToList
+  - CRMScript.NetServer.WorkflowStepType.RemoveFromList
+  - CRMScript.NetServer.WorkflowStepType.CreateRequest
+  - CRMScript.NetServer.WorkflowStepType.CreateFollowUp
+  - CRMScript.NetServer.WorkflowStepType.CreateSale
+  - CRMScript.NetServer.WorkflowStepType.NotifyByEmail
+  - CRMScript.NetServer.WorkflowStepType.NotifyBySMS
+  - CRMScript.NetServer.WorkflowStepType.RunScript
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowStepType
+  syntax: 
+    content: WorkflowStepType
+  summary: "Workflow Step Type"
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: CRMScript.NetServer.WorkflowStepType
+- uid: CRMScript.NetServer.WorkflowStepType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.None
+  syntax: 
+    content: WorkflowStepType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowStepType.None
+- uid: CRMScript.NetServer.WorkflowStepType.SendEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.SendEmail
+  syntax: 
+    content: WorkflowStepType.SendEmail
+  summary: "SendEmail"
+  name: SendEmail
+  nameWithType: SendEmail
+  fullName: CRMScript.NetServer.WorkflowStepType.SendEmail
+- uid: CRMScript.NetServer.WorkflowStepType.SendSMS
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.SendSMS
+  syntax: 
+    content: WorkflowStepType.SendSMS
+  summary: "SendSMS"
+  name: SendSMS
+  nameWithType: SendSMS
+  fullName: CRMScript.NetServer.WorkflowStepType.SendSMS
+- uid: CRMScript.NetServer.WorkflowStepType.WaitForTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.WaitForTime
+  syntax: 
+    content: WorkflowStepType.WaitForTime
+  summary: "WaitForTime"
+  name: WaitForTime
+  nameWithType: WaitForTime
+  fullName: CRMScript.NetServer.WorkflowStepType.WaitForTime
+- uid: CRMScript.NetServer.WorkflowStepType.WaitForAction
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.WaitForAction
+  syntax: 
+    content: WorkflowStepType.WaitForAction
+  summary: "WaitForAction"
+  name: WaitForAction
+  nameWithType: WaitForAction
+  fullName: CRMScript.NetServer.WorkflowStepType.WaitForAction
+- uid: CRMScript.NetServer.WorkflowStepType.Split
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.Split
+  syntax: 
+    content: WorkflowStepType.Split
+  summary: "Split"
+  name: Split
+  nameWithType: Split
+  fullName: CRMScript.NetServer.WorkflowStepType.Split
+- uid: CRMScript.NetServer.WorkflowStepType.UpdateContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.UpdateContact
+  syntax: 
+    content: WorkflowStepType.UpdateContact
+  summary: "UpdateContact"
+  name: UpdateContact
+  nameWithType: UpdateContact
+  fullName: CRMScript.NetServer.WorkflowStepType.UpdateContact
+- uid: CRMScript.NetServer.WorkflowStepType.AddToList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.AddToList
+  syntax: 
+    content: WorkflowStepType.AddToList
+  summary: "AddToList"
+  name: AddToList
+  nameWithType: AddToList
+  fullName: CRMScript.NetServer.WorkflowStepType.AddToList
+- uid: CRMScript.NetServer.WorkflowStepType.RemoveFromList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.RemoveFromList
+  syntax: 
+    content: WorkflowStepType.RemoveFromList
+  summary: "RemoveFromList"
+  name: RemoveFromList
+  nameWithType: RemoveFromList
+  fullName: CRMScript.NetServer.WorkflowStepType.RemoveFromList
+- uid: CRMScript.NetServer.WorkflowStepType.CreateRequest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.CreateRequest
+  syntax: 
+    content: WorkflowStepType.CreateRequest
+  summary: "CreateRequest"
+  name: CreateRequest
+  nameWithType: CreateRequest
+  fullName: CRMScript.NetServer.WorkflowStepType.CreateRequest
+- uid: CRMScript.NetServer.WorkflowStepType.CreateFollowUp
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.CreateFollowUp
+  syntax: 
+    content: WorkflowStepType.CreateFollowUp
+  summary: "CreateFollowUp"
+  name: CreateFollowUp
+  nameWithType: CreateFollowUp
+  fullName: CRMScript.NetServer.WorkflowStepType.CreateFollowUp
+- uid: CRMScript.NetServer.WorkflowStepType.CreateSale
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.CreateSale
+  syntax: 
+    content: WorkflowStepType.CreateSale
+  summary: "CreateSale"
+  name: CreateSale
+  nameWithType: CreateSale
+  fullName: CRMScript.NetServer.WorkflowStepType.CreateSale
+- uid: CRMScript.NetServer.WorkflowStepType.NotifyByEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.NotifyByEmail
+  syntax: 
+    content: WorkflowStepType.NotifyByEmail
+  summary: "NotifyByEmail"
+  name: NotifyByEmail
+  nameWithType: NotifyByEmail
+  fullName: CRMScript.NetServer.WorkflowStepType.NotifyByEmail
+- uid: CRMScript.NetServer.WorkflowStepType.NotifyBySMS
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.NotifyBySMS
+  syntax: 
+    content: WorkflowStepType.NotifyBySMS
+  summary: "NotifyBySMS"
+  name: NotifyBySMS
+  nameWithType: NotifyBySMS
+  fullName: CRMScript.NetServer.WorkflowStepType.NotifyBySMS
+- uid: CRMScript.NetServer.WorkflowStepType.RunScript
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowStepType.RunScript
+  syntax: 
+    content: WorkflowStepType.RunScript
+  summary: "RunScript"
+  name: RunScript
+  nameWithType: RunScript
+  fullName: CRMScript.NetServer.WorkflowStepType.RunScript
+references:
+- uid: CRMScript.NetServer.WorkflowStepType
+  commentId: T:CRMScript.NetServer.WorkflowStepType
+  isExternal: true
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: CRMScript.NetServer.WorkflowStepType

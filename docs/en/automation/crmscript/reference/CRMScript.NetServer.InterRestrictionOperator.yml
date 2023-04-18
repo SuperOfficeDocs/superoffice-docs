@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.InterRestrictionOperator
+  children:
+  - CRMScript.NetServer.InterRestrictionOperator.None
+  - CRMScript.NetServer.InterRestrictionOperator.And
+  - CRMScript.NetServer.InterRestrictionOperator.Or
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: InterRestrictionOperator
+  syntax: 
+    content: InterRestrictionOperator
+  summary: "Operators to be used between restrictions, describes how this restriction is related to the next one in an array"
+  name: InterRestrictionOperator
+  nameWithType: InterRestrictionOperator
+  fullName: CRMScript.NetServer.InterRestrictionOperator
+- uid: CRMScript.NetServer.InterRestrictionOperator.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: InterRestrictionOperator.None
+  syntax: 
+    content: InterRestrictionOperator.None
+  summary: ""
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.InterRestrictionOperator.None
+- uid: CRMScript.NetServer.InterRestrictionOperator.And
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: InterRestrictionOperator.And
+  syntax: 
+    content: InterRestrictionOperator.And
+  summary: ""
+  name: And
+  nameWithType: And
+  fullName: CRMScript.NetServer.InterRestrictionOperator.And
+- uid: CRMScript.NetServer.InterRestrictionOperator.Or
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: InterRestrictionOperator.Or
+  syntax: 
+    content: InterRestrictionOperator.Or
+  summary: ""
+  name: Or
+  nameWithType: Or
+  fullName: CRMScript.NetServer.InterRestrictionOperator.Or
+references:
+- uid: CRMScript.NetServer.InterRestrictionOperator
+  commentId: T:CRMScript.NetServer.InterRestrictionOperator
+  isExternal: true
+  name: InterRestrictionOperator
+  nameWithType: InterRestrictionOperator
+  fullName: CRMScript.NetServer.InterRestrictionOperator

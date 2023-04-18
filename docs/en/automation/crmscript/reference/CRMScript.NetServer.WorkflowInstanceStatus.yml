@@ -1,0 +1,104 @@
+﻿items:
+- uid: CRMScript.NetServer.WorkflowInstanceStatus
+  children:
+  - CRMScript.NetServer.WorkflowInstanceStatus.None
+  - CRMScript.NetServer.WorkflowInstanceStatus.Idle
+  - CRMScript.NetServer.WorkflowInstanceStatus.Running
+  - CRMScript.NetServer.WorkflowInstanceStatus.Finished
+  - CRMScript.NetServer.WorkflowInstanceStatus.Suspended
+  - CRMScript.NetServer.WorkflowInstanceStatus.Faulted
+  - CRMScript.NetServer.WorkflowInstanceStatus.Cancelled
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowInstanceStatus
+  syntax: 
+    content: WorkflowInstanceStatus
+  summary: "Workflow instance status"
+  name: WorkflowInstanceStatus
+  nameWithType: WorkflowInstanceStatus
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus
+- uid: CRMScript.NetServer.WorkflowInstanceStatus.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowInstanceStatus.None
+  syntax: 
+    content: WorkflowInstanceStatus.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus.None
+- uid: CRMScript.NetServer.WorkflowInstanceStatus.Idle
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowInstanceStatus.Idle
+  syntax: 
+    content: WorkflowInstanceStatus.Idle
+  summary: "Idle"
+  name: Idle
+  nameWithType: Idle
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus.Idle
+- uid: CRMScript.NetServer.WorkflowInstanceStatus.Running
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowInstanceStatus.Running
+  syntax: 
+    content: WorkflowInstanceStatus.Running
+  summary: "Running"
+  name: Running
+  nameWithType: Running
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus.Running
+- uid: CRMScript.NetServer.WorkflowInstanceStatus.Finished
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowInstanceStatus.Finished
+  syntax: 
+    content: WorkflowInstanceStatus.Finished
+  summary: "Finished"
+  name: Finished
+  nameWithType: Finished
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus.Finished
+- uid: CRMScript.NetServer.WorkflowInstanceStatus.Suspended
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowInstanceStatus.Suspended
+  syntax: 
+    content: WorkflowInstanceStatus.Suspended
+  summary: "Suspended"
+  name: Suspended
+  nameWithType: Suspended
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus.Suspended
+- uid: CRMScript.NetServer.WorkflowInstanceStatus.Faulted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowInstanceStatus.Faulted
+  syntax: 
+    content: WorkflowInstanceStatus.Faulted
+  summary: "Faulted"
+  name: Faulted
+  nameWithType: Faulted
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus.Faulted
+- uid: CRMScript.NetServer.WorkflowInstanceStatus.Cancelled
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowInstanceStatus.Cancelled
+  syntax: 
+    content: WorkflowInstanceStatus.Cancelled
+  summary: "Cancelled"
+  name: Cancelled
+  nameWithType: Cancelled
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus.Cancelled
+references:
+- uid: CRMScript.NetServer.WorkflowInstanceStatus
+  commentId: T:CRMScript.NetServer.WorkflowInstanceStatus
+  isExternal: true
+  name: WorkflowInstanceStatus
+  nameWithType: WorkflowInstanceStatus
+  fullName: CRMScript.NetServer.WorkflowInstanceStatus

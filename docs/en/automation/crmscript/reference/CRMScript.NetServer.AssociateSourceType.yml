@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.AssociateSourceType
+  children:
+  - CRMScript.NetServer.AssociateSourceType.Unknown
+  - CRMScript.NetServer.AssociateSourceType.History
+  - CRMScript.NetServer.AssociateSourceType.DiaryViewList
+  - CRMScript.NetServer.AssociateSourceType.Department
+  - CRMScript.NetServer.AssociateSourceType.All
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: AssociateSourceType
+  syntax: 
+    content: AssociateSourceType
+  summary: "Describes what source the associates should be retrieved from. "
+  name: AssociateSourceType
+  nameWithType: AssociateSourceType
+  fullName: CRMScript.NetServer.AssociateSourceType
+- uid: CRMScript.NetServer.AssociateSourceType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AssociateSourceType.Unknown
+  syntax: 
+    content: AssociateSourceType.Unknown
+  summary: "Unknown - used when initializing"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.AssociateSourceType.Unknown
+- uid: CRMScript.NetServer.AssociateSourceType.History
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AssociateSourceType.History
+  syntax: 
+    content: AssociateSourceType.History
+  summary: "Associate is retrieved from the history list"
+  name: History
+  nameWithType: History
+  fullName: CRMScript.NetServer.AssociateSourceType.History
+- uid: CRMScript.NetServer.AssociateSourceType.DiaryViewList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AssociateSourceType.DiaryViewList
+  syntax: 
+    content: AssociateSourceType.DiaryViewList
+  summary: "Associate is retrieved from the diary view list"
+  name: DiaryViewList
+  nameWithType: DiaryViewList
+  fullName: CRMScript.NetServer.AssociateSourceType.DiaryViewList
+- uid: CRMScript.NetServer.AssociateSourceType.Department
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AssociateSourceType.Department
+  syntax: 
+    content: AssociateSourceType.Department
+  summary: "Associate is retrieved from the department (usergroup) list"
+  name: Department
+  nameWithType: Department
+  fullName: CRMScript.NetServer.AssociateSourceType.Department
+- uid: CRMScript.NetServer.AssociateSourceType.All
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AssociateSourceType.All
+  syntax: 
+    content: AssociateSourceType.All
+  summary: "Enumeration generated from the wsdl doesn't handle the [Flags] attribute (bit enumeration)"
+  name: All
+  nameWithType: All
+  fullName: CRMScript.NetServer.AssociateSourceType.All
+references:
+- uid: CRMScript.NetServer.AssociateSourceType
+  commentId: T:CRMScript.NetServer.AssociateSourceType
+  isExternal: true
+  name: AssociateSourceType
+  nameWithType: AssociateSourceType
+  fullName: CRMScript.NetServer.AssociateSourceType

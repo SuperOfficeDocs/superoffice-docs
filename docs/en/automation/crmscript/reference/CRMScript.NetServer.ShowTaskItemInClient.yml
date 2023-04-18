@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ShowTaskItemInClient
+  children:
+  - CRMScript.NetServer.ShowTaskItemInClient.None
+  - CRMScript.NetServer.ShowTaskItemInClient.Web
+  - CRMScript.NetServer.ShowTaskItemInClient.Mobile
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ShowTaskItemInClient
+  syntax: 
+    content: ShowTaskItemInClient
+  summary: "Show Task Item In Client"
+  name: ShowTaskItemInClient
+  nameWithType: ShowTaskItemInClient
+  fullName: CRMScript.NetServer.ShowTaskItemInClient
+- uid: CRMScript.NetServer.ShowTaskItemInClient.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShowTaskItemInClient.None
+  syntax: 
+    content: ShowTaskItemInClient.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ShowTaskItemInClient.None
+- uid: CRMScript.NetServer.ShowTaskItemInClient.Web
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShowTaskItemInClient.Web
+  syntax: 
+    content: ShowTaskItemInClient.Web
+  summary: "SuperOffice Web"
+  name: Web
+  nameWithType: Web
+  fullName: CRMScript.NetServer.ShowTaskItemInClient.Web
+- uid: CRMScript.NetServer.ShowTaskItemInClient.Mobile
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShowTaskItemInClient.Mobile
+  syntax: 
+    content: ShowTaskItemInClient.Mobile
+  summary: "Mobile"
+  name: Mobile
+  nameWithType: Mobile
+  fullName: CRMScript.NetServer.ShowTaskItemInClient.Mobile
+references:
+- uid: CRMScript.NetServer.ShowTaskItemInClient
+  commentId: T:CRMScript.NetServer.ShowTaskItemInClient
+  isExternal: true
+  name: ShowTaskItemInClient
+  nameWithType: ShowTaskItemInClient
+  fullName: CRMScript.NetServer.ShowTaskItemInClient

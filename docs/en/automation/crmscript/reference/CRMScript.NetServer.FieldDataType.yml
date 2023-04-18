@@ -1,0 +1,248 @@
+﻿items:
+- uid: CRMScript.NetServer.FieldDataType
+  children:
+  - CRMScript.NetServer.FieldDataType.Undefined
+  - CRMScript.NetServer.FieldDataType.dbShortId
+  - CRMScript.NetServer.FieldDataType.dbDateTimeUTC
+  - CRMScript.NetServer.FieldDataType.dbDouble
+  - CRMScript.NetServer.FieldDataType.dbInt
+  - CRMScript.NetServer.FieldDataType.dbIntId
+  - CRMScript.NetServer.FieldDataType.dbDateTimeLocal
+  - CRMScript.NetServer.FieldDataType.dbUShort
+  - CRMScript.NetServer.FieldDataType.dbShort
+  - CRMScript.NetServer.FieldDataType.dbNull
+  - CRMScript.NetServer.FieldDataType.dbUInt
+  - CRMScript.NetServer.FieldDataType.dbBlob
+  - CRMScript.NetServer.FieldDataType.dbStringBlob
+  - CRMScript.NetServer.FieldDataType.dbString
+  - CRMScript.NetServer.FieldDataType.dbExtendedDateTimeLocal
+  - CRMScript.NetServer.FieldDataType.dbExtendedDateTimeUTC
+  - CRMScript.NetServer.FieldDataType.dbTimeLocal
+  - CRMScript.NetServer.FieldDataType.dbDateLocal
+  - CRMScript.NetServer.FieldDataType.dbIntIdArr
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: FieldDataType
+  syntax: 
+    content: FieldDataType
+  summary: "Datatype of the field in the database"
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: CRMScript.NetServer.FieldDataType
+- uid: CRMScript.NetServer.FieldDataType.Undefined
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.Undefined
+  syntax: 
+    content: FieldDataType.Undefined
+  summary: "Undefined data type (error)"
+  name: Undefined
+  nameWithType: Undefined
+  fullName: CRMScript.NetServer.FieldDataType.Undefined
+- uid: CRMScript.NetServer.FieldDataType.dbShortId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbShortId
+  syntax: 
+    content: FieldDataType.dbShortId
+  summary: "Short integer (e.g. System.Int16) id."
+  name: dbShortId
+  nameWithType: dbShortId
+  fullName: CRMScript.NetServer.FieldDataType.dbShortId
+- uid: CRMScript.NetServer.FieldDataType.dbDateTimeUTC
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbDateTimeUTC
+  syntax: 
+    content: FieldDataType.dbDateTimeUTC
+  summary: "DateTime ( e.g. seconds since 01.01.1970) in UTC stored as an integer value in the database."
+  name: dbDateTimeUTC
+  nameWithType: dbDateTimeUTC
+  fullName: CRMScript.NetServer.FieldDataType.dbDateTimeUTC
+- uid: CRMScript.NetServer.FieldDataType.dbDouble
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbDouble
+  syntax: 
+    content: FieldDataType.dbDouble
+  summary: "Double precision real (e.g. System.Double) value."
+  name: dbDouble
+  nameWithType: dbDouble
+  fullName: CRMScript.NetServer.FieldDataType.dbDouble
+- uid: CRMScript.NetServer.FieldDataType.dbInt
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbInt
+  syntax: 
+    content: FieldDataType.dbInt
+  summary: "Integer (e.g. System.Int32) value."
+  name: dbInt
+  nameWithType: dbInt
+  fullName: CRMScript.NetServer.FieldDataType.dbInt
+- uid: CRMScript.NetServer.FieldDataType.dbIntId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbIntId
+  syntax: 
+    content: FieldDataType.dbIntId
+  summary: "Integer (e.g. System.Int32) id."
+  name: dbIntId
+  nameWithType: dbIntId
+  fullName: CRMScript.NetServer.FieldDataType.dbIntId
+- uid: CRMScript.NetServer.FieldDataType.dbDateTimeLocal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbDateTimeLocal
+  syntax: 
+    content: FieldDataType.dbDateTimeLocal
+  summary: "DateTime ( e.g. seconds since 01.01.1970) in Local time stored as an integer value in the database."
+  name: dbDateTimeLocal
+  nameWithType: dbDateTimeLocal
+  fullName: CRMScript.NetServer.FieldDataType.dbDateTimeLocal
+- uid: CRMScript.NetServer.FieldDataType.dbUShort
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbUShort
+  syntax: 
+    content: FieldDataType.dbUShort
+  summary: "Unsigned short integer (e.g. System.UInt16) value"
+  name: dbUShort
+  nameWithType: dbUShort
+  fullName: CRMScript.NetServer.FieldDataType.dbUShort
+- uid: CRMScript.NetServer.FieldDataType.dbShort
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbShort
+  syntax: 
+    content: FieldDataType.dbShort
+  summary: "Short integer (e.g. System.Int16) value"
+  name: dbShort
+  nameWithType: dbShort
+  fullName: CRMScript.NetServer.FieldDataType.dbShort
+- uid: CRMScript.NetServer.FieldDataType.dbNull
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbNull
+  syntax: 
+    content: FieldDataType.dbNull
+  summary: "This is not a value"
+  name: dbNull
+  nameWithType: dbNull
+  fullName: CRMScript.NetServer.FieldDataType.dbNull
+- uid: CRMScript.NetServer.FieldDataType.dbUInt
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbUInt
+  syntax: 
+    content: FieldDataType.dbUInt
+  summary: "Unsigned integer (e.g. System.UInt32) id"
+  name: dbUInt
+  nameWithType: dbUInt
+  fullName: CRMScript.NetServer.FieldDataType.dbUInt
+- uid: CRMScript.NetServer.FieldDataType.dbBlob
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbBlob
+  syntax: 
+    content: FieldDataType.dbBlob
+  summary: "Blob in hte database"
+  name: dbBlob
+  nameWithType: dbBlob
+  fullName: CRMScript.NetServer.FieldDataType.dbBlob
+- uid: CRMScript.NetServer.FieldDataType.dbStringBlob
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbStringBlob
+  syntax: 
+    content: FieldDataType.dbStringBlob
+  summary: "Long string (e.g. System.String) stored as a (text) blob in the database"
+  name: dbStringBlob
+  nameWithType: dbStringBlob
+  fullName: CRMScript.NetServer.FieldDataType.dbStringBlob
+- uid: CRMScript.NetServer.FieldDataType.dbString
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbString
+  syntax: 
+    content: FieldDataType.dbString
+  summary: "String (e.g. System.String) preferebly stored as a variable lenght string in the database.  The Length can be up to (e.g. not including) 256 characters long depending upon the datatype."
+  name: dbString
+  nameWithType: dbString
+  fullName: CRMScript.NetServer.FieldDataType.dbString
+- uid: CRMScript.NetServer.FieldDataType.dbExtendedDateTimeLocal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbExtendedDateTimeLocal
+  syntax: 
+    content: FieldDataType.dbExtendedDateTimeLocal
+  summary: "DateTime, stored as a real datetime in the database, with extended range. Local time zone"
+  name: dbExtendedDateTimeLocal
+  nameWithType: dbExtendedDateTimeLocal
+  fullName: CRMScript.NetServer.FieldDataType.dbExtendedDateTimeLocal
+- uid: CRMScript.NetServer.FieldDataType.dbExtendedDateTimeUTC
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbExtendedDateTimeUTC
+  syntax: 
+    content: FieldDataType.dbExtendedDateTimeUTC
+  summary: "DateTime, stored as a real datetime in the database, with extended range. UTC  time"
+  name: dbExtendedDateTimeUTC
+  nameWithType: dbExtendedDateTimeUTC
+  fullName: CRMScript.NetServer.FieldDataType.dbExtendedDateTimeUTC
+- uid: CRMScript.NetServer.FieldDataType.dbTimeLocal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbTimeLocal
+  syntax: 
+    content: FieldDataType.dbTimeLocal
+  summary: "Time, stored as a datetime in the database, with date value that should be ignored. This time is not timezone converted/sensitive"
+  name: dbTimeLocal
+  nameWithType: dbTimeLocal
+  fullName: CRMScript.NetServer.FieldDataType.dbTimeLocal
+- uid: CRMScript.NetServer.FieldDataType.dbDateLocal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbDateLocal
+  syntax: 
+    content: FieldDataType.dbDateLocal
+  summary: "Date, stored as a datetime in the database, with time value that should be ignored. This time is not timezone converted/sensitive"
+  name: dbDateLocal
+  nameWithType: dbDateLocal
+  fullName: CRMScript.NetServer.FieldDataType.dbDateLocal
+- uid: CRMScript.NetServer.FieldDataType.dbIntIdArr
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FieldDataType.dbIntIdArr
+  syntax: 
+    content: FieldDataType.dbIntIdArr
+  summary: "Array if int's that represent ID's (foreign keys). Stored encoded as a long string, with each int becoming a word that can be fulltext indexed"
+  name: dbIntIdArr
+  nameWithType: dbIntIdArr
+  fullName: CRMScript.NetServer.FieldDataType.dbIntIdArr
+references:
+- uid: CRMScript.NetServer.FieldDataType
+  commentId: T:CRMScript.NetServer.FieldDataType
+  isExternal: true
+  name: FieldDataType
+  nameWithType: FieldDataType
+  fullName: CRMScript.NetServer.FieldDataType

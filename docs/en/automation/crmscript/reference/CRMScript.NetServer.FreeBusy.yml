@@ -1,0 +1,51 @@
+﻿items:
+- uid: CRMScript.NetServer.FreeBusy
+  children:
+  - CRMScript.NetServer.FreeBusy.Busy
+  - CRMScript.NetServer.FreeBusy.Free
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: FreeBusy
+  syntax: 
+    content: FreeBusy
+  summary: "What kind of time is this: 0 = Busy, 1 = Free"
+  name: FreeBusy
+  nameWithType: FreeBusy
+  fullName: CRMScript.NetServer.FreeBusy
+- uid: CRMScript.NetServer.FreeBusy.Busy
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FreeBusy.Busy
+  syntax: 
+    content: FreeBusy.Busy
+  summary: ""
+  name: Busy
+  nameWithType: Busy
+  fullName: CRMScript.NetServer.FreeBusy.Busy
+- uid: CRMScript.NetServer.FreeBusy.Free
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: FreeBusy.Free
+  syntax: 
+    content: FreeBusy.Free
+  summary: ""
+  name: Free
+  nameWithType: Free
+  fullName: CRMScript.NetServer.FreeBusy.Free
+references:
+- uid: CRMScript.NetServer.FreeBusy
+  commentId: T:CRMScript.NetServer.FreeBusy
+  isExternal: true
+  name: FreeBusy
+  nameWithType: FreeBusy
+  fullName: CRMScript.NetServer.FreeBusy
+references:
+- uid: CRMScript.NetServer.IncludePersonsMode
+  commentId: T:CRMScript.NetServer.IncludePersonsMode
+  isExternal: true
+  name: IncludePersonsMode
+  nameWithType: IncludePersonsMode
+  fullName: CRMScript.NetServer.IncludePersonsMode

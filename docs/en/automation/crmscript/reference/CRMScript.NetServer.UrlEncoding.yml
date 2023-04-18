@@ -1,73 +1,64 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.UrlEncoding
-  # Same as SuperOffice.Data.UrlEncoding
-  commentId: T:CRMScript.NetServer.UrlEncoding
-  id: UrlEncoding
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.UrlEncoding.Unknown
   - CRMScript.NetServer.UrlEncoding.None
   - CRMScript.NetServer.UrlEncoding.ANSI
   - CRMScript.NetServer.UrlEncoding.Unicode
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: UrlEncoding
+  syntax: 
+    content: UrlEncoding
+  summary: "Url encoding"
   name: UrlEncoding
   nameWithType: UrlEncoding
   fullName: CRMScript.NetServer.UrlEncoding
-  type: Enum
-  summary: "\nURL encoding.\n"
 - uid: CRMScript.NetServer.UrlEncoding.Unknown
-  commentId: F:CRMScript.NetServer.UrlEncoding.Unknown
-  id: UrlEncoding.Unknown
   langs:
   - crmscript
-  name: UrlEncoding.Unknown
-  nameWithType: UrlEncoding.Unknown
+  type: Field
+  so.intellisense: UrlEncoding.Unknown
+  syntax: 
+    content: UrlEncoding.Unknown
+  summary: "Unknown"
+  name: Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.UrlEncoding.Unknown
-  type: Field
-  summary: "\n0: Unknown\n"
-  syntax: 
-    content: Unknown = 0
-    type: CRMScript.NetServer.UrlEncoding
 - uid: CRMScript.NetServer.UrlEncoding.None
-  commentId: F:CRMScript.NetServer.UrlEncoding.None
-  id: UrlEncoding.None
   langs:
   - crmscript
-  name: UrlEncoding.None
-  nameWithType: UrlEncoding.None
+  type: Field
+  so.intellisense: UrlEncoding.None
+  syntax: 
+    content: UrlEncoding.None
+  summary: "No encoding"
+  name: None
+  nameWithType: None
   fullName: CRMScript.NetServer.UrlEncoding.None
-  type: Field
-  summary: "\n1: No encoding\n"
-  syntax: 
-    content: None = 1
-    type: CRMScript.NetServer.UrlEncoding
 - uid: CRMScript.NetServer.UrlEncoding.ANSI
-  commentId: F:CRMScript.NetServer.UrlEncoding.ANSI
-  id: UrlEncoding.ANSI
   langs:
   - crmscript
-  name: UrlEncoding.ANSI
-  nameWithType: UrlEncoding.ANSI
+  type: Field
+  so.intellisense: UrlEncoding.ANSI
+  syntax: 
+    content: UrlEncoding.ANSI
+  summary: "ANSI"
+  name: ANSI
+  nameWithType: ANSI
   fullName: CRMScript.NetServer.UrlEncoding.ANSI
-  type: Field
-  summary: "\n2: ANSI\n"
-  syntax: 
-    content: ANSI = 2
-    type: CRMScript.NetServer.UrlEncoding
 - uid: CRMScript.NetServer.UrlEncoding.Unicode
-  commentId: F:CRMScript.NetServer.UrlEncoding.Unicode
-  id: UrlEncoding.Unicode
   langs:
   - crmscript
-  name: UrlEncoding.Unicode
-  nameWithType: UrlEncoding.Unicode
-  fullName: CRMScript.NetServer.UrlEncoding.Unicode
   type: Field
-  summary: "\n3: Unicode\n"
+  so.intellisense: UrlEncoding.Unicode
   syntax: 
-    content: Unicode = 3
-    type: CRMScript.NetServer.UrlEncoding
+    content: UrlEncoding.Unicode
+  summary: "Unicode"
+  name: Unicode
+  nameWithType: Unicode
+  fullName: CRMScript.NetServer.UrlEncoding.Unicode
 references:
 - uid: CRMScript.NetServer.UrlEncoding
   commentId: T:CRMScript.NetServer.UrlEncoding

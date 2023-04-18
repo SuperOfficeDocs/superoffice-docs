@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ServiceAuthStatus
+  children:
+  - CRMScript.NetServer.ServiceAuthStatus.Unknown
+  - CRMScript.NetServer.ServiceAuthStatus.Initialized
+  - CRMScript.NetServer.ServiceAuthStatus.Error
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ServiceAuthStatus
+  syntax: 
+    content: ServiceAuthStatus
+  summary: "Possible statuses for a ServiceAuth."
+  name: ServiceAuthStatus
+  nameWithType: ServiceAuthStatus
+  fullName: CRMScript.NetServer.ServiceAuthStatus
+- uid: CRMScript.NetServer.ServiceAuthStatus.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ServiceAuthStatus.Unknown
+  syntax: 
+    content: ServiceAuthStatus.Unknown
+  summary: "Unknown status"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.ServiceAuthStatus.Unknown
+- uid: CRMScript.NetServer.ServiceAuthStatus.Initialized
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ServiceAuthStatus.Initialized
+  syntax: 
+    content: ServiceAuthStatus.Initialized
+  summary: "Initialized"
+  name: Initialized
+  nameWithType: Initialized
+  fullName: CRMScript.NetServer.ServiceAuthStatus.Initialized
+- uid: CRMScript.NetServer.ServiceAuthStatus.Error
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ServiceAuthStatus.Error
+  syntax: 
+    content: ServiceAuthStatus.Error
+  summary: "Error"
+  name: Error
+  nameWithType: Error
+  fullName: CRMScript.NetServer.ServiceAuthStatus.Error
+references:
+- uid: CRMScript.NetServer.ServiceAuthStatus
+  commentId: T:CRMScript.NetServer.ServiceAuthStatus
+  isExternal: true
+  name: ServiceAuthStatus
+  nameWithType: ServiceAuthStatus
+  fullName: CRMScript.NetServer.ServiceAuthStatus

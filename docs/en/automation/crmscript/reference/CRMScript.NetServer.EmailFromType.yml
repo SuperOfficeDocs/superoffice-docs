@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.EmailFromType
+  children:
+  - CRMScript.NetServer.EmailFromType.FromOnlySpecified
+  - CRMScript.NetServer.EmailFromType.FromSalesContact
+  - CRMScript.NetServer.EmailFromType.FromSupportContact
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: EmailFromType
+  syntax: 
+    content: EmailFromType
+  summary: "Email/Mailing From field address algorithm"
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: CRMScript.NetServer.EmailFromType
+- uid: CRMScript.NetServer.EmailFromType.FromOnlySpecified
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailFromType.FromOnlySpecified
+  syntax: 
+    content: EmailFromType.FromOnlySpecified
+  summary: "FromOnlySpecified"
+  name: FromOnlySpecified
+  nameWithType: FromOnlySpecified
+  fullName: CRMScript.NetServer.EmailFromType.FromOnlySpecified
+- uid: CRMScript.NetServer.EmailFromType.FromSalesContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailFromType.FromSalesContact
+  syntax: 
+    content: EmailFromType.FromSalesContact
+  summary: "FromSalesContact"
+  name: FromSalesContact
+  nameWithType: FromSalesContact
+  fullName: CRMScript.NetServer.EmailFromType.FromSalesContact
+- uid: CRMScript.NetServer.EmailFromType.FromSupportContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailFromType.FromSupportContact
+  syntax: 
+    content: EmailFromType.FromSupportContact
+  summary: "FromSupportContact"
+  name: FromSupportContact
+  nameWithType: FromSupportContact
+  fullName: CRMScript.NetServer.EmailFromType.FromSupportContact
+references:
+- uid: CRMScript.NetServer.EmailFromType
+  commentId: T:CRMScript.NetServer.EmailFromType
+  isExternal: true
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: CRMScript.NetServer.EmailFromType

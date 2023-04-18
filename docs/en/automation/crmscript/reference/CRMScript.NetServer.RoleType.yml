@@ -1,73 +1,64 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.RoleType
-  # Same as SuperOffice.Data.RoleType
-  commentId: T:CRMScript.NetServer.RoleType
-  id: RoleType
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.RoleType.Employee
   - CRMScript.NetServer.RoleType.ExternalUser
   - CRMScript.NetServer.RoleType.Anonymous
   - CRMScript.NetServer.RoleType.System
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RoleType
+  syntax: 
+    content: RoleType
+  summary: "0 = employee, 1 = external user, 2 = anonymous"
   name: RoleType
   nameWithType: RoleType
   fullName: CRMScript.NetServer.RoleType
-  type: Enum
-  summary: # TODO
 - uid: CRMScript.NetServer.RoleType.Employee
-  commentId: F:CRMScript.NetServer.RoleType.Employee
-  id: RoleType.Employee
   langs:
   - crmscript
-  name: RoleType.Employee
-  nameWithType: RoleType.Employee
+  type: Field
+  so.intellisense: RoleType.Employee
+  syntax: 
+    content: RoleType.Employee
+  summary: "Normal employee"
+  name: Employee
+  nameWithType: Employee
   fullName: CRMScript.NetServer.RoleType.Employee
-  type: Field
-  summary: "\n0: Normal employee\n"
-  syntax: 
-    content: Employee = 0
-    type: CRMScript.NetServer.RoleType
 - uid: CRMScript.NetServer.RoleType.ExternalUser
-  commentId: F:CRMScript.NetServer.RoleType.ExternalUser
-  id: RoleType.ExternalUser
   langs:
   - crmscript
-  name: RoleType.ExternalUser
-  nameWithType: RoleType.ExternalUser
+  type: Field
+  so.intellisense: RoleType.ExternalUser
+  syntax: 
+    content: RoleType.ExternalUser
+  summary: "External User"
+  name: ExternalUser
+  nameWithType: ExternalUser
   fullName: CRMScript.NetServer.RoleType.ExternalUser
-  type: Field
-  summary: "\n1: External User\n"
-  syntax: 
-    content: ExternalUser = 1
-    type: CRMScript.NetServer.RoleType
 - uid: CRMScript.NetServer.RoleType.Anonymous
-  commentId: F:CRMScript.NetServer.RoleType.Anonymous
-  id: RoleType.Anonymous
   langs:
   - crmscript
-  name: RoleType.Anonymous
-  nameWithType: RoleType.Anonymous
+  type: Field
+  so.intellisense: RoleType.Anonymous
+  syntax: 
+    content: RoleType.Anonymous
+  summary: "Anonymous (implicit) users."
+  name: Anonymous
+  nameWithType: Anonymous
   fullName: CRMScript.NetServer.RoleType.Anonymous
-  type: Field
-  summary: "\n2: Anonymous (implicit) users.\n"
-  syntax: 
-    content: Anonymous = 2
-    type: CRMScript.NetServer.RoleType
 - uid: CRMScript.NetServer.RoleType.System
-  commentId: F:CRMScript.NetServer.RoleType.System
-  id: RoleType.System
   langs:
   - crmscript
-  name: RoleType.System
-  nameWithType: RoleType.System
-  fullName: CRMScript.NetServer.RoleType.System
   type: Field
-  summary: "\n3: System users - sentry is bypassed for this kind of users.\n"
+  so.intellisense: RoleType.System
   syntax: 
-    content: System = 3
-    type: CRMScript.NetServer.RoleType
+    content: RoleType.System
+  summary: "System users - sentry is bypassed for this kind of users."
+  name: System
+  nameWithType: System
+  fullName: CRMScript.NetServer.RoleType.System
 references:
 - uid: CRMScript.NetServer.RoleType
   commentId: T:CRMScript.NetServer.RoleType
@@ -75,3 +66,80 @@ references:
   name: RoleType
   nameWithType: RoleType
   fullName: CRMScript.NetServer.RoleType
+references:
+- uid: CRMScript.NetServer.UserRoleLinkType
+  commentId: T:CRMScript.NetServer.UserRoleLinkType
+  isExternal: true
+  name: UserRoleLinkType
+  nameWithType: UserRoleLinkType
+  fullName: CRMScript.NetServer.UserRoleLinkType
+references:
+- uid: CRMScript.NetServer.FunctionRightType
+  commentId: T:CRMScript.NetServer.FunctionRightType
+  isExternal: true
+  name: FunctionRightType
+  nameWithType: FunctionRightType
+  fullName: CRMScript.NetServer.FunctionRightType
+references:
+- uid: CRMScript.NetServer.RelationToOwner
+  commentId: T:CRMScript.NetServer.RelationToOwner
+  isExternal: true
+  name: RelationToOwner
+  nameWithType: RelationToOwner
+  fullName: CRMScript.NetServer.RelationToOwner
+references:
+- uid: CRMScript.NetServer.AppntRecordType
+  commentId: T:CRMScript.NetServer.AppntRecordType
+  isExternal: true
+  name: AppntRecordType
+  nameWithType: AppntRecordType
+  fullName: CRMScript.NetServer.AppntRecordType
+references:
+- uid: CRMScript.NetServer.AppntDirection
+  commentId: T:CRMScript.NetServer.AppntDirection
+  isExternal: true
+  name: AppntDirection
+  nameWithType: AppntDirection
+  fullName: CRMScript.NetServer.AppntDirection
+references:
+- uid: CRMScript.NetServer.OwnerType
+  commentId: T:CRMScript.NetServer.OwnerType
+  isExternal: true
+  name: OwnerType
+  nameWithType: OwnerType
+  fullName: CRMScript.NetServer.OwnerType
+references:
+- uid: CRMScript.NetServer.CriteriaGroupDirection
+  commentId: T:CRMScript.NetServer.CriteriaGroupDirection
+  isExternal: true
+  name: CriteriaGroupDirection
+  nameWithType: CriteriaGroupDirection
+  fullName: CRMScript.NetServer.CriteriaGroupDirection
+references:
+- uid: CRMScript.NetServer.CriterionOperator
+  commentId: T:CRMScript.NetServer.CriterionOperator
+  isExternal: true
+  name: CriterionOperator
+  nameWithType: CriterionOperator
+  fullName: CRMScript.NetServer.CriterionOperator
+references:
+- uid: CRMScript.NetServer.CriterionLinkType
+  commentId: T:CRMScript.NetServer.CriterionLinkType
+  isExternal: true
+  name: CriterionLinkType
+  nameWithType: CriterionLinkType
+  fullName: CRMScript.NetServer.CriterionLinkType
+references:
+- uid: CRMScript.NetServer.CriterionValueType
+  commentId: T:CRMScript.NetServer.CriterionValueType
+  isExternal: true
+  name: CriterionValueType
+  nameWithType: CriterionValueType
+  fullName: CRMScript.NetServer.CriterionValueType
+references:
+- uid: CRMScript.NetServer.FieldType
+  commentId: T:CRMScript.NetServer.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: FieldType
+  fullName: CRMScript.NetServer.FieldType

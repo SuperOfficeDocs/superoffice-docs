@@ -1,73 +1,64 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.RelationTarget
-  # Same as SuperOffice.Data.RelationTarget
-  commentId: T:CRMScript.NetServer.RelationTarget
-  id: RelationTarget
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.RelationTarget.None
   - CRMScript.NetServer.RelationTarget.Contact
   - CRMScript.NetServer.RelationTarget.Person
   - CRMScript.NetServer.RelationTarget.Both
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RelationTarget
+  syntax: 
+    content: RelationTarget
+  summary: "Target type of relation. (Contact, person or both)"
   name: RelationTarget
   nameWithType: RelationTarget
   fullName: CRMScript.NetServer.RelationTarget
-  type: Enum
-  summary: "\nTarget type of relation. (Contact, person or both).\n"
 - uid: CRMScript.NetServer.RelationTarget.None
-  commentId: F:CRMScript.NetServer.RelationTarget.None
-  id: RelationTarget.None
   langs:
   - crmscript
-  name: RelationTarget.None
-  nameWithType: RelationTarget.None
+  type: Field
+  so.intellisense: RelationTarget.None
+  syntax: 
+    content: RelationTarget.None
+  summary: "None"
+  name: None
+  nameWithType: None
   fullName: CRMScript.NetServer.RelationTarget.None
-  type: Field
-  summary: "\n0: None\n"
-  syntax: 
-    content: None = 0
-    type: CRMScript.NetServer.RelationTarget
 - uid: CRMScript.NetServer.RelationTarget.Contact
-  commentId: F:CRMScript.NetServer.RelationTarget.Contact
-  id: RelationTarget.Contact
   langs:
   - crmscript
-  name: RelationTarget.Contact
-  nameWithType: RelationTarget.Contact
+  type: Field
+  so.intellisense: RelationTarget.Contact
+  syntax: 
+    content: RelationTarget.Contact
+  summary: "Contact"
+  name: Contact
+  nameWithType: Contact
   fullName: CRMScript.NetServer.RelationTarget.Contact
-  type: Field
-  summary: "\n1: Contact\n"
-  syntax: 
-    content: Contact = 1
-    type: CRMScript.NetServer.RelationTarget
 - uid: CRMScript.NetServer.RelationTarget.Person
-  commentId: F:CRMScript.NetServer.RelationTarget.Person
-  id: RelationTarget.Person
   langs:
   - crmscript
-  name: RelationTarget.Person
-  nameWithType: RelationTarget.Person
+  type: Field
+  so.intellisense: RelationTarget.Person
+  syntax: 
+    content: RelationTarget.Person
+  summary: "Person"
+  name: Person
+  nameWithType: Person
   fullName: CRMScript.NetServer.RelationTarget.Person
-  type: Field
-  summary: "\n2: Person\n"
-  syntax: 
-    content: Person = 2
-    type: CRMScript.NetServer.RelationTarget
 - uid: CRMScript.NetServer.RelationTarget.Both
-  commentId: F:CRMScript.NetServer.RelationTarget.Both
-  id: RelationTarget.Both
   langs:
   - crmscript
-  name: RelationTarget.Both
-  nameWithType: RelationTarget.Both
-  fullName: CRMScript.NetServer.RelationTarget.Both
   type: Field
-  summary: "\n3: Both\n"
+  so.intellisense: RelationTarget.Both
   syntax: 
-    content: Both = 3
-    type: CRMScript.NetServer.RelationTarget
+    content: RelationTarget.Both
+  summary: "Both"
+  name: Both
+  nameWithType: Both
+  fullName: CRMScript.NetServer.RelationTarget.Both
 references:
 - uid: CRMScript.NetServer.RelationTarget
   commentId: T:CRMScript.NetServer.RelationTarget

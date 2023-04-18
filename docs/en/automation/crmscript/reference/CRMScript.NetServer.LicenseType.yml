@@ -1,73 +1,64 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.LicenseType
-  # Same as SuperOffice.WebApi.Data.LicenseType
-  commentId: T:CRMScript.NetServer.LicenseType
-  id: LicenseType
   children:
-  - CRMScript.NetServer.LicenseType.SatelliteLicense
-  - CRMScript.NetServer.LicenseType.SiteLicense
   - CRMScript.NetServer.LicenseType.Unknown
+  - CRMScript.NetServer.LicenseType.SiteLicense
+  - CRMScript.NetServer.LicenseType.SatelliteLicense
   - CRMScript.NetServer.LicenseType.UserLicense
   langs:
   - crmscript
+  type: Enum
+  so.intellisense: LicenseType
+  syntax: 
+    content: LicenseType
+  summary: "Entire system, per database, or per associate"
   name: LicenseType
   nameWithType: LicenseType
   fullName: CRMScript.NetServer.LicenseType
-  type: Class
-  summary: "\nEntire system, per database, or per associate.\n"
 - uid: CRMScript.NetServer.LicenseType.Unknown
-  commentId: F:CRMScript.NetServer.LicenseType.Unknown
-  id: Unknown
   langs:
   - crmscript
+  type: Field
+  so.intellisense: LicenseType.Unknown
+  syntax: 
+    content: LicenseType.Unknown
+  summary: ""
   name: Unknown
-  nameWithType: LicenseType.Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.LicenseType.Unknown
-  type: Field
-  summary: "\n0: \n"
-  syntax:
-    content: Unknown = 0
-    type: CRMScript.NetServer.LicenseType.Unknown
 - uid: CRMScript.NetServer.LicenseType.SiteLicense
-  commentId: F:CRMScript.NetServer.LicenseType.SiteLicense
-  id: SiteLicense
   langs:
   - crmscript
+  type: Field
+  so.intellisense: LicenseType.SiteLicense
+  syntax: 
+    content: LicenseType.SiteLicense
+  summary: ""
   name: SiteLicense
-  nameWithType: LicenseType.SiteLicense
+  nameWithType: SiteLicense
   fullName: CRMScript.NetServer.LicenseType.SiteLicense
-  type: Field
-  summary: "\n1: \n"
-  syntax:
-    content: SiteLicense = 1
-    type: CRMScript.NetServer.LicenseType.SiteLicense
 - uid: CRMScript.NetServer.LicenseType.SatelliteLicense
-  commentId: F:CRMScript.NetServer.LicenseType.SatelliteLicense
-  id: SatelliteLicense
   langs:
   - crmscript
+  type: Field
+  so.intellisense: LicenseType.SatelliteLicense
+  syntax: 
+    content: LicenseType.SatelliteLicense
+  summary: ""
   name: SatelliteLicense
-  nameWithType: LicenseType.SatelliteLicense
+  nameWithType: SatelliteLicense
   fullName: CRMScript.NetServer.LicenseType.SatelliteLicense
-  type: Field
-  summary: "\n2: \n"
-  syntax:
-    content: SatelliteLicense = 2
-    type: CRMScript.NetServer.LicenseType.SatelliteLicense
 - uid: CRMScript.NetServer.LicenseType.UserLicense
-  commentId: F:CRMScript.NetServer.LicenseType.UserLicense
-  id: UserLicense
   langs:
   - crmscript
-  name: UserLicense
-  nameWithType: LicenseType.UserLicense
-  fullName: CRMScript.NetServer.LicenseType.UserLicense
   type: Field
-  summary: "\n3: \n"
-  syntax:
-    content: UserLicense = 3
-    type: CRMScript.NetServer.LicenseType.UserLicense
+  so.intellisense: LicenseType.UserLicense
+  syntax: 
+    content: LicenseType.UserLicense
+  summary: ""
+  name: UserLicense
+  nameWithType: UserLicense
+  fullName: CRMScript.NetServer.LicenseType.UserLicense
 references:
 - uid: CRMScript.NetServer.LicenseType
   commentId: T:CRMScript.NetServer.LicenseType

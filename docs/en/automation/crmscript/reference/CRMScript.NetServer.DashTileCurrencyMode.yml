@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.DashTileCurrencyMode
+  children:
+  - CRMScript.NetServer.DashTileCurrencyMode.None
+  - CRMScript.NetServer.DashTileCurrencyMode.Base
+  - CRMScript.NetServer.DashTileCurrencyMode.Own
+  - CRMScript.NetServer.DashTileCurrencyMode.Specified
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashTileCurrencyMode
+  syntax: 
+    content: DashTileCurrencyMode
+  summary: "Dashboard tile currency mode"
+  name: DashTileCurrencyMode
+  nameWithType: DashTileCurrencyMode
+  fullName: CRMScript.NetServer.DashTileCurrencyMode
+- uid: CRMScript.NetServer.DashTileCurrencyMode.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileCurrencyMode.None
+  syntax: 
+    content: DashTileCurrencyMode.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashTileCurrencyMode.None
+- uid: CRMScript.NetServer.DashTileCurrencyMode.Base
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileCurrencyMode.Base
+  syntax: 
+    content: DashTileCurrencyMode.Base
+  summary: "Base"
+  name: Base
+  nameWithType: Base
+  fullName: CRMScript.NetServer.DashTileCurrencyMode.Base
+- uid: CRMScript.NetServer.DashTileCurrencyMode.Own
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileCurrencyMode.Own
+  syntax: 
+    content: DashTileCurrencyMode.Own
+  summary: "Own"
+  name: Own
+  nameWithType: Own
+  fullName: CRMScript.NetServer.DashTileCurrencyMode.Own
+- uid: CRMScript.NetServer.DashTileCurrencyMode.Specified
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileCurrencyMode.Specified
+  syntax: 
+    content: DashTileCurrencyMode.Specified
+  summary: "Specified"
+  name: Specified
+  nameWithType: Specified
+  fullName: CRMScript.NetServer.DashTileCurrencyMode.Specified
+references:
+- uid: CRMScript.NetServer.DashTileCurrencyMode
+  commentId: T:CRMScript.NetServer.DashTileCurrencyMode
+  isExternal: true
+  name: DashTileCurrencyMode
+  nameWithType: DashTileCurrencyMode
+  fullName: CRMScript.NetServer.DashTileCurrencyMode

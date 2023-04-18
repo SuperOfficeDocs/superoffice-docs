@@ -1,0 +1,296 @@
+﻿items:
+- uid: CRMScript.NetServer.ReplyTemplateFlags
+  children:
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateAll
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateNone
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateWeekStat
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePrintTicket
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  - CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateNewLink
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ReplyTemplateFlags
+  syntax: 
+    content: ReplyTemplateFlags
+  summary: "Describes access level to get reply templaes"
+  name: ReplyTemplateFlags
+  nameWithType: ReplyTemplateFlags
+  fullName: CRMScript.NetServer.ReplyTemplateFlags
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+  summary: "System template for reply to new customers"
+  name: ReplyTemplateCustomerNewCustomer
+  nameWithType: ReplyTemplateCustomerNewCustomer
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerNewCustomer
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+  summary: "System template for reply to customers on new request"
+  name: ReplyTemplateCustomerCustomerReply
+  nameWithType: ReplyTemplateCustomerCustomerReply
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerCustomerReply
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateCustomerPassword
+  summary: "System template for sending password to customers"
+  name: ReplyTemplateCustomerPassword
+  nameWithType: ReplyTemplateCustomerPassword
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerPassword
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+  summary: "System template for sending an overview of open requests to a user"
+  name: ReplyTemplateUserActiveTickets
+  nameWithType: ReplyTemplateUserActiveTickets
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserActiveTickets
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateUserNewMessage
+  summary: "System template for notifying a user that a new message has arrived"
+  name: ReplyTemplateUserNewMessage
+  nameWithType: ReplyTemplateUserNewMessage
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserNewMessage
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+  summary: "System template for notifying a user that a request has been activated"
+  name: ReplyTemplateUserTicketActivated
+  nameWithType: ReplyTemplateUserTicketActivated
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketActivated
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+  summary: "System template for notifying a user that a request has been escalated"
+  name: ReplyTemplateUserTicketAlarm
+  nameWithType: ReplyTemplateUserTicketAlarm
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketAlarm
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateUserNewTicket
+  summary: "System template for notifying a user that a new request has arrived"
+  name: ReplyTemplateUserNewTicket
+  nameWithType: ReplyTemplateUserNewTicket
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserNewTicket
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateAll
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateAll
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateAll
+  summary: "Not system templates"
+  name: ReplyTemplateAll
+  nameWithType: ReplyTemplateAll
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateAll
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateNone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateNone
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateNone
+  summary: "Used for installing or updating system templates"
+  name: ReplyTemplateNone
+  nameWithType: ReplyTemplateNone
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateNone
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+  summary: "System template for notifying a user that one of the user's requests has been taken over by another user"
+  name: ReplyTemplateUserTicketTakenOver
+  nameWithType: ReplyTemplateUserTicketTakenOver
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateUserTicketTakenOver
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+  summary: "System template for formatting the question when a request is published in the FAQ module"
+  name: ReplyTemplatePublishKbQuestion
+  nameWithType: ReplyTemplatePublishKbQuestion
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePublishKbQuestion
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+  summary: "System template for formatting the answer when a request is published in the FAQ module"
+  name: ReplyTemplatePublishKbAnswer
+  nameWithType: ReplyTemplatePublishKbAnswer
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePublishKbAnswer
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateWeekStat
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateWeekStat
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateWeekStat
+  summary: "System template defining weekly statistics layout"
+  name: ReplyTemplateWeekStat
+  nameWithType: ReplyTemplateWeekStat
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateWeekStat
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+  summary: "New message in a request in the favourites list: %ticket.title%"
+  name: ReplyTemplateHotlistNewMessage
+  nameWithType: ReplyTemplateHotlistNewMessage
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistNewMessage
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+  summary: "A request in the favourites list has been activated"
+  name: ReplyTemplateHotlistTicketActivated
+  nameWithType: ReplyTemplateHotlistTicketActivated
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketActivated
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+  summary: "System template for notifying a user that a request in the favourites list has been escalated"
+  name: ReplyTemplateHotlistTicketAlarm
+  nameWithType: ReplyTemplateHotlistTicketAlarm
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketAlarm
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+  summary: "System template for notifying a user that a request in the user's favourites list has been taken over by another user"
+  name: ReplyTemplateHotlistTicketTakenOver
+  nameWithType: ReplyTemplateHotlistTicketTakenOver
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateHotlistTicketTakenOver
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+  summary: "System template for sending warning to administrator about expiring licence"
+  name: ReplyTemplateLicenseExpirationWarning
+  nameWithType: ReplyTemplateLicenseExpirationWarning
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateLicenseExpirationWarning
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+  summary: "System template - confirm customer email"
+  name: ReplyTemplateCustomerConfirmEmail
+  nameWithType: ReplyTemplateCustomerConfirmEmail
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerConfirmEmail
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePrintTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplatePrintTicket
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplatePrintTicket
+  summary: "System template: print request"
+  name: ReplyTemplatePrintTicket
+  nameWithType: ReplyTemplatePrintTicket
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplatePrintTicket
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+  summary: "System template: Chat log"
+  name: ReplyTemplateCustomerChatLog
+  nameWithType: ReplyTemplateCustomerChatLog
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateCustomerChatLog
+- uid: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateNewLink
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateFlags.ReplyTemplateNewLink
+  syntax: 
+    content: ReplyTemplateFlags.ReplyTemplateNewLink
+  summary: "System template - new link"
+  name: ReplyTemplateNewLink
+  nameWithType: ReplyTemplateNewLink
+  fullName: CRMScript.NetServer.ReplyTemplateFlags.ReplyTemplateNewLink
+references:
+- uid: CRMScript.NetServer.ReplyTemplateFlags
+  commentId: T:CRMScript.NetServer.ReplyTemplateFlags
+  isExternal: true
+  name: ReplyTemplateFlags
+  nameWithType: ReplyTemplateFlags
+  fullName: CRMScript.NetServer.ReplyTemplateFlags

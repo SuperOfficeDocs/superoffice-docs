@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.BatchTaskCancellationBehaviour
+  children:
+  - CRMScript.NetServer.BatchTaskCancellationBehaviour.CanCancel
+  - CRMScript.NetServer.BatchTaskCancellationBehaviour.CancelWithWarning
+  - CRMScript.NetServer.BatchTaskCancellationBehaviour.CannotCancel
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: BatchTaskCancellationBehaviour
+  syntax: 
+    content: BatchTaskCancellationBehaviour
+  summary: "Batch task cancel support"
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: CRMScript.NetServer.BatchTaskCancellationBehaviour
+- uid: CRMScript.NetServer.BatchTaskCancellationBehaviour.CanCancel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BatchTaskCancellationBehaviour.CanCancel
+  syntax: 
+    content: BatchTaskCancellationBehaviour.CanCancel
+  summary: "The batch task can be cancelled"
+  name: CanCancel
+  nameWithType: CanCancel
+  fullName: CRMScript.NetServer.BatchTaskCancellationBehaviour.CanCancel
+- uid: CRMScript.NetServer.BatchTaskCancellationBehaviour.CancelWithWarning
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BatchTaskCancellationBehaviour.CancelWithWarning
+  syntax: 
+    content: BatchTaskCancellationBehaviour.CancelWithWarning
+  summary: "The batch task can be cancelled, but the UI will display a warning (symbol SR_BATCH_<snakeCaseName>_CANCELLATION"
+  name: CancelWithWarning
+  nameWithType: CancelWithWarning
+  fullName: CRMScript.NetServer.BatchTaskCancellationBehaviour.CancelWithWarning
+- uid: CRMScript.NetServer.BatchTaskCancellationBehaviour.CannotCancel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BatchTaskCancellationBehaviour.CannotCancel
+  syntax: 
+    content: BatchTaskCancellationBehaviour.CannotCancel
+  summary: "The batch task cannot be cancelled"
+  name: CannotCancel
+  nameWithType: CannotCancel
+  fullName: CRMScript.NetServer.BatchTaskCancellationBehaviour.CannotCancel
+references:
+- uid: CRMScript.NetServer.BatchTaskCancellationBehaviour
+  commentId: T:CRMScript.NetServer.BatchTaskCancellationBehaviour
+  isExternal: true
+  name: BatchTaskCancellationBehaviour
+  nameWithType: BatchTaskCancellationBehaviour
+  fullName: CRMScript.NetServer.BatchTaskCancellationBehaviour

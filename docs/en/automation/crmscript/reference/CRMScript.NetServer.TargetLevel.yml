@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.TargetLevel
+  children:
+  - CRMScript.NetServer.TargetLevel.None
+  - CRMScript.NetServer.TargetLevel.Global
+  - CRMScript.NetServer.TargetLevel.Company
+  - CRMScript.NetServer.TargetLevel.UserGroup
+  - CRMScript.NetServer.TargetLevel.Associate
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TargetLevel
+  syntax: 
+    content: TargetLevel
+  summary: "Target level"
+  name: TargetLevel
+  nameWithType: TargetLevel
+  fullName: CRMScript.NetServer.TargetLevel
+- uid: CRMScript.NetServer.TargetLevel.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetLevel.None
+  syntax: 
+    content: TargetLevel.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TargetLevel.None
+- uid: CRMScript.NetServer.TargetLevel.Global
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetLevel.Global
+  syntax: 
+    content: TargetLevel.Global
+  summary: "Global"
+  name: Global
+  nameWithType: Global
+  fullName: CRMScript.NetServer.TargetLevel.Global
+- uid: CRMScript.NetServer.TargetLevel.Company
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetLevel.Company
+  syntax: 
+    content: TargetLevel.Company
+  summary: "Company"
+  name: Company
+  nameWithType: Company
+  fullName: CRMScript.NetServer.TargetLevel.Company
+- uid: CRMScript.NetServer.TargetLevel.UserGroup
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetLevel.UserGroup
+  syntax: 
+    content: TargetLevel.UserGroup
+  summary: "UserGroup"
+  name: UserGroup
+  nameWithType: UserGroup
+  fullName: CRMScript.NetServer.TargetLevel.UserGroup
+- uid: CRMScript.NetServer.TargetLevel.Associate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetLevel.Associate
+  syntax: 
+    content: TargetLevel.Associate
+  summary: "Associate"
+  name: Associate
+  nameWithType: Associate
+  fullName: CRMScript.NetServer.TargetLevel.Associate
+references:
+- uid: CRMScript.NetServer.TargetLevel
+  commentId: T:CRMScript.NetServer.TargetLevel
+  isExternal: true
+  name: TargetLevel
+  nameWithType: TargetLevel
+  fullName: CRMScript.NetServer.TargetLevel

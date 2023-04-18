@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.TargetAssignementLevel
+  children:
+  - CRMScript.NetServer.TargetAssignementLevel.None
+  - CRMScript.NetServer.TargetAssignementLevel.Company
+  - CRMScript.NetServer.TargetAssignementLevel.Group
+  - CRMScript.NetServer.TargetAssignementLevel.Associate
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TargetAssignementLevel
+  syntax: 
+    content: TargetAssignementLevel
+  summary: "Target assignement levels"
+  name: TargetAssignementLevel
+  nameWithType: TargetAssignementLevel
+  fullName: CRMScript.NetServer.TargetAssignementLevel
+- uid: CRMScript.NetServer.TargetAssignementLevel.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetAssignementLevel.None
+  syntax: 
+    content: TargetAssignementLevel.None
+  summary: "No level"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TargetAssignementLevel.None
+- uid: CRMScript.NetServer.TargetAssignementLevel.Company
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetAssignementLevel.Company
+  syntax: 
+    content: TargetAssignementLevel.Company
+  summary: "Company"
+  name: Company
+  nameWithType: Company
+  fullName: CRMScript.NetServer.TargetAssignementLevel.Company
+- uid: CRMScript.NetServer.TargetAssignementLevel.Group
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetAssignementLevel.Group
+  syntax: 
+    content: TargetAssignementLevel.Group
+  summary: "Group"
+  name: Group
+  nameWithType: Group
+  fullName: CRMScript.NetServer.TargetAssignementLevel.Group
+- uid: CRMScript.NetServer.TargetAssignementLevel.Associate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetAssignementLevel.Associate
+  syntax: 
+    content: TargetAssignementLevel.Associate
+  summary: "Associate"
+  name: Associate
+  nameWithType: Associate
+  fullName: CRMScript.NetServer.TargetAssignementLevel.Associate
+references:
+- uid: CRMScript.NetServer.TargetAssignementLevel
+  commentId: T:CRMScript.NetServer.TargetAssignementLevel
+  isExternal: true
+  name: TargetAssignementLevel
+  nameWithType: TargetAssignementLevel
+  fullName: CRMScript.NetServer.TargetAssignementLevel

@@ -1,0 +1,140 @@
+﻿items:
+- uid: CRMScript.NetServer.DocTmplType
+  children:
+  - CRMScript.NetServer.DocTmplType.Unknown
+  - CRMScript.NetServer.DocTmplType.Appointment
+  - CRMScript.NetServer.DocTmplType.Document
+  - CRMScript.NetServer.DocTmplType.Email
+  - CRMScript.NetServer.DocTmplType.Fax
+  - CRMScript.NetServer.DocTmplType.Phone
+  - CRMScript.NetServer.DocTmplType.Todo
+  - CRMScript.NetServer.DocTmplType.MergeDraft
+  - CRMScript.NetServer.DocTmplType.MergeFinal
+  - CRMScript.NetServer.DocTmplType.SavedReport
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DocTmplType
+  syntax: 
+    content: DocTmplType
+  summary: "Value for field 'record_type' in table 'doctmpl'."
+  name: DocTmplType
+  nameWithType: DocTmplType
+  fullName: CRMScript.NetServer.DocTmplType
+- uid: CRMScript.NetServer.DocTmplType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.Unknown
+  syntax: 
+    content: DocTmplType.Unknown
+  summary: "The document type is unknown/undecided"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.DocTmplType.Unknown
+- uid: CRMScript.NetServer.DocTmplType.Appointment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.Appointment
+  syntax: 
+    content: DocTmplType.Appointment
+  summary: "(not used for document templates)"
+  name: Appointment
+  nameWithType: Appointment
+  fullName: CRMScript.NetServer.DocTmplType.Appointment
+- uid: CRMScript.NetServer.DocTmplType.Document
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.Document
+  syntax: 
+    content: DocTmplType.Document
+  summary: "Generic text document (for instance, a letter)"
+  name: Document
+  nameWithType: Document
+  fullName: CRMScript.NetServer.DocTmplType.Document
+- uid: CRMScript.NetServer.DocTmplType.Email
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.Email
+  syntax: 
+    content: DocTmplType.Email
+  summary: "Email message"
+  name: Email
+  nameWithType: Email
+  fullName: CRMScript.NetServer.DocTmplType.Email
+- uid: CRMScript.NetServer.DocTmplType.Fax
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.Fax
+  syntax: 
+    content: DocTmplType.Fax
+  summary: "Facsimile"
+  name: Fax
+  nameWithType: Fax
+  fullName: CRMScript.NetServer.DocTmplType.Fax
+- uid: CRMScript.NetServer.DocTmplType.Phone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.Phone
+  syntax: 
+    content: DocTmplType.Phone
+  summary: "(not used for document templates)"
+  name: Phone
+  nameWithType: Phone
+  fullName: CRMScript.NetServer.DocTmplType.Phone
+- uid: CRMScript.NetServer.DocTmplType.Todo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.Todo
+  syntax: 
+    content: DocTmplType.Todo
+  summary: "(not used for document templates)"
+  name: Todo
+  nameWithType: Todo
+  fullName: CRMScript.NetServer.DocTmplType.Todo
+- uid: CRMScript.NetServer.DocTmplType.MergeDraft
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.MergeDraft
+  syntax: 
+    content: DocTmplType.MergeDraft
+  summary: "Template for mailmerge operations"
+  name: MergeDraft
+  nameWithType: MergeDraft
+  fullName: CRMScript.NetServer.DocTmplType.MergeDraft
+- uid: CRMScript.NetServer.DocTmplType.MergeFinal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.MergeFinal
+  syntax: 
+    content: DocTmplType.MergeFinal
+  summary: "Result of a mailmerge operation"
+  name: MergeFinal
+  nameWithType: MergeFinal
+  fullName: CRMScript.NetServer.DocTmplType.MergeFinal
+- uid: CRMScript.NetServer.DocTmplType.SavedReport
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplType.SavedReport
+  syntax: 
+    content: DocTmplType.SavedReport
+  summary: "Saved result of running a report (output from Reporter)"
+  name: SavedReport
+  nameWithType: SavedReport
+  fullName: CRMScript.NetServer.DocTmplType.SavedReport
+references:
+- uid: CRMScript.NetServer.DocTmplType
+  commentId: T:CRMScript.NetServer.DocTmplType
+  isExternal: true
+  name: DocTmplType
+  nameWithType: DocTmplType
+  fullName: CRMScript.NetServer.DocTmplType

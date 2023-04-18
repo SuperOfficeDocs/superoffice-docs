@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportCompanyDuplicateAction
+  children:
+  - CRMScript.NetServer.ImportCompanyDuplicateAction.UseBlankName
+  - CRMScript.NetServer.ImportCompanyDuplicateAction.UsePersonName
+  - CRMScript.NetServer.ImportCompanyDuplicateAction.Skip
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportCompanyDuplicateAction
+  syntax: 
+    content: ImportCompanyDuplicateAction
+  summary: "Action for blank companys for import"
+  name: ImportCompanyDuplicateAction
+  nameWithType: ImportCompanyDuplicateAction
+  fullName: CRMScript.NetServer.ImportCompanyDuplicateAction
+- uid: CRMScript.NetServer.ImportCompanyDuplicateAction.UseBlankName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportCompanyDuplicateAction.UseBlankName
+  syntax: 
+    content: ImportCompanyDuplicateAction.UseBlankName
+  summary: "Use blank name"
+  name: UseBlankName
+  nameWithType: UseBlankName
+  fullName: CRMScript.NetServer.ImportCompanyDuplicateAction.UseBlankName
+- uid: CRMScript.NetServer.ImportCompanyDuplicateAction.UsePersonName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportCompanyDuplicateAction.UsePersonName
+  syntax: 
+    content: ImportCompanyDuplicateAction.UsePersonName
+  summary: "Use person name"
+  name: UsePersonName
+  nameWithType: UsePersonName
+  fullName: CRMScript.NetServer.ImportCompanyDuplicateAction.UsePersonName
+- uid: CRMScript.NetServer.ImportCompanyDuplicateAction.Skip
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportCompanyDuplicateAction.Skip
+  syntax: 
+    content: ImportCompanyDuplicateAction.Skip
+  summary: "Skip"
+  name: Skip
+  nameWithType: Skip
+  fullName: CRMScript.NetServer.ImportCompanyDuplicateAction.Skip
+references:
+- uid: CRMScript.NetServer.ImportCompanyDuplicateAction
+  commentId: T:CRMScript.NetServer.ImportCompanyDuplicateAction
+  isExternal: true
+  name: ImportCompanyDuplicateAction
+  nameWithType: ImportCompanyDuplicateAction
+  fullName: CRMScript.NetServer.ImportCompanyDuplicateAction

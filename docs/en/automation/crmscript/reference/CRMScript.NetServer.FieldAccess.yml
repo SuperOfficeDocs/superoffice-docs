@@ -1,59 +1,52 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.FieldAccess
-  # Same as SuperOffice.Data.FieldAccess
-  commentId: T:CRMScript.NetServer.FieldAccess
-  id: FieldAccess
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.FieldAccess.Normal
   - CRMScript.NetServer.FieldAccess.Mandatory
   - CRMScript.NetServer.FieldAccess.ReadOnly
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: FieldAccess
+  syntax: 
+    content: FieldAccess
+  summary: "Access restrictions and mandatory status, if any."
   name: FieldAccess
   nameWithType: FieldAccess
   fullName: CRMScript.NetServer.FieldAccess
-  type: Enum
-  summary: "\nAccess restrictions and mandatory status, if any..\n"
 - uid: CRMScript.NetServer.FieldAccess.Normal
-  commentId: F:CRMScript.NetServer.FieldAccess.Normal
-  id: FieldAccess.Normal
   langs:
   - crmscript
-  name: FieldAccess.Normal
-  nameWithType: FieldAccess.Normal
+  type: Field
+  so.intellisense: FieldAccess.Normal
+  syntax: 
+    content: FieldAccess.Normal
+  summary: "Normal field, no particular restrictions"
+  name: Normal
+  nameWithType: Normal
   fullName: CRMScript.NetServer.FieldAccess.Normal
-  type: Field
-  summary: "\n0: Normal field, no particular restrictions\n"
-  syntax: 
-    content: Normal = 0
-    type: CRMScript.NetServer.FieldAccess
 - uid: CRMScript.NetServer.FieldAccess.Mandatory
-  commentId: F:CRMScript.NetServer.FieldAccess.Mandatory
-  id: FieldAccess.Mandatory
   langs:
   - crmscript
-  name: FieldAccess.Mandatory
-  nameWithType: FieldAccess.Mandatory
+  type: Field
+  so.intellisense: FieldAccess.Mandatory
+  syntax: 
+    content: FieldAccess.Mandatory
+  summary: "This field is mandatory."
+  name: Mandatory
+  nameWithType: Mandatory
   fullName: CRMScript.NetServer.FieldAccess.Mandatory
-  type: Field
-  summary: "\n1: This field is mandatory.\n"
-  syntax: 
-    content: Mandatory = 1
-    type: CRMScript.NetServer.FieldAccess
 - uid: CRMScript.NetServer.FieldAccess.ReadOnly
-  commentId: F:CRMScript.NetServer.FieldAccess.ReadOnly
-  id: FieldAccess.ReadOnly
   langs:
   - crmscript
-  name: FieldAccess.ReadOnly
-  nameWithType: FieldAccess.ReadOnly
-  fullName: CRMScript.NetServer.FieldAccess.ReadOnly
   type: Field
-  summary: "\n2: This field is read-only.\n"
+  so.intellisense: FieldAccess.ReadOnly
   syntax: 
-    content: ReadOnly = 2
-    type: CRMScript.NetServer.FieldAccess
+    content: FieldAccess.ReadOnly
+  summary: "This field is read-only."
+  name: ReadOnly
+  nameWithType: ReadOnly
+  fullName: CRMScript.NetServer.FieldAccess.ReadOnly
 references:
 - uid: CRMScript.NetServer.FieldAccess
   commentId: T:CRMScript.NetServer.FieldAccess

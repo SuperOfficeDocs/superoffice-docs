@@ -1,0 +1,44 @@
+﻿items:
+- uid: CRMScript.NetServer.TargetEntityType
+  children:
+  - CRMScript.NetServer.TargetEntityType.None
+  - CRMScript.NetServer.TargetEntityType.Sale
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TargetEntityType
+  syntax: 
+    content: TargetEntityType
+  summary: "Target entity type"
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: CRMScript.NetServer.TargetEntityType
+- uid: CRMScript.NetServer.TargetEntityType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetEntityType.None
+  syntax: 
+    content: TargetEntityType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TargetEntityType.None
+- uid: CRMScript.NetServer.TargetEntityType.Sale
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetEntityType.Sale
+  syntax: 
+    content: TargetEntityType.Sale
+  summary: "Sale"
+  name: Sale
+  nameWithType: Sale
+  fullName: CRMScript.NetServer.TargetEntityType.Sale
+references:
+- uid: CRMScript.NetServer.TargetEntityType
+  commentId: T:CRMScript.NetServer.TargetEntityType
+  isExternal: true
+  name: TargetEntityType
+  nameWithType: TargetEntityType
+  fullName: CRMScript.NetServer.TargetEntityType

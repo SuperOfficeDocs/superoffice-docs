@@ -1,11 +1,5 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.AppointmentCautionWarning
-  # Same as SuperOffice.Data.AppointmentCautionWarning
-  commentId: T:CRMScript.NetServer.AppointmentCautionWarning
-  id: AppointmentCautionWarning
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.AppointmentCautionWarning.OK
   - CRMScript.NetServer.AppointmentCautionWarning.NotInSync
@@ -13,89 +7,82 @@ items:
   - CRMScript.NetServer.AppointmentCautionWarning.RecurrencePatternNotSupported
   - CRMScript.NetServer.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
   - CRMScript.NetServer.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: AppointmentCautionWarning
+  syntax: 
+    content: AppointmentCautionWarning
+  summary: "Appointment and invitation synchronization info"
   name: AppointmentCautionWarning
   nameWithType: AppointmentCautionWarning
   fullName: CRMScript.NetServer.AppointmentCautionWarning
-  type: Enum
-  summary: "\nAppointment and invitation synchronization info\n"
 - uid: CRMScript.NetServer.AppointmentCautionWarning.OK
-  commentId: F:CRMScript.NetServer.AppointmentCautionWarning.OK
-  id: AppointmentCautionWarning.OK
   langs:
   - crmscript
-  name: AppointmentCautionWarning.OK
-  nameWithType: AppointmentCautionWarning.OK
+  type: Field
+  so.intellisense: AppointmentCautionWarning.OK
+  syntax: 
+    content: AppointmentCautionWarning.OK
+  summary: "OK - no special warnings"
+  name: OK
+  nameWithType: OK
   fullName: CRMScript.NetServer.AppointmentCautionWarning.OK
-  type: Field
-  summary: "\n0: OK - no special warnings\n"
-  syntax: 
-    content: OK = 0
-    type: CRMScript.NetServer.AppointmentCautionWarning
 - uid: CRMScript.NetServer.AppointmentCautionWarning.NotInSync
-  commentId: F:CRMScript.NetServer.AppointmentCautionWarning.NotInSync
-  id: AppointmentCautionWarning.NotInSync
   langs:
   - crmscript
-  name: AppointmentCautionWarning.NotInSync
-  nameWithType: AppointmentCautionWarning.NotInSync
+  type: Field
+  so.intellisense: AppointmentCautionWarning.NotInSync
+  syntax: 
+    content: AppointmentCautionWarning.NotInSync
+  summary: "Possibly not in sync with external systems"
+  name: NotInSync
+  nameWithType: NotInSync
   fullName: CRMScript.NetServer.AppointmentCautionWarning.NotInSync
-  type: Field
-  summary: "\n1: Possibly not in sync with external systems\n"
-  syntax: 
-    content: NotInSync = 1
-    type: CRMScript.NetServer.AppointmentCautionWarning
 - uid: CRMScript.NetServer.AppointmentCautionWarning.NotNotifiedByEmail
-  commentId: F:CRMScript.NetServer.AppointmentCautionWarning.NotNotifiedByEmail
-  id: AppointmentCautionWarning.NotNotifiedByEmail
   langs:
   - crmscript
-  name: AppointmentCautionWarning.NotNotifiedByEmail
-  nameWithType: AppointmentCautionWarning.NotNotifiedByEmail
+  type: Field
+  so.intellisense: AppointmentCautionWarning.NotNotifiedByEmail
+  syntax: 
+    content: AppointmentCautionWarning.NotNotifiedByEmail
+  summary: "Updated without sending email notifications"
+  name: NotNotifiedByEmail
+  nameWithType: NotNotifiedByEmail
   fullName: CRMScript.NetServer.AppointmentCautionWarning.NotNotifiedByEmail
-  type: Field
-  summary: "\n2: Updated without sending email notifications\n"
-  syntax: 
-    content: NotNotifiedByEmail = 2
-    type: CRMScript.NetServer.AppointmentCautionWarning
 - uid: CRMScript.NetServer.AppointmentCautionWarning.RecurrencePatternNotSupported
-  commentId: F:CRMScript.NetServer.AppointmentCautionWarning.RecurrencePatternNotSupported
-  id: AppointmentCautionWarning.RecurrencePatternNotSupported
   langs:
   - crmscript
-  name: AppointmentCautionWarning.RecurrencePatternNotSupported
-  nameWithType: AppointmentCautionWarning.RecurrencePatternNotSupported
+  type: Field
+  so.intellisense: AppointmentCautionWarning.RecurrencePatternNotSupported
+  syntax: 
+    content: AppointmentCautionWarning.RecurrencePatternNotSupported
+  summary: "This recurrence pattern might not be supported in the external participants calendars"
+  name: RecurrencePatternNotSupported
+  nameWithType: RecurrencePatternNotSupported
   fullName: CRMScript.NetServer.AppointmentCautionWarning.RecurrencePatternNotSupported
-  type: Field
-  summary: "\n3: This recurrence pattern might not be supported in the external participants calendars\n"
-  syntax: 
-    content: RecurrencePatternNotSupported = 3
-    type: CRMScript.NetServer.AppointmentCautionWarning
 - uid: CRMScript.NetServer.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
-  commentId: F:CRMScript.NetServer.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
-  id: AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
   langs:
   - crmscript
-  name: AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
-  nameWithType: AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  type: Field
+  so.intellisense: AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  syntax: 
+    content: AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  summary: "A requested change to a recurrence appointment was not supported"
+  name: IncomingRecurrenceChangeNotSupported
+  nameWithType: IncomingRecurrenceChangeNotSupported
   fullName: CRMScript.NetServer.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
-  type: Field
-  summary: "\n4: A requested change to a recurrence appointment was not supported\n"
-  syntax: 
-    content: IncomingRecurrenceChangeNotSupported = 4
-    type: CRMScript.NetServer.AppointmentCautionWarning
 - uid: CRMScript.NetServer.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
-  commentId: F:CRMScript.NetServer.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
-  id: AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   langs:
   - crmscript
-  name: AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
-  nameWithType: AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
-  fullName: CRMScript.NetServer.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   type: Field
-  summary: "\n5: Time and date may be wrong for external participants due to unsupported changes\n"
+  so.intellisense: AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   syntax: 
-    content: ExternalParticipantsDateTimeMismatch = 5
-    type: CRMScript.NetServer.AppointmentCautionWarning
+    content: AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
+  summary: "Time and date may be wrong for external participants due to unsupported changes"
+  name: ExternalParticipantsDateTimeMismatch
+  nameWithType: ExternalParticipantsDateTimeMismatch
+  fullName: CRMScript.NetServer.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
 references:
 - uid: CRMScript.NetServer.AppointmentCautionWarning
   commentId: T:CRMScript.NetServer.AppointmentCautionWarning

@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.ShipmentLinkTaskFlags
+  children:
+  - CRMScript.NetServer.ShipmentLinkTaskFlags.None
+  - CRMScript.NetServer.ShipmentLinkTaskFlags.AssignToOurContact
+  - CRMScript.NetServer.ShipmentLinkTaskFlags.UseNextAvailableTime
+  - CRMScript.NetServer.ShipmentLinkTaskFlags.IsAssignment
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ShipmentLinkTaskFlags
+  syntax: 
+    content: ShipmentLinkTaskFlags
+  summary: "Flags that control how the task is created"
+  name: ShipmentLinkTaskFlags
+  nameWithType: ShipmentLinkTaskFlags
+  fullName: CRMScript.NetServer.ShipmentLinkTaskFlags
+- uid: CRMScript.NetServer.ShipmentLinkTaskFlags.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkTaskFlags.None
+  syntax: 
+    content: ShipmentLinkTaskFlags.None
+  summary: "No special options, values taken from other fields"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ShipmentLinkTaskFlags.None
+- uid: CRMScript.NetServer.ShipmentLinkTaskFlags.AssignToOurContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkTaskFlags.AssignToOurContact
+  syntax: 
+    content: ShipmentLinkTaskFlags.AssignToOurContact
+  summary: "Assign task to contact owner"
+  name: AssignToOurContact
+  nameWithType: AssignToOurContact
+  fullName: CRMScript.NetServer.ShipmentLinkTaskFlags.AssignToOurContact
+- uid: CRMScript.NetServer.ShipmentLinkTaskFlags.UseNextAvailableTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkTaskFlags.UseNextAvailableTime
+  syntax: 
+    content: ShipmentLinkTaskFlags.UseNextAvailableTime
+  summary: "Use the soonest-available working time slot (after the task-creation evcent is triggered)"
+  name: UseNextAvailableTime
+  nameWithType: UseNextAvailableTime
+  fullName: CRMScript.NetServer.ShipmentLinkTaskFlags.UseNextAvailableTime
+- uid: CRMScript.NetServer.ShipmentLinkTaskFlags.IsAssignment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkTaskFlags.IsAssignment
+  syntax: 
+    content: ShipmentLinkTaskFlags.IsAssignment
+  summary: "Create as an assignment (shown in Invitation dialog)"
+  name: IsAssignment
+  nameWithType: IsAssignment
+  fullName: CRMScript.NetServer.ShipmentLinkTaskFlags.IsAssignment
+references:
+- uid: CRMScript.NetServer.ShipmentLinkTaskFlags
+  commentId: T:CRMScript.NetServer.ShipmentLinkTaskFlags
+  isExternal: true
+  name: ShipmentLinkTaskFlags
+  nameWithType: ShipmentLinkTaskFlags
+  fullName: CRMScript.NetServer.ShipmentLinkTaskFlags

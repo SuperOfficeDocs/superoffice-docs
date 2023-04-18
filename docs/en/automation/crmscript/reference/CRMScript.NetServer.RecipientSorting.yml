@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.RecipientSorting
+  children:
+  - CRMScript.NetServer.RecipientSorting.None
+  - CRMScript.NetServer.RecipientSorting.CountryZipCode
+  - CRMScript.NetServer.RecipientSorting.CompanyName
+  - CRMScript.NetServer.RecipientSorting.CompanyNumber
+  - CRMScript.NetServer.RecipientSorting.PersonLastname
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RecipientSorting
+  syntax: 
+    content: RecipientSorting
+  summary: "The different types of recipient sorting available"
+  name: RecipientSorting
+  nameWithType: RecipientSorting
+  fullName: CRMScript.NetServer.RecipientSorting
+- uid: CRMScript.NetServer.RecipientSorting.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientSorting.None
+  syntax: 
+    content: RecipientSorting.None
+  summary: "No sorting"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.RecipientSorting.None
+- uid: CRMScript.NetServer.RecipientSorting.CountryZipCode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientSorting.CountryZipCode
+  syntax: 
+    content: RecipientSorting.CountryZipCode
+  summary: "Sort by country and zip code"
+  name: CountryZipCode
+  nameWithType: CountryZipCode
+  fullName: CRMScript.NetServer.RecipientSorting.CountryZipCode
+- uid: CRMScript.NetServer.RecipientSorting.CompanyName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientSorting.CompanyName
+  syntax: 
+    content: RecipientSorting.CompanyName
+  summary: "Sort by company name"
+  name: CompanyName
+  nameWithType: CompanyName
+  fullName: CRMScript.NetServer.RecipientSorting.CompanyName
+- uid: CRMScript.NetServer.RecipientSorting.CompanyNumber
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientSorting.CompanyNumber
+  syntax: 
+    content: RecipientSorting.CompanyNumber
+  summary: "Sort by company number"
+  name: CompanyNumber
+  nameWithType: CompanyNumber
+  fullName: CRMScript.NetServer.RecipientSorting.CompanyNumber
+- uid: CRMScript.NetServer.RecipientSorting.PersonLastname
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecipientSorting.PersonLastname
+  syntax: 
+    content: RecipientSorting.PersonLastname
+  summary: "Sort by person last name"
+  name: PersonLastname
+  nameWithType: PersonLastname
+  fullName: CRMScript.NetServer.RecipientSorting.PersonLastname
+references:
+- uid: CRMScript.NetServer.RecipientSorting
+  commentId: T:CRMScript.NetServer.RecipientSorting
+  isExternal: true
+  name: RecipientSorting
+  nameWithType: RecipientSorting
+  fullName: CRMScript.NetServer.RecipientSorting

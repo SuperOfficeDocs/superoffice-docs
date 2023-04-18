@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.LogEvent
+  children:
+  - CRMScript.NetServer.LogEvent.None
+  - CRMScript.NetServer.LogEvent.Create
+  - CRMScript.NetServer.LogEvent.Edit
+  - CRMScript.NetServer.LogEvent.Delete
+  - CRMScript.NetServer.LogEvent.Lock
+  - CRMScript.NetServer.LogEvent.Unlock
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: LogEvent
+  syntax: 
+    content: LogEvent
+  summary: "Log events"
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: CRMScript.NetServer.LogEvent
+- uid: CRMScript.NetServer.LogEvent.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: LogEvent.None
+  syntax: 
+    content: LogEvent.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.LogEvent.None
+- uid: CRMScript.NetServer.LogEvent.Create
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: LogEvent.Create
+  syntax: 
+    content: LogEvent.Create
+  summary: "Create"
+  name: Create
+  nameWithType: Create
+  fullName: CRMScript.NetServer.LogEvent.Create
+- uid: CRMScript.NetServer.LogEvent.Edit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: LogEvent.Edit
+  syntax: 
+    content: LogEvent.Edit
+  summary: "Edit"
+  name: Edit
+  nameWithType: Edit
+  fullName: CRMScript.NetServer.LogEvent.Edit
+- uid: CRMScript.NetServer.LogEvent.Delete
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: LogEvent.Delete
+  syntax: 
+    content: LogEvent.Delete
+  summary: "Delete"
+  name: Delete
+  nameWithType: Delete
+  fullName: CRMScript.NetServer.LogEvent.Delete
+- uid: CRMScript.NetServer.LogEvent.Lock
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: LogEvent.Lock
+  syntax: 
+    content: LogEvent.Lock
+  summary: "Lock"
+  name: Lock
+  nameWithType: Lock
+  fullName: CRMScript.NetServer.LogEvent.Lock
+- uid: CRMScript.NetServer.LogEvent.Unlock
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: LogEvent.Unlock
+  syntax: 
+    content: LogEvent.Unlock
+  summary: "Unlock"
+  name: Unlock
+  nameWithType: Unlock
+  fullName: CRMScript.NetServer.LogEvent.Unlock
+references:
+- uid: CRMScript.NetServer.LogEvent
+  commentId: T:CRMScript.NetServer.LogEvent
+  isExternal: true
+  name: LogEvent
+  nameWithType: LogEvent
+  fullName: CRMScript.NetServer.LogEvent

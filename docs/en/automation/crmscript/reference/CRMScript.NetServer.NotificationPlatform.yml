@@ -1,11 +1,5 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.NotificationPlatform
-  # Same as SuperOffice.Data.NotificationPlatform
-  commentId: T:CRMScript.NetServer.NotificationPlatform
-  id: NotificationPlatform
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.NotificationPlatform.Apple
   - CRMScript.NetServer.NotificationPlatform.Google
@@ -13,89 +7,82 @@ items:
   - CRMScript.NetServer.NotificationPlatform.AppleDeveloper
   - CRMScript.NetServer.NotificationPlatform.AppleAdHoc
   - CRMScript.NetServer.NotificationPlatform.GoogleDeveloper
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: NotificationPlatform
+  syntax: 
+    content: NotificationPlatform
+  summary: "Value for field 'DevicePlatform' in table 'PushNotificationService'"
   name: NotificationPlatform
   nameWithType: NotificationPlatform
   fullName: CRMScript.NetServer.NotificationPlatform
-  type: Enum
-  summary: "\nValue for field DevicePlatform in table PushNotificationService.\n"
 - uid: CRMScript.NetServer.NotificationPlatform.Apple
-  commentId: F:CRMScript.NetServer.NotificationPlatform.Apple
-  id: NotificationPlatform.Apple
   langs:
   - crmscript
-  name: NotificationPlatform.Apple
-  nameWithType: NotificationPlatform.Apple
+  type: Field
+  so.intellisense: NotificationPlatform.Apple
+  syntax: 
+    content: NotificationPlatform.Apple
+  summary: "Device is by Apple"
+  name: Apple
+  nameWithType: Apple
   fullName: CRMScript.NetServer.NotificationPlatform.Apple
-  type: Field
-  summary: "\n0: Device is by Apple\n"
-  syntax: 
-    content: Apple = 0
-    type: CRMScript.NetServer.NotificationPlatform
 - uid: CRMScript.NetServer.NotificationPlatform.Google
-  commentId: F:CRMScript.NetServer.NotificationPlatform.Google
-  id: NotificationPlatform.Google
   langs:
   - crmscript
-  name: NotificationPlatform.Google
-  nameWithType: NotificationPlatform.Google
+  type: Field
+  so.intellisense: NotificationPlatform.Google
+  syntax: 
+    content: NotificationPlatform.Google
+  summary: "Device is by Google"
+  name: Google
+  nameWithType: Google
   fullName: CRMScript.NetServer.NotificationPlatform.Google
-  type: Field
-  summary: "\n1: Device is by Google\n"
-  syntax: 
-    content: Google = 1
-    type: CRMScript.NetServer.NotificationPlatform
 - uid: CRMScript.NetServer.NotificationPlatform.Microsoft
-  commentId: F:CRMScript.NetServer.NotificationPlatform.Microsoft
-  id: NotificationPlatform.Microsoft
   langs:
   - crmscript
-  name: NotificationPlatform.Microsoft
-  nameWithType: NotificationPlatform.Microsoft
+  type: Field
+  so.intellisense: NotificationPlatform.Microsoft
+  syntax: 
+    content: NotificationPlatform.Microsoft
+  summary: "Device is by Microsoft"
+  name: Microsoft
+  nameWithType: Microsoft
   fullName: CRMScript.NetServer.NotificationPlatform.Microsoft
-  type: Field
-  summary: "\n2: Device is by Microsoft\n"
-  syntax: 
-    content: Microsoft = 2
-    type: CRMScript.NetServer.NotificationPlatform
 - uid: CRMScript.NetServer.NotificationPlatform.AppleDeveloper
-  commentId: F:CRMScript.NetServer.NotificationPlatform.AppleDeveloper
-  id: NotificationPlatform.AppleDeveloper
   langs:
   - crmscript
-  name: NotificationPlatform.AppleDeveloper
-  nameWithType: NotificationPlatform.AppleDeveloper
+  type: Field
+  so.intellisense: NotificationPlatform.AppleDeveloper
+  syntax: 
+    content: NotificationPlatform.AppleDeveloper
+  summary: "Device is by Apple, used for development and debugging"
+  name: AppleDeveloper
+  nameWithType: AppleDeveloper
   fullName: CRMScript.NetServer.NotificationPlatform.AppleDeveloper
-  type: Field
-  summary: "\n3: Device is by Apple, used for development and debugging\n"
-  syntax: 
-    content: AppleDeveloper = 3
-    type: CRMScript.NetServer.NotificationPlatform
 - uid: CRMScript.NetServer.NotificationPlatform.AppleAdHoc
-  commentId: F:CRMScript.NetServer.NotificationPlatform.AppleAdHoc
-  id: NotificationPlatform.AppleAdHoc
   langs:
   - crmscript
-  name: NotificationPlatform.AppleAdHoc
-  nameWithType: NotificationPlatform.AppleAdHoc
+  type: Field
+  so.intellisense: NotificationPlatform.AppleAdHoc
+  syntax: 
+    content: NotificationPlatform.AppleAdHoc
+  summary: "Device is by Apple, used for testing"
+  name: AppleAdHoc
+  nameWithType: AppleAdHoc
   fullName: CRMScript.NetServer.NotificationPlatform.AppleAdHoc
-  type: Field
-  summary: "\n4: Device is by Apple, used for testing\n"
-  syntax: 
-    content: AppleAdHoc = 4
-    type: CRMScript.NetServer.NotificationPlatform
 - uid: CRMScript.NetServer.NotificationPlatform.GoogleDeveloper
-  commentId: F:CRMScript.NetServer.NotificationPlatform.GoogleDeveloper
-  id: NotificationPlatform.GoogleDeveloper
   langs:
   - crmscript
-  name: NotificationPlatform.GoogleDeveloper
-  nameWithType: NotificationPlatform.GoogleDeveloper
-  fullName: CRMScript.NetServer.NotificationPlatform.GoogleDeveloper
   type: Field
-  summary: "\n5: Device is by Google, used for testing, development and debugging\n"
+  so.intellisense: NotificationPlatform.GoogleDeveloper
   syntax: 
-    content: GoogleDeveloper = 5
-    type: CRMScript.NetServer.NotificationPlatform
+    content: NotificationPlatform.GoogleDeveloper
+  summary: "Device is by Google, used for testing, development and debugging"
+  name: GoogleDeveloper
+  nameWithType: GoogleDeveloper
+  fullName: CRMScript.NetServer.NotificationPlatform.GoogleDeveloper
 references:
 - uid: CRMScript.NetServer.NotificationPlatform
   commentId: T:CRMScript.NetServer.NotificationPlatform

@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.RecurrenceYearlyPattern
+  children:
+  - CRMScript.NetServer.RecurrenceYearlyPattern.Unknown
+  - CRMScript.NetServer.RecurrenceYearlyPattern.DayOfMonth
+  - CRMScript.NetServer.RecurrenceYearlyPattern.WeekdayOfMonth
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RecurrenceYearlyPattern
+  syntax: 
+    content: RecurrenceYearlyPattern
+  summary: "Enumerator describing the different patterns for a yearly recurrence"
+  name: RecurrenceYearlyPattern
+  nameWithType: RecurrenceYearlyPattern
+  fullName: CRMScript.NetServer.RecurrenceYearlyPattern
+- uid: CRMScript.NetServer.RecurrenceYearlyPattern.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceYearlyPattern.Unknown
+  syntax: 
+    content: RecurrenceYearlyPattern.Unknown
+  summary: "0: Unknown/undecided type"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.RecurrenceYearlyPattern.Unknown
+- uid: CRMScript.NetServer.RecurrenceYearlyPattern.DayOfMonth
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceYearlyPattern.DayOfMonth
+  syntax: 
+    content: RecurrenceYearlyPattern.DayOfMonth
+  summary: "The recurrence is for a numbered day of the month, e.g. the 17. day of August"
+  name: DayOfMonth
+  nameWithType: DayOfMonth
+  fullName: CRMScript.NetServer.RecurrenceYearlyPattern.DayOfMonth
+- uid: CRMScript.NetServer.RecurrenceYearlyPattern.WeekdayOfMonth
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceYearlyPattern.WeekdayOfMonth
+  syntax: 
+    content: RecurrenceYearlyPattern.WeekdayOfMonth
+  summary: "The recurrence is for weekdays in the month, e.g. the 3. thursday of August"
+  name: WeekdayOfMonth
+  nameWithType: WeekdayOfMonth
+  fullName: CRMScript.NetServer.RecurrenceYearlyPattern.WeekdayOfMonth
+references:
+- uid: CRMScript.NetServer.RecurrenceYearlyPattern
+  commentId: T:CRMScript.NetServer.RecurrenceYearlyPattern
+  isExternal: true
+  name: RecurrenceYearlyPattern
+  nameWithType: RecurrenceYearlyPattern
+  fullName: CRMScript.NetServer.RecurrenceYearlyPattern

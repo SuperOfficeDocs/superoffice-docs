@@ -1,0 +1,356 @@
+﻿items:
+- uid: CRMScript.NetServer.TextType
+  children:
+  - CRMScript.NetServer.TextType.Unknown
+  - CRMScript.NetServer.TextType.ContactInfo
+  - CRMScript.NetServer.TextType.PersonInfo
+  - CRMScript.NetServer.TextType.Reserved1
+  - CRMScript.NetServer.TextType.AppointmentText
+  - CRMScript.NetServer.TextType.DocumentText
+  - CRMScript.NetServer.TextType.ProjectText
+  - CRMScript.NetServer.TextType.SaleText
+  - CRMScript.NetServer.TextType.Notepad
+  - CRMScript.NetServer.TextType.Reserved2
+  - CRMScript.NetServer.TextType.Reserved3
+  - CRMScript.NetServer.TextType.ProjectInfo
+  - CRMScript.NetServer.TextType.SelectionInfo
+  - CRMScript.NetServer.TextType.ProjectMemberText
+  - CRMScript.NetServer.TextType.SelectionText
+  - CRMScript.NetServer.TextType.DayInfo
+  - CRMScript.NetServer.TextType.LongPreference
+  - CRMScript.NetServer.TextType.SearchCriteriaInfo
+  - CRMScript.NetServer.TextType.SearchCriteriaGroupInfo
+  - CRMScript.NetServer.TextType.RoleInfo
+  - CRMScript.NetServer.TextType.UdefListSQL
+  - CRMScript.NetServer.TextType.StatusMonitorInfo
+  - CRMScript.NetServer.TextType.AudienceSignOnConfirmation
+  - CRMScript.NetServer.TextType.AudienceSignOffConfirmation
+  - CRMScript.NetServer.TextType.StatusMonitorDefaultTaskText
+  - CRMScript.NetServer.TextType.SaleInfo
+  - CRMScript.NetServer.TextType.NameExtension
+  - CRMScript.NetServer.TextType.TooltipExtension
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TextType
+  syntax: 
+    content: TextType
+  summary: "Value for field 'type' in table 'text'."
+  name: TextType
+  nameWithType: TextType
+  fullName: CRMScript.NetServer.TextType
+- uid: CRMScript.NetServer.TextType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.Unknown
+  syntax: 
+    content: TextType.Unknown
+  summary: "Unknown - used when initializing"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.TextType.Unknown
+- uid: CRMScript.NetServer.TextType.ContactInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.ContactInfo
+  syntax: 
+    content: TextType.ContactInfo
+  summary: "A Post-it (paperclip) on the  contact card"
+  name: ContactInfo
+  nameWithType: ContactInfo
+  fullName: CRMScript.NetServer.TextType.ContactInfo
+- uid: CRMScript.NetServer.TextType.PersonInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.PersonInfo
+  syntax: 
+    content: TextType.PersonInfo
+  summary: "A Post-it in the person dialog, shown as a descriptive text box in the info panel"
+  name: PersonInfo
+  nameWithType: PersonInfo
+  fullName: CRMScript.NetServer.TextType.PersonInfo
+- uid: CRMScript.NetServer.TextType.Reserved1
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.Reserved1
+  syntax: 
+    content: TextType.Reserved1
+  summary: "PersonEmail - currently not in use (4.5 legacy, removed by conversion program)"
+  name: Reserved1
+  nameWithType: Reserved1
+  fullName: CRMScript.NetServer.TextType.Reserved1
+- uid: CRMScript.NetServer.TextType.AppointmentText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.AppointmentText
+  syntax: 
+    content: TextType.AppointmentText
+  summary: "Descriptive text area in the appointment dialog. "
+  name: AppointmentText
+  nameWithType: AppointmentText
+  fullName: CRMScript.NetServer.TextType.AppointmentText
+- uid: CRMScript.NetServer.TextType.DocumentText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.DocumentText
+  syntax: 
+    content: TextType.DocumentText
+  summary: "Document optional long description (keywords). Owner is document."
+  name: DocumentText
+  nameWithType: DocumentText
+  fullName: CRMScript.NetServer.TextType.DocumentText
+- uid: CRMScript.NetServer.TextType.ProjectText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.ProjectText
+  syntax: 
+    content: TextType.ProjectText
+  summary: "Descriptive text area on the project card. "
+  name: ProjectText
+  nameWithType: ProjectText
+  fullName: CRMScript.NetServer.TextType.ProjectText
+- uid: CRMScript.NetServer.TextType.SaleText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.SaleText
+  syntax: 
+    content: TextType.SaleText
+  summary: "Descriptive text area in the sale dialog."
+  name: SaleText
+  nameWithType: SaleText
+  fullName: CRMScript.NetServer.TextType.SaleText
+- uid: CRMScript.NetServer.TextType.Notepad
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.Notepad
+  syntax: 
+    content: TextType.Notepad
+  summary: "Personal notepad as used extensively in 4.5.  "
+  name: Notepad
+  nameWithType: Notepad
+  fullName: CRMScript.NetServer.TextType.Notepad
+- uid: CRMScript.NetServer.TextType.Reserved2
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.Reserved2
+  syntax: 
+    content: TextType.Reserved2
+  summary: "MailAppointmentText - currently not in use (4.5 legacy, removed by conversion program)"
+  name: Reserved2
+  nameWithType: Reserved2
+  fullName: CRMScript.NetServer.TextType.Reserved2
+- uid: CRMScript.NetServer.TextType.Reserved3
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.Reserved3
+  syntax: 
+    content: TextType.Reserved3
+  summary: "ContactUrl - currently not in use (4.5 legacy, removed by conversion program)"
+  name: Reserved3
+  nameWithType: Reserved3
+  fullName: CRMScript.NetServer.TextType.Reserved3
+- uid: CRMScript.NetServer.TextType.ProjectInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.ProjectInfo
+  syntax: 
+    content: TextType.ProjectInfo
+  summary: "A Post-it (paperclip) on the project card. "
+  name: ProjectInfo
+  nameWithType: ProjectInfo
+  fullName: CRMScript.NetServer.TextType.ProjectInfo
+- uid: CRMScript.NetServer.TextType.SelectionInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.SelectionInfo
+  syntax: 
+    content: TextType.SelectionInfo
+  summary: "A Post-it (paperclip) on the selection card. "
+  name: SelectionInfo
+  nameWithType: SelectionInfo
+  fullName: CRMScript.NetServer.TextType.SelectionInfo
+- uid: CRMScript.NetServer.TextType.ProjectMemberText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.ProjectMemberText
+  syntax: 
+    content: TextType.ProjectMemberText
+  summary: "Descriptive text area in the project member dialog. "
+  name: ProjectMemberText
+  nameWithType: ProjectMemberText
+  fullName: CRMScript.NetServer.TextType.ProjectMemberText
+- uid: CRMScript.NetServer.TextType.SelectionText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.SelectionText
+  syntax: 
+    content: TextType.SelectionText
+  summary: "Descriptive text area on the selection card. "
+  name: SelectionText
+  nameWithType: SelectionText
+  fullName: CRMScript.NetServer.TextType.SelectionText
+- uid: CRMScript.NetServer.TextType.DayInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.DayInfo
+  syntax: 
+    content: TextType.DayInfo
+  summary: "A Post-it attached to a specific day (via an appointment)"
+  name: DayInfo
+  nameWithType: DayInfo
+  fullName: CRMScript.NetServer.TextType.DayInfo
+- uid: CRMScript.NetServer.TextType.LongPreference
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.LongPreference
+  syntax: 
+    content: TextType.LongPreference
+  summary: "Extra information for a saved set of search criteria"
+  name: LongPreference
+  nameWithType: LongPreference
+  fullName: CRMScript.NetServer.TextType.LongPreference
+- uid: CRMScript.NetServer.TextType.SearchCriteriaInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.SearchCriteriaInfo
+  syntax: 
+    content: TextType.SearchCriteriaInfo
+  summary: "Extra information for a saved search criteria subgroup"
+  name: SearchCriteriaInfo
+  nameWithType: SearchCriteriaInfo
+  fullName: CRMScript.NetServer.TextType.SearchCriteriaInfo
+- uid: CRMScript.NetServer.TextType.SearchCriteriaGroupInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.SearchCriteriaGroupInfo
+  syntax: 
+    content: TextType.SearchCriteriaGroupInfo
+  summary: "Extra information about a user role"
+  name: SearchCriteriaGroupInfo
+  nameWithType: SearchCriteriaGroupInfo
+  fullName: CRMScript.NetServer.TextType.SearchCriteriaGroupInfo
+- uid: CRMScript.NetServer.TextType.RoleInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.RoleInfo
+  syntax: 
+    content: TextType.RoleInfo
+  summary: "Extra information about a user role"
+  name: RoleInfo
+  nameWithType: RoleInfo
+  fullName: CRMScript.NetServer.TextType.RoleInfo
+- uid: CRMScript.NetServer.TextType.UdefListSQL
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.UdefListSQL
+  syntax: 
+    content: TextType.UdefListSQL
+  summary: "SQL text to be executed when populating a user-defined fields' drop-down box"
+  name: UdefListSQL
+  nameWithType: UdefListSQL
+  fullName: CRMScript.NetServer.TextType.UdefListSQL
+- uid: CRMScript.NetServer.TextType.StatusMonitorInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.StatusMonitorInfo
+  syntax: 
+    content: TextType.StatusMonitorInfo
+  summary: "Extra information about a status monitor (linked to statusdef)"
+  name: StatusMonitorInfo
+  nameWithType: StatusMonitorInfo
+  fullName: CRMScript.NetServer.TextType.StatusMonitorInfo
+- uid: CRMScript.NetServer.TextType.AudienceSignOnConfirmation
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.AudienceSignOnConfirmation
+  syntax: 
+    content: TextType.AudienceSignOnConfirmation
+  summary: "Confirmation text to be shown to users who 'sign on' to an event, in Audience"
+  name: AudienceSignOnConfirmation
+  nameWithType: AudienceSignOnConfirmation
+  fullName: CRMScript.NetServer.TextType.AudienceSignOnConfirmation
+- uid: CRMScript.NetServer.TextType.AudienceSignOffConfirmation
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.AudienceSignOffConfirmation
+  syntax: 
+    content: TextType.AudienceSignOffConfirmation
+  summary: "Confirmation text to be shown to users who 'sign off' from an event, in Audience"
+  name: AudienceSignOffConfirmation
+  nameWithType: AudienceSignOffConfirmation
+  fullName: CRMScript.NetServer.TextType.AudienceSignOffConfirmation
+- uid: CRMScript.NetServer.TextType.StatusMonitorDefaultTaskText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.StatusMonitorDefaultTaskText
+  syntax: 
+    content: TextType.StatusMonitorDefaultTaskText
+  summary: "Default task text for new tasks created in response to a status monitor watermark (linked to statusdef)"
+  name: StatusMonitorDefaultTaskText
+  nameWithType: StatusMonitorDefaultTaskText
+  fullName: CRMScript.NetServer.TextType.StatusMonitorDefaultTaskText
+- uid: CRMScript.NetServer.TextType.SaleInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.SaleInfo
+  syntax: 
+    content: TextType.SaleInfo
+  summary: "A Post-it (paperclip) on the Sale panel"
+  name: SaleInfo
+  nameWithType: SaleInfo
+  fullName: CRMScript.NetServer.TextType.SaleInfo
+- uid: CRMScript.NetServer.TextType.NameExtension
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.NameExtension
+  syntax: 
+    content: TextType.NameExtension
+  summary: "Extension of NAME of MDO list"
+  name: NameExtension
+  nameWithType: NameExtension
+  fullName: CRMScript.NetServer.TextType.NameExtension
+- uid: CRMScript.NetServer.TextType.TooltipExtension
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TextType.TooltipExtension
+  syntax: 
+    content: TextType.TooltipExtension
+  summary: "Extension of TOOLTIP of MDO list"
+  name: TooltipExtension
+  nameWithType: TooltipExtension
+  fullName: CRMScript.NetServer.TextType.TooltipExtension
+references:
+- uid: CRMScript.NetServer.TextType
+  commentId: T:CRMScript.NetServer.TextType
+  isExternal: true
+  name: TextType
+  nameWithType: TextType
+  fullName: CRMScript.NetServer.TextType

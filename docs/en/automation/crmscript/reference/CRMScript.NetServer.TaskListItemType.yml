@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.TaskListItemType
+  children:
+  - CRMScript.NetServer.TaskListItemType.None
+  - CRMScript.NetServer.TaskListItemType.Url
+  - CRMScript.NetServer.TaskListItemType.CrmScript
+  - CRMScript.NetServer.TaskListItemType.SoProtocol
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TaskListItemType
+  syntax: 
+    content: TaskListItemType
+  summary: "Task List Item Type"
+  name: TaskListItemType
+  nameWithType: TaskListItemType
+  fullName: CRMScript.NetServer.TaskListItemType
+- uid: CRMScript.NetServer.TaskListItemType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TaskListItemType.None
+  syntax: 
+    content: TaskListItemType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TaskListItemType.None
+- uid: CRMScript.NetServer.TaskListItemType.Url
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TaskListItemType.Url
+  syntax: 
+    content: TaskListItemType.Url
+  summary: "Url"
+  name: Url
+  nameWithType: Url
+  fullName: CRMScript.NetServer.TaskListItemType.Url
+- uid: CRMScript.NetServer.TaskListItemType.CrmScript
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TaskListItemType.CrmScript
+  syntax: 
+    content: TaskListItemType.CrmScript
+  summary: "Crm Script"
+  name: CrmScript
+  nameWithType: CrmScript
+  fullName: CRMScript.NetServer.TaskListItemType.CrmScript
+- uid: CRMScript.NetServer.TaskListItemType.SoProtocol
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TaskListItemType.SoProtocol
+  syntax: 
+    content: TaskListItemType.SoProtocol
+  summary: "SoProtocol"
+  name: SoProtocol
+  nameWithType: SoProtocol
+  fullName: CRMScript.NetServer.TaskListItemType.SoProtocol
+references:
+- uid: CRMScript.NetServer.TaskListItemType
+  commentId: T:CRMScript.NetServer.TaskListItemType
+  isExternal: true
+  name: TaskListItemType
+  nameWithType: TaskListItemType
+  fullName: CRMScript.NetServer.TaskListItemType

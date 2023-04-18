@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.EmailType
+  children:
+  - CRMScript.NetServer.EmailType.Email
+  - CRMScript.NetServer.EmailType.Chat
+  - CRMScript.NetServer.EmailType.VoiP
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: EmailType
+  syntax: 
+    content: EmailType
+  summary: "What kind of email address - email, or some other communication type (chat, voip)"
+  name: EmailType
+  nameWithType: EmailType
+  fullName: CRMScript.NetServer.EmailType
+- uid: CRMScript.NetServer.EmailType.Email
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailType.Email
+  syntax: 
+    content: EmailType.Email
+  summary: "This is a conventional email"
+  name: Email
+  nameWithType: Email
+  fullName: CRMScript.NetServer.EmailType.Email
+- uid: CRMScript.NetServer.EmailType.Chat
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailType.Chat
+  syntax: 
+    content: EmailType.Chat
+  summary: "This is a chat channel address"
+  name: Chat
+  nameWithType: Chat
+  fullName: CRMScript.NetServer.EmailType.Chat
+- uid: CRMScript.NetServer.EmailType.VoiP
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailType.VoiP
+  syntax: 
+    content: EmailType.VoiP
+  summary: "This is a voip (such as skype) channel address"
+  name: VoiP
+  nameWithType: VoiP
+  fullName: CRMScript.NetServer.EmailType.VoiP
+references:
+- uid: CRMScript.NetServer.EmailType
+  commentId: T:CRMScript.NetServer.EmailType
+  isExternal: true
+  name: EmailType
+  nameWithType: EmailType
+  fullName: CRMScript.NetServer.EmailType

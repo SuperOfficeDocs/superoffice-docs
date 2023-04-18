@@ -1,0 +1,44 @@
+﻿items:
+- uid: CRMScript.NetServer.TagEntity
+  children:
+  - CRMScript.NetServer.TagEntity.Global
+  - CRMScript.NetServer.TagEntity.Ticket
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TagEntity
+  syntax: 
+    content: TagEntity
+  summary: "Target Entity of Tags"
+  name: TagEntity
+  nameWithType: TagEntity
+  fullName: CRMScript.NetServer.TagEntity
+- uid: CRMScript.NetServer.TagEntity.Global
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TagEntity.Global
+  syntax: 
+    content: TagEntity.Global
+  summary: "Global, not assigned to any particular target"
+  name: Global
+  nameWithType: Global
+  fullName: CRMScript.NetServer.TagEntity.Global
+- uid: CRMScript.NetServer.TagEntity.Ticket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TagEntity.Ticket
+  syntax: 
+    content: TagEntity.Ticket
+  summary: "Ticket / request"
+  name: Ticket
+  nameWithType: Ticket
+  fullName: CRMScript.NetServer.TagEntity.Ticket
+references:
+- uid: CRMScript.NetServer.TagEntity
+  commentId: T:CRMScript.NetServer.TagEntity
+  isExternal: true
+  name: TagEntity
+  nameWithType: TagEntity
+  fullName: CRMScript.NetServer.TagEntity

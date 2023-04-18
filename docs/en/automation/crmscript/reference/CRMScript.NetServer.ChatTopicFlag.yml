@@ -1,0 +1,116 @@
+﻿items:
+- uid: CRMScript.NetServer.ChatTopicFlag
+  children:
+  - CRMScript.NetServer.ChatTopicFlag.None
+  - CRMScript.NetServer.ChatTopicFlag.PopupAlert
+  - CRMScript.NetServer.ChatTopicFlag.EmailAlert
+  - CRMScript.NetServer.ChatTopicFlag.CollectConsent
+  - CRMScript.NetServer.ChatTopicFlag.UseCustomQueueMessage
+  - CRMScript.NetServer.ChatTopicFlag.WidgetSizeLarge
+  - CRMScript.NetServer.ChatTopicFlag.OfflineCollectConsent
+  - CRMScript.NetServer.ChatTopicFlag.UseQueueOfflineForm
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ChatTopicFlag
+  syntax: 
+    content: ChatTopicFlag
+  summary: "Chat Topic flags"
+  name: ChatTopicFlag
+  nameWithType: ChatTopicFlag
+  fullName: CRMScript.NetServer.ChatTopicFlag
+- uid: CRMScript.NetServer.ChatTopicFlag.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.None
+  syntax: 
+    content: ChatTopicFlag.None
+  summary: "Nothing"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ChatTopicFlag.None
+- uid: CRMScript.NetServer.ChatTopicFlag.PopupAlert
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.PopupAlert
+  syntax: 
+    content: ChatTopicFlag.PopupAlert
+  summary: "Alert using Popup"
+  name: PopupAlert
+  nameWithType: PopupAlert
+  fullName: CRMScript.NetServer.ChatTopicFlag.PopupAlert
+- uid: CRMScript.NetServer.ChatTopicFlag.EmailAlert
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.EmailAlert
+  syntax: 
+    content: ChatTopicFlag.EmailAlert
+  summary: "Alert using E-mail"
+  name: EmailAlert
+  nameWithType: EmailAlert
+  fullName: CRMScript.NetServer.ChatTopicFlag.EmailAlert
+- uid: CRMScript.NetServer.ChatTopicFlag.CollectConsent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.CollectConsent
+  syntax: 
+    content: ChatTopicFlag.CollectConsent
+  summary: "Collect GDPR consent before chat"
+  name: CollectConsent
+  nameWithType: CollectConsent
+  fullName: CRMScript.NetServer.ChatTopicFlag.CollectConsent
+- uid: CRMScript.NetServer.ChatTopicFlag.UseCustomQueueMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.UseCustomQueueMessage
+  syntax: 
+    content: ChatTopicFlag.UseCustomQueueMessage
+  summary: "Use custom queue message"
+  name: UseCustomQueueMessage
+  nameWithType: UseCustomQueueMessage
+  fullName: CRMScript.NetServer.ChatTopicFlag.UseCustomQueueMessage
+- uid: CRMScript.NetServer.ChatTopicFlag.WidgetSizeLarge
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.WidgetSizeLarge
+  syntax: 
+    content: ChatTopicFlag.WidgetSizeLarge
+  summary: "Show large widget"
+  name: WidgetSizeLarge
+  nameWithType: WidgetSizeLarge
+  fullName: CRMScript.NetServer.ChatTopicFlag.WidgetSizeLarge
+- uid: CRMScript.NetServer.ChatTopicFlag.OfflineCollectConsent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.OfflineCollectConsent
+  syntax: 
+    content: ChatTopicFlag.OfflineCollectConsent
+  summary: "Collect GDPR consent on offline chat form"
+  name: OfflineCollectConsent
+  nameWithType: OfflineCollectConsent
+  fullName: CRMScript.NetServer.ChatTopicFlag.OfflineCollectConsent
+- uid: CRMScript.NetServer.ChatTopicFlag.UseQueueOfflineForm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatTopicFlag.UseQueueOfflineForm
+  syntax: 
+    content: ChatTopicFlag.UseQueueOfflineForm
+  summary: "Use offline form capability from queue"
+  name: UseQueueOfflineForm
+  nameWithType: UseQueueOfflineForm
+  fullName: CRMScript.NetServer.ChatTopicFlag.UseQueueOfflineForm
+references:
+- uid: CRMScript.NetServer.ChatTopicFlag
+  commentId: T:CRMScript.NetServer.ChatTopicFlag
+  isExternal: true
+  name: ChatTopicFlag
+  nameWithType: ChatTopicFlag
+  fullName: CRMScript.NetServer.ChatTopicFlag

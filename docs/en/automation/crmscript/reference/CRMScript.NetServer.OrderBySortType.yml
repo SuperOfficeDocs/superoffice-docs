@@ -1,45 +1,40 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.OrderBySortType
-  # Same as SuperOffice.Data.OrderBySortType
-  commentId: T:CRMScript.NetServer.OrderBySortType
-  id: OrderBySortType
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.OrderBySortType.ASC
   - CRMScript.NetServer.OrderBySortType.DESC
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: OrderBySortType
+  syntax: 
+    content: OrderBySortType
+  summary: "How to sort the Order by statement."
   name: OrderBySortType
   nameWithType: OrderBySortType
   fullName: CRMScript.NetServer.OrderBySortType
-  type: Enum
-  summary: "\nHow to sort the Order by statement.\n"
 - uid: CRMScript.NetServer.OrderBySortType.ASC
-  commentId: F:CRMScript.NetServer.OrderBySortType.ASC
-  id: OrderBySortType.ASC
   langs:
   - crmscript
-  name: OrderBySortType.ASC
-  nameWithType: OrderBySortType.ASC
+  type: Field
+  so.intellisense: OrderBySortType.ASC
+  syntax: 
+    content: OrderBySortType.ASC
+  summary: "Sort the Order by Ascending"
+  name: ASC
+  nameWithType: ASC
   fullName: CRMScript.NetServer.OrderBySortType.ASC
-  type: Field
-  summary: "\n0: Sort the Order by Ascending\n"
-  syntax: 
-    content: ASC = 0
-    type: CRMScript.NetServer.OrderBySortType
 - uid: CRMScript.NetServer.OrderBySortType.DESC
-  commentId: F:CRMScript.NetServer.OrderBySortType.DESC
-  id: OrderBySortType.DESC
   langs:
   - crmscript
-  name: OrderBySortType.DESC
-  nameWithType: OrderBySortType.DESC
-  fullName: CRMScript.NetServer.OrderBySortType.DESC
   type: Field
-  summary: "\n1: Sort the Order by Descending\n"
+  so.intellisense: OrderBySortType.DESC
   syntax: 
-    content: DESC = 1
-    type: CRMScript.NetServer.OrderBySortType
+    content: OrderBySortType.DESC
+  summary: "Sort the Order by Descending"
+  name: DESC
+  nameWithType: DESC
+  fullName: CRMScript.NetServer.OrderBySortType.DESC
 references:
 - uid: CRMScript.NetServer.OrderBySortType
   commentId: T:CRMScript.NetServer.OrderBySortType

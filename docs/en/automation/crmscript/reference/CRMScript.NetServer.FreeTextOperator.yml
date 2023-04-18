@@ -1,59 +1,52 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.FreeTextOperator
-  # Same as SuperOffice.Data.FreeTextOperator
-  commentId: T:CRMScript.NetServer.FreeTextOperator
-  id: FreeTextOperator
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.FreeTextOperator.Contains
   - CRMScript.NetServer.FreeTextOperator.StartsWith
   - CRMScript.NetServer.FreeTextOperator.ExactMatch
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: FreeTextOperator
+  syntax: 
+    content: FreeTextOperator
+  summary: "Freetext operator"
   name: FreeTextOperator
   nameWithType: FreeTextOperator
   fullName: CRMScript.NetServer.FreeTextOperator
-  type: Enum
-  summary: "\nFree-text operator\n"
 - uid: CRMScript.NetServer.FreeTextOperator.Contains
-  commentId: F:CRMScript.NetServer.FreeTextOperator.Contains
-  id: FreeTextOperator.Contains
   langs:
   - crmscript
-  name: FreeTextOperator.Contains
-  nameWithType: FreeTextOperator.Contains
+  type: Field
+  so.intellisense: FreeTextOperator.Contains
+  syntax: 
+    content: FreeTextOperator.Contains
+  summary: "Contains"
+  name: Contains
+  nameWithType: Contains
   fullName: CRMScript.NetServer.FreeTextOperator.Contains
-  type: Field
-  summary: "\n1: Contains\n"
-  syntax: 
-    content: Contains = 1
-    type: CRMScript.NetServer.FreeTextOperator
 - uid: CRMScript.NetServer.FreeTextOperator.StartsWith
-  commentId: F:CRMScript.NetServer.FreeTextOperator.StartsWith
-  id: FreeTextOperator.StartsWith
   langs:
   - crmscript
-  name: FreeTextOperator.StartsWith
-  nameWithType: FreeTextOperator.StartsWith
+  type: Field
+  so.intellisense: FreeTextOperator.StartsWith
+  syntax: 
+    content: FreeTextOperator.StartsWith
+  summary: "Starts with"
+  name: StartsWith
+  nameWithType: StartsWith
   fullName: CRMScript.NetServer.FreeTextOperator.StartsWith
-  type: Field
-  summary: "\n2: Starts with\n"
-  syntax: 
-    content: StartsWith = 2
-    type: CRMScript.NetServer.FreeTextOperator
 - uid: CRMScript.NetServer.FreeTextOperator.ExactMatch
-  commentId: F:CRMScript.NetServer.FreeTextOperator.ExactMatch
-  id: FreeTextOperator.ExactMatch
   langs:
   - crmscript
-  name: FreeTextOperator.ExactMatch
-  nameWithType: FreeTextOperator.ExactMatch
-  fullName: CRMScript.NetServer.FreeTextOperator.ExactMatch
   type: Field
-  summary: "\n3: Exact match\n"
+  so.intellisense: FreeTextOperator.ExactMatch
   syntax: 
-    content: ExactMatch = 3
-    type: CRMScript.NetServer.FreeTextOperator
+    content: FreeTextOperator.ExactMatch
+  summary: "Exact match"
+  name: ExactMatch
+  nameWithType: ExactMatch
+  fullName: CRMScript.NetServer.FreeTextOperator.ExactMatch
 references:
 - uid: CRMScript.NetServer.FreeTextOperator
   commentId: T:CRMScript.NetServer.FreeTextOperator

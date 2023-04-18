@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportBlankAction
+  children:
+  - CRMScript.NetServer.ImportBlankAction.UsePersonName
+  - CRMScript.NetServer.ImportBlankAction.Skip
+  - CRMScript.NetServer.ImportBlankAction.ImportPersonWithoutContact
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportBlankAction
+  syntax: 
+    content: ImportBlankAction
+  summary: "Import action for blank values"
+  name: ImportBlankAction
+  nameWithType: ImportBlankAction
+  fullName: CRMScript.NetServer.ImportBlankAction
+- uid: CRMScript.NetServer.ImportBlankAction.UsePersonName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportBlankAction.UsePersonName
+  syntax: 
+    content: ImportBlankAction.UsePersonName
+  summary: "Use Person Name"
+  name: UsePersonName
+  nameWithType: UsePersonName
+  fullName: CRMScript.NetServer.ImportBlankAction.UsePersonName
+- uid: CRMScript.NetServer.ImportBlankAction.Skip
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportBlankAction.Skip
+  syntax: 
+    content: ImportBlankAction.Skip
+  summary: "Skip"
+  name: Skip
+  nameWithType: Skip
+  fullName: CRMScript.NetServer.ImportBlankAction.Skip
+- uid: CRMScript.NetServer.ImportBlankAction.ImportPersonWithoutContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportBlankAction.ImportPersonWithoutContact
+  syntax: 
+    content: ImportBlankAction.ImportPersonWithoutContact
+  summary: "Import Person Without Company"
+  name: ImportPersonWithoutContact
+  nameWithType: ImportPersonWithoutContact
+  fullName: CRMScript.NetServer.ImportBlankAction.ImportPersonWithoutContact
+references:
+- uid: CRMScript.NetServer.ImportBlankAction
+  commentId: T:CRMScript.NetServer.ImportBlankAction
+  isExternal: true
+  name: ImportBlankAction
+  nameWithType: ImportBlankAction
+  fullName: CRMScript.NetServer.ImportBlankAction

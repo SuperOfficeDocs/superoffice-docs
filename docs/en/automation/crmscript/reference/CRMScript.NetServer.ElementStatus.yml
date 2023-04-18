@@ -1,0 +1,44 @@
+﻿items:
+- uid: CRMScript.NetServer.ElementStatus
+  children:
+  - CRMScript.NetServer.ElementStatus.None
+  - CRMScript.NetServer.ElementStatus.Skipped
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ElementStatus
+  syntax: 
+    content: ElementStatus
+  summary: "Status for adding attributes to an element in a statical list"
+  name: ElementStatus
+  nameWithType: ElementStatus
+  fullName: CRMScript.NetServer.ElementStatus
+- uid: CRMScript.NetServer.ElementStatus.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ElementStatus.None
+  syntax: 
+    content: ElementStatus.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ElementStatus.None
+- uid: CRMScript.NetServer.ElementStatus.Skipped
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ElementStatus.Skipped
+  syntax: 
+    content: ElementStatus.Skipped
+  summary: "Skipped because it does not have a matching person email address"
+  name: Skipped
+  nameWithType: Skipped
+  fullName: CRMScript.NetServer.ElementStatus.Skipped
+references:
+- uid: CRMScript.NetServer.ElementStatus
+  commentId: T:CRMScript.NetServer.ElementStatus
+  isExternal: true
+  name: ElementStatus
+  nameWithType: ElementStatus
+  fullName: CRMScript.NetServer.ElementStatus

@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportNewListItem
+  children:
+  - CRMScript.NetServer.ImportNewListItem.AddItemToList
+  - CRMScript.NetServer.ImportNewListItem.SetToDefault
+  - CRMScript.NetServer.ImportNewListItem.SetToBlank
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportNewListItem
+  syntax: 
+    content: ImportNewListItem
+  summary: "Import new list item"
+  name: ImportNewListItem
+  nameWithType: ImportNewListItem
+  fullName: CRMScript.NetServer.ImportNewListItem
+- uid: CRMScript.NetServer.ImportNewListItem.AddItemToList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportNewListItem.AddItemToList
+  syntax: 
+    content: ImportNewListItem.AddItemToList
+  summary: "Add item to list"
+  name: AddItemToList
+  nameWithType: AddItemToList
+  fullName: CRMScript.NetServer.ImportNewListItem.AddItemToList
+- uid: CRMScript.NetServer.ImportNewListItem.SetToDefault
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportNewListItem.SetToDefault
+  syntax: 
+    content: ImportNewListItem.SetToDefault
+  summary: "Set to default"
+  name: SetToDefault
+  nameWithType: SetToDefault
+  fullName: CRMScript.NetServer.ImportNewListItem.SetToDefault
+- uid: CRMScript.NetServer.ImportNewListItem.SetToBlank
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportNewListItem.SetToBlank
+  syntax: 
+    content: ImportNewListItem.SetToBlank
+  summary: "Set to blank"
+  name: SetToBlank
+  nameWithType: SetToBlank
+  fullName: CRMScript.NetServer.ImportNewListItem.SetToBlank
+references:
+- uid: CRMScript.NetServer.ImportNewListItem
+  commentId: T:CRMScript.NetServer.ImportNewListItem
+  isExternal: true
+  name: ImportNewListItem
+  nameWithType: ImportNewListItem
+  fullName: CRMScript.NetServer.ImportNewListItem

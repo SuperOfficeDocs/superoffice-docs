@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus
+  children:
+  - CRMScript.NetServer.WorkflowDefinitionStatus.None
+  - CRMScript.NetServer.WorkflowDefinitionStatus.Stopped
+  - CRMScript.NetServer.WorkflowDefinitionStatus.Paused
+  - CRMScript.NetServer.WorkflowDefinitionStatus.Running
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowDefinitionStatus
+  syntax: 
+    content: WorkflowDefinitionStatus
+  summary: "Workflow definition status"
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowDefinitionStatus.None
+  syntax: 
+    content: WorkflowDefinitionStatus.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus.None
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus.Stopped
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowDefinitionStatus.Stopped
+  syntax: 
+    content: WorkflowDefinitionStatus.Stopped
+  summary: "Stopped"
+  name: Stopped
+  nameWithType: Stopped
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus.Stopped
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus.Paused
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowDefinitionStatus.Paused
+  syntax: 
+    content: WorkflowDefinitionStatus.Paused
+  summary: "Paused"
+  name: Paused
+  nameWithType: Paused
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus.Paused
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus.Running
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowDefinitionStatus.Running
+  syntax: 
+    content: WorkflowDefinitionStatus.Running
+  summary: "Running"
+  name: Running
+  nameWithType: Running
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus.Running
+references:
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus
+  commentId: T:CRMScript.NetServer.WorkflowDefinitionStatus
+  isExternal: true
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus

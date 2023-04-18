@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.UpsertNomatchAction
+  children:
+  - CRMScript.NetServer.UpsertNomatchAction.NoChange
+  - CRMScript.NetServer.UpsertNomatchAction.ZeroColumns
+  - CRMScript.NetServer.UpsertNomatchAction.DeleteRow
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: UpsertNomatchAction
+  syntax: 
+    content: UpsertNomatchAction
+  summary: "Upsert: Action to take on target table rows that do not match any incoming keys"
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: CRMScript.NetServer.UpsertNomatchAction
+- uid: CRMScript.NetServer.UpsertNomatchAction.NoChange
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertNomatchAction.NoChange
+  syntax: 
+    content: UpsertNomatchAction.NoChange
+  summary: "No action, leave target table row unchanged"
+  name: NoChange
+  nameWithType: NoChange
+  fullName: CRMScript.NetServer.UpsertNomatchAction.NoChange
+- uid: CRMScript.NetServer.UpsertNomatchAction.ZeroColumns
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertNomatchAction.ZeroColumns
+  syntax: 
+    content: UpsertNomatchAction.ZeroColumns
+  summary: "Zero/default-value the targeted 'columns' in all non-matching rows"
+  name: ZeroColumns
+  nameWithType: ZeroColumns
+  fullName: CRMScript.NetServer.UpsertNomatchAction.ZeroColumns
+- uid: CRMScript.NetServer.UpsertNomatchAction.DeleteRow
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertNomatchAction.DeleteRow
+  syntax: 
+    content: UpsertNomatchAction.DeleteRow
+  summary: "Delete the entire row, for all non-matching-row"
+  name: DeleteRow
+  nameWithType: DeleteRow
+  fullName: CRMScript.NetServer.UpsertNomatchAction.DeleteRow
+references:
+- uid: CRMScript.NetServer.UpsertNomatchAction
+  commentId: T:CRMScript.NetServer.UpsertNomatchAction
+  isExternal: true
+  name: UpsertNomatchAction
+  nameWithType: UpsertNomatchAction
+  fullName: CRMScript.NetServer.UpsertNomatchAction
