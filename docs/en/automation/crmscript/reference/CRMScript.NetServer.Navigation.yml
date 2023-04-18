@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.Navigation
   children:
   - CRMScript.NetServer.Navigation.Invisible

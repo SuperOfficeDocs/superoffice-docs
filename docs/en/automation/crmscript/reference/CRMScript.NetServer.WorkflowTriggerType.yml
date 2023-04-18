@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.WorkflowTriggerType
   children:
   - CRMScript.NetServer.WorkflowTriggerType.None

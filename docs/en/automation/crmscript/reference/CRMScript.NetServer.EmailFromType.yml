@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.EmailFromType
   children:
   - CRMScript.NetServer.EmailFromType.FromOnlySpecified

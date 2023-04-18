@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.BlobLinkType
   children:
   - CRMScript.NetServer.BlobLinkType.PersonImage

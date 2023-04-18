@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.ReportLayout
   children:
   - CRMScript.NetServer.ReportLayout.Unknown

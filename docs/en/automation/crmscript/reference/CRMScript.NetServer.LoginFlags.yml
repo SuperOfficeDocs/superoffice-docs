@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.LoginFlags
   children:
   - CRMScript.NetServer.LoginFlags.HideIEWarning

@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.DashTileCurrencyMode
   children:
   - CRMScript.NetServer.DashTileCurrencyMode.None

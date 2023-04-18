@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.Registry
   children:
   - CRMScript.NetServer.Registry.RegistryEntry_End

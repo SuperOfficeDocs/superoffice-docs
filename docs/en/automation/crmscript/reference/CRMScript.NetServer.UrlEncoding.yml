@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.UrlEncoding
   children:
   - CRMScript.NetServer.UrlEncoding.Unknown

@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.GeneratorEncoding
   children:
   - CRMScript.NetServer.GeneratorEncoding.Text

@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.UDefType
   children:
   - CRMScript.NetServer.UDefType.Invalid

@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.ConceptualImageType
   children:
   - CRMScript.NetServer.ConceptualImageType.UndefinedImage

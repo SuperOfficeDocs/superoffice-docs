@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.LicenseStatus
   children:
   - CRMScript.NetServer.LicenseStatus.Ok

@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.TicketLogAction
   children:
   - CRMScript.NetServer.TicketLogAction.No_Logging

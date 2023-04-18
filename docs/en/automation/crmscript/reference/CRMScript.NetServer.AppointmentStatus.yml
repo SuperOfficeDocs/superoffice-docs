@@ -1,4 +1,5 @@
-﻿items:
+### YamlMime:ManagedReference
+items:
 - uid: CRMScript.NetServer.AppointmentStatus
   children:
   - CRMScript.NetServer.AppointmentStatus.UnknownOrPostIt
