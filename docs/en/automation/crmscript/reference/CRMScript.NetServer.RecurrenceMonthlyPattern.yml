@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.RecurrenceMonthlyPattern
+  children:
+  - CRMScript.NetServer.RecurrenceMonthlyPattern.Unknown
+  - CRMScript.NetServer.RecurrenceMonthlyPattern.DayOfMonth
+  - CRMScript.NetServer.RecurrenceMonthlyPattern.WeekdayOfMonth
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RecurrenceMonthlyPattern
+  syntax: 
+    content: RecurrenceMonthlyPattern
+  summary: "Enumerator describing the different patterns for a monthly recurrence"
+  name: RecurrenceMonthlyPattern
+  nameWithType: RecurrenceMonthlyPattern
+  fullName: CRMScript.NetServer.RecurrenceMonthlyPattern
+- uid: CRMScript.NetServer.RecurrenceMonthlyPattern.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceMonthlyPattern.Unknown
+  syntax: 
+    content: RecurrenceMonthlyPattern.Unknown
+  summary: "0: Unknown/undecided type"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.RecurrenceMonthlyPattern.Unknown
+- uid: CRMScript.NetServer.RecurrenceMonthlyPattern.DayOfMonth
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceMonthlyPattern.DayOfMonth
+  syntax: 
+    content: RecurrenceMonthlyPattern.DayOfMonth
+  summary: "The recurrence is for a numbered day of the month, e.g. the 17. day of every 2 months"
+  name: DayOfMonth
+  nameWithType: DayOfMonth
+  fullName: CRMScript.NetServer.RecurrenceMonthlyPattern.DayOfMonth
+- uid: CRMScript.NetServer.RecurrenceMonthlyPattern.WeekdayOfMonth
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceMonthlyPattern.WeekdayOfMonth
+  syntax: 
+    content: RecurrenceMonthlyPattern.WeekdayOfMonth
+  summary: "The recurrence is for weekdays in the month, e.g. the 3. thursday of every 3 months"
+  name: WeekdayOfMonth
+  nameWithType: WeekdayOfMonth
+  fullName: CRMScript.NetServer.RecurrenceMonthlyPattern.WeekdayOfMonth
+references:
+- uid: CRMScript.NetServer.RecurrenceMonthlyPattern
+  commentId: T:CRMScript.NetServer.RecurrenceMonthlyPattern
+  isExternal: true
+  name: RecurrenceMonthlyPattern
+  nameWithType: RecurrenceMonthlyPattern
+  fullName: CRMScript.NetServer.RecurrenceMonthlyPattern

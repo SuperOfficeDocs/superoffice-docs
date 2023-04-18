@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportPhoneUrlsEmail
+  children:
+  - CRMScript.NetServer.ImportPhoneUrlsEmail.AddToList
+  - CRMScript.NetServer.ImportPhoneUrlsEmail.Replace
+  - CRMScript.NetServer.ImportPhoneUrlsEmail.Skip
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportPhoneUrlsEmail
+  syntax: 
+    content: ImportPhoneUrlsEmail
+  summary: "Import new list item"
+  name: ImportPhoneUrlsEmail
+  nameWithType: ImportPhoneUrlsEmail
+  fullName: CRMScript.NetServer.ImportPhoneUrlsEmail
+- uid: CRMScript.NetServer.ImportPhoneUrlsEmail.AddToList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPhoneUrlsEmail.AddToList
+  syntax: 
+    content: ImportPhoneUrlsEmail.AddToList
+  summary: "Add to list"
+  name: AddToList
+  nameWithType: AddToList
+  fullName: CRMScript.NetServer.ImportPhoneUrlsEmail.AddToList
+- uid: CRMScript.NetServer.ImportPhoneUrlsEmail.Replace
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPhoneUrlsEmail.Replace
+  syntax: 
+    content: ImportPhoneUrlsEmail.Replace
+  summary: "Replace"
+  name: Replace
+  nameWithType: Replace
+  fullName: CRMScript.NetServer.ImportPhoneUrlsEmail.Replace
+- uid: CRMScript.NetServer.ImportPhoneUrlsEmail.Skip
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPhoneUrlsEmail.Skip
+  syntax: 
+    content: ImportPhoneUrlsEmail.Skip
+  summary: "Skip"
+  name: Skip
+  nameWithType: Skip
+  fullName: CRMScript.NetServer.ImportPhoneUrlsEmail.Skip
+references:
+- uid: CRMScript.NetServer.ImportPhoneUrlsEmail
+  commentId: T:CRMScript.NetServer.ImportPhoneUrlsEmail
+  isExternal: true
+  name: ImportPhoneUrlsEmail
+  nameWithType: ImportPhoneUrlsEmail
+  fullName: CRMScript.NetServer.ImportPhoneUrlsEmail

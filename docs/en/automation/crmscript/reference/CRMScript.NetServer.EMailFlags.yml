@@ -1,0 +1,104 @@
+﻿items:
+- uid: CRMScript.NetServer.EMailFlags
+  children:
+  - CRMScript.NetServer.EMailFlags.None
+  - CRMScript.NetServer.EMailFlags.Seen
+  - CRMScript.NetServer.EMailFlags.Deleted
+  - CRMScript.NetServer.EMailFlags.Recent
+  - CRMScript.NetServer.EMailFlags.Flagged
+  - CRMScript.NetServer.EMailFlags.Draft
+  - CRMScript.NetServer.EMailFlags.Answered
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: EMailFlags
+  syntax: 
+    content: EMailFlags
+  summary: ""
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: CRMScript.NetServer.EMailFlags
+- uid: CRMScript.NetServer.EMailFlags.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EMailFlags.None
+  syntax: 
+    content: EMailFlags.None
+  summary: "0: No flags set"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.EMailFlags.None
+- uid: CRMScript.NetServer.EMailFlags.Seen
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EMailFlags.Seen
+  syntax: 
+    content: EMailFlags.Seen
+  summary: "1: Mail has been read"
+  name: Seen
+  nameWithType: Seen
+  fullName: CRMScript.NetServer.EMailFlags.Seen
+- uid: CRMScript.NetServer.EMailFlags.Deleted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EMailFlags.Deleted
+  syntax: 
+    content: EMailFlags.Deleted
+  summary: "2: Mail has been deleted"
+  name: Deleted
+  nameWithType: Deleted
+  fullName: CRMScript.NetServer.EMailFlags.Deleted
+- uid: CRMScript.NetServer.EMailFlags.Recent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EMailFlags.Recent
+  syntax: 
+    content: EMailFlags.Recent
+  summary: "4: Mail is recent"
+  name: Recent
+  nameWithType: Recent
+  fullName: CRMScript.NetServer.EMailFlags.Recent
+- uid: CRMScript.NetServer.EMailFlags.Flagged
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EMailFlags.Flagged
+  syntax: 
+    content: EMailFlags.Flagged
+  summary: "8: Mail is flagged in the GUI"
+  name: Flagged
+  nameWithType: Flagged
+  fullName: CRMScript.NetServer.EMailFlags.Flagged
+- uid: CRMScript.NetServer.EMailFlags.Draft
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EMailFlags.Draft
+  syntax: 
+    content: EMailFlags.Draft
+  summary: "16: Mail is an unsent draft"
+  name: Draft
+  nameWithType: Draft
+  fullName: CRMScript.NetServer.EMailFlags.Draft
+- uid: CRMScript.NetServer.EMailFlags.Answered
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EMailFlags.Answered
+  syntax: 
+    content: EMailFlags.Answered
+  summary: "32: Mail has been replied to at least once"
+  name: Answered
+  nameWithType: Answered
+  fullName: CRMScript.NetServer.EMailFlags.Answered
+references:
+- uid: CRMScript.NetServer.EMailFlags
+  commentId: T:CRMScript.NetServer.EMailFlags
+  isExternal: true
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: CRMScript.NetServer.EMailFlags

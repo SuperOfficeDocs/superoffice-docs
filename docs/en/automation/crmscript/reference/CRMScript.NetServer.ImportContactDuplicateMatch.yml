@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch
+  children:
+  - CRMScript.NetServer.ImportContactDuplicateMatch.Name
+  - CRMScript.NetServer.ImportContactDuplicateMatch.NameDepartment
+  - CRMScript.NetServer.ImportContactDuplicateMatch.Number
+  - CRMScript.NetServer.ImportContactDuplicateMatch.Code
+  - CRMScript.NetServer.ImportContactDuplicateMatch.OrgNr
+  - CRMScript.NetServer.ImportContactDuplicateMatch.Id
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportContactDuplicateMatch
+  syntax: 
+    content: ImportContactDuplicateMatch
+  summary: "Contact duplicate matching for import"
+  name: ImportContactDuplicateMatch
+  nameWithType: ImportContactDuplicateMatch
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch.Name
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportContactDuplicateMatch.Name
+  syntax: 
+    content: ImportContactDuplicateMatch.Name
+  summary: "Name"
+  name: Name
+  nameWithType: Name
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch.Name
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch.NameDepartment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportContactDuplicateMatch.NameDepartment
+  syntax: 
+    content: ImportContactDuplicateMatch.NameDepartment
+  summary: "Name + Department"
+  name: NameDepartment
+  nameWithType: NameDepartment
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch.NameDepartment
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch.Number
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportContactDuplicateMatch.Number
+  syntax: 
+    content: ImportContactDuplicateMatch.Number
+  summary: "Number"
+  name: Number
+  nameWithType: Number
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch.Number
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch.Code
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportContactDuplicateMatch.Code
+  syntax: 
+    content: ImportContactDuplicateMatch.Code
+  summary: "Code"
+  name: Code
+  nameWithType: Code
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch.Code
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch.OrgNr
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportContactDuplicateMatch.OrgNr
+  syntax: 
+    content: ImportContactDuplicateMatch.OrgNr
+  summary: "OrgNr"
+  name: OrgNr
+  nameWithType: OrgNr
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch.OrgNr
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch.Id
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportContactDuplicateMatch.Id
+  syntax: 
+    content: ImportContactDuplicateMatch.Id
+  summary: "Id"
+  name: Id
+  nameWithType: Id
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch.Id
+references:
+- uid: CRMScript.NetServer.ImportContactDuplicateMatch
+  commentId: T:CRMScript.NetServer.ImportContactDuplicateMatch
+  isExternal: true
+  name: ImportContactDuplicateMatch
+  nameWithType: ImportContactDuplicateMatch
+  fullName: CRMScript.NetServer.ImportContactDuplicateMatch

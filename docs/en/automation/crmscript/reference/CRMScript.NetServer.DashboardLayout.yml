@@ -1,0 +1,104 @@
+﻿items:
+- uid: CRMScript.NetServer.DashboardLayout
+  children:
+  - CRMScript.NetServer.DashboardLayout.None
+  - CRMScript.NetServer.DashboardLayout.One
+  - CRMScript.NetServer.DashboardLayout.TwoVerticalSplit
+  - CRMScript.NetServer.DashboardLayout.ThreeESplit
+  - CRMScript.NetServer.DashboardLayout.TwoHorizontalSplit
+  - CRMScript.NetServer.DashboardLayout.ThreeTSplit
+  - CRMScript.NetServer.DashboardLayout.Four
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashboardLayout
+  syntax: 
+    content: DashboardLayout
+  summary: "Dashboard layout"
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: CRMScript.NetServer.DashboardLayout
+- uid: CRMScript.NetServer.DashboardLayout.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardLayout.None
+  syntax: 
+    content: DashboardLayout.None
+  summary: "Unknown layout"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashboardLayout.None
+- uid: CRMScript.NetServer.DashboardLayout.One
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardLayout.One
+  syntax: 
+    content: DashboardLayout.One
+  summary: "One tile."
+  name: One
+  nameWithType: One
+  fullName: CRMScript.NetServer.DashboardLayout.One
+- uid: CRMScript.NetServer.DashboardLayout.TwoVerticalSplit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardLayout.TwoVerticalSplit
+  syntax: 
+    content: DashboardLayout.TwoVerticalSplit
+  summary: "Two vertical split."
+  name: TwoVerticalSplit
+  nameWithType: TwoVerticalSplit
+  fullName: CRMScript.NetServer.DashboardLayout.TwoVerticalSplit
+- uid: CRMScript.NetServer.DashboardLayout.ThreeESplit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardLayout.ThreeESplit
+  syntax: 
+    content: DashboardLayout.ThreeESplit
+  summary: "Three E split."
+  name: ThreeESplit
+  nameWithType: ThreeESplit
+  fullName: CRMScript.NetServer.DashboardLayout.ThreeESplit
+- uid: CRMScript.NetServer.DashboardLayout.TwoHorizontalSplit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardLayout.TwoHorizontalSplit
+  syntax: 
+    content: DashboardLayout.TwoHorizontalSplit
+  summary: "Two horizontal split."
+  name: TwoHorizontalSplit
+  nameWithType: TwoHorizontalSplit
+  fullName: CRMScript.NetServer.DashboardLayout.TwoHorizontalSplit
+- uid: CRMScript.NetServer.DashboardLayout.ThreeTSplit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardLayout.ThreeTSplit
+  syntax: 
+    content: DashboardLayout.ThreeTSplit
+  summary: "Three T split."
+  name: ThreeTSplit
+  nameWithType: ThreeTSplit
+  fullName: CRMScript.NetServer.DashboardLayout.ThreeTSplit
+- uid: CRMScript.NetServer.DashboardLayout.Four
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardLayout.Four
+  syntax: 
+    content: DashboardLayout.Four
+  summary: "Four tiles."
+  name: Four
+  nameWithType: Four
+  fullName: CRMScript.NetServer.DashboardLayout.Four
+references:
+- uid: CRMScript.NetServer.DashboardLayout
+  commentId: T:CRMScript.NetServer.DashboardLayout
+  isExternal: true
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: CRMScript.NetServer.DashboardLayout

@@ -1,0 +1,32 @@
+﻿items:
+- uid: CRMScript.NetServer.LoginFlags
+  children:
+  - CRMScript.NetServer.LoginFlags.HideIEWarning
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: LoginFlags
+  syntax: 
+    content: LoginFlags
+  summary: "Bits in login.flags"
+  name: LoginFlags
+  nameWithType: LoginFlags
+  fullName: CRMScript.NetServer.LoginFlags
+- uid: CRMScript.NetServer.LoginFlags.HideIEWarning
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: LoginFlags.HideIEWarning
+  syntax: 
+    content: LoginFlags.HideIEWarning
+  summary: "Hide warning about Internet Explorer being deprecated"
+  name: HideIEWarning
+  nameWithType: HideIEWarning
+  fullName: CRMScript.NetServer.LoginFlags.HideIEWarning
+references:
+- uid: CRMScript.NetServer.LoginFlags
+  commentId: T:CRMScript.NetServer.LoginFlags
+  isExternal: true
+  name: LoginFlags
+  nameWithType: LoginFlags
+  fullName: CRMScript.NetServer.LoginFlags

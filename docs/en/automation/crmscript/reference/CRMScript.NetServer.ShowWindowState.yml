@@ -1,0 +1,63 @@
+﻿items:
+- uid: CRMScript.NetServer.ShowWindowState
+  children:
+  - CRMScript.NetServer.ShowWindowState.Normal
+  - CRMScript.NetServer.ShowWindowState.Maximized
+  - CRMScript.NetServer.ShowWindowState.Minimized
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ShowWindowState
+  syntax: 
+    content: ShowWindowState
+  summary: "Normal = 0, Maximized = 1, Minimized = 2"
+  name: ShowWindowState
+  nameWithType: ShowWindowState
+  fullName: CRMScript.NetServer.ShowWindowState
+- uid: CRMScript.NetServer.ShowWindowState.Normal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShowWindowState.Normal
+  syntax: 
+    content: ShowWindowState.Normal
+  summary: "Show Normal"
+  name: Normal
+  nameWithType: Normal
+  fullName: CRMScript.NetServer.ShowWindowState.Normal
+- uid: CRMScript.NetServer.ShowWindowState.Maximized
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShowWindowState.Maximized
+  syntax: 
+    content: ShowWindowState.Maximized
+  summary: "Show Maximized"
+  name: Maximized
+  nameWithType: Maximized
+  fullName: CRMScript.NetServer.ShowWindowState.Maximized
+- uid: CRMScript.NetServer.ShowWindowState.Minimized
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShowWindowState.Minimized
+  syntax: 
+    content: ShowWindowState.Minimized
+  summary: "Show Minimized"
+  name: Minimized
+  nameWithType: Minimized
+  fullName: CRMScript.NetServer.ShowWindowState.Minimized
+references:
+- uid: CRMScript.NetServer.ShowWindowState
+  commentId: T:CRMScript.NetServer.ShowWindowState
+  isExternal: true
+  name: ShowWindowState
+  nameWithType: ShowWindowState
+  fullName: CRMScript.NetServer.ShowWindowState
+references:
+- uid: CRMScript.NetServer.OfficialLanguage
+  commentId: T:CRMScript.NetServer.OfficialLanguage
+  isExternal: true
+  name: OfficialLanguage
+  nameWithType: OfficialLanguage
+  fullName: CRMScript.NetServer.OfficialLanguage

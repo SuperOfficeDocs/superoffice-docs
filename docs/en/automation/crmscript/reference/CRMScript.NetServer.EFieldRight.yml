@@ -1,0 +1,176 @@
+﻿items:
+- uid: CRMScript.NetServer.EFieldRight
+  children:
+  - CRMScript.NetServer.EFieldRight.None
+  - CRMScript.NetServer.EFieldRight.Read
+  - CRMScript.NetServer.EFieldRight.Write
+  - CRMScript.NetServer.EFieldRight.Update
+  - CRMScript.NetServer.EFieldRight.Unused1
+  - CRMScript.NetServer.EFieldRight.Unused2
+  - CRMScript.NetServer.EFieldRight.Unused3
+  - CRMScript.NetServer.EFieldRight.Unused4
+  - CRMScript.NetServer.EFieldRight.Nullable
+  - CRMScript.NetServer.EFieldRight.UIHintMandatory
+  - CRMScript.NetServer.EFieldRight.UIHintReadOnly
+  - CRMScript.NetServer.EFieldRight.FULL
+  - CRMScript.NetServer.EFieldRight.UIHints
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: EFieldRight
+  syntax: 
+    content: EFieldRight
+  summary: "Access levels to a single field. Read and/or write."
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: CRMScript.NetServer.EFieldRight
+- uid: CRMScript.NetServer.EFieldRight.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.None
+  syntax: 
+    content: EFieldRight.None
+  summary: "Hidden from user."
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.EFieldRight.None
+- uid: CRMScript.NetServer.EFieldRight.Read
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Read
+  syntax: 
+    content: EFieldRight.Read
+  summary: "Read-only right"
+  name: Read
+  nameWithType: Read
+  fullName: CRMScript.NetServer.EFieldRight.Read
+- uid: CRMScript.NetServer.EFieldRight.Write
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Write
+  syntax: 
+    content: EFieldRight.Write
+  summary: "Write-only (not terribly useful)"
+  name: Write
+  nameWithType: Write
+  fullName: CRMScript.NetServer.EFieldRight.Write
+- uid: CRMScript.NetServer.EFieldRight.Update
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Update
+  syntax: 
+    content: EFieldRight.Update
+  summary: "Read + Write rights combined"
+  name: Update
+  nameWithType: Update
+  fullName: CRMScript.NetServer.EFieldRight.Update
+- uid: CRMScript.NetServer.EFieldRight.Unused1
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Unused1
+  syntax: 
+    content: EFieldRight.Unused1
+  summary: ""
+  name: Unused1
+  nameWithType: Unused1
+  fullName: CRMScript.NetServer.EFieldRight.Unused1
+- uid: CRMScript.NetServer.EFieldRight.Unused2
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Unused2
+  syntax: 
+    content: EFieldRight.Unused2
+  summary: ""
+  name: Unused2
+  nameWithType: Unused2
+  fullName: CRMScript.NetServer.EFieldRight.Unused2
+- uid: CRMScript.NetServer.EFieldRight.Unused3
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Unused3
+  syntax: 
+    content: EFieldRight.Unused3
+  summary: ""
+  name: Unused3
+  nameWithType: Unused3
+  fullName: CRMScript.NetServer.EFieldRight.Unused3
+- uid: CRMScript.NetServer.EFieldRight.Unused4
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Unused4
+  syntax: 
+    content: EFieldRight.Unused4
+  summary: ""
+  name: Unused4
+  nameWithType: Unused4
+  fullName: CRMScript.NetServer.EFieldRight.Unused4
+- uid: CRMScript.NetServer.EFieldRight.Nullable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.Nullable
+  syntax: 
+    content: EFieldRight.Nullable
+  summary: "Field can have NULL as a valid value."
+  name: Nullable
+  nameWithType: Nullable
+  fullName: CRMScript.NetServer.EFieldRight.Nullable
+- uid: CRMScript.NetServer.EFieldRight.UIHintMandatory
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.UIHintMandatory
+  syntax: 
+    content: EFieldRight.UIHintMandatory
+  summary: "Field must be filled out (not blank)"
+  name: UIHintMandatory
+  nameWithType: UIHintMandatory
+  fullName: CRMScript.NetServer.EFieldRight.UIHintMandatory
+- uid: CRMScript.NetServer.EFieldRight.UIHintReadOnly
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.UIHintReadOnly
+  syntax: 
+    content: EFieldRight.UIHintReadOnly
+  summary: "Field can only be read, not updated, in the user interface."
+  name: UIHintReadOnly
+  nameWithType: UIHintReadOnly
+  fullName: CRMScript.NetServer.EFieldRight.UIHintReadOnly
+- uid: CRMScript.NetServer.EFieldRight.FULL
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.FULL
+  syntax: 
+    content: EFieldRight.FULL
+  summary: "All possible rights (same as Update = Read + Write)"
+  name: FULL
+  nameWithType: FULL
+  fullName: CRMScript.NetServer.EFieldRight.FULL
+- uid: CRMScript.NetServer.EFieldRight.UIHints
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EFieldRight.UIHints
+  syntax: 
+    content: EFieldRight.UIHints
+  summary: "Rights only applied in the user interface.  These rights are threated as deny rights."
+  name: UIHints
+  nameWithType: UIHints
+  fullName: CRMScript.NetServer.EFieldRight.UIHints
+references:
+- uid: CRMScript.NetServer.EFieldRight
+  commentId: T:CRMScript.NetServer.EFieldRight
+  isExternal: true
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: CRMScript.NetServer.EFieldRight

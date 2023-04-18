@@ -1,0 +1,164 @@
+﻿items:
+- uid: CRMScript.NetServer.NotificationEventType
+  children:
+  - CRMScript.NetServer.NotificationEventType.Unknown
+  - CRMScript.NetServer.NotificationEventType.NewTicket
+  - CRMScript.NetServer.NotificationEventType.AppointmentInvitation
+  - CRMScript.NetServer.NotificationEventType.AppointmentMoved
+  - CRMScript.NetServer.NotificationEventType.AppointmentCancelled
+  - CRMScript.NetServer.NotificationEventType.NewTicketMessage
+  - CRMScript.NetServer.NotificationEventType.TicketActivated
+  - CRMScript.NetServer.NotificationEventType.TicketEscalated
+  - CRMScript.NetServer.NotificationEventType.QuoteApprovalRequest
+  - CRMScript.NetServer.NotificationEventType.QuoteApprovalApproved
+  - CRMScript.NetServer.NotificationEventType.QuoteApprovalDenied
+  - CRMScript.NetServer.NotificationEventType.AppointmentDeclined
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: NotificationEventType
+  syntax: 
+    content: NotificationEventType
+  summary: "Types of events that are sent through the Pocket Notification API, where they are paired with an entity id"
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: CRMScript.NetServer.NotificationEventType
+- uid: CRMScript.NetServer.NotificationEventType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.Unknown
+  syntax: 
+    content: NotificationEventType.Unknown
+  summary: "Unknown"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.NotificationEventType.Unknown
+- uid: CRMScript.NetServer.NotificationEventType.NewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.NewTicket
+  syntax: 
+    content: NotificationEventType.NewTicket
+  summary: "New ticket"
+  name: NewTicket
+  nameWithType: NewTicket
+  fullName: CRMScript.NetServer.NotificationEventType.NewTicket
+- uid: CRMScript.NetServer.NotificationEventType.AppointmentInvitation
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.AppointmentInvitation
+  syntax: 
+    content: NotificationEventType.AppointmentInvitation
+  summary: "Appointment invitation"
+  name: AppointmentInvitation
+  nameWithType: AppointmentInvitation
+  fullName: CRMScript.NetServer.NotificationEventType.AppointmentInvitation
+- uid: CRMScript.NetServer.NotificationEventType.AppointmentMoved
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.AppointmentMoved
+  syntax: 
+    content: NotificationEventType.AppointmentMoved
+  summary: "Appointment moved or changed"
+  name: AppointmentMoved
+  nameWithType: AppointmentMoved
+  fullName: CRMScript.NetServer.NotificationEventType.AppointmentMoved
+- uid: CRMScript.NetServer.NotificationEventType.AppointmentCancelled
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.AppointmentCancelled
+  syntax: 
+    content: NotificationEventType.AppointmentCancelled
+  summary: "Appointment cancelled"
+  name: AppointmentCancelled
+  nameWithType: AppointmentCancelled
+  fullName: CRMScript.NetServer.NotificationEventType.AppointmentCancelled
+- uid: CRMScript.NetServer.NotificationEventType.NewTicketMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.NewTicketMessage
+  syntax: 
+    content: NotificationEventType.NewTicketMessage
+  summary: "New ticket message"
+  name: NewTicketMessage
+  nameWithType: NewTicketMessage
+  fullName: CRMScript.NetServer.NotificationEventType.NewTicketMessage
+- uid: CRMScript.NetServer.NotificationEventType.TicketActivated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.TicketActivated
+  syntax: 
+    content: NotificationEventType.TicketActivated
+  summary: "Ticket activated"
+  name: TicketActivated
+  nameWithType: TicketActivated
+  fullName: CRMScript.NetServer.NotificationEventType.TicketActivated
+- uid: CRMScript.NetServer.NotificationEventType.TicketEscalated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.TicketEscalated
+  syntax: 
+    content: NotificationEventType.TicketEscalated
+  summary: "Ticket escalated"
+  name: TicketEscalated
+  nameWithType: TicketEscalated
+  fullName: CRMScript.NetServer.NotificationEventType.TicketEscalated
+- uid: CRMScript.NetServer.NotificationEventType.QuoteApprovalRequest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.QuoteApprovalRequest
+  syntax: 
+    content: NotificationEventType.QuoteApprovalRequest
+  summary: "Quote approval requested"
+  name: QuoteApprovalRequest
+  nameWithType: QuoteApprovalRequest
+  fullName: CRMScript.NetServer.NotificationEventType.QuoteApprovalRequest
+- uid: CRMScript.NetServer.NotificationEventType.QuoteApprovalApproved
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.QuoteApprovalApproved
+  syntax: 
+    content: NotificationEventType.QuoteApprovalApproved
+  summary: "Quote approval approved"
+  name: QuoteApprovalApproved
+  nameWithType: QuoteApprovalApproved
+  fullName: CRMScript.NetServer.NotificationEventType.QuoteApprovalApproved
+- uid: CRMScript.NetServer.NotificationEventType.QuoteApprovalDenied
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.QuoteApprovalDenied
+  syntax: 
+    content: NotificationEventType.QuoteApprovalDenied
+  summary: "Quote approval denied"
+  name: QuoteApprovalDenied
+  nameWithType: QuoteApprovalDenied
+  fullName: CRMScript.NetServer.NotificationEventType.QuoteApprovalDenied
+- uid: CRMScript.NetServer.NotificationEventType.AppointmentDeclined
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: NotificationEventType.AppointmentDeclined
+  syntax: 
+    content: NotificationEventType.AppointmentDeclined
+  summary: "Invitation or assignment declined"
+  name: AppointmentDeclined
+  nameWithType: AppointmentDeclined
+  fullName: CRMScript.NetServer.NotificationEventType.AppointmentDeclined
+references:
+- uid: CRMScript.NetServer.NotificationEventType
+  commentId: T:CRMScript.NetServer.NotificationEventType
+  isExternal: true
+  name: NotificationEventType
+  nameWithType: NotificationEventType
+  fullName: CRMScript.NetServer.NotificationEventType

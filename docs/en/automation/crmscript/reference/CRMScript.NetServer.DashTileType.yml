@@ -1,0 +1,176 @@
+﻿items:
+- uid: CRMScript.NetServer.DashTileType
+  children:
+  - CRMScript.NetServer.DashTileType.None
+  - CRMScript.NetServer.DashTileType.Pie
+  - CRMScript.NetServer.DashTileType.List
+  - CRMScript.NetServer.DashTileType.BigNum
+  - CRMScript.NetServer.DashTileType.Bar
+  - CRMScript.NetServer.DashTileType.Line
+  - CRMScript.NetServer.DashTileType.Area
+  - CRMScript.NetServer.DashTileType.Column
+  - CRMScript.NetServer.DashTileType.CombinedBarLine
+  - CRMScript.NetServer.DashTileType.CombinedColumnLine
+  - CRMScript.NetServer.DashTileType.WebPanel
+  - CRMScript.NetServer.DashTileType.HTML
+  - CRMScript.NetServer.DashTileType.Gauge
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashTileType
+  syntax: 
+    content: DashTileType
+  summary: "Dashboard tile chart type (V2)"
+  name: DashTileType
+  nameWithType: DashTileType
+  fullName: CRMScript.NetServer.DashTileType
+- uid: CRMScript.NetServer.DashTileType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.None
+  syntax: 
+    content: DashTileType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashTileType.None
+- uid: CRMScript.NetServer.DashTileType.Pie
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.Pie
+  syntax: 
+    content: DashTileType.Pie
+  summary: "Pie"
+  name: Pie
+  nameWithType: Pie
+  fullName: CRMScript.NetServer.DashTileType.Pie
+- uid: CRMScript.NetServer.DashTileType.List
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.List
+  syntax: 
+    content: DashTileType.List
+  summary: "List"
+  name: List
+  nameWithType: List
+  fullName: CRMScript.NetServer.DashTileType.List
+- uid: CRMScript.NetServer.DashTileType.BigNum
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.BigNum
+  syntax: 
+    content: DashTileType.BigNum
+  summary: "BigNum"
+  name: BigNum
+  nameWithType: BigNum
+  fullName: CRMScript.NetServer.DashTileType.BigNum
+- uid: CRMScript.NetServer.DashTileType.Bar
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.Bar
+  syntax: 
+    content: DashTileType.Bar
+  summary: "Bar"
+  name: Bar
+  nameWithType: Bar
+  fullName: CRMScript.NetServer.DashTileType.Bar
+- uid: CRMScript.NetServer.DashTileType.Line
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.Line
+  syntax: 
+    content: DashTileType.Line
+  summary: "Line"
+  name: Line
+  nameWithType: Line
+  fullName: CRMScript.NetServer.DashTileType.Line
+- uid: CRMScript.NetServer.DashTileType.Area
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.Area
+  syntax: 
+    content: DashTileType.Area
+  summary: "Area"
+  name: Area
+  nameWithType: Area
+  fullName: CRMScript.NetServer.DashTileType.Area
+- uid: CRMScript.NetServer.DashTileType.Column
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.Column
+  syntax: 
+    content: DashTileType.Column
+  summary: "Column"
+  name: Column
+  nameWithType: Column
+  fullName: CRMScript.NetServer.DashTileType.Column
+- uid: CRMScript.NetServer.DashTileType.CombinedBarLine
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.CombinedBarLine
+  syntax: 
+    content: DashTileType.CombinedBarLine
+  summary: "CombinedBarLine"
+  name: CombinedBarLine
+  nameWithType: CombinedBarLine
+  fullName: CRMScript.NetServer.DashTileType.CombinedBarLine
+- uid: CRMScript.NetServer.DashTileType.CombinedColumnLine
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.CombinedColumnLine
+  syntax: 
+    content: DashTileType.CombinedColumnLine
+  summary: "CombinedColumnLine"
+  name: CombinedColumnLine
+  nameWithType: CombinedColumnLine
+  fullName: CRMScript.NetServer.DashTileType.CombinedColumnLine
+- uid: CRMScript.NetServer.DashTileType.WebPanel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.WebPanel
+  syntax: 
+    content: DashTileType.WebPanel
+  summary: "WebPanel"
+  name: WebPanel
+  nameWithType: WebPanel
+  fullName: CRMScript.NetServer.DashTileType.WebPanel
+- uid: CRMScript.NetServer.DashTileType.HTML
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.HTML
+  syntax: 
+    content: DashTileType.HTML
+  summary: "HTML"
+  name: HTML
+  nameWithType: HTML
+  fullName: CRMScript.NetServer.DashTileType.HTML
+- uid: CRMScript.NetServer.DashTileType.Gauge
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileType.Gauge
+  syntax: 
+    content: DashTileType.Gauge
+  summary: "Gauge"
+  name: Gauge
+  nameWithType: Gauge
+  fullName: CRMScript.NetServer.DashTileType.Gauge
+references:
+- uid: CRMScript.NetServer.DashTileType
+  commentId: T:CRMScript.NetServer.DashTileType
+  isExternal: true
+  name: DashTileType
+  nameWithType: DashTileType
+  fullName: CRMScript.NetServer.DashTileType

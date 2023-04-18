@@ -1,0 +1,188 @@
+﻿items:
+- uid: CRMScript.NetServer.ShipmentLinkAction
+  children:
+  - CRMScript.NetServer.ShipmentLinkAction.None
+  - CRMScript.NetServer.ShipmentLinkAction.SetPersonInterest
+  - CRMScript.NetServer.ShipmentLinkAction.RemovePersonInterest
+  - CRMScript.NetServer.ShipmentLinkAction.SetContactInterest
+  - CRMScript.NetServer.ShipmentLinkAction.RemoveContactInterest
+  - CRMScript.NetServer.ShipmentLinkAction.AddToSmSelection
+  - CRMScript.NetServer.ShipmentLinkAction.RemoveFromSmSelection
+  - CRMScript.NetServer.ShipmentLinkAction.AddToSmProject
+  - CRMScript.NetServer.ShipmentLinkAction.RemoveFromSmProject
+  - CRMScript.NetServer.ShipmentLinkAction.AddTask
+  - CRMScript.NetServer.ShipmentLinkAction.AddRequest
+  - CRMScript.NetServer.ShipmentLinkAction.AddToCsSelection
+  - CRMScript.NetServer.ShipmentLinkAction.RemoveFromCsSelection
+  - CRMScript.NetServer.ShipmentLinkAction.ExecuteScript
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ShipmentLinkAction
+  syntax: 
+    content: ShipmentLinkAction
+  summary: "Bitmask defining what action should be taken"
+  name: ShipmentLinkAction
+  nameWithType: ShipmentLinkAction
+  fullName: CRMScript.NetServer.ShipmentLinkAction
+- uid: CRMScript.NetServer.ShipmentLinkAction.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.None
+  syntax: 
+    content: ShipmentLinkAction.None
+  summary: "No action"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ShipmentLinkAction.None
+- uid: CRMScript.NetServer.ShipmentLinkAction.SetPersonInterest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.SetPersonInterest
+  syntax: 
+    content: ShipmentLinkAction.SetPersonInterest
+  summary: "Set an interest on the recipient-who-is-a-person"
+  name: SetPersonInterest
+  nameWithType: SetPersonInterest
+  fullName: CRMScript.NetServer.ShipmentLinkAction.SetPersonInterest
+- uid: CRMScript.NetServer.ShipmentLinkAction.RemovePersonInterest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.RemovePersonInterest
+  syntax: 
+    content: ShipmentLinkAction.RemovePersonInterest
+  summary: "Remove an interest from the recipient-who-is-a-person"
+  name: RemovePersonInterest
+  nameWithType: RemovePersonInterest
+  fullName: CRMScript.NetServer.ShipmentLinkAction.RemovePersonInterest
+- uid: CRMScript.NetServer.ShipmentLinkAction.SetContactInterest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.SetContactInterest
+  syntax: 
+    content: ShipmentLinkAction.SetContactInterest
+  summary: "Set an interest on the recipient-who-is-a-contact"
+  name: SetContactInterest
+  nameWithType: SetContactInterest
+  fullName: CRMScript.NetServer.ShipmentLinkAction.SetContactInterest
+- uid: CRMScript.NetServer.ShipmentLinkAction.RemoveContactInterest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.RemoveContactInterest
+  syntax: 
+    content: ShipmentLinkAction.RemoveContactInterest
+  summary: "Remove an interest from the recipient-who-is-a-contact"
+  name: RemoveContactInterest
+  nameWithType: RemoveContactInterest
+  fullName: CRMScript.NetServer.ShipmentLinkAction.RemoveContactInterest
+- uid: CRMScript.NetServer.ShipmentLinkAction.AddToSmSelection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.AddToSmSelection
+  syntax: 
+    content: ShipmentLinkAction.AddToSmSelection
+  summary: "Add person id of recipient to a static S&M selection"
+  name: AddToSmSelection
+  nameWithType: AddToSmSelection
+  fullName: CRMScript.NetServer.ShipmentLinkAction.AddToSmSelection
+- uid: CRMScript.NetServer.ShipmentLinkAction.RemoveFromSmSelection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.RemoveFromSmSelection
+  syntax: 
+    content: ShipmentLinkAction.RemoveFromSmSelection
+  summary: "Remove person id of recipient from a static S&M selection"
+  name: RemoveFromSmSelection
+  nameWithType: RemoveFromSmSelection
+  fullName: CRMScript.NetServer.ShipmentLinkAction.RemoveFromSmSelection
+- uid: CRMScript.NetServer.ShipmentLinkAction.AddToSmProject
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.AddToSmProject
+  syntax: 
+    content: ShipmentLinkAction.AddToSmProject
+  summary: "Add person id of recipient as a member of an S&M project"
+  name: AddToSmProject
+  nameWithType: AddToSmProject
+  fullName: CRMScript.NetServer.ShipmentLinkAction.AddToSmProject
+- uid: CRMScript.NetServer.ShipmentLinkAction.RemoveFromSmProject
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.RemoveFromSmProject
+  syntax: 
+    content: ShipmentLinkAction.RemoveFromSmProject
+  summary: "Remove person id of recipient as a member of an S&M project"
+  name: RemoveFromSmProject
+  nameWithType: RemoveFromSmProject
+  fullName: CRMScript.NetServer.ShipmentLinkAction.RemoveFromSmProject
+- uid: CRMScript.NetServer.ShipmentLinkAction.AddTask
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.AddTask
+  syntax: 
+    content: ShipmentLinkAction.AddTask
+  summary: "Add a task in an S&M diary"
+  name: AddTask
+  nameWithType: AddTask
+  fullName: CRMScript.NetServer.ShipmentLinkAction.AddTask
+- uid: CRMScript.NetServer.ShipmentLinkAction.AddRequest
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.AddRequest
+  syntax: 
+    content: ShipmentLinkAction.AddRequest
+  summary: "Add a request (ticket) in CS"
+  name: AddRequest
+  nameWithType: AddRequest
+  fullName: CRMScript.NetServer.ShipmentLinkAction.AddRequest
+- uid: CRMScript.NetServer.ShipmentLinkAction.AddToCsSelection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.AddToCsSelection
+  syntax: 
+    content: ShipmentLinkAction.AddToCsSelection
+  summary: "Add person to a Customer Support selection"
+  name: AddToCsSelection
+  nameWithType: AddToCsSelection
+  fullName: CRMScript.NetServer.ShipmentLinkAction.AddToCsSelection
+- uid: CRMScript.NetServer.ShipmentLinkAction.RemoveFromCsSelection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.RemoveFromCsSelection
+  syntax: 
+    content: ShipmentLinkAction.RemoveFromCsSelection
+  summary: "Remove person from a Customer Service selection"
+  name: RemoveFromCsSelection
+  nameWithType: RemoveFromCsSelection
+  fullName: CRMScript.NetServer.ShipmentLinkAction.RemoveFromCsSelection
+- uid: CRMScript.NetServer.ShipmentLinkAction.ExecuteScript
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentLinkAction.ExecuteScript
+  syntax: 
+    content: ShipmentLinkAction.ExecuteScript
+  summary: "Execute an ejScript"
+  name: ExecuteScript
+  nameWithType: ExecuteScript
+  fullName: CRMScript.NetServer.ShipmentLinkAction.ExecuteScript
+references:
+- uid: CRMScript.NetServer.ShipmentLinkAction
+  commentId: T:CRMScript.NetServer.ShipmentLinkAction
+  isExternal: true
+  name: ShipmentLinkAction
+  nameWithType: ShipmentLinkAction
+  fullName: CRMScript.NetServer.ShipmentLinkAction

@@ -1,73 +1,64 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.UdefJustification
-  # Same as SuperOffice.Data.UdefJustification
-  commentId: T:CRMScript.NetServer.UdefJustification
-  id: UdefJustification
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.UdefJustification.Default
   - CRMScript.NetServer.UdefJustification.Left
   - CRMScript.NetServer.UdefJustification.Center
   - CRMScript.NetServer.UdefJustification.Right
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: UdefJustification
+  syntax: 
+    content: UdefJustification
+  summary: "Justification - 0 = default, left, right, center"
   name: UdefJustification
   nameWithType: UdefJustification
   fullName: CRMScript.NetServer.UdefJustification
-  type: Enum
-  summary: "\nJustification - 0 = default, left, right, center.\n"
 - uid: CRMScript.NetServer.UdefJustification.Default
-  commentId: F:CRMScript.NetServer.UdefJustification.Default
-  id: UdefJustification.Default
   langs:
   - crmscript
-  name: UdefJustification.Default
-  nameWithType: UdefJustification.Default
+  type: Field
+  so.intellisense: UdefJustification.Default
+  syntax: 
+    content: UdefJustification.Default
+  summary: ""
+  name: Default
+  nameWithType: Default
   fullName: CRMScript.NetServer.UdefJustification.Default
-  type: Field
-  summary: "\n0: Default\n"
-  syntax: 
-    content: Default = 0
-    type: CRMScript.NetServer.UdefJustification
 - uid: CRMScript.NetServer.UdefJustification.Left
-  commentId: F:CRMScript.NetServer.UdefJustification.Left
-  id: UdefJustification.Left
   langs:
   - crmscript
-  name: UdefJustification.Left
-  nameWithType: UdefJustification.Left
+  type: Field
+  so.intellisense: UdefJustification.Left
+  syntax: 
+    content: UdefJustification.Left
+  summary: ""
+  name: Left
+  nameWithType: Left
   fullName: CRMScript.NetServer.UdefJustification.Left
-  type: Field
-  summary: "\n1: Left\n"
-  syntax: 
-    content: Left = 1
-    type: CRMScript.NetServer.UdefJustification
 - uid: CRMScript.NetServer.UdefJustification.Center
-  commentId: F:CRMScript.NetServer.UdefJustification.Center
-  id: UdefJustification.Center
   langs:
   - crmscript
-  name: UdefJustification.Center
-  nameWithType: UdefJustification.Center
+  type: Field
+  so.intellisense: UdefJustification.Center
+  syntax: 
+    content: UdefJustification.Center
+  summary: ""
+  name: Center
+  nameWithType: Center
   fullName: CRMScript.NetServer.UdefJustification.Center
-  type: Field
-  summary: "\n2: Center\n"
-  syntax: 
-    content: Center = 2
-    type: CRMScript.NetServer.UdefJustification
 - uid: CRMScript.NetServer.UdefJustification.Right
-  commentId: F:CRMScript.NetServer.UdefJustification.Right
-  id: UdefJustification.Right
   langs:
   - crmscript
-  name: UdefJustification.Right
-  nameWithType: UdefJustification.Right
-  fullName: CRMScript.NetServer.UdefJustification.Right
   type: Field
-  summary: "\n3: Right\n"
+  so.intellisense: UdefJustification.Right
   syntax: 
-    content: Right = 3
-    type: CRMScript.NetServer.UdefJustification
+    content: UdefJustification.Right
+  summary: ""
+  name: Right
+  nameWithType: Right
+  fullName: CRMScript.NetServer.UdefJustification.Right
 references:
 - uid: CRMScript.NetServer.UdefJustification
   commentId: T:CRMScript.NetServer.UdefJustification

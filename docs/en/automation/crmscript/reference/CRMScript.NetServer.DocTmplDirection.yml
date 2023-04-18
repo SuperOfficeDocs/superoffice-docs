@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.DocTmplDirection
+  children:
+  - CRMScript.NetServer.DocTmplDirection.Unknown
+  - CRMScript.NetServer.DocTmplDirection.Incoming
+  - CRMScript.NetServer.DocTmplDirection.Outgoing
+  - CRMScript.NetServer.DocTmplDirection.SaintAll
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DocTmplDirection
+  syntax: 
+    content: DocTmplDirection
+  summary: "Value for field 'direction' in table 'doctmpl'."
+  name: DocTmplDirection
+  nameWithType: DocTmplDirection
+  fullName: CRMScript.NetServer.DocTmplDirection
+- uid: CRMScript.NetServer.DocTmplDirection.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplDirection.Unknown
+  syntax: 
+    content: DocTmplDirection.Unknown
+  summary: "The direction of documents from this template is unknown/undecided"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.DocTmplDirection.Unknown
+- uid: CRMScript.NetServer.DocTmplDirection.Incoming
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplDirection.Incoming
+  syntax: 
+    content: DocTmplDirection.Incoming
+  summary: "Document template for incoming documents"
+  name: Incoming
+  nameWithType: Incoming
+  fullName: CRMScript.NetServer.DocTmplDirection.Incoming
+- uid: CRMScript.NetServer.DocTmplDirection.Outgoing
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplDirection.Outgoing
+  syntax: 
+    content: DocTmplDirection.Outgoing
+  summary: "Document template is used for outgoing documents"
+  name: Outgoing
+  nameWithType: Outgoing
+  fullName: CRMScript.NetServer.DocTmplDirection.Outgoing
+- uid: CRMScript.NetServer.DocTmplDirection.SaintAll
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DocTmplDirection.SaintAll
+  syntax: 
+    content: DocTmplDirection.SaintAll
+  summary: "All' choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions"
+  name: SaintAll
+  nameWithType: SaintAll
+  fullName: CRMScript.NetServer.DocTmplDirection.SaintAll
+references:
+- uid: CRMScript.NetServer.DocTmplDirection
+  commentId: T:CRMScript.NetServer.DocTmplDirection
+  isExternal: true
+  name: DocTmplDirection
+  nameWithType: DocTmplDirection
+  fullName: CRMScript.NetServer.DocTmplDirection

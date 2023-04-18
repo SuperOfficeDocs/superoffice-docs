@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction
+  children:
+  - CRMScript.NetServer.TicketPriorityEscalateAction.ActionRead
+  - CRMScript.NetServer.TicketPriorityEscalateAction.ActionChangedOwner
+  - CRMScript.NetServer.TicketPriorityEscalateAction.ActionNewInfo
+  - CRMScript.NetServer.TicketPriorityEscalateAction.ActionClosed
+  - CRMScript.NetServer.TicketPriorityEscalateAction.ActionChangedPriority
+  - CRMScript.NetServer.TicketPriorityEscalateAction.ActionNew
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TicketPriorityEscalateAction
+  syntax: 
+    content: TicketPriorityEscalateAction
+  summary: "The different types of escalate actions that can be set"
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction.ActionRead
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketPriorityEscalateAction.ActionRead
+  syntax: 
+    content: TicketPriorityEscalateAction.ActionRead
+  summary: "Triggers escalation on ticket read"
+  name: ActionRead
+  nameWithType: ActionRead
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction.ActionRead
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction.ActionChangedOwner
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketPriorityEscalateAction.ActionChangedOwner
+  syntax: 
+    content: TicketPriorityEscalateAction.ActionChangedOwner
+  summary: "Triggers escalation on ticket owner change"
+  name: ActionChangedOwner
+  nameWithType: ActionChangedOwner
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction.ActionChangedOwner
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction.ActionNewInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketPriorityEscalateAction.ActionNewInfo
+  syntax: 
+    content: TicketPriorityEscalateAction.ActionNewInfo
+  summary: "Triggers escalation on ticket update"
+  name: ActionNewInfo
+  nameWithType: ActionNewInfo
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction.ActionNewInfo
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction.ActionClosed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketPriorityEscalateAction.ActionClosed
+  syntax: 
+    content: TicketPriorityEscalateAction.ActionClosed
+  summary: "Triggers escalation on ticket close"
+  name: ActionClosed
+  nameWithType: ActionClosed
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction.ActionClosed
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction.ActionChangedPriority
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketPriorityEscalateAction.ActionChangedPriority
+  syntax: 
+    content: TicketPriorityEscalateAction.ActionChangedPriority
+  summary: "Triggers escalation on ticket priority change"
+  name: ActionChangedPriority
+  nameWithType: ActionChangedPriority
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction.ActionChangedPriority
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction.ActionNew
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketPriorityEscalateAction.ActionNew
+  syntax: 
+    content: TicketPriorityEscalateAction.ActionNew
+  summary: "Triggers escalation on ticket creation"
+  name: ActionNew
+  nameWithType: ActionNew
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction.ActionNew
+references:
+- uid: CRMScript.NetServer.TicketPriorityEscalateAction
+  commentId: T:CRMScript.NetServer.TicketPriorityEscalateAction
+  isExternal: true
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: CRMScript.NetServer.TicketPriorityEscalateAction

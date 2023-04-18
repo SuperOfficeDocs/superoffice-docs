@@ -1,73 +1,64 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.TaskDirection
-  # Same as SuperOffice.Data.TaskDirection
-  commentId: T:CRMScript.NetServer.TaskDirection
-  id: TaskDirection
-  langs:
-  - crmscript
   children:
+  - CRMScript.NetServer.TaskDirection.Unknown
   - CRMScript.NetServer.TaskDirection.Incoming
   - CRMScript.NetServer.TaskDirection.Outgoing
   - CRMScript.NetServer.TaskDirection.SaintAll
-  - CRMScript.NetServer.TaskDirection.Unknown
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TaskDirection
+  syntax: 
+    content: TaskDirection
+  summary: "Value for field 'direction' in table 'task'. Controls icons used in GUI"
   name: TaskDirection
   nameWithType: TaskDirection
   fullName: CRMScript.NetServer.TaskDirection
-  type: Enum
-  summary: "\nValue for field direction in table task. Controls icons used in GUI.\n"
 - uid: CRMScript.NetServer.TaskDirection.Unknown
-  commentId: F:CRMScript.NetServer.TaskDirection.Unknown
-  id: TaskDirection.Unknown
   langs:
   - crmscript
-  name: TaskDirection.Unknown
-  nameWithType: TaskDirection.Unknown
+  type: Field
+  so.intellisense: TaskDirection.Unknown
+  syntax: 
+    content: TaskDirection.Unknown
+  summary: "Unknown - used when initializing"
+  name: Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.TaskDirection.Unknown
-  type: Field
-  summary: "\n0: Unknown - used when initializing\n"
-  syntax: 
-    content: Unknown = 0
-    type: CRMScript.NetServer.TaskDirection
 - uid: CRMScript.NetServer.TaskDirection.Incoming
-  commentId: F:CRMScript.NetServer.TaskDirection.Incoming
-  id: TaskDirection.Incoming
   langs:
   - crmscript
-  name: TaskDirection.Incoming
-  nameWithType: TaskDirection.Incoming
+  type: Field
+  so.intellisense: TaskDirection.Incoming
+  syntax: 
+    content: TaskDirection.Incoming
+  summary: "The task is sent in to SuperOffice CRM 5"
+  name: Incoming
+  nameWithType: Incoming
   fullName: CRMScript.NetServer.TaskDirection.Incoming
-  type: Field
-  summary: "\n1: The task is sent in to SuperOffice CRM 5\n"
-  syntax: 
-    content: Incoming = 1
-    type: CRMScript.NetServer.TaskDirection
 - uid: CRMScript.NetServer.TaskDirection.Outgoing
-  commentId: F:CRMScript.NetServer.TaskDirection.Outgoing
-  id: TaskDirection.Outgoing
   langs:
   - crmscript
-  name: TaskDirection.Outgoing
-  nameWithType: TaskDirection.Outgoing
+  type: Field
+  so.intellisense: TaskDirection.Outgoing
+  syntax: 
+    content: TaskDirection.Outgoing
+  summary: "The task is sent out from SuperOffice CRM 5"
+  name: Outgoing
+  nameWithType: Outgoing
   fullName: CRMScript.NetServer.TaskDirection.Outgoing
-  type: Field
-  summary: "\n2: The task is sent out from SuperOffice CRM 5\n"
-  syntax: 
-    content: Outgoing = 2
-    type: CRMScript.NetServer.TaskDirection
 - uid: CRMScript.NetServer.TaskDirection.SaintAll
-  commentId: F:CRMScript.NetServer.TaskDirection.SaintAll
-  id: TaskDirection.SaintAll
   langs:
   - crmscript
-  name: TaskDirection.SaintAll
-  nameWithType: TaskDirection.SaintAll
-  fullName: CRMScript.NetServer.TaskDirection.SaintAll
   type: Field
-  summary: "\n3: All choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions.\n"
+  so.intellisense: TaskDirection.SaintAll
   syntax: 
-    content: SaintAll = 3
-    type: CRMScript.NetServer.TaskDirection
+    content: TaskDirection.SaintAll
+  summary: "All' choice for Saint. This is NOT an acceptable value for a task definition, but is used by the Saint system for indexing all directions"
+  name: SaintAll
+  nameWithType: SaintAll
+  fullName: CRMScript.NetServer.TaskDirection.SaintAll
 references:
 - uid: CRMScript.NetServer.TaskDirection
   commentId: T:CRMScript.NetServer.TaskDirection

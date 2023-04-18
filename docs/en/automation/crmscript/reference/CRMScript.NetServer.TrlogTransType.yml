@@ -1,0 +1,272 @@
+﻿items:
+- uid: CRMScript.NetServer.TrlogTransType
+  children:
+  - CRMScript.NetServer.TrlogTransType.Unknown
+  - CRMScript.NetServer.TrlogTransType.Insert
+  - CRMScript.NetServer.TrlogTransType.Update
+  - CRMScript.NetServer.TrlogTransType.Delete
+  - CRMScript.NetServer.TrlogTransType.UpdateOwner
+  - CRMScript.NetServer.TrlogTransType.OldUpdateContact
+  - CRMScript.NetServer.TrlogTransType.OldUpdateProject
+  - CRMScript.NetServer.TrlogTransType.DeleteAreaUserInclusion
+  - CRMScript.NetServer.TrlogTransType.DeleteAreaUserAssignment
+  - CRMScript.NetServer.TrlogTransType.PublishUdef
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart1
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart2
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart3
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart4
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart5
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart6
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart7
+  - CRMScript.NetServer.TrlogTransType.UpdateFieldPart8
+  - CRMScript.NetServer.TrlogTransType.UpdateContact
+  - CRMScript.NetServer.TrlogTransType.UpdateProject
+  - CRMScript.NetServer.TrlogTransType.TruncateTable
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TrlogTransType
+  syntax: 
+    content: TrlogTransType
+  summary: "Value for field type in traveltransctionlog"
+  name: TrlogTransType
+  nameWithType: TrlogTransType
+  fullName: CRMScript.NetServer.TrlogTransType
+- uid: CRMScript.NetServer.TrlogTransType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.Unknown
+  syntax: 
+    content: TrlogTransType.Unknown
+  summary: "Unknown - used when initializing"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.TrlogTransType.Unknown
+- uid: CRMScript.NetServer.TrlogTransType.Insert
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.Insert
+  syntax: 
+    content: TrlogTransType.Insert
+  summary: "A record has been inserted"
+  name: Insert
+  nameWithType: Insert
+  fullName: CRMScript.NetServer.TrlogTransType.Insert
+- uid: CRMScript.NetServer.TrlogTransType.Update
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.Update
+  syntax: 
+    content: TrlogTransType.Update
+  summary: "A record has been updated"
+  name: Update
+  nameWithType: Update
+  fullName: CRMScript.NetServer.TrlogTransType.Update
+- uid: CRMScript.NetServer.TrlogTransType.Delete
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.Delete
+  syntax: 
+    content: TrlogTransType.Delete
+  summary: "A record has been deleted"
+  name: Delete
+  nameWithType: Delete
+  fullName: CRMScript.NetServer.TrlogTransType.Delete
+- uid: CRMScript.NetServer.TrlogTransType.UpdateOwner
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateOwner
+  syntax: 
+    content: TrlogTransType.UpdateOwner
+  summary: "The owning associate_id of the target record has been updated, old value in PrevrecordId"
+  name: UpdateOwner
+  nameWithType: UpdateOwner
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateOwner
+- uid: CRMScript.NetServer.TrlogTransType.OldUpdateContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.OldUpdateContact
+  syntax: 
+    content: TrlogTransType.OldUpdateContact
+  summary: "(Obsolete) The contact_id of the target record has been updated, old value in PrevRecordId"
+  name: OldUpdateContact
+  nameWithType: OldUpdateContact
+  fullName: CRMScript.NetServer.TrlogTransType.OldUpdateContact
+- uid: CRMScript.NetServer.TrlogTransType.OldUpdateProject
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.OldUpdateProject
+  syntax: 
+    content: TrlogTransType.OldUpdateProject
+  summary: "(Obsolete) The project_id of the target record has been updated, old value in PrevRecordId"
+  name: OldUpdateProject
+  nameWithType: OldUpdateProject
+  fullName: CRMScript.NetServer.TrlogTransType.OldUpdateProject
+- uid: CRMScript.NetServer.TrlogTransType.DeleteAreaUserInclusion
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.DeleteAreaUserInclusion
+  syntax: 
+    content: TrlogTransType.DeleteAreaUserInclusion
+  summary: "A previously included (data inclusion) user has been removed from an area"
+  name: DeleteAreaUserInclusion
+  nameWithType: DeleteAreaUserInclusion
+  fullName: CRMScript.NetServer.TrlogTransType.DeleteAreaUserInclusion
+- uid: CRMScript.NetServer.TrlogTransType.DeleteAreaUserAssignment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.DeleteAreaUserAssignment
+  syntax: 
+    content: TrlogTransType.DeleteAreaUserAssignment
+  summary: "A previously assigned (login rights) user has been delete from an Area"
+  name: DeleteAreaUserAssignment
+  nameWithType: DeleteAreaUserAssignment
+  fullName: CRMScript.NetServer.TrlogTransType.DeleteAreaUserAssignment
+- uid: CRMScript.NetServer.TrlogTransType.PublishUdef
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.PublishUdef
+  syntax: 
+    content: TrlogTransType.PublishUdef
+  summary: "A new layout for User-defined fields has been published"
+  name: PublishUdef
+  nameWithType: PublishUdef
+  fullName: CRMScript.NetServer.TrlogTransType.PublishUdef
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart1
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart1
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart1
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart1
+  nameWithType: UpdateFieldPart1
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart1
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart2
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart2
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart2
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart2
+  nameWithType: UpdateFieldPart2
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart2
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart3
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart3
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart3
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart3
+  nameWithType: UpdateFieldPart3
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart3
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart4
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart4
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart4
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart4
+  nameWithType: UpdateFieldPart4
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart4
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart5
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart5
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart5
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart5
+  nameWithType: UpdateFieldPart5
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart5
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart6
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart6
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart6
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart6
+  nameWithType: UpdateFieldPart6
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart6
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart7
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart7
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart7
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart7
+  nameWithType: UpdateFieldPart7
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart7
+- uid: CRMScript.NetServer.TrlogTransType.UpdateFieldPart8
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateFieldPart8
+  syntax: 
+    content: TrlogTransType.UpdateFieldPart8
+  summary: "(Reserved) Bitmap of updated fields"
+  name: UpdateFieldPart8
+  nameWithType: UpdateFieldPart8
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateFieldPart8
+- uid: CRMScript.NetServer.TrlogTransType.UpdateContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateContact
+  syntax: 
+    content: TrlogTransType.UpdateContact
+  summary: "The contact_id of the target record has been changed, old value in PrevRecordId"
+  name: UpdateContact
+  nameWithType: UpdateContact
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateContact
+- uid: CRMScript.NetServer.TrlogTransType.UpdateProject
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.UpdateProject
+  syntax: 
+    content: TrlogTransType.UpdateProject
+  summary: "The project_id of the target record has been updated, odl value in PrevRecordId"
+  name: UpdateProject
+  nameWithType: UpdateProject
+  fullName: CRMScript.NetServer.TrlogTransType.UpdateProject
+- uid: CRMScript.NetServer.TrlogTransType.TruncateTable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TrlogTransType.TruncateTable
+  syntax: 
+    content: TrlogTransType.TruncateTable
+  summary: "A TRUNCATE TABLE operation was performed against a table; no record of individual rows deleted exists but everything that WAS in the table is now gone for good"
+  name: TruncateTable
+  nameWithType: TruncateTable
+  fullName: CRMScript.NetServer.TrlogTransType.TruncateTable
+references:
+- uid: CRMScript.NetServer.TrlogTransType
+  commentId: T:CRMScript.NetServer.TrlogTransType
+  isExternal: true
+  name: TrlogTransType
+  nameWithType: TrlogTransType
+  fullName: CRMScript.NetServer.TrlogTransType

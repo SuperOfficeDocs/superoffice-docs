@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.ModifiedAppointmentFields
+  children:
+  - CRMScript.NetServer.ModifiedAppointmentFields.None
+  - CRMScript.NetServer.ModifiedAppointmentFields.Date
+  - CRMScript.NetServer.ModifiedAppointmentFields.Time
+  - CRMScript.NetServer.ModifiedAppointmentFields.Location
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ModifiedAppointmentFields
+  syntax: 
+    content: ModifiedAppointmentFields
+  summary: "Value for field 'modified_appointment_fields' in table 'appointment'."
+  name: ModifiedAppointmentFields
+  nameWithType: ModifiedAppointmentFields
+  fullName: CRMScript.NetServer.ModifiedAppointmentFields
+- uid: CRMScript.NetServer.ModifiedAppointmentFields.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ModifiedAppointmentFields.None
+  syntax: 
+    content: ModifiedAppointmentFields.None
+  summary: "No modified fields."
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ModifiedAppointmentFields.None
+- uid: CRMScript.NetServer.ModifiedAppointmentFields.Date
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ModifiedAppointmentFields.Date
+  syntax: 
+    content: ModifiedAppointmentFields.Date
+  summary: "The Date-field has been modified."
+  name: Date
+  nameWithType: Date
+  fullName: CRMScript.NetServer.ModifiedAppointmentFields.Date
+- uid: CRMScript.NetServer.ModifiedAppointmentFields.Time
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ModifiedAppointmentFields.Time
+  syntax: 
+    content: ModifiedAppointmentFields.Time
+  summary: "The Time-field has been modified."
+  name: Time
+  nameWithType: Time
+  fullName: CRMScript.NetServer.ModifiedAppointmentFields.Time
+- uid: CRMScript.NetServer.ModifiedAppointmentFields.Location
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ModifiedAppointmentFields.Location
+  syntax: 
+    content: ModifiedAppointmentFields.Location
+  summary: "The Location-field has been modified."
+  name: Location
+  nameWithType: Location
+  fullName: CRMScript.NetServer.ModifiedAppointmentFields.Location
+references:
+- uid: CRMScript.NetServer.ModifiedAppointmentFields
+  commentId: T:CRMScript.NetServer.ModifiedAppointmentFields
+  isExternal: true
+  name: ModifiedAppointmentFields
+  nameWithType: ModifiedAppointmentFields
+  fullName: CRMScript.NetServer.ModifiedAppointmentFields

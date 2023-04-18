@@ -1,0 +1,152 @@
+﻿items:
+- uid: CRMScript.NetServer.WorkflowGoalType
+  children:
+  - CRMScript.NetServer.WorkflowGoalType.None
+  - CRMScript.NetServer.WorkflowGoalType.ContactUpdated
+  - CRMScript.NetServer.WorkflowGoalType.SaleCreatedOnContact
+  - CRMScript.NetServer.WorkflowGoalType.SaleCreatedOnCompany
+  - CRMScript.NetServer.WorkflowGoalType.AppointmentCreated
+  - CRMScript.NetServer.WorkflowGoalType.AddedToProject
+  - CRMScript.NetServer.WorkflowGoalType.AddedToSelection
+  - CRMScript.NetServer.WorkflowGoalType.FormSubmitted
+  - CRMScript.NetServer.WorkflowGoalType.HadChat
+  - CRMScript.NetServer.WorkflowGoalType.LinkClicked
+  - CRMScript.NetServer.WorkflowGoalType.RequestCreated
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowGoalType
+  syntax: 
+    content: WorkflowGoalType
+  summary: "Workflow Goal Type"
+  name: WorkflowGoalType
+  nameWithType: WorkflowGoalType
+  fullName: CRMScript.NetServer.WorkflowGoalType
+- uid: CRMScript.NetServer.WorkflowGoalType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.None
+  syntax: 
+    content: WorkflowGoalType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowGoalType.None
+- uid: CRMScript.NetServer.WorkflowGoalType.ContactUpdated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.ContactUpdated
+  syntax: 
+    content: WorkflowGoalType.ContactUpdated
+  summary: "ContactUpdated"
+  name: ContactUpdated
+  nameWithType: ContactUpdated
+  fullName: CRMScript.NetServer.WorkflowGoalType.ContactUpdated
+- uid: CRMScript.NetServer.WorkflowGoalType.SaleCreatedOnContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.SaleCreatedOnContact
+  syntax: 
+    content: WorkflowGoalType.SaleCreatedOnContact
+  summary: "SaleCreatedOnContact"
+  name: SaleCreatedOnContact
+  nameWithType: SaleCreatedOnContact
+  fullName: CRMScript.NetServer.WorkflowGoalType.SaleCreatedOnContact
+- uid: CRMScript.NetServer.WorkflowGoalType.SaleCreatedOnCompany
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.SaleCreatedOnCompany
+  syntax: 
+    content: WorkflowGoalType.SaleCreatedOnCompany
+  summary: "SaleCreatedOnCompany"
+  name: SaleCreatedOnCompany
+  nameWithType: SaleCreatedOnCompany
+  fullName: CRMScript.NetServer.WorkflowGoalType.SaleCreatedOnCompany
+- uid: CRMScript.NetServer.WorkflowGoalType.AppointmentCreated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.AppointmentCreated
+  syntax: 
+    content: WorkflowGoalType.AppointmentCreated
+  summary: "AppointmentCreated"
+  name: AppointmentCreated
+  nameWithType: AppointmentCreated
+  fullName: CRMScript.NetServer.WorkflowGoalType.AppointmentCreated
+- uid: CRMScript.NetServer.WorkflowGoalType.AddedToProject
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.AddedToProject
+  syntax: 
+    content: WorkflowGoalType.AddedToProject
+  summary: "AddedToProject"
+  name: AddedToProject
+  nameWithType: AddedToProject
+  fullName: CRMScript.NetServer.WorkflowGoalType.AddedToProject
+- uid: CRMScript.NetServer.WorkflowGoalType.AddedToSelection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.AddedToSelection
+  syntax: 
+    content: WorkflowGoalType.AddedToSelection
+  summary: "AddedToSelection"
+  name: AddedToSelection
+  nameWithType: AddedToSelection
+  fullName: CRMScript.NetServer.WorkflowGoalType.AddedToSelection
+- uid: CRMScript.NetServer.WorkflowGoalType.FormSubmitted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.FormSubmitted
+  syntax: 
+    content: WorkflowGoalType.FormSubmitted
+  summary: "FormSubmitted"
+  name: FormSubmitted
+  nameWithType: FormSubmitted
+  fullName: CRMScript.NetServer.WorkflowGoalType.FormSubmitted
+- uid: CRMScript.NetServer.WorkflowGoalType.HadChat
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.HadChat
+  syntax: 
+    content: WorkflowGoalType.HadChat
+  summary: "HadChat"
+  name: HadChat
+  nameWithType: HadChat
+  fullName: CRMScript.NetServer.WorkflowGoalType.HadChat
+- uid: CRMScript.NetServer.WorkflowGoalType.LinkClicked
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.LinkClicked
+  syntax: 
+    content: WorkflowGoalType.LinkClicked
+  summary: "LinkClicked"
+  name: LinkClicked
+  nameWithType: LinkClicked
+  fullName: CRMScript.NetServer.WorkflowGoalType.LinkClicked
+- uid: CRMScript.NetServer.WorkflowGoalType.RequestCreated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowGoalType.RequestCreated
+  syntax: 
+    content: WorkflowGoalType.RequestCreated
+  summary: "RequestCreated"
+  name: RequestCreated
+  nameWithType: RequestCreated
+  fullName: CRMScript.NetServer.WorkflowGoalType.RequestCreated
+references:
+- uid: CRMScript.NetServer.WorkflowGoalType
+  commentId: T:CRMScript.NetServer.WorkflowGoalType
+  isExternal: true
+  name: WorkflowGoalType
+  nameWithType: WorkflowGoalType
+  fullName: CRMScript.NetServer.WorkflowGoalType

@@ -1,0 +1,356 @@
+﻿items:
+- uid: CRMScript.NetServer.ScreenChooserType
+  children:
+  - CRMScript.NetServer.ScreenChooserType.None
+  - CRMScript.NetServer.ScreenChooserType.System
+  - CRMScript.NetServer.ScreenChooserType.ExtraTableEntry
+  - CRMScript.NetServer.ScreenChooserType.ExtraTableAll
+  - CRMScript.NetServer.ScreenChooserType.ExtraTableEdit
+  - CRMScript.NetServer.ScreenChooserType.NewTicket
+  - CRMScript.NetServer.ScreenChooserType.NewTicketFromCustomerCenter
+  - CRMScript.NetServer.ScreenChooserType.NewTicketFromEmail
+  - CRMScript.NetServer.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  - CRMScript.NetServer.ScreenChooserType.TicketClosed
+  - CRMScript.NetServer.ScreenChooserType.TicketPostponed
+  - CRMScript.NetServer.ScreenChooserType.TicketDeleted
+  - CRMScript.NetServer.ScreenChooserType.TicketActivated
+  - CRMScript.NetServer.ScreenChooserType.TicketReopened
+  - CRMScript.NetServer.ScreenChooserType.TicketReopenedFromCustomerCenter
+  - CRMScript.NetServer.ScreenChooserType.TicketReopenedFromEmail
+  - CRMScript.NetServer.ScreenChooserType.TicketChangedPriority
+  - CRMScript.NetServer.ScreenChooserType.TicketChangedCategory
+  - CRMScript.NetServer.ScreenChooserType.TicketChangedOwnedBy
+  - CRMScript.NetServer.ScreenChooserType.TicketChangedPrimaryCustomer
+  - CRMScript.NetServer.ScreenChooserType.TicketChangedTicketStatus
+  - CRMScript.NetServer.ScreenChooserType.TicketChangedSlevel
+  - CRMScript.NetServer.ScreenChooserType.TicketMessageAdded
+  - CRMScript.NetServer.ScreenChooserType.TicketInternalMessageAdded
+  - CRMScript.NetServer.ScreenChooserType.TicketExternalMessageAdded
+  - CRMScript.NetServer.ScreenChooserType.CompactModeInjection
+  - CRMScript.NetServer.ScreenChooserType.ScheduledTaskFailed
+  - CRMScript.NetServer.ScreenChooserType.DbiTaskFailed
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ScreenChooserType
+  syntax: 
+    content: ScreenChooserType
+  summary: "CS system event types for custom logic hooking"
+  name: ScreenChooserType
+  nameWithType: ScreenChooserType
+  fullName: CRMScript.NetServer.ScreenChooserType
+- uid: CRMScript.NetServer.ScreenChooserType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.None
+  syntax: 
+    content: ScreenChooserType.None
+  summary: ""
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ScreenChooserType.None
+- uid: CRMScript.NetServer.ScreenChooserType.System
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.System
+  syntax: 
+    content: ScreenChooserType.System
+  summary: ""
+  name: System
+  nameWithType: System
+  fullName: CRMScript.NetServer.ScreenChooserType.System
+- uid: CRMScript.NetServer.ScreenChooserType.ExtraTableEntry
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.ExtraTableEntry
+  syntax: 
+    content: ScreenChooserType.ExtraTableEntry
+  summary: ""
+  name: ExtraTableEntry
+  nameWithType: ExtraTableEntry
+  fullName: CRMScript.NetServer.ScreenChooserType.ExtraTableEntry
+- uid: CRMScript.NetServer.ScreenChooserType.ExtraTableAll
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.ExtraTableAll
+  syntax: 
+    content: ScreenChooserType.ExtraTableAll
+  summary: ""
+  name: ExtraTableAll
+  nameWithType: ExtraTableAll
+  fullName: CRMScript.NetServer.ScreenChooserType.ExtraTableAll
+- uid: CRMScript.NetServer.ScreenChooserType.ExtraTableEdit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.ExtraTableEdit
+  syntax: 
+    content: ScreenChooserType.ExtraTableEdit
+  summary: ""
+  name: ExtraTableEdit
+  nameWithType: ExtraTableEdit
+  fullName: CRMScript.NetServer.ScreenChooserType.ExtraTableEdit
+- uid: CRMScript.NetServer.ScreenChooserType.NewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.NewTicket
+  syntax: 
+    content: ScreenChooserType.NewTicket
+  summary: ""
+  name: NewTicket
+  nameWithType: NewTicket
+  fullName: CRMScript.NetServer.ScreenChooserType.NewTicket
+- uid: CRMScript.NetServer.ScreenChooserType.NewTicketFromCustomerCenter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.NewTicketFromCustomerCenter
+  syntax: 
+    content: ScreenChooserType.NewTicketFromCustomerCenter
+  summary: ""
+  name: NewTicketFromCustomerCenter
+  nameWithType: NewTicketFromCustomerCenter
+  fullName: CRMScript.NetServer.ScreenChooserType.NewTicketFromCustomerCenter
+- uid: CRMScript.NetServer.ScreenChooserType.NewTicketFromEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.NewTicketFromEmail
+  syntax: 
+    content: ScreenChooserType.NewTicketFromEmail
+  summary: ""
+  name: NewTicketFromEmail
+  nameWithType: NewTicketFromEmail
+  fullName: CRMScript.NetServer.ScreenChooserType.NewTicketFromEmail
+- uid: CRMScript.NetServer.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  syntax: 
+    content: ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+  summary: ""
+  name: NewTicketFromCustomerCenterBeforeSave
+  nameWithType: NewTicketFromCustomerCenterBeforeSave
+  fullName: CRMScript.NetServer.ScreenChooserType.NewTicketFromCustomerCenterBeforeSave
+- uid: CRMScript.NetServer.ScreenChooserType.TicketClosed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketClosed
+  syntax: 
+    content: ScreenChooserType.TicketClosed
+  summary: ""
+  name: TicketClosed
+  nameWithType: TicketClosed
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketClosed
+- uid: CRMScript.NetServer.ScreenChooserType.TicketPostponed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketPostponed
+  syntax: 
+    content: ScreenChooserType.TicketPostponed
+  summary: ""
+  name: TicketPostponed
+  nameWithType: TicketPostponed
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketPostponed
+- uid: CRMScript.NetServer.ScreenChooserType.TicketDeleted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketDeleted
+  syntax: 
+    content: ScreenChooserType.TicketDeleted
+  summary: ""
+  name: TicketDeleted
+  nameWithType: TicketDeleted
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketDeleted
+- uid: CRMScript.NetServer.ScreenChooserType.TicketActivated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketActivated
+  syntax: 
+    content: ScreenChooserType.TicketActivated
+  summary: ""
+  name: TicketActivated
+  nameWithType: TicketActivated
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketActivated
+- uid: CRMScript.NetServer.ScreenChooserType.TicketReopened
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketReopened
+  syntax: 
+    content: ScreenChooserType.TicketReopened
+  summary: ""
+  name: TicketReopened
+  nameWithType: TicketReopened
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketReopened
+- uid: CRMScript.NetServer.ScreenChooserType.TicketReopenedFromCustomerCenter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketReopenedFromCustomerCenter
+  syntax: 
+    content: ScreenChooserType.TicketReopenedFromCustomerCenter
+  summary: ""
+  name: TicketReopenedFromCustomerCenter
+  nameWithType: TicketReopenedFromCustomerCenter
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketReopenedFromCustomerCenter
+- uid: CRMScript.NetServer.ScreenChooserType.TicketReopenedFromEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketReopenedFromEmail
+  syntax: 
+    content: ScreenChooserType.TicketReopenedFromEmail
+  summary: ""
+  name: TicketReopenedFromEmail
+  nameWithType: TicketReopenedFromEmail
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketReopenedFromEmail
+- uid: CRMScript.NetServer.ScreenChooserType.TicketChangedPriority
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketChangedPriority
+  syntax: 
+    content: ScreenChooserType.TicketChangedPriority
+  summary: ""
+  name: TicketChangedPriority
+  nameWithType: TicketChangedPriority
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketChangedPriority
+- uid: CRMScript.NetServer.ScreenChooserType.TicketChangedCategory
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketChangedCategory
+  syntax: 
+    content: ScreenChooserType.TicketChangedCategory
+  summary: ""
+  name: TicketChangedCategory
+  nameWithType: TicketChangedCategory
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketChangedCategory
+- uid: CRMScript.NetServer.ScreenChooserType.TicketChangedOwnedBy
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketChangedOwnedBy
+  syntax: 
+    content: ScreenChooserType.TicketChangedOwnedBy
+  summary: ""
+  name: TicketChangedOwnedBy
+  nameWithType: TicketChangedOwnedBy
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketChangedOwnedBy
+- uid: CRMScript.NetServer.ScreenChooserType.TicketChangedPrimaryCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketChangedPrimaryCustomer
+  syntax: 
+    content: ScreenChooserType.TicketChangedPrimaryCustomer
+  summary: ""
+  name: TicketChangedPrimaryCustomer
+  nameWithType: TicketChangedPrimaryCustomer
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketChangedPrimaryCustomer
+- uid: CRMScript.NetServer.ScreenChooserType.TicketChangedTicketStatus
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketChangedTicketStatus
+  syntax: 
+    content: ScreenChooserType.TicketChangedTicketStatus
+  summary: ""
+  name: TicketChangedTicketStatus
+  nameWithType: TicketChangedTicketStatus
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketChangedTicketStatus
+- uid: CRMScript.NetServer.ScreenChooserType.TicketChangedSlevel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketChangedSlevel
+  syntax: 
+    content: ScreenChooserType.TicketChangedSlevel
+  summary: ""
+  name: TicketChangedSlevel
+  nameWithType: TicketChangedSlevel
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketChangedSlevel
+- uid: CRMScript.NetServer.ScreenChooserType.TicketMessageAdded
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketMessageAdded
+  syntax: 
+    content: ScreenChooserType.TicketMessageAdded
+  summary: ""
+  name: TicketMessageAdded
+  nameWithType: TicketMessageAdded
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketMessageAdded
+- uid: CRMScript.NetServer.ScreenChooserType.TicketInternalMessageAdded
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketInternalMessageAdded
+  syntax: 
+    content: ScreenChooserType.TicketInternalMessageAdded
+  summary: ""
+  name: TicketInternalMessageAdded
+  nameWithType: TicketInternalMessageAdded
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketInternalMessageAdded
+- uid: CRMScript.NetServer.ScreenChooserType.TicketExternalMessageAdded
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.TicketExternalMessageAdded
+  syntax: 
+    content: ScreenChooserType.TicketExternalMessageAdded
+  summary: ""
+  name: TicketExternalMessageAdded
+  nameWithType: TicketExternalMessageAdded
+  fullName: CRMScript.NetServer.ScreenChooserType.TicketExternalMessageAdded
+- uid: CRMScript.NetServer.ScreenChooserType.CompactModeInjection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.CompactModeInjection
+  syntax: 
+    content: ScreenChooserType.CompactModeInjection
+  summary: ""
+  name: CompactModeInjection
+  nameWithType: CompactModeInjection
+  fullName: CRMScript.NetServer.ScreenChooserType.CompactModeInjection
+- uid: CRMScript.NetServer.ScreenChooserType.ScheduledTaskFailed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.ScheduledTaskFailed
+  syntax: 
+    content: ScreenChooserType.ScheduledTaskFailed
+  summary: ""
+  name: ScheduledTaskFailed
+  nameWithType: ScheduledTaskFailed
+  fullName: CRMScript.NetServer.ScreenChooserType.ScheduledTaskFailed
+- uid: CRMScript.NetServer.ScreenChooserType.DbiTaskFailed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ScreenChooserType.DbiTaskFailed
+  syntax: 
+    content: ScreenChooserType.DbiTaskFailed
+  summary: ""
+  name: DbiTaskFailed
+  nameWithType: DbiTaskFailed
+  fullName: CRMScript.NetServer.ScreenChooserType.DbiTaskFailed
+references:
+- uid: CRMScript.NetServer.ScreenChooserType
+  commentId: T:CRMScript.NetServer.ScreenChooserType
+  isExternal: true
+  name: ScreenChooserType
+  nameWithType: ScreenChooserType
+  fullName: CRMScript.NetServer.ScreenChooserType

@@ -1,11 +1,5 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.BlobLinkType
-  # Same as SuperOffice.Data.BlobLinkType
-  commentId: T:CRMScript.NetServer.BlobLinkType
-  id: BlobLinkType
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.BlobLinkType.PersonImage
   - CRMScript.NetServer.BlobLinkType.ProjectImage
@@ -24,232 +18,215 @@ items:
   - CRMScript.NetServer.BlobLinkType.ChatTopicImage
   - CRMScript.NetServer.BlobLinkType.FormsBackgroundImage
   - CRMScript.NetServer.BlobLinkType.ContactImage
+  - CRMScript.NetServer.BlobLinkType.DashboardHtmlTileData
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: BlobLinkType
+  syntax: 
+    content: BlobLinkType
+  summary: "The link type, often synonymous with the blob type, of a BinaryObjectLink row"
   name: BlobLinkType
   nameWithType: BlobLinkType
   fullName: CRMScript.NetServer.BlobLinkType
-  type: Enum
-  summary: "\nThe link type, often synonymous with the blob type, of a BinaryObjectLink row.\n"
 - uid: CRMScript.NetServer.BlobLinkType.PersonImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.PersonImage
-  id: BlobLinkType.PersonImage
   langs:
   - crmscript
-  name: BlobLinkType.PersonImage
-  nameWithType: BlobLinkType.PersonImage
+  type: Field
+  so.intellisense: BlobLinkType.PersonImage
+  syntax: 
+    content: BlobLinkType.PersonImage
+  summary: "Portrait picture of a person"
+  name: PersonImage
+  nameWithType: PersonImage
   fullName: CRMScript.NetServer.BlobLinkType.PersonImage
-  type: Field
-  summary: "\n1: Portrait picture of a person\n"
-  syntax: 
-    content: PersonImage = 1
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.ProjectImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.ProjectImage
-  id: BlobLinkType.ProjectImage
   langs:
   - crmscript
-  name: BlobLinkType.ProjectImage
-  nameWithType: BlobLinkType.ProjectImage
+  type: Field
+  so.intellisense: BlobLinkType.ProjectImage
+  syntax: 
+    content: BlobLinkType.ProjectImage
+  summary: "Picture bound to a project"
+  name: ProjectImage
+  nameWithType: ProjectImage
   fullName: CRMScript.NetServer.BlobLinkType.ProjectImage
-  type: Field
-  summary: "\n2: Picture bound to a project\n"
-  syntax: 
-    content: ProjectImage = 2
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.EventImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.EventImage
-  id: BlobLinkType.EventImage
   langs:
   - crmscript
-  name: BlobLinkType.EventImage
-  nameWithType: BlobLinkType.EventImage
+  type: Field
+  so.intellisense: BlobLinkType.EventImage
+  syntax: 
+    content: BlobLinkType.EventImage
+  summary: "Picture used for a project of type Event, in the Audience client"
+  name: EventImage
+  nameWithType: EventImage
   fullName: CRMScript.NetServer.BlobLinkType.EventImage
-  type: Field
-  summary: "\n3: Picture used for a project of type Event, in the Audience client\n"
-  syntax: 
-    content: EventImage = 3
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.Thumbnail
-  commentId: F:CRMScript.NetServer.BlobLinkType.Thumbnail
-  id: BlobLinkType.Thumbnail
   langs:
   - crmscript
-  name: BlobLinkType.Thumbnail
-  nameWithType: BlobLinkType.Thumbnail
+  type: Field
+  so.intellisense: BlobLinkType.Thumbnail
+  syntax: 
+    content: BlobLinkType.Thumbnail
+  summary: "Generic thumbnail - not used?"
+  name: Thumbnail
+  nameWithType: Thumbnail
   fullName: CRMScript.NetServer.BlobLinkType.Thumbnail
-  type: Field
-  summary: "\n4: Generic thumbnail - not used?\n"
-  syntax: 
-    content: Thumbnail = 4
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.StatusMonitorImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.StatusMonitorImage
-  id: BlobLinkType.StatusMonitorImage
   langs:
   - crmscript
-  name: BlobLinkType.StatusMonitorImage
-  nameWithType: BlobLinkType.StatusMonitorImage
+  type: Field
+  so.intellisense: BlobLinkType.StatusMonitorImage
+  syntax: 
+    content: BlobLinkType.StatusMonitorImage
+  summary: "Watermark image for a Status Monitor in Sales Intelligence"
+  name: StatusMonitorImage
+  nameWithType: StatusMonitorImage
   fullName: CRMScript.NetServer.BlobLinkType.StatusMonitorImage
-  type: Field
-  summary: "\n5: Watermark image for a Status Monitor in Sales Intelligence\n"
-  syntax: 
-    content: StatusMonitorImage = 5
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.BatchTask
-  commentId: F:CRMScript.NetServer.BlobLinkType.BatchTask
-  id: BlobLinkType.BatchTask
   langs:
   - crmscript
-  name: BlobLinkType.BatchTask
-  nameWithType: BlobLinkType.BatchTask
+  type: Field
+  so.intellisense: BlobLinkType.BatchTask
+  syntax: 
+    content: BlobLinkType.BatchTask
+  summary: "Information related to a BatchTask in NetServer"
+  name: BatchTask
+  nameWithType: BatchTask
   fullName: CRMScript.NetServer.BlobLinkType.BatchTask
-  type: Field
-  summary: "\n6: Information related to a BatchTask in NetServer\n"
-  syntax: 
-    content: BatchTask = 6
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.ProductImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.ProductImage
-  id: BlobLinkType.ProductImage
   langs:
   - crmscript
-  name: BlobLinkType.ProductImage
-  nameWithType: BlobLinkType.ProductImage
+  type: Field
+  so.intellisense: BlobLinkType.ProductImage
+  syntax: 
+    content: BlobLinkType.ProductImage
+  summary: "Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1"
+  name: ProductImage
+  nameWithType: ProductImage
   fullName: CRMScript.NetServer.BlobLinkType.ProductImage
-  type: Field
-  summary: "\n7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1\n"
-  syntax: 
-    content: ProductImage = 7
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.ProductThumbnail
-  commentId: F:CRMScript.NetServer.BlobLinkType.ProductThumbnail
-  id: BlobLinkType.ProductThumbnail
   langs:
   - crmscript
-  name: BlobLinkType.ProductThumbnail
-  nameWithType: BlobLinkType.ProductThumbnail
+  type: Field
+  so.intellisense: BlobLinkType.ProductThumbnail
+  syntax: 
+    content: BlobLinkType.ProductThumbnail
+  summary: "Thumbnail image for a product, only one allowed per product"
+  name: ProductThumbnail
+  nameWithType: ProductThumbnail
   fullName: CRMScript.NetServer.BlobLinkType.ProductThumbnail
-  type: Field
-  summary: "\n8: Thumbnail image for a product, only one allowed per product\n"
-  syntax: 
-    content: ProductThumbnail = 8
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.QuoteLineImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.QuoteLineImage
-  id: BlobLinkType.QuoteLineImage
   langs:
   - crmscript
-  name: BlobLinkType.QuoteLineImage
-  nameWithType: BlobLinkType.QuoteLineImage
+  type: Field
+  so.intellisense: BlobLinkType.QuoteLineImage
+  syntax: 
+    content: BlobLinkType.QuoteLineImage
+  summary: "Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line"
+  name: QuoteLineImage
+  nameWithType: QuoteLineImage
   fullName: CRMScript.NetServer.BlobLinkType.QuoteLineImage
-  type: Field
-  summary: "\n9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line\n"
-  syntax: 
-    content: QuoteLineImage = 9
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.QuoteLineThumbnail
-  commentId: F:CRMScript.NetServer.BlobLinkType.QuoteLineThumbnail
-  id: BlobLinkType.QuoteLineThumbnail
   langs:
   - crmscript
-  name: BlobLinkType.QuoteLineThumbnail
-  nameWithType: BlobLinkType.QuoteLineThumbnail
+  type: Field
+  so.intellisense: BlobLinkType.QuoteLineThumbnail
+  syntax: 
+    content: BlobLinkType.QuoteLineThumbnail
+  summary: "Thumbnail image for a quote line, only one allowed per quote line"
+  name: QuoteLineThumbnail
+  nameWithType: QuoteLineThumbnail
   fullName: CRMScript.NetServer.BlobLinkType.QuoteLineThumbnail
-  type: Field
-  summary: "\n10: Thumbnail image for a quote line, only one allowed per quote line\n"
-  syntax: 
-    content: QuoteLineThumbnail = 10
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.AccessToken
-  commentId: F:CRMScript.NetServer.BlobLinkType.AccessToken
-  id: BlobLinkType.AccessToken
   langs:
   - crmscript
-  name: BlobLinkType.AccessToken
-  nameWithType: BlobLinkType.AccessToken
+  type: Field
+  so.intellisense: BlobLinkType.AccessToken
+  syntax: 
+    content: BlobLinkType.AccessToken
+  summary: "Access Token used by Cloud Documents for accessing external services"
+  name: AccessToken
+  nameWithType: AccessToken
   fullName: CRMScript.NetServer.BlobLinkType.AccessToken
-  type: Field
-  summary: "\n11: Access Token used by Cloud Documents for accessing external services\n"
-  syntax: 
-    content: AccessToken = 11
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.RefreshToken
-  commentId: F:CRMScript.NetServer.BlobLinkType.RefreshToken
-  id: BlobLinkType.RefreshToken
   langs:
   - crmscript
-  name: BlobLinkType.RefreshToken
-  nameWithType: BlobLinkType.RefreshToken
+  type: Field
+  so.intellisense: BlobLinkType.RefreshToken
+  syntax: 
+    content: BlobLinkType.RefreshToken
+  summary: "Refresh Token used by Cloud Documents for accessing external services"
+  name: RefreshToken
+  nameWithType: RefreshToken
   fullName: CRMScript.NetServer.BlobLinkType.RefreshToken
-  type: Field
-  summary: "\n12: Refresh Token used by Cloud Documents for accessing external services\n"
-  syntax: 
-    content: RefreshToken = 12
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.Dashboard
-  commentId: F:CRMScript.NetServer.BlobLinkType.Dashboard
-  id: BlobLinkType.Dashboard
   langs:
   - crmscript
-  name: BlobLinkType.Dashboard
-  nameWithType: BlobLinkType.Dashboard
+  type: Field
+  so.intellisense: BlobLinkType.Dashboard
+  syntax: 
+    content: BlobLinkType.Dashboard
+  summary: "Dashboard"
+  name: Dashboard
+  nameWithType: Dashboard
   fullName: CRMScript.NetServer.BlobLinkType.Dashboard
-  type: Field
-  summary: "\n13: Dashboard\n"
-  syntax: 
-    content: Dashboard = 13
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.DashboardTile
-  commentId: F:CRMScript.NetServer.BlobLinkType.DashboardTile
-  id: BlobLinkType.DashboardTile
   langs:
   - crmscript
-  name: BlobLinkType.DashboardTile
-  nameWithType: BlobLinkType.DashboardTile
+  type: Field
+  so.intellisense: BlobLinkType.DashboardTile
+  syntax: 
+    content: BlobLinkType.DashboardTile
+  summary: "Dashboard tile"
+  name: DashboardTile
+  nameWithType: DashboardTile
   fullName: CRMScript.NetServer.BlobLinkType.DashboardTile
-  type: Field
-  summary: "\n14: Dashboard tile\n"
-  syntax: 
-    content: DashboardTile = 14
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.ChatTopicImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.ChatTopicImage
-  id: BlobLinkType.ChatTopicImage
   langs:
   - crmscript
-  name: BlobLinkType.ChatTopicImage
-  nameWithType: BlobLinkType.ChatTopicImage
+  type: Field
+  so.intellisense: BlobLinkType.ChatTopicImage
+  syntax: 
+    content: BlobLinkType.ChatTopicImage
+  summary: "Chat topic image"
+  name: ChatTopicImage
+  nameWithType: ChatTopicImage
   fullName: CRMScript.NetServer.BlobLinkType.ChatTopicImage
-  type: Field
-  summary: "\n15: Chat topic image\n"
-  syntax: 
-    content: ChatTopicImage = 15
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.FormsBackgroundImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.FormsBackgroundImage
-  id: BlobLinkType.FormsBackgroundImage
   langs:
   - crmscript
-  name: BlobLinkType.FormsBackgroundImage
-  nameWithType: BlobLinkType.FormsBackgroundImage
+  type: Field
+  so.intellisense: BlobLinkType.FormsBackgroundImage
+  syntax: 
+    content: BlobLinkType.FormsBackgroundImage
+  summary: "Forms background image"
+  name: FormsBackgroundImage
+  nameWithType: FormsBackgroundImage
   fullName: CRMScript.NetServer.BlobLinkType.FormsBackgroundImage
-  type: Field
-  summary: "\n16: Forms background image\n"
-  syntax: 
-    content: FormsBackgroundImage = 16
-    type: CRMScript.NetServer.BlobLinkType
 - uid: CRMScript.NetServer.BlobLinkType.ContactImage
-  commentId: F:CRMScript.NetServer.BlobLinkType.ContactImage
-  id: BlobLinkType.ContactImage
   langs:
   - crmscript
-  name: BlobLinkType.ContactImage
-  nameWithType: BlobLinkType.ContactImage
-  fullName: CRMScript.NetServer.BlobLinkType.ContactImage
   type: Field
-  summary: "\n17: Contact logo image\n"
+  so.intellisense: BlobLinkType.ContactImage
   syntax: 
-    content: ContactImage = 17
-    type: CRMScript.NetServer.BlobLinkType
+    content: BlobLinkType.ContactImage
+  summary: "Contact logo image"
+  name: ContactImage
+  nameWithType: ContactImage
+  fullName: CRMScript.NetServer.BlobLinkType.ContactImage
+- uid: CRMScript.NetServer.BlobLinkType.DashboardHtmlTileData
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BlobLinkType.DashboardHtmlTileData
+  syntax: 
+    content: BlobLinkType.DashboardHtmlTileData
+  summary: "HTML data for dashboard tiles"
+  name: DashboardHtmlTileData
+  nameWithType: DashboardHtmlTileData
+  fullName: CRMScript.NetServer.BlobLinkType.DashboardHtmlTileData
 references:
 - uid: CRMScript.NetServer.BlobLinkType
   commentId: T:CRMScript.NetServer.BlobLinkType

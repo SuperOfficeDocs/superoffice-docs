@@ -1,177 +1,163 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.ShipmentAddrStatus
-  # Same as SuperOffice.Data.ShipmentAddrStatus
-  commentId: T:CRMScript.NetServer.ShipmentAddrStatus
-  id: ShipmentAddrStatus
+  children:
+  - CRMScript.NetServer.ShipmentAddrStatus.Unknown
+  - CRMScript.NetServer.ShipmentAddrStatus.Ready
+  - CRMScript.NetServer.ShipmentAddrStatus.Duplicate
+  - CRMScript.NetServer.ShipmentAddrStatus.Blocked
+  - CRMScript.NetServer.ShipmentAddrStatus.Sent
+  - CRMScript.NetServer.ShipmentAddrStatus.Bounced
+  - CRMScript.NetServer.ShipmentAddrStatus.Opened
+  - CRMScript.NetServer.ShipmentAddrStatus.Clicked
+  - CRMScript.NetServer.ShipmentAddrStatus.SoftBounced
+  - CRMScript.NetServer.ShipmentAddrStatus.NoSubscription
+  - CRMScript.NetServer.ShipmentAddrStatus.Complained
+  - CRMScript.NetServer.ShipmentAddrStatus.TooManyBounces
   langs:
   - crmscript
-  children:
-  - CRMScript.NetServer.ShipmentAddrStatus.Blocked
-  - CRMScript.NetServer.ShipmentAddrStatus.Bounced
-  - CRMScript.NetServer.ShipmentAddrStatus.Clicked
-  - CRMScript.NetServer.ShipmentAddrStatus.Complained
-  - CRMScript.NetServer.ShipmentAddrStatus.Duplicate
-  - CRMScript.NetServer.ShipmentAddrStatus.NoSubscription
-  - CRMScript.NetServer.ShipmentAddrStatus.Opened
-  - CRMScript.NetServer.ShipmentAddrStatus.Ready
-  - CRMScript.NetServer.ShipmentAddrStatus.Sent
-  - CRMScript.NetServer.ShipmentAddrStatus.SoftBounced
-  - CRMScript.NetServer.ShipmentAddrStatus.TooManyBounces
-  - CRMScript.NetServer.ShipmentAddrStatus.Unknown
+  type: Enum
+  so.intellisense: ShipmentAddrStatus
+  syntax: 
+    content: ShipmentAddrStatus
+  summary: "Status for sending to a particular recipient"
   name: ShipmentAddrStatus
   nameWithType: ShipmentAddrStatus
   fullName: CRMScript.NetServer.ShipmentAddrStatus
-  type: Enum
-  summary: "\nStatus for sending to a particular recipient.\n"
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Unknown
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Unknown
-  id: Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Unknown
+  syntax: 
+    content: ShipmentAddrStatus.Unknown
+  summary: "Default value for empty rows"
   name: Unknown
-  nameWithType: ShipmentAddrStatus.Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Unknown
-  type: Field
-  summary: "\n0: Default value for empty rows.\n"
-  syntax:
-    content: Unknown = 0
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Ready
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Ready
-  id: Ready
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Ready
+  syntax: 
+    content: ShipmentAddrStatus.Ready
+  summary: "Ready for shipment"
   name: Ready
-  nameWithType: ShipmentAddrStatus.Ready
+  nameWithType: Ready
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Ready
-  type: Field
-  summary: "\n1: Ready for shipment.\n"
-  syntax:
-    content: Ready = 1
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Duplicate
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Duplicate
-  id: Duplicate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Duplicate
+  syntax: 
+    content: ShipmentAddrStatus.Duplicate
+  summary: "Blocked because it duplicates another shipment addr in the same batch"
   name: Duplicate
-  nameWithType: ShipmentAddrStatus.Duplicate
+  nameWithType: Duplicate
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Duplicate
-  type: Field
-  summary: "\n2: Blocked because it duplicates another shipment addr in the same batch\n"
-  syntax:
-    content: Duplicate = 2
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Blocked
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Blocked
-  id: Blocked
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Blocked
+  syntax: 
+    content: ShipmentAddrStatus.Blocked
+  summary: "Blocked because of nomailing flag"
   name: Blocked
-  nameWithType: ShipmentAddrStatus.Blocked
+  nameWithType: Blocked
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Blocked
-  type: Field
-  summary: "\n3: Blocked because of nomailing flag\n"
-  syntax:
-    content: Blocked = 3
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Sent
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Sent
-  id: Sent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Sent
+  syntax: 
+    content: ShipmentAddrStatus.Sent
+  summary: "Sent"
   name: Sent
-  nameWithType: ShipmentAddrStatus.Sent
+  nameWithType: Sent
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Sent
-  type: Field
-  summary: "\n4: Sent\n"
-  syntax:
-    content: Sent = 4
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Bounced
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Bounced
-  id: Bounced
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Bounced
+  syntax: 
+    content: ShipmentAddrStatus.Bounced
+  summary: "Bounce received from transport channel"
   name: Bounced
-  nameWithType: ShipmentAddrStatus.Bounced
+  nameWithType: Bounced
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Bounced
-  type: Field
-  summary: "\n5: Bounce received from transport channel\n"
-  syntax:
-    content: Bounced = 5
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Opened
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Opened
-  id: Opened
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Opened
+  syntax: 
+    content: ShipmentAddrStatus.Opened
+  summary: "Recipient has opened the message, we know because of tracking"
   name: Opened
-  nameWithType: ShipmentAddrStatus.Opened
+  nameWithType: Opened
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Opened
-  type: Field
-  summary: "\n6: Recipient has opened the message, we know because of tracking\n"
-  syntax:
-    content: Opened = 6
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Clicked
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Clicked
-  id: Clicked
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Clicked
+  syntax: 
+    content: ShipmentAddrStatus.Clicked
+  summary: "Test recipient, will be deleted after sent (enum name is not correct, but that cant be changed now)"
   name: Clicked
-  nameWithType: ShipmentAddrStatus.Clicked
+  nameWithType: Clicked
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Clicked
-  type: Field
-  summary: "\n7: Test recipient, will be deleted after sent\n"
-  syntax:
-    content: Clicked = 7
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.SoftBounced
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.SoftBounced
-  id: SoftBounced
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.SoftBounced
+  syntax: 
+    content: ShipmentAddrStatus.SoftBounced
+  summary: "Vacation notice, etc"
   name: SoftBounced
-  nameWithType: ShipmentAddrStatus.SoftBounced
+  nameWithType: SoftBounced
   fullName: CRMScript.NetServer.ShipmentAddrStatus.SoftBounced
-  type: Field
-  summary: "\n8: Vacation notice, etc\n"
-  syntax:
-    content: SoftBounced = 8
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.NoSubscription
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.NoSubscription
-  id: NoSubscription
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.NoSubscription
+  syntax: 
+    content: ShipmentAddrStatus.NoSubscription
+  summary: "Recipient does not have subscription for shipmentType"
   name: NoSubscription
-  nameWithType: ShipmentAddrStatus.NoSubscription
+  nameWithType: NoSubscription
   fullName: CRMScript.NetServer.ShipmentAddrStatus.NoSubscription
-  type: Field
-  summary: "\n9: Recipient does not have subscription for shipmentType\n"
-  syntax:
-    content: NoSubscription = 9
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.Complained
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.Complained
-  id: Complained
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentAddrStatus.Complained
+  syntax: 
+    content: ShipmentAddrStatus.Complained
+  summary: "Recipient sent a complaint"
   name: Complained
-  nameWithType: ShipmentAddrStatus.Complained
+  nameWithType: Complained
   fullName: CRMScript.NetServer.ShipmentAddrStatus.Complained
-  type: Field
-  summary: "\n10: Recipient sent a complaint\n"
-  syntax:
-    content: Complained = 10
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
 - uid: CRMScript.NetServer.ShipmentAddrStatus.TooManyBounces
-  commentId: F:CRMScript.NetServer.ShipmentAddrStatus.TooManyBounces
-  id: TooManyBounces
-  name: TooManyBounces
-  nameWithType: ShipmentAddrStatus.TooManyBounces
-  fullName: CRMScript.NetServer.ShipmentAddrStatus.TooManyBounces
+  langs:
+  - crmscript
   type: Field
-  summary: "\n11: Recipient address has bounced too many times\n"
-  syntax:
-    content: TooManyBounces = 11
-    return:
-      type: CRMScript.NetServer.ShipmentAddrStatus
+  so.intellisense: ShipmentAddrStatus.TooManyBounces
+  syntax: 
+    content: ShipmentAddrStatus.TooManyBounces
+  summary: "Recipient address has bounced too many times"
+  name: TooManyBounces
+  nameWithType: TooManyBounces
+  fullName: CRMScript.NetServer.ShipmentAddrStatus.TooManyBounces
 references:
 - uid: CRMScript.NetServer.ShipmentAddrStatus
   commentId: T:CRMScript.NetServer.ShipmentAddrStatus
-  parent: CRMScript.NetServer
   isExternal: true
   name: ShipmentAddrStatus
   nameWithType: ShipmentAddrStatus

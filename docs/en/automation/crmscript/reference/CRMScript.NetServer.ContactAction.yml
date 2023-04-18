@@ -1,11 +1,5 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.ContactAction
-  # Same as SuperOffice.WebApi.Data.ContactAction
-  commentId: T:CRMScript.NetServer.ContactAction
-  id: ContactAction
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.ContactAction.Unknown
   - CRMScript.NetServer.ContactAction.Created
@@ -16,128 +10,115 @@ items:
   - CRMScript.NetServer.ContactAction.PersonUpdated
   - CRMScript.NetServer.ContactAction.DocumentAdded
   - CRMScript.NetServer.ContactAction.All
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ContactAction
+  syntax: 
+    content: ContactAction
+  summary: "Describes what type of activity/action there has been on a contact"
   name: ContactAction
   nameWithType: ContactAction
   fullName: CRMScript.NetServer.ContactAction
-  type: Enum
-  summary: "\nDescribes what type of activity/action there has been on a contact<p></p>\nConsists of flag values that can be combined.\n"
 - uid: CRMScript.NetServer.ContactAction.Unknown
-  commentId: F:CRMScript.NetServer.ContactAction.Unknown
-  id: ContactAction.Unknown
   langs:
   - crmscript
-  name: ContactAction.Unknown
-  nameWithType: ContactAction.Unknown
+  type: Field
+  so.intellisense: ContactAction.Unknown
+  syntax: 
+    content: ContactAction.Unknown
+  summary: "Unknown/undecided type"
+  name: Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.ContactAction.Unknown
-  type: Field
-  summary: "\n0: Unknown/undecided type\n"
-  syntax: 
-    content: Unknown = 0
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.Created
-  commentId: F:CRMScript.NetServer.ContactAction.Created
-  id: ContactAction.Created
   langs:
   - crmscript
-  name: ContactAction.Created
-  nameWithType: ContactAction.Created
+  type: Field
+  so.intellisense: ContactAction.Created
+  syntax: 
+    content: ContactAction.Created
+  summary: "The contact was created"
+  name: Created
+  nameWithType: Created
   fullName: CRMScript.NetServer.ContactAction.Created
-  type: Field
-  summary: "\n1: The contact was created\n"
-  syntax: 
-    content: Created = 1
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.Updated
-  commentId: F:CRMScript.NetServer.ContactAction.Updated
-  id: ContactAction.Updated
   langs:
   - crmscript
-  name: ContactAction.Updated
-  nameWithType: ContactAction.Updated
+  type: Field
+  so.intellisense: ContactAction.Updated
+  syntax: 
+    content: ContactAction.Updated
+  summary: "The contact was updated"
+  name: Updated
+  nameWithType: Updated
   fullName: CRMScript.NetServer.ContactAction.Updated
-  type: Field
-  summary: "\n2: The contact was updated\\n"
-  syntax: 
-    content: Updated = 2
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.NewActivity
-  commentId: F:CRMScript.NetServer.ContactAction.NewActivity
-  id: ContactAction.NewActivity
   langs:
   - crmscript
-  name: ContactAction.NewActivity
-  nameWithType: ContactAction.NewActivity
+  type: Field
+  so.intellisense: ContactAction.NewActivity
+  syntax: 
+    content: ContactAction.NewActivity
+  summary: "A new activity was created on the contact"
+  name: NewActivity
+  nameWithType: NewActivity
   fullName: CRMScript.NetServer.ContactAction.NewActivity
-  type: Field
-  summary: "\n4: A new activity was created on the contact\n"
-  syntax: 
-    content: NewActivity = 4
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.ActivityCompleted
-  commentId: F:CRMScript.NetServer.ContactAction.ActivityCompleted
-  id: ContactAction.ActivityCompleted
   langs:
   - crmscript
-  name: ContactAction.ActivityCompleted
-  nameWithType: ContactAction.ActivityCompleted
+  type: Field
+  so.intellisense: ContactAction.ActivityCompleted
+  syntax: 
+    content: ContactAction.ActivityCompleted
+  summary: "An activity belonging to the contact was completed"
+  name: ActivityCompleted
+  nameWithType: ActivityCompleted
   fullName: CRMScript.NetServer.ContactAction.ActivityCompleted
-  type: Field
-  summary: "\n8: An activity belonging to the contact was completed\n"
-  syntax: 
-    content: ActivityCompleted = 8
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.PersonAdded
-  commentId: F:CRMScript.NetServer.ContactAction.PersonAdded
-  id: ContactAction.PersonAdded
   langs:
   - crmscript
-  name: ContactAction.PersonAdded
-  nameWithType: ContactAction.PersonAdded
+  type: Field
+  so.intellisense: ContactAction.PersonAdded
+  syntax: 
+    content: ContactAction.PersonAdded
+  summary: "A person was added to the contact"
+  name: PersonAdded
+  nameWithType: PersonAdded
   fullName: CRMScript.NetServer.ContactAction.PersonAdded
-  type: Field
-  summary: "\n16: A person was added to the contact\n"
-  syntax: 
-    content: PersonAdded = 16
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.PersonUpdated
-  commentId: F:CRMScript.NetServer.ContactAction.PersonUpdated
-  id: ContactAction.PersonUpdated
   langs:
   - crmscript
-  name: ContactAction.PersonUpdated
-  nameWithType: ContactAction.PersonUpdated
+  type: Field
+  so.intellisense: ContactAction.PersonUpdated
+  syntax: 
+    content: ContactAction.PersonUpdated
+  summary: "A person belonging to the contact was updated"
+  name: PersonUpdated
+  nameWithType: PersonUpdated
   fullName: CRMScript.NetServer.ContactAction.PersonUpdated
-  type: Field
-  summary: "\n32: A person belonging to the contact was updated\n"
-  syntax: 
-    content: PersonUpdated = 32
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.DocumentAdded
-  commentId: F:CRMScript.NetServer.ContactAction.DocumentAdded
-  id: ContactAction.DocumentAdded
   langs:
   - crmscript
-  name: ContactAction.DocumentAdded
-  nameWithType: ContactAction.DocumentAdded
+  type: Field
+  so.intellisense: ContactAction.DocumentAdded
+  syntax: 
+    content: ContactAction.DocumentAdded
+  summary: "A document was added to the contact"
+  name: DocumentAdded
+  nameWithType: DocumentAdded
   fullName: CRMScript.NetServer.ContactAction.DocumentAdded
-  type: Field
-  summary: "\n64: A document was added to the contact\n"
-  syntax: 
-    content: DocumentAdded = 64
-    type: CRMScript.NetServer.ContactAction
 - uid: CRMScript.NetServer.ContactAction.All
-  commentId: F:CRMScript.NetServer.ContactAction.All
-  id: ContactAction.All
   langs:
   - crmscript
-  name: ContactAction.All
-  nameWithType: ContactAction.All
-  fullName: CRMScript.NetServer.ContactAction.All
   type: Field
-  summary: "\n127: All\n"
+  so.intellisense: ContactAction.All
   syntax: 
-    content: All = 127
-    type: CRMScript.NetServer.ContactAction
+    content: ContactAction.All
+  summary: "Enumeration generated from the wsdl doesn't handle the [Flags] attribute (bit enumeration)"
+  name: All
+  nameWithType: All
+  fullName: CRMScript.NetServer.ContactAction.All
 references:
 - uid: CRMScript.NetServer.ContactAction
   commentId: T:CRMScript.NetServer.ContactAction

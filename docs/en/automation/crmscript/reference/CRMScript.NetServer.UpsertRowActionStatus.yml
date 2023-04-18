@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.UpsertRowActionStatus
+  children:
+  - CRMScript.NetServer.UpsertRowActionStatus.Inserted
+  - CRMScript.NetServer.UpsertRowActionStatus.Updated
+  - CRMScript.NetServer.UpsertRowActionStatus.NoUpdateNeeded
+  - CRMScript.NetServer.UpsertRowActionStatus.Deleted
+  - CRMScript.NetServer.UpsertRowActionStatus.ColumnsZeroed
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: UpsertRowActionStatus
+  syntax: 
+    content: UpsertRowActionStatus
+  summary: "Upsert: Action status for each row"
+  name: UpsertRowActionStatus
+  nameWithType: UpsertRowActionStatus
+  fullName: CRMScript.NetServer.UpsertRowActionStatus
+- uid: CRMScript.NetServer.UpsertRowActionStatus.Inserted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertRowActionStatus.Inserted
+  syntax: 
+    content: UpsertRowActionStatus.Inserted
+  summary: "Row not found in target, inserted; primary key assigned as required"
+  name: Inserted
+  nameWithType: Inserted
+  fullName: CRMScript.NetServer.UpsertRowActionStatus.Inserted
+- uid: CRMScript.NetServer.UpsertRowActionStatus.Updated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertRowActionStatus.Updated
+  syntax: 
+    content: UpsertRowActionStatus.Updated
+  summary: "Row found in target, update needed"
+  name: Updated
+  nameWithType: Updated
+  fullName: CRMScript.NetServer.UpsertRowActionStatus.Updated
+- uid: CRMScript.NetServer.UpsertRowActionStatus.NoUpdateNeeded
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertRowActionStatus.NoUpdateNeeded
+  syntax: 
+    content: UpsertRowActionStatus.NoUpdateNeeded
+  summary: "Row found in target, no updated needed"
+  name: NoUpdateNeeded
+  nameWithType: NoUpdateNeeded
+  fullName: CRMScript.NetServer.UpsertRowActionStatus.NoUpdateNeeded
+- uid: CRMScript.NetServer.UpsertRowActionStatus.Deleted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertRowActionStatus.Deleted
+  syntax: 
+    content: UpsertRowActionStatus.Deleted
+  summary: "Row not matched in incoming keys and DELETED"
+  name: Deleted
+  nameWithType: Deleted
+  fullName: CRMScript.NetServer.UpsertRowActionStatus.Deleted
+- uid: CRMScript.NetServer.UpsertRowActionStatus.ColumnsZeroed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: UpsertRowActionStatus.ColumnsZeroed
+  syntax: 
+    content: UpsertRowActionStatus.ColumnsZeroed
+  summary: "Row not matched in incoming keys and COLUMNS ZEROED"
+  name: ColumnsZeroed
+  nameWithType: ColumnsZeroed
+  fullName: CRMScript.NetServer.UpsertRowActionStatus.ColumnsZeroed
+references:
+- uid: CRMScript.NetServer.UpsertRowActionStatus
+  commentId: T:CRMScript.NetServer.UpsertRowActionStatus
+  isExternal: true
+  name: UpsertRowActionStatus
+  nameWithType: UpsertRowActionStatus
+  fullName: CRMScript.NetServer.UpsertRowActionStatus

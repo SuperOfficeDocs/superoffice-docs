@@ -1,0 +1,284 @@
+﻿items:
+- uid: CRMScript.NetServer.ExtraFieldFlags
+  children:
+  - CRMScript.NetServer.ExtraFieldFlags.Neutral
+  - CRMScript.NetServer.ExtraFieldFlags.Searchable
+  - CRMScript.NetServer.ExtraFieldFlags.Public
+  - CRMScript.NetServer.ExtraFieldFlags.InNewTicket
+  - CRMScript.NetServer.ExtraFieldFlags.SetWhenClicked
+  - CRMScript.NetServer.ExtraFieldFlags.CannotChange
+  - CRMScript.NetServer.ExtraFieldFlags.DropDown
+  - CRMScript.NetServer.ExtraFieldFlags.Readable
+  - CRMScript.NetServer.ExtraFieldFlags.DontEscape
+  - CRMScript.NetServer.ExtraFieldFlags.Deleted
+  - CRMScript.NetServer.ExtraFieldFlags.IsId
+  - CRMScript.NetServer.ExtraFieldFlags.IsForeignId
+  - CRMScript.NetServer.ExtraFieldFlags.ReadOnly
+  - CRMScript.NetServer.ExtraFieldFlags.UseDefault
+  - CRMScript.NetServer.ExtraFieldFlags.ListRelations
+  - CRMScript.NetServer.ExtraFieldFlags.ViewInList
+  - CRMScript.NetServer.ExtraFieldFlags.HideHeaderIfEmpty
+  - CRMScript.NetServer.ExtraFieldFlags.HideFunctions
+  - CRMScript.NetServer.ExtraFieldFlags.NotEmpty
+  - CRMScript.NetServer.ExtraFieldFlags.Hidden
+  - CRMScript.NetServer.ExtraFieldFlags.Indexed
+  - CRMScript.NetServer.ExtraFieldFlags.ViewInSearch
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ExtraFieldFlags
+  syntax: 
+    content: ExtraFieldFlags
+  summary: "Flag values for the CS extrafields dictionary"
+  name: ExtraFieldFlags
+  nameWithType: ExtraFieldFlags
+  fullName: CRMScript.NetServer.ExtraFieldFlags
+- uid: CRMScript.NetServer.ExtraFieldFlags.Neutral
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.Neutral
+  syntax: 
+    content: ExtraFieldFlags.Neutral
+  summary: "No flags set"
+  name: Neutral
+  nameWithType: Neutral
+  fullName: CRMScript.NetServer.ExtraFieldFlags.Neutral
+- uid: CRMScript.NetServer.ExtraFieldFlags.Searchable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.Searchable
+  syntax: 
+    content: ExtraFieldFlags.Searchable
+  summary: "The field is searchable"
+  name: Searchable
+  nameWithType: Searchable
+  fullName: CRMScript.NetServer.ExtraFieldFlags.Searchable
+- uid: CRMScript.NetServer.ExtraFieldFlags.Public
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.Public
+  syntax: 
+    content: ExtraFieldFlags.Public
+  summary: "The field is public (external)"
+  name: Public
+  nameWithType: Public
+  fullName: CRMScript.NetServer.ExtraFieldFlags.Public
+- uid: CRMScript.NetServer.ExtraFieldFlags.InNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.InNewTicket
+  syntax: 
+    content: ExtraFieldFlags.InNewTicket
+  summary: "The field is viewed in new-ticket form"
+  name: InNewTicket
+  nameWithType: InNewTicket
+  fullName: CRMScript.NetServer.ExtraFieldFlags.InNewTicket
+- uid: CRMScript.NetServer.ExtraFieldFlags.SetWhenClicked
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.SetWhenClicked
+  syntax: 
+    content: ExtraFieldFlags.SetWhenClicked
+  summary: "The field is set (datetime) when clicked"
+  name: SetWhenClicked
+  nameWithType: SetWhenClicked
+  fullName: CRMScript.NetServer.ExtraFieldFlags.SetWhenClicked
+- uid: CRMScript.NetServer.ExtraFieldFlags.CannotChange
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.CannotChange
+  syntax: 
+    content: ExtraFieldFlags.CannotChange
+  summary: "The field cannot change after being set"
+  name: CannotChange
+  nameWithType: CannotChange
+  fullName: CRMScript.NetServer.ExtraFieldFlags.CannotChange
+- uid: CRMScript.NetServer.ExtraFieldFlags.DropDown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.DropDown
+  syntax: 
+    content: ExtraFieldFlags.DropDown
+  summary: "The field is a dropdown (extra string fields)"
+  name: DropDown
+  nameWithType: DropDown
+  fullName: CRMScript.NetServer.ExtraFieldFlags.DropDown
+- uid: CRMScript.NetServer.ExtraFieldFlags.Readable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.Readable
+  syntax: 
+    content: ExtraFieldFlags.Readable
+  summary: "The field is directly readable from database"
+  name: Readable
+  nameWithType: Readable
+  fullName: CRMScript.NetServer.ExtraFieldFlags.Readable
+- uid: CRMScript.NetServer.ExtraFieldFlags.DontEscape
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.DontEscape
+  syntax: 
+    content: ExtraFieldFlags.DontEscape
+  summary: "Do not HTML-escape the value when displaying field"
+  name: DontEscape
+  nameWithType: DontEscape
+  fullName: CRMScript.NetServer.ExtraFieldFlags.DontEscape
+- uid: CRMScript.NetServer.ExtraFieldFlags.Deleted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.Deleted
+  syntax: 
+    content: ExtraFieldFlags.Deleted
+  summary: "The field is deleted"
+  name: Deleted
+  nameWithType: Deleted
+  fullName: CRMScript.NetServer.ExtraFieldFlags.Deleted
+- uid: CRMScript.NetServer.ExtraFieldFlags.IsId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.IsId
+  syntax: 
+    content: ExtraFieldFlags.IsId
+  summary: "The field is the id"
+  name: IsId
+  nameWithType: IsId
+  fullName: CRMScript.NetServer.ExtraFieldFlags.IsId
+- uid: CRMScript.NetServer.ExtraFieldFlags.IsForeignId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.IsForeignId
+  syntax: 
+    content: ExtraFieldFlags.IsForeignId
+  summary: "The field is a foreign id"
+  name: IsForeignId
+  nameWithType: IsForeignId
+  fullName: CRMScript.NetServer.ExtraFieldFlags.IsForeignId
+- uid: CRMScript.NetServer.ExtraFieldFlags.ReadOnly
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.ReadOnly
+  syntax: 
+    content: ExtraFieldFlags.ReadOnly
+  summary: "The field is not writeable"
+  name: ReadOnly
+  nameWithType: ReadOnly
+  fullName: CRMScript.NetServer.ExtraFieldFlags.ReadOnly
+- uid: CRMScript.NetServer.ExtraFieldFlags.UseDefault
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.UseDefault
+  syntax: 
+    content: ExtraFieldFlags.UseDefault
+  summary: "Use default value for field if no value is supplied"
+  name: UseDefault
+  nameWithType: UseDefault
+  fullName: CRMScript.NetServer.ExtraFieldFlags.UseDefault
+- uid: CRMScript.NetServer.ExtraFieldFlags.ListRelations
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.ListRelations
+  syntax: 
+    content: ExtraFieldFlags.ListRelations
+  summary: "List relations"
+  name: ListRelations
+  nameWithType: ListRelations
+  fullName: CRMScript.NetServer.ExtraFieldFlags.ListRelations
+- uid: CRMScript.NetServer.ExtraFieldFlags.ViewInList
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.ViewInList
+  syntax: 
+    content: ExtraFieldFlags.ViewInList
+  summary: "View this field when listing rows"
+  name: ViewInList
+  nameWithType: ViewInList
+  fullName: CRMScript.NetServer.ExtraFieldFlags.ViewInList
+- uid: CRMScript.NetServer.ExtraFieldFlags.HideHeaderIfEmpty
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.HideHeaderIfEmpty
+  syntax: 
+    content: ExtraFieldFlags.HideHeaderIfEmpty
+  summary: "Hide the header for this list if there are no entries"
+  name: HideHeaderIfEmpty
+  nameWithType: HideHeaderIfEmpty
+  fullName: CRMScript.NetServer.ExtraFieldFlags.HideHeaderIfEmpty
+- uid: CRMScript.NetServer.ExtraFieldFlags.HideFunctions
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.HideFunctions
+  syntax: 
+    content: ExtraFieldFlags.HideFunctions
+  summary: "Hide the function buttons for this relation"
+  name: HideFunctions
+  nameWithType: HideFunctions
+  fullName: CRMScript.NetServer.ExtraFieldFlags.HideFunctions
+- uid: CRMScript.NetServer.ExtraFieldFlags.NotEmpty
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.NotEmpty
+  syntax: 
+    content: ExtraFieldFlags.NotEmpty
+  summary: "The field cannot be empty"
+  name: NotEmpty
+  nameWithType: NotEmpty
+  fullName: CRMScript.NetServer.ExtraFieldFlags.NotEmpty
+- uid: CRMScript.NetServer.ExtraFieldFlags.Hidden
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.Hidden
+  syntax: 
+    content: ExtraFieldFlags.Hidden
+  summary: "The field is not shown anywhere"
+  name: Hidden
+  nameWithType: Hidden
+  fullName: CRMScript.NetServer.ExtraFieldFlags.Hidden
+- uid: CRMScript.NetServer.ExtraFieldFlags.Indexed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.Indexed
+  syntax: 
+    content: ExtraFieldFlags.Indexed
+  summary: "The field is indexed"
+  name: Indexed
+  nameWithType: Indexed
+  fullName: CRMScript.NetServer.ExtraFieldFlags.Indexed
+- uid: CRMScript.NetServer.ExtraFieldFlags.ViewInSearch
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ExtraFieldFlags.ViewInSearch
+  syntax: 
+    content: ExtraFieldFlags.ViewInSearch
+  summary: "The field is viewed in relational searches"
+  name: ViewInSearch
+  nameWithType: ViewInSearch
+  fullName: CRMScript.NetServer.ExtraFieldFlags.ViewInSearch
+references:
+- uid: CRMScript.NetServer.ExtraFieldFlags
+  commentId: T:CRMScript.NetServer.ExtraFieldFlags
+  isExternal: true
+  name: ExtraFieldFlags
+  nameWithType: ExtraFieldFlags
+  fullName: CRMScript.NetServer.ExtraFieldFlags

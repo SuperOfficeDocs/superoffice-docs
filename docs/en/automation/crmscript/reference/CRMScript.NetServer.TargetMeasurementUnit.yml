@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.TargetMeasurementUnit
+  children:
+  - CRMScript.NetServer.TargetMeasurementUnit.None
+  - CRMScript.NetServer.TargetMeasurementUnit.Amount
+  - CRMScript.NetServer.TargetMeasurementUnit.Count
+  - CRMScript.NetServer.TargetMeasurementUnit.Profit
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TargetMeasurementUnit
+  syntax: 
+    content: TargetMeasurementUnit
+  summary: "Target measurement unit"
+  name: TargetMeasurementUnit
+  nameWithType: TargetMeasurementUnit
+  fullName: CRMScript.NetServer.TargetMeasurementUnit
+- uid: CRMScript.NetServer.TargetMeasurementUnit.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetMeasurementUnit.None
+  syntax: 
+    content: TargetMeasurementUnit.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TargetMeasurementUnit.None
+- uid: CRMScript.NetServer.TargetMeasurementUnit.Amount
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetMeasurementUnit.Amount
+  syntax: 
+    content: TargetMeasurementUnit.Amount
+  summary: "Amount"
+  name: Amount
+  nameWithType: Amount
+  fullName: CRMScript.NetServer.TargetMeasurementUnit.Amount
+- uid: CRMScript.NetServer.TargetMeasurementUnit.Count
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetMeasurementUnit.Count
+  syntax: 
+    content: TargetMeasurementUnit.Count
+  summary: "Count"
+  name: Count
+  nameWithType: Count
+  fullName: CRMScript.NetServer.TargetMeasurementUnit.Count
+- uid: CRMScript.NetServer.TargetMeasurementUnit.Profit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetMeasurementUnit.Profit
+  syntax: 
+    content: TargetMeasurementUnit.Profit
+  summary: "Profit"
+  name: Profit
+  nameWithType: Profit
+  fullName: CRMScript.NetServer.TargetMeasurementUnit.Profit
+references:
+- uid: CRMScript.NetServer.TargetMeasurementUnit
+  commentId: T:CRMScript.NetServer.TargetMeasurementUnit
+  isExternal: true
+  name: TargetMeasurementUnit
+  nameWithType: TargetMeasurementUnit
+  fullName: CRMScript.NetServer.TargetMeasurementUnit

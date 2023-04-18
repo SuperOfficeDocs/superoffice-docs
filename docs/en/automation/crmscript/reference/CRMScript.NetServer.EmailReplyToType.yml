@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.EmailReplyToType
+  children:
+  - CRMScript.NetServer.EmailReplyToType.ReplyToOnlySpecified
+  - CRMScript.NetServer.EmailReplyToType.ReplyToSalesContact
+  - CRMScript.NetServer.EmailReplyToType.ReplyToSupportContact
+  - CRMScript.NetServer.EmailReplyToType.ReplyToEmpty
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: EmailReplyToType
+  syntax: 
+    content: EmailReplyToType
+  summary: "Email/Mailing ReplyTo field address algorithm"
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: CRMScript.NetServer.EmailReplyToType
+- uid: CRMScript.NetServer.EmailReplyToType.ReplyToOnlySpecified
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailReplyToType.ReplyToOnlySpecified
+  syntax: 
+    content: EmailReplyToType.ReplyToOnlySpecified
+  summary: "ReplyToOnlySpecified"
+  name: ReplyToOnlySpecified
+  nameWithType: ReplyToOnlySpecified
+  fullName: CRMScript.NetServer.EmailReplyToType.ReplyToOnlySpecified
+- uid: CRMScript.NetServer.EmailReplyToType.ReplyToSalesContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailReplyToType.ReplyToSalesContact
+  syntax: 
+    content: EmailReplyToType.ReplyToSalesContact
+  summary: "ReplyToSalesContact"
+  name: ReplyToSalesContact
+  nameWithType: ReplyToSalesContact
+  fullName: CRMScript.NetServer.EmailReplyToType.ReplyToSalesContact
+- uid: CRMScript.NetServer.EmailReplyToType.ReplyToSupportContact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailReplyToType.ReplyToSupportContact
+  syntax: 
+    content: EmailReplyToType.ReplyToSupportContact
+  summary: "ReplyToSupportContact"
+  name: ReplyToSupportContact
+  nameWithType: ReplyToSupportContact
+  fullName: CRMScript.NetServer.EmailReplyToType.ReplyToSupportContact
+- uid: CRMScript.NetServer.EmailReplyToType.ReplyToEmpty
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailReplyToType.ReplyToEmpty
+  syntax: 
+    content: EmailReplyToType.ReplyToEmpty
+  summary: "ReplyToEmpty (skip reply-to header, email agents will use from instead)"
+  name: ReplyToEmpty
+  nameWithType: ReplyToEmpty
+  fullName: CRMScript.NetServer.EmailReplyToType.ReplyToEmpty
+references:
+- uid: CRMScript.NetServer.EmailReplyToType
+  commentId: T:CRMScript.NetServer.EmailReplyToType
+  isExternal: true
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: CRMScript.NetServer.EmailReplyToType

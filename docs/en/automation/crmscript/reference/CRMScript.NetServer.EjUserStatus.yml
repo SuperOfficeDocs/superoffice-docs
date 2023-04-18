@@ -1,0 +1,104 @@
+﻿items:
+- uid: CRMScript.NetServer.EjUserStatus
+  children:
+  - CRMScript.NetServer.EjUserStatus.StatusNone
+  - CRMScript.NetServer.EjUserStatus.StatusNormal
+  - CRMScript.NetServer.EjUserStatus.StatusNotAvailable
+  - CRMScript.NetServer.EjUserStatus.StatusDeleted
+  - CRMScript.NetServer.EjUserStatus.StatusReadOnly
+  - CRMScript.NetServer.EjUserStatus.StatusSpm
+  - CRMScript.NetServer.EjUserStatus.StatusSystem
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: EjUserStatus
+  syntax: 
+    content: EjUserStatus
+  summary: ""
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: CRMScript.NetServer.EjUserStatus
+- uid: CRMScript.NetServer.EjUserStatus.StatusNone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EjUserStatus.StatusNone
+  syntax: 
+    content: EjUserStatus.StatusNone
+  summary: ""
+  name: StatusNone
+  nameWithType: StatusNone
+  fullName: CRMScript.NetServer.EjUserStatus.StatusNone
+- uid: CRMScript.NetServer.EjUserStatus.StatusNormal
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EjUserStatus.StatusNormal
+  syntax: 
+    content: EjUserStatus.StatusNormal
+  summary: ""
+  name: StatusNormal
+  nameWithType: StatusNormal
+  fullName: CRMScript.NetServer.EjUserStatus.StatusNormal
+- uid: CRMScript.NetServer.EjUserStatus.StatusNotAvailable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EjUserStatus.StatusNotAvailable
+  syntax: 
+    content: EjUserStatus.StatusNotAvailable
+  summary: ""
+  name: StatusNotAvailable
+  nameWithType: StatusNotAvailable
+  fullName: CRMScript.NetServer.EjUserStatus.StatusNotAvailable
+- uid: CRMScript.NetServer.EjUserStatus.StatusDeleted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EjUserStatus.StatusDeleted
+  syntax: 
+    content: EjUserStatus.StatusDeleted
+  summary: ""
+  name: StatusDeleted
+  nameWithType: StatusDeleted
+  fullName: CRMScript.NetServer.EjUserStatus.StatusDeleted
+- uid: CRMScript.NetServer.EjUserStatus.StatusReadOnly
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EjUserStatus.StatusReadOnly
+  syntax: 
+    content: EjUserStatus.StatusReadOnly
+  summary: ""
+  name: StatusReadOnly
+  nameWithType: StatusReadOnly
+  fullName: CRMScript.NetServer.EjUserStatus.StatusReadOnly
+- uid: CRMScript.NetServer.EjUserStatus.StatusSpm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EjUserStatus.StatusSpm
+  syntax: 
+    content: EjUserStatus.StatusSpm
+  summary: ""
+  name: StatusSpm
+  nameWithType: StatusSpm
+  fullName: CRMScript.NetServer.EjUserStatus.StatusSpm
+- uid: CRMScript.NetServer.EjUserStatus.StatusSystem
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EjUserStatus.StatusSystem
+  syntax: 
+    content: EjUserStatus.StatusSystem
+  summary: ""
+  name: StatusSystem
+  nameWithType: StatusSystem
+  fullName: CRMScript.NetServer.EjUserStatus.StatusSystem
+references:
+- uid: CRMScript.NetServer.EjUserStatus
+  commentId: T:CRMScript.NetServer.EjUserStatus
+  isExternal: true
+  name: EjUserStatus
+  nameWithType: EjUserStatus
+  fullName: CRMScript.NetServer.EjUserStatus

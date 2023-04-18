@@ -1,0 +1,116 @@
+﻿items:
+- uid: CRMScript.NetServer.PhoneType
+  children:
+  - CRMScript.NetServer.PhoneType.Unknown
+  - CRMScript.NetServer.PhoneType.ContactPhone
+  - CRMScript.NetServer.PhoneType.ContactFax
+  - CRMScript.NetServer.PhoneType.PersonDirectPhone
+  - CRMScript.NetServer.PhoneType.PersonDirectFax
+  - CRMScript.NetServer.PhoneType.PersonPrivate
+  - CRMScript.NetServer.PhoneType.PersonMobile
+  - CRMScript.NetServer.PhoneType.PersonPager
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: PhoneType
+  syntax: 
+    content: PhoneType
+  summary: "The type of Phone"
+  name: PhoneType
+  nameWithType: PhoneType
+  fullName: CRMScript.NetServer.PhoneType
+- uid: CRMScript.NetServer.PhoneType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.Unknown
+  syntax: 
+    content: PhoneType.Unknown
+  summary: "Unknown - used when initializing "
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.PhoneType.Unknown
+- uid: CRMScript.NetServer.PhoneType.ContactPhone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.ContactPhone
+  syntax: 
+    content: PhoneType.ContactPhone
+  summary: "Telephone number for a contact."
+  name: ContactPhone
+  nameWithType: ContactPhone
+  fullName: CRMScript.NetServer.PhoneType.ContactPhone
+- uid: CRMScript.NetServer.PhoneType.ContactFax
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.ContactFax
+  syntax: 
+    content: PhoneType.ContactFax
+  summary: "Facsimile number for a contact"
+  name: ContactFax
+  nameWithType: ContactFax
+  fullName: CRMScript.NetServer.PhoneType.ContactFax
+- uid: CRMScript.NetServer.PhoneType.PersonDirectPhone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.PersonDirectPhone
+  syntax: 
+    content: PhoneType.PersonDirectPhone
+  summary: "Direct dial telephone for a person"
+  name: PersonDirectPhone
+  nameWithType: PersonDirectPhone
+  fullName: CRMScript.NetServer.PhoneType.PersonDirectPhone
+- uid: CRMScript.NetServer.PhoneType.PersonDirectFax
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.PersonDirectFax
+  syntax: 
+    content: PhoneType.PersonDirectFax
+  summary: "Direct facsimile number for a person"
+  name: PersonDirectFax
+  nameWithType: PersonDirectFax
+  fullName: CRMScript.NetServer.PhoneType.PersonDirectFax
+- uid: CRMScript.NetServer.PhoneType.PersonPrivate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.PersonPrivate
+  syntax: 
+    content: PhoneType.PersonPrivate
+  summary: "Private telephone for a person"
+  name: PersonPrivate
+  nameWithType: PersonPrivate
+  fullName: CRMScript.NetServer.PhoneType.PersonPrivate
+- uid: CRMScript.NetServer.PhoneType.PersonMobile
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.PersonMobile
+  syntax: 
+    content: PhoneType.PersonMobile
+  summary: "Cellular telephone for a person"
+  name: PersonMobile
+  nameWithType: PersonMobile
+  fullName: CRMScript.NetServer.PhoneType.PersonMobile
+- uid: CRMScript.NetServer.PhoneType.PersonPager
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: PhoneType.PersonPager
+  syntax: 
+    content: PhoneType.PersonPager
+  summary: "Pager number for a person"
+  name: PersonPager
+  nameWithType: PersonPager
+  fullName: CRMScript.NetServer.PhoneType.PersonPager
+references:
+- uid: CRMScript.NetServer.PhoneType
+  commentId: T:CRMScript.NetServer.PhoneType
+  isExternal: true
+  name: PhoneType
+  nameWithType: PhoneType
+  fullName: CRMScript.NetServer.PhoneType

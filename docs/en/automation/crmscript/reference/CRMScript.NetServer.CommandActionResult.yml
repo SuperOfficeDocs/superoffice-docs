@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.CommandActionResult
+  children:
+  - CRMScript.NetServer.CommandActionResult.Implicit
+  - CRMScript.NetServer.CommandActionResult.Yes
+  - CRMScript.NetServer.CommandActionResult.Ok
+  - CRMScript.NetServer.CommandActionResult.No
+  - CRMScript.NetServer.CommandActionResult.Cancel
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: CommandActionResult
+  syntax: 
+    content: CommandActionResult
+  summary: "Result of an action"
+  name: CommandActionResult
+  nameWithType: CommandActionResult
+  fullName: CRMScript.NetServer.CommandActionResult
+- uid: CRMScript.NetServer.CommandActionResult.Implicit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandActionResult.Implicit
+  syntax: 
+    content: CommandActionResult.Implicit
+  summary: "Command should be implicitly executed."
+  name: Implicit
+  nameWithType: Implicit
+  fullName: CRMScript.NetServer.CommandActionResult.Implicit
+- uid: CRMScript.NetServer.CommandActionResult.Yes
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandActionResult.Yes
+  syntax: 
+    content: CommandActionResult.Yes
+  summary: "The user clicked Yes."
+  name: Yes
+  nameWithType: Yes
+  fullName: CRMScript.NetServer.CommandActionResult.Yes
+- uid: CRMScript.NetServer.CommandActionResult.Ok
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandActionResult.Ok
+  syntax: 
+    content: CommandActionResult.Ok
+  summary: "The client clicked Ok"
+  name: Ok
+  nameWithType: Ok
+  fullName: CRMScript.NetServer.CommandActionResult.Ok
+- uid: CRMScript.NetServer.CommandActionResult.No
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandActionResult.No
+  syntax: 
+    content: CommandActionResult.No
+  summary: "The client clicked No"
+  name: No
+  nameWithType: No
+  fullName: CRMScript.NetServer.CommandActionResult.No
+- uid: CRMScript.NetServer.CommandActionResult.Cancel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandActionResult.Cancel
+  syntax: 
+    content: CommandActionResult.Cancel
+  summary: "The client clicked Cancel"
+  name: Cancel
+  nameWithType: Cancel
+  fullName: CRMScript.NetServer.CommandActionResult.Cancel
+references:
+- uid: CRMScript.NetServer.CommandActionResult
+  commentId: T:CRMScript.NetServer.CommandActionResult
+  isExternal: true
+  name: CommandActionResult
+  nameWithType: CommandActionResult
+  fullName: CRMScript.NetServer.CommandActionResult

@@ -1,59 +1,52 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.DesignType
-  # Same as SuperOffice.Data.DesignType
-  commentId: T:CRMScript.NetServer.DesignType
-  id: DesignType
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.DesignType.Unknown
   - CRMScript.NetServer.DesignType.SOEditor
   - CRMScript.NetServer.DesignType.Unlayer
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DesignType
+  syntax: 
+    content: DesignType
+  summary: "Indicates what design type this message is created with"
   name: DesignType
   nameWithType: DesignType
   fullName: CRMScript.NetServer.DesignType
-  type: Enum
-  summary: "\nIndicates what design type this message is created with.\n"
 - uid: CRMScript.NetServer.DesignType.Unknown
-  commentId: F:CRMScript.NetServer.DesignType.Unknown
-  id: DesignType.Unknown
   langs:
   - crmscript
-  name: DesignType.Unknown
-  nameWithType: DesignType.Unknown
+  type: Field
+  so.intellisense: DesignType.Unknown
+  syntax: 
+    content: DesignType.Unknown
+  summary: "Unknown type"
+  name: Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.DesignType.Unknown
-  type: Field
-  summary: "\n0: Unknown type\n"
-  syntax: 
-    content: Unknown = 0
-    type: CRMScript.NetServer.DesignType
 - uid: CRMScript.NetServer.DesignType.SOEditor
-  commentId: F:CRMScript.NetServer.DesignType.SOEditor
-  id: DesignType.SOEditor
   langs:
   - crmscript
-  name: DesignType.SOEditor
-  nameWithType: DesignType.SOEditor
+  type: Field
+  so.intellisense: DesignType.SOEditor
+  syntax: 
+    content: DesignType.SOEditor
+  summary: "Created with SOEditor"
+  name: SOEditor
+  nameWithType: SOEditor
   fullName: CRMScript.NetServer.DesignType.SOEditor
-  type: Field
-  summary: "\n1: Created with SOEditor\n"
-  syntax: 
-    content: SOEditor = 1
-    type: CRMScript.NetServer.DesignType
 - uid: CRMScript.NetServer.DesignType.Unlayer
-  commentId: F:CRMScript.NetServer.DesignType.Unlayer
-  id: DesignType.Unlayer
   langs:
   - crmscript
-  name: DesignType.Unlayer
-  nameWithType: DesignType.Unlayer
-  fullName: CRMScript.NetServer.DesignType.Unlayer
   type: Field
-  summary: "\n2: Created with Unlayer editor.\n"
+  so.intellisense: DesignType.Unlayer
   syntax: 
-    content: Unlayer = 2
-    type: CRMScript.NetServer.DesignType
+    content: DesignType.Unlayer
+  summary: "Created with Unlayer editor"
+  name: Unlayer
+  nameWithType: Unlayer
+  fullName: CRMScript.NetServer.DesignType.Unlayer
 references:
 - uid: CRMScript.NetServer.DesignType
   commentId: T:CRMScript.NetServer.DesignType

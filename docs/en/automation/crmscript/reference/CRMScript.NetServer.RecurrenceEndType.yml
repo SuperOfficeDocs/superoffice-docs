@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.RecurrenceEndType
+  children:
+  - CRMScript.NetServer.RecurrenceEndType.Unknown
+  - CRMScript.NetServer.RecurrenceEndType.EndDate
+  - CRMScript.NetServer.RecurrenceEndType.Counter
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RecurrenceEndType
+  syntax: 
+    content: RecurrenceEndType
+  summary: "Enumerator describing how the series of recurring activities are terminated."
+  name: RecurrenceEndType
+  nameWithType: RecurrenceEndType
+  fullName: CRMScript.NetServer.RecurrenceEndType
+- uid: CRMScript.NetServer.RecurrenceEndType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceEndType.Unknown
+  syntax: 
+    content: RecurrenceEndType.Unknown
+  summary: "0: Unknown/undecided type"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.RecurrenceEndType.Unknown
+- uid: CRMScript.NetServer.RecurrenceEndType.EndDate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceEndType.EndDate
+  syntax: 
+    content: RecurrenceEndType.EndDate
+  summary: "The end of the recurrence is described by an end date."
+  name: EndDate
+  nameWithType: EndDate
+  fullName: CRMScript.NetServer.RecurrenceEndType.EndDate
+- uid: CRMScript.NetServer.RecurrenceEndType.Counter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceEndType.Counter
+  syntax: 
+    content: RecurrenceEndType.Counter
+  summary: "The end of the recurrence is described with a number of recurring activities."
+  name: Counter
+  nameWithType: Counter
+  fullName: CRMScript.NetServer.RecurrenceEndType.Counter
+references:
+- uid: CRMScript.NetServer.RecurrenceEndType
+  commentId: T:CRMScript.NetServer.RecurrenceEndType
+  isExternal: true
+  name: RecurrenceEndType
+  nameWithType: RecurrenceEndType
+  fullName: CRMScript.NetServer.RecurrenceEndType

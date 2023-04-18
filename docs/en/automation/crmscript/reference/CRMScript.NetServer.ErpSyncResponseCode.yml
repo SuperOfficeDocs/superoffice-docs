@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ErpSyncResponseCode
+  children:
+  - CRMScript.NetServer.ErpSyncResponseCode.NoError
+  - CRMScript.NetServer.ErpSyncResponseCode.ErrorConnectorHasConnections
+  - CRMScript.NetServer.ErpSyncResponseCode.ErrorNotFound
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ErpSyncResponseCode
+  syntax: 
+    content: ErpSyncResponseCode
+  summary: "Response codes used by ErpSync services"
+  name: ErpSyncResponseCode
+  nameWithType: ErpSyncResponseCode
+  fullName: CRMScript.NetServer.ErpSyncResponseCode
+- uid: CRMScript.NetServer.ErpSyncResponseCode.NoError
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ErpSyncResponseCode.NoError
+  syntax: 
+    content: ErpSyncResponseCode.NoError
+  summary: "No error"
+  name: NoError
+  nameWithType: NoError
+  fullName: CRMScript.NetServer.ErpSyncResponseCode.NoError
+- uid: CRMScript.NetServer.ErpSyncResponseCode.ErrorConnectorHasConnections
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ErpSyncResponseCode.ErrorConnectorHasConnections
+  syntax: 
+    content: ErpSyncResponseCode.ErrorConnectorHasConnections
+  summary: "Could not perform operation because connector has connections"
+  name: ErrorConnectorHasConnections
+  nameWithType: ErrorConnectorHasConnections
+  fullName: CRMScript.NetServer.ErpSyncResponseCode.ErrorConnectorHasConnections
+- uid: CRMScript.NetServer.ErpSyncResponseCode.ErrorNotFound
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ErpSyncResponseCode.ErrorNotFound
+  syntax: 
+    content: ErpSyncResponseCode.ErrorNotFound
+  summary: "Could not perform operation because the entity wasn't found"
+  name: ErrorNotFound
+  nameWithType: ErrorNotFound
+  fullName: CRMScript.NetServer.ErpSyncResponseCode.ErrorNotFound
+references:
+- uid: CRMScript.NetServer.ErpSyncResponseCode
+  commentId: T:CRMScript.NetServer.ErpSyncResponseCode
+  isExternal: true
+  name: ErpSyncResponseCode
+  nameWithType: ErpSyncResponseCode
+  fullName: CRMScript.NetServer.ErpSyncResponseCode

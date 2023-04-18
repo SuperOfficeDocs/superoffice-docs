@@ -1,0 +1,140 @@
+﻿items:
+- uid: CRMScript.NetServer.TicketAlertAction
+  children:
+  - CRMScript.NetServer.TicketAlertAction.ActionDelegate
+  - CRMScript.NetServer.TicketAlertAction.ActionEmail
+  - CRMScript.NetServer.TicketAlertAction.ActionEmailCustomer
+  - CRMScript.NetServer.TicketAlertAction.ActionEmailUser
+  - CRMScript.NetServer.TicketAlertAction.ActionEmailCategoryMaster
+  - CRMScript.NetServer.TicketAlertAction.ActionSms
+  - CRMScript.NetServer.TicketAlertAction.ActionSmsCustomer
+  - CRMScript.NetServer.TicketAlertAction.ActionSmsUser
+  - CRMScript.NetServer.TicketAlertAction.ActionSmsCategoryMaster
+  - CRMScript.NetServer.TicketAlertAction.ActionScript
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TicketAlertAction
+  syntax: 
+    content: TicketAlertAction
+  summary: "Bitmask available ticket alert action"
+  name: TicketAlertAction
+  nameWithType: TicketAlertAction
+  fullName: CRMScript.NetServer.TicketAlertAction
+- uid: CRMScript.NetServer.TicketAlertAction.ActionDelegate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionDelegate
+  syntax: 
+    content: TicketAlertAction.ActionDelegate
+  summary: "Controls Reassign"
+  name: ActionDelegate
+  nameWithType: ActionDelegate
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionDelegate
+- uid: CRMScript.NetServer.TicketAlertAction.ActionEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionEmail
+  syntax: 
+    content: TicketAlertAction.ActionEmail
+  summary: "Controls Email others"
+  name: ActionEmail
+  nameWithType: ActionEmail
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionEmail
+- uid: CRMScript.NetServer.TicketAlertAction.ActionEmailCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionEmailCustomer
+  syntax: 
+    content: TicketAlertAction.ActionEmailCustomer
+  summary: "Controls Email Contact"
+  name: ActionEmailCustomer
+  nameWithType: ActionEmailCustomer
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionEmailCustomer
+- uid: CRMScript.NetServer.TicketAlertAction.ActionEmailUser
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionEmailUser
+  syntax: 
+    content: TicketAlertAction.ActionEmailUser
+  summary: "Controls Email User"
+  name: ActionEmailUser
+  nameWithType: ActionEmailUser
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionEmailUser
+- uid: CRMScript.NetServer.TicketAlertAction.ActionEmailCategoryMaster
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionEmailCategoryMaster
+  syntax: 
+    content: TicketAlertAction.ActionEmailCategoryMaster
+  summary: "Controls Email Category administrator"
+  name: ActionEmailCategoryMaster
+  nameWithType: ActionEmailCategoryMaster
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionEmailCategoryMaster
+- uid: CRMScript.NetServer.TicketAlertAction.ActionSms
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionSms
+  syntax: 
+    content: TicketAlertAction.ActionSms
+  summary: "Controls SMS others"
+  name: ActionSms
+  nameWithType: ActionSms
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionSms
+- uid: CRMScript.NetServer.TicketAlertAction.ActionSmsCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionSmsCustomer
+  syntax: 
+    content: TicketAlertAction.ActionSmsCustomer
+  summary: "Controls SMS Contact"
+  name: ActionSmsCustomer
+  nameWithType: ActionSmsCustomer
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionSmsCustomer
+- uid: CRMScript.NetServer.TicketAlertAction.ActionSmsUser
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionSmsUser
+  syntax: 
+    content: TicketAlertAction.ActionSmsUser
+  summary: "Controls SMS User"
+  name: ActionSmsUser
+  nameWithType: ActionSmsUser
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionSmsUser
+- uid: CRMScript.NetServer.TicketAlertAction.ActionSmsCategoryMaster
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionSmsCategoryMaster
+  syntax: 
+    content: TicketAlertAction.ActionSmsCategoryMaster
+  summary: "Controls SMS Category administrator"
+  name: ActionSmsCategoryMaster
+  nameWithType: ActionSmsCategoryMaster
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionSmsCategoryMaster
+- uid: CRMScript.NetServer.TicketAlertAction.ActionScript
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketAlertAction.ActionScript
+  syntax: 
+    content: TicketAlertAction.ActionScript
+  summary: "Controls Script"
+  name: ActionScript
+  nameWithType: ActionScript
+  fullName: CRMScript.NetServer.TicketAlertAction.ActionScript
+references:
+- uid: CRMScript.NetServer.TicketAlertAction
+  commentId: T:CRMScript.NetServer.TicketAlertAction
+  isExternal: true
+  name: TicketAlertAction
+  nameWithType: TicketAlertAction
+  fullName: CRMScript.NetServer.TicketAlertAction

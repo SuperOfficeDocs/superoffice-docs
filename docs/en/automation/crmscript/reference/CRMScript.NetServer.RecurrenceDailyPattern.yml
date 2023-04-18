@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.RecurrenceDailyPattern
+  children:
+  - CRMScript.NetServer.RecurrenceDailyPattern.Unknown
+  - CRMScript.NetServer.RecurrenceDailyPattern.EveryWorkday
+  - CRMScript.NetServer.RecurrenceDailyPattern.EveryWeekday
+  - CRMScript.NetServer.RecurrenceDailyPattern.EveryCyclicDay
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: RecurrenceDailyPattern
+  syntax: 
+    content: RecurrenceDailyPattern
+  summary: "Enumerator describing the different patterns for a daily recurrence"
+  name: RecurrenceDailyPattern
+  nameWithType: RecurrenceDailyPattern
+  fullName: CRMScript.NetServer.RecurrenceDailyPattern
+- uid: CRMScript.NetServer.RecurrenceDailyPattern.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceDailyPattern.Unknown
+  syntax: 
+    content: RecurrenceDailyPattern.Unknown
+  summary: "0: Unknown/undecided type"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.RecurrenceDailyPattern.Unknown
+- uid: CRMScript.NetServer.RecurrenceDailyPattern.EveryWorkday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceDailyPattern.EveryWorkday
+  syntax: 
+    content: RecurrenceDailyPattern.EveryWorkday
+  summary: "The recurrence is for every workday (Mon-Fri)"
+  name: EveryWorkday
+  nameWithType: EveryWorkday
+  fullName: CRMScript.NetServer.RecurrenceDailyPattern.EveryWorkday
+- uid: CRMScript.NetServer.RecurrenceDailyPattern.EveryWeekday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceDailyPattern.EveryWeekday
+  syntax: 
+    content: RecurrenceDailyPattern.EveryWeekday
+  summary: "The recurrence is for every workday (Mon-Sun)"
+  name: EveryWeekday
+  nameWithType: EveryWeekday
+  fullName: CRMScript.NetServer.RecurrenceDailyPattern.EveryWeekday
+- uid: CRMScript.NetServer.RecurrenceDailyPattern.EveryCyclicDay
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: RecurrenceDailyPattern.EveryCyclicDay
+  syntax: 
+    content: RecurrenceDailyPattern.EveryCyclicDay
+  summary: "The recurrence is for every cyclic interval of days."
+  name: EveryCyclicDay
+  nameWithType: EveryCyclicDay
+  fullName: CRMScript.NetServer.RecurrenceDailyPattern.EveryCyclicDay
+references:
+- uid: CRMScript.NetServer.RecurrenceDailyPattern
+  commentId: T:CRMScript.NetServer.RecurrenceDailyPattern
+  isExternal: true
+  name: RecurrenceDailyPattern
+  nameWithType: RecurrenceDailyPattern
+  fullName: CRMScript.NetServer.RecurrenceDailyPattern

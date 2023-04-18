@@ -1,0 +1,116 @@
+﻿items:
+- uid: CRMScript.NetServer.MessageHeaderStdItem
+  children:
+  - CRMScript.NetServer.MessageHeaderStdItem.None
+  - CRMScript.NetServer.MessageHeaderStdItem.Forward
+  - CRMScript.NetServer.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  - CRMScript.NetServer.MessageHeaderStdItem.NoAutoReply
+  - CRMScript.NetServer.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  - CRMScript.NetServer.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  - CRMScript.NetServer.MessageHeaderStdItem.CustomerReadFAQ
+  - CRMScript.NetServer.MessageHeaderStdItem.ReplyTemplate
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: MessageHeaderStdItem
+  syntax: 
+    content: MessageHeaderStdItem
+  summary: "Standard/predefined values for ticket message header"
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: CRMScript.NetServer.MessageHeaderStdItem
+- uid: CRMScript.NetServer.MessageHeaderStdItem.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.None
+  syntax: 
+    content: MessageHeaderStdItem.None
+  summary: "A standard header without predefined meaning"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.None
+- uid: CRMScript.NetServer.MessageHeaderStdItem.Forward
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.Forward
+  syntax: 
+    content: MessageHeaderStdItem.Forward
+  summary: "Forward"
+  name: Forward
+  nameWithType: Forward
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.Forward
+- uid: CRMScript.NetServer.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.UnnamedAttachmentBlocked
+  syntax: 
+    content: MessageHeaderStdItem.UnnamedAttachmentBlocked
+  summary: "Message contains certain attachments we simply do not import"
+  name: UnnamedAttachmentBlocked
+  nameWithType: UnnamedAttachmentBlocked
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.UnnamedAttachmentBlocked
+- uid: CRMScript.NetServer.MessageHeaderStdItem.NoAutoReply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.NoAutoReply
+  syntax: 
+    content: MessageHeaderStdItem.NoAutoReply
+  summary: "NoAutoReply"
+  name: NoAutoReply
+  nameWithType: NoAutoReply
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.NoAutoReply
+- uid: CRMScript.NetServer.MessageHeaderStdItem.SentAutoReplyToCustomersA
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.SentAutoReplyToCustomersA
+  syntax: 
+    content: MessageHeaderStdItem.SentAutoReplyToCustomersA
+  summary: "Auto-reply sent to customers A"
+  name: SentAutoReplyToCustomersA
+  nameWithType: SentAutoReplyToCustomersA
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.SentAutoReplyToCustomersA
+- uid: CRMScript.NetServer.MessageHeaderStdItem.SentAutoReplyToCustomersB
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.SentAutoReplyToCustomersB
+  syntax: 
+    content: MessageHeaderStdItem.SentAutoReplyToCustomersB
+  summary: "Auto-reply sent to customers B"
+  name: SentAutoReplyToCustomersB
+  nameWithType: SentAutoReplyToCustomersB
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.SentAutoReplyToCustomersB
+- uid: CRMScript.NetServer.MessageHeaderStdItem.CustomerReadFAQ
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.CustomerReadFAQ
+  syntax: 
+    content: MessageHeaderStdItem.CustomerReadFAQ
+  summary: "Customer read FAQ"
+  name: CustomerReadFAQ
+  nameWithType: CustomerReadFAQ
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.CustomerReadFAQ
+- uid: CRMScript.NetServer.MessageHeaderStdItem.ReplyTemplate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItem.ReplyTemplate
+  syntax: 
+    content: MessageHeaderStdItem.ReplyTemplate
+  summary: "This message was generated from reply template"
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate
+  fullName: CRMScript.NetServer.MessageHeaderStdItem.ReplyTemplate
+references:
+- uid: CRMScript.NetServer.MessageHeaderStdItem
+  commentId: T:CRMScript.NetServer.MessageHeaderStdItem
+  isExternal: true
+  name: MessageHeaderStdItem
+  nameWithType: MessageHeaderStdItem
+  fullName: CRMScript.NetServer.MessageHeaderStdItem

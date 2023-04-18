@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.DashTileEntityType
+  children:
+  - CRMScript.NetServer.DashTileEntityType.None
+  - CRMScript.NetServer.DashTileEntityType.Contact
+  - CRMScript.NetServer.DashTileEntityType.Sale
+  - CRMScript.NetServer.DashTileEntityType.Project
+  - CRMScript.NetServer.DashTileEntityType.Appointment
+  - CRMScript.NetServer.DashTileEntityType.Person
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashTileEntityType
+  syntax: 
+    content: DashTileEntityType
+  summary: "Dashboard tile entity type (V2)"
+  name: DashTileEntityType
+  nameWithType: DashTileEntityType
+  fullName: CRMScript.NetServer.DashTileEntityType
+- uid: CRMScript.NetServer.DashTileEntityType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileEntityType.None
+  syntax: 
+    content: DashTileEntityType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashTileEntityType.None
+- uid: CRMScript.NetServer.DashTileEntityType.Contact
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileEntityType.Contact
+  syntax: 
+    content: DashTileEntityType.Contact
+  summary: "Contact"
+  name: Contact
+  nameWithType: Contact
+  fullName: CRMScript.NetServer.DashTileEntityType.Contact
+- uid: CRMScript.NetServer.DashTileEntityType.Sale
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileEntityType.Sale
+  syntax: 
+    content: DashTileEntityType.Sale
+  summary: "Sale"
+  name: Sale
+  nameWithType: Sale
+  fullName: CRMScript.NetServer.DashTileEntityType.Sale
+- uid: CRMScript.NetServer.DashTileEntityType.Project
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileEntityType.Project
+  syntax: 
+    content: DashTileEntityType.Project
+  summary: "Project"
+  name: Project
+  nameWithType: Project
+  fullName: CRMScript.NetServer.DashTileEntityType.Project
+- uid: CRMScript.NetServer.DashTileEntityType.Appointment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileEntityType.Appointment
+  syntax: 
+    content: DashTileEntityType.Appointment
+  summary: "Appointment"
+  name: Appointment
+  nameWithType: Appointment
+  fullName: CRMScript.NetServer.DashTileEntityType.Appointment
+- uid: CRMScript.NetServer.DashTileEntityType.Person
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileEntityType.Person
+  syntax: 
+    content: DashTileEntityType.Person
+  summary: "Person"
+  name: Person
+  nameWithType: Person
+  fullName: CRMScript.NetServer.DashTileEntityType.Person
+references:
+- uid: CRMScript.NetServer.DashTileEntityType
+  commentId: T:CRMScript.NetServer.DashTileEntityType
+  isExternal: true
+  name: DashTileEntityType
+  nameWithType: DashTileEntityType
+  fullName: CRMScript.NetServer.DashTileEntityType

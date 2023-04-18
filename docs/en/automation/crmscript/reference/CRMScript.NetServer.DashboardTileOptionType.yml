@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.DashboardTileOptionType
+  children:
+  - CRMScript.NetServer.DashboardTileOptionType.None
+  - CRMScript.NetServer.DashboardTileOptionType.String
+  - CRMScript.NetServer.DashboardTileOptionType.Integer
+  - CRMScript.NetServer.DashboardTileOptionType.Boolean
+  - CRMScript.NetServer.DashboardTileOptionType.List
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashboardTileOptionType
+  syntax: 
+    content: DashboardTileOptionType
+  summary: "Dashboard tile option type"
+  name: DashboardTileOptionType
+  nameWithType: DashboardTileOptionType
+  fullName: CRMScript.NetServer.DashboardTileOptionType
+- uid: CRMScript.NetServer.DashboardTileOptionType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileOptionType.None
+  syntax: 
+    content: DashboardTileOptionType.None
+  summary: "Unknown type"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashboardTileOptionType.None
+- uid: CRMScript.NetServer.DashboardTileOptionType.String
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileOptionType.String
+  syntax: 
+    content: DashboardTileOptionType.String
+  summary: "String"
+  name: String
+  nameWithType: String
+  fullName: CRMScript.NetServer.DashboardTileOptionType.String
+- uid: CRMScript.NetServer.DashboardTileOptionType.Integer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileOptionType.Integer
+  syntax: 
+    content: DashboardTileOptionType.Integer
+  summary: "Integer"
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.NetServer.DashboardTileOptionType.Integer
+- uid: CRMScript.NetServer.DashboardTileOptionType.Boolean
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileOptionType.Boolean
+  syntax: 
+    content: DashboardTileOptionType.Boolean
+  summary: "Boolean"
+  name: Boolean
+  nameWithType: Boolean
+  fullName: CRMScript.NetServer.DashboardTileOptionType.Boolean
+- uid: CRMScript.NetServer.DashboardTileOptionType.List
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileOptionType.List
+  syntax: 
+    content: DashboardTileOptionType.List
+  summary: "List"
+  name: List
+  nameWithType: List
+  fullName: CRMScript.NetServer.DashboardTileOptionType.List
+references:
+- uid: CRMScript.NetServer.DashboardTileOptionType
+  commentId: T:CRMScript.NetServer.DashboardTileOptionType
+  isExternal: true
+  name: DashboardTileOptionType
+  nameWithType: DashboardTileOptionType
+  fullName: CRMScript.NetServer.DashboardTileOptionType

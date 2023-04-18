@@ -1,0 +1,128 @@
+﻿items:
+- uid: CRMScript.NetServer.DashboardTileEntityType
+  children:
+  - CRMScript.NetServer.DashboardTileEntityType.None
+  - CRMScript.NetServer.DashboardTileEntityType.Company
+  - CRMScript.NetServer.DashboardTileEntityType.Project
+  - CRMScript.NetServer.DashboardTileEntityType.Sale
+  - CRMScript.NetServer.DashboardTileEntityType.Product
+  - CRMScript.NetServer.DashboardTileEntityType.Activity
+  - CRMScript.NetServer.DashboardTileEntityType.Document
+  - CRMScript.NetServer.DashboardTileEntityType.WebPanel
+  - CRMScript.NetServer.DashboardTileEntityType.Followup
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashboardTileEntityType
+  syntax: 
+    content: DashboardTileEntityType
+  summary: "Dashboard tile entity type"
+  name: DashboardTileEntityType
+  nameWithType: DashboardTileEntityType
+  fullName: CRMScript.NetServer.DashboardTileEntityType
+- uid: CRMScript.NetServer.DashboardTileEntityType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.None
+  syntax: 
+    content: DashboardTileEntityType.None
+  summary: "Unknown entity type"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashboardTileEntityType.None
+- uid: CRMScript.NetServer.DashboardTileEntityType.Company
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.Company
+  syntax: 
+    content: DashboardTileEntityType.Company
+  summary: ""
+  name: Company
+  nameWithType: Company
+  fullName: CRMScript.NetServer.DashboardTileEntityType.Company
+- uid: CRMScript.NetServer.DashboardTileEntityType.Project
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.Project
+  syntax: 
+    content: DashboardTileEntityType.Project
+  summary: ""
+  name: Project
+  nameWithType: Project
+  fullName: CRMScript.NetServer.DashboardTileEntityType.Project
+- uid: CRMScript.NetServer.DashboardTileEntityType.Sale
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.Sale
+  syntax: 
+    content: DashboardTileEntityType.Sale
+  summary: ""
+  name: Sale
+  nameWithType: Sale
+  fullName: CRMScript.NetServer.DashboardTileEntityType.Sale
+- uid: CRMScript.NetServer.DashboardTileEntityType.Product
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.Product
+  syntax: 
+    content: DashboardTileEntityType.Product
+  summary: ""
+  name: Product
+  nameWithType: Product
+  fullName: CRMScript.NetServer.DashboardTileEntityType.Product
+- uid: CRMScript.NetServer.DashboardTileEntityType.Activity
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.Activity
+  syntax: 
+    content: DashboardTileEntityType.Activity
+  summary: ""
+  name: Activity
+  nameWithType: Activity
+  fullName: CRMScript.NetServer.DashboardTileEntityType.Activity
+- uid: CRMScript.NetServer.DashboardTileEntityType.Document
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.Document
+  syntax: 
+    content: DashboardTileEntityType.Document
+  summary: ""
+  name: Document
+  nameWithType: Document
+  fullName: CRMScript.NetServer.DashboardTileEntityType.Document
+- uid: CRMScript.NetServer.DashboardTileEntityType.WebPanel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.WebPanel
+  syntax: 
+    content: DashboardTileEntityType.WebPanel
+  summary: ""
+  name: WebPanel
+  nameWithType: WebPanel
+  fullName: CRMScript.NetServer.DashboardTileEntityType.WebPanel
+- uid: CRMScript.NetServer.DashboardTileEntityType.Followup
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileEntityType.Followup
+  syntax: 
+    content: DashboardTileEntityType.Followup
+  summary: ""
+  name: Followup
+  nameWithType: Followup
+  fullName: CRMScript.NetServer.DashboardTileEntityType.Followup
+references:
+- uid: CRMScript.NetServer.DashboardTileEntityType
+  commentId: T:CRMScript.NetServer.DashboardTileEntityType
+  isExternal: true
+  name: DashboardTileEntityType
+  nameWithType: DashboardTileEntityType
+  fullName: CRMScript.NetServer.DashboardTileEntityType

@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.WeekOfMonth
+  children:
+  - CRMScript.NetServer.WeekOfMonth.Unknown
+  - CRMScript.NetServer.WeekOfMonth.First
+  - CRMScript.NetServer.WeekOfMonth.Second
+  - CRMScript.NetServer.WeekOfMonth.Third
+  - CRMScript.NetServer.WeekOfMonth.Fourth
+  - CRMScript.NetServer.WeekOfMonth.Last
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WeekOfMonth
+  syntax: 
+    content: WeekOfMonth
+  summary: "Enumerator representing a week of the month"
+  name: WeekOfMonth
+  nameWithType: WeekOfMonth
+  fullName: CRMScript.NetServer.WeekOfMonth
+- uid: CRMScript.NetServer.WeekOfMonth.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WeekOfMonth.Unknown
+  syntax: 
+    content: WeekOfMonth.Unknown
+  summary: "0: Unknown/undecided type"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.WeekOfMonth.Unknown
+- uid: CRMScript.NetServer.WeekOfMonth.First
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WeekOfMonth.First
+  syntax: 
+    content: WeekOfMonth.First
+  summary: "The first week of the month"
+  name: First
+  nameWithType: First
+  fullName: CRMScript.NetServer.WeekOfMonth.First
+- uid: CRMScript.NetServer.WeekOfMonth.Second
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WeekOfMonth.Second
+  syntax: 
+    content: WeekOfMonth.Second
+  summary: "The second week of the month"
+  name: Second
+  nameWithType: Second
+  fullName: CRMScript.NetServer.WeekOfMonth.Second
+- uid: CRMScript.NetServer.WeekOfMonth.Third
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WeekOfMonth.Third
+  syntax: 
+    content: WeekOfMonth.Third
+  summary: "The third week of the month"
+  name: Third
+  nameWithType: Third
+  fullName: CRMScript.NetServer.WeekOfMonth.Third
+- uid: CRMScript.NetServer.WeekOfMonth.Fourth
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WeekOfMonth.Fourth
+  syntax: 
+    content: WeekOfMonth.Fourth
+  summary: "The fourth week of the month"
+  name: Fourth
+  nameWithType: Fourth
+  fullName: CRMScript.NetServer.WeekOfMonth.Fourth
+- uid: CRMScript.NetServer.WeekOfMonth.Last
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WeekOfMonth.Last
+  syntax: 
+    content: WeekOfMonth.Last
+  summary: "The last week of the month"
+  name: Last
+  nameWithType: Last
+  fullName: CRMScript.NetServer.WeekOfMonth.Last
+references:
+- uid: CRMScript.NetServer.WeekOfMonth
+  commentId: T:CRMScript.NetServer.WeekOfMonth
+  isExternal: true
+  name: WeekOfMonth
+  nameWithType: WeekOfMonth
+  fullName: CRMScript.NetServer.WeekOfMonth

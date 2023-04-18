@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.ArchiveBehaviour
+  children:
+  - CRMScript.NetServer.ArchiveBehaviour.None
+  - CRMScript.NetServer.ArchiveBehaviour.InArchives
+  - CRMScript.NetServer.ArchiveBehaviour.MultiSelectInArchives
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ArchiveBehaviour
+  syntax: 
+    content: ArchiveBehaviour
+  summary: "Behaviour in archives"
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: CRMScript.NetServer.ArchiveBehaviour
+- uid: CRMScript.NetServer.ArchiveBehaviour.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ArchiveBehaviour.None
+  syntax: 
+    content: ArchiveBehaviour.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ArchiveBehaviour.None
+- uid: CRMScript.NetServer.ArchiveBehaviour.InArchives
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ArchiveBehaviour.InArchives
+  syntax: 
+    content: ArchiveBehaviour.InArchives
+  summary: "RightClick in archives"
+  name: InArchives
+  nameWithType: InArchives
+  fullName: CRMScript.NetServer.ArchiveBehaviour.InArchives
+- uid: CRMScript.NetServer.ArchiveBehaviour.MultiSelectInArchives
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ArchiveBehaviour.MultiSelectInArchives
+  syntax: 
+    content: ArchiveBehaviour.MultiSelectInArchives
+  summary: "RightClick with multiselect in archives"
+  name: MultiSelectInArchives
+  nameWithType: MultiSelectInArchives
+  fullName: CRMScript.NetServer.ArchiveBehaviour.MultiSelectInArchives
+references:
+- uid: CRMScript.NetServer.ArchiveBehaviour
+  commentId: T:CRMScript.NetServer.ArchiveBehaviour
+  isExternal: true
+  name: ArchiveBehaviour
+  nameWithType: ArchiveBehaviour
+  fullName: CRMScript.NetServer.ArchiveBehaviour

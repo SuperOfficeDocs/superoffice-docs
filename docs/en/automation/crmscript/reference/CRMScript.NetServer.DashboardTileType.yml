@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.DashboardTileType
+  children:
+  - CRMScript.NetServer.DashboardTileType.None
+  - CRMScript.NetServer.DashboardTileType.Chart
+  - CRMScript.NetServer.DashboardTileType.Web
+  - CRMScript.NetServer.DashboardTileType.List
+  - CRMScript.NetServer.DashboardTileType.Bignum
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashboardTileType
+  syntax: 
+    content: DashboardTileType
+  summary: "Dashboard tile type"
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: CRMScript.NetServer.DashboardTileType
+- uid: CRMScript.NetServer.DashboardTileType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileType.None
+  syntax: 
+    content: DashboardTileType.None
+  summary: "Unknown layout"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashboardTileType.None
+- uid: CRMScript.NetServer.DashboardTileType.Chart
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileType.Chart
+  syntax: 
+    content: DashboardTileType.Chart
+  summary: "Chart tile"
+  name: Chart
+  nameWithType: Chart
+  fullName: CRMScript.NetServer.DashboardTileType.Chart
+- uid: CRMScript.NetServer.DashboardTileType.Web
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileType.Web
+  syntax: 
+    content: DashboardTileType.Web
+  summary: "Web tile"
+  name: Web
+  nameWithType: Web
+  fullName: CRMScript.NetServer.DashboardTileType.Web
+- uid: CRMScript.NetServer.DashboardTileType.List
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileType.List
+  syntax: 
+    content: DashboardTileType.List
+  summary: "List tile"
+  name: List
+  nameWithType: List
+  fullName: CRMScript.NetServer.DashboardTileType.List
+- uid: CRMScript.NetServer.DashboardTileType.Bignum
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashboardTileType.Bignum
+  syntax: 
+    content: DashboardTileType.Bignum
+  summary: "Number tile"
+  name: Bignum
+  nameWithType: Bignum
+  fullName: CRMScript.NetServer.DashboardTileType.Bignum
+references:
+- uid: CRMScript.NetServer.DashboardTileType
+  commentId: T:CRMScript.NetServer.DashboardTileType
+  isExternal: true
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: CRMScript.NetServer.DashboardTileType

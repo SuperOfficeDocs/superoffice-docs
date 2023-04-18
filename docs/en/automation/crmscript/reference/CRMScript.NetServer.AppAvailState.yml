@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.AppAvailState
+  children:
+  - CRMScript.NetServer.AppAvailState.Always
+  - CRMScript.NetServer.AppAvailState.CentralDb
+  - CRMScript.NetServer.AppAvailState.SatelliteDb
+  - CRMScript.NetServer.AppAvailState.TravelDb
+  - CRMScript.NetServer.AppAvailState.SalesMarketingWeb
+  - CRMScript.NetServer.AppAvailState.SalesMarketingPocket
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: AppAvailState
+  syntax: 
+    content: AppAvailState
+  summary: "Value for the availableInState field in table externalapplication"
+  name: AppAvailState
+  nameWithType: AppAvailState
+  fullName: CRMScript.NetServer.AppAvailState
+- uid: CRMScript.NetServer.AppAvailState.Always
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AppAvailState.Always
+  syntax: 
+    content: AppAvailState.Always
+  summary: "This application is always available"
+  name: Always
+  nameWithType: Always
+  fullName: CRMScript.NetServer.AppAvailState.Always
+- uid: CRMScript.NetServer.AppAvailState.CentralDb
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AppAvailState.CentralDb
+  syntax: 
+    content: AppAvailState.CentralDb
+  summary: "This application is only available on the Central database"
+  name: CentralDb
+  nameWithType: CentralDb
+  fullName: CRMScript.NetServer.AppAvailState.CentralDb
+- uid: CRMScript.NetServer.AppAvailState.SatelliteDb
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AppAvailState.SatelliteDb
+  syntax: 
+    content: AppAvailState.SatelliteDb
+  summary: "This application is only available on a Satellite database"
+  name: SatelliteDb
+  nameWithType: SatelliteDb
+  fullName: CRMScript.NetServer.AppAvailState.SatelliteDb
+- uid: CRMScript.NetServer.AppAvailState.TravelDb
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AppAvailState.TravelDb
+  syntax: 
+    content: AppAvailState.TravelDb
+  summary: "This application is only available on a Travel database"
+  name: TravelDb
+  nameWithType: TravelDb
+  fullName: CRMScript.NetServer.AppAvailState.TravelDb
+- uid: CRMScript.NetServer.AppAvailState.SalesMarketingWeb
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AppAvailState.SalesMarketingWeb
+  syntax: 
+    content: AppAvailState.SalesMarketingWeb
+  summary: "This application is available on Sales Marketing Web"
+  name: SalesMarketingWeb
+  nameWithType: SalesMarketingWeb
+  fullName: CRMScript.NetServer.AppAvailState.SalesMarketingWeb
+- uid: CRMScript.NetServer.AppAvailState.SalesMarketingPocket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: AppAvailState.SalesMarketingPocket
+  syntax: 
+    content: AppAvailState.SalesMarketingPocket
+  summary: "This application is available on Sales Marketing Pocket"
+  name: SalesMarketingPocket
+  nameWithType: SalesMarketingPocket
+  fullName: CRMScript.NetServer.AppAvailState.SalesMarketingPocket
+references:
+- uid: CRMScript.NetServer.AppAvailState
+  commentId: T:CRMScript.NetServer.AppAvailState
+  isExternal: true
+  name: AppAvailState
+  nameWithType: AppAvailState
+  fullName: CRMScript.NetServer.AppAvailState

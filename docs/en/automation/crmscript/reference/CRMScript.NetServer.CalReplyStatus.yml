@@ -1,73 +1,64 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.CalReplyStatus
-  # Same as SuperOffice.Data.CalReplyStatus
-  commentId: T:CRMScript.NetServer.CalReplyStatus
-  id: CalReplyStatus
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.CalReplyStatus.Unknown
   - CRMScript.NetServer.CalReplyStatus.Accepted
   - CRMScript.NetServer.CalReplyStatus.Declined
   - CRMScript.NetServer.CalReplyStatus.Tentative
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: CalReplyStatus
+  syntax: 
+    content: CalReplyStatus
+  summary: "iCal reply status"
   name: CalReplyStatus
   nameWithType: CalReplyStatus
   fullName: CRMScript.NetServer.CalReplyStatus
-  type: Enum
-  summary: "\niCal reply status.\n"
 - uid: CRMScript.NetServer.CalReplyStatus.Unknown
-  commentId: F:CRMScript.NetServer.CalReplyStatus.Unknown
-  id: CalReplyStatus.Unknown
   langs:
   - crmscript
-  name: CalReplyStatus.Unknown
-  nameWithType: CalReplyStatus.Unknown
+  type: Field
+  so.intellisense: CalReplyStatus.Unknown
+  syntax: 
+    content: CalReplyStatus.Unknown
+  summary: "Status is not known"
+  name: Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.CalReplyStatus.Unknown
-  type: Field
-  summary: "\n0: Status is not known\n"
-  syntax: 
-    content: Unknown = 0
-    type: CRMScript.NetServer.CalReplyStatus
 - uid: CRMScript.NetServer.CalReplyStatus.Accepted
-  commentId: F:CRMScript.NetServer.CalReplyStatus.Accepted
-  id: CalReplyStatus.Accepted
   langs:
   - crmscript
-  name: CalReplyStatus.Accepted
-  nameWithType: CalReplyStatus.Accepted
+  type: Field
+  so.intellisense: CalReplyStatus.Accepted
+  syntax: 
+    content: CalReplyStatus.Accepted
+  summary: "The sender accepted the meeting."
+  name: Accepted
+  nameWithType: Accepted
   fullName: CRMScript.NetServer.CalReplyStatus.Accepted
-  type: Field
-  summary: "\n1: The sender accepted the meeting.\n"
-  syntax: 
-    content: Accepted = 1
-    type: CRMScript.NetServer.CalReplyStatus
 - uid: CRMScript.NetServer.CalReplyStatus.Declined
-  commentId: F:CRMScript.NetServer.CalReplyStatus.Declined
-  id: CalReplyStatus.Declined
   langs:
   - crmscript
-  name: CalReplyStatus.Declined
-  nameWithType: CalReplyStatus.Declined
+  type: Field
+  so.intellisense: CalReplyStatus.Declined
+  syntax: 
+    content: CalReplyStatus.Declined
+  summary: "The sender declined the meeting."
+  name: Declined
+  nameWithType: Declined
   fullName: CRMScript.NetServer.CalReplyStatus.Declined
-  type: Field
-  summary: "\n2: The sender declined the meeting.\n"
-  syntax: 
-    content: Declined = 2
-    type: CRMScript.NetServer.CalReplyStatus
 - uid: CRMScript.NetServer.CalReplyStatus.Tentative
-  commentId: F:CRMScript.NetServer.CalReplyStatus.Tentative
-  id: CalReplyStatus.Tentative
   langs:
   - crmscript
-  name: CalReplyStatus.Tentative
-  nameWithType: CalReplyStatus.Tentative
-  fullName: CRMScript.NetServer.CalReplyStatus.Tentative
   type: Field
-  summary: "\n3: The sender tentatively accepted the meeting.\n"
+  so.intellisense: CalReplyStatus.Tentative
   syntax: 
-    content: Tentative = 3
-    type: CRMScript.NetServer.CalReplyStatus
+    content: CalReplyStatus.Tentative
+  summary: "The sender tentatively accepted the meeting."
+  name: Tentative
+  nameWithType: Tentative
+  fullName: CRMScript.NetServer.CalReplyStatus.Tentative
 references:
 - uid: CRMScript.NetServer.CalReplyStatus
   commentId: T:CRMScript.NetServer.CalReplyStatus

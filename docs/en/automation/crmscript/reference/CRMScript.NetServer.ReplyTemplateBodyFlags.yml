@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.ReplyTemplateBodyFlags
+  children:
+  - CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  - CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  - CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  - CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ReplyTemplateBodyFlags
+  syntax: 
+    content: ReplyTemplateBodyFlags
+  summary: "Flags for the reply template body"
+  name: ReplyTemplateBodyFlags
+  nameWithType: ReplyTemplateBodyFlags
+  fullName: CRMScript.NetServer.ReplyTemplateBodyFlags
+- uid: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  syntax: 
+    content: ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+  summary: "None"
+  name: ReplyTemplateBodyNone
+  nameWithType: ReplyTemplateBodyNone
+  fullName: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyNone
+- uid: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  syntax: 
+    content: ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+  summary: "Default"
+  name: ReplyTemplateBodyDefault
+  nameWithType: ReplyTemplateBodyDefault
+  fullName: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyDefault
+- uid: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  syntax: 
+    content: ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+  summary: "Plaintext"
+  name: ReplyTemplateBodyIncludePlain
+  nameWithType: ReplyTemplateBodyIncludePlain
+  fullName: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludePlain
+- uid: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  syntax: 
+    content: ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+  summary: "Html"
+  name: ReplyTemplateBodyIncludeHtml
+  nameWithType: ReplyTemplateBodyIncludeHtml
+  fullName: CRMScript.NetServer.ReplyTemplateBodyFlags.ReplyTemplateBodyIncludeHtml
+references:
+- uid: CRMScript.NetServer.ReplyTemplateBodyFlags
+  commentId: T:CRMScript.NetServer.ReplyTemplateBodyFlags
+  isExternal: true
+  name: ReplyTemplateBodyFlags
+  nameWithType: ReplyTemplateBodyFlags
+  fullName: CRMScript.NetServer.ReplyTemplateBodyFlags

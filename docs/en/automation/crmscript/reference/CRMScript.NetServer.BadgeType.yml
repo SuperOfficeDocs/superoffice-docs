@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.BadgeType
+  children:
+  - CRMScript.NetServer.BadgeType.Unknown
+  - CRMScript.NetServer.BadgeType.Reply
+  - CRMScript.NetServer.BadgeType.Forward
+  - CRMScript.NetServer.BadgeType.Comment
+  - CRMScript.NetServer.BadgeType.Incoming
+  - CRMScript.NetServer.BadgeType.Outgoing
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: BadgeType
+  syntax: 
+    content: BadgeType
+  summary: "Value for field 'badge' in table 'ej_message'. Defines the initial source of a message."
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: CRMScript.NetServer.BadgeType
+- uid: CRMScript.NetServer.BadgeType.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BadgeType.Unknown
+  syntax: 
+    content: BadgeType.Unknown
+  summary: "Initial message source is unknown"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.BadgeType.Unknown
+- uid: CRMScript.NetServer.BadgeType.Reply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BadgeType.Reply
+  syntax: 
+    content: BadgeType.Reply
+  summary: "Message created as a reply"
+  name: Reply
+  nameWithType: Reply
+  fullName: CRMScript.NetServer.BadgeType.Reply
+- uid: CRMScript.NetServer.BadgeType.Forward
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BadgeType.Forward
+  syntax: 
+    content: BadgeType.Forward
+  summary: "Message created as a forward"
+  name: Forward
+  nameWithType: Forward
+  fullName: CRMScript.NetServer.BadgeType.Forward
+- uid: CRMScript.NetServer.BadgeType.Comment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BadgeType.Comment
+  syntax: 
+    content: BadgeType.Comment
+  summary: "Message created as an internal comment"
+  name: Comment
+  nameWithType: Comment
+  fullName: CRMScript.NetServer.BadgeType.Comment
+- uid: CRMScript.NetServer.BadgeType.Incoming
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BadgeType.Incoming
+  syntax: 
+    content: BadgeType.Incoming
+  summary: "Message created as a result of other events processing"
+  name: Incoming
+  nameWithType: Incoming
+  fullName: CRMScript.NetServer.BadgeType.Incoming
+- uid: CRMScript.NetServer.BadgeType.Outgoing
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: BadgeType.Outgoing
+  syntax: 
+    content: BadgeType.Outgoing
+  summary: "Message created as first outgoing message on ticket"
+  name: Outgoing
+  nameWithType: Outgoing
+  fullName: CRMScript.NetServer.BadgeType.Outgoing
+references:
+- uid: CRMScript.NetServer.BadgeType
+  commentId: T:CRMScript.NetServer.BadgeType
+  isExternal: true
+  name: BadgeType
+  nameWithType: BadgeType
+  fullName: CRMScript.NetServer.BadgeType

@@ -1,62 +1,52 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.TicketPriorityStatus
-  # Same as SuperOffice.Data.TicketPriorityStatus
-  commentId: T:CRMScript.NetServer.TicketPriorityStatus
-  id: TicketPriorityStatus
   children:
-  - CRMScript.NetServer.TicketPriorityStatus.Deleted
-  - CRMScript.NetServer.TicketPriorityStatus.Normal
   - CRMScript.NetServer.TicketPriorityStatus.Unknown
+  - CRMScript.NetServer.TicketPriorityStatus.Normal
+  - CRMScript.NetServer.TicketPriorityStatus.Deleted
   langs:
   - crmscript
+  type: Enum
+  so.intellisense: TicketPriorityStatus
+  syntax: 
+    content: TicketPriorityStatus
+  summary: "Status of the ticket priority"
   name: TicketPriorityStatus
   nameWithType: TicketPriorityStatus
   fullName: CRMScript.NetServer.TicketPriorityStatus
-  type: Enum
-  summary: "\nStatus of the ticket priority.\n"
 - uid: CRMScript.NetServer.TicketPriorityStatus.Unknown
-  commentId: F:CRMScript.NetServer.TicketPriorityStatus.Unknown
-  id: Unknown
   langs:
   - crmscript
+  type: Field
+  so.intellisense: TicketPriorityStatus.Unknown
+  syntax: 
+    content: TicketPriorityStatus.Unknown
+  summary: "The status is unknown, should normally not occure in the database"
   name: Unknown
-  nameWithType: TicketPriorityStatus.Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.TicketPriorityStatus.Unknown
-  type: Field
-  summary: "\n0: The status is unknown, should normally not occur in the database.\n"
-  syntax:
-    content: Unknown = 0
-    return:
-      type: CRMScript.NetServer.TicketPriorityStatus
 - uid: CRMScript.NetServer.TicketPriorityStatus.Normal
-  commentId: F:CRMScript.NetServer.TicketPriorityStatus.Normal
-  id: Normal
   langs:
   - crmscript
+  type: Field
+  so.intellisense: TicketPriorityStatus.Normal
+  syntax: 
+    content: TicketPriorityStatus.Normal
+  summary: "The status is normal"
   name: Normal
-  nameWithType: TicketPriorityStatus.Normal
+  nameWithType: Normal
   fullName: CRMScript.NetServer.TicketPriorityStatus.Normal
-  type: Field
-  summary: "\n1: The status is normal\n"
-  syntax:
-    content: Normal = 1
-    return:
-      type: CRMScript.NetServer.TicketPriorityStatus
 - uid: CRMScript.NetServer.TicketPriorityStatus.Deleted
-  commentId: F:CRMScript.NetServer.TicketPriorityStatus.Deleted
-  id: Deleted
   langs:
   - crmscript
-  name: Deleted
-  nameWithType: TicketPriorityStatus.Deleted
-  fullName: CRMScript.NetServer.TicketPriorityStatus.Deleted
   type: Field
-  summary: "\n2: The status is marked as deleted\n"
-  syntax:
-    content: Deleted = 2
-    return:
-      type: CRMScript.NetServer.TicketPriorityStatus
+  so.intellisense: TicketPriorityStatus.Deleted
+  syntax: 
+    content: TicketPriorityStatus.Deleted
+  summary: "The status is marked as deleted"
+  name: Deleted
+  nameWithType: Deleted
+  fullName: CRMScript.NetServer.TicketPriorityStatus.Deleted
 references:
 - uid: CRMScript.NetServer.TicketPriorityStatus
   commentId: T:CRMScript.NetServer.TicketPriorityStatus

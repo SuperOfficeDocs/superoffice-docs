@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.MessageHeaderStdItemCol
+  children:
+  - CRMScript.NetServer.MessageHeaderStdItemCol.None
+  - CRMScript.NetServer.MessageHeaderStdItemCol.Name
+  - CRMScript.NetServer.MessageHeaderStdItemCol.Value
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: MessageHeaderStdItemCol
+  syntax: 
+    content: MessageHeaderStdItemCol
+  summary: "Ticket message header modification options"
+  name: MessageHeaderStdItemCol
+  nameWithType: MessageHeaderStdItemCol
+  fullName: CRMScript.NetServer.MessageHeaderStdItemCol
+- uid: CRMScript.NetServer.MessageHeaderStdItemCol.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItemCol.None
+  syntax: 
+    content: MessageHeaderStdItemCol.None
+  summary: "The header should be returned/treated as-is, no modifications"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.MessageHeaderStdItemCol.None
+- uid: CRMScript.NetServer.MessageHeaderStdItemCol.Name
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItemCol.Name
+  syntax: 
+    content: MessageHeaderStdItemCol.Name
+  summary: "The localization resource should be added to the Name of a header"
+  name: Name
+  nameWithType: Name
+  fullName: CRMScript.NetServer.MessageHeaderStdItemCol.Name
+- uid: CRMScript.NetServer.MessageHeaderStdItemCol.Value
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: MessageHeaderStdItemCol.Value
+  syntax: 
+    content: MessageHeaderStdItemCol.Value
+  summary: "The localization resource should be added to the Value of a header"
+  name: Value
+  nameWithType: Value
+  fullName: CRMScript.NetServer.MessageHeaderStdItemCol.Value
+references:
+- uid: CRMScript.NetServer.MessageHeaderStdItemCol
+  commentId: T:CRMScript.NetServer.MessageHeaderStdItemCol
+  isExternal: true
+  name: MessageHeaderStdItemCol
+  nameWithType: MessageHeaderStdItemCol
+  fullName: CRMScript.NetServer.MessageHeaderStdItemCol

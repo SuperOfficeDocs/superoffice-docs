@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.DashTileUsage
+  children:
+  - CRMScript.NetServer.DashTileUsage.None
+  - CRMScript.NetServer.DashTileUsage.Dashboard
+  - CRMScript.NetServer.DashTileUsage.Selection
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashTileUsage
+  syntax: 
+    content: DashTileUsage
+  summary: "Defines where a DashTileDefinition can be used"
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: CRMScript.NetServer.DashTileUsage
+- uid: CRMScript.NetServer.DashTileUsage.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileUsage.None
+  syntax: 
+    content: DashTileUsage.None
+  summary: "Not visible anywhere"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashTileUsage.None
+- uid: CRMScript.NetServer.DashTileUsage.Dashboard
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileUsage.Dashboard
+  syntax: 
+    content: DashTileUsage.Dashboard
+  summary: "Visible in the tile library on the dashboard page"
+  name: Dashboard
+  nameWithType: Dashboard
+  fullName: CRMScript.NetServer.DashTileUsage.Dashboard
+- uid: CRMScript.NetServer.DashTileUsage.Selection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileUsage.Selection
+  syntax: 
+    content: DashTileUsage.Selection
+  summary: "Visible in the tile library on the selection page"
+  name: Selection
+  nameWithType: Selection
+  fullName: CRMScript.NetServer.DashTileUsage.Selection
+references:
+- uid: CRMScript.NetServer.DashTileUsage
+  commentId: T:CRMScript.NetServer.DashTileUsage
+  isExternal: true
+  name: DashTileUsage
+  nameWithType: DashTileUsage
+  fullName: CRMScript.NetServer.DashTileUsage

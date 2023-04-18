@@ -1,0 +1,116 @@
+﻿items:
+- uid: CRMScript.NetServer.Weekday
+  children:
+  - CRMScript.NetServer.Weekday.Unknown
+  - CRMScript.NetServer.Weekday.Monday
+  - CRMScript.NetServer.Weekday.Tuesday
+  - CRMScript.NetServer.Weekday.Wednesday
+  - CRMScript.NetServer.Weekday.Thursday
+  - CRMScript.NetServer.Weekday.Friday
+  - CRMScript.NetServer.Weekday.Saturday
+  - CRMScript.NetServer.Weekday.Sunday
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: Weekday
+  syntax: 
+    content: Weekday
+  summary: "Enumerator for the days of the week"
+  name: Weekday
+  nameWithType: Weekday
+  fullName: CRMScript.NetServer.Weekday
+- uid: CRMScript.NetServer.Weekday.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Unknown
+  syntax: 
+    content: Weekday.Unknown
+  summary: "0: Unknown/undecided type"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.Weekday.Unknown
+- uid: CRMScript.NetServer.Weekday.Monday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Monday
+  syntax: 
+    content: Weekday.Monday
+  summary: "Monday"
+  name: Monday
+  nameWithType: Monday
+  fullName: CRMScript.NetServer.Weekday.Monday
+- uid: CRMScript.NetServer.Weekday.Tuesday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Tuesday
+  syntax: 
+    content: Weekday.Tuesday
+  summary: "Tuesday"
+  name: Tuesday
+  nameWithType: Tuesday
+  fullName: CRMScript.NetServer.Weekday.Tuesday
+- uid: CRMScript.NetServer.Weekday.Wednesday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Wednesday
+  syntax: 
+    content: Weekday.Wednesday
+  summary: "Wednesday"
+  name: Wednesday
+  nameWithType: Wednesday
+  fullName: CRMScript.NetServer.Weekday.Wednesday
+- uid: CRMScript.NetServer.Weekday.Thursday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Thursday
+  syntax: 
+    content: Weekday.Thursday
+  summary: "Thursday"
+  name: Thursday
+  nameWithType: Thursday
+  fullName: CRMScript.NetServer.Weekday.Thursday
+- uid: CRMScript.NetServer.Weekday.Friday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Friday
+  syntax: 
+    content: Weekday.Friday
+  summary: "Friday"
+  name: Friday
+  nameWithType: Friday
+  fullName: CRMScript.NetServer.Weekday.Friday
+- uid: CRMScript.NetServer.Weekday.Saturday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Saturday
+  syntax: 
+    content: Weekday.Saturday
+  summary: "Saturday"
+  name: Saturday
+  nameWithType: Saturday
+  fullName: CRMScript.NetServer.Weekday.Saturday
+- uid: CRMScript.NetServer.Weekday.Sunday
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Weekday.Sunday
+  syntax: 
+    content: Weekday.Sunday
+  summary: "Sunday"
+  name: Sunday
+  nameWithType: Sunday
+  fullName: CRMScript.NetServer.Weekday.Sunday
+references:
+- uid: CRMScript.NetServer.Weekday
+  commentId: T:CRMScript.NetServer.Weekday
+  isExternal: true
+  name: Weekday
+  nameWithType: Weekday
+  fullName: CRMScript.NetServer.Weekday

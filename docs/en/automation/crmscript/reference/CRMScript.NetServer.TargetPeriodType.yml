@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.TargetPeriodType
+  children:
+  - CRMScript.NetServer.TargetPeriodType.None
+  - CRMScript.NetServer.TargetPeriodType.Year
+  - CRMScript.NetServer.TargetPeriodType.HalfYear
+  - CRMScript.NetServer.TargetPeriodType.Quarter
+  - CRMScript.NetServer.TargetPeriodType.Month
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TargetPeriodType
+  syntax: 
+    content: TargetPeriodType
+  summary: "Target period type"
+  name: TargetPeriodType
+  nameWithType: TargetPeriodType
+  fullName: CRMScript.NetServer.TargetPeriodType
+- uid: CRMScript.NetServer.TargetPeriodType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetPeriodType.None
+  syntax: 
+    content: TargetPeriodType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TargetPeriodType.None
+- uid: CRMScript.NetServer.TargetPeriodType.Year
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetPeriodType.Year
+  syntax: 
+    content: TargetPeriodType.Year
+  summary: "Year"
+  name: Year
+  nameWithType: Year
+  fullName: CRMScript.NetServer.TargetPeriodType.Year
+- uid: CRMScript.NetServer.TargetPeriodType.HalfYear
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetPeriodType.HalfYear
+  syntax: 
+    content: TargetPeriodType.HalfYear
+  summary: "HalfYear"
+  name: HalfYear
+  nameWithType: HalfYear
+  fullName: CRMScript.NetServer.TargetPeriodType.HalfYear
+- uid: CRMScript.NetServer.TargetPeriodType.Quarter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetPeriodType.Quarter
+  syntax: 
+    content: TargetPeriodType.Quarter
+  summary: "Quarter"
+  name: Quarter
+  nameWithType: Quarter
+  fullName: CRMScript.NetServer.TargetPeriodType.Quarter
+- uid: CRMScript.NetServer.TargetPeriodType.Month
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TargetPeriodType.Month
+  syntax: 
+    content: TargetPeriodType.Month
+  summary: "Month"
+  name: Month
+  nameWithType: Month
+  fullName: CRMScript.NetServer.TargetPeriodType.Month
+references:
+- uid: CRMScript.NetServer.TargetPeriodType
+  commentId: T:CRMScript.NetServer.TargetPeriodType
+  isExternal: true
+  name: TargetPeriodType
+  nameWithType: TargetPeriodType
+  fullName: CRMScript.NetServer.TargetPeriodType

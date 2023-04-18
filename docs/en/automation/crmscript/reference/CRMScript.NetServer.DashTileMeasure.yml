@@ -1,0 +1,104 @@
+﻿items:
+- uid: CRMScript.NetServer.DashTileMeasure
+  children:
+  - CRMScript.NetServer.DashTileMeasure.None
+  - CRMScript.NetServer.DashTileMeasure.CountAll
+  - CRMScript.NetServer.DashTileMeasure.Sum
+  - CRMScript.NetServer.DashTileMeasure.Average
+  - CRMScript.NetServer.DashTileMeasure.Max
+  - CRMScript.NetServer.DashTileMeasure.Min
+  - CRMScript.NetServer.DashTileMeasure.Count
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: DashTileMeasure
+  syntax: 
+    content: DashTileMeasure
+  summary: "Dashboard tile measure"
+  name: DashTileMeasure
+  nameWithType: DashTileMeasure
+  fullName: CRMScript.NetServer.DashTileMeasure
+- uid: CRMScript.NetServer.DashTileMeasure.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileMeasure.None
+  syntax: 
+    content: DashTileMeasure.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.DashTileMeasure.None
+- uid: CRMScript.NetServer.DashTileMeasure.CountAll
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileMeasure.CountAll
+  syntax: 
+    content: DashTileMeasure.CountAll
+  summary: "CountAll"
+  name: CountAll
+  nameWithType: CountAll
+  fullName: CRMScript.NetServer.DashTileMeasure.CountAll
+- uid: CRMScript.NetServer.DashTileMeasure.Sum
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileMeasure.Sum
+  syntax: 
+    content: DashTileMeasure.Sum
+  summary: "Sum"
+  name: Sum
+  nameWithType: Sum
+  fullName: CRMScript.NetServer.DashTileMeasure.Sum
+- uid: CRMScript.NetServer.DashTileMeasure.Average
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileMeasure.Average
+  syntax: 
+    content: DashTileMeasure.Average
+  summary: "Average"
+  name: Average
+  nameWithType: Average
+  fullName: CRMScript.NetServer.DashTileMeasure.Average
+- uid: CRMScript.NetServer.DashTileMeasure.Max
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileMeasure.Max
+  syntax: 
+    content: DashTileMeasure.Max
+  summary: "Max"
+  name: Max
+  nameWithType: Max
+  fullName: CRMScript.NetServer.DashTileMeasure.Max
+- uid: CRMScript.NetServer.DashTileMeasure.Min
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileMeasure.Min
+  syntax: 
+    content: DashTileMeasure.Min
+  summary: "Min"
+  name: Min
+  nameWithType: Min
+  fullName: CRMScript.NetServer.DashTileMeasure.Min
+- uid: CRMScript.NetServer.DashTileMeasure.Count
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: DashTileMeasure.Count
+  syntax: 
+    content: DashTileMeasure.Count
+  summary: "Count"
+  name: Count
+  nameWithType: Count
+  fullName: CRMScript.NetServer.DashTileMeasure.Count
+references:
+- uid: CRMScript.NetServer.DashTileMeasure
+  commentId: T:CRMScript.NetServer.DashTileMeasure
+  isExternal: true
+  name: DashTileMeasure
+  nameWithType: DashTileMeasure
+  fullName: CRMScript.NetServer.DashTileMeasure

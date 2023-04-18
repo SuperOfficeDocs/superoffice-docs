@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.CommandAction
+  children:
+  - CRMScript.NetServer.CommandAction.Implicit
+  - CRMScript.NetServer.CommandAction.YesNo
+  - CRMScript.NetServer.CommandAction.OkCancel
+  - CRMScript.NetServer.CommandAction.Ok
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: CommandAction
+  syntax: 
+    content: CommandAction
+  summary: "Command action"
+  name: CommandAction
+  nameWithType: CommandAction
+  fullName: CRMScript.NetServer.CommandAction
+- uid: CRMScript.NetServer.CommandAction.Implicit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandAction.Implicit
+  syntax: 
+    content: CommandAction.Implicit
+  summary: "Command should be implicitly executed."
+  name: Implicit
+  nameWithType: Implicit
+  fullName: CRMScript.NetServer.CommandAction.Implicit
+- uid: CRMScript.NetServer.CommandAction.YesNo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandAction.YesNo
+  syntax: 
+    content: CommandAction.YesNo
+  summary: "The client must display a dialog with buttons Yes and No."
+  name: YesNo
+  nameWithType: YesNo
+  fullName: CRMScript.NetServer.CommandAction.YesNo
+- uid: CRMScript.NetServer.CommandAction.OkCancel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandAction.OkCancel
+  syntax: 
+    content: CommandAction.OkCancel
+  summary: "The client must display a dialog with buttons Ok and Cancel."
+  name: OkCancel
+  nameWithType: OkCancel
+  fullName: CRMScript.NetServer.CommandAction.OkCancel
+- uid: CRMScript.NetServer.CommandAction.Ok
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: CommandAction.Ok
+  syntax: 
+    content: CommandAction.Ok
+  summary: "The client must display a dialog with Ok-button"
+  name: Ok
+  nameWithType: Ok
+  fullName: CRMScript.NetServer.CommandAction.Ok
+references:
+- uid: CRMScript.NetServer.CommandAction
+  commentId: T:CRMScript.NetServer.CommandAction
+  isExternal: true
+  name: CommandAction
+  nameWithType: CommandAction
+  fullName: CRMScript.NetServer.CommandAction

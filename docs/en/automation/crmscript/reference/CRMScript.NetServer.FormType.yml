@@ -1,49 +1,40 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.FormType
-  # Same as SuperOffice.Data.FormType
-  commentId: T:CRMScript.NetServer.FormType
-  id: FormType
   children:
   - CRMScript.NetServer.FormType.Normal
   - CRMScript.NetServer.FormType.Template
   langs:
   - crmscript
+  type: Enum
+  so.intellisense: FormType
+  syntax: 
+    content: FormType
+  summary: "What kind of form is this"
   name: FormType
   nameWithType: FormType
   fullName: CRMScript.NetServer.FormType
-  type: Enum
-  summary: "\nWhat kind of form is this.\n"
 - uid: CRMScript.NetServer.FormType.Normal
-  commentId: F:CRMScript.NetServer.FormType.Normal
-  id: Normal
   langs:
   - crmscript
+  type: Field
+  so.intellisense: FormType.Normal
+  syntax: 
+    content: FormType.Normal
+  summary: "A form instance"
   name: Normal
-  nameWithType: FormType.Normal
+  nameWithType: Normal
   fullName: CRMScript.NetServer.FormType.Normal
-  type: Field
-  namespace: SuperOffice.Data
-  summary: "\n0: A form instance\n"
-  syntax:
-    content: Normal = 0
-    return:
-      type: CRMScript.NetServer.FormType
 - uid: CRMScript.NetServer.FormType.Template
-  commentId: F:CRMScript.NetServer.FormType.Template
-  id: Template
   langs:
   - crmscript
-  name: Template
-  nameWithType: FormType.Template
-  fullName: CRMScript.NetServer.FormType.Template
   type: Field
-  namespace: SuperOffice.Data
-  summary: "\n1: A form template\n"
-  syntax:
-    content: Template = 1
-    return:
-      type: CRMScript.NetServer.FormType
+  so.intellisense: FormType.Template
+  syntax: 
+    content: FormType.Template
+  summary: "A form template"
+  name: Template
+  nameWithType: Template
+  fullName: CRMScript.NetServer.FormType.Template
 references:
 - uid: CRMScript.NetServer.FormType
   commentId: T:CRMScript.NetServer.FormType

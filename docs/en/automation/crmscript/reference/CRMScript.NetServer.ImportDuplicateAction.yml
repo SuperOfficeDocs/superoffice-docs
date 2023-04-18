@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportDuplicateAction
+  children:
+  - CRMScript.NetServer.ImportDuplicateAction.Add
+  - CRMScript.NetServer.ImportDuplicateAction.MergeBlank
+  - CRMScript.NetServer.ImportDuplicateAction.Replace
+  - CRMScript.NetServer.ImportDuplicateAction.Skip
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportDuplicateAction
+  syntax: 
+    content: ImportDuplicateAction
+  summary: "Duplicate action for import"
+  name: ImportDuplicateAction
+  nameWithType: ImportDuplicateAction
+  fullName: CRMScript.NetServer.ImportDuplicateAction
+- uid: CRMScript.NetServer.ImportDuplicateAction.Add
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportDuplicateAction.Add
+  syntax: 
+    content: ImportDuplicateAction.Add
+  summary: "Add"
+  name: Add
+  nameWithType: Add
+  fullName: CRMScript.NetServer.ImportDuplicateAction.Add
+- uid: CRMScript.NetServer.ImportDuplicateAction.MergeBlank
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportDuplicateAction.MergeBlank
+  syntax: 
+    content: ImportDuplicateAction.MergeBlank
+  summary: "Merge blank"
+  name: MergeBlank
+  nameWithType: MergeBlank
+  fullName: CRMScript.NetServer.ImportDuplicateAction.MergeBlank
+- uid: CRMScript.NetServer.ImportDuplicateAction.Replace
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportDuplicateAction.Replace
+  syntax: 
+    content: ImportDuplicateAction.Replace
+  summary: "Replace"
+  name: Replace
+  nameWithType: Replace
+  fullName: CRMScript.NetServer.ImportDuplicateAction.Replace
+- uid: CRMScript.NetServer.ImportDuplicateAction.Skip
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportDuplicateAction.Skip
+  syntax: 
+    content: ImportDuplicateAction.Skip
+  summary: "Skip"
+  name: Skip
+  nameWithType: Skip
+  fullName: CRMScript.NetServer.ImportDuplicateAction.Skip
+references:
+- uid: CRMScript.NetServer.ImportDuplicateAction
+  commentId: T:CRMScript.NetServer.ImportDuplicateAction
+  isExternal: true
+  name: ImportDuplicateAction
+  nameWithType: ImportDuplicateAction
+  fullName: CRMScript.NetServer.ImportDuplicateAction

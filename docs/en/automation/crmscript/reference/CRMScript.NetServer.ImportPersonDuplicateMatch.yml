@@ -1,0 +1,92 @@
+﻿items:
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch
+  children:
+  - CRMScript.NetServer.ImportPersonDuplicateMatch.FullName
+  - CRMScript.NetServer.ImportPersonDuplicateMatch.EMailAddress
+  - CRMScript.NetServer.ImportPersonDuplicateMatch.MobilePhone
+  - CRMScript.NetServer.ImportPersonDuplicateMatch.Number
+  - CRMScript.NetServer.ImportPersonDuplicateMatch.None
+  - CRMScript.NetServer.ImportPersonDuplicateMatch.Id
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ImportPersonDuplicateMatch
+  syntax: 
+    content: ImportPersonDuplicateMatch
+  summary: "Person duplicate matching for import"
+  name: ImportPersonDuplicateMatch
+  nameWithType: ImportPersonDuplicateMatch
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch.FullName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPersonDuplicateMatch.FullName
+  syntax: 
+    content: ImportPersonDuplicateMatch.FullName
+  summary: "Full name"
+  name: FullName
+  nameWithType: FullName
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch.FullName
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch.EMailAddress
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPersonDuplicateMatch.EMailAddress
+  syntax: 
+    content: ImportPersonDuplicateMatch.EMailAddress
+  summary: "E-mail address"
+  name: EMailAddress
+  nameWithType: EMailAddress
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch.EMailAddress
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch.MobilePhone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPersonDuplicateMatch.MobilePhone
+  syntax: 
+    content: ImportPersonDuplicateMatch.MobilePhone
+  summary: "Mobile phone"
+  name: MobilePhone
+  nameWithType: MobilePhone
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch.MobilePhone
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch.Number
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPersonDuplicateMatch.Number
+  syntax: 
+    content: ImportPersonDuplicateMatch.Number
+  summary: "Number"
+  name: Number
+  nameWithType: Number
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch.Number
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPersonDuplicateMatch.None
+  syntax: 
+    content: ImportPersonDuplicateMatch.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch.None
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch.Id
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ImportPersonDuplicateMatch.Id
+  syntax: 
+    content: ImportPersonDuplicateMatch.Id
+  summary: "Id"
+  name: Id
+  nameWithType: Id
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch.Id
+references:
+- uid: CRMScript.NetServer.ImportPersonDuplicateMatch
+  commentId: T:CRMScript.NetServer.ImportPersonDuplicateMatch
+  isExternal: true
+  name: ImportPersonDuplicateMatch
+  nameWithType: ImportPersonDuplicateMatch
+  fullName: CRMScript.NetServer.ImportPersonDuplicateMatch

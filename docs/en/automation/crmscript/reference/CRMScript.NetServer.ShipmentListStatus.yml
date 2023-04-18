@@ -1,0 +1,44 @@
+﻿items:
+- uid: CRMScript.NetServer.ShipmentListStatus
+  children:
+  - CRMScript.NetServer.ShipmentListStatus.NotSent
+  - CRMScript.NetServer.ShipmentListStatus.Sent
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ShipmentListStatus
+  syntax: 
+    content: ShipmentListStatus
+  summary: "Status of shipment list"
+  name: ShipmentListStatus
+  nameWithType: ShipmentListStatus
+  fullName: CRMScript.NetServer.ShipmentListStatus
+- uid: CRMScript.NetServer.ShipmentListStatus.NotSent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentListStatus.NotSent
+  syntax: 
+    content: ShipmentListStatus.NotSent
+  summary: "Not sent"
+  name: NotSent
+  nameWithType: NotSent
+  fullName: CRMScript.NetServer.ShipmentListStatus.NotSent
+- uid: CRMScript.NetServer.ShipmentListStatus.Sent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ShipmentListStatus.Sent
+  syntax: 
+    content: ShipmentListStatus.Sent
+  summary: "Sent"
+  name: Sent
+  nameWithType: Sent
+  fullName: CRMScript.NetServer.ShipmentListStatus.Sent
+references:
+- uid: CRMScript.NetServer.ShipmentListStatus
+  commentId: T:CRMScript.NetServer.ShipmentListStatus
+  isExternal: true
+  name: ShipmentListStatus
+  nameWithType: ShipmentListStatus
+  fullName: CRMScript.NetServer.ShipmentListStatus

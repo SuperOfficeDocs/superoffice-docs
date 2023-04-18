@@ -1,59 +1,52 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.Visibility
-  # Same as SuperOffice.Data.Visibility
-  commentId: T:CRMScript.NetServer.Visibility
-  id: Visibility
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.Visibility.All
   - CRMScript.NetServer.Visibility.Associate
   - CRMScript.NetServer.Visibility.Group
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: Visibility
+  syntax: 
+    content: Visibility
+  summary: "The visibility of the record"
   name: Visibility
   nameWithType: Visibility
   fullName: CRMScript.NetServer.Visibility
-  type: Enum
-  summary: "\nThe visibility of the record.\n"
 - uid: CRMScript.NetServer.Visibility.All
-  commentId: F:CRMScript.NetServer.Visibility.All
-  id: Visibility.All
   langs:
   - crmscript
-  name: Visibility.All
-  nameWithType: Visibility.All
+  type: Field
+  so.intellisense: Visibility.All
+  syntax: 
+    content: Visibility.All
+  summary: "0 = Visible for all users"
+  name: All
+  nameWithType: All
   fullName: CRMScript.NetServer.Visibility.All
-  type: Field
-  summary: "\n0: Visible for all users\n"
-  syntax: 
-    content: All = 0
-    type: CRMScript.NetServer.Visibility
 - uid: CRMScript.NetServer.Visibility.Associate
-  commentId: F:CRMScript.NetServer.Visibility.Associate
-  id: Visibility.Associate
   langs:
   - crmscript
-  name: Visibility.Associate
-  nameWithType: Visibility.Associate
+  type: Field
+  so.intellisense: Visibility.Associate
+  syntax: 
+    content: Visibility.Associate
+  summary: "1 = The visibility is set for an associate"
+  name: Associate
+  nameWithType: Associate
   fullName: CRMScript.NetServer.Visibility.Associate
-  type: Field
-  summary: "\n1: The visibility is set for an associate\n"
-  syntax: 
-    content: Associate = 1
-    type: CRMScript.NetServer.Visibility
 - uid: CRMScript.NetServer.Visibility.Group
-  commentId: F:CRMScript.NetServer.Visibility.Group
-  id: Visibility.Group
   langs:
   - crmscript
-  name: Visibility.Group
-  nameWithType: Visibility.Group
-  fullName: CRMScript.NetServer.Visibility.Group
   type: Field
-  summary: "\n2: The visibility is set for a group\n"
+  so.intellisense: Visibility.Group
   syntax: 
-    content: Group = 2
-    type: CRMScript.NetServer.Visibility
+    content: Visibility.Group
+  summary: "2 = The visibility is set for a group"
+  name: Group
+  nameWithType: Group
+  fullName: CRMScript.NetServer.Visibility.Group
 references:
 - uid: CRMScript.NetServer.Visibility
   commentId: T:CRMScript.NetServer.Visibility

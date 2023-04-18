@@ -1,0 +1,908 @@
+﻿items:
+- uid: CRMScript.NetServer.TicketLogAction
+  children:
+  - CRMScript.NetServer.TicketLogAction.No_Logging
+  - CRMScript.NetServer.TicketLogAction.Ticket_Unknown
+  - CRMScript.NetServer.TicketLogAction.Ticket_CustomDescription
+  - CRMScript.NetServer.TicketLogAction.Ticket_ImportTicketFromEmail
+  - CRMScript.NetServer.TicketLogAction.Ticket_ImportMailNewTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_ImportMailExistingTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_AttachmentConnectedToTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_TicketActivated
+  - CRMScript.NetServer.TicketLogAction.Ticket_TicketEscalated
+  - CRMScript.NetServer.TicketLogAction.Ticket_ConnectTwoTickets
+  - CRMScript.NetServer.TicketLogAction.Ticket_MessageAddedToTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_SendingSpmMessage
+  - CRMScript.NetServer.TicketLogAction.Ticket_SavedFromEjScript
+  - CRMScript.NetServer.TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  - CRMScript.NetServer.TicketLogAction.Ticket_SetValuesFromSoap
+  - CRMScript.NetServer.TicketLogAction.Ticket_AddMessageFromSoap
+  - CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromSoap
+  - CRMScript.NetServer.TicketLogAction.Ticket_AddMessage
+  - CRMScript.NetServer.TicketLogAction.Ticket_NewTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_UserTakesOwnership
+  - CRMScript.NetServer.TicketLogAction.Ticket_ChangeStatus
+  - CRMScript.NetServer.TicketLogAction.Ticket_ChangeSecurityStatus
+  - CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraDateTime
+  - CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraDate
+  - CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraTime
+  - CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraField
+  - CRMScript.NetServer.TicketLogAction.Ticket_SwapExtraField
+  - CRMScript.NetServer.TicketLogAction.Ticket_ReadByUser
+  - CRMScript.NetServer.TicketLogAction.Ticket_BatchOperation
+  - CRMScript.NetServer.TicketLogAction.Ticket_BatchMarkAsRead
+  - CRMScript.NetServer.TicketLogAction.Ticket_BatchMarkAsUnread
+  - CRMScript.NetServer.TicketLogAction.Ticket_BatchCloseTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_EditTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_DeleteTicket
+  - CRMScript.NetServer.TicketLogAction.Ticket_JoinTickets
+  - CRMScript.NetServer.TicketLogAction.Ticket_EditMessage
+  - CRMScript.NetServer.TicketLogAction.Ticket_CloseTicketAfterForward
+  - CRMScript.NetServer.TicketLogAction.Ticket_CloseAfterMassMessage
+  - CRMScript.NetServer.TicketLogAction.Ticket_CloseTicketFromSoap
+  - CRMScript.NetServer.TicketLogAction.Ticket_ReadTicketFromSoap
+  - CRMScript.NetServer.TicketLogAction.Ticket_UserDeletedOwneraction
+  - CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromSpecialForm
+  - CRMScript.NetServer.TicketLogAction.Ticket_TicketClosedByFAQ
+  - CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromCustomer
+  - CRMScript.NetServer.TicketLogAction.Ticket_AddMessageFromCustomer
+  - CRMScript.NetServer.TicketLogAction.Ticket_ReadByCustomer
+  - CRMScript.NetServer.TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  - CRMScript.NetServer.TicketLogAction.Ticket_TicketActivatedByBounce
+  - CRMScript.NetServer.TicketLogAction.Ticket_AutoCategorized
+  - CRMScript.NetServer.TicketLogAction.Message_Unknown
+  - CRMScript.NetServer.TicketLogAction.Message_CustomDescription
+  - CRMScript.NetServer.TicketLogAction.Message_Continue
+  - CRMScript.NetServer.TicketLogAction.Message_ImportTicketFromEmail
+  - CRMScript.NetServer.TicketLogAction.Message_ImportMailAddMessage
+  - CRMScript.NetServer.TicketLogAction.Message_AddedDebugInfo
+  - CRMScript.NetServer.TicketLogAction.Message_SendingReplyTemplate
+  - CRMScript.NetServer.TicketLogAction.Message_SendingSMS
+  - CRMScript.NetServer.TicketLogAction.Message_SendingSpmMessage
+  - CRMScript.NetServer.TicketLogAction.Message_SavedFromEjScript
+  - CRMScript.NetServer.TicketLogAction.Message_AddMessageFromSoap
+  - CRMScript.NetServer.TicketLogAction.Message_AddMessage
+  - CRMScript.NetServer.TicketLogAction.Message_NewTicket
+  - CRMScript.NetServer.TicketLogAction.Message_EditTicket
+  - CRMScript.NetServer.TicketLogAction.Message_EditMessage
+  - CRMScript.NetServer.TicketLogAction.Message_ForwardMessage
+  - CRMScript.NetServer.TicketLogAction.Message_AddMassMessage
+  - CRMScript.NetServer.TicketLogAction.Message_NewMessageFromSpecialForm
+  - CRMScript.NetServer.TicketLogAction.Message_TicketNotifyFAQ
+  - CRMScript.NetServer.TicketLogAction.Message_NewTicketFromCustomer
+  - CRMScript.NetServer.TicketLogAction.Message_AddMessageFromCustomer
+  - CRMScript.NetServer.TicketLogAction.Message_BounceMessage
+  - CRMScript.NetServer.TicketLogAction.Message_OutboxMessage
+  - CRMScript.NetServer.TicketLogAction.Message_EditMessageFromSoap
+  - CRMScript.NetServer.TicketLogAction.Message_InlineImagesConverted
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TicketLogAction
+  syntax: 
+    content: TicketLogAction
+  summary: "Value representing action that caused a ticket to change"
+  name: TicketLogAction
+  nameWithType: TicketLogAction
+  fullName: CRMScript.NetServer.TicketLogAction
+- uid: CRMScript.NetServer.TicketLogAction.No_Logging
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.No_Logging
+  syntax: 
+    content: TicketLogAction.No_Logging
+  summary: "No_Logging"
+  name: No_Logging
+  nameWithType: No_Logging
+  fullName: CRMScript.NetServer.TicketLogAction.No_Logging
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_Unknown
+  syntax: 
+    content: TicketLogAction.Ticket_Unknown
+  summary: "Ticket_Unknown action"
+  name: Ticket_Unknown
+  nameWithType: Ticket_Unknown
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_Unknown
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_CustomDescription
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_CustomDescription
+  syntax: 
+    content: TicketLogAction.Ticket_CustomDescription
+  summary: "Ticket_CustomDescription action"
+  name: Ticket_CustomDescription
+  nameWithType: Ticket_CustomDescription
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_CustomDescription
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ImportTicketFromEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ImportTicketFromEmail
+  syntax: 
+    content: TicketLogAction.Ticket_ImportTicketFromEmail
+  summary: "Ticket_ImportTicketFromEmail action"
+  name: Ticket_ImportTicketFromEmail
+  nameWithType: Ticket_ImportTicketFromEmail
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ImportTicketFromEmail
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ImportMailNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ImportMailNewTicket
+  syntax: 
+    content: TicketLogAction.Ticket_ImportMailNewTicket
+  summary: "Ticket_ImportMailNewTicket action"
+  name: Ticket_ImportMailNewTicket
+  nameWithType: Ticket_ImportMailNewTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ImportMailNewTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ImportMailExistingTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ImportMailExistingTicket
+  syntax: 
+    content: TicketLogAction.Ticket_ImportMailExistingTicket
+  summary: "Ticket_ImportMailExistingTicket action"
+  name: Ticket_ImportMailExistingTicket
+  nameWithType: Ticket_ImportMailExistingTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ImportMailExistingTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_AttachmentConnectedToTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_AttachmentConnectedToTicket
+  syntax: 
+    content: TicketLogAction.Ticket_AttachmentConnectedToTicket
+  summary: "Ticket_AttachmentConnectedToTicket action"
+  name: Ticket_AttachmentConnectedToTicket
+  nameWithType: Ticket_AttachmentConnectedToTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_AttachmentConnectedToTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_TicketActivated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_TicketActivated
+  syntax: 
+    content: TicketLogAction.Ticket_TicketActivated
+  summary: "Ticket_TicketActivated action"
+  name: Ticket_TicketActivated
+  nameWithType: Ticket_TicketActivated
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_TicketActivated
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_TicketEscalated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_TicketEscalated
+  syntax: 
+    content: TicketLogAction.Ticket_TicketEscalated
+  summary: "Ticket_TicketEscalated action"
+  name: Ticket_TicketEscalated
+  nameWithType: Ticket_TicketEscalated
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_TicketEscalated
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ConnectTwoTickets
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ConnectTwoTickets
+  syntax: 
+    content: TicketLogAction.Ticket_ConnectTwoTickets
+  summary: "Ticket_ConnectTwoTickets action"
+  name: Ticket_ConnectTwoTickets
+  nameWithType: Ticket_ConnectTwoTickets
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ConnectTwoTickets
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_MessageAddedToTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_MessageAddedToTicket
+  syntax: 
+    content: TicketLogAction.Ticket_MessageAddedToTicket
+  summary: "Ticket_MessageAddedToTicket action"
+  name: Ticket_MessageAddedToTicket
+  nameWithType: Ticket_MessageAddedToTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_MessageAddedToTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_SendingSpmMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_SendingSpmMessage
+  syntax: 
+    content: TicketLogAction.Ticket_SendingSpmMessage
+  summary: "Ticket_SendingSpmMessage action"
+  name: Ticket_SendingSpmMessage
+  nameWithType: Ticket_SendingSpmMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_SendingSpmMessage
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_SavedFromEjScript
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_SavedFromEjScript
+  syntax: 
+    content: TicketLogAction.Ticket_SavedFromEjScript
+  summary: "Ticket_SavedFromEjScript action"
+  name: Ticket_SavedFromEjScript
+  nameWithType: Ticket_SavedFromEjScript
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_SavedFromEjScript
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  syntax: 
+    content: TicketLogAction.Ticket_TicketEscalatedFromEjScript
+  summary: "Ticket_TicketEscalatedFromEjScript action"
+  name: Ticket_TicketEscalatedFromEjScript
+  nameWithType: Ticket_TicketEscalatedFromEjScript
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_TicketEscalatedFromEjScript
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_SetValuesFromSoap
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_SetValuesFromSoap
+  syntax: 
+    content: TicketLogAction.Ticket_SetValuesFromSoap
+  summary: "Ticket_SetValuesFromSoap action"
+  name: Ticket_SetValuesFromSoap
+  nameWithType: Ticket_SetValuesFromSoap
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_SetValuesFromSoap
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_AddMessageFromSoap
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_AddMessageFromSoap
+  syntax: 
+    content: TicketLogAction.Ticket_AddMessageFromSoap
+  summary: "Ticket_AddMessageFromSoap action"
+  name: Ticket_AddMessageFromSoap
+  nameWithType: Ticket_AddMessageFromSoap
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_AddMessageFromSoap
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromSoap
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_NewTicketFromSoap
+  syntax: 
+    content: TicketLogAction.Ticket_NewTicketFromSoap
+  summary: "Ticket_NewTicketFromSoap action"
+  name: Ticket_NewTicketFromSoap
+  nameWithType: Ticket_NewTicketFromSoap
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromSoap
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_AddMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_AddMessage
+  syntax: 
+    content: TicketLogAction.Ticket_AddMessage
+  summary: "Ticket_AddMessage action"
+  name: Ticket_AddMessage
+  nameWithType: Ticket_AddMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_AddMessage
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_NewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_NewTicket
+  syntax: 
+    content: TicketLogAction.Ticket_NewTicket
+  summary: "Ticket_NewTicket action"
+  name: Ticket_NewTicket
+  nameWithType: Ticket_NewTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_NewTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_UserTakesOwnership
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_UserTakesOwnership
+  syntax: 
+    content: TicketLogAction.Ticket_UserTakesOwnership
+  summary: "Ticket_UserTakesOwnership action"
+  name: Ticket_UserTakesOwnership
+  nameWithType: Ticket_UserTakesOwnership
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_UserTakesOwnership
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ChangeStatus
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ChangeStatus
+  syntax: 
+    content: TicketLogAction.Ticket_ChangeStatus
+  summary: "Ticket_ChangeStatus action"
+  name: Ticket_ChangeStatus
+  nameWithType: Ticket_ChangeStatus
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ChangeStatus
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ChangeSecurityStatus
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ChangeSecurityStatus
+  syntax: 
+    content: TicketLogAction.Ticket_ChangeSecurityStatus
+  summary: "Ticket_ChangeSecurityStatus action"
+  name: Ticket_ChangeSecurityStatus
+  nameWithType: Ticket_ChangeSecurityStatus
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ChangeSecurityStatus
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraDateTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_QuickSetExtraDateTime
+  syntax: 
+    content: TicketLogAction.Ticket_QuickSetExtraDateTime
+  summary: "Ticket_QuickSetExtraDateTime action"
+  name: Ticket_QuickSetExtraDateTime
+  nameWithType: Ticket_QuickSetExtraDateTime
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraDateTime
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraDate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_QuickSetExtraDate
+  syntax: 
+    content: TicketLogAction.Ticket_QuickSetExtraDate
+  summary: "Ticket_QuickSetExtraDate action"
+  name: Ticket_QuickSetExtraDate
+  nameWithType: Ticket_QuickSetExtraDate
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraDate
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_QuickSetExtraTime
+  syntax: 
+    content: TicketLogAction.Ticket_QuickSetExtraTime
+  summary: "Ticket_QuickSetExtraTime action"
+  name: Ticket_QuickSetExtraTime
+  nameWithType: Ticket_QuickSetExtraTime
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraTime
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraField
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_QuickSetExtraField
+  syntax: 
+    content: TicketLogAction.Ticket_QuickSetExtraField
+  summary: "Ticket_QuickSetExtraField action"
+  name: Ticket_QuickSetExtraField
+  nameWithType: Ticket_QuickSetExtraField
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_QuickSetExtraField
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_SwapExtraField
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_SwapExtraField
+  syntax: 
+    content: TicketLogAction.Ticket_SwapExtraField
+  summary: "Ticket_SwapExtraField action"
+  name: Ticket_SwapExtraField
+  nameWithType: Ticket_SwapExtraField
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_SwapExtraField
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ReadByUser
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ReadByUser
+  syntax: 
+    content: TicketLogAction.Ticket_ReadByUser
+  summary: "Ticket_ReadByUser action"
+  name: Ticket_ReadByUser
+  nameWithType: Ticket_ReadByUser
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ReadByUser
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_BatchOperation
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_BatchOperation
+  syntax: 
+    content: TicketLogAction.Ticket_BatchOperation
+  summary: "Ticket_BatchOperation action"
+  name: Ticket_BatchOperation
+  nameWithType: Ticket_BatchOperation
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_BatchOperation
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_BatchMarkAsRead
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_BatchMarkAsRead
+  syntax: 
+    content: TicketLogAction.Ticket_BatchMarkAsRead
+  summary: "Ticket_BatchMarkAsRead action"
+  name: Ticket_BatchMarkAsRead
+  nameWithType: Ticket_BatchMarkAsRead
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_BatchMarkAsRead
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_BatchMarkAsUnread
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_BatchMarkAsUnread
+  syntax: 
+    content: TicketLogAction.Ticket_BatchMarkAsUnread
+  summary: "Ticket_BatchMarkAsUnread action"
+  name: Ticket_BatchMarkAsUnread
+  nameWithType: Ticket_BatchMarkAsUnread
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_BatchMarkAsUnread
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_BatchCloseTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_BatchCloseTicket
+  syntax: 
+    content: TicketLogAction.Ticket_BatchCloseTicket
+  summary: "Ticket_BatchCloseTicket action"
+  name: Ticket_BatchCloseTicket
+  nameWithType: Ticket_BatchCloseTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_BatchCloseTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_EditTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_EditTicket
+  syntax: 
+    content: TicketLogAction.Ticket_EditTicket
+  summary: "Ticket_EditTicket action"
+  name: Ticket_EditTicket
+  nameWithType: Ticket_EditTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_EditTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_DeleteTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_DeleteTicket
+  syntax: 
+    content: TicketLogAction.Ticket_DeleteTicket
+  summary: "Ticket_DeleteTicket action"
+  name: Ticket_DeleteTicket
+  nameWithType: Ticket_DeleteTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_DeleteTicket
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_JoinTickets
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_JoinTickets
+  syntax: 
+    content: TicketLogAction.Ticket_JoinTickets
+  summary: "Ticket_JoinTickets action"
+  name: Ticket_JoinTickets
+  nameWithType: Ticket_JoinTickets
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_JoinTickets
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_EditMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_EditMessage
+  syntax: 
+    content: TicketLogAction.Ticket_EditMessage
+  summary: "Ticket_EditMessage action"
+  name: Ticket_EditMessage
+  nameWithType: Ticket_EditMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_EditMessage
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_CloseTicketAfterForward
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_CloseTicketAfterForward
+  syntax: 
+    content: TicketLogAction.Ticket_CloseTicketAfterForward
+  summary: "Ticket_CloseTicketAfterForward action"
+  name: Ticket_CloseTicketAfterForward
+  nameWithType: Ticket_CloseTicketAfterForward
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_CloseTicketAfterForward
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_CloseAfterMassMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_CloseAfterMassMessage
+  syntax: 
+    content: TicketLogAction.Ticket_CloseAfterMassMessage
+  summary: "Ticket_CloseAfterMassMessage action"
+  name: Ticket_CloseAfterMassMessage
+  nameWithType: Ticket_CloseAfterMassMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_CloseAfterMassMessage
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_CloseTicketFromSoap
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_CloseTicketFromSoap
+  syntax: 
+    content: TicketLogAction.Ticket_CloseTicketFromSoap
+  summary: "Ticket_CloseTicketFromSoap action"
+  name: Ticket_CloseTicketFromSoap
+  nameWithType: Ticket_CloseTicketFromSoap
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_CloseTicketFromSoap
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ReadTicketFromSoap
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ReadTicketFromSoap
+  syntax: 
+    content: TicketLogAction.Ticket_ReadTicketFromSoap
+  summary: "Ticket_ReadTicketFromSoap action"
+  name: Ticket_ReadTicketFromSoap
+  nameWithType: Ticket_ReadTicketFromSoap
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ReadTicketFromSoap
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_UserDeletedOwneraction
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_UserDeletedOwneraction
+  syntax: 
+    content: TicketLogAction.Ticket_UserDeletedOwneraction
+  summary: "Ticket_UserDeletedOwneraction action"
+  name: Ticket_UserDeletedOwneraction
+  nameWithType: Ticket_UserDeletedOwneraction
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_UserDeletedOwneraction
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromSpecialForm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_NewTicketFromSpecialForm
+  syntax: 
+    content: TicketLogAction.Ticket_NewTicketFromSpecialForm
+  summary: "Ticket_NewTicketFromSpecialForm action"
+  name: Ticket_NewTicketFromSpecialForm
+  nameWithType: Ticket_NewTicketFromSpecialForm
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromSpecialForm
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_TicketClosedByFAQ
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_TicketClosedByFAQ
+  syntax: 
+    content: TicketLogAction.Ticket_TicketClosedByFAQ
+  summary: "Ticket_TicketClosedByFAQ action"
+  name: Ticket_TicketClosedByFAQ
+  nameWithType: Ticket_TicketClosedByFAQ
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_TicketClosedByFAQ
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_NewTicketFromCustomer
+  syntax: 
+    content: TicketLogAction.Ticket_NewTicketFromCustomer
+  summary: "Ticket_NewTicketFromCustomer action"
+  name: Ticket_NewTicketFromCustomer
+  nameWithType: Ticket_NewTicketFromCustomer
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_NewTicketFromCustomer
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_AddMessageFromCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_AddMessageFromCustomer
+  syntax: 
+    content: TicketLogAction.Ticket_AddMessageFromCustomer
+  summary: "Ticket_AddMessageFromCustomer action"
+  name: Ticket_AddMessageFromCustomer
+  nameWithType: Ticket_AddMessageFromCustomer
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_AddMessageFromCustomer
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_ReadByCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_ReadByCustomer
+  syntax: 
+    content: TicketLogAction.Ticket_ReadByCustomer
+  summary: "Ticket_ReadByCustomer action"
+  name: Ticket_ReadByCustomer
+  nameWithType: Ticket_ReadByCustomer
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_ReadByCustomer
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  syntax: 
+    content: TicketLogAction.Ticket_SetRepliedAtByMassMessage
+  summary: "Ticket_SetRepliedAtByMassMessage action"
+  name: Ticket_SetRepliedAtByMassMessage
+  nameWithType: Ticket_SetRepliedAtByMassMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_SetRepliedAtByMassMessage
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_TicketActivatedByBounce
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_TicketActivatedByBounce
+  syntax: 
+    content: TicketLogAction.Ticket_TicketActivatedByBounce
+  summary: "Ticket_TicketActivatedByBounce action"
+  name: Ticket_TicketActivatedByBounce
+  nameWithType: Ticket_TicketActivatedByBounce
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_TicketActivatedByBounce
+- uid: CRMScript.NetServer.TicketLogAction.Ticket_AutoCategorized
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Ticket_AutoCategorized
+  syntax: 
+    content: TicketLogAction.Ticket_AutoCategorized
+  summary: "Ticket_AutoCategorized action"
+  name: Ticket_AutoCategorized
+  nameWithType: Ticket_AutoCategorized
+  fullName: CRMScript.NetServer.TicketLogAction.Ticket_AutoCategorized
+- uid: CRMScript.NetServer.TicketLogAction.Message_Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_Unknown
+  syntax: 
+    content: TicketLogAction.Message_Unknown
+  summary: "Message_Unknown action"
+  name: Message_Unknown
+  nameWithType: Message_Unknown
+  fullName: CRMScript.NetServer.TicketLogAction.Message_Unknown
+- uid: CRMScript.NetServer.TicketLogAction.Message_CustomDescription
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_CustomDescription
+  syntax: 
+    content: TicketLogAction.Message_CustomDescription
+  summary: "Message_CustomDescription action"
+  name: Message_CustomDescription
+  nameWithType: Message_CustomDescription
+  fullName: CRMScript.NetServer.TicketLogAction.Message_CustomDescription
+- uid: CRMScript.NetServer.TicketLogAction.Message_Continue
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_Continue
+  syntax: 
+    content: TicketLogAction.Message_Continue
+  summary: "Message_Continue action"
+  name: Message_Continue
+  nameWithType: Message_Continue
+  fullName: CRMScript.NetServer.TicketLogAction.Message_Continue
+- uid: CRMScript.NetServer.TicketLogAction.Message_ImportTicketFromEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_ImportTicketFromEmail
+  syntax: 
+    content: TicketLogAction.Message_ImportTicketFromEmail
+  summary: "Message_ImportTicketFromEmail action"
+  name: Message_ImportTicketFromEmail
+  nameWithType: Message_ImportTicketFromEmail
+  fullName: CRMScript.NetServer.TicketLogAction.Message_ImportTicketFromEmail
+- uid: CRMScript.NetServer.TicketLogAction.Message_ImportMailAddMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_ImportMailAddMessage
+  syntax: 
+    content: TicketLogAction.Message_ImportMailAddMessage
+  summary: "Message_ImportMailAddMessage action"
+  name: Message_ImportMailAddMessage
+  nameWithType: Message_ImportMailAddMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_ImportMailAddMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_AddedDebugInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_AddedDebugInfo
+  syntax: 
+    content: TicketLogAction.Message_AddedDebugInfo
+  summary: "Message_AddedDebugInfo action"
+  name: Message_AddedDebugInfo
+  nameWithType: Message_AddedDebugInfo
+  fullName: CRMScript.NetServer.TicketLogAction.Message_AddedDebugInfo
+- uid: CRMScript.NetServer.TicketLogAction.Message_SendingReplyTemplate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_SendingReplyTemplate
+  syntax: 
+    content: TicketLogAction.Message_SendingReplyTemplate
+  summary: "Message_SendingReplyTemplate action"
+  name: Message_SendingReplyTemplate
+  nameWithType: Message_SendingReplyTemplate
+  fullName: CRMScript.NetServer.TicketLogAction.Message_SendingReplyTemplate
+- uid: CRMScript.NetServer.TicketLogAction.Message_SendingSMS
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_SendingSMS
+  syntax: 
+    content: TicketLogAction.Message_SendingSMS
+  summary: "Message_SendingSMS action"
+  name: Message_SendingSMS
+  nameWithType: Message_SendingSMS
+  fullName: CRMScript.NetServer.TicketLogAction.Message_SendingSMS
+- uid: CRMScript.NetServer.TicketLogAction.Message_SendingSpmMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_SendingSpmMessage
+  syntax: 
+    content: TicketLogAction.Message_SendingSpmMessage
+  summary: "Message_SendingSpmMessage action"
+  name: Message_SendingSpmMessage
+  nameWithType: Message_SendingSpmMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_SendingSpmMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_SavedFromEjScript
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_SavedFromEjScript
+  syntax: 
+    content: TicketLogAction.Message_SavedFromEjScript
+  summary: "Message_SavedFromEjScript action"
+  name: Message_SavedFromEjScript
+  nameWithType: Message_SavedFromEjScript
+  fullName: CRMScript.NetServer.TicketLogAction.Message_SavedFromEjScript
+- uid: CRMScript.NetServer.TicketLogAction.Message_AddMessageFromSoap
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_AddMessageFromSoap
+  syntax: 
+    content: TicketLogAction.Message_AddMessageFromSoap
+  summary: "Message_AddMessageFromSoap action"
+  name: Message_AddMessageFromSoap
+  nameWithType: Message_AddMessageFromSoap
+  fullName: CRMScript.NetServer.TicketLogAction.Message_AddMessageFromSoap
+- uid: CRMScript.NetServer.TicketLogAction.Message_AddMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_AddMessage
+  syntax: 
+    content: TicketLogAction.Message_AddMessage
+  summary: "Message_AddMessage action"
+  name: Message_AddMessage
+  nameWithType: Message_AddMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_AddMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_NewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_NewTicket
+  syntax: 
+    content: TicketLogAction.Message_NewTicket
+  summary: "Message_NewTicket action"
+  name: Message_NewTicket
+  nameWithType: Message_NewTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Message_NewTicket
+- uid: CRMScript.NetServer.TicketLogAction.Message_EditTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_EditTicket
+  syntax: 
+    content: TicketLogAction.Message_EditTicket
+  summary: "Message_EditTicket action"
+  name: Message_EditTicket
+  nameWithType: Message_EditTicket
+  fullName: CRMScript.NetServer.TicketLogAction.Message_EditTicket
+- uid: CRMScript.NetServer.TicketLogAction.Message_EditMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_EditMessage
+  syntax: 
+    content: TicketLogAction.Message_EditMessage
+  summary: "Message_EditMessage action"
+  name: Message_EditMessage
+  nameWithType: Message_EditMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_EditMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_ForwardMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_ForwardMessage
+  syntax: 
+    content: TicketLogAction.Message_ForwardMessage
+  summary: "Message_ForwardMessage action"
+  name: Message_ForwardMessage
+  nameWithType: Message_ForwardMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_ForwardMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_AddMassMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_AddMassMessage
+  syntax: 
+    content: TicketLogAction.Message_AddMassMessage
+  summary: "Message_AddMassMessage action"
+  name: Message_AddMassMessage
+  nameWithType: Message_AddMassMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_AddMassMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_NewMessageFromSpecialForm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_NewMessageFromSpecialForm
+  syntax: 
+    content: TicketLogAction.Message_NewMessageFromSpecialForm
+  summary: "Message_NewMessageFromSpecialForm action"
+  name: Message_NewMessageFromSpecialForm
+  nameWithType: Message_NewMessageFromSpecialForm
+  fullName: CRMScript.NetServer.TicketLogAction.Message_NewMessageFromSpecialForm
+- uid: CRMScript.NetServer.TicketLogAction.Message_TicketNotifyFAQ
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_TicketNotifyFAQ
+  syntax: 
+    content: TicketLogAction.Message_TicketNotifyFAQ
+  summary: "Message_TicketNotifyFAQ action"
+  name: Message_TicketNotifyFAQ
+  nameWithType: Message_TicketNotifyFAQ
+  fullName: CRMScript.NetServer.TicketLogAction.Message_TicketNotifyFAQ
+- uid: CRMScript.NetServer.TicketLogAction.Message_NewTicketFromCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_NewTicketFromCustomer
+  syntax: 
+    content: TicketLogAction.Message_NewTicketFromCustomer
+  summary: "Message_NewTicketFromCustomer action"
+  name: Message_NewTicketFromCustomer
+  nameWithType: Message_NewTicketFromCustomer
+  fullName: CRMScript.NetServer.TicketLogAction.Message_NewTicketFromCustomer
+- uid: CRMScript.NetServer.TicketLogAction.Message_AddMessageFromCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_AddMessageFromCustomer
+  syntax: 
+    content: TicketLogAction.Message_AddMessageFromCustomer
+  summary: "Message_AddMessageFromCustomer action"
+  name: Message_AddMessageFromCustomer
+  nameWithType: Message_AddMessageFromCustomer
+  fullName: CRMScript.NetServer.TicketLogAction.Message_AddMessageFromCustomer
+- uid: CRMScript.NetServer.TicketLogAction.Message_BounceMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_BounceMessage
+  syntax: 
+    content: TicketLogAction.Message_BounceMessage
+  summary: "Message_BounceMessage action"
+  name: Message_BounceMessage
+  nameWithType: Message_BounceMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_BounceMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_OutboxMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_OutboxMessage
+  syntax: 
+    content: TicketLogAction.Message_OutboxMessage
+  summary: "Message_OutboxMessage action"
+  name: Message_OutboxMessage
+  nameWithType: Message_OutboxMessage
+  fullName: CRMScript.NetServer.TicketLogAction.Message_OutboxMessage
+- uid: CRMScript.NetServer.TicketLogAction.Message_EditMessageFromSoap
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_EditMessageFromSoap
+  syntax: 
+    content: TicketLogAction.Message_EditMessageFromSoap
+  summary: "Message_EditMessageFromSoap action"
+  name: Message_EditMessageFromSoap
+  nameWithType: Message_EditMessageFromSoap
+  fullName: CRMScript.NetServer.TicketLogAction.Message_EditMessageFromSoap
+- uid: CRMScript.NetServer.TicketLogAction.Message_InlineImagesConverted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TicketLogAction.Message_InlineImagesConverted
+  syntax: 
+    content: TicketLogAction.Message_InlineImagesConverted
+  summary: "Message_InlineImagesConverted action"
+  name: Message_InlineImagesConverted
+  nameWithType: Message_InlineImagesConverted
+  fullName: CRMScript.NetServer.TicketLogAction.Message_InlineImagesConverted
+references:
+- uid: CRMScript.NetServer.TicketLogAction
+  commentId: T:CRMScript.NetServer.TicketLogAction
+  isExternal: true
+  name: TicketLogAction
+  nameWithType: TicketLogAction
+  fullName: CRMScript.NetServer.TicketLogAction

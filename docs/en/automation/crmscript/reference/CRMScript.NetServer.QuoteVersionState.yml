@@ -1,11 +1,5 @@
-### YamlMime:ManagedReference
-items:
+﻿items:
 - uid: CRMScript.NetServer.QuoteVersionState
-  # Same as SuperOffice.Data.QuoteVersionState
-  commentId: T:CRMScript.NetServer.QuoteVersionState
-  id: QuoteVersionState
-  langs:
-  - crmscript
   children:
   - CRMScript.NetServer.QuoteVersionState.Unknown
   - CRMScript.NetServer.QuoteVersionState.Draft
@@ -17,141 +11,126 @@ items:
   - CRMScript.NetServer.QuoteVersionState.Archived
   - CRMScript.NetServer.QuoteVersionState.Lost
   - CRMScript.NetServer.QuoteVersionState.Sold
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: QuoteVersionState
+  syntax: 
+    content: QuoteVersionState
+  summary: "State of a Quote Version"
   name: QuoteVersionState
   nameWithType: QuoteVersionState
   fullName: CRMScript.NetServer.QuoteVersionState
-  type: Enum
-  summary: "\nState of a Quote Version.\n"
 - uid: CRMScript.NetServer.QuoteVersionState.Unknown
-  commentId: F:CRMScript.NetServer.QuoteVersionState.Unknown
-  id: QuoteVersionState.Unknown
   langs:
   - crmscript
-  name: QuoteVersionState.Unknown
-  nameWithType: QuoteVersionState.Unknown
+  type: Field
+  so.intellisense: QuoteVersionState.Unknown
+  syntax: 
+    content: QuoteVersionState.Unknown
+  summary: "State unknown"
+  name: Unknown
+  nameWithType: Unknown
   fullName: CRMScript.NetServer.QuoteVersionState.Unknown
-  type: Field
-  summary: "\n0: State unknown\n"
-  syntax: 
-    content: Unknown = 0
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.Draft
-  commentId: F:CRMScript.NetServer.QuoteVersionState.Draft
-  id: QuoteVersionState.Draft
   langs:
   - crmscript
-  name: QuoteVersionState.Draft
-  nameWithType: QuoteVersionState.Draft
+  type: Field
+  so.intellisense: QuoteVersionState.Draft
+  syntax: 
+    content: QuoteVersionState.Draft
+  summary: "Draft that has been calculated, and ERP has verified it as OK"
+  name: Draft
+  nameWithType: Draft
   fullName: CRMScript.NetServer.QuoteVersionState.Draft
-  type: Field
-  summary: "\n1: Draft that has been calculated, and ERP has verified it as OK\n"
-  syntax: 
-    content: Draft = 1
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.DraftNotCalculated
-  commentId: F:CRMScript.NetServer.QuoteVersionState.DraftNotCalculated
-  id: QuoteVersionState.DraftNotCalculated
   langs:
   - crmscript
-  name: QuoteVersionState.DraftNotCalculated
-  nameWithType: QuoteVersionState.DraftNotCalculated
+  type: Field
+  so.intellisense: QuoteVersionState.DraftNotCalculated
+  syntax: 
+    content: QuoteVersionState.DraftNotCalculated
+  summary: "This is a draft that has not been calculated, prices and other attributes may be 'invalid' relative to ERP system rules"
+  name: DraftNotCalculated
+  nameWithType: DraftNotCalculated
   fullName: CRMScript.NetServer.QuoteVersionState.DraftNotCalculated
-  type: Field
-  summary: "\n2: This is a draft that has not been calculated, prices and other attributes may be &apos;invalid&apos; relative to ERP system rules\n"
-  syntax: 
-    content: DraftNotCalculated = 2
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.DraftNeedsApproval
-  commentId: F:CRMScript.NetServer.QuoteVersionState.DraftNeedsApproval
-  id: QuoteVersionState.DraftNeedsApproval
   langs:
   - crmscript
-  name: QuoteVersionState.DraftNeedsApproval
-  nameWithType: QuoteVersionState.DraftNeedsApproval
+  type: Field
+  so.intellisense: QuoteVersionState.DraftNeedsApproval
+  syntax: 
+    content: QuoteVersionState.DraftNeedsApproval
+  summary: "Draft has been checked, and there was a problem that needs (human) approval"
+  name: DraftNeedsApproval
+  nameWithType: DraftNeedsApproval
   fullName: CRMScript.NetServer.QuoteVersionState.DraftNeedsApproval
-  type: Field
-  summary: "\n3: Draft has been checked, and there was a problem that needs (human) approval\n"
-  syntax: 
-    content: DraftNeedsApproval = 3
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.DraftApproved
-  commentId: F:CRMScript.NetServer.QuoteVersionState.DraftApproved
-  id: QuoteVersionState.DraftApproved
   langs:
   - crmscript
-  name: QuoteVersionState.DraftApproved
-  nameWithType: QuoteVersionState.DraftApproved
+  type: Field
+  so.intellisense: QuoteVersionState.DraftApproved
+  syntax: 
+    content: QuoteVersionState.DraftApproved
+  summary: "Draft with potential problems has been human-approved"
+  name: DraftApproved
+  nameWithType: DraftApproved
   fullName: CRMScript.NetServer.QuoteVersionState.DraftApproved
-  type: Field
-  summary: "\n4: Draft with potential problems has been human-approved\n"
-  syntax: 
-    content: DraftApproved = 4
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.DraftNotApproved
-  commentId: F:CRMScript.NetServer.QuoteVersionState.DraftNotApproved
-  id: QuoteVersionState.DraftNotApproved
   langs:
   - crmscript
-  name: QuoteVersionState.DraftNotApproved
-  nameWithType: QuoteVersionState.DraftNotApproved
+  type: Field
+  so.intellisense: QuoteVersionState.DraftNotApproved
+  syntax: 
+    content: QuoteVersionState.DraftNotApproved
+  summary: "Draft has been checked, there was a problem, and (human) approval was NOT granted"
+  name: DraftNotApproved
+  nameWithType: DraftNotApproved
   fullName: CRMScript.NetServer.QuoteVersionState.DraftNotApproved
-  type: Field
-  summary: "\n5: Draft has been checked, there was a problem, and (human) approval was NOT grante\n"
-  syntax: 
-    content: DraftNotApproved = 5
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.Sent
-  commentId: F:CRMScript.NetServer.QuoteVersionState.Sent
-  id: QuoteVersionState.Sent
   langs:
   - crmscript
-  name: QuoteVersionState.Sent
-  nameWithType: QuoteVersionState.Sent
+  type: Field
+  so.intellisense: QuoteVersionState.Sent
+  syntax: 
+    content: QuoteVersionState.Sent
+  summary: "Sent to customer, and is now a legally binding document"
+  name: Sent
+  nameWithType: Sent
   fullName: CRMScript.NetServer.QuoteVersionState.Sent
-  type: Field
-  summary: "\n6: Sent to customer, and is now a legally binding document\n"
-  syntax: 
-    content: Sent = 6
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.Archived
-  commentId: F:CRMScript.NetServer.QuoteVersionState.Archived
-  id: QuoteVersionState.Archived
   langs:
   - crmscript
-  name: QuoteVersionState.Archived
-  nameWithType: QuoteVersionState.Archived
+  type: Field
+  so.intellisense: QuoteVersionState.Archived
+  syntax: 
+    content: QuoteVersionState.Archived
+  summary: "Archived - previous state saved in ArchivedState, newer versions exist"
+  name: Archived
+  nameWithType: Archived
   fullName: CRMScript.NetServer.QuoteVersionState.Archived
-  type: Field
-  summary: "\n7: Archived - previous state saved in ArchivedState, newer versions exist\n"
-  syntax: 
-    content: Archived = 7
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.Lost
-  commentId: F:CRMScript.NetServer.QuoteVersionState.Lost
-  id: QuoteVersionState.Lost
   langs:
   - crmscript
-  name: QuoteVersionState.Lost
-  nameWithType: QuoteVersionState.Lost
+  type: Field
+  so.intellisense: QuoteVersionState.Lost
+  syntax: 
+    content: QuoteVersionState.Lost
+  summary: "Version was rejected be the customer - we lost the sale"
+  name: Lost
+  nameWithType: Lost
   fullName: CRMScript.NetServer.QuoteVersionState.Lost
-  type: Field
-  summary: "\n8: Version was rejected be the customer - we lost the sale\n"
-  syntax: 
-    content: Lost = 8
-    type: CRMScript.NetServer.QuoteVersionState
 - uid: CRMScript.NetServer.QuoteVersionState.Sold
-  commentId: F:CRMScript.NetServer.QuoteVersionState.Sold
-  id: QuoteVersionState.Sold
   langs:
   - crmscript
-  name: QuoteVersionState.Sold
-  nameWithType: QuoteVersionState.Sold
-  fullName: CRMScript.NetServer.QuoteVersionState.Sold
   type: Field
-  summary: "\n9: Quote was accepted and the sale is Sold\n"
+  so.intellisense: QuoteVersionState.Sold
   syntax: 
-    content: Sold = 9
-    type: CRMScript.NetServer.QuoteVersionState
+    content: QuoteVersionState.Sold
+  summary: "Quote was accepted and the sale is 'Sold'"
+  name: Sold
+  nameWithType: Sold
+  fullName: CRMScript.NetServer.QuoteVersionState.Sold
 references:
 - uid: CRMScript.NetServer.QuoteVersionState
   commentId: T:CRMScript.NetServer.QuoteVersionState

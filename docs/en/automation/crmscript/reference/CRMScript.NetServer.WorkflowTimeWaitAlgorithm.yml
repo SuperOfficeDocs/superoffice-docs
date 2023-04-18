@@ -1,0 +1,68 @@
+﻿items:
+- uid: CRMScript.NetServer.WorkflowTimeWaitAlgorithm
+  children:
+  - CRMScript.NetServer.WorkflowTimeWaitAlgorithm.None
+  - CRMScript.NetServer.WorkflowTimeWaitAlgorithm.NumIntervals
+  - CRMScript.NetServer.WorkflowTimeWaitAlgorithm.UntilSpecified
+  - CRMScript.NetServer.WorkflowTimeWaitAlgorithm.UntilDateField
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowTimeWaitAlgorithm
+  syntax: 
+    content: WorkflowTimeWaitAlgorithm
+  summary: "Workflow waiting step wait algorithm"
+  name: WorkflowTimeWaitAlgorithm
+  nameWithType: WorkflowTimeWaitAlgorithm
+  fullName: CRMScript.NetServer.WorkflowTimeWaitAlgorithm
+- uid: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitAlgorithm.None
+  syntax: 
+    content: WorkflowTimeWaitAlgorithm.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.None
+- uid: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.NumIntervals
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitAlgorithm.NumIntervals
+  syntax: 
+    content: WorkflowTimeWaitAlgorithm.NumIntervals
+  summary: "Number of intervals (min, hour, workdays, days, weeks...)"
+  name: NumIntervals
+  nameWithType: NumIntervals
+  fullName: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.NumIntervals
+- uid: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.UntilSpecified
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitAlgorithm.UntilSpecified
+  syntax: 
+    content: WorkflowTimeWaitAlgorithm.UntilSpecified
+  summary: "Until specified datetime"
+  name: UntilSpecified
+  nameWithType: UntilSpecified
+  fullName: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.UntilSpecified
+- uid: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.UntilDateField
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowTimeWaitAlgorithm.UntilDateField
+  syntax: 
+    content: WorkflowTimeWaitAlgorithm.UntilDateField
+  summary: "Until date on person/company (a persons birthdate etc)"
+  name: UntilDateField
+  nameWithType: UntilDateField
+  fullName: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.UntilDateField
+references:
+- uid: CRMScript.NetServer.WorkflowTimeWaitAlgorithm
+  commentId: T:CRMScript.NetServer.WorkflowTimeWaitAlgorithm
+  isExternal: true
+  name: WorkflowTimeWaitAlgorithm
+  nameWithType: WorkflowTimeWaitAlgorithm
+  fullName: CRMScript.NetServer.WorkflowTimeWaitAlgorithm

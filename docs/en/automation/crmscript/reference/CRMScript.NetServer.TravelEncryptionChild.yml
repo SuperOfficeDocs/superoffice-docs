@@ -1,0 +1,56 @@
+﻿items:
+- uid: CRMScript.NetServer.TravelEncryptionChild
+  children:
+  - CRMScript.NetServer.TravelEncryptionChild.None
+  - CRMScript.NetServer.TravelEncryptionChild.Serial
+  - CRMScript.NetServer.TravelEncryptionChild.BF128
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: TravelEncryptionChild
+  syntax: 
+    content: TravelEncryptionChild
+  summary: "Value for the encryptedComm field in traveller"
+  name: TravelEncryptionChild
+  nameWithType: TravelEncryptionChild
+  fullName: CRMScript.NetServer.TravelEncryptionChild
+- uid: CRMScript.NetServer.TravelEncryptionChild.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TravelEncryptionChild.None
+  syntax: 
+    content: TravelEncryptionChild.None
+  summary: "Transmitted travel data are not encrypted (only ZIPed)"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.TravelEncryptionChild.None
+- uid: CRMScript.NetServer.TravelEncryptionChild.Serial
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TravelEncryptionChild.Serial
+  syntax: 
+    content: TravelEncryptionChild.Serial
+  summary: "Transmitted travel data are encrypted using licence serial no. as key"
+  name: Serial
+  nameWithType: Serial
+  fullName: CRMScript.NetServer.TravelEncryptionChild.Serial
+- uid: CRMScript.NetServer.TravelEncryptionChild.BF128
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: TravelEncryptionChild.BF128
+  syntax: 
+    content: TravelEncryptionChild.BF128
+  summary: "Transmitted travel data are encrypted using a 128-bit key unique to each database"
+  name: BF128
+  nameWithType: BF128
+  fullName: CRMScript.NetServer.TravelEncryptionChild.BF128
+references:
+- uid: CRMScript.NetServer.TravelEncryptionChild
+  commentId: T:CRMScript.NetServer.TravelEncryptionChild
+  isExternal: true
+  name: TravelEncryptionChild
+  nameWithType: TravelEncryptionChild
+  fullName: CRMScript.NetServer.TravelEncryptionChild

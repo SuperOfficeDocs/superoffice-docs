@@ -1,0 +1,44 @@
+﻿items:
+- uid: CRMScript.NetServer.ChatStatus
+  children:
+  - CRMScript.NetServer.ChatStatus.NotPresent
+  - CRMScript.NetServer.ChatStatus.Present
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: ChatStatus
+  syntax: 
+    content: ChatStatus
+  summary: "Value for field 'chat_status' in table 'ejuser'."
+  name: ChatStatus
+  nameWithType: ChatStatus
+  fullName: CRMScript.NetServer.ChatStatus
+- uid: CRMScript.NetServer.ChatStatus.NotPresent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatStatus.NotPresent
+  syntax: 
+    content: ChatStatus.NotPresent
+  summary: "The user is marked as not present"
+  name: NotPresent
+  nameWithType: NotPresent
+  fullName: CRMScript.NetServer.ChatStatus.NotPresent
+- uid: CRMScript.NetServer.ChatStatus.Present
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: ChatStatus.Present
+  syntax: 
+    content: ChatStatus.Present
+  summary: "The user is marked as present"
+  name: Present
+  nameWithType: Present
+  fullName: CRMScript.NetServer.ChatStatus.Present
+references:
+- uid: CRMScript.NetServer.ChatStatus
+  commentId: T:CRMScript.NetServer.ChatStatus
+  isExternal: true
+  name: ChatStatus
+  nameWithType: ChatStatus
+  fullName: CRMScript.NetServer.ChatStatus

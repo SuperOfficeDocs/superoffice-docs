@@ -1,0 +1,80 @@
+﻿items:
+- uid: CRMScript.NetServer.EmailAccountStatus
+  children:
+  - CRMScript.NetServer.EmailAccountStatus.Unknown
+  - CRMScript.NetServer.EmailAccountStatus.Deleted
+  - CRMScript.NetServer.EmailAccountStatus.Failing
+  - CRMScript.NetServer.EmailAccountStatus.Failed
+  - CRMScript.NetServer.EmailAccountStatus.Ok
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: EmailAccountStatus
+  syntax: 
+    content: EmailAccountStatus
+  summary: "Possible statuses for an EmailAccount."
+  name: EmailAccountStatus
+  nameWithType: EmailAccountStatus
+  fullName: CRMScript.NetServer.EmailAccountStatus
+- uid: CRMScript.NetServer.EmailAccountStatus.Unknown
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailAccountStatus.Unknown
+  syntax: 
+    content: EmailAccountStatus.Unknown
+  summary: "Unknown status"
+  name: Unknown
+  nameWithType: Unknown
+  fullName: CRMScript.NetServer.EmailAccountStatus.Unknown
+- uid: CRMScript.NetServer.EmailAccountStatus.Deleted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailAccountStatus.Deleted
+  syntax: 
+    content: EmailAccountStatus.Deleted
+  summary: "Account is deleted"
+  name: Deleted
+  nameWithType: Deleted
+  fullName: CRMScript.NetServer.EmailAccountStatus.Deleted
+- uid: CRMScript.NetServer.EmailAccountStatus.Failing
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailAccountStatus.Failing
+  syntax: 
+    content: EmailAccountStatus.Failing
+  summary: "Account is failing"
+  name: Failing
+  nameWithType: Failing
+  fullName: CRMScript.NetServer.EmailAccountStatus.Failing
+- uid: CRMScript.NetServer.EmailAccountStatus.Failed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailAccountStatus.Failed
+  syntax: 
+    content: EmailAccountStatus.Failed
+  summary: "Account has failed"
+  name: Failed
+  nameWithType: Failed
+  fullName: CRMScript.NetServer.EmailAccountStatus.Failed
+- uid: CRMScript.NetServer.EmailAccountStatus.Ok
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: EmailAccountStatus.Ok
+  syntax: 
+    content: EmailAccountStatus.Ok
+  summary: "Account is OK"
+  name: Ok
+  nameWithType: Ok
+  fullName: CRMScript.NetServer.EmailAccountStatus.Ok
+references:
+- uid: CRMScript.NetServer.EmailAccountStatus
+  commentId: T:CRMScript.NetServer.EmailAccountStatus
+  isExternal: true
+  name: EmailAccountStatus
+  nameWithType: EmailAccountStatus
+  fullName: CRMScript.NetServer.EmailAccountStatus

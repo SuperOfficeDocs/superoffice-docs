@@ -1,0 +1,4520 @@
+﻿items:
+- uid: CRMScript.NetServer.Registry
+  children:
+  - CRMScript.NetServer.Registry.RegistryEntry_End
+  - CRMScript.NetServer.Registry.EjournalSender
+  - CRMScript.NetServer.Registry.CleanerThreshold
+  - CRMScript.NetServer.Registry.CleanerTolerance
+  - CRMScript.NetServer.Registry.EjournalCronLast
+  - CRMScript.NetServer.Registry.EjournalCronNow
+  - CRMScript.NetServer.Registry.CleanerOnOff
+  - CRMScript.NetServer.Registry.CleanerImportOnOff
+  - CRMScript.NetServer.Registry.NotifyActiveTickets
+  - CRMScript.NetServer.Registry.ActiveLinksInMessages
+  - CRMScript.NetServer.Registry.SmtpTimeout
+  - CRMScript.NetServer.Registry.ReplyTemplateCustomerNewCustomer
+  - CRMScript.NetServer.Registry.ReplyTemplateCustomerCustomerReply
+  - CRMScript.NetServer.Registry.ReplyTemplateCustomerPassword
+  - CRMScript.NetServer.Registry.ReplyTemplateUserActiveTickets
+  - CRMScript.NetServer.Registry.ReplyTemplateUserNewMessage
+  - CRMScript.NetServer.Registry.ReplyTemplateUserTicketActivated
+  - CRMScript.NetServer.Registry.ReplyTemplateUserTicketAlarm
+  - CRMScript.NetServer.Registry.ReplyTemplateUserNewTicket
+  - CRMScript.NetServer.Registry.SetupCompanyName
+  - CRMScript.NetServer.Registry.SetupCompanyAddress
+  - CRMScript.NetServer.Registry.NotifyActiveTicketsDays
+  - CRMScript.NetServer.Registry.EjournalOutbox
+  - CRMScript.NetServer.Registry.OutmailWrapColumn
+  - CRMScript.NetServer.Registry.EnableBackdoor
+  - CRMScript.NetServer.Registry.EjournalOutboxDelay
+  - CRMScript.NetServer.Registry.DisableHtmlFiltering
+  - CRMScript.NetServer.Registry.FaqTitleWeight
+  - CRMScript.NetServer.Registry.ChatWhoisString
+  - CRMScript.NetServer.Registry.FaqSuggestions
+  - CRMScript.NetServer.Registry.ChatAvailableImage
+  - CRMScript.NetServer.Registry.ChatUnavailableImage
+  - CRMScript.NetServer.Registry.ImportMailTimeout
+  - CRMScript.NetServer.Registry.ShowReplyTemplatesToCustomers
+  - CRMScript.NetServer.Registry.LastRequestTicketLimit
+  - CRMScript.NetServer.Registry.LastRequestDaysLimit
+  - CRMScript.NetServer.Registry.NoEjOutbox
+  - CRMScript.NetServer.Registry.IdleLimitCustomerSeconds
+  - CRMScript.NetServer.Registry.ReplyTemplateUserTicketTakenOver
+  - CRMScript.NetServer.Registry.EnableSpellCheck27
+  - CRMScript.NetServer.Registry.LogPath
+  - CRMScript.NetServer.Registry.NumOfListedLinks
+  - CRMScript.NetServer.Registry.ReplyTemplatePublishKbQuestion
+  - CRMScript.NetServer.Registry.ReplyTemplatePublishKbAnswer
+  - CRMScript.NetServer.Registry.InvoiceUpdateDone
+  - CRMScript.NetServer.Registry.DefaultTimeToReplyOnNewTicket
+  - CRMScript.NetServer.Registry.ShowAutoRepliesToCustomers
+  - CRMScript.NetServer.Registry.EjournalOutboxDeleteSentMailAfter
+  - CRMScript.NetServer.Registry.AllwaysSendMailToNewCustomers
+  - CRMScript.NetServer.Registry.IdleLimitCustomerSecondsWeb
+  - CRMScript.NetServer.Registry.ExternalCustomerAuthEnabled
+  - CRMScript.NetServer.Registry.ExternalCustomerAuthURL
+  - CRMScript.NetServer.Registry.DoNotTestSmtp
+  - CRMScript.NetServer.Registry.DelayMailboxImport
+  - CRMScript.NetServer.Registry.MaxLoginAttempts
+  - CRMScript.NetServer.Registry.BlockLoginAttempts
+  - CRMScript.NetServer.Registry.ReplyTemplateWeekStat
+  - CRMScript.NetServer.Registry.WeekStatRecipient
+  - CRMScript.NetServer.Registry.HideUserStatistics
+  - CRMScript.NetServer.Registry.SystemTimeMode
+  - CRMScript.NetServer.Registry.SMTPIgnoreLeadingDotEscaping
+  - CRMScript.NetServer.Registry.BaseURLForFAQEntry
+  - CRMScript.NetServer.Registry.BaseURLForFAQCategory
+  - CRMScript.NetServer.Registry.SystemTimeModeInstalled
+  - CRMScript.NetServer.Registry.BlockCustomerFAQParsing
+  - CRMScript.NetServer.Registry.ChatUserIdleTime
+  - CRMScript.NetServer.Registry.AlertChatMessages
+  - CRMScript.NetServer.Registry.DisableExternalSpmUpdate
+  - CRMScript.NetServer.Registry.SpmSMTPServer
+  - CRMScript.NetServer.Registry.SpmDefaultFrom
+  - CRMScript.NetServer.Registry.NotificationExpire
+  - CRMScript.NetServer.Registry.CrystalReportsSoapEndpoint
+  - CRMScript.NetServer.Registry.DoNotSearchBodyForTag
+  - CRMScript.NetServer.Registry.ReplyTemplateHotlistNewMessage
+  - CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketActivated
+  - CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketAlarm
+  - CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketTakenOver
+  - CRMScript.NetServer.Registry.LogChannels
+  - CRMScript.NetServer.Registry.ShowTotalInvoiceUnits
+  - CRMScript.NetServer.Registry.MinimumDiskSpace
+  - CRMScript.NetServer.Registry.DecodingMailSorter
+  - CRMScript.NetServer.Registry.ImportMail3ExpireTime
+  - CRMScript.NetServer.Registry.ImportMail3ExpireTimeAnalyze
+  - CRMScript.NetServer.Registry.StripNewLineInParser
+  - CRMScript.NetServer.Registry.LastDiskSpaceWarningAttachments
+  - CRMScript.NetServer.Registry.LastDiskSpaceWarningBase
+  - CRMScript.NetServer.Registry.LastDiskSpaceWarningText
+  - CRMScript.NetServer.Registry.EnableNewImportMail
+  - CRMScript.NetServer.Registry.EnableEjStat
+  - CRMScript.NetServer.Registry.SmsServiceId
+  - CRMScript.NetServer.Registry.SmsServiceEndpoint
+  - CRMScript.NetServer.Registry.MaximumSmsMessagesPerDay
+  - CRMScript.NetServer.Registry.MaximumSmsMessagesPerRecipient
+  - CRMScript.NetServer.Registry.CellphoneUpdateDone
+  - CRMScript.NetServer.Registry.DefaultSmsCountry
+  - CRMScript.NetServer.Registry.DbIntegratorEnableStreaming
+  - CRMScript.NetServer.Registry.ScreenChooserNewTicket
+  - CRMScript.NetServer.Registry.ScreenChooserListTicketTop
+  - CRMScript.NetServer.Registry.ScreenChooserListTicketMessages
+  - CRMScript.NetServer.Registry.ScreenChooserAddMessage
+  - CRMScript.NetServer.Registry.ScreenChooserEditTicket
+  - CRMScript.NetServer.Registry.ScreenChooserViewCustomer
+  - CRMScript.NetServer.Registry.ScreenChooserViewCompany
+  - CRMScript.NetServer.Registry.ScreenChooserTicketMainMenu
+  - CRMScript.NetServer.Registry.MaximumCountRecipients
+  - CRMScript.NetServer.Registry.EnableEditMessage
+  - CRMScript.NetServer.Registry.EnableNewGui
+  - CRMScript.NetServer.Registry.HideContactPersonPassword
+  - CRMScript.NetServer.Registry.ShowBlogicMenu
+  - CRMScript.NetServer.Registry.WwwPath
+  - CRMScript.NetServer.Registry.UseParserInDBIntegrator
+  - CRMScript.NetServer.Registry.CollapsableMessageStrings
+  - CRMScript.NetServer.Registry.RefreshNotifyFrameDeprecated
+  - CRMScript.NetServer.Registry.CopyLDAPSearchBase
+  - CRMScript.NetServer.Registry.UseHtmlRedirect
+  - CRMScript.NetServer.Registry.ImportMailProcPri
+  - CRMScript.NetServer.Registry.KeepWarningLog
+  - CRMScript.NetServer.Registry.KeepDbLog
+  - CRMScript.NetServer.Registry.KeepFormKeys
+  - CRMScript.NetServer.Registry.InternalMessageWhenNotCustomer
+  - CRMScript.NetServer.Registry.SoapSystemUserPassword
+  - CRMScript.NetServer.Registry.CreateExtraTableDbiFields
+  - CRMScript.NetServer.Registry.UseOldMailInFilterRegExp
+  - CRMScript.NetServer.Registry.NewInvoiceEntryFormat
+  - CRMScript.NetServer.Registry.IgnoreReturnPath
+  - CRMScript.NetServer.Registry.ConvertProfilesToClob
+  - CRMScript.NetServer.Registry.ReportStartRootFolder
+  - CRMScript.NetServer.Registry.ParseCustomerFields
+  - CRMScript.NetServer.Registry.ArriveNewTicket
+  - CRMScript.NetServer.Registry.ImportMessageAsAttachment
+  - CRMScript.NetServer.Registry.DBIBetaRelease
+  - CRMScript.NetServer.Registry.DBIExecutable
+  - CRMScript.NetServer.Registry.MailFilterMinFaqValue
+  - CRMScript.NetServer.Registry.AutoStartTimer
+  - CRMScript.NetServer.Registry.ScreenChooserInvoiceStat
+  - CRMScript.NetServer.Registry.LimitSearchExtraTableResult
+  - CRMScript.NetServer.Registry.UseWebServiceSms
+  - CRMScript.NetServer.Registry.LastLicenseInfo
+  - CRMScript.NetServer.Registry.SmsSender
+  - CRMScript.NetServer.Registry.SmsChannel
+  - CRMScript.NetServer.Registry.UseSmsDeliveryReport
+  - CRMScript.NetServer.Registry.UpdateTicketCustomersDone
+  - CRMScript.NetServer.Registry.ScreenChooserHelpPage
+  - CRMScript.NetServer.Registry.CustomerEncryptionMethod
+  - CRMScript.NetServer.Registry.UpgradeCustomerPasswordStatus
+  - CRMScript.NetServer.Registry.UpgradeScreenDefinitionsToScripts
+  - CRMScript.NetServer.Registry.SpmUseHtmlEditor
+  - CRMScript.NetServer.Registry.InvoiceEntrySumAdded
+  - CRMScript.NetServer.Registry.LastnameFirst
+  - CRMScript.NetServer.Registry.SpmUseDeliveryReport
+  - CRMScript.NetServer.Registry.DoNotKickLoginSessions
+  - CRMScript.NetServer.Registry.ScreenChooserUsers
+  - CRMScript.NetServer.Registry.ScreenChooserPriorities
+  - CRMScript.NetServer.Registry.UseSafeParserFunction
+  - CRMScript.NetServer.Registry.ScreenChooserCategories
+  - CRMScript.NetServer.Registry.UpdateCustomerEmails
+  - CRMScript.NetServer.Registry.DirtyTicketSaveEvent
+  - CRMScript.NetServer.Registry.PasteFaq
+  - CRMScript.NetServer.Registry.EjSenderVersion
+  - CRMScript.NetServer.Registry.DefaultTicketStatusOpen
+  - CRMScript.NetServer.Registry.DefaultTicketStatusClosed
+  - CRMScript.NetServer.Registry.DefaultTicketStatusInactive
+  - CRMScript.NetServer.Registry.DefaultTicketStatusDeleted
+  - CRMScript.NetServer.Registry.DefaultTicketStatusConnected
+  - CRMScript.NetServer.Registry.UseOldHtmlSelectTreeLayout
+  - CRMScript.NetServer.Registry.ScreenChooserKnowledgeListFolders
+  - CRMScript.NetServer.Registry.ScreenChooserKnowledgeEditKbEntry
+  - CRMScript.NetServer.Registry.ScreenChooserKnowledgeViewKbEntry
+  - CRMScript.NetServer.Registry.ConvertRegScreenChoosersToTable
+  - CRMScript.NetServer.Registry.SmsProvider
+  - CRMScript.NetServer.Registry.PsWinComUsername
+  - CRMScript.NetServer.Registry.PsWinComPassword
+  - CRMScript.NetServer.Registry.PsWinComSender
+  - CRMScript.NetServer.Registry.UpgradeNotPresentComment
+  - CRMScript.NetServer.Registry.UseWordByWordKbSearch
+  - CRMScript.NetServer.Registry.SearchSubjectBeforeMsgId
+  - CRMScript.NetServer.Registry.UpgradeTicketStatusName
+  - CRMScript.NetServer.Registry.UseOnlyOneCookie
+  - CRMScript.NetServer.Registry.ViewCompanyWithPanes
+  - CRMScript.NetServer.Registry.ViewCustomerWithPanes
+  - CRMScript.NetServer.Registry.ReplacedLangFrWithSe
+  - CRMScript.NetServer.Registry.ViewExtraTableEntryWithPanes
+  - CRMScript.NetServer.Registry.OldMessageBeforeSignature
+  - CRMScript.NetServer.Registry.ViewTicketWithPanes
+  - CRMScript.NetServer.Registry.FixCreationScripts
+  - CRMScript.NetServer.Registry.DefaultNoCustomerOnForwarding
+  - CRMScript.NetServer.Registry.ForceHTTPS
+  - CRMScript.NetServer.Registry.UseEjParserForTemplates
+  - CRMScript.NetServer.Registry.CrossPostMergeTimeWindow
+  - CRMScript.NetServer.Registry.UseAbsoluteURLsInHTML
+  - CRMScript.NetServer.Registry.DelegateAlgorithm
+  - CRMScript.NetServer.Registry.DisplayDataSources
+  - CRMScript.NetServer.Registry.InlineImagesDefault
+  - CRMScript.NetServer.Registry.LogoutUrl
+  - CRMScript.NetServer.Registry.ProfilesConverted
+  - CRMScript.NetServer.Registry.DefaultBlogicScreensOnEditTicket
+  - CRMScript.NetServer.Registry.SearchToSelections
+  - CRMScript.NetServer.Registry.PhoneUpdateDone
+  - CRMScript.NetServer.Registry.FaqAddCommentsAccess
+  - CRMScript.NetServer.Registry.FaqReadCommentsAccess
+  - CRMScript.NetServer.Registry.SpmSMTPServerPort
+  - CRMScript.NetServer.Registry.MapiServerAppendString
+  - CRMScript.NetServer.Registry.CarrotUsername
+  - CRMScript.NetServer.Registry.CarrotPassword
+  - CRMScript.NetServer.Registry.UnicodeConvertedTemplateFolder
+  - CRMScript.NetServer.Registry.SuperOfficeIntegrationPassword
+  - CRMScript.NetServer.Registry.UpdateUserDateFormatsDone
+  - CRMScript.NetServer.Registry.CellphoneAndPhoneUpdateDone
+  - CRMScript.NetServer.Registry.UnpublishedWorkflowName
+  - CRMScript.NetServer.Registry.PublishedWorkflowName
+  - CRMScript.NetServer.Registry.ExpiredWorkflowName
+  - CRMScript.NetServer.Registry.NotifyFramePidGain
+  - CRMScript.NetServer.Registry.NotifyFramePidParamsDeprecated
+  - CRMScript.NetServer.Registry.NotifyFrameServerLoad
+  - CRMScript.NetServer.Registry.Tele2SmsUsername
+  - CRMScript.NetServer.Registry.Tele2SmsPassword
+  - CRMScript.NetServer.Registry.Tele2Endpoint
+  - CRMScript.NetServer.Registry.UpdateFaqAccessToWorkflowDone
+  - CRMScript.NetServer.Registry.UserSignaturesConvertedToHtml
+  - CRMScript.NetServer.Registry.OracleIndexesUpdated
+  - CRMScript.NetServer.Registry.SpmOnlyPrimaryOnTicketSelection
+  - CRMScript.NetServer.Registry.SpmMsgTicketParserUpdateDone
+  - CRMScript.NetServer.Registry.UserOldScreensOnEditTicketDone
+  - CRMScript.NetServer.Registry.UseFullText
+  - CRMScript.NetServer.Registry.HideIntegratedEjSpmBlock
+  - CRMScript.NetServer.Registry.SelectCustomerColumns
+  - CRMScript.NetServer.Registry.SelectCompanyColumns
+  - CRMScript.NetServer.Registry.SelectTicketColumns
+  - CRMScript.NetServer.Registry.UpdatedActivateField
+  - CRMScript.NetServer.Registry.SpmImgDBCopied
+  - CRMScript.NetServer.Registry.SecurityModelEnabled
+  - CRMScript.NetServer.Registry.BlockPanesRenderMode
+  - CRMScript.NetServer.Registry.UseMiddleName
+  - CRMScript.NetServer.Registry.NSConvertedProfiles
+  - CRMScript.NetServer.Registry.AllowSentryBypass
+  - CRMScript.NetServer.Registry.CrmGroup
+  - CRMScript.NetServer.Registry.CrmRoleAdmin
+  - CRMScript.NetServer.Registry.CrmRoleStandard
+  - CRMScript.NetServer.Registry.LastLicenseExpirationCheck
+  - CRMScript.NetServer.Registry.ReplyTemplateLicenseExpirationWarning
+  - CRMScript.NetServer.Registry.CrmRoleCustomer
+  - CRMScript.NetServer.Registry.SystemNSKey
+  - CRMScript.NetServer.Registry.AnonNSKey
+  - CRMScript.NetServer.Registry.DBSchemaDirty
+  - CRMScript.NetServer.Registry.NSGetKeyPath
+  - CRMScript.NetServer.Registry.EmarketeerNewLinkGraceDate
+  - CRMScript.NetServer.Registry.CustomNotifyEnabled
+  - CRMScript.NetServer.Registry.ConverterDone
+  - CRMScript.NetServer.Registry.NetServerKeepAlive
+  - CRMScript.NetServer.Registry.TimeZoneForNetServer
+  - CRMScript.NetServer.Registry.UseExtension
+  - CRMScript.NetServer.Registry.CustomerEnableFAQAjax
+  - CRMScript.NetServer.Registry.UseAttachmentFolders
+  - CRMScript.NetServer.Registry.DoNotChangeSMRoles
+  - CRMScript.NetServer.Registry.ShowAvatarsInCustomerCentre
+  - CRMScript.NetServer.Registry.SearchEngineFilters
+  - CRMScript.NetServer.Registry.UseNetServerSms
+  - CRMScript.NetServer.Registry.NetServerSmsProvider
+  - CRMScript.NetServer.Registry.NsPluginSender
+  - CRMScript.NetServer.Registry.SetupFCGI
+  - CRMScript.NetServer.Registry.UseFCGIImpersonation
+  - CRMScript.NetServer.Registry.SoapUseExtension
+  - CRMScript.NetServer.Registry.UseAutoSuppressHeader
+  - CRMScript.NetServer.Registry.ExampleBounceFilterAdded
+  - CRMScript.NetServer.Registry.SLinkCleanUpDone
+  - CRMScript.NetServer.Registry.IncomingSmsBox
+  - CRMScript.NetServer.Registry.AddedLegalHtmlCodeInUpgrade
+  - CRMScript.NetServer.Registry.DefaultEditorContent
+  - CRMScript.NetServer.Registry.UseBrowserSpellCheck
+  - CRMScript.NetServer.Registry.UseCalltoOnPhoneLinks
+  - CRMScript.NetServer.Registry.ShowSubmitSpinner
+  - CRMScript.NetServer.Registry.AccessLicensePageWithoutLogin
+  - CRMScript.NetServer.Registry.HideExportButton
+  - CRMScript.NetServer.Registry.QueueTicketStatuses
+  - CRMScript.NetServer.Registry.ImageResizerExecutable
+  - CRMScript.NetServer.Registry.CleanupLinefeedInNSMail
+  - CRMScript.NetServer.Registry.CheckHtmlValidityInSOEditor
+  - CRMScript.NetServer.Registry.UpgradeCSParserConverted
+  - CRMScript.NetServer.Registry.DefaultEditorBodyFont
+  - CRMScript.NetServer.Registry.CustomCacheBustingParameter
+  - CRMScript.NetServer.Registry.UseSha1OnLinks
+  - CRMScript.NetServer.Registry.UpgradeRolesConverted
+  - CRMScript.NetServer.Registry.DeleteInboxDays
+  - CRMScript.NetServer.Registry.UserGroupsConverted
+  - CRMScript.NetServer.Registry.UserAgentIsMobile
+  - CRMScript.NetServer.Registry.UserAgentIsTablet
+  - CRMScript.NetServer.Registry.DefaultStatusWhenTakingOwnership
+  - CRMScript.NetServer.Registry.DisableUnauthenticatedCreationInCustomerCentre
+  - CRMScript.NetServer.Registry.RegisterCustomerConfirmEmail
+  - CRMScript.NetServer.Registry.ReplyTemplateCustomerConfirmEmail
+  - CRMScript.NetServer.Registry.ReplyToAllOnlyLatestExternalMessage
+  - CRMScript.NetServer.Registry.LastCleanedExpiredNotify
+  - CRMScript.NetServer.Registry.eMarketingEditorInNewWindow
+  - CRMScript.NetServer.Registry.FacebookCallbackKey
+  - CRMScript.NetServer.Registry.MaxRowsForCharts
+  - CRMScript.NetServer.Registry.SpmDefaultMailingRate
+  - CRMScript.NetServer.Registry.SpmConcurrentSMTPThreads
+  - CRMScript.NetServer.Registry.SpmHideNewMessageOption
+  - CRMScript.NetServer.Registry.SpmTimeToRestartSenders
+  - CRMScript.NetServer.Registry.ShowOldReportsMenu
+  - CRMScript.NetServer.Registry.EmailSendingRetryLimit
+  - CRMScript.NetServer.Registry.ThumbnailsIsDefaultMode
+  - CRMScript.NetServer.Registry.UsageStatsWinNextRun
+  - CRMScript.NetServer.Registry.UsageStatsWebNextRun
+  - CRMScript.NetServer.Registry.UsageStatsDataAddNextRun
+  - CRMScript.NetServer.Registry.UsageStatsTableSizeNextRun
+  - CRMScript.NetServer.Registry.UserSyncResyncNextRun
+  - CRMScript.NetServer.Registry.ForceIEEdgeMode
+  - CRMScript.NetServer.Registry.CSPHeader
+  - CRMScript.NetServer.Registry.NotifyTimeOfDayForReport
+  - CRMScript.NetServer.Registry.EmailImplementation
+  - CRMScript.NetServer.Registry.CurlMailTransferTimeout
+  - CRMScript.NetServer.Registry.CurlDisableStartTls
+  - CRMScript.NetServer.Registry.ReplyTemplatePrintTicket
+  - CRMScript.NetServer.Registry.DoNotUseCompanyCountry
+  - CRMScript.NetServer.Registry.MaxGridRows
+  - CRMScript.NetServer.Registry.DoNotAllowMultipleLogins
+  - CRMScript.NetServer.Registry.NsPluginConfig
+  - CRMScript.NetServer.Registry.ReplyTemplateCustomerChatLog
+  - CRMScript.NetServer.Registry.MailgunIncludeOutOfOffice
+  - CRMScript.NetServer.Registry.TimeKeyTTL
+  - CRMScript.NetServer.Registry.DefaultTrackAllLinks
+  - CRMScript.NetServer.Registry.AddedOptionsFcgi
+  - CRMScript.NetServer.Registry.MailgunRewriteSenderHeader
+  - CRMScript.NetServer.Registry.OptimizedCustomerCenterListTickets
+  - CRMScript.NetServer.Registry.QuickReplyMode
+  - CRMScript.NetServer.Registry.ForceImmediateFileLogging
+  - CRMScript.NetServer.Registry.TemporaryKeyTTL
+  - CRMScript.NetServer.Registry.TemporaryKeyHardDeleteDelay
+  - CRMScript.NetServer.Registry.ReplyTemplateNewLink
+  - CRMScript.NetServer.Registry.UseLegacyHtmlConverter
+  - CRMScript.NetServer.Registry.ClipMessagesLength
+  - CRMScript.NetServer.Registry.StrictGDRPMode
+  - CRMScript.NetServer.Registry.ImportMailCreateUnknownPersons
+  - CRMScript.NetServer.Registry.ChatCheckForIdleSessions
+  - CRMScript.NetServer.Registry.ImportmailCheckInvalidUTF8
+  - CRMScript.NetServer.Registry.RecipientControlAdvancedSearch
+  - CRMScript.NetServer.Registry.UseCookieInCustomerCenter
+  - CRMScript.NetServer.Registry.SandboxTicketMessages
+  - CRMScript.NetServer.Registry.MailingsUseEnvelopeFrom
+  - CRMScript.NetServer.Registry.MovedSystemScriptsToScreenChooser
+  - CRMScript.NetServer.Registry.FastPersonRecipientSearch
+  - CRMScript.NetServer.Registry.SanitizeMailingsHtml
+  - CRMScript.NetServer.Registry.KeepExistingCustomerCenterTemplatesOnDisk
+  - CRMScript.NetServer.Registry.SentimentCalculationTimeframe
+  - CRMScript.NetServer.Registry.ComponentMaxWidth
+  - CRMScript.NetServer.Registry.ReplyToPrimaryEmail
+  - CRMScript.NetServer.Registry.TicketLogSystem
+  - CRMScript.NetServer.Registry.AllowedMailingLinksDomains
+  - CRMScript.NetServer.Registry.CCTAddMessage
+  - CRMScript.NetServer.Registry.CCTCanceled
+  - CRMScript.NetServer.Registry.CCTChangeCust
+  - CRMScript.NetServer.Registry.CCTConfirmCustomer
+  - CRMScript.NetServer.Registry.CCTDoneConfirmCustomer
+  - CRMScript.NetServer.Registry.CCTDoneRegister
+  - CRMScript.NetServer.Registry.CCTEMarketeerSimpleMessage
+  - CRMScript.NetServer.Registry.CCTFramework
+  - CRMScript.NetServer.Registry.CCTListTicket
+  - CRMScript.NetServer.Registry.CCTListTickets
+  - CRMScript.NetServer.Registry.CCTLoggedIn
+  - CRMScript.NetServer.Registry.CCTLoggedOut
+  - CRMScript.NetServer.Registry.CCTLogin
+  - CRMScript.NetServer.Registry.CCTNewTicket
+  - CRMScript.NetServer.Registry.CCTNoAccess
+  - CRMScript.NetServer.Registry.CCTPasswordSent
+  - CRMScript.NetServer.Registry.CCTRegisterCust
+  - CRMScript.NetServer.Registry.CCTSendPassword
+  - CRMScript.NetServer.Registry.CCTSubscription
+  - CRMScript.NetServer.Registry.CCTTicketPosted
+  - CRMScript.NetServer.Registry.CCTViewKBCategory
+  - CRMScript.NetServer.Registry.CCTViewKBEntry
+  - CRMScript.NetServer.Registry.CCTViewKBSearch
+  - CRMScript.NetServer.Registry.CCTWelcome
+  - CRMScript.NetServer.Registry.CCTUpdateSubscriptions
+  - CRMScript.NetServer.Registry.CCTUpdateConsent
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: Registry
+  syntax: 
+    content: Registry
+  summary: "Enum used to map registry values by reg_id"
+  name: Registry
+  nameWithType: Registry
+  fullName: CRMScript.NetServer.Registry
+- uid: CRMScript.NetServer.Registry.RegistryEntry_End
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.RegistryEntry_End
+  syntax: 
+    content: Registry.RegistryEntry_End
+  summary: "internal"
+  name: RegistryEntry_End
+  nameWithType: RegistryEntry_End
+  fullName: CRMScript.NetServer.Registry.RegistryEntry_End
+- uid: CRMScript.NetServer.Registry.EjournalSender
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EjournalSender
+  syntax: 
+    content: Registry.EjournalSender
+  summary: "ejSender executable"
+  name: EjournalSender
+  nameWithType: EjournalSender
+  fullName: CRMScript.NetServer.Registry.EjournalSender
+- uid: CRMScript.NetServer.Registry.CleanerThreshold
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CleanerThreshold
+  syntax: 
+    content: Registry.CleanerThreshold
+  summary: "CleanerThreshold"
+  name: CleanerThreshold
+  nameWithType: CleanerThreshold
+  fullName: CRMScript.NetServer.Registry.CleanerThreshold
+- uid: CRMScript.NetServer.Registry.CleanerTolerance
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CleanerTolerance
+  syntax: 
+    content: Registry.CleanerTolerance
+  summary: "CleanerTolerance"
+  name: CleanerTolerance
+  nameWithType: CleanerTolerance
+  fullName: CRMScript.NetServer.Registry.CleanerTolerance
+- uid: CRMScript.NetServer.Registry.EjournalCronLast
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EjournalCronLast
+  syntax: 
+    content: Registry.EjournalCronLast
+  summary: "Previous run time for ejCron"
+  name: EjournalCronLast
+  nameWithType: EjournalCronLast
+  fullName: CRMScript.NetServer.Registry.EjournalCronLast
+- uid: CRMScript.NetServer.Registry.EjournalCronNow
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EjournalCronNow
+  syntax: 
+    content: Registry.EjournalCronNow
+  summary: "This run time for ejCron"
+  name: EjournalCronNow
+  nameWithType: EjournalCronNow
+  fullName: CRMScript.NetServer.Registry.EjournalCronNow
+- uid: CRMScript.NetServer.Registry.CleanerOnOff
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CleanerOnOff
+  syntax: 
+    content: Registry.CleanerOnOff
+  summary: "CleanerOnOff"
+  name: CleanerOnOff
+  nameWithType: CleanerOnOff
+  fullName: CRMScript.NetServer.Registry.CleanerOnOff
+- uid: CRMScript.NetServer.Registry.CleanerImportOnOff
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CleanerImportOnOff
+  syntax: 
+    content: Registry.CleanerImportOnOff
+  summary: "CleanerImportOnOff"
+  name: CleanerImportOnOff
+  nameWithType: CleanerImportOnOff
+  fullName: CRMScript.NetServer.Registry.CleanerImportOnOff
+- uid: CRMScript.NetServer.Registry.NotifyActiveTickets
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NotifyActiveTickets
+  syntax: 
+    content: Registry.NotifyActiveTickets
+  summary: "NotifyActiveTickets"
+  name: NotifyActiveTickets
+  nameWithType: NotifyActiveTickets
+  fullName: CRMScript.NetServer.Registry.NotifyActiveTickets
+- uid: CRMScript.NetServer.Registry.ActiveLinksInMessages
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ActiveLinksInMessages
+  syntax: 
+    content: Registry.ActiveLinksInMessages
+  summary: "ActiveLinksInMessages"
+  name: ActiveLinksInMessages
+  nameWithType: ActiveLinksInMessages
+  fullName: CRMScript.NetServer.Registry.ActiveLinksInMessages
+- uid: CRMScript.NetServer.Registry.SmtpTimeout
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SmtpTimeout
+  syntax: 
+    content: Registry.SmtpTimeout
+  summary: "SMTP timeout value"
+  name: SmtpTimeout
+  nameWithType: SmtpTimeout
+  fullName: CRMScript.NetServer.Registry.SmtpTimeout
+- uid: CRMScript.NetServer.Registry.ReplyTemplateCustomerNewCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateCustomerNewCustomer
+  syntax: 
+    content: Registry.ReplyTemplateCustomerNewCustomer
+  summary: "ReplyTemplateCustomerNewCustomer"
+  name: ReplyTemplateCustomerNewCustomer
+  nameWithType: ReplyTemplateCustomerNewCustomer
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateCustomerNewCustomer
+- uid: CRMScript.NetServer.Registry.ReplyTemplateCustomerCustomerReply
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateCustomerCustomerReply
+  syntax: 
+    content: Registry.ReplyTemplateCustomerCustomerReply
+  summary: "ReplyTemplateCustomerCustomerReply"
+  name: ReplyTemplateCustomerCustomerReply
+  nameWithType: ReplyTemplateCustomerCustomerReply
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateCustomerCustomerReply
+- uid: CRMScript.NetServer.Registry.ReplyTemplateCustomerPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateCustomerPassword
+  syntax: 
+    content: Registry.ReplyTemplateCustomerPassword
+  summary: "ReplyTemplateCustomerPassword"
+  name: ReplyTemplateCustomerPassword
+  nameWithType: ReplyTemplateCustomerPassword
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateCustomerPassword
+- uid: CRMScript.NetServer.Registry.ReplyTemplateUserActiveTickets
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateUserActiveTickets
+  syntax: 
+    content: Registry.ReplyTemplateUserActiveTickets
+  summary: "ReplyTemplateUserActiveTickets"
+  name: ReplyTemplateUserActiveTickets
+  nameWithType: ReplyTemplateUserActiveTickets
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateUserActiveTickets
+- uid: CRMScript.NetServer.Registry.ReplyTemplateUserNewMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateUserNewMessage
+  syntax: 
+    content: Registry.ReplyTemplateUserNewMessage
+  summary: "ReplyTemplateUserNewMessage"
+  name: ReplyTemplateUserNewMessage
+  nameWithType: ReplyTemplateUserNewMessage
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateUserNewMessage
+- uid: CRMScript.NetServer.Registry.ReplyTemplateUserTicketActivated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateUserTicketActivated
+  syntax: 
+    content: Registry.ReplyTemplateUserTicketActivated
+  summary: "ReplyTemplateUserTicketActivated"
+  name: ReplyTemplateUserTicketActivated
+  nameWithType: ReplyTemplateUserTicketActivated
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateUserTicketActivated
+- uid: CRMScript.NetServer.Registry.ReplyTemplateUserTicketAlarm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateUserTicketAlarm
+  syntax: 
+    content: Registry.ReplyTemplateUserTicketAlarm
+  summary: "ReplyTemplateUserTicketAlarm"
+  name: ReplyTemplateUserTicketAlarm
+  nameWithType: ReplyTemplateUserTicketAlarm
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateUserTicketAlarm
+- uid: CRMScript.NetServer.Registry.ReplyTemplateUserNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateUserNewTicket
+  syntax: 
+    content: Registry.ReplyTemplateUserNewTicket
+  summary: "ReplyTemplateUserNewTicket"
+  name: ReplyTemplateUserNewTicket
+  nameWithType: ReplyTemplateUserNewTicket
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateUserNewTicket
+- uid: CRMScript.NetServer.Registry.SetupCompanyName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SetupCompanyName
+  syntax: 
+    content: Registry.SetupCompanyName
+  summary: "SetupCompanyName"
+  name: SetupCompanyName
+  nameWithType: SetupCompanyName
+  fullName: CRMScript.NetServer.Registry.SetupCompanyName
+- uid: CRMScript.NetServer.Registry.SetupCompanyAddress
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SetupCompanyAddress
+  syntax: 
+    content: Registry.SetupCompanyAddress
+  summary: "SetupCompanyAddress"
+  name: SetupCompanyAddress
+  nameWithType: SetupCompanyAddress
+  fullName: CRMScript.NetServer.Registry.SetupCompanyAddress
+- uid: CRMScript.NetServer.Registry.NotifyActiveTicketsDays
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NotifyActiveTicketsDays
+  syntax: 
+    content: Registry.NotifyActiveTicketsDays
+  summary: "Notify active tickets delay"
+  name: NotifyActiveTicketsDays
+  nameWithType: NotifyActiveTicketsDays
+  fullName: CRMScript.NetServer.Registry.NotifyActiveTicketsDays
+- uid: CRMScript.NetServer.Registry.EjournalOutbox
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EjournalOutbox
+  syntax: 
+    content: Registry.EjournalOutbox
+  summary: "ejOutbox executable"
+  name: EjournalOutbox
+  nameWithType: EjournalOutbox
+  fullName: CRMScript.NetServer.Registry.EjournalOutbox
+- uid: CRMScript.NetServer.Registry.OutmailWrapColumn
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.OutmailWrapColumn
+  syntax: 
+    content: Registry.OutmailWrapColumn
+  summary: "Outmail wrap column (only used for parameter to htmlConvToText)"
+  name: OutmailWrapColumn
+  nameWithType: OutmailWrapColumn
+  fullName: CRMScript.NetServer.Registry.OutmailWrapColumn
+- uid: CRMScript.NetServer.Registry.EnableBackdoor
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EnableBackdoor
+  syntax: 
+    content: Registry.EnableBackdoor
+  summary: "Enable eJournal remote access"
+  name: EnableBackdoor
+  nameWithType: EnableBackdoor
+  fullName: CRMScript.NetServer.Registry.EnableBackdoor
+- uid: CRMScript.NetServer.Registry.EjournalOutboxDelay
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EjournalOutboxDelay
+  syntax: 
+    content: Registry.EjournalOutboxDelay
+  summary: "ejOutbox mail delay in minutes"
+  name: EjournalOutboxDelay
+  nameWithType: EjournalOutboxDelay
+  fullName: CRMScript.NetServer.Registry.EjournalOutboxDelay
+- uid: CRMScript.NetServer.Registry.DisableHtmlFiltering
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DisableHtmlFiltering
+  syntax: 
+    content: Registry.DisableHtmlFiltering
+  summary: "Disable filtering of HTML when viewing"
+  name: DisableHtmlFiltering
+  nameWithType: DisableHtmlFiltering
+  fullName: CRMScript.NetServer.Registry.DisableHtmlFiltering
+- uid: CRMScript.NetServer.Registry.FaqTitleWeight
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.FaqTitleWeight
+  syntax: 
+    content: Registry.FaqTitleWeight
+  summary: "The weight of each word in faq title"
+  name: FaqTitleWeight
+  nameWithType: FaqTitleWeight
+  fullName: CRMScript.NetServer.Registry.FaqTitleWeight
+- uid: CRMScript.NetServer.Registry.ChatWhoisString
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ChatWhoisString
+  syntax: 
+    content: Registry.ChatWhoisString
+  summary: "Link to web page finding the owner of an ip"
+  name: ChatWhoisString
+  nameWithType: ChatWhoisString
+  fullName: CRMScript.NetServer.Registry.ChatWhoisString
+- uid: CRMScript.NetServer.Registry.FaqSuggestions
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.FaqSuggestions
+  syntax: 
+    content: Registry.FaqSuggestions
+  summary: "Number of faq suggestions in email filter"
+  name: FaqSuggestions
+  nameWithType: FaqSuggestions
+  fullName: CRMScript.NetServer.Registry.FaqSuggestions
+- uid: CRMScript.NetServer.Registry.ChatAvailableImage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ChatAvailableImage
+  syntax: 
+    content: Registry.ChatAvailableImage
+  summary: "Filename of chatAvailable image"
+  name: ChatAvailableImage
+  nameWithType: ChatAvailableImage
+  fullName: CRMScript.NetServer.Registry.ChatAvailableImage
+- uid: CRMScript.NetServer.Registry.ChatUnavailableImage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ChatUnavailableImage
+  syntax: 
+    content: Registry.ChatUnavailableImage
+  summary: "Filename of chatUnavailable image"
+  name: ChatUnavailableImage
+  nameWithType: ChatUnavailableImage
+  fullName: CRMScript.NetServer.Registry.ChatUnavailableImage
+- uid: CRMScript.NetServer.Registry.ImportMailTimeout
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImportMailTimeout
+  syntax: 
+    content: Registry.ImportMailTimeout
+  summary: "Seconds before importMail looses ownership"
+  name: ImportMailTimeout
+  nameWithType: ImportMailTimeout
+  fullName: CRMScript.NetServer.Registry.ImportMailTimeout
+- uid: CRMScript.NetServer.Registry.ShowReplyTemplatesToCustomers
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ShowReplyTemplatesToCustomers
+  syntax: 
+    content: Registry.ShowReplyTemplatesToCustomers
+  summary: "Show reply templates sendt to customers"
+  name: ShowReplyTemplatesToCustomers
+  nameWithType: ShowReplyTemplatesToCustomers
+  fullName: CRMScript.NetServer.Registry.ShowReplyTemplatesToCustomers
+- uid: CRMScript.NetServer.Registry.LastRequestTicketLimit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastRequestTicketLimit
+  syntax: 
+    content: Registry.LastRequestTicketLimit
+  summary: "Last request ticket limit (maxId-x)"
+  name: LastRequestTicketLimit
+  nameWithType: LastRequestTicketLimit
+  fullName: CRMScript.NetServer.Registry.LastRequestTicketLimit
+- uid: CRMScript.NetServer.Registry.LastRequestDaysLimit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastRequestDaysLimit
+  syntax: 
+    content: Registry.LastRequestDaysLimit
+  summary: "Last request days limit"
+  name: LastRequestDaysLimit
+  nameWithType: LastRequestDaysLimit
+  fullName: CRMScript.NetServer.Registry.LastRequestDaysLimit
+- uid: CRMScript.NetServer.Registry.NoEjOutbox
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NoEjOutbox
+  syntax: 
+    content: Registry.NoEjOutbox
+  summary: "Disable internal outbox."
+  name: NoEjOutbox
+  nameWithType: NoEjOutbox
+  fullName: CRMScript.NetServer.Registry.NoEjOutbox
+- uid: CRMScript.NetServer.Registry.IdleLimitCustomerSeconds
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.IdleLimitCustomerSeconds
+  syntax: 
+    content: Registry.IdleLimitCustomerSeconds
+  summary: "Number of idle seconds before customer is logged out(SOAP)."
+  name: IdleLimitCustomerSeconds
+  nameWithType: IdleLimitCustomerSeconds
+  fullName: CRMScript.NetServer.Registry.IdleLimitCustomerSeconds
+- uid: CRMScript.NetServer.Registry.ReplyTemplateUserTicketTakenOver
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateUserTicketTakenOver
+  syntax: 
+    content: Registry.ReplyTemplateUserTicketTakenOver
+  summary: "ReplyTemplateUserTicketTakenOver."
+  name: ReplyTemplateUserTicketTakenOver
+  nameWithType: ReplyTemplateUserTicketTakenOver
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateUserTicketTakenOver
+- uid: CRMScript.NetServer.Registry.EnableSpellCheck27
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EnableSpellCheck27
+  syntax: 
+    content: Registry.EnableSpellCheck27
+  summary: "Enable spellchecking on eJournal 2.7"
+  name: EnableSpellCheck27
+  nameWithType: EnableSpellCheck27
+  fullName: CRMScript.NetServer.Registry.EnableSpellCheck27
+- uid: CRMScript.NetServer.Registry.LogPath
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LogPath
+  syntax: 
+    content: Registry.LogPath
+  summary: "LogPath in eJournal"
+  name: LogPath
+  nameWithType: LogPath
+  fullName: CRMScript.NetServer.Registry.LogPath
+- uid: CRMScript.NetServer.Registry.NumOfListedLinks
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NumOfListedLinks
+  syntax: 
+    content: Registry.NumOfListedLinks
+  summary: "Max number of links or images listed on a customer"
+  name: NumOfListedLinks
+  nameWithType: NumOfListedLinks
+  fullName: CRMScript.NetServer.Registry.NumOfListedLinks
+- uid: CRMScript.NetServer.Registry.ReplyTemplatePublishKbQuestion
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplatePublishKbQuestion
+  syntax: 
+    content: Registry.ReplyTemplatePublishKbQuestion
+  summary: "ReplyTemplatePublishKbQuestion"
+  name: ReplyTemplatePublishKbQuestion
+  nameWithType: ReplyTemplatePublishKbQuestion
+  fullName: CRMScript.NetServer.Registry.ReplyTemplatePublishKbQuestion
+- uid: CRMScript.NetServer.Registry.ReplyTemplatePublishKbAnswer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplatePublishKbAnswer
+  syntax: 
+    content: Registry.ReplyTemplatePublishKbAnswer
+  summary: "ReplyTemplatePublishKbAnswer"
+  name: ReplyTemplatePublishKbAnswer
+  nameWithType: ReplyTemplatePublishKbAnswer
+  fullName: CRMScript.NetServer.Registry.ReplyTemplatePublishKbAnswer
+- uid: CRMScript.NetServer.Registry.InvoiceUpdateDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.InvoiceUpdateDone
+  syntax: 
+    content: Registry.InvoiceUpdateDone
+  summary: "InvoiceUpdateDone"
+  name: InvoiceUpdateDone
+  nameWithType: InvoiceUpdateDone
+  fullName: CRMScript.NetServer.Registry.InvoiceUpdateDone
+- uid: CRMScript.NetServer.Registry.DefaultTimeToReplyOnNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultTimeToReplyOnNewTicket
+  syntax: 
+    content: Registry.DefaultTimeToReplyOnNewTicket
+  summary: "The default time_to_reply on new tickets, -1 disabled"
+  name: DefaultTimeToReplyOnNewTicket
+  nameWithType: DefaultTimeToReplyOnNewTicket
+  fullName: CRMScript.NetServer.Registry.DefaultTimeToReplyOnNewTicket
+- uid: CRMScript.NetServer.Registry.ShowAutoRepliesToCustomers
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ShowAutoRepliesToCustomers
+  syntax: 
+    content: Registry.ShowAutoRepliesToCustomers
+  summary: "Show auto replies sendt to customers"
+  name: ShowAutoRepliesToCustomers
+  nameWithType: ShowAutoRepliesToCustomers
+  fullName: CRMScript.NetServer.Registry.ShowAutoRepliesToCustomers
+- uid: CRMScript.NetServer.Registry.EjournalOutboxDeleteSentMailAfter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EjournalOutboxDeleteSentMailAfter
+  syntax: 
+    content: Registry.EjournalOutboxDeleteSentMailAfter
+  summary: "Outbox delete SentMail after x days"
+  name: EjournalOutboxDeleteSentMailAfter
+  nameWithType: EjournalOutboxDeleteSentMailAfter
+  fullName: CRMScript.NetServer.Registry.EjournalOutboxDeleteSentMailAfter
+- uid: CRMScript.NetServer.Registry.AllwaysSendMailToNewCustomers
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AllwaysSendMailToNewCustomers
+  syntax: 
+    content: Registry.AllwaysSendMailToNewCustomers
+  summary: "Allways send mail to new customers"
+  name: AllwaysSendMailToNewCustomers
+  nameWithType: AllwaysSendMailToNewCustomers
+  fullName: CRMScript.NetServer.Registry.AllwaysSendMailToNewCustomers
+- uid: CRMScript.NetServer.Registry.IdleLimitCustomerSecondsWeb
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.IdleLimitCustomerSecondsWeb
+  syntax: 
+    content: Registry.IdleLimitCustomerSecondsWeb
+  summary: "Number of idle seconds before customer is logged out."
+  name: IdleLimitCustomerSecondsWeb
+  nameWithType: IdleLimitCustomerSecondsWeb
+  fullName: CRMScript.NetServer.Registry.IdleLimitCustomerSecondsWeb
+- uid: CRMScript.NetServer.Registry.ExternalCustomerAuthEnabled
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ExternalCustomerAuthEnabled
+  syntax: 
+    content: Registry.ExternalCustomerAuthEnabled
+  summary: "External authentication of customers enabled."
+  name: ExternalCustomerAuthEnabled
+  nameWithType: ExternalCustomerAuthEnabled
+  fullName: CRMScript.NetServer.Registry.ExternalCustomerAuthEnabled
+- uid: CRMScript.NetServer.Registry.ExternalCustomerAuthURL
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ExternalCustomerAuthURL
+  syntax: 
+    content: Registry.ExternalCustomerAuthURL
+  summary: "External authentication connection string (url)."
+  name: ExternalCustomerAuthURL
+  nameWithType: ExternalCustomerAuthURL
+  fullName: CRMScript.NetServer.Registry.ExternalCustomerAuthURL
+- uid: CRMScript.NetServer.Registry.DoNotTestSmtp
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DoNotTestSmtp
+  syntax: 
+    content: Registry.DoNotTestSmtp
+  summary: "Do not test SMTP server ie relaying denied"
+  name: DoNotTestSmtp
+  nameWithType: DoNotTestSmtp
+  fullName: CRMScript.NetServer.Registry.DoNotTestSmtp
+- uid: CRMScript.NetServer.Registry.DelayMailboxImport
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DelayMailboxImport
+  syntax: 
+    content: Registry.DelayMailboxImport
+  summary: "Delay import of each mailbox with a given number of seconds"
+  name: DelayMailboxImport
+  nameWithType: DelayMailboxImport
+  fullName: CRMScript.NetServer.Registry.DelayMailboxImport
+- uid: CRMScript.NetServer.Registry.MaxLoginAttempts
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MaxLoginAttempts
+  syntax: 
+    content: Registry.MaxLoginAttempts
+  summary: "Maximum sequential login attempts"
+  name: MaxLoginAttempts
+  nameWithType: MaxLoginAttempts
+  fullName: CRMScript.NetServer.Registry.MaxLoginAttempts
+- uid: CRMScript.NetServer.Registry.BlockLoginAttempts
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.BlockLoginAttempts
+  syntax: 
+    content: Registry.BlockLoginAttempts
+  summary: "Number of minutes to block after MaxLoginAttempts is reached"
+  name: BlockLoginAttempts
+  nameWithType: BlockLoginAttempts
+  fullName: CRMScript.NetServer.Registry.BlockLoginAttempts
+- uid: CRMScript.NetServer.Registry.ReplyTemplateWeekStat
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateWeekStat
+  syntax: 
+    content: Registry.ReplyTemplateWeekStat
+  summary: "ReplyTemplateWeekStat"
+  name: ReplyTemplateWeekStat
+  nameWithType: ReplyTemplateWeekStat
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateWeekStat
+- uid: CRMScript.NetServer.Registry.WeekStatRecipient
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.WeekStatRecipient
+  syntax: 
+    content: Registry.WeekStatRecipient
+  summary: "The email address(es) of week stat recipients"
+  name: WeekStatRecipient
+  nameWithType: WeekStatRecipient
+  fullName: CRMScript.NetServer.Registry.WeekStatRecipient
+- uid: CRMScript.NetServer.Registry.HideUserStatistics
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.HideUserStatistics
+  syntax: 
+    content: Registry.HideUserStatistics
+  summary: "Hide user sensitive statistics"
+  name: HideUserStatistics
+  nameWithType: HideUserStatistics
+  fullName: CRMScript.NetServer.Registry.HideUserStatistics
+- uid: CRMScript.NetServer.Registry.SystemTimeMode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SystemTimeMode
+  syntax: 
+    content: Registry.SystemTimeMode
+  summary: "System wide time mode. 0=12hrs 1=24hrs"
+  name: SystemTimeMode
+  nameWithType: SystemTimeMode
+  fullName: CRMScript.NetServer.Registry.SystemTimeMode
+- uid: CRMScript.NetServer.Registry.SMTPIgnoreLeadingDotEscaping
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SMTPIgnoreLeadingDotEscaping
+  syntax: 
+    content: Registry.SMTPIgnoreLeadingDotEscaping
+  summary: "Ignore the escaping of leading dots when encoding mail."
+  name: SMTPIgnoreLeadingDotEscaping
+  nameWithType: SMTPIgnoreLeadingDotEscaping
+  fullName: CRMScript.NetServer.Registry.SMTPIgnoreLeadingDotEscaping
+- uid: CRMScript.NetServer.Registry.BaseURLForFAQEntry
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.BaseURLForFAQEntry
+  syntax: 
+    content: Registry.BaseURLForFAQEntry
+  summary: "Alternative Base URL for external FAQ entries. Can be empty."
+  name: BaseURLForFAQEntry
+  nameWithType: BaseURLForFAQEntry
+  fullName: CRMScript.NetServer.Registry.BaseURLForFAQEntry
+- uid: CRMScript.NetServer.Registry.BaseURLForFAQCategory
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.BaseURLForFAQCategory
+  syntax: 
+    content: Registry.BaseURLForFAQCategory
+  summary: "Alternative Base URL for external FAQ categories. Can be empty."
+  name: BaseURLForFAQCategory
+  nameWithType: BaseURLForFAQCategory
+  fullName: CRMScript.NetServer.Registry.BaseURLForFAQCategory
+- uid: CRMScript.NetServer.Registry.SystemTimeModeInstalled
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SystemTimeModeInstalled
+  syntax: 
+    content: Registry.SystemTimeModeInstalled
+  summary: "Is system wide time mode installed?"
+  name: SystemTimeModeInstalled
+  nameWithType: SystemTimeModeInstalled
+  fullName: CRMScript.NetServer.Registry.SystemTimeModeInstalled
+- uid: CRMScript.NetServer.Registry.BlockCustomerFAQParsing
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.BlockCustomerFAQParsing
+  syntax: 
+    content: Registry.BlockCustomerFAQParsing
+  summary: "Block parsing of FAQ entries under customer"
+  name: BlockCustomerFAQParsing
+  nameWithType: BlockCustomerFAQParsing
+  fullName: CRMScript.NetServer.Registry.BlockCustomerFAQParsing
+- uid: CRMScript.NetServer.Registry.ChatUserIdleTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ChatUserIdleTime
+  syntax: 
+    content: Registry.ChatUserIdleTime
+  summary: "Remove user from chat topic if he has been idle long than..."
+  name: ChatUserIdleTime
+  nameWithType: ChatUserIdleTime
+  fullName: CRMScript.NetServer.Registry.ChatUserIdleTime
+- uid: CRMScript.NetServer.Registry.AlertChatMessages
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AlertChatMessages
+  syntax: 
+    content: Registry.AlertChatMessages
+  summary: "Whether to alert chat messages"
+  name: AlertChatMessages
+  nameWithType: AlertChatMessages
+  fullName: CRMScript.NetServer.Registry.AlertChatMessages
+- uid: CRMScript.NetServer.Registry.DisableExternalSpmUpdate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DisableExternalSpmUpdate
+  syntax: 
+    content: Registry.DisableExternalSpmUpdate
+  summary: "Disable external database updates when sending spm"
+  name: DisableExternalSpmUpdate
+  nameWithType: DisableExternalSpmUpdate
+  fullName: CRMScript.NetServer.Registry.DisableExternalSpmUpdate
+- uid: CRMScript.NetServer.Registry.SpmSMTPServer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmSMTPServer
+  syntax: 
+    content: Registry.SpmSMTPServer
+  summary: "Specify an alternative SMTP server for spm"
+  name: SpmSMTPServer
+  nameWithType: SpmSMTPServer
+  fullName: CRMScript.NetServer.Registry.SpmSMTPServer
+- uid: CRMScript.NetServer.Registry.SpmDefaultFrom
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmDefaultFrom
+  syntax: 
+    content: Registry.SpmDefaultFrom
+  summary: "Default spm test from adress"
+  name: SpmDefaultFrom
+  nameWithType: SpmDefaultFrom
+  fullName: CRMScript.NetServer.Registry.SpmDefaultFrom
+- uid: CRMScript.NetServer.Registry.NotificationExpire
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NotificationExpire
+  syntax: 
+    content: Registry.NotificationExpire
+  summary: "Number of seconds for a notification message to live"
+  name: NotificationExpire
+  nameWithType: NotificationExpire
+  fullName: CRMScript.NetServer.Registry.NotificationExpire
+- uid: CRMScript.NetServer.Registry.CrystalReportsSoapEndpoint
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CrystalReportsSoapEndpoint
+  syntax: 
+    content: Registry.CrystalReportsSoapEndpoint
+  summary: "Endpoint for CrystalReports of soap"
+  name: CrystalReportsSoapEndpoint
+  nameWithType: CrystalReportsSoapEndpoint
+  fullName: CRMScript.NetServer.Registry.CrystalReportsSoapEndpoint
+- uid: CRMScript.NetServer.Registry.DoNotSearchBodyForTag
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DoNotSearchBodyForTag
+  syntax: 
+    content: Registry.DoNotSearchBodyForTag
+  summary: "Do not search email body for message tag"
+  name: DoNotSearchBodyForTag
+  nameWithType: DoNotSearchBodyForTag
+  fullName: CRMScript.NetServer.Registry.DoNotSearchBodyForTag
+- uid: CRMScript.NetServer.Registry.ReplyTemplateHotlistNewMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateHotlistNewMessage
+  syntax: 
+    content: Registry.ReplyTemplateHotlistNewMessage
+  summary: "ReplyTemplateHotlistNewMessage"
+  name: ReplyTemplateHotlistNewMessage
+  nameWithType: ReplyTemplateHotlistNewMessage
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateHotlistNewMessage
+- uid: CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketActivated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateHotlistTicketActivated
+  syntax: 
+    content: Registry.ReplyTemplateHotlistTicketActivated
+  summary: "ReplyTemplateHotlistTicketActivated"
+  name: ReplyTemplateHotlistTicketActivated
+  nameWithType: ReplyTemplateHotlistTicketActivated
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketActivated
+- uid: CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketAlarm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateHotlistTicketAlarm
+  syntax: 
+    content: Registry.ReplyTemplateHotlistTicketAlarm
+  summary: "ReplyTemplateHotlistTicketAlarm"
+  name: ReplyTemplateHotlistTicketAlarm
+  nameWithType: ReplyTemplateHotlistTicketAlarm
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketAlarm
+- uid: CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketTakenOver
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateHotlistTicketTakenOver
+  syntax: 
+    content: Registry.ReplyTemplateHotlistTicketTakenOver
+  summary: "ReplyTemplateHotlistTicketTakenOver."
+  name: ReplyTemplateHotlistTicketTakenOver
+  nameWithType: ReplyTemplateHotlistTicketTakenOver
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateHotlistTicketTakenOver
+- uid: CRMScript.NetServer.Registry.LogChannels
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LogChannels
+  syntax: 
+    content: Registry.LogChannels
+  summary: "LogChannels."
+  name: LogChannels
+  nameWithType: LogChannels
+  fullName: CRMScript.NetServer.Registry.LogChannels
+- uid: CRMScript.NetServer.Registry.ShowTotalInvoiceUnits
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ShowTotalInvoiceUnits
+  syntax: 
+    content: Registry.ShowTotalInvoiceUnits
+  summary: "Show total invoice units on top of requests"
+  name: ShowTotalInvoiceUnits
+  nameWithType: ShowTotalInvoiceUnits
+  fullName: CRMScript.NetServer.Registry.ShowTotalInvoiceUnits
+- uid: CRMScript.NetServer.Registry.MinimumDiskSpace
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MinimumDiskSpace
+  syntax: 
+    content: Registry.MinimumDiskSpace
+  summary: "Limit of free disk space before sending warning (megabytes)"
+  name: MinimumDiskSpace
+  nameWithType: MinimumDiskSpace
+  fullName: CRMScript.NetServer.Registry.MinimumDiskSpace
+- uid: CRMScript.NetServer.Registry.DecodingMailSorter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DecodingMailSorter
+  syntax: 
+    content: Registry.DecodingMailSorter
+  summary: "Enable decoding of mail bodies before mail sorter"
+  name: DecodingMailSorter
+  nameWithType: DecodingMailSorter
+  fullName: CRMScript.NetServer.Registry.DecodingMailSorter
+- uid: CRMScript.NetServer.Registry.ImportMail3ExpireTime
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImportMail3ExpireTime
+  syntax: 
+    content: Registry.ImportMail3ExpireTime
+  summary: "Number of minutes before ImportMail should try a mail again (mode3)"
+  name: ImportMail3ExpireTime
+  nameWithType: ImportMail3ExpireTime
+  fullName: CRMScript.NetServer.Registry.ImportMail3ExpireTime
+- uid: CRMScript.NetServer.Registry.ImportMail3ExpireTimeAnalyze
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImportMail3ExpireTimeAnalyze
+  syntax: 
+    content: Registry.ImportMail3ExpireTimeAnalyze
+  summary: "Number of minutes before ImportMail should try to analyze again (mode3)"
+  name: ImportMail3ExpireTimeAnalyze
+  nameWithType: ImportMail3ExpireTimeAnalyze
+  fullName: CRMScript.NetServer.Registry.ImportMail3ExpireTimeAnalyze
+- uid: CRMScript.NetServer.Registry.StripNewLineInParser
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.StripNewLineInParser
+  syntax: 
+    content: Registry.StripNewLineInParser
+  summary: "Turn on stripping of new lines in parser commands"
+  name: StripNewLineInParser
+  nameWithType: StripNewLineInParser
+  fullName: CRMScript.NetServer.Registry.StripNewLineInParser
+- uid: CRMScript.NetServer.Registry.LastDiskSpaceWarningAttachments
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastDiskSpaceWarningAttachments
+  syntax: 
+    content: Registry.LastDiskSpaceWarningAttachments
+  summary: "Time of last warning mail sent about low disk space"
+  name: LastDiskSpaceWarningAttachments
+  nameWithType: LastDiskSpaceWarningAttachments
+  fullName: CRMScript.NetServer.Registry.LastDiskSpaceWarningAttachments
+- uid: CRMScript.NetServer.Registry.LastDiskSpaceWarningBase
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastDiskSpaceWarningBase
+  syntax: 
+    content: Registry.LastDiskSpaceWarningBase
+  summary: "Time of last warning mail sent about low disk space"
+  name: LastDiskSpaceWarningBase
+  nameWithType: LastDiskSpaceWarningBase
+  fullName: CRMScript.NetServer.Registry.LastDiskSpaceWarningBase
+- uid: CRMScript.NetServer.Registry.LastDiskSpaceWarningText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastDiskSpaceWarningText
+  syntax: 
+    content: Registry.LastDiskSpaceWarningText
+  summary: "Time of last warning mail sent about low disk space"
+  name: LastDiskSpaceWarningText
+  nameWithType: LastDiskSpaceWarningText
+  fullName: CRMScript.NetServer.Registry.LastDiskSpaceWarningText
+- uid: CRMScript.NetServer.Registry.EnableNewImportMail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EnableNewImportMail
+  syntax: 
+    content: Registry.EnableNewImportMail
+  summary: "If 1 the new version of importmail is enabled"
+  name: EnableNewImportMail
+  nameWithType: EnableNewImportMail
+  fullName: CRMScript.NetServer.Registry.EnableNewImportMail
+- uid: CRMScript.NetServer.Registry.EnableEjStat
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EnableEjStat
+  syntax: 
+    content: Registry.EnableEjStat
+  summary: "Enable the new eJournal statistics"
+  name: EnableEjStat
+  nameWithType: EnableEjStat
+  fullName: CRMScript.NetServer.Registry.EnableEjStat
+- uid: CRMScript.NetServer.Registry.SmsServiceId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SmsServiceId
+  syntax: 
+    content: Registry.SmsServiceId
+  summary: "Service id for this sms installation"
+  name: SmsServiceId
+  nameWithType: SmsServiceId
+  fullName: CRMScript.NetServer.Registry.SmsServiceId
+- uid: CRMScript.NetServer.Registry.SmsServiceEndpoint
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SmsServiceEndpoint
+  syntax: 
+    content: Registry.SmsServiceEndpoint
+  summary: "Service endpoint for this sms installation"
+  name: SmsServiceEndpoint
+  nameWithType: SmsServiceEndpoint
+  fullName: CRMScript.NetServer.Registry.SmsServiceEndpoint
+- uid: CRMScript.NetServer.Registry.MaximumSmsMessagesPerDay
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MaximumSmsMessagesPerDay
+  syntax: 
+    content: Registry.MaximumSmsMessagesPerDay
+  summary: "Maximum SMS messages sent per day"
+  name: MaximumSmsMessagesPerDay
+  nameWithType: MaximumSmsMessagesPerDay
+  fullName: CRMScript.NetServer.Registry.MaximumSmsMessagesPerDay
+- uid: CRMScript.NetServer.Registry.MaximumSmsMessagesPerRecipient
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MaximumSmsMessagesPerRecipient
+  syntax: 
+    content: Registry.MaximumSmsMessagesPerRecipient
+  summary: "Maximum SMS messages sent to a recipient"
+  name: MaximumSmsMessagesPerRecipient
+  nameWithType: MaximumSmsMessagesPerRecipient
+  fullName: CRMScript.NetServer.Registry.MaximumSmsMessagesPerRecipient
+- uid: CRMScript.NetServer.Registry.CellphoneUpdateDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CellphoneUpdateDone
+  syntax: 
+    content: Registry.CellphoneUpdateDone
+  summary: "Cellphone update done by upgrade"
+  name: CellphoneUpdateDone
+  nameWithType: CellphoneUpdateDone
+  fullName: CRMScript.NetServer.Registry.CellphoneUpdateDone
+- uid: CRMScript.NetServer.Registry.DefaultSmsCountry
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultSmsCountry
+  syntax: 
+    content: Registry.DefaultSmsCountry
+  summary: "The default country code for the SMS module"
+  name: DefaultSmsCountry
+  nameWithType: DefaultSmsCountry
+  fullName: CRMScript.NetServer.Registry.DefaultSmsCountry
+- uid: CRMScript.NetServer.Registry.DbIntegratorEnableStreaming
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DbIntegratorEnableStreaming
+  syntax: 
+    content: Registry.DbIntegratorEnableStreaming
+  summary: "Enable streaming of database integrator data"
+  name: DbIntegratorEnableStreaming
+  nameWithType: DbIntegratorEnableStreaming
+  fullName: CRMScript.NetServer.Registry.DbIntegratorEnableStreaming
+- uid: CRMScript.NetServer.Registry.ScreenChooserNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserNewTicket
+  syntax: 
+    content: Registry.ScreenChooserNewTicket
+  summary: "[Deprecated] Screen chooser for New ticket screen"
+  name: ScreenChooserNewTicket
+  nameWithType: ScreenChooserNewTicket
+  fullName: CRMScript.NetServer.Registry.ScreenChooserNewTicket
+- uid: CRMScript.NetServer.Registry.ScreenChooserListTicketTop
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserListTicketTop
+  syntax: 
+    content: Registry.ScreenChooserListTicketTop
+  summary: "[Deprecated] Screen chooser for List ticket top screen"
+  name: ScreenChooserListTicketTop
+  nameWithType: ScreenChooserListTicketTop
+  fullName: CRMScript.NetServer.Registry.ScreenChooserListTicketTop
+- uid: CRMScript.NetServer.Registry.ScreenChooserListTicketMessages
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserListTicketMessages
+  syntax: 
+    content: Registry.ScreenChooserListTicketMessages
+  summary: "[Deprecated] Screen chooser for List ticket messages screen"
+  name: ScreenChooserListTicketMessages
+  nameWithType: ScreenChooserListTicketMessages
+  fullName: CRMScript.NetServer.Registry.ScreenChooserListTicketMessages
+- uid: CRMScript.NetServer.Registry.ScreenChooserAddMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserAddMessage
+  syntax: 
+    content: Registry.ScreenChooserAddMessage
+  summary: "[Deprecated] Screen chooser for Add message screen"
+  name: ScreenChooserAddMessage
+  nameWithType: ScreenChooserAddMessage
+  fullName: CRMScript.NetServer.Registry.ScreenChooserAddMessage
+- uid: CRMScript.NetServer.Registry.ScreenChooserEditTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserEditTicket
+  syntax: 
+    content: Registry.ScreenChooserEditTicket
+  summary: "[Deprecated] Screen chooser for Edit ticket screen"
+  name: ScreenChooserEditTicket
+  nameWithType: ScreenChooserEditTicket
+  fullName: CRMScript.NetServer.Registry.ScreenChooserEditTicket
+- uid: CRMScript.NetServer.Registry.ScreenChooserViewCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserViewCustomer
+  syntax: 
+    content: Registry.ScreenChooserViewCustomer
+  summary: "[Deprecated] Screen chooser for View customer screen"
+  name: ScreenChooserViewCustomer
+  nameWithType: ScreenChooserViewCustomer
+  fullName: CRMScript.NetServer.Registry.ScreenChooserViewCustomer
+- uid: CRMScript.NetServer.Registry.ScreenChooserViewCompany
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserViewCompany
+  syntax: 
+    content: Registry.ScreenChooserViewCompany
+  summary: "[Deprecated] Screen chooser for View company screen"
+  name: ScreenChooserViewCompany
+  nameWithType: ScreenChooserViewCompany
+  fullName: CRMScript.NetServer.Registry.ScreenChooserViewCompany
+- uid: CRMScript.NetServer.Registry.ScreenChooserTicketMainMenu
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserTicketMainMenu
+  syntax: 
+    content: Registry.ScreenChooserTicketMainMenu
+  summary: "[Deprecated] Screen chooser for Tickets main menu screen"
+  name: ScreenChooserTicketMainMenu
+  nameWithType: ScreenChooserTicketMainMenu
+  fullName: CRMScript.NetServer.Registry.ScreenChooserTicketMainMenu
+- uid: CRMScript.NetServer.Registry.MaximumCountRecipients
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MaximumCountRecipients
+  syntax: 
+    content: Registry.MaximumCountRecipients
+  summary: "Maximum count of listed recipients in form for add message"
+  name: MaximumCountRecipients
+  nameWithType: MaximumCountRecipients
+  fullName: CRMScript.NetServer.Registry.MaximumCountRecipients
+- uid: CRMScript.NetServer.Registry.EnableEditMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EnableEditMessage
+  syntax: 
+    content: Registry.EnableEditMessage
+  summary: "Enable editing of messages"
+  name: EnableEditMessage
+  nameWithType: EnableEditMessage
+  fullName: CRMScript.NetServer.Registry.EnableEditMessage
+- uid: CRMScript.NetServer.Registry.EnableNewGui
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EnableNewGui
+  syntax: 
+    content: Registry.EnableNewGui
+  summary: "Enable new gui"
+  name: EnableNewGui
+  nameWithType: EnableNewGui
+  fullName: CRMScript.NetServer.Registry.EnableNewGui
+- uid: CRMScript.NetServer.Registry.HideContactPersonPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.HideContactPersonPassword
+  syntax: 
+    content: Registry.HideContactPersonPassword
+  summary: "Hide contact person passwords"
+  name: HideContactPersonPassword
+  nameWithType: HideContactPersonPassword
+  fullName: CRMScript.NetServer.Registry.HideContactPersonPassword
+- uid: CRMScript.NetServer.Registry.ShowBlogicMenu
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ShowBlogicMenu
+  syntax: 
+    content: Registry.ShowBlogicMenu
+  summary: "ShowBlogicMenu"
+  name: ShowBlogicMenu
+  nameWithType: ShowBlogicMenu
+  fullName: CRMScript.NetServer.Registry.ShowBlogicMenu
+- uid: CRMScript.NetServer.Registry.WwwPath
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.WwwPath
+  syntax: 
+    content: Registry.WwwPath
+  summary: "Path or URL to www folder"
+  name: WwwPath
+  nameWithType: WwwPath
+  fullName: CRMScript.NetServer.Registry.WwwPath
+- uid: CRMScript.NetServer.Registry.UseParserInDBIntegrator
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseParserInDBIntegrator
+  syntax: 
+    content: Registry.UseParserInDBIntegrator
+  summary: "Use Parser on the SQL query on external queries"
+  name: UseParserInDBIntegrator
+  nameWithType: UseParserInDBIntegrator
+  fullName: CRMScript.NetServer.Registry.UseParserInDBIntegrator
+- uid: CRMScript.NetServer.Registry.CollapsableMessageStrings
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CollapsableMessageStrings
+  syntax: 
+    content: Registry.CollapsableMessageStrings
+  summary: "Strings which triggers a collapsable message"
+  name: CollapsableMessageStrings
+  nameWithType: CollapsableMessageStrings
+  fullName: CRMScript.NetServer.Registry.CollapsableMessageStrings
+- uid: CRMScript.NetServer.Registry.RefreshNotifyFrameDeprecated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.RefreshNotifyFrameDeprecated
+  syntax: 
+    content: Registry.RefreshNotifyFrameDeprecated
+  summary: "Notify frame refresh rate"
+  name: RefreshNotifyFrameDeprecated
+  nameWithType: RefreshNotifyFrameDeprecated
+  fullName: CRMScript.NetServer.Registry.RefreshNotifyFrameDeprecated
+- uid: CRMScript.NetServer.Registry.CopyLDAPSearchBase
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CopyLDAPSearchBase
+  syntax: 
+    content: Registry.CopyLDAPSearchBase
+  summary: "Make sure the LDAP search base field is copied once"
+  name: CopyLDAPSearchBase
+  nameWithType: CopyLDAPSearchBase
+  fullName: CRMScript.NetServer.Registry.CopyLDAPSearchBase
+- uid: CRMScript.NetServer.Registry.UseHtmlRedirect
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseHtmlRedirect
+  syntax: 
+    content: Registry.UseHtmlRedirect
+  summary: "Uses HTML (meta tag) redirect, instead of HTTP based"
+  name: UseHtmlRedirect
+  nameWithType: UseHtmlRedirect
+  fullName: CRMScript.NetServer.Registry.UseHtmlRedirect
+- uid: CRMScript.NetServer.Registry.ImportMailProcPri
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImportMailProcPri
+  syntax: 
+    content: Registry.ImportMailProcPri
+  summary: "Importmail priority class"
+  name: ImportMailProcPri
+  nameWithType: ImportMailProcPri
+  fullName: CRMScript.NetServer.Registry.ImportMailProcPri
+- uid: CRMScript.NetServer.Registry.KeepWarningLog
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.KeepWarningLog
+  syntax: 
+    content: Registry.KeepWarningLog
+  summary: "Keep warning log files for x days"
+  name: KeepWarningLog
+  nameWithType: KeepWarningLog
+  fullName: CRMScript.NetServer.Registry.KeepWarningLog
+- uid: CRMScript.NetServer.Registry.KeepDbLog
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.KeepDbLog
+  syntax: 
+    content: Registry.KeepDbLog
+  summary: "Keep database log entries for x days"
+  name: KeepDbLog
+  nameWithType: KeepDbLog
+  fullName: CRMScript.NetServer.Registry.KeepDbLog
+- uid: CRMScript.NetServer.Registry.KeepFormKeys
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.KeepFormKeys
+  syntax: 
+    content: Registry.KeepFormKeys
+  summary: "Keep form keys in database for x days"
+  name: KeepFormKeys
+  nameWithType: KeepFormKeys
+  fullName: CRMScript.NetServer.Registry.KeepFormKeys
+- uid: CRMScript.NetServer.Registry.InternalMessageWhenNotCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.InternalMessageWhenNotCustomer
+  syntax: 
+    content: Registry.InternalMessageWhenNotCustomer
+  summary: "Make message internal when sender is not contact"
+  name: InternalMessageWhenNotCustomer
+  nameWithType: InternalMessageWhenNotCustomer
+  fullName: CRMScript.NetServer.Registry.InternalMessageWhenNotCustomer
+- uid: CRMScript.NetServer.Registry.SoapSystemUserPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SoapSystemUserPassword
+  syntax: 
+    content: Registry.SoapSystemUserPassword
+  summary: "Soap system user password"
+  name: SoapSystemUserPassword
+  nameWithType: SoapSystemUserPassword
+  fullName: CRMScript.NetServer.Registry.SoapSystemUserPassword
+- uid: CRMScript.NetServer.Registry.CreateExtraTableDbiFields
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CreateExtraTableDbiFields
+  syntax: 
+    content: Registry.CreateExtraTableDbiFields
+  summary: "Create extra table dbi fields"
+  name: CreateExtraTableDbiFields
+  nameWithType: CreateExtraTableDbiFields
+  fullName: CRMScript.NetServer.Registry.CreateExtraTableDbiFields
+- uid: CRMScript.NetServer.Registry.UseOldMailInFilterRegExp
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseOldMailInFilterRegExp
+  syntax: 
+    content: Registry.UseOldMailInFilterRegExp
+  summary: "Use old regexp type in mailInFilter"
+  name: UseOldMailInFilterRegExp
+  nameWithType: UseOldMailInFilterRegExp
+  fullName: CRMScript.NetServer.Registry.UseOldMailInFilterRegExp
+- uid: CRMScript.NetServer.Registry.NewInvoiceEntryFormat
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NewInvoiceEntryFormat
+  syntax: 
+    content: Registry.NewInvoiceEntryFormat
+  summary: "Save discount percent with 2 decimals and also save money"
+  name: NewInvoiceEntryFormat
+  nameWithType: NewInvoiceEntryFormat
+  fullName: CRMScript.NetServer.Registry.NewInvoiceEntryFormat
+- uid: CRMScript.NetServer.Registry.IgnoreReturnPath
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.IgnoreReturnPath
+  syntax: 
+    content: Registry.IgnoreReturnPath
+  summary: "Ignore return path"
+  name: IgnoreReturnPath
+  nameWithType: IgnoreReturnPath
+  fullName: CRMScript.NetServer.Registry.IgnoreReturnPath
+- uid: CRMScript.NetServer.Registry.ConvertProfilesToClob
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ConvertProfilesToClob
+  syntax: 
+    content: Registry.ConvertProfilesToClob
+  summary: "Convert profiles to clob"
+  name: ConvertProfilesToClob
+  nameWithType: ConvertProfilesToClob
+  fullName: CRMScript.NetServer.Registry.ConvertProfilesToClob
+- uid: CRMScript.NetServer.Registry.ReportStartRootFolder
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReportStartRootFolder
+  syntax: 
+    content: Registry.ReportStartRootFolder
+  summary: "Document report folder start path id"
+  name: ReportStartRootFolder
+  nameWithType: ReportStartRootFolder
+  fullName: CRMScript.NetServer.Registry.ReportStartRootFolder
+- uid: CRMScript.NetServer.Registry.ParseCustomerFields
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ParseCustomerFields
+  syntax: 
+    content: Registry.ParseCustomerFields
+  summary: "Parse customer/company fields in search listing"
+  name: ParseCustomerFields
+  nameWithType: ParseCustomerFields
+  fullName: CRMScript.NetServer.Registry.ParseCustomerFields
+- uid: CRMScript.NetServer.Registry.ArriveNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ArriveNewTicket
+  syntax: 
+    content: Registry.ArriveNewTicket
+  summary: "Use alternative NewTicket version"
+  name: ArriveNewTicket
+  nameWithType: ArriveNewTicket
+  fullName: CRMScript.NetServer.Registry.ArriveNewTicket
+- uid: CRMScript.NetServer.Registry.ImportMessageAsAttachment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImportMessageAsAttachment
+  syntax: 
+    content: Registry.ImportMessageAsAttachment
+  summary: "Import message/* MIME parts as attachment, not part of the text"
+  name: ImportMessageAsAttachment
+  nameWithType: ImportMessageAsAttachment
+  fullName: CRMScript.NetServer.Registry.ImportMessageAsAttachment
+- uid: CRMScript.NetServer.Registry.DBIBetaRelease
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DBIBetaRelease
+  syntax: 
+    content: Registry.DBIBetaRelease
+  summary: "Enable DBI beta release"
+  name: DBIBetaRelease
+  nameWithType: DBIBetaRelease
+  fullName: CRMScript.NetServer.Registry.DBIBetaRelease
+- uid: CRMScript.NetServer.Registry.DBIExecutable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DBIExecutable
+  syntax: 
+    content: Registry.DBIExecutable
+  summary: "DBI executable"
+  name: DBIExecutable
+  nameWithType: DBIExecutable
+  fullName: CRMScript.NetServer.Registry.DBIExecutable
+- uid: CRMScript.NetServer.Registry.MailFilterMinFaqValue
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MailFilterMinFaqValue
+  syntax: 
+    content: Registry.MailFilterMinFaqValue
+  summary: "Mail auto faq minimum score value, also used in faq search on customer center and mailbox"
+  name: MailFilterMinFaqValue
+  nameWithType: MailFilterMinFaqValue
+  fullName: CRMScript.NetServer.Registry.MailFilterMinFaqValue
+- uid: CRMScript.NetServer.Registry.AutoStartTimer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AutoStartTimer
+  syntax: 
+    content: Registry.AutoStartTimer
+  summary: "Start the timer automatic when entering a message"
+  name: AutoStartTimer
+  nameWithType: AutoStartTimer
+  fullName: CRMScript.NetServer.Registry.AutoStartTimer
+- uid: CRMScript.NetServer.Registry.ScreenChooserInvoiceStat
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserInvoiceStat
+  syntax: 
+    content: Registry.ScreenChooserInvoiceStat
+  summary: "[Deprecated] Screen chooser for invoice screen"
+  name: ScreenChooserInvoiceStat
+  nameWithType: ScreenChooserInvoiceStat
+  fullName: CRMScript.NetServer.Registry.ScreenChooserInvoiceStat
+- uid: CRMScript.NetServer.Registry.LimitSearchExtraTableResult
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LimitSearchExtraTableResult
+  syntax: 
+    content: Registry.LimitSearchExtraTableResult
+  summary: "Limit the number of entries return in an extra table search result"
+  name: LimitSearchExtraTableResult
+  nameWithType: LimitSearchExtraTableResult
+  fullName: CRMScript.NetServer.Registry.LimitSearchExtraTableResult
+- uid: CRMScript.NetServer.Registry.UseWebServiceSms
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseWebServiceSms
+  syntax: 
+    content: Registry.UseWebServiceSms
+  summary: "Set this to 1 to use WebService as transporter for SMS"
+  name: UseWebServiceSms
+  nameWithType: UseWebServiceSms
+  fullName: CRMScript.NetServer.Registry.UseWebServiceSms
+- uid: CRMScript.NetServer.Registry.LastLicenseInfo
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastLicenseInfo
+  syntax: 
+    content: Registry.LastLicenseInfo
+  summary: "Last time the license info was sent [deprecated]"
+  name: LastLicenseInfo
+  nameWithType: LastLicenseInfo
+  fullName: CRMScript.NetServer.Registry.LastLicenseInfo
+- uid: CRMScript.NetServer.Registry.SmsSender
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SmsSender
+  syntax: 
+    content: Registry.SmsSender
+  summary: "The sender name of a SMS"
+  name: SmsSender
+  nameWithType: SmsSender
+  fullName: CRMScript.NetServer.Registry.SmsSender
+- uid: CRMScript.NetServer.Registry.SmsChannel
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SmsChannel
+  syntax: 
+    content: Registry.SmsChannel
+  summary: "The channel for an outgoing SMS"
+  name: SmsChannel
+  nameWithType: SmsChannel
+  fullName: CRMScript.NetServer.Registry.SmsChannel
+- uid: CRMScript.NetServer.Registry.UseSmsDeliveryReport
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseSmsDeliveryReport
+  syntax: 
+    content: Registry.UseSmsDeliveryReport
+  summary: "Set this to 1 to turn on SMS delivery report"
+  name: UseSmsDeliveryReport
+  nameWithType: UseSmsDeliveryReport
+  fullName: CRMScript.NetServer.Registry.UseSmsDeliveryReport
+- uid: CRMScript.NetServer.Registry.UpdateTicketCustomersDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpdateTicketCustomersDone
+  syntax: 
+    content: Registry.UpdateTicketCustomersDone
+  summary: "This values is set to 1 when finished updating ticket_customers"
+  name: UpdateTicketCustomersDone
+  nameWithType: UpdateTicketCustomersDone
+  fullName: CRMScript.NetServer.Registry.UpdateTicketCustomersDone
+- uid: CRMScript.NetServer.Registry.ScreenChooserHelpPage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserHelpPage
+  syntax: 
+    content: Registry.ScreenChooserHelpPage
+  summary: "[Deprecated] Screen chooser for help pages"
+  name: ScreenChooserHelpPage
+  nameWithType: ScreenChooserHelpPage
+  fullName: CRMScript.NetServer.Registry.ScreenChooserHelpPage
+- uid: CRMScript.NetServer.Registry.CustomerEncryptionMethod
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CustomerEncryptionMethod
+  syntax: 
+    content: Registry.CustomerEncryptionMethod
+  summary: "Encrypt customer passwords"
+  name: CustomerEncryptionMethod
+  nameWithType: CustomerEncryptionMethod
+  fullName: CRMScript.NetServer.Registry.CustomerEncryptionMethod
+- uid: CRMScript.NetServer.Registry.UpgradeCustomerPasswordStatus
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpgradeCustomerPasswordStatus
+  syntax: 
+    content: Registry.UpgradeCustomerPasswordStatus
+  summary: "Status for batch upgrading customers password"
+  name: UpgradeCustomerPasswordStatus
+  nameWithType: UpgradeCustomerPasswordStatus
+  fullName: CRMScript.NetServer.Registry.UpgradeCustomerPasswordStatus
+- uid: CRMScript.NetServer.Registry.UpgradeScreenDefinitionsToScripts
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpgradeScreenDefinitionsToScripts
+  syntax: 
+    content: Registry.UpgradeScreenDefinitionsToScripts
+  summary: "Status for converting existing ScreenDefs to ejscript creation"
+  name: UpgradeScreenDefinitionsToScripts
+  nameWithType: UpgradeScreenDefinitionsToScripts
+  fullName: CRMScript.NetServer.Registry.UpgradeScreenDefinitionsToScripts
+- uid: CRMScript.NetServer.Registry.SpmUseHtmlEditor
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmUseHtmlEditor
+  syntax: 
+    content: Registry.SpmUseHtmlEditor
+  summary: "Enable the internal html editor in spm"
+  name: SpmUseHtmlEditor
+  nameWithType: SpmUseHtmlEditor
+  fullName: CRMScript.NetServer.Registry.SpmUseHtmlEditor
+- uid: CRMScript.NetServer.Registry.InvoiceEntrySumAdded
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.InvoiceEntrySumAdded
+  syntax: 
+    content: Registry.InvoiceEntrySumAdded
+  summary: "Added field ie_sum with content in table invoice_entry"
+  name: InvoiceEntrySumAdded
+  nameWithType: InvoiceEntrySumAdded
+  fullName: CRMScript.NetServer.Registry.InvoiceEntrySumAdded
+- uid: CRMScript.NetServer.Registry.LastnameFirst
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastnameFirst
+  syntax: 
+    content: Registry.LastnameFirst
+  summary: "Parse lastname first, when reading customer names"
+  name: LastnameFirst
+  nameWithType: LastnameFirst
+  fullName: CRMScript.NetServer.Registry.LastnameFirst
+- uid: CRMScript.NetServer.Registry.SpmUseDeliveryReport
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmUseDeliveryReport
+  syntax: 
+    content: Registry.SpmUseDeliveryReport
+  summary: "Use SMS delivery reports in eMarketeer"
+  name: SpmUseDeliveryReport
+  nameWithType: SpmUseDeliveryReport
+  fullName: CRMScript.NetServer.Registry.SpmUseDeliveryReport
+- uid: CRMScript.NetServer.Registry.DoNotKickLoginSessions
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DoNotKickLoginSessions
+  syntax: 
+    content: Registry.DoNotKickLoginSessions
+  summary: "Do not kick existing login session - block new ones instead"
+  name: DoNotKickLoginSessions
+  nameWithType: DoNotKickLoginSessions
+  fullName: CRMScript.NetServer.Registry.DoNotKickLoginSessions
+- uid: CRMScript.NetServer.Registry.ScreenChooserUsers
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserUsers
+  syntax: 
+    content: Registry.ScreenChooserUsers
+  summary: "[Deprecated] Screen chooser for users screen"
+  name: ScreenChooserUsers
+  nameWithType: ScreenChooserUsers
+  fullName: CRMScript.NetServer.Registry.ScreenChooserUsers
+- uid: CRMScript.NetServer.Registry.ScreenChooserPriorities
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserPriorities
+  syntax: 
+    content: Registry.ScreenChooserPriorities
+  summary: "[Deprecated] Screen chooser for priorities screen"
+  name: ScreenChooserPriorities
+  nameWithType: ScreenChooserPriorities
+  fullName: CRMScript.NetServer.Registry.ScreenChooserPriorities
+- uid: CRMScript.NetServer.Registry.UseSafeParserFunction
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseSafeParserFunction
+  syntax: 
+    content: Registry.UseSafeParserFunction
+  summary: "Use safe parser function on customer pages"
+  name: UseSafeParserFunction
+  nameWithType: UseSafeParserFunction
+  fullName: CRMScript.NetServer.Registry.UseSafeParserFunction
+- uid: CRMScript.NetServer.Registry.ScreenChooserCategories
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserCategories
+  syntax: 
+    content: Registry.ScreenChooserCategories
+  summary: "[Deprecated] Screen chooser for categories screen"
+  name: ScreenChooserCategories
+  nameWithType: ScreenChooserCategories
+  fullName: CRMScript.NetServer.Registry.ScreenChooserCategories
+- uid: CRMScript.NetServer.Registry.UpdateCustomerEmails
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpdateCustomerEmails
+  syntax: 
+    content: Registry.UpdateCustomerEmails
+  summary: "Update customers with cust_email reference"
+  name: UpdateCustomerEmails
+  nameWithType: UpdateCustomerEmails
+  fullName: CRMScript.NetServer.Registry.UpdateCustomerEmails
+- uid: CRMScript.NetServer.Registry.DirtyTicketSaveEvent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DirtyTicketSaveEvent
+  syntax: 
+    content: Registry.DirtyTicketSaveEvent
+  summary: "Deprecated ticket.save() event script"
+  name: DirtyTicketSaveEvent
+  nameWithType: DirtyTicketSaveEvent
+  fullName: CRMScript.NetServer.Registry.DirtyTicketSaveEvent
+- uid: CRMScript.NetServer.Registry.PasteFaq
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.PasteFaq
+  syntax: 
+    content: Registry.PasteFaq
+  summary: "Paste FAQ answer directly into message"
+  name: PasteFaq
+  nameWithType: PasteFaq
+  fullName: CRMScript.NetServer.Registry.PasteFaq
+- uid: CRMScript.NetServer.Registry.EjSenderVersion
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EjSenderVersion
+  syntax: 
+    content: Registry.EjSenderVersion
+  summary: "Used for version checking ejSender"
+  name: EjSenderVersion
+  nameWithType: EjSenderVersion
+  fullName: CRMScript.NetServer.Registry.EjSenderVersion
+- uid: CRMScript.NetServer.Registry.DefaultTicketStatusOpen
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultTicketStatusOpen
+  syntax: 
+    content: Registry.DefaultTicketStatusOpen
+  summary: "Default ticket status: open"
+  name: DefaultTicketStatusOpen
+  nameWithType: DefaultTicketStatusOpen
+  fullName: CRMScript.NetServer.Registry.DefaultTicketStatusOpen
+- uid: CRMScript.NetServer.Registry.DefaultTicketStatusClosed
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultTicketStatusClosed
+  syntax: 
+    content: Registry.DefaultTicketStatusClosed
+  summary: "Default ticket status: closed"
+  name: DefaultTicketStatusClosed
+  nameWithType: DefaultTicketStatusClosed
+  fullName: CRMScript.NetServer.Registry.DefaultTicketStatusClosed
+- uid: CRMScript.NetServer.Registry.DefaultTicketStatusInactive
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultTicketStatusInactive
+  syntax: 
+    content: Registry.DefaultTicketStatusInactive
+  summary: "Default ticket status: inactive"
+  name: DefaultTicketStatusInactive
+  nameWithType: DefaultTicketStatusInactive
+  fullName: CRMScript.NetServer.Registry.DefaultTicketStatusInactive
+- uid: CRMScript.NetServer.Registry.DefaultTicketStatusDeleted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultTicketStatusDeleted
+  syntax: 
+    content: Registry.DefaultTicketStatusDeleted
+  summary: "Default ticket status: deleted"
+  name: DefaultTicketStatusDeleted
+  nameWithType: DefaultTicketStatusDeleted
+  fullName: CRMScript.NetServer.Registry.DefaultTicketStatusDeleted
+- uid: CRMScript.NetServer.Registry.DefaultTicketStatusConnected
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultTicketStatusConnected
+  syntax: 
+    content: Registry.DefaultTicketStatusConnected
+  summary: "Default ticket status: connected"
+  name: DefaultTicketStatusConnected
+  nameWithType: DefaultTicketStatusConnected
+  fullName: CRMScript.NetServer.Registry.DefaultTicketStatusConnected
+- uid: CRMScript.NetServer.Registry.UseOldHtmlSelectTreeLayout
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseOldHtmlSelectTreeLayout
+  syntax: 
+    content: Registry.UseOldHtmlSelectTreeLayout
+  summary: "Use the old HtmlSelectTree layout (nested dropdowns)"
+  name: UseOldHtmlSelectTreeLayout
+  nameWithType: UseOldHtmlSelectTreeLayout
+  fullName: CRMScript.NetServer.Registry.UseOldHtmlSelectTreeLayout
+- uid: CRMScript.NetServer.Registry.ScreenChooserKnowledgeListFolders
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserKnowledgeListFolders
+  syntax: 
+    content: Registry.ScreenChooserKnowledgeListFolders
+  summary: "[Deprecated] Screen chooser for list knowledgebase folders screen"
+  name: ScreenChooserKnowledgeListFolders
+  nameWithType: ScreenChooserKnowledgeListFolders
+  fullName: CRMScript.NetServer.Registry.ScreenChooserKnowledgeListFolders
+- uid: CRMScript.NetServer.Registry.ScreenChooserKnowledgeEditKbEntry
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserKnowledgeEditKbEntry
+  syntax: 
+    content: Registry.ScreenChooserKnowledgeEditKbEntry
+  summary: "[Deprecated] Screen chooser for edit knowledgebase entry screen"
+  name: ScreenChooserKnowledgeEditKbEntry
+  nameWithType: ScreenChooserKnowledgeEditKbEntry
+  fullName: CRMScript.NetServer.Registry.ScreenChooserKnowledgeEditKbEntry
+- uid: CRMScript.NetServer.Registry.ScreenChooserKnowledgeViewKbEntry
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ScreenChooserKnowledgeViewKbEntry
+  syntax: 
+    content: Registry.ScreenChooserKnowledgeViewKbEntry
+  summary: "[Deprecated] Screen chooser for view knowledgebase entry screen"
+  name: ScreenChooserKnowledgeViewKbEntry
+  nameWithType: ScreenChooserKnowledgeViewKbEntry
+  fullName: CRMScript.NetServer.Registry.ScreenChooserKnowledgeViewKbEntry
+- uid: CRMScript.NetServer.Registry.ConvertRegScreenChoosersToTable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ConvertRegScreenChoosersToTable
+  syntax: 
+    content: Registry.ConvertRegScreenChoosersToTable
+  summary: "Convert screen choosers from registry to table"
+  name: ConvertRegScreenChoosersToTable
+  nameWithType: ConvertRegScreenChoosersToTable
+  fullName: CRMScript.NetServer.Registry.ConvertRegScreenChoosersToTable
+- uid: CRMScript.NetServer.Registry.SmsProvider
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SmsProvider
+  syntax: 
+    content: Registry.SmsProvider
+  summary: "The choosen SMS provider"
+  name: SmsProvider
+  nameWithType: SmsProvider
+  fullName: CRMScript.NetServer.Registry.SmsProvider
+- uid: CRMScript.NetServer.Registry.PsWinComUsername
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.PsWinComUsername
+  syntax: 
+    content: Registry.PsWinComUsername
+  summary: "PsWinCom username"
+  name: PsWinComUsername
+  nameWithType: PsWinComUsername
+  fullName: CRMScript.NetServer.Registry.PsWinComUsername
+- uid: CRMScript.NetServer.Registry.PsWinComPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.PsWinComPassword
+  syntax: 
+    content: Registry.PsWinComPassword
+  summary: "PsWinCom password"
+  name: PsWinComPassword
+  nameWithType: PsWinComPassword
+  fullName: CRMScript.NetServer.Registry.PsWinComPassword
+- uid: CRMScript.NetServer.Registry.PsWinComSender
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.PsWinComSender
+  syntax: 
+    content: Registry.PsWinComSender
+  summary: "PsWinCom sender"
+  name: PsWinComSender
+  nameWithType: PsWinComSender
+  fullName: CRMScript.NetServer.Registry.PsWinComSender
+- uid: CRMScript.NetServer.Registry.UpgradeNotPresentComment
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpgradeNotPresentComment
+  syntax: 
+    content: Registry.UpgradeNotPresentComment
+  summary: "Not present comment done in upgrade"
+  name: UpgradeNotPresentComment
+  nameWithType: UpgradeNotPresentComment
+  fullName: CRMScript.NetServer.Registry.UpgradeNotPresentComment
+- uid: CRMScript.NetServer.Registry.UseWordByWordKbSearch
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseWordByWordKbSearch
+  syntax: 
+    content: Registry.UseWordByWordKbSearch
+  summary: "Kb search will search for each single word"
+  name: UseWordByWordKbSearch
+  nameWithType: UseWordByWordKbSearch
+  fullName: CRMScript.NetServer.Registry.UseWordByWordKbSearch
+- uid: CRMScript.NetServer.Registry.SearchSubjectBeforeMsgId
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SearchSubjectBeforeMsgId
+  syntax: 
+    content: Registry.SearchSubjectBeforeMsgId
+  summary: "Search subject before message id for ticket connection"
+  name: SearchSubjectBeforeMsgId
+  nameWithType: SearchSubjectBeforeMsgId
+  fullName: CRMScript.NetServer.Registry.SearchSubjectBeforeMsgId
+- uid: CRMScript.NetServer.Registry.UpgradeTicketStatusName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpgradeTicketStatusName
+  syntax: 
+    content: Registry.UpgradeTicketStatusName
+  summary: "Name on ticket status done in upgrade"
+  name: UpgradeTicketStatusName
+  nameWithType: UpgradeTicketStatusName
+  fullName: CRMScript.NetServer.Registry.UpgradeTicketStatusName
+- uid: CRMScript.NetServer.Registry.UseOnlyOneCookie
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseOnlyOneCookie
+  syntax: 
+    content: Registry.UseOnlyOneCookie
+  summary: "Use only one cookie"
+  name: UseOnlyOneCookie
+  nameWithType: UseOnlyOneCookie
+  fullName: CRMScript.NetServer.Registry.UseOnlyOneCookie
+- uid: CRMScript.NetServer.Registry.ViewCompanyWithPanes
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ViewCompanyWithPanes
+  syntax: 
+    content: Registry.ViewCompanyWithPanes
+  summary: "Use panes on the viewCompany screen"
+  name: ViewCompanyWithPanes
+  nameWithType: ViewCompanyWithPanes
+  fullName: CRMScript.NetServer.Registry.ViewCompanyWithPanes
+- uid: CRMScript.NetServer.Registry.ViewCustomerWithPanes
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ViewCustomerWithPanes
+  syntax: 
+    content: Registry.ViewCustomerWithPanes
+  summary: "Use panes on the viewCustomer screen"
+  name: ViewCustomerWithPanes
+  nameWithType: ViewCustomerWithPanes
+  fullName: CRMScript.NetServer.Registry.ViewCustomerWithPanes
+- uid: CRMScript.NetServer.Registry.ReplacedLangFrWithSe
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplacedLangFrWithSe
+  syntax: 
+    content: Registry.ReplacedLangFrWithSe
+  summary: "Replaced fr with se in user table"
+  name: ReplacedLangFrWithSe
+  nameWithType: ReplacedLangFrWithSe
+  fullName: CRMScript.NetServer.Registry.ReplacedLangFrWithSe
+- uid: CRMScript.NetServer.Registry.ViewExtraTableEntryWithPanes
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ViewExtraTableEntryWithPanes
+  syntax: 
+    content: Registry.ViewExtraTableEntryWithPanes
+  summary: "Use panes on the viewExtraTableEntry screen"
+  name: ViewExtraTableEntryWithPanes
+  nameWithType: ViewExtraTableEntryWithPanes
+  fullName: CRMScript.NetServer.Registry.ViewExtraTableEntryWithPanes
+- uid: CRMScript.NetServer.Registry.OldMessageBeforeSignature
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.OldMessageBeforeSignature
+  syntax: 
+    content: Registry.OldMessageBeforeSignature
+  summary: "Copy old message before signature when adding a message"
+  name: OldMessageBeforeSignature
+  nameWithType: OldMessageBeforeSignature
+  fullName: CRMScript.NetServer.Registry.OldMessageBeforeSignature
+- uid: CRMScript.NetServer.Registry.ViewTicketWithPanes
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ViewTicketWithPanes
+  syntax: 
+    content: Registry.ViewTicketWithPanes
+  summary: "Use panes on the viewTicket screen"
+  name: ViewTicketWithPanes
+  nameWithType: ViewTicketWithPanes
+  fullName: CRMScript.NetServer.Registry.ViewTicketWithPanes
+- uid: CRMScript.NetServer.Registry.FixCreationScripts
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.FixCreationScripts
+  syntax: 
+    content: Registry.FixCreationScripts
+  summary: "Fix old creation scripts and move includes"
+  name: FixCreationScripts
+  nameWithType: FixCreationScripts
+  fullName: CRMScript.NetServer.Registry.FixCreationScripts
+- uid: CRMScript.NetServer.Registry.DefaultNoCustomerOnForwarding
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultNoCustomerOnForwarding
+  syntax: 
+    content: Registry.DefaultNoCustomerOnForwarding
+  summary: "No default copy to customer on forwarding"
+  name: DefaultNoCustomerOnForwarding
+  nameWithType: DefaultNoCustomerOnForwarding
+  fullName: CRMScript.NetServer.Registry.DefaultNoCustomerOnForwarding
+- uid: CRMScript.NetServer.Registry.ForceHTTPS
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ForceHTTPS
+  syntax: 
+    content: Registry.ForceHTTPS
+  summary: "Force use of https protocol"
+  name: ForceHTTPS
+  nameWithType: ForceHTTPS
+  fullName: CRMScript.NetServer.Registry.ForceHTTPS
+- uid: CRMScript.NetServer.Registry.UseEjParserForTemplates
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseEjParserForTemplates
+  syntax: 
+    content: Registry.UseEjParserForTemplates
+  summary: "Use ejParser for parsing templates"
+  name: UseEjParserForTemplates
+  nameWithType: UseEjParserForTemplates
+  fullName: CRMScript.NetServer.Registry.UseEjParserForTemplates
+- uid: CRMScript.NetServer.Registry.CrossPostMergeTimeWindow
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CrossPostMergeTimeWindow
+  syntax: 
+    content: Registry.CrossPostMergeTimeWindow
+  summary: "Will attempt to link cross posts inside time frame of x minutes"
+  name: CrossPostMergeTimeWindow
+  nameWithType: CrossPostMergeTimeWindow
+  fullName: CRMScript.NetServer.Registry.CrossPostMergeTimeWindow
+- uid: CRMScript.NetServer.Registry.UseAbsoluteURLsInHTML
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseAbsoluteURLsInHTML
+  syntax: 
+    content: Registry.UseAbsoluteURLsInHTML
+  summary: "Make URLs in HTML absolute"
+  name: UseAbsoluteURLsInHTML
+  nameWithType: UseAbsoluteURLsInHTML
+  fullName: CRMScript.NetServer.Registry.UseAbsoluteURLsInHTML
+- uid: CRMScript.NetServer.Registry.DelegateAlgorithm
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DelegateAlgorithm
+  syntax: 
+    content: Registry.DelegateAlgorithm
+  summary: "Choose delegate algorithm"
+  name: DelegateAlgorithm
+  nameWithType: DelegateAlgorithm
+  fullName: CRMScript.NetServer.Registry.DelegateAlgorithm
+- uid: CRMScript.NetServer.Registry.DisplayDataSources
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DisplayDataSources
+  syntax: 
+    content: Registry.DisplayDataSources
+  summary: "Display the data sources menu"
+  name: DisplayDataSources
+  nameWithType: DisplayDataSources
+  fullName: CRMScript.NetServer.Registry.DisplayDataSources
+- uid: CRMScript.NetServer.Registry.InlineImagesDefault
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.InlineImagesDefault
+  syntax: 
+    content: Registry.InlineImagesDefault
+  summary: "Default value for making images included in messages inlined"
+  name: InlineImagesDefault
+  nameWithType: InlineImagesDefault
+  fullName: CRMScript.NetServer.Registry.InlineImagesDefault
+- uid: CRMScript.NetServer.Registry.LogoutUrl
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LogoutUrl
+  syntax: 
+    content: Registry.LogoutUrl
+  summary: "Redirect to this URL after logout"
+  name: LogoutUrl
+  nameWithType: LogoutUrl
+  fullName: CRMScript.NetServer.Registry.LogoutUrl
+- uid: CRMScript.NetServer.Registry.ProfilesConverted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ProfilesConverted
+  syntax: 
+    content: Registry.ProfilesConverted
+  summary: "Whether the profiles have been converted to element_profile"
+  name: ProfilesConverted
+  nameWithType: ProfilesConverted
+  fullName: CRMScript.NetServer.Registry.ProfilesConverted
+- uid: CRMScript.NetServer.Registry.DefaultBlogicScreensOnEditTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultBlogicScreensOnEditTicket
+  syntax: 
+    content: Registry.DefaultBlogicScreensOnEditTicket
+  summary: "Use new blogic screens instead of old screens for request editing"
+  name: DefaultBlogicScreensOnEditTicket
+  nameWithType: DefaultBlogicScreensOnEditTicket
+  fullName: CRMScript.NetServer.Registry.DefaultBlogicScreensOnEditTicket
+- uid: CRMScript.NetServer.Registry.SearchToSelections
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SearchToSelections
+  syntax: 
+    content: Registry.SearchToSelections
+  summary: "Converted old searches to selectins"
+  name: SearchToSelections
+  nameWithType: SearchToSelections
+  fullName: CRMScript.NetServer.Registry.SearchToSelections
+- uid: CRMScript.NetServer.Registry.PhoneUpdateDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.PhoneUpdateDone
+  syntax: 
+    content: Registry.PhoneUpdateDone
+  summary: "Phone update done by upgrade"
+  name: PhoneUpdateDone
+  nameWithType: PhoneUpdateDone
+  fullName: CRMScript.NetServer.Registry.PhoneUpdateDone
+- uid: CRMScript.NetServer.Registry.FaqAddCommentsAccess
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.FaqAddCommentsAccess
+  syntax: 
+    content: Registry.FaqAddCommentsAccess
+  summary: "Who can add comments to FAQ entries (0=none, 1=customers, 2=all)"
+  name: FaqAddCommentsAccess
+  nameWithType: FaqAddCommentsAccess
+  fullName: CRMScript.NetServer.Registry.FaqAddCommentsAccess
+- uid: CRMScript.NetServer.Registry.FaqReadCommentsAccess
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.FaqReadCommentsAccess
+  syntax: 
+    content: Registry.FaqReadCommentsAccess
+  summary: "Who can read comments to FAQ entries (0=none, 1=customers, 2=all)"
+  name: FaqReadCommentsAccess
+  nameWithType: FaqReadCommentsAccess
+  fullName: CRMScript.NetServer.Registry.FaqReadCommentsAccess
+- uid: CRMScript.NetServer.Registry.SpmSMTPServerPort
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmSMTPServerPort
+  syntax: 
+    content: Registry.SpmSMTPServerPort
+  summary: "Specify an alternative SMTP server port for spm"
+  name: SpmSMTPServerPort
+  nameWithType: SpmSMTPServerPort
+  fullName: CRMScript.NetServer.Registry.SpmSMTPServerPort
+- uid: CRMScript.NetServer.Registry.MapiServerAppendString
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MapiServerAppendString
+  syntax: 
+    content: Registry.MapiServerAppendString
+  summary: "String to append to server MAPI/AD-string if it is not there"
+  name: MapiServerAppendString
+  nameWithType: MapiServerAppendString
+  fullName: CRMScript.NetServer.Registry.MapiServerAppendString
+- uid: CRMScript.NetServer.Registry.CarrotUsername
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CarrotUsername
+  syntax: 
+    content: Registry.CarrotUsername
+  summary: "Username for carrot sms"
+  name: CarrotUsername
+  nameWithType: CarrotUsername
+  fullName: CRMScript.NetServer.Registry.CarrotUsername
+- uid: CRMScript.NetServer.Registry.CarrotPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CarrotPassword
+  syntax: 
+    content: Registry.CarrotPassword
+  summary: "Password for carrot sms"
+  name: CarrotPassword
+  nameWithType: CarrotPassword
+  fullName: CRMScript.NetServer.Registry.CarrotPassword
+- uid: CRMScript.NetServer.Registry.UnicodeConvertedTemplateFolder
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UnicodeConvertedTemplateFolder
+  syntax: 
+    content: Registry.UnicodeConvertedTemplateFolder
+  summary: "Have we asked to convert the templates to utf-8?"
+  name: UnicodeConvertedTemplateFolder
+  nameWithType: UnicodeConvertedTemplateFolder
+  fullName: CRMScript.NetServer.Registry.UnicodeConvertedTemplateFolder
+- uid: CRMScript.NetServer.Registry.SuperOfficeIntegrationPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SuperOfficeIntegrationPassword
+  syntax: 
+    content: Registry.SuperOfficeIntegrationPassword
+  summary: "Password used by the SO integration"
+  name: SuperOfficeIntegrationPassword
+  nameWithType: SuperOfficeIntegrationPassword
+  fullName: CRMScript.NetServer.Registry.SuperOfficeIntegrationPassword
+- uid: CRMScript.NetServer.Registry.UpdateUserDateFormatsDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpdateUserDateFormatsDone
+  syntax: 
+    content: Registry.UpdateUserDateFormatsDone
+  summary: "Update to new dateformats for users"
+  name: UpdateUserDateFormatsDone
+  nameWithType: UpdateUserDateFormatsDone
+  fullName: CRMScript.NetServer.Registry.UpdateUserDateFormatsDone
+- uid: CRMScript.NetServer.Registry.CellphoneAndPhoneUpdateDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CellphoneAndPhoneUpdateDone
+  syntax: 
+    content: Registry.CellphoneAndPhoneUpdateDone
+  summary: "Updated cellphone and phone searchable fields"
+  name: CellphoneAndPhoneUpdateDone
+  nameWithType: CellphoneAndPhoneUpdateDone
+  fullName: CRMScript.NetServer.Registry.CellphoneAndPhoneUpdateDone
+- uid: CRMScript.NetServer.Registry.UnpublishedWorkflowName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UnpublishedWorkflowName
+  syntax: 
+    content: Registry.UnpublishedWorkflowName
+  summary: "User specified name for unpublished workflow"
+  name: UnpublishedWorkflowName
+  nameWithType: UnpublishedWorkflowName
+  fullName: CRMScript.NetServer.Registry.UnpublishedWorkflowName
+- uid: CRMScript.NetServer.Registry.PublishedWorkflowName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.PublishedWorkflowName
+  syntax: 
+    content: Registry.PublishedWorkflowName
+  summary: "User specified name for published workflow"
+  name: PublishedWorkflowName
+  nameWithType: PublishedWorkflowName
+  fullName: CRMScript.NetServer.Registry.PublishedWorkflowName
+- uid: CRMScript.NetServer.Registry.ExpiredWorkflowName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ExpiredWorkflowName
+  syntax: 
+    content: Registry.ExpiredWorkflowName
+  summary: "User specified name for expired workflow"
+  name: ExpiredWorkflowName
+  nameWithType: ExpiredWorkflowName
+  fullName: CRMScript.NetServer.Registry.ExpiredWorkflowName
+- uid: CRMScript.NetServer.Registry.NotifyFramePidGain
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NotifyFramePidGain
+  syntax: 
+    content: Registry.NotifyFramePidGain
+  summary: "PID controller gain parameters for NotifyFrame load balancing"
+  name: NotifyFramePidGain
+  nameWithType: NotifyFramePidGain
+  fullName: CRMScript.NetServer.Registry.NotifyFramePidGain
+- uid: CRMScript.NetServer.Registry.NotifyFramePidParamsDeprecated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NotifyFramePidParamsDeprecated
+  syntax: 
+    content: Registry.NotifyFramePidParamsDeprecated
+  summary: "PID controller internal parameters for NotifyFrame load balancing"
+  name: NotifyFramePidParamsDeprecated
+  nameWithType: NotifyFramePidParamsDeprecated
+  fullName: CRMScript.NetServer.Registry.NotifyFramePidParamsDeprecated
+- uid: CRMScript.NetServer.Registry.NotifyFrameServerLoad
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NotifyFrameServerLoad
+  syntax: 
+    content: Registry.NotifyFrameServerLoad
+  summary: "Desired NotifyFrame load on the server. Requests per second"
+  name: NotifyFrameServerLoad
+  nameWithType: NotifyFrameServerLoad
+  fullName: CRMScript.NetServer.Registry.NotifyFrameServerLoad
+- uid: CRMScript.NetServer.Registry.Tele2SmsUsername
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.Tele2SmsUsername
+  syntax: 
+    content: Registry.Tele2SmsUsername
+  summary: "Username for Tele2 SMS integration"
+  name: Tele2SmsUsername
+  nameWithType: Tele2SmsUsername
+  fullName: CRMScript.NetServer.Registry.Tele2SmsUsername
+- uid: CRMScript.NetServer.Registry.Tele2SmsPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.Tele2SmsPassword
+  syntax: 
+    content: Registry.Tele2SmsPassword
+  summary: "Password for Tele2 SMS integration"
+  name: Tele2SmsPassword
+  nameWithType: Tele2SmsPassword
+  fullName: CRMScript.NetServer.Registry.Tele2SmsPassword
+- uid: CRMScript.NetServer.Registry.Tele2Endpoint
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.Tele2Endpoint
+  syntax: 
+    content: Registry.Tele2Endpoint
+  summary: "WebService end point for Tele2 SMS integration"
+  name: Tele2Endpoint
+  nameWithType: Tele2Endpoint
+  fullName: CRMScript.NetServer.Registry.Tele2Endpoint
+- uid: CRMScript.NetServer.Registry.UpdateFaqAccessToWorkflowDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpdateFaqAccessToWorkflowDone
+  syntax: 
+    content: Registry.UpdateFaqAccessToWorkflowDone
+  summary: "Update of faq access to workflows done by upgrade"
+  name: UpdateFaqAccessToWorkflowDone
+  nameWithType: UpdateFaqAccessToWorkflowDone
+  fullName: CRMScript.NetServer.Registry.UpdateFaqAccessToWorkflowDone
+- uid: CRMScript.NetServer.Registry.UserSignaturesConvertedToHtml
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UserSignaturesConvertedToHtml
+  syntax: 
+    content: Registry.UserSignaturesConvertedToHtml
+  summary: "Whether the user signatures have been converted to html text"
+  name: UserSignaturesConvertedToHtml
+  nameWithType: UserSignaturesConvertedToHtml
+  fullName: CRMScript.NetServer.Registry.UserSignaturesConvertedToHtml
+- uid: CRMScript.NetServer.Registry.OracleIndexesUpdated
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.OracleIndexesUpdated
+  syntax: 
+    content: Registry.OracleIndexesUpdated
+  summary: "Oracle indexes have been updated"
+  name: OracleIndexesUpdated
+  nameWithType: OracleIndexesUpdated
+  fullName: CRMScript.NetServer.Registry.OracleIndexesUpdated
+- uid: CRMScript.NetServer.Registry.SpmOnlyPrimaryOnTicketSelection
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmOnlyPrimaryOnTicketSelection
+  syntax: 
+    content: Registry.SpmOnlyPrimaryOnTicketSelection
+  summary: "Which customers to receive mail on request selection shipment(0 = all, 1 = only primary"
+  name: SpmOnlyPrimaryOnTicketSelection
+  nameWithType: SpmOnlyPrimaryOnTicketSelection
+  fullName: CRMScript.NetServer.Registry.SpmOnlyPrimaryOnTicketSelection
+- uid: CRMScript.NetServer.Registry.SpmMsgTicketParserUpdateDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmMsgTicketParserUpdateDone
+  syntax: 
+    content: Registry.SpmMsgTicketParserUpdateDone
+  summary: "Parser code updated in eMarketeer Message. Done = 1"
+  name: SpmMsgTicketParserUpdateDone
+  nameWithType: SpmMsgTicketParserUpdateDone
+  fullName: CRMScript.NetServer.Registry.SpmMsgTicketParserUpdateDone
+- uid: CRMScript.NetServer.Registry.UserOldScreensOnEditTicketDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UserOldScreensOnEditTicketDone
+  syntax: 
+    content: Registry.UserOldScreensOnEditTicketDone
+  summary: "User setting for old screens on edit ticket updated from registry setting. Done = 1"
+  name: UserOldScreensOnEditTicketDone
+  nameWithType: UserOldScreensOnEditTicketDone
+  fullName: CRMScript.NetServer.Registry.UserOldScreensOnEditTicketDone
+- uid: CRMScript.NetServer.Registry.UseFullText
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseFullText
+  syntax: 
+    content: Registry.UseFullText
+  summary: "Use full text search functionality when available"
+  name: UseFullText
+  nameWithType: UseFullText
+  fullName: CRMScript.NetServer.Registry.UseFullText
+- uid: CRMScript.NetServer.Registry.HideIntegratedEjSpmBlock
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.HideIntegratedEjSpmBlock
+  syntax: 
+    content: Registry.HideIntegratedEjSpmBlock
+  summary: "Hide the integrated emarketeer/mailings block flag"
+  name: HideIntegratedEjSpmBlock
+  nameWithType: HideIntegratedEjSpmBlock
+  fullName: CRMScript.NetServer.Registry.HideIntegratedEjSpmBlock
+- uid: CRMScript.NetServer.Registry.SelectCustomerColumns
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SelectCustomerColumns
+  syntax: 
+    content: Registry.SelectCustomerColumns
+  summary: "Define the columns used to select a customer"
+  name: SelectCustomerColumns
+  nameWithType: SelectCustomerColumns
+  fullName: CRMScript.NetServer.Registry.SelectCustomerColumns
+- uid: CRMScript.NetServer.Registry.SelectCompanyColumns
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SelectCompanyColumns
+  syntax: 
+    content: Registry.SelectCompanyColumns
+  summary: "Define the columns used to select a company"
+  name: SelectCompanyColumns
+  nameWithType: SelectCompanyColumns
+  fullName: CRMScript.NetServer.Registry.SelectCompanyColumns
+- uid: CRMScript.NetServer.Registry.SelectTicketColumns
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SelectTicketColumns
+  syntax: 
+    content: Registry.SelectTicketColumns
+  summary: "Define the columns used to select a ticket"
+  name: SelectTicketColumns
+  nameWithType: SelectTicketColumns
+  fullName: CRMScript.NetServer.Registry.SelectTicketColumns
+- uid: CRMScript.NetServer.Registry.UpdatedActivateField
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpdatedActivateField
+  syntax: 
+    content: Registry.UpdatedActivateField
+  summary: "Did upgrade nullify ticket.activate field for tickets without postponed status? Yes = 1"
+  name: UpdatedActivateField
+  nameWithType: UpdatedActivateField
+  fullName: CRMScript.NetServer.Registry.UpdatedActivateField
+- uid: CRMScript.NetServer.Registry.SpmImgDBCopied
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmImgDBCopied
+  syntax: 
+    content: Registry.SpmImgDBCopied
+  summary: "Has emarketeer image database been copied to new table structure?"
+  name: SpmImgDBCopied
+  nameWithType: SpmImgDBCopied
+  fullName: CRMScript.NetServer.Registry.SpmImgDBCopied
+- uid: CRMScript.NetServer.Registry.SecurityModelEnabled
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SecurityModelEnabled
+  syntax: 
+    content: Registry.SecurityModelEnabled
+  summary: "Enable extended security model? (Yes = 1)"
+  name: SecurityModelEnabled
+  nameWithType: SecurityModelEnabled
+  fullName: CRMScript.NetServer.Registry.SecurityModelEnabled
+- uid: CRMScript.NetServer.Registry.BlockPanesRenderMode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.BlockPanesRenderMode
+  syntax: 
+    content: Registry.BlockPanesRenderMode
+  summary: "Block new panes render mode (only render selected pane)? (Yes = 1)"
+  name: BlockPanesRenderMode
+  nameWithType: BlockPanesRenderMode
+  fullName: CRMScript.NetServer.Registry.BlockPanesRenderMode
+- uid: CRMScript.NetServer.Registry.UseMiddleName
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseMiddleName
+  syntax: 
+    content: Registry.UseMiddleName
+  summary: "Use middle name in GUI? (Yes = 1)"
+  name: UseMiddleName
+  nameWithType: UseMiddleName
+  fullName: CRMScript.NetServer.Registry.UseMiddleName
+- uid: CRMScript.NetServer.Registry.NSConvertedProfiles
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NSConvertedProfiles
+  syntax: 
+    content: Registry.NSConvertedProfiles
+  summary: "Profiles are converted to NS syntax"
+  name: NSConvertedProfiles
+  nameWithType: NSConvertedProfiles
+  fullName: CRMScript.NetServer.Registry.NSConvertedProfiles
+- uid: CRMScript.NetServer.Registry.AllowSentryBypass
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AllowSentryBypass
+  syntax: 
+    content: Registry.AllowSentryBypass
+  summary: "Allow sentry to be bypassed? (1 = Explicit in ejScript"
+  name: AllowSentryBypass
+  nameWithType: AllowSentryBypass
+  fullName: CRMScript.NetServer.Registry.AllowSentryBypass
+- uid: CRMScript.NetServer.Registry.CrmGroup
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CrmGroup
+  syntax: 
+    content: Registry.CrmGroup
+  summary: "Crm group for users"
+  name: CrmGroup
+  nameWithType: CrmGroup
+  fullName: CRMScript.NetServer.Registry.CrmGroup
+- uid: CRMScript.NetServer.Registry.CrmRoleAdmin
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CrmRoleAdmin
+  syntax: 
+    content: Registry.CrmRoleAdmin
+  summary: "Crm role for admin users"
+  name: CrmRoleAdmin
+  nameWithType: CrmRoleAdmin
+  fullName: CRMScript.NetServer.Registry.CrmRoleAdmin
+- uid: CRMScript.NetServer.Registry.CrmRoleStandard
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CrmRoleStandard
+  syntax: 
+    content: Registry.CrmRoleStandard
+  summary: "Crm role for standard users"
+  name: CrmRoleStandard
+  nameWithType: CrmRoleStandard
+  fullName: CRMScript.NetServer.Registry.CrmRoleStandard
+- uid: CRMScript.NetServer.Registry.LastLicenseExpirationCheck
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastLicenseExpirationCheck
+  syntax: 
+    content: Registry.LastLicenseExpirationCheck
+  summary: "Last time the license expiration time was checked"
+  name: LastLicenseExpirationCheck
+  nameWithType: LastLicenseExpirationCheck
+  fullName: CRMScript.NetServer.Registry.LastLicenseExpirationCheck
+- uid: CRMScript.NetServer.Registry.ReplyTemplateLicenseExpirationWarning
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateLicenseExpirationWarning
+  syntax: 
+    content: Registry.ReplyTemplateLicenseExpirationWarning
+  summary: "ReplyTemplateLicenseExpirationWarning"
+  name: ReplyTemplateLicenseExpirationWarning
+  nameWithType: ReplyTemplateLicenseExpirationWarning
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateLicenseExpirationWarning
+- uid: CRMScript.NetServer.Registry.CrmRoleCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CrmRoleCustomer
+  syntax: 
+    content: Registry.CrmRoleCustomer
+  summary: "Crm role for customers"
+  name: CrmRoleCustomer
+  nameWithType: CrmRoleCustomer
+  fullName: CRMScript.NetServer.Registry.CrmRoleCustomer
+- uid: CRMScript.NetServer.Registry.SystemNSKey
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SystemNSKey
+  syntax: 
+    content: Registry.SystemNSKey
+  summary: "NS ticket for system user"
+  name: SystemNSKey
+  nameWithType: SystemNSKey
+  fullName: CRMScript.NetServer.Registry.SystemNSKey
+- uid: CRMScript.NetServer.Registry.AnonNSKey
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AnonNSKey
+  syntax: 
+    content: Registry.AnonNSKey
+  summary: "NS ticket for anon system user"
+  name: AnonNSKey
+  nameWithType: AnonNSKey
+  fullName: CRMScript.NetServer.Registry.AnonNSKey
+- uid: CRMScript.NetServer.Registry.DBSchemaDirty
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DBSchemaDirty
+  syntax: 
+    content: Registry.DBSchemaDirty
+  summary: "If the DB schema is dirty - Netserver needs restart"
+  name: DBSchemaDirty
+  nameWithType: DBSchemaDirty
+  fullName: CRMScript.NetServer.Registry.DBSchemaDirty
+- uid: CRMScript.NetServer.Registry.NSGetKeyPath
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NSGetKeyPath
+  syntax: 
+    content: Registry.NSGetKeyPath
+  summary: "The file path to the program which performs AD authentication"
+  name: NSGetKeyPath
+  nameWithType: NSGetKeyPath
+  fullName: CRMScript.NetServer.Registry.NSGetKeyPath
+- uid: CRMScript.NetServer.Registry.EmarketeerNewLinkGraceDate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EmarketeerNewLinkGraceDate
+  syntax: 
+    content: Registry.EmarketeerNewLinkGraceDate
+  summary: "Grace datetime for allowed use of older emarketeer link format"
+  name: EmarketeerNewLinkGraceDate
+  nameWithType: EmarketeerNewLinkGraceDate
+  fullName: CRMScript.NetServer.Registry.EmarketeerNewLinkGraceDate
+- uid: CRMScript.NetServer.Registry.CustomNotifyEnabled
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CustomNotifyEnabled
+  syntax: 
+    content: Registry.CustomNotifyEnabled
+  summary: "Has custom notify been enabled for users? (Yes = 1)"
+  name: CustomNotifyEnabled
+  nameWithType: CustomNotifyEnabled
+  fullName: CRMScript.NetServer.Registry.CustomNotifyEnabled
+- uid: CRMScript.NetServer.Registry.ConverterDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ConverterDone
+  syntax: 
+    content: Registry.ConverterDone
+  summary: "If convert to seven is done, the 1, else 0"
+  name: ConverterDone
+  nameWithType: ConverterDone
+  fullName: CRMScript.NetServer.Registry.ConverterDone
+- uid: CRMScript.NetServer.Registry.NetServerKeepAlive
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NetServerKeepAlive
+  syntax: 
+    content: Registry.NetServerKeepAlive
+  summary: "NetServer keep-alive every x seconds inside CRM"
+  name: NetServerKeepAlive
+  nameWithType: NetServerKeepAlive
+  fullName: CRMScript.NetServer.Registry.NetServerKeepAlive
+- uid: CRMScript.NetServer.Registry.TimeZoneForNetServer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.TimeZoneForNetServer
+  syntax: 
+    content: Registry.TimeZoneForNetServer
+  summary: "Time zone for NetServer calls"
+  name: TimeZoneForNetServer
+  nameWithType: TimeZoneForNetServer
+  fullName: CRMScript.NetServer.Registry.TimeZoneForNetServer
+- uid: CRMScript.NetServer.Registry.UseExtension
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseExtension
+  syntax: 
+    content: Registry.UseExtension
+  summary: "The file extension used in CS"
+  name: UseExtension
+  nameWithType: UseExtension
+  fullName: CRMScript.NetServer.Registry.UseExtension
+- uid: CRMScript.NetServer.Registry.CustomerEnableFAQAjax
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CustomerEnableFAQAjax
+  syntax: 
+    content: Registry.CustomerEnableFAQAjax
+  summary: "Enable FAQ Search based on AJAX"
+  name: CustomerEnableFAQAjax
+  nameWithType: CustomerEnableFAQAjax
+  fullName: CRMScript.NetServer.Registry.CustomerEnableFAQAjax
+- uid: CRMScript.NetServer.Registry.UseAttachmentFolders
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseAttachmentFolders
+  syntax: 
+    content: Registry.UseAttachmentFolders
+  summary: "Use folders for attachments, 10000 in each folder, folders named folder0, folder1.. (Yes = 1)"
+  name: UseAttachmentFolders
+  nameWithType: UseAttachmentFolders
+  fullName: CRMScript.NetServer.Registry.UseAttachmentFolders
+- uid: CRMScript.NetServer.Registry.DoNotChangeSMRoles
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DoNotChangeSMRoles
+  syntax: 
+    content: Registry.DoNotChangeSMRoles
+  summary: "Do not change roles in SuperOffice Sales&Marketing"
+  name: DoNotChangeSMRoles
+  nameWithType: DoNotChangeSMRoles
+  fullName: CRMScript.NetServer.Registry.DoNotChangeSMRoles
+- uid: CRMScript.NetServer.Registry.ShowAvatarsInCustomerCentre
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ShowAvatarsInCustomerCentre
+  syntax: 
+    content: Registry.ShowAvatarsInCustomerCentre
+  summary: "Enable avatars/profile images in Customer Centre"
+  name: ShowAvatarsInCustomerCentre
+  nameWithType: ShowAvatarsInCustomerCentre
+  fullName: CRMScript.NetServer.Registry.ShowAvatarsInCustomerCentre
+- uid: CRMScript.NetServer.Registry.SearchEngineFilters
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SearchEngineFilters
+  syntax: 
+    content: Registry.SearchEngineFilters
+  summary: ""
+  name: SearchEngineFilters
+  nameWithType: SearchEngineFilters
+  fullName: CRMScript.NetServer.Registry.SearchEngineFilters
+- uid: CRMScript.NetServer.Registry.UseNetServerSms
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseNetServerSms
+  syntax: 
+    content: Registry.UseNetServerSms
+  summary: "Set this to 1 to use NetServer as transporter for SMS"
+  name: UseNetServerSms
+  nameWithType: UseNetServerSms
+  fullName: CRMScript.NetServer.Registry.UseNetServerSms
+- uid: CRMScript.NetServer.Registry.NetServerSmsProvider
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NetServerSmsProvider
+  syntax: 
+    content: Registry.NetServerSmsProvider
+  summary: "Name of choosen SMS provider using NetServer API"
+  name: NetServerSmsProvider
+  nameWithType: NetServerSmsProvider
+  fullName: CRMScript.NetServer.Registry.NetServerSmsProvider
+- uid: CRMScript.NetServer.Registry.NsPluginSender
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NsPluginSender
+  syntax: 
+    content: Registry.NsPluginSender
+  summary: "Netserver plugin sender"
+  name: NsPluginSender
+  nameWithType: NsPluginSender
+  fullName: CRMScript.NetServer.Registry.NsPluginSender
+- uid: CRMScript.NetServer.Registry.SetupFCGI
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SetupFCGI
+  syntax: 
+    content: Registry.SetupFCGI
+  summary: "Setup has asked for setting up FastCGI"
+  name: SetupFCGI
+  nameWithType: SetupFCGI
+  fullName: CRMScript.NetServer.Registry.SetupFCGI
+- uid: CRMScript.NetServer.Registry.UseFCGIImpersonation
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseFCGIImpersonation
+  syntax: 
+    content: Registry.UseFCGIImpersonation
+  summary: "Use Impersonation for FastCGI"
+  name: UseFCGIImpersonation
+  nameWithType: UseFCGIImpersonation
+  fullName: CRMScript.NetServer.Registry.UseFCGIImpersonation
+- uid: CRMScript.NetServer.Registry.SoapUseExtension
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SoapUseExtension
+  syntax: 
+    content: Registry.SoapUseExtension
+  summary: "The file extension used by SOAP executables"
+  name: SoapUseExtension
+  nameWithType: SoapUseExtension
+  fullName: CRMScript.NetServer.Registry.SoapUseExtension
+- uid: CRMScript.NetServer.Registry.UseAutoSuppressHeader
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseAutoSuppressHeader
+  syntax: 
+    content: Registry.UseAutoSuppressHeader
+  summary: "Understand and send the MS Exchange header X-Auto-Response-Suppress"
+  name: UseAutoSuppressHeader
+  nameWithType: UseAutoSuppressHeader
+  fullName: CRMScript.NetServer.Registry.UseAutoSuppressHeader
+- uid: CRMScript.NetServer.Registry.ExampleBounceFilterAdded
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ExampleBounceFilterAdded
+  syntax: 
+    content: Registry.ExampleBounceFilterAdded
+  summary: "Has the example bounce e-mail filter been added? (Yes = 1)"
+  name: ExampleBounceFilterAdded
+  nameWithType: ExampleBounceFilterAdded
+  fullName: CRMScript.NetServer.Registry.ExampleBounceFilterAdded
+- uid: CRMScript.NetServer.Registry.SLinkCleanUpDone
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SLinkCleanUpDone
+  syntax: 
+    content: Registry.SLinkCleanUpDone
+  summary: "Clean up in table s_link is done? (Yes = 1)"
+  name: SLinkCleanUpDone
+  nameWithType: SLinkCleanUpDone
+  fullName: CRMScript.NetServer.Registry.SLinkCleanUpDone
+- uid: CRMScript.NetServer.Registry.IncomingSmsBox
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.IncomingSmsBox
+  syntax: 
+    content: Registry.IncomingSmsBox
+  summary: "Sms box (main_in_filter) for incoming sms"
+  name: IncomingSmsBox
+  nameWithType: IncomingSmsBox
+  fullName: CRMScript.NetServer.Registry.IncomingSmsBox
+- uid: CRMScript.NetServer.Registry.AddedLegalHtmlCodeInUpgrade
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AddedLegalHtmlCodeInUpgrade
+  syntax: 
+    content: Registry.AddedLegalHtmlCodeInUpgrade
+  summary: "Added new legal HtmlCode in upgrade"
+  name: AddedLegalHtmlCodeInUpgrade
+  nameWithType: AddedLegalHtmlCodeInUpgrade
+  fullName: CRMScript.NetServer.Registry.AddedLegalHtmlCodeInUpgrade
+- uid: CRMScript.NetServer.Registry.DefaultEditorContent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultEditorContent
+  syntax: 
+    content: Registry.DefaultEditorContent
+  summary: "Default editor content, for setting font or other styling"
+  name: DefaultEditorContent
+  nameWithType: DefaultEditorContent
+  fullName: CRMScript.NetServer.Registry.DefaultEditorContent
+- uid: CRMScript.NetServer.Registry.UseBrowserSpellCheck
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseBrowserSpellCheck
+  syntax: 
+    content: Registry.UseBrowserSpellCheck
+  summary: "Whether to use the spell checker in the browser (Yes = 1)"
+  name: UseBrowserSpellCheck
+  nameWithType: UseBrowserSpellCheck
+  fullName: CRMScript.NetServer.Registry.UseBrowserSpellCheck
+- uid: CRMScript.NetServer.Registry.UseCalltoOnPhoneLinks
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseCalltoOnPhoneLinks
+  syntax: 
+    content: Registry.UseCalltoOnPhoneLinks
+  summary: "Use callTo functionality on phone numbers for companies and contacts (Yes = 1)"
+  name: UseCalltoOnPhoneLinks
+  nameWithType: UseCalltoOnPhoneLinks
+  fullName: CRMScript.NetServer.Registry.UseCalltoOnPhoneLinks
+- uid: CRMScript.NetServer.Registry.ShowSubmitSpinner
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ShowSubmitSpinner
+  syntax: 
+    content: Registry.ShowSubmitSpinner
+  summary: "Show spinner when submitting forms"
+  name: ShowSubmitSpinner
+  nameWithType: ShowSubmitSpinner
+  fullName: CRMScript.NetServer.Registry.ShowSubmitSpinner
+- uid: CRMScript.NetServer.Registry.AccessLicensePageWithoutLogin
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AccessLicensePageWithoutLogin
+  syntax: 
+    content: Registry.AccessLicensePageWithoutLogin
+  summary: "Access license page without login (Yes = 1)"
+  name: AccessLicensePageWithoutLogin
+  nameWithType: AccessLicensePageWithoutLogin
+  fullName: CRMScript.NetServer.Registry.AccessLicensePageWithoutLogin
+- uid: CRMScript.NetServer.Registry.HideExportButton
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.HideExportButton
+  syntax: 
+    content: Registry.HideExportButton
+  summary: "Hide Export button from grids (Hide = 1)"
+  name: HideExportButton
+  nameWithType: HideExportButton
+  fullName: CRMScript.NetServer.Registry.HideExportButton
+- uid: CRMScript.NetServer.Registry.QueueTicketStatuses
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.QueueTicketStatuses
+  syntax: 
+    content: Registry.QueueTicketStatuses
+  summary: "Ids of ticket statuses that are queues, as a commaseparated list"
+  name: QueueTicketStatuses
+  nameWithType: QueueTicketStatuses
+  fullName: CRMScript.NetServer.Registry.QueueTicketStatuses
+- uid: CRMScript.NetServer.Registry.ImageResizerExecutable
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImageResizerExecutable
+  syntax: 
+    content: Registry.ImageResizerExecutable
+  summary: "ImageResizer executable"
+  name: ImageResizerExecutable
+  nameWithType: ImageResizerExecutable
+  fullName: CRMScript.NetServer.Registry.ImageResizerExecutable
+- uid: CRMScript.NetServer.Registry.CleanupLinefeedInNSMail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CleanupLinefeedInNSMail
+  syntax: 
+    content: Registry.CleanupLinefeedInNSMail
+  summary: "Cleanup single Linefeeds when sending Emails through Netserver"
+  name: CleanupLinefeedInNSMail
+  nameWithType: CleanupLinefeedInNSMail
+  fullName: CRMScript.NetServer.Registry.CleanupLinefeedInNSMail
+- uid: CRMScript.NetServer.Registry.CheckHtmlValidityInSOEditor
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CheckHtmlValidityInSOEditor
+  syntax: 
+    content: Registry.CheckHtmlValidityInSOEditor
+  summary: "Check HTML validity when editing messages in SOEditor"
+  name: CheckHtmlValidityInSOEditor
+  nameWithType: CheckHtmlValidityInSOEditor
+  fullName: CRMScript.NetServer.Registry.CheckHtmlValidityInSOEditor
+- uid: CRMScript.NetServer.Registry.UpgradeCSParserConverted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpgradeCSParserConverted
+  syntax: 
+    content: Registry.UpgradeCSParserConverted
+  summary: "Whether upgrade has converted cs:parser to [["
+  name: UpgradeCSParserConverted
+  nameWithType: UpgradeCSParserConverted
+  fullName: CRMScript.NetServer.Registry.UpgradeCSParserConverted
+- uid: CRMScript.NetServer.Registry.DefaultEditorBodyFont
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultEditorBodyFont
+  syntax: 
+    content: Registry.DefaultEditorBodyFont
+  summary: "Default font style in <body> tag for CKEditor"
+  name: DefaultEditorBodyFont
+  nameWithType: DefaultEditorBodyFont
+  fullName: CRMScript.NetServer.Registry.DefaultEditorBodyFont
+- uid: CRMScript.NetServer.Registry.CustomCacheBustingParameter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CustomCacheBustingParameter
+  syntax: 
+    content: Registry.CustomCacheBustingParameter
+  summary: "String that is added to all included CSS and javascript files for cache busting"
+  name: CustomCacheBustingParameter
+  nameWithType: CustomCacheBustingParameter
+  fullName: CRMScript.NetServer.Registry.CustomCacheBustingParameter
+- uid: CRMScript.NetServer.Registry.UseSha1OnLinks
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseSha1OnLinks
+  syntax: 
+    content: Registry.UseSha1OnLinks
+  summary: "eMarketing links with id higher than this should use Sha1 encryption"
+  name: UseSha1OnLinks
+  nameWithType: UseSha1OnLinks
+  fullName: CRMScript.NetServer.Registry.UseSha1OnLinks
+- uid: CRMScript.NetServer.Registry.UpgradeRolesConverted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UpgradeRolesConverted
+  syntax: 
+    content: Registry.UpgradeRolesConverted
+  summary: "Status for upgrading ejRoles to SO common roles"
+  name: UpgradeRolesConverted
+  nameWithType: UpgradeRolesConverted
+  fullName: CRMScript.NetServer.Registry.UpgradeRolesConverted
+- uid: CRMScript.NetServer.Registry.DeleteInboxDays
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DeleteInboxDays
+  syntax: 
+    content: Registry.DeleteInboxDays
+  summary: "The number of days before inbox backups are deleted"
+  name: DeleteInboxDays
+  nameWithType: DeleteInboxDays
+  fullName: CRMScript.NetServer.Registry.DeleteInboxDays
+- uid: CRMScript.NetServer.Registry.UserGroupsConverted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UserGroupsConverted
+  syntax: 
+    content: Registry.UserGroupsConverted
+  summary: "Are the user groups converted to 7.5 (Yes = 1)"
+  name: UserGroupsConverted
+  nameWithType: UserGroupsConverted
+  fullName: CRMScript.NetServer.Registry.UserGroupsConverted
+- uid: CRMScript.NetServer.Registry.UserAgentIsMobile
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UserAgentIsMobile
+  syntax: 
+    content: Registry.UserAgentIsMobile
+  summary: "Detect mobile devices using the HTTP_USER_AGENT variable"
+  name: UserAgentIsMobile
+  nameWithType: UserAgentIsMobile
+  fullName: CRMScript.NetServer.Registry.UserAgentIsMobile
+- uid: CRMScript.NetServer.Registry.UserAgentIsTablet
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UserAgentIsTablet
+  syntax: 
+    content: Registry.UserAgentIsTablet
+  summary: "Detect tablet devices using the HTTP_USER_AGENT variable"
+  name: UserAgentIsTablet
+  nameWithType: UserAgentIsTablet
+  fullName: CRMScript.NetServer.Registry.UserAgentIsTablet
+- uid: CRMScript.NetServer.Registry.DefaultStatusWhenTakingOwnership
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultStatusWhenTakingOwnership
+  syntax: 
+    content: Registry.DefaultStatusWhenTakingOwnership
+  summary: "Default status when taking ownership of a ticket"
+  name: DefaultStatusWhenTakingOwnership
+  nameWithType: DefaultStatusWhenTakingOwnership
+  fullName: CRMScript.NetServer.Registry.DefaultStatusWhenTakingOwnership
+- uid: CRMScript.NetServer.Registry.DisableUnauthenticatedCreationInCustomerCentre
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DisableUnauthenticatedCreationInCustomerCentre
+  syntax: 
+    content: Registry.DisableUnauthenticatedCreationInCustomerCentre
+  summary: "Disable unauthenticated creation of new customers and requests in the customer centre"
+  name: DisableUnauthenticatedCreationInCustomerCentre
+  nameWithType: DisableUnauthenticatedCreationInCustomerCentre
+  fullName: CRMScript.NetServer.Registry.DisableUnauthenticatedCreationInCustomerCentre
+- uid: CRMScript.NetServer.Registry.RegisterCustomerConfirmEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.RegisterCustomerConfirmEmail
+  syntax: 
+    content: Registry.RegisterCustomerConfirmEmail
+  summary: "Require a confirmed email address before you can register new customers"
+  name: RegisterCustomerConfirmEmail
+  nameWithType: RegisterCustomerConfirmEmail
+  fullName: CRMScript.NetServer.Registry.RegisterCustomerConfirmEmail
+- uid: CRMScript.NetServer.Registry.ReplyTemplateCustomerConfirmEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateCustomerConfirmEmail
+  syntax: 
+    content: Registry.ReplyTemplateCustomerConfirmEmail
+  summary: "ReplyTemplate for customer confirm email"
+  name: ReplyTemplateCustomerConfirmEmail
+  nameWithType: ReplyTemplateCustomerConfirmEmail
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateCustomerConfirmEmail
+- uid: CRMScript.NetServer.Registry.ReplyToAllOnlyLatestExternalMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyToAllOnlyLatestExternalMessage
+  syntax: 
+    content: Registry.ReplyToAllOnlyLatestExternalMessage
+  summary: "Reply to all button only includes recipients related to last external message"
+  name: ReplyToAllOnlyLatestExternalMessage
+  nameWithType: ReplyToAllOnlyLatestExternalMessage
+  fullName: CRMScript.NetServer.Registry.ReplyToAllOnlyLatestExternalMessage
+- uid: CRMScript.NetServer.Registry.LastCleanedExpiredNotify
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.LastCleanedExpiredNotify
+  syntax: 
+    content: Registry.LastCleanedExpiredNotify
+  summary: "Time of last removal of expired notify entries"
+  name: LastCleanedExpiredNotify
+  nameWithType: LastCleanedExpiredNotify
+  fullName: CRMScript.NetServer.Registry.LastCleanedExpiredNotify
+- uid: CRMScript.NetServer.Registry.eMarketingEditorInNewWindow
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.eMarketingEditorInNewWindow
+  syntax: 
+    content: Registry.eMarketingEditorInNewWindow
+  summary: "Open the eMarketing Editor in new window"
+  name: eMarketingEditorInNewWindow
+  nameWithType: eMarketingEditorInNewWindow
+  fullName: CRMScript.NetServer.Registry.eMarketingEditorInNewWindow
+- uid: CRMScript.NetServer.Registry.FacebookCallbackKey
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.FacebookCallbackKey
+  syntax: 
+    content: Registry.FacebookCallbackKey
+  summary: "Key for verifying requests to the Facebook callback URL"
+  name: FacebookCallbackKey
+  nameWithType: FacebookCallbackKey
+  fullName: CRMScript.NetServer.Registry.FacebookCallbackKey
+- uid: CRMScript.NetServer.Registry.MaxRowsForCharts
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MaxRowsForCharts
+  syntax: 
+    content: Registry.MaxRowsForCharts
+  summary: "The maximum number of estimated row we accept for a chart"
+  name: MaxRowsForCharts
+  nameWithType: MaxRowsForCharts
+  fullName: CRMScript.NetServer.Registry.MaxRowsForCharts
+- uid: CRMScript.NetServer.Registry.SpmDefaultMailingRate
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmDefaultMailingRate
+  syntax: 
+    content: Registry.SpmDefaultMailingRate
+  summary: "This is the default mails pr minutes for the mailing module"
+  name: SpmDefaultMailingRate
+  nameWithType: SpmDefaultMailingRate
+  fullName: CRMScript.NetServer.Registry.SpmDefaultMailingRate
+- uid: CRMScript.NetServer.Registry.SpmConcurrentSMTPThreads
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmConcurrentSMTPThreads
+  syntax: 
+    content: Registry.SpmConcurrentSMTPThreads
+  summary: "This is the number of SMTP threads used when sending eMarketing"
+  name: SpmConcurrentSMTPThreads
+  nameWithType: SpmConcurrentSMTPThreads
+  fullName: CRMScript.NetServer.Registry.SpmConcurrentSMTPThreads
+- uid: CRMScript.NetServer.Registry.SpmHideNewMessageOption
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmHideNewMessageOption
+  syntax: 
+    content: Registry.SpmHideNewMessageOption
+  summary: "Hide option to create new request in mailings"
+  name: SpmHideNewMessageOption
+  nameWithType: SpmHideNewMessageOption
+  fullName: CRMScript.NetServer.Registry.SpmHideNewMessageOption
+- uid: CRMScript.NetServer.Registry.SpmTimeToRestartSenders
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SpmTimeToRestartSenders
+  syntax: 
+    content: Registry.SpmTimeToRestartSenders
+  summary: "Seconds before restarting emarketing senders"
+  name: SpmTimeToRestartSenders
+  nameWithType: SpmTimeToRestartSenders
+  fullName: CRMScript.NetServer.Registry.SpmTimeToRestartSenders
+- uid: CRMScript.NetServer.Registry.ShowOldReportsMenu
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ShowOldReportsMenu
+  syntax: 
+    content: Registry.ShowOldReportsMenu
+  summary: "Enable to show the old reports menu item under stats"
+  name: ShowOldReportsMenu
+  nameWithType: ShowOldReportsMenu
+  fullName: CRMScript.NetServer.Registry.ShowOldReportsMenu
+- uid: CRMScript.NetServer.Registry.EmailSendingRetryLimit
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EmailSendingRetryLimit
+  syntax: 
+    content: Registry.EmailSendingRetryLimit
+  summary: "When email sending fails, retry only this many times"
+  name: EmailSendingRetryLimit
+  nameWithType: EmailSendingRetryLimit
+  fullName: CRMScript.NetServer.Registry.EmailSendingRetryLimit
+- uid: CRMScript.NetServer.Registry.ThumbnailsIsDefaultMode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ThumbnailsIsDefaultMode
+  syntax: 
+    content: Registry.ThumbnailsIsDefaultMode
+  summary: "If true (1; then thumbnails is the default mode in Mailings"
+  name: ThumbnailsIsDefaultMode
+  nameWithType: ThumbnailsIsDefaultMode
+  fullName: CRMScript.NetServer.Registry.ThumbnailsIsDefaultMode
+- uid: CRMScript.NetServer.Registry.UsageStatsWinNextRun
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UsageStatsWinNextRun
+  syntax: 
+    content: Registry.UsageStatsWinNextRun
+  summary: "Next local run time for Windows usage stats"
+  name: UsageStatsWinNextRun
+  nameWithType: UsageStatsWinNextRun
+  fullName: CRMScript.NetServer.Registry.UsageStatsWinNextRun
+- uid: CRMScript.NetServer.Registry.UsageStatsWebNextRun
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UsageStatsWebNextRun
+  syntax: 
+    content: Registry.UsageStatsWebNextRun
+  summary: "Next local run time for Web/CS/Pocket usage stats"
+  name: UsageStatsWebNextRun
+  nameWithType: UsageStatsWebNextRun
+  fullName: CRMScript.NetServer.Registry.UsageStatsWebNextRun
+- uid: CRMScript.NetServer.Registry.UsageStatsDataAddNextRun
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UsageStatsDataAddNextRun
+  syntax: 
+    content: Registry.UsageStatsDataAddNextRun
+  summary: "Next local run time for data-addition usage stats"
+  name: UsageStatsDataAddNextRun
+  nameWithType: UsageStatsDataAddNextRun
+  fullName: CRMScript.NetServer.Registry.UsageStatsDataAddNextRun
+- uid: CRMScript.NetServer.Registry.UsageStatsTableSizeNextRun
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UsageStatsTableSizeNextRun
+  syntax: 
+    content: Registry.UsageStatsTableSizeNextRun
+  summary: "Next local run time for table-size usage stats"
+  name: UsageStatsTableSizeNextRun
+  nameWithType: UsageStatsTableSizeNextRun
+  fullName: CRMScript.NetServer.Registry.UsageStatsTableSizeNextRun
+- uid: CRMScript.NetServer.Registry.UserSyncResyncNextRun
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UserSyncResyncNextRun
+  syntax: 
+    content: Registry.UserSyncResyncNextRun
+  summary: "Next local run time for resyncing user information"
+  name: UserSyncResyncNextRun
+  nameWithType: UserSyncResyncNextRun
+  fullName: CRMScript.NetServer.Registry.UserSyncResyncNextRun
+- uid: CRMScript.NetServer.Registry.ForceIEEdgeMode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ForceIEEdgeMode
+  syntax: 
+    content: Registry.ForceIEEdgeMode
+  summary: "Force IE to run in Edge mode using Meta header"
+  name: ForceIEEdgeMode
+  nameWithType: ForceIEEdgeMode
+  fullName: CRMScript.NetServer.Registry.ForceIEEdgeMode
+- uid: CRMScript.NetServer.Registry.CSPHeader
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CSPHeader
+  syntax: 
+    content: Registry.CSPHeader
+  summary: "Content Policy Provider string"
+  name: CSPHeader
+  nameWithType: CSPHeader
+  fullName: CRMScript.NetServer.Registry.CSPHeader
+- uid: CRMScript.NetServer.Registry.NotifyTimeOfDayForReport
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NotifyTimeOfDayForReport
+  syntax: 
+    content: Registry.NotifyTimeOfDayForReport
+  summary: "Time of day for open requests report"
+  name: NotifyTimeOfDayForReport
+  nameWithType: NotifyTimeOfDayForReport
+  fullName: CRMScript.NetServer.Registry.NotifyTimeOfDayForReport
+- uid: CRMScript.NetServer.Registry.EmailImplementation
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.EmailImplementation
+  syntax: 
+    content: Registry.EmailImplementation
+  summary: "Which email implementation to use. 2 = old email implementation"
+  name: EmailImplementation
+  nameWithType: EmailImplementation
+  fullName: CRMScript.NetServer.Registry.EmailImplementation
+- uid: CRMScript.NetServer.Registry.CurlMailTransferTimeout
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CurlMailTransferTimeout
+  syntax: 
+    content: Registry.CurlMailTransferTimeout
+  summary: "How many seconds do we allow for curl mail timeout"
+  name: CurlMailTransferTimeout
+  nameWithType: CurlMailTransferTimeout
+  fullName: CRMScript.NetServer.Registry.CurlMailTransferTimeout
+- uid: CRMScript.NetServer.Registry.CurlDisableStartTls
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CurlDisableStartTls
+  syntax: 
+    content: Registry.CurlDisableStartTls
+  summary: "Disable the use of STARTTLS for Curl"
+  name: CurlDisableStartTls
+  nameWithType: CurlDisableStartTls
+  fullName: CRMScript.NetServer.Registry.CurlDisableStartTls
+- uid: CRMScript.NetServer.Registry.ReplyTemplatePrintTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplatePrintTicket
+  syntax: 
+    content: Registry.ReplyTemplatePrintTicket
+  summary: "Reply template for printing tickets"
+  name: ReplyTemplatePrintTicket
+  nameWithType: ReplyTemplatePrintTicket
+  fullName: CRMScript.NetServer.Registry.ReplyTemplatePrintTicket
+- uid: CRMScript.NetServer.Registry.DoNotUseCompanyCountry
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DoNotUseCompanyCountry
+  syntax: 
+    content: Registry.DoNotUseCompanyCountry
+  summary: "Do not use company country for new persons"
+  name: DoNotUseCompanyCountry
+  nameWithType: DoNotUseCompanyCountry
+  fullName: CRMScript.NetServer.Registry.DoNotUseCompanyCountry
+- uid: CRMScript.NetServer.Registry.MaxGridRows
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MaxGridRows
+  syntax: 
+    content: Registry.MaxGridRows
+  summary: "Max number of rows returned in grids"
+  name: MaxGridRows
+  nameWithType: MaxGridRows
+  fullName: CRMScript.NetServer.Registry.MaxGridRows
+- uid: CRMScript.NetServer.Registry.DoNotAllowMultipleLogins
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DoNotAllowMultipleLogins
+  syntax: 
+    content: Registry.DoNotAllowMultipleLogins
+  summary: "Log out old sessions when logging into new sessions,"
+  name: DoNotAllowMultipleLogins
+  nameWithType: DoNotAllowMultipleLogins
+  fullName: CRMScript.NetServer.Registry.DoNotAllowMultipleLogins
+- uid: CRMScript.NetServer.Registry.NsPluginConfig
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.NsPluginConfig
+  syntax: 
+    content: Registry.NsPluginConfig
+  summary: "Config values for current netserver sms plugin"
+  name: NsPluginConfig
+  nameWithType: NsPluginConfig
+  fullName: CRMScript.NetServer.Registry.NsPluginConfig
+- uid: CRMScript.NetServer.Registry.ReplyTemplateCustomerChatLog
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateCustomerChatLog
+  syntax: 
+    content: Registry.ReplyTemplateCustomerChatLog
+  summary: "ReplyTemplate for customer chat log"
+  name: ReplyTemplateCustomerChatLog
+  nameWithType: ReplyTemplateCustomerChatLog
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateCustomerChatLog
+- uid: CRMScript.NetServer.Registry.MailgunIncludeOutOfOffice
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MailgunIncludeOutOfOffice
+  syntax: 
+    content: Registry.MailgunIncludeOutOfOffice
+  summary: "Whether mailgun route should include out-of-office replies"
+  name: MailgunIncludeOutOfOffice
+  nameWithType: MailgunIncludeOutOfOffice
+  fullName: CRMScript.NetServer.Registry.MailgunIncludeOutOfOffice
+- uid: CRMScript.NetServer.Registry.TimeKeyTTL
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.TimeKeyTTL
+  syntax: 
+    content: Registry.TimeKeyTTL
+  summary: "How many 10-minute intervals should customer centre links live"
+  name: TimeKeyTTL
+  nameWithType: TimeKeyTTL
+  fullName: CRMScript.NetServer.Registry.TimeKeyTTL
+- uid: CRMScript.NetServer.Registry.DefaultTrackAllLinks
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.DefaultTrackAllLinks
+  syntax: 
+    content: Registry.DefaultTrackAllLinks
+  summary: "Default value for 'Track all links' checkbox in new mailing"
+  name: DefaultTrackAllLinks
+  nameWithType: DefaultTrackAllLinks
+  fullName: CRMScript.NetServer.Registry.DefaultTrackAllLinks
+- uid: CRMScript.NetServer.Registry.AddedOptionsFcgi
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AddedOptionsFcgi
+  syntax: 
+    content: Registry.AddedOptionsFcgi
+  summary: "Added OPTIONS verb to FastCGI handlers"
+  name: AddedOptionsFcgi
+  nameWithType: AddedOptionsFcgi
+  fullName: CRMScript.NetServer.Registry.AddedOptionsFcgi
+- uid: CRMScript.NetServer.Registry.MailgunRewriteSenderHeader
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MailgunRewriteSenderHeader
+  syntax: 
+    content: Registry.MailgunRewriteSenderHeader
+  summary: "Add X-Mailgun-Rewrite-Sender-Header: false to email headers"
+  name: MailgunRewriteSenderHeader
+  nameWithType: MailgunRewriteSenderHeader
+  fullName: CRMScript.NetServer.Registry.MailgunRewriteSenderHeader
+- uid: CRMScript.NetServer.Registry.OptimizedCustomerCenterListTickets
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.OptimizedCustomerCenterListTickets
+  syntax: 
+    content: Registry.OptimizedCustomerCenterListTickets
+  summary: "Enable optimized list tickets in Customer Center for improved performance"
+  name: OptimizedCustomerCenterListTickets
+  nameWithType: OptimizedCustomerCenterListTickets
+  fullName: CRMScript.NetServer.Registry.OptimizedCustomerCenterListTickets
+- uid: CRMScript.NetServer.Registry.QuickReplyMode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.QuickReplyMode
+  syntax: 
+    content: Registry.QuickReplyMode
+  summary: "Set quick reply mode. 0=normal, 1=submit on ok, 2=removed"
+  name: QuickReplyMode
+  nameWithType: QuickReplyMode
+  fullName: CRMScript.NetServer.Registry.QuickReplyMode
+- uid: CRMScript.NetServer.Registry.ForceImmediateFileLogging
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ForceImmediateFileLogging
+  syntax: 
+    content: Registry.ForceImmediateFileLogging
+  summary: "Force immediate logging to file(more overhead)"
+  name: ForceImmediateFileLogging
+  nameWithType: ForceImmediateFileLogging
+  fullName: CRMScript.NetServer.Registry.ForceImmediateFileLogging
+- uid: CRMScript.NetServer.Registry.TemporaryKeyTTL
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.TemporaryKeyTTL
+  syntax: 
+    content: Registry.TemporaryKeyTTL
+  summary: "Time to live (in minutes) for temporary keys"
+  name: TemporaryKeyTTL
+  nameWithType: TemporaryKeyTTL
+  fullName: CRMScript.NetServer.Registry.TemporaryKeyTTL
+- uid: CRMScript.NetServer.Registry.TemporaryKeyHardDeleteDelay
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.TemporaryKeyHardDeleteDelay
+  syntax: 
+    content: Registry.TemporaryKeyHardDeleteDelay
+  summary: "Time (in days) past expiration before hard delete of temporary keys"
+  name: TemporaryKeyHardDeleteDelay
+  nameWithType: TemporaryKeyHardDeleteDelay
+  fullName: CRMScript.NetServer.Registry.TemporaryKeyHardDeleteDelay
+- uid: CRMScript.NetServer.Registry.ReplyTemplateNewLink
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyTemplateNewLink
+  syntax: 
+    content: Registry.ReplyTemplateNewLink
+  summary: "ReplyTemplate for sending out new links"
+  name: ReplyTemplateNewLink
+  nameWithType: ReplyTemplateNewLink
+  fullName: CRMScript.NetServer.Registry.ReplyTemplateNewLink
+- uid: CRMScript.NetServer.Registry.UseLegacyHtmlConverter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseLegacyHtmlConverter
+  syntax: 
+    content: Registry.UseLegacyHtmlConverter
+  summary: "If 2, then use legacy htmlConverter for html to plain conversion"
+  name: UseLegacyHtmlConverter
+  nameWithType: UseLegacyHtmlConverter
+  fullName: CRMScript.NetServer.Registry.UseLegacyHtmlConverter
+- uid: CRMScript.NetServer.Registry.ClipMessagesLength
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ClipMessagesLength
+  syntax: 
+    content: Registry.ClipMessagesLength
+  summary: "Clip ticket messages at this length when showing them"
+  name: ClipMessagesLength
+  nameWithType: ClipMessagesLength
+  fullName: CRMScript.NetServer.Registry.ClipMessagesLength
+- uid: CRMScript.NetServer.Registry.StrictGDRPMode
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.StrictGDRPMode
+  syntax: 
+    content: Registry.StrictGDRPMode
+  summary: "Enable strict GDPR mode for mailings"
+  name: StrictGDRPMode
+  nameWithType: StrictGDRPMode
+  fullName: CRMScript.NetServer.Registry.StrictGDRPMode
+- uid: CRMScript.NetServer.Registry.ImportMailCreateUnknownPersons
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImportMailCreateUnknownPersons
+  syntax: 
+    content: Registry.ImportMailCreateUnknownPersons
+  summary: "ImportMail: create new persons for unknown email addresses"
+  name: ImportMailCreateUnknownPersons
+  nameWithType: ImportMailCreateUnknownPersons
+  fullName: CRMScript.NetServer.Registry.ImportMailCreateUnknownPersons
+- uid: CRMScript.NetServer.Registry.ChatCheckForIdleSessions
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ChatCheckForIdleSessions
+  syntax: 
+    content: Registry.ChatCheckForIdleSessions
+  summary: "Chat: check for idle sessions (no fetch from customer side)"
+  name: ChatCheckForIdleSessions
+  nameWithType: ChatCheckForIdleSessions
+  fullName: CRMScript.NetServer.Registry.ChatCheckForIdleSessions
+- uid: CRMScript.NetServer.Registry.ImportmailCheckInvalidUTF8
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ImportmailCheckInvalidUTF8
+  syntax: 
+    content: Registry.ImportmailCheckInvalidUTF8
+  summary: "ImportMail: check for invalid UTF-8 and fallback to ISO-8859-1"
+  name: ImportmailCheckInvalidUTF8
+  nameWithType: ImportmailCheckInvalidUTF8
+  fullName: CRMScript.NetServer.Registry.ImportmailCheckInvalidUTF8
+- uid: CRMScript.NetServer.Registry.RecipientControlAdvancedSearch
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.RecipientControlAdvancedSearch
+  syntax: 
+    content: Registry.RecipientControlAdvancedSearch
+  summary: "Recipient component searches each word and company name"
+  name: RecipientControlAdvancedSearch
+  nameWithType: RecipientControlAdvancedSearch
+  fullName: CRMScript.NetServer.Registry.RecipientControlAdvancedSearch
+- uid: CRMScript.NetServer.Registry.UseCookieInCustomerCenter
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.UseCookieInCustomerCenter
+  syntax: 
+    content: Registry.UseCookieInCustomerCenter
+  summary: "Use cookies for login in customer center"
+  name: UseCookieInCustomerCenter
+  nameWithType: UseCookieInCustomerCenter
+  fullName: CRMScript.NetServer.Registry.UseCookieInCustomerCenter
+- uid: CRMScript.NetServer.Registry.SandboxTicketMessages
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SandboxTicketMessages
+  syntax: 
+    content: Registry.SandboxTicketMessages
+  summary: "Use sandbox for viewing ticket messages"
+  name: SandboxTicketMessages
+  nameWithType: SandboxTicketMessages
+  fullName: CRMScript.NetServer.Registry.SandboxTicketMessages
+- uid: CRMScript.NetServer.Registry.MailingsUseEnvelopeFrom
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MailingsUseEnvelopeFrom
+  syntax: 
+    content: Registry.MailingsUseEnvelopeFrom
+  summary: "Use from address as envelope-from for mailings"
+  name: MailingsUseEnvelopeFrom
+  nameWithType: MailingsUseEnvelopeFrom
+  fullName: CRMScript.NetServer.Registry.MailingsUseEnvelopeFrom
+- uid: CRMScript.NetServer.Registry.MovedSystemScriptsToScreenChooser
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.MovedSystemScriptsToScreenChooser
+  syntax: 
+    content: Registry.MovedSystemScriptsToScreenChooser
+  summary: "Have we moved system scripts to screen choosers?"
+  name: MovedSystemScriptsToScreenChooser
+  nameWithType: MovedSystemScriptsToScreenChooser
+  fullName: CRMScript.NetServer.Registry.MovedSystemScriptsToScreenChooser
+- uid: CRMScript.NetServer.Registry.FastPersonRecipientSearch
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.FastPersonRecipientSearch
+  syntax: 
+    content: Registry.FastPersonRecipientSearch
+  summary: "Faster recipient/person search, no email search"
+  name: FastPersonRecipientSearch
+  nameWithType: FastPersonRecipientSearch
+  fullName: CRMScript.NetServer.Registry.FastPersonRecipientSearch
+- uid: CRMScript.NetServer.Registry.SanitizeMailingsHtml
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SanitizeMailingsHtml
+  syntax: 
+    content: Registry.SanitizeMailingsHtml
+  summary: "Sanitize html used in mailings"
+  name: SanitizeMailingsHtml
+  nameWithType: SanitizeMailingsHtml
+  fullName: CRMScript.NetServer.Registry.SanitizeMailingsHtml
+- uid: CRMScript.NetServer.Registry.KeepExistingCustomerCenterTemplatesOnDisk
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.KeepExistingCustomerCenterTemplatesOnDisk
+  syntax: 
+    content: Registry.KeepExistingCustomerCenterTemplatesOnDisk
+  summary: "Keep existing customer center templates on disk"
+  name: KeepExistingCustomerCenterTemplatesOnDisk
+  nameWithType: KeepExistingCustomerCenterTemplatesOnDisk
+  fullName: CRMScript.NetServer.Registry.KeepExistingCustomerCenterTemplatesOnDisk
+- uid: CRMScript.NetServer.Registry.SentimentCalculationTimeframe
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.SentimentCalculationTimeframe
+  syntax: 
+    content: Registry.SentimentCalculationTimeframe
+  summary: "Calculate sentiment for messages less than X minutes old"
+  name: SentimentCalculationTimeframe
+  nameWithType: SentimentCalculationTimeframe
+  fullName: CRMScript.NetServer.Registry.SentimentCalculationTimeframe
+- uid: CRMScript.NetServer.Registry.ComponentMaxWidth
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ComponentMaxWidth
+  syntax: 
+    content: Registry.ComponentMaxWidth
+  summary: "Maximum width of various UI components in forms"
+  name: ComponentMaxWidth
+  nameWithType: ComponentMaxWidth
+  fullName: CRMScript.NetServer.Registry.ComponentMaxWidth
+- uid: CRMScript.NetServer.Registry.ReplyToPrimaryEmail
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.ReplyToPrimaryEmail
+  syntax: 
+    content: Registry.ReplyToPrimaryEmail
+  summary: "Reply to customers primary email, not the one the ticket originated from"
+  name: ReplyToPrimaryEmail
+  nameWithType: ReplyToPrimaryEmail
+  fullName: CRMScript.NetServer.Registry.ReplyToPrimaryEmail
+- uid: CRMScript.NetServer.Registry.TicketLogSystem
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.TicketLogSystem
+  syntax: 
+    content: Registry.TicketLogSystem
+  summary: "Which ticket log system we are using"
+  name: TicketLogSystem
+  nameWithType: TicketLogSystem
+  fullName: CRMScript.NetServer.Registry.TicketLogSystem
+- uid: CRMScript.NetServer.Registry.AllowedMailingLinksDomains
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.AllowedMailingLinksDomains
+  syntax: 
+    content: Registry.AllowedMailingLinksDomains
+  summary: "Comma separated strings with domains that should be allowed when checking hash on mailing links"
+  name: AllowedMailingLinksDomains
+  nameWithType: AllowedMailingLinksDomains
+  fullName: CRMScript.NetServer.Registry.AllowedMailingLinksDomains
+- uid: CRMScript.NetServer.Registry.CCTAddMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTAddMessage
+  syntax: 
+    content: Registry.CCTAddMessage
+  summary: "Customer Center Template"
+  name: CCTAddMessage
+  nameWithType: CCTAddMessage
+  fullName: CRMScript.NetServer.Registry.CCTAddMessage
+- uid: CRMScript.NetServer.Registry.CCTCanceled
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTCanceled
+  syntax: 
+    content: Registry.CCTCanceled
+  summary: "Customer Center Template"
+  name: CCTCanceled
+  nameWithType: CCTCanceled
+  fullName: CRMScript.NetServer.Registry.CCTCanceled
+- uid: CRMScript.NetServer.Registry.CCTChangeCust
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTChangeCust
+  syntax: 
+    content: Registry.CCTChangeCust
+  summary: "Customer Center Template"
+  name: CCTChangeCust
+  nameWithType: CCTChangeCust
+  fullName: CRMScript.NetServer.Registry.CCTChangeCust
+- uid: CRMScript.NetServer.Registry.CCTConfirmCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTConfirmCustomer
+  syntax: 
+    content: Registry.CCTConfirmCustomer
+  summary: "Customer Center Template"
+  name: CCTConfirmCustomer
+  nameWithType: CCTConfirmCustomer
+  fullName: CRMScript.NetServer.Registry.CCTConfirmCustomer
+- uid: CRMScript.NetServer.Registry.CCTDoneConfirmCustomer
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTDoneConfirmCustomer
+  syntax: 
+    content: Registry.CCTDoneConfirmCustomer
+  summary: "Customer Center Template"
+  name: CCTDoneConfirmCustomer
+  nameWithType: CCTDoneConfirmCustomer
+  fullName: CRMScript.NetServer.Registry.CCTDoneConfirmCustomer
+- uid: CRMScript.NetServer.Registry.CCTDoneRegister
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTDoneRegister
+  syntax: 
+    content: Registry.CCTDoneRegister
+  summary: "Customer Center Template"
+  name: CCTDoneRegister
+  nameWithType: CCTDoneRegister
+  fullName: CRMScript.NetServer.Registry.CCTDoneRegister
+- uid: CRMScript.NetServer.Registry.CCTEMarketeerSimpleMessage
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTEMarketeerSimpleMessage
+  syntax: 
+    content: Registry.CCTEMarketeerSimpleMessage
+  summary: "Customer Center Template"
+  name: CCTEMarketeerSimpleMessage
+  nameWithType: CCTEMarketeerSimpleMessage
+  fullName: CRMScript.NetServer.Registry.CCTEMarketeerSimpleMessage
+- uid: CRMScript.NetServer.Registry.CCTFramework
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTFramework
+  syntax: 
+    content: Registry.CCTFramework
+  summary: "Customer Center Template"
+  name: CCTFramework
+  nameWithType: CCTFramework
+  fullName: CRMScript.NetServer.Registry.CCTFramework
+- uid: CRMScript.NetServer.Registry.CCTListTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTListTicket
+  syntax: 
+    content: Registry.CCTListTicket
+  summary: "Customer Center Template"
+  name: CCTListTicket
+  nameWithType: CCTListTicket
+  fullName: CRMScript.NetServer.Registry.CCTListTicket
+- uid: CRMScript.NetServer.Registry.CCTListTickets
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTListTickets
+  syntax: 
+    content: Registry.CCTListTickets
+  summary: "Customer Center Template"
+  name: CCTListTickets
+  nameWithType: CCTListTickets
+  fullName: CRMScript.NetServer.Registry.CCTListTickets
+- uid: CRMScript.NetServer.Registry.CCTLoggedIn
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTLoggedIn
+  syntax: 
+    content: Registry.CCTLoggedIn
+  summary: "Customer Center Template"
+  name: CCTLoggedIn
+  nameWithType: CCTLoggedIn
+  fullName: CRMScript.NetServer.Registry.CCTLoggedIn
+- uid: CRMScript.NetServer.Registry.CCTLoggedOut
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTLoggedOut
+  syntax: 
+    content: Registry.CCTLoggedOut
+  summary: "Customer Center Template"
+  name: CCTLoggedOut
+  nameWithType: CCTLoggedOut
+  fullName: CRMScript.NetServer.Registry.CCTLoggedOut
+- uid: CRMScript.NetServer.Registry.CCTLogin
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTLogin
+  syntax: 
+    content: Registry.CCTLogin
+  summary: "Customer Center Template"
+  name: CCTLogin
+  nameWithType: CCTLogin
+  fullName: CRMScript.NetServer.Registry.CCTLogin
+- uid: CRMScript.NetServer.Registry.CCTNewTicket
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTNewTicket
+  syntax: 
+    content: Registry.CCTNewTicket
+  summary: "Customer Center Template"
+  name: CCTNewTicket
+  nameWithType: CCTNewTicket
+  fullName: CRMScript.NetServer.Registry.CCTNewTicket
+- uid: CRMScript.NetServer.Registry.CCTNoAccess
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTNoAccess
+  syntax: 
+    content: Registry.CCTNoAccess
+  summary: "Customer Center Template"
+  name: CCTNoAccess
+  nameWithType: CCTNoAccess
+  fullName: CRMScript.NetServer.Registry.CCTNoAccess
+- uid: CRMScript.NetServer.Registry.CCTPasswordSent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTPasswordSent
+  syntax: 
+    content: Registry.CCTPasswordSent
+  summary: "Customer Center Template"
+  name: CCTPasswordSent
+  nameWithType: CCTPasswordSent
+  fullName: CRMScript.NetServer.Registry.CCTPasswordSent
+- uid: CRMScript.NetServer.Registry.CCTRegisterCust
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTRegisterCust
+  syntax: 
+    content: Registry.CCTRegisterCust
+  summary: "Customer Center Template"
+  name: CCTRegisterCust
+  nameWithType: CCTRegisterCust
+  fullName: CRMScript.NetServer.Registry.CCTRegisterCust
+- uid: CRMScript.NetServer.Registry.CCTSendPassword
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTSendPassword
+  syntax: 
+    content: Registry.CCTSendPassword
+  summary: "Customer Center Template"
+  name: CCTSendPassword
+  nameWithType: CCTSendPassword
+  fullName: CRMScript.NetServer.Registry.CCTSendPassword
+- uid: CRMScript.NetServer.Registry.CCTSubscription
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTSubscription
+  syntax: 
+    content: Registry.CCTSubscription
+  summary: "Customer Center Template"
+  name: CCTSubscription
+  nameWithType: CCTSubscription
+  fullName: CRMScript.NetServer.Registry.CCTSubscription
+- uid: CRMScript.NetServer.Registry.CCTTicketPosted
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTTicketPosted
+  syntax: 
+    content: Registry.CCTTicketPosted
+  summary: "Customer Center Template"
+  name: CCTTicketPosted
+  nameWithType: CCTTicketPosted
+  fullName: CRMScript.NetServer.Registry.CCTTicketPosted
+- uid: CRMScript.NetServer.Registry.CCTViewKBCategory
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTViewKBCategory
+  syntax: 
+    content: Registry.CCTViewKBCategory
+  summary: "Customer Center Template"
+  name: CCTViewKBCategory
+  nameWithType: CCTViewKBCategory
+  fullName: CRMScript.NetServer.Registry.CCTViewKBCategory
+- uid: CRMScript.NetServer.Registry.CCTViewKBEntry
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTViewKBEntry
+  syntax: 
+    content: Registry.CCTViewKBEntry
+  summary: "Customer Center Template"
+  name: CCTViewKBEntry
+  nameWithType: CCTViewKBEntry
+  fullName: CRMScript.NetServer.Registry.CCTViewKBEntry
+- uid: CRMScript.NetServer.Registry.CCTViewKBSearch
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTViewKBSearch
+  syntax: 
+    content: Registry.CCTViewKBSearch
+  summary: "Customer Center Template"
+  name: CCTViewKBSearch
+  nameWithType: CCTViewKBSearch
+  fullName: CRMScript.NetServer.Registry.CCTViewKBSearch
+- uid: CRMScript.NetServer.Registry.CCTWelcome
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTWelcome
+  syntax: 
+    content: Registry.CCTWelcome
+  summary: "Customer Center Template"
+  name: CCTWelcome
+  nameWithType: CCTWelcome
+  fullName: CRMScript.NetServer.Registry.CCTWelcome
+- uid: CRMScript.NetServer.Registry.CCTUpdateSubscriptions
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTUpdateSubscriptions
+  syntax: 
+    content: Registry.CCTUpdateSubscriptions
+  summary: ""
+  name: CCTUpdateSubscriptions
+  nameWithType: CCTUpdateSubscriptions
+  fullName: CRMScript.NetServer.Registry.CCTUpdateSubscriptions
+- uid: CRMScript.NetServer.Registry.CCTUpdateConsent
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: Registry.CCTUpdateConsent
+  syntax: 
+    content: Registry.CCTUpdateConsent
+  summary: ""
+  name: CCTUpdateConsent
+  nameWithType: CCTUpdateConsent
+  fullName: CRMScript.NetServer.Registry.CCTUpdateConsent
+references:
+- uid: CRMScript.NetServer.Registry
+  commentId: T:CRMScript.NetServer.Registry
+  isExternal: true
+  name: Registry
+  nameWithType: Registry
+  fullName: CRMScript.NetServer.Registry
