@@ -53,11 +53,19 @@ If you do not want users to have access to Settings and maintenance, assign user
 
 ## Manage your roles
 
-In the Roles section, you can determine what type of access your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the Data rights and/or the different Functional rights.
+In the Roles section, you can [determine what type of access][6] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the Data rights and/or the different Functional rights.
 
 ![The Roles section lets you determine what type of access your users have to the different parts of SuperOffice CRM -screenshot][img1]
 
 You can, for example, decide whether a person can delete, update, create, or read information on the Data rights tab. On the Functional rights tab you can allow different functional rights on the different roles, like Allow bulk update, or List administrator, by moving them to the right column for "This role can".
+
+| Role | Explanation | None | Read | Create | Update | Delete |
+|---|---|:-:|:-:|:-:|:-:|:-:|
+| None | No rights and cannot see | X |  |  |  |  |
+| Read | Can read |  | X |  |  |  |
+| Create | Can create |  | X | X |  |  |
+| Update | Can update |  | X | X | X |  |
+| Delete | Can delete |  | X | X | X | X |
 
 ## What would you like to do now?
 
@@ -66,6 +74,7 @@ You can, for example, decide whether a person can delete, update, create, or rea
 * [Set data rights for a role][3]
 * [Edit rights for anonymous users][4]
 * [Delete a role][5]
+* [Set data rights for a role - Technical docs][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
@@ -73,6 +82,7 @@ You can, for example, decide whether a person can delete, update, create, or rea
 [3]: set-data-rights-for-role.md
 [4]: edit-rights-for-anonymous-users.md
 [5]: deleting-role.md
+[6]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
 [img1]: media/manage-user-levels.png

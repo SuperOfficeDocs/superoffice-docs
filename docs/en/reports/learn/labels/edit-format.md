@@ -12,10 +12,10 @@ language: en
 # Edit label formats
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
-2. [Select the required report][1].
-3. Click the **Preview** button under the criteria list.
-4. In the label dialog, select the label format you want to edit and click **Edit**.
-5. [Make the required changes][2] in the next dialog and click **Save**.
+1. [Select the required report][1].
+1. Click the **Preview** button under the criteria list.
+1. In the label dialog, select the label format you want to edit and click **Edit**.
+1. [Make the required changes][2] in the next dialog and click **Save**.
 
 <!-- Referenced links -->
 [1]: ../properties.md

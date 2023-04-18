@@ -9,7 +9,7 @@ so.topic: reference
 language: en
 ---
 
-# The Main screen
+# The layout elements on the Main screen
 
 The user interface has five main elements:
 

@@ -9,7 +9,7 @@ items:
   items:
   - name: Create new contact
     href: create.md
-  - name: Edit a contact
+  - name: Edit contact
     href: edit.md
   - name: Move a contact
     href: move.md

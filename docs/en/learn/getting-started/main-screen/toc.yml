@@ -7,3 +7,5 @@ items:
   href: buttons-in-menu-bar.md
 - name: Side panels
   href: side-panel.md
+- name: Use in-app help
+  href: main-screen/in-app-help.md

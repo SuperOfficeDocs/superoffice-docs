@@ -13,6 +13,9 @@ language: en
 
 Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalize and automate the input of customer data (or data from contact, sale and other) into your content and set up complex quotes
 
+> [!TIP]
+> See all the different [template variables][2] you have for the **company card**.
+
 ## Examples
 
 Here we show you some examples of how to use template variables. Many of the examples use the default templates in SuperOffice.
@@ -147,5 +150,6 @@ The reference is grouped by area. [Go to reference][1]
 
 <!-- Referenced links -->
 [1]: ../templates/variables/index.md
+[2]: ../templates/variables/from-company-card.md
 
 <!-- Referenced images -->

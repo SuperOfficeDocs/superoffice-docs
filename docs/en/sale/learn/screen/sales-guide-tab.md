@@ -34,6 +34,20 @@ After a follow-up or document is created, you can subsequently delete or edit it
 
 ![Create follow-up -screenshot][img5]
 
+## Show all follow-ups and documents
+
+By default, the activities for the current sales stage are shown in the lower half, but you can choose to show all activities and documents for all stages by checking **Show all stages** at the bottom right of the section tab. You can also show the follow-ups and documents for one of the stages by clicking the button with the name of the stage.
+
+You can go to the next stage by selecting it in the **Stage** list on the main card.
+
+A sales guide where only follow-ups and documents for the current stage are displayed:
+
+![Sales guide with follow-ups and documents only for the current stage -screenshot][img6]
+
+A sales guide where all follow-ups and documents for all stages are displayed:
+
+![Sales guide with all follow-ups and documents for all stages -screenshot][img7]
+
 ## What would you like to do now?
 
 * [Work with sales guides][1]
@@ -47,3 +61,5 @@ After a follow-up or document is created, you can subsequently delete or edit it
 [img3]: media/future-sale-stage.bmp
 [img4]: media/create-button.bmp
 [img5]: media/right-click.bmp
+[img6]: media/activities-current-stage.bmp
+[img7]: media/activities-all-stages.bmp

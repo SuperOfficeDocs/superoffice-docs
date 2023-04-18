@@ -9,19 +9,31 @@ so.topic: concept
 language: en
 ---
 
-# Contacts
+# Contact
 
 A Contact card stores valuable information on all your communication and interaction with a person, as well as their GDPR consent documentation. Everything you want to find out about a contact is available from a single screen.
 
+![Contact screen -screenshot][img3]
+
 [!include[Intro](includes/contacts-screen-intro.md)]
 
-The bottom of the Contact screen contains [default section tabs][1]:
+In the **Contact** screen, every record in the database is displayed like an index card, containing all information for that contact.
+
+To move between contacts, click the previous/next buttons - ![icon][img2] ![icon][img1] - at the bottom right of the cards.
+
+You can [search][11] for specific contacts based on criteria that you specify. You can also write documents, generate follow-ups and create new contacts.
+
+## Section tabs on Contact
+
+The bottom of the **Contact** screen contains five default [section tabs][1]:
 
 * Activities
 * Sales
 * Requests
 * Projects
 * Relations
+
+Everything you want to find out about a contact is available from a single screen.
 
 ## What would you like to do?
 
@@ -46,5 +58,9 @@ The bottom of the Contact screen contains [default section tabs][1]:
 [8]: ../../search-options/selection/learn/howto/bulk-update.md
 [9]: ../../search-options/selection/learn/howto/mass-delete.md
 [10]: ../../learn/basics/deleting-elements.md#restore
+[11]: ../../search-options/learn/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
+[img3]: ../media/edit-person.png

@@ -13,15 +13,15 @@ language: en
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
-2. Click one of the tabs to display the reports you want.
+1. Click one of the tabs to display the reports you want.
 
-    * [Favorite reports][5]
+    * [Favourite reports][5]
     * [Standard reports][1]
 
     > [!TIP]
-    > You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** next to the **Reports** button in the Navigator and then selecting from the list.
+    > You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** ![icon][img1] next to the **Reports** button in the navigator and then selecting from the list.
 
-3. Select the required report from the report list in the upper left of the window. Note that:
+1. Select the required report from the report list in the upper left of the window. Note that:
 
     * The field on the right of the report list displays a description of the selected report.
     * The field at the bottom displays a list of the criteria that the report uses. These are described under [Search criteria for reports][2]. (See also [Criteria list][3].)
@@ -35,3 +35,4 @@ language: en
 [5]: favorites/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../../common/icons/nav-dropdown-report.png

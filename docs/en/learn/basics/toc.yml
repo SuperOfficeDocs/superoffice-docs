@@ -7,8 +7,6 @@ items:
     href: notes.md
   - name: Duplicate checks
     href: duplicates.md
-  - name: Visibility
-    href: ../../admin/user-management/learn/visibility.md
   - name: Delete and restore
     href: deleting-elements.md
   - name: Bulk update

@@ -7,7 +7,9 @@ items:
   href: sales-guide/index.md
 - name: Section tabs on sale
   href: screen/toc.yml
+  topicHref: screen/index.md
 - name: Work with sale
+  href: create.md
   items:
   - name: Create sale
     href: create.md
@@ -25,5 +27,7 @@ items:
     href: forecasting.md
 - name: Quote
   href: ../../quote/learn/toc.yml
+  topicHref: ../../quote/learn/index.md
 - name: Sales targets
   href: sales-targets/toc.yml
+  topicHref: sales-targets/index.md

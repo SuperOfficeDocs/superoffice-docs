@@ -20,36 +20,36 @@ Cross tables can be displayed and printed in various ways. You can select which 
 
 To view a cross table report (.Dcube file), you must install the **CrossTable viewer** (once per computer).
 
-1. Click ![icon][img1] (main menu) and select **Download > Download CrossTable viewer**.
-2. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.
-3. If a security warning is displayed, confirm that you want to run the file.
-4. Follow the instructions in the wizard to install the program.
+1. Click ![icon][img1] **Main menu** and select **Download > Download CrossTable viewer**.
+1. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.
+1. If a security warning is displayed, confirm that you want to run the file.
+1. Follow the instructions in the wizard to install the program.
 
 ## View a cross table
 
 1. [!include[How to-goto-reports](includes/goto-reports.md)]
 
-2. [Select the required cross table report][1].
+1. [Select the required cross table report][1].
 
-3. Click the **Preview** button under the criteria list. The cross table report is generated.
+1. Click the **Preview** button under the criteria list. The cross table report is generated.
 
-4. Click the report file (.Dcube) which is displayed in your browser. The file is opened in SuperOffice's cross table viewer application. The cross table report is shown as it will appear when filled with data from the SuperOffice database.
+1. Click the report file (.Dcube) which is displayed in your browser. The file is opened in SuperOffice's cross table viewer application. The cross table report is shown as it will appear when filled with data from the SuperOffice database.
 
     > [!NOTE]
     > If you cannot see the cross table report in your browser (.Dcube), you must [install the CrossTable viewer](#install).
 
-5. Edit the contents of the cross table by using the buttons (see below).
+1. Edit the contents of the cross table by using the buttons (see below).
 
     > [!NOTE]
     > Fields, rows and columns which you choose to hide in the step described above will not be included in the print-out.
 
-6. After editing the contents of the cross table, you can do one of the following:
+1. After editing the contents of the cross table, you can do one of the following:
 
     * Select **File** > **Print Preview** to preview the report.
     * Select **File** > **Print** to print the report.
     * Click **Export** to save the report in Excel format.
 
-7. Click **OK** to close the cross table viewer.
+1. Click **OK** to close the cross table viewer.
 
 ## <a id="print" />Print cross tables
 
@@ -76,7 +76,7 @@ Saving reports as files works slightly differently for cross table reports than 
 [1]: properties.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
+[img1]: ../../../media/icons/main-menu.png
 [img2]: ../../../media/icons/reports/list-box.bmp
 [img3]: ../../../media/icons/reports/black-x-2.bmp
 [img4]: ../../../media/icons/reports/plus.bmp

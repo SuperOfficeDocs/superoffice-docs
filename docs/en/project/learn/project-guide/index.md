@@ -13,17 +13,16 @@ language: en
 
 Using the project guide, the company can simplify and structure project execution for its project managers. The project guide guides you through the different statuses of a predefined project process and contains suggestions for which follow-ups should be performed and which documents created within each status. It can also suggest the next step in the project and display the project's milestones.
 
-By creating a project guide, you can plan all the stages of your project ahead of time to make sure your project is a success.
+![Project guide section tab with overview of Planned status -screenshot][img1]
 
-By default, there are several project guides available that you can use as an inspiration. Or you can edit them to fit your needs.
+By creating a project guide, you can plan all the stages of your project ahead of time to make sure your project is a success. By default, there are several project guides available that you can use as an inspiration. Or you can edit them to fit your needs.
 
-Each status of the project guide comes with specific activities like follow-ups and documents. This way, you will always know what activity or milestone is next.
-
-You can build your own process depending on the different types of projects your company engages in. The best way to define your own project guides is to first discuss and agree on the best practices for all your projects.
+Each **status** of the project guide comes with specific activities like follow-ups and documents. This way, you will always know what activity or milestone is next. You can build your own process depending on the different types of projects your company engages in. The best way to define your own project guides is to first discuss and agree on the best practices for all your projects.
 
 The project guide is defined in Settings and maintenance.
 
-You can preview documents and activities in the **Preview** view in the side panel.
+> [!TIP]
+> You can preview documents and activities in the **Preview** view in the side panel.
 
 ## Related topics
 
@@ -43,3 +42,4 @@ You can preview documents and activities in the **Preview** view in the side pan
 [6]: deactivate.md
 
 <!-- Referenced images -->
+[img1]: ../screen/media/project-guide-create.bmp

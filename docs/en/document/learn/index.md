@@ -76,6 +76,7 @@ To ensure that you can communicate with your clients in their own language (wher
 * [Delete documents][6]
 * [Check in/out documents][7]
 * [Save email attachment][8]
+* [Install WebTools][10]
 
 <!-- Referenced links -->
 [1]: open.md
@@ -87,6 +88,7 @@ To ensure that you can communicate with your clients in their own language (wher
 [7]: lock.md
 [8]: ../../email/mail-link/learn/archive.md
 [9]: ../../learn/getting-started/connect-email-documents-diary.md
+[10]: web-tools.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

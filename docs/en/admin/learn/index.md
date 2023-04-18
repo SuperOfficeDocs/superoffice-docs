@@ -65,12 +65,12 @@ The best way to define your own project or sales guides is to discuss and agree 
 > [!NOTE]
 > To change the language in Mobile CRM, click the **Task** button in the bottom-left corner. Then select **Settings**, click **Language** and select from the options.
 
-## Related
+## Related topics
 
-* Manage lists
-* Manage document templates
-* GDPR privacy settings
-* System preferences and video meetings
+* [Manage lists][6]
+* [Manage document templates][7]
+* [GDPR privacy settings][8]
+* [System preferences and video meetings][9]
 * [Import companies, contacts and products][3]
 
 <!-- Referenced links -->
@@ -79,6 +79,10 @@ The best way to define your own project or sales guides is to discuss and agree 
 [3]: ../import/learn/index.md
 [4]: ../../sale/learn/sales-guide/index.md
 [5]: ../../project/learn/index.md
+[6]: ../lists/learn/index.md
+[7]: ../lists/learn/document-template.md
+[8]: ../../security/privacy/learn/implementation-guide.md
+[9]: ../preferences/learn/index.md
 
 <!-- Referenced images -->
 [img1]: media/project-guide.png

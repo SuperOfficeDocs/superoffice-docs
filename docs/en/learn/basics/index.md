@@ -10,16 +10,33 @@ so.version: 10
 so.lang: en
 ---
 
-# Basic tasks to get started with
+# Learn the basics of SuperOffice CRM
 
-## Tooltips
+There are some functionalities that is basic knowledge and that would help to know more about to be more efficient in your work with SuperOffice.
+
+Like functionality that helps you with:
+
+* [How do you work with section tabs and archives][18]
+* [How do you work with activities like follow-ups, documents and emails][12]
+* [How to set up your account with the right language][13]
+
+And other functionality that gives you an overview of:
+
+* [Favourites][14]
+* [Delete any element in the application][15]
+* [How to handle duplicates][16]
+* [How to use the bulk update functionality][17]
+
+## Basic tasks to get started with
+
+### Tooltips
 
 In many places in SuperOffice CRM, a tooltip is used to show more information about an item. Tooltips are especially useful with lists to see more than the main information displayed for individual records, or, with narrow columns, to display more than the truncated information. The tooltip is displayed when you hold the mouse pointer over an item.
 
 > [!NOTE]
 > If you are unable to access a function, a text is displayed explaining why you cannot see the information in question.
 
-## Refresh data
+### Refresh data
 
 Each time you start SuperOffice CRM, the program is completely updated with all the changes other people have made in the main database and changes that have been made in Settings and maintenance.
 
@@ -28,14 +45,14 @@ You can also refresh the data while you are using SuperOffice CRM. You do this b
 > [!NOTE]
 > Some changes in Settings and maintenance require a restart of the SuperOffice CRM client for the changes to take effect.
 
-## Manage companies and contacts
+### Manage companies and contacts
 
 The Company and Contact screens hold all information related to your customers and give instant insight into the communication, projects, and purchases they have with you.
 
 > [!TIP]
 > Did you know that you can see all your companies or contacts in one place? Click the Selections icon in the navigator panel and select **Company: All** or **All Contacts** from the list.
 
-### Tasks
+#### Tasks
 
 * [Add a company][2]
 * [Add contacts][3]
@@ -44,7 +61,7 @@ The Company and Contact screens hold all information related to your customers a
 * [Bulk update company and contact information][5]
 * [Create selections for further action][6]
 
-## Diary and appointments
+### Diary and appointments
 
 The SuperOffice Diary is the heart of your CRM system. Regular use of the diary helps you to automatically connect and share appointments and activities linked to a contact or a company, allowing you and your team to effortlessly stay on track and work productively. These how-to guides will help you learn how to work with the diary.
 
@@ -52,22 +69,22 @@ The SuperOffice Diary is the heart of your CRM system. Regular use of the diary 
 
 Apart from the regular calendar functionality, SuperOffice Diary also gives you the possibility to connect and organize activities into projects and sales. This helps you and your team to enjoy a complete overview of all activities and communication connected to any project or sale.
 
-### Tasks
+#### Tasks
 
 * [Create appointments][8]
 * [Invite a contact to an appointment][10]
 * [Video meeting][11]
 
-## Manage your documents
+### Manage your documents
 
 Storing all documents in one place helps you and your team to access up-to-date information and stay in control of customer relations.
 
-### Tasks
+#### Tasks
 
 * Create or upload a document
 * Save email attachments in SuperOffice CRM
 
-## Use projects to organize files and activities
+### Use projects to organize files and activities
 
 SuperOffice Project helps you keep your work organized and documented in one place, so that you and your team can enjoy better control and improve collaboration.
 
@@ -83,7 +100,7 @@ SuperOffice Project also comes with a project guide that can be customized to ma
 
 Your administrator can [add and customize project guides][1] for you.
 
-### Tasks
+#### Tasks
 
 * [Create a project][7]
 
@@ -98,6 +115,13 @@ Your administrator can [add and customize project guides][1] for you.
 [8]: ../../diary/learn/create-appointment.md
 [10]: ../../diary/learn/invitation/add-participant.md
 [11]: ../../video-meeting/index.md
+[12]: ../activity/index.md
+[13]: ../../globalization-and-localization/learn/change-language.md
+[14]: fav.md
+[15]: deleting-elements.md
+[16]: duplicates.md
+[17]: bulk-update.md
+[18]: section-tabs.md
 
 <!-- Referenced images -->
 [img1]: media/diary.png

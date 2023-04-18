@@ -9,13 +9,21 @@ so.topic: concept
 language: en
 ---
 
-# Companies
+# Company
 
 All information related to a company – be it your customer, partner or supplier – is stored on the Company card/screen. This card provides you with an instant snapshot of the company in one screen.
 
 ![Company screen -screenshot][img3]
 
 [!include[Intro](includes/company-screen-intro.md)]
+
+In the **Company** screen, every record in the database is displayed like an index card, containing all information for that company.
+
+To move between companies, click the previous/next buttons (![icon][img2] ![icon][img1]) at the bottom right of the cards.
+
+You can search for specific companies based on criteria that you specify. You can also write documents, generate follow-ups and create new companies and contacts.
+
+## Section tabs on Company
 
 > [!NOTE]
 > [Contacts][1] that are not associated with a company, can be found in the Contact screen.
@@ -55,5 +63,6 @@ The bottom of the screen contains the following [default section tabs][8]:
 [11]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
-
+[img1]: ../../../media/icons/arrow-right.png
+[img2]: ../../../media/icons/arrow-left.png
 [img3]: media/company-month-mini.bmp

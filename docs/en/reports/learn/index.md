@@ -18,10 +18,10 @@ The **Reports** screen is a report generator supplied with a set of standard rep
 
 ## Where are my reports?
 
-Open the **Reports** screen by clicking the **Reports** button ![icon][img7] in the Navigator.
+Open the **Reports** screen by clicking the ![icon][img7] **Reports** button in the Navigator.
 
 > [!TIP]
-> You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** next to the **Reports** button and then selecting from the list.
+> You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** ![icon][img8] next to the **Reports** button and then selecting from the list.
 
 ## <a id="types" />Report types
 
@@ -67,3 +67,4 @@ Open the **Reports** screen by clicking the **Reports** button ![icon][img7] in 
 [img5]: ../../../media/icons/reports/cross-table.bmp
 [img6]: ../../../media/icons/reports/text-export.bmp
 [img7]: ../../../../common/icons/nav-reports.png
+[img8]: ../../../../common/icons/nav-dropdown-report.png

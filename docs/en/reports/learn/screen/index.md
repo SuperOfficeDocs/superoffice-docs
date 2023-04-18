@@ -14,7 +14,7 @@ language: en
 The **Reports** screen consists of the following tabs. **Favorites**, **Company/contact**, **Project**, **Sale**, **Activity** and **Selection**.
 
 > [!TIP]
-> You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** next to the **Reports** button in the Navigator and then selecting from the list.
+> You can go directly to a specific tab in the **Reports** screen by clicking the word **Reports** ![icon][img1] next to the **Reports** button in the navigator and then selecting from the list.
 
 Each tab consists of the following:
 
@@ -22,7 +22,7 @@ Each tab consists of the following:
 
 * A report description to make it easy to find out information about the selected report. If the report is on your favorites list, you can amend this description.
 
-* A thumbnail of the report. [The thumbnail][1] is located on the right side of the **Reports** screen and indicates the selected report type: label, list, group list, cross table, calendar or text export.
+* A thumbnail of the report. [The thumbnail][5] is located on the right side of the **Reports** screen and indicates the selected report type: label, list, group list, cross table, calendar or text export.
 
 * A [criteria list](#criteria) where you can add, edit and delete criteria and display the criterion/criteria specified for the report.
 
@@ -58,12 +58,13 @@ The report archive (the **Documents** section tab) appears at the bottom of the 
 * [Learn more about activities][4]
 
 <!-- Referenced links -->
-[1]: ../standard-reports.md#type
 [2]: ../properties.md
 [3]: ../search-criteria/index.md
-[7]: ../filter.md
-[6]: ../open-from-archive.md
-[8]: ../delete-from-archive.md
 [4]: ../../../learn/activity/index.md
+[5]: ../index.md
+[6]: ../open-from-archive.md
+[7]: ../filter.md
+[8]: ../delete-from-archive.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-dropdown-report.png

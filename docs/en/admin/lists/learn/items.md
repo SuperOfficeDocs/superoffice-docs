@@ -10,7 +10,7 @@ so.user: admin
 language: en
 ---
 
-# Items
+# Work with list items
 
 In contrast to lists themselves, the items contained in both predefined and user-defined lists can be added to, amended or deleted.
 

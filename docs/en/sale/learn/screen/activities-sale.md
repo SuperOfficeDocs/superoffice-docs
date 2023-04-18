@@ -31,20 +31,6 @@ The following columns are displayed on the **Activities** section tab:
 
 [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
-## Show all follow-ups and documents
-
-By default, the activities for the current sales stage are shown in the lower half, but you can choose to show all activities and documents for all stages by checking **Show all stages** at the lower right of the section tab. You can also show the follow-ups and documents for one of the stages by clicking the button with the name of the stage.
-
-You can go to the next stage by selecting it in the **Stage** list on the main card.
-
-A sales guide where only follow-ups and documents for the current stage are displayed:
-
-![Sales guide with follow-ups and documents only for the current stage -screenshot][img3]
-
-A sales guide where all follow-ups and documents for all stages are displayed:
-
-![Sales guide with all follow-ups and documents for all stages -screenshot][img4]
-
 ## What would you like to do now?
 
 * [Choose how many and which columns to display][2]
@@ -67,5 +53,3 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.bmp
 [img2]: ../../../../media/icons/sale-sold-details.bmp
-[img3]: media/activities-current-stage.bmp
-[img4]: media/activities-all-stages.bmp

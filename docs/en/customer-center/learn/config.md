@@ -26,7 +26,7 @@ If your customer centre is multi-lingual, you can set options (such as welcome t
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Select **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to a preview of the Customer Centre page.
+1. Select ![icon][img1] **Customer centre** > **Configure**. There are 2 tabs on the **Customer centre** screen: **Styling** and **Options**. At the top of this page is a link to a preview of the Customer Centre page.
 
 1. In the **Styling** tab, you can edit various settings for the look and feel of the customer centre: Logo, preferred width, colors, and fonts. The preview is updated automatically.
 
@@ -66,5 +66,6 @@ If your customer centre is multi-lingual, you can set options (such as welcome t
 [1]: edit.md
 
 <!-- Referenced images -->
+[img1]: ../../../../common/icons/nav-admin-custcenter-active.png
 [img2]: media/customer-centre-chat-with-agents.jpg
 [img3]: media/config-cust-centre.png
