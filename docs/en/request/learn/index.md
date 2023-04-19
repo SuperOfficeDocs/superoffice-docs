@@ -19,13 +19,16 @@ Our ticketing system allows you to efficiently handle incoming requests and help
 
 Each question and query can be defined as a request. These questions range from support issues, questions about the product and services, or questions about invoices. Whenever a request comes in, you want to handle them as quickly and efficiently as possible and professional customer service.
 
-Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52):
+![Request with Unassigned request list with preview -screenshot][img1]
+
+<!--Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52): -->
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
+<!-- > [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
 
 ## <a id="open" />Where can I access requests?
 
+* Archives in all main cards, like Company, Sale, Project
 * [Pre-defined lists][11]
 * [Search][12]
 * [Favourites][8]
@@ -76,6 +79,7 @@ There are three types of messages:
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 
 <!-- Referenced images -->
+[img1]: media/request-list-preview.png
 [img2]: ../../../../common/icons/nav-cs.png
 [img5]: ../../../../common/icons/addcomment.png
 [img3]: ../../../../common/icons/favourite-no.png
