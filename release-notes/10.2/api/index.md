@@ -40,7 +40,7 @@ so.topic: reference
 ## New web service methods
 
 | Agent Name       | Method Name                 | Version | REST Agent      | SOAP Agent      |
-|------------------|-----------------------------|+-------+|-----------------|-----------------|
+|------------------|-----------------------------|:-------:|-----------------|-----------------|
 |IAppointmentAgent | CleanUpBookingDeletedWithUpdateMode   |10.2.3   | [REST Link][44]  | [SOAP Link][45] |
 |IAppointmentAgent | SetSeenMany                 |10.2.2   | [REST Link][44]  | [SOAP Link][45] |
 |IArchiveAgent     | GetRelatedData              |10.2.1   | [REST Link][8]  | [SOAP Link][26] |
