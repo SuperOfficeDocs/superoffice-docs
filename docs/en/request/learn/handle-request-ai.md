@@ -40,7 +40,16 @@ If this function is active, incoming email requests are analysed to determine th
 
 Save time by letting the system categorise requests for you. If this function is active, incoming email requests are analysed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
 
+## Related topics
+
+* [How to use AI services][1]
+* [Text analysis of requests][2]
+* [Categorisation of requests][3]
+
 <!-- Referenced links -->
+[1]: ../../ai/learn/index.md
+[2]: ../../ai/learn/text-analysis.md
+[3]: ../../ai/learn/categorization.md
 
 <!-- Referenced images -->
 [img2]: ../../../../common/icons/sentiment-negative.png
