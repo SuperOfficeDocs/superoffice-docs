@@ -2,8 +2,8 @@
 uid: help-en-role
 title: Role
 description: Role
-author: Bergfrid Dias
-so.date: 03.15.2023
+author: Kirsti Aakerholt
+so.date: 04.19.2023
 keywords: role, data object, user level
 so.topic: concept
 so.topic: admin
@@ -18,7 +18,7 @@ Using role-based security in SuperOffice CRM, you can customize roles for differ
 
 A role describes two things:
 
-* Which **data objects** (companies, contacts, projects, project members, selections, sales, follow-ups, documents, relations, stakeholders, and dashboards) are to be made accessible for the users who have this role.
+* Which **data objects** (company, contact, project, project members, selection, sale, stakeholder, follow-up, document, relation, dashboards and target) are to be made accessible for the users who have this role.
 
     Accessibility is specified using rights: none, read, create, update and delete.
 
