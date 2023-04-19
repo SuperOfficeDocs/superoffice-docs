@@ -88,7 +88,7 @@ To ensure that you can communicate with your clients in their own language (wher
 [7]: lock.md
 [8]: ../../email/mail-link/learn/archive.md
 [9]: ../../learn/getting-started/connect-email-documents-diary.md
-[10]: web-tools.md
+[10]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/document-h32.png

@@ -121,7 +121,7 @@ Your administrator can [add and customize project guides][1] for you.
 [15]: deleting-elements.md
 [16]: duplicates.md
 [17]: bulk-update.md
-[18]: section-tabs.md
+[18]: ../section-tabs/index.md
 
 <!-- Referenced images -->
 [img1]: media/diary.png

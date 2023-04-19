@@ -39,7 +39,7 @@ In this section, you can configure the settings for Service to tailor it to your
 [6]: ../../request/learn/status/index.md
 [7]: ../../email/service/learn/index.md
 [8]: ../../request/learn/screen/system-templates.md
-[9]: system.md
+[9]: ../../admin/preferences/learn/global-preferences/system.md
 [10]: ../../admin/options/learn/custlang/index.md
 [11]: ../../customer-center/learn/index.md
 [13]: ../../chat/learn/admin/index.md

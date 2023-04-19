@@ -36,6 +36,6 @@
 <!-- Referenced links -->
 [5]: ../../../learn/basics/duplicates.md
 [2]: ../project-guide/index.md
-[4]: ../screen/index.md#event-tab
+[4]: ../index.md#event-tab
 
 <!-- Referenced images -->
