@@ -39,7 +39,7 @@ Three of the user-defined fields from the **More** tab can also be displayed in 
 
 ## The Note tab
 
-[!include[About the Note tab](../../../learn/includes/about-note-tab.md)]
+[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
 
 ## <a id="event-tab" />The Event tab
 
