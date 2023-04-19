@@ -64,7 +64,7 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 * [Create a new dashboard][1]
 * [Add tile / edit layout in dashboard][7]
 * [Create a request][4]
-* [Process requests][6]
+* [Request management][6]
 * [Find requests][5]
 
 <!-- Referenced links -->
@@ -72,7 +72,7 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 [2]: ../../request/learn/howto/accept.md
 [4]: ../../request/learn/howto/create.md
 [5]: ../../request/learn/find.md
-[6]: ../../request/learn/howto/index.md
+[6]: ../../request/learn/index.md#request-management
 [7]: add-tile.md
 
 <!-- Referenced images -->

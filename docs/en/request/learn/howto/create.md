@@ -132,7 +132,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 [4]: ../tags.md
 [5]: edit-message.md
 [7]: ../../reply-templates/learn/new-language.md
-[8]: index.md
+[8]: ../index.md
 [9]: ../../reply-templates/learn/index.md
 
 <!-- Referenced images -->

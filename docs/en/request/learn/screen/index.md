@@ -15,6 +15,8 @@ language: en
 
 ![Overview of the requests screen or the request tab -screenshot][img3]
 
+## Request overview
+
 The Request screen has the following sections:
 
 * At the top of the screen, the **request header** contains basic information about the request, like id, title, contact and deadline.
@@ -23,6 +25,51 @@ The Request screen has the following sections:
 * The **Messages** tab displays the messages related to the request.
 * The **Details** tab contains an overview of the data registered for the request.
 * The **Change log** tab contains the history of this request. The request log shows everything that has happened to this request since it was first registered.
+
+### Request header
+
+The header of the request contains the properties defined when the [request was created][12]. The header consists of the request title, contact, deadline and request ID (in the tab). In addition, you can click ![icon][img6] to set the request as a ![icon][img4] favourite. The request will then be accessible via **My favourites** on **Requests** in the Navigator, and in the **My favourites** tile on a [dashboard][17].
+
+### Message types
+
+There are three types of messages:
+
+* **Enquiries** from contacts or other external parties
+* **Replies** to these enquiries, possibly asking for more details
+* Internal comments about the request, such as questions to a colleague
+
+> [!TIP]
+> Internal messages are marked with ![icon][img5].
+
+## Messages tab
+
+The **Messages** tab displays the messages related to the request.
+
+You can change how many messages are displayed, in ![icon][img2] **Personal settings**:
+
+1. Select ![icon][img2] **Personal settings** > **Preferences**.
+1. Select the group for **Request**.
+1. Specify the number of messages in the **No. of expanded messages** field.
+1. Click **OK**.
+
+### Message tasks
+
+Click the ![icon][img1] **Task** button on a message to access additional options for the message:
+
+* **Change**: Click here to [edit][8] or delete the message.
+* **Reply**: Click here to reply the contact in the To field.
+* **Reply all**: Click here to replay all contacts in the To, Cc and Bcc fields.
+* **Forward**: Click here to [forward the message][9].
+* **Email header**: Click here to view the email header.
+* **Show**: Click here to view the message in a new window/tab.
+* **Split message**: Click here to [split the message][11] and create a new request. Useful if a message contains two issues that should be handled by different departments, for instance a technical question and an invoice question.
+* **Print message**: Click here to print the message.
+
+At the top of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.
+
+## Details tab
+
+The **Details** tab contains an overview of all the fields for the request.
 
 ## Properties and tasks for requests
 
@@ -58,36 +105,6 @@ The request properties sidebar contains the following options:
 * **Print**: Click here to print the request.
 * **Delete**: Click here to delete the request.
 
-## Messages tab
-
-The **Messages** tab displays the messages related to the request.
-
-You can change how many messages are displayed, in ![icon][img2] **Personal settings**:
-
-1. Select ![icon][img2] **Personal settings** > **Preferences**.
-1. Select the group for **Request**.
-1. Specify the number of messages in the **No. of expanded messages** field.
-1. Click **OK**.
-
-### Message tasks
-
-Click the ![icon][img1] **Task** button on a message to access additional options for the message:
-
-* **Change**: Click here to [edit][8] or delete the message.
-* **Reply**: Click here to reply the contact in the To field.
-* **Reply all**: Click here to replay all contacts in the To, Cc and Bcc fields.
-* **Forward**: Click here to [forward the message][9].
-* **Email header**: Click here to view the email header.
-* **Show**: Click here to view the message in a new window/tab.
-* **Split message**: Click here to [split the message][11] and create a new request. Useful if a message contains two issues that should be handled by different departments, for instance a technical question and an invoice question.
-* **Print message**: Click here to print the message.
-
-At the top of the **Messages** tab, you can send replies and forward messages, and you can also add comments as internal messages.
-
-## Details tab
-
-The **Details** tab contains an overview of all the fields for the request.
-
 ## Related topics
 
 * [Create request][12]
@@ -119,8 +136,12 @@ The **Details** tab contains an overview of all the fields for the request.
 [14]: ../howto/reply.md
 [15]: ../howto/fav.md
 [16]: ../howto/close.md
+[17]: ../../../dashboard/learn/show-requests.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/icons/personal-settings-small.png
 [img3]: ../media/request-screen.png
+[img4]: ../../../../../common/icons/favourite-yes.png
+[img5]: ../../../../../common/icons/addcomment.png
+[img6]: ../../../../../common/icons/favourite-no.png

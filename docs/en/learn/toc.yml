@@ -234,7 +234,7 @@ items:
       topicHref: ../admin/learn/system-events.md
       items:
       - name: Overview
-        href: ../admin/learn/system-event.md
+        href: ../admin/learn/system-events.md
       - name: Add system event
         href: ../admin/learn/add-system-event.md
 
