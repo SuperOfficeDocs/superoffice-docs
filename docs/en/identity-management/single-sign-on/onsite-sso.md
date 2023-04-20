@@ -2,9 +2,9 @@
 title: Single sign-on
 uid: configure_sso_in_iis_onsite
 description: Configure single sign-on in IIS onsite
-author: {github-id}
-so.date: 12.08.2021
-keywords: authentication, SSO, single sign-on, IIS, Windows Authentication
+author: Martin Pavlas
+so.date: 04.20.2023
+keywords: authentication, SSO, single sign-on, log in, IIS, Windows Authentication
 so.topic: howto
 so.envir: onsite
 so.client: web
@@ -29,11 +29,12 @@ You will need to add the site to trusted sites in IE if you are using IE and if 
 
 Testing SSO on the same server as SuperOffice usually fails. Accessing the site from the internet will prompt the user for credentials since the KDC is unavailable.
 
-SSO will not work when using [the recommended installation scenario][4] but the user may still authenticate with their AD username and password. 
-> [!NOTE]
-> There was a change in SuperOffice 10.1.5 which prevented loging to SuperOffice with AD credentials without SSO. This was corrected in SuperOffice 10.1.6.
+SSO will not work when using [the recommended installation scenario][4], but the user may still authenticate with their AD username and password.
 
-Also, note that using Remote web services for Web (where Web and NetServer are on different servers) is not supported due to [Kerberos double-hop issues][3].
+> [!NOTE]
+> A change in SuperOffice version 10.1.5 prevented logging in to SuperOffice with AD credentials without SSO. This was corrected in version 10.1.6.
+>
+> Using Remote web services for Web (where Web and NetServer are on different servers) is not supported due to [Kerberos double-hop issues][3].
 
 ## Single sign-on with Windows authentication
 
