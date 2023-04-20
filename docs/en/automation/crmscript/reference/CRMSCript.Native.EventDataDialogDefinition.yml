@@ -603,7 +603,7 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1);</code></pre>\n"
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose associate&quot;, &quot;associate&quot;, 1);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   id: 'addList(String,String,String,Integer,String,Bool)'
