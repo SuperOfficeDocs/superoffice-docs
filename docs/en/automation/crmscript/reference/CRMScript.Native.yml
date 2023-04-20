@@ -19,6 +19,7 @@ items:
   - CRMScript.Native.Email
   - CRMScript.Native.EventData
   - CRMScript.Native.EventDataDialogDefinition
+  - CRMScript.Native.EventDataDialogField
   - CRMScript.Native.ExtraFieldsInfo
   - CRMScript.Native.ExtraTable
   - CRMScript.Native.ExtraTableInfo
@@ -147,6 +148,12 @@ references:
   name: EventData
   nameWithType: EventData
   fullName: CRMScript.Native.EventData
+- uid: CRMScript.Native.EventDataDialogField
+  commentId: T:CRMScript.Native.EventDataDialogField
+  isExternal: true
+  name: EventDataDialogField
+  nameWithType: EventDataDialogField
+  fullName: CRMScript.Native.EventDataDialogField
 - uid: CRMScript.Native.EventDataDialogDefinition
   commentId: T:CRMScript.Native.EventDataDialogDefinition
   isExternal: true

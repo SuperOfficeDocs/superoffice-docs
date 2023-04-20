@@ -314,7 +314,7 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>EventDataDialogDefinition def;\nDateTime now;\ndef.addDateTime(&quot;datetime&quot;, &quot;My datetime&quot;,now, &quot;Input datetime&quot;, true);</code></pre>\n"
-- uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
+- uid: CRMScript.Native.EventDataDialogDefinition.addField(EventDataDialogField)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addField(EventDataDialogField)
   id: 'addField(EventDataDialogField)'
   so.intellisense: EventDataDialogDefinition.addField
@@ -567,7 +567,7 @@ items:
       description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: "Listname."
+      description: "List name."
     return:
       type: CRMScript.Global.Void
   example: 
@@ -596,7 +596,7 @@ items:
       description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: "Listname."
+      description: "List name."
     - id: defaultValue
       type: CRMScript.Global.Integer
       description: "Default value for field."
@@ -628,7 +628,7 @@ items:
       description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: "Listname."
+      description: "List name."
     - id: defaultValue
       type: CRMScript.Global.Integer
       description: "Default value for field."
@@ -641,7 +641,7 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false);</code></pre>\n"
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose associate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
   id: 'addList(String,String,String[],String,String,Bool)'
@@ -704,7 +704,7 @@ items:
       description: "Field label."
     - id: listName
       type: CRMScript.Global.String
-      description: "Listname."
+      description: "List name."
     - id: defaultValue
       type: CRMScript.Global.Integer
       description: "Default value for field."
@@ -723,7 +723,7 @@ items:
     return:
       type: CRMScript.Global.Void
   example: 
-  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose assosciate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false, &quot;&quot;, false);</code></pre>\n"
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addList(&quot;listAssociate&quot;, &quot;Choose associate&quot;, &quot;associate&quot;, 1, &quot;Select from list&quot;, false, &quot;&quot;, false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   id: 'addText(String,String)'
@@ -970,7 +970,7 @@ items:
   nameWithType: EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool)
   fullName: CRMScript.Native.EventDataDialogDefinition.addTimeSpan(String,String,Integer,String,Bool)
   type: Method
-  summary: "\nAdds a TimeSpane field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
+  summary: "\nAdds a TimeSpan field with given label, default value, placeholder text. Possible to set field as mandatory.\n"
   remarks: 
   syntax: 
     content: Void addTimeSpan(String id, String label, Integer default, String placeholder, Bool mandatory)
