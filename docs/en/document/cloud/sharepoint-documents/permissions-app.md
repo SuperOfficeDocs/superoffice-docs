@@ -3,7 +3,7 @@ title: Permissions of SuperOffice integration app
 uid: permissions-app
 description: Permissions of SuperOffice integration app
 author: Martin Pavlas
-so.date: 09.12.2022
+so.date: 04.20.2023
 keywords: permission, integration, app
 so.topic: reference
 so.envir: cloud
@@ -30,8 +30,8 @@ Used once for adding the app. Those permissions will not be persistent / saved.
 
 | App | User | Scope | Usage |
 |---|---|---|-------|
-| SuperOffice | CRM Admin | User.Read |  Sign in and read user profile​. To sign in a global administrator user. ​ |
-| SuperOffice Documents | CRM Admin | Sites.FullControl.All | Have full control of all site collections. To add the SuperOffice Document library app in SharePoint. ​ |
+| SuperOffice | CRM Admin | User.Read |  Sign in and read user profile​. To sign in a global administrator user. ​|
+| SuperOffice Documents | CRM Admin | Sites.FullControl.All | When giving permission (level Site.Selected) for this app, we must use a user token with scope Site.FullControl. Once the app is approved with given scopes for delegated permission, we get a token of user with `Site.FullControl` and set the permission to the selected site. This is a one-time token, and it won't be saved in the ZFP database. ​|
 
 ### Application permission
 
