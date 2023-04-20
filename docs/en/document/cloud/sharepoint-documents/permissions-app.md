@@ -31,7 +31,7 @@ Used once for adding the app. Those permissions will not be persistent / saved.
 | App | User | Scope | Usage |
 |---|---|---|-------|
 | SuperOffice | CRM Admin | User.Read |  Sign in and read user profile​. To sign in a global administrator user. ​ |
-| SuperOffice Documents | CRM Admin | Sites.FullControl.All | Have full control of all site collections. To add the SuperOffice Document library app in SharePoint. ​ |
+| SuperOffice Documents | CRM Admin | Sites.FullControl.All | When giving permission for SuperOffice documents app the permission level Site.Selected we need to use a user token with Site.FullControl scope. For this once the app is approved with given scopes for delegated permission we will get a token of user with Site.FullControl and will set the permission to the selected site. But this will be an one time token. The token won't be saved in the ZFP database. ​ |
 
 ### Application permission
 
