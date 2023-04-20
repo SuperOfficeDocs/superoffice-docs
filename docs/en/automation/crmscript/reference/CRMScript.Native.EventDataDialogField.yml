@@ -1,0 +1,987 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.Native.EventDataDialogField
+  commentId: T:CRMScript.Native.EventDataDialogField
+  id: EventDataDialogField
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  children:
+  - CRMScript.Native.EventDataDialogField.#ctor
+  - CRMScript.Native.EventDataDialogField.addListItem(String)
+  - CRMScript.Native.EventDataDialogField.getAdditionalInfo()
+  - CRMScript.Native.EventDataDialogField.getAllowBlank()
+  - CRMScript.Native.EventDataDialogField.getAllowRootSelection()
+  - CRMScript.Native.EventDataDialogField.getDays()
+  - CRMScript.Native.EventDataDialogField.getDefault()
+  - CRMScript.Native.EventDataDialogField.getDefaultFloat()
+  - CRMScript.Native.EventDataDialogField.getForceFlatList()
+  - CRMScript.Native.EventDataDialogField.getId()
+  - CRMScript.Native.EventDataDialogField.getHideEmptyRootsInSearch()
+  - CRMScript.Native.EventDataDialogField.getHours()
+  - CRMScript.Native.EventDataDialogField.getLabel()
+  - CRMScript.Native.EventDataDialogField.getListName()
+  - CRMScript.Native.EventDataDialogField.getMandatory()
+  - CRMScript.Native.EventDataDialogField.getMinutes()
+  - CRMScript.Native.EventDataDialogField.getPlaceholder()
+  - CRMScript.Native.EventDataDialogField.getSeconds()
+  - CRMScript.Native.EventDataDialogField.getShowAllChildrenInSearch()
+  - CRMScript.Native.EventDataDialogField.getShowFullPath()
+  - CRMScript.Native.EventDataDialogField.getType()
+  - CRMScript.Native.EventDataDialogField.setAdditionalInfo(String)
+  - CRMScript.Native.EventDataDialogField.setAllowBlank(Bool)
+  - CRMScript.Native.EventDataDialogField.setAllowRootSelection(Bool)
+  - CRMScript.Native.EventDataDialogField.setDays(Bool)
+  - CRMScript.Native.EventDataDialogField.setDefault(String)
+  - CRMScript.Native.EventDataDialogField.setDefaultFloat(Float)
+  - CRMScript.Native.EventDataDialogField.setForceFlatList(Bool)
+  - CRMScript.Native.EventDataDialogField.setHideEmptyRootsInSearch(Bool)
+  - CRMScript.Native.EventDataDialogField.setHours(Bool)
+  - CRMScript.Native.EventDataDialogField.setId(String)
+  - CRMScript.Native.EventDataDialogField.setLabel(String)
+  - CRMScript.Native.EventDataDialogField.setListName(String)
+  - CRMScript.Native.EventDataDialogField.setMandatory(Bool)
+  - CRMScript.Native.EventDataDialogField.setMinutes(Bool)
+  - CRMScript.Native.EventDataDialogField.setPlaceholder(String)
+  - CRMScript.Native.EventDataDialogField.setSeconds(Bool)
+  - CRMScript.Native.EventDataDialogField.setShowAllChildrenInSearch(Bool)
+  - CRMScript.Native.EventDataDialogField.setShowFullPath(Bool)
+  - CRMScript.Native.EventDataDialogField.setType(String)
+  name: EventDataDialogField
+  nameWithType: EventDataDialogField
+  fullName: CRMScript.Native.EventDataDialogField
+  type: Class
+  summary: "\nUtility class to generate a field for dialog to use in CRMScript triggers.\n"
+  example: 
+- uid: CRMScript.Native.EventDataDialogField.#ctor
+  commentId: M:CRMScript.Native.EventDataDialogField.#ctor
+  id: '#ctor'
+  so.intellisense: Void.EventDataDialogField
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: EventDataDialogField()
+  nameWithType: EventDataDialogField.#ctor
+  fullName: CRMScript.Native.EventDataDialogField.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the EventDataDialogField class.\n"
+  remarks: 
+  syntax: 
+    content: EventDataDialogField
+  example: 
+- uid: CRMScript.Native.EventDataDialogField.addListItem(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.addListItem(String)
+  id: 'addListItem(String)'
+  so.intellisense: EventDataDialogField.addListItem
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: addListItem(String)
+  nameWithType: EventDataDialogField.addListItem(String)
+  fullName: CRMScript.Native.EventDataDialogField.addListItem(String)
+  type: Method
+  summary: "\nAdds individual items to list.\n"
+  remarks: 
+  syntax: 
+    content: Void addListItem(String item)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Value for list item."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setId(&quot;myList&quot;);\nfield.setType(&quot;list&quot;);\nfield.addListItem(&quot;Value 1&quot;);\nfield.addListItem(&quot;Value 2&quot;);\ndialog.addField(field);</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getAdditionalInfo()
+  commentId: M:CRMScript.Native.EventDataDialogField.getAdditionalInfo()
+  id: 'getAdditionalInfo()'
+  so.intellisense: EventDataDialogField.getAdditionalInfo
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getAdditionalInfo()
+  nameWithType: EventDataDialogField.getAdditionalInfo()
+  fullName: CRMScript.Native.EventDataDialogField.getAdditionalInfo()
+  type: Method
+  summary: "\nReturns additional info for the named list.\n"
+  remarks:
+  syntax: 
+    content: String getAdditionalInfo()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setAddtionalInfo(&quot;hierarchy=true&shortNames=true&onlyOwnCategories=true&excludeHistory=true&shortTooltip=true&quot;);\nprint(field.getAdditionalInfo());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getAllowBlank()
+  commentId: M:CRMScript.Native.EventDataDialogField.getAllowBlank()
+  id: 'getAllowBlank()'
+  so.intellisense: EventDataDialogField.getAllowBlank
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getAllowBlank()
+  nameWithType: EventDataDialogField.getAllowBlank()
+  fullName: CRMScript.Native.EventDataDialogField.getAllowBlank()
+  type: Method
+  summary: "\nReturns true if field is allowed to be empty instead of 0.\n"
+  remarks:
+  syntax: 
+    content: Bool getAllowBlank()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setAllowBlank(false);\nprint(field.getAllowBlank().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getAllowRootSelection()
+  commentId: M:CRMScript.Native.EventDataDialogField.getAllowRootSelection()
+  id: 'getAllowRootSelection()'
+  so.intellisense: EventDataDialogField.getAllowRootSelection
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getAllowRootSelection()
+  nameWithType: EventDataDialogField.getAllowRootSelection()
+  fullName: CRMScript.Native.EventDataDialogField.getAllowRootSelection()
+  type: Method
+  summary: "\nReturns true if root selection is allowed.\n"
+  remarks:
+  syntax: 
+    content: Bool getAllowRootSelection()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setAllowRootSelection(false);\nprint(field.getAllowRootSelection().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getDays()
+  commentId: M:CRMScript.Native.EventDataDialogField.getDays()
+  id: 'getDays()'
+  so.intellisense: EventDataDialogField.getDays
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getDays()
+  nameWithType: EventDataDialogField.getDays()
+  fullName: CRMScript.Native.EventDataDialogField.getDays()
+  type: Method
+  summary: "\nReturns true if days is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Bool getDays()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setDays(false);\nprint(field.getDays().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getDefault()
+  commentId: M:CRMScript.Native.EventDataDialogField.getDefault()
+  id: 'getDefault()'
+  so.intellisense: EventDataDialogField.getDefault
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getDefault()
+  nameWithType: EventDataDialogField.getDefault()
+  fullName: CRMScript.Native.EventDataDialogField.getDefault()
+  type: Method
+  summary: "\nReturns default value set.\n"
+  remarks:
+  syntax: 
+    content: String getDefault()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setDefault(&quot;1&quot;);\nprint(field.getDefault());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getDefaultFloat()
+  commentId: M:CRMScript.Native.EventDataDialogField.getDefaultFloat()
+  id: 'getDefaultFloat()'
+  so.intellisense: EventDataDialogField.getDefaultFloat
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getDefaultFloat()
+  nameWithType: EventDataDialogField.getDefaultFloat()
+  fullName: CRMScript.Native.EventDataDialogField.getDefaultFloat()
+  type: Method
+  summary: "\nReturns default float value set. Only use for float field type.\n"
+  remarks: 
+  syntax: 
+    content: Float getDefaultFloat()
+    parameters: []
+    return:
+      type: CRMScript.Global.Float
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setDefaultFloat(3.14);\nprint(field.getDefaultFloat().toString(2));</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getForceFlatList()
+  commentId: M:CRMScript.Native.EventDataDialogField.getForceFlatList()
+  id: 'getForceFlatList()'
+  so.intellisense: EventDataDialogField.getForceFlatList
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getForceFlatList()
+  nameWithType: EventDataDialogField.getForceFlatList()
+  fullName: CRMScript.Native.EventDataDialogField.getForceFlatList()
+  type: Method
+  summary: "\nForce flat list if using list name.\n"
+  remarks:
+  syntax: 
+    content: Bool getForceFlatList()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setForceFlatList(false);\nprint(field.getForceFlatList().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getId()
+  commentId: M:CRMScript.Native.EventDataDialogField.getId()
+  id: 'getId()'
+  so.intellisense: EventDataDialogField.getId
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getId()
+  nameWithType: EventDataDialogField.getId()
+  fullName: CRMScript.Native.EventDataDialogField.getId()
+  type: Method
+  summary: "\nReturns identifier for field.\n"
+  remarks:
+  syntax: 
+    content: String getId()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setId(&quot;assoc&quot;);\nprint(field.getId());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getHideEmptyRootsInSearch()
+  commentId: M:CRMScript.Native.EventDataDialogField.getHideEmptyRootsInSearch()
+  id: 'getHideEmptyRootsInSearch()'
+  so.intellisense: EventDataDialogField.getHideEmptyRootsInSearch
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getHideEmptyRootsInSearch()
+  nameWithType: EventDataDialogField.getHideEmptyRootsInSearch()
+  fullName: CRMScript.Native.EventDataDialogField.getHideEmptyRootsInSearch()
+  type: Method
+  summary: "\nIf true, hide empty roots in search. Default is false. Only applies when showFullPath is true and field type is list.\n"
+  remarks:
+  syntax: 
+    content: Bool getHideEmptyRootsInSearch()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setHideEmptyRootsInSearch(true);\nprint(field.getHideEmptyRootsInSearch().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getHours()
+  commentId: M:CRMScript.Native.EventDataDialogField.getHours()
+  id: 'getHours()'
+  so.intellisense: EventDataDialogField.getHours
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getHours()
+  nameWithType: EventDataDialogField.getHours()
+  fullName: CRMScript.Native.EventDataDialogField.getHours()
+  type: Method
+  summary: "\nReturns true if hours is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Bool getHours()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setHours(false);\nprint(field.getHours().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getLabel()
+  commentId: M:CRMScript.Native.EventDataDialogField.getLabel()
+  id: 'getLabel()'
+  so.intellisense: EventDataDialogField.getLabel
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getLabel()
+  nameWithType: EventDataDialogField.getLabel()
+  fullName: CRMScript.Native.EventDataDialogField.getLabel()
+  type: Method
+  summary: "\nReturns label for field.\n"
+  remarks:
+  syntax: 
+    content: String getLabel()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setLabel(&quot;My label&quot;);\nprint(field.getLabel());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getListName()
+  commentId: M:CRMScript.Native.EventDataDialogField.getListName()
+  id: 'getListName()'
+  so.intellisense: EventDataDialogField.getListName
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getListName()
+  nameWithType: EventDataDialogField.getListName()
+  fullName: CRMScript.Native.EventDataDialogField.getListName()
+  type: Method
+  summary: "\nReturns listname for field.\n"
+  remarks:
+  syntax: 
+    content: String getListName()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nprint(field.getListName());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getMandatory()
+  commentId: M:CRMScript.Native.EventDataDialogField.getMandatory()
+  id: 'getMandatory()'
+  so.intellisense: EventDataDialogField.getMandatory
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getMandatory()
+  nameWithType: EventDataDialogField.getMandatory()
+  fullName: CRMScript.Native.EventDataDialogField.getMandatory()
+  type: Method
+  summary: "\nIf true, field has to have a valid value.\n"
+  remarks:
+  syntax: 
+    content: Bool getMandatory()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setMandatory(true);\nprint(field.getMandatory().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getMinutes()
+  commentId: M:CRMScript.Native.EventDataDialogField.getMinutes()
+  id: 'getMinutes()'
+  so.intellisense: EventDataDialogField.getMinutes
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getMinutes()
+  nameWithType: EventDataDialogField.getMinutes()
+  fullName: CRMScript.Native.EventDataDialogField.getMinutes()
+  type: Method
+  summary: "\nReturns true if minutes is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Bool getMinutes()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setMinutes(false);\nprint(field.getMinutes().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getPlaceholder()
+  commentId: M:CRMScript.Native.EventDataDialogField.getPlaceholder()
+  id: 'getPlaceholder()'
+  so.intellisense: EventDataDialogField.getPlaceholder
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getPlaceholder()
+  nameWithType: EventDataDialogField.getPlaceholder()
+  fullName: CRMScript.Native.EventDataDialogField.getPlaceholder()
+  type: Method
+  summary: "\nReturns placeholder text for field.\n"
+  remarks:
+  syntax: 
+    content: String getPlaceholder()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setPlaceholder(&quot;Select associate&quot;);\nprint(field.getPlaceholder());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getSeconds()
+  commentId: M:CRMScript.Native.EventDataDialogField.getSeconds()
+  id: 'getSeconds()'
+  so.intellisense: EventDataDialogField.getSeconds
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getSeconds()
+  nameWithType: EventDataDialogField.getSeconds()
+  fullName: CRMScript.Native.EventDataDialogField.getSeconds()
+  type: Method
+  summary: "\nReturns true if seconds is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Bool getSeconds()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setSeconds(false);\nprint(field.getSeconds().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getShowAllChildrenInSearch()
+  commentId: M:CRMScript.Native.EventDataDialogField.getShowAllChildrenInSearch()
+  id: 'getShowAllChildrenInSearch()'
+  so.intellisense: EventDataDialogField.getShowAllChildrenInSearch
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getShowAllChildrenInSearch()
+  nameWithType: EventDataDialogField.getShowAllChildrenInSearch()
+  fullName: CRMScript.Native.EventDataDialogField.getShowAllChildrenInSearch()
+  type: Method
+  summary: "\nShow all children when searching. Default is false. Only applies if showFullPath is true and field type is list.\n"
+  remarks:
+  syntax: 
+    content: Bool getShowAllChildrenInSearch()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;ejcategory&quot;);\nfield.setShowAllChildrenInSearch(true);\nprint(field.getShowAllChildrenInSearch().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getShowFullPath()
+  commentId: M:CRMScript.Native.EventDataDialogField.getShowFullPath()
+  id: 'getShowFullPath()'
+  so.intellisense: EventDataDialogField.getShowFullPath
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getShowFullPath()
+  nameWithType: EventDataDialogField.getShowFullPath()
+  fullName: CRMScript.Native.EventDataDialogField.getShowFullPath()
+  type: Method
+  summary: "\nIf true, list is preloaded so that the full path is shown.\n"
+  remarks:
+  syntax: 
+    content: Bool getShowFullPath()
+    parameters: []
+    return:
+      type: CRMScript.Global.Bool
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;ejcategory&quot;);\nfield.setShowFullPath(true);\nprint(field.getShowFullPath().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.getType()
+  commentId: M:CRMScript.Native.EventDataDialogField.getType()
+  id: 'getType()'
+  so.intellisense: EventDataDialogField.getType
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: getType()
+  nameWithType: EventDataDialogField.getType()
+  fullName: CRMScript.Native.EventDataDialogField.getType()
+  type: Method
+  summary: "\nReturns what type of field.\n"
+  remarks: "\nSupports:<ul><li>label</li><li>text</li><li>integer</li><li>decimal</li><li>checkbox</li><li>date</li><li>datetime</li><li>time</li><li>timeSpan</li><li>list</li></ul>\n"
+  syntax: 
+    content: String getType()
+    parameters: []
+    return:
+      type: CRMScript.Global.String
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nprint(field.getType());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setAdditionalInfo(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.setAdditionalInfo(String)
+  id: 'setAdditionalInfo(String)'
+  so.intellisense: EventDataDialogField.setAdditionalInfo
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setAdditionalInfo(String)
+  nameWithType: EventDataDialogField.setAdditionalInfo(String)
+  fullName: CRMScript.Native.EventDataDialogField.setAdditionalInfo(String)
+  type: Method
+  summary: "\nSets additional info for the named list.\n"
+  remarks:
+  syntax: 
+    content: Void setAdditionalInfo(String info)
+    parameters:
+    - id: info
+      type: CRMScript.Global.String
+      description: "Additional info."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setAddtionalInfo(&quot;hierarchy=true&shortNames=true&onlyOwnCategories=true&excludeHistory=true&shortTooltip=true&quot;);\nprint(field.getAdditionalInfo());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setAllowBlank(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setAllowBlank(Bool)
+  id: 'setAllowBlank(Bool)'
+  so.intellisense: EventDataDialogField.setAllowBlank
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setAllowBlank(Bool)
+  nameWithType: EventDataDialogField.setAllowBlank(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setAllowBlank(Bool)
+  type: Method
+  summary: "\nSet to true if field is allowed to be empty instead of 0.\n"
+  remarks:
+  syntax: 
+    content: Void setAllowBlank(Bool allowBlank)
+    parameters:
+    - id: allowBlank
+      type: CRMScript.Global.Bool
+      description: "Allowing field to be empty instead of 0 if true."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setAllowBlank(false);\nprint(field.getAllowBlank().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setAllowRootSelection(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setAllowRootSelection(Bool)
+  id: 'setAllowRootSelection(Bool)'
+  so.intellisense: EventDataDialogField.setAllowRootSelection
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setAllowRootSelection(Bool)
+  nameWithType: EventDataDialogField.setAllowRootSelection(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setAllowRootSelection(Bool)
+  type: Method
+  summary: "\nSet to true if root selection is allowed.\n"
+  remarks:
+  syntax: 
+    content: Void setAllowRootSelection(Bool allowRoot)
+    parameters:
+    - id: allowRoot
+      type: CRMScript.Global.Bool
+      description: "Allowing root selection if true."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setAllowRootSelection(false);\nprint(field.getAllowRootSelection().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setDays(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setDays(Bool)
+  id: 'setDays(Bool)'
+  so.intellisense: EventDataDialogField.setDays
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setDays(Bool)
+  nameWithType: EventDataDialogField.setDays(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setDays(Bool)
+  type: Method
+  summary: "\nSet to true if days is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Void setDays(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "Enabling days if true."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setDays(false);\nprint(field.getDays().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setDefault(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.setDefault(String)
+  id: 'setDefault(String)'
+  so.intellisense: EventDataDialogField.setDefault
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setDefault(String)
+  nameWithType: EventDataDialogField.setDefault(String)
+  fullName: CRMScript.Native.EventDataDialogField.setDefault(String)
+  type: Method
+  summary: "\nSets default value for field.\n"
+  remarks: "\nCan be used to set Integer, Date, DateTime, Time and String default value formatted as a String. For Float please use setDefaultFloat(Float).\n"
+  syntax: 
+    content: Void setDefault(String default)
+    parameters:
+    - id: default
+      type: CRMScript.Global.String
+      description: "Default value for field."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setDefault(&quot;1&quot;);\nprint(field.getDefault());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setDefaultFloat(Float)
+  commentId: M:CRMScript.Native.EventDataDialogField.setDefaultFloat(Float)
+  id: 'setDefaultFloat(Float)'
+  so.intellisense: EventDataDialogField.setDefaultFloat
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setDefaultFloat(Float)
+  nameWithType: EventDataDialogField.setDefaultFloat(Float)
+  fullName: CRMScript.Native.EventDataDialogField.setDefaultFloat(Float)
+  type: Method
+  summary: "\nSets default float value. Only use for float field type.\n"
+  remarks: 
+  syntax: 
+    content: Void setDefaultFloat(Float default)
+    parameters:
+    - id: default
+      type: CRMScript.Global.Float
+      description: "Default value for field."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListListName(&quot;ejcategory&quot;);\nfield.setDefaultFloat(3.14);\nprint(field.getDefaultFloat().toString(2));</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setForceFlatList(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setForceFlatList(Bool)
+  id: 'setForceFlatList(Bool)'
+  so.intellisense: EventDataDialogField.setForceFlatList
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setForceFlatList(Bool)
+  nameWithType: EventDataDialogField.setForceFlatList(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setForceFlatList(Bool)
+  type: Method
+  summary: "\nForce flat list if using list name.\n"
+  remarks:
+  syntax: 
+    content: Void setForceFlatList(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "Force flat list if true."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setForceFlatList(false);\nprint(field.getForceFlatList().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setLabel(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.setLabel(String)
+  id: 'setLabel(String)'
+  so.intellisense: EventDataDialogField.setLabel
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setLabel(String)
+  nameWithType: EventDataDialogField.setLabel(String)
+  fullName: CRMScript.Native.EventDataDialogField.setLabel(String)
+  type: Method
+  summary: "\nSets label for field.\n"
+  remarks:
+  syntax: 
+    content: Void setLabel(String label)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.String
+      description: "Label for field."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setLabel(&quot;My label&quot;);\nprint(field.getLabel());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setListName(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.setListName(String)
+  id: 'setListName(String)'
+  so.intellisense: EventDataDialogField.setListName
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setListName(String)
+  nameWithType: EventDataDialogField.setListName(String)
+  fullName: CRMScript.Native.EventDataDialogField.setListName(String)
+  type: Method
+  summary: "\nSet listname for field.\n"
+  remarks:
+  syntax: 
+    content: Void setListName(String listName)
+    parameters:
+    - id: listName
+      type: CRMScript.Global.String
+      description: "Listname for field."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nprint(field.getListName());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setId(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.setId(String)
+  id: 'setId(String)'
+  so.intellisense: EventDataDialogField.setId
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setId(String)
+  nameWithType: EventDataDialogField.setId(String)
+  fullName: CRMScript.Native.EventDataDialogField.setId(String)
+  type: Method
+  summary: "\nSet identifier for field.\n"
+  remarks:
+  syntax: 
+    content: Void setId(String identifier)
+    parameters:
+    - id: identifier
+      type: CRMScript.Global.String
+      description: "Identifier for field."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setId(&quot;assoc&quot;);\nprint(field.getId());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setHideEmptyRootsInSearch(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setHideEmptyRootsInSearch(Bool)
+  id: 'setHideEmptyRootsInSearch(Bool)'
+  so.intellisense: EventDataDialogField.setHideEmptyRootsInSearch
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setHideEmptyRootsInSearch(Bool)
+  nameWithType: EventDataDialogField.setHideEmptyRootsInSearch(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setHideEmptyRootsInSearch(Bool)
+  type: Method
+  summary: "\nIf true, hide empty roots in search. Default is false. Only applies when showFullPath is true and field type is list.\n"
+  remarks:
+  syntax: 
+    content: Void setHideEmptyRootsInSearch(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "If true, hide empty roots in search."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setHideEmptyRootsInSearch(true);\nprint(field.getHideEmptyRootsInSearch().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setHours(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setHours(Bool)
+  id: 'setHours(Bool)'
+  so.intellisense: EventDataDialogField.setHours
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setHours(Bool)
+  nameWithType: EventDataDialogField.setHours(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setHours(Bool)
+  type: Method
+  summary: "\nReturns true if hours is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Void setHours(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "If true, hours are enabled."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setHours(false);\nprint(field.getHours().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setMandatory(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setMandatory(Bool)
+  id: 'setMandatory(Bool)'
+  so.intellisense: EventDataDialogField.setMandatory
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setMandatory(Bool)
+  nameWithType: EventDataDialogField.setMandatory(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setMandatory(Bool)
+  type: Method
+  summary: "\nIf true, field has to have a valid value.\n"
+  remarks:
+  syntax: 
+    content: Void setMandatory(Bool mandatory)
+    parameters:
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "If true, field is mandatory."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setMandatory(true);\nprint(field.getMandatory().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setMinutes(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setMinutes(Bool)
+  id: 'setMinutes(Bool)'
+  so.intellisense: EventDataDialogField.setMinutes
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setMinutes(Bool)
+  nameWithType: EventDataDialogField.setMinutes(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setMinutes(Bool)
+  type: Method
+  summary: "\nReturns true if minutes is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Void setMinutes(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "If true, minutes are enabled."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setMinutes(false);\nprint(field.getMinutes().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setPlaceholder(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.setPlaceholder(String)
+  id: 'setPlaceholder(String)'
+  so.intellisense: EventDataDialogField.setPlaceholder
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setPlaceholder(String)
+  nameWithType: EventDataDialogField.setPlaceholder(String)
+  fullName: CRMScript.Native.EventDataDialogField.setPlaceholder(String)
+  type: Method
+  summary: "\nSets placeholder text for field.\n"
+  remarks:
+  syntax: 
+    content: Void setPlaceholder(String placeholder)
+    parameters:
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text for field."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nfield.setPlaceholder(&quot;Select associate&quot;);\nprint(field.getPlaceholder());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setSeconds(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setSeconds(Bool)
+  id: 'setSeconds(Bool)'
+  so.intellisense: EventDataDialogField.setSeconds
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setSeconds(Bool)
+  nameWithType: EventDataDialogField.setSeconds(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setSeconds(Bool)
+  type: Method
+  summary: "\nReturns true if seconds is enabled, used with timespan field type.\n"
+  remarks:
+  syntax: 
+    content: Void setSeconds(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "If true, seconds are enabled."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;timespan&quot;);\nfield.setSeconds(false);\nprint(field.getSeconds().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setShowAllChildrenInSearch(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setShowAllChildrenInSearch(Bool)
+  id: 'setShowAllChildrenInSearch(Bool)'
+  so.intellisense: EventDataDialogField.setShowAllChildrenInSearch
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setShowAllChildrenInSearch(Bool)
+  nameWithType: EventDataDialogField.setShowAllChildrenInSearch(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setShowAllChildrenInSearch(Bool)
+  type: Method
+  summary: "\nShow all children when searching. Default is false. Only applies if showFullPath is true and field type is list.\n"
+  remarks:
+  syntax: 
+    content: Void setShowAllChildrenInSearch(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "If true, shows all children when searching."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;ejcategory&quot;);\nfield.setShowAllChildrenInSearch(true);\nprint(field.getShowAllChildrenInSearch().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setShowFullPath(Bool)
+  commentId: M:CRMScript.Native.EventDataDialogField.setShowFullPath(Bool)
+  id: 'setShowFullPath(Bool)'
+  so.intellisense: EventDataDialogField.setShowFullPath
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setShowFullPath(Bool)
+  nameWithType: EventDataDialogField.setShowFullPath(Bool)
+  fullName: CRMScript.Native.EventDataDialogField.setShowFullPath(Bool)
+  type: Method
+  summary: "\nIf true, list is preloaded so that the full path is shown.\n"
+  remarks:
+  syntax: 
+    content: Void setShowFullPath(Bool enable)
+    parameters:
+    - id: enable
+      type: CRMScript.Global.Bool
+      description: "If true, list is preloaded and shows full path."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;ejcategory&quot;);\nfield.setShowFullPath(true);\nprint(field.getShowFullPath().toString());</pre></code>\n"
+- uid: CRMScript.Native.EventDataDialogField.setType(String)
+  commentId: M:CRMScript.Native.EventDataDialogField.setType(String)
+  id: 'setType(String)'
+  so.intellisense: EventDataDialogField.setType
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: setType(String)
+  nameWithType: EventDataDialogField.setType(String)
+  fullName: CRMScript.Native.EventDataDialogField.setType(String)
+  type: Method
+  summary: "\nSets what type of field.\n"
+  remarks: "\nSupports:<ul><li>label</li><li>text</li><li>integer</li><li>decimal</li><li>checkbox</li><li>date</li><li>datetime</li><li>time</li><li>timeSpan</li><li>list</li></ul>\n"
+  syntax: 
+    content: Void setType(String type)
+    parameters:
+    - id: type
+      type: CRMScript.Global.String
+      description: "Type of field."
+    return:
+      type: CRMScript.Global.Void
+      description:
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition dialog;\nEventDataDialogField field;\nfield.setType(&quot;list&quot;);\nfield.setListName(&quot;associate&quot;);\nprint(field.getType());</pre></code>\n"
+references:
+- uid: CRMScript.Native.EventDataDialogField
+  commentId: T:CRMScript.Native.EventDataDialogField
+  isExternal: true
+  name: EventDataDialogField
+  nameWithType: EventDataDialogField
+  fullName: CRMScript.Native.EventDataDialogField
+- uid: CRMScript.Native.EventDataDialogDefinition
+  commentId: T:CRMScript.Native.EventDataDialogDefinition
+  isExternal: true
+  name: EventDataDialogDefinition
+  nameWithType: EventDataDialogDefinition
+  fullName: CRMScript.Native.EventDataDialogDefinition
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Float
+  commentId: T:CRMScript.Global.Float
+  isExternal: true
+  name: Float
+  nameWithType: Float
+  fullName: CRMScript.Global.Float
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
