@@ -16,6 +16,7 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime)
   - CRMScript.Native.EventDataDialogDefinition.addDateTime(String,String,DateTime,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addField(EventDataDialogField)
   - CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float)
   - CRMScript.Native.EventDataDialogDefinition.addFloat(String,String,Float,String,Bool)
@@ -313,6 +314,29 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>EventDataDialogDefinition def;\nDateTime now;\ndef.addDateTime(&quot;datetime&quot;, &quot;My datetime&quot;,now, &quot;Input datetime&quot;, true);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addField(EventDataDialogField)
+  id: 'addField(EventDataDialogField)'
+  so.intellisense: EventDataDialogDefinition.addField
+  so.version: 10.2.5
+  langs:
+  - crmscript
+  name: addField(EventDataDialogField)
+  nameWithType: EventDataDialogDefinition.addField(EventDataDialogField)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addField(EventDataDialogField)
+  type: Method
+  summary: "\nAdds a field to dialog.\n"
+  remarks: 
+  syntax: 
+    content: Void addField(EventDataDialogField field)
+    parameters:
+    - id: field
+      type: CRMScript.Native.EventDataDialogField
+      description: "Field to add."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nEventDataDialogField dField;\ndField.setId(&quot;field1&quot;);\ndField.setType(&quot;list&quot;);\ndField.setLabel(&quot;Label 1&quot;);\ndField.setPlaceholder(&quot;Ph field 1&quot;);\ndField.setListName(&quot;associate&quot;);\ndField.setShowFullPath(false);\ndField.setAllowRootSelection(false);\ndField.setShowAllChildrenInSearch(true);\ndField.setDefault(&quot;32&quot;);\ndef.addField(dField);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addFloat(String,String)
   id: 'addFloat(String,String)'
@@ -1475,3 +1499,9 @@ references:
   name: Time
   nameWithType: Time
   fullName: CRMScript.Global.Time
+- uid: CRMScript.Native.EventDataDialogField
+  commentId: T:CRMScript.Native.EventDataDialogField
+  isExternal: true
+  name: EventDataDialogField
+  nameWithType: EventDataDialogField
+  fullName: CRMScript.Native.EventDataDialogField
