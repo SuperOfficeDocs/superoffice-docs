@@ -2,8 +2,7 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch  
-  push:
+  # Runs on pull requests and manual invocations for targeted branch  
   pull_request:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
