@@ -31,7 +31,7 @@ Used once for adding the app. Those permissions will not be persistent / saved.
 | App | User | Scope | Usage |
 |---|---|---|-------|
 | SuperOffice | CRM Admin | User.Read |  Sign in and read user profile​. To sign in a global administrator user. ​|
-| SuperOffice Documents | CRM Admin | Sites.FullControl.All | When giving permission (level Site.Selected) for this app, we must use a user token with scope Site.FullControl. Once the app is approved with given scopes for delegated permission, we get a token of user with `Site.FullControl` and set the permission to the selected site. The is a one-time token, and it won't be saved in the ZFP database. ​|
+| SuperOffice Documents | CRM Admin | Sites.FullControl.All | When giving permission (level Site.Selected) for this app, we must use a user token with scope Site.FullControl. Once the app is approved with given scopes for delegated permission, we get a token of user with `Site.FullControl` and set the permission to the selected site. This is a one-time token, and it won't be saved in the ZFP database. ​|
 
 ### Application permission
 
