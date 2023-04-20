@@ -67,7 +67,7 @@ In the same config file, if we use duplicate soprotocol values for views, it wil
 
 See the [SoProtocol targets reference][2] for a list of soprotocol targets.
 
-# Query strings (what)
+## Query strings (what)
 
 The **query string** is what comes behind the question mark (?) in the URL. Separate the whats with an ampersand `&`.
 
@@ -89,7 +89,7 @@ To go to a specific company card, set the active archive, and open an appointmen
 
 `soprotocol:contact.main.activityarchive.appointment?contact_id=2&appointment_id=1`
 
-# SoProtocol and SuperState
+## SoProtocol and SuperState
 
 SoProtocol drives the [SuperState][1], meaning when you set an [entity]_id equal to a value, the current representation of that entity is set by the id. The SuperState is defined by the SoProtocol URL together with the values of SuperState history. If no SoProtocol is given, the last valid SuperState history will be used.
 
