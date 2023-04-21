@@ -15,7 +15,7 @@ language: en
 
 Our ticketing system allows you to efficiently handle incoming requests and helps you offer outstanding customer service every day. This selection of how-to guides contains guidelines to help you keep track of, answer and analyze all incoming questions and inquiries using SuperOffice Service. No matter whether they come in by phone, email, chat, web form, or other channels.
 
-**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Click the ![icon][img2] **Requests** button to open the Requests screen or click the **Requests** text to open the navigator options with search, history and faviourites.
+**Requests** is one of the main features of SuperOffice. Here you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. Click the ![icon][img2] **Requests** button to open the Requests screen or click the **Requests** text to open the navigator options with search, history and favourites.
 
 Each question and query can be defined as a request. These questions range from support issues, questions about the product and services, or questions about invoices. Whenever a request comes in, you want to handle them as quickly and efficiently as possible and professional customer service.
 
@@ -95,8 +95,8 @@ Different companies have different routines for request handling and can use Sup
 
 ## Related topics
 
-* [Why bulk update should be your favorite feature][17] -blog
-* [Edit e-mail signature][15]
+* [Why bulk update should be your favorite feature][17] - blog
+* [Edit email signature][15]
 * [Create request][14]
 * [Find][10]
 * [Accept][1]
@@ -106,7 +106,7 @@ Different companies have different routines for request handling and can use Sup
 * [Reply][19]
 * [Split request][21]
 * [Edit message][9]
-* [Faviourites][8]
+* [Favourites][8]
 * [Close request][22]
 
 <!-- Referenced links -->

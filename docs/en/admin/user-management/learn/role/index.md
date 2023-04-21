@@ -18,11 +18,11 @@ Using role-based security in SuperOffice CRM, you can customize roles for differ
 
 A role describes two things:
 
-* Which **data objects** (company, contact, project, project members, selection, sale, stakeholder, follow-up, document, relation, dashboards and target) are to be made accessible for the users who have this role.
+* Which **data objects** (company, contact, project, project members, selection, sale, stakeholder, follow-up, document, relation, dashboards, and target) to make accessible for the users who have this role.
 
     Accessibility is specified using rights: none, read, create, update and delete.
 
-* Which **functions** (for example, administrator access in Settings and maintenance, allow bulk update, quote approval, mail merge, exporting selections and publishing)  are to be made accessible to users with this role.
+* Which **functions** (for example, administrator access in Settings and maintenance, allow bulk update, quote approval, mail merge, exporting selections and publishing) to make accessible to users with this role.
 
 ## Predefined roles
 

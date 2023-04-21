@@ -28,7 +28,7 @@ This screen shows the log for this request. All events are recorded, including w
 * [Reply][4]
 * [Split request][5]
 * [Edit message][8]
-* [Faviourites][6]
+* [Favourites][6]
 * [Close request][7]
 
 <!-- Referenced links -->

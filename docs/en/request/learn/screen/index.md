@@ -116,7 +116,7 @@ The request properties sidebar contains the following options:
 * [Reply][14]
 * [Split request][6]
 * [Edit message][8]
-* [Faviourites][15]
+* [Favourites][15]
 * [Close request][16]
 
 <!-- Referenced links -->

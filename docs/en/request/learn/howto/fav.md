@@ -46,7 +46,7 @@ Do the following:
 
 ## Relevant topics
 
-* [Faviourites in SuperOffice CRM][1]
+* [Favourites in SuperOffice CRM][1]
 * [Ask another request handler for help - transfer][2]
 
 <!-- Referenced links -->

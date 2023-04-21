@@ -27,7 +27,7 @@ language: en
 
     ![Add stakeholders dialog -screenshot][img3]
 
-4. The active sale is displayed by default in the **Sale** field. You can select a different sale to add the stakeholder(s) to, if you want. You do this by clicking the arrow and selecting the required sale in the list box which appears, or by simply entering the name of the sale.
+4. The active sale is displayed by default in the **Sale** field. You can select a different sale to add the stakeholders to, if you want. You do this by clicking the arrow and selecting the required sale in the list box that appears, or by simply entering the name of the sale.
 
 5. In the **Company/contact** field:
 

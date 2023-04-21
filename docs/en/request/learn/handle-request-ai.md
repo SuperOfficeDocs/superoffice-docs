@@ -4,7 +4,7 @@ title: Efficient handling of requests using AI
 description: The introduction of Artificial Intelligence (AI) in SuperOffice 10 gives request handlers / support agents a new set of smart tools to make their workday more efficient.
 author: Kirsti Aakerholt
 so.date: 04.19.2023
-keywords: request, ai, efficient
+keywords: request, AI, efficient
 so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice Service
@@ -34,11 +34,11 @@ Is the contact happy or angry?
 * Neutral ![icon][img3]
 * Positive ![icon][img4]
 
-If this function is active, incoming email requests are analysed to determine the "mood" of the contact. An emoticon below the message will indicate the detected sentiment (happy, unhappy or neutral).
+If this function is active, incoming email requests are analysed to determine the mood of the contact. An emoticon below the message indicates the detected sentiment (happy, unhappy, or neutral).
 
 ### Automatic categorisation
 
-Save time by letting the system categorise requests for you. If this function is active, incoming email requests are analysed to determine the best category for each request. In the footer of a request, you will see the category suggested by the system. Click the category link to update the request with the suggested category.
+Save time by letting the system categorise requests for you. If this function is active, incoming email requests are analysed to determine the best category for each request. The footer of a request shows the category suggested by the system. Click the category link to update the request with the suggested category.
 
 ## Related topics
 

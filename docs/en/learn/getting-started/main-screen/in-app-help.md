@@ -5,7 +5,7 @@ description: Using in-app help in SuperOffice CRM
 author: SuperOffice RnD
 so.date: 01.25.2023
 keywords: help, inapp, in-app
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 ## Use the Help files
 
-This help is designed to give you comprehensive and readily accessible information about how to use SuperOffice CRM. Wherever you are in the program, no matter what you are doing, you can always get help about the precise task you are involved in.
+This help is designed to give you comprehensive and readily accessible information about how to use SuperOffice. Wherever you are in the application, no matter what you are doing, you can always get help about the precise task you are involved in.
 
 You can open the help in different ways:
 

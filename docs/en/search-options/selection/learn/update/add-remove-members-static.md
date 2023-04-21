@@ -40,7 +40,7 @@ Use this option to add the selected records to an existing static selection.
 
     To add several records, use **Shift** or **Ctrl** + click.
 
-3. Right-click the records and select **Add to selection** on the menu which appears.
+3. Right-click the records and select **Add to selection** on the menu that appears.
 
 4. Select **Add to existing static selection**. Specify the required selection by clicking the arrow and selecting the required selection in the displayed list box, or by typing in the whole or the beginning of the selection name.
 
@@ -64,7 +64,7 @@ Use this option to add the selected records to an existing static selection.
     > [!NOTE]
     > To add several records, use **Shift** or **Ctrl** + click.
 
-3. Right-click the records and select **Add to selection** on the menu which appears.
+3. Right-click the records and select **Add to selection** on the menu that appears.
 
 4. Select **Add to new static selection**.
 
@@ -72,7 +72,7 @@ Use this option to add the selected records to an existing static selection.
 
 6. In the **Category** field, choose the type of selection you require. Click the arrow to display a predefined list of alternatives.
 
-7. In the **Visible for**, choose if the selection should be visible to everyone, only you or visible to everyone in a user group that the owner belongs to.
+7. In the **Visible for** field, choose if the selection should be visible to everyone, only you or visible to everyone in a user group that the owner belongs to.
 
 8. For selections of companies/contacts: If you check the **Company is unique** check box, only one record will be added for each unique company among the selected contacts. So if you selected 10 contacts that belong to 3 companies, only the 3 companies will be added to the selection.
 

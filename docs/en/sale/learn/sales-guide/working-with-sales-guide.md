@@ -30,7 +30,7 @@ Watch this video to learn how easy it is to use the Sales guide (video length - 
 
 1. Click the **Create** button in front of the follow-up/document name.
 
-2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] and [The dialog for follow-ups][2].
+2. In the dialog that appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] and [The dialog for follow-ups][2].
 
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Sales guide** section tab. By default, documents are marked as completed.
 

@@ -1,7 +1,7 @@
 ---
 uid: help-en-udef
-title: Fields web
-description: Fields web
+title: Fields
+description: Fields
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field

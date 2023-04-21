@@ -31,7 +31,7 @@ If you are assigned the **Allow administration of external users** right in Sett
 ## Add an external user
 
 1. Select the required contact in the list, and click **Edit**.
-2. In the dialog which appears, enter the required user ID, password and role. You can also specify if the login should be enabled:
+2. In the dialog that appears, enter the required user ID, password, and role. You can also specify if the login should be enabled:
     * **Active login**: If the user has an active login, they are registered as an external user and can log in to the system.
     * **Inactive login**: If the user has an inactive login, they are registered as an external user but cannot log in to the system.
 3. Click **Save** to save the settings and close the dialog, or **Cancel** to close the dialog without saving the settings.

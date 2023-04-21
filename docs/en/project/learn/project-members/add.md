@@ -62,7 +62,7 @@ You can add project members and stakeholders from the contact lists in different
     > [!NOTE]
     > To add several contacts as stakeholders/project members, use **Shift** or **Ctrl** + click.
 
-3. Right-click the contacts and select **Add to sale** or **Add to project** on the menu which appears.
+3. Right-click the contacts and select **Add to sale** or **Add to project** on the menu that appears.
 
 4. In the **Sale** or **Project** field, specify which sale/project to add the contacts to. Do this either by clicking the arrow and selecting the required sale/project in the displayed list box, or by typing in the whole or the beginning of the sale/project name.
 

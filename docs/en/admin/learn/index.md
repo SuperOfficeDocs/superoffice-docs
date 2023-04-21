@@ -71,7 +71,7 @@ The best way to define your own project or sales guides is to discuss and agree 
 * [Manage document templates][7]
 * [GDPR privacy settings][8]
 * [System preferences and video meetings][9]
-* [Import companies, contacts and products][3]
+* [Import companies, contacts, and products][3]
 
 <!-- Referenced links -->
 [1]: ../user-management/learn/index.md

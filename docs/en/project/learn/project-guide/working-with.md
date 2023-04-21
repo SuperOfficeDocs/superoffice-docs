@@ -23,7 +23,7 @@ If a project guide is defined for a project type that you specify for a project,
 
    ![Project guide section tab with overview of Planned status -screenshot][img1]
 
-1. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] or [The dialog for follow-ups][2].
+1. In the dialog that appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] or [The dialog for follow-ups][2].
 
     You can delegate the follow-up to your colleagues by setting them as the owner of the follow-up. If defined in Settings and maintenance for a specific follow-up, the **Assign task to project member** dialog appears, where you can select a colleague as the owner of the follow-up.
 

@@ -1,11 +1,11 @@
 ---
 uid: help-en-notifications
 title: Notifications
-description: Notifications of invitations, messages and request
+description: Notifications of invitations, messages, and request
 author: Hanne Gunnarsson
 so.date: 04.03.2023
 keywords: notification, Core, invitations, requests, messages
-so.topic: help
+so.topic: concept
 so.user: user
 so.user.tooltip: SuperOffice CRM
 language: en
@@ -13,16 +13,16 @@ language: en
 
 # Notifications
 
-When you click on the **bell icon** ![icon][img1] in the top right-hand corner of SuperOffice CRM, the notifications panel will appear as an overlay on the right-hand side of the screen, showing the latest occurrences at the top. Here you can do the following:
+When you click on the **bell icon** ![icon][img1] in the upper-right corner of SuperOffice, the notifications panel appears as an overlay, showing the latest occurrences at the top. Here you can do the following:
 
 * Click a list item to open it.
 * Click ![icon][img2] to set your notification preferences.
-* Click **Clear all** in the footer of the notification pane to clear the list of notifications. You can also click **Got it** under a notification to remove it.
+* Click **Clear all** in the footer of the notification pane to clear the list of notifications. You can also click **Got it** below a notification to remove it.
 * Click ![icon][img3] or anywhere outside the notifications panel to close it.
 
 ![The Notification pop out that shows both notifications on Requests and Invitations -screenshot][img5]
 
-## Request Notifications
+## Request notifications
 
 When something changes on a request that you are associated with, a notification will appear in the notifications panel. Click the link in the notification to open the request.
 
@@ -33,29 +33,33 @@ These are the different request notifications:
 * **Request escalated**: A request has been escalated to the next escalation level.
 * **Request activated**: A request has been activated.
 * **Request taken over**: Someone has taken over one of your requests.
-* **Favourited request updated**: One of your favourited requests has been updated.
+* **Favourited request updated**: One of your favourite requests has been updated.
 * **Custom message**: A custom message has been added to a request.
 
-    !Note: The list of request notifications will be cleared every night, meaning that any request notifications you have in your list at the end of the day will not be there tomorrow.
+> [!NOTE]
+> The list of request notifications is cleared every night, meaning that any request notifications you have in your list at the end of the day will not be there tomorrow.
 
-## Activity Notifications
+## Activity notifications
 
-When you receive an activity notification it will appear in your notifications panel. Click the link in the notification to open the activity.
+When you receive an activity notification, it will appear in your notifications panel. Click the link in the notification to open the activity.
 
 These are the different activity notifications:
 
 * **New meeting**: Respond by clicking **Accept** or **Decline**. Once you have responded, the invitation will disappear from notifications panel.
+
 * **New recurring meeting**: If the invitation is for a recurring event, this will be reflected with an occurring icon ![icon][img4] below the link.
+
 * **Meeting has changed**: If the time or date of a meeting you have already accepted changes, you will receive a new notification letting you know what has changed and requiring you accept or decline it.
+
 * **Meeting cancelled**: The meeting is cancelled. Click the link to open the calendar item, or click **Got it** to remove it from your notifications.
+
 * **Invitation declined**: A meeting attendee has declined the invitation. Click the link to open the calendar item, or click **Got it** to remove it from your notifications.
 
     !Note: Invitations and changed activities will not be removed from the notifications panel but will remain until you either **Accept** or **Decline** the invitation.
 
 ## Notification settings
 
-When you click the ![icon][img2] icon, the notification settings panel appears.
-Here you can select which notifications you would like to see in the notifications panel.
+When you click the ![icon][img2] icon, the notification settings panel appears. Here you can select which notifications you would like to see in the notifications panel.
 
 These are the notification options:
 

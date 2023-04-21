@@ -58,7 +58,7 @@ You can set rights for [data objects][2] based on who owns the object. All users
 
 ## How do I display data objects for external users?
 
-If the data objects (companies, projects, documents and so on) are to be made accessible to external users (Audience users), it is not enough just to assign the external users read (or higher) access. The data objects must also be published in SuperOffice.
+If the data objects (companies, projects, documents and so on) to make accessible to external users (Audience users), it is not enough just to assign the external users read (or higher) access. The data objects must also be published in SuperOffice.
 
 ## Access rights to reports
 

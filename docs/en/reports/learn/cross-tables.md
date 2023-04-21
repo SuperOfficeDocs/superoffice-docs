@@ -5,7 +5,7 @@ description: Displaying cross tables
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: report
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -20,7 +20,7 @@ Cross tables can be displayed and printed in various ways. You can select which 
 
 To view a cross table report (.Dcube file), you must install the **CrossTable viewer** (once per computer).
 
-1. Click ![icon][img1] **Main menu** and select **Download > Download CrossTable viewer**.
+1. Click ![icon][img1] **Main menu** and select **Download** > **Download CrossTable viewer**.
 1. Click the downloaded file (**SoCrossTableInstaller.exe**) to run it.
 1. If a security warning is displayed, confirm that you want to run the file.
 1. Follow the instructions in the wizard to install the program.

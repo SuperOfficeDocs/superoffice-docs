@@ -24,7 +24,7 @@ The **Sale** screen contains information about the sales entered into SuperOffic
 
 To move between sales, click the previous/next buttons ( ![icon][img2] ![icon][img4] ) at the bottom right of the cards.
 
-You can also [create a quote][1] in the **Quote** section tab in the **Sale** screen.
+You can also [create a quote][1] in the **Quote** section tab in the Sale screen.
 
 ## Where can I view sales?
 
