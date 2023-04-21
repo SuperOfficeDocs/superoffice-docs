@@ -4,7 +4,7 @@ uid: sop_list_contact_persons
 description: How to show a list of persons from a contact
 author: Tony Yates
 so.date: 06.24.2016
-keywords: soprotocol
+keywords: soprotocol, deeplinking
 so.topic: howto
 so.client: web
 so.envir: onsite

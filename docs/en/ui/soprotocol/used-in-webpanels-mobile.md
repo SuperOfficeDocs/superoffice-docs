@@ -4,9 +4,9 @@ uid: so_protocol_webpanel_mobile
 description: SoProtocol and web panels - mobile
 author: Bergfrid Dias
 so.date: 01.14.2022
-keywords: soprotocol
+keywords: soprotocol, deeplinking, web panel
 so.topic: reference
-so.client: mobile 
+so.client: mobile
 ---
 
 # SOProtocol and web panels - mobile

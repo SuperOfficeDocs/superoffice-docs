@@ -4,7 +4,7 @@ uid: sop_edit_contact
 description: How to edit a contact
 author: Tony Yates
 so.date: 06.24.2016
-keywords: soprotocol
+keywords: soprotocol, deeplinking
 so.topic: howto
 so.client: web
 so.envir: onsite

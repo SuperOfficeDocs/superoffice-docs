@@ -4,7 +4,7 @@ uid: soprotocol
 description: SoProtocol
 author: Tony Yates
 so.date: 06.24.2016
-keywords:
+keywords: soprotocol, deeplinking
 so.topic: concept
 ---
 

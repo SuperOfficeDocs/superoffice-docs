@@ -4,7 +4,7 @@ uid: sop_open_apt_dialog
 description: How to open the appointment dialog
 author: Tony Yates
 so.date: 06.24.2016
-keywords:
+keywords: soprotocol, deeplinking, appointment
 so.topic: howto
 so.client: web
 so.envir: onsite
