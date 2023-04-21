@@ -4,7 +4,7 @@ uid: so_protocol_page_control
 description: SoProtocol page control and cache
 author:
 so.date:
-keywords:
+keywords: soprotocol, deeplinking, cache
 so.topic: reference
 ---
 
