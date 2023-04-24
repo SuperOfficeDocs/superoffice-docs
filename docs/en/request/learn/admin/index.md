@@ -31,19 +31,19 @@ In this section, you can configure the settings for Service to tailor it to your
 * [Profile][1] - changes here will not show anywhere in SuperOffice CRM module (only in the Service module)
 
 <!-- Referenced links -->
-[1]: ../../ui/blogic/learn/profiles/index.md
-[2]: ../../admin/user-management/learn/role/index.md
-[3]: ../../admin/user-management/learn/index.md
-[4]: ../../request/learn/category/index.md
-[5]: ../../request/learn/priority/index.md
-[6]: ../../request/learn/status/index.md
-[7]: ../../email/service/learn/index.md
-[8]: ../../request/learn/screen/system-templates.md
-[9]: ../../admin/preferences/learn/global-preferences/system.md
-[10]: ../../admin/options/learn/custlang/index.md
-[11]: ../../customer-center/learn/index.md
-[13]: ../../chat/learn/admin/index.md
-[14]: ../../admin/learn/screen/soap-config.md
-[15]: ../../ui/blogic/learn/index.md
+[1]: ../../../ui/blogic/learn/profiles/index.md
+[2]: ../../../admin/user-management/learn/role/index.md
+[3]: ../../../admin/user-management/learn/index.md
+[4]: ../category/index.md
+[5]: ../priority/index.md
+[6]: ../status/index.md
+[7]: ../../../email/service/learn/index.md
+[8]: ../screen/system-templates.md
+[9]: ../../../admin/preferences/learn/global-preferences/system.md
+[10]: ../../../admin/options/learn/custlang/index.md
+[11]: ../../../customer-center/learn/index.md
+[13]: ../../../chat/learn/admin/index.md
+[14]: ../../../admin/learn/screen/soap-config.md
+[15]: ../../../ui/blogic/learn/index.md
 
 <!-- Referenced images -->
