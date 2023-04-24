@@ -131,7 +131,7 @@ You must belong to the *User level 0* role or another role that gives you login 
 4. Click **OK**.
 
 > [!NOTE]
-> Multiple authentication methods are available, so it depends of what authentication method your user is set up with and if you can change the password here. Check out our FAQ if you have [forgotten your password][8].
+> Multiple authentication methods are available, so it depends of what authentication method your user is set up with and if you can change the password here. Check out our FAQ if you have [forgotten your password][5].
 
 ## Related content
 
@@ -147,10 +147,9 @@ Have trouble logging in? [Check our FAQs][1] for different log-in issues.
 [2]: ../../admin/user-management/learn/index.md
 [3]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-cannot-login-to-superoffice-crm-online/
 [4]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-a-newly-created-user-cannot-log-in-to-superoffice-crm/
-[5]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
+[5]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 [6]: preferences.md#options
 [7]: ../../identity-management/single-sign-on/index.md
-[8]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-change-a-forgotten-password-in-superoffice-crm-online/
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png

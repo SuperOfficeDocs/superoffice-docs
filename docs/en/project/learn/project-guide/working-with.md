@@ -32,7 +32,7 @@ If a project guide is defined for a project type that you specify for a project,
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] opens.
     >
-    > ![icon][img2]
+    > ![In the project guide tab you can right click and select Create another -screenshot][img2]
 
 1. After all the required follow-ups and documents for a project status are completed, you move on to the next status.
 

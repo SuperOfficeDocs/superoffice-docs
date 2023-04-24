@@ -42,7 +42,7 @@ Requests can be linked to [contacts][2], who in turn can belong to a [company][3
 
 ### What do you want to do now?
 
-* [Learn request handling step by step][7]
+* Learn request handling step by step
 * [Receive requests][6]
 * [Create requests][4]
 * [Find requests][10]
@@ -116,7 +116,6 @@ Different companies have different routines for request handling and can use Sup
 [4]: howto/create.md
 [5]: howto/flag-message.md
 [6]: howto/assign.md
-[7]: index.md#request-management
 [8]: howto/fav.md
 [9]: howto/edit-message.md
 [10]: find.md
