@@ -3,16 +3,15 @@ uid: help-en-ui-extra-menu-properties
 title: Menu properties
 description: Menu properties
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: Service
-so.topic: help
+so.topic: reference
 language: en
 ---
 
 # Menu properties
 
-> [!NOTE]
-> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Here you can edit the properties of options on extra menus and web panels.
 

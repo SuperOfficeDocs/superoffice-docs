@@ -3,7 +3,7 @@ uid: help-en-service-profile
 title: Profile
 description: Profile
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: profile, service
 so.topic: concept
 so.user: admin
@@ -17,8 +17,7 @@ language: en
 
 Profiles in the system are used for configuring the appearance and behavior of screen elements.
 
-> [!NOTE]
-> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 For example:
 

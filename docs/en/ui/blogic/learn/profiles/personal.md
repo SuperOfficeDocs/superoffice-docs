@@ -3,7 +3,7 @@ uid: help-en-service-profile-personal
 title: Personal profiles
 description: Personal profiles
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: profile, UI
 so.topic: concept
 language: en
@@ -11,8 +11,7 @@ language: en
 
 # Personal profiles
 
-> [!NOTE]
-> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Personal profiles apply to a single user. You configure personal profiles by clicking ![icon][img1] (the "spanner" icon) available in different screens, for example, the list of requests in the Contact screen, the request properties section in the Request screen or the search results screen. We will use a concrete example to explain how this works. In the example below, we assume that you want to add a field in the Request screen.
 

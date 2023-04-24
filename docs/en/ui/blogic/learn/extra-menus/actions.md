@@ -3,7 +3,7 @@ uid: help-en-ui-extra-menu-actions
 title: Add function to Task button
 description: Add function to Task button
 author: Bergfrid Dias
-so.date: 03.16.2023
+so.date: 04.24.2023
 keywords: macro, task, actions
 so.topic: howto
 language: en
@@ -11,8 +11,7 @@ language: en
 
 # Add function to menu button
 
-> [!NOTE]
-> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 To add a macro to the **Task** button in the Company screen, Contact screen, Request screen, or **Message** tab:
 

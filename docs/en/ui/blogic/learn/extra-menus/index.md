@@ -3,9 +3,9 @@ uid: help-en-ui-extra-menu
 title: Extra menus
 description: Extra menus in the SuperOffice UI
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: extra menus
-so.topic: help
+so.topic: concept
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: en
@@ -13,8 +13,7 @@ language: en
 
 # Extra menus
 
-> [!NOTE]
-> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 In the **Extra menus** screen, you can add extra menus (buttons, menus, links, shortcuts, lists, and so on) in SuperOffice, so that the functions and information you need are always easily available.
 

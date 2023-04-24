@@ -3,9 +3,9 @@ uid: help-en-ui-extra-menu-navigator
 title: Add navigator group and extra menu
 description: Add navigator group and extra menu
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: navigator group
-so.topic: help
+so.topic: howto
 so.user: admin
 so.user.tooltip: Settings and maintenance
 language: en
@@ -13,8 +13,7 @@ language: en
 
 # Add navigator group and extra menu
 
-> [!NOTE]
-> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 To illustrate this functionality, we will add a new navigator group in the navigator to the left in SuperOffice. We will add an extra menu in the new navigator group. In our example, we will add the navigator group "Websites" with some useful websites.
 

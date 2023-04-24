@@ -3,7 +3,7 @@ uid: help-en-service-profile-common
 title: Common profiles
 description: Common profiles
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: profile, service
 so.topic: howto
 language: en
@@ -11,8 +11,7 @@ language: en
 
 # Common profiles
 
-> [!NOTE]
-> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 Common profiles are linked to a [role][2] and apply to all users who have that role. You configure common profiles in the **Show profiles** screen.
 
