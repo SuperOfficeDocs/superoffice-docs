@@ -9,7 +9,7 @@ items:
   href: screen/toc.yml
   topicHref: screen/index.md
 - name: Work with sale
-  href: create.md
+  topicHref: create.md
   items:
   - name: Create sale
     href: create.md

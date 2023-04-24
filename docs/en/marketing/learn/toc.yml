@@ -20,7 +20,7 @@ items:
   topicHref: ../mailing/learn/index.md
 
 - name: Drag and drop editor
-  href: editor.md
+  topicHref: editor.md
   items:
   - name: Overview
     href: editor.md

@@ -13,7 +13,7 @@ items:
   - name: Delete a dashboard
     href: delete.md
 - name: Work with tiles
-  href: working-with-tiles.md
+  topicHref: working-with-tiles.md
   items:
   - name: Overview
     href: working-with-tiles.md

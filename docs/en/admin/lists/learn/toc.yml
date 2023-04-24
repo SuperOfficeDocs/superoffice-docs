@@ -2,7 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Items
-  href: items.md
+  topicHref: items.md
   items:
   - name: Overview
     href: items.md
@@ -15,12 +15,14 @@ items:
   - name: Duplicates
     href: duplicates.md
 - name: Grouping and filtering
-  href: organize/index.md
+  topicHref: organize/index.md
   items:
+  - name: Overview
+    href: organize/index.md
   - name: User group filtering
     href: organize/user-group-filtering.md
   - name: Headings
-    href: organize/headings.md
+    topicHref: organize/headings.md
     items:
     - name: Overview
       href: organize/headings.md
@@ -33,12 +35,12 @@ items:
   - name: Deleted items and headings
     href: organize/deleted-items-and-headings.md
 - name: Specialised lists
-  href: specialized-lists.md
+  topicHref: specialized-lists.md
   items:
   - name: Overview
     href: specialized-lists.md
   - name: Document template
-    href: document-template.md
+    topicHref: document-template.md
     items:
     - name: Overview
       href: document-template.md
@@ -64,7 +66,7 @@ items:
       href: adding-items-to-follow-up-type-list.md
 
   - name: Sale
-    href: ../../../sale/learn/screen/sale-stage.md
+    topicHref: ../../../sale/learn/screen/sale-stage.md
     items:
     - name: Sale stage
       href: ../../../sale/learn/screen/sale-stage.md
@@ -78,7 +80,7 @@ items:
       href: sale-amount-class.md
 
   - name: Project
-    href: ../../../project/learn/screen/project-status-admin.md
+    topicHref: ../../../project/learn/screen/project-status-admin.md
     items:
     - name: Project status
       href: ../../../project/learn/screen/project-status-admin.md
@@ -90,7 +92,7 @@ items:
       href: project-type.md
 
   - name: General
-    href: country.md
+    topicHref: country.md
     items:
     - name: Country
       href: country.md
@@ -124,7 +126,7 @@ items:
         href: adding-external-applications-to-application-list.md
 
 - name: User-defined lists
-  href: adding-user-defined-lists.md
+  topicHref: adding-user-defined-lists.md
   items:
   - name: Add user-defined list
     href: adding-user-defined-lists.md

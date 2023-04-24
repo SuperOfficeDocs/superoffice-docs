@@ -2,7 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Freetext search
-  href: freetext-search/index.md
+  topicHref: freetext-search/index.md
   items:
   - name: Overview
     href: freetext-search/index.md
@@ -15,7 +15,7 @@ items:
   - name: Regenerate freetext index
     href: freetext-search/regenerate-index.md
 - name: Timezones
-  href: time-zones/index.md
+  topicHref: time-zones/index.md
   items:
   - name: Overview
     href: time-zones/index.md
@@ -24,7 +24,7 @@ items:
   - name: Select which time zones to show
     href: time-zones/select.md
 - name: Number allocation
-  href: number-allocation/index.md
+  topicHref: number-allocation/index.md
   items:
   - name: Overview
     href: number-allocation/index.md
@@ -33,7 +33,7 @@ items:
   - name: Default values for new document templates
     href: number-allocation/document-template-defaults.md
 - name: Labels
-  href: labels/index.md
+  topicHref: labels/index.md
   items:
   - name: Overview
     href: labels/index.md
@@ -45,7 +45,7 @@ items:
 - name: Reports
   href: reports.md
 - name: Customer languages
-  href: custlang/index.md
+  topicHref: custlang/index.md
   items:
   - name: Overview
     href: custlang/index.md

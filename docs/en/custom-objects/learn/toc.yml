@@ -1,11 +1,10 @@
 items:
 - name: Overview
   href: index.md
-
 - name: Work with custom objects
   items:
   - name: User-defined fields
-    href: udef/index.md
+    topicHref: udef/index.md
     items:
     - name: Overview
       href: udef/index.md
@@ -22,7 +21,7 @@ items:
     - name: Maximum number of fields
       href: udef/limitations.md
   - name: Extra tables and fields
-    href: extra-table/index.md
+    topicHref: extra-table/index.md
     items:
     - name: Overview
       href: extra-table/index.md

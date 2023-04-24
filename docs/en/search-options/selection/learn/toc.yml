@@ -11,7 +11,10 @@ items:
   href: combined-selections.md
 - name: Create selection
   href: create/toc.yml
+  topicHref: create/index.md
 - name: Update selection
   href: update/toc.yml
+  topicHref: update/index.md
 - name: Perform tasks using selection
   href: howto/toc.yml
+  topicHref: howto/index.md

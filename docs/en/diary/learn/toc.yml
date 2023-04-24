@@ -33,12 +33,14 @@ items:
   topicHref: appointment.md
   items:
   - name: Appointment
-    href: appointment.md
+    topicHref: appointment.md
     items:
+    - name: Overview
+      href: appointment.md
     - name: Create appointment
       href: create-appointment.md
   - name: Phone call
-    href: phone-call/index.md
+    topicHref: phone-call/index.md
     items:
     - name: Overview
       href: phone-call/index.md
@@ -51,7 +53,7 @@ items:
   - name: Video meetings
     href: video-meetings.md
   - name: Tasks
-    href: task.md
+    topicHref: task.md
     items:
     - name: Overvew
       href: task.md

@@ -6,7 +6,7 @@ items:
 - name: Standard reports
   href: standard-reports.md
 - name: Work with reports
-  href: working-with-reports.md
+  topicHref: working-with-reports.md
   items:
   - name: Overview
     href: working-with-reports.md
@@ -33,7 +33,7 @@ items:
   - name: Cross tables
     href: cross-tables.md
 - name: Work with labels
-  href: labels/index.md
+  topicHref: labels/index.md
   items:
   - name: Overview
     href: labels/index.md
@@ -48,7 +48,7 @@ items:
   - name: Print labels
     href: labels/print-labels.md
 - name: Search criteria
-  href: search-criteria/index.md
+  topicHref: search-criteria/index.md
   items:
   - name: Overview
     href: search-criteria/index.md
@@ -57,7 +57,7 @@ items:
   - name: Edit search criteria in reports
     href: search-criteria/edit.md
 - name: Favourite reports
-  href: favorites/index.md
+  topicHref: favorites/index.md
   items:
   - name: Overview
     href: favorites/index.md

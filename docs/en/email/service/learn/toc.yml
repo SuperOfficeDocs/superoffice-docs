@@ -2,7 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Mailboxes
-  href: screen/index.md
+  topicHref: screen/index.md
   items:
   - name: Overivew
     href: screen/index.md
@@ -13,7 +13,7 @@ items:
   - name: Create SMS mailbox
     href: create-sms-mailbox.md
 - name: Email filters
-  href: email-filters/index.md
+  topicHref: email-filters/index.md
   items:
   - name: Overview
     href: email-filters/index.md

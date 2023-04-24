@@ -4,7 +4,7 @@ items:
 - name: View forms
   href: view.md
 - name: Work with forms
-  href: form-templates.md
+  topicHref: form-templates.md
   items:
   - name: Create new form
     href: create.md
@@ -17,7 +17,7 @@ items:
   - name: Examples
     href: examples.md
 - name: Form submissions
-  href: submissions/index.md
+  topicHref: submissions/index.md
   items:
   - name: Track form submissions and view statistics
     href: submissions/track.md

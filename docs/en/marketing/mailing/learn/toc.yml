@@ -2,7 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Create new mailing
-  href: create/index.md
+  topicHref: create/index.md
   items:
   - name: Overview
     href: create/index.md
@@ -23,7 +23,7 @@ items:
   - name: Target list
     href: create/target-list.md
 - name: Follow up mailings
-  href: follow-up/index.md
+  topicHref: follow-up/index.md
   items:
   - name: Overview
     href: follow-up/index.md

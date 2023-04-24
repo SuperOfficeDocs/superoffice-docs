@@ -7,21 +7,21 @@ items:
 - name: Settings
   href: quotesync-tab-settings.md
 - name: ERP connections
-  href: quotesync-tab-erp-connections.md
+  topicHref: quotesync-tab-erp-connections.md
   items:
   - name: Overview
     href: quotesync-tab-erp-connections.md
   - name: Add ERP connection
     href: erp-connection-add.md
 - name: Sync
-  href: sync/index.md
+  topicHref: sync/index.md
   items:
   - name: Overview
     href: sync/index.md
   - name: Add Sync Connector
     href: sync/sync-connector-add.md
   - name: Work with ERP connection
-    href: sync/sync-add-erp-connection.md
+    topicHref: sync/sync-add-erp-connection.md
     items:
      - name: Add ERP connection
        href: sync/sync-add-erp-connection.md

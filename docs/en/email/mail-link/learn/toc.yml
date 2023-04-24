@@ -8,7 +8,7 @@ items:
 - name: Turn default archiving on/off
   href: settings/archive-by-default.md
 - name: Work with emails
-  href: compose.md
+  topicHref: compose.md
   items:
   - name: Create emails
     href: compose.md

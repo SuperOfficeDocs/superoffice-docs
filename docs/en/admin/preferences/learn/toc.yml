@@ -9,15 +9,19 @@ items:
   topicHref: global-preferences//system.md
 
 - name: Video meetings
-  href: video-meetings/index.md
+  topicHref: video-meetings/index.md
   items:
+  - name: Overview
+    href: video-meetings/index.md
   - name: Configure video meetings
     href: video-meetings/configure-video-meetings.md
   - name: Email setup for video meetings
     href: video-meetings/email-setup-in-superoffice.md
 
 - name: Document library
-  href: document-library/index.md
+  topicHref: document-library/index.md
   items:
+  - name: Overview
+    href: document-library/index.md
   - name: Configure SharePoint document library
     href: document-library/change-to-sharepoint.md

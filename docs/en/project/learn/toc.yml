@@ -5,7 +5,7 @@ items:
   href: screen/toc.yml
   topicHref: screen/index.md
 - name: Work with project
-  href: create.md
+  topicHref: create.md
   items:
   - name: Create project
     href: create.md
@@ -23,7 +23,7 @@ items:
   href: project-members/toc.yml
   topicHref: project-members/index.md
 - name: Project guide
-  href: project-guide/index.md
+  topicHref: project-guide/index.md
   items:
   - name: Overview
     href: project-guide/index.md
