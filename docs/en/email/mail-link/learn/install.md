@@ -1,5 +1,5 @@
 ---
-uid: help-en-webtools-install
+uid: help-en-mail-link-install
 title: Install SuperOffice WebTools
 description: Learn how to install the mail link/WebTools.
 author: Kirsti Aakerholt
