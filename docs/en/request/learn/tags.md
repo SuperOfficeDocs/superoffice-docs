@@ -13,11 +13,11 @@ language: en
 
 # Using tags in requests
 
-Tagging is a powerful tool for organizing and finding requests in SuperOffice Service. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view, and filter requests.
+Tagging is a powerful tool for organizing and finding requests in SuperOffice. You can create tags on the fly and tag any request with as many tags as you want. Using tags will simplify the way you search for, view, and filter requests.
 
 Each company will want to use their own specific customer service request tags. Let us take a look at two types of tags that could be useful for you company:
 
-* You can set up tags for the different customer stages your company uses such as, for example, Free trial, Onboarding, Existing or Terminating;
+* You can set up tags for the different customer stages your company uses such as, for example, Free trial, Onboarding, Existing, or Terminating.
 
 * You can create tags related to the department that should handle a specific type of request such as, for example, Finance, Marketing or Sales.
 

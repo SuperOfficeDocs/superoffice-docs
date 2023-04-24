@@ -21,7 +21,7 @@ You can add extra browser tabs to the following screens so that the information 
 
 ## What can I add as content
 
-* URLs: Links to web pages or to specific records in SuperOffice Service.
+* URLs: Links to web pages or to specific records in SuperOffice.
 * Screens: Shortcuts to specific screens.
 * Scripts/macros: Buttons or menu options that trigger a script or macro.
 * Selections: Shortcut to a selection.

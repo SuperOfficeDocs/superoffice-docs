@@ -1,7 +1,7 @@
 ---
 title: Reply templates
 uid: reply-templates
-description: Reply templates in SuperOffice Service
+description: Reply templates in SuperOffice
 author: Bergfrid Dias
 so.date: 03.16.2023
 keywords: reply template
@@ -10,7 +10,7 @@ so.topic: concept
 
 # Service reply templates
 
-Template variables, also known as parser variables, are the mechanism used by Customer Service to dynamically insert data into a text like a reply template, it is used throughout the whole system. The syntax for a parser variable is the name of the variable enclosed by the tags `<cs:parser> </cs:parser>`.
+Template variables, also known as parser variables, are used to dynamically insert data into a text like a reply template. The syntax for a parser variable is the name of the variable enclosed by the tags `<cs:parser> </cs:parser>`.
 
 To get a complete overview of template variables available for your database, [create a new reply template][1] with the plain text body `%PARSER_TREE%` (case sensitive).
 
