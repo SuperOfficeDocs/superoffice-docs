@@ -46,15 +46,12 @@ conceptualContent:
     - title: Learn the essentials
       summary: ""
       links:
-      - text: Request management
+      - text: Step-by-step request handling
         itemType: learn
         url: learn/index.md
       - text: How to reply to customers
         itemType: learn
         url: learn/howto/reply.md
-      - text: Step-by-step request handling
-        itemType: learn
-        url: learn/howto/index.md
       - text: How to archive emails as requests
         itemType: learn
         url: ../email/mail-link/learn/archive-as-request.md

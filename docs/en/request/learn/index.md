@@ -121,7 +121,7 @@ Different companies have different routines for request handling and can use Sup
 [9]: howto/edit-message.md
 [10]: find.md
 [11]: find.md#list
-[12]: find.md#search
+[12]: ../../search-options/learn/index.md
 [13]: find.md#result
 [14]: howto/create.md
 [15]: ../../learn/getting-started/edit-email-signature.md
