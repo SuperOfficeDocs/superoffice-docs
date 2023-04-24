@@ -11,6 +11,9 @@ language: en
 
 # Menu properties
 
+> [!NOTE]
+> Changes done **System design** - **Extra menus** tab will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
 Here you can edit the properties of options on extra menus and web panels.
 
 * **Base Program**: Select a base program if you want the content of the URL field to be added to a select base program. For this to work, the text in the URL field must start with &action=...
@@ -21,9 +24,9 @@ Here you can edit the properties of options on extra menus and web panels.
 
 * **Return to same screen**: Checking this box will automatically return the users to the screen where the button (or similar) was clicked. Otherwise the users would have to do this manually.
 
-  * Example of when to use this option: If you create a button (macro) in the **Request** screen to change the category of the request, you also want to return to the same request after the button is clicked.
+  * Example of when to use this option: If you create a button (macro) in the Request screen to change the category of the request, you also want to return to the same request after the button is clicked.
 
-  * Example of when NOT to use this option: If you create a button (script) that displays a lot of information on the screen, then you do not want this checked, since you want to view the information on the screen. The same goes for external URLs, since you want to go to the website when you click the button.
+  * Example of when NOT to use this option: If you create a button (script) that displays a lot of information on the screen, then you do not want this checked, because you want to view the information on the screen. The same goes for external URLs, because you want to go to the website when you click the button.
 
 * **Append &lt;usec&gt;**: &lt;usec&gt; is the session key for the NetServer session. To make a web panel work with NetServer using authentication, this key must be included.
 

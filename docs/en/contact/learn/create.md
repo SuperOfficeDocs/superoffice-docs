@@ -1,29 +1,39 @@
 ---
 uid: help-en-contact-create
-title: Create contacts
-description: Create contacts
+title: Create contact
+description: How to create contact in SuperOffice.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 12.15.2022
 keywords: person, contact
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create new contact
 
-1. Open the **Contact** screen.
+There are many ways you can add contacts to SuperOffice CRM:
+
+* Add a contact from the top bar **or** the Company screen - see steps below.
+* [Scan a business card][1] with the SuperOffice Mobile CRM app.
+* [Bulk import][2] larger numbers of contacts (requires Administrator rights).
+
+![You can add a contact from the company card in two steps -screenshot][img1]
+
+## Steps
+
+1. Open the Contact screen.
 
     * Click **New** on the Top bar and select **Contact**.
-    * Or, go to the required company in the **Company** screen, select the **Contacts** section tab, and click the **Add** button below the section tab.
+    * Or, go to the required company in the Company screen, select the **Contacts** section tab, and click the **Add** button below the section tab.
 
 2. In the top section of the tab, you enter the following information:
 
     * Contact's first name and/or last name. Mandatory: You must enter either a first name or a last name.
     * Salutation (***Mr/Ms***)
     * Company. Select a company in the list or start typing a company name to search. If the contact should not be connected to a company, select **(No Selection)**.
-    * Contact image. You can add a photo by dragging the image file from Windows Explorer and dropping it on the image field at the top left of the tab.
+    * Contact image. You can add a photo by dragging the image file from Windows Explorer and dropping it on the image field at the upper left of the tab.
 
-    You can also add a picture by right-clicking the picture field at the top left of the tab. Click the link and browse to the picture you require and click **Open** to add the picture.
+    You can also add a picture by right-clicking the picture field at the upper left of the tab. Click the link and browse to the picture you require and click **Open** to add the picture.
 
 3. Enter contact information in the **Contact** tab.
 
@@ -57,13 +67,13 @@ language: en
 
 11. After entering the necessary information, click the **Save** button.
 
-    The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the **Company** screen.
+    The contact information is then saved in the database and displayed in the contact card. If you linked the contact to a company, the contact will be displayed in the **Contacts** tab in the Company screen.
 
 12. Go to the **Relations** section tab. Here you can [add relations][8] between this contact and another contact or company.
 
 ## <a id="more-tab" />The More tab (Contact screen)
 
-The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
+The **More** tab contains user-defined fields for contacts. If, for example, your organization sells IT products and needs fields for each contact's hardware and software, you can specify in Settings and maintenance that these fields are to be inserted here.
 
 Other examples: Year employed, ERP IDs, user type, CXM info.
 
@@ -71,7 +81,7 @@ Other examples: Year employed, ERP IDs, user type, CXM info.
 
 In the **Interests** tab you have the following options:
 
-* **Interests:** Here you select what interests a contact has. Interests are used to create selections for mailings and similar. The available interests are defined in SuperOffice Settings and maintenance.
+* **Interests:** Here you select what interests a contact has. Interests are used to create selections for mailings and similar. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
     > [!TIP]
     > Interests can be useful for defining selections. If, for example, you have defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
@@ -99,7 +109,10 @@ In the **Interests** tab you have the following options:
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
 <!-- Referenced links -->
+[1]: ../../mobile/superoffice-mobile/learn/scan-business-card.md
+[2]: ../../admin/import/learn/index.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: add-relation.md
 
 <!-- Referenced images -->
+[img1]: media/add-contact-from-company-card.png

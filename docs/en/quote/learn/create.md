@@ -1,15 +1,21 @@
 ---
 uid: help-en-quote-create
 title: Create a quote
-description: Create a quote
+description: In this how-to guide you will learn how to create a quote, add and edit a product inside the quote and how to send a quote.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create a quote
+
+Follow the GIF or steps below to see how you create and send a quote:
+
+![After clicking on the button create a quote, you can start adding your products and services to the quote -screenshot][img1]
+
+## Steps
 
 1. [Create a new sale][1] or open an existing sale (one that is not sold or lost).
 
@@ -21,7 +27,16 @@ language: en
 
 ## Is the Select ERP connection dialog displayed?
 
-[!include[Select ERP connection](includes/quote-select-erp.md)]
+If the **Select ERP connection** dialog is displayed when you are creating a quote, this may be due to:
+
+* No price lists being available for the currency of the sale. You must select another currency for the sale, or create a price list with the desired currency in Settings and maintenance.
+
+    > [!NOTE]
+    > If the list of currencies is not displayed next to the sale amount, you may have to enable use of currency. Go to **Preferences** > **Enable use of currency** in Settings and maintenance.
+
+* SuperOffice CRM is connected to one or more ERP systems, and there are several relevant ERP connections to choose between. The ERP connection determines where the product information and prices are obtained from.
+
+After you have selected an ERP connection, you can continue to create a quote.
 
 ## Related topics
 
@@ -43,3 +58,4 @@ language: en
 [8]: create-order.md
 
 <!-- Referenced images -->
+[img1]: media/quote-create-send.gif

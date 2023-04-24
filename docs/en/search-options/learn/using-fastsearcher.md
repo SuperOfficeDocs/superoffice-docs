@@ -4,8 +4,8 @@ title: Using FastSearcher
 description: Using FastSearcher
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: search, FastSearcher
+so.topic: howto
 language: en
 ---
 
@@ -23,15 +23,15 @@ You can use FastSearcher in various ways:
 
 1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top. Below this is a [list of records you have previously worked with][1].
 
-    ![icon][img1]
+    ![FastSearcher - screenshot][img1]
 
-2. Type in the empty field the name of the record to search for. As you type in each letter, the list underneath displays all matching records.
+2. In the box, enter the name of the record to search for. While you type, the list below displays all matching records.
 
-    Here are some examples:
+    Examples:
 
     * You can search for a sale by entering the name of the sale or the name of a company linked to the sale, in the FastSearcher field for **Sales** in the Navigator.
 
-        ![icon][img2]
+        ![FastSearcher - screenshot][img2]
 
     * You can search for a contact in the FastSearcher field for **Companies** in the Navigator.
 
@@ -41,9 +41,9 @@ You can use FastSearcher in various ways:
 
 1. Open the relevant dialog.
 
-2. In the relevant field, type the name of the record to search for. As you type in each letter, the list underneath displays all matches.
+2. In the relevant box, enter the name of the record to search for. While you type, the list below displays all matches.
 
-    ![icon][img3]
+    ![FastSearcher - screenshot][img3]
 
 3. Click the required company, contact, sale, project or selection to link to the record.
 
@@ -54,12 +54,12 @@ You can use FastSearcher in various ways:
 
 1. Put the mouse pointer in the country field.
 
-2. Enter the name of the city or country you want to find out the time zone for. If, for example, you don't know the time zone for Canberra, you can search for Canberra and bring up the relevant Australian time zone in the list.
+2. Enter the name of the city or country you want to find out the time zone for.
 
     > [!NOTE]
-    > Names of regions in the time zone selector will always be in English, while country names are dependent on the language settings in SuperOffice CRM. Don't forget this when searching for countries and regions.
+    > Names of regions in the time zone selector will always be in English, while country names depend on the language settings in SuperOffice CRM. Do not forget this when searching for countries and regions.
 
-3. Once you have found the required city or country, click the item to enable the required time zone.
+3. After you have found the required city or country, click the item to enable the required time zone.
 
 <!-- Referenced links -->
 [1]: using-history-list.md

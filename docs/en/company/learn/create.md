@@ -5,13 +5,18 @@ description: Create new companies
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Create a new company
 
-In the **Company** screen you can enter information about companies on several levels, represented by the three **Company**, **More** and **Interests** tabs. To insert a comment on a company, use the **Note** tab.
+In the Company screen you can enter information about companies on several levels, represented by the three **Company**, **More** and **Interests** tabs. To insert a comment on a company, use the **Note** tab.
+
+Check out the video on how to [create a company][1].
+
+<!-- Watch this video or follow the steps below.
+> [!Video https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4] -->
 
 ## The Company tab
 
@@ -21,24 +26,22 @@ In the **Company** screen you can enter information about companies on several l
 
     ![Empty company card -screenshot][img1]
 
-1. In the **Country** field, enter the company’s country. The correct address format for this country is updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
+1. In the **Country** field, enter the company's country. The correct address format for this country is updated automatically in the **Company** tab. You can set your current home country from **System** in the preferences.
 
 1. Enter the required information in the other fields.
 
     > [!NOTE]
     > Default field values and list values (such as business and category) are specified in the [Preferences dialog][3].
 
-    <details><summary>What goes in the various fields?</summary>
-
-    [!include[Steps to populate company fields](includes/company-fields.md)]
-
-    </details>
-
 1. Click **Save** to save the information entered, or click the **More** tab to enter further information about the company.
+
+### What goes in the various fields
+
+[!include[Steps to populate company fields](includes/company-fields.md)]
 
 ## <a id="more-tab" />The More tab (Company screen)
 
-1. Go to the **More** tab. This tab contains user-defined fields for companies. If, for example, your organization needs to have fields for the number of employees in the company or for its turnover, you can specify in SuperOffice Settings and maintenance that these fields are to be inserted here.
+1. Go to the **More** tab. This tab contains user-defined fields for companies. If, for example, your organization needs to have fields for the number of employees in the company or for its turnover, you can specify in Settings and maintenance that these fields are to be inserted here.
 
 2. Enter the information.
 
@@ -49,18 +52,18 @@ In the **Company** screen you can enter information about companies on several l
 
 ## <a id="interests-tab" />The Interests tab (Company screen)
 
-1. Go to the **Interests** tab. Here you specify what interests a company has.
+1. Go to the **Interests** tab.
 
-2. In edit mode, specify interests by checking the relevant boxes. SuperOffice Settings and maintenance defines which interests are displayed.
+2. In edit mode, specify interests by checking the relevant boxes. Settings and maintenance defines which interests are displayed.
 
     > [!NOTE]
     > When the tab is in view mode, only the selected interests are displayed. When you are in edit mode, there may well be further interests options available.
 
-3. If you select one or more interests in the **Interests** tab, a dot is displayed next to the tab’s name.
+3. If you select one or more interests in the **Interests** tab, a dot is displayed next to the tab's name.
 
     ![Company interests tab -screenshot][img2]
 
-4. When you have entered the required information in all three tabs in the **Company** screen, click **Save**. This will create a company card for the new company.
+4. When you have entered the required information in all three tabs in the Company screen, click **Save**. This will create a company card for the new company.
 
 > [!TIP]
 > Interests can be useful for defining selections. If, for example, you defined *reference account* as an interest, you can create a selection that contains all your reference accounts. This makes it easy to produce a marketing campaign aimed at this customer group.
@@ -88,7 +91,8 @@ If you try to enter a company that is similar to one that is already in SuperOff
 [!include[Tip](../../learn/includes/tip-open-website.md)]
 
 <!-- Referenced links -->
-[2]: ../../learn/getting-started/duplicates.md
+[1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
+[2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 
 <!-- Referenced images -->

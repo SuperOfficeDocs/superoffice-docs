@@ -13,17 +13,17 @@ language: en
 
 How this works varies slightly from report type to report type. To display cross table reports or label reports, see the topics below:
 
-* [Display cross tables][1]
+* [Display cross tables][7]
 * [Display labels][2]
 
 > [!TIP]
-> If you are not sure which report type you have, check the thumbnail at the top right of the **Reports** screen. [How][3].
+> If you are not sure which report type you have, check the [thumbnail][1] at the upper right of the **Reports** screen.
 
 1. Select the required report.
 
 1. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
 
-[!include[Open PDF](includes/step-open-pdf.md)]
+1. [!include[Open PDF](includes/step-open-pdf.md)]
 
 You can save the PDF file from the PDF viewer, so you can open it later.
 
@@ -34,6 +34,7 @@ You can save the PDF file from the PDF viewer, so you can open it later.
 * [Add label formats][4]
 * [Edit label formats][5]
 * [Remove label formats][6]
+* [Show properties of individual reports][3]
 
 <!-- Referenced links -->
 [1]: index.md
@@ -42,5 +43,6 @@ You can save the PDF file from the PDF viewer, so you can open it later.
 [4]: labels/add-format.md
 [5]: labels/edit-format.md
 [6]: labels/remove-format.md
+[7]: cross-tables.md
 
 <!-- Referenced images -->

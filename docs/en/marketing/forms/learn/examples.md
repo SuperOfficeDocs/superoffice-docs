@@ -67,6 +67,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 1. In the **Message** tab, enter the text to display after the form is submitted. This message should inform the customer that they will receive an email confirmation. Click **Show/hide toolbar** ![icon][img3] to display formatting options for the text.
 
     <details><summary>Example</summary>
+
     We will now send an email to the address you registered in our form.
 
     Click the link in the email to confirm your email address and activate your subscription(s).
@@ -79,6 +80,7 @@ This form will let your customers sign up for one or more newsletters. The sign-
 1. In the **Email** tab, create the confirmation email sent to the persons submitting the form.
 
     <details><summary>Example</summary>
+
     Hi and thanks for your interest in our newsletters
 
     Please click the link below to confirm your email address and start your subscription.

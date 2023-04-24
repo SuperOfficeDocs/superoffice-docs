@@ -4,23 +4,23 @@ title: The Diary screen
 description: The Diary screen
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
 # The Diary screen
 
-The **Diary** screen consists of two main sections:
+The Diary screen consists of two main sections:
 
 * A calendar showing follow-ups allocated to a particular time or date.
 * A section tab area, containing the [activities list][6] and the [sales list][7].
 
-At the bottom left of the calendar is a field for selecting a [time zone][12], if time zones have been enabled in SuperOffice Settings and maintenance.
+At the lower left of the calendar is a field for selecting a [time zone][12], if time zones have been enabled.
 
 ## Tabs in the Diary screen
 
-The diary consists of four different tabs you can select simply by clicking them at the top of the **Diary** screen.
+The diary consists of four different tabs you can select simply by clicking them at the top of the Diary screen.
 
 * [The Day tab][2]
 * [The Week tab][3]
@@ -31,7 +31,7 @@ Click the word **Diary** in the Navigator and select a time period from the list
 
 You can [create, edit, move, and delete follow-ups][13] directly in these tabs. Click and drag a follow-up to reschedule it.
 
-Follow-ups with times are displayed as boxes in the different views in the **Diary** screen, with information about the company and the type of follow-up. The following icons are also displayed:
+Follow-ups with times are displayed as boxes in the different views in the Diary screen, with information about the company and the type of follow-up. The following icons are also displayed:
 
 | Icon | Description | Read more |
 |:-:|---|---|
@@ -45,11 +45,11 @@ Follow-ups with times are displayed as boxes in the different views in the **Dia
 By default, the follow-ups are displayed as a blue field in the diary tabs. If you hold the mouse pointer over one of these fields, a tooltip is displayed showing more information about the follow-up. You can also double-click the blue field to open the follow-up.
 
 > [!NOTE]
-> In SuperOffice Settings and maintenance, you can define that all follow-ups of a specific type are displayed in the **Diary** screen in SuperOffice CRM with a different background color from the usual blue.
+> In Settings and maintenance, you can define that all follow-ups of a specific type are displayed in the Diary screen with a different background color from the usual blue.
 
 ## Section tabs in the Diary screen
 
-The **Diary** screen contains the following section tabs:
+The Diary screen contains the following section tabs:
 
 * [Activities][6]: The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list.
 

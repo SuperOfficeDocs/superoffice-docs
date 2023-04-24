@@ -2,10 +2,12 @@
 uid: help-en-tables-screen
 title: Tables screen
 description: Tables screen in System Design
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: HanneGunnarsson
+so.date: 03.20.2023
 keywords: table, field, system design
-so.topic: help
+so.topic: reference
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -13,7 +15,7 @@ language: en
 
 [!include[Requirement](../../../learn/includes/req-expander-services.md)]
 
-In the **Tables** screen in **System design** there is a list of the tables in the system. Here you can extend the SuperOffice Service by creating new tables and fields for different screens in the system.
+In the Tables screen in **System design**, there is a list of the database tables in SuperOffice. Here you can create new tables and fields for different screens.
 
 > [!TIP]
 > Extra fields can for instance be used as search criteria and columns in sales.
@@ -23,9 +25,15 @@ This screen displays both standard tables (predefined in the system and form the
 > [!NOTE]
 > If your company uses SuperOffice CRM, you will see a message that NetServer must be restarted every time you add new fields or tables. If Travel is activated, you will also see a message that a new Travel database must be generated.
 
+## Where to find the screen
+
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Click **System design** in the navigator and select the **Tables** tab.
+
 ## Table folder properties
 
-This screen is used to edit the properties of a new or existing table folder. Table folders are used to organize your custom tables.
+This screen is used to edit the properties of a new or existing table folder. Table folders are used to organise your custom tables.
 
 ## What would you like to do now?
 

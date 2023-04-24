@@ -13,7 +13,7 @@ language: en
 
 [!include[Requirement](includes/req-integration-server.md)]
 
-1. Go to the **Company** screen, **Contact** screen, or **Project** screen, and select the **ERP** tab.
+1. Go to the Company screen, Contact screen, or Project screen, and select the **ERP** tab.
 1. Click **Edit**.
 1. Click **Disconnect**. The **Disconnect** dialog appears.
 1. Click **Disconnect**.

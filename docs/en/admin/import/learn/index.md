@@ -3,13 +3,16 @@ uid: help-en-import
 title: Import
 description: Import
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, import
-so.topic: help
+so.date: 02.22.2023
+keywords: import
+so.topic: concept
+so.user: admin
 language: en
 ---
 
-# Import
+# Import contacts and product data
+
+An empty CRM database won't help you manage your contacts. By importing your customer data all in one go using our import feature, you can quickly start managing your customer relationships in SuperOffice CRM.
 
 Using the Windows client? See [Windows Client settings][7].
 
@@ -32,11 +35,7 @@ The Import function supports imports from the following sources:
 > [!NOTE]
 > To import other data like projects, sales, currencies, post codes and red-letter days, you must use the [Import][7] feature in Windows Client settings.
 
-Here are some examples of various types of import:
-
 ## Import into empty SuperOffice database
-
-Do the following:
 
 * Import all company and contact data. Make sure you link all columns in the import to the correct SuperOffice fields and specify the correct [Import settings][6] to include all the necessary data from the import source.
 

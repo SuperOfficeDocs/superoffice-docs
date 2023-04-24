@@ -1,6 +1,8 @@
 items:
 - name: Overview
   href: index.md
+- name: Install Mail Link/WebTools
+  href: install.md
 - name: Archive email
   href: archive.md
 - name: Turn default archiving on/off
@@ -8,6 +10,8 @@ items:
 - name: Work with emails
   href: compose.md
   items:
+  - name: Create emails
+    href: compose.md
   - name: Create email from SuperOffice CRM
     href: create-in-superoffice.md
   - name: Create email from Microsoft Outlook
@@ -31,3 +35,4 @@ items:
 
 - name: SuperOffice CRM options dialog
   href: settings/toc.yml
+  topicHref: settings/index.md

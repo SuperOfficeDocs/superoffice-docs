@@ -5,7 +5,7 @@ description: Document dialog
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: document
-so.topic: help
+so.topic: concept
 language: en
 ---
 
@@ -14,7 +14,7 @@ language: en
 The central feature of the document function is the **Document** dialog, which you can open in different ways:
 
 * By selecting **New** > **Document**.
-* By opening an existing document][1].
+* By opening an [existing document][1].
 
 The dialog consists of a main section with general information about the document, and the following tabs with additional information:
 
@@ -28,7 +28,7 @@ The main section contains the following essential information about the document
 
 ### Document template
 
-Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. The available templates are defined in SuperOffice Settings and maintenance. Here you can also use [FastSearcher][6].
+Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)] Here you can also use [FastSearcher][6].
 
 > [!NOTE]
 > When you [create a document][5], the template opens in the program it was created in. For example, DOCX files will open in Word.
@@ -66,11 +66,11 @@ Today's date is displayed automatically in this field. If you click the arrow ne
 
 ### Our ref
 
-Enter your own reference. The default entry for each template is defined in SuperOffice Settings and maintenance, but you can also edit the content of this field.
+Enter your own reference. The default entry for each template is defined in Settings and maintenance, but you can also edit the content of this field.
 
 ### Your ref
 
-Enter the addressee’s reference from their communication.
+Enter the addressee's reference from their communication.
 
 ### Visible for
 
@@ -92,17 +92,17 @@ If the document is checked out for editing, one of the following icons are displ
 
 ### Completed
 
-By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the **Diary** screen until it is marked as completed.
+By default, the document is marked as completed (![icon][img4]), but you can remove this check mark if you wish (![icon][img5]). The document will then be displayed on the **Activities** section tab in the Diary screen until it is marked as completed.
 
 > [!NOTE]
 > You cannot edit a completed document until you have undone its **Completed** status. [How to change Completed status of an activity][7].
 
 ### User-defined fields
 
-Here, three of the fields from the **More** tab may be displayed, as defined in SuperOffice Settings and maintenance. The fields displayed can vary from user group to user group.
+[!include[3 udef](../../../learn/includes/more-udef.md)]
 
 > [!NOTE]
-> User group membership is defined in the **Users** screen in SuperOffice Settings and maintenance.
+> User group membership is defined in the Users screen in Settings and maintenance.
 
 ### Task
 
@@ -113,7 +113,7 @@ When you click this button, the following options are displayed:
 * **Copy shortcut**: Copies a [shortcut to the active entry][9].
 * **Revert to saved version**: Select this option to [cancel a check-out][4]. For example, if you checked out the document by mistake and are unable to check it in again.
 
-Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
+Below these options are shortcuts to other relevant tasks that can be performed on the active entry. In Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ## Details tab
 
@@ -135,7 +135,7 @@ This tab contains information about activities (documents and follow-ups) and sa
 
 ## More tab
 
-This tab displays any [user-defined fields][3] configured in SuperOffice Settings and maintenance.
+This tab displays any [user-defined fields][3] configured in Settings and maintenance.
 
 ## The www tab
 
@@ -148,7 +148,7 @@ This tab displays any [user-defined fields][3] configured in SuperOffice Setting
 [6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
-[2]: ../../../learn/getting-started/linking-documents-to-follow-ups.md
+[2]: ../../../learn/activity/linking-documents-to-follow-ups.md
 [3]: ../../../custom-objects/learn/udef/index.md
 
 <!-- Referenced images -->

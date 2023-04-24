@@ -16,14 +16,11 @@ so.client: online
 
 The **app page** shows application usage for one specific application.
 
-<!-- markdownlint-disable MD029 -->
-[!include[Go to the app page](../includes/go-to-app-page.md)]
-<!-- List starts in the include. Next line MUST be 2. -->
+1. [!include[Go to the app page](../includes/go-to-app-page.md)]
 
-2. Select **Usage**.
+1. Select **Usage**.
 
-3. Click through the environment specific tabs.
-<!-- markdownlint-restore -->
+1. Click through the environment specific tabs.
 
 ![API usage overview in SuperOffice developer portal -screenshot][img1]
 
@@ -44,10 +41,10 @@ The **app page** shows application usage for one specific application.
 
 * To see the impact of your app on one specific customer (tenant), select a customer from the drop-down list.
 
-* To clear the filter, click the red cross.
+    > [!NOTE]
+    > The list contains only the [customers that have authorized the app][1] for a specific environment. For example, a SOD tenant appears only in the SOD environment. If you don't see a customer you think should be in the list, check that you have selected the correct environment.
 
-> [!NOTE]
-> The list contains only the [customers that have authorized the app][1] for a specific environment. For example, a SOD tenant appears only in the SOD environment. If you don't see a customer you think should be in the list, check that you have selected the correct environment.
+* To clear the filter, click the red cross.
 
 ## Improve app performance
 

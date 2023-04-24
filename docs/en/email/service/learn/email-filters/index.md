@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: email
 so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -15,11 +17,9 @@ An email filter is a tool used to analyze the content of inbound email, and gene
 
 You can also add advanced rules for handling email from specific senders. Email filters are often used in connection with web forms that the company has published and that generate a fixed format email message that is imported into SuperOffice Service.
 
-## Example
+## Example related to inbound email from web forms
 
 For example, you can define fixed expressions to extract information that a customer submitted using the form. Based on a defined rule set, data from the form is entered in the customer database. The request generate from the email/form is then placed into a specific category and a request handler is selected. Then the request is closed and the customer receives a customized receipt based on a reply template. In other words, there are many options for automatic handling of inbound email.
-
-Here are some examples related to inbound email from web forms:
 
 * Email received from a web form generally has a default sender address. You can replace this address with the customer's own email address.
 

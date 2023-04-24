@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: event
 so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -13,12 +15,12 @@ language: en
 
 The following types of events are started from the various screens in Settings and maintenance:
 
-* **UDefRebuild**, of which there are several types: the layout of user-defined fields is being updated and the user-defined fields in SuperOffice CRM cannot be accessed while the event is in progress.
+* **UDefRebuild**, of which there are several types: the layout of user-defined fields is being updated and the user-defined fields cannot be accessed while the event is in progress.
 
     > [!NOTE]
     > You must not cancel this event from the **System notifications** list.
 
-* **FreetextRebuild**: the freetext index is being generated and freetext searching cannot be performed in SuperOffice CRM while generation is in progress.
+* **FreetextRebuild**: the freetext index is being generated and users can not use the free-text while generation is in progress.
 
 * **PrototypeRebuild**: a Travel prototype is being generated. The Travel functions cannot be accessed while this event is in progress.
 
@@ -27,7 +29,7 @@ The following types of events are started from the various screens in Settings a
 
 * **ROURebuild**: counters or status monitors are being regenerated. Status images, the **Statistics** tab and counters are unavailable while the event is underway. (Status monitors require a [separate license][2].)
 
-You can start the following types of event from the **Licences** screen **Status** tab:
+You can start the following types of event from the Licences screen **Status** tab:
 
 * **No Login**: Select this event to prevent login during server or database upgrades, scheduled maintenance, and so on.
 * **No Freetext**: Select this event to limit the size of the outgoing Travel database.

@@ -3,7 +3,9 @@ items:
   href: index.md
 - name: Section tabs on project
   href: screen/toc.yml
+  topicHref: screen/index.md
 - name: Work with project
+  href: create.md
   items:
   - name: Create project
     href: create.md
@@ -19,10 +21,13 @@ items:
     href: delete.md
 - name: Project members
   href: project-members/toc.yml
+  topicHref: project-members/index.md
 - name: Project guide
   href: project-guide/index.md
   items:
-  - name: Working with project guide
+  - name: Overview
+    href: project-guide/index.md
+  - name: Work with project guide
     href: project-guide/working-with.md
   - name: View follow-ups and documents
     href: project-guide/view-followups-and-documents.md

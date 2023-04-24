@@ -11,15 +11,18 @@ language: en
 
 # Personal profiles
 
-Personal profiles apply to a single user. You configure personal profiles by clicking ![icon][img1] (the "spanner" icon) available in different screens, for example, the list of requests in the **Contact** screen, the request properties section in the **Request** screen or the search results screen. We will use a concrete example to explain how this works. In the example below, we assume that you want to add a field in the **Request** screen.
+> [!NOTE]
+> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
 
-1. Open the **Request** screen and select the **Details** tab.
+Personal profiles apply to a single user. You configure personal profiles by clicking ![icon][img1] (the "spanner" icon) available in different screens, for example, the list of requests in the Contact screen, the request properties section in the Request screen or the search results screen. We will use a concrete example to explain how this works. In the example below, we assume that you want to add a field in the Request screen.
 
-2. Click ![icon][img1] on the far right of the request's properties. The **Edit element profile** screen appears.
+1. Open the Request screen and select the **Details** tab.
+
+2. Click ![icon][img1] beside the request's properties. The **Edit element profile** screen appears.
 
 3. Next to **New field** are two empty fields.
-    * In the left-hand field enter the field name.
-    * Click the list button ![icon][img2] next to the field on the right, and select which field in the database you want to get data from.
+    * In the leftmost box, enter the field name.
+    * Click ![icon][img2] and select which field in the database you want to get data from.
 
 4. Click **Add** next to the two fields you have just completed. This new field is added under the preview at the top of the screen.
 
@@ -29,12 +32,10 @@ Personal profiles apply to a single user. You configure personal profiles by cli
 
 ## What would you like to find out more about?
 
-* [How to edit a personal profile in the search results screen][2]
 * [Common profiles][3]
 * [Global profiles][4]
 
 <!-- Referenced links -->
-[2]: ../../../../search-options/learn/in-service/customize-presentation.md
 [3]: common.md
 [4]: global.md
 

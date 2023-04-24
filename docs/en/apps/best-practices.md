@@ -360,14 +360,14 @@ Read about [effective visual design][6].
 <!-- Referenced links -->
 [1]: tenant-status/status-page.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
-[4]: https://community.superoffice.com/change-application
+[4]: ../developer-portal/howto/update-app.md
 [5]: ../api/authentication/online/validate-security-tokens.md
 [6]: ../ui/design/index.md
 [7]: https://community.superoffice.com/en/technical/forums/general-forums/announcements/
 [8]: ../api/authentication/online/sign-in-user/index.md
 [9]: ../api/authentication/online/auth-application/index.md
 [10]: tenant-status/notifications.md
-[12]: https://community.superoffice.com/application-registration/
+[12]: ../developer-portal/create-app/index.md
 [13]: getting-started/what-api-to-use.md
 [14]: certification/checklist.md
 [15]: requirements/security.md

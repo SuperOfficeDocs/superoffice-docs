@@ -5,7 +5,7 @@ description: Upload documents
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: document
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -13,7 +13,7 @@ language: en
 
 1. Click **New** > **Document** on the top bar.
 
-2. In the **Document** dialog, drag and drop the document from Windows Explorer to the **Document** dialog.
+2. Drag and drop the document from Windows Explorer to the **Document** dialog.
 
 3. (optional) Click ![icon][img1] in the top-right corner to set the document to **Completed** (![icon][img2]).
 
@@ -35,7 +35,7 @@ language: en
 [3]: open.md
 [4]: edit.md
 [5]: lock.md
-[6]: web-tools.md
+[6]: ../../webtools/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/followup-not-completed-small.png

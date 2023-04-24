@@ -4,54 +4,53 @@ items:
 - name: Freetext search
   href: freetext-search/index.md
   items:
+  - name: Overview
+    href: freetext-search/index.md
   - name: Enable freetext search
     href: freetext-search/enable.md
   - name: Specify search criteria
-    href: freetext-search/specifying-search-criteria.md
-  - name: Use search criteria
-    href: using-search-criteria.md
+    href: freetext-search/configure.md
   - name: Stopwords
     href: freetext-search/stopwords.md
-    items:
-    - name: Add stopword
-      href: freetext-search/adding-stopwords.md
-    - name: Suggest stopwords
-      href: freetext-search/suggesting-stopwords.md
-    - name: Delete stopwords
-      href: freetext-search/deleting-stopwords.md
-    - name: Regenerate freetext index
-      href: freetext-search/regenerating-freetext-index.md
+  - name: Regenerate freetext index
+    href: freetext-search/regenerate-index.md
 - name: Timezones
-  href: timezones.md
+  href: time-zones/index.md
   items:
+  - name: Overview
+    href: time-zones/index.md
   - name: Enable use of time zones
-    href: activating-time-zones.md
-  - name: Edit time zones
-    href: edit-time-zones.md
+    href: time-zones/enable.md
+  - name: Select which time zones to show
+    href: time-zones/select.md
 - name: Number allocation
-  href: number-allocation.md
+  href: number-allocation/index.md
   items:
-  - name: View number allocation
-    href: viewing-number-allocation.md
+  - name: Overview
+    href: number-allocation/index.md
   - name: Specify number allocation
-    href: specifying-number-allocation.md
+    href: number-allocation/configure.md
   - name: Default values for new document templates
-    href: document-template-defaults.md
+    href: number-allocation/document-template-defaults.md
 - name: Labels
-  href: labels.md
+  href: labels/index.md
   items:
+  - name: Overview
+    href: labels/index.md
   - name: Change labels
-    href: changing-labels.md
+    href: labels/change.md
   - name: Reset labels
-    href: resetting-labels.md
+    href: labels/reset.md
     
 - name: Reports
   href: reports.md
 - name: Customer languages
   href: custlang/index.md
   items:
+  - name: Overview
+    href: custlang/index.md
   - name: Create and edit customer languages
-    href: custlang/edit-custlang.md
+    href: custlang/update.md
   - name: Work with external categories
     href: custlang/external-categories.md
   - name: Select customer language

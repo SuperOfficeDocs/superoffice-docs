@@ -37,5 +37,5 @@ u.load(getVariable("activeUser").toInteger());
 
 <!-- Referenced links -->
 [4]: ../../document/templates/index.md
-[5]: ../../service/reply-templates/learn/template-variables.md
+[5]: ../../request/reply-templates/learn/template-variables.md
 [6]: ../blogic/custom-screens/index.md

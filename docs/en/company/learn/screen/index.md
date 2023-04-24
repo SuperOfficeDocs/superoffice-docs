@@ -9,19 +9,9 @@ so.topic: reference
 language: en
 ---
 
-# The Company screen
+# The Company screen section tabs
 
-[!include[Intro](../includes/company-screen-intro.md)]
-
-In the **Company** screen, every record in the database is displayed like an index card, containing all information for that company.
-
-To move between companies, click the previous/next buttons (![icon][img2] ![icon][img1]) at the bottom right of the cards.
-
-You can search for specific companies based on criteria that you specify. You can also write documents, generate follow-ups and create new companies and contacts.
-
-## Section tabs in the Company screen
-
-The **Company** screen contains the following section tabs:
+The Company screen contains the following section tabs:
 
 | Section tab | Description |
 |---|---|
@@ -45,5 +35,3 @@ The **Company** screen contains the following section tabs:
 [7]: ../../../admin/erp/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img2]: ../../../../media/icons/arrow-left.png

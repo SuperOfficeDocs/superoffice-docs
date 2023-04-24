@@ -5,7 +5,7 @@ description: Sales tab
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: person, contact
-so.topic: help
+so.topic: reference
 language: en
 ---
 
@@ -17,7 +17,7 @@ The **Sales** section tab shows sales connected to the contact.
 
 [!include[Conf. columns](../../../learn/includes/tip-configure-columns.md)]
 
-Double-click a sale in the list to open the **Sale** screen in SuperOffice CRM which contains information about that sale.
+Double-click a sale in the list to open the Sale screen, which contains information about that sale.
 
 Click **Add** to create a new [sale][1].
 
@@ -28,7 +28,7 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 <!-- Referenced links -->
 [1]: ../../../sale/learn/index.md
 [2]: ../../../sale/learn/stakeholders/index.md
-[3]: ../../../learn/getting-started/using-filter-function-contact.md
+[3]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/filter-icon.png

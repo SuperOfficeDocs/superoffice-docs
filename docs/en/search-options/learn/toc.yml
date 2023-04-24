@@ -2,7 +2,7 @@ items:
 - name: Overview
   href: index.md
 - name: Find screen
-  href: find-dialog.md
+  href: find-screen.md
 - name: Search criteria
   href: using-search-criteria.md
 - name: Free-text search
@@ -11,5 +11,3 @@ items:
   href: using-fastsearcher.md
 - name: History list
   href: using-history-list.md
-- name: Wild cards
-  href: wild-cards.md

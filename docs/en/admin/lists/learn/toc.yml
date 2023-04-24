@@ -4,6 +4,8 @@ items:
 - name: Items
   href: items.md
   items:
+  - name: Overview
+    href: items.md
   - name: Add items
     href: adding-items.md
   - name: Edit items
@@ -20,6 +22,8 @@ items:
   - name: Headings
     href: organize/headings.md
     items:
+    - name: Overview
+      href: organize/headings.md
     - name: Groupe items under headings
       href: organize/grouping-items-under-headings.md
     - name: Add headings
@@ -31,9 +35,13 @@ items:
 - name: Specialised lists
   href: specialized-lists.md
   items:
+  - name: Overview
+    href: specialized-lists.md
   - name: Document template
     href: document-template.md
     items:
+    - name: Overview
+      href: document-template.md
     - name: Edit standard templates
       href: using-standard-templates.md
     - name: Create document template
@@ -56,6 +64,7 @@ items:
       href: adding-items-to-follow-up-type-list.md
 
   - name: Sale
+    href: ../../../sale/learn/screen/sale-stage.md
     items:
     - name: Sale stage
       href: ../../../sale/learn/screen/sale-stage.md
@@ -69,6 +78,7 @@ items:
       href: sale-amount-class.md
 
   - name: Project
+    href: ../../../project/learn/screen/project-status-admin.md
     items:
     - name: Project status
       href: ../../../project/learn/screen/project-status-admin.md
@@ -80,6 +90,7 @@ items:
       href: project-type.md
 
   - name: General
+    href: country.md
     items:
     - name: Country
       href: country.md
@@ -113,6 +124,7 @@ items:
         href: adding-external-applications-to-application-list.md
 
 - name: User-defined lists
+  href: adding-user-defined-lists.md
   items:
   - name: Add user-defined list
     href: adding-user-defined-lists.md

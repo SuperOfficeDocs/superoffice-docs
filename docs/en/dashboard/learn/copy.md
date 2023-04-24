@@ -1,7 +1,7 @@
 ---
-uid: help-en-copy
-title: Dashboard a duplicate
-description: Dashboard a duplicate
+uid: help-en-dashboard-copy
+title: Duplicate a dashboard
+description: Duplicate a dashboard
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: dashboard

@@ -44,22 +44,22 @@ conceptualContent:
       links:
       - text: Register sales
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/sales/get-started-with-sales/register-sales/
+        url: learn/create.md
       - text: Sales guide
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/sales/get-started-with-sales/sales-guide/
+        url: learn/sales-guide/index.md
       - text: Pipeline management
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/sales/pipeline-forecasting/
+        url: learn/sales-targets/index.md
       - text: Forecast and selections
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/sales/pipeline-forecasting/forecasting-with-selections/
+        url: learn/forecasting.md
       - text: Document templates
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/documents/create-upload-document/
+        url: ../document/learn/create.md
       - text: Create quotes
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/sales/quote/create-quotes/
+        url: ../quote/learn/create.md
 
     # Card
     - title: Videos

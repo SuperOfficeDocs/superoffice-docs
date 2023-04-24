@@ -69,7 +69,7 @@ It does not make business sense to provide a complete database mirror to partner
 If you believe you have a great case for an application, navigate to the [application registration page][1] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/application-registration
+[1]: ../../developer-portal/create-app/index.md
 [2]: ../../api/authentication/online/certificates/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 [6]: ../../apps/getting-started/developer-registration-form.md

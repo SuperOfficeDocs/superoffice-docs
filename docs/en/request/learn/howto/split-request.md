@@ -2,10 +2,12 @@
 uid: help-en-request-split
 title: Split requests
 description: Split requests
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.16.2023
 keywords: request
-so.topic: help
+so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
@@ -16,22 +18,19 @@ If a single request contains several questions, for example, if the customer fir
 > [!TIP]
 > You can also [split a message][1].
 
-**Steps:**
+## Steps
 
 1. [Open the request][2].
 
-1. Click the ![icon][img1] **Actions** button and select **Split request**.
+1. Click the ![icon][img1] **Task** button and select **Split**.
 
-    This takes you to the **Split request** screen, where you specify information about the new request.
+    This opens up a dialog, where you specify information about the new request.
+
+1. In the tab **Properites of the new request**, you have the different fields to fil in.
 
 1. In the **Title** field, enter a descriptive name for the request.
 
 1. In the **Category** field, select a category for the request.
-
-1. In the **Owner** field, choose one of the following:
-    * To assign the request to a specific person, select the name you require.
-    * **(Automatically assigned)**: If you select this option, the system assigns the request in accordance with the applicable assignment rules.
-    * **(Unassigned)**: You can also choose not to assign the request. The members of the relevant category then become responsible for dealing with the request.
 
 1. In the **Priority** list box, you can choose between **Low**, **Medium** and **High**, or you can make the system assign the priority automatically. This can be done, for example, on the basis of [escalation levels][3] set for different contacts and companies.
 
@@ -44,18 +43,17 @@ If a single request contains several questions, for example, if the customer fir
     * **Closed**: Select this option if the request is completed.
     * **Postponed**: To postpone handling of this request, select this option and specify a date in the date field to the right. On this date, the request is set back to **Open**.
 
-1. Under **Properties of the original request** specify if the original request is **Open**, **Closed**, or **Postponed**.
-
-1. At the bottom of the screen is a list of messages involved in the request. Here you select the messages you want to move to the new request.
+1. Select the **Messages** tab where you will find a list of messages involved in the request. Here you select the messages you want to move to the new request.
 
 1. Click **OK**. The request is split.
 
 ## What would you like to do now?
 
 * [Reply to customer][4]
-* [Ask another request handler for help.][5]
+* [Ask another request handler for help][5]
 * [Forward messages to external parties][6]
 * [Split message][1]
+* [Merge requests][7]
 
 <!-- Referenced links -->
 [1]: split-message.md
@@ -64,6 +62,7 @@ If a single request contains several questions, for example, if the customer fir
 [4]: reply.md
 [5]: transfer.md
 [6]: forward.md
+[7]: merge.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

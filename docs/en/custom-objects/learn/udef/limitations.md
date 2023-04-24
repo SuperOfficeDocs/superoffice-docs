@@ -5,13 +5,15 @@ description: Maximum number of fields
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field
-so.topic: help
+so.topic: reference
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Maximum number of fields
 
-The following limitations apply to the number of user-defined fields you can specify in each of the **Company**, **Contact**, **Project** and **Sale** tabs.
+The following limitations apply to the number of user-defined fields you can specify in each of the Company, Contact, Project, and Sale tabs.
 
 * **Number**, **Date**, **Check box** and **List**: Maximum of 60 in all.
 * **Short text** and **Unlimited date**: Maximum of 40 in all.

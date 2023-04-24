@@ -4,8 +4,8 @@ title: Month tab
 description: Month tab
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 

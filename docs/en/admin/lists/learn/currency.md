@@ -4,14 +4,15 @@ title: Currency
 description: Currency
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: currency, sale
+so.topic: reference
+so.user: admin
 language: en
 ---
 
 # General - Currency
 
-In the **Sale** screen tabs in SuperOffice CRM, you specify sale amount, costs and profit for the sale. The currency that the amounts are shown in depends on what you specify in the **Preferences** screen in Settings and maintenance (see [Preferences][2]), where you choose your own currency and a base currency, from a list that is defined in the **Lists** screen.
+In the Sale screen tabs in SuperOffice CRM, you specify sale amount, costs and profit for the sale. The currency that the amounts are shown in depends on what you specify in the [preferences][2], where you choose your own currency and a base currency, from a list that is defined in the Lists screen.
 
 > [!NOTE]
 > To enable use of currency, go to **Preferences** > **Enable use of currency**.

@@ -4,8 +4,8 @@ title: Creating diary views
 description: Creating diary views
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
@@ -15,18 +15,12 @@ You can add a selection of users and resources in your organization to a view.
 
 ## Name and save this view
 
-1. Click the **View** tab in the **Diary** screen.
+1. Click the **View** tab in the Diary screen.
 
-1. Click the **Task** button (![icon][img1]) at the bottom right and choose **New group view**.
+1. Click the ![icon][img1] **Task** button at the lower right and choose **New group view**.
 
-    > [!TIP]
-    > To edit an existing view, click **Edit**, and to copy an existing view, click **Copy**.
-
-    <details><summary>Why is the Edit button greyed out?</summary>
-    You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. This is defined in SuperOffice Settings and maintenance.
-
-    To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
-    </details>
+    > [!NOTE]
+    > To edit an existing view, click **Edit**. [You can change only group views created by you.](#troubleshoot) To copy an existing view, click **Copy**.
 
 1. In the **New group view** dialog, enter the appropriate information in the **Name** and **Description** fields.
 
@@ -38,7 +32,7 @@ You can add a selection of users and resources in your organization to a view.
 
     * If you selected **Project**, the history list of projects is displayed.
 
-    * If you selected **Resource**, a list of resource groups in your organization is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organization.
+    * If you selected **Resource**, a list of resource groups in your organization is displayed. This list is defined in Settings and maintenance. Select **All** to see all the resources in your organization.
 
 1. Select the users/resources you require and click the right arrow ( ![icon][img2] ) to add them to the pane on the right. You can also select users and resources individually by double-clicking them.
 
@@ -51,7 +45,13 @@ You can add a selection of users and resources in your organization to a view.
 You will then be returned to the **View** tab, where you can create appointments for associates, and so forth.
 
 > [!TIP]
-> To delete the active group view, click the **Task** button at the bottom right and select **Delete group view**.
+> To delete the active group view, click the **Task** button at the lower right and select **Delete group view**.
+
+## <a id="troubleshoot" />Why is the Edit button greyed out?
+
+You can change only group views created by you. In a predefined group view, the **Edit** button is greyed out to indicate that you cannot change it here. These group views contain all users assigned to the specific groups. [!include[SM](../../learn/includes/are-defined-sm.md)]
+
+To edit and save a predefined group view, select the **Copy** option and save the view with a new name.
 
 ## What would you like to do now?
 

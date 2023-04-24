@@ -1,17 +1,21 @@
 ---
 uid: help-en-quote
 title: Work with quotes
-description: Work with quotes
+description: SuperOffice Quote is a feature that helps you generate quotes quickly and accurately – saving you time and minimizing errors.
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: quote
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Work with quotes
 
 After registering a sale in SuperOffice CRM, it is quick and easy to create a quote and send it to the customer. The quote can contain several alternative versions for the customer to choose between, and you have full control of the different versions of the quote if there are any changes.
+
+Using the product database in SuperOffice CRM, you can easily add products to the quote – and let SuperOffice do the calculations for you.
+
+When the customer has accepted the quote, you can generate an order which you send for further processing.
 
 ## The process of creating and sending a quote
 
@@ -24,6 +28,10 @@ After registering a sale in SuperOffice CRM, it is quick and easy to create a qu
 ## <a id="status" />Status
 
 [!include[Table showing quote states](includes/table-quote-states.md)]
+
+## Related
+
+* [Set up your products and prices in Settings and maintenance][2]
 
 <!-- Referenced links -->
 [1]: create.md

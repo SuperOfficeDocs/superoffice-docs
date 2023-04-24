@@ -19,7 +19,7 @@ Templates are displayed as items in the **Email - Template** list and you can ad
 
 1. Enter the required name of the item in the **Template name** field.
 
-2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You also have the option to make the template available as a quote template, an [order confirmation template][3], or a [privacy confirmation template][4].
+2. In the **Template type** field, select the type of template you are creating. Select **Normal** if you want the template to be available in **Inbox**. You can also make the template available as a quote template, an [order confirmation template][3], or a [privacy confirmation template][4].
 
 3. If you wish, you can choose where to store the document template, in the **Store template in** list.
 
@@ -48,9 +48,9 @@ Templates are displayed as items in the **Email - Template** list and you can ad
 
 Enter the following information in the **Details** tab:
 
-1. (optional) Edit the name of the template in the **Name** field. You can also add the template name in other languages by clicking ![icon][img1] (see [Translation][1]).
+1. (optional) Edit the name of the template in the **Name** field. You can also [add the template name in other languages][1] by clicking ![icon][img1].
 
-2. Enter the title of the email in the **Subject** field. You can also add the subject in other languages by clicking ![icon][img1] (see [Translation]][1]).
+2. Enter the title of the email in the **Subject** field. You can also [add the subject in other languages][1] by clicking ![icon][img1].
 
 3. Select **Use signature in new email** to add your signature to new emails. If you do not have a personal signature, the system signature is used.
 
@@ -60,14 +60,14 @@ Enter the following information in the **Details** tab:
 
 6. In the **Direction** field, specify if the template is outgoing or incoming by clicking the arrow (![icon][img2] ) and choosing from the list box. Select **Outgoing** if you want the template to be available in **Inbox**.
 
-7. In the **Intention** field, click the arrow (![icon][img2] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [Sales Intelligence][5]).
+7. In the **Intention** field, click the arrow (![icon][img2] ) and select one of the predefined options from the list box. These items are used in connection with status monitors (requires a licence for [Sales Intelligence][5]).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance.
 
 8. In the **Document stored in** field, you can choose to save the document somewhere other than the default option.
 
-9. Specify the default setting for the **Our reference** field using the template variables, for example *auth* for the sender’s first and last names (see [Template variables][2]).
+9. Specify the default setting for the **Our reference** field using the [template variables][2], for example *auth* for the sender's first and last names.
 
 > [!NOTE]
 > You can open the template to edit it directly by clicking the **Edit** button at the top of the **Edit list item** dialog. Only htm/html files can be edited directly in this editor. The file type is displayed in the **File name** field in the **Details** tab. Click the **Download** button to download other file types and edit them in the relevant application.

@@ -60,15 +60,12 @@ conceptualContent:
     - title: User guide
       summary: ""
       links:
-      - text: Register activities in the diary
-        itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/diary/
       - text: Create a follow-up
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/diary/create-appointment/
+        url: learn/create-follow-up.md
       - text: Invite participants
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/diary/invite-contact-to-appointment/
+        url: learn/invitation/add-participant.md
 
     # Card
     - title: Videos

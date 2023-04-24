@@ -11,6 +11,9 @@ language: en
 
 # Common profiles
 
+> [!NOTE]
+> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
 Common profiles are linked to a [role][2] and apply to all users who have that role. You configure common profiles in the **Show profiles** screen.
 
 ## Profile types
@@ -28,7 +31,7 @@ As an example, the following steps show how to add a field in the **Find request
 4. Point at **Find requests**, and click ![icon][img2] (**New common profile**) to the right of the name. The **Edit element profile** screen appears.
 5. In the **Name** field, enter the name of the profile.
 6. Click the **Add criteria** button.
-7. In the dialog box that opens, do the following:
+7. In the dialog, do the following:
     * **Enter the label for the field here**: Enter the field name.
     * **Choose field**: Select which field in the database you want to get data from.
 8. Click the **OK**. The new criterion is added below the others.
@@ -65,4 +68,4 @@ As an example, the following steps show how to add a field in the **Find request
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/settings-small.png
+[img2]: ../../../../../media/icons/main-menu-small.png

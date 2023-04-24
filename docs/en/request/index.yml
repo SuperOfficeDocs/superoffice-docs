@@ -30,7 +30,7 @@ highlightedContent:
     # Card
     - title: Reply templates
       itemType: concept
-      url: ../service/reply-templates/index.md
+      url: reply-templates/index.md
     # Card
     - title: Ticket database table
       itemType: reference
@@ -48,16 +48,16 @@ conceptualContent:
       links:
       - text: Request management
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/
+        url: learn/index.md
       - text: How to reply to customers
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/reply-to-request/
+        url: learn/howto/reply.md
       - text: Step-by-step request handling
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/handle-requests/
+        url: learn/howto/index.md
       - text: How to archive emails as requests
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/service-requests/requests/archive-emails/
+        url: ../email/mail-link/learn/archive-as-request.md
 
     # Card
     - title: Videos

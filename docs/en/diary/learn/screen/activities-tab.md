@@ -4,8 +4,8 @@ title: The Activities section tab (Diary)
 description: The Activities section tab (Diary)
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
@@ -15,7 +15,7 @@ language: en
 
 The **Activities** section tab gives you an overview of activities and acts as a to-do list or task list. It contains, among other things, appointments and tasks that you have not yet completed and you can use it to temporarily store follow-ups that you have not yet allocated to a particular time or date.
 
-The activities list does not change when you switch between the different tabs in the top section of the **Diary** screen.
+The activities list does not change when you switch between the different tabs in the top section of the Diary screen.
 
 ## Columns
 
@@ -45,7 +45,7 @@ Open an activity directly from the activities list by double-clicking it. This b
 
 ## Move between activities in the activities list
 
-Use the scroll arrows on the right-hand side to scroll up and down in the activities list.
+Use the scroll arrows to scroll up and down in the activities list.
 
 To view the details of several activities from the activities list, without having to open each individual activity:
 
@@ -54,7 +54,7 @@ To view the details of several activities from the activities list, without havi
 
 ## Preferences
 
-Once an activity is completed, it is removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today’s date.
+After an activity is completed, it is removed from the activities list by the next day. By default, the **Activities** section tab displays tasks that you have not completed as of today's date.
 
 ### Display future tasks
 

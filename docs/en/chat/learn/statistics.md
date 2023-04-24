@@ -1,9 +1,9 @@
 ---
 uid: help-en-chat-statistics
 title: View chat statistics
-description: View chat statistics
+description: In this how-to guide, you will learn how to view chat statistics both in a dashboard and on the Chat screen.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.14.2023
 keywords: chat
 so.topic: howto
 language: en
@@ -11,7 +11,9 @@ language: en
 
 # View chat statistics
 
-In the **Dashboard** tab in the **Chat** screen you can view chat statistics.
+The chat statistics can be used to improve the overall communication and agents' performance, as well as shorten the response time. You can view them in the **Dashboard** tab in the **Chat** screen.
+
+![In the Chat Dashboard tab, you have a section showing the statistics of incoming chats -screenshot][img1]
 
 In addition to general statistics about chat sessions, you can monitor the following:
 
@@ -21,6 +23,22 @@ In addition to general statistics about chat sessions, you can monitor the follo
 * How many chat sessions are active.
 
 By default statistics are shown for all available channels, but you can select a specific chat channel from the **Channel** list.
+
+## Create a dashboard for chat conversation
+
+You can visualize statistics from chat conversations in a dashboard to get an informative overview of the data. After you [create a dashboard][2], you can [add and edit tiles][3].
+
+### Examples - tiles you can add to your dashboard for chat conversations
+
+* Use the **Agent with the best average rating this month tile** to see which agent that on average performed best that month. The tile can be used for motivation, or for internal competition.
+
+* The **Chat conversations per month** tile let you keep track of how many chats your company receives each month.
+
+* By adding the **Most busy hour** tile, you can learn what hour of the day most customers contact your chat agents throughout the year. The tile can also be modified to show other time-frames.
+
+* With the **My average chat rating this month** tile you can follow the average rating score you receive from your customers. Use it as an indicator of how satisfied your customers are with your service, and as a motivation to improve or to keep doing the great work.
+
+![Example of different tiles for chat conversations -screenshot][img2]
 
 ## Respond to an incoming chat
 
@@ -32,5 +50,9 @@ Double-click a row in the **Ongoing chat sessions** list to listen in on (watch)
 
 <!-- Referenced links -->
 [1]: respond.md
+[2]: ../../dashboard/learn/create.md
+[3]: ../../dashboard/learn/add-tile.md
 
 <!-- Referenced images -->
+[img1]: media/chat-dashboard-statistics.png
+[img2]: media/chat-dashboard.png

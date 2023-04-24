@@ -1,11 +1,12 @@
 ---
 uid: help-en-users-associates-filter-group
-title: users associates filter group
-description: users associates filter group
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+title: Filter and group users
+description: Filter and group users
+author: Bergfrid
+so.date: 03.15.2023
+keywords: user, associate
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -59,8 +60,8 @@ You can group the list of users by role, user plan, primary group, and similar. 
 > If you navigate to another tab, the grouping is reset.
 
 <!-- Referenced links -->
-[1]: ../../../learn/getting-started/adjusting-views.md
+[1]: ../../learn/adjusting-views.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../media/icons/column-header-filter.png
+[img2]: ../../../../media/icons/filter-column.png

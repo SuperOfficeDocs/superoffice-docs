@@ -1,10 +1,10 @@
 ---
 uid: help-en-gmail-link-archive-incoming
-title: email archive incoming
-description: email archive incoming
+title: Archive incoming email
+description: Archive incoming email
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Gmail Link
+so.date: 02.10.2023
+keywords: Gmail Link, email
 so.topic: howto
 language: en
 ---
@@ -12,6 +12,10 @@ language: en
 # Archive incoming email
 
 You can archive an incoming email (including any attachments) as a document in SuperOffice CRM. This is a convenient way of storing information you receive via email together with other company/contact information in SuperOffice CRM.
+
+![When you have SuperOffice Gmail Link installed, you can archive email, create activity or request -screenshot][img2]
+
+## Steps
 
 1. In the Gmail inbox, select the email you would like to archive.
 
@@ -45,3 +49,4 @@ Click the link in the pop-up message to open the document in SuperOffice.
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
+[img2]: media/email-gmaillink-archive.png

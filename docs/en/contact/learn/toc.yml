@@ -3,11 +3,13 @@ items:
   href: index.md
 - name: Section tabs on contact
   href: screen/toc.yml
+  topicHref: screen/index.md
 - name: Work with contact
+  topicHref: create.md
   items:
   - name: Create new contact
     href: create.md
-  - name: Edit a contact
+  - name: Edit contact
     href: edit.md
   - name: Move a contact
     href: move.md
@@ -24,11 +26,5 @@ items:
   - name: Print
     href: print.md
 - name: Privacy settings and GDPR
-  href: ../../security/privacy/learn/privacy.md
-  items:
-  - name: Edit privacy settings for a contact
-    href: ../../security/privacy/learn/edit-legal-base.md
-  - name: Send privacy confirmation email
-    href: ../../security/privacy/learn/send-privacy-confirmation-email.md
-  - name: Generate personal data report
-    href: ../../security/privacy/learn/generate-personal-data-report.md
+  href: ../../security/privacy/learn/toc.yml
+  topicHref: ../../security/privacy/learn/index.md

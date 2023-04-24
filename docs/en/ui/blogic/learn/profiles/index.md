@@ -6,6 +6,8 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: profile, service
 so.topic: concept
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -15,10 +17,13 @@ language: en
 
 Profiles in the system are used for configuring the appearance and behavior of screen elements.
 
+> [!NOTE]
+> Changes done on **Profile** will only show in the **SuperOffice Service** module, not in the Requests screen in SuperOffice CRM module.
+
 For example:
 
-* Move or add columns in the list of requests in the **Contact** screen
-* Add or remove fields in the **Request** screen header (also **Contact** and **Company** screen headers)
+* Move or add columns in the list of requests in the Contact screen
+* Add or remove fields in the Request screen header (also **Contact** and Company screen headers)
 * Customize the search results screen to your needs
 
 Each screen element can have personal, common and global profiles.

@@ -19,13 +19,13 @@ How this works varies slightly from report type to report type. To display cross
 * [Display labels][2]
 
 > [!TIP]
-> If you are not sure which report type you have, check the thumbnail at the top right of the **Reports** screen. [How][3].
+> If you are not sure which report type you have, check the thumbnail at the upper right of the **Reports** screen. [How][3].
 
 1. Select the required report.
 
 1. Click the **Preview** button under the criteria list. A PDF is generated in your browser.
 
-[!include[Open PDF](includes/step-open-pdf.md)]
+1. [!include[Open PDF](includes/step-open-pdf.md)]
 
 You can save the PDF file from the PDF viewer, so you can open it later.
 

@@ -21,7 +21,7 @@ Double-click an activity in the section tab to view or edit it, as required.
 
 ### Completed status ![icon][img3]
 
-The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox (![icon][img2]) means that the activity is completed, while an empty box means that it is not completed.
+The first column in the **Activities** section tab indicates the **Completed** status of an activity. A tick in the checkbox ![icon][img2] means that the activity is completed, while an empty box means that it is not completed.
 
 ### Type icons
 
@@ -61,7 +61,7 @@ The second column contains icons that indicate the type of activity, for example
 [4]: ../../../learn/activity/delete-activities-contact.md
 [5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
 [6]: ../../../learn/activity/forwarding-email-from-activities-section-tab.md
-[7]: ../../../learn/getting-started/using-filter-function-contact.md
+[7]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
 [img1]: media/project-activities.bmp

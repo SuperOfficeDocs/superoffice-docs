@@ -13,7 +13,7 @@ language: en
 
 If you have two nearly identical projects, it is possible to merge them, including the project members and activities. The source project will then be deleted.
 
-1. Go to the project you want merge into another project. (See [Use the Find screen][1].)
+1. Go to the project you want merge into another project. See [Use the Find screen][1].
 
 2. Click ![icon][img1] **Task** on the **Project** card and select **Merge projects**.
 
@@ -22,7 +22,7 @@ If you have two nearly identical projects, it is possible to merge them, includi
     ![Merge projects dialog -screenshot][img2]
 
     > [!TIP]
-    > To switch the **From** and **To** projects, click the ![icon][img3] button.
+    > To switch the **From** and **To** projects, click ![icon][img3].
 
 4. Select the **Replace empty fields in \[target project\] with data from \[source project\]** to update empty fields in the target project with details from the source one.
 
@@ -44,7 +44,7 @@ If you have two nearly identical projects, it is possible to merge them, includi
 * [Merge companies][2]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/find-dialog.md
+[1]: ../../search-options/learn/find-screen.md
 [2]: ../../company/learn/merge-companies.md
 [3]: edit.md
 

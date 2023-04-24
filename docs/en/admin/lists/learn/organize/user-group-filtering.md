@@ -4,16 +4,17 @@ title: User groups
 description: User groups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: user, group
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # User group filtering
 
-SuperOffice CRM users belong to different user groups depending on what type of rights they have. This is defined in the [**Users** screen][2].
+SuperOffice CRM users belong to different user groups depending on what type of rights they have. This is defined in the [Users screen][2].
 
-When you specify an item in a list in the **Lists** screen, you can also specify which user groups the item is visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
+When you specify an item in a list in the Lists screen, you can also specify which user groups the item is visible to, in the **Items** tab. Alternatively, you can go to the **User groups** tab to specify available items for each user group. Both methods are described below.
 
 ## Specify user groups for an item
 
@@ -21,7 +22,7 @@ When you specify an item in a list in the **Lists** screen, you can also specify
 
 2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
 
-3. Check **Use grouping and user group filtering for this list** in the top right corner.
+3. Check **Use grouping and user group filtering for this list** in the upper right corner.
 
     > [!NOTE]
     > If you do not check **Use grouping and user group filtering for this list**, all items in the list are visible for all user groups.
@@ -47,7 +48,7 @@ You can also specify available items for a user group:
 
 2. [!include[Click arrow and select](../includes/expand-list.md)] the required list.
 
-3. Check **Use grouping and user group filtering for this list** in the top right corner.
+3. Check **Use grouping and user group filtering for this list** in the upper right corner.
 
     > [!NOTE]
     > If you do not check **Use grouping and user group filtering for this list**, all items in the list will be visible for all user groups.

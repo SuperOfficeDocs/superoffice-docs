@@ -15,7 +15,7 @@ so.envir: onsite
 
 1. [!include[How to open import](includes/open-import.md)]
 
-[!include[Select file](includes/step-select-file.md)]
+1. [!include[Select file](includes/step-select-file.md)]
 
 1. The contents of the first record in the import file are displayed in the **Field in file** column under **Field mapping**. Select a field you want to import into the database.
 

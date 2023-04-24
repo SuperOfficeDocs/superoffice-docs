@@ -4,8 +4,9 @@ title:  Debug sessions
 description: Debug sessions
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
-so.topic: help
+keywords: CRMScript
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -17,8 +18,9 @@ The **Debug sessions** tab contains a list of all active debug sessions in the s
 
 ## Go to the Debug sessions tab
 
-* In SuperOffice Service: Select ![icon][img2] **System settings** > **System design** > **CRMScript** and go to the **Debug sessions** tab.
-* In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Debug sessions** tab.
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
+
+1. Click **CRMScript** and select the **Debug sessions** tab.
 
 ## Start debug session
 
@@ -32,10 +34,9 @@ The debug tool makes it easy to find and fix bugs inside your scripts and macros
 
 You can debug a script or macro by opening it in the **Macros and scripts** tab and click ![icon][img4] **Debug script**.
 
-To go to the **Macros and scripts** tab:
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-* In SuperOffice Service: Select ![icon][img2] **System settings** > **System design** > **CRMScript** and go to the **Macros and scripts** tab.
-* In SuperOffice Settings and maintenance: Click **CRMScript** in the navigator and go to the **Macros and scripts** tab.
+1. Click **CRMScript** and select the **Macros and scripts** tab.
 
 You can also click ![icon][img3] **Trace script** to start [tracing a script][2].
 
@@ -44,6 +45,5 @@ You can also click ![icon][img3] **Trace script** to start [tracing a script][2]
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/run-script.png
-[img2]: ../../../../media/icons/settings-small.png
 [img3]: ../../../../media/icons/btn-script-trace-small.png
 [img4]: ../../../../../common/icons/bug.png

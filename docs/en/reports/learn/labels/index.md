@@ -12,7 +12,7 @@ language: en
 # Display labels
 
 > [!TIP]
-> If you are not sure if your report is a label format, you can check the image at the top right in the **Reports** screen. [How][1].
+> If you are not sure if your report is a label format, you can check the image at the upper right in the **Reports** screen. [How][1].
 
 1. [!include[How to-goto-reports](../includes/goto-reports.md)]
 
@@ -27,7 +27,7 @@ language: en
 
 1. Click **OK**. A PDF is generated in your browser.
 
-[!include[Open PDF](../includes/step-open-pdf.md)]
+1. [!include[Open PDF](../includes/step-open-pdf.md)]
 
 1. You can save the PDF file from the PDF viewer, so you can open it later.
 

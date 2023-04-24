@@ -19,7 +19,7 @@ Labels can be used to create headings for specific groups of fields or a column.
 2. Click and drag the **Label** element to the layout.
 3. Click the label.
 4. In the **Settings** sections, replace the text **New label** with the new label name.
-5. You can also add the label in other languages by clicking ![icon][img1] (see [Translation][2]).
+5. You can also [add the label in other languages][2] by clicking ![icon][img1].
 6. Change the font formatting as necessary.
 
 ## Add dividers

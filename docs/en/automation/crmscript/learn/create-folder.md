@@ -4,8 +4,10 @@ title: Macro/script folder properties
 description: Macro/script folder properties
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Service
+keywords: Service, folder
 so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -31,12 +33,12 @@ You can edit both the name of a folder and the details you entered when creating
 
 ## Delete folders
 
-When you delete a folder, all its contents (such as selections, FAQ entries, reply templates, tables, scripts, and macros) are also deleted from SuperOffice Service.
+When you delete a folder, all its contents (such as selections, FAQ entries, reply templates, tables, scripts, and macros) are also deleted from SuperOffice.
 
 1. Go to the required folder.
 2. Click the name of the folder.
 3. Click **Delete**.
-4. Click **OK** to confirm. The folder and its contents are removed from SuperOffice Service.
+4. Click **OK** to confirm. The folder and its contents are removed from SuperOffice.
 
 <!-- Referenced links -->
 

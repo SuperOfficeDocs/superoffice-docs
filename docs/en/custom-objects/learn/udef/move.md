@@ -5,7 +5,10 @@ description: Moving fields
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field
-so.topic: help
+so.topic: howto
+so.user: admin
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 

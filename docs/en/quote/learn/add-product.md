@@ -5,7 +5,7 @@ description: Add products to quote
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: quote
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -42,7 +42,7 @@ In the **Add/edit product** dialog, you can add a product, and specify a quantit
 
 2. Start typing a product name in the **Product search** field to search for a product. Click the search icon ![icon][img1] to search for products using a variety of different criteria, for example, by product range, product groups/categories, name, and item codes. The search includes all active price lists with the applicable currency.
 
-3. Once you have found the products you want to add to the quote, select them (**Ctrl+click**), and click **OK**. The products are displayed in the **Products** tab (or in the tab for the alternative you have created).
+3. After you have found the products you want to add to the quote, select them (**Ctrl+click**), and click **OK**. The products are displayed in the **Products** tab (or in the tab for the alternative you have created).
 
 4. Double-click a product to change the quantity, discounts, and so on.
 
@@ -63,19 +63,19 @@ In the area on the left of the **Add/edit product** dialog, the product name/cod
 
 ## Image tab
 
-An image of the product is shown here, if this is defined in SuperOffice Settings and maintenance.
+An image of the product is shown here, if this is defined in Settings and maintenance.
 
 ## Description tab
 
-Detailed product information is shown here, if this is defined in SuperOffice Settings and maintenance.
+Detailed product information is shown here, if this is defined in Settings and maintenance.
 
 ## Details tab
 
-Detailed price calculations are shown here. The content of this tab is defined in SuperOffice Settings and maintenance.
+Detailed price calculations are shown here. The content of this tab is defined in Settings and maintenance.
 
 ## <a id="warning" />Warnings and how to deal with them
 
-In SuperOffice Settings and maintenance, different rules can be defined for what is allowed and not allowed when you add products to a quote. Depending on how these rules are defined, various icons/warnings may be displayed when you add products to a quote. In some cases, the quote must be [approved before sending][1].
+In Settings and maintenance, different rules can be defined for what is allowed and not allowed when you add products to a quote. Depending on how these rules are defined, various icons/warnings may be displayed when you add products to a quote. In some cases, the quote must be [approved before sending][1].
 
 > [!NOTE]
 > Products are added to and saved in a quote even if warnings and other messages are displayed, but you cannot send the quote while it contains errors and warnings. You must either correct the error or get the quote approved.

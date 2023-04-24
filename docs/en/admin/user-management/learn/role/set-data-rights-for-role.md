@@ -1,11 +1,12 @@
 ---
-uid: help-en-set-data-rights-for-role
+uid: help-en-role-set-data-rights
 title: Set data rights for role
 description: Set data rights for role
-author: SuperOffice RnD
-so.date: 12.30.2022
-keywords: Settings and maintenance, role
+author: Bergfrid Dias
+so.date: 03.15.2023
+keywords: user management, role, access, rights
 so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -13,19 +14,19 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-You can set rights for [data objects][2] based on who owns the object. All users who belong to this role will be assigned rights based on the settings you make here.
+You can set rights for [data objects][2] based on who owns the object. All users who belong to this [role][2] will be assigned rights based on the settings you make here.
 
-**Steps:**
+## Steps
 
 1. [!include[Open Roles](includes/open-roles.md)]
 
-2. Choose the **Associates** tab or the **External** tab (<!-- onsite-->).
+2. Choose the **Associates** tab or the **External** tab (onsite).
 
     [How to edit the role for anonymous users.][1]
 
 3. Select the required role in the **Roles** list. The rights for the selected role are displayed in the **Data rights** tab.
 
-4. Click the arrow (![icon][img3] ) next to the right you want to change, and select the required right.
+4. Click the ![icon][img3] arrow next to the right you want to change, and select the required right.
 
     | Name | Rights | Tooltips |
     |---|---|---|
@@ -57,11 +58,11 @@ You can set rights for [data objects][2] based on who owns the object. All users
 
 ## How do I display data objects for external users?
 
-If the data objects (companies, projects, documents and so on) are to be made accessible to external users (Audience users), it is not enough just to assign the external users read (or higher) access. The data objects must also be published in SuperOffice CRM.
+If the data objects (companies, projects, documents and so on) to make accessible to external users (Audience users), it is not enough just to assign the external users read (or higher) access. The data objects must also be published in SuperOffice.
 
 ## Access rights to reports
 
-All SuperOffice CRM users have access to the **Reports** screen in SuperOffice CRM, but the individual reports you can access depend on the rights you have in respect of follow-ups, documents, sales and the activities list (see [Role][2]). In practice, this means that you cannot generate reports for content you do not have permission to view in SuperOffice CRM.
+All SuperOffice CRM users have access to the Reports screen, but the individual reports you can access depend on the rights you have (role) in respect of follow-ups, documents, sales and the activities list. In practice, this means that you cannot generate reports for content you do not have permission to view.
 
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md

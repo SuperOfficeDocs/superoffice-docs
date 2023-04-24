@@ -6,6 +6,7 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: Mail Link
 so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -19,7 +20,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 3. Move the file to the *\so\_arc\template* folder.
 
-4. Open SuperOffice Settings and maintenance.
+4. Open Settings and maintenance.
 
 5. Open the **Lists** screen.
 
@@ -29,7 +30,7 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 8. Click the **Add** button ![icon][img2] below the **Items** list.
 
-9. In the **Edit list item** dialog, enter the required name of the template in the mandatory **Name** field.
+9. In the dialog, enter the required name of the template in the mandatory **Name** field.
 
 10. In the **File name** field, click the arrow ![icon][img1] and select the *.somail* file you just created.
 
@@ -41,9 +42,9 @@ You can create your own templates to use when creating emails from SuperOffice C
 
 14. In the **Intention** field, click the arrow ![icon][img1] and select one of the predefined options from the dropdown. These items are used in connection with status monitors in SuperOffice CRM (requires a SAINT licence).
 
-15. Check the **Publish** box if you want it to be possible to specify, in the **Document** dialog in SuperOffice CRM, that the document template in question should be made available to external users.
+15. Check the **Publish** box to allow a user to select, in the Document screen, that the document template in question should be made available to external users.
 
-16. Specify the default setting for the **Our reference (default)** field using template variables, for example {auth} for the sender’s first and last names.
+16. Specify the default setting for the **Our reference (default)** field using template variables, for example {auth} for the sender's first and last names.
 
 17. In the **Save to database** field, choose **No**.
 

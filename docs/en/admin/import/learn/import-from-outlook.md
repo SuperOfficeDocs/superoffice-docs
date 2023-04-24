@@ -17,27 +17,20 @@ language: en
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Click the Outlook icon ( ![icon][img2] ) under **Select an import source**. Outlook will open and a dialog is displayed while the export from Outlook is in progress.
-
-    <details><summary>Is an error message displayed?</summary>
-
-    You must install and configure SuperOffice WebTools to import companies from Outlook. In SuperOffice CRM, go to **File** > **Download** > **SuperOffice WebTools**. Contact user support if you experience problems.
-    </details>
+2. Click the ![icon][img2] Outlook icon under **Select an import source**. Outlook will open and a dialog is displayed while the export from Outlook is in progress.
 
     > [!NOTE]
     > The companies/contacts from Outlook will not be imported into the SuperOffice database yet. SuperOffice will only upload the company/contact list from Outlook, so that you can specify the import settings.
 
     When the import from Outlook is finished, the companies/contacts are displayed in the **Import** screen.
 
+### Is an error message displayed?
+
+[!include[WebTools](includes/missing-webtools.md)]
+
 ## B. Adjust the import
 
 [!include[Adjust for Gmail/Outlook](includes/adjust-email-only.md)]
-
-1. [!include[Configure import settings](includes/configure-import-settings.md)]
-
-[!include[Enter concent comment](includes/step-concent-comment.md)]
-
-[!include[Preview import](includes/step-preview-import.md)]
 
 ### Troubleshooting
 

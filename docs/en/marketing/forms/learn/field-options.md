@@ -19,9 +19,9 @@ This is an overview of special options in some of the available fields.
 
 * **Contact - consent**
 
-  * **Purpose**: Select why the person must give their consent. The approval text and description are defined in SuperOffice Settings and maintenance.
+  * **Purpose**: Select why the person must give their consent. The approval text and description are defined in Settings and maintenance.
 
-  * **Show link to privacy statement**: Select this option to include the link to the privacy statement, as defined in SuperOffice Settings and maintenance.
+  * **Show link to privacy statement**: Select this option to include the link to the privacy statement,[!include[SM](../../../learn/includes/as-defined-sm.md)]
 
 * **Contact - subscription**: Select the subscriptions that should be visible in the form.
 
@@ -70,7 +70,7 @@ This is an overview of special options in some of the available fields.
 
 * **Rating**: A field where customers can rate for instance the service they received, using various rating types (stars, dice, 1-10 scale, and similar).
 
-* **Google reCAPTCHA**: The [reCAPTCHA feature][1] ("I’m not a robot" check-box) is a free Google service that will ensure that only real users can send in web forms. This prevents spam and automated bots from sabotaging your data collection.
+* **Google reCAPTCHA**: The [reCAPTCHA feature][1] ("I'm not a robot" check-box) is a free Google service that will ensure that only real users can send in web forms. This prevents spam and automated bots from sabotaging your data collection.
 
 ## View elements
 

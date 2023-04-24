@@ -5,7 +5,9 @@ description: Select page 1 fields
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field
-so.topic: help
+so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -16,15 +18,13 @@ language: en
 
 Among the user-defined fields that are displayed in the **More** tabs in SuperOffice CRM, you can choose *three* that will function as page 1 fields (so called because they are displayed on the "first page" in their respective screens).
 
-<details><summary>Where can I display Page 1 fields?</summary>
+## Where can I display Page 1 fields?
 
 [!include[List](includes/list-page-1-field-locations.md)]
 
-</details>
-
 ## To display a user-defined field on the first page
 
-[!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](includes/goto-fields.md)]
 
 1. Check **Allow different page 1 fields for different user groups** at the bottom of the tab to specify different page 1 fields for different user groups. If not checked, the fields you specify are used for all user groups.
 
@@ -39,12 +39,12 @@ Among the user-defined fields that are displayed in the **More** tabs in SuperOf
 When you select a name in the **User group** list, the available page 1 fields for the selected user group are displayed under **Fields 1**, **2** and **3**.
 
 > [!NOTE]
-> User groups are defined in the **Lists** screen, and the group that a user belongs to is defined in the **Users** screen.
+> User groups are defined in the **Lists** screen, and the group that a user belongs to is defined in the Users screen.
 
-If you select **(all user groups)** in the **User group** list, select a field or fields and save the setup, the same selection of fields will apply to all user groups in SuperOffice CRM. If you then select a specific user group, you can override the existing field setup for just this group by using a different specification. If you do not specify anything in a field, it is left empty – since the override applies to all three fields irrespective of their contents.
+If you select **(all user groups)** in the **User group** list, select a field or fields and save the setup, the same selection of fields will apply to all user groups in SuperOffice CRM. If you then select a specific user group, you can override the existing field setup for just this group by using a different specification. If you do not specify anything in a field, it is left empty – because the override applies to all three fields irrespective of their contents.
 
 > [!NOTE]
-> You must publish an override for a single user group *after* you specify a setup for all user groups. If you don't, it will not take effect.
+> You must publish an override for a single user group *after* you specify a setup for all user groups. Otherwise, it will not take effect.
 
 <!-- Referenced links -->
 

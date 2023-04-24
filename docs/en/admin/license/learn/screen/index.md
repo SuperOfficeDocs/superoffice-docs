@@ -5,7 +5,7 @@ description: The Licences screen in Settings and maintenance
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: license, metered service, database owner, status tab
-so.topic: help
+so.topic: reference
 language: en
 ---
 
@@ -13,10 +13,10 @@ language: en
 
 ## The SuperOffice tab
 
-In the **SuperOffice** tab in the **Licences** screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
+In the **SuperOffice** tab in the Licences screen, you can view and update the license information for your version of SuperOffice CRM and associated modules.
 
 > [!NOTE]
-> If a third-party module or similar is installed, several tabs are displayed here.
+> If a third-party add-on is installed, several tabs are displayed here.
 
 ### Owner information
 
@@ -28,7 +28,7 @@ The list at the bottom shows which licenses are in use and how many are availabl
 
 ## The Status tab
 
-Updated information about the system is displayed in the **Status** tab in the **Licences** screen. The **Status** screen is divided into the following main sections:
+Updated information about the system is displayed in the **Status** tab in the Licences screen. The **Status** screen is divided into the following main sections:
 
 ### Database
 
@@ -38,7 +38,7 @@ Shows the database owner, serial number, and type, which are specified on instal
 
 Click this button to open the dashboard for your metered services.
 
-Metered services are services that are invoiced once you exceed a certain level/number of
+Metered services are services that are invoiced after you exceed a certain level/number of
 
 * Storage space used
 * Emails sent via Mailings
@@ -46,7 +46,7 @@ Metered services are services that are invoiced once you exceed a certain level/
 * Chat sessions started
 * Form submissions
 
-Administrators can keep track of exactly how much each service is used per month. Whenever your company exceeds the threshold, you’ll automatically be invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
+Administrators can keep track of exactly how much each service is used per month. Whenever your company exceeds the threshold, you are automatically invoiced for these services on your next monthly invoice. The threshold depends on the number of users. The more users you have, the higher the threshold will be.
 
 ### System notifications
 

@@ -3,13 +3,16 @@ uid: help-en-import-settings
 title: Import settings
 description: Import settings
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, import
-so.topic: help
+so.date: 02.22.2023
+keywords: import
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Configure import settings
+
+Adjusting the import settings will save you time and make it easier to import your data correctly.
 
 [!include[Back up database before import](includes/caution-backup-before-import.md)]
 
@@ -21,6 +24,12 @@ This applies to the following, among other things:
 * Contacts that are not linked to companies.
 * Legal basis and consent source for contacts.
 * Lists: Select the preferred method for managing list elements in the import. For example, new categories, business types and phone numbers, new product categories, product families and product types.
+
+## What to consider before you import your contact or product information
+
+* You can define what the system should do if you import contacts that already exist in SuperOffice CRM. The system can overwrite or skip updating – it is your choice.
+
+* You can choose to have the system create new categories automatically, if you use a category that does not exist in SuperOffice CRM in your import file.
 
 ## Typical scenarios
 
@@ -42,21 +51,19 @@ This applies to the following, among other things:
 * I want to import all products into selected price list and manage any duplicates myself.
     Select the **Add always** option.
 
-<details><summary>Click to view example.</summary>
+### Example
 
-## Existing data
+**Existing data:**
 
 | **Company** | **Address** | **VAT No.** | **Code** |
-| **Import (Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
+| **Import Excel/Outlook/Gmail** | ACME Inc. | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
-## Action
+**Action:**
 
 | **Merge** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
 | **Replace** | ACME Inc. | Main street 456 | 11223344 | - |
 | **Skip record** | ACME Inc. | Broadway 123 | - | ACME1 |
-
-</details>
 
 ## Manage duplicates (company/contact)
 
@@ -64,41 +71,12 @@ A duplicate occurs if you have the same record in the import file and in the dat
 
 Under **Company**, and **Contact**, and **Product** in the **Import settings** dialog, specify how duplicates are to be managed.
 
-1. Click the **Duplicate match** list box and select the field(s) that are to be used to identify duplicate companies or contacts.
+1. Click the **Duplicate match** list box and select the fields that are to be used to identify duplicate companies or contacts.
 
     > [!NOTE]
     > To avoid the risk of overwriting data, you should choose the option that is unique for each company, contact, and product.
-
-    <details><summary>Click to find out more about the various options</summary>
-
-Company
-
-* **Name**: The company name must be identical.
-* **Name + Department**: Both the company name and the department must be identical.
-* **Number**: The company number must be identical.
-* **Code**: The company's code must be identical.
-* **VAT number**: The company's VAT number must be identical.
-* **ID**: The company's ID must be identical.
-
-Contact
-
-* **Name**: The contact's full name (first name+last name) must be identical.
-* **Email address**: The contact's email address must be identical.
-* **Mobile phone**: The contact's mobile phone number must be identical.
-* **Number**: The contact number must be identical.
-* **None - do not import contact**: Select this option if you do not want to import contacts.
-* **ID**: The contact ID must be identical.
-
-Product
-
-* **Name**: The product name must be identical.
-* **Code**: The product code must be identical.
-* **Name + Code**: Both the product name and the product code must be identical.
-
-> [!NOTE]
-> The data selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
-
-</details>
+    >
+    > The data selected for duplicate check MUST exist in the import file. If you select name+code, you import file must at minimum contain these columns.
 
 1. Click the **Action** list box and choose how duplicate hits are to be managed:
 
@@ -119,19 +97,48 @@ Product
       * If companies and contacts already exist in SuperOffice, they will not be imported.
       * If products already exist in the selected price list, they will not be imported.
 
+### Duplicate match options
+
+**Company:**
+
+* **Name**: The company name must be identical.
+* **Name + Department**: Both the company name and the department must be identical.
+* **Number**: The company number must be identical.
+* **Code**: The company's code must be identical.
+* **VAT number**: The company's VAT number must be identical.
+* **ID**: The company's ID must be identical.
+
+**Contact:**
+
+* **Name**: The contact's full name (first name+last name) must be identical.
+* **Email address**: The contact's email address must be identical.
+* **Mobile phone**: The contact's mobile phone number must be identical.
+* **Number**: The contact number must be identical.
+* **None - do not import contact**: Select this option if you do not want to import contacts.
+* **ID**: The contact ID must be identical.
+
+**Product:**
+
+* **Name**: The product name must be identical.
+* **Code**: The product code must be identical.
+* **Name + Code**: Both the product name and the product code must be identical.
+
 ## Manage contacts that do not belong to a company
 
 If contacts in the import source are not listed with a company, you have three options in the **If no company name** list box:
 
 * **Create company using contact name**: A company will be created using the contact name, with himself as the only contact.
+
 * **Skip - do not create company or contact**: The contact will not be imported.
+
 * **Import contacts without company**: The contact will be imported with no link to a company. This option is possible only if the global preference **Mandatory company on contact** is set to **No**.
 
 ## Privacy options for imported contacts
 
 When you import contacts, you must also set the legal basis and consent source for the purpose **Sales and service**:
 
-* **Legal basis**: Select a [legal basis][1] from the list, or select **Use default** to use the default legal basis defined in the **Privacy** screen.
+* **Legal basis**: Select a [legal basis][1] from the list, or select **Use default** to use the default value defined in the Privacy screen.
+
 * **Consent source**: This value is by default set to **Import**, but you can select another value in the list.
 
 ## Manage list values that do not exist in SuperOffice
@@ -163,6 +170,6 @@ The import source may, for example, contain product categories that are not regi
 * **Ignore - set to blank**: No new values will be added to SuperOffice.
 
 <!-- Referenced links -->
-[1]: ../../../security/privacy/learn/privacy.md
+[1]: ../../../security/privacy/learn/index.md
 
 <!-- Referenced images -->

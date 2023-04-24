@@ -4,6 +4,12 @@
 
 Using the document mailing workflow you can generate a PDF document to print and send to your customers. The first step in creating a document mailing, is called **Setup**. Here you can set the name of the mailing, the heading and attention text in the document, and set archive options for the mailing.
 
+You can connect the document mailing to a specific project. This can be relevant if you are creating mailings where the recipients are project members from a SuperOffice CRM project. By using template variables in the template, you can add project data to your mailing.
+
+You can connect the document mailing to a specific sale. This can be relevant if you are creating mailings where the recipients are sale stakeholders from a SuperOffice CRM sale. By using template variables in the template, you can add sales data to your mailing.
+
+**Steps:**
+
 1. Enter a name in the **Name of mailing** field.
 
 2. In the **Heading** field, enter the document title.
@@ -16,15 +22,7 @@ Using the document mailing workflow you can generate a PDF document to print and
 
 4. Optional: Start writing in the **Project** field to search for a SuperOffice CRM project.
 
-    <details><summary>Why</summary>
-    You can connect the document mailing to a specific project. This can be relevant if you are creating mailings where the recipients are project members from a SuperOffice CRM project. By using template variables in the template, you can add project data to your mailing.
-    </details>
-
 5. Optional: Start writing in the **Sale** field to search for a SuperOffice CRM sale.
-
-    <details><summary>Why</summary>
-    You can connect the document mailing to a specific sale. This can be relevant if you are creating mailings where the recipients are sale stakeholders from a SuperOffice CRM sale. By using template variables in the template, you can add sales data to your mailing.
-    </details>
 
 6. In the **Our ref** field, enter the name that should appear as our reference in the document. You can use SuperOffice CRM [template variables][1] in this field.
 

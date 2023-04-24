@@ -11,14 +11,14 @@ language: en
 
 # SuperOffice and licenses
 
-To log in to SuperOffice CRM from a Web or Windows client you need the following licenses:
+To log in to SuperOffice CRM from a Web client, you need the following licenses:
 
 * Login rights to SuperOffice CRM
-* A client license to Standard CRM
+* A system license to Standard CRM
 
 ## View license information
 
-1. In Settings and maintenance, go to the **Licences** screen.
+1. In Settings and maintenance, go to the Licences screen.
 1. Select the **SuperOffice** tab.
 1. The list shows the licenses you have [purchased and activated][1]. Click a license name to view more information about it.
 
@@ -28,19 +28,19 @@ To log in to SuperOffice CRM from a Web or Windows client you need the following
 
 | License | Description |
 |---|---|
-| system | Specifies which systems you have access to. |
-| SuperOffice Server | Required to use SuperOffice CRM, SuperOffice Service and the other SuperOffice modules. |
-| Online Web Services | Required to access SuperOffice CRM, SuperOffice Service and the other SuperOffice modules from a web client. |
+| System | Specifies which systems you have access to. |
+| SuperOffice Server | Required to use SuperOffice CRM. |
+| Online Web Services | Required to access SuperOffice CRM from a web client. |
 | Area Management | Allows the definition of areas in Settings and maintenance. |
 | Sales Intelligence | Allows [SAINT status monitors][2]. |
 | Exchange Synchronizer | Allows use of SuperOffice Synchronizer.
 | SuperOffice Expander Services | Allows functionality for anonymous and external users via SuperOffice Audience or third-party applications, among other things. |
-| Customer Centre | Allows use of the customer centre module in SuperOffice Service. |
-| Sales Quote Management | Allows use of quote module in Sale. |
+| Customer Centre | Allows use of the Customer Centre. |
+| Sales Quote Management | Allows use of quotes. |
 
 ## Site licenses
 
-There are also so-called site licenses. A "site" in SuperOffice terms corresponds to a database or a satellite database. A site license specifies the following:
+There are also so-called site licenses. A *site* in SuperOffice terms corresponds to a database or a satellite database. A site license specifies the following:
 
 | License | Description |
 |---|---|
@@ -48,7 +48,7 @@ There are also so-called site licenses. A "site" in SuperOffice terms correspond
 | Reporter Studio | The maximum number of sites which can use SuperOffice Reporter Studio. |
 | Audience | The maximum number of sites which can use SuperOffice Audience. |
 
-## User licenses (Windows)
+## User licenses (Windows - legacy)
 
 Finally, there are user licenses for SuperOffice CRM for Windows, which are purchased for a specific number of users. This applies amongst others to the following products:
 
@@ -66,7 +66,7 @@ Finally, there are user licenses for SuperOffice CRM for Windows, which are purc
 | Sale Quote Access | Access to the Quote module, in addition to Standard CRM. |
 
 > [!NOTE]
-> You assign user licenses (CAL / Client Access Licence) to users from the **Associates** tab in the **Users** screen.
+> You assign user licenses (CAL / Client Access Licence) to users from the **Associates** tab in the Users screen.
 
 ## Related topics
 

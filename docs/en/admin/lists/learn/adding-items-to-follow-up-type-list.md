@@ -20,13 +20,13 @@ language: en
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Click the arrow ( ![icon][img1] ) next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
+2. Click the ![icon][img1] arrow next to the **Type** field and select the required follow-up type from the list box. You can choose from **Appointment**, **Phone call** and **Task**.
 
-3. In the **Direction** field, specify if the follow-up is outgoing or incoming by clicking the arrow ( ![icon][img1] ) and choosing from the list box.
+3. In the **Direction** field, specify if the follow-up is outgoing or incoming by clicking the arrow and choosing from the list box.
 
-4. In the **Color** field, choose which background color this follow-up type should have in the **Diary** screen in SuperOffice CRM. This setting will then apply across the organization.
+4. In the **Color** field, choose which background color this follow-up type should have in the Diary screen. This setting will then apply across the organization.
 
-5. In the **Intention** field, click the arrow (![icon][img1] ) and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT][2]).
+5. In the **Intention** field, click the arrow and select one of the predefined options from the list box. These items are used in connection with status monitors in SuperOffice CRM (requires a licence for [SAINT][2]).
 
     > [!TIP]
     > You can create new options in addition to the predefined ones by adding them to the **Follow-up - Intention** list in Settings and maintenance. Follow the procedure under [Add items][2].

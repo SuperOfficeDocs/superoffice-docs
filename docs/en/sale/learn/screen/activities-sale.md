@@ -21,30 +21,15 @@ The following columns are displayed on the **Activities** section tab:
 
 * The second column contains icons that indicate the type of activity, one category for each of the different types. For example, a telephone icon indicates a phone call. These icons reflect the text in the **Type** column.
 
-    <details><summary>Click here to see a list of the different icons</summary>
-
-    [!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
-    </details>
-
 * The date of the activity.
 * The type of activity.
 * Any description of the activity.
 * Any company and contact the activity is linked to.
 * ID specifies which user owns the activity.
 
-## Show all follow-ups and documents
+### Icons
 
-By default, the activities for the current sales stage are shown in the lower half, but you can choose to show all activities and documents for all stages by checking **Show all stages** at the bottom right of the section tab. You can also show the follow-ups and documents for one of the stages by clicking the button with the name of the stage.
-
-You can go to the next stage by selecting it in the **Stage** list on the main card.
-
-A sales guide where only follow-ups and documents for the current stage are displayed:
-
-![Sales guide with follow-ups and documents only for the current stage -screenshot][img3]
-
-A sales guide where all follow-ups and documents for all stages are displayed:
-
-![Sales guide with all follow-ups and documents for all stages -screenshot][img4]
+[!include[Table showing icons for activities](../../../learn/includes/table-activity-icons.md)]
 
 ## What would you like to do now?
 
@@ -58,8 +43,8 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 
 <!-- Referenced links -->
 [1]: ../../../diary/learn/change-completed-status.md
-[2]: ../../../learn/getting-started/changing-column-view.md
-[7]: ../../../learn/getting-started/using-filter-function-contact.md
+[2]: ../../../learn/section-tabs/configure-columns.md
+[7]: ../../../learn/section-tabs/filter.md
 [3]: ../../../learn/activity/view-activities.md
 [4]: ../../../learn/activity/delete-activities-contact.md
 [5]: ../../../learn/activity/replying-to-email-from-activities-section-tab.md
@@ -68,5 +53,3 @@ A sales guide where all follow-ups and documents for all stages are displayed:
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/check.bmp
 [img2]: ../../../../media/icons/sale-sold-details.bmp
-[img3]: media/activities-current-stage.bmp
-[img4]: media/activities-all-stages.bmp

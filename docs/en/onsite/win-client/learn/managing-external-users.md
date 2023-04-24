@@ -12,13 +12,13 @@ so.envir: onsite
 
 # Manage external users
 
-If you are assigned the **Allow administration of external users** right in SuperOffice Settings and maintenance, you can add and remove external users in SuperOffice CRM in connection with Audience or third-party applications. External users can also be administrated in SuperOffice Settings and maintenance.
+If you are assigned the **Allow administration of external users** right in Settings and maintenance, you can add and remove external users in SuperOffice CRM in connection with Audience or third-party applications. External users can also be administrated in Settings and maintenance.
 
 ## To open the External users dialog
 
 1. Go to the company card for the company you want to manage external users for.
 
-    There are several ways to open the **Company** screen:
+    There are several ways to open the Company screen:
 
     * By clicking the **Company** button in the Navigator.
     * By using the [history list][1] or [FastSearcher][2].
@@ -31,7 +31,7 @@ If you are assigned the **Allow administration of external users** right in Supe
 ## Add an external user
 
 1. Select the required contact in the list, and click **Edit**.
-2. In the dialog which appears, enter the required user ID, password and role. You can also specify if the login should be enabled:
+2. In the dialog that appears, enter the required user ID, password, and role. You can also specify if the login should be enabled:
     * **Active login**: If the user has an active login, they are registered as an external user and can log in to the system.
     * **Inactive login**: If the user has an inactive login, they are registered as an external user but cannot log in to the system.
 3. Click **Save** to save the settings and close the dialog, or **Cancel** to close the dialog without saving the settings.
@@ -46,7 +46,7 @@ Select the contact you want to remove the login for and click **Remove login**. 
 
 ## Filter the list
 
-Using the **Show** list box at the bottom right of the dialog, you can filter the list of contacts according to user status.
+Using the **Show** list box at the lower right of the dialog, you can filter the list of contacts according to user status.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/using-history-list.md

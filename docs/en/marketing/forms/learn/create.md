@@ -1,19 +1,29 @@
 ---
 uid: help-en-form-create
 title: Create a new form
-description: Create a new form
+description: Learn how you can create a web form in this how-to guide.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Forms
+so.date: 02.21.2023
+keywords: form, opt-in
 so.topic: howto
 language: en
 ---
 
 # Create a new form
 
+Web forms make it easier to interact with customers and prospects via your website or customer centre.
+
+You can either create your own form from scratch, use a template from the form templates or choose one from our Online template library.
+
+Watch this video to learn how you can create a web form (video length - 7:49) or follow the steps below.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
+
+## Create new
+
 1. Go to the **Forms** tab.
 2. If required, click **Add folder** to [create a folder for the form][8].
-
 3. Select **Form** under **Create new** on the right side of the screen. The **Edit form** screen displays.
 4. Enter a descriptive name for the template in the **Form name** field.
 5. Fill in the fields as described below.
@@ -65,11 +75,11 @@ Fill in the following information in the **Properties** category:
   * **Until**: Select a date. The form will be deactivated on this date.
   * **Max**: Enter the number of responses. The form will be deactivated after the specified number of responses are received.
 
-* **Use Google Analytics**: Select this option to track the form and connect it to [Google Analytics][1] (if that is set up for your web site). In the field below this option, you can enter the Google Analytics tracking ID for this form.
+* **Use Google Analytics**: Select this option to track the form and connect it to [Google Analytics][1] (if that is set up for your website). In the field below this option, you can enter the Google Analytics tracking ID for this form.
 
 ### Add fields to the form
 
-In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview on the right-hand side is automatically updated.
+In the **Fields** category you add the fields that should be included in the form. As you add and edit fields, the preview is automatically updated.
 
 1. Go to the **Fields** category. By default, the **Contact - name** field and **OK** button are added to the new form.
 
@@ -86,7 +96,7 @@ In the **Fields** category you add the fields that should be included in the for
 
 6. Click ![icon][img3] at the top of the field and drag it to the desired position in the form.
 
-7. Select the field and edit the field name if relevant. The original field name will always be displayed in the top right corner of the field.
+7. Select the field and edit the field name if relevant. The original field name will always be displayed in the upper right corner of the field.
 
 8. You can also edit these settings (optional):
 
@@ -112,10 +122,17 @@ The preview on the right is updated automatically when you change any settings. 
 
 ### Activate double opt-in
 
-This option adds an extra layer of security to the form. If you activate this option, the person submitting the form must also confirm their email address. This is done by sending them an email when they submit the form. The email contains a link they must click to confirm that the email address is correct.
+Double opt-in is an extra step in the form submission process, where a person has to confirm their email address to complete their form submission. They get an email with a link they must click to confirm that the email address is correct.
 
 > [!NOTE]
 > The link is valid for 30 minutes by default.
+
+Using the double opt-in feature will guarantee that people submit the right email address. This means that your mailing list will be more reliable, which will help raise the opening rates of your mailings. As an added bonus, you won't have to spend time correcting spelling mistakes in email addresses or deleting email addresses that do not exist. And it also will help you in your effort to stay GDPR-compliant.
+
+Watch this video to learn how to use the double opt-in feature on your web form (video length - 3:45) or follow the steps below.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/o7mkk3n7zuw]
 
 **Steps:**
 
@@ -135,7 +152,18 @@ If double opt-in is activated for a form, all [submissions for this form][5] hav
 
 ### Thank you page
 
-When a person completes and submits a form, you should thank them and let them know what will happen next. Choose one of the following options:
+When a person completes and submits a form, you should thank them and let them know what will happen next. It is always nice to say thank you. People really appreciate it.
+
+Besides saying thank you, you can use this page to inform your visitors about other products or events. Simply add your inspirational copy to the page and link it to specific places on your website. This way the customer can continue to explore your website after they've submitted their details.
+
+The effect will be uplifting – a "Thank you" page will both elevate their customer experience and boost your customer loyalty.
+
+Watch this video to learn how to add a "Thank you" page to your web form (video length - 1:48) or follow the steps below.
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
+
+Choose one of the following options:
 
 * **Redirect to external website**: Enter the link to the web page with more information.
 * **Show this message**: Enter the text to display.
@@ -153,7 +181,7 @@ If a person opens a form that is inactive, you can either redirect them to anoth
 
 Here you can define how a submitted form should be processed. Fill in the following fields:
 
-**Notify of submissions by creating requests**: Select this option to create a request for every form that is submitted. Enter a title and select the category and priority for the request. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
+**Notify of submissions by creating requests**: Select this option to create a request for every form that is submitted. Enter a title and select the category and priority for the request. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the Company and Contact screens in SuperOffice CRM.
 
 **How should a form submission be processed?** Here you can define whether the submitted forms should be processed automatically.
 
@@ -167,7 +195,7 @@ Here you can define how a submitted form should be processed. Fill in the follow
 * **Add contact to project**: Select a project. Contacts who submit this form will be added to this project.
 * **Add interest to contact**: Select an interest. This interest will be added to contacts who submit this form.
 * **Email response**: Select a form response to send to contacts when their form is processed. [How to create a form response][7].
-* **Create request**: If you added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the **Company** and **Contact** screens in SuperOffice CRM.
+* **Create request**: If you added a request field in the **Fields** category, you must also select a default category and priority for the requests that are create from this form. Submitted forms will be available under **Requests** in SuperOffice Service and in the **Request** section tab in the Company and Contact screens in SuperOffice CRM.
 * **Execute CRMScript**: Select a script or macro to run when a form submission is processed. See [CRMScript][9].
 * **Default category** / **Default business**: Select a default category and business for all contacts or companies that are added to SuperOffice based on submitted forms. With this option, you can group the form submissions and new contacts/companies to one specific category and/or business.
     For example, if you have a form for prospects, you select prospects as your category. You can then easily create selections based on this category and/or business.

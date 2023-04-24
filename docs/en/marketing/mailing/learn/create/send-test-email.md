@@ -1,17 +1,23 @@
 ---
 uid: help-en-mailing-send-test
 title: Test mailing by sending a test email
-description: Test mailing by sending a test email
+description: In this how-to guide you will learn how to send a test mailing.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.20.2023
 keywords: Marketing
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Send a test email for email mailings and form responses
 
-When you create a new mailing, you can also do a few tests to check that the mailing is working properly and that the layout looks OK. In the **Content** step you can send a test email. This is not relevant for document and SMS.
+After you have created a punchy subject line, added your text, inserted links and images into your email template, you can do a few tests to check that the mailing is working properly and that the layout looks OK. In the **Content** step you can send a test email. This is not relevant for document and SMS.
+
+Create a small selection that consists of you and some of your colleagues. You can send the mailing you have prepared to yourself and colleagues to get feedback and approval before sending it to your target group.
+
+![Test your mailing before sending it to the public -screenshot][img2]
+
+## Steps
 
 1. Go to the **Content** step.
 2. Click the **Send test** button in the lower left corner.
@@ -36,10 +42,11 @@ When you are testing a mailing, it is important to check the following:
 When you have sent a test mailing, you must reset the counters for the link(s) in the message. Otherwise, the list will display both your own and others' clicking of links done during testing.
 
 1. Go to the links **Tracked links** tab
-2. Click the menu button ( ![icon][img1] ) next to the relevant link and select **Reset**. The **Clicks** column is set to **0**. Data about which customers clicked the link are also removed.
+2. Click the ![icon][img1] menu button next to the relevant link and select **Reset**. The **Clicks** column is set to **0**. Data about which customers clicked the link are also removed.
 
 <!-- Referenced links -->
-[1]: ../../../learn/editor/drag-and-drop/customize-for-mobile.md
+[1]: ../../../learn/customize-for-mobile.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-menu.png
+[img2]: media/test-mailing.png

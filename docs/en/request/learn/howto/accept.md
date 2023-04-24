@@ -3,9 +3,11 @@ uid: help-en-request-accept
 title: Take responsibility for requests
 description: Take responsibility for requests
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.13.2023
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
@@ -14,16 +16,16 @@ language: en
 This is particularly relevant for unassigned requests (those without a defined owner). To take over a request, it is important to follow the procedure below to identify that you have taken it over. Otherwise there is a risk of others answering the request at the same time.
 
 1. [Open the request][1].
-2. Accept:
+1. Accept:
 
-    * Click the ![icon][img1] **Actions** button and select **Accept request**. Or,
-    * In the **Owner** field, select yourself.
+    * Click the ![icon][img1] **Task** button and select **Accept**.
+    * Or, in the **Owner** field, select yourself.
 
 [!include[Get next request in queue](includes/howto-get-next-request.md)]
 
 ## What would you like to do now?
 
-* [Reply to a customer][2])
+* [Reply to a customer][2]
 * [Ask another request handler for help][3]
 * [Forward messages to external parties][4]
 

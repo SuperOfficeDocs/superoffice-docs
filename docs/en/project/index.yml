@@ -44,16 +44,16 @@ conceptualContent:
       links:
       - text: Organize files and activities in projects
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/project/
+        url: learn/index.md
       - text: Create project
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/project/create-projects/
+        url: learn/create.md
 
     # Card
     - title: Videos
       summary: ""
       links:
-      - text: How to add project member to projet
+      - text: How to add project member to project
         itemType: video
         url: https://www.youtube.com/watch?v=IaCy_2xwG6c
       - text: How to link document to project

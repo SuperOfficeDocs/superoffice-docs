@@ -17,7 +17,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 
 1. Click the **New email** button on the Microsoft Outlook toolbar.
 
-2. In the email window in the **To** field, enter the email address(es) of the recipient(s). You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
+2. In the email window in the **To** field, enter the email addresses of the recipients. You can also use the **Select recipients** dialog (see [Selecting recipients][2]).
 
 3. Write the message.
 
@@ -49,7 +49,7 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 9. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the document should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
-    > The **Visible for** field is only available if this right is assigned to you in SuperOffice Settings and maintenance.
+    > The **Visible for** field is only available if this right is assigned to you in Settings and maintenance.
 
 10. Click **OK** in the **New SuperOffice email** dialog. A new email window opens.
 

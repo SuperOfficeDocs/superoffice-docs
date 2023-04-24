@@ -1,26 +1,26 @@
 ---
 uid: help-en-template-variables
 title: Template variables
-description: Template variables
+description: With template variables you can personalise and automate the input of customer data
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: document
-so.topic: help
+so.date: 02.23.2023
+keywords: document, template, fariable
+so.topic: concept
 language: en
 ---
 
 # Template variables
 
-Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalise messages to customers and set up complex quotes.
+Template variables are used to insert data from SuperOffice into emails, quotes, meeting notifications, document templates, and so on. You can use template variables to personalize and automate the input of customer data (or data from contact, sale and other) into your content and set up complex quotes
+
+> [!TIP]
+> See all the different [template variables][2] you have for the **company card**.
 
 ## Examples
 
-Here we show you some examples of how to use template variables.
+Here we show you some examples of how to use template variables. Many of the examples use the default templates in SuperOffice.
 
-> [!NOTE]
-> Most of the examples below are available in the default templates in SuperOffice.
-
-### How to personalise an email using template variables
+### How to personalize an email using template variables
 
 Instead of this text:
 
@@ -98,7 +98,7 @@ Our contact: John Jones
 
 * In documents of file type .doc in Office 2003 and older, you must use angled brackets – &lt; &gt; – around variables instead of curly brackets – { } –.
 * The whole variable must be formatted using the same font and font size, and you must only use lowercase letters. However, if the **Use case-sensitive template variables** preference is enabled, the template variable can be formatted.
-* You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company’s name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
+* You can mix normal text and variables in the template document: For example, you can enter template variables that retrieve a company's name and address, type in standard text for the body of the letter and enter the variable for our contact to conclude the letter.
 * You can also use fill characters in the template document (see below).
 * The date and time in template variables are controlled by the PC's system clock.
 
@@ -107,7 +107,7 @@ Our contact: John Jones
 
 ## Fill characters
 
-Sometimes you should use fill characters in templates so that a field’s contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
+Sometimes you should use fill characters in templates so that a field's contents or formatting will not be changed or deleted if the content of a field is shorter than the length specified by the field variable.
 
 Use the variable padd# to specify the fill character to use. Replace the \# character with the ANSI code of the character you wish to use as a fill character. You will usually find a list of ANSI codes in the manual for the program you are creating templates for.
 
@@ -134,11 +134,22 @@ When you use address variables from the company card, the system will select add
 2. If the above option is not active, the company's address data is used.
 3. If the company's postal address is empty, the company street address is used.
 
+## Quote template variables
+
+When using quote and products in SuperOffice, you need to set up quote templates and the variables is found in a pdf that also shows how to work with quote templates.
+
+The templates for quote documents, quote details and order confirmations differ from ordinary document templates, as they use "mergefields" in addition to standard template variables.
+
+## Service and Marketing template variables
+
+When generating email templates for requests and mailings (and message templates) in Marketing, you can personalize the email or mailing with template variables. Those variables are slightly different from the ones used in documents.
+
 ## Reference
 
 The reference is grouped by area. [Go to reference][1]
 
 <!-- Referenced links -->
 [1]: ../templates/variables/index.md
+[2]: ../templates/variables/from-company-card.md
 
 <!-- Referenced images -->

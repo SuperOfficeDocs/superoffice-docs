@@ -11,7 +11,7 @@ language: en
 
 # The ERP tab
 
-If your organization has a license for SuperOffice Integration Server, the **ERP** tab is displayed in the **Contact** and **Project** screens.
+If your organization has a license for SuperOffice Integration Server, the **ERP** tab is displayed in the Contact and Project screens.
 
 ## Contact screen
 
