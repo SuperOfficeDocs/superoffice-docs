@@ -127,7 +127,7 @@ This tab contains any extra fields defined for requests. These will vary from co
 
 <!-- Referenced links -->
 [1]: ../../../learn/getting-started/edit-email-signature.md
-[2]: reply.md#add-reply-templates-to-messages
+[2]: reply.md#reply-templ
 [3]: ../priority/escalation-levels.md
 [4]: ../tags.md
 [5]: edit-message.md

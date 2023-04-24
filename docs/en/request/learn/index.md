@@ -48,7 +48,7 @@ Requests can be linked to [contacts][2], who in turn can belong to a [company][3
 * [Find requests][10]
 * [7 tips to provide best-in-class customer service with SuperOffice Service][20] - blog
 
-## Request management
+## <a id="request-mgt" />Request management
 
 Incoming requests can arrive through many channels, and there is more than one way to register and reply to them. How request handling progresses will vary from request to request.
 

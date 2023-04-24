@@ -33,7 +33,7 @@ When you open a request and select **Reply**, the [email signature][7] you have 
 
 1. Click **Save**. The message is sent to the contact.
 
-## Add reply templates to messages
+## <a id="reply-templ" />Add reply templates to messages
 
 When you respond to an contact enquiry, you can save time by using a [reply template][8] as your basis for a customised response to a contact. Choose which reply template you wish to add to the message field and then edit the text and add or remove attachments to tailored it to the precise situation.
 
