@@ -106,6 +106,8 @@ items:
         href: templates/variables/from-doc-dialog-or-system.md
       - name: From project card
         href: templates/variables/from-project-card.md
+      - name: For request
+        href: templates/variables/for-request.md  
       - name: From senders company card
         href: templates/variables/from-senders-company-card.md
       - name: Misc
