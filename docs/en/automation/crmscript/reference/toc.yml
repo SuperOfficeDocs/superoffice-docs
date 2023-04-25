@@ -811,41 +811,6 @@ items:
     href: CRMScript.NetServer.NSTicketCategoryEntity.yml
   - name: NSTicketCategoryMembershipEntity
     href: CRMScript.NetServer.NSTicketCategoryMembershipEntity.yml
-  - name: NSTicketEntity
-    href: CRMScript.NetServer.NSTicketEntity.yml
-  - name: NSTicketInfo
-    href: CRMScript.NetServer.NSTicketInfo.yml
-  - name: NSTicketMessage
-    href: CRMScript.NetServer.NSTicketMessage.yml
-  - name: NSTicketMessageEntity
-    href: CRMScript.NetServer.NSTicketMessageEntity.yml
-  - name: NSTicketMessageHeader
-    href: CRMScript.NetServer.NSTicketMessageHeader.yml
-  - name: NSTicketPriority
-    href: CRMScript.NetServer.NSTicketPriority.yml
-  - name: NSTicketPriorityEntity
-    href: CRMScript.NetServer.NSTicketPriorityEntity.yml
-  - name: NSTicketStatusEntity
-    href: CRMScript.NetServer.NSTicketStatusEntity.yml
-  - name: NSTicketSummaryItem
-    href: CRMScript.NetServer.NSTicketSummaryItem.yml
-  - name: NSTimeZoneAgent
-    href: CRMScript.NetServer.NSTimeZoneAgent.yml
-  - name: NSTimeZoneData
-    href: CRMScript.NetServer.NSTimeZoneData.yml
-  - name: NSTimeZoneRule
-    href: CRMScript.NetServer.NSTimeZoneRule.yml
-  - name: NSTokenManagementInfo
-    href: CRMScript.NetServer.NSTokenManagementInfo.yml
-  - name: NSTooltipsAgent
-    href: CRMScript.NetServer.NSTooltipsAgent.yml
-  - name: NSTypicalSearch
-    href: CRMScript.NetServer.NSTypicalSearch.yml
-  - name: NSTypicalSearches
-    href: CRMScript.NetServer.NSTypicalSearches.yml
-  - name: NSUntrustedCredentials
-    href: CRMScript.NetServer.NSUntrustedCredentials.yml
-  - name: NSUser
     href: CRMScript.NetServer.NSUser.yml
   - name: NSUserAgent
     href: CRMScript.NetServer.NSUserAgent.yml
@@ -881,8 +846,12 @@ items:
     items:
     - name: ActivityStatus
       href: CRMScript.NetServer.ActivityStatus.yml
-    - name: AddressType
-      href: CRMScript.NetServer.AddressType.yml
+    - name: Addresstype
+      href: CRMScript.NetServer.Addresstype.yml
+    - name: AllDayEvent
+      href: CRMScript.NetServer.AllDayEvent.yml
+    - name: AppAvailState
+      href: CRMScript.NetServer.AppAvailState.yml
     - name: AppointmentCautionWarning
       href: CRMScript.NetServer.AppointmentCautionWarning.yml
     - name: AppointmentPrivate
@@ -891,60 +860,132 @@ items:
       href: CRMScript.NetServer.AppointmentStatus.yml
     - name: AppointmentType
       href: CRMScript.NetServer.AppointmentType.yml
+    - name: ArchiveBehaviour
+      href: CRMScript.NetServer.ArchiveBehaviour.yml
     - name: AssignmentStatus
       href: CRMScript.NetServer.AssignmentStatus.yml
+    - name: AssociateSourceType
+      href: CRMScript.NetServer.AssociateSourceType.yml
     - name: AssociateType
       href: CRMScript.NetServer.AssociateType.yml
+    - name: BadgeType
+      href: CRMScript.NetServer.BadgeType.yml
+    - name: BatchTaskCancellationBehaviour
+      href: CRMScript.NetServer.BatchTaskCancellationBehaviour.yml
     - name: BatchTaskState
       href: CRMScript.NetServer.BatchTaskState.yml
     - name: BlobLinkType
       href: CRMScript.NetServer.BlobLinkType.yml
     - name: BookingType
       href: CRMScript.NetServer.BookingType.yml
-    - name: ChatMessageType
-      href: CRMScript.NetServer.ChatMessageType.yml
-    - name: ChatMessageSpecialType
-      href: CRMScript.NetServer.ChatMessageSpecialType.yml
+    - name: CalMethod
+      href: CRMScript.NetServer.CalMethod.yml
     - name: CalReplyStatus
       href: CRMScript.NetServer.CalReplyStatus.yml
+    - name: ChangePasswordType
+      href: CRMScript.NetServer.ChangePasswordType.yml
+    - name: ChatMessageSpecialType
+      href: CRMScript.NetServer.ChatMessageSpecialType.yml
+    - name: ChatMessageType
+      href: CRMScript.NetServer.ChatMessageType.yml
     - name: ChatSessionFlags
       href: CRMScript.NetServer.ChatSessionFlags.yml
     - name: ChatSessionStatus
       href: CRMScript.NetServer.ChatSessionStatus.yml
+    - name: ChatStatus
+      href: CRMScript.NetServer.ChatStatus.yml
+    - name: ChatTopicFlag
+      href: CRMScript.NetServer.ChatTopicFlag.yml
     - name: ChatWidgetSize
       href: CRMScript.NetServer.ChatWidgetSize.yml
-    - name: CheckoutState
-      href: CRMScript.NetServer.CheckoutState.yml
+    - name: Checkoutstate
+      href: CRMScript.NetServer.Checkoutstate.yml
     - name: ColorIndex
       href: CRMScript.NetServer.ColorIndex.yml
-    - name: ContactAction
-      href: CRMScript.NetServer.ContactAction.yml
+    - name: CommandAction
+      href: CRMScript.NetServer.CommandAction.yml
+    - name: CommandActionResult
+      href: CRMScript.NetServer.CommandActionResult.yml
+    - name: ConceptualImageType
+      href: CRMScript.NetServer.ConceptualImageType.yml
     - name: ConfigType
       href: CRMScript.NetServer.ConfigType.yml
+    - name: ContactAction
+      href: CRMScript.NetServer.ContactAction.yml
     - name: ContactSourceType
       href: CRMScript.NetServer.ContactSourceType.yml
     - name: CredentialControlType
       href: CRMScript.NetServer.CredentialControlType.yml
+    - name: CredentialUsage
+      href: CRMScript.NetServer.CredentialUsage.yml
+    - name: CrmActorType
+      href: CRMScript.NetServer.CrmActorType.yml
+    - name: CustomFieldType
+      href: CRMScript.NetServer.CustomFieldType.yml
+    - name: DashboardLayout
+      href: CRMScript.NetServer.DashboardLayout.yml
+    - name: DashboardTileEntityType
+      href: CRMScript.NetServer.DashboardTileEntityType.yml
+    - name: DashboardTileOptionType
+      href: CRMScript.NetServer.DashboardTileOptionType.yml
+    - name: DashboardTileType
+      href: CRMScript.NetServer.DashboardTileType.yml
+    - name: DashTileCurrencyMode
+      href: CRMScript.NetServer.DashTileCurrencyMode.yml
+    - name: DashTileEntityType
+      href: CRMScript.NetServer.DashTileEntityType.yml
+    - name: DashTileMeasure
+      href: CRMScript.NetServer.DashTileMeasure.yml
+    - name: DashTileType
+      href: CRMScript.NetServer.DashTileType.yml
+    - name: DashTileUsage
+      href: CRMScript.NetServer.DashTileUsage.yml
+    - name: DeltaState
+      href: CRMScript.NetServer.DeltaState.yml
+    - name: DeltaType
+      href: CRMScript.NetServer.DeltaType.yml
     - name: DesignType
       href: CRMScript.NetServer.DesignType.yml
+    - name: DocTmplDirection
+      href: CRMScript.NetServer.DocTmplDirection.yml
     - name: DocTmplInvitationType
       href: CRMScript.NetServer.DocTmplInvitationType.yml
     - name: DocTmplPrivacyType
       href: CRMScript.NetServer.DocTmplPrivacyType.yml
     - name: DocTmplQuoteType
       href: CRMScript.NetServer.DocTmplQuoteType.yml
+    - name: DocTmplType
+      href: CRMScript.NetServer.DocTmplType.yml
     - name: DocumentLockSemantics
       href: CRMScript.NetServer.DocumentLockSemantics.yml
     - name: Domain
       href: CRMScript.NetServer.Domain.yml
     - name: DurationUnit
       href: CRMScript.NetServer.DurationUnit.yml
+    - name: EFieldRight
+      href: CRMScript.NetServer.EFieldRight.yml
+    - name: EjUserStatus
+      href: CRMScript.NetServer.EjUserStatus.yml
+    - name: ElementStatus
+      href: CRMScript.NetServer.ElementStatus.yml
+    - name: EmailAccountStatus
+      href: CRMScript.NetServer.EmailAccountStatus.yml
+    - name: EMailFlags
+      href: CRMScript.NetServer.EMailFlags.yml
+    - name: EmailFromType
+      href: CRMScript.NetServer.EmailFromType.yml
     - name: EMailMergeTargetType
       href: CRMScript.NetServer.EMailMergeTargetType.yml
-    - name: ErpActorType
-      href: CRMScript.NetServer.ErpActorType.yml
     - name: EMailPriority
       href: CRMScript.NetServer.EMailPriority.yml
+    - name: EmailReplyToType
+      href: CRMScript.NetServer.EmailReplyToType.yml
+    - name: EmailType
+      href: CRMScript.NetServer.EmailType.yml
+    - name: ErpActorType
+      href: CRMScript.NetServer.ErpActorType.yml
+    - name: ErpSyncResponseCode
+      href: CRMScript.NetServer.ErpSyncResponseCode.yml
     - name: ETableRight
       href: CRMScript.NetServer.ETableRight.yml
     - name: EventHandlerType
@@ -955,8 +996,12 @@ items:
       href: CRMScript.NetServer.ExternalUserInfoModification.yml
     - name: ExtraDataFieldType
       href: CRMScript.NetServer.ExtraDataFieldType.yml
+    - name: ExtraFieldFlags
+      href: CRMScript.NetServer.ExtraFieldFlags.yml
     - name: FieldAccess
       href: CRMScript.NetServer.FieldAccess.yml
+    - name: FieldDataType
+      href: CRMScript.NetServer.FieldDataType.yml
     - name: FieldMetadataType
       href: CRMScript.NetServer.FieldMetadataType.yml
     - name: FormsRecaptchaMode
@@ -965,14 +1010,36 @@ items:
       href: CRMScript.NetServer.FormSubmissionStatus.yml
     - name: FormType
       href: CRMScript.NetServer.FormType.yml
+    - name: FreeBusy
+      href: CRMScript.NetServer.FreeBusy.yml
     - name: FreeTextOperator
       href: CRMScript.NetServer.FreeTextOperator.yml
     - name: GeneratorEncoding
       href: CRMScript.NetServer.GeneratorEncoding.yml
+    - name: ImageEmbedType
+      href: CRMScript.NetServer.ImageEmbedType.yml
     - name: ImportAction
+      href: CRMScript.NetServer.ImportAction.yml
+    - name: ImportBlankAction
+      href: CRMScript.NetServer.ImportBlankAction.yml
+    - name: ImportCompanyDuplicateAction
+      href: CRMScript.NetServer.ImportCompanyDuplicateAction.yml
+    - name: ImportContactDuplicateMatch
+      href: CRMScript.NetServer.ImportContactDuplicateMatch.yml
+    - name: ImportDuplicateAction
+      href: CRMScript.NetServer.ImportDuplicateAction.yml
+    - name: ImportEntityType
       href: CRMScript.NetServer.ImportEntityType.yml
-    - name: ImportAction
-      href: CRMScript.NetServer.ImportEntityType.yml
+    - name: ImportNewListItem
+      href: CRMScript.NetServer.ImportNewListItem.yml
+    - name: ImportPersonDuplicateMatch
+      href: CRMScript.NetServer.ImportPersonDuplicateMatch.yml
+    - name: ImportPhoneUrlsEmail
+      href: CRMScript.NetServer.ImportPhoneUrlsEmail.yml
+    - name: ImportProductDuplicateMatch
+      href: CRMScript.NetServer.ImportProductDuplicateMatch.yml
+    - name: InterRestrictionOperator
+      href: CRMScript.NetServer.InterRestrictionOperator.yml
     - name: InvitationStatus
       href: CRMScript.NetServer.InvitationStatus.yml
     - name: LicenseStatus
@@ -981,14 +1048,34 @@ items:
       href: CRMScript.NetServer.LicenseType.yml
     - name: LocalizedTextType
       href: CRMScript.NetServer.LocalizedTextType.yml
+    - name: LogEvent
+      href: CRMScript.NetServer.LogEvent.yml
+    - name: LoginFlags
+      href: CRMScript.NetServer.LoginFlags.yml
+    - name: MailboxType
+      href: CRMScript.NetServer.MailboxType.yml
+    - name: MessageActionType
+      href: CRMScript.NetServer.MessageActionType.yml
+    - name: MessageHeaderStdItem
+      href: CRMScript.NetServer.MessageHeaderStdItem.yml
+    - name: MessageHeaderStdItemCol
+      href: CRMScript.NetServer.MessageHeaderStdItemCol.yml
+    - name: ModifiedAppointmentFields
+      href: CRMScript.NetServer.ModifiedAppointmentFields.yml
     - name: Navigation
       href: CRMScript.NetServer.Navigation.yml
-    - name: OrderBySortType
-      href: CRMScript.NetServer.OrderBySortType.yml
+    - name: NetServerBuildType
+      href: CRMScript.NetServer.NetServerBuildType.yml
+    - name: NotificationEventType
+      href: CRMScript.NetServer.NotificationEventType.yml
     - name: NotificationMessageType
       href: CRMScript.NetServer.NotificationMessageType.yml
     - name: NotificationPlatform
       href: CRMScript.NetServer.NotificationPlatform.yml
+    - name: OrderBySortType
+      href: CRMScript.NetServer.OrderBySortType.yml
+    - name: PhoneType
+      href: CRMScript.NetServer.PhoneType.yml
     - name: PrefDescAccessFlags
       href: CRMScript.NetServer.PrefDescAccessFlags.yml
     - name: PrefDescValueType
@@ -1003,12 +1090,34 @@ items:
       href: CRMScript.NetServer.QuoteVersionButtonAction.yml
     - name: QuoteVersionState
       href: CRMScript.NetServer.QuoteVersionState.yml
+    - name: RecipientSorting
+      href: CRMScript.NetServer.RecipientSorting.yml
+    - name: RecipientType
+      href: CRMScript.NetServer.RecipientType.yml
+    - name: RecurrenceDailyPattern
+      href: CRMScript.NetServer.RecurrenceDailyPattern.yml
+    - name: RecurrenceEndType
+      href: CRMScript.NetServer.RecurrenceEndType.yml
+    - name: RecurrenceMonthlyPattern
+      href: CRMScript.NetServer.RecurrenceMonthlyPattern.yml
     - name: RecurrencePattern
       href: CRMScript.NetServer.RecurrencePattern.yml
     - name: RecurrenceUpdateMode
       href: CRMScript.NetServer.RecurrenceUpdateMode.yml
+    - name: RecurrenceYearlyPattern
+      href: CRMScript.NetServer.RecurrenceYearlyPattern.yml
+    - name: RefcountFlags
+      href: CRMScript.NetServer.RefcountFlags.yml
+    - name: Registry
+      href: CRMScript.NetServer.Registry.yml
     - name: RelationTarget
       href: CRMScript.NetServer.RelationTarget.yml
+    - name: ReplyTemplateAccessLevel
+      href: CRMScript.NetServer.ReplyTemplateAccessLevel.yml
+    - name: ReplyTemplateBodyFlags
+      href: CRMScript.NetServer.ReplyTemplateBodyFlags.yml
+    - name: ReplyTemplateFlags
+      href: CRMScript.NetServer.ReplyTemplateFlags.yml
     - name: ReportCategory
       href: CRMScript.NetServer.ReportCategory.yml
     - name: ReportLayout
@@ -1021,34 +1130,72 @@ items:
       href: CRMScript.NetServer.RoleRelationToOwner.yml
     - name: RoleType
       href: CRMScript.NetServer.RoleType.yml
+    - name: SaleDone
+      href: CRMScript.NetServer.SaleDone.yml
     - name: SaleStatus
       href: CRMScript.NetServer.SaleStatus.yml
+    - name: ScreenChooserType
+      href: CRMScript.NetServer.ScreenChooserType.yml
+    - name: SelectionSystemType
+      href: CRMScript.NetServer.SelectionSystemType.yml
     - name: SelectionType
       href: CRMScript.NetServer.SelectionType.yml
     - name: SelectionUnionType
       href: CRMScript.NetServer.SelectionUnionType.yml
     - name: SenderMailMode
       href: CRMScript.NetServer.SenderMailMode.yml
-    - name: MailboxType
-      href: CRMScript.NetServer.MailboxType.yml
+    - name: ServiceAuthStatus
+      href: CRMScript.NetServer.ServiceAuthStatus.yml
     - name: ShipmentAddrStatus
       href: CRMScript.NetServer.ShipmentAddrStatus.yml
+    - name: ShipmentLinkAction
+      href: CRMScript.NetServer.ShipmentLinkAction.yml
+    - name: ShipmentLinkTaskFlags
+      href: CRMScript.NetServer.ShipmentLinkTaskFlags.yml
+    - name: ShipmentLinkType
+      href: CRMScript.NetServer.ShipmentLinkType.yml
+    - name: ShipmentListStatus
+      href: CRMScript.NetServer.ShipmentListStatus.yml
     - name: ShipmentMessageType
       href: CRMScript.NetServer.ShipmentMessageType.yml
     - name: ShipmentStatus
       href: CRMScript.NetServer.ShipmentStatus.yml
     - name: ShowState
       href: CRMScript.NetServer.ShowState.yml
+    - name: ShowTaskItemInClient
+      href: CRMScript.NetServer.ShowTaskItemInClient.yml
+    - name: ShowWindowState
+      href: CRMScript.NetServer.ShowWindowState.yml
     - name: StatusScreenPanelType
       href: CRMScript.NetServer.StatusScreenPanelType.yml
     - name: StringSearchType
       href: CRMScript.NetServer.StringSearchType.yml
     - name: SystemEventScope
       href: CRMScript.NetServer.SystemEventScope.yml
+    - name: TagEntity
+      href: CRMScript.NetServer.TagEntity.yml
+    - name: TargetAssignementLevel
+      href: CRMScript.NetServer.TargetAssignementLevel.yml
+    - name: TargetEntityType
+      href: CRMScript.NetServer.TargetEntityType.yml
+    - name: TargetLevel
+      href: CRMScript.NetServer.TargetLevel.yml
+    - name: TargetMeasurementUnit
+      href: CRMScript.NetServer.TargetMeasurementUnit.yml
+    - name: TargetPeriodType
+      href: CRMScript.NetServer.TargetPeriodType.yml
+    - name: TaskDirection
+      href: CRMScript.NetServer.TaskDirection.yml
+    - name: TaskListItemType
+      href: CRMScript.NetServer.TaskListItemType.yml
     - name: TaskType
       href: CRMScript.NetServer.TaskType.yml
     - name: TemporaryKeyDomain
       href: CRMScript.NetServer.TemporaryKeyDomain.yml
+    - name: TextType
+      href: CRMScript.NetServer.TextType.yml
+    - name: TicketAlertAction
+      href: CRMScript.NetServer.TicketAlertAction.yml
     - name: TicketBaseStatus
       href: CRMScript.NetServer.TicketBaseStatus.yml
     - name: TicketCategoryClosingStatus
@@ -1057,32 +1204,52 @@ items:
       href: CRMScript.NetServer.TicketCategoryDelegateMethod.yml
     - name: TicketCategoryFlags
       href: CRMScript.NetServer.TicketCategoryFlags.yml
+    - name: TicketLogAction
+      href: CRMScript.NetServer.TicketLogAction.yml
+    - name: TicketLogFieldChange
+      href: CRMScript.NetServer.TicketLogFieldChange.yml
     - name: TicketMessageCategory
       href: CRMScript.NetServer.TicketMessageCategory.yml
     - name: TicketMessageType
       href: CRMScript.NetServer.TicketMessageType.yml
     - name: TicketOrigin
       href: CRMScript.NetServer.TicketOrigin.yml
+    - name: TicketPriorityEscalateAction
+      href: CRMScript.NetServer.TicketPriorityEscalateAction.yml
     - name: TicketPriorityEscalateEvent
       href: CRMScript.NetServer.TicketPriorityEscalateEvent.yml
-    - name: TicketPriorityStatus
-      href: CRMScript.NetServer.TicketPriorityStatus.yml
     - name: TicketPriorityFlags
       href: CRMScript.NetServer.TicketPriorityFlags.yml
+    - name: TicketPriorityStatus
+      href: CRMScript.NetServer.TicketPriorityStatus.yml
     - name: TicketReadStatus
       href: CRMScript.NetServer.TicketReadStatus.yml
     - name: TicketSecurityLevel
       href: CRMScript.NetServer.TicketSecurityLevel.yml
     - name: TicketStatusTimeCounter
       href: CRMScript.NetServer.TicketStatusTimeCounter.yml
+    - name: TravelEncryptionChild
+      href: CRMScript.NetServer.TravelEncryptionChild.yml
+    - name: TravelEncryptionOwn
+      href: CRMScript.NetServer.TravelEncryptionOwn.yml
+    - name: TrlogTransType
+      href: CRMScript.NetServer.TrlogTransType.yml
+    - name: TtlFlags
+      href: CRMScript.NetServer.TtlFlags.yml
     - name: UDefFieldType
       href: CRMScript.NetServer.UDefFieldType.yml
     - name: UdefJustification
       href: CRMScript.NetServer.UdefJustification.yml
     - name: UDefType
       href: CRMScript.NetServer.UDefType.yml
+    - name: UpsertNomatchAction
+      href: CRMScript.NetServer.UpsertNomatchAction.yml
+    - name: UpsertRowActionStatus
+      href: CRMScript.NetServer.UpsertRowActionStatus.yml
     - name: UrlEncoding
       href: CRMScript.NetServer.UrlEncoding.yml
+    - name: UserType
+      href: CRMScript.NetServer.UserType.yml
     - name: ValueOverride
       href: CRMScript.NetServer.ValueOverride.yml
     - name: VideoMeetingStatus
@@ -1091,7 +1258,25 @@ items:
       href: CRMScript.NetServer.Visibility.yml
     - name: WebhookState
       href: CRMScript.NetServer.WebhookState.yml
+    - name: Weekday
+      href: CRMScript.NetServer.Weekday.yml
+    - name: WeekOfMonth
+      href: CRMScript.NetServer.WeekOfMonth.yml
     - name: WidgetRequiredFields
       href: CRMScript.NetServer.WidgetRequiredFields.yml
     - name: WidgetTheme
       href: CRMScript.NetServer.WidgetTheme.yml
+    - name: WorkflowDefinitionStatus
+      href: CRMScript.NetServer.WorkflowDefinitionStatus.yml
+    - name: WorkflowGoalType
+      href: CRMScript.NetServer.WorkflowGoalType.yml
+    - name: WorkflowInstanceStatus
+      href: CRMScript.NetServer.WorkflowInstanceStatus.yml
+    - name: WorkflowStepType
+      href: CRMScript.NetServer.WorkflowStepType.yml
+    - name: WorkflowTimeWaitAlgorithm
+      href: CRMScript.NetServer.WorkflowTimeWaitAlgorithm.yml
+    - name: WorkflowTimeWaitIntervalType
+      href: CRMScript.NetServer.WorkflowTimeWaitIntervalType.yml
+    - name: WorkflowTriggerType
+      href: CRMScript.NetServer.WorkflowTriggerType.yml
