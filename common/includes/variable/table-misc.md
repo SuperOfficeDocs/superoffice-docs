@@ -3,4 +3,3 @@
 |---|---|
 | diid | Current diary owner |
 | dday | Current DiaryDay date |
-| tiid | Current ticket id |
