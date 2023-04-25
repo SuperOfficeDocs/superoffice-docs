@@ -35,8 +35,6 @@ items:
 - name: Work with labels
   topicHref: labels/index.md
   items:
-  - name: Overview
-    href: labels/index.md
   - name: Display labels
     href: labels/index.md
   - name: Add label formats
