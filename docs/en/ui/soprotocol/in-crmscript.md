@@ -1,10 +1,10 @@
 ---
 title: Using SOProtocol in CRMScript
 uid: so_protocol_crmscript
-description: SoProtocol Using SOProtocol in CRMScript
+description: Using SOProtocol in CRMScript
 author:
-so.date:
-keywords:
+so.date: 
+keywords: soprotocol, deeplinking, CRMScript
 so.topic: reference
 ---
 

@@ -4,7 +4,7 @@ uid: using-soprotocol
 description: Using SoProtocol
 author: Tony Yates
 so.date: 04.12.2023
-keywords: soprotocol
+keywords: soprotocol, deeplinking
 so.topic: howto
 so.client: web
 so.envir: onsite
