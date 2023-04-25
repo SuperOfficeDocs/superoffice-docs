@@ -813,6 +813,7 @@ items:
     href: CRMScript.NetServer.NSTicketCategoryEntity.yml
   - name: NSTicketCategoryMembershipEntity
     href: CRMScript.NetServer.NSTicketCategoryMembershipEntity.yml
+  - name: NSUser  
     href: CRMScript.NetServer.NSUser.yml
   - name: NSUserAgent
     href: CRMScript.NetServer.NSUserAgent.yml
