@@ -3,17 +3,15 @@ title: Application settings
 uid: dp-app-settings
 description: Reference of application settings in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.08.2022
+so.date: 04.26.2023
 keywords: apps, Developer Portal
 so.topic: reference
-so.version:
+so.dp-version: 1.10
 so.envir: cloud
 so.client:
 ---
 
 # Application settings
-
-These settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
 
 ![Application settings in the SuperOffice Developer Portal -screenshot][img1]
 
@@ -27,6 +25,8 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | [Create app][13] | [About custom apps][6] |
 | Is beta | Whether the app is currently in beta in the App Store. | [Publish app][14] | [About the beta period][7] |
+
+As a partner, you may change the technical contact an the list of error reporting emails. Other settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
 
 ## App Store information
 
