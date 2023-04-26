@@ -3,15 +3,17 @@ uid: help-en-mailbox-folder
 title: Administrate email address folders
 description: Administrate email address folders
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.16.2023
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
 # Administrate email address folders
 
-Under **Knowledge Base** > **Email addresses** you can create a folder structure for email addresses, to give them a logical structure and make it easy for others to find information. You can create subfolders in all folders, and you can place email addresses in any of these folders as appropriate.
+You can create a folder structure for email addresses, to give them a logical structure and make it easy for others to find information. You can create sub-folders in all folders, and you can place email addresses in any of these folders as appropriate.
 
 ## Create folders
 

@@ -4,8 +4,8 @@ title: The New group view dialog
 description: The New group view dialog
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
@@ -37,7 +37,7 @@ When you select an option for **Select from**, a list box is displayed below. Th
 
 * If you selected **Project**, the history list of projects is displayed. Here you can also use [FastSearcher][6] or [The History list][5].
 
-* If you selected **Resource**, a list of resources in your organization is displayed. This list is defined in SuperOffice Settings and maintenance. Select **All** to see all the resources in your organization.
+* If you selected **Resource**, a list of resources in your organization is displayed. This list is defined in Settings and maintenance. Select **All** to see all the resources in your organization.
 
 ### Left pane
 

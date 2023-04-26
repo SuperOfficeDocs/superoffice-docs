@@ -2,24 +2,29 @@
 uid: help-en-faq-view-entry
 title: View FAQ entries
 description: View FAQ entries
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Bergfrid Dias
+so.date: 03.16.2023
 keywords: FAQ
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
-# View FAQ entries in knowledge base
+# View FAQ entries (in SuperOffice)
 
-1. Select **Knowledge Base** > **FAQ**. This takes you to the **FAQ** screen, which contains FAQ entries in a [folder structure][1] that you can create yourself.
-2. If the list contains several subfolders, go to the one you require.
+1. Go to ![icon][img1] **Main menu** in the top bar and select **Knowledge base** > **FAQ**. This takes you to the FAQ screen, which contains FAQ entries in a [folder structure][1] that you can create and edit yourself.
+
+2. If the list contains several sub-folders, go to the one you require.
+
 3. Click the FAQ entry you want. The **FAQ entry** screen appears and comprises two tabs:
     * **Overview**: Here you can see the question, answer and other details that make up the FAQ entry.
+    * **Details**: Gives an overview of the user that created the FAQ, the workflow, who can see it, the keywords, number of times read and the score for the FAQ.
     * **Comments**: This contains any feedback that customers have added via the customer centre. In the list, you can view the comments and publish them (or not), if they are valuable additions to an FAQ entry.
 
 To edit the current FAQ entry, click the **Edit entry** button.
 
-To publish or unpublish the current FAQ entry, click the **Move forward in workflow** button or the **Move backward in workflow** button.
+To publish the current FAQ entry, select **Move forward in workflow**. To un-publish, select **Move backward in workflow**.
 
 ## What would you like to do now?
 
@@ -38,3 +43,4 @@ To publish or unpublish the current FAQ entry, click the **Move forward in workf
 [7]: workflow.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/main-menu.png

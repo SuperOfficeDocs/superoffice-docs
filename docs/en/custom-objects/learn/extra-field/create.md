@@ -2,32 +2,30 @@
 uid: help-en-extra-fields-create
 title:  Define extra fields
 description: Define extra fields
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: extra field, custom field
-so.topic: help
+so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Add extra fields
 
-After you create an extra table, you must set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
+After you create an [extra table][1], you must set up fields in the table, to allow you to subsequently input data (entries) into the table. You can also create extra fields in standard tables.
 
 > [!TIP]
 > Extra fields can for instance be used as search criteria and columns in sales in SuperOffice CRM.
 
 **Steps:**
 
-1. Go to the **Tables** screen.
-
-    * In Settings and maintenance: Click the **System design** button in the navigator. Then select the **Tables** tab.
-    * In Service: Select ![icon][img1] **System settings** > **System design** > **Tables**.
-
-1. Browse to the table you want, point at the table name and click ![icon][img2].
+1. Click the ![icon][img1] **System design** button in the navigator. Then select the **Tables** tab.
+1. Browse to the table you want, point at the table name and click the button ![icon][img2].
 1. In the **New extra field** screen, select a field type in the **Type** list box.
 1. Click **OK**. The **Field properties** screen appears.
-1. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 4).
-1. Click **OK** to save, and then **Restart NetServer**.
+1. In the **Field properties** screen, enter data about the new field. The available properties depend on the type of extra field (specified in step 3).
+1. Click **OK** to save, and then click the **Restart NetServer** button in the upper-right corner.
 
 ## Field properties
 
@@ -42,7 +40,7 @@ After you create an extra table, you must set up fields in the table, to allow y
 | Default value | The default value is used for this field. |
 | Description | The default description. |
 | Display value | Specify whether to display the value. |
-| External | If checked, the field is available from a customer centre. Relevant only for default tables, since extra tables are always displayed in customer centres. |
+| External | If checked, the field is available from a customer centre. Relevant only for default tables, because extra tables are always displayed in customer centres. |
 | Header for list | This field is used to specify a header for these entries when they are displayed as "sub-entries" in a list. In our example, this means the name of the new tab in the **View contact** screen, so we enter "Computers" here. |
 | Hide function buttons | (relations) Select this option to hide the function for adding new entries to relation tables. |
 | Hide the field | Specify whether to display the field. |
@@ -67,7 +65,8 @@ After you create an extra table, you must set up fields in the table, to allow y
 | View in relational choosers | If the current table has a relation with another table (extra table relation), select this option to make this field available as a search field. Example: You created an extra table called "Products" with an extra table relation to the **Requests** table. In this way you can search for and add products in the **Extra fields** tab when creating new requests. By selecting **View in relational choosers** for specific fields in the "Products" table, these fields are available as search fields in the **Extra fields** tab. |
 
 <!-- Referenced links -->
+[1]: ../extra-table/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
+[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png
 [img2]: ../../../../media/icons/service/new-field.png

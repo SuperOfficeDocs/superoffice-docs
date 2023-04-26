@@ -5,13 +5,13 @@ description: Selection
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: selection
-so.topic: help
+so.topic: concept
 language: en
 ---
 
 # Selection
 
-In SuperOffice CRM, you can create selections of records/data that you work a lot with. If you also have a licence for the quote module, you can create selections of products as well.
+You can create selections of records/data that you work a lot with. If you also have a licence for Sale Quote Access, you can create selections of products as well.
 
 > [!TIP]
 > You can create charts from selections and also use selections to create mailings.
@@ -22,7 +22,7 @@ All the selections also contain an overview of companies and contacts linked to 
 
 There are three different types of selections in SuperOffice CRM:
 
-* [Static selection][7], which contain only the members you have added manually or via Find.
+* [Static selection][7], which contains only the members you have added manually or via Find.
 * [Dynamic selection][8], which will always be updated automatically with members that match the selection criteria.
 * [Combined selection][9], which is a combination of two existing selections.
 

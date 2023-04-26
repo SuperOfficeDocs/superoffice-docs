@@ -4,8 +4,8 @@ title: Change Completed status of an activity
 description: Change Completed status of an activity
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
@@ -15,7 +15,7 @@ When you consider that an activity is finished, you can mark it as completed.
 
 **Completed** is a toggle option, which you activate and deactivate using the same menu option or shortcut key. A tick specifies that the activity is **Completed**.
 
-**Steps:**
+## Steps
 
 1. Open the activity and uncheck the **Completed** icon at the top-right of the dialog.
 
@@ -23,7 +23,7 @@ When you consider that an activity is finished, you can mark it as completed.
 
     For details, see [Open follow-ups][1] and [Open documents][2].
 
-1. Hold the mouse pointer over the box in the **Completed** column (![icon][img2]) in the **Activities** section tab. Then click the checkbox ( ![icon][img1] ).
+1. Hold the mouse pointer over the box in the **Completed** column ![icon][img2] in the **Activities** section tab. Then click the checkbox ![icon][img1].
 
 1. Right-click the activity and choose **Completed**.
 

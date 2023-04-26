@@ -78,6 +78,6 @@ The [bulk update][3] feature lets businesses change personal details for a large
 > This content is not to be considered legal advice and should be used for information purposes only.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/product-releases/whats-new/product/consent-management/
-[2]: https://community.superoffice.com/en/product-releases/whats-new/product/subscription-management/
-[3]: https://community.superoffice.com/en/product-releases/whats-new/product/bulk-update/
+[1]: consent-management.md
+[2]: e-marketing-consent.md
+[3]: ../../learn/basics/bulk-update.md

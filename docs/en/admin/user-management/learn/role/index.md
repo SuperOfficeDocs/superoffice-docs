@@ -2,10 +2,11 @@
 uid: help-en-role
 title: Role
 description: Role
-author: SuperOffice RnD
-so.date: 12.30.2022
-keywords: Settings and maintenance, role, data object, user level
+author: Kirsti Aakerholt
+so.date: 04.19.2023
+keywords: role, data object, user level
 so.topic: concept
+so.topic: admin
 language: en
 ---
 
@@ -13,15 +14,15 @@ language: en
 
 [!include[Requirement](../includes/note-anon-req.md)]
 
-Using role-based security in SuperOffice CRM, you can customize roles for different access levels in the company.
+Using role-based security in SuperOffice CRM, you can customize roles for different access levels in the company. The roles control the access rights the different users have in the SuperOffice CRM modules.
 
 A role describes two things:
 
-* Which **data objects** (companies, contacts, projects, project members, selections, sales, follow-ups, documents, relations, stakeholders, and dashboards) are to be made accessible for the users who have this role.
+* Which **data objects** (company, contact, project, project members, selection, sale, stakeholder, follow-up, document, relation, dashboards, and target) to make accessible for the users who have this role.
 
     Accessibility is specified using rights: none, read, create, update and delete.
 
-* Which **functions** (for example, administrator access in Settings and maintenance, allow bulk update, quote approval, mail merge, exporting selections and publishing)  are to be made accessible to users with this role.
+* Which **functions** (for example, administrator access in Settings and maintenance, allow bulk update, quote approval, mail merge, exporting selections and publishing) to make accessible to users with this role.
 
 ## Predefined roles
 
@@ -42,14 +43,29 @@ Predefined roles are included with SuperOffice CRM. The **User levels 0–5** ro
 | Anonymous user | Anonymous user |
 | System user | System integration user. Overrides all security controls. This role is not visible and cannot be edited. |
 
-## Roles in Service
+### User or Administrator role
 
-[!include[Restricted access](../../../../learn/includes/note-insufficient-rights.md)]
+When giving access to someone new, you must specify their role – either a user or an administrator.
 
-Roles are used as a tool for administrating users. You can link different properties to a role, such as profiles, workflow access and functional rights. When you assign a user to a role, the user automatically acquires these properties. The **Roles** screen displays a list of all available roles.
+Administrators have access to the Settings and maintenance section. This is where you can create users, adjust access rights and customize the CRM solution to your needs. If you want a user to have this access, give him or her user level 0.
 
-> [!NOTE]
-> If your company uses SuperOffice CRM, the roles are managed from SuperOffice Settings and maintenance.
+If you do not want users to have access to Settings and maintenance, assign user level 1 or higher, depending on the access they need.
+
+## Manage your roles
+
+In the Roles section, you can [determine what type of access][6] your users have to the different parts of SuperOffice CRM. You can also customize each user level by changing the Data rights and/or the different Functional rights.
+
+![The Roles section lets you determine what type of access your users have to the different parts of SuperOffice CRM -screenshot][img1]
+
+You can, for example, decide whether a person can delete, update, create, or read information on the Data rights tab. On the Functional rights tab you can allow different functional rights on the different roles, like Allow bulk update, or List administrator, by moving them to the right column for "This role can".
+
+| Role | Explanation | None | Read | Create | Update | Delete |
+|---|---|:-:|:-:|:-:|:-:|:-:|
+| None | No rights and cannot see | X |  |  |  |  |
+| Read | Can read |  | X |  |  |  |
+| Create | Can create |  | X | X |  |  |
+| Update | Can update |  | X | X | X |  |
+| Delete | Can delete |  | X | X | X | X |
 
 ## What would you like to do now?
 
@@ -58,6 +74,7 @@ Roles are used as a tool for administrating users. You can link different proper
 * [Set data rights for a role][3]
 * [Edit rights for anonymous users][4]
 * [Delete a role][5]
+* [Set data rights for a role - Technical docs][6]
 
 <!-- Referenced links -->
 [1]: create-role.md
@@ -65,5 +82,7 @@ Roles are used as a tool for administrating users. You can link different proper
 [3]: set-data-rights-for-role.md
 [4]: edit-rights-for-anonymous-users.md
 [5]: deleting-role.md
+[6]: ../role/set-data-rights-for-role.md
 
 <!-- Referenced images -->
+[img1]: media/manage-user-levels.png

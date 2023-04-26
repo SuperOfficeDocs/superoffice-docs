@@ -4,10 +4,13 @@ items:
 - name: Macros and script tab
   href: screen/index.md
 - name: Work with CRMScript
+  topicHref: macro-script.md
   items:
   - name: Macros and scripts
-    href: macro-script.md
+    topicHref: macro-script.md
     items:
+    - name: Overview
+      href: macro-script.md
     - name: Create a script
       href: create-script.md
     - name: Create a macro

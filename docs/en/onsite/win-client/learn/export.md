@@ -13,7 +13,7 @@ so.envir: onsite
 
 # Export
 
-Exporting of data from the SuperOffice database is done using the **Selection** or **Reports** screens in SuperOffice CRM.
+Exporting of data from the SuperOffice database is done using the Selection or Reports screens in SuperOffice CRM.
 
 To export a file to import it via the **Import** screen in Windows Client settings, export it as an [ANSI file][1]. The import steps for ANSI files is the same as when [importing files][2].
 

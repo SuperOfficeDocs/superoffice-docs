@@ -4,8 +4,8 @@ title: Add follow-ups (appointments, tasks and phone calls)
 description: Add follow-ups (appointments, tasks and phone calls)
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
@@ -14,7 +14,7 @@ language: en
 To create follow-ups in SuperOffice CRM, click the **New** button on the top bar.
 
 > [!TIP]
-> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. You can specify which dialog should open under **Preferences** (![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Type from Activities section tab**).
+> You can also add follow-ups by double-clicking an empty line in the **Activities** section tab. By default this opens the **Appointment** dialog. To specify which dialog should open, select ![icon][img1] **Personal settings** > **Preferences** > **Functions** > **Type from Activities section tab**.
 
 ## Create follow-ups in the activities list
 
@@ -33,7 +33,7 @@ If no empty row is displayed at the bottom of the activities list, enlarge the a
 
 When you open the diary of an associate, you can create appointments for this person yourself.
 
-1. Click the **View** tab in the **Diary** screen.
+1. Click the **View** tab in the Diary screen.
 
 2. [Find the person's diary][4] in the **View**.
 
@@ -54,7 +54,7 @@ Follow-ups may overlap each other. When you try to record an overlapping follow-
 
 A suggestion for the first vacant time slot is shown. Click the proposed time to the right of **First available** to select this time instead.
 
-Overlapping follow-ups are displayed in the **Diary** screen so that you can see part of each follow-up.
+Overlapping follow-ups are displayed in the Diary screen so that you can see part of each follow-up.
 
 ## What would you like to do now?
 

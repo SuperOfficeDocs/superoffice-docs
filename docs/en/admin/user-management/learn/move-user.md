@@ -4,8 +4,9 @@ title: Move user
 description: Move user from one company to another
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance, user
-so.topic: help
+keywords: user
+so.topic: howto
+so.user: admin
 language: en
 ---
 
@@ -23,15 +24,17 @@ You can move a user from one company to another, if your organization consists o
 
 1. Click **Task** and select **Move user**.
 
-1. In the **Move user** dialog, select **Move to** and choose the company you want to move the contact to.
+1. In the dialog, select **Move to** and choose the company you want to move the contact to.
 
-[!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+1. Select one of the following under **Action on all existing activities and sales**:
 
-[!include[Preview results](../../../learn/includes/note-preview-results.md)]
+    [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
+
+    [!include[Preview results](../../../learn/includes/note-preview-results.md)]
 
 1. Click **Move**. The user is moved to the specified company.
 
 <!-- Referenced links -->
-[2]: screen/our-companies-tab.md
+[2]: screen/index.md
 
 <!-- Referenced images -->

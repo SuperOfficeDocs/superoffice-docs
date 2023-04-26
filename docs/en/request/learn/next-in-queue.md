@@ -2,24 +2,26 @@
 uid: help-en-request-next-in-queue
 title: Get next request in the queue
 description: Get next request in the queue
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request
 so.topic: howto
+so.user: user
+so.user.tooltip: SuperOffice Service
 language: en
 ---
 
 # How to set up Get next request in queue
 
-In SuperOffice Service, requests are normally assigned to users according to an assignment method. Another method of assigning requests to request handlers, is to place new requests in **Requests**> **Unassigned requests**. The request handlers must then accept the requests manually.
+In SuperOffice, requests are normally assigned to users according to an assignment method. Another method of assigning requests to request handlers, is to place new requests in **Requests**> **Unassigned requests**. The request handlers must then accept the requests manually.
 
 However it is also possible to create an intelligent queue system for handling new requests. Request handlers can then click **Get next request in queue** under **Requests** to accept the next request in the queue. Requests in the queue are filtered by [category][2], so that users are only assigned requests that belong to categories they are members of.
 
-## How are requests in the queue prioritized?
+## How are requests in the queue prioritised?
 
 The sequence of the requests in the queue is determined by the deadline for each individual request. The requests with the closest deadlines come first in the queue. The deadline is calculated based on priorities that were defined for contact, company, mailbox, email filter and standard priority.
 
-This ensures that requests are prioritized in a logical and fair sequence.
+This ensures that requests are prioritised in a logical and fair sequence.
 
 > [!NOTE]
 > It is also possible to use a combination of queue system and assignment method. Requests can for example be placed in the queue or assigned to users based on which category the requests belong to.
@@ -36,26 +38,28 @@ The following factors determine which requests a request handler can get from th
 
 First, we will create a new request status: **In queue**. New requests should automatically be assigned this request status.
 
-1. Select ![icon][img2] **System settings** > **Request status**. The **Request status** screen appears.
+1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-2. Click the **New status** button. This takes you to the **Edit request status** screen.
+1. Select **Requests** > **Request status**.
 
-3. In the **Internal status** list box, select **Open**.
+1. Click the **Add** button.
 
-4. Check **Default**, so that all new requests (active requests) are assigned this status by default.
+1. In the **Name** field, enter a descriptive name for the request status. For example "In queue".
 
-5. In the **Name** field, enter a descriptive name for the request status. For example "In queue".
+1. In the **Internal status** list box, select **Open**.
 
-6. Check **Queue status**. The users can now get requests with this status from the queue.
+1. Check **Default**, so that all new requests (active requests) are assigned this status by default.
+
+1. Check **Queue status**. The users can now get requests with this status from the queue.
 
     > [!NOTE]
     > This does not mean that these requests MUST be fetched from the queue. We will use categories to decide which requests to place in the queue and which requests to distribute according to the assignment method for the category.
 
-7. You do not have to check **Create new request on customer reply**.
+1. You do not have to check **Create new request on customer reply**.
 
-8. In the **Track time as** list, select **In queue**.
+1. In the **Track time as** list, select **In queue**.
 
-9. Click **OK**.
+1. Click **Save**.
 
 The new request status is shown in the list, and there is a check mark in the columns **Default** and **Queue status**.
 
@@ -64,29 +68,31 @@ The new request status is shown in the list, and there is a check mark in the co
 Now you must ensure that you are a member of the category or categories you are going to manage. We must also specify that requests belonging to these categories should not be assigned according to the assignment method.
 
 > [!NOTE]
-> Membership in categories can also be defined at group level. In ![icon][img2] **System settings** > **Users** > **User groups** you can state categories for the various user groups.
+> Membership in categories can also be defined at group level. In Settings and maintenance (**Users** > **User groups**) you can state categories for the various user groups.
 
 **Steps:**
 
-1. Select ![icon][img2] **System settings** > **Categories**. The **Categories** screen appears.
+1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-2. Click the required category name. This takes you to the **Category properties** screen.
+1. Select **Requests** > **Categories**.
 
-3. Select the **Members** tab.
+1. Click the required category name. This takes you to the **Category properties** screen.
 
-4. Select yourself in the **User** list and click ![icon][img1] to add yourself as a member of the category.
+1. Select the **Members** tab.
 
-5. Add any other users as members of this category.
+1. Select yourself in the **User** list and click ![icon][img1] to add yourself as a member of the category.
 
-6. Select the **Assignment method** tab and select **Do not assign**. Now requests in this category will not be assigned to users in accordance with the assignment method.
+1. Add any other users as members of this category.
 
-7. Click **OK**.
+1. Select the **Assignment method** tab and select **Do not assign**. Now requests in this category will not be assigned to users in accordance with the assignment method.
+
+1. Click **Save**.
 
 If needed, repeat this procedure for other categories that are to be available to be fetched from the queue. Categories that follow an assignment method will be assigned a user and will not therefore join the queue.
 
 ## Define new status for requests that are fetched from the queue
 
-When you have fetched a request from the queue, the status must be changed from **In queue** to **Open** (or another active status that indicates that the request is being processed). This is normally handled automatically. To be on the safe side, you can check that the option **New status when accepting a request** in ![icon][img2] > **System** > **Settings** tab is set as **Open**.
+When you have fetched a request from the queue, the status must be changed from **In queue** to **Open** (or another active status that indicates that the request is being processed). This is normally handled automatically.
 
 ## Verify that the queue works
 
@@ -97,4 +103,3 @@ Create a new request, set **Owner** to **Unassigned**, select the category you a
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../media/icons/settings-small.png

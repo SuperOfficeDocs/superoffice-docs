@@ -2,8 +2,8 @@
 uid: help-en-request-escalation
 title: Escalation levels
 description: Escalation levels
-author: SuperOffice RnD
-so.date: 06.29.2022
+author: Hanne Gunnarsson
+so.date: 03.29.2023
 keywords: request, priority, escalate
 so.topic: howto
 language: en
@@ -11,13 +11,13 @@ language: en
 
 # Escalation levels
 
-For each priority you can define one or more escalation levels, so that the system forwards the enquiry further through the organization if it has not been read or handled within a specified time.
+For each request **priority** you can define one or more escalation levels, so that the system forwards the enquiry further through the organization if it has not been read or handled within a specified time.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
-## Define new levels in Settings and maintenance
+## How to define new levels
 
-1. Go to the **Priorities** screen: Click the **Requests** button in the navigator. Then select the **Priorities** tab.
+1. Click the **Requests** button in the navigator and select the **Priorities** tab.
 
 1. Select a priority for which you want to create escalation levels.
 
@@ -37,42 +37,14 @@ For each priority you can define one or more escalation levels, so that the syst
 
     Select the checkboxes for **Email** or **SMS** next to each recipient, and select the relevant reply template. If you select **Others**, you must enter the relevant email addresses (use commas) and phone numbers in the fields below.
 
+    > [!NOTE]
+    > If the **Send reply template by SMS to** tab is not displayed, this means that SMS has not been enabled for the license you are using. Contact your system administrator for more information.
+
 1. Click **Save**.
 
 1. Repeat these steps to create additional escalation levels.
 
-1. If you created multiple escalation levels, you can define the order that they should occur in using the arrow buttons below the list of escalation levels.
-
-## Define new level in Service
-
-1. Go to the **Priorities** screen: Select ![icon][img1] > **Priorities**.
-
-1. Click the **New escalation level** button. This takes you to the **Escalation level properties** screen.
-
-1. In the **Actions** tab, enter the following information:
-
-    * **Priority**
-    * **Level** (the position in the escalation chain)
-    * **Occurs after** (click ![icon][img2] and define the delay)
-    * **Reassign to**
-    * **Run script**
-
-    Details about each field are specified below.
-
-1. Optionally, specify use of reply templates in the **Send reply template by email to** and **Send reply template by SMS to** tabs.
-
-    * Contact
-    * Request owner
-    * Category administrator
-    * Others
-    * Email address
-
-    Details about each option are specified below.
-
-    > [!NOTE]
-    > If the **Send reply template by SMS to** tab is not displayed, this means that SMS has not been enabled for the licence you are using. Contact your system administrator for more information.
-
-1. Click **OK**. The escalation level is created, and is displayed under the selected priority, in the **Priorities** screen.
+1. If you created multiple escalation levels, you can define the order in which they should occur using the arrow buttons below the list of escalation levels.
 
 ## Escalation settings
 
@@ -99,5 +71,3 @@ For each priority you can define one or more escalation levels, so that the syst
 2. Click the **Delete** button at the bottom of the screen.
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
-[img2]: ../../../../../common/icons/diaryblack.png

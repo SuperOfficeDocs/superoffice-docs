@@ -23,6 +23,7 @@ language: en
 2. In the **Type** field, specify the resource type:
 
     * **Location**: Resources of this type (for example meeting rooms) are available in the **Location** list in the follow-up dialogs in SuperOffice CRM, in addition to the **Resource** list in the **Invitation** dialog.
+
     * **Other**: Resources of this type (for example a projector, loudspeaker, or other equipment) are available in the **Resource** list in the **Invitation** dialog.
 
 3. If you select **Location** as the resource type, you can enter an address in the **Address** field.

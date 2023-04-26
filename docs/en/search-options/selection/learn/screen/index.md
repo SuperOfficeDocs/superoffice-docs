@@ -30,16 +30,16 @@ The appearance of the list of members varies slightly depending on what the sele
 | Mailings | Create a mailing to contacts in a selection. [View the mailings](#mailing) that are archived on this selection. |
 
 > [!TIP]
-> Click ![icon][img3] on the far right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.
+> Click ![icon][img3] to the right of the column headers in a selection to group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][9 ] for additional functions.
 
-To move between selections, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the top right of the screen.
+To move between selections, click the previous/next buttons ( ![icon][img2] ![icon][img1] ) at the upper right of the screen.
 
 ### <a id="filter" />Filtering the list of members
 
 > [!NOTE]
 > Before you filter the list of members (for instance sales or follow-ups), you must click **Show all** in the tab footer. This ensures that the tab displays all records in the selection. To optimize performance when working with large selections, only the first 100 records are usually loaded in the list of members.
 
-To activate the column filter, click ![icon][img3] on the far right of the column headers in a section tab and click **Enable filter**. The filter button (![icon][img7]) is now displayed on column which can be [filtered][8].
+To activate the column filter, click ![icon][img3] to the right of the column headers and click **Enable filter**. The filter button (![icon][img7]) is now displayed on column which can be [filtered][8].
 
 ### The Task button
 
@@ -53,22 +53,22 @@ Use the **Task** button to perform different tasks for the members or some of th
 
 * **Count: number**, The number of members in the active selection.
 
-* **Show all**. Click here to display all selection members.
+* **Show all**. Used to display all selection members.
 
     > [!NOTE]
     > By default the list displays only the 100 first records in the selection. To change this value, go to ![icon][img4] **Personal settings** > **Preferences** > **Functions** > **Archive page size**.
 
-* ![icon][img5]: Click here to refresh the data in the list.
+* ![icon][img5]: Refreshes the data in the list.
 
 ### <a id="mailing" /> View mailings archived on selection
 
-Use the **Mailings** tab in the **Selection** screen to keep track of all mailings related to a selection.
+Use the **Mailings** tab in the Selection screen to keep track of all mailings related to a selection.
 
 Double-click a mailing to open it.
 
 **Create a mailing**: Click to [create a new mailing][7] to the contacts in this selection.
 
-**Export**: Click here to export the list to a spreadsheet.
+**Export**: Used to export the list to a spreadsheet.
 
 ## Related topics
 
@@ -78,13 +78,13 @@ Double-click a mailing to open it.
 
 <!-- Referenced links -->
 [1]: ../create/index.md
-[2]: ../update/remove-members-from-static.md
+[2]: ../update/add-remove-members-static.md
 [5]: ../howto/display-as-charts.md
 [3]: ../../../learn/using-search-criteria.md
 [6]: ../../../../dashboard/learn/create.md
 [7]: ../../../../marketing/mailing/learn/create/index.md
-[8]: ../../../../learn/getting-started/use-filters-in-section-tabs.md
-[9]: ../../../../learn/getting-started/section-tabs.md
+[8]: ../../../../learn/section-tabs/filter.md
+[9]: ../../../../learn/section-tabs/index.md
 [4]: ../../../../learn/getting-started/index.md
 
 <!-- Referenced images -->
@@ -93,5 +93,5 @@ Double-click a mailing to open it.
 [img2]: ../../../../../media/icons/arrow-left.png
 [img4]: ../../../../../media/icons/personal-settings-small.png
 [img5]: ../../../../../media/icons/refresh.png
-[img7]: ../../../../../media/icons/column-header-filter.png
+[img7]: ../../../../../media/icons/filter-column.png
 [img6]: ../../../../media/task.png

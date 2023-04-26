@@ -55,7 +55,7 @@ The following icons are used for the active chat sessions in the list:
 
 Here you can [chat with the customer][6].
 
-The following actions are available in the chat conversation:
+Actions:
 
 * [Create request in chat][1]
 * [Transfer a chat to another agent][2]

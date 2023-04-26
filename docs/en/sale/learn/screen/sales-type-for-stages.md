@@ -6,14 +6,14 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: sale, type, stage
 so.topic: reference
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Sale - Type, Stages, Quote
 
-The **Sale** tab in the **Sale** screen in SuperOffice CRM contains the **Sale type** field. This field has a predefined list of options which are set up in the **Lists** screen in Settings and maintenance.
+The **Sale** tab in the Sale screen contains the **Sale type** field. This field has a predefined list of options which are set up in the **Lists** screen in Settings and maintenance.
 
 ## Stages
 

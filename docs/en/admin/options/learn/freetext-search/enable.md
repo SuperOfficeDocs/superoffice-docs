@@ -1,17 +1,18 @@
 ---
-uid: help-en-enabling-freetext-search
+uid: help-en-freetext-search-enable
 title: Enabling freetext search
 description: Enabling freetext search
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+author: Bergfrid Dias
+so.date: 03.24.2023
+keywords: free-text, search
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Enable freetext search
 
-[!include[Go to freetext search tab](../includes/goto-freetext.md)]
+1. [!include[Go to freetext search tab](../includes/goto-freetext.md)]
 
 1. Check **Enable freetext search**.
 

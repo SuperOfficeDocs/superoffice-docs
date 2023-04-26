@@ -19,7 +19,7 @@ The **Sales** section tab shows [sales connected to the company][2].
 
 [!include[Conf. columns](../../../learn/includes/tip-configure-columns.md)]
 
-Double-click a sale in the list to open the **Sale** screen with information about that sale.
+Double-click a sale in the list to open the Sale screen with information about that sale.
 
 Click **Add** to create a new sale.
 
@@ -30,7 +30,7 @@ If you check **Include stakeholders** at the bottom of the section tab, sales wh
 <!-- Referenced links -->
 [2]: ../../../sale/learn/index.md
 [3]: ../../../sale/learn/stakeholders/index.md
-[4]: ../../../learn/getting-started/using-filter-function-contact.md
+[4]: ../../../learn/section-tabs/filter.md
 
 <!-- Referenced images -->
 [img1]: media/sale-detail.bmp

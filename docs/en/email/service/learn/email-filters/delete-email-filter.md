@@ -6,12 +6,14 @@ author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: email
 so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Delete email filter (address)
 
-[!include[Go to email](../includes/goto-email.md)]
+1. [!include[Go to email](../includes/goto-email.md)]
 
 1. Select the **Email filters** tab.
 

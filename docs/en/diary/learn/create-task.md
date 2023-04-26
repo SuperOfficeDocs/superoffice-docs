@@ -4,8 +4,8 @@ title: Creating tasks
 description: Creating tasks
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 

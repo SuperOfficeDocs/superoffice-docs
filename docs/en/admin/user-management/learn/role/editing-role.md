@@ -1,19 +1,18 @@
 ---
-uid: help-en-editing-role
-title: Editing a role
-description: Editing a role
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, role
-so.topic: help
+uid: help-en-role-edit
+title: Edit a role
+description: How to edit a role.
+author: Bergfrid Dias
+so.date: 03.15.2023
+keywords: role, user management
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Edit a role
 
 [!include[Requirement](../includes/note-anon-req.md)]
-
-## In Settings and maintenance
 
 1. [!include[Open Roles](includes/open-roles.md)]
 
@@ -33,18 +32,9 @@ language: en
 
     The changes are saved automatically.
 
-## In Service
-
-1. Select ![icon][img1] **System settings > Roles**.
-2. Click the required role name. The **Edit role** screen appears.
-3. [Make the required changes][2].
-4. Click **OK**. The changes are saved.
-
 <!-- Referenced links -->
 [1]: edit-rights-for-anonymous-users.md
 [3]: index.md
-[2]: create-role.md#service
 [4]: set-data-rights-for-role.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/settings-small.png

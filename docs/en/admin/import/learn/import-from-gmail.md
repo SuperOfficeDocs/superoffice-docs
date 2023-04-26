@@ -17,7 +17,7 @@ language: en
 
 1. [!include[Open Import](includes/open-import.md)]
 
-2. Click the Gmail icon ( ![icon][img2] ) under **Select an import source**.
+2. Click the ![icon][img2] Gmail icon under **Select an import source**.
 
 3. Give access. The dialog shown depends on if you are already logged in to Gmail
 
@@ -32,12 +32,6 @@ language: en
 ## Adjust the import
 
 [!include[Adjust for Gmail/Outlook](includes/adjust-email-only.md)]
-
-1. [!include[Configure import settings](includes/configure-import-settings.md)]
-
-[!include[Enter concent comment](includes/step-concent-comment.md)]
-
-[!include[Preview import](includes/step-preview-import.md)]
 
 ### Troubleshooting
 

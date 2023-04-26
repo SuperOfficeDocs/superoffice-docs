@@ -5,7 +5,7 @@ description: Generating follow-ups
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: selection
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -44,8 +44,8 @@ You can create a follow-up to appear, for example, on the activities list of all
 
     * **My activities list**: All follow-ups will end up in your own activities list.
 
-    * **Company owner’s (our contact’s) activities list**: The follow-ups will be distributed to the activities lists of the people defined as *our contact* for each company.
-        The user must have been assigned rights for this in SuperOffice Settings and maintenance.
+    * **Company owner's (our contact's) activities list**: The follow-ups will be distributed to the activities lists of the people defined as *our contact* for each company.
+        The user must have been assigned rights for this in Settings and maintenance.
 
     * **Other associate**: Choose the desired option from the list of current contacts.
         The contacts available depend on your **user level**.

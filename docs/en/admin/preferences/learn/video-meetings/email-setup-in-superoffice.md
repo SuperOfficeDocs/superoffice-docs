@@ -4,8 +4,8 @@ title: Email setup for video meetings
 description: Email setup for video meetings
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: video meeting
+so.topic: howto
 language: en
 ---
 
@@ -40,7 +40,7 @@ To send an invitation by email to external users, you must:
 
 ## Related topics
 
-* [How to configure email invitations for video meetings][1] - Technical documentation
+* [How to configure email invitations for video meetings][1]
 
 <!-- Referenced links -->
 [1]: ../../../../video-meeting/howto/configure-email-invitations.md

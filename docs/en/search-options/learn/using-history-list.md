@@ -4,8 +4,8 @@ title: Using the history list
 description: Using the history list
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: search, history
+so.topic: howto
 language: en
 ---
 
@@ -20,7 +20,7 @@ You can use the history list in different ways:
 
 ## Using the history list in the Navigator
 
-1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ![icon][img2] is displayed underneath this.
+1. Click the word **Company**, **Contact**, **Sale**, **Project** or **Selection** in the Navigator on the left of the window. An empty field is displayed at the top (this is used for FastSearcher). The history list ![icon][img2] is displayed below.
 2. Click the company, contact, sale, project or selection you want to view.
 
 > [!TIP]

@@ -22,16 +22,14 @@ so.envir: onsite
 
 3. Choose one of the following:
 
-    * <details><summary>Do you want to remove just a single rule?</summary>
+    * Remove a single rule:
 
-    1. Select the required row under **Handling of duplicates**.
-    2. Click the **Reset** button. The selected row will then have nothing in the **Key** column, and the **Action** column will be changed to **Skip record**.
+        1. Select the required row under **Handling of duplicates**.
+        2. Click the **Reset** button. The selected row will then have nothing in the **Key** column, and the **Action** column will be changed to **Skip record**.
 
-    </details>
-    * <details><summary>Do you want to remove all rules?</summary>
+    * Remove all rules:
 
-    Click the **Reset all** button below **Handling of duplicates**. All rows will then have nothing in the **Key** column and the **Action** column for each row will be changed to **Skip record**.
-    </details>
+        1. Click the **Reset all** button below **Handling of duplicates**. All rows will then have nothing in the **Key** column and the **Action** column for each row will be changed to **Skip record**.
 
 > [!NOTE]
 > Unless you choose **Insert anyway** under **Do the following** in the **Handle Duplicates** dialog, you cannot import data without specifying rules for duplicate handling for all data types. This means that if you have reset rules, you must enter new ones before you start the import.
@@ -45,4 +43,4 @@ so.envir: onsite
 [2]: updating-rules-for-duplicate-handling.md
 
 <!-- Referenced images -->
-[img1]:
+[img1]: ../../../../../../common/icons/nav-admin-import-active.png

@@ -23,13 +23,13 @@ When you click the **Archive email** button on the mail client toolbar, a menu w
 * [Archiving attachments][3]
 * [Archiving emails as requests][4]
 
-For all the different archiving options, you may select the **Warn me when an email is larger than (in KB)** option in the **General settings** pane of the **SuperOffice CRM options** dialog (see [General settings][5]). Thus, when you try to archive an email containing an attachment that is over the specified limit, a dialog will inform you of this and ask you if you would like to archive it anyway.
+For all the different archiving options, you may select the **Warn me when an email is larger than (in KB)** option in [the **General settings** pane][5] of the **SuperOffice CRM options** dialog. Thus, when you try to archive an email containing an attachment that is over the specified limit, a dialog will inform you of this and ask you if you would like to archive it anyway.
 
 ## Differences between Outlook, Notes, and SuperOffice CRM
 
 You can create emails in several different ways, both [from Outlook][6], [from Notes][7], and [from SuperOffice CRM][8]. If the **Document** dialog appears, the email is treated as a SuperOffice document and will be archived. If the **Document** dialog does not appear, the email is archived based on the settings in the **SuperOffice CRM options** dialog.
 
-The **Document** dialog will open automatically if you:
+The **Document** dialog opens automatically if you:
 
 * Click the **Write** button in SuperOffice CRM.
 

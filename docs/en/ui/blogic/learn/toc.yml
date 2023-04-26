@@ -3,6 +3,7 @@ items:
     href: index.md
   - name: Profiles
     href: profiles/toc.yml
+    topicHref: profiles/index.md
   - name: ScreenChoosers
     href: screen-chooser.md
   - name: Screen definition
@@ -11,5 +12,6 @@ items:
     href: screen-properties.md
   - name: Extra menus
     href: extra-menus/toc.yml
+    topicHref: extra-menus/index.md
   - name: Package properties
     href: ../../../admin/learn/screen/package-properties.md    

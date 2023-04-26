@@ -5,7 +5,7 @@ description: View followups and documents
 author: SuperOffice RnD
 so.date: 07.04.2022
 keywords: CRM
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -27,6 +27,6 @@ Check **Created only** to display only follow-ups and documents that have been c
 
 ## Show only milestones
 
-Check **Milestones only** to display only those follow-ups defined as milestones. A follow-up can be defined as a milestone in SuperOffice Settings and maintenance.
+Check **Milestones only** to display only those follow-ups defined as milestones. A follow-up can be defined as a milestone in Settings and maintenance.
 
 You can move the project to the next status using the **Status** list on the main card or by right-clicking the status button in the section tab and selecting **Move to this status**.

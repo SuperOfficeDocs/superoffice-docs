@@ -4,8 +4,8 @@ title: Entering phone calls
 description: Entering phone calls
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up, call, phone
+so.topic: howto
 language: en
 ---
 
@@ -14,7 +14,7 @@ language: en
 1. Do one of the following:
 
     * Choose **New** > **Phone Call** on the [top bar][2].
-    * Click **Task** ( ![icon][img1] ) > **Make a phone call** in a contact card.
+    * Click ![icon][img1] **Task** > **Make a phone call** in a contact card.
 
 1. In the **Phone call** dialog, [specify the phone call details][1].
 

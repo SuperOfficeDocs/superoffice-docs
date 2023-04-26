@@ -1,11 +1,11 @@
 ---
-uid: help-en-screendesigner-edit-layout
-title: ScreenDesigner Edit layout
-description: ScreenDesigner Edit layout
-author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+uid: help-en-screen-designer-edit-layout
+title: Edit main cards layout
+description: In this how-to guide, you will learn how to edit a layout.
+author: Bergfrid Dias
+so.date: 03.29.2023
+keywords: screen designer, layout, field
+so.topic: howto
 language: en
 ---
 
@@ -13,23 +13,32 @@ language: en
 
 When you have [created a new layout][4], it is time to customize it according to the needs of the assigned user group(s). If you are customizing a layout for the sales team, you should have a clear plan of what their needs are with regards to the layout and formatting of the tabs, fields, elements and columns on the main card. Which information should be first and easiest to find? Do they need all fields and tabs? What is the logical order of the fields?
 
-**Steps:**
+Personalize the layout for the main cards and archives to match your organization's information needs. When you edit the layout on a main card, you can add and remove fields, or rearrange the order to fit your team's needs. First, you need to know what information is most important for the team.
 
+Watch this video and find out how to use the screen designer to configure your screens in SuperOffice CRM or follow the step-by-step guide below (video length - 6:41):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/EcL4TEXXvmU]
+
+## Steps
+
+<!-- markdownlint-disable MD029 -->
 [!include[Go to screen designer](includes/goto-screen-designer.md)]
+<!-- List starts in the include. Next line MUST be 3. -->
+3. Click **Main cards**.
 
-1. Click **Main cards**.
+4. Select a layout in the list on the left side.
 
-1. Select a layout in the list on the left side.
+5. Click **Edit layout** below the preview.
 
-1. Click **Edit layout** below the preview.
+6. In the **Edit card layout** window, edit the layout as described below.
 
-1. In the **Edit card layout** window, edit the layout as described below.
-
-1. After finishing, click one of the following buttons:
+7. After finishing, click one of the following buttons:
 
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.
-    * **Cancel**: Click this button to discard all changes. See also [Undo changes](#undo-changes).
+    * **Cancel**: Click this button to [discard all changes](#undo-changes).
+<!-- markdownlint-restore -->
 
 ## Edit existing fields in the layout
 
@@ -47,18 +56,15 @@ When you have [created a new layout][4], it is time to customize it according to
 
 4. Save the changes as described above.
 
+![Remove, add and move the different fields in the layout -screenshot][img3]
+
 ## Add new content to a layout
 
-1. Select the tab you want to edit, or click ![icon][img5] **Add** to add a new tab. See [Tabs](#tabs).
+1. Select the tab you want to edit, or click ![icon][img5] **Add** to [add a new tab](#tabs).
 
 2. Edit the layout by selecting one of the following sections:
 
     * **Fields**: Drag [fields](#fields) from the list to the layout. Fields can be placed in the columns and in the header and footer.
-
-    Boxes with stapled lines in the layout, indicate where you can place a field.
-    <details><summary>What does this look like?</summary>
-    ![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
-    </details>
 
     * **Elements**: Drag various elements such as labels, dividers, links and buttons to the layout.
 
@@ -71,6 +77,10 @@ When you have [created a new layout][4], it is time to customize it according to
     * **Save draft**: Click this button if the layout is not finished yet.
     * **Save + Publish**: Click this button to publish the layout to the selected user groups.
     * **Cancel**: Click this button to discard all changes.
+
+Boxes with stapled lines in the layout, indicate where you can place a field:
+
+![Boxes with stapled lines -screenshot](media/screendesigner-field-place.png)
 
 Below you can find more detailed descriptions of the various sections and functions.
 
@@ -87,7 +97,7 @@ In the **Fields** section you can find all available data fields for the selecte
 **Limitations:**
 
 * Mandatory fields cannot be deleted. This is defined in [Fields][3] screen.
-* Some tabs, such as **ERP** and **Note**, cannot be edited, since they have specific functions.
+* Some tabs, such as **ERP** and **Note**, cannot be edited, because they have specific functions.
 
 ## Elements
 
@@ -107,7 +117,7 @@ By default a tab has 2 columns, but you can use anything from 1-4 columns depend
 
 * Changing from 2-4 columns to 1 column will move all fields into 1 column.
 * Using 4 columns may affect visibility of some fields. You may consider to hide the labels of some fields (see [Settings](#settings)).
-* Some tabs, such as **ERP** and **Note**, do not have a column setup, since they have specific functions.
+* Some tabs, such as **ERP** and **Note**, do not have a column setup, because they have specific functions.
 * If a user does not have the screen size to fit all columns, they are stacked on top of each other.
 
 ## Tabs
@@ -123,7 +133,7 @@ Add more tabs for additional fields, or remove irrelevant tabs.
 
 1. Click ![icon][img5] **Add**. The **Columns** section opens to the left.
 2. Under **Tab title**, replace the text **New tab** with the new tab name.
-3. You can also add the tab name in other languages by clicking ![icon][img1] (see [Translation][2]).
+3. You can also [add the tab name in other languages][2] by clicking ![icon][img1].
 4. Select the number of columns you want to use in the new tab.
 
 > [!TIP]
@@ -152,3 +162,4 @@ If you need to revert to an earlier version of the screen, you can access the fo
 [img2]: ../../../../../common/icons/delete-circle-red.png
 [img4]: ../../../../media/icons/criteria-move.png
 [img5]: ../../../../../common/icons/add-icon.png
+[img3]: media/edit-the-screen-layout-of-companies-and-contacts.png

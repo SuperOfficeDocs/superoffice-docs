@@ -14,7 +14,7 @@ so.envir: onsite
 
 You can initiate some [system events][1] from **System notifications** list in the **Status** tab.
 
-1. Open the **Licences** screen.
+1. Open the Licences screen.
 
 2. Select the **Status** tab.
 

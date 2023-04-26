@@ -1,9 +1,12 @@
 items:
 - name: Overview
   href: index.md
+- name: Install Gmail link
+  href: install.md
 - name: Edit Gmail Link settings
   href: settings.md
 - name: Work with emails
+  topicHref: manage-senders.md
   items:
   - name: Manage senders
     href: manage-senders.md
@@ -17,3 +20,4 @@ items:
     href: archive-emails-as-requests.md
   - name: Archive outgoing email
     href: email-archive-outgoing.md
+  

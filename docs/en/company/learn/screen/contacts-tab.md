@@ -13,7 +13,7 @@ language: en
 
 ![Contacts section on company -screenshot][img1]
 
-**Contacts** is one of the section tabs at the bottom of the **Company** screen. It contains information about [employees of the active company][1]. Double-click on a name in the list to open the contact in the **Contact** screen.
+**Contacts** is one of the section tabs at the bottom of the Company screen. It contains information about [employees of the active company][1]. Double-click on a name in the list to open the contact in the Contact screen.
 
 ## <a id="columns" />Columns in the Contacts section tab
 
@@ -38,7 +38,7 @@ Shows how the contact should be addressed.
 Displays the contact's name, title and mobile phone number.
 
 > [!NOTE]
-> Use of middle names can be enabled in SuperOffice Settings and maintenance. If the preference is enabled, the first part of the last name is used as the middle name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
+> Use of middle names can be enabled in Settings and maintenance. If the preference is enabled, the first part of the last name is used as the middle name (but is not sorted on). If the preference is not enabled, you may enter a middle name in the **First name** field, and the middle name will then be considered as a second first name.
 
 ### Email
 
@@ -48,7 +48,7 @@ Displays the contact's email address. Click the email address to [send a message
 
 If you check this option, people who have left the company will also be displayed in the list of contacts.
 
-They will then be shown in a different color. They are also shown in this way on the **Project members** section tab in the **Project** screen and in the list of members in the **Selection** screen.
+They will then be shown in a different color. They are also shown in this way on the **Project members** section tab in the Project screen and in the list of members in the Selection screen.
 
 ## What would you like to do now?
 
@@ -70,7 +70,7 @@ They will then be shown in a different color. They are also shown in this way on
 [6]: ../../../contact/learn/delete.md
 [7]: ../../../contact/learn/send-email.md
 [8]: ../change-rank-of-contacts.md
-[9]: ../../../learn/getting-started/changing-column-view.md
+[9]: ../../../learn/section-tabs/configure-columns.md
 
 <!-- Referenced images -->
 [img1]: media/contacts-detail.bmp

@@ -285,14 +285,16 @@ For a customer who have 2 duplicate onsite-env. and already have OAuth 2.0 regis
 <summary>Show details on the redirect flow when connecting</summary>
 When a user starts logging in to the CRM inbox / Service mailbox, they enter their email address. We use the domain of the email address to try to figure out if this belongs to a provider that supports OAuth 2.0 (so far Microsoft is supported). To figure this out, we look up the MX records for the domain and we look for the domain in the Thunderbird autoconfig database (query my.domain.com : `https://autoconfig.thunderbird.net/v1.1/my.domain.com`). This database contains some large company domains, but most company domains will not be found here. If either the company domain MX records or the database lookup resolves to `office365.com`, the user is automatically redirected to Microsoft for OAuth2-based login. If we don't recognize the email domain as a microsoft domain, the user can either input the password for normal IMAP/SMTP login or press a button to authenticate with Microsoft using OAuth 2.0 authentication/authorization flow.
 
-When the user starts the authentication flow, the user initiates with an active session in CRM.web. When the authentication flow completes, the CRM.web request is posted back without session cookies due to the same-site LAX restrictions. This means that ASP.net creates a new session (since it does not see an existing session cookie). We use the PRG (`https://en.wikipedia.org/wiki/Post/Redirect/Get`) workaround with the tokens saved in cookies to get the session back so we can decrypt the tokens and save them to the database properly ![PRG redirect flow -screenshot][img6]
+When the user starts the authentication flow, the user initiates with an active session in CRM.web. When the authentication flow completes, the CRM.web request is posted back without session cookies due to the same-site LAX restrictions. This means that ASP.net creates a new session (since it does not see an existing session cookie). We use the PRG (`https://en.wikipedia.org/wiki/Post/Redirect/Get`) workaround with the tokens saved in cookies to get the session back so we can decrypt the tokens and save them to the database properly.
+
+![PRG redirect flow -screenshot][img6]
 </details>
 
 <!-- Referenced links -->
 [5]: https://id.superoffice.com/identityprovider/register
 [6]: https://www.codetwo.com/kb/upn/#exchange
 [7]: https://www.codetwo.com/kb/upn/#office-365
-[8]: https://community.superoffice.com/en/learning/admin-guide/service/request-setup/service-mailbox-setup/
+[8]: learn/create-mailbox.md
 [9]: ../inbox/index.md
 
 <!-- Referenced images -->

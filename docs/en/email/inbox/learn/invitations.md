@@ -22,12 +22,10 @@ You can receive invitations from a person outside your organization and easily a
 
 2. Select a message containing an invitation.
 
-    <details><summary>Does the message contain any attachments you want to keep?</summary>
-
-    If the message contains any attachments (in addition to the iCal/ics file) that you want to keep, you must archive or download them *before* you reply to the invitation. When you accept or decline the invitation, the message are removed from the inbox and sent to the **Deleted** folder.
-
-    Click the arrow next the attachment you want to save, and select **Download** or **Archive** (see [The Document dialog][1]).
-    </details>
+    > [!NOTE]
+    > If the message contains any attachments (in addition to the iCal/ics file) that you want to keep, you must archive or download them *before* you reply to the invitation. When you accept or decline the invitation, the message are removed from the inbox and sent to the **Deleted** folder.
+    >
+    > Click the arrow next the attachment you want to save, and select **Download** or **Archive**.
 
 3. Click the **Accept** button.
 
@@ -39,7 +37,6 @@ You can receive invitations from a person outside your organization and easily a
 The message is removed from the inbox, and the appointment is added to you diary.
 
 <!-- Referenced links -->
-[1]: ../../../document/learn/screen/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/attachments-black.png

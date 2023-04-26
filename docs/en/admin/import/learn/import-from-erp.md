@@ -18,7 +18,7 @@ Follow the steps below to import actors (customers, suppliers and individuals) f
 ## Select actors to be imported from the ERP system
 
 > [!NOTE]
-> If the **ERP Sync** icon ( ![icon][img1] ) is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
+> If the ![icon][img1] ERP sync icon is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
 
 1. [!include[Open Import](includes/open-import.md)]
 2. [!include[Select source](includes/select-source.md)]
@@ -55,8 +55,8 @@ Above each list is a link to the selection containing the new/updated actors.
 > If you want to delete imported actors from SuperOffice, use the selection.
 
 <!-- Referenced links -->
-[1]: ../../options/learn/using-search-criteria.md
-[2]: ../../../quote/learn/quote-sync/sync/index.md
+[1]: ../../../search-options/learn/using-search-criteria.md
+[2]: ../../../quote/learn/admin/sync/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-erp-small.bmp

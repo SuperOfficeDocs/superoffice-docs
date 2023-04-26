@@ -4,14 +4,14 @@ title: View Tab
 description: View Tab
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
 # The View tab
 
-The **View** tab in the **Diary** screen shows your own diary with your user ID at the top of the page.
+The **View** tab in the Diary screen shows your own diary with your user ID at the top of the page.
 
 ![Diary screen, the View tab -screenshot][img1]
 
@@ -19,7 +19,7 @@ The **View** tab is used mainly to open and look at overviews of other users or 
 
 ## Task button
 
-If you select the **View** tab in the **Diary** screen, the ![icon][img2] **Task** button is displayed.
+If you select the **View** tab in the Diary screen, the ![icon][img2] **Task** button is displayed.
 
 **Options:**
 

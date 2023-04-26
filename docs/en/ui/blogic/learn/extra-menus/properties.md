@@ -3,13 +3,15 @@ uid: help-en-ui-extra-menu-properties
 title: Menu properties
 description: Menu properties
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: Service
-so.topic: help
+so.topic: reference
 language: en
 ---
 
 # Menu properties
+
+[!include[Legacy](../includes/legacy-extra-menus.md)]
 
 Here you can edit the properties of options on extra menus and web panels.
 
@@ -21,9 +23,9 @@ Here you can edit the properties of options on extra menus and web panels.
 
 * **Return to same screen**: Checking this box will automatically return the users to the screen where the button (or similar) was clicked. Otherwise the users would have to do this manually.
 
-  * Example of when to use this option: If you create a button (macro) in the **Request** screen to change the category of the request, you also want to return to the same request after the button is clicked.
+  * Example of when to use this option: If you create a button (macro) in the Request screen to change the category of the request, you also want to return to the same request after the button is clicked.
 
-  * Example of when NOT to use this option: If you create a button (script) that displays a lot of information on the screen, then you do not want this checked, since you want to view the information on the screen. The same goes for external URLs, since you want to go to the website when you click the button.
+  * Example of when NOT to use this option: If you create a button (script) that displays a lot of information on the screen, then you do not want this checked, because you want to view the information on the screen. The same goes for external URLs, because you want to go to the website when you click the button.
 
 * **Append &lt;usec&gt;**: &lt;usec&gt; is the session key for the NetServer session. To make a web panel work with NetServer using authentication, this key must be included.
 

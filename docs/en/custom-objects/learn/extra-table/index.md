@@ -5,55 +5,48 @@ description:  Extra tables
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: extra table
-so.topic: help
+so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
-# Extra tables
+# Extra tables and fields
 
 [!include[Requirement](../../../learn/includes/req-expander-services.md)]
 
-The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish.
+The **Tables** screen displays the tables that are configured in the system. Using these tables, you can store data in the system exactly as you wish. You can create new tables and fields for different cards and dialogs. Only administrators have access to this functionality.
+
+## Tables screen
+
+In the **Tables** there is a list of the database tables in SuperOffice. The data structures are configured in ![icon][img1] **System design** > **Tables**, where you can display and edit data content in the [tables][1].
+
+This screen displays both standard tables (predefined in the system and form the basis of different screens) and extra tables (tables you create yourself with optional content).
 
 > [!NOTE]
-> The data structures are configured in ![icon][img1] **System settings** > **System design** > **Tables**, where you can display and edit data content in the [tables][1]. Only administrators have access to this screen.
+> You will see a message that **NetServer** must be restarted every time you add new fields or tables.
 
-## View entries
+### Where to find the screen
 
-1. Click **Requests** > **Tables** in the Navigator.
+1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Click the required table to open it and view existing entries. If you cannot see the table entry you are looking for, click **Show criteria** and [search][2].
+1. Click ![icon][img1] **System design** in the navigator and select the **Tables** tab.
 
-1. Double-click the required table entry in the list. The following options are available:
-    * **Search**: Click here to search for a table entry.
-    * **Edit**: Click here to [edit the entry](#edit-entries).
-    * **New entry**: Click here to [create a new entry](#create-entries).
-    * **Copy**: Click here to copy the entry. This takes you to the same screen as for editing.
+### Table folder properties
 
-## Create entries
+This screen is used to edit the properties of a new or existing table folder. Table folders are used to organise your custom tables.
 
-1. Open an entry as described above.
-2. Click **New entry**. This screen contains one element for each column in the table. Available columns depend on what was specified when the table was created.
-3. Enter the required information.
-4. Click **OK**. The data entry is saved.
+## Related topics
 
-## Edit entries
-
-1. Open an entry as described above.
-2. Click **Edit**. This screen contains one element for each column in the table. Available columns depend on what was specified when the table was created.
-3. Make the required changes in the information that is displayed.
-4. Click **OK**. The changes are saved.
-
-## Delete entries
-
-1. Open an entry as described above.
-2. Click **Edit**.
-3. Click the **Delete** button at the bottom of the screen.
-4. Click **OK** to confirm.
+* [Add extra tables][2]
+* [Add extra fields][3]
+* [User-defined fields][4]
 
 <!-- Referenced links -->
 [1]: ../../../ui/blogic/learn/index.md
-[2]: ../../../search-options/learn/in-service/index.md
+[2]: create.md
+[3]: ../extra-field/create.md
+[4]: ../../udef/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/settings-small.png
+[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

@@ -1,9 +1,9 @@
 ---
 uid: help-en-gmail-link-archive-as-activity
 title: Archive email as activity
-description: Archive email as activity
+description: Saving an email directly as a task, an appointment or a phone-call in your SuperOffice diary will ensure that you never forget to follow up on a customer or query. 
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 02.10.2023
 keywords: Gmail Link
 so.topic: howto
 language: en
@@ -13,9 +13,13 @@ language: en
 
 This feature allows you to quickly add an activity in SuperOffice based on the sender and the text content in the email message.
 
+![Save the email as activity in SuperOffice CRM -screenshot][img2]
+
+## Steps
+
 1. In the Gmail inbox, open an email.
 
-2. Click the **More** button ( ![icon][img1] ) in the email toolbar.
+2. Click the ![icon][img1] **More** button in the email toolbar.
 
 3. Select **Create activity**.
 
@@ -42,3 +46,4 @@ This feature allows you to quickly add an activity in SuperOffice based on the s
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/gmail-link/btn-archive-more.png
+[img2]: media/email-gmaillink-create-activity.jpg

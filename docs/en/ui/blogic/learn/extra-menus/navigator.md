@@ -3,23 +3,27 @@ uid: help-en-ui-extra-menu-navigator
 title: Add navigator group and extra menu
 description: Add navigator group and extra menu
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Service
-so.topic: help
+so.date: 04.24.2023
+keywords: navigator group
+so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Add navigator group and extra menu
 
-To illustrate this functionality, we will add a new navigator group in the navigator to the left in SuperOffice Service. We will add an extra menu in the new navigator group. In our example, we will add the navigator group "Websites" with some useful websites.
+[!include[Legacy](../includes/legacy-extra-menus.md)]
+
+To illustrate this functionality, we will add a new navigator group in the navigator to the left in SuperOffice. We will add an extra menu in the new navigator group. In our example, we will add the navigator group "Websites" with some useful websites.
 
 1. Select ![icon][img2] **System settings** > **System design** > **Extra menus**.
 
-2. Hold the mouse pointer over the **Navigator** folder and click ![icon][1].
+2. Hold the mouse pointer over the **Navigator** folder and click ![icon][img1].
 
 3. Enter "Websites" in the **Label** field (maximum 14 characters).
 
-4. Optional: Click the button **Browse** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog box.
+4. Optional: Click the button **Choose** to the right of the **URL to icon** field to select an icon for the navigator group. You can select an image that is already available in the database or upload an image. The image should have a size of 36x36 pixels, so that it is correctly shown in the navigator. You select the image and change the size in the same dialog.
 
 5. Click **Position** to choose where the new navigator group should be positioned (0 = top).
 
@@ -46,4 +50,4 @@ To illustrate this functionality, we will add a new navigator group in the navig
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/settings-small.png
+[img2]: ../../../../../media/icons/main-menu-small.png

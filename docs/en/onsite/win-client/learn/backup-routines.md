@@ -19,7 +19,7 @@ Imagine that you have built up a company database of 1,500 companies over a year
 
 One day an error occurs on the hard disk which cannot be rectified immediately. You call SuperOffice and are asked if you backed up yesterday.
 
-Imagine that you have to use a six-month old backup. How many important companies have you added since then? How many important telephone numbers were in the database? How many addresses?
+Imagine that you have to use a six-month old backup. How many important companies have you added after that? How many important telephone numbers were in the database? How many addresses?
 
 > [!NOTE]
 > Remember that databases and hard disks are not failsafe. Errors do occur and your most important remedial tool is a good backup routine. You should back up the database every day.

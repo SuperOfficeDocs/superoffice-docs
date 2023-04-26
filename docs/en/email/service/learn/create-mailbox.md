@@ -18,7 +18,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 ## To create a new mailbox - online
 
-[!include[Go to email](includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Click **New mailbox**. The **Mailbox properties** screen appears, with the **Properties** tab open.
 
@@ -27,15 +27,19 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
     > [!NOTE]
     > Friendly email address can be added to the address by adding ("friendly name") at the end of the email address.Example: info@company.com (Customer Ltd.).
 
-[!include[Select category and priority](includes/step-select-category-priority.md)]
+1. Select category and priority:
 
-[!include[Set customer language](includes/step-set-language.md)]
+    [!include[Select category and priority](includes/step-select-category-priority.md)]
 
-[!include[Common steps](includes/step-set-reply.md)]
+1. [!include[Set customer language](includes/step-set-language.md)]
 
-[!include[Import stuff](includes/step-import.md)]
+1. Set reply:
 
-1. **AI services**: Here you can select the following options for categorization and text analysis using AI (see [AI services][4]):
+    [!include[Common steps](includes/step-set-reply.md)]
+
+1. [!include[Import stuff](includes/step-import.md)]
+
+1. **AI services**: Here you can select the following options for categorization and text analysis using [AI][4]:
 
     * **Use AI to suggest categories**: Select this option to [let the AI suggest a category][3] for requests based on the content of email messages.
     * **Use text analysis**: Select this option to [let the AI analyze the text][2] in email messages to detect language (for translation) and perform sentiment analysis.
@@ -44,7 +48,7 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 ## To create a new mailbox - onsite
 
-[!include[Go to email](includes/goto-email.md)]
+1. [!include[Go to email](includes/goto-email.md)]
 
 1. Click **New mailbox**. The **Mailbox properties** screen appears, with the **Properties** tab open.
 
@@ -63,17 +67,21 @@ You can create a mailbox to use for importing email into SuperOffice Service. Be
 
 1. In the **Port** field, you can change the proposed default port for the selected protocol.
 
-[!include[Select category and priority](includes/step-select-category-priority.md)]
+1. Select category and priority:
+
+    [!include[Select category and priority](includes/step-select-category-priority.md)]
 
 1. In the **Interval** list box, select how often SuperOffice Service check for messages in this mailbox.
 
-[!include[Set customer language](includes/step-set-language.md)]
+1. [!include[Set customer language](includes/step-set-language.md)]
 
-[!include[Common steps](includes/step-set-reply.md)]
+1. Set reply:
+
+    [!include[Common steps](includes/step-set-reply.md)]
 
 1. Go to the **Alias** tab. Here you can enter any email alias for a mailbox (for example, if sales@company.com and sale@company.com go to the same mailbox). You add an alias by entering an email address and then clicking ![icon][img1].
 
-[!include[Import stuff](includes/step-import.md)]
+1. [!include[Import stuff](includes/step-import.md)]
 
 1. Click **OK**. The mailbox is created.
 

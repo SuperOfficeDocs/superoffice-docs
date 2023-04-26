@@ -3,8 +3,8 @@ uid: help-en-mail-link-archive-on-contact
 title: Archiving emails on companies/contacts
 description: Archiving emails on companies/contacts
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: SuperOffice Mail Link
+so.date: 02.10.2023
+keywords: Mail Link, email
 so.topic: howto
 language: en
 ---
@@ -13,11 +13,15 @@ language: en
 
 It is possible to archive an email (including any attachments) in your mail client inbox on a company/contact in SuperOffice CRM. This is a convenient way of storing information you receive via email together with other company/contact information in SuperOffice CRM.
 
+![In Outlook select the Archive Email button and if email address are stored in SuperOffice CRM, the field company and contact are automatically added -screenshot][img1]
+
+## Steps
+
 1. Select the email(s) you would like to archive.
 
 2. Click the **Archive email** button on the toolbar, and **Archive email** from the dropdown. If you select more than one email, the procedure below is repeated for each email.
 
-3. If the sender of the email is not listed in SuperOffice CRM, a warning will appear at the top of the dialog for archiving email: **This sender's email address is not recognized. Click here to update SuperOffice with this email address**. [How to handle unlisted senders][1]
+3. If the [sender of the email is not listed in SuperOffice][1], a warning will appear at the top of the dialog for archiving email: "This sender's email address is not recognized. Click here to update SuperOffice with this email address".
 
 4. In the **Subject** field, the subject from the email is automatically inserted. However, you may enter any subject text that you would like to be shown in the **Activities** section tab of SuperOffice CRM.
 
@@ -34,7 +38,7 @@ It is possible to archive an email (including any attachments) in your mail clie
 10. In the **Visible for** field, click the arrow next to the field. A list is displayed allowing you to choose if the document should be visible to all users, private (visible only to the user defined as owner) or visible to all users in the user group that the owner belongs to.
 
     > [!NOTE]
-    > The **Visible for** field is only available if this right is assigned to you in SuperOffice Settings and maintenance.
+    > The **Visible for** field is only available if this right is assigned to you in Settings and maintenance.
 
 11. Outlook only: Check the **Remove from inbox** box if you would like to remove the email from the inbox and move it to the **Deleted items** folder in the mail client after it is successfully archived in SuperOffice CRM.
 
@@ -55,3 +59,4 @@ It is possible to archive an email (including any attachments) in your mail clie
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
+[img1]: media/email-maillink-archive-email.png

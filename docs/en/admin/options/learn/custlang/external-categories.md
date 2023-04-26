@@ -3,15 +3,17 @@ uid: help-en-languages-category
 title: Work with external categories
 description: Work with external categories
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 03.29.2023
 keywords: Settings and maintenance
 so.topic: help
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Work with external categories
 
-In many cases it is not relevant or possible to use the internal category names in SuperOffice Customer Centre. The solution is to create external categories that are shown for customers. An external category is a category defined for a specific customer language. This means it is available if you register a new request via SuperOffice Customer Centre for this language.
+In many cases it is not relevant or possible to use the internal category names in SuperOffice Customer Centre. The solution is to create external categories that are shown for customers. An external category is a category defined for a [specific customer language][1]. This means it is available if you register a new request via SuperOffice Customer Centre for this language.
 
 Example: The internal category "Support" can then have an external category for all relevant customer languages.
 
@@ -34,7 +36,7 @@ Example: The internal category "Support" can then have an external category for 
 8. Click **OK**. The external category is created, and displayed under **External categories** in the **Customer language** screen.
 
 > [!NOTE]
-> The external categories are displayed only in the **Customer language** screen. They are not shown under **System settings** > **Categories** in SuperOffice Service.
+> The external categories are displayed only in the **Customer language** screen.
 
 ## Delete external categories
 
@@ -44,11 +46,7 @@ Example: The internal category "Support" can then have an external category for 
 4. In the **Customer language** screen, click the required category name under **External categories**.
 5. At the bottom of the **Edit external category** screen, click the **Delete** button. The link to the external category from this customer language is deleted, but not the category itself.
 
-## What would you like to do now?
-
-* [Work with customer languages][1]
-
 <!-- Referenced links -->
-[1]: edit-custlang.md
+[1]: update.md
 
 <!-- Referenced images -->

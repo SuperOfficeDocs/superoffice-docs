@@ -19,7 +19,7 @@ In the **Reports** screen you can save reports which you use a lot or have edite
 These favourite reports are in fact standard reports for which you have [changed the search criteria][4]. Favourite reports act as shortcuts to the search criteria which you normally use when running reports.
 
 > [!TIP]
-> You can bring up the list of favourite reports instantly by clicking the **Favourites** tab in the **Reports** screen, or by clicking the word **Reports** next to the **Reports** button in the Navigator and selecting **Favourites**.
+> You can bring up the list of favourite reports instantly by clicking the **Favourites** tab in the **Reports** screen, or by clicking the word **Reports** ![icon][img1] next to the **Reports** button in the Navigator and selecting **Favourites**.
 
 ## What would you like to do now?
 
@@ -34,3 +34,4 @@ These favourite reports are in fact standard reports for which you have [changed
 [4]: ../search-criteria/edit.md
 
 <!-- Referenced images -->
+[img1]: ../../../../../common/icons/nav-dropdown-report.png

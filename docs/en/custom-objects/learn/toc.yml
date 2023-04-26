@@ -1,13 +1,13 @@
 items:
 - name: Overview
   href: index.md
-
-
 - name: Work with custom objects
   items:
   - name: User-defined fields
-    href: udef/index.md
+    topicHref: udef/index.md
     items:
+    - name: Overview
+      href: udef/index.md
     - name: Add field
       href: udef/add.md
     - name: Move field
@@ -20,15 +20,12 @@ items:
       href: udef/page-1-fields.md
     - name: Maximum number of fields
       href: udef/limitations.md
-  - name: Extra tables
-    href: extra-table/index.md
+  - name: Extra tables and fields
+    topicHref: extra-table/index.md
     items:
-    - name: Tables
-      href: screen/tables.md
+    - name: Overview
+      href: extra-table/index.md
     - name: Add extra tables
       href: extra-table/create.md
-  - name: Extra fields
-    href: extra-field/index.md
-    items:
     - name: Add extra fields
       href: extra-field/create.md

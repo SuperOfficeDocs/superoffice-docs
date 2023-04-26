@@ -4,8 +4,8 @@ title: Dialog for followups
 description: Dialog for followups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
@@ -57,7 +57,7 @@ Enter the name of the sale (if any) that the follow-up is linked to. If you cann
 
 ### Time zone selector
 
-If [time zones][10] have been activated in SuperOffice Settings and maintenance, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
+If your SuperOffice has [time zones][10] turned on, you can select which time zone the follow-up will be created in. The time zones are displayed by country, and you can search both by country and city directly in the time zone field.
 
 ### Start / End/Due / Duration
 
@@ -90,7 +90,7 @@ Check here when the [follow-up is completed][11].
 
 ![icon][img1]
 
-Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In SuperOffice Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
+Click this button to access relevant tasks that can be performed on the active entry. Examples: Delete, Print, Send as email, Assign to and Cancel meeting. In Settings and maintenance, you can also define your own tasks and add them under the **Task** button.
 
 ### Registered/Last modified
 
@@ -113,7 +113,7 @@ In this field, you indicate if the follow-up repeats. Click the word **Never** t
 
 ### Priority
 
-Specify here the priority of the follow-up. Click the arrow to display a list with the default options of high, medium and low priority. These are defined in SuperOffice Settings and maintenance.
+Specify here the priority of the follow-up. Click the arrow to display a list with the default options of high, medium and low priority. [!include[SM](../../../learn/includes/are-defined-sm.md)]
 
 ### Alarm
 
@@ -121,7 +121,7 @@ For notification of the follow-up, check **Alarm**. If an [alarm is specified][5
 
 ### Owner
 
-Here you specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
+Specify who owns the follow-up. The default is the user currently logged in. If you click the name next to the **Owner** field, you can transfer the appointment to another SuperOffice user. The **Assign to** dialog opens. Under the **Assign this follow-up to** field is a list box where you can select the required user group. Select the required user and click **OK** to save the changes and close the dialog.
 
 > [!NOTE]
 > If a user is already occupied at the time in question, the word **CONFLICT** is displayed in the **Status** field. To hide users with conflicts, check **Hide conflict** at the bottom of the dialog.
@@ -137,7 +137,7 @@ Click the **Visible for** field to display a list that allows you to choose if t
 > [!NOTE]
 > If you set visibility to owner only, the entry will appear in italics on the **Activities** section tab.
 
-This option is only available if **Confidential activities** is enabled for the current user in SuperOffice Settings and maintenance.
+This option is only available if **Confidential activities** is enabled for the current user in Settings and maintenance.
 
 ### Publish (requires separate license)
 
@@ -147,7 +147,7 @@ Check here if you want the follow-up to be visible to external users.
 
 This tab contains a [list of participants][6] in the follow-up. Registered participants are marked with a dot.
 
-If you click the **View as group** button ![icon][img7] at the bottom right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
+If you click the **View as group** button ![icon][img7] at the lower right of the **Participants** tab, the **View** tab in the diary opens, giving you an overview of the [diaries of the invited associates][7] (SuperOffice users).
 
 ## The Links tab
 
@@ -155,7 +155,7 @@ This tab contains information about URLs, activities (documents and follow-ups),
 
 ## The More tab
 
-This tab displays any [custom fields][14] configured in SuperOffice Settings and maintenance.
+This tab displays any [custom fields][14] configured in Settings and maintenance.
 
 <!-- Referenced links -->
 [1]: ../appointment.md
@@ -165,7 +165,7 @@ This tab displays any [custom fields][14] configured in SuperOffice Settings and
 [5]: ../set-alarm.md
 [6]: ../invitation/index.md
 [7]: ../open.md
-[8]: ../../../learn/getting-started/linking-documents-to-follow-ups.md
+[8]: ../../../learn/activity/linking-documents-to-follow-ups.md
 [9]: ../video-meetings.md
 [10]: ../../../globalization-and-localization/learn/time-zones.md
 [11]: ../change-completed-status.md

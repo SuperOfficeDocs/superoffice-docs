@@ -27,12 +27,10 @@ landingContent:
           url: ../admin/preferences/learn/index.md
         - text: Options
           url: ../admin/options/learn/index.md
-      - linkListType: how-to-guide
+      - linkListType: reference
         links:
-        - text: System settings in Service
-          url: ../service/settings/learn/index.md
-        - text: Personal settings in Service
-          url: ../service/settings/learn/personal-settings/index.md
+        - text: Global preferences
+          url: ../admin/preferences/learn/global-preferences/system.md
 
   # Card
   - title: Custom objects
@@ -88,8 +86,8 @@ landingContent:
       - linkListType: how-to-guide
         links:
         - text: Customer centre configuration
-          url: ../service/customer-center/learn/config.md
+          url: ../customer-center/learn/config.md
         - text: Customer centre source files
-          url: ../service/customer-center/learn/edit.md
+          url: ../customer-center/learn/edit.md
         - text: Send passwords to contacts
-          url: ../service/customer-center/learn/send-credentials.md
+          url: ../customer-center/learn/send-credentials.md

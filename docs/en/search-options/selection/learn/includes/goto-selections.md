@@ -1,5 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
-1. Open the **Selection** screen:
+1. Open the Selection screen:
 
     * By clicking the **Selection** button in the Navigator.
     * By using the [history list][1] or [FastSearcher][2].

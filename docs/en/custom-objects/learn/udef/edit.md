@@ -5,13 +5,15 @@ description: Editing fields web
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: udef, custom field
-so.topic: help
+so.topic: howto
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
 # Edit field in the More tab
 
-[!include[Go to fields and select tab](includes/goto-fields.md)]
+1. [!include[Go to fields and select tab](includes/goto-fields.md)]
 
 1. Double-click the required field in the **Fields** list.
 

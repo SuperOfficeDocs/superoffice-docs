@@ -4,8 +4,8 @@ title: The Sales section tab (Diary)
 description: The Sales section tab (Diary)
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: reference
 language: en
 ---
 
@@ -20,7 +20,7 @@ The following data is displayed:
 * The date of the next activity recorded for the sale (the oldest follow-up that has not yet been completed)
 
     > [!TIP]
-    > To find out what this next follow-up is, double-click the sale to open the **Sale** screen. The follow-up can be viewed in the **Activities** section tab of the sale.
+    > To find out what this next follow-up is, double-click the sale to open the Sale screen. The follow-up can be viewed in the **Activities** section tab of the sale.
 
 * The current stage of the sale
 
@@ -34,7 +34,7 @@ The following data is displayed:
 
 * The sale date (estimated, sold or lost)
 
-* A status icon for the sale, showing if it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open") (see [Stalled, sold and lost sales][4])
+* A [status icon for the sale][4], showing if it is sold ![icon][img1], lost ![icon][img2] or stalled ![icon][img3] (if there is no icon, the sale is "open")
 
 Sales not marked as completed are shown in this list.
 
@@ -47,7 +47,7 @@ The **Sales** section tab in the diary functions as a kind of "sales secretary" 
 * All sales with planned activities for a specific number of days ahead.
 
     > [!NOTE]
-    > The number of days ahead, based on the next activity date, is defined in the **Preferences** dialog. Go to ![icon][img5] **Personal settings > Preferences**. Select **Functions** > **Show days ahead**.
+    > The number of days ahead, based on the next activity date, is a preference. To change it, go to ![icon][img5] **Personal settings > Preferences** and select **Functions** > **Show days ahead**.
 
 * All sales with overdue activities (end date is earlier than today). These sales are shown in red.
 

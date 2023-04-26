@@ -3,7 +3,9 @@ items:
   href: index.md
 - name: Section tabs on company
   href: screen/toc.yml
+  topicHref: screen/index.md
 - name: Work with company
+  topicHref: create.md
   items:
   - name: Create new company
     href: create.md
@@ -25,3 +27,4 @@ items:
   href: address-formats.md
 - name: ERP connection
   href: ../../admin/erp/learn/toc.yml
+  topicHref: ../../admin/erp/learn/index.md

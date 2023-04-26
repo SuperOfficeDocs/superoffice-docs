@@ -5,7 +5,7 @@ description: Move contact
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -15,18 +15,20 @@ language: en
 
 You can move a contact - including their activities and memberships - from one company to another, for example, if a contact was set up under the wrong company, or if they changed department. Alternatively, disconnect the contact from the company.
 
-**Steps:**
+## Steps
 
 1. Do one of the following:
 
-    * In the **Company** screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.
-    * In the **Contact** screen: Go to the required contact, click the **Task** button ![icon][img2] in the contact card, and select **Manage contacts** and **Move contact**.
+    * In the Company screen: Go to the **Contacts** section tab, right-click the contact you want to move, select **Manage contacts** and **Move contact**.
+    * In the Contact screen: Go to the required contact, click the **Task** button ![icon][img2] in the contact card, and select **Manage contacts** and **Move contact**.
 
 1. In the **Move contact** dialog under **Action on contact**, select one of the following options:
     * Select **Move to** and choose the company you want to move the contact to. Use [FastSearcher][1], [The History list][2] or [Find][3] ![icon][img3].
     * Select **Disconnect from &lt;company&gt;**.
 
-[!include[Select action](../../learn/includes/select-action-on-activity.md)]
+1. Select one of the following under **Action on all existing activities and sales**:
+
+    [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
 <!-- markdownlint-disable-next-line MD046 -->
     [!include[Preview results](../../learn/includes/note-preview-results.md)]
@@ -39,7 +41,7 @@ You can move a contact - including their activities and memberships - from one c
 <!-- Referenced links -->
 [1]: ../../search-options/learn/using-fastsearcher.md
 [2]: ../../search-options/learn/using-history-list.md
-[3]: ../../search-options/learn/find-dialog.md
+[3]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
 [img2]: ../../../media/icons/btn-menu.png

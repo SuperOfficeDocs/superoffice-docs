@@ -3,13 +3,15 @@ uid: help-en-service-profile-global
 title:  Global profiles
 description:  Global profiles
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 04.24.2023
 keywords: profile, service
 so.topic: concept
 language: en
 ---
 
 # Global profiles
+
+[!include[Legacy](../includes/legacy-profiles.md)]
 
 A global profile is used as the default profile and applies to all those who do not have a personal profile or who have not been assigned a common profile on the basis of the role they belong to.
 

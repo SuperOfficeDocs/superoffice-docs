@@ -5,19 +5,19 @@ description: Deleting selections
 author: SuperOffice RnD
 so.date: 06.29.2022
 keywords: selection
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Delete selection
-
+<!-- markdownlint-disable-file MD029 -->
 [!include[Open Selections](../includes/goto-selections.md)]
+<!-- List starts in the include. Next line MUST be 2. -->
+2. Click the **Task** button.
 
-1. Click the **Task** button.
+3. Select **Delete this selection**.
 
-1. Select **Delete this selection**.
-
-1. When you are asked if you really want to delete the selection, click **Yes**.
+4. When you are asked if you really want to delete the selection, click **Yes**.
 
 [!include[Deleting items](../../../../learn/includes/tip-deletion.md)]
 

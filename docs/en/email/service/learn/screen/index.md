@@ -23,11 +23,9 @@ The **Mailboxes** tab contains a list of the installed mailboxes. This list cont
 
 * [Create mailboxes][1]
 * [Delete mailboxes][2]
-* [Create Facebook applications][3] <!-- onsite -->
 
 <!-- Referenced links -->
 [1]: ../create-mailbox.md
 [2]: ../delete-mailbox.md
-[3]: ../create-facebook-application.md
 
 <!-- Referenced images -->

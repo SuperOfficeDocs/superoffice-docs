@@ -69,7 +69,7 @@ The table below illustrates the different kinds of activities:
 | Diary screen | Displays all your uncompleted activities. | [Activities (Diary)][6] |
 
 > [!NOTE]
-> Activities are also displayed in the [different views][7] in the **Diary** screen.
+> Activities are also displayed in the [different views][7] in the Diary screen.
 
 ## Columns
 
@@ -134,7 +134,7 @@ You can delete activities from any screen where they are displayed:
 [14]: ../../contact/learn/screen/activities-tab.md
 [15]: ../../project/learn/screen/activities-project.md
 [16]: ../../sale/learn/screen/activities-sale.md
-[17]: ../getting-started/use-filters-in-section-tabs.md
+[17]: ../section-tabs/filter.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/check.bmp

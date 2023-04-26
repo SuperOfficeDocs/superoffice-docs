@@ -3,13 +3,22 @@ uid: help-en-working-with-sales-guide
 title: Working with sales guide
 description: Working with sales guide
 author: SuperOffice RnD
-so.date: 07.04.2022
+so.date: 02.16.2023
 keywords: sale
-so.topic: help
+so.topic: howto
 language: en
 ---
 
 # Work with sales guides
+
+The Sales guide will take you through the different stages of a predefined sales process, automatically provide suggestions and templates for documents that need to be created along the way, and highlight follow-up activities that need to be performed.
+
+If you haven't already done so, learn how to set up a Sales guide here. You can use the SuperOffice Sales guide or set up your own.
+
+Watch this video to learn how easy it is to use the Sales guide (video length - 1:24):
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/IyETjAtn3po]
 
 ## Behavior when a sale has a guide
 
@@ -21,14 +30,14 @@ language: en
 
 1. Click the **Create** button in front of the follow-up/document name.
 
-2. In the dialog which appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] and [The dialog for follow-ups][2].
+2. In the dialog that appears, you create the follow-up/document in the usual way. Many of the fields are prefilled, but you can change the information, or add more information. See [The Document dialog][1] and [The dialog for follow-ups][2].
 
 3. When you have completed the follow-up, check **Completed** in the relevant dialog, or in the checkbox in front of the follow-up name on the **Sales guide** section tab. By default, documents are marked as completed.
 
     > [!TIP]
     > To create several follow-ups of the same type, right-click the activity and select **Create another**. The [follow-ups dialog][2] then opens.
 
-4. Once all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
+4. After all follow-ups and documents for a stage are completed, go to the next stage on the main **Sale** card.
 
     > [!NOTE]
     > If you wish, you can go to the next stage without creating or performing all the follow-ups/documents in a stage.
@@ -47,12 +56,12 @@ You can move the project to the next status in two ways:
 
 1. Click **Edit** on the **Sale** tab.
 2. Click the arrow next to the **Stage** field.
-3. Select the required stage from the list that appears. Apart from the statuses **Sold** and **Lost**, the options in the list are defined in SuperOffice Settings and maintenance.
+3. Select the required stage from the list that appears. Apart from the statuses **Sold** and **Lost**, the options in the list are defined in Settings and maintenance.
 4. Click **Save**.
 
 ## Why does the Sales guide dialog open when I mark a follow-up as completed?
 
-In SuperOffice Settings and maintenance, it is possible to specify that a follow-up in a sales guide should be suggested automatically when the preceding follow-up is marked as completed. In that case, the **Sales guide** dialog opens when you mark the previous follow-up as completed.
+In Settings and maintenance, it is possible to specify that a follow-up in a sales guide should be suggested automatically when the preceding follow-up is marked as completed. In that case, the **Sales guide** dialog opens when you mark the previous follow-up as completed.
 
 In the **Sales guide** dialog you have three options:
 
@@ -95,12 +104,12 @@ You record a new sale and select the **Sale to new customer** sale type, which i
     2. Complete the rest of the information in the fields in the **Document** dialog.
     3. Click the **Create** button to create and send the email.
 
-3. Once the meeting has taken place, you want to confirm this in the sales guide.
+3. After the meeting has taken place, you want to confirm this in the sales guide.
 
     In the sales guide, check the box next to the **Customer meeting** follow-up.
 
     > [!TIP]
-    > You can also do this from the activities list in, for example, the **Diary** and the **Company** screens.
+    > You can also do this from the activities list in, for example, the Diary and the Company screens.
 
 ### The Quotation stage
 
@@ -150,7 +159,7 @@ You record a new sale and select the **Sale to new customer** sale type, which i
         * Check **Always create follow-up? Do not show this dialog again** if, in future, you always want to create the suggested follow-up. The dialog for follow-ups will then open automatically next time.
 
     > [!NOTE]
-    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up in SuperOffice Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
+    > The **Sales guide** dialog opens because **Automatically suggest this follow-up** is set for the **Contract meeting** follow-up in Settings and maintenance. You can choose to not have this dialog appear, so that the next follow-up is suggested automatically.
 
 3. You want to create the **Contract meeting** appointment from the **Sales guide** dialog.
 
@@ -165,12 +174,17 @@ You record a new sale and select the **Sale to new customer** sale type, which i
 You can now change the stage to **Sold**. After all the required follow-ups and documents for the sale are completed, you can set the sale status to completed.
 
 > [!TIP]
-> If you want the sale to remain visible in, for example, the **Activities** section tab in the **Sale** screen and the **Sales** section tab in the **Diary** screen, you must not set the sale to completed.
+> If you want the sale to remain visible in, for example, the **Activities** section tab in the Sale screen and the **Sales** section tab in the Diary screen, you must not set the sale to completed.
+
+## Related
+
+* [Set up a sales guide in Settings and maintenance][4]
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/screen/index.md
 [2]: ../../../diary/learn/screen/dialog-for-followups.md
 [3]: ../../../document/learn/edit.md
+[4]: create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/personal-settings-small.png

@@ -1,17 +1,22 @@
 ---
 uid: help-en-privacy-source-add
-title: Privacy Source add
-description: Privacy Source add
+title: Add items to the Privacy - Source list
+description: earn how to change the privacy lists in this how-to guide.
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Settings and maintenance, privacy, consent
-so.topic: help
+so.date: 02.23.2023
+keywords: privacy, consent
+so.topic: howto
+so.user: admin
 language: en
 ---
 
 # Add items to the Privacy - Source list
 
 [!include[Edit list item](includes/edit-list-item.md)] when you are adding an item to the **Privacy - Source** list:
+
+[!include[Edit list item](includes/edit-list-item.md)] when you are adding an item to the **Privacy - Legal basis** list.
+
+## Steps
 
 1. Enter the name of the item in the **Name** field.
 

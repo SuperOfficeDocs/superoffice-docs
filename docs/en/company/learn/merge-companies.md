@@ -1,11 +1,11 @@
 ---
 uid: help-en-company-merge
 title: Merge companies
-description: Merge companies
+description: To be able to be efficient in the work with customers and contacts, it is vital to have a "clutter free" environment. This means delete unused companies and contacts, and merge duplicated companies and contacts.
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 12.15.2022
 keywords: company
-so.topic: help
+so.topic: howto
 language: en
 ---
 
@@ -15,7 +15,9 @@ language: en
 
 You can merge duplicate database records of companies. Contacts and activities will be moved to the target company and the source company will be deleted.
 
-**Steps:**
+If two companies in your customer database decide to merge or one of the companies has bought the other company, you can merge these companies into one company. Contacts (and related requests), invoices, and registered domains are kept for both companies.
+
+## Steps
 
 [!include[Go to company](../../learn/includes/goto-company.md)]
 
@@ -49,6 +51,10 @@ You can merge duplicate database records of companies. Contacts and activities w
 
 ![Merge companies dialog -screenshot][img4]
 
+[In the Merge companies dialog, make sure you select the correct company in the From field AND in the To field -screenshot][img5]
+
+![To get extra information before you merge the two companies, you click the Info-button on Show result -screenshot][img6]
+
 > [!TIP]
 > You can also merge companies in dynamic and static selections.
 
@@ -64,3 +70,5 @@ You can merge duplicate database records of companies. Contacts and activities w
 [img1]: ../../../../common/icons/info-ball.png
 [img3]: ../../../media/icons/btn-menu.png
 [img4]: media/merge-companies.bmp
+[img5]: media/company-merge.png
+[img6]: media/company-merge-info.png

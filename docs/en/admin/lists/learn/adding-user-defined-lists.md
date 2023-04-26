@@ -13,7 +13,7 @@ language: en
 
 1. [!include[Go to Lists](includes/goto-lists.md)]
 
-2. Click the **Create list** button in the top right of the screen.
+2. Click the **Create list** button in the upper right of the screen.
 
 3. Enter the required name of the list in the **Name** field.
 

@@ -43,7 +43,7 @@ Attempting to send from a domain that does not have a valid SPF record will prom
 
 ## Related topics
 
-* [Maximize your email marketing success with these deliverability tips][1] - Community
+* [Maximize your email marketing success with these deliverability tips][1] - blog
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/email-deliverability-tips/

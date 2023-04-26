@@ -4,12 +4,13 @@ title: Items
 description: Items
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: Settings and maintenance
-so.topic: help
+keywords: list
+so.topic: howto
+so.user: admin
 language: en
 ---
 
-# Items
+# Work with list items
 
 In contrast to lists themselves, the items contained in both predefined and user-defined lists can be added to, amended or deleted.
 

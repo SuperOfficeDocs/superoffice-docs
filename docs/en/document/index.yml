@@ -60,10 +60,10 @@ conceptualContent:
       links:
       - text: Create a document
         itemType: learn
-        url: https://community.superoffice.com/en/learning/user-guide/documents/create-upload-document/
+        url: learn/create.md
       - text: Create a follow-up
         itemType: how-to-guide
-        url: https://community.superoffice.com/en/learning/user-guide/get-started/connect-email-documents/install-web-tools/
+        url: ../diary/learn/create-follow-up.md
 
     # Card
     - title: Videos
@@ -105,7 +105,7 @@ conceptualContent:
         url: ../ui/web-panels/index.md
       - text: SoProtocol - open dialog
         itemType: how-to-guide
-        url: ../ui/soprotocol/open-dialog.md
+        url: ../ui/soprotocol/open-appointment-dialog.md
 
     # Card
     - title: Data options

@@ -4,14 +4,14 @@ title: Sending follow-ups
 description: Sending follow-ups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
-so.topic: help
+keywords: diary, follow-up
+so.topic: howto
 language: en
 ---
 
 # Send a follow-up as an email
 
-1. Right-click the required follow-up on the **Activities** section tab in the **Company**, **Contact**, **Diary**, **Sale** or **Project** screens, and select **Send as email**.
+1. Right-click the required follow-up on the **Activities** section tab in the Company, Contact, Diary, Sale or Project screens, and select **Send as email**.
 
 2. A message is opened in your email program:
 

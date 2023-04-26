@@ -3,11 +3,11 @@ uid: help-en-project-guide-create
 title: Create new project guide
 description: How to create a new project guide in SuperOffice
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: project, guide
+so.date: 02.23.2023
+keywords: project, guide, workflow
 so.topic: howto
-so.audience: settings
-so.audience.tooltip: Settings and maintenance
+so.user: admin
+so.user.tooltip: Settings and maintenance
 language: en
 ---
 
@@ -15,7 +15,7 @@ language: en
 
 [!include[Must be admin](../../../learn/includes/req-admin.md)]
 
-In **Settings and maintenance**, you define which project types are to be assigned a project guide and which statuses and activities the project guides are to contain. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may appear.
+In Settings and maintenance, you define which project types are to be assigned a project guide and which statuses and activities the project guides are to contain. What a project guide looks like can therefore vary, but below is an example of how a project using a project guide may appear.
 
 For example, you may have a project type named **Conference**. This project type may be linked to a project guide containing the following statuses, follow-ups and documents:
 
@@ -31,11 +31,13 @@ This procedure shows you how to create a project guide from scratch.
 2. Define the [project type](#create-type) (with associated statuses) to link the project guide to.
 3. Design the [project guide](#create-guide).
 
+![Go to the Workflow section and create your own project routines in SuperOffice CRM -screenshot][img2]
+
 ## <a id="create-stage" /> Create statuses for the project guide
 
 A project guide must be linked to a project type, which in turn consists of several statuses. [How to create a status][2].
 
-For example, a project guide for a project of the Conference type could have statuses "Planned", "In progress", and "Closing".
+For example, a project guide for a project of the Conference type could have statuses Planned, In progress, and Closing.
 
 Go to the next procedure to link the statuses to a project type.
 
@@ -79,27 +81,6 @@ The changes are saved automatically. The project guide will now be displayed in 
 
 ## <a id="add-fo-status" />Add a follow-up for a status
 
-<details><summary>Click here for an example of a follow-up</summary>
-
-**Project type**: Conference
-**Status**: Planned
-**Name** of follow-up: Planning meeting
-**Purpose of this follow-up**: Hold a meeting to plan the conference and set out a conference programme.
-**Follow-up type**: Meeting (Internal)
-**Duration**: 1 hour
-**Default text**:
-
-Planning meeting:
-
-\- What should the conference cover?
-\- Participants?
-\- Speakers?
-\- Where?
-
-</details>
-
-**Steps:**
-
 1. Select the required project type and status as described above.
 
 2. Click **Add** under **Suggested follow-ups in status**.
@@ -130,20 +111,24 @@ Planning meeting:
 
 12. Repeat this procedure to add more follow-ups in this or other statuses.
 
-## <a id="add-doc-status" />Add a document for a status
-
-<details><summary>Click here for an example of a document</summary>
+### Example of a follow-up
 
 **Project type**: Conference
 **Status**: Planned
-**Name** of document: Conference programme
-**Purpose of this project status**: Set out a programme for the conference.
-**Template**: Note
-**Default subject**: Conference programme
+**Name** of follow-up: Planning meeting
+**Purpose of this follow-up**: Hold a meeting to plan the conference and set out a conference programme.
+**Follow-up type**: Meeting (Internal)
+**Duration**: 1 hour
+**Default text**:
 
-</details>
+Planning meeting:
 
-**Steps:**
+\- What should the conference cover?
+\- Participants?
+\- Speakers?
+\- Where?
+
+## <a id="add-doc-status" />Add a document for a status
 
 1. Select the required project type and status as described above.
 2. Click **Add** under **Suggested documents in status**.
@@ -155,11 +140,28 @@ Planning meeting:
 8. Click **Save**.
 9. Repeat this procedure to add more documents in this or other statuses.
 
+### Example of a document
+
+**Project type**: Conference
+**Status**: Planned
+**Name** of document: Conference programme
+**Purpose of this project status**: Set out a programme for the conference.
+**Template**: Note
+**Default subject**: Conference programme
+
+## Related
+
+* [Edit a project guide][5]
+* [Deactivate project guide][6]
+
 <!-- Referenced links -->
 [1]: ../../../document/templates/variables/from-project-card.md
 [2]: ../../../admin/lists/learn/project-status.md
 [3]: ../../../admin/lists/learn/project-type.md
 [4]: ../../../admin/lists/learn/document-template.md
+[5]: edit.md
+[6]: deactivate.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/nav-admin-workflow-active.png
+[img2]: media/create-project-guide.png

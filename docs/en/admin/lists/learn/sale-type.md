@@ -37,7 +37,7 @@ language: en
 5. Enter information in the **Stages**, **Quote attachments**, **Quote defaults** and **Quote approval** tabs. This is described below.
 
     > [!NOTE]
-    > the **Quote attachments**, **Quote defaults** and **Quote approval** tabs are relevant only if you have access to the quotes module.
+    > The **Quote attachments**, **Quote defaults**, and **Quote approval** tabs are relevant only if you have the Sales Quote Management license.
 
 6. [!include[Save or cancel](includes/save-or-cancel.md)]
 
@@ -67,21 +67,21 @@ In the **Quote attachments** tab you can add documents to be sent to the custome
 ### Add quote attachment
 
 1. Click **Add**.
-2. In the **Find** dialog, [search for the documents you want to add][1].
-3. Select one or more documents and click **OK**. The document(s) is/are displayed in the **Quote attachments** tab.
+2. In the Find screen, [search for the documents you want to add][1].
+3. Select one or more documents and click **OK**. The documents are displayed in the **Quote attachments** tab.
 4. Select the documents you want to include in the **Include** column.
 
 When you create a quote with this sale type, the selected documents are added to the quote as attachments. They will not however be added in the **Activities** section tab in the sale.
 
 ## Quote defaults
 
-Here you specify the following settings for quotes with this sale type:
+Settings for quotes with this sale type:
 
 * **Allow alternatives to be added to quote**: Check here if users are to be allowed to add several alternatives to a quote.
 * **Default days a quote is valid**: Enter the number of days a quote will remain valid for. This value can be changed when the quote is sent.
 * **Quote format template**: Check the template you want to use for the quote.
 
-[!include[Link to quote template docs](includes/learn-quote-templates.md)]
+    [!include[Link to quote template docs](includes/learn-quote-templates.md)]
 
 * **Order confirmation template**: Check the template you want to use for the confirmation.
 
@@ -98,6 +98,6 @@ Here you can choose if the quote must be approved if the total discount is above
 [3]: ../../../sale/learn/screen/sale-stage.md
 [4]: ../../../sale/learn/stakeholders/index.md
 [5]: ../../../sale/learn/screen/sales-guide-admin.md
-[1]: ../../options/learn/using-search-criteria.md
+[1]: ../../../search-options/learn/using-search-criteria.md
 
 <!-- Referenced images -->

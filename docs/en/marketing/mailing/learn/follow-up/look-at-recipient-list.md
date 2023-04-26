@@ -3,17 +3,25 @@ uid: help-en-mailing-recipient-list
 title: Work with the recipient list after the mailing
 description: Work with the recipient list after the mailing
 author: SuperOffice RnD
-so.date: 06.29.2022
-keywords: Marketing
+so.date: 02.21.2023
+keywords: Marketing, recipient
 so.topic: howto
 language: en
 ---
 
 # Look at recipient list after the mailing
 
-After the mailing has been sent, SuperOffice Marketing collects data about the status of each sent e-mail. In the Recipients tab, you can view the status for each recipient of the mailing. You can also filter the list and export the results to selections and projects in SuperOffice CRM for further processing.
+After your mailing is sent, it is always exciting to see how well your mailing performed. It is also a great opportunity to check and improve the quality of the information registered in your database. The number of bounced emails, especially, is a key indicator. Learn how to filter your recipients list in this how-to guide.
 
-In order to do this:
+The first few times you sent out your mailing, you might get a large number of bounced emails. This is good news, because it means you can update every email address that is misspelled or no longer in use.
+
+Updating bounced email addresses will help increase the success rate of your future mailings.
+
+After the mailing is sent, SuperOffice Marketing collects data about the status of each sent email. In the Recipients tab, you can view the status for each recipient of the mailing. You can also filter the list and export the results to selections and projects in SuperOffice CRM for further processing.
+
+![You can see the status of the mailing in the Status field -screenshot][img4]
+
+## Steps
 
 1. Click the mailing in the **Mailings** tab.
 
@@ -34,7 +42,7 @@ In order to do this:
 
 6. Click **Close** to close the **View mailing** screen.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status change to **Sent** once this is done.
+If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status change to **Sent** after this is done.
 
 ## Filters
 
@@ -57,7 +65,7 @@ If the status is **Ready to send**, you do not have to do anything. SuperOffice 
 
 **Recipient complained**: Activate this filter to show recipients who reported the mailing as spam/junk mail.
 
-If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** once this is done.
+If the status is **Ready to send**, you do not have to do anything. SuperOffice will send your mailing to the recipients. The status will be changed to **Sent** after this is done.
 
 ## Add recipients to selections or projects
 
@@ -86,3 +94,4 @@ Using the ![icon][img2] menu button you can add recipients and clickers to a sel
 [img1]: ../../../../../media/icons/arrow-right.png
 [img2]: ../../../../../media/icons/btn-menu.png
 [img3]: ../../../../../../common/icons/nav-contact.png
+[img4]: media/recipients-tab-status.png

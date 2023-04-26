@@ -2,19 +2,21 @@ items:
 - name: Overview
   href: index.md
 - name: Mailboxes
-  href: screen/index.md
+  topicHref: screen/index.md
   items:
+  - name: Overivew
+    href: screen/index.md
   - name: Create mailboxes
     href: create-mailbox.md
   - name: Delete mailboxes
     href: delete-mailbox.md
-  - name: Create Facebook applications
-    href: create-facebook-application.md
   - name: Create SMS mailbox
     href: create-sms-mailbox.md
 - name: Email filters
-  href: email-filters/index.md
+  topicHref: email-filters/index.md
   items:
+  - name: Overview
+    href: email-filters/index.md
   - name: Create email filter
     href: email-filters/create-email-filter.md
   - name: Delete email filter

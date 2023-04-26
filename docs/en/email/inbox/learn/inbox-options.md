@@ -17,18 +17,18 @@ The inbox contains the following options:
 
 | Icon | Description |
 |---|---|
-| New | Click here to [create a new message][1]. |
+| New | Used to [create a new message][1]. |
 | Delete | |
 | Search | Enter text in this field to start searching in the open folder. |
-| INBOX | Click here to select a folder. The default folder is Inbox. |
+| INBOX | Used to select a folder. The default folder is Inbox. |
 | ![icon][img2] ![icon][img5] | By default the messages are sorted by date, with the newest messages at the top of the list. You can also sort by sender and subject in descending or ascending order. |
 
 ## Toolbar at the bottom
 
 | Icon | Description |
 |---|---|
-| ![icon][img3] | Filter: Click here to filter the messages in the inbox. |
-| ![icon][img4] | Refresh: Click here to refresh the inbox. |
+| ![icon][img3] | Filters the messages in the inbox. |
+| ![icon][img4] | Refreshes the inbox. |
 
 <!-- Referenced links -->
 [1]: compose.md

@@ -38,7 +38,7 @@ To save your customers the time and trouble of filling in their name, email addr
 <!-- Referenced links -->
 [1]: create.md
 [2]: publish.md
-[3]: ../../../service/reply-templates/learn/template-variables.md
+[3]: ../../../request/reply-templates/learn/template-variables.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/cog-wheel.png
