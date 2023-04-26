@@ -30,6 +30,12 @@ The information shown on your app-specific product pages in the App Store comes 
 
 1. To update the technical contact person, click **Clear** and choose another contact by email address.
 
+1. To receive error emails at different or additional email addresses, scroll to the bottom and enter one or more addresses in the **Error reporting emails** field.
+
+    ![Application settings, error reporting emails -screenshot][img5]
+
+    The addresses must be separated with a semicolon ( ; ), no spaces.
+
 1. Click **Save Settings**.
 
 ## Update App Store information
@@ -110,3 +116,4 @@ When you are happy with how it looks, return to your partner page in the Develop
 [img2]: ../media/request-to-publish.png
 [img3]: media/warn-mandatory-missing.png
 [img4]: media/warn-no-links.png
+[img5]: ../howto/media/error-reporting-emails.png

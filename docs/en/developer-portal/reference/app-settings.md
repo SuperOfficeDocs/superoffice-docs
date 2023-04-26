@@ -26,7 +26,7 @@ so.client:
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | [Create app][13] | [About custom apps][6] |
 | Is beta | Whether the app is currently in beta in the App Store. | [Publish app][14] | [About the beta period][7] |
 
-As a partner, you may change the technical contact an the list of error reporting emails. Other settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
+As a partner, you may change the technical contact and the list of error reporting emails. Other settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
 
 ## App Store information
 

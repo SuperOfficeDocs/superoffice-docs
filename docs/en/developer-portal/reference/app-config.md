@@ -3,10 +3,10 @@ title: Application configuration
 uid: dp-app-config
 description: Reference of application configuration in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 08.25.2022
+so.date: 04.26.2023
 keywords: apps, Developer Portal, authentication
 so.topic: reference
-so.version:
+so.dp-version: 1.10
 so.envir: cloud
 so.client:
 ---
@@ -47,7 +47,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (on/off) | [Manage notifications][14] | [About tenant status][11] |
-| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][14] | [About tenant status][11] |
+| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][14], [Update contact person][15] | [About tenant status][11] |
 
 ## Integrations
 
@@ -55,7 +55,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 |---|---|---|---|
 | ERP sync | For integration with an ERP system. | [Create sync app][26] | [ERP connector API][28] |
 | Quote connector | | [Create sync app][26] | [Quote connector API][27] |
-| Mirroring | For local processing when real-time data is not the most important consideration. | [Create mirror app][26] | [About mirroring][12] |
+| Mirroring | For local processing when real-time data is not the most important consideration. | [Create mirror app][25] | [About mirroring][12] |
 
 For each of the above:
 
@@ -143,6 +143,7 @@ These settings are read only for all except SuperOffice AS app managers.
 [12]: ../../mirroring/index.yml
 [13]: ../../admin/license/index.md
 [14]: ../howto/notifications.md
+[15]: ../howto/update-contact-person.md
 [16]: ../security/find-clientid.md
 [17]: ../security/get-client-secret.md
 [18]: ../security/cors-and-redirection-urls.md
