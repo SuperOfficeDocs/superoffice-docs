@@ -23,6 +23,7 @@ so.client:
 | Allowed postlogout redirect URLs | Context-specific URLs that will be called by the browser after successful sign-out a user.| [Add or update][18] | [Endpoint types][22] |
 | CORS URLs | | [Add or update][18] | [About redirects and CORS][7] |
 | Default redirect URL | Used by legacy authentication - add all needed redirect URLs to your apps allowed list. | [Add or update][18] | [Endpoint types][22] |
+| Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | [Get consent][34], [Add or update text][35] | [About consent][33] |
 
 > [!NOTE]
 > Redirection and CORS URLs must be listed one per line.
@@ -160,5 +161,8 @@ These settings are read only for all except SuperOffice AS app managers.
 [30]: ../../apps/certification/index.md
 [31]: ../howto/request-to-publish.md
 [32]: ../../api/authentication/online/validate-security-tokens.md#superoffice-specific-claims
+[33]: ../../apps/provisioning/consent.md
+[34]: ../../apps/provisioning/get-consent.md
+[35]: ../security/update-consent-text.md
 
 <!-- Referenced images -->
