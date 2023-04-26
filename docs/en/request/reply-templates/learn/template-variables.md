@@ -9,7 +9,7 @@ so.topic: reference
 language: en
 ---
 
-# Template variables (Service)
+# Reply template variables (Service)
 
 In the email message, you can use template variables to insert customer-specific information to give the message a more personal touch. In this way, you can customize the content for each individual customer.
 

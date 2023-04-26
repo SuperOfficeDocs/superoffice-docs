@@ -27,8 +27,6 @@ items:
   href: appointmentnotificationaggregator.md
 - name: AppointmentRejectedNotification
   href: appointmentrejectednotification.md
-- name: AppointmentShadowSelectionCombined
-  href: appointmentshadowselectioncombined.md
 - name: AppointmentSelection
   href: appointmentselection.md
 - name: AppointmentSelectionCombined

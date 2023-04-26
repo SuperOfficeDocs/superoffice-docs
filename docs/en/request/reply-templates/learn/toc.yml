@@ -18,5 +18,5 @@ items:
     href: find.md
   - name: Administrate folders of reply templates
     href: manage-folders.md
-- name: Template variables
+- name: Reply template variables
   href: template-variables.md

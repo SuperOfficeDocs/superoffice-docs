@@ -26,8 +26,8 @@ so.topic: reference
   * [ticketescalatednotification][54]
   * [ticketfavouriteupdatednotification][55]
   * [ticketnewnotification][56]
+  * [ticketnotification][58]
   * [tickettransferrednotification][57]
-  * [ticketupdatednotification][58]
 
 * v10.2.2
   * [Recycle ticket][2]
@@ -243,7 +243,7 @@ services.AddLogging(a =>
 [55]: ../../../docs/en/api/archive-providers/reference/ticketfavouriteupdatednotification.md
 [56]: ../../../docs/en/api/archive-providers/reference/ticketnewnotification.md
 [57]: ../../../docs/en/api/archive-providers/reference/tickettransferrednotification.md
-[58]: ../../../docs/en/api/archive-providers/reference/ticketupdatednotification.md
+[58]: ../../../docs/en/api/archive-providers/reference/ticketnotification.md
 [59]: ../../../docs/en/api/mdo-providers/reference/workflowsteptype.md
 [60]: ../../../docs/en/api/reference/restful/agent/Appointment_Agent/v1AppointmentAgent_SetSeenMany.md
 [61]: ../../../docs/en/api/reference/soap/Services88/Appointment/SetSeenMany.md

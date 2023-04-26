@@ -37,4 +37,4 @@ See the [NetServer Core reference][1] for details about handling this programmat
 
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.Configuration.ConfigFile.Mail>
-[2]: ../../email/inbox.md
+[2]: ../../../en/email/inbox/index.md
