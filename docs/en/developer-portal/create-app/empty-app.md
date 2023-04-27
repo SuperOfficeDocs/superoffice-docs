@@ -3,10 +3,10 @@ title: Register a empty app config
 uid: dp-register-empty-app-config
 description: Registering a new web app in the SuperOffice Developer Portal.
 author: Margrethe Romnes
-so.date: 06.08.2022
+so.date: 04.27.2023
 keywords: Developer Portal, app
 so.topic: howto
-so.version:
+so.dp-version: 1.11
 so.envir: cloud
 so.client:
 ---

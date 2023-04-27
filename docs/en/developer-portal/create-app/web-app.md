@@ -3,10 +3,10 @@ title: Register a web app
 uid: dp-register-web-app
 description: Describes how to register a new web application in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.08.2022
+so.date: 04.27.2023
 keywords: Developer Portal, app
 so.topic: howto
-so.version:
+so.dp-version: 1.11
 so.envir: cloud
 so.client:
 ---
