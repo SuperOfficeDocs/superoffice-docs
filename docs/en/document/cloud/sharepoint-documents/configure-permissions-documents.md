@@ -14,7 +14,7 @@ so.client: online
 # How to set up SharePoint permissions for documents
 
 > [!NOTE]
-> This feature is only relevant if 'Confidential activities' is enabled for users in 'Settings and maintenance', and 'Visible for' field is set on the the document property:
+> This feature is relevant only if **Confidential activities** is enabled for users in Settings and maintenance, and the **Visible for** field is set on the document property:
 
 <details>
 <summary>Show details for Confidential activities and Visible for</summary>
