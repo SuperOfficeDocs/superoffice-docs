@@ -64,7 +64,7 @@ Make sure there are no user accounts in this group. Only service accounts.​
 ​![Review SharePoint site groups​ -screenshot][img4]
 
 <!-- Referenced links -->
-[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/WebHelpAdmin/chap07/Adding_users_web.htm
+[1]: ../../../admin/user-management/learn/add-associate.md
 [2]: https://id.superoffice.com/identityprovider/register
 
 <!-- Referenced images -->
