@@ -477,6 +477,8 @@ items:
   - name: OData Search in WebApi
     href: search/odata/index.md
     items:
+    - name: Metadata
+      href: search/odata/metadata.md
     - name: Associate
       href: search/odata/associate.md
     - name: Boolean
@@ -495,6 +497,8 @@ items:
       href: search/odata/unary.md
     - name: Filters
       href: search/odata/using-filters.md
+    - name: Dynamic dot-syntax
+      href: search/odata/dynamic-provider.md
 - name: Security
   href: security/index.md
   items:

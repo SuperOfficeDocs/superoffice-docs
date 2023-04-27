@@ -17,7 +17,12 @@ Examples of these endpoints are:
 * `/api/v1/Appointment`
 * `/api/v1/Contact`
 * `/api/v1/Person`
-* `/api/v1/Sale`
+
+There is also the general `Archive` endpoint:
+
+* `/api/v1/Archive/SimpleSale`
+* `/api/v1/Archive/FindSale`
+* `/api/v1/Archive/LastTickets`
 
 Each endpoint, accessed by a GET request without parameters, is expected to be an [OData URI][1] query.
 
@@ -67,13 +72,14 @@ The GET Sale endpoint uses the `FindSale` archive provider.
 
 ## $select columns
 
-All available columns, shown under the blue rectangle, are listed under the **Supported Columns** text on the FindSale archive provider page.
+All available columns, shown under the blue rectangle, are listed under the **Supported Columns** text on the [FindSale archive provider page][15].
 
 ![GetSale -screenshot][img2]
 
-Archive provider pages also list the column data types and whether or not the column can be used in an `ORDER BY` statement.
+[Archive provider pages][2] also list the column data types and whether or not the column can be used in an `ORDER BY` statement.
 
 ![GetSale -screenshot][img3]
+
 
 ## $filter operators
 
@@ -94,7 +100,10 @@ Difference data types can have different operators. Each OData search page conta
 | Associate | associateIsOneOf, associateIsNotOneOf, currentAssociate |
 | Lists | equals, oneOf, notOneOf |
 
-Read more about [using filters][3].
+Read more about [using filters][3] and the [dynamic dot-syntax provider][14].
+
+You can fetch [metadata - information about archives][13] to do "reflection" on the available archives.
+
 
 ## Example searches
 
@@ -107,6 +116,11 @@ Read more about [using filters][3].
 * [Numbers][9] (integer, decimal, float)
 * [Strings][10]
 * [Unary][11] (day, week, month, quarter, year)
+
+## See also
+
+* [List of archive providers][2]
+* [Archive OData endpoint][16]
 
 <!-- Referenced links -->
 [1]: https://www.odata.org/
@@ -121,6 +135,10 @@ Read more about [using filters][3].
 [10]: strings.md
 [11]: unary.md
 [12]: ../../../company/howto/services/get-all-contacts-rest.md
+[13]: metadata.md
+[14]: dynamic-provider.md
+[15]: ../../archive-providers/reference/findsale.md
+[16]: ../../reference/restful/rest/Archive/index.md
 
 <!-- Referenced images -->
 [img1]: media/get-sale.png
