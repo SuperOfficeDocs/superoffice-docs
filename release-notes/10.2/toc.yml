@@ -20,8 +20,8 @@ items:
 - name: Requests / Service
   href: service/index.md
   items:
-    - name: 10.2.5 update
-      href: service/10.2.5-update.md
+  - name: 10.2.5 update
+    href: service/10.2.5-update.md
 - name: Marketing
   href: marketing/index.md
   items:
