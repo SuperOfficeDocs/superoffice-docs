@@ -3,7 +3,7 @@ title: Update profile
 uid: dp-update-profile
 description: How to update your own profile in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 05.23.2022
+so.date: 04.27.2023
 keywords: Developer Portal, profile, user
 so.topic: howto
 so.version:
@@ -31,7 +31,7 @@ You can update your profile via the top menu.
 4. Click **Save**.
 
 <!-- Referenced links -->
-[1]: (https://nb.gravatar.com/)
+[1]: https://nb.gravatar.com/
 
 <!-- Referenced images -->
 [img1]: media/profile-select.png
