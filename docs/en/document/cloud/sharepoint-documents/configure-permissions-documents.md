@@ -13,6 +13,18 @@ so.client: online
 
 # How to set up SharePoint permissions for documents
 
+> [!NOTE]
+> This feature is only relevant if 'Confidential activities' is enabled for users in 'Settings and maintenance', and 'Visible for' field is set on the the document property:
+
+<details>
+<summary>Show details for Confidential activities and Visible for</summary>
+
+'Confidential activities' in the [Settings and maintenance - Users][1]: activates the 'Visible for' for the user.
+
+'Visible for' field in the [document dialog][2]: display a list that allows you to choose whether the document will be visible to all users, private (i.e. visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to. 
+    
+</details>
+
 ## Step 1 – Navigate to the site where the SuperOffice document library reside​
 
 To give users permissions to create, delete and edit SuperOffice documents in SharePoint, you need to give them access / permissions to the site where the document library reside​.
@@ -52,6 +64,8 @@ Make sure there are no user accounts in this group. Only service accounts.​
 ​![Review SharePoint site groups​ -screenshot][img4]
 
 <!-- Referenced links -->
+[1]: https://help.superoffice.com/Documentation/Help/EN/CRM/10.1/WebHelpAdmin/chap07/Adding_users_web.htm
+[2]: https://id.superoffice.com/identityprovider/register
 
 <!-- Referenced images -->
 [img1]: media/so-sharepoint-home.png
