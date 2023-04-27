@@ -15,15 +15,11 @@ so.client: online
 
 > [!NOTE]
 > This feature is relevant only if **Confidential activities** is enabled for users in Settings and maintenance, and the **Visible for** field is set on the document property:
+>
+>* **Confidential activities** in the [Settings and maintenance - Users][1] activates the *Visible for* for the user.
+>
+>* The **Visible for** field in the [document dialog][2] display a list that allows you to choose whether the document will be visible to all users, private (visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to. 
 
-<details>
-<summary>Show details for Confidential activities and Visible for</summary>
-
-* **Confidential activities** in the [Settings and maintenance - Users][1] activates the *Visible for* for the user.
-
-* The **Visible for** field in the [document dialog][2] display a list that allows you to choose whether the document will be visible to all users, private (visible only to the user defined as owner), or visible to all users in one of the user groups that the owner belongs to. 
-    
-</details>
 
 ## Step 1 – Navigate to the site where the SuperOffice document library reside​
 
