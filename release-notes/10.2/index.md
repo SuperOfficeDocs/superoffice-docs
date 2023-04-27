@@ -40,6 +40,9 @@ so.version: 10.2
 * 10.2.11 (Mobile CRM):
   * [Request with sale and project fields][9] in Mobile CRM
 
+* 10.2.5:
+  * [New Requests/Service inside the CRM module][10] in Core CRM/Service
+
 <!-- Referenced links -->
 [1]: admin/10.2.1-update.md
 [2]: core-crm/10.2.1-update.md
@@ -50,5 +53,6 @@ so.version: 10.2
 [7]: mobile/10.2.10-update.md
 [8]: core-crm/10.2.4-update.md
 [9]: mobile/10.2.11-update.md
+[10]: service/10.2.5-update.md
 
 <!-- Referenced images -->
