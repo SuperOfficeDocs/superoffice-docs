@@ -77,6 +77,8 @@ items:
       href: howto/customers.md
     - name: View API call statistics
       href: howto/metered-services.md
+    - name: View exceptions
+      href: howto/failures.md
     - name: Manage notifications
       href: howto/notifications.md
     - name: Format text
