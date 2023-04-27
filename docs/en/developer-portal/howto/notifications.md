@@ -3,10 +3,10 @@ title: Notifications
 uid: dp-notifications
 description: Manage app notifications in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.26.2023
+so.date: 04.27.2023
 keywords: Developer Portal, app, notification, error, tenant status
 so.topic: howto
-so.dp-version: 1.10
+so.dp-version: 1.11
 so.envir: cloud
 so.client:
 ---
