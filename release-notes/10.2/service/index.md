@@ -11,7 +11,7 @@ so.topic: reference
 
 # New and improved service
 
-* [Service / Request inside the CRM module (10.2.5)][5]
+* [Service/Request inside the CRM module (10.2.5)][5]
 
 <!-- Referenced links-->
 [5]: 10.2.5-update.md

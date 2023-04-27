@@ -17,8 +17,11 @@ items:
     href: admin/10.2.2-update.md
   - name: 10.2.3 update
     href: admin/10.2.3-update.md
-#- name: Requests / Service
-#  href: service/index.md
+- name: Requests / Service
+  href: service/index.md
+  items:
+    - name: 10.2.5 update
+      href: service/10.2.5-update.md
 - name: Marketing
   href: marketing/index.md
   items:
