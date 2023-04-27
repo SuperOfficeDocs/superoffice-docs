@@ -3,10 +3,10 @@ title: User guide
 uid: dp-app-user-guide
 description: How to manage links and instructions for installation standard apps in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 11.29.2022
+so.date: 04.27.2023
 keywords: Developer Portal, app store, install, links
 so.topic: howto
-so.dp-version: 1.9
+so.dp-version: 1.11
 so.envir: cloud
 ---
 

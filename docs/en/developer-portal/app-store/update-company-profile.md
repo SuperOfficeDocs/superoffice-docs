@@ -3,10 +3,10 @@ title: Update partner profile
 uid: dp-update-partner-profile
 description: How to update your partner profile in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.26.2023
+so.date: 04.27.2023
 keywords: Developer Portal, profile
 so.topic: howto
-so.dp-version: 1.10
+so.dp-version: 1.11
 so.envir: cloud
 ---
 
