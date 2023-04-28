@@ -3,10 +3,10 @@ title: Register a mirroring app
 uid: dp-register-mirroring-app
 description: Registering a new mirroring app in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 04.27.2023
+so.date: 05.18.2022
 keywords: Developer Portal, app, mirroring
 so.topic: howto
-so.dp-version: 1.11
+so.version:
 so.envir: cloud
 so.client:
 ---
