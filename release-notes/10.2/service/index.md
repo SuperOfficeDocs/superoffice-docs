@@ -9,7 +9,7 @@ so.version: 10.2
 so.topic: reference
 ---
 
-# New and improved service
+# New and improved Service
 
 * [Service/Request inside the CRM module (10.2.5)][5]
 
