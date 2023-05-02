@@ -3,7 +3,7 @@ uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
 author: SuperOffice AS – Research and Development
-so.date: 03.07.2023
+so.date: 05.02.2023
 so.topic: reference
 ---
 
@@ -13,7 +13,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## The latest release
 
-[**Version 10.2.4**][6] - 03.28.2023
+[**Version 10.2.5**][6] - 05.02.2023
 
 ## Overview of the different versions
 
