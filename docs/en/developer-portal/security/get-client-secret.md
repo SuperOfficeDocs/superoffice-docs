@@ -26,6 +26,8 @@ so.client:
 
     ![Application secret -screenshot][img1]
 
+    [!include[Expiration ignored](includes/note-expiration.md)]
+
 4. Store the secret somewhere safe! You can't look it up in the Developer Portal later.
 
 5. Click **Save Settings**.

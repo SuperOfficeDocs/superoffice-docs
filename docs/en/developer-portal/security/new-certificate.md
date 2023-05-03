@@ -38,6 +38,8 @@ The Developer Portal stores your public key. However, you must store the private
 
     ![Certificates -screenshot][img3]
 
+    [!include[Expiration ignored](includes/note-expiration.md)]
+
 6. Store the **private key** somewhere safe! You can't look it up in the Developer Portal later.
 
 7. Click **Save Settings**.
