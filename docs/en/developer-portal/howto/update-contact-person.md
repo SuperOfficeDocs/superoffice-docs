@@ -38,8 +38,6 @@ so.client: online
 -->
 
 <!-- Referenced links -->
-[1]: ../app-store/update-app-page.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-settings.png
-[img2]: media/select-contact.png

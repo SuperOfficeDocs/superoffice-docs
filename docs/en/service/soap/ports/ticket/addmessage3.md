@@ -14,7 +14,7 @@ so.topic: reference
 
 Adds a message to an existing ticket. If you are creating a new ticket, you need to also call this to add a message to the ticket. If you have file attachments you wish to add to this message, you have to call `addAttachment()` for each of these.
 
-If `replyTemplateId > 0`, then the chosen reply template body will be inserted as the body. If the body parameter is not empty, then this body will be inserted into the parser as `%messsage.body%` and `%message.bodyHtml%` (newlines will be converted to `<br> in HTML version). If the language module is installed, then the reply template will be chosen with the customer’s language.
+If `replyTemplateId > 0`, then the chosen reply template body will be inserted as the body. If the body parameter is not empty, then this body will be inserted into the parser as `%messsage.body%` and `%message.bodyHtml%` (newlines will be converted to `<br>` in HTML version). If the language module is installed, then the reply template will be chosen with the customer’s language.
 
 The complete body will be sent by email to the chosen recipients. Illegal email addresses will be ignored.
 
@@ -78,3 +78,4 @@ if (errorCode.Equals("0"))
 ```
 
 <!-- Referenced links -->
+[1]: ../../error-codes.md

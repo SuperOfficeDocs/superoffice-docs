@@ -52,11 +52,5 @@ Gets the full-size picture of the given product. Returns the full-size picture o
 Rank: Which of the images to return, will in the first version only ask for the first.
 
 <!-- Referenced links -->
-[1]: http://www.currency-iso.org/dl_iso_table_a1.xls
 
 <!-- Referenced images -->
-[img1]: media/create-quote.png
-[img2]: media/image008.jpg
-[img3]: media/image009.png
-[img4]: media/image010.png
-[img5]: media/image011.jpg

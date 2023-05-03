@@ -31,12 +31,13 @@ Documents within the library inherit the permission from the library itself.
 ## Related
 
 * [Requirements][1]
-* How to configure SharePoint document library
+* [How to configure SharePoint document library][3]
 * [Manage your document templates][2]
 
 <!-- Referenced links -->
 [1]: index.md
-[2]:
+[2]: ../../../../admin/lists/learn/add-template.md
+[3]: ../set-up.md
 
 <!-- Referenced images -->
 [img1]: media/admin-preferences-documentlibrary-sharepoint-permissions.png

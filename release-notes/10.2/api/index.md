@@ -105,7 +105,6 @@ so.topic: reference
 |IWorkflowAgent    | SaveWorkflowStepOption                 |10.2.4   | [REST Link][96] | [SOAP Link][118]|
 |IWorkflowAgent    | SaveWorkflowTrigger                    |10.2.4   | [REST Link][97] | [SOAP Link][119]|
 
-
 ## Breaking changes - modified web service methods
 
 | Agent Name       | Method Name                           | Version | REST Agent      | SOAP Agent      |
@@ -260,7 +259,6 @@ services.AddLogging(a =>
 [72]: ../../../docs/en/api/mdo-providers/reference/workflowgoaltype.md
 [73]: ../../../docs/en/api/mdo-providers/reference/workflowinstancestatus.md
 [74]: ../../../docs/en/api/mdo-providers/reference/workflowtriggertype.md
-[75]: ../../../docs/en/api/reference/restful/agent/Archive_Agent/v1ArchiveAgent_GetRelatedData.md
 [76]: ../../../docs/en/api/reference/restful/agent/Diagnostics_Agent/v1DiagnosticsAgent_GetEntityCountsForCurrentUser.md
 [77]: ../../../docs/en/api/reference/restful/agent/EMail_Agent/v1EMailAgent_ResolveEMailRecipients.md
 [78]: ../../../docs/en/api/reference/restful/agent/Person_Agent/v1PersonAgent_CreateOrUpdateUserCandidate.md

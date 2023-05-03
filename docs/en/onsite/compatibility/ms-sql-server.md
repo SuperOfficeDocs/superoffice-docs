@@ -23,4 +23,3 @@ SuperOffice CRM has officially been tested on MS SQL Server versions listed belo
 | SQL Server 2012 | 11.0.2100.60  | SQL Native Client 11.0 | 2011.110.1750.32 |
 
 [!include[legend](./includes/caution-odbc-drivers.md)]
-

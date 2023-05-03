@@ -34,5 +34,4 @@ You can [change the application configuration and the App Store information][3] 
 [1]: ../certification/certify-app.md
 [2]: ../../developer-portal/app-store/update-app-page.md
 [3]: ../../developer-portal/howto/update-app.md
-[4]: ../provisioning/index.md
 [5]: ../provisioning/consent.md

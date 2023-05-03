@@ -37,5 +37,3 @@ The reason will only work when the right is R (read-only).
 ## Example
 
 "QuoteLine.Image=N&UnitCost=R,This product has a fixed cost.&Description=W&QuoteLine.VAT=M"
-
-

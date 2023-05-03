@@ -84,9 +84,8 @@ To enable toggled features - you need to add two sections manually in your NetSe
 | User Management          | UserManagement                 |  9.x     |  |
 
  Available from version = Version that support the FeatureToggle.
- 
- Released in version = Version that have the feaure automatic on, and does not support the FeatureToggle
 
+ Released in version = Version that have the feaure automatic on, and does not support the FeatureToggle
 
 ## Look up enabled features
 

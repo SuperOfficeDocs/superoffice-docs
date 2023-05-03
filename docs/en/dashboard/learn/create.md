@@ -55,7 +55,7 @@ There is a lot of standard tiles to choose from in the library, but you can also
 * [Add tiles / Edit layout][2]
 * [Duplicate a dashboard][4]
 * [Delete a dashboard][5]
-* [Create a search and save it as a selection ][6]
+* [Create a search and save it as a selection][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
@@ -63,7 +63,7 @@ There is a lot of standard tiles to choose from in the library, but you can also
 [3]: update.md
 [4]: copy.md
 [5]: delete.md
-[6]:
+[6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/az.png
