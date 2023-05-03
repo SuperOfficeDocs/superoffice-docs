@@ -154,6 +154,7 @@ These settings are read only for all except SuperOffice AS app managers.
 [22]: ../../apps/redirects/endpoint-types.md
 [23]: ../howto/update-endpoints.md
 [24]: ../../api/authentication/online/certificates/index.md
+[25]: ../create-app/mirror-app.md
 [26]: ../create-app/sync-app.md
 [27]: ../../api/plugins/quote-connectors/index.md
 [28]: ../../api/plugins/erp-connectors/index.md
