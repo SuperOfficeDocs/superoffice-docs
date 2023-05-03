@@ -17,8 +17,11 @@ items:
     href: admin/10.2.2-update.md
   - name: 10.2.3 update
     href: admin/10.2.3-update.md
-#- name: Requests / Service
-#  href: service/index.md
+- name: Requests / Service
+  href: service/index.md
+  items:
+  - name: 10.2.5 update
+    href: service/10.2.5-update.md
 - name: Marketing
   href: marketing/index.md
   items:
@@ -39,6 +42,8 @@ items:
     href: mobile/10.2.8-update.md
   - name: 10.2.10 update
     href: mobile/10.2.10-update.md
+  - name: 10.2.11 update
+    href: mobile/10.2.11-update.md
 #- name: Office integrations
 #  href: office-integrations/index.md
 - name: API

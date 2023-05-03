@@ -3,14 +3,19 @@ items:
   href: index.md
 - name: "10.2"
   href: 10.2/toc.yml
+  topicHref: 10.2/index.md
 - name: "10.1"
   href: 10.1/toc.yml
+  topicHref: 10.1/index.md
 - name: "10.0"
   href: 10.0/toc.yml
+  topicHref: 10.0/index.md
 - name: "9.2"
   href: 9.2/toc.yml
+  topicHref: 9.2/index.md
 - name: "9.1"
   href: 9.1/toc.yml
+  topicHref: 9.1/index.md
 - name: Older
   items:
   - name: "8.5"
