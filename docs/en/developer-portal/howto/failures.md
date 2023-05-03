@@ -68,6 +68,9 @@ Leverage our [best practices for online app development][2] to both boost your a
 
 During development, following the statistics in SOD day-by-day can provide valuable insight into the impact of your improvements.
 
+> [!NOTE]
+> If you are stuck and need assistance, contact us and include the **operation ID** from the transaction.
+
 <!-- Referenced links -->
 [2]: ../../apps/best-practices.md
 

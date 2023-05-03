@@ -36,6 +36,8 @@ so.client: online
 <!-- markdownlint-restore -->
 
 <!-- Referenced links -->
+[1]: update-app.md
 
 <!-- Referenced images -->
 [img1]: ../media/partner-settings.png
+[img2]: media/select-contact.png
