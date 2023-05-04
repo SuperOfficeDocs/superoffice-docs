@@ -3,10 +3,10 @@ title: Images and videos
 uid: dp-app-images-and-videos
 description: How to add images and videos to your app listing in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 12.22.2022
+so.date: 04.27.2023
 keywords: Developer Portal, app store, image, video, icon, logo
 so.topic: howto
-so.dp-version: 1.9
+so.dp-version: 1.11
 so.envir: cloud
 ---
 

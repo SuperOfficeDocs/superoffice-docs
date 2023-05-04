@@ -3,10 +3,10 @@ title: Update app-specific page
 uid: dp-update-app-info
 description: How to update your app-specific page in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 11.29.2022
+so.date: 04.27.2023
 keywords: Developer Portal, App Store listing
 so.topic: howto
-so.dp-version: 1.9
+so.dp-version: 1.11
 so.envir: cloud
 ---
 
@@ -23,6 +23,20 @@ The information shown on your app-specific product pages in the App Store comes 
 > [!TIP]
 > [!include[Link to application settings](../includes/see-app-settings.md)]
 <!-- markdownlint-restore -->
+
+## Update application settings
+
+1. In your application page, select **Settings** from the left menu or click the **Edit** button.
+
+1. To update the technical contact person, click **Clear** and choose another contact by email address.
+
+1. To receive error emails at different or additional email addresses, scroll to the bottom and enter one or more addresses in the **Error reporting emails** field.
+
+    ![Application settings, error reporting emails -screenshot][img5]
+
+    The addresses must be separated with a semicolon ( ; ), no spaces.
+
+1. Click **Save Settings**.
 
 ## Update App Store information
 
@@ -61,16 +75,6 @@ Most fields are mandatory and must be filled out before you click **Request to P
 When you click **Save Settings**, the confirmation dialog lists the fields needing attention.
 
 ![Warning when saving while mandatory info is missing -screenshot][img3]
-
-## Update application settings
-
-[!include[Read-only in version 1.5](../includes/note-cannot-edit.md)]
-
-<!--
-1. In your application page, select **Settings** from the left menu or click the **Edit** button.
-1. Update names and contact persons.
-1. Click **Save Settings**.
--->
 
 ## Verify your changes
 
@@ -112,3 +116,4 @@ When you are happy with how it looks, return to your partner page in the Develop
 [img2]: ../media/request-to-publish.png
 [img3]: media/warn-mandatory-missing.png
 [img4]: media/warn-no-links.png
+[img5]: ../howto/media/error-reporting-emails.png

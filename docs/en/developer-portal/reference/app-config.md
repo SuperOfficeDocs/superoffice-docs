@@ -3,10 +3,10 @@ title: Application configuration
 uid: dp-app-config
 description: Reference of application configuration in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 08.25.2022
+so.date: 04.26.2023
 keywords: apps, Developer Portal, authentication
 so.topic: reference
-so.version:
+so.dp-version: 1.10
 so.envir: cloud
 so.client:
 ---
@@ -23,6 +23,7 @@ so.client:
 | Allowed postlogout redirect URLs | Context-specific URLs that will be called by the browser after successful sign-out a user.| [Add or update][18] | [Endpoint types][22] |
 | CORS URLs | | [Add or update][18] | [About redirects and CORS][7] |
 | Default redirect URL | Used by legacy authentication - add all needed redirect URLs to your apps allowed list. | [Add or update][18] | [Endpoint types][22] |
+| Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | [Get consent][34], [Add or update text][35] | [About consent][33] |
 
 > [!NOTE]
 > Redirection and CORS URLs must be listed one per line.
@@ -47,7 +48,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
 | Customer state change endpoint | URL SuperOffice can push notifications to you when a tenant change status (on/off) | [Manage notifications][14] | [About tenant status][11] |
-| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][14] | [About tenant status][11] |
+| Send error emails to technical contact | If checked, the person listed as technical contact for the app will receive error emails. | [Get error emails][14], [Update contact person][15] | [About tenant status][11] |
 
 ## Integrations
 
@@ -55,7 +56,7 @@ SuperOffice provide the capability to either push or pull tenants status, this i
 |---|---|---|---|
 | ERP sync | For integration with an ERP system. | [Create sync app][26] | [ERP connector API][28] |
 | Quote connector | | [Create sync app][26] | [Quote connector API][27] |
-| Mirroring | For local processing when real-time data is not the most important consideration. | [Create mirror app][26] | [About mirroring][12] |
+| Mirroring | For local processing when real-time data is not the most important consideration. | [Create mirror app][25] | [About mirroring][12] |
 
 For each of the above:
 
@@ -143,6 +144,7 @@ These settings are read only for all except SuperOffice AS app managers.
 [12]: ../../mirroring/index.yml
 [13]: ../../admin/license/index.md
 [14]: ../howto/notifications.md
+[15]: ../howto/update-contact-person.md
 [16]: ../security/find-clientid.md
 [17]: ../security/get-client-secret.md
 [18]: ../security/cors-and-redirection-urls.md
@@ -152,6 +154,7 @@ These settings are read only for all except SuperOffice AS app managers.
 [22]: ../../apps/redirects/endpoint-types.md
 [23]: ../howto/update-endpoints.md
 [24]: ../../api/authentication/online/certificates/index.md
+[25]: ../create-app/mirror-app.md
 [26]: ../create-app/sync-app.md
 [27]: ../../api/plugins/quote-connectors/index.md
 [28]: ../../api/plugins/erp-connectors/index.md
@@ -159,5 +162,8 @@ These settings are read only for all except SuperOffice AS app managers.
 [30]: ../../apps/certification/index.md
 [31]: ../howto/request-to-publish.md
 [32]: ../../api/authentication/online/validate-security-tokens.md#superoffice-specific-claims
+[33]: ../../apps/provisioning/consent.md
+[34]: ../../apps/provisioning/get-consent.md
+[35]: ../security/update-consent-text.md
 
 <!-- Referenced images -->

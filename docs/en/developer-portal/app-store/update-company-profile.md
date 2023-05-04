@@ -3,10 +3,10 @@ title: Update partner profile
 uid: dp-update-partner-profile
 description: How to update your partner profile in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 12.22.2022
+so.date: 04.27.2023
 keywords: Developer Portal, profile
 so.topic: howto
-so.dp-version: 1.9
+so.dp-version: 1.11
 so.envir: cloud
 ---
 
@@ -18,7 +18,6 @@ The information shown on your partner profile page in the App Store comes from:
 * App Store information
 
 ![App Store information for a partner -screenshot][img1]
-r
 
 1. In the Developer Portal, go to your partner page.
 2. Select **App Store information** from the left menu.
@@ -34,13 +33,9 @@ r
 
 ## Update partner settings
 
-[!include[Read-only in version 1.5](../includes/note-cannot-edit.md)]
-
-<!--
 1. On your partner page, select **Settings** from the left menu or click the **Edit** button.
-1. Update names and contact persons.
+1. [Update contact persons][3].
 1. Click **Save Settings**.
--->
 
 ## Verify your changes
 
@@ -64,6 +59,7 @@ When you are happy with how it looks, return to your partner page in the Develop
 <!-- Referenced links -->
 [1]: ../versioning.md
 [2]: ../howto/request-to-publish.md
+[3]: ../howto/update-partner-settings.md
 
 <!-- Referenced images -->
 <!--519-->

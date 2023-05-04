@@ -3,14 +3,17 @@ title: Check application usage
 uid: dp-metered-services
 description: How to check the API call statistics for your application and monitor metered services.
 author: Bergfrid Dias
-so.date: 12,22.2022
+so.date: 04.27.2023
 keywords: metered services, API usage
 so.topic: howto
 so.envir: cloud
 so.client: online
+so.dp-version: 1.11
 ---
 
 # Check application usage (API calls)
+
+Metered API calls come from applications that are not part of the SuperOffice standard products.
 
 ## At a glance
 
@@ -18,9 +21,11 @@ The **app page** shows application usage for one specific application.
 
 1. [!include[Go to the app page](../includes/go-to-app-page.md)]
 
-1. Select **Usage**.
+2. Select **API Usage**.
 
-1. Click through the environment specific tabs.
+3. Select a time interval (days, weeks, or months).
+
+4. Click through the environment specific tabs.
 
 ![API usage overview in SuperOffice developer portal -screenshot][img1]
 

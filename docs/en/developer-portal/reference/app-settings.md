@@ -3,17 +3,15 @@ title: Application settings
 uid: dp-app-settings
 description: Reference of application settings in the SuperOffice Developer Portal.
 author: Bergfrid Dias
-so.date: 06.08.2022
+so.date: 04.26.2023
 keywords: apps, Developer Portal
 so.topic: reference
-so.version:
+so.dp-version: 1.10
 so.envir: cloud
 so.client:
 ---
 
 # Application settings
-
-These settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
 
 ![Application settings in the SuperOffice Developer Portal -screenshot][img1]
 
@@ -21,12 +19,13 @@ These settings may only be changed by SuperOffice app managers. Contact us via c
 |---|---|---|---|
 | Application name | The human-readable name of the application. | [Update app info][9] | [Naming requirements][8] |
 | SEO-friendly name | For search engines. | [Update partner profile][2], [Update the product page][9] | [Improve SEO][10] |
-| Authorize | The description shown in the concent dialog when the admin is prompted to approve the application. | [Get consent][5] | [About consent][15] |
 | Technical contact | The contact person for this app. | [Update contact person][1] | |
 | Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. If empty, technical contact will get these. | [Set state change URL][11], [Get error emails][11] | [About tenant status][17] |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | [Create app][13] | [About custom apps][6] |
 | Is beta | Whether the app is currently in beta in the App Store. | [Publish app][14] | [About the beta period][7] |
+
+As a partner, you may change the technical contact and the list of error reporting emails. Other settings may only be changed by SuperOffice app managers. Contact us via chat or support if you want to request any changes.
 
 ## App Store information
 
@@ -136,7 +135,6 @@ Setting | Description | Read more |
 [2]: app-config.md
 [3]: partner-settings.md
 [4]: user-settings.md
-[5]: ../../apps/provisioning/get-consent.md
 [6]: ../../apps/custom.md
 [7]: ../../apps/publish/beta-period.md
 [8]: ../../apps/requirements/marketing.md#application-name
@@ -146,7 +144,6 @@ Setting | Description | Read more |
 [12]: ../../apps/requirements/marketing.md#application-description
 [13]: ../create-app/index.md
 [14]: ../../apps/publish/index.md
-[15]: ../../apps/provisioning/consent.md
 [16]: ../app-store/prices-and-terms.md
 [17]: ../../apps/tenant-status/index.md
 [18]: ../app-store/user-guide.md#how-to-install

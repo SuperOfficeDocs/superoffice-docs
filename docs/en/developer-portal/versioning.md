@@ -3,10 +3,10 @@ title: Versioning
 uid: dp-versioning
 description: Introduction to versioned information and configuration in the SuperOffice Online Developer Portal and how it relates to our different environments (SOD, Stage, Production).
 author: Bergfrid Dias
-so.date: 06.09.2022
+so.date: 04.26.2023
 keywords: developer, Developer Portal, apps, app-store
 so.topic: concept
-so.version:
+so.dp-version: 1.10
 so.envir: cloud
 so.client:
 ---

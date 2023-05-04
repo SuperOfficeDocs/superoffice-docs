@@ -46,6 +46,8 @@ items:
       href: security/get-client-secret.md
     - name: Add and update redirect URLs
       href: security/cors-and-redirection-urls.md
+    - name: Update text for consent dialog
+      href: security/update-consent-text.md
     - name: Create new certificate
       href: security/new-certificate.md
     - name: Add user
@@ -75,6 +77,8 @@ items:
       href: howto/customers.md
     - name: View API call statistics
       href: howto/metered-services.md
+    - name: View exceptions
+      href: howto/failures.md
     - name: Manage notifications
       href: howto/notifications.md
     - name: Format text
