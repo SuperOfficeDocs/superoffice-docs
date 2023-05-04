@@ -37,3 +37,42 @@ When creating or updating document from CRM, the user will be given access to th
 The reason for this is that we suspect there will be user groups in CRM that are not mapped to SharePoint. The user can be member of, for instance, Sales in CRM, but not any corresponding group in SharePoint. Creating a document and setting Visible for Sales will cause the user to not be able to access the document, both for editing and for updating meta-data.​
 
 These links will not be removed when the document properties are updated later.​
+
+## I would like to revoke some of the existing permissions of the Enterprise Application "SuperOffice Document Library"
+
+SuperOffice integration uses and application called 'SuperOffice Document Library' which requires several permissions to be able to integrate SuperOffice CRM Online with SharePoint site. It is possible to change these permissions using **PowerShell**.
+
+<details>
+  
+<summary>Show details</summary>
+
+ _Azure Cloud Shell_ is a browser-based shell experience that gives one possible way for you to access to Azure services and resources.​
+  
+_Get-MgServicePrincipal_ cmdlet is part of the Microsoft Graph PowerShell module, which provides cmdlets for working with the Microsoft Graph API, used to alter the existing permissions.​
+
+You can install the Microsoft Graph PowerShell module in your Azure Cloud Shell session by running the following command: ​
+
+`Install-Module -Name Microsoft.Graph`
+  
+
+To alter permissions via the PowerShell, you need the Object Id for the Enterprise Application "SuperOffice Document Library". You find it in `Microsoft Admin Center -> Applications ->  Enterprise Applications -> SuperOffice Document Library`
+  
+</details>
+
+Here is one example on how to (only) remove "Sites.FullControl.All":
+
+```
+$permissionsToRemove = @("Sites.FullControl.All")
+$grant = Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId [your Object Id]
+$grant.Scope
+
+$permissionsToRemove = $permissionsToRemove | % { $_.ToLower() }
+$newPermissions = $grant.Scope.Split(" ") | ? { -not $permissionsToRemove.Contains($_.ToLower()) }
+$newScope = $newPermissions -join " "
+Update-MgOauth2PermissionGrant -OAuth2PermissionGrantId $grant.Id -Scope $newScope
+
+$grant = Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId [your Object Id]
+$grant.Scope
+```
+Example on how to remove more, specify each by comma (,):
+$permissionsToRemove = @("User.Read", "Sites.FullControl.All")
