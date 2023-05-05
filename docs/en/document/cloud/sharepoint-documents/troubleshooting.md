@@ -3,7 +3,7 @@ title: Troubleshooting
 uid: sharepoint-troubleshooting
 description: Troubleshooting SharePoint Documents
 author: Bergfrid Dias
-so.date: 06.20.2022
+so.date: 05.05.2023
 keywords: SharePoint, document
 so.topic: howto
 so.envir: cloud
@@ -38,30 +38,27 @@ The reason for this is that we suspect there will be user groups in CRM that are
 
 These links will not be removed when the document properties are updated later.​
 
-## I would like to revoke some of the existing permissions of the Enterprise Application "SuperOffice Document Library"
+## Revoke permissions of the "SuperOffice Document Library" enterprise application
 
-SuperOffice integration uses and application called 'SuperOffice Document Library' which requires several permissions to be able to integrate SuperOffice CRM Online with SharePoint site. It is possible to change these permissions using **PowerShell**.
+SuperOffice integration uses an application called **SuperOffice Document Library**, which requires several permissions to be able to integrate SuperOffice CRM Online with SharePoint site. It is possible to change these permissions using **PowerShell**.
 
-<details>
-  
-<summary>Show details</summary>
+**Azure Cloud Shell** is a web-based command-line interface (CLI) that allows you to manage and interact with Azure services resources.​
 
- _Azure Cloud Shell_ is a browser-based shell experience that gives one possible way for you to access to Azure services and resources.​
-  
-_Get-MgServicePrincipal_ cmdlet is part of the Microsoft Graph PowerShell module, which provides cmdlets for working with the Microsoft Graph API, used to alter the existing permissions.​
+The Microsoft Graph PowerShell module provides cmdlets for working with the Microsoft Graph API. Its **Get-MgServicePrincipal** cmdlet is used to alter the existing permissions.​
 
-You can install the Microsoft Graph PowerShell module in your Azure Cloud Shell session by running the following command: ​
+### Preparation
 
-`Install-Module -Name Microsoft.Graph`
-  
+1. Install the Microsoft Graph PowerShell module in your Azure Cloud Shell session.
 
-To alter permissions via the PowerShell, you need the Object Id for the Enterprise Application "SuperOffice Document Library". You find it in `Microsoft Admin Center -> Applications ->  Enterprise Applications -> SuperOffice Document Library`
-  
-</details>
+    Run `Install-Module -Name Microsoft.Graph`
 
-Here is one example on how to (only) remove "Sites.FullControl.All":
+2. Find the object ID for the enterprise application (required to change permissions via PowerShell).
 
-```
+    Go to **Microsoft Admin Center** > **Applications** > **Enterprise Applications** > **SuperOffice Document Library**.
+
+### Example: remove only "Sites.FullControl.All"
+
+```powershell
 $permissionsToRemove = @("Sites.FullControl.All")
 $grant = Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId [your Object Id]
 $grant.Scope
@@ -74,5 +71,11 @@ Update-MgOauth2PermissionGrant -OAuth2PermissionGrantId $grant.Id -Scope $newSco
 $grant = Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId [your Object Id]
 $grant.Scope
 ```
-Example on how to remove more, specify each by comma (,):
+
+### Example: remove multiple permissions
+
+To remove more than one permission at once, specify each separated by a comma.
+
+```powershell
 $permissionsToRemove = @("User.Read", "Sites.FullControl.All")
+```
