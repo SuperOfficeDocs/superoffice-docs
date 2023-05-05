@@ -3,7 +3,7 @@ uid: screen-tabs
 title: Working with tabs
 description: How to add, organize, delete, and restore a tab in a layout and how to organize its information into logical groups using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 10.10.2022
+so.date: 05.05.20213
 keywords: ui, screen, customization
 so.topic: howto
 so.version: 10

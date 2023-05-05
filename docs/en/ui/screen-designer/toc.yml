@@ -14,6 +14,8 @@ items:
     href: configurable-screens/add-button.md
   - name: Working with tabs
     href: configurable-screens/working-with-tabs.md
+  - name: Working with grids
+    href: configurable-screens/working-with-grids.md
   - name: Assign layout to group or sale/project type
     href: configurable-screens/assign-layout.md
   - name: Tutorial - place country before address
