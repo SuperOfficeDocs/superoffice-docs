@@ -3,7 +3,7 @@ uid: configurable-screens
 title: Configurable screens
 description: Configurable screens
 author: Bergfrid Dias
-so.date: 10.04.2022
+so.date: 05.05.2023
 keywords: ui, screen, customization
 so.topic: concept
 so.version: 10
@@ -23,6 +23,7 @@ Configurable screens enable CRM Administrators to customize SuperOffice CRM user
 * Contact
 * Sale
 * Project
+* Request
 
 ## What can I customize?
 

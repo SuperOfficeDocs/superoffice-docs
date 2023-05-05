@@ -15,7 +15,7 @@ language: en
 
 If the default layout does not reflect the needs of a user group, you can create a new layout to match the user group's unique information needs. A customized layout for the contact and company cards and the different archive/section tabs lets your teams and organization work more efficient.
 
-With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the company, contact, sale and project screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
+With custom screen layouts for each of your teams, finding customer data will be easier than ever. The most relevant data will always be available and visible. Remove, move or hide irrelevant or less important data to unclutter the company, contact, sale, project, and request screens. Add customized archives with the most relevant data for your teams. The result will be a cleaner and more tidy screen for your teams to work in.
 
 ## Main card layout
 

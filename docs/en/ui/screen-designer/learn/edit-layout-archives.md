@@ -13,7 +13,7 @@ language: en
 
 # Edit layout on section tabs/archives
 
-You can edit the layout by adding or removing section tabs/archives on the different main cards for Company, Contact, Sale and Project.
+You can edit the layout by adding or removing section tabs/archives on the different main cards for company, contact, sale, and project, and request.
 
 ## Disambiguation
 
@@ -23,7 +23,7 @@ When you have created a new layout for archives (section tabs) as described in A
 
 ## Steps
 
-You can add a new section tab on any main cards you like. Depending on the main card chosen, you can add a new tab with contents of: Document, Appointment, Product, Project, Project member, Sale, Sale stakeholder, Request, Contact and Relation.
+You can add a new section tab on any main cards you like. Depending on the main card chosen, you can add a new tab with contents of: Document, Appointment, Product, Project, Project member, Sale, Sale stakeholder, Request, Contact, and Relation.
 
 ![Select the type of content you want to show in the section tab -screenshot][img5]
 

@@ -3,7 +3,7 @@ uid: screen-edit-card
 title: Edit the layout of a card
 description: How to edit the layout of a main card using the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 10.11.2022
+so.date: 05.05.2023
 keywords: ui, screen, customization
 so.topic: howto
 so.version: 10
@@ -28,7 +28,7 @@ Before customizing a layout, determine who the intended users are.
 ## Edit card layout
 
 1. Open the Screen Designer.
-2. Select a card at the top: Company, Contact, Sale, or Project.
+2. Select a card at the top: Company, Contact, Sale, Project, or Request.
 3. Select a layout in the list on the left side.
 4. Click **Edit layout** below the preview.
 5. In the **Edit card layout** window, work your way through the tabs of the screen.
