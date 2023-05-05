@@ -3,7 +3,7 @@ uid: screen-element-reference
 title: Working with fields
 description: Reference of elements available in the Screen Designer in Settings and maintenance.
 author: Bergfrid Dias
-so.date: 10.14.2022
+so.date: 05.05.2023
 keywords: ui, screen, customization
 so.topic: reference
 so.version: 10
@@ -164,7 +164,7 @@ For details about the value of each field, see the [Sale database table][4].
 | Status | Drop-down | |
 | Type | Drop-down | |
 | Website | Text | |
-| Custom fields | | Both user-defined and extra  |
+| Custom fields | | Both user-defined and extra |
 
 For details about the value of each field, see the [Project database table][5].
 
@@ -176,12 +176,73 @@ For details about the value of each field, see the [Project database table][5].
 * Image
 * Links
 
+## Request
+
+**Standard fields:**
+
+| Field | Type | Comment |
+|---|---|---|
+| Access level | Drop-down | |
+| Alert timeout | Text | |
+| Author | Text | |
+| Category | Drop-down | |
+| Closed at | Date | |
+| Company | Text | |
+| Contact | Text | |
+| Created |  Date | |
+| Created by | Text | |
+| Deadline | Date | |
+| First read by owner | Date | |
+| First read by user | Date | |
+| Has attachment | Checkbox | |
+| ID | Text | |
+| Internal status | Text | |
+| Language | Text | |
+| Last changed | Date | |
+| Level | Text | |
+| Number of messages | Time | |
+| Number of replies | Time | |
+| Origin | Text | |
+| Owner | Drop-down | |
+| Postponed to | Text | |
+| Priority | Drop-down | |
+| Project | Drop-down | |
+| Read | Text | |
+| Read by owner | Date | |
+| Real time externally | Time | |
+| Real time internally | Time | |
+| Real time in queue | Time | |
+| Real time to close | Time | |
+| Real time to reply | Time | |
+| Replied at | Date | |
+| Sale | Drop-down | |
+| Sentiment | Text | |
+| Sentiment confidence | Text | |
+| Status | Drop-down | |
+| Tags | Drop-down | Has no options |
+| Time spent | Time | |
+| Time spent externally | Time | |
+| Time spent in queue | Time | |
+| Time to close | Time | |
+| Time to reply | Time | |
+| Title | Text | |
+| Custom fields | | Both user-defined and extra |
+
+For details about the value of each field, see the [Ticket database table][12].
+
+**Default tabs:**
+
+* Messages
+* Details
+* Change log
+
 ## Related content
 
 * [Working with fields][1]
 * [Address formats][6]
 * [Learn more about sales][9]
 * [Learn more about projects][10]
+* [Learn more about requests][11]
 
 <!-- Referenced links -->
 [1]: configurable-screens/working-with-fields.md
@@ -194,5 +255,7 @@ For details about the value of each field, see the [Project database table][5].
 [8]: ../../company/category-list.md
 [9]: ../../sale/overview.md
 [10]: ../../project/overview.md
+[11]: ../../request/overview.md
+[12]: ../../database/tables/ticket.md
 
 <!-- Referenced images -->
