@@ -62,7 +62,7 @@ You can use FastSearcher in various ways:
 3. After you have found the required city or country, click the item to enable the required time zone.
 
 <!-- Referenced links -->
-[1]: using-history-list.md
+[1]: ../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: media/quicksearch-company.bmp

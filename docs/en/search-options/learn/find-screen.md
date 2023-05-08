@@ -323,7 +323,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [2]: using-fastsearcher.md
 [3]: using-search-criteria.md
 [5]: freetext-search.md
-[6]: using-history-list.md
+[6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md
 [8]: ../selection/learn/create/index.md
 [9]: ../selection/learn/update/add-remove-members-static.md

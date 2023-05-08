@@ -16,7 +16,7 @@ In the **Image** tab, you can add an image for the project. The project image is
 1. Open the Project screen. Do one of the following:
 
     * Click the **Project** button in the Navigator.
-    * Use the [history list][1] or [FastSearcher][2].
+    * Use the [history list][1] or navigator search.
     * Double-click a project in a search result or the **Projects** section tab in the Company screen.
 
 2. Select the **Image** tab.
@@ -38,5 +38,4 @@ In the **Image** tab, you can add an image for the project. The project image is
     > To remove an active project image, click **Delete** to the left of the description.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-history-list.md
-[2]: ../../search-options/learn/using-fastsearcher.md
+[1]: ../../learn/basics/history.md

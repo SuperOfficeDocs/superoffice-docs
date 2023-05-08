@@ -3,8 +3,8 @@ uid: help-en-contact-add-relation
 title: Add relations (Contact screen)
 description: Add relations (Contact screen)
 author: SuperOffice RnD
-so.date: 07.04.2022
-keywords: person, contact
+so.date: 05.08.2023
+keywords: person, contact, relation
 so.topic: howto
 language: en
 ---
@@ -20,7 +20,7 @@ language: en
 
 1. Click the **Add** button below the section tab.
 
-1. In the **Relation** dialog, select companies and contacts under **Active part** and **Passive part** as required. Specify them either by clicking the arrow and selecting the required company or contact in the displayed list box, by typing in the whole or the beginning of the name. (See [FastSearcher][1] and [The History list][2]).
+1. In the **Relation** dialog, select companies and contacts under **Active part** and **Passive part** as required. To do this, either click the arrow and select the required company or contact from the displayed list, or type the whole or the beginning of the name.
 
 1. In the **Relation** list box, specify what relationship there is between the active and passive parties, "owns" for example. [!include[SM](../../learn/includes/are-defined-sm.md)]
 
@@ -38,8 +38,6 @@ language: en
 * [Delete relation][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
-[2]: ../../search-options/learn/using-history-list.md
 [3]: delete-relation.md
 
 <!-- Referenced images -->

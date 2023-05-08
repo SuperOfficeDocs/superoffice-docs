@@ -35,7 +35,7 @@ When you select an option for **Select from**, a list box is displayed below. Th
 
 * If you selected **Associates**, a list of user groups in your organization is displayed. You can also select **All** to display all the users in the organization.
 
-* If you selected **Project**, the history list of projects is displayed. Here you can also use [FastSearcher][6] or [The History list][5].
+* If you selected **Project**, the history list of projects is displayed. You can also start typing to search for a project name.
 
 * If you selected **Resource**, a list of resources in your organization is displayed. This list is defined in Settings and maintenance. Select **All** to see all the resources in your organization.
 
@@ -70,8 +70,6 @@ Closes the dialog without saving changes.
 [1]: ../create-view.md
 [2]: ../open.md
 [4]: ../create-follow-up.md
-[5]: ../../../search-options/learn/using-history-list.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/arrow-right.png

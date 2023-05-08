@@ -51,7 +51,7 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 [1]: ../../learn/getting-started/main-screen/side-panel.md
 [2]: find-screen.md
 [3]: using-fastsearcher.md
-[4]: using-history-list.md
+[4]: ../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: media/freetext.bmp

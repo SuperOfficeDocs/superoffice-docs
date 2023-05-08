@@ -16,13 +16,13 @@ If you are assigned the **Allow administration of external users** right in Sett
 
 ## To open the External users dialog
 
-1. Go to the company card for the company you want to manage external users for.
+1. Go to the company card for the company you want to manage external users for. Do one of the following:
 
     There are several ways to open the Company screen:
 
-    * By clicking the **Company** button in the Navigator.
-    * By using the [history list][1] or [FastSearcher][2].
-    * By double-clicking on a company in a search result or in a selection.
+    * Click the **Company** button in the Navigator.
+    * Use the [history list][1] or navigator search.
+    * Double-click a company in a search result or in a selection.
 
 2. Click ![icon][img1] **Task** > **External users**. The **External users** dialog appears.
 
@@ -49,8 +49,7 @@ Select the contact you want to remove the login for and click **Remove login**. 
 Using the **Show** list box at the lower right of the dialog, you can filter the list of contacts according to user status.
 
 <!-- Referenced links -->
-[1]: ../../../search-options/learn/using-history-list.md
-[2]: ../../../search-options/learn/using-fastsearcher.md
+[1]: ../../../learn/basics/history.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/btn-menu.png

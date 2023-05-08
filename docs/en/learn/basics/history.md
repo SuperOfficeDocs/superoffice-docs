@@ -1,9 +1,9 @@
 ---
-uid: help-en-using-history-list
+uid: help-en-history-list
 title: Using the history list
 description: Using the history list
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 08.05.2023
 keywords: search, history
 so.topic: howto
 language: en
@@ -36,7 +36,7 @@ You can use the history list in different ways:
 > You can increase or limit the number of lines in the history list by going to ![icon][img1] **Personal settings** > **Preferences** > **Visual effects** > **Size of history list** and entering the number you require.
 
 <!-- Referenced links -->
-[1]: ../../learn/getting-started/preferences.md
+[1]: ../getting-started/preferences.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/personal-settings-small.png
