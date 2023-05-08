@@ -8,4 +8,4 @@ items:
 - name: Free-text search
   href: freetext-search.md
 - name: FastSearcher
-  href: using-fastsearcher.md
+  href: fastsearcher.md

@@ -28,7 +28,7 @@ The main section contains the following essential information about the document
 
 ### Document template
 
-Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)] Here you can also use [FastSearcher][6].
+Click the arrow ![icon][img1] next to the type field at the top of the dialog to display a list of document templates that you can choose from. [!include[SM](../../../learn/includes/are-defined-sm.md)] Or, type the whole or the beginning of the name to search for a specific template.
 
 > [!NOTE]
 > When you [create a document][5], the template opens in the program it was created in. For example, DOCX files will open in Word.
@@ -145,7 +145,6 @@ This tab displays any [user-defined fields][3] configured in Settings and mainte
 [1]: ../edit.md
 [4]: ../lock.md
 [5]: ../create.md
-[6]: ../../../search-options/learn/using-fastsearcher.md
 [7]: ../../../diary/learn/change-completed-status.md
 [9]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
 [2]: ../../../learn/activity/linking-documents-to-follow-ups.md

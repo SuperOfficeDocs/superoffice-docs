@@ -43,14 +43,14 @@ If you get no hits for a search word that is in the SuperOffice database, this m
 
 ## Related topics
 
-* [Use the Find screen][2]
+* [The Find screen][2]
 * [FastSearcher][3]
 * [The History list][4]
 
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/side-panel.md
 [2]: find-screen.md
-[3]: using-fastsearcher.md
+[3]: fastsearcher.md
 [4]: ../../learn/basics/history.md
 
 <!-- Referenced images -->

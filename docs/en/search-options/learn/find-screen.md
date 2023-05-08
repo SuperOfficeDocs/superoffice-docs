@@ -320,7 +320,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 <!-- Referenced links -->
 [1]: ../../learn/getting-started/main-screen/buttons-in-menu-bar.md
 [4]: ../../learn/getting-started/main-screen/side-panel.md
-[2]: using-fastsearcher.md
+[2]: fastsearcher.md
 [3]: using-search-criteria.md
 [5]: freetext-search.md
 [6]: ../../learn/basics/history.md

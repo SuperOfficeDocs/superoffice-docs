@@ -1,9 +1,9 @@
 ---
-uid: help-en-using-fastsearcher
+uid: help-en-fastsearcher
 title: Using FastSearcher
 description: Using FastSearcher
 author: SuperOffice RnD
-so.date: 06.29.2022
+so.date: 05.08.2023
 keywords: search, FastSearcher
 so.topic: howto
 language: en
@@ -15,7 +15,7 @@ You can use FastSearcher in various ways:
 
 * You can search directly from the Navigator to access the required company, contact, sales, project or selection.
 * You can search for companies, contacts, sales, projects and selections from within dialogs containing the relevant fields, for example, the **Appointment** and **Document** dialogs, to link them to the appointment or document.
-* You can search directly in the time zone selector to find the time zone for the required city or country.
+* You can search directly in the [time zone selector][2] to find the time zone for the required city or country.
 
 [!include[Examples of searches](includes/freetext-search-examples.md)]
 
@@ -50,21 +50,20 @@ You can use FastSearcher in various ways:
 > [!TIP]
 > If you type a percent sign (%) in front of the search text, all records which *contain* the search text are displayed. For example, if you type %joh, both "Johnson Plumbing" and "Peter Johnson" are shown.
 
-## Using FastSearcher in the time zone selector
+### FastSearch tips
 
-1. Put the mouse pointer in the country field.
+You can use %% to see all records of a certain type, such as all companies, all selections, all projects.
 
-2. Enter the name of the city or country you want to find out the time zone for.
+If, for example, you want to see all the document templates available in SuperOffice CRM, go to the **+New** menu and click **Document**. In the top field in the document screen, which indicates types of document templates, type %%. You will then see a drop-down list that includes the full list of document templates available.
 
-    > [!NOTE]
-    > Names of regions in the time zone selector will always be in English, while country names depend on the language settings in SuperOffice CRM. Do not forget this when searching for countries and regions.
-
-3. After you have found the required city or country, click the item to enable the required time zone.
+![Type in two percentage signs in the FastSearcher to see all records -screenshot][img4]
 
 <!-- Referenced links -->
 [1]: ../../learn/basics/history.md
+[2]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
 [img1]: media/quicksearch-company.bmp
 [img2]: media/quicksearch-sale.bmp
 [img3]: media/quicksearch-dialog.bmp
+[img4]: media/getstarted-document-fastsearcher.png

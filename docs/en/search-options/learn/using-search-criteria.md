@@ -147,7 +147,7 @@ The criteria lists contain a set of default criteria you can edit or remove as r
 
 <!-- Referenced links -->
 [1]: find-screen.md
-[2]: using-fastsearcher.md
+[2]: fastsearcher.md
 [3]: ../../sale/saint/learn/index.md
 
 <!-- Referenced images -->

@@ -23,7 +23,7 @@ Bulk update allows you to change values across multiple records of the same type
     > [!NOTE]
     > If the selection contains both companies and contacts, there will be two tabs: **Company** and **Contact**.
 
-3. Select a field to update in the **Field** column. You can also [type the name in the field][1]. As you type in each letter, the list below displays all matches relevant to the selected records.
+3. Select a field to update in the **Field** column. You can also type the name in the field. As you type each letter, the list below displays all matches relevant to the selected records.
 
 4. Select an action in the **Action** column. The available actions depends on the type of field you selected in the previous step. Examples:
 
@@ -91,7 +91,6 @@ You discover that the contact field **Position** is rarely used. To at least sta
 You want to clean up all the "old" projects that have not been set to completed. Create a selection of all your old projects, for example all projects created more than 2 years ago and that has not been updated in the last year. Use **Bulk update** to set the **Completed** status for these projects to **Yes**.
 
 <!-- Referenced links -->
-[1]: ../../search-options/learn/using-fastsearcher.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-selected.png

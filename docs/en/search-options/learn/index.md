@@ -3,7 +3,7 @@ uid: help-en-search-intro
 title: Search options in CRM
 description: Learn how to search and find data in SuperOffice CRM with just a few clicks.
 author: Bergfrid Dias
-so.date: 12.14.2022
+so.date: 05.08.2023
 keywords: search, find
 so.topic: concept
 language: en
@@ -11,7 +11,7 @@ language: en
 
 # Search options
 
-Searching for information in your CRM database is something you do every day. Whether you're looking for a phone number or a list of all of your open sales, the Find feature will help you locate the information faster.
+Searching for information in your CRM database is something you do every day. With SuperOffice Find you can search for a single piece of data, such as a phone number, or a list of data, such as a list of mailing recipients.
 
 The following how-to guides will:
 
@@ -19,7 +19,7 @@ The following how-to guides will:
 * Explain how you can save your searches as a selection.
 * Demonstrate what tasks you can perform using your search or selections.
 
-With SuperOffice Find you can search for a single piece of data, such as a phone number, or a list of data, such as a list of mailing recipients.
+## Tools
 
 SuperOffice CRM contains several different search tools:
 
@@ -42,37 +42,27 @@ SuperOffice CRM contains several different search tools:
 * Form submissions
 * Mailings
 
-## Using FastSearcher
+## FastSearcher
 
-You can use [FastSearcher][3] or the [history list][5] to search for companies, sales, projects, and selections.
+You can use [FastSearcher][3] to search for companies, contacts, sales, projects, requests, and selections.
 
-**FastSearcher** can be found either in the **Navigator** menu by pressing on the company, contact, sales, project or selection to open a search field, or within pop-up dialogs to search for companies, contacts, sales, projects and selections.
-
-It will quickly make you a list that match your search words. Use it to check your database for possible duplicates before adding a new company or contact.
+**FastSearcher** can be found in the **Navigator** menu and within dialogs. It will quickly make you a list that match your search words. Use it to check your database for possible duplicates before adding a new company or contact.
 
 ![Use the FastSearcher to navigate quick and easy in the Navigator -screenshot][img1]
 
-### FastSearch tips
-
-You can use %% to see all records of a certain type, such as all companies, all selections, all projects.
-
-If, for example, you want to see all the document templates available in SuperOffice CRM, go to the **+New** menu and click **Document**. In the top field in the document screen, which indicates types of document templates, type %%. You will then see a drop-down list that includes the full list of document templates available.
-
-![Type in two percentage signs in the FastSearcher to see all records -screenshot][img4]
-
-## Using the Find button
+## The Find button
 
 If you click the **Find** button on the top bar, you open the [Find screen][1], where you can search for data in SuperOffice.
 
-The Find button helps you find records based on any criteria from companies, contacts, projects, selections, sales, products, follow-ups, documents and requests.
+The **Find** button helps you find records based on any criteria from companies, contacts, projects, selections, sales, products, follow-ups, documents, and requests.
 
 ![Click the Find button in the top bar to get to the Find screen -screenshot][img2]
 
 When you use the Find feature, you can save each search you perform as a selection.
 
-## Using free-text search
+## Free-text search
 
-Use the [free-text search][2] search field in the upper-right corner to search for any text that users have entered into SuperOffice CRM.
+Click [free-text search][2] in the upper-right corner to search for any text that users have entered into SuperOffice CRM.
 
 ![You will find the free-text search to the right in the top bar -screenshot][img3]
 
@@ -132,13 +122,14 @@ Watch this video or follow the steps below to learn how you can create a search 
 ## Related content
 
 * [Favorites][4]
+* [The History list][5]
 * [Create a search and save it as a selection][7]
 * Broaden your search using the OR function
 
 <!-- Referenced links -->
 [1]: find-screen.md
 [2]: freetext-search.md
-[3]: using-fastsearcher.md
+[3]: fastsearcher.md
 [4]: ../../learn/basics/fav.md
 [5]: ../../learn/basics/history.md
 [6]: using-search-criteria.md
@@ -148,5 +139,4 @@ Watch this video or follow the steps below to learn how you can create a search 
 [img1]: media/search-find-fastsearcher.png
 [img2]: media/getstarted-search-find-findscreen.png
 [img3]: media/freetext-search-find.png
-[img4]: media/getstarted-document-fastsearcher.png
 [img5]: media/typical-search.png
