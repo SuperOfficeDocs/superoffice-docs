@@ -71,7 +71,7 @@ We recommend that you select all here. These fields will appear as columns in yo
 
     ![SuperOffice documents fields -screenshot][img10]
 
-## Step 3 - Groups and access​
+## <a id="step3" />Step 3 - Groups and access​
 
 ### Group access on SharePoint documents based on Visible for settings
 
